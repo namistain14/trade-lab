@@ -129,6 +129,10 @@
    [
     1792704646,
     5000
+   ],
+   [
+    1792705183,
+    5000
    ]
   ]
  },
@@ -305,15 +309,19 @@
    [
     1792704646,
     4999.63
+   ],
+   [
+    1792705183,
+    4999.63
    ]
   ],
   "news": {
-   "score": 0.2,
-   "confidence": 0.35,
+   "score": 0.25,
+   "confidence": 0.45,
    "reason": "\u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve piyasalardaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekliyor; bu nedenle alt\u0131n i\u00e7in hafif pozitif bir e\u011filim var. Ancak petrol kaynakl\u0131 enflasyon riski Fed'in s\u0131k\u0131 kalma beklentisini art\u0131r\u0131p reel faizleri y\u00fckseltebilece\u011finden etki s\u0131n\u0131rl\u0131 ve belirsiz; haberlerin \u00e7o\u011fu da bilinen veya fiyatlanm\u0131\u015f geli\u015fmeler.",
    "n": 45,
-   "ts": 1792704646376,
-   "new_headlines": 9,
+   "ts": 1792705183308,
+   "new_headlines": 12,
    "key_events": [
     "Pluang: 'Gold plunges, wiping out summer gains' (yeni, k\u0131sa vadeli bask\u0131)",
     "Petrol 110 dolar\u0131n \u00fczerinde, tanker fiyatlar\u0131 enerji s\u0131k\u0131\u015fmas\u0131 riski",
@@ -409,21 +417,32 @@
     "confidence": 0.35,
     "reason": "\u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve piyasalardaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekliyor; bu nedenle alt\u0131n i\u00e7in hafif pozitif bir e\u011filim var. Ancak petrol kaynakl\u0131 enflasyon riski Fed'in s\u0131k\u0131 kalma beklentisini art\u0131r\u0131p reel faizleri y\u00fckseltebilece\u011finden etki s\u0131n\u0131rl\u0131 ve belirsiz; haberlerin \u00e7o\u011fu da bilinen veya fiyatlanm\u0131\u015f geli\u015fmeler.",
     "new": 9
+   },
+   {
+    "ts": 1792705183308,
+    "score": 0.25,
+    "confidence": 0.45,
+    "reason": "",
+    "new": 12
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
+   "Trump invokes Cold War era Defense Production Act for oil production, refining - WKZO",
    "Porter Airlines Pilots Receive $2 Million USD Grant from ALPA\u2019s War Chest to Support Negotiations for a Fair Contract - ALPA",
+   "This Day in History: Kennedy addresses nation on Cuban Missile Crisis - WHSV",
    "Trump invokes Cold War era Defense Production Act for oil production, refining - Reuters",
    "Contracts for Oct. 22, 2026 - U.S. Department of War (.gov)",
    "U.S. Inflation Not Getting (Much) Worse, or Better, but Consumers are Fine - The Overshoot",
    "Judge limits election-related immigration stops amid broader legal war ahead of midterms - Los Angeles Times",
+   "Riyadh-led coalition says it shot down Houthi ballistic missile targeting Saudi Arabia's Najran - The Times of Israel",
    "Gold Miner Newmont Stock Rises on Expected Return to Growth in 2027 - Barron's",
    "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - The National News Desk",
    "Darline Graham didn\u2019t talk to Trump about Russia sanctions waiver during SC visit - The State",
+   "War in Iran, higher energy prices are only delaying gold's rally to $5,000; mining stocks remain undervalued \u2013 Gabelli - Kitco",
    "New York bans horse-drawn carriages over safety and abuse concerns",
    "Will the Iran war resume before the US and Israeli elections? - The National",
    "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze - MarketWatch",
@@ -431,13 +450,20 @@
    "Hegseth wanted Eisenhower\u2019s globe for his office. His staff broke it. - The Washington Post",
    "Peter Thiel disapproves of Iran war in notable break with Trump: \u2018We should not have done it\u2019 - New York Post",
    "Newmont beats quarterly profit estimates as company benefits from higher gold prices - The Globe and Mail",
+   "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Trump admits his war with Iran could be COSTING him politically, but insists some Americans absolutely LOVE what he's doing \ud83e\udd23 Asked how the war is affecting the races, Trump gave a surprisingly candid answer: \u201cIn one way, they love it, because I'm d - X",
    "Newmont beats third-quarter earnings expectations as higher gold sales boost profits; miner raises 2026 cost outlook - Kitco",
    "Exclusive | EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - South China Morning Post",
+   "Watch Romania Says Russia Escalating War - Bloomberg.com",
+   "Trump sidelines Russia sanctions as GOP allies push for more pressure on Putin - Fox News",
+   "Iran says 7 vessels hit near Strait of Hormuz, warns US of wider response - NewsNation",
+   "How popular is the Iran War? - Silver Bulletin",
+   "Trump Approval Rating: Hits A Low On The Economy\u2014As Republican Pessimism Reaches All-Time High - Forbes",
+   "Detroit tourism bureau halts advertising in Canada amid trade war, hopes Canadians won't 'hold grudge' - CBC",
    "Markets tumble as concerns about Iran war and high AI spending collide - NBC News",
    "891 Missile Security Forces Squadron enhances training and readiness - Minot Air Force Base (.mil)",
    "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time - TWZ",
+   "Airfares will not return to pre-Iran war levels, American Airlines warns - Financial Times",
    "Gold Rate Today in West Bengal 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
-   "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices - PBS",
    "Starlink Slowed, Ukraine\u2019s Drones Stalled: The Private Power Behind a Modern War - The Media Line",
    "Gayla Huber Nominated by Federal Reserve Bank of Kansas City, Appointed to CFPB Consumer Advisory Board - EIN News",
    "Russian strikes hit Kyiv after Witkoff meets Putin - Al Jazeera",
@@ -447,20 +473,9 @@
    "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
    "Oil Above $110 Sends Fresh Warning to Stock Market - TradingView",
    "Buccellati Gives Torsad\u00e9 a Fresh Twist - www.jckonline.com",
+   "Trump's Russia policy is 'prolonging the war\u2019 in Ukraine - TVP World",
    "Saudi-led coalition intercepts Houthi ballistic missile targeting southwestern Saudi Arabia - Anadolu Ajans\u0131",
-   "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices - Lowell Sun",
-   "Tenth District Manufacturing Activity Increased Steadily in October - Kansas City Fed",
-   "Gold miners face margin pressure as lower prices complicate third-quarter results By Investing.com - Investing.com South Africa",
-   "Fernandes set to avoid sanctions over post-match Carrick criticism - Yahoo Sports",
-   "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
-   "Israel Faces 94 Active Sanctions Measures Worldwide, New Data Reveals - Algemeiner.com",
-   "Paris extends curfew as Marseille and Lyon ban protests after riots",
-   "Peter Thiel Says Iran War Was a Mistake - Newser",
-   "Average long-term US mortgage rate eases to 7.32% in first pullback since late August - WPSD Local 6",
-   "Raytheon Secures $394M Missile Defense Contract Extension - Clearance Jobs",
-   "How popular is the Iran War? - Silver Bulletin",
-   "Maine Democrats slam Sen. Collins, Iran war for high oil prices - WGME",
-   "Chinese Yuan: Gradual gains toward 6.6640 against US Dollar \u2013 UOB - FXStreet"
+   "Tenth District Manufacturing Activity Increased Steadily in October - Kansas City Fed"
   ]
  },
  "log": [
@@ -480,6 +495,7 @@
   "23.10 00:09 B  CLOSE short stop: -4.19 USD",
   "23.10 00:09 B  NEWS (10 new) score -0.15 conf 0.30: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: \"Gold plunges\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadede bask\u0131 i\u015fareti veriyor, ancak petrol 110 dolar\u0131n \u00fczerinde ve \u0130ran sava\u015f\u0131/Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini destekliyor. Enflasyon kaynakl\u0131 faiz beklentisi endi\u015fesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
   "23.10 00:19 B  NEWS (10 new) score +0.20 conf 0.35: Yeni haberlerde \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi ve ABD-\u0130srail sald\u0131r\u0131lar\u0131n\u0131n Kas\u0131m'da planland\u0131\u011f\u0131 y\u00f6n\u00fcndeki riskler, risk-off ortam\u0131 ve petrol fiyatlar\u0131n\u0131n 110 dolar\u0131 a\u015fmas\u0131 gibi unsurlar g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak petrol kaynakl\u0131 enflasyon bask\u0131s\u0131 faiz indirimi beklentilerini geciktirebilir, ABD enflasyonu da belirgin bir s\u00fcrpriz g\u00f6stermiyor; bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-  "23.10 00:30 B  NEWS (9 new) score +0.20 conf 0.35: \u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve piyasalardaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekliyor; bu nedenle alt\u0131n i\u00e7in hafif pozitif bir e\u011filim var. Ancak petrol kaynakl\u0131 enflasyon riski Fed'in s\u0131k\u0131 kalma beklentisini art\u0131r\u0131p reel faizleri y\u00fckseltebilece\u011finden etki s\u0131n\u0131rl\u0131 ve belirsiz; haberlerin \u00e7o\u011fu da bilinen veya fiyatlanm\u0131\u015f geli\u015fmeler."
+  "23.10 00:30 B  NEWS (9 new) score +0.20 conf 0.35: \u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve piyasalardaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekliyor; bu nedenle alt\u0131n i\u00e7in hafif pozitif bir e\u011filim var. Ancak petrol kaynakl\u0131 enflasyon riski Fed'in s\u0131k\u0131 kalma beklentisini art\u0131r\u0131p reel faizleri y\u00fckseltebilece\u011finden etki s\u0131n\u0131rl\u0131 ve belirsiz; haberlerin \u00e7o\u011fu da bilinen veya fiyatlanm\u0131\u015f geli\u015fmeler.",
+  "23.10 00:39 B  NEWS (12 new) score +0.25 conf 0.45: "
  ]
 }
