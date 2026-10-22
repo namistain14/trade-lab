@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 02:02 (İstanbul)
+> Son güncelleme: 23.10.2026 02:04 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -29,14 +29,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -4.19 $ | -0.37 $ |
-| İşlem sayısı | 1 | 2 |
-| Kazanma oranı | %0.0 | %50.0 |
-| Ödenen komisyon/spread | 2.37 $ | 4.74 $ |
+| Net kâr/zarar | -0.37 $ | +3.44 $ |
+| İşlem sayısı | 2 | 3 |
+| Kazanma oranı | %50.0 | %66.7 |
+| Ödenen komisyon/spread | 4.74 $ | 7.12 $ |
 
-**Hesap değeri: 5,003.99 $** (başlangıç 5,000 $, +3.99 $ / %+0.08)
-
-Açık pozisyonlar: PAXGUSDT short @ 4040.54 (TP 4036.50 / SL 4042.97)
+**Hesap değeri: 5,003.44 $** (başlangıç 5,000 $, +3.44 $ / %+0.07)
 
 Son haber analizi (23.10 02:02): puan **-0.30**, güven 0.50 — Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
 
@@ -44,6 +42,7 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 02:03 | PAXGUSDT | short | +3.82 $ | take profit |
 | 23.10 00:03 | PAXGUSDT | short | -4.19 $ | stop |
 | 22.10 23:16 | PAXGUSDT | short | +3.82 $ | take profit |
 
@@ -72,7 +71,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere yönelik saldırı ve petrolün 110 doların üzerine çıkması jeopolitik güvenli liman talebini destekliyor, ancak enflasyon baskısı artırdığı için Fed'in sıkı kalma beklentisini güçlendirip altın üzerinde baskı yaratabilir. Tahvil faizlerinin geri dönmesi ve ortalama mortgage oranının hafif gerilemesi sınırlı bir yumuşama işareti; haberlerin çoğu ise altın fiyatını doğrudan etkilemeyen gürültü niteliğinde. Net etki hafif negatif, düşük güvenle.
 23.10 00:09 B  CLOSE short stop: -4.19 USD
 23.10 00:09 B  NEWS (10 new) score -0.15 conf 0.30: Yeni başlıklar karışık: "Gold plunges" başlığı kısa vadede baskı işareti veriyor, ancak petrol 110 doların üzerinde ve İran savaşı/Ukrayna'daki çatışmalar güvenli liman talebini destekliyor. Enflasyon kaynaklı faiz beklentisi endişesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, güven düşük.
 23.10 00:19 B  NEWS (10 new) score +0.20 conf 0.35: Yeni haberlerde İran savaşının yeniden başlayabileceği ve ABD-İsrail saldırılarının Kasım'da planlandığı yönündeki riskler, risk-off ortamı ve petrol fiyatlarının 110 doları aşması gibi unsurlar güvenli liman talebini hafifçe destekliyor. Ancak petrol kaynaklı enflasyon baskısı faiz indirimi beklentilerini geciktirebilir, ABD enflasyonu da belirgin bir sürpriz göstermiyor; bu nedenle etki sınırlı ve karışık.
@@ -87,6 +85,7 @@ Son işlemler:
 23.10 01:40 B1  SHORT gold 5000 USD x10 @ 4040.54 (TP 4036.50, SL 4042.97; news -0.40)
 23.10 01:52 N  NEWS (17 new) score -0.20 conf 0.45: Altın son saatlerde satış baskısı altında ve 4.050 doların altına indi; petrolün 113 doların üzerine çıkması enflasyon ve sıkı para politikası beklentilerini canlandırarak altın için olumsuz. Savaş riskinin güvenli liman talebi yaratması ise bu baskıyı sınırlıyor, bu yüzden sinyal zayıf-negatif ve güven orta düzeyde.
 23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
+23.10 02:04 B1  CLOSE short take profit: +3.82 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

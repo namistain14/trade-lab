@@ -169,30 +169,18 @@
    [
     1792710156,
     5000
+   ],
+   [
+    1792710273,
+    5000
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4999.628815023638,
+   "balance": 5003.444196347806,
    "start": 5000,
-   "positions": [
-    {
-     "id": "ed024730",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.237457838883336,
-     "entry": 4040.5416999999998,
-     "tp": 4036.5011582999996,
-     "sl": 4042.96602502,
-     "opened_ms": 1792708828435,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.40/0.50",
-     "friction": 2.3717
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -235,12 +223,33 @@
      "gross": -4.1865,
      "costs": 0.0,
      "pnl": -4.1865
+    },
+    {
+     "id": "ed024730",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.237457838883336,
+     "entry": 4040.5416999999998,
+     "tp": 4036.5011582999996,
+     "sl": 4042.96602502,
+     "opened_ms": 1792708828435,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.40/0.50",
+     "friction": 2.3717,
+     "exit": 4037.4584585316597,
+     "closed_ms": 1792710180000,
+     "reason": "take profit",
+     "gross": 3.8154,
+     "costs": 0.0,
+     "pnl": 3.8154
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 1,
-    "pnl": -4.186473016036805,
+    "pnl": -0.37109169186928037,
     "stopped": false
    },
    "last_check_ms": 0
@@ -401,6 +410,10 @@
    [
     1792710156,
     5003.99
+   ],
+   [
+    1792710273,
+    5003.44
    ]
   ],
   "news": {
@@ -649,7 +662,8 @@
   "23.10 01:40 N  NEWS (11 new) score -0.40 conf 0.50: Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert sat\u0131\u015fla indi ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, Suudi sald\u0131r\u0131s\u0131n\u0131n petrol\u00fc 113 dolar\u0131n \u00fczerine ta\u015f\u0131mas\u0131yla birlikte enflasyon ve s\u0131k\u0131 Fed beklentilerinin g\u00fcvenli liman talebinin \u00f6n\u00fcne ge\u00e7ti\u011fini g\u00f6steriyor. Ancak jeopolitik t\u0131rman\u0131\u015f ve enerji \u015fokunun ayn\u0131 anda ya\u015fanmas\u0131 sinyalleri \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcveni s\u0131n\u0131rl\u0131 tutuyorum.",
   "23.10 01:40 B1  SHORT gold 5000 USD x10 @ 4040.54 (TP 4036.50, SL 4042.97; news -0.40)",
   "23.10 01:52 N  NEWS (17 new) score -0.20 conf 0.45: Alt\u0131n son saatlerde sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda ve 4.050 dolar\u0131n alt\u0131na indi; petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n i\u00e7in olumsuz. Sava\u015f riskinin g\u00fcvenli liman talebi yaratmas\u0131 ise bu bask\u0131y\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden sinyal zay\u0131f-negatif ve g\u00fcven orta d\u00fczeyde.",
-  "23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert bir sat\u0131\u015f bask\u0131s\u0131yla d\u00fc\u015ft\u00fc ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, petrol fiyatlar\u0131n\u0131n 113 dolar\u0131 a\u015fmas\u0131yla artan enflasyon ve s\u0131k\u0131la\u015fma beklentilerinin g\u00fcvenli liman talebini bast\u0131rd\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Sava\u015f kaynakl\u0131 jeopolitik risk teoride alt\u0131n\u0131 destekler, ancak piyasada \u015fu an faiz ve dolar kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu nedenle k\u0131sa vadede hafif negatif bir e\u011filim var, fakat jeopolitik \u015fok ve d\u00fc\u015f\u00fck seviyeden al\u0131m ihtimali nedeniyle g\u00fcven s\u0131n\u0131rl\u0131."
+  "23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert bir sat\u0131\u015f bask\u0131s\u0131yla d\u00fc\u015ft\u00fc ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, petrol fiyatlar\u0131n\u0131n 113 dolar\u0131 a\u015fmas\u0131yla artan enflasyon ve s\u0131k\u0131la\u015fma beklentilerinin g\u00fcvenli liman talebini bast\u0131rd\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Sava\u015f kaynakl\u0131 jeopolitik risk teoride alt\u0131n\u0131 destekler, ancak piyasada \u015fu an faiz ve dolar kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu nedenle k\u0131sa vadede hafif negatif bir e\u011filim var, fakat jeopolitik \u015fok ve d\u00fc\u015f\u00fck seviyeden al\u0131m ihtimali nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
+  "23.10 02:04 B1  CLOSE short take profit: +3.82 USD"
  ],
  "gold_big": {
   "account": {
@@ -700,6 +714,10 @@
    ],
    [
     1792710156,
+    5000
+   ],
+   [
+    1792710273,
     5000
    ]
   ],
@@ -758,6 +776,10 @@
    [
     1792710156,
     5000
+   ],
+   [
+    1792710273,
+    5000
    ]
   ],
   "news_calls": {
@@ -810,6 +832,10 @@
    ],
    [
     1792710156,
+    5000
+   ],
+   [
+    1792710273,
     5000
    ]
   ]
