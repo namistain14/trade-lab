@@ -15,7 +15,7 @@ bots:
     take_profit_pct: 0.006 # +0.6%
     stop_loss_pct: 0.004   # -0.4%
     max_hold_minutes: 120
-    rsi_buy_below: 30
+    rsi_buy_below: 40      # observation mode (was 30)
     max_trades_per_day: 40
     daily_loss_limit_pct: 0.02
 
@@ -30,9 +30,9 @@ bots:
     take_profit_usd: 5
     stop_loss_usd: 3
     max_hold_minutes: 240
-    news_every_minutes: 60    # how often Claude reads the news
-    min_score: 0.4            # |sentiment| needed to trade (-1 bearish .. +1 bullish)
-    min_confidence: 0.6
+    news_every_minutes: 30    # how often Claude reads the news (observation mode, was 60)
+    min_score: 0.2            # |sentiment| needed to trade (observation mode, was 0.4)
+    min_confidence: 0.35      # observation mode (was 0.6)
     max_trades_per_day: 40
     daily_loss_limit_usd: 100
 
