@@ -45,6 +45,10 @@
    [
     1792695038,
     5000
+   ],
+   [
+    1792695596,
+    5000
    ]
   ]
  },
@@ -94,14 +98,18 @@
    [
     1792695038,
     5000
+   ],
+   [
+    1792695596,
+    5000
    ]
   ],
   "news": {
-   "score": -0.3,
+   "score": 0.2,
    "confidence": 0.4,
-   "reason": "The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence.",
+   "reason": "Hormuz'da 7 tankerin vuruldu\u011fu iddias\u0131 ve Iran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair korkular jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in alt\u0131na inmesi ve dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in olumlu; \u00f6te yandan haberler alt\u0131n\u0131n g\u00fcvenli liman yerine ABD tahvillerine kayd\u0131\u011f\u0131n\u0131 ve petrol kaynakl\u0131 faiz tart\u0131\u015fmas\u0131n\u0131n alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131n\u0131 da g\u00f6steriyor. Bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n belirsiz, g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792691495352
+   "ts": 1792695596021
   },
   "news_history": [
    {
@@ -109,10 +117,17 @@
     "score": -0.3,
     "confidence": 0.4,
     "reason": "The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence."
+   },
+   {
+    "ts": 1792695596021,
+    "score": 0.2,
+    "confidence": 0.4,
+    "reason": "Hormuz'da 7 tankerin vuruldu\u011fu iddias\u0131 ve Iran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair korkular jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in alt\u0131na inmesi ve dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in olumlu; \u00f6te yandan haberler alt\u0131n\u0131n g\u00fcvenli liman yerine ABD tahvillerine kayd\u0131\u011f\u0131n\u0131 ve petrol kaynakl\u0131 faiz tart\u0131\u015fmas\u0131n\u0131n alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131n\u0131 da g\u00f6steriyor. Bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n belirsiz, g\u00fcven d\u00fc\u015f\u00fck."
    }
   ]
  },
  "log": [
-  "22.10 20:51 B  NEWS score -0.30 conf 0.40: The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence."
+  "22.10 20:51 B  NEWS score -0.30 conf 0.40: The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence.",
+  "22.10 21:59 B  NEWS score +0.20 conf 0.40: Hormuz'da 7 tankerin vuruldu\u011fu iddias\u0131 ve Iran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair korkular jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in alt\u0131na inmesi ve dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in olumlu; \u00f6te yandan haberler alt\u0131n\u0131n g\u00fcvenli liman yerine ABD tahvillerine kayd\u0131\u011f\u0131n\u0131 ve petrol kaynakl\u0131 faiz tart\u0131\u015fmas\u0131n\u0131n alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131n\u0131 da g\u00f6steriyor. Bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n belirsiz, g\u00fcven d\u00fc\u015f\u00fck."
  ]
 }
