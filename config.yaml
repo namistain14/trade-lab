@@ -22,6 +22,28 @@ bots:
     max_trades_per_day: 40
     daily_loss_limit_pct: 0.02
 
+  crypto_bounce:           # Bot A2: spot, no leverage; buys the first green candle after a real drop (works in downtrends)
+    type: crypto_rules
+    label: "Bot A2 — Kripto: sert düşüş sonrası toparlanma (spot, kaldıraçsız)"
+    tag: "A2"
+    enabled: true
+    symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    interval: "5m"
+    fee_rate: 0.001
+    slippage_rate: 0.0003
+    position_pct: 0.20
+    max_open: 2
+    take_profit_pct: 0.008   # +0.8%
+    stop_loss_pct: 0.006     # -0.6%
+    max_hold_minutes: 90
+    trend_filter: false
+    min_drop_pct: 0.02       # price at least 2% below its 2-hour high
+    drop_lookback_candles: 24
+    require_green_candle: true
+    rsi_buy_below: 30
+    max_trades_per_day: 20
+    daily_loss_limit_pct: 0.02
+
   gold_news:               # Bot B1: news-driven gold, leveraged, both directions (observation settings)
     type: gold_news
     label: "Bot B1 — Altın + haber (şimdiki ayarlar, TP 5$ / SL 3$)"

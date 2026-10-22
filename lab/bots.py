@@ -20,7 +20,7 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
         for tr in paper.check_exits(acc, sym, m1,
                                     exit_fill=lambda side, lvl: lvl * (1 - slip),
                                     exit_fee=lambda px, q: px * q * fee):
-            log.append(f"A  CLOSE {sym} {tr['reason']}: {tr['pnl']:+.2f} USD")
+            log.append(f"{cfg.get('tag', 'A')}  CLOSE {sym} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
     ok, why = paper.can_open(acc, cfg["max_trades_per_day"], acc["start"] * cfg["daily_loss_limit_pct"])
     if not ok:
@@ -36,7 +36,14 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
         if len(closes) < 210:
             continue
         e200, r = market.ema(closes, 200)[-1], market.rsi(closes, 14)
-        if closes[-1] > e200 and r[-1] < cfg["rsi_buy_below"] and r[-1] > r[-2]:
+        trend_ok = closes[-1] > e200 if cfg.get("trend_filter", True) else True
+        # optional "bounce" rules: a real drop first, then the first green candle
+        lookback = cfg.get("drop_lookback_candles", 24)
+        dropped = ((max(closes[-lookback:]) - closes[-1]) / max(closes[-lookback:]) >= cfg["min_drop_pct"]
+                   if cfg.get("min_drop_pct") else True)
+        last_c = [c for c in m5 if c["closed"]][-1]
+        green = last_c["c"] > last_c["o"] if cfg.get("require_green_candle") else True
+        if trend_ok and dropped and green and r[-1] < cfg["rsi_buy_below"] and r[-1] > r[-2]:
             price = prices[sym] * (1 + slip)
             notional = min(acc["balance"] * cfg["position_pct"], acc["balance"] - sum(
                 p["qty"] * p["entry"] for p in acc["positions"]))
@@ -47,7 +54,7 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
                                 tp=price * (1 + cfg["take_profit_pct"]), sl=price * (1 - cfg["stop_loss_pct"]),
                                 t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
                                 margin=notional, note=f"RSI {r[-1]:.0f}, above EMA200")
-            log.append(f"A  BUY {sym} {notional:.0f} USD @ {price:.2f} (RSI {r[-1]:.0f})")
+            log.append(f"{cfg.get('tag', 'A')}  BUY {sym} {notional:.0f} USD @ {price:.2f} (RSI {r[-1]:.0f})")
     return prices
 
 
