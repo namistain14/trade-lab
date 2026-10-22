@@ -84,6 +84,13 @@ def check_exits(acc: dict, symbol: str, candles_1m: list[dict], exit_fill, exit_
                     level, reason = pos["sl"], "stop"
                 elif c["l"] <= pos["tp"]:
                     level, reason = pos["tp"], "take profit"
+            # protect profit: once price has moved far enough our way, the stop moves to break-even
+            # (checked after the stop test of the same candle, so it never helps a losing candle)
+            if level is None and pos.get("be_trigger") is not None:
+                hit = c["h"] >= pos["be_trigger"] if long_ else c["l"] <= pos["be_trigger"]
+                if hit:
+                    pos["sl"] = max(pos["sl"], pos["be_level"]) if long_ else min(pos["sl"], pos["be_level"])
+                    pos["be_trigger"] = None
             if level is None and c["t"] - pos["opened_ms"] >= pos["max_hold_min"] * 60_000 and c["closed"]:
                 level, reason = c["c"], "time limit"
             if level is not None:

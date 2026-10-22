@@ -45,8 +45,7 @@ def fmt_ms(ms: int) -> str:
 def dashboard(cfg: dict, st: dict, prices: dict) -> None:
     now = dt.datetime.now(IST)
     day_start = int(dt.datetime.combine(now.date(), dt.time(), IST).timestamp() * 1000)
-    names = {"crypto_rules": "Bot A — Kripto kurallar (spot, kaldıraçsız)",
-             "gold_news": "Bot B — Altın + haber (1:10 kaldıraç)"}
+    names = {n: b.get("label", n) for n, b in cfg["bots"].items()}
     out = ["# trade-lab — SANAL işlem denemesi",
            "",
            "> ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.",
@@ -73,7 +72,7 @@ def dashboard(cfg: dict, st: dict, prices: dict) -> None:
                 f"{p['symbol']} {p['side']} @ {p['entry']:.2f} (TP {p['tp']:.2f} / SL {p['sl']:.2f})"
                 for p in acc["positions"]))
             out.append("")
-        if name == "gold_news" and st.get(name, {}).get("news"):
+        if name == "gold_news" and st.get(name, {}).get("news"):  # the shared news view lives with B1
             n = st[name]["news"]
             out += [f"Son haber analizi ({fmt_ms(n.get('ts', 0))}): puan **{n.get('score', 0):+.2f}**, "
                     f"güven {n.get('confidence', 0):.2f} — {n.get('reason', '')}", ""]
@@ -96,17 +95,23 @@ def main() -> None:
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip() or None
     b = cfg["bots"]
     errors = []
-    if b.get("crypto_rules", {}).get("enabled"):
+    # the first gold bot ("gold_news") reads the news; the other gold bots share its view
+    order = sorted(b, key=lambda n: (b[n].get("type", n) != "crypto_rules", n != "gold_news"))
+    for name in order:
+        bc = b[name]
+        if not bc.get("enabled"):
+            continue
+        kind = bc.get("type", name)
+        tag = bc.get("tag", name)
         try:
-            prices.update(bots.crypto_tick(st["crypto_rules"]["account"], b["crypto_rules"], log))
+            if kind == "crypto_rules":
+                prices.update(bots.crypto_tick(st[name]["account"], bc, log))
+            elif kind == "gold_news":
+                shared = None if name == "gold_news" else st["gold_news"].setdefault("news", {})
+                prices.update(bots.gold_tick(st[name]["account"], bc, cfg["news"], st[name], log, key,
+                                             shared_news=shared, tag=tag))
         except Exception as e:  # noqa: BLE001
-            errors.append(f"Bot A: {e}")
-    if b.get("gold_news", {}).get("enabled"):
-        try:
-            prices.update(bots.gold_tick(st["gold_news"]["account"], b["gold_news"], cfg["news"], st["gold_news"],
-                                         log, key))
-        except Exception as e:  # noqa: BLE001
-            errors.append(f"Bot B: {e}")
+            errors.append(f"{tag}: {e}")
 
     stamp = dt.datetime.now(IST).strftime("%d.%m %H:%M")
     for name in cfg["bots"]:

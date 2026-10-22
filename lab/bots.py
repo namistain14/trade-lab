@@ -60,7 +60,7 @@ def gold_market_open(now: dt.datetime | None = None) -> bool:
 
 
 def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_key: str | None,
-              data=None, sentiment_fn=None) -> dict:
+              data=None, sentiment_fn=None, shared_news: dict | None = None, tag: str = "B") -> dict:
     sym, slip = cfg["symbol"], cfg["slippage_rate"]
     m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
     price_now = m1[-1]["c"]
@@ -70,18 +70,19 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
         return lvl - half - lvl * slip if side == "long" else lvl + half + lvl * slip
 
     for tr in paper.check_exits(acc, sym, m1, exit_fill=exit_fill, exit_fee=lambda px, q: 0.0):
-        log.append(f"B  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
+        log.append(f"{tag}  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
     # news: headlines are checked on EVERY tick (free); Claude is asked only when new headlines arrived
     # (at most every news_min_minutes), or anyway every news_max_minutes so the view never gets stale.
-    news = state.setdefault("news", {})
+    news = shared_news if shared_news is not None else state.setdefault("news", {})
     age_min = (_now_ms() - news.get("ts", 0)) / 60_000
     min_m = cfg.get("news_min_minutes", cfg.get("news_every_minutes", 30))
     max_m = cfg.get("news_max_minutes", cfg.get("news_every_minutes", 60))
     calls = state.setdefault("news_calls", {"date": paper.today(), "n": 0})
     if calls["date"] != paper.today():
         calls.update({"date": paper.today(), "n": 0})
-    if (api_key or sentiment_fn) and age_min >= min_m and calls["n"] < cfg.get("news_max_calls_per_day", 120):
+    if (shared_news is None and (api_key or sentiment_fn) and age_min >= min_m
+            and calls["n"] < cfg.get("news_max_calls_per_day", 120)):
         try:
             import news as news_mod
             lines = [] if sentiment_fn else news_mod.headlines(news_cfg["feeds"])
@@ -99,13 +100,16 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
                 hist.append({"ts": news["ts"], "score": res["score"], "confidence": res["confidence"],
                              "reason": res.get("reason", ""), "new": len(new_lines)})
                 state["news_history"] = hist[-300:]
-                log.append(f"B  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
+                log.append(f"N  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
                            f"{res.get('reason', '')}")
         except Exception as e:  # noqa: BLE001
             log.append(f"B  NEWS failed: {e}")
 
     ok, why = paper.can_open(acc, cfg["max_trades_per_day"], cfg["daily_loss_limit_usd"])
     if not ok or acc["positions"] or not gold_market_open():
+        return {sym: price_now}
+    hours = cfg.get("session_hours_utc")  # e.g. [7, 16] = London + New York (10:00-19:00 Istanbul)
+    if hours and not (hours[0] <= dt.datetime.now(dt.timezone.utc).hour < hours[1]):
         return {sym: price_now}
     fresh = (_now_ms() - news.get("ts", 0)) / 60_000 <= 2 * cfg.get("news_max_minutes", cfg.get("news_every_minutes", 60))
     score, conf = news.get("score", 0.0), news.get("confidence", 0.0)
@@ -123,6 +127,12 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     side = "long" if score > 0 else "short"
     if (side == "long" and closes[-1] <= e50) or (side == "short" and closes[-1] >= e50):
         return {sym: price_now}  # price trend disagrees with the news -> wait
+    if cfg.get("momentum"):  # the move must already be under way: price beyond a rising/falling EMA20
+        e20 = market.ema(closes, 20)
+        if side == "long" and not (closes[-1] > e20[-1] > e20[-3]):
+            return {sym: price_now}
+        if side == "short" and not (closes[-1] < e20[-1] < e20[-3]):
+            return {sym: price_now}
 
     entry = price_now + half + price_now * slip if side == "long" else price_now - half - price_now * slip
     qty = cfg["notional_usd"] / entry
@@ -135,6 +145,11 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
                               entry_cost=0.0, max_hold_min=cfg["max_hold_minutes"], margin=margin,
                               note=f"news {score:+.2f}/{conf:.2f}")
     pos["friction"] = round(qty * (2 * half + 2 * price_now * slip), 4)  # spread + slippage (already in fills)
-    log.append(f"B  {side.upper()} gold {cfg['notional_usd']} USD x{cfg['leverage']} @ {entry:.2f} "
+    if cfg.get("breakeven_after_usd"):
+        be_d = cfg["breakeven_after_usd"] / qty
+        cost_d = pos["friction"] / qty  # stop at a level that still covers the exit costs
+        pos["be_trigger"] = entry + be_d if side == "long" else entry - be_d
+        pos["be_level"] = entry + cost_d if side == "long" else entry - cost_d
+    log.append(f"{tag}  {side.upper()} gold {cfg['notional_usd']} USD x{cfg['leverage']} @ {entry:.2f} "
                f"(TP {tp:.2f}, SL {sl:.2f}; news {score:+.2f})")
     return {sym: price_now}

@@ -13,8 +13,10 @@ import paper  # noqa: E402
 from run import IST, load  # noqa: E402
 
 PROMPT = """Sen dürüst ve temkinli bir kantitatif analistsin. Aşağıda iki SANAL (paper) trading botunun verileri var.
-Bot A: kripto, kurallara dayalı (RSI + EMA200), spot, kaldıraçsız. Bot B: altın (PAXG ile XAU/USD simülasyonu),
-haberleri Claude puanlıyor, 1:10 kaldıraç, TP 5$ / SL 3$.
+Bot A: kripto, kurallara dayalı (RSI + EMA200), spot, kaldıraçsız. B1/B2/B3: altın (PAXG ile XAU/USD simülasyonu),
+haberleri Claude puanlıyor, 1:10 kaldıraç. B1 gözlem ayarları (TP 5$/SL 3$), B2 sıkı eşik ve büyük hedef (TP 15$/SL 10$),
+B3 = B2 + Londra/New York seans filtresi + momentum + kârı koruma. Botları özellikle işlem başına ortalama net kazanç
+(expectancy) ve başa baş kazanma oranı açısından karşılaştır.
 
 Ayarlar:
 {config}
