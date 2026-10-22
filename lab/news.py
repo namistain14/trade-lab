@@ -18,7 +18,7 @@ Think about: safe-haven demand (wars, escalation, crises), real interest rates a
 central bank gold buying. Old, already-priced-in or contradictory news should LOWER your confidence.
 If nothing important happened, score near 0.
 
-Headlines:
+Headlines (lines starting with NEW arrived since your last analysis; weigh them most):
 {headlines}
 
 Call the submit tool with JSON:
@@ -55,8 +55,11 @@ def headlines(feeds: list[str], max_age_hours: float = 8, limit: int = 45) -> li
     return [f"[{w.strftime('%H:%M')} UTC] {t}" for w, t in items[:limit]]
 
 
-def gold_sentiment(api_key: str, model: str, feeds: list[str]) -> dict:
-    lines = headlines(feeds)
+def gold_sentiment(api_key: str, model: str, feeds: list[str], lines: list[str] | None = None,
+                   new_lines: list[str] | None = None) -> dict:
+    lines = lines if lines is not None else headlines(feeds)
+    if new_lines:  # point Claude at what just arrived
+        lines = [("NEW " + x if x in set(new_lines) else x) for x in lines]
     if not lines:
         return {"score": 0.0, "confidence": 0.0, "reason": "no fresh headlines", "key_events": [], "n": 0}
     client = anthropic.Anthropic(api_key=api_key)

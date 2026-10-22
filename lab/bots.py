@@ -72,30 +72,42 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     for tr in paper.check_exits(acc, sym, m1, exit_fill=exit_fill, exit_fee=lambda px, q: 0.0):
         log.append(f"B  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
-    # refresh the news view
+    # news: headlines are checked on EVERY tick (free); Claude is asked only when new headlines arrived
+    # (at most every news_min_minutes), or anyway every news_max_minutes so the view never gets stale.
     news = state.setdefault("news", {})
     age_min = (_now_ms() - news.get("ts", 0)) / 60_000
-    if age_min >= cfg["news_every_minutes"] and (api_key or sentiment_fn):
+    min_m = cfg.get("news_min_minutes", cfg.get("news_every_minutes", 30))
+    max_m = cfg.get("news_max_minutes", cfg.get("news_every_minutes", 60))
+    calls = state.setdefault("news_calls", {"date": paper.today(), "n": 0})
+    if calls["date"] != paper.today():
+        calls.update({"date": paper.today(), "n": 0})
+    if (api_key or sentiment_fn) and age_min >= min_m and calls["n"] < cfg.get("news_max_calls_per_day", 120):
         try:
-            if sentiment_fn:
-                res = sentiment_fn()
-            else:
-                import news as news_mod
-                res = news_mod.gold_sentiment(api_key, news_cfg["model"], news_cfg["feeds"])
-            news.update(res)
-            news["ts"] = _now_ms()
-            hist = state.setdefault("news_history", [])
-            hist.append({"ts": news["ts"], "score": res["score"], "confidence": res["confidence"],
-                         "reason": res.get("reason", "")})
-            state["news_history"] = hist[-200:]
-            log.append(f"B  NEWS score {res['score']:+.2f} conf {res['confidence']:.2f}: {res.get('reason', '')}")
+            import news as news_mod
+            lines = [] if sentiment_fn else news_mod.headlines(news_cfg["feeds"])
+            seen = set(state.get("news_seen", []))
+            new_lines = [x for x in lines if x.split("] ", 1)[-1] not in seen]
+            if sentiment_fn or (lines and (new_lines or age_min >= max_m)) or (not lines and age_min >= max_m):
+                res = sentiment_fn() if sentiment_fn else news_mod.gold_sentiment(
+                    api_key, news_cfg["model"], news_cfg["feeds"], lines=lines, new_lines=new_lines)
+                calls["n"] += 1
+                news.update(res)
+                news["ts"] = _now_ms()
+                news["new_headlines"] = len(new_lines)
+                state["news_seen"] = [x.split("] ", 1)[-1] for x in lines][:200]
+                hist = state.setdefault("news_history", [])
+                hist.append({"ts": news["ts"], "score": res["score"], "confidence": res["confidence"],
+                             "reason": res.get("reason", ""), "new": len(new_lines)})
+                state["news_history"] = hist[-300:]
+                log.append(f"B  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
+                           f"{res.get('reason', '')}")
         except Exception as e:  # noqa: BLE001
             log.append(f"B  NEWS failed: {e}")
 
     ok, why = paper.can_open(acc, cfg["max_trades_per_day"], cfg["daily_loss_limit_usd"])
     if not ok or acc["positions"] or not gold_market_open():
         return {sym: price_now}
-    fresh = (_now_ms() - news.get("ts", 0)) / 60_000 <= 2 * cfg["news_every_minutes"]
+    fresh = (_now_ms() - news.get("ts", 0)) / 60_000 <= 2 * cfg.get("news_max_minutes", cfg.get("news_every_minutes", 60))
     score, conf = news.get("score", 0.0), news.get("confidence", 0.0)
     if not fresh or abs(score) < cfg["min_score"] or conf < cfg["min_confidence"]:
         return {sym: price_now}
