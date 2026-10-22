@@ -1,0 +1,49 @@
+# trade-lab: PAPER trading only. No exchange keys, no real money.
+# Edit from GitHub's web editor; changes apply on the next 5-minute tick.
+
+start_equity_usd: 5000
+
+bots:
+  crypto_rules:            # Bot A: rule-based crypto scalping (spot, long only, no leverage)
+    enabled: true
+    symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    interval: "5m"
+    fee_rate: 0.001        # 0.1% per side (typical spot taker fee)
+    slippage_rate: 0.0003  # 0.03% worse price on every fill
+    position_pct: 0.20     # max 20% of equity per trade
+    max_open: 2
+    take_profit_pct: 0.006 # +0.6%
+    stop_loss_pct: 0.004   # -0.4%
+    max_hold_minutes: 120
+    rsi_buy_below: 30
+    max_trades_per_day: 40
+    daily_loss_limit_pct: 0.02
+
+  gold_news:               # Bot B: news-driven gold, leveraged, both directions
+    enabled: true
+    symbol: "PAXGUSDT"     # gold-backed token, 24/7 price that tracks gold (paper proxy for XAU/USD)
+    interval: "5m"
+    leverage: 10           # SPK retail limit for gold is 1:10
+    notional_usd: 5000     # position size (margin = notional / leverage = 500 USD)
+    spread_usd_per_oz: 0.30   # simulated XAU/USD spread
+    slippage_rate: 0.0002
+    take_profit_usd: 5
+    stop_loss_usd: 3
+    max_hold_minutes: 240
+    news_every_minutes: 60    # how often Claude reads the news
+    min_score: 0.4            # |sentiment| needed to trade (-1 bearish .. +1 bullish)
+    min_confidence: 0.6
+    max_trades_per_day: 40
+    daily_loss_limit_usd: 100
+
+news:
+  model: "claude-haiku-5-5"   # cheap and fast for hourly news reading
+  feeds:
+    - "https://news.google.com/rss/search?q=gold+price+when:1d&hl=en-US&gl=US&ceid=US:en"
+    - "https://news.google.com/rss/search?q=Federal+Reserve+OR+inflation+OR+dollar+when:1d&hl=en-US&gl=US&ceid=US:en"
+    - "https://news.google.com/rss/search?q=war+OR+geopolitical+OR+sanctions+OR+missile+when:1d&hl=en-US&gl=US&ceid=US:en"
+    - "https://feeds.bbci.co.uk/news/world/rss.xml"
+    - "https://feeds.bbci.co.uk/news/business/rss.xml"
+
+report:
+  model: "claude-sonnet-5-5"  # daily performance review

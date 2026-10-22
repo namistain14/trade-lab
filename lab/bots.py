@@ -1,0 +1,128 @@
+"""The two paper bots. Each call to tick() handles exits first, then looks for new entries."""
+import datetime as dt
+import time
+
+import market
+import paper
+
+
+def _now_ms() -> int:
+    return int(time.time() * 1000)
+
+
+# ---------------- Bot A: crypto rules (spot, long only) ----------------
+def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
+    fee, slip = cfg["fee_rate"], cfg["slippage_rate"]
+    prices = {}
+    for sym in cfg["symbols"]:
+        m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
+        prices[sym] = m1[-1]["c"]
+        for tr in paper.check_exits(acc, sym, m1,
+                                    exit_fill=lambda side, lvl: lvl * (1 - slip),
+                                    exit_fee=lambda px, q: px * q * fee):
+            log.append(f"A  CLOSE {sym} {tr['reason']}: {tr['pnl']:+.2f} USD")
+
+    ok, why = paper.can_open(acc, cfg["max_trades_per_day"], acc["start"] * cfg["daily_loss_limit_pct"])
+    if not ok:
+        return prices
+    for sym in cfg["symbols"]:
+        if len(acc["positions"]) >= cfg["max_open"] or any(p["symbol"] == sym for p in acc["positions"]):
+            continue
+        recent = [t for t in acc["trades"] if t["symbol"] == sym and _now_ms() - t["closed_ms"] < 30 * 60_000]
+        if recent:
+            continue  # cool-down after a trade on the same coin
+        m5 = data[sym]["5m"] if data else market.klines(sym, cfg["interval"], 300)
+        closes = [c["c"] for c in m5 if c["closed"]]
+        if len(closes) < 210:
+            continue
+        e200, r = market.ema(closes, 200)[-1], market.rsi(closes, 14)
+        if closes[-1] > e200 and r[-1] < cfg["rsi_buy_below"] and r[-1] > r[-2]:
+            price = prices[sym] * (1 + slip)
+            notional = min(acc["balance"] * cfg["position_pct"], acc["balance"] - sum(
+                p["qty"] * p["entry"] for p in acc["positions"]))
+            if notional < 10:
+                continue
+            qty = notional / price
+            paper.open_position(acc, symbol=sym, side="long", price=price, qty=qty,
+                                tp=price * (1 + cfg["take_profit_pct"]), sl=price * (1 - cfg["stop_loss_pct"]),
+                                t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
+                                margin=notional, note=f"RSI {r[-1]:.0f}, above EMA200")
+            log.append(f"A  BUY {sym} {notional:.0f} USD @ {price:.2f} (RSI {r[-1]:.0f})")
+    return prices
+
+
+# ---------------- Bot B: gold news (leveraged, long or short) ----------------
+def gold_market_open(now: dt.datetime | None = None) -> bool:
+    """Real gold (XAU/USD) closes from Friday 21:00 to Sunday 22:00 UTC; no new trades then."""
+    n = now or dt.datetime.now(dt.timezone.utc)
+    wd, h = n.weekday(), n.hour
+    return not (wd == 5 or (wd == 4 and h >= 21) or (wd == 6 and h < 22))
+
+
+def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_key: str | None,
+              data=None, sentiment_fn=None) -> dict:
+    sym, slip = cfg["symbol"], cfg["slippage_rate"]
+    m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
+    price_now = m1[-1]["c"]
+    half = cfg["spread_usd_per_oz"] / 2
+
+    def exit_fill(side, lvl):  # closing a long sells at bid, closing a short buys at ask
+        return lvl - half - lvl * slip if side == "long" else lvl + half + lvl * slip
+
+    for tr in paper.check_exits(acc, sym, m1, exit_fill=exit_fill, exit_fee=lambda px, q: 0.0):
+        log.append(f"B  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
+
+    # refresh the news view
+    news = state.setdefault("news", {})
+    age_min = (_now_ms() - news.get("ts", 0)) / 60_000
+    if age_min >= cfg["news_every_minutes"] and (api_key or sentiment_fn):
+        try:
+            if sentiment_fn:
+                res = sentiment_fn()
+            else:
+                import news as news_mod
+                res = news_mod.gold_sentiment(api_key, news_cfg["model"], news_cfg["feeds"])
+            news.update(res)
+            news["ts"] = _now_ms()
+            hist = state.setdefault("news_history", [])
+            hist.append({"ts": news["ts"], "score": res["score"], "confidence": res["confidence"],
+                         "reason": res.get("reason", "")})
+            state["news_history"] = hist[-200:]
+            log.append(f"B  NEWS score {res['score']:+.2f} conf {res['confidence']:.2f}: {res.get('reason', '')}")
+        except Exception as e:  # noqa: BLE001
+            log.append(f"B  NEWS failed: {e}")
+
+    ok, why = paper.can_open(acc, cfg["max_trades_per_day"], cfg["daily_loss_limit_usd"])
+    if not ok or acc["positions"] or not gold_market_open():
+        return {sym: price_now}
+    fresh = (_now_ms() - news.get("ts", 0)) / 60_000 <= 2 * cfg["news_every_minutes"]
+    score, conf = news.get("score", 0.0), news.get("confidence", 0.0)
+    if not fresh or abs(score) < cfg["min_score"] or conf < cfg["min_confidence"]:
+        return {sym: price_now}
+    last = acc["trades"][-1] if acc["trades"] else None
+    if last and _now_ms() - last["closed_ms"] < 10 * 60_000:
+        return {sym: price_now}  # short pause after each trade
+
+    m5 = data[sym]["5m"] if data else market.klines(sym, cfg["interval"], 120)
+    closes = [c["c"] for c in m5 if c["closed"]]
+    if len(closes) < 60:
+        return {sym: price_now}
+    e50 = market.ema(closes, 50)[-1]
+    side = "long" if score > 0 else "short"
+    if (side == "long" and closes[-1] <= e50) or (side == "short" and closes[-1] >= e50):
+        return {sym: price_now}  # price trend disagrees with the news -> wait
+
+    entry = price_now + half + price_now * slip if side == "long" else price_now - half - price_now * slip
+    qty = cfg["notional_usd"] / entry
+    margin = cfg["notional_usd"] / cfg["leverage"]
+    if acc["balance"] < margin:
+        return {sym: price_now}
+    tp_d, sl_d = cfg["take_profit_usd"] / qty, cfg["stop_loss_usd"] / qty
+    tp, sl = (entry + tp_d, entry - sl_d) if side == "long" else (entry - tp_d, entry + sl_d)
+    pos = paper.open_position(acc, symbol=sym, side=side, price=entry, qty=qty, tp=tp, sl=sl, t_ms=_now_ms(),
+                              entry_cost=0.0, max_hold_min=cfg["max_hold_minutes"], margin=margin,
+                              note=f"news {score:+.2f}/{conf:.2f}")
+    pos["friction"] = round(qty * (2 * half + 2 * price_now * slip), 4)  # spread + slippage (already in fills)
+    log.append(f"B  {side.upper()} gold {cfg['notional_usd']} USD x{cfg['leverage']} @ {entry:.2f} "
+               f"(TP {tp:.2f}, SL {sl:.2f}; news {score:+.2f})")
+    return {sym: price_now}
