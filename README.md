@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 22.10.2026 23:50 (İstanbul)
+> Son güncelleme: 23.10.2026 00:00 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -18,16 +18,16 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +3.82 $ | +3.82 $ |
-| İşlem sayısı | 1 | 1 |
-| Kazanma oranı | %100.0 | %100.0 |
-| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
+| Net kâr/zarar | +0.00 $ | +3.82 $ |
+| İşlem sayısı | 0 | 1 |
+| Kazanma oranı | %0.0 | %100.0 |
+| Ödenen komisyon/spread | 0.00 $ | 2.37 $ |
 
-**Hesap değeri: 5,003.83 $** (başlangıç 5,000 $, +3.83 $ / %+0.08)
+**Hesap değeri: 5,002.73 $** (başlangıç 5,000 $, +2.73 $ / %+0.05)
 
 Açık pozisyonlar: PAXGUSDT short @ 4035.01 (TP 4030.98 / SL 4037.43)
 
-Son haber analizi (22.10 23:49): puan **-0.20**, güven 0.40 — Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
+Son haber analizi (23.10 00:00): puan **-0.10**, güven 0.35 — Hormuz'da 7 tankere yönelik saldırı ve petrolün 110 doların üzerine çıkması jeopolitik güvenli liman talebini destekliyor, ancak enflasyon baskısı artırdığı için Fed'in sıkı kalma beklentisini güçlendirip altın üzerinde baskı yaratabilir. Tahvil faizlerinin geri dönmesi ve ortalama mortgage oranının hafif gerilemesi sınırlı bir yumuşama işareti; haberlerin çoğu ise altın fiyatını doğrudan etkilemeyen gürültü niteliğinde. Net etki hafif negatif, düşük güvenle.
 
 Son işlemler:
 
@@ -50,6 +50,7 @@ Son işlemler:
 22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: 
 22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: 
 22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)
+23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere yönelik saldırı ve petrolün 110 doların üzerine çıkması jeopolitik güvenli liman talebini destekliyor, ancak enflasyon baskısı artırdığı için Fed'in sıkı kalma beklentisini güçlendirip altın üzerinde baskı yaratabilir. Tahvil faizlerinin geri dönmesi ve ortalama mortgage oranının hafif gerilemesi sınırlı bir yumuşama işareti; haberlerin çoğu ise altın fiyatını doğrudan etkilemeyen gürültü niteliğinde. Net etki hafif negatif, düşük güvenle.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -6,7 +6,7 @@
    "positions": [],
    "trades": [],
    "day": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -109,6 +109,10 @@
    [
     1792702234,
     5000
+   ],
+   [
+    1792702830,
+    5000
    ]
   ]
  },
@@ -157,9 +161,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-22",
-    "trades": 2,
-    "pnl": 3.815288039674916,
+    "date": "2026-10-23",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -260,15 +264,19 @@
    [
     1792702234,
     5003.83
+   ],
+   [
+    1792702830,
+    5002.73
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.4,
-   "reason": "Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.1,
+   "confidence": 0.35,
+   "reason": "Hormuz'da 7 tankere y\u00f6nelik sald\u0131r\u0131 ve petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 jeopolitik g\u00fcvenli liman talebini destekliyor, ancak enflasyon bask\u0131s\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Tahvil faizlerinin geri d\u00f6nmesi ve ortalama mortgage oran\u0131n\u0131n hafif gerilemesi s\u0131n\u0131rl\u0131 bir yumu\u015fama i\u015fareti; haberlerin \u00e7o\u011fu ise alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkilemeyen g\u00fcr\u00fclt\u00fc niteli\u011finde. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle.",
    "n": 45,
-   "ts": 1792702159361,
-   "new_headlines": 12
+   "ts": 1792702830770,
+   "new_headlines": 11
   },
   "news_history": [
    {
@@ -331,27 +339,34 @@
     "confidence": 0.4,
     "reason": "",
     "new": 12
+   },
+   {
+    "ts": 1792702830770,
+    "score": -0.1,
+    "confidence": 0.35,
+    "reason": "Hormuz'da 7 tankere y\u00f6nelik sald\u0131r\u0131 ve petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 jeopolitik g\u00fcvenli liman talebini destekliyor, ancak enflasyon bask\u0131s\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Tahvil faizlerinin geri d\u00f6nmesi ve ortalama mortgage oran\u0131n\u0131n hafif gerilemesi s\u0131n\u0131rl\u0131 bir yumu\u015fama i\u015fareti; haberlerin \u00e7o\u011fu ise alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkilemeyen g\u00fcr\u00fclt\u00fc niteli\u011finde. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle.",
+    "new": 11
    }
   ],
   "news_calls": {
-   "date": "2026-10-22",
-   "n": 7
+   "date": "2026-10-23",
+   "n": 1
   },
   "news_seen": [
-   "New York City ends a classic attraction: Horse-drawn carriages banned over safety and abuse concerns",
+   "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - KTXS",
+   "New York City ends a classic: Horse-drawn carriages banned over safety and abuse concerns",
+   "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze - MarketWatch",
    "Newmont beats quarterly profit estimates on higher gold prices - Reuters",
    "Hegseth wanted Eisenhower\u2019s globe for his office. His staff broke it. - The Washington Post",
    "Newmont beats quarterly profit estimates as company benefits from higher gold prices - The Globe and Mail",
-   "Five gold developers ready to get serious - The Mercury",
+   "Newmont beats third-quarter earnings expectations as higher gold sales boost profits; miner raises 2026 cost outlook - Kitco",
    "Exclusive | EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - South China Morning Post",
    "Elon Musk's Starlink and Starshield, and what they mean to Ukraine in the war against Russia - CBS News",
    "891 Missile Security Forces Squadron enhances training and readiness - Minot Air Force Base (.mil)",
    "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time - TWZ",
-   "Royal Gold (NASDAQ:RGLD) In Focus As Its Streaming Portfolio Widens - Kalkine Media",
+   "Gold Rate Today in West Bengal 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
    "Starlink Slowed, Ukraine\u2019s Drones Stalled: The Private Power Behind a Modern War - The Media Line",
-   "What is driving Harmony Gold (NYSE:HMY) higher as gold marks fresh records? - Kalkine Media",
    "Gayla Huber Nominated by Federal Reserve Bank of Kansas City, Appointed to CFPB Consumer Advisory Board - EIN News",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Yields Reverse Course - ETF Database",
    "Camp Lejeune Marine unit becomes first to switch to missile battalion - WITN",
    "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
@@ -366,23 +381,23 @@
    "Israel Faces 94 Active Sanctions Measures Worldwide, New Data Reveals - Algemeiner.com",
    "Paris extends curfew as Marseille and Lyon ban protests after riots",
    "Peter Thiel Says Iran War Was a Mistake - Newser",
+   "Average long-term US mortgage rate eases to 7.32% in first pullback since late August - WPSD Local 6",
+   "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices - Daily Freeman",
    "Maine Democrats slam Sen. Collins, Iran war for high oil prices - WGME",
    "Chinese Yuan: Gradual gains toward 6.6640 against US Dollar \u2013 UOB - FXStreet",
    "You could live in a converted Cold War missile silo for just $1.6 million - Popular Science",
    "Iran War Day 237: U.S., Israel Planning to Resume Strikes in November, Per Report - The American Conservative",
    "The Human Questions Behind the Laws of War - BC Law Magazine",
-   "Gold plunges, wiping out summer gains amid unus... - Pluang",
+   "Bitcoin: ETFs let go, the 80,000 $ threshold under pressure - Cointribune",
    "Trump is \u2018financing\u2019 war against Ukraine, Nobel winner says : Here & Now Anytime - NPR",
+   "Gold Rate Today in Uttar Pradesh 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today",
    "Missile Defense Agency Awards Long Wall Interceptor Contract - Aviation Week",
    "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
    "Russia can help in containing the Iran war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-   "Agnico Eagle Mines (TSX:AEM): Can Costs Withstand Price Volatility? - Kalkine Media",
+   "government spending cuts description={PAGE_DESCRIPTION} - Kitco",
    "Watch Russia Looking to Escalate War, Not End it, Romanian Leader Says - Bloomberg.com",
-   "\u2018The Mothers of Kherson\u2019 Review: A Ukraine War Opera - WSJ",
    "Gold slides as safe-haven demand shifts to US Treasuries despite lower yields - FXStreet",
-   "President John F. Kennedy Tells the World That Soviet Missiles Are in Cuba-Cuban Missile Crisis, Day Seven - Council on Foreign Relations",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
-   "South Korean Won: Hawkish BoK hold supports gains against US Dollar \u2013 Societe Generale - FXStreet"
+   "Gold Price October 23 2026 - Robinhood"
   ]
  },
  "log": [
@@ -397,6 +412,7 @@
   "22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
   "22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: ",
   "22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: ",
-  "22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)"
+  "22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)",
+  "23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere y\u00f6nelik sald\u0131r\u0131 ve petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 jeopolitik g\u00fcvenli liman talebini destekliyor, ancak enflasyon bask\u0131s\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Tahvil faizlerinin geri d\u00f6nmesi ve ortalama mortgage oran\u0131n\u0131n hafif gerilemesi s\u0131n\u0131rl\u0131 bir yumu\u015fama i\u015fareti; haberlerin \u00e7o\u011fu ise alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkilemeyen g\u00fcr\u00fclt\u00fc niteli\u011finde. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle."
  ]
 }
