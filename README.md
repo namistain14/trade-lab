@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 02:14 (İstanbul)
+> Son güncelleme: 23.10.2026 02:26 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -36,7 +36,7 @@
 
 **Hesap değeri: 5,003.44 $** (başlangıç 5,000 $, +3.44 $ / %+0.07)
 
-Son haber analizi (23.10 02:14): puan **+0.05**, güven 0.35 — Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
+Son haber analizi (23.10 02:26): puan **-0.15**, güven 0.40 — Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
 
 Son işlemler:
 
@@ -71,7 +71,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 00:09 B  NEWS (10 new) score -0.15 conf 0.30: Yeni başlıklar karışık: "Gold plunges" başlığı kısa vadede baskı işareti veriyor, ancak petrol 110 doların üzerinde ve İran savaşı/Ukrayna'daki çatışmalar güvenli liman talebini destekliyor. Enflasyon kaynaklı faiz beklentisi endişesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, güven düşük.
 23.10 00:19 B  NEWS (10 new) score +0.20 conf 0.35: Yeni haberlerde İran savaşının yeniden başlayabileceği ve ABD-İsrail saldırılarının Kasım'da planlandığı yönündeki riskler, risk-off ortamı ve petrol fiyatlarının 110 doları aşması gibi unsurlar güvenli liman talebini hafifçe destekliyor. Ancak petrol kaynaklı enflasyon baskısı faiz indirimi beklentilerini geciktirebilir, ABD enflasyonu da belirgin bir sürpriz göstermiyor; bu nedenle etki sınırlı ve karışık.
 23.10 00:30 B  NEWS (9 new) score +0.20 conf 0.35: İran savaşına ilişkin jeopolitik gerilim, petrol fiyatlarının 110 doların üzerine çıkması ve piyasalardaki sert düşüş güvenli liman talebini destekliyor; bu nedenle altın için hafif pozitif bir eğilim var. Ancak petrol kaynaklı enflasyon riski Fed'in sıkı kalma beklentisini artırıp reel faizleri yükseltebileceğinden etki sınırlı ve belirsiz; haberlerin çoğu da bilinen veya fiyatlanmış gelişmeler.
 23.10 00:39 B  NEWS (12 new) score +0.25 conf 0.45: 
@@ -86,6 +85,7 @@ Son işlemler:
 23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
 23.10 02:04 B1  CLOSE short take profit: +3.82 USD
 23.10 02:14 N  NEWS (6 new) score +0.05 conf 0.35: 
+23.10 02:26 N  NEWS (13 new) score -0.15 conf 0.40: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
