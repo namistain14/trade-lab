@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 22.10.2026 23:39 (İstanbul)
+> Son güncelleme: 22.10.2026 23:49 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -23,9 +23,11 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,003.82 $** (başlangıç 5,000 $, +3.82 $ / %+0.08)
+**Hesap değeri: 5,002.63 $** (başlangıç 5,000 $, +2.63 $ / %+0.05)
 
-Son haber analizi (22.10 23:39): puan **+0.10**, güven 0.30 — Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
+Açık pozisyonlar: PAXGUSDT short @ 4035.01 (TP 4030.98 / SL 4037.43)
+
+Son haber analizi (22.10 23:49): puan **-0.20**, güven 0.40 — Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
 
 Son işlemler:
 
@@ -46,6 +48,8 @@ Son işlemler:
 22.10 23:21 B  NEWS (8 new) score -0.10 conf 0.30: 
 22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
 22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: 
+22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: 
+22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
