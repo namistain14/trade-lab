@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 22.10.2026 23:11 (İstanbul)
+> Son güncelleme: 22.10.2026 23:21 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -18,16 +18,20 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +0.00 $ |
-| İşlem sayısı | 0 | 0 |
-| Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+| Net kâr/zarar | +3.82 $ | +3.82 $ |
+| İşlem sayısı | 1 | 1 |
+| Kazanma oranı | %100.0 | %100.0 |
+| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,001.67 $** (başlangıç 5,000 $, +1.67 $ / %+0.03)
+**Hesap değeri: 5,003.82 $** (başlangıç 5,000 $, +3.82 $ / %+0.08)
 
-Açık pozisyonlar: PAXGUSDT short @ 4038.51 (TP 4034.47 / SL 4040.94)
+Son haber analizi (22.10 23:21): puan **-0.10**, güven 0.30 — Yeni haberlerde altın sert düşüş (“gold plunges”) ve güvenli liman talebinin ABD Hazinelerine kayması öne çıkıyor; petrol 110 doların üzerinde olduğundan enflasyon ve Fed'in sıkı kalma beklentisi altın için baskılayıcı. Buna karşılık İran savaşının yeniden başlama riski ve Hormuz'da tanker saldırıları jeopolitik talebi destekliyor, bu da sinyalleri karışık kılıyor; bu nedenle güven orta düzeyde tutuldu.
 
-Son haber analizi (22.10 23:08): puan **-0.30**, güven 0.45 — Yeni haberlerde altın sert düşüş (“gold plunges”) ve güvenli liman talebinin ABD Hazinelerine kayması öne çıkıyor; petrol 110 doların üzerinde olduğundan enflasyon ve Fed'in sıkı kalma beklentisi altın için baskılayıcı. Buna karşılık İran savaşının yeniden başlama riski ve Hormuz'da tanker saldırıları jeopolitik talebi destekliyor, bu da sinyalleri karışık kılıyor; bu nedenle güven orta düzeyde tutuldu.
+Son işlemler:
+
+| Kapanış | Parite | Yön | Sonuç | Neden |
+|---|---|---|---|---|
+| 22.10 23:16 | PAXGUSDT | short | +3.82 $ | take profit |
 
 ## Son olaylar
 
@@ -38,6 +42,8 @@ Son haber analizi (22.10 23:08): puan **-0.30**, güven 0.45 — Yeni haberlerde
 22.10 22:59 B  NEWS (5 new) score +0.10 conf 0.35: Jeopolitik risk artıyor (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve bu altın için güvenli liman talebini destekliyor; ancak petrol fiyatlarındaki yükseliş faiz tartışmasını sertleştiriyor, dolar zayıflamasına rağmen altın "güvenli liman talebinin Hazine tahvillerine kayması" nedeniyle düştü. Sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 22.10 23:08 B  NEWS (7 new) score -0.30 conf 0.45: Yeni haberlerde altın sert düşüş (“gold plunges”) ve güvenli liman talebinin ABD Hazinelerine kayması öne çıkıyor; petrol 110 doların üzerinde olduğundan enflasyon ve Fed'in sıkı kalma beklentisi altın için baskılayıcı. Buna karşılık İran savaşının yeniden başlama riski ve Hormuz'da tanker saldırıları jeopolitik talebi destekliyor, bu da sinyalleri karışık kılıyor; bu nedenle güven orta düzeyde tutuldu.
 22.10 23:08 B  SHORT gold 5000 USD x10 @ 4038.51 (TP 4034.47, SL 4040.94; news -0.30)
+22.10 23:21 B  CLOSE short take profit: +3.82 USD
+22.10 23:21 B  NEWS (8 new) score -0.10 conf 0.30: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
