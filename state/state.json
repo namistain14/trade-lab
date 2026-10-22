@@ -97,6 +97,10 @@
    [
     1792701020,
     5000
+   ],
+   [
+    1792701570,
+    5000
    ]
   ]
  },
@@ -220,15 +224,19 @@
    [
     1792701020,
     5003.82
+   ],
+   [
+    1792701570,
+    5003.82
    ]
   ],
   "news": {
-   "score": 0.15,
-   "confidence": 0.35,
+   "score": 0.1,
+   "confidence": 0.3,
    "reason": "Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792701020520,
-   "new_headlines": 5
+   "ts": 1792701570028,
+   "new_headlines": 6
   },
   "news_history": [
    {
@@ -277,26 +285,34 @@
     "confidence": 0.35,
     "reason": "Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
     "new": 5
+   },
+   {
+    "ts": 1792701570028,
+    "score": 0.1,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 6
    }
   ],
   "news_calls": {
    "date": "2026-10-22",
-   "n": 5
+   "n": 6
   },
   "news_seen": [
    "Hegseth wanted Eisenhower\u2019s globe for his office. His staff broke it. - The Washington Post",
+   "Elon Musk's Starlink and Starshield, and what they mean to Ukraine in the war against Russia - CBS News",
    "891 Missile Security Forces Squadron enhances training and readiness - Minot Air Force Base (.mil)",
    "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time - TWZ",
    "Starlink Slowed, Ukraine\u2019s Drones Stalled: The Private Power Behind a Modern War - The Media Line",
    "Gayla Huber Nominated by Federal Reserve Bank of Kansas City, Appointed to CFPB Consumer Advisory Board - EIN News",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Yields Reverse Course - ETF Database",
    "Camp Lejeune Marine unit becomes first to switch to missile battalion - WITN",
+   "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
    "Oil Above $110 Sends Fresh Warning to Stock Market - TradingView",
    "Buccellati Gives Torsad\u00e9 a Fresh Twist - www.jckonline.com",
    "Saudi-led coalition intercepts Houthi ballistic missile targeting southwestern Saudi Arabia - Anadolu Ajans\u0131",
    "Tenth District Manufacturing Activity Increased Steadily in October - Kansas City Fed",
-   "Russia to step up ballistic missile attacks as U.S. cuts Patriot missile supplies to Ukraine \u2013 Zelensky - Ukrinform",
-   "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
    "Gold miners face margin pressure as lower prices complicate third-quarter results By Investing.com - Investing.com South Africa",
    "Fernandes set to avoid sanctions over post-match Carrick criticism - Yahoo Sports",
    "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
@@ -311,12 +327,13 @@
    "The Human Questions Behind the Laws of War - BC Law Magazine",
    "Bitcoin: ETFs let go, the 80,000 $ threshold under pressure - Cointribune",
    "Trump is \u2018financing\u2019 war against Ukraine, Nobel winner says : Here & Now Anytime - NPR",
+   "Gold Rate Today in Uttar Pradesh 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today",
    "Missile Defense Agency Awards Long Wall Interceptor Contract - Aviation Week",
    "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+   "Russia can help in containing the Iran war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "Watch Russia Looking to Escalate War, Not End it, Romanian Leader Says - Bloomberg.com",
-   "\u2018The Mothers of Kherson\u2019 Review: A Ukraine War Opera - WSJ",
    "Gold slides as safe-haven demand shifts to US Treasuries despite lower yields - FXStreet",
-   "Forex Today: US yields fall further as US Dollar decline continues - www.tmgm.com",
+   "President John F. Kennedy Tells the World That Soviet Missiles Are in Cuba-Cuban Missile Crisis, Day Seven - Council on Foreign Relations",
    "Gold Price October 23 2026 - Robinhood",
    "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
    "South Korean Won: Hawkish BoK hold supports gains against US Dollar \u2013 Societe Generale - FXStreet",
@@ -326,9 +343,7 @@
    "Europe Is Asking the Wrong Question About Russia\u2019s Hybrid War - Foreign Policy",
    "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
    "Market sell-off gains steam as concerns about Iran war and high AI spending collide - NBC News",
-   "How popular is the Iran War? - Silver Bulletin",
-   "A Congressional Race That\u2019s a Referendum on the War - The Atlantic",
-   "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks - The Guardian"
+   "How popular is the Iran War? - Silver Bulletin"
   ]
  },
  "log": [
@@ -340,6 +355,7 @@
   "22.10 23:08 B  SHORT gold 5000 USD x10 @ 4038.51 (TP 4034.47, SL 4040.94; news -0.30)",
   "22.10 23:21 B  CLOSE short take profit: +3.82 USD",
   "22.10 23:21 B  NEWS (8 new) score -0.10 conf 0.30: ",
-  "22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck."
+  "22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve ABD dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; ancak petrol 110 dolar\u0131n \u00fczerinde oldu\u011fundan enflasyon ve sert Fed beklentisi, ayr\u0131ca g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131 alt\u0131n i\u00e7in olumsuz. Sinyaller \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: "
  ]
 }
