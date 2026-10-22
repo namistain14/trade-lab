@@ -24,8 +24,8 @@ Headlines:
 Call the submit tool with JSON:
 {{"score": number from -1 (strongly bearish) to 1 (strongly bullish),
   "confidence": number from 0 to 1,
-  "reason": "one or two sentences",
-  "key_events": ["max 3 short items"]}}"""
+  "reason": "one or two sentences, written in TURKISH",
+  "key_events": ["max 3 short items, in Turkish"]}}"""
 
 
 def headlines(feeds: list[str], max_age_hours: float = 8, limit: int = 45) -> list[str]:
