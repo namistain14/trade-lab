@@ -17,6 +17,10 @@
    [
     1792690965,
     5000
+   ],
+   [
+    1792691495,
+    5000
    ]
   ]
  },
@@ -38,9 +42,29 @@
    [
     1792690965,
     5000
+   ],
+   [
+    1792691495,
+    5000
    ]
   ],
-  "news": {}
+  "news": {
+   "score": -0.3,
+   "confidence": 0.4,
+   "reason": "The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence.",
+   "n": 45,
+   "ts": 1792691495352
+  },
+  "news_history": [
+   {
+    "ts": 1792691495352,
+    "score": -0.3,
+    "confidence": 0.4,
+    "reason": "The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence."
+   }
+  ]
  },
- "log": []
+ "log": [
+  "22.10 20:51 B  NEWS score -0.30 conf 0.40: The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence."
+ ]
 }
