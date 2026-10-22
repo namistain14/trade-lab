@@ -141,6 +141,10 @@
    [
     1792706292,
     5000
+   ],
+   [
+    1792706847,
+    5000
    ]
   ]
  },
@@ -329,15 +333,19 @@
    [
     1792706292,
     4999.63
+   ],
+   [
+    1792706847,
+    4999.63
    ]
   ],
   "news": {
-   "score": 0.1,
+   "score": 0.05,
    "confidence": 0.3,
-   "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Romanya'n\u0131n Rusya'n\u0131n sava\u015f\u0131 t\u0131rmand\u0131rd\u0131\u011f\u0131 uyar\u0131s\u0131 ve Trump'\u0131n enerji \u00fcretimi i\u00e7in Savunma \u00dcretim Yasas\u0131'n\u0131 devreye almas\u0131 g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u00c7o\u011fu haber zaten fiyatlanm\u0131\u015f veya dolayl\u0131 oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "reason": "Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tart\u0131\u015fmas\u0131, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda \u0130ran sava\u015f\u0131 ve petrol fiyat\u0131n\u0131n 110 dolar\u0131 a\u015fmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak enerji kaynakl\u0131 enflasyon bask\u0131s\u0131 Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirerek alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir; bu kar\u015f\u0131t etkiler nedeniyle sinyal zay\u0131f ve net bir y\u00f6n yok.",
    "n": 45,
-   "ts": 1792706290893,
-   "new_headlines": 6,
+   "ts": 1792706846390,
+   "new_headlines": 8,
    "key_events": [
     "Pluang: 'Gold plunges, wiping out summer gains' (yeni, k\u0131sa vadeli bask\u0131)",
     "Petrol 110 dolar\u0131n \u00fczerinde, tanker fiyatlar\u0131 enerji s\u0131k\u0131\u015fmas\u0131 riski",
@@ -454,27 +462,35 @@
     "confidence": 0.3,
     "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Romanya'n\u0131n Rusya'n\u0131n sava\u015f\u0131 t\u0131rmand\u0131rd\u0131\u011f\u0131 uyar\u0131s\u0131 ve Trump'\u0131n enerji \u00fcretimi i\u00e7in Savunma \u00dcretim Yasas\u0131'n\u0131 devreye almas\u0131 g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u00c7o\u011fu haber zaten fiyatlanm\u0131\u015f veya dolayl\u0131 oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
     "new": 6
+   },
+   {
+    "ts": 1792706846390,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tart\u0131\u015fmas\u0131, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda \u0130ran sava\u015f\u0131 ve petrol fiyat\u0131n\u0131n 110 dolar\u0131 a\u015fmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak enerji kaynakl\u0131 enflasyon bask\u0131s\u0131 Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirerek alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir; bu kar\u015f\u0131t etkiler nedeniyle sinyal zay\u0131f ve net bir y\u00f6n yok.",
+    "new": 8
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 7
+   "n": 8
   },
   "news_seen": [
-   "Trump says Musk has restored Ukraine's internet access",
+   "Euro To US Dollar Forecast: MUFG's 1.18 Target Faces French Fiscal Risks - Exchange Rates UK",
+   "Trump says Musk has restored Ukraine's access after Starlink row",
    "Trump\u2019s Gamble to End the Iran War - The Atlantic",
-   "Trump invokes Cold War era Defense Production Act for oil production, refining - The Mighty 790 KFGO",
    "Opinion | U.K. Labour\u2019s Ceasefire in the War on Gas - WSJ",
    "Trump invokes Cold War era Defense Production Act for oil production, refining - CNBC",
    "Porter Airlines Pilots Receive $2 Million USD Grant from ALPA\u2019s War Chest to Support Negotiations for a Fair Contract - ALPA",
+   "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices - Trentonian",
    "Trump invokes Cold War era Defense Production Act for oil production, refining - Reuters",
-   "Naira Touches N1,369 As Demand For US Dollar Payments Surge - MarketForces Africa",
-   "Contracts for Oct. 22, 2026 - U.S. Department of War (.gov)",
    "U.S. Inflation Not Getting (Much) Worse, or Better, but Consumers are Fine - The Overshoot",
+   "Whose war is this? Rethinking Iran\u2019s role in Houthi attacks | Daily Sabah - Daily Sabah",
    "Judge limits election-related immigration stops amid broader legal war ahead of midterms - Los Angeles Times",
+   "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - WCIV",
    "Gold Miner Newmont Stock Rises on Expected Return to Growth in 2027 - Barron's",
-   "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - The National News Desk",
    "Darline Graham didn\u2019t talk to Trump about Russia sanctions waiver during SC visit - The State",
+   "IEA chief warns energy is becoming a geopolitical weapon - Al Jazeera",
    "New York bans horse-drawn carriages over safety and abuse concerns",
    "Will the Iran war resume before the US and Israeli elections? - The National",
    "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze - MarketWatch",
@@ -490,22 +506,21 @@
    "891 Missile Security Forces Squadron enhances training and readiness - Minot Air Force Base (.mil)",
    "New film \u2018Jimmy\u2019 shines light on Jimmy Stewart\u2019s World War II legacy - AOPA",
    "Ground-Launched Rusty Dagger Low-Cost Cruise Missile Seen For The First Time - TWZ",
+   "Gold Rate Today in West Bengal 22nd October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
    "Starlink Slowed, Ukraine\u2019s Drones Stalled: The Private Power Behind a Modern War - The Media Line",
    "Gayla Huber Nominated by Federal Reserve Bank of Kansas City, Appointed to CFPB Consumer Advisory Board - EIN News",
    "Russian strikes hit Kyiv after Witkoff meets Putin - Al Jazeera",
-   "PH PESO SINKS TO NEW RECORD LOW The Philippine peso weakened further, closing at P63.52 against the US dollar on Thursday, October 22, 2026. - Facebook",
    "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
-   "Yields Reverse Course - ETF Database",
    "Camp Lejeune Marine unit becomes first to switch to missile battalion - WITN",
    "\u2018I\u2019m a killer\u2019: Inside the ugly war over Dolly Parton\u2019s $450M empire - NewsNation",
    "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
    "Oil Above $110 Sends Fresh Warning to Stock Market - TradingView",
    "Buccellati Gives Torsad\u00e9 a Fresh Twist - www.jckonline.com",
    "Tenth District Manufacturing Activity Increased Steadily in October - Kansas City Fed",
+   "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
    "Gold miners face margin pressure as lower prices complicate third-quarter results By Investing.com - Investing.com South Africa",
    "Fernandes set to avoid sanctions over post-match Carrick criticism - Yahoo Sports",
-   "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
-   "Israel Faces 94 Active Sanctions Measures Worldwide, New Data Reveals - Algemeiner.com"
+   "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother"
   ]
  },
  "log": [
@@ -528,7 +543,8 @@
   "23.10 00:30 B  NEWS (9 new) score +0.20 conf 0.35: \u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve piyasalardaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekliyor; bu nedenle alt\u0131n i\u00e7in hafif pozitif bir e\u011filim var. Ancak petrol kaynakl\u0131 enflasyon riski Fed'in s\u0131k\u0131 kalma beklentisini art\u0131r\u0131p reel faizleri y\u00fckseltebilece\u011finden etki s\u0131n\u0131rl\u0131 ve belirsiz; haberlerin \u00e7o\u011fu da bilinen veya fiyatlanm\u0131\u015f geli\u015fmeler.",
   "23.10 00:39 B  NEWS (12 new) score +0.25 conf 0.45: ",
   "23.10 00:49 N  NEWS (14 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, petrol fiyatlar\u0131n\u0131n 110 dolar\u0131n \u00fczerinde seyretmesi ve piyasalardaki risk-ka\u00e7\u0131\u015f\u0131 alt\u0131n i\u00e7in hafif destekleyici; ancak petrol kaynakl\u0131 enflasyon bask\u0131s\u0131 Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirip alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu (Newmont kazan\u00e7lar\u0131, Ukrayna, Kansas dizel tart\u0131\u015fmas\u0131) alt\u0131n fiyat\u0131na do\u011frudan etki etmeyen veya zaten fiyatlanm\u0131\u015f haberler, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
-  "23.10 00:58 N  NEWS (6 new) score +0.10 conf 0.30: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Romanya'n\u0131n Rusya'n\u0131n sava\u015f\u0131 t\u0131rmand\u0131rd\u0131\u011f\u0131 uyar\u0131s\u0131 ve Trump'\u0131n enerji \u00fcretimi i\u00e7in Savunma \u00dcretim Yasas\u0131'n\u0131 devreye almas\u0131 g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u00c7o\u011fu haber zaten fiyatlanm\u0131\u015f veya dolayl\u0131 oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck."
+  "23.10 00:58 N  NEWS (6 new) score +0.10 conf 0.30: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Romanya'n\u0131n Rusya'n\u0131n sava\u015f\u0131 t\u0131rmand\u0131rd\u0131\u011f\u0131 uyar\u0131s\u0131 ve Trump'\u0131n enerji \u00fcretimi i\u00e7in Savunma \u00dcretim Yasas\u0131'n\u0131 devreye almas\u0131 g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u00c7o\u011fu haber zaten fiyatlanm\u0131\u015f veya dolayl\u0131 oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.10 01:07 N  NEWS (8 new) score +0.05 conf 0.30: Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tart\u0131\u015fmas\u0131, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda \u0130ran sava\u015f\u0131 ve petrol fiyat\u0131n\u0131n 110 dolar\u0131 a\u015fmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak enerji kaynakl\u0131 enflasyon bask\u0131s\u0131 Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirerek alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir; bu kar\u015f\u0131t etkiler nedeniyle sinyal zay\u0131f ve net bir y\u00f6n yok."
  ],
  "gold_big": {
   "account": {
@@ -551,6 +567,10 @@
    ],
    [
     1792706292,
+    5000
+   ],
+   [
+    1792706847,
     5000
    ]
   ],
@@ -581,6 +601,10 @@
    [
     1792706292,
     5000
+   ],
+   [
+    1792706847,
+    5000
    ]
   ],
   "news_calls": {
@@ -605,6 +629,10 @@
   "equity_curve": [
    [
     1792706292,
+    5000
+   ],
+   [
+    1792706847,
     5000
    ]
   ]
