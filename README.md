@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 01:16 (İstanbul)
+> Son güncelleme: 23.10.2026 01:25 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -36,7 +36,7 @@
 
 **Hesap değeri: 4,999.63 $** (başlangıç 5,000 $, -0.37 $ / %-0.01)
 
-Son haber analizi (23.10 01:16): puan **+0.05**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; İran ve Ukrayna savaşlarına dair haberler zaten bilinen ve fiyatlanmış gelişmeler. Petrol fiyatlarının 110 doların üzerinde seyretmesi ve enerji arzına yönelik müdahaleler enflasyon beklentilerini destekleyebilir, ancak bu etki Fed faiz beklentilerini net biçimde değiştirmediği için altın üzerindeki etkisi sınırlı ve karışık kalıyor.
+Son haber analizi (23.10 01:25): puan **+0.20**, güven 0.40 — İran savaşının sürmesi, petrol fiyatlarının savaş zirvelerine yaklaşması ve piyasalardaki sert düşüşler jeopolitik risk ve güvenli liman talebini destekliyor. Öte yandan enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek reel faizleri yukarı itebilir ve altın için olumsuz etki yaratabilir; ayrıca dolar güçlenmesine işaret eden EM para birimi zayıflıkları karışık bir tablo sunuyor. Bu nedenlerle sinyal hafif pozitif ama düşük güvenilirlikte.
 
 Son işlemler:
 
@@ -70,7 +70,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-22.10 23:21 B  NEWS (8 new) score -0.10 conf 0.30: 
 22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
 22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: 
 22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: 
@@ -85,6 +84,7 @@ Son işlemler:
 23.10 00:58 N  NEWS (6 new) score +0.10 conf 0.30: Yeni başlıklar karışık: Romanya'nın Rusya'nın savaşı tırmandırdığı uyarısı ve Trump'ın enerji üretimi için Savunma Üretim Yasası'nı devreye alması güvenli liman talebini hafifçe destekliyor. Ancak petrolün 110 doların üzerine çıkması enflasyon ve sıkı para politikası beklentilerini canlandırarak altın üzerinde baskı yaratabilir. Çoğu haber zaten fiyatlanmış veya dolaylı olduğundan güven düşük.
 23.10 01:07 N  NEWS (8 new) score +0.05 conf 0.30: Yeni gelen başlıkların çoğu altı doğrudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tartışması, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda İran savaşı ve petrol fiyatının 110 doları aşması güvenli liman talebini destekliyor, ancak enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek altı aşağı çekebilir; bu karşıt etkiler nedeniyle sinyal zayıf ve net bir yön yok.
 23.10 01:16 N  NEWS (9 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; İran ve Ukrayna savaşlarına dair haberler zaten bilinen ve fiyatlanmış gelişmeler. Petrol fiyatlarının 110 doların üzerinde seyretmesi ve enerji arzına yönelik müdahaleler enflasyon beklentilerini destekleyebilir, ancak bu etki Fed faiz beklentilerini net biçimde değiştirmediği için altın üzerindeki etkisi sınırlı ve karışık kalıyor.
+23.10 01:25 N  NEWS (11 new) score +0.20 conf 0.40: İran savaşının sürmesi, petrol fiyatlarının savaş zirvelerine yaklaşması ve piyasalardaki sert düşüşler jeopolitik risk ve güvenli liman talebini destekliyor. Öte yandan enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek reel faizleri yukarı itebilir ve altın için olumsuz etki yaratabilir; ayrıca dolar güçlenmesine işaret eden EM para birimi zayıflıkları karışık bir tablo sunuyor. Bu nedenlerle sinyal hafif pozitif ama düşük güvenilirlikte.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
