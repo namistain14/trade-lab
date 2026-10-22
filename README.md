@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 01:30 (İstanbul)
+> Son güncelleme: 23.10.2026 01:40 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -34,9 +34,11 @@
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 2.37 $ | 4.74 $ |
 
-**Hesap değeri: 4,999.63 $** (başlangıç 5,000 $, -0.37 $ / %-0.01)
+**Hesap değeri: 4,997.47 $** (başlangıç 5,000 $, -2.53 $ / %-0.05)
 
-Son haber analizi (23.10 01:25): puan **+0.20**, güven 0.40 — İran savaşının sürmesi, petrol fiyatlarının savaş zirvelerine yaklaşması ve piyasalardaki sert düşüşler jeopolitik risk ve güvenli liman talebini destekliyor. Öte yandan enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek reel faizleri yukarı itebilir ve altın için olumsuz etki yaratabilir; ayrıca dolar güçlenmesine işaret eden EM para birimi zayıflıkları karışık bir tablo sunuyor. Bu nedenlerle sinyal hafif pozitif ama düşük güvenilirlikte.
+Açık pozisyonlar: PAXGUSDT short @ 4040.54 (TP 4036.50 / SL 4042.97)
+
+Son haber analizi (23.10 01:40): puan **-0.40**, güven 0.50 — Altın 4.050 doların altına sert satışla indi ve 11 haftanın en düşük seviyesini gördü; bu, Suudi saldırısının petrolü 113 doların üzerine taşımasıyla birlikte enflasyon ve sıkı Fed beklentilerinin güvenli liman talebinin önüne geçtiğini gösteriyor. Ancak jeopolitik tırmanış ve enerji şokunun aynı anda yaşanması sinyalleri çelişkili olduğu için güveni sınırlı tutuyorum.
 
 Son işlemler:
 
@@ -70,8 +72,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-22.10 23:30 B  NEWS (5 new) score +0.15 conf 0.35: Jeopolitik risk (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve ABD doların zayıflaması altın için destekleyici; ancak petrol 110 doların üzerinde olduğundan enflasyon ve sert Fed beklentisi, ayrıca güvenli liman talebinin Hazine tahvillerine kayması altın için olumsuz. Sinyaller çelişkili olduğundan güven düşük.
-22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: 
 22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: 
 22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)
 23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere yönelik saldırı ve petrolün 110 doların üzerine çıkması jeopolitik güvenli liman talebini destekliyor, ancak enflasyon baskısı artırdığı için Fed'in sıkı kalma beklentisini güçlendirip altın üzerinde baskı yaratabilir. Tahvil faizlerinin geri dönmesi ve ortalama mortgage oranının hafif gerilemesi sınırlı bir yumuşama işareti; haberlerin çoğu ise altın fiyatını doğrudan etkilemeyen gürültü niteliğinde. Net etki hafif negatif, düşük güvenle.
@@ -85,6 +85,8 @@ Son işlemler:
 23.10 01:07 N  NEWS (8 new) score +0.05 conf 0.30: Yeni gelen başlıkların çoğu altı doğrudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tartışması, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda İran savaşı ve petrol fiyatının 110 doları aşması güvenli liman talebini destekliyor, ancak enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek altı aşağı çekebilir; bu karşıt etkiler nedeniyle sinyal zayıf ve net bir yön yok.
 23.10 01:16 N  NEWS (9 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; İran ve Ukrayna savaşlarına dair haberler zaten bilinen ve fiyatlanmış gelişmeler. Petrol fiyatlarının 110 doların üzerinde seyretmesi ve enerji arzına yönelik müdahaleler enflasyon beklentilerini destekleyebilir, ancak bu etki Fed faiz beklentilerini net biçimde değiştirmediği için altın üzerindeki etkisi sınırlı ve karışık kalıyor.
 23.10 01:25 N  NEWS (11 new) score +0.20 conf 0.40: İran savaşının sürmesi, petrol fiyatlarının savaş zirvelerine yaklaşması ve piyasalardaki sert düşüşler jeopolitik risk ve güvenli liman talebini destekliyor. Öte yandan enerji kaynaklı enflasyon baskısı Fed'in sıkı kalma beklentisini güçlendirerek reel faizleri yukarı itebilir ve altın için olumsuz etki yaratabilir; ayrıca dolar güçlenmesine işaret eden EM para birimi zayıflıkları karışık bir tablo sunuyor. Bu nedenlerle sinyal hafif pozitif ama düşük güvenilirlikte.
+23.10 01:40 N  NEWS (11 new) score -0.40 conf 0.50: Altın 4.050 doların altına sert satışla indi ve 11 haftanın en düşük seviyesini gördü; bu, Suudi saldırısının petrolü 113 doların üzerine taşımasıyla birlikte enflasyon ve sıkı Fed beklentilerinin güvenli liman talebinin önüne geçtiğini gösteriyor. Ancak jeopolitik tırmanış ve enerji şokunun aynı anda yaşanması sinyalleri çelişkili olduğu için güveni sınırlı tutuyorum.
+23.10 01:40 B1  SHORT gold 5000 USD x10 @ 4040.54 (TP 4036.50, SL 4042.97; news -0.40)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
