@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 00:09 (İstanbul)
+> Son güncelleme: 23.10.2026 00:19 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,999.63 $** (başlangıç 5,000 $, -0.37 $ / %-0.01)
 
-Son haber analizi (23.10 00:09): puan **-0.15**, güven 0.30 — Yeni başlıklar karışık: "Gold plunges" başlığı kısa vadede baskı işareti veriyor, ancak petrol 110 doların üzerinde ve İran savaşı/Ukrayna'daki çatışmalar güvenli liman talebini destekliyor. Enflasyon kaynaklı faiz beklentisi endişesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, güven düşük.
+Son haber analizi (23.10 00:19): puan **+0.20**, güven 0.35 — Yeni haberlerde İran savaşının yeniden başlayabileceği ve ABD-İsrail saldırılarının Kasım'da planlandığı yönündeki riskler, risk-off ortamı ve petrol fiyatlarının 110 doları aşması gibi unsurlar güvenli liman talebini hafifçe destekliyor. Ancak petrol kaynaklı enflasyon baskısı faiz indirimi beklentilerini geciktirebilir, ABD enflasyonu da belirgin bir sürpriz göstermiyor; bu nedenle etki sınırlı ve karışık.
 
 Son işlemler:
 
@@ -37,7 +37,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-22.10 20:51 B  NEWS score -0.30 conf 0.40: The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence.
 22.10 21:59 B  NEWS score +0.20 conf 0.40: Hormuz'da 7 tankerin vurulduğu iddiası ve Iran savaşının yeniden başlayabileceğine dair korkular jeopolitik risk kaynaklı güvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in altına inmesi ve doların zayıflaması altın için olumlu; öte yandan haberler altının güvenli liman yerine ABD tahvillerine kaydığını ve petrol kaynaklı faiz tartışmasının altını baskıladığını da gösteriyor. Bu çelişkili sinyaller nedeniyle yön belirsiz, güven düşük.
 22.10 22:49 B  NEWS (45 new) score -0.10 conf 0.35: Haberler karışık: Hürmüz'de tanker saldırıları ve Rusya'nın saldırı tırmanışı jeopolitik risk yaratıp altını destekliyor, ancak altına özgü başlıklar (güvenli liman talebinin Hazine tahvillerine kayması, petrol fiyatlarının faiz tartışmasını yeniden alevlendirmesi, Fed'in yakın zamanda faiz artırmaması beklentisi) altın üzerinde baskı oluşturuyor. Net etki hafif negatif ve düşük güvenilirlikte.
 22.10 22:59 B  NEWS (5 new) score +0.10 conf 0.35: Jeopolitik risk artıyor (Hürmüz'de tanker saldırıları, İran'ın Körfez tesislerini tehdidi) ve bu altın için güvenli liman talebini destekliyor; ancak petrol fiyatlarındaki yükseliş faiz tartışmasını sertleştiriyor, dolar zayıflamasına rağmen altın "güvenli liman talebinin Hazine tahvillerine kayması" nedeniyle düştü. Sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
@@ -52,6 +51,7 @@ Son işlemler:
 23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere yönelik saldırı ve petrolün 110 doların üzerine çıkması jeopolitik güvenli liman talebini destekliyor, ancak enflasyon baskısı artırdığı için Fed'in sıkı kalma beklentisini güçlendirip altın üzerinde baskı yaratabilir. Tahvil faizlerinin geri dönmesi ve ortalama mortgage oranının hafif gerilemesi sınırlı bir yumuşama işareti; haberlerin çoğu ise altın fiyatını doğrudan etkilemeyen gürültü niteliğinde. Net etki hafif negatif, düşük güvenle.
 23.10 00:09 B  CLOSE short stop: -4.19 USD
 23.10 00:09 B  NEWS (10 new) score -0.15 conf 0.30: Yeni başlıklar karışık: "Gold plunges" başlığı kısa vadede baskı işareti veriyor, ancak petrol 110 doların üzerinde ve İran savaşı/Ukrayna'daki çatışmalar güvenli liman talebini destekliyor. Enflasyon kaynaklı faiz beklentisi endişesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, güven düşük.
+23.10 00:19 B  NEWS (10 new) score +0.20 conf 0.35: Yeni haberlerde İran savaşının yeniden başlayabileceği ve ABD-İsrail saldırılarının Kasım'da planlandığı yönündeki riskler, risk-off ortamı ve petrol fiyatlarının 110 doları aşması gibi unsurlar güvenli liman talebini hafifçe destekliyor. Ancak petrol kaynaklı enflasyon baskısı faiz indirimi beklentilerini geciktirebilir, ABD enflasyonu da belirgin bir sürpriz göstermiyor; bu nedenle etki sınırlı ve karışık.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
