@@ -173,6 +173,10 @@
    [
     1792710273,
     5000
+   ],
+   [
+    1792710877,
+    5000
    ]
   ]
  },
@@ -414,15 +418,19 @@
    [
     1792710273,
     5003.44
+   ],
+   [
+    1792710877,
+    5003.44
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
+   "score": 0.05,
+   "confidence": 0.35,
    "reason": "Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert bir sat\u0131\u015f bask\u0131s\u0131yla d\u00fc\u015ft\u00fc ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, petrol fiyatlar\u0131n\u0131n 113 dolar\u0131 a\u015fmas\u0131yla artan enflasyon ve s\u0131k\u0131la\u015fma beklentilerinin g\u00fcvenli liman talebini bast\u0131rd\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Sava\u015f kaynakl\u0131 jeopolitik risk teoride alt\u0131n\u0131 destekler, ancak piyasada \u015fu an faiz ve dolar kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu nedenle k\u0131sa vadede hafif negatif bir e\u011filim var, fakat jeopolitik \u015fok ve d\u00fc\u015f\u00fck seviyeden al\u0131m ihtimali nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1792710155188,
-   "new_headlines": 15,
+   "ts": 1792710876138,
+   "new_headlines": 6,
    "key_events": [
     "Pluang: 'Gold plunges, wiping out summer gains' (yeni, k\u0131sa vadeli bask\u0131)",
     "Petrol 110 dolar\u0131n \u00fczerinde, tanker fiyatlar\u0131 enerji s\u0131k\u0131\u015fmas\u0131 riski",
@@ -581,16 +589,25 @@
     "confidence": 0.5,
     "reason": "Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert bir sat\u0131\u015f bask\u0131s\u0131yla d\u00fc\u015ft\u00fc ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, petrol fiyatlar\u0131n\u0131n 113 dolar\u0131 a\u015fmas\u0131yla artan enflasyon ve s\u0131k\u0131la\u015fma beklentilerinin g\u00fcvenli liman talebini bast\u0131rd\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Sava\u015f kaynakl\u0131 jeopolitik risk teoride alt\u0131n\u0131 destekler, ancak piyasada \u015fu an faiz ve dolar kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu nedenle k\u0131sa vadede hafif negatif bir e\u011filim var, fakat jeopolitik \u015fok ve d\u00fc\u015f\u00fck seviyeden al\u0131m ihtimali nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
     "new": 15
+   },
+   {
+    "ts": 1792710876138,
+    "score": 0.05,
+    "confidence": 0.35,
+    "reason": "",
+    "new": 6
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 13
+   "n": 14
   },
   "news_seen": [
+   "Peso hits one-year low as Fed-Banxico rate gap narrows - Mexico News Daily",
+   "The Stanford writing war waged between Stegner and Kesey - The Stanford Daily",
    "Neighbors describe Phoenix hailstorm as \u2018war zone\u2019 - AZ Family",
    "Mexican Peso nears 18.75 as Iran risks and AI selloff hit sentiment | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Why these Iowa GOP voters are wary of Trump resuming the Iran war after the midterms - CNN",
+   "Trump keeps hinting he\u2019ll resume the Iran war after the midterms. These Iowa GOP voters sound wary - CNN",
    "Nasdaq, Treasury yields and dollar face a major AI sentiment test - FOREX.com",
    "Saudi Strike Sends Oil Above $113; Gold Breaks Below $4,050 in Capitulation-Style Selloff - BigGo Finance",
    "Sri Lankan PM: Conflicts like the Iran war serve no one - CNN",
@@ -601,16 +618,16 @@
    "Saudi Aramco seeks overseas oil stockpile expansion after Iran war - Iran International",
    "Trump's attacks on the press have become a war - NPR",
    "Michigan documentarian sheds light on Ukraine's resilience amid ongoing war - WZZM13.com",
-   "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
    "Gold falls to 11-week low; silver slumps to lowest close this year (GLD:NYSEARCA) - Seeking Alpha",
+   "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
    "Trump says Musk has restored access to Ukraine's Starlink network",
    "Trump\u2019s Gamble to End the Iran War - The Atlantic",
    "Opinion | U.K. Labour\u2019s Ceasefire in the War on Gas - WSJ",
-   "Trump invokes Cold War era Defense Production Act for oil production, refining - The Mighty 790 KFGO",
    "Trump invokes Cold War-era Defense Production Act for oil production, refining - Reuters",
    "Porter Airlines Pilots Receive $2 Million USD Grant from ALPA\u2019s War Chest to Support Negotiations for a Fair Contract - ALPA",
    "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "How popular is the Iran War? - Silver Bulletin",
+   "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices - Trentonian",
    "Gears Of War: E-Day Gets Its Third Update On Xbox & PC, Full Patch Notes Revealed - Pure Xbox",
    "Judge limits election-related immigration stops amid broader legal war ahead of midterms - Los Angeles Times",
    "Naira Touches N1,369 As Demand For US Dollar Payments Surge - MarketForces Africa",
@@ -624,15 +641,13 @@
    "New York bans horse-drawn carriages after 160 years over safety and abuse concerns",
    "Will the Iran war resume before the US and Israeli elections? - The National",
    "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze - MarketWatch",
-   "Newmont beats quarterly profit estimates on higher gold prices - Reuters",
    "Hegseth wanted Eisenhower\u2019s globe for his office. His staff broke it. - The Washington Post",
    "Newmont beats quarterly profit estimates as company benefits from higher gold prices - The Globe and Mail",
    "Newmont beats third-quarter earnings expectations as higher gold sales boost profits; miner raises 2026 cost outlook - Kitco",
+   "Newmont beats quarterly profit estimates on higher gold prices - The Lufkin Daily News",
    "Exclusive | EU mulls sanctions reprieve for Chinese fabric-maker accused of aiding Russia - South China Morning Post",
    "Gold Rate Today In Pune, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
-   "Kansas Senate candidates clash on Trump agenda and Iran war - WBUR",
-   "Markets tumble as concerns about Iran war and high AI spending collide - NBC News",
-   "891 Missile Security Forces Squadron enhances training and readiness - Minot Air Force Base (.mil)"
+   "Markets tumble as concerns about Iran war and high AI spending collide - NBC News"
   ]
  },
  "log": [
@@ -663,7 +678,8 @@
   "23.10 01:40 B1  SHORT gold 5000 USD x10 @ 4040.54 (TP 4036.50, SL 4042.97; news -0.40)",
   "23.10 01:52 N  NEWS (17 new) score -0.20 conf 0.45: Alt\u0131n son saatlerde sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda ve 4.050 dolar\u0131n alt\u0131na indi; petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131n i\u00e7in olumsuz. Sava\u015f riskinin g\u00fcvenli liman talebi yaratmas\u0131 ise bu bask\u0131y\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden sinyal zay\u0131f-negatif ve g\u00fcven orta d\u00fczeyde.",
   "23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Alt\u0131n 4.050 dolar\u0131n alt\u0131na sert bir sat\u0131\u015f bask\u0131s\u0131yla d\u00fc\u015ft\u00fc ve 11 haftan\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc; bu, petrol fiyatlar\u0131n\u0131n 113 dolar\u0131 a\u015fmas\u0131yla artan enflasyon ve s\u0131k\u0131la\u015fma beklentilerinin g\u00fcvenli liman talebini bast\u0131rd\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Sava\u015f kaynakl\u0131 jeopolitik risk teoride alt\u0131n\u0131 destekler, ancak piyasada \u015fu an faiz ve dolar kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu nedenle k\u0131sa vadede hafif negatif bir e\u011filim var, fakat jeopolitik \u015fok ve d\u00fc\u015f\u00fck seviyeden al\u0131m ihtimali nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
-  "23.10 02:04 B1  CLOSE short take profit: +3.82 USD"
+  "23.10 02:04 B1  CLOSE short take profit: +3.82 USD",
+  "23.10 02:14 N  NEWS (6 new) score +0.05 conf 0.35: "
  ],
  "gold_big": {
   "account": {
@@ -718,6 +734,10 @@
    ],
    [
     1792710273,
+    5000
+   ],
+   [
+    1792710877,
     5000
    ]
   ],
@@ -780,6 +800,10 @@
    [
     1792710273,
     5000
+   ],
+   [
+    1792710877,
+    5000
    ]
   ],
   "news_calls": {
@@ -836,6 +860,10 @@
    ],
    [
     1792710273,
+    5000
+   ],
+   [
+    1792710877,
     5000
    ]
   ]
