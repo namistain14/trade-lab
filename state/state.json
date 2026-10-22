@@ -77,6 +77,10 @@
    [
     1792698549,
     5000
+   ],
+   [
+    1792699150,
+    5000
    ]
   ]
  },
@@ -158,15 +162,19 @@
    [
     1792698549,
     5000
+   ],
+   [
+    1792699150,
+    5000
    ]
   ],
   "news": {
-   "score": -0.1,
+   "score": 0.1,
    "confidence": 0.35,
-   "reason": "Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131 ve Rusya'n\u0131n sald\u0131r\u0131 t\u0131rman\u0131\u015f\u0131 jeopolitik risk yarat\u0131p alt\u0131n\u0131 destekliyor, ancak alt\u0131na \u00f6zg\u00fc ba\u015fl\u0131klar (g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131, petrol fiyatlar\u0131n\u0131n faiz tart\u0131\u015fmas\u0131n\u0131 yeniden alevlendirmesi, Fed'in yak\u0131n zamanda faiz art\u0131rmamas\u0131 beklentisi) alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikte.",
+   "reason": "Jeopolitik risk art\u0131yor (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve bu alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor; ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz tart\u0131\u015fmas\u0131n\u0131 sertle\u015ftiriyor, dolar zay\u0131flamas\u0131na ra\u011fmen alt\u0131n \"g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131\" nedeniyle d\u00fc\u015ft\u00fc. Sinyaller kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792698549695,
-   "new_headlines": 45
+   "ts": 1792699150529,
+   "new_headlines": 5
   },
   "news_history": [
    {
@@ -187,17 +195,27 @@
     "confidence": 0.35,
     "reason": "Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131 ve Rusya'n\u0131n sald\u0131r\u0131 t\u0131rman\u0131\u015f\u0131 jeopolitik risk yarat\u0131p alt\u0131n\u0131 destekliyor, ancak alt\u0131na \u00f6zg\u00fc ba\u015fl\u0131klar (g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131, petrol fiyatlar\u0131n\u0131n faiz tart\u0131\u015fmas\u0131n\u0131 yeniden alevlendirmesi, Fed'in yak\u0131n zamanda faiz art\u0131rmamas\u0131 beklentisi) alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikte.",
     "new": 45
+   },
+   {
+    "ts": 1792699150529,
+    "score": 0.1,
+    "confidence": 0.35,
+    "reason": "Jeopolitik risk art\u0131yor (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve bu alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor; ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz tart\u0131\u015fmas\u0131n\u0131 sertle\u015ftiriyor, dolar zay\u0131flamas\u0131na ra\u011fmen alt\u0131n \"g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131\" nedeniyle d\u00fc\u015ft\u00fc. Sinyaller kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 5
    }
   ],
   "news_calls": {
    "date": "2026-10-22",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
-   "Buccellati Gives Torsad\u00e9 a Fresh Twist - www.jckonline.com",
    "Hegseth wanted Eisenhower\u2019s globe for his office. His staff broke it. - The Washington Post",
+   "Camp Lejeune Marine unit becomes first to switch to missile battalion - WITN",
+   "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
+   "Buccellati Gives Torsad\u00e9 a Fresh Twist - www.jckonline.com",
    "Tenth District Manufacturing Activity Increased Steadily in October - Kansas City Fed",
    "Russia to step up ballistic missile attacks as U.S. cuts Patriot missile supplies to Ukraine \u2013 Zelensky - Ukrinform",
+   "Darline Graham did not discuss split over Russia sanctions waiver during Trump visit - Washington Examiner",
    "Gold miners face margin pressure as lower prices complicate third-quarter results By Investing.com - Investing.com South Africa",
    "Fernandes set to avoid sanctions over post-match Carrick criticism - Yahoo Sports",
    "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
@@ -211,12 +229,13 @@
    "Trump, GOP speakers at Clemson lean hard into culture war issues - Greenville Online",
    "The Human Questions Behind the Laws of War - BC Law Magazine",
    "Trump is \u2018financing\u2019 war against Ukraine, Nobel winner says : Here & Now Anytime - NPR",
+   "Gold Rate Today in Uttar Pradesh 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today",
    "Missile Defense Agency Awards Long Wall Interceptor Contract - Aviation Week",
    "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
    "Watch Russia Looking to Escalate War, Not End it, Romanian Leader Says - Bloomberg.com",
+   "\u2018The Mothers of Kherson\u2019 Review: A Ukraine War Opera - WSJ",
    "Gold slides as safe-haven demand shifts to US Treasuries despite lower yields - FXStreet",
    "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
-   "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed - AP News",
    "South Korean Won: Hawkish BoK hold supports gains against US Dollar \u2013 Societe Generale - FXStreet",
    "Fact Check: Where do Marshall and Hamilton stand on cutting gas tax during Iran war? - Kansas City Star",
    "The US Dollar Slipped As Treasury Yields Dropped Below 5% - Finimize",
@@ -231,19 +250,16 @@
    "Sterling today: Pound edges higher on U.S. tech drag - StreetInsider",
    "WAR's Lonnie Jordan, a San Diego native, reflects on decades of creating 'universal street music' - Times of San Diego",
    "Russia Looking to Escalate War, Not End it, Romanian Leader Says - Bloomberg.com",
+   "Gold Rate Today in Andhra Pradesh 22nd October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
    "Gold Slid As Oil Prices Rekindled The Rates Debate - Finimize",
    "New Zealand Dollar loses ground as inflation eases in third quarter | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Iran says seven ships hit in Hormuz Strait, warns US of wider response - Al Jazeera",
-   "New Zealand Dollar loses ground as inflation eases in third quarter - FXStreet",
-   "Kingdom v. Trump: There Is No Right-Wing Culture War These Two Justices Won\u2019t Fight - Balls and Strikes",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - ABC 10News San Diego",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - KXLF-TV",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - WPTV"
+   "Iran says seven ships hit in Hormuz Strait, warns US of wider response - Al Jazeera"
   ]
  },
  "log": [
   "22.10 20:51 B  NEWS score -0.30 conf 0.40: The most gold-relevant items lean bearish: a 2% gold drop on energy-driven inflation worries and commentary that hot September PPI makes an October Fed rate hike nearly assured, which pushes real yields up. Geopolitical headlines (Iran war risk, NATO Black Sea buildup) offer some safe-haven support, but they are mostly old or already priced in, so the net tilt is mildly bearish with low confidence.",
   "22.10 21:59 B  NEWS score +0.20 conf 0.40: Hormuz'da 7 tankerin vuruldu\u011fu iddias\u0131 ve Iran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair korkular jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in alt\u0131na inmesi ve dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in olumlu; \u00f6te yandan haberler alt\u0131n\u0131n g\u00fcvenli liman yerine ABD tahvillerine kayd\u0131\u011f\u0131n\u0131 ve petrol kaynakl\u0131 faiz tart\u0131\u015fmas\u0131n\u0131n alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131n\u0131 da g\u00f6steriyor. Bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n belirsiz, g\u00fcven d\u00fc\u015f\u00fck.",
-  "22.10 22:49 B  NEWS (45 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131 ve Rusya'n\u0131n sald\u0131r\u0131 t\u0131rman\u0131\u015f\u0131 jeopolitik risk yarat\u0131p alt\u0131n\u0131 destekliyor, ancak alt\u0131na \u00f6zg\u00fc ba\u015fl\u0131klar (g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131, petrol fiyatlar\u0131n\u0131n faiz tart\u0131\u015fmas\u0131n\u0131 yeniden alevlendirmesi, Fed'in yak\u0131n zamanda faiz art\u0131rmamas\u0131 beklentisi) alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikte."
+  "22.10 22:49 B  NEWS (45 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131 ve Rusya'n\u0131n sald\u0131r\u0131 t\u0131rman\u0131\u015f\u0131 jeopolitik risk yarat\u0131p alt\u0131n\u0131 destekliyor, ancak alt\u0131na \u00f6zg\u00fc ba\u015fl\u0131klar (g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131, petrol fiyatlar\u0131n\u0131n faiz tart\u0131\u015fmas\u0131n\u0131 yeniden alevlendirmesi, Fed'in yak\u0131n zamanda faiz art\u0131rmamas\u0131 beklentisi) alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikte.",
+  "22.10 22:59 B  NEWS (5 new) score +0.10 conf 0.35: Jeopolitik risk art\u0131yor (H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran'\u0131n K\u00f6rfez tesislerini tehdidi) ve bu alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor; ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz tart\u0131\u015fmas\u0131n\u0131 sertle\u015ftiriyor, dolar zay\u0131flamas\u0131na ra\u011fmen alt\u0131n \"g\u00fcvenli liman talebinin Hazine tahvillerine kaymas\u0131\" nedeniyle d\u00fc\u015ft\u00fc. Sinyaller kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
  ]
 }
