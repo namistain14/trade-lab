@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 21:28 (İstanbul)
+> Son güncelleme: 23.10.2026 21:51 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -122,7 +122,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,017.72 $** (başlangıç 5,000 $, +17.72 $ / %+0.35)
+**Hesap değeri: 5,022.53 $** (başlangıç 5,000 $, +22.53 $ / %+0.45)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -146,7 +146,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 20:23 B1  hedefler güncellendi: TP 4007.16 (+2$), SL 4011.17 (-3$)
 23.10 20:23 B2  hedefler güncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)
 23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD
 23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
@@ -161,6 +160,7 @@ Son işlemler:
 23.10 21:08 B6  karar turu: Claude «Petrol 100 doların üzerinde ve İran gerilimi sürerken endeksler dar bantta yatay seyrediyor; net bir avantaj olmadığından işlem açmamak en doğrusu.» / GPT «Endekslerde dar bantlı seyir ve yüksek haber belirsizliği nedeniyle yüzde 1,5 hedefi destekleyen net kurulum yok; yeni pozisyon açmamak daha disiplinli.»
 23.10 21:28 B1  CLOSE short stop: -3.00 USD
 23.10 21:28 B6  karar turu: Claude «Piyasa İran kaynaklı petrol yükselişi ve tarife belirsizliği altında dar bantta yatay seyrediyor; açık bir intraday avantaj görünmüyor.» / GPT «Endeksler son saatte yatay; haber ve fiyat teyidi birleşmediğinden kaldıraçla yüzde 1,5 hedefli işlem açmak yerine beklemek daha disiplinli.»
+23.10 21:51 B6  karar turu: Claude «Petrol 100 doların üzerinde ve İran gerginliği sürerken piyasa sıkışık ve yönsüz; Cuma öğleden sonra işlem açmak için net bir avantaj görünmüyor.» / GPT «Kapanışa 69 dakika kala dar fiyat bantları ve karışık haber akışı, yüzde 1,5 hedefli kaldıraçlı işlemler için yeterli avantaj sağlamıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
