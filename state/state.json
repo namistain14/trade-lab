@@ -510,6 +510,10 @@
    [
     1792754272,
     5000.3
+   ],
+   [
+    1792754817,
+    5000.3
    ]
   ]
  },
@@ -1403,15 +1407,19 @@
    [
     1792754272,
     4968.46
+   ],
+   [
+    1792754817,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.5,
+   "score": -0.4,
    "confidence": 0.6,
-   "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n a\u00e7\u0131l\u0131yor ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f (Brent/WTI 114 dolar \u00fczeri) enflasyon ve s\u0131k\u0131la\u015ft\u0131r\u0131lm\u0131\u015f Fed beklentilerini besleyerek reel faiz bask\u0131s\u0131 yarat\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. Jeopolitik risk (\u0130ran sava\u015f\u0131, \u0130srail-\u0130ran gerilimi) g\u00fcvenli liman talebi yaratsa da piyasada bu etki \u015fimdilik bask\u0131lanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Bu nedenle hafif-orta d\u00fczeyde negatif bir g\u00f6r\u00fc\u015f; UBS'in al\u0131m f\u0131rsat\u0131 beklentisi ve olas\u0131 jeopolitik \u015fok ise yukar\u0131 y\u00f6nl\u00fc riskler olarak duruyor.",
+   "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve sert sat\u0131\u015f sonras\u0131 4.000 dolar civar\u0131nda tutunmaya \u00e7al\u0131\u015f\u0131yor. Petrol 114 dolar\u0131n \u00fczerinde seyrediyor; bu enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek reel faiz kanal\u0131ndan alt\u0131na bask\u0131 yarat\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemeye yetmiyor, ancak al\u0131c\u0131lar\u0131n kademeli giri\u015fi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
    "n": 45,
-   "ts": 1792754269509,
-   "new_headlines": 14,
+   "ts": 1792754814379,
+   "new_headlines": 12,
    "key_events": [
     "Gold 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 bahisleri ve g\u00fc\u00e7l\u00fc USD bask\u0131 yarat\u0131yor",
     "Bank of America: Fed 2026'da iki kez daha faiz art\u0131rabilir",
@@ -2088,33 +2096,47 @@
     "confidence": 0.6,
     "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n a\u00e7\u0131l\u0131yor ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f (Brent/WTI 114 dolar \u00fczeri) enflasyon ve s\u0131k\u0131la\u015ft\u0131r\u0131lm\u0131\u015f Fed beklentilerini besleyerek reel faiz bask\u0131s\u0131 yarat\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. Jeopolitik risk (\u0130ran sava\u015f\u0131, \u0130srail-\u0130ran gerilimi) g\u00fcvenli liman talebi yaratsa da piyasada bu etki \u015fimdilik bask\u0131lanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Bu nedenle hafif-orta d\u00fczeyde negatif bir g\u00f6r\u00fc\u015f; UBS'in al\u0131m f\u0131rsat\u0131 beklentisi ve olas\u0131 jeopolitik \u015fok ise yukar\u0131 y\u00f6nl\u00fc riskler olarak duruyor.",
     "new": 14
+   },
+   {
+    "ts": 1792754814379,
+    "score": -0.4,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve sert sat\u0131\u015f sonras\u0131 4.000 dolar civar\u0131nda tutunmaya \u00e7al\u0131\u015f\u0131yor. Petrol 114 dolar\u0131n \u00fczerinde seyrediyor; bu enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek reel faiz kanal\u0131ndan alt\u0131na bask\u0131 yarat\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemeye yetmiyor, ancak al\u0131c\u0131lar\u0131n kademeli giri\u015fi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+    "new": 12
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 87
+   "n": 88
   },
   "news_seen": [
+   "$4,000: Gold fights to hold its ground after sharp sell-off - FXStreet",
+   "First Thing Today | Grain markets mixed as geopolitical heat keeps traders on edge - Pro Farmer",
+   "Grid drops?! New MotoGP sanctions for missing PR events revealed - The Race",
+   "Israel: War, Power and the Vote - Institute for War & Peace Reporting - IWPR",
+   "Russia and Ukraine have swapped 270 prisoners of war each, Russian state media reports - Reuters",
    "Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising - Yahoo Finance",
    "Australian Dollar edges up against US Dollar ahead of US flash PMI data - FXStreet",
    "At least one dead and four injured in Paris suburb shooting",
    "As Trump\u2019s support slips amid war, white evangelicals remain his bedrock - The Arab Weekly",
    "Alvarado distances himself from Trump on Iran war, tariffs in KY House debate with Dembo - Lexington Herald Leader",
+   "Ringgit ends easier vs US dollar amid AI-related share price concerns - The Star",
+   "TSX futures drop amid gold price fall, AI anxieties - Investing.com",
+   "Estonia Receives GMLRS Rockets After US Supply Pause Due to War With Iran - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
    "AI trade meets the Fed - Reuters",
-   "TSX futures drop amid gold price fall, AI anxieties By Investing.com - Investing.com Australia",
    "Ukraine says Starlink still restricted after Trump says limits lifted",
    "UBS sees dip buyers stepping in to support gold at this level - Yahoo Finance",
+   "KAZAKHSTAN : Anti-war independent Orthodox priest given 4-year jail term - Forum 18",
+   "Top ICC official urges EU to act \u2018as soon as possible\u2019 on US sanctions - POLITICO.eu",
    "Bangladesh cuts gold prices cut again as global market slides - bdnews24.com",
    "Antam Gold Price Today, October 23, 2026, Drops Again; 1 Gram Now Rp2.54 Million - Aktualita.co",
    "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
    "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
    "Israel, Iran ramp up war rhetoric, as prospect of open conflict looms - Semafor",
    "No end in sight: Trump's bid to end Ukraine war falls flat - Al Majalla",
-   "US-Canada trade war creates winners and losers - DW.com",
    "Malawi opposition demands answers over president's prolonged stay abroad",
    "U.S. Envoy Mike Waltz Says Iran War Could Run Another Year as Oil Passes $114 - Northeast Times",
    "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
-   "Trump Asked Musk to Reverse Limits on Ukraine\u2019s Military Internet Use - The New York Times",
    "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
    "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
    "Investors Just Got Bad News From the Federal Reserve. Here's What History Says Comes Next. - AOL.com",
@@ -2123,23 +2145,16 @@
    "The U.S. should stay out of Saudi Arabia\u2019s war - Responsible Statecraft",
    "Cyprus police open investigation into financial affairs of Roman Abramovich",
    "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-   "Alvarado, Dembo spar over Iran war, data centers and Epstein in central Kentucky debate - Kentucky Lantern",
+   "Department of War Awards Tucson Unified School District a $41 Million Grant for Frank Borm - U.S. Department of War (.gov)",
    "New famine risk haunts war-torn Sudan with El Ni\u00f1o-driven drought - Reuters",
    "\u2018Dawn Of War IV\u2019 Massive Overview Trailer - Cinelinx",
    "Kremlin says Russia did not free US citizen Stephen Hubbard in exchange for a Russian war blogger - Reuters",
    "Fight Night in an Active War Zone - by Karim Zidan - Sports Politika",
+   "Laurels and Darts: A truth-teller at Newsmax. - Columbia Journalism Review",
    "Gold Price Forecast: Inflation, Treasury Yields and the Dollar - www.equiti.com",
-   "New electronics reach Iran, but prices soar as gov\u2019t fees, US sanctions hit - Al Jazeera",
    "Can Europe Manage Its Frontiers? - Geopolitical Futures",
    "Pandering to Vladimir Putin Won\u2019t Bring Peace to Ukraine - Bloomberg.com",
-   "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star",
-   "'Extraordinary contributions': South Charleston named American WWII Heritage City - Charleston Gazette-Mail",
-   "Iran War\u2019s Architects Get Ready to Face Frustrated Voters - Bloomberg.com",
-   "US Economy Stays Resilient Despite Middle East Conflict and Elevated Inflation - Global Trade Magazine",
-   "Lockheed Martin Missile Backlog Triples to $142.5B - GovCon Wire",
-   "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
-   "Norebo owner launches lawsuit against small newspaper over coverage of sanctions - SeafoodSource",
-   "Infographic: Domestic and global gold prices fall on October 23 - Nhan Dan Online"
+   "Fact Check: Marshall claims Ukraine war is to blame for high gas prices in the U.S. - Kansas City Star"
   ]
  },
  "log": [
@@ -2291,7 +2306,8 @@
   "23.10 13:50 N  NEWS (3 new) score -0.40 conf 0.50: Faiz beklentileri ve getiriler gold i\u00e7in bask\u0131lay\u0131c\u0131: BofA'n\u0131n Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi tahmini ve Treasury getirilerindeki y\u00fckseli\u015f, reel faizleri yukar\u0131 \u00e7ekiyor. Ayr\u0131ca alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 ve petrol\u00fcn 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentileriyle dengeleniyor; bu nedenle sinyal orta d\u00fczeyde negatif.",
   "23.10 13:59 N  NEWS (7 new) score -0.15 conf 0.35: Alt\u0131n 4.000 dolar\u0131 yak\u0131n\u0131nda ve d\u00fc\u015f\u00fc\u015f e\u011filiminde; \u0130ran-\u0130srail gerilimi ve petrol fiyat\u0131n\u0131n 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak petrol kaynakl\u0131 enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. Piyasadaki mevcut d\u00fc\u015f\u00fc\u015f, jeopolitik riskten \u00e7ok faiz ve dolar etkisine i\u015faret ediyor; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
   "23.10 14:07 N  NEWS (5 new) score -0.25 conf 0.50: Alt\u0131n fiyat\u0131 yak\u0131n vadede d\u00fc\u015f\u00fc\u015fte ve haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131, petrol fiyat\u0131n\u0131n 114 dolar\u0131 a\u015fmas\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekliyor, ancak y\u00fckselen enflasyon, Fed'den olumsuz haber alg\u0131s\u0131 ve hisse senedi sat\u0131\u015f\u0131 (AI endi\u015feleri) alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. G\u00fcvenli liman etkisinin \u015fu an bask\u0131lanmas\u0131, faiz ve likidite kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
-  "23.10 14:17 N  NEWS (14 new) score -0.50 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n a\u00e7\u0131l\u0131yor ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f (Brent/WTI 114 dolar \u00fczeri) enflasyon ve s\u0131k\u0131la\u015ft\u0131r\u0131lm\u0131\u015f Fed beklentilerini besleyerek reel faiz bask\u0131s\u0131 yarat\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. Jeopolitik risk (\u0130ran sava\u015f\u0131, \u0130srail-\u0130ran gerilimi) g\u00fcvenli liman talebi yaratsa da piyasada bu etki \u015fimdilik bask\u0131lanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Bu nedenle hafif-orta d\u00fczeyde negatif bir g\u00f6r\u00fc\u015f; UBS'in al\u0131m f\u0131rsat\u0131 beklentisi ve olas\u0131 jeopolitik \u015fok ise yukar\u0131 y\u00f6nl\u00fc riskler olarak duruyor."
+  "23.10 14:17 N  NEWS (14 new) score -0.50 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n a\u00e7\u0131l\u0131yor ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f (Brent/WTI 114 dolar \u00fczeri) enflasyon ve s\u0131k\u0131la\u015ft\u0131r\u0131lm\u0131\u015f Fed beklentilerini besleyerek reel faiz bask\u0131s\u0131 yarat\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. Jeopolitik risk (\u0130ran sava\u015f\u0131, \u0130srail-\u0130ran gerilimi) g\u00fcvenli liman talebi yaratsa da piyasada bu etki \u015fimdilik bask\u0131lanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Bu nedenle hafif-orta d\u00fczeyde negatif bir g\u00f6r\u00fc\u015f; UBS'in al\u0131m f\u0131rsat\u0131 beklentisi ve olas\u0131 jeopolitik \u015fok ise yukar\u0131 y\u00f6nl\u00fc riskler olarak duruyor.",
+  "23.10 14:26 N  NEWS (12 new) score -0.40 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve sert sat\u0131\u015f sonras\u0131 4.000 dolar civar\u0131nda tutunmaya \u00e7al\u0131\u015f\u0131yor. Petrol 114 dolar\u0131n \u00fczerinde seyrediyor; bu enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek reel faiz kanal\u0131ndan alt\u0131na bask\u0131 yarat\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemeye yetmiyor, ancak al\u0131c\u0131lar\u0131n kademeli giri\u015fi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -2769,6 +2785,10 @@
    [
     1792754272,
     4969.06
+   ],
+   [
+    1792754817,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3170,6 +3190,10 @@
    [
     1792754272,
     4988.81
+   ],
+   [
+    1792754817,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3543,6 +3567,10 @@
    [
     1792754272,
     5000
+   ],
+   [
+    1792754817,
+    5000
    ]
   ]
  },
@@ -3640,6 +3668,10 @@
    [
     1792754272,
     5003.94
+   ],
+   [
+    1792754817,
+    5005.69
    ]
   ],
   "news_calls": {

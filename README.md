@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 14:17 (İstanbul)
+> Son güncelleme: 23.10.2026 14:26 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 14:17): puan **-0.50**, güven 0.60 — Altın 3 aylık dibe yakın açılıyor ve petrol fiyatlarındaki yükseliş (Brent/WTI 114 dolar üzeri) enflasyon ve sıkılaştırılmış Fed beklentilerini besleyerek reel faiz baskısı yaratıyor; bu da kısa vadede altın için olumsuz. Jeopolitik risk (İran savaşı, İsrail-İran gerilimi) güvenli liman talebi yaratsa da piyasada bu etki şimdilik baskılanmış görünüyor. Bu nedenle hafif-orta düzeyde negatif bir görüş; UBS'in alım fırsatı beklentisi ve olası jeopolitik şok ise yukarı yönlü riskler olarak duruyor.
+Son haber analizi (23.10 14:26): puan **-0.40**, güven 0.60 — Altın 3 aylık dibe yakın ve sert satış sonrası 4.000 dolar civarında tutunmaya çalışıyor. Petrol 114 doların üzerinde seyrediyor; bu enflasyon ve sıkı Fed beklentilerini besleyerek reel faiz kanalından altına baskı yaratıyor. Savaş kaynaklı güvenli liman talebi bu baskıyı dengelemeye yetmiyor, ancak alıcıların kademeli girişi düşüşü sınırlayabilir.
 
 Son işlemler:
 
@@ -84,7 +84,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,003.94 $** (başlangıç 5,000 $, +3.94 $ / %+0.08)
+**Hesap değeri: 5,005.69 $** (başlangıç 5,000 $, +5.69 $ / %+0.11)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.25 (TP 4050.36 / SL 4030.17)
 
@@ -108,7 +108,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 12:02 B4  LONG gold 5000 USD x10 @ 4038.25 (TP 4050.36, SL 4030.17; news +0.45)
 23.10 12:11 N  NEWS (10 new) score -0.50 conf 0.60: Petrol 113 doların üzerine çıkarak enflasyon ve faiz artışı beklentilerini besliyor; Warsh'ın daha fazla faiz artırımına işaret etmesi ve altının 3 aylık dibe gelmesi baskıyı artırıyor. Savaş haberleri ve güvenli liman talebi ise sınırlı kalıyor, dolar da güvenli liman rolünü kaybetmiş görünüyor; bu nedenle beklenen etki negatif, ancak haberlerin bir kısmı zaten fiyatlanmış olabilir.
 23.10 12:26 N  NEWS (13 new) score -0.50 conf 0.60: 
 23.10 12:38 N  NEWS (8 new) score -0.55 conf 0.60: Altın 4.000 doların altına indi ve düşüş sürüyor. Faiz artışı beklentileri (BofA'nın 2026'da iki ek faiz artışı öngörüsü, Warsh'un daha fazla artış sinyali vermesi), yükselen tahvil getirileri ve petrolün 113 doların üzerine çıkmasından doğan enflasyon kaygısı altın için baskılayıcı. Savaş kaynaklı güvenli liman talebi zayıf kalıyor çünkü "dolar güvenli liman taclarını kaybetti" yorumu ve hisse senedi satışı önemli bir destek sağlamıyor. Teknik kırılma ve haber akışındaki çelişkiler nedeniyle güven orta düzeyde tutuldu.
@@ -123,6 +122,7 @@ Son işlemler:
 23.10 13:59 N  NEWS (7 new) score -0.15 conf 0.35: Altın 4.000 doları yakınında ve düşüş eğiliminde; İran-İsrail gerilimi ve petrol fiyatının 114 dolara çıkması güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertleştirerek altı baskılıyor. Piyasadaki mevcut düşüş, jeopolitik riskten çok faiz ve dolar etkisine işaret ediyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 23.10 14:07 N  NEWS (5 new) score -0.25 conf 0.50: Altın fiyatı yakın vadede düşüşte ve haberler karışık: İran savaşı, petrol fiyatının 114 doları aşması ve Orta Doğu gerilimi güvenli liman talebini destekliyor, ancak yükselen enflasyon, Fed'den olumsuz haber algısı ve hisse senedi satışı (AI endişeleri) altını aşağı çekiyor. Güvenli liman etkisinin şu an baskılanması, faiz ve likidite kaynaklı satış baskısının daha belirleyici olduğunu gösteriyor.
 23.10 14:17 N  NEWS (14 new) score -0.50 conf 0.60: Altın 3 aylık dibe yakın açılıyor ve petrol fiyatlarındaki yükseliş (Brent/WTI 114 dolar üzeri) enflasyon ve sıkılaştırılmış Fed beklentilerini besleyerek reel faiz baskısı yaratıyor; bu da kısa vadede altın için olumsuz. Jeopolitik risk (İran savaşı, İsrail-İran gerilimi) güvenli liman talebi yaratsa da piyasada bu etki şimdilik baskılanmış görünüyor. Bu nedenle hafif-orta düzeyde negatif bir görüş; UBS'in alım fırsatı beklentisi ve olası jeopolitik şok ise yukarı yönlü riskler olarak duruyor.
+23.10 14:26 N  NEWS (12 new) score -0.40 conf 0.60: Altın 3 aylık dibe yakın ve sert satış sonrası 4.000 dolar civarında tutunmaya çalışıyor. Petrol 114 doların üzerinde seyrediyor; bu enflasyon ve sıkı Fed beklentilerini besleyerek reel faiz kanalından altına baskı yaratıyor. Savaş kaynaklı güvenli liman talebi bu baskıyı dengelemeye yetmiyor, ancak alıcıların kademeli girişi düşüşü sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
