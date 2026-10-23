@@ -530,6 +530,10 @@
    [
     1792756482,
     5000.3
+   ],
+   [
+    1792757170,
+    5000.3
    ]
   ]
  },
@@ -1443,21 +1447,35 @@
    [
     1792756482,
     4968.46
+   ],
+   [
+    1792757170,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve $4,000 seviyesinde bask\u0131 alt\u0131nda; petrol fiyatlar\u0131n\u0131n 114 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve faiz beklentilerini yukar\u0131 itip alt\u0131n i\u00e7in negatif bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, bu etki enflasyon/Fed kaynakl\u0131 sat\u0131\u015flarla dengelenmi\u015f g\u00f6r\u00fcn\u00fcyor; ABD dolar\u0131n\u0131n g\u00fcvenli liman rol\u00fcn\u00fcn sorgulanmas\u0131 ise k\u0131smen destekleyici bir unsur.",
+   "score": -0.2,
+   "confidence": 0.45,
+   "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in s\u0131k\u0131 kalabilece\u011fi beklentileriyle 3 ayl\u0131k dip seviyelerine yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu, reel faiz kanal\u0131 \u00fczerinden alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi haberleri ve dolar\u0131n dalgal\u0131 seyri (yen y\u00fckseli\u015fi, dolarda zay\u0131flama) k\u0131smen destekleyici; bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n net de\u011fil ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792756441034,
-   "new_headlines": 4,
+   "ts": 1792757168102,
+   "new_headlines": 5,
    "key_events": [
     "Petrol 114 dolar\u0131n \u00fczerinde; enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Alt\u0131n 3 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131; Fed'e ili\u015fkin olumsuz haberler",
     "\u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 g\u00fcvenli liman talebi destekliyor ama etkisi s\u0131n\u0131rl\u0131"
    ],
-   "gpt": null
+   "gpt": {
+    "score": -0.2,
+    "confidence": 0.43,
+    "reason": "Y\u00fckselen petrol\u00fcn enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi, alt\u0131ndaki mevcut sat\u0131\u015f bask\u0131s\u0131n\u0131 k\u0131sa vadede destekliyor. Dolar\u0131n zay\u0131flamas\u0131 ve Voronej yak\u0131n\u0131ndaki askeri havaalan\u0131 \u00e7evresinde \u00e7\u0131kan yang\u0131n g\u00fcvenli liman talebi yaratabilir; bu kar\u015f\u0131t sinyaller g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor.",
+    "key_events": [
+     "Petrol kaynakl\u0131 enflasyon ve faiz kayg\u0131lar\u0131",
+     "Dolar\u0131n yen kar\u015f\u0131s\u0131nda zay\u0131flamas\u0131",
+     "Voronej yak\u0131n\u0131nda askeri havaalan\u0131 \u00e7evresinde yang\u0131n"
+    ],
+    "model": "gpt-6-luna"
+   }
   },
   "news_history": [
    {
@@ -2163,13 +2181,26 @@
     "new": 4,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792757168102,
+    "score": -0.2,
+    "confidence": 0.45,
+    "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in s\u0131k\u0131 kalabilece\u011fi beklentileriyle 3 ayl\u0131k dip seviyelerine yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu, reel faiz kanal\u0131 \u00fczerinden alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi haberleri ve dolar\u0131n dalgal\u0131 seyri (yen y\u00fckseli\u015fi, dolarda zay\u0131flama) k\u0131smen destekleyici; bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n net de\u011fil ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 5,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 91
+   "n": 92
   },
   "news_seen": [
+   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
+   "Department of War Publishes Seventh Release of Unidentified Anomalous Phenomena Files on W - U.S. Department of War (.gov)",
+   "Island inflation rate rises to 3%, figures show",
+   "The US Dollar holds the yield advantage: Why safe-haven demand still sank it against the Japanese Yen - FXStreet",
    "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
    "At least one dead and four injured in Paris suburb shooting",
    "US Failed to Achieve Its War Objectives Against Iran: Friday Prayer Leader - WANA News Agency",
@@ -2178,6 +2209,7 @@
    "Gold weakens as inflation fears mount, oil and gas prices jump - TRT World",
    "Iran War - Post Register",
    "Iran War - WV News",
+   "US dollar weakens as yen surges and investors assess Federal Reserve outlook - Economies.com",
    "Euro set for weekly drop against dollar, yen as France concerns resurface - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "$4,000: Gold fights to hold its ground after sharp sell-off - FXStreet",
    "Military reinforcements move to Mideast. And, millions of Americans vote early - NPR",
@@ -2195,26 +2227,21 @@
    "Ukraine says Starlink still restricted after Trump says limits lifted",
    "UBS sees dip buyers stepping in to support gold at this level - Yahoo Finance",
    "EXPLAINER \u2013 Bulgaria\u2019s presidential race tests country\u2019s geopolitical direction - Anadolu Ajans\u0131",
-   "Netanyahu stakes his re-election on the promise of another war with Iran and opposition to Arab parties - EL PA\u00cdS English",
    "Bangladesh cuts gold prices cut again as global market slides - bdnews24.com",
    "Antam Gold Price Today, October 23, 2026, Drops Again; 1 Gram Now Rp2.54 Million - Aktualita.co",
-   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
    "Israel, Iran ramp up war rhetoric, as prospect of open conflict looms - Semafor",
-   "Gold Rate Today In Bareilly, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "No end in sight: Trump's bid to end Ukraine war falls flat - Al Majalla",
    "US-Canada trade war creates winners and losers - DW.com",
    "Malawi opposition demands answers over president's prolonged stay abroad",
    "U.S. Envoy Mike Waltz Says Iran War Could Run Another Year as Oil Passes $114 - Northeast Times",
-   "Gold Rate Today In Ghaziabad, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
+   "Media reports: Fire breaks out near military airfield in Voronezh after missile alert - Ukrinform",
    "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
    "TSX futures slip as oil rally adds to inflation worries - Reuters",
    "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
    "Investors Just Got Bad News From the Federal Reserve. Here's What History Says Comes Next. - AOL.com",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-   "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet",
-   "The U.S. should stay out of Saudi Arabia\u2019s war - Responsible Statecraft",
-   "Cyprus police open investigation into financial affairs of Roman Abramovich"
+   "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet"
   ]
  },
  "log": [
@@ -2370,7 +2397,9 @@
   "23.10 14:26 N  NEWS (12 new) score -0.40 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve sert sat\u0131\u015f sonras\u0131 4.000 dolar civar\u0131nda tutunmaya \u00e7al\u0131\u015f\u0131yor. Petrol 114 dolar\u0131n \u00fczerinde seyrediyor; bu enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek reel faiz kanal\u0131ndan alt\u0131na bask\u0131 yarat\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemeye yetmiyor, ancak al\u0131c\u0131lar\u0131n kademeli giri\u015fi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "23.10 14:36 N  NEWS (10 new) score -0.40 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve 4.000 dolar civar\u0131nda sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; petrol 114 dolar\u0131n \u00fczerinde seyrediyor, enflasyon endi\u015feleri ve Fed'den gelen olumsuz haberler faiz beklentilerini sertle\u015ftirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n jeopolitik risk primi bir miktar destek sa\u011flasa da, g\u00fc\u00e7lenen dolar ve enflasyon kaynakl\u0131 s\u0131k\u0131la\u015fma beklentisi k\u0131sa vadede daha belirleyici g\u00f6r\u00fcn\u00fcyor; al\u0131c\u0131lar\u0131n (UBS'nin dip al\u0131m\u0131 beklentisi gibi) devreye girme ihtimali ise y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
   "23.10 14:44 N  NEWS (4 new) score -0.40 conf 0.50: Petrol 114 dolar\u0131n \u00fczerinde ve enflasyon endi\u015feleri art\u0131yor; bu da Fed'in s\u0131k\u0131 kalaca\u011f\u0131 beklentisini besleyerek reel faizleri yukar\u0131 itip alt\u0131n i\u00e7in olumsuz. Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; \u0130ran sava\u015f\u0131n\u0131n jeopolitik g\u00fcvenli liman talebi destek sa\u011flasa da piyasa \u015fu an bunu fiyatlam\u0131yor.",
-  "23.10 14:54 N  NEWS (4 new) score -0.30 conf 0.50: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve $4,000 seviyesinde bask\u0131 alt\u0131nda; petrol fiyatlar\u0131n\u0131n 114 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve faiz beklentilerini yukar\u0131 itip alt\u0131n i\u00e7in negatif bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, bu etki enflasyon/Fed kaynakl\u0131 sat\u0131\u015flarla dengelenmi\u015f g\u00f6r\u00fcn\u00fcyor; ABD dolar\u0131n\u0131n g\u00fcvenli liman rol\u00fcn\u00fcn sorgulanmas\u0131 ise k\u0131smen destekleyici bir unsur."
+  "23.10 14:54 N  NEWS (4 new) score -0.30 conf 0.50: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve $4,000 seviyesinde bask\u0131 alt\u0131nda; petrol fiyatlar\u0131n\u0131n 114 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve faiz beklentilerini yukar\u0131 itip alt\u0131n i\u00e7in negatif bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, bu etki enflasyon/Fed kaynakl\u0131 sat\u0131\u015flarla dengelenmi\u015f g\u00f6r\u00fcn\u00fcyor; ABD dolar\u0131n\u0131n g\u00fcvenli liman rol\u00fcn\u00fcn sorgulanmas\u0131 ise k\u0131smen destekleyici bir unsur.",
+  "23.10 15:06 N  NEWS (5 new) score -0.20 conf 0.45: Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in s\u0131k\u0131 kalabilece\u011fi beklentileriyle 3 ayl\u0131k dip seviyelerine yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu, reel faiz kanal\u0131 \u00fczerinden alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi haberleri ve dolar\u0131n dalgal\u0131 seyri (yen y\u00fckseli\u015fi, dolarda zay\u0131flama) k\u0131smen destekleyici; bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n net de\u011fil ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.10 15:06 N  GPT  score -0.20 conf 0.43: Y\u00fckselen petrol\u00fcn enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi, alt\u0131ndaki mevcut sat\u0131\u015f bask\u0131s\u0131n\u0131 k\u0131sa vadede destekliyor. Dolar\u0131n zay\u0131flamas\u0131 ve Voronej yak\u0131n\u0131ndaki askeri havaalan\u0131 \u00e7evresinde \u00e7\u0131kan yang\u0131n g\u00fcvenli liman talebi yaratabilir; bu kar\u015f\u0131t sinyaller g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -2868,6 +2897,10 @@
    [
     1792756482,
     4969.06
+   ],
+   [
+    1792757170,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3289,6 +3322,10 @@
    [
     1792756482,
     4988.81
+   ],
+   [
+    1792757170,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3682,6 +3719,10 @@
    [
     1792756482,
     5000
+   ],
+   [
+    1792757170,
+    5000
    ]
   ]
  },
@@ -3799,6 +3840,10 @@
    [
     1792756482,
     5001.32
+   ],
+   [
+    1792757170,
+    5006.08
    ]
   ],
   "news_calls": {
@@ -3835,6 +3880,10 @@
    ],
    [
     1792756482,
+    5000
+   ],
+   [
+    1792757170,
     5000
    ]
   ],
