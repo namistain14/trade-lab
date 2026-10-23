@@ -225,30 +225,18 @@
    [
     1792717934,
     5000
+   ],
+   [
+    1792718657,
+    5000
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4995.071161368428,
+   "balance": 4990.884287263645,
    "start": 5000,
-   "positions": [
-    {
-     "id": "aa4bb671",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2418273652209593,
-     "entry": 4026.324544,
-     "tp": 4022.298219456,
-     "sl": 4028.7403387264,
-     "opened_ms": 1792717933786,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.30/0.45",
-     "friction": 2.373
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -354,12 +342,33 @@
      "gross": -4.1866,
      "costs": 0.0,
      "pnl": -4.1866
+    },
+    {
+     "id": "aa4bb671",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2418273652209593,
+     "entry": 4026.324544,
+     "tp": 4022.298219456,
+     "sl": 4028.7403387264,
+     "opened_ms": 1792717933786,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.30/0.45",
+     "friction": 2.373,
+     "exit": 4029.6960867941452,
+     "closed_ms": 1792718220000,
+     "reason": "stop",
+     "gross": -4.1869,
+     "costs": 0.0,
+     "pnl": -4.1869
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 4,
-    "pnl": -8.744126671247288,
+    "pnl": -12.931000776030297,
     "stopped": false
    },
    "last_check_ms": 0
@@ -576,15 +585,19 @@
    [
     1792717934,
     4993.88
+   ],
+   [
+    1792718657,
+    4990.88
    ]
   ],
   "news": {
    "score": -0.3,
-   "confidence": 0.45,
-   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve sert Fed beklentisi \u00fczerinden alt\u0131n\u0131 bask\u0131lay\u0131p iki ayl\u0131k dibe \u00e7ekti\u011fi i\u00e7in k\u0131sa vadede negatif g\u00f6r\u00fcn\u00fcyor. Ancak K\u00f6rfez'den \u00e7\u0131kan petrol arz\u0131n\u0131n artmas\u0131 ve bu haberin zaten fiyatlanm\u0131\u015f olmas\u0131, d\u00fc\u015f\u00fc\u015f\u00fcn bir k\u0131sm\u0131n\u0131n tersine d\u00f6nebilece\u011fini g\u00f6sterdi\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131 kal\u0131yor.",
+   "confidence": 0.5,
+   "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n son saatlerde iki ayl\u0131k dibe inmi\u015f durumda. Yeni gelen haberler kar\u0131\u015f\u0131k: Houthi sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi ihtimali jeopolitik risk primi getirse de, H\u00fcrm\u00fcz \u00e7evresinden daha fazla petrol \u00e7\u0131k\u0131\u015f\u0131 ve ABD'nin \u00fcretimi art\u0131rma ad\u0131mlar\u0131 petrol bask\u0131s\u0131n\u0131 azaltabilir.",
    "n": 45,
-   "ts": 1792717933185,
-   "new_headlines": 2,
+   "ts": 1792718656354,
+   "new_headlines": 10,
    "key_events": [
     "Pluang: 'Gold plunges, wiping out summer gains' (yeni, k\u0131sa vadeli bask\u0131)",
     "Petrol 110 dolar\u0131n \u00fczerinde, tanker fiyatlar\u0131 enerji s\u0131k\u0131\u015fmas\u0131 riski",
@@ -827,58 +840,65 @@
     "confidence": 0.45,
     "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve sert Fed beklentisi \u00fczerinden alt\u0131n\u0131 bask\u0131lay\u0131p iki ayl\u0131k dibe \u00e7ekti\u011fi i\u00e7in k\u0131sa vadede negatif g\u00f6r\u00fcn\u00fcyor. Ancak K\u00f6rfez'den \u00e7\u0131kan petrol arz\u0131n\u0131n artmas\u0131 ve bu haberin zaten fiyatlanm\u0131\u015f olmas\u0131, d\u00fc\u015f\u00fc\u015f\u00fcn bir k\u0131sm\u0131n\u0131n tersine d\u00f6nebilece\u011fini g\u00f6sterdi\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131 kal\u0131yor.",
     "new": 2
+   },
+   {
+    "ts": 1792718656354,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n son saatlerde iki ayl\u0131k dibe inmi\u015f durumda. Yeni gelen haberler kar\u0131\u015f\u0131k: Houthi sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi ihtimali jeopolitik risk primi getirse de, H\u00fcrm\u00fcz \u00e7evresinden daha fazla petrol \u00e7\u0131k\u0131\u015f\u0131 ve ABD'nin \u00fcretimi art\u0131rma ad\u0131mlar\u0131 petrol bask\u0131s\u0131n\u0131 azaltabilir.",
+    "new": 10
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 25
+   "n": 26
   },
   "news_seen": [
+   "Saudi-led coalition says it intercepted 11 Houthi drones and a ballistic missile - Anadolu Ajans\u0131",
+   "Pentagon rushes Japan\u2019s war buildup against China - Struggle-La Lucha",
    "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
    "Japanese Yen gathers strength as CPI inflation exceeds target, backing BoJ rate hikes - FXStreet",
    "Murkowski on war-driven energy prices: 'It is wrong.' - KYUK",
+   "Gold rate today (October 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar G - The Economic Times",
    "Civil War museum highlights Black soldiers' contributions - The Charlotte Post",
    "Trump ordered to answer questions under oath in BBC lawsuit",
+   "How popular is the Iran War? - Silver Bulletin",
    "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
    "Fidelity's Timmer Blames Sticky Inflation and Fiscal Risk for Rising Bond Yields - BeInCrypto",
+   "Palmer Luckey teams with dire wolf billionaire Ben Lamm to launch $200 million Warhound - Fortune",
+   "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - www.tmgm.com",
+   "\u2018More Money Means More Dead Ukrainians\u2019 \u2013 Kasparov Warns Against Deals With Moscow - Kyiv Post",
    "World War II veteran shares his stories in Conway for short film series - KARK",
    "Gold falls to two\u2011month low below $4,050 as oil spikes | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Gold Rate Today In Ranchi, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Gold falls to two\u2011month low below $4,050 as oil spikes - FXStreet",
    "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - FXStreet",
+   "Team Trump\u2019s vast war on fraud should pay dividends for decades to come - New York Post",
    "Gold prices today, October 23rd: World gold prices fall by more than 2.5%, SJC gold prices remain unchanged. - Vietnam.vn",
    "Horizon Gold details Gum Creek expansion upside - ICYMI - Proactive financial news",
    "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
+   "Newmont beats quarterly profit estimates on higher gold prices - Mining.com.au",
    "Premiums, Storage and Heirs: The True Price of Owning Gold You Can Touch - CEOWORLD magazine",
    "Christians Flee Drones Amid War in Khartoum - International Christian Concern",
-   "How popular is the Iran War? - Silver Bulletin",
    "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
    "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
    "Gold price slumps 2% as oil spikes to five-month high - Mining.com.au",
    "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch",
+   "Gustavo de Ar\u00edstegui: Geopolitical Analysis for October 22 - Atalayar",
    "Peso hits one-year low as Fed-Banxico rate gap narrows - Mexico News Daily",
    "Gold price update morning of October 23rd: Gold falls deeply, major banks forecast optimistic - Laodong.vn",
    "The Stanford writing war waged between Stegner and Kesey - The Stanford Daily",
    "Grid operator says lights will stay on this winter after concerns",
-   "Putin reaffirms Russia\u2019s readiness to resume trilateral peace talks on Ukraine war - Anadolu Ajans\u0131",
    "Billionaires Palmer Luckey And Ben Lamm Spin Up Startup To Genetically Engineer Military Dogs - Forbes",
    "Korean War soldier laid to rest in North Texas after 75 years - CBS News",
    "Neighbors describe Phoenix hailstorm as \u2018war zone\u2019 - AZ Family",
    "Mexican Peso nears 18.75 as Iran risks and AI selloff hit sentiment | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "US-sanctioned ICC wins Sakharov Prize, EU\u2019s top human rights award - Al Jazeera",
-   "New additive manufacturing collaboration aims to boost missile stock - mypanhandle.com",
+   "Trump keeps hinting he\u2019ll resume the Iran war after the midterms. These Iowa GOP voters sound wary - CNN",
    "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
-   "Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery By Reuters - Investing.com Canada",
    "Nasdaq, Treasury yields and dollar face a major AI sentiment test - FOREX.com",
    "Saudi Strike Sends Oil Above $113; Gold Breaks Below $4,050 in Capitulation-Style Selloff - BigGo Finance",
-   "Gold Rate Today In Noida, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Sri Lankan PM: Conflicts like the Iran war serve no one - CNN",
-   "Sanctions targeting North Korean fraudulent IT worker networks and cybercrime - Australian Minister for Foreign Affairs",
-   "US Dollar Surpasses EGP 55 for First Time Against Egyptian Pound - Egyptian Streets",
-   "What we know about war plans that Trump and Netanyahu are drawing up - NPR",
-   "Saudi Aramco seeks overseas oil stockpile expansion after Iran war - Iran International",
-   "Gold rate today (October 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar G - The Economic Times"
+   "Trump invokes Defence Production Act to boost oil production and refining - South China Morning Post"
   ]
  },
  "log": [
@@ -928,7 +948,9 @@
   "23.10 04:02 N  NEWS (4 new) score -0.20 conf 0.40: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131la\u015fan Fed beklentilerini besleyerek alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor; alt\u0131n iki ayl\u0131k en d\u00fc\u015f\u00fck seviyeye (4.050 dolar\u0131 alt\u0131na) geriledi. Yeni gelen haberlerde Basra K\u00f6rfezi'nden \u00e7\u0131kan petrol miktar\u0131n\u0131n sava\u015f \u00f6ncesinden fazla olmas\u0131 ise petrol bask\u0131s\u0131n\u0131 azaltabilir, bu da kar\u0131\u015f\u0131k bir tablo yarat\u0131yor; bu nedenle g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "23.10 04:02 B2  CLOSE short stop: -11.19 USD",
   "23.10 04:12 N  NEWS (2 new) score -0.30 conf 0.45: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve sert Fed beklentisi \u00fczerinden alt\u0131n\u0131 bask\u0131lay\u0131p iki ayl\u0131k dibe \u00e7ekti\u011fi i\u00e7in k\u0131sa vadede negatif g\u00f6r\u00fcn\u00fcyor. Ancak K\u00f6rfez'den \u00e7\u0131kan petrol arz\u0131n\u0131n artmas\u0131 ve bu haberin zaten fiyatlanm\u0131\u015f olmas\u0131, d\u00fc\u015f\u00fc\u015f\u00fcn bir k\u0131sm\u0131n\u0131n tersine d\u00f6nebilece\u011fini g\u00f6sterdi\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131 kal\u0131yor.",
-  "23.10 04:12 B1  SHORT gold 5000 USD x10 @ 4026.32 (TP 4022.30, SL 4028.74; news -0.30)"
+  "23.10 04:12 B1  SHORT gold 5000 USD x10 @ 4026.32 (TP 4022.30, SL 4028.74; news -0.30)",
+  "23.10 04:24 B1  CLOSE short stop: -4.19 USD",
+  "23.10 04:24 N  NEWS (10 new) score -0.30 conf 0.50: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n son saatlerde iki ayl\u0131k dibe inmi\u015f durumda. Yeni gelen haberler kar\u0131\u015f\u0131k: Houthi sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi ihtimali jeopolitik risk primi getirse de, H\u00fcrm\u00fcz \u00e7evresinden daha fazla petrol \u00e7\u0131k\u0131\u015f\u0131 ve ABD'nin \u00fcretimi art\u0131rma ad\u0131mlar\u0131 petrol bask\u0131s\u0131n\u0131 azaltabilir."
  ],
  "gold_big": {
   "account": {
@@ -1058,6 +1080,10 @@
    [
     1792717934,
     4988.81
+   ],
+   [
+    1792718657,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -1171,6 +1197,10 @@
    [
     1792717934,
     5000
+   ],
+   [
+    1792718657,
+    5000
    ]
   ],
   "news_calls": {
@@ -1279,6 +1309,10 @@
    ],
    [
     1792717934,
+    5000
+   ],
+   [
+    1792718657,
     5000
    ]
   ]
