@@ -147,6 +147,25 @@ bots:
     max_trades_per_day: 15
     daily_loss_limit_usd: 100
 
+  stocks_ai:               # Bot B6: US stocks on Alpaca PAPER account (100k fake USD), Claude + GPT must agree
+    type: stocks_alpaca
+    label: "Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:2"
+    tag: "B6"
+    enabled: true
+    symbols: ["SPY", "QQQ", "NVDA", "AAPL", "TSLA"]
+    leverage: 2
+    position_pct: 0.20        # 20% of equity per trade x leverage 2 = 40% notional per position
+    max_open: 5               # 5 x 40% = 200% max exposure (1:2)
+    take_profit_pct: 1.5
+    stop_loss_pct: 1.0
+    min_confidence: 0.55      # the lower of the two confidences must reach this
+    decide_minutes: 15        # both models are asked at most every 15 minutes
+    no_new_minutes_before_close: 45
+    flatten_minutes_before_close: 15
+    daily_loss_limit_pct: 0.02
+    claude_models: ["claude-fable-5-1", "claude-opus-5-5", "claude-sonnet-5-5"]   # strongest first
+    gpt_models: ["gpt-6.1-sol", "gpt-6-astra", "gpt-6-luna"]
+
 news:
   model: "claude-haiku-5-5"   # cheap and fast for hourly news reading
   gpt_models: ["gpt-6-luna", "gpt-6.1-sol"]   # second, independent reader of the same headlines (bot B5)

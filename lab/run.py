@@ -11,6 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import bots  # noqa: E402
 import paper  # noqa: E402
+import stocks  # noqa: E402
 
 STATE = os.path.join(ROOT, "state", "state.json")
 IST = dt.timezone(dt.timedelta(hours=3))
@@ -25,7 +26,8 @@ def load() -> tuple[dict, dict]:
     except (FileNotFoundError, ValueError):
         st = {}
     for name in cfg["bots"]:
-        st.setdefault(name, {"account": paper.new_account(cfg["start_equity_usd"]), "equity_curve": []})
+        start = 100000 if cfg["bots"][name].get("type") == "stocks_alpaca" else cfg["start_equity_usd"]
+        st.setdefault(name, {"account": paper.new_account(start), "equity_curve": []})
     st.setdefault("log", [])
     return cfg, st
 
@@ -114,6 +116,8 @@ def main() -> None:
                 shared = None if name == "gold_news" else st["gold_news"].setdefault("news", {})
                 prices.update(bots.gold_tick(st[name]["account"], bc, cfg["news"], st[name], log, key,
                                              shared_news=shared, tag=tag))
+            elif kind == "stocks_alpaca":
+                prices.update(stocks.stocks_tick(st[name], bc, cfg["news"], log, key, tag=tag))
         except Exception as e:  # noqa: BLE001
             errors.append(f"{tag}: {e}")
 
