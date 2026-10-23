@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 03:14 (İstanbul)
+> Son güncelleme: 23.10.2026 03:26 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -34,9 +34,11 @@
 | Kazanma oranı | %33.3 | %50.0 |
 | Ödenen komisyon/spread | 7.12 $ | 9.49 $ |
 
-**Hesap değeri: 4,999.26 $** (başlangıç 5,000 $, -0.74 $ / %-0.01)
+**Hesap değeri: 4,998.08 $** (başlangıç 5,000 $, -1.92 $ / %-0.04)
 
-Son haber analizi (23.10 03:14): puan **-0.30**, güven 0.50 — Petrol 113 doların üzerine fırladı ve bu enflasyon ile sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık ve 11 haftalık dip seviyelerine geriledi. Jeopolitik risk (İran, Hürmüz) güvenli liman talebini desteklemesi gerektiği halde piyasa tepkisi altın aleyhine çalışıyor; Putin'in barış görüşmelerine hazır olduğu haberi de jeopolitik primi biraz zayıflatıyor.
+Açık pozisyonlar: PAXGUSDT short @ 4032.75 (TP 4028.72 / SL 4035.17)
+
+Son haber analizi (23.10 03:26): puan **-0.45**, güven 0.60 — Petrol fiyatlarının 113 doların üzerine fırlaması enflasyon ve sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık dip olan 4.050 doların altına indi ve satış baskısı sürüyor. Rusya'nın yeni füze saldırıları ve İran savaşına ilişkin jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki mevcut satışı dengelemekte yetersiz kalıyor; tahvil getirilerindeki yükseliş de bu tabloyu destekliyor.
 
 Son işlemler:
 
@@ -56,7 +58,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,994.71 $** (başlangıç 5,000 $, -5.29 $ / %-0.11)
+**Hesap değeri: 5,001.38 $** (başlangıç 5,000 $, +1.38 $ / %+0.03)
 
 Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 
@@ -74,8 +76,6 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 ## Son olaylar
 
 ```
-23.10 01:40 N  NEWS (11 new) score -0.40 conf 0.50: Altın 4.050 doların altına sert satışla indi ve 11 haftanın en düşük seviyesini gördü; bu, Suudi saldırısının petrolü 113 doların üzerine taşımasıyla birlikte enflasyon ve sıkı Fed beklentilerinin güvenli liman talebinin önüne geçtiğini gösteriyor. Ancak jeopolitik tırmanış ve enerji şokunun aynı anda yaşanması sinyalleri çelişkili olduğu için güveni sınırlı tutuyorum.
-23.10 01:40 B1  SHORT gold 5000 USD x10 @ 4040.54 (TP 4036.50, SL 4042.97; news -0.40)
 23.10 01:52 N  NEWS (17 new) score -0.20 conf 0.45: Altın son saatlerde satış baskısı altında ve 4.050 doların altına indi; petrolün 113 doların üzerine çıkması enflasyon ve sıkı para politikası beklentilerini canlandırarak altın için olumsuz. Savaş riskinin güvenli liman talebi yaratması ise bu baskıyı sınırlıyor, bu yüzden sinyal zayıf-negatif ve güven orta düzeyde.
 23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
 23.10 02:04 B1  CLOSE short take profit: +3.82 USD
@@ -89,6 +89,8 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 23.10 03:03 N  NEWS (3 new) score -0.45 conf 0.60: Petrol 113 doların üzerine fırladı ve bu enflasyon ile sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık ve 11 haftalık dip seviyelerine geriledi. Jeopolitik risk (İran, Hürmüz) güvenli liman talebini desteklemesi gerektiği halde piyasa tepkisi altın aleyhine çalışıyor; Putin'in barış görüşmelerine hazır olduğu haberi de jeopolitik primi biraz zayıflatıyor.
 23.10 03:14 B1  CLOSE short stop: -4.19 USD
 23.10 03:14 N  NEWS (10 new) score -0.30 conf 0.50: 
+23.10 03:26 N  NEWS (6 new) score -0.45 conf 0.60: Petrol fiyatlarının 113 doların üzerine fırlaması enflasyon ve sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık dip olan 4.050 doların altına indi ve satış baskısı sürüyor. Rusya'nın yeni füze saldırıları ve İran savaşına ilişkin jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki mevcut satışı dengelemekte yetersiz kalıyor; tahvil getirilerindeki yükseliş de bu tabloyu destekliyor.
+23.10 03:26 B1  SHORT gold 5000 USD x10 @ 4032.75 (TP 4028.72, SL 4035.17; news -0.45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
