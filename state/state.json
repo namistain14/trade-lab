@@ -566,6 +566,10 @@
    [
     1792761153,
     5000.3
+   ],
+   [
+    1792761697,
+    5000.3
    ]
   ]
  },
@@ -1515,28 +1519,32 @@
    [
     1792761153,
     4968.46
+   ],
+   [
+    1792761697,
+    4968.46
    ]
   ],
   "news": {
    "score": -0.35,
    "confidence": 0.5,
-   "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dayan\u0131kl\u0131 dolar\u0131n etkisiyle sert d\u00fc\u015f\u00fc\u015fte; bu da faiz beklentilerinin gold i\u00e7in olumsuz oldu\u011funu g\u00f6steriyor. \u0130ran sava\u015f\u0131 ve \u0130srail'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir, ancak piyasan\u0131n \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rakt\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor. Haftal\u0131k kay\u0131p ve y\u00fcksek belirsizlik nedeniyle g\u00fcven orta d\u00fczeyde.",
+   "reason": "Alt\u0131n haftal\u0131k en b\u00fcy\u00fck kayb\u0131n\u0131 ya\u015f\u0131yor, 23 Ekim'de yakla\u015f\u0131k %2,3 d\u00fc\u015ft\u00fc ve tasfiye pani\u011fi fiyat\u0131 4.000 dolar e\u015fi\u011fine yakla\u015ft\u0131rd\u0131. Petrol kaynakl\u0131 enflasyon endi\u015feleri, FOMC \u00f6ncesi dolardaki dayan\u0131kl\u0131l\u0131k ve Kanada'da olas\u0131 faiz art\u0131r\u0131m\u0131 tabloyu \u015fahin tarafa \u00e7ekiyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ise s\u0131n\u0131rl\u0131 da olsa g\u00fcvenli liman talebini destekliyor.",
    "n": 45,
-   "ts": 1792761150054,
-   "new_headlines": 7,
+   "ts": 1792761694428,
+   "new_headlines": 11,
    "key_events": [
     "Petrol 114 dolar\u0131n \u00fczerinde; enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Alt\u0131n 3 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131; Fed'e ili\u015fkin olumsuz haberler",
     "\u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 g\u00fcvenli liman talebi destekliyor ama etkisi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.38,
-    "reason": "Ortado\u011fu\u2019daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon endi\u015feleri ve g\u00fc\u00e7l\u00fc dolar/Fed beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde yeni bir makro veri s\u00fcrprizi i\u00e7ermedi\u011finden k\u0131sa vadeli y\u00f6n sinyali zay\u0131f.",
+    "score": -0.3,
+    "confidence": 0.55,
+    "reason": "Alt\u0131n ve g\u00fcm\u00fc\u015fteki sert d\u00fc\u015f\u00fc\u015f, dolar\u0131n diren\u00e7li seyri ve sava\u015f kaynakl\u0131 enerji fiyatlar\u0131n\u0131n enflasyon/faiz beklentilerini y\u00fckseltme riski k\u0131sa vadede bask\u0131n ve alt\u0131n i\u00e7in hafif negatif. Jeopolitik riskler g\u00fcvenli liman talebini desteklese de yeni, belirleyici bir t\u0131rman\u0131\u015f haberi yok; haber ak\u0131\u015f\u0131 kar",
     "key_events": [
-     "\u00dcrd\u00fcn ve Bat\u0131 \u015eeria\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131lar",
-     "Petrol y\u00fckseli\u015fiyle artan enflasyon endi\u015feleri",
-     "Dolar\u0131n FOMC \u00f6ncesi diren\u00e7li seyri"
+     "Alt\u0131nda haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ve 4.000 dolar e\u015fi\u011fi bask\u0131s\u0131",
+     "Dolar\u0131n direnci ve enerji fiyatlar\u0131n\u0131n enflasyon kayg\u0131lar\u0131",
+     "B\u00f6lgesel \u00e7at\u0131\u015fmalar\u0131n s\u00fcrmesi, ancak yeni belirleyici t\u0131rman\u0131\u015f olmamas\u0131"
     ],
     "model": "gpt-6-luna"
    }
@@ -2317,31 +2325,45 @@
     "new": 7,
     "gpt_score": -0.2,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1792761694428,
+    "score": -0.35,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n haftal\u0131k en b\u00fcy\u00fck kayb\u0131n\u0131 ya\u015f\u0131yor, 23 Ekim'de yakla\u015f\u0131k %2,3 d\u00fc\u015ft\u00fc ve tasfiye pani\u011fi fiyat\u0131 4.000 dolar e\u015fi\u011fine yakla\u015ft\u0131rd\u0131. Petrol kaynakl\u0131 enflasyon endi\u015feleri, FOMC \u00f6ncesi dolardaki dayan\u0131kl\u0131l\u0131k ve Kanada'da olas\u0131 faiz art\u0131r\u0131m\u0131 tabloyu \u015fahin tarafa \u00e7ekiyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ise s\u0131n\u0131rl\u0131 da olsa g\u00fcvenli liman talebini destekliyor.",
+    "new": 11,
+    "gpt_score": -0.3,
+    "gpt_confidence": 0.55
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 99
+   "n": 100
   },
   "news_seen": [
-   "NEM Q3 Earnings Beat Estimates on Higher Gold Prices, Strong Sales - Zacks Investment Research",
-   "Marywood stages War of the Worlds panic broadcast at Munley Theatre through Sunday - fox56.com",
-   "Pine Bluff NAACP asks Federal Reserve for community meeting on Simmons Bank branch closing - Pine Bluff Commercial",
-   "Fact Sheet: Costs of the Iran War - Center for American Progress",
+   "CBE Governor explains reasons for Egyptian pound\u2019s historic drop against US dollar - Egypt Independent",
+   "Their father died waiting. After 75 years, three sisters welcome their brother home - Dallas News",
    "Seven shot dead by gunmen at church funeral in Jordan, state media say",
+   "NEM Q3 Earnings Beat Estimates on Higher Gold Prices, Strong Sales - Zacks Investment Research",
+   "Indian Rupee: Cautious with decline risk against US Dollar \u2013 OCBC - FXStreet",
+   "Murkowski on war-driven energy prices: \u2018It is wrong.\u2019 - KTOO",
+   "Marywood stages War of the Worlds panic broadcast at Munley Theatre through Sunday - fox56.com",
+   "Kalshi Courts Wall Street in Bid to Be the \u2018Inflation Exchange\u2019 With CPI Futures - Bloomberg.com",
+   "Pine Bluff NAACP asks Federal Reserve for community meeting on Simmons Bank branch closing - Pine Bluff Commercial",
+   "Commentary: The economy, not the Fed - Pensions & Investments",
+   "Fact Sheet: Costs of the Iran War - Center for American Progress",
    "Two Israeli soldiers killed in attack by suspected Palestinian gunmen in West Bank",
    "Russia and Ukraine swap 270 prisoners each - Reuters",
    "Can You Trade Forex And Gold CFDs Using Crypto As Margin? Top 5 Platforms In 2026 - Yellow.com",
    "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 202 - The Economic Times",
    "Anti-terror police investigate as one person killed in shooting near Paris",
-   "Russia Ukraine War - Post Register",
-   "Russia and Ukraine have swapped 270 prisoners of war each, Russian state media reports - 1470 & 100.3 WMBD",
    "Iran War Day 238: War Could Last Another Year, UN Ambassador Admits - The American Conservative",
    "US Dollar: Resilient into FOMC with election risks \u2013 TD Securities - FXStreet",
    "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
    "TSX futures slip as oil rally adds to inflation worries - Kitco",
    "Russian Diesel Tanker Heads for New York After US Eases Sanctions - Kurdistan24",
    "What is PHP and why did it spark a global cyber-security scramble?",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Russian diesel tanker heads to the U.S., the first since Trump\u2019s deal with Putin - NBC News",
    "Gold Price Today: Gold Falls 2.31% on October 23, 2026 - USA Today",
    "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal - WSJ",
@@ -2349,26 +2371,21 @@
    "Gold Price in Bangladesh Drops to Tk 2,24,182 per Bhori After 3rd Cut in 10 Days - https://www.businesstimes-bd.com/",
    "Canadian Dollar May Rise on Possible Bank of Canada Rate Hike Next Week, UBS Says - Yahoo Finance",
    "Gold price at the close of the session on October 23rd: Gold prices are heading towards the strongest weekly decrease - Laodong.vn",
+   "Liquidation panic overshadows U.S. Treasury rebound; gold price teeters on the brink of the $4,000 threshold. - Moomoo",
    "Geopolitical Chat #12: Q&A Session for Paid Subscribers: Trump adopts Israel\u2019s Metric of Success - Total Destruction - Trita Parsi | Substack",
    "USD/CHF (USDCHF) Surges on Oct 23: Was It the Dollar, Rates, or Data? - TradingKey",
    "Carney Says Ukraine Starlink Case Underscores Risk of US Tech Reliance - Bloomberg.com",
    "Department of War Publishes Seventh Release of Unidentified Anomalous Phenomena Files on W - U.S. Department of War (.gov)",
    "Fronteras: \u2018The Rio Grande is dying\u2019 \u2014 How a water war threatens the livelihoods of border residents - Texas Public Radio | TPR",
    "Island inflation rate rises to 3%, figures show",
-   "ICICI Bank and Indian Bank increase FD interest rates: Senior citizens can now earn up to 7.30% in this FD - The Economic Times",
    "The US Dollar holds the yield advantage: Why safe-haven demand still sank it against the Japanese Yen - FXStreet",
-   "Gold price in Pakistan falls Rs7,000 per tola - Investify",
+   "Gold Rate Today In Lucknow, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "US-Iran war, then and now: How the landscape has changed since February - Al Jazeera",
    "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
+   "BAJUS cuts gold prices again as global market slides - The Financial Express",
    "US Dollar Rises Early Friday Ahead of S&P Global Flash Estimates, Michigan Sentiment - Yahoo Finance",
-   "US Dollar: Safe-haven role questioned as AI story weighs \u2013 ING - FXStreet",
-   "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
-   "Egypt Moves to Defend Saudi Arabia as Iran War Threatens to Widen - Crude Oil Prices Today | OilPrice.com",
-   "Gold weakens as inflation fears mount, oil and gas prices jump - TRT World",
-   "Iran War - Post Register",
-   "US dollar weakens as yen surges and investors assess Federal Reserve outlook - Economies.com",
-   "Euro set for weekly drop against dollar, yen as France concerns resurface - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "$4,000: Gold fights to hold its ground after sharp sell-off - FXStreet"
+   "Rupee depreciates byt 11 paise against US dollar - News On AIR",
+   "US Dollar: Safe-haven role questioned as AI story weighs \u2013 ING - FXStreet"
   ]
  },
  "log": [
@@ -2540,7 +2557,9 @@
   "23.10 16:00 N  NEWS (8 new) score -0.40 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n seyrediyor ve haftal\u0131k en b\u00fcy\u00fck kay\u0131plardan birini ya\u015f\u0131yor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131p s\u0131k\u0131 para politikas\u0131 beklentisini g\u00fc\u00e7lendiriyor, dolar ise FOMC \u00f6ncesi diren\u00e7li. \u0130ran sava\u015f\u0131 jeopolitik risk yaratsa da bu korku alt\u0131n\u0131 desteklemiyor, bu y\u00fczden genel etki negatif; yine de FOMC \u00f6ncesi k\u0131sa vadeli tepki ve ABD'deki se\u00e7im riski y\u00f6n\u00fcn\u00fc de\u011fi\u015ftirebilece\u011fi i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 16:00 N  GPT  score -0.32 conf 0.48: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi, alt\u0131ndaki sert sat\u0131\u015flarla birlikte k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. \u00dcrd\u00fcn\u2019deki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak etkisi belirsiz ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
   "23.10 16:12 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dayan\u0131kl\u0131 dolar\u0131n etkisiyle sert d\u00fc\u015f\u00fc\u015fte; bu da faiz beklentilerinin gold i\u00e7in olumsuz oldu\u011funu g\u00f6steriyor. \u0130ran sava\u015f\u0131 ve \u0130srail'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir, ancak piyasan\u0131n \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rakt\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor. Haftal\u0131k kay\u0131p ve y\u00fcksek belirsizlik nedeniyle g\u00fcven orta d\u00fczeyde.",
-  "23.10 16:12 N  GPT  score -0.20 conf 0.38: Ortado\u011fu\u2019daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon endi\u015feleri ve g\u00fc\u00e7l\u00fc dolar/Fed beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde yeni bir makro veri s\u00fcrprizi i\u00e7ermedi\u011finden k\u0131sa vadeli y\u00f6n sinyali zay\u0131f."
+  "23.10 16:12 N  GPT  score -0.20 conf 0.38: Ortado\u011fu\u2019daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon endi\u015feleri ve g\u00fc\u00e7l\u00fc dolar/Fed beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde yeni bir makro veri s\u00fcrprizi i\u00e7ermedi\u011finden k\u0131sa vadeli y\u00f6n sinyali zay\u0131f.",
+  "23.10 16:21 N  NEWS (11 new) score -0.35 conf 0.50: Alt\u0131n haftal\u0131k en b\u00fcy\u00fck kayb\u0131n\u0131 ya\u015f\u0131yor, 23 Ekim'de yakla\u015f\u0131k %2,3 d\u00fc\u015ft\u00fc ve tasfiye pani\u011fi fiyat\u0131 4.000 dolar e\u015fi\u011fine yakla\u015ft\u0131rd\u0131. Petrol kaynakl\u0131 enflasyon endi\u015feleri, FOMC \u00f6ncesi dolardaki dayan\u0131kl\u0131l\u0131k ve Kanada'da olas\u0131 faiz art\u0131r\u0131m\u0131 tabloyu \u015fahin tarafa \u00e7ekiyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ise s\u0131n\u0131rl\u0131 da olsa g\u00fcvenli liman talebini destekliyor.",
+  "23.10 16:21 N  GPT  score -0.30 conf 0.55: Alt\u0131n ve g\u00fcm\u00fc\u015fteki sert d\u00fc\u015f\u00fc\u015f, dolar\u0131n diren\u00e7li seyri ve sava\u015f kaynakl\u0131 enerji fiyatlar\u0131n\u0131n enflasyon/faiz beklentilerini y\u00fckseltme riski k\u0131sa vadede bask\u0131n ve alt\u0131n i\u00e7in hafif negatif. Jeopolitik riskler g\u00fcvenli liman talebini desteklese de yeni, belirleyici bir t\u0131rman\u0131\u015f haberi yok; haber ak\u0131\u015f\u0131 kar"
  ],
  "gold_big": {
   "account": {
@@ -3074,6 +3093,10 @@
    [
     1792761153,
     4969.06
+   ],
+   [
+    1792761697,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3531,6 +3554,10 @@
    [
     1792761153,
     4988.81
+   ],
+   [
+    1792761697,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3960,6 +3987,10 @@
    [
     1792761153,
     5000
+   ],
+   [
+    1792761697,
+    5000
    ]
   ]
  },
@@ -4113,6 +4144,10 @@
    [
     1792761153,
     5008.51
+   ],
+   [
+    1792761697,
+    5006.22
    ]
   ],
   "news_calls": {
@@ -4185,6 +4220,10 @@
    ],
    [
     1792761153,
+    5000
+   ],
+   [
+    1792761697,
     5000
    ]
   ],

@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 16:12 (İstanbul)
+> Son güncelleme: 23.10.2026 16:21 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,9 +42,9 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 16:12): Claude puan **-0.35**, güven 0.50 — Altın, petrol kaynaklı enflasyon endişeleri ve FOMC öncesi dayanıklı doların etkisiyle sert düşüşte; bu da faiz beklentilerinin gold için olumsuz olduğunu gösteriyor. İran savaşı ve İsrail'deki saldırılar güvenli liman talebini destekleyebilir, ancak piyasanın şu an bu etkiyi faiz kanalının gerisinde bıraktığı görülüyor. Haftalık kayıp ve yüksek belirsizlik nedeniyle güven orta düzeyde.
+Son haber analizi (23.10 16:21): Claude puan **-0.35**, güven 0.50 — Altın haftalık en büyük kaybını yaşıyor, 23 Ekim'de yaklaşık %2,3 düştü ve tasfiye paniği fiyatı 4.000 dolar eşiğine yaklaştırdı. Petrol kaynaklı enflasyon endişeleri, FOMC öncesi dolardaki dayanıklılık ve Kanada'da olası faiz artırımı tabloyu şahin tarafa çekiyor; İran savaşının sürmesi ise sınırlı da olsa güvenli liman talebini destekliyor.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.38 — Ortadoğu’daki saldırılar güvenli liman talebini destekleyebilir; ancak petrol kaynaklı enflasyon endişeleri ve güçlü dolar/Fed beklentileri altın üzerinde baskı yaratıyor. Haber akışı karışık ve büyük ölçüde yeni bir makro veri sürprizi içermediğinden kısa vadeli yön sinyali zayıf.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.55 — Altın ve gümüşteki sert düşüş, doların dirençli seyri ve savaş kaynaklı enerji fiyatlarının enflasyon/faiz beklentilerini yükseltme riski kısa vadede baskın ve altın için hafif negatif. Jeopolitik riskler güvenli liman talebini desteklese de yeni, belirleyici bir tırmanış haberi yok; haber akışı kar
 
 Son işlemler:
 
@@ -86,7 +86,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,008.51 $** (başlangıç 5,000 $, +8.51 $ / %+0.17)
+**Hesap değeri: 5,006.22 $** (başlangıç 5,000 $, +6.22 $ / %+0.12)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.25 (TP 4050.36 / SL 4030.17)
 
@@ -121,8 +121,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 15:06 N  GPT  score -0.20 conf 0.43: Yükselen petrolün enflasyon ve faiz beklentilerini yukarı çekmesi, altındaki mevcut satış baskısını kısa vadede destekliyor. Doların zayıflaması ve Voronej yakınındaki askeri havaalanı çevresinde çıkan yangın güvenli liman talebi yaratabilir; bu karşıt sinyaller görünümü belirsiz kılıyor.
-23.10 15:12 N  NEWS (8 new) score -0.20 conf 0.40: Altın, petrol kaynaklı enflasyon endişeleri ve sert hareketle 3 aylık dibe yakın açılış yapmış durumda; bu, Fed'in sıkı kalabileceği beklentisini güçlendirdiği için kısa vadede gold üzerinde baskı yaratıyor. Buna karşılık İran savaşının sürmesi ve Orta Doğu'daki gerilim güvenli liman talebini destekliyor, dolar ise karışık sinyal veriyor, bu yüzden güven düzeyi sınırlı.
 23.10 15:12 N  GPT  score -0.15 conf 0.30: Ortadoğu gerilimi ve Ukrayna’daki saldırı güvenli liman talebini destekleyebilir; ancak altındaki sert satış, yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini yukarı çekmesiyle baskının sürdüğüne işaret ediyor. Yeni başlıkların çoğu doğrudan piyasa katalizörü değil, bu nedenle kısa vade
 23.10 15:24 N  NEWS (6 new) score -0.40 conf 0.50: Altın gün içinde %2.31 düşüş yaşıyor ve 3 aylık dipte açılıyor; petrol fiyatlarındaki yükseliş enflasyon endişelerini artırarak Fed'in sıkı kalma beklentisini ve reel faizleri destekliyor, bu da altın için olumsuz. İran savaşı ve Orta Doğu gerilimi güvenli liman talebini desteklese de, bu etki fiyatlarda belirgin biçimde görülmüyor; ABD doları ve AI kaynaklı risk iştahı da karışık sinyaller veriyor.
 23.10 15:24 N  GPT  score -0.48 conf 0.62: Altın fiyatındaki sert düşüş ve haftalık kayıpların derinleşmesi kısa vadeli aşağı yönlü momentuma işaret ediyor. Yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini artırması baskıyı güçlendirebilir; jeopolitik riskler ve zayıflayan dolar ise düşüşü sınırlayabilir.
@@ -136,6 +134,8 @@ Son işlemler:
 23.10 16:00 N  GPT  score -0.32 conf 0.48: Petrol fiyatlarındaki yükselişin enflasyon ve faiz beklentilerini yukarı çekmesi, altındaki sert satışlarla birlikte kısa vadede baskın biçimde olumsuz. Ürdün’deki saldırı güvenli liman talebini destekleyebilir; ancak etkisi belirsiz ve haberlerin bir kısmı zaten fiyatlanmış olabilir.
 23.10 16:12 N  NEWS (7 new) score -0.35 conf 0.50: Altın, petrol kaynaklı enflasyon endişeleri ve FOMC öncesi dayanıklı doların etkisiyle sert düşüşte; bu da faiz beklentilerinin gold için olumsuz olduğunu gösteriyor. İran savaşı ve İsrail'deki saldırılar güvenli liman talebini destekleyebilir, ancak piyasanın şu an bu etkiyi faiz kanalının gerisinde bıraktığı görülüyor. Haftalık kayıp ve yüksek belirsizlik nedeniyle güven orta düzeyde.
 23.10 16:12 N  GPT  score -0.20 conf 0.38: Ortadoğu’daki saldırılar güvenli liman talebini destekleyebilir; ancak petrol kaynaklı enflasyon endişeleri ve güçlü dolar/Fed beklentileri altın üzerinde baskı yaratıyor. Haber akışı karışık ve büyük ölçüde yeni bir makro veri sürprizi içermediğinden kısa vadeli yön sinyali zayıf.
+23.10 16:21 N  NEWS (11 new) score -0.35 conf 0.50: Altın haftalık en büyük kaybını yaşıyor, 23 Ekim'de yaklaşık %2,3 düştü ve tasfiye paniği fiyatı 4.000 dolar eşiğine yaklaştırdı. Petrol kaynaklı enflasyon endişeleri, FOMC öncesi dolardaki dayanıklılık ve Kanada'da olası faiz artırımı tabloyu şahin tarafa çekiyor; İran savaşının sürmesi ise sınırlı da olsa güvenli liman talebini destekliyor.
+23.10 16:21 N  GPT  score -0.30 conf 0.55: Altın ve gümüşteki sert düşüş, doların dirençli seyri ve savaş kaynaklı enerji fiyatlarının enflasyon/faiz beklentilerini yükseltme riski kısa vadede baskın ve altın için hafif negatif. Jeopolitik riskler güvenli liman talebini desteklese de yeni, belirleyici bir tırmanış haberi yok; haber akışı kar
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
