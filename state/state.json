@@ -682,6 +682,10 @@
    [
     1792775786,
     5000.3
+   ],
+   [
+    1792776210,
+    5000.3
    ]
   ]
  },
@@ -696,7 +700,7 @@
      "side": "short",
      "qty": 1.2472659755199367,
      "entry": 4008.768056,
-     "tp": 4004.759287944,
+     "tp": 4007.1645487776,
      "sl": 4011.1733168336,
      "opened_ms": 1792775768192,
      "entry_cost": 0.0,
@@ -1994,6 +1998,10 @@
    [
     1792775786,
     4931.77
+   ],
+   [
+    1792776210,
+    4933.16
    ]
   ],
   "news": {
@@ -3290,29 +3298,16 @@
   "23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)",
   "23.10 20:05 B1  CLOSE short stop: -4.19 USD",
   "23.10 20:16 B1  SHORT gold 5000 USD x10 @ 4008.77 (TP 4004.76, SL 4011.17; news -0.20)",
-  "23.10 20:16 B6  karar turu: Claude \u00abPiyasa geni\u015f tabanl\u0131 hafif zay\u0131fl\u0131kta ve yapay zeka harcamalar\u0131na dair \u015f\u00fcpheler var, fakat net ve \u015firkete \u00f6zel bir avantaj olmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde son saatte sat\u0131\u015f bask\u0131s\u0131 var ancak \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedefi destekleyen taze kataliz\u00f6r ve g\u00fc\u00e7l\u00fc fiyat teyidi birle\u015fmedi\u011fi i\u00e7in beklemek daha disiplinli.\u00bb"
+  "23.10 20:16 B6  karar turu: Claude \u00abPiyasa geni\u015f tabanl\u0131 hafif zay\u0131fl\u0131kta ve yapay zeka harcamalar\u0131na dair \u015f\u00fcpheler var, fakat net ve \u015firkete \u00f6zel bir avantaj olmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde son saatte sat\u0131\u015f bask\u0131s\u0131 var ancak \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedefi destekleyen taze kataliz\u00f6r ve g\u00fc\u00e7l\u00fc fiyat teyidi birle\u015fmedi\u011fi i\u00e7in beklemek daha disiplinli.\u00bb",
+  "23.10 20:23 B1  hedefler g\u00fcncellendi: TP 4007.16 (+2$), SL 4011.17 (-3$)",
+  "23.10 20:23 B2  hedefler g\u00fcncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)",
+  "23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD"
  ],
  "gold_big": {
   "account": {
-   "balance": 4969.064192257708,
+   "balance": 4964.784783570579,
    "start": 5000,
-   "positions": [
-    {
-     "id": "51d26852",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2451108642579767,
-     "entry": 4015.706668,
-     "tp": 4003.6595479959997,
-     "sl": 4023.7380813359996,
-     "opened_ms": 1792767665318,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.45/0.60",
-     "friction": 2.374
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "b3ea6b98",
@@ -3418,12 +3413,33 @@
      "gross": -11.1882,
      "costs": 0.0,
      "pnl": -11.1882
+    },
+    {
+     "id": "51d26852",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2451108642579767,
+     "entry": 4015.706668,
+     "tp": 4014.1003853327998,
+     "sl": 4018.1160920007997,
+     "opened_ms": 1792767665318,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 500.0,
+     "note": "news -0.45/0.60",
+     "friction": 2.374,
+     "exit": 4019.143638,
+     "closed_ms": 1792767780000,
+     "reason": "stop (gap)",
+     "gross": -4.2794,
+     "costs": 0.0,
+     "pnl": -4.2794
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 6,
-    "pnl": -30.93580774229232,
+    "pnl": -35.215216429421304,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3956,6 +3972,10 @@
    [
     1792775786,
     4976.52
+   ],
+   [
+    1792776210,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -4575,6 +4595,10 @@
    [
     1792775786,
     4973.18
+   ],
+   [
+    1792776210,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5120,6 +5144,10 @@
    [
     1792775786,
     5000
+   ],
+   [
+    1792776210,
+    5000
    ]
   ]
  },
@@ -5395,6 +5423,10 @@
    [
     1792775786,
     4988.82
+   ],
+   [
+    1792776210,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -5622,6 +5654,10 @@
    [
     1792775786,
     5021.27
+   ],
+   [
+    1792776210,
+    5022.65
    ]
   ],
   "news_calls": {
@@ -5723,6 +5759,10 @@
    ],
    [
     1792775786,
+    100000.0
+   ],
+   [
+    1792776210,
     100000.0
    ]
   ],
