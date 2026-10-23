@@ -790,6 +790,10 @@
    [
     1792789766,
     5000.3
+   ],
+   [
+    1792790371,
+    5000.3
    ]
   ]
  },
@@ -2257,28 +2261,32 @@
    [
     1792789766,
     4923.96
+   ],
+   [
+    1792790371,
+    4923.96
    ]
   ],
   "news": {
    "score": -0.5,
    "confidence": 0.6,
-   "reason": "Fed 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7\u0131kard\u0131 ve s\u0131k\u0131la\u015ft\u0131rma d\u00f6ng\u00fcs\u00fc ba\u015flat\u0131ld\u0131; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi haberleri jeopolitik talebi destekleyebilir, ancak haftal\u0131k d\u00fc\u015f\u00fc\u015f ve 4.000 dolar\u0131n alt\u0131na sarkma mevcut bask\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
+   "reason": "Fed'in 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7ekti\u011fi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi haberler alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve haftal\u0131k kay\u0131p man\u015fetleri de k\u0131sa vadede negatif momentumu teyit ediyor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor.",
    "n": 45,
-   "ts": 1792789641319,
-   "new_headlines": 42,
+   "ts": 1792790368573,
+   "new_headlines": 5,
    "key_events": [
     "Fed Ekim toplant\u0131s\u0131 sonras\u0131 Aral\u0131k faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 y\u00fckseldi (hawkish)",
     "Alt\u0131n 4.000 dolar alt\u0131na d\u00fc\u015ft\u00fc; g\u00fcvenli liman varl\u0131\u011f\u0131 da sat\u0131ld\u0131",
     "ABD PMI ve t\u00fcketici enflasyon beklentileri y\u00fckseldi; reel faizler y\u00fcksek"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.42,
-    "reason": "Petrol art\u0131\u015f\u0131n\u0131n faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor. \u0130ran\u2019a y\u00f6nelik olas\u0131 yeni operasyon g\u00fcvenli liman talebini destekleyebilir; \u00e7eli\u015fkili sinyaller y\u00f6n konusunda g\u00fcveni azalt\u0131yor.",
+    "score": -0.35,
+    "confidence": 0.45,
+    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin enflasyon ve Fed\u2019in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentilerini g\u00fc\u00e7lendirmesi, alt\u0131n \u00fczerindeki k\u0131sa vadeli bask\u0131y\u0131 art\u0131r\u0131yor; 4.000 dolar\u0131n alt\u0131na ini\u015f de zay\u0131f momentuma i\u015faret ediyor. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir, ancak yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ",
     "key_events": [
-     "Petrol kaynakl\u0131 faiz art\u0131r\u0131m\u0131 beklentileri",
-     "Alt\u0131nda 4.000 dolar alt\u0131 ve d\u00fc\u015f\u00fc\u015f momentumu",
-     "ABD\u2019nin \u0130ran\u2019a yeni operasyon ihtimali"
+     "Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemesi",
+     "Petrol kaynakl\u0131 enflasyon ve faiz endi\u015feleri",
+     "\u0130ran geriliminin g\u00fcvenli liman talebine olas\u0131 deste\u011fi"
     ],
     "model": "gpt-6-luna"
    }
@@ -3257,13 +3265,23 @@
     "new": 42,
     "gpt_score": -0.2,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1792790368573,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Fed'in 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7ekti\u011fi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi haberler alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve haftal\u0131k kay\u0131p man\u015fetleri de k\u0131sa vadede negatif momentumu teyit ediyor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor.",
+    "new": 5,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.45
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
+   "Contracts for Oct. 23, 2026 - U.S. Department of War (.gov)",
    "Zaidi seeks higher US dollar shipments to narrow Iraq's exchange gap - The New Region",
    "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
    "Argentina drops investigation into President Milei over crypto fraud",
@@ -3277,14 +3295,18 @@
    "On Meidas Defense: cryptocurrency, sanctions, and Trump quid pro quo - Citation Needed by Molly White",
    "Gold price set for steep weekly loss as rising oil prices bolster Fed rate hike bets - Mining.com",
    "Salvation or tragedy? Iranians debate prospect of another war - Iran International",
+   "Firefighter High-Five - U.S. Department of War (.gov)",
+   "Intense Incentive - U.S. Department of War (.gov)",
    "Trump says US may do another military operation against Iran - Reuters",
    "Drones make the Russia-Ukraine war front line a \u2018kill zone\u2019? - NPR",
    "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
    "Ukrainian negotiator says local humanitarian ceasefire with Russia will start Tuesday - AP News",
+   "Gold Breaks Below $4,000 as Oil Surge Fuels Fed Rate Fears - Yahoo Finance",
    "Weekly Graphic: The World Economy in 2026 - Geopolitical Futures",
    "Iran Has Detailed Plans to Target Undersea Cables if War Resumes, Officials Say - Nacionale",
    "A new war memorial is opening in Washington DC. What is it? - The Spokesman-Review",
    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+   "How popular is the Iran War? - Silver Bulletin",
    "There\u2019s No End in Sight to Yemen\u2019s Destructive War - Jacobin",
    "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
    "US military needs \u2018urgent revolutionary institutional change\u2019 to prepare for modern war, Petraeus says - Defense News",
@@ -3303,12 +3325,7 @@
    "DoW Announces 2026 Secretary of War Maintenance Awards Winners - U.S. Department of War (.gov)",
    "A Time Of Uncertainty At The Federal Reserve - RealClearMarkets",
    "The Fed Can Pause, But Inflation Won't - RealClearMarkets",
-   "Federal Reserve Preview: A Pause Before a December Hike - Investing.com South Africa",
-   "Analysis \u2022 Instead of averting sanctions, Netanyahu offers an Iran-style blockchain economy - Haaretz",
-   "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "Consumer Sentiment Flat, Iran War Continues to Hold Expectations Back - RISMedia",
-   "Federal Reserve Expands 18-Month Examination Cycle Eligibility for Banks Under $6 Billion - JD Supra",
-   "Gold falls below $4,000 as Oil surge deepens weekly rout ahead of Fed | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
+   "Federal Reserve Preview: A Pause Before a December Hike - Investing.com South Africa"
   ]
  },
  "log": [
@@ -3582,7 +3599,9 @@
   "23.10 22:13 B6  karar turu: Claude \u00abCuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abEndeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.\u00bb",
   "24.10 00:07 N  NEWS (42 new) score -0.50 conf 0.60: Fed 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7\u0131kard\u0131 ve s\u0131k\u0131la\u015ft\u0131rma d\u00f6ng\u00fcs\u00fc ba\u015flat\u0131ld\u0131; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi haberleri jeopolitik talebi destekleyebilir, ancak haftal\u0131k d\u00fc\u015f\u00fc\u015f ve 4.000 dolar\u0131n alt\u0131na sarkma mevcut bask\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
   "24.10 00:07 N  GPT  score -0.20 conf 0.42: Petrol art\u0131\u015f\u0131n\u0131n faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor. \u0130ran\u2019a y\u00f6nelik olas\u0131 yeni operasyon g\u00fcvenli liman talebini destekleyebilir; \u00e7eli\u015fkili sinyaller y\u00f6n konusunda g\u00fcveni azalt\u0131yor.",
-  "24.10 00:07 B5  CLOSE short time limit: +8.06 USD"
+  "24.10 00:07 B5  CLOSE short time limit: +8.06 USD",
+  "24.10 00:19 N  NEWS (5 new) score -0.50 conf 0.60: Fed'in 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7ekti\u011fi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi haberler alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve haftal\u0131k kay\u0131p man\u015fetleri de k\u0131sa vadede negatif momentumu teyit ediyor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor.",
+  "24.10 00:19 N  GPT  score -0.35 conf 0.45: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin enflasyon ve Fed\u2019in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentilerini g\u00fc\u00e7lendirmesi, alt\u0131n \u00fczerindeki k\u0131sa vadeli bask\u0131y\u0131 art\u0131r\u0131yor; 4.000 dolar\u0131n alt\u0131na ini\u015f de zay\u0131f momentuma i\u015faret ediyor. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir, ancak yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu "
  ],
  "gold_big": {
   "account": {
@@ -4361,6 +4380,10 @@
    [
     1792789766,
     4964.78
+   ],
+   [
+    1792790371,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -5088,6 +5111,10 @@
    [
     1792789766,
     4973.18
+   ],
+   [
+    1792790371,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5741,6 +5768,10 @@
    [
     1792789766,
     5000
+   ],
+   [
+    1792790371,
+    5000
    ]
   ]
  },
@@ -6124,6 +6155,10 @@
    [
     1792789766,
     4988.82
+   ],
+   [
+    1792790371,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -6464,6 +6499,10 @@
    [
     1792789766,
     5021.88
+   ],
+   [
+    1792790371,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -6673,6 +6712,10 @@
    ],
    [
     1792789766,
+    100000.0
+   ],
+   [
+    1792790371,
     100000.0
    ]
   ],
