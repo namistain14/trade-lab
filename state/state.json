@@ -1,9 +1,10 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 5000,
+   "balance": 5000.296129963433,
    "start": 5000,
-   "positions": [
+   "positions": [],
+   "trades": [
     {
      "id": "f35b4d8c",
      "symbol": "ETHUSDT",
@@ -16,14 +17,19 @@
      "entry_cost": 1.0,
      "max_hold_min": 120,
      "margin": 1000.0,
-     "note": "RSI 40, above EMA200"
+     "note": "RSI 40, above EMA200",
+     "exit": 2406.2479089999997,
+     "closed_ms": 1792737960000,
+     "reason": "time limit",
+     "gross": 2.2984,
+     "costs": 2.0023,
+     "pnl": 0.2961
     }
    ],
-   "trades": [],
    "day": {
     "date": "2026-10-23",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": 0.29612996343245346,
     "stopped": false
    },
    "last_check_ms": 0
@@ -380,30 +386,18 @@
    [
     1792737709,
     5001.54
+   ],
+   [
+    1792738248,
+    5000.3
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4989.395420296106,
+   "balance": 4985.208644661971,
    "start": 5000,
-   "positions": [
-    {
-     "id": "65ac260a",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2411708942293582,
-     "entry": 4028.4541179999997,
-     "tp": 4024.4256638819998,
-     "sl": 4030.8711904708,
-     "opened_ms": 1792737708211,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.60/0.60",
-     "friction": 2.3728
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -698,12 +692,33 @@
      "gross": -4.1871,
      "costs": 0.0,
      "pnl": -4.1871
+    },
+    {
+     "id": "65ac260a",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2411708942293582,
+     "entry": 4028.4541179999997,
+     "tp": 4024.4256638819998,
+     "sl": 4030.8711904708,
+     "opened_ms": 1792737708211,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.60/0.60",
+     "friction": 2.3728,
+     "exit": 4031.827364708894,
+     "closed_ms": 1792738080000,
+     "reason": "stop",
+     "gross": -4.1868,
+     "costs": 0.0,
+     "pnl": -4.1868
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 13,
-    "pnl": -14.419867743568652,
+    "pnl": -18.606643377703335,
     "stopped": false
    },
    "last_check_ms": 0
@@ -1060,19 +1075,23 @@
    [
     1792737709,
     4988.21
+   ],
+   [
+    1792738248,
+    4985.21
    ]
   ],
   "news": {
    "score": -0.6,
-   "confidence": 0.6,
-   "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA'n\u0131n 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcs\u00fc alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip temmuzdan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; ancak d\u00fc\u015f\u00fc\u015f zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011finden ve yeni gelen ABD'nin 'karanl\u0131k filo' yapt\u0131r\u0131mlar\u0131n\u0131 kald\u0131rmas\u0131 gibi haberler petrol arz\u0131n\u0131 gev\u015fetip enflasyon bask\u0131s\u0131n\u0131 azaltabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
+   "confidence": 0.65,
+   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcyor. Bu hawkish beklentiler ve g\u00fc\u00e7l\u00fc dolar 1-4 saatlik vadede alt\u0131 bask\u0131l\u0131yor, ancak \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyerek d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
    "n": 45,
-   "ts": 1792737707752,
-   "new_headlines": 10,
+   "ts": 1792738247786,
+   "new_headlines": 9,
    "key_events": [
-    "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, Temmuz'dan beri en d\u00fc\u015f\u00fck seviye",
-    "Petrol fiyatlar\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 endi\u015felerini k\u00f6r\u00fckl\u00fcyor",
-    "BofA: Fed 2026'da iki kez daha faiz art\u0131rabilir; Hormuz'da sald\u0131r\u0131lar art\u0131yor"
+    "Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviye",
+    "Petrol \u015foku Fed faiz art\u0131r\u0131m\u0131 korkular\u0131n\u0131 canland\u0131r\u0131yor; BofA 2026'da iki art\u0131r\u0131m bekliyor",
+    "\u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir"
    ]
   },
   "news_history": [
@@ -1549,13 +1568,23 @@
     "confidence": 0.6,
     "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA'n\u0131n 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcs\u00fc alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip temmuzdan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; ancak d\u00fc\u015f\u00fc\u015f zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011finden ve yeni gelen ABD'nin 'karanl\u0131k filo' yapt\u0131r\u0131mlar\u0131n\u0131 kald\u0131rmas\u0131 gibi haberler petrol arz\u0131n\u0131 gev\u015fetip enflasyon bask\u0131s\u0131n\u0131 azaltabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
     "new": 10
+   },
+   {
+    "ts": 1792738247786,
+    "score": -0.6,
+    "confidence": 0.65,
+    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcyor. Bu hawkish beklentiler ve g\u00fc\u00e7l\u00fc dolar 1-4 saatlik vadede alt\u0131 bask\u0131l\u0131yor, ancak \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyerek d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+    "new": 9
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 59
+   "n": 60
   },
   "news_seen": [
+   "Lights will stay on this winter, grid operator says after concerns",
+   "Japanese Yen: BoJ policy and capital flows underpin gains against US Dollar - Commerzbank - FXStreet",
+   "Average long-term US mortgage rate eases to 7.32% - The Arkansas Democrat-Gazette",
    "Araghchi: U.S. Has Spent $11 Billion in Taxpayer Money on Missile Defense for Israel - WANA News Agency",
    "Gold (XAUUSD) & Silver Price Forecast: Oil Shock Revives Rate Fears, Can Gold Hold $3,950? - FXEmpire",
    "Gold prices continue to decline and are trading at their lowest level since July - \u0627\u0644\u0645\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a",
@@ -1568,26 +1597,22 @@
    "Gold Price Forecast: XAU/USD Tests $4,000 as Oil Surge Revives Fed Hike Fears - FX Leaders",
    "How the Army Fights: Insights from the 1973 Arab-Israeli War - Small Wars Journal",
    "Gold Under Pressure as Fed Bets and Dollar Limit Upside - TradingPedia",
-   "War Crimes in Prison Camps Still Haunt Montenegro-Croatia Relations - Balkan Insight",
    "How a Cold War Architect Broke Through the Iron Curtain - Bloomberg.com",
    "Sabotage, drones and airspace violations: Tracking the hybrid threats linked to Russia across Europe - Eurovision News Spotlight",
    "France\u2019s Student Revolt: Gangster Capitalism and the War on Youth - Counterpunch",
    "Gold Corporation (ASX:PMGOLD): Gold Holdings, Product Structure and Market Exposure - Kalkine",
    "Hawthorn eyes more gold production at Anglo Saxon - Mining News Net",
    "Trump invokes Cold War-era act to bolster U.S. gasoline production - upi",
-   "US lifting sanctions on 'dark fleet' not expected to solve tanker crisis - The National",
+   "Gold Rate Today In Paschim Medinipur (West Midnapore), Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Renting in London - 'I pay \u00a32,000 for one bedroom'",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Union-Bulletin",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - WV News",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - dailyadvance.com",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - chronicleonline.com",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - AP News",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - The Herald Journal",
+   "SGB 2018-19 Series II final redemption today: Investors to pocket 366% gains; check the RBI fixed price, interest rate - Livemint",
    "No end in sight: Trump's efforts to end Ukraine war fall flat - Al Majalla",
    "'I live in the dark': How rising bills are shaping daily life",
    "Ukraine War, Day 1,702: Kyiv \u2014 Trump and Musk Still Restricting Starlink/Starshield - EA WorldView",
+   "Gold Slips As Oil Price Rally Fuels Inflation Fears Ahead Of Fed Policy Decision By Kedia Advisory - Investing.com India",
    "What is Warhound, Palmer Luckey's war dog startup that just emerged from stealth? - Business Insider",
-   "Gold prices fall sharply, buyers lose up to 11.5 million VND/tael after two months - Laodong.vn",
    "Powerful earthquake hits Tibet killing 16 people, reports say",
    "Gold rate today: Gold price falls Rs 1,300 per 10 grams; check 22K, 24K rates - India Today",
    "Euro Holds Lead Over Dollar Amid Rates & France Risk - TradingPedia",
@@ -1595,12 +1620,13 @@
    "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March - EA WorldView",
    "Indonesian Rupiah strengthens against US Dollar as safe-haven demand shifts - FXStreet",
    "Fed to Hike Twice More in 2026 With US and ECB Policy Set to Diverge, says Bank of America - Morningstar",
-   "Democrats plan to investigate U.S. diesel companies involved in easing Russian sanctions - The Washington Post",
-   "Justice Department Closes Inquiry of Federal Reserve Pushed by Trump - The New York Times",
    "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold Rate Today, October 23: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
    "Russia\u2019s war casualty toll in Ukraine up by 1,830 over past day - Ukrinform",
-   "Russia Ukraine War Blind Soldier - goSkagit"
+   "Russia Ukraine War Blind Soldier - goSkagit",
+   "Gold price in India: Rates on October 23 - FXStreet",
+   "Chennai gold price falls by Rs 1400 on October 23, 2026; check today's gold, silver rates - DT Next"
   ]
  },
  "log": [
@@ -1710,7 +1736,10 @@
   "23.10 09:29 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi. Hormuz'daki sald\u0131r\u0131lar jeopolitik destek sa\u011flasa da enflasyon/faiz kanal\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
   "23.10 09:41 N  NEWS (10 new) score -0.60 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA'n\u0131n 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcs\u00fc alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip temmuzdan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; ancak d\u00fc\u015f\u00fc\u015f zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011finden ve yeni gelen ABD'nin 'karanl\u0131k filo' yapt\u0131r\u0131mlar\u0131n\u0131 kald\u0131rmas\u0131 gibi haberler petrol arz\u0131n\u0131 gev\u015fetip enflasyon bask\u0131s\u0131n\u0131 azaltabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 09:41 B1  SHORT gold 5000 USD x10 @ 4028.45 (TP 4024.43, SL 4030.87; news -0.60)",
-  "23.10 09:41 B2  SHORT gold 5000 USD x10 @ 4028.45 (TP 4016.37, SL 4036.51; news -0.60)"
+  "23.10 09:41 B2  SHORT gold 5000 USD x10 @ 4028.45 (TP 4016.37, SL 4036.51; news -0.60)",
+  "23.10 09:50 A  CLOSE ETHUSDT time limit: +0.30 USD",
+  "23.10 09:50 B1  CLOSE short stop: -4.19 USD",
+  "23.10 09:50 N  NEWS (9 new) score -0.60 conf 0.65: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcyor. Bu hawkish beklentiler ve g\u00fc\u00e7l\u00fc dolar 1-4 saatlik vadede alt\u0131 bask\u0131l\u0131yor, ancak \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyerek d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -2059,6 +2088,10 @@
    [
     1792737709,
     4979.07
+   ],
+   [
+    1792738248,
+    4978.67
    ]
   ],
   "news_calls": {
@@ -2312,6 +2345,10 @@
    [
     1792737709,
     5000
+   ],
+   [
+    1792738248,
+    5000
    ]
   ],
   "news_calls": {
@@ -2560,6 +2597,10 @@
    ],
    [
     1792737709,
+    5000
+   ],
+   [
+    1792738248,
     5000
    ]
   ]
