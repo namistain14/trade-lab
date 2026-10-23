@@ -163,8 +163,9 @@ bots:
     no_new_minutes_before_close: 45
     flatten_minutes_before_close: 15
     daily_loss_limit_pct: 0.02
-    claude_models: ["claude-fable-5-1", "claude-opus-5-5", "claude-sonnet-5-5"]   # strongest first
-    gpt_models: ["gpt-6.1-sol", "gpt-6-astra", "gpt-6-luna"]
+    # second tier for now (~1.3 $/day). Top tier = ["claude-fable-5-1"] + ["gpt-6-astra"] (~4 $/day)
+    claude_models: ["claude-opus-5-5", "claude-sonnet-5-5"]
+    gpt_models: ["gpt-6.1-sol", "gpt-6-luna"]
 
 news:
   model: "claude-haiku-5-5"   # cheap and fast for hourly news reading
