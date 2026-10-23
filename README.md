@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 20:37 (İstanbul)
+> Son güncelleme: 23.10.2026 20:49 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,9 @@ Son işlemler:
 | Kazanma oranı | %23.3 | %25.8 |
 | Ödenen komisyon/spread | 71.20 $ | 73.57 $ |
 
-**Hesap değeri: 4,929.96 $** (başlangıç 5,000 $, -70.04 $ / %-1.40)
+**Hesap değeri: 4,928.77 $** (başlangıç 5,000 $, -71.23 $ / %-1.42)
+
+Açık pozisyonlar: PAXGUSDT short @ 4005.85 (TP 4003.30 / SL 4007.30)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -122,7 +124,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,023.74 $** (başlangıç 5,000 $, +23.74 $ / %+0.47)
+**Hesap değeri: 5,024.91 $** (başlangıç 5,000 $, +24.91 $ / %+0.50)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -146,9 +148,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:34 B6  karar turu: Claude «Piyasa düşük volatiliteyle yatay seyrediyor; net bir avantaj olmadığı için beklemek en doğrusu.» / GPT «Endekslerde yönsüzlük ve hisselerde sınırlı teyit nedeniyle önümüzdeki 1–3 saat için yüzde 1,5 hedefi destekleyen net bir haber-fiyat avantajı yok.»
-23.10 19:43 B1  SHORT gold 5000 USD x10 @ 4015.46 (TP 4011.44, SL 4017.87; news -0.20)
-23.10 19:52 B1  CLOSE short stop (gap): -4.47 USD
 23.10 19:52 B6  karar turu: Claude «Piyasa karışık ve düşük volatiliteli bir seyir izliyor; yapay zekâ altyapısına dair şüpheler teknolojiyi baskılasa da işlem açmayı haklı kılacak net bir avantaj yok.» / GPT «Endekslerde hafif satış baskısı var ancak haber ve fiyat teyidi birlikte yeterince güçlü olmadığından kaldıraçlı yeni pozisyon açmadan beklemek daha disiplinli.»
 23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)
 23.10 20:05 B1  CLOSE short stop: -4.19 USD
@@ -161,6 +160,9 @@ Son işlemler:
 23.10 20:34 B6  karar turu: Claude «-» / GPT «Endekslerde aşağı eğilim ve jeopolitik risk baskın olsa da mevcut fiyat hareketleri önümüzdeki 1–3 saat için %1,5 hedef ve %1 stop koşullarında net avantaj sunmuyor.»
 23.10 20:36 B1  hedefler güncellendi: TP 4006.21 (+2$ net), SL 4010.22 (-3$ net)
 23.10 20:36 B1  CLOSE short stop: -3.00 USD
+23.10 20:49 B1  SHORT gold 5000 USD x10 @ 4005.85 (TP 4003.30, SL 4007.30; news -0.20)
+23.10 20:49 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+23.10 20:49 B6  karar turu: Claude «-» / GPT «Endekslerde dar bant ve jeopolitik belirsizlik hâkim; mevcut fiyat hareketleri yüzde 1,5 hedefli yeni pozisyonlar için haberlerle desteklenen net bir avantaj sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
