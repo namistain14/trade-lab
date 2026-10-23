@@ -474,6 +474,10 @@
    [
     1792749341,
     5000.3
+   ],
+   [
+    1792749926,
+    5000.3
    ]
   ]
  },
@@ -1331,19 +1335,23 @@
    [
     1792749341,
     4968.46
+   ],
+   [
+    1792749926,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.45,
+   "score": -0.5,
    "confidence": 0.6,
-   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
+   "reason": "Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f durumda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Treasury getirileri alt\u0131n\u0131 bask\u0131l\u0131yor. Petrol 113 dolar\u0131n \u00fczerinde oldu\u011fu i\u00e7in enflasyon kayg\u0131s\u0131 s\u00fcr\u00fcyor, \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor.",
    "n": 45,
-   "ts": 1792749338189,
-   "new_headlines": 4,
+   "ts": 1792749923966,
+   "new_headlines": 6,
    "key_events": [
-    "Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve enflasyonun kal\u0131c\u0131l\u0131\u011f\u0131",
-    "Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, alt\u0131n fiyatlar\u0131nda d\u00fc\u015f\u00fc\u015f (3 ayl\u0131k dip)",
-    "Dolar g\u00fcvenli liman \u00f6zelli\u011fini kaybetti; XAU/USD 4.000 destek seviyesini test ediyor"
+    "Gold 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 bahisleri ve g\u00fc\u00e7l\u00fc USD bask\u0131 yarat\u0131yor",
+    "Bank of America: Fed 2026'da iki kez daha faiz art\u0131rabilir",
+    "Petrol 113 dolar\u0131n \u00fczerinde; enflasyon kayg\u0131s\u0131 ve Treasury getirilerinde y\u00fckseli\u015f"
    ]
   },
   "news_history": [
@@ -1953,14 +1961,27 @@
     "confidence": 0.6,
     "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
     "new": 4
+   },
+   {
+    "ts": 1792749923966,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f durumda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Treasury getirileri alt\u0131n\u0131 bask\u0131l\u0131yor. Petrol 113 dolar\u0131n \u00fczerinde oldu\u011fu i\u00e7in enflasyon kayg\u0131s\u0131 s\u00fcr\u00fcyor, \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor.",
+    "new": 6
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 78
+   "n": 79
   },
   "news_seen": [
+   "Can Europe Manage Its Frontiers? - Geopolitical Futures",
+   "Pandering to Vladimir Putin Won\u2019t Bring Peace to Ukraine - Bloomberg.com",
+   "Iran War\u2019s Architects Get Ready to Face Frustrated Voters - Bloomberg.com",
+   "US Economy Stays Resilient Despite Middle East Conflict and Elevated Inflation - Global Trade Magazine",
+   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
    "Lockheed Martin Missile Backlog Triples to $142.5B - GovCon Wire",
+   "Norebo owner launches lawsuit against small newspaper over coverage of sanctions - SeafoodSource",
    "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
    "Opinion | As long as the mall stays open, Israelis can live with war crimes - Haaretz",
    "Canadian Dollar: Pressured near 1.40 against US Dollar \u2013 TD Securities - FXStreet",
@@ -1998,13 +2019,7 @@
    "Japanese Yen: Set for further gains against US Dollar - UOB - FXStreet",
    "Gold prices dip - VnExpress International",
    "Where to Buy Gold in Australia in 2026: Is Now a Good Time? - Mitrade",
-   "Europe indexes fall as sluggish business activity adds to geopolitical concerns (EUR:USD:) - Seeking Alpha",
-   "Gold rates today (October 23, 2026): Check prices of 24K, 22K, 18K gold in Dubai, Abu Dhabi, Riyadh, Kuwait City, Doha, Muscat - The Economic Times",
-   "Warsh likely to signal more rate hikes as inflation remains persistent (US10Y:) - Seeking Alpha",
-   "Denmark and UNDP support the VII Judicial Forum in Kyiv on the protection of human rights during the war - United Nations Development Programme",
-   "Gold heads for worst week since June amid expectations for the US Fed \u2014 Asharq Al-Awsat - UA.NEWS",
-   "PESO HITS NEW RECORD LOW AT \u20b163.615:$1 The Philippine peso weakened further to \u20b163.615 against the US dollar on Friday, October 23, marking a new record-low closing rate, based on data from the Bankers Association of the Philippines. The peso s - Facebook",
-   "Mapping Russia's hybrid war: 17 newsrooms, six months, hundreds of incidents - EBU"
+   "Europe indexes fall as sluggish business activity adds to geopolitical concerns (EUR:USD:) - Seeking Alpha"
   ]
  },
  "log": [
@@ -2147,7 +2162,8 @@
   "23.10 12:26 N  NEWS (13 new) score -0.50 conf 0.60: ",
   "23.10 12:38 N  NEWS (8 new) score -0.55 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Faiz art\u0131\u015f\u0131 beklentileri (BofA'n\u0131n 2026'da iki ek faiz art\u0131\u015f\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Warsh'un daha fazla art\u0131\u015f sinyali vermesi), y\u00fckselen tahvil getirileri ve petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131ndan do\u011fan enflasyon kayg\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi zay\u0131f kal\u0131yor \u00e7\u00fcnk\u00fc \"dolar g\u00fcvenli liman taclar\u0131n\u0131 kaybetti\" yorumu ve hisse senedi sat\u0131\u015f\u0131 \u00f6nemli bir destek sa\u011flam\u0131yor. Teknik k\u0131r\u0131lma ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 12:47 N  NEWS (13 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f, \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k kay\u0131plar s\u00fcr\u00fcyor; Fed'in faiz art\u0131rma beklentileri (BofA iki ek art\u0131r\u0131m, Warsh'un s\u0131k\u0131la\u015ft\u0131rma sinyali), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini destekleyebilir ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fcnm\u00fcyor; Goldman'\u0131n 5.400 dolarl\u0131k uzun vadeli hedefi k\u0131sa vadeli etkisi olmayan eski bir haber.",
-  "23.10 12:55 N  NEWS (4 new) score -0.45 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor."
+  "23.10 12:55 N  NEWS (4 new) score -0.45 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
+  "23.10 13:05 N  NEWS (6 new) score -0.50 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f durumda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Treasury getirileri alt\u0131n\u0131 bask\u0131l\u0131yor. Petrol 113 dolar\u0131n \u00fczerinde oldu\u011fu i\u00e7in enflasyon kayg\u0131s\u0131 s\u00fcr\u00fcyor, \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor."
  ],
  "gold_big": {
   "account": {
@@ -2589,6 +2605,10 @@
    [
     1792749341,
     4969.06
+   ],
+   [
+    1792749926,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -2954,6 +2974,10 @@
    [
     1792749341,
     4988.81
+   ],
+   [
+    1792749926,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3291,6 +3315,10 @@
    [
     1792749341,
     5000
+   ],
+   [
+    1792749926,
+    5000
    ]
   ]
  },
@@ -3352,6 +3380,10 @@
    [
     1792749341,
     4997.87
+   ],
+   [
+    1792749926,
+    4998.9
    ]
   ],
   "news_calls": {
