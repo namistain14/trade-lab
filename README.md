@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 03:50 (İstanbul)
+> Son güncelleme: 23.10.2026 04:02 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -36,7 +36,7 @@
 
 **Hesap değeri: 4,995.07 $** (başlangıç 5,000 $, -4.93 $ / %-0.10)
 
-Son haber analizi (23.10 03:48): puan **-0.40**, güven 0.60 — Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkılaşan Fed beklentileri üzerinden altını baskılıyor; piyasada güvenli liman talebinden çok bu kanal öne çıkıyor ve altın 2 aylık dibe indi. Yeni gelen haberlerde Basra Körfezi'nden daha fazla petrol çıktığı bilgisi petrol baskısını biraz hafifletebileceği için etkisi sınırlı kalıyor; ayrıca bu bilgi çelişkili olduğundan güven orta seviyede tutuldu.
+Son haber analizi (23.10 04:02): puan **-0.20**, güven 0.40 — Petrol fiyatlarındaki yükseliş enflasyon ve sıkılaşan Fed beklentilerini besleyerek altın üzerinde baskı oluşturuyor; altın iki aylık en düşük seviyeye (4.050 doları altına) geriledi. Yeni gelen haberlerde Basra Körfezi'nden çıkan petrol miktarının savaş öncesinden fazla olması ise petrol baskısını azaltabilir, bu da karışık bir tablo yaratıyor; bu nedenle güven düşük tutuldu.
 
 Son işlemler:
 
@@ -52,14 +52,18 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +0.00 $ |
-| İşlem sayısı | 0 | 0 |
+| Net kâr/zarar | -11.19 $ | -11.19 $ |
+| İşlem sayısı | 1 | 1 |
 | Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 4,993.86 $** (başlangıç 5,000 $, -6.14 $ / %-0.12)
+**Hesap değeri: 4,988.81 $** (başlangıç 5,000 $, -11.19 $ / %-0.22)
 
-Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
+Son işlemler:
+
+| Kapanış | Parite | Yön | Sonuç | Neden |
+|---|---|---|---|---|
+| 23.10 03:57 | PAXGUSDT | short | -11.19 $ | stop |
 
 ## Bot B3 — Altın: B2 + seans filtresi + momentum + kârı koruma
 
@@ -75,8 +79,6 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 ## Son olaylar
 
 ```
-23.10 02:14 N  NEWS (6 new) score +0.05 conf 0.35: 
-23.10 02:26 N  NEWS (13 new) score -0.15 conf 0.40: 
 23.10 02:36 N  NEWS (12 new) score -0.20 conf 0.40: 
 23.10 02:36 B1  SHORT gold 5000 USD x10 @ 4035.34 (TP 4031.31, SL 4037.76; news -0.20)
 23.10 02:48 N  NEWS (9 new) score -0.40 conf 0.60: Petrol fiyatlarının yükselmesi (Suudi saldırısı, Hürmüz'de tanker saldırıları, Petrol 113$ üzerinde) enflasyon ve sıkı Fed beklentilerini besleyerek altın için baskı yaratıyor; altın iki aylık/11 haftalık dibe geriledi. Jeopolitik risk güvenli liman talebi getirse de piyasa tepkisi şu an satış yönünde, bu nedenle kısa vadede hafif-orta düzeyde negatif görünüm var.
@@ -90,6 +92,8 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 23.10 03:36 N  NEWS (6 new) score -0.45 conf 0.60: Petrol fiyatlarının sert yükselişi (Suudi saldırısı sonrası 113 doların üzerine) enflasyon ve sıkı para politikası beklentilerini artırıyor; bu da güvenli liman talebine rağmen altın üzerinde baskı yaratıyor. Altın 2 aylık dibe inerek 4.050 doların altına düştü, momentum belirgin şekilde negatif, ancak düşüş büyük ölçüde zaten fiyatlanmış olabilir.
 23.10 03:48 B1  CLOSE short stop: -4.19 USD
 23.10 03:48 N  NEWS (7 new) score -0.40 conf 0.60: Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkılaşan Fed beklentileri üzerinden altını baskılıyor; piyasada güvenli liman talebinden çok bu kanal öne çıkıyor ve altın 2 aylık dibe indi. Yeni gelen haberlerde Basra Körfezi'nden daha fazla petrol çıktığı bilgisi petrol baskısını biraz hafifletebileceği için etkisi sınırlı kalıyor; ayrıca bu bilgi çelişkili olduğundan güven orta seviyede tutuldu.
+23.10 04:02 N  NEWS (4 new) score -0.20 conf 0.40: Petrol fiyatlarındaki yükseliş enflasyon ve sıkılaşan Fed beklentilerini besleyerek altın üzerinde baskı oluşturuyor; altın iki aylık en düşük seviyeye (4.050 doları altına) geriledi. Yeni gelen haberlerde Basra Körfezi'nden çıkan petrol miktarının savaş öncesinden fazla olması ise petrol baskısını azaltabilir, bu da karışık bir tablo yaratıyor; bu nedenle güven düşük tutuldu.
+23.10 04:02 B2  CLOSE short stop: -11.19 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
