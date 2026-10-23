@@ -434,6 +434,10 @@
    [
     1792744028,
     5000.3
+   ],
+   [
+    1792744616,
+    5000.3
    ]
   ]
  },
@@ -1251,15 +1255,19 @@
    [
     1792744028,
     4968.46
+   ],
+   [
+    1792744616,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.7,
-   "confidence": 0.7,
-   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, dolar g\u00fc\u00e7leniyor ve alt\u0131n \u00fc\u00e7 ayl\u0131k dipte. Jeopolitik risk (\u0130ran sava\u015f\u0131) var ama g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor; yine de veri/Fed a\u00e7\u0131klamalar\u0131 s\u00fcrpriz getirebilece\u011finden g\u00fcven orta d\u00fczeyde.",
+   "score": -0.5,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n (~4.015$) i\u015flem g\u00f6r\u00fcyor; petrol y\u00fckseli\u015fi enerji kaynakl\u0131 enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini besliyor, Warsh'\u0131n yeni faiz art\u0131\u015f\u0131 sinyali verebilece\u011fi haberi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131n \u0130ran sava\u015f\u0131 ve jeopolitik risk, ayr\u0131ca 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc gibi kar\u015f\u0131t unsurlar oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1792744027098,
-   "new_headlines": 9,
+   "ts": 1792744614204,
+   "new_headlines": 7,
    "key_events": [
     "Alt\u0131n \u00fc\u00e7 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi enflasyon ve faiz art\u0131r\u0131m\u0131 endi\u015felerini k\u00f6r\u00fckl\u00fcyor",
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar (DXY ~101.50) alt\u0131na bask\u0131 yap\u0131yor",
@@ -1817,14 +1825,22 @@
     "confidence": 0.7,
     "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, dolar g\u00fc\u00e7leniyor ve alt\u0131n \u00fc\u00e7 ayl\u0131k dipte. Jeopolitik risk (\u0130ran sava\u015f\u0131) var ama g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor; yine de veri/Fed a\u00e7\u0131klamalar\u0131 s\u00fcrpriz getirebilece\u011finden g\u00fcven orta d\u00fczeyde.",
     "new": 9
+   },
+   {
+    "ts": 1792744614204,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n (~4.015$) i\u015flem g\u00f6r\u00fcyor; petrol y\u00fckseli\u015fi enerji kaynakl\u0131 enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini besliyor, Warsh'\u0131n yeni faiz art\u0131\u015f\u0131 sinyali verebilece\u011fi haberi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131n \u0130ran sava\u015f\u0131 ve jeopolitik risk, ayr\u0131ca 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc gibi kar\u015f\u0131t unsurlar oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
+    "new": 7
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 70
+   "n": 71
   },
   "news_seen": [
-   "Gold hits three-month low as oil surge fuels inflation fears and pressures rand - Bizcommunity",
+   "Warsh likely to signal more rate hikes as inflation remains persistent (US10Y:) - Seeking Alpha",
+   "Denmark and UNDP support the VII Judicial Forum in Kyiv on the protection of human rights during the war - United Nations Development Programme",
    "Mapping Russia's hybrid war: 17 newsrooms, six months, hundreds of incidents - EBU",
    "Euro: Weakens against US Dollar amid risk concerns \u2013 Danske Bank | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "What is the Budget and what could be in it?",
@@ -1834,10 +1850,12 @@
    "The Indian workers filming their work to train AI",
    "Take Five: AI trade meets the Fed - The Mighty 790 KFGO",
    "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
-   "Tokyo FX: Yen Little Changed in Upper 156 Range as CPI-Driven Buying Runs Its Course; Market Awaits US, Japan Central Bank Meetings - BigGo Finance",
+   "New famine risk haunts war-torn Sudan with El Ni\u00f1o-driven drought - Reuters",
    "FX Daily: Dollar has lost its safe-haven crown - ing think",
    "Gold Forecast 23/10: Sharp Selloff Threatens $4,000 (Video) - Daily Forex",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
+   "Trump Asked Musk to Reverse Limits on Ukraine\u2019s Military Internet Use - The New York Times",
+   "Gold nears three-month low, trading at $4,015 per ounce \u2014 Anadolu Agency - UA.NEWS",
    "Gold Falls as Oil Rallies, Testing Which Miners Can Absorb the Hit - Crux Investor",
    "World gold prices lose momentum, the 3,900 USD mark gradually becomes clear - Laodong.vn",
    "Gold rates today (October 23, 2026): Check prices of 24K, 22K, 18K gold in Dubai, Abu Dhabi, Riyadh, Kuwait City, Doha, Muscat - The Economic Times",
@@ -1852,6 +1870,7 @@
    "Europe needs a war economy - Al Jazeera",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Northeast Mississippi Daily Journal",
    "Yen Pulls Back as Dollar Firms Ahead of Fed & BoJ Rates - TradingPedia",
+   "Gold: Energy-driven inflation weighs \u2013 ING - www.tmgm.com",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Seattle Post-Intelligencer",
    "Euro: Weakens against US Dollar amid risk concerns - Danske Bank - FXStreet",
    "Gold Loses Shine: Yellow Metal Prices Crash By Rs 9,700 In Just 10 Days, Fall Below Rs 1,42,000 - NDTV Profit",
@@ -1862,13 +1881,9 @@
    "The Fed Faces Its Most Confusing Economy Yet - Bloomberg.com",
    "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil - FXEmpire",
    "Gold struggles to extend recovery from three-month low amid Fed hike bets, firm USD - FXStreet",
-   "Man City Sanctions: Would Arsenal Fans Be Happy With Relegation? - Yahoo Sports",
    "Watch Azour: War Impact on Energy Markets Under Control - Bloomberg.com",
-   "Lights will stay on this winter, grid operator says after concerns",
-   "Gold outlook bleak; avoid aggressive selling without stop loss: Analyst - Business Standard",
-   "Japanese Yen: BoJ policy and capital flows underpin gains against US Dollar - Commerzbank - FXStreet",
-   "Gold prices drop further - New Age BD",
-   "Average long-term US mortgage rate eases to 7.32% - The Arkansas Democrat-Gazette"
+   "Fact or Fiction: Gas station war drops gas prices below $1 a gallon? - ABC 10News San Diego",
+   "Lights will stay on this winter, grid operator says after concerns"
   ]
  },
  "log": [
@@ -2000,7 +2015,8 @@
   "23.10 11:18 N  NEWS (13 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor ve haftal\u0131k d\u00fc\u015f\u00fc\u015f bekleniyor. Yeniden alevlenen \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak piyasa bunu \u015fu an alt\u0131n lehine fiyatlam\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetti\u011fini g\u00f6steriyor.",
   "23.10 11:18 B1  SHORT gold 5000 USD x10 @ 4029.04 (TP 4025.01, SL 4031.46; news -0.50)",
   "23.10 11:27 B1  CLOSE short stop: -4.19 USD",
-  "23.10 11:27 N  NEWS (9 new) score -0.70 conf 0.70: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, dolar g\u00fc\u00e7leniyor ve alt\u0131n \u00fc\u00e7 ayl\u0131k dipte. Jeopolitik risk (\u0130ran sava\u015f\u0131) var ama g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor; yine de veri/Fed a\u00e7\u0131klamalar\u0131 s\u00fcrpriz getirebilece\u011finden g\u00fcven orta d\u00fczeyde."
+  "23.10 11:27 N  NEWS (9 new) score -0.70 conf 0.70: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, dolar g\u00fc\u00e7leniyor ve alt\u0131n \u00fc\u00e7 ayl\u0131k dipte. Jeopolitik risk (\u0130ran sava\u015f\u0131) var ama g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor; yine de veri/Fed a\u00e7\u0131klamalar\u0131 s\u00fcrpriz getirebilece\u011finden g\u00fcven orta d\u00fczeyde.",
+  "23.10 11:36 N  NEWS (7 new) score -0.50 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n (~4.015$) i\u015flem g\u00f6r\u00fcyor; petrol y\u00fckseli\u015fi enerji kaynakl\u0131 enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini besliyor, Warsh'\u0131n yeni faiz art\u0131\u015f\u0131 sinyali verebilece\u011fi haberi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131n \u0130ran sava\u015f\u0131 ve jeopolitik risk, ayr\u0131ca 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc gibi kar\u015f\u0131t unsurlar oldu\u011fundan g\u00fcven orta d\u00fczeyde."
  ],
  "gold_big": {
   "account": {
@@ -2397,6 +2413,10 @@
    [
     1792744028,
     4977.97
+   ],
+   [
+    1792744616,
+    4977.19
    ]
   ],
   "news_calls": {
@@ -2716,6 +2736,10 @@
    [
     1792744028,
     4997.67
+   ],
+   [
+    1792744616,
+    4996.89
    ]
   ],
   "news_calls": {
@@ -3012,6 +3036,10 @@
    ],
    [
     1792744028,
+    5000
+   ],
+   [
+    1792744616,
     5000
    ]
   ]
