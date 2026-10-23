@@ -498,6 +498,10 @@
    [
     1792752643,
     5000.3
+   ],
+   [
+    1792753189,
+    5000.3
    ]
   ]
  },
@@ -1379,15 +1383,19 @@
    [
     1792752643,
     4968.46
+   ],
+   [
+    1792753189,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.5,
-   "reason": "Faiz beklentileri ve getiriler gold i\u00e7in bask\u0131lay\u0131c\u0131: BofA'n\u0131n Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi tahmini ve Treasury getirilerindeki y\u00fckseli\u015f, reel faizleri yukar\u0131 \u00e7ekiyor. Ayr\u0131ca alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 ve petrol\u00fcn 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentileriyle dengeleniyor; bu nedenle sinyal orta d\u00fczeyde negatif.",
+   "score": -0.15,
+   "confidence": 0.35,
+   "reason": "Alt\u0131n 4.000 dolar\u0131 yak\u0131n\u0131nda ve d\u00fc\u015f\u00fc\u015f e\u011filiminde; \u0130ran-\u0130srail gerilimi ve petrol fiyat\u0131n\u0131n 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak petrol kaynakl\u0131 enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. Piyasadaki mevcut d\u00fc\u015f\u00fc\u015f, jeopolitik riskten \u00e7ok faiz ve dolar etkisine i\u015faret ediyor; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
    "n": 45,
-   "ts": 1792752641673,
-   "new_headlines": 3,
+   "ts": 1792753187793,
+   "new_headlines": 7,
    "key_events": [
     "Gold 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 bahisleri ve g\u00fc\u00e7l\u00fc USD bask\u0131 yarat\u0131yor",
     "Bank of America: Fed 2026'da iki kez daha faiz art\u0131rabilir",
@@ -2043,27 +2051,36 @@
     "confidence": 0.5,
     "reason": "Faiz beklentileri ve getiriler gold i\u00e7in bask\u0131lay\u0131c\u0131: BofA'n\u0131n Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi tahmini ve Treasury getirilerindeki y\u00fckseli\u015f, reel faizleri yukar\u0131 \u00e7ekiyor. Ayr\u0131ca alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 ve petrol\u00fcn 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentileriyle dengeleniyor; bu nedenle sinyal orta d\u00fczeyde negatif.",
     "new": 3
+   },
+   {
+    "ts": 1792753187793,
+    "score": -0.15,
+    "confidence": 0.35,
+    "reason": "Alt\u0131n 4.000 dolar\u0131 yak\u0131n\u0131nda ve d\u00fc\u015f\u00fc\u015f e\u011filiminde; \u0130ran-\u0130srail gerilimi ve petrol fiyat\u0131n\u0131n 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak petrol kaynakl\u0131 enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. Piyasadaki mevcut d\u00fc\u015f\u00fc\u015f, jeopolitik riskten \u00e7ok faiz ve dolar etkisine i\u015faret ediyor; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
+    "new": 7
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 84
+   "n": 85
   },
   "news_seen": [
+   "Antam Gold Price Today, October 23, 2026, Drops Again; 1 Gram Now Rp2.54 Million - Aktualita.co",
+   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
+   "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
+   "Israel, Iran ramp up war rhetoric, as prospect of open conflict looms - Semafor",
    "No end in sight: Trump's bid to end Ukraine war falls flat - Al Majalla",
    "Malawi opposition demands answers over president's prolonged stay abroad",
    "U.S. Envoy Mike Waltz Says Iran War Could Run Another Year as Oil Passes $114 - Northeast Times",
    "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
-   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
-   "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again - The Seattle Times",
+   "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
    "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
+   "Investors Just Got Bad News From the Federal Reserve. Here's What History Says Comes Next. - AOL.com",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
    "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet",
    "The U.S. should stay out of Saudi Arabia\u2019s war - Responsible Statecraft",
    "Cyprus police open investigation into financial affairs of Roman Abramovich",
    "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-   "Investors Just Got Bad News From the Federal Reserve. Here's What History Says Comes Next. - The Motley Fool",
-   "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says - Reuters",
    "\u2018Dawn Of War IV\u2019 Massive Overview Trailer - Cinelinx",
    "Kremlin says Russia did not free US citizen Stephen Hubbard in exchange for a Russian war blogger - Reuters",
    "Fight Night in an Active War Zone - by Karim Zidan - Sports Politika",
@@ -2074,15 +2091,16 @@
    "Iran War\u2019s Architects Get Ready to Face Frustrated Voters - Bloomberg.com",
    "US Economy Stays Resilient Despite Middle East Conflict and Elevated Inflation - Global Trade Magazine",
    "Lockheed Martin Missile Backlog Triples to $142.5B - GovCon Wire",
+   "EZCORP Stock Is Down 11.6% Has The Bull Case Changed After Gold Prices Fell? - Simply Wall Street",
    "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
    "Norebo owner launches lawsuit against small newspaper over coverage of sanctions - SeafoodSource",
    "Infographic: Domestic and global gold prices fall on October 23 - Nhan Dan Online",
    "Opinion | As long as the mall stays open, Israelis can live with war crimes - Haaretz",
    "Canadian Dollar: Pressured near 1.40 against US Dollar \u2013 TD Securities - FXStreet",
    "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "Readout of Secretary of War Pete Hegeth's Meeting With His Excellency Dr. Mohamed Irfaan A - U.S. Department of War (.gov)",
    "Chinese officials visit North Korea to mark China\u2019s entry into Korean War - NK News",
    "Stew Bolno: Donald Trump\u2019s war against the smug, stubborn, and stupid - Broad + Liberty",
+   "Gold Price Forecast: Can XAU/USD Recover Above $4,000 as Fed Decision Looms? - Mitrade",
    "Japan university defence bids surge as post-war taboo fades amid China concerns - South China Morning Post",
    "Alvarado, Dembo spar over Iran war, data centers and Epstein in central Kentucky debate - News From The States",
    "Gold Price Forecast: Goldman Retains $5,400 For End-2027 - Exchange Rates UK",
@@ -2090,11 +2108,8 @@
    "Gold price falls below $4,000 amid stock market rout - Equiti Global",
    "How Long Will Russians Put Up With War? Here\u2019s What They Told Us. - The New York Times",
    "Hispanic voters helped bring Trump to power - in Texas, the tide may be turning",
-   "World gold price today, October 23: Long slide pulls gold close to the 4,000 USD mark - Laodong.vn",
-   "US Federal Reserve to Raise Rates Twice More in 2026, Says Bank of America - Morningstar",
-   "Treasury yields rise as traders await more economic data ahead of Fed decision - CNBC",
-   "U.S. Senate candidate Adam Hamilton talks Iran War, tariffs in Kansas - The Topeka Capital-Journal",
-   "$400 Billion Mansa Musa Fortune Traces to a 2012 Website List - Ancient Origins"
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
+   "World gold price today, October 23: Long slide pulls gold close to the 4,000 USD mark - Laodong.vn"
   ]
  },
  "log": [
@@ -2243,7 +2258,8 @@
   "23.10 13:23 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
   "23.10 13:30 N  NEWS (4 new) score -0.30 conf 0.50: Alt\u0131n 4.000 dolar seviyesinde zay\u0131f seyrediyor; Fed karar\u0131 \u00f6ncesi Treasury getirilerinin y\u00fckselmesi ve Bank of America'n\u0131n 2026'da iki kez daha faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi, reel faiz ve dolar taraf\u0131nda bask\u0131 yarat\u0131yor. Hisse piyasas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve HSBC'nin margin call kaynakl\u0131 sat\u0131\u015f tespiti k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcrebilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Suudi koalisyonu ile ilgili haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen geli\u015fmeler oldu\u011fu i\u00e7in g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
   "23.10 13:41 N  NEWS (6 new) score -0.35 conf 0.50: Petrol 114 dolar\u0131n \u00fczerinde ve enflasyon bask\u0131s\u0131 nedeniyle Fed'in faiz art\u0131rabilece\u011fi beklentileri (BofA iki ek art\u0131\u015f \u00f6ng\u00f6r\u00fcyor, tahvil getirileri y\u00fckseliyor) alt\u0131n i\u00e7in negatif. Alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda; \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebi do\u011furmas\u0131na ra\u011fmen piyasa bunu faiz ve dolar kanal\u0131yla fiyatl\u0131yor gibi g\u00f6r\u00fcn\u00fcyor. Bu \u00e7eli\u015fki ve haberlerin \u00e7o\u011funun eski olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-  "23.10 13:50 N  NEWS (3 new) score -0.40 conf 0.50: Faiz beklentileri ve getiriler gold i\u00e7in bask\u0131lay\u0131c\u0131: BofA'n\u0131n Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi tahmini ve Treasury getirilerindeki y\u00fckseli\u015f, reel faizleri yukar\u0131 \u00e7ekiyor. Ayr\u0131ca alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 ve petrol\u00fcn 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentileriyle dengeleniyor; bu nedenle sinyal orta d\u00fczeyde negatif."
+  "23.10 13:50 N  NEWS (3 new) score -0.40 conf 0.50: Faiz beklentileri ve getiriler gold i\u00e7in bask\u0131lay\u0131c\u0131: BofA'n\u0131n Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi tahmini ve Treasury getirilerindeki y\u00fckseli\u015f, reel faizleri yukar\u0131 \u00e7ekiyor. Ayr\u0131ca alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 ve petrol\u00fcn 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentileriyle dengeleniyor; bu nedenle sinyal orta d\u00fczeyde negatif.",
+  "23.10 13:59 N  NEWS (7 new) score -0.15 conf 0.35: Alt\u0131n 4.000 dolar\u0131 yak\u0131n\u0131nda ve d\u00fc\u015f\u00fc\u015f e\u011filiminde; \u0130ran-\u0130srail gerilimi ve petrol fiyat\u0131n\u0131n 114 dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak petrol kaynakl\u0131 enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. Piyasadaki mevcut d\u00fc\u015f\u00fc\u015f, jeopolitik riskten \u00e7ok faiz ve dolar etkisine i\u015faret ediyor; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm."
  ],
  "gold_big": {
   "account": {
@@ -2709,6 +2725,10 @@
    [
     1792752643,
     4969.06
+   ],
+   [
+    1792753189,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3098,6 +3118,10 @@
    [
     1792752643,
     4988.81
+   ],
+   [
+    1792753189,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3459,6 +3483,10 @@
    [
     1792752643,
     5000
+   ],
+   [
+    1792753189,
+    5000
    ]
   ]
  },
@@ -3544,6 +3572,10 @@
    [
     1792752643,
     5000.49
+   ],
+   [
+    1792753189,
+    4999.32
    ]
   ],
   "news_calls": {
