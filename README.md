@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 13:59 (İstanbul)
+> Son güncelleme: 23.10.2026 14:07 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 13:59): puan **-0.15**, güven 0.35 — Altın 4.000 doları yakınında ve düşüş eğiliminde; İran-İsrail gerilimi ve petrol fiyatının 114 dolara çıkması güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertleştirerek altı baskılıyor. Piyasadaki mevcut düşüş, jeopolitik riskten çok faiz ve dolar etkisine işaret ediyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
+Son haber analizi (23.10 14:07): puan **-0.25**, güven 0.50 — Altın fiyatı yakın vadede düşüşte ve haberler karışık: İran savaşı, petrol fiyatının 114 doları aşması ve Orta Doğu gerilimi güvenli liman talebini destekliyor, ancak yükselen enflasyon, Fed'den olumsuz haber algısı ve hisse senedi satışı (AI endişeleri) altını aşağı çekiyor. Güvenli liman etkisinin şu an baskılanması, faiz ve likidite kaynaklı satış baskısının daha belirleyici olduğunu gösteriyor.
 
 Son işlemler:
 
@@ -84,7 +84,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.32 $** (başlangıç 5,000 $, -0.68 $ / %-0.01)
+**Hesap değeri: 5,000.82 $** (başlangıç 5,000 $, +0.82 $ / %+0.02)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.25 (TP 4050.36 / SL 4030.17)
 
@@ -108,7 +108,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 11:48 B3  CLOSE short stop: -11.19 USD
 23.10 11:57 N  NEWS (7 new) score -0.45 conf 0.55: Petrol kaynaklı enflasyon ve Warsh'un ek faiz artırımı sinyali, altın için 3 aylık dip yakınında baskı yaratıyor; ABD doları da güvenli liman rolünü kaybettiği için altı destekleyen bir etken yok. Ancak 10 yıllık tahvil getirisindeki sert düşüş ve jeopolitik riskler (İran savaşı) kısa vadede dengeleyici olabileceğinden güven orta düzeyde tutuldu.
 23.10 12:02 B4  LONG gold 5000 USD x10 @ 4038.25 (TP 4050.36, SL 4030.17; news +0.45)
 23.10 12:11 N  NEWS (10 new) score -0.50 conf 0.60: Petrol 113 doların üzerine çıkarak enflasyon ve faiz artışı beklentilerini besliyor; Warsh'ın daha fazla faiz artırımına işaret etmesi ve altının 3 aylık dibe gelmesi baskıyı artırıyor. Savaş haberleri ve güvenli liman talebi ise sınırlı kalıyor, dolar da güvenli liman rolünü kaybetmiş görünüyor; bu nedenle beklenen etki negatif, ancak haberlerin bir kısmı zaten fiyatlanmış olabilir.
@@ -123,6 +122,7 @@ Son işlemler:
 23.10 13:41 N  NEWS (6 new) score -0.35 conf 0.50: Petrol 114 doların üzerinde ve enflasyon baskısı nedeniyle Fed'in faiz artırabileceği beklentileri (BofA iki ek artış öngörüyor, tahvil getirileri yükseliyor) altın için negatif. Altın zaten 4.000 doların altına düşmüş durumda; İran savaşı güvenli liman talebi doğurmasına rağmen piyasa bunu faiz ve dolar kanalıyla fiyatlıyor gibi görünüyor. Bu çelişki ve haberlerin çoğunun eski olması güveni sınırlıyor.
 23.10 13:50 N  NEWS (3 new) score -0.40 conf 0.50: Faiz beklentileri ve getiriler gold için baskılayıcı: BofA'nın Fed'in 2026'da iki kez daha faiz artırabileceği tahmini ve Treasury getirilerindeki yükseliş, reel faizleri yukarı çekiyor. Ayrıca altın 4.000 doların altına düşmüş durumda. İran savaşının uzaması ve petrolün 114 dolara çıkması güvenli liman talebini destekliyor, ancak bu etki enflasyon ve sıkılaşma beklentileriyle dengeleniyor; bu nedenle sinyal orta düzeyde negatif.
 23.10 13:59 N  NEWS (7 new) score -0.15 conf 0.35: Altın 4.000 doları yakınında ve düşüş eğiliminde; İran-İsrail gerilimi ve petrol fiyatının 114 dolara çıkması güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertleştirerek altı baskılıyor. Piyasadaki mevcut düşüş, jeopolitik riskten çok faiz ve dolar etkisine işaret ediyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
+23.10 14:07 N  NEWS (5 new) score -0.25 conf 0.50: Altın fiyatı yakın vadede düşüşte ve haberler karışık: İran savaşı, petrol fiyatının 114 doları aşması ve Orta Doğu gerilimi güvenli liman talebini destekliyor, ancak yükselen enflasyon, Fed'den olumsuz haber algısı ve hisse senedi satışı (AI endişeleri) altını aşağı çekiyor. Güvenli liman etkisinin şu an baskılanması, faiz ve likidite kaynaklı satış baskısının daha belirleyici olduğunu gösteriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
