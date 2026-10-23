@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 22:03 (İstanbul)
+> Son güncelleme: 23.10.2026 22:13 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -122,7 +122,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,020.80 $** (başlangıç 5,000 $, +20.80 $ / %+0.42)
+**Hesap değeri: 5,021.20 $** (başlangıç 5,000 $, +21.20 $ / %+0.42)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -146,7 +146,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 20:23 B2  hedefler güncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)
 23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD
 23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 23.10 20:34 B6  karar turu: Claude «-» / GPT «Endekslerde aşağı eğilim ve jeopolitik risk baskın olsa da mevcut fiyat hareketleri önümüzdeki 1–3 saat için %1,5 hedef ve %1 stop koşullarında net avantaj sunmuyor.»
@@ -161,6 +160,7 @@ Son işlemler:
 23.10 21:28 B1  CLOSE short stop: -3.00 USD
 23.10 21:28 B6  karar turu: Claude «Piyasa İran kaynaklı petrol yükselişi ve tarife belirsizliği altında dar bantta yatay seyrediyor; açık bir intraday avantaj görünmüyor.» / GPT «Endeksler son saatte yatay; haber ve fiyat teyidi birleşmediğinden kaldıraçla yüzde 1,5 hedefli işlem açmak yerine beklemek daha disiplinli.»
 23.10 21:51 B6  karar turu: Claude «Petrol 100 doların üzerinde ve İran gerginliği sürerken piyasa sıkışık ve yönsüz; Cuma öğleden sonra işlem açmak için net bir avantaj görünmüyor.» / GPT «Kapanışa 69 dakika kala dar fiyat bantları ve karışık haber akışı, yüzde 1,5 hedefli kaldıraçlı işlemler için yeterli avantaj sağlamıyor.»
+23.10 22:13 B6  karar turu: Claude «Cuma kapanışına yaklaşırken piyasa dar bantta ve yönsüz; petrolün 100 doları aşması ile İran gerilimi risk iştahını sınırlıyor, bu yüzden işlem açmamak en mantıklısı.» / GPT «Endeksler dar bantta ve normal seansın kapanışına 48 dakika kalmışken, mevcut hareketler yüzde 1,5 hedefli kaldıraçlı işlemler için yeterli haber ve fiyat teyidi sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

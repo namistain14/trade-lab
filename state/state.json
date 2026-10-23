@@ -734,6 +734,10 @@
    [
     1792782226,
     5000.3
+   ],
+   [
+    1792782794,
+    5000.3
    ]
   ]
  },
@@ -2145,6 +2149,10 @@
    [
     1792782226,
     4923.96
+   ],
+   [
+    1792782794,
+    4923.96
    ]
   ],
   "news": {
@@ -3457,7 +3465,8 @@
   "23.10 21:08 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerilimi s\u00fcrerken endeksler dar bantta yatay seyrediyor; net bir avantaj olmad\u0131\u011f\u0131ndan i\u015flem a\u00e7mamak en do\u011frusu.\u00bb / GPT \u00abEndekslerde dar bantl\u0131 seyir ve y\u00fcksek haber belirsizli\u011fi nedeniyle y\u00fczde 1,5 hedefi destekleyen net kurulum yok; yeni pozisyon a\u00e7mamak daha disiplinli.\u00bb",
   "23.10 21:28 B1  CLOSE short stop: -3.00 USD",
   "23.10 21:28 B6  karar turu: Claude \u00abPiyasa \u0130ran kaynakl\u0131 petrol y\u00fckseli\u015fi ve tarife belirsizli\u011fi alt\u0131nda dar bantta yatay seyrediyor; a\u00e7\u0131k bir intraday avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler son saatte yatay; haber ve fiyat teyidi birle\u015fmedi\u011finden kald\u0131ra\u00e7la y\u00fczde 1,5 hedefli i\u015flem a\u00e7mak yerine beklemek daha disiplinli.\u00bb",
-  "23.10 21:51 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerginli\u011fi s\u00fcrerken piyasa s\u0131k\u0131\u015f\u0131k ve y\u00f6ns\u00fcz; Cuma \u00f6\u011fleden sonra i\u015flem a\u00e7mak i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abKapan\u0131\u015fa 69 dakika kala dar fiyat bantlar\u0131 ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131, y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli avantaj sa\u011flam\u0131yor.\u00bb"
+  "23.10 21:51 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerginli\u011fi s\u00fcrerken piyasa s\u0131k\u0131\u015f\u0131k ve y\u00f6ns\u00fcz; Cuma \u00f6\u011fleden sonra i\u015flem a\u00e7mak i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abKapan\u0131\u015fa 69 dakika kala dar fiyat bantlar\u0131 ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131, y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli avantaj sa\u011flam\u0131yor.\u00bb",
+  "23.10 22:13 B6  karar turu: Claude \u00abCuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abEndeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -4180,6 +4189,10 @@
    [
     1792782226,
     4964.78
+   ],
+   [
+    1792782794,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -4851,6 +4864,10 @@
    [
     1792782226,
     4973.18
+   ],
+   [
+    1792782794,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5448,6 +5465,10 @@
    [
     1792782226,
     5000
+   ],
+   [
+    1792782794,
+    5000
    ]
   ]
  },
@@ -5775,6 +5796,10 @@
    [
     1792782226,
     4988.82
+   ],
+   [
+    1792782794,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -6054,6 +6079,10 @@
    [
     1792782226,
     5020.8
+   ],
+   [
+    1792782794,
+    5021.2
    ]
   ],
   "news_calls": {
@@ -6208,63 +6237,67 @@
    [
     1792782226,
     100000.0
+   ],
+   [
+    1792782794,
+    100000.0
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1792781500511,
+  "last_decision_ms": 1792782773524,
   "view": {
-   "ts": 1792781500511,
-   "claude": "Petrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerginli\u011fi s\u00fcrerken piyasa s\u0131k\u0131\u015f\u0131k ve y\u00f6ns\u00fcz; Cuma \u00f6\u011fleden sonra i\u015flem a\u00e7mak i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.",
-   "gpt": "Kapan\u0131\u015fa 69 dakika kala dar fiyat bantlar\u0131 ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131, y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli avantaj sa\u011flam\u0131yor.",
+   "ts": 1792782773524,
+   "claude": "Cuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.",
+   "gpt": "Endeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
       "none",
-      0.2
+      0.8
      ],
      "gpt": [
       "none",
-      0.96
+      0.95
      ]
     },
     "QQQ": {
      "claude": [
       "none",
-      0.2
-     ],
-     "gpt": [
-      "none",
-      0.96
-     ]
-    },
-    "NVDA": {
-     "claude": [
-      "none",
-      0.25
+      0.75
      ],
      "gpt": [
       "none",
       0.94
      ]
     },
-    "AAPL": {
+    "NVDA": {
      "claude": [
       "none",
-      0.2
+      0.75
      ],
      "gpt": [
       "none",
-      0.97
+      0.93
+     ]
+    },
+    "AAPL": {
+     "claude": [
+      "none",
+      0.65
+     ],
+     "gpt": [
+      "none",
+      0.87
      ]
     },
     "TSLA": {
      "claude": [
       "none",
-      0.25
+      0.75
      ],
      "gpt": [
       "none",
