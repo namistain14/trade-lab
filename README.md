@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 03:26 (İstanbul)
+> Son güncelleme: 23.10.2026 03:36 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -34,11 +34,11 @@
 | Kazanma oranı | %33.3 | %50.0 |
 | Ödenen komisyon/spread | 7.12 $ | 9.49 $ |
 
-**Hesap değeri: 4,998.08 $** (başlangıç 5,000 $, -1.92 $ / %-0.04)
+**Hesap değeri: 5,001.03 $** (başlangıç 5,000 $, +1.03 $ / %+0.02)
 
 Açık pozisyonlar: PAXGUSDT short @ 4032.75 (TP 4028.72 / SL 4035.17)
 
-Son haber analizi (23.10 03:26): puan **-0.45**, güven 0.60 — Petrol fiyatlarının 113 doların üzerine fırlaması enflasyon ve sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık dip olan 4.050 doların altına indi ve satış baskısı sürüyor. Rusya'nın yeni füze saldırıları ve İran savaşına ilişkin jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki mevcut satışı dengelemekte yetersiz kalıyor; tahvil getirilerindeki yükseliş de bu tabloyu destekliyor.
+Son haber analizi (23.10 03:36): puan **-0.45**, güven 0.60 — Petrol fiyatlarının sert yükselişi (Suudi saldırısı sonrası 113 doların üzerine) enflasyon ve sıkı para politikası beklentilerini artırıyor; bu da güvenli liman talebine rağmen altın üzerinde baskı yaratıyor. Altın 2 aylık dibe inerek 4.050 doların altına düştü, momentum belirgin şekilde negatif, ancak düşüş büyük ölçüde zaten fiyatlanmış olabilir.
 
 Son işlemler:
 
@@ -58,7 +58,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,001.38 $** (başlangıç 5,000 $, +1.38 $ / %+0.03)
+**Hesap değeri: 5,004.33 $** (başlangıç 5,000 $, +4.33 $ / %+0.09)
 
 Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 
@@ -76,7 +76,6 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 ## Son olaylar
 
 ```
-23.10 01:52 N  NEWS (17 new) score -0.20 conf 0.45: Altın son saatlerde satış baskısı altında ve 4.050 doların altına indi; petrolün 113 doların üzerine çıkması enflasyon ve sıkı para politikası beklentilerini canlandırarak altın için olumsuz. Savaş riskinin güvenli liman talebi yaratması ise bu baskıyı sınırlıyor, bu yüzden sinyal zayıf-negatif ve güven orta düzeyde.
 23.10 02:02 N  NEWS (15 new) score -0.30 conf 0.50: Altın 4.050 doların altına sert bir satış baskısıyla düştü ve 11 haftanın en düşük seviyesini gördü; bu, petrol fiyatlarının 113 doları aşmasıyla artan enflasyon ve sıkılaşma beklentilerinin güvenli liman talebini bastırdığını gösteriyor. Savaş kaynaklı jeopolitik risk teoride altını destekler, ancak piyasada şu an faiz ve dolar kanalı daha baskın görünüyor; bu nedenle kısa vadede hafif negatif bir eğilim var, fakat jeopolitik şok ve düşük seviyeden alım ihtimali nedeniyle güven sınırlı.
 23.10 02:04 B1  CLOSE short take profit: +3.82 USD
 23.10 02:14 N  NEWS (6 new) score +0.05 conf 0.35: 
@@ -91,6 +90,7 @@ Açık pozisyonlar: PAXGUSDT short @ 4034.81 (TP 4022.71 / SL 4042.88)
 23.10 03:14 N  NEWS (10 new) score -0.30 conf 0.50: 
 23.10 03:26 N  NEWS (6 new) score -0.45 conf 0.60: Petrol fiyatlarının 113 doların üzerine fırlaması enflasyon ve sıkı para politikası beklentilerini canlandırarak altı baskılıyor; altın iki aylık dip olan 4.050 doların altına indi ve satış baskısı sürüyor. Rusya'nın yeni füze saldırıları ve İran savaşına ilişkin jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki mevcut satışı dengelemekte yetersiz kalıyor; tahvil getirilerindeki yükseliş de bu tabloyu destekliyor.
 23.10 03:26 B1  SHORT gold 5000 USD x10 @ 4032.75 (TP 4028.72, SL 4035.17; news -0.45)
+23.10 03:36 N  NEWS (6 new) score -0.45 conf 0.60: Petrol fiyatlarının sert yükselişi (Suudi saldırısı sonrası 113 doların üzerine) enflasyon ve sıkı para politikası beklentilerini artırıyor; bu da güvenli liman talebine rağmen altın üzerinde baskı yaratıyor. Altın 2 aylık dibe inerek 4.050 doların altına düştü, momentum belirgin şekilde negatif, ancak düşüş büyük ölçüde zaten fiyatlanmış olabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
