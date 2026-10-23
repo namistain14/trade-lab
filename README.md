@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 15:24 (İstanbul)
+> Son güncelleme: 23.10.2026 15:33 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,9 +42,9 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 15:24): Claude puan **-0.40**, güven 0.50 — Altın gün içinde %2.31 düşüş yaşıyor ve 3 aylık dipte açılıyor; petrol fiyatlarındaki yükseliş enflasyon endişelerini artırarak Fed'in sıkı kalma beklentisini ve reel faizleri destekliyor, bu da altın için olumsuz. İran savaşı ve Orta Doğu gerilimi güvenli liman talebini desteklese de, bu etki fiyatlarda belirgin biçimde görülmüyor; ABD doları ve AI kaynaklı risk iştahı da karışık sinyaller veriyor.
+Son haber analizi (23.10 15:33): Claude puan **-0.35**, güven 0.50 — Altın, enflasyon endişeleri ve petrol fiyatlarındaki yükselişle üç aylık dip seviyelerine geriledi; Fed beklentilerindeki sıkılık ve yeniden güçlenen dolar/getiri avantajı kısa vadede baskı oluşturuyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor olsa da bu etki, mevcut satış momentumu ve enflasyon kaynaklı hawkish algı tarafından büyük ölçüde gölgeleniyor.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.62 — Altın fiyatındaki sert düşüş ve haftalık kayıpların derinleşmesi kısa vadeli aşağı yönlü momentuma işaret ediyor. Yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini artırması baskıyı güçlendirebilir; jeopolitik riskler ve zayıflayan dolar ise düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.28**, güven 0.45 — Altının sert satış ve üç aylık dip haberleri kısa vadeli aşağı yönlü momentuma işaret ediyor; yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini artırması da baskı yaratabilir. Rus dizel tankerine yönelik yaptırım gevşemesi bu baskıyı hafifletebilir, ancak etkisi belirsiz ve çatışma haber
 
 Son işlemler:
 
@@ -86,7 +86,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,002.17 $** (başlangıç 5,000 $, +2.17 $ / %+0.04)
+**Hesap değeri: 5,005.86 $** (başlangıç 5,000 $, +5.86 $ / %+0.12)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.25 (TP 4050.36 / SL 4030.17)
 
@@ -121,8 +121,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 13:41 N  NEWS (6 new) score -0.35 conf 0.50: Petrol 114 doların üzerinde ve enflasyon baskısı nedeniyle Fed'in faiz artırabileceği beklentileri (BofA iki ek artış öngörüyor, tahvil getirileri yükseliyor) altın için negatif. Altın zaten 4.000 doların altına düşmüş durumda; İran savaşı güvenli liman talebi doğurmasına rağmen piyasa bunu faiz ve dolar kanalıyla fiyatlıyor gibi görünüyor. Bu çelişki ve haberlerin çoğunun eski olması güveni sınırlıyor.
-23.10 13:50 N  NEWS (3 new) score -0.40 conf 0.50: Faiz beklentileri ve getiriler gold için baskılayıcı: BofA'nın Fed'in 2026'da iki kez daha faiz artırabileceği tahmini ve Treasury getirilerindeki yükseliş, reel faizleri yukarı çekiyor. Ayrıca altın 4.000 doların altına düşmüş durumda. İran savaşının uzaması ve petrolün 114 dolara çıkması güvenli liman talebini destekliyor, ancak bu etki enflasyon ve sıkılaşma beklentileriyle dengeleniyor; bu nedenle sinyal orta düzeyde negatif.
 23.10 13:59 N  NEWS (7 new) score -0.15 conf 0.35: Altın 4.000 doları yakınında ve düşüş eğiliminde; İran-İsrail gerilimi ve petrol fiyatının 114 dolara çıkması güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon ve Fed'e dair olumsuz haberler faiz beklentilerini sertleştirerek altı baskılıyor. Piyasadaki mevcut düşüş, jeopolitik riskten çok faiz ve dolar etkisine işaret ediyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 23.10 14:07 N  NEWS (5 new) score -0.25 conf 0.50: Altın fiyatı yakın vadede düşüşte ve haberler karışık: İran savaşı, petrol fiyatının 114 doları aşması ve Orta Doğu gerilimi güvenli liman talebini destekliyor, ancak yükselen enflasyon, Fed'den olumsuz haber algısı ve hisse senedi satışı (AI endişeleri) altını aşağı çekiyor. Güvenli liman etkisinin şu an baskılanması, faiz ve likidite kaynaklı satış baskısının daha belirleyici olduğunu gösteriyor.
 23.10 14:17 N  NEWS (14 new) score -0.50 conf 0.60: Altın 3 aylık dibe yakın açılıyor ve petrol fiyatlarındaki yükseliş (Brent/WTI 114 dolar üzeri) enflasyon ve sıkılaştırılmış Fed beklentilerini besleyerek reel faiz baskısı yaratıyor; bu da kısa vadede altın için olumsuz. Jeopolitik risk (İran savaşı, İsrail-İran gerilimi) güvenli liman talebi yaratsa da piyasada bu etki şimdilik baskılanmış görünüyor. Bu nedenle hafif-orta düzeyde negatif bir görüş; UBS'in alım fırsatı beklentisi ve olası jeopolitik şok ise yukarı yönlü riskler olarak duruyor.
@@ -136,6 +134,8 @@ Son işlemler:
 23.10 15:12 N  GPT  score -0.15 conf 0.30: Ortadoğu gerilimi ve Ukrayna’daki saldırı güvenli liman talebini destekleyebilir; ancak altındaki sert satış, yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini yukarı çekmesiyle baskının sürdüğüne işaret ediyor. Yeni başlıkların çoğu doğrudan piyasa katalizörü değil, bu nedenle kısa vade
 23.10 15:24 N  NEWS (6 new) score -0.40 conf 0.50: Altın gün içinde %2.31 düşüş yaşıyor ve 3 aylık dipte açılıyor; petrol fiyatlarındaki yükseliş enflasyon endişelerini artırarak Fed'in sıkı kalma beklentisini ve reel faizleri destekliyor, bu da altın için olumsuz. İran savaşı ve Orta Doğu gerilimi güvenli liman talebini desteklese de, bu etki fiyatlarda belirgin biçimde görülmüyor; ABD doları ve AI kaynaklı risk iştahı da karışık sinyaller veriyor.
 23.10 15:24 N  GPT  score -0.48 conf 0.62: Altın fiyatındaki sert düşüş ve haftalık kayıpların derinleşmesi kısa vadeli aşağı yönlü momentuma işaret ediyor. Yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini artırması baskıyı güçlendirebilir; jeopolitik riskler ve zayıflayan dolar ise düşüşü sınırlayabilir.
+23.10 15:33 N  NEWS (5 new) score -0.35 conf 0.50: Altın, enflasyon endişeleri ve petrol fiyatlarındaki yükselişle üç aylık dip seviyelerine geriledi; Fed beklentilerindeki sıkılık ve yeniden güçlenen dolar/getiri avantajı kısa vadede baskı oluşturuyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor olsa da bu etki, mevcut satış momentumu ve enflasyon kaynaklı hawkish algı tarafından büyük ölçüde gölgeleniyor.
+23.10 15:33 N  GPT  score -0.28 conf 0.45: Altının sert satış ve üç aylık dip haberleri kısa vadeli aşağı yönlü momentuma işaret ediyor; yükselen enerji fiyatlarının enflasyon ve faiz beklentilerini artırması da baskı yaratabilir. Rus dizel tankerine yönelik yaptırım gevşemesi bu baskıyı hafifletebilir, ancak etkisi belirsiz ve çatışma haber
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
