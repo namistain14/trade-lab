@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 19:52 (İstanbul)
+> Son güncelleme: 23.10.2026 20:01 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,9 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %27.6 |
 | Ödenen komisyon/spread | 66.45 $ | 68.82 $ |
 
-**Hesap değeri: 4,937.15 $** (başlangıç 5,000 $, -62.85 $ / %-1.26)
+**Hesap değeri: 4,935.96 $** (başlangıç 5,000 $, -64.04 $ / %-1.28)
+
+Açık pozisyonlar: PAXGUSDT short @ 4012.62 (TP 4008.60 / SL 4015.02)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -65,7 +67,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,968.08 $** (başlangıç 5,000 $, -31.92 $ / %-0.64)
+**Hesap değeri: 4,971.72 $** (başlangıç 5,000 $, -28.28 $ / %-0.57)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -124,7 +126,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,012.83 $** (başlangıç 5,000 $, +12.83 $ / %+0.26)
+**Hesap değeri: 5,016.48 $** (başlangıç 5,000 $, +16.48 $ / %+0.33)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -148,7 +150,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:01 N  NEWS (11 new) score -0.25 conf 0.40: Haberler karışık ama net eğilim hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik risk primini azaltıyor, kritik Fed toplantısı öncesi enflasyon kaygıları ve yüksek reel faizler sıkılaştırma beklentisini destekliyor. Buna karşılık ABD/İsrail'in olası İran saldırısına hazırlandığı haberi ve sürmekte olan savaş riskleri güvenli liman talebini sınırlı da olsa destekliyor; ayrıca bazı başlıklar eski veya zaten fiyatlanmış olabilir.
 23.10 19:01 N  GPT  score -0.25 conf 0.48: İran savaşının hızlı sona erdirilmesi ihtimali güvenli liman talebini sınırlayabilir; ancak haber net bir karar değil ve çatışmanın seyri belirsiz. Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede hafif aşağı yönlü baskıyı destekliyor.
 23.10 19:01 B1  SHORT gold 5000 USD x10 @ 4018.98 (TP 4014.96, SL 4021.39; news -0.25)
 23.10 19:13 N  NEWS (11 new) score -0.30 conf 0.40: 
@@ -163,6 +164,7 @@ Son işlemler:
 23.10 19:43 B1  SHORT gold 5000 USD x10 @ 4015.46 (TP 4011.44, SL 4017.87; news -0.20)
 23.10 19:52 B1  CLOSE short stop (gap): -4.47 USD
 23.10 19:52 B6  karar turu: Claude «Piyasa karışık ve düşük volatiliteli bir seyir izliyor; yapay zekâ altyapısına dair şüpheler teknolojiyi baskılasa da işlem açmayı haklı kılacak net bir avantaj yok.» / GPT «Endekslerde hafif satış baskısı var ancak haber ve fiyat teyidi birlikte yeterince güçlü olmadığından kaldıraçlı yeni pozisyon açmadan beklemek daha disiplinli.»
+23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
