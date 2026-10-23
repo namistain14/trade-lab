@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 19:22 (İstanbul)
+> Son güncelleme: 23.10.2026 19:24 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,7 @@ Son işlemler:
 | Kazanma oranı | %23.1 | %25.9 |
 | Ödenen komisyon/spread | 61.70 $ | 64.07 $ |
 
-**Hesap değeri: 4,939.75 $** (başlangıç 5,000 $, -60.25 $ / %-1.21)
+**Hesap değeri: 4,941.65 $** (başlangıç 5,000 $, -58.35 $ / %-1.17)
 
 Açık pozisyonlar: PAXGUSDT short @ 4018.98 (TP 4014.96 / SL 4021.39)
 
@@ -67,7 +67,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,966.94 $** (başlangıç 5,000 $, -33.06 $ / %-0.66)
+**Hesap değeri: 4,968.85 $** (başlangıç 5,000 $, -31.15 $ / %-0.62)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -126,7 +126,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,011.70 $** (başlangıç 5,000 $, +11.70 $ / %+0.23)
+**Hesap değeri: 5,013.60 $** (başlangıç 5,000 $, +13.60 $ / %+0.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
