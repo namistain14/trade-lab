@@ -662,6 +662,10 @@
    [
     1792773269,
     5000.3
+   ],
+   [
+    1792773785,
+    5000.3
    ]
   ]
  },
@@ -669,7 +673,23 @@
   "account": {
    "balance": 4941.615849942794,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "97375539",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2451883686322927,
+     "entry": 4015.456718,
+     "tp": 4011.4412612819997,
+     "sl": 4017.8659920308,
+     "opened_ms": 1792773783148,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.20/0.40",
+     "friction": 2.374
+    }
+   ],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -1262,7 +1282,7 @@
    ],
    "day": {
     "date": "2026-10-23",
-    "trades": 26,
+    "trades": 27,
     "pnl": -62.199438096883064,
     "stopped": false
    },
@@ -1896,6 +1916,10 @@
    [
     1792773269,
     4941.62
+   ],
+   [
+    1792773785,
+    4940.47
    ]
   ],
   "news": {
@@ -3185,7 +3209,8 @@
   "23.10 19:34 B1  CLOSE short take profit: +3.81 USD",
   "23.10 19:34 N  NEWS (10 new) score -0.20 conf 0.40: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n h\u0131zl\u0131 sona erebilece\u011fi haberi jeopolitik risk primini azaltarak alt\u0131 hafif bask\u0131l\u0131yor, ayr\u0131ca g\u00fc\u00e7l\u00fc ABD i\u015fletme verisi dolar\u0131 destekliyor ve Fed karar\u0131 \u00f6ncesi enflasyon kayg\u0131lar\u0131 faiz beklentilerini s\u0131k\u0131la\u015ft\u0131r\u0131c\u0131 y\u00f6ne itiyor. Buna kar\u015f\u0131l\u0131k Eyl\u00fcl enflasyon bask\u0131lar\u0131n\u0131n hafiflemesi ve s\u00fcrmekte olan Orta Do\u011fu/Ukrayna \u00e7at\u0131\u015fmalar\u0131 alt\u0131n i\u00e7in destekleyici unsurlar; ayr\u0131ca bir\u00e7ok haber eski veya yerel nitelikte oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
   "23.10 19:34 N  GPT  score -0.20 conf 0.38: ABD i\u015f g\u00fcc\u00fc/i\u015fletme g\u00fcc\u00fcn\u00fcn dolar\u0131 desteklemesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yaratabilir; Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131 h\u0131zl\u0131 bitirmeyi de\u011ferlendirmesi de g\u00fcvenli liman talebini azaltabilir. Ancak sava\u015f\u0131n s\u00fcrmesi olas\u0131l\u0131\u011f\u0131 ve Fed karar\u0131 \u00f6ncesi belirsizlik sinyalleri \u00e7eli\u015fkili k\u0131l\u0131yor.",
-  "23.10 19:34 B6  karar turu: Claude \u00abPiyasa d\u00fc\u015f\u00fck volatiliteyle yatay seyrediyor; net bir avantaj olmad\u0131\u011f\u0131 i\u00e7in beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde y\u00f6ns\u00fczl\u00fck ve hisselerde s\u0131n\u0131rl\u0131 teyit nedeniyle \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in y\u00fczde 1,5 hedefi destekleyen net bir haber-fiyat avantaj\u0131 yok.\u00bb"
+  "23.10 19:34 B6  karar turu: Claude \u00abPiyasa d\u00fc\u015f\u00fck volatiliteyle yatay seyrediyor; net bir avantaj olmad\u0131\u011f\u0131 i\u00e7in beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde y\u00f6ns\u00fczl\u00fck ve hisselerde s\u0131n\u0131rl\u0131 teyit nedeniyle \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in y\u00fczde 1,5 hedefi destekleyen net bir haber-fiyat avantaj\u0131 yok.\u00bb",
+  "23.10 19:43 B1  SHORT gold 5000 USD x10 @ 4015.46 (TP 4011.44, SL 4017.87; news -0.20)"
  ],
  "gold_big": {
   "account": {
@@ -3831,6 +3856,10 @@
    [
     1792773269,
     4971.71
+   ],
+   [
+    1792773785,
+    4968.23
    ]
   ],
   "news_calls": {
@@ -4430,6 +4459,10 @@
    [
     1792773269,
     4973.18
+   ],
+   [
+    1792773785,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -4955,6 +4988,10 @@
    [
     1792773269,
     5000
+   ],
+   [
+    1792773785,
+    5000
    ]
   ]
  },
@@ -5210,6 +5247,10 @@
    [
     1792773269,
     4988.82
+   ],
+   [
+    1792773785,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -5417,6 +5458,10 @@
    [
     1792773269,
     5016.47
+   ],
+   [
+    1792773785,
+    5012.98
    ]
   ],
   "news_calls": {
@@ -5498,6 +5543,10 @@
    ],
    [
     1792773269,
+    100000.0
+   ],
+   [
+    1792773785,
     100000.0
    ]
   ],

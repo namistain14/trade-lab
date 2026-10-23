@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 19:34 (İstanbul)
+> Son güncelleme: 23.10.2026 19:43 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,9 @@ Son işlemler:
 | Kazanma oranı | %25.9 | %28.6 |
 | Ödenen komisyon/spread | 64.07 $ | 66.45 $ |
 
-**Hesap değeri: 4,941.62 $** (başlangıç 5,000 $, -58.38 $ / %-1.17)
+**Hesap değeri: 4,940.47 $** (başlangıç 5,000 $, -59.53 $ / %-1.19)
+
+Açık pozisyonlar: PAXGUSDT short @ 4015.46 (TP 4011.44 / SL 4017.87)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -65,7 +67,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,971.71 $** (başlangıç 5,000 $, -28.29 $ / %-0.57)
+**Hesap değeri: 4,968.23 $** (başlangıç 5,000 $, -31.77 $ / %-0.64)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -124,7 +126,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,016.47 $** (başlangıç 5,000 $, +16.47 $ / %+0.33)
+**Hesap değeri: 5,012.98 $** (başlangıç 5,000 $, +12.98 $ / %+0.26)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -148,7 +150,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 18:49 N  NEWS (9 new) score -0.35 conf 0.50: 
 23.10 18:49 N  GPT  score -0.25 conf 0.42: Faizlerin sıkı kalacağı ve enflasyon baskılarının sürdüğü yönündeki haberler, kısa vadede reel faizler ve dolar kanalıyla altın üzerinde baskı yaratabilir. Bölgesel çatışmalar güvenli liman talebini desteklese de haber akışı karışık ve altındaki düşüşün bir kısmı zaten fiyatlanmış görünüyor.
 23.10 18:49 B6  karar turu: Claude «Piyasa enerji ve jeopolitik haber akışı altında dar bantta yön arıyor; net bir avantaj olmadığından kenarda kalmak en doğrusu.» / GPT «Endekslerde yön teyidi ve taze şirkete özgü katalizörler yetersiz olduğundan, önümüzdeki 1–3 saat için yüzde 1,5 hedefli kaldıraçlı işlemlerde beklemek daha disiplinli.»
 23.10 19:01 N  NEWS (11 new) score -0.25 conf 0.40: Haberler karışık ama net eğilim hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik risk primini azaltıyor, kritik Fed toplantısı öncesi enflasyon kaygıları ve yüksek reel faizler sıkılaştırma beklentisini destekliyor. Buna karşılık ABD/İsrail'in olası İran saldırısına hazırlandığı haberi ve sürmekte olan savaş riskleri güvenli liman talebini sınırlı da olsa destekliyor; ayrıca bazı başlıklar eski veya zaten fiyatlanmış olabilir.
@@ -163,6 +164,7 @@ Son işlemler:
 23.10 19:34 N  NEWS (10 new) score -0.20 conf 0.40: Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 23.10 19:34 N  GPT  score -0.20 conf 0.38: ABD iş gücü/işletme gücünün doları desteklemesi altın üzerinde kısa vadeli baskı yaratabilir; Trump’ın İran savaşını hızlı bitirmeyi değerlendirmesi de güvenli liman talebini azaltabilir. Ancak savaşın sürmesi olasılığı ve Fed kararı öncesi belirsizlik sinyalleri çelişkili kılıyor.
 23.10 19:34 B6  karar turu: Claude «Piyasa düşük volatiliteyle yatay seyrediyor; net bir avantaj olmadığı için beklemek en doğrusu.» / GPT «Endekslerde yönsüzlük ve hisselerde sınırlı teyit nedeniyle önümüzdeki 1–3 saat için yüzde 1,5 hedefi destekleyen net bir haber-fiyat avantajı yok.»
+23.10 19:43 B1  SHORT gold 5000 USD x10 @ 4015.46 (TP 4011.44, SL 4017.87; news -0.20)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
