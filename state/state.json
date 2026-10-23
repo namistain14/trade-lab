@@ -546,6 +546,10 @@
    [
     1792758803,
     5000.3
+   ],
+   [
+    1792759347,
+    5000.3
    ]
   ]
  },
@@ -1475,28 +1479,32 @@
    [
     1792758803,
     4968.46
+   ],
+   [
+    1792759347,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.5,
-   "reason": "Alt\u0131n, enflasyon endi\u015feleri ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fle \u00fc\u00e7 ayl\u0131k dip seviyelerine geriledi; Fed beklentilerindeki s\u0131k\u0131l\u0131k ve yeniden g\u00fc\u00e7lenen dolar/getiri avantaj\u0131 k\u0131sa vadede bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da bu etki, mevcut sat\u0131\u015f momentumu ve enflasyon kaynakl\u0131 hawkish alg\u0131 taraf\u0131ndan b\u00fcy\u00fck \u00f6l\u00e7\u00fcde g\u00f6lgeleniyor.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dolar direnci nedeniyle bask\u0131 alt\u0131nda; haberlerde alt\u0131n %2,31 d\u00fc\u015ft\u00fc ve \u00fc\u00e7 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, piyasan\u0131n faiz beklentilerini s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcnde fiyatlamas\u0131 bu etkiyi a\u011f\u0131r bas\u0131yor, bu y\u00fczden k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif.",
    "n": 45,
-   "ts": 1792758800963,
-   "new_headlines": 5,
+   "ts": 1792759343209,
+   "new_headlines": 8,
    "key_events": [
     "Petrol 114 dolar\u0131n \u00fczerinde; enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Alt\u0131n 3 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131; Fed'e ili\u015fkin olumsuz haberler",
     "\u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 g\u00fcvenli liman talebi destekliyor ama etkisi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": -0.28,
-    "confidence": 0.45,
-    "reason": "Alt\u0131n\u0131n sert sat\u0131\u015f ve \u00fc\u00e7 ayl\u0131k dip haberleri k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; y\u00fckselen enerji fiyatlar\u0131n\u0131n enflasyon ve faiz beklentilerini art\u0131rmas\u0131 da bask\u0131 yaratabilir. Rus dizel tankerine y\u00f6nelik yapt\u0131r\u0131m gev\u015femesi bu bask\u0131y\u0131 hafifletebilir, ancak etkisi belirsiz ve \u00e7at\u0131\u015fma haber",
+    "score": -0.35,
+    "confidence": 0.56,
+    "reason": "Dolar\u0131n FOMC \u00f6ncesinde diren\u00e7li kalmas\u0131 ve enflasyon endi\u015felerinin faizleri y\u00fcksek tutabilece\u011fi alg\u0131s\u0131 alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor. Sudan\u2019daki k\u00f6t\u00fcle\u015fme g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015fe ili\u015fkin haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut fiyatlamay\u0131 yans\u0131t\u0131yor.",
     "key_events": [
-     "Alt\u0131nda sert d\u00fc\u015f\u00fc\u015f ve zay\u0131f fiyat momentumu",
-     "Rus dizel tankerine y\u00f6nelik yapt\u0131r\u0131m gev\u015femesi",
-     "Y\u00fckselen enerji fiyatlar\u0131 ve enflasyon endi\u015feleri"
+     "Dolar\u0131n FOMC \u00f6ncesi diren\u00e7li seyri",
+     "Enflasyon endi\u015feleri ve y\u00fckselen enerji fiyatlar\u0131",
+     "Sudan\u2019daki insani ve g\u00fcvenlik krizi"
     ],
     "model": "gpt-6-luna"
    }
@@ -2241,36 +2249,50 @@
     "new": 5,
     "gpt_score": -0.28,
     "gpt_confidence": 0.45
+   },
+   {
+    "ts": 1792759343209,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dolar direnci nedeniyle bask\u0131 alt\u0131nda; haberlerde alt\u0131n %2,31 d\u00fc\u015ft\u00fc ve \u00fc\u00e7 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, piyasan\u0131n faiz beklentilerini s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcnde fiyatlamas\u0131 bu etkiyi a\u011f\u0131r bas\u0131yor, bu y\u00fczden k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif.",
+    "new": 8,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 95
+   "n": 96
   },
   "news_seen": [
+   "Bitcoin Holds Firm Amid US Stock Volatility, but Inflation May Curb Further Gains - bloomingbit",
+   "US Dollar: Resilient into FOMC with election risks \u2013 TD Securities - FXStreet",
+   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
    "Russian Diesel Tanker Heads for New York After US Eases Sanctions - Kurdistan24",
    "What is PHP and why did it spark a global cyber-security scramble?",
    "Gold Price Today: Gold Falls 2.31% on October 23, 2026 - USA Today",
    "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal - WSJ",
    "Denmark to ban mink farming in government U-turn",
    "Gold Price in Bangladesh Drops to Tk 2,24,182 per Bhori After 3rd Cut in 10 Days - www.businesstimes-bd.com",
+   "Canadian Dollar May Rise on Possible Bank of Canada Rate Hike Next Week, UBS Says - Yahoo Finance",
    "Gold price at the close of the session on October 23rd: Gold prices are heading towards the strongest weekly decrease - Laodong.vn",
+   "War-ravaged Sudan on brink as El Nino fans new flames of hunger | Daily Sabah - Daily Sabah",
    "Geopolitical Chat #12: Q&A Session for Paid Subscribers: Trump adopts Israel\u2019s Metric of Success - Total Destruction - Trita Parsi | Substack",
    "Ukrainian drones destroy Russian missile launcher, missile depot on Kupiansk axis - \u0490\u0432\u0430\u0440\u0430 \u041c\u0435\u0434\u0456\u0430",
    "At least one dead and four injured in Paris suburb shooting",
    "USD/CHF (USDCHF) Surges on Oct 23: Was It the Dollar, Rates, or Data? - TradingKey",
    "Carney Says Ukraine Starlink Case Underscores Risk of US Tech Reliance - Bloomberg.com",
-   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
    "Department of War Publishes Seventh Release of Unidentified Anomalous Phenomena Files on W - U.S. Department of War (.gov)",
-   "Remains of WWII veteran found in a hope chest will be laid to rest in SLO County - San Luis Obispo Tribune",
    "Island inflation rate rises to 3%, figures show",
    "The US Dollar holds the yield advantage: Why safe-haven demand still sank it against the Japanese Yen - FXStreet",
    "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
+   "US-Iran war, then and now: How the landscape has changed since February - Al Jazeera",
+   "US Dollar Rises Early Friday Ahead of S&P Global Flash Estimates, Michigan Sentiment - Yahoo Finance",
+   "Australian Dollar: Consolidation limits gains against US Dollar \u2013 UOB - www.tmgm.com",
    "US Failed to Achieve Its War Objectives Against Iran: Friday Prayer Leader - WANA News Agency",
    "US Dollar: Safe-haven role questioned as AI story weighs \u2013 ING - FXStreet",
    "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
    "Gold weakens as inflation fears mount, oil and gas prices jump - TRT World",
-   "Iran War - GazetteXtra",
    "Iran War - Post Register",
    "US dollar weakens as yen surges and investors assess Federal Reserve outlook - Economies.com",
    "Euro set for weekly drop against dollar, yen as France concerns resurface - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
@@ -2284,15 +2306,10 @@
    "Australian Dollar edges up against US Dollar ahead of US flash PMI data - FXStreet",
    "As Trump\u2019s support slips amid war, white evangelicals remain his bedrock - The Arab Weekly",
    "Alvarado distances himself from Trump on Iran war, tariffs in KY House debate with Dembo - Lexington Herald Leader",
+   "Ringgit ends easier vs US dollar amid AI-related share price concerns - The Star",
    "TSX futures drop amid gold price fall, AI anxieties - Investing.com",
    "AI trade meets the Fed - Reuters",
-   "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "UBS sees dip buyers stepping in to support gold at this level - Yahoo Finance",
-   "EXPLAINER \u2013 Bulgaria\u2019s presidential race tests country\u2019s geopolitical direction - Anadolu Ajans\u0131",
-   "Bangladesh cuts gold prices cut again as global market slides - bdnews24.com",
-   "Antam Gold Price Today, October 23, 2026, Drops Again; 1 Gram Now Rp2.54 Million - Aktualita.co",
-   "Israel, Iran ramp up war rhetoric, as prospect of open conflict looms - Semafor",
-   "Gold Rate Today In Bareilly, Check Live 22 And 24 Carat Gold Price - NDTV Profit"
+   "Ukraine says Starlink still restricted after Trump says limits lifted"
   ]
  },
  "log": [
@@ -2456,7 +2473,9 @@
   "23.10 15:24 N  NEWS (6 new) score -0.40 conf 0.50: Alt\u0131n g\u00fcn i\u00e7inde %2.31 d\u00fc\u015f\u00fc\u015f ya\u015f\u0131yor ve 3 ayl\u0131k dipte a\u00e7\u0131l\u0131yor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131rarak Fed'in s\u0131k\u0131 kalma beklentisini ve reel faizleri destekliyor, bu da alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini desteklese de, bu etki fiyatlarda belirgin bi\u00e7imde g\u00f6r\u00fclm\u00fcyor; ABD dolar\u0131 ve AI kaynakl\u0131 risk i\u015ftah\u0131 da kar\u0131\u015f\u0131k sinyaller veriyor.",
   "23.10 15:24 N  GPT  score -0.48 conf 0.62: Alt\u0131n fiyat\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve haftal\u0131k kay\u0131plar\u0131n derinle\u015fmesi k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Y\u00fckselen enerji fiyatlar\u0131n\u0131n enflasyon ve faiz beklentilerini art\u0131rmas\u0131 bask\u0131y\u0131 g\u00fc\u00e7lendirebilir; jeopolitik riskler ve zay\u0131flayan dolar ise d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "23.10 15:33 N  NEWS (5 new) score -0.35 conf 0.50: Alt\u0131n, enflasyon endi\u015feleri ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fle \u00fc\u00e7 ayl\u0131k dip seviyelerine geriledi; Fed beklentilerindeki s\u0131k\u0131l\u0131k ve yeniden g\u00fc\u00e7lenen dolar/getiri avantaj\u0131 k\u0131sa vadede bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da bu etki, mevcut sat\u0131\u015f momentumu ve enflasyon kaynakl\u0131 hawkish alg\u0131 taraf\u0131ndan b\u00fcy\u00fck \u00f6l\u00e7\u00fcde g\u00f6lgeleniyor.",
-  "23.10 15:33 N  GPT  score -0.28 conf 0.45: Alt\u0131n\u0131n sert sat\u0131\u015f ve \u00fc\u00e7 ayl\u0131k dip haberleri k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; y\u00fckselen enerji fiyatlar\u0131n\u0131n enflasyon ve faiz beklentilerini art\u0131rmas\u0131 da bask\u0131 yaratabilir. Rus dizel tankerine y\u00f6nelik yapt\u0131r\u0131m gev\u015femesi bu bask\u0131y\u0131 hafifletebilir, ancak etkisi belirsiz ve \u00e7at\u0131\u015fma haber"
+  "23.10 15:33 N  GPT  score -0.28 conf 0.45: Alt\u0131n\u0131n sert sat\u0131\u015f ve \u00fc\u00e7 ayl\u0131k dip haberleri k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; y\u00fckselen enerji fiyatlar\u0131n\u0131n enflasyon ve faiz beklentilerini art\u0131rmas\u0131 da bask\u0131 yaratabilir. Rus dizel tankerine y\u00f6nelik yapt\u0131r\u0131m gev\u015femesi bu bask\u0131y\u0131 hafifletebilir, ancak etkisi belirsiz ve \u00e7at\u0131\u015fma haber",
+  "23.10 15:42 N  NEWS (8 new) score -0.45 conf 0.60: Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dolar direnci nedeniyle bask\u0131 alt\u0131nda; haberlerde alt\u0131n %2,31 d\u00fc\u015ft\u00fc ve \u00fc\u00e7 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, piyasan\u0131n faiz beklentilerini s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcnde fiyatlamas\u0131 bu etkiyi a\u011f\u0131r bas\u0131yor, bu y\u00fczden k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif.",
+  "23.10 15:42 N  GPT  score -0.35 conf 0.56: Dolar\u0131n FOMC \u00f6ncesinde diren\u00e7li kalmas\u0131 ve enflasyon endi\u015felerinin faizleri y\u00fcksek tutabilece\u011fi alg\u0131s\u0131 alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor. Sudan\u2019daki k\u00f6t\u00fcle\u015fme g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015fe ili\u015fkin haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut fiyatlamay\u0131 yans\u0131t\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -2970,6 +2989,10 @@
    [
     1792758803,
     4969.06
+   ],
+   [
+    1792759347,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3407,6 +3430,10 @@
    [
     1792758803,
     4988.81
+   ],
+   [
+    1792759347,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3816,6 +3843,10 @@
    [
     1792758803,
     5000
+   ],
+   [
+    1792759347,
+    5000
    ]
   ]
  },
@@ -3949,6 +3980,10 @@
    [
     1792758803,
     5005.86
+   ],
+   [
+    1792759347,
+    5002.1
    ]
   ],
   "news_calls": {
@@ -4001,6 +4036,10 @@
    ],
    [
     1792758803,
+    5000
+   ],
+   [
+    1792759347,
     5000
    ]
   ],
