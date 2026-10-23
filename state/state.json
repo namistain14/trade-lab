@@ -344,6 +344,10 @@
    [
     1792732259,
     5000.32
+   ],
+   [
+    1792732833,
+    4999.84
    ]
   ]
  },
@@ -972,19 +976,23 @@
    [
     1792732259,
     4989.4
+   ],
+   [
+    1792732833,
+    4989.4
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA) reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinin (4.000 dolar alt\u0131) yak\u0131n\u0131nda ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. H\u00fcrm\u00fcz'deki gemi sald\u0131r\u0131lar\u0131n\u0131n artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da piyasa tepkisi \u015fu an bu etkiyi bast\u0131r\u0131yor; ayr\u0131ca Treasury getirilerindeki d\u00fc\u015f\u00fc\u015f dolar\u0131n zay\u0131flamas\u0131yla alt\u0131na k\u0131smi destek sa\u011flayabilir.",
+   "score": -0.6,
+   "confidence": 0.7,
+   "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu da alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Gold 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini art\u0131rabilse de piyasa \u015fu an bu etkiyi faiz ve dolar kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
    "n": 45,
-   "ts": 1792732257902,
-   "new_headlines": 9,
+   "ts": 1792732831982,
+   "new_headlines": 7,
    "key_events": [
-    "Gold haftal\u0131k sert d\u00fc\u015f\u00fc\u015fe gidiyor; spot fiyat 4.000 dolar\u0131n alt\u0131nda, \u00fc\u00e7 ayl\u0131k dip",
-    "Petrol kaynakl\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
-    "\u0130ran sava\u015f\u0131/Brent jeopolitik primi alt\u0131na k\u0131smi destek sa\u011fl\u0131yor"
+    "Brent ve petrol fiyatlar\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini besliyor",
+    "BofA: Fed 2026'da iki kez daha faiz art\u0131rabilir; ABD-ECB politika ayr\u0131\u015fmas\u0131",
+    "Alt\u0131n 4.000 dolar\u0131n alt\u0131nda, \u00fc\u00e7 ayl\u0131k dip; haftal\u0131k sert kay\u0131p bekleniyor"
    ]
   },
   "news_history": [
@@ -1398,13 +1406,22 @@
     "confidence": 0.6,
     "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA) reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinin (4.000 dolar alt\u0131) yak\u0131n\u0131nda ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. H\u00fcrm\u00fcz'deki gemi sald\u0131r\u0131lar\u0131n\u0131n artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da piyasa tepkisi \u015fu an bu etkiyi bast\u0131r\u0131yor; ayr\u0131ca Treasury getirilerindeki d\u00fc\u015f\u00fc\u015f dolar\u0131n zay\u0131flamas\u0131yla alt\u0131na k\u0131smi destek sa\u011flayabilir.",
     "new": 9
+   },
+   {
+    "ts": 1792732831982,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu da alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Gold 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini art\u0131rabilse de piyasa \u015fu an bu etkiyi faiz ve dolar kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
+    "new": 7
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 50
+   "n": 51
   },
   "news_seen": [
+   "Gold rate today: Gold price falls Rs 1,300 per 10 grams; check 22K, 24K rates - India Today",
+   "Euro Holds Lead Over Dollar Amid Rates & France Risk - TradingPedia",
    "Gold extends decline as higher Oil prices fuel inflation concerns - FXStreet",
    "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March - EA WorldView",
    "Indonesian Rupiah strengthens against US Dollar as safe-haven demand shifts - FXStreet",
@@ -1419,9 +1436,10 @@
    "Australian Dollar holds above 0.7000 vs recovering USD; remains close to monthly top - FXStreet",
    "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns - Reuters",
    "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata - Livemint",
-   "From war shock to comeback: IMF\u2019s Azour maps Gulf recovery - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
    "Gold price forecast at risk of sharp drop of 12%, down to 3,500 USD/ounce - Laodong.vn",
    "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again - Bozeman Daily Chronicle",
+   "How popular is the Iran War? - Silver Bulletin",
    "How Mark Zuckerberg went to war with his own board of directors over pay and power - The Washington Post",
    "Swiss Franc inches lower as US Dollar recovers recent losses | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Exclusive: A Strategic and Geopolitical Assessment of the Leif Erikson Cable System\u2019s Viability - Submarine Networks",
@@ -1430,26 +1448,23 @@
    "Russia Ukraine War Blind Soldier - The Killeen Daily Herald",
    "How coffee shops became \u2018the last pleasure\u2019 for war-weary Tehran - Financial Times",
    "ARTHUR CYR: Defensive and offensive missiles now vital in war - Henry Herald",
+   "Russian Offensive Campaign Assessment, October 22, 2026 - Institute for the Study of War",
    "Gold Rate Today in West Bengal 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
    "Commodities: Brent Builds Geopolitical Premium As Gulf Risks Rise - Seeking Alpha",
    "Gold Plummets Amid Unusual Divergence with the Dollar and U.S. Bonds - KuCoin",
    "2GB touts \u2018Ben Roberts-Smith day\u2019 as Fordham interviews alleged war criminal | Weekly Beast - The Guardian",
    "Gold rebounds from three-month low; not out of the woods yet amid Fed hike bets - FXStreet",
    "U.S. dollar ticks down - \u5df4\u58eb\u7684\u5831",
+   "New Found Gold paves the Queensway to production - Mining.com.au",
    "Gold Price Forecast: XAU/USD hits fresh three-month low below $4,000 amid surging energy prices - FXStreet",
    "Spot Gold Falls Below $4,000 Mark to Near Three-Month Low; Chinese Jewelry Prices Retreat in Tandem - BigGo Finance",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold prices today, October 23rd: Gold under selling pressure. - Vietnam.vn",
    "Gold and silver price today, October 23: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "Geopolitical and Strategic Implications of the Chinese Delegation\u2019s Visit to Etorofu Island - Toda Peace Institute",
    "Newmont posts record profit even as gold output drops 8 percent - Startup Fortune",
    "The War Between Nematodes and California Crops - UC Agriculture and Natural Resources",
-   "The National Park Service recognizes Pendleton as American World War II Heritage City - East Oregonian",
-   "Dollar Pressured by Lower Treasury Yields - TradingView",
-   "Analysis \u2022 Netanyahu and Trump's private war could bring Iran closer to a regional deal - Haaretz",
-   "The Taiwan Strait is not on the verge of war: The \u20182027 invasion\u2019 countdown is a mirage - Fortune",
-   "Coalition air defenses down missile bound for Riyadh amid ongoing Houthi attacks - Arab News",
-   "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
-   "New Zealand Dollar gains ground to near 0.5700 on RBNZ rate hike prospects - FXStreet"
+   "The National Park Service recognizes Pendleton as American World War II Heritage City - East Oregonian"
   ]
  },
  "log": [
@@ -1547,7 +1562,8 @@
   "23.10 08:02 N  NEWS (10 new) score -0.55 conf 0.65: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dibe yak\u0131n seviyelere geriledi; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek reel faizleri ve dolar\u0131 destekliyor. Jeopolitik gerilim (\u0130ran/K\u00f6rfez, Ukrayna) g\u00fcvenli liman talebi yaratmaya devam etse de bu etki Fed'in s\u0131k\u0131la\u015ft\u0131rma beklentisinin g\u00f6lgesinde kal\u0131yor; bir miktar tepki al\u0131m\u0131 g\u00f6r\u00fclmesi ve baz\u0131 haberlerin \u00e7eli\u015fkili olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "23.10 08:02 B1  SHORT gold 5000 USD x10 @ 4021.20 (TP 4017.17, SL 4023.61; news -0.55)",
   "23.10 08:10 B1  CLOSE short stop: -4.19 USD",
-  "23.10 08:10 N  NEWS (9 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA) reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinin (4.000 dolar alt\u0131) yak\u0131n\u0131nda ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. H\u00fcrm\u00fcz'deki gemi sald\u0131r\u0131lar\u0131n\u0131n artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da piyasa tepkisi \u015fu an bu etkiyi bast\u0131r\u0131yor; ayr\u0131ca Treasury getirilerindeki d\u00fc\u015f\u00fc\u015f dolar\u0131n zay\u0131flamas\u0131yla alt\u0131na k\u0131smi destek sa\u011flayabilir."
+  "23.10 08:10 N  NEWS (9 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA) reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinin (4.000 dolar alt\u0131) yak\u0131n\u0131nda ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. H\u00fcrm\u00fcz'deki gemi sald\u0131r\u0131lar\u0131n\u0131n artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da piyasa tepkisi \u015fu an bu etkiyi bast\u0131r\u0131yor; ayr\u0131ca Treasury getirilerindeki d\u00fc\u015f\u00fc\u015f dolar\u0131n zay\u0131flamas\u0131yla alt\u0131na k\u0131smi destek sa\u011flayabilir.",
+  "23.10 08:20 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu da alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Gold 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini art\u0131rabilse de piyasa \u015fu an bu etkiyi faiz ve dolar kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -1839,6 +1855,10 @@
    [
     1792732259,
     4989.14
+   ],
+   [
+    1792732833,
+    4988.54
    ]
   ],
   "news_calls": {
@@ -2056,6 +2076,10 @@
    [
     1792732259,
     5000
+   ],
+   [
+    1792732833,
+    5000
    ]
   ],
   "news_calls": {
@@ -2268,6 +2292,10 @@
    ],
    [
     1792732259,
+    5000
+   ],
+   [
+    1792732833,
     5000
    ]
   ]
