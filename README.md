@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 11:48 (İstanbul)
+> Son güncelleme: 23.10.2026 11:57 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 11:48): puan **-0.60**, güven 0.70 — Petrol kaynaklı enflasyon endişeleri ve Fed'in faiz artırımı beklentileri (Warsh'ın daha fazla hikaye işaret etmesi, Fed'in yüksek enflasyon tahmini) altın için baskılayıcı; dolar ve getiriler de güçlü. Jeopolitik risk (İran, Ukrayna) güvenli liman talebini kısmen destekleyebilir ancak doların güvenli liman rolünü kaybettiği haberi bu etkiyi zayıflatıyor.
+Son haber analizi (23.10 11:57): puan **-0.45**, güven 0.55 — Petrol kaynaklı enflasyon ve Warsh'un ek faiz artırımı sinyali, altın için 3 aylık dip yakınında baskı yaratıyor; ABD doları da güvenli liman rolünü kaybettiği için altı destekleyen bir etken yok. Ancak 10 yıllık tahvil getirisindeki sert düşüş ve jeopolitik riskler (İran savaşı) kısa vadede dengeleyici olabileceğinden güven orta düzeyde tutuldu.
 
 Son işlemler:
 
@@ -95,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 10:33 N  NEWS (8 new) score -0.40 conf 0.55: Altın 4.000 doların altına düştü ve Temmuz'dan beri en düşük seviyelere yakın işlem görüyor; petrol şokunun Fed faiz artırımı beklentilerini canlandırması ve doların güçlü kalması baskı yaratıyor. Buna karşılık 10 yıllık tahvil getirisinin sert düşüşü ve teknoloji satışının güvenli liman talebini artırabilmesi çelişkili sinyaller olduğu için güven sınırlı.
 23.10 10:44 N  NEWS (6 new) score -0.55 conf 0.70: Altın 3 aylık dip yakınında; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun faiz korkularını yeniden canlandırması altına baskı yapıyor. Orta Doğu saldırıları ve jeopolitik risk güvenli liman talebi yaratabilir, ancak bu etki mevcut sert satışı dengelemeye yetmiyor; 10 yıllık tahvil getirisindeki sert düşüş ise çelişkili bir sinyal olarak güveni biraz azaltıyor.
 23.10 10:54 N  NEWS (9 new) score -0.35 conf 0.50: Altın 3 aylık dibe yakın ve 4.000 doların altında işlem görüyor; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun enflasyon/faiz korkularını yeniden canlandırması fiyatı baskılıyor. Buna karşılık ABD-İran savaşı ihtimali ve 10 yıllık tahvil getirisindeki sert düşüş gibi güvenli liman/gevşeme yönlü sinyaller çelişkili olduğu için güven orta düzeyde tutuldu.
 23.10 10:59 N  NEWS (7 new) score -0.60 conf 0.60: Petrol kaynaklı enflasyon ve Fed faiz artırımı beklentileri altını baskılıyor; dolar güçlü ve altın 3 aylık dip bölgesinde seyrediyor. Jeopolitik risk (İran, Orta Doğu saldırıları) güvenli liman talebi yaratabilse de bu etki şu an fiyatlanmış görünmüyor; 10 yıllık tahvil getirisindeki sert düşüş ise çelişkili bir sinyal olduğu için güveni sınırlıyor.
@@ -110,6 +109,7 @@ Son işlemler:
 23.10 11:48 N  NEWS (5 new) score -0.60 conf 0.70: Petrol kaynaklı enflasyon endişeleri ve Fed'in faiz artırımı beklentileri (Warsh'ın daha fazla hikaye işaret etmesi, Fed'in yüksek enflasyon tahmini) altın için baskılayıcı; dolar ve getiriler de güçlü. Jeopolitik risk (İran, Ukrayna) güvenli liman talebini kısmen destekleyebilir ancak doların güvenli liman rolünü kaybettiği haberi bu etkiyi zayıflatıyor.
 23.10 11:48 B2  CLOSE short stop: -11.19 USD
 23.10 11:48 B3  CLOSE short stop: -11.19 USD
+23.10 11:57 N  NEWS (7 new) score -0.45 conf 0.55: Petrol kaynaklı enflasyon ve Warsh'un ek faiz artırımı sinyali, altın için 3 aylık dip yakınında baskı yaratıyor; ABD doları da güvenli liman rolünü kaybettiği için altı destekleyen bir etken yok. Ancak 10 yıllık tahvil getirisindeki sert düşüş ve jeopolitik riskler (İran savaşı) kısa vadede dengeleyici olabileceğinden güven orta düzeyde tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
