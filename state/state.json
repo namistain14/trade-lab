@@ -249,30 +249,18 @@
    [
     1792721417,
     5000
+   ],
+   [
+    1792722036,
+    5000
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4998.513353963543,
+   "balance": 4994.326367391724,
    "start": 5000,
-   "positions": [
-    {
-     "id": "743c8029",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.242577145457992,
-     "entry": 4023.8950299999997,
-     "tp": 4019.8711349699997,
-     "sl": 4026.3093670179996,
-     "opened_ms": 1792721416049,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.50/0.60",
-     "friction": 2.3732
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -441,12 +429,33 @@
      "gross": 3.8142,
      "costs": 0.0,
      "pnl": 3.8142
+    },
+    {
+     "id": "743c8029",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.242577145457992,
+     "entry": 4023.8950299999997,
+     "tp": 4019.8711349699997,
+     "sl": 4026.3093670179996,
+     "opened_ms": 1792721416049,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.50/0.60",
+     "friction": 2.3732,
+     "exit": 4027.2646288914034,
+     "closed_ms": 1792721520000,
+     "reason": "stop",
+     "gross": -4.187,
+     "costs": 0.0,
+     "pnl": -4.187
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 7,
-    "pnl": -5.301934076132273,
+    "pnl": -9.488920647951112,
     "stopped": false
    },
    "last_check_ms": 0
@@ -687,19 +696,23 @@
    [
     1792721417,
     4997.31
+   ],
+   [
+    1792722036,
+    4994.33
    ]
   ],
   "news": {
-   "score": -0.5,
+   "score": -0.45,
    "confidence": 0.6,
-   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz indirimi beklentilerini bask\u0131layarak alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde. Dolar endeksindeki zay\u0131flama ve Orta Do\u011fu'daki jeopolitik risk (Houthi f\u00fczesi) destekleyici olsa da bu etkiler faiz kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
+   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe geriledi. Orta Do\u011fu'daki Husi sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da, bu etki petrol kaynakl\u0131 faiz endi\u015felerinin gerisinde kal\u0131yor. ABD dolar\u0131 endeksindeki zay\u0131fl\u0131k (teknoloji kazan\u00e7lar\u0131) k\u0131smen destekleyici olsa da, genel tablo negatif.",
    "n": 45,
-   "ts": 1792721415590,
-   "new_headlines": 7,
+   "ts": 1792722035207,
+   "new_headlines": 2,
    "key_events": [
-    "Alt\u0131n 3 ay\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi; 4.050 dolar\u0131n alt\u0131na indi",
-    "Petrol fiyatlar\u0131 y\u00fckseli\u015fi faiz art\u0131r\u0131m\u0131/y\u00fcksek faiz endi\u015felerini besliyor",
-    "ABD dolar\u0131 endeksi teknoloji kazan\u00e7lar\u0131n\u0131n zay\u0131f olmas\u0131yla geriledi; Orta Do\u011fu'da Houthi f\u00fczesi risk alg\u0131s\u0131n\u0131 art\u0131r\u0131yor"
+    "Alt\u0131n 3 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi faiz art\u0131\u015f\u0131 endi\u015felerini art\u0131rd\u0131",
+    "Suudi koalisyonu Husi f\u00fczesi ve 11 \u0130HA'y\u0131 \u00f6nledi (jeopolitik risk)",
+    "ABD dolar\u0131 teknoloji kazan\u00e7lar\u0131 nedeniyle zay\u0131flad\u0131 (k\u0131smen destekleyici)"
    ]
   },
   "news_history": [
@@ -980,13 +993,21 @@
     "confidence": 0.6,
     "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz indirimi beklentilerini bask\u0131layarak alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde. Dolar endeksindeki zay\u0131flama ve Orta Do\u011fu'daki jeopolitik risk (Houthi f\u00fczesi) destekleyici olsa da bu etkiler faiz kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
     "new": 7
+   },
+   {
+    "ts": 1792722035207,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe geriledi. Orta Do\u011fu'daki Husi sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da, bu etki petrol kaynakl\u0131 faiz endi\u015felerinin gerisinde kal\u0131yor. ABD dolar\u0131 endeksindeki zay\u0131fl\u0131k (teknoloji kazan\u00e7lar\u0131) k\u0131smen destekleyici olsa da, genel tablo negatif.",
+    "new": 2
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 31
+   "n": 32
   },
   "news_seen": [
+   "Bitcoin Faces 2 December Rate Hikes as Japan\u2019s Inflation Clears the BOJ\u2019s Target - BeInCrypto",
    "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop By Investing.com - Investing.com South Africa",
    "United States Dollar Index struggles due to weak tech earnings - FXStreet",
    "\u2018War\u2019 Recap, Season 1 Episode 4: \u2018Sing\u2019 - Vulture",
@@ -995,6 +1016,7 @@
    "Trump ordered to answer questions under oath in BBC lawsuit",
    "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
    "Trump Rally: U.S. Armed Forces investment, war in Venezuela and oil prices - KTIV",
+   "Saudi-led coalition says it intercepted 11 Houthi drones and a ballistic missile - Anadolu Ajans\u0131",
    "Gold prices today, October 23, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
    "Gold Rate Today in New Delhi 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
    "Fact or Fiction: Gas station war drops gas prices below $1 a gallon? - ABC 10News San Diego",
@@ -1015,7 +1037,6 @@
    "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - FXStreet",
    "Gold prices today, October 23rd: World gold prices fall by more than 2.5%, SJC gold prices remain unchanged. - Vietnam.vn",
    "Average long-term US mortgage rate eases to 7.32% in first pullback since late August - The Washington Post",
-   "Horizon Gold details Gum Creek expansion upside - ICYMI - Proactive financial news",
    "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
    "Gold Rate Today In Chandigarh, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Premiums, Storage and Heirs: The True Price of Owning Gold You Can Touch - CEOWORLD magazine",
@@ -1030,8 +1051,7 @@
    "Gold price update morning of October 23rd: Gold falls deeply, major banks forecast optimistic - Laodong.vn",
    "The Stanford writing war waged between Stegner and Kesey - The Stanford Daily",
    "Grid operator says lights will stay on this winter after concerns",
-   "Putin reaffirms Russia\u2019s readiness to resume trilateral peace talks on Ukraine war - Anadolu Ajans\u0131",
-   "Billionaires Palmer Luckey And Ben Lamm Spin Up Startup To Genetically Engineer Military Dogs - Forbes"
+   "Putin reaffirms Russia\u2019s readiness to resume trilateral peace talks on Ukraine war - Anadolu Ajans\u0131"
   ]
  },
  "log": [
@@ -1096,7 +1116,9 @@
   "23.10 05:04 N  NEWS (8 new) score +0.10 conf 0.35: ",
   "23.10 05:10 N  NEWS (7 new) score -0.50 conf 0.60: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz indirimi beklentilerini bask\u0131layarak alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde. Dolar endeksindeki zay\u0131flama ve Orta Do\u011fu'daki jeopolitik risk (Houthi f\u00fczesi) destekleyici olsa da bu etkiler faiz kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
   "23.10 05:10 B1  SHORT gold 5000 USD x10 @ 4023.90 (TP 4019.87, SL 4026.31; news -0.50)",
-  "23.10 05:10 B2  SHORT gold 5000 USD x10 @ 4023.91 (TP 4011.83, SL 4031.95; news -0.50)"
+  "23.10 05:10 B2  SHORT gold 5000 USD x10 @ 4023.91 (TP 4011.83, SL 4031.95; news -0.50)",
+  "23.10 05:20 B1  CLOSE short stop: -4.19 USD",
+  "23.10 05:20 N  NEWS (2 new) score -0.45 conf 0.60: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe geriledi. Orta Do\u011fu'daki Husi sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da, bu etki petrol kaynakl\u0131 faiz endi\u015felerinin gerisinde kal\u0131yor. ABD dolar\u0131 endeksindeki zay\u0131fl\u0131k (teknoloji kazan\u00e7lar\u0131) k\u0131smen destekleyici olsa da, genel tablo negatif."
  ],
  "gold_big": {
   "account": {
@@ -1287,6 +1309,10 @@
    [
     1792721417,
     5001.44
+   ],
+   [
+    1792722036,
+    4995.5
    ]
   ],
   "news_calls": {
@@ -1424,6 +1450,10 @@
    [
     1792721417,
     5000
+   ],
+   [
+    1792722036,
+    5000
    ]
   ],
   "news_calls": {
@@ -1556,6 +1586,10 @@
    ],
    [
     1792721417,
+    5000
+   ],
+   [
+    1792722036,
     5000
    ]
   ]
