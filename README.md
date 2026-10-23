@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 20:01 (İstanbul)
+> Son güncelleme: 23.10.2026 20:05 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -35,14 +35,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -66.67 $ | -62.85 $ |
-| İşlem sayısı | 28 | 29 |
-| Kazanma oranı | %25.0 | %27.6 |
-| Ödenen komisyon/spread | 66.45 $ | 68.82 $ |
+| Net kâr/zarar | -70.85 $ | -67.04 $ |
+| İşlem sayısı | 29 | 30 |
+| Kazanma oranı | %24.1 | %26.7 |
+| Ödenen komisyon/spread | 68.82 $ | 71.19 $ |
 
-**Hesap değeri: 4,935.96 $** (başlangıç 5,000 $, -64.04 $ / %-1.28)
-
-Açık pozisyonlar: PAXGUSDT short @ 4012.62 (TP 4008.60 / SL 4015.02)
+**Hesap değeri: 4,932.96 $** (başlangıç 5,000 $, -67.04 $ / %-1.34)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -52,11 +50,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 20:03 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 19:47 | PAXGUSDT | short | -4.47 $ | stop (gap) |
 | 23.10 19:31 | PAXGUSDT | short | +3.81 $ | take profit |
 | 23.10 18:43 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 18:21 | PAXGUSDT | short | -6.96 $ | stop (gap) |
-| 23.10 18:03 | PAXGUSDT | short | -6.25 $ | stop (gap) |
 
 ## Bot B2 — Altın: sıkı haber eşiği + büyük hedef (TP 15$ / SL 10$)
 
@@ -67,7 +65,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,971.72 $** (başlangıç 5,000 $, -28.28 $ / %-0.57)
+**Hesap değeri: 4,971.90 $** (başlangıç 5,000 $, -28.10 $ / %-0.56)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -126,7 +124,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,016.48 $** (başlangıç 5,000 $, +16.48 $ / %+0.33)
+**Hesap değeri: 5,016.65 $** (başlangıç 5,000 $, +16.65 $ / %+0.33)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -150,7 +148,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:01 N  GPT  score -0.25 conf 0.48: İran savaşının hızlı sona erdirilmesi ihtimali güvenli liman talebini sınırlayabilir; ancak haber net bir karar değil ve çatışmanın seyri belirsiz. Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede hafif aşağı yönlü baskıyı destekliyor.
 23.10 19:01 B1  SHORT gold 5000 USD x10 @ 4018.98 (TP 4014.96, SL 4021.39; news -0.25)
 23.10 19:13 N  NEWS (11 new) score -0.30 conf 0.40: 
 23.10 19:13 N  GPT  score -0.25 conf 0.48: Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede baskı yaratıyor. Yeni bölgesel saldırılar güvenli liman talebini destekleyebilir; ancak İran savaşının hızlı sona erebileceği haberleri ve karışık enflasyon sinyalleri düşüşü sınırlıyor.
@@ -165,6 +162,7 @@ Son işlemler:
 23.10 19:52 B1  CLOSE short stop (gap): -4.47 USD
 23.10 19:52 B6  karar turu: Claude «Piyasa karışık ve düşük volatiliteli bir seyir izliyor; yapay zekâ altyapısına dair şüpheler teknolojiyi baskılasa da işlem açmayı haklı kılacak net bir avantaj yok.» / GPT «Endekslerde hafif satış baskısı var ancak haber ve fiyat teyidi birlikte yeterince güçlü olmadığından kaldıraçlı yeni pozisyon açmadan beklemek daha disiplinli.»
 23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)
+23.10 20:05 B1  CLOSE short stop: -4.19 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

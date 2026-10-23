@@ -674,30 +674,18 @@
    [
     1792774879,
     5000.3
+   ],
+   [
+    1792775113,
+    5000.3
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4937.149483783346,
+   "balance": 4932.961973358917,
    "start": 5000,
-   "positions": [
-    {
-     "id": "590e8466",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2460694961976495,
-     "entry": 4012.617286,
-     "tp": 4008.604668714,
-     "sl": 4015.0248563716,
-     "opened_ms": 1792774876955,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.20/0.40",
-     "friction": 2.3743
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -1307,12 +1295,33 @@
      "gross": -4.4664,
      "costs": 0.0,
      "pnl": -4.4664
+    },
+    {
+     "id": "590e8466",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2460694961976495,
+     "entry": 4012.617286,
+     "tp": 4008.604668714,
+     "sl": 4015.0248563716,
+     "opened_ms": 1792774876955,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.20/0.40",
+     "friction": 2.3743,
+     "exit": 4015.9778613428743,
+     "closed_ms": 1792774980000,
+     "reason": "stop",
+     "gross": -4.1875,
+     "costs": 0.0,
+     "pnl": -4.1875
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 28,
-    "pnl": -66.66580425633053,
+    "pnl": -70.85331468076002,
     "stopped": false
    },
    "last_check_ms": 0
@@ -1957,6 +1966,10 @@
    [
     1792774879,
     4935.96
+   ],
+   [
+    1792775113,
+    4932.96
    ]
   ],
   "news": {
@@ -3250,7 +3263,8 @@
   "23.10 19:43 B1  SHORT gold 5000 USD x10 @ 4015.46 (TP 4011.44, SL 4017.87; news -0.20)",
   "23.10 19:52 B1  CLOSE short stop (gap): -4.47 USD",
   "23.10 19:52 B6  karar turu: Claude \u00abPiyasa kar\u0131\u015f\u0131k ve d\u00fc\u015f\u00fck volatiliteli bir seyir izliyor; yapay zek\u00e2 altyap\u0131s\u0131na dair \u015f\u00fcpheler teknolojiyi bask\u0131lasa da i\u015flem a\u00e7may\u0131 hakl\u0131 k\u0131lacak net bir avantaj yok.\u00bb / GPT \u00abEndekslerde hafif sat\u0131\u015f bask\u0131s\u0131 var ancak haber ve fiyat teyidi birlikte yeterince g\u00fc\u00e7l\u00fc olmad\u0131\u011f\u0131ndan kald\u0131ra\u00e7l\u0131 yeni pozisyon a\u00e7madan beklemek daha disiplinli.\u00bb",
-  "23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)"
+  "23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)",
+  "23.10 20:05 B1  CLOSE short stop: -4.19 USD"
  ],
  "gold_big": {
   "account": {
@@ -3908,6 +3922,10 @@
    [
     1792774879,
     4971.72
+   ],
+   [
+    1792775113,
+    4971.9
    ]
   ],
   "news_calls": {
@@ -4519,6 +4537,10 @@
    [
     1792774879,
     4973.18
+   ],
+   [
+    1792775113,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5056,6 +5078,10 @@
    [
     1792774879,
     5000
+   ],
+   [
+    1792775113,
+    5000
    ]
   ]
  },
@@ -5323,6 +5349,10 @@
    [
     1792774879,
     4988.82
+   ],
+   [
+    1792775113,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -5542,6 +5572,10 @@
    [
     1792774879,
     5016.48
+   ],
+   [
+    1792775113,
+    5016.65
    ]
   ],
   "news_calls": {
@@ -5635,6 +5669,10 @@
    ],
    [
     1792774879,
+    100000.0
+   ],
+   [
+    1792775113,
     100000.0
    ]
   ],
