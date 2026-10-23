@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: trade-lab
+  group: trade-lab-report   # separate from ticks so a queued tick never cancels the report
   cancel-in-progress: false
 
 jobs:
