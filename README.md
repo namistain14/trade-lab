@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 08:29 (İstanbul)
+> Son güncelleme: 23.10.2026 08:41 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,998.12 $** (başlangıç 5,000 $, -1.88 $ / %-0.04)
+**Hesap değeri: 5,000.73 $** (başlangıç 5,000 $, +0.73 $ / %+0.01)
 
 Açık pozisyonlar: ETHUSDT long @ 2400.73 (TP 2415.13 / SL 2391.13)
 
@@ -38,7 +38,7 @@ Açık pozisyonlar: ETHUSDT long @ 2400.73 (TP 2415.13 / SL 2391.13)
 
 **Hesap değeri: 4,989.40 $** (başlangıç 5,000 $, -10.60 $ / %-0.21)
 
-Son haber analizi (23.10 08:29): puan **-0.60**, güven 0.70 — Petrol fiyatlarının enflasyon kaygılarını artırması ve Fed'in faiz artırma beklentilerinin güçlenmesi altın üzerinde baskı yaratıyor; altın 4.000 doların altına inip üç aylık düşük seviyeye geriledi. İran savaşı ve Hürmüz'deki saldırılar jeopolitik talep yaratsa da bu etki, reel faiz ve dolar kaynaklı baskının gerisinde kalıyor.
+Son haber analizi (23.10 08:41): puan **-0.60**, güven 0.65 — Petrol fiyatlarındaki yükseliş enflasyon ve Fed faiz artırımı beklentilerini güçlendirdiği için altın üzerinde baskı sürüyor; altın üç aylık dibe yakın seviyelerde ve haftalık kayıp yaşıyor. İran savaşı ve Hürmüz'deki saldırılar jeopolitik talebi destekleyebilir, ancak bu etki şu an faiz ve dolar baskısının gerisinde kalıyor.
 
 Son işlemler:
 
@@ -54,19 +54,18 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -8.56 $ | -8.56 $ |
-| İşlem sayısı | 3 | 3 |
-| Kazanma oranı | %33.3 | %33.3 |
-| Ödenen komisyon/spread | 7.12 $ | 7.12 $ |
+| Net kâr/zarar | -19.75 $ | -19.75 $ |
+| İşlem sayısı | 4 | 4 |
+| Kazanma oranı | %25.0 | %25.0 |
+| Ödenen komisyon/spread | 9.49 $ | 9.49 $ |
 
-**Hesap değeri: 4,994.15 $** (başlangıç 5,000 $, -5.85 $ / %-0.12)
-
-Açık pozisyonlar: PAXGUSDT short @ 4027.22 (TP 4015.14 / SL 4035.28)
+**Hesap değeri: 4,980.25 $** (başlangıç 5,000 $, -19.75 $ / %-0.39)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 08:32 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 05:27 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 04:52 | PAXGUSDT | short | +13.82 $ | take profit |
 | 23.10 03:57 | PAXGUSDT | short | -11.19 $ | stop |
@@ -85,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 07:11 N  NEWS (10 new) score -0.45 conf 0.60: Altın 3 aylık en düşük seviyesinde (4.000 doların altında) ve Fed faiz artırımı beklentileri ile petrol kaynaklı enflasyon endişeleri altını baskılıyor; bu baskı, jeopolitik risk (İran savaşı, Husiler) kaynaklı güvenli liman talebinden daha baskın görünüyor. Altının bir kısmı toparlanmış olması ve doların zayıf seyretmesi karşıt sinyaller olduğu için güven orta seviyede tutuldu.
-23.10 07:20 N  NEWS (4 new) score -0.50 conf 0.60: Altın üç aylık dibe yakın seyrediyor; petrol fiyatlarındaki yükseliş Fed faiz artırımı beklentilerini güçlendirerek reel faizleri ve doları destekliyor, bu da altın için baskı yaratıyor. Orta Doğu ve Ukrayna kaynaklı jeopolitik riskler güvenli liman talebini artırabilse de, bu etki faiz beklentisi baskısının gerisinde kalıyor; ayrıca dolar yeniden toparlanıyor.
 23.10 07:20 B1  SHORT gold 5000 USD x10 @ 4022.39 (TP 4018.36, SL 4024.80; news -0.50)
 23.10 07:29 N  NEWS (7 new) score -0.40 conf 0.55: Petrol fiyatlarındaki yükseliş Fed faiz artırımı beklentilerini güçlendirdiği için altın üç aylık dip seviyesine geriledi ve haftalık sert düşüş yaşıyor. Jeopolitik risk primi (Körfez, Husi saldırıları) altını destekleyici olsa da piyasa bu haberlere bugün enflasyon/faiz kanalıyla tepki veriyor; bu nedenle net etki yukarıdan aşağıya baskılayıcı görünüyor. Ancak altının bir miktar toparlanma göstermesi ve haberlerin büyük kısmının eski olması güveni sınırlıyor.
 23.10 07:34 N  NEWS (6 new) score -0.40 conf 0.55: Petrol fiyatlarındaki yükseliş Fed faiz artırımı beklentilerini güçlendirdiği için altın üç aylık dibe yakın ve haftalık düşüş yolunda; bu, kısa vadede baskılayıcı bir etki. Ancak bazı başlıklar tepki alımı ve dolar zayıflığına işaret ediyor ve İran savaşı jeopolitik talebi destekliyor; bu çelişkiler güveni sınırlıyor.
@@ -100,6 +97,8 @@ Son işlemler:
 23.10 08:10 N  NEWS (9 new) score -0.50 conf 0.60: Petrol kaynaklı enflasyon endişeleri ve Fed'in 2026'da iki kez daha faiz artırabileceği beklentisi (BofA) reel faiz baskısını artırıp altı aşağı çekiyor; altın üç aylık dip seviyesinin (4.000 dolar altı) yakınında ve haftalık sert düşüş yolunda. Hürmüz'deki gemi saldırılarının artması güvenli liman talebi açısından destekleyici olsa da piyasa tepkisi şu an bu etkiyi bastırıyor; ayrıca Treasury getirilerindeki düşüş doların zayıflamasıyla altına kısmi destek sağlayabilir.
 23.10 08:20 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlarının yükselmesi enflasyon ve Fed faiz artırımı beklentilerini güçlendiriyor; bu da altın için baskılayıcı. Gold 4.000 doların altına inip üç aylık dibe geriledi ve haftalık sert düşüş yolunda. İran savaşındaki tırmanış güvenli liman talebini artırabilse de piyasa şu an bu etkiyi faiz ve dolar kanalının gerisinde bırakıyor.
 23.10 08:29 N  NEWS (3 new) score -0.60 conf 0.70: Petrol fiyatlarının enflasyon kaygılarını artırması ve Fed'in faiz artırma beklentilerinin güçlenmesi altın üzerinde baskı yaratıyor; altın 4.000 doların altına inip üç aylık düşük seviyeye geriledi. İran savaşı ve Hürmüz'deki saldırılar jeopolitik talep yaratsa da bu etki, reel faiz ve dolar kaynaklı baskının gerisinde kalıyor.
+23.10 08:41 N  NEWS (6 new) score -0.60 conf 0.65: Petrol fiyatlarındaki yükseliş enflasyon ve Fed faiz artırımı beklentilerini güçlendirdiği için altın üzerinde baskı sürüyor; altın üç aylık dibe yakın seviyelerde ve haftalık kayıp yaşıyor. İran savaşı ve Hürmüz'deki saldırılar jeopolitik talebi destekleyebilir, ancak bu etki şu an faiz ve dolar baskısının gerisinde kalıyor.
+23.10 08:41 B2  CLOSE short stop: -11.19 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
