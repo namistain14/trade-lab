@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 00:19 (İstanbul)
+> Son güncelleme: 24.10.2026 00:30 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,9 +42,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 00:19): Claude puan **-0.50**, güven 0.60 — Fed'in 25 baz puan artırarak faizi %3,75-4,00'a çektiği ve petrol fiyatlarındaki yükselişin faiz artırımı beklentilerini güçlendirdiği haberler altın için baskılayıcı. Altının 4.000 doların altına inmesi ve haftalık kayıp manşetleri de kısa vadede negatif momentumu teyit ediyor. İran savaşının yeniden başlama ihtimali güvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kaynaklı baskının gerisinde kalıyor.
+Son haber analizi (24.10 00:30): Claude puan **-0.50**, güven 0.60 — Fed'in 25 baz puanlık faiz artırımı ve petrol kaynaklı enflasyon endişeleri, altın üzerinde baskı yaratıyor; altın 4.000 doların altına indi ve üç aylık dibe geriledi. İran savaşının yeniden başlama riski jeopolitik talebi destekleyebilir, ancak piyasa tepkisi şu an sıkılaşma beklentilerine daha duyarlı görünüyor.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.45 — Petrol fiyatlarındaki yükselişin enflasyon ve Fed’in daha sıkı kalacağı beklentilerini güçlendirmesi, altın üzerindeki kısa vadeli baskıyı artırıyor; 4.000 doların altına iniş de zayıf momentuma işaret ediyor. İran kaynaklı gerilim güvenli liman talebini destekleyebilir, ancak yeni başlıkların çoğu 
+GPT (gpt-6-luna): puan **-0.40**, güven 0.58 — Petrol kaynaklı enflasyon endişeleri ve Fed’in sıkılaşacağı beklentisi altın üzerinde baskı kuruyor; fiyatın 4.000 doların altına inmesi kısa vadeli momentumu da olumsuz gösteriyor. İran’la olası yeni çatışma güvenli liman talebini artırabilir, ancak başlıklarda teyit edilmiş yeni bir tırmanış yok v
 
 Son işlemler:
 
@@ -145,8 +145,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 20:49 B1  SHORT gold 5000 USD x10 @ 4005.85 (TP 4003.30, SL 4007.30; news -0.20)
-23.10 20:49 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 23.10 20:49 B6  karar turu: Claude «-» / GPT «Endekslerde dar bant ve jeopolitik belirsizlik hâkim; mevcut fiyat hareketleri yüzde 1,5 hedefli yeni pozisyonlar için haberlerle desteklenen net bir avantaj sunmuyor.»
 23.10 20:58 B1  CLOSE short stop: -3.00 USD
 23.10 21:08 B1  SHORT gold 5000 USD x10 @ 4009.96 (TP 4007.40, SL 4011.41; news -0.20)
@@ -160,6 +158,8 @@ Son işlemler:
 24.10 00:07 B5  CLOSE short time limit: +8.06 USD
 24.10 00:19 N  NEWS (5 new) score -0.50 conf 0.60: Fed'in 25 baz puan artırarak faizi %3,75-4,00'a çektiği ve petrol fiyatlarındaki yükselişin faiz artırımı beklentilerini güçlendirdiği haberler altın için baskılayıcı. Altının 4.000 doların altına inmesi ve haftalık kayıp manşetleri de kısa vadede negatif momentumu teyit ediyor. İran savaşının yeniden başlama ihtimali güvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kaynaklı baskının gerisinde kalıyor.
 24.10 00:19 N  GPT  score -0.35 conf 0.45: Petrol fiyatlarındaki yükselişin enflasyon ve Fed’in daha sıkı kalacağı beklentilerini güçlendirmesi, altın üzerindeki kısa vadeli baskıyı artırıyor; 4.000 doların altına iniş de zayıf momentuma işaret ediyor. İran kaynaklı gerilim güvenli liman talebini destekleyebilir, ancak yeni başlıkların çoğu 
+24.10 00:30 N  NEWS (4 new) score -0.50 conf 0.60: Fed'in 25 baz puanlık faiz artırımı ve petrol kaynaklı enflasyon endişeleri, altın üzerinde baskı yaratıyor; altın 4.000 doların altına indi ve üç aylık dibe geriledi. İran savaşının yeniden başlama riski jeopolitik talebi destekleyebilir, ancak piyasa tepkisi şu an sıkılaşma beklentilerine daha duyarlı görünüyor.
+24.10 00:30 N  GPT  score -0.40 conf 0.58: Petrol kaynaklı enflasyon endişeleri ve Fed’in sıkılaşacağı beklentisi altın üzerinde baskı kuruyor; fiyatın 4.000 doların altına inmesi kısa vadeli momentumu da olumsuz gösteriyor. İran’la olası yeni çatışma güvenli liman talebini artırabilir, ancak başlıklarda teyit edilmiş yeni bir tırmanış yok v
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
