@@ -686,6 +686,10 @@
    [
     1792776210,
     5000.3
+   ],
+   [
+    1792776865,
+    5000.3
    ]
   ]
  },
@@ -2002,6 +2006,10 @@
    [
     1792776210,
     4933.16
+   ],
+   [
+    1792776865,
+    4930.38
    ]
   ],
   "news": {
@@ -3301,7 +3309,9 @@
   "23.10 20:16 B6  karar turu: Claude \u00abPiyasa geni\u015f tabanl\u0131 hafif zay\u0131fl\u0131kta ve yapay zeka harcamalar\u0131na dair \u015f\u00fcpheler var, fakat net ve \u015firkete \u00f6zel bir avantaj olmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde son saatte sat\u0131\u015f bask\u0131s\u0131 var ancak \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedefi destekleyen taze kataliz\u00f6r ve g\u00fc\u00e7l\u00fc fiyat teyidi birle\u015fmedi\u011fi i\u00e7in beklemek daha disiplinli.\u00bb",
   "23.10 20:23 B1  hedefler g\u00fcncellendi: TP 4007.16 (+2$), SL 4011.17 (-3$)",
   "23.10 20:23 B2  hedefler g\u00fcncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)",
-  "23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD"
+  "23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD",
+  "23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "23.10 20:34 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde a\u015fa\u011f\u0131 e\u011filim ve jeopolitik risk bask\u0131n olsa da mevcut fiyat hareketleri \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in %1,5 hedef ve %1 stop ko\u015fullar\u0131nda net avantaj sunmuyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -3976,6 +3986,10 @@
    [
     1792776210,
     4964.78
+   ],
+   [
+    1792776865,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -4599,6 +4613,10 @@
    [
     1792776210,
     4973.18
+   ],
+   [
+    1792776865,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5148,6 +5166,10 @@
    [
     1792776210,
     5000
+   ],
+   [
+    1792776865,
+    5000
    ]
   ]
  },
@@ -5427,6 +5449,10 @@
    [
     1792776210,
     4988.82
+   ],
+   [
+    1792776865,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -5658,6 +5684,10 @@
    [
     1792776210,
     5022.65
+   ],
+   [
+    1792776865,
+    5019.88
    ]
   ],
   "news_calls": {
@@ -5764,33 +5794,37 @@
    [
     1792776210,
     100000.0
+   ],
+   [
+    1792776865,
+    100000.0
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1792775770921,
+  "last_decision_ms": 1792776853794,
   "view": {
-   "ts": 1792775770921,
-   "claude": "Piyasa geni\u015f tabanl\u0131 hafif zay\u0131fl\u0131kta ve yapay zeka harcamalar\u0131na dair \u015f\u00fcpheler var, fakat net ve \u015firkete \u00f6zel bir avantaj olmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.",
-   "gpt": "Endekslerde son saatte sat\u0131\u015f bask\u0131s\u0131 var ancak \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedefi destekleyen taze kataliz\u00f6r ve g\u00fc\u00e7l\u00fc fiyat teyidi birle\u015fmedi\u011fi i\u00e7in beklemek daha disiplinli.",
+   "ts": 1792776853794,
+   "claude": "",
+   "gpt": "Endekslerde a\u015fa\u011f\u0131 e\u011filim ve jeopolitik risk bask\u0131n olsa da mevcut fiyat hareketleri \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in %1,5 hedef ve %1 stop ko\u015fullar\u0131nda net avantaj sunmuyor.",
    "gpt_model": "gpt-6.1-sol",
-   "claude_model": "claude-opus-5-5",
+   "claude_model": null,
    "picks": {
     "SPY": {
      "claude": [
-      "none",
-      0.3
+      null,
+      null
      ],
      "gpt": [
       "none",
-      0.95
+      0.94
      ]
     },
     "QQQ": {
      "claude": [
-      "none",
-      0.3
+      null,
+      null
      ],
      "gpt": [
       "none",
@@ -5799,32 +5833,32 @@
     },
     "NVDA": {
      "claude": [
-      "none",
-      0.35
-     ],
-     "gpt": [
-      "none",
-      0.92
-     ]
-    },
-    "AAPL": {
-     "claude": [
-      "none",
-      0.3
+      null,
+      null
      ],
      "gpt": [
       "none",
       0.95
      ]
     },
-    "TSLA": {
+    "AAPL": {
      "claude": [
-      "none",
-      0.35
+      null,
+      null
      ],
      "gpt": [
       "none",
-      0.91
+      0.96
+     ]
+    },
+    "TSLA": {
+     "claude": [
+      null,
+      null
+     ],
+     "gpt": [
+      "none",
+      0.93
      ]
     }
    }

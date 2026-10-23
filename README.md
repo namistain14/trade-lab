@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 20:23 (İstanbul)
+> Son güncelleme: 23.10.2026 20:34 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,7 @@ Son işlemler:
 | Kazanma oranı | %24.1 | %26.7 |
 | Ödenen komisyon/spread | 68.82 $ | 71.19 $ |
 
-**Hesap değeri: 4,933.16 $** (başlangıç 5,000 $, -66.84 $ / %-1.34)
+**Hesap değeri: 4,930.38 $** (başlangıç 5,000 $, -69.62 $ / %-1.39)
 
 Açık pozisyonlar: PAXGUSDT short @ 4008.77 (TP 4007.16 / SL 4011.17)
 
@@ -124,7 +124,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,022.65 $** (başlangıç 5,000 $, +22.65 $ / %+0.45)
+**Hesap değeri: 5,019.88 $** (başlangıç 5,000 $, +19.88 $ / %+0.40)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -148,8 +148,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:22 N  GPT  score -0.20 conf 0.42: Trump’ın İran savaşını hızla bitirme seçeneğini değerlendirmesi ve Ukrayna’daki olası ateşkes güvenli liman talebini azaltabilir; buna karşılık bölgedeki saldırılar jeopolitik riskleri canlı tutuyor. Yüksek reel getiriler ve Fed’in sıkı kalabileceği beklentisi altın için hafif olumsuz, ancak haber a
-23.10 19:34 B1  CLOSE short take profit: +3.81 USD
 23.10 19:34 N  NEWS (10 new) score -0.20 conf 0.40: Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 23.10 19:34 N  GPT  score -0.20 conf 0.38: ABD iş gücü/işletme gücünün doları desteklemesi altın üzerinde kısa vadeli baskı yaratabilir; Trump’ın İran savaşını hızlı bitirmeyi değerlendirmesi de güvenli liman talebini azaltabilir. Ancak savaşın sürmesi olasılığı ve Fed kararı öncesi belirsizlik sinyalleri çelişkili kılıyor.
 23.10 19:34 B6  karar turu: Claude «Piyasa düşük volatiliteyle yatay seyrediyor; net bir avantaj olmadığı için beklemek en doğrusu.» / GPT «Endekslerde yönsüzlük ve hisselerde sınırlı teyit nedeniyle önümüzdeki 1–3 saat için yüzde 1,5 hedefi destekleyen net bir haber-fiyat avantajı yok.»
@@ -163,6 +161,8 @@ Son işlemler:
 23.10 20:23 B1  hedefler güncellendi: TP 4007.16 (+2$), SL 4011.17 (-3$)
 23.10 20:23 B2  hedefler güncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)
 23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD
+23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+23.10 20:34 B6  karar turu: Claude «-» / GPT «Endekslerde aşağı eğilim ve jeopolitik risk baskın olsa da mevcut fiyat hareketleri önümüzdeki 1–3 saat için %1,5 hedef ve %1 stop koşullarında net avantaj sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
