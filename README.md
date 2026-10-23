@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 13:05 (İstanbul)
+> Son güncelleme: 23.10.2026 13:14 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 13:05): puan **-0.50**, güven 0.60 — Altın 4.000 dolar seviyesinin altına inmiş durumda; Fed faiz artırımı beklentileri, güçlü dolar ve yükselen Treasury getirileri altını baskılıyor. Petrol 113 doların üzerinde olduğu için enflasyon kaygısı sürüyor, İran savaşı ise güvenli liman talebini belirgin biçimde artırmadığı için bu baskıyı dengeleyemiyor.
+Son haber analizi (23.10 13:14): puan **-0.60**, güven 0.60 — Altın 4.000 doların altına sarktı; haberler marj çağrılarıyla tetiklenen satışı, Fed faiz artırımı beklentilerini ve güçlü doları öne çıkarıyor. Bu faktörler jeopolitik risk kaynaklı güvenli liman talebinden baskın görünüyor, bu yüzden 1-4 saatlik görünüm negatif. Yine de İran savaşı ve Suudi Arabistan'a yönelik saldırılar gibi riskler devam ediyor ve Goldman 5.400 dolarlık uzun vadeli hedefini koruyor; bu nedenle güven sınırlı tutuldu.
 
 Son işlemler:
 
@@ -84,7 +84,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,998.90 $** (başlangıç 5,000 $, -1.10 $ / %-0.02)
+**Hesap değeri: 4,999.51 $** (başlangıç 5,000 $, -0.49 $ / %-0.01)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.25 (TP 4050.36 / SL 4030.17)
 
@@ -108,7 +108,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 11:18 B1  SHORT gold 5000 USD x10 @ 4029.04 (TP 4025.01, SL 4031.46; news -0.50)
 23.10 11:27 B1  CLOSE short stop: -4.19 USD
 23.10 11:27 N  NEWS (9 new) score -0.70 conf 0.70: Petrol fiyatlarındaki yükseliş enflasyon endişelerini ve Fed faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın üç aylık dipte. Jeopolitik risk (İran savaşı) var ama güvenli liman talebi bu baskıyı dengelemiyor; yine de veri/Fed açıklamaları sürpriz getirebileceğinden güven orta düzeyde.
 23.10 11:36 N  NEWS (7 new) score -0.50 conf 0.60: Altın 3 aylık dibe yakın (~4.015$) işlem görüyor; petrol yükselişi enerji kaynaklı enflasyon ve Fed sıkılaştırma beklentilerini besliyor, Warsh'ın yeni faiz artışı sinyali verebileceği haberi ve güçlü dolar altın için baskılayıcı. Buna karşın İran savaşı ve jeopolitik risk, ayrıca 10 yıllık tahvil getirisinin sert düşüşü gibi karşıt unsurlar olduğundan güven orta düzeyde.
@@ -123,6 +122,7 @@ Son işlemler:
 23.10 12:47 N  NEWS (13 new) score -0.60 conf 0.60: Altın 4.000 dolar seviyesinin altına inmiş, üç aylık dibe yakın ve haftalık kayıplar sürüyor; Fed'in faiz artırma beklentileri (BofA iki ek artırım, Warsh'un sıkılaştırma sinyali), yükselen tahvil getirileri ve güçlü dolar altın üzerinde baskı oluşturuyor. Jeopolitik riskler (İran savaşı, Hürmüz) güvenli liman talebini destekleyebilir ancak bu etki şu an fiyatlarda görünmüyor; Goldman'ın 5.400 dolarlık uzun vadeli hedefi kısa vadeli etkisi olmayan eski bir haber.
 23.10 12:55 N  NEWS (4 new) score -0.45 conf 0.60: Altın 4.000 doların altına inmiş durumda; Fed'in faiz artırımı beklentileri, güçlü dolar ve Warsh'un daha fazla sıkılaştırma sinyali vermesi beklentisi reel faiz baskısını artırıp altına negatif yansıyor. Yeni gelen haberlerin çoğu (Lockheed backlog, Batı Şeria saldırısı, peso rekor düşüşü) altın için doğrudan etkisi zayıf; jeopolitik risk-off talebi ise bu baskıyı tam dengeleyecek kadar güçlü görünmüyor.
 23.10 13:05 N  NEWS (6 new) score -0.50 conf 0.60: Altın 4.000 dolar seviyesinin altına inmiş durumda; Fed faiz artırımı beklentileri, güçlü dolar ve yükselen Treasury getirileri altını baskılıyor. Petrol 113 doların üzerinde olduğu için enflasyon kaygısı sürüyor, İran savaşı ise güvenli liman talebini belirgin biçimde artırmadığı için bu baskıyı dengeleyemiyor.
+23.10 13:14 N  NEWS (10 new) score -0.60 conf 0.60: Altın 4.000 doların altına sarktı; haberler marj çağrılarıyla tetiklenen satışı, Fed faiz artırımı beklentilerini ve güçlü doları öne çıkarıyor. Bu faktörler jeopolitik risk kaynaklı güvenli liman talebinden baskın görünüyor, bu yüzden 1-4 saatlik görünüm negatif. Yine de İran savaşı ve Suudi Arabistan'a yönelik saldırılar gibi riskler devam ediyor ve Goldman 5.400 dolarlık uzun vadeli hedefini koruyor; bu nedenle güven sınırlı tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
