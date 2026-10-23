@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 05:58 (İstanbul)
+> Son güncelleme: 23.10.2026 06:08 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -34,9 +34,11 @@
 | Kazanma oranı | %33.3 | %40.0 |
 | Ödenen komisyon/spread | 21.35 $ | 23.73 $ |
 
-**Hesap değeri: 4,990.14 $** (başlangıç 5,000 $, -9.86 $ / %-0.20)
+**Hesap değeri: 4,988.94 $** (başlangıç 5,000 $, -11.06 $ / %-0.22)
 
-Son haber analizi (23.10 05:58): puan **-0.50**, güven 0.60 — Altın 3 aylık ve iki aylık dip seviyelerine geriledi; petrol fiyatlarındaki sert yükseliş (Suudi saldırısı, İran riski) enflasyon ve faiz artırımı beklentilerini besleyerek güvenli liman talebini baskılıyor. Dolar ve tahvil getirilerindeki zayıf hareketler kısmen destekleyici olsa da, Fed'in faiz artırımı ihtimali gibi baskın etki altın üzerinde negatif kalıyor.
+Açık pozisyonlar: PAXGUSDT short @ 4028.04 (TP 4024.02 / SL 4030.46)
+
+Son haber analizi (23.10 06:08): puan **-0.30**, güven 0.45 — Altın, petrol kaynaklı enflasyon ve Fed'in faiz artırımı/bekleme beklentileri nedeniyle üç aylık dibe yakın ve haftalık düşüş yolunda; bu baskı yeni haberlerle de sürüyor. Dolar endeksinin zayıflaması ve Orta Doğu'daki jeopolitik risk iştahı kısmen destekleyici olsa da, reel faiz ve sıkılaşma beklentileri ağırlıkta olduğu için genel etki hafif negatif.
 
 Son işlemler:
 
@@ -81,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 04:54 B2  CLOSE short take profit: +13.82 USD
-23.10 05:04 B1  CLOSE short take profit: +3.81 USD
 23.10 05:04 N  NEWS (8 new) score +0.10 conf 0.35: 
 23.10 05:10 N  NEWS (7 new) score -0.50 conf 0.60: Petrol fiyatlarındaki yükseliş enflasyon ve faiz indirimi beklentilerini baskılayarak altın üzerinde baskı yaratıyor; altın 3 aylık dip seviyesine geriledi ve haftalık düşüş yönünde. Dolar endeksindeki zayıflama ve Orta Doğu'daki jeopolitik risk (Houthi füzesi) destekleyici olsa da bu etkiler faiz kaynaklı satış baskısının gerisinde kalıyor.
 23.10 05:10 B1  SHORT gold 5000 USD x10 @ 4023.90 (TP 4019.87, SL 4026.31; news -0.50)
@@ -96,6 +96,8 @@ Son işlemler:
 23.10 05:42 N  NEWS (10 new) score -0.45 conf 0.60: Altın 3 aylık dibe geriledi ve haftalık düşüş bekleniyor; petrol fiyatlarındaki yükseliş enflasyon ve faiz artırımı beklentilerini besleyerek altın için baskı yaratıyor. Jeopolitik risk (İran savaşı, Husiler) güvenli liman talebi yaratsa da, piyasada etkili olan kanal petrol-faiz bağlantısı; ayrıca ABD doları teknoloji kazançlarının zayıflığıyla biraz zayıfladı, bu da kısmen destekleyici. Petrolün Basra Körfezi'nden çıkışının artması gibi çelişkili haberler petrol yükselişinin kalıcılığına dair belirsizlik yaratıyor, bu yüzden güveni sınırlı tutuyorum.
 23.10 05:48 N  NEWS (11 new) score -0.35 conf 0.50: Petrol fiyatlarındaki yükseliş enflasyon ve faiz artışı beklentilerini besleyerek altın için baskı yaratıyor; altın 3 aylık dip seviyesine gerilemiş durumda. Yeni İran/Husi/Doğu Afrika gerilimi haberleri jeopolitik güvenli liman talebini artırabilir, ancak piyasa tepkisi şu an riskten çok faiz kaygısı yönünde; ABD dolarındaki zayıflık ise sınırlı destek sağlıyor.
 23.10 05:58 N  NEWS (28 new) score -0.50 conf 0.60: Altın 3 aylık ve iki aylık dip seviyelerine geriledi; petrol fiyatlarındaki sert yükseliş (Suudi saldırısı, İran riski) enflasyon ve faiz artırımı beklentilerini besleyerek güvenli liman talebini baskılıyor. Dolar ve tahvil getirilerindeki zayıf hareketler kısmen destekleyici olsa da, Fed'in faiz artırımı ihtimali gibi baskın etki altın üzerinde negatif kalıyor.
+23.10 06:08 N  NEWS (25 new) score -0.30 conf 0.45: Altın, petrol kaynaklı enflasyon ve Fed'in faiz artırımı/bekleme beklentileri nedeniyle üç aylık dibe yakın ve haftalık düşüş yolunda; bu baskı yeni haberlerle de sürüyor. Dolar endeksinin zayıflaması ve Orta Doğu'daki jeopolitik risk iştahı kısmen destekleyici olsa da, reel faiz ve sıkılaşma beklentileri ağırlıkta olduğu için genel etki hafif negatif.
+23.10 06:08 B1  SHORT gold 5000 USD x10 @ 4028.04 (TP 4024.02, SL 4030.46; news -0.30)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
