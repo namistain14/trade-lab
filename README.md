@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 09:29 (İstanbul)
+> Son güncelleme: 23.10.2026 09:41 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,000.79 $** (başlangıç 5,000 $, +0.79 $ / %+0.02)
+**Hesap değeri: 5,001.54 $** (başlangıç 5,000 $, +1.54 $ / %+0.03)
 
 Açık pozisyonlar: ETHUSDT long @ 2400.73 (TP 2415.13 / SL 2391.13)
 
@@ -36,9 +36,11 @@ Açık pozisyonlar: ETHUSDT long @ 2400.73 (TP 2415.13 / SL 2391.13)
 | Kazanma oranı | %38.5 | %42.9 |
 | Ödenen komisyon/spread | 30.85 $ | 33.22 $ |
 
-**Hesap değeri: 4,989.40 $** (başlangıç 5,000 $, -10.60 $ / %-0.21)
+**Hesap değeri: 4,988.21 $** (başlangıç 5,000 $, -11.79 $ / %-0.24)
 
-Son haber analizi (23.10 09:29): puan **-0.60**, güven 0.70 — Petrol fiyatlarının yükselmesi Fed faiz artırımı beklentilerini canlandırıyor ve dolar güçleniyor; altın 4.000 doların altına, Temmuz'dan bu yana en düşük seviyeye geriledi. Hormuz'daki saldırılar jeopolitik destek sağlasa da enflasyon/faiz kanalı baskın görünüyor.
+Açık pozisyonlar: PAXGUSDT short @ 4028.45 (TP 4024.43 / SL 4030.87)
+
+Son haber analizi (23.10 09:41): puan **-0.60**, güven 0.60 — Petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve BofA'nın 2026'da iki kez daha artırım öngörüsü altın üzerinde baskı oluşturuyor. Altın 4.000 doların altına inip temmuzdan bu yana en düşük seviyeye geriledi; ancak düşüş zaten büyük ölçüde fiyatlanmış olabileceğinden ve yeni gelen ABD'nin 'karanlık filo' yaptırımlarını kaldırması gibi haberler petrol arzını gevşetip enflasyon baskısını azaltabileceğinden güven orta düzeyde tutuldu.
 
 Son işlemler:
 
@@ -59,7 +61,9 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %25.0 |
 | Ödenen komisyon/spread | 9.49 $ | 9.49 $ |
 
-**Hesap değeri: 4,980.25 $** (başlangıç 5,000 $, -19.75 $ / %-0.39)
+**Hesap değeri: 4,979.07 $** (başlangıç 5,000 $, -20.93 $ / %-0.42)
+
+Açık pozisyonlar: PAXGUSDT short @ 4028.45 (TP 4016.37 / SL 4036.51)
 
 Son işlemler:
 
@@ -84,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 07:53 B1  CLOSE short take profit: +3.81 USD
-23.10 07:53 N  NEWS (4 new) score -0.50 conf 0.60: Petrol fiyatlarının yükselmesi Fed faiz artırımı beklentilerini güçlendirdiği için altın üç aylık dip seviyelerine (4.000 doların altına) geriledi ve haftalık sert düşüş yaşıyor. Jeopolitik risk primi (İran savaşı, Brent prim) bu baskıyı kısmen dengeliyor, ancak faiz ve dolar etkisi baskın görünüyor; bir miktar toparlanma sinyali (üç aylık dipten tepki) belirsizliği artırıyor.
-23.10 08:02 N  NEWS (10 new) score -0.55 conf 0.65: Altın 4.000 doların altına inip üç aylık dibe yakın seviyelere geriledi; petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini güçlendirerek reel faizleri ve doları destekliyor. Jeopolitik gerilim (İran/Körfez, Ukrayna) güvenli liman talebi yaratmaya devam etse de bu etki Fed'in sıkılaştırma beklentisinin gölgesinde kalıyor; bir miktar tepki alımı görülmesi ve bazı haberlerin çelişkili olması güveni sınırlıyor.
 23.10 08:02 B1  SHORT gold 5000 USD x10 @ 4021.20 (TP 4017.17, SL 4023.61; news -0.55)
 23.10 08:10 B1  CLOSE short stop: -4.19 USD
 23.10 08:10 N  NEWS (9 new) score -0.50 conf 0.60: Petrol kaynaklı enflasyon endişeleri ve Fed'in 2026'da iki kez daha faiz artırabileceği beklentisi (BofA) reel faiz baskısını artırıp altı aşağı çekiyor; altın üç aylık dip seviyesinin (4.000 dolar altı) yakınında ve haftalık sert düşüş yolunda. Hürmüz'deki gemi saldırılarının artması güvenli liman talebi açısından destekleyici olsa da piyasa tepkisi şu an bu etkiyi bastırıyor; ayrıca Treasury getirilerindeki düşüş doların zayıflamasıyla altına kısmi destek sağlayabilir.
@@ -99,6 +100,9 @@ Son işlemler:
 23.10 09:11 N  NEWS (11 new) score -0.40 conf 0.60: Petrol kaynaklı enflasyon endişeleri ve Fed'in faiz artırımı beklentileri (BofA: 2026'da iki artış) altını baskılıyor; dolar da toparlanıyor. İran savaşı ve Hormuz saldırıları jeopolitik risk yaratsa da altın bu haberlere güvenli liman olarak tepki vermiyor, bu nedenle kısa vadede negatif eğilim baskın.
 23.10 09:18 N  NEWS (7 new) score -0.50 conf 0.60: Petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini güçlendiriyor ve dolar/reel faizler altını baskılıyor; altın haftalık kayıp yolunda. İran savaşı ve Hormuz'daki saldırılar güvenli liman talebini destekliyor olsa da piyasa şu an bu etkiyi faiz kanalının gerisinde bırakıyor.
 23.10 09:29 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlarının yükselmesi Fed faiz artırımı beklentilerini canlandırıyor ve dolar güçleniyor; altın 4.000 doların altına, Temmuz'dan bu yana en düşük seviyeye geriledi. Hormuz'daki saldırılar jeopolitik destek sağlasa da enflasyon/faiz kanalı baskın görünüyor.
+23.10 09:41 N  NEWS (10 new) score -0.60 conf 0.60: Petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve BofA'nın 2026'da iki kez daha artırım öngörüsü altın üzerinde baskı oluşturuyor. Altın 4.000 doların altına inip temmuzdan bu yana en düşük seviyeye geriledi; ancak düşüş zaten büyük ölçüde fiyatlanmış olabileceğinden ve yeni gelen ABD'nin 'karanlık filo' yaptırımlarını kaldırması gibi haberler petrol arzını gevşetip enflasyon baskısını azaltabileceğinden güven orta düzeyde tutuldu.
+23.10 09:41 B1  SHORT gold 5000 USD x10 @ 4028.45 (TP 4024.43, SL 4030.87; news -0.60)
+23.10 09:41 B2  SHORT gold 5000 USD x10 @ 4028.45 (TP 4016.37, SL 4036.51; news -0.60)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
