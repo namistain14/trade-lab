@@ -410,6 +410,10 @@
    [
     1792740784,
     5000.3
+   ],
+   [
+    1792741497,
+    5000.3
    ]
   ]
  },
@@ -1161,15 +1165,19 @@
    [
     1792740784,
     4976.84
+   ],
+   [
+    1792741497,
+    4976.84
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.55,
-   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve Temmuz'dan beri en d\u00fc\u015f\u00fck seviyelere yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015fokunun Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131rmas\u0131 ve dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve teknoloji sat\u0131\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rabilmesi \u00e7eli\u015fkili sinyaller oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
+   "score": -0.55,
+   "confidence": 0.7,
+   "reason": "Alt\u0131n 3 ayl\u0131k dip yak\u0131n\u0131nda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve petrol \u015fokunun faiz korkular\u0131n\u0131 yeniden canland\u0131rmas\u0131 alt\u0131na bask\u0131 yap\u0131yor. Orta Do\u011fu sald\u0131r\u0131lar\u0131 ve jeopolitik risk g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut sert sat\u0131\u015f\u0131 dengelemeye yetmiyor; 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ise \u00e7eli\u015fkili bir sinyal olarak g\u00fcveni biraz azalt\u0131yor.",
    "n": 45,
-   "ts": 1792740782886,
-   "new_headlines": 8,
+   "ts": 1792741495600,
+   "new_headlines": 6,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviye",
     "Petrol \u015foku Fed faiz art\u0131r\u0131m\u0131 korkular\u0131n\u0131 canland\u0131r\u0131yor; BofA 2026'da iki art\u0131r\u0131m bekliyor",
@@ -1685,16 +1693,27 @@
     "confidence": 0.55,
     "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve Temmuz'dan beri en d\u00fc\u015f\u00fck seviyelere yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015fokunun Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131rmas\u0131 ve dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve teknoloji sat\u0131\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rabilmesi \u00e7eli\u015fkili sinyaller oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
     "new": 8
+   },
+   {
+    "ts": 1792741495600,
+    "score": -0.55,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n 3 ayl\u0131k dip yak\u0131n\u0131nda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve petrol \u015fokunun faiz korkular\u0131n\u0131 yeniden canland\u0131rmas\u0131 alt\u0131na bask\u0131 yap\u0131yor. Orta Do\u011fu sald\u0131r\u0131lar\u0131 ve jeopolitik risk g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut sert sat\u0131\u015f\u0131 dengelemeye yetmiyor; 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ise \u00e7eli\u015fkili bir sinyal olarak g\u00fcveni biraz azalt\u0131yor.",
+    "new": 6
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 64
+   "n": 65
   },
   "news_seen": [
+   "MCX Gold Rate Today: Check City-wise 24K, 22K Gold & - APAC Media",
+   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
    "Australia sanctions 2 North Korean companies, \u2018financial brokers\u2019 - Anadolu Ajans\u0131",
+   "Take Five: AI trade meets the Fed - Yahoo Finance",
    "British Pound: Room to rise toward 1.3440 against US Dollar - UOB - FXStreet",
    "Yen Pulls Back as Dollar Firms Ahead of Fed & BoJ Rates - TradingPedia",
+   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Seattle Post-Intelligencer",
    "Euro: Weakens against US Dollar amid risk concerns - Danske Bank - FXStreet",
    "Gold Loses Shine: Yellow Metal Prices Crash By Rs 9,700 In Just 10 Days, Fall Below Rs 1,42,000 - NDTV Profit",
    "Gold nears 3-month low as tech selloff, inflation concerns weigh - Anadolu Ajans\u0131",
@@ -1702,7 +1721,8 @@
    "Gold price falls to \u20b91.42 lakh/10 gram in futures trade - BusinessLine",
    "The Fed Faces Its Most Confusing Economy Yet - Bloomberg.com",
    "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil - FXEmpire",
-   "Gold struggles to extend rebound as Fed hike bets, firm USD cap gains - FXStreet",
+   "Gold struggles to extend recovery from three-month low amid Fed hike bets, firm USD - FXStreet",
+   "Gold Rate Today, October 23, 2026: 24K Gold Falls by \u20b9190 per Gram; Check City-Wise Rates - India Infoline",
    "Lights will stay on this winter, grid operator says after concerns",
    "Gold outlook bleak; avoid aggressive selling without stop loss: Analyst - Business Standard",
    "Japanese Yen: BoJ policy and capital flows underpin gains against US Dollar - Commerzbank - FXStreet",
@@ -1716,7 +1736,7 @@
    "Gold Falls Below $4,000 for the First Time Since July. What\u2019s Next? - BeInCrypto",
    "Could lab-made gold crash prices like diamonds? US start-up says it turned mercury into gold - Yahoo Finance UK",
    "Euro: Range trading intact near recent lows against US Dollar \u2013 UOB - FXStreet",
-   "Gold prices fall again, 22-carat now Tk224,182 per bhori - www.daily-sun.com",
+   "Gold prices fall again, 22-carat now Tk224,182 per bhori - Daily Sun",
    "Gold Price Forecast: XAU/USD Tests $4,000 as Oil Surge Revives Fed Hike Fears - FX Leaders",
    "How the Army Fights: Insights from the 1973 Arab-Israeli War - Small Wars Journal",
    "Gold Under Pressure as Fed Bets and Dollar Limit Upside - TradingPedia",
@@ -1726,17 +1746,12 @@
    "France\u2019s Student Revolt: Gangster Capitalism and the War on Youth - Counterpunch",
    "Gold Corporation (ASX:PMGOLD): Gold Holdings, Product Structure and Market Exposure - Kalkine",
    "Hawthorn eyes more gold production at Anglo Saxon - Mining News Net",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Seattle Post-Intelligencer",
    "Trump invokes Cold War-era act to bolster U.S. gasoline production - upi",
    "Gold Rate Today In Paschim Medinipur (West Midnapore), Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Gold Rate Today In Hyderabad, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Renting in London - 'I pay \u00a32,000 for one bedroom'",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Union-Bulletin",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - WV News",
-   "SGB 2018-19 Series II final redemption today: Investors to pocket 366% gains; check the RBI fixed price, interest rate - Livemint",
-   "No end in sight: Trump's efforts to end Ukraine war fall flat - Al Majalla",
-   "Gold Price Today in Amravati \u2013 18K, 22K & 24K Rate | 23 October 2026 - The Times of India",
-   "'I live in the dark': How rising bills are shaping daily life"
+   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - WV News"
   ]
  },
  "log": [
@@ -1858,7 +1873,8 @@
   "23.10 10:23 B1  CLOSE short stop: -4.19 USD",
   "23.10 10:23 N  NEWS (5 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ferek Temmuz'dan beri en d\u00fc\u015f\u00fck seviyeye geriledi; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar (DXY ~101.5) g\u00fc\u00e7l\u00fc seyrediyor. Bu tablo k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131, ancak AI kaynakl\u0131 teknoloji sat\u0131\u015f\u0131 ve 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f (19 baz puan) g\u00fcvenli liman talebi ve gev\u015feme beklentisi a\u00e7\u0131s\u0131ndan kar\u015f\u0131t sinyaller i\u00e7erdi\u011finden g\u00fcveni s\u0131n\u0131rl\u0131 tutuyorum.",
   "23.10 10:23 B3  SHORT gold 5000 USD x10 @ 4028.41 (TP 4016.33, SL 4036.47; news -0.60)",
-  "23.10 10:33 N  NEWS (8 new) score -0.40 conf 0.55: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve Temmuz'dan beri en d\u00fc\u015f\u00fck seviyelere yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015fokunun Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131rmas\u0131 ve dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve teknoloji sat\u0131\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rabilmesi \u00e7eli\u015fkili sinyaller oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131."
+  "23.10 10:33 N  NEWS (8 new) score -0.40 conf 0.55: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve Temmuz'dan beri en d\u00fc\u015f\u00fck seviyelere yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015fokunun Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131rmas\u0131 ve dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve teknoloji sat\u0131\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rabilmesi \u00e7eli\u015fkili sinyaller oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
+  "23.10 10:44 N  NEWS (6 new) score -0.55 conf 0.70: Alt\u0131n 3 ayl\u0131k dip yak\u0131n\u0131nda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve petrol \u015fokunun faiz korkular\u0131n\u0131 yeniden canland\u0131rmas\u0131 alt\u0131na bask\u0131 yap\u0131yor. Orta Do\u011fu sald\u0131r\u0131lar\u0131 ve jeopolitik risk g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut sert sat\u0131\u015f\u0131 dengelemeye yetmiyor; 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ise \u00e7eli\u015fkili bir sinyal olarak g\u00fcveni biraz azalt\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -2231,6 +2247,10 @@
    [
     1792740784,
     4972.0
+   ],
+   [
+    1792741497,
+    4973.32
    ]
   ],
   "news_calls": {
@@ -2526,6 +2546,10 @@
    [
     1792740784,
     4991.7
+   ],
+   [
+    1792741497,
+    4993.02
    ]
   ],
   "news_calls": {
@@ -2798,6 +2822,10 @@
    ],
    [
     1792740784,
+    5000
+   ],
+   [
+    1792741497,
     5000
    ]
   ]

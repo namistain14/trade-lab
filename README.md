@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 10:33 (İstanbul)
+> Son güncelleme: 23.10.2026 10:44 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,976.84 $** (başlangıç 5,000 $, -23.16 $ / %-0.46)
 
-Son haber analizi (23.10 10:33): puan **-0.40**, güven 0.55 — Altın 4.000 doların altına düştü ve Temmuz'dan beri en düşük seviyelere yakın işlem görüyor; petrol şokunun Fed faiz artırımı beklentilerini canlandırması ve doların güçlü kalması baskı yaratıyor. Buna karşılık 10 yıllık tahvil getirisinin sert düşüşü ve teknoloji satışının güvenli liman talebini artırabilmesi çelişkili sinyaller olduğu için güven sınırlı.
+Son haber analizi (23.10 10:44): puan **-0.55**, güven 0.70 — Altın 3 aylık dip yakınında; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun faiz korkularını yeniden canlandırması altına baskı yapıyor. Orta Doğu saldırıları ve jeopolitik risk güvenli liman talebi yaratabilir, ancak bu etki mevcut sert satışı dengelemeye yetmiyor; 10 yıllık tahvil getirisindeki sert düşüş ise çelişkili bir sinyal olarak güveni biraz azaltıyor.
 
 Son işlemler:
 
@@ -63,7 +63,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %25.0 |
 | Ödenen komisyon/spread | 9.49 $ | 9.49 $ |
 
-**Hesap değeri: 4,972.00 $** (başlangıç 5,000 $, -28.00 $ / %-0.56)
+**Hesap değeri: 4,973.32 $** (başlangıç 5,000 $, -26.68 $ / %-0.53)
 
 Açık pozisyonlar: PAXGUSDT short @ 4028.45 (TP 4016.37 / SL 4036.51)
 
@@ -85,14 +85,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,991.70 $** (başlangıç 5,000 $, -8.30 $ / %-0.17)
+**Hesap değeri: 4,993.02 $** (başlangıç 5,000 $, -6.98 $ / %-0.14)
 
 Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
 
 ## Son olaylar
 
 ```
-23.10 09:41 N  NEWS (10 new) score -0.60 conf 0.60: Petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve BofA'nın 2026'da iki kez daha artırım öngörüsü altın üzerinde baskı oluşturuyor. Altın 4.000 doların altına inip temmuzdan bu yana en düşük seviyeye geriledi; ancak düşüş zaten büyük ölçüde fiyatlanmış olabileceğinden ve yeni gelen ABD'nin 'karanlık filo' yaptırımlarını kaldırması gibi haberler petrol arzını gevşetip enflasyon baskısını azaltabileceğinden güven orta düzeyde tutuldu.
 23.10 09:41 B1  SHORT gold 5000 USD x10 @ 4028.45 (TP 4024.43, SL 4030.87; news -0.60)
 23.10 09:41 B2  SHORT gold 5000 USD x10 @ 4028.45 (TP 4016.37, SL 4036.51; news -0.60)
 23.10 09:50 A  CLOSE ETHUSDT time limit: +0.30 USD
@@ -107,6 +106,7 @@ Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
 23.10 10:23 N  NEWS (5 new) score -0.60 conf 0.60: Altın 4.000 doların altına düşerek Temmuz'dan beri en düşük seviyeye geriledi; petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve dolar (DXY ~101.5) güçlü seyrediyor. Bu tablo kısa vadede altın için baskılayıcı, ancak AI kaynaklı teknoloji satışı ve 10 yıllık tahvil getirisindeki sert düşüş (19 baz puan) güvenli liman talebi ve gevşeme beklentisi açısından karşıt sinyaller içerdiğinden güveni sınırlı tutuyorum.
 23.10 10:23 B3  SHORT gold 5000 USD x10 @ 4028.41 (TP 4016.33, SL 4036.47; news -0.60)
 23.10 10:33 N  NEWS (8 new) score -0.40 conf 0.55: Altın 4.000 doların altına düştü ve Temmuz'dan beri en düşük seviyelere yakın işlem görüyor; petrol şokunun Fed faiz artırımı beklentilerini canlandırması ve doların güçlü kalması baskı yaratıyor. Buna karşılık 10 yıllık tahvil getirisinin sert düşüşü ve teknoloji satışının güvenli liman talebini artırabilmesi çelişkili sinyaller olduğu için güven sınırlı.
+23.10 10:44 N  NEWS (6 new) score -0.55 conf 0.70: Altın 3 aylık dip yakınında; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun faiz korkularını yeniden canlandırması altına baskı yapıyor. Orta Doğu saldırıları ve jeopolitik risk güvenli liman talebi yaratabilir, ancak bu etki mevcut sert satışı dengelemeye yetmiyor; 10 yıllık tahvil getirisindeki sert düşüş ise çelişkili bir sinyal olarak güveni biraz azaltıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
