@@ -372,6 +372,10 @@
    [
     1792736339,
     5001.61
+   ],
+   [
+    1792736994,
+    5000.79
    ]
   ]
  },
@@ -1028,19 +1032,23 @@
    [
     1792736339,
     4989.4
+   ],
+   [
+    1792736994,
+    4989.4
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor ve dolar/reel faizler alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n haftal\u0131k kay\u0131p yolunda. \u0130ran sava\u015f\u0131 ve Hormuz'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
+   "score": -0.6,
+   "confidence": 0.7,
+   "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi. Hormuz'daki sald\u0131r\u0131lar jeopolitik destek sa\u011flasa da enflasyon/faiz kanal\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
    "n": 45,
-   "ts": 1792736337289,
+   "ts": 1792736991383,
    "new_headlines": 7,
    "key_events": [
-    "Petrol fiyat\u0131 art\u0131\u015f\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 korkular\u0131n\u0131 k\u00f6r\u00fckl\u00fcyor",
-    "BofA: Fed 2026'da iki kez daha faiz art\u0131rabilir",
-    "\u0130ran sava\u015f\u0131nda Hormuz Bo\u011faz\u0131'na sald\u0131r\u0131lar en y\u00fcksek seviyede; g\u00fcvenli liman deste\u011fi s\u0131n\u0131rl\u0131 kal\u0131yor"
+    "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, Temmuz'dan beri en d\u00fc\u015f\u00fck seviye",
+    "Petrol fiyatlar\u0131 enflasyon ve Fed faiz art\u0131r\u0131m\u0131 endi\u015felerini k\u00f6r\u00fckl\u00fcyor",
+    "BofA: Fed 2026'da iki kez daha faiz art\u0131rabilir; Hormuz'da sald\u0131r\u0131lar art\u0131yor"
    ]
   },
   "news_history": [
@@ -1503,14 +1511,24 @@
     "confidence": 0.6,
     "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor ve dolar/reel faizler alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n haftal\u0131k kay\u0131p yolunda. \u0130ran sava\u015f\u0131 ve Hormuz'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
     "new": 7
+   },
+   {
+    "ts": 1792736991383,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi. Hormuz'daki sald\u0131r\u0131lar jeopolitik destek sa\u011flasa da enflasyon/faiz kanal\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
+    "new": 7
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 57
+   "n": 58
   },
   "news_seen": [
+   "Gold prices continue to decline and are trading at their lowest level since July - \u0627\u0644\u0645\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a",
+   "Why a student protest movement is challenging 12 years of Vu\u010di\u0107 rule in Serbia",
    "ANALYSIS: US sanctions push puts European banks back in the firing line as EU looks on - AML Intelligence",
+   "Gold Falls Below $4,000 for the First Time Since July. What\u2019s Next? - BeInCrypto",
    "Could lab-made gold crash prices like diamonds? US start-up says it turned mercury into gold - Yahoo Finance UK",
    "Euro: Range trading intact near recent lows against US Dollar \u2013 UOB - FXStreet",
    "Gold prices fall again, 22-carat now Tk224,182 per bhori - www.daily-sun.com",
@@ -1520,15 +1538,15 @@
    "How a Cold War Architect Broke Through the Iron Curtain - Bloomberg.com",
    "Sabotage, drones and airspace violations: Tracking the hybrid threats linked to Russia across Europe - Eurovision News Spotlight",
    "France\u2019s Student Revolt: Gangster Capitalism and the War on Youth - Counterpunch",
+   "Gold Corporation (ASX:PMGOLD): Gold Holdings, Product Structure and Market Exposure - Kalkine",
    "Hawthorn eyes more gold production at Anglo Saxon - Mining News Net",
    "Trump invokes Cold War-era act to bolster U.S. gasoline production - upi",
    "Renting in London - 'I pay \u00a32,000 for one bedroom'",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Union-Bulletin",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - WV News",
    "A Ukrainian soldier blinded in war hopes to see his children again, in photos - dailyadvance.com",
+   "SGB 2018-19 Series II final redemption today: Investors to pocket 366% gains; check the RBI fixed price, interest rate - Livemint",
    "No end in sight: Trump's efforts to end Ukraine war fall flat - Al Majalla",
    "'I live in the dark': How rising bills are shaping daily life",
-   "Gold Prices Fall \u20b91,900 Today; Jewellery Stocks Slide - HDFC Sky",
    "Ukraine War, Day 1,702: Kyiv \u2014 Trump and Musk Still Restricting Starlink/Starshield - EA WorldView",
    "Gold Slips As Oil Price Rally Fuels Inflation Fears Ahead Of Fed Policy Decision By Kedia Advisory - Investing.com India",
    "What is Warhound, Palmer Luckey's war dog startup that just emerged from stealth? - Business Insider",
@@ -1538,23 +1556,20 @@
    "Euro Holds Lead Over Dollar Amid Rates & France Risk - TradingPedia",
    "Gold extends decline as higher Oil prices fuel inflation concerns - FXStreet",
    "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March - EA WorldView",
+   "How popular is the Iran War? - Silver Bulletin",
    "Indonesian Rupiah strengthens against US Dollar as safe-haven demand shifts - FXStreet",
    "Fed to Hike Twice More in 2026 With US and ECB Policy Set to Diverge, says Bank of America - Morningstar",
+   "Justice Department Closes Inquiry of Federal Reserve Pushed by Trump - The New York Times",
    "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
    "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold Rate Today, October 23: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
    "Russia\u2019s war casualty toll in Ukraine up by 1,830 over past day - Ukrinform",
    "Gold price in India: Rates on October 23 - FXStreet",
-   "Chennai gold price falls by Rs 1400 on October 23, 2026; check today's gold, silver rates - DT Next",
    "Silver slips below \u20b92 lakh amid selling pressure; gold also declines - Business Standard",
    "Gold rate today in Hyderabad, October 23, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
    "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns - CNBC",
    "Russia's new type of 3D printed missile will make jet Shaheds look like a 'small problem,' Ukraine's drone gurus warn - Business Insider",
-   "Australian Dollar holds above 0.7000 vs recovering USD; remains close to monthly top - FXStreet",
-   "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns - Reuters",
-   "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata - Livemint",
-   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
-   "Gold price forecast at risk of sharp drop of 12%, down to 3,500 USD/ounce - Laodong.vn"
+   "Australian Dollar holds above 0.7000 vs recovering USD; remains close to monthly top - FXStreet"
   ]
  },
  "log": [
@@ -1660,7 +1675,8 @@
   "23.10 08:48 N  NEWS (5 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA) alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n haftal\u0131k sert kay\u0131p yolunda ve dolar toparlan\u0131yor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar jeopolitik g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor, ancak tekrarlayan haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 08:59 N  NEWS (7 new) score -0.45 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), reel faiz ve dolar taraf\u0131nda alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; gold haftal\u0131k kay\u0131p ya\u015f\u0131yor ve Fed karar\u0131 \u00f6ncesi d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Hormuz'daki sald\u0131r\u0131lar\u0131n artmas\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak piyasa bu riski \u015fu an enflasyon kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor; bu nedenle g\u00fcven orta d\u00fczeyde.",
   "23.10 09:11 N  NEWS (11 new) score -0.40 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (BofA: 2026'da iki art\u0131\u015f) alt\u0131n\u0131 bask\u0131l\u0131yor; dolar da toparlan\u0131yor. \u0130ran sava\u015f\u0131 ve Hormuz sald\u0131r\u0131lar\u0131 jeopolitik risk yaratsa da alt\u0131n bu haberlere g\u00fcvenli liman olarak tepki vermiyor, bu nedenle k\u0131sa vadede negatif e\u011filim bask\u0131n.",
-  "23.10 09:18 N  NEWS (7 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor ve dolar/reel faizler alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n haftal\u0131k kay\u0131p yolunda. \u0130ran sava\u015f\u0131 ve Hormuz'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor."
+  "23.10 09:18 N  NEWS (7 new) score -0.50 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor ve dolar/reel faizler alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n haftal\u0131k kay\u0131p yolunda. \u0130ran sava\u015f\u0131 ve Hormuz'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
+  "23.10 09:29 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi. Hormuz'daki sald\u0131r\u0131lar jeopolitik destek sa\u011flasa da enflasyon/faiz kanal\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -1985,6 +2001,10 @@
    [
     1792736339,
     4980.25
+   ],
+   [
+    1792736994,
+    4980.25
    ]
   ],
   "news_calls": {
@@ -2230,6 +2250,10 @@
    [
     1792736339,
     5000
+   ],
+   [
+    1792736994,
+    5000
    ]
   ],
   "news_calls": {
@@ -2470,6 +2494,10 @@
    ],
    [
     1792736339,
+    5000
+   ],
+   [
+    1792736994,
     5000
    ]
   ]
