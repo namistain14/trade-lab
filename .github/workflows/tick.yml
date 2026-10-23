@@ -28,7 +28,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
-          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET_KEY }}
         run: python lab/run.py
       - name: Save state and dashboard
         run: |
