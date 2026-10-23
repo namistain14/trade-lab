@@ -27,9 +27,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 1,
-    "pnl": 0.29612996343245346,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -782,6 +782,10 @@
    [
     1792789089,
     5000.3
+   ],
+   [
+    1792789643,
+    5000.3
    ]
   ]
  },
@@ -1486,9 +1490,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 31,
-    "pnl": -79.8533146807604,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -2241,15 +2245,19 @@
    [
     1792789089,
     4923.96
+   ],
+   [
+    1792789643,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.4,
-   "reason": "Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n h\u0131zl\u0131 sona erebilece\u011fi haberi jeopolitik risk primini azaltarak alt\u0131 hafif bask\u0131l\u0131yor, ayr\u0131ca g\u00fc\u00e7l\u00fc ABD i\u015fletme verisi dolar\u0131 destekliyor ve Fed karar\u0131 \u00f6ncesi enflasyon kayg\u0131lar\u0131 faiz beklentilerini s\u0131k\u0131la\u015ft\u0131r\u0131c\u0131 y\u00f6ne itiyor. Buna kar\u015f\u0131l\u0131k Eyl\u00fcl enflasyon bask\u0131lar\u0131n\u0131n hafiflemesi ve s\u00fcrmekte olan Orta Do\u011fu/Ukrayna \u00e7at\u0131\u015fmalar\u0131 alt\u0131n i\u00e7in destekleyici unsurlar; ayr\u0131ca bir\u00e7ok haber eski veya yerel nitelikte oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.5,
+   "confidence": 0.6,
+   "reason": "Fed 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7\u0131kard\u0131 ve s\u0131k\u0131la\u015ft\u0131rma d\u00f6ng\u00fcs\u00fc ba\u015flat\u0131ld\u0131; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi haberleri jeopolitik talebi destekleyebilir, ancak haftal\u0131k d\u00fc\u015f\u00fc\u015f ve 4.000 dolar\u0131n alt\u0131na sarkma mevcut bask\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
    "n": 45,
-   "ts": 1792773250425,
-   "new_headlines": 10,
+   "ts": 1792789641319,
+   "new_headlines": 42,
    "key_events": [
     "Fed Ekim toplant\u0131s\u0131 sonras\u0131 Aral\u0131k faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 y\u00fckseldi (hawkish)",
     "Alt\u0131n 4.000 dolar alt\u0131na d\u00fc\u015ft\u00fc; g\u00fcvenli liman varl\u0131\u011f\u0131 da sat\u0131ld\u0131",
@@ -2257,12 +2265,12 @@
    ],
    "gpt": {
     "score": -0.2,
-    "confidence": 0.38,
-    "reason": "ABD i\u015f g\u00fcc\u00fc/i\u015fletme g\u00fcc\u00fcn\u00fcn dolar\u0131 desteklemesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yaratabilir; Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131 h\u0131zl\u0131 bitirmeyi de\u011ferlendirmesi de g\u00fcvenli liman talebini azaltabilir. Ancak sava\u015f\u0131n s\u00fcrmesi olas\u0131l\u0131\u011f\u0131 ve Fed karar\u0131 \u00f6ncesi belirsizlik sinyalleri \u00e7eli\u015fkili k\u0131l\u0131yor.",
+    "confidence": 0.42,
+    "reason": "Petrol art\u0131\u015f\u0131n\u0131n faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor. \u0130ran\u2019a y\u00f6nelik olas\u0131 yeni operasyon g\u00fcvenli liman talebini destekleyebilir; \u00e7eli\u015fkili sinyaller y\u00f6n konusunda g\u00fcveni azalt\u0131yor.",
     "key_events": [
-     "ABD g\u00fcc\u00fc dolar\u0131 destekliyor",
-     "\u0130ran sava\u015f\u0131n\u0131 h\u0131zl\u0131 bitirme ihtimali",
-     "Fed kararlar\u0131 \u00f6ncesi belirsizlik"
+     "Petrol kaynakl\u0131 faiz art\u0131r\u0131m\u0131 beklentileri",
+     "Alt\u0131nda 4.000 dolar alt\u0131 ve d\u00fc\u015f\u00fc\u015f momentumu",
+     "ABD\u2019nin \u0130ran\u2019a yeni operasyon ihtimali"
     ],
     "model": "gpt-6-luna"
    }
@@ -3232,58 +3240,67 @@
     "new": 10,
     "gpt_score": -0.2,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1792789641319,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Fed 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7\u0131kard\u0131 ve s\u0131k\u0131la\u015ft\u0131rma d\u00f6ng\u00fcs\u00fc ba\u015flat\u0131ld\u0131; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi haberleri jeopolitik talebi destekleyebilir, ancak haftal\u0131k d\u00fc\u015f\u00fc\u015f ve 4.000 dolar\u0131n alt\u0131na sarkma mevcut bask\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
+    "new": 42,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
-   "date": "2026-10-23",
-   "n": 120
+   "date": "2026-10-24",
+   "n": 1
   },
   "news_seen": [
+   "Zaidi seeks higher US dollar shipments to narrow Iraq's exchange gap - The New Region",
+   "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
+   "Argentina drops investigation into President Milei over crypto fraud",
+   "Opinion | Iran war fever is rising again. The battlespace has changed. - The Washington Post",
+   "Ukraine church destroyed in Russian missile strike seeks to endure - Biblical Recorder",
+   "President Zelenskyy says he's ready for the war with Russia to end - 13newsnow.com",
+   "White House says the US is lifting tariffs on some Canadian goods",
+   "Consumer sentiment dips on worries about affordability: UMichigan survey - CFO Dive",
+   "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+   "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire - Al Jazeera",
+   "On Meidas Defense: cryptocurrency, sanctions, and Trump quid pro quo - Citation Needed by Molly White",
+   "Gold price set for steep weekly loss as rising oil prices bolster Fed rate hike bets - Mining.com",
+   "Salvation or tragedy? Iranians debate prospect of another war - Iran International",
+   "Trump says US may do another military operation against Iran - Reuters",
+   "Drones make the Russia-Ukraine war front line a \u2018kill zone\u2019? - NPR",
+   "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Reuters",
+   "Ukrainian negotiator says local humanitarian ceasefire with Russia will start Tuesday - AP News",
+   "Weekly Graphic: The World Economy in 2026 - Geopolitical Futures",
+   "Iran Has Detailed Plans to Target Undersea Cables if War Resumes, Officials Say - Nacionale",
+   "A new war memorial is opening in Washington DC. What is it? - The Spokesman-Review",
    "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-   "Gold's Surge: US Homes Now Under 100 Ounces - Investing News Network",
-   "British Pound falters near 1.3400 as US business strength lifts Dollar - FXStreet",
-   "Week Ahead for FX, Bonds: Decisions From Fed, Other Central Banks in Focus - WSJ",
-   "WATCH: Susan Collins Called Out for Iran War Votes As Heating Oil in Maine Hits Another Record High - Maine Democratic Party",
-   "Trump weighs quick end to Iran war against letting conflict \u2018wither\u2019 - The Detroit News",
-   "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "Naval Unmanned Helicopters Get Second Life - U.S. Department of War (.gov)",
-   "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
-   "Ukrainian intelligence details new low-cost Russian cruise missile - The Long War Journal",
-   "Netanyahu Eyes Crypto To Counter Sanctions, Warns US Military Aid Will End - i24NEWS",
-   "Australian Dollar extends gains on RBA rate hike expectations ahead of Fed decision - FXStreet",
-   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
-   "Gustavo de Ar\u00edstegui: Geopolitical analysis of 23 October - Atalayar",
-   "Space War Fears Rise as Russian Satellite Makes Dangerous Maneuver - Crude Oil Prices Today | OilPrice.com",
+   "There\u2019s No End in Sight to Yemen\u2019s Destructive War - Jacobin",
+   "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+   "US military needs \u2018urgent revolutionary institutional change\u2019 to prepare for modern war, Petraeus says - Defense News",
    "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
-   "Peterson Space Force Base Airman receives Department of War Spirit of Hope Award - Peterson SFB (.mil)",
-   "Bitcoin Holding Above $83,000 As September Inflation Pressures Ease - WIBX 950",
-   "Trump weighs quick end to Iran war against letting conflict \u2018wither\u2019 - Reuters",
-   "Drone strike on market town exposes reach of trade fuelling Sudan war - WTVB",
-   "Inflation Is 3.7%, but This Hidden Cost of Living Is Up 115% - 24/7 Wall St.",
-   "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-   "Netanyahu: Israel needs to prep \u2018alternate economy\u2019 to circumvent any global sanctions - The Times of Israel",
-   "Gold price per tola falls Rs7,000 in Pakistan - Investify",
-   "Fed Tightens Rates As Inflation Persists, Rochester Fuel Costs Climb To Regional Highs - KROC-AM",
-   "Trump weighs quick end to Iran war against letting conflict \u2018wither\u2019 - Al-Monitor",
-   "The little-known investment Martin Lewis wants you to understand...",
-   "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-   "UAE battles tanker oil spill as war's environmental toll mounts - Al-Monitor",
-   "Consumer confidence holds steady from September amid persistent inflation - The Hill",
-   "Saudi Arabia Expands Missile Plant, Raising Prospect of More Powerful Weapons, Study Finds - Modern Diplomacy",
-   "Oil spill washes up on UAE beaches after tanker strike",
-   "TRICON Adds Smith, Sutton, Gray Out As Rackley WAR Shuts Down - Yahoo Sports",
-   "Inside the Israeli military mindset driving endless war - openDemocracy",
-   "Cuervo: LR to Keep Pushing For On-Campus Baseball, Basketball \u2018War Room\u2019 - Arkansas Money & Politics",
-   "Russia, US say American Hubbard was not released in exchange for a Russian war blogger - Reuters",
-   "Melania Trump Brokers a Ceasefire in One War-torn Ukrainian City on the \u2018Brink of Disaster\u2019 - East Wing Magazine",
-   "Rackley WAR closing Truck Series team following Talladega - Jayski",
-   "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
-   "Army Activates Air Defense Guam Battalion Focused on Chinese, North Korean Threats - USNI News",
-   "After 140 years, Black Civil War vet is honored in Mount Kisco - www.therecorder.org",
-   "Gold Weekly Forecast: Inflation fears attract bears ahead of critical Fed meeting - FXStreet",
-   "Gold prices decline by Rs 3,000 per tola - The Nation (Pakistan )",
-   "North Korea may be the biggest winner of Russia\u2019s war in Ukraine - Atlantic Council",
-   "The World Keeps Turning: The war in Iraq isn\u2019t \u2018a small price to pay\u2019 - Greenfield Recorder"
+   "Consumer sentiment nears record low as inflation fears rise - Finance & Commerce",
+   "Trump Weighs Options for Ending Iran War - Caspian Post",
+   "Federal Reserve Votes Unanimously to Raise Rates 25 Basis Points to 3.75%-4.00%; Warsh Defies White House Pressure to Launch Tightening Cycle - BigGo Finance",
+   "Growth to remain strong despite inflation headwinds - www.rbc.com",
+   "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+   "The War on Art Is Repeating Itself - Hyperallergic",
+   "Beirut Book Fair offers a cultural lifeline amid war, crisis - upi",
+   "How Russia's relentless attacks on Kyiv have turned Ukraine's capital into a front-line city - DW.com",
+   "APTOPIX Russia Ukraine War - TelegraphHerald.com",
+   "What To Expect From Wednesday\u2019s Federal Reserve Meeting - Investopedia",
+   "US Dollar Price Action Setups: EUR/USD, USD/JPY, GBP/USD, USD/CAD - StoneX",
+   "DoW Announces 2026 Secretary of War Maintenance Awards Winners - U.S. Department of War (.gov)",
+   "A Time Of Uncertainty At The Federal Reserve - RealClearMarkets",
+   "The Fed Can Pause, But Inflation Won't - RealClearMarkets",
+   "Federal Reserve Preview: A Pause Before a December Hike - Investing.com South Africa",
+   "Analysis \u2022 Instead of averting sanctions, Netanyahu offers an Iran-style blockchain economy - Haaretz",
+   "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "Consumer Sentiment Flat, Iran War Continues to Hold Expectations Back - RISMedia",
+   "Federal Reserve Expands 18-Month Examination Cycle Eligibility for Banks Under $6 Billion - JD Supra",
+   "Gold falls below $4,000 as Oil surge deepens weekly rout ahead of Fed | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629"
   ]
  },
  "log": [
@@ -3554,7 +3571,10 @@
   "23.10 21:28 B1  CLOSE short stop: -3.00 USD",
   "23.10 21:28 B6  karar turu: Claude \u00abPiyasa \u0130ran kaynakl\u0131 petrol y\u00fckseli\u015fi ve tarife belirsizli\u011fi alt\u0131nda dar bantta yatay seyrediyor; a\u00e7\u0131k bir intraday avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler son saatte yatay; haber ve fiyat teyidi birle\u015fmedi\u011finden kald\u0131ra\u00e7la y\u00fczde 1,5 hedefli i\u015flem a\u00e7mak yerine beklemek daha disiplinli.\u00bb",
   "23.10 21:51 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerginli\u011fi s\u00fcrerken piyasa s\u0131k\u0131\u015f\u0131k ve y\u00f6ns\u00fcz; Cuma \u00f6\u011fleden sonra i\u015flem a\u00e7mak i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abKapan\u0131\u015fa 69 dakika kala dar fiyat bantlar\u0131 ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131, y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli avantaj sa\u011flam\u0131yor.\u00bb",
-  "23.10 22:13 B6  karar turu: Claude \u00abCuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abEndeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.\u00bb"
+  "23.10 22:13 B6  karar turu: Claude \u00abCuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abEndeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.\u00bb",
+  "24.10 00:07 N  NEWS (42 new) score -0.50 conf 0.60: Fed 25 baz puan art\u0131rarak faizi %3,75-4,00'a \u00e7\u0131kard\u0131 ve s\u0131k\u0131la\u015ft\u0131rma d\u00f6ng\u00fcs\u00fc ba\u015flat\u0131ld\u0131; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi haberleri jeopolitik talebi destekleyebilir, ancak haftal\u0131k d\u00fc\u015f\u00fc\u015f ve 4.000 dolar\u0131n alt\u0131na sarkma mevcut bask\u0131n\u0131n daha belirleyici oldu\u011funu g\u00f6steriyor.",
+  "24.10 00:07 N  GPT  score -0.20 conf 0.42: Petrol art\u0131\u015f\u0131n\u0131n faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor. \u0130ran\u2019a y\u00f6nelik olas\u0131 yeni operasyon g\u00fcvenli liman talebini destekleyebilir; \u00e7eli\u015fkili sinyaller y\u00f6n konusunda g\u00fcveni azalt\u0131yor.",
+  "24.10 00:07 B5  CLOSE short time limit: +8.06 USD"
  ],
  "gold_big": {
   "account": {
@@ -3690,9 +3710,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 6,
-    "pnl": -35.215216429421304,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4325,10 +4345,14 @@
    [
     1792789089,
     4964.78
+   ],
+   [
+    1792789643,
+    4964.78
    ]
   ],
   "news_calls": {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "n": 0
   }
  },
@@ -4409,9 +4433,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 3,
-    "pnl": -26.81884813925012,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -5044,10 +5068,14 @@
    [
     1792789089,
     4973.18
+   ],
+   [
+    1792789643,
+    4973.18
    ]
   ],
   "news_calls": {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "n": 0
   }
  },
@@ -5058,7 +5086,7 @@
    "positions": [],
    "trades": [],
    "day": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -5689,6 +5717,10 @@
    [
     1792789089,
     5000
+   ],
+   [
+    1792789643,
+    5000
    ]
   ]
  },
@@ -5721,9 +5753,9 @@
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 1,
-    "pnl": -11.183724131024354,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -6064,34 +6096,22 @@
    [
     1792789089,
     4988.82
+   ],
+   [
+    1792789643,
+    4988.82
    ]
   ],
   "news_calls": {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "n": 0
   }
  },
  "gold_consensus": {
   "account": {
-   "balance": 5013.817193740923,
+   "balance": 5021.879301528324,
    "start": 5000,
-   "positions": [
-    {
-     "id": "664bac75",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2451108642579767,
-     "entry": 4015.706668,
-     "tp": 4003.6595479959997,
-     "sl": 4023.7380813359996,
-     "opened_ms": 1792767668061,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.40/0.60",
-     "friction": 2.374
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "c6a7593b",
@@ -6113,12 +6133,33 @@
      "gross": 13.8172,
      "costs": 0.0,
      "pnl": 13.8172
+    },
+    {
+     "id": "664bac75",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2451108642579767,
+     "entry": 4015.706668,
+     "tp": 4003.6595479959997,
+     "sl": 4023.7380813359996,
+     "opened_ms": 1792767668061,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 500.0,
+     "note": "news -0.40/0.60",
+     "friction": 2.374,
+     "exit": 4009.2316560000004,
+     "closed_ms": 1792789380000,
+     "reason": "time limit",
+     "gross": 8.0621,
+     "costs": 0.0,
+     "pnl": 8.0621
     }
    ],
    "day": {
-    "date": "2026-10-23",
-    "trades": 2,
-    "pnl": 13.817193740923543,
+    "date": "2026-10-24",
+    "trades": 0,
+    "pnl": 8.062107787400054,
     "stopped": false
    },
    "last_check_ms": 0
@@ -6391,10 +6432,14 @@
    [
     1792789089,
     5023.65
+   ],
+   [
+    1792789643,
+    5021.88
    ]
   ],
   "news_calls": {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "n": 0
   }
  },
@@ -6592,6 +6637,10 @@
    ],
    [
     1792789089,
+    100000.0
+   ],
+   [
+    1792789643,
     100000.0
    ]
   ],

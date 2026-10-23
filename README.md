@@ -1,16 +1,16 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 23:58 (İstanbul)
+> Son güncelleme: 24.10.2026 00:07 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.30 $ | +0.30 $ |
-| İşlem sayısı | 1 | 1 |
-| Kazanma oranı | %100.0 | %100.0 |
-| Ödenen komisyon/spread | 2.00 $ | 2.00 $ |
+| Net kâr/zarar | +0.00 $ | +0.30 $ |
+| İşlem sayısı | 0 | 1 |
+| Kazanma oranı | %0.0 | %100.0 |
+| Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
 
 **Hesap değeri: 5,000.30 $** (başlangıç 5,000 $, +0.30 $ / %+0.01)
 
@@ -35,16 +35,16 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -79.85 $ | -76.04 $ |
-| İşlem sayısı | 32 | 33 |
-| Kazanma oranı | %21.9 | %24.2 |
-| Ödenen komisyon/spread | 75.95 $ | 78.32 $ |
+| Net kâr/zarar | +0.00 $ | -76.04 $ |
+| İşlem sayısı | 0 | 33 |
+| Kazanma oranı | %0.0 | %24.2 |
+| Ödenen komisyon/spread | 0.00 $ | 78.32 $ |
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
+Son haber analizi (24.10 00:07): Claude puan **-0.50**, güven 0.60 — Fed 25 baz puan artırarak faizi %3,75-4,00'a çıkardı ve sıkılaştırma döngüsü başlatıldı; petrol fiyatlarındaki yükseliş Fed faiz artışı beklentilerini güçlendirerek altını baskılıyor. İran savaşının yeniden başlayabileceği haberleri jeopolitik talebi destekleyebilir, ancak haftalık düşüş ve 4.000 doların altına sarkma mevcut baskının daha belirleyici olduğunu gösteriyor.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.38 — ABD iş gücü/işletme gücünün doları desteklemesi altın üzerinde kısa vadeli baskı yaratabilir; Trump’ın İran savaşını hızlı bitirmeyi değerlendirmesi de güvenli liman talebini azaltabilir. Ancak savaşın sürmesi olasılığı ve Fed kararı öncesi belirsizlik sinyalleri çelişkili kılıyor.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.42 — Petrol artışının faiz artırımı beklentilerini güçlendirmesi ve altındaki sert düşüş kısa vadede baskıyı artırıyor. İran’a yönelik olası yeni operasyon güvenli liman talebini destekleyebilir; çelişkili sinyaller yön konusunda güveni azaltıyor.
 
 Son işlemler:
 
@@ -60,10 +60,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -35.22 $ | -35.22 $ |
-| İşlem sayısı | 6 | 6 |
-| Kazanma oranı | %16.7 | %16.7 |
-| Ödenen komisyon/spread | 14.24 $ | 14.24 $ |
+| Net kâr/zarar | +0.00 $ | -35.22 $ |
+| İşlem sayısı | 0 | 6 |
+| Kazanma oranı | %0.0 | %16.7 |
+| Ödenen komisyon/spread | 0.00 $ | 14.24 $ |
 
 **Hesap değeri: 4,964.78 $** (başlangıç 5,000 $, -35.22 $ / %-0.70)
 
@@ -81,10 +81,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -11.18 $ | -11.18 $ |
-| İşlem sayısı | 1 | 1 |
+| Net kâr/zarar | +0.00 $ | -11.18 $ |
+| İşlem sayısı | 0 | 1 |
 | Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
+| Ödenen komisyon/spread | 0.00 $ | 2.37 $ |
 
 **Hesap değeri: 4,988.82 $** (başlangıç 5,000 $, -11.18 $ / %-0.22)
 
@@ -98,10 +98,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -26.82 $ | -26.82 $ |
-| İşlem sayısı | 3 | 3 |
+| Net kâr/zarar | +0.00 $ | -26.82 $ |
+| İşlem sayısı | 0 | 3 |
 | Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 7.12 $ | 7.12 $ |
+| Ödenen komisyon/spread | 0.00 $ | 7.12 $ |
 
 **Hesap değeri: 4,973.18 $** (başlangıç 5,000 $, -26.82 $ / %-0.54)
 
@@ -117,19 +117,18 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +13.82 $ | +13.82 $ |
-| İşlem sayısı | 1 | 1 |
+| Net kâr/zarar | +8.06 $ | +21.88 $ |
+| İşlem sayısı | 1 | 2 |
 | Kazanma oranı | %100.0 | %100.0 |
-| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
+| Ödenen komisyon/spread | 2.37 $ | 4.75 $ |
 
-**Hesap değeri: 5,023.65 $** (başlangıç 5,000 $, +23.65 $ / %+0.47)
-
-Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
+**Hesap değeri: 5,021.88 $** (başlangıç 5,000 $, +21.88 $ / %+0.44)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 24.10 00:03 | PAXGUSDT | short | +8.06 $ | time limit |
 | 23.10 17:11 | PAXGUSDT | short | +13.82 $ | take profit |
 
 ## Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:2
@@ -146,9 +145,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD
-23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
-23.10 20:34 B6  karar turu: Claude «-» / GPT «Endekslerde aşağı eğilim ve jeopolitik risk baskın olsa da mevcut fiyat hareketleri önümüzdeki 1–3 saat için %1,5 hedef ve %1 stop koşullarında net avantaj sunmuyor.»
 23.10 20:36 B1  hedefler güncellendi: TP 4006.21 (+2$ net), SL 4010.22 (-3$ net)
 23.10 20:36 B1  CLOSE short stop: -3.00 USD
 23.10 20:49 B1  SHORT gold 5000 USD x10 @ 4005.85 (TP 4003.30, SL 4007.30; news -0.20)
@@ -161,6 +157,9 @@ Son işlemler:
 23.10 21:28 B6  karar turu: Claude «Piyasa İran kaynaklı petrol yükselişi ve tarife belirsizliği altında dar bantta yatay seyrediyor; açık bir intraday avantaj görünmüyor.» / GPT «Endeksler son saatte yatay; haber ve fiyat teyidi birleşmediğinden kaldıraçla yüzde 1,5 hedefli işlem açmak yerine beklemek daha disiplinli.»
 23.10 21:51 B6  karar turu: Claude «Petrol 100 doların üzerinde ve İran gerginliği sürerken piyasa sıkışık ve yönsüz; Cuma öğleden sonra işlem açmak için net bir avantaj görünmüyor.» / GPT «Kapanışa 69 dakika kala dar fiyat bantları ve karışık haber akışı, yüzde 1,5 hedefli kaldıraçlı işlemler için yeterli avantaj sağlamıyor.»
 23.10 22:13 B6  karar turu: Claude «Cuma kapanışına yaklaşırken piyasa dar bantta ve yönsüz; petrolün 100 doları aşması ile İran gerilimi risk iştahını sınırlıyor, bu yüzden işlem açmamak en mantıklısı.» / GPT «Endeksler dar bantta ve normal seansın kapanışına 48 dakika kalmışken, mevcut hareketler yüzde 1,5 hedefli kaldıraçlı işlemler için yeterli haber ve fiyat teyidi sunmuyor.»
+24.10 00:07 N  NEWS (42 new) score -0.50 conf 0.60: Fed 25 baz puan artırarak faizi %3,75-4,00'a çıkardı ve sıkılaştırma döngüsü başlatıldı; petrol fiyatlarındaki yükseliş Fed faiz artışı beklentilerini güçlendirerek altını baskılıyor. İran savaşının yeniden başlayabileceği haberleri jeopolitik talebi destekleyebilir, ancak haftalık düşüş ve 4.000 doların altına sarkma mevcut baskının daha belirleyici olduğunu gösteriyor.
+24.10 00:07 N  GPT  score -0.20 conf 0.42: Petrol artışının faiz artırımı beklentilerini güçlendirmesi ve altındaki sert düşüş kısa vadede baskıyı artırıyor. İran’a yönelik olası yeni operasyon güvenli liman talebini destekleyebilir; çelişkili sinyaller yön konusunda güveni azaltıyor.
+24.10 00:07 B5  CLOSE short time limit: +8.06 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
