@@ -466,6 +466,10 @@
    [
     1792748303,
     5000.3
+   ],
+   [
+    1792748854,
+    5000.3
    ]
   ]
  },
@@ -1315,15 +1319,19 @@
    [
     1792748303,
     4968.46
+   ],
+   [
+    1792748854,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.55,
+   "score": -0.6,
    "confidence": 0.6,
-   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Faiz art\u0131\u015f\u0131 beklentileri (BofA'n\u0131n 2026'da iki ek faiz art\u0131\u015f\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Warsh'un daha fazla art\u0131\u015f sinyali vermesi), y\u00fckselen tahvil getirileri ve petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131ndan do\u011fan enflasyon kayg\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi zay\u0131f kal\u0131yor \u00e7\u00fcnk\u00fc \"dolar g\u00fcvenli liman taclar\u0131n\u0131 kaybetti\" yorumu ve hisse senedi sat\u0131\u015f\u0131 \u00f6nemli bir destek sa\u011flam\u0131yor. Teknik k\u0131r\u0131lma ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
+   "reason": "Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f, \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k kay\u0131plar s\u00fcr\u00fcyor; Fed'in faiz art\u0131rma beklentileri (BofA iki ek art\u0131r\u0131m, Warsh'un s\u0131k\u0131la\u015ft\u0131rma sinyali), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini destekleyebilir ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fcnm\u00fcyor; Goldman'\u0131n 5.400 dolarl\u0131k uzun vadeli hedefi k\u0131sa vadeli etkisi olmayan eski bir haber.",
    "n": 45,
-   "ts": 1792748299684,
-   "new_headlines": 8,
+   "ts": 1792748852114,
+   "new_headlines": 13,
    "key_events": [
     "Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve enflasyonun kal\u0131c\u0131l\u0131\u011f\u0131",
     "Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, alt\u0131n fiyatlar\u0131nda d\u00fc\u015f\u00fc\u015f (3 ayl\u0131k dip)",
@@ -1923,17 +1931,32 @@
     "confidence": 0.6,
     "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Faiz art\u0131\u015f\u0131 beklentileri (BofA'n\u0131n 2026'da iki ek faiz art\u0131\u015f\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Warsh'un daha fazla art\u0131\u015f sinyali vermesi), y\u00fckselen tahvil getirileri ve petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131ndan do\u011fan enflasyon kayg\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi zay\u0131f kal\u0131yor \u00e7\u00fcnk\u00fc \"dolar g\u00fcvenli liman taclar\u0131n\u0131 kaybetti\" yorumu ve hisse senedi sat\u0131\u015f\u0131 \u00f6nemli bir destek sa\u011flam\u0131yor. Teknik k\u0131r\u0131lma ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
     "new": 8
+   },
+   {
+    "ts": 1792748852114,
+    "score": -0.6,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f, \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k kay\u0131plar s\u00fcr\u00fcyor; Fed'in faiz art\u0131rma beklentileri (BofA iki ek art\u0131r\u0131m, Warsh'un s\u0131k\u0131la\u015ft\u0131rma sinyali), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini destekleyebilir ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fcnm\u00fcyor; Goldman'\u0131n 5.400 dolarl\u0131k uzun vadeli hedefi k\u0131sa vadeli etkisi olmayan eski bir haber.",
+    "new": 13
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 76
+   "n": 77
   },
   "news_seen": [
+   "Opinion | As long as the mall stays open, Israelis can live with war crimes - Haaretz",
+   "Canadian Dollar: Pressured near 1.40 against US Dollar \u2013 TD Securities - FXStreet",
+   "International Meeting Rules Out Military Solution to Sudan War - ASHARQ AL-AWSAT English",
    "Ukraine says Starlink still restricted after Trump says limits lifted",
    "Chinese officials visit North Korea to mark China\u2019s entry into Korean War - NK News",
+   "Stew Bolno: Donald Trump\u2019s war against the smug, stubborn, and stupid - Broad + Liberty",
+   "Japan university defence bids surge as post-war taboo fades amid China concerns - South China Morning Post",
+   "Alvarado, Dembo spar over Iran war, data centers and Epstein in central Kentucky debate - News From The States",
+   "Gold Price Forecast: Goldman Retains $5,400 For End-2027 - Exchange Rates UK",
    "Granada Gold\u2019s 2026 Reset: New Leadership, a Planned Drilling Return and Capital Discipline - Crux Investor",
    "Gold price falls below $4,000 amid stock market rout - Equiti Global",
+   "How Long Will Russians Put Up With War? Here\u2019s What They Told Us. - The New York Times",
    "World gold price today, October 23: Long slide pulls gold close to the 4,000 USD mark - Laodong.vn",
    "US Federal Reserve to Raise Rates Twice More in 2026, Says Bank of America - Morningstar",
    "Hormuz, the June Memorandum and Rome\u2019s Role: Iran\u2019s Minister Speaks - Decode39",
@@ -1944,11 +1967,13 @@
    "16th Dist. incumbent Kelly says he's voted repeatedly for lower costs - Erie Times-News",
    "Japanese Yen: Set for further gains against US Dollar \u2013 UOB | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "When Housing Falters and Inflation Persists, Gold Stands Strong - GoldBroker",
+   "Geopolitical knot in EastMed: Intelligence diplomacy on T\u00fcrkiye-Libya axis | Daily Sabah - Daily Sabah",
    "Kylie\u2019s $50M Bra, War Zone Vacations, and Why Chocolate Sucks Now - The Free Press",
    "Take Five: AI trade meets the Fed - Reuters",
    "Trump\u2019s Iran sanctions run into limits - Yahoo",
-   "Review of HBO's 'War' - Washington Examiner",
    "How Does a Radar-Guided Missile Work? From Sparrow to AMRAAM - MiGFlug",
+   "Review of HBO's 'War' - Washington Examiner",
+   "Gold holds above $4,000/three-month low as Fed hike bets and firm USD cap upside - FXStreet",
    "The Iran war\u2019s toxic impact on one of the planet\u2019s most unique seas - Yahoo",
    "Gold price analysis: XAU/USD tests critical 4,000 barrier - FXStreet",
    "Gold prices fall \u20b9924 per 10 grams as crude oil rises above $113 | Business News - Hindustan Times",
@@ -1956,25 +1981,15 @@
    "Japanese Yen: Set for further gains against US Dollar - UOB - FXStreet",
    "Gold prices dip - VnExpress International",
    "Where to Buy Gold in Australia in 2026: Is Now a Good Time? - Mitrade",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Europe indexes fall as sluggish business activity adds to geopolitical concerns (EUR:USD:) - Seeking Alpha",
    "Gold rates today (October 23, 2026): Check prices of 24K, 22K, 18K gold in Dubai, Abu Dhabi, Riyadh, Kuwait City, Doha, Muscat - The Economic Times",
    "Warsh likely to signal more rate hikes as inflation remains persistent (US10Y:) - Seeking Alpha",
+   "Denmark and UNDP support the VII Judicial Forum in Kyiv on the protection of human rights during the war - United Nations Development Programme",
+   "Gold Rate Today Live, Latest 22 And 24 Carat Gold Price In India - NDTV Profit",
+   "Gold heads for worst week since June amid expectations for the US Fed \u2014 Asharq Al-Awsat - UA.NEWS",
    "Mapping Russia's hybrid war: 17 newsrooms, six months, hundreds of incidents - EBU",
    "New famine risk haunts war-torn Sudan with El Ni\u00f1o-driven drought - Arab News",
-   "Pound To Dollar Price News, Forecast: Best Exchange Rate In Five Weeks - Exchange Rates UK",
-   "Euro: Weakens against US Dollar amid risk concerns \u2013 Danske Bank | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "What is the Budget and what could be in it?",
-   "New Zealand Dollar stalls below 0.5700 as Oil prices dent risk appetite - FXStreet",
-   "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - The Motley Fool",
-   "\u201cWhat\u2019d I Miss?\u201d: The Iran war, in black and white - The Colorado Sun",
-   "The Indian workers filming their work to train AI",
-   "How popular is the Iran War? - Silver Bulletin",
-   "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
-   "FX Daily: Dollar has lost its safe-haven crown - ing think",
-   "Gold Forecast 23/10: Sharp Selloff Threatens $4,000 (Video) - Daily Forex",
-   "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-   "Trump Asked Musk to Reverse Limits on Ukraine\u2019s Military Internet Use - The New York Times"
+   "Pound To Dollar Price News, Forecast: Best Exchange Rate In Five Weeks - Exchange Rates UK"
   ]
  },
  "log": [
@@ -2115,7 +2130,8 @@
   "23.10 12:02 B4  LONG gold 5000 USD x10 @ 4038.25 (TP 4050.36, SL 4030.17; news +0.45)",
   "23.10 12:11 N  NEWS (10 new) score -0.50 conf 0.60: Petrol 113 dolar\u0131n \u00fczerine \u00e7\u0131karak enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve alt\u0131n\u0131n 3 ayl\u0131k dibe gelmesi bask\u0131y\u0131 art\u0131r\u0131yor. Sava\u015f haberleri ve g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetmi\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle beklenen etki negatif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
   "23.10 12:26 N  NEWS (13 new) score -0.50 conf 0.60: ",
-  "23.10 12:38 N  NEWS (8 new) score -0.55 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Faiz art\u0131\u015f\u0131 beklentileri (BofA'n\u0131n 2026'da iki ek faiz art\u0131\u015f\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Warsh'un daha fazla art\u0131\u015f sinyali vermesi), y\u00fckselen tahvil getirileri ve petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131ndan do\u011fan enflasyon kayg\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi zay\u0131f kal\u0131yor \u00e7\u00fcnk\u00fc \"dolar g\u00fcvenli liman taclar\u0131n\u0131 kaybetti\" yorumu ve hisse senedi sat\u0131\u015f\u0131 \u00f6nemli bir destek sa\u011flam\u0131yor. Teknik k\u0131r\u0131lma ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler nedeniyle g\u00fcven orta d\u00fczeyde tutuldu."
+  "23.10 12:38 N  NEWS (8 new) score -0.55 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve d\u00fc\u015f\u00fc\u015f s\u00fcr\u00fcyor. Faiz art\u0131\u015f\u0131 beklentileri (BofA'n\u0131n 2026'da iki ek faiz art\u0131\u015f\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Warsh'un daha fazla art\u0131\u015f sinyali vermesi), y\u00fckselen tahvil getirileri ve petrol\u00fcn 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131ndan do\u011fan enflasyon kayg\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi zay\u0131f kal\u0131yor \u00e7\u00fcnk\u00fc \"dolar g\u00fcvenli liman taclar\u0131n\u0131 kaybetti\" yorumu ve hisse senedi sat\u0131\u015f\u0131 \u00f6nemli bir destek sa\u011flam\u0131yor. Teknik k\u0131r\u0131lma ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
+  "23.10 12:47 N  NEWS (13 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f, \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k kay\u0131plar s\u00fcr\u00fcyor; Fed'in faiz art\u0131rma beklentileri (BofA iki ek art\u0131r\u0131m, Warsh'un s\u0131k\u0131la\u015ft\u0131rma sinyali), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini destekleyebilir ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fcnm\u00fcyor; Goldman'\u0131n 5.400 dolarl\u0131k uzun vadeli hedefi k\u0131sa vadeli etkisi olmayan eski bir haber."
  ],
  "gold_big": {
   "account": {
@@ -2549,6 +2565,10 @@
    [
     1792748303,
     4969.06
+   ],
+   [
+    1792748854,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -2906,6 +2926,10 @@
    [
     1792748303,
     4988.81
+   ],
+   [
+    1792748854,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3235,6 +3259,10 @@
    [
     1792748303,
     5000
+   ],
+   [
+    1792748854,
+    5000
    ]
   ]
  },
@@ -3288,6 +3316,10 @@
    [
     1792748303,
     4996.68
+   ],
+   [
+    1792748854,
+    5001.07
    ]
   ],
   "news_calls": {
