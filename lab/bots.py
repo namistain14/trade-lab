@@ -1,5 +1,6 @@
 """The two paper bots. Each call to tick() handles exits first, then looks for new entries."""
 import datetime as dt
+import os
 import time
 
 import market
@@ -99,16 +100,28 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
                 res = sentiment_fn() if sentiment_fn else news_mod.gold_sentiment(
                     api_key, news_cfg["model"], news_cfg["feeds"], lines=lines, new_lines=new_lines)
                 calls["n"] += 1
+                # second, independent opinion from GPT on the same headlines (used by the consensus bot B5)
+                res["gpt"] = None
+                if os.environ.get("OPENAI_API_KEY", "").strip() and not sentiment_fn:
+                    try:
+                        res["gpt"] = news_mod.gpt_sentiment(news_cfg.get("gpt_models", ["gpt-6-luna"]),
+                                                            lines, new_lines)
+                    except Exception as e:  # noqa: BLE001  GPT never blocks the bots
+                        log.append(f"N  GPT news failed: {str(e)[:160]}")
                 news.update(res)
                 news["ts"] = _now_ms()
                 news["new_headlines"] = len(new_lines)
                 state["news_seen"] = [x.split("] ", 1)[-1] for x in lines][:200]
                 hist = state.setdefault("news_history", [])
+                g = res.get("gpt") or {}
                 hist.append({"ts": news["ts"], "score": res["score"], "confidence": res["confidence"],
-                             "reason": res.get("reason", ""), "new": len(new_lines)})
+                             "reason": res.get("reason", ""), "new": len(new_lines),
+                             "gpt_score": g.get("score"), "gpt_confidence": g.get("confidence")})
                 state["news_history"] = hist[-300:]
                 log.append(f"N  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
                            f"{res.get('reason', '')}")
+                if g:
+                    log.append(f"N  GPT  score {g['score']:+.2f} conf {g['confidence']:.2f}: {g.get('reason', '')}")
         except Exception as e:  # noqa: BLE001
             log.append(f"B  NEWS failed: {e}")
 
@@ -122,6 +135,13 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     score, conf = news.get("score", 0.0), news.get("confidence", 0.0)
     if cfg.get("contrarian"):  # fade the news: trade AGAINST it, only when price already moves against it too
         score = -score
+    if cfg.get("consensus"):  # B5: Claude AND GPT must agree on the direction; the weaker view decides the size
+        g = news.get("gpt") or {}
+        gs, gc = g.get("score"), g.get("confidence")
+        if gs is None or gc is None or gs * score <= 0:
+            return {sym: price_now}
+        score = (score + gs) / 2 if abs(gs) >= cfg["min_score"] and abs(score) >= cfg["min_score"] else 0.0
+        conf = min(conf, gc)
     if not fresh or abs(score) < cfg["min_score"] or conf < cfg["min_confidence"]:
         return {sym: price_now}
     last = acc["trades"][-1] if acc["trades"] else None

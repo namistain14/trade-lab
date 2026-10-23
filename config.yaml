@@ -127,8 +127,29 @@ bots:
     max_trades_per_day: 15
     daily_loss_limit_usd: 100
 
+  gold_consensus:          # Bot B5: trades only when Claude AND GPT read the news the same way (two-model check)
+    type: gold_news
+    label: "Bot B5 — Altın: Claude + GPT hemfikir (TP 15$ / SL 10$)"
+    tag: "B5"
+    enabled: true
+    consensus: true
+    symbol: "PAXGUSDT"
+    interval: "5m"
+    leverage: 10
+    notional_usd: 5000
+    spread_usd_per_oz: 0.30
+    slippage_rate: 0.0002
+    take_profit_usd: 15
+    stop_loss_usd: 10
+    max_hold_minutes: 360
+    min_score: 0.3            # BOTH models must reach this, in the same direction
+    min_confidence: 0.45      # the lower of the two confidences must reach this
+    max_trades_per_day: 15
+    daily_loss_limit_usd: 100
+
 news:
   model: "claude-haiku-5-5"   # cheap and fast for hourly news reading
+  gpt_models: ["gpt-6-luna", "gpt-6.1-sol"]   # second, independent reader of the same headlines (bot B5)
   feeds:
     - "https://news.google.com/rss/search?q=gold+price+when:1d&hl=en-US&gl=US&ceid=US:en"
     - "https://news.google.com/rss/search?q=Federal+Reserve+OR+inflation+OR+dollar+when:1d&hl=en-US&gl=US&ceid=US:en"
@@ -138,3 +159,4 @@ news:
 
 report:
   model: "claude-sonnet-5-5"  # daily performance review
+  gpt_models: ["gpt-6.1-sol", "gpt-6-astra"]   # independent second opinion at the end of the report

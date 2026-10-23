@@ -81,3 +81,18 @@ def gold_sentiment(api_key: str, model: str, feeds: list[str], lines: list[str] 
     out["confidence"] = max(0.0, min(1.0, float(out.get("confidence", 0))))
     out["n"] = len(lines)
     return out
+
+
+def gpt_sentiment(models, lines: list[str], new_lines: list[str] | None = None) -> dict:
+    """Same headlines, same question, answered independently by GPT (OpenAI). Raises gpt.GPTError on failure."""
+    import gpt
+    if new_lines:
+        lines = [("NEW " + x if x in set(new_lines) else x) for x in lines]
+    if not lines:
+        return {"score": 0.0, "confidence": 0.0, "reason": "no fresh headlines", "key_events": []}
+    prompt = PROMPT.format(headlines="\n".join(lines)).replace("Call the submit tool with JSON:", "Answer with JSON:")
+    out, used = gpt.ask_json("You are a cautious macro analyst. Answer with a single JSON object.", prompt, models,
+                             max_tokens=800, timeout=90)
+    return {"score": max(-1.0, min(1.0, float(out.get("score", 0)))),
+            "confidence": max(0.0, min(1.0, float(out.get("confidence", 0)))),
+            "reason": str(out.get("reason", ""))[:300], "key_events": out.get("key_events", [])[:3], "model": used}

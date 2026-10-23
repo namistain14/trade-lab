@@ -74,8 +74,12 @@ def dashboard(cfg: dict, st: dict, prices: dict) -> None:
             out.append("")
         if name == "gold_news" and st.get(name, {}).get("news"):  # the shared news view lives with B1
             n = st[name]["news"]
-            out += [f"Son haber analizi ({fmt_ms(n.get('ts', 0))}): puan **{n.get('score', 0):+.2f}**, "
+            out += [f"Son haber analizi ({fmt_ms(n.get('ts', 0))}): Claude puan **{n.get('score', 0):+.2f}**, "
                     f"güven {n.get('confidence', 0):.2f} — {n.get('reason', '')}", ""]
+            g = n.get("gpt") or {}
+            if g:
+                out += [f"GPT ({g.get('model', '')}): puan **{g.get('score', 0):+.2f}**, güven {g.get('confidence', 0):.2f}"
+                        f" — {g.get('reason', '')}", ""]
         last = acc["trades"][-5:][::-1]
         if last:
             out += ["Son işlemler:", "", "| Kapanış | Parite | Yön | Sonuç | Neden |", "|---|---|---|---|---|"]
