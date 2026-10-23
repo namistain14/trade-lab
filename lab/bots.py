@@ -120,6 +120,8 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
         return {sym: price_now}
     fresh = (_now_ms() - news.get("ts", 0)) / 60_000 <= 2 * cfg.get("news_max_minutes", cfg.get("news_every_minutes", 60))
     score, conf = news.get("score", 0.0), news.get("confidence", 0.0)
+    if cfg.get("contrarian"):  # fade the news: trade AGAINST it, only when price already moves against it too
+        score = -score
     if not fresh or abs(score) < cfg["min_score"] or conf < cfg["min_confidence"]:
         return {sym: price_now}
     last = acc["trades"][-1] if acc["trades"] else None

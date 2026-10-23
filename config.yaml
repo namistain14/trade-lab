@@ -85,6 +85,26 @@ bots:
     max_trades_per_day: 15
     daily_loss_limit_usd: 100
 
+  gold_contra:             # Bot B4: CONTRARIAN - trades against the news when price already ignores it
+    type: gold_news
+    label: "Bot B4 — Altın: haberin TERSİ (TP 15$ / SL 10$)"
+    tag: "B4"
+    enabled: true
+    contrarian: true
+    symbol: "PAXGUSDT"
+    interval: "5m"
+    leverage: 10
+    notional_usd: 5000
+    spread_usd_per_oz: 0.30
+    slippage_rate: 0.0002
+    take_profit_usd: 15
+    stop_loss_usd: 10
+    max_hold_minutes: 360
+    min_score: 0.3
+    min_confidence: 0.45
+    max_trades_per_day: 15
+    daily_loss_limit_usd: 100
+
   gold_pro:                # Bot B3: B2 + only London/New York hours + momentum + break-even stop
     type: gold_news
     label: "Bot B3 — Altın: B2 + seans filtresi + momentum + kârı koruma"
