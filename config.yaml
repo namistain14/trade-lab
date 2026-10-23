@@ -46,7 +46,7 @@ bots:
 
   gold_news:               # Bot B1: news-driven gold, leveraged, both directions (observation settings)
     type: gold_news
-    label: "Bot B1 — Altın + haber (TP 2$ / SL 3$)"
+    label: "Bot B1 — Altın + haber (net +2$ / -3$, hızlı kapanış)"
     tag: "B1"
     enabled: true
     symbol: "PAXGUSDT"     # gold-backed token, 24/7 price that tracks gold (paper proxy for XAU/USD)
@@ -55,8 +55,9 @@ bots:
     notional_usd: 5000     # position size (margin = notional / leverage = 500 USD)
     spread_usd_per_oz: 0.30   # simulated XAU/USD spread
     slippage_rate: 0.0002
-    take_profit_usd: 2         # Erdem 23.10: close at +2 $
-    stop_loss_usd: 3           # ... and at -3 $
+    targets_net: true         # Erdem 23.10: quick small wins, amounts are NET (after spread/slippage)
+    take_profit_usd: 2        # close as soon as +2 $ net is in the account
+    stop_loss_usd: 3          # ... and cut at -3 $ net
     max_hold_minutes: 240
     news_min_minutes: 5       # headlines are checked every tick; Claude reads them when NEW ones arrive (max every 5 min)
     news_max_minutes: 60      # ...and anyway once an hour so the view never gets stale
@@ -68,7 +69,7 @@ bots:
 
   gold_big:                # Bot B2: same news, but strict signals and bigger targets (costs matter less)
     type: gold_news
-    label: "Bot B2 — Altın: sıkı haber eşiği (TP 2$ / SL 3$)"
+    label: "Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)"
     tag: "B2"
     enabled: true
     symbol: "PAXGUSDT"
@@ -77,8 +78,9 @@ bots:
     notional_usd: 5000
     spread_usd_per_oz: 0.30
     slippage_rate: 0.0002
-    take_profit_usd: 2         # Erdem 23.10: close at +2 $
-    stop_loss_usd: 3           # ... and at -3 $
+    targets_net: true         # Erdem 23.10: quick small wins, amounts are NET (after spread/slippage)
+    take_profit_usd: 2        # close as soon as +2 $ net is in the account
+    stop_loss_usd: 3          # ... and cut at -3 $ net
     max_hold_minutes: 360
     min_score: 0.4
     min_confidence: 0.6
@@ -107,7 +109,7 @@ bots:
 
   gold_pro:                # Bot B3: B2 + only London/New York hours + momentum + break-even stop
     type: gold_news
-    label: "Bot B3 — Altın: B2 + seans filtresi + momentum (TP 2$ / SL 3$)"
+    label: "Bot B3 — Altın: B2 + seans filtresi + momentum (net +2$ / -3$, hızlı kapanış)"
     tag: "B3"
     enabled: true
     symbol: "PAXGUSDT"
@@ -116,8 +118,9 @@ bots:
     notional_usd: 5000
     spread_usd_per_oz: 0.30
     slippage_rate: 0.0002
-    take_profit_usd: 2         # Erdem 23.10: close at +2 $
-    stop_loss_usd: 3           # ... and at -3 $
+    targets_net: true         # Erdem 23.10: quick small wins, amounts are NET (after spread/slippage)
+    take_profit_usd: 2        # close as soon as +2 $ net is in the account
+    stop_loss_usd: 3          # ... and cut at -3 $ net
     max_hold_minutes: 360
     min_score: 0.4
     min_confidence: 0.6

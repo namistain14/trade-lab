@@ -67,6 +67,18 @@ def gold_market_open(now: dt.datetime | None = None) -> bool:
     return not (wd == 5 or (wd == 4 and h >= 21) or (wd == 6 and h < 22))
 
 
+def gold_targets(entry: float, qty: float, side: str, cfg: dict, half: float, slip: float) -> tuple[float, float]:
+    """Price levels for take profit / stop loss. With targets_net the amounts are what lands in the account
+    after the exit spread and slippage (the entry costs are already inside the entry price)."""
+    tp_usd, sl_usd = cfg["take_profit_usd"], cfg["stop_loss_usd"]
+    if not cfg.get("targets_net"):
+        tp_d, sl_d = tp_usd / qty, sl_usd / qty
+        return (entry + tp_d, entry - sl_d) if side == "long" else (entry - tp_d, entry + sl_d)
+    if side == "long":   # closing sells at bid: fill = L - half - L*slip
+        return (entry + half + tp_usd / qty) / (1 - slip), (entry + half - sl_usd / qty) / (1 - slip)
+    return (entry - half - tp_usd / qty) / (1 + slip), (entry - half + sl_usd / qty) / (1 + slip)
+
+
 def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_key: str | None,
               data=None, sentiment_fn=None, shared_news: dict | None = None, tag: str = "B") -> dict:
     sym, slip = cfg["symbol"], cfg["slippage_rate"]
@@ -81,13 +93,12 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     for p in acc["positions"]:
         if p["symbol"] != sym:
             continue
-        tp_d, sl_d = cfg["take_profit_usd"] / p["qty"], cfg["stop_loss_usd"] / p["qty"]
-        tp, sl = ((p["entry"] + tp_d, p["entry"] - sl_d) if p["side"] == "long"
-                  else (p["entry"] - tp_d, p["entry"] + sl_d))
+        tp, sl = gold_targets(p["entry"], p["qty"], p["side"], cfg, half, slip)
         moved = "be_trigger" in p and p["be_trigger"] is None  # B3 already moved its stop to break-even
         if abs(tp - p["tp"]) > 1e-6 or (abs(sl - p["sl"]) > 1e-6 and not moved):
             p["tp"], p["sl"] = tp, (p["sl"] if moved else sl)
-            log.append(f"{tag}  hedefler güncellendi: TP {tp:.2f} (+{cfg['take_profit_usd']}$), SL {p['sl']:.2f} (-{cfg['stop_loss_usd']}$)")
+            net = " net" if cfg.get("targets_net") else ""
+            log.append(f"{tag}  hedefler güncellendi: TP {tp:.2f} (+{cfg['take_profit_usd']}${net}), SL {p['sl']:.2f} (-{cfg['stop_loss_usd']}${net})")
     for tr in paper.check_exits(acc, sym, m1, exit_fill=exit_fill, exit_fee=lambda px, q: 0.0):
         log.append(f"{tag}  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
@@ -179,8 +190,7 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     margin = cfg["notional_usd"] / cfg["leverage"]
     if acc["balance"] < margin:
         return {sym: price_now}
-    tp_d, sl_d = cfg["take_profit_usd"] / qty, cfg["stop_loss_usd"] / qty
-    tp, sl = (entry + tp_d, entry - sl_d) if side == "long" else (entry - tp_d, entry + sl_d)
+    tp, sl = gold_targets(entry, qty, side, cfg, half, slip)
     pos = paper.open_position(acc, symbol=sym, side=side, price=entry, qty=qty, tp=tp, sl=sl, t_ms=_now_ms(),
                               entry_cost=0.0, max_hold_min=cfg["max_hold_minutes"], margin=margin,
                               note=f"news {score:+.2f}/{conf:.2f}")
