@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 11:36 (İstanbul)
+> Son güncelleme: 23.10.2026 11:48 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Son haber analizi (23.10 11:36): puan **-0.50**, güven 0.60 — Altın 3 aylık dibe yakın (~4.015$) işlem görüyor; petrol yükselişi enerji kaynaklı enflasyon ve Fed sıkılaştırma beklentilerini besliyor, Warsh'ın yeni faiz artışı sinyali verebileceği haberi ve güçlü dolar altın için baskılayıcı. Buna karşın İran savaşı ve jeopolitik risk, ayrıca 10 yıllık tahvil getirisinin sert düşüşü gibi karşıt unsurlar olduğundan güven orta düzeyde.
+Son haber analizi (23.10 11:48): puan **-0.60**, güven 0.70 — Petrol kaynaklı enflasyon endişeleri ve Fed'in faiz artırımı beklentileri (Warsh'ın daha fazla hikaye işaret etmesi, Fed'in yüksek enflasyon tahmini) altın için baskılayıcı; dolar ve getiriler de güçlü. Jeopolitik risk (İran, Ukrayna) güvenli liman talebini kısmen destekleyebilir ancak doların güvenli liman rolünü kaybettiği haberi bu etkiyi zayıflatıyor.
 
 Son işlemler:
 
@@ -58,19 +58,18 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -19.75 $ | -19.75 $ |
-| İşlem sayısı | 4 | 4 |
-| Kazanma oranı | %25.0 | %25.0 |
-| Ödenen komisyon/spread | 9.49 $ | 9.49 $ |
+| Net kâr/zarar | -30.94 $ | -30.94 $ |
+| İşlem sayısı | 5 | 5 |
+| Kazanma oranı | %20.0 | %20.0 |
+| Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,977.19 $** (başlangıç 5,000 $, -22.81 $ / %-0.46)
-
-Açık pozisyonlar: PAXGUSDT short @ 4028.45 (TP 4016.37 / SL 4036.51)
+**Hesap değeri: 4,969.06 $** (başlangıç 5,000 $, -30.94 $ / %-0.62)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 11:45 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 08:32 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 05:27 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 04:52 | PAXGUSDT | short | +13.82 $ | take profit |
@@ -80,21 +79,22 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +0.00 $ |
-| İşlem sayısı | 0 | 0 |
+| Net kâr/zarar | -11.19 $ | -11.19 $ |
+| İşlem sayısı | 1 | 1 |
 | Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+| Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 4,996.89 $** (başlangıç 5,000 $, -3.11 $ / %-0.06)
+**Hesap değeri: 4,988.81 $** (başlangıç 5,000 $, -11.19 $ / %-0.22)
 
-Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
+Son işlemler:
+
+| Kapanış | Parite | Yön | Sonuç | Neden |
+|---|---|---|---|---|
+| 23.10 11:45 | PAXGUSDT | short | -11.19 $ | stop |
 
 ## Son olaylar
 
 ```
-23.10 10:23 B1  CLOSE short stop: -4.19 USD
-23.10 10:23 N  NEWS (5 new) score -0.60 conf 0.60: Altın 4.000 doların altına düşerek Temmuz'dan beri en düşük seviyeye geriledi; petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve dolar (DXY ~101.5) güçlü seyrediyor. Bu tablo kısa vadede altın için baskılayıcı, ancak AI kaynaklı teknoloji satışı ve 10 yıllık tahvil getirisindeki sert düşüş (19 baz puan) güvenli liman talebi ve gevşeme beklentisi açısından karşıt sinyaller içerdiğinden güveni sınırlı tutuyorum.
-23.10 10:23 B3  SHORT gold 5000 USD x10 @ 4028.41 (TP 4016.33, SL 4036.47; news -0.60)
 23.10 10:33 N  NEWS (8 new) score -0.40 conf 0.55: Altın 4.000 doların altına düştü ve Temmuz'dan beri en düşük seviyelere yakın işlem görüyor; petrol şokunun Fed faiz artırımı beklentilerini canlandırması ve doların güçlü kalması baskı yaratıyor. Buna karşılık 10 yıllık tahvil getirisinin sert düşüşü ve teknoloji satışının güvenli liman talebini artırabilmesi çelişkili sinyaller olduğu için güven sınırlı.
 23.10 10:44 N  NEWS (6 new) score -0.55 conf 0.70: Altın 3 aylık dip yakınında; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun faiz korkularını yeniden canlandırması altına baskı yapıyor. Orta Doğu saldırıları ve jeopolitik risk güvenli liman talebi yaratabilir, ancak bu etki mevcut sert satışı dengelemeye yetmiyor; 10 yıllık tahvil getirisindeki sert düşüş ise çelişkili bir sinyal olarak güveni biraz azaltıyor.
 23.10 10:54 N  NEWS (9 new) score -0.35 conf 0.50: Altın 3 aylık dibe yakın ve 4.000 doların altında işlem görüyor; Fed faiz artırımı beklentileri, güçlü dolar ve petrol şokunun enflasyon/faiz korkularını yeniden canlandırması fiyatı baskılıyor. Buna karşılık ABD-İran savaşı ihtimali ve 10 yıllık tahvil getirisindeki sert düşüş gibi güvenli liman/gevşeme yönlü sinyaller çelişkili olduğu için güven orta düzeyde tutuldu.
@@ -107,6 +107,9 @@ Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
 23.10 11:27 B1  CLOSE short stop: -4.19 USD
 23.10 11:27 N  NEWS (9 new) score -0.70 conf 0.70: Petrol fiyatlarındaki yükseliş enflasyon endişelerini ve Fed faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın üç aylık dipte. Jeopolitik risk (İran savaşı) var ama güvenli liman talebi bu baskıyı dengelemiyor; yine de veri/Fed açıklamaları sürpriz getirebileceğinden güven orta düzeyde.
 23.10 11:36 N  NEWS (7 new) score -0.50 conf 0.60: Altın 3 aylık dibe yakın (~4.015$) işlem görüyor; petrol yükselişi enerji kaynaklı enflasyon ve Fed sıkılaştırma beklentilerini besliyor, Warsh'ın yeni faiz artışı sinyali verebileceği haberi ve güçlü dolar altın için baskılayıcı. Buna karşın İran savaşı ve jeopolitik risk, ayrıca 10 yıllık tahvil getirisinin sert düşüşü gibi karşıt unsurlar olduğundan güven orta düzeyde.
+23.10 11:48 N  NEWS (5 new) score -0.60 conf 0.70: Petrol kaynaklı enflasyon endişeleri ve Fed'in faiz artırımı beklentileri (Warsh'ın daha fazla hikaye işaret etmesi, Fed'in yüksek enflasyon tahmini) altın için baskılayıcı; dolar ve getiriler de güçlü. Jeopolitik risk (İran, Ukrayna) güvenli liman talebini kısmen destekleyebilir ancak doların güvenli liman rolünü kaybettiği haberi bu etkiyi zayıflatıyor.
+23.10 11:48 B2  CLOSE short stop: -11.19 USD
+23.10 11:48 B3  CLOSE short stop: -11.19 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
