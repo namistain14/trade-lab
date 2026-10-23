@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 20:49 (İstanbul)
+> Son güncelleme: 23.10.2026 20:58 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -35,14 +35,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -73.85 $ | -70.04 $ |
-| İşlem sayısı | 30 | 31 |
-| Kazanma oranı | %23.3 | %25.8 |
-| Ödenen komisyon/spread | 71.20 $ | 73.57 $ |
+| Net kâr/zarar | -76.85 $ | -73.04 $ |
+| İşlem sayısı | 31 | 32 |
+| Kazanma oranı | %22.6 | %25.0 |
+| Ödenen komisyon/spread | 73.57 $ | 75.94 $ |
 
-**Hesap değeri: 4,928.77 $** (başlangıç 5,000 $, -71.23 $ / %-1.42)
-
-Açık pozisyonlar: PAXGUSDT short @ 4005.85 (TP 4003.30 / SL 4007.30)
+**Hesap değeri: 4,926.96 $** (başlangıç 5,000 $, -73.04 $ / %-1.46)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -52,11 +50,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 20:51 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 20:31 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 20:03 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 19:47 | PAXGUSDT | short | -4.47 $ | stop (gap) |
 | 23.10 19:31 | PAXGUSDT | short | +3.81 $ | take profit |
-| 23.10 18:43 | PAXGUSDT | short | -4.19 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -124,7 +122,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,024.91 $** (başlangıç 5,000 $, +24.91 $ / %+0.50)
+**Hesap değeri: 5,019.75 $** (başlangıç 5,000 $, +19.75 $ / %+0.40)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -148,7 +146,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:52 B6  karar turu: Claude «Piyasa karışık ve düşük volatiliteli bir seyir izliyor; yapay zekâ altyapısına dair şüpheler teknolojiyi baskılasa da işlem açmayı haklı kılacak net bir avantaj yok.» / GPT «Endekslerde hafif satış baskısı var ancak haber ve fiyat teyidi birlikte yeterince güçlü olmadığından kaldıraçlı yeni pozisyon açmadan beklemek daha disiplinli.»
 23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)
 23.10 20:05 B1  CLOSE short stop: -4.19 USD
 23.10 20:16 B1  SHORT gold 5000 USD x10 @ 4008.77 (TP 4004.76, SL 4011.17; news -0.20)
@@ -163,6 +160,7 @@ Son işlemler:
 23.10 20:49 B1  SHORT gold 5000 USD x10 @ 4005.85 (TP 4003.30, SL 4007.30; news -0.20)
 23.10 20:49 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 23.10 20:49 B6  karar turu: Claude «-» / GPT «Endekslerde dar bant ve jeopolitik belirsizlik hâkim; mevcut fiyat hareketleri yüzde 1,5 hedefli yeni pozisyonlar için haberlerle desteklenen net bir avantaj sunmuyor.»
+23.10 20:58 B1  CLOSE short stop: -3.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
