@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 19:01 (İstanbul)
+> Son güncelleme: 23.10.2026 19:13 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,13 +40,13 @@ Son işlemler:
 | Kazanma oranı | %23.1 | %25.9 |
 | Ödenen komisyon/spread | 61.70 $ | 64.07 $ |
 
-**Hesap değeri: 4,937.17 $** (başlangıç 5,000 $, -62.83 $ / %-1.26)
+**Hesap değeri: 4,937.70 $** (başlangıç 5,000 $, -62.30 $ / %-1.25)
 
 Açık pozisyonlar: PAXGUSDT short @ 4018.98 (TP 4014.96 / SL 4021.39)
 
-Son haber analizi (23.10 19:01): Claude puan **-0.25**, güven 0.40 — Haberler karışık ama net eğilim hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik risk primini azaltıyor, kritik Fed toplantısı öncesi enflasyon kaygıları ve yüksek reel faizler sıkılaştırma beklentisini destekliyor. Buna karşılık ABD/İsrail'in olası İran saldırısına hazırlandığı haberi ve sürmekte olan savaş riskleri güvenli liman talebini sınırlı da olsa destekliyor; ayrıca bazı başlıklar eski veya zaten fiyatlanmış olabilir.
+Son haber analizi (23.10 19:13): Claude puan **-0.30**, güven 0.40 — Haberler karışık ama net eğilim hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik risk primini azaltıyor, kritik Fed toplantısı öncesi enflasyon kaygıları ve yüksek reel faizler sıkılaştırma beklentisini destekliyor. Buna karşılık ABD/İsrail'in olası İran saldırısına hazırlandığı haberi ve sürmekte olan savaş riskleri güvenli liman talebini sınırlı da olsa destekliyor; ayrıca bazı başlıklar eski veya zaten fiyatlanmış olabilir.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — İran savaşının hızlı sona erdirilmesi ihtimali güvenli liman talebini sınırlayabilir; ancak haber net bir karar değil ve çatışmanın seyri belirsiz. Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede hafif aşağı yönlü baskıyı destekliyor.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede baskı yaratıyor. Yeni bölgesel saldırılar güvenli liman talebini destekleyebilir; ancak İran savaşının hızlı sona erebileceği haberleri ve karışık enflasyon sinyalleri düşüşü sınırlıyor.
 
 Son işlemler:
 
@@ -67,7 +67,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,964.37 $** (başlangıç 5,000 $, -35.63 $ / %-0.71)
+**Hesap değeri: 4,964.89 $** (başlangıç 5,000 $, -35.11 $ / %-0.70)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -126,7 +126,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,009.12 $** (başlangıç 5,000 $, +9.12 $ / %+0.18)
+**Hesap değeri: 5,009.64 $** (başlangıç 5,000 $, +9.64 $ / %+0.19)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -150,9 +150,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 18:28 B1  CLOSE short stop (gap): -6.96 USD
-23.10 18:28 N  NEWS (7 new) score -0.45 conf 0.60: Altın, Fed'in kararı öncesinde enflasyon beklentileri yükselirken ve Fed'in Aralık'ta faiz artırımı olasılığı arttığı için baskı altında; reel faizler yüksek kalmaya devam ediyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak altın son haberlerde 4.000 doların altına inerken güvenli liman varlığının da satıldığı görüldü, bu da jeopolitik primin şu an zayıf olduğunu gösteriyor.
-23.10 18:28 N  GPT  score -0.35 conf 0.58: Altının 4.000 doların altına gerilemesi ve yüksek reel getirilerin fırsat maliyetini artırması kısa vadede baskıyı destekliyor; enflasyon baskılarının sürmesi Fed’in gevşeme beklentilerini de sınırlayabilir. PMI verileri karışık, jeopolitik haberler ise çelişkili olduğundan düşüş yönündeki kanaat te
 23.10 18:28 B3  CLOSE short stop (gap): -11.35 USD
 23.10 18:28 B6  karar turu: Claude «Piyasa jeopolitik ve makro başlıklar arasında yatay-karışık seyrediyor; net bir avantaj olmadığından beklemek en doğrusu.» / GPT «Endekslerde toparlanma görülse de önümüzdeki 1–3 saatte yüzde 1,5 hedefi destekleyen haber ve fiyat uyumu bulunmadığından kaldıraçlı işlem açmamak daha disiplinli.»
 23.10 18:40 N  NEWS (10 new) score -0.30 conf 0.50: Petrol kaynaklı enflasyon endişeleri, Fed'in Aralık'ta faiz artırma olasılığını yükseltmesi ve reel faizlerin yüksek seyretmesi altın için baskı yaratıyor; İran'da savaş tırmanışı hazırlıkları ise sınırlı bir güvenli liman desteği sağlıyor. Net etki hafif negatif, ancak jeopolitik risk ve olası ani haber akışı nedeniyle güven orta düzeyde.
@@ -165,6 +162,9 @@ Son işlemler:
 23.10 19:01 N  NEWS (11 new) score -0.25 conf 0.40: Haberler karışık ama net eğilim hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik risk primini azaltıyor, kritik Fed toplantısı öncesi enflasyon kaygıları ve yüksek reel faizler sıkılaştırma beklentisini destekliyor. Buna karşılık ABD/İsrail'in olası İran saldırısına hazırlandığı haberi ve sürmekte olan savaş riskleri güvenli liman talebini sınırlı da olsa destekliyor; ayrıca bazı başlıklar eski veya zaten fiyatlanmış olabilir.
 23.10 19:01 N  GPT  score -0.25 conf 0.48: İran savaşının hızlı sona erdirilmesi ihtimali güvenli liman talebini sınırlayabilir; ancak haber net bir karar değil ve çatışmanın seyri belirsiz. Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede hafif aşağı yönlü baskıyı destekliyor.
 23.10 19:01 B1  SHORT gold 5000 USD x10 @ 4018.98 (TP 4014.96, SL 4021.39; news -0.25)
+23.10 19:13 N  NEWS (11 new) score -0.30 conf 0.40: 
+23.10 19:13 N  GPT  score -0.25 conf 0.48: Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede baskı yaratıyor. Yeni bölgesel saldırılar güvenli liman talebini destekleyebilir; ancak İran savaşının hızlı sona erebileceği haberleri ve karışık enflasyon sinyalleri düşüşü sınırlıyor.
+23.10 19:13 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; enerji öne çıkarken teknoloji hafif pozitif, net bir işlem fırsatı görünmüyor.» / GPT «Endekslerde dar bant ve Tesla'da önceden gerçekleşmiş satış baskısı nedeniyle mevcut haber-fiyat uyumu yeni pozisyon açmak için yeterince güçlü değil.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
