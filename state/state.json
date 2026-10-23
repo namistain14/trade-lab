@@ -846,6 +846,10 @@
    [
     1792798266,
     5000.3
+   ],
+   [
+    1792798994,
+    5000.3
    ]
   ]
  },
@@ -2369,28 +2373,32 @@
    [
     1792798266,
     4923.96
+   ],
+   [
+    1792798994,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.45,
-   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ay\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc ve mevcut momentum negatif. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131yor ve Fed'in s\u0131k\u0131 duru\u015fu beklentilerini destekleyerek alt\u0131n i\u00e7in olumsuz bir ortam yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran ve iki cepheli sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir; bu nedenle etki kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.25,
+   "confidence": 0.5,
+   "reason": "Petrol alt\u0131 ayl\u0131k zirveye \u00e7\u0131karken enflasyon endi\u015feleri art\u0131yor ve Fed toplant\u0131s\u0131 \u00f6ncesinde faiz beklentilerinin sertle\u015fmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 olabilir. Sava\u015f\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebini destekleyici olsa da, alt\u0131n son d\u00f6nemde bu jeopolitik riski fiyatlamak yerine sat\u0131l\u0131yor (3 ayl\u0131k dip, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f), bu nedenle net etki hafif negatif g\u00f6r\u00fcn\u00fcyor.",
    "n": 45,
-   "ts": 1792798263418,
-   "new_headlines": 10,
+   "ts": 1792798992003,
+   "new_headlines": 6,
    "key_events": [
     "Petrol fiyatlar\u0131 enflasyon endi\u015felerini art\u0131r\u0131yor, Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor",
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; haftal\u0131k en sert kay\u0131p ya\u015fand\u0131",
     "Gelecek hafta Fed toplant\u0131s\u0131 \u00f6ncesi hisse senetlerinde sat\u0131\u015f"
    ],
    "gpt": {
-    "score": -0.15,
-    "confidence": 0.43,
-    "reason": "Sava\u015f\u0131n uzayabilece\u011fi ve petrol\u00fcn y\u00fckseldi\u011fi haberleri g\u00fcvenli liman talebini desteklese de, petrol kaynakl\u0131 enflasyon ve faiz beklentileri alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemi\u015f olmas\u0131 k\u0131sa vadeli zay\u0131f momentumu g\u00f6steriyor; etkiler birbiriyle \u00e7eli\u015fti\u011finden y\u00f6n sin",
+    "score": -0.2,
+    "confidence": 0.45,
+    "reason": "\u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yeniden alevlenebilece\u011fi ve petrol\u00fcn alt\u0131 ay\u0131n zirvesine \u00e7\u0131kt\u0131\u011f\u0131 haberleri g\u00fcvenli liman talebini desteklese de, enflasyon ve Fed\u2019in daha \u015fahin kalabilece\u011fi kayg\u0131lar\u0131 alt\u0131na bask\u0131 yapabilir. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131ndaki zay\u0131f seyri k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f riskini art\u0131r\u0131yor; etkiler bi",
     "key_events": [
-     "Petrol y\u00fckseli\u015fi ve sava\u015f\u0131n uzama ihtimali",
-     "Alt\u0131n\u0131n 4.000 dolar alt\u0131nda zay\u0131f seyri",
-     "Enflasyon ve faiz beklentilerinin alt\u0131na bask\u0131s\u0131"
+     "Petrol alt\u0131 ay\u0131n zirvesinde; \u0130ran sava\u015f\u0131 yeniden ba\u015flayabilir",
+     "Y\u00fckselen petrol fiyatlar\u0131 enflasyon ve faiz kayg\u0131lar\u0131n\u0131 art\u0131r\u0131yor",
+     "Alt\u0131n 4.000 dolar\u0131n alt\u0131nda, d\u00fc\u015f\u00fc\u015f e\u011filimi s\u00fcr\u00fcyor"
     ],
     "model": "gpt-6-luna"
    }
@@ -3477,13 +3485,24 @@
     "new": 10,
     "gpt_score": -0.15,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1792798992003,
+    "score": -0.25,
+    "confidence": 0.5,
+    "reason": "Petrol alt\u0131 ayl\u0131k zirveye \u00e7\u0131karken enflasyon endi\u015feleri art\u0131yor ve Fed toplant\u0131s\u0131 \u00f6ncesinde faiz beklentilerinin sertle\u015fmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 olabilir. Sava\u015f\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebini destekleyici olsa da, alt\u0131n son d\u00f6nemde bu jeopolitik riski fiyatlamak yerine sat\u0131l\u0131yor (3 ayl\u0131k dip, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f), bu nedenle net etki hafif negatif g\u00f6r\u00fcn\u00fcyor.",
+    "new": 6,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.45
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 13
+   "n": 14
   },
   "news_seen": [
+   "What Running a Charity Taught Me About Washington\u2019s War on Nonprofits - Washington Policy Center",
+   "Oil Climbs To Six-Month High As Analysts Concede U.S./Iran War May Soon Resume - Ship & Bunker",
    "Oil rallies on dual-front war - Oil & Gas Journal",
    "Levelland war veteran recalls eventful journey, WWII experience - Lubbock Avalanche-Journal",
    "Gold price today, October 24th: Hits a 3-month low, below $4,000. - Vietnam.vn",
@@ -3499,12 +3518,13 @@
    "Opinion | A stinky cheese tariff - The Washington Post",
    "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
    "National Park Service Designates Idaho\u2019s World War II Heritage City - Big Country News |",
+   "After Putin, After the War: Russia\u2019s Next Chapter - Stanford University",
    "Watch Gen. Hodges (Ret.) Says Trump Actions Help Russia's War - Bloomberg",
    "TSX falls as gold slides, AI spending concerns weigh on technology stocks - Investing.com Canada",
    "U.S. ambassador to U.N. says Iran war could last another year - CBS News",
+   "Jon Husted calls for end to war in Iran 'on America's terms,' flexes affordability agenda - KHGI",
    "NYC horse carriage drivers gear up for legal war after citywide ban - Courthouse News",
-   "Jon Husted calls for end to war in Iran 'on America's terms', flexes affordability agenda - KEYE",
-   "[ANALYSIS] North Korea's diversifying missile arsenal complicates South's defense - The Korea Times",
+   "Why Trump and Carney Haven't Touched Energy in Their Tariff War - Crude Oil Prices Today | OilPrice.com",
    "The War Department has Designated Confucius Institutes as a Threat to our National Security. - MilitaryNews.com",
    "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
    "Gold traders mull repercussions of US political turmoil - Bangkok Post",
@@ -3516,19 +3536,16 @@
    "Gold settles below $4,000 after steepest weekly loss in nearly five months (GLD:NYSEARCA) - Seeking Alpha",
    "Quad Cities VA Clinic honors 100-year-old World War II veteran - KWQC",
    "Iran war could last another year, Trump ambassador says - Salon.com",
-   "4 Steps For Cos. Amid Russia Sanctions Law Uncertainty - Law360",
    "Top intel Democrats say they've \"war-gamed\" how to react if Trump alleges foreign interference in midterms - CBS News",
    "Wall St Week Ahead Earnings flood, Fed meeting will test rickety AI market rally - Reuters",
    "Contracts for Oct. 23, 2026 - U.S. Department of War (.gov)",
    "Navarrete wants a war, Foster promises domination in three-belt unification fight - Yahoo Sports",
-   "Billionaires Palmer Luckey And Ben Lamm Spin Up Startup To Genetically Engineer Military Dogs - Forbes",
    "Zaidi seeks higher US dollar shipments to narrow Iraq's exchange gap - The New Region",
+   "Penny War Car Show - WNEM",
    "Netanyahu: Israel should ready for global sanctions, use blockchain to circumvent them - The Times of Israel",
    "Argentina drops investigation into President Milei over crypto fraud",
-   "Zelensky hopes Beijing can use \u2018influence\u2019 over Moscow to help stop Ukraine war - South China Morning Post",
    "President Zelenskyy says he's ready for the war with Russia to end - 13newsnow.com",
-   "S&P 500 Earnings Face Key Test as Fed, Inflation Data and Tech Giants Take Focus - Investing.com",
-   "Gold's $4,000 support breaks, but is the selloff overdone? - Kitco"
+   "S&P 500 Earnings Face Key Test as Fed, Inflation Data and Tech Giants Take Focus - Investing.com"
   ]
  },
  "log": [
@@ -3826,7 +3843,9 @@
   "24.10 02:12 N  NEWS (9 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131p Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor, bu da alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu tepkiye de\u011fil, faiz ve dolar beklentilerine odaklan\u0131yor; Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik bu nedenle k\u0131sa vadeli riski y\u00fckseltiyor.",
   "24.10 02:12 N  GPT  score -0.48 conf 0.62: Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve y\u00fckselen petrol fiyatlar\u0131n\u0131n enflasyon ile Fed faiz art\u0131\u015f\u0131 endi\u015felerini beslemesi k\u0131sa vadede bask\u0131n\u0131n s\u00fcrmesine i\u015faret ediyor. Yerel Rusya-Ukrayna ate\u015fkesi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir; ancak ba\u015fl\u0131klar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut d\u00fc\u015f\u00fc\u015f\u00fc yans\u0131t\u0131yor ve yeni kat",
   "24.10 02:31 N  NEWS (10 new) score -0.30 conf 0.45: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ay\u0131n en d\u00fc\u015f\u00fck seviyesini g\u00f6rd\u00fc ve mevcut momentum negatif. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131yor ve Fed'in s\u0131k\u0131 duru\u015fu beklentilerini destekleyerek alt\u0131n i\u00e7in olumsuz bir ortam yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran ve iki cepheli sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir; bu nedenle etki kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "24.10 02:31 N  GPT  score -0.15 conf 0.43: Sava\u015f\u0131n uzayabilece\u011fi ve petrol\u00fcn y\u00fckseldi\u011fi haberleri g\u00fcvenli liman talebini desteklese de, petrol kaynakl\u0131 enflasyon ve faiz beklentileri alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemi\u015f olmas\u0131 k\u0131sa vadeli zay\u0131f momentumu g\u00f6steriyor; etkiler birbiriyle \u00e7eli\u015fti\u011finden y\u00f6n sin"
+  "24.10 02:31 N  GPT  score -0.15 conf 0.43: Sava\u015f\u0131n uzayabilece\u011fi ve petrol\u00fcn y\u00fckseldi\u011fi haberleri g\u00fcvenli liman talebini desteklese de, petrol kaynakl\u0131 enflasyon ve faiz beklentileri alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemi\u015f olmas\u0131 k\u0131sa vadeli zay\u0131f momentumu g\u00f6steriyor; etkiler birbiriyle \u00e7eli\u015fti\u011finden y\u00f6n sin",
+  "24.10 02:43 N  NEWS (6 new) score -0.25 conf 0.50: Petrol alt\u0131 ayl\u0131k zirveye \u00e7\u0131karken enflasyon endi\u015feleri art\u0131yor ve Fed toplant\u0131s\u0131 \u00f6ncesinde faiz beklentilerinin sertle\u015fmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 olabilir. Sava\u015f\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebini destekleyici olsa da, alt\u0131n son d\u00f6nemde bu jeopolitik riski fiyatlamak yerine sat\u0131l\u0131yor (3 ayl\u0131k dip, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f), bu nedenle net etki hafif negatif g\u00f6r\u00fcn\u00fcyor.",
+  "24.10 02:43 N  GPT  score -0.20 conf 0.45: \u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yeniden alevlenebilece\u011fi ve petrol\u00fcn alt\u0131 ay\u0131n zirvesine \u00e7\u0131kt\u0131\u011f\u0131 haberleri g\u00fcvenli liman talebini desteklese de, enflasyon ve Fed\u2019in daha \u015fahin kalabilece\u011fi kayg\u0131lar\u0131 alt\u0131na bask\u0131 yapabilir. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131ndaki zay\u0131f seyri k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f riskini art\u0131r\u0131yor; etkiler bi"
  ],
  "gold_big": {
   "account": {
@@ -4661,6 +4680,10 @@
    [
     1792798266,
     4964.78
+   ],
+   [
+    1792798994,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -5444,6 +5467,10 @@
    [
     1792798266,
     4973.18
+   ],
+   [
+    1792798994,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -6153,6 +6180,10 @@
    [
     1792798266,
     5000
+   ],
+   [
+    1792798994,
+    5000
    ]
   ]
  },
@@ -6592,6 +6623,10 @@
    [
     1792798266,
     4988.82
+   ],
+   [
+    1792798994,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -6988,6 +7023,10 @@
    [
     1792798266,
     5021.88
+   ],
+   [
+    1792798994,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -7253,6 +7292,10 @@
    ],
    [
     1792798266,
+    100000.0
+   ],
+   [
+    1792798994,
     100000.0
    ]
   ],

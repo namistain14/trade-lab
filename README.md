@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 02:31 (İstanbul)
+> Son güncelleme: 24.10.2026 02:43 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,9 +42,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 02:31): Claude puan **-0.30**, güven 0.45 — Altın 4.000 doların altına inip 3 ayın en düşük seviyesini gördü ve mevcut momentum negatif. Petrol fiyatlarındaki yükseliş enflasyon endişelerini artırıyor ve Fed'in sıkı duruşu beklentilerini destekleyerek altın için olumsuz bir ortam yaratıyor. Buna karşılık İran ve iki cepheli savaş haberleri güvenli liman talebini destekleyebilir; bu nedenle etki karışık ve güven düşük.
+Son haber analizi (24.10 02:43): Claude puan **-0.25**, güven 0.50 — Petrol altı aylık zirveye çıkarken enflasyon endişeleri artıyor ve Fed toplantısı öncesinde faiz beklentilerinin sertleşmesi altın için baskılayıcı olabilir. Savaşın yeniden başlama ihtimali güvenli liman talebini destekleyici olsa da, altın son dönemde bu jeopolitik riski fiyatlamak yerine satılıyor (3 aylık dip, haftalık en sert düşüş), bu nedenle net etki hafif negatif görünüyor.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.43 — Savaşın uzayabileceği ve petrolün yükseldiği haberleri güvenli liman talebini desteklese de, petrol kaynaklı enflasyon ve faiz beklentileri altın üzerinde baskı yaratabilir. Altının 4.000 doların altına gerilemiş olması kısa vadeli zayıf momentumu gösteriyor; etkiler birbiriyle çeliştiğinden yön sin
+GPT (gpt-6-luna): puan **-0.20**, güven 0.45 — İran çatışmasının yeniden alevlenebileceği ve petrolün altı ayın zirvesine çıktığı haberleri güvenli liman talebini desteklese de, enflasyon ve Fed’in daha şahin kalabileceği kaygıları altına baskı yapabilir. Altının 4.000 doların altındaki zayıf seyri kısa vadeli düşüş riskini artırıyor; etkiler bi
 
 Son işlemler:
 
@@ -145,8 +145,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 01:08 N  GPT  score -0.58 conf 0.67: Altın 4.000 dolar desteğinin altına inerken yükselen petrolün Fed faiz artışı beklentilerini güçlendirmesi kısa vadede baskın biçimde negatif. İran’da yeni operasyon ihtimali güvenli liman talebini destekleyebilir; bu karşıt etki ve haberlerin bir kısmındaki belirsizlik güveni sınırlıyor.
-24.10 01:15 N  NEWS (7 new) score -0.40 conf 0.55: Petrol fiyatlarındaki yükseliş Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı yaratıyor; altın 4.000 dolar desteğini kaybetti. İran savaşının sürmesi ve yeniden başlama riski güvenli liman talebini destekleyebilir, ancak bu etki şu an faiz beklentilerinin gerisinde kalıyor.
 24.10 01:15 N  GPT  score -0.35 conf 0.58: İran gerilimi güvenli liman talebini destekleyebilir; ancak yükselen petrolün Fed faiz artışı beklentilerini güçlendirmesi ve altının 4.000 doların altına gerilemesi kısa vadede daha baskın, aşağı yönlü etki yaratıyor. Yeni başlıklar arasında gerilimi azaltacak net bir gelişme yok; yine de haber akı
 24.10 01:26 N  NEWS (11 new) score -0.50 conf 0.60: Petrol fiyatlarındaki yükseliş enflasyon ve Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı oluşturuyor; altın 4.000 dolar desteğinin altına inmiş durumda. İran savaşının yeniden başlayabileceğine dair haberler güvenli liman talebini destekleyici olsa da, mevcut fiyat hareketinde bu etkinin hawkish Fed beklentilerinin gerisinde kaldığı görülüyor; yaklaşan Fed toplantısı ve ABD tarifeleri/siyasi gelişmeler kısa vadede oynaklığı artırabilir.
 24.10 01:26 N  GPT  score -0.38 conf 0.58: Altının 4.000 doların altına düşmesi ve petrol kaynaklı enflasyonun Fed’i daha sıkı politikaya yöneltebileceği beklentisi kısa vadede baskın, altın için olumsuz. İran ve yaptırım başlıkları güvenli liman talebini destekleyebilir; ancak etkileri belirsiz ve karşıt haberler güveni sınırlıyor.
@@ -160,6 +158,8 @@ Son işlemler:
 24.10 02:12 N  GPT  score -0.48 conf 0.62: Altının 4.000 doların altına inmesi ve yükselen petrol fiyatlarının enflasyon ile Fed faiz artışı endişelerini beslemesi kısa vadede baskının sürmesine işaret ediyor. Yerel Rusya-Ukrayna ateşkesi güvenli liman talebini sınırlayabilir; ancak başlıklar büyük ölçüde mevcut düşüşü yansıtıyor ve yeni kat
 24.10 02:31 N  NEWS (10 new) score -0.30 conf 0.45: Altın 4.000 doların altına inip 3 ayın en düşük seviyesini gördü ve mevcut momentum negatif. Petrol fiyatlarındaki yükseliş enflasyon endişelerini artırıyor ve Fed'in sıkı duruşu beklentilerini destekleyerek altın için olumsuz bir ortam yaratıyor. Buna karşılık İran ve iki cepheli savaş haberleri güvenli liman talebini destekleyebilir; bu nedenle etki karışık ve güven düşük.
 24.10 02:31 N  GPT  score -0.15 conf 0.43: Savaşın uzayabileceği ve petrolün yükseldiği haberleri güvenli liman talebini desteklese de, petrol kaynaklı enflasyon ve faiz beklentileri altın üzerinde baskı yaratabilir. Altının 4.000 doların altına gerilemiş olması kısa vadeli zayıf momentumu gösteriyor; etkiler birbiriyle çeliştiğinden yön sin
+24.10 02:43 N  NEWS (6 new) score -0.25 conf 0.50: Petrol altı aylık zirveye çıkarken enflasyon endişeleri artıyor ve Fed toplantısı öncesinde faiz beklentilerinin sertleşmesi altın için baskılayıcı olabilir. Savaşın yeniden başlama ihtimali güvenli liman talebini destekleyici olsa da, altın son dönemde bu jeopolitik riski fiyatlamak yerine satılıyor (3 aylık dip, haftalık en sert düşüş), bu nedenle net etki hafif negatif görünüyor.
+24.10 02:43 N  GPT  score -0.20 conf 0.45: İran çatışmasının yeniden alevlenebileceği ve petrolün altı ayın zirvesine çıktığı haberleri güvenli liman talebini desteklese de, enflasyon ve Fed’in daha şahin kalabileceği kaygıları altına baskı yapabilir. Altının 4.000 doların altındaki zayıf seyri kısa vadeli düşüş riskini artırıyor; etkiler bi
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
