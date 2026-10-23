@@ -82,6 +82,14 @@ ul.alerts li .dim{font-family:var(--mono);font-size:11px}
 #setup ol{padding-left:20px;margin:8px 0 14px}
 #setup li{margin:4px 0}
 input{width:100%;font:14px var(--mono);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--dim);margin-right:6px;vertical-align:middle}
+.dot.run{background:var(--cyan);box-shadow:0 0 8px var(--cyan);animation:pulse 1.4s ease-in-out infinite}
+.dot.ok{background:var(--ok)}.dot.bad{background:var(--bad)}.dot.warn{background:var(--warn)}
+td.tw{white-space:normal;text-align:left;vertical-align:top}
+td.tw .note{font-family:var(--body);margin-top:2px}
+#agents td:first-child{min-width:150px}
+ul.log{list-style:none;margin:0;padding:0;font:12px/1.5 var(--mono);display:grid;gap:4px}
+ul.log li{border-top:1px dashed var(--line);padding-top:4px;overflow-wrap:anywhere}
 .err{color:var(--bad);font-size:13px;min-height:1.2em}
 @media (prefers-reduced-motion:reduce){.busy .reactor i{animation:none}}
 </style>
@@ -95,11 +103,11 @@ input{width:100%;font:14px var(--mono);color:var(--fg);background:var(--bg);bord
 
   <section id="setup" hidden>
     <h2>Kurulum <small>bir kez, bu cihazda</small></h2>
-    <p>Panel gizli <b>vumeloo-agent</b> reposunu senin salt-okunur anahtarınla okur. Anahtar sadece bu tarayıcıda saklanır, hiçbir yere gönderilmez (yalnızca GitHub'a).</p>
+    <p>Panel gizli <b>vumeloo-agent</b> ve <b>namistain-ops</b> repolarını senin salt-okunur anahtarınla okur. Anahtar sadece bu tarayıcıda saklanır, hiçbir yere gönderilmez (yalnızca GitHub'a).</p>
     <ol>
       <li>GitHub → Settings → Developer settings → <b>Fine-grained tokens</b> → Generate new token.</li>
       <li>Ad: <span class="mono">jarvis-panel</span>, süre: 1 yıl.</li>
-      <li>Repository access: <b>Only select repositories</b> → <span class="mono">vumeloo-agent</span>.</li>
+      <li>Repository access: <b>Only select repositories</b> → <span class="mono">vumeloo-agent</span> ve <span class="mono">namistain-ops</span>.</li>
       <li>Permissions → Repository: <b>Actions: Read-only</b> ve <b>Contents: Read-only</b>. Başka hiçbir şey açma.</li>
       <li>Oluşan anahtarı aşağıya yapıştır.</li>
     </ol>
@@ -110,23 +118,38 @@ input{width:100%;font:14px var(--mono);color:var(--fg);background:var(--bg);bord
   <main id="app" hidden style="display:grid;gap:16px">
     <div class="strip" id="strip"></div>
     <section id="live" class="wide" hidden></section>
+    <section id="agents" class="wide"></section>
     <div class="grid">
       <section id="lumo"></section>
       <section id="nubi"></section>
+      <section id="you"></section>
       <section id="kling"></section>
       <section id="alerts"></section>
     </div>
     <section id="bots" class="wide"></section>
+    <section id="botlive" class="wide"></section>
     <p class="note">Bu panel sadece izler: hiçbir şeyi silmez, yüklemez veya yayınlamaz. Trade botları tamamen sanaldır (paper), yatırım tavsiyesi değildir.</p>
   </main>
 </div>
 
 <script>
-const REPO="namistain14/vumeloo-agent";
+const REPO="namistain14/vumeloo-agent", OPS="namistain14/namistain-ops", TRADE="namistain14/trade-lab";
 const TRADE_RAW="https://raw.githubusercontent.com/namistain14/trade-lab/main/state/state.json";
 const TZ="Europe/Istanbul";
 const SERIES={lumo:{name:"Lumo",hero:"tilki",hist:"data/history.json",at:[6,17]},
-              nubi:{name:"Nubi",hero:"küçük elektrikli araba",hist:"data/nubi/history.json",at:[7,17]}};
+              nubi:{name:"Nubi",hero:"küçük elektrikli araba",hist:"data/nubi/history.json",at:[7,17]},
+              you:{name:"You Are Here",hero:"POV Shorts",hist:"data/you/history.json",at:[12,17],at2:[19,17]}};
+// every automatic worker, where it runs and when
+const AGENTS=[
+  {id:"lumo",name:"Lumo",what:"Tilki hikâyesi (3-6 yaş) → YouTube gizli",repo:REPO,wf:"daily.yml",series:"lumo",at:[[6,17]]},
+  {id:"nubi",name:"Nubi",what:"Elektrikli araba hikâyesi → YouTube gizli",repo:REPO,wf:"daily.yml",series:"nubi",at:[[7,17]]},
+  {id:"you",name:"You Are Here",what:"POV Shorts (What If / A Day As) → YouTube gizli",repo:REPO,wf:"daily.yml",series:"you",at:[[12,17],[19,17]]},
+  {id:"status",name:"Panel verisi",what:"Jarvis için durum toplar",repo:REPO,wf:"status.yml",at:[[8,41]],extra:"+ her koşudan sonra"},
+  {id:"tick",name:"Trade botları (7)",what:"Sanal alım-satım kontrolü",repo:TRADE,wf:"tick.yml",every:"5 dk",stale:25},
+  {id:"report",name:"Trade raporu",what:"Günlük bot raporu",repo:TRADE,wf:"report.yml",at:[[21,5]]},
+  {id:"orders",name:"Sipariş bildirimi",what:"Yeni web siparişi → Telegram",repo:OPS,wf:"orders.yml",every:"15 dk (08-22)",stale:40,hours:[8,22]},
+  {id:"sales",name:"Satış özeti",what:"Son 12 saat satış → Telegram",repo:OPS,wf:"sales.yml",at:[[8,30],[20,30]]},
+  {id:"seo",name:"SEO ajanı",what:"Ürün açıklaması (Claude yazar, GPT doğrular) → site",repo:OPS,wf:"seo.yml",manual:"elle (zamanlama kapalı)"}];
 const BOTS=[["crypto_rules","A","Kripto kurallar"],["crypto_bounce","A2","Kripto düşüş sonrası"],
             ["gold_news","B1","Altın + haber"],["gold_big","B2","Altın sıkı eşik"],
             ["gold_pro","B3","Altın seans + momentum"],["gold_contra","B4","Altın haberin tersi"],
@@ -155,8 +178,8 @@ async function gh(path,raw){
 const ghJson=async(p)=>JSON.parse(await gh(p,true));
 function seriesOf(run){
   const t=(run.display_title||"").toLowerCase();
-  if(t.startsWith("nubi"))return"nubi"; if(t.startsWith("lumo"))return"lumo";
-  if(run.event==="schedule")return (run.run_started_at||"").slice(11,13)==="04"?"nubi":"lumo";
+  if(t.startsWith("nubi"))return"nubi"; if(t.startsWith("lumo"))return"lumo"; if(t.startsWith("you"))return"you";
+  if(run.event==="schedule"){const h=(run.run_started_at||"").slice(11,13);return h==="04"?"nubi":(h==="09"||h==="16"||h==="17")?"you":"lumo"}
   return null;
 }
 function nextRun(at){
@@ -176,8 +199,12 @@ function stageList(notes,status){
 }
 
 async function load(){
+  const wfRuns=(repo,wf,n)=>gh(`/repos/${repo}/actions/workflows/${wf}/runs?per_page=${n}`).then(x=>x.workflow_runs);
+  const otherAgents=AGENTS.filter(a=>a.wf!=="daily.yml");
+  const otherP=Promise.allSettled(otherAgents.map(a=>wfRuns(a.repo,a.wf,3)));
+  const histYP=ghJson(`/repos/${REPO}/contents/${SERIES.you.hist}`).catch(()=>[]);
   const [runsR,statusR,histL,histN,tradeR]=await Promise.allSettled([
-    gh(`/repos/${REPO}/actions/workflows/daily.yml/runs?per_page=12`),
+    gh(`/repos/${REPO}/actions/workflows/daily.yml/runs?per_page=25`),
     ghJson(`/repos/${REPO}/contents/status.json?ref=status`),
     ghJson(`/repos/${REPO}/contents/${SERIES.lumo.hist}`),
     ghJson(`/repos/${REPO}/contents/${SERIES.nubi.hist}`),
@@ -185,7 +212,10 @@ async function load(){
   if(runsR.status==="rejected"&&runsR.reason.auth) throw runsR.reason;
   const runs=runsR.status==="fulfilled"?runsR.value.workflow_runs:[];
   const status=statusR.status==="fulfilled"?statusR.value:null;
-  const hist={lumo:histL.value||[],nubi:histN.value||[]};
+  const hist={lumo:histL.value||[],nubi:histN.value||[],you:await histYP};
+  const other=await otherP; const runsOf={};
+  otherAgents.forEach((a,i)=>{runsOf[a.id]=other[i].status==="fulfilled"?other[i].value:{error:other[i].reason}});
+  for(const a of AGENTS.filter(a=>a.series)) runsOf[a.id]=runs.filter(r=>seriesOf(r)===a.series);
   const trade=tradeR.status==="fulfilled"?tradeR.value:null;
   const problems=[];
   if(runsR.status==="rejected")problems.push(["bad","Koşular okunamadı: "+runsR.reason.message+(runsR.reason.status===403||runsR.reason.status===404?" (token'da Actions: Read-only açık mı?)":"")]);
@@ -195,7 +225,8 @@ async function load(){
   // notes from status.json, keyed by run id
   const notesById={}; (status?.runs||[]).forEach(r=>{if(r.notes)notesById[r.id]=r.notes});
   // live run
-  const live=runs.find(r=>r.status!=="completed");
+  const live=runs.find(r=>r.status==="in_progress")||runs.find(r=>r.status!=="completed");
+  const queuedN=runs.filter(r=>r.status!=="completed"&&r!==live).length;
   busy=!!live; document.body.classList.toggle("busy",busy);
   if(live){
     let jobs=[]; try{jobs=(await gh(`/repos/${REPO}/actions/runs/${live.id}/jobs`)).jobs}catch(e){}
@@ -206,27 +237,28 @@ async function load(){
       const cls=st.status==="in_progress"?"now":st.conclusion==="success"?"done":st.conclusion==="failure"?"fail":"";
       return `<span class="stage ${cls}">${esc(tr)}</span>`}).join("");
     $("live").hidden=false;
-    $("live").innerHTML=`<h2>Şu an çalışıyor <small>${esc(live.event==="schedule"?"zamanlanmış":"elle başlatıldı")}</small></h2>
+    $("live").innerHTML=`<h2>Şu an çalışıyor <small>${esc(live.event==="schedule"?"zamanlanmış":"elle başlatıldı")}${queuedN?` · ${queuedN} video sırada`:""}</small></h2>
       <div class="row"><span class="title">${esc(label)} · ${cur?esc((STEP_TR.find(([k])=>cur.name.includes(k))||[0,cur.name])[1]):live.status==="queued"?"Sırada bekliyor":"Başlıyor"}</span>
       <span class="mono">${mins(Date.now()-new Date(live.run_started_at||live.created_at))}</span></div>
       <div class="stages">${stepHtml||'<span class="stage now">Kuyrukta</span>'}</div>
-      ${cur&&cur.name.includes("Make today")?`<p class="note">Bölüm üretimi içinde sırayla: senaryo (~2 dk) → ses → Kling sahneleri (en uzun kısım, 10-25 dk) → kurgu/altyazı/müzik → kalite kontrol → gizli YouTube yüklemesi. Bu adımda ${mins(Date.now()-new Date(cur.started_at))} geçti.</p>`:""}
+      ${cur&&cur.name.includes("Make today")&&s!=="you"?`<p class="note">Bölüm üretimi içinde sırayla: senaryo (~2 dk) → ses → Kling sahneleri (en uzun kısım, 10-25 dk) → kurgu/altyazı/müzik → kalite kontrol → gizli YouTube yüklemesi. Bu adımda ${mins(Date.now()-new Date(cur.started_at))} geçti.</p>`:""}
       <p class="note"><a href="${esc(live.html_url)}" target="_blank" rel="noopener">GitHub'da aç</a></p>`;
   } else $("live").hidden=true;
 
   // series cards
-  for(const key of ["lumo","nubi"]){
+  for(const key of ["lumo","nubi","you"]){
     const S=SERIES[key], h=hist[key], ep=h[h.length-1];
     const last=runs.find(r=>seriesOf(r)===key&&r.status==="completed");
     const notes=last?notesById[last.id]||[]:[];
     const pill=!last?'<span class="pill dim">kayıt yok</span>':last.conclusion==="success"?'<span class="pill ok">başarılı</span>':`<span class="pill bad">${esc(last.conclusion)}</span>`;
-    $(key).innerHTML=`<h2>${S.name} <small>${S.hero} · her gün ${String(S.at[0]).padStart(2,"0")}:${S.at[1]}</small></h2>
-      ${ep?`<div class="title">S${ep.season}E${String(ep.episode).padStart(2,"0")} · ${esc(ep.title)}</div>
+    const tt=[S.at,S.at2].filter(Boolean);
+    $(key).innerHTML=`<h2>${S.name} <small>${S.hero} · her gün ${tt.map(t=>String(t[0]).padStart(2,"0")+":"+t[1]).join(" ve ")}</small></h2>
+      ${ep?`<div class="title">${ep.season?`S${ep.season}E${String(ep.episode).padStart(2,"0")} · `:""}${esc(ep.title)}</div>
       <div class="row"><span class="dim">Tarih</span><span class="mono">${esc(ep.date)}</span></div>
       <div class="row"><span class="dim">YouTube</span><a class="mono" href="https://studio.youtube.com/video/${encodeURIComponent(ep.youtube_id)}/edit" target="_blank" rel="noopener">${esc(ep.youtube_id)}</a></div>`:'<p class="dim">Henüz bölüm yok.</p>'}
       <div class="row"><span class="dim">Son koşu</span><span>${pill} <span class="mono dim">${last?dhm(last.run_started_at):""}</span></span></div>
-      <div class="row"><span class="dim">Sonraki koşu</span><span class="mono">${mins(nextRun(S.at))} sonra</span></div>
-      ${last?`<div class="stages">${stageList(notes,last.conclusion)}</div>`:""}
+      <div class="row"><span class="dim">Sonraki koşu</span><span class="mono">${mins(Math.min(...tt.map(nextRun)))} sonra</span></div>
+      ${last&&key!=="you"?`<div class="stages">${stageList(notes,last.conclusion)}</div>`:""}
       <p class="note">${h.length} bölüm kayıtlı. Yayına alma senin elinde.</p>`;
     if(last&&last.conclusion!=="success")problems.push(["bad",`${S.name} son koşusu: ${last.conclusion} (${dhm(last.run_started_at)})`]);
   }
@@ -250,6 +282,52 @@ async function load(){
     if(days<4)problems.unshift([units<low?"bad":"warn",`Kling bakiyesi ${Math.round(units)} birim, ≈ ${days.toFixed(1)} gün yeter. Paketi yenile.`]);
   } else $("kling").innerHTML=`<h2>Kling bakiyesi</h2><p class="dim">Henüz okunmadı. Durum dosyası bir sonraki koşudan sonra gelir.</p>`;
 
+  // agents
+  const nowMs=Date.now(); let running=0, healthy=0; const noAccessRepos=new Set();
+  const arows=AGENTS.map(a=>{
+    const rs=runsOf[a.id];
+    if(rs&&rs.error){
+      const noAccess=rs.error.status===404||rs.error.status===403;
+      if(noAccess)noAccessRepos.add(a.repo.split("/")[1]);
+      return `<tr><td class="tw"><span class="dot warn"></span><b>${esc(a.name)}</b><div class="note">${esc(a.what)}</div></td><td colspan="3" class="warn">${noAccess?"erişim yok":"okunamadı"}</td></tr>`}
+    const act=(rs||[]).find(r=>r.status!=="completed"), last=(rs||[]).find(r=>r.status==="completed");
+    let dot="",state="";
+    if(act){running++;dot="run";state=`<span class="mag">${act.status==="queued"||act.status==="pending"?"sırada":"çalışıyor"}</span> <span class="dim">${mins(nowMs-new Date(act.run_started_at||act.created_at))}</span>`}
+    else if(!last){dot="";state='<span class="dim">henüz koşmadı</span>'}
+    else if(last.conclusion==="success"){dot="ok";state='<span class="ok">tamam</span>';healthy++}
+    else {dot="bad";state=`<span class="bad">${esc(last.conclusion)}</span>`}
+    if(!act&&last&&a.stale){const h=+fmt(nowMs,{hour:"2-digit",hour12:false})%24;
+      const inHours=!a.hours||(h>=a.hours[0]&&h<a.hours[1]);
+      if(inHours&&nowMs-new Date(last.updated_at)>a.stale*60000){dot="warn";state+=` <span class="warn">· gecikti</span>`}}
+    const when=a.at?mins(Math.min(...a.at.map(nextRun)))+" sonra":a.every?"her "+a.every:a.manual;
+    return `<tr><td class="tw"><span class="dot ${dot}"></span><b>${esc(a.name)}</b><div class="note">${esc(a.what)}</div></td>
+      <td class="tw">${state}<div class="note">son: ${last?ago(last.updated_at):"—"}</div></td><td class="tw">${esc(when)}${a.extra?`<div class="note">${esc(a.extra)}</div>`:""}</td></tr>`}).join("");
+  $("agents").innerHTML=`<h2>Ajanlar <small>${AGENTS.length} ajan · ${running} çalışıyor</small></h2>
+    <div class="tbl"><table><thead><tr><th>Ajan</th><th style="text-align:left">Durum</th><th style="text-align:left">Sonraki</th></tr></thead><tbody>${arows}</tbody></table></div>
+    ${noAccessRepos.size?`<p class="note warn">Şirket ajanlarını (${[...noAccessRepos].join(", ")}) görmek için bir kez: GitHub → Settings → Developer settings → Fine-grained tokens → jarvis anahtarı → Edit → Repository access'e <b>${[...noAccessRepos].join(", ")}</b> ekle → Save. Yeni anahtar gerekmez.</p>`:""}`;
+  for(const a of AGENTS){const rs=runsOf[a.id];const last=Array.isArray(rs)&&rs.find(r=>r.status==="completed");
+    if(last&&last.conclusion==="failure"&&!a.series)problems.push(["bad",`${a.name} son koşusu başarısız (${dhm(last.updated_at)})`])}
+
+  // bots: open positions with live price, last moves
+  if(trade){
+    const pos=[];BOTS.forEach(([k,tag])=>(trade[k]?.account.positions||[]).forEach(p=>pos.push({tag,...p})));
+    const syms=[...new Set(pos.map(p=>p.symbol))]; let px={};
+    if(syms.length){try{const r=await fetch("https://data-api.binance.vision/api/v3/ticker/price?symbols="+encodeURIComponent(JSON.stringify(syms)),{cache:"no-store"});
+      if(r.ok)(await r.json()).forEach(x=>px[x.symbol]=+x.price)}catch(e){}}
+    let lastTick=0;BOTS.forEach(([k])=>{const c=trade[k]?.equity_curve;if(c&&c.length)lastTick=Math.max(lastTick,c[c.length-1][0]*1000)});
+    const prow=pos.map(p=>{const cur=px[p.symbol],dir=p.side==="long"?1:-1;const u=cur?(cur-p.entry)*p.qty*dir-(p.friction||0):null;
+      return `<tr><td><b class="mag">${esc(p.tag)}</b> <span class="dim">${esc(p.symbol.replace("USDT",""))}</span></td><td class="${dir>0?"ok":"bad"}">${dir>0?"ALIŞ":"SATIŞ"}</td>
+        <td>${p.entry.toFixed(2)}</td><td>${cur?cur.toFixed(2):"—"}</td><td class="ok">${p.tp.toFixed(2)}</td><td class="bad">${p.sl.toFixed(2)}</td>
+        <td class="${u==null?"dim":u>=0?"ok":"bad"}">${u==null?"—":money(u)}</td><td class="dim">${mins(nowMs-p.opened_ms)}</td></tr>`}).join("");
+    const log=(trade.log||[]).slice(-12).reverse();
+    $("botlive").innerHTML=`<h2>Botlar canlı <small>son kontrol ${lastTick?ago(lastTick):"—"} · fiyat Binance</small></h2>
+      ${pos.length?`<div class="tbl"><table><thead><tr><th>Bot</th><th>Yön</th><th>Giriş</th><th>Şimdi</th><th>Hedef</th><th>Zarar kes</th><th>Anlık K/Z</th><th>Süre</th></tr></thead><tbody>${prow}</tbody></table></div>`:'<p class="dim">Şu an açık pozisyon yok; botlar sinyal bekliyor.</p>'}
+      <h2 style="margin-top:14px">Son hareketler</h2>
+      <ul class="log">${log.map(l=>`<li>${esc(l)}</li>`).join("")||'<li class="dim">kayıt yok</li>'}</ul>
+      <p class="note">A2 sadece 2 saat içinde %2+ düşüşten sonra alır; piyasa sakinse gün boyu işlem açmaması normal. B botları haber puanı eşiği geçince işlem açar.</p>`;
+    if(lastTick&&nowMs-lastTick>40*60000)problems.push(["warn",`Trade botları ${ago(lastTick)} kontrol edildi (GitHub zamanlaması gecikiyor olabilir).`]);
+  } else $("botlive").innerHTML="";
+
   // alerts
   for(const f of status?.failures||[]) problems.push(["bad",`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.workflow)}</a> başarısız <span class="dim">${dhm(f.when)}</span>`,true]);
   for(const r of (status?.runs||[]).slice(0,4)) for(const n of r.notes||[])
@@ -271,19 +349,20 @@ async function load(){
   const tpnl=total-totalStart;
   $("bots").innerHTML=`<h2>Trade botları <small>sanal · 5.000 $ her biri</small></h2>
     ${trade?`<div class="tbl"><table><thead><tr><th>Bot</th><th>Hesap $</th><th>Bugün</th><th>Toplam</th><th>İşlem</th><th>Pozisyon</th><th>Eğri</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="dim">Okunamadı.</p>'}
-    <p class="note">Her 5 dakikada güncellenir, günlük rapor 21:05. 2-3 hafta veri sonra eşikler sıkılaştırılacak.</p>`;
+    <p class="note">Botlar her 5 dakikada kontrol eder (GitHub bazen 10-15 dk geciktirir), günlük rapor 21:05. 2-3 hafta veri sonra eşikler sıkılaştırılacak.</p>`;
 
   // strip
   const kcls=units==null?"dim":units<low?"bad":units/per<4?"warn":"ok";
   $("strip").innerHTML=[
-    ["Durum",busy?'<span class="mag">çalışıyor</span>':'<span class="ok">beklemede</span>'],
+    ["Ajanlar",`<span class="${running?"mag":"ok"}">${running?running+" çalışıyor":AGENTS.length+" hazır"}</span>`],
     ["Kling",units==null?'<span class="dim">—</span>':`<span class="${kcls}">${Math.round(units)} br</span>`],
     ["Botlar bugün",trade?`<span class="${todayPnl>=0?"ok":"bad"}">${money(todayPnl)}</span>`:"—"],
     ["Botlar toplam",trade?`<span class="${tpnl>=0?"ok":"bad"}">${money(tpnl)}</span>`:"—"],
     ["Açık pozisyon",trade?open:"—"],
     ["Uyarı",uniq.length?`<span class="${uniq.some(p=>p[0]==="bad")?"bad":"warn"}">${uniq.length}</span>`:'<span class="ok">0</span>']
   ].map(([b,s])=>`<div class="chip"><b>${b}</b><span>${s}</span></div>`).join("");
-  $("clock").textContent="güncellendi "+hm(new Date())+" · otomatik "+(busy?"20 sn":"60 sn");
+  busy=busy||running>0;
+  $("clock").textContent="güncellendi "+hm(new Date())+" · otomatik "+(busy?"20 sn":"30 sn");
 }
 function spark(v,start){
   if(v.length<2)return'<span class="dim">—</span>';
@@ -298,7 +377,7 @@ async function tick(){
     if(e.auth){store.set("");show();$("tokerr").textContent="Token geçersiz veya süresi dolmuş. Yenisini yapıştır.";return}
     $("clock").textContent="bağlantı hatası, tekrar denenecek";
   }
-  timer=setTimeout(tick,busy?20000:60000);
+  timer=setTimeout(tick,busy?20000:30000);
 }
 function show(){const has=!!store.get();$("setup").hidden=has;$("app").hidden=!has;$("hbtns").hidden=!has;if(has)tick()}
 $("tokform").addEventListener("submit",e=>{e.preventDefault();const v=$("tok").value.trim();
