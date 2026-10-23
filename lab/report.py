@@ -56,11 +56,14 @@ def main() -> None:
     body = "(Claude anahtarı yok, sadece rakamlar)"
     if key:
         client = anthropic.Anthropic(api_key=key)
-        msg = client.messages.create(model=cfg["report"]["model"], max_tokens=1500, messages=[{
+        msg = client.messages.create(model=cfg["report"]["model"], max_tokens=8000, messages=[{
             "role": "user", "content": PROMPT.format(
                 config=json.dumps(cfg["bots"], ensure_ascii=False), stats=json.dumps(stats, ensure_ascii=False),
                 trades=json.dumps(trades[-60:], ensure_ascii=False), news=json.dumps(news, ensure_ascii=False))}])
         body = "".join(getattr(b, "text", "") for b in msg.content)
+        if not body.strip():  # e.g. all tokens spent on thinking: say so instead of an empty report
+            body = f"(Claude raporu boş döndü: stop_reason={msg.stop_reason}; yarın tekrar denenecek)"
+            print(f"::warning::Claude report empty (stop_reason={msg.stop_reason})")
     second = ""
     if os.environ.get("OPENAI_API_KEY", "").strip():  # independent second opinion from GPT
         try:
