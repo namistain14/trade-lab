@@ -193,6 +193,10 @@
    [
     1792713524,
     5000
+   ],
+   [
+    1792713834,
+    5000
    ]
   ]
  },
@@ -470,15 +474,19 @@
    [
     1792713524,
     5003.09
+   ],
+   [
+    1792713834,
+    5003.87
    ]
   ],
   "news": {
-   "score": -0.5,
+   "score": -0.45,
    "confidence": 0.6,
-   "reason": "Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n 4.050 dolar\u0131n alt\u0131na inip iki ayl\u0131k dip g\u00f6rm\u00fc\u015f durumda. Iran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rmas\u0131 gereken bir unsur olsa da, piyasada \u015fu an bu etki g\u00f6r\u00fclm\u00fcyor; bu y\u00fczden d\u00fc\u015f\u00fc\u015f e\u011filimi bask\u0131n kabul edildi ve g\u00fcven orta d\u00fczeyde tutuldu.",
+   "reason": "Petrol 113 dolar\u0131n \u00fczerine f\u0131rlad\u0131 ve bu enflasyon ile s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n iki ayl\u0131k ve 11 haftal\u0131k dip seviyelerine geriledi. Jeopolitik risk (\u0130ran, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini desteklemesi gerekti\u011fi halde piyasa tepkisi alt\u0131n aleyhine \u00e7al\u0131\u015f\u0131yor; Putin'in bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011fu haberi de jeopolitik primi biraz zay\u0131flat\u0131yor.",
    "n": 45,
-   "ts": 1792713522831,
-   "new_headlines": 5,
+   "ts": 1792713833450,
+   "new_headlines": 3,
    "key_events": [
     "Pluang: 'Gold plunges, wiping out summer gains' (yeni, k\u0131sa vadeli bask\u0131)",
     "Petrol 110 dolar\u0131n \u00fczerinde, tanker fiyatlar\u0131 enerji s\u0131k\u0131\u015fmas\u0131 riski",
@@ -672,22 +680,30 @@
     "confidence": 0.6,
     "reason": "Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n 4.050 dolar\u0131n alt\u0131na inip iki ayl\u0131k dip g\u00f6rm\u00fc\u015f durumda. Iran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rmas\u0131 gereken bir unsur olsa da, piyasada \u015fu an bu etki g\u00f6r\u00fclm\u00fcyor; bu y\u00fczden d\u00fc\u015f\u00fc\u015f e\u011filimi bask\u0131n kabul edildi ve g\u00fcven orta d\u00fczeyde tutuldu.",
     "new": 5
+   },
+   {
+    "ts": 1792713833450,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Petrol 113 dolar\u0131n \u00fczerine f\u0131rlad\u0131 ve bu enflasyon ile s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n iki ayl\u0131k ve 11 haftal\u0131k dip seviyelerine geriledi. Jeopolitik risk (\u0130ran, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini desteklemesi gerekti\u011fi halde piyasa tepkisi alt\u0131n aleyhine \u00e7al\u0131\u015f\u0131yor; Putin'in bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011fu haberi de jeopolitik primi biraz zay\u0131flat\u0131yor.",
+    "new": 3
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 18
+   "n": 19
   },
   "news_seen": [
+   "Powerful earthquake hits Tibet killing 16 people, reports say",
    "World War II veteran shares his stories in Conway for short film series - KARK",
    "Gold falls to two\u2011month low below $4,050 as oil spikes | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Gold falls to two\u2011month low below $4,050 as oil spikes - FXStreet",
    "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - FXStreet",
    "Gold prices today, October 23rd: World gold prices fall by more than 2.5%, SJC gold prices remain unchanged. - Vietnam.vn",
-   "Powerful earthquake hits Tibet killing 16 people, reports say",
    "Elon Musk's Starlink and Starshield, and what they mean to Ukraine in the war against Russia - CBS News",
    "Horizon Gold details Gum Creek expansion upside - ICYMI - Proactive financial news",
    "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
+   "Newmont beats quarterly profit estimates on higher gold prices - Mining.com.au",
    "Premiums, Storage and Heirs: The True Price of Owning Gold You Can Touch - CEOWORLD magazine",
    "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
@@ -695,13 +711,13 @@
    "Peso hits one-year low as Fed-Banxico rate gap narrows - Mexico News Daily",
    "Gold price update morning of October 23rd: Gold falls deeply, major banks forecast optimistic - Laodong.vn",
    "The Stanford writing war waged between Stegner and Kesey - The Stanford Daily",
+   "Putin reaffirms Russia\u2019s readiness to resume trilateral peace talks on Ukraine war - Anadolu Ajans\u0131",
    "Korean War soldier laid to rest in North Texas after 75 years - CBS News",
    "Neighbors describe Phoenix hailstorm as \u2018war zone\u2019 - AZ Family",
    "Mexican Peso nears 18.75 as Iran risks and AI selloff hit sentiment | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "New additive manufacturing collaboration aims to boost missile stock - mypanhandle.com",
    "Trump keeps hinting he\u2019ll resume the Iran war after the midterms. These Iowa GOP voters sound wary - CNN",
    "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
-   "Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery By Reuters - Investing.com Canada",
    "Nasdaq, Treasury yields and dollar face a major AI sentiment test - FOREX.com",
    "Saudi Strike Sends Oil Above $113; Gold Breaks Below $4,050 in Capitulation-Style Selloff - BigGo Finance",
    "Sri Lankan PM: Conflicts like the Iran war serve no one - CNN",
@@ -714,16 +730,15 @@
    "Saudi Aramco seeks overseas oil stockpile expansion after Iran war - Iran International",
    "Trump's attacks on the press have become a war - NPR",
    "Michigan documentarian sheds light on Ukraine's resilience amid ongoing war - WZZM13.com",
-   "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
    "Gold falls to 11-week low; silver slumps to lowest close this year (GLD:NYSEARCA) - Seeking Alpha",
    "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war - WWNY",
    "Trump says Musk has restored access to Ukraine's Starlink network",
    "Trump\u2019s Gamble to End the Iran War - The Atlantic",
    "\u2018I\u2019m a killer\u2019: Inside the ugly war over Dolly Parton\u2019s $450M empire - NewsNation",
-   "Trump invokes Cold War era Defense Production Act for oil production, refining - The Mighty 790 KFGO",
    "Opinion | U.K. Labour\u2019s Ceasefire in the War on Gas - WSJ",
    "Trump invokes Cold War era Defense Production Act for oil production, refining - CNBC",
-   "Porter Airlines Pilots Receive $2 Million USD Grant from ALPA\u2019s War Chest to Support Negotiations for a Fair Contract - ALPA"
+   "Porter Airlines Pilots Receive $2 Million USD Grant from ALPA\u2019s War Chest to Support Negotiations for a Fair Contract - ALPA",
+   "Trump invokes Cold War era Defense Production Act for oil production, refining - Bradenton Herald"
   ]
  },
  "log": [
@@ -761,7 +776,8 @@
   "23.10 02:36 B1  SHORT gold 5000 USD x10 @ 4035.34 (TP 4031.31, SL 4037.76; news -0.20)",
   "23.10 02:48 N  NEWS (9 new) score -0.40 conf 0.60: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi (Suudi sald\u0131r\u0131s\u0131, H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, Petrol 113$ \u00fczerinde) enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n iki ayl\u0131k/11 haftal\u0131k dibe geriledi. Jeopolitik risk g\u00fcvenli liman talebi getirse de piyasa tepkisi \u015fu an sat\u0131\u015f y\u00f6n\u00fcnde, bu nedenle k\u0131sa vadede hafif-orta d\u00fczeyde negatif g\u00f6r\u00fcn\u00fcm var.",
   "23.10 02:48 B2  SHORT gold 5000 USD x10 @ 4034.81 (TP 4022.71, SL 4042.88; news -0.40)",
-  "23.10 02:58 N  NEWS (5 new) score -0.50 conf 0.60: Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n 4.050 dolar\u0131n alt\u0131na inip iki ayl\u0131k dip g\u00f6rm\u00fc\u015f durumda. Iran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rmas\u0131 gereken bir unsur olsa da, piyasada \u015fu an bu etki g\u00f6r\u00fclm\u00fcyor; bu y\u00fczden d\u00fc\u015f\u00fc\u015f e\u011filimi bask\u0131n kabul edildi ve g\u00fcven orta d\u00fczeyde tutuldu."
+  "23.10 02:58 N  NEWS (5 new) score -0.50 conf 0.60: Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n 4.050 dolar\u0131n alt\u0131na inip iki ayl\u0131k dip g\u00f6rm\u00fc\u015f durumda. Iran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rmas\u0131 gereken bir unsur olsa da, piyasada \u015fu an bu etki g\u00f6r\u00fclm\u00fcyor; bu y\u00fczden d\u00fc\u015f\u00fc\u015f e\u011filimi bask\u0131n kabul edildi ve g\u00fcven orta d\u00fczeyde tutuldu.",
+  "23.10 03:03 N  NEWS (3 new) score -0.45 conf 0.60: Petrol 113 dolar\u0131n \u00fczerine f\u0131rlad\u0131 ve bu enflasyon ile s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n iki ayl\u0131k ve 11 haftal\u0131k dip seviyelerine geriledi. Jeopolitik risk (\u0130ran, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini desteklemesi gerekti\u011fi halde piyasa tepkisi alt\u0131n aleyhine \u00e7al\u0131\u015f\u0131yor; Putin'in bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011fu haberi de jeopolitik primi biraz zay\u0131flat\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -853,6 +869,10 @@
    [
     1792713524,
     4998.99
+   ],
+   [
+    1792713834,
+    4999.77
    ]
   ],
   "news_calls": {
@@ -934,6 +954,10 @@
    [
     1792713524,
     5000
+   ],
+   [
+    1792713834,
+    5000
    ]
   ],
   "news_calls": {
@@ -1010,6 +1034,10 @@
    ],
    [
     1792713524,
+    5000
+   ],
+   [
+    1792713834,
     5000
    ]
   ]
