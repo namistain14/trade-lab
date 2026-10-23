@@ -398,6 +398,10 @@
    [
     1792739512,
     5000.3
+   ],
+   [
+    1792739615,
+    5000.3
    ]
   ]
  },
@@ -405,7 +409,23 @@
   "account": {
    "balance": 4981.021786744963,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "e726e79e",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2412355858786872,
+     "entry": 4028.2441599999997,
+     "tp": 4024.2159158399995,
+     "sl": 4030.661106496,
+     "opened_ms": 1792739614147,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.45/0.55",
+     "friction": 2.3728
+    }
+   ],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -746,7 +766,7 @@
    ],
    "day": {
     "date": "2026-10-23",
-    "trades": 14,
+    "trades": 15,
     "pnl": -22.7935012947122,
     "stopped": false
    },
@@ -1116,6 +1136,10 @@
    [
     1792739512,
     4981.02
+   ],
+   [
+    1792739615,
+    4979.84
    ]
   ],
   "news": {
@@ -1794,7 +1818,8 @@
   "23.10 09:59 N  NEWS (3 new) score -0.60 conf 0.70: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip temmuzdan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor, Fed'in 2026'da iki kez daha art\u0131rabilece\u011fi y\u00f6n\u00fcndeki tahminler reel faizleri ve dolar\u0131 destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da piyasa \u015fu an bu etkiyi faiz kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor; Fed soru\u015fturmas\u0131n\u0131n kapat\u0131lmas\u0131 ise etkisi s\u0131n\u0131rl\u0131 bir haber.",
   "23.10 09:59 B1  SHORT gold 5000 USD x10 @ 4026.67 (TP 4022.65, SL 4029.09; news -0.60)",
   "23.10 10:11 B1  CLOSE short stop: -4.19 USD",
-  "23.10 10:11 N  NEWS (8 new) score -0.45 conf 0.55: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip Temmuz'dan beri en d\u00fc\u015f\u00fck seviyeye yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015foku enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor, dolar g\u00fc\u00e7l\u00fc. Ancak 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi k\u0131smen destek sa\u011flayabilece\u011fi i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131."
+  "23.10 10:11 N  NEWS (8 new) score -0.45 conf 0.55: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip Temmuz'dan beri en d\u00fc\u015f\u00fck seviyeye yak\u0131n i\u015flem g\u00f6r\u00fcyor; petrol \u015foku enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor, dolar g\u00fc\u00e7l\u00fc. Ancak 10 y\u0131ll\u0131k tahvil getirisinin sert d\u00fc\u015f\u00fc\u015f\u00fc ve \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi k\u0131smen destek sa\u011flayabilece\u011fi i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
+  "23.10 10:13 B1  SHORT gold 5000 USD x10 @ 4028.24 (TP 4024.22, SL 4030.66; news -0.45)"
  ],
  "gold_big": {
   "account": {
@@ -2155,6 +2180,10 @@
    [
     1792739512,
     4977.46
+   ],
+   [
+    1792739615,
+    4979.33
    ]
   ],
   "news_calls": {
@@ -2420,6 +2449,10 @@
    [
     1792739512,
     5000
+   ],
+   [
+    1792739615,
+    5000
    ]
   ],
   "news_calls": {
@@ -2680,6 +2713,10 @@
    ],
    [
     1792739512,
+    5000
+   ],
+   [
+    1792739615,
     5000
    ]
   ]
