@@ -194,6 +194,7 @@ input{width:100%;font:14px var(--mono);color:var(--ice);background:rgba(0,0,0,.3
         <div class="vitals" id="strip"></div>
         <section id="live" hidden></section>
         <section id="alerts"></section>
+        <section id="mail"></section>
       </div>
     </div>
     <section id="agents"></section>
@@ -284,6 +285,7 @@ async function load(){
   const otherAgents=AGENTS.filter(a=>a.wf!=="daily.yml");
   const otherP=Promise.allSettled(otherAgents.map(a=>wfRuns(a.repo,a.wf,3)));
   const histYP=ghJson(`/repos/${REPO}/contents/${SERIES.you.hist}`).catch(()=>[]);
+  const mailP=ghJson(`/repos/${REPO}/contents/mail.json?ref=mail`).catch(()=>null);
   const [runsR,statusR,histL,histN,tradeR]=await Promise.allSettled([
     gh(`/repos/${REPO}/actions/workflows/daily.yml/runs?per_page=25`),
     ghJson(`/repos/${REPO}/contents/status.json?ref=status`),
@@ -363,6 +365,12 @@ async function load(){
     if(days<4)problems.unshift([units<low?"bad":"warn",`Kling bakiyesi ${Math.round(units)} birim, ≈ ${days.toFixed(1)} gün yeter. Paketi yenile.`]);
   } else $("kling").innerHTML=`<h2>Kling bakiyesi</h2><p class="dim">Henüz okunmadı. Durum dosyası bir sonraki koşudan sonra gelir.</p>`;
 
+  // mail feed (written hourly 08:30-23:00 by the mail assistant)
+  {const m=await mailP;const items=(m?.items||[]).slice(0,8);
+   $("mail").innerHTML=`<h2>Postalar <small>${m?.checked?"son kontrol "+ago(m.checked):"saatlik, 08:30-23:00"}</small></h2>`+
+     (items.length?`<ul class="alerts">${items.map(i=>`<li class="${i.level==="acil"?"bad":""}"><b>${esc(i.from)}</b> · ${esc(i.subject)}<div class="dim" style="font-size:12.5px;margin-top:2px">${esc(i.summary)} <a href="${esc(i.url)}" target="_blank" rel="noopener">aç</a> · ${dhm(i.at)}</div></li>`).join("")}</ul>`
+       :'<p class="dim">Henüz önemli mail yok. Asistan her saat :31\'de gelen kutusuna bakar.</p>');
+   if(items.some(i=>i.level==="acil"&&Date.now()-new Date(i.at)<86400000))problems.unshift(["bad","Acil mail var: "+items.find(i=>i.level==="acil").subject])}
   // agents
   const nowMs=Date.now(); let running=0, healthy=0; const noAccessRepos=new Set();
   const states=AGENTS.map(a=>{
