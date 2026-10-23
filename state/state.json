@@ -285,6 +285,10 @@
    [
     1792726685,
     5000
+   ],
+   [
+    1792727226,
+    5000
    ]
   ]
  },
@@ -822,15 +826,19 @@
    [
     1792726685,
     4984.32
+   ],
+   [
+    1792727226,
+    4983.49
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.7,
-   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe, $4,000 alt\u0131na geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe gidiyor. Jeopolitik risk (\u0130ran sava\u015f\u0131) g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bask\u0131 s\u00fcr\u00fcyor; ancak ABD dolar\u0131 zay\u0131fl\u0131\u011f\u0131 ve Orta Do\u011fu riski k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+   "score": -0.4,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon ve Fed'in s\u0131k\u0131 kalma beklentisi nedeniyle \u00fc\u00e7 ayl\u0131k dibe inip haftal\u0131k d\u00fc\u015f\u00fc\u015fe gidiyor; jeopolitik gerilim (\u0130ran sava\u015f\u0131, Husi sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki bask\u0131n de\u011fil. Zay\u0131f teknoloji kazan\u00e7lar\u0131na ba\u011fl\u0131 dolar zay\u0131fl\u0131\u011f\u0131 ise alt\u0131 k\u0131smen destekliyor, ancak genel tablo k\u0131sa vadede negatif.",
    "n": 45,
-   "ts": 1792726684420,
-   "new_headlines": 4,
+   "ts": 1792727225224,
+   "new_headlines": 14,
    "key_events": [
     "Petrol fiyat\u0131 y\u00fckseli\u015fi, faiz art\u0131\u015f\u0131 (Fed) beklentilerini g\u00fc\u00e7lendiriyor",
     "Alt\u0131n 3 ayl\u0131k dip ve $4,000 alt\u0131nda, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f",
@@ -1178,58 +1186,65 @@
     "confidence": 0.7,
     "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe, $4,000 alt\u0131na geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe gidiyor. Jeopolitik risk (\u0130ran sava\u015f\u0131) g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bask\u0131 s\u00fcr\u00fcyor; ancak ABD dolar\u0131 zay\u0131fl\u0131\u011f\u0131 ve Orta Do\u011fu riski k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
     "new": 4
+   },
+   {
+    "ts": 1792727225224,
+    "score": -0.4,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon ve Fed'in s\u0131k\u0131 kalma beklentisi nedeniyle \u00fc\u00e7 ayl\u0131k dibe inip haftal\u0131k d\u00fc\u015f\u00fc\u015fe gidiyor; jeopolitik gerilim (\u0130ran sava\u015f\u0131, Husi sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki bask\u0131n de\u011fil. Zay\u0131f teknoloji kazan\u00e7lar\u0131na ba\u011fl\u0131 dolar zay\u0131fl\u0131\u011f\u0131 ise alt\u0131 k\u0131smen destekliyor, ancak genel tablo k\u0131sa vadede negatif.",
+    "new": 14
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 40
+   "n": 41
   },
   "news_seen": [
+   "\u2018If We Lift Sanctions, We Make Putin Stronger\u2019: Zelenskyy Warns Against Easing Pressure on Russia - Open Magazine",
+   "The Nordics are preparing for war Neutrality is a distant memory - UnHerd",
    "Gold Price Forecast: XAU/USD hits fresh three-month low below $4,000 amid surging energy prices - FXStreet",
+   "Elizabeth Warren Says \u2018Nobody Can Seem to Explain\u2019 What Trump\u2019s War With Iran Accomplished as Crypto Bett - Benzinga",
    "Gold prices today, October 23rd: Gold under selling pressure. - Vietnam.vn",
    "Gold price today, October 23: Sharp decrease after 1 month, buyers lose an additional 9 million VND/tael - Laodong.vn",
    "Gold and silver price today, October 23: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
+   "Newmont posts record profit even as gold output drops 8 percent - Startup Fortune",
    "The National Park Service recognizes Pendleton as American World War II Heritage City - East Oregonian",
    "Analysis \u2022 Netanyahu and Trump's private war could bring Iran closer to a regional deal - Haaretz",
    "The Taiwan Strait is not on the verge of war: The \u20182027 invasion\u2019 countdown is a mirage - Fortune",
+   "Coalition air defenses down missile bound for Riyadh amid ongoing Houthi attacks - Arab News",
+   "Trump invoked a Cold War-era law to increase oil production and refining in the United States - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
    "Gold heads for sharpest weekly decline in four months on Fed rate outlook - The Edge Malaysia",
+   "How Mark Zuckerberg went to war with his own board of directors over pay and power - The Washington Post",
    "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
    "New Zealand Dollar gains ground to near 0.5700 on RBNZ rate hike prospects - FXStreet",
+   "\u2018War\u2019 Star Shaheen Jafargholi Breaks Down Saeed\u2019s Club Moment With St. John in Episode 4 - IMDb",
    "Australia sanctions 2 over North Korean fake IT workers scheme for nuclear funds - South China Morning Post",
-   "Trump invokes Cold War-era Defense Production Act to expand oil production - Washington Times",
+   "Gold Price Today in Amravati \u2013 18K, 22K & 24K Rate | 23 October 2026 - The Times of India",
+   "How are Ukraine strikes, Mideast war driving US fuel prices? - Al-Monitor",
    "102-year-old World War II veteran reflects on Navy service - Texomashomepage.com",
    "How popular is the Iran War? - Silver Bulletin",
    "United States Dollar Index struggles due to weak tech earnings - FXStreet",
    "War Recap: King\u2019s Speech - Vulture",
    "\u2018War\u2019 Episode 4 Ending Explained: Sienna Miller and Archie Renaux break down that wildly inappropriate kiss - Decider",
-   "\u2018The Mothers of Kherson\u2019 Review: A Ukraine War Opera - WSJ",
-   "Gold Rate Today in Andhra Pradesh 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
+   "\u2018War\u2019 Stars Break Down Saeed & St. John\u2019s Club Moment - Yahoo",
    "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop - Investing.com",
    "Saudi-led coalition says it intercepted Houthi missile launched at Riyadh - The Times of Israel",
-   "Trump says Musk restored Ukraine\u2019s Starlink access amid Russia war - Al Jazeera",
    "Gold Price Reaches Our Target \u2013 Analysis \u201323-10-2026 - Economies.com",
    "Canadian Dollar advances as US Dollar weakens on tech earnings, Middle East risk aversion - FXStreet",
    "Trump ordered to answer questions under oath in BBC lawsuit",
    "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
    "\u2018I\u2019m a killer\u2019: Inside the ugly war over Dolly Parton\u2019s $450M empire - NewsNation",
    "Trump Rally: U.S. Armed Forces investment, war in Venezuela and oil prices - KTIV",
+   "Saudi-led coalition says it intercepted 11 Houthi drones and a ballistic missile - Anadolu Ajans\u0131",
    "Gold prices today, October 23, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
+   "Gold Rate Today in New Delhi 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
    "Gold Rate Today in Bengaluru 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Bengaluru - Business Today",
    "Fact or Fiction: Gas station war drops gas prices below $1 a gallon? - ABC 10News San Diego",
    "Alkane Resources - Quarterly Report - September 2026 - The Manila Times",
    "Murkowski on war-driven energy prices: 'It is wrong.' - Alaska Public Media",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold rate today (October 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar G - The Economic Times",
-   "Civil War museum highlights Black soldiers' contributions - The Charlotte Post",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
-   "Watch China Tech Repricing Deepens as Geopolitical Risks Mount - Bloomberg.com",
-   "Fidelity's Timmer Blames Sticky Inflation and Fiscal Risk for Rising Bond Yields - BeInCrypto",
-   "Spot gold hits three-month low amid risk-off moves, climb in oil prices - Investing.com India",
-   "Palmer Luckey teams with dire wolf billionaire Ben Lamm to launch $200 million Warhound - Fortune",
-   "World War II veteran shares his stories in Conway for short film series - KARK",
-   "Gold Rate Today In Ranchi, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
-   "Gold falls to two\u2011month low below $4,050 as oil spikes - FXStreet",
-   "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - FXStreet"
+   "Gold Price on 22 October 2026 - Gold Price",
+   "Civil War museum highlights Black soldiers' contributions - The Charlotte Post"
   ]
  },
  "log": [
@@ -1311,7 +1326,8 @@
   "23.10 06:19 B2  SHORT gold 5000 USD x10 @ 4027.22 (TP 4015.14, SL 4035.28; news -0.50)",
   "23.10 06:28 N  NEWS (5 new) score -0.60 conf 0.60: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve Fed'in s\u0131k\u0131 kalma beklentilerini besleyerek reel faizleri yukar\u0131 itiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015flerden birine y\u00f6neliyor. Dolar teknoloji kazan\u00e7lar\u0131 nedeniyle zay\u0131f ve Orta Do\u011fu risk i\u015ftahs\u0131zl\u0131\u011f\u0131 bir miktar g\u00fcvenli liman talebi yarat\u0131yor, ancak bu etkiler mevcut sat\u0131\u015f bask\u0131s\u0131n\u0131 dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
   "23.10 06:28 B1  SHORT gold 5000 USD x10 @ 4032.48 (TP 4028.45, SL 4034.90; news -0.60)",
-  "23.10 06:38 N  NEWS (4 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe, $4,000 alt\u0131na geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe gidiyor. Jeopolitik risk (\u0130ran sava\u015f\u0131) g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bask\u0131 s\u00fcr\u00fcyor; ancak ABD dolar\u0131 zay\u0131fl\u0131\u011f\u0131 ve Orta Do\u011fu riski k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir."
+  "23.10 06:38 N  NEWS (4 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe, $4,000 alt\u0131na geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe gidiyor. Jeopolitik risk (\u0130ran sava\u015f\u0131) g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bask\u0131 s\u00fcr\u00fcyor; ancak ABD dolar\u0131 zay\u0131fl\u0131\u011f\u0131 ve Orta Do\u011fu riski k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+  "23.10 06:47 N  NEWS (14 new) score -0.40 conf 0.60: Alt\u0131n, petrol kaynakl\u0131 enflasyon ve Fed'in s\u0131k\u0131 kalma beklentisi nedeniyle \u00fc\u00e7 ayl\u0131k dibe inip haftal\u0131k d\u00fc\u015f\u00fc\u015fe gidiyor; jeopolitik gerilim (\u0130ran sava\u015f\u0131, Husi sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki bask\u0131n de\u011fil. Zay\u0131f teknoloji kazan\u00e7lar\u0131na ba\u011fl\u0131 dolar zay\u0131fl\u0131\u011f\u0131 ise alt\u0131 k\u0131smen destekliyor, ancak genel tablo k\u0131sa vadede negatif."
  ],
  "gold_big": {
   "account": {
@@ -1559,6 +1575,10 @@
    [
     1792726685,
     4983.28
+   ],
+   [
+    1792727226,
+    4982.44
    ]
   ],
   "news_calls": {
@@ -1732,6 +1752,10 @@
    [
     1792726685,
     5000
+   ],
+   [
+    1792727226,
+    5000
    ]
   ],
   "news_calls": {
@@ -1900,6 +1924,10 @@
    ],
    [
     1792726685,
+    5000
+   ],
+   [
+    1792727226,
     5000
    ]
   ]
