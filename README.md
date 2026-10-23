@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 18:01 (İstanbul)
+> Son güncelleme: 23.10.2026 18:08 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -35,28 +35,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -48.61 $ | -44.80 $ |
-| İşlem sayısı | 23 | 24 |
-| Kazanma oranı | %26.1 | %29.2 |
-| Ödenen komisyon/spread | 54.58 $ | 56.95 $ |
+| Net kâr/zarar | -54.86 $ | -51.05 $ |
+| İşlem sayısı | 24 | 25 |
+| Kazanma oranı | %25.0 | %28.0 |
+| Ödenen komisyon/spread | 56.95 $ | 59.32 $ |
 
-**Hesap değeri: 4,952.05 $** (başlangıç 5,000 $, -47.95 $ / %-0.96)
+**Hesap değeri: 4,948.95 $** (başlangıç 5,000 $, -51.05 $ / %-1.02)
 
-Açık pozisyonlar: PAXGUSDT short @ 4014.13 (TP 4010.11 / SL 4016.54)
+Son haber analizi (23.10 18:08): Claude puan **-0.40**, güven 0.50 — Yeni başlıklar ağırlıklı olarak altı baskılıyor: Fed'in Ekim'de faiz sabit tutması Aralık'ta faiz artırımı olasılığını yükseltti, ABD imalat ve hizmet PMI'ları güçlü ve fiyat baskıları yüksek, tüketici enflasyon beklentileri arttı, altın ise 4.000 doların altına düşerek 'sığınak' talebinin de satışta olduğunu gösterdi. Buna karşın İran savaşı ve Ukrayna-Rusya gerilimi gibi jeopolitik riskler sürüyor, ancak bunlar fiyatta yeterli yansımadı; yakın Fed toplantısı ve veri sürprizleri yön belirleyebilir, bu yüzden güven orta düzeyde.
 
-Son haber analizi (23.10 18:01): Claude puan **-0.45**, güven 0.60 — Altın 4.000 doların altına indi ve "sığınak" varlık olarak da satış baskısı görülüyor; bu, jeopolitik riskin altına destek olmadığını gösteriyor. Fed'in Ekim'de faiz sabit tutması ama Aralık'ta artış ihtimalini yükseltmesi, güçlü ABD PMI verileri ve enflasyon baskısı reel faiz ve dolar tarafında altı aşağı çekiyor. Ukrayna ve İran'daki gerilim haberleri ise kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bu etkiyi bastırıyor.
-
-GPT (gpt-6-luna): puan **-0.35**, güven 0.62 — Altının 4.000 doların altına gerilemesi, yüksek reel getiriler ve güçlü PMI verilerinin Fed’in daha sıkı kalabileceği beklentisini desteklemesi kısa vadede baskı yaratıyor. Kyiv’e yeni saldırılar güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki görünümün gücü sınırlı.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.48 — ABD faaliyet verilerindeki fiyat baskısı ve güçlü PMI’lar Fed’in daha şahin kalabileceği beklentisini destekleyerek altını kısa vadede baskılıyor; yüksek reel getiriler ve 4.000 dolar altındaki zayıf fiyat hareketi de bu görünümle uyumlu. Sudan ve Ukrayna kaynaklı riskler güvenli liman talebi sağlay
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 18:03 | PAXGUSDT | short | -6.25 $ | stop (gap) |
 | 23.10 17:50 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 17:26 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 17:11 | PAXGUSDT | short | +3.81 $ | take profit |
 | 23.10 16:49 | PAXGUSDT | short | -4.19 $ | stop |
-| 23.10 16:32 | PAXGUSDT | short | -4.51 $ | stop (gap) |
 
 ## Bot B2 — Altın: sıkı haber eşiği + büyük hedef (TP 15$ / SL 10$)
 
@@ -67,7 +65,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,967.88 $** (başlangıç 5,000 $, -32.12 $ / %-0.64)
+**Hesap değeri: 4,975.58 $** (başlangıç 5,000 $, -24.42 $ / %-0.49)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -107,9 +105,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 4,987.62 $** (başlangıç 5,000 $, -12.38 $ / %-0.25)
+**Hesap değeri: 4,995.33 $** (başlangıç 5,000 $, -4.67 $ / %-0.09)
 
-Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
+Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4013.80)
 
 Son işlemler:
 
@@ -126,7 +124,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,012.63 $** (başlangıç 5,000 $, +12.63 $ / %+0.25)
+**Hesap değeri: 5,020.34 $** (başlangıç 5,000 $, +20.34 $ / %+0.41)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -150,10 +148,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 17:33 N  NEWS (6 new) score -0.12 conf 0.35: Fed'in Ekim'de faiz sabit tutmasının Aralık artırım olasılıklarını yükseltmesi ve "altın güvenli liman talebini kaybediyor" başlığı altın için kısa vadede baskı yaratıyor. İran savaşı ve jeopolitik gerilim riskleri destekleyici olsa da zaten fiyatlanmış görünüyor; enflasyon beklentilerinin yükselmesi ve ABD iş aktivitesindeki karışık veriler ise sinyalleri çelişkili kılıyor.
-23.10 17:33 N  GPT  score -0.15 conf 0.34: ABD iş aktivitesindeki yavaşlama altını destekleyebilir; ancak talebin fiyat baskılarını artırması ve Aralık’ta faiz artırımı olasılığının yükselmesi kısa vadede daha güçlü dolar/faiz beklentisiyle baskı yaratabilir. Ukrayna’daki esir takası gerilimi bir miktar azaltırken, İran’a ilişkin haberler gü
-23.10 17:40 N  NEWS (8 new) score -0.05 conf 0.35: 
-23.10 17:40 N  GPT  score +0.15 conf 0.38: İran savaşının yeniden başlayabileceğine dair haberler ve saldırıların önlenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak artan enflasyon baskıları ve Fed’in faiz artırımı ihtimalinin yükselmesi altın için olumsuz; net etki bu nedenle sınırlı ve belirsiz.
 23.10 17:48 N  NEWS (8 new) score -0.30 conf 0.50: Yeni başlıklar karışık: ABD-İsrail'in İran'a olası saldırı hazırlığı ve Trump'ın yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak güçlü ABD PMI verileri ve Fed'in Aralık'ta faiz artırma olasılığını yükselten duruş, reel faizleri ve doları yukarı iterek altını baskılıyor. Ayrıca "Haven trade" çözülmesi ve reel faizlerin altın üzerindeki baskısı gibi haberler kısa vadede düşüş yönünü öne çıkarıyor; Kübü füze krizi haberi ise eski olduğu için dikkate alınmadı.
 23.10 17:48 N  GPT  score -0.25 conf 0.55: Güçlü ABD PMI verileri ve yüksek reel getiriler altının fırsat maliyetini artırarak kısa vadede baskı yaratabilir. İran gerilimi ve Batı Şeria’daki saldırı güvenli liman talebini destekliyor; bu karşıt etkiler düşüşün sınırlı kalabileceğini düşündürüyor.
 23.10 17:48 B1  SHORT gold 5000 USD x10 @ 4018.37 (TP 4014.35, SL 4020.78; news -0.30)
@@ -165,6 +159,10 @@ Son işlemler:
 23.10 18:01 B2  SHORT gold 5000 USD x10 @ 4015.71 (TP 4003.66, SL 4023.74; news -0.45)
 23.10 18:01 B3  SHORT gold 5000 USD x10 @ 4015.71 (TP 4003.66, SL 4023.74; news -0.45)
 23.10 18:01 B5  SHORT gold 5000 USD x10 @ 4015.71 (TP 4003.66, SL 4023.74; news -0.40)
+23.10 18:08 B1  CLOSE short stop (gap): -6.25 USD
+23.10 18:08 N  NEWS (4 new) score -0.40 conf 0.50: Yeni başlıklar ağırlıklı olarak altı baskılıyor: Fed'in Ekim'de faiz sabit tutması Aralık'ta faiz artırımı olasılığını yükseltti, ABD imalat ve hizmet PMI'ları güçlü ve fiyat baskıları yüksek, tüketici enflasyon beklentileri arttı, altın ise 4.000 doların altına düşerek 'sığınak' talebinin de satışta olduğunu gösterdi. Buna karşın İran savaşı ve Ukrayna-Rusya gerilimi gibi jeopolitik riskler sürüyor, ancak bunlar fiyatta yeterli yansımadı; yakın Fed toplantısı ve veri sürprizleri yön belirleyebilir, bu yüzden güven orta düzeyde.
+23.10 18:08 N  GPT  score -0.30 conf 0.48: ABD faaliyet verilerindeki fiyat baskısı ve güçlü PMI’lar Fed’in daha şahin kalabileceği beklentisini destekleyerek altını kısa vadede baskılıyor; yüksek reel getiriler ve 4.000 dolar altındaki zayıf fiyat hareketi de bu görünümle uyumlu. Sudan ve Ukrayna kaynaklı riskler güvenli liman talebi sağlay
+23.10 18:08 B6  karar turu: Claude «Piyasa jeopolitik ve makro haberler arasında yatay-hafif pozitif seyrediyor; net bir avantaj olmadığından beklemek en doğru tercih.» / GPT «Endekslerdeki sınırlı toparlanmaya rağmen haber ve fiyat teyidi birlikte güçlü değil; yüzde 1,5 hedef ve yüzde 1 stop koşullarında kaldıraçlı yeni pozisyon açmamak daha disiplinli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
