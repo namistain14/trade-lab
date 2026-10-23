@@ -690,30 +690,18 @@
    [
     1792776865,
     5000.3
+   ],
+   [
+    1792777008,
+    5000.3
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4932.961973358917,
+   "balance": 4929.961973358917,
    "start": 5000,
-   "positions": [
-    {
-     "id": "99a7445d",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2472659755199367,
-     "entry": 4008.768056,
-     "tp": 4007.1645487776,
-     "sl": 4011.1733168336,
-     "opened_ms": 1792775768192,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.20/0.40",
-     "friction": 2.3747
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -1344,12 +1332,33 @@
      "gross": -4.1875,
      "costs": 0.0,
      "pnl": -4.1875
+    },
+    {
+     "id": "99a7445d",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2472659755199367,
+     "entry": 4008.768056,
+     "tp": 4006.2133061163768,
+     "sl": 4010.221272579084,
+     "opened_ms": 1792775768192,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.20/0.40",
+     "friction": 2.3747,
+     "exit": 4011.1733168336,
+     "closed_ms": 1792776660000,
+     "reason": "stop",
+     "gross": -3.0,
+     "costs": 0.0,
+     "pnl": -3.0
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 29,
-    "pnl": -70.85331468076002,
+    "pnl": -73.85331468076014,
     "stopped": false
    },
    "last_check_ms": 0
@@ -2010,6 +2019,10 @@
    [
     1792776865,
     4930.38
+   ],
+   [
+    1792777008,
+    4929.96
    ]
   ],
   "news": {
@@ -3311,7 +3324,9 @@
   "23.10 20:23 B2  hedefler g\u00fcncellendi: TP 4014.10 (+2$), SL 4018.12 (-3$)",
   "23.10 20:23 B2  CLOSE short stop (gap): -4.28 USD",
   "23.10 20:34 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
-  "23.10 20:34 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde a\u015fa\u011f\u0131 e\u011filim ve jeopolitik risk bask\u0131n olsa da mevcut fiyat hareketleri \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in %1,5 hedef ve %1 stop ko\u015fullar\u0131nda net avantaj sunmuyor.\u00bb"
+  "23.10 20:34 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde a\u015fa\u011f\u0131 e\u011filim ve jeopolitik risk bask\u0131n olsa da mevcut fiyat hareketleri \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in %1,5 hedef ve %1 stop ko\u015fullar\u0131nda net avantaj sunmuyor.\u00bb",
+  "23.10 20:36 B1  hedefler g\u00fcncellendi: TP 4006.21 (+2$ net), SL 4010.22 (-3$ net)",
+  "23.10 20:36 B1  CLOSE short stop: -3.00 USD"
  ],
  "gold_big": {
   "account": {
@@ -3990,6 +4005,10 @@
    [
     1792776865,
     4964.78
+   ],
+   [
+    1792777008,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -4617,6 +4636,10 @@
    [
     1792776865,
     4973.18
+   ],
+   [
+    1792777008,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -5170,6 +5193,10 @@
    [
     1792776865,
     5000
+   ],
+   [
+    1792777008,
+    5000
    ]
   ]
  },
@@ -5453,6 +5480,10 @@
    [
     1792776865,
     4988.82
+   ],
+   [
+    1792777008,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -5688,6 +5719,10 @@
    [
     1792776865,
     5019.88
+   ],
+   [
+    1792777008,
+    5022.58
    ]
   ],
   "news_calls": {
@@ -5797,6 +5832,10 @@
    ],
    [
     1792776865,
+    100000.0
+   ],
+   [
+    1792777008,
     100000.0
    ]
   ],
