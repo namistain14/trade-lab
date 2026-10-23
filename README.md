@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 05:48 (İstanbul)
+> Son güncelleme: 23.10.2026 05:58 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -36,7 +36,7 @@
 
 **Hesap değeri: 4,990.14 $** (başlangıç 5,000 $, -9.86 $ / %-0.20)
 
-Son haber analizi (23.10 05:48): puan **-0.35**, güven 0.50 — Petrol fiyatlarındaki yükseliş enflasyon ve faiz artışı beklentilerini besleyerek altın için baskı yaratıyor; altın 3 aylık dip seviyesine gerilemiş durumda. Yeni İran/Husi/Doğu Afrika gerilimi haberleri jeopolitik güvenli liman talebini artırabilir, ancak piyasa tepkisi şu an riskten çok faiz kaygısı yönünde; ABD dolarındaki zayıflık ise sınırlı destek sağlıyor.
+Son haber analizi (23.10 05:58): puan **-0.50**, güven 0.60 — Altın 3 aylık ve iki aylık dip seviyelerine geriledi; petrol fiyatlarındaki sert yükseliş (Suudi saldırısı, İran riski) enflasyon ve faiz artırımı beklentilerini besleyerek güvenli liman talebini baskılıyor. Dolar ve tahvil getirilerindeki zayıf hareketler kısmen destekleyici olsa da, Fed'in faiz artırımı ihtimali gibi baskın etki altın üzerinde negatif kalıyor.
 
 Son işlemler:
 
@@ -81,7 +81,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 04:54 B1  SHORT gold 5000 USD x10 @ 4014.84 (TP 4010.82, SL 4017.25; news -0.30)
 23.10 04:54 B2  CLOSE short take profit: +13.82 USD
 23.10 05:04 B1  CLOSE short take profit: +3.81 USD
 23.10 05:04 N  NEWS (8 new) score +0.10 conf 0.35: 
@@ -96,6 +95,7 @@ Son işlemler:
 23.10 05:42 B1  CLOSE short stop: -4.19 USD
 23.10 05:42 N  NEWS (10 new) score -0.45 conf 0.60: Altın 3 aylık dibe geriledi ve haftalık düşüş bekleniyor; petrol fiyatlarındaki yükseliş enflasyon ve faiz artırımı beklentilerini besleyerek altın için baskı yaratıyor. Jeopolitik risk (İran savaşı, Husiler) güvenli liman talebi yaratsa da, piyasada etkili olan kanal petrol-faiz bağlantısı; ayrıca ABD doları teknoloji kazançlarının zayıflığıyla biraz zayıfladı, bu da kısmen destekleyici. Petrolün Basra Körfezi'nden çıkışının artması gibi çelişkili haberler petrol yükselişinin kalıcılığına dair belirsizlik yaratıyor, bu yüzden güveni sınırlı tutuyorum.
 23.10 05:48 N  NEWS (11 new) score -0.35 conf 0.50: Petrol fiyatlarındaki yükseliş enflasyon ve faiz artışı beklentilerini besleyerek altın için baskı yaratıyor; altın 3 aylık dip seviyesine gerilemiş durumda. Yeni İran/Husi/Doğu Afrika gerilimi haberleri jeopolitik güvenli liman talebini artırabilir, ancak piyasa tepkisi şu an riskten çok faiz kaygısı yönünde; ABD dolarındaki zayıflık ise sınırlı destek sağlıyor.
+23.10 05:58 N  NEWS (28 new) score -0.50 conf 0.60: Altın 3 aylık ve iki aylık dip seviyelerine geriledi; petrol fiyatlarındaki sert yükseliş (Suudi saldırısı, İran riski) enflasyon ve faiz artırımı beklentilerini besleyerek güvenli liman talebini baskılıyor. Dolar ve tahvil getirilerindeki zayıf hareketler kısmen destekleyici olsa da, Fed'in faiz artırımı ihtimali gibi baskın etki altın üzerinde negatif kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -265,6 +265,10 @@
    [
     1792723709,
     5000
+   ],
+   [
+    1792724335,
+    5000
    ]
   ]
  },
@@ -745,15 +749,19 @@
    [
     1792723709,
     4990.14
+   ],
+   [
+    1792724335,
+    4990.14
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.5,
-   "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine gerilemi\u015f durumda. Yeni \u0130ran/Husi/Do\u011fu Afrika gerilimi haberleri jeopolitik g\u00fcvenli liman talebini art\u0131rabilir, ancak piyasa tepkisi \u015fu an riskten \u00e7ok faiz kayg\u0131s\u0131 y\u00f6n\u00fcnde; ABD dolar\u0131ndaki zay\u0131fl\u0131k ise s\u0131n\u0131rl\u0131 destek sa\u011fl\u0131yor.",
+   "score": -0.5,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n 3 ayl\u0131k ve iki ayl\u0131k dip seviyelerine geriledi; petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015f (Suudi sald\u0131r\u0131s\u0131, \u0130ran riski) enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek g\u00fcvenli liman talebini bask\u0131l\u0131yor. Dolar ve tahvil getirilerindeki zay\u0131f hareketler k\u0131smen destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 ihtimali gibi bask\u0131n etki alt\u0131n \u00fczerinde negatif kal\u0131yor.",
    "n": 45,
-   "ts": 1792723707747,
-   "new_headlines": 11,
+   "ts": 1792724333218,
+   "new_headlines": 28,
    "key_events": [
     "Alt\u0131n 3 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi faiz art\u0131\u015f\u0131 endi\u015felerini art\u0131rd\u0131",
     "Suudi koalisyonu Husi f\u00fczesi ve 11 \u0130HA'y\u0131 \u00f6nledi (jeopolitik risk)",
@@ -1066,58 +1074,65 @@
     "confidence": 0.5,
     "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine gerilemi\u015f durumda. Yeni \u0130ran/Husi/Do\u011fu Afrika gerilimi haberleri jeopolitik g\u00fcvenli liman talebini art\u0131rabilir, ancak piyasa tepkisi \u015fu an riskten \u00e7ok faiz kayg\u0131s\u0131 y\u00f6n\u00fcnde; ABD dolar\u0131ndaki zay\u0131fl\u0131k ise s\u0131n\u0131rl\u0131 destek sa\u011fl\u0131yor.",
     "new": 11
+   },
+   {
+    "ts": 1792724333218,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 3 ayl\u0131k ve iki ayl\u0131k dip seviyelerine geriledi; petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015f (Suudi sald\u0131r\u0131s\u0131, \u0130ran riski) enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek g\u00fcvenli liman talebini bask\u0131l\u0131yor. Dolar ve tahvil getirilerindeki zay\u0131f hareketler k\u0131smen destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 ihtimali gibi bask\u0131n etki alt\u0131n \u00fczerinde negatif kal\u0131yor.",
+    "new": 28
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 35
+   "n": 36
   },
   "news_seen": [
-   "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
-   "Iran Limits Daily US Dollar Purchases to $1,000 in Response to Economic Strain - The CSR Journal",
+   "Gold heads for sharpest weekly decline in four months on Fed rate outlook - The Edge Malaysia",
    "New Zealand Dollar gains ground to near 0.5700 on RBNZ rate hike prospects - FXStreet",
-   "\u2018War\u2019 Star Shaheen Jafargholi Breaks Down Saeed\u2019s Club Moment With St. John in Episode 4 - IMDb",
-   "YEMEN: \u2018The world now faces a problem it lacks a strategy to address\u2019 - civicus lens",
-   "Australia sanctions 2 over North Korean fake IT workers scheme for nuclear funds - South China Morning Post",
-   "Trump invokes Cold War-era Defense Production Act to expand oil production - Washington Times",
    "United States Dollar Index struggles due to weak tech earnings - FXStreet",
-   "War Recap: King\u2019s Speech - Vulture",
-   "\u2018War\u2019 Stars Break Down Saeed & St. John\u2019s Club Moment - Yahoo",
-   "\u2018War\u2019 Episode 4 Ending Explained: Sienna Miller and Archie Renaux break down that wildly inappropriate kiss - Decider",
    "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop - Investing.com",
-   "Saudi-led coalition says it intercepted Houthi missile launched at Riyadh - The Times of Israel",
    "Canadian Dollar advances as US Dollar weakens on tech earnings, Middle East risk aversion - FXStreet",
    "Trump ordered to answer questions under oath in BBC lawsuit",
-   "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
-   "Tensions Along Eritrea-Ethiopia Border Risk Erupting Into War - Eurasia Review",
-   "\u2018I\u2019m a killer\u2019: Inside the ugly war over Dolly Parton\u2019s $450M empire - NewsNation",
-   "Trump Rally: U.S. Armed Forces investment, war in Venezuela and oil prices - KTIV",
-   "Saudi-led coalition says it intercepted 11 Houthi drones and a ballistic missile - Anadolu Ajans\u0131",
-   "Fact or Fiction: Gas station war drops gas prices below $1 a gallon? - ABC 10News San Diego",
-   "Alkane Resources - Quarterly Report - September 2026 - The Manila Times",
-   "Murkowski on war-driven energy prices: 'It is wrong.' - Alaska Public Media",
+   "Gold prices today, October 23, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
+   "Gold Rate Today in New Delhi 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
+   "Gold Rate Today in Bengaluru 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Bengaluru - Business Today",
    "Gold rate today (October 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar G - The Economic Times",
-   "Civil War museum highlights Black soldiers' contributions - The Charlotte Post",
-   "Monastery hit in new wave of Russian missile attacks on Ukraine - Scripps News",
-   "Watch China Tech Repricing Deepens as Geopolitical Risks Mount - Bloomberg.com",
+   "Near 101.50: United States Dollar Index slips on Fed rate pause bets - www.tmgm.com",
    "Fidelity's Timmer Blames Sticky Inflation and Fiscal Risk for Rising Bond Yields - BeInCrypto",
-   "Palmer Luckey teams with dire wolf billionaire Ben Lamm to launch $200 million Warhound - Fortune",
-   "\u2018More Money Means More Dead Ukrainians\u2019 \u2013 Kasparov Warns Against Deals With Moscow - Kyiv Post",
-   "World War II veteran shares his stories in Conway for short film series - KARK",
+   "Gold falls to two\u2011month low below $4,050 as oil spikes | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Gold Rate Today In Ranchi, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Gold falls to two\u2011month low below $4,050 as oil spikes - FXStreet",
    "Australian Dollar losses steam at 0.7000 as PMIs signal a deceleration - FXStreet",
-   "Team Trump\u2019s vast war on fraud should pay dividends for decades to come - New York Post",
    "Gold prices today, October 23rd: World gold prices fall by more than 2.5%, SJC gold prices remain unchanged. - Vietnam.vn",
+   "Average long-term US mortgage rate eases to 7.32% in first pullback since late August - The Washington Post",
    "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
    "Gold Rate Today In Chandigarh, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Premiums, Storage and Heirs: The True Price of Owning Gold You Can Touch - CEOWORLD magazine",
-   "Christians Flee Drones Amid War in Khartoum - International Christian Concern",
-   "How popular is the Iran War? - Silver Bulletin",
    "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
-   "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
-   "Gold price slumps 2% as oil spikes to five-month high - Mining.com.au"
+   "Gold price slumps 2% as oil spikes to five-month high - Mining.com.au",
+   "Peso hits one-year low as Fed-Banxico rate gap narrows - Mexico News Daily",
+   "Gold price update morning of October 23rd: Gold falls deeply, major banks forecast optimistic - Laodong.vn",
+   "Grid operator says lights will stay on this winter after concerns",
+   "Mexican Peso nears 18.75 as Iran risks and AI selloff hit sentiment | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+   "Nasdaq, Treasury yields and dollar face a major AI sentiment test - FOREX.com",
+   "Saudi Strike Sends Oil Above $113; Gold Breaks Below $4,050 in Capitulation-Style Selloff - BigGo Finance",
+   "Gold Rate Today In Noida, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
+   "Newmont Q3 Earnings Beat at $2.20 a Share as Gold Price Offsets Output Fall - Discovery Alert",
+   "US Dollar Surpasses EGP 55 for First Time Against Egyptian Pound - Egyptian Streets",
+   "Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery - Reuters",
+   "The Federal Reserve at a Time of Uncertainty - American Enterprise Institute - AEI",
+   "HSBC: Gold no short-term hedge for stocks, but three forces keep long-term case intact - investingLive",
+   "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
+   "Gold falls to 11-week low; silver slumps to lowest close this year (GLD:NYSEARCA) - Seeking Alpha",
+   "Trump says Musk has restored access to Ukraine's Starlink network",
+   "U.S. Inflation Not Getting (Much) Worse, or Better, but Consumers are Fine - The Overshoot",
+   "Gold Miner Newmont Stock Rises on Expected Return to Growth in 2027 - Barron's",
+   "Newmont beats quarterly profit estimates on higher gold prices - Durham Herald Sun",
+   "Newmont Corp (NYSE:NEM) Q3 Earnings Beat on Cost Execution as Revenue Meets Expectations - ChartMill",
+   "War in Iran, higher energy prices are only delaying gold's rally to $5,000; mining stocks remain undervalued \u2013 Gabelli - Kitco"
   ]
  },
  "log": [
@@ -1190,7 +1205,8 @@
   "23.10 05:32 B2  CLOSE short stop: -11.19 USD",
   "23.10 05:42 B1  CLOSE short stop: -4.19 USD",
   "23.10 05:42 N  NEWS (10 new) score -0.45 conf 0.60: Alt\u0131n 3 ayl\u0131k dibe geriledi ve haftal\u0131k d\u00fc\u015f\u00fc\u015f bekleniyor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) g\u00fcvenli liman talebi yaratsa da, piyasada etkili olan kanal petrol-faiz ba\u011flant\u0131s\u0131; ayr\u0131ca ABD dolar\u0131 teknoloji kazan\u00e7lar\u0131n\u0131n zay\u0131fl\u0131\u011f\u0131yla biraz zay\u0131flad\u0131, bu da k\u0131smen destekleyici. Petrol\u00fcn Basra K\u00f6rfezi'nden \u00e7\u0131k\u0131\u015f\u0131n\u0131n artmas\u0131 gibi \u00e7eli\u015fkili haberler petrol y\u00fckseli\u015finin kal\u0131c\u0131l\u0131\u011f\u0131na dair belirsizlik yarat\u0131yor, bu y\u00fczden g\u00fcveni s\u0131n\u0131rl\u0131 tutuyorum.",
-  "23.10 05:48 N  NEWS (11 new) score -0.35 conf 0.50: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine gerilemi\u015f durumda. Yeni \u0130ran/Husi/Do\u011fu Afrika gerilimi haberleri jeopolitik g\u00fcvenli liman talebini art\u0131rabilir, ancak piyasa tepkisi \u015fu an riskten \u00e7ok faiz kayg\u0131s\u0131 y\u00f6n\u00fcnde; ABD dolar\u0131ndaki zay\u0131fl\u0131k ise s\u0131n\u0131rl\u0131 destek sa\u011fl\u0131yor."
+  "23.10 05:48 N  NEWS (11 new) score -0.35 conf 0.50: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dip seviyesine gerilemi\u015f durumda. Yeni \u0130ran/Husi/Do\u011fu Afrika gerilimi haberleri jeopolitik g\u00fcvenli liman talebini art\u0131rabilir, ancak piyasa tepkisi \u015fu an riskten \u00e7ok faiz kayg\u0131s\u0131 y\u00f6n\u00fcnde; ABD dolar\u0131ndaki zay\u0131fl\u0131k ise s\u0131n\u0131rl\u0131 destek sa\u011fl\u0131yor.",
+  "23.10 05:58 N  NEWS (28 new) score -0.50 conf 0.60: Alt\u0131n 3 ayl\u0131k ve iki ayl\u0131k dip seviyelerine geriledi; petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015f (Suudi sald\u0131r\u0131s\u0131, \u0130ran riski) enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek g\u00fcvenli liman talebini bask\u0131l\u0131yor. Dolar ve tahvil getirilerindeki zay\u0131f hareketler k\u0131smen destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 ihtimali gibi bask\u0131n etki alt\u0131n \u00fczerinde negatif kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -1402,6 +1418,10 @@
    [
     1792723709,
     4991.44
+   ],
+   [
+    1792724335,
+    4991.44
    ]
   ],
   "news_calls": {
@@ -1555,6 +1575,10 @@
    [
     1792723709,
     5000
+   ],
+   [
+    1792724335,
+    5000
    ]
   ],
   "news_calls": {
@@ -1703,6 +1727,10 @@
    ],
    [
     1792723709,
+    5000
+   ],
+   [
+    1792724335,
     5000
    ]
   ]
