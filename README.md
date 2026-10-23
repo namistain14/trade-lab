@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 20:05 (İstanbul)
+> Son güncelleme: 23.10.2026 20:16 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -40,7 +40,9 @@ Son işlemler:
 | Kazanma oranı | %24.1 | %26.7 |
 | Ödenen komisyon/spread | 68.82 $ | 71.19 $ |
 
-**Hesap değeri: 4,932.96 $** (başlangıç 5,000 $, -67.04 $ / %-1.34)
+**Hesap değeri: 4,931.77 $** (başlangıç 5,000 $, -68.23 $ / %-1.36)
+
+Açık pozisyonlar: PAXGUSDT short @ 4008.77 (TP 4004.76 / SL 4011.17)
 
 Son haber analizi (23.10 19:34): Claude puan **-0.20**, güven 0.40 — Başlıklar karışık: İran savaşının hızlı sona erebileceği haberi jeopolitik risk primini azaltarak altı hafif baskılıyor, ayrıca güçlü ABD işletme verisi doları destekliyor ve Fed kararı öncesi enflasyon kaygıları faiz beklentilerini sıkılaştırıcı yöne itiyor. Buna karşılık Eylül enflasyon baskılarının hafiflemesi ve sürmekte olan Orta Doğu/Ukrayna çatışmaları altın için destekleyici unsurlar; ayrıca birçok haber eski veya yerel nitelikte olduğundan güven düşük.
 
@@ -65,7 +67,7 @@ Son işlemler:
 | Kazanma oranı | %20.0 | %20.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,971.90 $** (başlangıç 5,000 $, -28.10 $ / %-0.56)
+**Hesap değeri: 4,976.52 $** (başlangıç 5,000 $, -23.48 $ / %-0.47)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -124,7 +126,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 2.37 $ | 2.37 $ |
 
-**Hesap değeri: 5,016.65 $** (başlangıç 5,000 $, +16.65 $ / %+0.33)
+**Hesap değeri: 5,021.27 $** (başlangıç 5,000 $, +21.27 $ / %+0.43)
 
 Açık pozisyonlar: PAXGUSDT short @ 4015.71 (TP 4003.66 / SL 4023.74)
 
@@ -148,8 +150,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 19:01 B1  SHORT gold 5000 USD x10 @ 4018.98 (TP 4014.96, SL 4021.39; news -0.25)
-23.10 19:13 N  NEWS (11 new) score -0.30 conf 0.40: 
 23.10 19:13 N  GPT  score -0.25 conf 0.48: Altının 4.000 doların altına gerilemesi ve yüksek reel faizlerin fırsat maliyetini artırması kısa vadede baskı yaratıyor. Yeni bölgesel saldırılar güvenli liman talebini destekleyebilir; ancak İran savaşının hızlı sona erebileceği haberleri ve karışık enflasyon sinyalleri düşüşü sınırlıyor.
 23.10 19:13 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; enerji öne çıkarken teknoloji hafif pozitif, net bir işlem fırsatı görünmüyor.» / GPT «Endekslerde dar bant ve Tesla'da önceden gerçekleşmiş satış baskısı nedeniyle mevcut haber-fiyat uyumu yeni pozisyon açmak için yeterince güçlü değil.»
 23.10 19:22 N  NEWS (10 new) score -0.20 conf 0.35: Başlıklar karışık ama ağırlıklı olarak altın için hafif negatif: Trump'ın İran savaşını hızla bitirme ihtimali jeopolitik güvenli liman talebini azaltıyor, Fed'in aralık ayında faiz artırımı beklentisi ve yüksek reel getiriler fırsat maliyetini yükseltiyor. Eylül enflasyon baskısının gevşemesi ise sınırlı bir dengeleyici etki yaratıyor; Paris ve Ürdün'deki saldırılar ise kısa vadede güvenli liman talebini destekleyebilecek ama etkisi zayıf haberler. Birçok başlık eski veya tekrar eden olduğu için güven düşük.
@@ -163,6 +163,8 @@ Son işlemler:
 23.10 19:52 B6  karar turu: Claude «Piyasa karışık ve düşük volatiliteli bir seyir izliyor; yapay zekâ altyapısına dair şüpheler teknolojiyi baskılasa da işlem açmayı haklı kılacak net bir avantaj yok.» / GPT «Endekslerde hafif satış baskısı var ancak haber ve fiyat teyidi birlikte yeterince güçlü olmadığından kaldıraçlı yeni pozisyon açmadan beklemek daha disiplinli.»
 23.10 20:01 B1  SHORT gold 5000 USD x10 @ 4012.62 (TP 4008.60, SL 4015.02; news -0.20)
 23.10 20:05 B1  CLOSE short stop: -4.19 USD
+23.10 20:16 B1  SHORT gold 5000 USD x10 @ 4008.77 (TP 4004.76, SL 4011.17; news -0.20)
+23.10 20:16 B6  karar turu: Claude «Piyasa geniş tabanlı hafif zayıflıkta ve yapay zeka harcamalarına dair şüpheler var, fakat net ve şirkete özel bir avantaj olmadığından beklemek en doğrusu.» / GPT «Endekslerde son saatte satış baskısı var ancak önümüzdeki 1–3 saatte yüzde 1,5 hedefi destekleyen taze katalizör ve güçlü fiyat teyidi birleşmediği için beklemek daha disiplinli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
