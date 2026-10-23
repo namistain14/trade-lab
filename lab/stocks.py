@@ -145,7 +145,11 @@ def _exit_of(api: Alpaca, order_id: str) -> tuple[float | None, str]:
 def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: str | None, tag: str = "B6") -> dict:
     key, secret = os.environ.get("ALPACA_KEY_ID", "").strip(), os.environ.get("ALPACA_SECRET", "").strip()
     if not key or not secret:
+        missing = [n for n, v in (("ALPACA_KEY_ID", key), ("ALPACA_SECRET", secret)) if not v]
+        st_bot["error"] = "GitHub Secrets'ta yok: " + ", ".join(missing)
+        print(f"::warning::B6: missing secrets {missing}")
         return {}
+    st_bot.pop("error", None)
     api = Alpaca(key, secret)
     acc = st_bot["account"]
     track = st_bot.setdefault("open", {})
