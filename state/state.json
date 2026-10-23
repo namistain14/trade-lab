@@ -486,6 +486,10 @@
    [
     1792751014,
     5000.3
+   ],
+   [
+    1792751438,
+    5000.3
    ]
   ]
  },
@@ -1355,15 +1359,19 @@
    [
     1792751014,
     4968.46
+   ],
+   [
+    1792751438,
+    4968.46
    ]
   ],
   "news": {
-   "score": -0.35,
+   "score": -0.3,
    "confidence": 0.5,
-   "reason": "Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
+   "reason": "Alt\u0131n 4.000 dolar seviyesinde zay\u0131f seyrediyor; Fed karar\u0131 \u00f6ncesi Treasury getirilerinin y\u00fckselmesi ve Bank of America'n\u0131n 2026'da iki kez daha faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi, reel faiz ve dolar taraf\u0131nda bask\u0131 yarat\u0131yor. Hisse piyasas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve HSBC'nin margin call kaynakl\u0131 sat\u0131\u015f tespiti k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcrebilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Suudi koalisyonu ile ilgili haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen geli\u015fmeler oldu\u011fu i\u00e7in g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
    "n": 45,
-   "ts": 1792751012418,
-   "new_headlines": 7,
+   "ts": 1792751436410,
+   "new_headlines": 4,
    "key_events": [
     "Gold 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 bahisleri ve g\u00fc\u00e7l\u00fc USD bask\u0131 yarat\u0131yor",
     "Bank of America: Fed 2026'da iki kez daha faiz art\u0131rabilir",
@@ -1998,13 +2006,22 @@
     "confidence": 0.5,
     "reason": "Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
     "new": 7
+   },
+   {
+    "ts": 1792751436410,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n 4.000 dolar seviyesinde zay\u0131f seyrediyor; Fed karar\u0131 \u00f6ncesi Treasury getirilerinin y\u00fckselmesi ve Bank of America'n\u0131n 2026'da iki kez daha faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi, reel faiz ve dolar taraf\u0131nda bask\u0131 yarat\u0131yor. Hisse piyasas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve HSBC'nin margin call kaynakl\u0131 sat\u0131\u015f tespiti k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcrebilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Suudi koalisyonu ile ilgili haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen geli\u015fmeler oldu\u011fu i\u00e7in g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
+    "new": 4
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 81
+   "n": 82
   },
   "news_seen": [
+   "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
+   "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
    "Gold Price Forecast: XAU/USD picks up from the $4,000 area with bears still in control - FXStreet",
    "The U.S. should stay out of Saudi Arabia\u2019s war - Responsible Statecraft",
    "Cyprus police open investigation into financial affairs of Roman Abramovich",
@@ -2023,19 +2040,21 @@
    "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
    "Lockheed Martin Missile Backlog Triples to $142.5B - GovCon Wire",
    "Norebo owner launches lawsuit against small newspaper over coverage of sanctions - SeafoodSource",
-   "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
    "Infographic: Domestic and global gold prices fall on October 23 - Nhan Dan Online",
    "Opinion | As long as the mall stays open, Israelis can live with war crimes - Haaretz",
    "Canadian Dollar: Pressured near 1.40 against US Dollar \u2013 TD Securities - FXStreet",
+   "International Meeting Rules Out Military Solution to Sudan War - ASHARQ AL-AWSAT English",
    "Ukraine says Starlink still restricted after Trump says limits lifted",
    "Chinese officials visit North Korea to mark China\u2019s entry into Korean War - NK News",
    "Stew Bolno: Donald Trump\u2019s war against the smug, stubborn, and stupid - Broad + Liberty",
+   "Gold Price Forecast: Can XAU/USD Recover Above $4,000 as Fed Decision Looms? - Mitrade",
    "Japan university defence bids surge as post-war taboo fades amid China concerns - South China Morning Post",
    "Alvarado, Dembo spar over Iran war, data centers and Epstein in central Kentucky debate - News From The States",
    "Gold Price Forecast: Goldman Retains $5,400 For End-2027 - Exchange Rates UK",
    "Granada Gold\u2019s 2026 Reset: New Leadership, a Planned Drilling Return and Capital Discipline - Crux Investor",
    "Gold price falls below $4,000 amid stock market rout - Equiti Global",
    "How Long Will Russians Put Up With War? Here\u2019s What They Told Us. - The New York Times",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "World gold price today, October 23: Long slide pulls gold close to the 4,000 USD mark - Laodong.vn",
    "US Federal Reserve to Raise Rates Twice More in 2026, Says Bank of America - Morningstar",
    "Treasury yields rise as traders await more economic data ahead of Fed decision - CNBC",
@@ -2045,11 +2064,7 @@
    "Japanese Yen: Set for further gains against US Dollar \u2013 UOB | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "When Housing Falters and Inflation Persists, Gold Stands Strong - GoldBroker",
    "Gold Breaks Below $4,000 Line; HSBC Says Margin Calls Sparked Selloff, Gold No Universal Hedge - BigGo Finance",
-   "Geopolitical knot in EastMed: Intelligence diplomacy on T\u00fcrkiye-Libya axis | Daily Sabah - Daily Sabah",
-   "As Republicans brace for election losses, Musk prepares for war - The Washington Post",
-   "Kylie\u2019s $50M Bra, War Zone Vacations, and Why Chocolate Sucks Now - The Free Press",
-   "Take Five: AI trade meets the Fed - Reuters",
-   "Trump\u2019s Iran sanctions run into limits - Semafor"
+   "Geopolitical knot in EastMed: Intelligence diplomacy on T\u00fcrkiye-Libya axis | Daily Sabah - Daily Sabah"
   ]
  },
  "log": [
@@ -2195,7 +2210,8 @@
   "23.10 12:55 N  NEWS (4 new) score -0.45 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
   "23.10 13:05 N  NEWS (6 new) score -0.50 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f durumda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Treasury getirileri alt\u0131n\u0131 bask\u0131l\u0131yor. Petrol 113 dolar\u0131n \u00fczerinde oldu\u011fu i\u00e7in enflasyon kayg\u0131s\u0131 s\u00fcr\u00fcyor, \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor.",
   "23.10 13:14 N  NEWS (10 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkt\u0131; haberler marj \u00e7a\u011fr\u0131lar\u0131yla tetiklenen sat\u0131\u015f\u0131, Fed faiz art\u0131r\u0131m\u0131 beklentilerini ve g\u00fc\u00e7l\u00fc dolar\u0131 \u00f6ne \u00e7\u0131kar\u0131yor. Bu fakt\u00f6rler jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebinden bask\u0131n g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden 1-4 saatlik g\u00f6r\u00fcn\u00fcm negatif. Yine de \u0130ran sava\u015f\u0131 ve Suudi Arabistan'a y\u00f6nelik sald\u0131r\u0131lar gibi riskler devam ediyor ve Goldman 5.400 dolarl\u0131k uzun vadeli hedefini koruyor; bu nedenle g\u00fcven s\u0131n\u0131rl\u0131 tutuldu.",
-  "23.10 13:23 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde."
+  "23.10 13:23 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
+  "23.10 13:30 N  NEWS (4 new) score -0.30 conf 0.50: Alt\u0131n 4.000 dolar seviyesinde zay\u0131f seyrediyor; Fed karar\u0131 \u00f6ncesi Treasury getirilerinin y\u00fckselmesi ve Bank of America'n\u0131n 2026'da iki kez daha faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi, reel faiz ve dolar taraf\u0131nda bask\u0131 yarat\u0131yor. Hisse piyasas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve HSBC'nin margin call kaynakl\u0131 sat\u0131\u015f tespiti k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcrebilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Suudi koalisyonu ile ilgili haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen geli\u015fmeler oldu\u011fu i\u00e7in g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -2649,6 +2665,10 @@
    [
     1792751014,
     4969.06
+   ],
+   [
+    1792751438,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -3026,6 +3046,10 @@
    [
     1792751014,
     4988.81
+   ],
+   [
+    1792751438,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3375,6 +3399,10 @@
    [
     1792751014,
     5000
+   ],
+   [
+    1792751438,
+    5000
    ]
   ]
  },
@@ -3448,6 +3476,10 @@
    [
     1792751014,
     5000.8
+   ],
+   [
+    1792751438,
+    5001.27
    ]
   ],
   "news_calls": {
