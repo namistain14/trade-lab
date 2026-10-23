@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 04:54 (İstanbul)
+> Son güncelleme: 23.10.2026 05:04 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -29,26 +29,24 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -9.12 $ | -5.30 $ |
-| İşlem sayısı | 6 | 7 |
-| Kazanma oranı | %33.3 | %42.9 |
-| Ödenen komisyon/spread | 14.23 $ | 16.61 $ |
+| Net kâr/zarar | -5.30 $ | -1.49 $ |
+| İşlem sayısı | 7 | 8 |
+| Kazanma oranı | %42.9 | %50.0 |
+| Ödenen komisyon/spread | 16.61 $ | 18.98 $ |
 
-**Hesap değeri: 4,995.73 $** (başlangıç 5,000 $, -4.27 $ / %-0.09)
+**Hesap değeri: 4,998.51 $** (başlangıç 5,000 $, -1.49 $ / %-0.03)
 
-Açık pozisyonlar: PAXGUSDT short @ 4014.84 (TP 4010.82 / SL 4017.25)
-
-Son haber analizi (23.10 04:54): puan **-0.30**, güven 0.45 — Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkı para politikası beklentilerini güçlendirip altın üzerinde baskı yaratıyor; tahvil getirilerinin yükselişi ve altının iki aylık dibe inmesi de bu yönü destekliyor. Ancak Orta Doğu jeopolitik riski güvenli liman talebini artırabilir ve dolar zayıflığı altını destekleyebilir, bu yüzden güven orta düzeyde tutuldu.
+Son haber analizi (23.10 05:04): puan **+0.10**, güven 0.35 — Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkı para politikası beklentilerini güçlendirip altın üzerinde baskı yaratıyor; tahvil getirilerinin yükselişi ve altının iki aylık dibe inmesi de bu yönü destekliyor. Ancak Orta Doğu jeopolitik riski güvenli liman talebini artırabilir ve dolar zayıflığı altını destekleyebilir, bu yüzden güven orta düzeyde tutuldu.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 04:57 | PAXGUSDT | short | +3.81 $ | take profit |
 | 23.10 04:37 | PAXGUSDT | short | +3.81 $ | take profit |
 | 23.10 04:17 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 03:47 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 03:11 | PAXGUSDT | short | -4.19 $ | stop |
-| 23.10 02:03 | PAXGUSDT | short | +3.82 $ | take profit |
 
 ## Bot B2 — Altın: sıkı haber eşiği + büyük hedef (TP 15$ / SL 10$)
 
@@ -82,8 +80,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 03:48 N  NEWS (7 new) score -0.40 conf 0.60: Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkılaşan Fed beklentileri üzerinden altını baskılıyor; piyasada güvenli liman talebinden çok bu kanal öne çıkıyor ve altın 2 aylık dibe indi. Yeni gelen haberlerde Basra Körfezi'nden daha fazla petrol çıktığı bilgisi petrol baskısını biraz hafifletebileceği için etkisi sınırlı kalıyor; ayrıca bu bilgi çelişkili olduğundan güven orta seviyede tutuldu.
-23.10 04:02 N  NEWS (4 new) score -0.20 conf 0.40: Petrol fiyatlarındaki yükseliş enflasyon ve sıkılaşan Fed beklentilerini besleyerek altın üzerinde baskı oluşturuyor; altın iki aylık en düşük seviyeye (4.050 doları altına) geriledi. Yeni gelen haberlerde Basra Körfezi'nden çıkan petrol miktarının savaş öncesinden fazla olması ise petrol baskısını azaltabilir, bu da karışık bir tablo yaratıyor; bu nedenle güven düşük tutuldu.
 23.10 04:02 B2  CLOSE short stop: -11.19 USD
 23.10 04:12 N  NEWS (2 new) score -0.30 conf 0.45: Petrol fiyatlarındaki yükseliş enflasyon ve sert Fed beklentisi üzerinden altını baskılayıp iki aylık dibe çektiği için kısa vadede negatif görünüyor. Ancak Körfez'den çıkan petrol arzının artması ve bu haberin zaten fiyatlanmış olması, düşüşün bir kısmının tersine dönebileceğini gösterdiği için güven sınırlı kalıyor.
 23.10 04:12 B1  SHORT gold 5000 USD x10 @ 4026.32 (TP 4022.30, SL 4028.74; news -0.30)
@@ -97,6 +93,8 @@ Son işlemler:
 23.10 04:54 N  NEWS (13 new) score -0.30 conf 0.45: Petrol fiyatlarındaki sert yükseliş enflasyon ve sıkı para politikası beklentilerini güçlendirip altın üzerinde baskı yaratıyor; tahvil getirilerinin yükselişi ve altının iki aylık dibe inmesi de bu yönü destekliyor. Ancak Orta Doğu jeopolitik riski güvenli liman talebini artırabilir ve dolar zayıflığı altını destekleyebilir, bu yüzden güven orta düzeyde tutuldu.
 23.10 04:54 B1  SHORT gold 5000 USD x10 @ 4014.84 (TP 4010.82, SL 4017.25; news -0.30)
 23.10 04:54 B2  CLOSE short take profit: +13.82 USD
+23.10 05:04 B1  CLOSE short take profit: +3.81 USD
+23.10 05:04 N  NEWS (8 new) score +0.10 conf 0.35: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
