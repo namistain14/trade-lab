@@ -446,6 +446,10 @@
    [
     1792745835,
     5000.3
+   ],
+   [
+    1792746120,
+    5000.3
    ]
   ]
  },
@@ -1275,6 +1279,10 @@
    [
     1792745835,
     4968.46
+   ],
+   [
+    1792746120,
+    4968.46
    ]
   ],
   "news": {
@@ -2050,7 +2058,8 @@
   "23.10 11:48 N  NEWS (5 new) score -0.60 conf 0.70: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (Warsh'\u0131n daha fazla hikaye i\u015faret etmesi, Fed'in y\u00fcksek enflasyon tahmini) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; dolar ve getiriler de g\u00fc\u00e7l\u00fc. Jeopolitik risk (\u0130ran, Ukrayna) g\u00fcvenli liman talebini k\u0131smen destekleyebilir ancak dolar\u0131n g\u00fcvenli liman rol\u00fcn\u00fc kaybetti\u011fi haberi bu etkiyi zay\u0131flat\u0131yor.",
   "23.10 11:48 B2  CLOSE short stop: -11.19 USD",
   "23.10 11:48 B3  CLOSE short stop: -11.19 USD",
-  "23.10 11:57 N  NEWS (7 new) score -0.45 conf 0.55: Petrol kaynakl\u0131 enflasyon ve Warsh'un ek faiz art\u0131r\u0131m\u0131 sinyali, alt\u0131n i\u00e7in 3 ayl\u0131k dip yak\u0131n\u0131nda bask\u0131 yarat\u0131yor; ABD dolar\u0131 da g\u00fcvenli liman rol\u00fcn\u00fc kaybetti\u011fi i\u00e7in alt\u0131 destekleyen bir etken yok. Ancak 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ve jeopolitik riskler (\u0130ran sava\u015f\u0131) k\u0131sa vadede dengeleyici olabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu."
+  "23.10 11:57 N  NEWS (7 new) score -0.45 conf 0.55: Petrol kaynakl\u0131 enflasyon ve Warsh'un ek faiz art\u0131r\u0131m\u0131 sinyali, alt\u0131n i\u00e7in 3 ayl\u0131k dip yak\u0131n\u0131nda bask\u0131 yarat\u0131yor; ABD dolar\u0131 da g\u00fcvenli liman rol\u00fcn\u00fc kaybetti\u011fi i\u00e7in alt\u0131 destekleyen bir etken yok. Ancak 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ve jeopolitik riskler (\u0130ran sava\u015f\u0131) k\u0131sa vadede dengeleyici olabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
+  "23.10 12:02 B4  LONG gold 5000 USD x10 @ 4038.25 (TP 4050.36, SL 4030.17; news +0.45)"
  ],
  "gold_big": {
   "account": {
@@ -2464,6 +2473,10 @@
    [
     1792745835,
     4969.06
+   ],
+   [
+    1792746120,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -2801,6 +2814,10 @@
    [
     1792745835,
     4988.81
+   ],
+   [
+    1792746120,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3110,7 +3127,52 @@
    [
     1792745835,
     5000
+   ],
+   [
+    1792746120,
+    5000
    ]
   ]
+ },
+ "gold_contra": {
+  "account": {
+   "balance": 5000,
+   "start": 5000,
+   "positions": [
+    {
+     "id": "acca28d7",
+     "symbol": "PAXGUSDT",
+     "side": "long",
+     "qty": 1.2381608734984064,
+     "entry": 4038.2474580000003,
+     "tp": 4050.362200374,
+     "sl": 4030.1709630840005,
+     "opened_ms": 1792746120082,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 500.0,
+     "note": "news +0.45/0.55",
+     "friction": 2.371
+    }
+   ],
+   "trades": [],
+   "day": {
+    "date": "2026-10-23",
+    "trades": 1,
+    "pnl": 0.0,
+    "stopped": false
+   },
+   "last_check_ms": 0
+  },
+  "equity_curve": [
+   [
+    1792746120,
+    4998.81
+   ]
+  ],
+  "news_calls": {
+   "date": "2026-10-23",
+   "n": 0
+  }
  }
 }
