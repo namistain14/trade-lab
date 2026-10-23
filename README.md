@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 17:48 (İstanbul)
+> Son güncelleme: 23.10.2026 17:50 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -35,14 +35,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -44.43 $ | -40.61 $ |
-| İşlem sayısı | 22 | 23 |
-| Kazanma oranı | %27.3 | %30.4 |
-| Ödenen komisyon/spread | 52.20 $ | 54.57 $ |
+| Net kâr/zarar | -48.61 $ | -44.80 $ |
+| İşlem sayısı | 23 | 24 |
+| Kazanma oranı | %26.1 | %29.2 |
+| Ödenen komisyon/spread | 54.58 $ | 56.95 $ |
 
-**Hesap değeri: 4,957.67 $** (başlangıç 5,000 $, -42.33 $ / %-0.85)
-
-Açık pozisyonlar: PAXGUSDT short @ 4018.37 (TP 4014.35 / SL 4020.78)
+**Hesap değeri: 4,955.20 $** (başlangıç 5,000 $, -44.80 $ / %-0.90)
 
 Son haber analizi (23.10 17:48): Claude puan **-0.30**, güven 0.50 — Yeni başlıklar karışık: ABD-İsrail'in İran'a olası saldırı hazırlığı ve Trump'ın yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak güçlü ABD PMI verileri ve Fed'in Aralık'ta faiz artırma olasılığını yükselten duruş, reel faizleri ve doları yukarı iterek altını baskılıyor. Ayrıca "Haven trade" çözülmesi ve reel faizlerin altın üzerindeki baskısı gibi haberler kısa vadede düşüş yönünü öne çıkarıyor; Kübü füze krizi haberi ise eski olduğu için dikkate alınmadı.
 
@@ -52,11 +50,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 17:50 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 17:26 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 17:11 | PAXGUSDT | short | +3.81 $ | take profit |
 | 23.10 16:49 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 16:32 | PAXGUSDT | short | -4.51 $ | stop (gap) |
-| 23.10 11:23 | PAXGUSDT | short | -4.19 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği + büyük hedef (TP 15$ / SL 10$)
 
@@ -144,8 +142,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.10 17:18 B1  CLOSE short take profit: +3.81 USD
-23.10 17:18 N  NEWS (10 new) score -0.15 conf 0.40: Fed'in Ekim'de faizi sabit tutmasının Aralık'ta faiz artırımı ihtimalini yükseltmesi ve doların direnci altın için kısa vadede baskı yaratıyor. İran savaşının uzayabileceği ve yeni saldırı tehditleri jeopolitik talebi destekliyor, ancak haber akışında güvenli liman talebinin zayıfladığına dair işaretler (altının güvenli liman işlemini kaybetmesi, Ukrayna'da ateşkes) bu desteği sınırlıyor.
 23.10 17:18 N  GPT  score +0.18 conf 0.34: İran savaşının uzama ihtimali ve Paris’teki terör soruşturması güvenli liman talebini destekleyebilir; ancak Ukrayna’daki ateşkes haberi ve Fed’in Aralık’ta faiz artırımı ihtimalinin yükselmesi bu desteği sınırlıyor. Altının 4.000 dolar civarında seyretmesi ve haber akışının çelişkili olması nedeniy
 23.10 17:18 B5  CLOSE short take profit: +13.82 USD
 23.10 17:24 N  NEWS (8 new) score -0.35 conf 0.50: Fed'in Ekim'de faiz sabit tutmasının Aralık artırım olasılığını yükseltmesi, enflasyon beklentilerinin artması ve altının haftalık bazda en büyük kayıp yaşaması reel faiz kaynaklı baskıyı artırıyor. İran savaşı ve Paris'teki saldırı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak haberlerde "güvenli liman talebinin kırıldığı" yorumu öne çıkıyor; bu nedenle net etki hafif-orta düzeyde negatif.
@@ -159,6 +155,8 @@ Son işlemler:
 23.10 17:48 N  NEWS (8 new) score -0.30 conf 0.50: Yeni başlıklar karışık: ABD-İsrail'in İran'a olası saldırı hazırlığı ve Trump'ın yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak güçlü ABD PMI verileri ve Fed'in Aralık'ta faiz artırma olasılığını yükselten duruş, reel faizleri ve doları yukarı iterek altını baskılıyor. Ayrıca "Haven trade" çözülmesi ve reel faizlerin altın üzerindeki baskısı gibi haberler kısa vadede düşüş yönünü öne çıkarıyor; Kübü füze krizi haberi ise eski olduğu için dikkate alınmadı.
 23.10 17:48 N  GPT  score -0.25 conf 0.55: Güçlü ABD PMI verileri ve yüksek reel getiriler altının fırsat maliyetini artırarak kısa vadede baskı yaratabilir. İran gerilimi ve Batı Şeria’daki saldırı güvenli liman talebini destekliyor; bu karşıt etkiler düşüşün sınırlı kalabileceğini düşündürüyor.
 23.10 17:48 B1  SHORT gold 5000 USD x10 @ 4018.37 (TP 4014.35, SL 4020.78; news -0.30)
+23.10 17:50 B1  CLOSE short stop: -4.19 USD
+23.10 17:50 B6  karar turu: Claude «Piyasa karışık bir seyir izliyor: teknoloji önde, geniş endeks hafif ekside ve makro veriler nötr olduğundan beklemek en doğrusu.» / GPT «Endekslerde toparlanma görülse de mevcut haber ve fiyat birleşimi, kaldıraçlı ve sabit hedefli işlemler için yeterince net avantaj sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
