@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.10.2026 11:18 (İstanbul)
+> Son güncelleme: 23.10.2026 11:27 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -35,26 +35,24 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -31.17 $ | -27.35 $ |
-| İşlem sayısı | 17 | 18 |
-| Kazanma oranı | %29.4 | %33.3 |
-| Ödenen komisyon/spread | 40.34 $ | 42.71 $ |
+| Net kâr/zarar | -35.35 $ | -31.54 $ |
+| İşlem sayısı | 18 | 19 |
+| Kazanma oranı | %27.8 | %31.6 |
+| Ödenen komisyon/spread | 42.71 $ | 45.08 $ |
 
-**Hesap değeri: 4,972.55 $** (başlangıç 5,000 $, -27.45 $ / %-0.55)
+**Hesap değeri: 4,968.46 $** (başlangıç 5,000 $, -31.54 $ / %-0.63)
 
-Açık pozisyonlar: PAXGUSDT short @ 4029.04 (TP 4025.01 / SL 4031.46)
-
-Son haber analizi (23.10 11:18): puan **-0.50**, güven 0.60 — Petrol kaynaklı enflasyon ve Fed faiz artırımı beklentileri altın üzerinde baskı yaratıyor; altın 3 aylık dibe yakın işlem görüyor ve haftalık düşüş bekleniyor. Yeniden alevlenen İran savaşı güvenli liman talebini destekleyebilir, ancak piyasa bunu şu an altın lehine fiyatlamıyor, dolar da güvenli liman rolünü kaybettiğini gösteriyor.
+Son haber analizi (23.10 11:27): puan **-0.70**, güven 0.70 — Petrol fiyatlarındaki yükseliş enflasyon endişelerini ve Fed faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın üç aylık dipte. Jeopolitik risk (İran savaşı) var ama güvenli liman talebi bu baskıyı dengelemiyor; yine de veri/Fed açıklamaları sürpriz getirebileceğinden güven orta düzeyde.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.10 11:23 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 11:01 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 10:16 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 10:02 | PAXGUSDT | short | -4.19 $ | stop |
 | 23.10 09:48 | PAXGUSDT | short | -4.19 $ | stop |
-| 23.10 08:08 | PAXGUSDT | short | -4.19 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği + büyük hedef (TP 15$ / SL 10$)
 
@@ -65,7 +63,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %25.0 |
 | Ödenen komisyon/spread | 9.49 $ | 9.49 $ |
 
-**Hesap değeri: 4,979.43 $** (başlangıç 5,000 $, -20.57 $ / %-0.41)
+**Hesap değeri: 4,977.97 $** (başlangıç 5,000 $, -22.03 $ / %-0.44)
 
 Açık pozisyonlar: PAXGUSDT short @ 4028.45 (TP 4016.37 / SL 4036.51)
 
@@ -87,15 +85,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.12 $** (başlangıç 5,000 $, -0.88 $ / %-0.02)
+**Hesap değeri: 4,997.67 $** (başlangıç 5,000 $, -2.33 $ / %-0.05)
 
 Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
 
 ## Son olaylar
 
 ```
-23.10 10:11 B1  CLOSE short stop: -4.19 USD
-23.10 10:11 N  NEWS (8 new) score -0.45 conf 0.55: Altın 4.000 doların altına inip Temmuz'dan beri en düşük seviyeye yakın işlem görüyor; petrol şoku enflasyon ve Fed faiz artırımı beklentilerini canlandırıyor, dolar güçlü. Ancak 10 yıllık tahvil getirisinin sert düşüşü ve İran savaşı kaynaklı güvenli liman talebi kısmen destek sağlayabileceği için sinyal karışık ve güven sınırlı.
 23.10 10:13 B1  SHORT gold 5000 USD x10 @ 4028.24 (TP 4024.22, SL 4030.66; news -0.45)
 23.10 10:23 B1  CLOSE short stop: -4.19 USD
 23.10 10:23 N  NEWS (5 new) score -0.60 conf 0.60: Altın 4.000 doların altına düşerek Temmuz'dan beri en düşük seviyeye geriledi; petrol kaynaklı enflasyon endişeleri Fed faiz artırımı beklentilerini canlandırıyor ve dolar (DXY ~101.5) güçlü seyrediyor. Bu tablo kısa vadede altın için baskılayıcı, ancak AI kaynaklı teknoloji satışı ve 10 yıllık tahvil getirisindeki sert düşüş (19 baz puan) güvenli liman talebi ve gevşeme beklentisi açısından karşıt sinyaller içerdiğinden güveni sınırlı tutuyorum.
@@ -109,6 +105,8 @@ Açık pozisyonlar: PAXGUSDT short @ 4028.41 (TP 4016.33 / SL 4036.47)
 23.10 11:09 N  NEWS (9 new) score -0.40 conf 0.50: Altın 3 aylık dibe yakın ve 4.000 doların altına inmiş durumda; Fed faiz artırımı beklentileri, güçlü dolar ve petrol kaynaklı enflasyon endişeleri baskı oluşturuyor. Buna karşılık ABD 10 yıllık tahvil getirisinin sert düşüşü ve yapay zeka yatırım kaygıları kısmen destekleyici olabileceğinden, güven seviyesi orta düzeyde tutuldu.
 23.10 11:18 N  NEWS (13 new) score -0.50 conf 0.60: Petrol kaynaklı enflasyon ve Fed faiz artırımı beklentileri altın üzerinde baskı yaratıyor; altın 3 aylık dibe yakın işlem görüyor ve haftalık düşüş bekleniyor. Yeniden alevlenen İran savaşı güvenli liman talebini destekleyebilir, ancak piyasa bunu şu an altın lehine fiyatlamıyor, dolar da güvenli liman rolünü kaybettiğini gösteriyor.
 23.10 11:18 B1  SHORT gold 5000 USD x10 @ 4029.04 (TP 4025.01, SL 4031.46; news -0.50)
+23.10 11:27 B1  CLOSE short stop: -4.19 USD
+23.10 11:27 N  NEWS (9 new) score -0.70 conf 0.70: Petrol fiyatlarındaki yükseliş enflasyon endişelerini ve Fed faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın üç aylık dipte. Jeopolitik risk (İran savaşı) var ama güvenli liman talebi bu baskıyı dengelemiyor; yine de veri/Fed açıklamaları sürpriz getirebileceğinden güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
