@@ -458,6 +458,10 @@
    [
     1792746932,
     5000.3
+   ],
+   [
+    1792747585,
+    5000.3
    ]
   ]
  },
@@ -1299,6 +1303,10 @@
    [
     1792746932,
     4968.46
+   ],
+   [
+    1792747585,
+    4968.46
    ]
   ],
   "news": {
@@ -1306,8 +1314,8 @@
    "confidence": 0.6,
    "reason": "Petrol 113 dolar\u0131n \u00fczerine \u00e7\u0131karak enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve alt\u0131n\u0131n 3 ayl\u0131k dibe gelmesi bask\u0131y\u0131 art\u0131r\u0131yor. Sava\u015f haberleri ve g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetmi\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle beklenen etki negatif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
    "n": 45,
-   "ts": 1792746678683,
-   "new_headlines": 10,
+   "ts": 1792747582232,
+   "new_headlines": 13,
    "key_events": [
     "Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve enflasyonun kal\u0131c\u0131l\u0131\u011f\u0131",
     "Petrol fiyatlar\u0131n\u0131n 113 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, alt\u0131n fiyatlar\u0131nda d\u00fc\u015f\u00fc\u015f (3 ayl\u0131k dip)",
@@ -1893,15 +1901,31 @@
     "confidence": 0.6,
     "reason": "Petrol 113 dolar\u0131n \u00fczerine \u00e7\u0131karak enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve alt\u0131n\u0131n 3 ayl\u0131k dibe gelmesi bask\u0131y\u0131 art\u0131r\u0131yor. Sava\u015f haberleri ve g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetmi\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle beklenen etki negatif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
     "new": 10
+   },
+   {
+    "ts": 1792747582232,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "",
+    "new": 13
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 74
+   "n": 75
   },
   "news_seen": [
+   "US Federal Reserve to Raise Rates Twice More in 2026, Says Bank of America - Morningstar",
+   "Hormuz, the June Memorandum and Rome\u2019s Role: Iran\u2019s Minister Speaks - Decode39",
+   "Treasury yields rise as traders await more economic data ahead of Fed decision - CNBC",
+   "U.S. Senate candidate Adam Hamilton talks Iran War, tariffs in Kansas - The Topeka Capital-Journal",
+   "$400 Billion Mansa Musa Fortune Traces to a 2012 Website List - Ancient Origins",
+   "Trump claims we've beaten Iran. But US isn't close to victory | Opinion - USA Today",
+   "16th Dist. incumbent Kelly says he's voted repeatedly for lower costs - Erie Times-News",
+   "Japanese Yen: Set for further gains against US Dollar \u2013 UOB | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "When Housing Falters and Inflation Persists, Gold Stands Strong - GoldBroker",
    "Kylie\u2019s $50M Bra, War Zone Vacations, and Why Chocolate Sucks Now - The Free Press",
+   "Take Five: AI trade meets the Fed - Reuters",
    "Trump\u2019s Iran sanctions run into limits - Yahoo",
    "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again - The Seattle Times",
    "Review of HBO's 'War' - Washington Examiner",
@@ -1913,14 +1937,14 @@
    "Japanese Yen: Set for further gains against US Dollar - UOB - FXStreet",
    "Gold prices dip - VnExpress International",
    "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
+   "Europe indexes fall as sluggish business activity adds to geopolitical concerns (EUR:USD:) - Seeking Alpha",
    "Warsh likely to signal more rate hikes as inflation remains persistent (US10Y:) - Seeking Alpha",
    "Mapping Russia's hybrid war: 17 newsrooms, six months, hundreds of incidents - EBU",
    "New famine risk haunts war-torn Sudan with El Ni\u00f1o-driven drought - Arab News",
-   "Pound To Dollar Price News, Forecast: Best Exchange Rate In Five Weeks - Exchange Rates UK",
    "Euro: Weakens against US Dollar amid risk concerns \u2013 Danske Bank | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "What is the Budget and what could be in it?",
    "New Zealand Dollar stalls below 0.5700 as Oil prices dent risk appetite - FXStreet",
-   "Australian Dollar holds steady amid RBNZ rate hike bets, weak PMI data | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - The Motley Fool",
    "\u201cWhat\u2019d I Miss?\u201d: The Iran war, in black and white - The Colorado Sun",
    "The Indian workers filming their work to train AI",
@@ -1930,21 +1954,12 @@
    "Gold Forecast 23/10: Sharp Selloff Threatens $4,000 (Video) - Daily Forex",
    "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
    "Trump Asked Musk to Reverse Limits on Ukraine\u2019s Military Internet Use - The New York Times",
+   "Gold nears three-month low, trading at $4,015 per ounce \u2014 Anadolu Agency - UA.NEWS",
    "Gold Falls as Oil Rallies, Testing Which Miners Can Absorb the Hit - Crux Investor",
-   "World gold prices lose momentum, the 3,900 USD mark gradually becomes clear - Laodong.vn",
+   "Ukrainian, Norwegian defense ministers discuss urgent increase in interceptor missile stocks - Ukrinform",
    "Are global oil reserves sufficient to withstand renewed US-Iran war? - Al Jazeera",
    "Elon Musk is war\u2019s new power broker - The Boston Globe",
-   "Denmark picks Covenant\u2019s Anthem missile in first long-range strike purchase - CTech",
-   "MCX Gold Rate Today: Check City-wise 24K, 22K Gold & - APAC Media",
-   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
-   "AI trade meets the Fed - Reuters",
-   "Australia sanctions 2 North Korean companies, \u2018financial brokers\u2019 - Anadolu Ajans\u0131",
-   "Russo-Ukrainian war, day 1702: Ukraine says Poland paused military aid package over Lviv vote honoring WWII nationalists - Euromaidan Press",
-   "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop - Investing.com",
-   "British Pound: Room to rise toward 1.3440 against US Dollar - UOB - FXStreet",
-   "Europe needs a war economy - Al Jazeera",
-   "A Ukrainian soldier blinded in war hopes to see his children again, in photos - Northeast Mississippi Daily Journal",
-   "Yen Pulls Back as Dollar Firms Ahead of Fed & BoJ Rates - TradingPedia"
+   "Denmark picks Covenant\u2019s Anthem missile in first long-range strike purchase - CTech"
   ]
  },
  "log": [
@@ -2083,7 +2098,8 @@
   "23.10 11:48 B3  CLOSE short stop: -11.19 USD",
   "23.10 11:57 N  NEWS (7 new) score -0.45 conf 0.55: Petrol kaynakl\u0131 enflasyon ve Warsh'un ek faiz art\u0131r\u0131m\u0131 sinyali, alt\u0131n i\u00e7in 3 ayl\u0131k dip yak\u0131n\u0131nda bask\u0131 yarat\u0131yor; ABD dolar\u0131 da g\u00fcvenli liman rol\u00fcn\u00fc kaybetti\u011fi i\u00e7in alt\u0131 destekleyen bir etken yok. Ancak 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f ve jeopolitik riskler (\u0130ran sava\u015f\u0131) k\u0131sa vadede dengeleyici olabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 12:02 B4  LONG gold 5000 USD x10 @ 4038.25 (TP 4050.36, SL 4030.17; news +0.45)",
-  "23.10 12:11 N  NEWS (10 new) score -0.50 conf 0.60: Petrol 113 dolar\u0131n \u00fczerine \u00e7\u0131karak enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve alt\u0131n\u0131n 3 ayl\u0131k dibe gelmesi bask\u0131y\u0131 art\u0131r\u0131yor. Sava\u015f haberleri ve g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetmi\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle beklenen etki negatif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir."
+  "23.10 12:11 N  NEWS (10 new) score -0.50 conf 0.60: Petrol 113 dolar\u0131n \u00fczerine \u00e7\u0131karak enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; Warsh'\u0131n daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve alt\u0131n\u0131n 3 ayl\u0131k dibe gelmesi bask\u0131y\u0131 art\u0131r\u0131yor. Sava\u015f haberleri ve g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor, dolar da g\u00fcvenli liman rol\u00fcn\u00fc kaybetmi\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle beklenen etki negatif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
+  "23.10 12:26 N  NEWS (13 new) score -0.50 conf 0.60: "
  ],
  "gold_big": {
   "account": {
@@ -2509,6 +2525,10 @@
    [
     1792746932,
     4969.06
+   ],
+   [
+    1792747585,
+    4969.06
    ]
   ],
   "news_calls": {
@@ -2858,6 +2878,10 @@
    [
     1792746932,
     4988.81
+   ],
+   [
+    1792747585,
+    4988.81
    ]
   ],
   "news_calls": {
@@ -3179,6 +3203,10 @@
    [
     1792746932,
     5000
+   ],
+   [
+    1792747585,
+    5000
    ]
   ]
  },
@@ -3224,6 +3252,10 @@
    [
     1792746932,
     5001.45
+   ],
+   [
+    1792747585,
+    5002.32
    ]
   ],
   "news_calls": {
