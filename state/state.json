@@ -297,30 +297,18 @@
    [
     1792727992,
     5000
+   ],
+   [
+    1792728677,
+    5000
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4985.952978128235,
+   "balance": 4989.76798851787,
    "start": 5000,
-   "positions": [
-    {
-     "id": "8845715f",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2399307357629556,
-     "entry": 4032.483312,
-     "tp": 4028.450828688,
-     "sl": 4034.9028019872,
-     "opened_ms": 1792726138643,
-     "entry_cost": 0.0,
-     "max_hold_min": 240,
-     "margin": 500.0,
-     "note": "news -0.60/0.60",
-     "friction": 2.3725
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "6b42bc8f",
@@ -552,12 +540,33 @@
      "gross": -4.1868,
      "costs": 0.0,
      "pnl": -4.1868
+    },
+    {
+     "id": "8845715f",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2399307357629556,
+     "entry": 4032.483312,
+     "tp": 4028.450828688,
+     "sl": 4034.9028019872,
+     "opened_ms": 1792726138643,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.60/0.60",
+     "friction": 2.3725,
+     "exit": 4029.406518853738,
+     "closed_ms": 1792728120000,
+     "reason": "take profit",
+     "gross": 3.815,
+     "costs": 0.0,
+     "pnl": 3.815
     }
    ],
    "day": {
     "date": "2026-10-23",
     "trades": 10,
-    "pnl": -17.862309911439123,
+    "pnl": -14.047299521804144,
     "stopped": false
    },
    "last_check_ms": 0
@@ -846,15 +855,19 @@
    [
     1792727992,
     4987.16
+   ],
+   [
+    1792728677,
+    4989.77
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.7,
-   "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinde ve yakla\u015fan Fed karar\u0131 \u00f6ncesinde $4,000 alt\u0131na sark\u0131yor. Jeopolitik risk-ka\u00e7\u0131\u015f talebi bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, ancak haber ak\u0131\u015f\u0131 genel olarak \u015fahin ve alt\u0131n i\u00e7in negatif.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n 3 ayl\u0131k en d\u00fc\u015f\u00fck seviyesinde (4.000 dolar\u0131n alt\u0131nda) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri ile petrol kaynakl\u0131 enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor; bu bask\u0131, jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) kaynakl\u0131 g\u00fcvenli liman talebinden daha bask\u0131n g\u00f6r\u00fcn\u00fcyor. Alt\u0131n\u0131n bir k\u0131sm\u0131 toparlanm\u0131\u015f olmas\u0131 ve dolar\u0131n zay\u0131f seyretmesi kar\u015f\u0131t sinyaller oldu\u011fu i\u00e7in g\u00fcven orta seviyede tutuldu.",
    "n": 45,
-   "ts": 1792727773911,
-   "new_headlines": 12,
+   "ts": 1792728676703,
+   "new_headlines": 10,
    "key_events": [
     "Alt\u0131n $4,000 alt\u0131na d\u00fc\u015ft\u00fc, \u00fc\u00e7 ayl\u0131k dip (FXStreet, 03:30 UTC)",
     "Fed faiz art\u0131r\u0131m\u0131 bahisleri ve petrol rallisi enflasyon/faiz endi\u015felerini art\u0131r\u0131yor; alt\u0131n haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe haz\u0131rlan\u0131yor",
@@ -1216,14 +1229,24 @@
     "confidence": 0.7,
     "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinde ve yakla\u015fan Fed karar\u0131 \u00f6ncesinde $4,000 alt\u0131na sark\u0131yor. Jeopolitik risk-ka\u00e7\u0131\u015f talebi bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, ancak haber ak\u0131\u015f\u0131 genel olarak \u015fahin ve alt\u0131n i\u00e7in negatif.",
     "new": 12
+   },
+   {
+    "ts": 1792728676703,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n 3 ayl\u0131k en d\u00fc\u015f\u00fck seviyesinde (4.000 dolar\u0131n alt\u0131nda) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri ile petrol kaynakl\u0131 enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor; bu bask\u0131, jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) kaynakl\u0131 g\u00fcvenli liman talebinden daha bask\u0131n g\u00f6r\u00fcn\u00fcyor. Alt\u0131n\u0131n bir k\u0131sm\u0131 toparlanm\u0131\u015f olmas\u0131 ve dolar\u0131n zay\u0131f seyretmesi kar\u015f\u0131t sinyaller oldu\u011fu i\u00e7in g\u00fcven orta seviyede tutuldu.",
+    "new": 10
    }
   ],
   "news_calls": {
    "date": "2026-10-23",
-   "n": 42
+   "n": 43
   },
   "news_seen": [
-   "Gold Faces Pressure Ahead of Fed Decision as Prices Extend Drop Below $4,000 - TradingKey",
+   "Swiss Franc inches lower as US Dollar recovers recent losses | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Exclusive: A Strategic and Geopolitical Assessment of the Leif Erikson Cable System\u2019s Viability - Submarine Networks",
+   "Swiss Franc inches lower as US Dollar recovers recent losses - FXStreet",
+   "Gold Plummets Amid Unusual Divergence with the Dollar and U.S. Bonds - KuCoin",
    "Gold rebounds from three-month low; not out of the woods yet amid Fed hike bets - FXStreet",
    "World gold prices slide, investors worry about a deeper decline scenario - Laodong.vn",
    "U.S. dollar ticks down - \u5df4\u58eb\u7684\u5831",
@@ -1235,16 +1258,21 @@
    "The National Park Service recognizes Pendleton as American World War II Heritage City - East Oregonian",
    "Analysis \u2022 Netanyahu and Trump's private war could bring Iran closer to a regional deal - Haaretz",
    "The Taiwan Strait is not on the verge of war: The \u20182027 invasion\u2019 countdown is a mirage - Fortune",
+   "Gold Rate Today in Uttar Pradesh 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today",
+   "Coalition air defenses down missile bound for Riyadh amid ongoing Houthi attacks - Arab News",
    "How Mark Zuckerberg went to war with his own board of directors over pay and power - The Washington Post",
    "Istanbul meeting: A new division of labor in the Iran war? - Iran International",
+   "Gold Rate Today: Check 24K, 22K Gold Prices in Mumbai, Delhi, Chennai, Kolkata, Bengaluru on October 23 - NDTV Profit",
    "New Zealand Dollar gains ground to near 0.5700 on RBNZ rate hike prospects - FXStreet",
    "Gold heads for sharpest weekly decline in four months on Fed rate outlook - The Economic Times",
    "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Australia sanctions 2 over North Korean fake IT workers scheme for nuclear funds - South China Morning Post",
    "Trump invokes Cold War-era Defense Production Act to expand oil production - Washington Times",
+   "Gold Price Today in Amravati \u2013 18K, 22K & 24K Rate | 23 October 2026 - The Times of India",
    "How are Ukraine strikes, Mideast war driving US fuel prices? - Al-Monitor",
    "102-year-old World War II veteran reflects on Navy service - Texomashomepage.com",
    "How popular is the Iran War? - Silver Bulletin",
+   "Gold, silver slide up to 1.65%: Key triggers to watch - CNBC TV18",
    "United States Dollar Index struggles due to weak tech earnings - FXStreet",
    "War Recap: King\u2019s Speech - Vulture",
    "\u2018War\u2019 Episode 4 Ending Explained: Sienna Miller and Archie Renaux break down that wildly inappropriate kiss - Decider",
@@ -1257,17 +1285,9 @@
    "Ukraine war briefing: Uncertainty over Kyiv\u2019s Starlink access after Trump claims Musk restored service - The Guardian",
    "\u2018I\u2019m a killer\u2019: Inside the ugly war over Dolly Parton\u2019s $450M empire - NewsNation",
    "Trump Rally: U.S. Armed Forces investment, war in Venezuela and oil prices - KTIV",
+   "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - WCYB",
    "COMMENTARY: US tariff war is fueling Vietnam's coal boom - Reuters",
-   "Gold prices today (October 23): Sharp decline - Vietnam.vn",
-   "Gold prices today, October 23, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
-   "Gold Rate Today in New Delhi 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
-   "Gold Rate Today in Bengaluru 23rd October 2026 : 22 & 24 Carat, Todays Gold Price in Bengaluru - Business Today",
-   "Fact or Fiction: Gas station war drops gas prices below $1 a gallon? - ABC 10News San Diego",
-   "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
-   "Alkane Resources - Quarterly Report - September 2026 - The Manila Times",
-   "Murkowski on war-driven energy prices: 'It is wrong.' - Alaska Public Media",
-   "Gold rate today (October 21, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar G - The Economic Times",
-   "Trump invokes Cold War-era Defense Production Act for oil production, refining - The Mighty 790 KFGO"
+   "Gold prices today (October 23): Sharp decline - Vietnam.vn"
   ]
  },
  "log": [
@@ -1351,7 +1371,9 @@
   "23.10 06:28 B1  SHORT gold 5000 USD x10 @ 4032.48 (TP 4028.45, SL 4034.90; news -0.60)",
   "23.10 06:38 N  NEWS (4 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besliyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe, $4,000 alt\u0131na geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015fe gidiyor. Jeopolitik risk (\u0130ran sava\u015f\u0131) g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bask\u0131 s\u00fcr\u00fcyor; ancak ABD dolar\u0131 zay\u0131fl\u0131\u011f\u0131 ve Orta Do\u011fu riski k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "23.10 06:47 N  NEWS (14 new) score -0.40 conf 0.60: Alt\u0131n, petrol kaynakl\u0131 enflasyon ve Fed'in s\u0131k\u0131 kalma beklentisi nedeniyle \u00fc\u00e7 ayl\u0131k dibe inip haftal\u0131k d\u00fc\u015f\u00fc\u015fe gidiyor; jeopolitik gerilim (\u0130ran sava\u015f\u0131, Husi sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki bask\u0131n de\u011fil. Zay\u0131f teknoloji kazan\u00e7lar\u0131na ba\u011fl\u0131 dolar zay\u0131fl\u0131\u011f\u0131 ise alt\u0131 k\u0131smen destekliyor, ancak genel tablo k\u0131sa vadede negatif.",
-  "23.10 06:56 N  NEWS (12 new) score -0.60 conf 0.70: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinde ve yakla\u015fan Fed karar\u0131 \u00f6ncesinde $4,000 alt\u0131na sark\u0131yor. Jeopolitik risk-ka\u00e7\u0131\u015f talebi bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, ancak haber ak\u0131\u015f\u0131 genel olarak \u015fahin ve alt\u0131n i\u00e7in negatif."
+  "23.10 06:56 N  NEWS (12 new) score -0.60 conf 0.70: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesinde ve yakla\u015fan Fed karar\u0131 \u00f6ncesinde $4,000 alt\u0131na sark\u0131yor. Jeopolitik risk-ka\u00e7\u0131\u015f talebi bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, ancak haber ak\u0131\u015f\u0131 genel olarak \u015fahin ve alt\u0131n i\u00e7in negatif.",
+  "23.10 07:11 B1  CLOSE short take profit: +3.81 USD",
+  "23.10 07:11 N  NEWS (10 new) score -0.45 conf 0.60: Alt\u0131n 3 ayl\u0131k en d\u00fc\u015f\u00fck seviyesinde (4.000 dolar\u0131n alt\u0131nda) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri ile petrol kaynakl\u0131 enflasyon endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor; bu bask\u0131, jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) kaynakl\u0131 g\u00fcvenli liman talebinden daha bask\u0131n g\u00f6r\u00fcn\u00fcyor. Alt\u0131n\u0131n bir k\u0131sm\u0131 toparlanm\u0131\u015f olmas\u0131 ve dolar\u0131n zay\u0131f seyretmesi kar\u015f\u0131t sinyaller oldu\u011fu i\u00e7in g\u00fcven orta seviyede tutuldu."
  ],
  "gold_big": {
   "account": {
@@ -1611,6 +1633,10 @@
    [
     1792727992,
     4986.12
+   ],
+   [
+    1792728677,
+    4994.35
    ]
   ],
   "news_calls": {
@@ -1796,6 +1822,10 @@
    [
     1792727992,
     5000
+   ],
+   [
+    1792728677,
+    5000
    ]
   ],
   "news_calls": {
@@ -1976,6 +2006,10 @@
    ],
    [
     1792727992,
+    5000
+   ],
+   [
+    1792728677,
     5000
    ]
   ]
