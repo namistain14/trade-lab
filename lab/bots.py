@@ -77,6 +77,17 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     def exit_fill(side, lvl):  # closing a long sells at bid, closing a short buys at ask
         return lvl - half - lvl * slip if side == "long" else lvl + half + lvl * slip
 
+    # targets changed in config.yaml -> open positions follow the new TP/SL too (measured from their own entry)
+    for p in acc["positions"]:
+        if p["symbol"] != sym:
+            continue
+        tp_d, sl_d = cfg["take_profit_usd"] / p["qty"], cfg["stop_loss_usd"] / p["qty"]
+        tp, sl = ((p["entry"] + tp_d, p["entry"] - sl_d) if p["side"] == "long"
+                  else (p["entry"] - tp_d, p["entry"] + sl_d))
+        moved = "be_trigger" in p and p["be_trigger"] is None  # B3 already moved its stop to break-even
+        if abs(tp - p["tp"]) > 1e-6 or (abs(sl - p["sl"]) > 1e-6 and not moved):
+            p["tp"], p["sl"] = tp, (p["sl"] if moved else sl)
+            log.append(f"{tag}  hedefler güncellendi: TP {tp:.2f} (+{cfg['take_profit_usd']}$), SL {p['sl']:.2f} (-{cfg['stop_loss_usd']}$)")
     for tr in paper.check_exits(acc, sym, m1, exit_fill=exit_fill, exit_fee=lambda px, q: 0.0):
         log.append(f"{tag}  CLOSE {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
