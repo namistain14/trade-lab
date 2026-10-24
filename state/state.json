@@ -1026,6 +1026,10 @@
    [
     1792823999,
     5000.3
+   ],
+   [
+    1792824544,
+    5000.3
    ]
   ]
  },
@@ -2729,15 +2733,19 @@
    [
     1792823999,
     4923.96
+   ],
+   [
+    1792824544,
+    4923.96
    ]
   ],
   "news": {
    "score": -0.15,
-   "confidence": 0.35,
-   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk talebini destekliyor, ancak haberlerin \u00e7o\u011fu alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc, zay\u0131f talebi, \"4.000 dolar\u0131n alt\u0131na inme\" teknik sat\u0131\u015f\u0131n\u0131 ve ABD dolar\u0131ndaki y\u00fckseli\u015fi vurguluyor. Enflasyon bask\u0131s\u0131 haberleri de Fed'in s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirip alt\u0131 bask\u0131layabilir. Bu nedenlerle k\u0131sa vadede hafif negatif, ama g\u00fcven d\u00fc\u015f\u00fck bir g\u00f6r\u00fcn\u00fcm.",
+   "confidence": 0.4,
+   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131, Husi f\u00fczeleri ve Trump'\u0131n yeni sald\u0131r\u0131 tehdidi g\u00fcvenli liman talebini destekliyor, ancak petrol fiyat\u0131n\u0131n nisandan bu yana en y\u00fcksek seviyeye \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini art\u0131rarak alt\u0131n i\u00e7in olumsuz. Haberlerde alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 ve dolar\u0131n y\u00fckseli\u015fi de bask\u0131 yarat\u0131yor; bu nedenle hafif negatif bir g\u00f6r\u00fcn\u00fcm var, ancak bir\u00e7ok ba\u015fl\u0131k tekrar niteli\u011finde oldu\u011fundan g\u00fcven s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1792823996580,
-   "new_headlines": 4,
+   "ts": 1792824541375,
+   "new_headlines": 5,
    "key_events": [
     "Alt\u0131n 4.000 dolar deste\u011finin alt\u0131na indi; haftal\u0131k d\u00fc\u015f\u00fc\u015f ve zay\u0131f talep",
     "ABD dolar\u0131 hafif y\u00fckseldi (alt\u0131n i\u00e7in bask\u0131)",
@@ -4178,21 +4186,34 @@
     "new": 4,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792824541375,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131, Husi f\u00fczeleri ve Trump'\u0131n yeni sald\u0131r\u0131 tehdidi g\u00fcvenli liman talebini destekliyor, ancak petrol fiyat\u0131n\u0131n nisandan bu yana en y\u00fcksek seviyeye \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini art\u0131rarak alt\u0131n i\u00e7in olumsuz. Haberlerde alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 ve dolar\u0131n y\u00fckseli\u015fi de bask\u0131 yarat\u0131yor; bu nedenle hafif negatif bir g\u00f6r\u00fcn\u00fcm var, ancak bir\u00e7ok ba\u015fl\u0131k tekrar niteli\u011finde oldu\u011fundan g\u00fcven s\u0131n\u0131rl\u0131.",
+    "new": 5,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 52
+   "n": 53
   },
   "news_seen": [
+   "St. Francis survives spirited Bellarmine challenge as Holy War wakes up the echoes of past battles - The Mercury News",
+   "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
    "France prepares for day of protest a week after nationwide riots",
    "Peter Schiff: Inflation is a Policy Choice - SchiffGold.com",
    "Ukraine Ready to Freeze Front Line to End War, Won\u2019t Cede Land, Zelensky Says - Kyiv Post",
-   "Russia\u2019s Hot War on NATO: Airport Sabotage, Cruise Missiles & European Silence - Kyiv Post",
+   "Gold Rate Today Live, Latest 22 And 24 Carat Gold Price In India - NDTV Profit",
    "Domestic gold prices slide for third time in 10 days - The Financial Express",
    "Melania Trump says she brokered truce in war-torn Ukrainian city - The Japan Times",
    "Opinion | A stinky cheese tariff - The Washington Post",
+   "Gold Prices Drop Ksh18,551 in One Week, CBK Reports - Kenyans.co.ke",
    "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+   "Russian army loses 1,980 troops, two air defense systems in Ukraine war over past day - Ukrinform",
    "Gold Prices Experience Significant Weekly Decline Amid Weak Demand - India News Network",
    "CARDINALS SET THEMSELVES APART IN HOLY WAR - Your Sports Network",
    "How Brazil's changing working class is reshaping the presidential race",
@@ -4200,7 +4221,6 @@
    "Miliband says UK 'redoubling' diplomatic efforts to end Iran war - Middle East Eye",
    "Why Coeur Mining Fell Even As Profit Rose - Simply Wall Street",
    "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
-   "Chennai gold price rises by Rs 80 on October 24, 2026; check today's gold, silver rate - DT Next",
    "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan\u2019s Joint Command & Control. - Futura Doctrina | Mick Ryan",
    "Gold rate today in Hyderabad, October 24, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
    "Rubio reveals theory on Russia's war against Ukraine ahead of next US peace push - The Kyiv Independent",
@@ -4226,15 +4246,10 @@
    "Gold Digger: Why US$4000/oz could be gold\u2019s \u2018comfort zone\u2019 - Stockhead",
    "Melania Trump\u2019s Cynical New Ukraine War Scheme Threatens to Upstage Donald Trump - The Daily Beast",
    "Eldorado Gold: Skouries Is A Mine Now, The Stock Still Prices A Project - Seeking Alpha",
-   "Opinion | Iran war fever is rising again. The battlespace has changed. - The Washington Post",
-   "Gaza\u2019s worsening food crisis is \u2018a war of survival every day\u2019 - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-   "Silver Price Forecast: US Inflation Pressures Heat Up as $55 Level Lost, Is Silver's Next Target $50? - TradingKey",
-   "'Masha and the Bear': Ukraine sanctions Russian cartoon - DW.com"
+   "Opinion | Iran war fever is rising again. The battlespace has changed. - The Washington Post"
   ]
  },
  "log": [
-  "23.10 06:19 B1  CLOSE short stop: -4.19 USD",
-  "23.10 06:19 N  NEWS (8 new) score -0.50 conf 0.60: Alt\u0131n 3 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k d\u00fc\u015f\u00fc\u015fe gidiyor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek reel faizler \u00fczerinden alt\u0131n\u0131 bask\u0131l\u0131yor. Jeopolitik risk-off (\u0130ran sava\u015f\u0131, Orta Do\u011fu) bir miktar g\u00fcvenli liman talebi yaratsa da, piyasada bask\u0131n etki hawkish Fed beklentisi ve g\u00fc\u00e7l\u00fc dolar/tahvil getirisi y\u00f6n\u00fcnde oldu\u011fundan net etki negatif.",
   "23.10 06:19 B2  SHORT gold 5000 USD x10 @ 4027.22 (TP 4015.14, SL 4035.28; news -0.50)",
   "23.10 06:28 N  NEWS (5 new) score -0.60 conf 0.60: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve Fed'in s\u0131k\u0131 kalma beklentilerini besleyerek reel faizleri yukar\u0131 itiyor; alt\u0131n \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k en sert d\u00fc\u015f\u00fc\u015flerden birine y\u00f6neliyor. Dolar teknoloji kazan\u00e7lar\u0131 nedeniyle zay\u0131f ve Orta Do\u011fu risk i\u015ftahs\u0131zl\u0131\u011f\u0131 bir miktar g\u00fcvenli liman talebi yarat\u0131yor, ancak bu etkiler mevcut sat\u0131\u015f bask\u0131s\u0131n\u0131 dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
   "23.10 06:28 B1  SHORT gold 5000 USD x10 @ 4032.48 (TP 4028.45, SL 4034.90; news -0.60)",
@@ -4532,7 +4547,9 @@
   "24.10 09:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 09:30 N  NEWS (2 new) score +0.10 conf 0.35: Yeni haberlerde \u0130ran sava\u015f\u0131 ve Houthi f\u00fcze olaylar\u0131 gibi jeopolitik t\u0131rman\u0131\u015f sinyalleri alt\u0131n i\u00e7in hafif destekleyici (g\u00fcvenli liman talebi). Ancak alt\u0131n\u0131n son d\u00f6nemdeki d\u00fc\u015f\u00fc\u015f trendi, ABD dolar\u0131ndaki g\u00fc\u00e7lenme ve \u00c7ar\u015famba g\u00fcn\u00fc beklenen Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik bu etkiyi s\u0131n\u0131rl\u0131yor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya zaten fiyatlanm\u0131\u015f bilgi i\u00e7eriyor.",
   "24.10 09:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 09:39 N  NEWS (4 new) score -0.15 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk talebini destekliyor, ancak haberlerin \u00e7o\u011fu alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc, zay\u0131f talebi, \"4.000 dolar\u0131n alt\u0131na inme\" teknik sat\u0131\u015f\u0131n\u0131 ve ABD dolar\u0131ndaki y\u00fckseli\u015fi vurguluyor. Enflasyon bask\u0131s\u0131 haberleri de Fed'in s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirip alt\u0131 bask\u0131layabilir. Bu nedenlerle k\u0131sa vadede hafif negatif, ama g\u00fcven d\u00fc\u015f\u00fck bir g\u00f6r\u00fcn\u00fcm."
+  "24.10 09:39 N  NEWS (4 new) score -0.15 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk talebini destekliyor, ancak haberlerin \u00e7o\u011fu alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc, zay\u0131f talebi, \"4.000 dolar\u0131n alt\u0131na inme\" teknik sat\u0131\u015f\u0131n\u0131 ve ABD dolar\u0131ndaki y\u00fckseli\u015fi vurguluyor. Enflasyon bask\u0131s\u0131 haberleri de Fed'in s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirip alt\u0131 bask\u0131layabilir. Bu nedenlerle k\u0131sa vadede hafif negatif, ama g\u00fcven d\u00fc\u015f\u00fck bir g\u00f6r\u00fcn\u00fcm.",
+  "24.10 09:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 09:49 N  NEWS (5 new) score -0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131, Husi f\u00fczeleri ve Trump'\u0131n yeni sald\u0131r\u0131 tehdidi g\u00fcvenli liman talebini destekliyor, ancak petrol fiyat\u0131n\u0131n nisandan bu yana en y\u00fcksek seviyeye \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini art\u0131rarak alt\u0131n i\u00e7in olumsuz. Haberlerde alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 ve dolar\u0131n y\u00fckseli\u015fi de bask\u0131 yarat\u0131yor; bu nedenle hafif negatif bir g\u00f6r\u00fcn\u00fcm var, ancak bir\u00e7ok ba\u015fl\u0131k tekrar niteli\u011finde oldu\u011fundan g\u00fcven s\u0131n\u0131rl\u0131."
  ],
  "gold_big": {
   "account": {
@@ -5547,6 +5564,10 @@
    [
     1792823999,
     4964.78
+   ],
+   [
+    1792824544,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6510,6 +6531,10 @@
    [
     1792823999,
     4973.18
+   ],
+   [
+    1792824544,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7399,6 +7424,10 @@
    [
     1792823999,
     5000
+   ],
+   [
+    1792824544,
+    5000
    ]
   ]
  },
@@ -8018,6 +8047,10 @@
    [
     1792823999,
     4988.82
+   ],
+   [
+    1792824544,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -8594,6 +8627,10 @@
    [
     1792823999,
     5021.88
+   ],
+   [
+    1792824544,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -9039,6 +9076,10 @@
    ],
    [
     1792823999,
+    100000.0
+   ],
+   [
+    1792824544,
     100000.0
    ]
   ],
