@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 09:30 (İstanbul)
+> Son güncelleme: 24.10.2026 09:39 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 09:30): Claude puan **+0.10**, güven 0.35 — Yeni haberlerde İran savaşı ve Houthi füze olayları gibi jeopolitik tırmanış sinyalleri altın için hafif destekleyici (güvenli liman talebi). Ancak altının son dönemdeki düşüş trendi, ABD dolarındaki güçlenme ve Çarşamba günü beklenen Fed toplantısı öncesi belirsizlik bu etkiyi sınırlıyor; ayrıca birçok başlık eski veya zaten fiyatlanmış bilgi içeriyor.
+Son haber analizi (24.10 09:39): Claude puan **-0.15**, güven 0.35 — Altın için karışık tablo var: İran savaşı ve Husi füze saldırıları jeopolitik risk talebini destekliyor, ancak haberlerin çoğu altının haftalık düşüşünü, zayıf talebi, "4.000 doların altına inme" teknik satışını ve ABD dolarındaki yükselişi vurguluyor. Enflasyon baskısı haberleri de Fed'in sıkı kalabileceği beklentisini güçlendirip altı baskılayabilir. Bu nedenlerle kısa vadede hafif negatif, ama güven düşük bir görünüm.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 08:24 N  NEWS (7 new) score -0.30 conf 0.40: Haftalık düşüş, zayıf talep, 4.000 dolar desteğinin kırılması ve ABD enflasyon baskısına dair haberler altın için kısa vadede negatif. İran ve Husi kaynaklı jeopolitik gerilim ise güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı tekrar eden veya fiyatlanmış nitelikte olduğundan etkisi sınırlı kalır.
-24.10 08:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 08:33 N  NEWS (3 new) score +0.15 conf 0.30: 
 24.10 08:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 08:42 N  NEWS (4 new) score -0.15 conf 0.35: Altın fiyatı 4.000 dolar desteğinin altına inmiş ve haftalık düşüş, zayıf talep haberleriyle birlikte momentumu negatif gösteriyor; dolarda hafif yükseliş de baskı yaratıyor. Buna karşılık İran'a yönelik "yeni Epic Fury" uyarıları ve Ortadoğu'daki çatışma riski jeopolitik güvenli liman talebini destekleyebilir, ayrıca çarşamba günkü Fed toplantısı öncesi belirsizlik yüksek; bu nedenle sinyal zayıf ve karışık.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 09:18 N  NEWS (5 new) score +0.05 conf 0.35: 
 24.10 09:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 09:30 N  NEWS (2 new) score +0.10 conf 0.35: Yeni haberlerde İran savaşı ve Houthi füze olayları gibi jeopolitik tırmanış sinyalleri altın için hafif destekleyici (güvenli liman talebi). Ancak altının son dönemdeki düşüş trendi, ABD dolarındaki güçlenme ve Çarşamba günü beklenen Fed toplantısı öncesi belirsizlik bu etkiyi sınırlıyor; ayrıca birçok başlık eski veya zaten fiyatlanmış bilgi içeriyor.
+24.10 09:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 09:39 N  NEWS (4 new) score -0.15 conf 0.35: Altın için karışık tablo var: İran savaşı ve Husi füze saldırıları jeopolitik risk talebini destekliyor, ancak haberlerin çoğu altının haftalık düşüşünü, zayıf talebi, "4.000 doların altına inme" teknik satışını ve ABD dolarındaki yükselişi vurguluyor. Enflasyon baskısı haberleri de Fed'in sıkı kalabileceği beklentisini güçlendirip altı baskılayabilir. Bu nedenlerle kısa vadede hafif negatif, ama güven düşük bir görünüm.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
