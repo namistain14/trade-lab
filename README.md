@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 08:03 (İstanbul)
+> Son güncelleme: 24.10.2026 08:12 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 08:03): Claude puan **+0.12**, güven 0.35 — Yeni başlıklar karışık: Riyad'a yönelik Husi füzesinin önlenmesi ve ABD-İran gerilimi (Trump'ın "Epic Fury" uyarısı) güvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Doğu'nun diplomasi çağrısı bu etkiyi dengeliyor. Fed toplantısının çarşamba günü olması ve dolardaki hafif yükseliş ise kısa vadede baskı yaratıyor. Altının 4.000 dolar desteğinin altına inmesi gibi haberler zaten fiyatlanmış olduğundan güven düşük.
+Son haber analizi (24.10 08:12): Claude puan **-0.10**, güven 0.30 — Haberlerde jeound karışık: İran ve Husi füzeleri gibi jeopolitik gerilim güvenli liman talebini hafifçe destekliyor, ancak ABD doları yükselişi, enflasyon baskısına dair haberler ve Çarşamba günkü Fed toplantısı öncesi sıkılaşma beklentisi altın üzerinde baskı yaratıyor. Altının 4.000 doların altına inmesi ve düşüş momentumu ile birlikte tablo hafif negatif, ancak sinyal zayıf olduğu için güven düşük.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 06:42 N  NEWS (5 new) score +0.10 conf 0.35: İran ile ilgili yeni tırmanış haberleri (Trump'ın "küçük bir epik öfke" uyarısı, US saldırıları ve ambargo) güvenli liman talebini hafif destekliyor. Ancak altın 4.000 doların altına inmiş ve dolar yukarı tick yapıyor; ayrıca Çarşamba Fed toplantısı öncesi belirsizlik var, bu da kısa vadede yön konusunda temkin gerektiriyor.
-24.10 06:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 06:51 N  NEWS (3 new) score -0.20 conf 0.35: Altın 4.000 dolar desteğinin altına inmiş ve düşüş momentumu sürüyor; yüksek enflasyon ve haftaya beklenen Fed toplantısı öncesi faiz beklentileri ile hafif güçlenen dolar baskı yaratıyor. İran savaşındaki sürtüşmeler güvenli liman talebini destekliyor, ancak Trump'ın savaşı hızla bitirme seçeneğini tartması bu desteği zayıflatıyor; bu nedenle sinyaller karışık ve güven düşük.
 24.10 07:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 07:03 N  NEWS (6 new) score -0.15 conf 0.40: Altın 4.000 doların altına inmiş ve teknik satış baskısı sürüyor; dolar hafifçe güçleniyor ve ABD enflasyon baskısı fiyatlanıyor, bu da Fed'in sıkı kalma beklentisini destekleyip altı aşağı çekiyor. Buna karşılık İran'a yönelik "Epic Fury" uyarısı ve Hürmüz/Suudi Arabistan'a füze saldırıları jeopolitik risk primini destekliyor, ancak Trump'ın savaşı hızlıca bitirme seçeneğini tartması bu riski dengeliyor; bu çelişkili akış nedeniyle güven düşük.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 07:51 N  NEWS (8 new) score -0.10 conf 0.40: 
 24.10 08:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 08:03 N  NEWS (4 new) score +0.12 conf 0.35: Yeni başlıklar karışık: Riyad'a yönelik Husi füzesinin önlenmesi ve ABD-İran gerilimi (Trump'ın "Epic Fury" uyarısı) güvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Doğu'nun diplomasi çağrısı bu etkiyi dengeliyor. Fed toplantısının çarşamba günü olması ve dolardaki hafif yükseliş ise kısa vadede baskı yaratıyor. Altının 4.000 dolar desteğinin altına inmesi gibi haberler zaten fiyatlanmış olduğundan güven düşük.
+24.10 08:12 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 08:12 N  NEWS (6 new) score -0.10 conf 0.30: Haberlerde jeound karışık: İran ve Husi füzeleri gibi jeopolitik gerilim güvenli liman talebini hafifçe destekliyor, ancak ABD doları yükselişi, enflasyon baskısına dair haberler ve Çarşamba günkü Fed toplantısı öncesi sıkılaşma beklentisi altın üzerinde baskı yaratıyor. Altının 4.000 doların altına inmesi ve düşüş momentumu ile birlikte tablo hafif negatif, ancak sinyal zayıf olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -982,6 +982,10 @@
    [
     1792818220,
     5000.3
+   ],
+   [
+    1792818755,
+    5000.3
    ]
   ]
  },
@@ -2641,15 +2645,19 @@
    [
     1792818220,
     4923.96
+   ],
+   [
+    1792818755,
+    4923.96
    ]
   ],
   "news": {
-   "score": 0.12,
-   "confidence": 0.35,
-   "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Riyad'a y\u00f6nelik Husi f\u00fczesinin \u00f6nlenmesi ve ABD-\u0130ran gerilimi (Trump'\u0131n \"Epic Fury\" uyar\u0131s\u0131) g\u00fcvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Do\u011fu'nun diplomasi \u00e7a\u011fr\u0131s\u0131 bu etkiyi dengeliyor. Fed toplant\u0131s\u0131n\u0131n \u00e7ar\u015famba g\u00fcn\u00fc olmas\u0131 ve dolardaki hafif y\u00fckseli\u015f ise k\u0131sa vadede bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar deste\u011finin alt\u0131na inmesi gibi haberler zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.1,
+   "confidence": 0.3,
+   "reason": "Haberlerde jeound kar\u0131\u015f\u0131k: \u0130ran ve Husi f\u00fczeleri gibi jeopolitik gerilim g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak ABD dolar\u0131 y\u00fckseli\u015fi, enflasyon bask\u0131s\u0131na dair haberler ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve d\u00fc\u015f\u00fc\u015f momentumu ile birlikte tablo hafif negatif, ancak sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792818218292,
-   "new_headlines": 4,
+   "ts": 1792818752660,
+   "new_headlines": 6,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, 3 ayl\u0131k dip",
     "Petrol fiyatlar\u0131 y\u00fckseldi, enflasyon ve faiz endi\u015fesi artt\u0131",
@@ -4000,17 +4008,30 @@
     "new": 4,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792818752660,
+    "score": -0.1,
+    "confidence": 0.3,
+    "reason": "Haberlerde jeound kar\u0131\u015f\u0131k: \u0130ran ve Husi f\u00fczeleri gibi jeopolitik gerilim g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak ABD dolar\u0131 y\u00fckseli\u015fi, enflasyon bask\u0131s\u0131na dair haberler ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve d\u00fc\u015f\u00fc\u015f momentumu ile birlikte tablo hafif negatif, ancak sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 6,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 42
+   "n": 43
   },
   "news_seen": [
+   "CARDINALS SET THEMSELVES APART IN HOLY WAR - Your Sports Network",
+   "Opinion | A stinky cheese tariff - The Washington Post",
+   "How Brazil's changing working class is reshaping the presidential race",
+   "The rise of AI election ads in US midterms campaign",
    "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan\u2019s Joint Command & Control. - Futura Doctrina | Mick Ryan",
    "Saudi Arabia Expands Missile Factory Using Suspected Chinese Technology - The China-Global South Project",
-   "Opinion | A stinky cheese tariff - The Washington Post",
    "Gold rate today in Hyderabad, October 24, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
+   "Rubio reveals theory on Russia's war against Ukraine ahead of next US peace push - The Kyiv Independent",
    "Union Civil War soldier finally gets grave marker - Ortonville Citizen",
    "France prepares for day of protest a week after nationwide riots",
    "Forecast of the time when gold prices will turn towards 5,400 USD/ounce - Laodong.vn",
@@ -4037,26 +4058,20 @@
    "Aerial Refueling With the Thunderbirds - U.S. Department of War (.gov)",
    "Experts predict unexpected gold prices next week - Laodong.vn",
    "Bitcoin Holds Firm as U.S. Housing Weakens Before Wednesday\u2019s Fed Meeting - www.tokenpost.com",
-   "Gold price today: India records a decline, FXStreet data show - www.tmgm.com",
    "Australian MP's condition improves after alleged car attack",
    "Brewers captain Christian Yelich gives World Series tickets to World War II vets - Milwaukee Journal Sentinel",
+   "U.S. Gold stock: U.S. Gold advanced CK Gold plans. USD 394.00 million defined U.S. Gold stock - ad-hoc-news.de",
    "Saudi-led coalition says ballistic missile aimed at Riyadh destroyed - Middle East Eye",
-   "Gold Rate Today in Uttar Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today",
-   "Gold Rate Today in New Delhi 24th October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
+   "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks - The National",
    "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Trump Invokes Cold War-Era Law to Boost Oil Refining as Gas Prices Soar - Law Commentary",
    "Ukraine war briefing: Russian diesel tankers headed for North America, says Moscow, as US tries to revive peace talks - The Guardian",
    "A new war memorial is opening in Washington DC. What is it? - The Spokesman-Review",
    "3 Consumer Staples Stocks With Pricing Power As Inflation Stays High - Simply Wall Street",
-   "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
-   "European, Middle East ministers urge US-Iran diplomacy, not new attacks - Al Jazeera",
-   "Gold Rate Today in Andhra Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
-   "Gold Rate Today in West Bengal 24th October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today"
+   "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News"
   ]
  },
  "log": [
-  "23.10 04:42 N  NEWS (3 new) score -0.40 conf 0.55: Alt\u0131n, petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015fin enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirmesi nedeniyle iki ayl\u0131k dibe geriledi; bu, sava\u015f kaynakl\u0131 g\u00fcvenli liman talebinin etkisini bast\u0131r\u0131yor. Yeni ba\u015fl\u0131klardaki \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi ihtimali ve Ukrayna geli\u015fmeleri jeopolitik riski s\u00fcrd\u00fcrse de piyasa \u015fu an bu riski petrol/faiz kanal\u0131 \u00fczerinden fiyatl\u0131yor, bu y\u00fczden k\u0131sa vadeli e\u011filim a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
-  "23.10 04:54 N  NEWS (13 new) score -0.30 conf 0.45: Petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; tahvil getirilerinin y\u00fckseli\u015fi ve alt\u0131n\u0131n iki ayl\u0131k dibe inmesi de bu y\u00f6n\u00fc destekliyor. Ancak Orta Do\u011fu jeopolitik riski g\u00fcvenli liman talebini art\u0131rabilir ve dolar zay\u0131fl\u0131\u011f\u0131 alt\u0131n\u0131 destekleyebilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 04:54 B1  SHORT gold 5000 USD x10 @ 4014.84 (TP 4010.82, SL 4017.25; news -0.30)",
   "23.10 04:54 B2  CLOSE short take profit: +13.82 USD",
   "23.10 05:04 B1  CLOSE short take profit: +3.81 USD",
@@ -4354,7 +4369,9 @@
   "24.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 07:51 N  NEWS (8 new) score -0.10 conf 0.40: ",
   "24.10 08:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 08:03 N  NEWS (4 new) score +0.12 conf 0.35: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Riyad'a y\u00f6nelik Husi f\u00fczesinin \u00f6nlenmesi ve ABD-\u0130ran gerilimi (Trump'\u0131n \"Epic Fury\" uyar\u0131s\u0131) g\u00fcvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Do\u011fu'nun diplomasi \u00e7a\u011fr\u0131s\u0131 bu etkiyi dengeliyor. Fed toplant\u0131s\u0131n\u0131n \u00e7ar\u015famba g\u00fcn\u00fc olmas\u0131 ve dolardaki hafif y\u00fckseli\u015f ise k\u0131sa vadede bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar deste\u011finin alt\u0131na inmesi gibi haberler zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck."
+  "24.10 08:03 N  NEWS (4 new) score +0.12 conf 0.35: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Riyad'a y\u00f6nelik Husi f\u00fczesinin \u00f6nlenmesi ve ABD-\u0130ran gerilimi (Trump'\u0131n \"Epic Fury\" uyar\u0131s\u0131) g\u00fcvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Do\u011fu'nun diplomasi \u00e7a\u011fr\u0131s\u0131 bu etkiyi dengeliyor. Fed toplant\u0131s\u0131n\u0131n \u00e7ar\u015famba g\u00fcn\u00fc olmas\u0131 ve dolardaki hafif y\u00fckseli\u015f ise k\u0131sa vadede bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar deste\u011finin alt\u0131na inmesi gibi haberler zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "24.10 08:12 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 08:12 N  NEWS (6 new) score -0.10 conf 0.30: Haberlerde jeound kar\u0131\u015f\u0131k: \u0130ran ve Husi f\u00fczeleri gibi jeopolitik gerilim g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak ABD dolar\u0131 y\u00fckseli\u015fi, enflasyon bask\u0131s\u0131na dair haberler ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve d\u00fc\u015f\u00fc\u015f momentumu ile birlikte tablo hafif negatif, ancak sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
  ],
  "gold_big": {
   "account": {
@@ -5325,6 +5342,10 @@
    [
     1792818220,
     4964.78
+   ],
+   [
+    1792818755,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6244,6 +6265,10 @@
    [
     1792818220,
     4973.18
+   ],
+   [
+    1792818755,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7089,6 +7114,10 @@
    [
     1792818220,
     5000
+   ],
+   [
+    1792818755,
+    5000
    ]
   ]
  },
@@ -7664,6 +7693,10 @@
    [
     1792818220,
     4988.82
+   ],
+   [
+    1792818755,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -8196,6 +8229,10 @@
    [
     1792818220,
     5021.88
+   ],
+   [
+    1792818755,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -8597,6 +8634,10 @@
    ],
    [
     1792818220,
+    100000.0
+   ],
+   [
+    1792818755,
     100000.0
    ]
   ],
