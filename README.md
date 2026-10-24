@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 07:51 (İstanbul)
+> Son güncelleme: 24.10.2026 08:03 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 07:51): Claude puan **-0.10**, güven 0.40 — Altın 4.000 dolar desteğinin altına inmiş ve haberlerde satış baskısı ile düşüş momentumu öne çıkıyor; ayrıca doların hafif yükselişi ve çarşamba günkü Fed toplantısı öncesindeki enflasyon baskısı kısa vadede altı aşağı çekebilir. Orta Doğu'daki İran savaşı ve Suudi Arabistan'a yönelik füze saldırıları jeopolitik risk primi sağlasa da bu etki zaten fiyatlanmış görünüyor ve tek başına yukarı yönlü bir hareket için yeterli değil.
+Son haber analizi (24.10 08:03): Claude puan **+0.12**, güven 0.35 — Yeni başlıklar karışık: Riyad'a yönelik Husi füzesinin önlenmesi ve ABD-İran gerilimi (Trump'ın "Epic Fury" uyarısı) güvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Doğu'nun diplomasi çağrısı bu etkiyi dengeliyor. Fed toplantısının çarşamba günü olması ve dolardaki hafif yükseliş ise kısa vadede baskı yaratıyor. Altının 4.000 dolar desteğinin altına inmesi gibi haberler zaten fiyatlanmış olduğundan güven düşük.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 06:31 N  NEWS (13 new) score -0.10 conf 0.30: 
-24.10 06:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 06:42 N  NEWS (5 new) score +0.10 conf 0.35: İran ile ilgili yeni tırmanış haberleri (Trump'ın "küçük bir epik öfke" uyarısı, US saldırıları ve ambargo) güvenli liman talebini hafif destekliyor. Ancak altın 4.000 doların altına inmiş ve dolar yukarı tick yapıyor; ayrıca Çarşamba Fed toplantısı öncesi belirsizlik var, bu da kısa vadede yön konusunda temkin gerektiriyor.
 24.10 06:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 06:51 N  NEWS (3 new) score -0.20 conf 0.35: Altın 4.000 dolar desteğinin altına inmiş ve düşüş momentumu sürüyor; yüksek enflasyon ve haftaya beklenen Fed toplantısı öncesi faiz beklentileri ile hafif güçlenen dolar baskı yaratıyor. İran savaşındaki sürtüşmeler güvenli liman talebini destekliyor, ancak Trump'ın savaşı hızla bitirme seçeneğini tartması bu desteği zayıflatıyor; bu nedenle sinyaller karışık ve güven düşük.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 07:39 N  NEWS (7 new) score -0.25 conf 0.40: Altın 4.000 dolar desteğinin altına inmiş ve haberlerde satış baskısı ile düşüş momentumu öne çıkıyor; ayrıca doların hafif yükselişi ve çarşamba günkü Fed toplantısı öncesindeki enflasyon baskısı kısa vadede altı aşağı çekebilir. Orta Doğu'daki İran savaşı ve Suudi Arabistan'a yönelik füze saldırıları jeopolitik risk primi sağlasa da bu etki zaten fiyatlanmış görünüyor ve tek başına yukarı yönlü bir hareket için yeterli değil.
 24.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 07:51 N  NEWS (8 new) score -0.10 conf 0.40: 
+24.10 08:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 08:03 N  NEWS (4 new) score +0.12 conf 0.35: Yeni başlıklar karışık: Riyad'a yönelik Husi füzesinin önlenmesi ve ABD-İran gerilimi (Trump'ın "Epic Fury" uyarısı) güvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Doğu'nun diplomasi çağrısı bu etkiyi dengeliyor. Fed toplantısının çarşamba günü olması ve dolardaki hafif yükseliş ise kısa vadede baskı yaratıyor. Altının 4.000 dolar desteğinin altına inmesi gibi haberler zaten fiyatlanmış olduğundan güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
