@@ -1054,6 +1054,10 @@
    [
     1792827902,
     5000.3
+   ],
+   [
+    1792828515,
+    5000.3
    ]
   ]
  },
@@ -2785,19 +2789,23 @@
    [
     1792827902,
     4923.96
+   ],
+   [
+    1792828515,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.3,
-   "reason": "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
+   "score": -0.3,
+   "confidence": 0.5,
+   "reason": "Alt\u0131n fiyat\u0131 $4.000 deste\u011fini test ediyor ve birka\u00e7 haber ard\u0131\u015f\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, yani zay\u0131f talebi i\u015faret ediyor. \u0130ran sava\u015f\u0131 ve Brent'in 117 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon bask\u0131s\u0131n\u0131 ve sert Fed beklentilerini besleyerek alt\u0131n\u0131 bask\u0131l\u0131yor; jeopolitik g\u00fcvenli liman talebi bu etkiyi tam olarak dengelemiyor.",
    "n": 45,
-   "ts": 1792827610263,
-   "new_headlines": 2,
+   "ts": 1792828512984,
+   "new_headlines": 8,
    "key_events": [
-    "Alt\u0131n 4.000 dolar deste\u011finin alt\u0131na indi; haftal\u0131k d\u00fc\u015f\u00fc\u015f ve zay\u0131f talep",
-    "ABD dolar\u0131 hafif y\u00fckseldi (alt\u0131n i\u00e7in bask\u0131)",
-    "\u0130ran/Orta Do\u011fu gerilimi: Trump'\u0131n 'Epic Fury' uyar\u0131s\u0131 (g\u00fcvenli liman deste\u011fi)"
+    "Alt\u0131n $4.000 deste\u011fini test ediyor, d\u00fc\u015f\u00fc\u015f e\u011filimi ve a\u015fa\u011f\u0131 bo\u015fluklar (gap) g\u00f6zleniyor",
+    "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor, Brent 117 dolar\u0131n \u00fczerinde; enflasyon ve faiz beklentileri alt\u0131n i\u00e7in olumsuz",
+    "Ukrayna'da m\u00fczakere ve ate\u015fkes haberleri jeopolitik risk primini s\u0131n\u0131rl\u0131yor"
    ],
    "gpt": null
   },
@@ -4288,13 +4296,27 @@
     "new": 2,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792828512984,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n fiyat\u0131 $4.000 deste\u011fini test ediyor ve birka\u00e7 haber ard\u0131\u015f\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, yani zay\u0131f talebi i\u015faret ediyor. \u0130ran sava\u015f\u0131 ve Brent'in 117 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon bask\u0131s\u0131n\u0131 ve sert Fed beklentilerini besleyerek alt\u0131n\u0131 bask\u0131l\u0131yor; jeopolitik g\u00fcvenli liman talebi bu etkiyi tam olarak dengelemiyor.",
+    "new": 8,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 58
+   "n": 59
   },
   "news_seen": [
+   "Gold Price Tests $4,000 Support as Bearish Gaps Signal Further Downside Risks - Investing.com",
+   "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel - Naval News",
+   "Sami Zayn cheap shots Trick Williams in a fierce war of words: SmackDown highlights, Oct. 23, 2026 - WWE",
+   "Cooking oil prices rise, gold declines in Kabul - Pajhwok Afghan News",
+   "Gold and silver rate today (October 24, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA - The Economic Times",
    "Ukraine War, Day 1,703: Zelensky \u2014 Talks With Russia In November - EA WorldView",
    "US Says Threat to Americans Highest Since Iran War Began - Kurdistan24",
    "Aden governor after escaping airport missile attack: hostilities will not deter people of Yemen - Arab News",
@@ -4304,47 +4326,40 @@
    "War Centers on Donbas, Can Only End Through Diplomacy, Rubio Says - Kyiv Post",
    "St. Francis survives spirited Bellarmine challenge as Holy War wakes up the echoes of past battles - The Mercury News",
    "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
-   "Gold Rate Today In Bengaluru, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Insider: Tug-of-war at Carrington as Two top Man Utd officials argue on Nagelsmann & Howe - Yahoo Sports",
+   "How popular is the Iran War? - Silver Bulletin",
+   "Gaza\u2019s worsening food crisis is \u2018a war of survival every day\u2019 - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "France prepares for day of protest a week after nationwide riots",
    "Peter Schiff: Inflation is a Policy Choice - SchiffGold.com",
+   "A notable move by the \"big player\" as gold prices continue to fall. - Vietnam.vn",
    "Ukraine Ready to Freeze Front Line to End War, Won\u2019t Cede Land, Zelensky Says - Kyiv Post",
-   "Gold Rate Today in Andhra Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
    "Russia\u2019s Hot War on NATO: Airport Sabotage, Cruise Missiles & European Silence - Kyiv Post",
-   "War update: 181 clashes on front lines over past day, heaviest fighting on Kostiantynivka axis - Ukrinform",
    "Domestic gold prices slide for third time in 10 days - The Financial Express",
    "Melania Trump says she brokered truce in war-torn Ukrainian city - The Japan Times",
    "Opinion | A stinky cheese tariff - The Washington Post",
    "Gold Prices Drop Ksh18,551 in One Week, CBK Reports - Kenyans.co.ke",
    "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
    "Mike Waltz Says U.S.-Iran War Could Last Another Year as Brent Tops $117: how 11 outlets framed it - NewsCord",
+   "Gold Rate Today In Pune, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Russian army loses 1,980 troops, two air defense systems in Ukraine war over past day - Ukrinform",
+   "Gold Rate Today in Andhra Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
    "Gold Prices Experience Significant Weekly Decline Amid Weak Demand - India News Network",
-   "CARDINALS SET THEMSELVES APART IN HOLY WAR - Your Sports Network",
    "How Brazil's changing working class is reshaping the presidential race",
    "The rise of AI election ads in US midterms campaign",
+   "CARDINALS SET THEMSELVES APART IN HOLY WAR - Your Sports Network",
    "Miliband says UK 'redoubling' diplomatic efforts to end Iran war - Middle East Eye",
    "Why Coeur Mining Fell Even As Profit Rose - Simply Wall Street",
    "Chennai gold price rises by Rs 80 on October 24, 2026; check today's gold, silver rate - DT Next",
    "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan\u2019s Joint Command & Control. - Futura Doctrina | Mick Ryan",
-   "How popular is the Iran War? - Silver Bulletin",
    "Gold rate today in Hyderabad, October 24, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
    "Rubio reveals theory on Russia's war against Ukraine ahead of next US peace push - The Kyiv Independent",
    "Union Civil War soldier finally gets grave marker - Ortonville Citizen",
    "Gold Rate Today, October 24: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
    "Forecast of the time when gold prices will turn towards 5,400 USD/ounce - Laodong.vn",
-   "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
-   "Saudi Arabia intercepts Houthi missile as Trump threatens new strikes - Investing.com",
-   "Argentina identifies dozens of victims killed in its \u2018Dirty War\u2019 - Al Jazeera",
-   "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
-   "Russian Offensive Campaign Assessment, October 23, 2026 - Institute for the Study of War",
-   "Philippine Peso Hits Its 28th Record Low of 2026 Against the Dollar - Startup Fortune",
-   "When momentum could return for gold - The Mercury"
+   "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire"
   ]
  },
  "log": [
-  "23.10 07:29 N  NEWS (7 new) score -0.40 conf 0.55: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ya\u015f\u0131yor. Jeopolitik risk primi (K\u00f6rfez, Husi sald\u0131r\u0131lar\u0131) alt\u0131n\u0131 destekleyici olsa da piyasa bu haberlere bug\u00fcn enflasyon/faiz kanal\u0131yla tepki veriyor; bu nedenle net etki yukar\u0131dan a\u015fa\u011f\u0131ya bask\u0131lay\u0131c\u0131 g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n\u0131n bir miktar toparlanma g\u00f6stermesi ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n eski olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-  "23.10 07:34 N  NEWS (6 new) score -0.40 conf 0.55: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in alt\u0131n \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k d\u00fc\u015f\u00fc\u015f yolunda; bu, k\u0131sa vadede bask\u0131lay\u0131c\u0131 bir etki. Ancak baz\u0131 ba\u015fl\u0131klar tepki al\u0131m\u0131 ve dolar zay\u0131fl\u0131\u011f\u0131na i\u015faret ediyor ve \u0130ran sava\u015f\u0131 jeopolitik talebi destekliyor; bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "23.10 07:44 A  BUY ETHUSDT 1000 USD @ 2400.73 (RSI 40)",
   "23.10 07:44 N  NEWS (7 new) score -0.60 conf 0.65: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in belirgin \u015fekilde negatif: petrol fiyatlar\u0131n\u0131n Fed faiz art\u0131r\u0131m\u0131 beklentilerini k\u00f6r\u00fcklemesi, alt\u0131n\u0131n \u00fc\u00e7 ayl\u0131k dibinin alt\u0131nda (4.000 dolar\u0131n alt\u0131nda) i\u015flem g\u00f6rmesi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f beklentisi reel faiz/dolar kanal\u0131ndan bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 gibi jeopolitik risk ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebi sa\u011flasa da, bu etki hawkish Fed beklentilerinin gerisinde kal\u0131yor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k genel nitelikli veya eski oldu\u011fu i\u00e7in g\u00fcveni s\u0131n\u0131rl\u0131yorum.",
   "23.10 07:53 B1  CLOSE short take profit: +3.81 USD",
@@ -4642,7 +4657,9 @@
   "24.10 10:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 10:31 N  NEWS (9 new) score +0.10 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
   "24.10 10:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 10:40 N  NEWS (2 new) score -0.10 conf 0.30: "
+  "24.10 10:40 N  NEWS (2 new) score -0.10 conf 0.30: ",
+  "24.10 10:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 10:55 N  NEWS (8 new) score -0.30 conf 0.50: Alt\u0131n fiyat\u0131 $4.000 deste\u011fini test ediyor ve birka\u00e7 haber ard\u0131\u015f\u0131k d\u00fc\u015f\u00fc\u015f\u00fc, yani zay\u0131f talebi i\u015faret ediyor. \u0130ran sava\u015f\u0131 ve Brent'in 117 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 enflasyon bask\u0131s\u0131n\u0131 ve sert Fed beklentilerini besleyerek alt\u0131n\u0131 bask\u0131l\u0131yor; jeopolitik g\u00fcvenli liman talebi bu etkiyi tam olarak dengelemiyor."
  ],
  "gold_big": {
   "account": {
@@ -5685,6 +5702,10 @@
    [
     1792827902,
     4964.78
+   ],
+   [
+    1792828515,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6676,6 +6697,10 @@
    [
     1792827902,
     4973.18
+   ],
+   [
+    1792828515,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7593,6 +7618,10 @@
    [
     1792827902,
     5000
+   ],
+   [
+    1792828515,
+    5000
    ]
   ]
  },
@@ -8240,6 +8269,10 @@
    [
     1792827902,
     4988.82
+   ],
+   [
+    1792828515,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -8844,6 +8877,10 @@
    [
     1792827902,
     5021.88
+   ],
+   [
+    1792828515,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -9317,6 +9354,10 @@
    ],
    [
     1792827902,
+    100000.0
+   ],
+   [
+    1792828515,
     100000.0
    ]
   ],
