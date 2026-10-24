@@ -874,6 +874,10 @@
    [
     1792802835,
     5000.3
+   ],
+   [
+    1792803452,
+    5000.3
    ]
   ]
  },
@@ -2425,14 +2429,18 @@
    [
     1792802835,
     4923.96
+   ],
+   [
+    1792803452,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.35,
+   "score": -0.25,
    "confidence": 0.5,
-   "reason": "Alt\u0131n 4.000 dolar alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed'in faiz beklentilerini sertle\u015ftirerek dolar ve reel faiz taraf\u0131nda alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebini destekliyor ancak Trump'\u0131n sava\u015f\u0131 h\u0131zla bitirme ihtimali ve petrol fiyatlar\u0131ndaki olas\u0131 geri \u00e7ekilme bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, bu nedenle sinyal kar\u0131\u015f\u0131k.",
+   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc ve momentum negatif. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde s\u0131k\u0131la\u015ft\u0131rma beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u00d6te yandan \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; bu nedenle etki kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif.",
    "n": 45,
-   "ts": 1792802833081,
+   "ts": 1792803449052,
    "new_headlines": 7,
    "key_events": [
     "Petrol fiyatlar\u0131 enflasyon endi\u015felerini art\u0131r\u0131yor, Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor",
@@ -3586,15 +3594,28 @@
     "new": 7,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792803449052,
+    "score": -0.25,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc ve momentum negatif. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde s\u0131k\u0131la\u015ft\u0131rma beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u00d6te yandan \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; bu nedenle etki kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 20
+   "n": 21
   },
   "news_seen": [
+   "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
+   "China\u2019s Sanctions On Taiwan Allies Project Its Power, But With Limited Effect \u2013 Analysis - Eurasia Review",
+   "Saudi Arabia Expands Missile Production At Al-Duwadimi \u2013 Analysis - Eurasia Review",
    "White House lifts tariffs on some Canadian goods as midterm elections loom",
    "Oct: 29-31: Orson Wells\u2019 \u2018War of the Worlds\u2019 Radio Play on Stage - SCVNews.com",
+   "MLB's doomsday clock running out as World Series brings imminent war into focus - USA Today",
    "How does the UK state pension compare with other countries?",
    "UK to invest \u00a3100m in 'world first' AI Biosecurity Lab",
    "Opinion | A stinky cheese tariff - The Washington Post",
@@ -3602,47 +3623,41 @@
    "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
    "Gold price update morning of October 24th: World gold falls below the 4,000 USD/ounce mark - Laodong.vn",
    "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
-   "Gears of War: E-Day reportedly had a whopping $500 million production budget - TweakTown",
    "Opinion | Iran war fever is rising again. The battlespace has changed. - The Washington Post",
+   "How popular is the Iran War? - Silver Bulletin",
    "What Running a Charity Taught Me About Washington\u2019s War on Nonprofits - Washington Policy Center",
    "Oil Climbs To Six-Month High As Analysts Concede U.S./Iran War May Soon Resume - Ship & Bunker",
    "Why candy prices are rising faster than overall inflation - News Channel 3-12",
    "Oil rallies on dual-front war - Oil & Gas Journal",
+   "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
    "Levelland war veteran recalls eventful journey, WWII experience - Lubbock Avalanche-Journal",
-   "Trump weighs quick end to Iran war against letting conflict \u2018wither\u2019 - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+   "Gold Rate Today In Bankura, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Gold price today, October 24th: Hits a 3-month low, below $4,000. - Vietnam.vn",
    "Gold prices today, October 24, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
    "Gears of War: E-Day Has Issues, But Not the Ones You Might Think - GameGrin",
-   "Hemingway\u2019s war on therapy culture Only frauds talk about their feelings - UnHerd",
    "Soaring oil prices stoke inflation concerns, putting pressure on both stocks and bonds - \u5bcc\u9014\u725b\u725b",
    "Wyoming State Parks highlights visitor engagement in 2026 War on Weeds efforts - WyomingNews.com",
-   "How popular is the Iran War? - Silver Bulletin",
    "Collins, Jackson cast their votes ahead of election day - WABI",
-   "Gold prices fall below $4,000 amid inflation fe... - Pluang",
    "US president, UK premier discuss Ukraine war, Middle East - Anadolu Ajans\u0131",
-   "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week \u2014 AAPL, AXP, CART, UBER In Focus - Yahoo Finance",
    "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in - AP News",
    "National Park Service Designates Idaho\u2019s World War II Heritage City - Big Country News |",
    "Gold Rate Today In Tirupati, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "After Putin, After the War: Russia\u2019s Next Chapter - Stanford University",
    "Watch Gen. Hodges (Ret.) Says Trump Actions Help Russia's War - Bloomberg.com",
-   "Ukrainian civilians killed in Russian attacks following Trump\u2019s easing of sanctions - Scripps News",
    "White House Says Melania Trump Forged Localized Ceasefire in Russia-Ukraine War - People.com",
    "TSX falls as gold slides, AI spending concerns weigh on technology stocks - Investing.com Canada",
    "U.S. ambassador to U.N. says Iran war could last another year - CBS News",
+   "Jon Husted calls for end to war in Iran 'on America's terms,' flexes affordability agenda - KHGI",
    "NYC horse carriage drivers gear up for legal war after citywide ban - Courthouse News",
-   "Jon Husted calls for end to war in Iran 'on America's terms', flexes affordability agenda - WGME",
    "Wall Street doubts gold\u2019s near-term strength, Main Street maintains bullish minority as central banks take center stage - Kitco",
    "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
    "The War Department has Designated Confucius Institutes as a Threat to our National Security. - MilitaryNews.com",
-   "Gold (XAU/USD) Price Forecast: Bearish Momentum Puts Major Support at Risk - FXEmpire",
+   "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week \u2014 AAPL, AXP, CART, UBER In Focus - Stocktwits",
    "Gold traders mull repercussions of US political turmoil - Bangkok Post",
    "How Elon Musk's Starlink and Starshield are shaping the war in Ukraine - CBS News"
   ]
  },
  "log": [
-  "22.10 23:39 B  NEWS (6 new) score +0.10 conf 0.30: ",
-  "22.10 23:49 B  NEWS (12 new) score -0.20 conf 0.40: ",
   "22.10 23:49 B  SHORT gold 5000 USD x10 @ 4035.01 (TP 4030.98, SL 4037.43; news -0.20)",
   "23.10 00:00 B  NEWS (11 new) score -0.10 conf 0.35: Hormuz'da 7 tankere y\u00f6nelik sald\u0131r\u0131 ve petrol\u00fcn 110 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 jeopolitik g\u00fcvenli liman talebini destekliyor, ancak enflasyon bask\u0131s\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Tahvil faizlerinin geri d\u00f6nmesi ve ortalama mortgage oran\u0131n\u0131n hafif gerilemesi s\u0131n\u0131rl\u0131 bir yumu\u015fama i\u015fareti; haberlerin \u00e7o\u011fu ise alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkilemeyen g\u00fcr\u00fclt\u00fc niteli\u011finde. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle.",
   "23.10 00:09 B  CLOSE short stop: -4.19 USD",
@@ -3940,7 +3955,9 @@
   "24.10 03:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 03:35 N  NEWS (6 new) score -0.30 conf 0.50: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde sert duru\u015f beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Iran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratsa da piyasada \u015fu an bu etki fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor; bu y\u00fczden orta d\u00fczeyde negatif bir g\u00f6r\u00fcn\u00fcm, g\u00fcven de s\u0131n\u0131rl\u0131.",
   "24.10 03:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 03:47 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed'in faiz beklentilerini sertle\u015ftirerek dolar ve reel faiz taraf\u0131nda alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebini destekliyor ancak Trump'\u0131n sava\u015f\u0131 h\u0131zla bitirme ihtimali ve petrol fiyatlar\u0131ndaki olas\u0131 geri \u00e7ekilme bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, bu nedenle sinyal kar\u0131\u015f\u0131k."
+  "24.10 03:47 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc; petrol kaynakl\u0131 enflasyon endi\u015feleri Fed'in faiz beklentilerini sertle\u015ftirerek dolar ve reel faiz taraf\u0131nda alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebini destekliyor ancak Trump'\u0131n sava\u015f\u0131 h\u0131zla bitirme ihtimali ve petrol fiyatlar\u0131ndaki olas\u0131 geri \u00e7ekilme bu bask\u0131y\u0131 s\u0131n\u0131rlayabilir, bu nedenle sinyal kar\u0131\u015f\u0131k.",
+  "24.10 03:57 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 03:57 N  NEWS (7 new) score -0.25 conf 0.50: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dip g\u00f6rd\u00fc ve momentum negatif. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde s\u0131k\u0131la\u015ft\u0131rma beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u00d6te yandan \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; bu nedenle etki kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif."
  ],
  "gold_big": {
   "account": {
@@ -4803,6 +4820,10 @@
    [
     1792802835,
     4964.78
+   ],
+   [
+    1792803452,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -5614,6 +5635,10 @@
    [
     1792802835,
     4973.18
+   ],
+   [
+    1792803452,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -6351,6 +6376,10 @@
    [
     1792802835,
     5000
+   ],
+   [
+    1792803452,
+    5000
    ]
   ]
  },
@@ -6818,6 +6847,10 @@
    [
     1792802835,
     4988.82
+   ],
+   [
+    1792803452,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -7242,6 +7275,10 @@
    [
     1792802835,
     5021.88
+   ],
+   [
+    1792803452,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -7535,6 +7572,10 @@
    ],
    [
     1792802835,
+    100000.0
+   ],
+   [
+    1792803452,
     100000.0
    ]
   ],
