@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 20:46 (İstanbul)
+> Son güncelleme: 24.10.2026 21:09 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
 
-**Hesap değeri: 5,000.90 $** (başlangıç 5,000 $, +0.90 $ / %+0.02)
+**Hesap değeri: 5,001.70 $** (başlangıç 5,000 $, +1.70 $ / %+0.03)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 20:46): Claude puan **+0.15**, güven 0.35 — İran savaşının sürmesi ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberleri jeopolitik risk nedeniyle altı hafifçe destekliyor. Ancak yüksek enflasyon haberlerinin Fed'i sıkılaştırma beklentisini artırma ihtimali ve gümüşteki satış baskısı bu etkiyi sınırlıyor, bu yüzden sinyal zayıf ve karışık.
+Son haber analizi (24.10 21:09): Claude puan **+0.30**, güven 0.45 — İran savaşının sürmesi ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberleri jeopolitik risk nedeniyle altı hafifçe destekliyor. Ancak yüksek enflasyon haberlerinin Fed'i sıkılaştırma beklentisini artırma ihtimali ve gümüşteki satış baskısı bu etkiyi sınırlıyor, bu yüzden sinyal zayıf ve karışık.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.34 — Beklentiden sıcak enflasyon haberi, Fed’in daha sıkı kalacağı ve getirilerin yükselebileceği beklentisiyle altın için kısa vadede hafif negatif. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da bu risk haberleri büyük ölçüde önceden fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.30**, güven 0.40 — İran çevresinde olası yeni çatışma ve ABD’nin olası saldırılarına dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak haberlerin bir kısmı spekülatif; yeni ve net bir tırmanış doğrulanmadığından etki sınırlı ve belirsiz.
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 17:46 N  GPT  score -0.20 conf 0.38: İran gerilimi ve olası yeni çatışma güvenli liman talebini destekleyebilir; ancak petrol kaynaklı enflasyon ve faiz artışı beklentileri ile güçlü dolar altın üzerinde baskı kuruyor. Haberlerin çoğu yeni ve doğrulanmış bir tırmanıştan ziyade mevcut riskleri yineliyor; yakın vadeli etki bu yüzden sını
-24.10 18:11 N  NEWS (12 new) score -0.15 conf 0.40: Altın 4.000 doların altına inip üç aylık dip gördü; petrol fiyatlarındaki yükseliş faiz artırımı beklentilerini besleyip reel faizleri yukarı taşıdığı ve dolar güçlendiği için kısa vadede baskı sürüyor. İran'a yönelik olası ABD saldırısı haberleri jeopolitik risk primi yaratıp altı destekleyebilir, ancak bu etki petrol ve faiz kanalıyla kısmen dengeleniyor, bu yüzden sinyal karışık ve güven düşük.
 24.10 18:11 N  GPT  score +0.20 conf 0.34: İsrail-İran gelişmelerinin canlı takibi ve bölgede olası yeni çatışma endişesi kısa vadede güvenli liman talebini destekleyebilir. Ancak başlıklar somut yeni bir tırmanış doğrulamıyor; güçlü dolar, yüksek petrol ve faiz artışı kaygıları altın üzerindeki baskıyı sürdürüyor.
 24.10 18:46 A2  BUY ETHUSDT 1000 USD @ 2300.33 (RSI 26)
 24.10 18:46 N  NEWS (14 new) score +0.05 conf 0.40: 
@@ -168,6 +166,8 @@ Son işlemler:
 24.10 20:15 N  GPT  score +0.10 conf 0.34: İran çevresindeki çatışma ve olası yeni saldırı haberleri güvenli liman talebini destekleyebilir. Ancak sıcak enflasyonun Fed beklentilerini sıkılaştırma ihtimali ve gümüşteki satış baskısı altının yükselişini sınırlıyor; başlıklar kısa vadeli net yön için yetersiz.
 24.10 20:46 N  NEWS (13 new) score +0.15 conf 0.35: İran savaşının sürmesi ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberleri jeopolitik risk nedeniyle altı hafifçe destekliyor. Ancak yüksek enflasyon haberlerinin Fed'i sıkılaştırma beklentisini artırma ihtimali ve gümüşteki satış baskısı bu etkiyi sınırlıyor, bu yüzden sinyal zayıf ve karışık.
 24.10 20:46 N  GPT  score -0.15 conf 0.34: Beklentiden sıcak enflasyon haberi, Fed’in daha sıkı kalacağı ve getirilerin yükselebileceği beklentisiyle altın için kısa vadede hafif negatif. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da bu risk haberleri büyük ölçüde önceden fiyatlanmış olabilir.
+24.10 21:09 N  NEWS (6 new) score +0.30 conf 0.45: 
+24.10 21:09 N  GPT  score +0.30 conf 0.40: İran çevresinde olası yeni çatışma ve ABD’nin olası saldırılarına dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak haberlerin bir kısmı spekülatif; yeni ve net bir tırmanış doğrulanmadığından etki sınırlı ve belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
