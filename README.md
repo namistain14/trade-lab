@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 00:03 (İstanbul)
+> Son güncelleme: 25.10.2026 00:34 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
 
-**Hesap değeri: 5,004.47 $** (başlangıç 5,000 $, +4.47 $ / %+0.09)
+**Hesap değeri: 5,003.64 $** (başlangıç 5,000 $, +3.64 $ / %+0.07)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (25.10 00:03): Claude puan **-0.20**, güven 0.50 — Yeni haberlerde ABD savaş gemilerinin İran'a olası saldırılara hazır olması güvenli liman talebini destekliyor, ancak Fed'in G7 içinde şahin duruşu, Eylül CPI'ının %3,7'ye çıkması ve faiz artırımlarının yeniden gündeme gelmesi reel faiz beklentilerini yükselterek altı baskılıyor. Altın zaten üç aylık dibe inmiş durumda; jeopolitik risk primini şimdilik gölgede bırakan enflasyon ve faiz kaynaklı baskı nedeniyle kısa vadede hafif negatif görüşteyim.
+Son haber analizi (25.10 00:34): Claude puan **-0.10**, güven 0.30 — İran'la ilgili savaş riski ve ABD savaş gemilerinin olası saldırıya hazır olması altın için güvenli liman talebini destekliyor. Ancak Fed'in sıkılaştırma yönlü bekleme beklentisi, petrol kaynaklı enflasyon endişeleri ve "altın üç aylık dibe düştü" başlığı faiz baskısını artırarak altını aşağı çekebilir. Haberlerin çoğu gürültü niteliğinde ve tekrarlı/önceden fiyatlanmış olduğundan net yön sinyali zayıf.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.58 — Fed’in diğer G7 merkez bankalarına kıyasla daha şahin kalacağı beklentisi ve enerji kaynaklı enflasyon/faiz endişeleri altın üzerinde baskı yaratıyor. İran çevresindeki olası tırmanış güvenli liman talebini desteklese de haberlerin çoğu devam eden riskleri yineliyor; etkiler çelişkili.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.44 — İran çevresinde çatışmanın yeniden başlayabileceğine dair uyarılar ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberi kısa vadede güvenli liman talebini destekleyebilir. Ancak haberler doğrulanmış yeni bir saldırı göstermiyor; yüksek petrol fiyatlarının Fed’i daha şahin tutabileceği ve a
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 20:46 N  GPT  score -0.15 conf 0.34: Beklentiden sıcak enflasyon haberi, Fed’in daha sıkı kalacağı ve getirilerin yükselebileceği beklentisiyle altın için kısa vadede hafif negatif. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da bu risk haberleri büyük ölçüde önceden fiyatlanmış olabilir.
-24.10 21:09 N  NEWS (6 new) score +0.30 conf 0.45: 
 24.10 21:09 N  GPT  score +0.30 conf 0.40: İran çevresinde olası yeni çatışma ve ABD’nin olası saldırılarına dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak haberlerin bir kısmı spekülatif; yeni ve net bir tırmanış doğrulanmadığından etki sınırlı ve belirsiz.
 24.10 21:46 N  NEWS (11 new) score -0.30 conf 0.50: Eylül TÜFE'nin %3,7'ye yükselmesi ve Fed faiz artırımlarının yeniden gündeme gelmesi, reel faiz ve Fed beklentileri üzerinden altın için baskı yaratıyor. Buna karşılık ABD savaş gemilerinin İran'a olası saldırıya hazır olduğu haberleri ve "risk-off" yorumları güvenli liman talebini destekliyor; bu nedenle sinyal karışık ve güven orta düzeyde.
 24.10 21:46 N  GPT  score +0.20 conf 0.38: İran’a yönelik olası saldırı ve bölgesel gerilim güvenli liman talebini destekleyebilir. Ancak %3,7’lik CPI ve yeniden gündeme gelen Fed faiz artırımı beklentisi altın için baskı oluşturuyor; etkiler karşıt ve kısa vadeli yön belirsiz.
@@ -168,6 +166,8 @@ Son işlemler:
 24.10 23:36 N  GPT  score -0.25 conf 0.48: İran’a yönelik olası saldırı ve karşılık söylemleri güvenli liman talebini destekleyebilir; ancak altındaki sert düşüş ve enerji kaynaklı enflasyonun Fed’i daha şahin yapabileceği beklentisi kısa vadede baskın görünüyor. Haber akışı çelişkili ve önemli kısmı yeni ya da doğrudan piyasa tetikleyicisi 
 25.10 00:03 N  NEWS (5 new) score -0.20 conf 0.50: Yeni haberlerde ABD savaş gemilerinin İran'a olası saldırılara hazır olması güvenli liman talebini destekliyor, ancak Fed'in G7 içinde şahin duruşu, Eylül CPI'ının %3,7'ye çıkması ve faiz artırımlarının yeniden gündeme gelmesi reel faiz beklentilerini yükselterek altı baskılıyor. Altın zaten üç aylık dibe inmiş durumda; jeopolitik risk primini şimdilik gölgede bırakan enflasyon ve faiz kaynaklı baskı nedeniyle kısa vadede hafif negatif görüşteyim.
 25.10 00:03 N  GPT  score -0.25 conf 0.58: Fed’in diğer G7 merkez bankalarına kıyasla daha şahin kalacağı beklentisi ve enerji kaynaklı enflasyon/faiz endişeleri altın üzerinde baskı yaratıyor. İran çevresindeki olası tırmanış güvenli liman talebini desteklese de haberlerin çoğu devam eden riskleri yineliyor; etkiler çelişkili.
+25.10 00:34 N  NEWS (14 new) score -0.10 conf 0.30: İran'la ilgili savaş riski ve ABD savaş gemilerinin olası saldırıya hazır olması altın için güvenli liman talebini destekliyor. Ancak Fed'in sıkılaştırma yönlü bekleme beklentisi, petrol kaynaklı enflasyon endişeleri ve "altın üç aylık dibe düştü" başlığı faiz baskısını artırarak altını aşağı çekebilir. Haberlerin çoğu gürültü niteliğinde ve tekrarlı/önceden fiyatlanmış olduğundan net yön sinyali zayıf.
+25.10 00:34 N  GPT  score +0.25 conf 0.44: İran çevresinde çatışmanın yeniden başlayabileceğine dair uyarılar ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberi kısa vadede güvenli liman talebini destekleyebilir. Ancak haberler doğrulanmış yeni bir saldırı göstermiyor; yüksek petrol fiyatlarının Fed’i daha şahin tutabileceği ve a
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
