@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 12:46 (İstanbul)
+> Son güncelleme: 24.10.2026 12:53 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 12:46): Claude puan **-0.15**, güven 0.35 — Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran savaşı ve petrol fiyatlarının yükselişi güvenli liman talebini destekliyor, ancak enflasyon beklentilerinin artması (%4,7) ve petrol kaynaklı enflasyonun Fed'i sıkılaştırmaya itebileceği endişesi altın için baskı yaratıyor. Trump-Fed gerilimlerinin yeniden alevlenmesi gevşek para politikası beklentisiyle altını destekleyebilir, ancak bu etki henüz net değil; genel tablo hafif negatif.
+Son haber analizi (24.10 12:53): Claude puan **+0.05**, güven 0.30 — Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran savaşı ve petrol fiyatlarının yükselişi güvenli liman talebini destekliyor, ancak enflasyon beklentilerinin artması (%4,7) ve petrol kaynaklı enflasyonun Fed'i sıkılaştırmaya itebileceği endişesi altın için baskı yaratıyor. Trump-Fed gerilimlerinin yeniden alevlenmesi gevşek para politikası beklentisiyle altını destekleyebilir, ancak bu etki henüz net değil; genel tablo hafif negatif.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 11:43 N  NEWS (9 new) score -0.10 conf 0.35: Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran'a yeni saldırı tehditleri jeopolitik risk primi sağlasa da, yüksek petrol fiyatlarının enflasyonu artırıp Fed'i sıkı tutabileceği ve haftalık enflasyon/Fed verilerinin piyasayı etkileyebileceği için kısa vadede hafif negatif bir görünüm var. Savaş haberleri ile altın arasındaki ilişki bu dönemde net olmadığı için güven düşük.
-24.10 11:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 11:50 N  NEWS (4 new) score -0.15 conf 0.40: Altın 4.000 doların altına düşüyor ve teknik görünüm zayıf; İran'a yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak Brent'in 117 doların üzerinde olması enflasyon kaynaklı sıkı para politikası beklentilerini canlı tutarak altın üzerinde baskı yaratıyor. Haftanın enflasyon ve Fed verileri belirsizliği artırdığı için, genel etki hafif negatif kalıyor ve güven düşük.
 24.10 12:01 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 12:01 N  NEWS (9 new) score -0.25 conf 0.45: Altın 4.000 doların altına indi ve teknik görünüm zayıf; İran savaşı ve Brent'in 117 dolar üzerine çıkması enflasyon kaygısını artırıp Fed'in sıkı kalma beklentisini destekliyor, bu da altın için baskılayıcı. Savaşa bağlı güvenli liman talebi ise fiyatı desteklemek yerine yükselmiyor, bu da piyasanın şu an reel faiz/dolar kanalını öne aldığını gösteriyor. Fed faiz indirimi beklentisine dair haberler çelişkili olduğu için güven sınırlı.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 12:37 N  NEWS (7 new) score -0.15 conf 0.40: Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran savaşı ve petrol fiyatlarının yükselişi güvenli liman talebini destekliyor, ancak enflasyon beklentilerinin artması (%4,7) ve petrol kaynaklı enflasyonun Fed'i sıkılaştırmaya itebileceği endişesi altın için baskı yaratıyor. Trump-Fed gerilimlerinin yeniden alevlenmesi gevşek para politikası beklentisiyle altını destekleyebilir, ancak bu etki henüz net değil; genel tablo hafif negatif.
 24.10 12:46 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 12:46 N  NEWS (9 new) score -0.15 conf 0.35: 
+24.10 12:53 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 12:53 N  NEWS (5 new) score +0.05 conf 0.30: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
