@@ -1241,6 +1241,10 @@
    [
     1792882872,
     5006.22
+   ],
+   [
+    1792884473,
+    5006.16
    ]
   ]
  },
@@ -3144,6 +3148,10 @@
    [
     1792882872,
     4923.96
+   ],
+   [
+    1792884473,
+    4923.96
    ]
   ],
   "news": {
@@ -3151,21 +3159,21 @@
    "confidence": 0.3,
    "reason": "\u0130ran sava\u015f\u0131 haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen ve fiyatlanm\u0131\u015f geli\u015fmeler; yeni ba\u015fl\u0131klar \u00e7o\u011funlukla siyasi yorum niteli\u011finde. Fed'in \u015fahin duru\u015fu (faiz art\u0131r\u0131m\u0131 ihtimali, \"hawkish pause\") ve %3,7'lik enflasyon ortam\u0131 alt\u0131n i\u00e7in hafif negatif, g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor.",
    "n": 45,
-   "ts": 1792882869357,
-   "new_headlines": 10,
+   "ts": 1792884471055,
+   "new_headlines": 12,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, \u00fc\u00e7 ayl\u0131k en d\u00fc\u015f\u00fck seviye (faiz art\u0131r\u0131m\u0131 korkusu, g\u00fc\u00e7l\u00fc dolar)",
     "Petrol fiyatlar\u0131 \u0130ran sava\u015f\u0131yla y\u00fckseldi, enflasyon ve s\u0131k\u0131la\u015fma beklentisini art\u0131r\u0131yor",
     "Ukrayna-Rusya bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri belirsiz; g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": 0.27,
-    "confidence": 0.38,
-    "reason": "\u0130ran sava\u015f\u0131na ili\u015fkin yeni siyasi a\u00e7\u0131klamalar ve olas\u0131 yeniden t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar\u0131n \u00f6nemli k\u0131sm\u0131 mevcut gerilimin tekrar\u0131; Fed\u2019in g\u00f6rece \u015fahin duru\u015fu da y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
+    "score": 0.25,
+    "confidence": 0.36,
+    "reason": "\u0130ran\u2019da \u00e7at\u0131\u015fman\u0131n yeniden alevlenebilece\u011fine ili\u015fkin uyar\u0131lar ve Kyiv\u2019deki a\u011f\u0131rla\u015fan k\u0131\u015f ko\u015fullar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut risklerin devam\u0131 niteli\u011finde; K\u00f6rfez\u2019den petrol ak\u0131\u015f\u0131n\u0131n artmas\u0131 ve olas\u0131 Fed faiz s\u0131k\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in kar\u015f\u0131 y\u00f6nde ",
     "key_events": [
-     "Trump\u2019\u0131n \u0130ran sava\u015f\u0131 konusunda geri ad\u0131m atmamas\u0131",
-     "\u0130ran\u2019la anla\u015fma giri\u015fimlerinin ba\u015far\u0131s\u0131z olmas\u0131 ve yeni sald\u0131r\u0131 endi\u015fesi",
-     "Fed\u2019in \u015fahin faiz beklentileri"
+     "\u0130ran\u2019da yeni \u00e7at\u0131\u015fma endi\u015fesi",
+     "Kyiv\u2019de k\u0131\u015f \u00f6ncesi elektrik kesintileri",
+     "K\u00f6rfez\u2019den petrol arz\u0131n\u0131n artmas\u0131"
     ],
     "model": "gpt-6-luna"
    }
@@ -5044,45 +5052,59 @@
     "new": 10,
     "gpt_score": 0.27,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1792884471055,
+    "score": -0.1,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 12,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-10-25",
-   "n": 5
+   "n": 6
   },
   "news_seen": [
+   "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
+   "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
+   "Gold prices break $4,000 as investors brace for crucial test - TheStreet",
+   "Rosebank: Life on the oil field at the centre of a political storm",
+   "Gold price update morning of October 25th: Week of strong fluctuations, hitting bottom after 4 months - Laodong.vn",
+   "Palestinian families displaced as Israeli forces demolish Hebron homes",
+   "The Iran war\u2019s toxic impact on one of the planet\u2019s most unique seas - WQOW",
    "El-Sayed: \"Trump got us into a war we've got no business fighting. President Obama, he contained the nuclear threat without war. Trump's tariffs costing autoworkers their livelihoods. President Obama made sure they didn't lose their jobs in the worst financial c - X",
-   "North Korea\u2019s Kim Jong Un returns from China after war memorial visit, state media says - WTVB",
+   "North Korea\u2019s Kim Jong Un returns from China after war memorial visit, state media says - WHTC",
    "Could silver rebound in 2027? What experts predict will happen next - USA Today",
    "Gold prices today, October 25, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. - Vietnam.vn",
    "Health Policy Watch | Not a culture war: Attacks on women\u2019s and LGBT rights are \u2018central\u2019 to autocratic playbook - European AIDS Treatment Group",
-   "Trump votes in Florida midterms, defends controversial ad, doubles down on Iran war - The Times of India",
    "Putin puts Trump ahead of Iran in bid to mediate war - Al-Monitor",
+   "Despite Losing Turnover Battle, Huskies Win The War With Purdue And Come Away With A 38-26 Win On The Road - 247Sports",
    "Obama unloads on Trump over the Iran war and mocks the president\u2019s diplomatic strategy - The Independent",
    "Who are the candidates in Brazil's presidential election?",
-   "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
-   "Missile alert sounded in Kyiv - Breakingthenews.net",
+   "Power Outages Leave Kyiv Dreading Its Worst Winter of the War - WSJ",
+   "How popular is the Iran War? - Silver Bulletin",
+   "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
    "History: Vietnam War Claims Niceville Local - Mid Bay News",
    "Foreign Policy Experts Position Iran War, Affordability as Joint Midterm Issue - The Hoya",
    "Bitcoin or Gold: Which Is the Better Inflation Hedge With Prices Up 3.7%? - 24/7 Wall St.",
    "Iran Plot to Kill US Diplomats? Are Envoys Lawful Targets in War? - Diplomacy and Law",
    "Iran blames US for deal failure, urges new try amid fear of new attacks - Al Jazeera",
-   "Container-based system launches missiles, can be deployed on land positions, vehicles, ships - Interesting Engineering",
    "Britain must be ready for war in 1,000 days, Wes Streeting warns - The Independent",
    "The Federal Effect | Van Hollen on War, Tariffs, and Power After the Midterms - DC News Now",
+   "New memorial to the 1991 Gulf War opens - NPR",
    "Russia likely to harden posture on Japan at least until Ukraine war ends - Japan Today",
-   "Anti-war rally - Japan Today",
    "Almost 1,000 arrested as clashes follow another day of mass protests across France",
    "Army activates new air defense unit in Guam - Task & Purpose",
    "Gold Rate Today In Raipur, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
-   "Eisenkot To I24NEWS: Netanyahu Has Learned Nothing From October 7 - i24NEWS",
    "Trump says US will do business with Ukraine, Russia after war ends - Anadolu Ajans\u0131",
-   "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
    "Gold Sovereign draws swords with counterfeiters and attracts new investors - Mining.com.au",
    "Ad War Heats Up as Question 3 Faces Growing Rejection - WBFF",
-   "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
    "Analysis \u2022 Netanyahu fans the flames of war two days before Israel's election - Haaretz",
-   "How popular is the Iran War? - Silver Bulletin",
+   "\u2018An end to this long journey\u2019: Veterans, families welcome long-awaited Gulf War memorial to nation\u2019s capital - Stars and Stripes",
+   "Film Screening of the 2026 Lithuanian submission for the Academy Awards \u2013 How to Divorce During the War - Stanford University",
    "October 2026 FOMC Meeting Preview: Will the Fed Raise Rates Again? What Does This Mean for US Stocks? - TradingKey",
    "Barack Obama Slams Donald Trump, Pete Hegseth Over Iran War - Newsweek",
    "Iran reportedly ready to target submarine cables if war resumes - Israel National News",
@@ -5090,17 +5112,10 @@
    "Monuments in Washington D.C. honored Americans who died in World War II and the wars in Korea and Vietnam. None honored the 116,516 men and women killed in World War I - Hollywood Times",
    "Voters Are Begging Trump to End the War in Iran - Mother Jones",
    "Readout of Secretary of War Pete Hegeth's Meeting With His Excellency Dr. Mohamed Irfaan A - U.S. Department of War (.gov)",
-   "Fireworks and tear gas as protesters and riot police clash in Paris",
-   "Gold Rate Today in Tamil Nadu 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Tamil Nadu - Business Today",
-   "Gold Rate Today in Thiruvallur 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Thiruvallur - Business Today",
-   "Gold Rate Today in Begusarai 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Begusarai - Business Today",
-   "Gold Rate Today in Akola 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Akola - Business Today",
-   "Iran war drives up costs for US households ahead of midterms - The North State Journal"
+   "Fireworks and tear gas as protesters and riot police clash in Paris"
   ]
  },
  "log": [
-  "23.10 16:39 B1  CLOSE short stop (gap): -4.51 USD",
-  "23.10 16:39 N  NEWS (10 new) score -0.30 conf 0.45: Alt\u0131n son haftada en b\u00fcy\u00fck haftal\u0131k kay\u0131plardan birini ya\u015f\u0131yor ve \"haven\" talebi zay\u0131flarken dolar FOMC \u00f6ncesi diren\u00e7li, petrol kaynakl\u0131 enflasyon endi\u015feleri ise faiz art\u0131r\u0131m\u0131 beklentilerini besliyor; bu tablo k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n t\u0131rman\u0131\u015f haberleri ve Ortado\u011fu sald\u0131r\u0131lar\u0131 jeopolitik destek sa\u011flayabilece\u011fi i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
   "23.10 16:39 N  GPT  score -0.35 conf 0.48: Alt\u0131na ili\u015fkin sert d\u00fc\u015f\u00fc\u015f ve 4.000 dolar e\u015fi\u011fine yakla\u015fma haberleri, dolar\u0131n ve faiz avantaj\u0131n\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131yla k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131y\u0131 destekliyor. Orta Do\u011fu\u2019daki sald\u0131r\u0131 ve t\u0131rmanma haberleri g\u00fcvenli liman talebini art\u0131rabilir; ancak fiyat hareketi bu deste\u011fin \u015fimdilik bask\u0131n olmad\u0131\u011f\u0131n\u0131 ",
   "23.10 16:39 B5  SHORT gold 5000 USD x10 @ 4036.46 (TP 4024.35, SL 4044.54; news -0.32)",
   "23.10 16:45 N  NEWS (7 new) score -0.40 conf 0.50: Alt\u0131n 3 ayl\u0131k dibe yak\u0131n, haftal\u0131k en b\u00fcy\u00fck kay\u0131plardan birini ya\u015f\u0131yor ve haven talebi zay\u0131flam\u0131\u015f g\u00f6r\u00fcn\u00fcyor; petrol kaynakl\u0131 enflasyon endi\u015feleri ile FOMC \u00f6ncesi dolar direnci ve olas\u0131 BoC faiz art\u0131r\u0131m\u0131 beklentisi bask\u0131y\u0131 art\u0131r\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Orta Do\u011fu sald\u0131r\u0131lar\u0131 gibi jeopolitik riskler s\u00fcrmekte, bu da k\u0131sa vadeli toparlanma ihtimalini s\u0131n\u0131rl\u0131 da olsa destekleyebilir; ayr\u0131ca \u00e7ok say\u0131da fiyat hareketi zaten yans\u0131t\u0131lm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
@@ -5398,7 +5413,9 @@
   "25.10 01:33 N  NEWS (9 new) score +0.15 conf 0.35: ",
   "25.10 01:33 N  GPT  score +0.22 conf 0.36: \u0130ran\u2019\u0131n anla\u015fma ba\u015far\u0131s\u0131zl\u0131\u011f\u0131ndan ABD\u2019yi sorumlu tutup yeni g\u00f6r\u00fc\u015fme \u00e7a\u011fr\u0131s\u0131 yapmas\u0131 ve sald\u0131r\u0131 endi\u015felerinin s\u00fcrmesi k\u0131sa vadede g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde destekleyebilir. Ancak yeni bir \u00e7at\u0131\u015fma veya somut t\u0131rman\u0131\u015f haberi yok; etki belirsiz ve \u00f6nceki geli\u015fmeler fiyatlanm\u0131\u015f olabilir.",
   "25.10 02:01 N  NEWS (10 new) score -0.10 conf 0.30: \u0130ran sava\u015f\u0131 haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bilinen ve fiyatlanm\u0131\u015f geli\u015fmeler; yeni ba\u015fl\u0131klar \u00e7o\u011funlukla siyasi yorum niteli\u011finde. Fed'in \u015fahin duru\u015fu (faiz art\u0131r\u0131m\u0131 ihtimali, \"hawkish pause\") ve %3,7'lik enflasyon ortam\u0131 alt\u0131n i\u00e7in hafif negatif, g\u00fcvenli liman talebi ise s\u0131n\u0131rl\u0131 kal\u0131yor.",
-  "25.10 02:01 N  GPT  score +0.27 conf 0.38: \u0130ran sava\u015f\u0131na ili\u015fkin yeni siyasi a\u00e7\u0131klamalar ve olas\u0131 yeniden t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar\u0131n \u00f6nemli k\u0131sm\u0131 mevcut gerilimin tekrar\u0131; Fed\u2019in g\u00f6rece \u015fahin duru\u015fu da y\u00fckseli\u015fi s\u0131n\u0131rlayabilir."
+  "25.10 02:01 N  GPT  score +0.27 conf 0.38: \u0130ran sava\u015f\u0131na ili\u015fkin yeni siyasi a\u00e7\u0131klamalar ve olas\u0131 yeniden t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar\u0131n \u00f6nemli k\u0131sm\u0131 mevcut gerilimin tekrar\u0131; Fed\u2019in g\u00f6rece \u015fahin duru\u015fu da y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
+  "25.10 02:27 N  NEWS (12 new) score -0.10 conf 0.30: ",
+  "25.10 02:27 N  GPT  score +0.25 conf 0.36: \u0130ran\u2019da \u00e7at\u0131\u015fman\u0131n yeniden alevlenebilece\u011fine ili\u015fkin uyar\u0131lar ve Kyiv\u2019deki a\u011f\u0131rla\u015fan k\u0131\u015f ko\u015fullar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut risklerin devam\u0131 niteli\u011finde; K\u00f6rfez\u2019den petrol ak\u0131\u015f\u0131n\u0131n artmas\u0131 ve olas\u0131 Fed faiz s\u0131k\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in kar\u015f\u0131 y\u00f6nde "
  ],
  "gold_big": {
   "account": {
@@ -6613,6 +6630,10 @@
    [
     1792882872,
     4964.78
+   ],
+   [
+    1792884473,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -7776,6 +7797,10 @@
    [
     1792882872,
     4973.18
+   ],
+   [
+    1792884473,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -8886,6 +8911,10 @@
    [
     1792882872,
     5005.69
+   ],
+   [
+    1792884473,
+    5005.69
    ]
   ]
  },
@@ -9705,6 +9734,10 @@
    [
     1792882872,
     4988.82
+   ],
+   [
+    1792884473,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -10481,6 +10514,10 @@
    [
     1792882872,
     5021.88
+   ],
+   [
+    1792884473,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -11126,6 +11163,10 @@
    ],
    [
     1792882872,
+    100000.0
+   ],
+   [
+    1792884473,
     100000.0
    ]
   ],
