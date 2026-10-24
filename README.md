@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 17:46 (İstanbul)
+> Son güncelleme: 24.10.2026 18:11 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
 
-**Hesap değeri: 5,001.58 $** (başlangıç 5,000 $, +1.58 $ / %+0.03)
+**Hesap değeri: 4,996.87 $** (başlangıç 5,000 $, -3.13 $ / %-0.06)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
@@ -44,9 +44,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 17:46): Claude puan **-0.20**, güven 0.40 — Altın 4.000 doları altına inmiş ve üç aylık dibe gerilemiş durumda; petrol fiyatlarındaki yükseliş faiz artırımı beklentilerini besleyip doları güçlendirdiği için kısa vadede baskı sürebilir. İran'a yönelik ABD saldırı hazırlıkları güvenli liman talebini artırabilse de bu etki, petrol kaynaklı enflasyon ve sıkılaşma endişelerinin gerisinde kalabilir; ayrıca haberlerin büyük bölümü zaten fiyatlanmış durumda.
+Son haber analizi (24.10 18:11): Claude puan **-0.15**, güven 0.40 — Altın 4.000 doların altına inip üç aylık dip gördü; petrol fiyatlarındaki yükseliş faiz artırımı beklentilerini besleyip reel faizleri yukarı taşıdığı ve dolar güçlendiği için kısa vadede baskı sürüyor. İran'a yönelik olası ABD saldırısı haberleri jeopolitik risk primi yaratıp altı destekleyebilir, ancak bu etki petrol ve faiz kanalıyla kısmen dengeleniyor, bu yüzden sinyal karışık ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.38 — İran gerilimi ve olası yeni çatışma güvenli liman talebini destekleyebilir; ancak petrol kaynaklı enflasyon ve faiz artışı beklentileri ile güçlü dolar altın üzerinde baskı kuruyor. Haberlerin çoğu yeni ve doğrulanmış bir tırmanıştan ziyade mevcut riskleri yineliyor; yakın vadeli etki bu yüzden sını
+GPT (gpt-6-luna): puan **+0.20**, güven 0.34 — İsrail-İran gelişmelerinin canlı takibi ve bölgede olası yeni çatışma endişesi kısa vadede güvenli liman talebini destekleyebilir. Ancak başlıklar somut yeni bir tırmanış doğrulamıyor; güçlü dolar, yüksek petrol ve faiz artışı kaygıları altın üzerindeki baskıyı sürdürüyor.
 
 Son işlemler:
 
@@ -147,8 +147,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 14:56 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-24.10 14:56 N  NEWS (14 new) score -0.20 conf 0.35: Yeni başlıkların çoğu altınla ilgisiz ya da gürültü; ana sinyal, petrol kaynaklı enflasyon ve faiz artışı endişelerinin altını 4.000 doların altına çektiği yönünde. İran savaşının güvenli liman talebi desteği var, ancak Fed'den net bir yön veren haber yok ve bu nedenle etki sınırlı kalıyor.
 24.10 15:32 N  NEWS (18 new) score -0.35 conf 0.50: Altın 4.000 doların altına düştü ve en kötü haftalarından birini yaşıyor; petrol kaynaklı enflasyon ve faiz artırımı endişeleri reel faiz beklentilerini yükselterek baskı oluşturuyor. İran savaşının yeniden tırmanma riski ve Ukrayna'daki yaptırımlar güvenli liman talebini bir miktar destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve mevcut momentum aşağı yönlü.
 24.10 15:32 N  GPT  score -0.58 conf 0.68: Altının 4.000 doların altına inmesi ve süregelen düşüş kısa vadeli satış baskısına işaret ediyor; yükselen petrolün enflasyon ve faiz beklentilerini artırması da altın için olumsuz. Rusya’ya yönelik yaptırımlar ve olası jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak haberler bel
 24.10 16:13 N  NEWS (16 new) score -0.15 conf 0.35: Altın yakın vadede hafif negatif görünüyor: petrol fiyatları İran savaşı nedeniyle nisandan bu yana en yüksek seviyede, bu da enflasyon beklentilerini ve Fed'in sıkı kalma ihtimalini destekleyerek altı baskılıyor. Ayrıca altın zaten haftalık bazda en kötü performansını yaşayıp 4.000 doların altına indi; güvenli liman talebini artırabilecek savaş tırmanışı sinyalleri ise (Trump'ın yeni bir çatışma uyarısı) karışık ve kısmen fiyatlanmış durumda.
@@ -162,6 +160,8 @@ Son işlemler:
 24.10 17:27 N  GPT  score +0.25 conf 0.48: İran’a yönelik olası ABD saldırıları ve Trump’ın yeni çatışma uyarısı kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak altındaki son sert düşüş, güçlü dolar ve faiz artışı endişeleri bu etkiyi sınırlıyor; haberlerin doğrulanma ve fiyatlanma durumu belirsiz.
 24.10 17:46 N  NEWS (9 new) score -0.20 conf 0.40: Altın 4.000 doları altına inmiş ve üç aylık dibe gerilemiş durumda; petrol fiyatlarındaki yükseliş faiz artırımı beklentilerini besleyip doları güçlendirdiği için kısa vadede baskı sürebilir. İran'a yönelik ABD saldırı hazırlıkları güvenli liman talebini artırabilse de bu etki, petrol kaynaklı enflasyon ve sıkılaşma endişelerinin gerisinde kalabilir; ayrıca haberlerin büyük bölümü zaten fiyatlanmış durumda.
 24.10 17:46 N  GPT  score -0.20 conf 0.38: İran gerilimi ve olası yeni çatışma güvenli liman talebini destekleyebilir; ancak petrol kaynaklı enflasyon ve faiz artışı beklentileri ile güçlü dolar altın üzerinde baskı kuruyor. Haberlerin çoğu yeni ve doğrulanmış bir tırmanıştan ziyade mevcut riskleri yineliyor; yakın vadeli etki bu yüzden sını
+24.10 18:11 N  NEWS (12 new) score -0.15 conf 0.40: Altın 4.000 doların altına inip üç aylık dip gördü; petrol fiyatlarındaki yükseliş faiz artırımı beklentilerini besleyip reel faizleri yukarı taşıdığı ve dolar güçlendiği için kısa vadede baskı sürüyor. İran'a yönelik olası ABD saldırısı haberleri jeopolitik risk primi yaratıp altı destekleyebilir, ancak bu etki petrol ve faiz kanalıyla kısmen dengeleniyor, bu yüzden sinyal karışık ve güven düşük.
+24.10 18:11 N  GPT  score +0.20 conf 0.34: İsrail-İran gelişmelerinin canlı takibi ve bölgede olası yeni çatışma endişesi kısa vadede güvenli liman talebini destekleyebilir. Ancak başlıklar somut yeni bir tırmanış doğrulamıyor; güçlü dolar, yüksek petrol ve faiz artışı kaygıları altın üzerindeki baskıyı sürdürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

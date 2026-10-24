@@ -1173,6 +1173,10 @@
    [
     1792853168,
     5001.58
+   ],
+   [
+    1792854685,
+    4996.87
    ]
   ]
  },
@@ -3008,28 +3012,32 @@
    [
     1792853168,
     4923.96
+   ],
+   [
+    1792854685,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.2,
+   "score": -0.15,
    "confidence": 0.4,
-   "reason": "Alt\u0131n 4.000 dolar\u0131 alt\u0131na inmi\u015f ve \u00fc\u00e7 ayl\u0131k dibe gerilemi\u015f durumda; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyip dolar\u0131 g\u00fc\u00e7lendirdi\u011fi i\u00e7in k\u0131sa vadede bask\u0131 s\u00fcrebilir. \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131 haz\u0131rl\u0131klar\u0131 g\u00fcvenli liman talebini art\u0131rabilse de bu etki, petrol kaynakl\u0131 enflasyon ve s\u0131k\u0131la\u015fma endi\u015felerinin gerisinde kalabilir; ayr\u0131ca haberlerin b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f durumda.",
+   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dip g\u00f6rd\u00fc; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyip reel faizleri yukar\u0131 ta\u015f\u0131d\u0131\u011f\u0131 ve dolar g\u00fc\u00e7lendi\u011fi i\u00e7in k\u0131sa vadede bask\u0131 s\u00fcr\u00fcyor. \u0130ran'a y\u00f6nelik olas\u0131 ABD sald\u0131r\u0131s\u0131 haberleri jeopolitik risk primi yarat\u0131p alt\u0131 destekleyebilir, ancak bu etki petrol ve faiz kanal\u0131yla k\u0131smen dengeleniyor, bu y\u00fczden sinyal kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792853165497,
-   "new_headlines": 9,
+   "ts": 1792854681576,
+   "new_headlines": 12,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, \u00fc\u00e7 ayl\u0131k en d\u00fc\u015f\u00fck seviye (faiz art\u0131r\u0131m\u0131 korkusu, g\u00fc\u00e7l\u00fc dolar)",
     "Petrol fiyatlar\u0131 \u0130ran sava\u015f\u0131yla y\u00fckseldi, enflasyon ve s\u0131k\u0131la\u015fma beklentisini art\u0131r\u0131yor",
     "Ukrayna-Rusya bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri belirsiz; g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.38,
-    "reason": "\u0130ran gerilimi ve olas\u0131 yeni \u00e7at\u0131\u015fma g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon ve faiz art\u0131\u015f\u0131 beklentileri ile g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 kuruyor. Haberlerin \u00e7o\u011fu yeni ve do\u011frulanm\u0131\u015f bir t\u0131rman\u0131\u015ftan ziyade mevcut riskleri yineliyor; yak\u0131n vadeli etki bu y\u00fczden s\u0131n\u0131",
+    "score": 0.2,
+    "confidence": 0.34,
+    "reason": "\u0130srail-\u0130ran geli\u015fmelerinin canl\u0131 takibi ve b\u00f6lgede olas\u0131 yeni \u00e7at\u0131\u015fma endi\u015fesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak ba\u015fl\u0131klar somut yeni bir t\u0131rman\u0131\u015f do\u011frulam\u0131yor; g\u00fc\u00e7l\u00fc dolar, y\u00fcksek petrol ve faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131 alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor.",
     "key_events": [
-     "\u0130ran\u2019a kar\u015f\u0131 olas\u0131 ABD sald\u0131r\u0131lar\u0131 ve \u00e7at\u0131\u015fman\u0131n yeniden alevlenmesi endi\u015fesi",
-     "Petrol fiyatlar\u0131 ve faiz art\u0131\u015f\u0131 korkular\u0131 alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
-     "Alt\u0131n\u0131n yak\u0131n zamanda 4.000 dolar\u0131n alt\u0131na gerilemi\u015f olmas\u0131"
+     "\u0130srail-\u0130ran hatt\u0131nda s\u00fcren geli\u015fmeler",
+     "ABD sava\u015f gemilerinin olas\u0131 \u0130ran sald\u0131r\u0131lar\u0131na haz\u0131r oldu\u011fu haberi",
+     "G\u00fc\u00e7l\u00fc dolar ve faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131n\u0131n alt\u0131n\u0131 bask\u0131lamas\u0131"
     ],
     "model": "gpt-6-luna"
    }
@@ -4755,13 +4763,25 @@
     "new": 9,
     "gpt_score": -0.2,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1792854681576,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dip g\u00f6rd\u00fc; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyip reel faizleri yukar\u0131 ta\u015f\u0131d\u0131\u011f\u0131 ve dolar g\u00fc\u00e7lendi\u011fi i\u00e7in k\u0131sa vadede bask\u0131 s\u00fcr\u00fcyor. \u0130ran'a y\u00f6nelik olas\u0131 ABD sald\u0131r\u0131s\u0131 haberleri jeopolitik risk primi yarat\u0131p alt\u0131 destekleyebilir, ancak bu etki petrol ve faiz kanal\u0131yla k\u0131smen dengeleniyor, bu y\u00fczden sinyal kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 12,
+    "gpt_score": 0.2,
+    "gpt_confidence": 0.34
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 84
+   "n": 85
   },
   "news_seen": [
+   "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+   "Halle Berry's Custody War Drags into Second Week as Ex Gets Restraining Order Extended - Complex",
+   "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
    "\u2018We\u2019re Losing The War\u2019: Hoenlein Calls For Rethink Of Fight Against Antisemitism - i24NEWS",
    "Undervalued? West Wits Mining: Bank-Backed, Pouring Gold, Priced Below Peers - Crux Investor",
    "Trump\u2019s War on Iran Has Broken the Oil Market - CleanTechnica",
@@ -4771,17 +4791,23 @@
    "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
    "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
    "Netanyahu orders plan to bypass banking sanctions, eyes blockchain as option - T\u00fcrkiye Today",
+   "Markets.com - Markets.com",
    "Opinion | Why is the US dollar rising despite improvements in most of Egypt\u2019s economic indicators? - Daily News Egypt",
    "Dominic West Is Pop Culture\u2019s Greatest Adulterer - Vanity Fair",
    "ICC prosecutor says court making \u2018significant progress\u2019 despite US sanctions - The Guardian",
    "Inflation, earnings reports and the mood of consumers and the Federal Reserve fill out a busy week - WTOP News",
+   "Gold Rate Today In Kolkata, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
    "Could silver rebound in 2027? What experts predict will happen next - USA Today",
    "Israeli-born oligarch behind Russia's $14B sanctions-evading cash network linked to Iran, Hamas - Ynetnews",
-   "Income Tax Department highlights key TDS deadlines in October, November 2026: Check the list of new TDS forms - Livemint",
+   "Shafaq News..US dollar closes lower in Iraqi markets - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "Trump's war on drug cartels could gain powerful new ally after pivotal election - Fox News",
+   "In U.S. Gas Talks With Kremlin, Hidden Financing for Alaska Project Emerges - The New York Times",
+   "Readout of Secretary of War Pete Hegeth's Meeting With His Excellency Dr. Mohamed Irfaan A - U.S. Department of War (.gov)",
    "Spot Gold: Ready To Start Buying Again, After Being Pessimistic Year-To-Date (GLD) - Seeking Alpha",
    "Ukraine War, Day 1,703: Zelensky \u2014 Talks With Russia In November - EA WorldView",
+   "Kim Jong-un Makes First Visit to China in Over a Year - The New York Times",
    "Gold prices hit the floor, stronger USD pushes gold into a difficult position - Laodong.vn",
-   "\"As long as Putin is in the Kremlin, the war will not end\": Fire Point co-owner Shtilerman, in an op-ed for Le Monde, called on the West to make Putin's removal - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+   "Top U.S. Navy Fighter Gains Major Air-to-Air Combat Boost with Very Long Range Missile Configuration - Military Watch Magazine",
    "2,000 Missiles in 48 Hours for the Middle East, Just 24 in 90 Days for Ukraine, Zelenskyy Says - UNITED24 Media",
    "Zelensky Enacts Sanctions on Russian Missile and Military Suppliers - Mezha.net",
    "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
@@ -4792,26 +4818,15 @@
    "What to know about the Melania Trump-brokered ceasefire in Russian-occupied Oleshky - WTOP News",
    "Gold Just Fell Below $4,000 After Its Worst Week in Five Months - 24/7 Wall St.",
    "'Iran War Has Done A Lot Of Damage': US Republican Candidate Slams Trump - NDTV",
-   "Small-cap mutual funds: Why are smaller schemes outperforming larger peers? Experts explain the role of AUM - Livemint",
-   "How popular is the Iran War? - Silver Bulletin",
+   "Ukraine-Russia war sees more strikes in occupied territories as Starlink speeds return to normal - TRT World",
    "Gold rates in Chennai city crash this week: Can yellow metal rebound ahead of Diwali - Key levels to watch in future? - TradingView",
    "Zelensky Enacts Sanctions Targeting Russian Ballistics and Drones Makers - Kyiv Post",
    "Antam Gold Price Today, October 24, 2026, Stable at IDR 2.54 Million; Check Latest Price List and Buyback - Aktualita.co",
    "Ukraine says Starlink connection 'now stable' after network limits",
-   "Gold price at the close of the session on October 24th: Gold bars, gold rings close the week at low prices - Laodong.vn",
-   "Ukraine sanctions Russian arms suppliers as Moscow ramps up attacks - The Kyiv Independent",
-   "Opinion: The meaning of the Republican war over Ramaswamy\u2019s vile ad - The Salt Lake Tribune",
-   "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization - Naval News",
-   "African Union Calls for Immediate Lifting of Sanctions on Zimbabwe - Shabelle Media Network",
-   "US Consumer Sentiment Declines Amid Fuel Price Hikes and Cost-of-Living Concerns - Observer Voice",
-   "George Answers Your Questions: Ukraine, Russia, China, Iran and Diesel - Geopolitical Futures",
-   "GENIUS Act Gets Final Form: Inside the OCC\u2019s Stablecoin Rule Before January 2027 - The Crypto Times",
-   "Pezeshkian stresses moving beyond \u2018neither war nor peace\u2019 - Mehr News Agency"
+   "Gold price at the close of the session on October 24th: Gold bars, gold rings close the week at low prices - Laodong.vn"
   ]
  },
  "log": [
-  "23.10 12:47 N  NEWS (13 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f, \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k kay\u0131plar s\u00fcr\u00fcyor; Fed'in faiz art\u0131rma beklentileri (BofA iki ek art\u0131r\u0131m, Warsh'un s\u0131k\u0131la\u015ft\u0131rma sinyali), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz) g\u00fcvenli liman talebini destekleyebilir ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fcnm\u00fcyor; Goldman'\u0131n 5.400 dolarl\u0131k uzun vadeli hedefi k\u0131sa vadeli etkisi olmayan eski bir haber.",
-  "23.10 12:55 N  NEWS (4 new) score -0.45 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda; Fed'in faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve Warsh'un daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi beklentisi reel faiz bask\u0131s\u0131n\u0131 art\u0131r\u0131p alt\u0131na negatif yans\u0131yor. Yeni gelen haberlerin \u00e7o\u011fu (Lockheed backlog, Bat\u0131 \u015eeria sald\u0131r\u0131s\u0131, peso rekor d\u00fc\u015f\u00fc\u015f\u00fc) alt\u0131n i\u00e7in do\u011frudan etkisi zay\u0131f; jeopolitik risk-off talebi ise bu bask\u0131y\u0131 tam dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor.",
   "23.10 13:05 N  NEWS (6 new) score -0.50 conf 0.60: Alt\u0131n 4.000 dolar seviyesinin alt\u0131na inmi\u015f durumda; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Treasury getirileri alt\u0131n\u0131 bask\u0131l\u0131yor. Petrol 113 dolar\u0131n \u00fczerinde oldu\u011fu i\u00e7in enflasyon kayg\u0131s\u0131 s\u00fcr\u00fcyor, \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor.",
   "23.10 13:14 N  NEWS (10 new) score -0.60 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkt\u0131; haberler marj \u00e7a\u011fr\u0131lar\u0131yla tetiklenen sat\u0131\u015f\u0131, Fed faiz art\u0131r\u0131m\u0131 beklentilerini ve g\u00fc\u00e7l\u00fc dolar\u0131 \u00f6ne \u00e7\u0131kar\u0131yor. Bu fakt\u00f6rler jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebinden bask\u0131n g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden 1-4 saatlik g\u00f6r\u00fcn\u00fcm negatif. Yine de \u0130ran sava\u015f\u0131 ve Suudi Arabistan'a y\u00f6nelik sald\u0131r\u0131lar gibi riskler devam ediyor ve Goldman 5.400 dolarl\u0131k uzun vadeli hedefini koruyor; bu nedenle g\u00fcven s\u0131n\u0131rl\u0131 tutuldu.",
   "23.10 13:23 N  NEWS (7 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar civar\u0131nda zay\u0131f seyrediyor; marj \u00e7a\u011fr\u0131lar\u0131 kaynakl\u0131 sat\u0131\u015f ve Fed'in 2026'da iki kez daha faiz art\u0131rabilece\u011fi beklentisi (BofA), y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 nedeniyle k\u0131sa vadede negatif. \u0130ran/Suudi \u00e7at\u0131\u015fmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki alt\u0131n fiyatlar\u0131nda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
@@ -5109,7 +5124,9 @@
   "24.10 17:27 N  NEWS (10 new) score +0.15 conf 0.40: Yeni gelen \u0130ran'a y\u00f6nelik sald\u0131r\u0131 haz\u0131rl\u0131\u011f\u0131 ve Trump'\u0131n yeniden \u00e7at\u0131\u015fma uyar\u0131s\u0131 g\u00fcvenli liman talebini k\u0131sa vadede destekleyebilir. Ancak alt\u0131n zaten faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7lenen dolar ve y\u00fckselen petrol nedeniyle \u00fc\u00e7 ayl\u0131k dibe inmi\u015f durumda; bu bask\u0131 s\u00fcrd\u00fc\u011f\u00fc i\u00e7in yukar\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve belirsizdir.",
   "24.10 17:27 N  GPT  score +0.25 conf 0.48: \u0130ran\u2019a y\u00f6nelik olas\u0131 ABD sald\u0131r\u0131lar\u0131 ve Trump\u2019\u0131n yeni \u00e7at\u0131\u015fma uyar\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak alt\u0131ndaki son sert d\u00fc\u015f\u00fc\u015f, g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131\u015f\u0131 endi\u015feleri bu etkiyi s\u0131n\u0131rl\u0131yor; haberlerin do\u011frulanma ve fiyatlanma durumu belirsiz.",
   "24.10 17:46 N  NEWS (9 new) score -0.20 conf 0.40: Alt\u0131n 4.000 dolar\u0131 alt\u0131na inmi\u015f ve \u00fc\u00e7 ayl\u0131k dibe gerilemi\u015f durumda; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyip dolar\u0131 g\u00fc\u00e7lendirdi\u011fi i\u00e7in k\u0131sa vadede bask\u0131 s\u00fcrebilir. \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131 haz\u0131rl\u0131klar\u0131 g\u00fcvenli liman talebini art\u0131rabilse de bu etki, petrol kaynakl\u0131 enflasyon ve s\u0131k\u0131la\u015fma endi\u015felerinin gerisinde kalabilir; ayr\u0131ca haberlerin b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f durumda.",
-  "24.10 17:46 N  GPT  score -0.20 conf 0.38: \u0130ran gerilimi ve olas\u0131 yeni \u00e7at\u0131\u015fma g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon ve faiz art\u0131\u015f\u0131 beklentileri ile g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 kuruyor. Haberlerin \u00e7o\u011fu yeni ve do\u011frulanm\u0131\u015f bir t\u0131rman\u0131\u015ftan ziyade mevcut riskleri yineliyor; yak\u0131n vadeli etki bu y\u00fczden s\u0131n\u0131"
+  "24.10 17:46 N  GPT  score -0.20 conf 0.38: \u0130ran gerilimi ve olas\u0131 yeni \u00e7at\u0131\u015fma g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon ve faiz art\u0131\u015f\u0131 beklentileri ile g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 kuruyor. Haberlerin \u00e7o\u011fu yeni ve do\u011frulanm\u0131\u015f bir t\u0131rman\u0131\u015ftan ziyade mevcut riskleri yineliyor; yak\u0131n vadeli etki bu y\u00fczden s\u0131n\u0131",
+  "24.10 18:11 N  NEWS (12 new) score -0.15 conf 0.40: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dip g\u00f6rd\u00fc; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f faiz art\u0131r\u0131m\u0131 beklentilerini besleyip reel faizleri yukar\u0131 ta\u015f\u0131d\u0131\u011f\u0131 ve dolar g\u00fc\u00e7lendi\u011fi i\u00e7in k\u0131sa vadede bask\u0131 s\u00fcr\u00fcyor. \u0130ran'a y\u00f6nelik olas\u0131 ABD sald\u0131r\u0131s\u0131 haberleri jeopolitik risk primi yarat\u0131p alt\u0131 destekleyebilir, ancak bu etki petrol ve faiz kanal\u0131yla k\u0131smen dengeleniyor, bu y\u00fczden sinyal kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "24.10 18:11 N  GPT  score +0.20 conf 0.34: \u0130srail-\u0130ran geli\u015fmelerinin canl\u0131 takibi ve b\u00f6lgede olas\u0131 yeni \u00e7at\u0131\u015fma endi\u015fesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak ba\u015fl\u0131klar somut yeni bir t\u0131rman\u0131\u015f do\u011frulam\u0131yor; g\u00fc\u00e7l\u00fc dolar, y\u00fcksek petrol ve faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131 alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -6256,6 +6273,10 @@
    [
     1792853168,
     4964.78
+   ],
+   [
+    1792854685,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -7351,6 +7372,10 @@
    [
     1792853168,
     4973.18
+   ],
+   [
+    1792854685,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -8372,6 +8397,10 @@
    [
     1792853168,
     5000
+   ],
+   [
+    1792854685,
+    5000
    ]
   ]
  },
@@ -9123,6 +9152,10 @@
    [
     1792853168,
     4988.82
+   ],
+   [
+    1792854685,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -9831,6 +9864,10 @@
    [
     1792853168,
     5021.88
+   ],
+   [
+    1792854685,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -10408,6 +10445,10 @@
    ],
    [
     1792853168,
+    100000.0
+   ],
+   [
+    1792854685,
     100000.0
    ]
   ],
