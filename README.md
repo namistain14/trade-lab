@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 11:43 (İstanbul)
+> Son güncelleme: 24.10.2026 11:50 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 11:43): Claude puan **-0.10**, güven 0.35 — Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran'a yeni saldırı tehditleri jeopolitik risk primi sağlasa da, yüksek petrol fiyatlarının enflasyonu artırıp Fed'i sıkı tutabileceği ve haftalık enflasyon/Fed verilerinin piyasayı etkileyebileceği için kısa vadede hafif negatif bir görünüm var. Savaş haberleri ile altın arasındaki ilişki bu dönemde net olmadığı için güven düşük.
+Son haber analizi (24.10 11:50): Claude puan **-0.15**, güven 0.40 — Altın 4.000 doların altına düşüyor ve teknik görünüm zayıf; İran'a yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak Brent'in 117 doların üzerinde olması enflasyon kaynaklı sıkı para politikası beklentilerini canlı tutarak altın üzerinde baskı yaratıyor. Haftanın enflasyon ve Fed verileri belirsizliği artırdığı için, genel etki hafif negatif kalıyor ve güven düşük.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 10:31 N  NEWS (9 new) score +0.10 conf 0.35: İran savaşının sürmesi, Brent'in 117 doları aşması ve ABD'ye yönelik tehdidin artması güvenli liman talebi açısından gold lehine. Ancak petrol kaynaklı enflasyon, Fed'de sıkı duruşu destekleyebilir ve altın fiyatları haftalık düşüş eğiliminde; Ukrayna'da müzakere haberleri ise jeopolitik primi kısmen azaltıyor. Bu çelişkili tablo nedeniyle net bir yön yerine hafif pozitif bir görünüm veriyorum.
-24.10 10:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 10:40 N  NEWS (2 new) score -0.10 conf 0.30: 
 24.10 10:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 10:55 N  NEWS (8 new) score -0.30 conf 0.50: Altın fiyatı $4.000 desteğini test ediyor ve birkaç haber ardışık düşüşü, yani zayıf talebi işaret ediyor. İran savaşı ve Brent'in 117 doların üzerine çıkması enflasyon baskısını ve sert Fed beklentilerini besleyerek altını baskılıyor; jeopolitik güvenli liman talebi bu etkiyi tam olarak dengelemiyor.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 11:34 N  NEWS (11 new) score -0.20 conf 0.40: Altın 4.000 doları kırarak düşüyor ve teknik görünüm zayıf; haftalık düşüş ve petrol kaynaklı enflasyon, faiz indirimi beklentilerini geciktirerek altı baskılıyor. İran'a yeniden saldırı tehdidi ve Hürmüz riski güvenli liman talebini destekliyor, ancak piyasanın bu jeopolitik primi bugüne kadar satışları durduracak kadar fiyatlamadığı görülüyor; bu nedenle hafif negatif bir görünüm, düşük güvenle.
 24.10 11:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 11:43 N  NEWS (9 new) score -0.10 conf 0.35: Altın 4.000 doların altına inmiş ve teknik görünüm zayıf; İran'a yeni saldırı tehditleri jeopolitik risk primi sağlasa da, yüksek petrol fiyatlarının enflasyonu artırıp Fed'i sıkı tutabileceği ve haftalık enflasyon/Fed verilerinin piyasayı etkileyebileceği için kısa vadede hafif negatif bir görünüm var. Savaş haberleri ile altın arasındaki ilişki bu dönemde net olmadığı için güven düşük.
+24.10 11:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 11:50 N  NEWS (4 new) score -0.15 conf 0.40: Altın 4.000 doların altına düşüyor ve teknik görünüm zayıf; İran'a yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak Brent'in 117 doların üzerinde olması enflasyon kaynaklı sıkı para politikası beklentilerini canlı tutarak altın üzerinde baskı yaratıyor. Haftanın enflasyon ve Fed verileri belirsizliği artırdığı için, genel etki hafif negatif kalıyor ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
