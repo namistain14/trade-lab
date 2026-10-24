@@ -1002,6 +1002,10 @@
    [
     1792821056,
     5000.3
+   ],
+   [
+    1792821647,
+    5000.3
    ]
   ]
  },
@@ -2681,15 +2685,19 @@
    [
     1792821056,
     4923.96
+   ],
+   [
+    1792821647,
+    4923.96
    ]
   ],
   "news": {
    "score": -0.1,
-   "confidence": 0.35,
-   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep ve 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 k\u0131sa vadeli bask\u0131 yarat\u0131yor, Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik ise y\u00f6n vermiyor. \u0130ran'daki gerilim ve \"Epic Fury\" uyar\u0131lar\u0131 jeopolitik g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir.",
+   "confidence": 0.3,
+   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc; alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k zay\u0131f talep konu\u015fulurken, dolar\u0131n hafif y\u00fckseli\u015fi ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi temkin alt\u0131n i\u00e7in hafif negatif. \u0130ran sava\u015f\u0131 ve \"Epic Fury\" uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu tehdit tekrar eden ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1792821053230,
-   "new_headlines": 4,
+   "ts": 1792821645458,
+   "new_headlines": 1,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc, 3 ayl\u0131k dip",
     "Petrol fiyatlar\u0131 y\u00fckseldi, enflasyon ve faiz endi\u015fesi artt\u0131",
@@ -4085,11 +4093,20 @@
     "new": 4,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792821645458,
+    "score": -0.1,
+    "confidence": 0.3,
+    "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc; alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k zay\u0131f talep konu\u015fulurken, dolar\u0131n hafif y\u00fckseli\u015fi ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi temkin alt\u0131n i\u00e7in hafif negatif. \u0130ran sava\u015f\u0131 ve \"Epic Fury\" uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu tehdit tekrar eden ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131.",
+    "new": 1,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 47
+   "n": 48
   },
   "news_seen": [
    "Domestic gold prices slide for third time in 10 days - The Financial Express",
@@ -4099,6 +4116,7 @@
    "Opinion | A stinky cheese tariff - The Washington Post",
    "How Brazil's changing working class is reshaping the presidential race",
    "The rise of AI election ads in US midterms campaign",
+   "Pirates rally to win 'War on 44' - chronicleonline.com",
    "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
    "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan\u2019s Joint Command & Control. - Futura Doctrina | Mick Ryan",
    "Gold rate today in Hyderabad, October 24, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
@@ -4135,13 +4153,10 @@
    "Australian MP's condition improves after alleged car attack",
    "Brewers captain Christian Yelich gives World Series tickets to World War II vets - Milwaukee Journal Sentinel",
    "Saudi-led coalition says ballistic missile aimed at Riyadh destroyed - Middle East Eye",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold Rate Today in Uttar Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Uttar Pradesh - Business Today"
   ]
  },
  "log": [
-  "23.10 05:20 N  NEWS (2 new) score -0.45 conf 0.60: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe geriledi. Orta Do\u011fu'daki Husi sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da, bu etki petrol kaynakl\u0131 faiz endi\u015felerinin gerisinde kal\u0131yor. ABD dolar\u0131 endeksindeki zay\u0131fl\u0131k (teknoloji kazan\u00e7lar\u0131) k\u0131smen destekleyici olsa da, genel tablo negatif.",
-  "23.10 05:32 N  NEWS (8 new) score -0.35 conf 0.50: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; alt\u0131n 3 ayl\u0131k dibe geriledi. Jeopolitik risk (\u0130ran sava\u015f\u0131, Husi f\u00fczesi) g\u00fcvenli liman talebini destekliyor ama bu etki piyasada b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Yeni gelen haberlerin \u00e7o\u011fu (Yemen, Murkowski, Dolly Parton vb.) alt\u0131nla ilgisiz; zay\u0131f ABD dolar\u0131 ise s\u0131n\u0131rl\u0131 destek sa\u011fl\u0131yor.",
   "23.10 05:32 B1  SHORT gold 5000 USD x10 @ 4032.37 (TP 4028.34, SL 4034.79; news -0.35)",
   "23.10 05:32 B2  CLOSE short stop: -11.19 USD",
   "23.10 05:42 B1  CLOSE short stop: -4.19 USD",
@@ -4439,7 +4454,9 @@
   "24.10 08:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 08:42 N  NEWS (4 new) score -0.15 conf 0.35: Alt\u0131n fiyat\u0131 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep haberleriyle birlikte momentumu negatif g\u00f6steriyor; dolarda hafif y\u00fckseli\u015f de bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \"yeni Epic Fury\" uyar\u0131lar\u0131 ve Ortado\u011fu'daki \u00e7at\u0131\u015fma riski jeopolitik g\u00fcvenli liman talebini destekleyebilir, ayr\u0131ca \u00e7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik y\u00fcksek; bu nedenle sinyal zay\u0131f ve kar\u0131\u015f\u0131k.",
   "24.10 08:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 08:50 N  NEWS (4 new) score -0.10 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep ve 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 k\u0131sa vadeli bask\u0131 yarat\u0131yor, Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik ise y\u00f6n vermiyor. \u0130ran'daki gerilim ve \"Epic Fury\" uyar\u0131lar\u0131 jeopolitik g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir."
+  "24.10 08:50 N  NEWS (4 new) score -0.10 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep ve 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 k\u0131sa vadeli bask\u0131 yarat\u0131yor, Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik ise y\u00f6n vermiyor. \u0130ran'daki gerilim ve \"Epic Fury\" uyar\u0131lar\u0131 jeopolitik g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir.",
+  "24.10 09:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 09:00 N  NEWS (1 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc; alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k zay\u0131f talep konu\u015fulurken, dolar\u0131n hafif y\u00fckseli\u015fi ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi temkin alt\u0131n i\u00e7in hafif negatif. \u0130ran sava\u015f\u0131 ve \"Epic Fury\" uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu tehdit tekrar eden ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131."
  ],
  "gold_big": {
   "account": {
@@ -5430,6 +5447,10 @@
    [
     1792821056,
     4964.78
+   ],
+   [
+    1792821647,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6369,6 +6390,10 @@
    [
     1792821056,
     4973.18
+   ],
+   [
+    1792821647,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7234,6 +7259,10 @@
    [
     1792821056,
     5000
+   ],
+   [
+    1792821647,
+    5000
    ]
   ]
  },
@@ -7829,6 +7858,10 @@
    [
     1792821056,
     4988.82
+   ],
+   [
+    1792821647,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -8381,6 +8414,10 @@
    [
     1792821056,
     5021.88
+   ],
+   [
+    1792821647,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -8802,6 +8839,10 @@
    ],
    [
     1792821056,
+    100000.0
+   ],
+   [
+    1792821647,
     100000.0
    ]
   ],
