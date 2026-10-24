@@ -1046,6 +1046,10 @@
    [
     1792827074,
     5000.3
+   ],
+   [
+    1792827612,
+    5000.3
    ]
   ]
  },
@@ -2769,15 +2773,19 @@
    [
     1792827074,
     4923.96
+   ],
+   [
+    1792827612,
+    4923.96
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.35,
+   "score": -0.1,
+   "confidence": 0.3,
    "reason": "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
    "n": 45,
-   "ts": 1792827071728,
-   "new_headlines": 9,
+   "ts": 1792827610263,
+   "new_headlines": 2,
    "key_events": [
     "Alt\u0131n 4.000 dolar deste\u011finin alt\u0131na indi; haftal\u0131k d\u00fc\u015f\u00fc\u015f ve zay\u0131f talep",
     "ABD dolar\u0131 hafif y\u00fckseldi (alt\u0131n i\u00e7in bask\u0131)",
@@ -4263,11 +4271,20 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792827610263,
+    "score": -0.1,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 2,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 57
+   "n": 58
   },
   "news_seen": [
    "Ukraine War, Day 1,703: Zelensky \u2014 Talks With Russia In November - EA WorldView",
@@ -4275,6 +4292,7 @@
    "Aden governor after escaping airport missile attack: hostilities will not deter people of Yemen - Arab News",
    "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
    "War years were a learning experience - The Greenwood Commonwealth",
+   "Growth to remain strong despite inflation headwinds - RBC",
    "War Centers on Donbas, Can Only End Through Diplomacy, Rubio Says - Kyiv Post",
    "St. Francis survives spirited Bellarmine challenge as Holy War wakes up the echoes of past battles - The Mercury News",
    "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
@@ -4286,23 +4304,22 @@
    "Gold Rate Today in Andhra Pradesh 24th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
    "Russia\u2019s Hot War on NATO: Airport Sabotage, Cruise Missiles & European Silence - Kyiv Post",
    "War update: 181 clashes on front lines over past day, heaviest fighting on Kostiantynivka axis - Ukrinform",
-   "Gold Rate Today Live, Latest 22 And 24 Carat Gold Price In India - NDTV Profit",
    "Domestic gold prices slide for third time in 10 days - The Financial Express",
    "Melania Trump says she brokered truce in war-torn Ukrainian city - The Japan Times",
    "Opinion | A stinky cheese tariff - The Washington Post",
    "Gold Prices Drop Ksh18,551 in One Week, CBK Reports - Kenyans.co.ke",
    "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-   "How popular is the Iran War? - Silver Bulletin",
    "Mike Waltz Says U.S.-Iran War Could Last Another Year as Brent Tops $117: how 11 outlets framed it - NewsCord",
+   "Russian army loses 1,980 troops, two air defense systems in Ukraine war over past day - Ukrinform",
    "Gold Prices Experience Significant Weekly Decline Amid Weak Demand - India News Network",
    "CARDINALS SET THEMSELVES APART IN HOLY WAR - Your Sports Network",
    "How Brazil's changing working class is reshaping the presidential race",
    "The rise of AI election ads in US midterms campaign",
    "Miliband says UK 'redoubling' diplomatic efforts to end Iran war - Middle East Eye",
    "Why Coeur Mining Fell Even As Profit Rose - Simply Wall Street",
-   "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
    "Chennai gold price rises by Rs 80 on October 24, 2026; check today's gold, silver rate - DT Next",
    "Communications Slowdowns, Seven Vivaldi Insights, More Sanctions Relief Possible for Putin, Taiwan\u2019s Joint Command & Control. - Futura Doctrina | Mick Ryan",
+   "How popular is the Iran War? - Silver Bulletin",
    "Gold rate today in Hyderabad, October 24, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
    "Rubio reveals theory on Russia's war against Ukraine ahead of next US peace push - The Kyiv Independent",
    "Union Civil War soldier finally gets grave marker - Ortonville Citizen",
@@ -4318,8 +4335,6 @@
   ]
  },
  "log": [
-  "23.10 07:20 N  NEWS (4 new) score -0.50 conf 0.60: Alt\u0131n \u00fc\u00e7 ayl\u0131k dibe yak\u0131n seyrediyor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek reel faizleri ve dolar\u0131 destekliyor, bu da alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Orta Do\u011fu ve Ukrayna kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebini art\u0131rabilse de, bu etki faiz beklentisi bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca dolar yeniden toparlan\u0131yor.",
-  "23.10 07:20 B1  SHORT gold 5000 USD x10 @ 4022.39 (TP 4018.36, SL 4024.80; news -0.50)",
   "23.10 07:29 N  NEWS (7 new) score -0.40 conf 0.55: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ya\u015f\u0131yor. Jeopolitik risk primi (K\u00f6rfez, Husi sald\u0131r\u0131lar\u0131) alt\u0131n\u0131 destekleyici olsa da piyasa bu haberlere bug\u00fcn enflasyon/faiz kanal\u0131yla tepki veriyor; bu nedenle net etki yukar\u0131dan a\u015fa\u011f\u0131ya bask\u0131lay\u0131c\u0131 g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n\u0131n bir miktar toparlanma g\u00f6stermesi ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n eski olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "23.10 07:34 N  NEWS (6 new) score -0.40 conf 0.55: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in alt\u0131n \u00fc\u00e7 ayl\u0131k dibe yak\u0131n ve haftal\u0131k d\u00fc\u015f\u00fc\u015f yolunda; bu, k\u0131sa vadede bask\u0131lay\u0131c\u0131 bir etki. Ancak baz\u0131 ba\u015fl\u0131klar tepki al\u0131m\u0131 ve dolar zay\u0131fl\u0131\u011f\u0131na i\u015faret ediyor ve \u0130ran sava\u015f\u0131 jeopolitik talebi destekliyor; bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "23.10 07:44 A  BUY ETHUSDT 1000 USD @ 2400.73 (RSI 40)",
@@ -4617,7 +4632,9 @@
   "24.10 10:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 10:19 N  NEWS (6 new) score -0.12 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131 ve Trump'\u0131n yeni sald\u0131r\u0131 tehditleri jeopolitik risk primi yarat\u0131p alt\u0131n\u0131 destekleyebilir, ancak petrol fiyat\u0131n\u0131n nisandan bu yana en y\u00fcksek seviyeye \u00e7\u0131kmas\u0131 enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini g\u00fc\u00e7lendirerek bu deste\u011fi s\u0131n\u0131rlar. Ayr\u0131ca \"alt\u0131n 4.000 dolar\u0131n alt\u0131na indi\", haftal\u0131k d\u00fc\u015f\u00fc\u015f ve dolar\u0131n hafif y\u00fckseli\u015fi k\u0131sa vadeli bask\u0131y\u0131 art\u0131r\u0131yor; yine de bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve \u00e7eli\u015fkili oldu\u011fundan g\u00fcvenim d\u00fc\u015f\u00fck.",
   "24.10 10:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 10:31 N  NEWS (9 new) score +0.10 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum."
+  "24.10 10:31 N  NEWS (9 new) score +0.10 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
+  "24.10 10:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 10:40 N  NEWS (2 new) score -0.10 conf 0.30: "
  ],
  "gold_big": {
   "account": {
@@ -5652,6 +5669,10 @@
    [
     1792827074,
     4964.78
+   ],
+   [
+    1792827612,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6635,6 +6656,10 @@
    [
     1792827074,
     4973.18
+   ],
+   [
+    1792827612,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7544,6 +7569,10 @@
    [
     1792827074,
     5000
+   ],
+   [
+    1792827612,
+    5000
    ]
   ]
  },
@@ -8183,6 +8212,10 @@
    [
     1792827074,
     4988.82
+   ],
+   [
+    1792827612,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -8779,6 +8812,10 @@
    [
     1792827074,
     5021.88
+   ],
+   [
+    1792827612,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -9244,6 +9281,10 @@
    ],
    [
     1792827074,
+    100000.0
+   ],
+   [
+    1792827612,
     100000.0
    ]
   ],
