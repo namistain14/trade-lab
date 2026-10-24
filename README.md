@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 09:49 (İstanbul)
+> Son güncelleme: 24.10.2026 10:01 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 09:49): Claude puan **-0.15**, güven 0.40 — Altın için karışık tablo var: İran savaşı, Husi füzeleri ve Trump'ın yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak petrol fiyatının nisandan bu yana en yüksek seviyeye çıkması enflasyon ve sıkı para politikası beklentilerini artırarak altın için olumsuz. Haberlerde altının haftalık düşüşü, 4.000 dolar desteğinin kırılması ve doların yükselişi de baskı yaratıyor; bu nedenle hafif negatif bir görünüm var, ancak birçok başlık tekrar niteliğinde olduğundan güven sınırlı.
+Son haber analizi (24.10 10:00): Claude puan **+0.10**, güven 0.30 — İran savaşının yeniden alevlenme riski ve petrolün Nisan'dan bu yana en yüksek seviyesi jeopolitik güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon baskısı faiz beklentilerini sertleştirip altı baskılayabilir. Ayrıca yeni haberlerin çoğu Hindistan perakende altın fiyatlarına ilişkin olup haftalık düşüş ve zayıf talep vurgusu taşıyor; Fed, dolar veya merkez bankası alımlarına dair net bir yeni veri yok, bu yüzden sinyal zayıf ve çelişkili.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 08:42 N  NEWS (4 new) score -0.15 conf 0.35: Altın fiyatı 4.000 dolar desteğinin altına inmiş ve haftalık düşüş, zayıf talep haberleriyle birlikte momentumu negatif gösteriyor; dolarda hafif yükseliş de baskı yaratıyor. Buna karşılık İran'a yönelik "yeni Epic Fury" uyarıları ve Ortadoğu'daki çatışma riski jeopolitik güvenli liman talebini destekleyebilir, ayrıca çarşamba günkü Fed toplantısı öncesi belirsizlik yüksek; bu nedenle sinyal zayıf ve karışık.
-24.10 08:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 08:50 N  NEWS (4 new) score -0.10 conf 0.35: Altın için karışık tablo var: haftalık düşüş, zayıf talep ve 4.000 dolar desteğinin kırılması kısa vadeli baskı yaratıyor, Fed toplantısı öncesi belirsizlik ise yön vermiyor. İran'daki gerilim ve "Epic Fury" uyarıları jeopolitik güvenli liman talebini destekleyebilir, ancak bu haberler kısmen fiyatlanmış ve etkisi sınırlı kalabilir.
 24.10 09:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 09:00 N  NEWS (1 new) score -0.10 conf 0.30: Başlıkların çoğu gürültü; altın 4.000 dolar desteğinin altına inmiş ve haftalık zayıf talep konuşulurken, doların hafif yükselişi ve Çarşamba günkü Fed toplantısı öncesi temkin altın için hafif negatif. İran savaşı ve "Epic Fury" uyarıları güvenli liman talebini destekleyebilir, ancak bu tehdit tekrar eden ve büyük ölçüde fiyatlanmış görünüyor, bu yüzden etkisi sınırlı.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 09:39 N  NEWS (4 new) score -0.15 conf 0.35: Altın için karışık tablo var: İran savaşı ve Husi füze saldırıları jeopolitik risk talebini destekliyor, ancak haberlerin çoğu altının haftalık düşüşünü, zayıf talebi, "4.000 doların altına inme" teknik satışını ve ABD dolarındaki yükselişi vurguluyor. Enflasyon baskısı haberleri de Fed'in sıkı kalabileceği beklentisini güçlendirip altı baskılayabilir. Bu nedenlerle kısa vadede hafif negatif, ama güven düşük bir görünüm.
 24.10 09:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 09:49 N  NEWS (5 new) score -0.15 conf 0.40: Altın için karışık tablo var: İran savaşı, Husi füzeleri ve Trump'ın yeni saldırı tehdidi güvenli liman talebini destekliyor, ancak petrol fiyatının nisandan bu yana en yüksek seviyeye çıkması enflasyon ve sıkı para politikası beklentilerini artırarak altın için olumsuz. Haberlerde altının haftalık düşüşü, 4.000 dolar desteğinin kırılması ve doların yükselişi de baskı yaratıyor; bu nedenle hafif negatif bir görünüm var, ancak birçok başlık tekrar niteliğinde olduğundan güven sınırlı.
+24.10 10:01 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 10:01 N  NEWS (15 new) score +0.10 conf 0.30: İran savaşının yeniden alevlenme riski ve petrolün Nisan'dan bu yana en yüksek seviyesi jeopolitik güvenli liman talebini destekliyor, ancak petrol kaynaklı enflasyon baskısı faiz beklentilerini sertleştirip altı baskılayabilir. Ayrıca yeni haberlerin çoğu Hindistan perakende altın fiyatlarına ilişkin olup haftalık düşüş ve zayıf talep vurgusu taşıyor; Fed, dolar veya merkez bankası alımlarına dair net bir yeni veri yok, bu yüzden sinyal zayıf ve çelişkili.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
