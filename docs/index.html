@@ -216,12 +216,12 @@ const TRADE_RAW="https://raw.githubusercontent.com/namistain14/trade-lab/main/st
 const TZ="Europe/Istanbul";
 const SERIES={lumo:{name:"Lumo",hero:"tilki",hist:"data/history.json",at:[6,17]},
               nubi:{name:"Nubi",hero:"küçük elektrikli araba",hist:"data/nubi/history.json",at:[7,17]},
-              you:{name:"You Are Here",hero:"POV Shorts",hist:"data/you/history.json",at:[12,17],at2:[19,17]}};
+              you:{name:"You Are Here",hero:"Hayatta Kal / Survive",hist:"data/you/history.json",at:[7,30],at2:[8,30]}};
 // every automatic worker, where it runs and when
 const AGENTS=[
   {id:"lumo",dom:"content",name:"Lumo",what:"Tilki hikâyesi (3-6 yaş) → YouTube gizli",repo:REPO,wf:"daily.yml",series:"lumo",at:[[6,17]]},
   {id:"nubi",dom:"content",name:"Nubi",what:"Elektrikli araba hikâyesi → YouTube gizli",repo:REPO,wf:"daily.yml",series:"nubi",at:[[7,17]]},
-  {id:"you",dom:"content",name:"You Are Here",what:"POV Shorts (What If / A Day As) → YouTube gizli",repo:REPO,wf:"daily.yml",series:"you",at:[[12,17],[19,17]]},
+  {id:"you",dom:"content",name:"You Are Here",what:"Hayatta Kal İstanbul (TR) + Survive New York (EN) dizileri, yorumda A/B oylama → YouTube gizli",repo:REPO,wf:"daily.yml",series:"you",at:[[7,30],[8,30]]},
   {id:"status",dom:"company",name:"Panel verisi",short:"Panel",what:"Jarvis için durum toplar",repo:REPO,wf:"status.yml",at:[[8,41]],extra:"+ her koşudan sonra"},
   {id:"tick",dom:"trade",iv:5,name:"Trade botları (A-B5)",short:"Botlar A-B5",what:"Sanal alım-satım kontrolü",repo:TRADE,wf:"tick.yml",every:"5 dk",stale:25},
   {id:"report",dom:"trade",name:"Trade raporu",short:"Rapor",what:"Günlük bot raporu",repo:TRADE,wf:"report.yml",at:[[21,5]]},
@@ -229,7 +229,9 @@ const AGENTS=[
   {id:"sales",dom:"company",name:"Satış özeti",short:"Satış",what:"Son 12 saat satış → Telegram",repo:OPS,wf:"sales.yml",at:[[8,30],[20,30]]},
   {id:"igsync",dom:"content",iv:60,name:"Instagram yayıncı",short:"Instagram",what:"YouTube'da yayına alınan video → Instagram Reel (@vumeloostudios, @youarehere.shorts)",repo:REPO,wf:"ig_sync.yml",every:"saat başı (07-23)",stale:150,hours:[8,23]},
   {id:"b6",dom:"trade",iv:15,name:"B6 ABD hisse botu",short:"B6 ABD",what:"Alpaca sanal hesap · Claude Opus + GPT-6.1 Sol hemfikirse işlem (16:30-23:00)",repo:TRADE,wf:"tick.yml",every:"15 dk karar"},
-  {id:"seo",dom:"company",name:"SEO ajanı",short:"SEO",what:"Ürün açıklaması (Claude yazar, GPT doğrular) → namistain.com",repo:OPS,wf:"seo.yml",at:[[10,7]]}];
+  {id:"seo",dom:"company",name:"SEO ajanı",short:"SEO",what:"Ürün açıklaması (Claude yazar, GPT doğrular) → namistain.com",repo:OPS,wf:"seo.yml",at:[[10,7]]},
+  {id:"dm",dom:"company",name:"DM asistanı",short:"DM",what:"Instagram + WhatsApp mesajlarına Excel listelerinden direkt cevap (Cloudflare kurulumu bekliyor)",repo:OPS,wf:"dm-deploy.yml",manual:"kurulum bekliyor"},
+  {id:"accounts",dom:"company",name:"Hesap kontrolü",short:"Hesaplar",what:"Kling, OpenAI, ElevenLabs, Claude bakiyesi ve anahtar testi",repo:REPO,wf:"accounts.yml",manual:"istenince"}];
 const IG_TOKEN_EXPIRES="2026-12-22";
 const BOTS=[["crypto_rules","A","Kripto kurallar"],["crypto_bounce","A2","Kripto düşüş sonrası"],
             ["gold_news","B1","Altın + haber"],["gold_big","B2","Altın sıkı eşik"],
