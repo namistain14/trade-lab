@@ -1090,6 +1090,10 @@
    [
     1792833032,
     5000.3
+   ],
+   [
+    1792833472,
+    5000.3
    ]
   ]
  },
@@ -2857,15 +2861,19 @@
    [
     1792833032,
     4923.96
+   ],
+   [
+    1792833472,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.4,
-   "reason": "\u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanmas\u0131na dair jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f ve teknik g\u00f6r\u00fcn\u00fcm (ay\u0131 bo\u015fluklar\u0131) zay\u0131f. Petrol fiyatlar\u0131n\u0131n y\u00fckseli\u015fi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle hafif negatif bir e\u011filim var.",
+   "score": -0.15,
+   "confidence": 0.35,
+   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran'daki yeniden t\u0131rman\u0131\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n bu jeopolitik haberlere ra\u011fmen d\u00fc\u015f\u00fcyor, bu da faiz ve dolar etkisinin bask\u0131n oldu\u011funu g\u00f6steriyor. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131 bask\u0131layabilir; Trump-Fed gerilimi ise tersine alt\u0131 destekleyebilir. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenilirlikle.",
    "n": 45,
-   "ts": 1792833029805,
-   "new_headlines": 15,
+   "ts": 1792833469442,
+   "new_headlines": 7,
    "key_events": [
     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; teknik sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor",
     "Trump'\u0131n \u0130ran'a yeni sald\u0131r\u0131 tehdidi (g\u00fcvenli liman talebini destekliyor)",
@@ -4441,24 +4449,34 @@
     "new": 15,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1792833469442,
+    "score": -0.15,
+    "confidence": 0.35,
+    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran'daki yeniden t\u0131rman\u0131\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n bu jeopolitik haberlere ra\u011fmen d\u00fc\u015f\u00fcyor, bu da faiz ve dolar etkisinin bask\u0131n oldu\u011funu g\u00f6steriyor. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131 bask\u0131layabilir; Trump-Fed gerilimi ise tersine alt\u0131 destekleyebilir. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenilirlikle.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-24",
-   "n": 67
+   "n": 68
   },
   "news_seen": [
+   "Could silver rebound in 2027? What experts predict will happen next - USA Today",
+   "Trump-Fed Tensions Could Reignite, Weighing on US Stocks - bloomingbit",
    "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "Don\u2019t pretend the \u2018War on Drugs\u2019 has anything to do with fighting drugs - Monthly Review",
    "Trump\u2019s Iran War Treats American Farmers Like Collateral Damage - Inkstick Media",
    "World gold prices sink into red, the risk of deep decline is still present - Laodong.vn",
-   "Flames of War Against Iran Spread to the Streets of Europe - WANA News Agency",
    "Gold price falls below $4,000 - Apa.az",
-   "Gold Rate Today In Guwahati, Check Live 22 And 24 Carat Gold Price - NDTV Profit",
-   "The Russians Behind the Wire: Prisoner of War Camps in the Shadow of Lviv - www.lvivherald.com",
+   "Trumpy Tech Boss Breeding \u2018Genetically Enhanced\u2019 War Dogs - The Daily Beast",
    "From Hormuz to data centers: How Iran\u2019s threats are raising stakes of renewed war - Al-Monitor",
    "Trump threatens new attacks on Iran amid regional, European wariness of war - The Arab Weekly",
    "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
-   "Fred McKinney (opinion): The lessons of America's Forgotten War - Stamford Advocate",
+   "Fred McKinney (opinion): The lessons of America's Forgotten War - CT Insider",
    "Coeur Mining: The Cost Trick Every Silver Investor Should Understand (NYSE:CDE) - Seeking Alpha",
    "Inflation, earnings reports and the mood of consumers and the Federal Reserve fill out a busy week - WTOP News",
    "Gold Rate Today October 24: Check latest Gold prices in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur, Lucknow, Chandigarh & Other Cities - BusinessLine",
@@ -4470,17 +4488,16 @@
    "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel - Naval News",
    "Sami Zayn cheap shots Trick Williams in a fierce war of words: SmackDown highlights, Oct. 23, 2026 - WWE",
    "Gold and silver rate today (October 24, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA - The Economic Times",
-   "U.S. Air Force details $20.7B AMRAAM missile contract - The Defence Blog",
+   "Aden governor after escaping airport missile attack: hostilities will not deter people of Yemen - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "Gold, silver prices today, 24 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai - Livemint",
    "Ukraine War, Day 1,703: Zelensky \u2014 Talks With Russia In November - EA WorldView",
    "US Says Threat to Americans Highest Since Iran War Began - Kurdistan24",
-   "Aden governor after escaping airport missile attack: hostilities will not deter people of Yemen - Arab News",
    "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
    "21-Karat gold drops to JD81.40 per gram Saturday - Ammon News",
    "War years were a learning experience - The Greenwood Commonwealth",
    "Growth to remain strong despite inflation headwinds - RBC",
+   "Gold prices today, October 24th, experience an unusual plunge, retesting the $4,000 mark. Experts decipher the strange market developments. - Vietnam.vn",
    "War Centers on Donbas, Can Only End Through Diplomacy, Rubio Says - Kyiv Post",
-   "Houthi Missile Targets Khamis Mushait Air Base - https://houseofsaud.com/",
    "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
    "St. Francis survives spirited Bellarmine challenge as Holy War wakes up the echoes of past battles - The Mercury News",
    "US War on Iran, Day 240: Oil Hits Highest Price Since April - EA WorldView",
@@ -4496,8 +4513,6 @@
   ]
  },
  "log": [
-  "23.10 09:29 N  NEWS (7 new) score -0.60 conf 0.70: Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve dolar g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na, Temmuz'dan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi. Hormuz'daki sald\u0131r\u0131lar jeopolitik destek sa\u011flasa da enflasyon/faiz kanal\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
-  "23.10 09:41 N  NEWS (10 new) score -0.60 conf 0.60: Petrol kaynakl\u0131 enflasyon endi\u015feleri Fed faiz art\u0131r\u0131m\u0131 beklentilerini canland\u0131r\u0131yor ve BofA'n\u0131n 2026'da iki kez daha art\u0131r\u0131m \u00f6ng\u00f6r\u00fcs\u00fc alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip temmuzdan bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; ancak d\u00fc\u015f\u00fc\u015f zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011finden ve yeni gelen ABD'nin 'karanl\u0131k filo' yapt\u0131r\u0131mlar\u0131n\u0131 kald\u0131rmas\u0131 gibi haberler petrol arz\u0131n\u0131 gev\u015fetip enflasyon bask\u0131s\u0131n\u0131 azaltabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.10 09:41 B1  SHORT gold 5000 USD x10 @ 4028.45 (TP 4024.43, SL 4030.87; news -0.60)",
   "23.10 09:41 B2  SHORT gold 5000 USD x10 @ 4028.45 (TP 4016.37, SL 4036.51; news -0.60)",
   "23.10 09:50 A  CLOSE ETHUSDT time limit: +0.30 USD",
@@ -4795,7 +4810,9 @@
   "24.10 12:01 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 12:01 N  NEWS (9 new) score -0.25 conf 0.45: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran sava\u015f\u0131 ve Brent'in 117 dolar \u00fczerine \u00e7\u0131kmas\u0131 enflasyon kayg\u0131s\u0131n\u0131 art\u0131r\u0131p Fed'in s\u0131k\u0131 kalma beklentisini destekliyor, bu da alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015fa ba\u011fl\u0131 g\u00fcvenli liman talebi ise fiyat\u0131 desteklemek yerine y\u00fckselmiyor, bu da piyasan\u0131n \u015fu an reel faiz/dolar kanal\u0131n\u0131 \u00f6ne ald\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Fed faiz indirimi beklentisine dair haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "24.10 12:10 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 12:10 N  NEWS (15 new) score -0.20 conf 0.40: \u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanmas\u0131na dair jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f ve teknik g\u00f6r\u00fcn\u00fcm (ay\u0131 bo\u015fluklar\u0131) zay\u0131f. Petrol fiyatlar\u0131n\u0131n y\u00fckseli\u015fi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle hafif negatif bir e\u011filim var."
+  "24.10 12:10 N  NEWS (15 new) score -0.20 conf 0.40: \u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanmas\u0131na dair jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f ve teknik g\u00f6r\u00fcn\u00fcm (ay\u0131 bo\u015fluklar\u0131) zay\u0131f. Petrol fiyatlar\u0131n\u0131n y\u00fckseli\u015fi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle hafif negatif bir e\u011filim var.",
+  "24.10 12:17 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "24.10 12:17 N  NEWS (7 new) score -0.15 conf 0.35: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran'daki yeniden t\u0131rman\u0131\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n bu jeopolitik haberlere ra\u011fmen d\u00fc\u015f\u00fcyor, bu da faiz ve dolar etkisinin bask\u0131n oldu\u011funu g\u00f6steriyor. Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131 bask\u0131layabilir; Trump-Fed gerilimi ise tersine alt\u0131 destekleyebilir. Net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenilirlikle."
  ],
  "gold_big": {
   "account": {
@@ -5874,6 +5891,10 @@
    [
     1792833032,
     4964.78
+   ],
+   [
+    1792833472,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -6901,6 +6922,10 @@
    [
     1792833032,
     4973.18
+   ],
+   [
+    1792833472,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -7854,6 +7879,10 @@
    [
     1792833032,
     5000
+   ],
+   [
+    1792833472,
+    5000
    ]
   ]
  },
@@ -8537,6 +8566,10 @@
    [
     1792833032,
     4988.82
+   ],
+   [
+    1792833472,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -9177,6 +9210,10 @@
    [
     1792833032,
     5021.88
+   ],
+   [
+    1792833472,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -9686,6 +9723,10 @@
    ],
    [
     1792833032,
+    100000.0
+   ],
+   [
+    1792833472,
     100000.0
    ]
   ],
