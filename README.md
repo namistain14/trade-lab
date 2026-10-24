@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 07:41 (İstanbul)
+> Son güncelleme: 24.10.2026 07:51 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,7 +42,7 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 07:39): Claude puan **-0.25**, güven 0.40 — Altın 4.000 dolar desteğinin altına inmiş ve haberlerde satış baskısı ile düşüş momentumu öne çıkıyor; ayrıca doların hafif yükselişi ve çarşamba günkü Fed toplantısı öncesindeki enflasyon baskısı kısa vadede altı aşağı çekebilir. Orta Doğu'daki İran savaşı ve Suudi Arabistan'a yönelik füze saldırıları jeopolitik risk primi sağlasa da bu etki zaten fiyatlanmış görünüyor ve tek başına yukarı yönlü bir hareket için yeterli değil.
+Son haber analizi (24.10 07:51): Claude puan **-0.10**, güven 0.40 — Altın 4.000 dolar desteğinin altına inmiş ve haberlerde satış baskısı ile düşüş momentumu öne çıkıyor; ayrıca doların hafif yükselişi ve çarşamba günkü Fed toplantısı öncesindeki enflasyon baskısı kısa vadede altı aşağı çekebilir. Orta Doğu'daki İran savaşı ve Suudi Arabistan'a yönelik füze saldırıları jeopolitik risk primi sağlasa da bu etki zaten fiyatlanmış görünüyor ve tek başına yukarı yönlü bir hareket için yeterli değil.
 
 Son işlemler:
 
@@ -143,8 +143,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 06:22 N  NEWS (13 new) score -0.15 conf 0.35: Altın 4.000 dolar desteğinin altına inmiş ve yeni haberler sert düşüşü yansıtıyor; dolarda hafif yukarı hareket ve enflasyon baskısına dair başlıklar Fed'in sıkı duruşu beklentisini destekleyerek altı baskılıyor. Öte yandan İran/ABD savaşının yeniden başlama riski ve petrolün altı aylık zirvesi güvenli liman talebini bir miktar destekleyebilir; bu karşıt sinyaller güveni sınırlıyor.
-24.10 06:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 06:31 N  NEWS (13 new) score -0.10 conf 0.30: 
 24.10 06:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 06:42 N  NEWS (5 new) score +0.10 conf 0.35: İran ile ilgili yeni tırmanış haberleri (Trump'ın "küçük bir epik öfke" uyarısı, US saldırıları ve ambargo) güvenli liman talebini hafif destekliyor. Ancak altın 4.000 doların altına inmiş ve dolar yukarı tick yapıyor; ayrıca Çarşamba Fed toplantısı öncesi belirsizlik var, bu da kısa vadede yön konusunda temkin gerektiriyor.
@@ -158,6 +156,8 @@ Son işlemler:
 24.10 07:30 N  NEWS (4 new) score -0.15 conf 0.40: Altın 4.000 dolar desteğinin altına inmiş ve düşüş momentumu sürüyor; dolar hafif yükseliyor ve enflasyonun yüksek kalması Fed'in sıkı duruşu beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık İran'a yönelik "saldırı" uyarıları ve Orta Doğu'daki füze saldırıları güvenli liman talebini artırabilir, ancak Trump'ın savaşı hızlıca bitirme seçeneğini tartması bu etkiyi sınırlıyor; sinyaller çelişkili olduğu için güven düşük.
 24.10 07:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 07:39 N  NEWS (7 new) score -0.25 conf 0.40: Altın 4.000 dolar desteğinin altına inmiş ve haberlerde satış baskısı ile düşüş momentumu öne çıkıyor; ayrıca doların hafif yükselişi ve çarşamba günkü Fed toplantısı öncesindeki enflasyon baskısı kısa vadede altı aşağı çekebilir. Orta Doğu'daki İran savaşı ve Suudi Arabistan'a yönelik füze saldırıları jeopolitik risk primi sağlasa da bu etki zaten fiyatlanmış görünüyor ve tek başına yukarı yönlü bir hareket için yeterli değil.
+24.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+24.10 07:51 N  NEWS (8 new) score -0.10 conf 0.40: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
