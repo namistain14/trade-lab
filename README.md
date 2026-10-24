@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.10.2026 16:47 (İstanbul)
+> Son güncelleme: 24.10.2026 17:11 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -42,9 +42,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (24.10 16:47): Claude puan **-0.50**, güven 0.60 — Altın 4.000 doların altına düşerek üç aylık en düşük seviyeyi gördü; güçlenen dolar ve faiz artırımı beklentileri (petrol fiyatlarının yükselmesiyle körüklenen enflasyon kaygısı) baskı oluşturuyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebini desteklemek yerine şu an sınırlı etki yaratıyor; bu nedenle kısa vadeli görünüm negatif, ancak haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
+Son haber analizi (24.10 17:11): Claude puan **-0.45**, güven 0.55 — Altın 4.000 doların altına indi, üç aylık en düşük seviyede ve haftayı en kötü haftalardan biri olarak kapattı. Petrol fiyatlarının yükselmesi ve faiz artırımı beklentileri, güçlenen dolarla birlikte altın için baskı oluşturuyor. Öte yandan İran savaşı ve Ukrayna haberleri jeopolitik risk talebini destekliyor, Hürmüz üzerinden petrol akışının artması ise enflasyon baskısını azaltabilir; bu nedenle güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.45**, güven 0.58 — Altının 4.000 doların altına gerilemesi ve güçlü dolar ile petrol kaynaklı faiz artışı beklentilerinin baskısı, kısa vadede düşüş eğilimini destekliyor. Jeopolitik riskler güvenli liman talebi yaratabilir; ancak haberler karışık ve bu risklerin altına şu an belirgin destek verdiği görünmüyor.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.48 — Altın için kısa vadede güçlü dolar ve petrol fiyatlarının faiz artışı beklentilerini beslemesi baskı yaratıyor; fiyatın 4.000 doların altına gerilediğine dair haberler bu görünümü destekliyor. Yeni jeopolitik başlıklar güvenli liman talebini sınırlı ölçüde artırabilir, ancak yakın vadede net bir tır
 
 Son işlemler:
 
@@ -145,8 +145,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 13:13 N  NEWS (6 new) score -0.15 conf 0.40: Jeopolitik risk (İran'a yeni saldırı tehditleri, Baluç isyanı) güvenli liman talebini destekliyor, ancak haberlerde altının 4.000 doların altına düşmesi, marjin çağrıları, petrol kaynaklı enflasyon ve Fed'in beklemede kalma olasılığı baskın görünüyor; bu da kısa vadede faiz beklentileri üzerinden altı aşağı çekebilir. Savaş haberleri zaten fiyatlanmış ve bazıları çelişkili olduğu için güven düşük.
-24.10 13:21 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 13:21 N  NEWS (7 new) score -0.10 conf 0.35: Altının 4.000 doların altına inmesi ve teknik görünümdeki düşüş baskısı kısa vadede hafif negatif. İran savaşının yeniden tırmanma riski ve enflasyon beklentilerinin yükselmesi güvenli liman ve reel faiz tarafında destek sağlayabilir, ancak bu haberlerin çoğu zaten fiyatlanmış ve gold'un bu gelişmelere rağmen düşmesi yukarı yönlü tepkiyi sınırlıyor. Güvenilirlik düşük çünkü yeni haberlerin çoğu gürültü niteliğinde.
 24.10 13:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 24.10 13:55 N  NEWS (7 new) score +0.10 conf 0.30: 
@@ -160,6 +158,8 @@ Son işlemler:
 24.10 16:13 N  GPT  score -0.22 conf 0.39: Altının 4.000 doların altına düşmesi ve haftalık sert kayıp kısa vadeli aşağı yönlü momentuma işaret ediyor. İran savaşı kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak Körfez’den petrol akışının savaş öncesini aşması arz endişelerini hafifletiyor ve haber akışı karışık.
 24.10 16:47 N  NEWS (13 new) score -0.50 conf 0.60: Altın 4.000 doların altına düşerek üç aylık en düşük seviyeyi gördü; güçlenen dolar ve faiz artırımı beklentileri (petrol fiyatlarının yükselmesiyle körüklenen enflasyon kaygısı) baskı oluşturuyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebini desteklemek yerine şu an sınırlı etki yaratıyor; bu nedenle kısa vadeli görünüm negatif, ancak haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 24.10 16:47 N  GPT  score -0.45 conf 0.58: Altının 4.000 doların altına gerilemesi ve güçlü dolar ile petrol kaynaklı faiz artışı beklentilerinin baskısı, kısa vadede düşüş eğilimini destekliyor. Jeopolitik riskler güvenli liman talebi yaratabilir; ancak haberler karışık ve bu risklerin altına şu an belirgin destek verdiği görünmüyor.
+24.10 17:11 N  NEWS (8 new) score -0.45 conf 0.55: Altın 4.000 doların altına indi, üç aylık en düşük seviyede ve haftayı en kötü haftalardan biri olarak kapattı. Petrol fiyatlarının yükselmesi ve faiz artırımı beklentileri, güçlenen dolarla birlikte altın için baskı oluşturuyor. Öte yandan İran savaşı ve Ukrayna haberleri jeopolitik risk talebini destekliyor, Hürmüz üzerinden petrol akışının artması ise enflasyon baskısını azaltabilir; bu nedenle güven orta düzeyde tutuldu.
+24.10 17:11 N  GPT  score -0.20 conf 0.48: Altın için kısa vadede güçlü dolar ve petrol fiyatlarının faiz artışı beklentilerini beslemesi baskı yaratıyor; fiyatın 4.000 doların altına gerilediğine dair haberler bu görünümü destekliyor. Yeni jeopolitik başlıklar güvenli liman talebini sınırlı ölçüde artırabilir, ancak yakın vadede net bir tır
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
