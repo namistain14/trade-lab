@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import bots  # noqa: E402
+import market  # noqa: E402
 import paper  # noqa: E402
 import stocks  # noqa: E402
 
@@ -101,6 +102,24 @@ def main() -> None:
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip() or None
     b = cfg["bots"]
     errors = []
+    # Erdem's one-off paper orders (config "manual_orders"): opened once at the market price, held for N hours
+    done = st.setdefault("manual_done", [])
+    for mo in cfg.get("manual_orders") or []:
+        if mo["id"] in done:
+            continue
+        try:
+            bc = b[mo["bot"]]
+            acc = st[mo["bot"]]["account"]
+            px = market.klines(mo["symbol"], "1m", 5)[-1]["c"] * (1 + bc["slippage_rate"])
+            usd = float(mo["usd"])
+            paper.open_position(acc, symbol=mo["symbol"], side="long", price=px, qty=usd / px, tp=px * 100, sl=0.0,
+                                t_ms=int(dt.datetime.now().timestamp() * 1000), entry_cost=usd * bc["fee_rate"],
+                                max_hold_min=int(float(mo["hold_hours"]) * 60), margin=usd,
+                                note=mo.get("note", "Erdem'in elle verdiği alım"))
+            log.append(f"{bc.get('tag', mo['bot'])}  BUY {mo['symbol']} {usd:.0f} USD @ {px:.2f} (elle, {mo['hold_hours']} saat tut)")
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"manual {mo['id']}: {e}")
+        done.append(mo["id"])
     # the first gold bot ("gold_news") reads the news; the other gold bots share its view
     order = sorted(b, key=lambda n: (b[n].get("type", n) != "crypto_rules", n != "gold_news"))
     for name in order:

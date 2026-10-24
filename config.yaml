@@ -182,3 +182,12 @@ news:
 report:
   model: "claude-sonnet-5-5"  # daily performance review
   gpt_models: ["gpt-6.1-sol", "gpt-6-astra"]   # independent second opinion at the end of the report
+
+# Erdem's one-off paper orders (opened once by the next tick at the market price; no take-profit / stop-loss)
+manual_orders:
+  - id: "btc-1000-2410"
+    bot: crypto_rules
+    symbol: BTCUSDT
+    usd: 1000
+    hold_hours: 24
+    note: "Erdem 24.10 17:25: 1000 $ BTC al, yarına kadar tut"
