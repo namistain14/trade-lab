@@ -1,25 +1,26 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 09:13 (İstanbul)
+> Son güncelleme: 25.10.2026 10:05 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +0.30 $ |
-| İşlem sayısı | 0 | 1 |
-| Kazanma oranı | %0.0 | %100.0 |
-| Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
+| Net kâr/zarar | -6.29 $ | -6.00 $ |
+| İşlem sayısı | 1 | 2 |
+| Kazanma oranı | %0.0 | %50.0 |
+| Ödenen komisyon/spread | 2.00 $ | 4.00 $ |
 
-**Hesap değeri: 5,005.25 $** (başlangıç 5,000 $, +5.25 $ / %+0.11)
+**Hesap değeri: 4,999.41 $** (başlangıç 5,000 $, -0.59 $ / %-0.01)
 
-Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00); SOLUSDT long @ 101.81 (TP 102.42 / SL 101.40)
+Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 25.10 09:51 | SOLUSDT | long | -6.29 $ | stop |
 | 23.10 09:46 | ETHUSDT | long | +0.30 $ | time limit |
 
 ## Bot A2 — Kripto: sert düşüş sonrası toparlanma (spot, kaldıraçsız)
@@ -50,9 +51,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (25.10 09:13): Claude puan **-0.15**, güven 0.35 — İran savaşı ve Husi füze saldırıları jeopolitik risk primini destekliyor, ancak Fed'in "şahin duraklama" beklentisi, 116 dolarlık petrol kaynaklı enflasyon baskısı ve son haftada yaşanan yaklaşık %4'lük altın düşüşü kısa vadede altını baskılıyor. Bu sinyaller çelişkili olduğu için yönsel etki hafif negatif ve düşük güvenle değerlendirildi.
+Son haber analizi (25.10 10:05): Claude puan **-0.20**, güven 0.40 — İran savaşı ve Husi füze saldırıları jeopolitik risk primini destekliyor, ancak Fed'in "şahin duraklama" beklentisi, 116 dolarlık petrol kaynaklı enflasyon baskısı ve son haftada yaşanan yaklaşık %4'lük altın düşüşü kısa vadede altını baskılıyor. Bu sinyaller çelişkili olduğu için yönsel etki hafif negatif ve düşük güvenle değerlendirildi.
 
-GPT (gpt-6-luna): puan **+0.08**, güven 0.31 — Riyad’a yönelen Husi füzesinin önlenmesi jeopolitik risk algısını sınırlı ölçüde artırabilir; ancak saldırı etkisiz kaldı. Fed’in beklenen faizleri sabit tutması ve önceki düşüş eğilimi altındaki yukarı yönlü etkiyi dengeliyor.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.42 — Riyad’a yönelen füze ve Husilerin saldırıları kısa vadeli güvenli liman talebini destekleyebilir. Ancak altındaki sert düşüş haberleri ve Fed’e dair yeni bir karar ya da faiz sinyali bulunmaması yönü belirsizleştiriyor.
 
 Son işlemler:
 
@@ -153,9 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 05:53 N  NEWS (12 new) score -0.20 conf 0.40: Yeni haberlerde Fed'in Ekim'de faiz sabitlemesi ama Aralık'ta artırım tartışması, altın üzerinde baskılayıcı bir faiz beklentisi yaratıyor. İran'a yönelik olası ABD saldırısı haberi güvenli liman talebini destekliyor, ancak savaş temalı haberlerin çoğu tekrarlayan ve büyük ölçüde fiyatlanmış nitelikte; bu nedenle net etki hafif negatif.
-25.10 05:53 N  GPT  score +0.20 conf 0.38: İran’a olası saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir; ancak Fed’in aralıkta faiz artırabileceği beklentisi altın üzerinde baskı yaratıyor. Haberlerin önemli kısmı tekrarlı veya ileriye dönük olduğundan net etki ve güven sınırlı.
-25.10 06:23 N  NEWS (11 new) score -0.15 conf 0.45: İran'a yönelik olası ABD saldırısı haberleri jeopolitik risk primini destekliyor, ancak Fed'in ekimde faizi sabit tutup aralıkta artırım ihtimalini tartışması reel faiz ve dolar beklentilerini sıkılaştırarak altı baskılıyor. Altın fiyatlarının haftalık düşüş eğilimi de bu nedenle kısa vadede hafif negatif bir görünüm veriyor; güvenli liman talebinin etkisi çelişkili olduğu için güven düşük.
 25.10 06:23 N  GPT  score +0.25 conf 0.40: İran’ın olası ABD saldırısına yönelik sert uyarıları ve Ukrayna’daki çatışmalar güvenli liman talebini destekleyebilir; ancak yakın vadede yeni bir saldırı doğrulanmış değil. Altının son dönemdeki düşüşü ve haber akışındaki tekrarlar yükseliş etkisini sınırlıyor.
 25.10 07:01 N  NEWS (9 new) score +0.10 conf 0.40: ABD-İran savaş riski ve Suudi Arabistan'a yönelik Husi füzesi gibi jeopolitik gerilim, güvenli liman talebi nedeniyle altı hafif destekliyor. Ancak Fed'in ekimde faiz sabit tutup aralıkta artırım tartışması, yüksek enerji maliyetleri ve güçlü dolar/ piyasa beklentileri altın için baskı yaratıyor; ayrıca birçok başlık eski ve zaten fiyatlanmış haber niteliğinde olduğundan etki sınırlı.
 25.10 07:01 N  GPT  score +0.24 conf 0.34: Riyad’a yönelen Husi füzesinin düşürülmesi ve süren İran gerilimi kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in faizi sabit tutacağı beklentisi büyük ölçüde fiyatlanmış görünüyor; manşetlerin çoğu yeni veya doğrudan fiyat belirleyici değil.
@@ -168,6 +166,9 @@ Son işlemler:
 25.10 09:13 A  BUY SOLUSDT 1000 USD @ 101.81 (RSI 38)
 25.10 09:13 N  NEWS (16 new) score -0.15 conf 0.35: İran savaşı ve Husi füze saldırıları jeopolitik risk primini destekliyor, ancak Fed'in "şahin duraklama" beklentisi, 116 dolarlık petrol kaynaklı enflasyon baskısı ve son haftada yaşanan yaklaşık %4'lük altın düşüşü kısa vadede altını baskılıyor. Bu sinyaller çelişkili olduğu için yönsel etki hafif negatif ve düşük güvenle değerlendirildi.
 25.10 09:13 N  GPT  score +0.08 conf 0.31: Riyad’a yönelen Husi füzesinin önlenmesi jeopolitik risk algısını sınırlı ölçüde artırabilir; ancak saldırı etkisiz kaldı. Fed’in beklenen faizleri sabit tutması ve önceki düşüş eğilimi altındaki yukarı yönlü etkiyi dengeliyor.
+25.10 10:05 A  CLOSE SOLUSDT stop: -6.29 USD
+25.10 10:05 N  NEWS (21 new) score -0.20 conf 0.40: 
+25.10 10:05 N  GPT  score +0.25 conf 0.42: Riyad’a yönelen füze ve Husilerin saldırıları kısa vadeli güvenli liman talebini destekleyebilir. Ancak altındaki sert düşüş haberleri ve Fed’e dair yeni bir karar ya da faiz sinyali bulunmaması yönü belirsizleştiriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
