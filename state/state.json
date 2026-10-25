@@ -1341,6 +1341,10 @@
    [
     1792923475,
     4997.28
+   ],
+   [
+    1792925527,
+    4995.23
    ]
   ]
  },
@@ -3324,28 +3328,32 @@
    [
     1792923475,
     4923.96
+   ],
+   [
+    1792925527,
+    4923.96
    ]
   ],
   "news": {
-   "score": 0.1,
+   "score": 0.15,
    "confidence": 0.3,
    "reason": "Yeni ba\u015fl\u0131klarda jeopolitik risk (\u0130ran'a yeni ABD sald\u0131r\u0131s\u0131 endi\u015fesi, Husilerin Riyad'a f\u00fcze sald\u0131r\u0131s\u0131) alt\u0131na g\u00fcvenli liman talebini hafif destekliyor. Ancak Fed karar\u0131, ABD GSY\u0130H ve \u00e7ekirdek PCE verilerinin yak\u0131n olmas\u0131 ve Rusya dizeli \u00fczerindeki anla\u015fman\u0131n petrol fiyatlar\u0131n\u0131 bask\u0131layabilmesi, faiz beklentileri y\u00f6n\u00fcnden belirsizlik yarat\u0131yor; bu nedenle net y\u00f6n zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792923472037,
-   "new_headlines": 21,
+   "ts": 1792925525049,
+   "new_headlines": 18,
    "key_events": [
     "Fed Ekim'de faizi sabit tutabilir, Aral\u0131k'ta art\u0131r\u0131m tart\u0131\u015f\u0131l\u0131yor (bask\u0131lay\u0131c\u0131)",
     "Trump: \u0130ran'a sald\u0131r\u0131 yar\u0131n m\u00fcmk\u00fcn (g\u00fcvenli liman deste\u011fi)",
     "Alt\u0131n fiyatlar\u0131 y\u00fcksek faiz beklentisiyle d\u00fc\u015f\u00fc\u015fte (zaten fiyatlanm\u0131\u015f)"
    ],
    "gpt": {
-    "score": 0.12,
-    "confidence": 0.24,
-    "reason": "Riyad\u2019a y\u00f6nelen Husi f\u00fczesinin d\u00fc\u015f\u00fcr\u00fclmesi ve \u0130ran gerilimine dair haberler k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak f\u00fczenin engellenmesi, haberlerin bir k\u0131sm\u0131n\u0131n spek\u00fclatif olmas\u0131 ve Fed karar\u0131na ili\u015fkin yeni bir geli\u015fme bulunmamas\u0131 etkiyi d\u00fc\u015f\u00fck tutuyor.",
+    "score": -0.1,
+    "confidence": 0.34,
+    "reason": "Fransa\u2019daki protestolar ve bor\u00e7 endi\u015feleri ile \u0130ran\u2019\u0131n H\u00fcrm\u00fcz\u2019e ili\u015fkin tehditleri g\u00fcvenli liman talebini destekleyebilir; ancak euronun zay\u0131flamas\u0131 dolar\u0131 g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Yeni ve do\u011frudan bir faiz ya da enflasyon kataliz\u00f6r\u00fc olmad\u0131\u011f\u0131ndan k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 g",
     "key_events": [
-     "Riyad\u2019a y\u00f6nelen Husi f\u00fczesi d\u00fc\u015f\u00fcr\u00fcld\u00fc",
-     "\u0130ran-ABD gerilimine ili\u015fkin yeni sava\u015f endi\u015feleri",
-     "Fed karar\u0131 \u00f6ncesinde faiz y\u00f6n\u00fc belirsiz"
+     "Fransa\u2019da protestolar ve bor\u00e7 endi\u015feleri",
+     "Eurodaki d\u00fc\u015f\u00fc\u015f\u00fcn dolar\u0131 desteklemesi",
+     "\u0130ran\u2019\u0131n H\u00fcrm\u00fcz\u2019e ili\u015fkin tehditleri"
     ],
     "model": "gpt-6-luna"
    }
@@ -5404,63 +5412,70 @@
     "new": 21,
     "gpt_score": 0.12,
     "gpt_confidence": 0.24
+   },
+   {
+    "ts": 1792925525049,
+    "score": 0.15,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 18,
+    "gpt_score": -0.1,
+    "gpt_confidence": 0.34
    }
   ],
   "news_calls": {
    "date": "2026-10-25",
-   "n": 25
+   "n": 26
   },
   "news_seen": [
-   "Romeo Johnson\u2019s path led from Newark football fields to World War I service - The Newark Advocate",
+   "Euro sinks on French debt worries; yen gains for week on AI rout - The Business Times",
+   "More than 1,300 arrested as clashes follow another day of mass protests across France",
    "Trump started a trade war with Canada. GOP candidates became casualties. - The Washington Post",
+   "Even Jesse Watters seems tired of pushing Fox News\u2019 culture war - Salon.com",
+   "Explainer-Four ways US foreign policy could change if Democrats win in November - Hilton Head Island Packet",
+   "Iran says resumption of war with US would not change its mind, with Strait of Hormuz 'no longer the same' - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+   "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh - The National",
+   "Experts worried by Netanyahu proposal to use crypto to evade sanctions - Yahoo",
+   "Romeo Johnson\u2019s path led from Newark football fields to World War I service - The Newark Advocate",
+   "Qatar official calls for peace and security to boost trade, investment - Al Jazeera",
+   "Russia Ukraine War - Post Register",
+   "Russia Ukraine War - GazetteXtra",
    "Naira loses N27.12 against US dollar in two days despite $55.16bn external reserves - Daily Post Nigeria",
+   "Today's politics make Cold War-era concerns feel childish | Opinion - Akron Beacon Journal",
    "Budget to include \u00a31bn for social and affordable housing",
+   "Allied Gold Corporation (AAUC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
    "Washington Must Plug Loopholes in Iran-Russia Cryptocurrency Trade - Middle East Forum",
    "Inside the Pentagon's doomsday plan to keep America fighting if global war erupts - Fox News",
    "Operation Urgent Fury: The Air War Over Grenada, 1983 - MiGFlug",
    "Can machines be war criminals? - Vox",
+   "The first time Mary was invoked as \u201cQueen of Palestine\u201d - Aleteia EN",
    "Trump wants 'business with both' Ukraine, Russia after war ends - The Kyiv Independent",
-   "Middle East latest: Saudi-led coalition downs Houthi missile launched towards Riyadh - The National",
    "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
    "Trump announced a deal with Putin releasing millions of barrels of Russian diesel oil onto U.S. and global markets - Cleveland.com",
    "Ethereum dips as Arthur Hayes sells holdings ah... - Pluang",
    "Trump looks to plunge us deeper into a misconceived Iran war after the midterms - Inquirer.com",
+   "J&K Bank boosts accident insurance to \u20b91 crore for J&K government staff; Check key benefits and loan concessions - Livemint",
    "North Korea Expands Missiles and Drones With Russian Help - Kyiv Post",
-   "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+   "Gold prices jump from \u20b9432 to \u20b91.42 lakh in 50 years: Should you sell inherited gold jewellery, exchange it or keep it? - Livemint",
    "Israel\u2019s War-Focused Election Masks Underlying Economic Schism - Bloomberg.com",
-   "107-Year-Old World War II Veteran Reveals the Surprising Food He Credits for His Long Life - Yahoo",
+   "107-Year-Old World War II Veteran Reveals the Surprising Food He Credits for His Long Life - People.com",
    "Hyundai Tucson Vs. Kia Sportage: The Sibling Sales War Has A Clear Winner - CarBuzz",
-   "'War or no war, our policies remain unchanged': Iran FM Araghchi amid fresh US strike fears - The Times of India",
    "Gold Prices Fall in Bangladesh: 22-Carat Down Tk 3,324 per Bhori - www.businesstimes-bd.com",
-   "BVR Air Combat Explained: The Long-Range Fight - MiGFlug",
    "Saudi Arabia Announces Destruction of Ballistic Missile , Drone Launched by the Houthis - Yemen Online",
-   "Brownback's book details religious persecution in China | Exclusive - The Topeka Capital-Journal",
+   "Gold Rate Today in Thiruvallur 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Thiruvallur - Business Today",
+   "BVR Air Combat Explained: The Long-Range Fight - MiGFlug",
+   "Shafaq News..Gold retreats in Baghdad, edges higher in Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "Brownback's book details religious persecution in China | Exclusive - The Hutchinson News",
    "Iran plans to cut Gulf internet cables and block repairs if war resumes, officials say - Ynetnews",
    "Peter Schiff\u2019s \u2018$75K Bitcoin call\u2019 meets a vital week: Fed, inflation, and ETF outflows loom - AMBCrypto",
    "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
    "The Geopolitical Choice In Israel\u2019s Upcoming Election - The Times of Israel",
-   "Bitcoin Rebounds to $80,800 Ahead of Federal Reserve Meeting - logos-pres.md",
+   "Gold prices face significant risk next week. - Vietnam.vn",
    "\u201cImmense and irreversible damage\u201d: Economists warn Netanyahu over sanctions remarks - CTech",
-   "Obama\u2019s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms - Al Jazeera",
-   "Weekly Outlook | The Federal Reserve's decision, along with U.S. GDP and core PCE, are set to make a big splash! Google, Microsoft, and Amazon will release their earnings reports in quick succession, as U.S. stocks enter the peak of earnings season; Dong - \u5bcc\u9014\u725b\u725b",
-   "76th anniv. of CPV's participation in War to Resist US Aggression and Aid Korea commemorated in NE China's Shenyang - Global Times",
-   "Israel Blockchain Plan: Netanyahu Seeks Sanctions Backup - Bitcoin Foundation",
-   "Gold price outlook: Can bulls survive the death cross and oil surge? - Invezz",
-   "Bank of Israel says crypto cannot be used to bypass sanctions - T\u00fcrkiye Today",
-   "NSM Missile System Evolves with Container-Based Launcher - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
-   "President Donald Trump Just Proclaimed, \"Tariffs Don't Cause Inflation, They Cause Wealth,\" but Data From Federal Reserve Economists Show Otherwise - The Motley Fool",
-   "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
-   "Russia Ukraine War - Post Register",
-   "Saudis intercept Houthi cruise missile fired at southern city - The Times of Israel",
-   "Obama attacks Trump over corruption, Iran war ahead of midterms - The Arab Weekly",
-   "US Fed rate decision, corporate earnings, crude oil to steer market sentiment - Rediff",
-   "PDI Gold Limited (PDI.AX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "A West Bank War for Netanyahu\u2019s Election Campaign, Could It Backfire? - Palestine Chronicle"
+   "Obama\u2019s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms - Al Jazeera"
   ]
  },
  "log": [
-  "23.10 18:19 N  GPT  score -0.48 conf 0.67: Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisi, g\u00fc\u00e7l\u00fc ABD PMI verileri ve y\u00fckselen enflasyon bask\u0131s\u0131 alt\u0131n i\u00e7in olumsuz; fiyat\u0131n 4.000 dolar\u0131n alt\u0131na inmesi de sat\u0131\u015f bask\u0131s\u0131na i\u015faret ediyor. \u0130ran sava\u015f\u0131n\u0131n h\u0131zl\u0131 sona ermesi ihtimali ve Ukrayna\u2019daki ate\u015fkes haberi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir; an",
-  "23.10 18:19 B1  SHORT gold 5000 USD x10 @ 4011.03 (TP 4007.02, SL 4013.43; news -0.50)",
   "23.10 18:19 B3  CLOSE short stop (gap): -4.28 USD",
   "23.10 18:19 B3  SHORT gold 5000 USD x10 @ 4011.13 (TP 3999.09, SL 4019.15; news -0.50)",
   "23.10 18:28 B1  CLOSE short stop (gap): -6.96 USD",
@@ -5758,7 +5773,9 @@
   "25.10 12:51 N  NEWS (21 new) score +0.10 conf 0.30: ",
   "25.10 12:51 N  GPT  score -0.20 conf 0.34: Yeni ba\u015fl\u0131klarda birka\u00e7 piyasada alt\u0131n fiyatlar\u0131n\u0131n gerilemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc kald\u0131\u011f\u0131na dair haberler k\u0131sa vadede hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc sinyal veriyor. Kuzey Kore-Rusya askeri i\u015fbirli\u011fi haberinin g\u00fcvenli liman deste\u011fi s\u0131n\u0131rl\u0131; net bir Fed veya faiz s\u00fcrprizi yok.",
   "25.10 13:17 N  NEWS (21 new) score +0.10 conf 0.30: Yeni ba\u015fl\u0131klarda jeopolitik risk (\u0130ran'a yeni ABD sald\u0131r\u0131s\u0131 endi\u015fesi, Husilerin Riyad'a f\u00fcze sald\u0131r\u0131s\u0131) alt\u0131na g\u00fcvenli liman talebini hafif destekliyor. Ancak Fed karar\u0131, ABD GSY\u0130H ve \u00e7ekirdek PCE verilerinin yak\u0131n olmas\u0131 ve Rusya dizeli \u00fczerindeki anla\u015fman\u0131n petrol fiyatlar\u0131n\u0131 bask\u0131layabilmesi, faiz beklentileri y\u00f6n\u00fcnden belirsizlik yarat\u0131yor; bu nedenle net y\u00f6n zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "25.10 13:17 N  GPT  score +0.12 conf 0.24: Riyad\u2019a y\u00f6nelen Husi f\u00fczesinin d\u00fc\u015f\u00fcr\u00fclmesi ve \u0130ran gerilimine dair haberler k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak f\u00fczenin engellenmesi, haberlerin bir k\u0131sm\u0131n\u0131n spek\u00fclatif olmas\u0131 ve Fed karar\u0131na ili\u015fkin yeni bir geli\u015fme bulunmamas\u0131 etkiyi d\u00fc\u015f\u00fck tutuyor."
+  "25.10 13:17 N  GPT  score +0.12 conf 0.24: Riyad\u2019a y\u00f6nelen Husi f\u00fczesinin d\u00fc\u015f\u00fcr\u00fclmesi ve \u0130ran gerilimine dair haberler k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak f\u00fczenin engellenmesi, haberlerin bir k\u0131sm\u0131n\u0131n spek\u00fclatif olmas\u0131 ve Fed karar\u0131na ili\u015fkin yeni bir geli\u015fme bulunmamas\u0131 etkiyi d\u00fc\u015f\u00fck tutuyor.",
+  "25.10 13:52 N  NEWS (18 new) score +0.15 conf 0.30: ",
+  "25.10 13:52 N  GPT  score -0.10 conf 0.34: Fransa\u2019daki protestolar ve bor\u00e7 endi\u015feleri ile \u0130ran\u2019\u0131n H\u00fcrm\u00fcz\u2019e ili\u015fkin tehditleri g\u00fcvenli liman talebini destekleyebilir; ancak euronun zay\u0131flamas\u0131 dolar\u0131 g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Yeni ve do\u011frudan bir faiz ya da enflasyon kataliz\u00f6r\u00fc olmad\u0131\u011f\u0131ndan k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 g"
  ],
  "gold_big": {
   "account": {
@@ -7053,6 +7070,10 @@
    [
     1792923475,
     4964.78
+   ],
+   [
+    1792925527,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -8296,6 +8317,10 @@
    [
     1792923475,
     4973.18
+   ],
+   [
+    1792925527,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -9486,6 +9511,10 @@
    [
     1792923475,
     5005.69
+   ],
+   [
+    1792925527,
+    5005.69
    ]
   ]
  },
@@ -10385,6 +10414,10 @@
    [
     1792923475,
     4988.82
+   ],
+   [
+    1792925527,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -11241,6 +11274,10 @@
    [
     1792923475,
     5021.88
+   ],
+   [
+    1792925527,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -11966,6 +12003,10 @@
    ],
    [
     1792923475,
+    100000.0
+   ],
+   [
+    1792925527,
     100000.0
    ]
   ],
