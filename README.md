@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 16:03 (İstanbul)
+> Son güncelleme: 25.10.2026 16:36 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 2.00 $ | 4.00 $ |
 
-**Hesap değeri: 4,997.67 $** (başlangıç 5,000 $, -2.33 $ / %-0.05)
+**Hesap değeri: 4,995.80 $** (başlangıç 5,000 $, -4.20 $ / %-0.08)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
