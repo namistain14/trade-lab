@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 12:51 (İstanbul)
+> Son güncelleme: 25.10.2026 13:17 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 2.00 $ | 4.00 $ |
 
-**Hesap değeri: 4,995.89 $** (başlangıç 5,000 $, -4.11 $ / %-0.08)
+**Hesap değeri: 4,997.28 $** (başlangıç 5,000 $, -2.72 $ / %-0.05)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
@@ -51,9 +51,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (25.10 12:51): Claude puan **+0.10**, güven 0.30 — Yeni haberlerde İran'ın savaşın yeniden başlayabileceği yönündeki uyarıları ve ABD'nin İran'a Pazar günü saldırabileceği açıklaması jeopolitik risk primi yaratarak altı destekliyor. Buna karşılık bu haftaki Fed toplantısı ve ABD enflasyon beklentilerinin yükselişi, faiz artışı ihtimalini artırıp altı baskılayabilir; ayrıca ilgili riskler kısmen fiyatlanmış olabileceğinden etki sınırlı kalabilir.
+Son haber analizi (25.10 13:17): Claude puan **+0.10**, güven 0.30 — Yeni başlıklarda jeopolitik risk (İran'a yeni ABD saldırısı endişesi, Husilerin Riyad'a füze saldırısı) altına güvenli liman talebini hafif destekliyor. Ancak Fed kararı, ABD GSYİH ve çekirdek PCE verilerinin yakın olması ve Rusya dizeli üzerindeki anlaşmanın petrol fiyatlarını baskılayabilmesi, faiz beklentileri yönünden belirsizlik yaratıyor; bu nedenle net yön zayıf ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.34 — Yeni başlıklarda birkaç piyasada altın fiyatlarının gerilemesi ve doların güçlü kaldığına dair haberler kısa vadede hafif aşağı yönlü sinyal veriyor. Kuzey Kore-Rusya askeri işbirliği haberinin güvenli liman desteği sınırlı; net bir Fed veya faiz sürprizi yok.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.24 — Riyad’a yönelen Husi füzesinin düşürülmesi ve İran gerilimine dair haberler kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak füzenin engellenmesi, haberlerin bir kısmının spekülatif olması ve Fed kararına ilişkin yeni bir gelişme bulunmaması etkiyi düşük tutuyor.
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 09:13 N  NEWS (16 new) score -0.15 conf 0.35: İran savaşı ve Husi füze saldırıları jeopolitik risk primini destekliyor, ancak Fed'in "şahin duraklama" beklentisi, 116 dolarlık petrol kaynaklı enflasyon baskısı ve son haftada yaşanan yaklaşık %4'lük altın düşüşü kısa vadede altını baskılıyor. Bu sinyaller çelişkili olduğu için yönsel etki hafif negatif ve düşük güvenle değerlendirildi.
-25.10 09:13 N  GPT  score +0.08 conf 0.31: Riyad’a yönelen Husi füzesinin önlenmesi jeopolitik risk algısını sınırlı ölçüde artırabilir; ancak saldırı etkisiz kaldı. Fed’in beklenen faizleri sabit tutması ve önceki düşüş eğilimi altındaki yukarı yönlü etkiyi dengeliyor.
 25.10 10:05 A  CLOSE SOLUSDT stop: -6.29 USD
 25.10 10:05 N  NEWS (21 new) score -0.20 conf 0.40: 
 25.10 10:05 N  GPT  score +0.25 conf 0.42: Riyad’a yönelen füze ve Husilerin saldırıları kısa vadeli güvenli liman talebini destekleyebilir. Ancak altındaki sert düşüş haberleri ve Fed’e dair yeni bir karar ya da faiz sinyali bulunmaması yönü belirsizleştiriyor.
@@ -169,6 +167,8 @@ Son işlemler:
 25.10 12:14 N  GPT  score +0.25 conf 0.42: İran’la savaşın yeniden başlayabileceğine ilişkin ABD saldırı tehdidi ve Suudi Arabistan’a yönelik Husi füze saldırılarının önlenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed haftası öncesi yükselen enflasyon beklentileri ve olası şahin faiz görünümü altındaki yükselişi sınırlıy
 25.10 12:51 N  NEWS (21 new) score +0.10 conf 0.30: 
 25.10 12:51 N  GPT  score -0.20 conf 0.34: Yeni başlıklarda birkaç piyasada altın fiyatlarının gerilemesi ve doların güçlü kaldığına dair haberler kısa vadede hafif aşağı yönlü sinyal veriyor. Kuzey Kore-Rusya askeri işbirliği haberinin güvenli liman desteği sınırlı; net bir Fed veya faiz sürprizi yok.
+25.10 13:17 N  NEWS (21 new) score +0.10 conf 0.30: Yeni başlıklarda jeopolitik risk (İran'a yeni ABD saldırısı endişesi, Husilerin Riyad'a füze saldırısı) altına güvenli liman talebini hafif destekliyor. Ancak Fed kararı, ABD GSYİH ve çekirdek PCE verilerinin yakın olması ve Rusya dizeli üzerindeki anlaşmanın petrol fiyatlarını baskılayabilmesi, faiz beklentileri yönünden belirsizlik yaratıyor; bu nedenle net yön zayıf ve güven düşük.
+25.10 13:17 N  GPT  score +0.12 conf 0.24: Riyad’a yönelen Husi füzesinin düşürülmesi ve İran gerilimine dair haberler kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak füzenin engellenmesi, haberlerin bir kısmının spekülatif olması ve Fed kararına ilişkin yeni bir gelişme bulunmaması etkiyi düşük tutuyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
