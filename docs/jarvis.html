@@ -170,7 +170,7 @@ const usd=v=>(v<0?"−":"")+"$"+Math.abs(v).toFixed(2);
 const num=v=>Math.round(v).toLocaleString("tr-TR");
 const trDay=d=>new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date(d));
 const ago=d=>{const m=Math.round((Date.now()-new Date(d))/60000);return m<1?"az önce":m<60?m+" dk önce":m<1440?Math.floor(m/60)+" sa önce":Math.floor(m/1440)+" gün önce"};
-const ICON={lumo:"🦊",nubi:"🚗",you:"☢",igsync:"📸",status:"🛰",accounts:"💳",audit:"🛡",orders:"🛒",sales:"📊",seo:"🔎",dm:"💬",mail:"✉",tick:"📈",b6:"🇺🇸",report:"📑"};
+const ICON={polls:"🗳",replies:"💭",dino:"🦖",costs:"💲",cekgit:"🛻",lumo:"🦊",nubi:"🚗",you:"☢",igsync:"📸",status:"🛰",accounts:"💳",audit:"🛡",orders:"🛒",sales:"📊",seo:"🔎",dm:"💬",mail:"✉",tick:"📈",b6:"🇺🇸",report:"📑"};
 const STEP={"Set up job":"Hazırlık","Complete job":"Bitiş","Collect":"Topla","Save to the costs branch":"Kaydet"};
 let AGENTS=[],BOTS=[],ROWS=[],RUNS=[],COSTS=null,HIST=[],TRADE=null,DM=null,SNAP={},tRange="1",aFilter="",sel=null;
 

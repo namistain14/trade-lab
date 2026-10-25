@@ -222,8 +222,11 @@ const SERIES={lumo:{name:"Lumo şarkısı",hero:"tilki · günlük çocuk şark�
 // every automatic worker, where it runs and when
 const AGENTS=[
   {id:"lumo",dom:"content",name:"Lumo şarkısı",what:"Her gün öğretici Lumo şarkısı (ElevenLabs Music + Kling, karaoke) → YouTube gizli",repo:REPO,wf:"lumo_song.yml",at:[[6,17]]},
-  {id:"nubi",dom:"content",name:"Nubi",what:"Günlük hikâye durduruldu (25.10); Nubi şarkı formatına geçiyor",repo:REPO,wf:"daily.yml",series:"nubi",manual:"durduruldu",noFail:true},
-  {id:"you",dom:"content",name:"You Are Here",what:"Günlük koşu durduruldu. Yeni yöntem: kodla çizilen animasyon + ElevenLabs sesleri, senaryo önce sana gösterilir",repo:REPO,wf:"anim_kirk.yml",manual:"elle (onaylı)",noFail:true},
+  {id:"nubi",dom:"content",name:"Nubi şarkısı",short:"Nubi",what:"Nubi artık şarkı kanalı (25.10): onaylı söz → ElevenLabs Music → Kling + karaoke → YouTube gizli (Vumeloo Studios)",repo:REPO,wf:"nubi_song.yml",manual:"elle başlatılır",noFail:true},
+  {id:"you",dom:"content",name:"You Are Here",what:"Hayatta Kal / Survive / Ne Olurdu: kodla çizilen animasyon + ElevenLabs sesleri; senaryo önce sana gösterilir, önizleme onayından sonra gizli yükleme",repo:REPO,wf:"anim_hk3.yml",manual:"elle başlatılır",noFail:true},
+  {id:"dino",dom:"content",name:"68 Milyon Yıl Önce",short:"Dino",what:"Dinozor dizisi: aşamalı üretim, her görsel ve klip Claude kontrolünden geçer → YouTube gizli",repo:REPO,wf:"dino1.yml",manual:"elle (aşamalı)",noFail:true},
+  {id:"polls",dom:"content",name:"Oylama sayacı",short:"Oylamalar",what:"Açık A/B bölümlerinin Instagram yorumlarındaki oyları sayar, izleyici fikirlerini özetler → Telegram",repo:REPO,wf:"polls.yml",at:[[8,20],[20,20]]},
+  {id:"replies",dom:"content",name:"Yorum cevaplayıcı",short:"Yorum cevap",what:"Açık A/B bölümlerinde Instagram + YouTube Shorts yorumlarına kısa, kişisel cevap (sınırlı ve yavaş)",repo:REPO,wf:"replies.yml",at:[[12,40],[20,40]]},
   {id:"igsync",dom:"content",iv:60,name:"Instagram yayıncı",short:"Instagram",what:"YouTube'da yayına alınan video → Instagram Reel (@vumeloostudios, @youarehere.shorts)",repo:REPO,wf:"ig_sync.yml",every:"saat başı (07-23)",stale:150,hours:[8,23]},
   {id:"status",dom:"company",name:"Panel verisi",short:"Panel",what:"Jarvis için durum + içerik denetimi toplar",repo:REPO,wf:"status.yml",at:[[8,41],[13,41],[19,41]],extra:"+ her koşudan sonra"},
   {id:"accounts",dom:"company",name:"Hesap kontrolü",short:"Hesaplar",what:"Kling, OpenAI, ElevenLabs, Anthropic bakiyesi ve anahtar testi",repo:REPO,wf:"accounts.yml",at:[[8,35]]},
@@ -232,6 +235,8 @@ const AGENTS=[
   {id:"sales",dom:"company",name:"Satış özeti",short:"Satış",what:"Hepsiburada son 12 saat → Telegram",repo:OPS,wf:"sales.yml",at:[[8,30],[20,30]]},
   {id:"seo",dom:"company",name:"SEO ajanı",short:"SEO",what:"Ürün açıklamaları (Claude yazar, GPT doğrular) → namistain.com · aktif ürünlerin hepsi bitti, yeni ürün gelirse yazar",repo:OPS,wf:"seo.yml",at:[[10,7]]},
   {id:"dm",dom:"company",name:"DM asistanı",short:"DM",what:"Instagram @namistainamortisor mesajlarına katalogdan cevap (Cloudflare, canlı) · kopyası Telegram'a",repo:OPS,wf:"dm-deploy.yml",manual:"her mesajda",ping:"https://namistain-dm.namistaintv.workers.dev/health"},
+  {id:"costs",dom:"company",name:"Maliyet takibi",short:"Maliyet",what:"Bakiyeler + OpenAI harcaması saatlik (Jarvis API kartları)",repo:REPO,wf:"costs.yml",every:"saat başı",stale:130},
+  {id:"cekgit",dom:"company",name:"ÇekGit (demo)",short:"ÇekGit",what:"Çekici çağırma uygulaması demosu · cekgit.namistaintv.workers.dev · 25.10 durduruldu, yarın devam",repo:OPS,wf:"cekgit-deploy.yml",manual:"demo · beklemede",noFail:true,ping:"https://cekgit.namistaintv.workers.dev/api/health"},
   {id:"mail",dom:"company",name:"Mail asistanı",short:"Mail",what:"namistaintv@gmail.com gelen kutusu, acil/önemli olanlar telefona",every:"saat başı :31 (08-22)",mailStale:100},
   {id:"tick",dom:"trade",iv:30,name:"Trade botları (A-B5)",short:"Botlar A-B5",what:"Sanal alım-satım kontrolü",repo:TRADE,wf:"tick.yml",every:"~30 dk",stale:55},
   {id:"b6",dom:"trade",iv:15,name:"B6 ABD hisse botu",short:"B6 ABD",what:"Alpaca sanal hesap · Claude Opus + GPT-6.1 Sol hemfikirse işlem (hafta içi 16:30-23:00)",repo:TRADE,wf:"tick.yml",every:"seansta"},
