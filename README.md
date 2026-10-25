@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 02:53 (İstanbul)
+> Son güncelleme: 25.10.2026 03:23 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 2.00 $ |
 
-**Hesap değeri: 5,009.74 $** (başlangıç 5,000 $, +9.74 $ / %+0.19)
+**Hesap değeri: 5,008.57 $** (başlangıç 5,000 $, +8.57 $ / %+0.17)
 
 Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (25.10 02:53): Claude puan **+0.05**, güven 0.35 — İran'a yönelik olası ABD saldırısı ve müzakere belirsizliği jeopolitik risk primi yaratarak altı hafifçe destekliyor. Ancak Fed'in şahin bir faiz duraklamasına hazırlandığına dair haberler ve gösterilen düşüş eğilimi bu etkiyi dengeliyor. Genel tablo nötre yakın; güven düşük çünkü savaş haberlerinin çoğu eski ve zaten fiyatlanmış.
+Son haber analizi (25.10 03:23): Claude puan **+0.12**, güven 0.30 — İran savaşına dair yeni haberler (ABD'nin yakında saldırı veya anlaşma seçeneği, İran'ın ABD'lilere yönelik tehdit artışı) jeopolitik risk primi açısından hafif olumlu, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Altının son dönemde düşüş eğiliminde olması ve yeni bir merkez bankası ya da enflasyon sürprizi görünmemesi nedeniyle etki sınırlı kalabilir.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — Trump’ın İran’a yarın saldırı ihtimalini dile getirmesi kısa vadeli jeopolitik risk ve güvenli liman talebini artırabilir. Ancak anlaşma olasılığını da açık bırakması ve başlıklarda altının düşüşte olduğuna dair haberler yön sinyalini zayıflatıyor; dolar ve faizlere ilişkin yeni bir katalizör görünm
+GPT (gpt-6-luna): puan **+0.22**, güven 0.32 — İran savaşının Irak’a taşma riski ve ABD’nin yeni saldırı ihtimali kısa vadede güvenli liman talebini destekleyebilir. Ancak gelişmelerin çoğu eski veya altın fiyatına doğrudan etkisiz; son fiyat başlıkları da zayıf seyir gösteriyor, bu nedenle etki sınırlı ve belirsiz.
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.10 23:36 N  GPT  score -0.25 conf 0.48: İran’a yönelik olası saldırı ve karşılık söylemleri güvenli liman talebini destekleyebilir; ancak altındaki sert düşüş ve enerji kaynaklı enflasyonun Fed’i daha şahin yapabileceği beklentisi kısa vadede baskın görünüyor. Haber akışı çelişkili ve önemli kısmı yeni ya da doğrudan piyasa tetikleyicisi 
-25.10 00:03 N  NEWS (5 new) score -0.20 conf 0.50: Yeni haberlerde ABD savaş gemilerinin İran'a olası saldırılara hazır olması güvenli liman talebini destekliyor, ancak Fed'in G7 içinde şahin duruşu, Eylül CPI'ının %3,7'ye çıkması ve faiz artırımlarının yeniden gündeme gelmesi reel faiz beklentilerini yükselterek altı baskılıyor. Altın zaten üç aylık dibe inmiş durumda; jeopolitik risk primini şimdilik gölgede bırakan enflasyon ve faiz kaynaklı baskı nedeniyle kısa vadede hafif negatif görüşteyim.
 25.10 00:03 N  GPT  score -0.25 conf 0.58: Fed’in diğer G7 merkez bankalarına kıyasla daha şahin kalacağı beklentisi ve enerji kaynaklı enflasyon/faiz endişeleri altın üzerinde baskı yaratıyor. İran çevresindeki olası tırmanış güvenli liman talebini desteklese de haberlerin çoğu devam eden riskleri yineliyor; etkiler çelişkili.
 25.10 00:34 N  NEWS (14 new) score -0.10 conf 0.30: İran'la ilgili savaş riski ve ABD savaş gemilerinin olası saldırıya hazır olması altın için güvenli liman talebini destekliyor. Ancak Fed'in sıkılaştırma yönlü bekleme beklentisi, petrol kaynaklı enflasyon endişeleri ve "altın üç aylık dibe düştü" başlığı faiz baskısını artırarak altını aşağı çekebilir. Haberlerin çoğu gürültü niteliğinde ve tekrarlı/önceden fiyatlanmış olduğundan net yön sinyali zayıf.
 25.10 00:34 N  GPT  score +0.25 conf 0.44: İran çevresinde çatışmanın yeniden başlayabileceğine dair uyarılar ve ABD savaş gemilerinin olası saldırılara hazır olduğu haberi kısa vadede güvenli liman talebini destekleyebilir. Ancak haberler doğrulanmış yeni bir saldırı göstermiyor; yüksek petrol fiyatlarının Fed’i daha şahin tutabileceği ve a
@@ -168,6 +166,8 @@ Son işlemler:
 25.10 02:27 N  GPT  score +0.25 conf 0.36: İran’da çatışmanın yeniden alevlenebileceğine ilişkin uyarılar ve Kyiv’deki ağırlaşan kış koşulları kısa vadede güvenli liman talebini destekleyebilir. Ancak bunlar büyük ölçüde mevcut risklerin devamı niteliğinde; Körfez’den petrol akışının artması ve olası Fed faiz sıkılığı altın için karşı yönde 
 25.10 02:53 N  NEWS (7 new) score +0.05 conf 0.35: İran'a yönelik olası ABD saldırısı ve müzakere belirsizliği jeopolitik risk primi yaratarak altı hafifçe destekliyor. Ancak Fed'in şahin bir faiz duraklamasına hazırlandığına dair haberler ve gösterilen düşüş eğilimi bu etkiyi dengeliyor. Genel tablo nötre yakın; güven düşük çünkü savaş haberlerinin çoğu eski ve zaten fiyatlanmış.
 25.10 02:53 N  GPT  score +0.25 conf 0.38: Trump’ın İran’a yarın saldırı ihtimalini dile getirmesi kısa vadeli jeopolitik risk ve güvenli liman talebini artırabilir. Ancak anlaşma olasılığını da açık bırakması ve başlıklarda altının düşüşte olduğuna dair haberler yön sinyalini zayıflatıyor; dolar ve faizlere ilişkin yeni bir katalizör görünm
+25.10 03:23 N  NEWS (12 new) score +0.12 conf 0.30: İran savaşına dair yeni haberler (ABD'nin yakında saldırı veya anlaşma seçeneği, İran'ın ABD'lilere yönelik tehdit artışı) jeopolitik risk primi açısından hafif olumlu, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Altının son dönemde düşüş eğiliminde olması ve yeni bir merkez bankası ya da enflasyon sürprizi görünmemesi nedeniyle etki sınırlı kalabilir.
+25.10 03:23 N  GPT  score +0.22 conf 0.32: İran savaşının Irak’a taşma riski ve ABD’nin yeni saldırı ihtimali kısa vadede güvenli liman talebini destekleyebilir. Ancak gelişmelerin çoğu eski veya altın fiyatına doğrudan etkisiz; son fiyat başlıkları da zayıf seyir gösteriyor, bu nedenle etki sınırlı ve belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
