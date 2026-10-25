@@ -1317,6 +1317,10 @@
    [
     1792911958,
     4999.41
+   ],
+   [
+    1792914204,
+    5001.0
    ]
   ]
  },
@@ -3276,28 +3280,32 @@
    [
     1792911958,
     4923.96
+   ],
+   [
+    1792914204,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.2,
+   "score": -0.25,
    "confidence": 0.4,
-   "reason": "\u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekliyor, ancak Fed'in \"\u015fahin duraklama\" beklentisi, 116 dolarl\u0131k petrol kaynakl\u0131 enflasyon bask\u0131s\u0131 ve son haftada ya\u015fanan yakla\u015f\u0131k %4'l\u00fck alt\u0131n d\u00fc\u015f\u00fc\u015f\u00fc k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. Bu sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in y\u00f6nsel etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendirildi.",
+   "reason": "Alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri, ABD'de 1 y\u0131ll\u0131k enflasyon beklentilerinin y\u00fckselmesi ve Fed karar\u0131n\u0131n yakla\u015fmas\u0131 ile birlikte s\u0131k\u0131la\u015fma beklentilerini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki fiyatlarda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k yerel fiyat raporu niteli\u011finde ve geriye d\u00f6n\u00fck oldu\u011fundan sinyal g\u00fcc\u00fc s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1792911955407,
-   "new_headlines": 21,
+   "ts": 1792914202420,
+   "new_headlines": 19,
    "key_events": [
     "Fed Ekim'de faizi sabit tutabilir, Aral\u0131k'ta art\u0131r\u0131m tart\u0131\u015f\u0131l\u0131yor (bask\u0131lay\u0131c\u0131)",
     "Trump: \u0130ran'a sald\u0131r\u0131 yar\u0131n m\u00fcmk\u00fcn (g\u00fcvenli liman deste\u011fi)",
     "Alt\u0131n fiyatlar\u0131 y\u00fcksek faiz beklentisiyle d\u00fc\u015f\u00fc\u015fte (zaten fiyatlanm\u0131\u015f)"
    ],
    "gpt": {
-    "score": 0.25,
-    "confidence": 0.42,
-    "reason": "Riyad\u2019a y\u00f6nelen f\u00fcze ve Husilerin sald\u0131r\u0131lar\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri ve Fed\u2019e dair yeni bir karar ya da faiz sinyali bulunmamas\u0131 y\u00f6n\u00fc belirsizle\u015ftiriyor.",
+    "score": -0.15,
+    "confidence": 0.34,
+    "reason": "Houthi sald\u0131r\u0131lar\u0131 ve Ukrayna\u2019daki gerilim g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri ve Rusya\u2019ya y\u00f6nelik dizel yapt\u0131r\u0131mlar\u0131nda gev\u015feme i\u015fareti bu deste\u011fi dengeliyor. K\u0131sa vadeli net y\u00f6n zay\u0131f ve hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor.",
     "key_events": [
-     "Riyad\u2019a f\u00fcze sald\u0131r\u0131s\u0131 \u00f6nlendi",
-     "Husiler Suudi Arabistan ve Aden\u2019e sald\u0131rd\u0131",
-     "B\u00f6lgesel gerilim artarken alt\u0131n d\u00fc\u015f\u00fc\u015f haberleri \u00e7eli\u015fkili"
+     "Suudi Arabistan\u2019a y\u00f6nelik Husi f\u00fcze sald\u0131r\u0131lar\u0131",
+     "Ukrayna\u2019n\u0131n Rusya i\u00e7lerine sald\u0131r\u0131s\u0131",
+     "Rus dizeline yapt\u0131r\u0131m muafiyetinin savunulmas\u0131"
     ],
     "model": "gpt-6-luna"
    }
@@ -5302,17 +5310,41 @@
     "new": 21,
     "gpt_score": 0.25,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1792914202420,
+    "score": -0.25,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri, ABD'de 1 y\u0131ll\u0131k enflasyon beklentilerinin y\u00fckselmesi ve Fed karar\u0131n\u0131n yakla\u015fmas\u0131 ile birlikte s\u0131k\u0131la\u015fma beklentilerini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki fiyatlarda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k yerel fiyat raporu niteli\u011finde ve geriye d\u00f6n\u00fck oldu\u011fundan sinyal g\u00fcc\u00fc s\u0131n\u0131rl\u0131.",
+    "new": 19,
+    "gpt_score": -0.15,
+    "gpt_confidence": 0.34
    }
   ],
   "news_calls": {
    "date": "2026-10-25",
-   "n": 19
+   "n": 20
   },
   "news_seen": [
+   "Saudi-led coalition says it intercepted Houthi cruise missile over Khamis Mushait - Anadolu Ajans\u0131",
+   "UK's Wes Streeting: Britain must prepare for war amid Russian aggression - The Jerusalem Post",
+   "Rubio: Trump Relief on Russian Diesel Sanctions Is \u2018Very Wise\u2019 - Kyiv Post",
+   "Why are gold and silver prices falling? - NewsMeter",
+   "Why young Chinese embrace Japanese pop culture but reject war-era symbols - South China Morning Post",
+   "US households' 1-year inflation expectations ri... - Pluang",
+   "Collapse and outbreak of civil war waiting for Israeli regime - Mehr News Agency",
+   "Rosebank: Life on the oil field at the centre of a political storm",
+   "Heating oil costs 'more than double' ahead of winter",
+   "How families are cutting the cost of Halloween as spending grows",
+   "Ukraine War, Day 1,704: Kyiv Strikes 1,550+ Miles Inside Russia - EA WorldView",
+   "Firms 'holding back' on new jobs ahead of Budget",
    "What will happen to Russian military aviation after the war? These aircraft could be scrapped - Defence24.com",
+   "Gold prices cut by Tk3,324 per bhori in Bangladesh - Dhaka Tribune",
+   "Gold market and central banks: Russia, Kazakhstan sell as Poland, China buy - Yahoo Finance UK",
    "Saudi-led coalition intercepts ballistic missile launched towards Riyadh - Macau Business",
    "Fears grip Israeli markets after Netanyahu's banking sanctions warning - www.israelhayom.com",
    "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
+   "How popular is the Iran War? - Silver Bulletin",
    "19 For 19: Wall Street's Favourite Election Stat Meets A Fed That Has Barely Started - NDTV Profit",
    "Gold price falls by Tk 3,325 per bhari - New Age BD",
    "Houthis launch attacks on Saudi Arabia and Yemen\u2019s Aden - Al Jazeera",
@@ -5324,7 +5356,8 @@
    "5 G10 Central Banks Meet; Reserve Bank of New Zealand & Bank of Canada Most Likely To Hike - Seeking Alpha",
    "World War III: Why Israel May Be Better Prepared Than Europe - The Times of Israel",
    "Gold price plunges by Rs 11,700 per tola in Nepali market - Khabarhub",
-   "Could silver rebound in 2027? What experts predict will happen next - USA Today",
+   "Oregon, Washington farmland values don\u2019t keep place with inflation - Blue Mountain Eagle",
+   "Gold Rate Today in Andhra Pradesh 25th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
    "The Week Ahead: Fed Rate Decision Looming as Microsoft, Alphabet, and Amazon Report Earnings - TradingKey",
    "Four ways Labour could raise money in the Budget without hiking income tax",
    "Obama Attacks Trump Over Iran War While Campaigning For El-Sayed In Michigan - i24NEWS",
@@ -5332,33 +5365,15 @@
    "Saudi-Led Coalition Intercepts Houthi Missile Aimed At Riyadh - Kurdistan24",
    "Obama accuses Trump of corruption, mocks Iran war claims - Middle East Online",
    "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-   "Gold Rates Today Hyderabad: Prices Stable On October 25 - INDToday",
+   "Trump says US ready to do business with Ukraine and Russia after war - Ukrinform",
    "Gold Price Falls by Rs 11,600 in Nepal - Nepalnews.com",
-   "Bitcoin price today: BTC recovers to $80,800 ahead of Fed meeting - Yahoo Finance Australia",
+   "Gold and Silver Prices Drop Ahead of Dhanteras and Diwali: Is It Time to Buy or Wait? - Pragativadi",
    "Gold price drops by Rs 11,700 per tola after Dashain holiday - OnlineKhabar English News",
    "Bots, deepfakes and surveillance: Israel\u2019s election goes to war online - Al Jazeera",
-   "LIVE: Riyadh targeted by Houthi missile and drone attacks, Saudi coalition says - Latest news from Azerbaijan",
-   "Gold prices drop again in Bangladesh - Banglanews24",
-   "\"We Don't Have 5 Years\": Celebrated American General Sounds Alarm On War - NDTV",
-   "Trump Pushes Economic Pressure, But US War Costs Hit American Households With $2,000 Burden - NewsCord",
-   "U.S. State Department Officials Back Bolsonaro Clan in Brazil Election, Push Sanctions: how 8 outlets framed it - NewsCord",
-   "Gold Rate Today in Hyderabad, October 25: 22K, 24K and Silver Prices - Hyderabad Mail",
-   "Polls open for presidential election in Bulgaria dominated by economic hardship and Ukraine war - Union-Bulletin",
-   "Gold Price Drops Significantly After Dashain Festival - Ratopati",
-   "Israel to close West Bank crossings on election day as crackdown escalates",
-   "US To Strike Iran Today? Trump Keeps World On Edge With \"Maybe\" Response - NDTV",
-   "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai - Livemint",
-   "Gold prices cut by Tk 3,324 per bhori in Bangladesh - en.bd-pratidin.com",
-   "European Deep Strike? Taking Shape. - Missile Matters \u2014 with Fabian Hoffmann",
-   "The right\u2019s obsession with \u2018civil war\u2019 in Britain - Financial Times",
-   "Oil at $116, FOMC and Big Tech Earnings Collide in a 'Week of Destiny' \u2014 Wall Street Braces for Volatility - BigGo Finance",
-   "Iran\u2019s supreme leader directs judiciary to pursue US-Israeli war reparations - Middle East Eye",
-   "Gold and silver rates today 25 Oct stable in Bengaluru and Chennai, check gold prices of 18K, 22K, 24K - The Hans India"
+   "LIVE: Riyadh targeted by Houthi missile and drone attacks, Saudi coalition says - Latest news from Azerbaijan"
   ]
  },
  "log": [
-  "23.10 17:50 B6  karar turu: Claude \u00abPiyasa kar\u0131\u015f\u0131k bir seyir izliyor: teknoloji \u00f6nde, geni\u015f endeks hafif ekside ve makro veriler n\u00f6tr oldu\u011fundan beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde toparlanma g\u00f6r\u00fclse de mevcut haber ve fiyat birle\u015fimi, kald\u0131ra\u00e7l\u0131 ve sabit hedefli i\u015flemler i\u00e7in yeterince net avantaj sunmuyor.\u00bb",
-  "23.10 18:01 N  NEWS (10 new) score -0.45 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve \"s\u0131\u011f\u0131nak\" varl\u0131k olarak da sat\u0131\u015f bask\u0131s\u0131 g\u00f6r\u00fcl\u00fcyor; bu, jeopolitik riskin alt\u0131na destek olmad\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Fed'in Ekim'de faiz sabit tutmas\u0131 ama Aral\u0131k'ta art\u0131\u015f ihtimalini y\u00fckseltmesi, g\u00fc\u00e7l\u00fc ABD PMI verileri ve enflasyon bask\u0131s\u0131 reel faiz ve dolar taraf\u0131nda alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. Ukrayna ve \u0130ran'daki gerilim haberleri ise k\u0131sa vadede yukar\u0131 y\u00f6nl\u00fc destek sa\u011flayabilir, ancak mevcut fiyat hareketi bu etkiyi bast\u0131r\u0131yor.",
   "23.10 18:01 N  GPT  score -0.35 conf 0.62: Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemesi, y\u00fcksek reel getiriler ve g\u00fc\u00e7l\u00fc PMI verilerinin Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi beklentisini desteklemesi k\u0131sa vadede bask\u0131 yarat\u0131yor. Kyiv\u2019e yeni sald\u0131r\u0131lar g\u00fcvenli liman talebini art\u0131rabilir; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki g\u00f6r\u00fcn\u00fcm\u00fcn g\u00fcc\u00fc s\u0131n\u0131rl\u0131.",
   "23.10 18:01 B1  SHORT gold 5000 USD x10 @ 4014.13 (TP 4010.11, SL 4016.54; news -0.45)",
   "23.10 18:01 B2  SHORT gold 5000 USD x10 @ 4015.71 (TP 4003.66, SL 4023.74; news -0.45)",
@@ -5656,7 +5671,9 @@
   "25.10 09:13 N  GPT  score +0.08 conf 0.31: Riyad\u2019a y\u00f6nelen Husi f\u00fczesinin \u00f6nlenmesi jeopolitik risk alg\u0131s\u0131n\u0131 s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde art\u0131rabilir; ancak sald\u0131r\u0131 etkisiz kald\u0131. Fed\u2019in beklenen faizleri sabit tutmas\u0131 ve \u00f6nceki d\u00fc\u015f\u00fc\u015f e\u011filimi alt\u0131ndaki yukar\u0131 y\u00f6nl\u00fc etkiyi dengeliyor.",
   "25.10 10:05 A  CLOSE SOLUSDT stop: -6.29 USD",
   "25.10 10:05 N  NEWS (21 new) score -0.20 conf 0.40: ",
-  "25.10 10:05 N  GPT  score +0.25 conf 0.42: Riyad\u2019a y\u00f6nelen f\u00fcze ve Husilerin sald\u0131r\u0131lar\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri ve Fed\u2019e dair yeni bir karar ya da faiz sinyali bulunmamas\u0131 y\u00f6n\u00fc belirsizle\u015ftiriyor."
+  "25.10 10:05 N  GPT  score +0.25 conf 0.42: Riyad\u2019a y\u00f6nelen f\u00fcze ve Husilerin sald\u0131r\u0131lar\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri ve Fed\u2019e dair yeni bir karar ya da faiz sinyali bulunmamas\u0131 y\u00f6n\u00fc belirsizle\u015ftiriyor.",
+  "25.10 10:43 N  NEWS (19 new) score -0.25 conf 0.40: Alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri, ABD'de 1 y\u0131ll\u0131k enflasyon beklentilerinin y\u00fckselmesi ve Fed karar\u0131n\u0131n yakla\u015fmas\u0131 ile birlikte s\u0131k\u0131la\u015fma beklentilerini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki fiyatlarda hen\u00fcz g\u00f6r\u00fclm\u00fcyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k yerel fiyat raporu niteli\u011finde ve geriye d\u00f6n\u00fck oldu\u011fundan sinyal g\u00fcc\u00fc s\u0131n\u0131rl\u0131.",
+  "25.10 10:43 N  GPT  score -0.15 conf 0.34: Houthi sald\u0131r\u0131lar\u0131 ve Ukrayna\u2019daki gerilim g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri ve Rusya\u2019ya y\u00f6nelik dizel yapt\u0131r\u0131mlar\u0131nda gev\u015feme i\u015fareti bu deste\u011fi dengeliyor. K\u0131sa vadeli net y\u00f6n zay\u0131f ve hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -6927,6 +6944,10 @@
    [
     1792911958,
     4964.78
+   ],
+   [
+    1792914204,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -8146,6 +8167,10 @@
    [
     1792911958,
     4973.18
+   ],
+   [
+    1792914204,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -9312,6 +9337,10 @@
    [
     1792911958,
     5005.69
+   ],
+   [
+    1792914204,
+    5005.69
    ]
   ]
  },
@@ -10187,6 +10216,10 @@
    [
     1792911958,
     4988.82
+   ],
+   [
+    1792914204,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -11019,6 +11052,10 @@
    [
     1792911958,
     5021.88
+   ],
+   [
+    1792914204,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -11720,6 +11757,10 @@
    ],
    [
     1792911958,
+    100000.0
+   ],
+   [
+    1792914204,
     100000.0
    ]
   ],
