@@ -197,6 +197,7 @@ input{width:100%;font:14px var(--mono);color:var(--ice);background:rgba(0,0,0,.3
         <section id="mail"></section>
       </div>
     </div>
+    <section id="audit"></section>
     <section id="agents"></section>
     <div class="grid">
       <section id="lumo"></section>
@@ -214,24 +215,26 @@ input{width:100%;font:14px var(--mono);color:var(--ice);background:rgba(0,0,0,.3
 const REPO="namistain14/vumeloo-agent", OPS="namistain14/namistain-ops", TRADE="namistain14/trade-lab";
 const TRADE_RAW="https://raw.githubusercontent.com/namistain14/trade-lab/main/state/state.json";
 const TZ="Europe/Istanbul";
-const SERIES={lumo:{name:"Lumo",hero:"tilki",hist:"data/history.json",at:[6,17]},
+const SERIES={lumo:{name:"Lumo şarkısı",hero:"tilki · günlük çocuk şarkısı",hist:"data/songs_history.json",at:[6,17],wf:"lumo_song.yml"},
               nubi:{name:"Nubi",hero:"küçük elektrikli araba",hist:"data/nubi/history.json",at:[7,17]},
-              you:{name:"You Are Here",hero:"Hayatta Kal / Survive",hist:"data/you/history.json",at:[7,30],at2:[8,30]}};
+              you:{name:"You Are Here",hero:"Hayatta Kal / What If · elle, onaylı",hist:"data/you/history.json",paused:true}};
 // every automatic worker, where it runs and when
 const AGENTS=[
-  {id:"lumo",dom:"content",name:"Lumo şarkısı",what:"Her gün öğretici Lumo şarkısı (ElevenLabs + Kling, karaoke) → YouTube gizli",repo:REPO,wf:"lumo_song.yml",at:[[6,17]]},
+  {id:"lumo",dom:"content",name:"Lumo şarkısı",what:"Her gün öğretici Lumo şarkısı (ElevenLabs Music + Kling, karaoke) → YouTube gizli",repo:REPO,wf:"lumo_song.yml",at:[[6,17]]},
   {id:"nubi",dom:"content",name:"Nubi",what:"Elektrikli araba hikâyesi → YouTube gizli",repo:REPO,wf:"daily.yml",series:"nubi",at:[[7,17]]},
-  {id:"you",dom:"content",name:"You Are Here",what:"Hayatta Kal İstanbul (TR) + Survive New York (EN) dizileri, yorumda A/B oylama → YouTube gizli",repo:REPO,wf:"daily.yml",series:"you",at:[[7,30],[8,30]]},
-  {id:"status",dom:"company",name:"Panel verisi",short:"Panel",what:"Jarvis için durum toplar",repo:REPO,wf:"status.yml",at:[[8,41]],extra:"+ her koşudan sonra"},
-  {id:"tick",dom:"trade",iv:5,name:"Trade botları (A-B5)",short:"Botlar A-B5",what:"Sanal alım-satım kontrolü",repo:TRADE,wf:"tick.yml",every:"5 dk",stale:25},
-  {id:"report",dom:"trade",name:"Trade raporu",short:"Rapor",what:"Günlük bot raporu",repo:TRADE,wf:"report.yml",at:[[21,5]]},
-  {id:"orders",dom:"company",iv:15,name:"Sipariş bildirimi",short:"Siparişler",what:"Yeni web siparişi → Telegram",repo:OPS,wf:"orders.yml",every:"15 dk (08-22)",stale:40,hours:[8,22]},
-  {id:"sales",dom:"company",name:"Satış özeti",short:"Satış",what:"Son 12 saat satış → Telegram",repo:OPS,wf:"sales.yml",at:[[8,30],[20,30]]},
+  {id:"you",dom:"content",name:"You Are Here",what:"Günlük koşu durduruldu. Yeni yöntem: kodla çizilen animasyon + ElevenLabs sesleri, senaryo önce sana gösterilir",repo:REPO,wf:"anim_kirk.yml",manual:"elle (onaylı)",noFail:true},
   {id:"igsync",dom:"content",iv:60,name:"Instagram yayıncı",short:"Instagram",what:"YouTube'da yayına alınan video → Instagram Reel (@vumeloostudios, @youarehere.shorts)",repo:REPO,wf:"ig_sync.yml",every:"saat başı (07-23)",stale:150,hours:[8,23]},
-  {id:"b6",dom:"trade",iv:15,name:"B6 ABD hisse botu",short:"B6 ABD",what:"Alpaca sanal hesap · Claude Opus + GPT-6.1 Sol hemfikirse işlem (16:30-23:00)",repo:TRADE,wf:"tick.yml",every:"15 dk karar"},
-  {id:"seo",dom:"company",name:"SEO ajanı",short:"SEO",what:"Ürün açıklaması (Claude yazar, GPT doğrular) → namistain.com",repo:OPS,wf:"seo.yml",at:[[10,7]]},
-  {id:"dm",dom:"company",name:"DM asistanı",short:"DM",what:"Instagram + WhatsApp mesajlarına Excel listelerinden direkt cevap (Cloudflare kurulumu bekliyor)",repo:OPS,wf:"dm-deploy.yml",manual:"kurulum bekliyor"},
-  {id:"accounts",dom:"company",name:"Hesap kontrolü",short:"Hesaplar",what:"Kling, OpenAI, ElevenLabs, Claude bakiyesi ve anahtar testi",repo:REPO,wf:"accounts.yml",manual:"istenince"}];
+  {id:"status",dom:"company",name:"Panel verisi",short:"Panel",what:"Jarvis için durum + içerik denetimi toplar",repo:REPO,wf:"status.yml",at:[[8,41],[13,41],[19,41]],extra:"+ her koşudan sonra"},
+  {id:"accounts",dom:"company",name:"Hesap kontrolü",short:"Hesaplar",what:"Kling, OpenAI, ElevenLabs, Anthropic bakiyesi ve anahtar testi",repo:REPO,wf:"accounts.yml",at:[[8,35]]},
+  {id:"audit",dom:"company",name:"Denetçi",what:"Şirket + trade ajanlarının işini kontrol eder; sorun varsa Telegram (08:50 özet)",repo:OPS,wf:"audit.yml",at:[[8,50],[14,50],[21,50]]},
+  {id:"orders",dom:"company",iv:15,name:"Sipariş bildirimi",short:"Siparişler",what:"Yeni web siparişi → Telegram",repo:OPS,wf:"orders.yml",every:"15 dk (08-22)",stale:45,hours:[8,22]},
+  {id:"sales",dom:"company",name:"Satış özeti",short:"Satış",what:"Hepsiburada son 12 saat → Telegram",repo:OPS,wf:"sales.yml",at:[[8,30],[20,30]]},
+  {id:"seo",dom:"company",name:"SEO ajanı",short:"SEO",what:"Ürün açıklamaları (Claude yazar, GPT doğrular) → namistain.com · aktif ürünlerin hepsi bitti, yeni ürün gelirse yazar",repo:OPS,wf:"seo.yml",at:[[10,7]]},
+  {id:"dm",dom:"company",name:"DM asistanı",short:"DM",what:"Instagram @namistainamortisor mesajlarına katalogdan cevap (Cloudflare, canlı) · kopyası Telegram'a",repo:OPS,wf:"dm-deploy.yml",manual:"her mesajda",ping:"https://namistain-dm.namistaintv.workers.dev/health"},
+  {id:"mail",dom:"company",name:"Mail asistanı",short:"Mail",what:"namistaintv@gmail.com gelen kutusu, acil/önemli olanlar telefona",every:"saat başı :31 (08-22)",mailStale:100},
+  {id:"tick",dom:"trade",iv:30,name:"Trade botları (A-B5)",short:"Botlar A-B5",what:"Sanal alım-satım kontrolü",repo:TRADE,wf:"tick.yml",every:"~30 dk",stale:55},
+  {id:"b6",dom:"trade",iv:15,name:"B6 ABD hisse botu",short:"B6 ABD",what:"Alpaca sanal hesap · Claude Opus + GPT-6.1 Sol hemfikirse işlem (hafta içi 16:30-23:00)",repo:TRADE,wf:"tick.yml",every:"seansta"},
+  {id:"report",dom:"trade",name:"Trade raporu",short:"Rapor",what:"Günlük bot raporu",repo:TRADE,wf:"report.yml",at:[[21,5]]}];
 const IG_TOKEN_EXPIRES="2026-12-22";
 const BOTS=[["crypto_rules","A","Kripto kurallar"],["crypto_bounce","A2","Kripto düşüş sonrası"],
             ["gold_news","B1","Altın + haber"],["gold_big","B2","Altın sıkı eşik"],
@@ -272,6 +275,14 @@ function nextRun(at){
   const nowMin=(+p.hour%24)*60+ +p.minute, tgt=at[0]*60+at[1];
   return (tgt-nowMin+(tgt<=nowMin?1440:0))*60000;
 }
+function songStages(notes,status){
+  const has=k=>notes.some(n=>n.msg.startsWith(k));
+  const st=[["Söz","Song written"],["Şarkı","Lyrics matched"],["Kling sahneler","Kling shots OK"],["Video","Song video OK"],["YouTube (gizli)","Uploaded as PRIVATE"]];
+  let firstMissing=true;
+  return st.map(([label,k])=>{const done=has(k);let cls=done?"done":"";
+    if(!done&&firstMissing){firstMissing=false;if(status==="failure")cls="fail"}
+    return `<span class="stage ${cls}">${done?"✓ ":""}${label}</span>`}).join("");
+}
 function stageList(notes,status){
   const has=k=>notes.some(n=>n.msg.startsWith(k));
   const st=[["Senaryo","Script OK"],["Ses","Voices OK"],["Kling video","Video scenes OK"],["YouTube (gizli)","Uploaded as PRIVATE"]];
@@ -284,10 +295,13 @@ function stageList(notes,status){
 
 async function load(){
   const wfRuns=(repo,wf,n)=>gh(`/repos/${repo}/actions/workflows/${wf}/runs?per_page=${n}`).then(x=>x.workflow_runs);
-  const otherAgents=AGENTS.filter(a=>a.wf!=="daily.yml");
+  const otherAgents=AGENTS.filter(a=>a.wf&&a.wf!=="daily.yml");
   const otherP=Promise.allSettled(otherAgents.map(a=>wfRuns(a.repo,a.wf,3)));
   const histYP=ghJson(`/repos/${REPO}/contents/${SERIES.you.hist}`).catch(()=>[]);
   const mailP=ghJson(`/repos/${REPO}/contents/mail.json?ref=mail`).catch(()=>null);
+  const auditP=ghJson(`/repos/${OPS}/contents/data/audit.json`).catch(()=>null);
+  const pingP=Promise.all(AGENTS.filter(a=>a.ping).map(a=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),8000);
+    return fetch(a.ping,{mode:"no-cors",cache:"no-store",signal:c.signal}).then(()=>[a.id,true],()=>[a.id,false]).finally(()=>clearTimeout(t))})).then(Object.fromEntries);
   const [runsR,statusR,histL,histN,tradeR]=await Promise.allSettled([
     gh(`/repos/${REPO}/actions/workflows/daily.yml/runs?per_page=25`),
     ghJson(`/repos/${REPO}/contents/status.json?ref=status`),
@@ -332,20 +346,21 @@ async function load(){
 
   // series cards
   for(const key of ["lumo","nubi","you"]){
-    const S=SERIES[key], h=hist[key], ep=h[h.length-1];
-    const last=runs.find(r=>seriesOf(r)===key&&r.status==="completed");
-    const notes=last?notesById[last.id]||[]:[];
-    const pill=!last?'<span class="pill dim">kayıt yok</span>':last.conclusion==="success"?'<span class="pill ok">başarılı</span>':`<span class="pill bad">${esc(last.conclusion)}</span>`;
+    const S=SERIES[key], h=hist[key]||[], ep=h[h.length-1];
+    const last=key==="lumo"?(Array.isArray(runsOf.lumo)?runsOf.lumo.find(r=>r.status==="completed"):null):runs.find(r=>seriesOf(r)===key&&r.status==="completed");
+    const notes=key==="lumo"?(status?.song?.notes||[]):last?notesById[last.id]||[]:[];
+    const pill=S.paused?'<span class="pill warn">günlük koşu durduruldu</span>':!last?'<span class="pill dim">kayıt yok</span>':last.conclusion==="success"?'<span class="pill ok">başarılı</span>':`<span class="pill bad">${esc(last.conclusion)}</span>`;
     const tt=[S.at,S.at2].filter(Boolean);
-    $(key).innerHTML=`<h2>${S.name} <small>${S.hero} · her gün ${tt.map(t=>String(t[0]).padStart(2,"0")+":"+t[1]).join(" ve ")}</small></h2>
-      ${ep?`<div class="title">${ep.season?`S${ep.season}E${String(ep.episode).padStart(2,"0")} · `:""}${esc(ep.title)}</div>
+    $(key).innerHTML=`<h2>${S.name} <small>${S.hero}${tt.length?" · her gün "+tt.map(t=>String(t[0]).padStart(2,"0")+":"+t[1]).join(" ve "):""}</small></h2>
+      ${ep?`<div class="title">${ep.season?`S${ep.season}E${String(ep.episode).padStart(2,"0")} · `:ep.episode?`Bölüm ${ep.episode} · `:""}${esc(ep.title)}</div>
       <div class="row"><span class="dim">Tarih</span><span class="mono">${esc(ep.date)}</span></div>
       <div class="row"><span class="dim">YouTube</span><a class="mono" href="https://studio.youtube.com/video/${encodeURIComponent(ep.youtube_id)}/edit" target="_blank" rel="noopener">${esc(ep.youtube_id)}</a></div>`:'<p class="dim">Henüz bölüm yok.</p>'}
-      <div class="row"><span class="dim">Son koşu</span><span>${pill} <span class="mono dim">${last?dhm(last.run_started_at):""}</span></span></div>
-      <div class="row"><span class="dim">Sonraki koşu</span><span class="mono">${mins(Math.min(...tt.map(nextRun)))} sonra</span></div>
-      ${last&&key!=="you"?`<div class="stages">${stageList(notes,last.conclusion)}</div>`:""}
-      <p class="note">${h.length} bölüm kayıtlı. Yayına alma senin elinde.</p>`;
-    if(last&&last.conclusion==="failure")problems.push(["bad",`${S.name} son koşusu başarısız (${dhm(last.run_started_at)})`]);
+      <div class="row"><span class="dim">${S.paused?"Durum":"Son koşu"}</span><span>${pill} <span class="mono dim">${last&&!S.paused?dhm(last.run_started_at):""}</span></span></div>
+      ${tt.length?`<div class="row"><span class="dim">Sonraki koşu</span><span class="mono">${mins(Math.min(...tt.map(nextRun)))} sonra</span></div>`:""}
+      ${last&&key==="nubi"?`<div class="stages">${stageList(notes,last.conclusion)}</div>`:""}
+      ${last&&key==="lumo"?`<div class="stages">${songStages(notes,last.conclusion)}</div>`:""}
+      <p class="note">${S.paused?"Yeni bölümler elle ve senin onayınla üretiliyor (önce senaryo yazı olarak gelir). ":""}${h.length} ${key==="lumo"?"şarkı":"bölüm"} kayıtlı. Yayına alma senin elinde.</p>`;
+    if(!S.paused&&last&&last.conclusion==="failure")problems.push(["bad",`${S.name} son koşusu başarısız (${dhm(last.run_started_at)})`]);
   }
 
   // Kling
@@ -354,21 +369,27 @@ async function load(){
     for(const r of status?.runs||[]){const n=r.notes||[];const l=n.find(x=>x.msg.startsWith("Kling API units left"));
       if(l){const u=n.find(x=>x.msg.startsWith("Kling units used today"));units=parseFloat(l.msg.split(":")[1])-(u?parseFloat(u.msg.split(":")[1]):0);src="son koşu notu";break}}
   }
-  const per=(status?.kling?.units_per_episode||20)*(status?.kling?.episodes_per_day||2);
+  const per=status?.kling?.per_day||(status?.kling?.units_per_episode||20)*(status?.kling?.episodes_per_day||2);
+  const acc=status?.accounts||{}, eleven=acc.eleven_left, ELEVEN_PER_DAY=6800;
   const low=status?.kling?.low_mark||30;
   if(units!=null){
     const days=units/per, cls=units<low?"bad":days<4?"warn":"ok";
-    $("kling").innerHTML=`<h2>Kling bakiyesi <small>${esc(src)}${status?" · "+ago(status.generated_at):""}</small></h2>
+    $("kling").innerHTML=`<h2>Bakiyeler <small>${esc(src)}${status?" · "+ago(status.generated_at):""}</small></h2>
       <div class="big ${cls}">${Math.round(units)}<span class="dim" style="font-size:15px"> birim</span></div>
       <div class="bar"><i style="width:${Math.min(100,units/2)}%"></i></div>
       <div class="row"><span class="dim">Yeterli olduğu süre</span><span class="mono ${cls}">≈ ${days.toFixed(1)} gün</span></div>
-      <div class="row"><span class="dim">Günlük tüketim</span><span class="mono">≈ ${per} birim (2 bölüm)</span></div>
-      <p class="note">Sonraki paket: $98 Trial 2. Bakiye biterse koşu "bakiye" hatasıyla durur, tekrar denemez.</p>`;
+      <div class="row"><span class="dim">Günlük tüketim</span><span class="mono">≈ ${Math.round(per)} birim</span></div>
+      <div class="row"><span class="dim">Dağılım</span><span class="mono dim">Lumo şarkısı ${status?.kling?.song_per_day??"~47"} · Nubi ${status?.kling?.nubi_per_episode??"~20"}</span></div>
+      ${eleven!=null?`<div class="row"><span class="dim">ElevenLabs kredisi</span><span class="mono ${eleven/ELEVEN_PER_DAY<5?"bad":eleven/ELEVEN_PER_DAY<10?"warn":"ok"}">${Math.round(eleven).toLocaleString("tr-TR")} · ≈ ${(eleven/ELEVEN_PER_DAY).toFixed(0)} gün</span></div>`:""}
+      ${Object.entries(acc.services||{}).map(([k,v])=>`<div class="row"><span class="dim">${esc(k)}</span><span class="${v.state==="ok"?"ok":"bad"}">${v.state==="ok"?"çalışıyor":esc(v.state)}</span></div>`).join("")}
+      <p class="note">Hesap kontrolü her gün 08:35${acc.when?`, son: ${dhm(acc.when)}`:""}. Kling biterse koşu "bakiye" hatasıyla durur, tekrar denemez.</p>`;
     if(days<4)problems.unshift([units<low?"bad":"warn",`Kling bakiyesi ${Math.round(units)} birim, ≈ ${days.toFixed(1)} gün yeter. Paketi yenile.`]);
-  } else $("kling").innerHTML=`<h2>Kling bakiyesi</h2><p class="dim">Henüz okunmadı. Durum dosyası bir sonraki koşudan sonra gelir.</p>`;
+    if(eleven!=null&&eleven/ELEVEN_PER_DAY<5)problems.unshift(["warn",`ElevenLabs kredisi ${Math.round(eleven).toLocaleString("tr-TR")}, ≈ ${(eleven/ELEVEN_PER_DAY).toFixed(0)} gün yeter.`]);
+  } else $("kling").innerHTML=`<h2>Bakiyeler</h2><p class="dim">Henüz okunmadı. Durum dosyası bir sonraki koşudan sonra gelir.</p>`;
 
   // mail feed (written hourly 08:30-23:00 by the mail assistant)
-  {const m=await mailP;const items=(m?.items||[]).slice(0,8);
+  const mailData=await mailP, pings=await pingP, auditOps=await auditP;
+  {const m=mailData;const items=(m?.items||[]).slice(0,8);
    $("mail").innerHTML=`<h2>Postalar <small>${m?.checked?"son kontrol "+ago(m.checked):"saatlik, 08:30-23:00"}</small></h2>`+
      (items.length?`<ul class="alerts">${items.map(i=>`<li class="${i.level==="acil"?"bad":""}"><b>${esc(i.from)}</b> · ${esc(i.subject)}<div class="dim" style="font-size:12.5px;margin-top:2px">${esc(i.summary)} <a href="${esc(i.url)}" target="_blank" rel="noopener">aç</a> · ${dhm(i.at)}</div></li>`).join("")}</ul>`
        :'<p class="dim">Henüz önemli mail yok. Asistan her saat :31\'de gelen kutusuna bakar.</p>');
@@ -377,6 +398,10 @@ async function load(){
   const nowMs=Date.now(); let running=0, healthy=0; const noAccessRepos=new Set();
   const states=AGENTS.map(a=>{
     const rs=runsOf[a.id];
+    if(a.id==="mail"){const c=mailData?.checked;const h=+fmt(nowMs,{hour:"2-digit",hour12:false})%24;
+      if(!c)return {a,dot:"warn",state:'<span class="warn">veri yok</span>',plain:"veri yok",lastTxt:"—",whenTxt:"her "+a.every,nextMs:60*60000};
+      const late=h>=9&&h<23&&nowMs-new Date(c)>a.mailStale*60000;if(!late)healthy++;
+      return {a,dot:late?"warn":"ok",state:late?`<span class="warn">gecikti</span> <span class="dim">${ago(c)}</span>`:'<span class="ok">tamam</span>',plain:late?"gecikti":"tamam",lastTxt:ago(c),whenTxt:"her "+a.every,nextMs:(60-((new Date().getMinutes()+29)%60))*60000}}
     if(rs&&rs.error){
       const noAccess=rs.error.status===404||rs.error.status===403;
       if(noAccess)noAccessRepos.add(a.repo.split("/")[1]);
@@ -390,6 +415,8 @@ async function load(){
     if(!act&&last&&a.stale){const h=+fmt(nowMs,{hour:"2-digit",hour12:false})%24;
       const inHours=!a.hours||(h>=a.hours[0]&&h<a.hours[1]);
       if(inHours&&nowMs-new Date(last.updated_at)>a.stale*60000){dot="warn";plain+=", gecikti";state+=` <span class="warn">gecikti</span>`}}
+    if(a.ping&&pings[a.id]===false){dot="bad";plain="cevap vermiyor";state='<span class="bad">cevap vermiyor</span>'}
+    else if(a.ping&&pings[a.id]&&a.manual){dot="ok";plain="canlı";state='<span class="ok">canlı</span>'}
     if(a.id==="b6"&&trade?.stocks_ai){const b6=trade.stocks_ai;
       state+=`<div class="dim" style="font-size:12px">seans ${b6.market_open?"açık":"kapalı"}, ${(b6.account?.positions||[]).length} pozisyon</div>`;
       if(b6.error){dot="warn";plain=b6.error;state=`<span class="warn">${esc(b6.error)}</span>`}}
@@ -406,7 +433,30 @@ async function load(){
   drawRadar(states,running);
   const nextUp=states.filter(x=>x.a.at).sort((p,q)=>p.nextMs-q.nextMs)[0];
   for(const a of AGENTS){const rs=runsOf[a.id];const last=Array.isArray(rs)&&rs.find(r=>r.status==="completed");
-    if(last&&last.conclusion==="failure"&&!a.series)problems.push(["bad",`${a.name} son koşusu başarısız (${dhm(last.updated_at)})`])}
+    if(last&&last.conclusion==="failure"&&!a.series&&!a.noFail)problems.push(["bad",`${a.name} son koşusu başarısız (${dhm(last.updated_at)})`])}
+
+  // audit: did every agent finish today's job? content side from status.json, company/trade side from the ops auditor,
+  // plus what the panel can see live (mail freshness, DM worker, trade tick)
+  {const NAME={lumo:"Lumo şarkısı",nubi:"Nubi",igsync:"Instagram yayıncı",accounts:"Hesaplar"};
+   const rows=[];
+   (status?.audit||[]).forEach(c=>rows.push({who:NAME[c.id]||c.id,lvl:c.level,msg:c.msg,src:"içerik"}));
+   if(!status?.audit)rows.push({who:"İçerik ajanları",lvl:"warn",msg:"İçerik denetimi henüz yok (Panel verisi bir sonraki koşuda yazar)",src:"içerik"});
+   (auditOps?.summary||[]).forEach(c=>rows.push({who:c.agent,lvl:c.level,msg:c.msg,src:"denetçi"}));
+   if(!auditOps)rows.push({who:"Şirket + trade",lvl:"warn",msg:"Denetçi henüz çalışmadı (08:50, 14:50, 21:50) veya namistain-ops erişimi yok",src:"denetçi"});
+   const mailAg=AGENTS.find(a=>a.id==="mail");const mc=mailData?.checked;const hh=+fmt(nowMs,{hour:"2-digit",hour12:false})%24;
+   rows.push({who:"Mail asistanı",lvl:!mc?"warn":hh>=9&&hh<23&&nowMs-new Date(mc)>mailAg.mailStale*60000?"warn":"ok",msg:mc?`son kontrol ${ago(mc)}`:"mail.json yok",src:"panel"});
+   if(pings.dm!==undefined&&!(auditOps?.summary||[]).some(c=>c.agent==="DM asistanı"&&c.level==="ok"))
+     rows.push({who:"DM asistanı",lvl:pings.dm?"ok":"bad",msg:pings.dm?"worker cevap veriyor":"worker cevap vermiyor",src:"panel"});
+   const ord={bad:0,warn:1,info:2,ok:3}; rows.sort((p,q)=>ord[p.lvl]-ord[q.lvl]);
+   const nBad=rows.filter(r=>r.lvl==="bad").length,nWarn=rows.filter(r=>r.lvl==="warn").length,nOk=rows.filter(r=>r.lvl==="ok").length;
+   const DOT={bad:"bad",warn:"warn",info:"run",ok:"ok"};
+   $("audit").innerHTML=`<h2>Denetim <small>her ajan bugünkü işini yaptı mı · ${nOk}/${rows.length} tamam${status?.generated_at?` · içerik ${ago(status.generated_at)}`:""}${auditOps?.checked?` · şirket ${ago(auditOps.checked)}`:""}</small></h2>
+     <div class="groups" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">${rows.map(r=>`<div class="ag" style="grid-template-columns:auto 1fr"><span class="dot ${DOT[r.lvl]}"></span>
+       <span class="nm">${esc(r.who)}</span><span class="wh" style="grid-column:2">${esc(r.msg)}</span></div>`).join("")}</div>
+     <p class="note">İçerik denetimi 08:41, 13:41, 19:41 ve her üretimden sonra; şirket/trade denetimi 08:50 (Telegram özeti), 14:50 ve 21:50 (sadece sorun varsa Telegram).</p>`;
+   rows.filter(r=>r.lvl==="bad").forEach(r=>problems.push(["bad",`${r.who}: ${r.msg}`]));
+   rows.filter(r=>r.lvl==="warn").forEach(r=>problems.push(["warn",`${r.who}: ${r.msg}`]));
+  }
 
   // bots: open positions with live price, last moves
   if(trade){
@@ -428,7 +478,7 @@ async function load(){
         return `<p class="note"><b class="mag">B6</b> ABD seansı ${b6.market_open?'<span class="ok">AÇIK</span>':'<span class="dim">kapalı</span>'} (16:30-23:00 TR) · hesap ${(b6.account.equity||b6.account.balance).toLocaleString("tr-TR",{maximumFractionDigits:0})} $
         ${v.ts?`<br>Son karar ${ago(v.ts)} · Claude (${esc(v.claude_model||"")}): ${esc(v.claude||"—")}<br>GPT (${esc(v.gpt_model||"")}): ${esc(v.gpt||"—")}`:""}</p>`})()}
       <p class="note">A2 sadece 2 saat içinde %2+ düşüşten sonra alır; piyasa sakinse gün boyu işlem açmaması normal. B botları haber puanı eşiği geçince işlem açar.</p>`;
-    if(lastTick&&nowMs-lastTick>40*60000)problems.push(["warn",`Trade botları ${ago(lastTick)} kontrol edildi (GitHub zamanlaması gecikiyor olabilir).`]);
+    if(lastTick&&nowMs-lastTick>60*60000)problems.push(["warn",`Trade botları ${ago(lastTick)} kontrol edildi (GitHub zamanlaması gecikiyor olabilir).`]);
   } else $("botlive").innerHTML="";
 
   {const left=Math.round((new Date(IG_TOKEN_EXPIRES)-Date.now())/86400000);
@@ -454,7 +504,7 @@ async function load(){
   const tpnl=total-totalStart;
   $("bots").innerHTML=`<h2>Trade botları <small>sanal para: A-B5 her biri 5.000 $, B6 100.000 $</small></h2>
     ${trade?`<div class="tbl"><table><thead><tr><th>Bot</th><th>Hesap $</th><th>Bugün</th><th>Toplam</th><th>İşlem</th><th>Pozisyon</th><th>Eğri</th></tr></thead><tbody>${rows}</tbody></table></div>`:'<p class="dim">Okunamadı.</p>'}
-    <p class="note">Botlar her 5 dakikada kontrol eder (GitHub bazen 10-15 dk geciktirir), günlük rapor 21:05. 2-3 hafta veri sonra eşikler sıkılaştırılacak.</p>`;
+    <p class="note">Botlar 5 dakikaya ayarlı ama GitHub sık zamanlamaları geciktiriyor: gerçekte ~30-40 dakikada bir kontrol ediyor. Günlük rapor 21:05. 2-3 hafta veri sonra eşikler sıkılaştırılacak.</p>`;
 
   // strip
   const kcls=units==null?"dim":units<low?"bad":units/per<4?"warn":"ok";
