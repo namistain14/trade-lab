@@ -198,6 +198,7 @@ input{width:100%;font:14px var(--mono);color:var(--ice);background:rgba(0,0,0,.3
       </div>
     </div>
     <section id="audit"></section>
+    <section id="polls"></section>
     <section id="agents"></section>
     <div class="grid">
       <section id="lumo"></section>
@@ -300,6 +301,7 @@ async function load(){
   const histYP=ghJson(`/repos/${REPO}/contents/${SERIES.you.hist}`).catch(()=>[]);
   const mailP=ghJson(`/repos/${REPO}/contents/mail.json?ref=mail`).catch(()=>null);
   const auditP=ghJson(`/repos/${OPS}/contents/data/audit.json`).catch(()=>null);
+  const pollsP=ghJson(`/repos/${REPO}/contents/polls.json?ref=polls`).catch(()=>null);
   const pingP=Promise.all(AGENTS.filter(a=>a.ping).map(a=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),8000);
     return fetch(a.ping,{mode:"no-cors",cache:"no-store",signal:c.signal}).then(()=>[a.id,true],()=>[a.id,false]).finally(()=>clearTimeout(t))})).then(Object.fromEntries);
   const [runsR,statusR,histL,histN,tradeR]=await Promise.allSettled([
@@ -457,6 +459,24 @@ async function load(){
    rows.filter(r=>r.lvl==="bad").forEach(r=>problems.push(["bad",`${r.who}: ${r.msg}`]));
    rows.filter(r=>r.lvl==="warn").forEach(r=>problems.push(["warn",`${r.who}: ${r.msg}`]));
   }
+
+  // polls: A/B votes of the open episodes, from the Instagram comments (twice a day)
+  {const pd=await pollsP;
+   const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+   $("polls").innerHTML=`<h2>Oylamalar <small>${pd?.checked?"Instagram yorumları · "+ago(pd.checked):"her gün 08:20 ve 20:20"}</small></h2>`+
+     ((pd?.polls||[]).length?`<div class="groups" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))">`+pd.polls.map(p=>{
+       const tot=p.A+p.B, ap=tot?Math.round(p.A/tot*100):0, bp=tot?100-ap:0, win=!tot?"":p.A>p.B?"A":p.B>p.A?"B":"=";
+       const bullets=(p.summary||"").split(/\n+/).map(x=>x.replace(/^[-•*]\s*/,"")).filter(Boolean).slice(0,4);
+       return `<div style="padding:12px 0;border-top:1px solid var(--hair)">
+         <div class="nm" style="font-weight:500">${esc(p.series)} <span class="dim" style="font-weight:400">· ${esc(p.episode)}</span></div>
+         <div class="dim" style="font-size:12.5px;margin:2px 0 8px">${p.comments} yorum · ${p.likes??"—"} beğeni · ${tot} oy${win&&win!=="="?` · <b class="${win==="A"?"mag":"ok"}">${win} önde</b>`:win==="="?" · berabere":""}</div>
+         <div class="row" style="padding:4px 0"><span>A) ${esc(p.a)}</span><span class="mono">${p.A} · %${ap}</span></div>
+         <div class="bar" style="margin:2px 0 6px"><i style="width:${ap}%"></i></div>
+         <div class="row" style="padding:4px 0"><span>B) ${esc(p.b)}</span><span class="mono">${p.B} · %${bp}</span></div>
+         <div class="bar" style="margin:2px 0 8px"><i style="width:${bp}%;background:linear-gradient(90deg,#3aa86b,var(--mint))"></i></div>
+         ${bullets.length?`<ul class="alerts" style="margin-top:6px">${bullets.map(b=>`<li style="background:rgba(98,227,255,.05)">${md(b)}</li>`).join("")}</ul>`:""}
+         ${(p.top||[]).slice(0,3).map(c=>`<div class="dim" style="font-size:12.5px;margin-top:6px">❝${esc(c.text)}❞ <span class="mono">${c.likes}♥${c.vote?" · "+c.vote:""}</span></div>`).join("")}
+       </div>`}).join("")+`</div>`:'<p class="dim">Henüz oylama verisi yok. "Polls" ajanı her gün 08:20 ve 20:20\'de yorumları sayar.</p>');}
 
   // bots: open positions with live price, last moves
   if(trade){
