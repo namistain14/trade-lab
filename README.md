@@ -1,25 +1,24 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 17:06 (İstanbul)
+> Son güncelleme: 25.10.2026 17:38 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -6.29 $ | -6.00 $ |
-| İşlem sayısı | 1 | 2 |
-| Kazanma oranı | %0.0 | %50.0 |
-| Ödenen komisyon/spread | 2.00 $ | 4.00 $ |
+| Net kâr/zarar | -5.30 $ | -5.00 $ |
+| İşlem sayısı | 2 | 3 |
+| Kazanma oranı | %50.0 | %66.7 |
+| Ödenen komisyon/spread | 4.00 $ | 6.00 $ |
 
-**Hesap değeri: 4,996.38 $** (başlangıç 5,000 $, -3.62 $ / %-0.07)
-
-Açık pozisyonlar: BTCUSDT long @ 80063.88 (TP 8006388.20 / SL 0.00)
+**Hesap değeri: 4,995.00 $** (başlangıç 5,000 $, -5.00 $ / %-0.10)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 25.10 17:28 | BTCUSDT | long | +0.99 $ | time limit |
 | 25.10 09:51 | SOLUSDT | long | -6.29 $ | stop |
 | 23.10 09:46 | ETHUSDT | long | +0.30 $ | time limit |
 
@@ -154,7 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 11:10 N  GPT  score +0.08 conf 0.26: İsrail-Filistin ve İran çevresindeki gerilim haberleri güvenli liman talebini hafifçe destekleyebilir; ancak bunlar büyük ölçüde söylem niteliğinde ve yeni bir tırmanış göstermiyor. Altının düştüğüne dair haberler yakın vadeli yukarı yönü sınırlıyor; Fed, dolar veya faiz beklentilerinde belirgin yen
 25.10 11:47 N  NEWS (19 new) score +0.05 conf 0.30: 
 25.10 11:47 N  GPT  score +0.22 conf 0.34: İran’a yönelik olası saldırı ve Husilerin füze saldırısının engellenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak haberler teyit ve zamanlama açısından belirsiz; yükselen enflasyon beklentileri ile petrol akışının arttığı haberi bu desteği sınırlıyor.
 25.10 12:14 N  NEWS (13 new) score +0.30 conf 0.40: Yeni haberlerde İran'ın savaşın yeniden başlayabileceği yönündeki uyarıları ve ABD'nin İran'a Pazar günü saldırabileceği açıklaması jeopolitik risk primi yaratarak altı destekliyor. Buna karşılık bu haftaki Fed toplantısı ve ABD enflasyon beklentilerinin yükselişi, faiz artışı ihtimalini artırıp altı baskılayabilir; ayrıca ilgili riskler kısmen fiyatlanmış olabileceğinden etki sınırlı kalabilir.
@@ -169,6 +167,7 @@ Son işlemler:
 25.10 14:18 N  GPT  score +0.20 conf 0.35: İran’ın tehditleri ve Suudi Arabistan’a yönelik füze/İHA saldırıları güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak gelişmelerin bir kısmı süreklilik arz ediyor; euronun zayıflaması ve altındaki yakın dönem düşüşü yönü belirsizleştiriyor.
 25.10 14:51 N  NEWS (14 new) score +0.10 conf 0.35: İran'la olası savaş tırmanışı ve Hürmüz'deki aksamalar jeopolitik risk primini hafifçe destekliyor. Ancak "altın 4.000 doların altına düştü" başlığı ve hisse senedi çöküşü, fiyatta nakit ihtiyacı kaynaklı satış ya da dolar/faiz baskısı olabileceğini gösteriyor; bu nedenle net etki sınırlı ve belirsiz.
 25.10 14:51 N  GPT  score +0.12 conf 0.36: Suudi Arabistan’a yönelik füze ve İHA saldırılarının sürmesi ile İran geriliminin yeniden tırmanabileceğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altının hisse senedi çalkantısı sırasında da gerilemesi ve haberlerin bir kısmının ileriye dönük ya da tekrarlanan nitel
+25.10 17:38 A  CLOSE BTCUSDT time limit: +0.99 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
