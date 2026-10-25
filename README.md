@@ -1,16 +1,16 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.10.2026 23:38 (İstanbul)
+> Son güncelleme: 26.10.2026 00:06 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -5.30 $ | -5.00 $ |
-| İşlem sayısı | 2 | 3 |
-| Kazanma oranı | %50.0 | %66.7 |
-| Ödenen komisyon/spread | 4.00 $ | 6.00 $ |
+| Net kâr/zarar | +0.00 $ | -5.00 $ |
+| İşlem sayısı | 0 | 3 |
+| Kazanma oranı | %0.0 | %66.7 |
+| Ödenen komisyon/spread | 0.00 $ | 6.00 $ |
 
 **Hesap değeri: 4,995.00 $** (başlangıç 5,000 $, -5.00 $ / %-0.10)
 
