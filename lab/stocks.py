@@ -192,7 +192,29 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
     clock = api.get("/v2/clock")
     st_bot["market_open"] = bool(clock.get("is_open"))
     if not clock.get("is_open"):
+        # asleep until 1 hour before the bell; then one pre-market view (no orders), trading starts at the open
+        nxt = dt.datetime.fromisoformat(clock["next_open"].replace("Z", "+00:00"))
+        mins = (nxt - dt.datetime.now(nxt.tzinfo)).total_seconds() / 60
+        st_bot["next_open"] = clock["next_open"]
+        st_bot["state"] = "hazırlık (seans öncesi)" if mins <= 60 else "uyku (piyasa kapalı)"
+        day = nxt.date().isoformat()
+        if mins <= bc.get("warmup_minutes", 60) and st_bot.get("premarket_day") != day and claude_key:
+            st_bot["premarket_day"] = day
+            try:
+                market = market_snapshot(api, symbols)
+                news = headlines(api, symbols)
+                prompt = PROMPT.format(now="pre-market, the bell rings in about an hour", lev=bc["leverage"],
+                                       tp=bc["take_profit_pct"], sl=bc["stop_loss_pct"],
+                                       prices=json.dumps(market, ensure_ascii=False), news="\n".join(news) or "(none)",
+                                       open="none")
+                c_ans, c_model = ask_claude(claude_key, bc["claude_models"], prompt)
+                st_bot["view"] = {"ts": _now_ms(), "claude": c_ans.get("market_view", ""), "claude_model": c_model,
+                                  "gpt": "", "premarket": True}
+                log.append(f"{tag}  seans öncesi görüş: {c_ans.get('market_view', '-')}"[:400])
+            except Exception as e:  # noqa: BLE001
+                log.append(f"{tag}  seans öncesi görüş alınamadı: {str(e)[:120]}")
         return prices
+    st_bot["state"] = "aktif (seans açık)"
     close_at = dt.datetime.fromisoformat(clock["next_close"].replace("Z", "+00:00"))
     to_close = (close_at - dt.datetime.now(close_at.tzinfo)).total_seconds() / 60
 

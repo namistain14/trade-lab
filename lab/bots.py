@@ -67,6 +67,16 @@ def gold_market_open(now: dt.datetime | None = None) -> bool:
     return not (wd == 5 or (wd == 4 and h >= 21) or (wd == 6 and h < 22))
 
 
+def news_hours_ok(now: dt.datetime | None = None) -> bool:
+    """Erdem 25.10: no news reading at the weekend (no gold trading). It starts again Monday 07:00 Istanbul and runs
+    until the gold market closes on Friday (21:00 UTC)."""
+    n = now or dt.datetime.now(dt.timezone.utc)
+    ist = n + dt.timedelta(hours=3)
+    if not gold_market_open(n):
+        return False
+    return not (ist.weekday() == 0 and ist.hour < 7) and ist.weekday() != 6
+
+
 def gold_targets(entry: float, qty: float, side: str, cfg: dict, half: float, slip: float) -> tuple[float, float]:
     """Price levels for take profit / stop loss. With targets_net the amounts are what lands in the account
     after the exit spread and slippage (the entry costs are already inside the entry price)."""
@@ -111,7 +121,7 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     calls = state.setdefault("news_calls", {"date": paper.today(), "n": 0})
     if calls["date"] != paper.today():
         calls.update({"date": paper.today(), "n": 0})
-    if (shared_news is None and (api_key or sentiment_fn) and age_min >= min_m
+    if (shared_news is None and (api_key or sentiment_fn) and age_min >= min_m and (sentiment_fn is not None or news_hours_ok())
             and calls["n"] < cfg.get("news_max_calls_per_day", 120)):
         try:
             import news as news_mod

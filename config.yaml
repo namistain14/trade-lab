@@ -162,6 +162,7 @@ bots:
     stop_loss_pct: 1.0
     min_confidence: 0.55      # the lower of the two confidences must reach this
     decide_minutes: 15        # both models are asked at most every 15 minutes
+    warmup_minutes: 60        # Erdem 25.10: wakes up 1 hour before the US open (one pre-market view, no orders)
     no_new_minutes_before_close: 45
     flatten_minutes_before_close: 15
     daily_loss_limit_pct: 0.02
