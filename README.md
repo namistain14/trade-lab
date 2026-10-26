@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 06:32 (İstanbul)
+> Son güncelleme: 26.10.2026 07:15 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (25.10 14:51): Claude puan **+0.10**, güven 0.35 — İran'la olası savaş tırmanışı ve Hürmüz'deki aksamalar jeopolitik risk primini hafifçe destekliyor. Ancak "altın 4.000 doların altına düştü" başlığı ve hisse senedi çöküşü, fiyatta nakit ihtiyacı kaynaklı satış ya da dolar/faiz baskısı olabileceğini gösteriyor; bu nedenle net etki sınırlı ve belirsiz.
+Son haber analizi (26.10 07:15): Claude puan **-0.10**, güven 0.40 — Altın 4.000 doların altına sarkmış ve 3 aylık dip yakınında; yüksek petrol fiyatları enflasyon ve sıkı Fed beklentisi yoluyla baskı yaratıyor. Buna karşılık Orta Doğu savaşı ve İran'ın savaş hazırlığı güvenli liman talebini destekliyor, dolar ve tahvil getirilerindeki zayıflama ise Fed'in duraklama beklentisiyle altına destek veriyor; bu çelişkili sinyaller nedeniyle yön net değil.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.36 — Suudi Arabistan’a yönelik füze ve İHA saldırılarının sürmesi ile İran geriliminin yeniden tırmanabileceğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altının hisse senedi çalkantısı sırasında da gerilemesi ve haberlerin bir kısmının ileriye dönük ya da tekrarlanan nitel
+GPT (gpt-6-luna): puan **+0.15**, güven 0.42 — Yemen ve İran kaynaklı gerilim ile dolar ve tahvil getirilerindeki zayıflık altına kısa vadeli destek sağlayabilir. Ancak altının 4.000 doların altına inmesi, petrol kaynaklı enflasyonun Fed’i daha şahin tutabileceği kaygısı ve haberlerin bir kısmının doğrulanmamış olması yükseliş beklentisini sınır
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 11:47 N  NEWS (19 new) score +0.05 conf 0.30: 
-25.10 11:47 N  GPT  score +0.22 conf 0.34: İran’a yönelik olası saldırı ve Husilerin füze saldırısının engellenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak haberler teyit ve zamanlama açısından belirsiz; yükselen enflasyon beklentileri ile petrol akışının arttığı haberi bu desteği sınırlıyor.
 25.10 12:14 N  NEWS (13 new) score +0.30 conf 0.40: Yeni haberlerde İran'ın savaşın yeniden başlayabileceği yönündeki uyarıları ve ABD'nin İran'a Pazar günü saldırabileceği açıklaması jeopolitik risk primi yaratarak altı destekliyor. Buna karşılık bu haftaki Fed toplantısı ve ABD enflasyon beklentilerinin yükselişi, faiz artışı ihtimalini artırıp altı baskılayabilir; ayrıca ilgili riskler kısmen fiyatlanmış olabileceğinden etki sınırlı kalabilir.
 25.10 12:14 N  GPT  score +0.25 conf 0.42: İran’la savaşın yeniden başlayabileceğine ilişkin ABD saldırı tehdidi ve Suudi Arabistan’a yönelik Husi füze saldırılarının önlenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed haftası öncesi yükselen enflasyon beklentileri ve olası şahin faiz görünümü altındaki yükselişi sınırlıy
 25.10 12:51 N  NEWS (21 new) score +0.10 conf 0.30: 
@@ -168,6 +166,8 @@ Son işlemler:
 25.10 14:51 N  NEWS (14 new) score +0.10 conf 0.35: İran'la olası savaş tırmanışı ve Hürmüz'deki aksamalar jeopolitik risk primini hafifçe destekliyor. Ancak "altın 4.000 doların altına düştü" başlığı ve hisse senedi çöküşü, fiyatta nakit ihtiyacı kaynaklı satış ya da dolar/faiz baskısı olabileceğini gösteriyor; bu nedenle net etki sınırlı ve belirsiz.
 25.10 14:51 N  GPT  score +0.12 conf 0.36: Suudi Arabistan’a yönelik füze ve İHA saldırılarının sürmesi ile İran geriliminin yeniden tırmanabileceğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altının hisse senedi çalkantısı sırasında da gerilemesi ve haberlerin bir kısmının ileriye dönük ya da tekrarlanan nitel
 25.10 17:38 A  CLOSE BTCUSDT time limit: +0.99 USD
+26.10 07:15 N  NEWS (43 new) score -0.10 conf 0.40: Altın 4.000 doların altına sarkmış ve 3 aylık dip yakınında; yüksek petrol fiyatları enflasyon ve sıkı Fed beklentisi yoluyla baskı yaratıyor. Buna karşılık Orta Doğu savaşı ve İran'ın savaş hazırlığı güvenli liman talebini destekliyor, dolar ve tahvil getirilerindeki zayıflama ise Fed'in duraklama beklentisiyle altına destek veriyor; bu çelişkili sinyaller nedeniyle yön net değil.
+26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve İran kaynaklı gerilim ile dolar ve tahvil getirilerindeki zayıflık altına kısa vadeli destek sağlayabilir. Ancak altının 4.000 doların altına inmesi, petrol kaynaklı enflasyonun Fed’i daha şahin tutabileceği kaygısı ve haberlerin bir kısmının doğrulanmamış olması yükseliş beklentisini sınır
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
