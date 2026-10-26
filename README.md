@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 20:10 (İstanbul)
+> Son güncelleme: 26.10.2026 20:50 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 20:09): Claude puan **+0.05**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil: Fed, enflasyon, reel faiz, dolar veya merkez bankası alımlarına dair bir haber yok. Niger'e Cezayir asker gönderimi, Brezilya seçimi ve Etiyopya katliamı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak bunların etkisi küçük ve büyük ölçüde fiyatlanmış durumda.
+Son haber analizi (26.10 20:49): Claude puan **-0.05**, güven 0.30 — Haberlerde karışık sinyaller var: petrol düşüşü ve 4.000 doların üzerine dönüş altın için olumlu, Orta Doğu gerilimi ise güvenli liman talebini destekliyor. Ancak Fed kararının öncesinde enflasyon ve istihdam arasında sıkılaşma riski öne çıkıyor ve bazı haberler yeni faiz artışı beklentisi taşıyor; bu da kısa vadede altın için hafif baskı yaratabilir. Haberlerin çoğu zaten fiyatlanmış olduğundan güven düşük.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.24 — Nijer’e Cezayir askerî müdahalesi ve Etiyopya’daki katliam haberleri sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin altın, dolar veya faiz beklentilerine doğrudan etkisi belirsiz; kısa vadeli fiyat etkisi muhtemelen zayıf kalır.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
 
 Son işlemler:
 
@@ -154,10 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 14:13 B1  SHORT gold 5000 USD x10 @ 4023.21 (TP 4020.64, SL 4024.66; news -0.20)
-26.10 16:38 B1  CLOSE short stop: -3.00 USD
-26.10 16:38 N  NEWS (43 new) score +0.10 conf 0.35: Petrol fiyatları ve Treasury getirilerinin gerilemesi, altın üzerindeki Fed sıkılaştırma baskısını hafifleterek hafif olarak destekleyici. Ancak Fed'in faiz artırımı beklentileri ve İran'da savaşın yeniden başlayabileceği yönündeki karışık haberler yön konusunda belirsizlik yaratıyor, bu yüzden güven düşük.
-26.10 16:38 N  GPT  score +0.20 conf 0.35: İran’da çatışmanın yeniden başlama ihtimali ve bölgesel gerilim güvenli liman talebini destekliyor; petrol fiyatları ile tahvil getirilerindeki geri çekilme de Fed sıkılaşması kaygısını azaltarak altına yardımcı olabilir. Ancak Fed beklentileri ve haber akışındaki diplomasi/gerilim çelişkisi kısa va
 26.10 16:38 B4  CLOSE long stop: -11.18 USD
 26.10 16:38 B6  karar turu: Claude «Piyasa İran gerginliğinin azalmasıyla hafif pozitif açıldı, ancak açılışın ilk dakikalarında büyük hareketler zaten fiyatlandığı için beklemek en doğrusu.» / GPT «Endekslerde ivme sınırlı, güçlü hisselerde hareket önemli ölçüde gerçekleşmiş ve kaldıraçlı işlem için haber ile fiyatın birlikte sunduğu net bir avantaj yok.»
 26.10 18:21 N  NEWS (42 new) score -0.10 conf 0.35: Fed'in faiz kararı öncesi piyasa, enflasyonun hızlandığı bir ortamda faizlerin sabit tutulmasını bekliyor; bu, reel faizler ve dolar açısından altı hafif baskılıyor. İran ve Ukrayna kaynaklı jeopolitik risk güvenli liman talebini destekliyor ancak Trump'ın Pazar günü saldırıyı reddetmesi ve diplomasi kanallarının açık olduğu haberleri bu desteği sınırlıyor; sinyaller karışık olduğu için güven düşük.
@@ -169,6 +165,10 @@ Son işlemler:
 26.10 20:10 N  NEWS (16 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil: Fed, enflasyon, reel faiz, dolar veya merkez bankası alımlarına dair bir haber yok. Niger'e Cezayir asker gönderimi, Brezilya seçimi ve Etiyopya katliamı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak bunların etkisi küçük ve büyük ölçüde fiyatlanmış durumda.
 26.10 20:10 N  GPT  score +0.12 conf 0.24: Nijer’e Cezayir askerî müdahalesi ve Etiyopya’daki katliam haberleri sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin altın, dolar veya faiz beklentilerine doğrudan etkisi belirsiz; kısa vadeli fiyat etkisi muhtemelen zayıf kalır.
 26.10 20:10 B6  karar turu: Claude «Piyasa İran gerginliğinin azalması ve büyüme hisselerinin liderliğiyle pozitif, ancak öğleden sonra yatay konsolidasyon sürüyor ve yeni giriş için net bir avantaj görünmüyor.» / GPT «Endeksler gün içinde güçlü ancak son saatte yatay; mevcut fiyat hareketleri ve haberler önümüzdeki 1–3 saat için net bir işlem avantajı oluşturmuyor.»
+26.10 20:50 N  NEWS (40 new) score -0.05 conf 0.30: Haberlerde karışık sinyaller var: petrol düşüşü ve 4.000 doların üzerine dönüş altın için olumlu, Orta Doğu gerilimi ise güvenli liman talebini destekliyor. Ancak Fed kararının öncesinde enflasyon ve istihdam arasında sıkılaşma riski öne çıkıyor ve bazı haberler yeni faiz artışı beklentisi taşıyor; bu da kısa vadede altın için hafif baskı yaratabilir. Haberlerin çoğu zaten fiyatlanmış olduğundan güven düşük.
+26.10 20:50 N  GPT  score +0.25 conf 0.38: İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
+26.10 20:50 B6  karar turu: Claude «Piyasa çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra momentum zayıflıyor; şirkete özel olumsuz haber nedeniyle yalnızca AAPL'de sınırlı bir short fırsatı görülüyor.» / GPT «Endeksler gün içi yükselişlerini geri verirken geniş piyasa işlemlerinden kaçınmak, yalnızca taze olumsuz haberle desteklenen AAPL zayıflığını değerlendirmek daha disiplinli.»
+26.10 20:50 B6  AÇIĞA SATIŞ AAPL 116 adet ≈ 39,739 $ (1:2) @ 342.58 (TP 337.44, SL 346.01; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

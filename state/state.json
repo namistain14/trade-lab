@@ -1534,6 +1534,10 @@
    [
     1793034604,
     4995.0
+   ],
+   [
+    1793037008,
+    4995.0
    ]
   ]
  },
@@ -3747,28 +3751,32 @@
    [
     1793034604,
     4917.96
+   ],
+   [
+    1793037008,
+    4917.96
    ]
   ],
   "news": {
-   "score": 0.05,
+   "score": -0.05,
    "confidence": 0.3,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil: Fed, enflasyon, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair bir haber yok. Niger'e Cezayir asker g\u00f6nderimi, Brezilya se\u00e7imi ve Etiyopya katliam\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi k\u00fc\u00e7\u00fck ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
-   "n": 19,
-   "ts": 1793034586606,
-   "new_headlines": 16,
+   "reason": "Haberlerde kar\u0131\u015f\u0131k sinyaller var: petrol d\u00fc\u015f\u00fc\u015f\u00fc ve 4.000 dolar\u0131n \u00fczerine d\u00f6n\u00fc\u015f alt\u0131n i\u00e7in olumlu, Orta Do\u011fu gerilimi ise g\u00fcvenli liman talebini destekliyor. Ancak Fed karar\u0131n\u0131n \u00f6ncesinde enflasyon ve istihdam aras\u0131nda s\u0131k\u0131la\u015fma riski \u00f6ne \u00e7\u0131k\u0131yor ve baz\u0131 haberler yeni faiz art\u0131\u015f\u0131 beklentisi ta\u015f\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "n": 45,
+   "ts": 1793036980913,
+   "new_headlines": 40,
    "key_events": [
     "Cezayir'in Niger'e asker g\u00f6ndermesi (s\u0131n\u0131rl\u0131 jeopolitik risk)",
     "Lula'n\u0131n Brezilya se\u00e7imini kazanmas\u0131 (alt\u0131n i\u00e7in dolayl\u0131 etki)",
     "Etiyopya'da 60'tan fazla Hristiyan\u0131n \u00f6ld\u00fcr\u00fclmesi (haber ak\u0131\u015f\u0131, piyasa etkisi d\u00fc\u015f\u00fck)"
    ],
    "gpt": {
-    "score": 0.12,
-    "confidence": 0.24,
-    "reason": "Nijer\u2019e Cezayir asker\u00ee m\u00fcdahalesi ve Etiyopya\u2019daki katliam haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin alt\u0131n, dolar veya faiz beklentilerine do\u011frudan etkisi belirsiz; k\u0131sa vadeli fiyat etkisi muhtemelen zay\u0131f kal\u0131r.",
+    "score": 0.25,
+    "confidence": 0.38,
+    "reason": "\u0130ran \u00e7evresindeki gerilim ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine d\u00f6nmesi k\u0131sa vadede g\u00fcvenli liman talebini destekliyor; petrol\u00fcn gerilemesi de enflasyon ve faiz bask\u0131s\u0131n\u0131 bir miktar azaltabilir. Ancak Fed karar\u0131 \u00f6ncesi belirsizlik y\u00fcksek ve haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 tekrarl\u0131 ya da piyasa taraf\u0131ndan \u00f6ncede",
     "key_events": [
-     "Cezayir\u2019in Nijer\u2019e asker g\u00f6nderme karar\u0131",
-     "Etiyopya\u2019da 60\u2019tan fazla ki\u015finin \u00f6ld\u00fcr\u00fcld\u00fc\u011f\u00fc bildirilen katliam",
-     "K\u00fcresel se\u00e7im haberleri; do\u011frudan piyasa etkisi belirsiz"
+     "Alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
+     "\u0130ran-K\u00f6rfez gerilimi ve \u00e7at\u0131\u015fman\u0131n geni\u015fleme riski",
+     "Petrol geriledi; Fed karar\u0131 bekleniyor"
     ],
     "model": "gpt-6-luna"
    }
@@ -5980,39 +5988,70 @@
     "new": 16,
     "gpt_score": 0.12,
     "gpt_confidence": 0.24
+   },
+   {
+    "ts": 1793036980913,
+    "score": -0.05,
+    "confidence": 0.3,
+    "reason": "Haberlerde kar\u0131\u015f\u0131k sinyaller var: petrol d\u00fc\u015f\u00fc\u015f\u00fc ve 4.000 dolar\u0131n \u00fczerine d\u00f6n\u00fc\u015f alt\u0131n i\u00e7in olumlu, Orta Do\u011fu gerilimi ise g\u00fcvenli liman talebini destekliyor. Ancak Fed karar\u0131n\u0131n \u00f6ncesinde enflasyon ve istihdam aras\u0131nda s\u0131k\u0131la\u015fma riski \u00f6ne \u00e7\u0131k\u0131yor ve baz\u0131 haberler yeni faiz art\u0131\u015f\u0131 beklentisi ta\u015f\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 40,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-10-26",
-   "n": 14
+   "n": 15
   },
   "news_seen": [
+   "Federal Reserve meeting: Rice experts available to discuss interest rates, inflation and economic outlook - Rice University",
+   "Gold reclaims $4,000 as Oil eases, Fed decision tests recovery | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "'Holy War' gets kickoff time for highly anticipated matchup between No. 6 Utah, No. 8 BYU - kjzz.com",
+   "McConnell rips recent Trump Russia-Ukraine moves as 'certain to fail' - The Courier-Journal",
+   "Gold reclaims $4,000 as Oil eases, Fed decision tests recovery - FXStreet",
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Climbed Back Above $4000 - FXEmpire",
+   "Britain sanctions Sudanese commanders over weaponised rape - Al Jazeera",
+   "Russian attacks on Ukraine\u2019s energy infrastructure a war crime: UN - Al Jazeera",
+   "Macoupin County Historical Society to highlight World War I \u2018Hello Girls\u2019 - Jacksonville Journal-Courier",
+   "Marine killed during World War II returns home after 84 years - thv11.com",
+   "Paydari Front Urges Iran To Withdraw From NPT As U.S. War Threat Looms: how 15 outlets framed it - NewsCord",
+   "John Scali Has Lunch With a Soviet Spy\u2014Cuban Missile Crisis, Day Eleven - Council on Foreign Relations",
+   "Iran Warns U.S. Ships Never Enter Persian Gulf as Araghchi Rejects War Changes: how 6 outlets framed it - NewsCord",
+   "Voters look to Congress for relief from high prices it has little power to control - WCTI",
+   "New Zealand Dollar retreats as RBNZ-Fed policy divergence looms - FXStreet",
+   "Anthropic's blockbuster share listing - 5 surprising things we now know",
+   "Many consumers face higher borrowing costs after the Fed's first interest rate hike in more than three years took place on Sept. 16, 2026. Experts warn that more rate hikes could be ahead too, given the spike in inflation. Check the link in our bio for more. \ud83d\udcf9 by J - Instagram",
+   "Samsung Life launches $1.5 billion US dollar bond deal, term sheet shows - TradingView",
+   "Gloom in Moscow as Vucic's defeat in Serbia deprives Russia of an ally - Reuters",
+   "Saudi-led coalition says it destroyed Houthi missile facilities, and other Mideast news - Union-Bulletin",
+   "Energy price hikes drove all the rise in eurozone inflation amid war on Iran, Greenpeace analysis finds - Greenpeace",
    "Algeria to send troops to Niger in first foreign deployment since 1973",
+   "Gustavo de Ar\u00edstegui: Geopolitical analysis of 26 October - Atalayar",
+   "International Peace Effort Resumes Amid Sudan\u2019s Civil War - The Organization for World Peace",
+   "Oil\u2019s 2% Drop Lifts Gold Above US$4,000, Offering Miners Potential Cost Relief - Crux Investor",
+   "Pentagon\u2019s FORTRESS Plan Prepares US Bases to Operate 90 Days Without Outside Support - UNITED24 Media",
+   "Mecca Pact Powers Meet Iran In Push To Avert Wider War - i24NEWS",
+   "Iran Seeks to Curb Inflation, Expand Food Subsidies Amid US Sanctions - Caspian Post",
    "Lula wins fourth term in dramatic Brazil election comeback",
+   "Pentagon presses Congress to keep measure changing name to Department of War - The Hill",
+   "Adam H. Johnson: The media\u2019s coverage of the war in Gaza - ROI-NJ",
+   "Guterres warns of \u2018unimaginable\u2019 consequences of Iran-Gulf escalation - Al Jazeera",
+   "Obama is wrong that war has made Iran stronger. He\u2019s right that it\u2019s made the US weaker. - Washington Examiner",
+   "Affaki says arbitration facing geopolitical \u201cstress test\u201d - Global Arbitration Review",
+   "Mecca alliance visits Tehran in push to end Israeli-US war and build regional security - Middle East Eye",
+   "Lebanon watches Israel vote amid fears of renewed war - The New Arab",
+   "Hezbollah Readies for New Regional War With Funds From Iran, Sources Say - Algemeiner.com",
+   "Zelensky Accuses Hegseth of Delaying Patriot Missile Deliveries For Weeks - Newsweek",
+   "Fed preview: Inflation and jobs pulling FOMC in different directions, economist says - Mortgage Professional America",
    "More than 60 Christians killed in Ethiopia 'massacre', church official says",
    "Israel and the US are both going to the polls - the consequences will be global",
+   "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
    "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-   "Catholic bishops apologise for 'exploited' Trump meeting",
-   "Police arrest teenager after shooting that injured 12, including children, in Florida",
-   "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
-   "Part of Antarctica named after former BBC science correspondent",
-   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-   "Nurse killed in attack while responding to Ebola alert in DR Congo",
-   "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-   "US Marine indicted for murder and robbery of woman in Japan",
-   "Who is Lula? From ex-worker and prisoner to Brazil's president again",
-   "Five ways Trump has changed immigration in the US",
-   "Stunning photos capture October's Hunter's Moon around the world",
-   "Salon owners urge Budget VAT cut as staffing pressures grow",
-   "Healey to shield low-income pensioners from income tax in the Budget",
-   "Crowds welcome Venezuela's Mar\u00eda Machado after months in exile"
+   "Moldovan PM: Country\u2019s airspace violated over 100 times since war began - Ukrinform",
+   "Bleach Anime Concludes After 22 Years with Special Ending Video - Crunchyroll"
   ]
  },
  "log": [
-  "23.10 20:58 B1  CLOSE short stop: -3.00 USD",
-  "23.10 21:08 B1  SHORT gold 5000 USD x10 @ 4009.96 (TP 4007.40, SL 4011.41; news -0.20)",
-  "23.10 21:08 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerilimi s\u00fcrerken endeksler dar bantta yatay seyrediyor; net bir avantaj olmad\u0131\u011f\u0131ndan i\u015flem a\u00e7mamak en do\u011frusu.\u00bb / GPT \u00abEndekslerde dar bantl\u0131 seyir ve y\u00fcksek haber belirsizli\u011fi nedeniyle y\u00fczde 1,5 hedefi destekleyen net kurulum yok; yeni pozisyon a\u00e7mamak daha disiplinli.\u00bb",
-  "23.10 21:28 B1  CLOSE short stop: -3.00 USD",
   "23.10 21:28 B6  karar turu: Claude \u00abPiyasa \u0130ran kaynakl\u0131 petrol y\u00fckseli\u015fi ve tarife belirsizli\u011fi alt\u0131nda dar bantta yatay seyrediyor; a\u00e7\u0131k bir intraday avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler son saatte yatay; haber ve fiyat teyidi birle\u015fmedi\u011finden kald\u0131ra\u00e7la y\u00fczde 1,5 hedefli i\u015flem a\u00e7mak yerine beklemek daha disiplinli.\u00bb",
   "23.10 21:51 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerginli\u011fi s\u00fcrerken piyasa s\u0131k\u0131\u015f\u0131k ve y\u00f6ns\u00fcz; Cuma \u00f6\u011fleden sonra i\u015flem a\u00e7mak i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abKapan\u0131\u015fa 69 dakika kala dar fiyat bantlar\u0131 ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131, y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli avantaj sa\u011flam\u0131yor.\u00bb",
   "23.10 22:13 B6  karar turu: Claude \u00abCuma kapan\u0131\u015f\u0131na yakla\u015f\u0131rken piyasa dar bantta ve y\u00f6ns\u00fcz; petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 ile \u0130ran gerilimi risk i\u015ftah\u0131n\u0131 s\u0131n\u0131rl\u0131yor, bu y\u00fczden i\u015flem a\u00e7mamak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abEndeksler dar bantta ve normal seans\u0131n kapan\u0131\u015f\u0131na 48 dakika kalm\u0131\u015fken, mevcut hareketler y\u00fczde 1,5 hedefli kald\u0131ra\u00e7l\u0131 i\u015flemler i\u00e7in yeterli haber ve fiyat teyidi sunmuyor.\u00bb",
@@ -6308,7 +6347,11 @@
   "26.10 19:20 B6  karar turu: Claude \u00abPiyasa b\u00fcy\u00fcme hisseleri \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif ama \u00f6\u011fle saatlerinde hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; yeni bir net avantaj olmad\u0131\u011f\u0131ndan beklemede kalmak en do\u011frusu.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i kazan\u00e7lara ra\u011fmen son saatte momentum zay\u0131f; mevcut haber ve fiyat uyumu kald\u0131ra\u00e7l\u0131 yeni pozisyon i\u00e7in yeterince g\u00fc\u00e7l\u00fc de\u011fil.\u00bb",
   "26.10 20:10 N  NEWS (16 new) score +0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil: Fed, enflasyon, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair bir haber yok. Niger'e Cezayir asker g\u00f6nderimi, Brezilya se\u00e7imi ve Etiyopya katliam\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi k\u00fc\u00e7\u00fck ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
   "26.10 20:10 N  GPT  score +0.12 conf 0.24: Nijer\u2019e Cezayir asker\u00ee m\u00fcdahalesi ve Etiyopya\u2019daki katliam haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin alt\u0131n, dolar veya faiz beklentilerine do\u011frudan etkisi belirsiz; k\u0131sa vadeli fiyat etkisi muhtemelen zay\u0131f kal\u0131r.",
-  "26.10 20:10 B6  karar turu: Claude \u00abPiyasa \u0130ran gerginli\u011finin azalmas\u0131 ve b\u00fcy\u00fcme hisselerinin liderli\u011fiyle pozitif, ancak \u00f6\u011fleden sonra yatay konsolidasyon s\u00fcr\u00fcyor ve yeni giri\u015f i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc ancak son saatte yatay; mevcut fiyat hareketleri ve haberler \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in net bir i\u015flem avantaj\u0131 olu\u015fturmuyor.\u00bb"
+  "26.10 20:10 B6  karar turu: Claude \u00abPiyasa \u0130ran gerginli\u011finin azalmas\u0131 ve b\u00fcy\u00fcme hisselerinin liderli\u011fiyle pozitif, ancak \u00f6\u011fleden sonra yatay konsolidasyon s\u00fcr\u00fcyor ve yeni giri\u015f i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc ancak son saatte yatay; mevcut fiyat hareketleri ve haberler \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in net bir i\u015flem avantaj\u0131 olu\u015fturmuyor.\u00bb",
+  "26.10 20:50 N  NEWS (40 new) score -0.05 conf 0.30: Haberlerde kar\u0131\u015f\u0131k sinyaller var: petrol d\u00fc\u015f\u00fc\u015f\u00fc ve 4.000 dolar\u0131n \u00fczerine d\u00f6n\u00fc\u015f alt\u0131n i\u00e7in olumlu, Orta Do\u011fu gerilimi ise g\u00fcvenli liman talebini destekliyor. Ancak Fed karar\u0131n\u0131n \u00f6ncesinde enflasyon ve istihdam aras\u0131nda s\u0131k\u0131la\u015fma riski \u00f6ne \u00e7\u0131k\u0131yor ve baz\u0131 haberler yeni faiz art\u0131\u015f\u0131 beklentisi ta\u015f\u0131yor; bu da k\u0131sa vadede alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "26.10 20:50 N  GPT  score +0.25 conf 0.38: \u0130ran \u00e7evresindeki gerilim ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine d\u00f6nmesi k\u0131sa vadede g\u00fcvenli liman talebini destekliyor; petrol\u00fcn gerilemesi de enflasyon ve faiz bask\u0131s\u0131n\u0131 bir miktar azaltabilir. Ancak Fed karar\u0131 \u00f6ncesi belirsizlik y\u00fcksek ve haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 tekrarl\u0131 ya da piyasa taraf\u0131ndan \u00f6ncede",
+  "26.10 20:50 B6  karar turu: Claude \u00abPiyasa \u00e7ip toparlanmas\u0131yla pozitif seyrediyor ancak \u00f6\u011fleden sonra momentum zay\u0131fl\u0131yor; \u015firkete \u00f6zel olumsuz haber nedeniyle yaln\u0131zca AAPL'de s\u0131n\u0131rl\u0131 bir short f\u0131rsat\u0131 g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00abEndeksler g\u00fcn i\u00e7i y\u00fckseli\u015flerini geri verirken geni\u015f piyasa i\u015flemlerinden ka\u00e7\u0131nmak, yaln\u0131zca taze olumsuz haberle desteklenen AAPL zay\u0131fl\u0131\u011f\u0131n\u0131 de\u011ferlendirmek daha disiplinli.\u00bb",
+  "26.10 20:50 B6  A\u00c7I\u011eA SATI\u015e AAPL 116 adet \u2248 39,739 $ (1:2) @ 342.58 (TP 337.44, SL 346.01; ikisi de hemfikir, g\u00fcven 0.55)"
  ],
  "gold_big": {
   "account": {
@@ -7791,6 +7834,10 @@
    [
     1793034604,
     4964.78
+   ],
+   [
+    1793037008,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -9222,6 +9269,10 @@
    [
     1793034604,
     4973.18
+   ],
+   [
+    1793037008,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -10600,6 +10651,10 @@
    [
     1793034604,
     5005.69
+   ],
+   [
+    1793037008,
+    5005.69
    ]
   ]
  },
@@ -11708,6 +11763,10 @@
    [
     1793034604,
     4977.63
+   ],
+   [
+    1793037008,
+    4977.63
    ]
   ],
   "news_calls": {
@@ -12752,6 +12811,10 @@
    [
     1793034604,
     5021.88
+   ],
+   [
+    1793037008,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -13666,16 +13729,32 @@
    [
     1793034604,
     100000.0
+   ],
+   [
+    1793037008,
+    100000.0
    ]
   ],
-  "open": {},
+  "open": {
+   "AAPL": {
+    "order_id": "796d46d4-72b9-4f18-b92a-318fb0647650",
+    "symbol": "AAPL",
+    "side": "short",
+    "qty": 116,
+    "entry": 342.58,
+    "tp": 337.44,
+    "sl": 346.01,
+    "opened_ms": 1793036983701,
+    "note": "Claude 0.55: Katlanabilir iPhone Duo ekran \u00e7atlama \u015fikayetleri ve teslimat gecikmesi taze olumsuz haber; fiyat istikrarl\u0131 d\u00fc\u015f\u00fc\u015fte ve g\u00fcn\u00fcn dibine yak\u0131n. | GPT 0.7: Taze ekran \u00e7atlamas\u0131 haberleri, piyasan\u0131n gerisinde kalan fiyat\u0131n son saat dibine gerilemesiyle k\u0131sa y\u00f6n\u00fc destekliyor."
+   }
+  },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793034589717,
+  "last_decision_ms": 1793036983701,
   "view": {
-   "ts": 1793034589717,
-   "claude": "Piyasa \u0130ran gerginli\u011finin azalmas\u0131 ve b\u00fcy\u00fcme hisselerinin liderli\u011fiyle pozitif, ancak \u00f6\u011fleden sonra yatay konsolidasyon s\u00fcr\u00fcyor ve yeni giri\u015f i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.",
-   "gpt": "Endeksler g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc ancak son saatte yatay; mevcut fiyat hareketleri ve haberler \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in net bir i\u015flem avantaj\u0131 olu\u015fturmuyor.",
+   "ts": 1793036983701,
+   "claude": "Piyasa \u00e7ip toparlanmas\u0131yla pozitif seyrediyor ancak \u00f6\u011fleden sonra momentum zay\u0131fl\u0131yor; \u015firkete \u00f6zel olumsuz haber nedeniyle yaln\u0131zca AAPL'de s\u0131n\u0131rl\u0131 bir short f\u0131rsat\u0131 g\u00f6r\u00fcl\u00fcyor.",
+   "gpt": "Endeksler g\u00fcn i\u00e7i y\u00fckseli\u015flerini geri verirken geni\u015f piyasa i\u015flemlerinden ka\u00e7\u0131nmak, yaln\u0131zca taze olumsuz haberle desteklenen AAPL zay\u0131fl\u0131\u011f\u0131n\u0131 de\u011ferlendirmek daha disiplinli.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -13686,17 +13765,17 @@
      ],
      "gpt": [
       "none",
-      0.95
+      0.9
      ]
     },
     "QQQ": {
      "claude": [
       "none",
-      0.25
+      0.2
      ],
      "gpt": [
       "none",
-      0.94
+      0.88
      ]
     },
     "NVDA": {
@@ -13706,17 +13785,17 @@
      ],
      "gpt": [
       "none",
-      0.9
+      0.86
      ]
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.3
+      "short",
+      0.55
      ],
      "gpt": [
-      "none",
-      0.88
+      "short",
+      0.7
      ]
     },
     "TSLA": {
