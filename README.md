@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 20:50 (İstanbul)
+> Son güncelleme: 26.10.2026 21:26 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 20:49): Claude puan **-0.05**, güven 0.30 — Haberlerde karışık sinyaller var: petrol düşüşü ve 4.000 doların üzerine dönüş altın için olumlu, Orta Doğu gerilimi ise güvenli liman talebini destekliyor. Ancak Fed kararının öncesinde enflasyon ve istihdam arasında sıkılaşma riski öne çıkıyor ve bazı haberler yeni faiz artışı beklentisi taşıyor; bu da kısa vadede altın için hafif baskı yaratabilir. Haberlerin çoğu zaten fiyatlanmış olduğundan güven düşük.
+Son haber analizi (26.10 21:25): Claude puan **+0.10**, güven 0.35 — İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primini destekliyor, ancak Fed'in Eylül'de yaptığı faiz artışı ve enflasyon nedeniyle daha fazla sıkılaşma beklentisi altın için baskı oluşturuyor. Petrol fiyatlarının gevşemesi enflasyon korkusunu azaltarak reel faizler üzerinden hafif olumlu bir etki yaratabilir; genel tablo karışık ve yakın vadede nötre yakın.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
+GPT (gpt-6-luna): puan **+0.22**, güven 0.38 — Harkiv’e yönelik ölümcül saldırı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir; faiz artırımlarının gerekmeyebileceği yorumu da altın için sınırlı olumlu. Ancak Rusya-Ukrayna görüşmelerinin yeniden başlayacak olması ve haberlerin önemli kısmının yeni fiyat etkisi yaratmayabile
 
 Son işlemler:
 
@@ -149,14 +149,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,000.00 $** (başlangıç 100,000 $, +0.00 $ / %+0.00)
+**Hesap değeri: 99,939.19 $** (başlangıç 100,000 $, -60.81 $ / %-0.06)
+
+Açık pozisyonlar: AAPL short @ 342.52 (TP 337.44 / SL 346.01)
 
 ## Son olaylar
 
 ```
-26.10 16:38 B4  CLOSE long stop: -11.18 USD
-26.10 16:38 B6  karar turu: Claude «Piyasa İran gerginliğinin azalmasıyla hafif pozitif açıldı, ancak açılışın ilk dakikalarında büyük hareketler zaten fiyatlandığı için beklemek en doğrusu.» / GPT «Endekslerde ivme sınırlı, güçlü hisselerde hareket önemli ölçüde gerçekleşmiş ve kaldıraçlı işlem için haber ile fiyatın birlikte sunduğu net bir avantaj yok.»
-26.10 18:21 N  NEWS (42 new) score -0.10 conf 0.35: Fed'in faiz kararı öncesi piyasa, enflasyonun hızlandığı bir ortamda faizlerin sabit tutulmasını bekliyor; bu, reel faizler ve dolar açısından altı hafif baskılıyor. İran ve Ukrayna kaynaklı jeopolitik risk güvenli liman talebini destekliyor ancak Trump'ın Pazar günü saldırıyı reddetmesi ve diplomasi kanallarının açık olduğu haberleri bu desteği sınırlıyor; sinyaller karışık olduğu için güven düşük.
 26.10 18:21 N  GPT  score -0.15 conf 0.43: Fed kararı öncesinde doların güçlenmesi ve altının 4.000 dolar civarında dirençle karşılaşması kısa vadede hafif baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de yeni, kesin bir tırmanış haberi yok; görünüm karışık ve Fed öncesi temkinli.
 26.10 18:21 B6  karar turu: Claude «İran gerginliğinin azalmasıyla büyüme hisseleri öncülüğünde risk iştahı yüksek, ancak büyük hareketler gerçekleşti ve endeksler konsolidasyonda; yeni pozisyon için net bir avantaj görünmüyor.» / GPT «Endekslerde yön yukarı olsa da mevcut haberler ve fiyat yapıları, 1:2 kaldıraçla yüzde 1,5 hedef ve yüzde 1 stop için yeterince net bir giriş avantajı sunmuyor.»
 26.10 19:20 N  NEWS (38 new) score -0.05 conf 0.30: Haberler karışık: İran'da müzakere heyetlerinin gelmesi ve petrol fiyatlarının düşmesi enflasyon endişesini azaltıp jeopolitik risk primini zayıflatıyor, bu da altın için hafif olumsuz. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutması beklenirken sürpriz bir yön yok; bu nedenle etki sınırlı ve yön belirsiz.
@@ -169,6 +168,9 @@ Son işlemler:
 26.10 20:50 N  GPT  score +0.25 conf 0.38: İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
 26.10 20:50 B6  karar turu: Claude «Piyasa çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra momentum zayıflıyor; şirkete özel olumsuz haber nedeniyle yalnızca AAPL'de sınırlı bir short fırsatı görülüyor.» / GPT «Endeksler gün içi yükselişlerini geri verirken geniş piyasa işlemlerinden kaçınmak, yalnızca taze olumsuz haberle desteklenen AAPL zayıflığını değerlendirmek daha disiplinli.»
 26.10 20:50 B6  AÇIĞA SATIŞ AAPL 116 adet ≈ 39,739 $ (1:2) @ 342.58 (TP 337.44, SL 346.01; ikisi de hemfikir, güven 0.55)
+26.10 21:26 N  NEWS (25 new) score +0.10 conf 0.35: İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primini destekliyor, ancak Fed'in Eylül'de yaptığı faiz artışı ve enflasyon nedeniyle daha fazla sıkılaşma beklentisi altın için baskı oluşturuyor. Petrol fiyatlarının gevşemesi enflasyon korkusunu azaltarak reel faizler üzerinden hafif olumlu bir etki yaratabilir; genel tablo karışık ve yakın vadede nötre yakın.
+26.10 21:26 N  GPT  score +0.22 conf 0.38: Harkiv’e yönelik ölümcül saldırı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir; faiz artırımlarının gerekmeyebileceği yorumu da altın için sınırlı olumlu. Ancak Rusya-Ukrayna görüşmelerinin yeniden başlayacak olması ve haberlerin önemli kısmının yeni fiyat etkisi yaratmayabile
+26.10 21:26 B6  karar turu: Claude «Piyasa, İran gerginliğinin azalması ve çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra yatay konsolidasyonda; büyük teknoloji bilançoları öncesi temkinli kalmak en doğrusu.» / GPT «Endekslerde saatlik sıkışma ve hisselerde fiyatlanmış katalizörler nedeniyle, yüzde 1,5 hedefi kalan seansta destekleyecek net haber ve fiyat uyumu bulunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
