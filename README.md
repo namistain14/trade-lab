@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 19:20 (İstanbul)
+> Son güncelleme: 26.10.2026 20:10 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 19:20): Claude puan **-0.05**, güven 0.30 — Haberler karışık: İran'da müzakere heyetlerinin gelmesi ve petrol fiyatlarının düşmesi enflasyon endişesini azaltıp jeopolitik risk primini zayıflatıyor, bu da altın için hafif olumsuz. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutması beklenirken sürpriz bir yön yok; bu nedenle etki sınırlı ve yön belirsiz.
+Son haber analizi (26.10 20:09): Claude puan **+0.05**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil: Fed, enflasyon, reel faiz, dolar veya merkez bankası alımlarına dair bir haber yok. Niger'e Cezayir asker gönderimi, Brezilya seçimi ve Etiyopya katliamı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak bunların etkisi küçük ve büyük ölçüde fiyatlanmış durumda.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.32 — İran çevresinde yeniden çatışma ihtimaline dair haberler güvenli liman talebini destekleyebilir; ancak aynı anda barış görüşmeleri de bildiriliyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış göründüğünden kısa vadeli etki sınırlı ve belirsiz.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.24 — Nijer’e Cezayir askerî müdahalesi ve Etiyopya’daki katliam haberleri sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin altın, dolar veya faiz beklentilerine doğrudan etkisi belirsiz; kısa vadeli fiyat etkisi muhtemelen zayıf kalır.
 
 Son işlemler:
 
@@ -154,9 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 13:26 B4  LONG gold 5000 USD x10 @ 4027.81 (TP 4039.89, SL 4019.75; news +0.30)
-26.10 14:13 N  NEWS (29 new) score -0.20 conf 0.40: Fed toplantısı öncesi dolar güçleniyor, enflasyonun yüksek kalması ve faiz artırımı tartışmaları altını baskılıyor. İran'la ilgili gerilimin azalma beklentisi ve petrol fiyatlarındaki düşüş de güvenli liman talebini sınırlıyor; buna karşılık Orta Doğu ve Ukrayna'daki çatışma haberleri kısa vadeli destek sağlayabilir.
-26.10 14:13 N  GPT  score -0.12 conf 0.34: Doların Fed öncesinde güçlenmesi ve yüksek enflasyonun faiz beklentilerini desteklemesi altın için hafif negatif. Yemen’deki saldırılar güvenli liman talebini artırabilir; ancak İran’la temas haberleri ve petrolün düşmesi bu desteği sınırlıyor.
 26.10 14:13 B1  SHORT gold 5000 USD x10 @ 4023.21 (TP 4020.64, SL 4024.66; news -0.20)
 26.10 16:38 B1  CLOSE short stop: -3.00 USD
 26.10 16:38 N  NEWS (43 new) score +0.10 conf 0.35: Petrol fiyatları ve Treasury getirilerinin gerilemesi, altın üzerindeki Fed sıkılaştırma baskısını hafifleterek hafif olarak destekleyici. Ancak Fed'in faiz artırımı beklentileri ve İran'da savaşın yeniden başlayabileceği yönündeki karışık haberler yön konusunda belirsizlik yaratıyor, bu yüzden güven düşük.
@@ -169,6 +166,9 @@ Son işlemler:
 26.10 19:20 N  NEWS (38 new) score -0.05 conf 0.30: Haberler karışık: İran'da müzakere heyetlerinin gelmesi ve petrol fiyatlarının düşmesi enflasyon endişesini azaltıp jeopolitik risk primini zayıflatıyor, bu da altın için hafif olumsuz. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutması beklenirken sürpriz bir yön yok; bu nedenle etki sınırlı ve yön belirsiz.
 26.10 19:20 N  GPT  score +0.12 conf 0.32: İran çevresinde yeniden çatışma ihtimaline dair haberler güvenli liman talebini destekleyebilir; ancak aynı anda barış görüşmeleri de bildiriliyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış göründüğünden kısa vadeli etki sınırlı ve belirsiz.
 26.10 19:20 B6  karar turu: Claude «Piyasa büyüme hisseleri öncülüğünde pozitif ama öğle saatlerinde hafif kâr satışı görülüyor; yeni bir net avantaj olmadığından beklemede kalmak en doğrusu.» / GPT «Endekslerde gün içi kazançlara rağmen son saatte momentum zayıf; mevcut haber ve fiyat uyumu kaldıraçlı yeni pozisyon için yeterince güçlü değil.»
+26.10 20:10 N  NEWS (16 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil: Fed, enflasyon, reel faiz, dolar veya merkez bankası alımlarına dair bir haber yok. Niger'e Cezayir asker gönderimi, Brezilya seçimi ve Etiyopya katliamı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak bunların etkisi küçük ve büyük ölçüde fiyatlanmış durumda.
+26.10 20:10 N  GPT  score +0.12 conf 0.24: Nijer’e Cezayir askerî müdahalesi ve Etiyopya’daki katliam haberleri sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin altın, dolar veya faiz beklentilerine doğrudan etkisi belirsiz; kısa vadeli fiyat etkisi muhtemelen zayıf kalır.
+26.10 20:10 B6  karar turu: Claude «Piyasa İran gerginliğinin azalması ve büyüme hisselerinin liderliğiyle pozitif, ancak öğleden sonra yatay konsolidasyon sürüyor ve yeni giriş için net bir avantaj görünmüyor.» / GPT «Endeksler gün içinde güçlü ancak son saatte yatay; mevcut fiyat hareketleri ve haberler önümüzdeki 1–3 saat için net bir işlem avantajı oluşturmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

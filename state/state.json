@@ -1530,6 +1530,10 @@
    [
     1793031629,
     4995.0
+   ],
+   [
+    1793034604,
+    4995.0
    ]
   ]
  },
@@ -3739,27 +3743,32 @@
    [
     1793031629,
     4917.96
+   ],
+   [
+    1793034604,
+    4917.96
    ]
   ],
   "news": {
-   "score": -0.05,
+   "score": 0.05,
    "confidence": 0.3,
-   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran'da m\u00fczakere heyetlerinin gelmesi ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon endi\u015fesini azalt\u0131p jeopolitik risk primini zay\u0131flat\u0131yor, bu da alt\u0131n i\u00e7in hafif olumsuz. \u00d6te yandan Netanyahu'nun sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 ve H\u00fcrm\u00fcz'deki gerilim g\u00fcvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutmas\u0131 beklenirken s\u00fcrpriz bir y\u00f6n yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
-   "n": 45,
-   "ts": 1793031608058,
-   "new_headlines": 38,
+   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil: Fed, enflasyon, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair bir haber yok. Niger'e Cezayir asker g\u00f6nderimi, Brezilya se\u00e7imi ve Etiyopya katliam\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi k\u00fc\u00e7\u00fck ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "n": 19,
+   "ts": 1793034586606,
+   "new_headlines": 16,
    "key_events": [
-    "Trump'\u0131n \u0130ran'a y\u00f6nelik olas\u0131 t\u0131rman\u0131\u015f haz\u0131rl\u0131\u011f\u0131 (Bloomberg)",
-    "Alt\u0131n fiyat\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fmesi ve borsa \u00e7\u00f6k\u00fc\u015f\u00fc",
-    "Suudi Arabistan'\u0131n Husilerle \u00e7at\u0131\u015fmas\u0131 ve H\u00fcrm\u00fcz'deki gerilim"
+    "Cezayir'in Niger'e asker g\u00f6ndermesi (s\u0131n\u0131rl\u0131 jeopolitik risk)",
+    "Lula'n\u0131n Brezilya se\u00e7imini kazanmas\u0131 (alt\u0131n i\u00e7in dolayl\u0131 etki)",
+    "Etiyopya'da 60'tan fazla Hristiyan\u0131n \u00f6ld\u00fcr\u00fclmesi (haber ak\u0131\u015f\u0131, piyasa etkisi d\u00fc\u015f\u00fck)"
    ],
    "gpt": {
     "score": 0.12,
-    "confidence": 0.32,
-    "reason": "\u0130ran \u00e7evresinde yeniden \u00e7at\u0131\u015fma ihtimaline dair haberler g\u00fcvenli liman talebini destekleyebilir; ancak ayn\u0131 anda bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri de bildiriliyor. Fed\u2019in faizi sabit tutmas\u0131n\u0131n beklenmesi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcnd\u00fc\u011f\u00fcnden k\u0131sa vadeli etki s\u0131n\u0131rl\u0131 ve belirsiz.",
+    "confidence": 0.24,
+    "reason": "Nijer\u2019e Cezayir asker\u00ee m\u00fcdahalesi ve Etiyopya\u2019daki katliam haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin alt\u0131n, dolar veya faiz beklentilerine do\u011frudan etkisi belirsiz; k\u0131sa vadeli fiyat etkisi muhtemelen zay\u0131f kal\u0131r.",
     "key_events": [
-     "\u0130ran\u2019da olas\u0131 \u00e7at\u0131\u015fma ve devam eden g\u00f6r\u00fc\u015fmelere dair \u00e7eli\u015fkili haberler",
-     "Fed\u2019in faizi sabit tutmas\u0131n\u0131n beklendi\u011fi haberleri"
+     "Cezayir\u2019in Nijer\u2019e asker g\u00f6nderme karar\u0131",
+     "Etiyopya\u2019da 60\u2019tan fazla ki\u015finin \u00f6ld\u00fcr\u00fcld\u00fc\u011f\u00fc bildirilen katliam",
+     "K\u00fcresel se\u00e7im haberleri; do\u011frudan piyasa etkisi belirsiz"
     ],
     "model": "gpt-6-luna"
    }
@@ -5962,64 +5971,44 @@
     "new": 38,
     "gpt_score": 0.12,
     "gpt_confidence": 0.32
+   },
+   {
+    "ts": 1793034586606,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil: Fed, enflasyon, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair bir haber yok. Niger'e Cezayir asker g\u00f6nderimi, Brezilya se\u00e7imi ve Etiyopya katliam\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi k\u00fc\u00e7\u00fck ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+    "new": 16,
+    "gpt_score": 0.12,
+    "gpt_confidence": 0.24
    }
   ],
   "news_calls": {
    "date": "2026-10-26",
-   "n": 13
+   "n": 14
   },
   "news_seen": [
-   "Canadian Dollar eases from six-week high ahead of Fed, BoC interest rate decisions - FXStreet",
-   "ICC war crimes case less broad than Italy flotilla IDF torture case - The Jerusalem Post",
-   "Two Years After World War II Ended, This Ship Brought the Bodies of 6,251 Fallen Service Members Back Home to America - Smithsonian Magazine",
-   "Pound Sterling Price News and Forecast: GBP/USD slips as Fed decision, UK budget test Sterling bulls - FXStreet",
-   "Plunging Shilling Forces Uganda to Tap Meager Reserves War Chest - Bloomberg.com",
-   "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers - CNBC",
-   "Canagold Resources (TSXV:CCM): Gold Prices Matter, but Project De-Risking Matters More - kalkine.ca",
-   "Blossom Gold (TSXV:BGAU): The Exploration Milestones That Could Shape Its Next Chapter - kalkine.ca",
-   "Hezbollah rebuilds military strength with Iranian funding, prepares for next war with Israel - www.israelhayom.com",
-   "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran - Reuters",
-   "Iranian Navy Official Claims Missile Strike Damaged USS Abraham Lincoln Early in Conflict - IranWire",
-   "Catholic bishops apologise for 'exploited' Trump meeting",
-   "Infographic: Gold bars remain flat, gold rings decline on October 26 - Nhan Dan Online",
-   "Police arrest teenager after shooting that injured 12, including children, in Florida",
-   "Uzbekistan Wants Out of the Iran-US Social Media War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-   "Iran War Day 241: IDF Chief Resists Push for Pre-Election Military Op Against Iran, Per Report - The American Conservative",
-   "Church supports families affected by war in Congo - UM News",
-   "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears - StoneX",
-   "Gold Prices Rise As Lower Oil Prices Ease Inflation Concerns Ahead Of Fed Decision - DirectorsTalk Interviews",
-   "Delegations arrive in Iran to discuss possible end to war - KING5.com",
-   "Hezbollah allegedly rearming using IRGC funding - The Jerusalem Post",
-   "How 'Lula's Army' WhatsApp chat helped turn Brazil election around",
-   "Australian Dollar retreats from recent peak as RBA hike odds rise ahead CPI - FXStreet",
-   "The Saudi Airline That Launched Right in the Middle of a War - WSJ",
-   "Standoff in Ethiopia\u2019s Tigray region Could Ignite Regional War - Substack",
-   "South Africa's newest platinum projects turn to gold and chrome - MiningMX",
+   "Algeria to send troops to Niger in first foreign deployment since 1973",
+   "Lula wins fourth term in dramatic Brazil election comeback",
+   "More than 60 Christians killed in Ethiopia 'massacre', church official says",
+   "Israel and the US are both going to the polls - the consequences will be global",
    "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-   "Trump promised to stop inflation. Now Republicans may pay the price in the midterm elections - PBS",
-   "In HBO\u2019s 'War,' the Divorcees Go to Savile Row - GQ",
-   "Is this Iran\u2019s New Highly Advanced Ballistic Missile? - \u0645\u0648\u0642\u0639 \u0645\u0633\u0628\u0627\u0631",
-   "Myanmar attack survivor tests new Danish war crimes law - Courthouse News",
-   "Thune scrambles to save his Senate majority as voters voice concern over the Iran war and gas prices - MPR News",
-   "Israel Election 2026 \u2022 Katz denies pre-election Iran war push; Lieberman seeks probe of PM for treason - Haaretz",
-   "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of rape\u2019 - The Guardian",
-   "Ukraine: Investigators find Russia committed war crimes by targeting civilians - UN News",
-   "Delegations meet in Iran with Mideast region on edge over potential for renewed fighting - AP News",
-   "Inside the worst month for ships in the Strait of Hormuz - Al Jazeera",
-   "Mexican Peso Gains on US-Mexico Rate Differential Expectations - TradingView",
-   "Russia Takes Five Hits in Just Two Days as Ukraine Hunts Key Defense Factories - UNITED24 Media",
-   "Hezbollah reportedly readying for new regional war, with funds from Iran - The Times of Israel",
-   "Gold Tests $4,000 Support Ahead of Federal Reserve Decision - FXEmpire",
-   "\u2018Hybrid weapon of war\u2019: Why climate disinformation could be a growing public health threat - Euronews.com",
-   "Iran is a forever war - KERA Think",
-   "Family finds World War II grenade in grandfather\u2019s basement - Popular Science",
-   "\u2018Nearly a Month\u2019: Zelensky Presses US Over Delayed Patriot and NASAMS Missiles as Ukraine Faces Russian Strikes - Kyiv Post"
+   "Catholic bishops apologise for 'exploited' Trump meeting",
+   "Police arrest teenager after shooting that injured 12, including children, in Florida",
+   "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
+   "Part of Antarctica named after former BBC science correspondent",
+   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
+   "Nurse killed in attack while responding to Ebola alert in DR Congo",
+   "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+   "US Marine indicted for murder and robbery of woman in Japan",
+   "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+   "Five ways Trump has changed immigration in the US",
+   "Stunning photos capture October's Hunter's Moon around the world",
+   "Salon owners urge Budget VAT cut as staffing pressures grow",
+   "Healey to shield low-income pensioners from income tax in the Budget",
+   "Crowds welcome Venezuela's Mar\u00eda Machado after months in exile"
   ]
  },
  "log": [
-  "23.10 20:49 B1  SHORT gold 5000 USD x10 @ 4005.85 (TP 4003.30, SL 4007.30; news -0.20)",
-  "23.10 20:49 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
-  "23.10 20:49 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde dar bant ve jeopolitik belirsizlik h\u00e2kim; mevcut fiyat hareketleri y\u00fczde 1,5 hedefli yeni pozisyonlar i\u00e7in haberlerle desteklenen net bir avantaj sunmuyor.\u00bb",
   "23.10 20:58 B1  CLOSE short stop: -3.00 USD",
   "23.10 21:08 B1  SHORT gold 5000 USD x10 @ 4009.96 (TP 4007.40, SL 4011.41; news -0.20)",
   "23.10 21:08 B6  karar turu: Claude \u00abPetrol 100 dolar\u0131n \u00fczerinde ve \u0130ran gerilimi s\u00fcrerken endeksler dar bantta yatay seyrediyor; net bir avantaj olmad\u0131\u011f\u0131ndan i\u015flem a\u00e7mamak en do\u011frusu.\u00bb / GPT \u00abEndekslerde dar bantl\u0131 seyir ve y\u00fcksek haber belirsizli\u011fi nedeniyle y\u00fczde 1,5 hedefi destekleyen net kurulum yok; yeni pozisyon a\u00e7mamak daha disiplinli.\u00bb",
@@ -6316,7 +6305,10 @@
   "26.10 18:21 B6  karar turu: Claude \u00ab\u0130ran gerginli\u011finin azalmas\u0131yla b\u00fcy\u00fcme hisseleri \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131 y\u00fcksek, ancak b\u00fcy\u00fck hareketler ger\u00e7ekle\u015fti ve endeksler konsolidasyonda; yeni pozisyon i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndekslerde y\u00f6n yukar\u0131 olsa da mevcut haberler ve fiyat yap\u0131lar\u0131, 1:2 kald\u0131ra\u00e7la y\u00fczde 1,5 hedef ve y\u00fczde 1 stop i\u00e7in yeterince net bir giri\u015f avantaj\u0131 sunmuyor.\u00bb",
   "26.10 19:20 N  NEWS (38 new) score -0.05 conf 0.30: Haberler kar\u0131\u015f\u0131k: \u0130ran'da m\u00fczakere heyetlerinin gelmesi ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon endi\u015fesini azalt\u0131p jeopolitik risk primini zay\u0131flat\u0131yor, bu da alt\u0131n i\u00e7in hafif olumsuz. \u00d6te yandan Netanyahu'nun sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 ve H\u00fcrm\u00fcz'deki gerilim g\u00fcvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutmas\u0131 beklenirken s\u00fcrpriz bir y\u00f6n yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
   "26.10 19:20 N  GPT  score +0.12 conf 0.32: \u0130ran \u00e7evresinde yeniden \u00e7at\u0131\u015fma ihtimaline dair haberler g\u00fcvenli liman talebini destekleyebilir; ancak ayn\u0131 anda bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri de bildiriliyor. Fed\u2019in faizi sabit tutmas\u0131n\u0131n beklenmesi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcnd\u00fc\u011f\u00fcnden k\u0131sa vadeli etki s\u0131n\u0131rl\u0131 ve belirsiz.",
-  "26.10 19:20 B6  karar turu: Claude \u00abPiyasa b\u00fcy\u00fcme hisseleri \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif ama \u00f6\u011fle saatlerinde hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; yeni bir net avantaj olmad\u0131\u011f\u0131ndan beklemede kalmak en do\u011frusu.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i kazan\u00e7lara ra\u011fmen son saatte momentum zay\u0131f; mevcut haber ve fiyat uyumu kald\u0131ra\u00e7l\u0131 yeni pozisyon i\u00e7in yeterince g\u00fc\u00e7l\u00fc de\u011fil.\u00bb"
+  "26.10 19:20 B6  karar turu: Claude \u00abPiyasa b\u00fcy\u00fcme hisseleri \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif ama \u00f6\u011fle saatlerinde hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; yeni bir net avantaj olmad\u0131\u011f\u0131ndan beklemede kalmak en do\u011frusu.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i kazan\u00e7lara ra\u011fmen son saatte momentum zay\u0131f; mevcut haber ve fiyat uyumu kald\u0131ra\u00e7l\u0131 yeni pozisyon i\u00e7in yeterince g\u00fc\u00e7l\u00fc de\u011fil.\u00bb",
+  "26.10 20:10 N  NEWS (16 new) score +0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil: Fed, enflasyon, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair bir haber yok. Niger'e Cezayir asker g\u00f6nderimi, Brezilya se\u00e7imi ve Etiyopya katliam\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi k\u00fc\u00e7\u00fck ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+  "26.10 20:10 N  GPT  score +0.12 conf 0.24: Nijer\u2019e Cezayir asker\u00ee m\u00fcdahalesi ve Etiyopya\u2019daki katliam haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin alt\u0131n, dolar veya faiz beklentilerine do\u011frudan etkisi belirsiz; k\u0131sa vadeli fiyat etkisi muhtemelen zay\u0131f kal\u0131r.",
+  "26.10 20:10 B6  karar turu: Claude \u00abPiyasa \u0130ran gerginli\u011finin azalmas\u0131 ve b\u00fcy\u00fcme hisselerinin liderli\u011fiyle pozitif, ancak \u00f6\u011fleden sonra yatay konsolidasyon s\u00fcr\u00fcyor ve yeni giri\u015f i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndeksler g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc ancak son saatte yatay; mevcut fiyat hareketleri ve haberler \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in net bir i\u015flem avantaj\u0131 olu\u015fturmuyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -7795,6 +7787,10 @@
    [
     1793031629,
     4964.78
+   ],
+   [
+    1793034604,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -9222,6 +9218,10 @@
    [
     1793031629,
     4973.18
+   ],
+   [
+    1793034604,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -10596,6 +10596,10 @@
    [
     1793031629,
     5005.69
+   ],
+   [
+    1793034604,
+    5005.69
    ]
   ]
  },
@@ -11700,6 +11704,10 @@
    [
     1793031629,
     4977.63
+   ],
+   [
+    1793034604,
+    4977.63
    ]
   ],
   "news_calls": {
@@ -12740,6 +12748,10 @@
    [
     1793031629,
     5021.88
+   ],
+   [
+    1793034604,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -13650,16 +13662,20 @@
    [
     1793031629,
     100000.0
+   ],
+   [
+    1793034604,
+    100000.0
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793031610752,
+  "last_decision_ms": 1793034589717,
   "view": {
-   "ts": 1793031610752,
-   "claude": "Piyasa b\u00fcy\u00fcme hisseleri \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif ama \u00f6\u011fle saatlerinde hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; yeni bir net avantaj olmad\u0131\u011f\u0131ndan beklemede kalmak en do\u011frusu.",
-   "gpt": "Endekslerde g\u00fcn i\u00e7i kazan\u00e7lara ra\u011fmen son saatte momentum zay\u0131f; mevcut haber ve fiyat uyumu kald\u0131ra\u00e7l\u0131 yeni pozisyon i\u00e7in yeterince g\u00fc\u00e7l\u00fc de\u011fil.",
+   "ts": 1793034589717,
+   "claude": "Piyasa \u0130ran gerginli\u011finin azalmas\u0131 ve b\u00fcy\u00fcme hisselerinin liderli\u011fiyle pozitif, ancak \u00f6\u011fleden sonra yatay konsolidasyon s\u00fcr\u00fcyor ve yeni giri\u015f i\u00e7in net bir avantaj g\u00f6r\u00fcnm\u00fcyor.",
+   "gpt": "Endeksler g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc ancak son saatte yatay; mevcut fiyat hareketleri ve haberler \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in net bir i\u015flem avantaj\u0131 olu\u015fturmuyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -13670,30 +13686,10 @@
      ],
      "gpt": [
       "none",
-      0.96
+      0.95
      ]
     },
     "QQQ": {
-     "claude": [
-      "none",
-      0.2
-     ],
-     "gpt": [
-      "none",
-      0.96
-     ]
-    },
-    "NVDA": {
-     "claude": [
-      "none",
-      0.25
-     ],
-     "gpt": [
-      "none",
-      0.92
-     ]
-    },
-    "AAPL": {
      "claude": [
       "none",
       0.25
@@ -13703,6 +13699,26 @@
       0.94
      ]
     },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.3
+     ],
+     "gpt": [
+      "none",
+      0.9
+     ]
+    },
+    "AAPL": {
+     "claude": [
+      "none",
+      0.3
+     ],
+     "gpt": [
+      "none",
+      0.88
+     ]
+    },
     "TSLA": {
      "claude": [
       "none",
@@ -13710,7 +13726,7 @@
      ],
      "gpt": [
       "none",
-      0.95
+      0.93
      ]
     }
    }
