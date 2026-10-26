@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 10:16 (İstanbul)
+> Son güncelleme: 26.10.2026 11:10 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -43,28 +43,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -76.04 $ |
-| İşlem sayısı | 0 | 33 |
-| Kazanma oranı | %0.0 | %24.2 |
-| Ödenen komisyon/spread | 0.00 $ | 78.32 $ |
+| Net kâr/zarar | -3.00 $ | -79.04 $ |
+| İşlem sayısı | 1 | 34 |
+| Kazanma oranı | %0.0 | %23.5 |
+| Ödenen komisyon/spread | 2.37 $ | 80.69 $ |
 
-**Hesap değeri: 4,922.77 $** (başlangıç 5,000 $, -77.23 $ / %-1.54)
+**Hesap değeri: 4,920.96 $** (başlangıç 5,000 $, -79.04 $ / %-1.58)
 
-Açık pozisyonlar: PAXGUSDT short @ 4014.07 (TP 4011.51 / SL 4015.52)
+Son haber analizi (26.10 11:10): Claude puan **-0.20**, güven 0.40 — Fed'in Aralık'ta faiz artırımı ihtimali ve güçlenen dolar altın için baskı oluşturuyor; buna karşılık İran ve Körfez'deki jeopolitik gerilim (Husi saldırısı, Suudi karşı saldırıları) güvenli liman talebini destekliyor. Arabulucu heyetlerin İran'a gitmesi gerilimin bir kısmının gevşediğine işaret ettiği için net etki hafif negatif, güven düşük.
 
-Son haber analizi (26.10 10:16): Claude puan **-0.20**, güven 0.40 — Fed'in faiz artırımı olasılığının yükseldiğine dair haberler (Aralık hike ihtimali, %75 artırım olasılığı) ve güçlü dolar beklentisi altın için baskılayıcı. İran savaşı, Husi saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor, ancak bu gerilimlerin büyük kısmı zaten fiyatlanmış ve haberler karışık; Fed toplantısı öncesi piyasa belirsizlik içinde.
-
-GPT (gpt-6-luna): puan **-0.12**, güven 0.38 — Fed’in faiz artırımı olasılığının yüksek gösterilmesi altın için kısa vadede baskı yaratabilir. Doların gerilemesi ve Yemen çevresindeki gerilimler bu etkiyi dengeliyor; haber akışı büyük ölçüde beklenti ve mevcut riskleri yansıtıyor.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.42 — Fed’e ilişkin şahin beklentiler ve doların gücü altın üzerinde kısa vadeli baskı oluşturuyor. İran çevresindeki gerilim ve Riyad’a yönelik saldırı haberleri güvenli liman talebini destekleyebilir; ancak diplomatik temaslar ve çelişkili haber akışı bu desteği sınırlıyor.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 26.10 10:21 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 21:26 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 20:51 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 20:31 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 20:03 | PAXGUSDT | short | -4.19 $ | stop |
-| 23.10 19:47 | PAXGUSDT | short | -4.47 $ | stop (gap) |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -155,9 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 14:18 N  GPT  score +0.20 conf 0.35: İran’ın tehditleri ve Suudi Arabistan’a yönelik füze/İHA saldırıları güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak gelişmelerin bir kısmı süreklilik arz ediyor; euronun zayıflaması ve altındaki yakın dönem düşüşü yönü belirsizleştiriyor.
-25.10 14:51 N  NEWS (14 new) score +0.10 conf 0.35: İran'la olası savaş tırmanışı ve Hürmüz'deki aksamalar jeopolitik risk primini hafifçe destekliyor. Ancak "altın 4.000 doların altına düştü" başlığı ve hisse senedi çöküşü, fiyatta nakit ihtiyacı kaynaklı satış ya da dolar/faiz baskısı olabileceğini gösteriyor; bu nedenle net etki sınırlı ve belirsiz.
-25.10 14:51 N  GPT  score +0.12 conf 0.36: Suudi Arabistan’a yönelik füze ve İHA saldırılarının sürmesi ile İran geriliminin yeniden tırmanabileceğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altının hisse senedi çalkantısı sırasında da gerilemesi ve haberlerin bir kısmının ileriye dönük ya da tekrarlanan nitel
 25.10 17:38 A  CLOSE BTCUSDT time limit: +0.99 USD
 26.10 07:15 N  NEWS (43 new) score -0.10 conf 0.40: Altın 4.000 doların altına sarkmış ve 3 aylık dip yakınında; yüksek petrol fiyatları enflasyon ve sıkı Fed beklentisi yoluyla baskı yaratıyor. Buna karşılık Orta Doğu savaşı ve İran'ın savaş hazırlığı güvenli liman talebini destekliyor, dolar ve tahvil getirilerindeki zayıflama ise Fed'in duraklama beklentisiyle altına destek veriyor; bu çelişkili sinyaller nedeniyle yön net değil.
 26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve İran kaynaklı gerilim ile dolar ve tahvil getirilerindeki zayıflık altına kısa vadeli destek sağlayabilir. Ancak altının 4.000 doların altına inmesi, petrol kaynaklı enflasyonun Fed’i daha şahin tutabileceği kaygısı ve haberlerin bir kısmının doğrulanmamış olması yükseliş beklentisini sınır
@@ -170,6 +165,9 @@ Son işlemler:
 26.10 10:16 N  NEWS (38 new) score -0.20 conf 0.40: Fed'in faiz artırımı olasılığının yükseldiğine dair haberler (Aralık hike ihtimali, %75 artırım olasılığı) ve güçlü dolar beklentisi altın için baskılayıcı. İran savaşı, Husi saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor, ancak bu gerilimlerin büyük kısmı zaten fiyatlanmış ve haberler karışık; Fed toplantısı öncesi piyasa belirsizlik içinde.
 26.10 10:16 N  GPT  score -0.12 conf 0.38: Fed’in faiz artırımı olasılığının yüksek gösterilmesi altın için kısa vadede baskı yaratabilir. Doların gerilemesi ve Yemen çevresindeki gerilimler bu etkiyi dengeliyor; haber akışı büyük ölçüde beklenti ve mevcut riskleri yansıtıyor.
 26.10 10:16 B1  SHORT gold 5000 USD x10 @ 4014.07 (TP 4011.51, SL 4015.52; news -0.20)
+26.10 11:10 B1  CLOSE short stop: -3.00 USD
+26.10 11:10 N  NEWS (33 new) score -0.20 conf 0.40: Fed'in Aralık'ta faiz artırımı ihtimali ve güçlenen dolar altın için baskı oluşturuyor; buna karşılık İran ve Körfez'deki jeopolitik gerilim (Husi saldırısı, Suudi karşı saldırıları) güvenli liman talebini destekliyor. Arabulucu heyetlerin İran'a gitmesi gerilimin bir kısmının gevşediğine işaret ettiği için net etki hafif negatif, güven düşük.
+26.10 11:10 N  GPT  score -0.15 conf 0.42: Fed’e ilişkin şahin beklentiler ve doların gücü altın üzerinde kısa vadeli baskı oluşturuyor. İran çevresindeki gerilim ve Riyad’a yönelik saldırı haberleri güvenli liman talebini destekleyebilir; ancak diplomatik temaslar ve çelişkili haber akışı bu desteği sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
