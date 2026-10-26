@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 00:12 (İstanbul)
+> Son güncelleme: 27.10.2026 00:51 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (27.10 00:12): Claude puan **-0.10**, güven 0.30 — İran savaşının petrol kaynaklı enflasyonu Fed'in sıkı duruşunu destekleyip altı baskılıyor; Kitco yorumu da savaşın bitmesinin altın için olumlu olacağını belirtiyor. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları güvenli liman talebini destekliyor, bu yüzden etki karışık ve sınırlı kalıyor.
+Son haber analizi (27.10 00:51): Claude puan **+0.05**, güven 0.35 — Haberler karışık: İran'daki barış umutları ve petrol fiyatlarının gerilemesi jeopolitik güvenli liman talebini azaltırken, enflasyon ve faiz artırımı beklentilerini de yumuşatarak altı dolaylı olarak destekliyor. Fed'in bu hafta sabit faiz beklentisi ve altın fiyatının 4000 doların üzerinde tutunması net bir yön vermiyor; bu nedenle etki sınırlı ve güven düşük.
 
-GPT (gpt-6-luna): puan **+0.22**, güven 0.38 — İran savaşının yeniden alevlenebileceğine dair haberler güvenli liman talebini destekleyerek altın için hafif olumlu. Ancak İran’la müzakere girişimleri, haberlerin bir kısmının tekrarı ve petrol kaynaklı enflasyonun faizleri yüksek tutma riski yükselişi sınırlıyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — Altın vadeli işlemlerinin petrol geri çekilirken yükselmesi ve İran savaşının yeniden tırmanma ihtimali kısa vadede hafif destekleyici. Ancak İran’la diplomasi haberleri risk talebini azaltabilir; Fed kararı öncesi yön konusunda belirsizlik yüksek.
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 20:50 N  GPT  score +0.25 conf 0.38: İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
-26.10 20:50 B6  karar turu: Claude «Piyasa çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra momentum zayıflıyor; şirkete özel olumsuz haber nedeniyle yalnızca AAPL'de sınırlı bir short fırsatı görülüyor.» / GPT «Endeksler gün içi yükselişlerini geri verirken geniş piyasa işlemlerinden kaçınmak, yalnızca taze olumsuz haberle desteklenen AAPL zayıflığını değerlendirmek daha disiplinli.»
 26.10 20:50 B6  AÇIĞA SATIŞ AAPL 116 adet ≈ 39,739 $ (1:2) @ 342.58 (TP 337.44, SL 346.01; ikisi de hemfikir, güven 0.55)
 26.10 21:26 N  NEWS (25 new) score +0.10 conf 0.35: İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primini destekliyor, ancak Fed'in Eylül'de yaptığı faiz artışı ve enflasyon nedeniyle daha fazla sıkılaşma beklentisi altın için baskı oluşturuyor. Petrol fiyatlarının gevşemesi enflasyon korkusunu azaltarak reel faizler üzerinden hafif olumlu bir etki yaratabilir; genel tablo karışık ve yakın vadede nötre yakın.
 26.10 21:26 N  GPT  score +0.22 conf 0.38: Harkiv’e yönelik ölümcül saldırı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir; faiz artırımlarının gerekmeyebileceği yorumu da altın için sınırlı olumlu. Ancak Rusya-Ukrayna görüşmelerinin yeniden başlayacak olması ve haberlerin önemli kısmının yeni fiyat etkisi yaratmayabile
@@ -169,6 +167,8 @@ Son işlemler:
 26.10 23:35 N  GPT  score -0.15 conf 0.36: İran’la diplomasi ve petrol fiyatlarındaki düşüş, güvenli liman ve enflasyon kaynaklı altın talebini kısa vadede sınırlayabilir. Ancak İran’ın yeni çatışma tehdidi bu etkiyi dengeliyor; Fed beklentilerine dair yeni ve belirleyici bir sinyal yok.
 27.10 00:12 N  NEWS (16 new) score -0.10 conf 0.30: İran savaşının petrol kaynaklı enflasyonu Fed'in sıkı duruşunu destekleyip altı baskılıyor; Kitco yorumu da savaşın bitmesinin altın için olumlu olacağını belirtiyor. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları güvenli liman talebini destekliyor, bu yüzden etki karışık ve sınırlı kalıyor.
 27.10 00:12 N  GPT  score +0.22 conf 0.38: İran savaşının yeniden alevlenebileceğine dair haberler güvenli liman talebini destekleyerek altın için hafif olumlu. Ancak İran’la müzakere girişimleri, haberlerin bir kısmının tekrarı ve petrol kaynaklı enflasyonun faizleri yüksek tutma riski yükselişi sınırlıyor.
+27.10 00:51 N  NEWS (18 new) score +0.05 conf 0.35: Haberler karışık: İran'daki barış umutları ve petrol fiyatlarının gerilemesi jeopolitik güvenli liman talebini azaltırken, enflasyon ve faiz artırımı beklentilerini de yumuşatarak altı dolaylı olarak destekliyor. Fed'in bu hafta sabit faiz beklentisi ve altın fiyatının 4000 doların üzerinde tutunması net bir yön vermiyor; bu nedenle etki sınırlı ve güven düşük.
+27.10 00:51 N  GPT  score +0.18 conf 0.34: Altın vadeli işlemlerinin petrol geri çekilirken yükselmesi ve İran savaşının yeniden tırmanma ihtimali kısa vadede hafif destekleyici. Ancak İran’la diplomasi haberleri risk talebini azaltabilir; Fed kararı öncesi yön konusunda belirsizlik yüksek.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
