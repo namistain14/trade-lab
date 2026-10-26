@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 07:58 (İstanbul)
+> Son güncelleme: 26.10.2026 08:35 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
 
-Son haber analizi (26.10 07:58): Claude puan **+0.10**, güven 0.40 — Jeopolitik gerilim (İran/Hürmüz, Husi saldırıları, ABD'nin savaş hazırlığı haberleri) altın için güvenli liman talebi yaratıyor ve hafif pozitif. Ancak petrol kaynaklı enflasyon endişesi Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirerek baskı yaratıyor, dolar ise zayıf seyrediyor. Bu karışık sinyaller ve FOMC öncesi belirsizlik nedeniyle yön net değil; güven düşük.
+Son haber analizi (26.10 08:35): Claude puan **-0.10**, güven 0.35 — Altın 4.000 dolar civarında baskı altında; petrol yükselişinin Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirmesi ve FOMC öncesi temkin altın için hafif negatif. Buna karşılık doların zayıflaması, yuanın 4 yılın zirvesine çıkması ve İran/Husi çatışmalarının sürmesi kısmen destekleyici; bu karışık sinyaller ve haberlerin büyük ölçüde fiyatlanmış olması güveni düşürüyor.
 
-GPT (gpt-6-luna): puan **+0.22**, güven 0.36 — Hürmüz ve Yemen çevresindeki çatışma haberleri güvenli liman talebini desteklerken doların zayıflaması ve tahvil getirilerinin gerilemesi de altın için olumlu. Ancak petrol kaynaklı enflasyonun Fed’i daha sıkı tutabileceği endişesi ve gerilimin yatışabileceğine dair haberler yükseliş etkisini sınırl
+GPT (gpt-6-luna): puan **+0.15**, güven 0.30 — Doların zayıflaması ve bölgesel çatışma haberleri altına sınırlı destek sağlayabilir; ancak petrolün gerilemesi ve Fed kararına yönelik belirsizlik yönü netleştirmiyor. Haber akışı çelişkili olduğundan kısa vadeli etki muhtemelen sınırlı kalır.
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 12:51 N  NEWS (21 new) score +0.10 conf 0.30: 
-25.10 12:51 N  GPT  score -0.20 conf 0.34: Yeni başlıklarda birkaç piyasada altın fiyatlarının gerilemesi ve doların güçlü kaldığına dair haberler kısa vadede hafif aşağı yönlü sinyal veriyor. Kuzey Kore-Rusya askeri işbirliği haberinin güvenli liman desteği sınırlı; net bir Fed veya faiz sürprizi yok.
 25.10 13:17 N  NEWS (21 new) score +0.10 conf 0.30: Yeni başlıklarda jeopolitik risk (İran'a yeni ABD saldırısı endişesi, Husilerin Riyad'a füze saldırısı) altına güvenli liman talebini hafif destekliyor. Ancak Fed kararı, ABD GSYİH ve çekirdek PCE verilerinin yakın olması ve Rusya dizeli üzerindeki anlaşmanın petrol fiyatlarını baskılayabilmesi, faiz beklentileri yönünden belirsizlik yaratıyor; bu nedenle net yön zayıf ve güven düşük.
 25.10 13:17 N  GPT  score +0.12 conf 0.24: Riyad’a yönelen Husi füzesinin düşürülmesi ve İran gerilimine dair haberler kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak füzenin engellenmesi, haberlerin bir kısmının spekülatif olması ve Fed kararına ilişkin yeni bir gelişme bulunmaması etkiyi düşük tutuyor.
 25.10 13:52 N  NEWS (18 new) score +0.15 conf 0.30: 
@@ -168,6 +166,8 @@ Son işlemler:
 26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve İran kaynaklı gerilim ile dolar ve tahvil getirilerindeki zayıflık altına kısa vadeli destek sağlayabilir. Ancak altının 4.000 doların altına inmesi, petrol kaynaklı enflasyonun Fed’i daha şahin tutabileceği kaygısı ve haberlerin bir kısmının doğrulanmamış olması yükseliş beklentisini sınır
 26.10 07:58 N  NEWS (31 new) score +0.10 conf 0.40: Jeopolitik gerilim (İran/Hürmüz, Husi saldırıları, ABD'nin savaş hazırlığı haberleri) altın için güvenli liman talebi yaratıyor ve hafif pozitif. Ancak petrol kaynaklı enflasyon endişesi Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirerek baskı yaratıyor, dolar ise zayıf seyrediyor. Bu karışık sinyaller ve FOMC öncesi belirsizlik nedeniyle yön net değil; güven düşük.
 26.10 07:58 N  GPT  score +0.22 conf 0.36: Hürmüz ve Yemen çevresindeki çatışma haberleri güvenli liman talebini desteklerken doların zayıflaması ve tahvil getirilerinin gerilemesi de altın için olumlu. Ancak petrol kaynaklı enflasyonun Fed’i daha sıkı tutabileceği endişesi ve gerilimin yatışabileceğine dair haberler yükseliş etkisini sınırl
+26.10 08:35 N  NEWS (20 new) score -0.10 conf 0.35: Altın 4.000 dolar civarında baskı altında; petrol yükselişinin Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirmesi ve FOMC öncesi temkin altın için hafif negatif. Buna karşılık doların zayıflaması, yuanın 4 yılın zirvesine çıkması ve İran/Husi çatışmalarının sürmesi kısmen destekleyici; bu karışık sinyaller ve haberlerin büyük ölçüde fiyatlanmış olması güveni düşürüyor.
+26.10 08:35 N  GPT  score +0.15 conf 0.30: Doların zayıflaması ve bölgesel çatışma haberleri altına sınırlı destek sağlayabilir; ancak petrolün gerilemesi ve Fed kararına yönelik belirsizlik yönü netleştirmiyor. Haber akışı çelişkili olduğundan kısa vadeli etki muhtemelen sınırlı kalır.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
