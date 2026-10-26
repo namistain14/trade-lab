@@ -1482,6 +1482,10 @@
    [
     1792988108,
     4995.0
+   ],
+   [
+    1792990692,
+    4995.0
    ]
   ]
  },
@@ -3601,28 +3605,32 @@
    [
     1792988108,
     4923.96
+   ],
+   [
+    1792990692,
+    4923.96
    ]
   ],
   "news": {
-   "score": -0.1,
+   "score": 0.1,
    "confidence": 0.4,
-   "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f ve 3 ayl\u0131k dip yak\u0131n\u0131nda; y\u00fcksek petrol fiyatlar\u0131 enflasyon ve s\u0131k\u0131 Fed beklentisi yoluyla bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k Orta Do\u011fu sava\u015f\u0131 ve \u0130ran'\u0131n sava\u015f haz\u0131rl\u0131\u011f\u0131 g\u00fcvenli liman talebini destekliyor, dolar ve tahvil getirilerindeki zay\u0131flama ise Fed'in duraklama beklentisiyle alt\u0131na destek veriyor; bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n net de\u011fil.",
+   "reason": "Jeopolitik gerilim (\u0130ran/H\u00fcrm\u00fcz, Husi sald\u0131r\u0131lar\u0131, ABD'nin sava\u015f haz\u0131rl\u0131\u011f\u0131 haberleri) alt\u0131n i\u00e7in g\u00fcvenli liman talebi yarat\u0131yor ve hafif pozitif. Ancak petrol kaynakl\u0131 enflasyon endi\u015fesi Fed'in uzun s\u00fcre y\u00fcksek faiz tutaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek bask\u0131 yarat\u0131yor, dolar ise zay\u0131f seyrediyor. Bu kar\u0131\u015f\u0131k sinyaller ve FOMC \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil; g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1792988106081,
-   "new_headlines": 43,
+   "ts": 1792990689434,
+   "new_headlines": 31,
    "key_events": [
     "Trump'\u0131n \u0130ran'a y\u00f6nelik olas\u0131 t\u0131rman\u0131\u015f haz\u0131rl\u0131\u011f\u0131 (Bloomberg)",
     "Alt\u0131n fiyat\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fmesi ve borsa \u00e7\u00f6k\u00fc\u015f\u00fc",
     "Suudi Arabistan'\u0131n Husilerle \u00e7at\u0131\u015fmas\u0131 ve H\u00fcrm\u00fcz'deki gerilim"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.42,
-    "reason": "Yemen ve \u0130ran kaynakl\u0131 gerilim ile dolar ve tahvil getirilerindeki zay\u0131fl\u0131k alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi, petrol kaynakl\u0131 enflasyonun Fed\u2019i daha \u015fahin tutabilece\u011fi kayg\u0131s\u0131 ve haberlerin bir k\u0131sm\u0131n\u0131n do\u011frulanmam\u0131\u015f olmas\u0131 y\u00fckseli\u015f beklentisini s\u0131n\u0131r",
+    "score": 0.22,
+    "confidence": 0.36,
+    "reason": "H\u00fcrm\u00fcz ve Yemen \u00e7evresindeki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini desteklerken dolar\u0131n zay\u0131flamas\u0131 ve tahvil getirilerinin gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak petrol kaynakl\u0131 enflasyonun Fed\u2019i daha s\u0131k\u0131 tutabilece\u011fi endi\u015fesi ve gerilimin yat\u0131\u015fabilece\u011fine dair haberler y\u00fckseli\u015f etkisini s\u0131n\u0131rl",
     "key_events": [
-     "Yemen-Husi sald\u0131r\u0131 iddialar\u0131 ve Orta Do\u011fu gerilimi",
-     "Dolar ve getirilerdeki zay\u0131fl\u0131k",
-     "Alt\u0131n 4.000 dolar\u0131n alt\u0131nda; Fed karar\u0131 bekleniyor"
+     "H\u00fcrm\u00fcz ve Yemen\u2019de yeni sald\u0131r\u0131 haberleri",
+     "Dolar zay\u0131fl\u0131yor, tahvil getirileri geriliyor",
+     "Petrol kaynakl\u0131 enflasyon ve Fed belirsizli\u011fi"
     ],
     "model": "gpt-6-luna"
    }
@@ -5717,63 +5725,70 @@
     "new": 43,
     "gpt_score": 0.15,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1792990689434,
+    "score": 0.1,
+    "confidence": 0.4,
+    "reason": "Jeopolitik gerilim (\u0130ran/H\u00fcrm\u00fcz, Husi sald\u0131r\u0131lar\u0131, ABD'nin sava\u015f haz\u0131rl\u0131\u011f\u0131 haberleri) alt\u0131n i\u00e7in g\u00fcvenli liman talebi yarat\u0131yor ve hafif pozitif. Ancak petrol kaynakl\u0131 enflasyon endi\u015fesi Fed'in uzun s\u00fcre y\u00fcksek faiz tutaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek bask\u0131 yarat\u0131yor, dolar ise zay\u0131f seyrediyor. Bu kar\u0131\u015f\u0131k sinyaller ve FOMC \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil; g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 31,
+    "gpt_score": 0.22,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-10-26",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
+   "Pentagon Prepares US Military Bases for a Major War - Caspian Post",
+   "Gold and silver prices rise on commodity markets - Apa.az",
+   "Coalition destroys Houthi missile launchers in Sanaa after foiled attack on Riyadh - Arab News",
+   "Rupee Falls to 94.98 Against US Dollar Amid Oil, Tensions - Rediff MoneyWiz",
+   "Asia FX muted, yuan at 4-yr high; dollar drifts lower ahead of c.bank-packed week - Investing.com Canada",
+   "Gold prices fell sharply across the board last week, with experts questioning gold's short-term potential. - Vietnam.vn",
+   "Gold rebounds from three-month low, holds $4,000 as FOMC looms | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Gold Falls As Rising Oil Prices Reinforce Fed Outlook For Higher Rates To Last By Kedia Advisory - Investing.com India",
+   "How Did Myanmar Hide Iranian Jet Fuel Imports to Evade US Sanctions? - Modern Diplomacy",
+   "Gold, silver prices recover after sharp fall on buying at lower levels - Business Standard",
+   "Gold price in India: Rates on October 26 - FXStreet",
+   "Saudi Reopens Riyadh Airport As Houthi Missile, Drone Attacks Continue - NDTV",
+   "Domestic gold prices remained stable, with SJC maintaining the 141.7 million VND mark. - Vietnam.vn",
+   "Trump started a trade war with Canada. GOP candidates became casualties. - The Washington Post",
+   "Oil drops from near six-month highs on hopes Iran war hostilities to ease - Yahoo Finance",
+   "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - https://houseofsaud.com/",
+   "Chennai gold price rises by Rs 120 on October 26, 2026; check today's gold, silver rate - DT Next",
+   "Gold gains on softer oil prices; Fed decision in focus - The Edge Malaysia",
+   "Jewellers Turn to Rate-Locking Schemes to Drive Dhanteras Sales Amid Gold Price Volatility - Indian Jeweller",
+   "Gold Rate Today in Andhra Pradesh 26th October 2026 : 22 & 24 Carat, Todays Gold Price in Andhra Pradesh - Business Today",
+   "Philippine peso hits record low of \u20b163.81 against the US dollar - Philippine Canadian Inquirer",
+   "BOJ Nears 2% Inflation Goal, Keeping December Rate Hike In Play - BusinessToday Malaysia",
+   "China National Team ETFs Draw Most Inflows Since Trade War Rout - Bloomberg.com",
    "Gold prices this morning, October 26, 2026: Gold ring prices are starting to fall. - Vietnam.vn",
-   "Back To the Bad Old Days - The Flash Today Erath County",
+   "Gold price selloff: Jefferies calls battered MCX shares hedge against crude volatility; here's why - Business Today",
    "Gold prices today, October 26th: Stable - Vietnam.vn",
-   "Gold Slips Below $4,000 Mark; Silver Hits Nearly One-Year Low as Markets Brace for Fed Meeting - finance.biggo.com",
-   "Middle East War Fuels Surge in Oil Tanker Costs, Seafarer Wages - \uc870\uc120\uc77c\ubcf4",
+   "Houthis claim missile attacks on Yemen's Aden, Lahij - Middle East Eye",
+   "Gold Slips Below $4,000 Mark; Silver Hits Nearly One-Year Low as Markets Brace for Fed Meeting - BigGo Finance",
+   "India\u2019s Stocks Slipped As Oil Prices Kept Inflation Fears Alive - Finimize",
    "Gold, silver prices today, 26 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata - Livemint",
    "Yemen says missile strikes hit Saudi mercenaries - Mehr News Agency",
    "China\u2019s yuan climbs to fresh 4-year high ahead of key policy meetings - KELO-AM",
    "Bank of Japan\u2019s hawkish pause to leave scope for December hike - KELO-AM",
+   "Missile launchers in Yemen's Sanaa destroyed, Saudi-led coalition says - Middle East Eye",
    "Facing Russia, northern and eastern European countries prepare their societies for war - Le Monde.fr",
+   "The Federal Reserve and the European Central Bank are expected to jointly pause rate hikes, yet why does global capital remain under pressure? JPMorgan Outlook: The logic of continued tightening continues to weigh on equities and bonds. - \u5bcc\u9014\u725b\u725b",
    "Houthis say they attacked East-West oil pumping stations; No Saudi confirmation - Reuters",
    "Iran signals readiness for war amid claims that strikes have already begun - Amwaj.media",
    "Swiss Franc advances as US Dollar weakens on Fed rate pause expectations - FXStreet",
-   "Trump started a trade war with Canada. GOP candidates became casualties. - The Washington Post",
-   "New Zealand: SEG candidate advances socialist perspective at Hutt South forum - World Socialist Web Site",
-   "Hyundai Rotem Completes 'Heroes Home' Project for Turkish Korean War Veterans - \uc870\uc120\uc77c\ubcf4",
+   "Rupee edges lower against dollar: Why the 95 mark is in focus - CNBC TV18",
+   "News by CNBC TV18 on TradingView, 2026-10-26 \u2014 cnbctv:a6bbb3840094b:0 - TradingView",
+   "Gold Hovers Near $4,000 as Oil-Driven Inflation Fears Collide With Fed Rate Bets - BigGo Finance",
    "A socialist perspective to fight against war and austerity! Attend the SEP\u2019s Victorian election campaign launch! - World Socialist Web Site",
-   "Saudi-led coalition says it struck Houthi missile launchers in Sanaa - Anadolu Ajans\u0131",
-   "Coalition destroys Houthi missile launchers in Sanaa after foiled attack on Riyadh - Arab News",
-   "Gold Price Forecast: XAU/USD gains at start of Fed\u2019s policy week - FXStreet",
-   "Curator\u2019s Cut: IT Services Bounce Back, Indonesia Feels the Heat & Gold Cuts Many Ways - Smartkarma",
-   "The US-China biotech trade war that isn\u2019t - Asia Times",
-   "Federal Reserve Interest Rate Predictions Next Week: October 27\u201328, 2026 - Norada Real Estate Investments",
-   "US dollar slides as yields fall, markets brace for data deluge and global rate splits - VT Markets",
-   "EUR/USD Lingers Near 1.1200 as ECB, Fed and Eurozone Inflation Data Take Centre Stage - VT Markets",
-   "Israel\u2019s global image is in free fall. Why isn\u2019t it a bigger issue in the election? - The Times of Israel",
-   "Gold steadies near 3-mth low as elevated oil prices weigh; Fed meet eyed By Investing.com - Investing.com India",
-   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-   "Late French Korean War veteran to be buried at UN cemetery in Busan - Korea JoongAng Daily",
-   "Gold prices fluctuate in opposite directions, buyers lose up to 5.4 million VND/tael after 3 months - Laodong.vn",
-   "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-   "EUR/USD slides as US yields lift dollar, France fiscal worries weigh ahead of Fed and ECB decisions - VT Markets",
-   "Ringgit higher against US dollar in early trade - Daily Express Malaysia",
-   "The Pentagon is preparing U.S. military bases for 90 days of autonomous operation in the event of a large-scale war - Fox News - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-   "Dollar Slips as Traders Await Fed Decision - TradingView",
-   "IEA's Birol does not expect energy markets to return to pre-war levels in 2027 - Reuters",
-   "Iran: Hormuz Strait's routes, management not to return to pre-war era - chinadailyhk",
-   "[Opening Market] KOSPI Opens Lower Below 5,500 Amid Investor Tug-of-War - Businesskorea",
-   "Bitcoin Battles $80,000 as Fed FOMC and PCE Inflation Data Set the Direction - BigGo Finance",
-   "New Zealand Dollar gains ground to near 0.5700 as RBNZ rate hike bets rise - FXStreet",
-   "Oil prices slip from near six-months highs despite supply concerns - Business Standard",
-   "FX's Forgotten 13-Part War Series Can Be Binge-Watched in One Intense Weekend - MovieWeb",
-   "Asian Currencies Consolidate; Fed Meet in Focus - WSJ",
-   "Will gold hit $5,000 again? What experts expect for 2027 - USA Today",
-   "Thai baht/US dollar weaker on Monday - TradingView"
+   "Dollar Slips As Treasury Yields Ease Ahead Of Central Bank Decisions - BusinessToday Malaysia",
+   "Saudi-led coalition says it struck Houthi missile launchers in Sanaa - Anadolu Ajans\u0131"
   ]
  },
  "log": [
-  "23.10 18:40 N  NEWS (10 new) score -0.30 conf 0.50: Petrol kaynakl\u0131 enflasyon endi\u015feleri, Fed'in Aral\u0131k'ta faiz art\u0131rma olas\u0131l\u0131\u011f\u0131n\u0131 y\u00fckseltmesi ve reel faizlerin y\u00fcksek seyretmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; \u0130ran'da sava\u015f t\u0131rman\u0131\u015f\u0131 haz\u0131rl\u0131klar\u0131 ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor. Net etki hafif negatif, ancak jeopolitik risk ve olas\u0131 ani haber ak\u0131\u015f\u0131 nedeniyle g\u00fcven orta d\u00fczeyde.",
-  "23.10 18:40 N  GPT  score -0.20 conf 0.53: \u0130ran geriliminin t\u0131rmanma ihtimali ve tanker sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak petrol kaynakl\u0131 enflasyon ve y\u00fcksek reel faiz bask\u0131s\u0131 alt\u0131n\u0131 k\u0131sa vadede a\u015fa\u011f\u0131 \u00e7ekiyor. Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f olmas\u0131, yak\u0131n vadede d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131n\u0131n a\u011f\u0131r bast\u0131\u011f\u0131na i\u015faret ediyor; jeopolit",
   "23.10 18:40 B1  SHORT gold 5000 USD x10 @ 4010.30 (TP 4006.29, SL 4012.70; news -0.30)",
   "23.10 18:49 B1  CLOSE short stop: -4.19 USD",
   "23.10 18:49 N  NEWS (9 new) score -0.35 conf 0.50: ",
@@ -6071,7 +6086,9 @@
   "25.10 14:51 N  GPT  score +0.12 conf 0.36: Suudi Arabistan\u2019a y\u00f6nelik f\u00fcze ve \u0130HA sald\u0131r\u0131lar\u0131n\u0131n s\u00fcrmesi ile \u0130ran geriliminin yeniden t\u0131rmanabilece\u011fine dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n\u0131n hisse senedi \u00e7alkant\u0131s\u0131 s\u0131ras\u0131nda da gerilemesi ve haberlerin bir k\u0131sm\u0131n\u0131n ileriye d\u00f6n\u00fck ya da tekrarlanan nitel",
   "25.10 17:38 A  CLOSE BTCUSDT time limit: +0.99 USD",
   "26.10 07:15 N  NEWS (43 new) score -0.10 conf 0.40: Alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f ve 3 ayl\u0131k dip yak\u0131n\u0131nda; y\u00fcksek petrol fiyatlar\u0131 enflasyon ve s\u0131k\u0131 Fed beklentisi yoluyla bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k Orta Do\u011fu sava\u015f\u0131 ve \u0130ran'\u0131n sava\u015f haz\u0131rl\u0131\u011f\u0131 g\u00fcvenli liman talebini destekliyor, dolar ve tahvil getirilerindeki zay\u0131flama ise Fed'in duraklama beklentisiyle alt\u0131na destek veriyor; bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n net de\u011fil.",
-  "26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve \u0130ran kaynakl\u0131 gerilim ile dolar ve tahvil getirilerindeki zay\u0131fl\u0131k alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi, petrol kaynakl\u0131 enflasyonun Fed\u2019i daha \u015fahin tutabilece\u011fi kayg\u0131s\u0131 ve haberlerin bir k\u0131sm\u0131n\u0131n do\u011frulanmam\u0131\u015f olmas\u0131 y\u00fckseli\u015f beklentisini s\u0131n\u0131r"
+  "26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve \u0130ran kaynakl\u0131 gerilim ile dolar ve tahvil getirilerindeki zay\u0131fl\u0131k alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi, petrol kaynakl\u0131 enflasyonun Fed\u2019i daha \u015fahin tutabilece\u011fi kayg\u0131s\u0131 ve haberlerin bir k\u0131sm\u0131n\u0131n do\u011frulanmam\u0131\u015f olmas\u0131 y\u00fckseli\u015f beklentisini s\u0131n\u0131r",
+  "26.10 07:58 N  NEWS (31 new) score +0.10 conf 0.40: Jeopolitik gerilim (\u0130ran/H\u00fcrm\u00fcz, Husi sald\u0131r\u0131lar\u0131, ABD'nin sava\u015f haz\u0131rl\u0131\u011f\u0131 haberleri) alt\u0131n i\u00e7in g\u00fcvenli liman talebi yarat\u0131yor ve hafif pozitif. Ancak petrol kaynakl\u0131 enflasyon endi\u015fesi Fed'in uzun s\u00fcre y\u00fcksek faiz tutaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek bask\u0131 yarat\u0131yor, dolar ise zay\u0131f seyrediyor. Bu kar\u0131\u015f\u0131k sinyaller ve FOMC \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil; g\u00fcven d\u00fc\u015f\u00fck.",
+  "26.10 07:58 N  GPT  score +0.22 conf 0.36: H\u00fcrm\u00fcz ve Yemen \u00e7evresindeki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini desteklerken dolar\u0131n zay\u0131flamas\u0131 ve tahvil getirilerinin gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak petrol kaynakl\u0131 enflasyonun Fed\u2019i daha s\u0131k\u0131 tutabilece\u011fi endi\u015fesi ve gerilimin yat\u0131\u015fabilece\u011fine dair haberler y\u00fckseli\u015f etkisini s\u0131n\u0131rl"
  ],
  "gold_big": {
   "account": {
@@ -7502,6 +7519,10 @@
    [
     1792988108,
     4964.78
+   ],
+   [
+    1792990692,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -8881,6 +8902,10 @@
    [
     1792988108,
     4973.18
+   ],
+   [
+    1792990692,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -10207,6 +10232,10 @@
    [
     1792988108,
     5005.69
+   ],
+   [
+    1792990692,
+    5005.69
    ]
   ]
  },
@@ -11242,6 +11271,10 @@
    [
     1792988108,
     4988.82
+   ],
+   [
+    1792990692,
+    4988.82
    ]
   ],
   "news_calls": {
@@ -12234,6 +12267,10 @@
    [
     1792988108,
     5021.88
+   ],
+   [
+    1792990692,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -13095,6 +13132,10 @@
    ],
    [
     1792988108,
+    100000.0
+   ],
+   [
+    1792990692,
     100000.0
    ]
   ],
