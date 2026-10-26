@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 22:19 (İstanbul)
+> Son güncelleme: 26.10.2026 22:59 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 22:19): Claude puan **-0.10**, güven 0.30 — İran'da arabuluculuk ve barış girişimleri (Suudi, Türk, Pakistanlı elçiler; Zelenskyy'nin müzakerelerin yeniden başlayacağı açıklaması) jeopolitik risk primini hafifletip altın için hafif baskılayıcı olabilir. Öte yandan İran savaşının LNG ve enerji maliyetlerini artırması enflasyon ve sert Fed beklentilerini destekleyerek altını dolaylı olarak olumsuz etkileyebilir; ancak haberler çelişkili ve büyük ölçüde mevcut fiyatlamaya dahil olduğu için etki zayıf.
+Son haber analizi (26.10 22:59): Claude puan **-0.15**, güven 0.35 — İran savaşını sonlandırmaya yönelik arabuluculuk girişimleri (Suudi Arabistan, Türkiye, Pakistan) güvenli liman talebini azaltabileceği için altın açısından hafif olumsuz. Ayrıca Fed kararı öncesi belirsizlik ve enflasyon kaygılarının azalması sinyalleri karışık olduğundan etki sınırlı ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.30 — İran’a gönderilen bölgesel arabulucuların savaşı sona erdirme çabası kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak çatışmanın sürmesi ve yeniden alevlenme riski bu etkiyi sınırlıyor; yeni bir Fed veya dolar sinyali de yok.
+GPT (gpt-6-luna): puan **-0.18**, güven 0.36 — İran’a gönderilen arabulucu heyetler savaşın yeniden başlamasını önleme umudunu artırarak kısa vadeli güvenli liman talebini bir miktar azaltabilir. Ancak Hizbullah’ın çatışmayı yenilemeye hazırlandığına dair haberler bu etkiyi sınırlıyor; dolar ve faizler hakkında belirleyici yeni bir sinyal yok.
 
 Son işlemler:
 
@@ -149,16 +149,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,841.75 $** (başlangıç 100,000 $, -158.25 $ / %-0.16)
+**Hesap değeri: 99,999.42 $** (başlangıç 100,000 $, -0.58 $ / %-0.00)
 
 Açık pozisyonlar: AAPL short @ 342.52 (TP 337.44 / SL 346.01)
 
 ## Son olaylar
 
 ```
-26.10 19:20 N  NEWS (38 new) score -0.05 conf 0.30: Haberler karışık: İran'da müzakere heyetlerinin gelmesi ve petrol fiyatlarının düşmesi enflasyon endişesini azaltıp jeopolitik risk primini zayıflatıyor, bu da altın için hafif olumsuz. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor. Fed'in ekimde faiz sabit tutması beklenirken sürpriz bir yön yok; bu nedenle etki sınırlı ve yön belirsiz.
-26.10 19:20 N  GPT  score +0.12 conf 0.32: İran çevresinde yeniden çatışma ihtimaline dair haberler güvenli liman talebini destekleyebilir; ancak aynı anda barış görüşmeleri de bildiriliyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış göründüğünden kısa vadeli etki sınırlı ve belirsiz.
-26.10 19:20 B6  karar turu: Claude «Piyasa büyüme hisseleri öncülüğünde pozitif ama öğle saatlerinde hafif kâr satışı görülüyor; yeni bir net avantaj olmadığından beklemede kalmak en doğrusu.» / GPT «Endekslerde gün içi kazançlara rağmen son saatte momentum zayıf; mevcut haber ve fiyat uyumu kaldıraçlı yeni pozisyon için yeterince güçlü değil.»
 26.10 20:10 N  NEWS (16 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil: Fed, enflasyon, reel faiz, dolar veya merkez bankası alımlarına dair bir haber yok. Niger'e Cezayir asker gönderimi, Brezilya seçimi ve Etiyopya katliamı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak bunların etkisi küçük ve büyük ölçüde fiyatlanmış durumda.
 26.10 20:10 N  GPT  score +0.12 conf 0.24: Nijer’e Cezayir askerî müdahalesi ve Etiyopya’daki katliam haberleri sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin altın, dolar veya faiz beklentilerine doğrudan etkisi belirsiz; kısa vadeli fiyat etkisi muhtemelen zayıf kalır.
 26.10 20:10 B6  karar turu: Claude «Piyasa İran gerginliğinin azalması ve büyüme hisselerinin liderliğiyle pozitif, ancak öğleden sonra yatay konsolidasyon sürüyor ve yeni giriş için net bir avantaj görünmüyor.» / GPT «Endeksler gün içinde güçlü ancak son saatte yatay; mevcut fiyat hareketleri ve haberler önümüzdeki 1–3 saat için net bir işlem avantajı oluşturmuyor.»
@@ -171,6 +168,9 @@ Açık pozisyonlar: AAPL short @ 342.52 (TP 337.44 / SL 346.01)
 26.10 21:26 B6  karar turu: Claude «Piyasa, İran gerginliğinin azalması ve çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra yatay konsolidasyonda; büyük teknoloji bilançoları öncesi temkinli kalmak en doğrusu.» / GPT «Endekslerde saatlik sıkışma ve hisselerde fiyatlanmış katalizörler nedeniyle, yüzde 1,5 hedefi kalan seansta destekleyecek net haber ve fiyat uyumu bulunmuyor.»
 26.10 22:19 N  NEWS (19 new) score -0.10 conf 0.30: İran'da arabuluculuk ve barış girişimleri (Suudi, Türk, Pakistanlı elçiler; Zelenskyy'nin müzakerelerin yeniden başlayacağı açıklaması) jeopolitik risk primini hafifletip altın için hafif baskılayıcı olabilir. Öte yandan İran savaşının LNG ve enerji maliyetlerini artırması enflasyon ve sert Fed beklentilerini destekleyerek altını dolaylı olarak olumsuz etkileyebilir; ancak haberler çelişkili ve büyük ölçüde mevcut fiyatlamaya dahil olduğu için etki zayıf.
 26.10 22:19 N  GPT  score -0.12 conf 0.30: İran’a gönderilen bölgesel arabulucuların savaşı sona erdirme çabası kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak çatışmanın sürmesi ve yeniden alevlenme riski bu etkiyi sınırlıyor; yeni bir Fed veya dolar sinyali de yok.
+26.10 22:59 N  NEWS (21 new) score -0.15 conf 0.35: İran savaşını sonlandırmaya yönelik arabuluculuk girişimleri (Suudi Arabistan, Türkiye, Pakistan) güvenli liman talebini azaltabileceği için altın açısından hafif olumsuz. Ayrıca Fed kararı öncesi belirsizlik ve enflasyon kaygılarının azalması sinyalleri karışık olduğundan etki sınırlı ve güven düşük.
+26.10 22:59 N  GPT  score -0.18 conf 0.36: İran’a gönderilen arabulucu heyetler savaşın yeniden başlamasını önleme umudunu artırarak kısa vadeli güvenli liman talebini bir miktar azaltabilir. Ancak Hizbullah’ın çatışmayı yenilemeye hazırlandığına dair haberler bu etkiyi sınırlıyor; dolar ve faizler hakkında belirleyici yeni bir sinyal yok.
+26.10 22:59 ERROR B6: 'id'
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
