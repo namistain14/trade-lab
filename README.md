@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 09:14 (İstanbul)
+> Son güncelleme: 26.10.2026 10:16 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -48,11 +48,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %24.2 |
 | Ödenen komisyon/spread | 0.00 $ | 78.32 $ |
 
-**Hesap değeri: 4,923.96 $** (başlangıç 5,000 $, -76.04 $ / %-1.52)
+**Hesap değeri: 4,922.77 $** (başlangıç 5,000 $, -77.23 $ / %-1.54)
 
-Son haber analizi (26.10 09:14): Claude puan **+0.15**, güven 0.40 — Dolar endeksinin 101,50 civarına gerilemesi, petrol fiyatlarının düşmesi ve Fed'in bekleme beklentisi altına yatırımı hafifçe destekliyor. Buna karşın Fed'in çeyreklik faiz artırımlarını sürdürme ihtimali ve Aralık'ta artırım riski gibi şahin başlıklar ile sonuçların henüz netleşmemiş olması güveni sınırlıyor.
+Açık pozisyonlar: PAXGUSDT short @ 4014.07 (TP 4011.51 / SL 4015.52)
 
-GPT (gpt-6-luna): puan **+0.22**, güven 0.46 — Doların Fed’in faiz kararları öncesinde zayıflaması ve altının bu sabah yükseldiğine dair haberler kısa vadede destekleyici. Ancak Fed’in daha şahin kalabileceği beklentisi ve haber akışındaki belirsizlik yükseliş potansiyelini sınırlıyor.
+Son haber analizi (26.10 10:16): Claude puan **-0.20**, güven 0.40 — Fed'in faiz artırımı olasılığının yükseldiğine dair haberler (Aralık hike ihtimali, %75 artırım olasılığı) ve güçlü dolar beklentisi altın için baskılayıcı. İran savaşı, Husi saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor, ancak bu gerilimlerin büyük kısmı zaten fiyatlanmış ve haberler karışık; Fed toplantısı öncesi piyasa belirsizlik içinde.
+
+GPT (gpt-6-luna): puan **-0.12**, güven 0.38 — Fed’in faiz artırımı olasılığının yüksek gösterilmesi altın için kısa vadede baskı yaratabilir. Doların gerilemesi ve Yemen çevresindeki gerilimler bu etkiyi dengeliyor; haber akışı büyük ölçüde beklenti ve mevcut riskleri yansıtıyor.
 
 Son işlemler:
 
@@ -153,9 +155,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.10 13:52 N  NEWS (18 new) score +0.15 conf 0.30: 
-25.10 13:52 N  GPT  score -0.10 conf 0.34: Fransa’daki protestolar ve borç endişeleri ile İran’ın Hürmüz’e ilişkin tehditleri güvenli liman talebini destekleyebilir; ancak euronun zayıflaması doları güçlendirerek altın üzerinde baskı yaratabilir. Yeni ve doğrudan bir faiz ya da enflasyon katalizörü olmadığından kısa vadeli net etki sınırlı g
-25.10 14:18 N  NEWS (20 new) score -0.15 conf 0.35: 
 25.10 14:18 N  GPT  score +0.20 conf 0.35: İran’ın tehditleri ve Suudi Arabistan’a yönelik füze/İHA saldırıları güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak gelişmelerin bir kısmı süreklilik arz ediyor; euronun zayıflaması ve altındaki yakın dönem düşüşü yönü belirsizleştiriyor.
 25.10 14:51 N  NEWS (14 new) score +0.10 conf 0.35: İran'la olası savaş tırmanışı ve Hürmüz'deki aksamalar jeopolitik risk primini hafifçe destekliyor. Ancak "altın 4.000 doların altına düştü" başlığı ve hisse senedi çöküşü, fiyatta nakit ihtiyacı kaynaklı satış ya da dolar/faiz baskısı olabileceğini gösteriyor; bu nedenle net etki sınırlı ve belirsiz.
 25.10 14:51 N  GPT  score +0.12 conf 0.36: Suudi Arabistan’a yönelik füze ve İHA saldırılarının sürmesi ile İran geriliminin yeniden tırmanabileceğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altının hisse senedi çalkantısı sırasında da gerilemesi ve haberlerin bir kısmının ileriye dönük ya da tekrarlanan nitel
@@ -168,6 +167,9 @@ Son işlemler:
 26.10 08:35 N  GPT  score +0.15 conf 0.30: Doların zayıflaması ve bölgesel çatışma haberleri altına sınırlı destek sağlayabilir; ancak petrolün gerilemesi ve Fed kararına yönelik belirsizlik yönü netleştirmiyor. Haber akışı çelişkili olduğundan kısa vadeli etki muhtemelen sınırlı kalır.
 26.10 09:14 N  NEWS (32 new) score +0.15 conf 0.40: Dolar endeksinin 101,50 civarına gerilemesi, petrol fiyatlarının düşmesi ve Fed'in bekleme beklentisi altına yatırımı hafifçe destekliyor. Buna karşın Fed'in çeyreklik faiz artırımlarını sürdürme ihtimali ve Aralık'ta artırım riski gibi şahin başlıklar ile sonuçların henüz netleşmemiş olması güveni sınırlıyor.
 26.10 09:14 N  GPT  score +0.22 conf 0.46: Doların Fed’in faiz kararları öncesinde zayıflaması ve altının bu sabah yükseldiğine dair haberler kısa vadede destekleyici. Ancak Fed’in daha şahin kalabileceği beklentisi ve haber akışındaki belirsizlik yükseliş potansiyelini sınırlıyor.
+26.10 10:16 N  NEWS (38 new) score -0.20 conf 0.40: Fed'in faiz artırımı olasılığının yükseldiğine dair haberler (Aralık hike ihtimali, %75 artırım olasılığı) ve güçlü dolar beklentisi altın için baskılayıcı. İran savaşı, Husi saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor, ancak bu gerilimlerin büyük kısmı zaten fiyatlanmış ve haberler karışık; Fed toplantısı öncesi piyasa belirsizlik içinde.
+26.10 10:16 N  GPT  score -0.12 conf 0.38: Fed’in faiz artırımı olasılığının yüksek gösterilmesi altın için kısa vadede baskı yaratabilir. Doların gerilemesi ve Yemen çevresindeki gerilimler bu etkiyi dengeliyor; haber akışı büyük ölçüde beklenti ve mevcut riskleri yansıtıyor.
+26.10 10:16 B1  SHORT gold 5000 USD x10 @ 4014.07 (TP 4011.51, SL 4015.52; news -0.20)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
