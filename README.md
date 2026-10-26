@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 12:00 (İstanbul)
+> Son güncelleme: 26.10.2026 12:45 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,920.96 $** (başlangıç 5,000 $, -79.04 $ / %-1.58)
 
-Son haber analizi (26.10 12:00): Claude puan **-0.15**, güven 0.40 — Jeopolitik risk (İran'ın savaşa dönme tehdidi) altına güvenli liman talebi getiriyor, ancak Fed'in faiz artırımı ihtimali (Aralık hikâyesi), DXY'nin 101.50 üzerinde seyretmesi ve FOMC öncesi doların güçlü kalması altın için baskı oluşturuyor. Haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
+Son haber analizi (26.10 12:45): Claude puan **-0.20**, güven 0.40 — Fed kararı öncesi haberler karışık ama hafif şahin ağırlıklı: TD Securities, Ekim'de faiz pauzası olasılığının Aralık'ta artış ihtimalini yükselttiğini, dolar ise Fed kararı öncesi dirençli kaldığını belirtiyor; bu altın için baskı oluşturur. Öte yandan İran savaşında diplomatik çabalar ve petrolün düşüşü jeopolitik risk primini azaltıyor, ancak altın 4.000 dolar civarında toparlanma sinyali veriyor ve güvenli liman talebi tamamen sönmüş değil. Sonuç olarak hafif negatif, düşük güvenli bir görünüm.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.43 — İran’ın yeniden savaşa hazır olduğu açıklaması ve Ukrayna’daki saldırılar kısa vadede güvenli liman talebini destekleyebilir; doların Fed duraklaması beklentisiyle gerilemesi de altın için olumlu. Ancak şahin Fed beklentileri ve doların genel gücü yükselişi sınırlayabilir; etkiler karışık olduğundan
+GPT (gpt-6-luna): puan **+0.10**, güven 0.35 — Altın fiyatındaki toparlanma ve süren jeopolitik riskler kısa vadede hafif destekleyici. Ancak Fed kararı öncesi doların güçlü kalması ve gelecekte faiz artışı beklentilerinin yükselmesi bu desteği sınırlıyor.
 
 Son işlemler:
 
@@ -153,8 +153,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 07:15 N  GPT  score +0.15 conf 0.42: Yemen ve İran kaynaklı gerilim ile dolar ve tahvil getirilerindeki zayıflık altına kısa vadeli destek sağlayabilir. Ancak altının 4.000 doların altına inmesi, petrol kaynaklı enflasyonun Fed’i daha şahin tutabileceği kaygısı ve haberlerin bir kısmının doğrulanmamış olması yükseliş beklentisini sınır
-26.10 07:58 N  NEWS (31 new) score +0.10 conf 0.40: Jeopolitik gerilim (İran/Hürmüz, Husi saldırıları, ABD'nin savaş hazırlığı haberleri) altın için güvenli liman talebi yaratıyor ve hafif pozitif. Ancak petrol kaynaklı enflasyon endişesi Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirerek baskı yaratıyor, dolar ise zayıf seyrediyor. Bu karışık sinyaller ve FOMC öncesi belirsizlik nedeniyle yön net değil; güven düşük.
 26.10 07:58 N  GPT  score +0.22 conf 0.36: Hürmüz ve Yemen çevresindeki çatışma haberleri güvenli liman talebini desteklerken doların zayıflaması ve tahvil getirilerinin gerilemesi de altın için olumlu. Ancak petrol kaynaklı enflasyonun Fed’i daha sıkı tutabileceği endişesi ve gerilimin yatışabileceğine dair haberler yükseliş etkisini sınırl
 26.10 08:35 N  NEWS (20 new) score -0.10 conf 0.35: Altın 4.000 dolar civarında baskı altında; petrol yükselişinin Fed'in uzun süre yüksek faiz tutacağı beklentisini güçlendirmesi ve FOMC öncesi temkin altın için hafif negatif. Buna karşılık doların zayıflaması, yuanın 4 yılın zirvesine çıkması ve İran/Husi çatışmalarının sürmesi kısmen destekleyici; bu karışık sinyaller ve haberlerin büyük ölçüde fiyatlanmış olması güveni düşürüyor.
 26.10 08:35 N  GPT  score +0.15 conf 0.30: Doların zayıflaması ve bölgesel çatışma haberleri altına sınırlı destek sağlayabilir; ancak petrolün gerilemesi ve Fed kararına yönelik belirsizlik yönü netleştirmiyor. Haber akışı çelişkili olduğundan kısa vadeli etki muhtemelen sınırlı kalır.
@@ -168,6 +166,8 @@ Son işlemler:
 26.10 11:10 N  GPT  score -0.15 conf 0.42: Fed’e ilişkin şahin beklentiler ve doların gücü altın üzerinde kısa vadeli baskı oluşturuyor. İran çevresindeki gerilim ve Riyad’a yönelik saldırı haberleri güvenli liman talebini destekleyebilir; ancak diplomatik temaslar ve çelişkili haber akışı bu desteği sınırlıyor.
 26.10 12:00 N  NEWS (28 new) score -0.15 conf 0.40: Jeopolitik risk (İran'ın savaşa dönme tehdidi) altına güvenli liman talebi getiriyor, ancak Fed'in faiz artırımı ihtimali (Aralık hikâyesi), DXY'nin 101.50 üzerinde seyretmesi ve FOMC öncesi doların güçlü kalması altın için baskı oluşturuyor. Haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 26.10 12:00 N  GPT  score +0.20 conf 0.43: İran’ın yeniden savaşa hazır olduğu açıklaması ve Ukrayna’daki saldırılar kısa vadede güvenli liman talebini destekleyebilir; doların Fed duraklaması beklentisiyle gerilemesi de altın için olumlu. Ancak şahin Fed beklentileri ve doların genel gücü yükselişi sınırlayabilir; etkiler karışık olduğundan
+26.10 12:45 N  NEWS (32 new) score -0.20 conf 0.40: Fed kararı öncesi haberler karışık ama hafif şahin ağırlıklı: TD Securities, Ekim'de faiz pauzası olasılığının Aralık'ta artış ihtimalini yükselttiğini, dolar ise Fed kararı öncesi dirençli kaldığını belirtiyor; bu altın için baskı oluşturur. Öte yandan İran savaşında diplomatik çabalar ve petrolün düşüşü jeopolitik risk primini azaltıyor, ancak altın 4.000 dolar civarında toparlanma sinyali veriyor ve güvenli liman talebi tamamen sönmüş değil. Sonuç olarak hafif negatif, düşük güvenli bir görünüm.
+26.10 12:45 N  GPT  score +0.10 conf 0.35: Altın fiyatındaki toparlanma ve süren jeopolitik riskler kısa vadede hafif destekleyici. Ancak Fed kararı öncesi doların güçlü kalması ve gelecekte faiz artışı beklentilerinin yükselmesi bu desteği sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
