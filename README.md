@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 16:38 (İstanbul)
+> Son güncelleme: 26.10.2026 18:21 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 16:37): Claude puan **+0.10**, güven 0.35 — Petrol fiyatları ve Treasury getirilerinin gerilemesi, altın üzerindeki Fed sıkılaştırma baskısını hafifleterek hafif olarak destekleyici. Ancak Fed'in faiz artırımı beklentileri ve İran'da savaşın yeniden başlayabileceği yönündeki karışık haberler yön konusunda belirsizlik yaratıyor, bu yüzden güven düşük.
+Son haber analizi (26.10 18:20): Claude puan **-0.10**, güven 0.35 — Fed'in faiz kararı öncesi piyasa, enflasyonun hızlandığı bir ortamda faizlerin sabit tutulmasını bekliyor; bu, reel faizler ve dolar açısından altı hafif baskılıyor. İran ve Ukrayna kaynaklı jeopolitik risk güvenli liman talebini destekliyor ancak Trump'ın Pazar günü saldırıyı reddetmesi ve diplomasi kanallarının açık olduğu haberleri bu desteği sınırlıyor; sinyaller karışık olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.35 — İran’da çatışmanın yeniden başlama ihtimali ve bölgesel gerilim güvenli liman talebini destekliyor; petrol fiyatları ile tahvil getirilerindeki geri çekilme de Fed sıkılaşması kaygısını azaltarak altına yardımcı olabilir. Ancak Fed beklentileri ve haber akışındaki diplomasi/gerilim çelişkisi kısa va
+GPT (gpt-6-luna): puan **-0.15**, güven 0.43 — Fed kararı öncesinde doların güçlenmesi ve altının 4.000 dolar civarında dirençle karşılaşması kısa vadede hafif baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de yeni, kesin bir tırmanış haberi yok; görünüm karışık ve Fed öncesi temkinli.
 
 Son işlemler:
 
@@ -154,9 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 12:00 N  NEWS (28 new) score -0.15 conf 0.40: Jeopolitik risk (İran'ın savaşa dönme tehdidi) altına güvenli liman talebi getiriyor, ancak Fed'in faiz artırımı ihtimali (Aralık hikâyesi), DXY'nin 101.50 üzerinde seyretmesi ve FOMC öncesi doların güçlü kalması altın için baskı oluşturuyor. Haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
-26.10 12:00 N  GPT  score +0.20 conf 0.43: İran’ın yeniden savaşa hazır olduğu açıklaması ve Ukrayna’daki saldırılar kısa vadede güvenli liman talebini destekleyebilir; doların Fed duraklaması beklentisiyle gerilemesi de altın için olumlu. Ancak şahin Fed beklentileri ve doların genel gücü yükselişi sınırlayabilir; etkiler karışık olduğundan
-26.10 12:45 N  NEWS (32 new) score -0.20 conf 0.40: Fed kararı öncesi haberler karışık ama hafif şahin ağırlıklı: TD Securities, Ekim'de faiz pauzası olasılığının Aralık'ta artış ihtimalini yükselttiğini, dolar ise Fed kararı öncesi dirençli kaldığını belirtiyor; bu altın için baskı oluşturur. Öte yandan İran savaşında diplomatik çabalar ve petrolün düşüşü jeopolitik risk primini azaltıyor, ancak altın 4.000 dolar civarında toparlanma sinyali veriyor ve güvenli liman talebi tamamen sönmüş değil. Sonuç olarak hafif negatif, düşük güvenli bir görünüm.
 26.10 12:45 N  GPT  score +0.10 conf 0.35: Altın fiyatındaki toparlanma ve süren jeopolitik riskler kısa vadede hafif destekleyici. Ancak Fed kararı öncesi doların güçlü kalması ve gelecekte faiz artışı beklentilerinin yükselmesi bu desteği sınırlıyor.
 26.10 13:26 N  NEWS (29 new) score -0.30 conf 0.50: Fed'in faizleri sabit tutması bekleniyor ancak başlıklar şahin bir tona işaret ediyor: Aralık'ta faiz artırımı ihtimali yükseldi, enflasyon yüksek ve dolar güçlü. Bu, altın için kısa vadede baskı oluşturuyor. Orta Doğu gerilimi ve enerji fiyatlarındaki artış güvenli liman talebini destekleyebilir, ama enflasyon ve faiz beklentisi üzerinden etkisi daha baskın görünüyor. Altın 4.000 dolar civarında dengelenmeye çalışıyor; bu nedenle etki hafif negatif, güven orta düzeyde.
 26.10 13:26 N  GPT  score +0.20 conf 0.46: Orta Doğu’daki gerilim ve Riyad’a yönelik füze saldırısı güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri ve Fed’in ileride yeniden faiz artırabileceği beklentisi altının yükselişini sınırlıyor; kısa vadeli net etki hafif pozitif görünüyor.
@@ -169,6 +166,9 @@ Son işlemler:
 26.10 16:38 N  GPT  score +0.20 conf 0.35: İran’da çatışmanın yeniden başlama ihtimali ve bölgesel gerilim güvenli liman talebini destekliyor; petrol fiyatları ile tahvil getirilerindeki geri çekilme de Fed sıkılaşması kaygısını azaltarak altına yardımcı olabilir. Ancak Fed beklentileri ve haber akışındaki diplomasi/gerilim çelişkisi kısa va
 26.10 16:38 B4  CLOSE long stop: -11.18 USD
 26.10 16:38 B6  karar turu: Claude «Piyasa İran gerginliğinin azalmasıyla hafif pozitif açıldı, ancak açılışın ilk dakikalarında büyük hareketler zaten fiyatlandığı için beklemek en doğrusu.» / GPT «Endekslerde ivme sınırlı, güçlü hisselerde hareket önemli ölçüde gerçekleşmiş ve kaldıraçlı işlem için haber ile fiyatın birlikte sunduğu net bir avantaj yok.»
+26.10 18:21 N  NEWS (42 new) score -0.10 conf 0.35: Fed'in faiz kararı öncesi piyasa, enflasyonun hızlandığı bir ortamda faizlerin sabit tutulmasını bekliyor; bu, reel faizler ve dolar açısından altı hafif baskılıyor. İran ve Ukrayna kaynaklı jeopolitik risk güvenli liman talebini destekliyor ancak Trump'ın Pazar günü saldırıyı reddetmesi ve diplomasi kanallarının açık olduğu haberleri bu desteği sınırlıyor; sinyaller karışık olduğu için güven düşük.
+26.10 18:21 N  GPT  score -0.15 conf 0.43: Fed kararı öncesinde doların güçlenmesi ve altının 4.000 dolar civarında dirençle karşılaşması kısa vadede hafif baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de yeni, kesin bir tırmanış haberi yok; görünüm karışık ve Fed öncesi temkinli.
+26.10 18:21 B6  karar turu: Claude «İran gerginliğinin azalmasıyla büyüme hisseleri öncülüğünde risk iştahı yüksek, ancak büyük hareketler gerçekleşti ve endeksler konsolidasyonda; yeni pozisyon için net bir avantaj görünmüyor.» / GPT «Endekslerde yön yukarı olsa da mevcut haberler ve fiyat yapıları, 1:2 kaldıraçla yüzde 1,5 hedef ve yüzde 1 stop için yeterince net bir giriş avantajı sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
