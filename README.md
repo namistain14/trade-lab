@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.10.2026 23:35 (İstanbul)
+> Son güncelleme: 27.10.2026 00:12 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -43,16 +43,16 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -6.00 $ | -82.04 $ |
-| İşlem sayısı | 2 | 35 |
+| Net kâr/zarar | +0.00 $ | -82.04 $ |
+| İşlem sayısı | 0 | 35 |
 | Kazanma oranı | %0.0 | %22.9 |
-| Ödenen komisyon/spread | 4.75 $ | 83.06 $ |
+| Ödenen komisyon/spread | 0.00 $ | 83.06 $ |
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (26.10 23:35): Claude puan **-0.10**, güven 0.30 — İran savaşını sonlandırmaya yönelik arabuluculuk girişimleri (Suudi Arabistan, Türkiye, Pakistan) güvenli liman talebini azaltabileceği için altın açısından hafif olumsuz. Ayrıca Fed kararı öncesi belirsizlik ve enflasyon kaygılarının azalması sinyalleri karışık olduğundan etki sınırlı ve güven düşük.
+Son haber analizi (27.10 00:12): Claude puan **-0.10**, güven 0.30 — İran savaşının petrol kaynaklı enflasyonu Fed'in sıkı duruşunu destekleyip altı baskılıyor; Kitco yorumu da savaşın bitmesinin altın için olumlu olacağını belirtiyor. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları güvenli liman talebini destekliyor, bu yüzden etki karışık ve sınırlı kalıyor.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.36 — İran’la diplomasi ve petrol fiyatlarındaki düşüş, güvenli liman ve enflasyon kaynaklı altın talebini kısa vadede sınırlayabilir. Ancak İran’ın yeni çatışma tehdidi bu etkiyi dengeliyor; Fed beklentilerine dair yeni ve belirleyici bir sinyal yok.
+GPT (gpt-6-luna): puan **+0.22**, güven 0.38 — İran savaşının yeniden alevlenebileceğine dair haberler güvenli liman talebini destekleyerek altın için hafif olumlu. Ancak İran’la müzakere girişimleri, haberlerin bir kısmının tekrarı ve petrol kaynaklı enflasyonun faizleri yüksek tutma riski yükselişi sınırlıyor.
 
 Son işlemler:
 
@@ -89,10 +89,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -11.18 $ | -22.37 $ |
-| İşlem sayısı | 1 | 2 |
+| Net kâr/zarar | +0.00 $ | -22.37 $ |
+| İşlem sayısı | 0 | 2 |
 | Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 2.37 $ | 4.74 $ |
+| Ödenen komisyon/spread | 0.00 $ | 4.74 $ |
 
 **Hesap değeri: 4,977.63 $** (başlangıç 5,000 $, -22.37 $ / %-0.45)
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 20:10 B6  karar turu: Claude «Piyasa İran gerginliğinin azalması ve büyüme hisselerinin liderliğiyle pozitif, ancak öğleden sonra yatay konsolidasyon sürüyor ve yeni giriş için net bir avantaj görünmüyor.» / GPT «Endeksler gün içinde güçlü ancak son saatte yatay; mevcut fiyat hareketleri ve haberler önümüzdeki 1–3 saat için net bir işlem avantajı oluşturmuyor.»
-26.10 20:50 N  NEWS (40 new) score -0.05 conf 0.30: Haberlerde karışık sinyaller var: petrol düşüşü ve 4.000 doların üzerine dönüş altın için olumlu, Orta Doğu gerilimi ise güvenli liman talebini destekliyor. Ancak Fed kararının öncesinde enflasyon ve istihdam arasında sıkılaşma riski öne çıkıyor ve bazı haberler yeni faiz artışı beklentisi taşıyor; bu da kısa vadede altın için hafif baskı yaratabilir. Haberlerin çoğu zaten fiyatlanmış olduğundan güven düşük.
 26.10 20:50 N  GPT  score +0.25 conf 0.38: İran çevresindeki gerilim ve altının 4.000 doların üzerine dönmesi kısa vadede güvenli liman talebini destekliyor; petrolün gerilemesi de enflasyon ve faiz baskısını bir miktar azaltabilir. Ancak Fed kararı öncesi belirsizlik yüksek ve haber akışının bir kısmı tekrarlı ya da piyasa tarafından öncede
 26.10 20:50 B6  karar turu: Claude «Piyasa çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra momentum zayıflıyor; şirkete özel olumsuz haber nedeniyle yalnızca AAPL'de sınırlı bir short fırsatı görülüyor.» / GPT «Endeksler gün içi yükselişlerini geri verirken geniş piyasa işlemlerinden kaçınmak, yalnızca taze olumsuz haberle desteklenen AAPL zayıflığını değerlendirmek daha disiplinli.»
 26.10 20:50 B6  AÇIĞA SATIŞ AAPL 116 adet ≈ 39,739 $ (1:2) @ 342.58 (TP 337.44, SL 346.01; ikisi de hemfikir, güven 0.55)
@@ -169,6 +167,8 @@ Son işlemler:
 26.10 22:59 ERROR B6: 'id'
 26.10 23:35 N  NEWS (16 new) score -0.10 conf 0.30: 
 26.10 23:35 N  GPT  score -0.15 conf 0.36: İran’la diplomasi ve petrol fiyatlarındaki düşüş, güvenli liman ve enflasyon kaynaklı altın talebini kısa vadede sınırlayabilir. Ancak İran’ın yeni çatışma tehdidi bu etkiyi dengeliyor; Fed beklentilerine dair yeni ve belirleyici bir sinyal yok.
+27.10 00:12 N  NEWS (16 new) score -0.10 conf 0.30: İran savaşının petrol kaynaklı enflasyonu Fed'in sıkı duruşunu destekleyip altı baskılıyor; Kitco yorumu da savaşın bitmesinin altın için olumlu olacağını belirtiyor. Öte yandan Netanyahu'nun savaşın yeniden başlayabileceği yönündeki açıklamaları güvenli liman talebini destekliyor, bu yüzden etki karışık ve sınırlı kalıyor.
+27.10 00:12 N  GPT  score +0.22 conf 0.38: İran savaşının yeniden alevlenebileceğine dair haberler güvenli liman talebini destekleyerek altın için hafif olumlu. Ancak İran’la müzakere girişimleri, haberlerin bir kısmının tekrarı ve petrol kaynaklı enflasyonun faizleri yüksek tutma riski yükselişi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
