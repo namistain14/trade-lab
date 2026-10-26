@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 01:24 (İstanbul)
+> Son güncelleme: 27.10.2026 02:03 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (27.10 01:24): Claude puan **+0.05**, güven 0.35 — Haberlerin çoğu İran savaşının tekrarlayan ve büyük ölçüde fiyatlanmış etkilerini tekrarlıyor. Diplomasi ve barış umutları petrolü ve enflasyon beklentilerini baskılayarak altın için hafif destekleyici olabilir, ancak Fed'in bu hafta faiz sabit tutması bekleniyor ve piyasa Aralık'a odaklanmış durumda, bu da net bir yön vermiyor.
+Son haber analizi (27.10 02:03): Claude puan **+0.05**, güven 0.30 — Haberler karışık: İran savaşının yeniden başlayabileceği ihtimali altın için güvenli liman talebini destekliyor, ancak Hormuz diplomasisinin petrol fiyatlarını soğutması enflasyon beklentilerini düşürerek dolaylı olarak altını destekleyebilir. Buna karşılık Fed'in bu hafta faiz kararı öncesi bekleyişler ve Warsh'ın zor konumu gibi faiz tarafındaki belirsizlik, dolar ve reel faiz üzerinden baskı yaratabilir. Net etki sınırlı görünüyor.
 
-GPT (gpt-6-luna): puan **-0.10**, güven 0.30 — İran savaşına dair yeniden tırmanma endişesi altına güvenli liman desteği sağlayabilir; ancak arabuluculuk girişimleri ve petrol fiyatlarındaki gerileme bu desteği sınırlıyor. Fed kararından önce belirgin yeni bir faiz veya dolar sinyali yok, bu nedenle kısa vadeli etki zayıf ve karışık görünüyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.38 — Ukrayna enerji altyapısına yönelik saldırıların savaş suçu sayılması ve İran savaşının yeniden alevlenebileceğine dair söylemler güvenli liman talebini destekleyebilir; altının dip seviyelerden toparlanması da kısa vadede olumlu. Ancak İran çevresindeki diplomasi ve savaşın soğuyabileceğine dair hab
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 21:26 N  GPT  score +0.22 conf 0.38: Harkiv’e yönelik ölümcül saldırı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir; faiz artırımlarının gerekmeyebileceği yorumu da altın için sınırlı olumlu. Ancak Rusya-Ukrayna görüşmelerinin yeniden başlayacak olması ve haberlerin önemli kısmının yeni fiyat etkisi yaratmayabile
-26.10 21:26 B6  karar turu: Claude «Piyasa, İran gerginliğinin azalması ve çip toparlanmasıyla pozitif seyrediyor ancak öğleden sonra yatay konsolidasyonda; büyük teknoloji bilançoları öncesi temkinli kalmak en doğrusu.» / GPT «Endekslerde saatlik sıkışma ve hisselerde fiyatlanmış katalizörler nedeniyle, yüzde 1,5 hedefi kalan seansta destekleyecek net haber ve fiyat uyumu bulunmuyor.»
 26.10 22:19 N  NEWS (19 new) score -0.10 conf 0.30: İran'da arabuluculuk ve barış girişimleri (Suudi, Türk, Pakistanlı elçiler; Zelenskyy'nin müzakerelerin yeniden başlayacağı açıklaması) jeopolitik risk primini hafifletip altın için hafif baskılayıcı olabilir. Öte yandan İran savaşının LNG ve enerji maliyetlerini artırması enflasyon ve sert Fed beklentilerini destekleyerek altını dolaylı olarak olumsuz etkileyebilir; ancak haberler çelişkili ve büyük ölçüde mevcut fiyatlamaya dahil olduğu için etki zayıf.
 26.10 22:19 N  GPT  score -0.12 conf 0.30: İran’a gönderilen bölgesel arabulucuların savaşı sona erdirme çabası kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak çatışmanın sürmesi ve yeniden alevlenme riski bu etkiyi sınırlıyor; yeni bir Fed veya dolar sinyali de yok.
 26.10 22:59 N  NEWS (21 new) score -0.15 conf 0.35: İran savaşını sonlandırmaya yönelik arabuluculuk girişimleri (Suudi Arabistan, Türkiye, Pakistan) güvenli liman talebini azaltabileceği için altın açısından hafif olumsuz. Ayrıca Fed kararı öncesi belirsizlik ve enflasyon kaygılarının azalması sinyalleri karışık olduğundan etki sınırlı ve güven düşük.
@@ -169,6 +167,8 @@ Son işlemler:
 27.10 00:51 N  GPT  score +0.18 conf 0.34: Altın vadeli işlemlerinin petrol geri çekilirken yükselmesi ve İran savaşının yeniden tırmanma ihtimali kısa vadede hafif destekleyici. Ancak İran’la diplomasi haberleri risk talebini azaltabilir; Fed kararı öncesi yön konusunda belirsizlik yüksek.
 27.10 01:24 N  NEWS (10 new) score +0.05 conf 0.35: Haberlerin çoğu İran savaşının tekrarlayan ve büyük ölçüde fiyatlanmış etkilerini tekrarlıyor. Diplomasi ve barış umutları petrolü ve enflasyon beklentilerini baskılayarak altın için hafif destekleyici olabilir, ancak Fed'in bu hafta faiz sabit tutması bekleniyor ve piyasa Aralık'a odaklanmış durumda, bu da net bir yön vermiyor.
 27.10 01:24 N  GPT  score -0.10 conf 0.30: İran savaşına dair yeniden tırmanma endişesi altına güvenli liman desteği sağlayabilir; ancak arabuluculuk girişimleri ve petrol fiyatlarındaki gerileme bu desteği sınırlıyor. Fed kararından önce belirgin yeni bir faiz veya dolar sinyali yok, bu nedenle kısa vadeli etki zayıf ve karışık görünüyor.
+27.10 02:03 N  NEWS (22 new) score +0.05 conf 0.30: Haberler karışık: İran savaşının yeniden başlayabileceği ihtimali altın için güvenli liman talebini destekliyor, ancak Hormuz diplomasisinin petrol fiyatlarını soğutması enflasyon beklentilerini düşürerek dolaylı olarak altını destekleyebilir. Buna karşılık Fed'in bu hafta faiz kararı öncesi bekleyişler ve Warsh'ın zor konumu gibi faiz tarafındaki belirsizlik, dolar ve reel faiz üzerinden baskı yaratabilir. Net etki sınırlı görünüyor.
+27.10 02:03 N  GPT  score +0.18 conf 0.38: Ukrayna enerji altyapısına yönelik saldırıların savaş suçu sayılması ve İran savaşının yeniden alevlenebileceğine dair söylemler güvenli liman talebini destekleyebilir; altının dip seviyelerden toparlanması da kısa vadede olumlu. Ancak İran çevresindeki diplomasi ve savaşın soğuyabileceğine dair hab
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
