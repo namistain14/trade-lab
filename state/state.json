@@ -1670,6 +1670,10 @@
    [
     1793120933,
     4995.0
+   ],
+   [
+    1793123434,
+    4995.0
    ]
   ]
  },
@@ -4082,15 +4086,19 @@
    [
     1793120933,
     4906.99
+   ],
+   [
+    1793123434,
+    4906.99
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.4,
-   "reason": "Fed'in faiz sabit tutmas\u0131 bekleniyor ve enflasyonun y\u00fcksek kalmas\u0131, dolarda hafif g\u00fc\u00e7lenme ve reel faiz bask\u0131s\u0131 yaratarak alt\u0131 k\u0131sa vadede hafif olumsuz etkileyebilir. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlar\u0131n\u0131n \u00e7ok ayl\u0131k zirvelerden uzakla\u015fmas\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.05,
+   "confidence": 0.35,
+   "reason": "Fed'in beklenen bekleme (faiz art\u0131rmama) karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, ancak enflasyon bask\u0131s\u0131 vurgusu ve hafif\u00e7e y\u00fckselen tahvil getirileri/dolar gold \u00fczerinde s\u0131n\u0131rl\u0131 bir bask\u0131 yaratabilir. Orta Do\u011fu'daki t\u0131rman\u0131\u015f (Husi sald\u0131r\u0131lar\u0131, \u0130ran sava\u015f\u0131) g\u00fcvenli liman talebini destekliyor; bu iki etki birbirini dengeledi\u011fi i\u00e7in net y\u00f6n belirsiz ve etki k\u00fc\u00e7\u00fck.",
    "n": 45,
-   "ts": 1793120919749,
-   "new_headlines": 24,
+   "ts": 1793123424891,
+   "new_headlines": 30,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
@@ -4099,12 +4107,6 @@
    "gpt": null
   },
   "news_history": [
-   {
-    "ts": 1792695596021,
-    "score": 0.2,
-    "confidence": 0.4,
-    "reason": "Hormuz'da 7 tankerin vuruldu\u011fu iddias\u0131 ve Iran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair korkular jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekliyor. Ancak Treasury getirilerinin %5'in alt\u0131na inmesi ve dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in olumlu; \u00f6te yandan haberler alt\u0131n\u0131n g\u00fcvenli liman yerine ABD tahvillerine kayd\u0131\u011f\u0131n\u0131 ve petrol kaynakl\u0131 faiz tart\u0131\u015fmas\u0131n\u0131n alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131n\u0131 da g\u00f6steriyor. Bu \u00e7eli\u015fkili sinyaller nedeniyle y\u00f6n belirsiz, g\u00fcven d\u00fc\u015f\u00fck."
-   },
    {
     "ts": 1792698549695,
     "score": -0.1,
@@ -6605,65 +6607,70 @@
     "new": 24,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793123424891,
+    "score": -0.05,
+    "confidence": 0.35,
+    "reason": "Fed'in beklenen bekleme (faiz art\u0131rmama) karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, ancak enflasyon bask\u0131s\u0131 vurgusu ve hafif\u00e7e y\u00fckselen tahvil getirileri/dolar gold \u00fczerinde s\u0131n\u0131rl\u0131 bir bask\u0131 yaratabilir. Orta Do\u011fu'daki t\u0131rman\u0131\u015f (Husi sald\u0131r\u0131lar\u0131, \u0130ran sava\u015f\u0131) g\u00fcvenli liman talebini destekliyor; bu iki etki birbirini dengeledi\u011fi i\u00e7in net y\u00f6n belirsiz ve etki k\u00fc\u00e7\u00fck.",
+    "new": 30,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-27",
-   "n": 29
+   "n": 30
   },
   "news_seen": [
-   "Two graphs and one map show that Russia is not currently winning the war (Ukraine Battlefield update, Day 1,706) - EUobserver",
+   "Fed is likely to wait on another rate hike as inflation pressures mount - Baltimore Sun",
+   "Fed likely to wait on another rate hike as inflation pressures mount - WOAI",
+   "Pentagon orders production of US Air Force\u2019s first hypersonic missile - Washington Examiner",
+   "How US Hypersonic Missile Program Compares to Russia, China As Deal Struck - Newsweek",
+   "Gold reclaims $4,060 as Oil retreats ahead of crucial Fed decision - FXStreet",
    "Turnout so far highest on record as Israelis vote in pivotal election",
-   "Nepo baby at center of bitter war between New York Times journalist mom and billionaire Amy Griffin speaks out - Page Six",
+   "Two Nordic leaders urge Putin to end Ukraine war in rare direct contact by Europeans - Reuters",
+   "Gold price needs to build a floor here or face a deeper correction - Standard Chartered\u2019s Cooper - Kitco",
+   "US Dollar Edges Up Against The Loonie as Bond Yields Nudge Higher, Oil Prices Drop - Yahoo Finance",
+   "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - KSL",
+   "The U.S. Called It Putin\u2019s \u2018Slush Fund.\u2019 Now Trump May Drop Sanctions on It. - The New York Times",
+   "Fed likely to wait on another rate hike as inflation pressures mount - KRCR",
+   "Fed likely to wait on another rate hike as inflation pressures mount - WBFF",
+   "US moves to integrate Mach 5 hypersonic missile with F-16 fighter jet - Interesting Engineering",
+   "Youssef Raji Says Hezbollah Prepares New War At Iran\u2019s Request: 7 outlets compared - NewsCord",
+   "Sovereign Gold Bond: \u20b91 lakh grows to \u20b93.09 lakh as RBI fixes SGB redemption price at \u20b914,159; check returns - Livemint",
+   "\u2018Neither War nor Peace\u2019: Khamenei Demands Iran\u2019s Terms Be Met as Tanker Burns near Hormuz - Palestine Chronicle",
    "Opinion | This peninsula is an economic powder keg. A blast could cost trillions. - The Washington Post",
+   "Nanotyrannus skeleton sells for $47.3m in New York auction",
+   "Fl\u00e1vio Bolsonaro's passports cancelled after he fails to surrender them",
+   "Lockheed Martin, U.S. Government say Poland will host European PAC-3 missile maintenance hub - Defence Industry Europe",
+   "The Fed\u2019s October Meeting Starts Today. Here\u2019s What You Need To Know - Investopedia",
+   "Two graphs and one map show that Russia is not currently winning the war (Ukraine Battlefield update, Day 1,706) - EUobserver",
+   "Nepo baby at center of bitter war between New York Times journalist mom and billionaire Amy Griffin speaks out - Page Six",
+   "1000-mile range: US Air Force moves hypersonic missile into production after tests - Interesting Engineering",
    "We don\u2019t understand the gold price - Financial Times",
    "Tampa war hero honored with 7-foot-tall bronze statue at Water Works Park - wtsp.com",
+   "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks - The National",
    "Fed Meeting: Rate Hold Expected as Inflation Stays Hot - News and Statistics - IndexBox",
-   "More young adults are living with their parents, according to survey - WABI",
+   "Fed Meeting: Watch Out For These Three Hawkish Signals - Investor's Business Daily",
+   "Trump Stocks Gained Millions During Iran War - Gadget Review",
+   "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
+   "More young adults are living with their parents, according to survey - WCTV",
    "US taps Poland to host European PAC-3 missile maintenance facility - Defense News",
    "Iran War Adds $20B-Plus to EU Natural Gas Bill, Increases Reliance on US LNG - Natural Gas Intelligence",
+   "Pope says 'there is no such thing as a holy war' in message to religious leaders - Bozeman Daily Chronicle",
+   "Pope says 'there is no such thing as a holy war' in message to religious leaders - Marietta Daily Journal",
+   "Pope says 'there is no such thing as a holy war' in message to religious leaders - Star Beacon",
    "Federal Reserve's Policy Debate Amid Persistent Inflation Concer - GuruFocus",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Rebounds As Oil Prices Move Away From Multi-Month Highs - FXEmpire",
+   "Israel destroys West Bank memorials in war on Palestinian memory - The New Arab",
    "Three Russian Diesel Tankers Head to US, Including One Sanctioned in Europe - UNITED24 Media",
    "Veteran Turned Novelist Discusses Lasting Impact of War at Annual Gianelli Lecture - St. John's University",
-   "U.S. faces record gas price hikes amid Iran war tensions - WAVY.com",
    "2 Fed Debates Could Move Bitcoin and Gold Now That a Hold Is Priced In - BeInCrypto",
-   "FBI raids California home tied to former Congressman Eric Swalwell - US media",
-   "Two Nordic leaders urge Putin to end Ukraine war in rare direct contact by Europeans - Reuters",
-   "Israelis vote in a pivotal election centered on Netanyahu's leadership, Oct. 7 and its aftermath - AP News",
-   "Dollar edges higher as focus turns to central bank meetings - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Egyptian journalist Lina Attalah detained after court orders news site's closure",
-   "Nanotyrannus skeleton auctioned for $47.3m in New York",
-   "Trapped by war, Ukrainians survive on weeds and pickles - WBUR",
-   "What to expect from the Fed's meeting this week - Axios",
-   "US consumer confidence recovers in October as gas prices eased a bit - Boston Herald",
-   "U.S. Dollar Moves Higher As Durable Goods Orders Exceed Expectations: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-   "Art Basel Qatar Names Participants for 2027 Edition - Artforum",
-   "Gold Is $1,500 Off Its Record but Still Pays. Here\u2019s the Math on the Old Jewelry in Your Drawer - Money Talks News",
-   "Bitcoin slips below $80,000 as cryptocurrencies weaken ahead of Fed decision - Economies.com",
-   "Euro: Key support at 1.1113 in focus against US Dollar \u2013 Scotiabank - FXStreet",
-   "Army Battery Sharpens Skills During Nighttime Reload Training - U.S. Department of War (.gov)",
-   "\u2018There is no such thing as a holy war\u2019: Pope Leo marks 40 years of Assisi peace meeting - EWTN News",
-   "$4,000 area: Gold struggles as US Dollar gains ahead of Fed decision - www.tmgm.com",
-   "Gold: Lower real yields fail to ease pressure \u2013 Commerzbank - www.tmgm.com",
-   "US Dollar supported by Fed policy outlook and geopolitical tensions, experts agree - www.tmgm.com",
-   "Federal Appeals Court Strikes Down 21-Cent Debit Card Swipe Fee Cap, Setting Up Fed Rewrite - Law Commentary",
-   "West warns of famine risk in Sudan as civil war grinds on - BBC",
-   "West warns of famine risk in Sudan as civil war grinds on",
-   "The Best and Worst Presidents for Inflation - Kiplinger",
-   "Russia committed war crimes in Ukraine by attacking its energy grid, U.N.-backed inquiry says - Los Angeles Times",
-   "Iran\u2019s calculations as US escalation looms: Trust, midterms, Hormuz - Al Jazeera",
-   "Broadcom\u2019s Growth Vs. Risk Tug-of-War Continues to Confound - 24/7 Wall St.",
-   "Russia Ukraine War - The Killeen Daily Herald",
-   "NY MTA Faces $95.6 Million Fuel Hit This Year From Iran War - Energy Connects",
-   "Houthis Claim Missile Strike on Saudi Ras Tanura Oil Refinery - Modern Diplomacy"
+   "CIOs must now model war as an enterprise risk - TechTarget"
   ]
  },
  "log": [
-  "24.10 08:33 N  NEWS (3 new) score +0.15 conf 0.30: ",
-  "24.10 08:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 08:42 N  NEWS (4 new) score -0.15 conf 0.35: Alt\u0131n fiyat\u0131 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep haberleriyle birlikte momentumu negatif g\u00f6steriyor; dolarda hafif y\u00fckseli\u015f de bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \"yeni Epic Fury\" uyar\u0131lar\u0131 ve Ortado\u011fu'daki \u00e7at\u0131\u015fma riski jeopolitik g\u00fcvenli liman talebini destekleyebilir, ayr\u0131ca \u00e7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik y\u00fcksek; bu nedenle sinyal zay\u0131f ve kar\u0131\u015f\u0131k.",
-  "24.10 08:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 08:50 N  NEWS (4 new) score -0.10 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: haftal\u0131k d\u00fc\u015f\u00fc\u015f, zay\u0131f talep ve 4.000 dolar deste\u011finin k\u0131r\u0131lmas\u0131 k\u0131sa vadeli bask\u0131 yarat\u0131yor, Fed toplant\u0131s\u0131 \u00f6ncesi belirsizlik ise y\u00f6n vermiyor. \u0130ran'daki gerilim ve \"Epic Fury\" uyar\u0131lar\u0131 jeopolitik g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir.",
   "24.10 09:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 09:00 N  NEWS (1 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc; alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haftal\u0131k zay\u0131f talep konu\u015fulurken, dolar\u0131n hafif y\u00fckseli\u015fi ve \u00c7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesi temkin alt\u0131n i\u00e7in hafif negatif. \u0130ran sava\u015f\u0131 ve \"Epic Fury\" uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu tehdit tekrar eden ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131.",
@@ -6959,7 +6966,11 @@
   "27.10 20:08 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "27.10 20:08 N  NEWS (24 new) score -0.10 conf 0.40: Fed'in faiz sabit tutmas\u0131 bekleniyor ve enflasyonun y\u00fcksek kalmas\u0131, dolarda hafif g\u00fc\u00e7lenme ve reel faiz bask\u0131s\u0131 yaratarak alt\u0131 k\u0131sa vadede hafif olumsuz etkileyebilir. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlar\u0131n\u0131n \u00e7ok ayl\u0131k zirvelerden uzakla\u015fmas\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "27.10 20:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "27.10 20:08 B6  karar turu: Claude \u00abFed'in iki g\u00fcnl\u00fck toplant\u0131s\u0131 ve b\u00fcy\u00fck teknoloji bilan\u00e7olar\u0131 \u00f6ncesinde piyasa \u00f6\u011fle saatlerinde yatay ve temkinli seyrediyor; beklemek en do\u011frusu.\u00bb / GPT \u00ab-\u00bb"
+  "27.10 20:08 B6  karar turu: Claude \u00abFed'in iki g\u00fcnl\u00fck toplant\u0131s\u0131 ve b\u00fcy\u00fck teknoloji bilan\u00e7olar\u0131 \u00f6ncesinde piyasa \u00f6\u011fle saatlerinde yatay ve temkinli seyrediyor; beklemek en do\u011frusu.\u00bb / GPT \u00ab-\u00bb",
+  "27.10 20:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "27.10 20:50 N  NEWS (30 new) score -0.05 conf 0.35: Fed'in beklenen bekleme (faiz art\u0131rmama) karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, ancak enflasyon bask\u0131s\u0131 vurgusu ve hafif\u00e7e y\u00fckselen tahvil getirileri/dolar gold \u00fczerinde s\u0131n\u0131rl\u0131 bir bask\u0131 yaratabilir. Orta Do\u011fu'daki t\u0131rman\u0131\u015f (Husi sald\u0131r\u0131lar\u0131, \u0130ran sava\u015f\u0131) g\u00fcvenli liman talebini destekliyor; bu iki etki birbirini dengeledi\u011fi i\u00e7in net y\u00f6n belirsiz ve etki k\u00fc\u00e7\u00fck.",
+  "27.10 20:50 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
+  "27.10 20:50 B6  karar turu: Claude \u00abPiyasa g\u00fc\u00e7l\u00fc t\u00fcketici g\u00fcveni ve \u00e7ip rallisiyle pozitif ancak \u00f6\u011fleden sonra yatay konsolidasyonda; net bir avantaj olmad\u0131\u011f\u0131ndan i\u015flem a\u00e7\u0131lm\u0131yor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -8599,6 +8610,10 @@
    [
     1793120933,
     4961.78
+   ],
+   [
+    1793123434,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10166,6 +10181,10 @@
    [
     1793120933,
     4973.18
+   ],
+   [
+    1793123434,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11680,6 +11699,10 @@
    [
     1793120933,
     5005.69
+   ],
+   [
+    1793123434,
+    5005.69
    ]
   ]
  },
@@ -13003,6 +13026,10 @@
    [
     1793120933,
     4993.23
+   ],
+   [
+    1793123434,
+    4990.79
    ]
   ],
   "news_calls": {
@@ -14204,6 +14231,10 @@
    [
     1793120933,
     5010.69
+   ],
+   [
+    1793123434,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -15254,15 +15285,19 @@
    [
     1793120933,
     99842.81
+   ],
+   [
+    1793123434,
+    99842.81
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793120922219,
+  "last_decision_ms": 1793123427755,
   "view": {
-   "ts": 1793120922219,
-   "claude": "Fed'in iki g\u00fcnl\u00fck toplant\u0131s\u0131 ve b\u00fcy\u00fck teknoloji bilan\u00e7olar\u0131 \u00f6ncesinde piyasa \u00f6\u011fle saatlerinde yatay ve temkinli seyrediyor; beklemek en do\u011frusu.",
+   "ts": 1793123427755,
+   "claude": "Piyasa g\u00fc\u00e7l\u00fc t\u00fcketici g\u00fcveni ve \u00e7ip rallisiyle pozitif ancak \u00f6\u011fleden sonra yatay konsolidasyonda; net bir avantaj olmad\u0131\u011f\u0131ndan i\u015flem a\u00e7\u0131lm\u0131yor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -15270,7 +15305,7 @@
     "SPY": {
      "claude": [
       "none",
-      0.2
+      0.8
      ],
      "gpt": [
       null,
@@ -15280,7 +15315,7 @@
     "QQQ": {
      "claude": [
       "none",
-      0.25
+      0.75
      ],
      "gpt": [
       null,
@@ -15290,7 +15325,7 @@
     "NVDA": {
      "claude": [
       "none",
-      0.25
+      0.7
      ],
      "gpt": [
       null,
@@ -15300,7 +15335,7 @@
     "AAPL": {
      "claude": [
       "none",
-      0.2
+      0.75
      ],
      "gpt": [
       null,
@@ -15310,7 +15345,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.3
+      0.7
      ],
      "gpt": [
       null,

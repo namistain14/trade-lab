@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 20:08 (İstanbul)
+> Son güncelleme: 27.10.2026 20:50 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (27.10 20:08): Claude puan **-0.10**, güven 0.40 — Fed'in faiz sabit tutması bekleniyor ve enflasyonun yüksek kalması, dolarda hafif güçlenme ve reel faiz baskısı yaratarak altı kısa vadede hafif olumsuz etkileyebilir. İran savaşı ve Hürmüz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlarının çok aylık zirvelerden uzaklaşması bu desteği sınırlıyor; ayrıca birçok başlık zaten fiyatlanmış haberler olduğu için güven düşük.
+Son haber analizi (27.10 20:50): Claude puan **-0.05**, güven 0.35 — Fed'in beklenen bekleme (faiz artırmama) kararı büyük ölçüde fiyatlanmış, ancak enflasyon baskısı vurgusu ve hafifçe yükselen tahvil getirileri/dolar gold üzerinde sınırlı bir baskı yaratabilir. Orta Doğu'daki tırmanış (Husi saldırıları, İran savaşı) güvenli liman talebini destekliyor; bu iki etki birbirini dengelediği için net yön belirsiz ve etki küçük.
 
 Son işlemler:
 
@@ -92,7 +92,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %40.0 |
 | Ödenen komisyon/spread | 7.12 $ | 11.86 $ |
 
-**Hesap değeri: 4,993.23 $** (başlangıç 5,000 $, -6.77 $ / %-0.14)
+**Hesap değeri: 4,990.79 $** (başlangıç 5,000 $, -9.21 $ / %-0.18)
 
 Açık pozisyonlar: PAXGUSDT long @ 4066.15 (TP 4078.35 / SL 4058.02)
 
@@ -158,10 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 17:31 N  GPT  score +0.15 conf 0.34: Bab el-Mandeb’de füze tehdidi ve Kyiv’e yönelik saldırılar kısa vadeli güvenli liman talebini destekleyebilir. Ancak Fed kararı öncesi güçlü dolar ve yüksek tahvil getirileri altını baskılıyor; haberlerin çoğu mevcut riskleri tekrarladığı için net etki sınırlı.
-27.10 17:31 B4  CLOSE long take profit: +13.81 USD
-27.10 17:31 B6  karar turu: Claude «Piyasa Fed toplantısı öncesinde hafif pozitif ama yönsüz seyrediyor, bu yüzden beklemek en doğrusu.» / GPT «Endekslerdeki toparlanma henüz net bir yön teyidi vermiyor; yalnızca haberle desteklenen göreli güç seçici alımı destekliyor.»
-27.10 18:24 N  NEWS (30 new) score +0.05 conf 0.30: 
 27.10 18:24 N  GPT  score +0.28 conf 0.36: Hürmüz’de geminin vurulması ve Husilerin petrol rafinerisine saldırı iddiası kısa vadede güvenli liman talebini ve petrol kaynaklı enflasyon kaygılarını destekleyebilir. Ancak Fed kararı yaklaşırken faiz ve dolar yönü belirsiz; haberlerin bir kısmı mevcut risklerin zaten fiyatlanmış olabileceğini dü
 27.10 18:24 B6  karar turu: Claude «Piyasa Fed toplantısı ve MSFT bilançosu öncesi ılımlı pozitif, ancak yeni ve net bir şirkete özgü katalizör bulunmadığından beklemek en doğrusu.» / GPT «Endekslerde yukarı eğilim sürüyor ancak mevcut fiyat hareketleri ve haberler, önümüzdeki 1–3 saatte yüzde 1,5 hedef ve yüzde 1 stop ile kaldıraçlı giriş için yeterince net avantaj sunmuyor.»
 27.10 19:14 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -173,6 +169,10 @@ Son işlemler:
 27.10 20:08 N  NEWS (24 new) score -0.10 conf 0.40: Fed'in faiz sabit tutması bekleniyor ve enflasyonun yüksek kalması, dolarda hafif güçlenme ve reel faiz baskısı yaratarak altı kısa vadede hafif olumsuz etkileyebilir. İran savaşı ve Hürmüz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlarının çok aylık zirvelerden uzaklaşması bu desteği sınırlıyor; ayrıca birçok başlık zaten fiyatlanmış haberler olduğu için güven düşük.
 27.10 20:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 27.10 20:08 B6  karar turu: Claude «Fed'in iki günlük toplantısı ve büyük teknoloji bilançoları öncesinde piyasa öğle saatlerinde yatay ve temkinli seyrediyor; beklemek en doğrusu.» / GPT «-»
+27.10 20:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+27.10 20:50 N  NEWS (30 new) score -0.05 conf 0.35: Fed'in beklenen bekleme (faiz artırmama) kararı büyük ölçüde fiyatlanmış, ancak enflasyon baskısı vurgusu ve hafifçe yükselen tahvil getirileri/dolar gold üzerinde sınırlı bir baskı yaratabilir. Orta Doğu'daki tırmanış (Husi saldırıları, İran savaşı) güvenli liman talebini destekliyor; bu iki etki birbirini dengelediği için net yön belirsiz ve etki küçük.
+27.10 20:50 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+27.10 20:50 B6  karar turu: Claude «Piyasa güçlü tüketici güveni ve çip rallisiyle pozitif ancak öğleden sonra yatay konsolidasyonda; net bir avantaj olmadığından işlem açılmıyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
