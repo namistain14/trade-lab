@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 10:01 (İstanbul)
+> Son güncelleme: 27.10.2026 10:49 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,914.96 $** (başlangıç 5,000 $, -85.04 $ / %-1.70)
 
-Son haber analizi (27.10 10:01): Claude puan **-0.10**, güven 0.30 — Dolar gücü ve yaklaşan Fed kararı öncesi temkinli beklentiler altının kısa vadede baskı altında kalabileceğini gösteriyor; Warsh'ın faiz artırımı ihtimaline dair yorumlar da şahin tarafta. Buna karşılık İran, Ukrayna ve İsrail kaynaklı jeopolitik gerilim güvenli liman talebini destekleyebilir, bu nedenle etki sınırlı ve karışık.
+Son haber analizi (27.10 10:49): Claude puan **-0.10**, güven 0.35 — Jeopolitik risk (ABD-İran savaşının yeniden tırmanma ihtimali) altın için güvenli liman talebini destekliyor, ancak petrol fiyatlarındaki gerilim azalması ve Fed kararı öncesinde güçlenen dolar altını baskılıyor. Fed kararının faiz/beklenti tarafı belirsiz olduğu için net etki hafif negatif, düşük güvenle değerlendirilmelidir.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.58 — Fed kararı yaklaşırken doların güçlenmesi ve altının dolar bazında gerilemesi kısa vadede baskın görünüyor; faizlerin sabit kalacağı beklentisi de yeni bir destek sağlamıyor. Kyiv’e yönelik saldırılar güvenli liman talebini artırabilir, ancak altın haberleri çelişkili ve bu etkiyi kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.46 — Fed kararı öncesinde doların güçlenmesi ve altının gerilemesi kısa vadede baskı yaratıyor. İran’la yeniden savaş riski güvenli liman talebini desteklese de haber akışı çelişkili; net etki hafif aşağı yönlü görünüyor.
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 05:57 N  GPT  score -0.20 conf 0.36: Doların 102 civarında güçlü kalması ve Fed kararı öncesi temkinlilik altın üzerinde kısa vadeli baskı yaratabilir. Oleshky’deki sınırlı ateşkes güvenli liman talebini azaltırken, İran kaynaklı riskler ve altının 4.000 dolar üzerinde tutunması bu baskıyı dengeliyor; başlıklar karışık ve büyük ölçüde 
-27.10 05:57 B1  SHORT gold 5000 USD x10 @ 4020.14 (TP 4017.57, SL 4021.59; news -0.20)
 27.10 06:34 B1  CLOSE short stop: -3.00 USD
 27.10 06:34 N  NEWS (26 new) score -0.10 conf 0.35: Fed kararı öncesinde dolar endeksi 102 civarında güçlü seyrediyor ve bu altın için kısa vadede baskı oluşturuyor; ayrıca Fed'in sıkı tutumu beklentisi reel faiz tarafında altını aşağı çekebilir. Buna karşılık İran-Körfez ve Ukrayna tarafındaki çatışma haberleri güvenli liman talebini destekliyor; sinyaller karışık ve birçok "altın %25 düştü" türü başlık eski veya yanıltıcı olduğu için güven düşük.
 27.10 06:34 N  GPT  score -0.18 conf 0.38: Fed kararı öncesinde doların güçlü kalması ve altının temkinli seyri kısa vadede hafif baskı yaratıyor. İran ve Suriye çevresindeki güvenlik haberleri güvenli liman talebini destekleyebilir; etkiler birbiriyle çeliştiğinden görünüm sınırlı ölçüde negatif.
@@ -169,6 +167,8 @@ Son işlemler:
 27.10 09:10 N  GPT  score -0.15 conf 0.36: Fed kararı öncesinde güçlenen doların altını baskıladığına dair Reuters haberi kısa vadede hafif negatif. Kyiv saldırısı ve İran’la ilgili savaş riskleri güvenli liman talebini destekleyebilir; etkiler karışık ve haberlerin bir kısmı tekrarlı.
 27.10 10:01 N  NEWS (25 new) score -0.10 conf 0.30: 
 27.10 10:01 N  GPT  score -0.25 conf 0.58: Fed kararı yaklaşırken doların güçlenmesi ve altının dolar bazında gerilemesi kısa vadede baskın görünüyor; faizlerin sabit kalacağı beklentisi de yeni bir destek sağlamıyor. Kyiv’e yönelik saldırılar güvenli liman talebini artırabilir, ancak altın haberleri çelişkili ve bu etkiyi kısmen dengeliyor.
+27.10 10:49 N  NEWS (34 new) score -0.10 conf 0.35: Jeopolitik risk (ABD-İran savaşının yeniden tırmanma ihtimali) altın için güvenli liman talebini destekliyor, ancak petrol fiyatlarındaki gerilim azalması ve Fed kararı öncesinde güçlenen dolar altını baskılıyor. Fed kararının faiz/beklenti tarafı belirsiz olduğu için net etki hafif negatif, düşük güvenle değerlendirilmelidir.
+27.10 10:49 N  GPT  score -0.20 conf 0.46: Fed kararı öncesinde doların güçlenmesi ve altının gerilemesi kısa vadede baskı yaratıyor. İran’la yeniden savaş riski güvenli liman talebini desteklese de haber akışı çelişkili; net etki hafif aşağı yönlü görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
