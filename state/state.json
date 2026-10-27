@@ -1706,6 +1706,10 @@
    [
     1793142823,
     4995.0
+   ],
+   [
+    1793144971,
+    4995.0
    ]
   ]
  },
@@ -4154,15 +4158,19 @@
    [
     1793142823,
     4906.99
+   ],
+   [
+    1793144971,
+    4906.99
    ]
   ],
   "news": {
-   "score": -0.05,
-   "confidence": 0.3,
-   "reason": "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve yeniden alevlenme ihtimali g\u00fcvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutmas\u0131 beklentisi, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 ve Commerzbank/Standard Chartered gibi analistlerin alt\u0131n \u00fczerindeki bask\u0131ya dikkat \u00e7ekmesi y\u00fckseli\u015f potansiyelini s\u0131n\u0131rl\u0131yor. Haberlerin birbirine z\u0131t sinyaller vermesi nedeniyle etki hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.1,
+   "confidence": 0.35,
+   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed'in faizleri sabit tutmas\u0131 ve enflasyonun \u00f6ne \u00e7\u0131kmas\u0131, g\u00fc\u00e7l\u00fc dolar ve \"alt\u0131n bask\u0131 alt\u0131nda\" yorumlar\u0131 k\u0131sa vadede negatif; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve jeopolitik riskler ise destekleyici. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
    "n": 45,
-   "ts": 1793142821413,
-   "new_headlines": 16,
+   "ts": 1793144968701,
+   "new_headlines": 15,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
@@ -4171,13 +4179,6 @@
    "gpt": null
   },
   "news_history": [
-   {
-    "ts": 1792703375407,
-    "score": -0.15,
-    "confidence": 0.3,
-    "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: \"Gold plunges\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadede bask\u0131 i\u015fareti veriyor, ancak petrol 110 dolar\u0131n \u00fczerinde ve \u0130ran sava\u015f\u0131/Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini destekliyor. Enflasyon kaynakl\u0131 faiz beklentisi endi\u015fesi ile jeopolitik risk birbirini dengeliyor; net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 10
-   },
    {
     "ts": 1792703963935,
     "score": 0.2,
@@ -6696,32 +6697,53 @@
     "new": 16,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793144968701,
+    "score": -0.1,
+    "confidence": 0.35,
+    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed'in faizleri sabit tutmas\u0131 ve enflasyonun \u00f6ne \u00e7\u0131kmas\u0131, g\u00fc\u00e7l\u00fc dolar ve \"alt\u0131n bask\u0131 alt\u0131nda\" yorumlar\u0131 k\u0131sa vadede negatif; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve jeopolitik riskler ise destekleyici. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+    "new": 15,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
-   "Plaid demands more cash, but how could the Budget affect Wales?",
+   "Anduril\u2019s Baltimore County shipyard project draws war industry criticism - WYPR",
+   "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
+   "Russo-Ukrainian war, day 1707: UN commission finds Russia\u2019s strikes on Ukraine\u2019s power grid are crimes against humanity - Euromaidan Press",
+   "Gold misses the $5,000 mark; analysts await three conditions for a reversal. - Vietnam.vn",
+   "Iran war cost increases to $47 billion - The Hill",
+   "Ghost hunter investigates paranormal claims at New Mexico Civil War site - KOAT",
+   "Russia Ukraine War - Columbia Missourian",
+   "Russia Ukraine War Melania Trump - Columbia Missourian",
+   "Gold prices today, October 28, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
+   "Watch: 'No clear winner' in Israel election - what happens now?",
+   "\u2018It was very loud\u2019: Neighbors detail moment they awoke to FBI executing search, arrest warrant at Mount Juliet home - WSMV",
+   "Was King Solomon The Richest Person Who Ever Lived? - Celebrity Net Worth",
+   "Pentagon picks Poland for new missile maintenance facility - The Hill",
+   "Gold price update morning of October 28th: World gold stands firm, domestic price increases - Laodong.vn",
    "Exit polls suggest a rebuke of Netanyahu but no clear winner in Israel\u2019s election - AP News",
+   "Plaid demands more cash, but how could the Budget affect Wales?",
    "A War-Torn Nation Is on the Brink of Famine - Newser",
    "Two Nordic leaders urge Putin to end Ukraine war in rare direct contact by Europeans - Reuters",
    "The Latest: Trump goes to Texas as his Iran war damages GOP hopes for Congress - The Washington Post",
+   "El-Sayed distances himself from ad tying Gaza war to increased costs - The Washington Post",
    "'Tone deaf at best' - advice to stock up on essentials worries experts and low-income families",
    "APTOPIX Iran War - Post Register",
-   "Aussie Dollar holds above 0.7000 as Fed and RBA, inflation tests loom - FXStreet",
    "Iran War - Post Register",
    "Fed expected to hold interest rates steady as inflation tops midterm voters\u2019 concerns - NBC News",
    "Caine Says Super Intelligence Is a Strategic Priority - U.S. Department of War (.gov)",
-   "Fed expected to hold rates steady as Utahns continue to feel economic pressure - KSL",
    "Euro extends losing streak against US Dollar, Fed-ECB policy eyed | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Euro: Downside risks persist near key support against US Dollar \u2013 ING | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Five Misconceptions About Yemen\u2019s Civil War, Explained by Afrah Nasser - Democracy for the Arab World Now",
    "Thai Baht: Trade deficit fuels weakness against US dollar \u2013 MUFG - FXStreet",
    "Gold: Under pressure despite lower real yields \u2013 Commerzbank | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "After Months of Threats by Trump, Resumption of Iran War Now Seems Inevitable - Middle East Forum",
-   "El-Sayed distances himself from ad tying Gaza war to increased costs - The Washington Post",
    "Silver Price Forecast: XAG/USD recovers some losses, upbeat US Dollar caps upside | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg.com",
    "Israel committing war crimes, crimes against humanity in West Bank: UN report - Arab News",
@@ -6735,24 +6757,10 @@
    "Trump says U.S. is making a 'fortune' off Iran war during Corpus Christi rally - San Antonio Express-News",
    "Morning Wrap: ASX 200 to rise, chipmakers lift the S&P 500 and Nasdaq, Copper and gold prices bounce - Market Index",
    "Korean War soldier from Metro East returns home - KMOV",
-   "How popular is the Iran War? - Silver Bulletin",
-   "Gold needs to build a floor or face further losses, Standard Chartered\u2019s Cooper says (GLD:NYSEARCA) - Seeking Alpha",
-   "Contracts for Oct. 27, 2026 - U.S. Department of War (.gov)",
-   "Federal Reserve Must Scrap 21-Cent Cap on Debit Card Swipe Fees, US Appeals Court Says - Law.com",
-   "The Fed says it ignores politics. Its rate moves tell a more complicated story - CNN",
-   "Will the Federal Reserve raise interest rates in December? - WGN Radio 720",
-   "Obama forgets when Iran\u2019s war against America began - Washington Times",
-   "JUST IN: Iran War Teaching Navy to Prioritize Sustainment, EW for Uncrewed Systems - National Defense Magazine",
-   "Gold climbs above $4,050 as Wall Street rallies ahead of Fed decision - Kitco PM Report - Kitco",
-   "US Considers Sanctions Relief for Kremlin Investment Fund Amid Diesel Deal - UNITED24 Media",
-   "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-   "Kremlin downplays rare Putin call from leaders of Finland and Norway - Al Jazeera",
-   "140,000-sq-ft armory to boost US missile, interceptor production - Interesting Engineering"
+   "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement - WSJ"
   ]
  },
  "log": [
-  "24.10 10:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 10:31 N  NEWS (9 new) score +0.10 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Brent'in 117 dolar\u0131 a\u015fmas\u0131 ve ABD'ye y\u00f6nelik tehdidin artmas\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan gold lehine. Ancak petrol kaynakl\u0131 enflasyon, Fed'de s\u0131k\u0131 duru\u015fu destekleyebilir ve alt\u0131n fiyatlar\u0131 haftal\u0131k d\u00fc\u015f\u00fc\u015f e\u011filiminde; Ukrayna'da m\u00fczakere haberleri ise jeopolitik primi k\u0131smen azalt\u0131yor. Bu \u00e7eli\u015fkili tablo nedeniyle net bir y\u00f6n yerine hafif pozitif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
   "24.10 10:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 10:40 N  NEWS (2 new) score -0.10 conf 0.30: ",
   "24.10 10:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -7050,7 +7058,9 @@
   "28.10 01:37 N  NEWS (22 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flamas\u0131n\u0131n ka\u00e7\u0131n\u0131lmaz g\u00f6r\u00fcnmesi ve Fed'in aral\u0131k ay\u0131nda faiz art\u0131rabilece\u011fine dair beklentiler jeopolitik ve faiz kanal\u0131ndan farkl\u0131 y\u00f6nlere i\u015faret ediyor. Fed karar\u0131 \u00f6ncesi dolar g\u00fc\u00e7l\u00fc, Commerzbank reel faiz d\u00fc\u015f\u00fc\u015f\u00fcne ra\u011fmen alt\u0131n \u00fczerinde bask\u0131 g\u00f6r\u00fcyor ve State Street a\u015fa\u011f\u0131 y\u00f6nl\u00fc riskleri \u00f6ne \u00e7\u0131kar\u0131yor; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
   "28.10 01:37 B4  CLOSE long time limit: -1.90 USD",
   "28.10 02:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve yeniden alevlenme ihtimali g\u00fcvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutmas\u0131 beklentisi, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 ve Commerzbank/Standard Chartered gibi analistlerin alt\u0131n \u00fczerindeki bask\u0131ya dikkat \u00e7ekmesi y\u00fckseli\u015f potansiyelini s\u0131n\u0131rl\u0131yor. Haberlerin birbirine z\u0131t sinyaller vermesi nedeniyle etki hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck."
+  "28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve yeniden alevlenme ihtimali g\u00fcvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutmas\u0131 beklentisi, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 ve Commerzbank/Standard Chartered gibi analistlerin alt\u0131n \u00fczerindeki bask\u0131ya dikkat \u00e7ekmesi y\u00fckseli\u015f potansiyelini s\u0131n\u0131rl\u0131yor. Haberlerin birbirine z\u0131t sinyaller vermesi nedeniyle etki hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "28.10 02:49 N  NEWS (15 new) score -0.10 conf 0.35: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed'in faizleri sabit tutmas\u0131 ve enflasyonun \u00f6ne \u00e7\u0131kmas\u0131, g\u00fc\u00e7l\u00fc dolar ve \"alt\u0131n bask\u0131 alt\u0131nda\" yorumlar\u0131 k\u0131sa vadede negatif; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve jeopolitik riskler ise destekleyici. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu."
  ],
  "gold_big": {
   "account": {
@@ -8726,6 +8736,10 @@
    [
     1793142823,
     4961.78
+   ],
+   [
+    1793144971,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10329,6 +10343,10 @@
    [
     1793142823,
     4973.18
+   ],
+   [
+    1793144971,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11879,6 +11897,10 @@
    [
     1793142823,
     5005.69
+   ],
+   [
+    1793144971,
+    5005.69
    ]
   ]
  },
@@ -13243,6 +13265,10 @@
    [
     1793142823,
     4992.17
+   ],
+   [
+    1793144971,
+    4992.17
    ]
   ],
   "news_calls": {
@@ -14480,6 +14506,10 @@
    [
     1793142823,
     5010.69
+   ],
+   [
+    1793144971,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -15565,6 +15595,10 @@
    ],
    [
     1793142823,
+    99842.81
+   ],
+   [
+    1793144971,
     99842.81
    ]
   ],

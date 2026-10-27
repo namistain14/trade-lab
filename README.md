@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 02:13 (İstanbul)
+> Son güncelleme: 28.10.2026 02:49 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (28.10 02:13): Claude puan **-0.05**, güven 0.30 — İran savaşının sürmesi ve yeniden alevlenme ihtimali güvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutması beklentisi, Aralık'ta faiz artırımı tartışması ve Commerzbank/Standard Chartered gibi analistlerin altın üzerindeki baskıya dikkat çekmesi yükseliş potansiyelini sınırlıyor. Haberlerin birbirine zıt sinyaller vermesi nedeniyle etki hafif negatif ve güven düşük.
+Son haber analizi (28.10 02:49): Claude puan **-0.10**, güven 0.35 — Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
 
 Son işlemler:
 
@@ -156,8 +156,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 22:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-27.10 22:24 N  NEWS (22 new) score -0.15 conf 0.30: 
 27.10 23:05 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 27.10 23:05 N  NEWS (22 new) score +0.05 conf 0.30: Hormuz Boğazı'nda gemi saldırısı ve İran savaşının sürmesi altın için jeopolitik talep desteği sağlıyor. Ancak PCE enflasyonunun yükselmesi beklentisi ve Fed'in enflasyona odaklanma vurgusu sıkı para politikası beklentisini güçlendirip altın üzerinde baskı yaratabilir; bu karışık sinyaller nedeniyle etki sınırlı ve güven düşük.
 27.10 23:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -171,6 +169,8 @@ Son işlemler:
 28.10 01:37 B4  CLOSE long time limit: -1.90 USD
 28.10 02:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: İran savaşının sürmesi ve yeniden alevlenme ihtimali güvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutması beklentisi, Aralık'ta faiz artırımı tartışması ve Commerzbank/Standard Chartered gibi analistlerin altın üzerindeki baskıya dikkat çekmesi yükseliş potansiyelini sınırlıyor. Haberlerin birbirine zıt sinyaller vermesi nedeniyle etki hafif negatif ve güven düşük.
+28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 02:49 N  NEWS (15 new) score -0.10 conf 0.35: Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
