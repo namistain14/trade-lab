@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 02:35 (İstanbul)
+> Son güncelleme: 27.10.2026 03:06 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,917.96 $** (başlangıç 5,000 $, -82.04 $ / %-1.64)
 
-Son haber analizi (27.10 02:35): Claude puan **+0.05**, güven 0.30 — Haberler karışık: ABD-İran gerilimlerinin azalması hakkındaki umutlar güvenli liman talebini zayıflatırken (negatif), Netanyahu'nun savaşın yeniden başlatılması yönündeki açıklamaları ve altının 3 aylık dibinden toparlanması bunu dengeliyor. Ekim Fed toplantısı öncesi belirsizlik ve dolar/faiz beklentileri net bir yön vermiyor; bu nedenle etki sınırlı ve güven düşük.
+Son haber analizi (27.10 03:06): Claude puan **+0.10**, güven 0.35 — Altın yaklaşık 4.000 dolar üzerinde toparlanıyor, ancak haberler çelişkili: ABD-İran gerilimlerinin azalacağı umutları jeopolitik talebi zayıflatırken, Netanyahu'nun İran savaşının yeniden başlayabileceğini ima etmesi güvenli liman talebini destekliyor. Fed kararı beklentisi ve ABD doları yönü net olmadığı için yön belirsiz; hafif pozitif eğilim, düşük güven.
 
-GPT (gpt-6-luna): puan **-0.18**, güven 0.36 — ABD-İran geriliminin azalabileceğine yönelik umutlar güvenli liman talebini zayıflatarak altın üzerinde hafif aşağı yönlü baskı yaratabilir. Ancak fiyatın 4.000 doların üzerine toparlanması ve Fed öncesi belirsizlik kısa vadeli yönü sınırlıyor.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.40 — Ukrayna’ya yönelik saldırı ve İran savaşının yeniden başlayabileceğine dair açıklamalar güvenli liman talebini destekleyebilir; altının 4.000 dolar üzerine toparlanması da kısa vadeli momentumu olumlu kılıyor. Ancak ABD-İran geriliminin azalması umutları ve Fed kararı öncesindeki belirsizlik görünüm
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.10 22:59 N  NEWS (21 new) score -0.15 conf 0.35: İran savaşını sonlandırmaya yönelik arabuluculuk girişimleri (Suudi Arabistan, Türkiye, Pakistan) güvenli liman talebini azaltabileceği için altın açısından hafif olumsuz. Ayrıca Fed kararı öncesi belirsizlik ve enflasyon kaygılarının azalması sinyalleri karışık olduğundan etki sınırlı ve güven düşük.
-26.10 22:59 N  GPT  score -0.18 conf 0.36: İran’a gönderilen arabulucu heyetler savaşın yeniden başlamasını önleme umudunu artırarak kısa vadeli güvenli liman talebini bir miktar azaltabilir. Ancak Hizbullah’ın çatışmayı yenilemeye hazırlandığına dair haberler bu etkiyi sınırlıyor; dolar ve faizler hakkında belirleyici yeni bir sinyal yok.
 26.10 22:59 ERROR B6: 'id'
 26.10 23:35 N  NEWS (16 new) score -0.10 conf 0.30: 
 26.10 23:35 N  GPT  score -0.15 conf 0.36: İran’la diplomasi ve petrol fiyatlarındaki düşüş, güvenli liman ve enflasyon kaynaklı altın talebini kısa vadede sınırlayabilir. Ancak İran’ın yeni çatışma tehdidi bu etkiyi dengeliyor; Fed beklentilerine dair yeni ve belirleyici bir sinyal yok.
@@ -169,6 +167,8 @@ Son işlemler:
 27.10 02:03 N  GPT  score +0.18 conf 0.38: Ukrayna enerji altyapısına yönelik saldırıların savaş suçu sayılması ve İran savaşının yeniden alevlenebileceğine dair söylemler güvenli liman talebini destekleyebilir; altının dip seviyelerden toparlanması da kısa vadede olumlu. Ancak İran çevresindeki diplomasi ve savaşın soğuyabileceğine dair hab
 27.10 02:35 N  NEWS (20 new) score +0.05 conf 0.30: Haberler karışık: ABD-İran gerilimlerinin azalması hakkındaki umutlar güvenli liman talebini zayıflatırken (negatif), Netanyahu'nun savaşın yeniden başlatılması yönündeki açıklamaları ve altının 3 aylık dibinden toparlanması bunu dengeliyor. Ekim Fed toplantısı öncesi belirsizlik ve dolar/faiz beklentileri net bir yön vermiyor; bu nedenle etki sınırlı ve güven düşük.
 27.10 02:35 N  GPT  score -0.18 conf 0.36: ABD-İran geriliminin azalabileceğine yönelik umutlar güvenli liman talebini zayıflatarak altın üzerinde hafif aşağı yönlü baskı yaratabilir. Ancak fiyatın 4.000 doların üzerine toparlanması ve Fed öncesi belirsizlik kısa vadeli yönü sınırlıyor.
+27.10 03:06 N  NEWS (14 new) score +0.10 conf 0.35: Altın yaklaşık 4.000 dolar üzerinde toparlanıyor, ancak haberler çelişkili: ABD-İran gerilimlerinin azalacağı umutları jeopolitik talebi zayıflatırken, Netanyahu'nun İran savaşının yeniden başlayabileceğini ima etmesi güvenli liman talebini destekliyor. Fed kararı beklentisi ve ABD doları yönü net olmadığı için yön belirsiz; hafif pozitif eğilim, düşük güven.
+27.10 03:06 N  GPT  score +0.25 conf 0.40: Ukrayna’ya yönelik saldırı ve İran savaşının yeniden başlayabileceğine dair açıklamalar güvenli liman talebini destekleyebilir; altının 4.000 dolar üzerine toparlanması da kısa vadeli momentumu olumlu kılıyor. Ancak ABD-İran geriliminin azalması umutları ve Fed kararı öncesindeki belirsizlik görünüm
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
