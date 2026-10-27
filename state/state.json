@@ -1658,6 +1658,10 @@
    [
     1793111510,
     4995.0
+   ],
+   [
+    1793114693,
+    4995.0
    ]
   ]
  },
@@ -4058,28 +4062,32 @@
    [
     1793111510,
     4906.99
+   ],
+   [
+    1793114693,
+    4906.99
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.35,
+   "score": 0.05,
+   "confidence": 0.3,
    "reason": "Piyasa Fed karar\u0131n\u0131 bekliyor ve haberler bir faiz art\u0131r\u0131m\u0131 ihtimalini (Aral\u0131k) tart\u0131\u015f\u0131yor; bu, reel faiz ve g\u00fc\u00e7l\u00fc dolar nedeniyle alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve Hormuz/Bab el-Mandeb'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor, ancak bu risk b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve Fed'in sonucu belirsiz oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793111483905,
-   "new_headlines": 40,
+   "ts": 1793114672605,
+   "new_headlines": 30,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
     "Hisse sat\u0131\u015f\u0131nda g\u00fcvenli liman talebi zay\u0131f kald\u0131; Husi/Ukrayna haberleri fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.34,
-    "reason": "Bab el-Mandeb\u2019de f\u00fcze tehdidi ve Kyiv\u2019e y\u00f6nelik sald\u0131r\u0131lar k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak Fed karar\u0131 \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve y\u00fcksek tahvil getirileri alt\u0131n\u0131 bask\u0131l\u0131yor; haberlerin \u00e7o\u011fu mevcut riskleri tekrarlad\u0131\u011f\u0131 i\u00e7in net etki s\u0131n\u0131rl\u0131.",
+    "score": 0.28,
+    "confidence": 0.36,
+    "reason": "H\u00fcrm\u00fcz\u2019de geminin vurulmas\u0131 ve Husilerin petrol rafinerisine sald\u0131r\u0131 iddias\u0131 k\u0131sa vadede g\u00fcvenli liman talebini ve petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131n\u0131 destekleyebilir. Ancak Fed karar\u0131 yakla\u015f\u0131rken faiz ve dolar y\u00f6n\u00fc belirsiz; haberlerin bir k\u0131sm\u0131 mevcut risklerin zaten fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc",
     "key_events": [
-     "Bab el-Mandeb yak\u0131n\u0131nda balistik f\u00fcze \u00f6nlendi",
-     "Rusya Kyiv\u2019i hedef ald\u0131",
-     "Fed karar\u0131 \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve y\u00fcksek getiriler"
+     "H\u00fcrm\u00fcz\u2019de yeni gemi sald\u0131r\u0131s\u0131 haberi",
+     "Suudi petrol rafinerisine f\u00fcze sald\u0131r\u0131s\u0131 iddias\u0131",
+     "Fed karar\u0131 \u00f6ncesi alt\u0131n 4.000 dolar deste\u011fini s\u0131narken reel getiriler gev\u015fiyor"
     ],
     "model": "gpt-6-luna"
    }
@@ -6570,64 +6578,70 @@
     "new": 40,
     "gpt_score": 0.15,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1793114672605,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 30,
+    "gpt_score": 0.28,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-10-27",
-   "n": 26
+   "n": 27
   },
   "news_seen": [
+   "US consumer confidence recovers in October as gas prices eased a bit - WHEC.com",
+   "NY MTA Faces $95.6 Million Fuel Hit This Year From Iran War - Energy Connects",
+   "State War Power Front and Center in Case Against Texas\u2019s Border Law - Federation for American Immigration Reform",
+   "Truce begins in Ukraine city where residents ate weeds to survive",
+   "Poland Selected to Host Historic PAC-3 Missile Maintenance Facility, Strengthening Allied - U.S. Department of War (.gov)",
+   "Ukraine Targets Russia\u2019s War Supplies, Troops, and Equipment Across Three Regions - UNITED24 Media",
+   "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
+   "Rosatom advances nuclear projects abroad as sanctions gaps and wartime ties draw scrutiny - Bellona Foundation",
+   "Meeting to discuss the removal of unexploded munitions from World War II live-fire training - Big Island Now",
+   "How the War in Iran Could Escalate - Time Magazine",
+   "Business Considerations MROs Face Given Geopolitical Tensions - Aviation Week",
+   "Fed Rate Decision: Inflation and weak hiring point in opposite directions - Stock Titan",
+   "War of the Worlds Special Broadcast - WCLO | News",
+   "Indian lenders defer dollar debt sale plan as rates turn expensive - Reuters",
+   "Ukrainian intelligence says Russia\u2019s missile makers use gear from seven countries\u2014and the Chinese machines run on European, Japanese, and Taiwanese parts - Euromaidan Press",
+   "Qatar, Iran discuss war and Hormuz in Moscow meeting as another ship struck in Strait - The Times of Israel",
+   "Florida Seeks Sanctions Against Pine View Teacher That Could Cost Her License - Sarasota Magazine",
+   "Broadcom\u2019s Growth Vs. Risk Tug-of-War Continues to Confound - 24/7 Wall St.",
+   "Sudan\u2019s war steals children\u2019s future with school closures and displacement - Al Jazeera",
+   "Opinion | This peninsula is an economic powder keg. A blast could cost trillions. - The Washington Post",
+   "Gold tests its 100-hour moving average as buyers look for more control - investingLive",
+   "Shekel gains 1.2% against US dollar, hitting three-week high, amid record voter turnout - The Times of Israel",
+   "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Reuters",
+   "How the beauty industry is boosting High Streets",
+   "Japan Confirms Dispatch to India to Explore Anti-Ship Missile Drills - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+   "Trump\u2019s sanctions against the International Criminal Court undermine justice - The Hill",
    "Ballon d'Or ceremony raises case of French sports journalist jailed in Algeria",
+   "Gold Tests $4,000 Support as Fed Decision Looms and Real Yields Ease - FXEmpire",
+   "Gold prices holding above $4,000 as U.S. new home sales fall - Kitco",
    "Houthi Ballistic Missile Intercepted Near Belgian Minehunter in Bab el-Mandeb - Naval News",
-   "Canadian steamship torpedoed by Nazi U-boat discovered off MDI - Bangor Daily News",
    "What to expect from the Federal Reserve's next rate decision - Euronews.com",
    "The Latest: Trump goes to Texas as his Iran war damages GOP hopes for Congress - WRBL",
    "Norway and Finland leaders hold rare call with Putin",
    "Yankees and Red Sox could have 'bidding war' for NPB superstar - Yahoo Sports",
+   "Americans outraged over Trump\u2019s support of Putin through the sanctions pause and diesel deal\u2014weakening Ukraine\u2019s defense - Northeast Valley News",
    "Israel holds first election since war with Hamas - KTVU",
-   "Eastport Declares War on Annapolis as Annual Tug of War Returns November 7 - Eye On Annapolis",
    "U.S. Under Secretary of War for Acquisition and Sustainment visits NATO - North Atlantic Treaty Organization | NATO",
-   "Ferretti Group lowers revenue projection for 2026 amid geopolitical challenges - SuperYacht Times",
+   "Cathie Wood sells Bitcoin, buys $5.2 million of sinking stock - TheStreet",
    "New Found Gold doubles Queensway valuation to $1.7B - Canadian Mining Journal",
    "The Retired Investor: Could higher bond yields simply reflect a stronger economy? - TAPinto",
-   "U.N. Commission of Inquiry Finds Israel Committed Genocide in Gaza, War Crimes in West Bank - Democracy Now!",
+   "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin - Al Jazeera",
+   "Current price of gold as of October 27, 2026 - Fortune",
    "The Federal Reserve's decision is approaching... does it pave the way for a rate hike in December - \u0627\u0644\u0645\u062a\u062f\u0627\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a",
    "Gold prices hold near $4,000 as traders await Fed rate decision amid inflation concerns | Hindustan Times - Hindustan Times",
-   "National Home Values Growth Accelerates Yet Continues to Trail Inflation - Realtor.com",
-   "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin - Al Jazeera",
-   "Courts Rule That Federal Reserve Debit Card Swipe Fee Regulation Was Too High - NACS",
-   "New initiative honors Mexican-American War veterans interred in Lehi - Lehi Free Press",
-   "China\u2019s energy supply chain is withstanding test of Middle East war, expert says - South China Morning Post",
-   "Finland, Norway Leaders Hold \"Frank\" Call With Putin On Ukraine War - NDTV",
-   "Silver Falls, Gold Rallies as China Retail Investing Jumps, ETFs Sell - BullionVault",
-   "The Pakistan-Afghanistan War: An Endless Conflict? - The Organization for World Peace",
-   "Federal Reserve kicks off meeting as JetBlue Airways stock rebounds - Fox Business",
-   "Mexican Peso: Weakness seen limited against US Dollar \u2013 Commerzbank - FXStreet",
-   "Melania or the Pope: Who brokered Russia-Ukraine ceasefire in Oleshky? - Al Jazeera",
-   "Gold prices today, October 27th: Gold recovers but unlikely to rise sharply, why? - Vietnam.vn",
-   "How Trump\u2019s \u2018little detour\u2019 to Iran became a roadblock in the midterm elections - AP News",
-   "Gold price per tola falls Rs1,300 in Pakistan - Business Recorder",
-   "Gold price per tola falls Rs1,300 in Pakistan - Investify",
-   "Inflation is no longer just a supply story, Apollo\u2019s Slok says - TradingView",
-   "Mojtaba Khamenei says Iran's conditions must be met to end 'neither war nor peace' - T\u00fcrkiye Today",
-   "Russia strikes Kyiv ahead of localised ceasefire in Oleshky - Al Jazeera",
-   "Trump\u2019s sanctions against the International Criminal Court undermine justice - The Hill",
-   "Kyiv misses chances for upper hand in energy war - Yahoo",
-   "Iranian president, Qatari emir discuss Mideast war, Hormuz in Moscow talks - TRT World",
-   "Trump\u2019s arch would cast shadow on Arlington Cemetery - The Washington Post",
-   "Video How election outcome in Israel could impact war in Iran - ABC News - Breaking News, Latest News and Videos",
-   "Canadian dollar slips as investors await Bank of Canada, Fed rate decisions - Yahoo Finance",
-   "Yemen\u2019s Houthis claim missile attack on Saudi Arabia\u2019s Ras Tanura oil refinery - Anadolu Ajans\u0131",
-   "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support - Reuters",
-   "Gold, silver prices fall ahead of Fed meeting - \u0627\u0631\u0642\u0627\u0645 : \u0627\u062e\u0628\u0627\u0631 \u0648\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a - \u062a\u0627\u0633\u064a",
-   "Iranians brace for renewed attacks after Israeli, US elections - Al Jazeera",
-   "Mbapp\u00e9 sorry for 'ill-judged' Mao remark after backlash in China"
+   "National Home Values Growth Accelerates Yet Continues to Trail Inflation - Realtor.com"
   ]
  },
  "log": [
-  "24.10 07:30 N  NEWS (4 new) score -0.15 conf 0.40: Alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve d\u00fc\u015f\u00fc\u015f momentumu s\u00fcr\u00fcyor; dolar hafif y\u00fckseliyor ve enflasyonun y\u00fcksek kalmas\u0131 Fed'in s\u0131k\u0131 duru\u015fu beklentisini destekliyor, bu da alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \"sald\u0131r\u0131\" uyar\u0131lar\u0131 ve Orta Do\u011fu'daki f\u00fcze sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak Trump'\u0131n sava\u015f\u0131 h\u0131zl\u0131ca bitirme se\u00e7ene\u011fini tartmas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "24.10 07:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 07:39 N  NEWS (7 new) score -0.25 conf 0.40: Alt\u0131n 4.000 dolar deste\u011finin alt\u0131na inmi\u015f ve haberlerde sat\u0131\u015f bask\u0131s\u0131 ile d\u00fc\u015f\u00fc\u015f momentumu \u00f6ne \u00e7\u0131k\u0131yor; ayr\u0131ca dolar\u0131n hafif y\u00fckseli\u015fi ve \u00e7ar\u015famba g\u00fcnk\u00fc Fed toplant\u0131s\u0131 \u00f6ncesindeki enflasyon bask\u0131s\u0131 k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Orta Do\u011fu'daki \u0130ran sava\u015f\u0131 ve Suudi Arabistan'a y\u00f6nelik f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da bu etki zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve tek ba\u015f\u0131na yukar\u0131 y\u00f6nl\u00fc bir hareket i\u00e7in yeterli de\u011fil.",
   "24.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 07:51 N  NEWS (8 new) score -0.10 conf 0.40: ",
   "24.10 08:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -6924,7 +6938,10 @@
   "27.10 17:31 N  NEWS (40 new) score -0.20 conf 0.35: Piyasa Fed karar\u0131n\u0131 bekliyor ve haberler bir faiz art\u0131r\u0131m\u0131 ihtimalini (Aral\u0131k) tart\u0131\u015f\u0131yor; bu, reel faiz ve g\u00fc\u00e7l\u00fc dolar nedeniyle alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve Hormuz/Bab el-Mandeb'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor, ancak bu risk b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve Fed'in sonucu belirsiz oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "27.10 17:31 N  GPT  score +0.15 conf 0.34: Bab el-Mandeb\u2019de f\u00fcze tehdidi ve Kyiv\u2019e y\u00f6nelik sald\u0131r\u0131lar k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak Fed karar\u0131 \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve y\u00fcksek tahvil getirileri alt\u0131n\u0131 bask\u0131l\u0131yor; haberlerin \u00e7o\u011fu mevcut riskleri tekrarlad\u0131\u011f\u0131 i\u00e7in net etki s\u0131n\u0131rl\u0131.",
   "27.10 17:31 B4  CLOSE long take profit: +13.81 USD",
-  "27.10 17:31 B6  karar turu: Claude \u00abPiyasa Fed toplant\u0131s\u0131 \u00f6ncesinde hafif pozitif ama y\u00f6ns\u00fcz seyrediyor, bu y\u00fczden beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerdeki toparlanma hen\u00fcz net bir y\u00f6n teyidi vermiyor; yaln\u0131zca haberle desteklenen g\u00f6reli g\u00fc\u00e7 se\u00e7ici al\u0131m\u0131 destekliyor.\u00bb"
+  "27.10 17:31 B6  karar turu: Claude \u00abPiyasa Fed toplant\u0131s\u0131 \u00f6ncesinde hafif pozitif ama y\u00f6ns\u00fcz seyrediyor, bu y\u00fczden beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerdeki toparlanma hen\u00fcz net bir y\u00f6n teyidi vermiyor; yaln\u0131zca haberle desteklenen g\u00f6reli g\u00fc\u00e7 se\u00e7ici al\u0131m\u0131 destekliyor.\u00bb",
+  "27.10 18:24 N  NEWS (30 new) score +0.05 conf 0.30: ",
+  "27.10 18:24 N  GPT  score +0.28 conf 0.36: H\u00fcrm\u00fcz\u2019de geminin vurulmas\u0131 ve Husilerin petrol rafinerisine sald\u0131r\u0131 iddias\u0131 k\u0131sa vadede g\u00fcvenli liman talebini ve petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131n\u0131 destekleyebilir. Ancak Fed karar\u0131 yakla\u015f\u0131rken faiz ve dolar y\u00f6n\u00fc belirsiz; haberlerin bir k\u0131sm\u0131 mevcut risklerin zaten fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc",
+  "27.10 18:24 B6  karar turu: Claude \u00abPiyasa Fed toplant\u0131s\u0131 ve MSFT bilan\u00e7osu \u00f6ncesi \u0131l\u0131ml\u0131 pozitif, ancak yeni ve net bir \u015firkete \u00f6zg\u00fc kataliz\u00f6r bulunmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.\u00bb / GPT \u00abEndekslerde yukar\u0131 e\u011filim s\u00fcr\u00fcyor ancak mevcut fiyat hareketleri ve haberler, \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedef ve y\u00fczde 1 stop ile kald\u0131ra\u00e7l\u0131 giri\u015f i\u00e7in yeterince net avantaj sunmuyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -8552,6 +8569,10 @@
    [
     1793111510,
     4961.78
+   ],
+   [
+    1793114693,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10107,6 +10128,10 @@
    [
     1793111510,
     4973.18
+   ],
+   [
+    1793114693,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11609,6 +11634,10 @@
    [
     1793111510,
     5005.69
+   ],
+   [
+    1793114693,
+    5005.69
    ]
   ]
  },
@@ -12904,6 +12933,10 @@
    [
     1793111510,
     4994.07
+   ],
+   [
+    1793114693,
+    4994.07
    ]
   ],
   "news_calls": {
@@ -14093,6 +14126,10 @@
    [
     1793111510,
     5010.69
+   ],
+   [
+    1793114693,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -15131,47 +15168,51 @@
    [
     1793111510,
     99842.81
+   ],
+   [
+    1793114693,
+    99842.81
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793111487967,
+  "last_decision_ms": 1793114675471,
   "view": {
-   "ts": 1793111487967,
-   "claude": "Piyasa Fed toplant\u0131s\u0131 \u00f6ncesinde hafif pozitif ama y\u00f6ns\u00fcz seyrediyor, bu y\u00fczden beklemek en do\u011frusu.",
-   "gpt": "Endekslerdeki toparlanma hen\u00fcz net bir y\u00f6n teyidi vermiyor; yaln\u0131zca haberle desteklenen g\u00f6reli g\u00fc\u00e7 se\u00e7ici al\u0131m\u0131 destekliyor.",
+   "ts": 1793114675471,
+   "claude": "Piyasa Fed toplant\u0131s\u0131 ve MSFT bilan\u00e7osu \u00f6ncesi \u0131l\u0131ml\u0131 pozitif, ancak yeni ve net bir \u015firkete \u00f6zg\u00fc kataliz\u00f6r bulunmad\u0131\u011f\u0131ndan beklemek en do\u011frusu.",
+   "gpt": "Endekslerde yukar\u0131 e\u011filim s\u00fcr\u00fcyor ancak mevcut fiyat hareketleri ve haberler, \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte y\u00fczde 1,5 hedef ve y\u00fczde 1 stop ile kald\u0131ra\u00e7l\u0131 giri\u015f i\u00e7in yeterince net avantaj sunmuyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
       "none",
-      0.7
+      0.6
      ],
      "gpt": [
       "none",
-      0.9
+      0.95
      ]
     },
     "QQQ": {
-     "claude": [
-      "none",
-      0.65
-     ],
-     "gpt": [
-      "none",
-      0.88
-     ]
-    },
-    "NVDA": {
      "claude": [
       "none",
       0.6
      ],
      "gpt": [
       "none",
-      0.86
+      0.94
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.65
+     ],
+     "gpt": [
+      "none",
+      0.95
      ]
     },
     "AAPL": {
@@ -15180,8 +15221,8 @@
       0.55
      ],
      "gpt": [
-      "long",
-      0.68
+      "none",
+      0.89
      ]
     },
     "TSLA": {
@@ -15191,7 +15232,7 @@
      ],
      "gpt": [
       "none",
-      0.92
+      0.97
      ]
     }
    }
