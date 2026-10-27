@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 12:16 (İstanbul)
+> Son güncelleme: 27.10.2026 13:02 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -43,51 +43,47 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -7.97 $ | -90.01 $ |
-| İşlem sayısı | 2 | 37 |
-| Kazanma oranı | %0.0 | %21.6 |
-| Ödenen komisyon/spread | 4.75 $ | 87.81 $ |
+| Net kâr/zarar | -10.97 $ | -93.01 $ |
+| İşlem sayısı | 3 | 38 |
+| Kazanma oranı | %0.0 | %21.1 |
+| Ödenen komisyon/spread | 7.12 $ | 90.19 $ |
 
-**Hesap değeri: 4,908.82 $** (başlangıç 5,000 $, -91.18 $ / %-1.82)
+**Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Açık pozisyonlar: PAXGUSDT short @ 4006.57 (TP 4004.02 / SL 4008.02)
+Son haber analizi (27.10 13:02): Claude puan **-0.35**, güven 0.50 — Dolar endeksi 102 üzerinde güçleniyor, FOMC öncesi dolar alımları ve "faiz artırımı" endişeleri altını baskılıyor; altın 4.000 doları yakın tutarken gümüş yıllık düşük seviyeleri kırdı. Jeopolitik (İran savaşı, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu etki dolar ve Fed beklentilerinin gerisinde kalıyor; "4.000 kırıldı" gibi haberlerin tarihi/kaynağı belirsiz olduğu için güven orta düzeyde.
 
-Son haber analizi (27.10 12:16): Claude puan **-0.40**, güven 0.60 — Güçlenen dolar (DXY 102 üzerinde), Fed'in faiz artırımı ihtimali konuşmaları ve altının 4.000 dolar civarında zayıflaması altın için baskı yaratıyor. Jeopolitik haberler (Ukrayna'ya füze saldırıları, İran savaşının sonuçları) güvenli liman talebini destekleyebilir, ancak bunlar büyük ölçüde fiyatlanmış ve eski haberler olduğu için etkisi sınırlı kalır.
-
-GPT (gpt-6-luna): puan **-0.30**, güven 0.66 — Daha güçlü dolar ve Fed’in faizleri yüksek tutacağı beklentisi, altının 4.000 dolar civarında gerilemesiyle de uyumlu biçimde kısa vadede baskın ve aşağı yönlü. Rusya’nın Kyiv saldırısı ve Çinli hanehalkının altın alımları destek sağlasa da Fed kararı öncesi yön belirsizliği sürüyor.
+GPT (gpt-6-luna): puan **-0.22**, güven 0.56 — FOMC öncesi dolar alımlarının geri dönmesi ve Fed görünümünün altını baskılaması kısa vadede hafif aşağı yönlü. Getirilerin yatay seyri ve altının 4.000 dolar üzerinde kalması ise düşüşü sınırlayabilir; haber akışı karışık ve karar öncesi temkinli olmak gerekir.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 27.10 12:19 | PAXGUSDT | short | -3.00 $ | stop |
 | 27.10 11:31 | PAXGUSDT | short | -4.97 $ | stop (gap) |
 | 27.10 06:06 | PAXGUSDT | short | -3.00 $ | stop |
 | 26.10 14:24 | PAXGUSDT | short | -3.00 $ | stop |
 | 26.10 10:21 | PAXGUSDT | short | -3.00 $ | stop |
-| 23.10 21:26 | PAXGUSDT | short | -3.00 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -35.22 $ |
-| İşlem sayısı | 0 | 6 |
-| Kazanma oranı | %0.0 | %16.7 |
-| Ödenen komisyon/spread | 0.00 $ | 14.24 $ |
+| Net kâr/zarar | -3.00 $ | -38.22 $ |
+| İşlem sayısı | 1 | 7 |
+| Kazanma oranı | %0.0 | %14.3 |
+| Ödenen komisyon/spread | 2.37 $ | 16.61 $ |
 
-**Hesap değeri: 4,963.60 $** (başlangıç 5,000 $, -36.40 $ / %-0.73)
-
-Açık pozisyonlar: PAXGUSDT short @ 4006.56 (TP 4004.01 / SL 4008.01)
+**Hesap değeri: 4,961.78 $** (başlangıç 5,000 $, -38.22 $ / %-0.76)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 27.10 12:19 | PAXGUSDT | short | -3.00 $ | stop |
 | 23.10 18:03 | PAXGUSDT | short | -4.28 $ | stop (gap) |
 | 23.10 11:45 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 08:32 | PAXGUSDT | short | -11.19 $ | stop |
 | 23.10 05:27 | PAXGUSDT | short | -11.19 $ | stop |
-| 23.10 04:52 | PAXGUSDT | short | +13.82 $ | take profit |
 
 ## Bot B4 — Altın: haberin TERSİ (TP 15$ / SL 10$)
 
@@ -98,7 +94,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 4.74 $ |
 
-**Hesap değeri: 4,977.63 $** (başlangıç 5,000 $, -22.37 $ / %-0.45)
+**Hesap değeri: 4,976.45 $** (başlangıç 5,000 $, -23.55 $ / %-0.47)
+
+Açık pozisyonlar: PAXGUSDT long @ 4014.42 (TP 4026.47 / SL 4006.39)
 
 Son işlemler:
 
@@ -135,7 +133,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 4.75 $ |
 
-**Hesap değeri: 5,020.69 $** (başlangıç 5,000 $, +20.69 $ / %+0.41)
+**Hesap değeri: 5,013.25 $** (başlangıç 5,000 $, +13.25 $ / %+0.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 4006.56 (TP 3994.54 / SL 4014.57)
 
@@ -160,11 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 09:10 N  NEWS (23 new) score -0.15 conf 0.35: Dolar gücü ve yaklaşan Fed kararı öncesi temkinli beklentiler altının kısa vadede baskı altında kalabileceğini gösteriyor; Warsh'ın faiz artırımı ihtimaline dair yorumlar da şahin tarafta. Buna karşılık İran, Ukrayna ve İsrail kaynaklı jeopolitik gerilim güvenli liman talebini destekleyebilir, bu nedenle etki sınırlı ve karışık.
-27.10 09:10 N  GPT  score -0.15 conf 0.36: Fed kararı öncesinde güçlenen doların altını baskıladığına dair Reuters haberi kısa vadede hafif negatif. Kyiv saldırısı ve İran’la ilgili savaş riskleri güvenli liman talebini destekleyebilir; etkiler karışık ve haberlerin bir kısmı tekrarlı.
-27.10 10:01 N  NEWS (25 new) score -0.10 conf 0.30: 
-27.10 10:01 N  GPT  score -0.25 conf 0.58: Fed kararı yaklaşırken doların güçlenmesi ve altının dolar bazında gerilemesi kısa vadede baskın görünüyor; faizlerin sabit kalacağı beklentisi de yeni bir destek sağlamıyor. Kyiv’e yönelik saldırılar güvenli liman talebini artırabilir, ancak altın haberleri çelişkili ve bu etkiyi kısmen dengeliyor.
-27.10 10:49 N  NEWS (34 new) score -0.10 conf 0.35: Jeopolitik risk (ABD-İran savaşının yeniden tırmanma ihtimali) altın için güvenli liman talebini destekliyor, ancak petrol fiyatlarındaki gerilim azalması ve Fed kararı öncesinde güçlenen dolar altını baskılıyor. Fed kararının faiz/beklenti tarafı belirsiz olduğu için net etki hafif negatif, düşük güvenle değerlendirilmelidir.
 27.10 10:49 N  GPT  score -0.20 conf 0.46: Fed kararı öncesinde doların güçlenmesi ve altının gerilemesi kısa vadede baskı yaratıyor. İran’la yeniden savaş riski güvenli liman talebini desteklese de haber akışı çelişkili; net etki hafif aşağı yönlü görünüyor.
 27.10 11:29 N  NEWS (37 new) score -0.25 conf 0.45: Fed kararı öncesi dolar güçleniyor ve altın baskı altında; enflasyon artışı ile Fed'in sıkı duruşu beklentisi altını olumsuz etkiliyor. Jeopolitik riskler (İran, Houthi, Ukrayna) güvenli liman talebini artırabilir, ancak bu etki dolar ve faiz beklentisinin gerisinde kalıyor.
 27.10 11:29 N  GPT  score -0.30 conf 0.58: Fed kararı öncesinde doların güçlenmesi ve altının ivme kaybederek 4.000 dolar civarında baskılanması kısa vadede aşağı yönlü. Husi tehditleri ve Rusya’nın yeni saldırı haberleri güvenli liman talebini destekleyebilir; bu nedenle düşüş beklentisi sınırlı.
@@ -175,6 +168,11 @@ Son işlemler:
 27.10 12:16 B1  SHORT gold 5000 USD x10 @ 4006.57 (TP 4004.02, SL 4008.02; news -0.40)
 27.10 12:16 B2  SHORT gold 5000 USD x10 @ 4006.56 (TP 4004.01, SL 4008.01; news -0.40)
 27.10 12:16 B5  SHORT gold 5000 USD x10 @ 4006.56 (TP 3994.54, SL 4014.57; news -0.35)
+27.10 13:02 B1  CLOSE short stop: -3.00 USD
+27.10 13:02 N  NEWS (15 new) score -0.35 conf 0.50: Dolar endeksi 102 üzerinde güçleniyor, FOMC öncesi dolar alımları ve "faiz artırımı" endişeleri altını baskılıyor; altın 4.000 doları yakın tutarken gümüş yıllık düşük seviyeleri kırdı. Jeopolitik (İran savaşı, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu etki dolar ve Fed beklentilerinin gerisinde kalıyor; "4.000 kırıldı" gibi haberlerin tarihi/kaynağı belirsiz olduğu için güven orta düzeyde.
+27.10 13:02 N  GPT  score -0.22 conf 0.56: FOMC öncesi dolar alımlarının geri dönmesi ve Fed görünümünün altını baskılaması kısa vadede hafif aşağı yönlü. Getirilerin yatay seyri ve altının 4.000 dolar üzerinde kalması ise düşüşü sınırlayabilir; haber akışı karışık ve karar öncesi temkinli olmak gerekir.
+27.10 13:02 B2  CLOSE short stop: -3.00 USD
+27.10 13:02 B4  LONG gold 5000 USD x10 @ 4014.42 (TP 4026.47, SL 4006.39; news +0.35)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
