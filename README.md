@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 23:05 (İstanbul)
+> Son güncelleme: 27.10.2026 23:42 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (27.10 23:05): Claude puan **+0.05**, güven 0.30 — Hormuz Boğazı'nda gemi saldırısı ve İran savaşının sürmesi altın için jeopolitik talep desteği sağlıyor. Ancak PCE enflasyonunun yükselmesi beklentisi ve Fed'in enflasyona odaklanma vurgusu sıkı para politikası beklentisini güçlendirip altın üzerinde baskı yaratabilir; bu karışık sinyaller nedeniyle etki sınırlı ve güven düşük.
+Son haber analizi (27.10 23:42): Claude puan **-0.20**, güven 0.40 — Jeopolitik gerilim (Hürmüz, Husiler-Suudi Arabistan saldırıları, Kore yarımadası) altın için güvenli liman talebi yaratıyor, ancak Fed'in şahin tonu (Lockhart'ın aralık ve 1Ç artırım beklentisi), beklenen yükselen PCE enflasyonu ve FOMC öncesi dolar hareketleri reel faiz beklentilerini yükselterek altın üzerinde baskı oluşturuyor. Petrol kaynaklı enflasyon ve şahin Fed, jeopolitik desteği kısmen dengeliyor; net etki hafif negatif ve yüksek belirsizlikli.
 
 Son işlemler:
 
@@ -92,7 +92,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %40.0 |
 | Ödenen komisyon/spread | 7.12 $ | 11.86 $ |
 
-**Hesap değeri: 4,993.60 $** (başlangıç 5,000 $, -6.40 $ / %-0.13)
+**Hesap değeri: 4,991.37 $** (başlangıç 5,000 $, -8.63 $ / %-0.17)
 
 Açık pozisyonlar: PAXGUSDT long @ 4066.15 (TP 4078.35 / SL 4058.02)
 
@@ -158,8 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 20:08 N  NEWS (24 new) score -0.10 conf 0.40: Fed'in faiz sabit tutması bekleniyor ve enflasyonun yüksek kalması, dolarda hafif güçlenme ve reel faiz baskısı yaratarak altı kısa vadede hafif olumsuz etkileyebilir. İran savaşı ve Hürmüz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlarının çok aylık zirvelerden uzaklaşması bu desteği sınırlıyor; ayrıca birçok başlık zaten fiyatlanmış haberler olduğu için güven düşük.
-27.10 20:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 27.10 20:08 B6  karar turu: Claude «Fed'in iki günlük toplantısı ve büyük teknoloji bilançoları öncesinde piyasa öğle saatlerinde yatay ve temkinli seyrediyor; beklemek en doğrusu.» / GPT «-»
 27.10 20:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 27.10 20:50 N  NEWS (30 new) score -0.05 conf 0.35: Fed'in beklenen bekleme (faiz artırmama) kararı büyük ölçüde fiyatlanmış, ancak enflasyon baskısı vurgusu ve hafifçe yükselen tahvil getirileri/dolar gold üzerinde sınırlı bir baskı yaratabilir. Orta Doğu'daki tırmanış (Husi saldırıları, İran savaşı) güvenli liman talebini destekliyor; bu iki etki birbirini dengelediği için net yön belirsiz ve etki küçük.
@@ -173,6 +171,8 @@ Son işlemler:
 27.10 22:24 N  NEWS (22 new) score -0.15 conf 0.30: 
 27.10 23:05 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 27.10 23:05 N  NEWS (22 new) score +0.05 conf 0.30: Hormuz Boğazı'nda gemi saldırısı ve İran savaşının sürmesi altın için jeopolitik talep desteği sağlıyor. Ancak PCE enflasyonunun yükselmesi beklentisi ve Fed'in enflasyona odaklanma vurgusu sıkı para politikası beklentisini güçlendirip altın üzerinde baskı yaratabilir; bu karışık sinyaller nedeniyle etki sınırlı ve güven düşük.
+27.10 23:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+27.10 23:42 N  NEWS (23 new) score -0.20 conf 0.40: Jeopolitik gerilim (Hürmüz, Husiler-Suudi Arabistan saldırıları, Kore yarımadası) altın için güvenli liman talebi yaratıyor, ancak Fed'in şahin tonu (Lockhart'ın aralık ve 1Ç artırım beklentisi), beklenen yükselen PCE enflasyonu ve FOMC öncesi dolar hareketleri reel faiz beklentilerini yükselterek altın üzerinde baskı oluşturuyor. Petrol kaynaklı enflasyon ve şahin Fed, jeopolitik desteği kısmen dengeliyor; net etki hafif negatif ve yüksek belirsizlikli.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
