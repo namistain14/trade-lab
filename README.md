@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 00:58 (İstanbul)
+> Son güncelleme: 28.10.2026 01:37 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (28.10 00:58): Claude puan **+0.05**, güven 0.30 — Fed kararı öncesinde altın 4.050 doları aşarak yükseldi, ancak Fed'in sonucu henüz bilinmiyor ve PCE beklentisi enflasyonun yükseldiğine işaret ediyor; bu da sert bir faiz beklentisi riskini artırıyor. İran savaşı ve jeopolitik gerginlik güvenli liman talebini destekleyebilir, fakat bu haberler büyük ölçüde fiyatlanmış durumda ve risk iştahı (borsa yükselişi) altını sınırlıyor; net etki hafif pozitif ama belirsiz.
+Son haber analizi (28.10 01:37): Claude puan **-0.10**, güven 0.35 — Haberler karışık: İran savaşının yeniden başlamasının kaçınılmaz görünmesi ve Fed'in aralık ayında faiz artırabileceğine dair beklentiler jeopolitik ve faiz kanalından farklı yönlere işaret ediyor. Fed kararı öncesi dolar güçlü, Commerzbank reel faiz düşüşüne rağmen altın üzerinde baskı görüyor ve State Street aşağı yönlü riskleri öne çıkarıyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 
 Son işlemler:
 
@@ -87,24 +87,22 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -5.93 $ |
-| İşlem sayısı | 0 | 5 |
-| Kazanma oranı | %0.0 | %40.0 |
-| Ödenen komisyon/spread | 0.00 $ | 11.86 $ |
+| Net kâr/zarar | -1.90 $ | -7.83 $ |
+| İşlem sayısı | 1 | 6 |
+| Kazanma oranı | %0.0 | %33.3 |
+| Ödenen komisyon/spread | 2.37 $ | 14.23 $ |
 
-**Hesap değeri: 4,994.47 $** (başlangıç 5,000 $, -5.53 $ / %-0.11)
-
-Açık pozisyonlar: PAXGUSDT long @ 4066.15 (TP 4078.35 / SL 4058.02)
+**Hesap değeri: 4,992.17 $** (başlangıç 5,000 $, -7.83 $ / %-0.16)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 28.10 01:16 | PAXGUSDT | long | -1.90 $ | time limit |
 | 27.10 17:05 | PAXGUSDT | long | +13.81 $ | take profit |
 | 27.10 15:33 | PAXGUSDT | long | +13.81 $ | take profit |
 | 27.10 13:18 | PAXGUSDT | long | -11.18 $ | stop |
 | 26.10 16:25 | PAXGUSDT | long | -11.18 $ | stop |
-| 23.10 17:08 | PAXGUSDT | long | -11.18 $ | stop |
 
 ## Bot B3 — Altın: B2 + seans filtresi + momentum (net +2$ / -3$, hızlı kapanış)
 
@@ -158,9 +156,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 20:50 B6  karar turu: Claude «Piyasa güçlü tüketici güveni ve çip rallisiyle pozitif ancak öğleden sonra yatay konsolidasyonda; net bir avantaj olmadığından işlem açılmıyor.» / GPT «-»
-27.10 21:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-27.10 21:30 N  NEWS (24 new) score -0.15 conf 0.35: Fed'in bu toplantıda faiz sabitlemesi bekleniyor, ancak Aralık'ta artırım ihtimali ve inatçı enflasyon konuşulması şahin bir tonu işaret ediyor; bu, altın için kısa vadede baskı yaratır. Orta Doğu'daki çatışmalar ve Husi saldırıları güvenli liman talebini destekliyor, fakat petrol gerilemesi ve ABD doları üzerindeki aşağı yönlü riskler bu desteği sınırlıyor. Warsh'ın basın toplantısının sonucu bilinmediği için güven düşük tutuldu.
 27.10 21:30 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 27.10 21:30 B6  karar turu: Claude «Piyasa güçlü tüketici güveni ve çip rallisiyle pozitif seyrediyor, ancak son bir saatte yatay-hafif negatif konsolidasyonda ve yeni bir pozisyon için net bir avantaj bulunmuyor.» / GPT «-»
 27.10 22:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -173,6 +168,9 @@ Son işlemler:
 28.10 00:18 N  NEWS (18 new) score -0.10 conf 0.30: İran savaşı ve Hürmüz'de gemi saldırıları jeopolitik risk yaratıp altı destekliyor; ancak Fed'in faiz kararı öncesi şahin beklentiler, beklenen yükselen PCE enflasyonu ve dolar/tahvil tarafındaki baskı altın üzerinde ters yönde etki yaratıyor. Haberlerin çoğu zaten fiyatlanmış veya birbiriyle çelişkili olduğundan net etki hafif negatif, düşük güvenle değerlendirildi.
 28.10 00:58 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 00:58 N  NEWS (15 new) score +0.05 conf 0.30: Fed kararı öncesinde altın 4.050 doları aşarak yükseldi, ancak Fed'in sonucu henüz bilinmiyor ve PCE beklentisi enflasyonun yükseldiğine işaret ediyor; bu da sert bir faiz beklentisi riskini artırıyor. İran savaşı ve jeopolitik gerginlik güvenli liman talebini destekleyebilir, fakat bu haberler büyük ölçüde fiyatlanmış durumda ve risk iştahı (borsa yükselişi) altını sınırlıyor; net etki hafif pozitif ama belirsiz.
+28.10 01:37 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 01:37 N  NEWS (22 new) score -0.10 conf 0.35: Haberler karışık: İran savaşının yeniden başlamasının kaçınılmaz görünmesi ve Fed'in aralık ayında faiz artırabileceğine dair beklentiler jeopolitik ve faiz kanalından farklı yönlere işaret ediyor. Fed kararı öncesi dolar güçlü, Commerzbank reel faiz düşüşüne rağmen altın üzerinde baskı görüyor ve State Street aşağı yönlü riskleri öne çıkarıyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
+28.10 01:37 B4  CLOSE long time limit: -1.90 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
