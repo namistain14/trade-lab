@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 21:30 (İstanbul)
+> Son güncelleme: 27.10.2026 22:24 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (27.10 21:30): Claude puan **-0.15**, güven 0.35 — Fed'in bu toplantıda faiz sabitlemesi bekleniyor, ancak Aralık'ta artırım ihtimali ve inatçı enflasyon konuşulması şahin bir tonu işaret ediyor; bu, altın için kısa vadede baskı yaratır. Orta Doğu'daki çatışmalar ve Husi saldırıları güvenli liman talebini destekliyor, fakat petrol gerilemesi ve ABD doları üzerindeki aşağı yönlü riskler bu desteği sınırlıyor. Warsh'ın basın toplantısının sonucu bilinmediği için güven düşük tutuldu.
+Son haber analizi (27.10 22:24): Claude puan **-0.15**, güven 0.30 — Fed'in bu toplantıda faiz sabitlemesi bekleniyor, ancak Aralık'ta artırım ihtimali ve inatçı enflasyon konuşulması şahin bir tonu işaret ediyor; bu, altın için kısa vadede baskı yaratır. Orta Doğu'daki çatışmalar ve Husi saldırıları güvenli liman talebini destekliyor, fakat petrol gerilemesi ve ABD doları üzerindeki aşağı yönlü riskler bu desteği sınırlıyor. Warsh'ın basın toplantısının sonucu bilinmediği için güven düşük tutuldu.
 
 Son işlemler:
 
@@ -92,7 +92,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %40.0 |
 | Ödenen komisyon/spread | 7.12 $ | 11.86 $ |
 
-**Hesap değeri: 4,986.80 $** (başlangıç 5,000 $, -13.20 $ / %-0.26)
+**Hesap değeri: 4,995.04 $** (başlangıç 5,000 $, -4.96 $ / %-0.10)
 
 Açık pozisyonlar: PAXGUSDT long @ 4066.15 (TP 4078.35 / SL 4058.02)
 
@@ -158,8 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 19:14 B4  LONG gold 5000 USD x10 @ 4066.15 (TP 4078.35, SL 4058.02; news +0.30)
-27.10 19:14 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 27.10 19:14 B6  karar turu: Claude «Piyasa büyüme hisselerinin öncülüğünde ılımlı pozitif seyrediyor, ancak Fed toplantısı ve MSFT bilançosu öncesi temkinli beklemek en mantıklısı.» / GPT «-»
 27.10 20:08 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 27.10 20:08 N  NEWS (24 new) score -0.10 conf 0.40: Fed'in faiz sabit tutması bekleniyor ve enflasyonun yüksek kalması, dolarda hafif güçlenme ve reel faiz baskısı yaratarak altı kısa vadede hafif olumsuz etkileyebilir. İran savaşı ve Hürmüz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlarının çok aylık zirvelerden uzaklaşması bu desteği sınırlıyor; ayrıca birçok başlık zaten fiyatlanmış haberler olduğu için güven düşük.
@@ -173,6 +171,8 @@ Son işlemler:
 27.10 21:30 N  NEWS (24 new) score -0.15 conf 0.35: Fed'in bu toplantıda faiz sabitlemesi bekleniyor, ancak Aralık'ta artırım ihtimali ve inatçı enflasyon konuşulması şahin bir tonu işaret ediyor; bu, altın için kısa vadede baskı yaratır. Orta Doğu'daki çatışmalar ve Husi saldırıları güvenli liman talebini destekliyor, fakat petrol gerilemesi ve ABD doları üzerindeki aşağı yönlü riskler bu desteği sınırlıyor. Warsh'ın basın toplantısının sonucu bilinmediği için güven düşük tutuldu.
 27.10 21:30 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 27.10 21:30 B6  karar turu: Claude «Piyasa güçlü tüketici güveni ve çip rallisiyle pozitif seyrediyor, ancak son bir saatte yatay-hafif negatif konsolidasyonda ve yeni bir pozisyon için net bir avantaj bulunmuyor.» / GPT «-»
+27.10 22:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+27.10 22:24 N  NEWS (22 new) score -0.15 conf 0.30: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
