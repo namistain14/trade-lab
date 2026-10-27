@@ -1606,6 +1606,10 @@
    [
     1793076926,
     4995.0
+   ],
+   [
+    1793079074,
+    4995.0
    ]
   ]
  },
@@ -3912,28 +3916,32 @@
    [
     1793076926,
     4914.96
+   ],
+   [
+    1793079074,
+    4914.96
    ]
   ],
   "news": {
    "score": -0.1,
-   "confidence": 0.35,
-   "reason": "Alt\u0131n yakla\u015f\u0131k 4.000 dolar civar\u0131nda yatay seyrediyor; g\u00fc\u00e7lenen dolar ve FOMC karar\u0131 \u00f6ncesi temkinli bekleyi\u015f k\u0131sa vadede hafif bask\u0131 yarat\u0131yor. Ayr\u0131ca Warsh'un olas\u0131 faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 faiz beklentilerini sertle\u015ftirdi\u011fi i\u00e7in alt\u0131n \u00fczerinde negatif etki yapabilir. Buna kar\u015f\u0131l\u0131k \u0130ran'la tam sava\u015f riski ve Ukrayna/Orta Do\u011fu gerilimleri g\u00fcvenli liman talebini destekliyor; bu iki z\u0131t etki birbirini b\u00fcy\u00fck \u00f6l\u00e7\u00fcde dengeliyor, bu y\u00fczden skor s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "confidence": 0.4,
+   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran'daki sava\u015f riskleri ve f\u00fcze sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor, ancak dolar\u0131n g\u00fc\u00e7lenmesi, FOMC toplant\u0131s\u0131 \u00f6ncesi bekleyi\u015f ve Fed'in s\u0131k\u0131la\u015ft\u0131rma ihtimali (Moore'un yorumu) alt\u0131na bask\u0131 yap\u0131yor. Net etki hafif negatif, sinyaller birbirini b\u00fcy\u00fck \u00f6l\u00e7\u00fcde g\u00f6t\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793076923850,
-   "new_headlines": 17,
+   "ts": 1793079072108,
+   "new_headlines": 23,
    "key_events": [
     "Fed karar\u0131 \u00f6ncesi dolar g\u00fc\u00e7leniyor, alt\u0131n geri \u00e7ekiliyor",
     "DXY ~102 civar\u0131nda, FOMC odakl\u0131 pozitif e\u011filim",
     "\u0130ran ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 s\u00fcr\u00fcyor; s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi"
    ],
    "gpt": {
-    "score": -0.12,
-    "confidence": 0.38,
-    "reason": "Fed karar\u0131 \u00f6ncesinde dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve olas\u0131 ek faiz art\u0131\u015f\u0131 s\u00f6ylemi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran ve Ukrayna kaynakl\u0131 riskler ile alt\u0131n\u0131n 4.000 dolar \u00fczerinde tutunmas\u0131 bu bask\u0131y\u0131 k\u0131smen dengeliyor.",
+    "score": -0.15,
+    "confidence": 0.42,
+    "reason": "Fed karar\u0131 \u00f6ncesinde dolar\u0131n g\u00fc\u00e7lenmesi ve alt\u0131n\u0131n dolara ba\u011fl\u0131 olarak gev\u015fedi\u011fine dair haberler k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de haberlerin \u00e7o\u011fu yeni ve do\u011frulanm\u0131\u015f bir t\u0131rman\u0131\u015f g\u00f6stermiyor; etki bu nedenle s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
     "key_events": [
-     "Fed \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve faiz belirsizli\u011fi",
-     "ABD-\u0130ran geriliminin t\u0131rmanma riski",
-     "Alt\u0131n 4.000 dolar \u00fczerinde; fiyat sinyalleri kar\u0131\u015f\u0131k"
+     "Fed karar\u0131 \u00f6ncesinde dolar g\u00fc\u00e7leniyor",
+     "\u0130ran ve Ukrayna gerilimleri g\u00fcvenli liman talebini destekliyor",
+     "Alt\u0131n 4.000 dolar civar\u0131nda; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili"
     ],
     "model": "gpt-6-luna"
    }
@@ -6307,63 +6315,70 @@
     "new": 17,
     "gpt_score": -0.12,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1793079072108,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran'daki sava\u015f riskleri ve f\u00fcze sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor, ancak dolar\u0131n g\u00fc\u00e7lenmesi, FOMC toplant\u0131s\u0131 \u00f6ncesi bekleyi\u015f ve Fed'in s\u0131k\u0131la\u015ft\u0131rma ihtimali (Moore'un yorumu) alt\u0131na bask\u0131 yap\u0131yor. Net etki hafif negatif, sinyaller birbirini b\u00fcy\u00fck \u00f6l\u00e7\u00fcde g\u00f6t\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 23,
+    "gpt_score": -0.15,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-10-27",
-   "n": 13
+   "n": 14
   },
   "news_seen": [
+   "Swiss Franc edges lower as US Dollar gains offset lower yield impact - FXStreet",
+   "Gold Price Increases by 800 Rupees Per Tola in Nepali Market - Ratopati",
+   "Trump says Canada trade war will end \u2018pretty soon,\u2019 but tariff changes keep exporters guessing - Insurance Business",
+   "\u25b6\ufe0f Laplad War - IMDb",
+   "Gold and silver prices decline on commodity markets - Apa.az",
+   "Gold price today (October 27): World gold prices return to the $4,000/ounce mark. - Vietnam.vn",
+   "BREAKING: The peso breached the 64-per-dollar level for the first time during morning trading on Tuesday, just 12 days after it first crossed 63. The peso weakened to as much as 64 against the dollar, from Monday\u2019s record-low close of 63.95, according to Ba - Facebook",
+   "Gold Rate Today, October 27: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
+   "Voters look to Congress for relief from high prices it has little power to control - KTXS",
+   "Jay-Z to perform at Super Bowl half-time show",
+   "Three Russian diesel tankers steam for US \u2014 including one under sanctions - Financial Times",
+   "Middle East latest: Saudi Arabia intercepts missiles and drones after Tehran meeting - The National",
+   "Trump: Iran Was Two Weeks From A Nuclear Missile - Kurdistan24",
+   "Russian help would make North Korea\u2019s missile-test flurry worse news - The Strategist | ASPI's analysis and commentary site",
+   "Rupee falls 7 paise to 95.22 against US dollar in early trade - Deccan Herald",
+   "Iran holds ground as war fears mount - chinadailyhk",
    "Gold prices rise after holding steady for 3 days - VnExpress International",
+   "Meghan to co-host Junior MasterChef Australia",
+   "Why Silver Is Falling Three Times Faster Than Gold, And What It Means For Dhanteras Buyers - NDTV Profit",
    "Stephen Moore Warns Kevin Warsh May Need Another Rate Hike to Crush Inflation Despite Trump's Push for Lo - Benzinga",
    "Israel\u2019s war on journalists is a war on truth itself, UN expert tells General Assembly - YubaNet",
+   "How popular is the Iran War? - Silver Bulletin",
    "Gold price in India: Rates on October 27 - FXStreet",
    "Gold prices dip Rs 500/10 grams; silver falls Rs 2,400/kg as traders eye US Fed meet this week. What shoul - The Economic Times",
    "Gold holds above $4,000 as USD bulls await FOMC decision - FXStreet",
-   "Market News Today Australia: Nasdaq Rises on Anthropic IPO, Gold Tops $4,000 - Mitrade",
+   "Combo interceptors best bet for US drone and missile defense - Asia Times",
    "Vantage Point: Resolving the Civil War in Ethiopia \u2014 Special Edition - Institute of the Black World 21st Century",
    "Rhule: Nebraska Football \"Better Be Ready for War\" Against Washington - Hurrdat Sports",
-   "5 things to watch from the Federal Reserve's next meeting - CT Insider",
    "Gold eases on firmer dollar ahead of Fed decision - CNBC",
    "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War - The New York Times",
    "How Trump\u2019s \u2018little detour\u2019 to Iran became a roadblock in the midterm elections - AP News",
    "Voters in Israel will decide whether to oust Netanyahu after 3 years of war - News4JAX",
    "Bill Press: Trump\u2019s one-man war against Washington - Daily Freeman",
    "Long-awaited World War II and Korean War Memorial dedicated in Franklin - The Derrick",
+   "Wapakoneta Roots, Worldwide Stories: Newland Returns With \u2018Whitey\u2019s War\u2019 - Wapakoneta Daily News",
    "Gold eases on firmer dollar ahead of Fed decision - The Edge Malaysia",
+   "Greenlight Re Must Show Its Middle East War Losses Have Stopped Growing - Finviz",
    "5 things to watch from the Federal Reserve\u2019s next meeting - WTOP News",
    "The case against de-risking amid heightened geopolitical threats - Top1000funds.com",
+   "5 things to watch from the Federal Reserve's next meeting - morning-times.com",
    "XAUUSD|Gold|Price:4018.370|Chg%:+1.790 - TradingKey",
    "Rupee opens flat at 95.19 against the dollar as traders eye crude oil, Fed decision - TradingView",
    "Ukraine war briefing: Russia strikes Kyiv hours before truce begins in war-ravaged city Oleshky - The Guardian",
-   "State of Risk Webinar: Geopolitical Shocks Becoming \u2018More Durable\u2019 - Institute for Supply Management (ISM)",
-   "Gold prices fall after 6 months, buyers lose up to 31.8 million VND/tael - Laodong.vn",
-   "Taiwan rebuffs China's commemorations for post-World War Two 'restoration' of island - Reuters",
-   "Gold price stuck around 4,000 USD, Heraeus warns of new pressure - Laodong.vn",
-   "Community walk at War Memorial Park to raise awareness for epilepsy this Saturday - KATV",
-   "Asian currencies mixed as dollar holds firm, yen retreats ahead of Fed decision - Investing.com",
-   "Expert with 48 years of experience admits mistake, withdraws forecast of gold price at $6,000/ounce. - Vietnam.vn",
-   "Gold, silver prices today, 27 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai - Livemint",
-   "Can a Day of Political War Be a Day of Sacred Prayer? - Jewish Journal",
-   "Gold Price Forecast: XAU/USD trades with caution as Fed\u2019s policy takes centre stage - FXStreet",
-   "Antam gold prices rise by IDR 10,000 per gram on Tuesday (27/10) - IDNFinancials",
-   "Dhanteras 2026: From Jewellery To ETFs, Ways To Invest In Gold And Silver - NDTV Profit",
-   "Has Oil Replaced Gold As 2026\u2019s Most Compelling Safe Haven Trade? - FXEmpire",
-   "U.S. dollar ticks up - \u5df4\u58eb\u7684\u5831",
-   "Jay-Z to perform at Super Bowl half-time show",
-   "Gold prices plummet by 25%, investors still silently accumulate billions of USD - Laodong.vn",
-   "Myanmar refugee in Denmark demands justice over junta war crimes - South China Morning Post",
-   "Tylenol Maker Accuses Plaintiffs' Lawyer of Using Sanctions Appeal to Reassign MDL - Law.com",
-   "Why candy prices are rising faster than overall inflation - Pique Newsmagazine",
-   "'Holy War' gets kickoff time for highly anticipated matchup between No. 6 Utah, No. 8 BYU - KUTV",
-   "Gold Price Crashed 25%, But Investors are Still Buying - CryptoRank",
-   "Gold price today, October 27: Mixed fluctuations - Laodong.vn",
-   "Iran\u2019s Houthi allies may have new enemy: Egypt - NewsNation"
+   "R-Rated War Thriller Starring Scott Eastwood is the No. 1 Movie on Hulu - Men's Journal",
+   "State of Risk Webinar: Geopolitical Shocks Becoming \u2018More Durable\u2019 - Institute for Supply Management (ISM)"
   ]
  },
  "log": [
-  "24.10 03:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 03:23 N  NEWS (7 new) score -0.40 conf 0.55: Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon kayg\u0131lar\u0131n\u0131 art\u0131r\u0131yor ve yakla\u015fan Fed toplant\u0131s\u0131 \u00f6ncesinde faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor; alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dibe geriledi. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratabilir, ancak bu etki enflasyon/faiz kanal\u0131n\u0131n gerisinde kal\u0131yor.",
   "24.10 03:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 03:35 N  NEWS (6 new) score -0.30 conf 0.50: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde sert duru\u015f beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Iran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratsa da piyasada \u015fu an bu etki fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor; bu y\u00fczden orta d\u00fczeyde negatif bir g\u00f6r\u00fcn\u00fcm, g\u00fcven de s\u0131n\u0131rl\u0131.",
   "24.10 03:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -6661,7 +6676,9 @@
   "27.10 07:15 N  NEWS (25 new) score -0.15 conf 0.35: Yeni haberlerde alt\u0131n, Fed karar\u0131 \u00f6ncesinde g\u00fc\u00e7lenen dolar nedeniyle bask\u0131lan\u0131yor; DXY 102 civar\u0131nda pozitif e\u011filimde. Iran ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, ancak \"alt\u0131n %25 d\u00fc\u015ft\u00fc\" gibi ba\u015fl\u0131klar eski veya yan\u0131lt\u0131c\u0131 oldu\u011fundan dikkate al\u0131nmad\u0131. Fed'in tutumu belirsiz oldu\u011fu i\u00e7in sinyal zay\u0131f.",
   "27.10 07:15 N  GPT  score -0.15 conf 0.43: Fed karar\u0131 \u00f6ncesi dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; Fed belirsizli\u011fi de y\u00f6n\u00fc s\u0131n\u0131rl\u0131yor. Kyiv\u2019ye y\u00f6nelik sald\u0131r\u0131 g\u00fcvenli liman talebini desteklese de kar\u015f\u0131t haber ak\u0131\u015f\u0131 nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif ve temkinli.",
   "27.10 07:55 N  NEWS (17 new) score -0.10 conf 0.35: Alt\u0131n yakla\u015f\u0131k 4.000 dolar civar\u0131nda yatay seyrediyor; g\u00fc\u00e7lenen dolar ve FOMC karar\u0131 \u00f6ncesi temkinli bekleyi\u015f k\u0131sa vadede hafif bask\u0131 yarat\u0131yor. Ayr\u0131ca Warsh'un olas\u0131 faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 faiz beklentilerini sertle\u015ftirdi\u011fi i\u00e7in alt\u0131n \u00fczerinde negatif etki yapabilir. Buna kar\u015f\u0131l\u0131k \u0130ran'la tam sava\u015f riski ve Ukrayna/Orta Do\u011fu gerilimleri g\u00fcvenli liman talebini destekliyor; bu iki z\u0131t etki birbirini b\u00fcy\u00fck \u00f6l\u00e7\u00fcde dengeliyor, bu y\u00fczden skor s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "27.10 07:55 N  GPT  score -0.12 conf 0.38: Fed karar\u0131 \u00f6ncesinde dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve olas\u0131 ek faiz art\u0131\u015f\u0131 s\u00f6ylemi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran ve Ukrayna kaynakl\u0131 riskler ile alt\u0131n\u0131n 4.000 dolar \u00fczerinde tutunmas\u0131 bu bask\u0131y\u0131 k\u0131smen dengeliyor."
+  "27.10 07:55 N  GPT  score -0.12 conf 0.38: Fed karar\u0131 \u00f6ncesinde dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve olas\u0131 ek faiz art\u0131\u015f\u0131 s\u00f6ylemi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran ve Ukrayna kaynakl\u0131 riskler ile alt\u0131n\u0131n 4.000 dolar \u00fczerinde tutunmas\u0131 bu bask\u0131y\u0131 k\u0131smen dengeliyor.",
+  "27.10 08:31 N  NEWS (23 new) score -0.10 conf 0.40: Haberler kar\u0131\u015f\u0131k: \u0130ran'daki sava\u015f riskleri ve f\u00fcze sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor, ancak dolar\u0131n g\u00fc\u00e7lenmesi, FOMC toplant\u0131s\u0131 \u00f6ncesi bekleyi\u015f ve Fed'in s\u0131k\u0131la\u015ft\u0131rma ihtimali (Moore'un yorumu) alt\u0131na bask\u0131 yap\u0131yor. Net etki hafif negatif, sinyaller birbirini b\u00fcy\u00fck \u00f6l\u00e7\u00fcde g\u00f6t\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "27.10 08:31 N  GPT  score -0.15 conf 0.42: Fed karar\u0131 \u00f6ncesinde dolar\u0131n g\u00fc\u00e7lenmesi ve alt\u0131n\u0131n dolara ba\u011fl\u0131 olarak gev\u015fedi\u011fine dair haberler k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de haberlerin \u00e7o\u011fu yeni ve do\u011frulanm\u0131\u015f bir t\u0131rman\u0131\u015f g\u00f6stermiyor; etki bu nedenle s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k."
  ],
  "gold_big": {
   "account": {
@@ -8216,6 +8233,10 @@
    [
     1793076926,
     4964.78
+   ],
+   [
+    1793079074,
+    4964.78
    ]
   ],
   "news_calls": {
@@ -9719,6 +9740,10 @@
    [
     1793076926,
     4973.18
+   ],
+   [
+    1793079074,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11169,6 +11194,10 @@
    [
     1793076926,
     5005.69
+   ],
+   [
+    1793079074,
+    5005.69
    ]
   ]
  },
@@ -12349,6 +12378,10 @@
    [
     1793076926,
     4977.63
+   ],
+   [
+    1793079074,
+    4977.63
    ]
   ],
   "news_calls": {
@@ -13465,6 +13498,10 @@
    [
     1793076926,
     5021.88
+   ],
+   [
+    1793079074,
+    5021.88
    ]
   ],
   "news_calls": {
@@ -14450,6 +14487,10 @@
    ],
    [
     1793076926,
+    99843.64
+   ],
+   [
+    1793079074,
     99843.64
    ]
   ],
