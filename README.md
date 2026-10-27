@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 15:02 (İstanbul)
+> Son güncelleme: 27.10.2026 15:47 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (27.10 15:02): Claude puan **-0.50**, güven 0.60 — Altın, güçlenen dolar ve Fed'in sıkılaşma sinyali verebileceği beklentisi nedeniyle 4.000 dolar civarında baskı altında; gümüşün Temmuz dibini kırması da düşüş momentumunu destekliyor. İran'daki savaş ve Hürmüz gerilimi jeopolitik destek sağlasa da, piyasa etkisi şimdiye kadar sınırlı kaldı.
+Son haber analizi (27.10 15:47): Claude puan **-0.40**, güven 0.55 — Fed'in bu hafta faiz sabit tutup Aralık'ta artırım ihtimalini canlı tutması (Warsh) ve doların Fed kararı öncesi güçlenmesi altın için baskılayıcı. Jeopolitik başlıklar (Husi saldırısı, Ukrayna) güvenli liman talebi yaratmadığı gibi, altın fiyatı 4.000 doların altında ve "güvenli limanlar başarısız oldu" anlatısı hakim.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.56 — Fed öncesinde güçlenen dolar ve altındaki mevcut satış baskısı kısa vadede aşağı yönlü; Fed’in bu hafta faizi sabit tutmasının beklenmesi ise etkiyi sınırlıyor. İran’daki savaş görüşmeleri ve Kyiv’e saldırı güvenli liman talebini destekleyebilir, ancak haber akışı çelişkili.
+GPT (gpt-6-luna): puan **-0.32**, güven 0.57 — Fed kararında faizlerin sabit tutulması beklenirken daha fazla artış ihtimalinin gündemde kalması ve doların karar öncesi güçlenmesi altın için kısa vadede baskı yaratıyor. Husilerin Suudi Arabistan’daki petrol tesisine saldırı iddiası güvenli liman talebini destekleyebilir; ancak doğrulanmamış ve U
 
 Son işlemler:
 
@@ -89,19 +89,20 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -11.18 $ | -33.55 $ |
-| İşlem sayısı | 1 | 3 |
-| Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 2.37 $ | 7.12 $ |
+| Net kâr/zarar | +2.63 $ | -19.74 $ |
+| İşlem sayısı | 2 | 4 |
+| Kazanma oranı | %50.0 | %25.0 |
+| Ödenen komisyon/spread | 4.75 $ | 9.49 $ |
 
-**Hesap değeri: 4,966.83 $** (başlangıç 5,000 $, -33.17 $ / %-0.66)
+**Hesap değeri: 4,979.07 $** (başlangıç 5,000 $, -20.93 $ / %-0.42)
 
-Açık pozisyonlar: PAXGUSDT long @ 4021.99 (TP 4034.06 / SL 4013.95)
+Açık pozisyonlar: PAXGUSDT long @ 4031.69 (TP 4043.78 / SL 4023.62)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 27.10 15:33 | PAXGUSDT | long | +13.81 $ | take profit |
 | 27.10 13:18 | PAXGUSDT | long | -11.18 $ | stop |
 | 26.10 16:25 | PAXGUSDT | long | -11.18 $ | stop |
 | 23.10 17:08 | PAXGUSDT | long | -11.18 $ | stop |
@@ -158,11 +159,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 12:16 B5  SHORT gold 5000 USD x10 @ 4006.56 (TP 3994.54, SL 4014.57; news -0.35)
-27.10 13:02 B1  CLOSE short stop: -3.00 USD
-27.10 13:02 N  NEWS (15 new) score -0.35 conf 0.50: Dolar endeksi 102 üzerinde güçleniyor, FOMC öncesi dolar alımları ve "faiz artırımı" endişeleri altını baskılıyor; altın 4.000 doları yakın tutarken gümüş yıllık düşük seviyeleri kırdı. Jeopolitik (İran savaşı, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu etki dolar ve Fed beklentilerinin gerisinde kalıyor; "4.000 kırıldı" gibi haberlerin tarihi/kaynağı belirsiz olduğu için güven orta düzeyde.
-27.10 13:02 N  GPT  score -0.22 conf 0.56: FOMC öncesi dolar alımlarının geri dönmesi ve Fed görünümünün altını baskılaması kısa vadede hafif aşağı yönlü. Getirilerin yatay seyri ve altının 4.000 dolar üzerinde kalması ise düşüşü sınırlayabilir; haber akışı karışık ve karar öncesi temkinli olmak gerekir.
-27.10 13:02 B2  CLOSE short stop: -3.00 USD
 27.10 13:02 B4  LONG gold 5000 USD x10 @ 4014.42 (TP 4026.47, SL 4006.39; news +0.35)
 27.10 13:42 N  NEWS (29 new) score -0.20 conf 0.40: Fed kararı öncesinde dolar güçleniyor ve altın 4.000 dolar desteğini test ediyor; bu, kısa vadede altın için baskı yaratıyor. İran savaşı ve petrolün nisan zirvelerine yakın seyretmesi enflasyon kaynaklı sıkı para politikası beklentisini güçlendirip altını olumsuz etkileyebilir, ancak jeopolitik güvenli liman talebi bunu kısmen dengeliyor. Fed'in sonucunun belirsiz olması ve haberlerin çoğunun eski ya da fiyatlanmış olması nedeniyle güven düşük tutuldu.
 27.10 13:42 N  GPT  score -0.25 conf 0.42: Fed kararı öncesinde doların güçlenmesi ve altının önemli desteği sınaması kısa vadede aşağı yönlü baskı yaratıyor. İran ve Yemen kaynaklı riskler güvenli liman talebini desteklese de belirgin yeni bir tırmanış yok; haber akışı bu nedenle karışık.
@@ -173,6 +169,11 @@ Son işlemler:
 27.10 14:22 B4  LONG gold 5000 USD x10 @ 4021.99 (TP 4034.06, SL 4013.95; news +0.40)
 27.10 15:02 N  NEWS (28 new) score -0.50 conf 0.60: Altın, güçlenen dolar ve Fed'in sıkılaşma sinyali verebileceği beklentisi nedeniyle 4.000 dolar civarında baskı altında; gümüşün Temmuz dibini kırması da düşüş momentumunu destekliyor. İran'daki savaş ve Hürmüz gerilimi jeopolitik destek sağlasa da, piyasa etkisi şimdiye kadar sınırlı kaldı.
 27.10 15:02 N  GPT  score -0.30 conf 0.56: Fed öncesinde güçlenen dolar ve altındaki mevcut satış baskısı kısa vadede aşağı yönlü; Fed’in bu hafta faizi sabit tutmasının beklenmesi ise etkiyi sınırlıyor. İran’daki savaş görüşmeleri ve Kyiv’e saldırı güvenli liman talebini destekleyebilir, ancak haber akışı çelişkili.
+27.10 15:47 N  NEWS (35 new) score -0.40 conf 0.55: Fed'in bu hafta faiz sabit tutup Aralık'ta artırım ihtimalini canlı tutması (Warsh) ve doların Fed kararı öncesi güçlenmesi altın için baskılayıcı. Jeopolitik başlıklar (Husi saldırısı, Ukrayna) güvenli liman talebi yaratmadığı gibi, altın fiyatı 4.000 doların altında ve "güvenli limanlar başarısız oldu" anlatısı hakim.
+27.10 15:47 N  GPT  score -0.32 conf 0.57: Fed kararında faizlerin sabit tutulması beklenirken daha fazla artış ihtimalinin gündemde kalması ve doların karar öncesi güçlenmesi altın için kısa vadede baskı yaratıyor. Husilerin Suudi Arabistan’daki petrol tesisine saldırı iddiası güvenli liman talebini destekleyebilir; ancak doğrulanmamış ve U
+27.10 15:47 B4  CLOSE long take profit: +13.81 USD
+27.10 15:47 B4  LONG gold 5000 USD x10 @ 4031.69 (TP 4043.78, SL 4023.62; news +0.40)
+27.10 15:47 B6  seans öncesi görüş: Fed toplantısı öncesi piyasa açılışta güçlü ama hareketlerin çoğu zaten fiyatlanmış; yeni pozisyon için net bir avantaj görünmüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
