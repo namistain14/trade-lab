@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 14:22 (İstanbul)
+> Son güncelleme: 27.10.2026 15:02 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (27.10 14:22): Claude puan **-0.40**, güven 0.60 — Altın 4.000 doların altına yakın seyrediyor; Fed'in faiz sabit tutması beklenirken Warsh'un daha fazla faiz artırımına işaret edebileceği ve doların Fed kararı öncesi güçlenmesi altın üzerinde baskı yaratıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir, ancak kısa vadede hawkish Fed beklentisi ve güçlü dolar baskın etken görünüyor; Fed kararının sürpriz olma ihtimali nedeniyle güven orta düzeyde tutuldu.
+Son haber analizi (27.10 15:02): Claude puan **-0.50**, güven 0.60 — Altın, güçlenen dolar ve Fed'in sıkılaşma sinyali verebileceği beklentisi nedeniyle 4.000 dolar civarında baskı altında; gümüşün Temmuz dibini kırması da düşüş momentumunu destekliyor. İran'daki savaş ve Hürmüz gerilimi jeopolitik destek sağlasa da, piyasa etkisi şimdiye kadar sınırlı kaldı.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.62 — Fed kararına yaklaşırken doların güçlenmesi, yüksek tahvil getirileri ve altının 4.000 doların altına gerilemesi kısa vadede baskın görünüyor. İran çevresindeki savaş riski güvenli liman talebini destekleyebilir; Fed belirsizliği yön tahmininin güvenini sınırlıyor.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.56 — Fed öncesinde güçlenen dolar ve altındaki mevcut satış baskısı kısa vadede aşağı yönlü; Fed’in bu hafta faizi sabit tutmasının beklenmesi ise etkiyi sınırlıyor. İran’daki savaş görüşmeleri ve Kyiv’e saldırı güvenli liman talebini destekleyebilir, ancak haber akışı çelişkili.
 
 Son işlemler:
 
@@ -94,7 +94,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 2.37 $ | 7.12 $ |
 
-**Hesap değeri: 4,965.26 $** (başlangıç 5,000 $, -34.74 $ / %-0.69)
+**Hesap değeri: 4,966.83 $** (başlangıç 5,000 $, -33.17 $ / %-0.66)
 
 Açık pozisyonlar: PAXGUSDT long @ 4021.99 (TP 4034.06 / SL 4013.95)
 
@@ -158,8 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 12:16 B1  SHORT gold 5000 USD x10 @ 4006.57 (TP 4004.02, SL 4008.02; news -0.40)
-27.10 12:16 B2  SHORT gold 5000 USD x10 @ 4006.56 (TP 4004.01, SL 4008.01; news -0.40)
 27.10 12:16 B5  SHORT gold 5000 USD x10 @ 4006.56 (TP 3994.54, SL 4014.57; news -0.35)
 27.10 13:02 B1  CLOSE short stop: -3.00 USD
 27.10 13:02 N  NEWS (15 new) score -0.35 conf 0.50: Dolar endeksi 102 üzerinde güçleniyor, FOMC öncesi dolar alımları ve "faiz artırımı" endişeleri altını baskılıyor; altın 4.000 doları yakın tutarken gümüş yıllık düşük seviyeleri kırdı. Jeopolitik (İran savaşı, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu etki dolar ve Fed beklentilerinin gerisinde kalıyor; "4.000 kırıldı" gibi haberlerin tarihi/kaynağı belirsiz olduğu için güven orta düzeyde.
@@ -173,6 +171,8 @@ Son işlemler:
 27.10 14:22 N  NEWS (30 new) score -0.40 conf 0.60: Altın 4.000 doların altına yakın seyrediyor; Fed'in faiz sabit tutması beklenirken Warsh'un daha fazla faiz artırımına işaret edebileceği ve doların Fed kararı öncesi güçlenmesi altın üzerinde baskı yaratıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir, ancak kısa vadede hawkish Fed beklentisi ve güçlü dolar baskın etken görünüyor; Fed kararının sürpriz olma ihtimali nedeniyle güven orta düzeyde tutuldu.
 27.10 14:22 N  GPT  score -0.35 conf 0.62: Fed kararına yaklaşırken doların güçlenmesi, yüksek tahvil getirileri ve altının 4.000 doların altına gerilemesi kısa vadede baskın görünüyor. İran çevresindeki savaş riski güvenli liman talebini destekleyebilir; Fed belirsizliği yön tahmininin güvenini sınırlıyor.
 27.10 14:22 B4  LONG gold 5000 USD x10 @ 4021.99 (TP 4034.06, SL 4013.95; news +0.40)
+27.10 15:02 N  NEWS (28 new) score -0.50 conf 0.60: Altın, güçlenen dolar ve Fed'in sıkılaşma sinyali verebileceği beklentisi nedeniyle 4.000 dolar civarında baskı altında; gümüşün Temmuz dibini kırması da düşüş momentumunu destekliyor. İran'daki savaş ve Hürmüz gerilimi jeopolitik destek sağlasa da, piyasa etkisi şimdiye kadar sınırlı kaldı.
+27.10 15:02 N  GPT  score -0.30 conf 0.56: Fed öncesinde güçlenen dolar ve altındaki mevcut satış baskısı kısa vadede aşağı yönlü; Fed’in bu hafta faizi sabit tutmasının beklenmesi ise etkiyi sınırlıyor. İran’daki savaş görüşmeleri ve Kyiv’e saldırı güvenli liman talebini destekleyebilir, ancak haber akışı çelişkili.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
