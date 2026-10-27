@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.10.2026 06:34 (İstanbul)
+> Son güncelleme: 27.10.2026 07:15 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,914.96 $** (başlangıç 5,000 $, -85.04 $ / %-1.70)
 
-Son haber analizi (27.10 06:34): Claude puan **-0.10**, güven 0.35 — Fed kararı öncesinde dolar endeksi 102 civarında güçlü seyrediyor ve bu altın için kısa vadede baskı oluşturuyor; ayrıca Fed'in sıkı tutumu beklentisi reel faiz tarafında altını aşağı çekebilir. Buna karşılık İran-Körfez ve Ukrayna tarafındaki çatışma haberleri güvenli liman talebini destekliyor; sinyaller karışık ve birçok "altın %25 düştü" türü başlık eski veya yanıltıcı olduğu için güven düşük.
+Son haber analizi (27.10 07:15): Claude puan **-0.15**, güven 0.35 — Yeni haberlerde altın, Fed kararı öncesinde güçlenen dolar nedeniyle baskılanıyor; DXY 102 civarında pozitif eğilimde. Iran ve Ukrayna'daki çatışmalar güvenli liman talebini sınırlı destekliyor, ancak "altın %25 düştü" gibi başlıklar eski veya yanıltıcı olduğundan dikkate alınmadı. Fed'in tutumu belirsiz olduğu için sinyal zayıf.
 
-GPT (gpt-6-luna): puan **-0.18**, güven 0.38 — Fed kararı öncesinde doların güçlü kalması ve altının temkinli seyri kısa vadede hafif baskı yaratıyor. İran ve Suriye çevresindeki güvenlik haberleri güvenli liman talebini destekleyebilir; etkiler birbiriyle çeliştiğinden görünüm sınırlı ölçüde negatif.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.43 — Fed kararı öncesi doların güçlenmesi altın üzerinde kısa vadeli baskı yaratıyor; Fed belirsizliği de yönü sınırlıyor. Kyiv’ye yönelik saldırı güvenli liman talebini desteklese de karşıt haber akışı nedeniyle görünüm hafif negatif ve temkinli.
 
 Son işlemler:
 
@@ -154,8 +154,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 02:35 N  GPT  score -0.18 conf 0.36: ABD-İran geriliminin azalabileceğine yönelik umutlar güvenli liman talebini zayıflatarak altın üzerinde hafif aşağı yönlü baskı yaratabilir. Ancak fiyatın 4.000 doların üzerine toparlanması ve Fed öncesi belirsizlik kısa vadeli yönü sınırlıyor.
-27.10 03:06 N  NEWS (14 new) score +0.10 conf 0.35: Altın yaklaşık 4.000 dolar üzerinde toparlanıyor, ancak haberler çelişkili: ABD-İran gerilimlerinin azalacağı umutları jeopolitik talebi zayıflatırken, Netanyahu'nun İran savaşının yeniden başlayabileceğini ima etmesi güvenli liman talebini destekliyor. Fed kararı beklentisi ve ABD doları yönü net olmadığı için yön belirsiz; hafif pozitif eğilim, düşük güven.
 27.10 03:06 N  GPT  score +0.25 conf 0.40: Ukrayna’ya yönelik saldırı ve İran savaşının yeniden başlayabileceğine dair açıklamalar güvenli liman talebini destekleyebilir; altının 4.000 dolar üzerine toparlanması da kısa vadeli momentumu olumlu kılıyor. Ancak ABD-İran geriliminin azalması umutları ve Fed kararı öncesindeki belirsizlik görünüm
 27.10 03:54 N  NEWS (17 new) score +0.10 conf 0.30: 
 27.10 03:54 N  GPT  score +0.25 conf 0.38: İran savaşının yeniden başlayabileceğine dair haberler ve Çin’in füze gösterisi kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’a yönelik arabuluculuk çabaları ve Fed görünümündeki belirsizlikler yönü sınırlıyor; manşetler çelişkili olduğu için güven düşük.
@@ -169,6 +167,8 @@ Son işlemler:
 27.10 06:34 B1  CLOSE short stop: -3.00 USD
 27.10 06:34 N  NEWS (26 new) score -0.10 conf 0.35: Fed kararı öncesinde dolar endeksi 102 civarında güçlü seyrediyor ve bu altın için kısa vadede baskı oluşturuyor; ayrıca Fed'in sıkı tutumu beklentisi reel faiz tarafında altını aşağı çekebilir. Buna karşılık İran-Körfez ve Ukrayna tarafındaki çatışma haberleri güvenli liman talebini destekliyor; sinyaller karışık ve birçok "altın %25 düştü" türü başlık eski veya yanıltıcı olduğu için güven düşük.
 27.10 06:34 N  GPT  score -0.18 conf 0.38: Fed kararı öncesinde doların güçlü kalması ve altının temkinli seyri kısa vadede hafif baskı yaratıyor. İran ve Suriye çevresindeki güvenlik haberleri güvenli liman talebini destekleyebilir; etkiler birbiriyle çeliştiğinden görünüm sınırlı ölçüde negatif.
+27.10 07:15 N  NEWS (25 new) score -0.15 conf 0.35: Yeni haberlerde altın, Fed kararı öncesinde güçlenen dolar nedeniyle baskılanıyor; DXY 102 civarında pozitif eğilimde. Iran ve Ukrayna'daki çatışmalar güvenli liman talebini sınırlı destekliyor, ancak "altın %25 düştü" gibi başlıklar eski veya yanıltıcı olduğundan dikkate alınmadı. Fed'in tutumu belirsiz olduğu için sinyal zayıf.
+27.10 07:15 N  GPT  score -0.15 conf 0.43: Fed kararı öncesi doların güçlenmesi altın üzerinde kısa vadeli baskı yaratıyor; Fed belirsizliği de yönü sınırlıyor. Kyiv’ye yönelik saldırı güvenli liman talebini desteklese de karşıt haber akışı nedeniyle görünüm hafif negatif ve temkinli.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
