@@ -1730,6 +1730,10 @@
    [
     1793159828,
     4995.0
+   ],
+   [
+    1793162584,
+    4995.0
    ]
   ]
  },
@@ -4218,15 +4222,19 @@
    [
     1793159828,
     4905.8
+   ],
+   [
+    1793162584,
+    4908.44
    ]
   ],
   "news": {
-   "score": -0.25,
-   "confidence": 0.4,
-   "reason": "Fed Ba\u015fkan\u0131 Warsh'un bas\u0131n toplant\u0131s\u0131n\u0131n sonucu hen\u00fcz bilinmiyor ve ABD dolar\u0131 Fed karar\u0131 \u00f6ncesinde g\u00fc\u00e7leniyor. Petrol fiyatlar\u0131ndaki toparlanma ve Barclays'\u0131n Aral\u0131k ve Ocak'ta faiz art\u0131r\u0131m\u0131 beklentisi s\u0131k\u0131la\u015fma riskini art\u0131rarak alt\u0131 bask\u0131l\u0131yor; \u0130ran sava\u015f\u0131n\u0131n yeniden alevlenme riski ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor.",
+   "score": -0.35,
+   "confidence": 0.5,
+   "reason": "Dolar iki haftan\u0131n zirvesine yak\u0131n seyrediyor ve petrol kaynakl\u0131 enflasyon endi\u015feleri, Fed'in faiz art\u0131rmay\u0131 atlayaca\u011f\u0131 beklentisiyle birlikte reel faiz ve dolar taraf\u0131ndan alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n maliyeti ve olas\u0131 yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
    "n": 45,
-   "ts": 1793159825040,
-   "new_headlines": 26,
+   "ts": 1793162581022,
+   "new_headlines": 19,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
@@ -4235,13 +4243,6 @@
    "gpt": null
   },
   "news_history": [
-   {
-    "ts": 1792706846390,
-    "score": 0.05,
-    "confidence": 0.3,
-    "reason": "Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemiyor (Ukrayna-Starlink, Kansas dizel tart\u0131\u015fmas\u0131, Kansas Fed imalat verisi, EUR/USD tahmini). Arka planda \u0130ran sava\u015f\u0131 ve petrol fiyat\u0131n\u0131n 110 dolar\u0131 a\u015fmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak enerji kaynakl\u0131 enflasyon bask\u0131s\u0131 Fed'in s\u0131k\u0131 kalma beklentisini g\u00fc\u00e7lendirerek alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir; bu kar\u015f\u0131t etkiler nedeniyle sinyal zay\u0131f ve net bir y\u00f6n yok.",
-    "new": 8
-   },
    {
     "ts": 1792707393810,
     "score": 0.05,
@@ -6772,31 +6773,58 @@
     "new": 26,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793162581022,
+    "score": -0.35,
+    "confidence": 0.5,
+    "reason": "Dolar iki haftan\u0131n zirvesine yak\u0131n seyrediyor ve petrol kaynakl\u0131 enflasyon endi\u015feleri, Fed'in faiz art\u0131rmay\u0131 atlayaca\u011f\u0131 beklentisiyle birlikte reel faiz ve dolar taraf\u0131ndan alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n maliyeti ve olas\u0131 yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
+    "new": 19,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 10
+   "n": 11
   },
   "news_seen": [
+   "Gold price in India: Rates on October 28 - FXStreet",
+   "Gold slips on oil-fueled inflation fears ahead of Fed meeting - CNBC",
+   "Axis of Aggressors: How Four U.S. Adversaries Strengthen Each Other - The Fulcrum",
+   "Watch: What happens now after close vote in Israeli election?",
+   "Gold slips on oil-fuelled inflation fears ahead of Fed meeting - The Edge Malaysia",
+   "World gold prices lose momentum amid expectations of US interest rate changes - Laodong.vn",
+   "Gold drifts lower as USD hits two-week high ahead of FOMC decision - FXStreet",
+   "Gold rate today in Hyderabad, October 28, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
+   "Asia FX mixed as dollar holds near two-week high, kiwi sinks after RBNZ hold - Investing.com",
+   "Federal Reserve likely to skip rate hike despite elevated inflation - CTPost",
+   "AI worries expose dollar's hot-money problem - Reuters",
+   "Federal Reserve likely to skip rate hike despite elevated inflation - Oskaloosa Herald",
+   "Federal Reserve likely to skip rate hike despite elevated inflation - Ottumwa Courier",
+   "A Non-Nuclear NATO\u2013Russia War Would Still Be Disastrous - The American Conservative",
+   "Exit polls suggest no clear winner in Israel\u2019s election, but Netanyahu is far from defeated - AP News",
+   "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg",
+   "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ",
+   "B-52 bomber's Mach 5 air-launched missile moves toward production - Interesting Engineering",
    "Federal Reserve Chair Warsh Holds News Conference - C-SPAN",
    "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
    "Gold, silver prices today, 28 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai - Livemint",
-   "Gold price in Bangladesh today: Latest BAJUS rate - Jagonews24",
+   "OZM clocks 95% gold recovery in heap-leach tests - The Australian",
+   "See How Flight Routes Are Changing to Avoid War Zones Around the World - WSJ",
    "Gold Price Forecast: XAU/USD drops as oil price rebounds, Fed\u2019s policy eyed - FXStreet",
    "Iran war has cost $47 billion, U.S. military says - CBS News",
    "Hundreds of parents start petition to keep head football coach after recruiting sanctions hit Karns High School - WVLT",
    "Will Gold Prices Fall Further? Why Shoppers Are Holding Back Ahead Of Diwali - NDTV",
    "Gulf War memorial dedicated on National Mall in DC - News 9",
-   "Exit polls suggest no clear winner in Israel\u2019s election, but Netanyahu is far from defeated - AP News",
    "Has the global gold price entered a recovery cycle? - Vietnam.vn",
+   "Gold price today 28.10: Gold bars, gold rings increase sharply - Laodong.vn",
    "Iran war puts Republican foreign policy hawks under pressure before midterms - The National",
    "The golden Gorilla: High-grade 1.5Moz WA gold portfolio keeps growing by the day - NT News",
-   "See How Flight Routes Are Changing to Avoid War Zones Around the World - WSJ",
    "Ex-FirstEnergy Execs Skirt Sanctions, Get Discovery Warning - Law360",
-   "Rand Weakness Is About the US Dollar, Not South African Politics - The Common Sense",
    "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion - CNBC",
    "Ceremony for man killed in Cuban Missile Crisis held in Greenville - KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
+   "Ceremony for man killed in Cuban Missile Crisis held in Greenville - WKYT",
    "Ceremony for man killed in Cuban Missile Crisis held in Greenville - WLFI",
    "Ceremony for man killed in Cuban Missile Crisis held in Greenville - NewsChannel 10",
    "Ceremony for man killed in Cuban Missile Crisis held in Greenville - WCAX",
@@ -6805,30 +6833,10 @@
    "Gold chart update: Is $4,000 once again acting as a floor? - Shanghai Metals Market",
    "\u2018The Mothers of Kherson\u2019 Review: A Ukraine War Opera - WSJ",
    "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Merced Sun-Star",
-   "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Kansas City Star",
-   "Dollar Holds Gains Ahead of Fed Decision - TradingView",
-   "U.S. dollar down in Taipei trading - Focus Taiwan",
-   "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
-   "Gold edges higher ahead of Fed policy decision - NST Online",
-   "Prisoner of war bracelet returned to woman pictured in \u201cBurst of Joy\u201d - CBS News",
-   "Gold price forecast still has a chance to rise to 5,500 USD/ounce - Laodong.vn",
-   "World gold price increases, exceeding 4,050 USD/ounce - Laodong.vn",
-   "Barclays' Giannoni sees Fed hiking in December and January as inflation pressures persist - CNBC",
-   "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-   "US warns Gulf states of possible 'short, intense' Iran war after midterms: Report - Anadolu Ajans\u0131",
-   "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
-   "Thai baht/US dollar weaker on Wednesday - TradingView",
-   "Iran's supreme leader calls for meeting Tehran's conditions to end war - chinadailyhk",
-   "US military cost of Iran war tops $47B, Pentagon tells Congress - USA Today",
-   "Gold and silver price today, October 28: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
-   "World Cup Workers' Attys Deserve Sanctions, Colo. Cos. Say - Law360",
-   "Hegseth Swears In Air Force General After Vaccine-Mandated Early Retirement - U.S. Department of War (.gov)",
-   "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ"
+   "Dollar Holds Gains Ahead of Fed Decision - TradingView"
   ]
  },
  "log": [
-  "24.10 11:34 N  NEWS (11 new) score -0.20 conf 0.40: Alt\u0131n 4.000 dolar\u0131 k\u0131rarak d\u00fc\u015f\u00fcyor ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; haftal\u0131k d\u00fc\u015f\u00fc\u015f ve petrol kaynakl\u0131 enflasyon, faiz indirimi beklentilerini geciktirerek alt\u0131 bask\u0131l\u0131yor. \u0130ran'a yeniden sald\u0131r\u0131 tehdidi ve H\u00fcrm\u00fcz riski g\u00fcvenli liman talebini destekliyor, ancak piyasan\u0131n bu jeopolitik primi bug\u00fcne kadar sat\u0131\u015flar\u0131 durduracak kadar fiyatlamad\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor; bu nedenle hafif negatif bir g\u00f6r\u00fcn\u00fcm, d\u00fc\u015f\u00fck g\u00fcvenle.",
-  "24.10 11:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 11:43 N  NEWS (9 new) score -0.10 conf 0.35: Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran'a yeni sald\u0131r\u0131 tehditleri jeopolitik risk primi sa\u011flasa da, y\u00fcksek petrol fiyatlar\u0131n\u0131n enflasyonu art\u0131r\u0131p Fed'i s\u0131k\u0131 tutabilece\u011fi ve haftal\u0131k enflasyon/Fed verilerinin piyasay\u0131 etkileyebilece\u011fi i\u00e7in k\u0131sa vadede hafif negatif bir g\u00f6r\u00fcn\u00fcm var. Sava\u015f haberleri ile alt\u0131n aras\u0131ndaki ili\u015fki bu d\u00f6nemde net olmad\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "24.10 11:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 11:50 N  NEWS (4 new) score -0.15 conf 0.40: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015f\u00fcyor ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran'a yeni sald\u0131r\u0131 tehdidi g\u00fcvenli liman talebini destekliyor, ancak Brent'in 117 dolar\u0131n \u00fczerinde olmas\u0131 enflasyon kaynakl\u0131 s\u0131k\u0131 para politikas\u0131 beklentilerini canl\u0131 tutarak alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haftan\u0131n enflasyon ve Fed verileri belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in, genel etki hafif negatif kal\u0131yor ve g\u00fcven d\u00fc\u015f\u00fck.",
@@ -7126,7 +7134,9 @@
   "28.10 06:09 N  NEWS (24 new) score -0.15 conf 0.40: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve maliyetin 47 milyar dolara \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekliyor, ancak Barclays'\u0131n Fed'in Aral\u0131k ve Ocak'ta faiz art\u0131rabilece\u011fi y\u00f6n\u00fcndeki g\u00f6r\u00fc\u015f\u00fc, Fed beklentilerinin sertle\u015fmesi ve dolar\u0131n iki haftal\u0131k zirvesi alt\u0131n i\u00e7in olumsuz. Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon kayg\u0131lar\u0131n\u0131 azaltarak bu bask\u0131y\u0131 k\u0131smen dengeliyor; net etki hafif negatif.",
   "28.10 06:57 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "28.10 06:57 N  NEWS (26 new) score -0.25 conf 0.40: Fed Ba\u015fkan\u0131 Warsh'un bas\u0131n toplant\u0131s\u0131n\u0131n sonucu hen\u00fcz bilinmiyor ve ABD dolar\u0131 Fed karar\u0131 \u00f6ncesinde g\u00fc\u00e7leniyor. Petrol fiyatlar\u0131ndaki toparlanma ve Barclays'\u0131n Aral\u0131k ve Ocak'ta faiz art\u0131r\u0131m\u0131 beklentisi s\u0131k\u0131la\u015fma riskini art\u0131rarak alt\u0131 bask\u0131l\u0131yor; \u0130ran sava\u015f\u0131n\u0131n yeniden alevlenme riski ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor.",
-  "28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)"
+  "28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)",
+  "28.10 07:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "28.10 07:43 N  NEWS (19 new) score -0.35 conf 0.50: Dolar iki haftan\u0131n zirvesine yak\u0131n seyrediyor ve petrol kaynakl\u0131 enflasyon endi\u015feleri, Fed'in faiz art\u0131rmay\u0131 atlayaca\u011f\u0131 beklentisiyle birlikte reel faiz ve dolar taraf\u0131ndan alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n maliyeti ve olas\u0131 yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131 kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -8826,6 +8836,10 @@
    [
     1793159828,
     4961.78
+   ],
+   [
+    1793162584,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10453,6 +10467,10 @@
    [
     1793159828,
     4973.18
+   ],
+   [
+    1793162584,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -12027,6 +12045,10 @@
    [
     1793159828,
     5005.69
+   ],
+   [
+    1793162584,
+    5005.69
    ]
   ]
  },
@@ -13415,6 +13437,10 @@
    [
     1793159828,
     4992.17
+   ],
+   [
+    1793162584,
+    4992.17
    ]
   ],
   "news_calls": {
@@ -14676,6 +14702,10 @@
    [
     1793159828,
     5010.69
+   ],
+   [
+    1793162584,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -15785,6 +15815,10 @@
    ],
    [
     1793159828,
+    99842.81
+   ],
+   [
+    1793162584,
     99842.81
    ]
   ],

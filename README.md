@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 06:57 (İstanbul)
+> Son güncelleme: 28.10.2026 07:43 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -48,11 +48,11 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %21.1 |
 | Ödenen komisyon/spread | 0.00 $ | 90.19 $ |
 
-**Hesap değeri: 4,905.80 $** (başlangıç 5,000 $, -94.20 $ / %-1.88)
+**Hesap değeri: 4,908.44 $** (başlangıç 5,000 $, -91.56 $ / %-1.83)
 
 Açık pozisyonlar: PAXGUSDT short @ 4048.14 (TP 4045.56 / SL 4049.61)
 
-Son haber analizi (28.10 06:57): Claude puan **-0.25**, güven 0.40 — Fed Başkanı Warsh'un basın toplantısının sonucu henüz bilinmiyor ve ABD doları Fed kararı öncesinde güçleniyor. Petrol fiyatlarındaki toparlanma ve Barclays'ın Aralık ve Ocak'ta faiz artırımı beklentisi sıkılaşma riskini artırarak altı baskılıyor; İran savaşının yeniden alevlenme riski ise sınırlı bir güvenli liman desteği sağlıyor.
+Son haber analizi (28.10 07:43): Claude puan **-0.35**, güven 0.50 — Dolar iki haftanın zirvesine yakın seyrediyor ve petrol kaynaklı enflasyon endişeleri, Fed'in faiz artırmayı atlayacağı beklentisiyle birlikte reel faiz ve dolar tarafından altı baskılıyor. İran savaşının maliyeti ve olası yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler büyük ölçüde fiyatlanmış olduğu için etkisi sınırlı kalıyor.
 
 Son işlemler:
 
@@ -158,8 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 02:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: İran savaşının sürmesi ve yeniden alevlenme ihtimali güvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutması beklentisi, Aralık'ta faiz artırımı tartışması ve Commerzbank/Standard Chartered gibi analistlerin altın üzerindeki baskıya dikkat çekmesi yükseliş potansiyelini sınırlıyor. Haberlerin birbirine zıt sinyaller vermesi nedeniyle etki hafif negatif ve güven düşük.
 28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 02:49 N  NEWS (15 new) score -0.10 conf 0.35: Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
 28.10 03:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -173,6 +171,8 @@ Son işlemler:
 28.10 06:57 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 06:57 N  NEWS (26 new) score -0.25 conf 0.40: Fed Başkanı Warsh'un basın toplantısının sonucu henüz bilinmiyor ve ABD doları Fed kararı öncesinde güçleniyor. Petrol fiyatlarındaki toparlanma ve Barclays'ın Aralık ve Ocak'ta faiz artırımı beklentisi sıkılaşma riskini artırarak altı baskılıyor; İran savaşının yeniden alevlenme riski ise sınırlı bir güvenli liman desteği sağlıyor.
 28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)
+28.10 07:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 07:43 N  NEWS (19 new) score -0.35 conf 0.50: Dolar iki haftanın zirvesine yakın seyrediyor ve petrol kaynaklı enflasyon endişeleri, Fed'in faiz artırmayı atlayacağı beklentisiyle birlikte reel faiz ve dolar tarafından altı baskılıyor. İran savaşının maliyeti ve olası yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler büyük ölçüde fiyatlanmış olduğu için etkisi sınırlı kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
