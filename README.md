@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 21:43 (İstanbul)
+> Son güncelleme: 28.10.2026 22:31 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -51,9 +51,9 @@ Son işlemler:
 
 **Hesap değeri: 4,900.91 $** (başlangıç 5,000 $, -99.09 $ / %-1.98)
 
-Son haber analizi (28.10 21:42): Claude puan **+0.05**, güven 0.35 — Fed faizleri 3.75-4.00% seviyesinde sabit tuttu; karar beklenen yönde çıktı ve "daha fazla veri" vurgusu net bir sıkılaşma ya da gevşeme sinyali vermedi, bu da nötr. Kitco'ya göre altın karar sonrası 4.035 dolara geriledi, yani haber büyük ölçüde fiyatlanmış durumda. İran savaşı maliyetleri ve ABD'nin Körfez ülkelerine olası İran saldırısı konusunda uyarısı jeopolitik risk primi açısından hafif destekleyici, ancak etkisi sınırlı.
+Son haber analizi (28.10 22:31): Claude puan **-0.15**, güven 0.40 — Fed faizleri %3,9'da sabit tuttu ve enflasyonun yüksek kaldığını belirtti; iki üyenin muhalefeti ve net bir sonraki hamle sinyali olmaması karışık bir tablo yaratıyor. Dolar kararın ardından yatay seyretti, bu nedenle altın üzerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle güven düşük.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.58 — Fed’in beklenen faiz kararını değiştirmemesi tek başına sınırlı etki yaratırken, enflasyonun yüksek kalması ve sonraki adımlara dair net sinyal verilmemesi altın için hafif baskı oluşturuyor; karar sonrası düşüş de bu yönde. İran kaynaklı olası gerilim güvenli liman talebiyle düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.12**, güven 0.42 — Fed’in faizleri yüksek enflasyona rağmen sabit tutması ve yakın vadeli yön için net sinyal vermemesi altın üzerinde hafif baskı yaratabilir; doların yatay seyri bu etkiyi sınırlıyor. İran savaşı maliyetlerine ilişkin haber güvenli liman talebini desteklese de yeni bir tırmanış göstermiyor ve gelişme
 
 Son işlemler:
 
@@ -160,8 +160,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 20:09 N  NEWS (35 new) score -0.20 conf 0.45: Fed kararı yaklaşırken piyasa Aralık'ta olası bir faiz artırımını fiyatlıyor ve enflasyon yüksek; bu sıkılaştırma beklentisi altını baskılar. Buna karşılık İran savaşının sürmesi, müzakerelerin tıkanması ve Yemen'deki saldırılar jeopolitik risk primini destekliyor, bu da kısmen dengeliyor.
-28.10 20:09 N  GPT  score +0.25 conf 0.42: Husilerin Aden havaalanına füze saldırısı iddiası ve İran’ın arabuluculuk önerisini reddetmesi kısa vadeli güvenli liman talebini destekleyebilir. Ancak savaş haberlerinin bir kısmı zaten fiyatlanmış olabilir; Fed kararı öncesindeki faiz ve dolar belirsizliği yükselişi sınırlıyor.
 28.10 20:09 B1  SHORT gold 5000 USD x10 @ 4046.06 (TP 4043.48, SL 4047.53; news -0.20)
 28.10 20:09 B6  karar turu: Claude «Fed faiz kararı ve İran/petrol belirsizliği öncesinde piyasa dar bantta bekleme modunda, işlem için net bir avantaj yok.» / GPT «Endekslerde dar bant ve başarısız yukarı ataklar görülürken Fed kararı beklentisi ile jeopolitik belirsizlik, kaldıraçlı ve yüzde 1,5 hedefli işlemlerde beklemeyi destekliyor.»
 28.10 20:56 B1  CLOSE short take profit: +2.00 USD
@@ -175,6 +173,8 @@ Son işlemler:
 28.10 21:43 N  GPT  score -0.30 conf 0.58: Fed’in beklenen faiz kararını değiştirmemesi tek başına sınırlı etki yaratırken, enflasyonun yüksek kalması ve sonraki adımlara dair net sinyal verilmemesi altın için hafif baskı oluşturuyor; karar sonrası düşüş de bu yönde. İran kaynaklı olası gerilim güvenli liman talebiyle düşüşü sınırlayabilir.
 28.10 21:43 B5  CLOSE short stop: -11.19 USD
 28.10 21:43 B6  karar turu: Claude «Fed faizi sabit tuttu ancak Warsh'ın şahin tonu ve iki artış yönlü muhalif oy, basın toplantısı süresince oynaklık yaratıyor; net avantaj olmadığından kenarda kalmak en doğrusu.» / GPT «Fed açıklamaları sürerken endekslerdeki hızlı toparlanma ile enflasyon ve jeopolitik riskler çatışıyor; kaldıraçlı yeni işlem için haber ve fiyat teyidi yetersiz.»
+28.10 22:31 N  NEWS (35 new) score -0.15 conf 0.40: Fed faizleri %3,9'da sabit tuttu ve enflasyonun yüksek kaldığını belirtti; iki üyenin muhalefeti ve net bir sonraki hamle sinyali olmaması karışık bir tablo yaratıyor. Dolar kararın ardından yatay seyretti, bu nedenle altın üzerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle güven düşük.
+28.10 22:31 N  GPT  score -0.12 conf 0.42: Fed’in faizleri yüksek enflasyona rağmen sabit tutması ve yakın vadeli yön için net sinyal vermemesi altın üzerinde hafif baskı yaratabilir; doların yatay seyri bu etkiyi sınırlıyor. İran savaşı maliyetlerine ilişkin haber güvenli liman talebini desteklese de yeni bir tırmanış göstermiyor ve gelişme
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

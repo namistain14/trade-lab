@@ -1818,6 +1818,10 @@
    [
     1793212998,
     4988.71
+   ],
+   [
+    1793215919,
+    4988.71
    ]
   ]
  },
@@ -4505,40 +4509,37 @@
    [
     1793212998,
     4900.91
+   ],
+   [
+    1793215919,
+    4900.91
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.35,
-   "reason": "Fed faizleri 3.75-4.00% seviyesinde sabit tuttu; karar beklenen y\u00f6nde \u00e7\u0131kt\u0131 ve \"daha fazla veri\" vurgusu net bir s\u0131k\u0131la\u015fma ya da gev\u015feme sinyali vermedi, bu da n\u00f6tr. Kitco'ya g\u00f6re alt\u0131n karar sonras\u0131 4.035 dolara geriledi, yani haber b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 maliyetleri ve ABD'nin K\u00f6rfez \u00fclkelerine olas\u0131 \u0130ran sald\u0131r\u0131s\u0131 konusunda uyar\u0131s\u0131 jeopolitik risk primi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak etkisi s\u0131n\u0131rl\u0131.",
+   "score": -0.15,
+   "confidence": 0.4,
+   "reason": "Fed faizleri %3,9'da sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtti; iki \u00fcyenin muhalefeti ve net bir sonraki hamle sinyali olmamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. Dolar karar\u0131n ard\u0131ndan yatay seyretti, bu nedenle alt\u0131n \u00fczerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793212978453,
-   "new_headlines": 43,
+   "ts": 1793215916880,
+   "new_headlines": 35,
    "key_events": [
-    "Fed'in faizi sabit tutmas\u0131 ve Aral\u0131k'ta olas\u0131 art\u0131r\u0131m beklentisi (ABN AMRO, AP)",
-    "\u0130ran'\u0131n Katar arabuluculuk teklifini reddetmesi; sava\u015f\u0131n 243. g\u00fcn\u00fc",
-    "Husilerin Aden havaliman\u0131na balistik f\u00fcze sald\u0131r\u0131lar\u0131"
+    "Fed faizleri %3,9'da sabit tuttu, enflasyon y\u00fcksek",
+    "\u0130ki Fed \u00fcyesi muhalefet \u015ferhi koydu",
+    "Dolar karar sonras\u0131 yatay, alt\u0131n \u00f6ncesinde ~4.039$'a geriledi"
    ],
    "gpt": {
-    "score": -0.3,
-    "confidence": 0.58,
-    "reason": "Fed\u2019in beklenen faiz karar\u0131n\u0131 de\u011fi\u015ftirmemesi tek ba\u015f\u0131na s\u0131n\u0131rl\u0131 etki yarat\u0131rken, enflasyonun y\u00fcksek kalmas\u0131 ve sonraki ad\u0131mlara dair net sinyal verilmemesi alt\u0131n i\u00e7in hafif bask\u0131 olu\u015fturuyor; karar sonras\u0131 d\u00fc\u015f\u00fc\u015f de bu y\u00f6nde. \u0130ran kaynakl\u0131 olas\u0131 gerilim g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+    "score": -0.12,
+    "confidence": 0.42,
+    "reason": "Fed\u2019in faizleri y\u00fcksek enflasyona ra\u011fmen sabit tutmas\u0131 ve yak\u0131n vadeli y\u00f6n i\u00e7in net sinyal vermemesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir; dolar\u0131n yatay seyri bu etkiyi s\u0131n\u0131rl\u0131yor. \u0130ran sava\u015f\u0131 maliyetlerine ili\u015fkin haber g\u00fcvenli liman talebini desteklese de yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve geli\u015fme",
     "key_events": [
-     "Fed faizi %3,75\u20134,00 aral\u0131\u011f\u0131nda sabit tuttu",
-     "Fed karar\u0131n\u0131n ard\u0131ndan alt\u0131n 4.035 dolara geriledi",
-     "ABD\u2019nin K\u00f6rfez \u00fclkelerini olas\u0131 \u0130ran sald\u0131r\u0131s\u0131na kar\u015f\u0131 uyard\u0131\u011f\u0131 bildirildi"
+     "Fed faizleri sabit tuttu, enflasyonu y\u00fcksek g\u00f6rd\u00fc",
+     "Dolar Fed karar\u0131n\u0131n ard\u0131ndan yatay kald\u0131",
+     "\u0130ran sava\u015f\u0131n\u0131n maliyet tahmini 47 milyar dolara \u00e7\u0131kt\u0131"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792717933185,
-    "score": -0.3,
-    "confidence": 0.45,
-    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve sert Fed beklentisi \u00fczerinden alt\u0131n\u0131 bask\u0131lay\u0131p iki ayl\u0131k dibe \u00e7ekti\u011fi i\u00e7in k\u0131sa vadede negatif g\u00f6r\u00fcn\u00fcyor. Ancak K\u00f6rfez'den \u00e7\u0131kan petrol arz\u0131n\u0131n artmas\u0131 ve bu haberin zaten fiyatlanm\u0131\u015f olmas\u0131, d\u00fc\u015f\u00fc\u015f\u00fcn bir k\u0131sm\u0131n\u0131n tersine d\u00f6nebilece\u011fini g\u00f6sterdi\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131 kal\u0131yor.",
-    "new": 2
-   },
    {
     "ts": 1792718656354,
     "score": -0.3,
@@ -7103,63 +7104,70 @@
     "new": 43,
     "gpt_score": -0.3,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1793215916880,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Fed faizleri %3,9'da sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtti; iki \u00fcyenin muhalefeti ve net bir sonraki hamle sinyali olmamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. Dolar karar\u0131n ard\u0131ndan yatay seyretti, bu nedenle alt\u0131n \u00fczerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 35,
+    "gpt_score": -0.12,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 27
+   "n": 28
   },
   "news_seen": [
+   "Federal Reserve - Rutland Herald",
+   "Federal Reserve will hold fewer interest rate meetings in coming years - NBC News",
+   "Federal Reserve keeps rates unchanged despite elevated inflation - Scripps News",
+   "Federal Reserve - Post Register",
+   "Fed leaves interest rates unchanged despite inflation in the US - Al Jazeera",
+   "Iran war costs rise to $47 billion, U.S. military estimates - The Washington Post",
+   "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+   "Federal Reserve holds interest rates steady - The Washington Post",
+   "Federal Reserve leaves interest rates unchanged amid inflation concerns - The Detroit News",
+   "Warsh to attend Fed jobs and productivity task force hearing to refine views - Reuters",
+   "US Federal Reserve holds interest rates steady as inflation remains elevated - Latest news from Azerbaijan",
+   "Fed leaves rates unchanged as it awaits 'accumulation of more information' - Reuters",
+   "Federal Reserve keeps rates unchanged despite elevated inflation, gives little signal of next move - AP News",
+   "Fed holds US interest rates steady despite inflation fears - The Times",
+   "Fed holds rates steady days before the midterms, even as inflation runs hot - Fortune",
+   "Federal Reserve keeps interest rates unchanged in final vote before midterms - NBC News",
+   "Healey tells departments to make 1% cuts to fund defence",
+   "Fed holds rates days before US midterms but two officials dissented - Euronews.com",
+   "How\u2019s the US-China Tech War Going? Ask AI - Bloomberg.com",
+   "Fed Chair Kevin Warsh says third quarter GDP is above three percent - The National Desk",
+   "Global Gold Prices Fall to US$4,039 Today, Markets Anxious Awaiting The Fed's Decision - Aktualita.co",
+   "Five ways the Budget will affect you if you are under 25",
+   "How did Fl\u00e1vio Bolsonaro end up in Miami?",
+   "US Fed Holds Interest Rates Steady Despite Surging Inflation - IndustryWeek",
+   "A movie about war, college football and two heroic Badgers - UW\u2013Madison News",
+   "Dollar flat against peers after Fed holds rates steady - Central Oregon Daily",
+   "Federal Reserve - The Herald Journal",
+   "Did Britain's settlement sanctions play into Netanyahu's hands? - The Jerusalem Post",
+   "Federal Reserve keeps rates unchanged despite elevated inflation - KPAX News",
    "Federal Reserve holds interest rates steady despite inflation concerns - Bergen Record",
+   "US Federal Reserve leaves interest rates unchanged - Yahoo Finance",
    "Three ways the Budget affects you",
    "Federal Reserve leaves rates unchanged - Fox Business",
-   "Fed holds rates steady days before the midterms, even as inflation runs hot - Fortune",
-   "Why the Federal Reserve has kept interest rates unchanged despite sticky inflation - CNBC TV18 - LinkedIn",
-   "US stocks remain steady after the Federal Reserve says it won't raise interest rates - The Killeen Daily Herald",
-   "Federal Reserve keeps rates unchanged despite elevated inflation, gives little signal of next move - AP News",
+   "Fed day playbook: A trader's guide to gold price action - Kitco",
+   "Wall Street wavers as Federal Reserve holds key rate steady, pending more data - TradingView",
+   "Eighth Circuit Invalidates Federal Reserve\u2019s 21-Cent Debit Card Interchange Fee Cap, Holding That the Durbin Amendment Requires a Transaction-Specific Cost Analysis - The National Law Review",
+   "US stocks remain steady after the Federal Reserve says it won't raise interest rates - Yakima Herald-Republic",
+   "The Federal Reserve leaves interest rates unchanged less than a week before the midterms - EL PA\u00cdS English",
    "\u2018Not acceptable\u2019: UN rights chief slams US sanctions on world body\u2019s rapporteur - Anadolu Ajans\u0131",
-   "Federal Reserve holds interest rates steady despite elevated inflation - MS NOW",
    "Latest Iran war estimates: $47 billion in total cost, nearly $30 billion in munitions - Washington Examiner",
    "Fed holds rates steady as inflation remains elevated - Honolulu Star-Advertiser",
-   "Federal Reserve Holds Interest Rates Steady Ahead Of Elections - KOA 850 AM & 94.1 FM",
-   "Watch live: Warsh speaks after Fed votes to keep interest rates steady - The Hill",
-   "Fed leaves rates steady as governor Lisa Cook dissents - Axios",
-   "The Budget explained in less than one minute",
-   "Federal Reserve skips rate hike despite elevated inflation - Spectrum News",
-   "Federal Reserve - Clinton Herald",
-   "Federal Reserve - Goshen News",
-   "Federal Reserve Maintains Interest Rates Ahead of the Midterms - notus.org",
-   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Pulls Back As Traders Prepare For Fed Decision - FXEmpire",
-   "BREAKING: Fed Leaves Rates Unchanged As Expected, Amid Elevated Inflation - Yahoo Finance",
-   "Federal Reserve holds interest rates steady - The Washington Post",
-   "Tax thresholds remain unchanged - here's what it means for your pay",
-   "Federal Reserve holds interest rates steady in face of persistent inflation - The Hill",
-   "US reportedly warns Gulf nations to prepare for possible Iran offensive - NewsNation",
-   "Fed holds interest rates steady despite rising inflation \u2014 for now - Straight Arrow",
-   "Trump-targeted Lisa Cook dissents as Fed puts rates on hold - Politico",
-   "Iran war costs rise to $47 billion, U.S. military estimates - The Washington Post",
-   "The Special Ops Podcasts Changing the Narrative of the War on Terror - The New York Times",
-   "Ryan focused on repealing tariffs, ending Iran war, corruption if reelected - WAMC",
-   "Federal Reserve leaves interest rates unchanged despite rising inflation - NBC News",
-   "McMaster to speak on Revolutionary War in Maumee River Valley at next museum tea - BG Independent News",
-   "Fed holds interest rates steady even as inflation remains stubborn - NPR",
-   "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments - Yahoo Finance",
-   "Federal Reserve holds interest rates steady even as inflation remains high - CBS News",
-   "Iran pressed to make nuke concessions as massive post-midterms strikes loom - Axios",
-   "Pentagon Tells Congress the Iran War Has Cost an Estimated $47.1 Billion - notus.org",
-   "Gold price drops to $4,035/oz as Fed votes 10-2 in favor of rate hold - Kitco",
-   "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts - CNBC",
-   "Federal Reserve holds rate at 3.75%-4.00%, with two dissents - Seeking Alpha",
-   "Federal Reserve holds rate at 3.75%-4.00% - TradingView",
-   "WATCH LIVE: Federal Reserve chair holds briefing after interest rate decision - Fox News",
-   "Fed holds rates steady despite concerns over inflation - CNBC",
-   "Fed Holds Rates, Says More Data Will Help Next Decision - Bloomberg.com",
-   "Federal Reserve makes interest rate decision ahead of midterms - Fox Business"
+   "Fed holds key interest rate at 3.9% as inflation remains elevated - FOX 5 DC",
+   "Federal Reserve keeps interest rates unchanged ahead of midterms despite elevated inflation - WEAU",
+   "Federal Reserve Holds Interest Rates Steady Ahead Of Elections - KFI AM 640",
+   "Federal Reserve Holds Interest Rates Steady Ahead Of Elections - NewsRadio WFLA"
   ]
  },
  "log": [
-  "24.10 21:46 N  NEWS (11 new) score -0.30 conf 0.50: Eyl\u00fcl T\u00dcFE'nin %3,7'ye y\u00fckselmesi ve Fed faiz art\u0131r\u0131mlar\u0131n\u0131n yeniden g\u00fcndeme gelmesi, reel faiz ve Fed beklentileri \u00fczerinden alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k ABD sava\u015f gemilerinin \u0130ran'a olas\u0131 sald\u0131r\u0131ya haz\u0131r oldu\u011fu haberleri ve \"risk-off\" yorumlar\u0131 g\u00fcvenli liman talebini destekliyor; bu nedenle sinyal kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
-  "24.10 21:46 N  GPT  score +0.20 conf 0.38: \u0130ran\u2019a y\u00f6nelik olas\u0131 sald\u0131r\u0131 ve b\u00f6lgesel gerilim g\u00fcvenli liman talebini destekleyebilir. Ancak %3,7\u2019lik CPI ve yeniden g\u00fcndeme gelen Fed faiz art\u0131r\u0131m\u0131 beklentisi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; etkiler kar\u015f\u0131t ve k\u0131sa vadeli y\u00f6n belirsiz.",
   "24.10 22:14 N  NEWS (13 new) score -0.40 conf 0.55: Eyl\u00fcl T\u00dcFE'nin %3,7'ye y\u00fckselmesi ve Fed faiz art\u0131r\u0131mlar\u0131n\u0131n yeniden g\u00fcndeme gelmesi, alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n zaten \u00fc\u00e7 ayl\u0131k dibe inmi\u015f ve 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f durumda. Iran sava\u015f\u0131 ve Husilerin Mekke-Medine yak\u0131nlar\u0131na f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk-off talebini destekliyor, ancak bu etki \u015fu an faiz beklentilerinin gerisinde kal\u0131yor.",
   "24.10 22:14 N  GPT  score -0.35 conf 0.58: Petrol kaynakl\u0131 y\u00fcksek enflasyon ve Fed\u2019in faizleri art\u0131rabilece\u011fi endi\u015fesi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; son d\u00fc\u015f\u00fc\u015f haberleri de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. \u0130ran ve Husi kaynakl\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir, ancak k\u0131sa vadeli etkiyi belirsizle\u015ftiriyor.",
   "24.10 22:44 N  NEWS (10 new) score -0.45 conf 0.55: Eyl\u00fcl CPI'\u0131n\u0131n %3,7'ye \u00e7\u0131kmas\u0131 ve \"Fed faiz art\u0131r\u0131m\u0131 yeniden g\u00fcndemde\" ba\u015fl\u0131\u011f\u0131, reel faiz ve Fed beklentileri \u00fczerinden alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ama alt\u0131n son haberlerde sava\u015fa ra\u011fmen d\u00fc\u015f\u00fcyor, bu da faiz/dolar etkisinin bask\u0131n oldu\u011funu g\u00f6steriyor; yeni ABD sava\u015f gemisi/H\u00fcrm\u00fcz benzeri t\u0131rman\u0131\u015f haberleri k\u0131smen destekleyici olsa da etkisi s\u0131n\u0131rl\u0131.",
@@ -7457,7 +7465,9 @@
   "28.10 21:43 N  NEWS (43 new) score +0.05 conf 0.35: Fed faizleri 3.75-4.00% seviyesinde sabit tuttu; karar beklenen y\u00f6nde \u00e7\u0131kt\u0131 ve \"daha fazla veri\" vurgusu net bir s\u0131k\u0131la\u015fma ya da gev\u015feme sinyali vermedi, bu da n\u00f6tr. Kitco'ya g\u00f6re alt\u0131n karar sonras\u0131 4.035 dolara geriledi, yani haber b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 maliyetleri ve ABD'nin K\u00f6rfez \u00fclkelerine olas\u0131 \u0130ran sald\u0131r\u0131s\u0131 konusunda uyar\u0131s\u0131 jeopolitik risk primi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak etkisi s\u0131n\u0131rl\u0131.",
   "28.10 21:43 N  GPT  score -0.30 conf 0.58: Fed\u2019in beklenen faiz karar\u0131n\u0131 de\u011fi\u015ftirmemesi tek ba\u015f\u0131na s\u0131n\u0131rl\u0131 etki yarat\u0131rken, enflasyonun y\u00fcksek kalmas\u0131 ve sonraki ad\u0131mlara dair net sinyal verilmemesi alt\u0131n i\u00e7in hafif bask\u0131 olu\u015fturuyor; karar sonras\u0131 d\u00fc\u015f\u00fc\u015f de bu y\u00f6nde. \u0130ran kaynakl\u0131 olas\u0131 gerilim g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "28.10 21:43 B5  CLOSE short stop: -11.19 USD",
-  "28.10 21:43 B6  karar turu: Claude \u00abFed faizi sabit tuttu ancak Warsh'\u0131n \u015fahin tonu ve iki art\u0131\u015f y\u00f6nl\u00fc muhalif oy, bas\u0131n toplant\u0131s\u0131 s\u00fcresince oynakl\u0131k yarat\u0131yor; net avantaj olmad\u0131\u011f\u0131ndan kenarda kalmak en do\u011frusu.\u00bb / GPT \u00abFed a\u00e7\u0131klamalar\u0131 s\u00fcrerken endekslerdeki h\u0131zl\u0131 toparlanma ile enflasyon ve jeopolitik riskler \u00e7at\u0131\u015f\u0131yor; kald\u0131ra\u00e7l\u0131 yeni i\u015flem i\u00e7in haber ve fiyat teyidi yetersiz.\u00bb"
+  "28.10 21:43 B6  karar turu: Claude \u00abFed faizi sabit tuttu ancak Warsh'\u0131n \u015fahin tonu ve iki art\u0131\u015f y\u00f6nl\u00fc muhalif oy, bas\u0131n toplant\u0131s\u0131 s\u00fcresince oynakl\u0131k yarat\u0131yor; net avantaj olmad\u0131\u011f\u0131ndan kenarda kalmak en do\u011frusu.\u00bb / GPT \u00abFed a\u00e7\u0131klamalar\u0131 s\u00fcrerken endekslerdeki h\u0131zl\u0131 toparlanma ile enflasyon ve jeopolitik riskler \u00e7at\u0131\u015f\u0131yor; kald\u0131ra\u00e7l\u0131 yeni i\u015flem i\u00e7in haber ve fiyat teyidi yetersiz.\u00bb",
+  "28.10 22:31 N  NEWS (35 new) score -0.15 conf 0.40: Fed faizleri %3,9'da sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtti; iki \u00fcyenin muhalefeti ve net bir sonraki hamle sinyali olmamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. Dolar karar\u0131n ard\u0131ndan yatay seyretti, bu nedenle alt\u0131n \u00fczerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
+  "28.10 22:31 N  GPT  score -0.12 conf 0.42: Fed\u2019in faizleri y\u00fcksek enflasyona ra\u011fmen sabit tutmas\u0131 ve yak\u0131n vadeli y\u00f6n i\u00e7in net sinyal vermemesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir; dolar\u0131n yatay seyri bu etkiyi s\u0131n\u0131rl\u0131yor. \u0130ran sava\u015f\u0131 maliyetlerine ili\u015fkin haber g\u00fcvenli liman talebini desteklese de yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve geli\u015fme"
  ],
  "gold_big": {
   "account": {
@@ -9225,6 +9235,10 @@
    [
     1793212998,
     4961.78
+   ],
+   [
+    1793215919,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10920,6 +10934,10 @@
    [
     1793212998,
     4973.18
+   ],
+   [
+    1793215919,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -12562,6 +12580,10 @@
    [
     1793212998,
     5005.69
+   ],
+   [
+    1793215919,
+    5005.69
    ]
   ]
  },
@@ -14039,6 +14061,10 @@
    [
     1793212998,
     4988.16
+   ],
+   [
+    1793215919,
+    4988.16
    ]
   ],
   "news_calls": {
@@ -15389,6 +15415,10 @@
    [
     1793212998,
     4999.5
+   ],
+   [
+    1793215919,
+    4999.5
    ]
   ],
   "news_calls": {
@@ -16566,6 +16596,10 @@
    ],
    [
     1793212998,
+    99842.81
+   ],
+   [
+    1793215919,
     99842.81
    ]
   ],
