@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 02:49 (İstanbul)
+> Son güncelleme: 28.10.2026 03:23 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (28.10 02:49): Claude puan **-0.10**, güven 0.35 — Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
+Son haber analizi (28.10 03:23): Claude puan **+0.10**, güven 0.35 — İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
 
 Son işlemler:
 
@@ -156,8 +156,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.10 23:05 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-27.10 23:05 N  NEWS (22 new) score +0.05 conf 0.30: Hormuz Boğazı'nda gemi saldırısı ve İran savaşının sürmesi altın için jeopolitik talep desteği sağlıyor. Ancak PCE enflasyonunun yükselmesi beklentisi ve Fed'in enflasyona odaklanma vurgusu sıkı para politikası beklentisini güçlendirip altın üzerinde baskı yaratabilir; bu karışık sinyaller nedeniyle etki sınırlı ve güven düşük.
 27.10 23:42 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 27.10 23:42 N  NEWS (23 new) score -0.20 conf 0.40: Jeopolitik gerilim (Hürmüz, Husiler-Suudi Arabistan saldırıları, Kore yarımadası) altın için güvenli liman talebi yaratıyor, ancak Fed'in şahin tonu (Lockhart'ın aralık ve 1Ç artırım beklentisi), beklenen yükselen PCE enflasyonu ve FOMC öncesi dolar hareketleri reel faiz beklentilerini yükselterek altın üzerinde baskı oluşturuyor. Petrol kaynaklı enflasyon ve şahin Fed, jeopolitik desteği kısmen dengeliyor; net etki hafif negatif ve yüksek belirsizlikli.
 28.10 00:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -171,6 +169,8 @@ Son işlemler:
 28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: İran savaşının sürmesi ve yeniden alevlenme ihtimali güvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutması beklentisi, Aralık'ta faiz artırımı tartışması ve Commerzbank/Standard Chartered gibi analistlerin altın üzerindeki baskıya dikkat çekmesi yükseliş potansiyelini sınırlıyor. Haberlerin birbirine zıt sinyaller vermesi nedeniyle etki hafif negatif ve güven düşük.
 28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 02:49 N  NEWS (15 new) score -0.10 conf 0.35: Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
+28.10 03:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 03:23 N  NEWS (13 new) score +0.10 conf 0.35: İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
