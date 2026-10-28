@@ -3,7 +3,22 @@
   "account": {
    "balance": 4994.995236577692,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "8ec1f119",
+     "symbol": "BTCUSDT",
+     "side": "long",
+     "qty": 0.012341539126659126,
+     "entry": 80946.06653699999,
+     "tp": 81431.742936222,
+     "sl": 80622.282270852,
+     "opened_ms": 1793189691478,
+     "entry_cost": 0.9989990473155385,
+     "max_hold_min": 120,
+     "margin": 998.9990473155384,
+     "note": "RSI 31, above EMA200"
+    }
+   ],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -68,7 +83,7 @@
    ],
    "day": {
     "date": "2026-10-28",
-    "trades": 0,
+    "trades": 1,
     "pnl": 0.0,
     "stopped": false
    },
@@ -1766,6 +1781,10 @@
    [
     1793186802,
     4995.0
+   ],
+   [
+    1793189714,
+    4993.78
    ]
   ]
  },
@@ -4358,40 +4377,37 @@
    [
     1793186802,
     4904.91
+   ],
+   [
+    1793189714,
+    4904.91
    ]
   ],
   "news": {
    "score": -0.3,
    "confidence": 0.5,
-   "reason": "Fed'in bug\u00fcnk\u00fc FOMC karar\u0131 \u00f6ncesinde ABD dolar\u0131 iki haftal\u0131k zirveye yak\u0131n seyrediyor ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndemde; bu, alt\u0131n i\u00e7in \u015fahin ve dolar\u0131 g\u00fc\u00e7lendiren bir tablo. \u0130ran sava\u015f\u0131 ve Katar arabuluculu\u011fu gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, Iran'\u0131n Katar tasla\u011f\u0131n\u0131 reddetmesi ve m\u00fczakerelerin t\u0131kanmas\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131 tutuyor. Karar sonras\u0131 net bir s\u00fcrpriz olmazsa etkinin zay\u0131f kalmas\u0131 beklenir.",
+   "reason": "Fed'in bu hafta faiz karar\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma riskleri (Aral\u0131k'ta olas\u0131 art\u0131\u015f beklentisi) ve ABD dolar\u0131n\u0131n iki haftal\u0131k zirveye yak\u0131n seyretmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak Katar arabuluculu\u011funda sava\u015f\u0131 bitirme teklifi bu etkiyi dengeliyor; dolay\u0131s\u0131yla net etki hafif negatif.",
    "n": 45,
-   "ts": 1793186799312,
-   "new_headlines": 30,
+   "ts": 1793189710623,
+   "new_headlines": 38,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
     "Hisse sat\u0131\u015f\u0131nda g\u00fcvenli liman talebi zay\u0131f kald\u0131; Husi/Ukrayna haberleri fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor"
    ],
    "gpt": {
-    "score": -0.28,
-    "confidence": 0.58,
-    "reason": "Fed \u00f6ncesinde dolar\u0131n iki haftan\u0131n zirvesine yak\u0131n olmas\u0131 ve enflasyon risklerinin Aral\u0131k faiz art\u0131\u015f\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 canl\u0131 tutmas\u0131 alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden alevlenme riski g\u00fcvenli liman talebini destekleyebilir; ancak haberler kar\u0131\u015f\u0131k ve Fed karar\u0131 \u00f6ncesi y\u00f6n b",
+    "score": -0.22,
+    "confidence": 0.56,
+    "reason": "Fed\u2019in faizleri sabit tutmas\u0131 bekleniyor; ancak aral\u0131kta faiz art\u0131r\u0131m\u0131 ihtimali ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n maliyetindeki art\u0131\u015f g\u00fcvenli liman talebini desteklese de olas\u0131 anla\u015fma g\u00f6r\u00fc\u015fmeleri bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Dolar iki haftan\u0131n zirvesine yak\u0131n; alt\u0131n geriliyor",
-     "Fed\u2019in faizi sabit tutmas\u0131 bekleniyor, Aral\u0131k art\u0131\u015f\u0131 olas\u0131l\u0131\u011f\u0131 s\u00fcr\u00fcyor",
-     "\u0130ran sava\u015f\u0131nda olas\u0131 yenilenme riski ve sonu\u00e7suz ate\u015fkes giri\u015fimi"
+     "Dolar iki haftan\u0131n zirvesinde; aral\u0131k faiz art\u0131r\u0131m\u0131 beklentisi g\u00fcndemde",
+     "\u0130ran sava\u015f\u0131n\u0131n maliyeti 47,1 milyar dolara y\u00fckseldi",
+     "\u0130ran\u2019la sava\u015f\u0131 bitirmeye y\u00f6nelik anla\u015fma g\u00f6r\u00fc\u015fmeleri"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792712928340,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi (Suudi sald\u0131r\u0131s\u0131, H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, Petrol 113$ \u00fczerinde) enflasyon ve s\u0131k\u0131 Fed beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n iki ayl\u0131k/11 haftal\u0131k dibe geriledi. Jeopolitik risk g\u00fcvenli liman talebi getirse de piyasa tepkisi \u015fu an sat\u0131\u015f y\u00f6n\u00fcnde, bu nedenle k\u0131sa vadede hafif-orta d\u00fczeyde negatif g\u00f6r\u00fcn\u00fcm var.",
-    "new": 9
-   },
    {
     "ts": 1792713522831,
     "score": -0.5,
@@ -6940,64 +6956,70 @@
     "new": 30,
     "gpt_score": -0.28,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1793189710623,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Fed'in bu hafta faiz karar\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma riskleri (Aral\u0131k'ta olas\u0131 art\u0131\u015f beklentisi) ve ABD dolar\u0131n\u0131n iki haftal\u0131k zirveye yak\u0131n seyretmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak Katar arabuluculu\u011funda sava\u015f\u0131 bitirme teklifi bu etkiyi dengeliyor; dolay\u0131s\u0131yla net etki hafif negatif.",
+    "new": 38,
+    "gpt_score": -0.22,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 19
+   "n": 20
   },
   "news_seen": [
-   "Fed Likely To Hold Rates Steady, Says Wolfe Research\u2019s Roth \u2014 Analysts See Inflation Risks Keeping December Hike In Play - Stocktwits",
+   "Patience expected from Fed in final rate decision before midterms - USA Today",
+   "US Dollar: Hawkish risks keep support \u2013 OCBC - FXStreet",
+   "Pentagon Puts US Iran War Costs at $47.1 Billion, Up More Than 25% Since July - The Media Line",
+   "If You Think Inflation Is Bad Now . . . - The Saturday Evening Post",
+   "OUTRAGE: Utah Utes, BYU FRUSTRATED by Holy War Game Time | ESPN's SEC Move IGNITES Big 12 Fans Fury - kens5.com",
+   "Fed expected to hold rates steady in October, hike seen in December - Quartz Africa",
+   "How to Not Change Your Mind - Foreign Policy",
+   "Middle East latest: Qatari mediators present Iran with deal to end war, official says - The National",
+   "Nuclear-capable Bulava missile hit target at Cape Kanin - The Barents Observer",
+   "Israel's caretaker government can go to war with Iran despite legal constraints - Ynetnews",
+   "What Are the Main Catalysts and Risks for New Found Gold Corp. (NFGC:TSX)? - kalkine.ca",
+   "Can Valor Gold Corp. (VGC:TSXV) Translate Exploration Progress Into Long-Term Value? - kalkine.ca",
+   "What we know so far about deadly Spain train crash",
+   "US weighs lifting sanctions on Russian investment fund amid diesel talks: Report - Anadolu Ajans\u0131",
+   "A Russian cruise missile that doesn\u2019t match its name fell almost intact in Odesa Oblast - Euromaidan Press",
+   "Triangle firm settles with feds over sales to Russian weapons manufacturer - The Business Journals",
+   "Will Robust Q3 GDP Growth Complicate The Inflation Outlook? - Seeking Alpha",
+   "President Pledges to Implement Leader\u2019s Directive to End \u2018Neither War, Nor Peace\u2019 Limbo - \u062a\u0633\u0646\u06cc\u0645",
+   "Iran hails Tehran security talks as a step toward regional dialogue, and other Mideast news - Audacy",
+   "Ukraine Unmasks Who\u2019s Behind Russia\u2019s Starlink Rival Built for War - UNITED24 Media",
+   "Hegseth reaffirms US commitment to Southeast Asia as Iran war and China tensions test regional ties - Firstpost",
+   "I get \u00a34,062 a year and am trying my best - here's what I want from the Budget",
+   "\u201cDon\u2019t Get Me Wrong, I\u2019m Not Without Ego!\u201d: How Nick Mohammed Earned His Rep as the Nicest Man in British Film and TV - The Hollywood Reporter",
+   "The Morning Risk Report: Extreme Networks to Pay $2.5 Million Over Sales to Russian Missile Maker - WSJ",
+   "What\u2019s Inside a Russian Drone? Geran-2 Display in Warsaw Shows Western Chips Shipped Through China - UNITED24 Media",
+   "US Dollar Rises Early Wednesday Ahead of FOMC Meeting Announcement - Yahoo Finance",
+   "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone - NPR",
+   "Euro: Fed focus keeps pressure against US Dollar \u2013 Commerzbank - FXStreet",
+   "Extreme Networks fined for channeling networking equipment to Russian missile contractor - SDxCentral",
+   "Morning Call Sheet: Fed decision, AI spending and geopolitical risks - CNBC",
+   "Putin Praises Ayatollah Ali Khamenei, Urges GECF Members To Counter Unilateral Sanctions: how 8 outlets framed it - NewsCord",
+   "Dollar dips against dong on black market - VnExpress International",
+   "Global stocks get AI boost ahead of packed 48 hours - Yahoo Finance",
+   "Yachting, AML and anti-terrorist financing \u2013 sanctions regime, recent litigation and operational aspects - Stephenson Harwood",
+   "Russia\u2019s Newest Strategic Sub Fires Bulava Missile From Pacific to Arctic Test Range - UNITED24 Media",
+   "Israel\u2019s election has no clear winner \u2014 but Netanyahu looks far from defeated again - NBC News",
+   "Fed Likely To Hold Rates Steady, Says Wolfe Research\u2019s Roth \u2014 Analysts See Inflation Risks Keeping December Hike In Play - TradingView",
    "Seized Western firms chip in for Putin\u2019s war - The Bell",
+   "Fed Watchers Prep for Next Step in the Kevin Warsh \u2018Discovery Process\u2019 - Bloomberg.com",
+   "Analysis-As Iran war drags on, airlines pull back on fuel hedges and warn on fares By Reuters - Investing.com",
    "Ukraine war: ceasefire in Oleshky - eurotopics.net",
    "Cost of Iran war soars to $47.1 billion - KHOU",
+   "Canadian Dollar: Upside limited against US Dollar ahead of BoC decision - MUFG - FXStreet",
    "Presidents get blamed for the economy. A new report argues Trump actually deserves it. - 10News.com",
-   "Gold eases ahead of FOMC decision with USD at two-week high - www.tmgm.com",
-   "Silver price today: FXStreet data shows silver moving lower - www.tmgm.com",
-   "Gold faces two-way risks following a tentative recovery \u2013 OCBC - www.tmgm.com",
-   "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ",
-   "First Thing Today | All eyes on Fed\u2019s Warsh - Pro Farmer",
-   "Middle East latest: Qatari mediators present Iran with deal to end war, official says - The National",
-   "Gold Price Analysis October 2026 as Fed Decision Puts Key Support at Risk - Brave New Coin",
-   "India gold price today, October 28, 2026: Check 24K, 22K and 18K gold rates per 10 grams before buying jewellery - Livemint",
-   "Gold price today, Wednesday, October 28, 2026: Gold prices remain below $4,100 ahead of the Fed rate decision - Yahoo Finance",
-   "Firehawk Raises $150 Million-Plus To Build Out Rocket Motor And Missile Integration Plants - Defense Daily",
-   "Fed Watchers Prep for Next Step in the Kevin Warsh \u2018Discovery Process\u2019 - Bloomberg.com",
-   "North Texas native bringing Vietnam War documentary to Lone Star Film Festival - Fort Worth Star-Telegram",
-   "Iran war has cost $47 billion, U.S. military says - CBS News",
-   "Iran calls Qatar\u2019s draft to end the war \u2018unacceptable\u2019 - NewsNation",
-   "Gold demand gains traction as market enters key festive & wedding season - The Economic Times",
-   "Korean War Jet Aces: McConnell and Jabara in MiG Alley - MiGFlug",
-   "As Iran war drags on, airlines pull back on fuel hedges and warn on fares - Reuters",
-   "US dollar holds near recent highs as investors await Fed decision - Economies.com",
-   "Choosing equity mutual funds: Why long-term returns matter, but 1-year performance also deserves a look; experts explain - Livemint",
-   "You may get the right to find out what your colleagues earn - here's why",
-   "Fed likely to hold rates steady ahead of midterms - The Hill",
-   "Trump, Congress set to clash over Hegseth, Iran war, Ukraine after election - The Hill",
-   "Gold Price Forecast: XAU/USD recovery halts below previous support around $4,070 - FXStreet",
-   "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
-   "Norway and Finland hold rare phone call with Putin: What that means - Al Jazeera",
-   "US deploys Patriot system in Israel amid preparations for Iran strikes - The Jerusalem Post",
-   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-   "World gold price today 28.10: Gold narrows downwards in the afternoon session - Laodong.vn",
-   "The global war on citizenship - Vox",
-   "Basis trade retreat spurs shift into new rate bets - Reuters",
-   "What do you want from the Budget?",
-   "JAAA: Federal Reserve Hikes Should Result In Dividend Growth And Continued Outperformance - Seeking Alpha",
-   "What Will It Take to End Russia\u2019s War? Zelenskyy on What\u2019s at Stake in Abu Dhabi Talks - UNITED24 Media",
-   "Secret Pentagon files reveal Pete Hegseth\u2019s Iran war price tag has surged by over 25 percent - The Independent",
-   "FILE PHOTO: The Federal Reserve building in Washington - The Daily News | Texas' Oldest Newspaper",
-   "Four reasons to start worrying about inflation \u2014 including the end of tariff refunds - MarketWatch",
-   "Gold prices fall by 200 Syrian pounds in local market - \u0633\u0627\u0646\u0627",
-   "Where to Buy Gold in Australia in 2026: Is Now a Good Time? - Mitrade",
-   "Gold Price Today in Cuttack \u2013 18K, 22K & 24K Rate | 28 October 2026 - The Times of India",
-   "Gold rates today (October 28, 2026): Check prices of 24K, 22K, 18K gold in Dubai, Abu Dhabi, Riyadh, Kuwait City, Doha, Muscat - The Economic Times"
+   "Gold eases ahead of FOMC decision with USD at two-week high - www.tmgm.com"
   ]
  },
  "log": [
-  "24.10 13:55 N  NEWS (7 new) score +0.10 conf 0.30: ",
-  "24.10 14:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 14:23 N  NEWS (15 new) score -0.20 conf 0.45: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve 10 haftal\u0131k dibe yak\u0131n seyrediyor; petrol kaynakl\u0131 enflasyon ve faiz art\u0131\u015f\u0131 endi\u015feleri piyasay\u0131 bask\u0131l\u0131yor, bu da k\u0131sa vadede d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc. \u0130ran'da sava\u015f\u0131n yeniden ba\u015flamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki enflasyon/faiz kanal\u0131yla dengeleniyor; Fed-Trump gerilimi ve y\u00fcksek enflasyon beklentileri belirsizli\u011fi art\u0131r\u0131yor. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 ilgisiz ya da fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "24.10 14:56 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 14:56 N  NEWS (14 new) score -0.20 conf 0.35: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla ilgisiz ya da g\u00fcr\u00fclt\u00fc; ana sinyal, petrol kaynakl\u0131 enflasyon ve faiz art\u0131\u015f\u0131 endi\u015felerinin alt\u0131n\u0131 4.000 dolar\u0131n alt\u0131na \u00e7ekti\u011fi y\u00f6n\u00fcnde. \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman talebi deste\u011fi var, ancak Fed'den net bir y\u00f6n veren haber yok ve bu nedenle etki s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "24.10 15:32 N  NEWS (18 new) score -0.35 conf 0.50: Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve en k\u00f6t\u00fc haftalar\u0131ndan birini ya\u015f\u0131yor; petrol kaynakl\u0131 enflasyon ve faiz art\u0131r\u0131m\u0131 endi\u015feleri reel faiz beklentilerini y\u00fckselterek bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanma riski ve Ukrayna'daki yapt\u0131r\u0131mlar g\u00fcvenli liman talebini bir miktar destekliyor, ancak bu etki haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve mevcut momentum a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
@@ -7294,7 +7316,10 @@
   "28.10 13:48 N  NEWS (34 new) score -0.15 conf 0.40: ",
   "28.10 13:48 N  GPT  score -0.15 conf 0.43: \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131 haz\u0131rl\u0131klar\u0131 ve Patriot konu\u015fland\u0131rmas\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Katar\u2019\u0131n bar\u0131\u015f plan\u0131 bu riski k\u0131smen dengeliyor. Fed \u00f6ncesi tahvil getirilerinin y\u00fckselmesi ve alt\u0131ndaki mevcut zay\u0131fl\u0131k k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131y\u0131 biraz a\u011f\u0131r bast\u0131r\u0131yor.",
   "28.10 14:26 N  NEWS (30 new) score -0.30 conf 0.50: Fed'in bug\u00fcnk\u00fc FOMC karar\u0131 \u00f6ncesinde ABD dolar\u0131 iki haftal\u0131k zirveye yak\u0131n seyrediyor ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndemde; bu, alt\u0131n i\u00e7in \u015fahin ve dolar\u0131 g\u00fc\u00e7lendiren bir tablo. \u0130ran sava\u015f\u0131 ve Katar arabuluculu\u011fu gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, Iran'\u0131n Katar tasla\u011f\u0131n\u0131 reddetmesi ve m\u00fczakerelerin t\u0131kanmas\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131 tutuyor. Karar sonras\u0131 net bir s\u00fcrpriz olmazsa etkinin zay\u0131f kalmas\u0131 beklenir.",
-  "28.10 14:26 N  GPT  score -0.28 conf 0.58: Fed \u00f6ncesinde dolar\u0131n iki haftan\u0131n zirvesine yak\u0131n olmas\u0131 ve enflasyon risklerinin Aral\u0131k faiz art\u0131\u015f\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 canl\u0131 tutmas\u0131 alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden alevlenme riski g\u00fcvenli liman talebini destekleyebilir; ancak haberler kar\u0131\u015f\u0131k ve Fed karar\u0131 \u00f6ncesi y\u00f6n b"
+  "28.10 14:26 N  GPT  score -0.28 conf 0.58: Fed \u00f6ncesinde dolar\u0131n iki haftan\u0131n zirvesine yak\u0131n olmas\u0131 ve enflasyon risklerinin Aral\u0131k faiz art\u0131\u015f\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 canl\u0131 tutmas\u0131 alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden alevlenme riski g\u00fcvenli liman talebini destekleyebilir; ancak haberler kar\u0131\u015f\u0131k ve Fed karar\u0131 \u00f6ncesi y\u00f6n b",
+  "28.10 15:15 A  BUY BTCUSDT 999 USD @ 80946.07 (RSI 31)",
+  "28.10 15:15 N  NEWS (38 new) score -0.30 conf 0.50: Fed'in bu hafta faiz karar\u0131 \u00f6ncesi s\u0131k\u0131la\u015fma riskleri (Aral\u0131k'ta olas\u0131 art\u0131\u015f beklentisi) ve ABD dolar\u0131n\u0131n iki haftal\u0131k zirveye yak\u0131n seyretmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak Katar arabuluculu\u011funda sava\u015f\u0131 bitirme teklifi bu etkiyi dengeliyor; dolay\u0131s\u0131yla net etki hafif negatif.",
+  "28.10 15:15 N  GPT  score -0.22 conf 0.56: Fed\u2019in faizleri sabit tutmas\u0131 bekleniyor; ancak aral\u0131kta faiz art\u0131r\u0131m\u0131 ihtimali ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131n\u0131n maliyetindeki art\u0131\u015f g\u00fcvenli liman talebini desteklese de olas\u0131 anla\u015fma g\u00f6r\u00fc\u015fmeleri bu deste\u011fi s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -9030,6 +9055,10 @@
    [
     1793186802,
     4961.78
+   ],
+   [
+    1793189714,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10693,6 +10722,10 @@
    [
     1793186802,
     4973.18
+   ],
+   [
+    1793189714,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -12303,6 +12336,10 @@
    [
     1793186802,
     5005.69
+   ],
+   [
+    1793189714,
+    5005.69
    ]
   ]
  },
@@ -13743,6 +13780,10 @@
    [
     1793186802,
     4991.94
+   ],
+   [
+    1793189714,
+    4997.17
    ]
   ],
   "news_calls": {
@@ -15040,6 +15081,10 @@
    [
     1793186802,
     5010.69
+   ],
+   [
+    1793189714,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -16185,6 +16230,10 @@
    ],
    [
     1793186802,
+    99842.81
+   ],
+   [
+    1793189714,
     99842.81
    ]
   ],
