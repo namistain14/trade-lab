@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 07:43 (İstanbul)
+> Son güncelleme: 28.10.2026 08:24 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -43,26 +43,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -93.01 $ |
-| İşlem sayısı | 0 | 38 |
-| Kazanma oranı | %0.0 | %21.1 |
-| Ödenen komisyon/spread | 0.00 $ | 90.19 $ |
+| Net kâr/zarar | +2.00 $ | -91.01 $ |
+| İşlem sayısı | 1 | 39 |
+| Kazanma oranı | %100.0 | %23.1 |
+| Ödenen komisyon/spread | 2.37 $ | 92.56 $ |
 
-**Hesap değeri: 4,908.44 $** (başlangıç 5,000 $, -91.56 $ / %-1.83)
+**Hesap değeri: 4,907.97 $** (başlangıç 5,000 $, -92.03 $ / %-1.84)
 
-Açık pozisyonlar: PAXGUSDT short @ 4048.14 (TP 4045.56 / SL 4049.61)
+Açık pozisyonlar: PAXGUSDT short @ 4040.88 (TP 4038.31 / SL 4042.35)
 
-Son haber analizi (28.10 07:43): Claude puan **-0.35**, güven 0.50 — Dolar iki haftanın zirvesine yakın seyrediyor ve petrol kaynaklı enflasyon endişeleri, Fed'in faiz artırmayı atlayacağı beklentisiyle birlikte reel faiz ve dolar tarafından altı baskılıyor. İran savaşının maliyeti ve olası yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler büyük ölçüde fiyatlanmış olduğu için etkisi sınırlı kalıyor.
+Son haber analizi (28.10 08:24): Claude puan **-0.35**, güven 0.50 — Dolar endeksi yaklaşık 102,50 ile iki haftanın zirvesine yakın ve Fed kararı öncesinde güçleniyor; petrol kaynaklı enflasyon endişeleri altını baskılıyor ve Fed'in faiz artırmayı atlaması muhtemel görünse de reel faiz beklentileri altın için olumsuz kalıyor. İran'la barış çabaları ve savaş riskinin azalması güvenli liman talebini sınırlıyor. Hindistan'daki yerel fiyat artışları ve Fed kararının belirsizliği yukarı yönlü riski sınırlı tutuyor, bu nedenle güven orta düzeyde.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 28.10 07:50 | PAXGUSDT | short | +2.00 $ | take profit |
 | 27.10 12:19 | PAXGUSDT | short | -3.00 $ | stop |
 | 27.10 11:31 | PAXGUSDT | short | -4.97 $ | stop (gap) |
 | 27.10 06:06 | PAXGUSDT | short | -3.00 $ | stop |
 | 26.10 14:24 | PAXGUSDT | short | -3.00 $ | stop |
-| 26.10 10:21 | PAXGUSDT | short | -3.00 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -158,10 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 02:49 N  NEWS (15 new) score -0.10 conf 0.35: Altın için karışık tablo var: Fed'in faizleri sabit tutması ve enflasyonun öne çıkması, güçlü dolar ve "altın baskı altında" yorumları kısa vadede negatif; İran savaşının sürmesi ve jeopolitik riskler ise destekleyici. Haberlerin çoğu zaten fiyatlanmış olduğu için güven düşük tutuldu.
-28.10 03:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 03:23 N  NEWS (13 new) score +0.10 conf 0.35: İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
 28.10 04:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 04:30 N  NEWS (23 new) score -0.10 conf 0.40: 
 28.10 05:20 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -173,6 +169,10 @@ Son işlemler:
 28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)
 28.10 07:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 07:43 N  NEWS (19 new) score -0.35 conf 0.50: Dolar iki haftanın zirvesine yakın seyrediyor ve petrol kaynaklı enflasyon endişeleri, Fed'in faiz artırmayı atlayacağı beklentisiyle birlikte reel faiz ve dolar tarafından altı baskılıyor. İran savaşının maliyeti ve olası yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler büyük ölçüde fiyatlanmış olduğu için etkisi sınırlı kalıyor.
+28.10 08:24 B1  CLOSE short take profit: +2.00 USD
+28.10 08:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 08:24 N  NEWS (26 new) score -0.35 conf 0.50: Dolar endeksi yaklaşık 102,50 ile iki haftanın zirvesine yakın ve Fed kararı öncesinde güçleniyor; petrol kaynaklı enflasyon endişeleri altını baskılıyor ve Fed'in faiz artırmayı atlaması muhtemel görünse de reel faiz beklentileri altın için olumsuz kalıyor. İran'la barış çabaları ve savaş riskinin azalması güvenli liman talebini sınırlıyor. Hindistan'daki yerel fiyat artışları ve Fed kararının belirsizliği yukarı yönlü riski sınırlı tutuyor, bu nedenle güven orta düzeyde.
+28.10 08:24 B1  SHORT gold 5000 USD x10 @ 4040.88 (TP 4038.31, SL 4042.35; news -0.35)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
