@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 20:09 (İstanbul)
+> Son güncelleme: 28.10.2026 20:56 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -44,28 +44,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -5.08 $ | -98.09 $ |
-| İşlem sayısı | 5 | 43 |
-| Kazanma oranı | %40.0 | %23.3 |
-| Ödenen komisyon/spread | 11.86 $ | 102.05 $ |
+| Net kâr/zarar | -3.08 $ | -96.09 $ |
+| İşlem sayısı | 6 | 44 |
+| Kazanma oranı | %50.0 | %25.0 |
+| Ödenen komisyon/spread | 14.23 $ | 104.42 $ |
 
-**Hesap değeri: 4,901.38 $** (başlangıç 5,000 $, -98.62 $ / %-1.97)
+**Hesap değeri: 4,902.58 $** (başlangıç 5,000 $, -97.42 $ / %-1.95)
 
-Açık pozisyonlar: PAXGUSDT short @ 4046.06 (TP 4043.48 / SL 4047.53)
+Açık pozisyonlar: PAXGUSDT short @ 4043.73 (TP 4041.16 / SL 4045.20)
 
-Son haber analizi (28.10 20:08): Claude puan **-0.20**, güven 0.45 — Fed kararı yaklaşırken piyasa Aralık'ta olası bir faiz artırımını fiyatlıyor ve enflasyon yüksek; bu sıkılaştırma beklentisi altını baskılar. Buna karşılık İran savaşının sürmesi, müzakerelerin tıkanması ve Yemen'deki saldırılar jeopolitik risk primini destekliyor, bu da kısmen dengeliyor.
+Son haber analizi (28.10 20:55): Claude puan **-0.30**, güven 0.50 — Fed kararı öncesinde piyasa, enflasyon nedeniyle faiz artırımı sinyali ihtimalini konuşuyor ve petrolün 100 doları aşması faiz beklentilerini sıkılaştırıyor; bu altın için baskılayıcı. İran savaşının maliyetinin artması güvenli liman talebini bir miktar destekliyor olsa da, altının son dönemde düşüş trendinde olması bu etkiyi sınırlıyor. Fed kararının tonu belirsiz olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.42 — Husilerin Aden havaalanına füze saldırısı iddiası ve İran’ın arabuluculuk önerisini reddetmesi kısa vadeli güvenli liman talebini destekleyebilir. Ancak savaş haberlerinin bir kısmı zaten fiyatlanmış olabilir; Fed kararı öncesindeki faiz ve dolar belirsizliği yükselişi sınırlıyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Petrolün 100 doların üzerinde kalması enflasyon ve Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılıyor; fiyatın 4.000 dolara doğru çekildiği de bu yönü destekliyor. Fed kararı öncesi belirsizlik yüksek, İran savaşıyla ilgili maliyet haberleri ise yeni bir tırmanışt
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 28.10 20:26 | PAXGUSDT | short | +2.00 $ | take profit |
 | 28.10 18:21 | PAXGUSDT | short | -3.00 $ | stop |
 | 28.10 10:24 | PAXGUSDT | short | -3.00 $ | stop |
 | 28.10 09:13 | PAXGUSDT | short | -3.08 $ | stop (gap) |
 | 28.10 08:56 | PAXGUSDT | short | +2.00 $ | take profit |
-| 28.10 07:50 | PAXGUSDT | short | +2.00 $ | take profit |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -137,7 +137,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 7.12 $ |
 
-**Hesap değeri: 5,010.69 $** (başlangıç 5,000 $, +10.69 $ / %+0.21)
+**Hesap değeri: 5,009.50 $** (başlangıç 5,000 $, +9.50 $ / %+0.19)
+
+Açık pozisyonlar: PAXGUSDT short @ 4043.85 (TP 4031.72 / SL 4051.94)
 
 Son işlemler:
 
@@ -161,12 +163,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 17:21 N  GPT  score +0.18 conf 0.34: İran savaşının petrol ve enerji fiyatları üzerindeki etkisi güvenli liman talebini destekleyebilir; ancak yeni barış girişimleri bu desteği sınırlıyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış görünüyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
-28.10 17:21 B4  CLOSE long time limit: -4.01 USD
-28.10 17:21 B6  karar turu: Claude «Fed kararı öncesinde piyasa temkinli ve yatay seyrediyor; net bir fırsat olmadığı için beklemek en doğrusu.» / GPT «Endeksler kararsız ve teknoloji hisseleri zayıf; Fed kararı öncesinde haber ile fiyatın birlikte doğruladığı net bir avantaj bulunmadığından yeni pozisyon açmıyorum.»
-28.10 18:18 N  NEWS (42 new) score -0.25 conf 0.50: Fed'in bugün faiz kararını bekleyen piyasada, Fed'in bekleneni (duraklamayı) koruyup Aralık'ta olası bir faiz artırımını canlı tutması ve enflasyonun %3,7 seviyesinde olması altın için baskı oluşturuyor. Buna karşılık İran savaşının sürmesi, Putin'in nükleer kapasiteli füze testi ve NATO gerginliği güvenli liman talebini destekliyor; bu nedenle etki hafif negatif, güven orta düzeyde.
-28.10 18:18 N  GPT  score +0.12 conf 0.34: İran savaşı çevresindeki tırmanma uyarıları ve Rusya’nın nükleer kapasiteli füze denemesi kısa vadede güvenli liman talebini sınırlı destekleyebilir. Ancak Fed kararı öncesi olası şahin beklentiler altını baskılayabilir; başlıklar karışık ve bazıları dolaylı olduğundan yön güveni düşük.
-28.10 18:18 B1  SHORT gold 5000 USD x10 @ 4046.91 (TP 4044.33, SL 4048.38; news -0.25)
 28.10 18:18 B6  karar turu: Claude «Piyasa Fed kararı öncesi düşük oynaklıkla yatay seyrediyor; net bir avantaj olmadığı için beklemek en doğrusu.» / GPT «Endekslerdeki dar bant ve güçlü yeni şirket katalizörlerinin eksikliği nedeniyle, kaldıraçla yüzde 1,5 hedefli işlem açmak yerine beklemek daha disiplinli.»
 28.10 19:13 B1  CLOSE short stop: -3.00 USD
 28.10 19:13 N  NEWS (33 new) score -0.10 conf 0.40: Fed'in faiz kararı öncesinde beklenen duruş (faiz sabit) büyük ölçüde fiyatlanmış; ancak enflasyonun yükselmesi ve bazı haberlerde faiz artırımı ihtimali, Fed'den sert (şahin) bir ton riskini artırarak altın için kısa vadede baskı yaratabilir. İran savaşı ve müzakerelerin tıkanması güvenli liman talebini destekliyor, fakat bu etki mevcut haberlerde zaten yer aldığından sınırlı kalıyor; net etki hafif negatif.
@@ -176,6 +172,12 @@ Son işlemler:
 28.10 20:09 N  GPT  score +0.25 conf 0.42: Husilerin Aden havaalanına füze saldırısı iddiası ve İran’ın arabuluculuk önerisini reddetmesi kısa vadeli güvenli liman talebini destekleyebilir. Ancak savaş haberlerinin bir kısmı zaten fiyatlanmış olabilir; Fed kararı öncesindeki faiz ve dolar belirsizliği yükselişi sınırlıyor.
 28.10 20:09 B1  SHORT gold 5000 USD x10 @ 4046.06 (TP 4043.48, SL 4047.53; news -0.20)
 28.10 20:09 B6  karar turu: Claude «Fed faiz kararı ve İran/petrol belirsizliği öncesinde piyasa dar bantta bekleme modunda, işlem için net bir avantaj yok.» / GPT «Endekslerde dar bant ve başarısız yukarı ataklar görülürken Fed kararı beklentisi ile jeopolitik belirsizlik, kaldıraçlı ve yüzde 1,5 hedefli işlemlerde beklemeyi destekliyor.»
+28.10 20:56 B1  CLOSE short take profit: +2.00 USD
+28.10 20:56 N  NEWS (31 new) score -0.30 conf 0.50: Fed kararı öncesinde piyasa, enflasyon nedeniyle faiz artırımı sinyali ihtimalini konuşuyor ve petrolün 100 doları aşması faiz beklentilerini sıkılaştırıyor; bu altın için baskılayıcı. İran savaşının maliyetinin artması güvenli liman talebini bir miktar destekliyor olsa da, altının son dönemde düşüş trendinde olması bu etkiyi sınırlıyor. Fed kararının tonu belirsiz olduğu için güven orta düzeyde.
+28.10 20:56 N  GPT  score -0.35 conf 0.58: Petrolün 100 doların üzerinde kalması enflasyon ve Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılıyor; fiyatın 4.000 dolara doğru çekildiği de bu yönü destekliyor. Fed kararı öncesi belirsizlik yüksek, İran savaşıyla ilgili maliyet haberleri ise yeni bir tırmanışt
+28.10 20:56 B1  SHORT gold 5000 USD x10 @ 4043.73 (TP 4041.16, SL 4045.20; news -0.30)
+28.10 20:56 B5  SHORT gold 5000 USD x10 @ 4043.85 (TP 4031.72, SL 4051.94; news -0.32)
+28.10 20:56 B6  karar turu: Claude «Piyasa saat 14:00'teki Fed kararı öncesinde dar bantta bekliyor; petrol 102 doların üzerinde ve Fed sonrası sert oynaklık riski nedeniyle şimdi pozisyon açmamak en doğrusu.» / GPT «Endeksler yatay ve fiyat-haber uyumu zayıfken, Fed kararı beklentisi ile jeopolitik belirsizlik altında kaldıraçlı işlem açmak için net avantaj yok.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
