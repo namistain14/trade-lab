@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 04:30 (İstanbul)
+> Son güncelleme: 28.10.2026 05:20 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,7 +50,7 @@ Son işlemler:
 
 **Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
 
-Son haber analizi (28.10 04:30): Claude puan **-0.10**, güven 0.40 — İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
+Son haber analizi (28.10 05:20): Claude puan **-0.05**, güven 0.30 — İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
 
 Son işlemler:
 
@@ -156,8 +156,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 00:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 00:18 N  NEWS (18 new) score -0.10 conf 0.30: İran savaşı ve Hürmüz'de gemi saldırıları jeopolitik risk yaratıp altı destekliyor; ancak Fed'in faiz kararı öncesi şahin beklentiler, beklenen yükselen PCE enflasyonu ve dolar/tahvil tarafındaki baskı altın üzerinde ters yönde etki yaratıyor. Haberlerin çoğu zaten fiyatlanmış veya birbiriyle çelişkili olduğundan net etki hafif negatif, düşük güvenle değerlendirildi.
 28.10 00:58 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 00:58 N  NEWS (15 new) score +0.05 conf 0.30: Fed kararı öncesinde altın 4.050 doları aşarak yükseldi, ancak Fed'in sonucu henüz bilinmiyor ve PCE beklentisi enflasyonun yükseldiğine işaret ediyor; bu da sert bir faiz beklentisi riskini artırıyor. İran savaşı ve jeopolitik gerginlik güvenli liman talebini destekleyebilir, fakat bu haberler büyük ölçüde fiyatlanmış durumda ve risk iştahı (borsa yükselişi) altını sınırlıyor; net etki hafif pozitif ama belirsiz.
 28.10 01:37 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -171,6 +169,8 @@ Son işlemler:
 28.10 03:23 N  NEWS (13 new) score +0.10 conf 0.35: İran savaşının maliyetinin 47 milyar dolara çıkması ve İsrail seçimindeki belirsizlik sınırlı güvenli liman talebi yaratabilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış. Fed'in faizleri sabit tutması beklentisi ve dolarda haftalık zayıflama karışık bir tablo çiziyor; Commerzbank'ın düşük reel getirilere rağmen altın üzerindeki baskıyı vurgulaması da temkin gerektiriyor.
 28.10 04:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 04:30 N  NEWS (23 new) score -0.10 conf 0.40: 
+28.10 05:20 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 05:20 N  NEWS (25 new) score -0.05 conf 0.30: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

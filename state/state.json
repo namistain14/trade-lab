@@ -1718,6 +1718,10 @@
    [
     1793151022,
     4995.0
+   ],
+   [
+    1793154047,
+    4995.0
    ]
   ]
  },
@@ -4178,15 +4182,19 @@
    [
     1793151022,
     4906.99
+   ],
+   [
+    1793154047,
+    4906.99
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.4,
+   "score": -0.05,
+   "confidence": 0.3,
    "reason": "\u0130ran sava\u015f\u0131n\u0131n maliyetinin 47 milyar dolara \u00e7\u0131kmas\u0131 ve \u0130srail se\u00e7imindeki belirsizlik s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f. Fed'in faizleri sabit tutmas\u0131 beklentisi ve dolarda haftal\u0131k zay\u0131flama kar\u0131\u015f\u0131k bir tablo \u00e7iziyor; Commerzbank'\u0131n d\u00fc\u015f\u00fck reel getirilere ra\u011fmen alt\u0131n \u00fczerindeki bask\u0131y\u0131 vurgulamas\u0131 da temkin gerektiriyor.",
    "n": 45,
-   "ts": 1793151019250,
-   "new_headlines": 23,
+   "ts": 1793154044478,
+   "new_headlines": 25,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
@@ -4195,13 +4203,6 @@
    "gpt": null
   },
   "news_history": [
-   {
-    "ts": 1792705183308,
-    "score": 0.25,
-    "confidence": 0.45,
-    "reason": "",
-    "new": 12
-   },
    {
     "ts": 1792705756940,
     "score": 0.1,
@@ -6726,63 +6727,70 @@
     "new": 23,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793154044478,
+    "score": -0.05,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 25,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 7
+   "n": 8
   },
   "news_seen": [
-   "Australian Dollar hits one-month high on hot CPI as FOMC looms - FXStreet",
+   "Stocks get AI lift, dollar holds steady ahead of Fed decision - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Gold and silver price today, October 28: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
+   "World Cup Workers' Attys Deserve Sanctions, Colo. Cos. Say - Law360",
+   "\u201cCoward\u201d Finds a Fragile Love in the Shadow of the First World War - front mezz junkies",
    "El-Sayed distances himself from ad tying Gaza war to increased costs - The Washington Post",
-   "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks - The National",
-   "US military cost of Iran war tops $47B, Pentagon tells Congress - USA Today",
-   "\ud83c\uddf8\ud83c\udde6 \ud83c\uddfe\ud83c\uddea \ud83c\uddee\ud83c\uddf7 The Houthis say a ballistic missile hit Saudi Arabia\u2019s biggest oil refinery... a day after Riyadh reportedly offered them $1 billion to stop. Riyadh hasn\u2019t confirmed the strike on Ras Tanura, though a source told Bloomberg a fire near the terminal was p - X",
-   "The Latest: Trump goes to Texas as his Iran war damages GOP hopes for Congress - FOX 56 News",
-   "WORLD WAR II, SECRET ALLIANCES AND FAMILY LEGACIES COLLIDE IN NEW HISTORICAL NOVEL - The National Law Review",
+   "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg.com",
+   "US-Iran War Live Updates: Iran says oil tanker caught fire after hitting mines east of Hormuz - The Indian Express",
+   "AI Stocks Rally as Dollar Steadies Ahead of Federal Reserve Decision - Global Banking & Finance Review",
+   "Dollar holds gains ahead of Fed policy signal, RBNZ decision - SRN News",
+   "New Zealand Dollar sinks to sub-0.5600 levels vs USD after RBNZ surprise on-hold decision - FXStreet",
+   "US Fed expected to hold rates steady ahead of key midterm elections - France 24",
+   "Stocks get AI lift, dollar holds steady ahead of Fed decision - Reuters",
+   "Ukraine war briefing: Kyiv retaking territory, Zelenskyy says, as Nordic leaders urge Putin to end the conflict - The Guardian",
+   "Iran War Costs Each Canadian an Extra $587 for Fuel, 7x the Global Average - The Energy Mix",
+   "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Red Lake Nation News",
+   "Voters rebuke Netanyahu but exit polls suggest no clear winner in Israel\u2019s election - AP News",
+   "JPMorgan Seeks Sanctions In Ex-Banker's Bias Suit - Law360",
    "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms - WSJ",
+   "Chinese Buyers Pile Into Gold as Price Slips Below $4,000 - Seoul Economic Daily",
+   "\u2018The Mosquito Bowl\u2019: Peter Berg On War And Brotherhood - Patheos",
+   "Ringgit opens higher against US dollar for eight consecutive trading days - The Malaysian Reserve",
+   "Global gold prices rose due to falling oil prices ahead of the Fed meeting. - Vietnam.vn",
+   "US military cost of Iran war tops $47B, Pentagon tells Congress - USA Today",
+   "Iran War Cost Rises to $47.1 Billion, Pentagon Told Lawmakers - The New York Times",
+   "WORLD WAR II, SECRET ALLIANCES AND FAMILY LEGACIES COLLIDE IN NEW HISTORICAL NOVEL - The National Law Review",
+   "OZM clocks 95% gold recovery in heap-leach tests - The Australian",
+   "Dollar Holds A Two-Week High As Markets Wait On The Fed - Finimize",
    "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Reuters",
    "Dateline pledges to deliver US gold vision of late chairman - SMH.com.au",
-   "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg.com",
-   "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed - Bloomberg.com",
+   "Dollar holds gains ahead of Fed policy signal, RBNZ decision - Miami Herald",
    "Gold\u2019s worst may be over as risks are \u2018priced in\u2019, analyst says - Mining.com.au",
-   "Voters rebuke Netanyahu but exit polls suggest no clear winner in Israel\u2019s election - AP News",
-   "Can the Aussie Dollar hold above 0.7000 as Fed, RBA and inflation tests approach? - www.tmgm.com",
+   "How popular is the Iran War? - Silver Bulletin",
    "APTOPIX Iran War - Post Register",
    "Iran war cost increases to $47 billion - The Hill",
    "Why is the Gold Price Falling? 4 Key Reasons - Equitymaster",
    "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - Arab News",
    "Villegas cites Central Valley cost pressures, points to Iran war ahead of midterms - KBAK",
-   "Dollar holds gains ahead of Fed policy signal, RBNZ decision - Reuters",
+   "Dollar steady ahead of Fed decision, kiwi slumps after RBNZ holds - Reuters",
+   "Singapore Dollar: Is the range-bound bias against US Dollar still intact? \u2013 UOB - www.tmgm.com",
    "Gold prices today (October 28): Rising again - Vietnam.vn",
    "Pentagon picks Poland for new missile maintenance facility - The Hill",
    "Warburg Pincus Sweetens Ingenia Offer, Ramps Up Bidding War - Bloomberg.com",
    "US costs of Iran war rise to over $47 billion, according to Pentagon estimate - The Times of Israel",
    "Watch: What happens now after close vote in Israeli election?",
-   "Tax on banks, energy bill help and minimum wage rise - what could be in the Budget?",
-   "I get \u00a34,062 a year and am trying my best - here's what I want from the Budget",
-   "'An annoying buzz': The search for stealthier drones",
-   "Gold (XAU/USD) Price Forecast: Short-Term Strength Faces Major Resistance - FXEmpire",
-   "Singapore Dollar: Range-bound bias holds against US Dollar \u2013 UOB - FXStreet",
-   "Gold rises above $4,050 ahead of Fed rate decision | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Anduril\u2019s Baltimore County shipyard project draws war industry criticism - WYPR",
-   "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-   "Historical society to lead free Civil War veteran honor walk event - Idaho State Journal",
-   "Russo-Ukrainian war, day 1707: UN commission finds Russia\u2019s strikes on Ukraine\u2019s power grid are crimes against humanity - Euromaidan Press",
-   "Gold misses the $5,000 mark; analysts await three conditions for a reversal. - Vietnam.vn",
-   "Gold price forecast: why inflation and rising yields are weighing on gold - Equiti Global",
-   "Ghost hunter investigates paranormal claims at New Mexico Civil War site - KOAT",
-   "Russia Ukraine War Melania Trump - Columbia Missourian",
-   "\u2018It was very loud\u2019: Neighbors detail moment they awoke to FBI executing search, arrest warrant at Mount Juliet home - WSMV",
-   "Fed likely to wait on another rate hike as inflation pressures mount - KATU",
-   "Was King Solomon The Richest Person Who Ever Lived? - Celebrity Net Worth",
-   "Gold rises above $4,050 ahead of Fed rate decision - FXStreet",
-   "2.7 Million Ounces of Gold Antimony Wild Card & Major Test Ahead - Streetwise Reports"
+   "Tax on banks, energy bill help and minimum wage rise - what could be in the Budget?"
   ]
  },
  "log": [
-  "24.10 11:04 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "24.10 11:04 N  NEWS (4 new) score +0.05 conf 0.35: \u0130ran'da sava\u015f\u0131n yeniden ba\u015flamas\u0131 ve Brent petrol\u00fcn 117 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 jeopolitik korku nedeniyle alt\u0131 destekleyebilir. Ancak petrol kaynakl\u0131 enflasyon, s\u0131k\u0131 Fed beklentilerini g\u00fc\u00e7lendirip alt\u0131 bask\u0131layabilir ve alt\u0131n zaten d\u00fc\u015f\u00fc\u015f trendinde, 4.000 dolar deste\u011fini test ediyor; bu nedenle net etki zay\u0131f ve belirsiz.",
   "24.10 11:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 11:11 N  NEWS (10 new) score -0.15 conf 0.40: Alt\u0131n k\u0131sa vadede hafif negatif g\u00f6r\u00fcn\u00fcyor: fiyat 4.000$ deste\u011fini test ediyor, d\u00fc\u015f\u00fc\u015f trendi ve ay\u0131 bo\u015fluklar\u0131 s\u00fcr\u00fcyor, Fed toplant\u0131s\u0131 \u00f6ncesi enflasyon ve kazan\u00e7 haftas\u0131 piyasay\u0131 temkinli tutuyor. \u0130ran sava\u015f\u0131 ve Brent'in 117$'\u0131n \u00fczerine \u00e7\u0131kmas\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak petrol kaynakl\u0131 enflasyon Fed'i daha s\u0131k\u0131 tutabilece\u011fi i\u00e7in bu etki s\u0131n\u0131rl\u0131 kal\u0131yor; ayr\u0131ca gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu eski veya fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
   "24.10 11:22 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -7080,7 +7088,9 @@
   "28.10 03:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "28.10 03:23 N  NEWS (13 new) score +0.10 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n maliyetinin 47 milyar dolara \u00e7\u0131kmas\u0131 ve \u0130srail se\u00e7imindeki belirsizlik s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f. Fed'in faizleri sabit tutmas\u0131 beklentisi ve dolarda haftal\u0131k zay\u0131flama kar\u0131\u015f\u0131k bir tablo \u00e7iziyor; Commerzbank'\u0131n d\u00fc\u015f\u00fck reel getirilere ra\u011fmen alt\u0131n \u00fczerindeki bask\u0131y\u0131 vurgulamas\u0131 da temkin gerektiriyor.",
   "28.10 04:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "28.10 04:30 N  NEWS (23 new) score -0.10 conf 0.40: "
+  "28.10 04:30 N  NEWS (23 new) score -0.10 conf 0.40: ",
+  "28.10 05:20 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "28.10 05:20 N  NEWS (25 new) score -0.05 conf 0.30: "
  ],
  "gold_big": {
   "account": {
@@ -8768,6 +8778,10 @@
    [
     1793151022,
     4961.78
+   ],
+   [
+    1793154047,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10383,6 +10397,10 @@
    [
     1793151022,
     4973.18
+   ],
+   [
+    1793154047,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11945,6 +11963,10 @@
    [
     1793151022,
     5005.69
+   ],
+   [
+    1793154047,
+    5005.69
    ]
   ]
  },
@@ -13321,6 +13343,10 @@
    [
     1793151022,
     4992.17
+   ],
+   [
+    1793154047,
+    4992.17
    ]
   ],
   "news_calls": {
@@ -14570,6 +14596,10 @@
    [
     1793151022,
     5010.69
+   ],
+   [
+    1793154047,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -15667,6 +15697,10 @@
    ],
    [
     1793151022,
+    99842.81
+   ],
+   [
+    1793154047,
     99842.81
    ]
   ],
