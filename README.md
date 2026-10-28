@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 10:18 (İstanbul)
+> Son güncelleme: 28.10.2026 11:15 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -43,26 +43,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.92 $ | -92.09 $ |
-| İşlem sayısı | 3 | 41 |
-| Kazanma oranı | %66.7 | %24.4 |
-| Ödenen komisyon/spread | 7.12 $ | 97.30 $ |
+| Net kâr/zarar | -2.08 $ | -95.09 $ |
+| İşlem sayısı | 4 | 42 |
+| Kazanma oranı | %50.0 | %23.8 |
+| Ödenen komisyon/spread | 9.49 $ | 99.68 $ |
 
-**Hesap değeri: 4,906.73 $** (başlangıç 5,000 $, -93.27 $ / %-1.87)
+**Hesap değeri: 4,904.91 $** (başlangıç 5,000 $, -95.09 $ / %-1.90)
 
-Açık pozisyonlar: PAXGUSDT short @ 4039.67 (TP 4037.10 / SL 4041.14)
+Son haber analizi (28.10 11:15): Claude puan **-0.40**, güven 0.55 — Fed öncesi dolar güçleniyor, Treasury getirileri yükseliyor ve piyasa Fed'in faiz artırımına yönelebileceğini fiyatlıyor; enflasyonun %3 üzerinde seyretmesi bu hawkish görünümü destekliyor. İran savaşı ve jeopolitik riskler güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış görünüyor, bu nedenle kısa vadede baskı altındaki altın fiyatı için ağırlıklı olarak negatif bir tablo var.
 
-Son haber analizi (28.10 10:18): Claude puan **-0.35**, güven 0.50 — Fed kararı öncesinde dolar iki haftalık zirveye yakın seyrediyor ve piyasa faiz artırımı ihtimalini tartışıyor; petrol kaynaklı enflasyon endişeleri reel faiz beklentilerini sertleştirdiği için altın üzerinde baskı oluşturuyor. İran savaşı ve Orta Doğu gerilimi güvenli liman talebi yaratabilse de bu etki bu başlıklarda henüz fiyatlanmış görünmüyor, bu nedenle etki sınırlı kalabilir. Fed'in beklenmedik şekilde yumuşak çıkması ya da savaşta ciddi tırmanma gelmesi durumunda görüş hızla tersine dönebilir.
+GPT (gpt-6-luna): puan **-0.45**, güven 0.65 — Fed kararı öncesinde doların güçlenmesi ve ABD tahvil getirilerinin yükselmesi, kısa vadede altını baskılıyor; fiyatın zaten düşmüş olması ve jeopolitik riskler aşağı yönü sınırlayabilir. Karar yaklaşırken yönün hızla değişme ihtimali nedeniyle güven orta düzeyde.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 28.10 10:24 | PAXGUSDT | short | -3.00 $ | stop |
 | 28.10 09:13 | PAXGUSDT | short | -3.08 $ | stop (gap) |
 | 28.10 08:56 | PAXGUSDT | short | +2.00 $ | take profit |
 | 28.10 07:50 | PAXGUSDT | short | +2.00 $ | take profit |
 | 27.10 12:19 | PAXGUSDT | short | -3.00 $ | stop |
-| 27.10 11:31 | PAXGUSDT | short | -4.97 $ | stop (gap) |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -94,7 +94,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %33.3 |
 | Ödenen komisyon/spread | 2.37 $ | 14.23 $ |
 
-**Hesap değeri: 4,992.17 $** (başlangıç 5,000 $, -7.83 $ / %-0.16)
+**Hesap değeri: 4,990.98 $** (başlangıç 5,000 $, -9.02 $ / %-0.18)
+
+Açık pozisyonlar: PAXGUSDT long @ 4053.84 (TP 4066.00 / SL 4045.73)
 
 Son işlemler:
 
@@ -158,10 +160,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)
-28.10 07:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 07:43 N  NEWS (19 new) score -0.35 conf 0.50: Dolar iki haftanın zirvesine yakın seyrediyor ve petrol kaynaklı enflasyon endişeleri, Fed'in faiz artırmayı atlayacağı beklentisiyle birlikte reel faiz ve dolar tarafından altı baskılıyor. İran savaşının maliyeti ve olası yeniden alevlenme haberleri jeopolitik talebi destekliyor, ancak bu riskler büyük ölçüde fiyatlanmış olduğu için etkisi sınırlı kalıyor.
-28.10 08:24 B1  CLOSE short take profit: +2.00 USD
 28.10 08:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 08:24 N  NEWS (26 new) score -0.35 conf 0.50: Dolar endeksi yaklaşık 102,50 ile iki haftanın zirvesine yakın ve Fed kararı öncesinde güçleniyor; petrol kaynaklı enflasyon endişeleri altını baskılıyor ve Fed'in faiz artırmayı atlaması muhtemel görünse de reel faiz beklentileri altın için olumsuz kalıyor. İran'la barış çabaları ve savaş riskinin azalması güvenli liman talebini sınırlıyor. Hindistan'daki yerel fiyat artışları ve Fed kararının belirsizliği yukarı yönlü riski sınırlı tutuyor, bu nedenle güven orta düzeyde.
 28.10 08:24 B1  SHORT gold 5000 USD x10 @ 4040.88 (TP 4038.31, SL 4042.35; news -0.35)
@@ -173,6 +171,10 @@ Son işlemler:
 28.10 10:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 10:18 N  NEWS (32 new) score -0.35 conf 0.50: Fed kararı öncesinde dolar iki haftalık zirveye yakın seyrediyor ve piyasa faiz artırımı ihtimalini tartışıyor; petrol kaynaklı enflasyon endişeleri reel faiz beklentilerini sertleştirdiği için altın üzerinde baskı oluşturuyor. İran savaşı ve Orta Doğu gerilimi güvenli liman talebi yaratabilse de bu etki bu başlıklarda henüz fiyatlanmış görünmüyor, bu nedenle etki sınırlı kalabilir. Fed'in beklenmedik şekilde yumuşak çıkması ya da savaşta ciddi tırmanma gelmesi durumunda görüş hızla tersine dönebilir.
 28.10 10:18 B1  SHORT gold 5000 USD x10 @ 4039.67 (TP 4037.10, SL 4041.14; news -0.35)
+28.10 11:15 B1  CLOSE short stop: -3.00 USD
+28.10 11:15 N  NEWS (33 new) score -0.40 conf 0.55: Fed öncesi dolar güçleniyor, Treasury getirileri yükseliyor ve piyasa Fed'in faiz artırımına yönelebileceğini fiyatlıyor; enflasyonun %3 üzerinde seyretmesi bu hawkish görünümü destekliyor. İran savaşı ve jeopolitik riskler güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış görünüyor, bu nedenle kısa vadede baskı altındaki altın fiyatı için ağırlıklı olarak negatif bir tablo var.
+28.10 11:15 N  GPT  score -0.45 conf 0.65: Fed kararı öncesinde doların güçlenmesi ve ABD tahvil getirilerinin yükselmesi, kısa vadede altını baskılıyor; fiyatın zaten düşmüş olması ve jeopolitik riskler aşağı yönü sınırlayabilir. Karar yaklaşırken yönün hızla değişme ihtimali nedeniyle güven orta düzeyde.
+28.10 11:15 B4  LONG gold 5000 USD x10 @ 4053.84 (TP 4066.00, SL 4045.73; news +0.40)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
