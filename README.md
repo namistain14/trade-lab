@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 00:46 (İstanbul)
+> Son güncelleme: 29.10.2026 01:24 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -44,28 +44,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -99.09 $ |
-| İşlem sayısı | 0 | 45 |
-| Kazanma oranı | %0.0 | %24.4 |
-| Ödenen komisyon/spread | 0.00 $ | 106.79 $ |
+| Net kâr/zarar | -3.00 $ | -102.09 $ |
+| İşlem sayısı | 1 | 46 |
+| Kazanma oranı | %0.0 | %23.9 |
+| Ödenen komisyon/spread | 2.37 $ | 109.16 $ |
 
-**Hesap değeri: 4,899.73 $** (başlangıç 5,000 $, -100.27 $ / %-2.01)
+**Hesap değeri: 4,897.91 $** (başlangıç 5,000 $, -102.09 $ / %-2.04)
 
-Açık pozisyonlar: PAXGUSDT long @ 4067.95 (TP 4070.54 / SL 4066.48)
+Son haber analizi (29.10 01:24): Claude puan **-0.20**, güven 0.40 — Fed faiz kararını sabit tuttu ve enflasyonu "yüksek" olarak nitelendirdi; bu, faiz indirimi beklentilerini geciktirdiği için altın açısından hafif baskılayıcı. Iran savaşının maliyetinin artması güvenli liman talebini destekliyor ancak etkisi sınırlı ve zaten fiyatlanmış görünüyor; JPMorgan'ın kısa vadeli düşüş riskine dair uyarısı da negatif yönde.
 
-Son haber analizi (29.10 00:46): Claude puan **+0.30**, güven 0.50 — Fed faizleri sabit tuttu ve haber akışına göre dolar Fed kararının ardından düştü; bu, altın için kısa vadede destekleyici. İran savaşının sürmesi, arabuluculuğun tıkanması ve savaş maliyetlerinin artması güvenli liman talebini de destekliyor. Ancak "yüksek enflasyon" vurgusu ve Warsh'un ılımlı tonu faiz beklentilerini net dovish yapmadığından etki sınırlı; ayrıca Fed haberinin fiyat tepkisi büyük ölçüde zaten yansımış olabilir.
-
-GPT (gpt-6-luna): puan **+0.32**, güven 0.58 — Fed’in faizleri sabit tutmasının ardından doların gerilemesi altını kısa vadede destekleyebilir; İran’la arabuluculukta ilerleme olmaması da güvenli liman talebini artırıyor. Ancak enflasyonun yüksek seyretmesi ve haberlerin etkisinin büyük ölçüde fiyatlanmış olma ihtimali yükselişi sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.43 — Fed’in faizleri yüksek enflasyona rağmen sabit tutması, kısa vadede faiz indirimi beklentilerini sınırlayıp dolar ve tahvil getirilerini destekleyerek altına hafif baskı yapabilir. İran savaşı kaynaklı riskler güvenli liman talebi sağlayabilir; bu nedenle yön ve etki belirsiz.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 29.10 01:04 | PAXGUSDT | long | -3.00 $ | stop |
 | 28.10 20:57 | PAXGUSDT | short | -3.00 $ | stop |
 | 28.10 20:26 | PAXGUSDT | short | +2.00 $ | take profit |
 | 28.10 18:21 | PAXGUSDT | short | -3.00 $ | stop |
 | 28.10 10:24 | PAXGUSDT | short | -3.00 $ | stop |
-| 28.10 09:13 | PAXGUSDT | short | -3.08 $ | stop (gap) |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -137,7 +135,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 9.49 $ |
 
-**Hesap değeri: 4,998.32 $** (başlangıç 5,000 $, -1.68 $ / %-0.03)
+**Hesap değeri: 4,991.64 $** (başlangıç 5,000 $, -8.36 $ / %-0.17)
 
 Açık pozisyonlar: PAXGUSDT long @ 4067.95 (TP 4080.16 / SL 4059.82)
 
@@ -164,9 +162,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 21:43 B1  CLOSE short stop: -3.00 USD
-28.10 21:43 N  NEWS (43 new) score +0.05 conf 0.35: Fed faizleri 3.75-4.00% seviyesinde sabit tuttu; karar beklenen yönde çıktı ve "daha fazla veri" vurgusu net bir sıkılaşma ya da gevşeme sinyali vermedi, bu da nötr. Kitco'ya göre altın karar sonrası 4.035 dolara geriledi, yani haber büyük ölçüde fiyatlanmış durumda. İran savaşı maliyetleri ve ABD'nin Körfez ülkelerine olası İran saldırısı konusunda uyarısı jeopolitik risk primi açısından hafif destekleyici, ancak etkisi sınırlı.
-28.10 21:43 N  GPT  score -0.30 conf 0.58: Fed’in beklenen faiz kararını değiştirmemesi tek başına sınırlı etki yaratırken, enflasyonun yüksek kalması ve sonraki adımlara dair net sinyal verilmemesi altın için hafif baskı oluşturuyor; karar sonrası düşüş de bu yönde. İran kaynaklı olası gerilim güvenli liman talebiyle düşüşü sınırlayabilir.
 28.10 21:43 B5  CLOSE short stop: -11.19 USD
 28.10 21:43 B6  karar turu: Claude «Fed faizi sabit tuttu ancak Warsh'ın şahin tonu ve iki artış yönlü muhalif oy, basın toplantısı süresince oynaklık yaratıyor; net avantaj olmadığından kenarda kalmak en doğrusu.» / GPT «Fed açıklamaları sürerken endekslerdeki hızlı toparlanma ile enflasyon ve jeopolitik riskler çatışıyor; kaldıraçlı yeni işlem için haber ve fiyat teyidi yetersiz.»
 28.10 22:31 N  NEWS (35 new) score -0.15 conf 0.40: Fed faizleri %3,9'da sabit tuttu ve enflasyonun yüksek kaldığını belirtti; iki üyenin muhalefeti ve net bir sonraki hamle sinyali olmaması karışık bir tablo yaratıyor. Dolar kararın ardından yatay seyretti, bu nedenle altın üzerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle güven düşük.
@@ -179,6 +174,9 @@ Son işlemler:
 29.10 00:46 N  GPT  score +0.32 conf 0.58: Fed’in faizleri sabit tutmasının ardından doların gerilemesi altını kısa vadede destekleyebilir; İran’la arabuluculukta ilerleme olmaması da güvenli liman talebini artırıyor. Ancak enflasyonun yüksek seyretmesi ve haberlerin etkisinin büyük ölçüde fiyatlanmış olma ihtimali yükselişi sınırlayabilir.
 29.10 00:46 B1  LONG gold 5000 USD x10 @ 4067.95 (TP 4070.54, SL 4066.48; news +0.30)
 29.10 00:46 B5  LONG gold 5000 USD x10 @ 4067.95 (TP 4080.16, SL 4059.82; news +0.31)
+29.10 01:24 B1  CLOSE long stop: -3.00 USD
+29.10 01:24 N  NEWS (23 new) score -0.20 conf 0.40: Fed faiz kararını sabit tuttu ve enflasyonu "yüksek" olarak nitelendirdi; bu, faiz indirimi beklentilerini geciktirdiği için altın açısından hafif baskılayıcı. Iran savaşının maliyetinin artması güvenli liman talebini destekliyor ancak etkisi sınırlı ve zaten fiyatlanmış görünüyor; JPMorgan'ın kısa vadeli düşüş riskine dair uyarısı da negatif yönde.
+29.10 01:24 N  GPT  score -0.20 conf 0.43: Fed’in faizleri yüksek enflasyona rağmen sabit tutması, kısa vadede faiz indirimi beklentilerini sınırlayıp dolar ve tahvil getirilerini destekleyerek altına hafif baskı yapabilir. İran savaşı kaynaklı riskler güvenli liman talebi sağlayabilir; bu nedenle yön ve etki belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
