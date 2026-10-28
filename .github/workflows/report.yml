@@ -12,6 +12,9 @@ concurrency:
   group: trade-lab-report   # separate from ticks so a queued tick never cancels the report
   cancel-in-progress: false
 
+env:
+  PYTHONPATH: ${{ github.workspace }}/usage   # Jarvis usage meter (usage/sitecustomize.py)
+
 jobs:
   report:
     runs-on: ubuntu-24.04

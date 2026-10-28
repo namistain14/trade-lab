@@ -12,6 +12,9 @@ concurrency:
   group: trade-lab
   cancel-in-progress: false
 
+env:
+  PYTHONPATH: ${{ github.workspace }}/usage   # Jarvis usage meter (usage/sitecustomize.py)
+
 jobs:
   tick:
     runs-on: ubuntu-24.04
