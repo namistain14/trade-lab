@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 06:09 (İstanbul)
+> Son güncelleme: 28.10.2026 06:57 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -48,9 +48,11 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %21.1 |
 | Ödenen komisyon/spread | 0.00 $ | 90.19 $ |
 
-**Hesap değeri: 4,906.99 $** (başlangıç 5,000 $, -93.01 $ / %-1.86)
+**Hesap değeri: 4,905.80 $** (başlangıç 5,000 $, -94.20 $ / %-1.88)
 
-Son haber analizi (28.10 06:09): Claude puan **-0.15**, güven 0.40 — Haberler karışık: İran savaşının sürmesi ve maliyetin 47 milyar dolara çıkması güvenli liman talebini destekliyor, ancak Barclays'ın Fed'in Aralık ve Ocak'ta faiz artırabileceği yönündeki görüşü, Fed beklentilerinin sertleşmesi ve doların iki haftalık zirvesi altın için olumsuz. Petrol fiyatlarının düşmesi enflasyon kaygılarını azaltarak bu baskıyı kısmen dengeliyor; net etki hafif negatif.
+Açık pozisyonlar: PAXGUSDT short @ 4048.14 (TP 4045.56 / SL 4049.61)
+
+Son haber analizi (28.10 06:57): Claude puan **-0.25**, güven 0.40 — Fed Başkanı Warsh'un basın toplantısının sonucu henüz bilinmiyor ve ABD doları Fed kararı öncesinde güçleniyor. Petrol fiyatlarındaki toparlanma ve Barclays'ın Aralık ve Ocak'ta faiz artırımı beklentisi sıkılaşma riskini artırarak altı baskılıyor; İran savaşının yeniden alevlenme riski ise sınırlı bir güvenli liman desteği sağlıyor.
 
 Son işlemler:
 
@@ -156,9 +158,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 01:37 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-28.10 01:37 N  NEWS (22 new) score -0.10 conf 0.35: Haberler karışık: İran savaşının yeniden başlamasının kaçınılmaz görünmesi ve Fed'in aralık ayında faiz artırabileceğine dair beklentiler jeopolitik ve faiz kanalından farklı yönlere işaret ediyor. Fed kararı öncesi dolar güçlü, Commerzbank reel faiz düşüşüne rağmen altın üzerinde baskı görüyor ve State Street aşağı yönlü riskleri öne çıkarıyor; bu nedenle hafif negatif, düşük güvenli bir görünüm.
-28.10 01:37 B4  CLOSE long time limit: -1.90 USD
 28.10 02:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 02:13 N  NEWS (16 new) score -0.05 conf 0.30: İran savaşının sürmesi ve yeniden alevlenme ihtimali güvenli liman talebini destekliyor, ancak Fed'in faizleri sabit tutması beklentisi, Aralık'ta faiz artırımı tartışması ve Commerzbank/Standard Chartered gibi analistlerin altın üzerindeki baskıya dikkat çekmesi yükseliş potansiyelini sınırlıyor. Haberlerin birbirine zıt sinyaller vermesi nedeniyle etki hafif negatif ve güven düşük.
 28.10 02:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -171,6 +170,9 @@ Son işlemler:
 28.10 05:20 N  NEWS (25 new) score -0.05 conf 0.30: 
 28.10 06:09 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 06:09 N  NEWS (24 new) score -0.15 conf 0.40: Haberler karışık: İran savaşının sürmesi ve maliyetin 47 milyar dolara çıkması güvenli liman talebini destekliyor, ancak Barclays'ın Fed'in Aralık ve Ocak'ta faiz artırabileceği yönündeki görüşü, Fed beklentilerinin sertleşmesi ve doların iki haftalık zirvesi altın için olumsuz. Petrol fiyatlarının düşmesi enflasyon kaygılarını azaltarak bu baskıyı kısmen dengeliyor; net etki hafif negatif.
+28.10 06:57 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+28.10 06:57 N  NEWS (26 new) score -0.25 conf 0.40: Fed Başkanı Warsh'un basın toplantısının sonucu henüz bilinmiyor ve ABD doları Fed kararı öncesinde güçleniyor. Petrol fiyatlarındaki toparlanma ve Barclays'ın Aralık ve Ocak'ta faiz artırımı beklentisi sıkılaşma riskini artırarak altı baskılıyor; İran savaşının yeniden alevlenme riski ise sınırlı bir güvenli liman desteği sağlıyor.
+28.10 06:57 B1  SHORT gold 5000 USD x10 @ 4048.14 (TP 4045.56, SL 4049.61; news -0.25)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
