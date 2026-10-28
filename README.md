@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 17:21 (İstanbul)
+> Son güncelleme: 28.10.2026 18:18 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -49,11 +49,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %23.8 |
 | Ödenen komisyon/spread | 9.49 $ | 99.68 $ |
 
-**Hesap değeri: 4,904.91 $** (başlangıç 5,000 $, -95.09 $ / %-1.90)
+**Hesap değeri: 4,903.11 $** (başlangıç 5,000 $, -96.89 $ / %-1.94)
 
-Son haber analizi (28.10 17:21): Claude puan **-0.10**, güven 0.30 — Haberler karışık: İran'la barış görüşmeleri (Katar arabuluculuğu, Körfez planı) jeopolitik korku primini azaltıp altın için hafif olumsuz; öte yandan petrol kaynaklı enflasyon, Bank of Canada'nın faiz artırımı ve Fed'in faiz artırımını "şimdilik" ertelediği haberleri sıkı para politikası beklentisini canlı tutarak altını baskılıyor. Fed kararının tonu belirsiz olduğundan güven düşük.
+Açık pozisyonlar: PAXGUSDT short @ 4046.91 (TP 4044.33 / SL 4048.38)
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — İran savaşının petrol ve enerji fiyatları üzerindeki etkisi güvenli liman talebini destekleyebilir; ancak yeni barış girişimleri bu desteği sınırlıyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış görünüyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
+Son haber analizi (28.10 18:18): Claude puan **-0.25**, güven 0.50 — Fed'in bugün faiz kararını bekleyen piyasada, Fed'in bekleneni (duraklamayı) koruyup Aralık'ta olası bir faiz artırımını canlı tutması ve enflasyonun %3,7 seviyesinde olması altın için baskı oluşturuyor. Buna karşılık İran savaşının sürmesi, Putin'in nükleer kapasiteli füze testi ve NATO gerginliği güvenli liman talebini destekliyor; bu nedenle etki hafif negatif, güven orta düzeyde.
+
+GPT (gpt-6-luna): puan **+0.12**, güven 0.34 — İran savaşı çevresindeki tırmanma uyarıları ve Rusya’nın nükleer kapasiteli füze denemesi kısa vadede güvenli liman talebini sınırlı destekleyebilir. Ancak Fed kararı öncesi olası şahin beklentiler altını baskılayabilir; başlıklar karışık ve bazıları dolaylı olduğundan yön güveni düşük.
 
 Son işlemler:
 
@@ -159,10 +161,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 13:48 N  NEWS (34 new) score -0.15 conf 0.40: 
-28.10 13:48 N  GPT  score -0.15 conf 0.43: İran’a yönelik saldırı hazırlıkları ve Patriot konuşlandırması güvenli liman talebini destekleyebilir; ancak Katar’ın barış planı bu riski kısmen dengeliyor. Fed öncesi tahvil getirilerinin yükselmesi ve altındaki mevcut zayıflık kısa vadede aşağı yönlü baskıyı biraz ağır bastırıyor.
-28.10 14:26 N  NEWS (30 new) score -0.30 conf 0.50: Fed'in bugünkü FOMC kararı öncesinde ABD doları iki haftalık zirveye yakın seyrediyor ve Aralık'ta faiz artırımı ihtimali gündemde; bu, altın için şahin ve doları güçlendiren bir tablo. İran savaşı ve Katar arabuluculuğu gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlasa da, Iran'ın Katar taslağını reddetmesi ve müzakerelerin tıkanması bu desteği sınırlı tutuyor. Karar sonrası net bir sürpriz olmazsa etkinin zayıf kalması beklenir.
-28.10 14:26 N  GPT  score -0.28 conf 0.58: Fed öncesinde doların iki haftanın zirvesine yakın olması ve enflasyon risklerinin Aralık faiz artışı olasılığını canlı tutması altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının yeniden alevlenme riski güvenli liman talebini destekleyebilir; ancak haberler karışık ve Fed kararı öncesi yön b
 28.10 15:15 A  BUY BTCUSDT 999 USD @ 80946.07 (RSI 31)
 28.10 15:15 N  NEWS (38 new) score -0.30 conf 0.50: Fed'in bu hafta faiz kararı öncesi sıkılaşma riskleri (Aralık'ta olası artış beklentisi) ve ABD dolarının iki haftalık zirveye yakın seyretmesi altın için baskı yaratıyor. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak Katar arabuluculuğunda savaşı bitirme teklifi bu etkiyi dengeliyor; dolayısıyla net etki hafif negatif.
 28.10 15:15 N  GPT  score -0.22 conf 0.56: Fed’in faizleri sabit tutması bekleniyor; ancak aralıkta faiz artırımı ihtimali ve doların güçlü seyri kısa vadede altını baskılıyor. İran savaşının maliyetindeki artış güvenli liman talebini desteklese de olası anlaşma görüşmeleri bu desteği sınırlıyor.
@@ -174,6 +172,10 @@ Son işlemler:
 28.10 17:21 N  GPT  score +0.18 conf 0.34: İran savaşının petrol ve enerji fiyatları üzerindeki etkisi güvenli liman talebini destekleyebilir; ancak yeni barış girişimleri bu desteği sınırlıyor. Fed’in faizi sabit tutmasının beklenmesi büyük ölçüde fiyatlanmış görünüyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
 28.10 17:21 B4  CLOSE long time limit: -4.01 USD
 28.10 17:21 B6  karar turu: Claude «Fed kararı öncesinde piyasa temkinli ve yatay seyrediyor; net bir fırsat olmadığı için beklemek en doğrusu.» / GPT «Endeksler kararsız ve teknoloji hisseleri zayıf; Fed kararı öncesinde haber ile fiyatın birlikte doğruladığı net bir avantaj bulunmadığından yeni pozisyon açmıyorum.»
+28.10 18:18 N  NEWS (42 new) score -0.25 conf 0.50: Fed'in bugün faiz kararını bekleyen piyasada, Fed'in bekleneni (duraklamayı) koruyup Aralık'ta olası bir faiz artırımını canlı tutması ve enflasyonun %3,7 seviyesinde olması altın için baskı oluşturuyor. Buna karşılık İran savaşının sürmesi, Putin'in nükleer kapasiteli füze testi ve NATO gerginliği güvenli liman talebini destekliyor; bu nedenle etki hafif negatif, güven orta düzeyde.
+28.10 18:18 N  GPT  score +0.12 conf 0.34: İran savaşı çevresindeki tırmanma uyarıları ve Rusya’nın nükleer kapasiteli füze denemesi kısa vadede güvenli liman talebini sınırlı destekleyebilir. Ancak Fed kararı öncesi olası şahin beklentiler altını baskılayabilir; başlıklar karışık ve bazıları dolaylı olduğundan yön güveni düşük.
+28.10 18:18 B1  SHORT gold 5000 USD x10 @ 4046.91 (TP 4044.33, SL 4048.38; news -0.25)
+28.10 18:18 B6  karar turu: Claude «Piyasa Fed kararı öncesi düşük oynaklıkla yatay seyrediyor; net bir avantaj olmadığı için beklemek en doğrusu.» / GPT «Endekslerdeki dar bant ve güçlü yeni şirket katalizörlerinin eksikliği nedeniyle, kaldıraçla yüzde 1,5 hedefli işlem açmak yerine beklemek daha disiplinli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
