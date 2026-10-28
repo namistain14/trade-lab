@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 28.10.2026 12:10 (İstanbul)
+> Son güncelleme: 28.10.2026 13:00 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,904.91 $** (başlangıç 5,000 $, -95.09 $ / %-1.90)
 
-Son haber analizi (28.10 12:10): Claude puan **-0.25**, güven 0.40 — Fed'in bugün faizleri sabit tutması bekleniyor ancak yıl sonuna kadar bir faiz artışı fiyatlanıyor; enflasyon %3'ün üzerinde ve DXY iki haftalık zirveye yakın seyrediyor, bu da altın için baskı oluşturuyor. Buna karşılık İran savaşında Katarlı arabulucuların yeni bir anlaşma önermesi güvenli liman talebini biraz azaltabilir, ancak Fed'in beklenmedik şekilde gevşek çıkması dolar ve reel faizler üzerinden altını destekleyebilir; sinyaller karışık olduğu için güven düşük.
+Son haber analizi (28.10 13:00): Claude puan **-0.35**, güven 0.50 — Fed'in bugün faizleri sabit tutması bekleniyor ancak yıl sonuna kadar bir faiz artışı fiyatlanıyor; enflasyon %3'ün üzerinde ve DXY iki haftalık zirveye yakın seyrediyor, bu da altın için baskı oluşturuyor. Buna karşılık İran savaşında Katarlı arabulucuların yeni bir anlaşma önermesi güvenli liman talebini biraz azaltabilir, ancak Fed'in beklenmedik şekilde gevşek çıkması dolar ve reel faizler üzerinden altını destekleyebilir; sinyaller karışık olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.43 — Fed kararı öncesinde doların iki haftalık zirveye yakın seyretmesi ve olası faiz artışı beklentileri altın üzerinde baskı yaratıyor. İran savaşı güvenli liman talebini desteklese de yeni anlaşma girişimi gerilimin azalabileceğine işaret ediyor; haber akışı çelişkili ve önemli ölçüde fiyatlanmış olab
+GPT (gpt-6-luna): puan **-0.38**, güven 0.62 — Fed kararı öncesinde ABD tahvil getirileri ve doların yükselmesi, altın için kısa vadede baskı oluşturuyor; faizlerin sabit kalması beklenirken enflasyon ve olası yıl sonu faiz artışı söylemi de temkinli bir görünüm yaratıyor. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da olası anla
 
 Son işlemler:
 
@@ -94,7 +94,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %33.3 |
 | Ödenen komisyon/spread | 2.37 $ | 14.23 $ |
 
-**Hesap değeri: 4,994.04 $** (başlangıç 5,000 $, -5.96 $ / %-0.12)
+**Hesap değeri: 4,998.64 $** (başlangıç 5,000 $, -1.36 $ / %-0.03)
 
 Açık pozisyonlar: PAXGUSDT long @ 4053.84 (TP 4066.00 / SL 4045.73)
 
@@ -160,8 +160,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-28.10 08:24 B1  SHORT gold 5000 USD x10 @ 4040.88 (TP 4038.31, SL 4042.35; news -0.35)
-28.10 09:11 B1  CLOSE short take profit: +2.00 USD
 28.10 09:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 28.10 09:11 N  NEWS (25 new) score -0.30 conf 0.40: Fed kararı bu gece beklenirken petrol kaynaklı enflasyon endişeleri ve güçlenen dolar (DXY ~102.50) altın için baskılayıcı; Körfez'de barış planı haberleri jeopolitik risk primini de azaltıyor. Öte yandan İran savaşının yeniden başlama riski ve yerel altın fiyatlarındaki yükselişler kısmen karşı yönde olduğu için güven sınırlı.
 28.10 09:11 B1  SHORT gold 5000 USD x10 @ 4034.05 (TP 4031.48, SL 4035.52; news -0.30)
@@ -175,6 +173,8 @@ Son işlemler:
 28.10 11:15 B4  LONG gold 5000 USD x10 @ 4053.84 (TP 4066.00, SL 4045.73; news +0.40)
 28.10 12:10 N  NEWS (34 new) score -0.25 conf 0.40: Fed'in bugün faizleri sabit tutması bekleniyor ancak yıl sonuna kadar bir faiz artışı fiyatlanıyor; enflasyon %3'ün üzerinde ve DXY iki haftalık zirveye yakın seyrediyor, bu da altın için baskı oluşturuyor. Buna karşılık İran savaşında Katarlı arabulucuların yeni bir anlaşma önermesi güvenli liman talebini biraz azaltabilir, ancak Fed'in beklenmedik şekilde gevşek çıkması dolar ve reel faizler üzerinden altını destekleyebilir; sinyaller karışık olduğu için güven düşük.
 28.10 12:10 N  GPT  score -0.25 conf 0.43: Fed kararı öncesinde doların iki haftalık zirveye yakın seyretmesi ve olası faiz artışı beklentileri altın üzerinde baskı yaratıyor. İran savaşı güvenli liman talebini desteklese de yeni anlaşma girişimi gerilimin azalabileceğine işaret ediyor; haber akışı çelişkili ve önemli ölçüde fiyatlanmış olab
+28.10 13:00 N  NEWS (28 new) score -0.35 conf 0.50: 
+28.10 13:00 N  GPT  score -0.38 conf 0.62: Fed kararı öncesinde ABD tahvil getirileri ve doların yükselmesi, altın için kısa vadede baskı oluşturuyor; faizlerin sabit kalması beklenirken enflasyon ve olası yıl sonu faiz artışı söylemi de temkinli bir görünüm yaratıyor. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da olası anla
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
