@@ -1758,6 +1758,10 @@
    [
     1793181651,
     4995.0
+   ],
+   [
+    1793184488,
+    4995.0
    ]
   ]
  },
@@ -4342,40 +4346,37 @@
    [
     1793181651,
     4904.91
+   ],
+   [
+    1793184488,
+    4904.91
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.5,
+   "score": -0.15,
+   "confidence": 0.4,
    "reason": "Fed'in bug\u00fcn faizleri sabit tutmas\u0131 bekleniyor ancak y\u0131l sonuna kadar bir faiz art\u0131\u015f\u0131 fiyatlan\u0131yor; enflasyon %3'\u00fcn \u00fczerinde ve DXY iki haftal\u0131k zirveye yak\u0131n seyrediyor, bu da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131nda Katarl\u0131 arabulucular\u0131n yeni bir anla\u015fma \u00f6nermesi g\u00fcvenli liman talebini biraz azaltabilir, ancak Fed'in beklenmedik \u015fekilde gev\u015fek \u00e7\u0131kmas\u0131 dolar ve reel faizler \u00fczerinden alt\u0131n\u0131 destekleyebilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793181648333,
-   "new_headlines": 28,
+   "ts": 1793184485778,
+   "new_headlines": 34,
    "key_events": [
     "Fed karar\u0131: faizler sabit, Warsh'\u0131n s\u0131k\u0131la\u015ft\u0131rma sinyali riski",
     "Dolar Fed \u00f6ncesi g\u00fc\u00e7leniyor; alt\u0131n 4.000 dolar\u0131n alt\u0131nda",
     "Hisse sat\u0131\u015f\u0131nda g\u00fcvenli liman talebi zay\u0131f kald\u0131; Husi/Ukrayna haberleri fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor"
    ],
    "gpt": {
-    "score": -0.38,
-    "confidence": 0.62,
-    "reason": "Fed karar\u0131 \u00f6ncesinde ABD tahvil getirileri ve dolar\u0131n y\u00fckselmesi, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor; faizlerin sabit kalmas\u0131 beklenirken enflasyon ve olas\u0131 y\u0131l sonu faiz art\u0131\u015f\u0131 s\u00f6ylemi de temkinli bir g\u00f6r\u00fcn\u00fcm yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da olas\u0131 anla",
+    "score": -0.15,
+    "confidence": 0.43,
+    "reason": "\u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131 haz\u0131rl\u0131klar\u0131 ve Patriot konu\u015fland\u0131rmas\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Katar\u2019\u0131n bar\u0131\u015f plan\u0131 bu riski k\u0131smen dengeliyor. Fed \u00f6ncesi tahvil getirilerinin y\u00fckselmesi ve alt\u0131ndaki mevcut zay\u0131fl\u0131k k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131y\u0131 biraz a\u011f\u0131r bast\u0131r\u0131yor.",
     "key_events": [
-     "Fed karar\u0131 \u00f6ncesi ABD getirileri ve dolar y\u00fckseliyor",
-     "\u0130ran sava\u015f\u0131 g\u00fcvenli liman deste\u011fi sa\u011flasa da m\u00fczakere haberi var",
-     "Alt\u0131n ve piyasa y\u00f6n\u00fc ba\u015fl\u0131klar\u0131 \u00e7eli\u015fkili"
+     "\u0130srail\u2019de \u0130ran sald\u0131r\u0131lar\u0131na haz\u0131rl\u0131k ve Patriot konu\u015fland\u0131rmas\u0131",
+     "Katar\u2019\u0131n \u0130ran\u2019a sundu\u011fu 7 g\u00fcnl\u00fck bar\u0131\u015f plan\u0131",
+     "Fed \u00f6ncesi y\u00fckselen tahvil getirileri ve alt\u0131ndaki zay\u0131fl\u0131k"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792711601940,
-    "score": -0.15,
-    "confidence": 0.4,
-    "reason": "",
-    "new": 13
-   },
    {
     "ts": 1792712197485,
     "score": -0.2,
@@ -6920,63 +6921,70 @@
     "new": 28,
     "gpt_score": -0.38,
     "gpt_confidence": 0.62
+   },
+   {
+    "ts": 1793184485778,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 34,
+    "gpt_score": -0.15,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-10-28",
-   "n": 17
+   "n": 18
   },
   "news_seen": [
-   "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - The Mighty 790 KFGO",
+   "Workers should be able to know colleagues' salaries, rights body says",
+   "Trump, Congress set to clash over Hegseth, Iran war, Ukraine after election - The Hill",
+   "Gold Price Forecast: XAU/USD recovery halts below previous support around $4,070 - FXStreet",
+   "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+   "US deploys Patriot system in Israel amid preparations for Iran strikes - The Jerusalem Post",
+   "Norway and Finland hold rare phone call with Putin: What that means - Al Jazeera",
+   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+   "The global war on citizenship - Vox",
+   "Basis trade retreat spurs shift into new rate bets - Reuters",
+   "What do you want from the Budget?",
+   "JAAA: Federal Reserve Hikes Should Result In Dividend Growth And Continued Outperformance - Seeking Alpha",
+   "FILE PHOTO: The Federal Reserve building in Washington - The Daily News | Texas' Oldest Newspaper",
+   "Four reasons to start worrying about inflation \u2014 including the end of tariff refunds - MarketWatch",
+   "Gold prices fall by 200 Syrian pounds in local market - \u0633\u0627\u0646\u0627",
+   "Plaid demands more cash, but how could the Budget affect Wales?",
+   "Unilever flags price hikes as Iran war costs stack up - Central Oregon Daily",
+   "Fed likely to hold rates steady ahead of midterms - The Hill",
+   "Fed likely to go into wait-and-see mode on rates - Reuters",
+   "Report: Qatar presents Iran new 7-day peace plan to end war with US and Israel - Ynetnews",
+   "Fed officials not aligned on weight of financial conditions - Reuters",
+   "Gold price chart for the afternoon of October 28, 2026: Prices for 9999 gold, SJC rings, DOJI, BTMC. - Vietnam.vn",
+   "Fed set to hold interest rates steady in last decision before midterms - The Guardian",
+   "Mind-Boggling True Cost of Trump\u2019s War on Iran Revealed - The Daily Beast",
+   "Europe\u2019s Other Frontiers: West, North and Beyond - Geopolitical Futures",
+   "Kim Jong Un tells commanders to prepare for war as border tensions rise - upi",
+   "The AI Fed Votes to Hold Interest Rates Steady - Bloomberg.com",
+   "What\u2019s behind housing, healthcare, education, and childcare inflation? - Washington Examiner",
+   "Global Government Bond Yields Rise Ahead of Fed Decision, U.K. Budget - WSJ",
    "Official Price Tag of Iran War Jumps to $47 Billion as Trump Says It Will End 'Whenever I Want It To' - Common Dreams",
    "Former Conservative chancellor unsure Budget will 'fix big problems'",
+   "Trump is in a corner and likely to lash out at Iran again. Here\u2019s how to avert that disaster | Simon Tisdall - The Guardian",
+   "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate Decisio - Benzinga",
+   "Poland to Become Europe\u2019s Patriot Missile Maintenance Hub - Evertiq",
+   "Singapore's Shares Edge Up Over Federal Reserve Interest Rate Prospects; Wee Hur Surges 7% - Yahoo Finance Singapore",
    "US Treasury Yields Rise Ahead of Federal Reserve's Monetary Policy Announcements, Chair Kevin Warsh's Press Briefing - marketscreener.com",
    "World gold prices fall deeply, Fed becomes the focus of attention - Laodong.vn",
+   "Zelenskyy Urges Hegseth to Speed Up Release of Patriot Missiles - Bloomberg.com",
+   "Statement by Secretary of State Marco Rubio - Imposing Sanctions on the International Criminal Court - U.S. Embassy Romania (.gov)",
    "Gold rates today (October 28, 2026): Check prices of 24K, 22K, 18K gold in Dubai, Abu Dhabi, Riyadh, Kuwait City, Doha, Muscat - The Economic Times",
    "Israel\u2019s election has no clear winner \u2014 but Netanyahu looks far from defeated again - NBC News",
    "America\u2019s Other Middle East War - The Bulwark",
    "At 2:00 a.m. tonight, the Federal Reserve will announce its decision: With inflation running hotter than ever, will it hit the brakes on rate hikes? For Chairman Powell, this is a major test of his credibility. - \u5bcc\u9014\u725b\u725b",
    "A ceasefire in a devastated Ukrainian city holds for its first 30 hours, officials say - Audacy",
    "Federal Reserve expected to keep interest rates steady - LiveNOW from FOX",
-   "Federal Reserve set to issue interest rate decision as midterm elections loom - ABC News - Breaking News, Latest News and Videos",
-   "'Government to decide who to help and who picks up the tab'",
-   "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
-   "Gold prices today (afternoon of October 28): Rising sharply - Vietnam.vn",
-   "Bitcoin On Track To Post Weakest October In Six Years As US Buyers Retreat Ahead Of Fed Decision - TradingView",
-   "Federal Reserve likely to skip rate hike as elevated inflation drives voters to the polls - WRAL",
-   "Treasury yields tick higher ahead of Federal Reserve interest rate decision - CNBC",
-   "Gold jewellery prices in Bangladesh rise after four consecutive cuts - Jagonews24",
-   "United States Dollar Index strengthens to near 102.50, Fed rate decision looms - www.tmgm.com",
-   "Iran war costs US $47 billion as Trump weighs fresh strikes against Tehran after midterm elections - Firstpost",
-   "Qatari mediators present Iran with new deal to end the war, official says - Reuters",
-   "The Ocean \u2018Was the Color of Chocolate.\u2019 Mexico Declares War on Seaweed - The New York Times",
-   "The Federal Reserve Will Release Its Interest Rate Decision Today. Here\u2019s What to Watch. - The New York Times",
-   "US Dollar: Dovish Fed surprise could weaken the Dollar - MUFG - FXStreet",
-   "The Special Ops Podcasts Changing the Narrative of the War on Terror - The New York Times",
-   "Shanghai, 1937: An Urban Warfare Project Case Study - Modern War Institute -",
-   "Lebanon Ministry of Education and Higher Education: The Impact of War on Lebanon's Education Sector - ReliefWeb",
-   "Gold Dec 26 (GC=F) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-   "Pentagon estimates the Iran war has cost the US more than $47 billion; base repair costs not clearly counted - i24NEWS",
-   "How AI has got the Fed in a bind - Politico",
-   "Judge threatens ICE with contempt, sanctions in Minnesota re-arrest case - MPR News",
-   "Senate candidates built up massive campaign war chests with out-of-state donations - NPR",
-   "Frustration with trying to deliver anti-war message at Smucker\u2019s office [letter] - LancasterOnline",
-   "US Dollar Index Price Forecast: DXY sits near two-week top, above 102.00 ahead of FOMC - FXStreet",
-   "China urges US to lift Cuba blockade and sanctions immediately - CGTN",
-   "US Sept. PCE Preview: Inflation May Heat Up Again, How Will US Stocks, the Dollar, and Gold React? - TradingKey",
-   "Russia Ukraine War - Post Register",
-   "Iran war and cost-of-living take center stage in Virginia congressional race - NPR",
-   "Iran\u2019s historic treasures face destruction as war puts centuries of heritage at risk - The European Magazine",
-   "Fed expected to hold interest rates steady but a hike is anticipated by year's end - NPR",
-   "Qatari mediators presented Iran with new deal to end the war, official says - The Times of Israel",
-   "CubaBrief: The case for sanctions and against the Castro dictatorship in Cuba - Center for Free Cuba",
-   "S. Korean won sharply weakens against US dollar - The Korea Herald",
-   "Octopus Energy boss on standing charges"
+   "Federal Reserve set to issue interest rate decision as midterm elections loom - ABC News - Breaking News, Latest News and Videos"
   ]
  },
  "log": [
-  "24.10 13:13 N  NEWS (6 new) score -0.15 conf 0.40: Jeopolitik risk (\u0130ran'a yeni sald\u0131r\u0131 tehditleri, Balu\u00e7 isyan\u0131) g\u00fcvenli liman talebini destekliyor, ancak haberlerde alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fmesi, marjin \u00e7a\u011fr\u0131lar\u0131, petrol kaynakl\u0131 enflasyon ve Fed'in beklemede kalma olas\u0131l\u0131\u011f\u0131 bask\u0131n g\u00f6r\u00fcn\u00fcyor; bu da k\u0131sa vadede faiz beklentileri \u00fczerinden alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Sava\u015f haberleri zaten fiyatlanm\u0131\u015f ve baz\u0131lar\u0131 \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "24.10 13:21 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 13:21 N  NEWS (7 new) score -0.10 conf 0.35: Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesi ve teknik g\u00f6r\u00fcn\u00fcmdeki d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131 k\u0131sa vadede hafif negatif. \u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanma riski ve enflasyon beklentilerinin y\u00fckselmesi g\u00fcvenli liman ve reel faiz taraf\u0131nda destek sa\u011flayabilir, ancak bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve gold'un bu geli\u015fmelere ra\u011fmen d\u00fc\u015fmesi yukar\u0131 y\u00f6nl\u00fc tepkiyi s\u0131n\u0131rl\u0131yor. G\u00fcvenilirlik d\u00fc\u015f\u00fck \u00e7\u00fcnk\u00fc yeni haberlerin \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde.",
   "24.10 13:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "24.10 13:55 N  NEWS (7 new) score +0.10 conf 0.30: ",
@@ -7274,7 +7282,9 @@
   "28.10 12:10 N  NEWS (34 new) score -0.25 conf 0.40: Fed'in bug\u00fcn faizleri sabit tutmas\u0131 bekleniyor ancak y\u0131l sonuna kadar bir faiz art\u0131\u015f\u0131 fiyatlan\u0131yor; enflasyon %3'\u00fcn \u00fczerinde ve DXY iki haftal\u0131k zirveye yak\u0131n seyrediyor, bu da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131nda Katarl\u0131 arabulucular\u0131n yeni bir anla\u015fma \u00f6nermesi g\u00fcvenli liman talebini biraz azaltabilir, ancak Fed'in beklenmedik \u015fekilde gev\u015fek \u00e7\u0131kmas\u0131 dolar ve reel faizler \u00fczerinden alt\u0131n\u0131 destekleyebilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "28.10 12:10 N  GPT  score -0.25 conf 0.43: Fed karar\u0131 \u00f6ncesinde dolar\u0131n iki haftal\u0131k zirveye yak\u0131n seyretmesi ve olas\u0131 faiz art\u0131\u015f\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini desteklese de yeni anla\u015fma giri\u015fimi gerilimin azalabilece\u011fine i\u015faret ediyor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve \u00f6nemli \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olab",
   "28.10 13:00 N  NEWS (28 new) score -0.35 conf 0.50: ",
-  "28.10 13:00 N  GPT  score -0.38 conf 0.62: Fed karar\u0131 \u00f6ncesinde ABD tahvil getirileri ve dolar\u0131n y\u00fckselmesi, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor; faizlerin sabit kalmas\u0131 beklenirken enflasyon ve olas\u0131 y\u0131l sonu faiz art\u0131\u015f\u0131 s\u00f6ylemi de temkinli bir g\u00f6r\u00fcn\u00fcm yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da olas\u0131 anla"
+  "28.10 13:00 N  GPT  score -0.38 conf 0.62: Fed karar\u0131 \u00f6ncesinde ABD tahvil getirileri ve dolar\u0131n y\u00fckselmesi, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor; faizlerin sabit kalmas\u0131 beklenirken enflasyon ve olas\u0131 y\u0131l sonu faiz art\u0131\u015f\u0131 s\u00f6ylemi de temkinli bir g\u00f6r\u00fcn\u00fcm yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da olas\u0131 anla",
+  "28.10 13:48 N  NEWS (34 new) score -0.15 conf 0.40: ",
+  "28.10 13:48 N  GPT  score -0.15 conf 0.43: \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131 haz\u0131rl\u0131klar\u0131 ve Patriot konu\u015fland\u0131rmas\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Katar\u2019\u0131n bar\u0131\u015f plan\u0131 bu riski k\u0131smen dengeliyor. Fed \u00f6ncesi tahvil getirilerinin y\u00fckselmesi ve alt\u0131ndaki mevcut zay\u0131fl\u0131k k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131y\u0131 biraz a\u011f\u0131r bast\u0131r\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -9002,6 +9012,10 @@
    [
     1793181651,
     4961.78
+   ],
+   [
+    1793184488,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -10657,6 +10671,10 @@
    [
     1793181651,
     4973.18
+   ],
+   [
+    1793184488,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -12259,6 +12277,10 @@
    [
     1793181651,
     5005.69
+   ],
+   [
+    1793184488,
+    5005.69
    ]
   ]
  },
@@ -13691,6 +13713,10 @@
    [
     1793181651,
     4998.64
+   ],
+   [
+    1793184488,
+    4990.55
    ]
   ],
   "news_calls": {
@@ -14980,6 +15006,10 @@
    [
     1793181651,
     5010.69
+   ],
+   [
+    1793184488,
+    5010.69
    ]
   ],
   "news_calls": {
@@ -16117,6 +16147,10 @@
    ],
    [
     1793181651,
+    99842.81
+   ],
+   [
+    1793184488,
     99842.81
    ]
   ],
