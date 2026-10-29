@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 07:53 (İstanbul)
+> Son güncelleme: 29.10.2026 08:37 (İstanbul)
 
 ## Bot A — Kripto kurallar (spot, kaldıraçsız)
 
@@ -46,28 +46,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -19.00 $ | -118.09 $ |
-| İşlem sayısı | 6 | 51 |
-| Kazanma oranı | %0.0 | %21.6 |
-| Ödenen komisyon/spread | 14.23 $ | 121.01 $ |
+| Net kâr/zarar | -22.00 $ | -121.09 $ |
+| İşlem sayısı | 7 | 52 |
+| Kazanma oranı | %0.0 | %21.2 |
+| Ödenen komisyon/spread | 16.60 $ | 123.39 $ |
 
-**Hesap değeri: 4,880.73 $** (başlangıç 5,000 $, -119.27 $ / %-2.39)
+**Hesap değeri: 4,878.36 $** (başlangıç 5,000 $, -121.64 $ / %-2.43)
 
-Açık pozisyonlar: PAXGUSDT short @ 4039.67 (TP 4037.10 / SL 4041.14)
+Açık pozisyonlar: PAXGUSDT short @ 4039.97 (TP 4037.40 / SL 4041.44)
 
-Son haber analizi (29.10 07:53): Claude puan **-0.20**, güven 0.40 — Fed faizleri sabit tuttu ve enflasyonu "yüksek" olarak niteledi; bu, faiz indirimi beklentilerini zayıflatarak altın üzerinde baskı yaratıyor ve altın 4.053,90 dolara geriledi. İran savaşının yeniden başlayabileceğine dair jeopolitik risk güçlü bir güvenli liman talebi sağlasa da, Vance'in Tahran'la temas girişimi bu riski dengeliyor; ABD enflasyon verisi beklentisi de kısa vadede oynaklık getirebilir.
+Son haber analizi (29.10 08:37): Claude puan **-0.20**, güven 0.35 — Fed faiz oranlarını sabit tuttu ve enflasyonu "yüksek" olarak nitelendirdi; ekonomik güç vurgusu ve Treasury görünümündeki belirsizlik, altın üzerinde baskı yaratıyor (altın $4.053,90'a geriledi). İran savaşının yeniden başlayabileceği haberleri ve Kuzey Kore füze fırlatmaları güvenli liman talebini destekleyebilir, ancak bu etkiler karışık ve kısmen fiyatlanmış; yerel altın fiyatı haberleri ise küresel etkiyi yansıtmıyor.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.48 — Fed’in faizleri sabit tutup enflasyonun yüksek kaldığını vurgulaması ve altının karar sonrası gerilemesi kısa vadede baskı yaratıyor; yaklaşan ABD enflasyon verisi belirsizliği artırıyor. İran ve Kuzey Kore kaynaklı jeopolitik riskler düşüşü sınırlayabilir, ancak haberlerin bir kısmı olası senaryola
+GPT (gpt-6-luna): puan **-0.20**, güven 0.45 — Fed’in ekonomik gücü vurgulaması ve altının Fed sinyalleri sonrası gerilemesi, faiz ve dolar kanalı üzerinden kısa vadede hafif baskı yaratabilir. Kuzey Kore’nin füze denemeleri güvenli liman talebini desteklese de etkisi sınırlı; haber akışı karışık ve ABD enflasyon verisi bekleniyor.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 29.10 08:01 | PAXGUSDT | short | -3.00 $ | stop |
 | 29.10 07:08 | PAXGUSDT | short | -3.13 $ | stop (gap) |
 | 29.10 06:15 | PAXGUSDT | short | -3.56 $ | stop (gap) |
 | 29.10 05:24 | PAXGUSDT | short | -3.31 $ | stop (gap) |
 | 29.10 03:21 | PAXGUSDT | short | -3.00 $ | stop |
-| 29.10 02:47 | PAXGUSDT | short | -3.00 $ | stop |
 
 ## Bot B2 — Altın: sıkı haber eşiği (net +2$ / -3$, hızlı kapanış)
 
@@ -165,10 +165,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-29.10 06:13 A2  CLOSE ETHUSDT stop: -8.30 USD
-29.10 06:13 B1  CLOSE short stop (gap): -3.31 USD
-29.10 06:13 N  NEWS (16 new) score -0.25 conf 0.40: Fed faiz oranlarını sabit tuttu ve yönlendirmesi sınırlı kaldı; altın hafif geriledi, dolar sabit/güçlü seyretti. İran'la diplomasi ve olası savaş sonu sinyalleri jeopolitik güvenli liman talebini zayıflatıyor, ancak savaşın yeniden başlayabileceği uyarıları karışık bir tablo yaratıyor. PCE enflasyon verisinin takibi ve Fed beklentilerindeki belirsizlik nedeniyle yön net değil; genel eğilim hafif negatif.
-29.10 06:13 N  GPT  score -0.18 conf 0.39: Fed’in faizleri sabit tutup sınırlı yönlendirme vermesi ve altının karar sonrası gerilemesi kısa vadede hafif baskı yaratıyor. İran savaşıyla ilgili maliyet ve olası yenilenme haberleri güvenli liman talebini destekleyebilir; ancak çatışmanın sona erebileceğine dair haberlerle çelişiyor.
 29.10 06:13 B1  SHORT gold 5000 USD x10 @ 4038.01 (TP 4035.44, SL 4039.48; news -0.25)
 29.10 07:06 A2  CLOSE SOLUSDT time limit: -4.10 USD
 29.10 07:06 B1  CLOSE short stop (gap): -3.56 USD
@@ -180,6 +176,10 @@ Son işlemler:
 29.10 07:53 N  NEWS (27 new) score -0.20 conf 0.40: Fed faizleri sabit tuttu ve enflasyonu "yüksek" olarak niteledi; bu, faiz indirimi beklentilerini zayıflatarak altın üzerinde baskı yaratıyor ve altın 4.053,90 dolara geriledi. İran savaşının yeniden başlayabileceğine dair jeopolitik risk güçlü bir güvenli liman talebi sağlasa da, Vance'in Tahran'la temas girişimi bu riski dengeliyor; ABD enflasyon verisi beklentisi de kısa vadede oynaklık getirebilir.
 29.10 07:53 N  GPT  score -0.30 conf 0.48: Fed’in faizleri sabit tutup enflasyonun yüksek kaldığını vurgulaması ve altının karar sonrası gerilemesi kısa vadede baskı yaratıyor; yaklaşan ABD enflasyon verisi belirsizliği artırıyor. İran ve Kuzey Kore kaynaklı jeopolitik riskler düşüşü sınırlayabilir, ancak haberlerin bir kısmı olası senaryola
 29.10 07:53 B1  SHORT gold 5000 USD x10 @ 4039.67 (TP 4037.10, SL 4041.14; news -0.20)
+29.10 08:37 B1  CLOSE short stop: -3.00 USD
+29.10 08:37 N  NEWS (25 new) score -0.20 conf 0.35: Fed faiz oranlarını sabit tuttu ve enflasyonu "yüksek" olarak nitelendirdi; ekonomik güç vurgusu ve Treasury görünümündeki belirsizlik, altın üzerinde baskı yaratıyor (altın $4.053,90'a geriledi). İran savaşının yeniden başlayabileceği haberleri ve Kuzey Kore füze fırlatmaları güvenli liman talebini destekleyebilir, ancak bu etkiler karışık ve kısmen fiyatlanmış; yerel altın fiyatı haberleri ise küresel etkiyi yansıtmıyor.
+29.10 08:37 N  GPT  score -0.20 conf 0.45: Fed’in ekonomik gücü vurgulaması ve altının Fed sinyalleri sonrası gerilemesi, faiz ve dolar kanalı üzerinden kısa vadede hafif baskı yaratabilir. Kuzey Kore’nin füze denemeleri güvenli liman talebini desteklese de etkisi sınırlı; haber akışı karışık ve ABD enflasyon verisi bekleniyor.
+29.10 08:37 B1  SHORT gold 5000 USD x10 @ 4039.97 (TP 4037.40, SL 4041.44; news -0.20)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
