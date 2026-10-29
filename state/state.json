@@ -1962,6 +1962,10 @@
    [
     1793288160,
     4984.93
+   ],
+   [
+    1793291545,
+    4984.93
    ]
   ]
  },
@@ -5005,14 +5009,18 @@
    [
     1793288160,
     4868.5
+   ],
+   [
+    1793291545,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
+   "score": -0.4,
    "confidence": 0.5,
-   "reason": "Fed faizleri sabit tuttu ancak Hassett, Ekim enflasyonu y\u00fcksek gelirse Fed'in harekete ge\u00e7ebilece\u011fini s\u00f6yledi; Eyl\u00fcl PCE enflasyonu y\u00fckseldi ve 6% tahvil getirisi tezi ger\u00e7ek faizleri yukar\u0131 ta\u015f\u0131yarak alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve olas\u0131 yeni sald\u0131r\u0131 haberleri jeopolitik talebi destekliyor, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
+   "reason": "Fed faizleri sabit tuttu ama enflasyon y\u00fcksek (3.7%) ve piyasalar y\u0131l sonuna kadar faiz art\u0131r\u0131m\u0131 ihtimalini fiyatl\u0131yor; bu, reel faizler ve dolar a\u00e7\u0131s\u0131ndan alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Gold'un 100 saatlik ortalaman\u0131n alt\u0131na inmesi de k\u0131sa vadeli zay\u0131fl\u0131\u011fa i\u015faret ediyor; \u0130ran sava\u015f\u0131 ile ilgili jeopolitik haberler ise b\u00fcy\u00fck \u00e7o\u011funlukla bilinen ve fiyatlanm\u0131\u015f nitelikte, bu y\u00fczden g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
    "n": 45,
-   "ts": 1793288141435,
+   "ts": 1793291529158,
    "new_headlines": 37,
    "key_events": [
     "Eyl\u00fcl PCE enflasyonu %3,6 ile beklentiye uygun geldi; y\u0131l sonu faiz art\u0131r\u0131m\u0131 beklentisi s\u00fcrd\u00fc",
@@ -5020,25 +5028,18 @@
     "Alt\u0131n, y\u00fcksek enflasyonun Fed s\u0131k\u0131la\u015fma bahislerini g\u00fc\u00e7lendirmesiyle geriledi"
    ],
    "gpt": {
-    "score": -0.28,
+    "score": -0.32,
     "confidence": 0.58,
-    "reason": "G\u00fc\u00e7l\u00fc b\u00fcy\u00fcme ve y\u00fckselen enflasyon verileri, Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi ve tahvil getirilerinin y\u00fckselebilece\u011fi beklentisini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve olas\u0131 yeni sald\u0131r\u0131lar g\u00fcvenli liman talebi yaratsa da bu etki, faiz bask\u0131s\u0131yla k\u0131smen dengeleniyor.",
+    "reason": "ABD\u2019de g\u00fc\u00e7l\u00fc b\u00fcy\u00fcme ve %3,7 enflasyon faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekliyor; alt\u0131n\u0131n saatlik ortalaman\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131ya i\u015faret ediyor. Enflasyonun beklentiyle uyumlu olmas\u0131 ve \u0130ran kaynakl\u0131 jeopolitik riskler d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
     "key_events": [
-     "ABD enflasyonu y\u00fckseldi; GSYH beklentileri a\u015ft\u0131",
-     "Hazine tahvil getirilerinin %6\u2019ya ilerleyebilece\u011fi beklentisi",
-     "\u0130ran sava\u015f\u0131 ve olas\u0131 sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor"
+     "ABD b\u00fcy\u00fcmesi g\u00fc\u00e7l\u00fc, enflasyon %3,7",
+     "Faiz endi\u015feleriyle alt\u0131n 100 saatlik ortalaman\u0131n alt\u0131na indi",
+     "\u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi riski"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792732831982,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Petrol fiyatlar\u0131n\u0131n y\u00fckselmesi enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu da alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Gold 4.000 dolar\u0131n alt\u0131na inip \u00fc\u00e7 ayl\u0131k dibe geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f yolunda. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini art\u0131rabilse de piyasa \u015fu an bu etkiyi faiz ve dolar kanal\u0131n\u0131n gerisinde b\u0131rak\u0131yor.",
-    "new": 7
-   },
    {
     "ts": 1792733373821,
     "score": -0.6,
@@ -7655,65 +7656,70 @@
     "new": 37,
     "gpt_score": -0.28,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1793291529158,
+    "score": -0.4,
+    "confidence": 0.5,
+    "reason": "Fed faizleri sabit tuttu ama enflasyon y\u00fcksek (3.7%) ve piyasalar y\u0131l sonuna kadar faiz art\u0131r\u0131m\u0131 ihtimalini fiyatl\u0131yor; bu, reel faizler ve dolar a\u00e7\u0131s\u0131ndan alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Gold'un 100 saatlik ortalaman\u0131n alt\u0131na inmesi de k\u0131sa vadeli zay\u0131fl\u0131\u011fa i\u015faret ediyor; \u0130ran sava\u015f\u0131 ile ilgili jeopolitik haberler ise b\u00fcy\u00fck \u00e7o\u011funlukla bilinen ve fiyatlanm\u0131\u015f nitelikte, bu y\u00fczden g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
+    "new": 37,
+    "gpt_score": -0.32,
+    "gpt_confidence": 0.58
    }
   ],
   "news_calls": {
    "date": "2026-10-29",
-   "n": 24
+   "n": 25
   },
   "news_seen": [
+   "Ukraine and the Netherlands team up on missile defense as Europe plans its own missile killer, free of US approval - Euromaidan Press",
+   "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
+   "How US sanctions are threatening political dissent in Europe - The New Arab",
+   "How Black Colonial Marines Changed the War of 1812 - PBS",
+   "Archaeologists Discover Revolutionary War Soldiers Buried at Camden Battlefield - PBS",
+   "IMF says Federal Reserve is 'appropriately' keeping close eye on data - Yahoo Finance",
+   "Pentagon\u2019s hypersonic race with China adds an Air Force missile as ARRW heads to production - Washington Times",
+   "IMF says Federal Reserve is 'appropriately' keeping close eye on data - TradingView",
+   "United States and Japan forge missile production alliance to counter China's power - Yahoo News New Zealand",
+   "\u2018The Mosquito Bowl\u2019 review: Peter Berg\u2019s hollow Second World War drama follows college football stars to the battlefield - Screen Daily",
+   "Fossilflation: War on Iran oil shock shows why we need to replace fossil fuels with renewables - Greenpeace",
+   "Gold getting set to rally: Brooke Thackray - BNN Bloomberg",
+   "\u2018War\u2019 Doesn\u2019t Know What To Do With Carla - Pajiba",
+   "September's Inflation Was in Line With Expectations. Odds of a Rate Hike Dropped But Remain High. - International Business Times",
+   "The AI buildout is this era's central economic narrative - Axios",
+   "Student Democrats and Republicans talk Trump, the economy and war ahead of midterm elections in \u2018The Great Debate\u2019 - The Red & Black",
+   "Gold slips below its 100-hour MA as interest-rate concerns weigh on the recovery - investingLive",
+   "Putin Says Sanctions Make Moving Production to Africa Attractive - Kyiv Post",
+   "The Arab world is watching: could Netanyahu expand the Iran war before forming a government? - Ynetnews",
+   "Is the UAE the Missing Link in the Fight Against the Houthis? - Foreign Policy",
+   "Sanctions in Exchange for Russian Diesel: Why Restoring the Kremlin\u2019s Access to the U.S. Financial System Could Create Strategic Risks - Robert Lansing Institute",
+   "Could your external counsel be a sanctions risk? - Lexology",
+   "Faisal Islam: This Budget was micro and that was deliberate",
+   "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+   "Audacy News: Fed keeps rate unchanged despite stubbornly high inflation - Audacy",
+   "The Shift: The war on Iran looms over the midterms - Mondoweiss",
+   "Eldorado Gold Q3 2026 slides: Skouries milestone offset by cost overruns - Investing.com UK",
+   "Pentagon Puts Iran War Cost at $47.1 Billion; Lawmakers React - Legis1",
+   "Interest Rates Remain Unchanged, Experts Predict Federal Reserve will Raise Rates by End of Year - WENY News",
+   "US economy grows faster than expected but inflation rises to 3.7% - The Guardian",
    "The US Treasuries\u2019 Path to 6% Yields Is Intact - Bloomberg.com",
-   "US Sanctions Hit Russians Over $5.5M in North Korea Crypto - Bitcoin Foundation",
+   "Pentagon\u2019s FORTRESS plan for global war: Every major US base would run 90 days on its own power, water and fuel if the grid goes down - El Cronista",
+   "US Sanctions Hit Two Russians Over Alleged $5.5M Crypto Conversions for North Korea - Bitcoin Foundation",
+   "USD/CAD Analysis: Canadian Dollar Strength Returns After Fed and BoC Decisions - FOREX.com",
+   "Fed\u2019s Path to a Repo-Based Framework Faces a Familiar Roadblock - Bloomberg.com",
    "Poundland's future hangs in the balance as chain edges towards collapse",
+   "Federal Reserve leaving interest rates unchanged as US inflation continues - KVUE",
+   "Robust consumer spending, AI-related investment power US economy in third quarter - Reuters",
+   "Russian general charged in absentia for missile strike on museum dedicated to 18th century Ukrainian philosopher - The Kyiv Independent",
    "U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared \u2018Ended\u2019 - The New York Times",
    "Bereaved families will not face tax bill over pension delays under new rules",
    "Hassett Sees Fed Acting If October Inflation Data Come in High - Bloomberg.com",
-   "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
    "EU chief lays out vision for new Canada partnership at Montreal summit",
-   "Your pay, energy bills and savings: How the Budget affects you",
-   "Cheniere LNG Shipments Surge as Iran War Reshapes Global Gas Trade - gCaptain",
-   "Doordash to buy Instacart in $17bn deal it says will expand customer options",
-   "Federal reserve holds interest rates steady - KXLY.com",
-   "How Europe Is Defying Trump by Rallying Around the ICC, and Why Some Are Calling for More - Time Magazine",
-   "Gold prices plunged today, October 30, 2026, with \"shark\" investors aggressively buying at the bottom, while Wall Street experts predict a difficult rebound this year. - Vietnam.vn",
-   "Pentagon Tells Congress U.S. War on Iran Has Cost $47 Billion - Democracy Now!",
-   "Appian Defense Cloud Achieves IL5 Authorization Across Department of War Operations - Morningstar",
-   "Faisal Islam: The 10-year plan will have to fill the gaps from this 'micro Budget'",
-   "A2GOLD TO SELL BOLO FOR $1.5 MILLION AND UP TO $2.8M IN CONTINGENT PAYMENTS - Investing News Network",
-   "Flights at a gold price after the Toledo train accident: is it legal to raise them so much? - Diari ARA",
-   "After His Iran War Triggered an Oil Crisis, Trump Blames Soaring Energy Prices on Climate Regulations - Futurism",
-   "The South West reacts to Budget announcements",
-   "U.S. Senate candidate Dr. Annie Andrews priority to end war and affordable healthcare. - Greenville Online",
-   "Soviet Tactical Nuclear Weapons in Cuba\u2014Cuban Missile Crisis, a Coda - Council on Foreign Relations",
-   "U.S. and Japan agree to establish a Japanese facility for joint missile production - Los Angeles Times",
-   "Watch: VHS tapes and computers handed to police as Thomas Markle is investigated",
-   "Trump weighs Iran strikes after midterms as war drives up costs - Muslim Network TV",
-   "Wolverine lifts PS5, but Xbox struggles despite Gears of War launch - The Game Business",
-   "JD Vance to make 'War on Fraud' announcement in Minnesota - FOX 9 Minneapolis-St. Paul",
-   "Earnings call transcript: Alamos Gold misses Q3 2026 estimates as shares slide - Investing.com UK",
-   "Gold: Fed Hold Leaves Real Yields and Today\u2019s Inflation Data in Focus - FXEmpire",
-   "Gold Holds Above $4,000 as Steady Labor Market Weighs on Prices - IndexBox",
-   "Iran\u2019s hidden web of military agencies is slipping hardware past the US blockade - Reuters",
-   "Central banks take a breather, though more hikes are to come - Reuters",
-   "U.S. Treasury Sanctions Crypto Launderers Behind North Korea\u2019s Fake Workers - Bitcoin Magazine",
-   "\u2018Mini War\u2019: First Look At Luke Wilson, Vanessa Hudgens, Nick Swardson & Rob Morgan In R-Rated Comedy - Deadline",
-   "Fed\u2019s preferred inflation gauge rose in September as third-quarter GDP beats expectations - Fox Business",
-   "US and Japan agree to establish a Japanese facility for joint missile production - Ottumwa Courier",
-   "Futurist Parag Khanna fears we're already in third world war - The National",
-   "The American economy is running hot\u2014just like inflation - The Real Economy Blog",
-   "Shell profits double to $10.8bn as Iran war pushes up margin on oil - The Guardian",
-   "Settje receives Korean War coin from Gov. Pillen - The Norfolk Daily News",
-   "Nasdaq slides over 1% as Alphabet results revive AI spending fears - Reuters",
-   "War with Iran likely regardless of who leads Israel - Al Majalla",
-   "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-   "Current price of gold as of October 29, 2026 - Fortune"
+   "280,000+ Yemenis displaced by war; El Salvador surges more troops to Haiti; Russian drone strike kills 14 - Drop Site News",
+   "Your pay, energy bills and savings: How the Budget affects you"
   ]
  },
  "log": [
-  "26.10 21:26 B6  karar turu: Claude \u00abPiyasa, \u0130ran gerginli\u011finin azalmas\u0131 ve \u00e7ip toparlanmas\u0131yla pozitif seyrediyor ancak \u00f6\u011fleden sonra yatay konsolidasyonda; b\u00fcy\u00fck teknoloji bilan\u00e7olar\u0131 \u00f6ncesi temkinli kalmak en do\u011frusu.\u00bb / GPT \u00abEndekslerde saatlik s\u0131k\u0131\u015fma ve hisselerde fiyatlanm\u0131\u015f kataliz\u00f6rler nedeniyle, y\u00fczde 1,5 hedefi kalan seansta destekleyecek net haber ve fiyat uyumu bulunmuyor.\u00bb",
-  "26.10 22:19 N  NEWS (19 new) score -0.10 conf 0.30: \u0130ran'da arabuluculuk ve bar\u0131\u015f giri\u015fimleri (Suudi, T\u00fcrk, Pakistanl\u0131 el\u00e7iler; Zelenskyy'nin m\u00fczakerelerin yeniden ba\u015flayaca\u011f\u0131 a\u00e7\u0131klamas\u0131) jeopolitik risk primini hafifletip alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131 olabilir. \u00d6te yandan \u0130ran sava\u015f\u0131n\u0131n LNG ve enerji maliyetlerini art\u0131rmas\u0131 enflasyon ve sert Fed beklentilerini destekleyerek alt\u0131n\u0131 dolayl\u0131 olarak olumsuz etkileyebilir; ancak haberler \u00e7eli\u015fkili ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut fiyatlamaya dahil oldu\u011fu i\u00e7in etki zay\u0131f.",
-  "26.10 22:19 N  GPT  score -0.12 conf 0.30: \u0130ran\u2019a g\u00f6nderilen b\u00f6lgesel arabulucular\u0131n sava\u015f\u0131 sona erdirme \u00e7abas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak \u00e7at\u0131\u015fman\u0131n s\u00fcrmesi ve yeniden alevlenme riski bu etkiyi s\u0131n\u0131rl\u0131yor; yeni bir Fed veya dolar sinyali de yok.",
-  "26.10 22:59 N  NEWS (21 new) score -0.15 conf 0.35: \u0130ran sava\u015f\u0131n\u0131 sonland\u0131rmaya y\u00f6nelik arabuluculuk giri\u015fimleri (Suudi Arabistan, T\u00fcrkiye, Pakistan) g\u00fcvenli liman talebini azaltabilece\u011fi i\u00e7in alt\u0131n a\u00e7\u0131s\u0131ndan hafif olumsuz. Ayr\u0131ca Fed karar\u0131 \u00f6ncesi belirsizlik ve enflasyon kayg\u0131lar\u0131n\u0131n azalmas\u0131 sinyalleri kar\u0131\u015f\u0131k oldu\u011fundan etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
   "26.10 22:59 N  GPT  score -0.18 conf 0.36: \u0130ran\u2019a g\u00f6nderilen arabulucu heyetler sava\u015f\u0131n yeniden ba\u015flamas\u0131n\u0131 \u00f6nleme umudunu art\u0131rarak k\u0131sa vadeli g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak Hizbullah\u2019\u0131n \u00e7at\u0131\u015fmay\u0131 yenilemeye haz\u0131rland\u0131\u011f\u0131na dair haberler bu etkiyi s\u0131n\u0131rl\u0131yor; dolar ve faizler hakk\u0131nda belirleyici yeni bir sinyal yok.",
   "26.10 22:59 ERROR B6: 'id'",
   "26.10 23:35 N  NEWS (16 new) score -0.10 conf 0.30: ",
@@ -8009,7 +8015,11 @@
   "29.10 18:36 N  NEWS (37 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ancak Hassett, Ekim enflasyonu y\u00fcksek gelirse Fed'in harekete ge\u00e7ebilece\u011fini s\u00f6yledi; Eyl\u00fcl PCE enflasyonu y\u00fckseldi ve 6% tahvil getirisi tezi ger\u00e7ek faizleri yukar\u0131 ta\u015f\u0131yarak alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve olas\u0131 yeni sald\u0131r\u0131 haberleri jeopolitik talebi destekliyor, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
   "29.10 18:36 N  GPT  score -0.28 conf 0.58: G\u00fc\u00e7l\u00fc b\u00fcy\u00fcme ve y\u00fckselen enflasyon verileri, Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi ve tahvil getirilerinin y\u00fckselebilece\u011fi beklentisini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve olas\u0131 yeni sald\u0131r\u0131lar g\u00fcvenli liman talebi yaratsa da bu etki, faiz bask\u0131s\u0131yla k\u0131smen dengeleniyor.",
   "29.10 18:36 B5  SHORT gold 25000 USD x10 @ 4029.87 (TP 4017.78, SL 4037.93; news -0.29)",
-  "29.10 18:36 B6  karar turu: Claude \u00abAlphabet'in sert d\u00fc\u015f\u00fc\u015f\u00fc Nasdaq'\u0131 bask\u0131lasa da beklentiyle uyumlu PCE ve g\u00fc\u00e7l\u00fc GDP verisi sonras\u0131 piyasa g\u00fcn i\u00e7i dipten kademeli olarak toparlan\u0131yor.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli toparlanma al\u0131mlar\u0131 \u00f6ne \u00e7\u0131karken Alphabet kaynakl\u0131 teknoloji bask\u0131s\u0131 nedeniyle y\u00fckseli\u015fi g\u00fc\u00e7l\u00fc trend de\u011fil, k\u0131r\u0131lgan tepki hareketi olarak de\u011ferlendiriyorum.\u00bb"
+  "29.10 18:36 B6  karar turu: Claude \u00abAlphabet'in sert d\u00fc\u015f\u00fc\u015f\u00fc Nasdaq'\u0131 bask\u0131lasa da beklentiyle uyumlu PCE ve g\u00fc\u00e7l\u00fc GDP verisi sonras\u0131 piyasa g\u00fcn i\u00e7i dipten kademeli olarak toparlan\u0131yor.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli toparlanma al\u0131mlar\u0131 \u00f6ne \u00e7\u0131karken Alphabet kaynakl\u0131 teknoloji bask\u0131s\u0131 nedeniyle y\u00fckseli\u015fi g\u00fc\u00e7l\u00fc trend de\u011fil, k\u0131r\u0131lgan tepki hareketi olarak de\u011ferlendiriyorum.\u00bb",
+  "29.10 19:32 N  NEWS (37 new) score -0.40 conf 0.50: Fed faizleri sabit tuttu ama enflasyon y\u00fcksek (3.7%) ve piyasalar y\u0131l sonuna kadar faiz art\u0131r\u0131m\u0131 ihtimalini fiyatl\u0131yor; bu, reel faizler ve dolar a\u00e7\u0131s\u0131ndan alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Gold'un 100 saatlik ortalaman\u0131n alt\u0131na inmesi de k\u0131sa vadeli zay\u0131fl\u0131\u011fa i\u015faret ediyor; \u0130ran sava\u015f\u0131 ile ilgili jeopolitik haberler ise b\u00fcy\u00fck \u00e7o\u011funlukla bilinen ve fiyatlanm\u0131\u015f nitelikte, bu y\u00fczden g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
+  "29.10 19:32 N  GPT  score -0.32 conf 0.58: ABD\u2019de g\u00fc\u00e7l\u00fc b\u00fcy\u00fcme ve %3,7 enflasyon faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekliyor; alt\u0131n\u0131n saatlik ortalaman\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131ya i\u015faret ediyor. Enflasyonun beklentiyle uyumlu olmas\u0131 ve \u0130ran kaynakl\u0131 jeopolitik riskler d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+  "29.10 19:32 B6  karar turu: Claude \u00abEndeksler hafif ekside; Alphabet kaynakl\u0131 teknoloji zay\u0131fl\u0131\u011f\u0131 Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken defansif sekt\u00f6rler ve k\u00fc\u00e7\u00fck \u00f6l\u00e7ekli hisseler g\u00fc\u00e7l\u00fc GDP verisiyle destek buluyor.\u00bb / GPT \u00abTeknoloji hisselerinde a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 s\u00fcrerken geni\u015f piyasa daha diren\u00e7li; d\u00f6rt kat kald\u0131ra\u00e7ta mevcut teknoloji pozisyonlar\u0131yla toplam risk g\u00f6zetilmeli.\u00bb",
+  "29.10 19:32 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"102355.11\",\"message\":\"insufficient buying power\"}"
  ],
  "gold_big": {
   "account": {
@@ -9902,6 +9912,10 @@
    [
     1793288160,
     4963.78
+   ],
+   [
+    1793291545,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -11722,6 +11736,10 @@
    [
     1793288160,
     4975.18
+   ],
+   [
+    1793291545,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -13508,6 +13526,10 @@
    [
     1793288160,
     4993.28
+   ],
+   [
+    1793291545,
+    4993.28
    ]
   ]
  },
@@ -15131,6 +15153,10 @@
    [
     1793288160,
     4969.22
+   ],
+   [
+    1793291545,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -15218,6 +15244,10 @@
    [
     1793288160,
     4938.13
+   ],
+   [
+    1793291545,
+    5000.16
    ]
   ],
   "news_calls": {
@@ -15425,7 +15455,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99857.157393,
+   "balance": 99842.80989300001,
    "start": 100000.0,
    "positions": [
     {
@@ -15440,7 +15470,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 348.81
+     "cur": 349.27
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -15454,7 +15484,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 214.315
+     "cur": 213.36
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -15468,18 +15498,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 406.8075
+     "cur": 405.44
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-10-29",
-    "pnl": -310.03,
+    "pnl": -82.33,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 99532.78
+   "equity": 99760.48
   },
   "equity_curve": [
    [
@@ -16741,6 +16771,10 @@
    [
     1793288160,
     99532.78
+   ],
+   [
+    1793291545,
+    99760.48
    ]
   ],
   "open": {
@@ -16780,11 +16814,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793288142864,
+  "last_decision_ms": 1793291529648,
   "view": {
-   "ts": 1793288142864,
-   "claude": "Alphabet'in sert d\u00fc\u015f\u00fc\u015f\u00fc Nasdaq'\u0131 bask\u0131lasa da beklentiyle uyumlu PCE ve g\u00fc\u00e7l\u00fc GDP verisi sonras\u0131 piyasa g\u00fcn i\u00e7i dipten kademeli olarak toparlan\u0131yor.",
-   "gpt": "Endekslerde k\u0131sa vadeli toparlanma al\u0131mlar\u0131 \u00f6ne \u00e7\u0131karken Alphabet kaynakl\u0131 teknoloji bask\u0131s\u0131 nedeniyle y\u00fckseli\u015fi g\u00fc\u00e7l\u00fc trend de\u011fil, k\u0131r\u0131lgan tepki hareketi olarak de\u011ferlendiriyorum.",
+   "ts": 1793291529648,
+   "claude": "Endeksler hafif ekside; Alphabet kaynakl\u0131 teknoloji zay\u0131fl\u0131\u011f\u0131 Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken defansif sekt\u00f6rler ve k\u00fc\u00e7\u00fck \u00f6l\u00e7ekli hisseler g\u00fc\u00e7l\u00fc GDP verisiyle destek buluyor.",
+   "gpt": "Teknoloji hisselerinde a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 s\u00fcrerken geni\u015f piyasa daha diren\u00e7li; d\u00f6rt kat kald\u0131ra\u00e7ta mevcut teknoloji pozisyonlar\u0131yla toplam risk g\u00f6zetilmeli.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -16795,17 +16829,17 @@
      ],
      "gpt": [
       "none",
-      0.66
+      0.7
      ]
     },
     "QQQ": {
      "claude": [
-      "long",
-      0.4
+      "short",
+      0.45
      ],
      "gpt": [
-      "long",
-      0.59
+      "short",
+      0.64
      ]
     },
     "NVDA": {

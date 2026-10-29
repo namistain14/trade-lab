@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 18:36 (İstanbul)
+> Son güncelleme: 29.10.2026 19:32 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 4,938.13 $** (başlangıç 5,000 $, -61.87 $ / %-1.24)
+**Hesap değeri: 5,000.16 $** (başlangıç 5,000 $, +0.16 $ / %+0.00)
 
 Açık pozisyonlar: PAXGUSDT short @ 4029.87 (TP 4017.78 / SL 4037.93)
 
@@ -52,17 +52,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,532.78 $** (başlangıç 100,000 $, -467.22 $ / %-0.47)
+**Hesap değeri: 99,760.48 $** (başlangıç 100,000 $, -239.52 $ / %-0.24)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-29.10 16:43 A  CLOSE BNBUSDT take profit: +27.93 USD
-29.10 16:43 B5  CLOSE short stop: -55.94 USD
-29.10 16:43 N  NEWS (41 new) score -0.60 conf 0.70: Fed faizleri sabit tuttu ancak iki oy artırım yönünde çıktı, çekirdek PCE enflasyonu %3,6'ya yükseldi ve ABD GDP'si %3,4 ile beklentilerin üzerinde büyüdü. Bu tablo reel faiz ve dolar tarafında baskı yaratıyor; Kitco da altının 4.000 dolara doğru gerilediğini bildiriyor. Jeopolitik haberler (İran savaşı maliyeti, Rusya-Ukrayna) güvenli liman talebini bir miktar destekleyebilir, ancak etkisi bu sıkı para politikası sinyallerinin gerisinde kalıyor.
-29.10 16:43 N  GPT  score -0.58 conf 0.72: Beklentileri aşan ABD büyümesi ve Fed’in tercih ettiği enflasyon göstergesinin %3,6’ya yükselmesi, faizlerin daha uzun süre yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı yaratıyor. İran savaşı kaynaklı riskler güvenli liman talebini desteklese de kısa vadede makroekonomik baskın et
 29.10 16:43 B6  karar turu: Claude «Alphabet çöküşü Nasdaq'ı aşağı çekerken makro veriler nötr; şirkete özel haberlerde seçici işlem yapmak en mantıklısı.» / GPT «Teknoloji endeksi baskı altında olduğundan geniş piyasadaki düşüşü kovalamak yerine AAPL'de haber destekli alım ve NVDA'da seçici satış tercih ediyorum.»
 29.10 16:43 B6  AÇIĞA SATIŞ NVDA 467 adet ≈ 99,751 $ (1:4) @ 213.6 (TP 210.4, SL 215.74; ikisi de hemfikir, güven 0.55)
 29.10 16:43 B6  ALIŞ AAPL 285 adet ≈ 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, güven 0.60)
@@ -74,6 +70,10 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 29.10 18:36 N  GPT  score -0.28 conf 0.58: Güçlü büyüme ve yükselen enflasyon verileri, Fed’in daha sıkı kalabileceği ve tahvil getirilerinin yükselebileceği beklentisini destekleyerek altını kısa vadede baskılıyor. İran savaşı ve olası yeni saldırılar güvenli liman talebi yaratsa da bu etki, faiz baskısıyla kısmen dengeleniyor.
 29.10 18:36 B5  SHORT gold 25000 USD x10 @ 4029.87 (TP 4017.78, SL 4037.93; news -0.29)
 29.10 18:36 B6  karar turu: Claude «Alphabet'in sert düşüşü Nasdaq'ı baskılasa da beklentiyle uyumlu PCE ve güçlü GDP verisi sonrası piyasa gün içi dipten kademeli olarak toparlanıyor.» / GPT «Endekslerde kısa vadeli toparlanma alımları öne çıkarken Alphabet kaynaklı teknoloji baskısı nedeniyle yükselişi güçlü trend değil, kırılgan tepki hareketi olarak değerlendiriyorum.»
+29.10 19:32 N  NEWS (37 new) score -0.40 conf 0.50: Fed faizleri sabit tuttu ama enflasyon yüksek (3.7%) ve piyasalar yıl sonuna kadar faiz artırımı ihtimalini fiyatlıyor; bu, reel faizler ve dolar açısından altın için baskı yaratıyor. Gold'un 100 saatlik ortalamanın altına inmesi de kısa vadeli zayıflığa işaret ediyor; İran savaşı ile ilgili jeopolitik haberler ise büyük çoğunlukla bilinen ve fiyatlanmış nitelikte, bu yüzden güvenli liman talebini belirgin biçimde artırmıyor.
+29.10 19:32 N  GPT  score -0.32 conf 0.58: ABD’de güçlü büyüme ve %3,7 enflasyon faizlerin yüksek kalacağı beklentisini destekliyor; altının saatlik ortalamanın altına gerilemesi kısa vadede baskıya işaret ediyor. Enflasyonun beklentiyle uyumlu olması ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
+29.10 19:32 B6  karar turu: Claude «Endeksler hafif ekside; Alphabet kaynaklı teknoloji zayıflığı Nasdaq'ı aşağı çekerken defansif sektörler ve küçük ölçekli hisseler güçlü GDP verisiyle destek buluyor.» / GPT «Teknoloji hisselerinde aşağı yönlü baskı sürerken geniş piyasa daha dirençli; dört kat kaldıraçta mevcut teknoloji pozisyonlarıyla toplam risk gözetilmeli.»
+29.10 19:32 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102355.11","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
