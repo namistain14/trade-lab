@@ -15,13 +15,14 @@ import os
 
 import requests
 
+STYLE = 'Only trade when price action AND news give a clear edge; "none" is the right answer most of the time.'
 PAPER = "https://paper-api.alpaca.markets"   # paper only: real-money endpoint is never used
 DATA = "https://data.alpaca.markets"
 
 PROMPT = """You are a disciplined US equities intraday trader. It is {now} New York time.
 For each symbol decide whether to open a position NOW for the next 1-3 hours, or do nothing.
 Leverage is 1:{lev}. Each trade uses a take profit of +{tp}% and a stop loss of -{sl}% (bracket order).
-Only trade when price action AND news give a clear edge; "none" is the right answer most of the time.
+{style}
 Avoid chasing big moves that already happened; weigh fresh, company-specific news most.
 
 Market data (price, change vs yesterday's close, change over the last hour, last 12 five-minute closes):
@@ -203,7 +204,7 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
             try:
                 market = market_snapshot(api, symbols)
                 news = headlines(api, symbols)
-                prompt = PROMPT.format(now="pre-market, the bell rings in about an hour", lev=bc["leverage"],
+                prompt = PROMPT.format(now="pre-market, the bell rings in about an hour", lev=bc["leverage"], style=bc.get("style", STYLE),
                                        tp=bc["take_profit_pct"], sl=bc["stop_loss_pct"],
                                        prices=json.dumps(market, ensure_ascii=False), news="\n".join(news) or "(none)",
                                        open="none")
@@ -245,7 +246,7 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
     market = market_snapshot(api, symbols)
     news = headlines(api, symbols)
     ny = dt.datetime.now(dt.timezone(dt.timedelta(hours=-4))).strftime("%H:%M")
-    prompt = PROMPT.format(now=ny, lev=bc["leverage"], tp=bc["take_profit_pct"], sl=bc["stop_loss_pct"],
+    prompt = PROMPT.format(now=ny, lev=bc["leverage"], style=bc.get("style", STYLE), tp=bc["take_profit_pct"], sl=bc["stop_loss_pct"],
                            prices=json.dumps(market, ensure_ascii=False), news="\n".join(news) or "(none)",
                            open=", ".join(pos) or "none")
     c_ans, g_ans, g_model, c_model = {}, {}, None, None

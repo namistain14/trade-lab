@@ -29,7 +29,7 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
     for sym in cfg["symbols"]:
         if len(acc["positions"]) >= cfg["max_open"] or any(p["symbol"] == sym for p in acc["positions"]):
             continue
-        recent = [t for t in acc["trades"] if t["symbol"] == sym and _now_ms() - t["closed_ms"] < 30 * 60_000]
+        recent = [t for t in acc["trades"] if t["symbol"] == sym and _now_ms() - t["closed_ms"] < cfg.get("cooldown_minutes", 30) * 60_000]
         if recent:
             continue  # cool-down after a trade on the same coin
         m5 = data[sym]["5m"] if data else market.klines(sym, cfg["interval"], 300)
@@ -46,7 +46,8 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
         green = last_c["c"] > last_c["o"] if cfg.get("require_green_candle") else True
         if trend_ok and dropped and green and r[-1] < cfg["rsi_buy_below"] and r[-1] > r[-2]:
             price = prices[sym] * (1 + slip)
-            notional = min(acc["balance"] * cfg["position_pct"], acc["balance"] - sum(
+            lev = cfg.get("leverage", 1)  # Erdem 29.10: A may trade with a multiplier (paper futures)
+            notional = min(acc["balance"] * cfg["position_pct"] * lev, acc["balance"] * lev - sum(
                 p["qty"] * p["entry"] for p in acc["positions"]))
             if notional < 10:
                 continue
@@ -54,8 +55,8 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
             paper.open_position(acc, symbol=sym, side="long", price=price, qty=qty,
                                 tp=price * (1 + cfg["take_profit_pct"]), sl=price * (1 - cfg["stop_loss_pct"]),
                                 t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
-                                margin=notional, note=f"RSI {r[-1]:.0f}, above EMA200")
-            log.append(f"{cfg.get('tag', 'A')}  BUY {sym} {notional:.0f} USD @ {price:.2f} (RSI {r[-1]:.0f})")
+                                margin=notional / lev, note=f"RSI {r[-1]:.0f}" + (f", x{lev}" if lev > 1 else ""))
+            log.append(f"{cfg.get('tag', 'A')}  BUY {sym} {notional:.0f} USD" + (f" x{lev}" if lev > 1 else "") + f" @ {price:.2f} (RSI {r[-1]:.0f})")
     return prices
 
 
@@ -177,7 +178,7 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     if not fresh or abs(score) < cfg["min_score"] or conf < cfg["min_confidence"]:
         return {sym: price_now}
     last = acc["trades"][-1] if acc["trades"] else None
-    if last and _now_ms() - last["closed_ms"] < 10 * 60_000:
+    if last and _now_ms() - last["closed_ms"] < cfg.get("pause_minutes", 10) * 60_000:
         return {sym: price_now}  # short pause after each trade
 
     m5 = data[sym]["5m"] if data else market.klines(sym, cfg["interval"], 120)
