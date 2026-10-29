@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 23:08 (İstanbul)
+> Son güncelleme: 29.10.2026 23:54 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %11.1 | %23.1 |
 | Ödenen komisyon/spread | 47.31 $ | 55.30 $ |
 
-**Hesap değeri: 4,797.18 $** (başlangıç 5,000 $, -202.82 $ / %-4.06)
+**Hesap değeri: 4,785.67 $** (başlangıç 5,000 $, -214.33 $ / %-4.29)
+
+Açık pozisyonlar: BTCUSDT long @ 79262.02 (TP 79737.59 / SL 78944.97); ETHUSDT long @ 2267.56 (TP 2281.17 / SL 2258.49); BNBUSDT long @ 698.37 (TP 702.56 / SL 695.58)
 
 Son işlemler:
 
@@ -52,18 +54,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,251.45 $** (başlangıç 100,000 $, +251.45 $ / %+0.25)
+**Hesap değeri: 99,611.41 $** (başlangıç 100,000 $, -388.59 $ / %-0.39)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-29.10 21:17 N  GPT  score -0.55 conf 0.65: Güçlü büyüme ve hızlanan enflasyon, Fed’in faizleri daha uzun süre yüksek tutabileceği beklentisini destekleyerek altın üzerinde baskı yaratıyor; haberlerde altının zaten gerilediği de belirtiliyor. Savaş başlıkları yeni bir tırmanış göstermediğinden güvenli liman desteği sınırlı, ayrıca bazı haberl
-29.10 21:17 B5  SHORT gold 25000 USD x10 @ 4015.17 (TP 4003.12, SL 4023.20; news -0.53)
-29.10 21:17 B6  karar turu: Claude «Alphabet kaynaklı teknoloji satışı ve İran-ABD gerginliği Nasdaq'ı baskılarken, güçlü GDP verisi defansif hisseleri ve küçük ölçekli şirketleri destekliyor.» / GPT «Teknoloji hisselerinde baskı sürerken endekslerde momentum zayıf; QQQ kısa pozisyonu mevcut NVDA pozisyonuyla birlikte yoğunlaşma riski açısından değerlendirilmelidir.»
-29.10 22:18 A  CLOSE ETHUSDT stop: -31.28 USD
-29.10 22:18 A  CLOSE SOLUSDT stop: -15.64 USD
 29.10 22:18 A  BUY BNBUSDT 5850 USD x3 @ 744.08 (RSI 41)
 29.10 22:18 A  BUY XRPUSDT 2868 USD x3 @ 1.28 (RSI 33)
 29.10 22:18 N  NEWS (26 new) score -0.45 conf 0.60: Fed'in 10-2 ile faizleri sabit tutup enflasyonun yüksek kaldığını belirtmesi, Core PCE'nin %3,1'e çıkması ve Hassett'in Ekim enflasyonu sıcak gelirse faiz artırımına açık olduğunu söylemesi, sıkılaşma beklentilerini artırarak altın için baskılayıcı. İran savaşı riski altın için sınırlı destek sağlasa da, haberlerin çoğu zaten fiyatlanmış görünüyor.
@@ -74,6 +71,11 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 29.10 23:08 B5  CLOSE short stop: -55.94 USD
 29.10 23:08 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 29.10 23:08 N  NEWS (26 new) score -0.35 conf 0.60: Güçlü ABD büyümesi (%3.4 GSYH), 3,1% çekirdek PCE ve Fed'in faizi sabit tutması (10-2) ile sıkı para politikası beklentisi altını baskılıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekliyor, ancak bunların büyük kısmı zaten fiyatlanmış durumda; ayrıca Warsh'ın Fed yaklaşımındaki değişiklik yönü belirsiz.
+29.10 23:54 A  BUY BTCUSDT 5757 USD x3 @ 79262.02 (RSI 16)
+29.10 23:54 A  BUY ETHUSDT 5757 USD x3 @ 2267.56 (RSI 21)
+29.10 23:54 A  BUY BNBUSDT 2878 USD x3 @ 698.37 (RSI 7)
+29.10 23:54 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+29.10 23:54 N  NEWS (33 new) score +0.12 conf 0.35: Jeopolitik risk (İran savaşının yeniden başlatılma planı, ABD askeri kayıpları, Ukrayna-Rusya gerilimi) ve doların zayıflaması altını hafifçe destekliyor. Buna karşılık, güçlü GDP büyümesi ve yeniden hızlanan enflasyon, Warsh'ın Fed faiz yaklaşımındaki değişiklik belirsizliği nedeniyle gerçek faiz beklentilerini yukarı çekebilir; bu da altı baskılayabilir. Haberler karışık ve büyük bölümü zaten fiyatlanmış olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
