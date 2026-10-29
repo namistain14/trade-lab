@@ -1862,27 +1862,31 @@
    [
     1793243590,
     4988.71
+   ],
+   [
+    1793246772,
+    4988.71
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4888.602147761265,
+   "balance": 4885.041262041645,
    "start": 5000,
    "positions": [
     {
-     "id": "a0c04e55",
+     "id": "e3f925ed",
      "symbol": "PAXGUSDT",
      "side": "short",
-     "qty": 1.2382330079563906,
-     "entry": 4038.012206,
-     "tp": 4035.439913134973,
-     "sl": 4039.47711790002,
-     "opened_ms": 1793243587994,
+     "qty": 1.238064410338585,
+     "entry": 4038.562096,
+     "tp": 4035.989473266947,
+     "sl": 4040.027227812038,
+     "opened_ms": 1793246767409,
      "entry_cost": 0.0,
      "max_hold_min": 240,
      "margin": 500.0,
-     "note": "news -0.25/0.40",
+     "note": "news -0.20/0.40",
      "friction": 2.3719
     }
    ],
@@ -2915,12 +2919,33 @@
      "gross": -3.309,
      "costs": 0.0,
      "pnl": -3.309
+    },
+    {
+     "id": "a0c04e55",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2382330079563906,
+     "entry": 4038.012206,
+     "tp": 4035.439913134973,
+     "sl": 4039.47711790002,
+     "opened_ms": 1793243587994,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.25/0.40",
+     "friction": 2.3719,
+     "exit": 4040.8879859999997,
+     "closed_ms": 1793243700000,
+     "reason": "stop (gap)",
+     "gross": -3.5609,
+     "costs": 0.0,
+     "pnl": -3.5609
     }
    ],
    "day": {
     "date": "2026-10-29",
-    "trades": 5,
-    "pnl": -12.309038954586342,
+    "trades": 6,
+    "pnl": -15.869924674206985,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4693,40 +4718,37 @@
    [
     1793243590,
     4887.42
+   ],
+   [
+    1793246772,
+    4883.86
    ]
   ],
   "news": {
-   "score": -0.25,
+   "score": -0.2,
    "confidence": 0.4,
-   "reason": "Fed faiz oranlar\u0131n\u0131 sabit tuttu ve y\u00f6nlendirmesi s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n hafif geriledi, dolar sabit/g\u00fc\u00e7l\u00fc seyretti. \u0130ran'la diplomasi ve olas\u0131 sava\u015f sonu sinyalleri jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131lar\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. PCE enflasyon verisinin takibi ve Fed beklentilerindeki belirsizlik nedeniyle y\u00f6n net de\u011fil; genel e\u011filim hafif negatif.",
+   "reason": "Fed faizleri sabit tuttu ve y\u00f6nlendirme s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n Fed sonras\u0131 d\u00fc\u015ft\u00fc ve dolar g\u00fc\u00e7lendi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131s\u0131 ve sava\u015f maliyetleri g\u00fcvenli liman talebini destekliyor ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; ABD enflasyon verisi beklentisi ise belirsizli\u011fi art\u0131r\u0131yor.",
    "n": 45,
-   "ts": 1793243587178,
-   "new_headlines": 16,
+   "ts": 1793246766409,
+   "new_headlines": 24,
    "key_events": [
     "Fed faizi %3,75-4 aral\u0131\u011f\u0131nda sabit tuttu; Warsh enflasyonu '\u00e7ok y\u00fcksek' dedi",
     "Dolar g\u00fc\u00e7lenirken alt\u0131n geri \u00e7ekildi; ABD enflasyon ve PCE verisi bekleniyor",
     "Iran sava\u015f\u0131n\u0131n yeniden ba\u015flama riski ve Vance'in Tahran giri\u015fimi kar\u015f\u0131t sinyal veriyor"
    ],
    "gpt": {
-    "score": -0.18,
-    "confidence": 0.39,
-    "reason": "Fed\u2019in faizleri sabit tutup s\u0131n\u0131rl\u0131 y\u00f6nlendirme vermesi ve alt\u0131n\u0131n karar sonras\u0131 gerilemesi k\u0131sa vadede hafif bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili maliyet ve olas\u0131 yenilenme haberleri g\u00fcvenli liman talebini destekleyebilir; ancak \u00e7at\u0131\u015fman\u0131n sona erebilece\u011fine dair haberlerle \u00e7eli\u015fiyor.",
+    "score": -0.3,
+    "confidence": 0.62,
+    "reason": "Fed\u2019in faizi sabit tutmas\u0131n\u0131n ard\u0131ndan s\u0131n\u0131rl\u0131 y\u00f6nlendirme, g\u00fc\u00e7l\u00fc dolar ve alt\u0131ndaki son d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor; yakla\u015fan ABD enflasyon verisi hareketi h\u0131zla tersine \u00e7evirebilir. Kuzey Kore f\u00fcze haberi ve \u0130ran sava\u015f\u0131 riskleri g\u00fcvenli liman talebini desteklese de mevcut fiyat bask\u0131s\u0131n\u0131 \u015f",
     "key_events": [
-     "Fed faizi sabit tuttu; alt\u0131n karar sonras\u0131 geriledi",
-     "\u0130ran sava\u015f\u0131 maliyeti 47,1 milyar dolara ula\u015ft\u0131",
-     "\u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yenilenmesi veya sona ermesi konusunda \u00e7eli\u015fkili haberler"
+     "Fed karar\u0131 sonras\u0131 alt\u0131n geriledi",
+     "Dolar g\u00fc\u00e7l\u00fc, ABD enflasyon verisi bekleniyor",
+     "Kuzey Kore f\u00fcze denemesi ve \u0130ran gerilimi"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792724333218,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n 3 ayl\u0131k ve iki ayl\u0131k dip seviyelerine geriledi; petrol fiyatlar\u0131ndaki sert y\u00fckseli\u015f (Suudi sald\u0131r\u0131s\u0131, \u0130ran riski) enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek g\u00fcvenli liman talebini bask\u0131l\u0131yor. Dolar ve tahvil getirilerindeki zay\u0131f hareketler k\u0131smen destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 ihtimali gibi bask\u0131n etki alt\u0131n \u00fczerinde negatif kal\u0131yor.",
-    "new": 28
-   },
    {
     "ts": 1792724928854,
     "score": -0.3,
@@ -7313,30 +7335,58 @@
     "new": 16,
     "gpt_score": -0.18,
     "gpt_confidence": 0.39
+   },
+   {
+    "ts": 1793246766409,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "Fed faizleri sabit tuttu ve y\u00f6nlendirme s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n Fed sonras\u0131 d\u00fc\u015ft\u00fc ve dolar g\u00fc\u00e7lendi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131s\u0131 ve sava\u015f maliyetleri g\u00fcvenli liman talebini destekliyor ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; ABD enflasyon verisi beklentisi ise belirsizli\u011fi art\u0131r\u0131yor.",
+    "new": 24,
+    "gpt_score": -0.3,
+    "gpt_confidence": 0.62
    }
   ],
   "news_calls": {
    "date": "2026-10-29",
-   "n": 9
+   "n": 10
   },
   "news_seen": [
-   "Vance makes Tehran outreach as Middle East braces for resumption of Iran war - The Washington Post",
+   "As war strains Kremlin finances, Putin reaches into more pockets in search of new revenue streams - Newsday",
+   "Gold Price Forecast: XAU/USD corrects after three-day winning streak ahead of key US data - FXStreet",
+   "Digging Into China\u2019s Overlooked World War I History - Sixth Tone",
+   "Hong Kong Monetary Authority leaves interest rates unchanged, tracking Fed move - Bellingham Herald",
+   "us markets rally fed rate decision crude oil gold price drop - Zee Business",
+   "Some North Korean workers sent to Russia are helping Ukraine war effort, report says - NBC News",
    "Gold (XAU/USD) Price Forecast: Bearish Trend Faces Critical Test - FXEmpire",
+   "BREAKING NEWS: N. Korea fires what may be ballistic missile: Japan gov't - Japan Wire by Kyodo News",
+   "Gold prices remain flat after Fed holds interest rates steady; investors await US inflation data - Moneycontrol.com",
+   "Gold prices face a drop of more than $100 due to Fed interest rates - Laodong.vn",
+   "CENTCOM Puts Iran War Cost at $47.1 Billion as Unfunded Munitions Bill Drives Increase - The SOFX Report",
+   "24,000-ton nuclear-powered submarine fires 5,160-mile-range missile while submerged - Interesting Engineering",
+   "Gold prices are moving away from their all-time highs, with a $3,000/ounce scenario being considered. - Vietnam.vn",
+   "Global gold prices fell following the Fed's interest rate decision. - Vietnam.vn",
+   "Gold rate today in Hyderabad, October 29, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
+   "OpenAI launches 'war room' to monitor midterm elections - Mashable",
+   "Vance makes Tehran outreach as Middle East braces for resumption of Iran war - The Washington Post",
+   "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
    "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - WXLV",
-   "Rupee eyes mild relief with Asian peers buoyed by \"modestly\" dovish Fed - Reuters",
+   "US and Japan to establish a Japanese facility for joint missile production - KSAT",
+   "US and Japan to establish a Japanese facility for joint missile production | National News | 2news.com - KTVN",
+   "Ex-Biden officials urge presidential candidates shun staff who enabled Gaza war - Haaretz",
    "Gold Edges Lower After Fed Holds Rates With Limited Guidance - Bloomberg",
+   "South Korea Successfully Tests Hypersonic Missile - Eurasia Review",
    "Gold Rate Today: Check 24K, 22K Gold Prices In Mumbai, Delhi, Chennai, Kolkata, Bengaluru On October 29 - NDTV Profit",
+   "Behind Khamenei's call for peace, Tehran's unchanged demands - Iran International",
    "Gold and silver price today, October 29: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "Trump warns Gulf states to prepare for \u2018possible short, intense renewal of Iran war\u2019 after US midterms: Report - The Indian Express",
    "Commodity Corner: Oil, gold slip as middle east diplomacy, Fed rate outlook weigh on sentiment - Moneycontrol.com",
    "Trump administration sanctions North Korean network accused of infiltrating US companies - Fox Business",
-   "Saudi-led coalition destroys Houthi ballistic missile fired towards kingdom - The Jerusalem Post",
+   "Saudi-led coalition destroys Houthi ballistic missile - The Jerusalem Post",
    "Gold dips on firmer dollar; US inflation data in focus - The Economic Times",
    "Gold prices today, October 29th, are moving in opposite directions, with the market fluctuating between technical and economic factors; the long-term outlook is more promising. - Vietnam.vn",
    "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - WGXA",
-   "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - KHGI",
+   "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - KOKI FOX 23",
    "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - WOAI",
-   "Pentagon: Iran war costs hit $47.1 billion as weapons replacement drives surge - The National Desk",
    "Dollar steady after Fed hold leaves rate path murky - Reuters",
    "Tracking Trump: Fed keeps interest rates steady; Iran war cost update; RFK Jr.\u2019s peptide plan; and more - The Washington Post",
    "2026 NH U.S. Senate Race: Pappas, Sununu debate ending the war in Iran - WMUR",
@@ -7345,35 +7395,10 @@
    "As Iran war drags on, airlines pull back on fuel hedges and warn on fares - The Japan Times",
    "Honor Committee discusses effectiveness of sanctions in abeyance - The Cavalier Daily",
    "Ukraine war briefing: Oleshky truce holding and demining under way to enable humanitarian corridor, Kyiv says - The Guardian",
-   "Trump signals possible end to Iran war as US reportedly prepares for post election strikes - KEYE",
-   "Gold prices today, October 29th: SJC gold loses momentum, risk of further decline. - Vietnam.vn",
-   "Global gold prices fell due to pressure from oil prices and US bond yields. - Vietnam.vn",
-   "Houthi ballistic missile targeting eastern Saudi Arabia intercepted: Coalition - Anadolu Ajans\u0131",
-   "Microsoft profits soar days after announcing thousands of layoffs",
-   "Gold Rate Today in New Delhi 29th October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
-   "Gold slips after Fed holds rates, PCE inflation data in focus - Investing.com",
-   "Experts predict further declines in gold prices amid pressure from Fed interest rates. - Vietnam.vn",
-   "Fl\u00e1vio Bolsonaro denies fleeing Brazil after landing in Miami",
-   "Saudi-led coalition claims it destroyed Houthi ballistic missile fired towards kingdom - Middle East Eye",
-   "\u2018Politics played no role\u2019: Fed hits pause button ahead of midterms - SMH.com.au",
-   "Federal Reserve holds interest rates steady - The Washington Post",
-   "Why Does Japan\u2019s Underlying Inflation Guide BOJ Rate Decisions? - Bloomberg",
-   "Saudi-led coalition says it destroys Houthi ballistic missile fired towards kingdom - The Times of Israel",
-   "Federal Reserve keeps benchmark rate at 3.75-4%, no relief from high rates - cbs8.com",
-   "$4,070 area: Gold price forecast as XAU/USD rebound stalls below former support - www.tmgm.com",
-   "Oil's War Premium Could Vanish Fast Once a Hormuz Deal Lands, Analysts Warn - Yahoo Finance",
-   "There\u2019s a War Over How to Train Your Dog\u2014and It\u2019s Getting Nastier by the Day - WSJ",
-   "The Islamic Republic only survives on war \u2014 don\u2019t give Tehran what it craves - New York Post",
-   "Iran war\u2019s critics highlight eight-month milestone - Roll Call"
+   "How the Seizure of a Russian Vessel Brought the Ukraine War to the Arctic - WSJ"
   ]
  },
  "log": [
-  "25.10 08:10 N  GPT  score -0.18 conf 0.34: Fed\u2019in faizleri sabit tutmas\u0131n\u0131n beklenmesi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; 116 dolarl\u0131k petrol ve alt\u0131ndaki son sert d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran/Husi kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de yeni ve belirleyici bir t\u0131rman\u0131\u015f haberi yok.",
-  "25.10 08:46 N  NEWS (21 new) score -0.15 conf 0.40: ",
-  "25.10 08:46 N  GPT  score -0.20 conf 0.42: Fed\u2019in faizleri \u015fahin bir tonda sabit tutaca\u011f\u0131 beklentisi ve alt\u0131ndaki son d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131 yarat\u0131yor. Riyad\u2019a y\u00f6nelik sald\u0131r\u0131 ve \u0130ran\u2019la olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcm s\u0131n\u0131rl\u0131 ve belirsiz.",
-  "25.10 09:13 A  BUY SOLUSDT 1000 USD @ 101.81 (RSI 38)",
-  "25.10 09:13 N  NEWS (16 new) score -0.15 conf 0.35: \u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekliyor, ancak Fed'in \"\u015fahin duraklama\" beklentisi, 116 dolarl\u0131k petrol kaynakl\u0131 enflasyon bask\u0131s\u0131 ve son haftada ya\u015fanan yakla\u015f\u0131k %4'l\u00fck alt\u0131n d\u00fc\u015f\u00fc\u015f\u00fc k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. Bu sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in y\u00f6nsel etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendirildi.",
-  "25.10 09:13 N  GPT  score +0.08 conf 0.31: Riyad\u2019a y\u00f6nelen Husi f\u00fczesinin \u00f6nlenmesi jeopolitik risk alg\u0131s\u0131n\u0131 s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde art\u0131rabilir; ancak sald\u0131r\u0131 etkisiz kald\u0131. Fed\u2019in beklenen faizleri sabit tutmas\u0131 ve \u00f6nceki d\u00fc\u015f\u00fc\u015f e\u011filimi alt\u0131ndaki yukar\u0131 y\u00f6nl\u00fc etkiyi dengeliyor.",
   "25.10 10:05 A  CLOSE SOLUSDT stop: -6.29 USD",
   "25.10 10:05 N  NEWS (21 new) score -0.20 conf 0.40: ",
   "25.10 10:05 N  GPT  score +0.25 conf 0.42: Riyad\u2019a y\u00f6nelen f\u00fcze ve Husilerin sald\u0131r\u0131lar\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri ve Fed\u2019e dair yeni bir karar ya da faiz sinyali bulunmamas\u0131 y\u00f6n\u00fc belirsizle\u015ftiriyor.",
@@ -7667,7 +7692,13 @@
   "29.10 06:13 B1  CLOSE short stop (gap): -3.31 USD",
   "29.10 06:13 N  NEWS (16 new) score -0.25 conf 0.40: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve y\u00f6nlendirmesi s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n hafif geriledi, dolar sabit/g\u00fc\u00e7l\u00fc seyretti. \u0130ran'la diplomasi ve olas\u0131 sava\u015f sonu sinyalleri jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131lar\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. PCE enflasyon verisinin takibi ve Fed beklentilerindeki belirsizlik nedeniyle y\u00f6n net de\u011fil; genel e\u011filim hafif negatif.",
   "29.10 06:13 N  GPT  score -0.18 conf 0.39: Fed\u2019in faizleri sabit tutup s\u0131n\u0131rl\u0131 y\u00f6nlendirme vermesi ve alt\u0131n\u0131n karar sonras\u0131 gerilemesi k\u0131sa vadede hafif bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili maliyet ve olas\u0131 yenilenme haberleri g\u00fcvenli liman talebini destekleyebilir; ancak \u00e7at\u0131\u015fman\u0131n sona erebilece\u011fine dair haberlerle \u00e7eli\u015fiyor.",
-  "29.10 06:13 B1  SHORT gold 5000 USD x10 @ 4038.01 (TP 4035.44, SL 4039.48; news -0.25)"
+  "29.10 06:13 B1  SHORT gold 5000 USD x10 @ 4038.01 (TP 4035.44, SL 4039.48; news -0.25)",
+  "29.10 07:06 A2  CLOSE SOLUSDT time limit: -4.10 USD",
+  "29.10 07:06 B1  CLOSE short stop (gap): -3.56 USD",
+  "29.10 07:06 N  NEWS (24 new) score -0.20 conf 0.40: Fed faizleri sabit tuttu ve y\u00f6nlendirme s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n Fed sonras\u0131 d\u00fc\u015ft\u00fc ve dolar g\u00fc\u00e7lendi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131s\u0131 ve sava\u015f maliyetleri g\u00fcvenli liman talebini destekliyor ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; ABD enflasyon verisi beklentisi ise belirsizli\u011fi art\u0131r\u0131yor.",
+  "29.10 07:06 N  GPT  score -0.30 conf 0.62: Fed\u2019in faizi sabit tutmas\u0131n\u0131n ard\u0131ndan s\u0131n\u0131rl\u0131 y\u00f6nlendirme, g\u00fc\u00e7l\u00fc dolar ve alt\u0131ndaki son d\u00fc\u015f\u00fc\u015f k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor; yakla\u015fan ABD enflasyon verisi hareketi h\u0131zla tersine \u00e7evirebilir. Kuzey Kore f\u00fcze haberi ve \u0130ran sava\u015f\u0131 riskleri g\u00fcvenli liman talebini desteklese de mevcut fiyat bask\u0131s\u0131n\u0131 \u015f",
+  "29.10 07:06 B1  SHORT gold 5000 USD x10 @ 4038.56 (TP 4035.99, SL 4040.03; news -0.20)",
+  "29.10 07:06 B5  CLOSE short take profit: +13.82 USD"
  ],
  "gold_big": {
   "account": {
@@ -9479,6 +9510,10 @@
    [
     1793243590,
     4961.78
+   ],
+   [
+    1793246772,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -11218,6 +11253,10 @@
    [
     1793243590,
     4973.18
+   ],
+   [
+    1793246772,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -11227,24 +11266,9 @@
  },
  "crypto_bounce": {
   "account": {
-   "balance": 4997.388564577609,
+   "balance": 4993.283925904029,
    "start": 5000,
-   "positions": [
-    {
-     "id": "f6b23424",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 10.029439113751394,
-     "entry": 99.819937,
-     "tp": 100.61849649599999,
-     "sl": 99.221017378,
-     "opened_ms": 1793240530237,
-     "entry_cost": 1.00113798048,
-     "max_hold_min": 90,
-     "margin": 1001.1379804799999,
-     "note": "RSI 22, above EMA200"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "27eb58f0",
@@ -11285,12 +11309,32 @@
      "gross": -6.3054,
      "costs": 1.996,
      "pnl": -8.3013
+    },
+    {
+     "id": "f6b23424",
+     "symbol": "SOLUSDT",
+     "side": "long",
+     "qty": 10.029439113751394,
+     "entry": 99.819937,
+     "tp": 100.61849649599999,
+     "sl": 99.221017378,
+     "opened_ms": 1793240530237,
+     "entry_cost": 1.00113798048,
+     "max_hold_min": 90,
+     "margin": 1001.1379804799999,
+     "note": "RSI 22, above EMA200",
+     "exit": 99.610108,
+     "closed_ms": 1793246040000,
+     "reason": "time limit",
+     "gross": -2.1045,
+     "costs": 2.0002,
+     "pnl": -4.1046
     }
    ],
    "day": {
     "date": "2026-10-29",
     "trades": 2,
-    "pnl": -8.30133782239051,
+    "pnl": -12.405976495970043,
     "stopped": false
    },
    "last_check_ms": 0
@@ -12939,6 +12983,10 @@
    [
     1793243590,
     4996.79
+   ],
+   [
+    1793246772,
+    4993.28
    ]
   ]
  },
@@ -14481,6 +14529,10 @@
    [
     1793243590,
     4976.45
+   ],
+   [
+    1793246772,
+    4976.45
    ]
   ],
   "news_calls": {
@@ -14490,25 +14542,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 5002.138210118232,
+   "balance": 5015.956062403469,
    "start": 5000,
-   "positions": [
-    {
-     "id": "36aee72b",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2343180984139612,
-     "entry": 4050.819644,
-     "tp": 4038.667185068,
-     "sl": 4058.9212832880003,
-     "opened_ms": 1793240547971,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.35/0.50",
-     "friction": 2.3708
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "c6a7593b",
@@ -14635,12 +14671,33 @@
      "gross": 13.8179,
      "costs": 0.0,
      "pnl": 13.8179
+    },
+    {
+     "id": "36aee72b",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2343180984139612,
+     "entry": 4050.819644,
+     "tp": 4038.667185068,
+     "sl": 4058.9212832880003,
+     "opened_ms": 1793240547971,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 500.0,
+     "note": "news -0.35/0.50",
+     "friction": 2.3708,
+     "exit": 4039.6249185050137,
+     "closed_ms": 1793244180000,
+     "reason": "take profit",
+     "gross": 13.8179,
+     "costs": 0.0,
+     "pnl": 13.8179
     }
    ],
    "day": {
     "date": "2026-10-29",
     "trades": 3,
-    "pnl": 2.6355684359383496,
+    "pnl": 16.453420721176272,
     "stopped": false
    },
    "last_check_ms": 0
@@ -15933,6 +15990,10 @@
    [
     1793243590,
     5016.76
+   ],
+   [
+    1793246772,
+    5015.96
    ]
   ],
   "news_calls": {
@@ -17154,6 +17215,10 @@
    ],
    [
     1793243590,
+    99842.81
+   ],
+   [
+    1793246772,
     99842.81
    ]
   ],
