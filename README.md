@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 19:32 (İstanbul)
+> Son güncelleme: 29.10.2026 20:27 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 11.94 $ | 19.93 $ |
 
-**Hesap değeri: 4,984.93 $** (başlangıç 5,000 $, -15.07 $ / %-0.30)
+**Hesap değeri: 4,975.36 $** (başlangıç 5,000 $, -24.64 $ / %-0.49)
+
+Açık pozisyonlar: BTCUSDT long @ 81120.97 (TP 81607.69 / SL 80796.49); XRPUSDT long @ 1.30 (TP 1.31 / SL 1.29)
 
 Son işlemler:
 
@@ -33,7 +35,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 11.86 $ | 11.86 $ |
 
-**Hesap değeri: 5,000.16 $** (başlangıç 5,000 $, +0.16 $ / %+0.00)
+**Hesap değeri: 4,966.29 $** (başlangıç 5,000 $, -33.71 $ / %-0.67)
 
 Açık pozisyonlar: PAXGUSDT short @ 4029.87 (TP 4017.78 / SL 4037.93)
 
@@ -52,18 +54,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,760.48 $** (başlangıç 100,000 $, -239.52 $ / %-0.24)
+**Hesap değeri: 99,629.59 $** (başlangıç 100,000 $, -370.41 $ / %-0.37)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-29.10 16:43 B6  karar turu: Claude «Alphabet çöküşü Nasdaq'ı aşağı çekerken makro veriler nötr; şirkete özel haberlerde seçici işlem yapmak en mantıklısı.» / GPT «Teknoloji endeksi baskı altında olduğundan geniş piyasadaki düşüşü kovalamak yerine AAPL'de haber destekli alım ve NVDA'da seçici satış tercih ediyorum.»
-29.10 16:43 B6  AÇIĞA SATIŞ NVDA 467 adet ≈ 99,751 $ (1:4) @ 213.6 (TP 210.4, SL 215.74; ikisi de hemfikir, güven 0.55)
-29.10 16:43 B6  ALIŞ AAPL 285 adet ≈ 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, güven 0.60)
-29.10 17:39 N  NEWS (36 new) score -0.50 conf 0.60: Enflasyon ve büyüme verileri güçlü çıktı (Eylül PCE %3,6, Q3 büyüme beklentiyi aştı) ve Fed'in yıl sonu faiz artırımı beklentileri canlandı; bu reel faiz ve dolar tarafında altı baskılıyor. İran savaşı ve Ukrayna'daki saldırılar güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış durumda.
-29.10 17:39 N  GPT  score -0.40 conf 0.73: Beklentilerle uyumlu olsa da yüksek PCE enflasyonu ve güçlü büyüme, Fed’in yıl sonuna doğru faiz artırımı beklentilerini besleyerek kısa vadede altın üzerinde baskı oluşturuyor. İran ve Ukrayna kaynaklı gerilimler güvenli liman talebiyle düşüşü sınırlayabilir.
 29.10 17:39 B6  karar turu: Claude «Piyasa, Alphabet ve yazılım kaynaklı teknoloji satışının ardından açılış düşüşünü sindirip dengelenmeye çalışıyor; göreceli güçlü hisseler öne çıkıyor.» / GPT «Teknoloji endeksi zayıf olsa da satış baskısı son saatte hafifliyor; dört kat kaldıraç altında endekslerden ziyade göreli güç gösteren TSLA'da seçici alımı tercih ediyorum.»
 29.10 17:39 B6  ALIŞ TSLA 245 adet ≈ 99,544 $ (1:4) @ 406.3 (TP 412.39, SL 402.24; ikisi de hemfikir, güven 0.56)
 29.10 18:36 N  NEWS (37 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ancak Hassett, Ekim enflasyonu yüksek gelirse Fed'in harekete geçebileceğini söyledi; Eylül PCE enflasyonu yükseldi ve 6% tahvil getirisi tezi gerçek faizleri yukarı taşıyarak altı baskılıyor. İran savaşı ve olası yeni saldırı haberleri jeopolitik talebi destekliyor, ancak etkisi sınırlı kalıyor ve haberlerin büyük kısmı zaten fiyatlanmış durumda.
@@ -74,6 +71,11 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 29.10 19:32 N  GPT  score -0.32 conf 0.58: ABD’de güçlü büyüme ve %3,7 enflasyon faizlerin yüksek kalacağı beklentisini destekliyor; altının saatlik ortalamanın altına gerilemesi kısa vadede baskıya işaret ediyor. Enflasyonun beklentiyle uyumlu olması ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
 29.10 19:32 B6  karar turu: Claude «Endeksler hafif ekside; Alphabet kaynaklı teknoloji zayıflığı Nasdaq'ı aşağı çekerken defansif sektörler ve küçük ölçekli hisseler güçlü GDP verisiyle destek buluyor.» / GPT «Teknoloji hisselerinde aşağı yönlü baskı sürerken geniş piyasa daha dirençli; dört kat kaldıraçta mevcut teknoloji pozisyonlarıyla toplam risk gözetilmeli.»
 29.10 19:32 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102355.11","message":"insufficient buying power"}
+29.10 20:27 A  BUY BTCUSDT 5982 USD x3 @ 81120.97 (RSI 43)
+29.10 20:27 A  BUY XRPUSDT 5982 USD x3 @ 1.30 (RSI 42)
+29.10 20:27 N  NEWS (36 new) score -0.30 conf 0.50: 
+29.10 20:27 N  GPT  score -0.25 conf 0.56: Eylül enflasyonunun ve çekirdek PCE’nin hızlandığı haberleri Fed’in daha temkinli kalacağı beklentisini güçlendirerek altın üzerinde baskı yaratabilir. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de haberler büyük ölçüde süregelen gelişmeler ve kısa vadeli yön net değil.
+29.10 20:27 B6  karar turu: Claude «Piyasa, Alphabet'in sert düşüşü nedeniyle teknoloji ağırlıklı zayıf seyrediyor ancak güçlü GDP verisiyle öğleden sonra yatay konsolide oluyor; İran gelişmeleri aşağı yönlü risk taşıyor.» / GPT «Piyasa yatay sıkışırken teknoloji hisseleri görece zayıf; dar saatlik bantlar yüzde 1,5 hedefe ulaşmayı zorlaştırıyor ve 1:4 kaldıraç riski büyütüyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
