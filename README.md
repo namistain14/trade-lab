@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 16:43 (İstanbul)
+> Son güncelleme: 29.10.2026 17:39 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -50,15 +50,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,842.81 $** (başlangıç 100,000 $, -157.19 $ / %-0.16)
+**Hesap değeri: 99,880.59 $** (başlangıç 100,000 $, -119.41 $ / %-0.12)
+
+Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74)
 
 ## Son olaylar
 
 ```
-29.10 14:53 A  CLOSE BNBUSDT stop: -31.71 USD
-29.10 14:53 A  BUY BNBUSDT 5948 USD x3 @ 740.20 (RSI 39)
-29.10 14:53 N  NEWS (33 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ama iki yetkili faiz artırımı için oy kullandı; bu şahin tonu altın için olumsuz. Gold ayrıca PCE öncesi zayıfladı ve dolar sabit kaldı. Öte yandan İran savaşı için yeni diplomatik girişimler jeopolitik risk primini azaltarak sınırlı bir baskı yaratıyor; sonuç olarak hafif negatif bir görünüm var, ancak PCE ve GDP verileri belirsizliği yüksek tutuyor.
-29.10 14:53 N  GPT  score -0.30 conf 0.56: Fed’in faizi sabit tutmasına rağmen iki üyenin artış yönünde oy vermesi ve yüksek enflasyon kaygıları, PCE öncesinde altın üzerinde baskı yaratıyor; doların güçlenmesi de aşağı yönlü. İran savaşı güvenli liman talebini desteklese de çatışma haberleri yeni bir tırmanış göstermiyor ve getirilerdeki ge
 29.10 14:53 B5  SHORT gold 25000 USD x10 @ 4030.45 (TP 4018.36, SL 4038.51; news -0.30)
 29.10 15:41 N  NEWS (31 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ama iki yetkili faiz artırımı için oy verdi ve PCE enflasyonu yükseldi; bu, faiz indirimi beklentilerini zayıflatarak altın için baskı oluşturuyor. Altın fiyatı haber sonrası hafifçe geriledi ve dolar sabit kaldı; İran savaşı gibi jeopolitik riskler ise büyük ölçüde fiyatlanmış olduğundan destekleyici etkisi sınırlı kalıyor.
 29.10 15:41 N  GPT  score -0.35 conf 0.65: Yükselen PCE ve Fed’in daha uzun süre sıkı kalabileceği beklentisi, doların güçlü seyriyle birlikte kısa vadede altın üzerinde baskı yaratıyor; haberlerde altının Fed kararının ardından gerilediği de belirtiliyor. Jeopolitik riskler sınırlı bir güvenli liman desteği sağlasa da yakın vadeli faiz etki
@@ -70,6 +68,10 @@ Son işlemler:
 29.10 16:43 B6  karar turu: Claude «Alphabet çöküşü Nasdaq'ı aşağı çekerken makro veriler nötr; şirkete özel haberlerde seçici işlem yapmak en mantıklısı.» / GPT «Teknoloji endeksi baskı altında olduğundan geniş piyasadaki düşüşü kovalamak yerine AAPL'de haber destekli alım ve NVDA'da seçici satış tercih ediyorum.»
 29.10 16:43 B6  AÇIĞA SATIŞ NVDA 467 adet ≈ 99,751 $ (1:4) @ 213.6 (TP 210.4, SL 215.74; ikisi de hemfikir, güven 0.55)
 29.10 16:43 B6  ALIŞ AAPL 285 adet ≈ 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, güven 0.60)
+29.10 17:39 N  NEWS (36 new) score -0.50 conf 0.60: Enflasyon ve büyüme verileri güçlü çıktı (Eylül PCE %3,6, Q3 büyüme beklentiyi aştı) ve Fed'in yıl sonu faiz artırımı beklentileri canlandı; bu reel faiz ve dolar tarafında altı baskılıyor. İran savaşı ve Ukrayna'daki saldırılar güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış durumda.
+29.10 17:39 N  GPT  score -0.40 conf 0.73: Beklentilerle uyumlu olsa da yüksek PCE enflasyonu ve güçlü büyüme, Fed’in yıl sonuna doğru faiz artırımı beklentilerini besleyerek kısa vadede altın üzerinde baskı oluşturuyor. İran ve Ukrayna kaynaklı gerilimler güvenli liman talebiyle düşüşü sınırlayabilir.
+29.10 17:39 B6  karar turu: Claude «Piyasa, Alphabet ve yazılım kaynaklı teknoloji satışının ardından açılış düşüşünü sindirip dengelenmeye çalışıyor; göreceli güçlü hisseler öne çıkıyor.» / GPT «Teknoloji endeksi zayıf olsa da satış baskısı son saatte hafifliyor; dört kat kaldıraç altında endekslerden ziyade göreli güç gösteren TSLA'da seçici alımı tercih ediyorum.»
+29.10 17:39 B6  ALIŞ TSLA 245 adet ≈ 99,544 $ (1:4) @ 406.3 (TP 412.39, SL 402.24; ikisi de hemfikir, güven 0.56)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
