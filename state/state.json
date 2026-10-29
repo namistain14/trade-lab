@@ -1913,6 +1913,10 @@
    [
     1793271228,
     4983.92
+   ],
+   [
+    1793272062,
+    4969.25
    ]
   ]
  },
@@ -4932,40 +4936,37 @@
    [
     1793271228,
     4868.5
+   ],
+   [
+    1793272062,
+    4868.5
    ]
   ],
   "news": {
    "score": 0.15,
    "confidence": 0.4,
-   "reason": "Fed faiz oranlar\u0131n\u0131 sabit tuttu ve tahvil getirileri ile dolar Fed karar\u0131n\u0131n ard\u0131ndan geriledi; bu, alt\u0131n i\u00e7in hafif olumlu bir sinyal. Ancak enflasyon endi\u015feleri ve Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 alt\u0131n \u00fczerinde bask\u0131 yaratabilir, ayr\u0131ca sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "reason": "Fed'in faizi sabit tutmas\u0131 ve sonras\u0131nda Treasury getirilerinin ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in hafif destekleyici. Buna kar\u015f\u0131n Iran sava\u015f\u0131na dair Katar arabuluculuk teklifi ve Kanada Merkez Bankas\u0131'n\u0131n faiz art\u0131r\u0131m\u0131 gibi haberler kar\u0131\u015f\u0131k sinyal veriyor, alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131nda k\u0131sa s\u00fcreli d\u00fc\u015f\u00fc\u015fler de g\u00f6r\u00fcld\u00fc; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793271228368,
-   "new_headlines": 20,
+   "ts": 1793272062506,
+   "new_headlines": 19,
    "key_events": [
     "Fed faizleri sabit tuttu (10-2 oy), Warsh ileriye d\u00f6n\u00fck y\u00f6nlendirme vermedi",
     "Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 %85'e y\u00fckseldi",
     "Kuzey Kore f\u00fcze at\u0131\u015f\u0131; \u0130ran sava\u015f\u0131 haberleri (b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f)"
    ],
    "gpt": {
-    "score": 0.25,
-    "confidence": 0.42,
-    "reason": "Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131 ve Karadeniz\u2019de sava\u015f\u0131n ticari gemi trafi\u011fine ta\u015fma riski g\u00fcvenli liman talebini destekleyebilir; Fed sonras\u0131 tahvil faizlerinin gerilemesi ve dolar g\u00f6r\u00fcn\u00fcm\u00fcn\u00fcn zay\u0131flamas\u0131 da alt\u0131n i\u00e7in hafif olumlu. Ancak faiz karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bekleniyordu ve alt\u0131n\u0131n yatay/gerileyen",
+    "score": 0.32,
+    "confidence": 0.43,
+    "reason": "Fed\u2019in faizleri sabit tutmas\u0131n\u0131n ard\u0131ndan tahvil getirilerinin gev\u015femesi ve \u0130ran \u00e7evresindeki gerilim ile Kuzey Kore f\u00fcze haberleri alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve alt\u0131n\u0131n geriledi\u011fini bildiren ba\u015fl\u0131klar da var; bu nedenle y\u00fckseli\u015f etkisi s\u0131n\u0131rl\u0131 ve belirsiz.",
     "key_events": [
-     "Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131",
-     "Karadeniz\u2019de gemi trafi\u011fine y\u00f6nelik sava\u015f riski",
-     "Fed sonras\u0131 tahvil faizlerinde d\u00fc\u015f\u00fc\u015f"
+     "Fed faizleri sabit tuttu; tahvil getirileri geriledi",
+     "\u0130ran \u00e7evresindeki gerilim ve olas\u0131 sald\u0131r\u0131 uyar\u0131lar\u0131",
+     "Kuzey Kore f\u00fcze at\u0131\u015flar\u0131"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792729768392,
-    "score": -0.4,
-    "confidence": 0.55,
-    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in alt\u0131n \u00fc\u00e7 ayl\u0131k dip seviyesine geriledi ve haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ya\u015f\u0131yor. Jeopolitik risk primi (K\u00f6rfez, Husi sald\u0131r\u0131lar\u0131) alt\u0131n\u0131 destekleyici olsa da piyasa bu haberlere bug\u00fcn enflasyon/faiz kanal\u0131yla tepki veriyor; bu nedenle net etki yukar\u0131dan a\u015fa\u011f\u0131ya bask\u0131lay\u0131c\u0131 g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n\u0131n bir miktar toparlanma g\u00f6stermesi ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n eski olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-    "new": 7
-   },
    {
     "ts": 1792730079958,
     "score": -0.4,
@@ -7570,63 +7571,70 @@
     "new": 20,
     "gpt_score": 0.25,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1793272062506,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "Fed'in faizi sabit tutmas\u0131 ve sonras\u0131nda Treasury getirilerinin ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in hafif destekleyici. Buna kar\u015f\u0131n Iran sava\u015f\u0131na dair Katar arabuluculuk teklifi ve Kanada Merkez Bankas\u0131'n\u0131n faiz art\u0131r\u0131m\u0131 gibi haberler kar\u0131\u015f\u0131k sinyal veriyor, alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131nda k\u0131sa s\u00fcreli d\u00fc\u015f\u00fc\u015fler de g\u00f6r\u00fcld\u00fc; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 19,
+    "gpt_score": 0.32,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-10-29",
-   "n": 18
+   "n": 19
   },
   "news_seen": [
+   "Poundland's future hangs in the balance as chain edges towards collapse",
+   "Most Americans Believe Putin Is Stalling Ukraine Peace Talks, Back More Weapons and Sanctions, Poll Finds - UNITED24 Media",
+   "Trifecta Gold Announces Drill Results from Rye Project, Yukon - Investing News Network",
+   "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - KVEC News Talk 920 AM 96.5 FM",
+   "Kinross Gold Corporation (TSX:K): Cash Holdings and Liquidity Outlook as Investors Weigh Growth and Balance Sheet Risks - kalkine.ca",
+   "Blue House condemns North\u2019s missile barrage - Korea JoongAng Daily",
+   "Russia says Lavrov to take anti-sanctions message to G20 meeting in US - Macau Business",
+   "Gold Price in Qatari Market Rises by 1.18% This Week - Qatar news agency",
    "NATO\u2019s Black Sea nations decry Ukraine war spillover endangering commercial ship traffic - Defense News",
+   "Treasury yields ease after Federal Reserve rate hold - CNBC",
    "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to Japan for Production - WSJ",
    "Retiring at age of 55 with \u20b92 crore: How should you plan monthly withdrawals for the next 30 years? Expert explains - Livemint",
+   "COMMENTARY: Morning Bid: Firefighting cash burn - Reuters",
    "Exploring the role of music festivals in post-war France - Gates Cambridge",
    "The Limits of Washington\u2019s New Division of Labor With South Korea - Geopolitical Futures",
-   "Fed Holds Interest Rates Steady Amid Rising Inflation and Midterm Elections - KuCoin",
    "North Korea launches suspected ballistic missile into sea - cbs19.tv",
+   "Qatar Presents New Proposal to End War Between Iran, US and Israel - 8AM Media",
    "The Fed Held Rates. Inflation Is Still the Job. - Money Morning",
+   "US tells allies to prepare for possible Iran strikes after midterms - NewsNation",
    "Israel trips on track for 14% growth after years of war, as costs rise and less-engaged Jews lag - eJewishPhilanthropy",
+   "Iran\u2019s hidden web of military agencies is slipping hardware past the US blockade - Reuters",
    "Why the US central bank chose to keep interest rates steady - DW.com",
-   "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - K-Jewel 99.3 FM",
-   "Pope\u2019s almoner visits Ukraine to offer support to war-affected population - Vatican News",
-   "Poundland's future hangs in the balance as chain edges towards collapse",
+   "Hegseth fires Pentagon's top military planner over what official says were leaks to media - CBS News",
    "Who wins in Sudan's War? - New Internationalist Magazine",
+   "Pope\u2019s almoner visits Ukraine to offer support to war-affected population - Vatican News",
+   "Gold and silver prices simultaneously decrease - Laodong.vn",
+   "The same mistake, another war: Fresh US strikes on Iran won\u2019t deliver victory - Firstpost",
+   "US interest rates unchanged, held at 3.75%-4%: Gold could reach \u20b91.78 lakh by year-end; current price \u20b91.43... - Bhaskar English",
+   "Kaiser Reef (ASX:KAU) Repays Gold Loan and Grows Cash to A$40 Million After Strong September Quarter - Kalkine",
    "Chow Tai Fook closes net 240 mainland China stores in quarter as retail value slips 0.5%, bets on high-end boutiques - BigGo Finance",
+   "Shell profits double to $10.8bn as Iran war pushes up margin on oil - The Guardian",
    "Gold steadies, silver falls as Bank of Canada raises rates - Canadian Coin News",
    "Untangling the war will be a challenge. But inflation needs to be under control. - Dallas News",
    "What we know so far about deadly Spain train crash",
    "Study: 15% cost rise, Iran war impact rates of educational travel to Israel - The Jewish Federations of North America",
    "Dollar pulls back as Warsh leaves tightening path murky; Euro tread water - Investing.com",
    "America's enemies prepare to take the next major war into outer space - Fox News",
-   "OpenAI election war room, FEC outage, Gemini Carbon - CISO Series",
    "Nasdaq futures fall 1% as Alphabet results intensify AI spending fears - Reuters",
    "U.S. Treasury, European Bond Yields Fall After Fed Decision, Ahead of ECB Meeting - WSJ",
    "Gold prices slip - VnExpress International",
    "Federal Reserve leaves benchmark rate unchanged before 2026 midterm elections - ROI-NJ",
-   "US Dollar: Fed caution cools upside \u2013 MUFG - FXStreet",
    "North Korea fires missile barrage toward the sea as tensions with South rise - AP News",
    "Carney to push for closer ties at Canada-EU summit in Montreal",
-   "Indiana\u2019s time zone tug-of-war: 100 years of changing clocks - wthr.com",
-   "List matching is failing sanctions teams as rules shift fast - FinTech Global",
-   "War in the Middle East continuing to disrupt Iran\u2019s fisheries sector, with estimated millions in losses - SeafoodSource",
-   "U.S., South Korea, partners back North Korea sanctions enforcement - upi",
-   "ECB Set to Follow the Fed as French Bonds Panic Outweighs Inflation Fears - Barron's",
-   "Is Ukraine paying the price for Israel\u2019s war with Iran? | Daily Sabah - Daily Sabah",
-   "Trump says Iran\u2019s missile arsenal reduced, drone production hampered - JNS.org",
-   "Gold, Silver Prices: Why Precious Metals Could Stay Elevated In 2026 - NDTV Profit",
-   "US Fed decides no interest rate hike: Outcome impact on gold prices in India and your investments; experts weigh in - Livemint",
-   "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
-   "United States Dollar Index holds gains ahead of US PCE inflation data - FXStreet",
-   "Europe-assigned Army unit fires Tomahawk; no deployment to Europe planned - Stars and Stripes",
-   "Gold vs Bitcoin vs Nifty 50 vs FD: Where Would Rs 1 Lakh Have Grown The Most In 5 Years? - ETV Bharat",
-   "British Pound ticks down against US Dollar ahead of key US economic releases - FXStreet",
-   "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
-   "North Korea fires missile barrage toward the sea as tensions with South rise - Gulf Coast News and Weather"
+   "Agnico Eagle Mines (TSX:AEM): Can Its Substantial Cash Holdings Support Long-Term Gold Production and Financial Flexibility? - kalkine.ca",
+   "Indiana\u2019s time zone tug-of-war: 100 years of changing clocks - wthr.com"
   ]
  },
  "log": [
-  "26.10 13:26 N  GPT  score +0.20 conf 0.46: Orta Do\u011fu\u2019daki gerilim ve Riyad\u2019a y\u00f6nelik f\u00fcze sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve Fed\u2019in ileride yeniden faiz art\u0131rabilece\u011fi beklentisi alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; k\u0131sa vadeli net etki hafif pozitif g\u00f6r\u00fcn\u00fcyor.",
-  "26.10 13:26 B4  LONG gold 5000 USD x10 @ 4027.81 (TP 4039.89, SL 4019.75; news +0.30)",
   "26.10 14:13 N  NEWS (29 new) score -0.20 conf 0.40: Fed toplant\u0131s\u0131 \u00f6ncesi dolar g\u00fc\u00e7leniyor, enflasyonun y\u00fcksek kalmas\u0131 ve faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmalar\u0131 alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran'la ilgili gerilimin azalma beklentisi ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f de g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor; buna kar\u015f\u0131l\u0131k Orta Do\u011fu ve Ukrayna'daki \u00e7at\u0131\u015fma haberleri k\u0131sa vadeli destek sa\u011flayabilir.",
   "26.10 14:13 N  GPT  score -0.12 conf 0.34: Dolar\u0131n Fed \u00f6ncesinde g\u00fc\u00e7lenmesi ve y\u00fcksek enflasyonun faiz beklentilerini desteklemesi alt\u0131n i\u00e7in hafif negatif. Yemen\u2019deki sald\u0131r\u0131lar g\u00fcvenli liman talebini art\u0131rabilir; ancak \u0130ran\u2019la temas haberleri ve petrol\u00fcn d\u00fc\u015fmesi bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
   "26.10 14:13 B1  SHORT gold 5000 USD x10 @ 4023.21 (TP 4020.64, SL 4024.66; news -0.20)",
@@ -7924,7 +7932,9 @@
   "29.10 13:53 B4  CLOSE PAXGUSDT bot kapat\u0131ld\u0131: -7.24 USD",
   "29.10 13:53 A  BUY BNBUSDT 5986 USD x3 @ 742.85 (RSI 34)",
   "29.10 13:53 N  NEWS (20 new) score +0.15 conf 0.40: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve tahvil getirileri ile dolar Fed karar\u0131n\u0131n ard\u0131ndan geriledi; bu, alt\u0131n i\u00e7in hafif olumlu bir sinyal. Ancak enflasyon endi\u015feleri ve Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 alt\u0131n \u00fczerinde bask\u0131 yaratabilir, ayr\u0131ca sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
-  "29.10 13:53 N  GPT  score +0.25 conf 0.42: Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131 ve Karadeniz\u2019de sava\u015f\u0131n ticari gemi trafi\u011fine ta\u015fma riski g\u00fcvenli liman talebini destekleyebilir; Fed sonras\u0131 tahvil faizlerinin gerilemesi ve dolar g\u00f6r\u00fcn\u00fcm\u00fcn\u00fcn zay\u0131flamas\u0131 da alt\u0131n i\u00e7in hafif olumlu. Ancak faiz karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bekleniyordu ve alt\u0131n\u0131n yatay/gerileyen"
+  "29.10 13:53 N  GPT  score +0.25 conf 0.42: Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131 ve Karadeniz\u2019de sava\u015f\u0131n ticari gemi trafi\u011fine ta\u015fma riski g\u00fcvenli liman talebini destekleyebilir; Fed sonras\u0131 tahvil faizlerinin gerilemesi ve dolar g\u00f6r\u00fcn\u00fcm\u00fcn\u00fcn zay\u0131flamas\u0131 da alt\u0131n i\u00e7in hafif olumlu. Ancak faiz karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bekleniyordu ve alt\u0131n\u0131n yatay/gerileyen",
+  "29.10 14:07 N  NEWS (19 new) score +0.15 conf 0.40: Fed'in faizi sabit tutmas\u0131 ve sonras\u0131nda Treasury getirilerinin ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in hafif destekleyici. Buna kar\u015f\u0131n Iran sava\u015f\u0131na dair Katar arabuluculuk teklifi ve Kanada Merkez Bankas\u0131'n\u0131n faiz art\u0131r\u0131m\u0131 gibi haberler kar\u0131\u015f\u0131k sinyal veriyor, alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131nda k\u0131sa s\u00fcreli d\u00fc\u015f\u00fc\u015fler de g\u00f6r\u00fcld\u00fc; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "29.10 14:07 N  GPT  score +0.32 conf 0.43: Fed\u2019in faizleri sabit tutmas\u0131n\u0131n ard\u0131ndan tahvil getirilerinin gev\u015femesi ve \u0130ran \u00e7evresindeki gerilim ile Kuzey Kore f\u00fcze haberleri alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve alt\u0131n\u0131n geriledi\u011fini bildiren ba\u015fl\u0131klar da var; bu nedenle y\u00fckseli\u015f etkisi s\u0131n\u0131rl\u0131 ve belirsiz."
  ],
  "gold_big": {
   "account": {
@@ -9793,6 +9803,10 @@
    [
     1793271228,
     4963.78
+   ],
+   [
+    1793272062,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -11589,6 +11603,10 @@
    [
     1793271228,
     4975.18
+   ],
+   [
+    1793272062,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -13351,6 +13369,10 @@
    [
     1793271228,
     4993.28
+   ],
+   [
+    1793272062,
+    4993.28
    ]
   ]
  },
@@ -14950,6 +14972,10 @@
    [
     1793271228,
     4969.22
+   ],
+   [
+    1793272062,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -14974,6 +15000,10 @@
   "equity_curve": [
    [
     1793271228,
+    5000.0
+   ],
+   [
+    1793272062,
     5000.0
    ]
   ],
@@ -16430,6 +16460,10 @@
    ],
    [
     1793271228,
+    99842.81
+   ],
+   [
+    1793272062,
     99842.81
    ]
   ],

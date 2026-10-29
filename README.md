@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 29.10.2026 13:53 (İstanbul)
+> Son güncelleme: 29.10.2026 14:07 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 7.99 $ |
 
-**Hesap değeri: 4,983.92 $** (başlangıç 5,000 $, -16.08 $ / %-0.32)
+**Hesap değeri: 4,969.25 $** (başlangıç 5,000 $, -30.75 $ / %-0.61)
 
 Açık pozisyonlar: BNBUSDT long @ 742.85 (TP 747.31 / SL 739.88)
 
@@ -50,8 +50,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-29.10 11:26 B3  CLOSE short take profit: +2.00 USD
-29.10 12:23 B1  CLOSE short stop: -3.00 USD
 29.10 12:23 N  NEWS (44 new) score -0.20 conf 0.40: Haberlerin ağırlığı hafif baskılı: İran'ın arabulucularla savaşı bitirme ve Hormuz'u yeniden açma planı görüşmesi jeopolitik güvenli liman talebini azaltabilir; Fed'in şahin duruşu, yükselen tahvil getirileri ve güçlenen dolar ile ilgili başlıklar altın için olumsuz. Kuzey Kore füze atışı ve sürmekte olan savaşlar ise destekleyici, bu yüzden güven düşük.
 29.10 12:23 N  GPT  score +0.12 conf 0.34: Kuzey Kore’nin füze atışı ve İran savaşına ilişkin haberler güvenli liman talebini destekleyebilir; ancak İran’ın arabulucularla görüşmesi gerilimi azaltıyor. Yükselen getiriler ve enflasyon kaynaklı şahin Fed beklentileri altını sınırlarken, haber akışı kısa vadeli yön konusunda karışık.
 29.10 12:23 B1  SHORT gold 5000 USD x10 @ 4031.19 (TP 4028.63, SL 4032.66; news -0.20)
@@ -65,6 +63,8 @@ Son işlemler:
 29.10 13:53 A  BUY BNBUSDT 5986 USD x3 @ 742.85 (RSI 34)
 29.10 13:53 N  NEWS (20 new) score +0.15 conf 0.40: Fed faiz oranlarını sabit tuttu ve tahvil getirileri ile dolar Fed kararının ardından geriledi; bu, altın için hafif olumlu bir sinyal. Ancak enflasyon endişeleri ve Bank of Canada'nın faiz artırımı altın üzerinde baskı yaratabilir, ayrıca savaş haberleri büyük ölçüde fiyatlanmış durumda.
 29.10 13:53 N  GPT  score +0.25 conf 0.42: Kuzey Kore’nin füze atışları ve Karadeniz’de savaşın ticari gemi trafiğine taşma riski güvenli liman talebini destekleyebilir; Fed sonrası tahvil faizlerinin gerilemesi ve dolar görünümünün zayıflaması da altın için hafif olumlu. Ancak faiz kararı büyük ölçüde bekleniyordu ve altının yatay/gerileyen
+29.10 14:07 N  NEWS (19 new) score +0.15 conf 0.40: Fed'in faizi sabit tutması ve sonrasında Treasury getirilerinin ve doların gerilemesi altın için hafif destekleyici. Buna karşın Iran savaşına dair Katar arabuluculuk teklifi ve Kanada Merkez Bankası'nın faiz artırımı gibi haberler karışık sinyal veriyor, altın ve gümüş fiyatlarında kısa süreli düşüşler de görüldü; bu nedenle etki sınırlı ve güven düşük.
+29.10 14:07 N  GPT  score +0.32 conf 0.43: Fed’in faizleri sabit tutmasının ardından tahvil getirilerinin gevşemesi ve İran çevresindeki gerilim ile Kuzey Kore füze haberleri altına kısa vadeli destek sağlayabilir. Ancak haber akışı karışık ve altının gerilediğini bildiren başlıklar da var; bu nedenle yükseliş etkisi sınırlı ve belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
