@@ -1846,28 +1846,32 @@
    [
     1793231152,
     4988.71
+   ],
+   [
+    1793233176,
+    4988.71
    ]
   ]
  },
  "gold_news": {
   "account": {
-   "balance": 4897.911186715851,
+   "balance": 4894.911186715851,
    "start": 5000,
    "positions": [
     {
-     "id": "ab014679",
+     "id": "71825738",
      "symbol": "PAXGUSDT",
      "side": "short",
-     "qty": 1.2337578018488224,
-     "entry": 4052.659276,
-     "tp": 4050.07819665027,
-     "sl": 4054.1300455564888,
-     "opened_ms": 1793231148050,
+     "qty": 1.2376415856404586,
+     "entry": 4039.94182,
+     "tp": 4037.3683695980803,
+     "sl": 4041.4075035912815,
+     "opened_ms": 1793233172740,
      "entry_cost": 0.0,
      "max_hold_min": 240,
      "margin": 500.0,
-     "note": "news -0.35/0.50",
-     "friction": 2.3706
+     "note": "news -0.30/0.50",
+     "friction": 2.3718
     }
    ],
    "trades": [
@@ -2836,12 +2840,33 @@
      "gross": -3.0,
      "costs": 0.0,
      "pnl": -3.0
+    },
+    {
+     "id": "ab014679",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 1.2337578018488224,
+     "entry": 4052.659276,
+     "tp": 4050.07819665027,
+     "sl": 4054.1300455564888,
+     "opened_ms": 1793231148050,
+     "entry_cost": 0.0,
+     "max_hold_min": 240,
+     "margin": 500.0,
+     "note": "news -0.35/0.50",
+     "friction": 2.3706,
+     "exit": 4055.0908715656,
+     "closed_ms": 1793231220000,
+     "reason": "stop",
+     "gross": -3.0,
+     "costs": 0.0,
+     "pnl": -3.0
     }
    ],
    "day": {
     "date": "2026-10-29",
-    "trades": 2,
-    "pnl": -2.9999999999998503,
+    "trades": 3,
+    "pnl": -6.000000000000121,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4598,40 +4623,37 @@
    [
     1793231152,
     4896.73
+   ],
+   [
+    1793233176,
+    4893.87
    ]
   ],
   "news": {
-   "score": -0.35,
+   "score": -0.3,
    "confidence": 0.5,
-   "reason": "Fed faiz oranlar\u0131n\u0131 sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131 vurguland\u0131; Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 g\u00fcndemde, bu da reel faiz ve dolar taraf\u0131nda gold i\u00e7in bask\u0131 yarat\u0131yor. Alt\u0131n yakla\u015f\u0131k 4.050 dolara geriledi ve \u0130ran sava\u015f\u0131n\u0131n tahvil getirilerini ve dolar\u0131 y\u00fckseltmesi nedeniyle y\u0131ll\u0131k en b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015fe y\u00f6neliyor. Buna kar\u015f\u0131n jeopolitik risk s\u00fcr\u00fcyor ve \"sharp gains\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadeli toparlanma ihtimalini g\u00f6steriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+   "reason": "Fed faizleri sabit tuttu ve enflasyonun y\u00fcksek kalmas\u0131na dikkat \u00e7ekti; Barron's Aral\u0131k faiz art\u0131r\u0131m\u0131 ihtimalinden s\u00f6z ediyor, bu da \u015fahin tonu g\u00fc\u00e7lendiriyor ve alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Vance'in Tahran'a y\u00f6nelik diplomatik giri\u015fimi jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flatabilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 riskinin s\u00fcrmesi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir.",
    "n": 45,
-   "ts": 1793231147396,
-   "new_headlines": 20,
+   "ts": 1793233172163,
+   "new_headlines": 19,
    "key_events": [
     "Fed faizleri %3,9'da sabit tuttu, enflasyon y\u00fcksek",
     "\u0130ki Fed \u00fcyesi muhalefet \u015ferhi koydu",
     "Dolar karar sonras\u0131 yatay, alt\u0131n \u00f6ncesinde ~4.039$'a geriledi"
    ],
    "gpt": {
-    "score": -0.35,
-    "confidence": 0.62,
-    "reason": "Fed\u2019in faizleri sabit tutmas\u0131 ve alt\u0131n\u0131n karar sonras\u0131 4.050 dolar civar\u0131na gerilemesi, y\u00fcksek faizlerin s\u00fcrmesi ve PCE verisi \u00f6ncesi temkin nedeniyle k\u0131sa vadede bask\u0131n\u0131n a\u011f\u0131r bast\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini desteklese de petrol\u00fcn ve getirilerin y\u00fckselmesi bu deste\u011fi s\u0131n\u0131",
+    "score": -0.2,
+    "confidence": 0.48,
+    "reason": "Fed\u2019in faizleri y\u00fcksek enflasyon ortam\u0131nda sabit tutmas\u0131, faizlerin uzun s\u00fcre y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n karar sonras\u0131 geriledi\u011fi de belirtiliyor. \u0130ran kaynakl\u0131 jeopolitik riskler ve Vance\u2019in temas giri\u015fimi y\u00f6n\u00fc belirsizle\u015ftirerek d\u00fc\u015f",
     "key_events": [
-     "Fed faizi sabit tuttu; alt\u0131n karar sonras\u0131 geriledi",
-     "Yakla\u015fan PCE verisi ve y\u00fcksek enflasyon belirsizli\u011fi",
-     "\u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor"
+     "Fed faizleri sabit tuttu; enflasyon y\u00fcksek seyrediyor",
+     "Alt\u0131n Fed karar\u0131 sonras\u0131 geriledi",
+     "\u0130ran sava\u015f\u0131 riski ve Tahran\u2019a y\u00f6nelik temas giri\u015fimi"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792722035207,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini besleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 3 ayl\u0131k dibe geriledi. Orta Do\u011fu'daki Husi sald\u0131r\u0131lar\u0131 jeopolitik risk primi sa\u011flasa da, bu etki petrol kaynakl\u0131 faiz endi\u015felerinin gerisinde kal\u0131yor. ABD dolar\u0131 endeksindeki zay\u0131fl\u0131k (teknoloji kazan\u00e7lar\u0131) k\u0131smen destekleyici olsa da, genel tablo negatif.",
-    "new": 2
-   },
    {
     "ts": 1792722760940,
     "score": -0.35,
@@ -7210,65 +7232,70 @@
     "new": 20,
     "gpt_score": -0.35,
     "gpt_confidence": 0.62
+   },
+   {
+    "ts": 1793233172163,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Fed faizleri sabit tuttu ve enflasyonun y\u00fcksek kalmas\u0131na dikkat \u00e7ekti; Barron's Aral\u0131k faiz art\u0131r\u0131m\u0131 ihtimalinden s\u00f6z ediyor, bu da \u015fahin tonu g\u00fc\u00e7lendiriyor ve alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Vance'in Tahran'a y\u00f6nelik diplomatik giri\u015fimi jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flatabilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 riskinin s\u00fcrmesi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir.",
+    "new": 19,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-10-29",
-   "n": 5
+   "n": 6
   },
   "news_seen": [
-   "New update on the cost of the war with Iran - Hutch Post",
+   "Vance makes Tehran outreach as Middle East braces for resumption of Iran war - The Washington Post",
+   "Federal Reserve holds interest rates steady - The Washington Post",
+   "US and Japan, long alarmed by China's aggression, agree to establish missile-production facility - AP News",
+   "Fed holds rates as inflation stays high - Korea JoongAng Daily",
+   "I earn \u00a330,000. I'm angry there was no fuel duty cut in the Budget",
+   "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+   "Gold prices today, October 29th: Slight recovery, market assesses Fed Chairman's statement. - Vietnam.vn",
+   "Federal Reserve Holds Interest Rates Steady as Inflation Remains a Concern - NBC Palm Springs",
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Pulls Back As Traders Prepare For Fed Decision - FXEmpire",
+   "Fed Holds Rates Steady Despite Elevated Inflation - The Fiscal Times",
+   "Federal Reserve Holds Interest Rates Steady Ahead of Midterms. Here's What That Means for the Market. - The Motley Fool",
+   "Federal Reserve keeps rates unchanged despite elevated inflation - Pittsburgh Post-Gazette",
    "The Islamic Republic only survives on war \u2014 don\u2019t give Tehran what it craves - New York Post",
+   "Federal Reserve kept interest rates the same | National News | 2news.com - KTVN",
+   "Federal Reserve kept interest rates the same - KTVN",
+   "H. Greg Goodman, breeder & farmland preservationist who saved Man O\u2019 War\u2019s barn, dies - Lexington Herald Leader",
+   "Federal Reserve keeps rates unchanged despite elevated inflation - The Wenatchee World",
    "Russia Ukraine War - TelegraphHerald.com",
    "U.S. Is Discussing Sanctions Relief for Russian Fund, Official Acknowledges - The New York Times",
    "Gold declines to near $4,050 after Fed rate hold, markets await US PCE data | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Fed's policy committee to weigh balance sheet issues early next year, Warsh says - Reuters",
    "PCE Inflation Data Offers Key Insight Into December Rate Hike - Barron's",
    "Three times Trump voter on supporting the war - CNN",
+   "Fed's Warsh announces changes in how future FOMC meetings will go - Reuters",
    "U.S. Midterm Elections Focus Voters on Trump\u2019s Iran War and Tariffs: how 6 outlets framed it - NewsCord",
    "Gold prices post sharp gains - Business Recorder",
    "Gold edges lower before Fed decision - Business Recorder",
    "Federal Reserve Holds Interest Rates Steady Ahead of November 3 Midterm Elections: how 11 outlets framed it - NewsCord",
    "Iowa Democrats and veterans criticize Rep. Ashley Hinson over Iran war votes - KCCI",
    "Fl\u00e1vio Bolsonaro denies fleeing Brazil after landing in Miami",
+   "New update on the cost of the war with Iran - Salina Post",
+   "101-year-old world War II Veteran goes on Never Forgotten Honor Flight: \"I enjoyed everything that we saw so far today,\u201d - wjfw.com",
    "101-year-old World War II Veteran goes on Never Forgotten Honor Flight - wjfw.com",
    "Petrobras Pumps at Record as Iran War Upends Oil Markets - Bloomberg",
    "Iran War Cost Now Tops $47 Billion: Reports - The Fiscal Times",
    "Gold price update morning of October 29th: World gold prices continuously fluctuate, unpredictable trend - Laodong.vn",
+   "Who Decides War Ends Year With 'Final Delivery' FW26 Menswear Collection - Complex",
    "Gold prices today, October 29, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
    "Small business owners crave stability as inflation, trade war fallout stifle main street - WBFF",
    "Yemen\u2019s War: Two Gulf Strategies, Two Very Different Outcomes - Yemen Online",
    "Tracking Trump: Fed keeps interest rates steady; Iran war cost update; RFK Jr.\u2019s peptide plan; and more - The Washington Post",
    "Warsh says politics played no role in Fed's rate decision by group he is 'honored' to lead - Reuters",
-   "US inflation figures are next for a Pound back above 1.33 - FXStreet",
-   "Federal Reserve keeps rates unchanged despite elevated inflation - Pittsburgh Post-Gazette",
    "Fed leaves rates unchanged as it awaits 'accumulation of more information' - Reuters",
-   "Iran war\u2019s cost to American taxpayers grows to an estimated $47.1B - Las Vegas Review-Journal",
    "Gold heads for its biggest yearly drop in 11 years as the Iran war lifts yields and the dollar - investingLive",
-   "Federal Reserve holds interest rates steady - The Washington Post",
-   "Gold jumps ahead of US Fed policy decision - The Express Tribune",
-   "Space Force missile-tracking satellite launch slips to 2027 as SDA reassesses acquisition approach - SpaceNews",
-   "Want the war in Iran to end? Vote for Talarico. - Houston Chronicle",
-   "Kinross Gold (KGC) Beats Q3 Earnings Estimates - Yahoo Finance Singapore",
-   "From the U.S. sanctions list to the G20 table: Moscow says Russian Foreign Minister Sergey Lavrov will attend talks in Atlanta - Meduza",
-   "Federal Reserve leaves interest rates unchanged as inflation rises - KIRO 7 News Seattle",
-   "X-Bow To Provide Booster For Navy\u2019s CHAOS Ally Missile - Defense Daily",
-   "Pentagon puts Iran war bill at $47B as midterm election pressure mounts - TRT World",
-   "Agnico Eagle beats earnings expectations as higher gold prices offset rising mining costs - Kitco",
-   "Federal Reserve leaves interest rates unchanged ahead of midterms - kens5.com",
-   "\u2018Make Every Fight A War\u2019 \u2013 Xavier Gonzalez Vows To Unleash Chaos Against Exza Wankhongohm At The Inner Circle 36 - ONE Championship",
-   "Iran war costs rise to $47 billion, U.S. military estimates - The Washington Post",
-   "Canada\u2019s Alamos Gold\u2019s Q3 adjusted earnings rise on strong gold prices - Investing.com Canada",
-   "Warsh Is Changing the Fed. Its Inflation Problem Remains. - Barron's",
-   "Girl seriously injured in wolf attack at German wildlife park",
-   "Poland selected to host Patriot Advanced Capability-3 missile maintenance facility - FDD's Long War Journal",
-   "Gold price faces downside risk before 2027 rebound: JPMorgan - Mining.com.au"
+   "Gold jumps ahead of US Fed policy decision - The Express Tribune"
   ]
  },
  "log": [
-  "25.10 02:27 N  NEWS (12 new) score -0.10 conf 0.30: ",
-  "25.10 02:27 N  GPT  score +0.25 conf 0.36: \u0130ran\u2019da \u00e7at\u0131\u015fman\u0131n yeniden alevlenebilece\u011fine ili\u015fkin uyar\u0131lar ve Kyiv\u2019deki a\u011f\u0131rla\u015fan k\u0131\u015f ko\u015fullar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut risklerin devam\u0131 niteli\u011finde; K\u00f6rfez\u2019den petrol ak\u0131\u015f\u0131n\u0131n artmas\u0131 ve olas\u0131 Fed faiz s\u0131k\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in kar\u015f\u0131 y\u00f6nde ",
-  "25.10 02:53 N  NEWS (7 new) score +0.05 conf 0.35: \u0130ran'a y\u00f6nelik olas\u0131 ABD sald\u0131r\u0131s\u0131 ve m\u00fczakere belirsizli\u011fi jeopolitik risk primi yaratarak alt\u0131 hafif\u00e7e destekliyor. Ancak Fed'in \u015fahin bir faiz duraklamas\u0131na haz\u0131rland\u0131\u011f\u0131na dair haberler ve g\u00f6sterilen d\u00fc\u015f\u00fc\u015f e\u011filimi bu etkiyi dengeliyor. Genel tablo n\u00f6tre yak\u0131n; g\u00fcven d\u00fc\u015f\u00fck \u00e7\u00fcnk\u00fc sava\u015f haberlerinin \u00e7o\u011fu eski ve zaten fiyatlanm\u0131\u015f.",
-  "25.10 02:53 N  GPT  score +0.25 conf 0.38: Trump\u2019\u0131n \u0130ran\u2019a yar\u0131n sald\u0131r\u0131 ihtimalini dile getirmesi k\u0131sa vadeli jeopolitik risk ve g\u00fcvenli liman talebini art\u0131rabilir. Ancak anla\u015fma olas\u0131l\u0131\u011f\u0131n\u0131 da a\u00e7\u0131k b\u0131rakmas\u0131 ve ba\u015fl\u0131klarda alt\u0131n\u0131n d\u00fc\u015f\u00fc\u015fte oldu\u011funa dair haberler y\u00f6n sinyalini zay\u0131flat\u0131yor; dolar ve faizlere ili\u015fkin yeni bir kataliz\u00f6r g\u00f6r\u00fcnm",
   "25.10 03:23 N  NEWS (12 new) score +0.12 conf 0.30: \u0130ran sava\u015f\u0131na dair yeni haberler (ABD'nin yak\u0131nda sald\u0131r\u0131 veya anla\u015fma se\u00e7ene\u011fi, \u0130ran'\u0131n ABD'lilere y\u00f6nelik tehdit art\u0131\u015f\u0131) jeopolitik risk primi a\u00e7\u0131s\u0131ndan hafif olumlu, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Alt\u0131n\u0131n son d\u00f6nemde d\u00fc\u015f\u00fc\u015f e\u011filiminde olmas\u0131 ve yeni bir merkez bankas\u0131 ya da enflasyon s\u00fcrprizi g\u00f6r\u00fcnmemesi nedeniyle etki s\u0131n\u0131rl\u0131 kalabilir.",
   "25.10 03:23 N  GPT  score +0.22 conf 0.32: \u0130ran sava\u015f\u0131n\u0131n Irak\u2019a ta\u015fma riski ve ABD\u2019nin yeni sald\u0131r\u0131 ihtimali k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak geli\u015fmelerin \u00e7o\u011fu eski veya alt\u0131n fiyat\u0131na do\u011frudan etkisiz; son fiyat ba\u015fl\u0131klar\u0131 da zay\u0131f seyir g\u00f6steriyor, bu nedenle etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "25.10 04:09 N  NEWS (8 new) score +0.20 conf 0.35: Yeni ABD-\u0130ran sava\u015f\u0131n\u0131n tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fmaya d\u00f6nme riski ve Trump'\u0131n \"yar\u0131n sald\u0131r\u0131 ya da anla\u015fma\" a\u00e7\u0131klamas\u0131 jeopolitik g\u00fcvenli liman talebini hafif destekliyor. Ancak alt\u0131n haberlerinde haftal\u0131k d\u00fc\u015f\u00fc\u015f ve fiyatlar\u0131n daha \u00f6nce erimi\u015f olmas\u0131, K\u00f6rfez'den petrol ak\u0131\u015f\u0131n\u0131n artmas\u0131 (enflasyon bask\u0131s\u0131n\u0131 azaltabilir) etkileri s\u0131n\u0131rlayarak g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
@@ -7564,7 +7591,11 @@
   "29.10 02:45 N  NEWS (20 new) score -0.35 conf 0.50: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131 vurguland\u0131; Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 g\u00fcndemde, bu da reel faiz ve dolar taraf\u0131nda gold i\u00e7in bask\u0131 yarat\u0131yor. Alt\u0131n yakla\u015f\u0131k 4.050 dolara geriledi ve \u0130ran sava\u015f\u0131n\u0131n tahvil getirilerini ve dolar\u0131 y\u00fckseltmesi nedeniyle y\u0131ll\u0131k en b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015fe y\u00f6neliyor. Buna kar\u015f\u0131n jeopolitik risk s\u00fcr\u00fcyor ve \"sharp gains\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadeli toparlanma ihtimalini g\u00f6steriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "29.10 02:45 N  GPT  score -0.35 conf 0.62: Fed\u2019in faizleri sabit tutmas\u0131 ve alt\u0131n\u0131n karar sonras\u0131 4.050 dolar civar\u0131na gerilemesi, y\u00fcksek faizlerin s\u00fcrmesi ve PCE verisi \u00f6ncesi temkin nedeniyle k\u0131sa vadede bask\u0131n\u0131n a\u011f\u0131r bast\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini desteklese de petrol\u00fcn ve getirilerin y\u00fckselmesi bu deste\u011fi s\u0131n\u0131",
   "29.10 02:45 B1  SHORT gold 5000 USD x10 @ 4052.66 (TP 4050.08, SL 4054.13; news -0.35)",
-  "29.10 02:45 B5  SHORT gold 5000 USD x10 @ 4052.66 (TP 4040.50, SL 4060.76; news -0.35)"
+  "29.10 02:45 B5  SHORT gold 5000 USD x10 @ 4052.66 (TP 4040.50, SL 4060.76; news -0.35)",
+  "29.10 03:19 B1  CLOSE short stop: -3.00 USD",
+  "29.10 03:19 N  NEWS (19 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ve enflasyonun y\u00fcksek kalmas\u0131na dikkat \u00e7ekti; Barron's Aral\u0131k faiz art\u0131r\u0131m\u0131 ihtimalinden s\u00f6z ediyor, bu da \u015fahin tonu g\u00fc\u00e7lendiriyor ve alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Vance'in Tahran'a y\u00f6nelik diplomatik giri\u015fimi jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flatabilir; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 riskinin s\u00fcrmesi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir.",
+  "29.10 03:19 N  GPT  score -0.20 conf 0.48: Fed\u2019in faizleri y\u00fcksek enflasyon ortam\u0131nda sabit tutmas\u0131, faizlerin uzun s\u00fcre y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n karar sonras\u0131 geriledi\u011fi de belirtiliyor. \u0130ran kaynakl\u0131 jeopolitik riskler ve Vance\u2019in temas giri\u015fimi y\u00f6n\u00fc belirsizle\u015ftirerek d\u00fc\u015f",
+  "29.10 03:19 B1  SHORT gold 5000 USD x10 @ 4039.94 (TP 4037.37, SL 4041.41; news -0.30)"
  ],
  "gold_big": {
   "account": {
@@ -9360,6 +9391,10 @@
    [
     1793231152,
     4961.78
+   ],
+   [
+    1793233176,
+    4961.78
    ]
   ],
   "news_calls": {
@@ -11083,6 +11118,10 @@
    [
     1793231152,
     4973.18
+   ],
+   [
+    1793233176,
+    4973.18
    ]
   ],
   "news_calls": {
@@ -12753,6 +12792,10 @@
    [
     1793231152,
     5005.69
+   ],
+   [
+    1793233176,
+    5005.69
    ]
   ]
  },
@@ -14258,6 +14301,10 @@
    [
     1793231152,
     4988.16
+   ],
+   [
+    1793233176,
+    4988.16
    ]
   ],
   "news_calls": {
@@ -15673,6 +15720,10 @@
    [
     1793231152,
     4987.13
+   ],
+   [
+    1793233176,
+    5002.98
    ]
   ],
   "news_calls": {
@@ -15687,7 +15738,7 @@
    "positions": [],
    "trades": [],
    "day": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "pnl": 0.0,
     "trades": 0,
     "stopped": false
@@ -16878,6 +16929,10 @@
    ],
    [
     1793231152,
+    99842.81
+   ],
+   [
+    1793233176,
     99842.81
    ]
   ],
