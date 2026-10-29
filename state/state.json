@@ -3,7 +3,22 @@
   "account": {
    "balance": 4988.707035875565,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "09d3bf31",
+     "symbol": "BNBUSDT",
+     "side": "long",
+     "qty": 8.058727828308227,
+     "entry": 742.8527889999999,
+     "tp": 747.3099057339999,
+     "sl": 739.8813778439999,
+     "opened_ms": 1793271214630,
+     "entry_cost": 2.9932242215253395,
+     "max_hold_min": 120,
+     "margin": 1995.4828143502264,
+     "note": "RSI 34, x3"
+    }
+   ],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -88,7 +103,7 @@
    ],
    "day": {
     "date": "2026-10-29",
-    "trades": 0,
+    "trades": 1,
     "pnl": 0.0,
     "stopped": false
    },
@@ -1894,6 +1909,10 @@
    [
     1793269098,
     4988.71
+   ],
+   [
+    1793271228,
+    4983.92
    ]
   ]
  },
@@ -4909,40 +4928,37 @@
    [
     1793269098,
     4868.5
+   ],
+   [
+    1793271228,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.7,
-   "reason": "Fed faizleri sabit tuttu ama 10-2 oylama ve Aral\u0131k hafta art\u0131r\u0131m olas\u0131l\u0131\u011f\u0131n\u0131n %85'e y\u00fckselmesi, reel faiz ve Fed beklentileri a\u00e7\u0131s\u0131ndan belirgin \u015fahin bir sinyal; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Dolar geri \u00e7ekilmesi ve Kuzey Kore f\u00fcze gerginli\u011fi k\u0131smen destekleyici olsa da, jeopolitik etkiler s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "score": 0.15,
+   "confidence": 0.4,
+   "reason": "Fed faiz oranlar\u0131n\u0131 sabit tuttu ve tahvil getirileri ile dolar Fed karar\u0131n\u0131n ard\u0131ndan geriledi; bu, alt\u0131n i\u00e7in hafif olumlu bir sinyal. Ancak enflasyon endi\u015feleri ve Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 alt\u0131n \u00fczerinde bask\u0131 yaratabilir, ayr\u0131ca sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
    "n": 45,
-   "ts": 1793269092716,
-   "new_headlines": 30,
+   "ts": 1793271228368,
+   "new_headlines": 20,
    "key_events": [
     "Fed faizleri sabit tuttu (10-2 oy), Warsh ileriye d\u00f6n\u00fck y\u00f6nlendirme vermedi",
     "Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 %85'e y\u00fckseldi",
     "Kuzey Kore f\u00fcze at\u0131\u015f\u0131; \u0130ran sava\u015f\u0131 haberleri (b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f)"
    ],
    "gpt": {
-    "score": -0.35,
-    "confidence": 0.62,
-    "reason": "Fed faizleri sabit tuttu ancak Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fckselmesi ve dolar\u0131n veri \u00f6ncesi g\u00fc\u00e7l\u00fc kalmas\u0131 alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; fiyatlardaki d\u00fc\u015f\u00fc\u015f de bunu destekliyor. Dolar\u0131n bir miktar geri \u00e7ekilmesi ve jeopolitik riskler d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
+    "score": 0.25,
+    "confidence": 0.42,
+    "reason": "Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131 ve Karadeniz\u2019de sava\u015f\u0131n ticari gemi trafi\u011fine ta\u015fma riski g\u00fcvenli liman talebini destekleyebilir; Fed sonras\u0131 tahvil faizlerinin gerilemesi ve dolar g\u00f6r\u00fcn\u00fcm\u00fcn\u00fcn zay\u0131flamas\u0131 da alt\u0131n i\u00e7in hafif olumlu. Ancak faiz karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bekleniyordu ve alt\u0131n\u0131n yatay/gerileyen",
     "key_events": [
-     "Fed sabit tuttu; Aral\u0131k art\u0131r\u0131m beklentisi y\u00fckseldi",
-     "Dolar veri \u00f6ncesinde g\u00fc\u00e7l\u00fc, alt\u0131n geriliyor",
-     "Kuzey Kore f\u00fcze at\u0131\u015flar\u0131 g\u00fcvenli liman talebini destekleyebilir"
+     "Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131",
+     "Karadeniz\u2019de gemi trafi\u011fine y\u00f6nelik sava\u015f riski",
+     "Fed sonras\u0131 tahvil faizlerinde d\u00fc\u015f\u00fc\u015f"
     ],
     "model": "gpt-6-luna"
    }
   },
   "news_history": [
-   {
-    "ts": 1792729220488,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n \u00fc\u00e7 ayl\u0131k dibe yak\u0131n seyrediyor; petrol fiyatlar\u0131ndaki y\u00fckseli\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek reel faizleri ve dolar\u0131 destekliyor, bu da alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Orta Do\u011fu ve Ukrayna kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebini art\u0131rabilse de, bu etki faiz beklentisi bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca dolar yeniden toparlan\u0131yor.",
-    "new": 4
-   },
    {
     "ts": 1792729768392,
     "score": -0.4,
@@ -7545,16 +7561,38 @@
     "new": 30,
     "gpt_score": -0.35,
     "gpt_confidence": 0.62
+   },
+   {
+    "ts": 1793271228368,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "Fed faiz oranlar\u0131n\u0131 sabit tuttu ve tahvil getirileri ile dolar Fed karar\u0131n\u0131n ard\u0131ndan geriledi; bu, alt\u0131n i\u00e7in hafif olumlu bir sinyal. Ancak enflasyon endi\u015feleri ve Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 alt\u0131n \u00fczerinde bask\u0131 yaratabilir, ayr\u0131ca sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+    "new": 20,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-10-29",
-   "n": 17
+   "n": 18
   },
   "news_seen": [
-   "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - E Communications",
+   "NATO\u2019s Black Sea nations decry Ukraine war spillover endangering commercial ship traffic - Defense News",
+   "As Missile Stockpiles Dwindle and China Looms, U.S. Turns to Japan for Production - WSJ",
+   "Retiring at age of 55 with \u20b92 crore: How should you plan monthly withdrawals for the next 30 years? Expert explains - Livemint",
+   "Exploring the role of music festivals in post-war France - Gates Cambridge",
+   "The Limits of Washington\u2019s New Division of Labor With South Korea - Geopolitical Futures",
+   "Fed Holds Interest Rates Steady Amid Rising Inflation and Midterm Elections - KuCoin",
+   "North Korea launches suspected ballistic missile into sea - cbs19.tv",
+   "The Fed Held Rates. Inflation Is Still the Job. - Money Morning",
+   "Israel trips on track for 14% growth after years of war, as costs rise and less-engaged Jews lag - eJewishPhilanthropy",
+   "Why the US central bank chose to keep interest rates steady - DW.com",
+   "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - K-Jewel 99.3 FM",
+   "Pope\u2019s almoner visits Ukraine to offer support to war-affected population - Vatican News",
    "Poundland's future hangs in the balance as chain edges towards collapse",
    "Who wins in Sudan's War? - New Internationalist Magazine",
+   "Chow Tai Fook closes net 240 mainland China stores in quarter as retail value slips 0.5%, bets on high-end boutiques - BigGo Finance",
+   "Gold steadies, silver falls as Bank of Canada raises rates - Canadian Coin News",
    "Untangling the war will be a challenge. But inflation needs to be under control. - Dallas News",
    "What we know so far about deadly Spain train crash",
    "Study: 15% cost rise, Iran war impact rates of educational travel to Israel - The Jewish Federations of North America",
@@ -7562,9 +7600,12 @@
    "America's enemies prepare to take the next major war into outer space - Fox News",
    "OpenAI election war room, FEC outage, Gemini Carbon - CISO Series",
    "Nasdaq futures fall 1% as Alphabet results intensify AI spending fears - Reuters",
+   "U.S. Treasury, European Bond Yields Fall After Fed Decision, Ahead of ECB Meeting - WSJ",
    "Gold prices slip - VnExpress International",
-   "Federal Reserve Holds Rates Steady in 10-2 Vote; Warsh Refuses Forward Guidance as December Hike Odds Surge to 85% - finance.biggo.com",
    "Federal Reserve leaves benchmark rate unchanged before 2026 midterm elections - ROI-NJ",
+   "US Dollar: Fed caution cools upside \u2013 MUFG - FXStreet",
+   "North Korea fires missile barrage toward the sea as tensions with South rise - AP News",
+   "Carney to push for closer ties at Canada-EU summit in Montreal",
    "Indiana\u2019s time zone tug-of-war: 100 years of changing clocks - wthr.com",
    "List matching is failing sanctions teams as rules shift fast - FinTech Global",
    "War in the Middle East continuing to disrupt Iran\u2019s fisheries sector, with estimated millions in losses - SeafoodSource",
@@ -7573,38 +7614,17 @@
    "Is Ukraine paying the price for Israel\u2019s war with Iran? | Daily Sabah - Daily Sabah",
    "Trump says Iran\u2019s missile arsenal reduced, drone production hampered - JNS.org",
    "Gold, Silver Prices: Why Precious Metals Could Stay Elevated In 2026 - NDTV Profit",
-   "How AI drones are influencing the course of the Ukraine war - NCPR: North Country Public Radio",
    "US Fed decides no interest rate hike: Outcome impact on gold prices in India and your investments; experts weigh in - Livemint",
    "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
    "United States Dollar Index holds gains ahead of US PCE inflation data - FXStreet",
+   "Europe-assigned Army unit fires Tomahawk; no deployment to Europe planned - Stars and Stripes",
    "Gold vs Bitcoin vs Nifty 50 vs FD: Where Would Rs 1 Lakh Have Grown The Most In 5 Years? - ETV Bharat",
    "British Pound ticks down against US Dollar ahead of key US economic releases - FXStreet",
-   "North Korea fires missile barrage toward the sea as tensions with South rise - WPTZ",
-   "North Korea fires missile barrage toward the sea as tensions with South rise - Gulf Coast News and Weather",
-   "GDP report set to provide snapshot of economy ahead of midterm elections - ABC News - Breaking News, Latest News and Videos",
-   "World gold price today, October 29th: Red color covers the market - Laodong.vn",
-   "Gold Rate Today in West Bengal 29th October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
-   "Gold Could Hit US$6,000 in 2027 as Analysts See Opportunity Beyond the Selloff - Streetwise Reports",
-   "Russia\u2019s Gold Reserves Hit Lowest Level Since 2019 as War Costs Drain State Finances - UNITED24 Media",
-   "How could Israel break election deadlock? Here are four scenarios",
-   "Founder of the doomed 'never-ending' cruise speaks out: 'I'm the villain in the story, but I'm doing everything I can' - Business Insider",
-   "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation - The New York Times",
-   "Historian to reveal hidden Revolutionary War failures at Oak Ridge talk - Oakridger",
-   "How AI drones are influencing the course of the Ukraine war - NPR",
-   "'Starlink serves the geopolitical interests of the United States and the fortune of Elon Musk' - Le Monde.fr",
-   "Obama and Trump spar at rallies in Georgia and Ohio: Key takeaways - Al Jazeera",
-   "I Went Home to Long Island to Find Out How the Iran War Is Shaping the Midterms - WSJ",
-   "Warsh\u2019s AI Optimism May Box Him In at the Fed - Bloomberg",
-   "Analysis: Warsh is learning to wield the Fed's power without showing his hand - CNBC",
-   "UK seeks to give households \u2018breathing space\u2019 this winter over Iran war energy price spike - Hot Springs Sentinel Record"
+   "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
+   "North Korea fires missile barrage toward the sea as tensions with South rise - Gulf Coast News and Weather"
   ]
  },
  "log": [
-  "26.10 12:00 N  NEWS (28 new) score -0.15 conf 0.40: Jeopolitik risk (\u0130ran'\u0131n sava\u015fa d\u00f6nme tehdidi) alt\u0131na g\u00fcvenli liman talebi getiriyor, ancak Fed'in faiz art\u0131r\u0131m\u0131 ihtimali (Aral\u0131k hik\u00e2yesi), DXY'nin 101.50 \u00fczerinde seyretmesi ve FOMC \u00f6ncesi dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Haberler kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "26.10 12:00 N  GPT  score +0.20 conf 0.43: \u0130ran\u2019\u0131n yeniden sava\u015fa haz\u0131r oldu\u011fu a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019daki sald\u0131r\u0131lar k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n Fed duraklamas\u0131 beklentisiyle gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak \u015fahin Fed beklentileri ve dolar\u0131n genel g\u00fcc\u00fc y\u00fckseli\u015fi s\u0131n\u0131rlayabilir; etkiler kar\u0131\u015f\u0131k oldu\u011fundan",
-  "26.10 12:45 N  NEWS (32 new) score -0.20 conf 0.40: Fed karar\u0131 \u00f6ncesi haberler kar\u0131\u015f\u0131k ama hafif \u015fahin a\u011f\u0131rl\u0131kl\u0131: TD Securities, Ekim'de faiz pauzas\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n Aral\u0131k'ta art\u0131\u015f ihtimalini y\u00fckseltti\u011fini, dolar ise Fed karar\u0131 \u00f6ncesi diren\u00e7li kald\u0131\u011f\u0131n\u0131 belirtiyor; bu alt\u0131n i\u00e7in bask\u0131 olu\u015fturur. \u00d6te yandan \u0130ran sava\u015f\u0131nda diplomatik \u00e7abalar ve petrol\u00fcn d\u00fc\u015f\u00fc\u015f\u00fc jeopolitik risk primini azalt\u0131yor, ancak alt\u0131n 4.000 dolar civar\u0131nda toparlanma sinyali veriyor ve g\u00fcvenli liman talebi tamamen s\u00f6nm\u00fc\u015f de\u011fil. Sonu\u00e7 olarak hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
-  "26.10 12:45 N  GPT  score +0.10 conf 0.35: Alt\u0131n fiyat\u0131ndaki toparlanma ve s\u00fcren jeopolitik riskler k\u0131sa vadede hafif destekleyici. Ancak Fed karar\u0131 \u00f6ncesi dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 ve gelecekte faiz art\u0131\u015f\u0131 beklentilerinin y\u00fckselmesi bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
-  "26.10 13:26 N  NEWS (29 new) score -0.30 conf 0.50: Fed'in faizleri sabit tutmas\u0131 bekleniyor ancak ba\u015fl\u0131klar \u015fahin bir tona i\u015faret ediyor: Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali y\u00fckseldi, enflasyon y\u00fcksek ve dolar g\u00fc\u00e7l\u00fc. Bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor. Orta Do\u011fu gerilimi ve enerji fiyatlar\u0131ndaki art\u0131\u015f g\u00fcvenli liman talebini destekleyebilir, ama enflasyon ve faiz beklentisi \u00fczerinden etkisi daha bask\u0131n g\u00f6r\u00fcn\u00fcyor. Alt\u0131n 4.000 dolar civar\u0131nda dengelenmeye \u00e7al\u0131\u015f\u0131yor; bu nedenle etki hafif negatif, g\u00fcven orta d\u00fczeyde.",
   "26.10 13:26 N  GPT  score +0.20 conf 0.46: Orta Do\u011fu\u2019daki gerilim ve Riyad\u2019a y\u00f6nelik f\u00fcze sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve Fed\u2019in ileride yeniden faiz art\u0131rabilece\u011fi beklentisi alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; k\u0131sa vadeli net etki hafif pozitif g\u00f6r\u00fcn\u00fcyor.",
   "26.10 13:26 B4  LONG gold 5000 USD x10 @ 4027.81 (TP 4039.89, SL 4019.75; news +0.30)",
   "26.10 14:13 N  NEWS (29 new) score -0.20 conf 0.40: Fed toplant\u0131s\u0131 \u00f6ncesi dolar g\u00fc\u00e7leniyor, enflasyonun y\u00fcksek kalmas\u0131 ve faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmalar\u0131 alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran'la ilgili gerilimin azalma beklentisi ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f de g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor; buna kar\u015f\u0131l\u0131k Orta Do\u011fu ve Ukrayna'daki \u00e7at\u0131\u015fma haberleri k\u0131sa vadeli destek sa\u011flayabilir.",
@@ -7899,7 +7919,12 @@
   "29.10 13:18 B1  CLOSE short stop: -3.00 USD",
   "29.10 13:18 N  NEWS (30 new) score -0.50 conf 0.70: Fed faizleri sabit tuttu ama 10-2 oylama ve Aral\u0131k hafta art\u0131r\u0131m olas\u0131l\u0131\u011f\u0131n\u0131n %85'e y\u00fckselmesi, reel faiz ve Fed beklentileri a\u00e7\u0131s\u0131ndan belirgin \u015fahin bir sinyal; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Dolar geri \u00e7ekilmesi ve Kuzey Kore f\u00fcze gerginli\u011fi k\u0131smen destekleyici olsa da, jeopolitik etkiler s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
   "29.10 13:18 N  GPT  score -0.35 conf 0.62: Fed faizleri sabit tuttu ancak Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fckselmesi ve dolar\u0131n veri \u00f6ncesi g\u00fc\u00e7l\u00fc kalmas\u0131 alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; fiyatlardaki d\u00fc\u015f\u00fc\u015f de bunu destekliyor. Dolar\u0131n bir miktar geri \u00e7ekilmesi ve jeopolitik riskler d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
-  "29.10 13:18 B4  LONG gold 5000 USD x10 @ 4036.99 (TP 4049.10, SL 4028.91; news +0.50)"
+  "29.10 13:18 B4  LONG gold 5000 USD x10 @ 4036.99 (TP 4049.10, SL 4028.91; news +0.50)",
+  "29.10 13:53 B5  bakiye 5,000 $ olarak yeniden ba\u015flat\u0131ld\u0131",
+  "29.10 13:53 B4  CLOSE PAXGUSDT bot kapat\u0131ld\u0131: -7.24 USD",
+  "29.10 13:53 A  BUY BNBUSDT 5986 USD x3 @ 742.85 (RSI 34)",
+  "29.10 13:53 N  NEWS (20 new) score +0.15 conf 0.40: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve tahvil getirileri ile dolar Fed karar\u0131n\u0131n ard\u0131ndan geriledi; bu, alt\u0131n i\u00e7in hafif olumlu bir sinyal. Ancak enflasyon endi\u015feleri ve Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 alt\u0131n \u00fczerinde bask\u0131 yaratabilir, ayr\u0131ca sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+  "29.10 13:53 N  GPT  score +0.25 conf 0.42: Kuzey Kore\u2019nin f\u00fcze at\u0131\u015flar\u0131 ve Karadeniz\u2019de sava\u015f\u0131n ticari gemi trafi\u011fine ta\u015fma riski g\u00fcvenli liman talebini destekleyebilir; Fed sonras\u0131 tahvil faizlerinin gerilemesi ve dolar g\u00f6r\u00fcn\u00fcm\u00fcn\u00fcn zay\u0131flamas\u0131 da alt\u0131n i\u00e7in hafif olumlu. Ancak faiz karar\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bekleniyordu ve alt\u0131n\u0131n yatay/gerileyen"
  ],
  "gold_big": {
   "account": {
@@ -9764,6 +9789,10 @@
    [
     1793269098,
     4963.78
+   ],
+   [
+    1793271228,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -11556,6 +11585,10 @@
    [
     1793269098,
     4975.18
+   ],
+   [
+    1793271228,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -13314,30 +13347,18 @@
    [
     1793269098,
     4993.28
+   ],
+   [
+    1793271228,
+    4993.28
    ]
   ]
  },
  "gold_contra": {
   "account": {
-   "balance": 4976.454669312155,
+   "balance": 4969.217061534609,
    "start": 5000,
-   "positions": [
-    {
-     "id": "6e82497c",
-     "symbol": "PAXGUSDT",
-     "side": "long",
-     "qty": 1.2385473980617812,
-     "entry": 4036.9872060000002,
-     "tp": 4049.0981676180004,
-     "sl": 4028.913231588,
-     "opened_ms": 1793269095577,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news +0.50/0.70",
-     "friction": 2.3711
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "acca28d7",
@@ -13506,12 +13527,33 @@
      "gross": -11.7032,
      "costs": 0.0,
      "pnl": -11.7032
+    },
+    {
+     "id": "6e82497c",
+     "symbol": "PAXGUSDT",
+     "side": "long",
+     "qty": 1.2385473980617812,
+     "entry": 4036.9872060000002,
+     "tp": 4049.0981676180004,
+     "sl": 4028.913231588,
+     "opened_ms": 1793269095577,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 500.0,
+     "note": "news +0.50/0.70",
+     "friction": 2.3711,
+     "exit": 4031.14358,
+     "closed_ms": 1793271207351,
+     "reason": "bot kapat\u0131ld\u0131",
+     "gross": -7.2376,
+     "costs": 0.0,
+     "pnl": -7.2376
     }
    ],
    "day": {
     "date": "2026-10-29",
     "trades": 2,
-    "pnl": -11.703189631446273,
+    "pnl": -18.940797408992836,
     "stopped": false
    },
    "last_check_ms": 0
@@ -14904,6 +14946,10 @@
    [
     1793269098,
     4975.27
+   ],
+   [
+    1793271228,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -14913,1534 +14959,226 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4993.297458122931,
-   "start": 5000,
+   "balance": 5000.0,
+   "start": 5000.0,
    "positions": [],
-   "trades": [
-    {
-     "id": "c6a7593b",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2387083938425454,
-     "entry": 4036.462516,
-     "tp": 4024.353128452,
-     "sl": 4044.535441032,
-     "opened_ms": 1792762783428,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.32/0.45",
-     "friction": 2.3721,
-     "exit": 4025.3079990776905,
-     "closed_ms": 1792764660000,
-     "reason": "take profit",
-     "gross": 13.8172,
-     "costs": 0.0,
-     "pnl": 13.8172
-    },
-    {
-     "id": "664bac75",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2451108642579767,
-     "entry": 4015.706668,
-     "tp": 4003.6595479959997,
-     "sl": 4023.7380813359996,
-     "opened_ms": 1792767668061,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.40/0.60",
-     "friction": 2.374,
-     "exit": 4009.2316560000004,
-     "closed_ms": 1792789380000,
-     "reason": "time limit",
-     "gross": 8.0621,
-     "costs": 0.0,
-     "pnl": 8.0621
-    },
-    {
-     "id": "f23c884e",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2479538243347519,
-     "entry": 4006.5584980000003,
-     "tp": 3994.5388225060005,
-     "sl": 4014.5716149960003,
-     "opened_ms": 1793092594514,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.35/0.60",
-     "friction": 2.3749,
-     "exit": 4015.5245293189996,
-     "closed_ms": 1793097720000,
-     "reason": "stop",
-     "gross": -11.1892,
-     "costs": 0.0,
-     "pnl": -11.1892
-    },
-    {
-     "id": "9daf2550",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2364451491944397,
-     "entry": 4043.851038,
-     "tp": 4031.719484886,
-     "sl": 4051.9387400759997,
-     "opened_ms": 1793210145705,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.32/0.50",
-     "friction": 2.3714,
-     "exit": 4052.899127824015,
-     "closed_ms": 1793210460000,
-     "reason": "stop",
-     "gross": -11.1875,
-     "costs": 0.0,
-     "pnl": -11.1875
-    },
-    {
-     "id": "45969fee",
-     "symbol": "PAXGUSDT",
-     "side": "long",
-     "qty": 1.2291192918921439,
-     "entry": 4067.9533979999997,
-     "tp": 4080.1572581939995,
-     "sl": 4059.8174912039995,
-     "opened_ms": 1793223970154,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news +0.31/0.50",
-     "friction": 2.3683,
-     "exit": 4058.8555277057585,
-     "closed_ms": 1793226300000,
-     "reason": "stop",
-     "gross": -11.1824,
-     "costs": 0.0,
-     "pnl": -11.1824
-    },
-    {
-     "id": "4beabe01",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2337578018488224,
-     "entry": 4052.659276,
-     "tp": 4040.5012981719997,
-     "sl": 4060.764594552,
-     "opened_ms": 1793231152039,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.35/0.50",
-     "friction": 2.3706,
-     "exit": 4041.4593984316343,
-     "closed_ms": 1793233200000,
-     "reason": "take profit",
-     "gross": 13.8179,
-     "costs": 0.0,
-     "pnl": 13.8179
-    },
-    {
-     "id": "36aee72b",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2343180984139612,
-     "entry": 4050.819644,
-     "tp": 4038.667185068,
-     "sl": 4058.9212832880003,
-     "opened_ms": 1793240547971,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.35/0.50",
-     "friction": 2.3708,
-     "exit": 4039.6249185050137,
-     "closed_ms": 1793244180000,
-     "reason": "take profit",
-     "gross": 13.8179,
-     "costs": 0.0,
-     "pnl": 13.8179
-    },
-    {
-     "id": "17be718f",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.240450500362379,
-     "entry": 4030.79365,
-     "tp": 4018.70126905,
-     "sl": 4038.8552373,
-     "opened_ms": 1793254911174,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.31/0.50",
-     "friction": 2.3726,
-     "exit": 4039.887786,
-     "closed_ms": 1793257260000,
-     "reason": "stop (gap)",
-     "gross": -11.2808,
-     "costs": 0.0,
-     "pnl": -11.2808
-    },
-    {
-     "id": "9b91bfe5",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 1.2401459700222015,
-     "entry": 4031.7834519999997,
-     "tp": 4019.6881016439997,
-     "sl": 4039.8470189039995,
-     "opened_ms": 1793259211898,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 500.0,
-     "note": "news -0.45/0.60",
-     "friction": 2.3725,
-     "exit": 4040.958,
-     "closed_ms": 1793265000000,
-     "reason": "stop (gap)",
-     "gross": -11.3778,
-     "costs": 0.0,
-     "pnl": -11.3778
-    }
-   ],
+   "trades": [],
    "day": {
     "date": "2026-10-29",
-    "trades": 5,
-    "pnl": -6.2051835593626485,
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
    [
-    1792755398,
-    5000
-   ],
-   [
-    1792755857,
-    5000
-   ],
-   [
-    1792756444,
-    5000
-   ],
-   [
-    1792756482,
-    5000
-   ],
-   [
-    1792757170,
-    5000
-   ],
-   [
-    1792757568,
-    5000
-   ],
-   [
-    1792758263,
-    5000
-   ],
-   [
-    1792758803,
-    5000
-   ],
-   [
-    1792759347,
-    5000
-   ],
-   [
-    1792759888,
-    5000
-   ],
-   [
-    1792760438,
-    5000
-   ],
-   [
-    1792760592,
-    5000
-   ],
-   [
-    1792761153,
-    5000
-   ],
-   [
-    1792761697,
-    5000
-   ],
-   [
-    1792762243,
-    5000
-   ],
-   [
-    1792762783,
-    4998.81
-   ],
-   [
-    1792763154,
-    5003.15
-   ],
-   [
-    1792763870,
-    4997.17
-   ],
-   [
-    1792764590,
-    5010.16
-   ],
-   [
-    1792765136,
-    5013.82
-   ],
-   [
-    1792765464,
-    5013.82
-   ],
-   [
-    1792766035,
-    5013.82
-   ],
-   [
-    1792766439,
-    5013.82
-   ],
-   [
-    1792766489,
-    5013.82
-   ],
-   [
-    1792766922,
-    5013.82
-   ],
-   [
-    1792767034,
-    5013.82
-   ],
-   [
-    1792767668,
-    5012.63
-   ],
-   [
-    1792768136,
-    5020.34
-   ],
-   [
-    1792768749,
-    5017.57
-   ],
-   [
-    1792769308,
-    5016.08
-   ],
-   [
-    1792770009,
-    5019.14
-   ],
-   [
-    1792770566,
-    5014.1
-   ],
-   [
-    1792771277,
-    5009.12
-   ],
-   [
-    1792772022,
-    5009.64
-   ],
-   [
-    1792772536,
-    5011.7
-   ],
-   [
-    1792772676,
-    5013.6
-   ],
-   [
-    1792773269,
-    5016.47
-   ],
-   [
-    1792773785,
-    5012.98
-   ],
-   [
-    1792774353,
-    5012.83
-   ],
-   [
-    1792774879,
-    5016.48
-   ],
-   [
-    1792775113,
-    5016.65
-   ],
-   [
-    1792775786,
-    5021.27
-   ],
-   [
-    1792776210,
-    5022.65
-   ],
-   [
-    1792776865,
-    5019.88
-   ],
-   [
-    1792777008,
-    5022.58
-   ],
-   [
-    1792777075,
-    5023.74
-   ],
-   [
-    1792777771,
-    5024.91
-   ],
-   [
-    1792778306,
-    5019.75
-   ],
-   [
-    1792778883,
-    5019.79
-   ],
-   [
-    1792778922,
-    5020.18
-   ],
-   [
-    1792779572,
-    5020.56
-   ],
-   [
-    1792780134,
-    5017.72
-   ],
-   [
-    1792781519,
-    5022.53
-   ],
-   [
-    1792781588,
-    5022.53
-   ],
-   [
-    1792782226,
-    5020.8
-   ],
-   [
-    1792782794,
-    5021.2
-   ],
-   [
-    1792783487,
-    5023.13
-   ],
-   [
-    1792783723,
-    5020.54
-   ],
-   [
-    1792784396,
-    5019.79
-   ],
-   [
-    1792784939,
-    5020.8
-   ],
-   [
-    1792785619,
-    5020.18
-   ],
-   [
-    1792786197,
-    5023.56
-   ],
-   [
-    1792786743,
-    5021.55
-   ],
-   [
-    1792787462,
-    5023.89
-   ],
-   [
-    1792787674,
-    5025.16
-   ],
-   [
-    1792788371,
-    5025.98
-   ],
-   [
-    1792789089,
-    5023.65
-   ],
-   [
-    1792789643,
-    5021.88
-   ],
-   [
-    1792789766,
-    5021.88
-   ],
-   [
-    1792790371,
-    5021.88
-   ],
-   [
-    1792791034,
-    5021.88
-   ],
-   [
-    1792791762,
-    5021.88
-   ],
-   [
-    1792791906,
-    5021.88
-   ],
-   [
-    1792792593,
-    5021.88
-   ],
-   [
-    1792793319,
-    5021.88
-   ],
-   [
-    1792793747,
-    5021.88
-   ],
-   [
-    1792794409,
-    5021.88
-   ],
-   [
-    1792795135,
-    5021.88
-   ],
-   [
-    1792795864,
-    5021.88
-   ],
-   [
-    1792796457,
-    5021.88
-   ],
-   [
-    1792797179,
-    5021.88
-   ],
-   [
-    1792797470,
-    5021.88
-   ],
-   [
-    1792798266,
-    5021.88
-   ],
-   [
-    1792798994,
-    5021.88
-   ],
-   [
-    1792799333,
-    5021.88
-   ],
-   [
-    1792800067,
-    5021.88
-   ],
-   [
-    1792800785,
-    5021.88
-   ],
-   [
-    1792801389,
-    5021.88
-   ],
-   [
-    1792802116,
-    5021.88
-   ],
-   [
-    1792802835,
-    5021.88
-   ],
-   [
-    1792803452,
-    5021.88
-   ],
-   [
-    1792804175,
-    5021.88
-   ],
-   [
-    1792804243,
-    5021.88
-   ],
-   [
-    1792804897,
-    5021.88
-   ],
-   [
-    1792805495,
-    5021.88
-   ],
-   [
-    1792806221,
-    5021.88
-   ],
-   [
-    1792806764,
-    5021.88
-   ],
-   [
-    1792807545,
-    5021.88
-   ],
-   [
-    1792808272,
-    5021.88
-   ],
-   [
-    1792808487,
-    5021.88
-   ],
-   [
-    1792809118,
-    5021.88
-   ],
-   [
-    1792809841,
-    5021.88
-   ],
-   [
-    1792810443,
-    5021.88
-   ],
-   [
-    1792810710,
-    5021.88
-   ],
-   [
-    1792811407,
-    5021.88
-   ],
-   [
-    1792812134,
-    5021.88
-   ],
-   [
-    1792812715,
-    5021.88
-   ],
-   [
-    1792813337,
-    5021.88
-   ],
-   [
-    1792813885,
-    5021.88
-   ],
-   [
-    1792814604,
-    5021.88
-   ],
-   [
-    1792814860,
-    5021.88
-   ],
-   [
-    1792815512,
-    5021.88
-   ],
-   [
-    1792816225,
-    5021.88
-   ],
-   [
-    1792816771,
-    5021.88
-   ],
-   [
-    1792816909,
-    5021.88
-   ],
-   [
-    1792817496,
-    5021.88
-   ],
-   [
-    1792818220,
-    5021.88
-   ],
-   [
-    1792818755,
-    5021.88
-   ],
-   [
-    1792819479,
-    5021.88
-   ],
-   [
-    1792820022,
-    5021.88
-   ],
-   [
-    1792820567,
-    5021.88
-   ],
-   [
-    1792821056,
-    5021.88
-   ],
-   [
-    1792821647,
-    5021.88
-   ],
-   [
-    1792822192,
-    5021.88
-   ],
-   [
-    1792822739,
-    5021.88
-   ],
-   [
-    1792822798,
-    5021.88
-   ],
-   [
-    1792823450,
-    5021.88
-   ],
-   [
-    1792823999,
-    5021.88
-   ],
-   [
-    1792824544,
-    5021.88
-   ],
-   [
-    1792825262,
-    5021.88
-   ],
-   [
-    1792825739,
-    5021.88
-   ],
-   [
-    1792826353,
-    5021.88
-   ],
-   [
-    1792827074,
-    5021.88
-   ],
-   [
-    1792827612,
-    5021.88
-   ],
-   [
-    1792827902,
-    5021.88
-   ],
-   [
-    1792828515,
-    5021.88
-   ],
-   [
-    1792829059,
-    5021.88
-   ],
-   [
-    1792829519,
-    5021.88
-   ],
-   [
-    1792830140,
-    5021.88
-   ],
-   [
-    1792830865,
-    5021.88
-   ],
-   [
-    1792831407,
-    5021.88
-   ],
-   [
-    1792831849,
-    5021.88
-   ],
-   [
-    1792832490,
-    5021.88
-   ],
-   [
-    1792833032,
-    5021.88
-   ],
-   [
-    1792833472,
-    5021.88
-   ],
-   [
-    1792834122,
-    5021.88
-   ],
-   [
-    1792834665,
-    5021.88
-   ],
-   [
-    1792835212,
-    5021.88
-   ],
-   [
-    1792835611,
-    5021.88
-   ],
-   [
-    1792836291,
-    5021.88
-   ],
-   [
-    1792836833,
-    5021.88
-   ],
-   [
-    1792837303,
-    5021.88
-   ],
-   [
-    1792839321,
-    5021.88
-   ],
-   [
-    1792841026,
-    5021.88
-   ],
-   [
-    1792843011,
-    5021.88
-   ],
-   [
-    1792845139,
-    5021.88
-   ],
-   [
-    1792847625,
-    5021.88
-   ],
-   [
-    1792849675,
-    5021.88
-   ],
-   [
-    1792851085,
-    5021.88
-   ],
-   [
-    1792852041,
-    5021.88
-   ],
-   [
-    1792853168,
-    5021.88
-   ],
-   [
-    1792854685,
-    5021.88
-   ],
-   [
-    1792856807,
-    5021.88
-   ],
-   [
-    1792858344,
-    5021.88
-   ],
-   [
-    1792860571,
-    5021.88
-   ],
-   [
-    1792862106,
-    5021.88
-   ],
-   [
-    1792863997,
-    5021.88
-   ],
-   [
-    1792865358,
-    5021.88
-   ],
-   [
-    1792867561,
-    5021.88
-   ],
-   [
-    1792869279,
-    5021.88
-   ],
-   [
-    1792871054,
-    5021.88
-   ],
-   [
-    1792872359,
-    5021.88
-   ],
-   [
-    1792874178,
-    5021.88
-   ],
-   [
-    1792875837,
-    5021.88
-   ],
-   [
-    1792877696,
-    5021.88
-   ],
-   [
-    1792879428,
-    5021.88
-   ],
-   [
-    1792881215,
-    5021.88
-   ],
-   [
-    1792882872,
-    5021.88
-   ],
-   [
-    1792884473,
-    5021.88
-   ],
-   [
-    1792886014,
-    5021.88
-   ],
-   [
-    1792887839,
-    5021.88
-   ],
-   [
-    1792890567,
-    5021.88
-   ],
-   [
-    1792892586,
-    5021.88
-   ],
-   [
-    1792894464,
-    5021.88
-   ],
-   [
-    1792896805,
-    5021.88
-   ],
-   [
-    1792898605,
-    5021.88
-   ],
-   [
-    1792900917,
-    5021.88
-   ],
-   [
-    1792902910,
-    5021.88
-   ],
-   [
-    1792905056,
-    5021.88
-   ],
-   [
-    1792907165,
-    5021.88
-   ],
-   [
-    1792908811,
-    5021.88
-   ],
-   [
-    1792911958,
-    5021.88
-   ],
-   [
-    1792914204,
-    5021.88
-   ],
-   [
-    1792915818,
-    5021.88
-   ],
-   [
-    1792918046,
-    5021.88
-   ],
-   [
-    1792919653,
-    5021.88
-   ],
-   [
-    1792921886,
-    5021.88
-   ],
-   [
-    1792923475,
-    5021.88
-   ],
-   [
-    1792925527,
-    5021.88
-   ],
-   [
-    1792927133,
-    5021.88
-   ],
-   [
-    1792929080,
-    5021.88
-   ],
-   [
-    1792930452,
-    5021.88
-   ],
-   [
-    1792930745,
-    5021.88
-   ],
-   [
-    1792933421,
-    5021.88
-   ],
-   [
-    1792935381,
-    5021.88
-   ],
-   [
-    1792937167,
-    5021.88
-   ],
-   [
-    1792939097,
-    5021.88
-   ],
-   [
-    1792940861,
-    5021.88
-   ],
-   [
-    1792942920,
-    5021.88
-   ],
-   [
-    1792944675,
-    5021.88
-   ],
-   [
-    1792946910,
-    5021.88
-   ],
-   [
-    1792948472,
-    5021.88
-   ],
-   [
-    1792950422,
-    5021.88
-   ],
-   [
-    1792951806,
-    5021.88
-   ],
-   [
-    1792954193,
-    5021.88
-   ],
-   [
-    1792955848,
-    5021.88
-   ],
-   [
-    1792957608,
-    5021.88
-   ],
-   [
-    1792958825,
-    5021.88
-   ],
-   [
-    1792960682,
-    5021.88
-   ],
-   [
-    1792962373,
-    5021.88
-   ],
-   [
-    1792964294,
-    5021.88
-   ],
-   [
-    1792965884,
-    5021.88
-   ],
-   [
-    1792967598,
-    5021.88
-   ],
-   [
-    1792969194,
-    5021.88
-   ],
-   [
-    1792970827,
-    5021.88
-   ],
-   [
-    1792972445,
-    5021.88
-   ],
-   [
-    1792975054,
-    5021.88
-   ],
-   [
-    1792978110,
-    5021.88
-   ],
-   [
-    1792980801,
-    5021.88
-   ],
-   [
-    1792983351,
-    5021.88
-   ],
-   [
-    1792985570,
-    5021.88
-   ],
-   [
-    1792988108,
-    5021.88
-   ],
-   [
-    1792990692,
-    5021.88
-   ],
-   [
-    1792992911,
-    5021.88
-   ],
-   [
-    1792995263,
-    5021.88
-   ],
-   [
-    1792999013,
-    5021.88
-   ],
-   [
-    1793002255,
-    5021.88
-   ],
-   [
-    1793005239,
-    5021.88
-   ],
-   [
-    1793007906,
-    5021.88
-   ],
-   [
-    1793010394,
-    5021.88
-   ],
-   [
-    1793013185,
-    5021.88
-   ],
-   [
-    1793021889,
-    5021.88
-   ],
-   [
-    1793028070,
-    5021.88
-   ],
-   [
-    1793031629,
-    5021.88
-   ],
-   [
-    1793034604,
-    5021.88
-   ],
-   [
-    1793037008,
-    5021.88
-   ],
-   [
-    1793039167,
-    5021.88
-   ],
-   [
-    1793042370,
-    5021.88
-   ],
-   [
-    1793044776,
-    5021.88
-   ],
-   [
-    1793046951,
-    5021.88
-   ],
-   [
-    1793049163,
-    5021.88
-   ],
-   [
-    1793051503,
-    5021.88
-   ],
-   [
-    1793053443,
-    5021.88
-   ],
-   [
-    1793055798,
-    5021.88
-   ],
-   [
-    1793057714,
-    5021.88
-   ],
-   [
-    1793059584,
-    5021.88
-   ],
-   [
-    1793062462,
-    5021.88
-   ],
-   [
-    1793065103,
-    5021.88
-   ],
-   [
-    1793067410,
-    5021.88
-   ],
-   [
-    1793069858,
-    5021.88
-   ],
-   [
-    1793072055,
-    5021.88
-   ],
-   [
-    1793074508,
-    5021.88
-   ],
-   [
-    1793076926,
-    5021.88
-   ],
-   [
-    1793079074,
-    5021.88
-   ],
-   [
-    1793081401,
-    5021.88
-   ],
-   [
-    1793084472,
-    5021.88
-   ],
-   [
-    1793087380,
-    5021.88
-   ],
-   [
-    1793089753,
-    5021.88
-   ],
-   [
-    1793092594,
-    5020.69
-   ],
-   [
-    1793095335,
-    5013.25
-   ],
-   [
-    1793097728,
-    5010.69
-   ],
-   [
-    1793100139,
-    5010.69
-   ],
-   [
-    1793102539,
-    5010.69
-   ],
-   [
-    1793105256,
-    5010.69
-   ],
-   [
-    1793108275,
-    5010.69
-   ],
-   [
-    1793111510,
-    5010.69
-   ],
-   [
-    1793114693,
-    5010.69
-   ],
-   [
-    1793117692,
-    5010.69
-   ],
-   [
-    1793120933,
-    5010.69
-   ],
-   [
-    1793123434,
-    5010.69
-   ],
-   [
-    1793125857,
-    5010.69
-   ],
-   [
-    1793129063,
-    5010.69
-   ],
-   [
-    1793131520,
-    5010.69
-   ],
-   [
-    1793133744,
-    5010.69
-   ],
-   [
-    1793135939,
-    5010.69
-   ],
-   [
-    1793138314,
-    5010.69
-   ],
-   [
-    1793140649,
-    5010.69
-   ],
-   [
-    1793142823,
-    5010.69
-   ],
-   [
-    1793144971,
-    5010.69
-   ],
-   [
-    1793146983,
-    5010.69
-   ],
-   [
-    1793151022,
-    5010.69
-   ],
-   [
-    1793154047,
-    5010.69
-   ],
-   [
-    1793156974,
-    5010.69
-   ],
-   [
-    1793159828,
-    5010.69
-   ],
-   [
-    1793162584,
-    5010.69
-   ],
-   [
-    1793165073,
-    5010.69
-   ],
-   [
-    1793167914,
-    5010.69
-   ],
-   [
-    1793171903,
-    5010.69
-   ],
-   [
-    1793175340,
-    5010.69
-   ],
-   [
-    1793178632,
-    5010.69
-   ],
-   [
-    1793181651,
-    5010.69
-   ],
-   [
-    1793184488,
-    5010.69
-   ],
-   [
-    1793186802,
-    5010.69
-   ],
-   [
-    1793189714,
-    5010.69
-   ],
-   [
-    1793193747,
-    5010.69
-   ],
-   [
-    1793197284,
-    5010.69
-   ],
-   [
-    1793200702,
-    5010.69
-   ],
-   [
-    1793204022,
-    5010.69
-   ],
-   [
-    1793207343,
-    5010.69
-   ],
-   [
-    1793210161,
-    5009.5
-   ],
-   [
-    1793212998,
-    4999.5
-   ],
-   [
-    1793215919,
-    4999.5
-   ],
-   [
-    1793218719,
-    4999.5
-   ],
-   [
-    1793221528,
-    4999.5
-   ],
-   [
-    1793223970,
-    4998.32
-   ],
-   [
-    1793226265,
-    4991.64
-   ],
-   [
-    1793228861,
-    4988.32
-   ],
-   [
-    1793231152,
-    4987.13
-   ],
-   [
-    1793233176,
-    5002.98
-   ],
-   [
-    1793237302,
-    5002.14
-   ],
-   [
-    1793240548,
-    5000.95
-   ],
-   [
-    1793243590,
-    5016.76
-   ],
-   [
-    1793246772,
-    5015.96
-   ],
-   [
-    1793249629,
-    5015.96
-   ],
-   [
-    1793252266,
-    5015.96
-   ],
-   [
-    1793254912,
-    5014.77
-   ],
-   [
-    1793259212,
-    5003.49
-   ],
-   [
-    1793262409,
-    5000.84
-   ],
-   [
-    1793265798,
-    4993.3
-   ],
-   [
-    1793269098,
-    4993.3
+    1793271228,
+    5000.0
    ]
   ],
   "news_calls": {
    "date": "2026-10-29",
    "n": 0
-  }
+  },
+  "archive": [
+   {
+    "until_ms": 1793271206670,
+    "balance": 4993.3,
+    "start": 5000,
+    "trades": [
+     {
+      "id": "c6a7593b",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2387083938425454,
+      "entry": 4036.462516,
+      "tp": 4024.353128452,
+      "sl": 4044.535441032,
+      "opened_ms": 1792762783428,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.32/0.45",
+      "friction": 2.3721,
+      "exit": 4025.3079990776905,
+      "closed_ms": 1792764660000,
+      "reason": "take profit",
+      "gross": 13.8172,
+      "costs": 0.0,
+      "pnl": 13.8172
+     },
+     {
+      "id": "664bac75",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2451108642579767,
+      "entry": 4015.706668,
+      "tp": 4003.6595479959997,
+      "sl": 4023.7380813359996,
+      "opened_ms": 1792767668061,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.40/0.60",
+      "friction": 2.374,
+      "exit": 4009.2316560000004,
+      "closed_ms": 1792789380000,
+      "reason": "time limit",
+      "gross": 8.0621,
+      "costs": 0.0,
+      "pnl": 8.0621
+     },
+     {
+      "id": "f23c884e",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2479538243347519,
+      "entry": 4006.5584980000003,
+      "tp": 3994.5388225060005,
+      "sl": 4014.5716149960003,
+      "opened_ms": 1793092594514,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.35/0.60",
+      "friction": 2.3749,
+      "exit": 4015.5245293189996,
+      "closed_ms": 1793097720000,
+      "reason": "stop",
+      "gross": -11.1892,
+      "costs": 0.0,
+      "pnl": -11.1892
+     },
+     {
+      "id": "9daf2550",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2364451491944397,
+      "entry": 4043.851038,
+      "tp": 4031.719484886,
+      "sl": 4051.9387400759997,
+      "opened_ms": 1793210145705,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.32/0.50",
+      "friction": 2.3714,
+      "exit": 4052.899127824015,
+      "closed_ms": 1793210460000,
+      "reason": "stop",
+      "gross": -11.1875,
+      "costs": 0.0,
+      "pnl": -11.1875
+     },
+     {
+      "id": "45969fee",
+      "symbol": "PAXGUSDT",
+      "side": "long",
+      "qty": 1.2291192918921439,
+      "entry": 4067.9533979999997,
+      "tp": 4080.1572581939995,
+      "sl": 4059.8174912039995,
+      "opened_ms": 1793223970154,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news +0.31/0.50",
+      "friction": 2.3683,
+      "exit": 4058.8555277057585,
+      "closed_ms": 1793226300000,
+      "reason": "stop",
+      "gross": -11.1824,
+      "costs": 0.0,
+      "pnl": -11.1824
+     },
+     {
+      "id": "4beabe01",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2337578018488224,
+      "entry": 4052.659276,
+      "tp": 4040.5012981719997,
+      "sl": 4060.764594552,
+      "opened_ms": 1793231152039,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.35/0.50",
+      "friction": 2.3706,
+      "exit": 4041.4593984316343,
+      "closed_ms": 1793233200000,
+      "reason": "take profit",
+      "gross": 13.8179,
+      "costs": 0.0,
+      "pnl": 13.8179
+     },
+     {
+      "id": "36aee72b",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2343180984139612,
+      "entry": 4050.819644,
+      "tp": 4038.667185068,
+      "sl": 4058.9212832880003,
+      "opened_ms": 1793240547971,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.35/0.50",
+      "friction": 2.3708,
+      "exit": 4039.6249185050137,
+      "closed_ms": 1793244180000,
+      "reason": "take profit",
+      "gross": 13.8179,
+      "costs": 0.0,
+      "pnl": 13.8179
+     },
+     {
+      "id": "17be718f",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.240450500362379,
+      "entry": 4030.79365,
+      "tp": 4018.70126905,
+      "sl": 4038.8552373,
+      "opened_ms": 1793254911174,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.31/0.50",
+      "friction": 2.3726,
+      "exit": 4039.887786,
+      "closed_ms": 1793257260000,
+      "reason": "stop (gap)",
+      "gross": -11.2808,
+      "costs": 0.0,
+      "pnl": -11.2808
+     },
+     {
+      "id": "9b91bfe5",
+      "symbol": "PAXGUSDT",
+      "side": "short",
+      "qty": 1.2401459700222015,
+      "entry": 4031.7834519999997,
+      "tp": 4019.6881016439997,
+      "sl": 4039.8470189039995,
+      "opened_ms": 1793259211898,
+      "entry_cost": 0.0,
+      "max_hold_min": 360,
+      "margin": 500.0,
+      "note": "news -0.45/0.60",
+      "friction": 2.3725,
+      "exit": 4040.958,
+      "closed_ms": 1793265000000,
+      "reason": "stop (gap)",
+      "gross": -11.3778,
+      "costs": 0.0,
+      "pnl": -11.3778
+     }
+    ]
+   }
+  ]
  },
  "stocks_ai": {
   "account": {
@@ -17689,6 +16427,10 @@
    [
     1793269098,
     99842.81
+   ],
+   [
+    1793271228,
+    99842.81
    ]
   ],
   "open": {},
@@ -17760,5 +16502,8 @@
  },
  "manual_done": [
   "btc-1000-2410"
+ ],
+ "resets_done": [
+  "b5-5000-2910"
  ]
 }
