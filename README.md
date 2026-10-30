@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 14:44 (İstanbul)
+> Son güncelleme: 30.10.2026 15:24 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %40.0 |
 | Ödenen komisyon/spread | 23.76 $ | 59.36 $ |
 
-**Hesap değeri: 4,964.38 $** (başlangıç 5,000 $, -35.62 $ / %-0.71)
+**Hesap değeri: 4,986.57 $** (başlangıç 5,000 $, -13.43 $ / %-0.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 3977.36 (TP 3965.43 / SL 3985.32)
 
@@ -56,15 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 98,023.82 $** (başlangıç 100,000 $, -1976.18 $ / %-1.98)
+**Hesap değeri: 98,240.08 $** (başlangıç 100,000 $, -1759.92 $ / %-1.76)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 11:25 N  NEWS (33 new) score -0.60 conf 0.70: Yüksek enerji fiyatları ve ABD enflasyon verisi (PCE) Fed'in faiz artırma beklentilerini güçlendiriyor; altın 4.000 doların altına indi ve dolar/tahvil tarafında baskı sürüyor. Jeopolitik haberler (İran savaşı, Ukrayna) güvenli liman talebi yaratsa da, bu etki faiz beklentilerinin gerisinde kalıyor.
-30.10 11:25 N  GPT  score -0.35 conf 0.66: Yükselen petrol ve güçlü enflasyon verilerinin Fed faiz artışı beklentilerini beslemesi, altını kısa vadede baskılıyor; fiyatın 4.000 doların altına gerilediğine dair başlıklar bu eğilimi destekliyor. Doların zayıflaması ve Rusya-Ukrayna kaynaklı güvenli liman talebi düşüşü sınırlayabilir.
 30.10 11:25 B5  SHORT gold 25000 USD x10 @ 3994.28 (TP 3982.30, SL 4002.27; news -0.47)
 30.10 12:21 B5  CLOSE short stop: -55.95 USD
 30.10 12:21 N  NEWS (33 new) score -0.45 conf 0.60: Haberlerin çoğu altın için baskı yaratıyor: Fed faiz artırımı beklentileri, yüksek petrol ve ABD enflasyon verisi, altının 4.000 dolar altına inmesi ve spot talepteki zayıflık. Jeopolitik risk (İran savaşı, Asya'da risk-off ve tahvil talebi) kısmen destek sağlasa da, bu etki Fed beklentilerinin gerisinde kalıyor; DXY'deki gerileme ise sınırlı bir destek sunuyor.
@@ -78,6 +76,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 14:44 N  NEWS (35 new) score -0.30 conf 0.50: Altın 4.000 doların altına kaydı; piyasada Fed'e yönelik şahin beklentiler (petrol ve ABD enflasyonuna bağlı faiz artırımı bahisleri) ve güçlenen dolar baskı yaratıyor. İran savaşı nedeniyle güvenli liman talebi destekleyici olsa da, faiz beklentileri bu desteği baskılıyor; haber akışının çoğu savaş ve enerji ile ilgili olduğundan etki karışık ve güven orta düzeyde.
 30.10 14:44 N  GPT  score -0.48 conf 0.68: İran savaşının petrol ve enflasyon baskısını artırdığı, Fed’in faiz artırımı beklentilerinin ve doların güçlendiği yönündeki haberler kısa vadede altın için baskın biçimde olumsuz. Savaş kaynaklı güvenli liman talebi düşüşü sınırlayabilir; ancak haberlerin bir kısmı tekrarlı ve riskler muhtemelen fi
 30.10 14:44 B5  SHORT gold 25000 USD x10 @ 3977.36 (TP 3965.43, SL 3985.32; news -0.39)
+30.10 15:24 N  NEWS (25 new) score -0.60 conf 0.60: Altın 4.000 doları altına sarkıyor ve gün içinde %2,19 düşüş görülüyor; bu düşüşü sahiplenen ana neden, savaşa bağlı enflasyon baskısının yarattığı sert Fed beklentileri ve Trump'ın İran savaşının "yakında bitecek" açıklamasıyla güvenli liman talebinin zayıflamasıdır. Dolar sabah erken saatlerde zayıfladığı için kısmen destekleyici olsa da, bu etki sınırlı kalıyor; fiziki altın talebinin Asya'da zayıf olması da yukarı yönlü baskıyı sınırlıyor.
+30.10 15:24 N  GPT  score -0.48 conf 0.67: İran savaşının yakında sona erebileceği yönündeki açıklamalar güvenli liman talebini azaltabilir; altının %2,19 düşmesi ve Fed faiz beklentilerinin baskısı kısa vadede aşağı yönlü sinyal veriyor. Doların gerilemesi altına bir miktar destek sağlarken, savaşın yeniden alevlenebileceğine dair haberler 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
