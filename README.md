@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 23:11 (İstanbul)
+> Son güncelleme: 30.10.2026 23:56 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,9 @@ Son işlemler:
 | Kazanma oranı | %62.5 | %54.5 |
 | Ödenen komisyon/spread | 95.23 $ | 130.83 $ |
 
-**Hesap değeri: 5,134.64 $** (başlangıç 5,000 $, +134.64 $ / %+2.69)
+**Hesap değeri: 5,128.67 $** (başlangıç 5,000 $, +128.67 $ / %+2.57)
+
+Açık pozisyonlar: PAXGUSDT short @ 3891.96 (TP 3880.29 / SL 3899.75)
 
 Son işlemler:
 
@@ -54,16 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,998.06 $** (başlangıç 100,000 $, +998.06 $ / %+1.00)
+**Hesap değeri: 101,032.45 $** (başlangıç 100,000 $, +1032.45 $ / %+1.03)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 20:52 B5  CLOSE short take profit: +69.06 USD
-30.10 20:52 N  NEWS (25 new) score -0.60 conf 0.60: Fed yetkililerinin (Logan, Musalem) faiz artırımı çağrısı reel faiz beklentilerini yükseltip altın için net baskı yaratıyor; İran savaşının yakında sona ereceği yönündeki haberler de güvenli liman talebini azaltıyor. Altın zaten sert düşüş yaşadığı için bir kısmı fiyatlanmış durumda, bu yüzden güven orta seviyede tutuldu.
-30.10 20:52 N  GPT  score -0.35 conf 0.63: Logan ve Musalem’in yakın zamanda en az iki faiz artışı gerektiği yönündeki açıklamaları, faiz ve dolar beklentileri üzerinden altın için kısa vadede baskın biçimde olumsuz. İran kaynaklı riskler ve teknoloji hisselerindeki sert düşüş güvenli liman talebini destekleyebilir; ancak diplomasi haberleri
 30.10 20:52 B5  SHORT gold 25000 USD x10 @ 3896.07 (TP 3884.38, SL 3903.86; news -0.47)
 30.10 20:52 B6  karar turu: Claude «Şahin Fed açıklamaları, Intel ve Amazon kaynaklı teknoloji satışı ve risk iştahındaki düşüşle piyasa aşağı yönlü seyrini koruyor.» / GPT «Yeni şahin Fed açıklamaları aşağı yönü destekliyor; ancak sert günlük kayıplar, 1:4 kaldıraçla ani tepki yükselişlerine karşı riski artırıyor.»
 30.10 20:52 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"104065.62","message":"insufficient buying power"}
@@ -76,6 +75,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 23:11 B5  CLOSE short stop: -55.97 USD
 30.10 23:11 N  NEWS (26 new) score -0.50 conf 0.60: Fed faizleri sabit tuttu ama "hawkish hold" çerçevesinde yetkililerin yakın dönemde daha fazla faiz artırımı sinyali verdiği ve piyasanın buna inandığı bildiriliyor; bu reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın yıllık dipte ve güçlü büyüme/enflasyon verisi de bu baskıyı destekliyor. Bunun karşısında İran savaşının yeniden başlama riski ve ABD'nin Ukrayna'ya 2,1 milyar dolarlık Patriot satışı gibi jeopolitik haberler güvenli liman talebini kısmen destekleyebilir, ancak bunların büyük çoğunluğu zaten fiyatlanmış görünüyor.
 30.10 23:11 N  GPT  score -0.58 conf 0.69: Fed’in faizi sabit tutarken daha fazla artış sinyali vermesi ve kalıcı enflasyon vurgusu, kısa vadede reel faizler ile dolar üzerinden altın için baskı oluşturuyor; altının yıllık dip seviyeye gerilemesi de bu zayıf momentumu destekliyor. Ukrayna ve Orta Doğu’daki gerilimler güvenli liman talebini a
+30.10 23:56 N  NEWS (29 new) score -0.65 conf 0.70: Fed yetkililerinin (Logan dahil) ek faiz artışı sinyalleri ve "hawkish hold" havası, reel faiz beklentilerini yükselterek altı baskılıyor; altın yıllık dibe inmiş durumda. Iran savaşının sonlanabileceği yönündeki Trump açıklamaları da güvenli liman talebini zayıflatıyor. Bu haberlerin bir kısmı zaten fiyatlanmış olabileceği için güveni sınırlı tutuyorum.
+30.10 23:56 N  GPT  score -0.72 conf 0.78: Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
+30.10 23:56 B5  SHORT gold 25000 USD x10 @ 3891.96 (TP 3880.29, SL 3899.75; news -0.69)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
