@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 21:35 (İstanbul)
+> Son güncelleme: 30.10.2026 22:26 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %71.4 | %60.0 |
 | Ödenen komisyon/spread | 83.31 $ | 118.90 $ |
 
-**Hesap değeri: 5,178.61 $** (başlangıç 5,000 $, +178.61 $ / %+3.57)
+**Hesap değeri: 5,178.55 $** (başlangıç 5,000 $, +178.55 $ / %+3.57)
 
 Açık pozisyonlar: PAXGUSDT short @ 3896.07 (TP 3884.38 / SL 3903.86)
 
@@ -56,15 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,027.65 $** (başlangıç 100,000 $, +1027.65 $ / %+1.03)
+**Hesap değeri: 101,348.61 $** (başlangıç 100,000 $, +1348.61 $ / %+1.35)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 19:20 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"104827.21","message":"insufficient buying power"}
-30.10 20:09 N  NEWS (31 new) score -0.70 conf 0.70: Fed yetkilileri (Musalem, Barkin) yakında faiz artırımı gerektiğini söyleyerek şahin bir tutum sergiledi; bu reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın bir yıllık dibe inmiş ve sert düşüş yaşanıyor; Orta Doğu gerilimi ise güvenli liman talebini destekleyecek yönde olsa da bu etki şu an fiyatlanmış görünmüyor. Güvenli liman sinyali yerine faiz kaynaklı satış baskın olduğundan skor negatif, güven ise İran diplomasisinin belirsizliği nedeniyle orta düzeyde.
 30.10 20:09 N  GPT  score -0.55 conf 0.69: Musalem’in yakında faiz artırımı gerektiğini yinelemesi, dolar ve reel faizleri destekleyerek altın üzerinde kısa vadeli baskı yaratabilir. Suudi Arabistan yakınındaki füze ve İHA önlemeleri güvenli liman talebini artırsa da bu etki, belirgin şahin Fed mesajını muhtemelen dengeleyemiyor; ayrıca habe
 30.10 20:09 B6  karar turu: Claude «Şahin Fed açıklamaları ve çip hisselerindeki çöküş Cuma öğleden sonrasında teknoloji ağırlıklı satış baskısını sürdürüyor; ancak gün içi düşüş zaten büyük olduğu için pozisyonlar temkinli tutuluyor.» / GPT «Şahin Fed açıklamaları ve teknoloji hisselerindeki zayıflık kısa yönü destekliyor; iki endeksin yüksek korelasyonu nedeniyle toplam kaldıraçlı risk sınırlı tutulmalı.»
 30.10 20:09 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"105073.85","message":"insufficient buying power"}
@@ -78,6 +76,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 21:35 N  GPT  score -0.58 conf 0.72: Fed yetkililerinin ek faiz artışlarına işaret etmesi, yükselen reel faiz ve dolar beklentileri üzerinden altın için belirgin baskı oluşturuyor; altındaki sert düşüş de bu temanın zaten kısmen fiyatlandığını düşündürüyor. İran’daki çatışma ve enerji kaynaklı belirsizlik güvenli liman talebi sağlayabi
 30.10 21:35 B6  karar turu: Claude «Şahin Fed mesajları ve çip hisselerindeki çöküşle piyasa güçlü bir satış baskısı altında, ancak Cuma kapanışı öncesi kısa pozisyon kapatma kaynaklı sert tepki riski var.» / GPT «Piyasa satış baskısı altında; yeni ve güçlü bir şirket katalizörü bulunmadığından kısa pozisyonlar öne çıkıyor, ancak 1:4 kaldıraçta ilişkili pozisyonların toplam riski sınırlanmalı ve işlemler kapa
 30.10 21:35 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103538.71","message":"insufficient buying power"}
+30.10 22:26 N  NEWS (28 new) score -0.50 conf 0.60: Altın 13 aylık dibe yakın, 3.900 doların altında seyrediyor; Fed yetkililerinin ek faiz artırımı sinyali vermesi ve yüksek petrol fiyatlarının enflasyon korkusunu beslemesi reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor. Iran'la arabuluculuk çabaları ve Patriot satışı gibi haberler jeopolitik risk primini sınırlı artırıyor; bu nedenle genel etki negatif, ancak güven orta düzeyde çünkü ara bir jeopolitik şok veya dovish bir sürpriz yönü değiştirebilir.
+30.10 22:26 N  GPT  score -0.35 conf 0.62: Altın üzerindeki kısa vadeli baskı, yükselen enerji fiyatlarının enflasyon ve faiz artışı beklentilerini güçlendirmesiyle yaşanan sert düşüş ve Fed yetkililerinin şahin mesajlarından geliyor. Doların gerilemesi ve Ukrayna’ya Patriot satışı bir miktar destek sağlasa da etkileri sınırlı; İran’la ilgil
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
