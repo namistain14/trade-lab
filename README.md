@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 19:20 (İstanbul)
+> Son güncelleme: 30.10.2026 20:09 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %55.6 |
 | Ödenen komisyon/spread | 71.39 $ | 106.98 $ |
 
-**Hesap değeri: 5,115.59 $** (başlangıç 5,000 $, +115.59 $ / %+2.31)
+**Hesap değeri: 5,149.01 $** (başlangıç 5,000 $, +149.01 $ / %+2.98)
 
 Açık pozisyonlar: PAXGUSDT short @ 3912.45 (TP 3900.71 / SL 3920.27)
 
@@ -56,17 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,080.37 $** (başlangıç 100,000 $, +2080.37 $ / %+2.08)
+**Hesap değeri: 102,062.99 $** (başlangıç 100,000 $, +2062.99 $ / %+2.06)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 17:32 N  GPT  score -0.58 conf 0.69: Altının 4 ayın dibine gerilemesi ve 4.000 doların altına düşmesi, enflasyonun Fed faiz artırımı beklentilerini güçlendirdiğine işaret ederek kısa vadede baskıyı artırıyor. Barkin’in kademeli faiz artışlarına desteği düşüş yönünü desteklerken, yavaşlayan ücret artışı ve İran çevresindeki çelişkili ha
-30.10 17:32 B5  SHORT gold 25000 USD x10 @ 3912.39 (TP 3900.65, SL 3920.21; news -0.59)
-30.10 17:32 B6  karar turu: Claude «Yapay zeka harcama endişeleri ve zayıf çip haberleriyle teknoloji ağırlıklı satış baskısı sürüyor, ancak düşüşün büyük kısmı fiyatlandığı için kısa yönlü işlemlerde temkinli olunmalı.» / GPT «Piyasa görünümü negatif; teknoloji hisselerindeki tepki alımları nedeniyle agresif satış yerine seçici kısa pozisyon tercih ediyorum.»
-30.10 18:26 B5  CLOSE short stop: -55.97 USD
 30.10 18:26 N  NEWS (36 new) score -0.20 conf 0.40: 
 30.10 18:26 N  GPT  score -0.65 conf 0.72: Altının yüzde 3 düşerek 3.900 doların altına inmesi ve satışların likidasyonla derinleşmesi kısa vadeli aşağı yönlü momentumu güçlendiriyor; Trump’ın İran savaşının yakında bitebileceği açıklaması da güvenli liman talebini azaltabilir. Dolar ve tahvil getirilerindeki gerileme düşüşü sınırlasa da enf
 30.10 18:26 B5  SHORT gold 25000 USD x10 @ 3924.06 (TP 3912.28, SL 3931.90; news -0.43)
@@ -78,6 +74,10 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 19:20 B5  SHORT gold 25000 USD x10 @ 3912.45 (TP 3900.71, SL 3920.27; news -0.50)
 30.10 19:20 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı, defansif rotasyon ve Hürmüz kaynaklı jeopolitik risk nedeniyle piyasa hafta sonu öncesi zayıf seyrini koruyor.» / GPT «Piyasa satış ağırlıklı; teknoloji daha zayıf görünürken 1:4 kaldıraçta mevcut pozisyonlarla toplam risk birikimine dikkat edilmeli.»
 30.10 19:20 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"104827.21","message":"insufficient buying power"}
+30.10 20:09 N  NEWS (31 new) score -0.70 conf 0.70: Fed yetkilileri (Musalem, Barkin) yakında faiz artırımı gerektiğini söyleyerek şahin bir tutum sergiledi; bu reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın bir yıllık dibe inmiş ve sert düşüş yaşanıyor; Orta Doğu gerilimi ise güvenli liman talebini destekleyecek yönde olsa da bu etki şu an fiyatlanmış görünmüyor. Güvenli liman sinyali yerine faiz kaynaklı satış baskın olduğundan skor negatif, güven ise İran diplomasisinin belirsizliği nedeniyle orta düzeyde.
+30.10 20:09 N  GPT  score -0.55 conf 0.69: Musalem’in yakında faiz artırımı gerektiğini yinelemesi, dolar ve reel faizleri destekleyerek altın üzerinde kısa vadeli baskı yaratabilir. Suudi Arabistan yakınındaki füze ve İHA önlemeleri güvenli liman talebini artırsa da bu etki, belirgin şahin Fed mesajını muhtemelen dengeleyemiyor; ayrıca habe
+30.10 20:09 B6  karar turu: Claude «Şahin Fed açıklamaları ve çip hisselerindeki çöküş Cuma öğleden sonrasında teknoloji ağırlıklı satış baskısını sürdürüyor; ancak gün içi düşüş zaten büyük olduğu için pozisyonlar temkinli tutuluyor.» / GPT «Şahin Fed açıklamaları ve teknoloji hisselerindeki zayıflık kısa yönü destekliyor; iki endeksin yüksek korelasyonu nedeniyle toplam kaldıraçlı risk sınırlı tutulmalı.»
+30.10 20:09 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"105073.85","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
