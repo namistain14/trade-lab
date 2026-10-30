@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 13:17 (İstanbul)
+> Son güncelleme: 30.10.2026 14:03 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %25.0 |
 | Ödenen komisyon/spread | 11.88 $ | 47.48 $ |
 
-**Hesap değeri: 4,895.31 $** (başlangıç 5,000 $, -104.69 $ / %-2.09)
+**Hesap değeri: 4,917.05 $** (başlangıç 5,000 $, -82.95 $ / %-1.66)
 
 Açık pozisyonlar: PAXGUSDT short @ 3990.55 (TP 3978.58 / SL 3998.53)
 
@@ -55,15 +55,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 98,545.57 $** (başlangıç 100,000 $, -1454.43 $ / %-1.45)
+**Hesap değeri: 97,687.20 $** (başlangıç 100,000 $, -2312.80 $ / %-2.31)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 08:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-30.10 08:33 N  NEWS (24 new) score -0.50 conf 0.60: Sıcak PCE enflasyonu ve güçlü ABD verileri Aralık'ta Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı yaratıyor; altın 4.000 doların altına indi. İran savaşı ve Asya'daki güvenli liman talebi kısmen destek olsa da, bu etki haber akışında sınırlı kalıyor ve faiz beklentisinin gerisinde kalıyor.
 30.10 09:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 30.10 09:18 N  NEWS (21 new) score -0.60 conf 0.70: Sıcak PCE enflasyonu ve yükselen petrol fiyatları, Fed faiz artırımı beklentilerini güçlendiriyor; güçlenen majör para birimleri ve Fed'in faizleri sabit tutması da altını baskılıyor. İran savaşı ve ABD askeri kayıpları güvenli liman talebi yaratabilir, ancak piyasada altın bu jeopolitik riske rağmen düşüyor, bu da baskının daha belirleyici olduğunu gösteriyor.
 30.10 10:29 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -77,6 +75,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 13:17 N  NEWS (24 new) score -0.25 conf 0.40: 
 30.10 13:17 N  GPT  score -0.20 conf 0.36: Altın, Fed faiz artırımı beklentileri ve zorunlu satışlarla baskı altında; doların zorlanması ve düşen tahvil getirileri bu baskıyı kısmen dengeliyor. Yeni başlıklarda kısa vadede güvenli liman talebini belirgin artıracak net bir tırmanış görünmüyor.
 30.10 13:17 B5  SHORT gold 25000 USD x10 @ 3990.55 (TP 3978.58, SL 3998.53; news -0.23)
+30.10 14:03 N  NEWS (22 new) score -0.30 conf 0.50: Yeni haberlerde Fed'in "çok sıcak olmayan" görüşünü sınayan veriler ve faiz artırımı beklentilerini destekleyen büyüme sinyalleri altın için baskı yaratıyor; gold fiyatı da 4.000 doların altına düştü. Iran savaşı ve olası yeni saldırılar güvenli liman talebini destekleyebilir, ancak altın bu jeopolitik gerilime rağmen yükselmiyor, zorunlu tasfiyeler sürüyor ve bu yüzden etki sınırlı kalıyor.
+30.10 14:03 N  GPT  score -0.35 conf 0.66: ABD verilerinin Fed’in enflasyon değerlendirmesini sorgulatması ve faiz artışı beklentilerinin güçlenmesi altın üzerinde kısa vadeli baskı yaratıyor; 4.000 doların altına iniş de bu zayıflığı teyit ediyor. İran çevresindeki gerilim güvenli liman talebini destekleyebilir, ancak haber akışı savaşın sü
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
