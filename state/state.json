@@ -2502,6 +2502,10 @@
    [
     1793333051,
     4532.28
+   ],
+   [
+    1793335896,
+    4532.28
    ]
   ]
  },
@@ -5605,30 +5609,27 @@
    [
     1793333051,
     4868.5
+   ],
+   [
+    1793335896,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
    "confidence": 0.7,
-   "reason": "Y\u00fcksek ABD enflasyonu, g\u00fc\u00e7l\u00fc GDP ve y\u00fckselen petrol fiyatlar\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor; dolar da destek buluyor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebi yaratsa da, bu etki haber ak\u0131\u015f\u0131nda zay\u0131f kal\u0131yor ve ABD-\u0130ran m\u00fczakere umutlar\u0131 jeopolitik primi s\u0131n\u0131rl\u0131yor.",
+   "reason": "S\u0131cak PCE enflasyonu, g\u00fc\u00e7l\u00fc ABD GSYH verisi ve Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 bahisleri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f bir miktar destek sa\u011flasa da, faiz beklentilerinin etkisi bu deste\u011fi belirgin bi\u00e7imde geride b\u0131rak\u0131yor.",
    "n": 45,
-   "ts": 1793333050953,
-   "new_headlines": 20,
+   "ts": 1793335895839,
+   "new_headlines": 21,
    "key_events": [
-    "ABD enflasyonu beklentilerin \u00fczerinde; Fed faiz art\u0131r\u0131m\u0131 bahisleri g\u00fc\u00e7leniyor",
-    "Alt\u0131n %1'den fazla d\u00fc\u015ft\u00fc; g\u00fc\u00e7l\u00fc ABD GDP ve y\u00fcksek petrol bask\u0131s\u0131",
-    "\u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor"
+    "S\u0131cak PCE verisi Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi",
+    "Alt\u0131n 4.000 dolar\u0131n alt\u0131na geriledi",
+    "\u0130ran sava\u015f\u0131 g\u00fcvenli liman talebi ve petrol fiyatlar\u0131n\u0131 destekliyor ama etkisi s\u0131n\u0131rl\u0131"
    ],
    "gpt": null
   },
   "news_history": [
-   {
-    "ts": 1792742038949,
-    "score": -0.35,
-    "confidence": 0.5,
-    "reason": "Alt\u0131n 3 ayl\u0131k dibe yak\u0131n ve 4.000 dolar\u0131n alt\u0131nda i\u015flem g\u00f6r\u00fcyor; Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve petrol \u015fokunun enflasyon/faiz korkular\u0131n\u0131 yeniden canland\u0131rmas\u0131 fiyat\u0131 bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k ABD-\u0130ran sava\u015f\u0131 ihtimali ve 10 y\u0131ll\u0131k tahvil getirisindeki sert d\u00fc\u015f\u00fc\u015f gibi g\u00fcvenli liman/gev\u015feme y\u00f6nl\u00fc sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
-    "new": 9
-   },
    {
     "ts": 1792742360298,
     "score": -0.6,
@@ -8275,63 +8276,70 @@
     "new": 20,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793335895839,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "S\u0131cak PCE enflasyonu, g\u00fc\u00e7l\u00fc ABD GSYH verisi ve Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 bahisleri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f bir miktar destek sa\u011flasa da, faiz beklentilerinin etkisi bu deste\u011fi belirgin bi\u00e7imde geride b\u0131rak\u0131yor.",
+    "new": 21,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-10-30",
-   "n": 9
+   "n": 10
   },
   "news_seen": [
+   "Gold Rate Today, October 30: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
+   "Gold price in India: Rates on October 30 - FXStreet",
+   "Gold rate today in Hyderabad, October 30, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
+   "Gold Price Forecast: XAU/USD Slips Below $4,000 as Hot PCE Backs December Hike - FXLeaders",
+   "Iran war puts energy security at centre of G20 talks amid geopolitical divisions - The National",
+   "Binance says crypto worth $6.3bn impacted by hack",
+   "Gold Price Forecast: XAU/USD falls below $4,000 as strong US data strengthen case for Fed rate hike - FXStreet",
+   "Gold (XAU/USD) Price Forecast: Bearish Reversal Threatens Key Support - FXEmpire",
+   "War with Iran likely no matter who leads Israel - Al Majalla",
+   "US vice president rules out 'forever war' in Iran, says Trump will accomplish objectives - Anadolu Ajans\u0131",
+   "Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap - Bloomberg",
+   "Two U.S. service members die amid Iran war, Pentagon tally shows - The Washington Post",
    "\u3010TMGM Financial Recap\u3011Gold Drops Over 1% as US Inflation Stays Stubbornly High, Yet Bulls and Bears Remain in Balance! - www.tmgm.com",
+   "In China, the War on Mosquitoes Has Entered the A.I. Era - The New York Times",
    "Friday\u2019s Headlines: Streetsfilms Meets the War on Cars Edition - Streetsblog New York City",
    "German Chancellor Merz tours East Asia in search of war partners - World Socialist Web Site",
-   "Refineries And Geopolitical Risk In The Global Petroleum System - Forbes",
-   "Iran war puts energy security at centre of G20 talks amid geopolitical divisions - www.thenationalnews.com",
-   "Binance says crypto worth $6.3bn impacted in suspected hack",
-   "Inflation heats up again, data shows, days before midterm elections where cost of living dominates - Pittsburgh Post-Gazette",
-   "Gold (XAU/USD) Price Forecast: Bearish Reversal Threatens Key Support - FXEmpire",
+   "Refining Has Highest Geopolitical Risk In The Global Petroleum System - Forbes",
+   "Gold and silver price today, Oct 30: Check retail rates of 24K, 22K gold and 999 silver ahead of Dhanteras, Diwali - Livemint",
+   "Gold and Silver Price Forecast: Silver Lags as Fed Hike Fears Grow - FXEmpire",
+   "Pentagon accuses fired general of leaking classified intel on Iran war to media - The Times of Israel",
+   "Gold Price Prepares to Break Our Price Target \u2013 Analysis \u201330-10-2026 - Economies.com",
    "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
    "Gold slips as higher oil, US inflation data bolster Fed hike bets - Reuters",
-   "Gold slips as higher oil, US inflation data bolster Fed hike bets - marketscreener.com",
    "Gold Price Today October 30, 2026, Drops Again, Antam Plummets Rp13,000 per Gram, Check Buyback Prices and Latest List - Aktualita.co",
-   "World gold prices fell for the second consecutive month. - Vietnam.vn",
+   "Resilient US economy, inflation pressures point to 25 bps Fed hike in December: Report - TradingView",
    "SGB 2019-20 Series VI premature redemption today: Investors to earn up to 275% gains; check RBI fixed price - Livemint",
    "Life on the line: Neighboring towns caught in the trade war - kare11.com",
-   "Oil prices rise on supply concerns as Houthis attack Saudi Arabia - Business Standard",
-   "Asian currencies mixed as dollar retreats, yen steadies ahead of BOJ decision - Investing.com",
    "ASEAN Envoy Meets Myanmar Minister, Discusses Civil War and Aid Access - U.S. News & World Report",
+   "Gold Rate Today in New Delhi 30th October 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
    "Gold and silver price today, October 30: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "How the Seizure of a Russian Vessel Brought the Ukraine War to the Arctic - WSJ",
    "The Night the Martian \u2018Death Ray\u2019 Missed Haverhill; \u2018War of the Worlds\u2019 Airs Oct. 30 - WHAV",
    "Almost a million extra mines on the DMZ \u2013 and it\u2019s not about war - Lowy Institute",
-   "Australian Dollar edges higher as hot CPI inflation and hawkish RBA lift rate hike bets - FXStreet",
-   "Two U.S. service members die amid Iran war, Pentagon tally shows - The Washington Post",
+   "FL: MISSILE SYSTEMS BOOST MAR-A-LAGO SECURITY - Local 3 News",
    "Gold price today, October 30th: Sharp decrease, trading floor red - Laodong.vn",
    "VP Vance's planned \"War on Fraud\" announcement in St. Cloud is canceled - CBS News",
+   "Gold Steadies Near $4,000 as Inflation Keeps Rate-Hike Bets Firm - Bloomberg",
    "Gold and silver sink as strong US GDP revives Fed rate hike bets - Startup Fortune",
    "Gold Price Analysis Today | Forex Gold Analysis | XAU/USD Analysis - October 30, 2026 - Mitrade",
-   "Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap - Bloomberg",
-   "United States Dollar Index slips as US-Iran hopes cap safe-haven bid - FXStreet",
+   "See How Flight Routes Are Changing to Avoid War Zones Around the World - WSJ",
    "Utah charges Kalshi\u2019s founders, escalating a war over who can regulate prediction markets - New York Post",
    "Border communities feel strain as U.S.-Canada trade war disrupts longtime friendship - kare11.com",
-   "Oil rises on supply concerns as Houthis attack Saudi Arabia - Reuters",
+   "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - Reuters",
    "ANZ Raises Oil Price Forecast as Market Tightens on Iran War - Bloomberg",
-   "'War': Sienna Miller & Dominic West Break Down Epsiode 5 - TV Insider",
-   "Gold prices updated today, October 30th, plunge deeply, \"shark\" investors aggressively buy at the bottom, Wall Street experts predict a difficult rebound this year. - Vietnam.vn",
-   "U.S. dollar up in Taipei trading - Focus Taiwan",
-   "Thai baht/US dollar steady on Friday - TradingView",
-   "Supported by expectations of higher interest rates and AI-driven investment, the U.S. dollar\u2019s rally may weather the stalemate of the U.S. midterm elections. - \u5bcc\u9014\u725b\u725b",
-   "Canadian Dollar strengthens despite easing oil pressure - FXStreet",
-   "Gold Price Today in Amravati \u2013 18K, 22K & 24K Rate | 30 October 2026 - The Times of India",
-   "Wounded at home, will Netanyahu, Trump bomb Iran again? - AFR",
-   "Dollar\u2019s Rate-Fueled Rally Set to Ride Out US Midterm Gridlock - Bloomberg",
-   "Ukraine war briefing: Outrage in Europe after Russian drone kills 14 on rail platform in Dnipro - The Guardian",
-   "Gold prices edge lower as US inflation data reinforces Fed outlook - The Business Times"
+   "'War': Sienna Miller & Dominic West Break Down Epsiode 5 - TV Insider"
   ]
  },
  "log": [
-  "27.10 19:14 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "27.10 19:14 B6  karar turu: Claude \u00abPiyasa b\u00fcy\u00fcme hisselerinin \u00f6nc\u00fcl\u00fc\u011f\u00fcnde \u0131l\u0131ml\u0131 pozitif seyrediyor, ancak Fed toplant\u0131s\u0131 ve MSFT bilan\u00e7osu \u00f6ncesi temkinli beklemek en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00ab-\u00bb",
   "27.10 20:08 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "27.10 20:08 N  NEWS (24 new) score -0.10 conf 0.40: Fed'in faiz sabit tutmas\u0131 bekleniyor ve enflasyonun y\u00fcksek kalmas\u0131, dolarda hafif g\u00fc\u00e7lenme ve reel faiz bask\u0131s\u0131 yaratarak alt\u0131 k\u0131sa vadede hafif olumsuz etkileyebilir. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz riskleri jeopolitik talebi destekliyor ancak petrol fiyatlar\u0131n\u0131n \u00e7ok ayl\u0131k zirvelerden uzakla\u015fmas\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "27.10 20:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
@@ -8629,7 +8637,9 @@
   "30.10 06:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 06:11 N  NEWS (19 new) score -0.60 conf 0.60: G\u00fc\u00e7l\u00fc ABD GSYH verisi ve s\u0131cak enflasyon (\u00e7ekirdek PCE %3,1) Fed'in faiz art\u0131rma beklentilerini canland\u0131rarak alt\u0131n\u0131 bask\u0131l\u0131yor; ABD-\u0130ran umutlar\u0131 da g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu ve jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) h\u00e2l\u00e2 s\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "30.10 07:04 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "30.10 07:04 N  NEWS (20 new) score -0.60 conf 0.70: Y\u00fcksek ABD enflasyonu, g\u00fc\u00e7l\u00fc GDP ve y\u00fckselen petrol fiyatlar\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor; dolar da destek buluyor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebi yaratsa da, bu etki haber ak\u0131\u015f\u0131nda zay\u0131f kal\u0131yor ve ABD-\u0130ran m\u00fczakere umutlar\u0131 jeopolitik primi s\u0131n\u0131rl\u0131yor."
+  "30.10 07:04 N  NEWS (20 new) score -0.60 conf 0.70: Y\u00fcksek ABD enflasyonu, g\u00fc\u00e7l\u00fc GDP ve y\u00fckselen petrol fiyatlar\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor; dolar da destek buluyor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebi yaratsa da, bu etki haber ak\u0131\u015f\u0131nda zay\u0131f kal\u0131yor ve ABD-\u0130ran m\u00fczakere umutlar\u0131 jeopolitik primi s\u0131n\u0131rl\u0131yor.",
+  "30.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "30.10 07:51 N  NEWS (21 new) score -0.60 conf 0.70: S\u0131cak PCE enflasyonu, g\u00fc\u00e7l\u00fc ABD GSYH verisi ve Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 bahisleri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f bir miktar destek sa\u011flasa da, faiz beklentilerinin etkisi bu deste\u011fi belirgin bi\u00e7imde geride b\u0131rak\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -10582,6 +10592,10 @@
    [
     1793333051,
     4963.78
+   ],
+   [
+    1793335896,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -12462,6 +12476,10 @@
    [
     1793333051,
     4975.18
+   ],
+   [
+    1793335896,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -14308,6 +14326,10 @@
    [
     1793333051,
     4993.28
+   ],
+   [
+    1793335896,
+    4993.28
    ]
   ]
  },
@@ -15991,6 +16013,10 @@
    [
     1793333051,
     4969.22
+   ],
+   [
+    1793335896,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -16163,6 +16189,10 @@
    ],
    [
     1793333051,
+    4957.2
+   ],
+   [
+    1793335896,
     4957.2
    ]
   ],
@@ -16386,7 +16416,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 350.0
+     "cur": 350.02
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -16400,7 +16430,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 208.24
+     "cur": 209.41
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -16414,18 +16444,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 396.03
+     "cur": 396.7
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-10-30",
-    "pnl": 211.31,
+    "pnl": -165.23,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100054.12
+   "equity": 99677.58
   },
   "equity_curve": [
    [
@@ -17747,6 +17777,10 @@
    [
     1793333051,
     100054.12
+   ],
+   [
+    1793335896,
+    99677.58
    ]
   ],
   "open": {
