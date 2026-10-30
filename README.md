@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 06:11 (İstanbul)
+> Son güncelleme: 30.10.2026 07:04 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -52,15 +52,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,023.81 $** (başlangıç 100,000 $, +23.81 $ / %+0.02)
+**Hesap değeri: 100,054.12 $** (başlangıç 100,000 $, +54.12 $ / %+0.05)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 03:16 A  CLOSE XRPUSDT stop: -14.87 USD
-30.10 03:16 A  BUY BTCUSDT 5527 USD x3 @ 77803.93 (RSI 22)
 30.10 03:16 A  BUY ETHUSDT 5527 USD x3 @ 2242.76 (RSI 32)
 30.10 03:16 A  BUY SOLUSDT 2763 USD x3 @ 95.35 (RSI 32)
 30.10 03:16 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -74,6 +72,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 05:20 N  NEWS (21 new) score -0.45 conf 0.60: Sıcak ABD enflasyon verileri (Core PCE %3,1, güçlü GSYH) Fed'in daha sıkı kalacağı beklentisini güçlendirerek altını baskılıyor ve dolar yükselişini destekliyor. İran savaşı ve Ukrayna'daki tırmanış güvenli liman talebi yaratabilse de, altın bu haberlere rağmen düşüş gösteriyor; bu nedenle skor orta düzeyde negatif tutuldu.
 30.10 06:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 30.10 06:11 N  NEWS (19 new) score -0.60 conf 0.60: Güçlü ABD GSYH verisi ve sıcak enflasyon (çekirdek PCE %3,1) Fed'in faiz artırma beklentilerini canlandırarak altını baskılıyor; ABD-İran umutları da güvenli liman talebini sınırlıyor. Haberlerin büyük kısmı zaten fiyatlanmış olduğu ve jeopolitik risk (İran savaşı, Husiler) hâlâ sürdüğü için güven orta düzeyde tutuldu.
+30.10 07:04 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+30.10 07:04 N  NEWS (20 new) score -0.60 conf 0.70: Yüksek ABD enflasyonu, güçlü GDP ve yükselen petrol fiyatları Fed faiz artırımı beklentilerini güçlendirerek altını baskılıyor; dolar da destek buluyor. İran savaşı ve Husi saldırıları güvenli liman talebi yaratsa da, bu etki haber akışında zayıf kalıyor ve ABD-İran müzakere umutları jeopolitik primi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
