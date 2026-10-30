@@ -1,16 +1,16 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 23:56 (İstanbul)
+> Son güncelleme: 31.10.2026 00:35 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -217.43 $ | -467.72 $ |
-| İşlem sayısı | 14 | 30 |
-| Kazanma oranı | %21.4 | %23.3 |
-| Ödenen komisyon/spread | 67.51 $ | 137.19 $ |
+| Net kâr/zarar | +0.00 $ | -467.72 $ |
+| İşlem sayısı | 0 | 30 |
+| Kazanma oranı | %0.0 | %23.3 |
+| Ödenen komisyon/spread | 0.00 $ | 137.19 $ |
 
 **Hesap değeri: 4,532.28 $** (başlangıç 5,000 $, -467.72 $ / %-9.35)
 
@@ -28,12 +28,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +177.44 $ | +134.64 $ |
-| İşlem sayısı | 8 | 11 |
-| Kazanma oranı | %62.5 | %54.5 |
-| Ödenen komisyon/spread | 95.23 $ | 130.83 $ |
+| Net kâr/zarar | +0.00 $ | +134.64 $ |
+| İşlem sayısı | 0 | 11 |
+| Kazanma oranı | %0.0 | %54.5 |
+| Ödenen komisyon/spread | 0.00 $ | 130.83 $ |
 
-**Hesap değeri: 5,128.67 $** (başlangıç 5,000 $, +128.67 $ / %+2.57)
+**Hesap değeri: 5,125.01 $** (başlangıç 5,000 $, +125.01 $ / %+2.50)
 
 Açık pozisyonlar: PAXGUSDT short @ 3891.96 (TP 3880.29 / SL 3899.75)
 
@@ -56,7 +56,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,032.45 $** (başlangıç 100,000 $, +1032.45 $ / %+1.03)
+**Hesap değeri: 100,916.96 $** (başlangıç 100,000 $, +916.96 $ / %+0.92)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
