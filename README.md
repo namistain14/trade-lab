@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 12:21 (İstanbul)
+> Son güncelleme: 30.10.2026 13:17 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -33,7 +33,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %25.0 |
 | Ödenen komisyon/spread | 11.88 $ | 47.48 $ |
 
-**Hesap değeri: 4,901.25 $** (başlangıç 5,000 $, -98.75 $ / %-1.97)
+**Hesap değeri: 4,895.31 $** (başlangıç 5,000 $, -104.69 $ / %-2.09)
+
+Açık pozisyonlar: PAXGUSDT short @ 3990.55 (TP 3978.58 / SL 3998.53)
 
 Son işlemler:
 
@@ -53,16 +55,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,559.20 $** (başlangıç 100,000 $, -440.80 $ / %-0.44)
+**Hesap değeri: 98,545.57 $** (başlangıç 100,000 $, -1454.43 $ / %-1.45)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 07:04 N  NEWS (20 new) score -0.60 conf 0.70: Yüksek ABD enflasyonu, güçlü GDP ve yükselen petrol fiyatları Fed faiz artırımı beklentilerini güçlendirerek altını baskılıyor; dolar da destek buluyor. İran savaşı ve Husi saldırıları güvenli liman talebi yaratsa da, bu etki haber akışında zayıf kalıyor ve ABD-İran müzakere umutları jeopolitik primi sınırlıyor.
-30.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-30.10 07:51 N  NEWS (21 new) score -0.60 conf 0.70: Sıcak PCE enflasyonu, güçlü ABD GSYH verisi ve Aralık'ta Fed faiz artırımı bahisleri altını baskılıyor; altın 4.000 doların altına sarkmış durumda. İran savaşı kaynaklı güvenli liman talebi ve petrol fiyatlarındaki yükseliş bir miktar destek sağlasa da, faiz beklentilerinin etkisi bu desteği belirgin biçimde geride bırakıyor.
 30.10 08:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 30.10 08:33 N  NEWS (24 new) score -0.50 conf 0.60: Sıcak PCE enflasyonu ve güçlü ABD verileri Aralık'ta Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı yaratıyor; altın 4.000 doların altına indi. İran savaşı ve Asya'daki güvenli liman talebi kısmen destek olsa da, bu etki haber akışında sınırlı kalıyor ve faiz beklentisinin gerisinde kalıyor.
 30.10 09:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -75,6 +74,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 12:21 B5  CLOSE short stop: -55.95 USD
 30.10 12:21 N  NEWS (33 new) score -0.45 conf 0.60: Haberlerin çoğu altın için baskı yaratıyor: Fed faiz artırımı beklentileri, yüksek petrol ve ABD enflasyon verisi, altının 4.000 dolar altına inmesi ve spot talepteki zayıflık. Jeopolitik risk (İran savaşı, Asya'da risk-off ve tahvil talebi) kısmen destek sağlasa da, bu etki Fed beklentilerinin gerisinde kalıyor; DXY'deki gerileme ise sınırlı bir destek sunuyor.
 30.10 12:21 N  GPT  score -0.58 conf 0.68: Altının 4.000 doların altına gerilemesi ve yüksek petrol/enflasyonun Fed faiz artırımı beklentilerini güçlendirmesi kısa vadede belirgin baskı yaratıyor. Düşen tahvil getirileri ve DXY’deki zorlanma ile jeopolitik riskler bu baskıyı kısmen sınırlıyor.
+30.10 13:17 N  NEWS (24 new) score -0.25 conf 0.40: 
+30.10 13:17 N  GPT  score -0.20 conf 0.36: Altın, Fed faiz artırımı beklentileri ve zorunlu satışlarla baskı altında; doların zorlanması ve düşen tahvil getirileri bu baskıyı kısmen dengeliyor. Yeni başlıklarda kısa vadede güvenli liman talebini belirgin artıracak net bir tırmanış görünmüyor.
+30.10 13:17 B5  SHORT gold 25000 USD x10 @ 3990.55 (TP 3978.58, SL 3998.53; news -0.23)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
