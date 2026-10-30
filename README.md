@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 16:33 (İstanbul)
+> Son güncelleme: 30.10.2026 17:32 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -28,24 +28,24 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +82.20 $ | +39.40 $ |
-| İşlem sayısı | 3 | 6 |
-| Kazanma oranı | %66.7 | %50.0 |
-| Ödenen komisyon/spread | 35.65 $ | 71.25 $ |
+| Net kâr/zarar | +151.26 $ | +108.46 $ |
+| İşlem sayısı | 4 | 7 |
+| Kazanma oranı | %75.0 | %57.1 |
+| Ödenen komisyon/spread | 47.55 $ | 83.15 $ |
 
-**Hesap değeri: 5,033.45 $** (başlangıç 5,000 $, +33.45 $ / %+0.67)
+**Hesap değeri: 5,102.50 $** (başlangıç 5,000 $, +102.50 $ / %+2.05)
 
-Açık pozisyonlar: PAXGUSDT short @ 3944.48 (TP 3932.65 / SL 3952.37)
+Açık pozisyonlar: PAXGUSDT short @ 3912.39 (TP 3900.65 / SL 3920.21)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 30.10 16:51 | PAXGUSDT | short | +69.06 $ | take profit |
 | 30.10 15:43 | PAXGUSDT | short | +69.07 $ | take profit |
 | 30.10 14:25 | PAXGUSDT | short | +69.08 $ | take profit |
 | 30.10 11:54 | PAXGUSDT | short | -55.95 $ | stop |
 | 29.10 22:31 | PAXGUSDT | short | -55.94 $ | stop |
-| 29.10 20:48 | PAXGUSDT | short | +69.08 $ | take profit |
 
 ## Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:4
 
@@ -56,18 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 98,098.09 $** (başlangıç 100,000 $, -1901.91 $ / %-1.90)
+**Hesap değeri: 100,534.20 $** (başlangıç 100,000 $, +534.20 $ / %+0.53)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 13:17 B5  SHORT gold 25000 USD x10 @ 3990.55 (TP 3978.58, SL 3998.53; news -0.23)
-30.10 14:03 N  NEWS (22 new) score -0.30 conf 0.50: Yeni haberlerde Fed'in "çok sıcak olmayan" görüşünü sınayan veriler ve faiz artırımı beklentilerini destekleyen büyüme sinyalleri altın için baskı yaratıyor; gold fiyatı da 4.000 doların altına düştü. Iran savaşı ve olası yeni saldırılar güvenli liman talebini destekleyebilir, ancak altın bu jeopolitik gerilime rağmen yükselmiyor, zorunlu tasfiyeler sürüyor ve bu yüzden etki sınırlı kalıyor.
-30.10 14:03 N  GPT  score -0.35 conf 0.66: ABD verilerinin Fed’in enflasyon değerlendirmesini sorgulatması ve faiz artışı beklentilerinin güçlenmesi altın üzerinde kısa vadeli baskı yaratıyor; 4.000 doların altına iniş de bu zayıflığı teyit ediyor. İran çevresindeki gerilim güvenli liman talebini destekleyebilir, ancak haber akışı savaşın sü
-30.10 14:44 B5  CLOSE short take profit: +69.08 USD
-30.10 14:44 N  NEWS (35 new) score -0.30 conf 0.50: Altın 4.000 doların altına kaydı; piyasada Fed'e yönelik şahin beklentiler (petrol ve ABD enflasyonuna bağlı faiz artırımı bahisleri) ve güçlenen dolar baskı yaratıyor. İran savaşı nedeniyle güvenli liman talebi destekleyici olsa da, faiz beklentileri bu desteği baskılıyor; haber akışının çoğu savaş ve enerji ile ilgili olduğundan etki karışık ve güven orta düzeyde.
 30.10 14:44 N  GPT  score -0.48 conf 0.68: İran savaşının petrol ve enflasyon baskısını artırdığı, Fed’in faiz artırımı beklentilerinin ve doların güçlendiği yönündeki haberler kısa vadede altın için baskın biçimde olumsuz. Savaş kaynaklı güvenli liman talebi düşüşü sınırlayabilir; ancak haberlerin bir kısmı tekrarlı ve riskler muhtemelen fi
 30.10 14:44 B5  SHORT gold 25000 USD x10 @ 3977.36 (TP 3965.43, SL 3985.32; news -0.39)
 30.10 15:24 N  NEWS (25 new) score -0.60 conf 0.60: Altın 4.000 doları altına sarkıyor ve gün içinde %2,19 düşüş görülüyor; bu düşüşü sahiplenen ana neden, savaşa bağlı enflasyon baskısının yarattığı sert Fed beklentileri ve Trump'ın İran savaşının "yakında bitecek" açıklamasıyla güvenli liman talebinin zayıflamasıdır. Dolar sabah erken saatlerde zayıfladığı için kısmen destekleyici olsa da, bu etki sınırlı kalıyor; fiziki altın talebinin Asya'da zayıf olması da yukarı yönlü baskıyı sınırlıyor.
@@ -78,6 +73,11 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 16:33 B5  SHORT gold 25000 USD x10 @ 3944.48 (TP 3932.65, SL 3952.37; news -0.35)
 30.10 16:33 B6  karar turu: Claude «Büyük teknoloji ve çip tarafındaki satış baskısı ile Fed'in şahin tonu piyasayı aşağı çekiyor; trend aşağı yönlü ancak açılışta tepki riski yüksek.» / GPT «Açılışta teknoloji öncülüğünde satış baskısı baskın; 1:4 kaldıraç ve mevcut pozisyonlar nedeniyle toplam riski sınırlamak önemli.»
 30.10 16:33 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"100976.98","message":"insufficient buying power"}
+30.10 17:32 B5  CLOSE short take profit: +69.06 USD
+30.10 17:32 N  NEWS (32 new) score -0.60 conf 0.60: Haberlerin çoğu altın için baskı yaratıyor: Fed'de faiz artırımı beklentileri (Barkin'in kademeli artırımları desteklemesi, enflasyon endişeleri, Warsh uyarısı) ve altının 4 aylık dibe inmesi kısa vadede düşüşü destekliyor. Trump'ın İran savaşının yakında biteceğini söylemesi de güvenli liman talebini azaltıyor. Buna karşılık yavaşlayan ücret artışı ve UBS'nin fiyat hedefini koruması sınırlı bir destek sağlıyor; piyasada fiyatlanmış haberler olduğu için güven orta düzeyde.
+30.10 17:32 N  GPT  score -0.58 conf 0.69: Altının 4 ayın dibine gerilemesi ve 4.000 doların altına düşmesi, enflasyonun Fed faiz artırımı beklentilerini güçlendirdiğine işaret ederek kısa vadede baskıyı artırıyor. Barkin’in kademeli faiz artışlarına desteği düşüş yönünü desteklerken, yavaşlayan ücret artışı ve İran çevresindeki çelişkili ha
+30.10 17:32 B5  SHORT gold 25000 USD x10 @ 3912.39 (TP 3900.65, SL 3920.21; news -0.59)
+30.10 17:32 B6  karar turu: Claude «Yapay zeka harcama endişeleri ve zayıf çip haberleriyle teknoloji ağırlıklı satış baskısı sürüyor, ancak düşüşün büyük kısmı fiyatlandığı için kısa yönlü işlemlerde temkinli olunmalı.» / GPT «Piyasa görünümü negatif; teknoloji hisselerindeki tepki alımları nedeniyle agresif satış yerine seçici kısa pozisyon tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
