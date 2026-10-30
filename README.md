@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 30.10.2026 07:51 (İstanbul)
+> Son güncelleme: 30.10.2026 08:33 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -52,15 +52,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,677.58 $** (başlangıç 100,000 $, -322.42 $ / %-0.32)
+**Hesap değeri: 99,800.84 $** (başlangıç 100,000 $, -199.16 $ / %-0.20)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 03:16 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-30.10 03:16 N  NEWS (18 new) score -0.50 conf 0.60: Fed faizleri sabit tuttu ancak Warsh'un mesajları ve sıcak PCE/enflasyon verisi Aralık faiz artırımı beklentisini güçlendirdi; bu, reel faizler ve doların tarafından gold üzerinde baskı yaratıyor. İran savaşı kaynaklı güvenli liman talebi var ama haberlerde altın yerine tahvillere yönelim görülüyor, bu nedenle net etki negatif.
 30.10 04:28 A  CLOSE BTCUSDT stop: -29.27 USD
 30.10 04:28 A  CLOSE ETHUSDT stop: -29.27 USD
 30.10 04:28 A  CLOSE SOLUSDT stop: -14.64 USD
@@ -74,6 +72,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 07:04 N  NEWS (20 new) score -0.60 conf 0.70: Yüksek ABD enflasyonu, güçlü GDP ve yükselen petrol fiyatları Fed faiz artırımı beklentilerini güçlendirerek altını baskılıyor; dolar da destek buluyor. İran savaşı ve Husi saldırıları güvenli liman talebi yaratsa da, bu etki haber akışında zayıf kalıyor ve ABD-İran müzakere umutları jeopolitik primi sınırlıyor.
 30.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 30.10 07:51 N  NEWS (21 new) score -0.60 conf 0.70: Sıcak PCE enflasyonu, güçlü ABD GSYH verisi ve Aralık'ta Fed faiz artırımı bahisleri altını baskılıyor; altın 4.000 doların altına sarkmış durumda. İran savaşı kaynaklı güvenli liman talebi ve petrol fiyatlarındaki yükseliş bir miktar destek sağlasa da, faiz beklentilerinin etkisi bu desteği belirgin biçimde geride bırakıyor.
+30.10 08:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+30.10 08:33 N  NEWS (24 new) score -0.50 conf 0.60: Sıcak PCE enflasyonu ve güçlü ABD verileri Aralık'ta Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı yaratıyor; altın 4.000 doların altına indi. İran savaşı ve Asya'daki güvenli liman talebi kısmen destek olsa da, bu etki haber akışında sınırlı kalıyor ve faiz beklentisinin gerisinde kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
