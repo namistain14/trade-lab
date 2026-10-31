@@ -1,37 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4460.914924565874,
+   "balance": 4457.914520065195,
    "start": 5000,
    "positions": [
-    {
-     "id": "fc77fede",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06900466861722836,
-     "entry": 77575.880252,
-     "tp": 77110.424970488,
-     "sl": 77886.183773008,
-     "opened_ms": 1793475066470,
-     "entry_cost": 2.6765489547395247,
-     "max_hold_min": 120,
-     "margin": 1784.3659698263498,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "a6ba0673",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 55.79560613499304,
-     "entry": 95.941209,
-     "tp": 95.365561746,
-     "sl": 96.324973836,
-     "opened_ms": 1793475067500,
-     "entry_cost": 2.6765489547395247,
-     "max_hold_min": 120,
-     "margin": 1784.3659698263498,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "cc75b843",
      "symbol": "XRPUSDT",
@@ -45,6 +17,20 @@
      "max_hold_min": 120,
      "margin": 892.1829849131742,
      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "a5702002",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 7.614951765172981,
+     "entry": 702.499187,
+     "tp": 698.284191878,
+     "sl": 705.309183748,
+     "opened_ms": 1793483289409,
+     "entry_cost": 2.674748712039117,
+     "max_hold_min": 120,
+     "margin": 1783.165808026078,
+     "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -747,12 +733,52 @@
      "gross": -1.8788,
      "costs": 2.6407,
      "pnl": -4.5194
+    },
+    {
+     "id": "fc77fede",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06900466861722836,
+     "entry": 77575.880252,
+     "tp": 77110.424970488,
+     "sl": 77886.183773008,
+     "opened_ms": 1793475066470,
+     "entry_cost": 2.6765489547395247,
+     "max_hold_min": 120,
+     "margin": 1784.3659698263498,
+     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 77547.117158,
+     "closed_ms": 1793482380000,
+     "reason": "time limit",
+     "gross": 1.9848,
+     "costs": 5.3521,
+     "pnl": -3.3673
+    },
+    {
+     "id": "a6ba0673",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 55.79560613499304,
+     "entry": 95.941209,
+     "tp": 95.365561746,
+     "sl": 96.324973836,
+     "opened_ms": 1793475067500,
+     "entry_cost": 2.6765489547395247,
+     "max_hold_min": 120,
+     "margin": 1784.3659698263498,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 95.838743,
+     "closed_ms": 1793482380000,
+     "reason": "time limit",
+     "gross": 5.7172,
+     "costs": 5.3502,
+     "pnl": 0.3669
     }
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 0,
-    "pnl": 0.0,
+    "trades": 1,
+    "pnl": -3.0004045006786577,
     "stopped": false
    },
    "last_check_ms": 0
@@ -2965,6 +2991,10 @@
    [
     1793480707,
     4479.74
+   ],
+   [
+    1793483291,
+    4450.42
    ]
   ]
  },
@@ -6388,6 +6418,10 @@
    [
     1793480707,
     4868.5
+   ],
+   [
+    1793483291,
+    4868.5
    ]
   ],
   "news": {
@@ -9164,9 +9198,6 @@
   ]
  },
  "log": [
-  "28.10 19:13 N  NEWS (33 new) score -0.10 conf 0.40: Fed'in faiz karar\u0131 \u00f6ncesinde beklenen duru\u015f (faiz sabit) b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; ancak enflasyonun y\u00fckselmesi ve baz\u0131 haberlerde faiz art\u0131r\u0131m\u0131 ihtimali, Fed'den sert (\u015fahin) bir ton riskini art\u0131rarak alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran sava\u015f\u0131 ve m\u00fczakerelerin t\u0131kanmas\u0131 g\u00fcvenli liman talebini destekliyor, fakat bu etki mevcut haberlerde zaten yer ald\u0131\u011f\u0131ndan s\u0131n\u0131rl\u0131 kal\u0131yor; net etki hafif negatif.",
-  "28.10 19:13 N  GPT  score +0.15 conf 0.43: \u0130ran\u2019\u0131n ate\u015fkes \u00f6nerilerini reddetmesi k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak Fed\u2019in faizleri sabit tutmas\u0131 beklenirken y\u00fcksek enflasyon ve g\u00fc\u00e7l\u00fc dolar ihtimali alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 Fed karar\u0131 \u00f6ncesi belirsiz.",
-  "28.10 19:13 B6  karar turu: Claude \u00abPiyasa Fed faiz karar\u0131 \u00f6ncesi dar bantta bekleme modunda; \u015firketlere \u00f6zg\u00fc g\u00fc\u00e7l\u00fc bir kataliz\u00f6r olmad\u0131\u011f\u0131ndan i\u015flem yapmamak en do\u011frusu.\u00bb / GPT \u00abEndeksler dar bantta y\u00f6ns\u00fcz; Fed karar\u0131 \u00f6ncesinde kald\u0131ra\u00e7la y\u00fczde 1,5 hedefi destekleyecek haber ve fiyat uyumu bulunmad\u0131\u011f\u0131ndan beklemek daha disiplinli.\u00bb",
   "28.10 20:09 N  NEWS (35 new) score -0.20 conf 0.45: Fed karar\u0131 yakla\u015f\u0131rken piyasa Aral\u0131k'ta olas\u0131 bir faiz art\u0131r\u0131m\u0131n\u0131 fiyatl\u0131yor ve enflasyon y\u00fcksek; bu s\u0131k\u0131la\u015ft\u0131rma beklentisi alt\u0131n\u0131 bask\u0131lar. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, m\u00fczakerelerin t\u0131kanmas\u0131 ve Yemen'deki sald\u0131r\u0131lar jeopolitik risk primini destekliyor, bu da k\u0131smen dengeliyor.",
   "28.10 20:09 N  GPT  score +0.25 conf 0.42: Husilerin Aden havaalan\u0131na f\u00fcze sald\u0131r\u0131s\u0131 iddias\u0131 ve \u0130ran\u2019\u0131n arabuluculuk \u00f6nerisini reddetmesi k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak sava\u015f haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir; Fed karar\u0131 \u00f6ncesindeki faiz ve dolar belirsizli\u011fi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
   "28.10 20:09 B1  SHORT gold 5000 USD x10 @ 4046.06 (TP 4043.48, SL 4047.53; news -0.20)",
@@ -9463,7 +9494,10 @@
   "31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD",
   "31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)",
   "31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)",
-  "31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)"
+  "31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)",
+  "01.11 00:48 A  CLOSE BTCUSDT time limit: -3.37 USD",
+  "01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD",
+  "01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)"
  ],
  "gold_big": {
   "account": {
@@ -11736,6 +11770,10 @@
    [
     1793480707,
     4963.78
+   ],
+   [
+    1793483291,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -13936,6 +13974,10 @@
    [
     1793480707,
     4975.18
+   ],
+   [
+    1793483291,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -16102,6 +16144,10 @@
    [
     1793480707,
     4993.28
+   ],
+   [
+    1793483291,
+    4993.28
    ]
   ]
  },
@@ -18105,6 +18151,10 @@
    [
     1793480707,
     4969.22
+   ],
+   [
+    1793483291,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -18786,6 +18836,10 @@
    ],
    [
     1793480707,
+    5078.66
+   ],
+   [
+    1793483291,
     5078.66
    ]
   ],
@@ -20690,6 +20744,10 @@
    [
     1793480707,
     101128.9
+   ],
+   [
+    1793483291,
+    101128.9
    ]
   ],
   "open": {
@@ -20932,6 +20990,10 @@
    ],
    [
     1793480707,
+    5000
+   ],
+   [
+    1793483291,
     5000
    ]
   ],
