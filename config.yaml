@@ -4,14 +4,15 @@
 start_equity_usd: 5000
 
 bots:
-  crypto_rules:            # Bot A: crypto scalping, long only. Erdem 29.10: more trades, riskier (x3 paper futures)
+  crypto_rules:            # Bot A: crypto scalping. Erdem 29.10: more trades, riskier (x3). Erdem 31.10: INVERSE (sells where it used to buy)
     type: crypto_rules
-    label: "Bot A — Kripto kurallar (x3 çarpan, sık işlem)"
+    label: "Bot A — Kripto TERS (alım sinyalinde satış, x3)"
     tag: "A"
     enabled: true
     symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "DOGEUSDT"]
     interval: "5m"
     leverage: 3            # Erdem 29.10: x3 (was spot, no leverage)
+    inverse: true          # Erdem 31.10: opposite of the old logic -> short; target = old stop distance (0.4%), stop = old target distance (0.6%)
     fee_rate: 0.0005       # 0.05% per side (typical futures taker fee)
     slippage_rate: 0.0003  # 0.03% worse price on every fill
     position_pct: 0.40     # 40% of equity x3 = 120% notional per trade (was 20%, x1)

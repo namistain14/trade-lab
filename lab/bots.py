@@ -19,7 +19,7 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
         m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
         prices[sym] = m1[-1]["c"]
         for tr in paper.check_exits(acc, sym, m1,
-                                    exit_fill=lambda side, lvl: lvl * (1 - slip),
+                                    exit_fill=lambda side, lvl: lvl * (1 - slip) if side == "long" else lvl * (1 + slip),
                                     exit_fee=lambda px, q: px * q * fee):
             log.append(f"{cfg.get('tag', 'A')}  CLOSE {sym} {tr['reason']}: {tr['pnl']:+.2f} USD")
 
@@ -52,6 +52,17 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
             if notional < 10:
                 continue
             qty = notional / price
+            if cfg.get("inverse"):
+                # Erdem 31.10: do the exact opposite of the buy signal: SELL short. The old stop level becomes the
+                # target and the old target becomes the stop, so every trade mirrors what the long would have done.
+                price = prices[sym] * (1 - slip)
+                qty = notional / price
+                paper.open_position(acc, symbol=sym, side="short", price=price, qty=qty,
+                                    tp=price * (1 - cfg["stop_loss_pct"]), sl=price * (1 + cfg["take_profit_pct"]),
+                                    t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
+                                    margin=notional / lev, note=f"TERS: RSI {r[-1]:.0f} alım sinyali → satış" + (f", x{lev}" if lev > 1 else ""))
+                log.append(f"{cfg.get('tag', 'A')}  SHORT {sym} {notional:.0f} USD" + (f" x{lev}" if lev > 1 else "") + f" @ {price:.2f} (ters sinyal, RSI {r[-1]:.0f})")
+                continue
             paper.open_position(acc, symbol=sym, side="long", price=price, qty=qty,
                                 tp=price * (1 + cfg["take_profit_pct"]), sl=price * (1 - cfg["stop_loss_pct"]),
                                 t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
