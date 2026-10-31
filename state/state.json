@@ -17,6 +17,34 @@
      "max_hold_min": 120,
      "margin": 1783.165808026078,
      "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "f2df0715",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.368952967130925,
+     "entry": 2253.72368,
+     "tp": 2240.2013379200002,
+     "sl": 2262.73857472,
+     "opened_ms": 1793488397386,
+     "entry_cost": 2.6694826994146137,
+     "max_hold_min": 120,
+     "margin": 1779.6551329430758,
+     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "22ec6ed4",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 27.810002078055494,
+     "entry": 95.61130800000001,
+     "tp": 95.03764015200001,
+     "sl": 95.993753232,
+     "opened_ms": 1793488398053,
+     "entry_cost": 1.329475337082802,
+     "max_hold_min": 120,
+     "margin": 886.3168913885347,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -783,7 +811,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 1,
+    "trades": 3,
     "pnl": -11.777092208184445,
     "stopped": false
    },
@@ -3057,6 +3085,10 @@
    [
     1793485810,
     4436.25
+   ],
+   [
+    1793488398,
+    4433.66
    ]
   ]
  },
@@ -6540,6 +6572,10 @@
    [
     1793485810,
     4868.5
+   ],
+   [
+    1793488398,
+    4868.5
    ]
   ],
   "news": {
@@ -9316,8 +9352,6 @@
   ]
  },
  "log": [
-  "28.10 20:09 N  GPT  score +0.25 conf 0.42: Husilerin Aden havaalan\u0131na f\u00fcze sald\u0131r\u0131s\u0131 iddias\u0131 ve \u0130ran\u2019\u0131n arabuluculuk \u00f6nerisini reddetmesi k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak sava\u015f haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir; Fed karar\u0131 \u00f6ncesindeki faiz ve dolar belirsizli\u011fi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
-  "28.10 20:09 B1  SHORT gold 5000 USD x10 @ 4046.06 (TP 4043.48, SL 4047.53; news -0.20)",
   "28.10 20:09 B6  karar turu: Claude \u00abFed faiz karar\u0131 ve \u0130ran/petrol belirsizli\u011fi \u00f6ncesinde piyasa dar bantta bekleme modunda, i\u015flem i\u00e7in net bir avantaj yok.\u00bb / GPT \u00abEndekslerde dar bant ve ba\u015far\u0131s\u0131z yukar\u0131 ataklar g\u00f6r\u00fcl\u00fcrken Fed karar\u0131 beklentisi ile jeopolitik belirsizlik, kald\u0131ra\u00e7l\u0131 ve y\u00fczde 1,5 hedefli i\u015flemlerde beklemeyi destekliyor.\u00bb",
   "28.10 20:56 B1  CLOSE short take profit: +2.00 USD",
   "28.10 20:56 N  NEWS (31 new) score -0.30 conf 0.50: Fed karar\u0131 \u00f6ncesinde piyasa, enflasyon nedeniyle faiz art\u0131r\u0131m\u0131 sinyali ihtimalini konu\u015fuyor ve petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 faiz beklentilerini s\u0131k\u0131la\u015ft\u0131r\u0131yor; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131n\u0131n maliyetinin artmas\u0131 g\u00fcvenli liman talebini bir miktar destekliyor olsa da, alt\u0131n\u0131n son d\u00f6nemde d\u00fc\u015f\u00fc\u015f trendinde olmas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor. Fed karar\u0131n\u0131n tonu belirsiz oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
@@ -9615,7 +9649,9 @@
   "01.11 00:48 A  CLOSE BTCUSDT time limit: -3.37 USD",
   "01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD",
   "01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)",
-  "01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD"
+  "01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD",
+  "01.11 02:13 A  SHORT ETHUSDT 5339 USD x3 @ 2253.72 (ters sinyal, RSI 45)",
+  "01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)"
  ],
  "gold_big": {
   "account": {
@@ -11948,6 +11984,10 @@
    [
     1793485810,
     4963.78
+   ],
+   [
+    1793488398,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -14208,6 +14248,10 @@
    [
     1793485810,
     4975.18
+   ],
+   [
+    1793488398,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -16434,6 +16478,10 @@
    [
     1793485810,
     4993.28
+   ],
+   [
+    1793488398,
+    4993.28
    ]
   ]
  },
@@ -18497,6 +18545,10 @@
    [
     1793485810,
     4969.22
+   ],
+   [
+    1793488398,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -19238,6 +19290,10 @@
    ],
    [
     1793485810,
+    5078.66
+   ],
+   [
+    1793488398,
     5078.66
    ]
   ],
@@ -21202,6 +21258,10 @@
    [
     1793485810,
     101128.9
+   ],
+   [
+    1793488398,
+    101128.9
    ]
   ],
   "open": {
@@ -21504,6 +21564,10 @@
    ],
    [
     1793485810,
+    5000
+   ],
+   [
+    1793488398,
     5000
    ]
   ],

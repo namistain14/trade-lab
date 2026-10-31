@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 01:30 (İstanbul)
+> Son güncelleme: 01.11.2026 02:13 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,9 +12,9 @@
 | Kazanma oranı | %33.3 | %21.1 |
 | Ödenen komisyon/spread | 13.38 $ | 172.18 $ |
 
-**Hesap değeri: 4,436.25 $** (başlangıç 5,000 $, -563.75 $ / %-11.27)
+**Hesap değeri: 4,433.66 $** (başlangıç 5,000 $, -566.34 $ / %-11.33)
 
-Açık pozisyonlar: BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31)
+Açık pozisyonlar: BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31); ETHUSDT short @ 2253.72 (TP 2240.20 / SL 2262.74); SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99)
 
 Son işlemler:
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 05:11 A  BUY DOGEUSDT 2719 USD x3 @ 0.08 (RSI 43)
-31.10 06:45 A  CLOSE XRPUSDT stop: -28.81 USD
 31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD
 31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)
 31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD
 01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)
 01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD
+01.11 02:13 A  SHORT ETHUSDT 5339 USD x3 @ 2253.72 (ters sinyal, RSI 45)
+01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
