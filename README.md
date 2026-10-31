@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 05:11 (İstanbul)
+> Son güncelleme: 31.10.2026 06:00 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %23.3 |
 | Ödenen komisyon/spread | 0.00 $ | 137.19 $ |
 
-**Hesap değeri: 4,521.41 $** (başlangıç 5,000 $, -478.59 $ / %-9.57)
+**Hesap değeri: 4,530.02 $** (başlangıç 5,000 $, -469.98 $ / %-9.40)
 
 Açık pozisyonlar: BNBUSDT long @ 705.00 (TP 709.23 / SL 702.18); XRPUSDT long @ 1.26 (TP 1.26 / SL 1.25); DOGEUSDT long @ 0.08 (TP 0.08 / SL 0.08)
 
