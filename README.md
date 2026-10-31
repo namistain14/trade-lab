@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 04:17 (İstanbul)
+> Son güncelleme: 31.10.2026 05:11 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %23.3 |
 | Ödenen komisyon/spread | 0.00 $ | 137.19 $ |
 
-**Hesap değeri: 4,532.28 $** (başlangıç 5,000 $, -467.72 $ / %-9.35)
+**Hesap değeri: 4,521.41 $** (başlangıç 5,000 $, -478.59 $ / %-9.57)
+
+Açık pozisyonlar: BNBUSDT long @ 705.00 (TP 709.23 / SL 702.18); XRPUSDT long @ 1.26 (TP 1.26 / SL 1.25); DOGEUSDT long @ 0.08 (TP 0.08 / SL 0.08)
 
 Son işlemler:
 
@@ -54,16 +56,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,078.48 $** (başlangıç 100,000 $, +1078.48 $ / %+1.08)
+**Hesap değeri: 101,128.90 $** (başlangıç 100,000 $, +1128.90 $ / %+1.13)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-30.10 20:52 B6  karar turu: Claude «Şahin Fed açıklamaları, Intel ve Amazon kaynaklı teknoloji satışı ve risk iştahındaki düşüşle piyasa aşağı yönlü seyrini koruyor.» / GPT «Yeni şahin Fed açıklamaları aşağı yönü destekliyor; ancak sert günlük kayıplar, 1:4 kaldıraçla ani tepki yükselişlerine karşı riski artırıyor.»
-30.10 20:52 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"104065.62","message":"insufficient buying power"}
-30.10 21:35 N  NEWS (27 new) score -0.70 conf 0.70: Fed yetkililerinin (Logan, Musalem, Lacker) ardı ardına faiz artırımı sinyali vermesi ve "Hawkish Hold" yorumları, reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın zaten 13 aylık dibe inmiş ve sert düşmüş olduğu için bir kısmı fiyatlanmış olabilir; ayrıca İran savaşının müzakere yoluyla yumuşama ihtimali güvenli liman talebini azaltıyor.
 30.10 21:35 N  GPT  score -0.58 conf 0.72: Fed yetkililerinin ek faiz artışlarına işaret etmesi, yükselen reel faiz ve dolar beklentileri üzerinden altın için belirgin baskı oluşturuyor; altındaki sert düşüş de bu temanın zaten kısmen fiyatlandığını düşündürüyor. İran’daki çatışma ve enerji kaynaklı belirsizlik güvenli liman talebi sağlayabi
 30.10 21:35 B6  karar turu: Claude «Şahin Fed mesajları ve çip hisselerindeki çöküşle piyasa güçlü bir satış baskısı altında, ancak Cuma kapanışı öncesi kısa pozisyon kapatma kaynaklı sert tepki riski var.» / GPT «Piyasa satış baskısı altında; yeni ve güçlü bir şirket katalizörü bulunmadığından kısa pozisyonlar öne çıkıyor, ancak 1:4 kaldıraçta ilişkili pozisyonların toplam riski sınırlanmalı ve işlemler kapa
 30.10 21:35 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103538.71","message":"insufficient buying power"}
@@ -76,6 +75,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 30.10 23:56 N  GPT  score -0.72 conf 0.78: Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
 30.10 23:56 B5  SHORT gold 25000 USD x10 @ 3891.96 (TP 3880.29, SL 3899.75; news -0.69)
 31.10 01:15 B5  CLOSE short stop: -55.97 USD
+31.10 05:11 A  BUY BNBUSDT 5439 USD x3 @ 705.00 (RSI 36)
+31.10 05:11 A  BUY XRPUSDT 5439 USD x3 @ 1.26 (RSI 39)
+31.10 05:11 A  BUY DOGEUSDT 2719 USD x3 @ 0.08 (RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
