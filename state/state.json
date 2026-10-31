@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4489.073444612422,
+   "balance": 4469.890726574976,
    "start": 5000,
    "positions": [
-    {
-     "id": "a8a4d4d0",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 7.714510420629142,
-     "entry": 705.0014369999999,
-     "tp": 709.2314456219999,
-     "sl": 702.1814312519999,
-     "opened_ms": 1793412666437,
-     "entry_cost": 2.7193704661475095,
-     "max_hold_min": 120,
-     "margin": 1812.9136440983395,
-     "note": "RSI 36, x3"
-    },
     {
      "id": "32c41f7a",
      "symbol": "BTCUSDT",
@@ -687,12 +673,32 @@
      "gross": -11.69,
      "costs": 2.7135,
      "pnl": -14.4036
+    },
+    {
+     "id": "a8a4d4d0",
+     "symbol": "BNBUSDT",
+     "side": "long",
+     "qty": 7.714510420629142,
+     "entry": 705.0014369999999,
+     "tp": 709.2314456219999,
+     "sl": 702.1814312519999,
+     "opened_ms": 1793412666437,
+     "entry_cost": 2.7193704661475095,
+     "max_hold_min": 120,
+     "margin": 1812.9136440983395,
+     "note": "RSI 36, x3",
+     "exit": 703.218971,
+     "closed_ms": 1793419980000,
+     "reason": "time limit",
+     "gross": -13.7509,
+     "costs": 5.4319,
+     "pnl": -19.1827
     }
    ],
    "day": {
     "date": "2026-10-31",
     "trades": 5,
-    "pnl": -43.21066563342666,
+    "pnl": -62.39338367087223,
     "stopped": false
    },
    "last_check_ms": 0
@@ -2701,6 +2707,10 @@
    [
     1793418333,
     4474.52
+   ],
+   [
+    1793420826,
+    4466.74
    ]
   ]
  },
@@ -5920,6 +5930,10 @@
    [
     1793418333,
     4868.5
+   ],
+   [
+    1793420826,
+    4868.5
    ]
   ],
   "news": {
@@ -8696,7 +8710,6 @@
   ]
  },
  "log": [
-  "28.10 17:21 B6  karar turu: Claude \u00abFed karar\u0131 \u00f6ncesinde piyasa temkinli ve yatay seyrediyor; net bir f\u0131rsat olmad\u0131\u011f\u0131 i\u00e7in beklemek en do\u011frusu.\u00bb / GPT \u00abEndeksler karars\u0131z ve teknoloji hisseleri zay\u0131f; Fed karar\u0131 \u00f6ncesinde haber ile fiyat\u0131n birlikte do\u011frulad\u0131\u011f\u0131 net bir avantaj bulunmad\u0131\u011f\u0131ndan yeni pozisyon a\u00e7m\u0131yorum.\u00bb",
   "28.10 18:18 N  NEWS (42 new) score -0.25 conf 0.50: Fed'in bug\u00fcn faiz karar\u0131n\u0131 bekleyen piyasada, Fed'in bekleneni (duraklamay\u0131) koruyup Aral\u0131k'ta olas\u0131 bir faiz art\u0131r\u0131m\u0131n\u0131 canl\u0131 tutmas\u0131 ve enflasyonun %3,7 seviyesinde olmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Putin'in n\u00fckleer kapasiteli f\u00fcze testi ve NATO gerginli\u011fi g\u00fcvenli liman talebini destekliyor; bu nedenle etki hafif negatif, g\u00fcven orta d\u00fczeyde.",
   "28.10 18:18 N  GPT  score +0.12 conf 0.34: \u0130ran sava\u015f\u0131 \u00e7evresindeki t\u0131rmanma uyar\u0131lar\u0131 ve Rusya\u2019n\u0131n n\u00fckleer kapasiteli f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekleyebilir. Ancak Fed karar\u0131 \u00f6ncesi olas\u0131 \u015fahin beklentiler alt\u0131n\u0131 bask\u0131layabilir; ba\u015fl\u0131klar kar\u0131\u015f\u0131k ve baz\u0131lar\u0131 dolayl\u0131 oldu\u011fundan y\u00f6n g\u00fcveni d\u00fc\u015f\u00fck.",
   "28.10 18:18 B1  SHORT gold 5000 USD x10 @ 4046.91 (TP 4044.33, SL 4048.38; news -0.25)",
@@ -8995,7 +9008,8 @@
   "31.10 06:45 A  CLOSE XRPUSDT stop: -28.81 USD",
   "31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD",
   "31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)",
-  "31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)"
+  "31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)",
+  "31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD"
  ],
  "gold_big": {
   "account": {
@@ -11064,6 +11078,10 @@
    [
     1793418333,
     4963.78
+   ],
+   [
+    1793420826,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -13060,6 +13078,10 @@
    [
     1793418333,
     4975.18
+   ],
+   [
+    1793420826,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -15022,6 +15044,10 @@
    [
     1793418333,
     4993.28
+   ],
+   [
+    1793420826,
+    4993.28
    ]
   ]
  },
@@ -16821,6 +16847,10 @@
    [
     1793418333,
     4969.22
+   ],
+   [
+    1793420826,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -17298,6 +17328,10 @@
    ],
    [
     1793418333,
+    5078.66
+   ],
+   [
+    1793420826,
     5078.66
    ]
   ],
@@ -18997,6 +19031,10 @@
    ],
    [
     1793418333,
+    101128.9
+   ],
+   [
+    1793420826,
     101128.9
    ]
   ],
