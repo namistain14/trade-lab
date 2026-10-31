@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 22:37 (İstanbul)
+> Son güncelleme: 31.10.2026 22:40 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 21.60 $ | 158.79 $ |
 
-**Hesap değeri: 4,453.96 $** (başlangıç 5,000 $, -546.04 $ / %-10.92)
+**Hesap değeri: 4,452.82 $** (başlangıç 5,000 $, -547.18 $ / %-10.94)
 
 Açık pozisyonlar: BTCUSDT short @ 77575.88 (TP 77110.42 / SL 77886.18); SOLUSDT short @ 95.94 (TP 95.37 / SL 96.32)
 
