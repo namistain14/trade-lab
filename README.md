@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 08:15 (İstanbul)
+> Son güncelleme: 31.10.2026 08:58 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -62.39 $ | -530.11 $ |
-| İşlem sayısı | 3 | 33 |
-| Kazanma oranı | %0.0 | %21.2 |
-| Ödenen komisyon/spread | 13.57 $ | 150.77 $ |
+| Net kâr/zarar | -71.37 $ | -539.09 $ |
+| İşlem sayısı | 5 | 35 |
+| Kazanma oranı | %0.0 | %20.0 |
+| Ödenen komisyon/spread | 21.60 $ | 158.79 $ |
 
-**Hesap değeri: 4,460.18 $** (başlangıç 5,000 $, -539.82 $ / %-10.80)
-
-Açık pozisyonlar: BTCUSDT long @ 77257.17 (TP 77720.71 / SL 76948.14); ETHUSDT long @ 2243.39 (TP 2256.85 / SL 2234.42)
+**Hesap değeri: 4,460.91 $** (başlangıç 5,000 $, -539.09 $ / %-10.78)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 31.10 08:47 | ETHUSDT | long | -4.52 $ | time limit |
+| 31.10 08:47 | BTCUSDT | long | -4.46 $ | time limit |
 | 31.10 07:13 | BNBUSDT | long | -19.18 $ | time limit |
 | 31.10 06:10 | DOGEUSDT | long | -14.40 $ | stop |
 | 31.10 06:44 | XRPUSDT | long | -28.81 $ | stop |
-| 30.10 03:19 | SOLUSDT | long | -14.64 $ | stop |
-| 30.10 03:19 | ETHUSDT | long | -29.27 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -63,8 +61,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-30.10 23:11 B5  CLOSE short stop: -55.97 USD
-30.10 23:11 N  NEWS (26 new) score -0.50 conf 0.60: Fed faizleri sabit tuttu ama "hawkish hold" çerçevesinde yetkililerin yakın dönemde daha fazla faiz artırımı sinyali verdiği ve piyasanın buna inandığı bildiriliyor; bu reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın yıllık dipte ve güçlü büyüme/enflasyon verisi de bu baskıyı destekliyor. Bunun karşısında İran savaşının yeniden başlama riski ve ABD'nin Ukrayna'ya 2,1 milyar dolarlık Patriot satışı gibi jeopolitik haberler güvenli liman talebini kısmen destekleyebilir, ancak bunların büyük çoğunluğu zaten fiyatlanmış görünüyor.
 30.10 23:11 N  GPT  score -0.58 conf 0.69: Fed’in faizi sabit tutarken daha fazla artış sinyali vermesi ve kalıcı enflasyon vurgusu, kısa vadede reel faizler ile dolar üzerinden altın için baskı oluşturuyor; altının yıllık dip seviyeye gerilemesi de bu zayıf momentumu destekliyor. Ukrayna ve Orta Doğu’daki gerilimler güvenli liman talebini a
 30.10 23:56 N  NEWS (29 new) score -0.65 conf 0.70: Fed yetkililerinin (Logan dahil) ek faiz artışı sinyalleri ve "hawkish hold" havası, reel faiz beklentilerini yükselterek altı baskılıyor; altın yıllık dibe inmiş durumda. Iran savaşının sonlanabileceği yönündeki Trump açıklamaları da güvenli liman talebini zayıflatıyor. Bu haberlerin bir kısmı zaten fiyatlanmış olabileceği için güveni sınırlı tutuyorum.
 30.10 23:56 N  GPT  score -0.72 conf 0.78: Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
@@ -78,6 +74,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)
 31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)
 31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD
+31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
+31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
