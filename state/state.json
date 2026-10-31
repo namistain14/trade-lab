@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 1784.3659698263498,
      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "cc75b843",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 2137.777196093611,
+     "entry": 1.25202428,
+     "tp": 1.24451213432,
+     "sl": 1.25703237712,
+     "opened_ms": 1793478188840,
+     "entry_cost": 1.3382744773697615,
+     "max_hold_min": 120,
+     "margin": 892.1829849131742,
+     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -737,7 +751,7 @@
    ],
    "day": {
     "date": "2026-10-31",
-    "trades": 7,
+    "trades": 8,
     "pnl": -71.36918567997417,
     "stopped": false
    },
@@ -2891,6 +2905,10 @@
    [
     1793475608,
     4452.82
+   ],
+   [
+    1793478190,
+    4455.73
    ]
   ]
  },
@@ -6254,6 +6272,10 @@
    [
     1793475608,
     4868.5
+   ],
+   [
+    1793478190,
+    4868.5
    ]
   ],
   "news": {
@@ -9030,7 +9052,6 @@
   ]
  },
  "log": [
-  "28.10 19:13 B1  CLOSE short stop: -3.00 USD",
   "28.10 19:13 N  NEWS (33 new) score -0.10 conf 0.40: Fed'in faiz karar\u0131 \u00f6ncesinde beklenen duru\u015f (faiz sabit) b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; ancak enflasyonun y\u00fckselmesi ve baz\u0131 haberlerde faiz art\u0131r\u0131m\u0131 ihtimali, Fed'den sert (\u015fahin) bir ton riskini art\u0131rarak alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran sava\u015f\u0131 ve m\u00fczakerelerin t\u0131kanmas\u0131 g\u00fcvenli liman talebini destekliyor, fakat bu etki mevcut haberlerde zaten yer ald\u0131\u011f\u0131ndan s\u0131n\u0131rl\u0131 kal\u0131yor; net etki hafif negatif.",
   "28.10 19:13 N  GPT  score +0.15 conf 0.43: \u0130ran\u2019\u0131n ate\u015fkes \u00f6nerilerini reddetmesi k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak Fed\u2019in faizleri sabit tutmas\u0131 beklenirken y\u00fcksek enflasyon ve g\u00fc\u00e7l\u00fc dolar ihtimali alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 Fed karar\u0131 \u00f6ncesi belirsiz.",
   "28.10 19:13 B6  karar turu: Claude \u00abPiyasa Fed faiz karar\u0131 \u00f6ncesi dar bantta bekleme modunda; \u015firketlere \u00f6zg\u00fc g\u00fc\u00e7l\u00fc bir kataliz\u00f6r olmad\u0131\u011f\u0131ndan i\u015flem yapmamak en do\u011frusu.\u00bb / GPT \u00abEndeksler dar bantta y\u00f6ns\u00fcz; Fed karar\u0131 \u00f6ncesinde kald\u0131ra\u00e7la y\u00fczde 1,5 hedefi destekleyecek haber ve fiyat uyumu bulunmad\u0131\u011f\u0131ndan beklemek daha disiplinli.\u00bb",
@@ -9329,7 +9350,8 @@
   "31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD",
   "31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD",
   "31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)",
-  "31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)"
+  "31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)",
+  "31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)"
  ],
  "gold_big": {
   "account": {
@@ -11542,6 +11564,10 @@
    [
     1793475608,
     4963.78
+   ],
+   [
+    1793478190,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -13682,6 +13708,10 @@
    [
     1793475608,
     4975.18
+   ],
+   [
+    1793478190,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -15788,6 +15818,10 @@
    [
     1793475608,
     4993.28
+   ],
+   [
+    1793478190,
+    4993.28
    ]
   ]
  },
@@ -17731,6 +17765,10 @@
    [
     1793475608,
     4969.22
+   ],
+   [
+    1793478190,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -18352,6 +18390,10 @@
    ],
    [
     1793475608,
+    5078.66
+   ],
+   [
+    1793478190,
     5078.66
    ]
   ],
@@ -20196,6 +20238,10 @@
    [
     1793475608,
     101128.9
+   ],
+   [
+    1793478190,
+    101128.9
    ]
   ],
   "open": {
@@ -20378,6 +20424,10 @@
    ],
    [
     1793475608,
+    5000
+   ],
+   [
+    1793478190,
     5000
    ]
   ],
