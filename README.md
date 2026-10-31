@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 06:00 (İstanbul)
+> Son güncelleme: 31.10.2026 06:45 (İstanbul)
 
 ## Bot A — Kripto kurallar (x3 çarpan, sık işlem)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -467.72 $ |
-| İşlem sayısı | 0 | 30 |
-| Kazanma oranı | %0.0 | %23.3 |
-| Ödenen komisyon/spread | 0.00 $ | 137.19 $ |
+| Net kâr/zarar | -43.21 $ | -510.93 $ |
+| İşlem sayısı | 2 | 32 |
+| Kazanma oranı | %0.0 | %21.9 |
+| Ödenen komisyon/spread | 8.14 $ | 145.33 $ |
 
-**Hesap değeri: 4,530.02 $** (başlangıç 5,000 $, -469.98 $ / %-9.40)
+**Hesap değeri: 4,474.52 $** (başlangıç 5,000 $, -525.48 $ / %-10.51)
 
-Açık pozisyonlar: BNBUSDT long @ 705.00 (TP 709.23 / SL 702.18); XRPUSDT long @ 1.26 (TP 1.26 / SL 1.25); DOGEUSDT long @ 0.08 (TP 0.08 / SL 0.08)
+Açık pozisyonlar: BNBUSDT long @ 705.00 (TP 709.23 / SL 702.18); BTCUSDT long @ 77257.17 (TP 77720.71 / SL 76948.14); ETHUSDT long @ 2243.39 (TP 2256.85 / SL 2234.42)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 31.10 06:10 | DOGEUSDT | long | -14.40 $ | stop |
+| 31.10 06:44 | XRPUSDT | long | -28.81 $ | stop |
 | 30.10 03:19 | SOLUSDT | long | -14.64 $ | stop |
 | 30.10 03:19 | ETHUSDT | long | -29.27 $ | stop |
 | 30.10 03:19 | BTCUSDT | long | -29.27 $ | stop |
-| 30.10 02:47 | XRPUSDT | long | -14.87 $ | stop |
-| 30.10 02:47 | SOLUSDT | long | -29.74 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -63,10 +63,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-30.10 21:35 N  GPT  score -0.58 conf 0.72: Fed yetkililerinin ek faiz artışlarına işaret etmesi, yükselen reel faiz ve dolar beklentileri üzerinden altın için belirgin baskı oluşturuyor; altındaki sert düşüş de bu temanın zaten kısmen fiyatlandığını düşündürüyor. İran’daki çatışma ve enerji kaynaklı belirsizlik güvenli liman talebi sağlayabi
-30.10 21:35 B6  karar turu: Claude «Şahin Fed mesajları ve çip hisselerindeki çöküşle piyasa güçlü bir satış baskısı altında, ancak Cuma kapanışı öncesi kısa pozisyon kapatma kaynaklı sert tepki riski var.» / GPT «Piyasa satış baskısı altında; yeni ve güçlü bir şirket katalizörü bulunmadığından kısa pozisyonlar öne çıkıyor, ancak 1:4 kaldıraçta ilişkili pozisyonların toplam riski sınırlanmalı ve işlemler kapa
-30.10 21:35 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103538.71","message":"insufficient buying power"}
-30.10 22:26 N  NEWS (28 new) score -0.50 conf 0.60: Altın 13 aylık dibe yakın, 3.900 doların altında seyrediyor; Fed yetkililerinin ek faiz artırımı sinyali vermesi ve yüksek petrol fiyatlarının enflasyon korkusunu beslemesi reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor. Iran'la arabuluculuk çabaları ve Patriot satışı gibi haberler jeopolitik risk primini sınırlı artırıyor; bu nedenle genel etki negatif, ancak güven orta düzeyde çünkü ara bir jeopolitik şok veya dovish bir sürpriz yönü değiştirebilir.
 30.10 22:26 N  GPT  score -0.35 conf 0.62: Altın üzerindeki kısa vadeli baskı, yükselen enerji fiyatlarının enflasyon ve faiz artışı beklentilerini güçlendirmesiyle yaşanan sert düşüş ve Fed yetkililerinin şahin mesajlarından geliyor. Doların gerilemesi ve Ukrayna’ya Patriot satışı bir miktar destek sağlasa da etkileri sınırlı; İran’la ilgil
 30.10 23:11 B5  CLOSE short stop: -55.97 USD
 30.10 23:11 N  NEWS (26 new) score -0.50 conf 0.60: Fed faizleri sabit tuttu ama "hawkish hold" çerçevesinde yetkililerin yakın dönemde daha fazla faiz artırımı sinyali verdiği ve piyasanın buna inandığı bildiriliyor; bu reel faiz ve dolar beklentilerini yükselterek altı baskılıyor. Altın yıllık dipte ve güçlü büyüme/enflasyon verisi de bu baskıyı destekliyor. Bunun karşısında İran savaşının yeniden başlama riski ve ABD'nin Ukrayna'ya 2,1 milyar dolarlık Patriot satışı gibi jeopolitik haberler güvenli liman talebini kısmen destekleyebilir, ancak bunların büyük çoğunluğu zaten fiyatlanmış görünüyor.
@@ -78,6 +74,10 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 31.10 05:11 A  BUY BNBUSDT 5439 USD x3 @ 705.00 (RSI 36)
 31.10 05:11 A  BUY XRPUSDT 5439 USD x3 @ 1.26 (RSI 39)
 31.10 05:11 A  BUY DOGEUSDT 2719 USD x3 @ 0.08 (RSI 43)
+31.10 06:45 A  CLOSE XRPUSDT stop: -28.81 USD
+31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD
+31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)
+31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
