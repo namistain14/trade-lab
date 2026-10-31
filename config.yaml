@@ -12,7 +12,7 @@ bots:
     symbols: ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "DOGEUSDT"]
     interval: "5m"
     leverage: 3            # Erdem 29.10: x3 (was spot, no leverage)
-    inverse: true          # Erdem 31.10: opposite of the old logic -> short; target = old stop distance (0.4%), stop = old target distance (0.6%)
+    inverse: true          # Erdem 31.10: opposite of the old logic -> short on the buy signal; target -0.6%, stop +0.4% (same as before)
     fee_rate: 0.0005       # 0.05% per side (typical futures taker fee)
     slippage_rate: 0.0003  # 0.03% worse price on every fill
     position_pct: 0.40     # 40% of equity x3 = 120% notional per trade (was 20%, x1)

@@ -53,12 +53,12 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
                 continue
             qty = notional / price
             if cfg.get("inverse"):
-                # Erdem 31.10: do the exact opposite of the buy signal: SELL short. The old stop level becomes the
-                # target and the old target becomes the stop, so every trade mirrors what the long would have done.
+                # Erdem 31.10: do the exact opposite of the buy signal: SELL short (bet that the drop continues).
+                # Same distances as before, in the short's favour: target -take_profit_pct, stop +stop_loss_pct.
                 price = prices[sym] * (1 - slip)
                 qty = notional / price
                 paper.open_position(acc, symbol=sym, side="short", price=price, qty=qty,
-                                    tp=price * (1 - cfg["stop_loss_pct"]), sl=price * (1 + cfg["take_profit_pct"]),
+                                    tp=price * (1 - cfg["take_profit_pct"]), sl=price * (1 + cfg["stop_loss_pct"]),
                                     t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
                                     margin=notional / lev, note=f"TERS: RSI {r[-1]:.0f} alım sinyali → satış" + (f", x{lev}" if lev > 1 else ""))
                 log.append(f"{cfg.get('tag', 'A')}  SHORT {sym} {notional:.0f} USD" + (f" x{lev}" if lev > 1 else "") + f" @ {price:.2f} (ters sinyal, RSI {r[-1]:.0f})")
