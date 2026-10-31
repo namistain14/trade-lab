@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 01:24 (İstanbul)
+> Son güncelleme: 01.11.2026 01:27 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -3.00 $ | -542.09 $ |
-| İşlem sayısı | 2 | 37 |
-| Kazanma oranı | %50.0 | %21.6 |
-| Ödenen komisyon/spread | 10.70 $ | 169.50 $ |
+| Net kâr/zarar | -11.78 $ | -550.86 $ |
+| İşlem sayısı | 3 | 38 |
+| Kazanma oranı | %33.3 | %21.1 |
+| Ödenen komisyon/spread | 13.38 $ | 172.18 $ |
 
-**Hesap değeri: 4,439.02 $** (başlangıç 5,000 $, -560.98 $ / %-11.22)
+**Hesap değeri: 4,438.77 $** (başlangıç 5,000 $, -561.23 $ / %-11.22)
 
-Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31)
+Açık pozisyonlar: BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
 | 01.11 00:33 | SOLUSDT | short | +0.37 $ | time limit |
 | 01.11 00:33 | BTCUSDT | short | -3.37 $ | time limit |
 | 31.10 08:47 | ETHUSDT | long | -4.52 $ | time limit |
 | 31.10 08:47 | BTCUSDT | long | -4.46 $ | time limit |
-| 31.10 07:13 | BNBUSDT | long | -19.18 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 05:11 A  BUY XRPUSDT 5439 USD x3 @ 1.26 (RSI 39)
 31.10 05:11 A  BUY DOGEUSDT 2719 USD x3 @ 0.08 (RSI 43)
 31.10 06:45 A  CLOSE XRPUSDT stop: -28.81 USD
 31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 00:48 A  CLOSE BTCUSDT time limit: -3.37 USD
 01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD
 01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)
+01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
