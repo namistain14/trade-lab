@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 02:49 (İstanbul)
+> Son güncelleme: 01.11.2026 02:52 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -11.78 $ | -550.86 $ |
-| İşlem sayısı | 3 | 38 |
-| Kazanma oranı | %33.3 | %21.1 |
-| Ödenen komisyon/spread | 13.38 $ | 172.18 $ |
+| Net kâr/zarar | -25.83 $ | -564.91 $ |
+| İşlem sayısı | 4 | 39 |
+| Kazanma oranı | %25.0 | %20.5 |
+| Ödenen komisyon/spread | 18.74 $ | 177.53 $ |
 
-**Hesap değeri: 4,435.99 $** (başlangıç 5,000 $, -564.01 $ / %-11.28)
+**Hesap değeri: 4,426.39 $** (başlangıç 5,000 $, -573.61 $ / %-11.47)
 
-Açık pozisyonlar: BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31); ETHUSDT short @ 2253.72 (TP 2240.20 / SL 2262.74); SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99)
+Açık pozisyonlar: ETHUSDT short @ 2253.72 (TP 2240.20 / SL 2262.74); SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99); BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 02:50 | BNBUSDT | short | -14.05 $ | time limit |
 | 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
 | 01.11 00:33 | SOLUSDT | short | +0.37 $ | time limit |
 | 01.11 00:33 | BTCUSDT | short | -3.37 $ | time limit |
 | 31.10 08:47 | ETHUSDT | long | -4.52 $ | time limit |
-| 31.10 08:47 | BTCUSDT | long | -4.46 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD
-31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)
 31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)
 31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD
 31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD
 01.11 02:13 A  SHORT ETHUSDT 5339 USD x3 @ 2253.72 (ters sinyal, RSI 45)
 01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)
+01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD
+01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

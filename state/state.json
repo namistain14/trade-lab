@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4449.137832357689,
+   "balance": 4435.088915644286,
    "start": 5000,
    "positions": [
-    {
-     "id": "a5702002",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.614951765172981,
-     "entry": 702.499187,
-     "tp": 698.284191878,
-     "sl": 705.309183748,
-     "opened_ms": 1793483289409,
-     "entry_cost": 2.674748712039117,
-     "max_hold_min": 120,
-     "margin": 1783.165808026078,
-     "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "f2df0715",
      "symbol": "ETHUSDT",
@@ -45,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 886.3168913885347,
      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "69e14459",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06846892306927069,
+     "entry": 77514.7386,
+     "tp": 77049.6501684,
+     "sl": 77824.7975544,
+     "opened_ms": 1793490736654,
+     "entry_cost": 2.653675336969014,
+     "max_hold_min": 120,
+     "margin": 1769.1168913126758,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -807,12 +807,32 @@
      "gross": -6.0971,
      "costs": 2.6796,
      "pnl": -8.7767
+    },
+    {
+     "id": "a5702002",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 7.614951765172981,
+     "entry": 702.499187,
+     "tp": 698.284191878,
+     "sl": 705.309183748,
+     "opened_ms": 1793483289409,
+     "entry_cost": 2.674748712039117,
+     "max_hold_min": 120,
+     "margin": 1783.165808026078,
+     "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 703.6410289999999,
+     "closed_ms": 1793490600000,
+     "reason": "time limit",
+     "gross": -8.6951,
+     "costs": 5.3538,
+     "pnl": -14.0489
     }
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 3,
-    "pnl": -11.777092208184445,
+    "trades": 4,
+    "pnl": -25.82600892158716,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3137,6 +3157,10 @@
    [
     1793490557,
     4435.99
+   ],
+   [
+    1793490737,
+    4426.39
    ]
   ]
  },
@@ -6672,6 +6696,10 @@
    [
     1793490557,
     4868.5
+   ],
+   [
+    1793490737,
+    4868.5
    ]
   ],
   "news": {
@@ -9448,8 +9476,6 @@
   ]
  },
  "log": [
-  "28.10 20:09 B6  karar turu: Claude \u00abFed faiz karar\u0131 ve \u0130ran/petrol belirsizli\u011fi \u00f6ncesinde piyasa dar bantta bekleme modunda, i\u015flem i\u00e7in net bir avantaj yok.\u00bb / GPT \u00abEndekslerde dar bant ve ba\u015far\u0131s\u0131z yukar\u0131 ataklar g\u00f6r\u00fcl\u00fcrken Fed karar\u0131 beklentisi ile jeopolitik belirsizlik, kald\u0131ra\u00e7l\u0131 ve y\u00fczde 1,5 hedefli i\u015flemlerde beklemeyi destekliyor.\u00bb",
-  "28.10 20:56 B1  CLOSE short take profit: +2.00 USD",
   "28.10 20:56 N  NEWS (31 new) score -0.30 conf 0.50: Fed karar\u0131 \u00f6ncesinde piyasa, enflasyon nedeniyle faiz art\u0131r\u0131m\u0131 sinyali ihtimalini konu\u015fuyor ve petrol\u00fcn 100 dolar\u0131 a\u015fmas\u0131 faiz beklentilerini s\u0131k\u0131la\u015ft\u0131r\u0131yor; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131n\u0131n maliyetinin artmas\u0131 g\u00fcvenli liman talebini bir miktar destekliyor olsa da, alt\u0131n\u0131n son d\u00f6nemde d\u00fc\u015f\u00fc\u015f trendinde olmas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor. Fed karar\u0131n\u0131n tonu belirsiz oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "28.10 20:56 N  GPT  score -0.35 conf 0.58: Petrol\u00fcn 100 dolar\u0131n \u00fczerinde kalmas\u0131 enflasyon ve Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; fiyat\u0131n 4.000 dolara do\u011fru \u00e7ekildi\u011fi de bu y\u00f6n\u00fc destekliyor. Fed karar\u0131 \u00f6ncesi belirsizlik y\u00fcksek, \u0130ran sava\u015f\u0131yla ilgili maliyet haberleri ise yeni bir t\u0131rman\u0131\u015ft",
   "28.10 20:56 B1  SHORT gold 5000 USD x10 @ 4043.73 (TP 4041.16, SL 4045.20; news -0.30)",
@@ -9747,7 +9773,9 @@
   "01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)",
   "01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD",
   "01.11 02:13 A  SHORT ETHUSDT 5339 USD x3 @ 2253.72 (ters sinyal, RSI 45)",
-  "01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)"
+  "01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)",
+  "01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD",
+  "01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)"
  ],
  "gold_big": {
   "account": {
@@ -12132,6 +12160,10 @@
    [
     1793490557,
     4963.78
+   ],
+   [
+    1793490737,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -14444,6 +14476,10 @@
    [
     1793490557,
     4975.18
+   ],
+   [
+    1793490737,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -16722,6 +16758,10 @@
    [
     1793490557,
     4993.28
+   ],
+   [
+    1793490737,
+    4993.28
    ]
   ]
  },
@@ -18837,6 +18877,10 @@
    [
     1793490557,
     4969.22
+   ],
+   [
+    1793490737,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -19630,6 +19674,10 @@
    ],
    [
     1793490557,
+    5078.66
+   ],
+   [
+    1793490737,
     5078.66
    ]
   ],
@@ -21646,6 +21694,10 @@
    [
     1793490557,
     101128.9
+   ],
+   [
+    1793490737,
+    101128.9
    ]
   ],
   "open": {
@@ -22000,6 +22052,10 @@
    ],
    [
     1793490557,
+    5000
+   ],
+   [
+    1793490737,
     5000
    ]
   ],
