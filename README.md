@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 21:32 (İstanbul)
+> Son güncelleme: 31.10.2026 21:58 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,6 +35,10 @@ Son işlemler:
 
 **Hesap değeri: 5,078.66 $** (başlangıç 5,000 $, +78.66 $ / %+1.57)
 
+Son haber analizi (30.10 23:56): Claude puan **-0.65**, güven 0.70 — Fed yetkililerinin (Logan dahil) ek faiz artışı sinyalleri ve "hawkish hold" havası, reel faiz beklentilerini yükselterek altı baskılıyor; altın yıllık dibe inmiş durumda. Iran savaşının sonlanabileceği yönündeki Trump açıklamaları da güvenli liman talebini zayıflatıyor. Bu haberlerin bir kısmı zaten fiyatlanmış olabileceği için güveni sınırlı tutuyorum.
+
+GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
+
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
@@ -44,6 +48,17 @@ Son işlemler:
 | 30.10 20:35 | PAXGUSDT | short | +69.06 $ | take profit |
 | 30.10 18:48 | PAXGUSDT | short | +69.06 $ | take profit |
 | 30.10 17:39 | PAXGUSDT | short | -55.97 $ | stop |
+
+## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
+
+| | Bugün | Toplam |
+|---|---|---|
+| Net kâr/zarar | +0.00 $ | +0.00 $ |
+| İşlem sayısı | 0 | 0 |
+| Kazanma oranı | %0.0 | %0.0 |
+| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+
+**Hesap değeri: 5,000.00 $** (başlangıç 5,000 $, +0.00 $ / %+0.00)
 
 ## Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:4
 
