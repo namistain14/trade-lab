@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 31.10.2026 22:28 (İstanbul)
+> Son güncelleme: 31.10.2026 22:31 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 21.60 $ | 158.79 $ |
 
-**Hesap değeri: 4,460.91 $** (başlangıç 5,000 $, -539.09 $ / %-10.78)
+**Hesap değeri: 4,452.35 $** (başlangıç 5,000 $, -547.65 $ / %-10.95)
+
+Açık pozisyonlar: BTCUSDT short @ 77575.88 (TP 77110.42 / SL 77886.18); SOLUSDT short @ 95.94 (TP 95.37 / SL 96.32)
 
 Son işlemler:
 
@@ -76,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-30.10 23:11 N  GPT  score -0.58 conf 0.69: Fed’in faizi sabit tutarken daha fazla artış sinyali vermesi ve kalıcı enflasyon vurgusu, kısa vadede reel faizler ile dolar üzerinden altın için baskı oluşturuyor; altının yıllık dip seviyeye gerilemesi de bu zayıf momentumu destekliyor. Ukrayna ve Orta Doğu’daki gerilimler güvenli liman talebini a
-30.10 23:56 N  NEWS (29 new) score -0.65 conf 0.70: Fed yetkililerinin (Logan dahil) ek faiz artışı sinyalleri ve "hawkish hold" havası, reel faiz beklentilerini yükselterek altı baskılıyor; altın yıllık dibe inmiş durumda. Iran savaşının sonlanabileceği yönündeki Trump açıklamaları da güvenli liman talebini zayıflatıyor. Bu haberlerin bir kısmı zaten fiyatlanmış olabileceği için güveni sınırlı tutuyorum.
 30.10 23:56 N  GPT  score -0.72 conf 0.78: Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
 30.10 23:56 B5  SHORT gold 25000 USD x10 @ 3891.96 (TP 3880.29, SL 3899.75; news -0.69)
 31.10 01:15 B5  CLOSE short stop: -55.97 USD
@@ -91,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD
 31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
 31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
+31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)
+31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
