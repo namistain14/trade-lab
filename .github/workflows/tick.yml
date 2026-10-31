@@ -18,7 +18,7 @@ env:
 jobs:
   tick:
     runs-on: ubuntu-24.04
-    timeout-minutes: 8
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,18 +26,26 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -q -r requirements.txt
-      - name: Run both paper bots
+      # Erdem 31.10: GitHub starts this workflow only every ~40 min instead of every 5, so one run now keeps
+      # ticking every 3 minutes for ~45 minutes (the next scheduled run queues behind it). State is saved each tick.
+      - name: Run the paper bots every 3 minutes
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
           ALPACA_SECRET: ${{ secrets.ALPACA_SECRET_KEY }}
-        run: python lab/run.py
-      - name: Save state and dashboard
         run: |
           git config user.name "trade-lab-bot"
           git config user.email "trade-lab-bot@users.noreply.github.com"
-          git add state/ README.md
-          git diff --cached --quiet && exit 0
-          git commit -q -m "tick $(date -u +%H:%M)"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
+          end=$((SECONDS + 45*60))
+          while :; do
+            t0=$SECONDS
+            python lab/run.py || echo "::warning::tick failed"
+            git add state/ README.md
+            if ! git diff --cached --quiet; then
+              git commit -q -m "tick $(date -u +%H:%M)"
+              for i in 1 2 3; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
+            fi
+            [ $((SECONDS + 180)) -ge $end ] && break
+            wait=$((180 - (SECONDS - t0))); [ $wait -gt 0 ] && sleep $wait
+          done

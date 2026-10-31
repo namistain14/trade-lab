@@ -104,8 +104,14 @@ def gold_targets(entry: float, qty: float, side: str, cfg: dict, half: float, sl
 def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_key: str | None,
               data=None, sentiment_fn=None, shared_news: dict | None = None, tag: str = "B") -> dict:
     sym, slip = cfg["symbol"], cfg["slippage_rate"]
+    asset = cfg.get("asset", "gold")
+    feeds = cfg.get("feeds") or news_cfg["feeds"]
     m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
     price_now = m1[-1]["c"]
+    if asset == "gold":
+        mkt_open = gold_market_open()
+    else:  # futures (Brent): open when the latest 1-minute candle is fresh (covers weekends and the daily break)
+        mkt_open = _now_ms() - m1[-1]["t"] < 10 * 60_000
     half = cfg["spread_usd_per_oz"] / 2
 
     def exit_fill(side, lvl):  # closing a long sells at bid, closing a short buys at ask
@@ -133,23 +139,24 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
     calls = state.setdefault("news_calls", {"date": paper.today(), "n": 0})
     if calls["date"] != paper.today():
         calls.update({"date": paper.today(), "n": 0})
-    if (shared_news is None and (api_key or sentiment_fn) and age_min >= min_m and (sentiment_fn is not None or news_hours_ok())
+    if (shared_news is None and (api_key or sentiment_fn) and age_min >= min_m
+            and (sentiment_fn is not None or (news_hours_ok() if asset == "gold" else mkt_open))
             and calls["n"] < cfg.get("news_max_calls_per_day", 120)):
         try:
             import news as news_mod
-            lines = [] if sentiment_fn else news_mod.headlines(news_cfg["feeds"])
+            lines = [] if sentiment_fn else news_mod.headlines(feeds)
             seen = set(state.get("news_seen", []))
             new_lines = [x for x in lines if x.split("] ", 1)[-1] not in seen]
             if sentiment_fn or (lines and (new_lines or age_min >= max_m)) or (not lines and age_min >= max_m):
                 res = sentiment_fn() if sentiment_fn else news_mod.gold_sentiment(
-                    api_key, news_cfg["model"], news_cfg["feeds"], lines=lines, new_lines=new_lines)
+                    api_key, news_cfg["model"], feeds, lines=lines, new_lines=new_lines, asset=asset)
                 calls["n"] += 1
                 # second, independent opinion from GPT on the same headlines (used by the consensus bot B5)
                 res["gpt"] = None
                 if os.environ.get("OPENAI_API_KEY", "").strip() and not sentiment_fn:
                     try:
                         res["gpt"] = news_mod.gpt_sentiment(news_cfg.get("gpt_models", ["gpt-6-luna"]),
-                                                            lines, new_lines)
+                                                            lines, new_lines, asset=asset)
                     except Exception as e:  # noqa: BLE001  GPT never blocks the bots
                         log.append(f"N  GPT news failed: {str(e)[:160]}")
                 news.update(res)
@@ -162,15 +169,15 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
                              "reason": res.get("reason", ""), "new": len(new_lines),
                              "gpt_score": g.get("score"), "gpt_confidence": g.get("confidence")})
                 state["news_history"] = hist[-300:]
-                log.append(f"N  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
+                log.append(f"{'N' if asset == 'gold' else tag}  NEWS ({len(new_lines)} new) score {res['score']:+.2f} conf {res['confidence']:.2f}: "
                            f"{res.get('reason', '')}")
                 if g:
-                    log.append(f"N  GPT  score {g['score']:+.2f} conf {g['confidence']:.2f}: {g.get('reason', '')}")
+                    log.append(f"{'N' if asset == 'gold' else tag}  GPT  score {g['score']:+.2f} conf {g['confidence']:.2f}: {g.get('reason', '')}")
         except Exception as e:  # noqa: BLE001
             log.append(f"B  NEWS failed: {e}")
 
     ok, why = paper.can_open(acc, cfg["max_trades_per_day"], cfg["daily_loss_limit_usd"])
-    if not ok or acc["positions"] or not gold_market_open():
+    if not ok or acc["positions"] or not mkt_open:
         return {sym: price_now}
     hours = cfg.get("session_hours_utc")  # e.g. [7, 16] = London + New York (10:00-19:00 Istanbul)
     if hours and not (hours[0] <= dt.datetime.now(dt.timezone.utc).hour < hours[1]):
@@ -222,6 +229,6 @@ def gold_tick(acc: dict, cfg: dict, news_cfg: dict, state: dict, log: list, api_
         cost_d = pos["friction"] / qty  # stop at a level that still covers the exit costs
         pos["be_trigger"] = entry + be_d if side == "long" else entry - be_d
         pos["be_level"] = entry + cost_d if side == "long" else entry - cost_d
-    log.append(f"{tag}  {side.upper()} gold {cfg['notional_usd']} USD x{cfg['leverage']} @ {entry:.2f} "
+    log.append(f"{tag}  {side.upper()} {'gold' if asset == 'gold' else sym} {cfg['notional_usd']} USD x{cfg['leverage']} @ {entry:.2f} "
                f"(TP {tp:.2f}, SL {sl:.2f}; news {score:+.2f})")
     return {sym: price_now}

@@ -77,8 +77,12 @@ def dashboard(cfg: dict, st: dict, prices: dict) -> None:
                 f"{p['symbol']} {p['side']} @ {p['entry']:.2f} (TP {p['tp']:.2f} / SL {p['sl']:.2f})"
                 for p in acc["positions"]))
             out.append("")
-        if name == "gold_news" and st.get(name, {}).get("news"):  # the shared news view lives with B1
-            n = st[name]["news"]
+        # news view: oil keeps its own; the shared gold view (stored under gold_news) shows with the first gold bot listed
+        gold_first = next((n for n, x in cfg["bots"].items() if x.get("enabled") and x.get("type") == "gold_news"
+                           and x.get("asset", "gold") == "gold"), None)
+        src = name if b.get("asset", "gold") != "gold" else ("gold_news" if name == gold_first else None)
+        if b.get("type") == "gold_news" and src and st.get(src, {}).get("news"):
+            n = st[src]["news"]
             out += [f"Son haber analizi ({fmt_ms(n.get('ts', 0))}): Claude puan **{n.get('score', 0):+.2f}**, "
                     f"güven {n.get('confidence', 0):.2f} — {n.get('reason', '')}", ""]
             g = n.get("gpt") or {}
@@ -153,7 +157,7 @@ def main() -> None:
                 errors.append(f"{bc.get('tag', name)} kapatma: {e}")
     # one gold bot reads the news and the others share its view. The view always lives with "gold_news";
     # if B1 itself is switched off, the first gold bot still running reads the news in its place.
-    gold_on = [n for n in b if b[n].get("enabled") and b[n].get("type") == "gold_news"]
+    gold_on = [n for n in b if b[n].get("enabled") and b[n].get("type") == "gold_news" and b[n].get("asset", "gold") == "gold"]
     news_owner = "gold_news" if "gold_news" in gold_on else (gold_on[0] if gold_on else None)
     order = sorted(b, key=lambda n: (b[n].get("type", n) != "crypto_rules", n != news_owner))
     for name in order:
@@ -166,7 +170,8 @@ def main() -> None:
             if kind == "crypto_rules":
                 prices.update(bots.crypto_tick(st[name]["account"], bc, log))
             elif kind == "gold_news":
-                shared = None if name == news_owner else st["gold_news"].setdefault("news", {})
+                own = bc.get("asset", "gold") != "gold"  # oil reads its own (oil) news and keeps it in its own state
+                shared = None if (own or name == news_owner) else st["gold_news"].setdefault("news", {})
                 prices.update(bots.gold_tick(st[name]["account"], bc, cfg["news"], st["gold_news"] if name == news_owner else st[name], log, key,
                                              shared_news=shared, tag=tag))
             elif kind == "stocks_alpaca":

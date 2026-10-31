@@ -151,11 +151,41 @@ bots:
     min_score: 0.2            # BOTH models must reach this, in the same direction (was 0.3)
     min_confidence: 0.35      # the lower of the two confidences must reach this (was 0.45)
     pause_minutes: 5          # wait after a trade (was 10)
-    news_min_minutes: 5       # B5 now reads the news itself (B1 is off)
+    news_min_minutes: 10      # B5 now reads the news itself (B1 is off); 10 min since ticks are every ~3 min now
     news_max_minutes: 30
-    news_max_calls_per_day: 150
+    news_max_calls_per_day: 100
     max_trades_per_day: 40    # was 15
     daily_loss_limit_usd: 400 # was 100
+
+  oil_consensus:           # Bot B5P: B5's strategy on BRENT oil, own 5.000 $ balance (Erdem 31.10)
+    type: gold_news
+    asset: oil                # Claude + GPT read OIL news; price = Brent futures (BZ=F) from Yahoo Finance
+    label: "Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)"
+    tag: "B5P"
+    enabled: true
+    consensus: true
+    symbol: "BZ=F"
+    interval: "5m"
+    leverage: 10
+    notional_usd: 25000       # 2.500 $ margin x10, same as B5
+    spread_usd_per_oz: 0.03   # simulated Brent spread, USD per barrel
+    slippage_rate: 0.0002
+    take_profit_usd: 75
+    stop_loss_usd: 50
+    max_hold_minutes: 360
+    min_score: 0.2
+    min_confidence: 0.35
+    pause_minutes: 5
+    news_min_minutes: 10
+    news_max_minutes: 30
+    news_max_calls_per_day: 100
+    max_trades_per_day: 40
+    daily_loss_limit_usd: 400
+    feeds:
+      - "https://news.google.com/rss/search?q=brent+OR+%22crude+oil%22+OR+OPEC+when:1d&hl=en-US&gl=US&ceid=US:en"
+      - "https://news.google.com/rss/search?q=oil+tanker+OR+Hormuz+OR+%22Red+Sea%22+OR+pipeline+OR+refinery+when:1d&hl=en-US&gl=US&ceid=US:en"
+      - "https://news.google.com/rss/search?q=war+OR+geopolitical+OR+sanctions+OR+missile+when:1d&hl=en-US&gl=US&ceid=US:en"
+      - "https://feeds.bbci.co.uk/news/business/rss.xml"
 
   stocks_ai:               # Bot B6: US stocks on Alpaca PAPER account (100k fake USD), Claude + GPT must agree
     type: stocks_alpaca

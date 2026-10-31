@@ -9,13 +9,26 @@ import xml.etree.ElementTree as ET
 import anthropic
 import requests
 
-PROMPT = """You are a cautious macro analyst. Below are the latest headlines (newest first) about geopolitics,
+GOLD_FOCUS = """You are a cautious macro analyst. Below are the latest headlines (newest first) about geopolitics,
 wars, central banks, inflation, the US dollar and gold. Judge the likely effect on the GOLD price over the
 next 1-4 hours.
 
 Think about: safe-haven demand (wars, escalation, crises), real interest rates and Fed expectations
 (hawkish = bearish gold, dovish = bullish), US dollar strength (strong dollar = bearish gold), inflation surprises,
-central bank gold buying. Old, already-priced-in or contradictory news should LOWER your confidence.
+central bank gold buying."""
+
+OIL_FOCUS = """You are a cautious commodities analyst. Below are the latest headlines (newest first) about oil,
+OPEC+, the Middle East, Russia, shipping routes, sanctions, wars, the global economy and the US dollar. Judge the
+likely effect on the BRENT CRUDE OIL price over the next 1-4 hours.
+
+Think about: supply shocks (OPEC+ cuts or hikes, outages, attacks on tankers, pipelines or refineries, sanctions,
+Strait of Hormuz / Red Sea / Black Sea risk), demand (China, US and European growth, recession fears), US crude
+inventories (draws = bullish, builds = bearish), ceasefires or de-escalation (bearish), a strong dollar (bearish)."""
+
+FOCUS = {"gold": GOLD_FOCUS, "oil": OIL_FOCUS}
+
+PROMPT = """{focus}
+Old, already-priced-in or contradictory news should LOWER your confidence.
 If nothing important happened, score near 0.
 
 Headlines (lines starting with NEW arrived since your last analysis; weigh them most):
@@ -56,7 +69,7 @@ def headlines(feeds: list[str], max_age_hours: float = 8, limit: int = 45) -> li
 
 
 def gold_sentiment(api_key: str, model: str, feeds: list[str], lines: list[str] | None = None,
-                   new_lines: list[str] | None = None) -> dict:
+                   new_lines: list[str] | None = None, asset: str = "gold") -> dict:
     lines = lines if lines is not None else headlines(feeds)
     if new_lines:  # point Claude at what just arrived
         lines = [("NEW " + x if x in set(new_lines) else x) for x in lines]
@@ -69,7 +82,7 @@ def gold_sentiment(api_key: str, model: str, feeds: list[str], lines: list[str] 
                 "reason": {"type": "string"}, "key_events": {"type": "array", "items": {"type": "string"}}},
                 "required": ["score", "confidence", "reason"]}}
     msg = client.messages.create(model=model, max_tokens=600, tools=[tool],
-                                 messages=[{"role": "user", "content": PROMPT.format(headlines="\n".join(lines))}])
+                                 messages=[{"role": "user", "content": PROMPT.format(focus=FOCUS[asset], headlines="\n".join(lines))}])
     out = None
     for b in msg.content:
         if b.type == "tool_use":
@@ -83,14 +96,14 @@ def gold_sentiment(api_key: str, model: str, feeds: list[str], lines: list[str] 
     return out
 
 
-def gpt_sentiment(models, lines: list[str], new_lines: list[str] | None = None) -> dict:
+def gpt_sentiment(models, lines: list[str], new_lines: list[str] | None = None, asset: str = "gold") -> dict:
     """Same headlines, same question, answered independently by GPT (OpenAI). Raises gpt.GPTError on failure."""
     import gpt
     if new_lines:
         lines = [("NEW " + x if x in set(new_lines) else x) for x in lines]
     if not lines:
         return {"score": 0.0, "confidence": 0.0, "reason": "no fresh headlines", "key_events": []}
-    prompt = PROMPT.format(headlines="\n".join(lines)).replace("Call the submit tool with JSON:", "Answer with JSON:")
+    prompt = PROMPT.format(focus=FOCUS[asset], headlines="\n".join(lines)).replace("Call the submit tool with JSON:", "Answer with JSON:")
     out, used = gpt.ask_json("You are a cautious macro analyst. Answer with a single JSON object.", prompt, models,
                              max_tokens=800, timeout=90)
     return {"score": max(-1.0, min(1.0, float(out.get("score", 0)))),
