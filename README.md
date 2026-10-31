@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 02:31 (İstanbul)
+> Son güncelleme: 01.11.2026 02:34 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %33.3 | %21.1 |
 | Ödenen komisyon/spread | 13.38 $ | 172.18 $ |
 
-**Hesap değeri: 4,439.69 $** (başlangıç 5,000 $, -560.31 $ / %-11.21)
+**Hesap değeri: 4,434.19 $** (başlangıç 5,000 $, -565.81 $ / %-11.32)
 
 Açık pozisyonlar: BNBUSDT short @ 702.50 (TP 698.28 / SL 705.31); ETHUSDT short @ 2253.72 (TP 2240.20 / SL 2262.74); SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99)
 
