@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 13:15 (İstanbul)
+> Son güncelleme: 01.11.2026 13:18 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %6.7 | %16.0 |
 | Ödenen komisyon/spread | 68.61 $ | 227.41 $ |
 
-**Hesap değeri: 4,228.14 $** (başlangıç 5,000 $, -771.86 $ / %-15.44)
+**Hesap değeri: 4,228.82 $** (başlangıç 5,000 $, -771.18 $ / %-15.42)
 
 Açık pozisyonlar: DOGEUSDT short @ 0.08 (TP 0.08 / SL 0.08)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 12:41 A  SHORT XRPUSDT 5127 USD x3 @ 1.25 (ters sinyal, RSI 39)
 01.11 12:41 A  SHORT DOGEUSDT 5127 USD x3 @ 0.08 (ters sinyal, RSI 41)
 01.11 12:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 12:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 13:12 A  CLOSE XRPUSDT stop: -27.19 USD
 01.11 13:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 13:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 13:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
