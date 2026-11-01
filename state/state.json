@@ -1,52 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4250.705175028469,
+   "balance": 4214.333657861776,
    "start": 5000,
-   "positions": [
-    {
-     "id": "8f917001",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 1.1086027179585651,
-     "entry": 2268.11936,
-     "tp": 2254.5106438400003,
-     "sl": 2277.19183744,
-     "opened_ms": 1793533263583,
-     "entry_cost": 1.2572216435752208,
-     "max_hold_min": 120,
-     "margin": 838.1477623834804,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "da5f35ee",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.0650790096393007,
-     "entry": 77930.403863,
-     "tp": 77462.821439822,
-     "sl": 78242.125478452,
-     "opened_ms": 1793533623148,
-     "entry_cost": 2.5358167520973867,
-     "max_hold_min": 120,
-     "margin": 1690.5445013982578,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "1f6a15b5",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 53.76016144885782,
-     "entry": 94.881527,
-     "tp": 94.312237838,
-     "sl": 95.26105310800001,
-     "opened_ms": 1793538013337,
-     "entry_cost": 2.5504231050170816,
-     "max_hold_min": 120,
-     "margin": 1700.2820700113878,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1087,12 +1044,72 @@
      "gross": 29.0458,
      "costs": 5.0796,
      "pnl": 23.9662
+    },
+    {
+     "id": "da5f35ee",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.0650790096393007,
+     "entry": 77930.403863,
+     "tp": 77462.821439822,
+     "sl": 78242.125478452,
+     "opened_ms": 1793533623148,
+     "entry_cost": 2.5358167520973867,
+     "max_hold_min": 120,
+     "margin": 1690.5445013982578,
+     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 77972.69479299999,
+     "closed_ms": 1793540940000,
+     "reason": "time limit",
+     "gross": -2.7523,
+     "costs": 5.073,
+     "pnl": -7.8253
+    },
+    {
+     "id": "8f917001",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 1.1086027179585651,
+     "entry": 2268.11936,
+     "tp": 2254.5106438400003,
+     "sl": 2277.19183744,
+     "opened_ms": 1793533263583,
+     "entry_cost": 1.2572216435752208,
+     "max_hold_min": 120,
+     "margin": 838.1477623834804,
+     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 2267.199956,
+     "closed_ms": 1793540580000,
+     "reason": "time limit",
+     "gross": 1.0193,
+     "costs": 2.5139,
+     "pnl": -1.4947
+    },
+    {
+     "id": "1f6a15b5",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 53.76016144885782,
+     "entry": 94.881527,
+     "tp": 94.312237838,
+     "sl": 95.26105310800001,
+     "opened_ms": 1793538013337,
+     "entry_cost": 2.5504231050170816,
+     "max_hold_min": 120,
+     "margin": 1700.2820700113878,
+     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 95.2896314239324,
+     "closed_ms": 1793542740000,
+     "reason": "stop",
+     "gross": -21.9398,
+     "costs": 5.1118,
+     "pnl": -27.0516
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 17,
-    "pnl": -210.2097495374051,
+    "pnl": -246.58126670409862,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4265,6 +4282,10 @@
    [
     1793540359,
     4244.23
+   ],
+   [
+    1793542954,
+    4214.33
    ]
   ]
  },
@@ -8648,6 +8669,10 @@
    [
     1793540359,
     4868.5
+   ],
+   [
+    1793542954,
+    4868.5
    ]
   ],
   "news": {
@@ -11424,10 +11449,6 @@
   ]
  },
  "log": [
-  "30.10 02:00 A  BUY SOLUSDT 5706 USD x3 @ 97.11 (RSI 42)",
-  "30.10 02:00 A  BUY XRPUSDT 5706 USD x3 @ 1.25 (RSI 38)",
-  "30.10 02:00 A  BUY DOGEUSDT 2853 USD x3 @ 0.08 (RSI 43)",
-  "30.10 02:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 02:00 N  NEWS (17 new) score -0.15 conf 0.35: Fed faizini %3.75-4 band\u0131nda sabit tuttu (beklenen duru\u015f), enflasyonun yeniden y\u00fckselmesi ve g\u00fc\u00e7l\u00fc ABD b\u00fcy\u00fcmesi faiz art\u0131r\u0131m\u0131 beklentilerini canl\u0131 tutarak alt\u0131 bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki \u00f6l\u00fcmler ve Asya'da g\u00fcvenli liman talebi alt\u0131 destekliyor; bu nedenle net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikli.",
   "30.10 02:39 A  CLOSE SOLUSDT stop: -30.23 USD",
   "30.10 02:39 A  CLOSE XRPUSDT stop: -30.23 USD",
@@ -11723,7 +11744,11 @@
   "01.11 16:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 16:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 16:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 16:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 16:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 17:22 A  CLOSE BTCUSDT time limit: -7.83 USD",
+  "01.11 17:22 A  CLOSE ETHUSDT time limit: -1.49 USD",
+  "01.11 17:22 A  CLOSE SOLUSDT stop: -27.05 USD",
+  "01.11 17:22 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14956,6 +14981,10 @@
    [
     1793540359,
     4963.78
+   ],
+   [
+    1793542954,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18116,6 +18145,10 @@
    [
     1793540359,
     4975.18
+   ],
+   [
+    1793542954,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21242,6 +21275,10 @@
    [
     1793540359,
     4993.28
+   ],
+   [
+    1793542954,
+    4993.28
    ]
   ]
  },
@@ -24205,6 +24242,10 @@
    [
     1793540359,
     4969.22
+   ],
+   [
+    1793542954,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -25846,6 +25887,10 @@
    ],
    [
     1793540359,
+    5078.66
+   ],
+   [
+    1793542954,
     5078.66
    ]
   ],
@@ -28710,6 +28755,10 @@
    [
     1793540359,
     101128.9
+   ],
+   [
+    1793542954,
+    101128.9
    ]
   ],
   "open": {
@@ -29912,6 +29961,10 @@
    ],
    [
     1793540359,
+    5000
+   ],
+   [
+    1793542954,
     5000
    ]
   ],

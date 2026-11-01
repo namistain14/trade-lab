@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 16:39 (İstanbul)
+> Son güncelleme: 01.11.2026 17:22 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -210.21 $ | -749.29 $ |
-| İşlem sayısı | 17 | 52 |
-| Kazanma oranı | %11.8 | %17.3 |
-| Ödenen komisyon/spread | 78.83 $ | 237.62 $ |
+| Net kâr/zarar | -246.58 $ | -785.67 $ |
+| İşlem sayısı | 20 | 55 |
+| Kazanma oranı | %10.0 | %16.4 |
+| Ödenen komisyon/spread | 91.53 $ | 250.32 $ |
 
-**Hesap değeri: 4,244.23 $** (başlangıç 5,000 $, -755.77 $ / %-15.12)
-
-Açık pozisyonlar: ETHUSDT short @ 2268.12 (TP 2254.51 / SL 2277.19); BTCUSDT short @ 77930.40 (TP 77462.82 / SL 78242.13); SOLUSDT short @ 94.88 (TP 94.31 / SL 95.26)
+**Hesap değeri: 4,214.33 $** (başlangıç 5,000 $, -785.67 $ / %-15.71)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 17:19 | SOLUSDT | short | -27.05 $ | stop |
+| 01.11 16:43 | ETHUSDT | short | -1.49 $ | time limit |
+| 01.11 16:49 | BTCUSDT | short | -7.83 $ | time limit |
 | 01.11 15:16 | SOLUSDT | short | +23.97 $ | take profit |
 | 01.11 14:43 | DOGEUSDT | short | -18.38 $ | time limit |
-| 01.11 13:12 | XRPUSDT | short | -27.19 $ | stop |
-| 01.11 12:27 | XRPUSDT | short | -0.21 $ | time limit |
-| 01.11 11:46 | SOLUSDT | short | -27.54 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,10 +76,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 16:00 A  SHORT SOLUSDT 5101 USD x3 @ 94.88 (ters sinyal, RSI 40)
-01.11 16:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-01.11 16:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-01.11 16:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 16:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 16:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 16:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -93,6 +87,10 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 16:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 16:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 16:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 17:22 A  CLOSE BTCUSDT time limit: -7.83 USD
+01.11 17:22 A  CLOSE ETHUSDT time limit: -1.49 USD
+01.11 17:22 A  CLOSE SOLUSDT stop: -27.05 USD
+01.11 17:22 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
