@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 876.1049884980906,
      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "62e59600",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 55.00819519606702,
+     "entry": 95.48134700000001,
+     "tp": 94.90845891800001,
+     "sl": 95.86327238800001,
+     "opened_ms": 1793506555220,
+     "entry_cost": 2.626128286679705,
+     "max_hold_min": 120,
+     "margin": 1750.752191119803,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -897,7 +911,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 7,
+    "trades": 8,
     "pnl": -81.84776795179913,
     "stopped": false
    },
@@ -3475,6 +3489,10 @@
    [
     1793506380,
     4379.25
+   ],
+   [
+    1793506560,
+    4367.98
    ]
   ]
  },
@@ -7262,6 +7280,10 @@
    [
     1793506380,
     4868.5
+   ],
+   [
+    1793506560,
+    4868.5
    ]
   ],
   "news": {
@@ -10038,8 +10060,6 @@
   ]
  },
  "log": [
-  "28.10 21:43 B5  CLOSE short stop: -11.19 USD",
-  "28.10 21:43 B6  karar turu: Claude \u00abFed faizi sabit tuttu ancak Warsh'\u0131n \u015fahin tonu ve iki art\u0131\u015f y\u00f6nl\u00fc muhalif oy, bas\u0131n toplant\u0131s\u0131 s\u00fcresince oynakl\u0131k yarat\u0131yor; net avantaj olmad\u0131\u011f\u0131ndan kenarda kalmak en do\u011frusu.\u00bb / GPT \u00abFed a\u00e7\u0131klamalar\u0131 s\u00fcrerken endekslerdeki h\u0131zl\u0131 toparlanma ile enflasyon ve jeopolitik riskler \u00e7at\u0131\u015f\u0131yor; kald\u0131ra\u00e7l\u0131 yeni i\u015flem i\u00e7in haber ve fiyat teyidi yetersiz.\u00bb",
   "28.10 22:31 N  NEWS (35 new) score -0.15 conf 0.40: Fed faizleri %3,9'da sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtti; iki \u00fcyenin muhalefeti ve net bir sonraki hamle sinyali olmamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. Dolar karar\u0131n ard\u0131ndan yatay seyretti, bu nedenle alt\u0131n \u00fczerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
   "28.10 22:31 N  GPT  score -0.12 conf 0.42: Fed\u2019in faizleri y\u00fcksek enflasyona ra\u011fmen sabit tutmas\u0131 ve yak\u0131n vadeli y\u00f6n i\u00e7in net sinyal vermemesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir; dolar\u0131n yatay seyri bu etkiyi s\u0131n\u0131rl\u0131yor. \u0130ran sava\u015f\u0131 maliyetlerine ili\u015fkin haber g\u00fcvenli liman talebini desteklese de yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve geli\u015fme",
   "28.10 23:18 N  NEWS (31 new) score -0.20 conf 0.45: Fed faizleri 3,75%-4% aral\u0131\u011f\u0131nda sabit tuttu ve enflasyonun y\u00fcksek oldu\u011funu vurgulad\u0131; g\u00fc\u00e7l\u00fc GSY\u0130H verisi de faiz indirimi beklentilerini s\u0131n\u0131rlayarak alt\u0131 hafif bask\u0131layabilir. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair sinyali ise jeopolitik g\u00fcvenli liman talebini azaltarak k\u0131sa vadede alt\u0131 olumsuz etkileyebilir; ancak sava\u015f maliyetlerinin artmas\u0131 ve Ortado\u011fu'daki \u00e7at\u0131\u015fmalar\u0131n s\u00fcrmesi bu etkiyi dengeleyebilir.",
@@ -10337,7 +10357,9 @@
   "01.11 05:23 A  SHORT XRPUSDT 5257 USD x3 @ 1.25 (ters sinyal, RSI 42)",
   "01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)",
   "01.11 07:13 A  CLOSE DOGEUSDT time limit: -1.46 USD",
-  "01.11 07:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 07:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 07:16 A  SHORT SOLUSDT 5252 USD x3 @ 95.48 (ters sinyal, RSI 43)",
+  "01.11 07:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -12974,6 +12996,10 @@
    [
     1793506380,
     4963.78
+   ],
+   [
+    1793506560,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -15538,6 +15564,10 @@
    [
     1793506380,
     4975.18
+   ],
+   [
+    1793506560,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18068,6 +18098,10 @@
    [
     1793506380,
     4993.28
+   ],
+   [
+    1793506560,
+    4993.28
    ]
   ]
  },
@@ -20435,6 +20469,10 @@
    [
     1793506380,
     4969.22
+   ],
+   [
+    1793506560,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -21480,6 +21518,10 @@
    ],
    [
     1793506380,
+    5078.66
+   ],
+   [
+    1793506560,
     5078.66
    ]
   ],
@@ -23748,6 +23790,10 @@
    [
     1793506380,
     101128.9
+   ],
+   [
+    1793506560,
+    101128.9
    ]
   ],
   "open": {
@@ -24354,6 +24400,10 @@
    ],
    [
     1793506380,
+    5000
+   ],
+   [
+    1793506560,
     5000
    ]
   ],

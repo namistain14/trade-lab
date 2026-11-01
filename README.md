@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 07:13 (İstanbul)
+> Son güncelleme: 01.11.2026 07:16 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,9 +12,9 @@
 | Kazanma oranı | %12.5 | %18.6 |
 | Ödenen komisyon/spread | 37.32 $ | 196.11 $ |
 
-**Hesap değeri: 4,379.25 $** (başlangıç 5,000 $, -620.75 $ / %-12.41)
+**Hesap değeri: 4,367.98 $** (başlangıç 5,000 $, -632.02 $ / %-12.64)
 
-Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97)
+Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97); SOLUSDT short @ 95.48 (TP 94.91 / SL 95.86)
 
 Son işlemler:
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD
-01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)
 01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD
 01.11 02:13 A  SHORT ETHUSDT 5339 USD x3 @ 2253.72 (ters sinyal, RSI 45)
 01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)
 01.11 07:13 A  CLOSE DOGEUSDT time limit: -1.46 USD
 01.11 07:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 07:16 A  SHORT SOLUSDT 5252 USD x3 @ 95.48 (ters sinyal, RSI 43)
+01.11 07:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
