@@ -4593,6 +4593,10 @@
    [
     1793559355,
     4234.37
+   ],
+   [
+    1793559535,
+    4232.68
    ]
   ]
  },
@@ -9184,6 +9188,10 @@
    [
     1793559355,
     4868.5
+   ],
+   [
+    1793559535,
+    4868.5
    ]
   ],
   "news": {
@@ -11960,7 +11968,6 @@
   ]
  },
  "log": [
-  "30.10 17:32 N  NEWS (32 new) score -0.60 conf 0.60: Haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor: Fed'de faiz art\u0131r\u0131m\u0131 beklentileri (Barkin'in kademeli art\u0131r\u0131mlar\u0131 desteklemesi, enflasyon endi\u015feleri, Warsh uyar\u0131s\u0131) ve alt\u0131n\u0131n 4 ayl\u0131k dibe inmesi k\u0131sa vadede d\u00fc\u015f\u00fc\u015f\u00fc destekliyor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda bitece\u011fini s\u00f6ylemesi de g\u00fcvenli liman talebini azalt\u0131yor. Buna kar\u015f\u0131l\u0131k yava\u015flayan \u00fccret art\u0131\u015f\u0131 ve UBS'nin fiyat hedefini korumas\u0131 s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor; piyasada fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "30.10 17:32 N  GPT  score -0.58 conf 0.69: Alt\u0131n\u0131n 4 ay\u0131n dibine gerilemesi ve 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fmesi, enflasyonun Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fine i\u015faret ederek k\u0131sa vadede bask\u0131y\u0131 art\u0131r\u0131yor. Barkin\u2019in kademeli faiz art\u0131\u015flar\u0131na deste\u011fi d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcn\u00fc desteklerken, yava\u015flayan \u00fccret art\u0131\u015f\u0131 ve \u0130ran \u00e7evresindeki \u00e7eli\u015fkili ha",
   "30.10 17:32 B5  SHORT gold 25000 USD x10 @ 3912.39 (TP 3900.65, SL 3920.21; news -0.59)",
   "30.10 17:32 B6  karar turu: Claude \u00abYapay zeka harcama endi\u015feleri ve zay\u0131f \u00e7ip haberleriyle teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor, ancak d\u00fc\u015f\u00fc\u015f\u00fcn b\u00fcy\u00fck k\u0131sm\u0131 fiyatland\u0131\u011f\u0131 i\u00e7in k\u0131sa y\u00f6nl\u00fc i\u015flemlerde temkinli olunmal\u0131.\u00bb / GPT \u00abPiyasa g\u00f6r\u00fcn\u00fcm\u00fc negatif; teknoloji hisselerindeki tepki al\u0131mlar\u0131 nedeniyle agresif sat\u0131\u015f yerine se\u00e7ici k\u0131sa pozisyon tercih ediyorum.\u00bb",
@@ -12259,7 +12266,8 @@
   "01.11 21:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 21:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 21:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 21:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 21:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 21:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15700,6 +15708,10 @@
    [
     1793559355,
     4963.78
+   ],
+   [
+    1793559535,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19068,6 +19080,10 @@
    [
     1793559355,
     4975.18
+   ],
+   [
+    1793559535,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22402,6 +22418,10 @@
    [
     1793559355,
     4993.28
+   ],
+   [
+    1793559535,
+    4993.28
    ]
   ]
  },
@@ -25573,6 +25593,10 @@
    [
     1793559355,
     4969.22
+   ],
+   [
+    1793559535,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27422,6 +27446,10 @@
    ],
    [
     1793559355,
+    5078.66
+   ],
+   [
+    1793559535,
     5078.66
    ]
   ],
@@ -30494,6 +30522,10 @@
    [
     1793559355,
     101128.9
+   ],
+   [
+    1793559535,
+    101128.9
    ]
   ],
   "open": {
@@ -31904,6 +31936,10 @@
    ],
    [
     1793559355,
+    5000
+   ],
+   [
+    1793559535,
     5000
    ]
   ],
