@@ -4689,6 +4689,10 @@
    [
     1793565180,
     4251.18
+   ],
+   [
+    1793565360,
+    4245.9
    ]
   ]
  },
@@ -9356,6 +9360,10 @@
    [
     1793565180,
     4868.5
+   ],
+   [
+    1793565360,
+    4868.5
    ]
   ],
   "news": {
@@ -12132,7 +12140,6 @@
   ]
  },
  "log": [
-  "30.10 20:52 N  NEWS (25 new) score -0.60 conf 0.60: Fed yetkililerinin (Logan, Musalem) faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 reel faiz beklentilerini y\u00fckseltip alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda sona erece\u011fi y\u00f6n\u00fcndeki haberler de g\u00fcvenli liman talebini azalt\u0131yor. Alt\u0131n zaten sert d\u00fc\u015f\u00fc\u015f ya\u015fad\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcven orta seviyede tutuldu.",
   "30.10 20:52 N  GPT  score -0.35 conf 0.63: Logan ve Musalem\u2019in yak\u0131n zamanda en az iki faiz art\u0131\u015f\u0131 gerekti\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131, faiz ve dolar beklentileri \u00fczerinden alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. \u0130ran kaynakl\u0131 riskler ve teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekleyebilir; ancak diplomasi haberleri",
   "30.10 20:52 B5  SHORT gold 25000 USD x10 @ 3896.07 (TP 3884.38, SL 3903.86; news -0.47)",
   "30.10 20:52 B6  karar turu: Claude \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131, Intel ve Amazon kaynakl\u0131 teknoloji sat\u0131\u015f\u0131 ve risk i\u015ftah\u0131ndaki d\u00fc\u015f\u00fc\u015fle piyasa a\u015fa\u011f\u0131 y\u00f6nl\u00fc seyrini koruyor.\u00bb / GPT \u00abYeni \u015fahin Fed a\u00e7\u0131klamalar\u0131 a\u015fa\u011f\u0131 y\u00f6n\u00fc destekliyor; ancak sert g\u00fcnl\u00fck kay\u0131plar, 1:4 kald\u0131ra\u00e7la ani tepki y\u00fckseli\u015flerine kar\u015f\u0131 riski art\u0131r\u0131yor.\u00bb",
@@ -12431,7 +12438,8 @@
   "01.11 23:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 23:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15948,6 +15956,10 @@
    [
     1793565180,
     4963.78
+   ],
+   [
+    1793565360,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19392,6 +19404,10 @@
    [
     1793565180,
     4975.18
+   ],
+   [
+    1793565360,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22802,6 +22818,10 @@
    [
     1793565180,
     4993.28
+   ],
+   [
+    1793565360,
+    4993.28
    ]
   ]
  },
@@ -26049,6 +26069,10 @@
    [
     1793565180,
     4969.22
+   ],
+   [
+    1793565360,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27974,6 +27998,10 @@
    ],
    [
     1793565180,
+    5078.66
+   ],
+   [
+    1793565360,
     5078.66
    ]
   ],
@@ -31122,6 +31150,10 @@
    [
     1793565180,
     101128.9
+   ],
+   [
+    1793565360,
+    101128.9
    ]
   ],
   "open": {
@@ -32608,6 +32640,10 @@
    ],
    [
     1793565180,
+    5000
+   ],
+   [
+    1793565360,
     5000
    ]
   ],
