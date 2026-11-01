@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 03:53 (İstanbul)
+> Son güncelleme: 01.11.2026 03:56 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -25.83 $ | -564.91 $ |
-| İşlem sayısı | 4 | 39 |
-| Kazanma oranı | %25.0 | %20.5 |
-| Ödenen komisyon/spread | 18.74 $ | 177.53 $ |
+| Net kâr/zarar | -54.14 $ | -593.23 $ |
+| İşlem sayısı | 5 | 40 |
+| Kazanma oranı | %20.0 | %20.0 |
+| Ödenen komisyon/spread | 24.09 $ | 182.88 $ |
 
-**Hesap değeri: 4,393.26 $** (başlangıç 5,000 $, -606.74 $ / %-12.13)
+**Hesap değeri: 4,386.98 $** (başlangıç 5,000 $, -613.02 $ / %-12.26)
 
-Açık pozisyonlar: ETHUSDT short @ 2253.72 (TP 2240.20 / SL 2262.74); SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99); BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
+Açık pozisyonlar: SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99); BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 03:54 | ETHUSDT | short | -28.31 $ | stop |
 | 01.11 02:50 | BNBUSDT | short | -14.05 $ | time limit |
 | 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
 | 01.11 00:33 | SOLUSDT | short | +0.37 $ | time limit |
 | 01.11 00:33 | BTCUSDT | short | -3.37 $ | time limit |
-| 31.10 08:47 | ETHUSDT | long | -4.52 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)
 31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD
 31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
 31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)
 01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD
 01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)
+01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
