@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4243.065216720125,
+   "balance": 4244.864568524521,
    "start": 5000,
    "positions": [
-    {
-     "id": "7a30797c",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 3.5654999193168,
-     "entry": 710.196877,
-     "tp": 705.9356957379999,
-     "sl": 713.0376645079999,
-     "opened_ms": 1793558450854,
-     "entry_cost": 1.2661034538212717,
-     "max_hold_min": 120,
-     "margin": 844.068969214181,
-     "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "f1fa658a",
      "symbol": "ETHUSDT",
@@ -1233,12 +1219,32 @@
      "gross": 3.9565,
      "costs": 5.0624,
      "pnl": -1.1059
+    },
+    {
+     "id": "7a30797c",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 3.5654999193168,
+     "entry": 710.196877,
+     "tp": 705.9356957379999,
+     "sl": 713.0376645079999,
+     "opened_ms": 1793558450854,
+     "entry_cost": 1.2661034538212717,
+     "max_hold_min": 120,
+     "margin": 844.068969214181,
+     "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 708.982631,
+     "closed_ms": 1793565720000,
+     "reason": "time limit",
+     "gross": 4.3294,
+     "costs": 2.53,
+     "pnl": 1.7994
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 24,
-    "pnl": -217.84970784574972,
+    "pnl": -216.05035604135398,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4707,6 +4713,10 @@
    [
     1793565723,
     4237.04
+   ],
+   [
+    1793565902,
+    4233.8
    ]
   ]
  },
@@ -9386,6 +9396,10 @@
    [
     1793565723,
     4868.5
+   ],
+   [
+    1793565902,
+    4868.5
    ]
   ],
   "news": {
@@ -12162,8 +12176,6 @@
   ]
  },
  "log": [
-  "30.10 20:52 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"104065.62\",\"message\":\"insufficient buying power\"}",
-  "30.10 21:35 N  NEWS (27 new) score -0.70 conf 0.70: Fed yetkililerinin (Logan, Musalem, Lacker) ard\u0131 ard\u0131na faiz art\u0131r\u0131m\u0131 sinyali vermesi ve \"Hawkish Hold\" yorumlar\u0131, reel faiz ve dolar beklentilerini y\u00fckselterek alt\u0131 bask\u0131l\u0131yor. Alt\u0131n zaten 13 ayl\u0131k dibe inmi\u015f ve sert d\u00fc\u015fm\u00fc\u015f oldu\u011fu i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir; ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n m\u00fczakere yoluyla yumu\u015fama ihtimali g\u00fcvenli liman talebini azalt\u0131yor.",
   "30.10 21:35 N  GPT  score -0.58 conf 0.72: Fed yetkililerinin ek faiz art\u0131\u015flar\u0131na i\u015faret etmesi, y\u00fckselen reel faiz ve dolar beklentileri \u00fczerinden alt\u0131n i\u00e7in belirgin bask\u0131 olu\u015fturuyor; alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f de bu teman\u0131n zaten k\u0131smen fiyatland\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran\u2019daki \u00e7at\u0131\u015fma ve enerji kaynakl\u0131 belirsizlik g\u00fcvenli liman talebi sa\u011flayabi",
   "30.10 21:35 B6  karar turu: Claude \u00ab\u015eahin Fed mesajlar\u0131 ve \u00e7ip hisselerindeki \u00e7\u00f6k\u00fc\u015fle piyasa g\u00fc\u00e7l\u00fc bir sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda, ancak Cuma kapan\u0131\u015f\u0131 \u00f6ncesi k\u0131sa pozisyon kapatma kaynakl\u0131 sert tepki riski var.\u00bb / GPT \u00abPiyasa sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; yeni ve g\u00fc\u00e7l\u00fc bir \u015firket kataliz\u00f6r\u00fc bulunmad\u0131\u011f\u0131ndan k\u0131sa pozisyonlar \u00f6ne \u00e7\u0131k\u0131yor, ancak 1:4 kald\u0131ra\u00e7ta ili\u015fkili pozisyonlar\u0131n toplam riski s\u0131n\u0131rlanmal\u0131 ve i\u015flemler kapa",
   "30.10 21:35 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"103538.71\",\"message\":\"insufficient buying power\"}",
@@ -12461,7 +12473,9 @@
   "01.11 23:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:42 A  CLOSE BTCUSDT time limit: -1.11 USD",
-  "01.11 23:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 23:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:45 A  CLOSE BNBUSDT time limit: +1.80 USD",
+  "01.11 23:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15990,6 +16004,10 @@
    [
     1793565723,
     4963.78
+   ],
+   [
+    1793565902,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19446,6 +19464,10 @@
    [
     1793565723,
     4975.18
+   ],
+   [
+    1793565902,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22868,6 +22890,10 @@
    [
     1793565723,
     4993.28
+   ],
+   [
+    1793565902,
+    4993.28
    ]
   ]
  },
@@ -26127,6 +26153,10 @@
    [
     1793565723,
     4969.22
+   ],
+   [
+    1793565902,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28064,6 +28094,10 @@
    ],
    [
     1793565723,
+    5078.66
+   ],
+   [
+    1793565902,
     5078.66
    ]
   ],
@@ -31224,6 +31258,10 @@
    [
     1793565723,
     101128.9
+   ],
+   [
+    1793565902,
+    101128.9
    ]
   ],
   "open": {
@@ -32722,6 +32760,10 @@
    ],
    [
     1793565723,
+    5000
+   ],
+   [
+    1793565902,
     5000
    ]
   ],
