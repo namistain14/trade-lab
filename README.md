@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 05:44 (İstanbul)
+> Son güncelleme: 01.11.2026 05:47 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,9 +12,9 @@
 | Kazanma oranı | %14.3 | %19.0 |
 | Ödenen komisyon/spread | 32.06 $ | 190.86 $ |
 
-**Hesap değeri: 4,388.02 $** (başlangıç 5,000 $, -611.98 $ / %-12.24)
+**Hesap değeri: 4,379.23 $** (başlangıç 5,000 $, -620.77 $ / %-12.42)
 
-Açık pozisyonlar: DOGEUSDT short @ 0.08 (TP 0.08 / SL 0.08); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26)
+Açık pozisyonlar: DOGEUSDT short @ 0.08 (TP 0.08 / SL 0.08); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97)
 
 Son işlemler:
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)
 31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)
 01.11 00:48 A  CLOSE BTCUSDT time limit: -3.37 USD
 01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD
 01.11 05:00 A  SHORT DOGEUSDT 5257 USD x3 @ 0.08 (ters sinyal, RSI 44)
 01.11 05:23 A  SHORT XRPUSDT 5257 USD x3 @ 1.25 (ters sinyal, RSI 42)
+01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
