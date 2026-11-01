@@ -3938,6 +3938,10 @@
    [
     1793525345,
     4272.31
+   ],
+   [
+    1793525526,
+    4272.31
    ]
   ]
  },
@@ -8097,6 +8101,10 @@
    [
     1793525345,
     4868.5
+   ],
+   [
+    1793525526,
+    4868.5
    ]
   ],
   "news": {
@@ -10873,7 +10881,6 @@
   ]
  },
  "log": [
-  "29.10 16:43 N  GPT  score -0.58 conf 0.72: Beklentileri a\u015fan ABD b\u00fcy\u00fcmesi ve Fed\u2019in tercih etti\u011fi enflasyon g\u00f6stergesinin %3,6\u2019ya y\u00fckselmesi, faizlerin daha uzun s\u00fcre y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de k\u0131sa vadede makroekonomik bask\u0131n et",
   "29.10 16:43 B6  karar turu: Claude \u00abAlphabet \u00e7\u00f6k\u00fc\u015f\u00fc Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken makro veriler n\u00f6tr; \u015firkete \u00f6zel haberlerde se\u00e7ici i\u015flem yapmak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abTeknoloji endeksi bask\u0131 alt\u0131nda oldu\u011fundan geni\u015f piyasadaki d\u00fc\u015f\u00fc\u015f\u00fc kovalamak yerine AAPL'de haber destekli al\u0131m ve NVDA'da se\u00e7ici sat\u0131\u015f tercih ediyorum.\u00bb",
   "29.10 16:43 B6  A\u00c7I\u011eA SATI\u015e NVDA 467 adet \u2248 99,751 $ (1:4) @ 213.6 (TP 210.4, SL 215.74; ikisi de hemfikir, g\u00fcven 0.55)",
   "29.10 16:43 B6  ALI\u015e AAPL 285 adet \u2248 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, g\u00fcven 0.60)",
@@ -11172,7 +11179,8 @@
   "01.11 12:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:29 A  CLOSE XRPUSDT time limit: -0.21 USD",
-  "01.11 12:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 12:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 12:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14181,6 +14189,10 @@
    [
     1793525345,
     4963.78
+   ],
+   [
+    1793525526,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17117,6 +17129,10 @@
    [
     1793525345,
     4975.18
+   ],
+   [
+    1793525526,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20019,6 +20035,10 @@
    [
     1793525345,
     4993.28
+   ],
+   [
+    1793525526,
+    4993.28
    ]
   ]
  },
@@ -22758,6 +22778,10 @@
    [
     1793525345,
     4969.22
+   ],
+   [
+    1793525526,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24175,6 +24199,10 @@
    ],
    [
     1793525345,
+    5078.66
+   ],
+   [
+    1793525526,
     5078.66
    ]
   ],
@@ -26815,6 +26843,10 @@
    [
     1793525345,
     101128.9
+   ],
+   [
+    1793525526,
+    101128.9
    ]
   ],
   "open": {
@@ -27793,6 +27825,10 @@
    ],
    [
     1793525345,
+    5000
+   ],
+   [
+    1793525526,
     5000
    ]
   ],
