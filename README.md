@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 11:11 (İstanbul)
+> Son güncelleme: 01.11.2026 11:14 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %9.1 | %17.4 |
 | Ödenen komisyon/spread | 50.47 $ | 209.27 $ |
 
-**Hesap değeri: 4,307.35 $** (başlangıç 5,000 $, -692.65 $ / %-13.85)
+**Hesap değeri: 4,313.58 $** (başlangıç 5,000 $, -686.42 $ / %-13.73)
 
 Açık pozisyonlar: ETHUSDT short @ 2265.63 (TP 2252.04 / SL 2274.69); SOLUSDT short @ 95.41 (TP 94.84 / SL 95.79); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 10:25 A  SHORT ETHUSDT 5193 USD x3 @ 2265.63 (ters sinyal, RSI 41)
 01.11 10:25 A  SHORT SOLUSDT 5193 USD x3 @ 95.41 (ters sinyal, RSI 39)
 01.11 10:25 A  SHORT XRPUSDT 2597 USD x3 @ 1.25 (ters sinyal, RSI 42)
 01.11 10:25 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 11:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 11:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
