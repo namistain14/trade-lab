@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 02:29 (İstanbul)
+> Son güncelleme: 02.11.2026 02:32 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -56.80 $ | -811.94 $ |
-| İşlem sayısı | 3 | 64 |
-| Kazanma oranı | %0.0 | %18.8 |
-| Ödenen komisyon/spread | 12.71 $ | 288.30 $ |
+| Net kâr/zarar | -78.85 $ | -833.99 $ |
+| İşlem sayısı | 4 | 65 |
+| Kazanma oranı | %0.0 | %18.5 |
+| Ödenen komisyon/spread | 17.81 $ | 293.40 $ |
 
-**Hesap değeri: 4,170.96 $** (başlangıç 5,000 $, -829.04 $ / %-16.58)
-
-Açık pozisyonlar: BNBUSDT short @ 708.05 (TP 703.80 / SL 710.88)
+**Hesap değeri: 4,166.01 $** (başlangıç 5,000 $, -833.99 $ / %-16.68)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 02:30 | BNBUSDT | short | -22.05 $ | time limit |
 | 02.11 02:14 | XRPUSDT | short | -13.35 $ | stop |
 | 02.11 02:14 | SOLUSDT | short | -26.91 $ | stop |
 | 02.11 01:04 | ETHUSDT | short | -16.55 $ | time limit |
 | 01.11 23:42 | BNBUSDT | short | +1.80 $ | time limit |
-| 01.11 23:39 | BTCUSDT | short | -1.11 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,7 +76,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-02.11 01:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 01:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 01:53 A  SHORT SOLUSDT 5074 USD x3 @ 93.99 (ters sinyal, RSI 44)
 02.11 01:53 A  SHORT XRPUSDT 2517 USD x3 @ 1.25 (ters sinyal, RSI 39)
@@ -93,6 +90,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 02:14 A  CLOSE XRPUSDT stop: -13.35 USD
 02.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

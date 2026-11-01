@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4188.061124477958,
+   "balance": 4166.012617348653,
    "start": 5000,
-   "positions": [
-    {
-     "id": "2c0e2819",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.1942028239023,
-     "entry": 708.047522,
-     "tp": 703.799236868,
-     "sl": 710.8797120879999,
-     "opened_ms": 1793568488673,
-     "entry_cost": 2.546918741114713,
-     "max_hold_min": 120,
-     "margin": 1697.9458274098085,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1299,12 +1284,32 @@
      "gross": -10.8267,
      "costs": 2.5226,
      "pnl": -13.3493
+    },
+    {
+     "id": "2c0e2819",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 7.1942028239023,
+     "entry": 708.047522,
+     "tp": 703.799236868,
+     "sl": 710.8797120879999,
+     "opened_ms": 1793568488673,
+     "entry_cost": 2.546918741114713,
+     "max_hold_min": 120,
+     "margin": 1697.9458274098085,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 710.403057,
+     "closed_ms": 1793575800000,
+     "reason": "time limit",
+     "gross": -16.9462,
+     "costs": 5.1023,
+     "pnl": -22.0485
     }
    ],
    "day": {
     "date": "2026-11-02",
     "trades": 3,
-    "pnl": -56.80344404656318,
+    "pnl": -78.85195117586794,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4889,6 +4894,10 @@
    [
     1793575761,
     4170.96
+   ],
+   [
+    1793575941,
+    4166.01
    ]
   ]
  },
@@ -9684,6 +9693,10 @@
    [
     1793575761,
     4868.5
+   ],
+   [
+    1793575941,
+    4868.5
    ]
   ],
   "news": {
@@ -12460,7 +12473,6 @@
   ]
  },
  "log": [
-  "01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)",
   "01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD",
   "01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)",
   "01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD",
@@ -12759,7 +12771,8 @@
   "02.11 02:14 A  CLOSE SOLUSDT stop: -26.91 USD",
   "02.11 02:14 A  CLOSE XRPUSDT stop: -13.35 USD",
   "02.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "02.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "02.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD"
  ],
  "gold_big": {
   "account": {
@@ -16404,6 +16417,10 @@
    [
     1793575761,
     4963.78
+   ],
+   [
+    1793575941,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19976,6 +19993,10 @@
    [
     1793575761,
     4975.18
+   ],
+   [
+    1793575941,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -23514,6 +23535,10 @@
    [
     1793575761,
     4993.28
+   ],
+   [
+    1793575941,
+    4993.28
    ]
   ]
  },
@@ -26889,6 +26914,10 @@
    [
     1793575761,
     4969.22
+   ],
+   [
+    1793575941,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28942,6 +28971,10 @@
    ],
    [
     1793575761,
+    5078.66
+   ],
+   [
+    1793575941,
     5078.66
    ]
   ],
@@ -32218,6 +32251,10 @@
    [
     1793575761,
     101128.9
+   ],
+   [
+    1793575941,
+    101128.9
    ]
   ],
   "open": {
@@ -33832,6 +33869,10 @@
    ],
    [
     1793575761,
+    5000
+   ],
+   [
+    1793575941,
     5000
    ]
   ],
