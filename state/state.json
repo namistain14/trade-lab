@@ -3501,6 +3501,10 @@
    [
     1793506918,
     4366.25
+   ],
+   [
+    1793507098,
+    4353.04
    ]
   ]
  },
@@ -7300,6 +7304,10 @@
    [
     1793506918,
     4868.5
+   ],
+   [
+    1793507098,
+    4868.5
    ]
   ],
   "news": {
@@ -10076,7 +10084,6 @@
   ]
  },
  "log": [
-  "28.10 23:18 N  NEWS (31 new) score -0.20 conf 0.45: Fed faizleri 3,75%-4% aral\u0131\u011f\u0131nda sabit tuttu ve enflasyonun y\u00fcksek oldu\u011funu vurgulad\u0131; g\u00fc\u00e7l\u00fc GSY\u0130H verisi de faiz indirimi beklentilerini s\u0131n\u0131rlayarak alt\u0131 hafif bask\u0131layabilir. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair sinyali ise jeopolitik g\u00fcvenli liman talebini azaltarak k\u0131sa vadede alt\u0131 olumsuz etkileyebilir; ancak sava\u015f maliyetlerinin artmas\u0131 ve Ortado\u011fu'daki \u00e7at\u0131\u015fmalar\u0131n s\u00fcrmesi bu etkiyi dengeleyebilir.",
   "28.10 23:18 N  GPT  score -0.22 conf 0.46: Fed\u2019in faizleri y\u00fcksek enflasyona ra\u011fmen sabit tutmas\u0131 ve g\u00fc\u00e7l\u00fc b\u00fcy\u00fcme vurgusu, faizlerin uzun s\u00fcre y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n\u0131 bask\u0131layabilir. Yemen\u2019deki sald\u0131r\u0131lar ve \u0130ran sava\u015f\u0131yla ilgili \u00e7eli\u015fkili haberler g\u00fcvenli liman talebini canl\u0131 tutuyor; bu nedenle y\u00f6n etkisi s\u0131n\u0131rl\u0131 ",
   "29.10 00:05 N  NEWS (34 new) score +0.10 conf 0.40: Fed faizleri sabit tuttu ve dolar d\u00fc\u015ft\u00fc; bu alt\u0131n i\u00e7in hafif destekleyici. Ancak Warsh'un s\u0131k\u0131 politikay\u0131 sorgulamas\u0131 ve \"gold slips\" ba\u015fl\u0131\u011f\u0131, piyasada kar\u0131\u015f\u0131k bir tepki oldu\u011funu g\u00f6steriyor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi sinyali jeopolitik risk primini azaltarak s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; genel etki zay\u0131f pozitif.",
   "29.10 00:05 N  GPT  score +0.20 conf 0.43: Fed\u2019in faizleri sabit tutmas\u0131n\u0131n ard\u0131ndan dolar\u0131n gerilemesi alt\u0131na k\u0131sa vadede destek sa\u011flayabilir; \u0130ran sava\u015f\u0131n\u0131n maliyetindeki art\u0131\u015f da g\u00fcvenli liman talebini canl\u0131 tutuyor. Ancak enflasyonun y\u00fcksek oldu\u011funa dair mesajlar ve Fed politikas\u0131na ili\u015fkin kar\u0131\u015f\u0131k haberler y\u00fckseli\u015fin g\u00fcc\u00fcn\u00fc s\u0131n\u0131rl\u0131yor.",
@@ -10375,7 +10382,8 @@
   "01.11 07:16 A  SHORT SOLUSDT 5252 USD x3 @ 95.48 (ters sinyal, RSI 43)",
   "01.11 07:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 07:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 07:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 07:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -13024,6 +13032,10 @@
    [
     1793506918,
     4963.78
+   ],
+   [
+    1793507098,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -15600,6 +15612,10 @@
    [
     1793506918,
     4975.18
+   ],
+   [
+    1793507098,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18142,6 +18158,10 @@
    [
     1793506918,
     4993.28
+   ],
+   [
+    1793507098,
+    4993.28
    ]
   ]
  },
@@ -20521,6 +20541,10 @@
    [
     1793506918,
     4969.22
+   ],
+   [
+    1793507098,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -21578,6 +21602,10 @@
    ],
    [
     1793506918,
+    5078.66
+   ],
+   [
+    1793507098,
     5078.66
    ]
   ],
@@ -23858,6 +23886,10 @@
    [
     1793506918,
     101128.9
+   ],
+   [
+    1793507098,
+    101128.9
    ]
   ],
   "open": {
@@ -24476,6 +24508,10 @@
    ],
    [
     1793506918,
+    5000
+   ],
+   [
+    1793507098,
     5000
    ]
   ],
