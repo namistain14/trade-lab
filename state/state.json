@@ -4302,6 +4302,10 @@
    [
     1793543674,
     4214.33
+   ],
+   [
+    1793543855,
+    4214.33
    ]
   ]
  },
@@ -8705,6 +8709,10 @@
    [
     1793543674,
     4868.5
+   ],
+   [
+    1793543855,
+    4868.5
    ]
   ],
   "news": {
@@ -11481,7 +11489,6 @@
   ]
  },
  "log": [
-  "30.10 02:39 A  BUY BTCUSDT 5616 USD x3 @ 78592.87 (RSI 39)",
   "30.10 02:39 A  BUY SOLUSDT 5616 USD x3 @ 96.37 (RSI 42)",
   "30.10 02:39 A  BUY XRPUSDT 2808 USD x3 @ 1.24 (RSI 44)",
   "30.10 02:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -11780,7 +11787,8 @@
   "01.11 17:25 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 17:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 17:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 17:34 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 17:34 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 17:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15033,6 +15041,10 @@
    [
     1793543674,
     4963.78
+   ],
+   [
+    1793543855,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18213,6 +18225,10 @@
    [
     1793543674,
     4975.18
+   ],
+   [
+    1793543855,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21359,6 +21375,10 @@
    [
     1793543674,
     4993.28
+   ],
+   [
+    1793543855,
+    4993.28
    ]
   ]
  },
@@ -24342,6 +24362,10 @@
    [
     1793543674,
     4969.22
+   ],
+   [
+    1793543855,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -26003,6 +26027,10 @@
    ],
    [
     1793543674,
+    5078.66
+   ],
+   [
+    1793543855,
     5078.66
    ]
   ],
@@ -28887,6 +28915,10 @@
    [
     1793543674,
     101128.9
+   ],
+   [
+    1793543855,
+    101128.9
    ]
   ],
   "open": {
@@ -30109,6 +30141,10 @@
    ],
    [
     1793543674,
+    5000
+   ],
+   [
+    1793543855,
     5000
    ]
   ],
