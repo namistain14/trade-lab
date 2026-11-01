@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4355.452977286136,
+   "balance": 4327.598419236457,
    "start": 5000,
-   "positions": [
-    {
-     "id": "62e59600",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 55.00819519606702,
-     "entry": 95.48134700000001,
-     "tp": 94.90845891800001,
-     "sl": 95.86327238800001,
-     "opened_ms": 1793506555220,
-     "entry_cost": 2.626128286679705,
-     "max_hold_min": 120,
-     "margin": 1750.752191119803,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -919,12 +904,32 @@
      "gross": -11.3049,
      "costs": 2.634,
      "pnl": -13.9389
+    },
+    {
+     "id": "62e59600",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 55.00819519606702,
+     "entry": 95.48134700000001,
+     "tp": 94.90845891800001,
+     "sl": 95.86327238800001,
+     "opened_ms": 1793506555220,
+     "entry_cost": 2.626128286679705,
+     "max_hold_min": 120,
+     "margin": 1750.752191119803,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 95.8920313697164,
+     "closed_ms": 1793512920000,
+     "reason": "stop",
+     "gross": -22.591,
+     "costs": 5.2636,
+     "pnl": -27.8546
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 8,
-    "pnl": -105.46194727973744,
+    "pnl": -133.3165053294166,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3629,6 +3634,10 @@
    [
     1793512743,
     4338.05
+   ],
+   [
+    1793512923,
+    4327.6
    ]
   ]
  },
@@ -7544,6 +7553,10 @@
    [
     1793512743,
     4868.5
+   ],
+   [
+    1793512923,
+    4868.5
    ]
   ],
   "news": {
@@ -10320,8 +10333,6 @@
   ]
  },
  "log": [
-  "29.10 05:22 B1  SHORT gold 5000 USD x10 @ 4050.82 (TP 4048.24, SL 4052.29; news -0.35)",
-  "29.10 05:22 B4  CLOSE long stop (gap): -11.70 USD",
   "29.10 05:22 B5  SHORT gold 5000 USD x10 @ 4050.82 (TP 4038.67, SL 4058.92; news -0.35)",
   "29.10 06:13 A2  CLOSE ETHUSDT stop: -8.30 USD",
   "29.10 06:13 B1  CLOSE short stop (gap): -3.31 USD",
@@ -10619,7 +10630,9 @@
   "01.11 08:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 08:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 08:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 08:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 08:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 09:02 A  CLOSE SOLUSDT stop: -27.85 USD",
+  "01.11 09:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -13384,6 +13397,10 @@
    [
     1793512743,
     4963.78
+   ],
+   [
+    1793512923,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -16076,6 +16093,10 @@
    [
     1793512743,
     4975.18
+   ],
+   [
+    1793512923,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18734,6 +18755,10 @@
    [
     1793512743,
     4993.28
+   ],
+   [
+    1793512923,
+    4993.28
    ]
   ]
  },
@@ -21229,6 +21254,10 @@
    [
     1793512743,
     4969.22
+   ],
+   [
+    1793512923,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -22402,6 +22431,10 @@
    ],
    [
     1793512743,
+    5078.66
+   ],
+   [
+    1793512923,
     5078.66
    ]
   ],
@@ -24798,6 +24831,10 @@
    [
     1793512743,
     101128.9
+   ],
+   [
+    1793512923,
+    101128.9
    ]
   ],
   "open": {
@@ -25532,6 +25569,10 @@
    ],
    [
     1793512743,
+    5000
+   ],
+   [
+    1793512923,
     5000
    ]
   ],
