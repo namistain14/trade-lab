@@ -4581,6 +4581,10 @@
    [
     1793558816,
     4209.56
+   ],
+   [
+    1793558995,
+    4215.78
    ]
   ]
  },
@@ -9160,6 +9164,10 @@
    [
     1793558816,
     4868.5
+   ],
+   [
+    1793558995,
+    4868.5
    ]
   ],
   "news": {
@@ -11936,7 +11944,6 @@
   ]
  },
  "log": [
-  "30.10 16:33 B6  karar turu: Claude \u00abB\u00fcy\u00fck teknoloji ve \u00e7ip taraf\u0131ndaki sat\u0131\u015f bask\u0131s\u0131 ile Fed'in \u015fahin tonu piyasay\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; trend a\u015fa\u011f\u0131 y\u00f6nl\u00fc ancak a\u00e7\u0131l\u0131\u015fta tepki riski y\u00fcksek.\u00bb / GPT \u00abA\u00e7\u0131l\u0131\u015fta teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sat\u0131\u015f bask\u0131s\u0131 bask\u0131n; 1:4 kald\u0131ra\u00e7 ve mevcut pozisyonlar nedeniyle toplam riski s\u0131n\u0131rlamak \u00f6nemli.\u00bb",
   "30.10 16:33 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"100976.98\",\"message\":\"insufficient buying power\"}",
   "30.10 17:32 B5  CLOSE short take profit: +69.06 USD",
   "30.10 17:32 N  NEWS (32 new) score -0.60 conf 0.60: Haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor: Fed'de faiz art\u0131r\u0131m\u0131 beklentileri (Barkin'in kademeli art\u0131r\u0131mlar\u0131 desteklemesi, enflasyon endi\u015feleri, Warsh uyar\u0131s\u0131) ve alt\u0131n\u0131n 4 ayl\u0131k dibe inmesi k\u0131sa vadede d\u00fc\u015f\u00fc\u015f\u00fc destekliyor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda bitece\u011fini s\u00f6ylemesi de g\u00fcvenli liman talebini azalt\u0131yor. Buna kar\u015f\u0131l\u0131k yava\u015flayan \u00fccret art\u0131\u015f\u0131 ve UBS'nin fiyat hedefini korumas\u0131 s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor; piyasada fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
@@ -12235,7 +12242,8 @@
   "01.11 21:40 A  SHORT BNBUSDT 2532 USD x3 @ 710.20 (ters sinyal, RSI 34)",
   "01.11 21:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 21:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 21:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 21:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 21:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15664,6 +15672,10 @@
    [
     1793558816,
     4963.78
+   ],
+   [
+    1793558995,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19020,6 +19032,10 @@
    [
     1793558816,
     4975.18
+   ],
+   [
+    1793558995,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22342,6 +22358,10 @@
    [
     1793558816,
     4993.28
+   ],
+   [
+    1793558995,
+    4993.28
    ]
   ]
  },
@@ -25501,6 +25521,10 @@
    [
     1793558816,
     4969.22
+   ],
+   [
+    1793558995,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27338,6 +27362,10 @@
    ],
    [
     1793558816,
+    5078.66
+   ],
+   [
+    1793558995,
     5078.66
    ]
   ],
@@ -30398,6 +30426,10 @@
    [
     1793558816,
     101128.9
+   ],
+   [
+    1793558995,
+    101128.9
    ]
   ],
   "open": {
@@ -31796,6 +31828,10 @@
    ],
    [
     1793558816,
+    5000
+   ],
+   [
+    1793558995,
     5000
    ]
   ],
