@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 1688.137938428362,
      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "7a30797c",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 3.5654999193168,
+     "entry": 710.196877,
+     "tp": 705.9356957379999,
+     "sl": 713.0376645079999,
+     "opened_ms": 1793558450854,
+     "entry_cost": 1.2661034538212717,
+     "max_hold_min": 120,
+     "margin": 844.068969214181,
+     "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1197,7 +1211,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 22,
+    "trades": 23,
     "pnl": -240.5700784949698,
     "stopped": false
    },
@@ -4555,6 +4569,10 @@
    [
     1793558279,
     4212.24
+   ],
+   [
+    1793558456,
+    4214.18
    ]
   ]
  },
@@ -9122,6 +9140,10 @@
    [
     1793558279,
     4868.5
+   ],
+   [
+    1793558456,
+    4868.5
    ]
   ],
   "news": {
@@ -11898,8 +11920,6 @@
   ]
  },
  "log": [
-  "30.10 16:33 B5  CLOSE short take profit: +69.07 USD",
-  "30.10 16:33 N  NEWS (35 new) score -0.40 conf 0.55: Alt\u0131n, haberlerde g\u00f6r\u00fclen d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan 4.000 dolar\u0131n alt\u0131na indi ve g\u00fcvenli liman talebi zay\u0131fl\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda bitece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 jeopolitik primi azalt\u0131yor; Fed Ba\u015fkan\u0131 Warsh'un enflasyon ve s\u0131k\u0131 para politikas\u0131 uyar\u0131lar\u0131 ile y\u00fcksek petrol fiyatlar\u0131 da faiz beklentilerini bask\u0131layarak alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131n dolar\u0131n her zaman g\u00fc\u00e7lenmemesi ve ABD enflasyon riskinin s\u00fcrmesi k\u0131smen destekleyici; bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "30.10 16:33 N  GPT  score -0.30 conf 0.42: Alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ve Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda bitece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini zay\u0131flatabilir. Ancak sava\u015f\u0131n yeniden t\u0131rmanabilece\u011fine dair haberler ve dolar\u0131n gerilemesi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor; y\u00f6n sinyali bu nedenle temkinli ve hafif negatif.",
   "30.10 16:33 B5  SHORT gold 25000 USD x10 @ 3944.48 (TP 3932.65, SL 3952.37; news -0.35)",
   "30.10 16:33 B6  karar turu: Claude \u00abB\u00fcy\u00fck teknoloji ve \u00e7ip taraf\u0131ndaki sat\u0131\u015f bask\u0131s\u0131 ile Fed'in \u015fahin tonu piyasay\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; trend a\u015fa\u011f\u0131 y\u00f6nl\u00fc ancak a\u00e7\u0131l\u0131\u015fta tepki riski y\u00fcksek.\u00bb / GPT \u00abA\u00e7\u0131l\u0131\u015fta teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sat\u0131\u015f bask\u0131s\u0131 bask\u0131n; 1:4 kald\u0131ra\u00e7 ve mevcut pozisyonlar nedeniyle toplam riski s\u0131n\u0131rlamak \u00f6nemli.\u00bb",
@@ -12197,7 +12217,9 @@
   "01.11 21:37 A  CLOSE SOLUSDT time limit: -2.18 USD",
   "01.11 21:37 A  SHORT BTCUSDT 5064 USD x3 @ 77950.61 (ters sinyal, RSI 37)",
   "01.11 21:37 A  SHORT SOLUSDT 5064 USD x3 @ 94.58 (ters sinyal, RSI 45)",
-  "01.11 21:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 21:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 21:40 A  SHORT BNBUSDT 2532 USD x3 @ 710.20 (ters sinyal, RSI 34)",
+  "01.11 21:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15614,6 +15636,10 @@
    [
     1793558279,
     4963.78
+   ],
+   [
+    1793558456,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18958,6 +18984,10 @@
    [
     1793558279,
     4975.18
+   ],
+   [
+    1793558456,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22268,6 +22298,10 @@
    [
     1793558279,
     4993.28
+   ],
+   [
+    1793558456,
+    4993.28
    ]
   ]
  },
@@ -25415,6 +25449,10 @@
    [
     1793558279,
     4969.22
+   ],
+   [
+    1793558456,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27240,6 +27278,10 @@
    ],
    [
     1793558279,
+    5078.66
+   ],
+   [
+    1793558456,
     5078.66
    ]
   ],
@@ -30288,6 +30330,10 @@
    [
     1793558279,
     101128.9
+   ],
+   [
+    1793558456,
+    101128.9
    ]
   ],
   "open": {
@@ -31674,6 +31720,10 @@
    ],
    [
     1793558279,
+    5000
+   ],
+   [
+    1793558456,
     5000
    ]
   ],
