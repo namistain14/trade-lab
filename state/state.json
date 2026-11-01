@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4214.333657861776,
+   "balance": 4225.170044344119,
    "start": 5000,
    "positions": [
-    {
-     "id": "21bed89e",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.0843446788628315,
-     "entry": 713.8557790000001,
-     "tp": 709.572644326,
-     "sl": 716.7112021160001,
-     "opened_ms": 1793548240484,
-     "entry_cost": 2.5286001947170664,
-     "max_hold_min": 120,
-     "margin": 1685.7334631447109,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "7b95d529",
      "symbol": "ETHUSDT",
@@ -1147,12 +1133,32 @@
      "gross": -21.9398,
      "costs": 5.1118,
      "pnl": -27.0516
+    },
+    {
+     "id": "21bed89e",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 7.0843446788628315,
+     "entry": 713.8557790000001,
+     "tp": 709.572644326,
+     "sl": 716.7112021160001,
+     "opened_ms": 1793548240484,
+     "entry_cost": 2.5286001947170664,
+     "max_hold_min": 120,
+     "margin": 1685.7334631447109,
+     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 711.6134199999999,
+     "closed_ms": 1793555520000,
+     "reason": "time limit",
+     "gross": 15.8856,
+     "costs": 5.0493,
+     "pnl": 10.8364
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 20,
-    "pnl": -246.58126670409862,
+    "pnl": -235.74488022175635,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4501,6 +4507,10 @@
    [
     1793555510,
     4229.88
+   ],
+   [
+    1793555691,
+    4224.77
    ]
   ]
  },
@@ -9060,6 +9070,10 @@
    [
     1793555510,
     4868.5
+   ],
+   [
+    1793555691,
+    4868.5
    ]
   ],
   "news": {
@@ -11836,8 +11850,6 @@
   ]
  },
  "log": [
-  "30.10 14:03 N  GPT  score -0.35 conf 0.66: ABD verilerinin Fed\u2019in enflasyon de\u011ferlendirmesini sorgulatmas\u0131 ve faiz art\u0131\u015f\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; 4.000 dolar\u0131n alt\u0131na ini\u015f de bu zay\u0131fl\u0131\u011f\u0131 teyit ediyor. \u0130ran \u00e7evresindeki gerilim g\u00fcvenli liman talebini destekleyebilir, ancak haber ak\u0131\u015f\u0131 sava\u015f\u0131n s\u00fc",
-  "30.10 14:44 B5  CLOSE short take profit: +69.08 USD",
   "30.10 14:44 N  NEWS (35 new) score -0.30 conf 0.50: Alt\u0131n 4.000 dolar\u0131n alt\u0131na kayd\u0131; piyasada Fed'e y\u00f6nelik \u015fahin beklentiler (petrol ve ABD enflasyonuna ba\u011fl\u0131 faiz art\u0131r\u0131m\u0131 bahisleri) ve g\u00fc\u00e7lenen dolar bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 nedeniyle g\u00fcvenli liman talebi destekleyici olsa da, faiz beklentileri bu deste\u011fi bask\u0131l\u0131yor; haber ak\u0131\u015f\u0131n\u0131n \u00e7o\u011fu sava\u015f ve enerji ile ilgili oldu\u011fundan etki kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
   "30.10 14:44 N  GPT  score -0.48 conf 0.68: \u0130ran sava\u015f\u0131n\u0131n petrol ve enflasyon bask\u0131s\u0131n\u0131 art\u0131rd\u0131\u011f\u0131, Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerinin ve dolar\u0131n g\u00fc\u00e7lendi\u011fi y\u00f6n\u00fcndeki haberler k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131n bi\u00e7imde olumsuz. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir; ancak haberlerin bir k\u0131sm\u0131 tekrarl\u0131 ve riskler muhtemelen fi",
   "30.10 14:44 B5  SHORT gold 25000 USD x10 @ 3977.36 (TP 3965.43, SL 3985.32; news -0.39)",
@@ -12135,7 +12147,9 @@
   "01.11 20:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 20:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 20:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 20:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 20:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 20:54 A  CLOSE BNBUSDT time limit: +10.84 USD",
+  "01.11 20:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15544,6 +15558,10 @@
    [
     1793555510,
     4963.78
+   ],
+   [
+    1793555691,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18880,6 +18898,10 @@
    [
     1793555510,
     4975.18
+   ],
+   [
+    1793555691,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22182,6 +22204,10 @@
    [
     1793555510,
     4993.28
+   ],
+   [
+    1793555691,
+    4993.28
    ]
   ]
  },
@@ -25321,6 +25347,10 @@
    [
     1793555510,
     4969.22
+   ],
+   [
+    1793555691,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27138,6 +27168,10 @@
    ],
    [
     1793555510,
+    5078.66
+   ],
+   [
+    1793555691,
     5078.66
    ]
   ],
@@ -30178,6 +30212,10 @@
    [
     1793555510,
     101128.9
+   ],
+   [
+    1793555691,
+    101128.9
    ]
   ],
   "open": {
@@ -31556,6 +31594,10 @@
    ],
    [
     1793555510,
+    5000
+   ],
+   [
+    1793555691,
     5000
    ]
   ],
