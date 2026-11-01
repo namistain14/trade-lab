@@ -4677,6 +4677,10 @@
    [
     1793564641,
     4267.08
+   ],
+   [
+    1793564820,
+    4263.29
    ]
   ]
  },
@@ -9332,6 +9336,10 @@
    [
     1793564641,
     4868.5
+   ],
+   [
+    1793564820,
+    4868.5
    ]
   ],
   "news": {
@@ -12108,7 +12116,6 @@
   ]
  },
  "log": [
-  "30.10 20:09 B6  karar turu: Claude \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131 ve \u00e7ip hisselerindeki \u00e7\u00f6k\u00fc\u015f Cuma \u00f6\u011fleden sonras\u0131nda teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcr\u00fcyor; ancak g\u00fcn i\u00e7i d\u00fc\u015f\u00fc\u015f zaten b\u00fcy\u00fck oldu\u011fu i\u00e7in pozisyonlar temkinli tutuluyor.\u00bb / GPT \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131 ve teknoloji hisselerindeki zay\u0131fl\u0131k k\u0131sa y\u00f6n\u00fc destekliyor; iki endeksin y\u00fcksek korelasyonu nedeniyle toplam kald\u0131ra\u00e7l\u0131 risk s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb",
   "30.10 20:09 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"105073.85\",\"message\":\"insufficient buying power\"}",
   "30.10 20:52 B5  CLOSE short take profit: +69.06 USD",
   "30.10 20:52 N  NEWS (25 new) score -0.60 conf 0.60: Fed yetkililerinin (Logan, Musalem) faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 reel faiz beklentilerini y\u00fckseltip alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda sona erece\u011fi y\u00f6n\u00fcndeki haberler de g\u00fcvenli liman talebini azalt\u0131yor. Alt\u0131n zaten sert d\u00fc\u015f\u00fc\u015f ya\u015fad\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcven orta seviyede tutuldu.",
@@ -12407,7 +12414,8 @@
   "01.11 23:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 23:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15912,6 +15920,10 @@
    [
     1793564641,
     4963.78
+   ],
+   [
+    1793564820,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19344,6 +19356,10 @@
    [
     1793564641,
     4975.18
+   ],
+   [
+    1793564820,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22742,6 +22758,10 @@
    [
     1793564641,
     4993.28
+   ],
+   [
+    1793564820,
+    4993.28
    ]
   ]
  },
@@ -25977,6 +25997,10 @@
    [
     1793564641,
     4969.22
+   ],
+   [
+    1793564820,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27890,6 +27914,10 @@
    ],
    [
     1793564641,
+    5078.66
+   ],
+   [
+    1793564820,
     5078.66
    ]
   ],
@@ -31026,6 +31054,10 @@
    [
     1793564641,
     101128.9
+   ],
+   [
+    1793564820,
+    101128.9
    ]
   ],
   "open": {
@@ -32500,6 +32532,10 @@
    ],
    [
     1793564641,
+    5000
+   ],
+   [
+    1793564820,
     5000
    ]
   ],
