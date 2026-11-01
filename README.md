@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 22:01 (İstanbul)
+> Son güncelleme: 01.11.2026 22:04 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %13.0 | %17.2 |
 | Ödenen komisyon/spread | 104.16 $ | 262.95 $ |
 
-**Hesap değeri: 4,237.97 $** (başlangıç 5,000 $, -762.03 $ / %-15.24)
+**Hesap değeri: 4,226.31 $** (başlangıç 5,000 $, -773.69 $ / %-15.47)
 
 Açık pozisyonlar: BTCUSDT short @ 77950.61 (TP 77482.90 / SL 78262.41); SOLUSDT short @ 94.58 (TP 94.01 / SL 94.96); BNBUSDT short @ 710.20 (TP 705.94 / SL 713.04)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 20:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 21:37 A  CLOSE ETHUSDT time limit: -2.65 USD
 01.11 21:37 A  CLOSE SOLUSDT time limit: -2.18 USD
 01.11 21:37 A  SHORT BTCUSDT 5064 USD x3 @ 77950.61 (ters sinyal, RSI 37)
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 21:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 21:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 22:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 22:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
