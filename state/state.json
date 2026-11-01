@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4245.116898998394,
+   "balance": 4226.739023381096,
    "start": 5000,
    "positions": [
-    {
-     "id": "435baaee",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 67763.0235562036,
-     "entry": 0.075657296,
-     "tp": 0.075203352224,
-     "sl": 0.075959925184,
-     "opened_ms": 1793526060740,
-     "entry_cost": 2.5633835655233344,
-     "max_hold_min": 120,
-     "margin": 1708.922377015556,
-     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "7cf38ca3",
      "symbol": "SOLUSDT",
@@ -1047,12 +1033,32 @@
      "gross": -22.0513,
      "costs": 5.1378,
      "pnl": -27.189
+    },
+    {
+     "id": "435baaee",
+     "symbol": "DOGEUSDT",
+     "side": "short",
+     "qty": 67763.0235562036,
+     "entry": 0.075657296,
+     "tp": 0.075203352224,
+     "sl": 0.075959925184,
+     "opened_ms": 1793526060740,
+     "entry_cost": 2.5633835655233344,
+     "max_hold_min": 120,
+     "margin": 1708.922377015556,
+     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 0.075852749,
+     "closed_ms": 1793533380000,
+     "reason": "time limit",
+     "gross": -13.2445,
+     "costs": 5.1334,
+     "pnl": -18.3779
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 15,
-    "pnl": -215.79802556747958,
+    "pnl": -234.17590118477835,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4121,6 +4127,10 @@
    [
     1793533269,
     4235.73
+   ],
+   [
+    1793533449,
+    4228.72
    ]
   ]
  },
@@ -8400,6 +8410,10 @@
    [
     1793533269,
     4868.5
+   ],
+   [
+    1793533449,
+    4868.5
    ]
   ],
   "news": {
@@ -11176,8 +11190,6 @@
   ]
  },
  "log": [
-  "29.10 22:18 N  NEWS (26 new) score -0.45 conf 0.60: Fed'in 10-2 ile faizleri sabit tutup enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtmesi, Core PCE'nin %3,1'e \u00e7\u0131kmas\u0131 ve Hassett'in Ekim enflasyonu s\u0131cak gelirse faiz art\u0131r\u0131m\u0131na a\u00e7\u0131k oldu\u011funu s\u00f6ylemesi, s\u0131k\u0131la\u015fma beklentilerini art\u0131rarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 riski alt\u0131n i\u00e7in s\u0131n\u0131rl\u0131 destek sa\u011flasa da, haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor.",
-  "29.10 22:18 N  GPT  score -0.45 conf 0.67: Beklentileri a\u015fan ABD b\u00fcy\u00fcmesi, y\u00fcksek \u00e7ekirdek PCE ve Fed\u2019in enflasyon nedeniyle temkinli duru\u015fu faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebiyle bu bask\u0131y\u0131 k\u0131smen dengeliyor.",
   "29.10 23:08 A  CLOSE BTCUSDT stop: -31.28 USD",
   "29.10 23:08 A  CLOSE BNBUSDT stop: -30.98 USD",
   "29.10 23:08 A  CLOSE XRPUSDT stop: -15.19 USD",
@@ -11475,7 +11487,9 @@
   "01.11 14:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:41 A  SHORT ETHUSDT 2514 USD x3 @ 2268.12 (ters sinyal, RSI 42)",
-  "01.11 14:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 14:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 14:44 A  CLOSE DOGEUSDT time limit: -18.38 USD",
+  "01.11 14:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14604,6 +14618,10 @@
    [
     1793533269,
     4963.78
+   ],
+   [
+    1793533449,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17660,6 +17678,10 @@
    [
     1793533269,
     4975.18
+   ],
+   [
+    1793533449,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20682,6 +20704,10 @@
    [
     1793533269,
     4993.28
+   ],
+   [
+    1793533449,
+    4993.28
    ]
   ]
  },
@@ -23541,6 +23567,10 @@
    [
     1793533269,
     4969.22
+   ],
+   [
+    1793533449,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -25078,6 +25108,10 @@
    ],
    [
     1793533269,
+    5078.66
+   ],
+   [
+    1793533449,
     5078.66
    ]
   ],
@@ -27838,6 +27872,10 @@
    [
     1793533269,
     101128.9
+   ],
+   [
+    1793533449,
+    101128.9
    ]
   ],
   "open": {
@@ -28936,6 +28974,10 @@
    ],
    [
     1793533269,
+    5000
+   ],
+   [
+    1793533449,
     5000
    ]
   ],
