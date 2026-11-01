@@ -17,6 +17,34 @@
      "max_hold_min": 120,
      "margin": 1685.7334631447109,
      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "7b95d529",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.2305736605827344,
+     "entry": 2267.21963,
+     "tp": 2253.61631222,
+     "sl": 2276.28850852,
+     "opened_ms": 1793549139747,
+     "entry_cost": 2.5286001947170664,
+     "max_hold_min": 120,
+     "margin": 1685.7334631447109,
+     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "55c03bcf",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 26.675374419086584,
+     "entry": 94.79155399999999,
+     "tp": 94.222804676,
+     "sl": 95.17072021599999,
+     "opened_ms": 1793549140346,
+     "entry_cost": 1.264300097358532,
+     "max_hold_min": 120,
+     "margin": 842.8667315723548,
+     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1123,7 +1151,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 18,
+    "trades": 20,
     "pnl": -246.58126670409862,
     "stopped": false
    },
@@ -4381,6 +4409,10 @@
    [
     1793548966,
     4206.39
+   ],
+   [
+    1793549145,
+    4200.53
    ]
   ]
  },
@@ -8848,6 +8880,10 @@
    [
     1793548966,
     4868.5
+   ],
+   [
+    1793549145,
+    4868.5
    ]
   ],
   "news": {
@@ -11624,9 +11660,6 @@
   ]
  },
  "log": [
-  "30.10 04:28 N  NEWS (26 new) score -0.50 conf 0.60: S\u0131cak ABD enflasyon verisi (\u00e7ekirdek PCE %3.1), g\u00fc\u00e7l\u00fc GSYH ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi, dolar ve reel faizler \u00fczerinden alt\u0131 bask\u0131l\u0131yor; haberlerde alt\u0131n\u0131n 4.000 dolar civar\u0131na geriledi\u011fi ve d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc teknik g\u00f6r\u00fcn\u00fcm de yer al\u0131yor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebi yaratarak k\u0131smen destekleyici olsa da, bu etki \u015fu an dominant hawkish Fed mesaj\u0131n\u0131n gerisinde kal\u0131yor; bu nedenle 1-4 saatlik g\u00f6r\u00fcn\u00fcm negatif.",
-  "30.10 05:20 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "30.10 05:20 N  NEWS (21 new) score -0.45 conf 0.60: S\u0131cak ABD enflasyon verileri (Core PCE %3,1, g\u00fc\u00e7l\u00fc GSYH) Fed'in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor ve dolar y\u00fckseli\u015fini destekliyor. \u0130ran sava\u015f\u0131 ve Ukrayna'daki t\u0131rman\u0131\u015f g\u00fcvenli liman talebi yaratabilse de, alt\u0131n bu haberlere ra\u011fmen d\u00fc\u015f\u00fc\u015f g\u00f6steriyor; bu nedenle skor orta d\u00fczeyde negatif tutuldu.",
   "30.10 06:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 06:11 N  NEWS (19 new) score -0.60 conf 0.60: G\u00fc\u00e7l\u00fc ABD GSYH verisi ve s\u0131cak enflasyon (\u00e7ekirdek PCE %3,1) Fed'in faiz art\u0131rma beklentilerini canland\u0131rarak alt\u0131n\u0131 bask\u0131l\u0131yor; ABD-\u0130ran umutlar\u0131 da g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu ve jeopolitik risk (\u0130ran sava\u015f\u0131, Husiler) h\u00e2l\u00e2 s\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "30.10 07:04 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -11923,7 +11956,10 @@
   "01.11 18:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 18:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 18:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 19:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 19:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 19:05 A  SHORT ETHUSDT 5057 USD x3 @ 2267.22 (ters sinyal, RSI 45)",
+  "01.11 19:05 A  SHORT SOLUSDT 2529 USD x3 @ 94.79 (ters sinyal, RSI 39)",
+  "01.11 19:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15240,6 +15276,10 @@
    [
     1793548966,
     4963.78
+   ],
+   [
+    1793549145,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18484,6 +18524,10 @@
    [
     1793548966,
     4975.18
+   ],
+   [
+    1793549145,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21694,6 +21738,10 @@
    [
     1793548966,
     4993.28
+   ],
+   [
+    1793549145,
+    4993.28
    ]
   ]
  },
@@ -24741,6 +24789,10 @@
    [
     1793548966,
     4969.22
+   ],
+   [
+    1793549145,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -26466,6 +26518,10 @@
    ],
    [
     1793548966,
+    5078.66
+   ],
+   [
+    1793549145,
     5078.66
    ]
   ],
@@ -29414,6 +29470,10 @@
    [
     1793548966,
     101128.9
+   ],
+   [
+    1793549145,
+    101128.9
    ]
   ],
   "open": {
@@ -30700,6 +30760,10 @@
    ],
    [
     1793548966,
+    5000
+   ],
+   [
+    1793549145,
     5000
    ]
   ],
