@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 07:28 (İstanbul)
+> Son güncelleme: 01.11.2026 07:31 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -91.52 $ | -630.61 $ |
-| İşlem sayısı | 9 | 44 |
-| Kazanma oranı | %11.1 | %18.2 |
-| Ödenen komisyon/spread | 42.58 $ | 201.37 $ |
+| Net kâr/zarar | -105.46 $ | -644.55 $ |
+| İşlem sayısı | 10 | 45 |
+| Kazanma oranı | %10.0 | %17.8 |
+| Ödenen komisyon/spread | 45.21 $ | 204.00 $ |
 
-**Hesap değeri: 4,345.65 $** (başlangıç 5,000 $, -654.35 $ / %-13.09)
+**Hesap değeri: 4,342.45 $** (başlangıç 5,000 $, -657.55 $ / %-13.15)
 
-Açık pozisyonlar: BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97); SOLUSDT short @ 95.48 (TP 94.91 / SL 95.86)
+Açık pozisyonlar: SOLUSDT short @ 95.48 (TP 94.91 / SL 95.86)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 07:30 | BNBUSDT | short | -13.94 $ | stop |
 | 01.11 07:25 | XRPUSDT | short | -9.68 $ | time limit |
 | 01.11 07:02 | DOGEUSDT | short | -1.46 $ | time limit |
 | 01.11 04:54 | BTCUSDT | short | -17.54 $ | time limit |
 | 01.11 04:15 | SOLUSDT | short | -8.71 $ | time limit |
-| 01.11 03:54 | ETHUSDT | short | -28.31 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD
-01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD
 01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD
 01.11 05:00 A  SHORT DOGEUSDT 5257 USD x3 @ 0.08 (ters sinyal, RSI 44)
 01.11 05:23 A  SHORT XRPUSDT 5257 USD x3 @ 1.25 (ters sinyal, RSI 42)
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 07:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 07:28 A  CLOSE XRPUSDT time limit: -9.68 USD
 01.11 07:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 07:31 A  CLOSE BNBUSDT stop: -13.94 USD
+01.11 07:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
