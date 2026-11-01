@@ -4003,6 +4003,10 @@
    [
     1793526966,
     4257.85
+   ],
+   [
+    1793527146,
+    4254.17
    ]
   ]
  },
@@ -8198,6 +8202,10 @@
    [
     1793526966,
     4868.5
+   ],
+   [
+    1793527146,
+    4868.5
    ]
   ],
   "news": {
@@ -10974,7 +10982,6 @@
   ]
  },
  "log": [
-  "29.10 18:36 B6  karar turu: Claude \u00abAlphabet'in sert d\u00fc\u015f\u00fc\u015f\u00fc Nasdaq'\u0131 bask\u0131lasa da beklentiyle uyumlu PCE ve g\u00fc\u00e7l\u00fc GDP verisi sonras\u0131 piyasa g\u00fcn i\u00e7i dipten kademeli olarak toparlan\u0131yor.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli toparlanma al\u0131mlar\u0131 \u00f6ne \u00e7\u0131karken Alphabet kaynakl\u0131 teknoloji bask\u0131s\u0131 nedeniyle y\u00fckseli\u015fi g\u00fc\u00e7l\u00fc trend de\u011fil, k\u0131r\u0131lgan tepki hareketi olarak de\u011ferlendiriyorum.\u00bb",
   "29.10 19:32 N  NEWS (37 new) score -0.40 conf 0.50: Fed faizleri sabit tuttu ama enflasyon y\u00fcksek (3.7%) ve piyasalar y\u0131l sonuna kadar faiz art\u0131r\u0131m\u0131 ihtimalini fiyatl\u0131yor; bu, reel faizler ve dolar a\u00e7\u0131s\u0131ndan alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Gold'un 100 saatlik ortalaman\u0131n alt\u0131na inmesi de k\u0131sa vadeli zay\u0131fl\u0131\u011fa i\u015faret ediyor; \u0130ran sava\u015f\u0131 ile ilgili jeopolitik haberler ise b\u00fcy\u00fck \u00e7o\u011funlukla bilinen ve fiyatlanm\u0131\u015f nitelikte, bu y\u00fczden g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor.",
   "29.10 19:32 N  GPT  score -0.32 conf 0.58: ABD\u2019de g\u00fc\u00e7l\u00fc b\u00fcy\u00fcme ve %3,7 enflasyon faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekliyor; alt\u0131n\u0131n saatlik ortalaman\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131ya i\u015faret ediyor. Enflasyonun beklentiyle uyumlu olmas\u0131 ve \u0130ran kaynakl\u0131 jeopolitik riskler d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "29.10 19:32 B6  karar turu: Claude \u00abEndeksler hafif ekside; Alphabet kaynakl\u0131 teknoloji zay\u0131fl\u0131\u011f\u0131 Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken defansif sekt\u00f6rler ve k\u00fc\u00e7\u00fck \u00f6l\u00e7ekli hisseler g\u00fc\u00e7l\u00fc GDP verisiyle destek buluyor.\u00bb / GPT \u00abTeknoloji hisselerinde a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 s\u00fcrerken geni\u015f piyasa daha diren\u00e7li; d\u00f6rt kat kald\u0131ra\u00e7ta mevcut teknoloji pozisyonlar\u0131yla toplam risk g\u00f6zetilmeli.\u00bb",
@@ -11273,7 +11280,8 @@
   "01.11 12:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 12:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 12:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 12:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14318,6 +14326,10 @@
    [
     1793526966,
     4963.78
+   ],
+   [
+    1793527146,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17290,6 +17302,10 @@
    [
     1793526966,
     4975.18
+   ],
+   [
+    1793527146,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20228,6 +20244,10 @@
    [
     1793526966,
     4993.28
+   ],
+   [
+    1793527146,
+    4993.28
    ]
   ]
  },
@@ -23003,6 +23023,10 @@
    [
     1793526966,
     4969.22
+   ],
+   [
+    1793527146,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24456,6 +24480,10 @@
    ],
    [
     1793526966,
+    5078.66
+   ],
+   [
+    1793527146,
     5078.66
    ]
   ],
@@ -27132,6 +27160,10 @@
    [
     1793526966,
     101128.9
+   ],
+   [
+    1793527146,
+    101128.9
    ]
   ],
   "open": {
@@ -28146,6 +28178,10 @@
    ],
    [
     1793526966,
+    5000
+   ],
+   [
+    1793527146,
     5000
    ]
   ],
