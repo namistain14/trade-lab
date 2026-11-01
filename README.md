@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 11:44 (İstanbul)
+> Son güncelleme: 01.11.2026 11:47 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -160.86 $ | -699.94 $ |
-| İşlem sayısı | 12 | 47 |
-| Kazanma oranı | %8.3 | %17.0 |
-| Ödenen komisyon/spread | 55.68 $ | 214.47 $ |
+| Net kâr/zarar | -188.40 $ | -727.48 $ |
+| İşlem sayısı | 13 | 48 |
+| Kazanma oranı | %7.7 | %16.7 |
+| Ödenen komisyon/spread | 60.88 $ | 219.68 $ |
 
-**Hesap değeri: 4,273.27 $** (başlangıç 5,000 $, -726.73 $ / %-14.53)
+**Hesap değeri: 4,267.33 $** (başlangıç 5,000 $, -732.67 $ / %-14.65)
 
-Açık pozisyonlar: SOLUSDT short @ 95.41 (TP 94.84 / SL 95.79); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26)
+Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 11:46 | SOLUSDT | short | -27.54 $ | stop |
 | 01.11 11:34 | ETHUSDT | short | -27.54 $ | stop |
 | 01.11 09:02 | SOLUSDT | short | -27.85 $ | stop |
 | 01.11 07:30 | BNBUSDT | short | -13.94 $ | stop |
 | 01.11 07:25 | XRPUSDT | short | -9.68 $ | time limit |
-| 01.11 07:02 | DOGEUSDT | short | -1.46 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-01.11 11:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-01.11 11:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 11:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 01.11 11:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+01.11 11:47 A  CLOSE SOLUSDT stop: -27.54 USD
+01.11 11:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
