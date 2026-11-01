@@ -3921,6 +3921,10 @@
    [
     1793524806,
     4266.7
+   ],
+   [
+    1793524985,
+    4268.99
    ]
   ]
  },
@@ -8068,6 +8072,10 @@
    [
     1793524806,
     4868.5
+   ],
+   [
+    1793524985,
+    4868.5
    ]
   ],
   "news": {
@@ -10844,7 +10852,6 @@
   ]
  },
  "log": [
-  "29.10 15:41 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Makro veriler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde beklentiye paralel, GDP g\u00fc\u00e7l\u00fc ve fiyat endeksi d\u00fc\u015f\u00fck geldi; ancak GOOGL kaynakl\u0131 teknoloji zay\u0131fl\u0131\u011f\u0131 Nasdaq'\u0131 bask\u0131l\u0131yor, bu y\u00fczden se\u00e7ici ve temkinli i\u015flem uygun.",
   "29.10 16:43 A  CLOSE BNBUSDT take profit: +27.93 USD",
   "29.10 16:43 B5  CLOSE short stop: -55.94 USD",
   "29.10 16:43 N  NEWS (41 new) score -0.60 conf 0.70: Fed faizleri sabit tuttu ancak iki oy art\u0131r\u0131m y\u00f6n\u00fcnde \u00e7\u0131kt\u0131, \u00e7ekirdek PCE enflasyonu %3,6'ya y\u00fckseldi ve ABD GDP'si %3,4 ile beklentilerin \u00fczerinde b\u00fcy\u00fcd\u00fc. Bu tablo reel faiz ve dolar taraf\u0131nda bask\u0131 yarat\u0131yor; Kitco da alt\u0131n\u0131n 4.000 dolara do\u011fru geriledi\u011fini bildiriyor. Jeopolitik haberler (\u0130ran sava\u015f\u0131 maliyeti, Rusya-Ukrayna) g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak etkisi bu s\u0131k\u0131 para politikas\u0131 sinyallerinin gerisinde kal\u0131yor.",
@@ -11143,7 +11150,8 @@
   "01.11 12:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 12:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 12:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 12:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14140,6 +14148,10 @@
    [
     1793524806,
     4963.78
+   ],
+   [
+    1793524985,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17064,6 +17076,10 @@
    [
     1793524806,
     4975.18
+   ],
+   [
+    1793524985,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -19954,6 +19970,10 @@
    [
     1793524806,
     4993.28
+   ],
+   [
+    1793524985,
+    4993.28
    ]
   ]
  },
@@ -22681,6 +22701,10 @@
    [
     1793524806,
     4969.22
+   ],
+   [
+    1793524985,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24086,6 +24110,10 @@
    ],
    [
     1793524806,
+    5078.66
+   ],
+   [
+    1793524985,
     5078.66
    ]
   ],
@@ -26714,6 +26742,10 @@
    [
     1793524806,
     101128.9
+   ],
+   [
+    1793524985,
+    101128.9
    ]
   ],
   "open": {
@@ -27680,6 +27712,10 @@
    ],
    [
     1793524806,
+    5000
+   ],
+   [
+    1793524985,
     5000
    ]
   ],
