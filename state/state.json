@@ -4217,6 +4217,10 @@
    [
     1793538198,
     4242.7
+   ],
+   [
+    1793538378,
+    4250.52
    ]
   ]
  },
@@ -8552,6 +8556,10 @@
    [
     1793538198,
     4868.5
+   ],
+   [
+    1793538378,
+    4868.5
    ]
   ],
   "news": {
@@ -11328,7 +11336,6 @@
   ]
  },
  "log": [
-  "30.10 00:34 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 00:34 N  NEWS (22 new) score -0.60 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in negatif: s\u0131cak enflasyon ve g\u00fc\u00e7l\u00fc ABD GSYH verisi Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini art\u0131r\u0131yor, gold ve g\u00fcm\u00fc\u015f d\u00fc\u015f\u00fc\u015fte, ve piyasa \u00e7\u00f6k\u00fc\u015f\u00fc g\u00fcvenli liman talebi yaratmad\u0131. \u0130ran sava\u015f\u0131 ve jeopolitik riskler ise destekleyici olabilir, ama bu haberler k\u0131smen fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali net de\u011fil; bu nedenle g\u00fcven orta d\u00fczeyde.",
   "30.10 01:17 A  CLOSE BNBUSDT stop: -30.19 USD",
   "30.10 01:17 A  CLOSE DOGEUSDT stop: -30.19 USD",
@@ -11627,7 +11634,8 @@
   "01.11 15:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 16:00 A  SHORT SOLUSDT 5101 USD x3 @ 94.88 (ters sinyal, RSI 40)",
   "01.11 16:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 16:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 16:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 16:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14812,6 +14820,10 @@
    [
     1793538198,
     4963.78
+   ],
+   [
+    1793538378,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17924,6 +17936,10 @@
    [
     1793538198,
     4975.18
+   ],
+   [
+    1793538378,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21002,6 +21018,10 @@
    [
     1793538198,
     4993.28
+   ],
+   [
+    1793538378,
+    4993.28
    ]
   ]
  },
@@ -23917,6 +23937,10 @@
    [
     1793538198,
     4969.22
+   ],
+   [
+    1793538378,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -25510,6 +25534,10 @@
    ],
    [
     1793538198,
+    5078.66
+   ],
+   [
+    1793538378,
     5078.66
    ]
   ],
@@ -28326,6 +28354,10 @@
    [
     1793538198,
     101128.9
+   ],
+   [
+    1793538378,
+    101128.9
    ]
   ],
   "open": {
@@ -29480,6 +29512,10 @@
    ],
    [
     1793538198,
+    5000
+   ],
+   [
+    1793538378,
     5000
    ]
   ],
