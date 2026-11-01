@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4244.864568524521,
+   "balance": 4228.319500693255,
    "start": 5000,
    "positions": [
-    {
-     "id": "f1fa658a",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.25459755809482,
-     "entry": 2258.942114,
-     "tp": 2245.388461316,
-     "sl": 2267.977882456,
-     "opened_ms": 1793563376528,
-     "entry_cost": 2.5465026870509755,
-     "max_hold_min": 120,
-     "margin": 1697.6684580339836,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "2c0e2819",
      "symbol": "BNBUSDT",
@@ -1253,12 +1239,32 @@
      "gross": 4.3294,
      "costs": 2.53,
      "pnl": 1.7994
+    },
+    {
+     "id": "f1fa658a",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.25459755809482,
+     "entry": 2258.942114,
+     "tp": 2245.388461316,
+     "sl": 2267.977882456,
+     "opened_ms": 1793563376528,
+     "entry_cost": 2.5465026870509755,
+     "max_hold_min": 120,
+     "margin": 1697.6684580339836,
+     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 2264.019002,
+     "closed_ms": 1793570640000,
+     "reason": "time limit",
+     "gross": -11.4463,
+     "costs": 5.0987,
+     "pnl": -16.5451
     }
    ],
    "day": {
     "date": "2026-11-02",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": -16.545067831266728,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4779,6 +4785,10 @@
    [
     1793570475,
     4225.97
+   ],
+   [
+    1793570655,
+    4227.05
    ]
   ]
  },
@@ -9510,6 +9520,10 @@
    [
     1793570475,
     4868.5
+   ],
+   [
+    1793570655,
+    4868.5
    ]
   ],
   "news": {
@@ -12286,8 +12300,6 @@
   ]
  },
  "log": [
-  "31.10 05:11 A  BUY XRPUSDT 5439 USD x3 @ 1.26 (RSI 39)",
-  "31.10 05:11 A  BUY DOGEUSDT 2719 USD x3 @ 0.08 (RSI 43)",
   "31.10 06:45 A  CLOSE XRPUSDT stop: -28.81 USD",
   "31.10 06:45 A  CLOSE DOGEUSDT stop: -14.40 USD",
   "31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)",
@@ -12585,7 +12597,9 @@
   "02.11 00:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 00:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 00:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "02.11 01:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "02.11 01:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "02.11 01:04 A  CLOSE ETHUSDT time limit: -16.55 USD",
+  "02.11 01:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -16166,6 +16180,10 @@
    [
     1793570475,
     4963.78
+   ],
+   [
+    1793570655,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19674,6 +19692,10 @@
    [
     1793570475,
     4975.18
+   ],
+   [
+    1793570655,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -23148,6 +23170,10 @@
    [
     1793570475,
     4993.28
+   ],
+   [
+    1793570655,
+    4993.28
    ]
   ]
  },
@@ -26459,6 +26485,10 @@
    [
     1793570475,
     4969.22
+   ],
+   [
+    1793570655,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28448,6 +28478,10 @@
    ],
    [
     1793570475,
+    5078.66
+   ],
+   [
+    1793570655,
     5078.66
    ]
   ],
@@ -31660,6 +31694,10 @@
    [
     1793570475,
     101128.9
+   ],
+   [
+    1793570655,
+    101128.9
    ]
   ],
   "open": {
@@ -33210,6 +33248,10 @@
    ],
    [
     1793570475,
+    5000
+   ],
+   [
+    1793570655,
     5000
    ]
   ],
