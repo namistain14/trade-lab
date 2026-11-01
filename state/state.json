@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4272.30594253889,
+   "balance": 4245.116898998394,
    "start": 5000,
    "positions": [
-    {
-     "id": "584380cf",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 4098.382180718842,
-     "entry": 1.2509246100000002,
-     "tp": 1.24341906234,
-     "sl": 1.2559283084400001,
-     "opened_ms": 1793526060310,
-     "entry_cost": 2.5633835655233344,
-     "max_hold_min": 120,
-     "margin": 1708.922377015556,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "435baaee",
      "symbol": "DOGEUSDT",
@@ -1013,12 +999,32 @@
      "gross": 2.3847,
      "costs": 2.5954,
      "pnl": -0.2106
+    },
+    {
+     "id": "584380cf",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 4098.382180718842,
+     "entry": 1.2509246100000002,
+     "tp": 1.24341906234,
+     "sl": 1.2559283084400001,
+     "opened_ms": 1793526060310,
+     "entry_cost": 2.5633835655233344,
+     "max_hold_min": 120,
+     "margin": 1708.922377015556,
+     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 1.256305086932532,
+     "closed_ms": 1793527920000,
+     "reason": "stop",
+     "gross": -22.0513,
+     "costs": 5.1378,
+     "pnl": -27.189
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 13,
-    "pnl": -188.60898202698357,
+    "pnl": -215.79802556747958,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4019,6 +4025,10 @@
    [
     1793527799,
     4232.53
+   ],
+   [
+    1793527979,
+    4226.11
    ]
   ]
  },
@@ -8230,6 +8240,10 @@
    [
     1793527799,
     4868.5
+   ],
+   [
+    1793527979,
+    4868.5
    ]
   ],
   "news": {
@@ -11006,8 +11020,6 @@
   ]
  },
  "log": [
-  "29.10 19:32 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"102355.11\",\"message\":\"insufficient buying power\"}",
-  "29.10 20:27 A  BUY BTCUSDT 5982 USD x3 @ 81120.97 (RSI 43)",
   "29.10 20:27 A  BUY XRPUSDT 5982 USD x3 @ 1.30 (RSI 42)",
   "29.10 20:27 N  NEWS (36 new) score -0.30 conf 0.50: ",
   "29.10 20:27 N  GPT  score -0.25 conf 0.56: Eyl\u00fcl enflasyonunun ve \u00e7ekirdek PCE\u2019nin h\u0131zland\u0131\u011f\u0131 haberleri Fed\u2019in daha temkinli kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde s\u00fcregelen geli\u015fmeler ve k\u0131sa vadeli y\u00f6n net de\u011fil.",
@@ -11305,7 +11317,9 @@
   "01.11 12:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 13:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 13:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 13:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 13:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 13:12 A  CLOSE XRPUSDT stop: -27.19 USD",
+  "01.11 13:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14366,6 +14380,10 @@
    [
     1793527799,
     4963.78
+   ],
+   [
+    1793527979,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17354,6 +17372,10 @@
    [
     1793527799,
     4975.18
+   ],
+   [
+    1793527979,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20308,6 +20330,10 @@
    [
     1793527799,
     4993.28
+   ],
+   [
+    1793527979,
+    4993.28
    ]
   ]
  },
@@ -23099,6 +23125,10 @@
    [
     1793527799,
     4969.22
+   ],
+   [
+    1793527979,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24568,6 +24598,10 @@
    ],
    [
     1793527799,
+    5078.66
+   ],
+   [
+    1793527979,
     5078.66
    ]
   ],
@@ -27260,6 +27294,10 @@
    [
     1793527799,
     101128.9
+   ],
+   [
+    1793527979,
+    101128.9
    ]
   ],
   "open": {
@@ -28290,6 +28328,10 @@
    ],
    [
     1793527799,
+    5000
+   ],
+   [
+    1793527979,
     5000
    ]
   ],
