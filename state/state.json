@@ -3557,6 +3557,10 @@
    [
     1793508901,
     4345.2
+   ],
+   [
+    1793509648,
+    4346.85
    ]
   ]
  },
@@ -7400,6 +7404,10 @@
    [
     1793508901,
     4868.5
+   ],
+   [
+    1793509648,
+    4868.5
    ]
   ],
   "news": {
@@ -10176,7 +10184,6 @@
   ]
  },
  "log": [
-  "29.10 02:07 B5  CLOSE long stop: -11.18 USD",
   "29.10 02:45 N  NEWS (20 new) score -0.35 conf 0.50: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131 vurguland\u0131; Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmas\u0131 g\u00fcndemde, bu da reel faiz ve dolar taraf\u0131nda gold i\u00e7in bask\u0131 yarat\u0131yor. Alt\u0131n yakla\u015f\u0131k 4.050 dolara geriledi ve \u0130ran sava\u015f\u0131n\u0131n tahvil getirilerini ve dolar\u0131 y\u00fckseltmesi nedeniyle y\u0131ll\u0131k en b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015fe y\u00f6neliyor. Buna kar\u015f\u0131n jeopolitik risk s\u00fcr\u00fcyor ve \"sharp gains\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadeli toparlanma ihtimalini g\u00f6steriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "29.10 02:45 N  GPT  score -0.35 conf 0.62: Fed\u2019in faizleri sabit tutmas\u0131 ve alt\u0131n\u0131n karar sonras\u0131 4.050 dolar civar\u0131na gerilemesi, y\u00fcksek faizlerin s\u00fcrmesi ve PCE verisi \u00f6ncesi temkin nedeniyle k\u0131sa vadede bask\u0131n\u0131n a\u011f\u0131r bast\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini desteklese de petrol\u00fcn ve getirilerin y\u00fckselmesi bu deste\u011fi s\u0131n\u0131",
   "29.10 02:45 B1  SHORT gold 5000 USD x10 @ 4052.66 (TP 4050.08, SL 4054.13; news -0.35)",
@@ -10475,7 +10482,8 @@
   "01.11 07:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 07:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 07:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -13168,6 +13176,10 @@
    [
     1793508901,
     4963.78
+   ],
+   [
+    1793509648,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -15788,6 +15800,10 @@
    [
     1793508901,
     4975.18
+   ],
+   [
+    1793509648,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18374,6 +18390,10 @@
    [
     1793508901,
     4993.28
+   ],
+   [
+    1793509648,
+    4993.28
    ]
   ]
  },
@@ -20797,6 +20817,10 @@
    [
     1793508901,
     4969.22
+   ],
+   [
+    1793509648,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -21898,6 +21922,10 @@
    ],
    [
     1793508901,
+    5078.66
+   ],
+   [
+    1793509648,
     5078.66
    ]
   ],
@@ -24222,6 +24250,10 @@
    [
     1793508901,
     101128.9
+   ],
+   [
+    1793509648,
+    101128.9
    ]
   ],
   "open": {
@@ -24884,6 +24916,10 @@
    ],
    [
     1793508901,
+    5000
+   ],
+   [
+    1793509648,
     5000
    ]
   ],
