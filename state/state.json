@@ -3638,6 +3638,10 @@
    [
     1793512923,
     4327.6
+   ],
+   [
+    1793513104,
+    4327.6
    ]
   ]
  },
@@ -7557,6 +7561,10 @@
    [
     1793512923,
     4868.5
+   ],
+   [
+    1793513104,
+    4868.5
    ]
   ],
   "news": {
@@ -10333,7 +10341,6 @@
   ]
  },
  "log": [
-  "29.10 05:22 B5  SHORT gold 5000 USD x10 @ 4050.82 (TP 4038.67, SL 4058.92; news -0.35)",
   "29.10 06:13 A2  CLOSE ETHUSDT stop: -8.30 USD",
   "29.10 06:13 B1  CLOSE short stop (gap): -3.31 USD",
   "29.10 06:13 N  NEWS (16 new) score -0.25 conf 0.40: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve y\u00f6nlendirmesi s\u0131n\u0131rl\u0131 kald\u0131; alt\u0131n hafif geriledi, dolar sabit/g\u00fc\u00e7l\u00fc seyretti. \u0130ran'la diplomasi ve olas\u0131 sava\u015f sonu sinyalleri jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi uyar\u0131lar\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. PCE enflasyon verisinin takibi ve Fed beklentilerindeki belirsizlik nedeniyle y\u00f6n net de\u011fil; genel e\u011filim hafif negatif.",
@@ -10632,7 +10639,8 @@
   "01.11 08:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 08:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 09:02 A  CLOSE SOLUSDT stop: -27.85 USD",
-  "01.11 09:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 09:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 09:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -13401,6 +13409,10 @@
    [
     1793512923,
     4963.78
+   ],
+   [
+    1793513104,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -16097,6 +16109,10 @@
    [
     1793512923,
     4975.18
+   ],
+   [
+    1793513104,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18759,6 +18775,10 @@
    [
     1793512923,
     4993.28
+   ],
+   [
+    1793513104,
+    4993.28
    ]
   ]
  },
@@ -21258,6 +21278,10 @@
    [
     1793512923,
     4969.22
+   ],
+   [
+    1793513104,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -22435,6 +22459,10 @@
    ],
    [
     1793512923,
+    5078.66
+   ],
+   [
+    1793513104,
     5078.66
    ]
   ],
@@ -24835,6 +24863,10 @@
    [
     1793512923,
     101128.9
+   ],
+   [
+    1793513104,
+    101128.9
    ]
   ],
   "open": {
@@ -25573,6 +25605,10 @@
    ],
    [
     1793512923,
+    5000
+   ],
+   [
+    1793513104,
     5000
    ]
   ],
