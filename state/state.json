@@ -3,7 +3,36 @@
   "account": {
    "balance": 4272.30594253889,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "584380cf",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 4098.382180718842,
+     "entry": 1.2509246100000002,
+     "tp": 1.24341906234,
+     "sl": 1.2559283084400001,
+     "opened_ms": 1793526060310,
+     "entry_cost": 2.5633835655233344,
+     "max_hold_min": 120,
+     "margin": 1708.922377015556,
+     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "435baaee",
+     "symbol": "DOGEUSDT",
+     "side": "short",
+     "qty": 67763.0235562036,
+     "entry": 0.075657296,
+     "tp": 0.075203352224,
+     "sl": 0.075959925184,
+     "opened_ms": 1793526060740,
+     "entry_cost": 2.5633835655233344,
+     "max_hold_min": 120,
+     "margin": 1708.922377015556,
+     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    }
+   ],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -988,7 +1017,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 11,
+    "trades": 13,
     "pnl": -188.60898202698357,
     "stopped": false
    },
@@ -3950,6 +3979,10 @@
    [
     1793525885,
     4272.31
+   ],
+   [
+    1793526066,
+    4264.1
    ]
   ]
  },
@@ -8121,6 +8154,10 @@
    [
     1793525885,
     4868.5
+   ],
+   [
+    1793526066,
+    4868.5
    ]
   ],
   "news": {
@@ -10897,9 +10934,6 @@
   ]
  },
  "log": [
-  "29.10 16:43 B6  ALI\u015e AAPL 285 adet \u2248 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, g\u00fcven 0.60)",
-  "29.10 17:39 N  NEWS (36 new) score -0.50 conf 0.60: Enflasyon ve b\u00fcy\u00fcme verileri g\u00fc\u00e7l\u00fc \u00e7\u0131kt\u0131 (Eyl\u00fcl PCE %3,6, Q3 b\u00fcy\u00fcme beklentiyi a\u015ft\u0131) ve Fed'in y\u0131l sonu faiz art\u0131r\u0131m\u0131 beklentileri canland\u0131; bu reel faiz ve dolar taraf\u0131nda alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Ukrayna'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir, ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
-  "29.10 17:39 N  GPT  score -0.40 conf 0.73: Beklentilerle uyumlu olsa da y\u00fcksek PCE enflasyonu ve g\u00fc\u00e7l\u00fc b\u00fcy\u00fcme, Fed\u2019in y\u0131l sonuna do\u011fru faiz art\u0131r\u0131m\u0131 beklentilerini besleyerek k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. \u0130ran ve Ukrayna kaynakl\u0131 gerilimler g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "29.10 17:39 B6  karar turu: Claude \u00abPiyasa, Alphabet ve yaz\u0131l\u0131m kaynakl\u0131 teknoloji sat\u0131\u015f\u0131n\u0131n ard\u0131ndan a\u00e7\u0131l\u0131\u015f d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc sindirip dengelenmeye \u00e7al\u0131\u015f\u0131yor; g\u00f6receli g\u00fc\u00e7l\u00fc hisseler \u00f6ne \u00e7\u0131k\u0131yor.\u00bb / GPT \u00abTeknoloji endeksi zay\u0131f olsa da sat\u0131\u015f bask\u0131s\u0131 son saatte hafifliyor; d\u00f6rt kat kald\u0131ra\u00e7 alt\u0131nda endekslerden ziyade g\u00f6reli g\u00fc\u00e7 g\u00f6steren TSLA'da se\u00e7ici al\u0131m\u0131 tercih ediyorum.\u00bb",
   "29.10 17:39 B6  ALI\u015e TSLA 245 adet \u2248 99,544 $ (1:4) @ 406.3 (TP 412.39, SL 402.24; ikisi de hemfikir, g\u00fcven 0.56)",
   "29.10 18:36 N  NEWS (37 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ancak Hassett, Ekim enflasyonu y\u00fcksek gelirse Fed'in harekete ge\u00e7ebilece\u011fini s\u00f6yledi; Eyl\u00fcl PCE enflasyonu y\u00fckseldi ve 6% tahvil getirisi tezi ger\u00e7ek faizleri yukar\u0131 ta\u015f\u0131yarak alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve olas\u0131 yeni sald\u0131r\u0131 haberleri jeopolitik talebi destekliyor, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
@@ -11196,7 +11230,10 @@
   "01.11 12:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 12:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 12:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 12:41 A  SHORT XRPUSDT 5127 USD x3 @ 1.25 (ters sinyal, RSI 39)",
+  "01.11 12:41 A  SHORT DOGEUSDT 5127 USD x3 @ 0.08 (ters sinyal, RSI 41)",
+  "01.11 12:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14217,6 +14254,10 @@
    [
     1793525885,
     4963.78
+   ],
+   [
+    1793526066,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17165,6 +17206,10 @@
    [
     1793525885,
     4975.18
+   ],
+   [
+    1793526066,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20079,6 +20124,10 @@
    [
     1793525885,
     4993.28
+   ],
+   [
+    1793526066,
+    4993.28
    ]
   ]
  },
@@ -22830,6 +22879,10 @@
    [
     1793525885,
     4969.22
+   ],
+   [
+    1793526066,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24259,6 +24312,10 @@
    ],
    [
     1793525885,
+    5078.66
+   ],
+   [
+    1793526066,
     5078.66
    ]
   ],
@@ -26911,6 +26968,10 @@
    [
     1793525885,
     101128.9
+   ],
+   [
+    1793526066,
+    101128.9
    ]
   ],
   "open": {
@@ -27901,6 +27962,10 @@
    ],
    [
     1793525885,
+    5000
+   ],
+   [
+    1793526066,
     5000
    ]
   ],
