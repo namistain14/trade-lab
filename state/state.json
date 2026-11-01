@@ -3942,6 +3942,10 @@
    [
     1793525526,
     4272.31
+   ],
+   [
+    1793525704,
+    4272.31
    ]
   ]
  },
@@ -8105,6 +8109,10 @@
    [
     1793525526,
     4868.5
+   ],
+   [
+    1793525704,
+    4868.5
    ]
   ],
   "news": {
@@ -10881,7 +10889,6 @@
   ]
  },
  "log": [
-  "29.10 16:43 B6  karar turu: Claude \u00abAlphabet \u00e7\u00f6k\u00fc\u015f\u00fc Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken makro veriler n\u00f6tr; \u015firkete \u00f6zel haberlerde se\u00e7ici i\u015flem yapmak en mant\u0131kl\u0131s\u0131.\u00bb / GPT \u00abTeknoloji endeksi bask\u0131 alt\u0131nda oldu\u011fundan geni\u015f piyasadaki d\u00fc\u015f\u00fc\u015f\u00fc kovalamak yerine AAPL'de haber destekli al\u0131m ve NVDA'da se\u00e7ici sat\u0131\u015f tercih ediyorum.\u00bb",
   "29.10 16:43 B6  A\u00c7I\u011eA SATI\u015e NVDA 467 adet \u2248 99,751 $ (1:4) @ 213.6 (TP 210.4, SL 215.74; ikisi de hemfikir, g\u00fcven 0.55)",
   "29.10 16:43 B6  ALI\u015e AAPL 285 adet \u2248 99,608 $ (1:4) @ 349.5 (TP 354.74, SL 346.0; ikisi de hemfikir, g\u00fcven 0.60)",
   "29.10 17:39 N  NEWS (36 new) score -0.50 conf 0.60: Enflasyon ve b\u00fcy\u00fcme verileri g\u00fc\u00e7l\u00fc \u00e7\u0131kt\u0131 (Eyl\u00fcl PCE %3,6, Q3 b\u00fcy\u00fcme beklentiyi a\u015ft\u0131) ve Fed'in y\u0131l sonu faiz art\u0131r\u0131m\u0131 beklentileri canland\u0131; bu reel faiz ve dolar taraf\u0131nda alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Ukrayna'daki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir, ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
@@ -11180,7 +11187,8 @@
   "01.11 12:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:29 A  CLOSE XRPUSDT time limit: -0.21 USD",
   "01.11 12:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 12:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 12:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 12:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14193,6 +14201,10 @@
    [
     1793525526,
     4963.78
+   ],
+   [
+    1793525704,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17133,6 +17145,10 @@
    [
     1793525526,
     4975.18
+   ],
+   [
+    1793525704,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20039,6 +20055,10 @@
    [
     1793525526,
     4993.28
+   ],
+   [
+    1793525704,
+    4993.28
    ]
   ]
  },
@@ -22782,6 +22802,10 @@
    [
     1793525526,
     4969.22
+   ],
+   [
+    1793525704,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24203,6 +24227,10 @@
    ],
    [
     1793525526,
+    5078.66
+   ],
+   [
+    1793525704,
     5078.66
    ]
   ],
@@ -26847,6 +26875,10 @@
    [
     1793525526,
     101128.9
+   ],
+   [
+    1793525704,
+    101128.9
    ]
   ],
   "open": {
@@ -27829,6 +27861,10 @@
    ],
    [
     1793525526,
+    5000
+   ],
+   [
+    1793525704,
     5000
    ]
   ],
