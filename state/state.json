@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 1698.0467595993578,
      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "8f917001",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 1.1086027179585651,
+     "entry": 2268.11936,
+     "tp": 2254.5106438400003,
+     "sl": 2277.19183744,
+     "opened_ms": 1793533263583,
+     "entry_cost": 1.2572216435752208,
+     "max_hold_min": 120,
+     "margin": 838.1477623834804,
+     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1037,7 +1051,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 14,
+    "trades": 15,
     "pnl": -215.79802556747958,
     "stopped": false
    },
@@ -4103,6 +4117,10 @@
    [
     1793533089,
     4236.77
+   ],
+   [
+    1793533269,
+    4235.73
    ]
   ]
  },
@@ -8378,6 +8396,10 @@
    [
     1793533089,
     4868.5
+   ],
+   [
+    1793533269,
+    4868.5
    ]
   ],
   "news": {
@@ -11154,8 +11176,6 @@
   ]
  },
  "log": [
-  "29.10 22:18 A  BUY BNBUSDT 5850 USD x3 @ 744.08 (RSI 41)",
-  "29.10 22:18 A  BUY XRPUSDT 2868 USD x3 @ 1.28 (RSI 33)",
   "29.10 22:18 N  NEWS (26 new) score -0.45 conf 0.60: Fed'in 10-2 ile faizleri sabit tutup enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtmesi, Core PCE'nin %3,1'e \u00e7\u0131kmas\u0131 ve Hassett'in Ekim enflasyonu s\u0131cak gelirse faiz art\u0131r\u0131m\u0131na a\u00e7\u0131k oldu\u011funu s\u00f6ylemesi, s\u0131k\u0131la\u015fma beklentilerini art\u0131rarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 riski alt\u0131n i\u00e7in s\u0131n\u0131rl\u0131 destek sa\u011flasa da, haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor.",
   "29.10 22:18 N  GPT  score -0.45 conf 0.67: Beklentileri a\u015fan ABD b\u00fcy\u00fcmesi, y\u00fcksek \u00e7ekirdek PCE ve Fed\u2019in enflasyon nedeniyle temkinli duru\u015fu faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebiyle bu bask\u0131y\u0131 k\u0131smen dengeliyor.",
   "29.10 23:08 A  CLOSE BTCUSDT stop: -31.28 USD",
@@ -11453,7 +11473,9 @@
   "01.11 13:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 14:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 14:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 14:41 A  SHORT ETHUSDT 2514 USD x3 @ 2268.12 (ters sinyal, RSI 42)",
+  "01.11 14:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14578,6 +14600,10 @@
    [
     1793533089,
     4963.78
+   ],
+   [
+    1793533269,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17630,6 +17656,10 @@
    [
     1793533089,
     4975.18
+   ],
+   [
+    1793533269,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20648,6 +20678,10 @@
    [
     1793533089,
     4993.28
+   ],
+   [
+    1793533269,
+    4993.28
    ]
   ]
  },
@@ -23503,6 +23537,10 @@
    [
     1793533089,
     4969.22
+   ],
+   [
+    1793533269,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -25036,6 +25074,10 @@
    ],
    [
     1793533089,
+    5078.66
+   ],
+   [
+    1793533269,
     5078.66
    ]
   ],
@@ -27792,6 +27834,10 @@
    [
     1793533089,
     101128.9
+   ],
+   [
+    1793533269,
+    101128.9
    ]
   ],
   "open": {
@@ -28886,6 +28932,10 @@
    ],
    [
     1793533089,
+    5000
+   ],
+   [
+    1793533269,
     5000
    ]
   ],
