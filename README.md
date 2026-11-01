@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 06:56 (İstanbul)
+> Son güncelleme: 01.11.2026 07:13 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -80.39 $ | -619.48 $ |
-| İşlem sayısı | 7 | 42 |
-| Kazanma oranı | %14.3 | %19.0 |
-| Ödenen komisyon/spread | 32.06 $ | 190.86 $ |
+| Net kâr/zarar | -81.85 $ | -620.93 $ |
+| İşlem sayısı | 8 | 43 |
+| Kazanma oranı | %12.5 | %18.6 |
+| Ödenen komisyon/spread | 37.32 $ | 196.11 $ |
 
-**Hesap değeri: 4,373.73 $** (başlangıç 5,000 $, -626.27 $ / %-12.53)
+**Hesap değeri: 4,379.25 $** (başlangıç 5,000 $, -620.75 $ / %-12.41)
 
-Açık pozisyonlar: DOGEUSDT short @ 0.08 (TP 0.08 / SL 0.08); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97)
+Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); BNBUSDT short @ 703.16 (TP 698.94 / SL 705.97)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 07:02 | DOGEUSDT | short | -1.46 $ | time limit |
 | 01.11 04:54 | BTCUSDT | short | -17.54 $ | time limit |
 | 01.11 04:15 | SOLUSDT | short | -8.71 $ | time limit |
 | 01.11 03:54 | ETHUSDT | short | -28.31 $ | stop |
 | 01.11 02:50 | BNBUSDT | short | -14.05 $ | time limit |
-| 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,8 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)
-01.11 00:48 A  CLOSE BTCUSDT time limit: -3.37 USD
 01.11 00:48 A  CLOSE SOLUSDT time limit: +0.37 USD
 01.11 00:48 A  SHORT BNBUSDT 5349 USD x3 @ 702.50 (ters sinyal, RSI 25)
 01.11 01:27 A  CLOSE XRPUSDT time limit: -8.78 USD
@@ -93,6 +91,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 05:00 A  SHORT DOGEUSDT 5257 USD x3 @ 0.08 (ters sinyal, RSI 44)
 01.11 05:23 A  SHORT XRPUSDT 5257 USD x3 @ 1.25 (ters sinyal, RSI 42)
 01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)
+01.11 07:13 A  CLOSE DOGEUSDT time limit: -1.46 USD
+01.11 07:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4380.524942490453,
+   "balance": 4379.0671566140745,
    "start": 5000,
    "positions": [
-    {
-     "id": "f727739b",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 69497.85082218486,
-     "entry": 0.075637302,
-     "tp": 0.075183478188,
-     "sl": 0.07593985120800001,
-     "opened_ms": 1793498434569,
-     "entry_cost": 2.628314965494272,
-     "max_hold_min": 120,
-     "margin": 1752.2099769961815,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "47c94aa6",
      "symbol": "XRPUSDT",
@@ -887,12 +873,32 @@
      "gross": -12.2273,
      "costs": 5.3135,
      "pnl": -17.5408
+    },
+    {
+     "id": "f727739b",
+     "symbol": "DOGEUSDT",
+     "side": "short",
+     "qty": 69497.85082218486,
+     "entry": 0.075637302,
+     "tp": 0.075183478188,
+     "sl": 0.07593985120800001,
+     "opened_ms": 1793498434569,
+     "entry_cost": 2.628314965494272,
+     "max_hold_min": 120,
+     "margin": 1752.2099769961815,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 0.075582668,
+     "closed_ms": 1793505720000,
+     "reason": "time limit",
+     "gross": 3.7969,
+     "costs": 5.2547,
+     "pnl": -1.4578
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 7,
-    "pnl": -80.38998207542059,
+    "pnl": -81.84776795179913,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3465,6 +3471,10 @@
    [
     1793505393,
     4373.73
+   ],
+   [
+    1793506380,
+    4379.25
    ]
   ]
  },
@@ -7248,6 +7258,10 @@
    [
     1793505393,
     4868.5
+   ],
+   [
+    1793506380,
+    4868.5
    ]
   ],
   "news": {
@@ -10024,8 +10038,6 @@
   ]
  },
  "log": [
-  "28.10 21:43 N  NEWS (43 new) score +0.05 conf 0.35: Fed faizleri 3.75-4.00% seviyesinde sabit tuttu; karar beklenen y\u00f6nde \u00e7\u0131kt\u0131 ve \"daha fazla veri\" vurgusu net bir s\u0131k\u0131la\u015fma ya da gev\u015feme sinyali vermedi, bu da n\u00f6tr. Kitco'ya g\u00f6re alt\u0131n karar sonras\u0131 4.035 dolara geriledi, yani haber b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 maliyetleri ve ABD'nin K\u00f6rfez \u00fclkelerine olas\u0131 \u0130ran sald\u0131r\u0131s\u0131 konusunda uyar\u0131s\u0131 jeopolitik risk primi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak etkisi s\u0131n\u0131rl\u0131.",
-  "28.10 21:43 N  GPT  score -0.30 conf 0.58: Fed\u2019in beklenen faiz karar\u0131n\u0131 de\u011fi\u015ftirmemesi tek ba\u015f\u0131na s\u0131n\u0131rl\u0131 etki yarat\u0131rken, enflasyonun y\u00fcksek kalmas\u0131 ve sonraki ad\u0131mlara dair net sinyal verilmemesi alt\u0131n i\u00e7in hafif bask\u0131 olu\u015fturuyor; karar sonras\u0131 d\u00fc\u015f\u00fc\u015f de bu y\u00f6nde. \u0130ran kaynakl\u0131 olas\u0131 gerilim g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "28.10 21:43 B5  CLOSE short stop: -11.19 USD",
   "28.10 21:43 B6  karar turu: Claude \u00abFed faizi sabit tuttu ancak Warsh'\u0131n \u015fahin tonu ve iki art\u0131\u015f y\u00f6nl\u00fc muhalif oy, bas\u0131n toplant\u0131s\u0131 s\u00fcresince oynakl\u0131k yarat\u0131yor; net avantaj olmad\u0131\u011f\u0131ndan kenarda kalmak en do\u011frusu.\u00bb / GPT \u00abFed a\u00e7\u0131klamalar\u0131 s\u00fcrerken endekslerdeki h\u0131zl\u0131 toparlanma ile enflasyon ve jeopolitik riskler \u00e7at\u0131\u015f\u0131yor; kald\u0131ra\u00e7l\u0131 yeni i\u015flem i\u00e7in haber ve fiyat teyidi yetersiz.\u00bb",
   "28.10 22:31 N  NEWS (35 new) score -0.15 conf 0.40: Fed faizleri %3,9'da sabit tuttu ve enflasyonun y\u00fcksek kald\u0131\u011f\u0131n\u0131 belirtti; iki \u00fcyenin muhalefeti ve net bir sonraki hamle sinyali olmamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. Dolar karar\u0131n ard\u0131ndan yatay seyretti, bu nedenle alt\u0131n \u00fczerindeki etkisi hafif olumsuz, ancak belirsizlik nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
@@ -10323,7 +10335,9 @@
   "01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD",
   "01.11 05:00 A  SHORT DOGEUSDT 5257 USD x3 @ 0.08 (ters sinyal, RSI 44)",
   "01.11 05:23 A  SHORT XRPUSDT 5257 USD x3 @ 1.25 (ters sinyal, RSI 42)",
-  "01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)"
+  "01.11 05:47 A  SHORT BNBUSDT 2628 USD x3 @ 703.16 (ters sinyal, RSI 44)",
+  "01.11 07:13 A  CLOSE DOGEUSDT time limit: -1.46 USD",
+  "01.11 07:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -12956,6 +12970,10 @@
    [
     1793505393,
     4963.78
+   ],
+   [
+    1793506380,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -15516,6 +15534,10 @@
    [
     1793505393,
     4975.18
+   ],
+   [
+    1793506380,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -18042,6 +18064,10 @@
    [
     1793505393,
     4993.28
+   ],
+   [
+    1793506380,
+    4993.28
    ]
   ]
  },
@@ -20405,6 +20431,10 @@
    [
     1793505393,
     4969.22
+   ],
+   [
+    1793506380,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -21446,6 +21476,10 @@
    ],
    [
     1793505393,
+    5078.66
+   ],
+   [
+    1793506380,
     5078.66
    ]
   ],
@@ -23710,6 +23744,10 @@
    [
     1793505393,
     101128.9
+   ],
+   [
+    1793506380,
+    101128.9
    ]
   ],
   "open": {
@@ -24312,6 +24350,10 @@
    ],
    [
     1793505393,
+    5000
+   ],
+   [
+    1793506380,
     5000
    ]
   ],
