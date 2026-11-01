@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 04:51 (İstanbul)
+> Son güncelleme: 01.11.2026 04:54 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -62.85 $ | -601.93 $ |
-| İşlem sayısı | 6 | 41 |
-| Kazanma oranı | %16.7 | %19.5 |
-| Ödenen komisyon/spread | 26.75 $ | 185.54 $ |
+| Net kâr/zarar | -80.39 $ | -619.48 $ |
+| İşlem sayısı | 7 | 42 |
+| Kazanma oranı | %14.3 | %19.0 |
+| Ödenen komisyon/spread | 32.06 $ | 190.86 $ |
 
-**Hesap değeri: 4,380.81 $** (başlangıç 5,000 $, -619.19 $ / %-12.38)
-
-Açık pozisyonlar: BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
+**Hesap değeri: 4,380.52 $** (başlangıç 5,000 $, -619.48 $ / %-12.39)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 04:54 | BTCUSDT | short | -17.54 $ | time limit |
 | 01.11 04:15 | SOLUSDT | short | -8.71 $ | time limit |
 | 01.11 03:54 | ETHUSDT | short | -28.31 $ | stop |
 | 01.11 02:50 | BNBUSDT | short | -14.05 $ | time limit |
 | 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
-| 01.11 00:33 | SOLUSDT | short | +0.37 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,7 +76,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
 31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
 31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)
 31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)
@@ -93,6 +90,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)
 01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD
 01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD
+01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

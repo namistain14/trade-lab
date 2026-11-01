@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4398.06575185484,
+   "balance": 4380.524942490453,
    "start": 5000,
-   "positions": [
-    {
-     "id": "69e14459",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06846892306927069,
-     "entry": 77514.7386,
-     "tp": 77049.6501684,
-     "sl": 77824.7975544,
-     "opened_ms": 1793490736654,
-     "entry_cost": 2.653675336969014,
-     "max_hold_min": 120,
-     "margin": 1769.1168913126758,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -839,12 +824,32 @@
      "gross": -6.0468,
      "costs": 2.662,
      "pnl": -8.7088
+    },
+    {
+     "id": "69e14459",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06846892306927069,
+     "entry": 77514.7386,
+     "tp": 77049.6501684,
+     "sl": 77824.7975544,
+     "opened_ms": 1793490736654,
+     "entry_cost": 2.653675336969014,
+     "max_hold_min": 120,
+     "margin": 1769.1168913126758,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 77693.321006,
+     "closed_ms": 1793498040000,
+     "reason": "time limit",
+     "gross": -12.2273,
+     "costs": 5.3135,
+     "pnl": -17.5408
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 4,
-    "pnl": -62.849172711034235,
+    "pnl": -80.38998207542059,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3273,6 +3278,10 @@
    [
     1793497896,
     4380.81
+   ],
+   [
+    1793498076,
+    4380.52
    ]
   ]
  },
@@ -6912,6 +6921,10 @@
    [
     1793497896,
     4868.5
+   ],
+   [
+    1793498076,
+    4868.5
    ]
   ],
   "news": {
@@ -9688,7 +9701,6 @@
   ]
  },
  "log": [
-  "28.10 20:56 B1  SHORT gold 5000 USD x10 @ 4043.73 (TP 4041.16, SL 4045.20; news -0.30)",
   "28.10 20:56 B5  SHORT gold 5000 USD x10 @ 4043.85 (TP 4031.72, SL 4051.94; news -0.32)",
   "28.10 20:56 B6  karar turu: Claude \u00abPiyasa saat 14:00'teki Fed karar\u0131 \u00f6ncesinde dar bantta bekliyor; petrol 102 dolar\u0131n \u00fczerinde ve Fed sonras\u0131 sert oynakl\u0131k riski nedeniyle \u015fimdi pozisyon a\u00e7mamak en do\u011frusu.\u00bb / GPT \u00abEndeksler yatay ve fiyat-haber uyumu zay\u0131fken, Fed karar\u0131 beklentisi ile jeopolitik belirsizlik alt\u0131nda kald\u0131ra\u00e7l\u0131 i\u015flem a\u00e7mak i\u00e7in net avantaj yok.\u00bb",
   "28.10 21:43 B1  CLOSE short stop: -3.00 USD",
@@ -9987,7 +9999,8 @@
   "01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD",
   "01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)",
   "01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD",
-  "01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD"
+  "01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD",
+  "01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD"
  ],
  "gold_big": {
   "account": {
@@ -12476,6 +12489,10 @@
    [
     1793497896,
     4963.78
+   ],
+   [
+    1793498076,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -14892,6 +14909,10 @@
    [
     1793497896,
     4975.18
+   ],
+   [
+    1793498076,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -17274,6 +17295,10 @@
    [
     1793497896,
     4993.28
+   ],
+   [
+    1793498076,
+    4993.28
    ]
   ]
  },
@@ -19493,6 +19518,10 @@
    [
     1793497896,
     4969.22
+   ],
+   [
+    1793498076,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -20390,6 +20419,10 @@
    ],
    [
     1793497896,
+    5078.66
+   ],
+   [
+    1793498076,
     5078.66
    ]
   ],
@@ -22510,6 +22543,10 @@
    [
     1793497896,
     101128.9
+   ],
+   [
+    1793498076,
+    101128.9
    ]
   ],
   "open": {
@@ -22968,6 +23005,10 @@
    ],
    [
     1793497896,
+    5000
+   ],
+   [
+    1793498076,
     5000
    ]
   ],
