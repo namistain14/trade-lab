@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 04:14 (İstanbul)
+> Son güncelleme: 01.11.2026 04:17 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -54.14 $ | -593.23 $ |
-| İşlem sayısı | 5 | 40 |
-| Kazanma oranı | %20.0 | %20.0 |
-| Ödenen komisyon/spread | 24.09 $ | 182.88 $ |
+| Net kâr/zarar | -62.85 $ | -601.93 $ |
+| İşlem sayısı | 6 | 41 |
+| Kazanma oranı | %16.7 | %19.5 |
+| Ödenen komisyon/spread | 26.75 $ | 185.54 $ |
 
-**Hesap değeri: 4,385.13 $** (başlangıç 5,000 $, -614.87 $ / %-12.30)
+**Hesap değeri: 4,381.46 $** (başlangıç 5,000 $, -618.54 $ / %-12.37)
 
-Açık pozisyonlar: SOLUSDT short @ 95.61 (TP 95.04 / SL 95.99); BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
+Açık pozisyonlar: BTCUSDT short @ 77514.74 (TP 77049.65 / SL 77824.80)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 01.11 04:15 | SOLUSDT | short | -8.71 $ | time limit |
 | 01.11 03:54 | ETHUSDT | short | -28.31 $ | stop |
 | 01.11 02:50 | BNBUSDT | short | -14.05 $ | time limit |
 | 01.11 01:25 | XRPUSDT | short | -8.78 $ | time limit |
 | 01.11 00:33 | SOLUSDT | short | +0.37 $ | time limit |
-| 01.11 00:33 | BTCUSDT | short | -3.37 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -78,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD
 31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD
 31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
 31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)
@@ -93,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD
 01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)
 01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD
+01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4406.774510293027,
+   "balance": 4398.06575185484,
    "start": 5000,
    "positions": [
-    {
-     "id": "22ec6ed4",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 27.810002078055494,
-     "entry": 95.61130800000001,
-     "tp": 95.03764015200001,
-     "sl": 95.993753232,
-     "opened_ms": 1793488398053,
-     "entry_cost": 1.329475337082802,
-     "max_hold_min": 120,
-     "margin": 886.3168913885347,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "69e14459",
      "symbol": "BTCUSDT",
@@ -833,12 +819,32 @@
      "gross": -22.964,
      "costs": 5.3504,
      "pnl": -28.3144
+    },
+    {
+     "id": "22ec6ed4",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 27.810002078055494,
+     "entry": 95.61130800000001,
+     "tp": 95.03764015200001,
+     "sl": 95.993753232,
+     "opened_ms": 1793488398053,
+     "entry_cost": 1.329475337082802,
+     "max_hold_min": 120,
+     "margin": 886.3168913885347,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 95.82874,
+     "closed_ms": 1793495700000,
+     "reason": "time limit",
+     "gross": -6.0468,
+     "costs": 2.662,
+     "pnl": -8.7088
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 4,
-    "pnl": -54.14041427284728,
+    "pnl": -62.849172711034235,
     "stopped": false
    },
    "last_check_ms": 0
@@ -3223,6 +3229,10 @@
    [
     1793495652,
     4385.13
+   ],
+   [
+    1793495831,
+    4381.46
    ]
   ]
  },
@@ -6818,6 +6828,10 @@
    [
     1793495652,
     4868.5
+   ],
+   [
+    1793495831,
+    4868.5
    ]
   ],
   "news": {
@@ -9594,7 +9608,6 @@
   ]
  },
  "log": [
-  "28.10 20:56 N  GPT  score -0.35 conf 0.58: Petrol\u00fcn 100 dolar\u0131n \u00fczerinde kalmas\u0131 enflasyon ve Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; fiyat\u0131n 4.000 dolara do\u011fru \u00e7ekildi\u011fi de bu y\u00f6n\u00fc destekliyor. Fed karar\u0131 \u00f6ncesi belirsizlik y\u00fcksek, \u0130ran sava\u015f\u0131yla ilgili maliyet haberleri ise yeni bir t\u0131rman\u0131\u015ft",
   "28.10 20:56 B1  SHORT gold 5000 USD x10 @ 4043.73 (TP 4041.16, SL 4045.20; news -0.30)",
   "28.10 20:56 B5  SHORT gold 5000 USD x10 @ 4043.85 (TP 4031.72, SL 4051.94; news -0.32)",
   "28.10 20:56 B6  karar turu: Claude \u00abPiyasa saat 14:00'teki Fed karar\u0131 \u00f6ncesinde dar bantta bekliyor; petrol 102 dolar\u0131n \u00fczerinde ve Fed sonras\u0131 sert oynakl\u0131k riski nedeniyle \u015fimdi pozisyon a\u00e7mamak en do\u011frusu.\u00bb / GPT \u00abEndeksler yatay ve fiyat-haber uyumu zay\u0131fken, Fed karar\u0131 beklentisi ile jeopolitik belirsizlik alt\u0131nda kald\u0131ra\u00e7l\u0131 i\u015flem a\u00e7mak i\u00e7in net avantaj yok.\u00bb",
@@ -9893,7 +9906,8 @@
   "01.11 02:13 A  SHORT SOLUSDT 2659 USD x3 @ 95.61 (ters sinyal, RSI 44)",
   "01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD",
   "01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)",
-  "01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD"
+  "01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD",
+  "01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD"
  ],
  "gold_big": {
   "account": {
@@ -12338,6 +12352,10 @@
    [
     1793495652,
     4963.78
+   ],
+   [
+    1793495831,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -14710,6 +14728,10 @@
    [
     1793495652,
     4975.18
+   ],
+   [
+    1793495831,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -17048,6 +17070,10 @@
    [
     1793495652,
     4993.28
+   ],
+   [
+    1793495831,
+    4993.28
    ]
   ]
  },
@@ -19223,6 +19249,10 @@
    [
     1793495652,
     4969.22
+   ],
+   [
+    1793495831,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -20076,6 +20106,10 @@
    ],
    [
     1793495652,
+    5078.66
+   ],
+   [
+    1793495831,
     5078.66
    ]
   ],
@@ -22152,6 +22186,10 @@
    [
     1793495652,
     101128.9
+   ],
+   [
+    1793495831,
+    101128.9
    ]
   ],
   "open": {
@@ -22566,6 +22604,10 @@
    ],
    [
     1793495652,
+    5000
+   ],
+   [
+    1793495831,
     5000
    ]
   ],
