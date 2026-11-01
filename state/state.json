@@ -4735,6 +4735,10 @@
    [
     1793568494,
     4225.01
+   ],
+   [
+    1793568675,
+    4217.75
    ]
   ]
  },
@@ -9422,6 +9426,10 @@
    [
     1793568494,
     4868.5
+   ],
+   [
+    1793568675,
+    4868.5
    ]
   ],
   "news": {
@@ -12198,7 +12206,6 @@
   ]
  },
  "log": [
-  "30.10 21:35 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"103538.71\",\"message\":\"insufficient buying power\"}",
   "30.10 22:26 N  NEWS (28 new) score -0.50 conf 0.60: Alt\u0131n 13 ayl\u0131k dibe yak\u0131n, 3.900 dolar\u0131n alt\u0131nda seyrediyor; Fed yetkililerinin ek faiz art\u0131r\u0131m\u0131 sinyali vermesi ve y\u00fcksek petrol fiyatlar\u0131n\u0131n enflasyon korkusunu beslemesi reel faizleri ve dolar\u0131 destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Iran'la arabuluculuk \u00e7abalar\u0131 ve Patriot sat\u0131\u015f\u0131 gibi haberler jeopolitik risk primini s\u0131n\u0131rl\u0131 art\u0131r\u0131yor; bu nedenle genel etki negatif, ancak g\u00fcven orta d\u00fczeyde \u00e7\u00fcnk\u00fc ara bir jeopolitik \u015fok veya dovish bir s\u00fcrpriz y\u00f6n\u00fc de\u011fi\u015ftirebilir.",
   "30.10 22:26 N  GPT  score -0.35 conf 0.62: Alt\u0131n \u00fczerindeki k\u0131sa vadeli bask\u0131, y\u00fckselen enerji fiyatlar\u0131n\u0131n enflasyon ve faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirmesiyle ya\u015fanan sert d\u00fc\u015f\u00fc\u015f ve Fed yetkililerinin \u015fahin mesajlar\u0131ndan geliyor. Dolar\u0131n gerilemesi ve Ukrayna\u2019ya Patriot sat\u0131\u015f\u0131 bir miktar destek sa\u011flasa da etkileri s\u0131n\u0131rl\u0131; \u0130ran\u2019la ilgil",
   "30.10 23:11 B5  CLOSE short stop: -55.97 USD",
@@ -12497,7 +12504,8 @@
   "01.11 23:45 A  CLOSE BNBUSDT time limit: +1.80 USD",
   "01.11 23:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 00:28 A  SHORT BNBUSDT 5094 USD x3 @ 708.05 (ters sinyal, RSI 44)",
-  "02.11 00:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "02.11 00:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "02.11 00:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -16034,6 +16042,10 @@
    [
     1793568494,
     4963.78
+   ],
+   [
+    1793568675,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19498,6 +19510,10 @@
    [
     1793568494,
     4975.18
+   ],
+   [
+    1793568675,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22928,6 +22944,10 @@
    [
     1793568494,
     4993.28
+   ],
+   [
+    1793568675,
+    4993.28
    ]
   ]
  },
@@ -26195,6 +26215,10 @@
    [
     1793568494,
     4969.22
+   ],
+   [
+    1793568675,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28140,6 +28164,10 @@
    ],
    [
     1793568494,
+    5078.66
+   ],
+   [
+    1793568675,
     5078.66
    ]
   ],
@@ -31308,6 +31336,10 @@
    [
     1793568494,
     101128.9
+   ],
+   [
+    1793568675,
+    101128.9
    ]
   ],
   "open": {
@@ -32814,6 +32846,10 @@
    ],
    [
     1793568494,
+    5000
+   ],
+   [
+    1793568675,
     5000
    ]
   ],
