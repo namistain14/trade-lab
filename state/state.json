@@ -1,23 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 4244.171145084959,
+   "balance": 4243.065216720125,
    "start": 5000,
    "positions": [
-    {
-     "id": "c46a6f63",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06496952311493184,
-     "entry": 77950.6078,
-     "tp": 77482.9041532,
-     "sl": 78262.4102312,
-     "opened_ms": 1793558270750,
-     "entry_cost": 2.5322069076425433,
-     "max_hold_min": 120,
-     "margin": 1688.137938428362,
-     "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
     {
      "id": "7a30797c",
      "symbol": "BNBUSDT",
@@ -1227,12 +1213,32 @@
      "gross": 28.8763,
      "costs": 5.05,
      "pnl": 23.8263
+    },
+    {
+     "id": "c46a6f63",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06496952311493184,
+     "entry": 77950.6078,
+     "tp": 77482.9041532,
+     "sl": 78262.4102312,
+     "opened_ms": 1793558270750,
+     "entry_cost": 2.5322069076425433,
+     "max_hold_min": 120,
+     "margin": 1688.137938428362,
+     "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 77889.709905,
+     "closed_ms": 1793565540000,
+     "reason": "time limit",
+     "gross": 3.9565,
+     "costs": 5.0624,
+     "pnl": -1.1059
     }
    ],
    "day": {
     "date": "2026-11-01",
     "trades": 24,
-    "pnl": -216.74377948091637,
+    "pnl": -217.84970784574972,
     "stopped": false
    },
    "last_check_ms": 0
@@ -4697,6 +4703,10 @@
    [
     1793565540,
     4239.86
+   ],
+   [
+    1793565723,
+    4237.04
    ]
   ]
  },
@@ -9372,6 +9382,10 @@
    [
     1793565540,
     4868.5
+   ],
+   [
+    1793565723,
+    4868.5
    ]
   ],
   "news": {
@@ -12148,8 +12162,6 @@
   ]
  },
  "log": [
-  "30.10 20:52 B5  SHORT gold 25000 USD x10 @ 3896.07 (TP 3884.38, SL 3903.86; news -0.47)",
-  "30.10 20:52 B6  karar turu: Claude \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131, Intel ve Amazon kaynakl\u0131 teknoloji sat\u0131\u015f\u0131 ve risk i\u015ftah\u0131ndaki d\u00fc\u015f\u00fc\u015fle piyasa a\u015fa\u011f\u0131 y\u00f6nl\u00fc seyrini koruyor.\u00bb / GPT \u00abYeni \u015fahin Fed a\u00e7\u0131klamalar\u0131 a\u015fa\u011f\u0131 y\u00f6n\u00fc destekliyor; ancak sert g\u00fcnl\u00fck kay\u0131plar, 1:4 kald\u0131ra\u00e7la ani tepki y\u00fckseli\u015flerine kar\u015f\u0131 riski art\u0131r\u0131yor.\u00bb",
   "30.10 20:52 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"104065.62\",\"message\":\"insufficient buying power\"}",
   "30.10 21:35 N  NEWS (27 new) score -0.70 conf 0.70: Fed yetkililerinin (Logan, Musalem, Lacker) ard\u0131 ard\u0131na faiz art\u0131r\u0131m\u0131 sinyali vermesi ve \"Hawkish Hold\" yorumlar\u0131, reel faiz ve dolar beklentilerini y\u00fckselterek alt\u0131 bask\u0131l\u0131yor. Alt\u0131n zaten 13 ayl\u0131k dibe inmi\u015f ve sert d\u00fc\u015fm\u00fc\u015f oldu\u011fu i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir; ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n m\u00fczakere yoluyla yumu\u015fama ihtimali g\u00fcvenli liman talebini azalt\u0131yor.",
   "30.10 21:35 N  GPT  score -0.58 conf 0.72: Fed yetkililerinin ek faiz art\u0131\u015flar\u0131na i\u015faret etmesi, y\u00fckselen reel faiz ve dolar beklentileri \u00fczerinden alt\u0131n i\u00e7in belirgin bask\u0131 olu\u015fturuyor; alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f de bu teman\u0131n zaten k\u0131smen fiyatland\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran\u2019daki \u00e7at\u0131\u015fma ve enerji kaynakl\u0131 belirsizlik g\u00fcvenli liman talebi sa\u011flayabi",
@@ -12447,7 +12459,9 @@
   "01.11 23:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 23:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:42 A  CLOSE BTCUSDT time limit: -1.11 USD",
+  "01.11 23:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15972,6 +15986,10 @@
    [
     1793565540,
     4963.78
+   ],
+   [
+    1793565723,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19424,6 +19442,10 @@
    [
     1793565540,
     4975.18
+   ],
+   [
+    1793565723,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22842,6 +22864,10 @@
    [
     1793565540,
     4993.28
+   ],
+   [
+    1793565723,
+    4993.28
    ]
   ]
  },
@@ -26097,6 +26123,10 @@
    [
     1793565540,
     4969.22
+   ],
+   [
+    1793565723,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28030,6 +28060,10 @@
    ],
    [
     1793565540,
+    5078.66
+   ],
+   [
+    1793565723,
     5078.66
    ]
   ],
@@ -31186,6 +31220,10 @@
    [
     1793565540,
     101128.9
+   ],
+   [
+    1793565723,
+    101128.9
    ]
   ],
   "open": {
@@ -32680,6 +32718,10 @@
    ],
    [
     1793565540,
+    5000
+   ],
+   [
+    1793565723,
     5000
    ]
   ],
