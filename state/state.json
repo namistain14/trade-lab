@@ -4015,6 +4015,10 @@
    [
     1793527620,
     4255.94
+   ],
+   [
+    1793527799,
+    4232.53
    ]
   ]
  },
@@ -8222,6 +8226,10 @@
    [
     1793527620,
     4868.5
+   ],
+   [
+    1793527799,
+    4868.5
    ]
   ],
   "news": {
@@ -10998,7 +11006,6 @@
   ]
  },
  "log": [
-  "29.10 19:32 B6  karar turu: Claude \u00abEndeksler hafif ekside; Alphabet kaynakl\u0131 teknoloji zay\u0131fl\u0131\u011f\u0131 Nasdaq'\u0131 a\u015fa\u011f\u0131 \u00e7ekerken defansif sekt\u00f6rler ve k\u00fc\u00e7\u00fck \u00f6l\u00e7ekli hisseler g\u00fc\u00e7l\u00fc GDP verisiyle destek buluyor.\u00bb / GPT \u00abTeknoloji hisselerinde a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 s\u00fcrerken geni\u015f piyasa daha diren\u00e7li; d\u00f6rt kat kald\u0131ra\u00e7ta mevcut teknoloji pozisyonlar\u0131yla toplam risk g\u00f6zetilmeli.\u00bb",
   "29.10 19:32 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"102355.11\",\"message\":\"insufficient buying power\"}",
   "29.10 20:27 A  BUY BTCUSDT 5982 USD x3 @ 81120.97 (RSI 43)",
   "29.10 20:27 A  BUY XRPUSDT 5982 USD x3 @ 1.30 (RSI 42)",
@@ -11297,7 +11304,8 @@
   "01.11 12:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 13:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 13:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 13:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 13:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14354,6 +14362,10 @@
    [
     1793527620,
     4963.78
+   ],
+   [
+    1793527799,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17338,6 +17350,10 @@
    [
     1793527620,
     4975.18
+   ],
+   [
+    1793527799,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20288,6 +20304,10 @@
    [
     1793527620,
     4993.28
+   ],
+   [
+    1793527799,
+    4993.28
    ]
   ]
  },
@@ -23075,6 +23095,10 @@
    [
     1793527620,
     4969.22
+   ],
+   [
+    1793527799,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24540,6 +24564,10 @@
    ],
    [
     1793527620,
+    5078.66
+   ],
+   [
+    1793527799,
     5078.66
    ]
   ],
@@ -27228,6 +27256,10 @@
    [
     1793527620,
     101128.9
+   ],
+   [
+    1793527799,
+    101128.9
    ]
   ],
   "open": {
@@ -28254,6 +28286,10 @@
    ],
    [
     1793527620,
+    5000
+   ],
+   [
+    1793527799,
     5000
    ]
   ],
