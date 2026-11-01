@@ -4681,6 +4681,10 @@
    [
     1793564820,
     4263.29
+   ],
+   [
+    1793565000,
+    4255.13
    ]
   ]
  },
@@ -9340,6 +9344,10 @@
    [
     1793564820,
     4868.5
+   ],
+   [
+    1793565000,
+    4868.5
    ]
   ],
   "news": {
@@ -12116,7 +12124,6 @@
   ]
  },
  "log": [
-  "30.10 20:09 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"105073.85\",\"message\":\"insufficient buying power\"}",
   "30.10 20:52 B5  CLOSE short take profit: +69.06 USD",
   "30.10 20:52 N  NEWS (25 new) score -0.60 conf 0.60: Fed yetkililerinin (Logan, Musalem) faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 reel faiz beklentilerini y\u00fckseltip alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131n\u0131n yak\u0131nda sona erece\u011fi y\u00f6n\u00fcndeki haberler de g\u00fcvenli liman talebini azalt\u0131yor. Alt\u0131n zaten sert d\u00fc\u015f\u00fc\u015f ya\u015fad\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcven orta seviyede tutuldu.",
   "30.10 20:52 N  GPT  score -0.35 conf 0.63: Logan ve Musalem\u2019in yak\u0131n zamanda en az iki faiz art\u0131\u015f\u0131 gerekti\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131, faiz ve dolar beklentileri \u00fczerinden alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. \u0130ran kaynakl\u0131 riskler ve teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini destekleyebilir; ancak diplomasi haberleri",
@@ -12415,7 +12422,8 @@
   "01.11 23:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 23:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15924,6 +15932,10 @@
    [
     1793564820,
     4963.78
+   ],
+   [
+    1793565000,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19360,6 +19372,10 @@
    [
     1793564820,
     4975.18
+   ],
+   [
+    1793565000,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22762,6 +22778,10 @@
    [
     1793564820,
     4993.28
+   ],
+   [
+    1793565000,
+    4993.28
    ]
   ]
  },
@@ -26001,6 +26021,10 @@
    [
     1793564820,
     4969.22
+   ],
+   [
+    1793565000,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27918,6 +27942,10 @@
    ],
    [
     1793564820,
+    5078.66
+   ],
+   [
+    1793565000,
     5078.66
    ]
   ],
@@ -31058,6 +31086,10 @@
    [
     1793564820,
     101128.9
+   ],
+   [
+    1793565000,
+    101128.9
    ]
   ],
   "open": {
@@ -32536,6 +32568,10 @@
    ],
    [
     1793564820,
+    5000
+   ],
+   [
+    1793565000,
     5000
    ]
   ],
