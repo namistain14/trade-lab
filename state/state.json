@@ -4326,6 +4326,10 @@
    [
     1793544753,
     4214.33
+   ],
+   [
+    1793544934,
+    4214.33
    ]
   ]
  },
@@ -8753,6 +8757,10 @@
    [
     1793544753,
     4868.5
+   ],
+   [
+    1793544934,
+    4868.5
    ]
   ],
   "news": {
@@ -11529,7 +11537,6 @@
   ]
  },
  "log": [
-  "30.10 03:16 A  CLOSE SOLUSDT stop: -29.74 USD",
   "30.10 03:16 A  CLOSE XRPUSDT stop: -14.87 USD",
   "30.10 03:16 A  BUY BTCUSDT 5527 USD x3 @ 77803.93 (RSI 22)",
   "30.10 03:16 A  BUY ETHUSDT 5527 USD x3 @ 2242.76 (RSI 32)",
@@ -11828,7 +11835,8 @@
   "01.11 17:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 17:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 17:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 17:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 17:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 17:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15105,6 +15113,10 @@
    [
     1793544753,
     4963.78
+   ],
+   [
+    1793544934,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18309,6 +18321,10 @@
    [
     1793544753,
     4975.18
+   ],
+   [
+    1793544934,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21479,6 +21495,10 @@
    [
     1793544753,
     4993.28
+   ],
+   [
+    1793544934,
+    4993.28
    ]
   ]
  },
@@ -24486,6 +24506,10 @@
    [
     1793544753,
     4969.22
+   ],
+   [
+    1793544934,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -26171,6 +26195,10 @@
    ],
    [
     1793544753,
+    5078.66
+   ],
+   [
+    1793544934,
     5078.66
    ]
   ],
@@ -29079,6 +29107,10 @@
    [
     1793544753,
     101128.9
+   ],
+   [
+    1793544934,
+    101128.9
    ]
   ],
   "open": {
@@ -30325,6 +30357,10 @@
    ],
    [
     1793544753,
+    5000
+   ],
+   [
+    1793544934,
     5000
    ]
   ],
