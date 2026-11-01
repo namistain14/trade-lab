@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 844.068969214181,
      "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "f1fa658a",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.25459755809482,
+     "entry": 2258.942114,
+     "tp": 2245.388461316,
+     "sl": 2267.977882456,
+     "opened_ms": 1793563376528,
+     "entry_cost": 2.5465026870509755,
+     "max_hold_min": 120,
+     "margin": 1697.6684580339836,
+     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1217,7 +1231,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 23,
+    "trades": 24,
     "pnl": -216.74377948091637,
     "stopped": false
    },
@@ -4631,6 +4645,10 @@
    [
     1793560797,
     4260.1
+   ],
+   [
+    1793563382,
+    4248.15
    ]
   ]
  },
@@ -9254,6 +9272,10 @@
    [
     1793560797,
     4868.5
+   ],
+   [
+    1793563382,
+    4868.5
    ]
   ],
   "news": {
@@ -12030,8 +12052,6 @@
   ]
  },
  "log": [
-  "30.10 18:26 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"104520.13\",\"message\":\"insufficient buying power\"}",
-  "30.10 19:20 B5  CLOSE short take profit: +69.06 USD",
   "30.10 19:20 N  NEWS (27 new) score -0.45 conf 0.60: ",
   "30.10 19:20 N  GPT  score -0.55 conf 0.62: Alt\u0131n\u0131n 3.900 dolar\u0131n alt\u0131na sert d\u00fc\u015fmesi k\u0131sa vadeli sat\u0131\u015f momentumuna i\u015faret ediyor; PCE enflasyonunun %3,6\u2019ya \u00e7\u0131kmas\u0131 ve bildirilen TIPS getiri s\u0131\u00e7ramas\u0131 da faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131layabilir. Jeopolitik risk ba\u015fl\u0131klar\u0131 destekleyici olsa da \u00e7o\u011fu belirsiz ve",
   "30.10 19:20 B5  SHORT gold 25000 USD x10 @ 3912.45 (TP 3900.71, SL 3920.27; news -0.50)",
@@ -12329,7 +12349,9 @@
   "01.11 22:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 22:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 22:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 22:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 22:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 23:03 A  SHORT ETHUSDT 5093 USD x3 @ 2258.94 (ters sinyal, RSI 38)",
+  "01.11 23:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15802,6 +15824,10 @@
    [
     1793560797,
     4963.78
+   ],
+   [
+    1793563382,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19202,6 +19228,10 @@
    [
     1793560797,
     4975.18
+   ],
+   [
+    1793563382,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -22568,6 +22598,10 @@
    [
     1793560797,
     4993.28
+   ],
+   [
+    1793563382,
+    4993.28
    ]
   ]
  },
@@ -25771,6 +25805,10 @@
    [
     1793560797,
     4969.22
+   ],
+   [
+    1793563382,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -27652,6 +27690,10 @@
    ],
    [
     1793560797,
+    5078.66
+   ],
+   [
+    1793563382,
     5078.66
    ]
   ],
@@ -30756,6 +30798,10 @@
    [
     1793560797,
     101128.9
+   ],
+   [
+    1793563382,
+    101128.9
    ]
   ],
   "open": {
@@ -32198,6 +32244,10 @@
    ],
    [
     1793560797,
+    5000
+   ],
+   [
+    1793563382,
     5000
    ]
   ],
