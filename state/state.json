@@ -4429,6 +4429,10 @@
    [
     1793549862,
     4220.15
+   ],
+   [
+    1793550042,
+    4227.86
    ]
   ]
  },
@@ -8916,6 +8920,10 @@
    [
     1793549862,
     4868.5
+   ],
+   [
+    1793550042,
+    4868.5
    ]
   ],
   "news": {
@@ -11692,7 +11700,6 @@
   ]
  },
  "log": [
-  "30.10 07:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 07:51 N  NEWS (21 new) score -0.60 conf 0.70: S\u0131cak PCE enflasyonu, g\u00fc\u00e7l\u00fc ABD GSYH verisi ve Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 bahisleri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f bir miktar destek sa\u011flasa da, faiz beklentilerinin etkisi bu deste\u011fi belirgin bi\u00e7imde geride b\u0131rak\u0131yor.",
   "30.10 08:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 08:33 N  NEWS (24 new) score -0.50 conf 0.60: S\u0131cak PCE enflasyonu ve g\u00fc\u00e7l\u00fc ABD verileri Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi. \u0130ran sava\u015f\u0131 ve Asya'daki g\u00fcvenli liman talebi k\u0131smen destek olsa da, bu etki haber ak\u0131\u015f\u0131nda s\u0131n\u0131rl\u0131 kal\u0131yor ve faiz beklentisinin gerisinde kal\u0131yor.",
@@ -11991,7 +11998,8 @@
   "01.11 19:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 19:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 19:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 19:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 19:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 19:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15328,6 +15336,10 @@
    [
     1793549862,
     4963.78
+   ],
+   [
+    1793550042,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18592,6 +18604,10 @@
    [
     1793549862,
     4975.18
+   ],
+   [
+    1793550042,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21822,6 +21838,10 @@
    [
     1793549862,
     4993.28
+   ],
+   [
+    1793550042,
+    4993.28
    ]
   ]
  },
@@ -24889,6 +24909,10 @@
    [
     1793549862,
     4969.22
+   ],
+   [
+    1793550042,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -26634,6 +26658,10 @@
    ],
    [
     1793549862,
+    5078.66
+   ],
+   [
+    1793550042,
     5078.66
    ]
   ],
@@ -29602,6 +29630,10 @@
    [
     1793549862,
     101128.9
+   ],
+   [
+    1793550042,
+    101128.9
    ]
   ],
   "open": {
@@ -30908,6 +30940,10 @@
    ],
    [
     1793549862,
+    5000
+   ],
+   [
+    1793550042,
     5000
    ]
   ],
