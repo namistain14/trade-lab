@@ -17,6 +17,34 @@
      "max_hold_min": 120,
      "margin": 1697.9458274098085,
      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "7351a488",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 53.983259441051906,
+     "entry": 93.991794,
+     "tp": 93.427843236,
+     "sl": 94.367761176,
+     "opened_ms": 1793573599924,
+     "entry_cost": 2.536991700415953,
+     "max_hold_min": 120,
+     "margin": 1691.327800277302,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "c6a1113e",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 2018.3510917150356,
+     "entry": 1.2471257500000001,
+     "tp": 1.2396429955000001,
+     "sl": 1.2521142530000002,
+     "opened_ms": 1793573600395,
+     "entry_cost": 1.2585688095092165,
+     "max_hold_min": 120,
+     "margin": 839.0458730061442,
+     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1263,7 +1291,7 @@
    ],
    "day": {
     "date": "2026-11-02",
-    "trades": 1,
+    "trades": 3,
     "pnl": -16.545067831266728,
     "stopped": false
    },
@@ -4797,6 +4825,10 @@
    [
     1793571015,
     4232.45
+   ],
+   [
+    1793573606,
+    4226.95
    ]
   ]
  },
@@ -9540,6 +9572,10 @@
    [
     1793571015,
     4868.5
+   ],
+   [
+    1793573606,
+    4868.5
    ]
   ],
   "news": {
@@ -12316,9 +12352,6 @@
   ]
  },
  "log": [
-  "31.10 06:45 A  BUY BTCUSDT 5387 USD x3 @ 77257.17 (RSI 39)",
-  "31.10 06:45 A  BUY ETHUSDT 2642 USD x3 @ 2243.39 (RSI 41)",
-  "31.10 07:27 A  CLOSE BNBUSDT time limit: -19.18 USD",
   "31.10 08:58 A  CLOSE BTCUSDT time limit: -4.46 USD",
   "31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD",
   "31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)",
@@ -12615,7 +12648,10 @@
   "02.11 01:04 A  CLOSE ETHUSDT time limit: -16.55 USD",
   "02.11 01:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 01:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "02.11 01:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "02.11 01:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "02.11 01:53 A  SHORT SOLUSDT 5074 USD x3 @ 93.99 (ters sinyal, RSI 44)",
+  "02.11 01:53 A  SHORT XRPUSDT 2517 USD x3 @ 1.25 (ters sinyal, RSI 39)",
+  "02.11 01:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -16208,6 +16244,10 @@
    [
     1793571015,
     4963.78
+   ],
+   [
+    1793573606,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -19728,6 +19768,10 @@
    [
     1793571015,
     4975.18
+   ],
+   [
+    1793573606,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -23214,6 +23258,10 @@
    [
     1793571015,
     4993.28
+   ],
+   [
+    1793573606,
+    4993.28
    ]
   ]
  },
@@ -26537,6 +26585,10 @@
    [
     1793571015,
     4969.22
+   ],
+   [
+    1793573606,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -28538,6 +28590,10 @@
    ],
    [
     1793571015,
+    5078.66
+   ],
+   [
+    1793573606,
     5078.66
    ]
   ],
@@ -31762,6 +31818,10 @@
    [
     1793571015,
     101128.9
+   ],
+   [
+    1793573606,
+    101128.9
    ]
   ],
   "open": {
@@ -33324,6 +33384,10 @@
    ],
    [
     1793571015,
+    5000
+   ],
+   [
+    1793573606,
     5000
    ]
   ],
