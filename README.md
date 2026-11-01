@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 01.11.2026 04:57 (İstanbul)
+> Son güncelleme: 01.11.2026 05:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %14.3 | %19.0 |
 | Ödenen komisyon/spread | 32.06 $ | 190.86 $ |
 
-**Hesap değeri: 4,380.52 $** (başlangıç 5,000 $, -619.48 $ / %-12.39)
+**Hesap değeri: 4,376.32 $** (başlangıç 5,000 $, -623.68 $ / %-12.47)
+
+Açık pozisyonlar: DOGEUSDT short @ 0.08 (TP 0.08 / SL 0.08)
 
 Son işlemler:
 
@@ -76,7 +78,6 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 ## Son olaylar
 
 ```
-31.10 08:58 A  CLOSE ETHUSDT time limit: -4.52 USD
 31.10 22:31 A  SHORT BTCUSDT 5353 USD x3 @ 77575.88 (ters sinyal, RSI 40)
 31.10 22:31 A  SHORT SOLUSDT 5353 USD x3 @ 95.94 (ters sinyal, RSI 43)
 31.10 23:23 A  SHORT XRPUSDT 2677 USD x3 @ 1.25 (ters sinyal, RSI 42)
@@ -91,6 +92,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD
 01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD
 01.11 04:54 A  CLOSE BTCUSDT time limit: -17.54 USD
+01.11 05:00 A  SHORT DOGEUSDT 5257 USD x3 @ 0.08 (ters sinyal, RSI 44)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
