@@ -4457,6 +4457,10 @@
    [
     1793553529,
     4224.05
+   ],
+   [
+    1793553709,
+    4223.59
    ]
   ]
  },
@@ -8972,6 +8976,10 @@
    [
     1793553529,
     4868.5
+   ],
+   [
+    1793553709,
+    4868.5
    ]
   ],
   "news": {
@@ -11748,7 +11756,6 @@
   ]
  },
  "log": [
-  "30.10 10:29 N  NEWS (23 new) score -0.50 conf 0.60: S\u0131cak PCE enflasyonu ve Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi, reel faizleri ve dolar\u0131 destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na sarkm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 ve jeopolitik riskler g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki \u015fu an faiz beklentilerinin gerisinde kal\u0131yor.",
   "30.10 11:25 N  NEWS (33 new) score -0.60 conf 0.70: Y\u00fcksek enerji fiyatlar\u0131 ve ABD enflasyon verisi (PCE) Fed'in faiz art\u0131rma beklentilerini g\u00fc\u00e7lendiriyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve dolar/tahvil taraf\u0131nda bask\u0131 s\u00fcr\u00fcyor. Jeopolitik haberler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratsa da, bu etki faiz beklentilerinin gerisinde kal\u0131yor.",
   "30.10 11:25 N  GPT  score -0.35 conf 0.66: Y\u00fckselen petrol ve g\u00fc\u00e7l\u00fc enflasyon verilerinin Fed faiz art\u0131\u015f\u0131 beklentilerini beslemesi, alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; fiyat\u0131n 4.000 dolar\u0131n alt\u0131na geriledi\u011fine dair ba\u015fl\u0131klar bu e\u011filimi destekliyor. Dolar\u0131n zay\u0131flamas\u0131 ve Rusya-Ukrayna kaynakl\u0131 g\u00fcvenli liman talebi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
   "30.10 11:25 B5  SHORT gold 25000 USD x10 @ 3994.28 (TP 3982.30, SL 4002.27; news -0.47)",
@@ -12047,7 +12054,8 @@
   "01.11 19:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 20:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 20:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 20:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 20:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 20:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -15412,6 +15420,10 @@
    [
     1793553529,
     4963.78
+   ],
+   [
+    1793553709,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -18704,6 +18716,10 @@
    [
     1793553529,
     4975.18
+   ],
+   [
+    1793553709,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -21962,6 +21978,10 @@
    [
     1793553529,
     4993.28
+   ],
+   [
+    1793553709,
+    4993.28
    ]
   ]
  },
@@ -25057,6 +25077,10 @@
    [
     1793553529,
     4969.22
+   ],
+   [
+    1793553709,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -26830,6 +26854,10 @@
    ],
    [
     1793553529,
+    5078.66
+   ],
+   [
+    1793553709,
     5078.66
    ]
   ],
@@ -29826,6 +29854,10 @@
    [
     1793553529,
     101128.9
+   ],
+   [
+    1793553709,
+    101128.9
    ]
   ],
   "open": {
@@ -31160,6 +31192,10 @@
    ],
    [
     1793553529,
+    5000
+   ],
+   [
+    1793553709,
     5000
    ]
   ],
