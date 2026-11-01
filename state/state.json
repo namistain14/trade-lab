@@ -4029,6 +4029,10 @@
    [
     1793527979,
     4226.11
+   ],
+   [
+    1793528159,
+    4228.14
    ]
   ]
  },
@@ -8244,6 +8248,10 @@
    [
     1793527979,
     4868.5
+   ],
+   [
+    1793528159,
+    4868.5
    ]
   ],
   "news": {
@@ -11020,7 +11028,6 @@
   ]
  },
  "log": [
-  "29.10 20:27 A  BUY XRPUSDT 5982 USD x3 @ 1.30 (RSI 42)",
   "29.10 20:27 N  NEWS (36 new) score -0.30 conf 0.50: ",
   "29.10 20:27 N  GPT  score -0.25 conf 0.56: Eyl\u00fcl enflasyonunun ve \u00e7ekirdek PCE\u2019nin h\u0131zland\u0131\u011f\u0131 haberleri Fed\u2019in daha temkinli kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran ve Ukrayna kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde s\u00fcregelen geli\u015fmeler ve k\u0131sa vadeli y\u00f6n net de\u011fil.",
   "29.10 20:27 B6  karar turu: Claude \u00abPiyasa, Alphabet'in sert d\u00fc\u015f\u00fc\u015f\u00fc nedeniyle teknoloji a\u011f\u0131rl\u0131kl\u0131 zay\u0131f seyrediyor ancak g\u00fc\u00e7l\u00fc GDP verisiyle \u00f6\u011fleden sonra yatay konsolide oluyor; \u0130ran geli\u015fmeleri a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk ta\u015f\u0131yor.\u00bb / GPT \u00abPiyasa yatay s\u0131k\u0131\u015f\u0131rken teknoloji hisseleri g\u00f6rece zay\u0131f; dar saatlik bantlar y\u00fczde 1,5 hedefe ula\u015fmay\u0131 zorla\u015ft\u0131r\u0131yor ve 1:4 kald\u0131ra\u00e7 riski b\u00fcy\u00fct\u00fcyor.\u00bb",
@@ -11319,7 +11326,8 @@
   "01.11 13:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 13:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 13:12 A  CLOSE XRPUSDT stop: -27.19 USD",
-  "01.11 13:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 13:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 13:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14384,6 +14392,10 @@
    [
     1793527979,
     4963.78
+   ],
+   [
+    1793528159,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17376,6 +17388,10 @@
    [
     1793527979,
     4975.18
+   ],
+   [
+    1793528159,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20334,6 +20350,10 @@
    [
     1793527979,
     4993.28
+   ],
+   [
+    1793528159,
+    4993.28
    ]
   ]
  },
@@ -23129,6 +23149,10 @@
    [
     1793527979,
     4969.22
+   ],
+   [
+    1793528159,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -24602,6 +24626,10 @@
    ],
    [
     1793527979,
+    5078.66
+   ],
+   [
+    1793528159,
     5078.66
    ]
   ],
@@ -27298,6 +27326,10 @@
    [
     1793527979,
     101128.9
+   ],
+   [
+    1793528159,
+    101128.9
    ]
   ],
   "open": {
@@ -28332,6 +28364,10 @@
    ],
    [
     1793527979,
+    5000
+   ],
+   [
+    1793528159,
     5000
    ]
   ],
