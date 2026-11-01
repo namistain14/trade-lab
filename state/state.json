@@ -3889,6 +3889,10 @@
    [
     1793523040,
     4268.78
+   ],
+   [
+    1793523220,
+    4268.57
    ]
   ]
  },
@@ -8004,6 +8008,10 @@
    [
     1793523040,
     4868.5
+   ],
+   [
+    1793523220,
+    4868.5
    ]
   ],
   "news": {
@@ -10780,7 +10788,6 @@
   ]
  },
  "log": [
-  "29.10 14:07 N  GPT  score +0.32 conf 0.43: Fed\u2019in faizleri sabit tutmas\u0131n\u0131n ard\u0131ndan tahvil getirilerinin gev\u015femesi ve \u0130ran \u00e7evresindeki gerilim ile Kuzey Kore f\u00fcze haberleri alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir. Ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve alt\u0131n\u0131n geriledi\u011fini bildiren ba\u015fl\u0131klar da var; bu nedenle y\u00fckseli\u015f etkisi s\u0131n\u0131rl\u0131 ve belirsiz.",
   "29.10 14:53 A  CLOSE BNBUSDT stop: -31.71 USD",
   "29.10 14:53 A  BUY BNBUSDT 5948 USD x3 @ 740.20 (RSI 39)",
   "29.10 14:53 N  NEWS (33 new) score -0.30 conf 0.50: Fed faizleri sabit tuttu ama iki yetkili faiz art\u0131r\u0131m\u0131 i\u00e7in oy kulland\u0131; bu \u015fahin tonu alt\u0131n i\u00e7in olumsuz. Gold ayr\u0131ca PCE \u00f6ncesi zay\u0131flad\u0131 ve dolar sabit kald\u0131. \u00d6te yandan \u0130ran sava\u015f\u0131 i\u00e7in yeni diplomatik giri\u015fimler jeopolitik risk primini azaltarak s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; sonu\u00e7 olarak hafif negatif bir g\u00f6r\u00fcn\u00fcm var, ancak PCE ve GDP verileri belirsizli\u011fi y\u00fcksek tutuyor.",
@@ -11079,7 +11086,8 @@
   "01.11 11:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 11:47 A  CLOSE SOLUSDT stop: -27.54 USD",
   "01.11 11:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 11:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 11:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 11:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14044,6 +14052,10 @@
    [
     1793523040,
     4963.78
+   ],
+   [
+    1793523220,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -16936,6 +16948,10 @@
    [
     1793523040,
     4975.18
+   ],
+   [
+    1793523220,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -19794,6 +19810,10 @@
    [
     1793523040,
     4993.28
+   ],
+   [
+    1793523220,
+    4993.28
    ]
   ]
  },
@@ -22489,6 +22509,10 @@
    [
     1793523040,
     4969.22
+   ],
+   [
+    1793523220,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -23862,6 +23886,10 @@
    ],
    [
     1793523040,
+    5078.66
+   ],
+   [
+    1793523220,
     5078.66
    ]
   ],
@@ -26458,6 +26486,10 @@
    [
     1793523040,
     101128.9
+   ],
+   [
+    1793523220,
+    101128.9
    ]
   ],
   "open": {
@@ -27392,6 +27424,10 @@
    ],
    [
     1793523040,
+    5000
+   ],
+   [
+    1793523220,
     5000
    ]
   ],
