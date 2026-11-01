@@ -31,6 +31,20 @@
      "max_hold_min": 120,
      "margin": 1690.5445013982578,
      "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "1f6a15b5",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 53.76016144885782,
+     "entry": 94.881527,
+     "tp": 94.312237838,
+     "sl": 95.26105310800001,
+     "opened_ms": 1793538013337,
+     "entry_cost": 2.5504231050170816,
+     "max_hold_min": 120,
+     "margin": 1700.2820700113878,
+     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1077,7 +1091,7 @@
    ],
    "day": {
     "date": "2026-11-01",
-    "trades": 16,
+    "trades": 17,
     "pnl": -210.2097495374051,
     "stopped": false
    },
@@ -4195,6 +4209,10 @@
    [
     1793537841,
     4254.48
+   ],
+   [
+    1793538019,
+    4252.34
    ]
   ]
  },
@@ -8522,6 +8540,10 @@
    [
     1793537841,
     4868.5
+   ],
+   [
+    1793538019,
+    4868.5
    ]
   ],
   "news": {
@@ -11298,8 +11320,6 @@
   ]
  },
  "log": [
-  "30.10 00:34 A  CLOSE BNBUSDT take profit: +13.51 USD",
-  "30.10 00:34 A  BUY BNBUSDT 5700 USD x3 @ 711.89 (RSI 42)",
   "30.10 00:34 A  BUY DOGEUSDT 5700 USD x3 @ 0.08 (RSI 41)",
   "30.10 00:34 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "30.10 00:34 N  NEWS (22 new) score -0.60 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in negatif: s\u0131cak enflasyon ve g\u00fc\u00e7l\u00fc ABD GSYH verisi Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini art\u0131r\u0131yor, gold ve g\u00fcm\u00fc\u015f d\u00fc\u015f\u00fc\u015fte, ve piyasa \u00e7\u00f6k\u00fc\u015f\u00fc g\u00fcvenli liman talebi yaratmad\u0131. \u0130ran sava\u015f\u0131 ve jeopolitik riskler ise destekleyici olabilir, ama bu haberler k\u0131smen fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali net de\u011fil; bu nedenle g\u00fcven orta d\u00fczeyde.",
@@ -11597,7 +11617,9 @@
   "01.11 15:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 15:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 15:57 A  CLOSE SOLUSDT take profit: +23.97 USD",
-  "01.11 15:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "01.11 15:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "01.11 16:00 A  SHORT SOLUSDT 5101 USD x3 @ 94.88 (ters sinyal, RSI 40)",
+  "01.11 16:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -14774,6 +14796,10 @@
    [
     1793537841,
     4963.78
+   ],
+   [
+    1793538019,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -17878,6 +17904,10 @@
    [
     1793537841,
     4975.18
+   ],
+   [
+    1793538019,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -20948,6 +20978,10 @@
    [
     1793537841,
     4993.28
+   ],
+   [
+    1793538019,
+    4993.28
    ]
   ]
  },
@@ -23855,6 +23889,10 @@
    [
     1793537841,
     4969.22
+   ],
+   [
+    1793538019,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -25440,6 +25478,10 @@
    ],
    [
     1793537841,
+    5078.66
+   ],
+   [
+    1793538019,
     5078.66
    ]
   ],
@@ -28248,6 +28290,10 @@
    [
     1793537841,
     101128.9
+   ],
+   [
+    1793538019,
+    101128.9
    ]
   ],
   "open": {
@@ -29394,6 +29440,10 @@
    ],
    [
     1793537841,
+    5000
+   ],
+   [
+    1793538019,
     5000
    ]
   ],
