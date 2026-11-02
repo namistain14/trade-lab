@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 19:01 (İstanbul)
+> Son güncelleme: 02.11.2026 19:04 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 18:52): Claude puan **+0.10**, güven 0.35 — Yeni haberler karışık ama hafif negatif ağırlıklı: ABD imalat PMI beklentinin altında kalsa da satış fiyatı enflasyonu Eylül 2022'den bu yana en yüksek seviyede ve OCBC Fed sıkılaştırma endişeleri nedeniyle altın tahminini düşürdü; İran'la müzakerelerde kopuş olmaması ve Hamaney'in hükümete müzakere yetkisi vermesi de güvenli liman talebini sınırlıyor. Öte yandan Doların aşırı alım bölgesinde olması ve bazı analistlerin toparlanma beklentisi, düşüşü sınırlayabilir; eski haberler ve çelişkili sinyaller güveni düşürüyor.
+Son haber analizi (02.11 19:04): Claude puan **-0.10**, güven 0.35 — Yeni haberler karışık ama hafif negatif ağırlıklı: ABD imalat PMI beklentinin altında kalsa da satış fiyatı enflasyonu Eylül 2022'den bu yana en yüksek seviyede ve OCBC Fed sıkılaştırma endişeleri nedeniyle altın tahminini düşürdü; İran'la müzakerelerde kopuş olmaması ve Hamaney'in hükümete müzakere yetkisi vermesi de güvenli liman talebini sınırlıyor. Öte yandan Doların aşırı alım bölgesinde olması ve bazı analistlerin toparlanma beklentisi, düşüşü sınırlayabilir; eski haberler ve çelişkili sinyaller güveni düşürüyor.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.43 — İranlı vekillerin savaşı genişletme tehdidi ve tüketici harcamalarındaki zayıflık altına sınırlı destek sağlayabilir. Ancak savaşın sona erdirilmesine yönelik temaslar sürüyor ve yüksek girdi fiyatları faiz indirimi beklentilerini sınırlayabilir; bu nedenle etki belirsiz.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.43 — İran’da savaşın genişleyebileceğine dair tehditler ve görüşmelerden sonuç çıkmaması güvenli liman talebini destekleyebilir; doların borç maliyetleri nedeniyle baskı görebileceği beklentisi de altın için olumlu. Ancak görüşmelerin sürmesi, Fed sıkılaşması endişeleri ve altının önceki sert düşüş sonra
 
 Son işlemler:
 
@@ -73,16 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,287.35 $** (başlangıç 100,000 $, +2287.35 $ / %+2.29)
+**Hesap değeri: 102,087.22 $** (başlangıç 100,000 $, +2087.22 $ / %+2.09)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 18:07 N  NEWS (20 new) score +0.15 conf 0.30: 
-02.11 18:07 N  GPT  score +0.25 conf 0.43: Altın fiyatındaki yaklaşık 75 dolarlık sıçrama kısa vadeli yukarı yönlü momentuma işaret ediyor; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi de destekleyici olabilir. Ancak İran savaşının sona erebileceğine dair haberler güvenli liman talebini azaltabilir ve sert önceki dü
-02.11 18:07 B6  karar turu: Claude «Piyasa güçlü ISM verisi ve jeopolitik iyimserlikle hafif pozitif, ancak teknoloji tarafında AAPL bilançosu öncesi temkinli bir ayrışma var.» / GPT «Güçlü ISM ile zayıf inşaat verisi piyasayı dengelerken teknoloji hisselerindeki göreli satış baskısı seçici kısa pozisyonları destekliyor.»
 02.11 18:19 N  NEWS (12 new) score +0.20 conf 0.35: Karışık bir tablo var: petrol fiyatlarının düşmesi ve enflasyon endişelerinin azalması, reel faizlerin gerilemesi ve Fed beklentilerinin yumuşamasıyla altın için destekleyici. Öte yandan İran'a yönelik tehdit ve yeni saldırı baskısı gibi jeopolitik risk haberleri güvenli liman talebini artırabilir; aşırı alım bölgesindeki dolar ise kısa vadede altın üzerinde baskı yaratabilir. Haberlerin çoğu eski veya kısmen fiyatlanmış olduğu için güven düşük.
 02.11 18:19 N  GPT  score -0.18 conf 0.38: ABD-İran savaşını bitirmeye yönelik görüşme umutlarıyla petrolün sert düşmesi, kısa vadede güvenli liman talebini ve enerji kaynaklı enflasyon kaygılarını azaltarak altın üzerinde hafif baskı yaratabilir. Düşük reel getiriler destekleyici; haber akışı çelişkili ve altın fiyatına etkisi belirsiz.
 02.11 18:19 B6  karar turu: Claude «Güçlü ISM verisi ve jeopolitik rahatlama ile piyasa pozitif seyrediyor; öğleden sonra ılımlı yükseliş eğilimi bekleniyor.» / GPT «Kısa vadeli yön yukarı olsa da karışık makro veriler ve endekslerde 1–3 saatte yüzde 1,5 hedefinin iddialı olması, dört kat kaldıraç altında küçük pozisyon gerektiriyor.»
@@ -95,6 +92,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 18:52 N  NEWS (7 new) score +0.10 conf 0.35: 
 02.11 18:52 N  GPT  score +0.25 conf 0.43: İranlı vekillerin savaşı genişletme tehdidi ve tüketici harcamalarındaki zayıflık altına sınırlı destek sağlayabilir. Ancak savaşın sona erdirilmesine yönelik temaslar sürüyor ve yüksek girdi fiyatları faiz indirimi beklentilerini sınırlayabilir; bu nedenle etki belirsiz.
 02.11 18:52 B6  karar turu: Claude «Piyasa güçlü ISM verisi ve İran müzakere umutlarıyla pozitif seyrediyor, ancak öğle saatlerinde ivme zayıflıyor.» / GPT «Endeksler günlük kazanımlarını korusa da son yarım saatte ivme zayıflıyor; teknoloji ağırlıklı endekste seçici kısa pozisyonu tercih ediyorum.»
+02.11 19:04 N  NEWS (8 new) score -0.10 conf 0.35: 
+02.11 19:04 N  GPT  score +0.25 conf 0.43: İran’da savaşın genişleyebileceğine dair tehditler ve görüşmelerden sonuç çıkmaması güvenli liman talebini destekleyebilir; doların borç maliyetleri nedeniyle baskı görebileceği beklentisi de altın için olumlu. Ancak görüşmelerin sürmesi, Fed sıkılaşması endişeleri ve altının önceki sert düşüş sonra
+02.11 19:04 B6  karar turu: Claude «Piyasa güçlü ISM verisiyle pozitif açıldı ancak öğle saatlerinde zirveden geri çekilip yatay seyre geçti; jeopolitik riskler ve Apple bilançosu öncesi temkinli bir görünüm hakim.» / GPT «Endeksler günlük kazançlarını korusa da son bölümdeki ivme kaybı kısa vadede temkinli satış yönünü destekliyor; dört kat kaldıraçta pozisyon büyüklüğü sınırlı tutulmalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
