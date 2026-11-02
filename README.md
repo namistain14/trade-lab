@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 10:03 (İstanbul)
+> Son güncelleme: 02.11.2026 10:06 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %16.7 | %19.4 |
 | Ödenen komisyon/spread | 27.77 $ | 303.37 $ |
 
-**Hesap değeri: 4,147.18 $** (başlangıç 5,000 $, -852.82 $ / %-17.06)
+**Hesap değeri: 4,145.49 $** (başlangıç 5,000 $, -854.51 $ / %-17.09)
 
 Açık pozisyonlar: BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94); SOLUSDT short @ 94.35 (TP 93.79 / SL 94.73)
 
@@ -75,14 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,950.93 $** (başlangıç 100,000 $, -49.07 $ / %-0.05)
+**Hesap değeri: 99,893.09 $** (başlangıç 100,000 $, -106.91 $ / %-0.11)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 08:43 N  GPT  score +0.08 conf 0.38: Petrolün ucuzlaması ve altındaki toparlanma kısa vadede destekleyici; ancak Fed’in faiz artırımı riskleri ve güçlü dolar görünümü yükselişi sınırlıyor. İran savaşına dair başlıklar yeni bir tırmanış göstermediğinden genel etki zayıf ve karışık.
 02.11 08:55 N  NEWS (10 new) score +0.10 conf 0.30: Haberler karışık: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar (rupi, rupiah zayıflığı) altı baskılıyor. İran savaşının sürmesi güvenli liman talebini destekliyor, fakat etkisi kısmen fiyatlanmış durumda; "1 yılın en düşük seviyesi" başlıkları eski olabilir.
 02.11 08:55 N  GPT  score +0.15 conf 0.34: İran savaşının sürmesi güvenli liman talebini desteklerken, petrol fiyatlarındaki gevşeme enflasyon ve faiz baskısını azaltarak altına hafif destek sağlayabilir. Ancak Fed riskleri ve 3.900 dolar üzerindeki zorlanma yükseliş potansiyelini sınırlıyor; yerel fiyat haberleri kısa vadeli küresel yön içi
 02.11 09:07 N  NEWS (11 new) score +0.10 conf 0.35: Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltarak altı hafifçe destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar baskısı sürüyor. Başlıklar çelişkili ve birçoğu zaten fiyatlanmış haberler olduğu için güven düşük tutuldu.
@@ -97,6 +96,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 09:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfccreM168QzocvWpQk'}
 02.11 10:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdfqrvqoxgzp4xVwNAnS'}
 02.11 10:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdg5AYrkRfgoPTH9zdWz'}
+02.11 10:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgJUirmccG72pjQ3BXh'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
