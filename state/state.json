@@ -5910,6 +5910,10 @@
    [
     1793627212,
     3977.24
+   ],
+   [
+    1793627393,
+    3977.24
    ]
   ]
  },
@@ -11440,6 +11444,10 @@
    ],
    [
     1793627212,
+    4868.5
+   ],
+   [
+    1793627393,
     4868.5
    ]
   ],
@@ -18903,6 +18911,10 @@
    [
     1793627212,
     4963.78
+   ],
+   [
+    1793627393,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -23211,6 +23223,10 @@
    [
     1793627212,
     4975.18
+   ],
+   [
+    1793627393,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -27485,6 +27501,10 @@
    [
     1793627212,
     4993.28
+   ],
+   [
+    1793627393,
+    4993.28
    ]
   ]
  },
@@ -31596,6 +31616,10 @@
    [
     1793627212,
     4969.22
+   ],
+   [
+    1793627393,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -34407,6 +34431,10 @@
    [
     1793627212,
     5022.7
+   ],
+   [
+    1793627393,
+    5022.7
    ]
   ],
   "news_calls": {
@@ -34629,7 +34657,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 344.25
+     "cur": 344.12
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -34643,7 +34671,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.42
+     "cur": 207.36
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -34657,18 +34685,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 405.5
+     "cur": 405.42
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -12.51,
+    "pnl": -41.14,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 101116.39
+   "equity": 101087.76
   },
   "equity_curve": [
    [
@@ -38418,6 +38446,10 @@
    [
     1793627212,
     101116.39
+   ],
+   [
+    1793627393,
+    101087.76
    ]
   ],
   "open": {
@@ -40716,6 +40748,10 @@
    ],
    [
     1793627212,
+    5000
+   ],
+   [
+    1793627393,
     5000
    ]
   ],
