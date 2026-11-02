@@ -5038,6 +5038,10 @@
    [
     1793586909,
     4139.5
+   ],
+   [
+    1793587089,
+    4139.5
    ]
   ]
  },
@@ -9956,6 +9960,10 @@
    ],
    [
     1793586909,
+    4868.5
+   ],
+   [
+    1793587089,
     4868.5
    ]
   ],
@@ -16801,6 +16809,10 @@
    [
     1793586909,
     4963.78
+   ],
+   [
+    1793587089,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -20497,6 +20509,10 @@
    [
     1793586909,
     4975.18
+   ],
+   [
+    1793587089,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -24159,6 +24175,10 @@
    [
     1793586909,
     4993.28
+   ],
+   [
+    1793587089,
+    4993.28
    ]
   ]
  },
@@ -27658,6 +27678,10 @@
    [
     1793586909,
     4969.22
+   ],
+   [
+    1793587089,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -29836,6 +29860,10 @@
    [
     1793586909,
     5078.66
+   ],
+   [
+    1793587089,
+    5078.66
    ]
   ],
   "news_calls": {
@@ -30058,7 +30086,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 345.0
+     "cur": 344.74
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -30086,18 +30114,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 400.98
+     "cur": 400.94
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -864.13,
+    "pnl": -948.03,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100264.77
+   "equity": 100180.87
   },
   "equity_curve": [
    [
@@ -33235,6 +33263,10 @@
    [
     1793586909,
     100264.77
+   ],
+   [
+    1793587089,
+    100180.87
    ]
   ],
   "open": {
@@ -34973,6 +35005,10 @@
    ],
    [
     1793586909,
+    5000
+   ],
+   [
+    1793587089,
     5000
    ]
   ],
