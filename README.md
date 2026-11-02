@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 15:59 (İstanbul)
+> Son güncelleme: 02.11.2026 16:02 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,9 +12,9 @@
 | Kazanma oranı | %20.0 | %19.7 |
 | Ödenen komisyon/spread | 62.46 $ | 338.06 $ |
 
-**Hesap değeri: 4,039.54 $** (başlangıç 5,000 $, -960.46 $ / %-19.21)
+**Hesap değeri: 4,042.97 $** (başlangıç 5,000 $, -957.03 $ / %-19.14)
 
-Açık pozisyonlar: BTCUSDT short @ 77856.64 (TP 77389.50 / SL 78168.06); BNBUSDT short @ 704.41 (TP 700.18 / SL 707.23)
+Açık pozisyonlar: BTCUSDT short @ 77856.64 (TP 77389.50 / SL 78168.06); BNBUSDT short @ 704.41 (TP 700.18 / SL 707.23); ETHUSDT short @ 2282.60 (TP 2268.90 / SL 2291.73)
 
 Son işlemler:
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 15:50): Claude puan **-0.10**, güven 0.35 — Haberler karışık: İran tehdidi ve Körfez gerilimi jeopolitik talebi destekliyor, ancak Fed faiz artırımı beklentileri ve dolardaki yükseliş altın üzerinde baskı yaratıyor. Petrol fiyatlarındaki düşüş (diplomasi umudu) enflasyon endişelerini azaltarak etkiyi dengeliyor; net etki hafif negatif, düşük güvenle değerlendirilmeli.
+Son haber analizi (02.11 16:02): Claude puan **-0.10**, güven 0.35 — Haberler karışık: İran'a yönelik Trump tehdidi jeopolitik risk yoluyla altını destekliyor, ancak petrol fiyatlarının %3'ten fazla düşmesi ve diplomasiye zaman verilmesi güvenli liman talebini ve enflasyon beklentilerini zayıflatıyor. Fed faiz artırımı beklentileri ile güçlenen dolar altın üzerinde baskı yaratıyor. Bu nedenle net etki hafif negatif, güven düşük.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.36 — Altının satış sonrası toparlanması ve zayıf dolar alımları destekleyebilir. Ancak İran konusunda diplomasi sinyalleriyle petrolün gerilemesi ve Fed faiz beklentileri yükselişi sınırlıyor; kısa vadeli etki hafif pozitif ama belirsiz.
+GPT (gpt-6-luna): puan **+0.10**, güven 0.30 — Trump’ın İran’a yönelik tehdidinin Körfez’de savaş kaygılarını canlandırması altına sınırlı güvenli liman desteği sağlayabilir. Ancak İran diplomasisi umuduyla petrolün sert düşmesi ve doların karışık seyri, kısa vadeli yönü belirsizleştiriyor.
 
 Son işlemler:
 
@@ -75,16 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,879.12 $** (başlangıç 100,000 $, +879.12 $ / %+0.88)
+**Hesap değeri: 101,034.18 $** (başlangıç 100,000 $, +1034.18 $ / %+1.03)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 14:48 N  NEWS (9 new) score +0.15 conf 0.35: Yeni başlıklar karışık: zayıflayan dolar altını destekliyor ve altın/gümüş toparlanıyor, petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatarak faiz indirimi ihtimallerini artırabilir. Öte yandan Fed faiz beklentileri toparlanmayı sınırlıyor, ISM ve ABD seçim gündemi dolar yönünde belirsizlik yaratıyor ve İran diplomasisi jeopolitik risk primini azaltıyor, bu da güvenli liman talebini zayıflatıyor. Genel etki hafif pozitif, ancak sinyaller karışık olduğu için güven düşük.
-02.11 14:48 N  GPT  score +0.05 conf 0.33: Zayıflayan doların altını desteklemesiyle toparlanma görülüyor; ancak Fed faiz beklentileri yükselişi sınırlıyor. İran diplomasisi sinyalleri ve petrol fiyatlarındaki düşüş, kısa vadeli güvenli liman talebini azaltabilir.
-02.11 15:00 N  NEWS (9 new) score +0.10 conf 0.35: Karışık sinyaller var: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflatabilir (altın için hafif olumlu), zayıf dolar da destekleyici; öte yandan Trump'ın İran'da diplomasiye zaman verdiği yönündeki haberler jeopolitik risk primini düşürüp güvenli liman talebini sınırlıyor ve Fed faiz beklentileri altın toparlanmasını sınırlıyor. Net etki sınırlı ve yön belirsiz.
 02.11 15:00 N  GPT  score +0.08 conf 0.29: Yemen’deki sivil kayıplara yol açan füze saldırısı kısa vadeli güvenli liman talebini destekleyebilir. Ancak petrolün İran diplomasisi beklentisiyle gerilemesi ve Fed faiz beklentilerinin altını sınırlaması tabloyu dengeliyor.
 02.11 15:26 A  CLOSE SOLUSDT stop: -25.98 USD
 02.11 15:26 A  CLOSE XRPUSDT stop: -12.99 USD
@@ -97,6 +94,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 15:47 A  SHORT BNBUSDT 4850 USD x3 @ 704.41 (ters sinyal, RSI 43)
 02.11 15:50 N  NEWS (12 new) score -0.10 conf 0.35: Haberler karışık: İran tehdidi ve Körfez gerilimi jeopolitik talebi destekliyor, ancak Fed faiz artırımı beklentileri ve dolardaki yükseliş altın üzerinde baskı yaratıyor. Petrol fiyatlarındaki düşüş (diplomasi umudu) enflasyon endişelerini azaltarak etkiyi dengeliyor; net etki hafif negatif, düşük güvenle değerlendirilmeli.
 02.11 15:50 N  GPT  score +0.15 conf 0.36: Altının satış sonrası toparlanması ve zayıf dolar alımları destekleyebilir. Ancak İran konusunda diplomasi sinyalleriyle petrolün gerilemesi ve Fed faiz beklentileri yükselişi sınırlıyor; kısa vadeli etki hafif pozitif ama belirsiz.
+02.11 16:02 A  SHORT ETHUSDT 2425 USD x3 @ 2282.60 (ters sinyal, RSI 45)
+02.11 16:02 N  NEWS (13 new) score -0.10 conf 0.35: Haberler karışık: İran'a yönelik Trump tehdidi jeopolitik risk yoluyla altını destekliyor, ancak petrol fiyatlarının %3'ten fazla düşmesi ve diplomasiye zaman verilmesi güvenli liman talebini ve enflasyon beklentilerini zayıflatıyor. Fed faiz artırımı beklentileri ile güçlenen dolar altın üzerinde baskı yaratıyor. Bu nedenle net etki hafif negatif, güven düşük.
+02.11 16:02 N  GPT  score +0.10 conf 0.30: Trump’ın İran’a yönelik tehdidinin Körfez’de savaş kaygılarını canlandırması altına sınırlı güvenli liman desteği sağlayabilir. Ancak İran diplomasisi umuduyla petrolün sert düşmesi ve doların karışık seyri, kısa vadeli yönü belirsizleştiriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
