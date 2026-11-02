@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 07:56 (İstanbul)
+> Son güncelleme: 02.11.2026 08:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.2 |
 | Ödenen komisyon/spread | 22.82 $ | 298.41 $ |
 
-**Hesap değeri: 4,137.97 $** (başlangıç 5,000 $, -862.03 $ / %-17.24)
+**Hesap değeri: 4,139.71 $** (başlangıç 5,000 $, -860.29 $ / %-17.21)
 
 Açık pozisyonlar: BNBUSDT short @ 712.26 (TP 707.98 / SL 715.11)
 
@@ -35,7 +35,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 142.76 $ |
 
-**Hesap değeri: 5,075.96 $** (başlangıç 5,000 $, +75.96 $ / %+1.52)
+**Hesap değeri: 5,069.12 $** (başlangıç 5,000 $, +69.12 $ / %+1.38)
 
 Açık pozisyonlar: PAXGUSDT short @ 3910.21 (TP 3898.48 / SL 3918.03)
 
@@ -64,6 +64,10 @@ Son işlemler:
 
 **Hesap değeri: 5,000.00 $** (başlangıç 5,000 $, +0.00 $ / %+0.00)
 
+Son haber analizi (02.11 08:00): Claude puan **+0.15**, güven 0.40 — Hürmüz Boğazı'nda iki tankerin mayına çarpıp patlaması arz riskini ciddi biçimde artırdığı için kısa vadede yukarı yönlü baskı yaratabilir. Ancak İran-ABD müzakerelerine ilişkin haberler fiyatları son saatlerde yüzde 3 civarında aşağı çekti ve haberler birbiriyle çelişkili; Goldman'ın tahmin artırımı ise büyük ölçüde fiyatlanmış durumda. Bu nedenle sinyal zayıf ve yönü belirsiz.
+
+GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki tankerin mayına çarparak patladığına dair yeni haber, doğrulanması hâlinde kısa vadede arz ve taşımacılık risk primini artırabilir. Ancak İran’la diplomasi haberleriyle petrolün zaten %3’ten fazla gerilemesi ve Ceyhan ihracatındaki artış bu yükseliş etkisini sınırlıyor.
+
 ## Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:4
 
 | | Bugün | Toplam |
@@ -73,15 +77,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,893.85 $** (başlangıç 100,000 $, -106.15 $ / %-0.11)
+**Hesap değeri: 99,903.36 $** (başlangıç 100,000 $, -96.64 $ / %-0.10)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-02.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD
 02.11 03:30 A  SHORT XRPUSDT 4999 USD x3 @ 1.25 (ters sinyal, RSI 43)
 02.11 04:56 A  CLOSE XRPUSDT stop: -26.51 USD
@@ -95,6 +97,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 07:50 A  SHORT BNBUSDT 4967 USD x3 @ 712.26 (ters sinyal, RSI 41)
 02.11 07:54 N  NEWS (13 new) score -0.50 conf 0.60: Warsh'ın Fed'in faiz artırımına devam edeceğine dair sinyalleri ve piyasadaki faiz artırımı beklentileri, güçlü dolar ile birlikte altın üzerinde baskı oluşturuyor. Altının yıllık en düşük seviyeye gerilemesi margin call kaynaklı satışlarla hızlandı; İran savaşına dair jeopolitik risk ise güvenli liman talebi yaratmak yerine dolar ve petrol kanalıyla karışık bir etki yaratıyor. Bazı haberlerin eski veya fiyatlanmış olması ve barış görüşmelerinin sürmesi güveni sınırlıyor.
 02.11 07:54 N  GPT  score -0.15 conf 0.34: Yeni başlıkların çoğu yerel perakende fiyatları veya altınla doğrudan ilgili olmayan haberler; kısa vadeli küresel fiyat için belirgin yeni katalizör yok. Önceki Fed faiz artırımı beklentileri ve güçlü dolar baskı yaratırken, İran gerilimi olası güvenli liman desteği sağlıyor; bu nedenle görünüm haf
+02.11 08:00 B5P  NEWS (45 new) score +0.15 conf 0.40: Hürmüz Boğazı'nda iki tankerin mayına çarpıp patlaması arz riskini ciddi biçimde artırdığı için kısa vadede yukarı yönlü baskı yaratabilir. Ancak İran-ABD müzakerelerine ilişkin haberler fiyatları son saatlerde yüzde 3 civarında aşağı çekti ve haberler birbiriyle çelişkili; Goldman'ın tahmin artırımı ise büyük ölçüde fiyatlanmış durumda. Bu nedenle sinyal zayıf ve yönü belirsiz.
+02.11 08:00 B5P  GPT  score +0.20 conf 0.48: Hürmüz Boğazı’nda iki tankerin mayına çarparak patladığına dair yeni haber, doğrulanması hâlinde kısa vadede arz ve taşımacılık risk primini artırabilir. Ancak İran’la diplomasi haberleriyle petrolün zaten %3’ten fazla gerilemesi ve Ceyhan ihracatındaki artış bu yükseliş etkisini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
