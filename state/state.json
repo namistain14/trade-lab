@@ -6218,6 +6218,10 @@
    [
     1793645170,
     3977.24
+   ],
+   [
+    1793645375,
+    3977.24
    ]
   ]
  },
@@ -12057,15 +12061,19 @@
    [
     1793645170,
     4868.5
+   ],
+   [
+    1793645375,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.35,
-   "reason": "Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi, Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini azalt\u0131p dolarda zay\u0131flama yaratarak alt\u0131 destekliyor; alt\u0131n bir y\u0131ll\u0131k dipten yakla\u015f\u0131k %2 toparland\u0131. Ancak ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin yo\u011funla\u015fmas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve El Nino kaynakl\u0131 enflasyon riski ile OPEC+ endi\u015feleri bu tabloyu kar\u0131\u015f\u0131k hale getiriyor. Bu nedenle hafif pozitif, d\u00fc\u015f\u00fck-orta g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri ve H\u00fcrm\u00fcz'\u00fcn yeniden a\u00e7\u0131lma ihtimali, jeopolitik risk primini d\u00fc\u015f\u00fcrerek alt\u0131n i\u00e7in g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Petrol fiyatlar\u0131n\u0131n %7'den fazla d\u00fc\u015fmesi ise enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekleyip alt\u0131 k\u0131smen dengeliyor; net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcven.",
    "n": 45,
-   "ts": 1793644640593,
-   "new_headlines": 18,
+   "ts": 1793645362289,
+   "new_headlines": 8,
    "key_events": [
     "Petrol fiyatlar\u0131 bar\u0131\u015f umutlar\u0131yla sert d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 beklentileri geriledi",
     "Dolar endeksi bir ayl\u0131k/be\u015f haftal\u0131k dibe geriledi",
@@ -12073,27 +12081,18 @@
    ],
    "gpt": {
     "score": -0.25,
-    "confidence": 0.57,
-    "reason": "ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin sava\u015f\u0131 \u00f6nleyebilece\u011fi ve H\u00fcrm\u00fcz\u2019\u00fcn yeniden a\u00e7\u0131labilece\u011fi haberleri petrol\u00fc sert d\u00fc\u015f\u00fcrerek g\u00fcvenli liman ve enflasyon kaynakl\u0131 alt\u0131n talebini azaltabilir. Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 alt\u0131na destek sa\u011fl\u0131yor; bu nedenle k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde negatif g\u00f6r\u00fcn\u00fcyor.",
+    "confidence": 0.42,
+    "reason": "ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin sava\u015f riskini azaltmas\u0131 ve petrol\u00fcn sert d\u00fc\u015fmesi, g\u00fcvenli liman talebini zay\u0131flatarak alt\u0131n i\u00e7in k\u0131sa vadede hafif bask\u0131 yaratabilir. Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 bunu k\u0131smen dengeliyor; 2027\u2019ye ili\u015fkin enflasyon haberi ise 1-4 saatlik g\u00f6r\u00fcn\u00fcm i\u00e7in uzak ve etkisi s\u0131n\u0131rl\u0131.",
     "key_events": [
-     "ABD-\u0130ran g\u00f6r\u00fc\u015fmeleri ve H\u00fcrm\u00fcz\u2019\u00fcn a\u00e7\u0131lma olas\u0131l\u0131\u011f\u0131",
-     "Petrolde y\u00fczde 7\u2019yi a\u015fan d\u00fc\u015f\u00fc\u015f",
-     "Ukrayna\u2019daki yard\u0131m merkezine \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131"
+     "ABD-\u0130ran g\u00f6r\u00fc\u015fmeleri ve petrol fiyat\u0131nda sert d\u00fc\u015f\u00fc\u015f",
+     "Ukrayna\u2019daki yard\u0131m merkezine y\u00f6nelik \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131",
+     "2027 enflasyon riskine dair Fed \u00e7al\u0131\u015fmas\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792791760088,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Fed'in 25 baz puan faiz art\u0131r\u0131p s\u0131k\u0131la\u015fma d\u00f6ng\u00fcs\u00fcn\u00fc ba\u015flatmas\u0131 ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015fin faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve haftal\u0131k sert kay\u0131p bildiriliyor. \u0130ran sava\u015f\u0131n\u0131n uzamas\u0131 jeopolitik g\u00fcvenli liman talebini destekliyor, ancak reel faiz ve dolar etkisi bu deste\u011fi bask\u0131l\u0131yor; bu y\u00fczden orta d\u00fczeyde negatif bir g\u00f6r\u00fcn\u00fcm.",
-    "new": 7,
-    "gpt_score": -0.45,
-    "gpt_confidence": 0.61
-   },
    {
     "ts": 1792792591259,
     "score": -0.35,
@@ -14784,18 +14783,32 @@
     "new": 18,
     "gpt_score": -0.25,
     "gpt_confidence": 0.57
+   },
+   {
+    "ts": 1793645362289,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri ve H\u00fcrm\u00fcz'\u00fcn yeniden a\u00e7\u0131lma ihtimali, jeopolitik risk primini d\u00fc\u015f\u00fcrerek alt\u0131n i\u00e7in g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Petrol fiyatlar\u0131n\u0131n %7'den fazla d\u00fc\u015fmesi ise enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekleyip alt\u0131 k\u0131smen dengeliyor; net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcven.",
+    "new": 8,
+    "gpt_score": -0.25,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-11-02",
-   "n": 38
+   "n": 39
   },
   "news_seen": [
    "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
-   "Northern Star Resources Shares Move Red YTD, As Gold Prices Pull Back - thebull.com.au",
+   "Another Federal Reserve Study Puts Illegal Immigration at the Center of the Housing Debate - KSLM Radio",
+   "APTOPIX Iran War Training - dailyrecordnews.com",
+   "Canadian dollar steadies as investors weigh officials' trade comments - Reuters",
+   "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+   "El Nino poses \u2018meaningful risk\u2019 of higher inflation in 2027, SF Fed paper says - WNWN-FM",
+   "The internet's latest obsession: The end of the world - Axios",
+   "Northern Star Resources Shares Move Red YTD, As Gold Prices Pull Back - TheBull.com.au",
    "Weekly Market Preview: Oil Drop on Iran Talks, Gold Breakdown, PMI Strength & FX Outlook - FXEmpire",
    "Photos | Bayside Historical Society hosts Civil War Living History event - QNS.com",
-   "The internet's latest obsession: The end of the world - Axios",
    "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
    "Trump reportedly in no rush to decide whether to resume war with Iran - The Times of Israel",
    "Canadian Dollar gains stall as positive US-Iran headlines send Oil lower - FXStreet",
@@ -14805,17 +14818,17 @@
    "Lockheed Martin to invest $420M in Arkansas missile production expansion (LMT:NYSE) - Seeking Alpha",
    "Strained, Not Broken: Saudi Arabia Hedges as War Tests Alliance With US - The Well News",
    "103-year-old World War II veteran to be honored at Brunswick Veterans Day parade - The Frederick News-Post",
-   "Live Civil War-era artillery shell found in Pennsylvania home - KSL",
-   "Protesters block RAF Lakenheath entrance over Iran war - Stars and Stripes",
    "International Criminal Court chief says US sanctions seek to 'obstruct couse of justice' - Anadolu Ajans\u0131",
    "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal - The New York Times",
    "US Dollar, GBP/USD, USD/CAD, USD/CHF, Gold Weekly Technical Outlook - FOREX.com",
    "Saudi Arabia and Gulf Arab allies are exporting oil at about pre-war rates again - Quartz",
-   "El Nino poses 'meaningful risk' of higher inflation in 2027, SF Fed paper says - Reuters",
+   "Culture War Tensions Roil Beverly Hills School Board Race - The New York Times",
+   "El Ni\u00f1o Could Raise US Inflation, Boost Jobs in 2027, Fed Study Says - Bloomberg.com",
    "Warsh Fed Should Heed New Zealand's Cautionary Tale - Bloomberg.com",
    "Burrack spent year in Vietnam fighting war - NEW Media Inc.",
    "Gold price rises in Bangladesh - Banglanews24",
    "Singapore Dollar: Range-bound trading outlook against US Dollar \u2013 UOB - FXStreet",
+   "Protesters block RAF Lakenheath entrance over Iran war - Stars and Stripes",
    "Gold price rises by Tk 3,265 a bhari - New Age BD",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Rebounds As Oil Tumbles - FXEmpire",
    "Inflation and affordability concerns weigh on voters ahead of midterms - The Journal Record",
@@ -14830,19 +14843,10 @@
    "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
    "Drone attacks extend campaign targeting Sudan\u2019s power system - Al Jazeera",
    "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-   "White House Improves Maintenance Dodge for Russia Civilian Airlines - Kyiv Post",
-   "Dutch police offer record \u20ac2m reward in hunt for drug lord",
-   "From a Bahamas Wedding to a Sanctioned Stablecoin: Mapping Trump-Kremlin Business Ties - Kyiv Post",
-   "Fed Chair Kevin Warsh is cutting the number of rate-setting votes - Quartz",
-   "Gulf Arab Oil Giants Are Exporting Crude at Pre-War Rates Again - Bloomberg.com",
-   "The Fed Waits as Municipal Bonds Regain Their Defensive Role - AdvisorHub"
+   "White House Improves Maintenance Dodge for Russia Civilian Airlines - Kyiv Post"
   ]
  },
  "log": [
-  "01.11 18:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 19:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 19:05 A  SHORT ETHUSDT 5057 USD x3 @ 2267.22 (ters sinyal, RSI 45)",
-  "01.11 19:05 A  SHORT SOLUSDT 2529 USD x3 @ 94.79 (ters sinyal, RSI 39)",
   "01.11 19:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 19:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 19:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -15138,7 +15142,11 @@
   "02.11 21:18 B6  karar turu: Claude \u00abPiyasa \u0130ran bar\u0131\u015f umutlar\u0131yla \u0131l\u0131ml\u0131 pozitif, ancak yapay zeka de\u011ferleme endi\u015feleri Nasdaq'\u0131 S&P 500'\u00fcn gerisinde tutuyor.\u00bb / GPT \u00abEndeksler dar bantta y\u00f6n ar\u0131yor; mevcut hareketler 1:4 kald\u0131ra\u00e7la yeni pozisyon a\u00e7mak i\u00e7in yeterli avantaj g\u00f6stermiyor.\u00bb",
   "02.11 21:37 N  NEWS (18 new) score +0.10 conf 0.35: ",
   "02.11 21:37 N  GPT  score -0.25 conf 0.57: ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin sava\u015f\u0131 \u00f6nleyebilece\u011fi ve H\u00fcrm\u00fcz\u2019\u00fcn yeniden a\u00e7\u0131labilece\u011fi haberleri petrol\u00fc sert d\u00fc\u015f\u00fcrerek g\u00fcvenli liman ve enflasyon kaynakl\u0131 alt\u0131n talebini azaltabilir. Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 alt\u0131na destek sa\u011fl\u0131yor; bu nedenle k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde negatif g\u00f6r\u00fcn\u00fcyor.",
-  "02.11 21:37 B6  karar turu: Claude \u00abPiyasa \u0130ran bar\u0131\u015f umutlar\u0131yla hafif pozitif seyrediyor ancak teknoloji hisseleri yatay ve zay\u0131f; geni\u015f endekslerde s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f e\u011filimi var.\u00bb / GPT \u00abEndekslerde momentum zay\u0131flarken teknoloji taraf\u0131ndaki g\u00f6reli g\u00fc\u00e7s\u00fczl\u00fck se\u00e7ici k\u0131sa pozisyonu destekliyor; 14:37 itibar\u0131yla i\u015flemler kapan\u0131\u015ftan \u00f6nce sonland\u0131r\u0131lmal\u0131.\u00bb"
+  "02.11 21:37 B6  karar turu: Claude \u00abPiyasa \u0130ran bar\u0131\u015f umutlar\u0131yla hafif pozitif seyrediyor ancak teknoloji hisseleri yatay ve zay\u0131f; geni\u015f endekslerde s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f e\u011filimi var.\u00bb / GPT \u00abEndekslerde momentum zay\u0131flarken teknoloji taraf\u0131ndaki g\u00f6reli g\u00fc\u00e7s\u00fczl\u00fck se\u00e7ici k\u0131sa pozisyonu destekliyor; 14:37 itibar\u0131yla i\u015flemler kapan\u0131\u015ftan \u00f6nce sonland\u0131r\u0131lmal\u0131.\u00bb",
+  "02.11 21:49 N  NEWS (8 new) score -0.10 conf 0.40: ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri ve H\u00fcrm\u00fcz'\u00fcn yeniden a\u00e7\u0131lma ihtimali, jeopolitik risk primini d\u00fc\u015f\u00fcrerek alt\u0131n i\u00e7in g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Petrol fiyatlar\u0131n\u0131n %7'den fazla d\u00fc\u015fmesi ise enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekleyip alt\u0131 k\u0131smen dengeliyor; net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcven.",
+  "02.11 21:49 N  GPT  score -0.25 conf 0.42: ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin sava\u015f riskini azaltmas\u0131 ve petrol\u00fcn sert d\u00fc\u015fmesi, g\u00fcvenli liman talebini zay\u0131flatarak alt\u0131n i\u00e7in k\u0131sa vadede hafif bask\u0131 yaratabilir. Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 bunu k\u0131smen dengeliyor; 2027\u2019ye ili\u015fkin enflasyon haberi ise 1-4 saatlik g\u00f6r\u00fcn\u00fcm i\u00e7in uzak ve etkisi s\u0131n\u0131rl\u0131.",
+  "02.11 21:49 B6  karar turu: Claude \u00abEndeksler \u0130ran bar\u0131\u015f umudu ve d\u00fc\u015fen petrolle desteklenirken teknoloji taraf\u0131nda AI \u015f\u00fcphecili\u011fi ve Apple bilan\u00e7o \u00f6ncesi temkin zay\u0131fl\u0131k yarat\u0131yor.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i momentum a\u015fa\u011f\u0131 d\u00f6n\u00fcyor; taze \u015firket haberi bulunmad\u0131\u011f\u0131ndan kapan\u0131\u015fa yak\u0131n kald\u0131ra\u00e7l\u0131 i\u015flemlerde avantaj s\u0131n\u0131rl\u0131.\u00bb",
+  "02.11 21:49 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"102999.24\",\"message\":\"insufficient buying power\"}"
  ],
  "gold_big": {
   "account": {
@@ -19827,6 +19835,10 @@
    [
     1793645170,
     4963.78
+   ],
+   [
+    1793645375,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -24443,6 +24455,10 @@
    [
     1793645170,
     4975.18
+   ],
+   [
+    1793645375,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -29025,6 +29041,10 @@
    [
     1793645170,
     4993.28
+   ],
+   [
+    1793645375,
+    4993.28
    ]
   ]
  },
@@ -33444,6 +33464,10 @@
    [
     1793645170,
     4969.22
+   ],
+   [
+    1793645375,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -36600,6 +36624,10 @@
    [
     1793645170,
     4964.86
+   ],
+   [
+    1793645375,
+    4960.63
    ]
   ],
   "news_calls": {
@@ -36807,7 +36835,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.73989300002,
+   "balance": 99840.739893,
    "start": 100000.0,
    "positions": [
     {
@@ -36822,7 +36850,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 336.532
+     "cur": 336.96
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -36836,7 +36864,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 205.85
+     "cur": 205.91
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -36850,18 +36878,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 407.53
+     "cur": 407.74
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -981.6,
+    "pnl": -836.19,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100147.3
+   "equity": 100292.71
   },
   "equity_curve": [
    [
@@ -40919,6 +40947,10 @@
    [
     1793645170,
     100147.3
+   ],
+   [
+    1793645375,
+    100292.71
    ]
   ],
   "open": {
@@ -40958,32 +40990,32 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793644640841,
+  "last_decision_ms": 1793645362514,
   "view": {
-   "ts": 1793644640841,
-   "claude": "Piyasa \u0130ran bar\u0131\u015f umutlar\u0131yla hafif pozitif seyrediyor ancak teknoloji hisseleri yatay ve zay\u0131f; geni\u015f endekslerde s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f e\u011filimi var.",
-   "gpt": "Endekslerde momentum zay\u0131flarken teknoloji taraf\u0131ndaki g\u00f6reli g\u00fc\u00e7s\u00fczl\u00fck se\u00e7ici k\u0131sa pozisyonu destekliyor; 14:37 itibar\u0131yla i\u015flemler kapan\u0131\u015ftan \u00f6nce sonland\u0131r\u0131lmal\u0131.",
+   "ts": 1793645362514,
+   "claude": "Endeksler \u0130ran bar\u0131\u015f umudu ve d\u00fc\u015fen petrolle desteklenirken teknoloji taraf\u0131nda AI \u015f\u00fcphecili\u011fi ve Apple bilan\u00e7o \u00f6ncesi temkin zay\u0131fl\u0131k yarat\u0131yor.",
+   "gpt": "Endekslerde g\u00fcn i\u00e7i momentum a\u015fa\u011f\u0131 d\u00f6n\u00fcyor; taze \u015firket haberi bulunmad\u0131\u011f\u0131ndan kapan\u0131\u015fa yak\u0131n kald\u0131ra\u00e7l\u0131 i\u015flemlerde avantaj s\u0131n\u0131rl\u0131.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "long",
+      "none",
       0.4
      ],
      "gpt": [
       "none",
-      0.79
+      0.66
      ]
     },
     "QQQ": {
      "claude": [
-      "none",
+      "short",
       0.55
      ],
      "gpt": [
       "short",
-      0.57
+      0.6
      ]
     },
     "NVDA": {
@@ -43577,6 +43609,10 @@
    ],
    [
     1793645170,
+    5000
+   ],
+   [
+    1793645375,
     5000
    ]
   ],
