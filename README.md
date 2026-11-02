@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 20:50 (İstanbul)
+> Son güncelleme: 02.11.2026 20:54 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %42.9 |
 | Ödenen komisyon/spread | 23.81 $ | 166.57 $ |
 
-**Hesap değeri: 4,986.51 $** (başlangıç 5,000 $, -13.49 $ / %-0.27)
+**Hesap değeri: 4,970.48 $** (başlangıç 5,000 $, -29.52 $ / %-0.59)
 
 Açık pozisyonlar: PAXGUSDT long @ 3959.62 (TP 3971.50 / SL 3951.70)
 
-Son haber analizi (02.11 20:42): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının düşmesi Fed faiz artırımı beklentilerini zayıflatıyor ve dolar beş haftanın en düşüğüne geriledi; bu, altın için destekleyici. Buna karşılık İran ile barış görüşmelerinin hızlanması güvenli liman talebini biraz azaltabilir ve altındaki yükseliş kısmen fiyatlanmış durumda, bu nedenle güven orta düzeyde tutuldu.
+Son haber analizi (02.11 20:54): Claude puan **+0.30**, güven 0.45 — Petrol fiyatlarının düşmesi Fed faiz artırımı beklentilerini zayıflatıyor ve dolar beş haftanın en düşük seviyesine geriledi; bu, altın için olumlu bir tablo. Buna karşın İran ile müzakerelerin sürmesi ve Trump'ın yeni saldırı tehdidi güvenli liman talebini kısmen destekliyor, bu nedenle etki sınırlı ve haberler çelişkili; altındaki yükseliş de zaten fiyatlanmış olabilir.
 
-GPT (gpt-6-luna): puan **+0.38**, güven 0.54 — Petrol fiyatlarındaki düşüşün Fed faiz artırımı beklentilerini zayıflatması ve doların gerilemesi altını destekliyor; Ukrayna ve Sudan’daki çatışmalar da güvenli liman talebini artırabilir. Ancak İran’la barış görüşmeleri ve altının son saatlerde zaten yükselmiş olması ek yükselişin gücünü sınırlıyo
+GPT (gpt-6-luna): puan **+0.35**, güven 0.53 — Petrol fiyatlarındaki sert düşüş ve doların zayıflaması, Fed’in faiz artırımı beklentilerini azaltarak altını kısa vadede destekliyor. İran’la yoğun görüşmeler güvenli liman talebini sınırlayabilir; savaş tehditleri ve çelişkili haberler görünümü belirsiz kılıyor.
 
 Son işlemler:
 
@@ -75,17 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,765.82 $** (başlangıç 100,000 $, +765.82 $ / %+0.77)
+**Hesap değeri: 100,704.24 $** (başlangıç 100,000 $, +704.24 $ / %+0.70)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 19:56 N  GPT  score +0.35 conf 0.53: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırma beklentilerini zayıflatması ve doların geri çekilmesi kısa vadede altını destekleyebilir. İran’la barış görüşmeleri güvenli liman talebini azaltırken yeni saldırı tehdidi bu etkiyi sınırlıyor.
-02.11 19:56 B5  LONG gold 25000 USD x10 @ 3972.84 (TP 3984.76, SL 3964.90; news +0.32)
-02.11 19:56 B6  karar turu: Claude «Endeksler günü artıda tutsa da öğleden sonra teknoloji ağırlıklı hafif bir zayıflama var; İran gerilimi ve Apple bilançosu öncesi temkinli bir hava hakim.» / GPT «Endekslerde gün içi kazançlar korunurken teknoloji tarafındaki belirgin zayıflık seçici kısa pozisyonları destekliyor.»
-02.11 20:08 N  NEWS (12 new) score +0.25 conf 0.40: Petrol fiyatlarının İran savaşının sona erebileceği umutlarıyla sert düşmesi, Fed faiz artırımı beklentilerini zayıflatarak altı destekliyor; dolar ayrıca bir aylık dibe gerilemiş durumda. Buna karşın barış umudu jeopolitik korku primini azaltarak güvenli liman talebini baskılıyor, bu nedenle etki sınırlı ve karışık.
 02.11 20:08 N  GPT  score +0.35 conf 0.56: Doların bir aylık dip seviyeye gerilemesi ve petrol düşüşünün Fed’in faiz artırımı beklentilerini zayıflatması altını kısa vadede destekliyor; altının zaten %2 yükseldiği bildiriliyor. İran’la yoğun görüşmelerin savaş riskini azaltabileceği yönündeki haberler güvenli liman talebini sınırlayabilir.
 02.11 20:08 B6  karar turu: Claude «Piyasa güçlü ISM verisiyle hafif pozitif ancak öğle saatlerinde yatay seyrediyor; Apple bilançosu ve İran haberleri öncesinde temkinli iyimserlik hakim.» / GPT «Endeksler gün içi kazanımlarını korurken son saatte ivme kaybediyor; dar bantta 4 kat kaldıraçla yeni işlem açmayı destekleyen belirgin bir avantaj yok.»
 02.11 20:20 N  NEWS (6 new) score +0.30 conf 0.45: Petrol fiyatlarının düşmesi (Brent %5,9 geriledi) Fed sıkılaşma beklentilerini zayıflatarak altın için destekleyici; dolar ise bir aylık düşüğe geriledi. Buna karşılık İran savaşının uzayabileceği yönündeki haberler jeopolitik risk talebini canlı tutuyor ve diplomatik umutlar hızla değişebilir, bu yüzden sinyal karışık ve güven sınırlı.
@@ -97,6 +93,10 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 20:42 B5  LONG gold 25000 USD x10 @ 3959.62 (TP 3971.50, SL 3951.70; news +0.34)
 02.11 20:42 B6  karar turu: Claude «Endeksler gün içi kazançlarını yavaşça geri veriyor ve teknoloji, petrol düşüşüne rağmen göreceli zayıf kalıyor.» / GPT «Endekslerde kısa vadeli momentum aşağı yönlü; ancak taze ve doğrudan bir olumsuz katalizörün yokluğu, sabit yüzde 1,5 hedefin kalan seansta gerçekleşmesini belirsiz kılıyor.»
 02.11 20:42 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103191.9","message":"insufficient buying power"}
+02.11 20:54 N  NEWS (13 new) score +0.30 conf 0.45: Petrol fiyatlarının düşmesi Fed faiz artırımı beklentilerini zayıflatıyor ve dolar beş haftanın en düşük seviyesine geriledi; bu, altın için olumlu bir tablo. Buna karşın İran ile müzakerelerin sürmesi ve Trump'ın yeni saldırı tehdidi güvenli liman talebini kısmen destekliyor, bu nedenle etki sınırlı ve haberler çelişkili; altındaki yükseliş de zaten fiyatlanmış olabilir.
+02.11 20:54 N  GPT  score +0.35 conf 0.53: Petrol fiyatlarındaki sert düşüş ve doların zayıflaması, Fed’in faiz artırımı beklentilerini azaltarak altını kısa vadede destekliyor. İran’la yoğun görüşmeler güvenli liman talebini sınırlayabilir; savaş tehditleri ve çelişkili haberler görünümü belirsiz kılıyor.
+02.11 20:54 B6  karar turu: Claude «Petroldeki düşüş ve İran barış umutları döngüsel hisseleri desteklerken, yapay zeka değerleme kaygıları öğleden sonra teknoloji ağırlıklı endekslerde satış baskısı yaratıyor.» / GPT «Gün içi momentum aşağı yönlü; iki kısa pozisyon yüksek korelasyon taşıdığından 1:4 kaldıraç altında toplam risk birlikte sınırlandırılmalı.»
+02.11 20:54 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103117.22","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
