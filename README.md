@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 01:38 (İstanbul)
+> Son güncelleme: 03.11.2026 01:41 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.8 |
 | Ödenen komisyon/spread | 4.78 $ | 354.99 $ |
 
-**Hesap değeri: 3,949.11 $** (başlangıç 5,000 $, -1050.89 $ / %-21.02)
+**Hesap değeri: 3,947.27 $** (başlangıç 5,000 $, -1052.73 $ / %-21.05)
 
 Açık pozisyonlar: BTCUSDT short @ 76798.96 (TP 76338.17 / SL 77106.16)
 
@@ -39,9 +39,9 @@ Son işlemler:
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
-Son haber analizi (03.11 01:29): Claude puan **+0.15**, güven 0.40 — Petrol fiyatlarının düşmesi ve Treasury getirilerinin geriye çekilmesi enflasyon beklentilerini yumuşatıp reel faizleri baskılayarak altın için hafif olumlu bir etki yaratıyor. Ancak İran ile müzakerelerin yoğunlaşması güvenli liman talebini azaltıyor ve Fed'in sıkılaştırma bahisleri sürdüğü için etki sınırlı kalıyor.
+Son haber analizi (03.11 01:41): Claude puan **+0.02**, güven 0.35 — Haberler birbiriyle çelişiyor: İran-ABD müzakerelerinin sürmesi ve petrol fiyatlarının düşmesi jeopolitik güvenli liman talebini zayıflatıp gösterge tahvil getirilerini aşağı çekerek altı destekliyor, ancak Fed sıkılaştırma beklentilerinin sürmesi ve doların bazı günlerde güçlenmesi altı baskılıyor. Altın 3.900 doların altına kapanmış olsa da kısmen toparlanma gösteriyor; net etki 1-4 saatlik pencerede nötre yakın.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — Hazine tahvil getirilerindeki düşüş altını kısa vadede destekleyebilir; ancak İran’la yoğunlaşan görüşmeler güvenli liman talebini azaltabilir. Fed’in sıkılaşma beklentilerinin sürmesi ve altının 3.900 dolar altındaki kapanışına ilişkin teknik baskı yükseliş ihtimalini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.32 — İran’la görüşmeler sürse de henüz atılım olmaması güvenli liman talebini destekleyebilir; düşen tahvil getirileri ve doların geri çekilmesi de altın için hafif olumlu. Ancak petrol düşüşü ve haberlerin bir kısmının uzun vadeli ya da tekrarlanan nitelikte olması yakın vadeli etkiyi sınırlıyor.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 00:18 N  NEWS (7 new) score +0.05 conf 0.35: 
-03.11 00:18 N  GPT  score +0.25 conf 0.40: Doların geri çekilmesi ve petrol düşüşünün Fed faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. İran konusunda hem müzakere/ateşkes işaretleri hem de yeni saldırı riski bulunduğundan güvenli liman etkisi belirsiz; haber akışı çelişkili.
 03.11 00:30 N  NEWS (11 new) score -0.10 conf 0.35: Yeni gelen başlıkların çoğu altınla ilgisiz (spor, kültür, savaş metaforları). Jeopolitik tarafta İran ile anlaşma beklentisi güvenli liman talebini zayıflatabilir, Dallas Fed'in "en az iki faiz artışı" yorumu ise faiz beklentilerini yükselterek altın için baskı yaratıyor. Buna karşılık petrol fiyatlarındaki düşüş faiz artırımı beklentilerini sınırlıyor ve Ukrayna'daki saldırılar ile İran savaşı riski kısa vadeli destek sağlayabilir; bu karışık tablo nedeniyle hafif negatif, düşük güvenli bir görüş.
 03.11 00:30 N  GPT  score +0.15 conf 0.32: Doların geri çekilmesi ve düşen petrol fiyatlarının Fed’in faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. Ancak İran’la görüşme ve olası anlaşma haberleri güvenli liman talebini azaltırken, haber akışı karışık ve yeni gelişmelerin çoğu altın için doğrudan etkisiz.
 03.11 00:39 A  CLOSE BNBUSDT stop: -25.31 USD
@@ -103,6 +101,8 @@ Son işlemler:
 03.11 01:17 N  GPT  score +0.20 conf 0.42: Doların gerilemesi ve zayıflayan kredi talebi altına kısa vadede sınırlı destek sağlayabilir. İran görüşmelerinin ilerlemesi güvenli liman talebini azaltırken, petrol düşüşü ile enflasyon ve Fed beklentilerindeki belirsizlik bu desteği dengeliyor.
 03.11 01:29 N  NEWS (8 new) score +0.15 conf 0.40: Petrol fiyatlarının düşmesi ve Treasury getirilerinin geriye çekilmesi enflasyon beklentilerini yumuşatıp reel faizleri baskılayarak altın için hafif olumlu bir etki yaratıyor. Ancak İran ile müzakerelerin yoğunlaşması güvenli liman talebini azaltıyor ve Fed'in sıkılaştırma bahisleri sürdüğü için etki sınırlı kalıyor.
 03.11 01:29 N  GPT  score +0.15 conf 0.34: Hazine tahvil getirilerindeki düşüş altını kısa vadede destekleyebilir; ancak İran’la yoğunlaşan görüşmeler güvenli liman talebini azaltabilir. Fed’in sıkılaşma beklentilerinin sürmesi ve altının 3.900 dolar altındaki kapanışına ilişkin teknik baskı yükseliş ihtimalini sınırlıyor.
+03.11 01:41 N  NEWS (6 new) score +0.02 conf 0.35: Haberler birbiriyle çelişiyor: İran-ABD müzakerelerinin sürmesi ve petrol fiyatlarının düşmesi jeopolitik güvenli liman talebini zayıflatıp gösterge tahvil getirilerini aşağı çekerek altı destekliyor, ancak Fed sıkılaştırma beklentilerinin sürmesi ve doların bazı günlerde güçlenmesi altı baskılıyor. Altın 3.900 doların altına kapanmış olsa da kısmen toparlanma gösteriyor; net etki 1-4 saatlik pencerede nötre yakın.
+03.11 01:41 N  GPT  score +0.18 conf 0.32: İran’la görüşmeler sürse de henüz atılım olmaması güvenli liman talebini destekleyebilir; düşen tahvil getirileri ve doların geri çekilmesi de altın için hafif olumlu. Ancak petrol düşüşü ve haberlerin bir kısmının uzun vadeli ya da tekrarlanan nitelikte olması yakın vadeli etkiyi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
