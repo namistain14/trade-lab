@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 23:10 (İstanbul)
+> Son güncelleme: 02.11.2026 23:14 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 47.60 $ | 190.36 $ |
 
-**Hesap değeri: 4,848.91 $** (başlangıç 5,000 $, -151.09 $ / %-3.02)
+**Hesap değeri: 4,870.87 $** (başlangıç 5,000 $, -129.13 $ / %-2.58)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
-Son haber analizi (02.11 23:01): Claude puan **-0.30**, güven 0.45 — ABD-İran müzakere haberleri ve petrolde yaklaşık %7'lik düşüş jeopolitik güvenli liman talebini azaltıyor, bu da altın için olumsuz. El Niño kaynaklı enflasyon riski uyarısı (SF Fed) faiz beklentilerini sertleştirebileceğinden ek bir baskı yaratıyor; ancak petrol düşüşü enflasyon beklentilerini bir ölçüde yumuşatıyor ve "altın yeniden toparlandı" gibi karışık sinyaller var, bu nedenle güven orta düzeyde.
+Son haber analizi (02.11 23:13): Claude puan **-0.20**, güven 0.40 — ABD-İran müzakere haberleri ve petrolde yaklaşık %7'lik düşüş jeopolitik güvenli liman talebini azaltıyor, bu da altın için olumsuz. El Niño kaynaklı enflasyon riski uyarısı (SF Fed) faiz beklentilerini sertleştirebileceğinden ek bir baskı yaratıyor; ancak petrol düşüşü enflasyon beklentilerini bir ölçüde yumuşatıyor ve "altın yeniden toparlandı" gibi karışık sinyaller var, bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.58 — ABD-İran görüşmelerinin hızlanması ve Hürmüz Boğazı’nın yeniden açılabileceği haberleri kısa vadeli güvenli liman talebini azaltarak altını baskılayabilir; 3.900 dolar altındaki kapanış da teknik açıdan olumsuz. Ancak Ukrayna’daki can kayıpları ve petrol düşüşünün enflasyon/faiz beklentilerine etkis
+GPT (gpt-6-luna): puan **-0.20**, güven 0.58 — ABD-İran görüşmelerindeki ilerleme ve Hürmüz’ün yeniden açılabileceği beklentisi güvenli liman talebini azaltarak altını kısa vadede baskılayabilir; petrol düşüşünün enflasyon ve faiz beklentilerine etkisi ise altına destek sağlayabilir. 3.900 dolar altındaki kapanışa ilişkin teknik uyarılar da aşağ
 
 Son işlemler:
 
@@ -60,7 +60,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,008.14 $** (başlangıç 5,000 $, +8.14 $ / %+0.16)
+**Hesap değeri: 5,151.47 $** (başlangıç 5,000 $, +151.47 $ / %+3.03)
 
 Açık pozisyonlar: BZ=F short @ 104.65 (TP 104.34 / SL 104.86)
 
@@ -77,16 +77,13 @@ GPT (gpt-6-luna): puan **-0.78**, güven 0.82 — ABD-İran ateşkes görüşmel
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,817.09 $** (başlangıç 100,000 $, +817.09 $ / %+0.82)
+**Hesap değeri: 100,640.84 $** (başlangıç 100,000 $, +640.84 $ / %+0.64)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 22:38 N  GPT  score +0.18 conf 0.40: Ukrayna’daki yardım merkezine yönelik ölümcül saldırı kısa vadede güvenli liman talebini destekleyebilir. Buna karşılık ABD-İran görüşmelerindeki ilerleme ve petrol fiyatlarındaki sert düşüş jeopolitik risk primini azaltıyor; net etki sınırlı ve karışık görünüyor.
-02.11 22:38 B6  karar turu: Claude «Petroldeki düşüş ve İran barış umutlarına rağmen teknoloji ağırlıklı satışlar kapanışa doğru endeksleri aşağı çekiyor; kısa vadeli eğilim hafif negatif.» / GPT «Teknoloji hisselerinde satış baskısı baskın; ancak kapanışa 23 dakika kalması ve İran haberleri, 4 kat kaldıraçla kapanış sonrası taşınacak pozisyonlarda likidite ve ters hareket riskini artırıyor.»
-02.11 22:38 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102887","message":"insufficient buying power"}
 02.11 22:50 N  NEWS (9 new) score -0.20 conf 0.40: 
 02.11 22:50 N  GPT  score -0.25 conf 0.52: ABD-İran ateşkes görüşmeleri ve Hürmüz’ün yeniden açılabileceği haberleri savaş risk primini azaltıp petrolü sert düşürerek altını kısa vadede baskılayabilir. Ancak Ukrayna’daki ölümcül saldırı güvenli liman talebini destekliyor; haber akışı çelişkili olduğundan etki sınırlı ve belirsiz.
 02.11 22:50 B5  SHORT gold 25000 USD x10 @ 3944.54 (TP 3932.71, SL 3952.43; news -0.23)
@@ -99,6 +96,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 23:07 B5P  GPT  score -0.78 conf 0.82: ABD-İran ateşkes görüşmeleri ve İran’ın anlaşma kapsamında Hürmüz Boğazı’nı yeniden açabileceği haberleri yakın vadeli arz kesintisi riskini azaltıyor; petrolün %7’den fazla düşmesi bu beklentinin fiyatlandığını gösteriyor. Kazakistan’ın petrol transitini durdurması sınırlı bir karşı unsur, ancak kı
 02.11 23:07 B5P  SHORT BZ=F 25000 USD x10 @ 104.65 (TP 104.34, SL 104.86; news -0.64)
 02.11 23:10 B5  SHORT gold 25000 USD x10 @ 3950.37 (TP 3938.52, SL 3958.27; news -0.28)
+02.11 23:14 N  NEWS (5 new) score -0.20 conf 0.40: 
+02.11 23:14 N  GPT  score -0.20 conf 0.58: ABD-İran görüşmelerindeki ilerleme ve Hürmüz’ün yeniden açılabileceği beklentisi güvenli liman talebini azaltarak altını kısa vadede baskılayabilir; petrol düşüşünün enflasyon ve faiz beklentilerine etkisi ise altına destek sağlayabilir. 3.900 dolar altındaki kapanışa ilişkin teknik uyarılar da aşağ
+02.11 23:14 B6  karar turu: Claude «İran barış umutlarıyla petrol düşerken teknoloji hisseleri zayıf kaldı, ancak piyasa kapandığı için düşük likiditeli seans sonrasında yeni pozisyon açmak mantıklı değil.» / GPT «Saat 16:13'te normal seans kapanmış durumda; zayıf teknoloji görünümüne rağmen düşük likidite ve doğrulanmamış seans sonrası bracket desteği nedeniyle yeni pozisyon açmıyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
