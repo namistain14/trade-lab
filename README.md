@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 22:58 (İstanbul)
+> Son güncelleme: 02.11.2026 23:02 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %40.0 |
 | Ödenen komisyon/spread | 35.70 $ | 178.46 $ |
 
-**Hesap değeri: 4,883.64 $** (başlangıç 5,000 $, -116.36 $ / %-2.33)
+**Hesap değeri: 4,867.42 $** (başlangıç 5,000 $, -132.58 $ / %-2.65)
 
 Açık pozisyonlar: PAXGUSDT short @ 3944.54 (TP 3932.71 / SL 3952.43)
 
-Son haber analizi (02.11 22:49): Claude puan **-0.20**, güven 0.40 — ABD-İran barış görüşmeleri ve Hürmüz'ün yeniden açılma ihtimali, jeopolitik risk primini düşürerek altın için güvenli liman talebini zayıflatıyor. Petrol fiyatlarının %7'den fazla düşmesi ise enflasyon beklentilerini aşağı çekerek faiz indirimi beklentilerini destekleyip altı kısmen dengeliyor; net etki hafif negatif, düşük güven.
+Son haber analizi (02.11 23:01): Claude puan **-0.30**, güven 0.45 — ABD-İran müzakere haberleri ve petrolde yaklaşık %7'lik düşüş jeopolitik güvenli liman talebini azaltıyor, bu da altın için olumsuz. El Niño kaynaklı enflasyon riski uyarısı (SF Fed) faiz beklentilerini sertleştirebileceğinden ek bir baskı yaratıyor; ancak petrol düşüşü enflasyon beklentilerini bir ölçüde yumuşatıyor ve "altın yeniden toparlandı" gibi karışık sinyaller var, bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.52 — ABD-İran ateşkes görüşmeleri ve Hürmüz’ün yeniden açılabileceği haberleri savaş risk primini azaltıp petrolü sert düşürerek altını kısa vadede baskılayabilir. Ancak Ukrayna’daki ölümcül saldırı güvenli liman talebini destekliyor; haber akışı çelişkili olduğundan etki sınırlı ve belirsiz.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.58 — ABD-İran görüşmelerinin hızlanması ve Hürmüz Boğazı’nın yeniden açılabileceği haberleri kısa vadeli güvenli liman talebini azaltarak altını baskılayabilir; 3.900 dolar altındaki kapanış da teknik açıdan olumsuz. Ancak Ukrayna’daki can kayıpları ve petrol düşüşünün enflasyon/faiz beklentilerine etkis
 
 Son işlemler:
 
@@ -75,16 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,539.41 $** (başlangıç 100,000 $, +539.41 $ / %+0.54)
+**Hesap değeri: 100,512.13 $** (başlangıç 100,000 $, +512.13 $ / %+0.51)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 22:01 B6  karar turu: Claude «Petrol düşüşü ve İran barış umutları döngüsel hisseleri desteklerken teknoloji ve AI hisseleri gün sonuna doğru satış baskısı altında; Nasdaq'ta hafif düşüş eğilimi öne çıkıyor.» / GPT «Teknoloji öncülüğündeki satış baskısı kısa yönü destekliyor; ancak normal seansın bitmesine 59 dakika kalması ve 4 kat kaldıraç riski artırıyor.»
-02.11 22:01 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"103470.47","message":"insufficient buying power"}
-02.11 22:13 N  NEWS (11 new) score -0.15 conf 0.40: 
 02.11 22:13 N  GPT  score -0.18 conf 0.36: İran yönetiminin görüşmelere yetki vermesi ve hızlandırılmış ateşkes girişimi, kısa vadede savaş kaynaklı güvenli liman talebini azaltarak altını hafifçe baskılayabilir. Ancak haberler henüz anlaşma değil ve Ukrayna’daki saldırılar gibi karşıt riskler etkisini sınırlıyor.
 02.11 22:13 B6  karar turu: Claude «Piyasa gün sonuna doğru teknoloji ağırlıklı bir zayıflık gösteriyor; döngüsel sektörler ise İran barış umutları ve petrol düşüşüyle destekleniyor.» / GPT «Kısa vadeli yön aşağı; ancak normal seansın bitmesine 47 dakika kalması yüzde 1,5 hedefini zorlaştırırken, iki endeksin yüksek korelasyonu 4 kat kaldıraçla toplam riski artırıyor.»
 02.11 22:13 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102678.14","message":"insufficient buying power"}
@@ -97,6 +94,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 22:50 N  GPT  score -0.25 conf 0.52: ABD-İran ateşkes görüşmeleri ve Hürmüz’ün yeniden açılabileceği haberleri savaş risk primini azaltıp petrolü sert düşürerek altını kısa vadede baskılayabilir. Ancak Ukrayna’daki ölümcül saldırı güvenli liman talebini destekliyor; haber akışı çelişkili olduğundan etki sınırlı ve belirsiz.
 02.11 22:50 B5  SHORT gold 25000 USD x10 @ 3944.54 (TP 3932.71, SL 3952.43; news -0.23)
 02.11 22:50 B6  karar turu: Claude «Teknoloji ağırlıklı satışla piyasa gün sonuna zayıf giriyor; İran barış umutları ile AI hisselerindeki baskı arasında belirsizlik sürüyor ve kapanışa dakikalar kala yeni pozisyon açmak için zaman yok.» / GPT «Teknoloji öncülüğünde satış baskısı sürüyor; ancak kapanışa 11 dakika kala 1–3 saatlik işlem seans sonrasına taşacağından bracket emirlerinin geçerliliği doğrulanmalı 
+02.11 23:02 N  NEWS (10 new) score -0.30 conf 0.45: ABD-İran müzakere haberleri ve petrolde yaklaşık %7'lik düşüş jeopolitik güvenli liman talebini azaltıyor, bu da altın için olumsuz. El Niño kaynaklı enflasyon riski uyarısı (SF Fed) faiz beklentilerini sertleştirebileceğinden ek bir baskı yaratıyor; ancak petrol düşüşü enflasyon beklentilerini bir ölçüde yumuşatıyor ve "altın yeniden toparlandı" gibi karışık sinyaller var, bu nedenle güven orta düzeyde.
+02.11 23:02 N  GPT  score -0.25 conf 0.58: ABD-İran görüşmelerinin hızlanması ve Hürmüz Boğazı’nın yeniden açılabileceği haberleri kısa vadeli güvenli liman talebini azaltarak altını baskılayabilir; 3.900 dolar altındaki kapanış da teknik açıdan olumsuz. Ancak Ukrayna’daki can kayıpları ve petrol düşüşünün enflasyon/faiz beklentilerine etkis
+02.11 23:02 B6  karar turu: Claude «İran barış umutları ile teknoloji hisselerindeki zayıflık dengelendi ve endeksler yataya yakın kapandı; seans sonrası yeni pozisyon için yeterli avantaj görmüyorum.» / GPT «16:01 New York itibarıyla seans dışındayız; mevcut verilerle 1:4 kaldıraçlı, sabit hedef ve stoplu yeni işlem için yeterli uygulanabilir avantaj yok.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
