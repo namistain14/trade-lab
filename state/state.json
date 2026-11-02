@@ -5582,6 +5582,10 @@
    [
     1793613198,
     4082.25
+   ],
+   [
+    1793613378,
+    4082.25
    ]
   ]
  },
@@ -10905,6 +10909,10 @@
    [
     1793613198,
     4868.5
+   ],
+   [
+    1793613378,
+    4868.5
    ]
   ],
   "news": {
@@ -13687,7 +13695,6 @@
   ]
  },
  "log": [
-  "01.11 11:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 11:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 11:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 11:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -13986,7 +13993,8 @@
   "02.11 12:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdtKfJY71VVoK27rQC5m'}",
   "02.11 12:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdtYvPk1qqCYnePPLCxh'}",
   "02.11 12:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdtnEqNEJBmdi9ehQGtS'}",
-  "02.11 12:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdu1VRZmmxFf1A4MxCY4'}"
+  "02.11 12:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdu1VRZmmxFf1A4MxCY4'}",
+  "02.11 12:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgduEjpryJmvAhpCdbipy'}"
  ],
  "gold_big": {
   "account": {
@@ -18159,6 +18167,10 @@
    [
     1793613198,
     4963.78
+   ],
+   [
+    1793613378,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -22259,6 +22271,10 @@
    [
     1793613198,
     4975.18
+   ],
+   [
+    1793613378,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -26325,6 +26341,10 @@
    [
     1793613198,
     4993.28
+   ],
+   [
+    1793613378,
+    4993.28
    ]
   ]
  },
@@ -30228,6 +30248,10 @@
    [
     1793613198,
     4969.22
+   ],
+   [
+    1793613378,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -32831,6 +32855,10 @@
    [
     1793613198,
     5022.7
+   ],
+   [
+    1793613378,
+    5022.7
    ]
   ],
   "news_calls": {
@@ -33038,7 +33066,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.739893,
+   "balance": 99840.73989299999,
    "start": 100000.0,
    "positions": [
     {
@@ -33081,18 +33109,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 403.4
+     "cur": 403.52
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -1133.07,
+    "pnl": -1103.67,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 99995.83
+   "equity": 100025.23
   },
   "equity_curve": [
    [
@@ -36634,6 +36662,10 @@
    [
     1793613198,
     99995.83
+   ],
+   [
+    1793613378,
+    100025.23
    ]
   ],
   "open": {
@@ -38776,6 +38808,10 @@
    ],
    [
     1793613198,
+    5000
+   ],
+   [
+    1793613378,
     5000
    ]
   ],
