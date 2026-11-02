@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 23:45 (İstanbul)
+> Son güncelleme: 02.11.2026 23:48 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 47.60 $ | 190.36 $ |
 
-**Hesap değeri: 4,867.27 $** (başlangıç 5,000 $, -132.73 $ / %-2.65)
+**Hesap değeri: 4,860.94 $** (başlangıç 5,000 $, -139.06 $ / %-2.78)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
@@ -81,14 +81,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,835.30 $** (başlangıç 100,000 $, -164.70 $ / %-0.16)
+**Hesap değeri: 96,720.26 $** (başlangıç 100,000 $, -3279.74 $ / %-3.28)
 
-Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
+Açık pozisyonlar: NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 23:02 B6  karar turu: Claude «İran barış umutları ile teknoloji hisselerindeki zayıflık dengelendi ve endeksler yataya yakın kapandı; seans sonrası yeni pozisyon için yeterli avantaj görmüyorum.» / GPT «16:01 New York itibarıyla seans dışındayız; mevcut verilerle 1:4 kaldıraçlı, sabit hedef ve stoplu yeni işlem için yeterli uygulanabilir avantaj yok.»
 02.11 23:04 B5  CLOSE short stop: -55.96 USD
 02.11 23:07 B5P  NEWS (45 new) score -0.50 conf 0.60: Baskın haber akışı İran ile barış görüşmelerine ve Hürmüz Boğazı'nın iki gün içinde yeniden açılabileceği ihtimaline işaret ediyor; bu, savaş primini hızla eritip Brent'i aşağı çekiyor (piyasada %7'ye varan düşüş bildirildi). Kazakistan'ın Samara hattındaki taşımayı durdurması ve Hindistan'daki rafineri yangını gibi arz kaynaklı yukarı yönlü riskler var, ancak bunlar müzakere iyimserliğinin gerisinde kalıyor; Goldman'ın hedef artışı ise uzun vadeli bir sinyal.
 02.11 23:07 B5P  GPT  score -0.78 conf 0.82: ABD-İran ateşkes görüşmeleri ve İran’ın anlaşma kapsamında Hürmüz Boğazı’nı yeniden açabileceği haberleri yakın vadeli arz kesintisi riskini azaltıyor; petrolün %7’den fazla düşmesi bu beklentinin fiyatlandığını gösteriyor. Kazakistan’ın petrol transitini durdurması sınırlı bir karşı unsur, ancak kı
@@ -103,6 +102,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 23:39 N  NEWS (5 new) score -0.20 conf 0.45: Dallas Fed Başkanı'nın en az iki faiz artırımı gerektiği yönündeki sert açıklaması altın için baskılayıcı; buna karşılık petrol düşüşünün faiz artırımı beklentilerini zayıflatması ve ABD-İran anlaşması umutlarının altını destekleyen bir toparlanma sağlaması karışık bir tablo yaratıyor. Güvenli liman talebi azalırken jeopolitik risk tamamen ortadan kalkmadığı için etki sınırlı kalabilir.
 02.11 23:39 N  GPT  score +0.10 conf 0.40: Petrol fiyatlarındaki düşüşün Fed’in ek faiz artırımı beklentilerini zayıflatması altını destekleyebilir; ancak Dallas Fed başkanının en az iki faiz artışı gerektiği açıklaması baskı yaratıyor. İran anlaşması ihtimali güvenli liman talebini azaltırken, haber akışı çelişkili olduğundan kısa vadeli yö
 02.11 23:45 ERROR B6: 'id'
+02.11 23:48 ERROR B6: 'id'
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
