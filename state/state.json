@@ -5066,6 +5066,10 @@
    [
     1793588649,
     4139.5
+   ],
+   [
+    1793588829,
+    4139.5
    ]
   ]
  },
@@ -10012,6 +10016,10 @@
    ],
    [
     1793588649,
+    4868.5
+   ],
+   [
+    1793588829,
     4868.5
    ]
   ],
@@ -16885,6 +16893,10 @@
    [
     1793588649,
     4963.78
+   ],
+   [
+    1793588829,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -20609,6 +20621,10 @@
    [
     1793588649,
     4975.18
+   ],
+   [
+    1793588829,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -24299,6 +24315,10 @@
    [
     1793588649,
     4993.28
+   ],
+   [
+    1793588829,
+    4993.28
    ]
   ]
  },
@@ -27826,6 +27846,10 @@
    [
     1793588649,
     4969.22
+   ],
+   [
+    1793588829,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -30032,6 +30056,10 @@
    [
     1793588649,
     5078.66
+   ],
+   [
+    1793588829,
+    5078.66
    ]
   ],
   "news_calls": {
@@ -30239,7 +30267,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.73989299999,
+   "balance": 99840.739893,
    "start": 100000.0,
    "positions": [
     {
@@ -30254,7 +30282,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 344.86
+     "cur": 344.88
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -30282,18 +30310,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 401.29
+     "cur": 401.31
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -795.39,
+    "pnl": -784.79,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100333.51
+   "equity": 100344.11
   },
   "equity_curve": [
    [
@@ -33459,6 +33487,10 @@
    [
     1793588649,
     100333.51
+   ],
+   [
+    1793588829,
+    100344.11
    ]
   ],
   "open": {
@@ -35225,6 +35257,10 @@
    ],
    [
     1793588649,
+    5000
+   ],
+   [
+    1793588829,
     5000
    ]
   ],
