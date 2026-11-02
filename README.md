@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 00:03 (İstanbul)
+> Son güncelleme: 03.11.2026 00:06 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %19.0 |
 | Ödenen komisyon/spread | 0.00 $ | 350.21 $ |
 
-**Hesap değeri: 3,977.24 $** (başlangıç 5,000 $, -1022.76 $ / %-20.46)
+**Hesap değeri: 3,969.61 $** (başlangıç 5,000 $, -1030.39 $ / %-20.61)
+
+Açık pozisyonlar: BTCUSDT short @ 76798.96 (TP 76338.17 / SL 77106.16); BNBUSDT short @ 695.68 (TP 691.51 / SL 698.46)
 
 Son işlemler:
 
@@ -33,7 +35,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 0.00 $ | 190.36 $ |
 
-**Hesap değeri: 4,847.39 $** (başlangıç 5,000 $, -152.61 $ / %-3.05)
+**Hesap değeri: 4,851.63 $** (başlangıç 5,000 $, -148.37 $ / %-2.97)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
@@ -86,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-02.11 23:14 N  NEWS (5 new) score -0.20 conf 0.40: 
-02.11 23:14 N  GPT  score -0.20 conf 0.58: ABD-İran görüşmelerindeki ilerleme ve Hürmüz’ün yeniden açılabileceği beklentisi güvenli liman talebini azaltarak altını kısa vadede baskılayabilir; petrol düşüşünün enflasyon ve faiz beklentilerine etkisi ise altına destek sağlayabilir. 3.900 dolar altındaki kapanışa ilişkin teknik uyarılar da aşağ
 02.11 23:14 B6  karar turu: Claude «İran barış umutlarıyla petrol düşerken teknoloji hisseleri zayıf kaldı, ancak piyasa kapandığı için düşük likiditeli seans sonrasında yeni pozisyon açmak mantıklı değil.» / GPT «Saat 16:13'te normal seans kapanmış durumda; zayıf teknoloji görünümüne rağmen düşük likidite ve doğrulanmamış seans sonrası bracket desteği nedeniyle yeni pozisyon açmıyorum.»
 02.11 23:19 B5P  CLOSE short take profit: +66.43 USD
 02.11 23:27 N  NEWS (14 new) score -0.15 conf 0.35: 
@@ -101,6 +101,8 @@ Son işlemler:
 02.11 23:51 ERROR B6: 'id'
 03.11 00:03 N  NEWS (11 new) score +0.08 conf 0.40: Haberler karışık: ABD-İran anlaşması beklentisi ve petrol düşüşü, Fed faiz artışı beklentilerini zayıflatarak altın için destekleyici olabilir; zayıflayan dolar da olumlu. Öte yandan güvenli liman talebini azaltan barış beklentisi ve Dallas Fed başkanının "en az iki faiz artışı gerekli" yorumu altın için olumsuz. Bu çelişkiler ve altının son dönemdeki sert düşüşü nedeniyle yön belirsiz, hafif pozitif bir eğilim sınırlı güvenle değerlendirildi.
 03.11 00:03 N  GPT  score +0.15 conf 0.38: İran’la anlaşma ve Hürmüz’ün yeniden açılması ihtimali güvenli liman talebini sınırlasa da doların gerilemesi ve petrol düşüşünün Fed’in faiz artırımı beklentilerini zayıflatması altına kısa vadede hafif destek sağlayabilir. Dallas Fed yetkilisinin en az iki faiz artışı gerektiği yönündeki açıklamas
+03.11 00:06 A  SHORT BTCUSDT 4773 USD x3 @ 76798.96 (ters sinyal, RSI 43)
+03.11 00:06 A  SHORT BNBUSDT 4773 USD x3 @ 695.68 (ters sinyal, RSI 45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
