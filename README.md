@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 00:27 (İstanbul)
+> Son güncelleme: 03.11.2026 00:30 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %19.0 |
 | Ödenen komisyon/spread | 0.00 $ | 350.21 $ |
 
-**Hesap değeri: 3,960.74 $** (başlangıç 5,000 $, -1039.26 $ / %-20.79)
+**Hesap değeri: 3,959.73 $** (başlangıç 5,000 $, -1040.27 $ / %-20.81)
 
 Açık pozisyonlar: BTCUSDT short @ 76798.96 (TP 76338.17 / SL 77106.16); BNBUSDT short @ 695.68 (TP 691.51 / SL 698.46)
 
@@ -35,13 +35,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 0.00 $ | 190.36 $ |
 
-**Hesap değeri: 4,850.37 $** (başlangıç 5,000 $, -149.63 $ / %-2.99)
+**Hesap değeri: 4,856.44 $** (başlangıç 5,000 $, -143.56 $ / %-2.87)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
-Son haber analizi (03.11 00:18): Claude puan **+0.05**, güven 0.35 — Haberler karışık: ABD-İran anlaşması beklentisi ve petrol düşüşü, Fed faiz artışı beklentilerini zayıflatarak altın için destekleyici olabilir; zayıflayan dolar da olumlu. Öte yandan güvenli liman talebini azaltan barış beklentisi ve Dallas Fed başkanının "en az iki faiz artışı gerekli" yorumu altın için olumsuz. Bu çelişkiler ve altının son dönemdeki sert düşüşü nedeniyle yön belirsiz, hafif pozitif bir eğilim sınırlı güvenle değerlendirildi.
+Son haber analizi (03.11 00:30): Claude puan **-0.10**, güven 0.35 — Yeni gelen başlıkların çoğu altınla ilgisiz (spor, kültür, savaş metaforları). Jeopolitik tarafta İran ile anlaşma beklentisi güvenli liman talebini zayıflatabilir, Dallas Fed'in "en az iki faiz artışı" yorumu ise faiz beklentilerini yükselterek altın için baskı yaratıyor. Buna karşılık petrol fiyatlarındaki düşüş faiz artırımı beklentilerini sınırlıyor ve Ukrayna'daki saldırılar ile İran savaşı riski kısa vadeli destek sağlayabilir; bu karışık tablo nedeniyle hafif negatif, düşük güvenli bir görüş.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.40 — Doların geri çekilmesi ve petrol düşüşünün Fed faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. İran konusunda hem müzakere/ateşkes işaretleri hem de yeni saldırı riski bulunduğundan güvenli liman etkisi belirsiz; haber akışı çelişkili.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.32 — Doların geri çekilmesi ve düşen petrol fiyatlarının Fed’in faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. Ancak İran’la görüşme ve olası anlaşma haberleri güvenli liman talebini azaltırken, haber akışı karışık ve yeni gelişmelerin çoğu altın için doğrudan etkisiz.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-02.11 23:27 N  NEWS (14 new) score -0.15 conf 0.35: 
-02.11 23:27 N  GPT  score +0.15 conf 0.38: Ukrayna’daki ölümcül saldırı kısa vadede güvenli liman talebini artırabilir. Ancak İran’la anlaşma ve Hürmüz Boğazı’nın açılmasına yönelik iyimserlik gerilimi ve petrol fiyatlarını düşürüyor; haber akışı çelişkili olduğu için etki sınırlı görünüyor.
 02.11 23:39 N  NEWS (5 new) score -0.20 conf 0.45: Dallas Fed Başkanı'nın en az iki faiz artırımı gerektiği yönündeki sert açıklaması altın için baskılayıcı; buna karşılık petrol düşüşünün faiz artırımı beklentilerini zayıflatması ve ABD-İran anlaşması umutlarının altını destekleyen bir toparlanma sağlaması karışık bir tablo yaratıyor. Güvenli liman talebi azalırken jeopolitik risk tamamen ortadan kalkmadığı için etki sınırlı kalabilir.
 02.11 23:39 N  GPT  score +0.10 conf 0.40: Petrol fiyatlarındaki düşüşün Fed’in ek faiz artırımı beklentilerini zayıflatması altını destekleyebilir; ancak Dallas Fed başkanının en az iki faiz artışı gerektiği açıklaması baskı yaratıyor. İran anlaşması ihtimali güvenli liman talebini azaltırken, haber akışı çelişkili olduğundan kısa vadeli yö
 02.11 23:45 ERROR B6: 'id'
@@ -103,6 +101,8 @@ Son işlemler:
 03.11 00:06 A  SHORT BNBUSDT 4773 USD x3 @ 695.68 (ters sinyal, RSI 45)
 03.11 00:18 N  NEWS (7 new) score +0.05 conf 0.35: 
 03.11 00:18 N  GPT  score +0.25 conf 0.40: Doların geri çekilmesi ve petrol düşüşünün Fed faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. İran konusunda hem müzakere/ateşkes işaretleri hem de yeni saldırı riski bulunduğundan güvenli liman etkisi belirsiz; haber akışı çelişkili.
+03.11 00:30 N  NEWS (11 new) score -0.10 conf 0.35: Yeni gelen başlıkların çoğu altınla ilgisiz (spor, kültür, savaş metaforları). Jeopolitik tarafta İran ile anlaşma beklentisi güvenli liman talebini zayıflatabilir, Dallas Fed'in "en az iki faiz artışı" yorumu ise faiz beklentilerini yükselterek altın için baskı yaratıyor. Buna karşılık petrol fiyatlarındaki düşüş faiz artırımı beklentilerini sınırlıyor ve Ukrayna'daki saldırılar ile İran savaşı riski kısa vadeli destek sağlayabilir; bu karışık tablo nedeniyle hafif negatif, düşük güvenli bir görüş.
+03.11 00:30 N  GPT  score +0.15 conf 0.32: Doların geri çekilmesi ve düşen petrol fiyatlarının Fed’in faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. Ancak İran’la görüşme ve olası anlaşma haberleri güvenli liman talebini azaltırken, haber akışı karışık ve yeni gelişmelerin çoğu altın için doğrudan etkisiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
