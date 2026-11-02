@@ -5058,6 +5058,10 @@
    [
     1793588289,
     4139.5
+   ],
+   [
+    1793588469,
+    4139.5
    ]
   ]
  },
@@ -9996,6 +10000,10 @@
    ],
    [
     1793588289,
+    4868.5
+   ],
+   [
+    1793588469,
     4868.5
    ]
   ],
@@ -16861,6 +16869,10 @@
    [
     1793588289,
     4963.78
+   ],
+   [
+    1793588469,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -20577,6 +20589,10 @@
    [
     1793588289,
     4975.18
+   ],
+   [
+    1793588469,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -24259,6 +24275,10 @@
    [
     1793588289,
     4993.28
+   ],
+   [
+    1793588469,
+    4993.28
    ]
   ]
  },
@@ -27778,6 +27798,10 @@
    [
     1793588289,
     4969.22
+   ],
+   [
+    1793588469,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -29976,6 +30000,10 @@
    [
     1793588289,
     5078.66
+   ],
+   [
+    1793588469,
+    5078.66
    ]
   ],
   "news_calls": {
@@ -30183,7 +30211,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.739893,
+   "balance": 99840.73989299998,
    "start": 100000.0,
    "positions": [
     {
@@ -30212,7 +30240,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.16
+     "cur": 207.26
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -30226,18 +30254,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 401.21
+     "cur": 401.16
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -751.19,
+    "pnl": -810.14,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100377.71
+   "equity": 100318.76
   },
   "equity_curve": [
    [
@@ -33395,6 +33423,10 @@
    [
     1793588289,
     100377.71
+   ],
+   [
+    1793588469,
+    100318.76
    ]
   ],
   "open": {
@@ -35153,6 +35185,10 @@
    ],
    [
     1793588289,
+    5000
+   ],
+   [
+    1793588469,
     5000
    ]
   ],
