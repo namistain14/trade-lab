@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 15:35 (İstanbul)
+> Son güncelleme: 02.11.2026 15:38 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 15:26): Claude puan **-0.15**, güven 0.35 — Haberlerde faiz artırımı beklentileri ve güçlenen dolar altın için baskı oluşturuyor; ancak petrol fiyatlarının düşmesi ve İran-ABD savaşında barış umudu enflasyon kaygısını azaltarak bu baskıyı kısmen dengeliyor. Sinyaller karışık ve ağırlıklı olarak tekrar eden ya da fiyatlanmış haberler olduğundan güven düşük.
+Son haber analizi (02.11 15:38): Claude puan **-0.05**, güven 0.30 — Haberlerde faiz artırımı beklentileri ve güçlenen dolar altın için baskı oluşturuyor; ancak petrol fiyatlarının düşmesi ve İran-ABD savaşında barış umudu enflasyon kaygısını azaltarak bu baskıyı kısmen dengeliyor. Sinyaller karışık ve ağırlıklı olarak tekrar eden ya da fiyatlanmış haberler olduğundan güven düşük.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.30 — ABD-İran savaşına dair umutların petrol fiyatlarını düşürmesi ve dolar/faiz artışı beklentileri altın üzerinde hafif baskı oluşturabilir. Yemen ve Lübnan’daki gerilim haberleri güvenli liman talebini desteklese de kısa vadeli etki karışık ve sınırlı görünüyor.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — Trump’ın İran’a yönelik tehdidinin Körfez’de savaş endişelerini tazelemesi altına kısa vadeli güvenli liman desteği sağlayabilir; dolar güvenine ilişkin kaygılar da destekleyici. Ancak İran diplomasisi sinyalleriyle petrolün düşmesi ve Fed faiz beklentilerinin altın toparlanmasını sınırlaması görünü
 
 Son işlemler:
 
@@ -73,15 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,841.78 $** (başlangıç 100,000 $, +841.78 $ / %+0.84)
+**Hesap değeri: 100,898.44 $** (başlangıç 100,000 $, +898.44 $ / %+0.90)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 14:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzzpetGv6qGehLug5TH'}
-02.11 14:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge29d5zJ3pUGm8dmCNKe'}
 02.11 14:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2NviVr8ZkuUdgqzv24'}
 02.11 14:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2cCoF6Gn3VtoMt7oSK'}
 02.11 14:36 N  NEWS (45 new) score -0.15 conf 0.40: Altın için karışık tablo var: Fed faiz beklentileri altındaki toparlanmayı sınırlıyor ve ekim ayı 2008'den bu yana en kötü performansını gösterdi, bu da kısa vadede baskı yaratıyor. Trump'ın İran diplomasisine daha fazla zaman verdiğini söylemesiyle petrol %3'ten fazla düştü; bu jeopolitik risk primini azaltarak güvenli liman talebini zayıflatıyor, ancak nükleer saldırı ve savaş tehdidi haberleri bu etkiyi kısmen dengeliyor.
@@ -95,6 +93,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 15:26 N  NEWS (21 new) score -0.15 conf 0.35: Haberlerde faiz artırımı beklentileri ve güçlenen dolar altın için baskı oluşturuyor; ancak petrol fiyatlarının düşmesi ve İran-ABD savaşında barış umudu enflasyon kaygısını azaltarak bu baskıyı kısmen dengeliyor. Sinyaller karışık ve ağırlıklı olarak tekrar eden ya da fiyatlanmış haberler olduğundan güven düşük.
 02.11 15:26 N  GPT  score -0.12 conf 0.30: ABD-İran savaşına dair umutların petrol fiyatlarını düşürmesi ve dolar/faiz artışı beklentileri altın üzerinde hafif baskı oluşturabilir. Yemen ve Lübnan’daki gerilim haberleri güvenli liman talebini desteklese de kısa vadeli etki karışık ve sınırlı görünüyor.
 02.11 15:32 A  CLOSE BNBUSDT time limit: -1.73 USD
+02.11 15:38 N  NEWS (7 new) score -0.05 conf 0.30: 
+02.11 15:38 N  GPT  score +0.25 conf 0.38: Trump’ın İran’a yönelik tehdidinin Körfez’de savaş endişelerini tazelemesi altına kısa vadeli güvenli liman desteği sağlayabilir; dolar güvenine ilişkin kaygılar da destekleyici. Ancak İran diplomasisi sinyalleriyle petrolün düşmesi ve Fed faiz beklentilerinin altın toparlanmasını sınırlaması görünü
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
