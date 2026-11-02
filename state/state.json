@@ -17,6 +17,34 @@
      "max_hold_min": 120,
      "margin": 1655.800010692826,
      "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "6cabed5a",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06341914569364145,
+     "entry": 78326.504997,
+     "tp": 77856.545967018,
+     "sl": 78639.811016988,
+     "opened_ms": 1793596307668,
+     "entry_cost": 2.483700016039239,
+     "max_hold_min": 120,
+     "margin": 1655.800010692826,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "03e51fd5",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 1.0842193839927956,
+     "entry": 2290.772562,
+     "tp": 2277.027926628,
+     "sl": 2299.935652248,
+     "opened_ms": 1793596308238,
+     "entry_cost": 1.241850008019619,
+     "max_hold_min": 120,
+     "margin": 827.9000053464127,
+     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1343,7 +1371,7 @@
    ],
    "day": {
     "date": "2026-11-02",
-    "trades": 5,
+    "trades": 7,
     "pnl": -105.36454179245615,
     "stopped": false
    },
@@ -5217,6 +5245,10 @@
    [
     1793596135,
     4137.13
+   ],
+   [
+    1793596309,
+    4136.19
    ]
   ]
  },
@@ -10300,6 +10332,10 @@
    [
     1793596135,
     4868.5
+   ],
+   [
+    1793596309,
+    4868.5
    ]
   ],
   "news": {
@@ -13082,8 +13118,6 @@
   ]
  },
  "log": [
-  "01.11 07:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 07:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -13381,7 +13415,9 @@
   "02.11 08:06 N  GPT  score +0.20 conf 0.35: Alt\u0131n\u0131n 3.900 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve d\u00fc\u015fen petrol fiyatlar\u0131n\u0131n enflasyon/faiz bask\u0131s\u0131n\u0131 hafifletmesi k\u0131sa vadede destekleyici. \u0130ran sava\u015f\u0131 ve Ukrayna\u2019daki gerilim de g\u00fcvenli liman talebini canl\u0131 tutabilir; ancak g\u00fc\u00e7l\u00fc dolar ve \u00f6nceki \u015fahin Fed beklentileri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
   "02.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 08:08 B5  CLOSE short stop: -55.97 USD",
-  "02.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "02.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "02.11 08:11 A  SHORT BTCUSDT 4967 USD x3 @ 78326.50 (ters sinyal, RSI 44)",
+  "02.11 08:11 A  SHORT ETHUSDT 2484 USD x3 @ 2290.77 (ters sinyal, RSI 38)"
  ],
  "gold_big": {
   "account": {
@@ -17314,6 +17350,10 @@
    [
     1793596135,
     4963.78
+   ],
+   [
+    1793596309,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -21174,6 +21214,10 @@
    [
     1793596135,
     4975.18
+   ],
+   [
+    1793596309,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -25000,6 +25044,10 @@
    [
     1793596135,
     4993.28
+   ],
+   [
+    1793596309,
+    4993.28
    ]
   ]
  },
@@ -28663,6 +28711,10 @@
    [
     1793596135,
     4969.22
+   ],
+   [
+    1793596309,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -31026,6 +31078,10 @@
    [
     1793596135,
     5022.7
+   ],
+   [
+    1793596309,
+    5022.7
    ]
   ],
   "news_calls": {
@@ -31233,7 +31289,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.73989299999,
+   "balance": 99840.739893,
    "start": 100000.0,
    "positions": [
     {
@@ -31248,7 +31304,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 344.44
+     "cur": 344.46
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -31262,7 +31318,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.63
+     "cur": 207.56
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -31276,18 +31332,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 400.31
+     "cur": 400.6
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -1327.98,
+    "pnl": -1218.54,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 99800.92
+   "equity": 99910.36
   },
   "equity_curve": [
    [
@@ -34589,6 +34645,10 @@
    [
     1793596135,
     99800.92
+   ],
+   [
+    1793596309,
+    99910.36
    ]
   ],
   "open": {
@@ -36491,6 +36551,10 @@
    ],
    [
     1793596135,
+    5000
+   ],
+   [
+    1793596309,
     5000
    ]
   ],
