@@ -186,6 +186,28 @@ def strategies(c5, c1h):
             return "short"
         return None
 
+    if os.environ.get("BT_GRID"):  # robustness: is the 1-hour pullback good for neighbouring settings too?
+        grid = {}
+        for lo_, hi_ in ((30, 70), (35, 65), (40, 60)):
+            for tpm, slm in ((2, 1), (3, 1.5), (4, 2), (3, 1)):
+                def sig(i, lo_=lo_, hi_=hi_):
+                    if cl1[i] > e200_1[i] and r1[i] < lo_ and r1[i] > r1[i - 1]:
+                        return "long"
+                    if cl1[i] < e200_1[i] and r1[i] > hi_ and r1[i] < r1[i - 1]:
+                        return "short"
+                    return None
+                grid[f"1s geri çekilme RSI {lo_}/{hi_}, ATR {tpm}x/{slm}x"] = (
+                    c1h, sig, (lambda i, e, m=tpm: m * a1[i]), (lambda i, e, m=slm: m * a1[i]), 48, 1)
+        def long_only(i):
+            return "long" if cl1[i] > e200_1[i] and r1[i] < 35 and r1[i] > r1[i - 1] else None
+        def short_only(i):
+            return "short" if cl1[i] < e200_1[i] and r1[i] > 65 and r1[i] < r1[i - 1] else None
+        grid["1s geri çekilme SADECE alış (35), ATR 3x/1,5x"] = (c1h, long_only, lambda i, e: 3 * a1[i], lambda i, e: 1.5 * a1[i], 48, 1)
+        grid["1s geri çekilme SADECE satış (65), ATR 3x/1,5x"] = (c1h, short_only, lambda i, e: 3 * a1[i], lambda i, e: 1.5 * a1[i], 48, 1)
+        grid["A eski (RSI<45 alış, %0,6/%0,4)"] = (c5, a_old, pct(0.006), pct(0.004), 24, 2)
+        grid["A şimdiki TERS (aynı sinyalde satış)"] = (c5, a_inverse, pct(0.006), pct(0.004), 24, 2)
+        grid["1 saatlik kırılım (trend takibi), ATR 4x / 2x"] = (c1h, breakout_1h, lambda i, e: 4 * a1[i], lambda i, e: 2 * a1[i], 72, 1)
+        return grid
     return {
         "A eski (RSI<45 alış, %0,6/%0,4)": (c5, a_old, pct(0.006), pct(0.004), 24, 2),
         "A şimdiki TERS (aynı sinyalde satış)": (c5, a_inverse, pct(0.006), pct(0.004), 24, 2),
@@ -248,7 +270,8 @@ def main():
             "by_coin": {s: summarize([t for t in tr if t["sym"] == s]) for s in SYMBOLS},
         }
     os.makedirs(os.path.join(ROOT, "reports"), exist_ok=True)
-    with open(os.path.join(ROOT, "reports", "backtest_A.json"), "w") as f:
+    tag = os.environ.get("BT_TAG", "")
+    with open(os.path.join(ROOT, "reports", f"backtest_A{tag}.json"), "w") as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
     md = [f"# Bot A — geçmiş veri testi ({first} – {last}, 6 coin, 5 dk mumlar)", "",
           f"Pozisyon {NOTIONAL:,.0f} $ (A'nın bugünkü büyüklüğü), masraf işlem başına ~%0,16 (komisyon + kayma).",
@@ -259,7 +282,7 @@ def main():
         a, t = r["all"], r["test"]
         md.append(f"| {name} | {a['n']} | {a['win']} | {a['net']:+,.0f} | {a['avg_pct']:+.3f} | {a['pf']} | {a['dd']:,.0f} | "
                   f"{t['net']:+,.0f} | {t['pf']} |")
-    with open(os.path.join(ROOT, "reports", "backtest_A.md"), "w") as f:
+    with open(os.path.join(ROOT, "reports", f"backtest_A{tag}.md"), "w") as f:
         f.write("\n".join(md) + "\n")
     print("\n".join(md))
 
