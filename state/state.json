@@ -6465,6 +6465,10 @@
    [
     1793656278,
     3947.15
+   ],
+   [
+    1793656471,
+    3945.85
    ]
   ]
  },
@@ -12516,6 +12520,10 @@
    [
     1793656278,
     4868.5
+   ],
+   [
+    1793656471,
+    4868.5
    ]
   ],
   "news": {
@@ -12523,36 +12531,27 @@
    "confidence": 0.3,
    "reason": "Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla ilgisiz (spor, k\u00fclt\u00fcr, sava\u015f metaforlar\u0131). Jeopolitik tarafta \u0130ran ile anla\u015fma beklentisi g\u00fcvenli liman talebini zay\u0131flatabilir, Dallas Fed'in \"en az iki faiz art\u0131\u015f\u0131\" yorumu ise faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f faiz art\u0131r\u0131m\u0131 beklentilerini s\u0131n\u0131rl\u0131yor ve Ukrayna'daki sald\u0131r\u0131lar ile \u0130ran sava\u015f\u0131 riski k\u0131sa vadeli destek sa\u011flayabilir; bu kar\u0131\u015f\u0131k tablo nedeniyle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fc\u015f.",
    "n": 45,
-   "ts": 1793655747924,
-   "new_headlines": 6,
+   "ts": 1793656470356,
+   "new_headlines": 5,
    "key_events": [
     "Petrol fiyatlar\u0131 bar\u0131\u015f umutlar\u0131yla sert d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 beklentileri geriledi",
     "Dolar endeksi bir ayl\u0131k/be\u015f haftal\u0131k dibe geriledi",
     "ABD-\u0130ran yo\u011fun bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri; g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.34,
-    "reason": "Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme olmamas\u0131 ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f\u0131k tutuyor.",
+    "score": 0.18,
+    "confidence": 0.36,
+    "reason": "Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 ve \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatmas\u0131 da alt\u0131na yard\u0131mc\u0131. Ancak Fed yetkilisinin ilave faiz art\u0131\u015flar\u0131 \u00e7a\u011fr\u0131s\u0131 ve \u0130ran\u2019la anla\u015fma iht",
     "key_events": [
-     "Petrol d\u00fc\u015f\u00fc\u015f\u00fc faiz art\u0131r\u0131m\u0131 bask\u0131s\u0131n\u0131 azaltabilir",
-     "Dolar\u0131n gerilemesi alt\u0131na destek",
-     "\u0130ran g\u00f6r\u00fc\u015fmelerinde hen\u00fcz uzla\u015fma yok"
+     "Ukrayna\u2019da yard\u0131m merkezine \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131",
+     "\u0130ran g\u00f6r\u00fc\u015fmelerinde anla\u015fma \u00e7\u0131kmad\u0131",
+     "Dolar gerilerken Fed\u2019den faiz art\u0131\u015f\u0131 mesaj\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792801387034,
-    "score": -0.4,
-    "confidence": 0.55,
-    "reason": "Petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon kayg\u0131lar\u0131n\u0131 art\u0131r\u0131yor ve yakla\u015fan Fed toplant\u0131s\u0131 \u00f6ncesinde faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor; alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dibe geriledi. \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratabilir, ancak bu etki enflasyon/faiz kanal\u0131n\u0131n gerisinde kal\u0131yor.",
-    "new": 7,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792802113488,
     "score": -0.3,
@@ -15243,13 +15242,25 @@
     "new": 6,
     "gpt_score": 0.15,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1793656470356,
+    "score": -0.05,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 5,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
+   "On This Day in History: Australia Started a War Against a Bird (and Lost) - The National Interest",
+   "Fortuna Mining receives admissibility notice for Senegal gold project - StreetInsider",
+   "Gold price update on the morning of November 3, 2026: SJC, plain 9999 DOJI BTMC Phu Quy rings. - Vietnam.vn",
    "Gold Investors Rocked by Wipeout, Seek Firmer Footing After Vote - Bloomberg.com",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Rebounds As Oil Tumbles - FXEmpire",
    "Robert Redford Guest-Starred On A Failed '60s Drama War Set During The Civil War - IMDb",
@@ -15260,9 +15271,9 @@
    "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "Buy Gold Below $4,000 or Wait for $3,500? - FXEmpire",
    "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "Culture War Tensions Roil Beverly Hills School Board Race - The New York Times",
    "Reigniting War With Iran Would Be a \u2018Huge Gamble\u2019 - Foreign Policy",
    "Dave Bautista Gains 20 Lbs. of Muscle in 2 Months for \u2018God of War\u2019 - People.com",
-   "ANOTHER OUTSIDER: Michigan State vs. Michigan rivalry compared to Holy War by Kyle Whittingham - 5newsonline.com",
    "Defense: Iran war dominates closing message - Punchbowl News",
    "Noah Brinkman: Ohio\u2019s funding tug of war for education - LimaOhio.com",
    "San Francisco Fed Warns: Exceptionally Strong El Ni\u00f1o Could Push Up US Inflation, Potentially Adding 1 Percentage Point by 2027 - BigGo Finance",
@@ -15289,17 +15300,12 @@
    "Natural Gas Futures Market Holds Its Breath as Weak Weather and War Risk Collide - Natural Gas Intelligence",
    "Copilot in deadly Florida jet crash identified in reports as 20-year-old - BBC",
    "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+   "How popular is the Iran War? - Silver Bulletin",
    "Immigration, economy, campaign spending: We answered your US midterm questions - The Guardian",
-   "Utah looks like the Big 12's best entering 'Holy War' - Yahoo Sports",
-   "Positive US-Iran news drives Oil lower, stalling Canadian Dollar gains - www.tmgm.com",
-   "Iran war latest: Tehran holding intensive talks with mediators, foreign minister says - The National",
-   "El Nino poses \u2018meaningful risk\u2019 of higher inflation in 2027, SF Fed paper says - The Spokesman-Review",
-   "What Florida jet audio and flight data tells us about its final moments"
+   "Utah looks like the Big 12's best entering 'Holy War' - Yahoo Sports"
   ]
  },
  "log": [
-  "01.11 23:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -15597,7 +15603,9 @@
   "03.11 00:30 N  GPT  score +0.15 conf 0.32: Dolar\u0131n geri \u00e7ekilmesi ve d\u00fc\u015fen petrol fiyatlar\u0131n\u0131n Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak \u0130ran\u2019la g\u00f6r\u00fc\u015fme ve olas\u0131 anla\u015fma haberleri g\u00fcvenli liman talebini azalt\u0131rken, haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve yeni geli\u015fmelerin \u00e7o\u011fu alt\u0131n i\u00e7in do\u011frudan etkisiz.",
   "03.11 00:39 A  CLOSE BNBUSDT stop: -25.31 USD",
   "03.11 00:42 N  NEWS (6 new) score -0.05 conf 0.30: ",
-  "03.11 00:42 N  GPT  score +0.15 conf 0.34: Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme olmamas\u0131 ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f\u0131k tutuyor."
+  "03.11 00:42 N  GPT  score +0.15 conf 0.34: Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme olmamas\u0131 ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f\u0131k tutuyor.",
+  "03.11 00:54 N  NEWS (5 new) score -0.05 conf 0.30: ",
+  "03.11 00:54 N  GPT  score +0.18 conf 0.36: Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 ve \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatmas\u0131 da alt\u0131na yard\u0131mc\u0131. Ancak Fed yetkilisinin ilave faiz art\u0131\u015flar\u0131 \u00e7a\u011fr\u0131s\u0131 ve \u0130ran\u2019la anla\u015fma iht"
  ],
  "gold_big": {
   "account": {
@@ -20498,6 +20506,10 @@
    [
     1793656278,
     4963.78
+   ],
+   [
+    1793656471,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25326,6 +25338,10 @@
    [
     1793656278,
     4975.18
+   ],
+   [
+    1793656471,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -30120,6 +30136,10 @@
    [
     1793656278,
     4993.28
+   ],
+   [
+    1793656471,
+    4993.28
    ]
   ]
  },
@@ -34751,6 +34771,10 @@
    [
     1793656278,
     4969.22
+   ],
+   [
+    1793656471,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -38161,6 +38185,10 @@
    [
     1793656278,
     4841.89
+   ],
+   [
+    1793656471,
+    4844.42
    ]
   ],
   "news_calls": {
@@ -42649,6 +42677,10 @@
    [
     1793656278,
     100750.28
+   ],
+   [
+    1793656471,
+    100750.28
    ]
   ],
   "open": {},
@@ -45507,6 +45539,10 @@
    ],
    [
     1793656278,
+    5066.43
+   ],
+   [
+    1793656471,
     5066.43
    ]
   ],
