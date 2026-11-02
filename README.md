@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 11:34 (İstanbul)
+> Son güncelleme: 02.11.2026 11:37 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %33.3 | %21.4 |
 | Ödenen komisyon/spread | 37.73 $ | 313.32 $ |
 
-**Hesap değeri: 4,127.12 $** (başlangıç 5,000 $, -872.88 $ / %-17.46)
+**Hesap değeri: 4,128.45 $** (başlangıç 5,000 $, -871.55 $ / %-17.43)
 
 Açık pozisyonlar: SOLUSDT short @ 94.35 (TP 93.79 / SL 94.73); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); DOGEUSDT short @ 0.08 (TP 0.07 / SL 0.08)
 
@@ -75,14 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,365.64 $** (başlangıç 100,000 $, +365.64 $ / %+0.37)
+**Hesap değeri: 100,400.23 $** (başlangıç 100,000 $, +400.23 $ / %+0.40)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 10:21 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdhSq4ZpfFBc58Fse9q8'}
 02.11 10:24 A  SHORT ETHUSDT 2503 USD x3 @ 2283.49 (ters sinyal, RSI 39)
 02.11 10:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdhg6WsKZBcWGP8RXjgQ'}
 02.11 10:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdhuHJ7ZnbZM4s1XqzvX'}
@@ -97,6 +96,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 11:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdnYrcpt8BYURfxGTetG'}
 02.11 11:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdnn6Y79MkCjLLcy9p5y'}
 02.11 11:34 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdo1PNV6rzuiWmm2xSEH'}
+02.11 11:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdoEde6NJaRVMnKvVYRm'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
