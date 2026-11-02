@@ -5205,6 +5205,10 @@
    [
     1793595603,
     4139.71
+   ],
+   [
+    1793595775,
+    4137.34
    ]
   ]
  },
@@ -10276,6 +10280,10 @@
    [
     1793595603,
     4868.5
+   ],
+   [
+    1793595775,
+    4868.5
    ]
   ],
   "news": {
@@ -13058,7 +13066,6 @@
   ]
  },
  "log": [
-  "01.11 07:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:28 A  CLOSE XRPUSDT time limit: -9.68 USD",
   "01.11 07:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 07:31 A  CLOSE BNBUSDT stop: -13.94 USD",
@@ -13357,7 +13364,8 @@
   "02.11 07:54 N  NEWS (13 new) score -0.50 conf 0.60: Warsh'\u0131n Fed'in faiz art\u0131r\u0131m\u0131na devam edece\u011fine dair sinyalleri ve piyasadaki faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ile birlikte alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Alt\u0131n\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye gerilemesi margin call kaynakl\u0131 sat\u0131\u015flarla h\u0131zland\u0131; \u0130ran sava\u015f\u0131na dair jeopolitik risk ise g\u00fcvenli liman talebi yaratmak yerine dolar ve petrol kanal\u0131yla kar\u0131\u015f\u0131k bir etki yarat\u0131yor. Baz\u0131 haberlerin eski veya fiyatlanm\u0131\u015f olmas\u0131 ve bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "02.11 07:54 N  GPT  score -0.15 conf 0.34: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu yerel perakende fiyatlar\u0131 veya alt\u0131nla do\u011frudan ilgili olmayan haberler; k\u0131sa vadeli k\u00fcresel fiyat i\u00e7in belirgin yeni kataliz\u00f6r yok. \u00d6nceki Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131 yarat\u0131rken, \u0130ran gerilimi olas\u0131 g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor; bu nedenle g\u00f6r\u00fcn\u00fcm haf",
   "02.11 08:00 B5P  NEWS (45 new) score +0.15 conf 0.40: H\u00fcrm\u00fcz Bo\u011faz\u0131'nda iki tankerin may\u0131na \u00e7arp\u0131p patlamas\u0131 arz riskini ciddi bi\u00e7imde art\u0131rd\u0131\u011f\u0131 i\u00e7in k\u0131sa vadede yukar\u0131 y\u00f6nl\u00fc bask\u0131 yaratabilir. Ancak \u0130ran-ABD m\u00fczakerelerine ili\u015fkin haberler fiyatlar\u0131 son saatlerde y\u00fczde 3 civar\u0131nda a\u015fa\u011f\u0131 \u00e7ekti ve haberler birbiriyle \u00e7eli\u015fkili; Goldman'\u0131n tahmin art\u0131r\u0131m\u0131 ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Bu nedenle sinyal zay\u0131f ve y\u00f6n\u00fc belirsiz.",
-  "02.11 08:00 B5P  GPT  score +0.20 conf 0.48: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda iki tankerin may\u0131na \u00e7arparak patlad\u0131\u011f\u0131na dair yeni haber, do\u011frulanmas\u0131 h\u00e2linde k\u0131sa vadede arz ve ta\u015f\u0131mac\u0131l\u0131k risk primini art\u0131rabilir. Ancak \u0130ran\u2019la diplomasi haberleriyle petrol\u00fcn zaten %3\u2019ten fazla gerilemesi ve Ceyhan ihracat\u0131ndaki art\u0131\u015f bu y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor."
+  "02.11 08:00 B5P  GPT  score +0.20 conf 0.48: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda iki tankerin may\u0131na \u00e7arparak patlad\u0131\u011f\u0131na dair yeni haber, do\u011frulanmas\u0131 h\u00e2linde k\u0131sa vadede arz ve ta\u015f\u0131mac\u0131l\u0131k risk primini art\u0131rabilir. Ancak \u0130ran\u2019la diplomasi haberleriyle petrol\u00fcn zaten %3\u2019ten fazla gerilemesi ve Ceyhan ihracat\u0131ndaki art\u0131\u015f bu y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "02.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -17278,6 +17286,10 @@
    [
     1793595603,
     4963.78
+   ],
+   [
+    1793595775,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -21126,6 +21138,10 @@
    [
     1793595603,
     4975.18
+   ],
+   [
+    1793595775,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -24940,6 +24956,10 @@
    [
     1793595603,
     4993.28
+   ],
+   [
+    1793595775,
+    4993.28
    ]
   ]
  },
@@ -28591,6 +28611,10 @@
    [
     1793595603,
     4969.22
+   ],
+   [
+    1793595775,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -30937,6 +30961,10 @@
    [
     1793595603,
     5069.12
+   ],
+   [
+    1793595775,
+    5050.58
    ]
   ],
   "news_calls": {
@@ -31173,7 +31201,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.61
+     "cur": 207.71
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -31187,18 +31215,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 400.69
+     "cur": 400.65
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -1225.54,
+    "pnl": -1282.04,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 99903.36
+   "equity": 99846.86
   },
   "equity_curve": [
    [
@@ -34488,6 +34516,10 @@
    [
     1793595603,
     99903.36
+   ],
+   [
+    1793595775,
+    99846.86
    ]
   ],
   "open": {
@@ -36378,6 +36410,10 @@
    ],
    [
     1793595603,
+    5000
+   ],
+   [
+    1793595775,
     5000
    ]
   ],
