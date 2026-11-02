@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 07:22 (İstanbul)
+> Son güncelleme: 02.11.2026 07:42 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,11 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 142.76 $ |
 
-**Hesap değeri: 5,078.66 $** (başlangıç 5,000 $, +78.66 $ / %+1.57)
+**Hesap değeri: 5,072.70 $** (başlangıç 5,000 $, +72.70 $ / %+1.45)
 
-Son haber analizi (02.11 07:13): Claude puan **-0.30**, güven 0.50 — Altın yıllık en düşük seviyesine yakın işlem görüyor ve Fed faiz artırımı beklentilerinin güçlenmesi, reel faizler üzerinden baskı yaratıyor. İran savaşına ilişkin jeopolitik risk güvenli liman talebini destekliyor olsa da, bu talep fiyatlara yeterince yansımıyor; petrol fiyatlarındaki gerileme ve müzakere sinyalleri de sınırlı bir toparlanma ihtimali taşıyor.
+Açık pozisyonlar: PAXGUSDT short @ 3910.21 (TP 3898.48 / SL 3918.03)
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.48 — Altının sert düşüşü ve Fed faiz artırımı beklentilerinin güçlenmesi kısa vadede aşağı yönlü baskıyı destekliyor; doların istikrarlı seyri de bunu pekiştiriyor. İran konusunda hem müzakere hem çatışma haberleri bulunduğundan güvenli liman etkisi belirsiz ve hareketin bir kısmı önceden fiyatlanmış ola
+Son haber analizi (02.11 07:42): Claude puan **-0.60**, güven 0.60 — Faiz artırımı beklentileri ve Warsh'un ek Fed sıkılaştırma sinyalleri, güçlü ABD enflasyonu ve marj çağrıları altın fiyatını bir yılın en düşük seviyesine çekti; bu baskı kısa vadede altın için negatif. Buna karşın İran savaşı ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor ve altın aşırı satılmış görünüyor, bu nedenle toparlanma ihtimali ve sinyallerin çelişkili olması güveni sınırlıyor.
+
+GPT (gpt-6-luna): puan **-0.48**, güven 0.65 — Fed’in enflasyon nedeniyle yeni faiz artırımlarına işaret etmesi ve faiz artışı beklentilerinin güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor; marjin çağrılarının düşüşü büyütmesi de aşağı yönlü riski artırıyor. İran gerilimi ve yuanın güçlenmesi sınırlı destek sağlasa da haberler çelişkili
 
 Son işlemler:
 
@@ -69,16 +71,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,005.94 $** (başlangıç 100,000 $, +5.94 $ / %+0.01)
+**Hesap değeri: 100,049.17 $** (başlangıç 100,000 $, +49.17 $ / %+0.05)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-02.11 02:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-02.11 02:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 02:14 A  CLOSE SOLUSDT stop: -26.91 USD
 02.11 02:14 A  CLOSE XRPUSDT stop: -13.35 USD
@@ -91,6 +90,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 07:01 N  GPT  score -0.10 conf 0.38: Altın, aşırı satım sonrası toparlanıyor ve İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak doların güçlü/istikrarlı seyri ve Fed faiz artırımı beklentilerinin yükselmesi kısa vadede baskı yaratıyor. Haber akışı çelişkili ve büyük ölçüde tekrarlı olduğundan net yön sinyali zay
 02.11 07:13 N  NEWS (9 new) score -0.30 conf 0.50: Altın yıllık en düşük seviyesine yakın işlem görüyor ve Fed faiz artırımı beklentilerinin güçlenmesi, reel faizler üzerinden baskı yaratıyor. İran savaşına ilişkin jeopolitik risk güvenli liman talebini destekliyor olsa da, bu talep fiyatlara yeterince yansımıyor; petrol fiyatlarındaki gerileme ve müzakere sinyalleri de sınırlı bir toparlanma ihtimali taşıyor.
 02.11 07:13 N  GPT  score -0.35 conf 0.48: Altının sert düşüşü ve Fed faiz artırımı beklentilerinin güçlenmesi kısa vadede aşağı yönlü baskıyı destekliyor; doların istikrarlı seyri de bunu pekiştiriyor. İran konusunda hem müzakere hem çatışma haberleri bulunduğundan güvenli liman etkisi belirsiz ve hareketin bir kısmı önceden fiyatlanmış ola
+02.11 07:42 N  NEWS (22 new) score -0.60 conf 0.60: Faiz artırımı beklentileri ve Warsh'un ek Fed sıkılaştırma sinyalleri, güçlü ABD enflasyonu ve marj çağrıları altın fiyatını bir yılın en düşük seviyesine çekti; bu baskı kısa vadede altın için negatif. Buna karşın İran savaşı ve Ukrayna'daki çatışmalar güvenli liman talebini destekliyor ve altın aşırı satılmış görünüyor, bu nedenle toparlanma ihtimali ve sinyallerin çelişkili olması güveni sınırlıyor.
+02.11 07:42 N  GPT  score -0.48 conf 0.65: Fed’in enflasyon nedeniyle yeni faiz artırımlarına işaret etmesi ve faiz artışı beklentilerinin güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor; marjin çağrılarının düşüşü büyütmesi de aşağı yönlü riski artırıyor. İran gerilimi ve yuanın güçlenmesi sınırlı destek sağlasa da haberler çelişkili
+02.11 07:42 B5  SHORT gold 25000 USD x10 @ 3910.21 (TP 3898.48, SL 3918.03; news -0.54)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
