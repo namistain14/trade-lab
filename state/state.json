@@ -5717,6 +5717,10 @@
    [
     1793619177,
     4098.2
+   ],
+   [
+    1793619365,
+    4096.14
    ]
   ]
  },
@@ -11132,43 +11136,38 @@
    [
     1793619177,
     4868.5
+   ],
+   [
+    1793619365,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.15,
-   "confidence": 0.35,
-   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve jeopolitik risk alt\u0131n i\u00e7in g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor, ancak faiz art\u0131r\u0131m\u0131 beklentileri, Fed sinyalleri ve g\u00fc\u00e7lenen dolar (rupi ve di\u011fer para birimlerinin de\u011fer kayb\u0131) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Yerel alt\u0131n fiyat\u0131 haberlerinin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve g\u00fcr\u00fclt\u00fc niteli\u011finde; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
+   "confidence": 0.4,
+   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed faiz beklentileri alt\u0131ndaki toparlanmay\u0131 s\u0131n\u0131rl\u0131yor ve ekim ay\u0131 2008'den bu yana en k\u00f6t\u00fc performans\u0131n\u0131 g\u00f6sterdi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fini s\u00f6ylemesiyle petrol %3'ten fazla d\u00fc\u015ft\u00fc; bu jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak n\u00fckleer sald\u0131r\u0131 ve sava\u015f tehdidi haberleri bu etkiyi k\u0131smen dengeliyor.",
    "n": 45,
-   "ts": 1793600376909,
-   "new_headlines": 8,
+   "ts": 1793619364800,
+   "new_headlines": 45,
    "key_events": [
     "Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fi sinyali sonras\u0131 petrol yakla\u015f\u0131k %3 d\u00fc\u015ft\u00fc",
     "Alt\u0131n 3.900 dolar\u0131 a\u015farak toparland\u0131 ancak Fed riskleri s\u00fcr\u00fcyor",
     "G\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor"
    ],
    "gpt": {
-    "score": 0.12,
-    "confidence": 0.35,
-    "reason": "Reuters\u2019\u0131n daha yumu\u015fak petrol fiyatlar\u0131 e\u015fli\u011finde alt\u0131n\u0131n y\u00fckseldi\u011fini bildirmesi k\u0131sa vadede hafif destekleyici; ancak Fed\u2019in faiz g\u00f6r\u00fcn\u00fcm\u00fcne ili\u015fkin riskler ve dolar\u0131n g\u00fc\u00e7lenmesi kazan\u00e7lar\u0131 s\u0131n\u0131rlayabilir. Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu yerel alt\u0131n fiyatlar\u0131yla ilgili ve k\u00fcresel spot fiyat i\u00e7in g\u00fc\u00e7l\u00fc bir ",
+    "score": -0.15,
+    "confidence": 0.36,
+    "reason": "Fed faiz beklentilerinin alt\u0131n\u0131 s\u0131n\u0131rlamas\u0131 ve dolar\u0131n yatay-g\u00fc\u00e7l\u00fc seyri k\u0131sa vadede hafif bask\u0131 yarat\u0131yor; \u0130ran kaynakl\u0131 risk ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebini desteklese de petrol\u00fcn diplomasi sinyalleriyle gerilemesi bu etkiyi azalt\u0131yor. Haberler kar\u0131\u015f\u0131k ve \u00e7o\u011fu yeni bir t\u0131rman\u0131\u015f teyit etmiyor.",
     "key_events": [
-     "Alt\u0131n, daha yumu\u015fak petrol fiyatlar\u0131yla toparland\u0131",
-     "Fed faiz riskleri ve g\u00fc\u00e7l\u00fc dolar y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor",
-     "Yeni alt\u0131n art\u0131\u015flar\u0131n\u0131n \u00e7o\u011fu yerel piyasalara \u00f6zg\u00fc"
+     "Fed faiz beklentileri alt\u0131n toparlanmas\u0131n\u0131 s\u0131n\u0131rl\u0131yor",
+     "\u0130ran gerilimi g\u00fcvenli liman talebini destekliyor",
+     "Petrol, diplomasi sinyalleriyle geriledi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792759343209,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon endi\u015feleri ve FOMC \u00f6ncesi dolar direnci nedeniyle bask\u0131 alt\u0131nda; haberlerde alt\u0131n %2,31 d\u00fc\u015ft\u00fc ve \u00fc\u00e7 ayl\u0131k dip seviyelerinde a\u00e7\u0131ld\u0131. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da, piyasan\u0131n faiz beklentilerini s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcnde fiyatlamas\u0131 bu etkiyi a\u011f\u0131r bas\u0131yor, bu y\u00fczden k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif.",
-    "new": 8,
-    "gpt_score": -0.35,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1792759885612,
     "score": -0.3,
@@ -13859,63 +13858,70 @@
     "new": 8,
     "gpt_score": 0.12,
     "gpt_confidence": 0.35
+   },
+   {
+    "ts": 1793619364800,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed faiz beklentileri alt\u0131ndaki toparlanmay\u0131 s\u0131n\u0131rl\u0131yor ve ekim ay\u0131 2008'den bu yana en k\u00f6t\u00fc performans\u0131n\u0131 g\u00f6sterdi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fini s\u00f6ylemesiyle petrol %3'ten fazla d\u00fc\u015ft\u00fc; bu jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak n\u00fckleer sald\u0131r\u0131 ve sava\u015f tehdidi haberleri bu etkiyi k\u0131smen dengeliyor.",
+    "new": 45,
+    "gpt_score": -0.15,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-11-02",
-   "n": 10
+   "n": 11
   },
   "news_seen": [
-   "Gold Prices Rise Again in Bangladesh: 22-Carat Gold Up by Tk 3,000 - https://www.businesstimes-bd.com/",
-   "Gold price rises in Bangladesh - Banglanews24",
-   "Midterms 2026: Georgians on the front lines of the people\u2019s war against data centres - France 24",
-   "Gold Price in Australia Today: Spot Quotes, Currency Moves and Buying Costs - Kalkine",
-   "Can Saudi Arabia\u2019s burgeoning biotech hub withstand geopolitical pressures? - BioSpace",
-   "Gold price hike: 22-carat gold rises to Tk 220,858 per bhori - Jagonews24",
-   "Gold price rises by Rs 2,300 in Nepali market - Khabarhub",
-   "Gold rate today (November 2, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & - The Economic Times",
-   "Gold prices recover after deep decline, the 4,000 USD mark becomes a test - Laodong.vn",
-   "'Like a missile coming down': DeSantis addresses deadly jet crash as 600 face evacuation - WPEC",
-   "Gold prices rise by Tk3,194 per bhori after two days - Dhaka Tribune",
-   "Chennai gold price rises by Rs 360 on November 2, 2026; check today's gold, silver rate - DT Next",
-   "Dubai gold price loses Dh14.75 in one week; 24K trades at Dh470 - Khaleej Times",
-   "Rupiah Weakens to Rp18,155 per US Dollar Today, October Inflation and Foreign Sell-offs in Market Spotlight - Aktualita.co",
-   "Rupee depreciates 6.8% against US dollar by end-October - Hiru News",
-   "Gold, silver rates today Bangalore 2 Nov: Latest prices, up-down movement for precious metal investors in Garden City - Livemint",
-   "Gold rate today in Hyderabad, November 2: Check 22K, 24K gold and silver prices - Hyderabad Mail",
-   "Trump looks for a scapegoat as Iran war drags on, questions Hegseth and Caine - Ynetnews",
-   "Gold and silver prices rise in domestic market - Nepalnews.com",
-   "Rupee Slips 21 Paise to 94.97 Against US Dollar in Early Trade - APAC Media",
-   "Gold price rises by Rs 2,300 per tola - OnlineKhabar English News",
-   "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag - Reuters",
-   "Gold struggles to extend rebound above $3,900 as Fed risks loom | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Gold price surges by Rs 2,300 per tola in Nepal - myRepublica",
-   "Sudanese women break cultural barriers to share the Gospel amid war - Mission Network News",
-   "Drone strikes and hospitality: opposite realities in Sudan\u2019s civil war - Mission Network News",
-   "Gold struggles to extend rebound above $3,900 as Fed risks loom - FXStreet",
-   "Rupee Falls 21 Paise To 94.97 Against US Dollar In Early Trade - Deccan Chronicle",
-   "Domestic gold prices today, November 2nd: SJC gold recovers, increasing by 1 million VND/ounce. - Vietnam.vn",
-   "3 Maritime Insurance Stocks Exposed To Rising Gulf War Risk - Yahoo Finance",
-   "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. - The Economic Times",
-   "Hypersonic missile start-up secures funds to boost Europe\u2019s deep-strike capability - Financial Times",
-   "The great AI trade reversal: Could India gain? - TradingView",
-   "Rupee weakens 21 paise to 94.97 against US dollar in early trade - Mid-Day",
-   "Rupee falls 21 paise to 94.97 against US dollar as greenback strengthens - PSU Watch",
-   "Gold rises on softer oil; Markets parse Fed signals - Reuters",
-   "Gold Falls \u20b92,890 on Nov 2; Jewellery Stocks Mixed in Early Trade - HDFC Sky",
-   "The Biggest October Surprise of All Was The Cuban Missile Crisis - Foreign Policy",
-   "AI mania can\u2019t survive higher interest rates - Financial Times",
-   "Life in Tehran under Trump\u2019s blockade - Financial Times",
-   "America Is Making a \u2018Freaking Fortune\u2019 In an Energy Crisis - Bloomberg",
-   "Surging costs and China trade war test US farmers' loyalty to Trump - Nikkei Asia",
-   "Live Civil War-era artillery shell found in Pennsylvania home - CBS News",
-   "Trump weighing who to scapegoat for failure to end Iran war so far \u2014 report - The Times of Israel",
-   "Kyiv Says Russia Lost 54,400 Troops in Its Bloodiest Month of the War - SOFX"
+   "MCX Gold Rate Today, Nov 2: 24K, 22K Gold Prices in Delhi, - APAC Media",
+   "Ryanair says it may freeze workers' pay and raise airfares",
+   "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+   "Gold trims intraday gains as Fed rate bets cap recovery - JournalArta",
+   "Iran Warns Trump Any Attack on Tehran Could Spark Longer US War: 14 outlets compared - NewsCord",
+   "Cost of living, Iran war weigh on voters ahead of US midterms - T\u00fcrkiye Today",
+   "Residents recount jet sounding \u2018like a missile' before crash that killed 9 in Palm Beach - NBC 6 South Florida",
+   "XM launches Diwali campaign to help investors explore online gold trading - The Tribune",
+   "Gold price increases in local market - en.bd-pratidin.com",
+   "Gold prices today, afternoon of November 2nd, 2026: Closing prices for SJC, BTMC, BTMH, and DOJI gold. - Vietnam.vn",
+   "Dollar steadies as U.S. midterms loom; euro digests Fitch outlook downgrade - StreetInsider",
+   "US dollar rates open steady near 168,000 dinars across major Iraqi hubs - IraqiNews",
+   "Ringgit ends lower against US dollar amid stronger US economic data outlook - The Star",
+   "Alexandria Historian Uncovers Civil War Secrets in New Book on Union Occupation - The Zebra",
+   "Women and Girls in Sudan: Building Economic Resilience During War - BORGEN Magazine",
+   "Global Tensions in Geopolitics - Geopolitical Futures",
+   "Past reflections: World War II veteran celebrates 100 years of active living - Current Publishing",
+   "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto",
+   "In the midterm elections, Gen Z can\u2019t afford the culture war - Vox",
+   "A Hard Winter War is Coming in Russia Too, Not Just Ukraine - Bloomberg",
+   "Geopolitical risks increasingly disrupt business travel, finds report - The Business Travel Magazine",
+   "Iran war latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy - The National",
+   "\u2018Looked like a missile going down\u2019: Witnesses recount moments after jet crash in Florida - WBAL News Radio",
+   "India Gold price today: FXStreet data show prices moving higher - www.tmgm.com",
+   "Japanese Yen remains steady despite modest US Dollar weakness - www.tmgm.com",
+   "RBA hike hopes: Australian Dollar strengthens against US Dollar - Societe Generale - www.tmgm.com",
+   "Nuclear strike on Iran? Trump and Netanyahu beat drums of war - The New Arab",
+   "Missile startup Hypersonica raises \u20ac100m from Lightspeed, General Catalyst as missile defence takes off - Sifted",
+   "Rupee Falls 10 Paise to 94.86 Against US Dollar - Rediff MoneyWiz",
+   "The midnight option: How a third Iran war could break the nuclear taboo - T\u00fcrkiye Today",
+   "Bibi and the Blockchain: When a Prime Minister Plans for Sanctions Evasion - Royal United Services Institute (RUSI)",
+   "World gold price today 2.11: Recovery signal appears in the market - Laodong.vn",
+   "WTI Retreats Below $100 As Geopolitical Risk Premium Eases - TradingPedia",
+   "New research reveals how gold reacts to market panic - IFA Magazine",
+   "News by CNBC TV18 on TradingView, 2026-11-02 \u2014 cnbctv:0b5c860b7094b:0 - TradingView",
+   "Fake alerts warn of nuclear danger as Ukraine and Russia report emergency app hacks - NBC News",
+   "'The sky is falling,' gold prices experience their worst October since 2008. - Vietnam.vn",
+   "Saudi-led coalition intercepts a missile as fighting rages in Yemen\u2019s al-Jawf - Al Jazeera",
+   "Historian Brian Jordan explores Civil War veterans' difficult journey home - Lexington Herald Leader",
+   "Barrick Mining stock faces gold-price shock before November 9 results - ad-hoc-news.de",
+   "INTERVIEW \u2013 Israeli war damaged 22.5% of Lebanon\u2019s agricultural land: Minister - Anadolu Ajans\u0131",
+   "At Damascus Shrine, Hopes for Revival Collide With Memories of War - The Media Line",
+   "Gulf Economies, Torn by War in Iran, Desperately Need a Return to Normal - The New York Times",
+   "Russia Ukraine War - Post Register",
+   "Russia Ukraine War - WV News"
   ]
  },
  "log": [
-  "01.11 12:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 12:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:29 A  CLOSE XRPUSDT time limit: -0.21 USD",
   "01.11 12:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 12:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -14213,7 +14219,9 @@
   "02.11 14:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzzpetGv6qGehLug5TH'}",
   "02.11 14:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge29d5zJ3pUGm8dmCNKe'}",
   "02.11 14:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2NviVr8ZkuUdgqzv24'}",
-  "02.11 14:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2cCoF6Gn3VtoMt7oSK'}"
+  "02.11 14:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2cCoF6Gn3VtoMt7oSK'}",
+  "02.11 14:36 N  NEWS (45 new) score -0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed faiz beklentileri alt\u0131ndaki toparlanmay\u0131 s\u0131n\u0131rl\u0131yor ve ekim ay\u0131 2008'den bu yana en k\u00f6t\u00fc performans\u0131n\u0131 g\u00f6sterdi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fini s\u00f6ylemesiyle petrol %3'ten fazla d\u00fc\u015ft\u00fc; bu jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak n\u00fckleer sald\u0131r\u0131 ve sava\u015f tehdidi haberleri bu etkiyi k\u0131smen dengeliyor.",
+  "02.11 14:36 N  GPT  score -0.15 conf 0.36: Fed faiz beklentilerinin alt\u0131n\u0131 s\u0131n\u0131rlamas\u0131 ve dolar\u0131n yatay-g\u00fc\u00e7l\u00fc seyri k\u0131sa vadede hafif bask\u0131 yarat\u0131yor; \u0130ran kaynakl\u0131 risk ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebini desteklese de petrol\u00fcn diplomasi sinyalleriyle gerilemesi bu etkiyi azalt\u0131yor. Haberler kar\u0131\u015f\u0131k ve \u00e7o\u011fu yeni bir t\u0131rman\u0131\u015f teyit etmiyor."
  ],
  "gold_big": {
   "account": {
@@ -18478,6 +18486,10 @@
    [
     1793619177,
     4963.78
+   ],
+   [
+    1793619365,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -22670,6 +22682,10 @@
    [
     1793619177,
     4975.18
+   ],
+   [
+    1793619365,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -26828,6 +26844,10 @@
    [
     1793619177,
     4993.28
+   ],
+   [
+    1793619365,
+    4993.28
    ]
   ]
  },
@@ -30823,6 +30843,10 @@
    [
     1793619177,
     4969.22
+   ],
+   [
+    1793619365,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -33518,6 +33542,10 @@
    [
     1793619177,
     5022.7
+   ],
+   [
+    1793619365,
+    5022.7
    ]
   ],
   "news_calls": {
@@ -33725,7 +33753,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.73989299999,
+   "balance": 99840.742293,
    "start": 100000.0,
    "positions": [
     {
@@ -33740,7 +33768,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 343.85
+     "cur": 343.86
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -33754,7 +33782,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.48
+     "cur": 207.4772
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -33768,18 +33796,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 402.99
+     "cur": 403.02
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -769.48,
+    "pnl": -757.97,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100359.42
+   "equity": 100370.93
   },
   "equity_curve": [
    [
@@ -37413,6 +37441,10 @@
    [
     1793619177,
     100359.42
+   ],
+   [
+    1793619365,
+    100370.93
    ]
   ],
   "open": {
@@ -39647,6 +39679,10 @@
    ],
    [
     1793619177,
+    5000
+   ],
+   [
+    1793619365,
     5000
    ]
   ],
