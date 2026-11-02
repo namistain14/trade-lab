@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 09:04 (İstanbul)
+> Son güncelleme: 02.11.2026 09:07 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.2 |
 | Ödenen komisyon/spread | 22.82 $ | 298.41 $ |
 
-**Hesap değeri: 4,147.25 $** (başlangıç 5,000 $, -852.75 $ / %-17.06)
+**Hesap değeri: 4,141.27 $** (başlangıç 5,000 $, -858.73 $ / %-17.17)
 
 Açık pozisyonlar: BNBUSDT short @ 712.26 (TP 707.98 / SL 715.11); BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94)
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 08:55): Claude puan **+0.10**, güven 0.30 — Haberler karışık: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar (rupi, rupiah zayıflığı) altı baskılıyor. İran savaşının sürmesi güvenli liman talebini destekliyor, fakat etkisi kısmen fiyatlanmış durumda; "1 yılın en düşük seviyesi" başlıkları eski olabilir.
+Son haber analizi (02.11 09:07): Claude puan **+0.10**, güven 0.35 — Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltarak altı hafifçe destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar baskısı sürüyor. Başlıklar çelişkili ve birçoğu zaten fiyatlanmış haberler olduğu için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — İran savaşının sürmesi güvenli liman talebini desteklerken, petrol fiyatlarındaki gevşeme enflasyon ve faiz baskısını azaltarak altına hafif destek sağlayabilir. Ancak Fed riskleri ve 3.900 dolar üzerindeki zorlanma yükseliş potansiyelini sınırlıyor; yerel fiyat haberleri kısa vadeli küresel yön içi
+GPT (gpt-6-luna): puan **+0.20**, güven 0.35 — Altın fiyatlarındaki toparlanma ve süren İran savaşı hafif destekleyici; petrolün gerilemesi enflasyon ve faiz baskısını azaltabilir. Ancak Fed’e ilişkin şahin beklentiler, çelişkili haber akışı ve toparlanmanın büyük ölçüde fiyatlanmış olma ihtimali yükseliş sinyalini sınırlıyor.
 
 Son işlemler:
 
@@ -75,15 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,987.39 $** (başlangıç 100,000 $, -12.61 $ / %-0.01)
+**Hesap değeri: 100,013.04 $** (başlangıç 100,000 $, +13.04 $ / %+0.01)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 08:00 B5P  GPT  score +0.20 conf 0.48: Hürmüz Boğazı’nda iki tankerin mayına çarparak patladığına dair yeni haber, doğrulanması hâlinde kısa vadede arz ve taşımacılık risk primini artırabilir. Ancak İran’la diplomasi haberleriyle petrolün zaten %3’ten fazla gerilemesi ve Ceyhan ihracatındaki artış bu yükseliş etkisini sınırlıyor.
-02.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 08:06 N  NEWS (12 new) score +0.10 conf 0.35: Altın 3.900 doların üzerine toparlandı; petrol fiyatlarındaki gerilemenin enflasyon endişelerini azaltması ve İran savaşındaki müzakere haberleri kısa vadede hafif destekleyici. Buna karşın Warsh'un ek faiz artırımı sinyalleri, BoE'nin faiz artırımı beklentisi ve güçlü dolar/yuan baskısı yukarı yönlü hareketi sınırlıyor; haberler çelişkili olduğu için güven düşük.
 02.11 08:06 N  GPT  score +0.20 conf 0.35: Altının 3.900 doların üzerine çıkması ve düşen petrol fiyatlarının enflasyon/faiz baskısını hafifletmesi kısa vadede destekleyici. İran savaşı ve Ukrayna’daki gerilim de güvenli liman talebini canlı tutabilir; ancak güçlü dolar ve önceki şahin Fed beklentileri yükselişi sınırlıyor.
 02.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -97,6 +95,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 08:43 N  GPT  score +0.08 conf 0.38: Petrolün ucuzlaması ve altındaki toparlanma kısa vadede destekleyici; ancak Fed’in faiz artırımı riskleri ve güçlü dolar görünümü yükselişi sınırlıyor. İran savaşına dair başlıklar yeni bir tırmanış göstermediğinden genel etki zayıf ve karışık.
 02.11 08:55 N  NEWS (10 new) score +0.10 conf 0.30: Haberler karışık: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar (rupi, rupiah zayıflığı) altı baskılıyor. İran savaşının sürmesi güvenli liman talebini destekliyor, fakat etkisi kısmen fiyatlanmış durumda; "1 yılın en düşük seviyesi" başlıkları eski olabilir.
 02.11 08:55 N  GPT  score +0.15 conf 0.34: İran savaşının sürmesi güvenli liman talebini desteklerken, petrol fiyatlarındaki gevşeme enflasyon ve faiz baskısını azaltarak altına hafif destek sağlayabilir. Ancak Fed riskleri ve 3.900 dolar üzerindeki zorlanma yükseliş potansiyelini sınırlıyor; yerel fiyat haberleri kısa vadeli küresel yön içi
+02.11 09:07 N  NEWS (11 new) score +0.10 conf 0.35: Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltarak altı hafifçe destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar baskısı sürüyor. Başlıklar çelişkili ve birçoğu zaten fiyatlanmış haberler olduğu için güven düşük tutuldu.
+02.11 09:07 N  GPT  score +0.20 conf 0.35: Altın fiyatlarındaki toparlanma ve süren İran savaşı hafif destekleyici; petrolün gerilemesi enflasyon ve faiz baskısını azaltabilir. Ancak Fed’e ilişkin şahin beklentiler, çelişkili haber akışı ve toparlanmanın büyük ölçüde fiyatlanmış olma ihtimali yükseliş sinyalini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
