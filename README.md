@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 09:51 (İstanbul)
+> Son güncelleme: 02.11.2026 09:54 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -105.36 $ | -860.50 $ |
-| İşlem sayısı | 5 | 66 |
-| Kazanma oranı | %0.0 | %18.2 |
-| Ödenen komisyon/spread | 22.82 $ | 298.41 $ |
+| Net kâr/zarar | -88.40 $ | -843.53 $ |
+| İşlem sayısı | 6 | 67 |
+| Kazanma oranı | %16.7 | %19.4 |
+| Ödenen komisyon/spread | 27.77 $ | 303.37 $ |
 
-**Hesap değeri: 4,170.76 $** (başlangıç 5,000 $, -829.24 $ / %-16.58)
+**Hesap değeri: 4,166.69 $** (başlangıç 5,000 $, -833.31 $ / %-16.67)
 
-Açık pozisyonlar: BNBUSDT short @ 712.26 (TP 707.98 / SL 715.11); BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94)
+Açık pozisyonlar: BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94); SOLUSDT short @ 94.35 (TP 93.79 / SL 94.73)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 09:52 | BNBUSDT | short | +16.97 $ | time limit |
 | 02.11 04:08 | XRPUSDT | short | -26.51 $ | stop |
 | 02.11 02:30 | BNBUSDT | short | -22.05 $ | time limit |
 | 02.11 02:14 | XRPUSDT | short | -13.35 $ | stop |
 | 02.11 02:14 | SOLUSDT | short | -26.91 $ | stop |
-| 02.11 01:04 | ETHUSDT | short | -16.55 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -75,16 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,934.02 $** (başlangıç 100,000 $, -65.98 $ / %-0.07)
+**Hesap değeri: 99,881.93 $** (başlangıç 100,000 $, -118.07 $ / %-0.12)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-02.11 08:11 A  SHORT BTCUSDT 4967 USD x3 @ 78326.50 (ters sinyal, RSI 44)
-02.11 08:11 A  SHORT ETHUSDT 2484 USD x3 @ 2290.77 (ters sinyal, RSI 38)
 02.11 08:18 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlarının düşmesi ve İran diplomasisine ayrılan süre sinyali enflasyon endişelerini azaltarak altı hafifçe destekliyor; ancak Fed faiz artırımı beklentileri, güçlü dolar ve eski tarihli "bir yıllık dip" haberleri çelişkili olduğu için güven sınırlı.
 02.11 08:18 N  GPT  score +0.12 conf 0.38: Altın 3.900 doların üzerine toparlanırken düşen petrol fiyatları ve İran diplomasisine daha fazla zaman tanınması kısa vadede destekleyici; ancak Fed’e ilişkin şahin beklentiler yükselişi sınırlıyor. Başlıklar çelişkili ve yeni, güçlü bir katalizör görünmediğinden yön sinyali zayıf.
 02.11 08:43 N  NEWS (13 new) score +0.20 conf 0.35: Petrol fiyatlarının İran diplomasisi sinyali nedeniyle düşmesi enflasyon ve Fed sıkılaştırma beklentilerini biraz yumuşatarak altın için hafif olumlu bir ortam yaratıyor. Ancak dolar ve yuan güçlü, Fed riskleri sürüyor ve haberler birbiriyle çelişkili olduğu için güven sınırlı.
@@ -97,6 +94,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 09:19 N  GPT  score +0.12 conf 0.35: Reuters’ın daha yumuşak petrol fiyatları eşliğinde altının yükseldiğini bildirmesi kısa vadede hafif destekleyici; ancak Fed’in faiz görünümüne ilişkin riskler ve doların güçlenmesi kazançları sınırlayabilir. Yeni başlıkların çoğu yerel altın fiyatlarıyla ilgili ve küresel spot fiyat için güçlü bir 
 02.11 09:48 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdevsqSjg88BZ7kScLc8'}
 02.11 09:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfA8xtEvjwQroyvQNuQ'}
+02.11 09:54 A  CLOSE BNBUSDT time limit: +16.97 USD
+02.11 09:54 A  SHORT SOLUSDT 4988 USD x3 @ 94.35 (ters sinyal, RSI 37)
+02.11 09:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfPQgoCnGbSVby1agbD'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
