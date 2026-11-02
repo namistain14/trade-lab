@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 23:48 (İstanbul)
+> Son güncelleme: 02.11.2026 23:51 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 47.60 $ | 190.36 $ |
 
-**Hesap değeri: 4,860.94 $** (başlangıç 5,000 $, -139.06 $ / %-2.78)
+**Hesap değeri: 4,868.15 $** (başlangıç 5,000 $, -131.85 $ / %-2.64)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
-Son haber analizi (02.11 23:39): Claude puan **-0.20**, güven 0.45 — Dallas Fed Başkanı'nın en az iki faiz artırımı gerektiği yönündeki sert açıklaması altın için baskılayıcı; buna karşılık petrol düşüşünün faiz artırımı beklentilerini zayıflatması ve ABD-İran anlaşması umutlarının altını destekleyen bir toparlanma sağlaması karışık bir tablo yaratıyor. Güvenli liman talebi azalırken jeopolitik risk tamamen ortadan kalkmadığı için etki sınırlı kalabilir.
+Son haber analizi (02.11 23:51): Claude puan **-0.05**, güven 0.35 — Dallas Fed Başkanı'nın en az iki faiz artırımı gerektiği yönündeki sert açıklaması altın için baskılayıcı; buna karşılık petrol düşüşünün faiz artırımı beklentilerini zayıflatması ve ABD-İran anlaşması umutlarının altını destekleyen bir toparlanma sağlaması karışık bir tablo yaratıyor. Güvenli liman talebi azalırken jeopolitik risk tamamen ortadan kalkmadığı için etki sınırlı kalabilir.
 
-GPT (gpt-6-luna): puan **+0.10**, güven 0.40 — Petrol fiyatlarındaki düşüşün Fed’in ek faiz artırımı beklentilerini zayıflatması altını destekleyebilir; ancak Dallas Fed başkanının en az iki faiz artışı gerektiği açıklaması baskı yaratıyor. İran anlaşması ihtimali güvenli liman talebini azaltırken, haber akışı çelişkili olduğundan kısa vadeli yö
+GPT (gpt-6-luna): puan **+0.25**, güven 0.43 — Petrol fiyatlarındaki düşüşün Fed’in faiz artırımı beklentilerini zayıflatması ve doların gerilemesi altını kısa vadede destekleyebilir. Ancak ABD-İran anlaşması beklentisi güvenli liman talebini azaltırken, savaş haberleri ve Fed yetkilisinin ek faiz artışı yorumu görünümü karışık tutuyor.
 
 Son işlemler:
 
@@ -81,16 +81,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 96,720.26 $** (başlangıç 100,000 $, -3279.74 $ / %-3.28)
+**Hesap değeri: 101,857.00 $** (başlangıç 100,000 $, +1857.00 $ / %+1.86)
 
-Açık pozisyonlar: NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
+Açık pozisyonlar: TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 23:04 B5  CLOSE short stop: -55.96 USD
-02.11 23:07 B5P  NEWS (45 new) score -0.50 conf 0.60: Baskın haber akışı İran ile barış görüşmelerine ve Hürmüz Boğazı'nın iki gün içinde yeniden açılabileceği ihtimaline işaret ediyor; bu, savaş primini hızla eritip Brent'i aşağı çekiyor (piyasada %7'ye varan düşüş bildirildi). Kazakistan'ın Samara hattındaki taşımayı durdurması ve Hindistan'daki rafineri yangını gibi arz kaynaklı yukarı yönlü riskler var, ancak bunlar müzakere iyimserliğinin gerisinde kalıyor; Goldman'ın hedef artışı ise uzun vadeli bir sinyal.
-02.11 23:07 B5P  GPT  score -0.78 conf 0.82: ABD-İran ateşkes görüşmeleri ve İran’ın anlaşma kapsamında Hürmüz Boğazı’nı yeniden açabileceği haberleri yakın vadeli arz kesintisi riskini azaltıyor; petrolün %7’den fazla düşmesi bu beklentinin fiyatlandığını gösteriyor. Kazakistan’ın petrol transitini durdurması sınırlı bir karşı unsur, ancak kı
 02.11 23:07 B5P  SHORT BZ=F 25000 USD x10 @ 104.65 (TP 104.34, SL 104.86; news -0.64)
 02.11 23:10 B5  SHORT gold 25000 USD x10 @ 3950.37 (TP 3938.52, SL 3958.27; news -0.28)
 02.11 23:14 N  NEWS (5 new) score -0.20 conf 0.40: 
@@ -103,6 +100,9 @@ Açık pozisyonlar: NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406
 02.11 23:39 N  GPT  score +0.10 conf 0.40: Petrol fiyatlarındaki düşüşün Fed’in ek faiz artırımı beklentilerini zayıflatması altını destekleyebilir; ancak Dallas Fed başkanının en az iki faiz artışı gerektiği açıklaması baskı yaratıyor. İran anlaşması ihtimali güvenli liman talebini azaltırken, haber akışı çelişkili olduğundan kısa vadeli yö
 02.11 23:45 ERROR B6: 'id'
 02.11 23:48 ERROR B6: 'id'
+02.11 23:51 N  NEWS (13 new) score -0.05 conf 0.35: 
+02.11 23:51 N  GPT  score +0.25 conf 0.43: Petrol fiyatlarındaki düşüşün Fed’in faiz artırımı beklentilerini zayıflatması ve doların gerilemesi altını kısa vadede destekleyebilir. Ancak ABD-İran anlaşması beklentisi güvenli liman talebini azaltırken, savaş haberleri ve Fed yetkilisinin ek faiz artışı yorumu görünümü karışık tutuyor.
+02.11 23:51 ERROR B6: 'id'
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
