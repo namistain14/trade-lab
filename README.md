@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 00:36 (İstanbul)
+> Son güncelleme: 03.11.2026 00:39 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -1022.76 $ |
-| İşlem sayısı | 0 | 79 |
-| Kazanma oranı | %0.0 | %19.0 |
-| Ödenen komisyon/spread | 0.00 $ | 350.21 $ |
+| Net kâr/zarar | -25.31 $ | -1048.07 $ |
+| İşlem sayısı | 1 | 80 |
+| Kazanma oranı | %0.0 | %18.8 |
+| Ödenen komisyon/spread | 4.78 $ | 354.99 $ |
 
-**Hesap değeri: 3,958.55 $** (başlangıç 5,000 $, -1041.45 $ / %-20.83)
+**Hesap değeri: 3,940.20 $** (başlangıç 5,000 $, -1059.80 $ / %-21.20)
 
-Açık pozisyonlar: BTCUSDT short @ 76798.96 (TP 76338.17 / SL 77106.16); BNBUSDT short @ 695.68 (TP 691.51 / SL 698.46)
+Açık pozisyonlar: BTCUSDT short @ 76798.96 (TP 76338.17 / SL 77106.16)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 00:38 | BNBUSDT | short | -25.31 $ | stop |
 | 02.11 16:39 | BNBUSDT | short | -25.72 $ | stop |
 | 02.11 16:38 | ETHUSDT | short | -12.86 $ | stop |
 | 02.11 16:39 | BTCUSDT | short | -25.72 $ | stop |
 | 02.11 15:31 | BNBUSDT | short | -1.73 $ | time limit |
-| 02.11 15:10 | XRPUSDT | short | -12.99 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -35,7 +35,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 0.00 $ | 190.36 $ |
 
-**Hesap değeri: 4,863.66 $** (başlangıç 5,000 $, -136.34 $ / %-2.73)
+**Hesap değeri: 4,859.29 $** (başlangıç 5,000 $, -140.71 $ / %-2.81)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-02.11 23:39 N  NEWS (5 new) score -0.20 conf 0.45: Dallas Fed Başkanı'nın en az iki faiz artırımı gerektiği yönündeki sert açıklaması altın için baskılayıcı; buna karşılık petrol düşüşünün faiz artırımı beklentilerini zayıflatması ve ABD-İran anlaşması umutlarının altını destekleyen bir toparlanma sağlaması karışık bir tablo yaratıyor. Güvenli liman talebi azalırken jeopolitik risk tamamen ortadan kalkmadığı için etki sınırlı kalabilir.
 02.11 23:39 N  GPT  score +0.10 conf 0.40: Petrol fiyatlarındaki düşüşün Fed’in ek faiz artırımı beklentilerini zayıflatması altını destekleyebilir; ancak Dallas Fed başkanının en az iki faiz artışı gerektiği açıklaması baskı yaratıyor. İran anlaşması ihtimali güvenli liman talebini azaltırken, haber akışı çelişkili olduğundan kısa vadeli yö
 02.11 23:45 ERROR B6: 'id'
 02.11 23:48 ERROR B6: 'id'
@@ -103,6 +102,7 @@ Son işlemler:
 03.11 00:18 N  GPT  score +0.25 conf 0.40: Doların geri çekilmesi ve petrol düşüşünün Fed faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. İran konusunda hem müzakere/ateşkes işaretleri hem de yeni saldırı riski bulunduğundan güvenli liman etkisi belirsiz; haber akışı çelişkili.
 03.11 00:30 N  NEWS (11 new) score -0.10 conf 0.35: Yeni gelen başlıkların çoğu altınla ilgisiz (spor, kültür, savaş metaforları). Jeopolitik tarafta İran ile anlaşma beklentisi güvenli liman talebini zayıflatabilir, Dallas Fed'in "en az iki faiz artışı" yorumu ise faiz beklentilerini yükselterek altın için baskı yaratıyor. Buna karşılık petrol fiyatlarındaki düşüş faiz artırımı beklentilerini sınırlıyor ve Ukrayna'daki saldırılar ile İran savaşı riski kısa vadeli destek sağlayabilir; bu karışık tablo nedeniyle hafif negatif, düşük güvenli bir görüş.
 03.11 00:30 N  GPT  score +0.15 conf 0.32: Doların geri çekilmesi ve düşen petrol fiyatlarının Fed’in faiz artırımı beklentilerini zayıflatması altını kısa vadede destekleyebilir. Ancak İran’la görüşme ve olası anlaşma haberleri güvenli liman talebini azaltırken, haber akışı karışık ve yeni gelişmelerin çoğu altın için doğrudan etkisiz.
+03.11 00:39 A  CLOSE BNBUSDT stop: -25.31 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
