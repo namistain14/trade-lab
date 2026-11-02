@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 14:56 (İstanbul)
+> Son güncelleme: 02.11.2026 15:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %25.0 | %20.5 |
 | Ödenen komisyon/spread | 50.20 $ | 325.80 $ |
 
-**Hesap değeri: 4,082.42 $** (başlangıç 5,000 $, -917.58 $ / %-18.35)
+**Hesap değeri: 4,088.08 $** (başlangıç 5,000 $, -911.92 $ / %-18.24)
 
 Açık pozisyonlar: SOLUSDT short @ 94.11 (TP 93.55 / SL 94.49); BNBUSDT short @ 706.64 (TP 702.40 / SL 709.46); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.25)
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 14:48): Claude puan **+0.15**, güven 0.35 — Yeni başlıklar karışık: zayıflayan dolar altını destekliyor ve altın/gümüş toparlanıyor, petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatarak faiz indirimi ihtimallerini artırabilir. Öte yandan Fed faiz beklentileri toparlanmayı sınırlıyor, ISM ve ABD seçim gündemi dolar yönünde belirsizlik yaratıyor ve İran diplomasisi jeopolitik risk primini azaltıyor, bu da güvenli liman talebini zayıflatıyor. Genel etki hafif pozitif, ancak sinyaller karışık olduğu için güven düşük.
+Son haber analizi (02.11 15:00): Claude puan **+0.10**, güven 0.35 — Karışık sinyaller var: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflatabilir (altın için hafif olumlu), zayıf dolar da destekleyici; öte yandan Trump'ın İran'da diplomasiye zaman verdiği yönündeki haberler jeopolitik risk primini düşürüp güvenli liman talebini sınırlıyor ve Fed faiz beklentileri altın toparlanmasını sınırlıyor. Net etki sınırlı ve yön belirsiz.
 
-GPT (gpt-6-luna): puan **+0.05**, güven 0.33 — Zayıflayan doların altını desteklemesiyle toparlanma görülüyor; ancak Fed faiz beklentileri yükselişi sınırlıyor. İran diplomasisi sinyalleri ve petrol fiyatlarındaki düşüş, kısa vadeli güvenli liman talebini azaltabilir.
+GPT (gpt-6-luna): puan **+0.08**, güven 0.29 — Yemen’deki sivil kayıplara yol açan füze saldırısı kısa vadeli güvenli liman talebini destekleyebilir. Ancak petrolün İran diplomasisi beklentisiyle gerilemesi ve Fed faiz beklentilerinin altını sınırlaması tabloyu dengeliyor.
 
 Son işlemler:
 
@@ -75,15 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,377.31 $** (başlangıç 100,000 $, +377.31 $ / %+0.38)
+**Hesap değeri: 100,694.00 $** (başlangıç 100,000 $, +694.00 $ / %+0.69)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 13:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdyPyy8aYE72wnY4CRK2'}
-02.11 13:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdydCDCausu824HzUqvy'}
 02.11 13:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdyrVrTFWeYwpuXHfXyS'}
 02.11 13:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdz5nNF4vzXHvUMAM7nW'}
 02.11 14:02 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzK3yDG25dCwVnofRYU'}
@@ -97,6 +95,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 14:36 N  GPT  score -0.15 conf 0.36: Fed faiz beklentilerinin altını sınırlaması ve doların yatay-güçlü seyri kısa vadede hafif baskı yaratıyor; İran kaynaklı risk başlıkları güvenli liman talebini desteklese de petrolün diplomasi sinyalleriyle gerilemesi bu etkiyi azaltıyor. Haberler karışık ve çoğu yeni bir tırmanış teyit etmiyor.
 02.11 14:48 N  NEWS (9 new) score +0.15 conf 0.35: Yeni başlıklar karışık: zayıflayan dolar altını destekliyor ve altın/gümüş toparlanıyor, petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatarak faiz indirimi ihtimallerini artırabilir. Öte yandan Fed faiz beklentileri toparlanmayı sınırlıyor, ISM ve ABD seçim gündemi dolar yönünde belirsizlik yaratıyor ve İran diplomasisi jeopolitik risk primini azaltıyor, bu da güvenli liman talebini zayıflatıyor. Genel etki hafif pozitif, ancak sinyaller karışık olduğu için güven düşük.
 02.11 14:48 N  GPT  score +0.05 conf 0.33: Zayıflayan doların altını desteklemesiyle toparlanma görülüyor; ancak Fed faiz beklentileri yükselişi sınırlıyor. İran diplomasisi sinyalleri ve petrol fiyatlarındaki düşüş, kısa vadeli güvenli liman talebini azaltabilir.
+02.11 15:00 N  NEWS (9 new) score +0.10 conf 0.35: Karışık sinyaller var: petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflatabilir (altın için hafif olumlu), zayıf dolar da destekleyici; öte yandan Trump'ın İran'da diplomasiye zaman verdiği yönündeki haberler jeopolitik risk primini düşürüp güvenli liman talebini sınırlıyor ve Fed faiz beklentileri altın toparlanmasını sınırlıyor. Net etki sınırlı ve yön belirsiz.
+02.11 15:00 N  GPT  score +0.08 conf 0.29: Yemen’deki sivil kayıplara yol açan füze saldırısı kısa vadeli güvenli liman talebini destekleyebilir. Ancak petrolün İran diplomasisi beklentisiyle gerilemesi ve Fed faiz beklentilerinin altını sınırlaması tabloyu dengeliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
