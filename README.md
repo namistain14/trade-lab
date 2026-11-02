@@ -1,16 +1,16 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 23:57 (İstanbul)
+> Son güncelleme: 03.11.2026 00:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -267.62 $ | -1022.76 $ |
-| İşlem sayısı | 18 | 79 |
-| Kazanma oranı | %16.7 | %19.0 |
-| Ödenen komisyon/spread | 74.61 $ | 350.21 $ |
+| Net kâr/zarar | +0.00 $ | -1022.76 $ |
+| İşlem sayısı | 0 | 79 |
+| Kazanma oranı | %0.0 | %19.0 |
+| Ödenen komisyon/spread | 0.00 $ | 350.21 $ |
 
 **Hesap değeri: 3,977.24 $** (başlangıç 5,000 $, -1022.76 $ / %-20.46)
 
@@ -28,12 +28,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -223.80 $ | -145.14 $ |
-| İşlem sayısı | 4 | 16 |
+| Net kâr/zarar | +0.00 $ | -145.14 $ |
+| İşlem sayısı | 0 | 16 |
 | Kazanma oranı | %0.0 | %37.5 |
-| Ödenen komisyon/spread | 47.60 $ | 190.36 $ |
+| Ödenen komisyon/spread | 0.00 $ | 190.36 $ |
 
-**Hesap değeri: 4,854.36 $** (başlangıç 5,000 $, -145.64 $ / %-2.91)
+**Hesap değeri: 4,848.28 $** (başlangıç 5,000 $, -151.72 $ / %-3.03)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
@@ -55,10 +55,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +66.43 $ | +66.43 $ |
-| İşlem sayısı | 1 | 1 |
-| Kazanma oranı | %100.0 | %100.0 |
-| Ödenen komisyon/spread | 17.17 $ | 17.17 $ |
+| Net kâr/zarar | +0.00 $ | +66.43 $ |
+| İşlem sayısı | 0 | 1 |
+| Kazanma oranı | %0.0 | %100.0 |
+| Ödenen komisyon/spread | 0.00 $ | 17.17 $ |
 
 **Hesap değeri: 5,066.43 $** (başlangıç 5,000 $, +66.43 $ / %+1.33)
 

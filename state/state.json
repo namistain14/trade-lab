@@ -1587,10 +1587,10 @@
     }
    ],
    "day": {
-    "date": "2026-11-02",
-    "trades": 17,
-    "pnl": -267.62084689942736,
-    "stopped": true
+    "date": "2026-11-03",
+    "trades": 0,
+    "pnl": 0.0,
+    "stopped": false
    },
    "last_check_ms": 0
   },
@@ -6365,6 +6365,10 @@
    ],
    [
     1793653041,
+    3977.24
+   ],
+   [
+    1793653225,
     3977.24
    ]
   ]
@@ -12353,6 +12357,10 @@
    [
     1793653041,
     4868.5
+   ],
+   [
+    1793653225,
+    4868.5
    ]
   ],
   "news": {
@@ -15083,8 +15091,8 @@
    }
   ],
   "news_calls": {
-   "date": "2026-11-02",
-   "n": 48
+   "date": "2026-11-03",
+   "n": 0
   },
   "news_seen": [
    "How do midterm candidates plan to fight inflation? Economists evaluate their proposals - ABC News - Breaking News, Latest News and Videos",
@@ -20271,6 +20279,10 @@
    [
     1793653041,
     4963.78
+   ],
+   [
+    1793653225,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25035,6 +25047,10 @@
    [
     1793653041,
     4975.18
+   ],
+   [
+    1793653225,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -29765,6 +29781,10 @@
    [
     1793653041,
     4993.28
+   ],
+   [
+    1793653225,
+    4993.28
    ]
   ]
  },
@@ -34332,6 +34352,10 @@
    [
     1793653041,
     4969.22
+   ],
+   [
+    1793653225,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -34699,9 +34723,9 @@
     }
    ],
    "day": {
-    "date": "2026-11-02",
-    "trades": 5,
-    "pnl": -223.8006775630792,
+    "date": "2026-11-03",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -37678,6 +37702,10 @@
    [
     1793653041,
     4854.36
+   ],
+   [
+    1793653225,
+    4848.28
    ]
   ],
   "news_calls": {
@@ -42102,11 +42130,15 @@
    [
     1793653041,
     100750.28
+   ],
+   [
+    1793653225,
+    100750.28
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": true,
+  "market_open": false,
   "last_decision_ms": 1793650434785,
   "view": {
    "ts": 1793650434785,
@@ -42167,8 +42199,8 @@
     }
    }
   },
-  "next_open": "2026-11-02T09:30:00-05:00",
-  "state": "aktif (seans a\u00e7\u0131k)",
+  "next_open": "2026-11-03T09:30:00-05:00",
+  "state": "uyku (piyasa kapal\u0131)",
   "premarket_day": "2026-11-02"
  },
  "manual_done": [
@@ -42206,9 +42238,9 @@
     }
    ],
    "day": {
-    "date": "2026-11-02",
-    "trades": 1,
-    "pnl": 66.43176601856577,
+    "date": "2026-11-03",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
@@ -44897,6 +44929,10 @@
    [
     1793653041,
     5066.43
+   ],
+   [
+    1793653225,
+    5066.43
    ]
   ],
   "news": {
@@ -44919,8 +44955,8 @@
    "new_headlines": 45
   },
   "news_calls": {
-   "date": "2026-11-02",
-   "n": 2
+   "date": "2026-11-03",
+   "n": 0
   },
   "news_seen": [
    "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China - Crude Oil Prices Today | OilPrice.com",
