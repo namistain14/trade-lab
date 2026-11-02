@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 22:19 (İstanbul)
+> Son güncelleme: 02.11.2026 22:38 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -28,28 +28,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -111.90 $ | -33.24 $ |
-| İşlem sayısı | 2 | 14 |
-| Kazanma oranı | %0.0 | %42.9 |
-| Ödenen komisyon/spread | 23.81 $ | 166.57 $ |
+| Net kâr/zarar | -167.84 $ | -89.18 $ |
+| İşlem sayısı | 3 | 15 |
+| Kazanma oranı | %0.0 | %40.0 |
+| Ödenen komisyon/spread | 35.70 $ | 178.46 $ |
 
-**Hesap değeri: 4,937.83 $** (başlangıç 5,000 $, -62.17 $ / %-1.24)
+**Hesap değeri: 4,910.82 $** (başlangıç 5,000 $, -89.18 $ / %-1.78)
 
-Açık pozisyonlar: PAXGUSDT long @ 3959.62 (TP 3971.50 / SL 3951.70)
+Son haber analizi (02.11 22:37): Claude puan **+0.05**, güven 0.30 — ABD-İran barış görüşmeleri ve Hürmüz'ün yeniden açılma ihtimali, jeopolitik risk primini düşürerek altın için güvenli liman talebini zayıflatıyor. Petrol fiyatlarının %7'den fazla düşmesi ise enflasyon beklentilerini aşağı çekerek faiz indirimi beklentilerini destekleyip altı kısmen dengeliyor; net etki hafif negatif, düşük güven.
 
-Son haber analizi (02.11 22:13): Claude puan **-0.15**, güven 0.40 — ABD-İran barış görüşmeleri ve Hürmüz'ün yeniden açılma ihtimali, jeopolitik risk primini düşürerek altın için güvenli liman talebini zayıflatıyor. Petrol fiyatlarının %7'den fazla düşmesi ise enflasyon beklentilerini aşağı çekerek faiz indirimi beklentilerini destekleyip altı kısmen dengeliyor; net etki hafif negatif, düşük güven.
-
-GPT (gpt-6-luna): puan **-0.18**, güven 0.36 — İran yönetiminin görüşmelere yetki vermesi ve hızlandırılmış ateşkes girişimi, kısa vadede savaş kaynaklı güvenli liman talebini azaltarak altını hafifçe baskılayabilir. Ancak haberler henüz anlaşma değil ve Ukrayna’daki saldırılar gibi karşıt riskler etkisini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.40 — Ukrayna’daki yardım merkezine yönelik ölümcül saldırı kısa vadede güvenli liman talebini destekleyebilir. Buna karşılık ABD-İran görüşmelerindeki ilerleme ve petrol fiyatlarındaki sert düşüş jeopolitik risk primini azaltıyor; net etki sınırlı ve karışık görünüyor.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 22:22 | PAXGUSDT | long | -55.94 $ | stop |
 | 02.11 20:28 | PAXGUSDT | long | -55.93 $ | stop |
 | 02.11 08:08 | PAXGUSDT | short | -55.97 $ | stop |
 | 31.10 00:48 | PAXGUSDT | short | -55.97 $ | stop |
 | 30.10 23:07 | PAXGUSDT | short | -55.97 $ | stop |
-| 30.10 20:35 | PAXGUSDT | short | +69.06 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -75,18 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,386.30 $** (başlangıç 100,000 $, +386.30 $ / %+0.39)
+**Hesap değeri: 100,272.90 $** (başlangıç 100,000 $, +272.90 $ / %+0.27)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 21:37 N  NEWS (18 new) score +0.10 conf 0.35: 
-02.11 21:37 N  GPT  score -0.25 conf 0.57: ABD-İran görüşmelerinin savaşı önleyebileceği ve Hürmüz’ün yeniden açılabileceği haberleri petrolü sert düşürerek güvenli liman ve enflasyon kaynaklı altın talebini azaltabilir. Ukrayna’daki ölümcül saldırı altına destek sağlıyor; bu nedenle kısa vadeli net etki sınırlı ölçüde negatif görünüyor.
-02.11 21:37 B6  karar turu: Claude «Piyasa İran barış umutlarıyla hafif pozitif seyrediyor ancak teknoloji hisseleri yatay ve zayıf; geniş endekslerde sınırlı bir yükseliş eğilimi var.» / GPT «Endekslerde momentum zayıflarken teknoloji tarafındaki göreli güçsüzlük seçici kısa pozisyonu destekliyor; 14:37 itibarıyla işlemler kapanıştan önce sonlandırılmalı.»
-02.11 21:49 N  NEWS (8 new) score -0.10 conf 0.40: ABD-İran barış görüşmeleri ve Hürmüz'ün yeniden açılma ihtimali, jeopolitik risk primini düşürerek altın için güvenli liman talebini zayıflatıyor. Petrol fiyatlarının %7'den fazla düşmesi ise enflasyon beklentilerini aşağı çekerek faiz indirimi beklentilerini destekleyip altı kısmen dengeliyor; net etki hafif negatif, düşük güven.
-02.11 21:49 N  GPT  score -0.25 conf 0.42: ABD-İran görüşmelerinin savaş riskini azaltması ve petrolün sert düşmesi, güvenli liman talebini zayıflatarak altın için kısa vadede hafif baskı yaratabilir. Ukrayna’daki ölümcül saldırı bunu kısmen dengeliyor; 2027’ye ilişkin enflasyon haberi ise 1-4 saatlik görünüm için uzak ve etkisi sınırlı.
 02.11 21:49 B6  karar turu: Claude «Endeksler İran barış umudu ve düşen petrolle desteklenirken teknoloji tarafında AI şüpheciliği ve Apple bilanço öncesi temkin zayıflık yaratıyor.» / GPT «Endekslerde gün içi momentum aşağı dönüyor; taze şirket haberi bulunmadığından kapanışa yakın kaldıraçlı işlemlerde avantaj sınırlı.»
 02.11 21:49 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102999.24","message":"insufficient buying power"}
 02.11 22:01 N  NEWS (5 new) score -0.20 conf 0.40: 
@@ -97,6 +90,11 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 22:13 N  GPT  score -0.18 conf 0.36: İran yönetiminin görüşmelere yetki vermesi ve hızlandırılmış ateşkes girişimi, kısa vadede savaş kaynaklı güvenli liman talebini azaltarak altını hafifçe baskılayabilir. Ancak haberler henüz anlaşma değil ve Ukrayna’daki saldırılar gibi karşıt riskler etkisini sınırlıyor.
 02.11 22:13 B6  karar turu: Claude «Piyasa gün sonuna doğru teknoloji ağırlıklı bir zayıflık gösteriyor; döngüsel sektörler ise İran barış umutları ve petrol düşüşüyle destekleniyor.» / GPT «Kısa vadeli yön aşağı; ancak normal seansın bitmesine 47 dakika kalması yüzde 1,5 hedefini zorlaştırırken, iki endeksin yüksek korelasyonu 4 kat kaldıraçla toplam riski artırıyor.»
 02.11 22:13 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102678.14","message":"insufficient buying power"}
+02.11 22:38 B5  CLOSE long stop: -55.94 USD
+02.11 22:38 N  NEWS (10 new) score +0.05 conf 0.30: 
+02.11 22:38 N  GPT  score +0.18 conf 0.40: Ukrayna’daki yardım merkezine yönelik ölümcül saldırı kısa vadede güvenli liman talebini destekleyebilir. Buna karşılık ABD-İran görüşmelerindeki ilerleme ve petrol fiyatlarındaki sert düşüş jeopolitik risk primini azaltıyor; net etki sınırlı ve karışık görünüyor.
+02.11 22:38 B6  karar turu: Claude «Petroldeki düşüş ve İran barış umutlarına rağmen teknoloji ağırlıklı satışlar kapanışa doğru endeksleri aşağı çekiyor; kısa vadeli eğilim hafif negatif.» / GPT «Teknoloji hisselerinde satış baskısı baskın; ancak kapanışa 23 dakika kalması ve İran haberleri, 4 kat kaldıraçla kapanış sonrası taşınacak pozisyonlarda likidite ve ters hareket riskini artırıyor.»
+02.11 22:38 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"102887","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
