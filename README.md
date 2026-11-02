@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 15:44 (İstanbul)
+> Son güncelleme: 02.11.2026 15:47 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %20.0 | %19.7 |
 | Ödenen komisyon/spread | 62.46 $ | 338.06 $ |
 
-**Hesap değeri: 4,041.54 $** (başlangıç 5,000 $, -958.46 $ / %-19.17)
+**Hesap değeri: 4,033.78 $** (başlangıç 5,000 $, -966.22 $ / %-19.32)
+
+Açık pozisyonlar: BTCUSDT short @ 77856.64 (TP 77389.50 / SL 78168.06); BNBUSDT short @ 704.41 (TP 700.18 / SL 707.23)
 
 Son işlemler:
 
@@ -73,15 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,931.96 $** (başlangıç 100,000 $, +931.96 $ / %+0.93)
+**Hesap değeri: 100,779.19 $** (başlangıç 100,000 $, +779.19 $ / %+0.78)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 14:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2NviVr8ZkuUdgqzv24'}
-02.11 14:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2cCoF6Gn3VtoMt7oSK'}
 02.11 14:36 N  NEWS (45 new) score -0.15 conf 0.40: Altın için karışık tablo var: Fed faiz beklentileri altındaki toparlanmayı sınırlıyor ve ekim ayı 2008'den bu yana en kötü performansını gösterdi, bu da kısa vadede baskı yaratıyor. Trump'ın İran diplomasisine daha fazla zaman verdiğini söylemesiyle petrol %3'ten fazla düştü; bu jeopolitik risk primini azaltarak güvenli liman talebini zayıflatıyor, ancak nükleer saldırı ve savaş tehdidi haberleri bu etkiyi kısmen dengeliyor.
 02.11 14:36 N  GPT  score -0.15 conf 0.36: Fed faiz beklentilerinin altını sınırlaması ve doların yatay-güçlü seyri kısa vadede hafif baskı yaratıyor; İran kaynaklı risk başlıkları güvenli liman talebini desteklese de petrolün diplomasi sinyalleriyle gerilemesi bu etkiyi azaltıyor. Haberler karışık ve çoğu yeni bir tırmanış teyit etmiyor.
 02.11 14:48 N  NEWS (9 new) score +0.15 conf 0.35: Yeni başlıklar karışık: zayıflayan dolar altını destekliyor ve altın/gümüş toparlanıyor, petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatarak faiz indirimi ihtimallerini artırabilir. Öte yandan Fed faiz beklentileri toparlanmayı sınırlıyor, ISM ve ABD seçim gündemi dolar yönünde belirsizlik yaratıyor ve İran diplomasisi jeopolitik risk primini azaltıyor, bu da güvenli liman talebini zayıflatıyor. Genel etki hafif pozitif, ancak sinyaller karışık olduğu için güven düşük.
@@ -95,6 +95,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 15:32 A  CLOSE BNBUSDT time limit: -1.73 USD
 02.11 15:38 N  NEWS (7 new) score -0.05 conf 0.30: 
 02.11 15:38 N  GPT  score +0.25 conf 0.38: Trump’ın İran’a yönelik tehdidinin Körfez’de savaş endişelerini tazelemesi altına kısa vadeli güvenli liman desteği sağlayabilir; dolar güvenine ilişkin kaygılar da destekleyici. Ancak İran diplomasisi sinyalleriyle petrolün düşmesi ve Fed faiz beklentilerinin altın toparlanmasını sınırlaması görünü
+02.11 15:47 A  SHORT BTCUSDT 4850 USD x3 @ 77856.64 (ters sinyal, RSI 44)
+02.11 15:47 A  SHORT BNBUSDT 4850 USD x3 @ 704.41 (ters sinyal, RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
