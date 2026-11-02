@@ -3,7 +3,22 @@
   "account": {
    "balance": 4166.012617348653,
    "start": 5000,
-   "positions": [],
+   "positions": [
+    {
+     "id": "0273f142",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 4014.3817575861053,
+     "entry": 1.2453262900000002,
+     "tp": 1.2378543322600002,
+     "sl": 1.2503075951600002,
+     "opened_ms": 1793579429300,
+     "entry_cost": 2.4996075704091925,
+     "max_hold_min": 120,
+     "margin": 1666.4050469394615,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    }
+   ],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1308,7 +1323,7 @@
    ],
    "day": {
     "date": "2026-11-02",
-    "trades": 3,
+    "trades": 4,
     "pnl": -78.85195117586794,
     "stopped": false
    },
@@ -4918,6 +4933,10 @@
    [
     1793579251,
     4166.01
+   ],
+   [
+    1793579430,
+    4162.01
    ]
   ]
  },
@@ -9737,6 +9756,10 @@
    [
     1793579251,
     4868.5
+   ],
+   [
+    1793579430,
+    4868.5
    ]
   ],
   "news": {
@@ -12513,7 +12536,6 @@
   ]
  },
  "log": [
-  "01.11 02:52 A  CLOSE BNBUSDT time limit: -14.05 USD",
   "01.11 02:52 A  SHORT BTCUSDT 5307 USD x3 @ 77514.74 (ters sinyal, RSI 43)",
   "01.11 03:56 A  CLOSE ETHUSDT stop: -28.31 USD",
   "01.11 04:17 A  CLOSE SOLUSDT time limit: -8.71 USD",
@@ -12812,7 +12834,8 @@
   "02.11 02:14 A  CLOSE XRPUSDT stop: -13.35 USD",
   "02.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD"
+  "02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD",
+  "02.11 03:30 A  SHORT XRPUSDT 4999 USD x3 @ 1.25 (ters sinyal, RSI 43)"
  ],
  "gold_big": {
   "account": {
@@ -16481,6 +16504,10 @@
    [
     1793579251,
     4963.78
+   ],
+   [
+    1793579430,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -20077,6 +20104,10 @@
    [
     1793579251,
     4975.18
+   ],
+   [
+    1793579430,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -23639,6 +23670,10 @@
    [
     1793579251,
     4993.28
+   ],
+   [
+    1793579430,
+    4993.28
    ]
   ]
  },
@@ -27038,6 +27073,10 @@
    [
     1793579251,
     4969.22
+   ],
+   [
+    1793579430,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -29115,6 +29154,10 @@
    ],
    [
     1793579251,
+    5078.66
+   ],
+   [
+    1793579430,
     5078.66
    ]
   ],
@@ -32415,6 +32458,10 @@
    [
     1793579251,
     101128.9
+   ],
+   [
+    1793579430,
+    101128.9
    ]
   ],
   "open": {
@@ -34053,6 +34100,10 @@
    ],
    [
     1793579251,
+    5000
+   ],
+   [
+    1793579430,
     5000
    ]
   ],
