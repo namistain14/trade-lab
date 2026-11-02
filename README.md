@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 16:08 (İstanbul)
+> Son güncelleme: 02.11.2026 16:44 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -203.32 $ | -958.46 $ |
-| İşlem sayısı | 15 | 76 |
-| Kazanma oranı | %20.0 | %19.7 |
-| Ödenen komisyon/spread | 62.46 $ | 338.06 $ |
+| Net kâr/zarar | -267.62 $ | -1022.76 $ |
+| İşlem sayısı | 18 | 79 |
+| Kazanma oranı | %16.7 | %19.0 |
+| Ödenen komisyon/spread | 74.61 $ | 350.21 $ |
 
-**Hesap değeri: 4,038.30 $** (başlangıç 5,000 $, -961.70 $ / %-19.23)
-
-Açık pozisyonlar: BTCUSDT short @ 77856.64 (TP 77389.50 / SL 78168.06); BNBUSDT short @ 704.41 (TP 700.18 / SL 707.23); ETHUSDT short @ 2282.60 (TP 2268.90 / SL 2291.73)
+**Hesap değeri: 3,977.24 $** (başlangıç 5,000 $, -1022.76 $ / %-20.46)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 16:39 | BNBUSDT | short | -25.72 $ | stop |
+| 02.11 16:38 | ETHUSDT | short | -12.86 $ | stop |
+| 02.11 16:39 | BTCUSDT | short | -25.72 $ | stop |
 | 02.11 15:31 | BNBUSDT | short | -1.73 $ | time limit |
 | 02.11 15:10 | XRPUSDT | short | -12.99 $ | stop |
-| 02.11 15:12 | SOLUSDT | short | -25.98 $ | stop |
-| 02.11 11:41 | DOGEUSDT | short | -13.06 $ | stop |
-| 02.11 11:42 | XRPUSDT | short | -26.48 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -37,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 16:02): Claude puan **-0.10**, güven 0.35 — Haberler karışık: İran'a yönelik Trump tehdidi jeopolitik risk yoluyla altını destekliyor, ancak petrol fiyatlarının %3'ten fazla düşmesi ve diplomasiye zaman verilmesi güvenli liman talebini ve enflasyon beklentilerini zayıflatıyor. Fed faiz artırımı beklentileri ile güçlenen dolar altın üzerinde baskı yaratıyor. Bu nedenle net etki hafif negatif, güven düşük.
+Son haber analizi (02.11 16:44): Claude puan **+0.10**, güven 0.35 — Haberler karışık: İran'a yönelik Trump tehdidi jeopolitik risk yoluyla altını destekliyor, ancak petrol fiyatlarının %3'ten fazla düşmesi ve diplomasiye zaman verilmesi güvenli liman talebini ve enflasyon beklentilerini zayıflatıyor. Fed faiz artırımı beklentileri ile güçlenen dolar altın üzerinde baskı yaratıyor. Bu nedenle net etki hafif negatif, güven düşük.
 
-GPT (gpt-6-luna): puan **+0.10**, güven 0.30 — Trump’ın İran’a yönelik tehdidinin Körfez’de savaş kaygılarını canlandırması altına sınırlı güvenli liman desteği sağlayabilir. Ancak İran diplomasisi umuduyla petrolün sert düşmesi ve doların karışık seyri, kısa vadeli yönü belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.34 — İran’la yeniden çatışma ve gerilimin bölgeye yayılma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak diplomasi umutlarıyla petrolün gerilemesi ve dolar görünümündeki karışık sinyaller, kısa vadeli yönü belirsiz kılıyor.
 
 Son işlemler:
 
@@ -75,19 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,039.20 $** (başlangıç 100,000 $, +1039.20 $ / %+1.04)
+**Hesap değeri: 101,165.14 $** (başlangıç 100,000 $, +1165.14 $ / %+1.17)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 15:00 N  GPT  score +0.08 conf 0.29: Yemen’deki sivil kayıplara yol açan füze saldırısı kısa vadeli güvenli liman talebini destekleyebilir. Ancak petrolün İran diplomasisi beklentisiyle gerilemesi ve Fed faiz beklentilerinin altını sınırlaması tabloyu dengeliyor.
-02.11 15:26 A  CLOSE SOLUSDT stop: -25.98 USD
-02.11 15:26 A  CLOSE XRPUSDT stop: -12.99 USD
-02.11 15:26 N  NEWS (21 new) score -0.15 conf 0.35: Haberlerde faiz artırımı beklentileri ve güçlenen dolar altın için baskı oluşturuyor; ancak petrol fiyatlarının düşmesi ve İran-ABD savaşında barış umudu enflasyon kaygısını azaltarak bu baskıyı kısmen dengeliyor. Sinyaller karışık ve ağırlıklı olarak tekrar eden ya da fiyatlanmış haberler olduğundan güven düşük.
-02.11 15:26 N  GPT  score -0.12 conf 0.30: ABD-İran savaşına dair umutların petrol fiyatlarını düşürmesi ve dolar/faiz artışı beklentileri altın üzerinde hafif baskı oluşturabilir. Yemen ve Lübnan’daki gerilim haberleri güvenli liman talebini desteklese de kısa vadeli etki karışık ve sınırlı görünüyor.
-02.11 15:32 A  CLOSE BNBUSDT time limit: -1.73 USD
 02.11 15:38 N  NEWS (7 new) score -0.05 conf 0.30: 
 02.11 15:38 N  GPT  score +0.25 conf 0.38: Trump’ın İran’a yönelik tehdidinin Körfez’de savaş endişelerini tazelemesi altına kısa vadeli güvenli liman desteği sağlayabilir; dolar güvenine ilişkin kaygılar da destekleyici. Ancak İran diplomasisi sinyalleriyle petrolün düşmesi ve Fed faiz beklentilerinin altın toparlanmasını sınırlaması görünü
 02.11 15:47 A  SHORT BTCUSDT 4850 USD x3 @ 77856.64 (ters sinyal, RSI 44)
@@ -97,6 +89,12 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 16:02 A  SHORT ETHUSDT 2425 USD x3 @ 2282.60 (ters sinyal, RSI 45)
 02.11 16:02 N  NEWS (13 new) score -0.10 conf 0.35: Haberler karışık: İran'a yönelik Trump tehdidi jeopolitik risk yoluyla altını destekliyor, ancak petrol fiyatlarının %3'ten fazla düşmesi ve diplomasiye zaman verilmesi güvenli liman talebini ve enflasyon beklentilerini zayıflatıyor. Fed faiz artırımı beklentileri ile güçlenen dolar altın üzerinde baskı yaratıyor. Bu nedenle net etki hafif negatif, güven düşük.
 02.11 16:02 N  GPT  score +0.10 conf 0.30: Trump’ın İran’a yönelik tehdidinin Körfez’de savaş kaygılarını canlandırması altına sınırlı güvenli liman desteği sağlayabilir. Ancak İran diplomasisi umuduyla petrolün sert düşmesi ve doların karışık seyri, kısa vadeli yönü belirsizleştiriyor.
+02.11 16:44 A  CLOSE BTCUSDT stop: -25.72 USD
+02.11 16:44 A  CLOSE ETHUSDT stop: -12.86 USD
+02.11 16:44 A  CLOSE BNBUSDT stop: -25.72 USD
+02.11 16:44 N  NEWS (19 new) score +0.10 conf 0.35: 
+02.11 16:44 N  GPT  score +0.12 conf 0.34: İran’la yeniden çatışma ve gerilimin bölgeye yayılma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak diplomasi umutlarıyla petrolün gerilemesi ve dolar görünümündeki karışık sinyaller, kısa vadeli yönü belirsiz kılıyor.
+02.11 16:44 B6  seans öncesi görüş: AI harcama endişeleriyle teknoloji ağırlıklı riskten kaçış var; son saatte hafif tepki alımı görülse de piyasa kırılgan, göreceli güç TSLA'da.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
