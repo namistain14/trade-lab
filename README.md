@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 10:12 (İstanbul)
+> Son güncelleme: 02.11.2026 10:15 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -88.40 $ | -843.53 $ |
-| İşlem sayısı | 6 | 67 |
-| Kazanma oranı | %16.7 | %19.4 |
-| Ödenen komisyon/spread | 27.77 $ | 303.37 $ |
+| Net kâr/zarar | -83.34 $ | -838.48 $ |
+| İşlem sayısı | 8 | 69 |
+| Kazanma oranı | %37.5 | %21.7 |
+| Ödenen komisyon/spread | 35.22 $ | 310.82 $ |
 
-**Hesap değeri: 4,162.12 $** (başlangıç 5,000 $, -837.88 $ / %-16.76)
+**Hesap değeri: 4,160.70 $** (başlangıç 5,000 $, -839.30 $ / %-16.79)
 
-Açık pozisyonlar: BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94); SOLUSDT short @ 94.35 (TP 93.79 / SL 94.73)
+Açık pozisyonlar: SOLUSDT short @ 94.35 (TP 93.79 / SL 94.73)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 10:13 | ETHUSDT | short | +1.97 $ | time limit |
+| 02.11 10:13 | BTCUSDT | short | +3.08 $ | time limit |
 | 02.11 09:52 | BNBUSDT | short | +16.97 $ | time limit |
 | 02.11 04:08 | XRPUSDT | short | -26.51 $ | stop |
 | 02.11 02:30 | BNBUSDT | short | -22.05 $ | time limit |
-| 02.11 02:14 | XRPUSDT | short | -13.35 $ | stop |
-| 02.11 02:14 | SOLUSDT | short | -26.91 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -75,16 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,892.05 $** (başlangıç 100,000 $, -107.95 $ / %-0.11)
+**Hesap değeri: 99,869.62 $** (başlangıç 100,000 $, -130.38 $ / %-0.13)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 09:07 N  NEWS (11 new) score +0.10 conf 0.35: Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltarak altı hafifçe destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar baskısı sürüyor. Başlıklar çelişkili ve birçoğu zaten fiyatlanmış haberler olduğu için güven düşük tutuldu.
-02.11 09:07 N  GPT  score +0.20 conf 0.35: Altın fiyatlarındaki toparlanma ve süren İran savaşı hafif destekleyici; petrolün gerilemesi enflasyon ve faiz baskısını azaltabilir. Ancak Fed’e ilişkin şahin beklentiler, çelişkili haber akışı ve toparlanmanın büyük ölçüde fiyatlanmış olma ihtimali yükseliş sinyalini sınırlıyor.
-02.11 09:19 N  NEWS (8 new) score -0.15 conf 0.35: Haberler karışık: İran savaşı ve jeopolitik risk altın için güvenli liman desteği sağlıyor, ancak faiz artırımı beklentileri, Fed sinyalleri ve güçlenen dolar (rupi ve diğer para birimlerinin değer kaybı) altın üzerinde baskı yaratıyor. Yerel altın fiyatı haberlerinin çoğu zaten fiyatlanmış ve gürültü niteliğinde; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 02.11 09:19 N  GPT  score +0.12 conf 0.35: Reuters’ın daha yumuşak petrol fiyatları eşliğinde altının yükseldiğini bildirmesi kısa vadede hafif destekleyici; ancak Fed’in faiz görünümüne ilişkin riskler ve doların güçlenmesi kazançları sınırlayabilir. Yeni başlıkların çoğu yerel altın fiyatlarıyla ilgili ve küresel spot fiyat için güçlü bir 
 02.11 09:48 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdevsqSjg88BZ7kScLc8'}
 02.11 09:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfA8xtEvjwQroyvQNuQ'}
@@ -97,6 +94,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 10:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgJUirmccG72pjQ3BXh'}
 02.11 10:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgXiPVoGNq43JN3TBNJ'}
 02.11 10:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgkyVDTF8bMo7r1GHhe'}
+02.11 10:15 A  CLOSE BTCUSDT time limit: +3.08 USD
+02.11 10:15 A  CLOSE ETHUSDT time limit: +1.97 USD
+02.11 10:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgzNHXmSQNqGhrXKEX3'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
