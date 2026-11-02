@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 09:25 (İstanbul)
+> Son güncelleme: 02.11.2026 09:48 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.2 |
 | Ödenen komisyon/spread | 22.82 $ | 298.41 $ |
 
-**Hesap değeri: 4,173.55 $** (başlangıç 5,000 $, -826.45 $ / %-16.53)
+**Hesap değeri: 4,170.64 $** (başlangıç 5,000 $, -829.36 $ / %-16.59)
 
 Açık pozisyonlar: BNBUSDT short @ 712.26 (TP 707.98 / SL 715.11); BTCUSDT short @ 78326.50 (TP 77856.55 / SL 78639.81); ETHUSDT short @ 2290.77 (TP 2277.03 / SL 2299.94)
 
@@ -75,14 +75,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,746.25 $** (başlangıç 100,000 $, -253.75 $ / %-0.25)
+**Hesap değeri: 99,887.08 $** (başlangıç 100,000 $, -112.92 $ / %-0.11)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 08:08 B5  CLOSE short stop: -55.97 USD
 02.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 08:11 A  SHORT BTCUSDT 4967 USD x3 @ 78326.50 (ters sinyal, RSI 44)
@@ -97,6 +96,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 09:07 N  GPT  score +0.20 conf 0.35: Altın fiyatlarındaki toparlanma ve süren İran savaşı hafif destekleyici; petrolün gerilemesi enflasyon ve faiz baskısını azaltabilir. Ancak Fed’e ilişkin şahin beklentiler, çelişkili haber akışı ve toparlanmanın büyük ölçüde fiyatlanmış olma ihtimali yükseliş sinyalini sınırlıyor.
 02.11 09:19 N  NEWS (8 new) score -0.15 conf 0.35: Haberler karışık: İran savaşı ve jeopolitik risk altın için güvenli liman desteği sağlıyor, ancak faiz artırımı beklentileri, Fed sinyalleri ve güçlenen dolar (rupi ve diğer para birimlerinin değer kaybı) altın üzerinde baskı yaratıyor. Yerel altın fiyatı haberlerinin çoğu zaten fiyatlanmış ve gürültü niteliğinde; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 02.11 09:19 N  GPT  score +0.12 conf 0.35: Reuters’ın daha yumuşak petrol fiyatları eşliğinde altının yükseldiğini bildirmesi kısa vadede hafif destekleyici; ancak Fed’in faiz görünümüne ilişkin riskler ve doların güçlenmesi kazançları sınırlayabilir. Yeni başlıkların çoğu yerel altın fiyatlarıyla ilgili ve küresel spot fiyat için güçlü bir 
+02.11 09:48 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdevsqSjg88BZ7kScLc8'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
