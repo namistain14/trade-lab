@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 23:16 (İstanbul)
+> Son güncelleme: 02.11.2026 23:19 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,7 +33,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %37.5 |
 | Ödenen komisyon/spread | 47.60 $ | 190.36 $ |
 
-**Hesap değeri: 4,869.99 $** (başlangıç 5,000 $, -130.01 $ / %-2.60)
+**Hesap değeri: 4,873.97 $** (başlangıç 5,000 $, -126.03 $ / %-2.52)
 
 Açık pozisyonlar: PAXGUSDT short @ 3950.37 (TP 3938.52 / SL 3958.27)
 
@@ -55,18 +55,22 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +0.00 $ |
-| İşlem sayısı | 0 | 0 |
-| Kazanma oranı | %0.0 | %0.0 |
-| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+| Net kâr/zarar | +66.43 $ | +66.43 $ |
+| İşlem sayısı | 1 | 1 |
+| Kazanma oranı | %100.0 | %100.0 |
+| Ödenen komisyon/spread | 17.17 $ | 17.17 $ |
 
-**Hesap değeri: 5,072.64 $** (başlangıç 5,000 $, +72.64 $ / %+1.45)
-
-Açık pozisyonlar: BZ=F short @ 104.65 (TP 104.34 / SL 104.86)
+**Hesap değeri: 5,066.43 $** (başlangıç 5,000 $, +66.43 $ / %+1.33)
 
 Son haber analizi (02.11 23:07): Claude puan **-0.50**, güven 0.60 — Baskın haber akışı İran ile barış görüşmelerine ve Hürmüz Boğazı'nın iki gün içinde yeniden açılabileceği ihtimaline işaret ediyor; bu, savaş primini hızla eritip Brent'i aşağı çekiyor (piyasada %7'ye varan düşüş bildirildi). Kazakistan'ın Samara hattındaki taşımayı durdurması ve Hindistan'daki rafineri yangını gibi arz kaynaklı yukarı yönlü riskler var, ancak bunlar müzakere iyimserliğinin gerisinde kalıyor; Goldman'ın hedef artışı ise uzun vadeli bir sinyal.
 
 GPT (gpt-6-luna): puan **-0.78**, güven 0.82 — ABD-İran ateşkes görüşmeleri ve İran’ın anlaşma kapsamında Hürmüz Boğazı’nı yeniden açabileceği haberleri yakın vadeli arz kesintisi riskini azaltıyor; petrolün %7’den fazla düşmesi bu beklentinin fiyatlandığını gösteriyor. Kazakistan’ın petrol transitini durdurması sınırlı bir karşı unsur, ancak kı
+
+Son işlemler:
+
+| Kapanış | Parite | Yön | Sonuç | Neden |
+|---|---|---|---|---|
+| 02.11 23:09 | BZ=F | short | +66.43 $ | take profit |
 
 ## Bot B6 — ABD hisse (Alpaca sanal): Claude + GPT hemfikir, 1:4
 
@@ -77,14 +81,13 @@ GPT (gpt-6-luna): puan **-0.78**, güven 0.82 — ABD-İran ateşkes görüşmel
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,655.87 $** (başlangıç 100,000 $, +655.87 $ / %+0.66)
+**Hesap değeri: 100,703.46 $** (başlangıç 100,000 $, +703.46 $ / %+0.70)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 22:50 N  NEWS (9 new) score -0.20 conf 0.40: 
 02.11 22:50 N  GPT  score -0.25 conf 0.52: ABD-İran ateşkes görüşmeleri ve Hürmüz’ün yeniden açılabileceği haberleri savaş risk primini azaltıp petrolü sert düşürerek altını kısa vadede baskılayabilir. Ancak Ukrayna’daki ölümcül saldırı güvenli liman talebini destekliyor; haber akışı çelişkili olduğundan etki sınırlı ve belirsiz.
 02.11 22:50 B5  SHORT gold 25000 USD x10 @ 3944.54 (TP 3932.71, SL 3952.43; news -0.23)
 02.11 22:50 B6  karar turu: Claude «Teknoloji ağırlıklı satışla piyasa gün sonuna zayıf giriyor; İran barış umutları ile AI hisselerindeki baskı arasında belirsizlik sürüyor ve kapanışa dakikalar kala yeni pozisyon açmak için zaman yok.» / GPT «Teknoloji öncülüğünde satış baskısı sürüyor; ancak kapanışa 11 dakika kala 1–3 saatlik işlem seans sonrasına taşacağından bracket emirlerinin geçerliliği doğrulanmalı 
@@ -99,6 +102,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 23:14 N  NEWS (5 new) score -0.20 conf 0.40: 
 02.11 23:14 N  GPT  score -0.20 conf 0.58: ABD-İran görüşmelerindeki ilerleme ve Hürmüz’ün yeniden açılabileceği beklentisi güvenli liman talebini azaltarak altını kısa vadede baskılayabilir; petrol düşüşünün enflasyon ve faiz beklentilerine etkisi ise altına destek sağlayabilir. 3.900 dolar altındaki kapanışa ilişkin teknik uyarılar da aşağ
 02.11 23:14 B6  karar turu: Claude «İran barış umutlarıyla petrol düşerken teknoloji hisseleri zayıf kaldı, ancak piyasa kapandığı için düşük likiditeli seans sonrasında yeni pozisyon açmak mantıklı değil.» / GPT «Saat 16:13'te normal seans kapanmış durumda; zayıf teknoloji görünümüne rağmen düşük likidite ve doğrulanmamış seans sonrası bracket desteği nedeniyle yeni pozisyon açmıyorum.»
+02.11 23:19 B5P  CLOSE short take profit: +66.43 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
