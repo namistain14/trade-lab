@@ -6358,6 +6358,10 @@
    [
     1793652693,
     3977.24
+   ],
+   [
+    1793652861,
+    3977.24
    ]
   ]
  },
@@ -12336,6 +12340,10 @@
    ],
    [
     1793652693,
+    4868.5
+   ],
+   [
+    1793652861,
     4868.5
    ]
   ],
@@ -20247,6 +20255,10 @@
    [
     1793652693,
     4963.78
+   ],
+   [
+    1793652861,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25003,6 +25015,10 @@
    [
     1793652693,
     4975.18
+   ],
+   [
+    1793652861,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -29725,6 +29741,10 @@
    [
     1793652693,
     4993.28
+   ],
+   [
+    1793652861,
+    4993.28
    ]
   ]
  },
@@ -34284,6 +34304,10 @@
    [
     1793652693,
     4969.22
+   ],
+   [
+    1793652861,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -37622,6 +37646,10 @@
    [
     1793652693,
     4868.15
+   ],
+   [
+    1793652861,
+    4847.9
    ]
   ],
   "news_calls": {
@@ -37829,33 +37857,18 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 101857.0,
+   "balance": 100750.28,
    "start": 100000.0,
-   "positions": [
-    {
-     "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
-     "symbol": "TSLA",
-     "side": "long",
-     "qty": 245.0,
-     "entry": 406.46,
-     "tp": 412.39,
-     "sl": 402.24,
-     "opened_ms": 1793284767784,
-     "entry_cost": 0.0,
-     "friction": 0.0,
-     "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 402.09
-    }
-   ],
+   "positions": [],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -342.55,
+    "pnl": -378.62,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 100786.35
+   "equity": 100750.28
   },
   "equity_curve": [
    [
@@ -42053,6 +42066,10 @@
    [
     1793652693,
     101857.0
+   ],
+   [
+    1793652861,
+    100750.28
    ]
   ],
   "open": {},
@@ -44839,6 +44856,10 @@
    ],
    [
     1793652693,
+    5066.43
+   ],
+   [
+    1793652861,
     5066.43
    ]
   ],
