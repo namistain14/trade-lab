@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 3951.9324601721814,
+   "balance": 3945.040200616702,
    "start": 5000,
-   "positions": [
-    {
-     "id": "6c19c998",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06214527195215434,
-     "entry": 76798.963397,
-     "tp": 76338.169616618,
-     "sl": 77106.159250588,
-     "opened_ms": 1793653580993,
-     "entry_cost": 2.386346232975056,
-     "max_hold_min": 120,
-     "margin": 1590.8974886500373,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1619,12 +1604,32 @@
      "gross": -20.5283,
      "costs": 4.783,
      "pnl": -25.3113
+    },
+    {
+     "id": "6c19c998",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.06214527195215434,
+     "entry": 76798.963397,
+     "tp": 76338.169616618,
+     "sl": 77106.159250588,
+     "opened_ms": 1793653580993,
+     "entry_cost": 2.386346232975056,
+     "max_hold_min": 120,
+     "margin": 1590.8974886500373,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 76833.053003,
+     "closed_ms": 1793660880000,
+     "reason": "time limit",
+     "gross": -2.1185,
+     "costs": 4.7738,
+     "pnl": -6.8923
     }
    ],
    "day": {
     "date": "2026-11-03",
     "trades": 2,
-    "pnl": -25.3112614529118,
+    "pnl": -32.20352100839114,
     "stopped": false
    },
    "last_check_ms": 0
@@ -6569,6 +6574,10 @@
    [
     1793660786,
     3951.36
+   ],
+   [
+    1793660954,
+    3945.04
    ]
   ]
  },
@@ -12724,6 +12733,10 @@
    [
     1793660786,
     4868.5
+   ],
+   [
+    1793660954,
+    4868.5
    ]
   ],
   "news": {
@@ -15506,7 +15519,6 @@
   ]
  },
  "log": [
-  "01.11 23:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 00:28 A  SHORT BNBUSDT 5094 USD x3 @ 708.05 (ters sinyal, RSI 44)",
   "02.11 00:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 00:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -15805,7 +15817,8 @@
   "03.11 01:54 N  NEWS (13 new) score +0.30 conf 0.50: Petrol fiyatlar\u0131n\u0131n yakla\u015f\u0131k %6 d\u00fc\u015fmesi, dolar\u0131n geri \u00e7ekilmesi ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerinin gerilemesi alt\u0131n i\u00e7in olumlu; alt\u0131n bu nedenle toparlan\u0131yor. \u0130ran'da sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi endi\u015feleri jeopolitik risk talebini destekliyor, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve birbiriyle \u00e7eli\u015fen sinyaller i\u00e7eriyor, bu y\u00fczden g\u00fcven s\u0131n\u0131rl\u0131.",
   "03.11 01:54 N  GPT  score +0.32 conf 0.48: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131, dolar\u0131n geri \u00e7ekilmesi ve getirilerin d\u00fc\u015fmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran ve Ukrayna kaynakl\u0131 riskler destekleyici olsa da bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinde ilerleme olmamas\u0131 ve alt\u0131ndaki teknik zay\u0131fl\u0131k g\u00f6r\u00fcn\u00fcm\u00fc s\u0131",
   "03.11 02:06 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f (ABD-\u0130ran m\u00fczakere umutlar\u0131) Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini biraz geriletip alt\u0131n\u0131 destekliyor; ancak bar\u0131\u015f ihtimali jeopolitik g\u00fcvenli liman talebini azalt\u0131yor ve Fed s\u0131k\u0131la\u015ft\u0131rma bahisleri h\u00e2l\u00e2 s\u00fcr\u00fcyor, bu y\u00fczden etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-  "03.11 02:06 N  GPT  score +0.24 conf 0.48: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 zay\u0131flatmas\u0131 alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran\u2019la g\u00f6r\u00fc\u015fme umutlar\u0131 g\u00fcvenli liman talebini azalt\u0131rken, b\u00f6lgedeki sald\u0131r\u0131 riskleri ve \u00e7eli\u015fkili haberler g\u00f6r\u00fcn\u00fcm\u00fc belirsizle\u015ftiriyor."
+  "03.11 02:06 N  GPT  score +0.24 conf 0.48: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 zay\u0131flatmas\u0131 alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran\u2019la g\u00f6r\u00fc\u015fme umutlar\u0131 g\u00fcvenli liman talebini azalt\u0131rken, b\u00f6lgedeki sald\u0131r\u0131 riskleri ve \u00e7eli\u015fkili haberler g\u00f6r\u00fcn\u00fcm\u00fc belirsizle\u015ftiriyor.",
+  "03.11 02:09 A  CLOSE BTCUSDT time limit: -6.89 USD"
  ],
  "gold_big": {
   "account": {
@@ -20810,6 +20823,10 @@
    [
     1793660786,
     4963.78
+   ],
+   [
+    1793660954,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25742,6 +25759,10 @@
    [
     1793660786,
     4975.18
+   ],
+   [
+    1793660954,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -30640,6 +30661,10 @@
    [
     1793660786,
     4993.28
+   ],
+   [
+    1793660954,
+    4993.28
    ]
   ]
  },
@@ -35375,6 +35400,10 @@
    [
     1793660786,
     4969.22
+   ],
+   [
+    1793660954,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -38889,6 +38918,10 @@
    [
     1793660786,
     4848.79
+   ],
+   [
+    1793660954,
+    4849.17
    ]
   ],
   "news_calls": {
@@ -43481,6 +43514,10 @@
    [
     1793660786,
     100750.28
+   ],
+   [
+    1793660954,
+    100750.28
    ]
   ],
   "open": {},
@@ -46443,6 +46480,10 @@
    ],
    [
     1793660786,
+    5066.43
+   ],
+   [
+    1793660954,
     5066.43
    ]
   ],
