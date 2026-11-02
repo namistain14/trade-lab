@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 06:58 (İstanbul)
+> Son güncelleme: 02.11.2026 07:01 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,078.66 $** (başlangıç 5,000 $, +78.66 $ / %+1.57)
 
-Son haber analizi (30.10 23:56): Claude puan **-0.65**, güven 0.70 — Fed yetkililerinin (Logan dahil) ek faiz artışı sinyalleri ve "hawkish hold" havası, reel faiz beklentilerini yükselterek altı baskılıyor; altın yıllık dibe inmiş durumda. Iran savaşının sonlanabileceği yönündeki Trump açıklamaları da güvenli liman talebini zayıflatıyor. Bu haberlerin bir kısmı zaten fiyatlanmış olabileceği için güveni sınırlı tutuyorum.
+Son haber analizi (02.11 07:01): Claude puan **-0.15**, güven 0.35 — Haberler çelişkili: Fed faiz artırımı beklentilerinin yükselmesi ve doların güçlü kalması altını baskılarken, İran savaşı ve güvenli liman talebi destek sağlıyor. Altın bir yıllık dibe yakın seyrediyor ve kısa vadede 3.900 doların üzerinde toparlanma var, bu yüzden etki hafif negatif kabul edildi.
 
-GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Fed yetkililerinin iki faiz artışı beklentisini dile getirmesi ve enflasyon kaygıları, altının faiz getirisi olmayan varlık olarak cazibesini azaltıyor; fiyatın yeni yıl dibine gerilemesi de aşağı yönlü momentumu destekliyor. İran savaşının yakında bitebileceği açıklaması güvenli liman talebini sını
+GPT (gpt-6-luna): puan **-0.10**, güven 0.38 — Altın, aşırı satım sonrası toparlanıyor ve İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak doların güçlü/istikrarlı seyri ve Fed faiz artırımı beklentilerinin yükselmesi kısa vadede baskı yaratıyor. Haber akışı çelişkili ve büyük ölçüde tekrarlı olduğundan net yön sinyali zay
 
 Son işlemler:
 
@@ -69,15 +69,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,984.95 $** (başlangıç 100,000 $, -15.05 $ / %-0.02)
+**Hesap değeri: 100,064.34 $** (başlangıç 100,000 $, +64.34 $ / %+0.06)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 01:53 A  SHORT XRPUSDT 2517 USD x3 @ 1.25 (ters sinyal, RSI 39)
-02.11 01:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 01:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 01:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 02.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -91,6 +89,8 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 02:32 A  CLOSE BNBUSDT time limit: -22.05 USD
 02.11 03:30 A  SHORT XRPUSDT 4999 USD x3 @ 1.25 (ters sinyal, RSI 43)
 02.11 04:56 A  CLOSE XRPUSDT stop: -26.51 USD
+02.11 07:01 N  NEWS (45 new) score -0.15 conf 0.35: Haberler çelişkili: Fed faiz artırımı beklentilerinin yükselmesi ve doların güçlü kalması altını baskılarken, İran savaşı ve güvenli liman talebi destek sağlıyor. Altın bir yıllık dibe yakın seyrediyor ve kısa vadede 3.900 doların üzerinde toparlanma var, bu yüzden etki hafif negatif kabul edildi.
+02.11 07:01 N  GPT  score -0.10 conf 0.38: Altın, aşırı satım sonrası toparlanıyor ve İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak doların güçlü/istikrarlı seyri ve Fed faiz artırımı beklentilerinin yükselmesi kısa vadede baskı yaratıyor. Haber akışı çelişkili ve büyük ölçüde tekrarlı olduğundan net yön sinyali zay
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
