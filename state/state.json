@@ -6481,6 +6481,10 @@
    [
     1793656954,
     3944.51
+   ],
+   [
+    1793657148,
+    3947.37
    ]
   ]
  },
@@ -12548,43 +12552,38 @@
    [
     1793656954,
     4868.5
+   ],
+   [
+    1793657148,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.05,
+   "score": 0.05,
    "confidence": 0.3,
-   "reason": "Yeni gelen ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla ilgisiz (spor, k\u00fclt\u00fcr, sava\u015f metaforlar\u0131). Jeopolitik tarafta \u0130ran ile anla\u015fma beklentisi g\u00fcvenli liman talebini zay\u0131flatabilir, Dallas Fed'in \"en az iki faiz art\u0131\u015f\u0131\" yorumu ise faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f faiz art\u0131r\u0131m\u0131 beklentilerini s\u0131n\u0131rl\u0131yor ve Ukrayna'daki sald\u0131r\u0131lar ile \u0130ran sava\u015f\u0131 riski k\u0131sa vadeli destek sa\u011flayabilir; bu kar\u0131\u015f\u0131k tablo nedeniyle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fc\u015f.",
+   "reason": "Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran-ABD m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in olumsuz, ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131p ve dolarda gerileme alt\u0131n i\u00e7in olumlu. Dallas Fed'in faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; genel etki n\u00f6trye yak\u0131n.",
    "n": 45,
-   "ts": 1793656470356,
-   "new_headlines": 5,
+   "ts": 1793657147462,
+   "new_headlines": 12,
    "key_events": [
     "Petrol fiyatlar\u0131 bar\u0131\u015f umutlar\u0131yla sert d\u00fc\u015ft\u00fc; Fed faiz art\u0131r\u0131m\u0131 beklentileri geriledi",
     "Dolar endeksi bir ayl\u0131k/be\u015f haftal\u0131k dibe geriledi",
     "ABD-\u0130ran yo\u011fun bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri; g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131"
    ],
    "gpt": {
-    "score": 0.18,
-    "confidence": 0.36,
-    "reason": "Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 ve \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatmas\u0131 da alt\u0131na yard\u0131mc\u0131. Ancak Fed yetkilisinin ilave faiz art\u0131\u015flar\u0131 \u00e7a\u011fr\u0131s\u0131 ve \u0130ran\u2019la anla\u015fma iht",
+    "score": -0.2,
+    "confidence": 0.42,
+    "reason": "\u0130ran-ABD g\u00f6r\u00fc\u015fmelerinin yo\u011funla\u015fmas\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede g\u00fcvenli liman talebini azaltabilir; Dallas Fed yetkilisinin faiz art\u0131r\u0131m\u0131 y\u00f6n\u00fcndeki tutumu da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n geri \u00e7ekilmesi ve sava\u015f riskinin tamamen ortadan kalkmam\u0131\u015f olmas\u0131 d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Ukrayna\u2019da yard\u0131m merkezine \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131",
-     "\u0130ran g\u00f6r\u00fc\u015fmelerinde anla\u015fma \u00e7\u0131kmad\u0131",
-     "Dolar gerilerken Fed\u2019den faiz art\u0131\u015f\u0131 mesaj\u0131"
+     "\u0130ran-ABD aras\u0131nda sava\u015f konusunda yo\u011fun g\u00f6r\u00fc\u015fmeler",
+     "Dallas Fed yetkilisinden faiz art\u0131r\u0131m\u0131 mesaj\u0131",
+     "Petrol d\u00fc\u015f\u00fc\u015f\u00fc ve dolar\u0131n geri \u00e7ekilmesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792802113488,
-    "score": -0.3,
-    "confidence": 0.5,
-    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inip 3 ayl\u0131k dibe geriledi; petrol y\u00fckseli\u015fi enflasyon endi\u015felerini art\u0131r\u0131yor ve gelecek haftaki Fed toplant\u0131s\u0131 \u00f6ncesinde sert duru\u015f beklentisini destekleyerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Iran sava\u015f\u0131n\u0131n yeniden ba\u015flama ihtimali g\u00fcvenli liman talebi yaratsa da piyasada \u015fu an bu etki fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor; bu y\u00fczden orta d\u00fczeyde negatif bir g\u00f6r\u00fcn\u00fcm, g\u00fcven de s\u0131n\u0131rl\u0131.",
-    "new": 6,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792802833081,
     "score": -0.35,
@@ -15275,29 +15274,42 @@
     "new": 5,
     "gpt_score": 0.18,
     "gpt_confidence": 0.36
+   },
+   {
+    "ts": 1793657147462,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran-ABD m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in olumsuz, ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131p ve dolarda gerileme alt\u0131n i\u00e7in olumlu. Dallas Fed'in faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; genel etki n\u00f6trye yak\u0131n.",
+    "new": 12,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 5
+   "n": 6
   },
   "news_seen": [
+   "Forex: $159.55 to one US dollar - Jamaica Observer",
+   "Weekly Market Preview: Oil Drop on Iran Talks, Gold Breakdown, PMI Strength & FX Outlook - FXEmpire",
+   "Don\u2019t read too much into these midterms - The Washington Post",
+   "Iran and US conducting 'intensive' talks over war, Tehran says - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+   "Gulf Arab states struggle under the cloud of war - NPR",
+   "Gold prices push above $3,900 but still face significant headwinds - Pepperstone\u2019s Wu - Kitco",
+   "DOJ calls for sanctions over California voter rolls analysis - The Hill",
    "On This Day in History: Australia Started a War Against a Bird (and Lost) - The National Interest",
    "Fortuna Mining receives admissibility notice for Senegal gold project - StreetInsider",
    "Gold price update on the morning of November 3, 2026: SJC, plain 9999 DOJI BTMC Phu Quy rings. - Vietnam.vn",
    "Gold Investors Rocked by Wipeout, Seek Firmer Footing After Vote - Bloomberg.com",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Rebounds As Oil Tumbles - FXEmpire",
-   "Robert Redford Guest-Starred On A Failed '60s Drama War Set During The Civil War - IMDb",
    "Gold\u2019s Close Below $3,900: Why Some Breakdowns Don\u2019t Pause - FXEmpire",
    "Immigration restrictions, war, and the changing landscape of family law - Daily Journal",
    "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
-   "Bomb squad removes Civil War era artillery shell found in Pa. home - PennLive.com",
-   "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "Buy Gold Below $4,000 or Wait for $3,500? - FXEmpire",
+   "NCLA to SC Admin. Court: Vacate Appraiser\u2019s Sanctions After Years of Delay and Juryless Agency Proceeding - New Civil Liberties Alliance",
    "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
    "Culture War Tensions Roil Beverly Hills School Board Race - The New York Times",
    "Reigniting War With Iran Would Be a \u2018Huge Gamble\u2019 - Foreign Policy",
-   "Dave Bautista Gains 20 Lbs. of Muscle in 2 Months for \u2018God of War\u2019 - People.com",
    "Defense: Iran war dominates closing message - Punchbowl News",
    "Noah Brinkman: Ohio\u2019s funding tug of war for education - LimaOhio.com",
    "San Francisco Fed Warns: Exceptionally Strong El Ni\u00f1o Could Push Up US Inflation, Potentially Adding 1 Percentage Point by 2027 - BigGo Finance",
@@ -15307,31 +15319,25 @@
    "Forex Today: US Dollar retreats as US elections and RBA loom - FXStreet",
    "Is the US preparing to resume its war with Iran after the midterms? - Arab News",
    "Netanyahu is pressing Trump to attack Iran after the midterms, officials tell AP - AP News",
-   "'It\u2019s always war when we play them' Mick Cronin speaks on season opener - UCLA Wire",
    "The Iranians Are Not Helping Trump Avoid Another \u2018Short, Intense\u2019 War - National Review",
-   "Dallas Fed president says at least two more rate hikes needed - Dallas News",
+   "Dallas Fed president explains why she is pushing for interest rate hikes - Dallas News",
    "Iran\u2019s Khamenei Gives Government Powers to Hold Talks on War - Bloomberg.com",
    "CNO Caudle Gets Up-Close Look at U.S. Navy\u2019s Newest Hypersonic Missile - Naval News",
-   "Trump claims he would solve Vietnam War in a week. But there\u2019s one problem. - NJ.com",
    "Gold News: XAUUSD Rebounds as Oil Plunge Pressures Fed Hike Expectations - FXEmpire",
+   "New book examines Biden's response to Israel's war in Gaza - www.kasu.org",
    "A second chance to go for gold - Livewire Markets",
-   "Gulf war insurance capacity falls 80% as Iran conflict disrupts events - Beinsure",
    "Gold bounces to $3,950 as US-Iran agreement looms, eyes on US election - FXStreet",
+   "Justice Department urges sanctions for database analysis critical of its noncitizen voting claims - Marin Independent Journal",
    "USS George Washington Sailors Vote While Deployed - U.S. Department of War (.gov)",
    "Man guilty of stealing cash from farm owned by South African president",
    "Five takeaways from Morgan Scalley\u2019s Holy War week press conference - KSL Sports",
+   "New book examines Biden's response to Israel's war in Gaza - WKNO FM",
    "Gold Price Forecast: XAU/USD 17% Plunge Threatens Multi-Year Uptrend - StoneX",
    "Natural Gas Futures Market Holds Its Breath as Weak Weather and War Risk Collide - Natural Gas Intelligence",
-   "Copilot in deadly Florida jet crash identified in reports as 20-year-old - BBC",
-   "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
-   "How popular is the Iran War? - Silver Bulletin",
-   "Immigration, economy, campaign spending: We answered your US midterm questions - The Guardian",
-   "Utah looks like the Big 12's best entering 'Holy War' - Yahoo Sports"
+   "Copilot in deadly Florida jet crash identified in reports as 20-year-old - BBC"
   ]
  },
  "log": [
-  "01.11 23:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 23:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 23:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -15629,7 +15635,9 @@
   "03.11 00:42 N  NEWS (6 new) score -0.05 conf 0.30: ",
   "03.11 00:42 N  GPT  score +0.15 conf 0.34: Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme olmamas\u0131 ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f haberleri g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f\u0131k tutuyor.",
   "03.11 00:54 N  NEWS (5 new) score -0.05 conf 0.30: ",
-  "03.11 00:54 N  GPT  score +0.18 conf 0.36: Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 ve \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatmas\u0131 da alt\u0131na yard\u0131mc\u0131. Ancak Fed yetkilisinin ilave faiz art\u0131\u015flar\u0131 \u00e7a\u011fr\u0131s\u0131 ve \u0130ran\u2019la anla\u015fma iht"
+  "03.11 00:54 N  GPT  score +0.18 conf 0.36: Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 ve \u0130ran g\u00f6r\u00fc\u015fmelerinde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatmas\u0131 da alt\u0131na yard\u0131mc\u0131. Ancak Fed yetkilisinin ilave faiz art\u0131\u015flar\u0131 \u00e7a\u011fr\u0131s\u0131 ve \u0130ran\u2019la anla\u015fma iht",
+  "03.11 01:05 N  NEWS (12 new) score +0.05 conf 0.30: Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran-ABD m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in olumsuz, ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131p ve dolarda gerileme alt\u0131n i\u00e7in olumlu. Dallas Fed'in faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; genel etki n\u00f6trye yak\u0131n.",
+  "03.11 01:05 N  GPT  score -0.20 conf 0.42: \u0130ran-ABD g\u00f6r\u00fc\u015fmelerinin yo\u011funla\u015fmas\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede g\u00fcvenli liman talebini azaltabilir; Dallas Fed yetkilisinin faiz art\u0131r\u0131m\u0131 y\u00f6n\u00fcndeki tutumu da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n geri \u00e7ekilmesi ve sava\u015f riskinin tamamen ortadan kalkmam\u0131\u015f olmas\u0131 d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -20546,6 +20554,10 @@
    [
     1793656954,
     4963.78
+   ],
+   [
+    1793657148,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25390,6 +25402,10 @@
    [
     1793656954,
     4975.18
+   ],
+   [
+    1793657148,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -30200,6 +30216,10 @@
    [
     1793656954,
     4993.28
+   ],
+   [
+    1793657148,
+    4993.28
    ]
   ]
  },
@@ -34847,6 +34867,10 @@
    [
     1793656954,
     4969.22
+   ],
+   [
+    1793657148,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -38273,6 +38297,10 @@
    [
     1793656954,
     4859.29
+   ],
+   [
+    1793657148,
+    4858.72
    ]
   ],
   "news_calls": {
@@ -42777,6 +42805,10 @@
    [
     1793656954,
     100750.28
+   ],
+   [
+    1793657148,
+    100750.28
    ]
   ],
   "open": {},
@@ -45651,6 +45683,10 @@
    ],
    [
     1793656954,
+    5066.43
+   ],
+   [
+    1793657148,
     5066.43
    ]
   ],
