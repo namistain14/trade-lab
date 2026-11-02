@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 19:22 (İstanbul)
+> Son güncelleme: 02.11.2026 19:44 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 19:16): Claude puan **+0.10**, güven 0.40 — Yeni haberler karışık ama hafif negatif ağırlıklı: ABD imalat PMI beklentinin altında kalsa da satış fiyatı enflasyonu Eylül 2022'den bu yana en yüksek seviyede ve OCBC Fed sıkılaştırma endişeleri nedeniyle altın tahminini düşürdü; İran'la müzakerelerde kopuş olmaması ve Hamaney'in hükümete müzakere yetkisi vermesi de güvenli liman talebini sınırlıyor. Öte yandan Doların aşırı alım bölgesinde olması ve bazı analistlerin toparlanma beklentisi, düşüşü sınırlayabilir; eski haberler ve çelişkili sinyaller güveni düşürüyor.
+Son haber analizi (02.11 19:44): Claude puan **-0.15**, güven 0.35 — İran'la müzakere ve savaşın sona erebileceği umutları, jeopolitik güvenli liman talebini biraz azaltabileceği için altı hafif olumsuz etkileyebilir. Ancak petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatıp faiz indirimi beklentilerini destekleyebileceğinden ve bir haberde altının %2 yükseldiği bildirildiğinden sinyaller çelişkili; bu nedenle güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.22**, güven 0.38 — Altın fiyatındaki yaklaşık %2’lik yükseliş ve düşük reel getirilerin destekleyici olduğuna dair haberler kısa vadede hafif pozitif. Ancak Orta Doğu’da barış umuduyla petrolün gerilemesi güvenli liman talebini azaltabilir; karışık dolar ve enflasyon sinyalleri görünümü belirsiz kılıyor.
+GPT (gpt-6-luna): puan **-0.23**, güven 0.46 — İran-ABD görüşmelerinin yoğunlaştığı ve petrolün barış umuduyla gerilediği haberleri kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak İran’dan gelen tehditler ve çatışmanın yeniden başlayabileceğine dair değerlendirmeler tabloyu belirsiz kılıyor.
 
 Son işlemler:
 
@@ -73,16 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,686.22 $** (başlangıç 100,000 $, +1686.22 $ / %+1.69)
+**Hesap değeri: 101,344.13 $** (başlangıç 100,000 $, +1344.13 $ / %+1.34)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 18:19 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"99688.17","message":"insufficient buying power"}
-02.11 18:40 N  NEWS (16 new) score -0.20 conf 0.40: Yeni haberler karışık ama hafif negatif ağırlıklı: ABD imalat PMI beklentinin altında kalsa da satış fiyatı enflasyonu Eylül 2022'den bu yana en yüksek seviyede ve OCBC Fed sıkılaştırma endişeleri nedeniyle altın tahminini düşürdü; İran'la müzakerelerde kopuş olmaması ve Hamaney'in hükümete müzakere yetkisi vermesi de güvenli liman talebini sınırlıyor. Öte yandan Doların aşırı alım bölgesinde olması ve bazı analistlerin toparlanma beklentisi, düşüşü sınırlayabilir; eski haberler ve çelişkili sinyaller güveni düşürüyor.
-02.11 18:40 N  GPT  score -0.15 conf 0.38: Savaşın sona ermesine yönelik temaslar sürse de anlaşma çıkmaması güvenli liman talebini destekliyor; buna karşılık üretici fiyat enflasyonunun yüksek seyri Fed’in sıkı kalacağı beklentisini güçlendirerek altına baskı yapabilir. Etkiler çelişkili ve haberlerin bir kısmı zaten fiyatlanmış göründüğünd
 02.11 18:40 B6  karar turu: Claude «Güçlü ISM verisi ve Hürmüz umutlarıyla piyasa ılımlı pozitif seyrediyor, ancak AI harcama endişeleri ve akşamki bilançolar yukarı potansiyeli sınırlayabilir.» / GPT «Piyasa yönü pozitif olsa da son ivme kaybı ve karışık makro veriler nedeniyle 1:4 kaldıraçta sınırlı pozisyon büyüklüğü tercih edilmeli.»
 02.11 18:40 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"100684.33","message":"insufficient buying power"}
 02.11 18:52 N  NEWS (7 new) score +0.10 conf 0.35: 
@@ -95,6 +92,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 19:16 N  GPT  score +0.22 conf 0.38: Altın fiyatındaki yaklaşık %2’lik yükseliş ve düşük reel getirilerin destekleyici olduğuna dair haberler kısa vadede hafif pozitif. Ancak Orta Doğu’da barış umuduyla petrolün gerilemesi güvenli liman talebini azaltabilir; karışık dolar ve enflasyon sinyalleri görünümü belirsiz kılıyor.
 02.11 19:16 B6  karar turu: Claude «Sabahki yükseliş öğlene doğru sönümleniyor; teknoloji öncülüğünde hafif satış baskısı ve jeopolitik riskler kısa vadede aşağı yönlü eğilimi öne çıkarıyor.» / GPT «Endeksler günlük artıda olsa da saatlik satış eğilimi kısa yönünü destekliyor; iki pozisyonun yüksek korelasyonu nedeniyle toplam kaldıraç riski sınırlanmalı.»
 02.11 19:16 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"0","code":40310000,"cost_basis":"104434.41","message":"insufficient buying power"}
+02.11 19:44 N  NEWS (20 new) score -0.15 conf 0.35: İran'la müzakere ve savaşın sona erebileceği umutları, jeopolitik güvenli liman talebini biraz azaltabileceği için altı hafif olumsuz etkileyebilir. Ancak petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatıp faiz indirimi beklentilerini destekleyebileceğinden ve bir haberde altının %2 yükseldiği bildirildiğinden sinyaller çelişkili; bu nedenle güven düşük tutuldu.
+02.11 19:44 N  GPT  score -0.23 conf 0.46: İran-ABD görüşmelerinin yoğunlaştığı ve petrolün barış umuduyla gerilediği haberleri kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak İran’dan gelen tehditler ve çatışmanın yeniden başlayabileceğine dair değerlendirmeler tabloyu belirsiz kılıyor.
+02.11 19:44 B6  karar turu: Claude «Endeksler günü artıda ama öğleden sonra yorulma, İran gerilimi ve AI kaygıları nedeniyle hafif aşağı yönlü bir sürüklenme var; Apple bilançosu öncesi temkin hakim.» / GPT «Endekslerde gün içi kazançlar erirken kısa vadeli eğilim aşağı; QQQ'da satış yönü öne çıksa da 1–3 saatte %1,5 hedefi iddialı ve dört kat kaldıraç riski büyütüyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
