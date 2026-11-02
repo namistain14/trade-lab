@@ -5994,6 +5994,10 @@
    [
     1793631826,
     3977.24
+   ],
+   [
+    1793632032,
+    3977.24
    ]
   ]
  },
@@ -11609,43 +11613,38 @@
    [
     1793631826,
     4868.5
+   ],
+   [
+    1793632032,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.4,
+   "score": 0.15,
+   "confidence": 0.3,
    "reason": "\u0130ran'la bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine dair haberler (Hamaney'in m\u00fczakere yetkisi vermesi, son teklif tasla\u011f\u0131) ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in k\u0131sa vadede hafif olumsuz bir sinyal veriyor. Fed'in faizi %3,88'de sabit tutmas\u0131 ve analistlerin alt\u0131nda 3.900 dolar \u00e7evresinde daha fazla d\u00fc\u015f\u00fc\u015f beklemesi de bu y\u00f6n\u00fc destekliyor; buna kar\u015f\u0131l\u0131k a\u015f\u0131r\u0131 al\u0131m b\u00f6lgesindeki dolar\u0131n geri d\u00f6nme riski ve sava\u015f kaynakl\u0131 belirsizli\u011fin s\u00fcrmesi s\u0131n\u0131rl\u0131 bir toparlanma ihtimali b\u0131rak\u0131yor.",
    "n": 45,
-   "ts": 1793631297308,
-   "new_headlines": 12,
+   "ts": 1793632018297,
+   "new_headlines": 20,
    "key_events": [
     "Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fi sinyali sonras\u0131 petrol yakla\u015f\u0131k %3 d\u00fc\u015ft\u00fc",
     "Alt\u0131n 3.900 dolar\u0131 a\u015farak toparland\u0131 ancak Fed riskleri s\u00fcr\u00fcyor",
     "G\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor"
    ],
    "gpt": {
-    "score": -0.3,
-    "confidence": 0.58,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131 sona erdirmeye y\u00f6nelik taslak ve Tahran\u2019\u0131n g\u00f6r\u00fc\u015fmelere alan a\u00e7mas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak g\u00f6r\u00fc\u015fmelerde ilerleme yok ve \u00e7at\u0131\u015fma s\u00fcr\u00fcyor; bu nedenle d\u00fc\u015f\u00fc\u015f e\u011filimi s\u0131n\u0131rl\u0131 g\u00fcvenle de\u011ferlendiriliyor.",
+    "score": 0.25,
+    "confidence": 0.43,
+    "reason": "Alt\u0131n fiyat\u0131ndaki yakla\u015f\u0131k 75 dolarl\u0131k s\u0131\u00e7rama k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon ve faiz bask\u0131s\u0131n\u0131 hafifletmesi de destekleyici olabilir. Ancak \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair haberler g\u00fcvenli liman talebini azaltabilir ve sert \u00f6nceki d\u00fc",
     "key_events": [
-     "\u0130ran sava\u015f\u0131n\u0131 bitirmeye y\u00f6nelik taslak haberleri",
-     "Tahran\u2019\u0131n sava\u015f g\u00f6r\u00fc\u015fmelerine yetki vermesi",
-     "Alt\u0131nda yak\u0131n vadeli d\u00fc\u015f\u00fc\u015f beklentileri"
+     "Alt\u0131n yakla\u015f\u0131k 75 dolar y\u00fckseldi",
+     "Sava\u015f\u0131n sona ermesi olas\u0131l\u0131\u011f\u0131 petrol\u00fc d\u00fc\u015f\u00fcrd\u00fc",
+     "Enflasyon kayg\u0131lar\u0131n\u0131n hafiflemesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792766437514,
-    "score": -0.05,
-    "confidence": 0.35,
-    "reason": "",
-    "new": 8,
-    "gpt_score": 0.15,
-    "gpt_confidence": 0.38
-   },
    {
     "ts": 1792766918520,
     "score": -0.3,
@@ -14336,64 +14335,70 @@
     "new": 12,
     "gpt_score": -0.3,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1793632018297,
+    "score": 0.15,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 20,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-11-02",
-   "n": 23
+   "n": 24
   },
   "news_seen": [
+   "Gold Rallies Nearly $75 After 11% Pre-Midterm Plunge; Silver Rebounds - BullionVault",
+   "Department of War's Office of Strategic Capital Signs Conditional Loan Commitment of up to - U.S. Department of War (.gov)",
    "AEM Q3 Earnings Beat Estimates on Higher Gold Prices - Zacks Investment Research",
    "Explaining the War and Re-educating the Liberal: The New Canon of Pro-War Cinema - Riddle Russia",
+   "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag - Reuters",
    "Iran War Training - Post Register",
+   "Trump may blame Hegseth, top US general for Iran war as Netanyahu pushes for fresh strikes: Report - Firstpost",
    "An Updated Outlook for Interest Rates in 2026 and 2027 - Oklahoma Farm Report",
    "Hezbollah announces aid to Lebanese displaced by war with Israel - Arab News",
+   "'Like a missile.' Officials probe jet crash that killed 9 in Florida - Central Oregon Daily",
    "How the midterms could impact the Iran war - CNBC",
+   "Iran War Training - WV News",
    "The Nasdaq-100 ETF Fee War: Why There's Room for 4 - ETF Database",
+   "Wizz Air flight from London in emergency landing after bomb threat",
    "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
    "Iran\u2019s Khamenei Gives Government Powers to Hold Talks on War - Bloomberg",
    "How US oil firms profit $130bn from Iran war as household bills surge - Al Jazeera",
    "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated - Crude Oil Prices Today | OilPrice.com",
    "Gold price today: Two analysts see more downside near $3,900, but one warns an overbought US Dollar could spark a rebound - FXStreet",
+   "Ukraine has put thousands of new war robots into the fight. Fall and winter will test how they handle mud and snow. - Yahoo",
    "The war is pushing Iran closer to Russia - Chatham House",
+   "Dave Bautista shows 'God of War' transformation after gaining 20 pounds - Yahoo",
+   "Dave Bautista shows 'God of War' transformation after gaining 20 pounds - USA Today",
+   "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
+   "How would Tehran respond if the US and Israel bomb Iran again? - Al Jazeera",
+   "What we know about the alert app hack in Ukraine and Russia",
    "Taking the Pulse of the Labor Market | National News | U.S. News - U.S. News & World Report",
+   "MCX Gold Rate Today, Nov 2: 24K, 22K Gold Prices in Delhi, - APAC Media",
    "War Insurance Dries Up for Gulf Events as U.S.-Iran Conflict Continues - Skift",
+   "Gold Rebounds on Easing Inflation Concerns - TradingView",
    "Shop freezers in seven European countries hit by suspected cyber-attack",
-   "The U.S. economy is undergoing a structural shift - Carolina Coast Online",
-   "US effective federal funds rate holds at 3.88% as Fed maintains interest rate target - Business Upturn",
+   "ADNOC Chief Squarely Blames US-Israeli War on Iran for Global Energy Crisis - Kyiv Post",
+   "Canada\u2019s Security Strategy Goes Realist | Geopolitics Weekly - Geopolitical Monitor",
+   "TotalEnergies says Iran war could accelerate energy transition - Reuters",
    "Young Union soldier, struck down in Civil War battle, finally gets his funeral - The Detroit News",
    "How do global merchandise exports change over time? - Federal Reserve Bank of St. Louis",
+   "Current price of gold as of November 2, 2026 - Fortune",
    "Fed Sees Problem: Why Won\u2019t It Act? - Palisadian-Post",
    "In the Russia-Ukraine War, Nothing Is Sacred\u2014Not Even Air-Raid Alerts - Newsweek",
    "Gold Loses Ground in Retail CFD Trading as Currency Pairs Gain - Finance Magnates",
    "\u2018Queen of the Chinese\u2019, drone war fears: 7 US-China relations reads - South China Morning Post",
    "Inside the Northeast\u2019s biggest dry dock, that\u2019s keeping U.S. reserve fleet ready - NJ.com",
-   "US dollar steady ahead of election; Bitcoin hit by Binance hack - IDNFinancials",
    "Swing district voters in Pennsylvania grapple with economy, Iran war ahead of midterms - Times Leader",
    "US Dollar: Weak momentum faces midterm and payrolls tests \u2013 DBS - FXStreet",
-   "Iran says contacts over ending war continue as talks end with no breakthrough - Reuters",
-   "Gold price per tola gains Rs2,400 in Pakistan - Business Recorder",
-   "Ft. Ticonderoga shows what a Revolutionary War skirmish would've sounded like - NCPR: North Country Public Radio",
-   "A Paralympian vs a former TV news anchor - and other US Senate races to watch",
-   "Gold prices hold steady on November 2 - \u0622\u0631\u0627\u0628 \u0641\u0627\u064a\u0646\u0627\u0646\u0633",
-   "Australian Dollar loses ground with RBA decision, US midterm elections in focus - FXStreet",
-   "New homeowners find Civil War-era artillery shell in basement of Western Pa. home - WTAE",
-   "Russian Hunters Become Hunted As Drone War Repeats World War 2 Tactics - Forbes",
-   "Poundland's former owner offers to invest as minister prepares to meet board",
-   "USD/MXN (USDMXN) Moved Sharply on Nov 2: Are Central Bank Expectations Shifting? - TradingKey",
-   "TotalEnergies expects Iran war to accelerate energy transition - Reuters",
-   "Shafaq News..US dollar drops in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-   "'Like a missile going down' | What we know about the plane that crashed nose-first into a busy Florida roadway - KGW",
-   "Post-midterm geopolitical risks could create another buying opportunity: JPM - Investing.com",
-   "Locked & Loaded: Cincinnati gun busts explode 250% in feds\u2019 war on street crime - FOX19 | Cincinnati",
-   "Canadian dollar slips from six-week high as oil retreat offsets weaker U.S. dollar - Investing.com Canada",
-   "Republicans Turn against Trump As War, Economic Fallout Threaten Midterm Losses - \u062a\u0633\u0646\u06cc\u0645"
+   "Hypersonic missile being made by British-German startup \u2018could strike deep inside Russia\u2019 - The Independent"
   ]
  },
  "log": [
-  "01.11 14:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "01.11 14:44 A  CLOSE DOGEUSDT time limit: -18.38 USD",
-  "01.11 14:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:47 A  SHORT BTCUSDT 5072 USD x3 @ 77930.40 (ters sinyal, RSI 38)",
   "01.11 14:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "01.11 14:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -14690,7 +14695,10 @@
   "02.11 17:43 B6  karar turu: Claude \u00abPiyasa \u0131l\u0131ml\u0131 pozitif, ancak \u00e7ip ve AI taraf\u0131ndaki temkinli haber ak\u0131\u015f\u0131 ile ak\u015famki Apple bilan\u00e7osu \u00f6ncesi teknoloji hisseleri yorgun g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00abSPY g\u00f6rece g\u00fc\u00e7l\u00fc, teknoloji taraf\u0131 ayr\u0131\u015f\u0131yor; ko\u015fullu jeopolitik iyimserlik al\u0131m\u0131 desteklese de 1:4 kald\u0131ra\u00e7ta ani ters hareket riski y\u00fcksek.\u00bb",
   "02.11 17:55 N  NEWS (12 new) score -0.20 conf 0.40: \u0130ran'la bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine dair haberler (Hamaney'in m\u00fczakere yetkisi vermesi, son teklif tasla\u011f\u0131) ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in k\u0131sa vadede hafif olumsuz bir sinyal veriyor. Fed'in faizi %3,88'de sabit tutmas\u0131 ve analistlerin alt\u0131nda 3.900 dolar \u00e7evresinde daha fazla d\u00fc\u015f\u00fc\u015f beklemesi de bu y\u00f6n\u00fc destekliyor; buna kar\u015f\u0131l\u0131k a\u015f\u0131r\u0131 al\u0131m b\u00f6lgesindeki dolar\u0131n geri d\u00f6nme riski ve sava\u015f kaynakl\u0131 belirsizli\u011fin s\u00fcrmesi s\u0131n\u0131rl\u0131 bir toparlanma ihtimali b\u0131rak\u0131yor.",
   "02.11 17:55 N  GPT  score -0.30 conf 0.58: \u0130ran sava\u015f\u0131n\u0131 sona erdirmeye y\u00f6nelik taslak ve Tahran\u2019\u0131n g\u00f6r\u00fc\u015fmelere alan a\u00e7mas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak g\u00f6r\u00fc\u015fmelerde ilerleme yok ve \u00e7at\u0131\u015fma s\u00fcr\u00fcyor; bu nedenle d\u00fc\u015f\u00fc\u015f e\u011filimi s\u0131n\u0131rl\u0131 g\u00fcvenle de\u011ferlendiriliyor.",
-  "02.11 17:55 B6  karar turu: Claude \u00abGeni\u015f piyasa \u0131l\u0131ml\u0131 pozitif seyrediyor, ancak teknoloji taraf\u0131nda \u00e7ip sat\u0131\u015flar\u0131 ve Apple bilan\u00e7osu \u00f6ncesi bask\u0131 ayr\u0131\u015fma yarat\u0131yor.\u00bb / GPT \u00abEndekslerde ayr\u0131\u015fma var; teknoloji taraf\u0131ndaki sat\u0131\u015f bask\u0131s\u0131 k\u0131sa y\u00f6n\u00fc desteklerken SPY daha diren\u00e7li kal\u0131yor.\u00bb"
+  "02.11 17:55 B6  karar turu: Claude \u00abGeni\u015f piyasa \u0131l\u0131ml\u0131 pozitif seyrediyor, ancak teknoloji taraf\u0131nda \u00e7ip sat\u0131\u015flar\u0131 ve Apple bilan\u00e7osu \u00f6ncesi bask\u0131 ayr\u0131\u015fma yarat\u0131yor.\u00bb / GPT \u00abEndekslerde ayr\u0131\u015fma var; teknoloji taraf\u0131ndaki sat\u0131\u015f bask\u0131s\u0131 k\u0131sa y\u00f6n\u00fc desteklerken SPY daha diren\u00e7li kal\u0131yor.\u00bb",
+  "02.11 18:07 N  NEWS (20 new) score +0.15 conf 0.30: ",
+  "02.11 18:07 N  GPT  score +0.25 conf 0.43: Alt\u0131n fiyat\u0131ndaki yakla\u015f\u0131k 75 dolarl\u0131k s\u0131\u00e7rama k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon ve faiz bask\u0131s\u0131n\u0131 hafifletmesi de destekleyici olabilir. Ancak \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair haberler g\u00fcvenli liman talebini azaltabilir ve sert \u00f6nceki d\u00fc",
+  "02.11 18:07 B6  karar turu: Claude \u00abPiyasa g\u00fc\u00e7l\u00fc ISM verisi ve jeopolitik iyimserlikle hafif pozitif, ancak teknoloji taraf\u0131nda AAPL bilan\u00e7osu \u00f6ncesi temkinli bir ayr\u0131\u015fma var.\u00bb / GPT \u00abG\u00fc\u00e7l\u00fc ISM ile zay\u0131f in\u015faat verisi piyasay\u0131 dengelerken teknoloji hisselerindeki g\u00f6reli sat\u0131\u015f bask\u0131s\u0131 se\u00e7ici k\u0131sa pozisyonlar\u0131 destekliyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -19155,6 +19163,10 @@
    [
     1793631826,
     4963.78
+   ],
+   [
+    1793632032,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -23547,6 +23559,10 @@
    [
     1793631826,
     4975.18
+   ],
+   [
+    1793632032,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -27905,6 +27921,10 @@
    [
     1793631826,
     4993.28
+   ],
+   [
+    1793632032,
+    4993.28
    ]
   ]
  },
@@ -32100,6 +32120,10 @@
    [
     1793631826,
     4969.22
+   ],
+   [
+    1793632032,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -34995,6 +35019,10 @@
    [
     1793631826,
     5022.7
+   ],
+   [
+    1793632032,
+    5022.7
    ]
   ],
   "news_calls": {
@@ -35202,7 +35230,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 99840.740293,
+   "balance": 99854.83679300001,
    "start": 100000.0,
    "positions": [
     {
@@ -35217,7 +35245,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
-     "cur": 340.13
+     "cur": 340.265
     },
     {
      "id": "a49dc4b1-5a6b-4069-9319-c9b22efcdfd4",
@@ -35231,7 +35259,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 207.8812
+     "cur": 207.7257
     },
     {
      "id": "cd6c2eac-b8a8-40d9-ba16-4e8d8549fed0",
@@ -35245,18 +35273,18 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
-     "cur": 403.11
+     "cur": 403.95
     }
    ],
    "trades": [],
    "day": {
     "date": "2026-11-02",
-    "pnl": -1987.64,
+    "pnl": -1656.65,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 99141.26
+   "equity": 99472.25
   },
   "equity_curve": [
    [
@@ -39090,6 +39118,10 @@
    [
     1793631826,
     99141.26
+   ],
+   [
+    1793632032,
+    99472.25
    ]
   ],
   "open": {
@@ -39129,11 +39161,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793631298619,
+  "last_decision_ms": 1793632018713,
   "view": {
-   "ts": 1793631298619,
-   "claude": "Geni\u015f piyasa \u0131l\u0131ml\u0131 pozitif seyrediyor, ancak teknoloji taraf\u0131nda \u00e7ip sat\u0131\u015flar\u0131 ve Apple bilan\u00e7osu \u00f6ncesi bask\u0131 ayr\u0131\u015fma yarat\u0131yor.",
-   "gpt": "Endekslerde ayr\u0131\u015fma var; teknoloji taraf\u0131ndaki sat\u0131\u015f bask\u0131s\u0131 k\u0131sa y\u00f6n\u00fc desteklerken SPY daha diren\u00e7li kal\u0131yor.",
+   "ts": 1793632018713,
+   "claude": "Piyasa g\u00fc\u00e7l\u00fc ISM verisi ve jeopolitik iyimserlikle hafif pozitif, ancak teknoloji taraf\u0131nda AAPL bilan\u00e7osu \u00f6ncesi temkinli bir ayr\u0131\u015fma var.",
+   "gpt": "G\u00fc\u00e7l\u00fc ISM ile zay\u0131f in\u015faat verisi piyasay\u0131 dengelerken teknoloji hisselerindeki g\u00f6reli sat\u0131\u015f bask\u0131s\u0131 se\u00e7ici k\u0131sa pozisyonlar\u0131 destekliyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -39144,7 +39176,7 @@
      ],
      "gpt": [
       "none",
-      0.68
+      0.7
      ]
     },
     "QQQ": {
@@ -39154,7 +39186,7 @@
      ],
      "gpt": [
       "short",
-      0.64
+      0.62
      ]
     },
     "NVDA": {
@@ -41524,6 +41556,10 @@
    ],
    [
     1793631826,
+    5000
+   ],
+   [
+    1793632032,
     5000
    ]
   ],

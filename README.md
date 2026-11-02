@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 18:03 (İstanbul)
+> Son güncelleme: 02.11.2026 18:07 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 5,022.70 $** (başlangıç 5,000 $, +22.70 $ / %+0.45)
 
-Son haber analizi (02.11 17:54): Claude puan **-0.20**, güven 0.40 — İran'la barış görüşmelerine dair haberler (Hamaney'in müzakere yetkisi vermesi, son teklif taslağı) ve petrol fiyatlarındaki sert düşüş, jeopolitik güvenli liman talebini azaltarak altın için kısa vadede hafif olumsuz bir sinyal veriyor. Fed'in faizi %3,88'de sabit tutması ve analistlerin altında 3.900 dolar çevresinde daha fazla düşüş beklemesi de bu yönü destekliyor; buna karşılık aşırı alım bölgesindeki doların geri dönme riski ve savaş kaynaklı belirsizliğin sürmesi sınırlı bir toparlanma ihtimali bırakıyor.
+Son haber analizi (02.11 18:06): Claude puan **+0.15**, güven 0.30 — İran'la barış görüşmelerine dair haberler (Hamaney'in müzakere yetkisi vermesi, son teklif taslağı) ve petrol fiyatlarındaki sert düşüş, jeopolitik güvenli liman talebini azaltarak altın için kısa vadede hafif olumsuz bir sinyal veriyor. Fed'in faizi %3,88'de sabit tutması ve analistlerin altında 3.900 dolar çevresinde daha fazla düşüş beklemesi de bu yönü destekliyor; buna karşılık aşırı alım bölgesindeki doların geri dönme riski ve savaş kaynaklı belirsizliğin sürmesi sınırlı bir toparlanma ihtimali bırakıyor.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.58 — İran savaşını sona erdirmeye yönelik taslak ve Tahran’ın görüşmelere alan açması, kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak görüşmelerde ilerleme yok ve çatışma sürüyor; bu nedenle düşüş eğilimi sınırlı güvenle değerlendiriliyor.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.43 — Altın fiyatındaki yaklaşık 75 dolarlık sıçrama kısa vadeli yukarı yönlü momentuma işaret ediyor; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi de destekleyici olabilir. Ancak İran savaşının sona erebileceğine dair haberler güvenli liman talebini azaltabilir ve sert önceki dü
 
 Son işlemler:
 
@@ -73,16 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 99,141.26 $** (başlangıç 100,000 $, -858.74 $ / %-0.86)
+**Hesap değeri: 99,472.25 $** (başlangıç 100,000 $, -527.75 $ / %-0.53)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 16:44 N  NEWS (19 new) score +0.10 conf 0.35: 
-02.11 16:44 N  GPT  score +0.12 conf 0.34: İran’la yeniden çatışma ve gerilimin bölgeye yayılma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak diplomasi umutlarıyla petrolün gerilemesi ve dolar görünümündeki karışık sinyaller, kısa vadeli yönü belirsiz kılıyor.
-02.11 16:44 B6  seans öncesi görüş: AI harcama endişeleriyle teknoloji ağırlıklı riskten kaçış var; son saatte hafif tepki alımı görülse de piyasa kırılgan, göreceli güç TSLA'da.
 02.11 16:56 N  NEWS (23 new) score +0.05 conf 0.30: İran savaşının sürmesi ve Trump'ın "daha fazla askeri eylem mümkün" açıklaması güvenli liman talebini destekleyerek altı hafifçe yukarı çekebilir. Buna karşılık, güçlü dolar görüşü (HSBC), FOMC'nin faiz sabitlemesi ve petrol fiyatlarındaki düşüş (enflasyon beklentilerini zayıflatarak) altı baskılayabilir; ayrıca altın Ekim'de ciddi düşüş yaşadığı için haberlerin büyük kısmı zaten fiyatlanmış durumda. Sonuç olarak yönsüz, zayıf pozitif bir eğilim.
 02.11 16:56 N  GPT  score +0.18 conf 0.32: İran savaşında yeni askerî adım ihtimalinin açık kalması kısa vadede güvenli liman talebini destekleyebilir. Ancak diplomasi temaslarının sürmesi ve petrolün ilerleme umuduyla gerilemesi bu etkiyi sınırlıyor; dolar ve faiz yönünde belirgin yeni bir sinyal yok.
 02.11 17:08 N  NEWS (10 new) score +0.15 conf 0.35: İran savaşının sürmesi ve Trump'ın daha fazla askeri eylem ihtimalini sürdürmesi jeopolitik güvenli liman talebini destekliyor. Ancak müzakerelerde kırılma olmaması, petrol fiyatlarının gerilemesi ve ABD dolarında zayıf momentum gibi karışık sinyaller ile FOMC'nin faiz sabit tutması sonrası dolar lehine görüşler nedeniyle etki sınırlı ve yön belirsiz.
@@ -95,6 +92,9 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 17:55 N  NEWS (12 new) score -0.20 conf 0.40: İran'la barış görüşmelerine dair haberler (Hamaney'in müzakere yetkisi vermesi, son teklif taslağı) ve petrol fiyatlarındaki sert düşüş, jeopolitik güvenli liman talebini azaltarak altın için kısa vadede hafif olumsuz bir sinyal veriyor. Fed'in faizi %3,88'de sabit tutması ve analistlerin altında 3.900 dolar çevresinde daha fazla düşüş beklemesi de bu yönü destekliyor; buna karşılık aşırı alım bölgesindeki doların geri dönme riski ve savaş kaynaklı belirsizliğin sürmesi sınırlı bir toparlanma ihtimali bırakıyor.
 02.11 17:55 N  GPT  score -0.30 conf 0.58: İran savaşını sona erdirmeye yönelik taslak ve Tahran’ın görüşmelere alan açması, kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak görüşmelerde ilerleme yok ve çatışma sürüyor; bu nedenle düşüş eğilimi sınırlı güvenle değerlendiriliyor.
 02.11 17:55 B6  karar turu: Claude «Geniş piyasa ılımlı pozitif seyrediyor, ancak teknoloji tarafında çip satışları ve Apple bilançosu öncesi baskı ayrışma yaratıyor.» / GPT «Endekslerde ayrışma var; teknoloji tarafındaki satış baskısı kısa yönü desteklerken SPY daha dirençli kalıyor.»
+02.11 18:07 N  NEWS (20 new) score +0.15 conf 0.30: 
+02.11 18:07 N  GPT  score +0.25 conf 0.43: Altın fiyatındaki yaklaşık 75 dolarlık sıçrama kısa vadeli yukarı yönlü momentuma işaret ediyor; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi de destekleyici olabilir. Ancak İran savaşının sona erebileceğine dair haberler güvenli liman talebini azaltabilir ve sert önceki dü
+02.11 18:07 B6  karar turu: Claude «Piyasa güçlü ISM verisi ve jeopolitik iyimserlikle hafif pozitif, ancak teknoloji tarafında AAPL bilançosu öncesi temkinli bir ayrışma var.» / GPT «Güçlü ISM ile zayıf inşaat verisi piyasayı dengelerken teknoloji hisselerindeki göreli satış baskısı seçici kısa pozisyonları destekliyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
