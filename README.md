@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 03:57 (İstanbul)
+> Son güncelleme: 02.11.2026 04:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.5 |
 | Ödenen komisyon/spread | 17.81 $ | 293.40 $ |
 
-**Hesap değeri: 4,160.81 $** (başlangıç 5,000 $, -839.19 $ / %-16.78)
+**Hesap değeri: 4,152.78 $** (başlangıç 5,000 $, -847.22 $ / %-16.94)
 
 Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.25)
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,128.90 $** (başlangıç 100,000 $, +1128.90 $ / %+1.13)
+**Hesap değeri: 102,311.38 $** (başlangıç 100,000 $, +2311.38 $ / %+2.31)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
