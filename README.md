@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 15:29 (İstanbul)
+> Son güncelleme: 02.11.2026 15:32 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -201.58 $ | -956.72 $ |
-| İşlem sayısı | 14 | 75 |
-| Kazanma oranı | %21.4 | %20.0 |
-| Ödenen komisyon/spread | 57.56 $ | 333.16 $ |
+| Net kâr/zarar | -203.32 $ | -958.46 $ |
+| İşlem sayısı | 15 | 76 |
+| Kazanma oranı | %20.0 | %19.7 |
+| Ödenen komisyon/spread | 62.46 $ | 338.06 $ |
 
-**Hesap değeri: 4,044.98 $** (başlangıç 5,000 $, -955.02 $ / %-19.10)
-
-Açık pozisyonlar: BNBUSDT short @ 706.64 (TP 702.40 / SL 709.46)
+**Hesap değeri: 4,041.54 $** (başlangıç 5,000 $, -958.46 $ / %-19.17)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 02.11 15:31 | BNBUSDT | short | -1.73 $ | time limit |
 | 02.11 15:10 | XRPUSDT | short | -12.99 $ | stop |
 | 02.11 15:12 | SOLUSDT | short | -25.98 $ | stop |
 | 02.11 11:41 | DOGEUSDT | short | -13.06 $ | stop |
 | 02.11 11:42 | XRPUSDT | short | -26.48 $ | stop |
-| 02.11 11:41 | SOLUSDT | short | -26.45 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -75,14 +73,13 @@ GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Hürmüz Boğazı’nda iki ta
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 100,812.53 $** (başlangıç 100,000 $, +812.53 $ / %+0.81)
+**Hesap değeri: 100,982.40 $** (başlangıç 100,000 $, +982.40 $ / %+0.98)
 
 Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213.74 (TP 210.40 / SL 215.74); TSLA long @ 406.46 (TP 412.39 / SL 402.24)
 
 ## Son olaylar
 
 ```
-02.11 14:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzmYEZ2a5dKhL6A62ht'}
 02.11 14:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzzpetGv6qGehLug5TH'}
 02.11 14:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge29d5zJ3pUGm8dmCNKe'}
 02.11 14:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2NviVr8ZkuUdgqzv24'}
@@ -97,6 +94,7 @@ Açık pozisyonlar: AAPL long @ 349.31 (TP 354.74 / SL 346.00); NVDA short @ 213
 02.11 15:26 A  CLOSE XRPUSDT stop: -12.99 USD
 02.11 15:26 N  NEWS (21 new) score -0.15 conf 0.35: Haberlerde faiz artırımı beklentileri ve güçlenen dolar altın için baskı oluşturuyor; ancak petrol fiyatlarının düşmesi ve İran-ABD savaşında barış umudu enflasyon kaygısını azaltarak bu baskıyı kısmen dengeliyor. Sinyaller karışık ve ağırlıklı olarak tekrar eden ya da fiyatlanmış haberler olduğundan güven düşük.
 02.11 15:26 N  GPT  score -0.12 conf 0.30: ABD-İran savaşına dair umutların petrol fiyatlarını düşürmesi ve dolar/faiz artışı beklentileri altın üzerinde hafif baskı oluşturabilir. Yemen ve Lübnan’daki gerilim haberleri güvenli liman talebini desteklese de kısa vadeli etki karışık ve sınırlı görünüyor.
+02.11 15:32 A  CLOSE BNBUSDT time limit: -1.73 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
