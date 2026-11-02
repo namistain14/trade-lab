@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 02.11.2026 03:30 (İstanbul)
+> Son güncelleme: 02.11.2026 03:33 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.5 |
 | Ödenen komisyon/spread | 17.81 $ | 293.40 $ |
 
-**Hesap değeri: 4,162.01 $** (başlangıç 5,000 $, -837.99 $ / %-16.76)
+**Hesap değeri: 4,161.61 $** (başlangıç 5,000 $, -838.39 $ / %-16.77)
 
 Açık pozisyonlar: XRPUSDT short @ 1.25 (TP 1.24 / SL 1.25)
 
