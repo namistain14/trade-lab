@@ -373,6 +373,10 @@
    [
     1793742570,
     5000.0
+   ],
+   [
+    1793742915,
+    5000.0
    ]
   ],
   "archive": [
@@ -9697,43 +9701,38 @@
    [
     1793742570,
     4868.5
+   ],
+   [
+    1793742915,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.12,
+   "score": 0.1,
    "confidence": 0.3,
-   "reason": "\u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim (tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fma riski, son dakika m\u00fczakereleri) alt\u0131n i\u00e7in hafif g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor. Ancak dolar endeksinin y\u00fckselmesi ve alt\u0131n\u0131n rekor zirvelerden sonra yatay seyretmesi bu etkiyi s\u0131n\u0131rl\u0131yor; Fed'e dair yeni bir sinyal yok ve haberlerin \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde.",
+   "reason": "\u0130ran sava\u015f\u0131 ve m\u00fczakere belirsizli\u011fi jeopolitik g\u00fcvenli liman talebini hafif destekliyor; ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyon kaynakl\u0131 faiz beklentilerinin sertle\u015fme ihtimali alt\u0131n i\u00e7in dengeleyici bir bask\u0131 olu\u015fturuyor. Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde ve eski/fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in sinyal zay\u0131f.",
    "n": 45,
-   "ts": 1793742221660,
-   "new_headlines": 6,
+   "ts": 1793742915395,
+   "new_headlines": 10,
    "key_events": [
     "\u0130ran sava\u015f\u0131: son dakika m\u00fczakereleri ve tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fma riski (g\u00fcvenli liman deste\u011fi)",
     "Dolar endeksi hafif y\u00fckseli\u015f, ABD ara se\u00e7im beklentisi (alt\u0131n i\u00e7in bask\u0131)",
     "Alt\u0131n rekor zirvelerden sonra yatay seyrediyor"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.34,
-    "reason": "\u0130ran sava\u015f\u0131 ve g\u00f6r\u00fc\u015fmelere y\u00f6nelik k\u00f6t\u00fcmserlik g\u00fcvenli liman talebini destekleyebilir; ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde \u00f6nceden bilinen geli\u015fmeler ve dolar\u0131n hafif g\u00fc\u00e7lenmesi alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. Yak\u0131n vadede net y\u00f6n sinyali zay\u0131f, hafif pozitif e\u011filim beklenebilir.",
+    "score": 0.12,
+    "confidence": 0.32,
+    "reason": "\u0130ran\u2019la \u00e7at\u0131\u015fman\u0131n yeniden t\u0131rmanabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; ancak yeni ve do\u011frulanm\u0131\u015f bir geli\u015fme yok. Enflasyon ve y\u00fckselen mortgage faizleri ile dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131rarak g\u00f6r\u00fcn\u00fcm\u00fc dengeliyor.",
     "key_events": [
-     "\u0130ran g\u00f6r\u00fc\u015fmelerine dair k\u00f6t\u00fcmserlik ve \u00e7at\u0131\u015fma riski",
-     "Dolar endeksinde hafif y\u00fckseli\u015f",
-     "Alt\u0131n fiyat\u0131n\u0131n yatay seyri"
+     "\u0130ran gerilimi ve yeniden \u00e7at\u0131\u015fma riskine ili\u015fkin haberler",
+     "H\u0131zlanan enflasyon ve y\u00fckselen mortgage faizleri",
+     "Dolar endeksinde hafif y\u00fckseli\u015f"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792905053260,
-    "score": -0.15,
-    "confidence": 0.35,
-    "reason": "Fed'in ekim ay\u0131nda faiz sabit tutup aral\u0131kta s\u0131k\u0131la\u015ft\u0131rma (faiz art\u0131r\u0131m\u0131) ihtimalini tart\u0131\u015fmas\u0131 ve enerji kaynakl\u0131 enflasyon bask\u0131s\u0131 (petrol ~116$) alt\u0131n i\u00e7in olumsuz; ayr\u0131ca alt\u0131n haftal\u0131k %4'ten fazla d\u00fc\u015fm\u00fc\u015f. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimine dair jeopolitik risk haberleri g\u00fcvenli liman talebini destekliyor, bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-    "new": 14,
-    "gpt_score": -0.18,
-    "gpt_confidence": 0.34
-   },
    {
     "ts": 1792907162313,
     "score": -0.15,
@@ -12424,30 +12423,45 @@
     "new": 6,
     "gpt_score": 0.15,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1793742915395,
+    "score": 0.1,
+    "confidence": 0.3,
+    "reason": "\u0130ran sava\u015f\u0131 ve m\u00fczakere belirsizli\u011fi jeopolitik g\u00fcvenli liman talebini hafif destekliyor; ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyon kaynakl\u0131 faiz beklentilerinin sertle\u015fme ihtimali alt\u0131n i\u00e7in dengeleyici bir bask\u0131 olu\u015fturuyor. Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde ve eski/fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in sinyal zay\u0131f.",
+    "new": 10,
+    "gpt_score": 0.12,
+    "gpt_confidence": 0.32
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
+   "Mortgage Rates Climb in October Amid Accelerating Inflation - Eye On Housing",
    "Spanish transport minister resigns days after deadly train crash",
-   "Forex: $159.62 to one US dollar - Jamaica Observer",
+   "Alton Marine Olin Gray Honored For His World War II Heroism - RiverBender.com",
    "Hoyas Sweep MAISA Championship Weekend, Winning Fall Women's Title and War Memorial - Georgetown University Athletics",
    "As war strains Kremlin finances, Putin reaches into more pockets in search of new revenue streams - Japan Today",
    "Gold holds steady at Rs412,136 per tola - The Express Tribune",
    "FBI Hosts Law Enforcement Briefing at War Memorial Stadium - Sheridan Media",
    "African laborers were forgotten in stories of World War I. In this performance, they take center stage. - University of California, Berkeley",
    "U.S. Stocks Mixed Amid Midterm, Iran War Nerves - WSJ",
+   "Remains of missing World War II soldier from Massachusetts identified after eight decades - WWLP",
+   "Mountain Home NJROTC cadets visit National Cold War Center - Baxter Bulletin",
+   "Dam of The Puma Sells for $2.4 Million at Keeneland - BloodHorse",
+   "Dollar Index Edges Higher as Markets Eye U.S. Midterms and Iran Talks; Yen Trades in Upper 158 Range - BigGo Finance",
    "Iran war latest: Tehran entering last-ditch talks with 'complete pessimism' - The National",
    "The Risk of a Full-Scale Conflict With Iran is at its Peak - The Maritime Executive",
-   "Dollar Index Edges Higher as Markets Eye U.S. Midterms and Iran Talks; Yen Trades in Upper 158 Range - BigGo Finance",
    "As 2027 housing forecasts darken, here's the data brokers are keeping an eye on - Mortgage Professional America",
    "Frogs O\u2019 War Reacts Survey: Should TCU bench Jaden Craig for Adam Schobel? - Frogs O' War",
+   "Who Is Nicolo Tresoldi? The Striker Igniting a Bidding War Between Premier League Giants - Sports Illustrated",
    "Paris Jackson\u2019s $600M War with Father Michael Jackson\u2019s Estate - Extra",
    "Florida Gov. Ron DeSantis says the Iran war has backfired on Republicans - The National News Desk",
    "Eve of War, Dam of The Puma, Takes The Lead at Keeneland November - Thoroughbred Daily News",
    "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+   "The Holy War between No. 7 BYU and No. 3 Utah kicks off final stretch in Big 12 title chase - Your Valley",
    "Stevens Point Post Office evacuated after World War II grenade found - wjfw.com",
    "Singapore Dollar: Range-bound trading outlook against US Dollar \u2013 UOB - FXStreet",
    "El-Sayed says \u2018we need less war,\u2019 citing financial hardships on Americans - NewsNation",
@@ -12455,32 +12469,24 @@
    "Why Trump only has a few weeks to restart Iran war \u2014 and what he could target with new strikes - New York Post",
    "Besieged by war, Saudi Aramco continues to gush profits - The Economist",
    "A veteran\u2019s story reveals the lasting cost of war - Post and Courier",
+   "U.S. Navy guided-missile destroyer USS Gridley completes seven-month deployment - Defence Industry Europe",
    "Minneapolis Fed\u2019s Glaubke receives Federal Reserve System\u2019s Taylor Award - Federal Reserve Bank of Minneapolis",
    "US Air Force asks industry for new cruise missile for Ukraine - Air Force TImes",
+   "Child marriage cases surge in Gaza as war deepens poverty and displacement - The Jerusalem Post",
    "Iranians say they cannot afford emergency kits as fears of renewed war grow - Iran International",
    "Married off at 14: In Yemen\u2019s war, women and girls suffer \u2018devastating consequences\u2019 - UN News",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
+   "Pope Leo\u2019s envoy witnesses hunger in war-torn Ukraine - Catholic Courier",
    "Saudi Budget Deficit More Than Doubles as War Strains Finances - Bloomberg.com",
    "What comes next in Trump\u2019s war with Iran : Here & Now Anytime - NPR",
-   "Washington Ratchets up New Sanctions against Tourism in Cuba - Mises Institute",
    "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
    "Kinross Gold (NYSE:KGC) Stock Price Target Cut by Canadian Imperial Bank of Commerce - MarketBeat",
    "Gold demand stays steady as prices stabilise after record highs - EWN",
    "Israel warns US that Iran may use chemical weapons, but Washington questions intelligence - report - The Jerusalem Post",
    "Meta Set to Raise $15 Billion From US Dollar Portion of Cross-Border Bond Sale - marketscreener.com",
-   "DeSantis: War in Iran \u2018big, big drag\u2019 on Republicans - The Hill",
-   "Colby College students track Election Day rumors in live \u2018war room\u2019 - WABI",
-   "British Pound: Resistance caps recovery against US Dollar \u2013 Scotiabank - FXStreet",
-   "South Korean Won: Breakout looms against US Dollar \u2013 Societe Generale - FXStreet",
-   "Brien Lundin: Why $6,000 Gold Isn't Out of Reach - Investing News Network",
-   "3 Stocks That Did Well the Last Time the Fed Raised Rates Aggressively - The Motley Fool",
-   "War, oil, AI: What US midterms could mean for Middle East economies - Al-Monitor",
-   "Leonid Gozman \u2014 After Putin, After the War: Russia\u2019s Next Chapter - Stanford University"
+   "DeSantis: War in Iran \u2018big, big drag\u2019 on Republicans - The Hill"
   ]
  },
  "log": [
-  "02.11 22:38 N  NEWS (10 new) score +0.05 conf 0.30: ",
-  "02.11 22:38 N  GPT  score +0.18 conf 0.40: Ukrayna\u2019daki yard\u0131m merkezine y\u00f6nelik \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Buna kar\u015f\u0131l\u0131k ABD-\u0130ran g\u00f6r\u00fc\u015fmelerindeki ilerleme ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f jeopolitik risk primini azalt\u0131yor; net etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k g\u00f6r\u00fcn\u00fcyor.",
   "02.11 22:38 B6  karar turu: Claude \u00abPetroldeki d\u00fc\u015f\u00fc\u015f ve \u0130ran bar\u0131\u015f umutlar\u0131na ra\u011fmen teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015flar kapan\u0131\u015fa do\u011fru endeksleri a\u015fa\u011f\u0131 \u00e7ekiyor; k\u0131sa vadeli e\u011filim hafif negatif.\u00bb / GPT \u00abTeknoloji hisselerinde sat\u0131\u015f bask\u0131s\u0131 bask\u0131n; ancak kapan\u0131\u015fa 23 dakika kalmas\u0131 ve \u0130ran haberleri, 4 kat kald\u0131ra\u00e7la kapan\u0131\u015f sonras\u0131 ta\u015f\u0131nacak pozisyonlarda likidite ve ters hareket riskini art\u0131r\u0131yor.\u00bb",
   "02.11 22:38 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"0\",\"code\":40310000,\"cost_basis\":\"102887\",\"message\":\"insufficient buying power\"}",
   "02.11 22:50 N  NEWS (9 new) score -0.20 conf 0.40: ",
@@ -12778,7 +12784,9 @@
   "04.11 00:31 N  NEWS (8 new) score +0.20 conf 0.30: \u0130ran sava\u015f\u0131na ili\u015fkin t\u0131rmanma riski ve \"tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fma\" uyar\u0131lar\u0131 alt\u0131n i\u00e7in g\u00fcvenli liman talebini hafif destekliyor. Ancak dolar endeksinin y\u00fckseli\u015fi, alt\u0131n\u0131n rekor seviyelerden sonra istikrar buldu\u011funa dair haberler ve Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131na dair belirsizlik etkiyi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde tekrarlayan ve fiyatlanm\u0131\u015f nitelikte.",
   "04.11 00:31 N  GPT  score +0.20 conf 0.36: \u0130ran\u2019la \u00e7at\u0131\u015fman\u0131n t\u0131rmanma riskine ve g\u00f6r\u00fc\u015fmelerdeki k\u00f6t\u00fcmserli\u011fe dair haberler g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu k\u0131sa vadede etkisiz veya do\u011frudan ilgili de\u011fil.",
   "04.11 00:43 N  NEWS (6 new) score +0.12 conf 0.30: \u0130ran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim (tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fma riski, son dakika m\u00fczakereleri) alt\u0131n i\u00e7in hafif g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor. Ancak dolar endeksinin y\u00fckselmesi ve alt\u0131n\u0131n rekor zirvelerden sonra yatay seyretmesi bu etkiyi s\u0131n\u0131rl\u0131yor; Fed'e dair yeni bir sinyal yok ve haberlerin \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde.",
-  "04.11 00:43 N  GPT  score +0.15 conf 0.34: \u0130ran sava\u015f\u0131 ve g\u00f6r\u00fc\u015fmelere y\u00f6nelik k\u00f6t\u00fcmserlik g\u00fcvenli liman talebini destekleyebilir; ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde \u00f6nceden bilinen geli\u015fmeler ve dolar\u0131n hafif g\u00fc\u00e7lenmesi alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. Yak\u0131n vadede net y\u00f6n sinyali zay\u0131f, hafif pozitif e\u011filim beklenebilir."
+  "04.11 00:43 N  GPT  score +0.15 conf 0.34: \u0130ran sava\u015f\u0131 ve g\u00f6r\u00fc\u015fmelere y\u00f6nelik k\u00f6t\u00fcmserlik g\u00fcvenli liman talebini destekleyebilir; ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde \u00f6nceden bilinen geli\u015fmeler ve dolar\u0131n hafif g\u00fc\u00e7lenmesi alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. Yak\u0131n vadede net y\u00f6n sinyali zay\u0131f, hafif pozitif e\u011filim beklenebilir.",
+  "04.11 00:55 N  NEWS (10 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131 ve m\u00fczakere belirsizli\u011fi jeopolitik g\u00fcvenli liman talebini hafif destekliyor; ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyon kaynakl\u0131 faiz beklentilerinin sertle\u015fme ihtimali alt\u0131n i\u00e7in dengeleyici bir bask\u0131 olu\u015fturuyor. Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde ve eski/fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in sinyal zay\u0131f.",
+  "04.11 00:55 N  GPT  score +0.12 conf 0.32: \u0130ran\u2019la \u00e7at\u0131\u015fman\u0131n yeniden t\u0131rmanabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; ancak yeni ve do\u011frulanm\u0131\u015f bir geli\u015fme yok. Enflasyon ve y\u00fckselen mortgage faizleri ile dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131rarak g\u00f6r\u00fcn\u00fcm\u00fc dengeliyor."
  ],
  "gold_big": {
   "account": {
@@ -19095,6 +19103,10 @@
    [
     1793742570,
     4963.78
+   ],
+   [
+    1793742915,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25339,6 +25351,10 @@
    [
     1793742570,
     4975.18
+   ],
+   [
+    1793742915,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -31549,6 +31565,10 @@
    [
     1793742570,
     4993.28
+   ],
+   [
+    1793742915,
+    4993.28
    ]
   ]
  },
@@ -37596,6 +37616,10 @@
    [
     1793742570,
     4969.22
+   ],
+   [
+    1793742915,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -42590,6 +42614,10 @@
    [
     1793742570,
     4627.69
+   ],
+   [
+    1793742915,
+    4624.19
    ]
   ],
   "news_calls": {
@@ -48603,6 +48631,10 @@
    [
     1793742570,
     102500.9
+   ],
+   [
+    1793742915,
+    102500.9
    ]
   ],
   "open": {},
@@ -52884,6 +52916,10 @@
    ],
    [
     1793742570,
+    5066.43
+   ],
+   [
+    1793742915,
     5066.43
    ]
   ],
