@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 20:18 (İstanbul)
+> Son güncelleme: 03.11.2026 20:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %14.3 | %30.4 |
 | Ödenen komisyon/spread | 83.32 $ | 273.68 $ |
 
-**Hesap değeri: 4,588.84 $** (başlangıç 5,000 $, -411.16 $ / %-8.22)
+**Hesap değeri: 4,588.52 $** (başlangıç 5,000 $, -411.48 $ / %-8.23)
 
 Açık pozisyonlar: PAXGUSDT short @ 3937.30 (TP 3925.49 / SL 3945.18)
 
-Son haber analizi (03.11 20:09): Claude puan **-0.20**, güven 0.35 — Yeni haberlerde en önemli unsur, İran'ın ABD ile anlaşma kapsamında Hürmüz Boğazı'nı 2 gün içinde yeniden açabileceğini söylemesi; bu jeopolitik gerilimi azaltarak güvenli liman talebini hafifletir. Ayrıca doların hafif yükselişi ve altın, gümüş ile bakır vadelerinin geri çekilmesi kısa vadede baskı yaratıyor. Buna karşılık İran savaşının sürmesi ve Pekin'in diplomatik hareketliliği gibi eski haberler riski canlı tuttuğu için etki sınırlı ve belirsiz kalıyor.
+Son haber analizi (03.11 20:21): Claude puan **-0.45**, güven 0.50 — Altın ve gümüş düşüyor, Treasury getirileri güçlü iş ilanı verisiyle yükseliyor ve dolar hafif güçleniyor; bu, faiz beklentileri ve dolar kanalıyla altın için baskılayıcı. İran'ın Hormuz'u iki gün içinde açabileceği yönündeki haber de jeopolitik güvenli liman talebini azaltıyor, ancak İran savaşı tehdidi ve Pekin'in diplomatik hareketliliği gibi karşıt başlıklar belirsizliği koruyor, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.28**, güven 0.44 — İran’ın Hürmüz Boğazı’nı iki gün içinde açabileceğine dair anlaşma haberi, doğrulanıp uygulanırsa güvenli liman ve enerji kaynaklı enflasyon talebini azaltarak altını baskılayabilir. Doların yükselmesi ve altın vadeli işlemlerindeki geri çekilme de kısa vadede aşağı yönü destekliyor; ancak anlaşma k
+GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Güçlü ABD iş ilanı verisiyle Hazine tahvillerinin gerilemesi ve doların yükselmesi, kısa vadede faiz beklentileri üzerinden altını baskılıyor; altın ve gümüşteki düşüş haberleri de bu yönü destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini canlı tutsa da, İran’ın Hürmüz Boğazı’nı a
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,911.52 $** (başlangıç 100,000 $, +2911.52 $ / %+2.91)
+**Hesap değeri: 102,996.97 $** (başlangıç 100,000 $, +2996.97 $ / %+3.00)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 18:50 B6  ALIŞ QQQ 116 adet ≈ 79,676 $ (1:4) @ 686.86 (TP 697.16, SL 679.99; ikisi de hemfikir, güven 0.55)
-03.11 18:50 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"3820.65","code":40310000,"cost_basis":"81989.1","message":"insufficient buying power"}
-03.11 19:02 N  NEWS (6 new) score -0.08 conf 0.30: 
 03.11 19:02 N  GPT  score +0.15 conf 0.37: Ukrayna’daki ölümcül Rus saldırıları ve süren İran gerilimi kısa vadede güvenli liman talebini destekleyebilir. Ancak Körfez petrol akışlarındaki toparlanma ve Fed’in enflasyon kaygıları altının yükselişini sınırlıyor; etkiler karışık ve haberlerin bir kısmı zaten fiyatlanmış olabilir.
 03.11 19:02 B6  karar turu: Claude «Güçlü makro veriler ve yarı iletken liderliğiyle piyasa ılımlı pozitif seyrediyor, ancak Apple özelinde marj endişeleri baskı yaratıyor.» / GPT «Endekslerde kısa vadeli momentum yukarı yönlü olsa da Apple'daki şirket kaynaklı zayıflık ve jeopolitik haber riski seçici işlem gerektiriyor.»
 03.11 19:46 N  NEWS (20 new) score +0.25 conf 0.40: Trump'ın İran'a yönelik saldırıları doğruladığı ve savaşın yeniden başlama riskinin arttığına dair yeni haberler, güvenli liman talebi nedeniyle altın için hafif yükseltici. Ancak doların yükselişi, Fed'in faizleri sabit tutması ve enflasyon endişeleri ile gümüşteki/altındaki düşüş gibi eski ve çelişkili sinyaller bu etkiyi sınırlıyor.
@@ -103,6 +100,9 @@ Son işlemler:
 03.11 20:10 N  GPT  score -0.28 conf 0.44: İran’ın Hürmüz Boğazı’nı iki gün içinde açabileceğine dair anlaşma haberi, doğrulanıp uygulanırsa güvenli liman ve enerji kaynaklı enflasyon talebini azaltarak altını baskılayabilir. Doların yükselmesi ve altın vadeli işlemlerindeki geri çekilme de kısa vadede aşağı yönü destekliyor; ancak anlaşma k
 03.11 20:10 B5  SHORT gold 25000 USD x10 @ 3937.30 (TP 3925.49, SL 3945.18; news -0.24)
 03.11 20:10 B6  karar turu: Claude «Piyasa hafif pozitif ama öğleden sonra yatay ve kararsız; teknoloji tarafında hisse bazlı ayrışma sürüyor.» / GPT «Endekslerde yön zayıf; 1:4 kaldıraç altında geniş piyasa işlemi yerine şirkete özgü olumsuz haberlerle desteklenen seçici kısa pozisyonu tercih ediyorum.»
+03.11 20:22 N  NEWS (9 new) score -0.45 conf 0.50: Altın ve gümüş düşüyor, Treasury getirileri güçlü iş ilanı verisiyle yükseliyor ve dolar hafif güçleniyor; bu, faiz beklentileri ve dolar kanalıyla altın için baskılayıcı. İran'ın Hormuz'u iki gün içinde açabileceği yönündeki haber de jeopolitik güvenli liman talebini azaltıyor, ancak İran savaşı tehdidi ve Pekin'in diplomatik hareketliliği gibi karşıt başlıklar belirsizliği koruyor, bu yüzden güven orta düzeyde.
+03.11 20:22 N  GPT  score -0.55 conf 0.68: Güçlü ABD iş ilanı verisiyle Hazine tahvillerinin gerilemesi ve doların yükselmesi, kısa vadede faiz beklentileri üzerinden altını baskılıyor; altın ve gümüşteki düşüş haberleri de bu yönü destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini canlı tutsa da, İran’ın Hürmüz Boğazı’nı a
+03.11 20:22 B6  karar turu: Claude «Piyasa, güçlü makro veriler ve teknoloji liderliğiyle ılımlı pozitif seyrediyor; öğleden sonra düşük volatiliteli, hafif yukarı eğilimli bir seans bekleniyor.» / GPT «Endekslerde ivme sınırlı; büyük hareketleri kovalamak yerine şirkete özgü olumsuz haberlerle desteklenen göreli zayıflığı tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
