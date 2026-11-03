@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 11:02 (İstanbul)
+> Son güncelleme: 03.11.2026 11:05 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
-Son haber analizi (03.11 10:53): Claude puan **+0.30**, güven 0.40 — ABD'nin Hürmüz Boğazı'ndaki Qeshm Adası'na yönelik saldırıları ve İran'ın savaş konusundaki sert tutumu güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Buna karşılık faiz artırımı beklentilerinin sürmesi, dolar endeksinin 101,80 civarında stabil seyretmesi ve Hindistan'da altın talebinin zayıflaması gibi baskılayıcı faktörler var; ayrıca çatışma haberlerinin bir kısmı zaten fiyatlanmış olabilir.
+Son haber analizi (03.11 11:05): Claude puan **-0.05**, güven 0.30 — ABD'nin Hürmüz Boğazı'ndaki Qeshm Adası'na yönelik saldırıları ve İran'ın savaş konusundaki sert tutumu güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Buna karşılık faiz artırımı beklentilerinin sürmesi, dolar endeksinin 101,80 civarında stabil seyretmesi ve Hindistan'da altın talebinin zayıflaması gibi baskılayıcı faktörler var; ayrıca çatışma haberlerinin bir kısmı zaten fiyatlanmış olabilir.
 
-GPT (gpt-6-luna): puan **+0.58**, güven 0.62 — ABD’nin İran’daki Qeşm Adası’na saldırısı ve İran’ın savaş uyarıları, Ukrayna’daki ağır saldırılarla birlikte kısa vadede güvenli liman talebini artırabilir. Doların belirgin güçlenmemesi yükselişi destekliyor; ancak haber akışının bir kısmı tekrarlı ve merkez bankası alımları daha çok orta vadeli b
+GPT (gpt-6-luna): puan **+0.35**, güven 0.48 — ABD’nin İran’daki Qeşm Adası’na saldırısı ve savaşın tırmanma riski kısa vadede güvenli liman talebini destekleyebilir. Ancak diplomasi haberleri ve petrolün gerilemesi bu etkiyi sınırlarken, daha uzun süre yüksek faiz uyarısı altın için olumsuz; net görünüm temkinli biçimde hafif pozitif.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 09:14 A  CLOSE SOLUSDT take profit: +11.08 USD
-03.11 09:14 A  SHORT XRPUSDT 2389 USD x3 @ 1.25 (ters sinyal, RSI 43)
 03.11 09:36 N  NEWS (16 new) score +0.05 conf 0.35: Qeshm Adası'ndaki ABD saldırıları jeopolitik risk prim_ini destekleyerek altın için hafif pozitif, ancak Brent'in sert düşüşü, süren faiz artırımı beklentileri, ABD doları ve zayıf altın talebi (WGC ve Hindistan) baskıyı artırıyor. Haberler karışık ve büyük ölçüde fiyatlanmış olduğundan güven düşük.
 03.11 09:36 N  GPT  score +0.35 conf 0.57: ABD’nin Hürmüz Boğazı yakınındaki Qeshm Adası’na saldırısı jeopolitik risk ve güvenli liman talebini artırarak altını destekleyebilir. Ancak Brent’teki düşüş ve zayıflayan altın talebi görünümü bu etkiyi sınırlıyor; kısa vadeli yön belirsiz.
 03.11 09:48 N  NEWS (4 new) score -0.10 conf 0.35: Haberlerin çoğu eski veya zaten fiyatlanmış; İran'daki ABD saldırıları ve Karadeniz'deki gerilim jeopolitik güvenli liman talebini destekliyor, ancak Fed/RBA sıkılaşma beklentileri, güçlü dolar eğilimi ve düşen Brent (enflasyon baskısının azalması) altın için olumsuz. Net etki hafif negatif ve düşük güvenilirlikte.
@@ -99,6 +97,8 @@ Son işlemler:
 03.11 10:53 A  CLOSE XRPUSDT stop: -12.67 USD
 03.11 10:53 N  NEWS (23 new) score +0.30 conf 0.40: 
 03.11 10:53 N  GPT  score +0.58 conf 0.62: ABD’nin İran’daki Qeşm Adası’na saldırısı ve İran’ın savaş uyarıları, Ukrayna’daki ağır saldırılarla birlikte kısa vadede güvenli liman talebini artırabilir. Doların belirgin güçlenmemesi yükselişi destekliyor; ancak haber akışının bir kısmı tekrarlı ve merkez bankası alımları daha çok orta vadeli b
+03.11 11:05 N  NEWS (14 new) score -0.05 conf 0.30: 
+03.11 11:05 N  GPT  score +0.35 conf 0.48: ABD’nin İran’daki Qeşm Adası’na saldırısı ve savaşın tırmanma riski kısa vadede güvenli liman talebini destekleyebilir. Ancak diplomasi haberleri ve petrolün gerilemesi bu etkiyi sınırlarken, daha uzun süre yüksek faiz uyarısı altın için olumsuz; net görünüm temkinli biçimde hafif pozitif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
