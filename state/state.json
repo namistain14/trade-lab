@@ -7598,6 +7598,10 @@
    [
     1793709783,
     3834.44
+   ],
+   [
+    1793709975,
+    3834.44
    ]
   ]
  },
@@ -14577,43 +14581,38 @@
    [
     1793709783,
     4868.5
+   ],
+   [
+    1793709975,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
-   "confidence": 0.35,
-   "reason": "ABD'nin \u0130ran'a ait bir aday\u0131 vurmas\u0131 ve \u00e7at\u0131\u015fma riskinin s\u00fcrmesi g\u00fcvenli liman talebini hafif\u00e7e destekliyor; ancak ABD-\u0130ran arabuluculuk g\u00f6r\u00fc\u015fmeleri, dolar endeksinin dar bantta seyretmesi ve Fed'in duraklamas\u0131na ili\u015fkin haberler bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu \u00e7eli\u015fkili veya zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: b\u00fcy\u00fck merkez bankalar\u0131n\u0131n Aral\u0131k'ta s\u0131k\u0131la\u015fma sinyali vermesi (\u015fahin tutum, reel faiz beklentilerini y\u00fckseltir) ve alt\u0131n/g\u00fcm\u00fc\u015f fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ile fiyat\u0131n \u00fcst \u00fcste ikinci g\u00fcn 4.000 dolar\u0131n alt\u0131nda a\u00e7\u0131lmas\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 enerji \u015foku ve ABD'nin \u0130ran'a hava sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentisi nedeniyle s\u0131n\u0131rl\u0131 kal\u0131yor; ayr\u0131ca baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
    "n": 45,
-   "ts": 1793709253957,
-   "new_headlines": 19,
+   "ts": 1793709974657,
+   "new_headlines": 9,
    "key_events": [
     "ABD'nin \u0130ran'a ait Qeshm Adas\u0131'n\u0131 vurmas\u0131 ve sava\u015f\u0131n yeniden alevlenme riski",
     "Renaissance Macro'nun 4-5 Fed faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6r\u00fcs\u00fc (alt\u0131n i\u00e7in olumsuz)",
     "Mapping the Market: Dolar kay\u0131plar\u0131n\u0131 derinle\u015ftirebilir (alt\u0131n i\u00e7in olumlu)"
    ],
    "gpt": {
-    "score": 0.3,
-    "confidence": 0.56,
-    "reason": "ABD\u2019nin \u0130ran\u2019daki hedeflere y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini ve alt\u0131n\u0131 destekleyebilir. Ancak arabuluculuk g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi ve dolar\u0131n hafif g\u00fc\u00e7lenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+    "score": -0.35,
+    "confidence": 0.58,
+    "reason": "Alt\u0131n fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve b\u00fcy\u00fck merkez bankalar\u0131n\u0131n enflasyon nedeniyle Aral\u0131kta s\u0131k\u0131la\u015fma sinyali vermesi, k\u0131sa vadede faiz ve dolar kanal\u0131yla bask\u0131 yarat\u0131yor. \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; bu nedenle g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k ve d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki de\u011ferlendirme temk",
     "key_events": [
-     "ABD\u2019nin \u0130ran\u2019a yeni sald\u0131r\u0131lar\u0131",
-     "ABD-\u0130ran aras\u0131nda arabuluculuk giri\u015fimleri",
-     "Dolar endeksinde hafif y\u00fckseli\u015f"
+     "Alt\u0131n fiyatlar\u0131 sert geriledi ve 4.000 dolar\u0131n alt\u0131nda a\u00e7\u0131ld\u0131",
+     "Merkez bankalar\u0131ndan Aral\u0131kta s\u0131k\u0131la\u015fma sinyali",
+     "\u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131lar g\u00fcvenli liman talebini art\u0131rabilir"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792845136808,
-    "score": -0.35,
-    "confidence": 0.5,
-    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve en k\u00f6t\u00fc haftalar\u0131ndan birini ya\u015f\u0131yor; petrol kaynakl\u0131 enflasyon ve faiz art\u0131r\u0131m\u0131 endi\u015feleri reel faiz beklentilerini y\u00fckselterek bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanma riski ve Ukrayna'daki yapt\u0131r\u0131mlar g\u00fcvenli liman talebini bir miktar destekliyor, ancak bu etki haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve mevcut momentum a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
-    "new": 18,
-    "gpt_score": -0.58,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1792847622733,
     "score": -0.15,
@@ -17304,24 +17303,37 @@
     "new": 19,
     "gpt_score": 0.3,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1793709974657,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: b\u00fcy\u00fck merkez bankalar\u0131n\u0131n Aral\u0131k'ta s\u0131k\u0131la\u015fma sinyali vermesi (\u015fahin tutum, reel faiz beklentilerini y\u00fckseltir) ve alt\u0131n/g\u00fcm\u00fc\u015f fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ile fiyat\u0131n \u00fcst \u00fcste ikinci g\u00fcn 4.000 dolar\u0131n alt\u0131nda a\u00e7\u0131lmas\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 enerji \u015foku ve ABD'nin \u0130ran'a hava sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentisi nedeniyle s\u0131n\u0131rl\u0131 kal\u0131yor; ayr\u0131ca baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
+    "new": 9,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.58
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 65
+   "n": 66
   },
   "news_seen": [
+   "Gold, silver rates crash today: What's behind plunging precious metals prices ahead of Dhanteras, Diwali 2026? Details - Livemint",
+   "Lufthansa latest airline to flag ticket price hikes amid Iran war energy shock - France 24",
+   "Gold price today, Tuesday, November 3, 2026: Gold prices open below $4,000 for the second straight day - Yahoo Finance",
    "Opinion | She was shunned after her rape. She went on to help 33,000 others. - The Washington Post",
    "Car finance compensation payments explained",
    "France Opens War Crimes Investigation Into Beirut Deaths Of Artist-Filmmaker Ali Cherri\u2019s Parents - Deadline",
+   "Major central banks signal December tightening amid persistent inflation - Anadolu Ajans\u0131",
    "From $100 Million Fighter Jets to Missile Factories, Ukraine Strikes 30 Russian Military Targets in October - UNITED24 Media",
    "Kinross Gold's Q3 Earnings Beat Estimates on Higher Gold Prices - Zacks Investment Research",
    "Voters Head to Polls With Affordability and the Iran War Top of Mind - TODAY.com",
    "North Korea Develops Cluster Warhead for Strategic Cruise Missile - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
    "US Dollar Index edges up within range with midterm elections front and centre - FXStreet",
    "US urges Venezuela to release remaining political prisoners",
+   "Death toll hits 31 after Russian strike on Ukrainian aid site, with dozens still missing - Sun Sentinel",
    "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-   "Mayfair Gold Corp. (TSXV:MFG) Records 6.01 Million Shares Traded as Macquarie Investment and Fenn-Gib Development Draws Focus - kalkine.ca",
    "ICC Pres. Akane Slams U.S. Sanctions in Report to U.N. - Nippon.com",
    "Weaker dollar views stick running into US midterms, but strategists brace for resilience: Reuters poll - Reuters",
    "In the shadow of war, Silicon Valley sprinkles stardust - Financial Times",
@@ -17330,37 +17342,31 @@
    "French judges investigating war crimes complaint against IDF over 2024 Beirut strike - The Times of Israel",
    "Drivers may get compensation offers before car finance saga ends",
    "US approves possible Patriot PAC-3 missile sale to Ukraine - Janes Defence Intelligence",
-   "Gold prices on November 3rd: SJC gold bars surge. - Vietnam.vn",
    "Dan Walters | The Turf War of California Colleges - Santa Clarita Valley Signal",
    "Georgia Economist Dr Nikki Finlay Explains What 3.7 Percent Inflation, Slower Hiring and a Fed Pause Mean for Households - Cincinnati Enquirer",
    "Turkey Aims for the Moon, With Geopolitical Ambitions Back on Earth - The Media Line",
    "Indian tourist killed after two helicopters collide near Everest base camp",
-   "Is Wheaton Precious Metals (TSX:WPM) Positioned for Further Gains as Gold Demand Expands? - kalkine.ca",
-   "Why Is Barrick Mining Corporation (ABX:TSX) Gaining Momentum as Gold Demand and Copper Growth Opportunities Come Into Focus? - kalkine.ca",
-   "Will Franco-Nevada (FNV:TSX) Improve Profitability Through Gold Streaming and Portfolio Diversification? - kalkine.ca",
    "Indian Rupee rises further amid US-Iran diplomacy hopes - FXStreet",
    "Japanese Yen weakens against US Dollar, US Midterm Elections in focus - FXStreet",
-   "IAMGOLD (TSX:IMG): Is Revenue Per Employee at a Mid-Tier Gold Miner Built on Cote Gold and Essakane Scale? - kalkine.ca",
-   "Agnico Eagle Mines (TSX:AEM): Why Gold Mining Revenue Per Employee Draws Attention as Production Shifts - kalkine.ca",
    "US, Iran Weigh Mediators\u2019 Proposals Amid Limited Airstrikes - Bloomberg",
    "Chesapeake Gold Corp. Faces Correction Risk as Gold Development Projects Navigate Capital and Permitting Challenges - kalkine.ca",
-   "India gold demand down 29% in Q3 2026: WGC report - The New Indian Express",
    "Nebraska independent says Trump's Iran war rhetoric is dangerous - Modern Ghana",
+   "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "What the $20 Burrito Debate Reveals About Inflation and the Cost of Living - Investopedia",
    "China urges against military escalation as Iran says \u2018ball in America\u2019s court to prevent war\u2019 - Anadolu Ajans\u0131",
    "US strikes Iranian island ahead of midterm elections - BBC",
    "US strikes Iranian island ahead of midterm elections",
    "Beijing launches diplomatic flurry amid threat of renewed U.S. war with Iran - The Washington Post",
-   "Azimut Undertakes New Mineral Resource Estimate on the Patwon Gold Deposit, James Bay Region, Qu\u00e9bec - The Manila Times",
    "US Dollar Holds Tight Range Ahead of Midterms; Aussie Dollar Drops Post-RBA - News and Statistics - IndexBox",
    "International students win ruling over pro-Palestine speech, while sanctions deepen arbitrary restrictions on civil society - Civicus Monitor",
+   "Guest Column: American deportation of Haitians threatens civil war in the island nation - The Atlanta Journal-Constitution",
    "Kathryn Coulter Mitchell Joins Academy Securities\u2019 Advisory Board and Geopolitical Intelligence Group - Morningstar",
-   "Guest Column: American deportation of Haitians threatens civil war in the island nation - The Atlanta Journal-Constitution"
+   "F-16s could soon be armed with Castelion's hypersonic missile - Axios",
+   "Gold and silver rate today (November 3, 2026): Check 24K, 22K, 20K and 18K gold prices at IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers - The Economic Times",
+   "F-16s could soon be armed with Castelion's hypersonic missile - Yahoo"
   ]
  },
  "log": [
-  "02.11 15:00 N  NEWS (9 new) score +0.10 conf 0.35: Kar\u0131\u015f\u0131k sinyaller var: petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon endi\u015felerini azalt\u0131p faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatabilir (alt\u0131n i\u00e7in hafif olumlu), zay\u0131f dolar da destekleyici; \u00f6te yandan Trump'\u0131n \u0130ran'da diplomasiye zaman verdi\u011fi y\u00f6n\u00fcndeki haberler jeopolitik risk primini d\u00fc\u015f\u00fcr\u00fcp g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor ve Fed faiz beklentileri alt\u0131n toparlanmas\u0131n\u0131 s\u0131n\u0131rl\u0131yor. Net etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
-  "02.11 15:00 N  GPT  score +0.08 conf 0.29: Yemen\u2019deki sivil kay\u0131plara yol a\u00e7an f\u00fcze sald\u0131r\u0131s\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak petrol\u00fcn \u0130ran diplomasisi beklentisiyle gerilemesi ve Fed faiz beklentilerinin alt\u0131n\u0131 s\u0131n\u0131rlamas\u0131 tabloyu dengeliyor.",
   "02.11 15:26 A  CLOSE SOLUSDT stop: -25.98 USD",
   "02.11 15:26 A  CLOSE XRPUSDT stop: -12.99 USD",
   "02.11 15:26 N  NEWS (21 new) score -0.15 conf 0.35: Haberlerde faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; ancak petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve \u0130ran-ABD sava\u015f\u0131nda bar\u0131\u015f umudu enflasyon kayg\u0131s\u0131n\u0131 azaltarak bu bask\u0131y\u0131 k\u0131smen dengeliyor. Sinyaller kar\u0131\u015f\u0131k ve a\u011f\u0131rl\u0131kl\u0131 olarak tekrar eden ya da fiyatlanm\u0131\u015f haberler oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
@@ -17658,7 +17664,9 @@
   "03.11 15:34 B5  CLOSE short stop: -55.97 USD",
   "03.11 15:34 N  NEWS (19 new) score +0.20 conf 0.35: ABD'nin \u0130ran'a ait bir aday\u0131 vurmas\u0131 ve \u00e7at\u0131\u015fma riskinin s\u00fcrmesi g\u00fcvenli liman talebini hafif\u00e7e destekliyor; ancak ABD-\u0130ran arabuluculuk g\u00f6r\u00fc\u015fmeleri, dolar endeksinin dar bantta seyretmesi ve Fed'in duraklamas\u0131na ili\u015fkin haberler bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu \u00e7eli\u015fkili veya zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "03.11 15:34 N  GPT  score +0.30 conf 0.56: ABD\u2019nin \u0130ran\u2019daki hedeflere y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini ve alt\u0131n\u0131 destekleyebilir. Ancak arabuluculuk g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi ve dolar\u0131n hafif g\u00fc\u00e7lenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
-  "03.11 15:34 B5  LONG gold 25000 USD x10 @ 3925.86 (TP 3937.64, SL 3918.01; news +0.25)"
+  "03.11 15:34 B5  LONG gold 25000 USD x10 @ 3925.86 (TP 3937.64, SL 3918.01; news +0.25)",
+  "03.11 15:46 N  NEWS (9 new) score -0.45 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: b\u00fcy\u00fck merkez bankalar\u0131n\u0131n Aral\u0131k'ta s\u0131k\u0131la\u015fma sinyali vermesi (\u015fahin tutum, reel faiz beklentilerini y\u00fckseltir) ve alt\u0131n/g\u00fcm\u00fc\u015f fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ile fiyat\u0131n \u00fcst \u00fcste ikinci g\u00fcn 4.000 dolar\u0131n alt\u0131nda a\u00e7\u0131lmas\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 enerji \u015foku ve ABD'nin \u0130ran'a hava sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentisi nedeniyle s\u0131n\u0131rl\u0131 kal\u0131yor; ayr\u0131ca baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
+  "03.11 15:46 N  GPT  score -0.35 conf 0.58: Alt\u0131n fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve b\u00fcy\u00fck merkez bankalar\u0131n\u0131n enflasyon nedeniyle Aral\u0131kta s\u0131k\u0131la\u015fma sinyali vermesi, k\u0131sa vadede faiz ve dolar kanal\u0131yla bask\u0131 yarat\u0131yor. \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; bu nedenle g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k ve d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki de\u011ferlendirme temk"
  ],
  "gold_big": {
   "account": {
@@ -23487,6 +23495,10 @@
    [
     1793709783,
     4963.78
+   ],
+   [
+    1793709975,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29243,6 +29255,10 @@
    [
     1793709783,
     4975.18
+   ],
+   [
+    1793709975,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -34965,6 +34981,10 @@
    [
     1793709783,
     4993.28
+   ],
+   [
+    1793709975,
+    4993.28
    ]
   ]
  },
@@ -40524,6 +40544,10 @@
    [
     1793709783,
     4969.22
+   ],
+   [
+    1793709975,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -44988,6 +45012,10 @@
    [
     1793709783,
     4516.77
+   ],
+   [
+    1793709975,
+    4519.57
    ]
   ],
   "news_calls": {
@@ -50404,6 +50432,10 @@
    [
     1793709783,
     100746.25
+   ],
+   [
+    1793709975,
+    100746.25
    ]
   ],
   "open": {},
@@ -54190,6 +54222,10 @@
    ],
    [
     1793709783,
+    5066.43
+   ],
+   [
+    1793709975,
     5066.43
    ]
   ],
