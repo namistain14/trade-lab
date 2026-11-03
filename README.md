@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 18:22 (İstanbul)
+> Son güncelleme: 03.11.2026 18:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,588.19 $** (başlangıç 5,000 $, -411.81 $ / %-8.24)
 
-Son haber analizi (03.11 18:15): Claude puan **-0.15**, güven 0.40 — Altın için karışık tablo var: Fed faiz oranlarını sabit tuttu ve enflasyon endişeleri sürüyor, bu da kısa vadede baskı yaratıyor; gümüş yıllık dibe indi ve altın düşüyor. Buna karşılık ABD-İran çatışması ve Körfez gerilimi güvenli liman talebini destekliyor, Commerzbank düşüşü aşırı buluyor ve Çin'in altın alımları destek sağlıyor; bu unsurlar birbirini dengeliyor.
+Son haber analizi (03.11 18:25): Claude puan **+0.10**, güven 0.40 — Jeopolitik risk (ABD'nin İran'ın Qeshm Adası'nı vurması) ve Çin'in altın alımı haberleri altını destekliyor, Commerzbank'ın düşüşü aşırı bulması da alıcı ilgisine işaret ediyor. Buna karşılık Fed'in faizleri sabit tutması ve enflasyon kaygısı, gümüşün yıllık dibe inmesi ile altının da düşmesi baskıyı sürdürüyor; sinyaller karışık olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **+0.30**, güven 0.48 — Qeshm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak altının gün içinde düşüşte olduğuna dair haberler ve Fed’in yüksek enflasyon kaygıları bu etkiyi sınırlıyor; yön konusunda belirsizlik yüksek.
+GPT (gpt-6-luna): puan **+0.20**, güven 0.32 — İran’daki çatışmanın sürmesi ve Beyrut saldırısına ilişkin yeni soruşturma güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi, Fed’in faizleri sabit tutması ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini sınırlıyor.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %25.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,350.09 $** (başlangıç 100,000 $, +2350.09 $ / %+2.35)
+**Hesap değeri: 102,310.35 $** (başlangıç 100,000 $, +2310.35 $ / %+2.31)
 
 Açık pozisyonlar: AAPL long @ 332.47 (TP 337.18 / SL 328.88); NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -85,9 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 16:50 N  GPT  score +0.12 conf 0.32: Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
-03.11 17:02 N  NEWS (10 new) score -0.20 conf 0.40: Altın fiyatlarında yakın dönemde sert bir düşüş ve 4.000 doların altında açılış var; bu da piyasadaki satış baskısını gösteriyor. İran savaş riski güvenli liman talebini destekliyor olsa da altın bu riske rağmen düşüyor, faiz artırımı beklentisi ve ABD dolarının seçim öncesi dalgalı seyri ise kısa vadede altın için olumsuz. Standard Chartered'ın 4.700 dolarlık hedefi ve İran'daki gelişmeler gibi bazı haberler çelişkili veya eski olduğundan güven düşük.
-03.11 17:02 N  GPT  score -0.20 conf 0.40: Altının seçim günü sert düşüşü ve 4.000 doların altında kalması kısa vadeli aşağı yönlü momentuma işaret ediyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir; ancak haberlerin bir kısmı tekrarlı veya belirsiz, dolar da net yön göstermiyor.
 03.11 17:10 A  SHORT BTCUSDT 4601 USD x3 @ 77192.84 (ters sinyal, RSI 43)
 03.11 17:14 N  NEWS (18 new) score +0.15 conf 0.35: ABD'nin İran'ın Qeshm Adası'na yaptığı yeni saldırılar ve savaş riskinin artması güvenli liman talebini desteklediği için altı hafif yukarı çekiyor. Ancak altın son dönemde savaş haberlerine rağmen sert düştü, bu nedenle etki sınırlı kalabilir; Commerzbank'ın düşüşü "aşırı" bulması ve doların yatay seyretmesi de yukarı yönlü tepkiyi sınırlıyor. Faiz artışı beklentileri ise baskı unsuru olmayı sürdürüyor.
 03.11 17:14 N  GPT  score +0.42 conf 0.53: ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli jeopolitik risk ve güvenli liman talebini artırarak altını destekleyebilir. Ancak İran’dan gerilimi azaltma mesajları ve son sert düşüşün ardından gelen karışık haberler etkinin büyüklüğünü ve kalıcılığını belirsiz kılıyor.
@@ -100,6 +97,9 @@ Son işlemler:
 03.11 18:15 B6  karar turu: Claude «Güçlü makro verilerle piyasa hafif pozitif ve teknoloji öncülüğünde ilerliyor, ancak İran kaynaklı jeopolitik risk yükselişi sınırlayabilir.» / GPT «Endekslerde sıkışık fiyatlama ve karışık haber akışı nedeniyle, dört kat kaldıraçla yeni pozisyon açmaya değecek ölçüde belirgin bir yönsel avantaj görünmüyor.»
 03.11 18:19 A  CLOSE BTCUSDT strateji değişti: -12.00 USD
 03.11 18:19 A  bakiye 5,000 $ olarak yeniden başlatıldı
+03.11 18:26 N  NEWS (7 new) score +0.10 conf 0.40: Jeopolitik risk (ABD'nin İran'ın Qeshm Adası'nı vurması) ve Çin'in altın alımı haberleri altını destekliyor, Commerzbank'ın düşüşü aşırı bulması da alıcı ilgisine işaret ediyor. Buna karşılık Fed'in faizleri sabit tutması ve enflasyon kaygısı, gümüşün yıllık dibe inmesi ile altının da düşmesi baskıyı sürdürüyor; sinyaller karışık olduğu için güven düşük.
+03.11 18:26 N  GPT  score +0.20 conf 0.32: İran’daki çatışmanın sürmesi ve Beyrut saldırısına ilişkin yeni soruşturma güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi, Fed’in faizleri sabit tutması ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini sınırlıyor.
+03.11 18:26 B6  karar turu: Claude «Beklentiyi aşan makro veriler ve teknoloji liderliğiyle piyasa hafif pozitif, ancak İran kaynaklı jeopolitik risk ve faiz baskısı yükselişi sınırlayabilir.» / GPT «Kısa vadeli eğilim hafif yukarı; ancak güçlü istihdam verisinin faiz etkisi ve Hürmüz belirsizliği yükselişin devamını sınırlayabilir.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
