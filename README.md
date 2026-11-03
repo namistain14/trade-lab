@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 07:16 (İstanbul)
+> Son güncelleme: 03.11.2026 07:19 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -32.20 $ | -1054.96 $ |
-| İşlem sayısı | 2 | 81 |
-| Kazanma oranı | %0.0 | %18.5 |
-| Ödenen komisyon/spread | 9.56 $ | 359.76 $ |
+| Net kâr/zarar | -50.95 $ | -1073.71 $ |
+| İşlem sayısı | 5 | 84 |
+| Kazanma oranı | %0.0 | %17.9 |
+| Ödenen komisyon/spread | 21.40 $ | 371.60 $ |
 
-**Hesap değeri: 3,926.61 $** (başlangıç 5,000 $, -1073.39 $ / %-21.47)
-
-Açık pozisyonlar: BTCUSDT short @ 76953.92 (TP 76492.19 / SL 77261.73); SOLUSDT short @ 92.08 (TP 91.53 / SL 92.45); BNBUSDT short @ 696.63 (TP 692.45 / SL 699.42)
+**Hesap değeri: 3,926.29 $** (başlangıç 5,000 $, -1073.71 $ / %-21.47)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 07:19 | BNBUSDT | short | -2.43 $ | time limit |
+| 03.11 07:19 | SOLUSDT | short | -13.24 $ | time limit |
+| 03.11 07:19 | BTCUSDT | short | -3.08 $ | time limit |
 | 03.11 02:08 | BTCUSDT | short | -6.89 $ | time limit |
 | 03.11 00:38 | BNBUSDT | short | -25.31 $ | stop |
-| 02.11 16:39 | BNBUSDT | short | -25.72 $ | stop |
-| 02.11 16:38 | ETHUSDT | short | -12.86 $ | stop |
-| 02.11 16:39 | BTCUSDT | short | -25.72 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,9 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 05:56 N  GPT  score +0.35 conf 0.58: ABD’nin İran’daki Qeşm Adası ve füze hedeflerine yönelik saldırıları kısa vadeli güvenli liman talebini destekleyebilir; haber akışı altındaki yaklaşık %2’lik toparlanmaya da eşlik ediyor. Ancak petrol kaynaklı enflasyon ve dolar baskısı altını sınırlayabilir, ayrıca gelişmelerin bir kısmı fiyatlanm
-03.11 05:56 B5  LONG gold 25000 USD x10 @ 3954.92 (TP 3966.79, SL 3947.01; news +0.28)
-03.11 06:08 N  NEWS (7 new) score +0.20 conf 0.35: Hormuz'da ABD'nin İran'a yönelik savunma amaçlı vuruşları ve yeniden savaş riski güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve Fed'in sıkı kalma beklentisi üzerinden, dolar ise stabil seyrediyor; bu unsurlar altın için baskı yaratabilir. Altının yaklaşık %2 toparlanması zaten fiyatlanmış olabileceğinden ve haberler çelişkili olduğundan güven düşük.
 03.11 06:08 N  GPT  score +0.35 conf 0.56: Hürmüz’de ABD’nin İran hedeflerine yönelik saldırı haberleri kısa vadeli güvenli liman talebini destekleyebilir; ancak İran’ın arabulucularla görüşmeleri ve Trump’ın yeni savaş olasılığını küçümsemesi yükseliş etkisini sınırlıyor. Altın zaten sert toparlanmış, dolar da dengeli görünüyor; bu nedenle 
 03.11 06:17 B5  CLOSE long stop: -55.94 USD
 03.11 06:20 N  NEWS (10 new) score +0.10 conf 0.35: Haberler karışık: ABD'nin İran'a yönelik "savunma" amaçlı saldırıları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor, ancak Fed faiz artırımı endişeleri ve dolar endeksinin 102 civarında sabit kalması altın için baskı oluşturuyor. Altının yıllık dip seviyesinden toparlanması kısa vadeli alımı gösteriyor; sinyaller birbiriyle çeliştiği için güven düşük.
@@ -101,6 +96,9 @@ Son işlemler:
 03.11 07:01 N  GPT  score +0.35 conf 0.46: İran’a yönelik ABD saldırıları ve Ukrayna’daki ölümcül saldırı kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, doların yatay seyri ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haber akışı da çelişkili.
 03.11 07:13 N  NEWS (8 new) score +0.05 conf 0.35: ABD'nin İran'ın Qeshm Adası hedeflerini vurması jeopolitik risk nedeniyle altını destekleyebilir. Ancak Trump'ın anlaşma umudu vurgusu, Fed faiz artırımı endişeleri ve doların 102 civarında stabil seyretmesi bu etkiyi dengeliyor; haberler çelişkili olduğu için yön net değil.
 03.11 07:13 N  GPT  score +0.38 conf 0.55: İran’daki ABD saldırıları ve Kuzey Kore’nin füze denemesi kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları ve altının haberler öncesinde zaten yükselmiş olması olası kazancı sınırlar.
+03.11 07:19 A  CLOSE BTCUSDT time limit: -3.08 USD
+03.11 07:19 A  CLOSE SOLUSDT time limit: -13.24 USD
+03.11 07:19 A  CLOSE BNBUSDT time limit: -2.43 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

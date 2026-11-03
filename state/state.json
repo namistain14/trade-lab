@@ -1,52 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 3945.040200616702,
+   "balance": 3926.2938224975233,
    "start": 5000,
-   "positions": [
-    {
-     "id": "c6487ce3",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.061517963368601394,
-     "entry": 76953.916897,
-     "tp": 76492.193395618,
-     "sl": 77261.732564588,
-     "opened_ms": 1793672228229,
-     "entry_cost": 2.3670241203700213,
-     "max_hold_min": 120,
-     "margin": 1578.0160802466808,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "549610ca",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 51.411018145743824,
-     "entry": 92.082367,
-     "tp": 91.529872798,
-     "sl": 92.450696468,
-     "opened_ms": 1793672229353,
-     "entry_cost": 2.3670241203700213,
-     "max_hold_min": 120,
-     "margin": 1578.0160802466808,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "5939aba7",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 3.397816486858147,
-     "entry": 696.6309480000001,
-     "tp": 692.4511623120001,
-     "sl": 699.4174717920001,
-     "opened_ms": 1793672229915,
-     "entry_cost": 1.1835120601850104,
-     "max_hold_min": 120,
-     "margin": 789.0080401233403,
-     "note": "TERS: RSI 30 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1667,12 +1624,72 @@
      "gross": -2.1185,
      "costs": 4.7738,
      "pnl": -6.8923
+    },
+    {
+     "id": "c6487ce3",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.061517963368601394,
+     "entry": 76953.916897,
+     "tp": 76492.193395618,
+     "sl": 77261.732564588,
+     "opened_ms": 1793672228229,
+     "entry_cost": 2.3670241203700213,
+     "max_hold_min": 120,
+     "margin": 1578.0160802466808,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 76927.07119999999,
+     "closed_ms": 1793679540000,
+     "reason": "time limit",
+     "gross": 1.6515,
+     "costs": 4.7332,
+     "pnl": -3.0817
+    },
+    {
+     "id": "549610ca",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 51.411018145743824,
+     "entry": 92.082367,
+     "tp": 91.529872798,
+     "sl": 92.450696468,
+     "opened_ms": 1793672229353,
+     "entry_cost": 2.3670241203700213,
+     "max_hold_min": 120,
+     "margin": 1578.0160802466808,
+     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 92.247666,
+     "closed_ms": 1793679540000,
+     "reason": "time limit",
+     "gross": -8.4982,
+     "costs": 4.7383,
+     "pnl": -13.2365
+    },
+    {
+     "id": "5939aba7",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 3.397816486858147,
+     "entry": 696.6309480000001,
+     "tp": 692.4511623120001,
+     "sl": 699.4174717920001,
+     "opened_ms": 1793672229915,
+     "entry_cost": 1.1835120601850104,
+     "max_hold_min": 120,
+     "margin": 789.0080401233403,
+     "note": "TERS: RSI 30 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 696.6489320000001,
+     "closed_ms": 1793679540000,
+     "reason": "time limit",
+     "gross": -0.0611,
+     "costs": 2.3671,
+     "pnl": -2.4282
     }
    ],
    "day": {
     "date": "2026-11-03",
     "trades": 5,
-    "pnl": -32.20352100839114,
+    "pnl": -50.949899127570035,
     "stopped": false
    },
    "last_check_ms": 0
@@ -6925,6 +6942,10 @@
    [
     1793679381,
     3926.61
+   ],
+   [
+    1793679563,
+    3926.29
    ]
   ]
  },
@@ -13388,6 +13409,10 @@
    [
     1793679381,
     4868.5
+   ],
+   [
+    1793679563,
+    4868.5
    ]
   ],
   "news": {
@@ -16170,9 +16195,6 @@
   ]
  },
  "log": [
-  "02.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "02.11 08:11 A  SHORT BTCUSDT 4967 USD x3 @ 78326.50 (ters sinyal, RSI 44)",
-  "02.11 08:11 A  SHORT ETHUSDT 2484 USD x3 @ 2290.77 (ters sinyal, RSI 38)",
   "02.11 08:18 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve \u0130ran diplomasisine ayr\u0131lan s\u00fcre sinyali enflasyon endi\u015felerini azaltarak alt\u0131 hafif\u00e7e destekliyor; ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve eski tarihli \"bir y\u0131ll\u0131k dip\" haberleri \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "02.11 08:18 N  GPT  score +0.12 conf 0.38: Alt\u0131n 3.900 dolar\u0131n \u00fczerine toparlan\u0131rken d\u00fc\u015fen petrol fiyatlar\u0131 ve \u0130ran diplomasisine daha fazla zaman tan\u0131nmas\u0131 k\u0131sa vadede destekleyici; ancak Fed\u2019e ili\u015fkin \u015fahin beklentiler y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor. Ba\u015fl\u0131klar \u00e7eli\u015fkili ve yeni, g\u00fc\u00e7l\u00fc bir kataliz\u00f6r g\u00f6r\u00fcnmedi\u011finden y\u00f6n sinyali zay\u0131f.",
   "02.11 08:43 N  NEWS (13 new) score +0.20 conf 0.35: Petrol fiyatlar\u0131n\u0131n \u0130ran diplomasisi sinyali nedeniyle d\u00fc\u015fmesi enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini biraz yumu\u015fatarak alt\u0131n i\u00e7in hafif olumlu bir ortam yarat\u0131yor. Ancak dolar ve yuan g\u00fc\u00e7l\u00fc, Fed riskleri s\u00fcr\u00fcyor ve haberler birbiriyle \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
@@ -16469,7 +16491,10 @@
   "03.11 07:01 N  NEWS (7 new) score -0.05 conf 0.30: \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik g\u00fcvenli liman talebini destekleyerek alt\u0131n i\u00e7in olumlu olabilir; ancak ayn\u0131 ak\u0131\u015fta \u0130ran anla\u015fmas\u0131 umutlar\u0131, Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve yakla\u015f\u0131k 102 seviyesinde stabil dolar endeksi alt\u0131n\u0131 bask\u0131l\u0131yor. Sinyaller \u00e7eli\u015fkili ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan 1-4 saatlik y\u00f6n tahmini zay\u0131f kal\u0131yor.",
   "03.11 07:01 N  GPT  score +0.35 conf 0.46: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak anla\u015fma umutlar\u0131, dolar\u0131n yatay seyri ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 da \u00e7eli\u015fkili.",
   "03.11 07:13 N  NEWS (8 new) score +0.05 conf 0.35: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131 hedeflerini vurmas\u0131 jeopolitik risk nedeniyle alt\u0131n\u0131 destekleyebilir. Ancak Trump'\u0131n anla\u015fma umudu vurgusu, Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve dolar\u0131n 102 civar\u0131nda stabil seyretmesi bu etkiyi dengeliyor; haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in y\u00f6n net de\u011fil.",
-  "03.11 07:13 N  GPT  score +0.38 conf 0.55: \u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore\u2019nin f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak anla\u015fma umutlar\u0131 ve alt\u0131n\u0131n haberler \u00f6ncesinde zaten y\u00fckselmi\u015f olmas\u0131 olas\u0131 kazanc\u0131 s\u0131n\u0131rlar."
+  "03.11 07:13 N  GPT  score +0.38 conf 0.55: \u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore\u2019nin f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak anla\u015fma umutlar\u0131 ve alt\u0131n\u0131n haberler \u00f6ncesinde zaten y\u00fckselmi\u015f olmas\u0131 olas\u0131 kazanc\u0131 s\u0131n\u0131rlar.",
+  "03.11 07:19 A  CLOSE BTCUSDT time limit: -3.08 USD",
+  "03.11 07:19 A  CLOSE SOLUSDT time limit: -13.24 USD",
+  "03.11 07:19 A  CLOSE BNBUSDT time limit: -2.43 USD"
  ],
  "gold_big": {
   "account": {
@@ -21782,6 +21807,10 @@
    [
     1793679381,
     4963.78
+   ],
+   [
+    1793679563,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27022,6 +27051,10 @@
    [
     1793679381,
     4975.18
+   ],
+   [
+    1793679563,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32228,6 +32261,10 @@
    [
     1793679381,
     4993.28
+   ],
+   [
+    1793679563,
+    4993.28
    ]
   ]
  },
@@ -37271,6 +37308,10 @@
    [
     1793679381,
     4969.22
+   ],
+   [
+    1793679563,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -41160,6 +41201,10 @@
    ],
    [
     1793679381,
+    4631.09
+   ],
+   [
+    1793679563,
     4631.09
    ]
   ],
@@ -46061,6 +46106,10 @@
    [
     1793679381,
     100750.28
+   ],
+   [
+    1793679563,
+    100750.28
    ]
   ],
   "open": {},
@@ -49331,6 +49380,10 @@
    ],
    [
     1793679381,
+    5066.43
+   ],
+   [
+    1793679563,
     5066.43
    ]
   ],
