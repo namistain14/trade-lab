@@ -17,6 +17,34 @@
      "max_hold_min": 120,
      "margin": 1570.5175289990093,
      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "a325c32e",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.094558676032225,
+     "entry": 2249.42497,
+     "tp": 2235.92842018,
+     "sl": 2258.42266988,
+     "opened_ms": 1793684504605,
+     "entry_cost": 2.355776293498514,
+     "max_hold_min": 120,
+     "margin": 1570.5175289990093,
+     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
+    },
+    {
+     "id": "76539672",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 25.641819787487005,
+     "entry": 91.87243000000001,
+     "tp": 91.32119542000001,
+     "sl": 92.23991972,
+     "opened_ms": 1793684505343,
+     "entry_cost": 1.1778881467492575,
+     "max_hold_min": 120,
+     "margin": 785.258764499505,
+     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
     }
    ],
    "trades": [
@@ -1703,7 +1731,7 @@
    ],
    "day": {
     "date": "2026-11-03",
-    "trades": 6,
+    "trades": 8,
     "pnl": -50.949899127570035,
     "stopped": false
    },
@@ -7045,6 +7073,10 @@
    [
     1793684330,
     3932.56
+   ],
+   [
+    1793684507,
+    3925.83
    ]
   ]
  },
@@ -13596,6 +13628,10 @@
    [
     1793684330,
     4868.5
+   ],
+   [
+    1793684507,
+    4868.5
    ]
   ],
   "news": {
@@ -16378,8 +16414,6 @@
   ]
  },
  "log": [
-  "02.11 10:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdg5AYrkRfgoPTH9zdWz'}",
-  "02.11 10:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgJUirmccG72pjQ3BXh'}",
   "02.11 10:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgXiPVoGNq43JN3TBNJ'}",
   "02.11 10:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgkyVDTF8bMo7r1GHhe'}",
   "02.11 10:15 A  CLOSE BTCUSDT time limit: +3.08 USD",
@@ -16677,7 +16711,9 @@
   "03.11 08:15 N  GPT  score +0.35 conf 0.55: \u0130ran\u2019\u0131n Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak Trump\u2019\u0131n \u00e7at\u0131\u015fmay\u0131 k\u00fc\u00e7\u00fcmseyen a\u00e7\u0131klamalar\u0131, anla\u015fma umutlar\u0131 ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; haberlerin do\u011frulanma ve fiyatlanma durumu da belirsiz.",
   "03.11 08:21 A  SHORT BTCUSDT 4712 USD x3 @ 76804.95 (ters sinyal, RSI 45)",
   "03.11 08:36 N  NEWS (18 new) score +0.25 conf 0.40: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'n\u0131 vurmas\u0131 gibi yeni jeopolitik gerilim, alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekleyerek hafif yukar\u0131 y\u00f6nl\u00fc bir etki yaratabilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, ABD dolar\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f gibi \u00e7eli\u015fkili sinyaller ve kaynaklar aras\u0131ndaki tutars\u0131z fiyat verileri nedeniyle g\u00fcven s\u0131n\u0131rl\u0131 kalmaktad\u0131r.",
-  "03.11 08:36 N  GPT  score +0.25 conf 0.42: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve Ukrayna\u2019daki sivil kay\u0131plara ili\u015fkin haberler g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak alt\u0131n\u0131n son saatlerde zay\u0131flamas\u0131 ve Fed faiz art\u0131\u015f\u0131 beklentilerinin bask\u0131s\u0131 y\u00f6n\u00fc s\u0131n\u0131rl\u0131yor."
+  "03.11 08:36 N  GPT  score +0.25 conf 0.42: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve Ukrayna\u2019daki sivil kay\u0131plara ili\u015fkin haberler g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak alt\u0131n\u0131n son saatlerde zay\u0131flamas\u0131 ve Fed faiz art\u0131\u015f\u0131 beklentilerinin bask\u0131s\u0131 y\u00f6n\u00fc s\u0131n\u0131rl\u0131yor.",
+  "03.11 08:41 A  SHORT ETHUSDT 4712 USD x3 @ 2249.42 (ters sinyal, RSI 42)",
+  "03.11 08:41 A  SHORT SOLUSDT 2356 USD x3 @ 91.87 (ters sinyal, RSI 40)"
  ],
  "gold_big": {
   "account": {
@@ -22078,6 +22114,10 @@
    [
     1793684330,
     4963.78
+   ],
+   [
+    1793684507,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27406,6 +27446,10 @@
    [
     1793684330,
     4975.18
+   ],
+   [
+    1793684507,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32700,6 +32744,10 @@
    [
     1793684330,
     4993.28
+   ],
+   [
+    1793684507,
+    4993.28
    ]
   ]
  },
@@ -37831,6 +37879,10 @@
    [
     1793684330,
     4969.22
+   ],
+   [
+    1793684507,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -41808,6 +41860,10 @@
    ],
    [
     1793684330,
+    4631.09
+   ],
+   [
+    1793684507,
     4631.09
    ]
   ],
@@ -46797,6 +46853,10 @@
    [
     1793684330,
     100750.28
+   ],
+   [
+    1793684507,
+    100750.28
    ]
   ],
   "open": {},
@@ -50155,6 +50215,10 @@
    ],
    [
     1793684330,
+    5066.43
+   ],
+   [
+    1793684507,
     5066.43
    ]
   ],
