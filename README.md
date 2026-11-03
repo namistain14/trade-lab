@@ -1,30 +1,18 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 18:18 (İstanbul)
+> Son güncelleme: 03.11.2026 18:19 (İstanbul)
 
-## Bot A — Kripto TERS (alım sinyalinde satış, x3)
+## Bot A — Kripto 1 saatlik trend (x1)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -142.81 $ | -1165.56 $ |
-| İşlem sayısı | 12 | 91 |
-| Kazanma oranı | %8.3 | %17.6 |
-| Ödenen komisyon/spread | 47.29 $ | 397.49 $ |
+| Net kâr/zarar | +0.00 $ | +0.00 $ |
+| İşlem sayısı | 0 | 0 |
+| Kazanma oranı | %0.0 | %0.0 |
+| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 3,820.44 $** (başlangıç 5,000 $, -1179.56 $ / %-23.59)
-
-Açık pozisyonlar: BTCUSDT short @ 77192.84 (TP 76729.68 / SL 77501.61)
-
-Son işlemler:
-
-| Kapanış | Parite | Yön | Sonuç | Neden |
-|---|---|---|---|---|
-| 03.11 12:07 | DOGEUSDT | short | -12.40 $ | stop |
-| 03.11 12:07 | XRPUSDT | short | -24.80 $ | stop |
-| 03.11 12:07 | BNBUSDT | short | -24.80 $ | stop |
-| 03.11 10:23 | XRPUSDT | short | -12.67 $ | stop |
-| 03.11 10:23 | ETHUSDT | short | -24.99 $ | stop |
+**Hesap değeri: 5,000.00 $** (başlangıç 5,000 $, +0.00 $ / %+0.00)
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -81,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %25.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,414.97 $** (başlangıç 100,000 $, +2414.97 $ / %+2.41)
+**Hesap değeri: 102,470.04 $** (başlangıç 100,000 $, +2470.04 $ / %+2.47)
 
 Açık pozisyonlar: AAPL long @ 332.47 (TP 337.18 / SL 328.88); NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -97,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 16:38 B6  seans öncesi görüş: Aşırı korku ortamında jeopolitik umutlarla vadeliler toparlanıyor; ancak AAPL kaynaklı teknoloji baskısı nedeniyle temkinli bir alım eğilimi uygun.
-03.11 16:50 N  NEWS (11 new) score -0.40 conf 0.50: Ana etki baskı yönünde: merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi ve enflasyon kalıcılığı faiz beklentilerini sertleştirerek altın için negatif. Gold'ın 4.000 doların altında açılması ve "plunge" başlıklarıyla momentum zayıf. Savaş haberleri (İran, Rusya) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış ve yeni bir tırmanış sinyali net değil; dolar ise karışık seyrediyor.
 03.11 16:50 N  GPT  score +0.12 conf 0.32: Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
 03.11 17:02 N  NEWS (10 new) score -0.20 conf 0.40: Altın fiyatlarında yakın dönemde sert bir düşüş ve 4.000 doların altında açılış var; bu da piyasadaki satış baskısını gösteriyor. İran savaş riski güvenli liman talebini destekliyor olsa da altın bu riske rağmen düşüyor, faiz artırımı beklentisi ve ABD dolarının seçim öncesi dalgalı seyri ise kısa vadede altın için olumsuz. Standard Chartered'ın 4.700 dolarlık hedefi ve İran'daki gelişmeler gibi bazı haberler çelişkili veya eski olduğundan güven düşük.
 03.11 17:02 N  GPT  score -0.20 conf 0.40: Altının seçim günü sert düşüşü ve 4.000 doların altında kalması kısa vadeli aşağı yönlü momentuma işaret ediyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir; ancak haberlerin bir kısmı tekrarlı veya belirsiz, dolar da net yön göstermiyor.
@@ -112,6 +98,8 @@ Son işlemler:
 03.11 18:15 N  NEWS (11 new) score -0.15 conf 0.40: Altın için karışık tablo var: Fed faiz oranlarını sabit tuttu ve enflasyon endişeleri sürüyor, bu da kısa vadede baskı yaratıyor; gümüş yıllık dibe indi ve altın düşüyor. Buna karşılık ABD-İran çatışması ve Körfez gerilimi güvenli liman talebini destekliyor, Commerzbank düşüşü aşırı buluyor ve Çin'in altın alımları destek sağlıyor; bu unsurlar birbirini dengeliyor.
 03.11 18:15 N  GPT  score +0.30 conf 0.48: Qeshm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak altının gün içinde düşüşte olduğuna dair haberler ve Fed’in yüksek enflasyon kaygıları bu etkiyi sınırlıyor; yön konusunda belirsizlik yüksek.
 03.11 18:15 B6  karar turu: Claude «Güçlü makro verilerle piyasa hafif pozitif ve teknoloji öncülüğünde ilerliyor, ancak İran kaynaklı jeopolitik risk yükselişi sınırlayabilir.» / GPT «Endekslerde sıkışık fiyatlama ve karışık haber akışı nedeniyle, dört kat kaldıraçla yeni pozisyon açmaya değecek ölçüde belirgin bir yönsel avantaj görünmüyor.»
+03.11 18:19 A  CLOSE BTCUSDT strateji değişti: -12.00 USD
+03.11 18:19 A  bakiye 5,000 $ olarak yeniden başlatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -1,7748 +1,1881 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 3834.43538632631,
-   "start": 5000,
-   "positions": [
-    {
-     "id": "5ab6e549",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.0596081547163016,
-     "entry": 77192.8352,
-     "tp": 76729.6781888,
-     "sl": 77501.6065408,
-     "opened_ms": 1793715045204,
-     "entry_cost": 2.300661231795786,
-     "max_hold_min": 120,
-     "margin": 1533.7741545305241,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
-   "trades": [
-    {
-     "id": "f35b4d8c",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 0.41653996857221764,
-     "entry": 2400.730003,
-     "tp": 2415.1343830180003,
-     "sl": 2391.127082988,
-     "opened_ms": 1792730650919,
-     "entry_cost": 1.0,
-     "max_hold_min": 120,
-     "margin": 1000.0,
-     "note": "RSI 40, above EMA200",
-     "exit": 2406.2479089999997,
-     "closed_ms": 1792737960000,
-     "reason": "time limit",
-     "gross": 2.2984,
-     "costs": 2.0023,
-     "pnl": 0.2961
-    },
-    {
-     "id": "7075d3b9",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 9.822748066449456,
-     "entry": 101.810534,
-     "tp": 102.421397204,
-     "sl": 101.40329186400001,
-     "opened_ms": 1792908791819,
-     "entry_cost": 1.0000592259926866,
-     "max_hold_min": 120,
-     "margin": 1000.0592259926866,
-     "note": "RSI 38, above EMA200",
-     "exit": 101.37287087644081,
-     "closed_ms": 1792911060000,
-     "reason": "stop",
-     "gross": -4.2991,
-     "costs": 1.9958,
-     "pnl": -6.2949
-    },
-    {
-     "id": "2b43dd8b",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.01249002640775164,
-     "entry": 80063.88196099999,
-     "tp": 8006388.196099999,
-     "sl": 0.0,
-     "opened_ms": 1792852017830,
-     "entry_cost": 1.0,
-     "max_hold_min": 1440,
-     "margin": 1000.0,
-     "note": "Erdem 24.10 17:25: 1000 $ BTC al, yar\u0131na kadar tut",
-     "exit": 80303.83162099999,
-     "closed_ms": 1792938480000,
-     "reason": "time limit",
-     "gross": 2.997,
-     "costs": 2.003,
-     "pnl": 0.994
-    },
-    {
-     "id": "8ec1f119",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.012341539126659126,
-     "entry": 80946.06653699999,
-     "tp": 81431.742936222,
-     "sl": 80622.282270852,
-     "opened_ms": 1793189691478,
-     "entry_cost": 0.9989990473155385,
-     "max_hold_min": 120,
-     "margin": 998.9990473155384,
-     "note": "RSI 31, above EMA200",
-     "exit": 80598.09558617075,
-     "closed_ms": 1793194260000,
-     "reason": "stop",
-     "gross": -4.2945,
-     "costs": 1.9937,
-     "pnl": -6.2882
-    },
-    {
-     "id": "09d3bf31",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 8.058727828308227,
-     "entry": 742.8527889999999,
-     "tp": 747.3099057339999,
-     "sl": 739.8813778439999,
-     "opened_ms": 1793271214630,
-     "entry_cost": 2.9932242215253395,
-     "max_hold_min": 120,
-     "margin": 1995.4828143502264,
-     "note": "RSI 34, x3",
-     "exit": 739.6594134306467,
-     "closed_ms": 1793273040000,
-     "reason": "stop",
-     "gross": -25.7345,
-     "costs": 5.9736,
-     "pnl": -31.7081
-    },
-    {
-     "id": "94352eef",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 8.036183015423456,
-     "entry": 740.201994,
-     "tp": 744.643205964,
-     "sl": 737.2411860240001,
-     "opened_ms": 1793274802218,
-     "entry_cost": 2.9741993460826874,
-     "max_hold_min": 120,
-     "margin": 1982.799564055125,
-     "note": "RSI 39, x3",
-     "exit": 744.4198130022108,
-     "closed_ms": 1793280660000,
-     "reason": "take profit",
-     "gross": 33.8952,
-     "costs": 5.9653,
-     "pnl": 27.9298
-    },
-    {
-     "id": "0cdbf8b6",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07374066840521447,
-     "entry": 81120.968992,
-     "tp": 81607.694805952,
-     "sl": 80796.485116032,
-     "opened_ms": 1793294796559,
-     "entry_cost": 2.9909572375743783,
-     "max_hold_min": 120,
-     "margin": 1993.971491716252,
-     "note": "RSI 43, x3",
-     "exit": 80772.2461704972,
-     "closed_ms": 1793296080000,
-     "reason": "stop",
-     "gross": -25.7151,
-     "costs": 5.9691,
-     "pnl": -31.6841
-    },
-    {
-     "id": "e69b7f77",
-     "symbol": "XRPUSDT",
-     "side": "long",
-     "qty": 4608.24569547434,
-     "entry": 1.29808931,
-     "tp": 1.30587784586,
-     "sl": 1.2928969527599998,
-     "opened_ms": 1793294799324,
-     "entry_cost": 2.9909572375743783,
-     "max_hold_min": 120,
-     "margin": 1993.971491716252,
-     "note": "RSI 42, x3",
-     "exit": 1.292509083674172,
-     "closed_ms": 1793295720000,
-     "reason": "stop",
-     "gross": -25.7151,
-     "costs": 5.9691,
-     "pnl": -31.6841
-    },
-    {
-     "id": "93135d1e",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 2.5224734591941007,
-     "entry": 2341.3021799999997,
-     "tp": 2355.34999308,
-     "sl": 2331.93697128,
-     "opened_ms": 1793297826654,
-     "entry_cost": 2.9529363045016446,
-     "max_hold_min": 120,
-     "margin": 1968.6242030010962,
-     "note": "RSI 41, x3",
-     "exit": 2331.237390188616,
-     "closed_ms": 1793298720000,
-     "reason": "stop",
-     "gross": -25.3882,
-     "costs": 5.8932,
-     "pnl": -31.2813
-    },
-    {
-     "id": "b51e118c",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 29.202202881539765,
-     "entry": 101.120327,
-     "tp": 101.727048962,
-     "sl": 100.715845692,
-     "opened_ms": 1793297827229,
-     "entry_cost": 1.4764681522508218,
-     "max_hold_min": 120,
-     "margin": 984.3121015005478,
-     "note": "RSI 38, x3",
-     "exit": 100.6856309382924,
-     "closed_ms": 1793298720000,
-     "reason": "stop",
-     "gross": -12.6941,
-     "costs": 2.9466,
-     "pnl": -15.6407
-    },
-    {
-     "id": "2413cf4d",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07303259912656432,
-     "entry": 80866.25259999999,
-     "tp": 81351.45011559999,
-     "sl": 80542.78758959999,
-     "opened_ms": 1793297826082,
-     "entry_cost": 2.9529363045016446,
-     "max_hold_min": 120,
-     "margin": 1968.6242030010962,
-     "note": "RSI 41, x3",
-     "exit": 80518.6247533231,
-     "closed_ms": 1793304240000,
-     "reason": "stop",
-     "gross": -25.3882,
-     "costs": 5.8932,
-     "pnl": -31.2813
-    },
-    {
-     "id": "58aab219",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 7.861441463168943,
-     "entry": 744.083158,
-     "tp": 748.547656948,
-     "sl": 741.106825368,
-     "opened_ms": 1793301510825,
-     "entry_cost": 2.924783095173444,
-     "max_hold_min": 120,
-     "margin": 1949.855396782296,
-     "note": "RSI 41, x3",
-     "exit": 740.8844933203897,
-     "closed_ms": 1793304240000,
-     "reason": "stop",
-     "gross": -25.1461,
-     "costs": 5.837,
-     "pnl": -30.9831
-    },
-    {
-     "id": "0d82e9e0",
-     "symbol": "XRPUSDT",
-     "side": "long",
-     "qty": 2235.958200077632,
-     "entry": 1.28288475,
-     "tp": 1.2905820585,
-     "sl": 1.277753211,
-     "opened_ms": 1793301511488,
-     "entry_cost": 1.4342383382585213,
-     "max_hold_min": 120,
-     "margin": 956.1588921723475,
-     "note": "RSI 33, x3",
-     "exit": 1.2773698850367001,
-     "closed_ms": 1793304180000,
-     "reason": "stop",
-     "gross": -12.331,
-     "costs": 2.8623,
-     "pnl": -15.1933
-    },
-    {
-     "id": "e9e2c048",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07262768168670866,
-     "entry": 79262.021475,
-     "tp": 79737.59360385001,
-     "sl": 78944.9733891,
-     "opened_ms": 1793307245365,
-     "entry_cost": 2.878308432765683,
-     "max_hold_min": 120,
-     "margin": 1918.8722885104553,
-     "note": "RSI 16, x3",
-     "exit": 78921.28989708328,
-     "closed_ms": 1793307480000,
-     "reason": "stop",
-     "gross": -24.7465,
-     "costs": 5.7442,
-     "pnl": -30.4908
-    },
-    {
-     "id": "6fd6fd45",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 2.538683299694665,
-     "entry": 2267.5600640000002,
-     "tp": 2281.1654243840003,
-     "sl": 2258.489823744,
-     "opened_ms": 1793307246201,
-     "entry_cost": 2.878308432765683,
-     "max_hold_min": 120,
-     "margin": 1918.8722885104553,
-     "note": "RSI 21, x3",
-     "exit": 2257.812276796877,
-     "closed_ms": 1793307480000,
-     "reason": "stop",
-     "gross": -24.7465,
-     "costs": 5.7442,
-     "pnl": -30.4908
-    },
-    {
-     "id": "e8919d4f",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 4.121469576036898,
-     "entry": 698.3694479999999,
-     "tp": 702.5596646879999,
-     "sl": 695.575970208,
-     "opened_ms": 1793307247836,
-     "entry_cost": 1.4391542163828408,
-     "max_hold_min": 120,
-     "margin": 959.4361442552272,
-     "note": "RSI 7, x3",
-     "exit": 702.3488967885935,
-     "closed_ms": 1793307420000,
-     "reason": "take profit",
-     "gross": 16.4012,
-     "costs": 2.8865,
-     "pnl": 13.5147
-    },
-    {
-     "id": "a2187cf0",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 8.006333171457333,
-     "entry": 711.8935039999999,
-     "tp": 716.1648650239999,
-     "sl": 709.0459299839999,
-     "opened_ms": 1793309644312,
-     "entry_cost": 2.8498282878100967,
-     "max_hold_min": 120,
-     "margin": 1899.8855252067312,
-     "note": "RSI 42, x3",
-     "exit": 708.8332162050048,
-     "closed_ms": 1793310060000,
-     "reason": "stop",
-     "gross": -24.5017,
-     "costs": 5.6874,
-     "pnl": -30.1891
-    },
-    {
-     "id": "354f8c60",
-     "symbol": "DOGEUSDT",
-     "side": "long",
-     "qty": 74182.36156050976,
-     "entry": 0.076833043,
-     "tp": 0.077294041258,
-     "sl": 0.076525710828,
-     "opened_ms": 1793309645565,
-     "entry_cost": 2.8498282878100967,
-     "max_hold_min": 120,
-     "margin": 1899.8855252067312,
-     "note": "RSI 41, x3",
-     "exit": 0.0765027531147516,
-     "closed_ms": 1793310180000,
-     "reason": "stop",
-     "gross": -24.5017,
-     "costs": 5.6874,
-     "pnl": -30.1891
-    },
-    {
-     "id": "59e76240",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07146704802409769,
-     "entry": 78738.424443,
-     "tp": 79210.854989658,
-     "sl": 78423.470745228,
-     "opened_ms": 1793312266988,
-     "entry_cost": 2.813601380504834,
-     "max_hold_min": 120,
-     "margin": 1875.7342536698895,
-     "note": "RSI 34, x3",
-     "exit": 79187.0917331611,
-     "closed_ms": 1793312700000,
-     "reason": "take profit",
-     "gross": 32.0649,
-     "costs": 5.6432,
-     "pnl": 26.4217
-    },
-    {
-     "id": "664414ac",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 2.487316997310727,
-     "entry": 2262.358504,
-     "tp": 2275.932655024,
-     "sl": 2253.309069984,
-     "opened_ms": 1793312267543,
-     "entry_cost": 2.813601380504834,
-     "max_hold_min": 120,
-     "margin": 1875.7342536698895,
-     "note": "RSI 40, x3",
-     "exit": 2275.249875227493,
-     "closed_ms": 1793312640000,
-     "reason": "take profit",
-     "gross": 32.0649,
-     "costs": 5.6432,
-     "pnl": 26.4217
-    },
-    {
-     "id": "0bb62020",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 29.030421645565692,
-     "entry": 96.919067,
-     "tp": 97.500581402,
-     "sl": 96.53139073199999,
-     "opened_ms": 1793312268101,
-     "entry_cost": 1.4068006902524157,
-     "max_hold_min": 120,
-     "margin": 937.8671268349439,
-     "note": "RSI 41, x3",
-     "exit": 97.4713312275794,
-     "closed_ms": 1793312820000,
-     "reason": "take profit",
-     "gross": 16.0325,
-     "costs": 2.8216,
-     "pnl": 13.2108
-    },
-    {
-     "id": "efd036cd",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 58.763457032676314,
-     "entry": 97.109124,
-     "tp": 97.69177874399999,
-     "sl": 96.720687504,
-     "opened_ms": 1793314801880,
-     "entry_cost": 2.853233917827418,
-     "max_hold_min": 120,
-     "margin": 1902.1559452182785,
-     "note": "RSI 42, x3",
-     "exit": 96.6916712977488,
-     "closed_ms": 1793314980000,
-     "reason": "stop",
-     "gross": -24.531,
-     "costs": 5.6942,
-     "pnl": -30.2252
-    },
-    {
-     "id": "d4bb5452",
-     "symbol": "XRPUSDT",
-     "side": "long",
-     "qty": 4578.45618678348,
-     "entry": 1.2463738,
-     "tp": 1.2538520428,
-     "sl": 1.2413883048,
-     "opened_ms": 1793314806692,
-     "entry_cost": 2.853233917827418,
-     "max_hold_min": 120,
-     "margin": 1902.1559452182785,
-     "note": "RSI 38, x3",
-     "exit": 1.24101588830856,
-     "closed_ms": 1793314920000,
-     "reason": "stop",
-     "gross": -24.531,
-     "costs": 5.6942,
-     "pnl": -30.2252
-    },
-    {
-     "id": "fbff2996",
-     "symbol": "DOGEUSDT",
-     "side": "long",
-     "qty": 37442.61229149522,
-     "entry": 0.076202854,
-     "tp": 0.076660071124,
-     "sl": 0.075898042584,
-     "opened_ms": 1793314807682,
-     "entry_cost": 1.426616958913708,
-     "max_hold_min": 120,
-     "margin": 951.0779726091387,
-     "note": "RSI 43, x3",
-     "exit": 0.0758752731712248,
-     "closed_ms": 1793314980000,
-     "reason": "stop",
-     "gross": -12.2655,
-     "costs": 2.8471,
-     "pnl": -15.1126
-    },
-    {
-     "id": "dac5b53e",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07145422072446517,
-     "entry": 78592.87079,
-     "tp": 79064.42801474,
-     "sl": 78278.49930684,
-     "opened_ms": 1793317146852,
-     "entry_cost": 2.8078961683990156,
-     "max_hold_min": 120,
-     "margin": 1871.930778932677,
-     "note": "RSI 39, x3",
-     "exit": 78255.01575704796,
-     "closed_ms": 1793317560000,
-     "reason": "stop",
-     "gross": -24.1412,
-     "costs": 5.6037,
-     "pnl": -29.7449
-    },
-    {
-     "id": "46ddc025",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 58.27390600339133,
-     "entry": 96.368902,
-     "tp": 96.947115412,
-     "sl": 95.983426392,
-     "opened_ms": 1793317147978,
-     "entry_cost": 2.8078961683990156,
-     "max_hold_min": 120,
-     "margin": 1871.930778932677,
-     "note": "RSI 42, x3",
-     "exit": 95.9546313640824,
-     "closed_ms": 1793317620000,
-     "reason": "stop",
-     "gross": -24.1412,
-     "costs": 5.6037,
-     "pnl": -29.7449
-    },
-    {
-     "id": "57138a77",
-     "symbol": "XRPUSDT",
-     "side": "long",
-     "qty": 2261.7468795289333,
-     "entry": 1.2414723300000001,
-     "tp": 1.2489211639800002,
-     "sl": 1.2365064406800002,
-     "opened_ms": 1793317148994,
-     "entry_cost": 1.4039480841995073,
-     "max_hold_min": 120,
-     "margin": 935.9653894663383,
-     "note": "RSI 44, x3",
-     "exit": 1.2361354887477962,
-     "closed_ms": 1793317620000,
-     "reason": "stop",
-     "gross": -12.0706,
-     "costs": 2.8019,
-     "pnl": -14.8724
-    },
-    {
-     "id": "4676414c",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.07103185366516002,
-     "entry": 77803.93418,
-     "tp": 78270.75778508,
-     "sl": 77492.71844328,
-     "opened_ms": 1793319400334,
-     "entry_cost": 2.763278833623751,
-     "max_hold_min": 120,
-     "margin": 1842.1858890825006,
-     "note": "RSI 22, x3",
-     "exit": 77469.47062774701,
-     "closed_ms": 1793319540000,
-     "reason": "stop",
-     "gross": -23.7576,
-     "costs": 5.5147,
-     "pnl": -29.2722
-    },
-    {
-     "id": "426ee092",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 2.464174139837538,
-     "entry": 2242.762627,
-     "tp": 2256.219202762,
-     "sl": 2233.791576492,
-     "opened_ms": 1793319401032,
-     "entry_cost": 2.763278833623751,
-     "max_hold_min": 120,
-     "margin": 1842.1858890825006,
-     "note": "RSI 32, x3",
-     "exit": 2233.1214390190526,
-     "closed_ms": 1793319540000,
-     "reason": "stop",
-     "gross": -23.7576,
-     "costs": 5.5147,
-     "pnl": -29.2722
-    },
-    {
-     "id": "78efe488",
-     "symbol": "SOLUSDT",
-     "side": "long",
-     "qty": 28.980802545050064,
-     "entry": 95.34859599999999,
-     "tp": 95.92068757599999,
-     "sl": 94.96720161599998,
-     "opened_ms": 1793319401730,
-     "entry_cost": 1.381639416811875,
-     "max_hold_min": 120,
-     "margin": 921.09294454125,
-     "note": "RSI 32, x3",
-     "exit": 94.93871145551519,
-     "closed_ms": 1793319540000,
-     "reason": "stop",
-     "gross": -11.8788,
-     "costs": 2.7573,
-     "pnl": -14.6361
-    },
-    {
-     "id": "776619bc",
-     "symbol": "XRPUSDT",
-     "side": "long",
-     "qty": 4330.288148578537,
-     "entry": 1.25597668,
-     "tp": 1.26351254008,
-     "sl": 1.25095277328,
-     "opened_ms": 1793412666903,
-     "entry_cost": 2.7193704661475095,
-     "max_hold_min": 120,
-     "margin": 1812.9136440983395,
-     "note": "RSI 39, x3",
-     "exit": 1.2505774874480162,
-     "closed_ms": 1793418240000,
-     "reason": "stop",
-     "gross": -23.3801,
-     "costs": 5.4271,
-     "pnl": -28.8071
-    },
-    {
-     "id": "066684ac",
-     "symbol": "DOGEUSDT",
-     "side": "long",
-     "qty": 35775.166465029695,
-     "entry": 0.076012797,
-     "tp": 0.076468873782,
-     "sl": 0.07570874581199999,
-     "opened_ms": 1793412667378,
-     "entry_cost": 1.3596852330737548,
-     "max_hold_min": 120,
-     "margin": 906.4568220491698,
-     "note": "RSI 43, x3",
-     "exit": 0.0756860331882564,
-     "closed_ms": 1793416200000,
-     "reason": "stop",
-     "gross": -11.69,
-     "costs": 2.7135,
-     "pnl": -14.4036
-    },
-    {
-     "id": "a8a4d4d0",
-     "symbol": "BNBUSDT",
-     "side": "long",
-     "qty": 7.714510420629142,
-     "entry": 705.0014369999999,
-     "tp": 709.2314456219999,
-     "sl": 702.1814312519999,
-     "opened_ms": 1793412666437,
-     "entry_cost": 2.7193704661475095,
-     "max_hold_min": 120,
-     "margin": 1812.9136440983395,
-     "note": "RSI 36, x3",
-     "exit": 703.218971,
-     "closed_ms": 1793419980000,
-     "reason": "time limit",
-     "gross": -13.7509,
-     "costs": 5.4319,
-     "pnl": -19.1827
-    },
-    {
-     "id": "32c41f7a",
-     "symbol": "BTCUSDT",
-     "side": "long",
-     "qty": 0.06972670781999347,
-     "entry": 77257.1702,
-     "tp": 77720.7132212,
-     "sl": 76948.1415192,
-     "opened_ms": 1793418332112,
-     "entry_cost": 2.6934440667674533,
-     "max_hold_min": 120,
-     "margin": 1795.6293778449688,
-     "note": "RSI 39, x3",
-     "exit": 77270.52188700001,
-     "closed_ms": 1793425620000,
-     "reason": "time limit",
-     "gross": 0.931,
-     "costs": 5.3874,
-     "pnl": -4.4564
-    },
-    {
-     "id": "d8145326",
-     "symbol": "ETHUSDT",
-     "side": "long",
-     "qty": 1.1774983182469718,
-     "entry": 2243.3928159999996,
-     "tp": 2256.8531728959997,
-     "sl": 2234.4192447359997,
-     "opened_ms": 1793418332686,
-     "entry_cost": 1.320795634003669,
-     "max_hold_min": 120,
-     "margin": 880.5304226691127,
-     "note": "RSI 41, x3",
-     "exit": 2241.797259,
-     "closed_ms": 1793425620000,
-     "reason": "time limit",
-     "gross": -1.8788,
-     "costs": 2.6407,
-     "pnl": -4.5194
-    },
-    {
-     "id": "fc77fede",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06900466861722836,
-     "entry": 77575.880252,
-     "tp": 77110.424970488,
-     "sl": 77886.183773008,
-     "opened_ms": 1793475066470,
-     "entry_cost": 2.6765489547395247,
-     "max_hold_min": 120,
-     "margin": 1784.3659698263498,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 77547.117158,
-     "closed_ms": 1793482380000,
-     "reason": "time limit",
-     "gross": 1.9848,
-     "costs": 5.3521,
-     "pnl": -3.3673
-    },
-    {
-     "id": "a6ba0673",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 55.79560613499304,
-     "entry": 95.941209,
-     "tp": 95.365561746,
-     "sl": 96.324973836,
-     "opened_ms": 1793475067500,
-     "entry_cost": 2.6765489547395247,
-     "max_hold_min": 120,
-     "margin": 1784.3659698263498,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 95.838743,
-     "closed_ms": 1793482380000,
-     "reason": "time limit",
-     "gross": 5.7172,
-     "costs": 5.3502,
-     "pnl": 0.3669
-    },
-    {
-     "id": "cc75b843",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 2137.777196093611,
-     "entry": 1.25202428,
-     "tp": 1.24451213432,
-     "sl": 1.25703237712,
-     "opened_ms": 1793478188840,
-     "entry_cost": 1.3382744773697615,
-     "max_hold_min": 120,
-     "margin": 892.1829849131742,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.25487635,
-     "closed_ms": 1793485500000,
-     "reason": "time limit",
-     "gross": -6.0971,
-     "costs": 2.6796,
-     "pnl": -8.7767
-    },
-    {
-     "id": "a5702002",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.614951765172981,
-     "entry": 702.499187,
-     "tp": 698.284191878,
-     "sl": 705.309183748,
-     "opened_ms": 1793483289409,
-     "entry_cost": 2.674748712039117,
-     "max_hold_min": 120,
-     "margin": 1783.165808026078,
-     "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 703.6410289999999,
-     "closed_ms": 1793490600000,
-     "reason": "time limit",
-     "gross": -8.6951,
-     "costs": 5.3538,
-     "pnl": -14.0489
-    },
-    {
-     "id": "f2df0715",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.368952967130925,
-     "entry": 2253.72368,
-     "tp": 2240.2013379200002,
-     "sl": 2262.73857472,
-     "opened_ms": 1793488397386,
-     "entry_cost": 2.6694826994146137,
-     "max_hold_min": 120,
-     "margin": 1779.6551329430758,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2263.417396292416,
-     "closed_ms": 1793494440000,
-     "reason": "stop",
-     "gross": -22.964,
-     "costs": 5.3504,
-     "pnl": -28.3144
-    },
-    {
-     "id": "22ec6ed4",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 27.810002078055494,
-     "entry": 95.61130800000001,
-     "tp": 95.03764015200001,
-     "sl": 95.993753232,
-     "opened_ms": 1793488398053,
-     "entry_cost": 1.329475337082802,
-     "max_hold_min": 120,
-     "margin": 886.3168913885347,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 95.82874,
-     "closed_ms": 1793495700000,
-     "reason": "time limit",
-     "gross": -6.0468,
-     "costs": 2.662,
-     "pnl": -8.7088
-    },
-    {
-     "id": "69e14459",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06846892306927069,
-     "entry": 77514.7386,
-     "tp": 77049.6501684,
-     "sl": 77824.7975544,
-     "opened_ms": 1793490736654,
-     "entry_cost": 2.653675336969014,
-     "max_hold_min": 120,
-     "margin": 1769.1168913126758,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 77693.321006,
-     "closed_ms": 1793498040000,
-     "reason": "time limit",
-     "gross": -12.2273,
-     "costs": 5.3135,
-     "pnl": -17.5408
-    },
-    {
-     "id": "f727739b",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 69497.85082218486,
-     "entry": 0.075637302,
-     "tp": 0.075183478188,
-     "sl": 0.07593985120800001,
-     "opened_ms": 1793498434569,
-     "entry_cost": 2.628314965494272,
-     "max_hold_min": 120,
-     "margin": 1752.2099769961815,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 0.075582668,
-     "closed_ms": 1793505720000,
-     "reason": "time limit",
-     "gross": 3.7969,
-     "costs": 5.2547,
-     "pnl": -1.4578
-    },
-    {
-     "id": "47c94aa6",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 4203.875434287261,
-     "entry": 1.25042476,
-     "tp": 1.24292221144,
-     "sl": 1.25542645904,
-     "opened_ms": 1793499825905,
-     "entry_cost": 2.628314965494272,
-     "max_hold_min": 120,
-     "margin": 1752.2099769961815,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.25147533,
-     "closed_ms": 1793507100000,
-     "reason": "time limit",
-     "gross": -4.4165,
-     "costs": 5.2588,
-     "pnl": -9.6753
-    },
-    {
-     "id": "875ee926",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 3.7378672627539595,
-     "entry": 703.158989,
-     "tp": 698.9400350660001,
-     "sl": 705.971624956,
-     "opened_ms": 1793501264260,
-     "entry_cost": 1.3141574827471358,
-     "max_hold_min": 120,
-     "margin": 876.1049884980906,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 706.1834164434867,
-     "closed_ms": 1793507400000,
-     "reason": "stop",
-     "gross": -11.3049,
-     "costs": 2.634,
-     "pnl": -13.9389
-    },
-    {
-     "id": "62e59600",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 55.00819519606702,
-     "entry": 95.48134700000001,
-     "tp": 94.90845891800001,
-     "sl": 95.86327238800001,
-     "opened_ms": 1793506555220,
-     "entry_cost": 2.626128286679705,
-     "max_hold_min": 120,
-     "margin": 1750.752191119803,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 95.8920313697164,
-     "closed_ms": 1793512920000,
-     "reason": "stop",
-     "gross": -22.591,
-     "costs": 5.2636,
-     "pnl": -27.8546
-    },
-    {
-     "id": "5e534b8f",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.2921297201334148,
-     "entry": 2265.630107,
-     "tp": 2252.0363263579998,
-     "sl": 2274.692627428,
-     "opened_ms": 1793517948575,
-     "entry_cost": 2.5965590515418744,
-     "max_hold_min": 120,
-     "margin": 1731.039367694583,
-     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2275.3750352162283,
-     "closed_ms": 1793522040000,
-     "reason": "stop",
-     "gross": -22.3366,
-     "costs": 5.2043,
-     "pnl": -27.5409
-    },
-    {
-     "id": "1744fe50",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 54.4287144387632,
-     "entry": 95.411368,
-     "tp": 94.83889979199999,
-     "sl": 95.793013472,
-     "opened_ms": 1793517949236,
-     "entry_cost": 2.5965590515418744,
-     "max_hold_min": 120,
-     "margin": 1731.039367694583,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 95.82175137604159,
-     "closed_ms": 1793522760000,
-     "reason": "stop",
-     "gross": -22.3366,
-     "costs": 5.2043,
-     "pnl": -27.5409
-    },
-    {
-     "id": "1d5ae408",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 2074.7170325247853,
-     "entry": 1.2515244300000001,
-     "tp": 1.2440152834200002,
-     "sl": 1.25653052772,
-     "opened_ms": 1793517950768,
-     "entry_cost": 1.2982795257709367,
-     "max_hold_min": 120,
-     "margin": 865.5196838472912,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.250375,
-     "closed_ms": 1793525220000,
-     "reason": "time limit",
-     "gross": 2.3847,
-     "costs": 2.5954,
-     "pnl": -0.2106
-    },
-    {
-     "id": "584380cf",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 4098.382180718842,
-     "entry": 1.2509246100000002,
-     "tp": 1.24341906234,
-     "sl": 1.2559283084400001,
-     "opened_ms": 1793526060310,
-     "entry_cost": 2.5633835655233344,
-     "max_hold_min": 120,
-     "margin": 1708.922377015556,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.256305086932532,
-     "closed_ms": 1793527920000,
-     "reason": "stop",
-     "gross": -22.0513,
-     "costs": 5.1378,
-     "pnl": -27.189
-    },
-    {
-     "id": "435baaee",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 67763.0235562036,
-     "entry": 0.075657296,
-     "tp": 0.075203352224,
-     "sl": 0.075959925184,
-     "opened_ms": 1793526060740,
-     "entry_cost": 2.5633835655233344,
-     "max_hold_min": 120,
-     "margin": 1708.922377015556,
-     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 0.075852749,
-     "closed_ms": 1793533380000,
-     "reason": "time limit",
-     "gross": -13.2445,
-     "costs": 5.1334,
-     "pnl": -18.3779
-    },
-    {
-     "id": "7cf38ca3",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 53.3801485385703,
-     "entry": 95.431362,
-     "tp": 94.858773828,
-     "sl": 95.81308744799999,
-     "opened_ms": 1793529953378,
-     "entry_cost": 2.5470701393990365,
-     "max_hold_min": 120,
-     "margin": 1698.0467595993578,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.8872314601484,
-     "closed_ms": 1793535360000,
-     "reason": "take profit",
-     "gross": 29.0458,
-     "costs": 5.0796,
-     "pnl": 23.9662
-    },
-    {
-     "id": "da5f35ee",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.0650790096393007,
-     "entry": 77930.403863,
-     "tp": 77462.821439822,
-     "sl": 78242.125478452,
-     "opened_ms": 1793533623148,
-     "entry_cost": 2.5358167520973867,
-     "max_hold_min": 120,
-     "margin": 1690.5445013982578,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 77972.69479299999,
-     "closed_ms": 1793540940000,
-     "reason": "time limit",
-     "gross": -2.7523,
-     "costs": 5.073,
-     "pnl": -7.8253
-    },
-    {
-     "id": "8f917001",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 1.1086027179585651,
-     "entry": 2268.11936,
-     "tp": 2254.5106438400003,
-     "sl": 2277.19183744,
-     "opened_ms": 1793533263583,
-     "entry_cost": 1.2572216435752208,
-     "max_hold_min": 120,
-     "margin": 838.1477623834804,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2267.199956,
-     "closed_ms": 1793540580000,
-     "reason": "time limit",
-     "gross": 1.0193,
-     "costs": 2.5139,
-     "pnl": -1.4947
-    },
-    {
-     "id": "1f6a15b5",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 53.76016144885782,
-     "entry": 94.881527,
-     "tp": 94.312237838,
-     "sl": 95.26105310800001,
-     "opened_ms": 1793538013337,
-     "entry_cost": 2.5504231050170816,
-     "max_hold_min": 120,
-     "margin": 1700.2820700113878,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 95.2896314239324,
-     "closed_ms": 1793542740000,
-     "reason": "stop",
-     "gross": -21.9398,
-     "costs": 5.1118,
-     "pnl": -27.0516
-    },
-    {
-     "id": "21bed89e",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.0843446788628315,
-     "entry": 713.8557790000001,
-     "tp": 709.572644326,
-     "sl": 716.7112021160001,
-     "opened_ms": 1793548240484,
-     "entry_cost": 2.5286001947170664,
-     "max_hold_min": 120,
-     "margin": 1685.7334631447109,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 711.6134199999999,
-     "closed_ms": 1793555520000,
-     "reason": "time limit",
-     "gross": 15.8856,
-     "costs": 5.0493,
-     "pnl": 10.8364
-    },
-    {
-     "id": "7b95d529",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.2305736605827344,
-     "entry": 2267.21963,
-     "tp": 2253.61631222,
-     "sl": 2276.28850852,
-     "opened_ms": 1793549139747,
-     "entry_cost": 2.5286001947170664,
-     "max_hold_min": 120,
-     "margin": 1685.7334631447109,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2266.139638,
-     "closed_ms": 1793556420000,
-     "reason": "time limit",
-     "gross": 2.409,
-     "costs": 5.056,
-     "pnl": -2.647
-    },
-    {
-     "id": "55c03bcf",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 26.675374419086584,
-     "entry": 94.79155399999999,
-     "tp": 94.222804676,
-     "sl": 95.17072021599999,
-     "opened_ms": 1793549140346,
-     "entry_cost": 1.264300097358532,
-     "max_hold_min": 120,
-     "margin": 842.8667315723548,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.778425,
-     "closed_ms": 1793556420000,
-     "reason": "time limit",
-     "gross": 0.3502,
-     "costs": 2.5284,
-     "pnl": -2.1782
-    },
-    {
-     "id": "208b6ee2",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 53.54543489444768,
-     "entry": 94.58161700000001,
-     "tp": 94.014127298,
-     "sl": 94.959943468,
-     "opened_ms": 1793558271932,
-     "entry_cost": 2.5322069076425433,
-     "max_hold_min": 120,
-     "margin": 1688.137938428362,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.04233153618941,
-     "closed_ms": 1793560200000,
-     "reason": "take profit",
-     "gross": 28.8763,
-     "costs": 5.05,
-     "pnl": 23.8263
-    },
-    {
-     "id": "c46a6f63",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06496952311493184,
-     "entry": 77950.6078,
-     "tp": 77482.9041532,
-     "sl": 78262.4102312,
-     "opened_ms": 1793558270750,
-     "entry_cost": 2.5322069076425433,
-     "max_hold_min": 120,
-     "margin": 1688.137938428362,
-     "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 77889.709905,
-     "closed_ms": 1793565540000,
-     "reason": "time limit",
-     "gross": 3.9565,
-     "costs": 5.0624,
-     "pnl": -1.1059
-    },
-    {
-     "id": "7a30797c",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 3.5654999193168,
-     "entry": 710.196877,
-     "tp": 705.9356957379999,
-     "sl": 713.0376645079999,
-     "opened_ms": 1793558450854,
-     "entry_cost": 1.2661034538212717,
-     "max_hold_min": 120,
-     "margin": 844.068969214181,
-     "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 708.982631,
-     "closed_ms": 1793565720000,
-     "reason": "time limit",
-     "gross": 4.3294,
-     "costs": 2.53,
-     "pnl": 1.7994
-    },
-    {
-     "id": "f1fa658a",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.25459755809482,
-     "entry": 2258.942114,
-     "tp": 2245.388461316,
-     "sl": 2267.977882456,
-     "opened_ms": 1793563376528,
-     "entry_cost": 2.5465026870509755,
-     "max_hold_min": 120,
-     "margin": 1697.6684580339836,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2264.019002,
-     "closed_ms": 1793570640000,
-     "reason": "time limit",
-     "gross": -11.4463,
-     "costs": 5.0987,
-     "pnl": -16.5451
-    },
-    {
-     "id": "7351a488",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 53.983259441051906,
-     "entry": 93.991794,
-     "tp": 93.427843236,
-     "sl": 94.367761176,
-     "opened_ms": 1793573599924,
-     "entry_cost": 2.536991700415953,
-     "max_hold_min": 120,
-     "margin": 1691.327800277302,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.3960715043528,
-     "closed_ms": 1793574840000,
-     "reason": "stop",
-     "gross": -21.8242,
-     "costs": 5.0849,
-     "pnl": -26.9091
-    },
-    {
-     "id": "c6a1113e",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 2018.3510917150356,
-     "entry": 1.2471257500000001,
-     "tp": 1.2396429955000001,
-     "sl": 1.2521142530000002,
-     "opened_ms": 1793573600395,
-     "entry_cost": 1.2585688095092165,
-     "max_hold_min": 120,
-     "margin": 839.0458730061442,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.2524898872759003,
-     "closed_ms": 1793574840000,
-     "reason": "stop",
-     "gross": -10.8267,
-     "costs": 2.5226,
-     "pnl": -13.3493
-    },
-    {
-     "id": "2c0e2819",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 7.1942028239023,
-     "entry": 708.047522,
-     "tp": 703.799236868,
-     "sl": 710.8797120879999,
-     "opened_ms": 1793568488673,
-     "entry_cost": 2.546918741114713,
-     "max_hold_min": 120,
-     "margin": 1697.9458274098085,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 710.403057,
-     "closed_ms": 1793575800000,
-     "reason": "time limit",
-     "gross": -16.9462,
-     "costs": 5.1023,
-     "pnl": -22.0485
-    },
-    {
-     "id": "0273f142",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 4014.3817575861053,
-     "entry": 1.2453262900000002,
-     "tp": 1.2378543322600002,
-     "sl": 1.2503075951600002,
-     "opened_ms": 1793579429300,
-     "entry_cost": 2.4996075704091925,
-     "max_hold_min": 120,
-     "margin": 1666.4050469394615,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.2506826874385482,
-     "closed_ms": 1793581680000,
-     "reason": "stop",
-     "gross": -21.5026,
-     "costs": 5.01,
-     "pnl": -26.5126
-    },
-    {
-     "id": "baefeafe",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 6.974175332699292,
-     "entry": 712.256259,
-     "tp": 707.982721446,
-     "sl": 715.1052840360001,
-     "opened_ms": 1793595049470,
-     "entry_cost": 2.483700016039239,
-     "max_hold_min": 120,
-     "margin": 1655.800010692826,
-     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 709.11267,
-     "closed_ms": 1793602320000,
-     "reason": "time limit",
-     "gross": 21.9239,
-     "costs": 4.9564,
-     "pnl": 16.9675
-    },
-    {
-     "id": "6cabed5a",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06341914569364145,
-     "entry": 78326.504997,
-     "tp": 77856.545967018,
-     "sl": 78639.811016988,
-     "opened_ms": 1793596307668,
-     "entry_cost": 2.483700016039239,
-     "max_hold_min": 120,
-     "margin": 1655.800010692826,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 78199.622851,
-     "closed_ms": 1793603580000,
-     "reason": "time limit",
-     "gross": 8.0468,
-     "costs": 4.9634,
-     "pnl": 3.0834
-    },
-    {
-     "id": "03e51fd5",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 1.0842193839927956,
-     "entry": 2290.772562,
-     "tp": 2277.027926628,
-     "sl": 2299.935652248,
-     "opened_ms": 1793596308238,
-     "entry_cost": 1.241850008019619,
-     "max_hold_min": 120,
-     "margin": 827.9000053464127,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2286.665794,
-     "closed_ms": 1793603580000,
-     "reason": "time limit",
-     "gross": 4.4526,
-     "costs": 2.4815,
-     "pnl": 1.9712
-    },
-    {
-     "id": "433d5ffe",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 1.096117563688304,
-     "entry": 2283.494746,
-     "tp": 2269.793777524,
-     "sl": 2292.6287249839997,
-     "opened_ms": 1793604276370,
-     "entry_cost": 1.2514893488402814,
-     "max_hold_min": 120,
-     "margin": 834.3262325601876,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2293.316513601495,
-     "closed_ms": 1793606820000,
-     "reason": "stop",
-     "gross": -10.7658,
-     "costs": 2.5084,
-     "pnl": -13.2742
-    },
-    {
-     "id": "3c37ec21",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 52.86350723437453,
-     "entry": 94.351686,
-     "tp": 93.785575884,
-     "sl": 94.729092744,
-     "opened_ms": 1793602476554,
-     "entry_cost": 2.493880517718217,
-     "max_hold_min": 120,
-     "margin": 1662.5870118121447,
-     "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.7575114718232,
-     "closed_ms": 1793608860000,
-     "reason": "stop",
-     "gross": -21.4534,
-     "costs": 4.9985,
-     "pnl": -26.4518
-    },
-    {
-     "id": "473fe619",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 3990.513729246323,
-     "entry": 1.25142446,
-     "tp": 1.24391591324,
-     "sl": 1.25643015784,
-     "opened_ms": 1793604096032,
-     "entry_cost": 2.4969132443723328,
-     "max_hold_min": 120,
-     "margin": 1664.6088295815553,
-     "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.2568070868873518,
-     "closed_ms": 1793608920000,
-     "reason": "stop",
-     "gross": -21.4794,
-     "costs": 5.0046,
-     "pnl": -26.484
-    },
-    {
-     "id": "765fee2f",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 32716.708877304933,
-     "entry": 0.075287407,
-     "tp": 0.074835682558,
-     "sl": 0.075588556628,
-     "opened_ms": 1793607214008,
-     "entry_cost": 1.231578088473085,
-     "max_hold_min": 120,
-     "margin": 821.0520589820566,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 0.0756112331949884,
-     "closed_ms": 1793608860000,
-     "reason": "stop",
-     "gross": -10.5945,
-     "costs": 2.4685,
-     "pnl": -13.063
-    },
-    {
-     "id": "6d06736d",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 52.051932487350264,
-     "entry": 94.11175800000001,
-     "tp": 93.54708745200001,
-     "sl": 94.48820503200001,
-     "opened_ms": 1793615388304,
-     "entry_cost": 2.449349436840923,
-     "max_hold_min": 120,
-     "margin": 1632.8996245606156,
-     "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 94.51655149350961,
-     "closed_ms": 1793621520000,
-     "reason": "stop",
-     "gross": -21.0703,
-     "costs": 4.9092,
-     "pnl": -25.9795
-    },
-    {
-     "id": "6c554397",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 1962.5796717234675,
-     "entry": 1.24802548,
-     "tp": 1.24053732712,
-     "sl": 1.25301758192,
-     "opened_ms": 1793615389222,
-     "entry_cost": 1.2246747184204614,
-     "max_hold_min": 120,
-     "margin": 816.4498122803076,
-     "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.253393487194576,
-     "closed_ms": 1793621400000,
-     "reason": "stop",
-     "gross": -10.5351,
-     "costs": 2.4546,
-     "pnl": -12.9898
-    },
-    {
-     "id": "d1e6aed0",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 6.93240280732709,
-     "entry": 706.6379450000001,
-     "tp": 702.3981173300001,
-     "sl": 709.4644967800001,
-     "opened_ms": 1793615388771,
-     "entry_cost": 2.449349436840923,
-     "max_hold_min": 120,
-     "margin": 1632.8996245606156,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 706.181791,
-     "closed_ms": 1793622660000,
-     "reason": "time limit",
-     "gross": 3.1622,
-     "costs": 4.8971,
-     "pnl": -1.7349
-    },
-    {
-     "id": "059b3a72",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06229210690022455,
-     "entry": 77856.636,
-     "tp": 77389.496184,
-     "sl": 78168.062544,
-     "opened_ms": 1793623655562,
-     "entry_cost": 2.4249269463019356,
-     "max_hold_min": 120,
-     "margin": 1616.6179642012903,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 78191.5129627632,
-     "closed_ms": 1793626740000,
-     "reason": "stop",
-     "gross": -20.8602,
-     "costs": 4.8603,
-     "pnl": -25.7205
-    },
-    {
-     "id": "735bd119",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 1.0623553145889877,
-     "entry": 2282.595016,
-     "tp": 2268.899445904,
-     "sl": 2291.725396064,
-     "opened_ms": 1793624554690,
-     "entry_cost": 1.2124634731509678,
-     "max_hold_min": 120,
-     "margin": 808.3089821006452,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2292.412913682819,
-     "closed_ms": 1793626680000,
-     "reason": "stop",
-     "gross": -10.4301,
-     "costs": 2.4301,
-     "pnl": -12.8602
-    },
-    {
-     "id": "9b50156f",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 6.885000830787499,
-     "entry": 704.4086140000001,
-     "tp": 700.182162316,
-     "sl": 707.226248456,
-     "opened_ms": 1793623659456,
-     "entry_cost": 2.4249269463019356,
-     "max_hold_min": 120,
-     "margin": 1616.6179642012903,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 707.4384163305368,
-     "closed_ms": 1793626740000,
-     "reason": "stop",
-     "gross": -20.8602,
-     "costs": 4.8603,
-     "pnl": -25.7205
-    },
-    {
-     "id": "2f92e82b",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 6.860458841715099,
-     "entry": 695.681233,
-     "tp": 691.507145602,
-     "sl": 698.463957932,
-     "opened_ms": 1793653582698,
-     "entry_cost": 2.386346232975056,
-     "max_hold_min": 120,
-     "margin": 1590.8974886500373,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 698.6734971193796,
-     "closed_ms": 1793655480000,
-     "reason": "stop",
-     "gross": -20.5283,
-     "costs": 4.783,
-     "pnl": -25.3113
-    },
-    {
-     "id": "6c19c998",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.06214527195215434,
-     "entry": 76798.963397,
-     "tp": 76338.169616618,
-     "sl": 77106.159250588,
-     "opened_ms": 1793653580993,
-     "entry_cost": 2.386346232975056,
-     "max_hold_min": 120,
-     "margin": 1590.8974886500373,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 76833.053003,
-     "closed_ms": 1793660880000,
-     "reason": "time limit",
-     "gross": -2.1185,
-     "costs": 4.7738,
-     "pnl": -6.8923
-    },
-    {
-     "id": "c6487ce3",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.061517963368601394,
-     "entry": 76953.916897,
-     "tp": 76492.193395618,
-     "sl": 77261.732564588,
-     "opened_ms": 1793672228229,
-     "entry_cost": 2.3670241203700213,
-     "max_hold_min": 120,
-     "margin": 1578.0160802466808,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 76927.07119999999,
-     "closed_ms": 1793679540000,
-     "reason": "time limit",
-     "gross": 1.6515,
-     "costs": 4.7332,
-     "pnl": -3.0817
-    },
-    {
-     "id": "549610ca",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 51.411018145743824,
-     "entry": 92.082367,
-     "tp": 91.529872798,
-     "sl": 92.450696468,
-     "opened_ms": 1793672229353,
-     "entry_cost": 2.3670241203700213,
-     "max_hold_min": 120,
-     "margin": 1578.0160802466808,
-     "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 92.247666,
-     "closed_ms": 1793679540000,
-     "reason": "time limit",
-     "gross": -8.4982,
-     "costs": 4.7383,
-     "pnl": -13.2365
-    },
-    {
-     "id": "5939aba7",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 3.397816486858147,
-     "entry": 696.6309480000001,
-     "tp": 692.4511623120001,
-     "sl": 699.4174717920001,
-     "opened_ms": 1793672229915,
-     "entry_cost": 1.1835120601850104,
-     "max_hold_min": 120,
-     "margin": 789.0080401233403,
-     "note": "TERS: RSI 30 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 696.6489320000001,
-     "closed_ms": 1793679540000,
-     "reason": "time limit",
-     "gross": -0.0611,
-     "costs": 2.3671,
-     "pnl": -2.4282
-    },
-    {
-     "id": "76539672",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 25.641819787487005,
-     "entry": 91.87243000000001,
-     "tp": 91.32119542000001,
-     "sl": 92.23991972,
-     "opened_ms": 1793684505343,
-     "entry_cost": 1.1778881467492575,
-     "max_hold_min": 120,
-     "margin": 785.258764499505,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 91.348591778626,
-     "closed_ms": 1793686440000,
-     "reason": "take profit",
-     "gross": 13.4322,
-     "costs": 2.3491,
-     "pnl": 11.0831
-    },
-    {
-     "id": "15ddb360",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.0613443858611458,
-     "entry": 76804.9516,
-     "tp": 76344.1218904,
-     "sl": 77112.1714064,
-     "opened_ms": 1793683272767,
-     "entry_cost": 2.355776293498514,
-     "max_hold_min": 120,
-     "margin": 1570.5175289990093,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 76781.82764,
-     "closed_ms": 1793690580000,
-     "reason": "time limit",
-     "gross": 1.4185,
-     "costs": 4.7108,
-     "pnl": -3.2923
-    },
-    {
-     "id": "a325c32e",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.094558676032225,
-     "entry": 2249.42497,
-     "tp": 2235.92842018,
-     "sl": 2258.42266988,
-     "opened_ms": 1793684504605,
-     "entry_cost": 2.355776293498514,
-     "max_hold_min": 120,
-     "margin": 1570.5175289990093,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 2259.1001966809636,
-     "closed_ms": 1793690580000,
-     "reason": "stop",
-     "gross": -20.2653,
-     "costs": 4.7217,
-     "pnl": -24.987
-    },
-    {
-     "id": "973d154a",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 1914.7043758001473,
-     "entry": 1.24772557,
-     "tp": 1.24023921658,
-     "sl": 1.2527164722800002,
-     "opened_ms": 1793686484995,
-     "entry_cost": 1.1945128043383666,
-     "max_hold_min": 120,
-     "margin": 796.3418695589111,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.253092287221684,
-     "closed_ms": 1793690580000,
-     "reason": "stop",
-     "gross": -10.2757,
-     "costs": 2.3942,
-     "pnl": -12.6698
-    },
-    {
-     "id": "9065edb1",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 6.752788598942305,
-     "entry": 692.4122140000001,
-     "tp": 688.2577407160001,
-     "sl": 695.1818628560001,
-     "opened_ms": 1793694923715,
-     "entry_cost": 2.3378566522338002,
-     "max_hold_min": 120,
-     "margin": 1558.5711014892001,
-     "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 695.3904174148569,
-     "closed_ms": 1793696820000,
-     "reason": "stop",
-     "gross": -20.1112,
-     "costs": 4.6858,
-     "pnl": -24.7969
-    },
-    {
-     "id": "21e50b57",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 3738.7021897677223,
-     "entry": 1.2506247,
-     "tp": 1.2431209518,
-     "sl": 1.2556271987999998,
-     "opened_ms": 1793694924179,
-     "entry_cost": 2.3378566522338002,
-     "max_hold_min": 120,
-     "margin": 1558.5711014892001,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 1.2560038869596397,
-     "closed_ms": 1793696820000,
-     "reason": "stop",
-     "gross": -20.1112,
-     "costs": 4.6858,
-     "pnl": -24.7969
-    },
-    {
-     "id": "d4fe3dc4",
-     "symbol": "DOGEUSDT",
-     "side": "short",
-     "qty": 31692.075073854296,
-     "entry": 0.073767863,
-     "tp": 0.073325255822,
-     "sl": 0.074062934452,
-     "opened_ms": 1793695940990,
-     "entry_cost": 1.1689283261168995,
-     "max_hold_min": 120,
-     "margin": 779.2855507445996,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
-     "exit": 0.0740851533323356,
-     "closed_ms": 1793696820000,
-     "reason": "stop",
-     "gross": -10.0556,
-     "costs": 2.3429,
-     "pnl": -12.3985
-    }
-   ],
+   "balance": 5000.0,
+   "start": 5000.0,
+   "positions": [],
+   "trades": [],
    "day": {
     "date": "2026-11-03",
-    "trades": 13,
-    "pnl": -142.80833529878277,
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
    [
-    1792690965,
-    5000
-   ],
-   [
-    1792691495,
-    5000
-   ],
-   [
-    1792692580,
-    5000
-   ],
-   [
-    1792692750,
-    5000
-   ],
-   [
-    1792693347,
-    5000
-   ],
-   [
-    1792693903,
-    5000
-   ],
-   [
-    1792694494,
-    5000
-   ],
-   [
-    1792695038,
-    5000
-   ],
-   [
-    1792695596,
-    5000
-   ],
-   [
-    1792695690,
-    5000
-   ],
-   [
-    1792696296,
-    5000
-   ],
-   [
-    1792696850,
-    5000
-   ],
-   [
-    1792697399,
-    5000
-   ],
-   [
-    1792697853,
-    5000
-   ],
-   [
-    1792698410,
-    5000
-   ],
-   [
-    1792698549,
-    5000
-   ],
-   [
-    1792699150,
-    5000
-   ],
-   [
-    1792699701,
-    5000
-   ],
-   [
-    1792699903,
-    5000
-   ],
-   [
-    1792700471,
-    5000
-   ],
-   [
-    1792701020,
-    5000
-   ],
-   [
-    1792701570,
-    5000
-   ],
-   [
-    1792702160,
-    5000
-   ],
-   [
-    1792702234,
-    5000
-   ],
-   [
-    1792702830,
-    5000
-   ],
-   [
-    1792703375,
-    5000
-   ],
-   [
-    1792703964,
-    5000
-   ],
-   [
-    1792704079,
-    5000
-   ],
-   [
-    1792704646,
-    5000
-   ],
-   [
-    1792705183,
-    5000
-   ],
-   [
-    1792705757,
-    5000
-   ],
-   [
-    1792706292,
-    5000
-   ],
-   [
-    1792706847,
-    5000
-   ],
-   [
-    1792707394,
-    5000
-   ],
-   [
-    1792707944,
-    5000
-   ],
-   [
-    1792708233,
-    5000
-   ],
-   [
-    1792708829,
-    5000
-   ],
-   [
-    1792709552,
-    5000
-   ],
-   [
-    1792710156,
-    5000
-   ],
-   [
-    1792710273,
-    5000
-   ],
-   [
-    1792710877,
-    5000
-   ],
-   [
-    1792711602,
-    5000
-   ],
-   [
-    1792712199,
-    5000
-   ],
-   [
-    1792712929,
-    5000
-   ],
-   [
-    1792713524,
-    5000
-   ],
-   [
-    1792713834,
-    5000
-   ],
-   [
-    1792714491,
-    5000
-   ],
-   [
-    1792715217,
-    5000
-   ],
-   [
-    1792715813,
-    5000
-   ],
-   [
-    1792716537,
-    5000
-   ],
-   [
-    1792716657,
-    5000
-   ],
-   [
-    1792717375,
-    5000
-   ],
-   [
-    1792717934,
-    5000
-   ],
-   [
-    1792718657,
-    5000
-   ],
-   [
-    1792719104,
-    5000
-   ],
-   [
-    1792719744,
-    5000
-   ],
-   [
-    1792720471,
-    5000
-   ],
-   [
-    1792721072,
-    5000
-   ],
-   [
-    1792721417,
-    5000
-   ],
-   [
-    1792722036,
-    5000
-   ],
-   [
-    1792722762,
-    5000
-   ],
-   [
-    1792723361,
-    5000
-   ],
-   [
-    1792723709,
-    5000
-   ],
-   [
-    1792724335,
-    5000
-   ],
-   [
-    1792724930,
-    5000
-   ],
-   [
-    1792725568,
-    5000
-   ],
-   [
-    1792726139,
-    5000
-   ],
-   [
-    1792726685,
-    5000
-   ],
-   [
-    1792727226,
-    5000
-   ],
-   [
-    1792727775,
-    5000
-   ],
-   [
-    1792727992,
-    5000
-   ],
-   [
-    1792728677,
-    5000
-   ],
-   [
-    1792729221,
-    5000
-   ],
-   [
-    1792729769,
-    5000
-   ],
-   [
-    1792730080,
-    5000
-   ],
-   [
-    1792730664,
-    4998.7
-   ],
-   [
-    1792731208,
-    4997.16
-   ],
-   [
-    1792731755,
-    4997.05
-   ],
-   [
-    1792732259,
-    5000.32
-   ],
-   [
-    1792732833,
-    4999.84
-   ],
-   [
-    1792733375,
-    4998.12
-   ],
-   [
-    1792734095,
-    5000.73
-   ],
-   [
-    1792734500,
-    5001.14
-   ],
-   [
-    1792735184,
-    5000.62
-   ],
-   [
-    1792735905,
-    5001.46
-   ],
-   [
-    1792736339,
-    5001.61
-   ],
-   [
-    1792736994,
-    5000.79
-   ],
-   [
-    1792737709,
-    5001.54
-   ],
-   [
-    1792738248,
-    5000.3
-   ],
-   [
-    1792738795,
-    5000.3
-   ],
-   [
-    1792739512,
-    5000.3
-   ],
-   [
-    1792739615,
-    5000.3
-   ],
-   [
-    1792740237,
-    5000.3
-   ],
-   [
-    1792740784,
-    5000.3
-   ],
-   [
-    1792741497,
-    5000.3
-   ],
-   [
-    1792742040,
-    5000.3
-   ],
-   [
-    1792742362,
-    5000.3
-   ],
-   [
-    1792742942,
-    5000.3
-   ],
-   [
-    1792743488,
-    5000.3
-   ],
-   [
-    1792744028,
-    5000.3
-   ],
-   [
-    1792744616,
-    5000.3
-   ],
-   [
-    1792745290,
-    5000.3
-   ],
-   [
-    1792745835,
-    5000.3
-   ],
-   [
-    1792746120,
-    5000.3
-   ],
-   [
-    1792746682,
-    5000.3
-   ],
-   [
-    1792746932,
-    5000.3
-   ],
-   [
-    1792747585,
-    5000.3
-   ],
-   [
-    1792748303,
-    5000.3
-   ],
-   [
-    1792748854,
-    5000.3
-   ],
-   [
-    1792749341,
-    5000.3
-   ],
-   [
-    1792749926,
-    5000.3
-   ],
-   [
-    1792750471,
-    5000.3
-   ],
-   [
-    1792751014,
-    5000.3
-   ],
-   [
-    1792751438,
-    5000.3
-   ],
-   [
-    1792752098,
-    5000.3
-   ],
-   [
-    1792752643,
-    5000.3
-   ],
-   [
-    1792753189,
-    5000.3
-   ],
-   [
-    1792753637,
-    5000.3
-   ],
-   [
-    1792754272,
-    5000.3
-   ],
-   [
-    1792754817,
-    5000.3
-   ],
-   [
-    1792755398,
-    5000.3
-   ],
-   [
-    1792755857,
-    5000.3
-   ],
-   [
-    1792756444,
-    5000.3
-   ],
-   [
-    1792756482,
-    5000.3
-   ],
-   [
-    1792757170,
-    5000.3
-   ],
-   [
-    1792757568,
-    5000.3
-   ],
-   [
-    1792758263,
-    5000.3
-   ],
-   [
-    1792758803,
-    5000.3
-   ],
-   [
-    1792759347,
-    5000.3
-   ],
-   [
-    1792759888,
-    5000.3
-   ],
-   [
-    1792760438,
-    5000.3
-   ],
-   [
-    1792760592,
-    5000.3
-   ],
-   [
-    1792761153,
-    5000.3
-   ],
-   [
-    1792761697,
-    5000.3
-   ],
-   [
-    1792762243,
-    5000.3
-   ],
-   [
-    1792762783,
-    5000.3
-   ],
-   [
-    1792763154,
-    5000.3
-   ],
-   [
-    1792763870,
-    5000.3
-   ],
-   [
-    1792764590,
-    5000.3
-   ],
-   [
-    1792765136,
-    5000.3
-   ],
-   [
-    1792765464,
-    5000.3
-   ],
-   [
-    1792766035,
-    5000.3
-   ],
-   [
-    1792766439,
-    5000.3
-   ],
-   [
-    1792766489,
-    5000.3
-   ],
-   [
-    1792766922,
-    5000.3
-   ],
-   [
-    1792767034,
-    5000.3
-   ],
-   [
-    1792767668,
-    5000.3
-   ],
-   [
-    1792768136,
-    5000.3
-   ],
-   [
-    1792768749,
-    5000.3
-   ],
-   [
-    1792769308,
-    5000.3
-   ],
-   [
-    1792770009,
-    5000.3
-   ],
-   [
-    1792770566,
-    5000.3
-   ],
-   [
-    1792771277,
-    5000.3
-   ],
-   [
-    1792772022,
-    5000.3
-   ],
-   [
-    1792772536,
-    5000.3
-   ],
-   [
-    1792772676,
-    5000.3
-   ],
-   [
-    1792773269,
-    5000.3
-   ],
-   [
-    1792773785,
-    5000.3
-   ],
-   [
-    1792774353,
-    5000.3
-   ],
-   [
-    1792774879,
-    5000.3
-   ],
-   [
-    1792775113,
-    5000.3
-   ],
-   [
-    1792775786,
-    5000.3
-   ],
-   [
-    1792776210,
-    5000.3
-   ],
-   [
-    1792776865,
-    5000.3
-   ],
-   [
-    1792777008,
-    5000.3
-   ],
-   [
-    1792777075,
-    5000.3
-   ],
-   [
-    1792777771,
-    5000.3
-   ],
-   [
-    1792778306,
-    5000.3
-   ],
-   [
-    1792778883,
-    5000.3
-   ],
-   [
-    1792778922,
-    5000.3
-   ],
-   [
-    1792779572,
-    5000.3
-   ],
-   [
-    1792780134,
-    5000.3
-   ],
-   [
-    1792781519,
-    5000.3
-   ],
-   [
-    1792781588,
-    5000.3
-   ],
-   [
-    1792782226,
-    5000.3
-   ],
-   [
-    1792782794,
-    5000.3
-   ],
-   [
-    1792783487,
-    5000.3
-   ],
-   [
-    1792783723,
-    5000.3
-   ],
-   [
-    1792784396,
-    5000.3
-   ],
-   [
-    1792784939,
-    5000.3
-   ],
-   [
-    1792785619,
-    5000.3
-   ],
-   [
-    1792786197,
-    5000.3
-   ],
-   [
-    1792786743,
-    5000.3
-   ],
-   [
-    1792787462,
-    5000.3
-   ],
-   [
-    1792787674,
-    5000.3
-   ],
-   [
-    1792788371,
-    5000.3
-   ],
-   [
-    1792789089,
-    5000.3
-   ],
-   [
-    1792789643,
-    5000.3
-   ],
-   [
-    1792789766,
-    5000.3
-   ],
-   [
-    1792790371,
-    5000.3
-   ],
-   [
-    1792791034,
-    5000.3
-   ],
-   [
-    1792791762,
-    5000.3
-   ],
-   [
-    1792791906,
-    5000.3
-   ],
-   [
-    1792792593,
-    5000.3
-   ],
-   [
-    1792793319,
-    5000.3
-   ],
-   [
-    1792793747,
-    5000.3
-   ],
-   [
-    1792794409,
-    5000.3
-   ],
-   [
-    1792795135,
-    5000.3
-   ],
-   [
-    1792795864,
-    5000.3
-   ],
-   [
-    1792796457,
-    5000.3
-   ],
-   [
-    1792797179,
-    5000.3
-   ],
-   [
-    1792797470,
-    5000.3
-   ],
-   [
-    1792798266,
-    5000.3
-   ],
-   [
-    1792798994,
-    5000.3
-   ],
-   [
-    1792799333,
-    5000.3
-   ],
-   [
-    1792800067,
-    5000.3
-   ],
-   [
-    1792800785,
-    5000.3
-   ],
-   [
-    1792801389,
-    5000.3
-   ],
-   [
-    1792802116,
-    5000.3
-   ],
-   [
-    1792802835,
-    5000.3
-   ],
-   [
-    1792803452,
-    5000.3
-   ],
-   [
-    1792804175,
-    5000.3
-   ],
-   [
-    1792804243,
-    5000.3
-   ],
-   [
-    1792804897,
-    5000.3
-   ],
-   [
-    1792805495,
-    5000.3
-   ],
-   [
-    1792806221,
-    5000.3
-   ],
-   [
-    1792806764,
-    5000.3
-   ],
-   [
-    1792807545,
-    5000.3
-   ],
-   [
-    1792808272,
-    5000.3
-   ],
-   [
-    1792808487,
-    5000.3
-   ],
-   [
-    1792809118,
-    5000.3
-   ],
-   [
-    1792809841,
-    5000.3
-   ],
-   [
-    1792810443,
-    5000.3
-   ],
-   [
-    1792810710,
-    5000.3
-   ],
-   [
-    1792811407,
-    5000.3
-   ],
-   [
-    1792812134,
-    5000.3
-   ],
-   [
-    1792812715,
-    5000.3
-   ],
-   [
-    1792813337,
-    5000.3
-   ],
-   [
-    1792813885,
-    5000.3
-   ],
-   [
-    1792814604,
-    5000.3
-   ],
-   [
-    1792814860,
-    5000.3
-   ],
-   [
-    1792815512,
-    5000.3
-   ],
-   [
-    1792816225,
-    5000.3
-   ],
-   [
-    1792816771,
-    5000.3
-   ],
-   [
-    1792816909,
-    5000.3
-   ],
-   [
-    1792817496,
-    5000.3
-   ],
-   [
-    1792818220,
-    5000.3
-   ],
-   [
-    1792818755,
-    5000.3
-   ],
-   [
-    1792819479,
-    5000.3
-   ],
-   [
-    1792820022,
-    5000.3
-   ],
-   [
-    1792820567,
-    5000.3
-   ],
-   [
-    1792821056,
-    5000.3
-   ],
-   [
-    1792821647,
-    5000.3
-   ],
-   [
-    1792822192,
-    5000.3
-   ],
-   [
-    1792822739,
-    5000.3
-   ],
-   [
-    1792822798,
-    5000.3
-   ],
-   [
-    1792823450,
-    5000.3
-   ],
-   [
-    1792823999,
-    5000.3
-   ],
-   [
-    1792824544,
-    5000.3
-   ],
-   [
-    1792825262,
-    5000.3
-   ],
-   [
-    1792825739,
-    5000.3
-   ],
-   [
-    1792826353,
-    5000.3
-   ],
-   [
-    1792827074,
-    5000.3
-   ],
-   [
-    1792827612,
-    5000.3
-   ],
-   [
-    1792827902,
-    5000.3
-   ],
-   [
-    1792828515,
-    5000.3
-   ],
-   [
-    1792829059,
-    5000.3
-   ],
-   [
-    1792829519,
-    5000.3
-   ],
-   [
-    1792830140,
-    5000.3
-   ],
-   [
-    1792830865,
-    5000.3
-   ],
-   [
-    1792831407,
-    5000.3
-   ],
-   [
-    1792831849,
-    5000.3
-   ],
-   [
-    1792832490,
-    5000.3
-   ],
-   [
-    1792833032,
-    5000.3
-   ],
-   [
-    1792833472,
-    5000.3
-   ],
-   [
-    1792834122,
-    5000.3
-   ],
-   [
-    1792834665,
-    5000.3
-   ],
-   [
-    1792835212,
-    5000.3
-   ],
-   [
-    1792835611,
-    5000.3
-   ],
-   [
-    1792836291,
-    5000.3
-   ],
-   [
-    1792836833,
-    5000.3
-   ],
-   [
-    1792837303,
-    5000.3
-   ],
-   [
-    1792839321,
-    5000.3
-   ],
-   [
-    1792841026,
-    5000.3
-   ],
-   [
-    1792843011,
-    5000.3
-   ],
-   [
-    1792845139,
-    5000.3
-   ],
-   [
-    1792847625,
-    5000.3
-   ],
-   [
-    1792849675,
-    5000.3
-   ],
-   [
-    1792851085,
-    5000.3
-   ],
-   [
-    1792852041,
-    4998.89
-   ],
-   [
-    1792853168,
-    5001.58
-   ],
-   [
-    1792854685,
-    4996.87
-   ],
-   [
-    1792856807,
-    4993.24
-   ],
-   [
-    1792858344,
-    4996.44
-   ],
-   [
-    1792860571,
-    4997.47
-   ],
-   [
-    1792862106,
-    5000.46
-   ],
-   [
-    1792863997,
-    5000.9
-   ],
-   [
-    1792865358,
-    5001.7
-   ],
-   [
-    1792867561,
-    5002.98
-   ],
-   [
-    1792869279,
-    5004.83
-   ],
-   [
-    1792871054,
-    5005.28
-   ],
-   [
-    1792872359,
-    5005.47
-   ],
-   [
-    1792874178,
-    5005.72
-   ],
-   [
-    1792875837,
-    5004.47
-   ],
-   [
-    1792877696,
-    5003.64
-   ],
-   [
-    1792879428,
-    5004.42
-   ],
-   [
-    1792881215,
-    5005.01
-   ],
-   [
-    1792882872,
-    5006.22
-   ],
-   [
-    1792884473,
-    5006.16
-   ],
-   [
-    1792886014,
-    5009.74
-   ],
-   [
-    1792887839,
-    5008.57
-   ],
-   [
-    1792890567,
-    5008.49
-   ],
-   [
-    1792892586,
-    5009.0
-   ],
-   [
-    1792894464,
-    5010.1
-   ],
-   [
-    1792896805,
-    5010.01
-   ],
-   [
-    1792898605,
-    5011.2
-   ],
-   [
-    1792900917,
-    5009.14
-   ],
-   [
-    1792902910,
-    5009.39
-   ],
-   [
-    1792905056,
-    5009.86
-   ],
-   [
-    1792907165,
-    5005.74
-   ],
-   [
-    1792908811,
-    5005.25
-   ],
-   [
-    1792911958,
-    4999.41
-   ],
-   [
-    1792914204,
-    5001.0
-   ],
-   [
-    1792915818,
-    4999.9
-   ],
-   [
-    1792918046,
-    4998.32
-   ],
-   [
-    1792919653,
-    4994.62
-   ],
-   [
-    1792921886,
-    4995.89
-   ],
-   [
-    1792923475,
-    4997.28
-   ],
-   [
-    1792925527,
-    4995.23
-   ],
-   [
-    1792927133,
-    4997.52
-   ],
-   [
-    1792929080,
-    4999.07
-   ],
-   [
-    1792930452,
-    4998.17
-   ],
-   [
-    1792930745,
-    4998.03
-   ],
-   [
-    1792933421,
-    4997.67
-   ],
-   [
-    1792935381,
-    4995.8
-   ],
-   [
-    1792937167,
-    4996.38
-   ],
-   [
-    1792939097,
-    4995.0
-   ],
-   [
-    1792940861,
-    4995.0
-   ],
-   [
-    1792942920,
-    4995.0
-   ],
-   [
-    1792944675,
-    4995.0
-   ],
-   [
-    1792946910,
-    4995.0
-   ],
-   [
-    1792948472,
-    4995.0
-   ],
-   [
-    1792950422,
-    4995.0
-   ],
-   [
-    1792951806,
-    4995.0
-   ],
-   [
-    1792954193,
-    4995.0
-   ],
-   [
-    1792955848,
-    4995.0
-   ],
-   [
-    1792957608,
-    4995.0
-   ],
-   [
-    1792958825,
-    4995.0
-   ],
-   [
-    1792960682,
-    4995.0
-   ],
-   [
-    1792962373,
-    4995.0
-   ],
-   [
-    1792964294,
-    4995.0
-   ],
-   [
-    1792965884,
-    4995.0
-   ],
-   [
-    1792967598,
-    4995.0
-   ],
-   [
-    1792969194,
-    4995.0
-   ],
-   [
-    1792970827,
-    4995.0
-   ],
-   [
-    1792972445,
-    4995.0
-   ],
-   [
-    1792975054,
-    4995.0
-   ],
-   [
-    1792978110,
-    4995.0
-   ],
-   [
-    1792980801,
-    4995.0
-   ],
-   [
-    1792983351,
-    4995.0
-   ],
-   [
-    1792985570,
-    4995.0
-   ],
-   [
-    1792988108,
-    4995.0
-   ],
-   [
-    1792990692,
-    4995.0
-   ],
-   [
-    1792992911,
-    4995.0
-   ],
-   [
-    1792995263,
-    4995.0
-   ],
-   [
-    1792999013,
-    4995.0
-   ],
-   [
-    1793002255,
-    4995.0
-   ],
-   [
-    1793005239,
-    4995.0
-   ],
-   [
-    1793007906,
-    4995.0
-   ],
-   [
-    1793010394,
-    4995.0
-   ],
-   [
-    1793013185,
-    4995.0
-   ],
-   [
-    1793021889,
-    4995.0
-   ],
-   [
-    1793028070,
-    4995.0
-   ],
-   [
-    1793031629,
-    4995.0
-   ],
-   [
-    1793034604,
-    4995.0
-   ],
-   [
-    1793037008,
-    4995.0
-   ],
-   [
-    1793039167,
-    4995.0
-   ],
-   [
-    1793042370,
-    4995.0
-   ],
-   [
-    1793044776,
-    4995.0
-   ],
-   [
-    1793046951,
-    4995.0
-   ],
-   [
-    1793049163,
-    4995.0
-   ],
-   [
-    1793051503,
-    4995.0
-   ],
-   [
-    1793053443,
-    4995.0
-   ],
-   [
-    1793055798,
-    4995.0
-   ],
-   [
-    1793057714,
-    4995.0
-   ],
-   [
-    1793059584,
-    4995.0
-   ],
-   [
-    1793062462,
-    4995.0
-   ],
-   [
-    1793065103,
-    4995.0
-   ],
-   [
-    1793067410,
-    4995.0
-   ],
-   [
-    1793069858,
-    4995.0
-   ],
-   [
-    1793072055,
-    4995.0
-   ],
-   [
-    1793074508,
-    4995.0
-   ],
-   [
-    1793076926,
-    4995.0
-   ],
-   [
-    1793079074,
-    4995.0
-   ],
-   [
-    1793081401,
-    4995.0
-   ],
-   [
-    1793084472,
-    4995.0
-   ],
-   [
-    1793087380,
-    4995.0
-   ],
-   [
-    1793089753,
-    4995.0
-   ],
-   [
-    1793092594,
-    4995.0
-   ],
-   [
-    1793095335,
-    4995.0
-   ],
-   [
-    1793097728,
-    4995.0
-   ],
-   [
-    1793100139,
-    4995.0
-   ],
-   [
-    1793102539,
-    4995.0
-   ],
-   [
-    1793105256,
-    4995.0
-   ],
-   [
-    1793108275,
-    4995.0
-   ],
-   [
-    1793111510,
-    4995.0
-   ],
-   [
-    1793114693,
-    4995.0
-   ],
-   [
-    1793117692,
-    4995.0
-   ],
-   [
-    1793120933,
-    4995.0
-   ],
-   [
-    1793123434,
-    4995.0
-   ],
-   [
-    1793125857,
-    4995.0
-   ],
-   [
-    1793129063,
-    4995.0
-   ],
-   [
-    1793131520,
-    4995.0
-   ],
-   [
-    1793133744,
-    4995.0
-   ],
-   [
-    1793135939,
-    4995.0
-   ],
-   [
-    1793138314,
-    4995.0
-   ],
-   [
-    1793140649,
-    4995.0
-   ],
-   [
-    1793142823,
-    4995.0
-   ],
-   [
-    1793144971,
-    4995.0
-   ],
-   [
-    1793146983,
-    4995.0
-   ],
-   [
-    1793151022,
-    4995.0
-   ],
-   [
-    1793154047,
-    4995.0
-   ],
-   [
-    1793156974,
-    4995.0
-   ],
-   [
-    1793159828,
-    4995.0
-   ],
-   [
-    1793162584,
-    4995.0
-   ],
-   [
-    1793165073,
-    4995.0
-   ],
-   [
-    1793167914,
-    4995.0
-   ],
-   [
-    1793171903,
-    4995.0
-   ],
-   [
-    1793175340,
-    4995.0
-   ],
-   [
-    1793178632,
-    4995.0
-   ],
-   [
-    1793181651,
-    4995.0
-   ],
-   [
-    1793184488,
-    4995.0
-   ],
-   [
-    1793186802,
-    4995.0
-   ],
-   [
-    1793189714,
-    4993.78
-   ],
-   [
-    1793193747,
-    4991.26
-   ],
-   [
-    1793197284,
-    4988.71
-   ],
-   [
-    1793200702,
-    4988.71
-   ],
-   [
-    1793204022,
-    4988.71
-   ],
-   [
-    1793207343,
-    4988.71
-   ],
-   [
-    1793210161,
-    4988.71
-   ],
-   [
-    1793212998,
-    4988.71
-   ],
-   [
-    1793215919,
-    4988.71
-   ],
-   [
-    1793218719,
-    4988.71
-   ],
-   [
-    1793221528,
-    4988.71
-   ],
-   [
-    1793223970,
-    4988.71
-   ],
-   [
-    1793226265,
-    4988.71
-   ],
-   [
-    1793228861,
-    4988.71
-   ],
-   [
-    1793231152,
-    4988.71
-   ],
-   [
-    1793233176,
-    4988.71
-   ],
-   [
-    1793237302,
-    4988.71
-   ],
-   [
-    1793240548,
-    4988.71
-   ],
-   [
-    1793243590,
-    4988.71
-   ],
-   [
-    1793246772,
-    4988.71
-   ],
-   [
-    1793249629,
-    4988.71
-   ],
-   [
-    1793252266,
-    4988.71
-   ],
-   [
-    1793254912,
-    4988.71
-   ],
-   [
-    1793259212,
-    4988.71
-   ],
-   [
-    1793262409,
-    4988.71
-   ],
-   [
-    1793265798,
-    4988.71
-   ],
-   [
-    1793269098,
-    4988.71
-   ],
-   [
-    1793271228,
-    4983.92
-   ],
-   [
-    1793272062,
-    4969.25
-   ],
-   [
-    1793274817,
-    4952.24
-   ],
-   [
-    1793277661,
-    4961.64
-   ],
-   [
-    1793281422,
-    4984.93
-   ],
-   [
-    1793284783,
-    4984.93
-   ],
-   [
-    1793288160,
-    4984.93
-   ],
-   [
-    1793291545,
-    4984.93
-   ],
-   [
-    1793294830,
-    4975.36
-   ],
-   [
-    1793297857,
-    4909.75
-   ],
-   [
-    1793301524,
-    4860.17
-   ],
-   [
-    1793304494,
-    4797.18
-   ],
-   [
-    1793307257,
-    4785.67
-   ],
-   [
-    1793309654,
-    4740.6
-   ],
-   [
-    1793312277,
-    4678.08
-   ],
-   [
-    1793314820,
-    4743.98
-   ],
-   [
-    1793317158,
-    4668.6
-   ],
-   [
-    1793319410,
-    4594.41
-   ],
-   [
-    1793323681,
-    4532.28
-   ],
-   [
-    1793326828,
-    4532.28
-   ],
-   [
-    1793329913,
-    4532.28
-   ],
-   [
-    1793333051,
-    4532.28
-   ],
-   [
-    1793335896,
-    4532.28
-   ],
-   [
-    1793338438,
-    4532.28
-   ],
-   [
-    1793341128,
-    4532.28
-   ],
-   [
-    1793345365,
-    4532.28
-   ],
-   [
-    1793348726,
-    4532.28
-   ],
-   [
-    1793352103,
-    4532.28
-   ],
-   [
-    1793355451,
-    4532.28
-   ],
-   [
-    1793358215,
-    4532.28
-   ],
-   [
-    1793360675,
-    4532.28
-   ],
-   [
-    1793363074,
-    4532.28
-   ],
-   [
-    1793367222,
-    4532.28
-   ],
-   [
-    1793370754,
-    4532.28
-   ],
-   [
-    1793373970,
-    4532.28
-   ],
-   [
-    1793377231,
-    4532.28
-   ],
-   [
-    1793380191,
-    4532.28
-   ],
-   [
-    1793382779,
-    4532.28
-   ],
-   [
-    1793385312,
-    4532.28
-   ],
-   [
-    1793388373,
-    4532.28
-   ],
-   [
-    1793391101,
-    4532.28
-   ],
-   [
-    1793393779,
-    4532.28
-   ],
-   [
-    1793396105,
-    4532.28
-   ],
-   [
-    1793398514,
-    4532.28
-   ],
-   [
-    1793400961,
-    4532.28
-   ],
-   [
-    1793403180,
-    4532.28
-   ],
-   [
-    1793405443,
-    4532.28
-   ],
-   [
-    1793409421,
-    4532.28
-   ],
-   [
-    1793412669,
-    4521.41
-   ],
-   [
-    1793415608,
-    4530.02
-   ],
-   [
-    1793418333,
-    4474.52
-   ],
-   [
-    1793420826,
-    4466.74
-   ],
-   [
-    1793423736,
-    4460.18
-   ],
-   [
-    1793426323,
-    4460.91
-   ],
-   [
-    1793429371,
-    4460.91
-   ],
-   [
-    1793432452,
-    4460.91
-   ],
-   [
-    1793435272,
-    4460.91
-   ],
-   [
-    1793438133,
-    4460.91
-   ],
-   [
-    1793440710,
-    4460.91
-   ],
-   [
-    1793443055,
-    4460.91
-   ],
-   [
-    1793445258,
-    4460.91
-   ],
-   [
-    1793447661,
-    4460.91
-   ],
-   [
-    1793450373,
-    4460.91
-   ],
-   [
-    1793453415,
-    4460.91
-   ],
-   [
-    1793456125,
-    4460.91
-   ],
-   [
-    1793458479,
-    4460.91
-   ],
-   [
-    1793460571,
-    4460.91
-   ],
-   [
-    1793462912,
-    4460.91
-   ],
-   [
-    1793465208,
-    4460.91
-   ],
-   [
-    1793467087,
-    4460.91
-   ],
-   [
-    1793469211,
-    4460.91
-   ],
-   [
-    1793471542,
-    4460.91
-   ],
-   [
-    1793473090,
-    4460.91
-   ],
-   [
-    1793473269,
-    4460.91
-   ],
-   [
-    1793473449,
-    4460.91
-   ],
-   [
-    1793473630,
-    4460.91
-   ],
-   [
-    1793473811,
-    4460.91
-   ],
-   [
-    1793473990,
-    4460.91
-   ],
-   [
-    1793474169,
-    4460.91
-   ],
-   [
-    1793474349,
-    4460.91
-   ],
-   [
-    1793474531,
-    4460.91
-   ],
-   [
-    1793474710,
-    4460.91
-   ],
-   [
-    1793474890,
-    4460.91
-   ],
-   [
-    1793475070,
-    4452.35
-   ],
-   [
-    1793475250,
-    4450.12
-   ],
-   [
-    1793475428,
-    4453.96
-   ],
-   [
-    1793475608,
-    4452.82
-   ],
-   [
-    1793478190,
-    4455.73
-   ],
-   [
-    1793478368,
-    4455.1
-   ],
-   [
-    1793478547,
-    4460.34
-   ],
-   [
-    1793478727,
-    4467.95
-   ],
-   [
-    1793478907,
-    4473.58
-   ],
-   [
-    1793479087,
-    4469.36
-   ],
-   [
-    1793479268,
-    4468.29
-   ],
-   [
-    1793479447,
-    4470.06
-   ],
-   [
-    1793479627,
-    4472.31
-   ],
-   [
-    1793479807,
-    4466.23
-   ],
-   [
-    1793479988,
-    4472.12
-   ],
-   [
-    1793480167,
-    4472.3
-   ],
-   [
-    1793480348,
-    4470.28
-   ],
-   [
-    1793480528,
-    4488.66
-   ],
-   [
-    1793480707,
-    4479.74
-   ],
-   [
-    1793483291,
-    4450.42
-   ],
-   [
-    1793483469,
-    4451.28
-   ],
-   [
-    1793483649,
-    4450.86
-   ],
-   [
-    1793483831,
-    4449.42
-   ],
-   [
-    1793484013,
-    4445.18
-   ],
-   [
-    1793484189,
-    4436.49
-   ],
-   [
-    1793484370,
-    4430.74
-   ],
-   [
-    1793484551,
-    4440.33
-   ],
-   [
-    1793484730,
-    4438.09
-   ],
-   [
-    1793484910,
-    4439.27
-   ],
-   [
-    1793485091,
-    4437.22
-   ],
-   [
-    1793485270,
-    4440.52
-   ],
-   [
-    1793485450,
-    4439.02
-   ],
-   [
-    1793485630,
-    4438.77
-   ],
-   [
-    1793485810,
-    4436.25
-   ],
-   [
-    1793488398,
-    4433.66
-   ],
-   [
-    1793488576,
-    4433.96
-   ],
-   [
-    1793488756,
-    4436.92
-   ],
-   [
-    1793488936,
-    4437.08
-   ],
-   [
-    1793489116,
-    4437.5
-   ],
-   [
-    1793489296,
-    4439.54
-   ],
-   [
-    1793489476,
-    4439.69
-   ],
-   [
-    1793489656,
-    4434.19
-   ],
-   [
-    1793489836,
-    4433.74
-   ],
-   [
-    1793490016,
-    4442.28
-   ],
-   [
-    1793490197,
-    4442.6
-   ],
-   [
-    1793490377,
-    4439.72
-   ],
-   [
-    1793490557,
-    4435.99
-   ],
-   [
-    1793490737,
-    4426.39
-   ],
-   [
-    1793490916,
-    4424.13
-   ],
-   [
-    1793493490,
-    4399.69
-   ],
-   [
-    1793493670,
-    4403.08
-   ],
-   [
-    1793493850,
-    4403.82
-   ],
-   [
-    1793494029,
-    4406.0
-   ],
-   [
-    1793494210,
-    4399.98
-   ],
-   [
-    1793494390,
-    4393.26
-   ],
-   [
-    1793494572,
-    4386.98
-   ],
-   [
-    1793494751,
-    4387.24
-   ],
-   [
-    1793494930,
-    4382.67
-   ],
-   [
-    1793495111,
-    4384.67
-   ],
-   [
-    1793495292,
-    4383.91
-   ],
-   [
-    1793495472,
-    4385.55
-   ],
-   [
-    1793495652,
-    4385.13
-   ],
-   [
-    1793495831,
-    4381.46
-   ],
-   [
-    1793496011,
-    4381.92
-   ],
-   [
-    1793496457,
-    4381.49
-   ],
-   [
-    1793496636,
-    4383.96
-   ],
-   [
-    1793496816,
-    4381.85
-   ],
-   [
-    1793496996,
-    4379.23
-   ],
-   [
-    1793497175,
-    4379.8
-   ],
-   [
-    1793497356,
-    4377.83
-   ],
-   [
-    1793497536,
-    4378.62
-   ],
-   [
-    1793497716,
-    4381.94
-   ],
-   [
-    1793497896,
-    4380.81
-   ],
-   [
-    1793498076,
-    4380.52
-   ],
-   [
-    1793498256,
-    4380.52
-   ],
-   [
-    1793498435,
-    4376.32
-   ],
-   [
-    1793498615,
-    4368.67
-   ],
-   [
-    1793498796,
-    4370.76
-   ],
-   [
-    1793498976,
-    4375.62
-   ],
-   [
-    1793499827,
-    4372.81
-   ],
-   [
-    1793500005,
-    4368.33
-   ],
-   [
-    1793500184,
-    4372.66
-   ],
-   [
-    1793500365,
-    4386.08
-   ],
-   [
-    1793500545,
-    4390.25
-   ],
-   [
-    1793500724,
-    4390.82
-   ],
-   [
-    1793500905,
-    4391.24
-   ],
-   [
-    1793501085,
-    4388.02
-   ],
-   [
-    1793501265,
-    4379.23
-   ],
-   [
-    1793501441,
-    4394.75
-   ],
-   [
-    1793501621,
-    4398.88
-   ],
-   [
-    1793501801,
-    4397.19
-   ],
-   [
-    1793501981,
-    4401.8
-   ],
-   [
-    1793502162,
-    4396.85
-   ],
-   [
-    1793502341,
-    4392.41
-   ],
-   [
-    1793502873,
-    4380.57
-   ],
-   [
-    1793503053,
-    4391.69
-   ],
-   [
-    1793503232,
-    4387.24
-   ],
-   [
-    1793503412,
-    4380.16
-   ],
-   [
-    1793503592,
-    4384.31
-   ],
-   [
-    1793503772,
-    4386.14
-   ],
-   [
-    1793503952,
-    4386.0
-   ],
-   [
-    1793504132,
-    4383.41
-   ],
-   [
-    1793504312,
-    4375.02
-   ],
-   [
-    1793504493,
-    4361.15
-   ],
-   [
-    1793504673,
-    4362.77
-   ],
-   [
-    1793504853,
-    4376.8
-   ],
-   [
-    1793505032,
-    4379.47
-   ],
-   [
-    1793505212,
-    4376.38
-   ],
-   [
-    1793505393,
-    4373.73
-   ],
-   [
-    1793506380,
-    4379.25
-   ],
-   [
-    1793506560,
-    4367.98
-   ],
-   [
-    1793506738,
-    4364.09
-   ],
-   [
-    1793506918,
-    4366.25
-   ],
-   [
-    1793507098,
-    4353.04
-   ],
-   [
-    1793507281,
-    4345.65
-   ],
-   [
-    1793507460,
-    4342.45
-   ],
-   [
-    1793507640,
-    4347.4
-   ],
-   [
-    1793507821,
-    4347.95
-   ],
-   [
-    1793508000,
-    4346.85
-   ],
-   [
-    1793508181,
-    4346.85
-   ],
-   [
-    1793508361,
-    4349.05
-   ],
-   [
-    1793508540,
-    4349.05
-   ],
-   [
-    1793508721,
-    4347.4
-   ],
-   [
-    1793508901,
-    4345.2
-   ],
-   [
-    1793509648,
-    4346.85
-   ],
-   [
-    1793509828,
-    4347.4
-   ],
-   [
-    1793510008,
-    4347.4
-   ],
-   [
-    1793510188,
-    4346.3
-   ],
-   [
-    1793510368,
-    4345.75
-   ],
-   [
-    1793510548,
-    4344.1
-   ],
-   [
-    1793510728,
-    4344.1
-   ],
-   [
-    1793510908,
-    4345.2
-   ],
-   [
-    1793511088,
-    4342.45
-   ],
-   [
-    1793511267,
-    4341.35
-   ],
-   [
-    1793511447,
-    4343.55
-   ],
-   [
-    1793511627,
-    4345.2
-   ],
-   [
-    1793511807,
-    4349.05
-   ],
-   [
-    1793511988,
-    4346.3
-   ],
-   [
-    1793512167,
-    4346.85
-   ],
-   [
-    1793512384,
-    4340.25
-   ],
-   [
-    1793512563,
-    4338.6
-   ],
-   [
-    1793512743,
-    4338.05
-   ],
-   [
-    1793512923,
-    4327.6
-   ],
-   [
-    1793513104,
-    4327.6
-   ],
-   [
-    1793513283,
-    4327.6
-   ],
-   [
-    1793513464,
-    4327.6
-   ],
-   [
-    1793513644,
-    4327.6
-   ],
-   [
-    1793513823,
-    4327.6
-   ],
-   [
-    1793514004,
-    4327.6
-   ],
-   [
-    1793514185,
-    4327.6
-   ],
-   [
-    1793514364,
-    4327.6
-   ],
-   [
-    1793514544,
-    4327.6
-   ],
-   [
-    1793514725,
-    4327.6
-   ],
-   [
-    1793514905,
-    4327.6
-   ],
-   [
-    1793515437,
-    4327.6
-   ],
-   [
-    1793515615,
-    4327.6
-   ],
-   [
-    1793515796,
-    4327.6
-   ],
-   [
-    1793515976,
-    4327.6
-   ],
-   [
-    1793516156,
-    4327.6
-   ],
-   [
-    1793516336,
-    4327.6
-   ],
-   [
-    1793516516,
-    4327.6
-   ],
-   [
-    1793516696,
-    4327.6
-   ],
-   [
-    1793516876,
-    4327.6
-   ],
-   [
-    1793517056,
-    4327.6
-   ],
-   [
-    1793517236,
-    4327.6
-   ],
-   [
-    1793517415,
-    4327.6
-   ],
-   [
-    1793517596,
-    4327.6
-   ],
-   [
-    1793517777,
-    4327.6
-   ],
-   [
-    1793517956,
-    4317.21
-   ],
-   [
-    1793518916,
-    4307.47
-   ],
-   [
-    1793519095,
-    4307.01
-   ],
-   [
-    1793519275,
-    4306.62
-   ],
-   [
-    1793519456,
-    4300.09
-   ],
-   [
-    1793519636,
-    4299.98
-   ],
-   [
-    1793519816,
-    4297.3
-   ],
-   [
-    1793519996,
-    4294.35
-   ],
-   [
-    1793520176,
-    4291.98
-   ],
-   [
-    1793520356,
-    4294.55
-   ],
-   [
-    1793520536,
-    4299.93
-   ],
-   [
-    1793520716,
-    4307.35
-   ],
-   [
-    1793520896,
-    4313.58
-   ],
-   [
-    1793521076,
-    4311.83
-   ],
-   [
-    1793521257,
-    4312.33
-   ],
-   [
-    1793521435,
-    4307.77
-   ],
-   [
-    1793521778,
-    4308.51
-   ],
-   [
-    1793521960,
-    4296.07
-   ],
-   [
-    1793522141,
-    4270.44
-   ],
-   [
-    1793522321,
-    4272.02
-   ],
-   [
-    1793522501,
-    4272.57
-   ],
-   [
-    1793522681,
-    4273.27
-   ],
-   [
-    1793522860,
-    4267.33
-   ],
-   [
-    1793523040,
-    4268.78
-   ],
-   [
-    1793523220,
-    4268.57
-   ],
-   [
-    1793523401,
-    4268.99
-   ],
-   [
-    1793523581,
-    4265.87
-   ],
-   [
-    1793523760,
-    4264.84
-   ],
-   [
-    1793523941,
-    4264.42
-   ],
-   [
-    1793524124,
-    4265.25
-   ],
-   [
-    1793524301,
-    4266.7
-   ],
-   [
-    1793524806,
-    4266.7
-   ],
-   [
-    1793524985,
-    4268.99
-   ],
-   [
-    1793525165,
-    4271.27
-   ],
-   [
-    1793525345,
-    4272.31
-   ],
-   [
-    1793525526,
-    4272.31
-   ],
-   [
-    1793525704,
-    4272.31
-   ],
-   [
-    1793525885,
-    4272.31
-   ],
-   [
-    1793526066,
-    4264.1
-   ],
-   [
-    1793526245,
-    4265.32
-   ],
-   [
-    1793526424,
-    4259.06
-   ],
-   [
-    1793526605,
-    4250.89
-   ],
-   [
-    1793526785,
-    4254.31
-   ],
-   [
-    1793526966,
-    4257.85
-   ],
-   [
-    1793527146,
-    4254.17
-   ],
-   [
-    1793527324,
-    4262.2
-   ],
-   [
-    1793527620,
-    4255.94
-   ],
-   [
-    1793527799,
-    4232.53
-   ],
-   [
-    1793527979,
-    4226.11
-   ],
-   [
-    1793528159,
-    4228.14
-   ],
-   [
-    1793528339,
-    4228.82
-   ],
-   [
-    1793528518,
-    4223.4
-   ],
-   [
-    1793528700,
-    4225.43
-   ],
-   [
-    1793528880,
-    4226.78
-   ],
-   [
-    1793529059,
-    4228.82
-   ],
-   [
-    1793529240,
-    4232.21
-   ],
-   [
-    1793529419,
-    4231.53
-   ],
-   [
-    1793529599,
-    4232.88
-   ],
-   [
-    1793529779,
-    4232.88
-   ],
-   [
-    1793529960,
-    4227.45
-   ],
-   [
-    1793530139,
-    4234.97
-   ],
-   [
-    1793532729,
-    4239.92
-   ],
-   [
-    1793532910,
-    4236.28
-   ],
-   [
-    1793533089,
-    4236.77
-   ],
-   [
-    1793533269,
-    4235.73
-   ],
-   [
-    1793533449,
-    4228.72
-   ],
-   [
-    1793533629,
-    4227.2
-   ],
-   [
-    1793533809,
-    4227.76
-   ],
-   [
-    1793533988,
-    4225.77
-   ],
-   [
-    1793534168,
-    4222.52
-   ],
-   [
-    1793534348,
-    4221.91
-   ],
-   [
-    1793534527,
-    4217.48
-   ],
-   [
-    1793534709,
-    4223.75
-   ],
-   [
-    1793534888,
-    4214.97
-   ],
-   [
-    1793535068,
-    4222.49
-   ],
-   [
-    1793535248,
-    4227.37
-   ],
-   [
-    1793537841,
-    4254.48
-   ],
-   [
-    1793538019,
-    4252.34
-   ],
-   [
-    1793538198,
-    4242.7
-   ],
-   [
-    1793538378,
-    4250.52
-   ],
-   [
-    1793538558,
-    4237.95
-   ],
-   [
-    1793538737,
-    4240.93
-   ],
-   [
-    1793538918,
-    4239.23
-   ],
-   [
-    1793539098,
-    4230.65
-   ],
-   [
-    1793539278,
-    4232.71
-   ],
-   [
-    1793539458,
-    4244.13
-   ],
-   [
-    1793539639,
-    4241.83
-   ],
-   [
-    1793539819,
-    4234.5
-   ],
-   [
-    1793539998,
-    4224.94
-   ],
-   [
-    1793540178,
-    4229.81
-   ],
-   [
-    1793540359,
-    4244.23
-   ],
-   [
-    1793542954,
-    4214.33
-   ],
-   [
-    1793543133,
-    4214.33
-   ],
-   [
-    1793543314,
-    4214.33
-   ],
-   [
-    1793543494,
-    4214.33
-   ],
-   [
-    1793543674,
-    4214.33
-   ],
-   [
-    1793543855,
-    4214.33
-   ],
-   [
-    1793544034,
-    4214.33
-   ],
-   [
-    1793544214,
-    4214.33
-   ],
-   [
-    1793544394,
-    4214.33
-   ],
-   [
-    1793544573,
-    4214.33
-   ],
-   [
-    1793544753,
-    4214.33
-   ],
-   [
-    1793544934,
-    4214.33
-   ],
-   [
-    1793545113,
-    4214.33
-   ],
-   [
-    1793545293,
-    4214.33
-   ],
-   [
-    1793545473,
-    4214.33
-   ],
-   [
-    1793548066,
-    4214.33
-   ],
-   [
-    1793548246,
-    4210.29
-   ],
-   [
-    1793548425,
-    4208.02
-   ],
-   [
-    1793548606,
-    4203.91
-   ],
-   [
-    1793548786,
-    4204.83
-   ],
-   [
-    1793548966,
-    4206.39
-   ],
-   [
-    1793549145,
-    4200.53
-   ],
-   [
-    1793549322,
-    4204.81
-   ],
-   [
-    1793549503,
-    4208.66
-   ],
-   [
-    1793549682,
-    4222.91
-   ],
-   [
-    1793549862,
-    4220.15
-   ],
-   [
-    1793550042,
-    4227.86
-   ],
-   [
-    1793550222,
-    4213.2
-   ],
-   [
-    1793550402,
-    4209.76
-   ],
-   [
-    1793550583,
-    4208.56
-   ],
-   [
-    1793553170,
-    4215.52
-   ],
-   [
-    1793553350,
-    4212.26
-   ],
-   [
-    1793553529,
-    4224.05
-   ],
-   [
-    1793553709,
-    4223.59
-   ],
-   [
-    1793553889,
-    4217.22
-   ],
-   [
-    1793554069,
-    4214.43
-   ],
-   [
-    1793554249,
-    4212.26
-   ],
-   [
-    1793554430,
-    4211.3
-   ],
-   [
-    1793554610,
-    4208.03
-   ],
-   [
-    1793554790,
-    4213.22
-   ],
-   [
-    1793554970,
-    4220.92
-   ],
-   [
-    1793555150,
-    4222.41
-   ],
-   [
-    1793555329,
-    4231.68
-   ],
-   [
-    1793555510,
-    4229.88
-   ],
-   [
-    1793555691,
-    4224.77
-   ],
-   [
-    1793558279,
-    4212.24
-   ],
-   [
-    1793558456,
-    4214.18
-   ],
-   [
-    1793558635,
-    4212.85
-   ],
-   [
-    1793558816,
-    4209.56
-   ],
-   [
-    1793558995,
-    4215.78
-   ],
-   [
-    1793559176,
-    4228.57
-   ],
-   [
-    1793559355,
-    4234.37
-   ],
-   [
-    1793559535,
-    4232.68
-   ],
-   [
-    1793559715,
-    4237.97
-   ],
-   [
-    1793559895,
-    4226.31
-   ],
-   [
-    1793560075,
-    4234.6
-   ],
-   [
-    1793560257,
-    4258.03
-   ],
-   [
-    1793560437,
-    4267.27
-   ],
-   [
-    1793560618,
-    4260.99
-   ],
-   [
-    1793560797,
-    4260.1
-   ],
-   [
-    1793563382,
-    4248.15
-   ],
-   [
-    1793563561,
-    4249.44
-   ],
-   [
-    1793563741,
-    4248.43
-   ],
-   [
-    1793563920,
-    4257.75
-   ],
-   [
-    1793564101,
-    4257.53
-   ],
-   [
-    1793564280,
-    4263.77
-   ],
-   [
-    1793564460,
-    4268.32
-   ],
-   [
-    1793564641,
-    4267.08
-   ],
-   [
-    1793564820,
-    4263.29
-   ],
-   [
-    1793565000,
-    4255.13
-   ],
-   [
-    1793565180,
-    4251.18
-   ],
-   [
-    1793565360,
-    4245.9
-   ],
-   [
-    1793565540,
-    4239.86
-   ],
-   [
-    1793565723,
-    4237.04
-   ],
-   [
-    1793565902,
-    4233.8
-   ],
-   [
-    1793568494,
-    4225.01
-   ],
-   [
-    1793568675,
-    4217.75
-   ],
-   [
-    1793568854,
-    4220.46
-   ],
-   [
-    1793569035,
-    4217.38
-   ],
-   [
-    1793569215,
-    4216.74
-   ],
-   [
-    1793569396,
-    4219.68
-   ],
-   [
-    1793569575,
-    4218.27
-   ],
-   [
-    1793569754,
-    4217.36
-   ],
-   [
-    1793569935,
-    4225.14
-   ],
-   [
-    1793570115,
-    4228.01
-   ],
-   [
-    1793570295,
-    4224.9
-   ],
-   [
-    1793570475,
-    4225.97
-   ],
-   [
-    1793570655,
-    4227.05
-   ],
-   [
-    1793570834,
-    4236.04
-   ],
-   [
-    1793571015,
-    4232.45
-   ],
-   [
-    1793573606,
-    4226.95
-   ],
-   [
-    1793573782,
-    4226.54
-   ],
-   [
-    1793573963,
-    4243.13
-   ],
-   [
-    1793574142,
-    4240.11
-   ],
-   [
-    1793574323,
-    4226.24
-   ],
-   [
-    1793574503,
-    4234.27
-   ],
-   [
-    1793574682,
-    4213.64
-   ],
-   [
-    1793574864,
-    4181.54
-   ],
-   [
-    1793575044,
-    4179.24
-   ],
-   [
-    1793575220,
-    4171.32
-   ],
-   [
-    1793575400,
-    4172.83
-   ],
-   [
-    1793575581,
-    4173.99
-   ],
-   [
-    1793575761,
-    4170.96
-   ],
-   [
-    1793575941,
-    4166.01
-   ],
-   [
-    1793576121,
-    4166.01
-   ],
-   [
-    1793578712,
-    4166.01
-   ],
-   [
-    1793578891,
-    4166.01
-   ],
-   [
-    1793579071,
-    4166.01
-   ],
-   [
-    1793579251,
-    4166.01
-   ],
-   [
-    1793579430,
-    4162.01
-   ],
-   [
-    1793579611,
-    4161.61
-   ],
-   [
-    1793579790,
-    4164.82
-   ],
-   [
-    1793579970,
-    4166.03
-   ],
-   [
-    1793580150,
-    4162.82
-   ],
-   [
-    1793580330,
-    4159.6
-   ],
-   [
-    1793580510,
-    4157.6
-   ],
-   [
-    1793580691,
-    4158.8
-   ],
-   [
-    1793580870,
-    4162.82
-   ],
-   [
-    1793581049,
-    4160.81
-   ],
-   [
-    1793581230,
-    4152.78
-   ],
-   [
-    1793584569,
-    4139.5
-   ],
-   [
-    1793584748,
-    4139.5
-   ],
-   [
-    1793584929,
-    4139.5
-   ],
-   [
-    1793585109,
-    4139.5
-   ],
-   [
-    1793585288,
-    4139.5
-   ],
-   [
-    1793585469,
-    4139.5
-   ],
-   [
-    1793585649,
-    4139.5
-   ],
-   [
-    1793585829,
-    4139.5
-   ],
-   [
-    1793586010,
-    4139.5
-   ],
-   [
-    1793586189,
-    4139.5
-   ],
-   [
-    1793586369,
-    4139.5
-   ],
-   [
-    1793586549,
-    4139.5
-   ],
-   [
-    1793586729,
-    4139.5
-   ],
-   [
-    1793586909,
-    4139.5
-   ],
-   [
-    1793587089,
-    4139.5
-   ],
-   [
-    1793587750,
-    4139.5
-   ],
-   [
-    1793587930,
-    4139.5
-   ],
-   [
-    1793588109,
-    4139.5
-   ],
-   [
-    1793588289,
-    4139.5
-   ],
-   [
-    1793588469,
-    4139.5
-   ],
-   [
-    1793588649,
-    4139.5
-   ],
-   [
-    1793588829,
-    4139.5
-   ],
-   [
-    1793589009,
-    4139.5
-   ],
-   [
-    1793589190,
-    4139.5
-   ],
-   [
-    1793589369,
-    4139.5
-   ],
-   [
-    1793589550,
-    4139.5
-   ],
-   [
-    1793589730,
-    4139.5
-   ],
-   [
-    1793589909,
-    4139.5
-   ],
-   [
-    1793590090,
-    4139.5
-   ],
-   [
-    1793590270,
-    4139.5
-   ],
-   [
-    1793590807,
-    4139.5
-   ],
-   [
-    1793590986,
-    4139.5
-   ],
-   [
-    1793591166,
-    4139.5
-   ],
-   [
-    1793591345,
-    4139.5
-   ],
-   [
-    1793591526,
-    4139.5
-   ],
-   [
-    1793591707,
-    4139.5
-   ],
-   [
-    1793591886,
-    4139.5
-   ],
-   [
-    1793592079,
-    4139.5
-   ],
-   [
-    1793592245,
-    4139.5
-   ],
-   [
-    1793592425,
-    4139.5
-   ],
-   [
-    1793592606,
-    4139.5
-   ],
-   [
-    1793592798,
-    4139.5
-   ],
-   [
-    1793592966,
-    4139.5
-   ],
-   [
-    1793593146,
-    4139.5
-   ],
-   [
-    1793593327,
-    4139.5
-   ],
-   [
-    1793594524,
-    4139.5
-   ],
-   [
-    1793594691,
-    4139.5
-   ],
-   [
-    1793594871,
-    4139.5
-   ],
-   [
-    1793595051,
-    4135.53
-   ],
-   [
-    1793595244,
-    4137.62
-   ],
-   [
-    1793595411,
-    4137.97
-   ],
-   [
-    1793595603,
-    4139.71
-   ],
-   [
-    1793595775,
-    4137.34
-   ],
-   [
-    1793595969,
-    4136.99
-   ],
-   [
-    1793596135,
-    4137.13
-   ],
-   [
-    1793596309,
-    4136.19
-   ],
-   [
-    1793596488,
-    4143.58
-   ],
-   [
-    1793596682,
-    4148.17
-   ],
-   [
-    1793596848,
-    4153.45
-   ],
-   [
-    1793597028,
-    4143.94
-   ],
-   [
-    1793598217,
-    4127.08
-   ],
-   [
-    1793598385,
-    4128.99
-   ],
-   [
-    1793598565,
-    4129.88
-   ],
-   [
-    1793598744,
-    4131.27
-   ],
-   [
-    1793598936,
-    4137.07
-   ],
-   [
-    1793599103,
-    4140.33
-   ],
-   [
-    1793599284,
-    4139.42
-   ],
-   [
-    1793599463,
-    4147.25
-   ],
-   [
-    1793599660,
-    4141.27
-   ],
-   [
-    1793599824,
-    4154.48
-   ],
-   [
-    1793600004,
-    4156.39
-   ],
-   [
-    1793600184,
-    4156.8
-   ],
-   [
-    1793600378,
-    4166.85
-   ],
-   [
-    1793600543,
-    4164.99
-   ],
-   [
-    1793600724,
-    4173.55
-   ],
-   [
-    1793602120,
-    4170.64
-   ],
-   [
-    1793602300,
-    4170.76
-   ],
-   [
-    1793602480,
-    4166.69
-   ],
-   [
-    1793602659,
-    4156.63
-   ],
-   [
-    1793602839,
-    4155.65
-   ],
-   [
-    1793603019,
-    4147.18
-   ],
-   [
-    1793603200,
-    4145.49
-   ],
-   [
-    1793603379,
-    4156.27
-   ],
-   [
-    1793603559,
-    4162.12
-   ],
-   [
-    1793603741,
-    4160.7
-   ],
-   [
-    1793603921,
-    4164.93
-   ],
-   [
-    1793604100,
-    4151.42
-   ],
-   [
-    1793604280,
-    4159.88
-   ],
-   [
-    1793604459,
-    4156.21
-   ],
-   [
-    1793604639,
-    4168.1
-   ],
-   [
-    1793607217,
-    4138.82
-   ],
-   [
-    1793607395,
-    4149.81
-   ],
-   [
-    1793607575,
-    4160.98
-   ],
-   [
-    1793607755,
-    4152.4
-   ],
-   [
-    1793607936,
-    4149.67
-   ],
-   [
-    1793608115,
-    4147.63
-   ],
-   [
-    1793608296,
-    4127.78
-   ],
-   [
-    1793608475,
-    4127.12
-   ],
-   [
-    1793608655,
-    4128.45
-   ],
-   [
-    1793608835,
-    4112.74
-   ],
-   [
-    1793609018,
-    4082.25
-   ],
-   [
-    1793609198,
-    4082.25
-   ],
-   [
-    1793609378,
-    4082.25
-   ],
-   [
-    1793609561,
-    4082.25
-   ],
-   [
-    1793609740,
-    4082.25
-   ],
-   [
-    1793611578,
-    4082.25
-   ],
-   [
-    1793611758,
-    4082.25
-   ],
-   [
-    1793611938,
-    4082.25
-   ],
-   [
-    1793612118,
-    4082.25
-   ],
-   [
-    1793612298,
-    4082.25
-   ],
-   [
-    1793612478,
-    4082.25
-   ],
-   [
-    1793612658,
-    4082.25
-   ],
-   [
-    1793612838,
-    4082.25
-   ],
-   [
-    1793613018,
-    4082.25
-   ],
-   [
-    1793613198,
-    4082.25
-   ],
-   [
-    1793613378,
-    4082.25
-   ],
-   [
-    1793613557,
-    4082.25
-   ],
-   [
-    1793613739,
-    4082.25
-   ],
-   [
-    1793613918,
-    4082.25
-   ],
-   [
-    1793614098,
-    4082.25
-   ],
-   [
-    1793615393,
-    4072.45
-   ],
-   [
-    1793615571,
-    4070.46
-   ],
-   [
-    1793615750,
-    4071.97
-   ],
-   [
-    1793615930,
-    4074.06
-   ],
-   [
-    1793616110,
-    4074.73
-   ],
-   [
-    1793616290,
-    4070.03
-   ],
-   [
-    1793616471,
-    4072.52
-   ],
-   [
-    1793616651,
-    4065.69
-   ],
-   [
-    1793616830,
-    4070.68
-   ],
-   [
-    1793617010,
-    4078.08
-   ],
-   [
-    1793617191,
-    4075.39
-   ],
-   [
-    1793617371,
-    4072.93
-   ],
-   [
-    1793617551,
-    4072.08
-   ],
-   [
-    1793617730,
-    4085.7
-   ],
-   [
-    1793617910,
-    4088.82
-   ],
-   [
-    1793618817,
-    4085.52
-   ],
-   [
-    1793618997,
-    4101.1
-   ],
-   [
-    1793619177,
-    4098.2
-   ],
-   [
-    1793619365,
-    4096.14
-   ],
-   [
-    1793619535,
-    4097.16
-   ],
-   [
-    1793619713,
-    4092.69
-   ],
-   [
-    1793619893,
-    4097.08
-   ],
-   [
-    1793620086,
-    4108.05
-   ],
-   [
-    1793620255,
-    4097.47
-   ],
-   [
-    1793620434,
-    4087.4
-   ],
-   [
-    1793620615,
-    4082.42
-   ],
-   [
-    1793620808,
-    4088.08
-   ],
-   [
-    1793620973,
-    4084.08
-   ],
-   [
-    1793621154,
-    4081.01
-   ],
-   [
-    1793621333,
-    4058.96
-   ],
-   [
-    1793622411,
-    4042.27
-   ],
-   [
-    1793622577,
-    4044.98
-   ],
-   [
-    1793622759,
-    4041.54
-   ],
-   [
-    1793622939,
-    4041.54
-   ],
-   [
-    1793623131,
-    4041.54
-   ],
-   [
-    1793623299,
-    4041.54
-   ],
-   [
-    1793623479,
-    4041.54
-   ],
-   [
-    1793623661,
-    4033.78
-   ],
-   [
-    1793623849,
-    4036.09
-   ],
-   [
-    1793624017,
-    4040.42
-   ],
-   [
-    1793624198,
-    4042.95
-   ],
-   [
-    1793624377,
-    4039.54
-   ],
-   [
-    1793624576,
-    4042.97
-   ],
-   [
-    1793624735,
-    4043.9
-   ],
-   [
-    1793624917,
-    4038.3
-   ],
-   [
-    1793627055,
-    3977.24
-   ],
-   [
-    1793627212,
-    3977.24
-   ],
-   [
-    1793627393,
-    3977.24
-   ],
-   [
-    1793627572,
-    3977.24
-   ],
-   [
-    1793627765,
-    3977.24
-   ],
-   [
-    1793627933,
-    3977.24
-   ],
-   [
-    1793628113,
-    3977.24
-   ],
-   [
-    1793628292,
-    3977.24
-   ],
-   [
-    1793628485,
-    3977.24
-   ],
-   [
-    1793628653,
-    3977.24
-   ],
-   [
-    1793628833,
-    3977.24
-   ],
-   [
-    1793629012,
-    3977.24
-   ],
-   [
-    1793629205,
-    3977.24
-   ],
-   [
-    1793629373,
-    3977.24
-   ],
-   [
-    1793629552,
-    3977.24
-   ],
-   [
-    1793630595,
-    3977.24
-   ],
-   [
-    1793630745,
-    3977.24
-   ],
-   [
-    1793630925,
-    3977.24
-   ],
-   [
-    1793631105,
-    3977.24
-   ],
-   [
-    1793631314,
-    3977.24
-   ],
-   [
-    1793631466,
-    3977.24
-   ],
-   [
-    1793631645,
-    3977.24
-   ],
-   [
-    1793631826,
-    3977.24
-   ],
-   [
-    1793632032,
-    3977.24
-   ],
-   [
-    1793632186,
-    3977.24
-   ],
-   [
-    1793632365,
-    3977.24
-   ],
-   [
-    1793632545,
-    3977.24
-   ],
-   [
-    1793632755,
-    3977.24
-   ],
-   [
-    1793632906,
-    3977.24
-   ],
-   [
-    1793633085,
-    3977.24
-   ],
-   [
-    1793634046,
-    3977.24
-   ],
-   [
-    1793634195,
-    3977.24
-   ],
-   [
-    1793634374,
-    3977.24
-   ],
-   [
-    1793634554,
-    3977.24
-   ],
-   [
-    1793634764,
-    3977.24
-   ],
-   [
-    1793634913,
-    3977.24
-   ],
-   [
-    1793635094,
-    3977.24
-   ],
-   [
-    1793635273,
-    3977.24
-   ],
-   [
-    1793635488,
-    3977.24
-   ],
-   [
-    1793635634,
-    3977.24
-   ],
-   [
-    1793635816,
-    3977.24
-   ],
-   [
-    1793635994,
-    3977.24
-   ],
-   [
-    1793636203,
-    3977.24
-   ],
-   [
-    1793636354,
-    3977.24
-   ],
-   [
-    1793636534,
-    3977.24
-   ],
-   [
-    1793637882,
-    3977.24
-   ],
-   [
-    1793638031,
-    3977.24
-   ],
-   [
-    1793638211,
-    3977.24
-   ],
-   [
-    1793638391,
-    3977.24
-   ],
-   [
-    1793638596,
-    3977.24
-   ],
-   [
-    1793638751,
-    3977.24
-   ],
-   [
-    1793638931,
-    3977.24
-   ],
-   [
-    1793639111,
-    3977.24
-   ],
-   [
-    1793639317,
-    3977.24
-   ],
-   [
-    1793639471,
-    3977.24
-   ],
-   [
-    1793639651,
-    3977.24
-   ],
-   [
-    1793639830,
-    3977.24
-   ],
-   [
-    1793640038,
-    3977.24
-   ],
-   [
-    1793640191,
-    3977.24
-   ],
-   [
-    1793640372,
-    3977.24
-   ],
-   [
-    1793641338,
-    3977.24
-   ],
-   [
-    1793641490,
-    3977.24
-   ],
-   [
-    1793641669,
-    3977.24
-   ],
-   [
-    1793641850,
-    3977.24
-   ],
-   [
-    1793642057,
-    3977.24
-   ],
-   [
-    1793642210,
-    3977.24
-   ],
-   [
-    1793642390,
-    3977.24
-   ],
-   [
-    1793642570,
-    3977.24
-   ],
-   [
-    1793642776,
-    3977.24
-   ],
-   [
-    1793642929,
-    3977.24
-   ],
-   [
-    1793643110,
-    3977.24
-   ],
-   [
-    1793643289,
-    3977.24
-   ],
-   [
-    1793643498,
-    3977.24
-   ],
-   [
-    1793643650,
-    3977.24
-   ],
-   [
-    1793643829,
-    3977.24
-   ],
-   [
-    1793644656,
-    3977.24
-   ],
-   [
-    1793644810,
-    3977.24
-   ],
-   [
-    1793644989,
-    3977.24
-   ],
-   [
-    1793645170,
-    3977.24
-   ],
-   [
-    1793645375,
-    3977.24
-   ],
-   [
-    1793645529,
-    3977.24
-   ],
-   [
-    1793645709,
-    3977.24
-   ],
-   [
-    1793645889,
-    3977.24
-   ],
-   [
-    1793646096,
-    3977.24
-   ],
-   [
-    1793646249,
-    3977.24
-   ],
-   [
-    1793646430,
-    3977.24
-   ],
-   [
-    1793646609,
-    3977.24
-   ],
-   [
-    1793646816,
-    3977.24
-   ],
-   [
-    1793646969,
-    3977.24
-   ],
-   [
-    1793647149,
-    3977.24
-   ],
-   [
-    1793648289,
-    3977.24
-   ],
-   [
-    1793648441,
-    3977.24
-   ],
-   [
-    1793648621,
-    3977.24
-   ],
-   [
-    1793648802,
-    3977.24
-   ],
-   [
-    1793649012,
-    3977.24
-   ],
-   [
-    1793649161,
-    3977.24
-   ],
-   [
-    1793649342,
-    3977.24
-   ],
-   [
-    1793649521,
-    3977.24
-   ],
-   [
-    1793649726,
-    3977.24
-   ],
-   [
-    1793649881,
-    3977.24
-   ],
-   [
-    1793650074,
-    3977.24
-   ],
-   [
-    1793650242,
-    3977.24
-   ],
-   [
-    1793650449,
-    3977.24
-   ],
-   [
-    1793650601,
-    3977.24
-   ],
-   [
-    1793650782,
-    3977.24
-   ],
-   [
-    1793651254,
-    3977.24
-   ],
-   [
-    1793651421,
-    3977.24
-   ],
-   [
-    1793651601,
-    3977.24
-   ],
-   [
-    1793651781,
-    3977.24
-   ],
-   [
-    1793651974,
-    3977.24
-   ],
-   [
-    1793652141,
-    3977.24
-   ],
-   [
-    1793652322,
-    3977.24
-   ],
-   [
-    1793652503,
-    3977.24
-   ],
-   [
-    1793652693,
-    3977.24
-   ],
-   [
-    1793652861,
-    3977.24
-   ],
-   [
-    1793653041,
-    3977.24
-   ],
-   [
-    1793653225,
-    3977.24
-   ],
-   [
-    1793653417,
-    3977.24
-   ],
-   [
-    1793653584,
-    3969.61
-   ],
-   [
-    1793653763,
-    3960.44
-   ],
-   [
-    1793654309,
-    3955.13
-   ],
-   [
-    1793654478,
-    3953.03
-   ],
-   [
-    1793654657,
-    3958.44
-   ],
-   [
-    1793654837,
-    3960.74
-   ],
-   [
-    1793655030,
-    3959.73
-   ],
-   [
-    1793655198,
-    3957.2
-   ],
-   [
-    1793655377,
-    3958.55
-   ],
-   [
-    1793655558,
-    3940.2
-   ],
-   [
-    1793655748,
-    3940.9
-   ],
-   [
-    1793655917,
-    3938.89
-   ],
-   [
-    1793656098,
-    3944.81
-   ],
-   [
-    1793656278,
-    3947.15
-   ],
-   [
-    1793656471,
-    3945.85
-   ],
-   [
-    1793656638,
-    3942.32
-   ],
-   [
-    1793656818,
-    3946.18
-   ],
-   [
-    1793656954,
-    3944.51
-   ],
-   [
-    1793657148,
-    3947.37
-   ],
-   [
-    1793657313,
-    3945.9
-   ],
-   [
-    1793657494,
-    3944.22
-   ],
-   [
-    1793657673,
-    3945.81
-   ],
-   [
-    1793657865,
-    3941.4
-   ],
-   [
-    1793658033,
-    3936.71
-   ],
-   [
-    1793658214,
-    3938.16
-   ],
-   [
-    1793658393,
-    3938.92
-   ],
-   [
-    1793658586,
-    3944.67
-   ],
-   [
-    1793658753,
-    3946.13
-   ],
-   [
-    1793658933,
-    3947.58
-   ],
-   [
-    1793659113,
-    3949.11
-   ],
-   [
-    1793659305,
-    3947.27
-   ],
-   [
-    1793659473,
-    3947.25
-   ],
-   [
-    1793659513,
-    3947.25
-   ],
-   [
-    1793659694,
-    3942.67
-   ],
-   [
-    1793659873,
-    3942.33
-   ],
-   [
-    1793660066,
-    3942.46
-   ],
-   [
-    1793660234,
-    3942.8
-   ],
-   [
-    1793660414,
-    3943.02
-   ],
-   [
-    1793660594,
-    3949.49
-   ],
-   [
-    1793660786,
-    3951.36
-   ],
-   [
-    1793660954,
-    3945.04
-   ],
-   [
-    1793661134,
-    3945.04
-   ],
-   [
-    1793661314,
-    3945.04
-   ],
-   [
-    1793661506,
-    3945.04
-   ],
-   [
-    1793661674,
-    3945.04
-   ],
-   [
-    1793661854,
-    3945.04
-   ],
-   [
-    1793662034,
-    3945.04
-   ],
-   [
-    1793664644,
-    3945.04
-   ],
-   [
-    1793664813,
-    3945.04
-   ],
-   [
-    1793664994,
-    3945.04
-   ],
-   [
-    1793665173,
-    3945.04
-   ],
-   [
-    1793665363,
-    3945.04
-   ],
-   [
-    1793665534,
-    3945.04
-   ],
-   [
-    1793665712,
-    3945.04
-   ],
-   [
-    1793665893,
-    3945.04
-   ],
-   [
-    1793666085,
-    3945.04
-   ],
-   [
-    1793666253,
-    3945.04
-   ],
-   [
-    1793666433,
-    3945.04
-   ],
-   [
-    1793666613,
-    3945.04
-   ],
-   [
-    1793666803,
-    3945.04
-   ],
-   [
-    1793666973,
-    3945.04
-   ],
-   [
-    1793667153,
-    3945.04
-   ],
-   [
-    1793667910,
-    3945.04
-   ],
-   [
-    1793668076,
-    3945.04
-   ],
-   [
-    1793668256,
-    3945.04
-   ],
-   [
-    1793668436,
-    3945.04
-   ],
-   [
-    1793668626,
-    3945.04
-   ],
-   [
-    1793668795,
-    3945.04
-   ],
-   [
-    1793668976,
-    3945.04
-   ],
-   [
-    1793669156,
-    3945.04
-   ],
-   [
-    1793669347,
-    3945.04
-   ],
-   [
-    1793669515,
-    3945.04
-   ],
-   [
-    1793669696,
-    3945.04
-   ],
-   [
-    1793669876,
-    3945.04
-   ],
-   [
-    1793670068,
-    3945.04
-   ],
-   [
-    1793670236,
-    3945.04
-   ],
-   [
-    1793670416,
-    3945.04
-   ],
-   [
-    1793671524,
-    3945.04
-   ],
-   [
-    1793671692,
-    3945.04
-   ],
-   [
-    1793671872,
-    3945.04
-   ],
-   [
-    1793672052,
-    3945.04
-   ],
-   [
-    1793672243,
-    3935.57
-   ],
-   [
-    1793672409,
-    3941.99
-   ],
-   [
-    1793672589,
-    3925.62
-   ],
-   [
-    1793672768,
-    3927.6
-   ],
-   [
-    1793672959,
-    3930.33
-   ],
-   [
-    1793673128,
-    3931.51
-   ],
-   [
-    1793673309,
-    3911.77
-   ],
-   [
-    1793673489,
-    3917.79
-   ],
-   [
-    1793673679,
-    3930.4
-   ],
-   [
-    1793673848,
-    3936.81
-   ],
-   [
-    1793674029,
-    3944.17
-   ],
-   [
-    1793674582,
-    3954.25
-   ],
-   [
-    1793674746,
-    3968.78
-   ],
-   [
-    1793674926,
-    3957.16
-   ],
-   [
-    1793675107,
-    3990.65
-   ],
-   [
-    1793675298,
-    3954.32
-   ],
-   [
-    1793675466,
-    3937.09
-   ],
-   [
-    1793675646,
-    3939.09
-   ],
-   [
-    1793675826,
-    3928.11
-   ],
-   [
-    1793676019,
-    3922.96
-   ],
-   [
-    1793676186,
-    3929.86
-   ],
-   [
-    1793676366,
-    3934.88
-   ],
-   [
-    1793676546,
-    3955.11
-   ],
-   [
-    1793676737,
-    3962.4
-   ],
-   [
-    1793676906,
-    3968.4
-   ],
-   [
-    1793677087,
-    3975.05
-   ],
-   [
-    1793677773,
-    3933.74
-   ],
-   [
-    1793677942,
-    3938.7
-   ],
-   [
-    1793678122,
-    3929.81
-   ],
-   [
-    1793678301,
-    3933.81
-   ],
-   [
-    1793678496,
-    3947.8
-   ],
-   [
-    1793678660,
-    3953.01
-   ],
-   [
-    1793678841,
-    3950.4
-   ],
-   [
-    1793679020,
-    3941.81
-   ],
-   [
-    1793679212,
-    3938.04
-   ],
-   [
-    1793679381,
-    3926.61
-   ],
-   [
-    1793679563,
-    3926.29
-   ],
-   [
-    1793679743,
-    3926.29
-   ],
-   [
-    1793679934,
-    3926.29
-   ],
-   [
-    1793680103,
-    3926.29
-   ],
-   [
-    1793680285,
-    3926.29
-   ],
-   [
-    1793680769,
-    3926.29
-   ],
-   [
-    1793680937,
-    3926.29
-   ],
-   [
-    1793681117,
-    3926.29
-   ],
-   [
-    1793681297,
-    3926.29
-   ],
-   [
-    1793681488,
-    3926.29
-   ],
-   [
-    1793681657,
-    3926.29
-   ],
-   [
-    1793681837,
-    3926.29
-   ],
-   [
-    1793682021,
-    3926.29
-   ],
-   [
-    1793682216,
-    3926.29
-   ],
-   [
-    1793682381,
-    3926.29
-   ],
-   [
-    1793682561,
-    3926.29
-   ],
-   [
-    1793682737,
-    3926.29
-   ],
-   [
-    1793682929,
-    3926.29
-   ],
-   [
-    1793683096,
-    3926.29
-   ],
-   [
-    1793683277,
-    3922.52
-   ],
-   [
-    1793684161,
-    3936.83
-   ],
-   [
-    1793684330,
-    3932.56
-   ],
-   [
-    1793684507,
-    3925.83
-   ],
-   [
-    1793684686,
-    3913.94
-   ],
-   [
-    1793684876,
-    3924.91
-   ],
-   [
-    1793685045,
-    3918.38
-   ],
-   [
-    1793685225,
-    3919.97
-   ],
-   [
-    1793685405,
-    3925.49
-   ],
-   [
-    1793685597,
-    3935.34
-   ],
-   [
-    1793685765,
-    3944.35
-   ],
-   [
-    1793685944,
-    3950.64
-   ],
-   [
-    1793686125,
-    3951.65
-   ],
-   [
-    1793686316,
-    3959.99
-   ],
-   [
-    1793686486,
-    3965.66
-   ],
-   [
-    1793686665,
-    3948.98
-   ],
-   [
-    1793687783,
-    3909.6
-   ],
-   [
-    1793687947,
-    3912.26
-   ],
-   [
-    1793688128,
-    3922.13
-   ],
-   [
-    1793688308,
-    3933.7
-   ],
-   [
-    1793688498,
-    3950.69
-   ],
-   [
-    1793688667,
-    3959.34
-   ],
-   [
-    1793688847,
-    3948.37
-   ],
-   [
-    1793689027,
-    3948.29
-   ],
-   [
-    1793689223,
-    3949.82
-   ],
-   [
-    1793689387,
-    3943.52
-   ],
-   [
-    1793689567,
-    3954.79
-   ],
-   [
-    1793689747,
-    3946.89
-   ],
-   [
-    1793689942,
-    3942.68
-   ],
-   [
-    1793690108,
-    3940.82
-   ],
-   [
-    1793690288,
-    3928.4
-   ],
-   [
-    1793692418,
-    3896.43
-   ],
-   [
-    1793692585,
-    3896.43
-   ],
-   [
-    1793692766,
-    3896.43
-   ],
-   [
-    1793692946,
-    3896.43
-   ],
-   [
-    1793693139,
-    3896.43
-   ],
-   [
-    1793693306,
-    3896.43
-   ],
-   [
-    1793693486,
-    3896.43
-   ],
-   [
-    1793693666,
-    3896.43
-   ],
-   [
-    1793693860,
-    3896.43
-   ],
-   [
-    1793694025,
-    3896.43
-   ],
-   [
-    1793694206,
-    3896.43
-   ],
-   [
-    1793694386,
-    3896.43
-   ],
-   [
-    1793694581,
-    3896.43
-   ],
-   [
-    1793694745,
-    3896.43
-   ],
-   [
-    1793694926,
-    3888.95
-   ],
-   [
-    1793695957,
-    3877.74
-   ],
-   [
-    1793696118,
-    3872.54
-   ],
-   [
-    1793696299,
-    3868.07
-   ],
-   [
-    1793696479,
-    3869.31
-   ],
-   [
-    1793696672,
-    3860.7
-   ],
-   [
-    1793696841,
-    3834.44
-   ],
-   [
-    1793697021,
-    3834.44
-   ],
-   [
-    1793697201,
-    3834.44
-   ],
-   [
-    1793697395,
-    3834.44
-   ],
-   [
-    1793697562,
-    3834.44
-   ],
-   [
-    1793697743,
-    3834.44
-   ],
-   [
-    1793697924,
-    3834.44
-   ],
-   [
-    1793698115,
-    3834.44
-   ],
-   [
-    1793698283,
-    3834.44
-   ],
-   [
-    1793698463,
-    3834.44
-   ],
-   [
-    1793699317,
-    3834.44
-   ],
-   [
-    1793699483,
-    3834.44
-   ],
-   [
-    1793699663,
-    3834.44
-   ],
-   [
-    1793699843,
-    3834.44
-   ],
-   [
-    1793700035,
-    3834.44
-   ],
-   [
-    1793700203,
-    3834.44
-   ],
-   [
-    1793700383,
-    3834.44
-   ],
-   [
-    1793700562,
-    3834.44
-   ],
-   [
-    1793700753,
-    3834.44
-   ],
-   [
-    1793700924,
-    3834.44
-   ],
-   [
-    1793701103,
-    3834.44
-   ],
-   [
-    1793701283,
-    3834.44
-   ],
-   [
-    1793701475,
-    3834.44
-   ],
-   [
-    1793701642,
-    3834.44
-   ],
-   [
-    1793701824,
-    3834.44
-   ],
-   [
-    1793702572,
-    3834.44
-   ],
-   [
-    1793702740,
-    3834.44
-   ],
-   [
-    1793702920,
-    3834.44
-   ],
-   [
-    1793703099,
-    3834.44
-   ],
-   [
-    1793703291,
-    3834.44
-   ],
-   [
-    1793703460,
-    3834.44
-   ],
-   [
-    1793703642,
-    3834.44
-   ],
-   [
-    1793703820,
-    3834.44
-   ],
-   [
-    1793704012,
-    3834.44
-   ],
-   [
-    1793704180,
-    3834.44
-   ],
-   [
-    1793704360,
-    3834.44
-   ],
-   [
-    1793704540,
-    3834.44
-   ],
-   [
-    1793704732,
-    3834.44
-   ],
-   [
-    1793704901,
-    3834.44
-   ],
-   [
-    1793705080,
-    3834.44
-   ],
-   [
-    1793705829,
-    3834.44
-   ],
-   [
-    1793705997,
-    3834.44
-   ],
-   [
-    1793706177,
-    3834.44
-   ],
-   [
-    1793706357,
-    3834.44
-   ],
-   [
-    1793706547,
-    3834.44
-   ],
-   [
-    1793706717,
-    3834.44
-   ],
-   [
-    1793706897,
-    3834.44
-   ],
-   [
-    1793707077,
-    3834.44
-   ],
-   [
-    1793707269,
-    3834.44
-   ],
-   [
-    1793707437,
-    3834.44
-   ],
-   [
-    1793707618,
-    3834.44
-   ],
-   [
-    1793707796,
-    3834.44
-   ],
-   [
-    1793707990,
-    3834.44
-   ],
-   [
-    1793708157,
-    3834.44
-   ],
-   [
-    1793708337,
-    3834.44
-   ],
-   [
-    1793709255,
-    3834.44
-   ],
-   [
-    1793709422,
-    3834.44
-   ],
-   [
-    1793709604,
-    3834.44
-   ],
-   [
-    1793709783,
-    3834.44
-   ],
-   [
-    1793709975,
-    3834.44
-   ],
-   [
-    1793710143,
-    3834.44
-   ],
-   [
-    1793710323,
-    3834.44
-   ],
-   [
-    1793710504,
-    3834.44
-   ],
-   [
-    1793710693,
-    3834.44
-   ],
-   [
-    1793710863,
-    3834.44
-   ],
-   [
-    1793711044,
-    3834.44
-   ],
-   [
-    1793711224,
-    3834.44
-   ],
-   [
-    1793711416,
-    3834.44
-   ],
-   [
-    1793711584,
-    3834.44
-   ],
-   [
-    1793711764,
-    3834.44
-   ],
-   [
-    1793713092,
-    3834.44
-   ],
-   [
-    1793713250,
-    3834.44
-   ],
-   [
-    1793713430,
-    3834.44
-   ],
-   [
-    1793713610,
-    3834.44
-   ],
-   [
-    1793713804,
-    3834.44
-   ],
-   [
-    1793713970,
-    3834.44
-   ],
-   [
-    1793714150,
-    3834.44
-   ],
-   [
-    1793714330,
-    3834.44
-   ],
-   [
-    1793714523,
-    3834.44
-   ],
-   [
-    1793714690,
-    3834.44
-   ],
-   [
-    1793714871,
-    3834.44
-   ],
-   [
-    1793715050,
-    3830.75
-   ],
-   [
-    1793715242,
-    3830.63
-   ],
-   [
-    1793715409,
-    3833.3
-   ],
-   [
-    1793715589,
-    3829.8
-   ],
-   [
-    1793718214,
-    3819.31
-   ],
-   [
-    1793718361,
-    3826.22
-   ],
-   [
-    1793718540,
-    3822.33
-   ],
-   [
-    1793718720,
-    3821.93
-   ],
-   [
-    1793718926,
-    3818.12
-   ],
-   [
-    1793719080,
-    3820.44
+    1793719177,
+    5000.0
    ]
-  ]
+  ],
+  "archive": [
+   {
+    "until_ms": 1793719170412,
+    "balance": 3822.43,
+    "start": 5000,
+    "trades": [
+     {
+      "id": "f35b4d8c",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 0.41653996857221764,
+      "entry": 2400.730003,
+      "tp": 2415.1343830180003,
+      "sl": 2391.127082988,
+      "opened_ms": 1792730650919,
+      "entry_cost": 1.0,
+      "max_hold_min": 120,
+      "margin": 1000.0,
+      "note": "RSI 40, above EMA200",
+      "exit": 2406.2479089999997,
+      "closed_ms": 1792737960000,
+      "reason": "time limit",
+      "gross": 2.2984,
+      "costs": 2.0023,
+      "pnl": 0.2961
+     },
+     {
+      "id": "7075d3b9",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 9.822748066449456,
+      "entry": 101.810534,
+      "tp": 102.421397204,
+      "sl": 101.40329186400001,
+      "opened_ms": 1792908791819,
+      "entry_cost": 1.0000592259926866,
+      "max_hold_min": 120,
+      "margin": 1000.0592259926866,
+      "note": "RSI 38, above EMA200",
+      "exit": 101.37287087644081,
+      "closed_ms": 1792911060000,
+      "reason": "stop",
+      "gross": -4.2991,
+      "costs": 1.9958,
+      "pnl": -6.2949
+     },
+     {
+      "id": "2b43dd8b",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.01249002640775164,
+      "entry": 80063.88196099999,
+      "tp": 8006388.196099999,
+      "sl": 0.0,
+      "opened_ms": 1792852017830,
+      "entry_cost": 1.0,
+      "max_hold_min": 1440,
+      "margin": 1000.0,
+      "note": "Erdem 24.10 17:25: 1000 $ BTC al, yar\u0131na kadar tut",
+      "exit": 80303.83162099999,
+      "closed_ms": 1792938480000,
+      "reason": "time limit",
+      "gross": 2.997,
+      "costs": 2.003,
+      "pnl": 0.994
+     },
+     {
+      "id": "8ec1f119",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.012341539126659126,
+      "entry": 80946.06653699999,
+      "tp": 81431.742936222,
+      "sl": 80622.282270852,
+      "opened_ms": 1793189691478,
+      "entry_cost": 0.9989990473155385,
+      "max_hold_min": 120,
+      "margin": 998.9990473155384,
+      "note": "RSI 31, above EMA200",
+      "exit": 80598.09558617075,
+      "closed_ms": 1793194260000,
+      "reason": "stop",
+      "gross": -4.2945,
+      "costs": 1.9937,
+      "pnl": -6.2882
+     },
+     {
+      "id": "09d3bf31",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 8.058727828308227,
+      "entry": 742.8527889999999,
+      "tp": 747.3099057339999,
+      "sl": 739.8813778439999,
+      "opened_ms": 1793271214630,
+      "entry_cost": 2.9932242215253395,
+      "max_hold_min": 120,
+      "margin": 1995.4828143502264,
+      "note": "RSI 34, x3",
+      "exit": 739.6594134306467,
+      "closed_ms": 1793273040000,
+      "reason": "stop",
+      "gross": -25.7345,
+      "costs": 5.9736,
+      "pnl": -31.7081
+     },
+     {
+      "id": "94352eef",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 8.036183015423456,
+      "entry": 740.201994,
+      "tp": 744.643205964,
+      "sl": 737.2411860240001,
+      "opened_ms": 1793274802218,
+      "entry_cost": 2.9741993460826874,
+      "max_hold_min": 120,
+      "margin": 1982.799564055125,
+      "note": "RSI 39, x3",
+      "exit": 744.4198130022108,
+      "closed_ms": 1793280660000,
+      "reason": "take profit",
+      "gross": 33.8952,
+      "costs": 5.9653,
+      "pnl": 27.9298
+     },
+     {
+      "id": "0cdbf8b6",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07374066840521447,
+      "entry": 81120.968992,
+      "tp": 81607.694805952,
+      "sl": 80796.485116032,
+      "opened_ms": 1793294796559,
+      "entry_cost": 2.9909572375743783,
+      "max_hold_min": 120,
+      "margin": 1993.971491716252,
+      "note": "RSI 43, x3",
+      "exit": 80772.2461704972,
+      "closed_ms": 1793296080000,
+      "reason": "stop",
+      "gross": -25.7151,
+      "costs": 5.9691,
+      "pnl": -31.6841
+     },
+     {
+      "id": "e69b7f77",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "qty": 4608.24569547434,
+      "entry": 1.29808931,
+      "tp": 1.30587784586,
+      "sl": 1.2928969527599998,
+      "opened_ms": 1793294799324,
+      "entry_cost": 2.9909572375743783,
+      "max_hold_min": 120,
+      "margin": 1993.971491716252,
+      "note": "RSI 42, x3",
+      "exit": 1.292509083674172,
+      "closed_ms": 1793295720000,
+      "reason": "stop",
+      "gross": -25.7151,
+      "costs": 5.9691,
+      "pnl": -31.6841
+     },
+     {
+      "id": "93135d1e",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 2.5224734591941007,
+      "entry": 2341.3021799999997,
+      "tp": 2355.34999308,
+      "sl": 2331.93697128,
+      "opened_ms": 1793297826654,
+      "entry_cost": 2.9529363045016446,
+      "max_hold_min": 120,
+      "margin": 1968.6242030010962,
+      "note": "RSI 41, x3",
+      "exit": 2331.237390188616,
+      "closed_ms": 1793298720000,
+      "reason": "stop",
+      "gross": -25.3882,
+      "costs": 5.8932,
+      "pnl": -31.2813
+     },
+     {
+      "id": "b51e118c",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 29.202202881539765,
+      "entry": 101.120327,
+      "tp": 101.727048962,
+      "sl": 100.715845692,
+      "opened_ms": 1793297827229,
+      "entry_cost": 1.4764681522508218,
+      "max_hold_min": 120,
+      "margin": 984.3121015005478,
+      "note": "RSI 38, x3",
+      "exit": 100.6856309382924,
+      "closed_ms": 1793298720000,
+      "reason": "stop",
+      "gross": -12.6941,
+      "costs": 2.9466,
+      "pnl": -15.6407
+     },
+     {
+      "id": "2413cf4d",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07303259912656432,
+      "entry": 80866.25259999999,
+      "tp": 81351.45011559999,
+      "sl": 80542.78758959999,
+      "opened_ms": 1793297826082,
+      "entry_cost": 2.9529363045016446,
+      "max_hold_min": 120,
+      "margin": 1968.6242030010962,
+      "note": "RSI 41, x3",
+      "exit": 80518.6247533231,
+      "closed_ms": 1793304240000,
+      "reason": "stop",
+      "gross": -25.3882,
+      "costs": 5.8932,
+      "pnl": -31.2813
+     },
+     {
+      "id": "58aab219",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 7.861441463168943,
+      "entry": 744.083158,
+      "tp": 748.547656948,
+      "sl": 741.106825368,
+      "opened_ms": 1793301510825,
+      "entry_cost": 2.924783095173444,
+      "max_hold_min": 120,
+      "margin": 1949.855396782296,
+      "note": "RSI 41, x3",
+      "exit": 740.8844933203897,
+      "closed_ms": 1793304240000,
+      "reason": "stop",
+      "gross": -25.1461,
+      "costs": 5.837,
+      "pnl": -30.9831
+     },
+     {
+      "id": "0d82e9e0",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "qty": 2235.958200077632,
+      "entry": 1.28288475,
+      "tp": 1.2905820585,
+      "sl": 1.277753211,
+      "opened_ms": 1793301511488,
+      "entry_cost": 1.4342383382585213,
+      "max_hold_min": 120,
+      "margin": 956.1588921723475,
+      "note": "RSI 33, x3",
+      "exit": 1.2773698850367001,
+      "closed_ms": 1793304180000,
+      "reason": "stop",
+      "gross": -12.331,
+      "costs": 2.8623,
+      "pnl": -15.1933
+     },
+     {
+      "id": "e9e2c048",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07262768168670866,
+      "entry": 79262.021475,
+      "tp": 79737.59360385001,
+      "sl": 78944.9733891,
+      "opened_ms": 1793307245365,
+      "entry_cost": 2.878308432765683,
+      "max_hold_min": 120,
+      "margin": 1918.8722885104553,
+      "note": "RSI 16, x3",
+      "exit": 78921.28989708328,
+      "closed_ms": 1793307480000,
+      "reason": "stop",
+      "gross": -24.7465,
+      "costs": 5.7442,
+      "pnl": -30.4908
+     },
+     {
+      "id": "6fd6fd45",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 2.538683299694665,
+      "entry": 2267.5600640000002,
+      "tp": 2281.1654243840003,
+      "sl": 2258.489823744,
+      "opened_ms": 1793307246201,
+      "entry_cost": 2.878308432765683,
+      "max_hold_min": 120,
+      "margin": 1918.8722885104553,
+      "note": "RSI 21, x3",
+      "exit": 2257.812276796877,
+      "closed_ms": 1793307480000,
+      "reason": "stop",
+      "gross": -24.7465,
+      "costs": 5.7442,
+      "pnl": -30.4908
+     },
+     {
+      "id": "e8919d4f",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 4.121469576036898,
+      "entry": 698.3694479999999,
+      "tp": 702.5596646879999,
+      "sl": 695.575970208,
+      "opened_ms": 1793307247836,
+      "entry_cost": 1.4391542163828408,
+      "max_hold_min": 120,
+      "margin": 959.4361442552272,
+      "note": "RSI 7, x3",
+      "exit": 702.3488967885935,
+      "closed_ms": 1793307420000,
+      "reason": "take profit",
+      "gross": 16.4012,
+      "costs": 2.8865,
+      "pnl": 13.5147
+     },
+     {
+      "id": "a2187cf0",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 8.006333171457333,
+      "entry": 711.8935039999999,
+      "tp": 716.1648650239999,
+      "sl": 709.0459299839999,
+      "opened_ms": 1793309644312,
+      "entry_cost": 2.8498282878100967,
+      "max_hold_min": 120,
+      "margin": 1899.8855252067312,
+      "note": "RSI 42, x3",
+      "exit": 708.8332162050048,
+      "closed_ms": 1793310060000,
+      "reason": "stop",
+      "gross": -24.5017,
+      "costs": 5.6874,
+      "pnl": -30.1891
+     },
+     {
+      "id": "354f8c60",
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "qty": 74182.36156050976,
+      "entry": 0.076833043,
+      "tp": 0.077294041258,
+      "sl": 0.076525710828,
+      "opened_ms": 1793309645565,
+      "entry_cost": 2.8498282878100967,
+      "max_hold_min": 120,
+      "margin": 1899.8855252067312,
+      "note": "RSI 41, x3",
+      "exit": 0.0765027531147516,
+      "closed_ms": 1793310180000,
+      "reason": "stop",
+      "gross": -24.5017,
+      "costs": 5.6874,
+      "pnl": -30.1891
+     },
+     {
+      "id": "59e76240",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07146704802409769,
+      "entry": 78738.424443,
+      "tp": 79210.854989658,
+      "sl": 78423.470745228,
+      "opened_ms": 1793312266988,
+      "entry_cost": 2.813601380504834,
+      "max_hold_min": 120,
+      "margin": 1875.7342536698895,
+      "note": "RSI 34, x3",
+      "exit": 79187.0917331611,
+      "closed_ms": 1793312700000,
+      "reason": "take profit",
+      "gross": 32.0649,
+      "costs": 5.6432,
+      "pnl": 26.4217
+     },
+     {
+      "id": "664414ac",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 2.487316997310727,
+      "entry": 2262.358504,
+      "tp": 2275.932655024,
+      "sl": 2253.309069984,
+      "opened_ms": 1793312267543,
+      "entry_cost": 2.813601380504834,
+      "max_hold_min": 120,
+      "margin": 1875.7342536698895,
+      "note": "RSI 40, x3",
+      "exit": 2275.249875227493,
+      "closed_ms": 1793312640000,
+      "reason": "take profit",
+      "gross": 32.0649,
+      "costs": 5.6432,
+      "pnl": 26.4217
+     },
+     {
+      "id": "0bb62020",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 29.030421645565692,
+      "entry": 96.919067,
+      "tp": 97.500581402,
+      "sl": 96.53139073199999,
+      "opened_ms": 1793312268101,
+      "entry_cost": 1.4068006902524157,
+      "max_hold_min": 120,
+      "margin": 937.8671268349439,
+      "note": "RSI 41, x3",
+      "exit": 97.4713312275794,
+      "closed_ms": 1793312820000,
+      "reason": "take profit",
+      "gross": 16.0325,
+      "costs": 2.8216,
+      "pnl": 13.2108
+     },
+     {
+      "id": "efd036cd",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 58.763457032676314,
+      "entry": 97.109124,
+      "tp": 97.69177874399999,
+      "sl": 96.720687504,
+      "opened_ms": 1793314801880,
+      "entry_cost": 2.853233917827418,
+      "max_hold_min": 120,
+      "margin": 1902.1559452182785,
+      "note": "RSI 42, x3",
+      "exit": 96.6916712977488,
+      "closed_ms": 1793314980000,
+      "reason": "stop",
+      "gross": -24.531,
+      "costs": 5.6942,
+      "pnl": -30.2252
+     },
+     {
+      "id": "d4bb5452",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "qty": 4578.45618678348,
+      "entry": 1.2463738,
+      "tp": 1.2538520428,
+      "sl": 1.2413883048,
+      "opened_ms": 1793314806692,
+      "entry_cost": 2.853233917827418,
+      "max_hold_min": 120,
+      "margin": 1902.1559452182785,
+      "note": "RSI 38, x3",
+      "exit": 1.24101588830856,
+      "closed_ms": 1793314920000,
+      "reason": "stop",
+      "gross": -24.531,
+      "costs": 5.6942,
+      "pnl": -30.2252
+     },
+     {
+      "id": "fbff2996",
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "qty": 37442.61229149522,
+      "entry": 0.076202854,
+      "tp": 0.076660071124,
+      "sl": 0.075898042584,
+      "opened_ms": 1793314807682,
+      "entry_cost": 1.426616958913708,
+      "max_hold_min": 120,
+      "margin": 951.0779726091387,
+      "note": "RSI 43, x3",
+      "exit": 0.0758752731712248,
+      "closed_ms": 1793314980000,
+      "reason": "stop",
+      "gross": -12.2655,
+      "costs": 2.8471,
+      "pnl": -15.1126
+     },
+     {
+      "id": "dac5b53e",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07145422072446517,
+      "entry": 78592.87079,
+      "tp": 79064.42801474,
+      "sl": 78278.49930684,
+      "opened_ms": 1793317146852,
+      "entry_cost": 2.8078961683990156,
+      "max_hold_min": 120,
+      "margin": 1871.930778932677,
+      "note": "RSI 39, x3",
+      "exit": 78255.01575704796,
+      "closed_ms": 1793317560000,
+      "reason": "stop",
+      "gross": -24.1412,
+      "costs": 5.6037,
+      "pnl": -29.7449
+     },
+     {
+      "id": "46ddc025",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 58.27390600339133,
+      "entry": 96.368902,
+      "tp": 96.947115412,
+      "sl": 95.983426392,
+      "opened_ms": 1793317147978,
+      "entry_cost": 2.8078961683990156,
+      "max_hold_min": 120,
+      "margin": 1871.930778932677,
+      "note": "RSI 42, x3",
+      "exit": 95.9546313640824,
+      "closed_ms": 1793317620000,
+      "reason": "stop",
+      "gross": -24.1412,
+      "costs": 5.6037,
+      "pnl": -29.7449
+     },
+     {
+      "id": "57138a77",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "qty": 2261.7468795289333,
+      "entry": 1.2414723300000001,
+      "tp": 1.2489211639800002,
+      "sl": 1.2365064406800002,
+      "opened_ms": 1793317148994,
+      "entry_cost": 1.4039480841995073,
+      "max_hold_min": 120,
+      "margin": 935.9653894663383,
+      "note": "RSI 44, x3",
+      "exit": 1.2361354887477962,
+      "closed_ms": 1793317620000,
+      "reason": "stop",
+      "gross": -12.0706,
+      "costs": 2.8019,
+      "pnl": -14.8724
+     },
+     {
+      "id": "4676414c",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.07103185366516002,
+      "entry": 77803.93418,
+      "tp": 78270.75778508,
+      "sl": 77492.71844328,
+      "opened_ms": 1793319400334,
+      "entry_cost": 2.763278833623751,
+      "max_hold_min": 120,
+      "margin": 1842.1858890825006,
+      "note": "RSI 22, x3",
+      "exit": 77469.47062774701,
+      "closed_ms": 1793319540000,
+      "reason": "stop",
+      "gross": -23.7576,
+      "costs": 5.5147,
+      "pnl": -29.2722
+     },
+     {
+      "id": "426ee092",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 2.464174139837538,
+      "entry": 2242.762627,
+      "tp": 2256.219202762,
+      "sl": 2233.791576492,
+      "opened_ms": 1793319401032,
+      "entry_cost": 2.763278833623751,
+      "max_hold_min": 120,
+      "margin": 1842.1858890825006,
+      "note": "RSI 32, x3",
+      "exit": 2233.1214390190526,
+      "closed_ms": 1793319540000,
+      "reason": "stop",
+      "gross": -23.7576,
+      "costs": 5.5147,
+      "pnl": -29.2722
+     },
+     {
+      "id": "78efe488",
+      "symbol": "SOLUSDT",
+      "side": "long",
+      "qty": 28.980802545050064,
+      "entry": 95.34859599999999,
+      "tp": 95.92068757599999,
+      "sl": 94.96720161599998,
+      "opened_ms": 1793319401730,
+      "entry_cost": 1.381639416811875,
+      "max_hold_min": 120,
+      "margin": 921.09294454125,
+      "note": "RSI 32, x3",
+      "exit": 94.93871145551519,
+      "closed_ms": 1793319540000,
+      "reason": "stop",
+      "gross": -11.8788,
+      "costs": 2.7573,
+      "pnl": -14.6361
+     },
+     {
+      "id": "776619bc",
+      "symbol": "XRPUSDT",
+      "side": "long",
+      "qty": 4330.288148578537,
+      "entry": 1.25597668,
+      "tp": 1.26351254008,
+      "sl": 1.25095277328,
+      "opened_ms": 1793412666903,
+      "entry_cost": 2.7193704661475095,
+      "max_hold_min": 120,
+      "margin": 1812.9136440983395,
+      "note": "RSI 39, x3",
+      "exit": 1.2505774874480162,
+      "closed_ms": 1793418240000,
+      "reason": "stop",
+      "gross": -23.3801,
+      "costs": 5.4271,
+      "pnl": -28.8071
+     },
+     {
+      "id": "066684ac",
+      "symbol": "DOGEUSDT",
+      "side": "long",
+      "qty": 35775.166465029695,
+      "entry": 0.076012797,
+      "tp": 0.076468873782,
+      "sl": 0.07570874581199999,
+      "opened_ms": 1793412667378,
+      "entry_cost": 1.3596852330737548,
+      "max_hold_min": 120,
+      "margin": 906.4568220491698,
+      "note": "RSI 43, x3",
+      "exit": 0.0756860331882564,
+      "closed_ms": 1793416200000,
+      "reason": "stop",
+      "gross": -11.69,
+      "costs": 2.7135,
+      "pnl": -14.4036
+     },
+     {
+      "id": "a8a4d4d0",
+      "symbol": "BNBUSDT",
+      "side": "long",
+      "qty": 7.714510420629142,
+      "entry": 705.0014369999999,
+      "tp": 709.2314456219999,
+      "sl": 702.1814312519999,
+      "opened_ms": 1793412666437,
+      "entry_cost": 2.7193704661475095,
+      "max_hold_min": 120,
+      "margin": 1812.9136440983395,
+      "note": "RSI 36, x3",
+      "exit": 703.218971,
+      "closed_ms": 1793419980000,
+      "reason": "time limit",
+      "gross": -13.7509,
+      "costs": 5.4319,
+      "pnl": -19.1827
+     },
+     {
+      "id": "32c41f7a",
+      "symbol": "BTCUSDT",
+      "side": "long",
+      "qty": 0.06972670781999347,
+      "entry": 77257.1702,
+      "tp": 77720.7132212,
+      "sl": 76948.1415192,
+      "opened_ms": 1793418332112,
+      "entry_cost": 2.6934440667674533,
+      "max_hold_min": 120,
+      "margin": 1795.6293778449688,
+      "note": "RSI 39, x3",
+      "exit": 77270.52188700001,
+      "closed_ms": 1793425620000,
+      "reason": "time limit",
+      "gross": 0.931,
+      "costs": 5.3874,
+      "pnl": -4.4564
+     },
+     {
+      "id": "d8145326",
+      "symbol": "ETHUSDT",
+      "side": "long",
+      "qty": 1.1774983182469718,
+      "entry": 2243.3928159999996,
+      "tp": 2256.8531728959997,
+      "sl": 2234.4192447359997,
+      "opened_ms": 1793418332686,
+      "entry_cost": 1.320795634003669,
+      "max_hold_min": 120,
+      "margin": 880.5304226691127,
+      "note": "RSI 41, x3",
+      "exit": 2241.797259,
+      "closed_ms": 1793425620000,
+      "reason": "time limit",
+      "gross": -1.8788,
+      "costs": 2.6407,
+      "pnl": -4.5194
+     },
+     {
+      "id": "fc77fede",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06900466861722836,
+      "entry": 77575.880252,
+      "tp": 77110.424970488,
+      "sl": 77886.183773008,
+      "opened_ms": 1793475066470,
+      "entry_cost": 2.6765489547395247,
+      "max_hold_min": 120,
+      "margin": 1784.3659698263498,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 77547.117158,
+      "closed_ms": 1793482380000,
+      "reason": "time limit",
+      "gross": 1.9848,
+      "costs": 5.3521,
+      "pnl": -3.3673
+     },
+     {
+      "id": "a6ba0673",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 55.79560613499304,
+      "entry": 95.941209,
+      "tp": 95.365561746,
+      "sl": 96.324973836,
+      "opened_ms": 1793475067500,
+      "entry_cost": 2.6765489547395247,
+      "max_hold_min": 120,
+      "margin": 1784.3659698263498,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 95.838743,
+      "closed_ms": 1793482380000,
+      "reason": "time limit",
+      "gross": 5.7172,
+      "costs": 5.3502,
+      "pnl": 0.3669
+     },
+     {
+      "id": "cc75b843",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 2137.777196093611,
+      "entry": 1.25202428,
+      "tp": 1.24451213432,
+      "sl": 1.25703237712,
+      "opened_ms": 1793478188840,
+      "entry_cost": 1.3382744773697615,
+      "max_hold_min": 120,
+      "margin": 892.1829849131742,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.25487635,
+      "closed_ms": 1793485500000,
+      "reason": "time limit",
+      "gross": -6.0971,
+      "costs": 2.6796,
+      "pnl": -8.7767
+     },
+     {
+      "id": "a5702002",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 7.614951765172981,
+      "entry": 702.499187,
+      "tp": 698.284191878,
+      "sl": 705.309183748,
+      "opened_ms": 1793483289409,
+      "entry_cost": 2.674748712039117,
+      "max_hold_min": 120,
+      "margin": 1783.165808026078,
+      "note": "TERS: RSI 25 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 703.6410289999999,
+      "closed_ms": 1793490600000,
+      "reason": "time limit",
+      "gross": -8.6951,
+      "costs": 5.3538,
+      "pnl": -14.0489
+     },
+     {
+      "id": "f2df0715",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 2.368952967130925,
+      "entry": 2253.72368,
+      "tp": 2240.2013379200002,
+      "sl": 2262.73857472,
+      "opened_ms": 1793488397386,
+      "entry_cost": 2.6694826994146137,
+      "max_hold_min": 120,
+      "margin": 1779.6551329430758,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2263.417396292416,
+      "closed_ms": 1793494440000,
+      "reason": "stop",
+      "gross": -22.964,
+      "costs": 5.3504,
+      "pnl": -28.3144
+     },
+     {
+      "id": "22ec6ed4",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 27.810002078055494,
+      "entry": 95.61130800000001,
+      "tp": 95.03764015200001,
+      "sl": 95.993753232,
+      "opened_ms": 1793488398053,
+      "entry_cost": 1.329475337082802,
+      "max_hold_min": 120,
+      "margin": 886.3168913885347,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 95.82874,
+      "closed_ms": 1793495700000,
+      "reason": "time limit",
+      "gross": -6.0468,
+      "costs": 2.662,
+      "pnl": -8.7088
+     },
+     {
+      "id": "69e14459",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06846892306927069,
+      "entry": 77514.7386,
+      "tp": 77049.6501684,
+      "sl": 77824.7975544,
+      "opened_ms": 1793490736654,
+      "entry_cost": 2.653675336969014,
+      "max_hold_min": 120,
+      "margin": 1769.1168913126758,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 77693.321006,
+      "closed_ms": 1793498040000,
+      "reason": "time limit",
+      "gross": -12.2273,
+      "costs": 5.3135,
+      "pnl": -17.5408
+     },
+     {
+      "id": "f727739b",
+      "symbol": "DOGEUSDT",
+      "side": "short",
+      "qty": 69497.85082218486,
+      "entry": 0.075637302,
+      "tp": 0.075183478188,
+      "sl": 0.07593985120800001,
+      "opened_ms": 1793498434569,
+      "entry_cost": 2.628314965494272,
+      "max_hold_min": 120,
+      "margin": 1752.2099769961815,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 0.075582668,
+      "closed_ms": 1793505720000,
+      "reason": "time limit",
+      "gross": 3.7969,
+      "costs": 5.2547,
+      "pnl": -1.4578
+     },
+     {
+      "id": "47c94aa6",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 4203.875434287261,
+      "entry": 1.25042476,
+      "tp": 1.24292221144,
+      "sl": 1.25542645904,
+      "opened_ms": 1793499825905,
+      "entry_cost": 2.628314965494272,
+      "max_hold_min": 120,
+      "margin": 1752.2099769961815,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.25147533,
+      "closed_ms": 1793507100000,
+      "reason": "time limit",
+      "gross": -4.4165,
+      "costs": 5.2588,
+      "pnl": -9.6753
+     },
+     {
+      "id": "875ee926",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 3.7378672627539595,
+      "entry": 703.158989,
+      "tp": 698.9400350660001,
+      "sl": 705.971624956,
+      "opened_ms": 1793501264260,
+      "entry_cost": 1.3141574827471358,
+      "max_hold_min": 120,
+      "margin": 876.1049884980906,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 706.1834164434867,
+      "closed_ms": 1793507400000,
+      "reason": "stop",
+      "gross": -11.3049,
+      "costs": 2.634,
+      "pnl": -13.9389
+     },
+     {
+      "id": "62e59600",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 55.00819519606702,
+      "entry": 95.48134700000001,
+      "tp": 94.90845891800001,
+      "sl": 95.86327238800001,
+      "opened_ms": 1793506555220,
+      "entry_cost": 2.626128286679705,
+      "max_hold_min": 120,
+      "margin": 1750.752191119803,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 95.8920313697164,
+      "closed_ms": 1793512920000,
+      "reason": "stop",
+      "gross": -22.591,
+      "costs": 5.2636,
+      "pnl": -27.8546
+     },
+     {
+      "id": "5e534b8f",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 2.2921297201334148,
+      "entry": 2265.630107,
+      "tp": 2252.0363263579998,
+      "sl": 2274.692627428,
+      "opened_ms": 1793517948575,
+      "entry_cost": 2.5965590515418744,
+      "max_hold_min": 120,
+      "margin": 1731.039367694583,
+      "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2275.3750352162283,
+      "closed_ms": 1793522040000,
+      "reason": "stop",
+      "gross": -22.3366,
+      "costs": 5.2043,
+      "pnl": -27.5409
+     },
+     {
+      "id": "1744fe50",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 54.4287144387632,
+      "entry": 95.411368,
+      "tp": 94.83889979199999,
+      "sl": 95.793013472,
+      "opened_ms": 1793517949236,
+      "entry_cost": 2.5965590515418744,
+      "max_hold_min": 120,
+      "margin": 1731.039367694583,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 95.82175137604159,
+      "closed_ms": 1793522760000,
+      "reason": "stop",
+      "gross": -22.3366,
+      "costs": 5.2043,
+      "pnl": -27.5409
+     },
+     {
+      "id": "1d5ae408",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 2074.7170325247853,
+      "entry": 1.2515244300000001,
+      "tp": 1.2440152834200002,
+      "sl": 1.25653052772,
+      "opened_ms": 1793517950768,
+      "entry_cost": 1.2982795257709367,
+      "max_hold_min": 120,
+      "margin": 865.5196838472912,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.250375,
+      "closed_ms": 1793525220000,
+      "reason": "time limit",
+      "gross": 2.3847,
+      "costs": 2.5954,
+      "pnl": -0.2106
+     },
+     {
+      "id": "584380cf",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 4098.382180718842,
+      "entry": 1.2509246100000002,
+      "tp": 1.24341906234,
+      "sl": 1.2559283084400001,
+      "opened_ms": 1793526060310,
+      "entry_cost": 2.5633835655233344,
+      "max_hold_min": 120,
+      "margin": 1708.922377015556,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.256305086932532,
+      "closed_ms": 1793527920000,
+      "reason": "stop",
+      "gross": -22.0513,
+      "costs": 5.1378,
+      "pnl": -27.189
+     },
+     {
+      "id": "435baaee",
+      "symbol": "DOGEUSDT",
+      "side": "short",
+      "qty": 67763.0235562036,
+      "entry": 0.075657296,
+      "tp": 0.075203352224,
+      "sl": 0.075959925184,
+      "opened_ms": 1793526060740,
+      "entry_cost": 2.5633835655233344,
+      "max_hold_min": 120,
+      "margin": 1708.922377015556,
+      "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 0.075852749,
+      "closed_ms": 1793533380000,
+      "reason": "time limit",
+      "gross": -13.2445,
+      "costs": 5.1334,
+      "pnl": -18.3779
+     },
+     {
+      "id": "7cf38ca3",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 53.3801485385703,
+      "entry": 95.431362,
+      "tp": 94.858773828,
+      "sl": 95.81308744799999,
+      "opened_ms": 1793529953378,
+      "entry_cost": 2.5470701393990365,
+      "max_hold_min": 120,
+      "margin": 1698.0467595993578,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.8872314601484,
+      "closed_ms": 1793535360000,
+      "reason": "take profit",
+      "gross": 29.0458,
+      "costs": 5.0796,
+      "pnl": 23.9662
+     },
+     {
+      "id": "da5f35ee",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.0650790096393007,
+      "entry": 77930.403863,
+      "tp": 77462.821439822,
+      "sl": 78242.125478452,
+      "opened_ms": 1793533623148,
+      "entry_cost": 2.5358167520973867,
+      "max_hold_min": 120,
+      "margin": 1690.5445013982578,
+      "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 77972.69479299999,
+      "closed_ms": 1793540940000,
+      "reason": "time limit",
+      "gross": -2.7523,
+      "costs": 5.073,
+      "pnl": -7.8253
+     },
+     {
+      "id": "8f917001",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 1.1086027179585651,
+      "entry": 2268.11936,
+      "tp": 2254.5106438400003,
+      "sl": 2277.19183744,
+      "opened_ms": 1793533263583,
+      "entry_cost": 1.2572216435752208,
+      "max_hold_min": 120,
+      "margin": 838.1477623834804,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2267.199956,
+      "closed_ms": 1793540580000,
+      "reason": "time limit",
+      "gross": 1.0193,
+      "costs": 2.5139,
+      "pnl": -1.4947
+     },
+     {
+      "id": "1f6a15b5",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 53.76016144885782,
+      "entry": 94.881527,
+      "tp": 94.312237838,
+      "sl": 95.26105310800001,
+      "opened_ms": 1793538013337,
+      "entry_cost": 2.5504231050170816,
+      "max_hold_min": 120,
+      "margin": 1700.2820700113878,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 95.2896314239324,
+      "closed_ms": 1793542740000,
+      "reason": "stop",
+      "gross": -21.9398,
+      "costs": 5.1118,
+      "pnl": -27.0516
+     },
+     {
+      "id": "21bed89e",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 7.0843446788628315,
+      "entry": 713.8557790000001,
+      "tp": 709.572644326,
+      "sl": 716.7112021160001,
+      "opened_ms": 1793548240484,
+      "entry_cost": 2.5286001947170664,
+      "max_hold_min": 120,
+      "margin": 1685.7334631447109,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 711.6134199999999,
+      "closed_ms": 1793555520000,
+      "reason": "time limit",
+      "gross": 15.8856,
+      "costs": 5.0493,
+      "pnl": 10.8364
+     },
+     {
+      "id": "7b95d529",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 2.2305736605827344,
+      "entry": 2267.21963,
+      "tp": 2253.61631222,
+      "sl": 2276.28850852,
+      "opened_ms": 1793549139747,
+      "entry_cost": 2.5286001947170664,
+      "max_hold_min": 120,
+      "margin": 1685.7334631447109,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2266.139638,
+      "closed_ms": 1793556420000,
+      "reason": "time limit",
+      "gross": 2.409,
+      "costs": 5.056,
+      "pnl": -2.647
+     },
+     {
+      "id": "55c03bcf",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 26.675374419086584,
+      "entry": 94.79155399999999,
+      "tp": 94.222804676,
+      "sl": 95.17072021599999,
+      "opened_ms": 1793549140346,
+      "entry_cost": 1.264300097358532,
+      "max_hold_min": 120,
+      "margin": 842.8667315723548,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.778425,
+      "closed_ms": 1793556420000,
+      "reason": "time limit",
+      "gross": 0.3502,
+      "costs": 2.5284,
+      "pnl": -2.1782
+     },
+     {
+      "id": "208b6ee2",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 53.54543489444768,
+      "entry": 94.58161700000001,
+      "tp": 94.014127298,
+      "sl": 94.959943468,
+      "opened_ms": 1793558271932,
+      "entry_cost": 2.5322069076425433,
+      "max_hold_min": 120,
+      "margin": 1688.137938428362,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.04233153618941,
+      "closed_ms": 1793560200000,
+      "reason": "take profit",
+      "gross": 28.8763,
+      "costs": 5.05,
+      "pnl": 23.8263
+     },
+     {
+      "id": "c46a6f63",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06496952311493184,
+      "entry": 77950.6078,
+      "tp": 77482.9041532,
+      "sl": 78262.4102312,
+      "opened_ms": 1793558270750,
+      "entry_cost": 2.5322069076425433,
+      "max_hold_min": 120,
+      "margin": 1688.137938428362,
+      "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 77889.709905,
+      "closed_ms": 1793565540000,
+      "reason": "time limit",
+      "gross": 3.9565,
+      "costs": 5.0624,
+      "pnl": -1.1059
+     },
+     {
+      "id": "7a30797c",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 3.5654999193168,
+      "entry": 710.196877,
+      "tp": 705.9356957379999,
+      "sl": 713.0376645079999,
+      "opened_ms": 1793558450854,
+      "entry_cost": 1.2661034538212717,
+      "max_hold_min": 120,
+      "margin": 844.068969214181,
+      "note": "TERS: RSI 34 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 708.982631,
+      "closed_ms": 1793565720000,
+      "reason": "time limit",
+      "gross": 4.3294,
+      "costs": 2.53,
+      "pnl": 1.7994
+     },
+     {
+      "id": "f1fa658a",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 2.25459755809482,
+      "entry": 2258.942114,
+      "tp": 2245.388461316,
+      "sl": 2267.977882456,
+      "opened_ms": 1793563376528,
+      "entry_cost": 2.5465026870509755,
+      "max_hold_min": 120,
+      "margin": 1697.6684580339836,
+      "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2264.019002,
+      "closed_ms": 1793570640000,
+      "reason": "time limit",
+      "gross": -11.4463,
+      "costs": 5.0987,
+      "pnl": -16.5451
+     },
+     {
+      "id": "7351a488",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 53.983259441051906,
+      "entry": 93.991794,
+      "tp": 93.427843236,
+      "sl": 94.367761176,
+      "opened_ms": 1793573599924,
+      "entry_cost": 2.536991700415953,
+      "max_hold_min": 120,
+      "margin": 1691.327800277302,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.3960715043528,
+      "closed_ms": 1793574840000,
+      "reason": "stop",
+      "gross": -21.8242,
+      "costs": 5.0849,
+      "pnl": -26.9091
+     },
+     {
+      "id": "c6a1113e",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 2018.3510917150356,
+      "entry": 1.2471257500000001,
+      "tp": 1.2396429955000001,
+      "sl": 1.2521142530000002,
+      "opened_ms": 1793573600395,
+      "entry_cost": 1.2585688095092165,
+      "max_hold_min": 120,
+      "margin": 839.0458730061442,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.2524898872759003,
+      "closed_ms": 1793574840000,
+      "reason": "stop",
+      "gross": -10.8267,
+      "costs": 2.5226,
+      "pnl": -13.3493
+     },
+     {
+      "id": "2c0e2819",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 7.1942028239023,
+      "entry": 708.047522,
+      "tp": 703.799236868,
+      "sl": 710.8797120879999,
+      "opened_ms": 1793568488673,
+      "entry_cost": 2.546918741114713,
+      "max_hold_min": 120,
+      "margin": 1697.9458274098085,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 710.403057,
+      "closed_ms": 1793575800000,
+      "reason": "time limit",
+      "gross": -16.9462,
+      "costs": 5.1023,
+      "pnl": -22.0485
+     },
+     {
+      "id": "0273f142",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 4014.3817575861053,
+      "entry": 1.2453262900000002,
+      "tp": 1.2378543322600002,
+      "sl": 1.2503075951600002,
+      "opened_ms": 1793579429300,
+      "entry_cost": 2.4996075704091925,
+      "max_hold_min": 120,
+      "margin": 1666.4050469394615,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.2506826874385482,
+      "closed_ms": 1793581680000,
+      "reason": "stop",
+      "gross": -21.5026,
+      "costs": 5.01,
+      "pnl": -26.5126
+     },
+     {
+      "id": "baefeafe",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 6.974175332699292,
+      "entry": 712.256259,
+      "tp": 707.982721446,
+      "sl": 715.1052840360001,
+      "opened_ms": 1793595049470,
+      "entry_cost": 2.483700016039239,
+      "max_hold_min": 120,
+      "margin": 1655.800010692826,
+      "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 709.11267,
+      "closed_ms": 1793602320000,
+      "reason": "time limit",
+      "gross": 21.9239,
+      "costs": 4.9564,
+      "pnl": 16.9675
+     },
+     {
+      "id": "6cabed5a",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06341914569364145,
+      "entry": 78326.504997,
+      "tp": 77856.545967018,
+      "sl": 78639.811016988,
+      "opened_ms": 1793596307668,
+      "entry_cost": 2.483700016039239,
+      "max_hold_min": 120,
+      "margin": 1655.800010692826,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 78199.622851,
+      "closed_ms": 1793603580000,
+      "reason": "time limit",
+      "gross": 8.0468,
+      "costs": 4.9634,
+      "pnl": 3.0834
+     },
+     {
+      "id": "03e51fd5",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 1.0842193839927956,
+      "entry": 2290.772562,
+      "tp": 2277.027926628,
+      "sl": 2299.935652248,
+      "opened_ms": 1793596308238,
+      "entry_cost": 1.241850008019619,
+      "max_hold_min": 120,
+      "margin": 827.9000053464127,
+      "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2286.665794,
+      "closed_ms": 1793603580000,
+      "reason": "time limit",
+      "gross": 4.4526,
+      "costs": 2.4815,
+      "pnl": 1.9712
+     },
+     {
+      "id": "433d5ffe",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 1.096117563688304,
+      "entry": 2283.494746,
+      "tp": 2269.793777524,
+      "sl": 2292.6287249839997,
+      "opened_ms": 1793604276370,
+      "entry_cost": 1.2514893488402814,
+      "max_hold_min": 120,
+      "margin": 834.3262325601876,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2293.316513601495,
+      "closed_ms": 1793606820000,
+      "reason": "stop",
+      "gross": -10.7658,
+      "costs": 2.5084,
+      "pnl": -13.2742
+     },
+     {
+      "id": "3c37ec21",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 52.86350723437453,
+      "entry": 94.351686,
+      "tp": 93.785575884,
+      "sl": 94.729092744,
+      "opened_ms": 1793602476554,
+      "entry_cost": 2.493880517718217,
+      "max_hold_min": 120,
+      "margin": 1662.5870118121447,
+      "note": "TERS: RSI 37 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.7575114718232,
+      "closed_ms": 1793608860000,
+      "reason": "stop",
+      "gross": -21.4534,
+      "costs": 4.9985,
+      "pnl": -26.4518
+     },
+     {
+      "id": "473fe619",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 3990.513729246323,
+      "entry": 1.25142446,
+      "tp": 1.24391591324,
+      "sl": 1.25643015784,
+      "opened_ms": 1793604096032,
+      "entry_cost": 2.4969132443723328,
+      "max_hold_min": 120,
+      "margin": 1664.6088295815553,
+      "note": "TERS: RSI 41 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.2568070868873518,
+      "closed_ms": 1793608920000,
+      "reason": "stop",
+      "gross": -21.4794,
+      "costs": 5.0046,
+      "pnl": -26.484
+     },
+     {
+      "id": "765fee2f",
+      "symbol": "DOGEUSDT",
+      "side": "short",
+      "qty": 32716.708877304933,
+      "entry": 0.075287407,
+      "tp": 0.074835682558,
+      "sl": 0.075588556628,
+      "opened_ms": 1793607214008,
+      "entry_cost": 1.231578088473085,
+      "max_hold_min": 120,
+      "margin": 821.0520589820566,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 0.0756112331949884,
+      "closed_ms": 1793608860000,
+      "reason": "stop",
+      "gross": -10.5945,
+      "costs": 2.4685,
+      "pnl": -13.063
+     },
+     {
+      "id": "6d06736d",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 52.051932487350264,
+      "entry": 94.11175800000001,
+      "tp": 93.54708745200001,
+      "sl": 94.48820503200001,
+      "opened_ms": 1793615388304,
+      "entry_cost": 2.449349436840923,
+      "max_hold_min": 120,
+      "margin": 1632.8996245606156,
+      "note": "TERS: RSI 38 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 94.51655149350961,
+      "closed_ms": 1793621520000,
+      "reason": "stop",
+      "gross": -21.0703,
+      "costs": 4.9092,
+      "pnl": -25.9795
+     },
+     {
+      "id": "6c554397",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 1962.5796717234675,
+      "entry": 1.24802548,
+      "tp": 1.24053732712,
+      "sl": 1.25301758192,
+      "opened_ms": 1793615389222,
+      "entry_cost": 1.2246747184204614,
+      "max_hold_min": 120,
+      "margin": 816.4498122803076,
+      "note": "TERS: RSI 39 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.253393487194576,
+      "closed_ms": 1793621400000,
+      "reason": "stop",
+      "gross": -10.5351,
+      "costs": 2.4546,
+      "pnl": -12.9898
+     },
+     {
+      "id": "d1e6aed0",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 6.93240280732709,
+      "entry": 706.6379450000001,
+      "tp": 702.3981173300001,
+      "sl": 709.4644967800001,
+      "opened_ms": 1793615388771,
+      "entry_cost": 2.449349436840923,
+      "max_hold_min": 120,
+      "margin": 1632.8996245606156,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 706.181791,
+      "closed_ms": 1793622660000,
+      "reason": "time limit",
+      "gross": 3.1622,
+      "costs": 4.8971,
+      "pnl": -1.7349
+     },
+     {
+      "id": "059b3a72",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06229210690022455,
+      "entry": 77856.636,
+      "tp": 77389.496184,
+      "sl": 78168.062544,
+      "opened_ms": 1793623655562,
+      "entry_cost": 2.4249269463019356,
+      "max_hold_min": 120,
+      "margin": 1616.6179642012903,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 78191.5129627632,
+      "closed_ms": 1793626740000,
+      "reason": "stop",
+      "gross": -20.8602,
+      "costs": 4.8603,
+      "pnl": -25.7205
+     },
+     {
+      "id": "735bd119",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 1.0623553145889877,
+      "entry": 2282.595016,
+      "tp": 2268.899445904,
+      "sl": 2291.725396064,
+      "opened_ms": 1793624554690,
+      "entry_cost": 1.2124634731509678,
+      "max_hold_min": 120,
+      "margin": 808.3089821006452,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2292.412913682819,
+      "closed_ms": 1793626680000,
+      "reason": "stop",
+      "gross": -10.4301,
+      "costs": 2.4301,
+      "pnl": -12.8602
+     },
+     {
+      "id": "9b50156f",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 6.885000830787499,
+      "entry": 704.4086140000001,
+      "tp": 700.182162316,
+      "sl": 707.226248456,
+      "opened_ms": 1793623659456,
+      "entry_cost": 2.4249269463019356,
+      "max_hold_min": 120,
+      "margin": 1616.6179642012903,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 707.4384163305368,
+      "closed_ms": 1793626740000,
+      "reason": "stop",
+      "gross": -20.8602,
+      "costs": 4.8603,
+      "pnl": -25.7205
+     },
+     {
+      "id": "2f92e82b",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 6.860458841715099,
+      "entry": 695.681233,
+      "tp": 691.507145602,
+      "sl": 698.463957932,
+      "opened_ms": 1793653582698,
+      "entry_cost": 2.386346232975056,
+      "max_hold_min": 120,
+      "margin": 1590.8974886500373,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 698.6734971193796,
+      "closed_ms": 1793655480000,
+      "reason": "stop",
+      "gross": -20.5283,
+      "costs": 4.783,
+      "pnl": -25.3113
+     },
+     {
+      "id": "6c19c998",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.06214527195215434,
+      "entry": 76798.963397,
+      "tp": 76338.169616618,
+      "sl": 77106.159250588,
+      "opened_ms": 1793653580993,
+      "entry_cost": 2.386346232975056,
+      "max_hold_min": 120,
+      "margin": 1590.8974886500373,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 76833.053003,
+      "closed_ms": 1793660880000,
+      "reason": "time limit",
+      "gross": -2.1185,
+      "costs": 4.7738,
+      "pnl": -6.8923
+     },
+     {
+      "id": "c6487ce3",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.061517963368601394,
+      "entry": 76953.916897,
+      "tp": 76492.193395618,
+      "sl": 77261.732564588,
+      "opened_ms": 1793672228229,
+      "entry_cost": 2.3670241203700213,
+      "max_hold_min": 120,
+      "margin": 1578.0160802466808,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 76927.07119999999,
+      "closed_ms": 1793679540000,
+      "reason": "time limit",
+      "gross": 1.6515,
+      "costs": 4.7332,
+      "pnl": -3.0817
+     },
+     {
+      "id": "549610ca",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 51.411018145743824,
+      "entry": 92.082367,
+      "tp": 91.529872798,
+      "sl": 92.450696468,
+      "opened_ms": 1793672229353,
+      "entry_cost": 2.3670241203700213,
+      "max_hold_min": 120,
+      "margin": 1578.0160802466808,
+      "note": "TERS: RSI 44 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 92.247666,
+      "closed_ms": 1793679540000,
+      "reason": "time limit",
+      "gross": -8.4982,
+      "costs": 4.7383,
+      "pnl": -13.2365
+     },
+     {
+      "id": "5939aba7",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 3.397816486858147,
+      "entry": 696.6309480000001,
+      "tp": 692.4511623120001,
+      "sl": 699.4174717920001,
+      "opened_ms": 1793672229915,
+      "entry_cost": 1.1835120601850104,
+      "max_hold_min": 120,
+      "margin": 789.0080401233403,
+      "note": "TERS: RSI 30 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 696.6489320000001,
+      "closed_ms": 1793679540000,
+      "reason": "time limit",
+      "gross": -0.0611,
+      "costs": 2.3671,
+      "pnl": -2.4282
+     },
+     {
+      "id": "76539672",
+      "symbol": "SOLUSDT",
+      "side": "short",
+      "qty": 25.641819787487005,
+      "entry": 91.87243000000001,
+      "tp": 91.32119542000001,
+      "sl": 92.23991972,
+      "opened_ms": 1793684505343,
+      "entry_cost": 1.1778881467492575,
+      "max_hold_min": 120,
+      "margin": 785.258764499505,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 91.348591778626,
+      "closed_ms": 1793686440000,
+      "reason": "take profit",
+      "gross": 13.4322,
+      "costs": 2.3491,
+      "pnl": 11.0831
+     },
+     {
+      "id": "15ddb360",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.0613443858611458,
+      "entry": 76804.9516,
+      "tp": 76344.1218904,
+      "sl": 77112.1714064,
+      "opened_ms": 1793683272767,
+      "entry_cost": 2.355776293498514,
+      "max_hold_min": 120,
+      "margin": 1570.5175289990093,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 76781.82764,
+      "closed_ms": 1793690580000,
+      "reason": "time limit",
+      "gross": 1.4185,
+      "costs": 4.7108,
+      "pnl": -3.2923
+     },
+     {
+      "id": "a325c32e",
+      "symbol": "ETHUSDT",
+      "side": "short",
+      "qty": 2.094558676032225,
+      "entry": 2249.42497,
+      "tp": 2235.92842018,
+      "sl": 2258.42266988,
+      "opened_ms": 1793684504605,
+      "entry_cost": 2.355776293498514,
+      "max_hold_min": 120,
+      "margin": 1570.5175289990093,
+      "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 2259.1001966809636,
+      "closed_ms": 1793690580000,
+      "reason": "stop",
+      "gross": -20.2653,
+      "costs": 4.7217,
+      "pnl": -24.987
+     },
+     {
+      "id": "973d154a",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 1914.7043758001473,
+      "entry": 1.24772557,
+      "tp": 1.24023921658,
+      "sl": 1.2527164722800002,
+      "opened_ms": 1793686484995,
+      "entry_cost": 1.1945128043383666,
+      "max_hold_min": 120,
+      "margin": 796.3418695589111,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.253092287221684,
+      "closed_ms": 1793690580000,
+      "reason": "stop",
+      "gross": -10.2757,
+      "costs": 2.3942,
+      "pnl": -12.6698
+     },
+     {
+      "id": "9065edb1",
+      "symbol": "BNBUSDT",
+      "side": "short",
+      "qty": 6.752788598942305,
+      "entry": 692.4122140000001,
+      "tp": 688.2577407160001,
+      "sl": 695.1818628560001,
+      "opened_ms": 1793694923715,
+      "entry_cost": 2.3378566522338002,
+      "max_hold_min": 120,
+      "margin": 1558.5711014892001,
+      "note": "TERS: RSI 40 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 695.3904174148569,
+      "closed_ms": 1793696820000,
+      "reason": "stop",
+      "gross": -20.1112,
+      "costs": 4.6858,
+      "pnl": -24.7969
+     },
+     {
+      "id": "21e50b57",
+      "symbol": "XRPUSDT",
+      "side": "short",
+      "qty": 3738.7021897677223,
+      "entry": 1.2506247,
+      "tp": 1.2431209518,
+      "sl": 1.2556271987999998,
+      "opened_ms": 1793694924179,
+      "entry_cost": 2.3378566522338002,
+      "max_hold_min": 120,
+      "margin": 1558.5711014892001,
+      "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 1.2560038869596397,
+      "closed_ms": 1793696820000,
+      "reason": "stop",
+      "gross": -20.1112,
+      "costs": 4.6858,
+      "pnl": -24.7969
+     },
+     {
+      "id": "d4fe3dc4",
+      "symbol": "DOGEUSDT",
+      "side": "short",
+      "qty": 31692.075073854296,
+      "entry": 0.073767863,
+      "tp": 0.073325255822,
+      "sl": 0.074062934452,
+      "opened_ms": 1793695940990,
+      "entry_cost": 1.1689283261168995,
+      "max_hold_min": 120,
+      "margin": 779.2855507445996,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 0.0740851533323356,
+      "closed_ms": 1793696820000,
+      "reason": "stop",
+      "gross": -10.0556,
+      "costs": 2.3429,
+      "pnl": -12.3985
+     },
+     {
+      "id": "5ab6e549",
+      "symbol": "BTCUSDT",
+      "side": "short",
+      "qty": 0.0596081547163016,
+      "entry": 77192.8352,
+      "tp": 76729.6781888,
+      "sl": 77501.6065408,
+      "opened_ms": 1793715045204,
+      "entry_cost": 2.300661231795786,
+      "max_hold_min": 120,
+      "margin": 1533.7741545305241,
+      "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+      "exit": 77316.90811599999,
+      "closed_ms": 1793719170412,
+      "reason": "strateji de\u011fi\u015fti",
+      "gross": -7.3958,
+      "costs": 4.605,
+      "pnl": -12.0008
+     }
+    ]
+   }
+  ],
+  "trend_seen": {
+   "BTCUSDT": 1793714400000,
+   "ETHUSDT": 1793714400000,
+   "SOLUSDT": 1793714400000,
+   "BNBUSDT": 1793714400000,
+   "XRPUSDT": 1793714400000,
+   "DOGEUSDT": 1793714400000
+  }
  },
  "gold_news": {
   "account": {
@@ -14848,6 +8981,10 @@
    [
     1793719080,
     4868.5
+   ],
+   [
+    1793719177,
+    4868.5
    ]
   ],
   "news": {
@@ -17630,8 +11767,6 @@
   ]
  },
  "log": [
-  "02.11 17:08 N  GPT  score +0.15 conf 0.28: \u0130ran sava\u015f\u0131nda askeri se\u00e7ene\u011fin h\u00e2l\u00e2 masada olmas\u0131 ve g\u00f6r\u00fc\u015fmelerde ilerleme sa\u011flanamamas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak diplomasi \u00e7a\u011fr\u0131lar\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f bu etkiyi s\u0131n\u0131rl\u0131yor; dolar haberleri de y\u00f6n konusunda \u00e7eli\u015fkili.",
-  "02.11 17:20 N  NEWS (12 new) score +0.12 conf 0.35: ABD-\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve m\u00fczakerelerin sonu\u00e7suz bitmesi jeopolitik risk primini hafif\u00e7e destekliyor, bu da alt\u0131n i\u00e7in s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f y\u00f6nl\u00fc etki yaratabilir. Ancak enerji kaynakl\u0131 enflasyon ve Fed'in bekle-g\u00f6r duru\u015fu ile g\u00fc\u00e7l\u00fc dolar haberleri alt\u0131n\u0131 bask\u0131layabilece\u011finden etki zay\u0131f ve kar\u0131\u015f\u0131k kal\u0131yor.",
   "02.11 17:20 N  GPT  score +0.28 conf 0.43: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve K\u00f6rfez\u2019de sava\u015f sigortas\u0131n\u0131n daralmas\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini destekleyebilir. Ancak temaslar\u0131n s\u00fcrmesi, diplomasi \u00e7a\u011fr\u0131lar\u0131 ve petrol fiyatlar\u0131ndaki gerileme bu etkiyi s\u0131n\u0131rl\u0131yor; dolar ve faiz g\u00f6r\u00fcn\u00fcm\u00fcnden net yeni bir sinyal yok.",
   "02.11 17:43 N  NEWS (18 new) score -0.12 conf 0.35: ",
   "02.11 17:43 N  GPT  score -0.20 conf 0.44: \u0130ran\u2019la sava\u015f\u0131n sona ermesine y\u00f6nelik taslak teklif ve H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019n\u0131n yeniden a\u00e7\u0131labilece\u011fi haberi, k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak Trump\u2019\u0131n tehdidi ve g\u00f6r\u00fc\u015fmelerde hen\u00fcz ilerleme sa\u011flanmamas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor.",
@@ -17929,7 +12064,9 @@
   "03.11 18:03 B6  ALI\u015e AAPL 249 adet \u2248 82,718 $ (1:4) @ 332.2 (TP 337.18, SL 328.88; ikisi de hemfikir, g\u00fcven 0.55)",
   "03.11 18:15 N  NEWS (11 new) score -0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed faiz oranlar\u0131n\u0131 sabit tuttu ve enflasyon endi\u015feleri s\u00fcr\u00fcyor, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor; g\u00fcm\u00fc\u015f y\u0131ll\u0131k dibe indi ve alt\u0131n d\u00fc\u015f\u00fcyor. Buna kar\u015f\u0131l\u0131k ABD-\u0130ran \u00e7at\u0131\u015fmas\u0131 ve K\u00f6rfez gerilimi g\u00fcvenli liman talebini destekliyor, Commerzbank d\u00fc\u015f\u00fc\u015f\u00fc a\u015f\u0131r\u0131 buluyor ve \u00c7in'in alt\u0131n al\u0131mlar\u0131 destek sa\u011fl\u0131yor; bu unsurlar birbirini dengeliyor.",
   "03.11 18:15 N  GPT  score +0.30 conf 0.48: Qeshm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n\u0131n g\u00fcn i\u00e7inde d\u00fc\u015f\u00fc\u015fte oldu\u011funa dair haberler ve Fed\u2019in y\u00fcksek enflasyon kayg\u0131lar\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; y\u00f6n konusunda belirsizlik y\u00fcksek.",
-  "03.11 18:15 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc makro verilerle piyasa hafif pozitif ve teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde ilerliyor, ancak \u0130ran kaynakl\u0131 jeopolitik risk y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndekslerde s\u0131k\u0131\u015f\u0131k fiyatlama ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131 nedeniyle, d\u00f6rt kat kald\u0131ra\u00e7la yeni pozisyon a\u00e7maya de\u011fecek \u00f6l\u00e7\u00fcde belirgin bir y\u00f6nsel avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb"
+  "03.11 18:15 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc makro verilerle piyasa hafif pozitif ve teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde ilerliyor, ancak \u0130ran kaynakl\u0131 jeopolitik risk y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndekslerde s\u0131k\u0131\u015f\u0131k fiyatlama ve kar\u0131\u015f\u0131k haber ak\u0131\u015f\u0131 nedeniyle, d\u00f6rt kat kald\u0131ra\u00e7la yeni pozisyon a\u00e7maya de\u011fecek \u00f6l\u00e7\u00fcde belirgin bir y\u00f6nsel avantaj g\u00f6r\u00fcnm\u00fcyor.\u00bb",
+  "03.11 18:19 A  CLOSE BTCUSDT strateji de\u011fi\u015fti: -12.00 USD",
+  "03.11 18:19 A  bakiye 5,000 $ olarak yeniden ba\u015flat\u0131ld\u0131"
  ],
  "gold_big": {
   "account": {
@@ -23886,6 +18023,10 @@
    [
     1793719080,
     4963.78
+   ],
+   [
+    1793719177,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29770,6 +23911,10 @@
    [
     1793719080,
     4975.18
+   ],
+   [
+    1793719177,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35620,6 +29765,10 @@
    [
     1793719080,
     4993.28
+   ],
+   [
+    1793719177,
+    4993.28
    ]
   ]
  },
@@ -41307,6 +35456,10 @@
    [
     1793719080,
     4969.22
+   ],
+   [
+    1793719177,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -45904,6 +40057,10 @@
    [
     1793719080,
     4588.19
+   ],
+   [
+    1793719177,
+    4588.19
    ]
   ],
   "news_calls": {
@@ -46111,7 +40268,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 102625.508483,
+   "balance": 102654.20768299999,
    "start": 100000.0,
    "positions": [
     {
@@ -46126,7 +40283,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Gap-down sonras\u0131 g\u00fc\u00e7l\u00fc toparlanma 331-333 band\u0131nda y\u00fcksek seviyede konsolide oluyor ve \u00f6nceki kapan\u0131\u015fa do\u011fru bo\u015fluk doldurma potansiyeli var. | GPT 0.6: G\u00fc\u00e7l\u00fc toparlanma sonras\u0131 s\u0131n\u0131rl\u0131 geri \u00e7ekilme ve Argus hedef art\u0131\u015f\u0131 al\u0131m\u0131 destekliyor, ancak y\u00fckseli\u015fi kovalama riski y\u00fcksek.",
-     "cur": 332.43
+     "cur": 332.46
     },
     {
      "id": "NVDA",
@@ -46136,11 +40293,11 @@
      "entry": 208.302376,
      "tp": 208.302376,
      "sl": 208.302376,
-     "opened_ms": 1793719080152,
+     "opened_ms": 1793719177558,
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "",
-     "cur": 208.2199
+     "cur": 208.0136
     },
     {
      "id": "TSLA",
@@ -46150,11 +40307,11 @@
      "entry": 401.85,
      "tp": 401.85,
      "sl": 401.85,
-     "opened_ms": 1793719080152,
+     "opened_ms": 1793719177558,
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "",
-     "cur": 402.49
+     "cur": 402.015
     }
    ],
    "trades": [
@@ -46233,12 +40390,12 @@
    ],
    "day": {
     "date": "2026-11-03",
-    "pnl": 1668.72,
+    "pnl": 1723.79,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 102414.97
+   "equity": 102470.04
   },
   "equity_curve": [
    [
@@ -51564,6 +45721,10 @@
    [
     1793719080,
     102414.97
+   ],
+   [
+    1793719177,
+    102470.04
    ]
   ],
   "open": {
@@ -51655,7 +45816,8 @@
   "btc-1000-2410"
  ],
  "resets_done": [
-  "b5-5000-2910"
+  "b5-5000-2910",
+  "a-trend-5000-0311"
  ],
  "oil_consensus": {
   "account": {
@@ -55496,6 +49658,10 @@
    ],
    [
     1793719080,
+    5066.43
+   ],
+   [
+    1793719177,
     5066.43
    ]
   ],
