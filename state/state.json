@@ -7418,6 +7418,10 @@
    [
     1793699843,
     3834.44
+   ],
+   [
+    1793700035,
+    3834.44
    ]
   ]
  },
@@ -14217,15 +14221,19 @@
    [
     1793699843,
     4868.5
+   ],
+   [
+    1793700035,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.2,
+   "score": -0.25,
    "confidence": 0.4,
    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: ABD-\u0130ran diplomasi umutlar\u0131 ve Fed Ba\u015fkan\u0131 Warsh'un sert a\u00e7\u0131klamalar\u0131 (faiz beklentileri ve dolar taraf\u0131nda) k\u0131sa vadede bask\u0131 yaratabilir; buna kar\u015f\u0131l\u0131k Qeshm Adas\u0131 sald\u0131r\u0131lar\u0131 ve sava\u015f riski g\u00fcvenli liman talebini destekliyor. Merkez bankas\u0131 al\u0131mlar\u0131 yap\u0131sal olarak destekleyici olsa da k\u0131sa vadeli etkisi s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1793699316832,
-   "new_headlines": 20,
+   "ts": 1793700034919,
+   "new_headlines": 13,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.950 dolar alt\u0131na itti",
     "ABD-\u0130ran anla\u015fma umutlar\u0131, Khamenei m\u00fczakereleri destekledi",
@@ -14233,27 +14241,18 @@
    ],
    "gpt": {
     "score": -0.25,
-    "confidence": 0.38,
-    "reason": "Alt\u0131n son haberlerde yakla\u015f\u0131k %1 gerilemi\u015f; \u0130ran konusunda diplomasi umudu g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir. Ancak olas\u0131 sava\u015f t\u0131rman\u0131\u015f\u0131na dair haberler ve \u00e7eli\u015fkili sinyaller nedeniyle k\u0131sa vadeli y\u00f6n belirsiz, merkez bankas\u0131 al\u0131mlar\u0131 ise 1-4 saatlik g\u00f6r\u00fcn\u00fcm i\u00e7in daha az belirleyici.",
+    "confidence": 0.56,
+    "reason": "Alt\u0131n fiyat\u0131ndaki d\u00fc\u015f\u00fc\u015f ve petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131n\u0131n faiz beklentilerini desteklemesi k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran\u2019la anla\u015fman\u0131n uzak g\u00f6r\u00fcnmesi g\u00fcvenli liman talebini art\u0131rabilir; merkez bankas\u0131 al\u0131mlar\u0131 ise daha \u00e7ok uzun vadeli ve k\u0131sa vadeli etkiyi s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde dengeliyor.",
     "key_events": [
-     "Alt\u0131nda yak\u0131n vadeli d\u00fc\u015f\u00fc\u015f",
-     "\u0130ran\u2019da diplomasi umudu ve sava\u015f riski birlikte \u00f6ne \u00e7\u0131k\u0131yor",
-     "Merkez bankas\u0131 alt\u0131n al\u0131mlar\u0131 uzun vadede destekleyici"
+     "Alt\u0131n fiyat\u0131nda d\u00fc\u015f\u00fc\u015f ve a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 haberleri",
+     "\u0130ran\u2019la anla\u015fman\u0131n uzak g\u00f6r\u00fcnmesi ve petrol fiyatlar\u0131ndaki art\u0131\u015f",
+     "Merkez bankalar\u0131 3. \u00e7eyrekte 321 ton alt\u0131n ald\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792833029805,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131n yeniden t\u0131rmanmas\u0131na dair jeopolitik haberler g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na d\u00fc\u015fm\u00fc\u015f ve teknik g\u00f6r\u00fcn\u00fcm (ay\u0131 bo\u015fluklar\u0131) zay\u0131f. Petrol fiyatlar\u0131n\u0131n y\u00fckseli\u015fi enflasyon ve s\u0131k\u0131 para politikas\u0131 beklentilerini canland\u0131rarak k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle hafif negatif bir e\u011filim var.",
-    "new": 15,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792833469442,
     "score": -0.15,
@@ -16944,63 +16943,70 @@
     "new": 20,
     "gpt_score": -0.25,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1793700034919,
+    "score": -0.25,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 13,
+    "gpt_score": -0.25,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 53
+   "n": 54
   },
   "news_seen": [
+   "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+   "World gold price today 3.11: Unexpected slide, downward pressure spreads - Laodong.vn",
    "Drivers may get compensation offers before car finance saga ends",
-   "Iran: Ball Is in Washington\u2019s Court to Avoid War... - Jordan News",
+   "Is Record Island Gold Output Setting Up Alamos Gold (NYSE:AGI) for Its Next Growth Phase? - Kalkine Media",
+   "Russia Ukraine War - Post Register",
    "Trump's Iran dilemma as Americans vote: escalate, negotiate or risk wider war - The National",
-   "Swiss Franc Firm as Markets Await US, Inflation Signals - TradingPedia",
    "Healing in War: Updates On SDG 3 in Ukraine - The Borgen Project",
    "Americans head to the polls for elections that could define Trump's closing chapter",
    "Gold Demand Trends: Q3 2026 - World Gold Council",
    "US dollar rates hold steady near 168,000 dinars across major Iraqi markets - IraqiNews",
    "Indian Rupee outperforms amid US-Iran diplomacy hopes - FXStreet",
-   "Ghalibaf Says US Must Choose Whether to Prevent War, Warns of Wider Response - Palestine Chronicle",
    "Euro: Hawkish ECB cushions losses against US Dollar - ING - FXStreet",
    "US dollar exchange rate surpasses 50 Turkish lira for first time - AzerNews",
-   "Iran weighs diplomatic opening against growing threat of renewed war - The Arab Weekly",
    "Iran War US - The Herald Journal",
-   "Iran War US - WV News",
-   "Sudan\u2019s displaced return to new challenges in war-battered Khartoum - Yahoo",
    "Ukraine: dachas as refuge from war - DW.com",
-   "UK and EU agree draft deal to scrap Brexit red tape over food exports",
    "Indians refuse to cash in on gold in their lockers hoping for a better price - The Economic Times",
    "Gold Price Forecast: Prices Slip Ahead of US Midterm Elections - FXEmpire",
    "Gold, Silver Prices Fall Ahead Of Dhanteras: Should You Buy Now Or Wait? - NDTV",
    "Tenerife striker De Miguel dies after on-field collision",
-   "Despite higher paychecks, Americans still have less money to spend, Labor Department report says - KNOE",
    "Russia Ukraine War - The Herald Journal",
-   "Central Banks buy 321 tonnes of Gold in Q3, lifting 2026 demand to 675 tonnes: World Gold Council - The Tribune",
    "Iran war latest: Oil prices edge higher after US strikes Iran\u2019s Qeshm Island - The National",
    "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words - The Motley Fool",
-   "French judges probe war crimes complaint against Israeli army in Lebanon \u2014 lawyer - The Times of Israel",
    "Ramelius to pursue Northern Star\u2019s Carosue Dam gold mine - The Australian",
+   "Central Banks buy 321 tonnes of Gold in Q3, lifting 2026 demand to 675 tonnes: World Gold Council - ANI News",
    "\u2018Death is closer than school\u2019: Yemen\u2019s children struggle with war trauma - Middle East Eye",
    "Gold loses almost 1% \ud83d\udcc9 - XTB.com",
    "What Sanctions Get Right - Foreign Affairs",
    "Trump\u2019s Russia Sanctions Reversal to Face Congressional Test - WSJ",
-   "Commentary: This Veterans Day, let\u2019s focus on preventing war - The Derrick",
    "Russia Ukraine War - WV News",
    "N. Korea tests 'dispersal warhead' for cruise missiles following cluster bomb test - upi",
    "Australian Dollar: RBA limits gains against US Dollar - Societe Generale - FXStreet",
+   "Gold Price in Pakistan Today: Rs 411,500/Tola (24K) | Live Sarafa Rate - Investify",
    "Gold Price Forecast: XAU/USD Tests $3,920 on Midterm Election Day After 2% Oil-Driven Rebound, NFP Friday - FXLeaders",
    "The Philippine peso closed at P63.47 against the US dollar on Tuesday, November 3, 2026. - Facebook",
    "Offshore Yuan Weakens After PBOC Moves to Cool Currency Rally - Bloomberg.com",
-   "Russia Hits Kharkiv Hospital, Wounding 73, During 289-Drone and 59-Missile Barrage - UNITED24 Media",
-   "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "North Korea denies being behind record $6.3bn Binance hack",
-   "British Pound: Room to rise toward 1.3480 against US Dollar \u2013 UOB - FXStreet",
-   "New Zealand Dollar gains as US Dollar faces heat ahead of US Midterm elections - FXStreet"
+   "New Zealand Dollar gains as US Dollar faces heat ahead of US Midterm elections - FXStreet",
+   "Gold slips as Mideast attacks fan inflation concerns; US midterms in focus - MSN",
+   "Only central banks are buying gold aggressively - finews.com",
+   "Gold prices suddenly reverse after a strong recovery - Laodong.vn",
+   "Tehran refuses to accept 'excessive' US demands, deal to end war still distant, Iran official says - The Jerusalem Post",
+   "Watch Amer: BGN Investing in Ships as Iran War Disrupts Trade - Bloomberg.com",
+   "Shafaq News..US dollar slips in Baghdad, Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "U.S. dollar closes sharply higher on Taipei forex market - Focus Taiwan",
+   "News by CNBC TV18 on TradingView, 2026-11-03 \u2014 cnbctv:dca2a2431094b:0 - TradingView"
   ]
  },
  "log": [
-  "02.11 13:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdv9oysHPt62g4AM1ViS'}",
-  "02.11 13:29 A  SHORT SOLUSDT 4899 USD x3 @ 94.11 (ters sinyal, RSI 38)",
   "02.11 13:29 A  SHORT BNBUSDT 4899 USD x3 @ 706.64 (ters sinyal, RSI 40)",
   "02.11 13:29 A  SHORT XRPUSDT 2449 USD x3 @ 1.25 (ters sinyal, RSI 39)",
   "02.11 13:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdwoJC9iJzQEsPz87idt'}",
@@ -17298,7 +17304,9 @@
   "03.11 12:48 B5  CLOSE short stop: -55.97 USD",
   "03.11 12:48 N  NEWS (20 new) score -0.20 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: ABD-\u0130ran diplomasi umutlar\u0131 ve Fed Ba\u015fkan\u0131 Warsh'un sert a\u00e7\u0131klamalar\u0131 (faiz beklentileri ve dolar taraf\u0131nda) k\u0131sa vadede bask\u0131 yaratabilir; buna kar\u015f\u0131l\u0131k Qeshm Adas\u0131 sald\u0131r\u0131lar\u0131 ve sava\u015f riski g\u00fcvenli liman talebini destekliyor. Merkez bankas\u0131 al\u0131mlar\u0131 yap\u0131sal olarak destekleyici olsa da k\u0131sa vadeli etkisi s\u0131n\u0131rl\u0131.",
   "03.11 12:48 N  GPT  score -0.25 conf 0.38: Alt\u0131n son haberlerde yakla\u015f\u0131k %1 gerilemi\u015f; \u0130ran konusunda diplomasi umudu g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir. Ancak olas\u0131 sava\u015f t\u0131rman\u0131\u015f\u0131na dair haberler ve \u00e7eli\u015fkili sinyaller nedeniyle k\u0131sa vadeli y\u00f6n belirsiz, merkez bankas\u0131 al\u0131mlar\u0131 ise 1-4 saatlik g\u00f6r\u00fcn\u00fcm i\u00e7in daha az belirleyici.",
-  "03.11 12:48 B5  SHORT gold 25000 USD x10 @ 3916.57 (TP 3904.82, SL 3924.40; news -0.23)"
+  "03.11 12:48 B5  SHORT gold 25000 USD x10 @ 3916.57 (TP 3904.82, SL 3924.40; news -0.23)",
+  "03.11 13:00 N  NEWS (13 new) score -0.25 conf 0.40: ",
+  "03.11 13:00 N  GPT  score -0.25 conf 0.56: Alt\u0131n fiyat\u0131ndaki d\u00fc\u015f\u00fc\u015f ve petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131n\u0131n faiz beklentilerini desteklemesi k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran\u2019la anla\u015fman\u0131n uzak g\u00f6r\u00fcnmesi g\u00fcvenli liman talebini art\u0131rabilir; merkez bankas\u0131 al\u0131mlar\u0131 ise daha \u00e7ok uzun vadeli ve k\u0131sa vadeli etkiyi s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde dengeliyor."
  ],
  "gold_big": {
   "account": {
@@ -22947,6 +22955,10 @@
    [
     1793699843,
     4963.78
+   ],
+   [
+    1793700035,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28523,6 +28535,10 @@
    [
     1793699843,
     4975.18
+   ],
+   [
+    1793700035,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -34065,6 +34081,10 @@
    [
     1793699843,
     4993.28
+   ],
+   [
+    1793700035,
+    4993.28
    ]
   ]
  },
@@ -39444,6 +39464,10 @@
    [
     1793699843,
     4969.22
+   ],
+   [
+    1793700035,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -43707,6 +43731,10 @@
    [
     1793699843,
     4562.02
+   ],
+   [
+    1793700035,
+    4553.59
    ]
   ],
   "news_calls": {
@@ -48943,6 +48971,10 @@
    [
     1793699843,
     100746.25
+   ],
+   [
+    1793700035,
+    100746.25
    ]
   ],
   "open": {},
@@ -52549,6 +52581,10 @@
    ],
    [
     1793699843,
+    5066.43
+   ],
+   [
+    1793700035,
     5066.43
    ]
   ],
