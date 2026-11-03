@@ -7662,6 +7662,10 @@
    [
     1793713804,
     3834.44
+   ],
+   [
+    1793713970,
+    3834.44
    ]
   ]
  },
@@ -14704,6 +14708,10 @@
    ],
    [
     1793713804,
+    4868.5
+   ],
+   [
+    1793713970,
     4868.5
    ]
   ],
@@ -23679,6 +23687,10 @@
    [
     1793713804,
     4963.78
+   ],
+   [
+    1793713970,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29499,6 +29511,10 @@
    [
     1793713804,
     4975.18
+   ],
+   [
+    1793713970,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35285,6 +35301,10 @@
    [
     1793713804,
     4993.28
+   ],
+   [
+    1793713970,
+    4993.28
    ]
   ]
  },
@@ -40908,6 +40928,10 @@
    [
     1793713804,
     4969.22
+   ],
+   [
+    1793713970,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -45441,6 +45465,10 @@
    [
     1793713804,
     4588.19
+   ],
+   [
+    1793713970,
+    4588.19
    ]
   ],
   "news_calls": {
@@ -45658,10 +45686,10 @@
      "side": "short",
      "qty": 116.0,
      "entry": 342.5158,
-     "tp": null,
-     "sl": null,
+     "tp": 337.44,
+     "sl": 346.01,
      "opened_ms": 1793037010243,
-     "note": "Alpaca kayd\u0131ndan",
+     "note": "Claude 0.55: Katlanabilir iPhone Duo ekran \u00e7atlama \u015fikayetleri ve teslimat gecikmesi taze olumsuz haber; fiyat istikrarl\u0131 d\u00fc\u015f\u00fc\u015fte ve g\u00fcn\u00fcn dibine yak\u0131n. | GPT 0.7: Taze ekran \u00e7atlamas\u0131 haberleri, piyasan\u0131n gerisinde kalan fiyat\u0131n son saat dibine gerilemesiyle k\u0131sa y\u00f6n\u00fc destekliyor.",
      "exit": 343.8637,
      "closed_ms": 1793044779150,
      "reason": "seans sonu",
@@ -45676,10 +45704,10 @@
      "side": "long",
      "qty": 285.0,
      "entry": 349.3106,
-     "tp": null,
-     "sl": null,
+     "tp": 354.74,
+     "sl": 346.0,
      "opened_ms": 1793281424062,
-     "note": "Alpaca kayd\u0131ndan",
+     "note": "Claude 0.6: iPhone Duo \u00fcretim hedeflerinin art\u0131r\u0131lmas\u0131 taze ve \u015firkete \u00f6zel olumlu bir haber; zay\u0131f Nasdaq'a ra\u011fmen hisse g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor. | GPT 0.74: G\u00fc\u00e7l\u00fc talebe ba\u011fl\u0131 \u00fcretim art\u0131\u015f\u0131 haberi ve endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 al\u0131m\u0131 destekliyor.",
      "exit": 338.3697,
      "closed_ms": 1793652333168,
      "reason": "seans sonu",
@@ -45694,10 +45722,10 @@
      "side": "short",
      "qty": 467.0,
      "entry": 213.7436,
-     "tp": null,
-     "sl": null,
+     "tp": 210.4,
+     "sl": 215.74,
      "opened_ms": 1793281423558,
-     "note": "Alpaca kayd\u0131ndan",
+     "note": "Claude 0.55: DOJ incelemesi, \u00c7in istihbarat\u0131 iddias\u0131 ve olumsuz analojiler \u00fcst \u00fcste geliyor; teknoloji zay\u0131fl\u0131\u011f\u0131yla birlikte a\u015fa\u011f\u0131 y\u00f6n bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.61: \u015eirkete \u00f6zg\u00fc olumsuz haber ak\u0131\u015f\u0131 ve saatlik zay\u0131fl\u0131k, s\u0131n\u0131rl\u0131 toparlanmaya ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
      "exit": 202.7439,
      "closed_ms": 1793652507777,
      "reason": "seans sonu",
@@ -45712,10 +45740,10 @@
      "side": "long",
      "qty": 245.0,
      "entry": 406.46,
-     "tp": null,
-     "sl": null,
+     "tp": 412.39,
+     "sl": 402.24,
      "opened_ms": 1793284784073,
-     "note": "Alpaca kayd\u0131ndan",
+     "note": "Claude 0.56: Nasdaq zay\u0131fken g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, son bir saatte istikrarl\u0131 y\u00fckseli\u015f trendi var ve G\u00fcney Kore mahkeme karar\u0131 olumlu. | GPT 0.63: Piyasa endekslerinden g\u00fc\u00e7l\u00fc son saat performans\u0131 ve y\u00fckselen dipler, s\u0131n\u0131rl\u0131 g\u00fcnl\u00fck hareketin ard\u0131ndan al\u0131m\u0131 destekliyor.",
      "exit": 401.9328,
      "closed_ms": 1793652700395,
      "reason": "seans sonu",
@@ -50994,6 +51022,10 @@
    [
     1793713804,
     100746.25
+   ],
+   [
+    1793713970,
+    100746.25
    ]
   ],
   "open": {},
@@ -51015,7 +51047,7 @@
    "buying_power": "402985",
    "daytrading_buying_power": null
   },
-  "rebuilt": "v1"
+  "rebuilt": "v2"
  },
  "manual_done": [
   "btc-1000-2410"
@@ -54798,6 +54830,10 @@
    ],
    [
     1793713804,
+    5066.43
+   ],
+   [
+    1793713970,
     5066.43
    ]
   ],
