@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 04:46 (İstanbul)
+> Son güncelleme: 03.11.2026 05:05 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -28,28 +28,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -111.90 $ | -257.03 $ |
-| İşlem sayısı | 2 | 18 |
-| Kazanma oranı | %0.0 | %33.3 |
-| Ödenen komisyon/spread | 23.79 $ | 214.15 $ |
+| Net kâr/zarar | -167.83 $ | -312.97 $ |
+| İşlem sayısı | 3 | 19 |
+| Kazanma oranı | %0.0 | %31.6 |
+| Ödenen komisyon/spread | 35.68 $ | 226.04 $ |
 
-**Hesap değeri: 4,717.31 $** (başlangıç 5,000 $, -282.69 $ / %-5.65)
+**Hesap değeri: 4,687.03 $** (başlangıç 5,000 $, -312.97 $ / %-6.26)
 
-Açık pozisyonlar: PAXGUSDT long @ 3956.86 (TP 3968.73 / SL 3948.95)
+Son haber analizi (03.11 05:05): Claude puan **+0.20**, güven 0.40 — Petrol fiyatlarının sert düşüşü (diplomasi umutları) Fed faiz artırımı beklentilerini zayıflattığı ve doları baskıladığı için altı kısa vadede destekliyor; altın zaten yaklaşık %2 toparlandı. Ancak ABD'nin İran'ın Qeshm Adası'na yönelik saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini canlı tutuyor, bu da sinyalleri karışık hale getiriyor; bu nedenle güven düşük tutuldu.
 
-Son haber analizi (03.11 04:41): Claude puan **+0.25**, güven 0.40 — Petrol fiyatlarının İran'la diplomasi umutlarıyla sert düşmesi enflasyon ve Fed sıkılaştırma beklentilerini gevşeterek altı destekliyor; dolar da baskı altında. Ancak ABD'nin Qeshm Adası'nı vurması ve Netanyahu'nun yeni saldırı talebi jeopolitik risk primini canlı tutuyor, altın zaten yaklaşık %2 toparlandığı için etkinin büyük kısmı fiyatlanmış olabilir.
-
-GPT (gpt-6-luna): puan **+0.25**, güven 0.43 — Petrol fiyatlarındaki sert düşüşün dolar ve Fed’in sıkılaşma beklentileri üzerindeki baskısı, altındaki toparlanmayı kısa vadede destekleyebilir. Ancak İran konusunda diplomasi umutları ile yeni saldırı ve Ukrayna haberleri çelişkili; hareketin önemli kısmı da fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.52 — İran’daki yeni ABD saldırıları ve Ukrayna’daki ölümcül bombardıman kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la arabuluculuk görüşmeleri sürüyor; petrol ve altın haber akışına zıt tepki verdiğinden yön konusunda temkinliyim.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 05:04 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 03:43 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 03:18 | PAXGUSDT | short | -55.96 $ | stop |
 | 02.11 23:04 | PAXGUSDT | short | -55.96 $ | stop |
 | 02.11 22:22 | PAXGUSDT | long | -55.94 $ | stop |
-| 02.11 20:28 | PAXGUSDT | long | -55.93 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,9 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 03:34 N  NEWS (3 new) score +0.30 conf 0.50: Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
-03.11 03:34 N  GPT  score +0.32 conf 0.40: Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
-03.11 03:34 B5  LONG gold 25000 USD x10 @ 3965.08 (TP 3976.98, SL 3957.15; news +0.31)
 03.11 03:43 B5  CLOSE long stop: -55.94 USD
 03.11 03:46 N  NEWS (8 new) score +0.25 conf 0.40: 
 03.11 03:46 N  GPT  score +0.38 conf 0.57: ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli güvenli liman talebini ve altını destekleyebilir. Ancak Trump’ın savaş riskini küçümsemesi ve İran’la görüşmelerin sürdüğüne dair haberler yükseliş etkisini sınırlıyor.
@@ -101,6 +96,9 @@ Son işlemler:
 03.11 04:29 N  GPT  score +0.35 conf 0.48: Altın fiyatının dipten %2’den fazla toparlanması ve doların zayıflaması kısa vadede yükselişi destekliyor; Ukrayna’daki olası saldırılar da güvenli liman talebini artırabilir. Ancak İran konusunda anlaşma sinyalleri ile yeni saldırı haberleri çelişkili ve yükselişin bir kısmı zaten gerçekleşmiş görü
 03.11 04:41 N  NEWS (6 new) score +0.25 conf 0.40: Petrol fiyatlarının İran'la diplomasi umutlarıyla sert düşmesi enflasyon ve Fed sıkılaştırma beklentilerini gevşeterek altı destekliyor; dolar da baskı altında. Ancak ABD'nin Qeshm Adası'nı vurması ve Netanyahu'nun yeni saldırı talebi jeopolitik risk primini canlı tutuyor, altın zaten yaklaşık %2 toparlandığı için etkinin büyük kısmı fiyatlanmış olabilir.
 03.11 04:41 N  GPT  score +0.25 conf 0.43: Petrol fiyatlarındaki sert düşüşün dolar ve Fed’in sıkılaşma beklentileri üzerindeki baskısı, altındaki toparlanmayı kısa vadede destekleyebilir. Ancak İran konusunda diplomasi umutları ile yeni saldırı ve Ukrayna haberleri çelişkili; hareketin önemli kısmı da fiyatlanmış olabilir.
+03.11 05:05 B5  CLOSE long stop: -55.94 USD
+03.11 05:05 N  NEWS (17 new) score +0.20 conf 0.40: Petrol fiyatlarının sert düşüşü (diplomasi umutları) Fed faiz artırımı beklentilerini zayıflattığı ve doları baskıladığı için altı kısa vadede destekliyor; altın zaten yaklaşık %2 toparlandı. Ancak ABD'nin İran'ın Qeshm Adası'na yönelik saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini canlı tutuyor, bu da sinyalleri karışık hale getiriyor; bu nedenle güven düşük tutuldu.
+03.11 05:05 N  GPT  score +0.25 conf 0.52: İran’daki yeni ABD saldırıları ve Ukrayna’daki ölümcül bombardıman kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la arabuluculuk görüşmeleri sürüyor; petrol ve altın haber akışına zıt tepki verdiğinden yön konusunda temkinliyim.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
