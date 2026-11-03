@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 12:01 (İstanbul)
+> Son güncelleme: 03.11.2026 12:04 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %11.1 | %18.2 |
 | Ödenen komisyon/spread | 35.57 $ | 385.78 $ |
 
-**Hesap değeri: 3,869.31 $** (başlangıç 5,000 $, -1130.69 $ / %-22.61)
+**Hesap değeri: 3,860.70 $** (başlangıç 5,000 $, -1139.30 $ / %-22.79)
 
 Açık pozisyonlar: BNBUSDT short @ 692.41 (TP 688.26 / SL 695.18); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); DOGEUSDT short @ 0.07 (TP 0.07 / SL 0.07)
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
-Son haber analizi (03.11 11:52): Claude puan **+0.10**, güven 0.30 — Haberler karışık: İran savaşı ve Ukrayna'daki saldırılar jeopolitik talebi destekliyor, merkez bankalarının altın alımı güçlü ve bu yapısal olarak olumlu. Ancak ABD-İran diplomasisi petrol fiyatlarını düşürdüğü için güvenli liman primi sınırlı kalıyor, ABD doları ise belirsiz seyrediyor ve ABD ara seçim ile NFP verisi (cuma) kısa vadeli volatilite yaratabilir. Bu çelişkili ve büyük ölçüde fiyatlanmış haberler nedeniyle sinyal zayıf.
+Son haber analizi (03.11 12:04): Claude puan **-0.15**, güven 0.40 — Haberler karışık: İran savaşı ve Ukrayna'daki saldırılar jeopolitik talebi destekliyor, merkez bankalarının altın alımı güçlü ve bu yapısal olarak olumlu. Ancak ABD-İran diplomasisi petrol fiyatlarını düşürdüğü için güvenli liman primi sınırlı kalıyor, ABD doları ise belirsiz seyrediyor ve ABD ara seçim ile NFP verisi (cuma) kısa vadeli volatilite yaratabilir. Bu çelişkili ve büyük ölçüde fiyatlanmış haberler nedeniyle sinyal zayıf.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.36 — Rusya’nın Harkiv’de hastaneyi vurması ve İran’la anlaşmanın hâlâ uzak görünmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak altında sert geri dönüş/düşüş haberleri ve dolar-yuan kaynaklı destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankası alımları daha çok orta vadeli bir
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Altının yaklaşık %1 düşmesi ve Orta Doğu kaynaklı petrol/enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskın biçimde olumsuz. Kuzey Kore ve İran gerilimi güvenli liman talebi yaratabilir; bu karşıt etkenler düşüş beklentisini sınırlıyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 10:53 A  CLOSE ETHUSDT stop: -24.99 USD
-03.11 10:53 A  CLOSE XRPUSDT stop: -12.67 USD
 03.11 10:53 N  NEWS (23 new) score +0.30 conf 0.40: 
 03.11 10:53 N  GPT  score +0.58 conf 0.62: ABD’nin İran’daki Qeşm Adası’na saldırısı ve İran’ın savaş uyarıları, Ukrayna’daki ağır saldırılarla birlikte kısa vadede güvenli liman talebini artırabilir. Doların belirgin güçlenmemesi yükselişi destekliyor; ancak haber akışının bir kısmı tekrarlı ve merkez bankası alımları daha çok orta vadeli b
 03.11 11:05 N  NEWS (14 new) score -0.05 conf 0.30: 
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 11:52 A  SHORT DOGEUSDT 2338 USD x3 @ 0.07 (ters sinyal, RSI 43)
 03.11 11:52 N  NEWS (20 new) score +0.10 conf 0.30: Haberler karışık: İran savaşı ve Ukrayna'daki saldırılar jeopolitik talebi destekliyor, merkez bankalarının altın alımı güçlü ve bu yapısal olarak olumlu. Ancak ABD-İran diplomasisi petrol fiyatlarını düşürdüğü için güvenli liman primi sınırlı kalıyor, ABD doları ise belirsiz seyrediyor ve ABD ara seçim ile NFP verisi (cuma) kısa vadeli volatilite yaratabilir. Bu çelişkili ve büyük ölçüde fiyatlanmış haberler nedeniyle sinyal zayıf.
 03.11 11:52 N  GPT  score +0.20 conf 0.36: Rusya’nın Harkiv’de hastaneyi vurması ve İran’la anlaşmanın hâlâ uzak görünmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak altında sert geri dönüş/düşüş haberleri ve dolar-yuan kaynaklı destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankası alımları daha çok orta vadeli bir
+03.11 12:04 N  NEWS (5 new) score -0.15 conf 0.40: 
+03.11 12:04 N  GPT  score -0.35 conf 0.58: Altının yaklaşık %1 düşmesi ve Orta Doğu kaynaklı petrol/enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskın biçimde olumsuz. Kuzey Kore ve İran gerilimi güvenli liman talebi yaratabilir; bu karşıt etkenler düşüş beklentisini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

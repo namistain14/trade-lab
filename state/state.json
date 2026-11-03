@@ -7341,6 +7341,10 @@
    [
     1793696479,
     3869.31
+   ],
+   [
+    1793696672,
+    3860.7
    ]
   ]
  },
@@ -14080,43 +14084,38 @@
    [
     1793696479,
     4868.5
+   ],
+   [
+    1793696672,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.3,
+   "score": -0.15,
+   "confidence": 0.4,
    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve Ukrayna'daki sald\u0131r\u0131lar jeopolitik talebi destekliyor, merkez bankalar\u0131n\u0131n alt\u0131n al\u0131m\u0131 g\u00fc\u00e7l\u00fc ve bu yap\u0131sal olarak olumlu. Ancak ABD-\u0130ran diplomasisi petrol fiyatlar\u0131n\u0131 d\u00fc\u015f\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcvenli liman primi s\u0131n\u0131rl\u0131 kal\u0131yor, ABD dolar\u0131 ise belirsiz seyrediyor ve ABD ara se\u00e7im ile NFP verisi (cuma) k\u0131sa vadeli volatilite yaratabilir. Bu \u00e7eli\u015fkili ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f haberler nedeniyle sinyal zay\u0131f.",
    "n": 45,
-   "ts": 1793695956664,
-   "new_headlines": 20,
+   "ts": 1793696671341,
+   "new_headlines": 5,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.950 dolar alt\u0131na itti",
     "ABD-\u0130ran anla\u015fma umutlar\u0131, Khamenei m\u00fczakereleri destekledi",
     "ABD'nin Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 ve jeopolitik gerilim"
    ],
    "gpt": {
-    "score": 0.2,
-    "confidence": 0.36,
-    "reason": "Rusya\u2019n\u0131n Harkiv\u2019de hastaneyi vurmas\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n h\u00e2l\u00e2 uzak g\u00f6r\u00fcnmesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131nda sert geri d\u00f6n\u00fc\u015f/d\u00fc\u015f\u00fc\u015f haberleri ve dolar-yuan kaynakl\u0131 destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli bir",
+    "score": -0.35,
+    "confidence": 0.58,
+    "reason": "Alt\u0131n\u0131n yakla\u015f\u0131k %1 d\u00fc\u015fmesi ve Orta Do\u011fu kaynakl\u0131 petrol/enflasyon kayg\u0131lar\u0131n\u0131n faiz beklentilerini desteklemesi k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. Kuzey Kore ve \u0130ran gerilimi g\u00fcvenli liman talebi yaratabilir; bu kar\u015f\u0131t etkenler d\u00fc\u015f\u00fc\u015f beklentisini s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Harkiv hastanesine sald\u0131r\u0131",
-     "\u0130ran\u2019la anla\u015fman\u0131n uzak g\u00f6r\u00fcnmesi",
-     "Alt\u0131nda geri d\u00f6n\u00fc\u015f ve d\u00fc\u015f\u00fc\u015f haberleri"
+     "Alt\u0131n yakla\u015f\u0131k %1 geriledi",
+     "Orta Do\u011fu gerilimi enflasyon ve faiz bask\u0131s\u0131 yarat\u0131yor",
+     "Kuzey Kore f\u00fcze ba\u015fl\u0131\u011f\u0131 g\u00fcvenli liman talebini destekleyebilir"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792830862708,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "Alt\u0131n 4.000 dolar\u0131 k\u0131rarak d\u00fc\u015f\u00fcyor ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; haftal\u0131k d\u00fc\u015f\u00fc\u015f ve petrol kaynakl\u0131 enflasyon, faiz indirimi beklentilerini geciktirerek alt\u0131 bask\u0131l\u0131yor. \u0130ran'a yeniden sald\u0131r\u0131 tehdidi ve H\u00fcrm\u00fcz riski g\u00fcvenli liman talebini destekliyor, ancak piyasan\u0131n bu jeopolitik primi bug\u00fcne kadar sat\u0131\u015flar\u0131 durduracak kadar fiyatlamad\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor; bu nedenle hafif negatif bir g\u00f6r\u00fcn\u00fcm, d\u00fc\u015f\u00fck g\u00fcvenle.",
-    "new": 11,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792831404636,
     "score": -0.1,
@@ -16807,13 +16806,25 @@
     "new": 20,
     "gpt_score": 0.2,
     "gpt_confidence": 0.36
+   },
+   {
+    "ts": 1793696671341,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 5,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.58
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 49
+   "n": 50
   },
   "news_seen": [
+   "Gold loses almost 1% \ud83d\udcc9 - XTB.com",
+   "N. Korea tests 'dispersal warhead' for cruise missiles following cluster bomb test - upi",
+   "Trump's Iran dilemma as Americans vote: escalate, negotiate or risk wider war - www.thenationalnews.com",
    "Australian Dollar: RBA limits gains against US Dollar - Societe Generale - FXStreet",
    "Gold Price Forecast: XAU/USD Tests $3,920 on Midterm Election Day After 2% Oil-Driven Rebound, NFP Friday - FXLeaders",
    "The Philippine peso closed at P63.47 against the US dollar on Tuesday, November 3, 2026. - Facebook",
@@ -16822,6 +16833,7 @@
    "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "North Korea denies being behind record $6.3bn Binance hack",
    "New Zealand Dollar gains as US Dollar faces heat ahead of US Midterm elections - FXStreet",
+   "Gold slips as Mideast attacks fan inflation concerns; US midterms in focus - MSN",
    "Only central banks are buying gold aggressively - finews.com",
    "Gold prices suddenly reverse after a strong recovery - Laodong.vn",
    "Tehran refuses to accept 'excessive' US demands, deal to end war still distant, Iran official says - The Jerusalem Post",
@@ -16829,6 +16841,7 @@
    "Swiss Franc hits fresh seven-week highs as inflation growth beats expectations - FXStreet",
    "Shafaq News..US dollar slips in Baghdad, Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
    "U.S. dollar closes sharply higher on Taipei forex market - Focus Taiwan",
+   "News by CNBC TV18 on TradingView, 2026-11-03 \u2014 cnbctv:dca2a2431094b:0 - TradingView",
    "Can the world withstand another winter of war? - Middle East Eye",
    "Aramco Profit Rises 9% as Refining, Oil Price Drive Earnings - Bloomberg.com",
    "Gold demand falls as investors weigh uncertain price outlook - Mining.com.au",
@@ -16853,17 +16866,10 @@
    "War widens in the Black Sea in a test of NATO red lines - The Japan Times",
    "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms - FXEmpire",
    "US War on Iran, Day 250: US Strikes Qeshm Island in Strait of Hormuz - EA WorldView",
-   "Ukraine War, Day 1,713: 26+ Civilians Murdered in Russian Bombing of Aid Center and Shelter - EA WorldView",
-   "Why a US-Russia showdown left Morocco celebrating",
-   "Canadian Dollar Gains as Oil Rebounds, USD/CAD Retreats - TradingPedia",
-   "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
-   "Aramco's profit rises as refining margins strengthen amid Iran war - CNBC",
-   "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says"
+   "Ukraine War, Day 1,713: 26+ Civilians Murdered in Russian Bombing of Aid Center and Shelter - EA WorldView"
   ]
  },
  "log": [
-  "02.11 12:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdrx6VNLNMcSa4TnhCYC'}",
-  "02.11 12:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdsBM1N164kavW7VJZZh'}",
   "02.11 12:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdsQcCXUqe9gvcZqDvAa'}",
   "02.11 12:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdsdrQAQDb9BYpBgv97b'}",
   "02.11 12:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdss8hYkUg5RJ7LgXeU7'}",
@@ -17161,7 +17167,9 @@
   "03.11 11:35 A  SHORT XRPUSDT 4676 USD x3 @ 1.25 (ters sinyal, RSI 45)",
   "03.11 11:52 A  SHORT DOGEUSDT 2338 USD x3 @ 0.07 (ters sinyal, RSI 43)",
   "03.11 11:52 N  NEWS (20 new) score +0.10 conf 0.30: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve Ukrayna'daki sald\u0131r\u0131lar jeopolitik talebi destekliyor, merkez bankalar\u0131n\u0131n alt\u0131n al\u0131m\u0131 g\u00fc\u00e7l\u00fc ve bu yap\u0131sal olarak olumlu. Ancak ABD-\u0130ran diplomasisi petrol fiyatlar\u0131n\u0131 d\u00fc\u015f\u00fcrd\u00fc\u011f\u00fc i\u00e7in g\u00fcvenli liman primi s\u0131n\u0131rl\u0131 kal\u0131yor, ABD dolar\u0131 ise belirsiz seyrediyor ve ABD ara se\u00e7im ile NFP verisi (cuma) k\u0131sa vadeli volatilite yaratabilir. Bu \u00e7eli\u015fkili ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f haberler nedeniyle sinyal zay\u0131f.",
-  "03.11 11:52 N  GPT  score +0.20 conf 0.36: Rusya\u2019n\u0131n Harkiv\u2019de hastaneyi vurmas\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n h\u00e2l\u00e2 uzak g\u00f6r\u00fcnmesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131nda sert geri d\u00f6n\u00fc\u015f/d\u00fc\u015f\u00fc\u015f haberleri ve dolar-yuan kaynakl\u0131 destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli bir"
+  "03.11 11:52 N  GPT  score +0.20 conf 0.36: Rusya\u2019n\u0131n Harkiv\u2019de hastaneyi vurmas\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n h\u00e2l\u00e2 uzak g\u00f6r\u00fcnmesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131nda sert geri d\u00f6n\u00fc\u015f/d\u00fc\u015f\u00fc\u015f haberleri ve dolar-yuan kaynakl\u0131 destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli bir",
+  "03.11 12:04 N  NEWS (5 new) score -0.15 conf 0.40: ",
+  "03.11 12:04 N  GPT  score -0.35 conf 0.58: Alt\u0131n\u0131n yakla\u015f\u0131k %1 d\u00fc\u015fmesi ve Orta Do\u011fu kaynakl\u0131 petrol/enflasyon kayg\u0131lar\u0131n\u0131n faiz beklentilerini desteklemesi k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. Kuzey Kore ve \u0130ran gerilimi g\u00fcvenli liman talebi yaratabilir; bu kar\u015f\u0131t etkenler d\u00fc\u015f\u00fc\u015f beklentisini s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -22750,6 +22758,10 @@
    [
     1793696479,
     4963.78
+   ],
+   [
+    1793696672,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28266,6 +28278,10 @@
    [
     1793696479,
     4975.18
+   ],
+   [
+    1793696672,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -33748,6 +33764,10 @@
    [
     1793696479,
     4993.28
+   ],
+   [
+    1793696672,
+    4993.28
    ]
   ]
  },
@@ -39067,6 +39087,10 @@
    [
     1793696479,
     4969.22
+   ],
+   [
+    1793696672,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -43232,6 +43256,10 @@
    ],
    [
     1793696479,
+    4631.09
+   ],
+   [
+    1793696672,
     4631.09
    ]
   ],
@@ -48409,6 +48437,10 @@
    [
     1793696479,
     100746.25
+   ],
+   [
+    1793696672,
+    100746.25
    ]
   ],
   "open": {},
@@ -51955,6 +51987,10 @@
    ],
    [
     1793696479,
+    5066.43
+   ],
+   [
+    1793696672,
     5066.43
    ]
   ],
