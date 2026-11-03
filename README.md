@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 03:31 (İstanbul)
+> Son güncelleme: 03.11.2026 03:34 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,11 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %35.3 |
 | Ödenen komisyon/spread | 11.90 $ | 202.26 $ |
 
-**Hesap değeri: 4,798.90 $** (başlangıç 5,000 $, -201.10 $ / %-4.02)
+**Hesap değeri: 4,792.96 $** (başlangıç 5,000 $, -207.04 $ / %-4.14)
 
-Son haber analizi (03.11 03:22): Claude puan **+0.15**, güven 0.40 — Petrol sert düşüşü (%6-7) enflasyon kaygısını ve Fed faiz artırımı beklentilerini geriletip altın için destekleyici, ayrıca 10 yıllık tahvil getirisi düştü. Buna karşılık İran'la müzakere umutları ve Vance'in "iyi görüşmeler" açıklaması jeopolitik güvenli liman talebini azaltıyor; Netanyahu'nun yeni İran saldırısı talebi ise tersine bir risk oluşturuyor. Haberler çelişkili ve bir kısmı eski olduğundan güven düşük.
+Açık pozisyonlar: PAXGUSDT long @ 3965.08 (TP 3976.98 / SL 3957.15)
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.38 — Petrol fiyatlarındaki sert düşüşün enflasyon ve faiz beklentilerini gevşetmesi, getiriler ve dolar üzerindeki baskıyla altını kısa vadede destekleyebilir; olası İran saldırıları da güvenli liman talebini artırıyor. Ancak anlaşma umutları ve altındaki yakın dönemli kırılma sinyalleri tabloyu çelişkil
+Son haber analizi (03.11 03:34): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
+
+GPT (gpt-6-luna): puan **+0.32**, güven 0.40 — Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
 
 Son işlemler:
 
@@ -84,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 01:29 N  GPT  score +0.15 conf 0.34: Hazine tahvil getirilerindeki düşüş altını kısa vadede destekleyebilir; ancak İran’la yoğunlaşan görüşmeler güvenli liman talebini azaltabilir. Fed’in sıkılaşma beklentilerinin sürmesi ve altının 3.900 dolar altındaki kapanışına ilişkin teknik baskı yükseliş ihtimalini sınırlıyor.
-03.11 01:41 N  NEWS (6 new) score +0.02 conf 0.35: Haberler birbiriyle çelişiyor: İran-ABD müzakerelerinin sürmesi ve petrol fiyatlarının düşmesi jeopolitik güvenli liman talebini zayıflatıp gösterge tahvil getirilerini aşağı çekerek altı destekliyor, ancak Fed sıkılaştırma beklentilerinin sürmesi ve doların bazı günlerde güçlenmesi altı baskılıyor. Altın 3.900 doların altına kapanmış olsa da kısmen toparlanma gösteriyor; net etki 1-4 saatlik pencerede nötre yakın.
-03.11 01:41 N  GPT  score +0.18 conf 0.32: İran’la görüşmeler sürse de henüz atılım olmaması güvenli liman talebini destekleyebilir; düşen tahvil getirileri ve doların geri çekilmesi de altın için hafif olumlu. Ancak petrol düşüşü ve haberlerin bir kısmının uzun vadeli ya da tekrarlanan nitelikte olması yakın vadeli etkiyi sınırlıyor.
 03.11 01:54 N  NEWS (13 new) score +0.30 conf 0.50: Petrol fiyatlarının yaklaşık %6 düşmesi, doların geri çekilmesi ve Fed sıkılaştırma beklentilerinin gerilemesi altın için olumlu; altın bu nedenle toparlanıyor. İran'da savaşın yeniden başlayabileceği endişeleri jeopolitik risk talebini destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış ve birbiriyle çelişen sinyaller içeriyor, bu yüzden güven sınırlı.
 03.11 01:54 N  GPT  score +0.32 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini zayıflatması, doların geri çekilmesi ve getirilerin düşmesi altını kısa vadede destekleyebilir. İran ve Ukrayna kaynaklı riskler destekleyici olsa da barış görüşmelerinde ilerleme olmaması ve altındaki teknik zayıflık görünümü sı
 03.11 02:06 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlarındaki sert düşüş (ABD-İran müzakere umutları) Fed sıkılaştırma beklentilerini biraz geriletip altını destekliyor; ancak barış ihtimali jeopolitik güvenli liman talebini azaltıyor ve Fed sıkılaştırma bahisleri hâlâ sürüyor, bu yüzden etki sınırlı ve karışık.
@@ -99,6 +98,9 @@ Son işlemler:
 03.11 03:19 B5  CLOSE short stop: -55.96 USD
 03.11 03:22 N  NEWS (11 new) score +0.15 conf 0.40: Petrol sert düşüşü (%6-7) enflasyon kaygısını ve Fed faiz artırımı beklentilerini geriletip altın için destekleyici, ayrıca 10 yıllık tahvil getirisi düştü. Buna karşılık İran'la müzakere umutları ve Vance'in "iyi görüşmeler" açıklaması jeopolitik güvenli liman talebini azaltıyor; Netanyahu'nun yeni İran saldırısı talebi ise tersine bir risk oluşturuyor. Haberler çelişkili ve bir kısmı eski olduğundan güven düşük.
 03.11 03:22 N  GPT  score +0.20 conf 0.38: Petrol fiyatlarındaki sert düşüşün enflasyon ve faiz beklentilerini gevşetmesi, getiriler ve dolar üzerindeki baskıyla altını kısa vadede destekleyebilir; olası İran saldırıları da güvenli liman talebini artırıyor. Ancak anlaşma umutları ve altındaki yakın dönemli kırılma sinyalleri tabloyu çelişkil
+03.11 03:34 N  NEWS (3 new) score +0.30 conf 0.50: Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
+03.11 03:34 N  GPT  score +0.32 conf 0.40: Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
+03.11 03:34 B5  LONG gold 25000 USD x10 @ 3965.08 (TP 3976.98, SL 3957.15; news +0.31)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
