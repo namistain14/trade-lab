@@ -1,0 +1,30 @@
+[
+ {
+  "symbol": "NVDA",
+  "opened_ms": 1793281401831,
+  "tp": 210.4,
+  "sl": 215.74,
+  "note": "Claude 0.55: DOJ incelemesi, Çin istihbaratı iddiası ve olumsuz analojiler üst üste geliyor; teknoloji zayıflığıyla birlikte aşağı yön baskısı sürebilir. | GPT 0.61: Şirkete özgü olumsuz haber akışı ve saatlik zayıflık, sınırlı toparlanmaya rağmen satış yönünü destekliyor."
+ },
+ {
+  "symbol": "AAPL",
+  "opened_ms": 1793281401831,
+  "tp": 354.74,
+  "sl": 346.0,
+  "note": "Claude 0.6: iPhone Duo üretim hedeflerinin artırılması taze ve şirkete özel olumlu bir haber; zayıf Nasdaq'a rağmen hisse göreli güç gösteriyor. | GPT 0.74: Güçlü talebe bağlı üretim artışı haberi ve endekslere karşı belirgin göreli güç alımı destekliyor."
+ },
+ {
+  "symbol": "TSLA",
+  "opened_ms": 1793284767784,
+  "tp": 412.39,
+  "sl": 402.24,
+  "note": "Claude 0.56: Nasdaq zayıfken göreceli güç gösteriyor, son bir saatte istikrarlı yükseliş trendi var ve Güney Kore mahkeme kararı olumlu. | GPT 0.63: Piyasa endekslerinden güçlü son saat performansı ve yükselen dipler, sınırlı günlük hareketin ardından alımı destekliyor."
+ },
+ {
+  "symbol": "AAPL",
+  "opened_ms": 1793036983701,
+  "tp": 337.44,
+  "sl": 346.01,
+  "note": "Claude 0.55: Katlanabilir iPhone Duo ekran çatlama şikayetleri ve teslimat gecikmesi taze olumsuz haber; fiyat istikrarlı düşüşte ve günün dibine yakın. | GPT 0.7: Taze ekran çatlaması haberleri, piyasanın gerisinde kalan fiyatın son saat dibine gerilemesiyle kısa yönü destekliyor."
+ }
+]

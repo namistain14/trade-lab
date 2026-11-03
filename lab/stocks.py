@@ -221,8 +221,20 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
     st_bot["alpaca"] = {"multiplier": account.get("multiplier"), "buying_power": account.get("buying_power"),
                         "daytrading_buying_power": account.get("daytrading_buying_power")}
 
+    # Erdem 03.11: put back the Claude/GPT reasons + targets of the trades rebuilt from Alpaca (from older state files)
+    if st_bot.get("rebuilt") == "v1":
+        try:
+            with open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "state", "b6_notes.json")) as f:
+                notes = json.load(f)
+            for t in acc["trades"]:
+                for n in notes:
+                    if n["symbol"] == t["symbol"] and abs((n["opened_ms"] or 0) - (t["opened_ms"] or 0)) < 15 * 60_000:
+                        t.update(note=n["note"], tp=n["tp"], sl=n["sl"])
+            st_bot["rebuilt"] = "v2"
+        except Exception as e:  # noqa: BLE001
+            log.append(f"{tag}  eski gerekçeler eklenemedi: {str(e)[:120]}")
     # Erdem 03.11: closed trades were lost to a bug ('id'); rebuild the whole history once from Alpaca's fills
-    if st_bot.get("rebuilt") != "v1":
+    if not st_bot.get("rebuilt"):
         try:
             hist = rebuild_trades(api, st_bot.get("started") or "2026-10-23T00:00:00Z")
             known = {(t.get("symbol"), t.get("opened_ms")) for t in acc["trades"]}
