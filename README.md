@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 17:07 (İstanbul)
+> Son güncelleme: 03.11.2026 17:10 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %8.3 | %17.6 |
 | Ödenen komisyon/spread | 47.29 $ | 397.49 $ |
 
-**Hesap değeri: 3,834.44 $** (başlangıç 5,000 $, -1165.56 $ / %-23.31)
+**Hesap değeri: 3,830.75 $** (başlangıç 5,000 $, -1169.25 $ / %-23.38)
+
+Açık pozisyonlar: BTCUSDT short @ 77192.84 (TP 76729.68 / SL 77501.61)
 
 Son işlemler:
 
@@ -93,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 15:46 N  NEWS (9 new) score -0.45 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: büyük merkez bankalarının Aralık'ta sıkılaşma sinyali vermesi (şahin tutum, reel faiz beklentilerini yükseltir) ve altın/gümüş fiyatlarının sert düşüşü ile fiyatın üst üste ikinci gün 4.000 doların altında açılması. İran savaşı kaynaklı enerji şoku ve ABD'nin İran'a hava saldırıları güvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve sıkılaşma beklentisi nedeniyle sınırlı kalıyor; ayrıca bazı haberler zaten fiyatlanmış durumda.
 03.11 15:46 N  GPT  score -0.35 conf 0.58: Altın fiyatlarındaki sert düşüş ve büyük merkez bankalarının enflasyon nedeniyle Aralıkta sıkılaşma sinyali vermesi, kısa vadede faiz ve dolar kanalıyla baskı yaratıyor. İran’a yönelik saldırılar güvenli liman talebini destekleyebilir; bu nedenle görünüm karışık ve düşüş yönündeki değerlendirme temk
 03.11 15:58 B5  CLOSE long take profit: +69.03 USD
 03.11 15:58 N  NEWS (15 new) score -0.40 conf 0.50: 
@@ -108,6 +109,7 @@ Son işlemler:
 03.11 16:50 N  GPT  score +0.12 conf 0.32: Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
 03.11 17:02 N  NEWS (10 new) score -0.20 conf 0.40: Altın fiyatlarında yakın dönemde sert bir düşüş ve 4.000 doların altında açılış var; bu da piyasadaki satış baskısını gösteriyor. İran savaş riski güvenli liman talebini destekliyor olsa da altın bu riske rağmen düşüyor, faiz artırımı beklentisi ve ABD dolarının seçim öncesi dalgalı seyri ise kısa vadede altın için olumsuz. Standard Chartered'ın 4.700 dolarlık hedefi ve İran'daki gelişmeler gibi bazı haberler çelişkili veya eski olduğundan güven düşük.
 03.11 17:02 N  GPT  score -0.20 conf 0.40: Altının seçim günü sert düşüşü ve 4.000 doların altında kalması kısa vadeli aşağı yönlü momentuma işaret ediyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir; ancak haberlerin bir kısmı tekrarlı veya belirsiz, dolar da net yön göstermiyor.
+03.11 17:10 A  SHORT BTCUSDT 4601 USD x3 @ 77192.84 (ters sinyal, RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
