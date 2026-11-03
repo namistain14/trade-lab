@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 03:46 (İstanbul)
+> Son güncelleme: 03.11.2026 03:49 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,7 +33,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %33.3 |
 | Ödenen komisyon/spread | 23.79 $ | 214.15 $ |
 
-**Hesap değeri: 4,742.97 $** (başlangıç 5,000 $, -257.03 $ / %-5.14)
+**Hesap değeri: 4,737.02 $** (başlangıç 5,000 $, -262.98 $ / %-5.26)
+
+Açık pozisyonlar: PAXGUSDT long @ 3956.86 (TP 3968.73 / SL 3948.95)
 
 Son haber analizi (03.11 03:46): Claude puan **+0.25**, güven 0.40 — Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
 
@@ -84,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 02:06 N  GPT  score +0.24 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini ve doları zayıflatması altını kısa vadede destekleyebilir. İran’la görüşme umutları güvenli liman talebini azaltırken, bölgedeki saldırı riskleri ve çelişkili haberler görünümü belirsizleştiriyor.
 03.11 02:09 A  CLOSE BTCUSDT time limit: -6.89 USD
 03.11 02:18 N  NEWS (5 new) score +0.15 conf 0.40: Petrol fiyatlarının düşmesi (ABD-İran müzakere umutları) Fed sıkılaştırma beklentilerini gevşetip doları zayıflattığı için altın hafifçe destekleniyor; ancak güvenli liman talebi azalıyor, "Fed sıkılaştırma bahisleri sürüyor" ve müzakerelerde kırılma olmadığı haberleri çelişkili olduğundan etki sınırlı kalacak.
 03.11 02:18 N  GPT  score +0.22 conf 0.38: İran temaslarının sonuçsuz sürmesi belirsizliği ve güvenli liman talebini sınırlı ölçüde destekliyor; petrol düşüşü ve doların geri çekilmesi de altına kısa vadede yardımcı olabilir. Ancak haber akışı çelişkili ve altındaki önceki düşüş teknik baskıyı koruduğundan etki sınırlı görünüyor.
@@ -99,6 +100,7 @@ Son işlemler:
 03.11 03:43 B5  CLOSE long stop: -55.94 USD
 03.11 03:46 N  NEWS (8 new) score +0.25 conf 0.40: 
 03.11 03:46 N  GPT  score +0.38 conf 0.57: ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli güvenli liman talebini ve altını destekleyebilir. Ancak Trump’ın savaş riskini küçümsemesi ve İran’la görüşmelerin sürdüğüne dair haberler yükseliş etkisini sınırlıyor.
+03.11 03:49 B5  LONG gold 25000 USD x10 @ 3956.86 (TP 3968.73, SL 3948.95; news +0.32)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
