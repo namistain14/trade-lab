@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 21:51 (İstanbul)
+> Son güncelleme: 03.11.2026 21:54 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %14.3 | %30.4 |
 | Ödenen komisyon/spread | 83.32 $ | 273.68 $ |
 
-**Hesap değeri: 4,603.76 $** (başlangıç 5,000 $, -396.24 $ / %-7.92)
+**Hesap değeri: 4,606.17 $** (başlangıç 5,000 $, -393.83 $ / %-7.88)
 
 Açık pozisyonlar: PAXGUSDT short @ 3937.30 (TP 3925.49 / SL 3945.18)
 
-Son haber analizi (03.11 21:42): Claude puan **+0.12**, güven 0.35 — ABD'nin İran'a yeni "savunma" saldırıları (Qeshm adası) jeopolitik risk primi yaratarak altını hafifçe destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi ve ABD ara seçim/NFP beklentisiyle güçlenen dolar, kısa vadede altı baskılıyor; bu nedenle etki sınırlı ve karışık.
+Son haber analizi (03.11 21:54): Claude puan **+0.10**, güven 0.35 — Haberler karışık: İran savaşı ve Hürmüz'deki ABD saldırıları jeopolitik risk ve güvenli liman talebini hafif destekliyor, WGC'nin merkez bankası alımlarının %42 artışı da yapısal talebi güçlendiriyor. Buna karşın dolar ve ABD tahvil getirilerinin yükselişi (17:49) ve "Five Metals" haberindeki altın fiyatlarındaki geri çekilme altın için baskı oluşturuyor; ayrıca birçok başlık eski veya zaten fiyatlanmış. Net etki 1-4 saat için hafif pozitif, düşük güvenle.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.46 — ABD’nin İran’a yönelik yeni saldırıları ve Hürmüz petrol akışlarının savaş öncesi düzeye dönmesinin beklenmemesi güvenli liman talebini destekleyebilir. Ancak yükselen dolar ve ABD tahvil getirileri altın için önemli bir karşı baskı oluşturuyor; bu nedenle net etki sınırlı pozitif görünüyor.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.43 — İran’a yönelik ABD saldırıları ve görüşmelerdeki karamsarlık güvenli liman talebini destekleyebilir; WGC’nin güçlü merkez bankası alımı haberi de altın için olumlu. Ancak dolar ve ABD getirilerindeki yükseliş kısa vadeli kazanımları sınırlıyor; haber akışı çelişkili olduğundan etki hafif pozitif gör
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,222.63 $** (başlangıç 100,000 $, +2222.63 $ / %+2.22)
+**Hesap değeri: 102,064.71 $** (başlangıç 100,000 $, +2064.71 $ / %+2.06)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 20:10 N  GPT  score -0.28 conf 0.44: İran’ın Hürmüz Boğazı’nı iki gün içinde açabileceğine dair anlaşma haberi, doğrulanıp uygulanırsa güvenli liman ve enerji kaynaklı enflasyon talebini azaltarak altını baskılayabilir. Doların yükselmesi ve altın vadeli işlemlerindeki geri çekilme de kısa vadede aşağı yönü destekliyor; ancak anlaşma k
-03.11 20:10 B5  SHORT gold 25000 USD x10 @ 3937.30 (TP 3925.49, SL 3945.18; news -0.24)
-03.11 20:10 B6  karar turu: Claude «Piyasa hafif pozitif ama öğleden sonra yatay ve kararsız; teknoloji tarafında hisse bazlı ayrışma sürüyor.» / GPT «Endekslerde yön zayıf; 1:4 kaldıraç altında geniş piyasa işlemi yerine şirkete özgü olumsuz haberlerle desteklenen seçici kısa pozisyonu tercih ediyorum.»
 03.11 20:22 N  NEWS (9 new) score -0.45 conf 0.50: Altın ve gümüş düşüyor, Treasury getirileri güçlü iş ilanı verisiyle yükseliyor ve dolar hafif güçleniyor; bu, faiz beklentileri ve dolar kanalıyla altın için baskılayıcı. İran'ın Hormuz'u iki gün içinde açabileceği yönündeki haber de jeopolitik güvenli liman talebini azaltıyor, ancak İran savaşı tehdidi ve Pekin'in diplomatik hareketliliği gibi karşıt başlıklar belirsizliği koruyor, bu yüzden güven orta düzeyde.
 03.11 20:22 N  GPT  score -0.55 conf 0.68: Güçlü ABD iş ilanı verisiyle Hazine tahvillerinin gerilemesi ve doların yükselmesi, kısa vadede faiz beklentileri üzerinden altını baskılıyor; altın ve gümüşteki düşüş haberleri de bu yönü destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini canlı tutsa da, İran’ın Hürmüz Boğazı’nı a
 03.11 20:22 B6  karar turu: Claude «Piyasa, güçlü makro veriler ve teknoloji liderliğiyle ılımlı pozitif seyrediyor; öğleden sonra düşük volatiliteli, hafif yukarı eğilimli bir seans bekleniyor.» / GPT «Endekslerde ivme sınırlı; büyük hareketleri kovalamak yerine şirkete özgü olumsuz haberlerle desteklenen göreli zayıflığı tercih ediyorum.»
@@ -103,6 +100,9 @@ Son işlemler:
 03.11 21:42 N  NEWS (16 new) score +0.12 conf 0.35: ABD'nin İran'a yeni "savunma" saldırıları (Qeshm adası) jeopolitik risk primi yaratarak altını hafifçe destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi ve ABD ara seçim/NFP beklentisiyle güçlenen dolar, kısa vadede altı baskılıyor; bu nedenle etki sınırlı ve karışık.
 03.11 21:42 N  GPT  score +0.15 conf 0.46: ABD’nin İran’a yönelik yeni saldırıları ve Hürmüz petrol akışlarının savaş öncesi düzeye dönmesinin beklenmemesi güvenli liman talebini destekleyebilir. Ancak yükselen dolar ve ABD tahvil getirileri altın için önemli bir karşı baskı oluşturuyor; bu nedenle net etki sınırlı pozitif görünüyor.
 03.11 21:42 B6  karar turu: Claude «Endeksler güçlü makro verilerle ılımlı artıda ancak son saatte yatay konsolidasyon var, belirgin bir momentum yok.» / GPT «Endeksler yatayken AAPL'de seçici kısa pozisyon öne çıkıyor; normal seans kapanışına yalnızca 78 dakika kaldığından pozisyonu kapanıştan önce kapatmak gerekir.»
+03.11 21:54 N  NEWS (12 new) score +0.10 conf 0.35: Haberler karışık: İran savaşı ve Hürmüz'deki ABD saldırıları jeopolitik risk ve güvenli liman talebini hafif destekliyor, WGC'nin merkez bankası alımlarının %42 artışı da yapısal talebi güçlendiriyor. Buna karşın dolar ve ABD tahvil getirilerinin yükselişi (17:49) ve "Five Metals" haberindeki altın fiyatlarındaki geri çekilme altın için baskı oluşturuyor; ayrıca birçok başlık eski veya zaten fiyatlanmış. Net etki 1-4 saat için hafif pozitif, düşük güvenle.
+03.11 21:54 N  GPT  score +0.12 conf 0.43: İran’a yönelik ABD saldırıları ve görüşmelerdeki karamsarlık güvenli liman talebini destekleyebilir; WGC’nin güçlü merkez bankası alımı haberi de altın için olumlu. Ancak dolar ve ABD getirilerindeki yükseliş kısa vadeli kazanımları sınırlıyor; haber akışı çelişkili olduğundan etki hafif pozitif gör
+03.11 21:54 B6  karar turu: Claude «Endeksler güçlü makro verilerle günü artıda geçiriyor ancak öğleden sonra momentum zayıfladı ve piyasa yatay seyrediyor.» / GPT «Endekslerde gün içi kazançlara rağmen momentum zayıf; normal seansın bitimine 66 dakika kalması, yüzde 1,5 hedefe ulaşma olasılığını sınırlıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
