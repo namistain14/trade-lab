@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 23:42 (İstanbul)
+> Son güncelleme: 03.11.2026 23:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %25.0 | %33.3 |
 | Ödenen komisyon/spread | 95.23 $ | 285.59 $ |
 
-**Hesap değeri: 4,659.50 $** (başlangıç 5,000 $, -340.50 $ / %-6.81)
+**Hesap değeri: 4,664.21 $** (başlangıç 5,000 $, -335.79 $ / %-6.72)
 
 Açık pozisyonlar: PAXGUSDT short @ 3928.84 (TP 3917.06 / SL 3936.70)
 
@@ -71,9 +71,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,298.33 $** (başlangıç 100,000 $, +2298.33 $ / %+2.30)
+**Hesap değeri: 103,002.24 $** (başlangıç 100,000 $, +3002.24 $ / %+3.00)
 
-Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
+Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99)
 
 Son işlemler:
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 22:32 B6  karar turu: Claude «Endeksler gün içi kazançların bir kısmını kapanışa doğru yavaşça geri veriyor; seans bitimine çok az kaldığı için yeni pozisyon açmanın risk/getiri oranı zayıf.» / GPT «Endekslerde kısa vadeli satış baskısı var; normal seansın bitmesine 28 dakika kaldığından 1–3 saatlik taşıma seans dışına uzanır ve braket emirlerinin işlerliği kontrol edilmelidir.»
 03.11 22:44 N  NEWS (8 new) score -0.40 conf 0.55: Yeni başlıklar çoğunlukla altın için baskılayıcı: ABD tahvil getirileri ve dolar yükselirken Fed'in sıkılaştırma beklentileri fiyatlanıyor ve altın 3.900 dolar civarına geriliyor. İran savaşı ve Ukrayna saldırıları güvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bu yüzden orta-düzeyde negatif, güven de sınırlı.
 03.11 22:44 N  GPT  score -0.25 conf 0.55: Yükselen ABD tahvil getirileri, şahin Fed beklentileri ve güçlü dolar altın üzerinde kısa vadeli baskı yaratıyor. Ukrayna ve İran kaynaklı riskler ile merkez bankası alımları bu baskıyı kısmen dengelese de yeni başlıkların çoğu yakın vadede belirleyici değil.
 03.11 22:44 B6  karar turu: Claude «Kapanışa dakikalar kala piyasa hafif artıda ama son saatte zayıflıyor; 1-3 saatlik işlem için yeterli seans süresi kalmadığından yeni pozisyon açmak mantıklı değil.» / GPT «Endekslerde kısa vadeli momentum aşağı yönlü; ancak 1–3 saatlik ufkun seans sonrasına taşması, 4 kat kaldıraçla likidite ve stop gerçekleşme riskini artırıyor.»
@@ -103,6 +102,7 @@ Son işlemler:
 03.11 23:27 B5  SHORT gold 25000 USD x10 @ 3928.84 (TP 3917.06, SL 3936.70; news -0.28)
 03.11 23:39 N  NEWS (15 new) score -0.15 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkilemeyen genel haberler (Aramco, Gazze, Ukrayna'ya silah, Meta tahvil ihracı). Piyasaya dair en belirgin sinyal, ABD tahvil getirilerinin yükselmesi ve Fed'in sıkılaştırma beklentileriyle altının yaklaşık 3.900 dolara gerilediği haberi; bu da kısa vadede hafif negatif bir baskı yaratıyor. İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primi sağlasa da bu etki şimdiye kadar belirgin bir yükseliş getirmemiş görünüyor.
 03.11 23:39 N  GPT  score -0.20 conf 0.56: Dolar ve ABD tahvil getirilerindeki yükseliş ile Fed’in daha şahin fiyatlanması altın için kısa vadede baskı oluşturuyor. Rusya’nın Ukrayna enerji altyapısına yönelik büyük saldırısı ve İran çevresindeki savaş endişeleri güvenli liman talebiyle bu baskıyı kısmen dengeliyor.
+03.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/NVDA: 403 {"available":"0","code":40310000,"existing_qty":"484","held_for_orders":"484","message":"insufficient qty available for order (requested: 484, available: 0)","symbol":"NVDA"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
