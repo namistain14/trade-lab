@@ -7097,6 +7097,10 @@
    [
     1793685405,
     3925.49
+   ],
+   [
+    1793685597,
+    3935.34
    ]
   ]
  },
@@ -13672,43 +13676,38 @@
    [
     1793685405,
     4868.5
+   ],
+   [
+    1793685597,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.15,
+   "score": -0.1,
    "confidence": 0.35,
-   "reason": "Hormuz ve Qeshm Adas\u0131'ndaki patlama ve ABD sald\u0131r\u0131 haberleri jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini hafif destekleyerek alt\u0131n\u0131 yukar\u0131 \u00e7ekebilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, d\u00fc\u015f\u00fck petrol kaynakl\u0131 enflasyon kayg\u0131s\u0131n\u0131n azalmas\u0131 ve ABD dolar\u0131ndaki olas\u0131 g\u00fc\u00e7 kar\u0131\u015f\u0131k sinyal veriyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya \u00e7eli\u015fkili (\u00f6r. 5.000 dolar iddias\u0131), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
+   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131 yarat\u0131yor; ABD'nin H\u00fcrm\u00fcz'de sald\u0131r\u0131 haberleri ise g\u00fcvenli liman talebini destekleyebilir. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck, etki hafif negatif.",
    "n": 45,
-   "ts": 1793684875775,
-   "new_headlines": 9,
+   "ts": 1793685596697,
+   "new_headlines": 7,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.950 dolar alt\u0131na itti",
     "ABD-\u0130ran anla\u015fma umutlar\u0131, Khamenei m\u00fczakereleri destekledi",
     "ABD'nin Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 ve jeopolitik gerilim"
    ],
    "gpt": {
-    "score": 0.48,
-    "confidence": 0.54,
-    "reason": "H\u00fcrm\u00fcz yak\u0131n\u0131ndaki \u0130ran patlamalar\u0131 ve ABD sald\u0131r\u0131s\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 y\u00f6n\u00fcndeki haberler ve \u00e7at\u0131\u015fman\u0131n \u201cyumu\u015fak sava\u015f\u201d diye nitelenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+    "score": 0.12,
+    "confidence": 0.38,
+    "reason": "\u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yeniden alevlenmesi ve Hizbullah\u2019a ili\u015fkin uyar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekleyebilir. Ancak faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; Rusya-Ukrayna g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131 da jeopolitik deste\u011fi azalt\u0131yor.",
     "key_events": [
-     "H\u00fcrm\u00fcz\u2019de \u0130ran patlamalar\u0131 ve ABD sald\u0131r\u0131s\u0131 haberi",
-     "Fed faiz art\u0131\u015f\u0131 beklentileri alt\u0131n i\u00e7in bask\u0131 unsuru",
-     "Dolar\u0131n geriledi\u011fine dair s\u0131n\u0131rl\u0131 destek"
+     "\u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yeniden ba\u015flama ihtimali",
+     "Alt\u0131nda faiz art\u0131r\u0131m\u0131 beklentileri kaynakl\u0131 bask\u0131",
+     "Rusya-Ukrayna g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792823996580,
-    "score": -0.15,
-    "confidence": 0.35,
-    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk talebini destekliyor, ancak haberlerin \u00e7o\u011fu alt\u0131n\u0131n haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc, zay\u0131f talebi, \"4.000 dolar\u0131n alt\u0131na inme\" teknik sat\u0131\u015f\u0131n\u0131 ve ABD dolar\u0131ndaki y\u00fckseli\u015fi vurguluyor. Enflasyon bask\u0131s\u0131 haberleri de Fed'in s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendirip alt\u0131 bask\u0131layabilir. Bu nedenlerle k\u0131sa vadede hafif negatif, ama g\u00fcven d\u00fc\u015f\u00fck bir g\u00f6r\u00fcn\u00fcm.",
-    "new": 4,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792824541375,
     "score": -0.15,
@@ -16399,13 +16398,26 @@
     "new": 9,
     "gpt_score": 0.48,
     "gpt_confidence": 0.54
+   },
+   {
+    "ts": 1793685596697,
+    "score": -0.1,
+    "confidence": 0.35,
+    "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131 yarat\u0131yor; ABD'nin H\u00fcrm\u00fcz'de sald\u0131r\u0131 haberleri ise g\u00fcvenli liman talebini destekleyebilir. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck, etki hafif negatif.",
+    "new": 7,
+    "gpt_score": 0.12,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 38
+   "n": 39
   },
   "news_seen": [
+   "Israel asks Lebanon to prevent Hezbollah from entering the war if the conflict with Iran resumes - report - i24NEWS",
+   "Indian Rupee extends winning streak against US Dollar amid lower oil prices - FXStreet",
+   "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linge - The Economic Times",
+   "U.S.-Ukraine-Russia talks on ending Moscow's war to resume - upi",
    "Gold price rises, silver falls in Nepali market - Nepalnews.com",
    "Opinion | The inflation election - The Washington Post",
    "Gold prices edge lower after previous session's gains - Sharjah24",
@@ -16415,7 +16427,6 @@
    "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "Gold Prices Rise \u20b9270; Delhi Costliest, Jewellery Stocks Gain - HDFC Sky",
    "Gold Price Increases Slightly in Nepali Market, Silver Decreases - Ratopati",
-   "This Kids' Series Captures the Horrors of War Better Than Most Adult Books - Collider",
    "ICC president urges U.N. members to defend court against U.S. sanctions - The Japan Times",
    "Gold price rises, silver falls - OnlineKhabar English News",
    "Trump calls Iran conflict a \u2018very soft war\u2019 ahead of midterms - Mezha.net",
@@ -16425,18 +16436,16 @@
    "Offshore Yuan Weakens After PBOC Moves to Cool Currency Rally - Bloomberg.com",
    "Serbia\u2019s Political Tsunami Won\u2019t Bring Geopolitical Transformation - The American Conservative",
    "Russia Ukraine War Economic Stress - dailyrecordnews.com",
+   "How popular is the Iran War? - Silver Bulletin",
    "Can Europe Defend the ICC? US Sanctions Put Solidarity to the Test - Modern Diplomacy",
    "Cold War City \u2014 how West Berlin shaped its own identity - Financial Times",
    "U.S. dollar ticks down - \u5df4\u58eb\u7684\u5831",
    "The unauthorized war | RICH LOWRY: | Opinion - Las Vegas Review-Journal",
-   "Gold prices on November 3rd: Global and domestic gold prices surge. - Vietnam.vn",
    "Indonesia Urges Russia to Stop Recruiting Its Citizens Into Ukraine War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
    "Local historian corrects birthdate of Revolutionary War hero - Daily Advocate",
    "Russian Offensive Campaign Assessment, November 2, 2026 - Institute for the Study of War",
-   "Domestic gold prices continued to rise by another 1.2 million VND per tael. - Vietnam.vn",
    "Rupee rises 12 paise to 94.72 against U.S. dollar in early trade - The Hindu",
-   "Gold Rebounds As Lower Oil Prices Ease Inflation Fears Ahead Of US Midterm Vote By Kedia Advisory - Investing.com India",
-   "Gold price increased after morning interbank fixing in London - \u041a\u0430\u0437\u0422\u0410\u0413",
+   "Gold Rate Today in West Bengal 3rd November 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal - Business Today",
    "Gold weakens back below $3,950 as Fed hike bets weigh ahead of US midterm elections - FXStreet",
    "Chennai gold price rises by Rs 200 on November 3, 2026; check today's gold, silver rate - DT Next",
    "Utah prepares for biggest Holy War yet - ABC4 Utah",
@@ -16445,17 +16454,14 @@
    "Americans head to midterms with inflation weighing on their wallets and Trump's economic record - Firstpost",
    "Gold eases ahead of US midterm elections - Reuters",
    "Russo-Ukrainian war, day 1713: Ukraine hits Samara Oil hub blending up to half of Russian crude exports - Euromaidan Press",
-   "Trump calls Iran conflict a \u2018soft war,\u2019 insists US holds the cards ahead of midterm elections - 930 WFMD Free Talk",
-   "Finland's national ice hockey team will not play against Russia amid Ukraine war: Official - Anadolu Ajans\u0131",
    "North Korea Demonstrates First Cruise Missile with Cluster Warhead in Landmark Test Launch - Military Watch Magazine",
    "North Korea conducts strategic cruise missile test amid tensions with South - TRT World",
    "Vietnam's SJC gold bars top 141 million dong, adding 2.2 million per tael over two sessions - BigGo Finance",
-   "War and sanctions squeeze Iran's medicine supply by sea and air - Amwaj.media"
+   "War and sanctions squeeze Iran's medicine supply by sea and air - Amwaj.media",
+   "Vietnam CPI Up 0.20% in October; Gold and Dollar Indexes Fall - News and Statistics - IndexBox"
   ]
  },
  "log": [
-  "02.11 10:15 A  CLOSE BTCUSDT time limit: +3.08 USD",
-  "02.11 10:15 A  CLOSE ETHUSDT time limit: +1.97 USD",
   "02.11 10:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdgzNHXmSQNqGhrXKEX3'}",
   "02.11 10:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdhDaS8YCK8v5yScMms2'}",
   "02.11 10:21 A  SHORT XRPUSDT 4994 USD x3 @ 1.25 (ters sinyal, RSI 41)",
@@ -16753,7 +16759,9 @@
   "03.11 08:41 A  SHORT ETHUSDT 4712 USD x3 @ 2249.42 (ters sinyal, RSI 42)",
   "03.11 08:41 A  SHORT SOLUSDT 2356 USD x3 @ 91.87 (ters sinyal, RSI 40)",
   "03.11 08:47 N  NEWS (9 new) score +0.15 conf 0.35: Hormuz ve Qeshm Adas\u0131'ndaki patlama ve ABD sald\u0131r\u0131 haberleri jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini hafif destekleyerek alt\u0131n\u0131 yukar\u0131 \u00e7ekebilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, d\u00fc\u015f\u00fck petrol kaynakl\u0131 enflasyon kayg\u0131s\u0131n\u0131n azalmas\u0131 ve ABD dolar\u0131ndaki olas\u0131 g\u00fc\u00e7 kar\u0131\u015f\u0131k sinyal veriyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya \u00e7eli\u015fkili (\u00f6r. 5.000 dolar iddias\u0131), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
-  "03.11 08:47 N  GPT  score +0.48 conf 0.54: H\u00fcrm\u00fcz yak\u0131n\u0131ndaki \u0130ran patlamalar\u0131 ve ABD sald\u0131r\u0131s\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 y\u00f6n\u00fcndeki haberler ve \u00e7at\u0131\u015fman\u0131n \u201cyumu\u015fak sava\u015f\u201d diye nitelenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor."
+  "03.11 08:47 N  GPT  score +0.48 conf 0.54: H\u00fcrm\u00fcz yak\u0131n\u0131ndaki \u0130ran patlamalar\u0131 ve ABD sald\u0131r\u0131s\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 y\u00f6n\u00fcndeki haberler ve \u00e7at\u0131\u015fman\u0131n \u201cyumu\u015fak sava\u015f\u201d diye nitelenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "03.11 08:59 N  NEWS (7 new) score -0.10 conf 0.35: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131 yarat\u0131yor; ABD'nin H\u00fcrm\u00fcz'de sald\u0131r\u0131 haberleri ise g\u00fcvenli liman talebini destekleyebilir. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck, etki hafif negatif.",
+  "03.11 08:59 N  GPT  score +0.12 conf 0.38: \u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n yeniden alevlenmesi ve Hizbullah\u2019a ili\u015fkin uyar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekleyebilir. Ancak faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; Rusya-Ukrayna g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131 da jeopolitik deste\u011fi azalt\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -22178,6 +22186,10 @@
    [
     1793685405,
     4963.78
+   ],
+   [
+    1793685597,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27530,6 +27542,10 @@
    [
     1793685405,
     4975.18
+   ],
+   [
+    1793685597,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32848,6 +32864,10 @@
    [
     1793685405,
     4993.28
+   ],
+   [
+    1793685597,
+    4993.28
    ]
   ]
  },
@@ -38003,6 +38023,10 @@
    [
     1793685405,
     4969.22
+   ],
+   [
+    1793685597,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -42004,6 +42028,10 @@
    ],
    [
     1793685405,
+    4631.09
+   ],
+   [
+    1793685597,
     4631.09
    ]
   ],
@@ -47017,6 +47045,10 @@
    [
     1793685405,
     100750.28
+   ],
+   [
+    1793685597,
+    100750.28
    ]
   ],
   "open": {},
@@ -50399,6 +50431,10 @@
    ],
    [
     1793685405,
+    5066.43
+   ],
+   [
+    1793685597,
     5066.43
    ]
   ],

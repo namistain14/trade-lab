@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 08:56 (İstanbul)
+> Son güncelleme: 03.11.2026 08:59 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %17.9 |
 | Ödenen komisyon/spread | 21.40 $ | 371.60 $ |
 
-**Hesap değeri: 3,925.49 $** (başlangıç 5,000 $, -1074.51 $ / %-21.49)
+**Hesap değeri: 3,935.34 $** (başlangıç 5,000 $, -1064.66 $ / %-21.29)
 
 Açık pozisyonlar: BTCUSDT short @ 76804.95 (TP 76344.12 / SL 77112.17); ETHUSDT short @ 2249.42 (TP 2235.93 / SL 2258.42); SOLUSDT short @ 91.87 (TP 91.32 / SL 92.24)
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
-Son haber analizi (03.11 08:47): Claude puan **+0.15**, güven 0.35 — Hormuz ve Qeshm Adası'ndaki patlama ve ABD saldırı haberleri jeopolitik risk kaynaklı güvenli liman talebini hafif destekleyerek altını yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, düşük petrol kaynaklı enflasyon kaygısının azalması ve ABD dolarındaki olası güç karışık sinyal veriyor; ayrıca birçok başlık eski veya çelişkili (ör. 5.000 dolar iddiası), bu yüzden güven düşük.
+Son haber analizi (03.11 08:59): Claude puan **-0.10**, güven 0.35 — Fed faiz artırımı beklentilerinin sürmesi ve altının 3.950 doların altına gerilemesi kısa vadede baskı yaratıyor; ABD'nin Hürmüz'de saldırı haberleri ise güvenli liman talebini destekleyebilir. Haberler çelişkili ve bir kısmı eski olduğu için güven düşük, etki hafif negatif.
 
-GPT (gpt-6-luna): puan **+0.48**, güven 0.54 — Hürmüz yakınındaki İran patlamaları ve ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Fed faiz artışı beklentilerinin altını baskıladığı yönündeki haberler ve çatışmanın “yumuşak savaş” diye nitelenmesi yükseliş etkisini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.38 — İran çatışmasının yeniden alevlenmesi ve Hizbullah’a ilişkin uyarı güvenli liman talebini sınırlı destekleyebilir. Ancak faiz artırımı beklentileri altını baskılıyor; Rusya-Ukrayna görüşmelerinin yeniden başlaması da jeopolitik desteği azaltıyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-03.11 08:03 N  NEWS (7 new) score -0.20 conf 0.40: Fed faiz artırımı beklentileri ve İran'la anlaşma umutları altının kısa vadeli güvenli liman talebini zayıflatıyor, bu da hafif negatif bir etki yaratıyor. Ancak başlıklar çelişkili (ABD'nin İran'a saldırısı, Qeshm saldırısı, ve "5.000 doları aştı" gibi eski/tutarsız haberler), bu yüzden güven düşük.
 03.11 08:03 N  GPT  score -0.15 conf 0.42: İran’a yönelik ABD saldırısı güvenli liman talebini destekleyebilir; ancak olası anlaşmaya dair iyimserlik ve Fed faiz artırımı beklentilerinin altını baskılaması kısa vadede ağır basıyor. Haber akışı çelişkili olduğundan yön sinyali zayıf.
 03.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 08:41 A  SHORT SOLUSDT 2356 USD x3 @ 91.87 (ters sinyal, RSI 40)
 03.11 08:47 N  NEWS (9 new) score +0.15 conf 0.35: Hormuz ve Qeshm Adası'ndaki patlama ve ABD saldırı haberleri jeopolitik risk kaynaklı güvenli liman talebini hafif destekleyerek altını yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, düşük petrol kaynaklı enflasyon kaygısının azalması ve ABD dolarındaki olası güç karışık sinyal veriyor; ayrıca birçok başlık eski veya çelişkili (ör. 5.000 dolar iddiası), bu yüzden güven düşük.
 03.11 08:47 N  GPT  score +0.48 conf 0.54: Hürmüz yakınındaki İran patlamaları ve ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Fed faiz artışı beklentilerinin altını baskıladığı yönündeki haberler ve çatışmanın “yumuşak savaş” diye nitelenmesi yükseliş etkisini sınırlıyor.
+03.11 08:59 N  NEWS (7 new) score -0.10 conf 0.35: Fed faiz artırımı beklentilerinin sürmesi ve altının 3.950 doların altına gerilemesi kısa vadede baskı yaratıyor; ABD'nin Hürmüz'de saldırı haberleri ise güvenli liman talebini destekleyebilir. Haberler çelişkili ve bir kısmı eski olduğu için güven düşük, etki hafif negatif.
+03.11 08:59 N  GPT  score +0.12 conf 0.38: İran çatışmasının yeniden alevlenmesi ve Hizbullah’a ilişkin uyarı güvenli liman talebini sınırlı destekleyebilir. Ancak faiz artırımı beklentileri altını baskılıyor; Rusya-Ukrayna görüşmelerinin yeniden başlaması da jeopolitik desteği azaltıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
