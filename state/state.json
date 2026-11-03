@@ -7462,6 +7462,10 @@
    [
     1793701824,
     3834.44
+   ],
+   [
+    1793702572,
+    3834.44
    ]
   ]
  },
@@ -14305,43 +14309,38 @@
    [
     1793701824,
     4868.5
+   ],
+   [
+    1793702572,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.2,
+   "score": 0.2,
    "confidence": 0.4,
-   "reason": "Jeopolitik risk (ABD'nin Ki\u015fm Adas\u0131 sald\u0131r\u0131s\u0131, \u0130ran'\u0131n yeniden sava\u015f tehdidi) alt\u0131n i\u00e7in destekleyici olsa da, alt\u0131n bu haberlere ra\u011fmen %1 civar\u0131nda d\u00fc\u015f\u00fcyor. Warsh'\u0131n sert mesaj\u0131, dolar\u0131n yeniden g\u00fc\u00e7lenmesi ve sert ECB tonu reel faiz ve dolar kanal\u0131ndan alt\u0131 bask\u0131l\u0131yor. Haberler kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+   "reason": "Yeni gelen \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi haberleri g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 hafif\u00e7e destekliyor. Ancak dolar\u0131n toparlanma sinyalleri, WGC'nin Q3 alt\u0131n talebinin d\u00fc\u015f\u00fc\u015f\u00fc ve alt\u0131ndaki \"beklenmedik d\u00fc\u015f\u00fc\u015f\" ba\u015fl\u0131klar\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; ayr\u0131ca 3,7% enflasyon ve Fed duraklamas\u0131 ortam\u0131 net bir y\u00f6n vermiyor.",
    "n": 45,
-   "ts": 1793701474969,
-   "new_headlines": 15,
+   "ts": 1793702572402,
+   "new_headlines": 28,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.950 dolar alt\u0131na itti",
     "ABD-\u0130ran anla\u015fma umutlar\u0131, Khamenei m\u00fczakereleri destekledi",
     "ABD'nin Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 ve jeopolitik gerilim"
    ],
    "gpt": {
-    "score": -0.35,
-    "confidence": 0.62,
-    "reason": "Alt\u0131n fiyat\u0131ndaki yakla\u015f\u0131k %1\u2019lik d\u00fc\u015f\u00fc\u015f ve dolar\u0131n g\u00fc\u00e7lenmesi k\u0131sa vadede bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcne i\u015faret ediyor. \u0130ran kaynakl\u0131 sava\u015f riski g\u00fcvenli liman talebini desteklese de haberler \u00e7eli\u015fkili ve bu riskin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
+    "score": 0.35,
+    "confidence": 0.48,
+    "reason": "ABD\u2019nin \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131s\u0131 ve Rusya\u2019n\u0131n Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir; dolar\u0131n g\u00fc\u00e7lenmedi\u011fi y\u00f6n\u00fcndeki haber de alt\u0131n\u0131 destekliyor. Ancak alt\u0131ndaki mevcut d\u00fc\u015f\u00fc\u015f ve baz\u0131 haberlerin do\u011frulanmam\u0131\u015f ya da beklenti niteli\u011finde olmas\u0131 y\u00fckseli\u015f sinyalin",
     "key_events": [
-     "Alt\u0131n k\u00fcresel piyasalarda yakla\u015f\u0131k %1 geriledi",
-     "Dolar\u0131n g\u00fc\u00e7lendi\u011fine dair haber",
-     "\u0130ran\u2019da sava\u015f\u0131n yeniden ba\u015flamas\u0131 riski"
+     "ABD\u2019nin \u0130ran\u2019daki adaya sald\u0131rd\u0131\u011f\u0131 bildirildi",
+     "Rusya\u2019n\u0131n Ukrayna\u2019ya y\u00f6nelik sald\u0131r\u0131s\u0131nda can kay\u0131plar\u0131",
+     "Dolar\u0131n g\u00fc\u00e7lenmedi\u011fi haberleri"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792834663262,
-    "score": -0.15,
-    "confidence": 0.4,
-    "reason": "Alt\u0131n 4.000 dolar\u0131n alt\u0131na inmi\u015f ve teknik g\u00f6r\u00fcn\u00fcm zay\u0131f; \u0130ran sava\u015f\u0131 ve petrol fiyatlar\u0131n\u0131n y\u00fckseli\u015fi g\u00fcvenli liman talebini destekliyor, ancak enflasyon beklentilerinin artmas\u0131 (%4,7) ve petrol kaynakl\u0131 enflasyonun Fed'i s\u0131k\u0131la\u015ft\u0131rmaya itebilece\u011fi endi\u015fesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Trump-Fed gerilimlerinin yeniden alevlenmesi gev\u015fek para politikas\u0131 beklentisiyle alt\u0131n\u0131 destekleyebilir, ancak bu etki hen\u00fcz net de\u011fil; genel tablo hafif negatif.",
-    "new": 7,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792835209257,
     "score": -0.15,
@@ -17032,63 +17031,70 @@
     "new": 15,
     "gpt_score": -0.35,
     "gpt_confidence": 0.62
+   },
+   {
+    "ts": 1793702572402,
+    "score": 0.2,
+    "confidence": 0.4,
+    "reason": "Yeni gelen \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi haberleri g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 hafif\u00e7e destekliyor. Ancak dolar\u0131n toparlanma sinyalleri, WGC'nin Q3 alt\u0131n talebinin d\u00fc\u015f\u00fc\u015f\u00fc ve alt\u0131ndaki \"beklenmedik d\u00fc\u015f\u00fc\u015f\" ba\u015fl\u0131klar\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; ayr\u0131ca 3,7% enflasyon ve Fed duraklamas\u0131 ortam\u0131 net bir y\u00f6n vermiyor.",
+    "new": 28,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 56
+   "n": 57
   },
   "news_seen": [
-   "Iran's chief negotiator says the US must act to prevent renewed war, and other Mideast news - WSLS",
+   "shownews - Cold War in the Supermarket: Hybrid Warfare goes after the fridges - FW-MAG Future Warfare Magazine",
+   "China reports simultaneous interception of two missile targets - Janes Defence Intelligence",
+   "US strikes Iranian island ahead of midterm elections",
+   "14 Civilians Killed, 25 Injured After Failed Houthi Ballistic Missile Launch in Taiz - Yemen Online",
+   "Silver price today: Silver declines, FXStreet data show - www.tmgm.com",
+   "Forex Today: Dollar shows no signs of strength as US holds midterm elections - www.tmgm.com",
+   "Air Force Awards Lockheed $694 Million Hypersonic Missile Production Contract - Aero-News Network",
+   "Rich Lowry: The unauthorized war - Maui News",
+   "Beijing launches diplomatic flurry amid threat of renewed U.S. war with Iran - The Washington Post",
+   "As Trump\u2019s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War - The New York Times",
+   "Trump to remove Rwanda and South Africa from US trade deal",
+   "Russia-Ukraine war: 29 killed in massive overnight attack as Zelenskyy urges US to step up air defence - Open Magazine",
+   "Iran\u2019s chief negotiator says the US must act to prevent renewed war, and other Mideast news - WTOP News",
+   "Opinion: My ancestor died in the Revolutionary War 250 years ago today. His quiet sacrifice still resonates. - CT Insider",
+   "At least 73 injured as Russia bombs Ukrainian hospital and power plants - Al Jazeera",
+   "Shafaq News..Iran Speaker: Ball in US court to prevent war - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
    "Syrian gold prices fall as global bullion loses 1% - \u0633\u0627\u0646\u0627",
+   "Global gold demand down 1 pc in Q3 at 1,360 tonne amid uncertainty over price: WGC - Daily Excelsior",
    "Georgia Economist Dr Nikki Finlay Explains What 3.7 Percent Inflation, Slower Hiring and a Fed Pause Mean for Households - EIN Presswire",
+   "Gold price faces major paradox, market shows noteworthy signs - Laodong.vn",
    "Gold Prices Retreat Amid Anticipation of U.S. Elections - \u0648\u0643\u0627\u0644\u0629 \u0633\u0628\u0623",
-   "French judges probe war crimes complaint against Israeli army in Lebanon: lawyer - France 24",
+   "Gold Fields (NYSE:GFI): An Undervalued Value Stock With Quality Fundamentals - ChartMill",
+   "Trump calls Iran conflict a \u2018soft war,\u2019 insists US holds the cards ahead of midterm elections - New York Post",
+   "French judges probe war crimes complaint against Israeli army in Lebanon: lawyer - Al-Monitor",
+   "Lufthansa cuts profit forecast as annual fuel bill rises by \u20ac2 billion - Euronews.com",
    "Missile launchers near Mar-a-Lago a troubling sign | Editorial - Palm Beach Daily News",
+   "A legion of amputees: The bleeding wound of the Ukraine war - El Mundo America",
    "\u2018It\u2019s a War of Attrition\u2019: Drones Give No Military Edge in Sudan - The New York Times",
    "Memorials at Landis Park in Vineland - Courier-Post",
    "Jet may have broken apart before Florida crash, officials say, as family named among victims",
    "Will Trump relaunch his war on Iran after the midterm elections? - The Guardian",
+   "Russia Suffered Its Worst Month of the War, Losing 54,400 Troops for a Few Kilometers of Land - UNITED24 Media",
    "The Dollar Is Reasserting Itself as the King of Global Finance - Bloomberg.com",
    "Trump\u2019s Immigration Dragnet Sweeps Up Ukrainian Truckers Who Fled War - The New York Times",
    "China\u2019s HQ series intercepts 2 new missile types as PLA tests weapon platform - South China Morning Post",
    "Tuesdays of Honor: Ballard C. Vaughan - WDBJ7",
+   "A new cold war: hackers target fridges across the globe - NPR",
+   "Putin\u2019s Full House of War Crimes - Byline Times | Substack",
    "Iran\u2019s war threats now reach Europe, from Cyprus to Britain - Iran International",
    "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+   "World gold price today 3.11: Unexpected slide, downward pressure spreads - Laodong.vn",
    "Drivers may get compensation offers before car finance saga ends",
+   "Iran: Ball Is in Washington\u2019s Court to Avoid War... - Jordan News",
    "Clariant lags core profit forecast as Iran war weighs, but says the hit is easing - Reuters",
-   "Russia Ukraine War - Post Register",
-   "Trump's Iran dilemma as Americans vote: escalate, negotiate or risk wider war - The National",
-   "US strikes Iran\u2019s Qeshm Island on eve of election - Financial Times",
-   "Gold Demand Trends: Q3 2026 - World Gold Council",
-   "US dollar rates hold steady near 168,000 dinars across major Iraqi markets - IraqiNews",
-   "Indian Rupee outperforms amid US-Iran diplomacy hopes - FXStreet",
-   "Euro: Hawkish ECB cushions losses against US Dollar - ING - FXStreet",
-   "US dollar exchange rate surpasses 50 Turkish lira for first time - AzerNews",
-   "Iran War US - Post Register",
-   "Iran War US - dailyrecordnews.com",
-   "Iran War US - The Herald Journal",
-   "Ukraine: dachas as refuge from war - DW.com",
-   "Gold Price Forecast: Prices Slip Ahead of US Midterm Elections - FXEmpire",
-   "Gold, Silver Prices Fall Ahead Of Dhanteras: Should You Buy Now Or Wait? - NDTV",
-   "Tenerife striker De Miguel dies after on-field collision",
-   "Russia Ukraine War - WV News",
-   "Iran war latest: Oil prices edge higher after US strikes Iran\u2019s Qeshm Island - The National",
-   "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words - The Motley Fool",
-   "\u2018Death is closer than school\u2019: Yemen\u2019s children struggle with war trauma - Middle East Eye",
-   "Gold loses almost 1% \ud83d\udcc9 - XTB.com",
-   "El Ni\u00f1o may push US inflation higher in 2027 - IDNFinancials",
-   "What Sanctions Get Right - Foreign Affairs",
-   "Trump\u2019s Russia Sanctions Reversal to Face Congressional Test - WSJ",
-   "Russia Ukraine War - Idaho State Journal",
-   "N. Korea tests 'dispersal warhead' for cruise missiles following cluster bomb test - upi",
-   "Australian Dollar: RBA limits gains against US Dollar - Societe Generale - FXStreet",
-   "Gold Price Forecast: XAU/USD Tests $3,920 on Midterm Election Day After 2% Oil-Driven Rebound, NFP Friday - FXLeaders"
+   "Russia Ukraine War - Post Register"
   ]
  },
  "log": [
-  "02.11 13:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdxFaSvomptRW7eoiPUJ'}",
-  "02.11 13:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdxUrfNGUWW4ADMtyzWT'}",
   "02.11 13:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdxi9sKnEfoFkkaAsJKb'}",
   "02.11 13:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdxwQocdCeEgRvzXAPxh'}",
   "02.11 13:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdyAmhpnxP8YMp1VKyA6'}",
@@ -17386,7 +17392,9 @@
   "03.11 13:12 N  NEWS (11 new) score -0.05 conf 0.35: \u0130ran'\u0131n Qeshm Adas\u0131'na ABD sald\u0131r\u0131s\u0131 ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f g\u00fcvenli liman talebini destekliyor, ancak enflasyon kayg\u0131s\u0131, Fed Ba\u015fkan\u0131 Warsh'un sert a\u00e7\u0131klamalar\u0131 ve y\u00fckselen dolar/Fed beklentileri alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. Alt\u0131n zaten son saatlerde geriliyor, bu nedenle net etki hafif negatif ve belirsiz.",
   "03.11 13:12 N  GPT  score +0.20 conf 0.43: \u0130ran\u2019\u0131n Qe\u015fm Adas\u0131\u2019na y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak petrol kaynakl\u0131 enflasyon ve faiz endi\u015feleriyle alt\u0131n\u0131n zaten gerilemesi, olas\u0131 y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; net etki hafif pozitif g\u00f6r\u00fcn\u00fcyor.",
   "03.11 13:24 N  NEWS (15 new) score -0.20 conf 0.40: Jeopolitik risk (ABD'nin Ki\u015fm Adas\u0131 sald\u0131r\u0131s\u0131, \u0130ran'\u0131n yeniden sava\u015f tehdidi) alt\u0131n i\u00e7in destekleyici olsa da, alt\u0131n bu haberlere ra\u011fmen %1 civar\u0131nda d\u00fc\u015f\u00fcyor. Warsh'\u0131n sert mesaj\u0131, dolar\u0131n yeniden g\u00fc\u00e7lenmesi ve sert ECB tonu reel faiz ve dolar kanal\u0131ndan alt\u0131 bask\u0131l\u0131yor. Haberler kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "03.11 13:24 N  GPT  score -0.35 conf 0.62: Alt\u0131n fiyat\u0131ndaki yakla\u015f\u0131k %1\u2019lik d\u00fc\u015f\u00fc\u015f ve dolar\u0131n g\u00fc\u00e7lenmesi k\u0131sa vadede bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcne i\u015faret ediyor. \u0130ran kaynakl\u0131 sava\u015f riski g\u00fcvenli liman talebini desteklese de haberler \u00e7eli\u015fkili ve bu riskin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir."
+  "03.11 13:24 N  GPT  score -0.35 conf 0.62: Alt\u0131n fiyat\u0131ndaki yakla\u015f\u0131k %1\u2019lik d\u00fc\u015f\u00fc\u015f ve dolar\u0131n g\u00fc\u00e7lenmesi k\u0131sa vadede bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcne i\u015faret ediyor. \u0130ran kaynakl\u0131 sava\u015f riski g\u00fcvenli liman talebini desteklese de haberler \u00e7eli\u015fkili ve bu riskin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
+  "03.11 13:42 N  NEWS (28 new) score +0.20 conf 0.40: Yeni gelen \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve sava\u015f\u0131n yeniden ba\u015flayabilece\u011fi haberleri g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 hafif\u00e7e destekliyor. Ancak dolar\u0131n toparlanma sinyalleri, WGC'nin Q3 alt\u0131n talebinin d\u00fc\u015f\u00fc\u015f\u00fc ve alt\u0131ndaki \"beklenmedik d\u00fc\u015f\u00fc\u015f\" ba\u015fl\u0131klar\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; ayr\u0131ca 3,7% enflasyon ve Fed duraklamas\u0131 ortam\u0131 net bir y\u00f6n vermiyor.",
+  "03.11 13:42 N  GPT  score +0.35 conf 0.48: ABD\u2019nin \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131s\u0131 ve Rusya\u2019n\u0131n Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir; dolar\u0131n g\u00fc\u00e7lenmedi\u011fi y\u00f6n\u00fcndeki haber de alt\u0131n\u0131 destekliyor. Ancak alt\u0131ndaki mevcut d\u00fc\u015f\u00fc\u015f ve baz\u0131 haberlerin do\u011frulanmam\u0131\u015f ya da beklenti niteli\u011finde olmas\u0131 y\u00fckseli\u015f sinyalin"
  ],
  "gold_big": {
   "account": {
@@ -23079,6 +23087,10 @@
    [
     1793701824,
     4963.78
+   ],
+   [
+    1793702572,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28699,6 +28711,10 @@
    [
     1793701824,
     4975.18
+   ],
+   [
+    1793702572,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -34285,6 +34301,10 @@
    [
     1793701824,
     4993.28
+   ],
+   [
+    1793702572,
+    4993.28
    ]
   ]
  },
@@ -39708,6 +39728,10 @@
    [
     1793701824,
     4969.22
+   ],
+   [
+    1793702572,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -44015,6 +44039,10 @@
    [
     1793701824,
     4605.17
+   ],
+   [
+    1793702572,
+    4595.65
    ]
   ],
   "news_calls": {
@@ -49295,6 +49323,10 @@
    [
     1793701824,
     100746.25
+   ],
+   [
+    1793702572,
+    100746.25
    ]
   ],
   "open": {},
@@ -52945,6 +52977,10 @@
    ],
    [
     1793701824,
+    5066.43
+   ],
+   [
+    1793702572,
     5066.43
    ]
   ],
