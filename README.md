@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 12:25 (İstanbul)
+> Son güncelleme: 03.11.2026 12:28 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %30.0 |
 | Ödenen komisyon/spread | 47.58 $ | 237.94 $ |
 
-**Hesap değeri: 4,604.28 $** (başlangıç 5,000 $, -395.72 $ / %-7.91)
+**Hesap değeri: 4,602.23 $** (başlangıç 5,000 $, -397.77 $ / %-7.96)
 
 Açık pozisyonlar: PAXGUSDT short @ 3908.44 (TP 3896.71 / SL 3916.26)
 
-Son haber analizi (03.11 12:16): Claude puan **-0.20**, güven 0.40 — Altın birkaç saatlik görünümde hafif negatif: fiyat son haberlerde yaklaşık %1 geriledi, ABD ara seçim öncesi zayıf seyir ve petrol kaynaklı enflasyon endişeleri faiz beklentilerini sertleştirerek altına baskı yapabilir. Buna karşılık merkez bankalarının Q3'te 321 ton alımı ve İran savaşının sürmesi destek unsuru; ayrıca Hindistan talebindeki %29'luk düşüş ve Cuma günkü NFP verisi belirsizliği artırıyor, bu çelişkiler güveni sınırlıyor.
+Son haber analizi (03.11 12:28): Claude puan **-0.20**, güven 0.40 — İran savaşının petrol fiyatlarını (WTI 96 doları üzerinde) yukarı itmesi enflasyon ve sıkılaşma beklentilerini besleyerek altın için kısa vadede baskı yaratıyor; Avrupa Merkez Bankası'nın şahin tonu ve doların ABD ara seçimleri öncesinde dengeli seyretmesi de desteklemiyor. Buna karşılık savaş riskinin sürmesi ve merkez bankalarının güçlü altın alımları (3. çeyrekte 321 ton) yapısal olarak destekleyici, bu yüzden etki sınırlı ve belirsiz.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.42 — Altın fiyatındaki yakın dönem düşüş ve seçim öncesi temkinli görünüm kısa vadede aşağı yönlü baskıya işaret ediyor. İran gerilimi ve güçlü merkez bankası alımları destek sağlasa da bunlar kısa vadeli fiyat zayıflığını dengeleyebilir; haber akışı karışık ve bir kısmı zaten fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.43 — İran’a yönelik ABD saldırısı ve Tahran’dan gelen daha geniş karşılık uyarısı kısa vadede güvenli liman talebini destekleyebilir; Rusya’nın Harkiv’deki hastaneye saldırısı da bu riski artırıyor. Ancak altının yaklaşık %1 gerilediğine dair haberler ve yüksek petrolün enflasyon/faiz beklentileri üzerin
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 11:29 N  NEWS (8 new) score -0.10 conf 0.35: Haberlerin yönü karışık: ABD'nin Hürmüz'deki Qeshm Adası saldırısı ve savaş gerilimi güvenli liman talebini destekliyor, merkez bankası altın alımlarının %42 artışı da uzun vadede pozitif. Buna karşılık, ABD ara seçim öncesi altın ve gümüşte satış baskısı, Hindistan talebinde %29'luk düşüş, İsviçre frangının enflasyon verisiyle güçlenmesi ve "daha uzun süre yüksek faiz" yorumları kısa vadede altı baskılıyor; DXY ise yaklaşık 101,5 seviyesinde sabit.
-03.11 11:29 N  GPT  score +0.20 conf 0.45: İran’daki yeni ABD saldırısı ve Ukrayna’daki ağır saldırılar kısa vadede güvenli liman talebini destekleyebilir; doların belirgin güçlenmemesi de altın için sınırlı olumlu. Ancak altındaki düşüş haberleri ve Hindistan talebindeki sert gerileme görünümü dengeliyor; talep verisi kısa vadeye daha az do
 03.11 11:35 A  SHORT BNBUSDT 4676 USD x3 @ 692.41 (ters sinyal, RSI 40)
 03.11 11:35 A  SHORT XRPUSDT 4676 USD x3 @ 1.25 (ters sinyal, RSI 45)
 03.11 11:52 A  SHORT DOGEUSDT 2338 USD x3 @ 0.07 (ters sinyal, RSI 43)
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 12:16 N  NEWS (10 new) score -0.20 conf 0.40: Altın birkaç saatlik görünümde hafif negatif: fiyat son haberlerde yaklaşık %1 geriledi, ABD ara seçim öncesi zayıf seyir ve petrol kaynaklı enflasyon endişeleri faiz beklentilerini sertleştirerek altına baskı yapabilir. Buna karşılık merkez bankalarının Q3'te 321 ton alımı ve İran savaşının sürmesi destek unsuru; ayrıca Hindistan talebindeki %29'luk düşüş ve Cuma günkü NFP verisi belirsizliği artırıyor, bu çelişkiler güveni sınırlıyor.
 03.11 12:16 N  GPT  score -0.25 conf 0.42: Altın fiyatındaki yakın dönem düşüş ve seçim öncesi temkinli görünüm kısa vadede aşağı yönlü baskıya işaret ediyor. İran gerilimi ve güçlü merkez bankası alımları destek sağlasa da bunlar kısa vadeli fiyat zayıflığını dengeleyebilir; haber akışı karışık ve bir kısmı zaten fiyatlanmış olabilir.
 03.11 12:16 B5  SHORT gold 25000 USD x10 @ 3908.44 (TP 3896.71, SL 3916.26; news -0.23)
+03.11 12:28 N  NEWS (17 new) score -0.20 conf 0.40: İran savaşının petrol fiyatlarını (WTI 96 doları üzerinde) yukarı itmesi enflasyon ve sıkılaşma beklentilerini besleyerek altın için kısa vadede baskı yaratıyor; Avrupa Merkez Bankası'nın şahin tonu ve doların ABD ara seçimleri öncesinde dengeli seyretmesi de desteklemiyor. Buna karşılık savaş riskinin sürmesi ve merkez bankalarının güçlü altın alımları (3. çeyrekte 321 ton) yapısal olarak destekleyici, bu yüzden etki sınırlı ve belirsiz.
+03.11 12:28 N  GPT  score +0.18 conf 0.43: İran’a yönelik ABD saldırısı ve Tahran’dan gelen daha geniş karşılık uyarısı kısa vadede güvenli liman talebini destekleyebilir; Rusya’nın Harkiv’deki hastaneye saldırısı da bu riski artırıyor. Ancak altının yaklaşık %1 gerilediğine dair haberler ve yüksek petrolün enflasyon/faiz beklentileri üzerin
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
