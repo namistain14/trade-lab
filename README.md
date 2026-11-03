@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 02:26 (İstanbul)
+> Son güncelleme: 04.11.2026 02:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,601.28 $** (başlangıç 5,000 $, -398.72 $ / %-7.97)
 
-Son haber analizi (04.11 02:19): Claude puan **-0.15**, güven 0.40 — İran'daki çatışmanın sürmesi ve yeniden savaş riski güvenli liman talebi açısından altını destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanma sinyalleri ve altın fiyatındaki "düşüş/geri dönüş" başlıkları baskıyı artırıyor. Haberler karışık ve büyük ölçüde fiyatlanmış olduğu için sinyal zayıf.
+Son haber analizi (04.11 02:30): Claude puan **-0.10**, güven 0.30 — İran savaşının sürmesi ve Rusya-Ukrayna gerilimi jeopolitik talebi destekliyor, ancak dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanması ve altın fiyatlarındaki düşüş haberleri kısa vadede baskı yaratıyor. Genel etki hafif negatif, güven düşük çünkü haberlerin çoğu zaten fiyatlanmış ve karışık.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.36 — İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir; ancak doların ve ABD getirilerinin yükseldiği haberleri kısa vadede altın için daha belirgin baskı oluşturuyor. Yeni başlıkların çoğu fiyatı etkileyecek nitelikte değil ve haber akışı zaten fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.38 — İran-ABD gerilimi ve İsrail’in olası çatışmaya hazırlığı kısa vadede güvenli liman talebini destekleyebilir; ancak bunlar yeni bir çatışma haberi değil. Dolar ve ABD tahvil getirilerindeki yükseliş altını baskıladığı için net etki sınırlı ve karışık görünüyor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 01:07 N  NEWS (9 new) score +0.25 conf 0.40: İran'la yeniden savaş riski ve "son çare" müzakerelerinde karamsarlık, güvenli liman talebini destekleyerek altın için hafif yükseliş yönlü. Ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış ve enflasyonun hızlanması ile dolar endeksindeki yükseliş faiz beklentilerini sertleştirip altın üzerinde baskı yaratabilir; bu nedenle etki sınırlı ve karışık.
-04.11 01:07 N  GPT  score +0.35 conf 0.42: İran’la yeniden çatışma riskinin yükseldiğine ve görüşmelerin kötümser ilerlediğine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Doların güçlenmesi altındaki yükselişi sınırlarken, başlıkların bir kısmı yeni bir fiilî tırmanış değil risk değerlendirmesi niteliğinde.
 04.11 01:19 N  NEWS (7 new) score +0.12 conf 0.30: İran'la ilgili savaş riski ve yeniden çatışma endişeleri altın için hafif destekleyici bir jeopolitik talep unsuru oluşturuyor. Ancak dolar endeksinin yükselişi ve enflasyonun hızlanmasına dair haberler bu etkiyi dengeliyor; haberlerin çoğu ise spor, tarih ya da zaten fiyatlanmış gelişmeler olduğundan güven düşük.
 04.11 01:19 N  GPT  score +0.18 conf 0.36: İran’la yeniden çatışma ihtimalinin yüksek olduğu ve görüşmelerin kötümserlikle sürdüğü haberleri kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altına ters yönde etki ediyor; haberlerin önemli kısmı yeni değil ve fiyatlanmış olabilir.
 04.11 01:31 N  NEWS (8 new) score -0.15 conf 0.40: İran savaşına dair jeopolitik risk (tam ölçekli çatışma ihtimali, son dakika müzakereleri) altın için güvenli liman talebini destekliyor. Ancak "Dolar ABD tahvil getirileriyle birlikte yükseliyor" başlığı ve enflasyon ivmelenmesi, Fed'in sıkı kalabileceği beklentisini artırarak altın üzerinde baskı yaratıyor. Haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
@@ -99,6 +97,8 @@ Son işlemler:
 04.11 02:07 N  GPT  score -0.15 conf 0.36: İran çevresindeki çatışma riski güvenli liman talebini destekleyebilir; ancak doların ve ABD tahvil getirilerinin yükselmesi ile altındaki düşüş haberi kısa vadede baskın görünüyor. Başlıkların çoğu yeni veya doğrudan fiyatı etkileyen bir gelişme değil, bu yüzden yön sinyali zayıf.
 04.11 02:19 N  NEWS (4 new) score -0.15 conf 0.40: İran'daki çatışmanın sürmesi ve yeniden savaş riski güvenli liman talebi açısından altını destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanma sinyalleri ve altın fiyatındaki "düşüş/geri dönüş" başlıkları baskıyı artırıyor. Haberler karışık ve büyük ölçüde fiyatlanmış olduğu için sinyal zayıf.
 04.11 02:19 N  GPT  score -0.20 conf 0.36: İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir; ancak doların ve ABD getirilerinin yükseldiği haberleri kısa vadede altın için daha belirgin baskı oluşturuyor. Yeni başlıkların çoğu fiyatı etkileyecek nitelikte değil ve haber akışı zaten fiyatlanmış olabilir.
+04.11 02:30 N  NEWS (4 new) score -0.10 conf 0.30: İran savaşının sürmesi ve Rusya-Ukrayna gerilimi jeopolitik talebi destekliyor, ancak dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanması ve altın fiyatlarındaki düşüş haberleri kısa vadede baskı yaratıyor. Genel etki hafif negatif, güven düşük çünkü haberlerin çoğu zaten fiyatlanmış ve karışık.
+04.11 02:30 N  GPT  score +0.15 conf 0.38: İran-ABD gerilimi ve İsrail’in olası çatışmaya hazırlığı kısa vadede güvenli liman talebini destekleyebilir; ancak bunlar yeni bir çatışma haberi değil. Dolar ve ABD tahvil getirilerindeki yükseliş altını baskıladığı için net etki sınırlı ve karışık görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
