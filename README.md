@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 03:25 (İstanbul)
+> Son güncelleme: 03.11.2026 03:28 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
