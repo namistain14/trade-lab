@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 06:05 (İstanbul)
+> Son güncelleme: 03.11.2026 06:08 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.5 |
 | Ödenen komisyon/spread | 9.56 $ | 359.76 $ |
 
-**Hesap değeri: 3,990.65 $** (başlangıç 5,000 $, -1009.35 $ / %-20.19)
+**Hesap değeri: 3,954.32 $** (başlangıç 5,000 $, -1045.68 $ / %-20.91)
 
 Açık pozisyonlar: BTCUSDT short @ 76953.92 (TP 76492.19 / SL 77261.73); SOLUSDT short @ 92.08 (TP 91.53 / SL 92.45); BNBUSDT short @ 696.63 (TP 692.45 / SL 699.42)
 
@@ -35,13 +35,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %31.6 |
 | Ödenen komisyon/spread | 35.68 $ | 226.04 $ |
 
-**Hesap değeri: 4,655.99 $** (başlangıç 5,000 $, -344.01 $ / %-6.88)
+**Hesap değeri: 4,646.51 $** (başlangıç 5,000 $, -353.49 $ / %-7.07)
 
 Açık pozisyonlar: PAXGUSDT long @ 3954.92 (TP 3966.79 / SL 3947.01)
 
-Son haber analizi (03.11 05:56): Claude puan **+0.20**, güven 0.40 — ABD'nin İran'ın Qeshm Adası ve Hürmüz Boğazı'na yönelik saldırıları jeopolitik risk ve güvenli liman talebini artırarak altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve sıkı para politikası beklentilerini canlandırabileceğinden etki sınırlı; Trump'ın yeni savaş ihtimalini küçümsemesi ve altının yakın zamanda bir yıllık dibe inip toparlanması sinyalleri çelişkili olduğu için güven düşük.
+Son haber analizi (03.11 06:08): Claude puan **+0.20**, güven 0.35 — Hormuz'da ABD'nin İran'a yönelik savunma amaçlı vuruşları ve yeniden savaş riski güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve Fed'in sıkı kalma beklentisi üzerinden, dolar ise stabil seyrediyor; bu unsurlar altın için baskı yaratabilir. Altının yaklaşık %2 toparlanması zaten fiyatlanmış olabileceğinden ve haberler çelişkili olduğundan güven düşük.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.58 — ABD’nin İran’daki Qeşm Adası ve füze hedeflerine yönelik saldırıları kısa vadeli güvenli liman talebini destekleyebilir; haber akışı altındaki yaklaşık %2’lik toparlanmaya da eşlik ediyor. Ancak petrol kaynaklı enflasyon ve dolar baskısı altını sınırlayabilir, ayrıca gelişmelerin bir kısmı fiyatlanm
+GPT (gpt-6-luna): puan **+0.35**, güven 0.56 — Hürmüz’de ABD’nin İran hedeflerine yönelik saldırı haberleri kısa vadeli güvenli liman talebini destekleyebilir; ancak İran’ın arabulucularla görüşmeleri ve Trump’ın yeni savaş olasılığını küçümsemesi yükseliş etkisini sınırlıyor. Altın zaten sert toparlanmış, dolar da dengeli görünüyor; bu nedenle 
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 05:05 B5  CLOSE long stop: -55.94 USD
-03.11 05:05 N  NEWS (17 new) score +0.20 conf 0.40: Petrol fiyatlarının sert düşüşü (diplomasi umutları) Fed faiz artırımı beklentilerini zayıflattığı ve doları baskıladığı için altı kısa vadede destekliyor; altın zaten yaklaşık %2 toparlandı. Ancak ABD'nin İran'ın Qeshm Adası'na yönelik saldırıları ve Ukrayna'daki çatışmalar güvenli liman talebini canlı tutuyor, bu da sinyalleri karışık hale getiriyor; bu nedenle güven düşük tutuldu.
 03.11 05:05 N  GPT  score +0.25 conf 0.52: İran’daki yeni ABD saldırıları ve Ukrayna’daki ölümcül bombardıman kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la arabuluculuk görüşmeleri sürüyor; petrol ve altın haber akışına zıt tepki verdiğinden yön konusunda temkinliyim.
 03.11 05:17 A  SHORT BTCUSDT 4734 USD x3 @ 76953.92 (ters sinyal, RSI 43)
 03.11 05:17 A  SHORT SOLUSDT 4734 USD x3 @ 92.08 (ters sinyal, RSI 44)
@@ -103,6 +101,8 @@ Son işlemler:
 03.11 05:56 N  NEWS (14 new) score +0.20 conf 0.40: ABD'nin İran'ın Qeshm Adası ve Hürmüz Boğazı'na yönelik saldırıları jeopolitik risk ve güvenli liman talebini artırarak altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve sıkı para politikası beklentilerini canlandırabileceğinden etki sınırlı; Trump'ın yeni savaş ihtimalini küçümsemesi ve altının yakın zamanda bir yıllık dibe inip toparlanması sinyalleri çelişkili olduğu için güven düşük.
 03.11 05:56 N  GPT  score +0.35 conf 0.58: ABD’nin İran’daki Qeşm Adası ve füze hedeflerine yönelik saldırıları kısa vadeli güvenli liman talebini destekleyebilir; haber akışı altındaki yaklaşık %2’lik toparlanmaya da eşlik ediyor. Ancak petrol kaynaklı enflasyon ve dolar baskısı altını sınırlayabilir, ayrıca gelişmelerin bir kısmı fiyatlanm
 03.11 05:56 B5  LONG gold 25000 USD x10 @ 3954.92 (TP 3966.79, SL 3947.01; news +0.28)
+03.11 06:08 N  NEWS (7 new) score +0.20 conf 0.35: Hormuz'da ABD'nin İran'a yönelik savunma amaçlı vuruşları ve yeniden savaş riski güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve Fed'in sıkı kalma beklentisi üzerinden, dolar ise stabil seyrediyor; bu unsurlar altın için baskı yaratabilir. Altının yaklaşık %2 toparlanması zaten fiyatlanmış olabileceğinden ve haberler çelişkili olduğundan güven düşük.
+03.11 06:08 N  GPT  score +0.35 conf 0.56: Hürmüz’de ABD’nin İran hedeflerine yönelik saldırı haberleri kısa vadeli güvenli liman talebini destekleyebilir; ancak İran’ın arabulucularla görüşmeleri ve Trump’ın yeni savaş olasılığını küçümsemesi yükseliş etkisini sınırlıyor. Altın zaten sert toparlanmış, dolar da dengeli görünüyor; bu nedenle 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
