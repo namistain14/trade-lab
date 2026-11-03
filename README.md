@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 03:40 (İstanbul)
+> Son güncelleme: 03.11.2026 03:43 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -28,14 +28,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -55.96 $ | -201.10 $ |
-| İşlem sayısı | 1 | 17 |
-| Kazanma oranı | %0.0 | %35.3 |
-| Ödenen komisyon/spread | 11.90 $ | 202.26 $ |
+| Net kâr/zarar | -111.90 $ | -257.03 $ |
+| İşlem sayısı | 2 | 18 |
+| Kazanma oranı | %0.0 | %33.3 |
+| Ödenen komisyon/spread | 23.79 $ | 214.15 $ |
 
-**Hesap değeri: 4,790.25 $** (başlangıç 5,000 $, -209.75 $ / %-4.20)
-
-Açık pozisyonlar: PAXGUSDT long @ 3965.08 (TP 3976.98 / SL 3957.15)
+**Hesap değeri: 4,742.97 $** (başlangıç 5,000 $, -257.03 $ / %-5.14)
 
 Son haber analizi (03.11 03:34): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
 
@@ -45,11 +43,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 03:43 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 03:18 | PAXGUSDT | short | -55.96 $ | stop |
 | 02.11 23:04 | PAXGUSDT | short | -55.96 $ | stop |
 | 02.11 22:22 | PAXGUSDT | long | -55.94 $ | stop |
 | 02.11 20:28 | PAXGUSDT | long | -55.93 $ | stop |
-| 02.11 08:08 | PAXGUSDT | short | -55.97 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 01:54 N  NEWS (13 new) score +0.30 conf 0.50: Petrol fiyatlarının yaklaşık %6 düşmesi, doların geri çekilmesi ve Fed sıkılaştırma beklentilerinin gerilemesi altın için olumlu; altın bu nedenle toparlanıyor. İran'da savaşın yeniden başlayabileceği endişeleri jeopolitik risk talebini destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış ve birbiriyle çelişen sinyaller içeriyor, bu yüzden güven sınırlı.
 03.11 01:54 N  GPT  score +0.32 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini zayıflatması, doların geri çekilmesi ve getirilerin düşmesi altını kısa vadede destekleyebilir. İran ve Ukrayna kaynaklı riskler destekleyici olsa da barış görüşmelerinde ilerleme olmaması ve altındaki teknik zayıflık görünümü sı
 03.11 02:06 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlarındaki sert düşüş (ABD-İran müzakere umutları) Fed sıkılaştırma beklentilerini biraz geriletip altını destekliyor; ancak barış ihtimali jeopolitik güvenli liman talebini azaltıyor ve Fed sıkılaştırma bahisleri hâlâ sürüyor, bu yüzden etki sınırlı ve karışık.
 03.11 02:06 N  GPT  score +0.24 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini ve doları zayıflatması altını kısa vadede destekleyebilir. İran’la görüşme umutları güvenli liman talebini azaltırken, bölgedeki saldırı riskleri ve çelişkili haberler görünümü belirsizleştiriyor.
@@ -101,6 +98,7 @@ Son işlemler:
 03.11 03:34 N  NEWS (3 new) score +0.30 conf 0.50: Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
 03.11 03:34 N  GPT  score +0.32 conf 0.40: Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
 03.11 03:34 B5  LONG gold 25000 USD x10 @ 3965.08 (TP 3976.98, SL 3957.15; news +0.31)
+03.11 03:43 B5  CLOSE long stop: -55.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
