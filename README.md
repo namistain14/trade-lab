@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 06:14 (İstanbul)
+> Son güncelleme: 03.11.2026 06:17 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %18.5 |
 | Ödenen komisyon/spread | 9.56 $ | 359.76 $ |
 
-**Hesap değeri: 3,939.09 $** (başlangıç 5,000 $, -1060.91 $ / %-21.22)
+**Hesap değeri: 3,928.11 $** (başlangıç 5,000 $, -1071.89 $ / %-21.44)
 
 Açık pozisyonlar: BTCUSDT short @ 76953.92 (TP 76492.19 / SL 77261.73); SOLUSDT short @ 92.08 (TP 91.53 / SL 92.45); BNBUSDT short @ 696.63 (TP 692.45 / SL 699.42)
 
@@ -30,14 +30,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -167.83 $ | -312.97 $ |
-| İşlem sayısı | 3 | 19 |
-| Kazanma oranı | %0.0 | %31.6 |
-| Ödenen komisyon/spread | 35.68 $ | 226.04 $ |
+| Net kâr/zarar | -223.77 $ | -368.91 $ |
+| İşlem sayısı | 4 | 20 |
+| Kazanma oranı | %0.0 | %30.0 |
+| Ödenen komisyon/spread | 47.58 $ | 237.94 $ |
 
-**Hesap değeri: 4,645.18 $** (başlangıç 5,000 $, -354.82 $ / %-7.10)
-
-Açık pozisyonlar: PAXGUSDT long @ 3954.92 (TP 3966.79 / SL 3947.01)
+**Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
 Son haber analizi (03.11 06:08): Claude puan **+0.20**, güven 0.35 — Hormuz'da ABD'nin İran'a yönelik savunma amaçlı vuruşları ve yeniden savaş riski güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve Fed'in sıkı kalma beklentisi üzerinden, dolar ise stabil seyrediyor; bu unsurlar altın için baskı yaratabilir. Altının yaklaşık %2 toparlanması zaten fiyatlanmış olabileceğinden ve haberler çelişkili olduğundan güven düşük.
 
@@ -47,11 +45,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 06:16 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 05:04 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 03:43 | PAXGUSDT | long | -55.94 $ | stop |
 | 03.11 03:18 | PAXGUSDT | short | -55.96 $ | stop |
 | 02.11 23:04 | PAXGUSDT | short | -55.96 $ | stop |
-| 02.11 22:22 | PAXGUSDT | long | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -88,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 05:05 N  GPT  score +0.25 conf 0.52: İran’daki yeni ABD saldırıları ve Ukrayna’daki ölümcül bombardıman kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la arabuluculuk görüşmeleri sürüyor; petrol ve altın haber akışına zıt tepki verdiğinden yön konusunda temkinliyim.
 03.11 05:17 A  SHORT BTCUSDT 4734 USD x3 @ 76953.92 (ters sinyal, RSI 43)
 03.11 05:17 A  SHORT SOLUSDT 4734 USD x3 @ 92.08 (ters sinyal, RSI 44)
 03.11 05:17 A  SHORT BNBUSDT 2367 USD x3 @ 696.63 (ters sinyal, RSI 30)
@@ -103,6 +100,7 @@ Son işlemler:
 03.11 05:56 B5  LONG gold 25000 USD x10 @ 3954.92 (TP 3966.79, SL 3947.01; news +0.28)
 03.11 06:08 N  NEWS (7 new) score +0.20 conf 0.35: Hormuz'da ABD'nin İran'a yönelik savunma amaçlı vuruşları ve yeniden savaş riski güvenli liman talebini destekliyor, bu da altın için hafif yükseliş yönlü. Ancak petrol fiyatlarındaki yükseliş enflasyon ve Fed'in sıkı kalma beklentisi üzerinden, dolar ise stabil seyrediyor; bu unsurlar altın için baskı yaratabilir. Altının yaklaşık %2 toparlanması zaten fiyatlanmış olabileceğinden ve haberler çelişkili olduğundan güven düşük.
 03.11 06:08 N  GPT  score +0.35 conf 0.56: Hürmüz’de ABD’nin İran hedeflerine yönelik saldırı haberleri kısa vadeli güvenli liman talebini destekleyebilir; ancak İran’ın arabulucularla görüşmeleri ve Trump’ın yeni savaş olasılığını küçümsemesi yükseliş etkisini sınırlıyor. Altın zaten sert toparlanmış, dolar da dengeli görünüyor; bu nedenle 
+03.11 06:17 B5  CLOSE long stop: -55.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
