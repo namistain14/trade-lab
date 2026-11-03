@@ -6885,6 +6885,10 @@
    [
     1793677087,
     3975.05
+   ],
+   [
+    1793677773,
+    3933.74
    ]
   ]
  },
@@ -13308,43 +13312,38 @@
    [
     1793677087,
     4868.5
+   ],
+   [
+    1793677773,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
+   "score": 0.2,
    "confidence": 0.4,
-   "reason": "Haberler kar\u0131\u015f\u0131k: ABD-\u0130ran m\u00fczakerelerinde ilerleme ve petrol primindeki gerileme jeopolitik g\u00fcvenli liman talebini azalt\u0131rken, Qeshm Adas\u0131'na y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 bunu dengeliyor. Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve dolar endeksinin 102 civar\u0131nda seyretmesi alt\u0131n i\u00e7in hafif olumsuz; alt\u0131n\u0131n y\u0131ll\u0131k dip seviyesinden toparlanmas\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
+   "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'na y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 jeopolitik risk primi yaratarak alt\u0131 hafif destekliyor. Ancak Trump'\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi, ABD-\u0130ran anla\u015fma umutlar\u0131 ve Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri bu etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve \u00e7eli\u015fkili.",
    "n": 45,
-   "ts": 1793676737152,
-   "new_headlines": 9,
+   "ts": 1793677771727,
+   "new_headlines": 11,
    "key_events": [
-    "Petrol %6 d\u00fc\u015ft\u00fc; ABD-\u0130ran m\u00fczakere umutlar\u0131 alt\u0131n\u0131 destekledi",
-    "Fed s\u0131k\u0131la\u015ft\u0131rma bahisleri s\u00fcr\u00fcyor, s\u0131n\u0131rl\u0131 yukar\u0131 bask\u0131",
-    "Alt\u0131n Ekim sat\u0131\u015f\u0131ndan toparlan\u0131yor ama 3.900$ direnci zay\u0131f"
+    "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'na savunma ama\u00e7l\u0131 sald\u0131r\u0131lar\u0131 (g\u00fcvenli liman talebi)",
+    "Trump'\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi ve \u0130ran anla\u015fmas\u0131 umutlar\u0131 (alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131)",
+    "Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve g\u00fc\u00e7l\u00fc dolar endeksi (~102) alt\u0131n i\u00e7in olumsuz"
    ],
    "gpt": {
-    "score": 0.32,
-    "confidence": 0.56,
-    "reason": "\u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore\u2019nin f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran\u2019la m\u00fczakerelerin s\u00fcrmesi, dolar\u0131n yatay seyri ve Fed\u2019in faiz art\u0131r\u0131m\u0131 endi\u015feleri y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+    "score": 0.45,
+    "confidence": 0.62,
+    "reason": "\u0130ran\u2019\u0131n Qe\u015fm Adas\u0131 ve H\u00fcrm\u00fcz \u00e7evresindeki ABD sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak anla\u015fma umutlar\u0131 ve gerilimin s\u0131n\u0131rl\u0131 kalabilece\u011fi beklentisi y\u00fckseli\u015fi t\u00f6rp\u00fcl\u00fcyor.",
     "key_events": [
-     "ABD\u2019nin \u0130ran\u2019daki hedeflere sald\u0131r\u0131lar\u0131",
-     "\u0130ran\u2019la m\u00fczakerelerin s\u00fcrmesi",
-     "Kuzey Kore\u2019nin seyir f\u00fczesi denemesi"
+     "ABD\u2019nin \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131lar\u0131",
+     "ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131 s\u00fcr\u00fcyor",
+     "Dolar endeksi yatay"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792818218292,
-    "score": 0.12,
-    "confidence": 0.35,
-    "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Riyad'a y\u00f6nelik Husi f\u00fczesinin \u00f6nlenmesi ve ABD-\u0130ran gerilimi (Trump'\u0131n \"Epic Fury\" uyar\u0131s\u0131) g\u00fcvenli liman talebini hafif destekliyor, ancak Avrupa ve Orta Do\u011fu'nun diplomasi \u00e7a\u011fr\u0131s\u0131 bu etkiyi dengeliyor. Fed toplant\u0131s\u0131n\u0131n \u00e7ar\u015famba g\u00fcn\u00fc olmas\u0131 ve dolardaki hafif y\u00fckseli\u015f ise k\u0131sa vadede bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 4.000 dolar deste\u011finin alt\u0131na inmesi gibi haberler zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 4,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792818752660,
     "score": -0.1,
@@ -16035,19 +16034,36 @@
     "new": 9,
     "gpt_score": 0.32,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1793677771727,
+    "score": 0.2,
+    "confidence": 0.4,
+    "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'na y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 jeopolitik risk primi yaratarak alt\u0131 hafif destekliyor. Ancak Trump'\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi, ABD-\u0130ran anla\u015fma umutlar\u0131 ve Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri bu etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve \u00e7eli\u015fkili.",
+    "new": 11,
+    "gpt_score": 0.45,
+    "gpt_confidence": 0.62
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 28
+   "n": 29
   },
   "news_seen": [
+   "US strikes Iran ahead of midterm elections",
+   "Intercultural dialogue and the Iran war - Al Majalla",
+   "Gold Price Forecast: XAU/USD holds Monday\u2019s gains near $3,950 on US-Iran deal hopes - FXStreet",
+   "Buy Gold Below $4,000 or Wait for $3,500? - FXEmpire",
+   "Supreme Court rejects Trump's request to stop California counting disputed votes",
    "Man and boy arrested after allegedly attacking One Nation volunteer with bat",
    "Opinion | The inflation election - The Washington Post",
+   "Young Union soldier, struck down in Civil War battle, finally gets his funeral - The Spokesman-Review",
    "KCNA: DPRK tests dispersal warhead of strategic cruise missile - chinadailyhk",
+   "US reportedly strikes Iran\u2019s Qeshm Island as Vance voices optimism about a deal - The Guardian",
    "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
    "United States Dollar Index holds steady near 102.00 ahead of US midterm elections - FXStreet",
    "Crude Oil Trading Alert: Geopolitical premium eases as US-Iran negotiations continue; US crude accelerates correction - Moomoo",
+   "Gold Price on 02 November 2026 - Gold Price",
    "Gold and silver prices recover, market still worried about Fed interest rate hikes - Laodong.vn",
    "'He's finally coming home': Family locates missing Korean War soldier - WPSD Local 6",
    "Gold Price Today November 3, 2026, Antam Rises to IDR 2.53 Million per Gram, Check Latest UBS, Galeri24, and Buyback Prices - Aktualita.co",
@@ -16056,13 +16072,13 @@
    "Gold price rebounds from year low ahead of US midterms - Mining.com.au",
    "Gold price today 3.11: Domestic gold prices increase sharply - Laodong.vn",
    "Khamenei Empowers Talks as Trump Says Iran Deal Could Happen - Bloomberg.com",
-   "North takes issue with Japan\u2019s deployment of missile system, drills with U.S. - Korea JoongAng Daily",
+   "Dallas Cowboys Cheerleaders Drop My Chemical Romance Lawsuit, but War of Words Rages On - Rolling Stone Australia",
    "Experts reveal the next trend of gold and silver prices - Laodong.vn",
    "Gold Price Renews Downside Pressure \u2013 Analysis \u201303-11-2026 - Economies.com",
    "Statement Regarding Secretary of War Pet - First Liberty Institute",
-   "US strikes target Iran's Qeshm Island and underground missile base - Interesting Engineering",
+   "Exclusive | U.S. Strikes Iran\u2019s Qeshm Island as Trump Talks Down War Risks - WSJ",
+   "US has conducted defensive strikes on Iranian targets in the Strait of Hormuz, US official says - AP News",
    "US to mediate new round of negotiations to end Russia-Ukraine war - Politico",
-   "Buy Gold Below $4,000 or Wait for $3,500? - FXEmpire",
    "Offshore Yuan Weakens After PBOC Moves to Cool Currency Rally - Bloomberg.com",
    "Gold and silver price today, November 3: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "\u2018Tetsuo\u2019 Director Tsukamoto Shinya on Staying Independent and Why He Can\u2019t Pull Away From War Films - Variety",
@@ -16075,23 +16091,13 @@
    "Explosions hit Iran\u2019s Qeshm Island as US media report US strikes in Hormuz - Al Jazeera",
    "Inside OpenAI\u2019s \u2018election war room\u2019 and AI's impact on the midterms - NBC News",
    "Thai baht/US dollar steady on Tuesday - TradingView",
-   "US has conducted defensive strikes on some Iranian targets in the Strait of Hormuz, US official says - ABC Columbia",
    "North Korea conducts strategic cruise missile test with dispersal warhead, KCNA says - Reuters",
-   "US-Iran war news: US conducts defensive strikes in Strait of Hormuz; Benjamin Netanyahu pushed Donald Trump for more Iran strikes - ABC7 Chicago",
    "Gold Rate Today in New Delhi 3rd November 2026 : 22 & 24 Carat, Todays Gold Price in New Delhi - Business Today",
-   "US Strikes Iranian Island As Trump Downplays Prospect Of New War - Radio Free Europe/Radio Liberty",
-   "Gold edges higher on softer oil; US midterm elections in focus - The Economic Times",
-   "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-   "U.S. dollar up in Taipei trading - Focus Taiwan",
-   "BYU eyes fourth straight Holy War win - ABC4 Utah",
-   "Gold Price Analysis Today | Forex Gold Analysis | XAU/USD Analysis - November 3, 2026 - Mitrade",
-   "Ukraine war briefing: US to mediate talks with Kyiv and Moscow in Abu Dhabi next week, says Witkoff - The Guardian",
-   "Resumption of Russian gas supplies are ruled out after war: Brussels - Shipping Telegraph"
+   "US military strikes Iran\u2019s Qeshm Island day before midterms - The Hill",
+   "US Strikes Iranian Island As Trump Downplays Prospect Of New War - Radio Free Europe/Radio Liberty"
   ]
  },
  "log": [
-  "02.11 08:00 B5P  GPT  score +0.20 conf 0.48: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda iki tankerin may\u0131na \u00e7arparak patlad\u0131\u011f\u0131na dair yeni haber, do\u011frulanmas\u0131 h\u00e2linde k\u0131sa vadede arz ve ta\u015f\u0131mac\u0131l\u0131k risk primini art\u0131rabilir. Ancak \u0130ran\u2019la diplomasi haberleriyle petrol\u00fcn zaten %3\u2019ten fazla gerilemesi ve Ceyhan ihracat\u0131ndaki art\u0131\u015f bu y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
-  "02.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 08:06 N  NEWS (12 new) score +0.10 conf 0.35: Alt\u0131n 3.900 dolar\u0131n \u00fczerine toparland\u0131; petrol fiyatlar\u0131ndaki gerilemenin enflasyon endi\u015felerini azaltmas\u0131 ve \u0130ran sava\u015f\u0131ndaki m\u00fczakere haberleri k\u0131sa vadede hafif destekleyici. Buna kar\u015f\u0131n Warsh'un ek faiz art\u0131r\u0131m\u0131 sinyalleri, BoE'nin faiz art\u0131r\u0131m\u0131 beklentisi ve g\u00fc\u00e7l\u00fc dolar/yuan bask\u0131s\u0131 yukar\u0131 y\u00f6nl\u00fc hareketi s\u0131n\u0131rl\u0131yor; haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "02.11 08:06 N  GPT  score +0.20 conf 0.35: Alt\u0131n\u0131n 3.900 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve d\u00fc\u015fen petrol fiyatlar\u0131n\u0131n enflasyon/faiz bask\u0131s\u0131n\u0131 hafifletmesi k\u0131sa vadede destekleyici. \u0130ran sava\u015f\u0131 ve Ukrayna\u2019daki gerilim de g\u00fcvenli liman talebini canl\u0131 tutabilir; ancak g\u00fc\u00e7l\u00fc dolar ve \u00f6nceki \u015fahin Fed beklentileri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
   "02.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -16389,7 +16395,9 @@
   "03.11 06:20 N  NEWS (10 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: ABD'nin \u0130ran'a y\u00f6nelik \"savunma\" ama\u00e7l\u0131 sald\u0131r\u0131lar\u0131 ve H\u00fcrm\u00fcz'deki gerilim g\u00fcvenli liman talebini destekliyor, ancak Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve dolar endeksinin 102 civar\u0131nda sabit kalmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Alt\u0131n\u0131n y\u0131ll\u0131k dip seviyesinden toparlanmas\u0131 k\u0131sa vadeli al\u0131m\u0131 g\u00f6steriyor; sinyaller birbiriyle \u00e7eli\u015fti\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "03.11 06:20 N  GPT  score +0.38 conf 0.55: \u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; alt\u0131n\u0131n dipten yakla\u015f\u0131k %2 toparlanmas\u0131 da yukar\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Ancak dolar\u0131n yatay seyri, Fed faiz art\u0131\u015f\u0131 endi\u015feleri ve gerilimin b\u00fcy\u00fcy\u00fcp b\u00fcy\u00fcmeyece\u011fine dair \u00e7eli\u015fkili haberler y\u00fckseli\u015f beklentisini s\u0131n\u0131r",
   "03.11 06:32 N  NEWS (9 new) score -0.10 conf 0.40: Haberler kar\u0131\u015f\u0131k: ABD-\u0130ran m\u00fczakerelerinde ilerleme ve petrol primindeki gerileme jeopolitik g\u00fcvenli liman talebini azalt\u0131rken, Qeshm Adas\u0131'na y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 bunu dengeliyor. Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri ve dolar endeksinin 102 civar\u0131nda seyretmesi alt\u0131n i\u00e7in hafif olumsuz; alt\u0131n\u0131n y\u0131ll\u0131k dip seviyesinden toparlanmas\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
-  "03.11 06:32 N  GPT  score +0.32 conf 0.56: \u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore\u2019nin f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran\u2019la m\u00fczakerelerin s\u00fcrmesi, dolar\u0131n yatay seyri ve Fed\u2019in faiz art\u0131r\u0131m\u0131 endi\u015feleri y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor."
+  "03.11 06:32 N  GPT  score +0.32 conf 0.56: \u0130ran\u2019daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore\u2019nin f\u00fcze denemesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran\u2019la m\u00fczakerelerin s\u00fcrmesi, dolar\u0131n yatay seyri ve Fed\u2019in faiz art\u0131r\u0131m\u0131 endi\u015feleri y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "03.11 06:49 N  NEWS (11 new) score +0.20 conf 0.40: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'na y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 jeopolitik risk primi yaratarak alt\u0131 hafif destekliyor. Ancak Trump'\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi, ABD-\u0130ran anla\u015fma umutlar\u0131 ve Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri bu etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve \u00e7eli\u015fkili.",
+  "03.11 06:49 N  GPT  score +0.45 conf 0.62: \u0130ran\u2019\u0131n Qe\u015fm Adas\u0131 ve H\u00fcrm\u00fcz \u00e7evresindeki ABD sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak anla\u015fma umutlar\u0131 ve gerilimin s\u0131n\u0131rl\u0131 kalabilece\u011fi beklentisi y\u00fckseli\u015fi t\u00f6rp\u00fcl\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -21662,6 +21670,10 @@
    [
     1793677087,
     4963.78
+   ],
+   [
+    1793677773,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -26862,6 +26874,10 @@
    [
     1793677087,
     4975.18
+   ],
+   [
+    1793677773,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32028,6 +32044,10 @@
    [
     1793677087,
     4993.28
+   ],
+   [
+    1793677773,
+    4993.28
    ]
   ]
  },
@@ -37031,6 +37051,10 @@
    [
     1793677087,
     4969.22
+   ],
+   [
+    1793677773,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -40880,6 +40904,10 @@
    ],
    [
     1793677087,
+    4631.09
+   ],
+   [
+    1793677773,
     4631.09
    ]
   ],
@@ -45741,6 +45769,10 @@
    [
     1793677087,
     100750.28
+   ],
+   [
+    1793677773,
+    100750.28
    ]
   ],
   "open": {},
@@ -48971,6 +49003,10 @@
    ],
    [
     1793677087,
+    5066.43
+   ],
+   [
+    1793677773,
     5066.43
    ]
   ],
