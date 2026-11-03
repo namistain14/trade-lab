@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 18:46 (İstanbul)
+> Son güncelleme: 03.11.2026 18:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,588.19 $** (başlangıç 5,000 $, -411.81 $ / %-8.24)
 
-Son haber analizi (03.11 18:37): Claude puan **-0.10**, güven 0.35 — Haberler karışık: ABD-İran çatışması jeopolitik risk yaratıp altını destekliyor, ancak arabulucu önerileri ve petrol fiyatlarındaki düşüş risk primini sınırlıyor. Fed'in faizleri sabit tutması ve yüksek enflasyon endişeleri, ayrıca yaklaşan ABD işgücü verisinin güçlü çıkma ihtimali, kısa vadede altı baskılayabilir; gümüşün 1 yılın dibine inmesi de zayıf duyarlılığa işaret ediyor.
+Son haber analizi (03.11 18:49): Claude puan **-0.10**, güven 0.35 — Fed faizleri sabit tuttu ve enflasyon kaygısı sürüyor; ABD işgücü verisi öncesi temkinli bir hava var ve gümüş yıllık dip seviyesine inmiş durumda, bu da kısa vadede hafif baskıcı bir sinyal. ABD'nin Qeshm Adası'nı vurması güvenli liman talebini destekleyebilir, ancak altın bu gelişmeye rağmen düşüşte, bu yüzden etkisi sınırlı kalıyor; birçok başlık eski veya yeni olmayan içerik taşıdığı için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.10**, güven 0.35 — ABD-İran arasında arabulucu önerilerinin görüşülmesi kısa vadeli gerilim ve güvenli liman talebini bir miktar azaltabilir; ancak sınırlı hava saldırıları ve yaklaşan ABD istihdam verisi belirsizliği koruyor. Başlıklar karışık ve altın üzerindeki net etki zayıf görünüyor.
+GPT (gpt-6-luna): puan **+0.27**, güven 0.43 — Ukrayna’daki büyük çelik tesisine füze saldırısı ve ABD yardımının aksaması kısa vadede güvenli liman talebini destekleyebilir; Merz’in ateşkese dair kuşkuları da bu etkiyi güçlendiriyor. Ancak petrol akışlarının gerilemesi ve yeni bir faiz ya da dolar katalizörünün olmaması yükseliş beklentisini sı
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,543.86 $** (başlangıç 100,000 $, +1543.86 $ / %+1.54)
+**Hesap değeri: 101,394.18 $** (başlangıç 100,000 $, +1394.18 $ / %+1.39)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -86,11 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 18:03 B6  karar turu: Claude «Piyasa jeopolitik başlıklar arasında hafif pozitif ve yatay seyrediyor; şirkete özel hareketler, özellikle AAPL'deki toparlanma, daha fazla fırsat sunuyor.» / GPT «Endekslerde yatay görünüm ve jeopolitik belirsizlik hâkimken, kaldıraç nedeniyle toplam riski sınırlayarak yalnızca AAPL'deki göreli momentumu değerlendiriyorum.»
-03.11 18:03 B6  ALIŞ AAPL 249 adet ≈ 82,718 $ (1:4) @ 332.2 (TP 337.18, SL 328.88; ikisi de hemfikir, güven 0.55)
-03.11 18:15 N  NEWS (11 new) score -0.15 conf 0.40: Altın için karışık tablo var: Fed faiz oranlarını sabit tuttu ve enflasyon endişeleri sürüyor, bu da kısa vadede baskı yaratıyor; gümüş yıllık dibe indi ve altın düşüyor. Buna karşılık ABD-İran çatışması ve Körfez gerilimi güvenli liman talebini destekliyor, Commerzbank düşüşü aşırı buluyor ve Çin'in altın alımları destek sağlıyor; bu unsurlar birbirini dengeliyor.
-03.11 18:15 N  GPT  score +0.30 conf 0.48: Qeshm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak altının gün içinde düşüşte olduğuna dair haberler ve Fed’in yüksek enflasyon kaygıları bu etkiyi sınırlıyor; yön konusunda belirsizlik yüksek.
-03.11 18:15 B6  karar turu: Claude «Güçlü makro verilerle piyasa hafif pozitif ve teknoloji öncülüğünde ilerliyor, ancak İran kaynaklı jeopolitik risk yükselişi sınırlayabilir.» / GPT «Endekslerde sıkışık fiyatlama ve karışık haber akışı nedeniyle, dört kat kaldıraçla yeni pozisyon açmaya değecek ölçüde belirgin bir yönsel avantaj görünmüyor.»
 03.11 18:19 A  CLOSE BTCUSDT strateji değişti: -12.00 USD
 03.11 18:19 A  bakiye 5,000 $ olarak yeniden başlatıldı
 03.11 18:26 N  NEWS (7 new) score +0.10 conf 0.40: Jeopolitik risk (ABD'nin İran'ın Qeshm Adası'nı vurması) ve Çin'in altın alımı haberleri altını destekliyor, Commerzbank'ın düşüşü aşırı bulması da alıcı ilgisine işaret ediyor. Buna karşılık Fed'in faizleri sabit tutması ve enflasyon kaygısı, gümüşün yıllık dibe inmesi ile altının da düşmesi baskıyı sürdürüyor; sinyaller karışık olduğu için güven düşük.
@@ -101,6 +96,11 @@ Son işlemler:
 03.11 18:38 N  GPT  score -0.10 conf 0.35: ABD-İran arasında arabulucu önerilerinin görüşülmesi kısa vadeli gerilim ve güvenli liman talebini bir miktar azaltabilir; ancak sınırlı hava saldırıları ve yaklaşan ABD istihdam verisi belirsizliği koruyor. Başlıklar karışık ve altın üzerindeki net etki zayıf görünüyor.
 03.11 18:38 B6  karar turu: Claude «Güçlü makro verilere rağmen piyasa yatay seyrediyor; teknoloji tarafında hisse bazlı ayrışma öne çıkıyor.» / GPT «Endeksler yönsüz kalırken şirkete özgü yeni olumsuz haber ve göreli zayıflık nedeniyle AAPL kısa pozisyonu öne çıkıyor.»
 03.11 18:38 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"69664","code":40310000,"cost_basis":"81630.45","message":"insufficient buying power"}
+03.11 18:50 N  NEWS (9 new) score -0.10 conf 0.35: Fed faizleri sabit tuttu ve enflasyon kaygısı sürüyor; ABD işgücü verisi öncesi temkinli bir hava var ve gümüş yıllık dip seviyesine inmiş durumda, bu da kısa vadede hafif baskıcı bir sinyal. ABD'nin Qeshm Adası'nı vurması güvenli liman talebini destekleyebilir, ancak altın bu gelişmeye rağmen düşüşte, bu yüzden etkisi sınırlı kalıyor; birçok başlık eski veya yeni olmayan içerik taşıdığı için güven düşük.
+03.11 18:50 N  GPT  score +0.27 conf 0.43: Ukrayna’daki büyük çelik tesisine füze saldırısı ve ABD yardımının aksaması kısa vadede güvenli liman talebini destekleyebilir; Merz’in ateşkese dair kuşkuları da bu etkiyi güçlendiriyor. Ancak petrol akışlarının gerilemesi ve yeni bir faiz ya da dolar katalizörünün olmaması yükseliş beklentisini sı
+03.11 18:50 B6  karar turu: Claude «Güçlü ABD makro verileri ve yarı iletken talebiyle piyasa ılımlı yükseliş eğiliminde; Apple ise göreli zayıflıkla ayrışıyor.» / GPT «Endekslerde kısa vadeli eğilim yukarı olsa da Apple’ın belirgin göreli zayıflığı ayrışma işlemini destekliyor; 1:4 kaldıraçta toplam maruziyet sınırlı tutulmalı.»
+03.11 18:50 B6  ALIŞ QQQ 116 adet ≈ 79,676 $ (1:4) @ 686.86 (TP 697.16, SL 679.99; ikisi de hemfikir, güven 0.55)
+03.11 18:50 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"3820.65","code":40310000,"cost_basis":"81989.1","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
