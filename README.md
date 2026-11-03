@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 14:03 (İstanbul)
+> Son güncelleme: 03.11.2026 14:06 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %28.6 |
 | Ödenen komisyon/spread | 59.50 $ | 249.86 $ |
 
-**Hesap değeri: 4,590.74 $** (başlangıç 5,000 $, -409.26 $ / %-8.19)
+**Hesap değeri: 4,584.42 $** (başlangıç 5,000 $, -415.58 $ / %-8.31)
 
 Açık pozisyonlar: PAXGUSDT short @ 3916.57 (TP 3904.82 / SL 3924.40)
 
-Son haber analizi (03.11 13:54): Claude puan **+0.05**, güven 0.40 — İran'daki Qeshm Adası saldırısı ve yeniden savaş riski jeopolitik güvenli liman talebini destekleyerek altın için hafif pozitif. Ancak Fed'in faiz artırımı beklentisi (4-5 hike tahmini), güçlenen dolar ve sert ECB duruşu altın üzerinde baskı yaratıyor. Bu zıt etkiler birbirini büyük ölçüde nötrleştirdiği ve İran gerilimi büyük ölçüde fiyatlanmış göründüğü için sinyal zayıf.
+Son haber analizi (03.11 14:06): Claude puan **+0.15**, güven 0.35 — İran'a yönelik ABD saldırıları ve Hürmüz Boğazı'ndaki gerilim güvenli liman talebini destekleyerek altını hafifçe yukarı taşıyabilir. Ancak Katar'ın arabuluculuk açıklamaları, faiz artırımı beklentilerini öne çeken yorumlar ve dolardaki zayıf görünüm bu etkiyi sınırlıyor; altındaki talep de zayıflamış görünüyor.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.38 — ABD’nin Qeshm Adası’na saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in daha fazla faiz artırabileceği beklentisi ve doların güçlendiğine dair haberler altını baskılıyor; diplomasi sinyalleri de jeopolitik etkinin belirsizliğini artırıyor.
+GPT (gpt-6-luna): puan **+0.40**, güven 0.58 — ABD’nin İran’a yönelik misilleme saldırıları ve Qeshm Adası’nın vurulması kısa vadede güvenli liman talebini artırarak altını destekleyebilir; doların güçlenmediğine dair haberler de bunu destekliyor. Ancak tarafların barış önerilerini değerlendirmesi ve altındaki önceki düşüş, yükseliş etkisini sın
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 12:28 N  GPT  score +0.18 conf 0.43: İran’a yönelik ABD saldırısı ve Tahran’dan gelen daha geniş karşılık uyarısı kısa vadede güvenli liman talebini destekleyebilir; Rusya’nın Harkiv’deki hastaneye saldırısı da bu riski artırıyor. Ancak altının yaklaşık %1 gerilediğine dair haberler ve yüksek petrolün enflasyon/faiz beklentileri üzerin
-03.11 12:48 B5  CLOSE short stop: -55.97 USD
 03.11 12:48 N  NEWS (20 new) score -0.20 conf 0.40: Altın için karışık tablo var: ABD-İran diplomasi umutları ve Fed Başkanı Warsh'un sert açıklamaları (faiz beklentileri ve dolar tarafında) kısa vadede baskı yaratabilir; buna karşılık Qeshm Adası saldırıları ve savaş riski güvenli liman talebini destekliyor. Merkez bankası alımları yapısal olarak destekleyici olsa da kısa vadeli etkisi sınırlı.
 03.11 12:48 N  GPT  score -0.25 conf 0.38: Altın son haberlerde yaklaşık %1 gerilemiş; İran konusunda diplomasi umudu güvenli liman talebini sınırlayabilir. Ancak olası savaş tırmanışına dair haberler ve çelişkili sinyaller nedeniyle kısa vadeli yön belirsiz, merkez bankası alımları ise 1-4 saatlik görünüm için daha az belirleyici.
 03.11 12:48 B5  SHORT gold 25000 USD x10 @ 3916.57 (TP 3904.82, SL 3924.40; news -0.23)
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 13:42 N  GPT  score +0.35 conf 0.48: ABD’nin İran’a yönelik saldırısı ve Rusya’nın Ukrayna’daki ölümcül saldırıları kısa vadede güvenli liman talebini artırabilir; doların güçlenmediği yönündeki haber de altını destekliyor. Ancak altındaki mevcut düşüş ve bazı haberlerin doğrulanmamış ya da beklenti niteliğinde olması yükseliş sinyalin
 03.11 13:54 N  NEWS (18 new) score +0.05 conf 0.40: İran'daki Qeshm Adası saldırısı ve yeniden savaş riski jeopolitik güvenli liman talebini destekleyerek altın için hafif pozitif. Ancak Fed'in faiz artırımı beklentisi (4-5 hike tahmini), güçlenen dolar ve sert ECB duruşu altın üzerinde baskı yaratıyor. Bu zıt etkiler birbirini büyük ölçüde nötrleştirdiği ve İran gerilimi büyük ölçüde fiyatlanmış göründüğü için sinyal zayıf.
 03.11 13:54 N  GPT  score +0.15 conf 0.38: ABD’nin Qeshm Adası’na saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in daha fazla faiz artırabileceği beklentisi ve doların güçlendiğine dair haberler altını baskılıyor; diplomasi sinyalleri de jeopolitik etkinin belirsizliğini artırıyor.
+03.11 14:06 N  NEWS (21 new) score +0.15 conf 0.35: İran'a yönelik ABD saldırıları ve Hürmüz Boğazı'ndaki gerilim güvenli liman talebini destekleyerek altını hafifçe yukarı taşıyabilir. Ancak Katar'ın arabuluculuk açıklamaları, faiz artırımı beklentilerini öne çeken yorumlar ve dolardaki zayıf görünüm bu etkiyi sınırlıyor; altındaki talep de zayıflamış görünüyor.
+03.11 14:06 N  GPT  score +0.40 conf 0.58: ABD’nin İran’a yönelik misilleme saldırıları ve Qeshm Adası’nın vurulması kısa vadede güvenli liman talebini artırarak altını destekleyebilir; doların güçlenmediğine dair haberler de bunu destekliyor. Ancak tarafların barış önerilerini değerlendirmesi ve altındaki önceki düşüş, yükseliş etkisini sın
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
