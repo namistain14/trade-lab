@@ -6694,6 +6694,10 @@
    [
     1793669156,
     3945.04
+   ],
+   [
+    1793669347,
+    3945.04
    ]
   ]
  },
@@ -12969,43 +12973,38 @@
    [
     1793669156,
     4868.5
+   ],
+   [
+    1793669347,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
-   "confidence": 0.35,
-   "reason": "Petrol sert d\u00fc\u015f\u00fc\u015f\u00fc (%6) enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini gev\u015feterek alt\u0131n\u0131 ve dolar\u0131 destekledi; dolar geri \u00e7ekildi ve alt\u0131n toparland\u0131. Ancak \u0130ran'da \u00e7at\u0131\u015fma riski (ABD'nin Qeshm sald\u0131r\u0131s\u0131, Netanyahu'nun yeni sald\u0131r\u0131 talebi) g\u00fcvenli liman talebini art\u0131rabilirken, m\u00fczakere iyimserli\u011fi bunu dengeliyor; bu \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 nedeniyle sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": 0.3,
+   "confidence": 0.5,
+   "reason": "Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f enflasyon kayg\u0131s\u0131n\u0131 azalt\u0131p Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131yor ve dolar\u0131 bask\u0131l\u0131yor; bu da alt\u0131n i\u00e7in olumlu. Ancak \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Netanyahu'nun yeni vuru\u015f talebi jeopolitik riskin tamamen da\u011f\u0131lmad\u0131\u011f\u0131n\u0131 g\u00f6steriyor; g\u00fcvenli liman talebi ile m\u00fczakere iyimserli\u011fi birbiriyle \u00e7eli\u015fiyor, bu y\u00fczden g\u00fcven s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1793668626139,
-   "new_headlines": 9,
+   "ts": 1793669346872,
+   "new_headlines": 14,
    "key_events": [
     "Petrol %6 d\u00fc\u015ft\u00fc; ABD-\u0130ran m\u00fczakere umutlar\u0131 alt\u0131n\u0131 destekledi",
     "Fed s\u0131k\u0131la\u015ft\u0131rma bahisleri s\u00fcr\u00fcyor, s\u0131n\u0131rl\u0131 yukar\u0131 bask\u0131",
     "Alt\u0131n Ekim sat\u0131\u015f\u0131ndan toparlan\u0131yor ama 3.900$ direnci zay\u0131f"
    ],
    "gpt": {
-    "score": 0.25,
-    "confidence": 0.43,
-    "reason": "Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n geri \u00e7ekilmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran\u2019la anla\u015fma g\u00f6r\u00fc\u015fmelerine dair olumlu sinyaller g\u00fcvenli liman talebini s\u0131n\u0131rlarken, yeni sald\u0131r\u0131 ihtimali haberleri g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor.",
+    "score": 0.35,
+    "confidence": 0.48,
+    "reason": "Alt\u0131n fiyat\u0131n\u0131n dipten %2\u2019den fazla toparlanmas\u0131 ve dolar\u0131n zay\u0131flamas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; Ukrayna\u2019daki olas\u0131 sald\u0131r\u0131lar da g\u00fcvenli liman talebini art\u0131rabilir. Ancak \u0130ran konusunda anla\u015fma sinyalleri ile yeni sald\u0131r\u0131 haberleri \u00e7eli\u015fkili ve y\u00fckseli\u015fin bir k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f g\u00f6r\u00fc",
     "key_events": [
-     "Petrol\u00fcn %6 d\u00fc\u015fmesi ve Fed faiz beklentilerinin gerilemesi",
-     "Dolar\u0131n geri \u00e7ekilmesi",
-     "\u0130ran g\u00f6r\u00fc\u015fmeleri s\u00fcrerken yeni sald\u0131r\u0131 ihtimali"
+     "Alt\u0131n 3.950 dolar/ons \u00fczerine toparland\u0131",
+     "Dolar bask\u0131 alt\u0131nda; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f Fed beklentilerini etkiliyor",
+     "Ukrayna sald\u0131r\u0131 uyar\u0131lar\u0131 ile \u0130ran\u2019a ili\u015fkin \u00e7eli\u015fkili haberler"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792811404629,
-    "score": -0.25,
-    "confidence": 0.4,
-    "reason": "Alt\u0131n 4.000 dolarin altina dusup 3 aylik dibe geriledi; bu, enflasyon baskisi ve Fed'in sikilasma beklentisi gibi faktorlerin altin uzerinde agirlik yaptigini gosteriyor. Iran ve Husi kaynakli jeopolitik gerilim jeopolitik talebi destekleyebilir, ancak piyasa bu haberlere ragmen satis baskisini surdurdugu icin etkisi sinirli gorunuyor; ayrica Carsamba'daki Fed toplantisi yonu belirsiz kildigi icin guven orta duzeyde tutuldu.",
-    "new": 10,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792812131609,
     "score": -0.15,
@@ -15696,23 +15695,42 @@
     "new": 9,
     "gpt_score": 0.25,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1793669346872,
+    "score": 0.3,
+    "confidence": 0.5,
+    "reason": "Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f enflasyon kayg\u0131s\u0131n\u0131 azalt\u0131p Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131yor ve dolar\u0131 bask\u0131l\u0131yor; bu da alt\u0131n i\u00e7in olumlu. Ancak \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Netanyahu'nun yeni vuru\u015f talebi jeopolitik riskin tamamen da\u011f\u0131lmad\u0131\u011f\u0131n\u0131 g\u00f6steriyor; g\u00fcvenli liman talebi ile m\u00fczakere iyimserli\u011fi birbiriyle \u00e7eli\u015fiyor, bu y\u00fczden g\u00fcven s\u0131n\u0131rl\u0131.",
+    "new": 14,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 18
+   "n": 19
   },
   "news_seen": [
+   "World gold prices rebounded, surpassing the $3,950/oz mark. - Vietnam.vn",
+   "Global gold prices rose more than 2% after hitting a one-year low. - Vietnam.vn",
+   "SJC gold prices plummeted by over 5 million VND in October. - Vietnam.vn",
+   "Canadian Dollar gains ground as rebounding oil prices soften USD/CAD - FXStreet",
+   "Don\u2019t read too much into these midterms - The Washington Post",
+   "North Korea denies being behind record $6.3bn Binance hack",
+   "Beijing launches diplomatic flurry amid threat of renewed U.S. war with Iran - The Washington Post",
+   "Zelenskyy warns of large scale Russian missile, drone attacks against Ukraine - Fox News",
+   "\"War is coming.\" New 'Percy Jackson and the Olympians' trailer gives a sneak peak of an epic new quest - ABC7 Chicago",
+   "Russo-Ukrainian war, day 1713: Ukraine hits Samara Oil hub blending up to half of Russian crude exports - Euromaidan Press",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Rebounds As Oil Tumbles - FXEmpire",
    "Weekly Market Preview: Oil Drop on Iran Talks, Gold Breakdown, PMI Strength & FX Outlook - FXEmpire",
+   "Dollar under pressure as oil prices slump, Australia rate decision awaited - Reuters",
    "Gold Rate Today: Check 24K, 22K Gold Prices in Mumbai, Delhi, Chennai, Kolkata, Bengaluru on November 3 - NDTV Profit",
-   "Beijing launches diplomatic flurry amid threat of renewed U.S. war with Iran - The Washington Post",
+   "Trump signals progress on Iran deal as Tehran pushes faster ceasefire - Al Jazeera",
+   "Long Island Vietnam War veterans honor those lost in an unpopular conflict on 35th anniversary of 100-foot Selden memorial - Newsday",
    "Khamenei Empowers Talks as Trump Says Iran Deal Could Happen - Bloomberg.com",
    "Rejecting Trump\u2019s Administrative War - Progressive.org",
    "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
-   "North Korea denies being behind record $6.3bn Binance hack",
    "Drew University Economics Students Compete in Federal Reserve's National College Fed Challenge - Drew University",
-   "Don\u2019t read too much into these midterms - The Washington Post",
    "U.S. Dollar Pulls Back As Oil Prices Dive 6%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "Gold News: XAUUSD Rebounds as Oil Plunge Pressures Fed Hike Expectations - FXEmpire",
    "From scooters to shampoo - the people saving hundreds from dumpster diving",
@@ -15725,34 +15743,22 @@
    "Opinion | The inflation election - The Washington Post",
    "Gold prices today, November 3rd: Global prices surge, domestic gold prices have a chance to break through. - Vietnam.vn",
    "Gears of War: E-Day Review \u2013 A Satisfying, Brutal Return with a Few Missing Pieces - Third Coast Review",
-   "US-Iran war news: Israel's Benjamin Netanyahu wants Donald Trump administration to carry out new Iran strikes, officials tell AP - ABC7 Bay Area",
+   "US-Iran war news: Israel's Benjamin Netanyahu wants Donald Trump administration to carry out new Iran strikes, officials tell AP - ABC11 News",
    "Indian film star Ranbir Kapoor on AI, movies and fatherhood",
    "Plane may have broken apart ahead of deadly Florida jet crash, say investigators - BBC",
    "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
    "Thousands of European troops to rehearse Ukraine deployment in event of peace",
    "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+   "Gold Rate Today in Sitamarhi 3rd November 2026 : 22 & 24 Carat, Todays Gold Price in Sitamarhi - Business Today",
+   "1600J :: Love at War - RapReviews",
    "Dip in gold price puts the sparkle back into festive and wedding buying, jewellers see 10-12% rise in Dhanteras sales - The Economic Times",
    "Iran says contacts over ending war continue after talks finish with no breakthrough - Reuters",
    "War, tariffs and China: What the US midterms mean for the Asia-Pacific - Al Jazeera",
    "Gears Of War: E-Day Campaign Review - Wolf's Gaming Blog",
-   "New book examines Biden's response to Israel's war in Gaza - Iowa Public Radio",
-   "Legal challenge to Australia's social media ban to start in High Court",
-   "After Gold Falls Below $4,000, U.S. Midterm Elections May Be the Key to a Reversal in Safe-Haven Demand - BigGo Finance",
-   "Utah Football Announces Season-Ending Injury Ahead of Holy War - Yahoo Sports",
-   "Trump Could Restart War With Iran, U.S. Readiness Concerns Grow After Midterm Elections: how 12 outlets framed it - NewsCord",
-   "Vance says US has had \u2018good conversations\u2019 with Iran on finding deal to end conflict - AP News",
-   "New book examines Biden's response to Israel's war in Gaza - KUAF Public Radio",
-   "Turkey\u2019s Race to the Moon: How Ankara\u2019s Space Ambitions Could Reshape Its Geopolitical Influence - The Media Line",
-   "Gulf Oil Giants Work to Expand Overseas Storage As War Exposes Supply Risks - WSJ",
-   "US Imposes Sanctions On Rwanda Over Eastern Congo Conflict - Genocide Watch",
-   "Gold rises to near $3,950 as traders brace for US midterm election - FXStreet",
-   "Crypto Bank Custodia Urges Supreme Court to End 'Tyranny' of Federal Reserve - Cryptonews.net",
-   "Gold rate prediction: Will gold price jump after US Midterm elections results? Check critical factors - The Economic Times"
+   "US Announces New Russia-Ukraine Peace Talks As NATO Boosts Military Support For Kyiv - i24NEWS"
   ]
  },
  "log": [
-  "02.11 01:53 A  SHORT XRPUSDT 2517 USD x3 @ 1.25 (ters sinyal, RSI 39)",
-  "02.11 01:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 01:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 01:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "02.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -16050,7 +16056,9 @@
   "03.11 04:05 N  NEWS (18 new) score +0.20 conf 0.35: \u0130ran'la yeniden sava\u015f riski (Netanyahu'nun yeni sald\u0131r\u0131 talebi, Qeshm Adas\u0131'na ABD sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini hafif\u00e7e destekliyor; dolar'\u0131n zay\u0131flamas\u0131 da alt\u0131n i\u00e7in olumlu. Ancak \u0130ran ile m\u00fczakere kanallar\u0131n\u0131n a\u00e7\u0131k kalmas\u0131 ve Vance'in \"iyi g\u00f6r\u00fc\u015fmeler\" a\u00e7\u0131klamas\u0131 jeopolitik primi s\u0131n\u0131rlayabilir, bu y\u00fczden etki zay\u0131f ve kar\u0131\u015f\u0131k.",
   "03.11 04:05 N  GPT  score +0.38 conf 0.48: \u0130ran\u2019a y\u00f6nelik yeni sald\u0131r\u0131 ihtimali ve Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl bombard\u0131man k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n geriledi\u011fine dair haber de alt\u0131n i\u00e7in olumlu. Ancak \u0130ran\u2019la temaslar\u0131n s\u00fcrd\u00fc\u011f\u00fc ve haber ak\u0131\u015f\u0131n\u0131n \u00e7eli\u015fkili oldu\u011fu belirtiliyor, bu nedenle etkinin b\u00fcy\u00fckl\u00fc\u011f\u00fc belirsiz.",
   "03.11 04:17 N  NEWS (9 new) score +0.20 conf 0.35: Petrol sert d\u00fc\u015f\u00fc\u015f\u00fc (%6) enflasyon ve Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini gev\u015feterek alt\u0131n\u0131 ve dolar\u0131 destekledi; dolar geri \u00e7ekildi ve alt\u0131n toparland\u0131. Ancak \u0130ran'da \u00e7at\u0131\u015fma riski (ABD'nin Qeshm sald\u0131r\u0131s\u0131, Netanyahu'nun yeni sald\u0131r\u0131 talebi) g\u00fcvenli liman talebini art\u0131rabilirken, m\u00fczakere iyimserli\u011fi bunu dengeliyor; bu \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 nedeniyle sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "03.11 04:17 N  GPT  score +0.25 conf 0.43: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n geri \u00e7ekilmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran\u2019la anla\u015fma g\u00f6r\u00fc\u015fmelerine dair olumlu sinyaller g\u00fcvenli liman talebini s\u0131n\u0131rlarken, yeni sald\u0131r\u0131 ihtimali haberleri g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor."
+  "03.11 04:17 N  GPT  score +0.25 conf 0.43: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve dolar\u0131n geri \u00e7ekilmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. \u0130ran\u2019la anla\u015fma g\u00f6r\u00fc\u015fmelerine dair olumlu sinyaller g\u00fcvenli liman talebini s\u0131n\u0131rlarken, yeni sald\u0131r\u0131 ihtimali haberleri g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor.",
+  "03.11 04:29 N  NEWS (14 new) score +0.30 conf 0.50: Petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f enflasyon kayg\u0131s\u0131n\u0131 azalt\u0131p Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131yor ve dolar\u0131 bask\u0131l\u0131yor; bu da alt\u0131n i\u00e7in olumlu. Ancak \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Netanyahu'nun yeni vuru\u015f talebi jeopolitik riskin tamamen da\u011f\u0131lmad\u0131\u011f\u0131n\u0131 g\u00f6steriyor; g\u00fcvenli liman talebi ile m\u00fczakere iyimserli\u011fi birbiriyle \u00e7eli\u015fiyor, bu y\u00fczden g\u00fcven s\u0131n\u0131rl\u0131.",
+  "03.11 04:29 N  GPT  score +0.35 conf 0.48: Alt\u0131n fiyat\u0131n\u0131n dipten %2\u2019den fazla toparlanmas\u0131 ve dolar\u0131n zay\u0131flamas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; Ukrayna\u2019daki olas\u0131 sald\u0131r\u0131lar da g\u00fcvenli liman talebini art\u0131rabilir. Ancak \u0130ran konusunda anla\u015fma sinyalleri ile yeni sald\u0131r\u0131 haberleri \u00e7eli\u015fkili ve y\u00fckseli\u015fin bir k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f g\u00f6r\u00fc"
  ],
  "gold_big": {
   "account": {
@@ -21175,6 +21183,10 @@
    [
     1793669156,
     4963.78
+   ],
+   [
+    1793669347,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -26227,6 +26239,10 @@
    [
     1793669156,
     4975.18
+   ],
+   [
+    1793669347,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -31245,6 +31261,10 @@
    [
     1793669156,
     4993.28
+   ],
+   [
+    1793669347,
+    4993.28
    ]
   ]
  },
@@ -36100,6 +36120,10 @@
    [
     1793669156,
     4969.22
+   ],
+   [
+    1793669347,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -39775,6 +39799,10 @@
    ],
    [
     1793669156,
+    4751.81
+   ],
+   [
+    1793669347,
     4751.81
    ]
   ],
@@ -44488,6 +44516,10 @@
    [
     1793669156,
     100750.28
+   ],
+   [
+    1793669347,
+    100750.28
    ]
   ],
   "open": {},
@@ -47570,6 +47602,10 @@
    ],
    [
     1793669156,
+    5066.43
+   ],
+   [
+    1793669347,
     5066.43
    ]
   ],
