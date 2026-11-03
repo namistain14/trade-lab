@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 18:31 (İstanbul)
+> Son güncelleme: 03.11.2026 18:34 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -64,19 +64,20 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +753.18 $ |
-| İşlem sayısı | 0 | 4 |
-| Kazanma oranı | %0.0 | %25.0 |
+| Net kâr/zarar | -859.05 $ | -105.87 $ |
+| İşlem sayısı | 1 | 5 |
+| Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,960.42 $** (başlangıç 100,000 $, +1960.42 $ / %+1.96)
+**Hesap değeri: 101,551.92 $** (başlangıç 100,000 $, +1551.92 $ / %+1.55)
 
-Açık pozisyonlar: AAPL long @ 332.47 (TP 337.18 / SL 328.88); NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
+Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 18:34 | AAPL | long | -859.05 $ | stop |
 | 02.11 23:51 | TSLA | long | -1109.17 $ | seans sonu |
 | 02.11 23:48 | NVDA | short | +5136.86 $ | seans sonu |
 | 02.11 23:45 | AAPL | long | -3118.15 $ | seans sonu |
@@ -85,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 17:10 A  SHORT BTCUSDT 4601 USD x3 @ 77192.84 (ters sinyal, RSI 43)
 03.11 17:14 N  NEWS (18 new) score +0.15 conf 0.35: ABD'nin İran'ın Qeshm Adası'na yaptığı yeni saldırılar ve savaş riskinin artması güvenli liman talebini desteklediği için altı hafif yukarı çekiyor. Ancak altın son dönemde savaş haberlerine rağmen sert düştü, bu nedenle etki sınırlı kalabilir; Commerzbank'ın düşüşü "aşırı" bulması ve doların yatay seyretmesi de yukarı yönlü tepkiyi sınırlıyor. Faiz artışı beklentileri ise baskı unsuru olmayı sürdürüyor.
 03.11 17:14 N  GPT  score +0.42 conf 0.53: ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli jeopolitik risk ve güvenli liman talebini artırarak altını destekleyebilir. Ancak İran’dan gerilimi azaltma mesajları ve son sert düşüşün ardından gelen karışık haberler etkinin büyüklüğünü ve kalıcılığını belirsiz kılıyor.
 03.11 18:03 N  NEWS (18 new) score -0.10 conf 0.35: Fed faizleri değiştirmedi ve enflasyon kaygısı vurgulandı; faiz artırımı beklentisine dair haberler altın için hafif baskılayıcı. Öte yandan İran'la ilgili jeopolitik gerilim ve güvenli liman talebi bunu dengeliyor; haberler çelişkili olduğundan etki zayıf kalabilir.
@@ -100,6 +100,7 @@ Son işlemler:
 03.11 18:26 N  NEWS (7 new) score +0.10 conf 0.40: Jeopolitik risk (ABD'nin İran'ın Qeshm Adası'nı vurması) ve Çin'in altın alımı haberleri altını destekliyor, Commerzbank'ın düşüşü aşırı bulması da alıcı ilgisine işaret ediyor. Buna karşılık Fed'in faizleri sabit tutması ve enflasyon kaygısı, gümüşün yıllık dibe inmesi ile altının da düşmesi baskıyı sürdürüyor; sinyaller karışık olduğu için güven düşük.
 03.11 18:26 N  GPT  score +0.20 conf 0.32: İran’daki çatışmanın sürmesi ve Beyrut saldırısına ilişkin yeni soruşturma güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi, Fed’in faizleri sabit tutması ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini sınırlıyor.
 03.11 18:26 B6  karar turu: Claude «Beklentiyi aşan makro veriler ve teknoloji liderliğiyle piyasa hafif pozitif, ancak İran kaynaklı jeopolitik risk ve faiz baskısı yükselişi sınırlayabilir.» / GPT «Kısa vadeli eğilim hafif yukarı; ancak güçlü istihdam verisinin faiz etkisi ve Hürmüz belirsizliği yükselişin devamını sınırlayabilir.»
+03.11 18:34 B6  CLOSE long AAPL stop: -859.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
