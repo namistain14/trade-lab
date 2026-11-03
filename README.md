@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 23:48 (İstanbul)
+> Son güncelleme: 03.11.2026 23:51 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %25.0 | %33.3 |
 | Ödenen komisyon/spread | 95.23 $ | 285.59 $ |
 
-**Hesap değeri: 4,658.67 $** (başlangıç 5,000 $, -341.33 $ / %-6.83)
+**Hesap değeri: 4,667.07 $** (başlangıç 5,000 $, -332.93 $ / %-6.66)
 
 Açık pozisyonlar: PAXGUSDT short @ 3928.84 (TP 3917.06 / SL 3936.70)
 
-Son haber analizi (03.11 23:39): Claude puan **-0.15**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkilemeyen genel haberler (Aramco, Gazze, Ukrayna'ya silah, Meta tahvil ihracı). Piyasaya dair en belirgin sinyal, ABD tahvil getirilerinin yükselmesi ve Fed'in sıkılaştırma beklentileriyle altının yaklaşık 3.900 dolara gerilediği haberi; bu da kısa vadede hafif negatif bir baskı yaratıyor. İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primi sağlasa da bu etki şimdiye kadar belirgin bir yükseliş getirmemiş görünüyor.
+Son haber analizi (03.11 23:51): Claude puan **+0.10**, güven 0.35 — İran savaşının yeniden başlayabileceğine dair haberler ve İsrail'in kimyasal silah uyarısı altın için hafif yukarı yönlü bir jeopolitik destek sağlıyor. Ancak bu haberlerin somut bir tırmanışa dönüşmediği, ABD tahvil faizlerindeki yükseliş ve Fed'in sıkılaştırma beklentilerinin altını baskılayan eski haberler ise bu desteği dengeliyor; net etki sınırlı ve belirsiz.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.56 — Dolar ve ABD tahvil getirilerindeki yükseliş ile Fed’in daha şahin fiyatlanması altın için kısa vadede baskı oluşturuyor. Rusya’nın Ukrayna enerji altyapısına yönelik büyük saldırısı ve İran çevresindeki savaş endişeleri güvenli liman talebiyle bu baskıyı kısmen dengeliyor.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.32 — İran’la yeniden savaş ihtimali ve Avrupa’daki şüpheli bomba tehditleri kısa vadede güvenli liman talebini destekleyebilir; ancak haberlerin bir kısmı spekülatif ve El-Sayed’in savaşın azaltılması çağrısı bu etkiyi sınırlıyor. Dolar ve yükselen tahvil getirilerinin altın üzerindeki baskısı daha somut
 
 Son işlemler:
 
@@ -71,9 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %16.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,511.30 $** (başlangıç 100,000 $, +2511.30 $ / %+2.51)
-
-Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99)
+**Hesap değeri: 102,500.90 $** (başlangıç 100,000 $, +2500.90 $ / %+2.50)
 
 Son işlemler:
 
@@ -88,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 22:44 B6  karar turu: Claude «Kapanışa dakikalar kala piyasa hafif artıda ama son saatte zayıflıyor; 1-3 saatlik işlem için yeterli seans süresi kalmadığından yeni pozisyon açmak mantıklı değil.» / GPT «Endekslerde kısa vadeli momentum aşağı yönlü; ancak 1–3 saatlik ufkun seans sonrasına taşması, 4 kat kaldıraçla likidite ve stop gerçekleşme riskini artırıyor.»
-03.11 22:56 N  NEWS (12 new) score -0.40 conf 0.60: Yeni haberlerin çoğu (Kitco, FXStreet) dolar ve tahvil getirilerinin yükseldiğini, Fed'in sıkılaşma beklentilerinin güçlendiğini ve altının 3.900 dolar civarında gerilediğini bildiriyor; bu da kısa vadede altın için baskı yaratıyor. İran savaşı ve jeopolitik gerilim gibi güvenli liman talebini destekleyen başlıklar mevcut, ancak bunlar yeni bir eskalasyon sinyali vermediği için etkisi sınırlı kalıyor; ayrıca birçok başlık eski veya zaten fiyatlanmış.
 03.11 22:56 N  GPT  score -0.32 conf 0.58: Altın, güçlenen dolar ve yükselen tahvil getirileriyle yeniden geriliyor; bu kısa vadede baskının sürebileceğine işaret ediyor. İran savaşıyla ilgili siyasi haberler güvenli liman talebini destekleyebilir, ancak yeni ve belirgin bir tırmanış sinyali vermiyor.
 03.11 22:56 B6  karar turu: Claude «Endeksler son saatte zayıflıyor ve kapanışa dakikalar kaldı; yeni pozisyon açmak yerine beklemek daha mantıklı.» / GPT «Son saatte satış baskısı belirgin, ancak kapanışın yakınlığı ve seans sonrası stop emirlerinin çalışma belirsizliği yeni kaldıraçlı işlemlerin avantajını azaltıyor.»
 03.11 23:15 B5  CLOSE short take profit: +69.06 USD
@@ -103,6 +99,8 @@ Son işlemler:
 03.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/NVDA: 403 {"available":"0","code":40310000,"existing_qty":"484","held_for_orders":"484","message":"insufficient qty available for order (requested: 484, available: 0)","symbol":"NVDA"}
 03.11 23:48 B6  CLOSE long QQQ seans sonu: -62.06 USD
 03.11 23:48 B6  seans kapanışı: tüm pozisyonlar kapatıldı
+03.11 23:51 N  NEWS (10 new) score +0.10 conf 0.35: İran savaşının yeniden başlayabileceğine dair haberler ve İsrail'in kimyasal silah uyarısı altın için hafif yukarı yönlü bir jeopolitik destek sağlıyor. Ancak bu haberlerin somut bir tırmanışa dönüşmediği, ABD tahvil faizlerindeki yükseliş ve Fed'in sıkılaştırma beklentilerinin altını baskılayan eski haberler ise bu desteği dengeliyor; net etki sınırlı ve belirsiz.
+03.11 23:51 N  GPT  score +0.12 conf 0.32: İran’la yeniden savaş ihtimali ve Avrupa’daki şüpheli bomba tehditleri kısa vadede güvenli liman talebini destekleyebilir; ancak haberlerin bir kısmı spekülatif ve El-Sayed’in savaşın azaltılması çağrısı bu etkiyi sınırlıyor. Dolar ve yükselen tahvil getirilerinin altın üzerindeki baskısı daha somut
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
