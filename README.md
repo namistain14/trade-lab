@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 23:36 (İstanbul)
+> Son güncelleme: 03.11.2026 23:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %25.0 | %33.3 |
 | Ödenen komisyon/spread | 95.23 $ | 285.59 $ |
 
-**Hesap değeri: 4,662.62 $** (başlangıç 5,000 $, -337.38 $ / %-6.75)
+**Hesap değeri: 4,666.50 $** (başlangıç 5,000 $, -333.50 $ / %-6.67)
 
 Açık pozisyonlar: PAXGUSDT short @ 3928.84 (TP 3917.06 / SL 3936.70)
 
-Son haber analizi (03.11 23:27): Claude puan **-0.20**, güven 0.35 — Altın için karışık tablo var: ABD tahvil faizlerinin yükselmesi ve Fed'in sıkılaştırma beklentileri (FXStreet, 19:09) altın üzerinde kısa vadeli baskı yaratıyor, dolar ve getiriler de güçleniyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor ancak bu haberler büyük ölçüde fiyatlanmış ve eski görünüyor. Çelişkili başlıklar (rekor sonrası istikrar, düşüş) güveni sınırlıyor.
+Son haber analizi (03.11 23:39): Claude puan **-0.15**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkilemeyen genel haberler (Aramco, Gazze, Ukrayna'ya silah, Meta tahvil ihracı). Piyasaya dair en belirgin sinyal, ABD tahvil getirilerinin yükselmesi ve Fed'in sıkılaştırma beklentileriyle altının yaklaşık 3.900 dolara gerilediği haberi; bu da kısa vadede hafif negatif bir baskı yaratıyor. İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primi sağlasa da bu etki şimdiye kadar belirgin bir yükseliş getirmemiş görünüyor.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.48 — Altın, yükselen ABD tahvil getirileri ve Fed’in daha şahin olacağı beklentileriyle baskı altında; bu, önümüzdeki saatler için kısa vadede daha belirgin bir aşağı yönlü etken. Ukrayna için yeni seyir füzesi talebi sınırlı güvenli liman desteği sağlayabilir, ancak başlık yeni bir tırmanışa işaret etmi
+GPT (gpt-6-luna): puan **-0.20**, güven 0.56 — Dolar ve ABD tahvil getirilerindeki yükseliş ile Fed’in daha şahin fiyatlanması altın için kısa vadede baskı oluşturuyor. Rusya’nın Ukrayna enerji altyapısına yönelik büyük saldırısı ve İran çevresindeki savaş endişeleri güvenli liman talebiyle bu baskıyı kısmen dengeliyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,941.56 $** (başlangıç 100,000 $, +1941.56 $ / %+1.94)
+**Hesap değeri: 102,124.54 $** (başlangıç 100,000 $, +2124.54 $ / %+2.12)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 22:32 N  NEWS (11 new) score -0.20 conf 0.45: Kısa vadede ABD tahvil getirilerinin yükselmesi, Fed'in sıkı duruşuna dair bahisler ve güçlenen dolar altını baskılıyor; İran savaşı riski ve merkez bankası alımları ise destekleyici. Haberlerin karışık olması ve bir kısmının eski/fiyatlanmış olması nedeniyle yön zayıf ve güven düşük.
-03.11 22:32 N  GPT  score -0.25 conf 0.36: Yakın vadede yükselen ABD tahvil getirileri ve Fed’in şahin fiyatlanması altın üzerinde baskı yaratıyor; bunlar önceki haberler olduğundan etkileri kısmen fiyatlanmış olabilir. Merkez bankalarının güçlü altın alımları destekleyici, ancak daha çok orta vadeli bir unsur ve yeni başlıklar kısa vadeli y
 03.11 22:32 B6  karar turu: Claude «Endeksler gün içi kazançların bir kısmını kapanışa doğru yavaşça geri veriyor; seans bitimine çok az kaldığı için yeni pozisyon açmanın risk/getiri oranı zayıf.» / GPT «Endekslerde kısa vadeli satış baskısı var; normal seansın bitmesine 28 dakika kaldığından 1–3 saatlik taşıma seans dışına uzanır ve braket emirlerinin işlerliği kontrol edilmelidir.»
 03.11 22:44 N  NEWS (8 new) score -0.40 conf 0.55: Yeni başlıklar çoğunlukla altın için baskılayıcı: ABD tahvil getirileri ve dolar yükselirken Fed'in sıkılaştırma beklentileri fiyatlanıyor ve altın 3.900 dolar civarına geriliyor. İran savaşı ve Ukrayna saldırıları güvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bu yüzden orta-düzeyde negatif, güven de sınırlı.
 03.11 22:44 N  GPT  score -0.25 conf 0.55: Yükselen ABD tahvil getirileri, şahin Fed beklentileri ve güçlü dolar altın üzerinde kısa vadeli baskı yaratıyor. Ukrayna ve İran kaynaklı riskler ile merkez bankası alımları bu baskıyı kısmen dengelese de yeni başlıkların çoğu yakın vadede belirleyici değil.
@@ -103,6 +101,8 @@ Son işlemler:
 03.11 23:27 N  NEWS (10 new) score -0.20 conf 0.35: Altın için karışık tablo var: ABD tahvil faizlerinin yükselmesi ve Fed'in sıkılaştırma beklentileri (FXStreet, 19:09) altın üzerinde kısa vadeli baskı yaratıyor, dolar ve getiriler de güçleniyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor ancak bu haberler büyük ölçüde fiyatlanmış ve eski görünüyor. Çelişkili başlıklar (rekor sonrası istikrar, düşüş) güveni sınırlıyor.
 03.11 23:27 N  GPT  score -0.35 conf 0.48: Altın, yükselen ABD tahvil getirileri ve Fed’in daha şahin olacağı beklentileriyle baskı altında; bu, önümüzdeki saatler için kısa vadede daha belirgin bir aşağı yönlü etken. Ukrayna için yeni seyir füzesi talebi sınırlı güvenli liman desteği sağlayabilir, ancak başlık yeni bir tırmanışa işaret etmi
 03.11 23:27 B5  SHORT gold 25000 USD x10 @ 3928.84 (TP 3917.06, SL 3936.70; news -0.28)
+03.11 23:39 N  NEWS (15 new) score -0.15 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkilemeyen genel haberler (Aramco, Gazze, Ukrayna'ya silah, Meta tahvil ihracı). Piyasaya dair en belirgin sinyal, ABD tahvil getirilerinin yükselmesi ve Fed'in sıkılaştırma beklentileriyle altının yaklaşık 3.900 dolara gerilediği haberi; bu da kısa vadede hafif negatif bir baskı yaratıyor. İran savaşı ve Ukrayna'daki saldırılar jeopolitik risk primi sağlasa da bu etki şimdiye kadar belirgin bir yükseliş getirmemiş görünüyor.
+03.11 23:39 N  GPT  score -0.20 conf 0.56: Dolar ve ABD tahvil getirilerindeki yükseliş ile Fed’in daha şahin fiyatlanması altın için kısa vadede baskı oluşturuyor. Rusya’nın Ukrayna enerji altyapısına yönelik büyük saldırısı ve İran çevresindeki savaş endişeleri güvenli liman talebiyle bu baskıyı kısmen dengeliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
