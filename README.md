@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 01:46 (İstanbul)
+> Son güncelleme: 04.11.2026 01:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -342.75 $ |
-| İşlem sayısı | 0 | 24 |
-| Kazanma oranı | %0.0 | %33.3 |
-| Ödenen komisyon/spread | 0.00 $ | 285.59 $ |
+| Net kâr/zarar | -55.96 $ | -398.72 $ |
+| İşlem sayısı | 1 | 25 |
+| Kazanma oranı | %0.0 | %32.0 |
+| Ödenen komisyon/spread | 11.91 $ | 297.50 $ |
 
-**Hesap değeri: 4,607.83 $** (başlangıç 5,000 $, -392.17 $ / %-7.84)
-
-Açık pozisyonlar: PAXGUSDT short @ 3928.84 (TP 3917.06 / SL 3936.70)
+**Hesap değeri: 4,601.28 $** (başlangıç 5,000 $, -398.72 $ / %-7.97)
 
 Son haber analizi (04.11 01:43): Claude puan **-0.20**, güven 0.40 — Dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanmasına dair haberler ve FXEmpire'ın altının düşüş riskine dikkat çeken teknik yorumu altın için kısa vadede baskı yaratıyor. İran savaşı ve nükleer gerilim gibi güvenli liman talebini artıran unsurlar ise bu baskıyı kısmen dengeliyor; haberler karışık olduğu için güven düşük tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 01:49 | PAXGUSDT | short | -55.96 $ | stop |
 | 03.11 23:04 | PAXGUSDT | short | +69.06 $ | take profit |
 | 03.11 15:57 | PAXGUSDT | long | +69.03 $ | take profit |
 | 03.11 15:26 | PAXGUSDT | short | -55.97 $ | stop |
 | 03.11 12:36 | PAXGUSDT | short | -55.97 $ | stop |
-| 03.11 06:16 | PAXGUSDT | long | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 00:19 N  GPT  score +0.25 conf 0.43: İran’la görüşmelerin karamsar seyri ve geniş çaplı çatışma riskine ilişkin haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak dolar endeksindeki yükseliş altını baskılıyor; somut yeni bir askerî gelişme olmadığından net etki sınırlı ve belirsiz.
 04.11 00:31 N  NEWS (8 new) score +0.20 conf 0.30: İran savaşına ilişkin tırmanma riski ve "tam ölçekli çatışma" uyarıları altın için güvenli liman talebini hafif destekliyor. Ancak dolar endeksinin yükselişi, altının rekor seviyelerden sonra istikrar bulduğuna dair haberler ve Fed bağımsızlığına dair belirsizlik etkiyi sınırlıyor; haber akışı büyük ölçüde tekrarlayan ve fiyatlanmış nitelikte.
 04.11 00:31 N  GPT  score +0.20 conf 0.36: İran’la çatışmanın tırmanma riskine ve görüşmelerdeki kötümserliğe dair haberler güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altının yükselişini sınırlıyor; yeni başlıkların çoğu kısa vadede etkisiz veya doğrudan ilgili değil.
 04.11 00:43 N  NEWS (6 new) score +0.12 conf 0.30: İran savaşına ilişkin jeopolitik gerilim (tam ölçekli çatışma riski, son dakika müzakereleri) altın için hafif güvenli liman desteği sağlıyor. Ancak dolar endeksinin yükselmesi ve altının rekor zirvelerden sonra yatay seyretmesi bu etkiyi sınırlıyor; Fed'e dair yeni bir sinyal yok ve haberlerin çoğu gürültü niteliğinde.
@@ -101,6 +98,7 @@ Son işlemler:
 04.11 01:31 N  GPT  score -0.15 conf 0.38: İran geriliminin tırmanma riski güvenli liman talebini destekleyebilir; ancak doların ABD tahvil getirileriyle birlikte yükselmesi kısa vadede altın üzerinde baskı oluşturuyor. Haberler çelişkili ve yeni fiyat etkisinin yönü belirsiz olduğundan görünüm hafif negatif.
 04.11 01:43 N  NEWS (16 new) score -0.20 conf 0.40: Dolar ve ABD tahvil getirilerinin yükselmesi, enflasyonun hızlanmasına dair haberler ve FXEmpire'ın altının düşüş riskine dikkat çeken teknik yorumu altın için kısa vadede baskı yaratıyor. İran savaşı ve nükleer gerilim gibi güvenli liman talebini artıran unsurlar ise bu baskıyı kısmen dengeliyor; haberler karışık olduğu için güven düşük tutuldu.
 04.11 01:43 N  GPT  score -0.20 conf 0.35: Doların ve ABD getirilerinin güçlenmesi ile altındaki aşağı yönlü teknik risk kısa vadede baskı yaratıyor. İran ve Ukrayna kaynaklı gerilim güvenli liman talebini desteklese de haberler karışık ve bir kısmı zaten fiyatlanmış olabilir.
+04.11 01:49 B5  CLOSE short stop: -55.96 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
