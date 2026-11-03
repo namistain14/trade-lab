@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 08:03 (İstanbul)
+> Son güncelleme: 03.11.2026 08:06 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -84,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 07:13 N  NEWS (8 new) score +0.05 conf 0.35: ABD'nin İran'ın Qeshm Adası hedeflerini vurması jeopolitik risk nedeniyle altını destekleyebilir. Ancak Trump'ın anlaşma umudu vurgusu, Fed faiz artırımı endişeleri ve doların 102 civarında stabil seyretmesi bu etkiyi dengeliyor; haberler çelişkili olduğu için yön net değil.
 03.11 07:13 N  GPT  score +0.38 conf 0.55: İran’daki ABD saldırıları ve Kuzey Kore’nin füze denemesi kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları ve altının haberler öncesinde zaten yükselmiş olması olası kazancı sınırlar.
 03.11 07:19 A  CLOSE BTCUSDT time limit: -3.08 USD
 03.11 07:19 A  CLOSE SOLUSDT time limit: -13.24 USD
@@ -99,6 +98,7 @@ Son işlemler:
 03.11 08:03 N  NEWS (7 new) score -0.20 conf 0.40: Fed faiz artırımı beklentileri ve İran'la anlaşma umutları altının kısa vadeli güvenli liman talebini zayıflatıyor, bu da hafif negatif bir etki yaratıyor. Ancak başlıklar çelişkili (ABD'nin İran'a saldırısı, Qeshm saldırısı, ve "5.000 doları aştı" gibi eski/tutarsız haberler), bu yüzden güven düşük.
 03.11 08:03 N  GPT  score -0.15 conf 0.42: İran’a yönelik ABD saldırısı güvenli liman talebini destekleyebilir; ancak olası anlaşmaya dair iyimserlik ve Fed faiz artırımı beklentilerinin altını baskılaması kısa vadede ağır basıyor. Haber akışı çelişkili olduğundan yön sinyali zayıf.
 03.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
