@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 21:39 (İstanbul)
+> Son güncelleme: 03.11.2026 21:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %14.3 | %30.4 |
 | Ödenen komisyon/spread | 83.32 $ | 273.68 $ |
 
-**Hesap değeri: 4,587.76 $** (başlangıç 5,000 $, -412.24 $ / %-8.24)
+**Hesap değeri: 4,598.80 $** (başlangıç 5,000 $, -401.20 $ / %-8.02)
 
 Açık pozisyonlar: PAXGUSDT short @ 3937.30 (TP 3925.49 / SL 3945.18)
 
-Son haber analizi (03.11 21:30): Claude puan **+0.10**, güven 0.35 — İran'a yönelik saldırı teyidi ve müzakerelerin umutsuz tonu jeopolitik risk talebini hafifçe destekliyor; ancak ABD tahvil faizlerinin ve doların yükselmesi altın için baskı yaratıyor. Haber akışı karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
+Son haber analizi (03.11 21:42): Claude puan **+0.12**, güven 0.35 — ABD'nin İran'a yeni "savunma" saldırıları (Qeshm adası) jeopolitik risk primi yaratarak altını hafifçe destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi ve ABD ara seçim/NFP beklentisiyle güçlenen dolar, kısa vadede altı baskılıyor; bu nedenle etki sınırlı ve karışık.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.58 — İran’a yönelik saldırıların teyidi ve Tahran’ın görüşmelere “tam bir kötümserlikle” yaklaşması kısa vadede güvenli liman talebini destekleyebilir. Ancak dolar ve ABD tahvil getirilerindeki yükseliş altını baskılıyor; bu nedenle net etki sınırlı biçimde pozitif görünüyor.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.46 — ABD’nin İran’a yönelik yeni saldırıları ve Hürmüz petrol akışlarının savaş öncesi düzeye dönmesinin beklenmemesi güvenli liman talebini destekleyebilir. Ancak yükselen dolar ve ABD tahvil getirileri altın için önemli bir karşı baskı oluşturuyor; bu nedenle net etki sınırlı pozitif görünüyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,480.81 $** (başlangıç 100,000 $, +2480.81 $ / %+2.48)
+**Hesap değeri: 102,489.26 $** (başlangıç 100,000 $, +2489.26 $ / %+2.49)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 19:58 N  GPT  score +0.15 conf 0.34: Ukrayna’daki saldırılar ve İran çevresindeki gerilim güvenli liman talebini sınırlı ölçüde destekleyebilir. Ancak doların yükselmesi altın üzerinde baskı yaratıyor; başlıkların çoğu süregelen gelişmeler olduğundan kısa vadeli etki belirsiz.
-03.11 19:58 B6  karar turu: Claude «Piyasa güçlü makro verilere rağmen öğle saatlerinde yatay ve hafif zayıf; teknoloji içinde çip hisseleri güçlü, Apple ise baskı altında.» / GPT «Endekslerdeki tepki alımları henüz saatlik zayıflığı aşamazken, şirket özelindeki olumsuz haberler seçici kısa pozisyonları destekliyor.»
-03.11 20:10 N  NEWS (10 new) score -0.20 conf 0.35: Yeni haberlerde en önemli unsur, İran'ın ABD ile anlaşma kapsamında Hürmüz Boğazı'nı 2 gün içinde yeniden açabileceğini söylemesi; bu jeopolitik gerilimi azaltarak güvenli liman talebini hafifletir. Ayrıca doların hafif yükselişi ve altın, gümüş ile bakır vadelerinin geri çekilmesi kısa vadede baskı yaratıyor. Buna karşılık İran savaşının sürmesi ve Pekin'in diplomatik hareketliliği gibi eski haberler riski canlı tuttuğu için etki sınırlı ve belirsiz kalıyor.
 03.11 20:10 N  GPT  score -0.28 conf 0.44: İran’ın Hürmüz Boğazı’nı iki gün içinde açabileceğine dair anlaşma haberi, doğrulanıp uygulanırsa güvenli liman ve enerji kaynaklı enflasyon talebini azaltarak altını baskılayabilir. Doların yükselmesi ve altın vadeli işlemlerindeki geri çekilme de kısa vadede aşağı yönü destekliyor; ancak anlaşma k
 03.11 20:10 B5  SHORT gold 25000 USD x10 @ 3937.30 (TP 3925.49, SL 3945.18; news -0.24)
 03.11 20:10 B6  karar turu: Claude «Piyasa hafif pozitif ama öğleden sonra yatay ve kararsız; teknoloji tarafında hisse bazlı ayrışma sürüyor.» / GPT «Endekslerde yön zayıf; 1:4 kaldıraç altında geniş piyasa işlemi yerine şirkete özgü olumsuz haberlerle desteklenen seçici kısa pozisyonu tercih ediyorum.»
@@ -103,6 +100,9 @@ Son işlemler:
 03.11 21:30 N  NEWS (11 new) score +0.10 conf 0.35: İran'a yönelik saldırı teyidi ve müzakerelerin umutsuz tonu jeopolitik risk talebini hafifçe destekliyor; ancak ABD tahvil faizlerinin ve doların yükselmesi altın için baskı yaratıyor. Haber akışı karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 03.11 21:30 N  GPT  score +0.25 conf 0.58: İran’a yönelik saldırıların teyidi ve Tahran’ın görüşmelere “tam bir kötümserlikle” yaklaşması kısa vadede güvenli liman talebini destekleyebilir. Ancak dolar ve ABD tahvil getirilerindeki yükseliş altını baskılıyor; bu nedenle net etki sınırlı biçimde pozitif görünüyor.
 03.11 21:30 B6  karar turu: Claude «Piyasa güçlü makro veriler ve Nvidia liderliğinde hafif pozitif seyrediyor, ancak İran ve Hürmüz kaynaklı jeopolitik riskler yukarı potansiyeli sınırlıyor.» / GPT «Endekslerde sınırlı pozitif eğilim sürerken, 4 kat kaldıraç altında geniş piyasayı kovalamak yerine şirkete özgü taze olumsuz haberle desteklenen seçici satış daha uygun.»
+03.11 21:42 N  NEWS (16 new) score +0.12 conf 0.35: ABD'nin İran'a yeni "savunma" saldırıları (Qeshm adası) jeopolitik risk primi yaratarak altını hafifçe destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi ve ABD ara seçim/NFP beklentisiyle güçlenen dolar, kısa vadede altı baskılıyor; bu nedenle etki sınırlı ve karışık.
+03.11 21:42 N  GPT  score +0.15 conf 0.46: ABD’nin İran’a yönelik yeni saldırıları ve Hürmüz petrol akışlarının savaş öncesi düzeye dönmesinin beklenmemesi güvenli liman talebini destekleyebilir. Ancak yükselen dolar ve ABD tahvil getirileri altın için önemli bir karşı baskı oluşturuyor; bu nedenle net etki sınırlı pozitif görünüyor.
+03.11 21:42 B6  karar turu: Claude «Endeksler güçlü makro verilerle ılımlı artıda ancak son saatte yatay konsolidasyon var, belirgin bir momentum yok.» / GPT «Endeksler yatayken AAPL'de seçici kısa pozisyon öne çıkıyor; normal seans kapanışına yalnızca 78 dakika kaldığından pozisyonu kapanıştan önce kapatmak gerekir.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
