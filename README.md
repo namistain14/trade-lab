@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 22:28 (İstanbul)
+> Son güncelleme: 03.11.2026 22:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -27,9 +27,9 @@
 
 Açık pozisyonlar: PAXGUSDT short @ 3937.30 (TP 3925.49 / SL 3945.18)
 
-Son haber analizi (03.11 22:20): Claude puan **-0.30**, güven 0.55 — En doğrudan yeni haber, ABD tahvil faizlerinin yükselmesi ve Fed'in sertleşme beklentileri nedeniyle altının 3.900 dolar civarına gerilediğini bildiriyor; bu, altın için kısa vadede baskı yaratıyor. Dolar ve tahvil getirilerindeki yükseliş de bu yönü destekliyor, ancak İran'a yönelik ABD saldırıları ve Ukrayna'daki çatışmalar gibi jeopolitik risklerin güvenli liman talebini kısmen artırması olası olduğu için etki sınırlı kalabilir.
+Son haber analizi (03.11 22:32): Claude puan **-0.20**, güven 0.45 — Kısa vadede ABD tahvil getirilerinin yükselmesi, Fed'in sıkı duruşuna dair bahisler ve güçlenen dolar altını baskılıyor; İran savaşı riski ve merkez bankası alımları ise destekleyici. Haberlerin karışık olması ve bir kısmının eski/fiyatlanmış olması nedeniyle yön zayıf ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.62 — Yükselen ABD tahvil getirileri ve Fed’in daha şahin olacağı beklentisi altını baskılıyor; haber akışında altının gerilediği de belirtiliyor. İran ve Ukrayna’daki tırmanış güvenli liman talebini destekleyerek düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.36 — Yakın vadede yükselen ABD tahvil getirileri ve Fed’in şahin fiyatlanması altın üzerinde baskı yaratıyor; bunlar önceki haberler olduğundan etkileri kısmen fiyatlanmış olabilir. Merkez bankalarının güçlü altın alımları destekleyici, ancak daha çok orta vadeli bir unsur ve yeni başlıklar kısa vadeli y
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,696.44 $** (başlangıç 100,000 $, +1696.44 $ / %+1.70)
+**Hesap değeri: 101,509.03 $** (başlangıç 100,000 $, +1509.03 $ / %+1.51)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 21:18 N  NEWS (32 new) score -0.10 conf 0.40: İran'a yeniden ABD saldırısı güvenli liman talebini artırarak altı destekliyor, ancak dolar ve ABD tahvil getirilerinin yükselmesi ile altın fiyatının son oturumda zayıflaması baskıyı sürdürüyor. Haberler çelişkili olduğu ve altın zaten belirgin düşüş yaşadığı için sinyal zayıf; hafif negatif, düşük güven.
-03.11 21:18 N  GPT  score -0.20 conf 0.40: İran savaşına odaklanmayla doların ve ABD tahvil getirilerinin yükselmesi, altın için kısa vadede baskı yaratıyor. İran ve Rusya kaynaklı tırmanma güvenli liman talebini desteklese de altının gerilemesi ve haber akışının çelişkili olması görünümü sınırlıyor.
-03.11 21:18 B6  karar turu: Claude «Piyasa güçlü makro veriler ve çip liderliğiyle ılımlı yükselişte. İran ve jeopolitik başlıklar sınırlı risk yaratsa da genel eğilim pozitif.» / GPT «Endekslerde görünüm hafif pozitif olsa da momentum zayıf; 4 kat kaldıraç ve kapanışa kalan süre nedeniyle yeni pozisyonlarda seçici olmak gerekiyor.»
 03.11 21:30 N  NEWS (11 new) score +0.10 conf 0.35: İran'a yönelik saldırı teyidi ve müzakerelerin umutsuz tonu jeopolitik risk talebini hafifçe destekliyor; ancak ABD tahvil faizlerinin ve doların yükselmesi altın için baskı yaratıyor. Haber akışı karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 03.11 21:30 N  GPT  score +0.25 conf 0.58: İran’a yönelik saldırıların teyidi ve Tahran’ın görüşmelere “tam bir kötümserlikle” yaklaşması kısa vadede güvenli liman talebini destekleyebilir. Ancak dolar ve ABD tahvil getirilerindeki yükseliş altını baskılıyor; bu nedenle net etki sınırlı biçimde pozitif görünüyor.
 03.11 21:30 B6  karar turu: Claude «Piyasa güçlü makro veriler ve Nvidia liderliğinde hafif pozitif seyrediyor, ancak İran ve Hürmüz kaynaklı jeopolitik riskler yukarı potansiyeli sınırlıyor.» / GPT «Endekslerde sınırlı pozitif eğilim sürerken, 4 kat kaldıraç altında geniş piyasayı kovalamak yerine şirkete özgü taze olumsuz haberle desteklenen seçici satış daha uygun.»
@@ -103,6 +100,9 @@ Son işlemler:
 03.11 22:20 N  NEWS (20 new) score -0.30 conf 0.55: En doğrudan yeni haber, ABD tahvil faizlerinin yükselmesi ve Fed'in sertleşme beklentileri nedeniyle altının 3.900 dolar civarına gerilediğini bildiriyor; bu, altın için kısa vadede baskı yaratıyor. Dolar ve tahvil getirilerindeki yükseliş de bu yönü destekliyor, ancak İran'a yönelik ABD saldırıları ve Ukrayna'daki çatışmalar gibi jeopolitik risklerin güvenli liman talebini kısmen artırması olası olduğu için etki sınırlı kalabilir.
 03.11 22:20 N  GPT  score -0.25 conf 0.62: Yükselen ABD tahvil getirileri ve Fed’in daha şahin olacağı beklentisi altını baskılıyor; haber akışında altının gerilediği de belirtiliyor. İran ve Ukrayna’daki tırmanış güvenli liman talebini destekleyerek düşüşü sınırlayabilir.
 03.11 22:20 B6  karar turu: Claude «Piyasa güçlü makro verilerle hafif pozitif ama seçim ve jeopolitik belirsizlik nedeniyle kapanışa doğru yön arayışında.» / GPT «Endekslerde ivme zayıf; kapanışa yalnızca 40 dakika kaldığından 1–3 saatlik pozisyonlar seans dışına taşabilir ve bracket emirlerinin işlerliği kontrol edilmelidir.»
+03.11 22:32 N  NEWS (11 new) score -0.20 conf 0.45: Kısa vadede ABD tahvil getirilerinin yükselmesi, Fed'in sıkı duruşuna dair bahisler ve güçlenen dolar altını baskılıyor; İran savaşı riski ve merkez bankası alımları ise destekleyici. Haberlerin karışık olması ve bir kısmının eski/fiyatlanmış olması nedeniyle yön zayıf ve güven düşük.
+03.11 22:32 N  GPT  score -0.25 conf 0.36: Yakın vadede yükselen ABD tahvil getirileri ve Fed’in şahin fiyatlanması altın üzerinde baskı yaratıyor; bunlar önceki haberler olduğundan etkileri kısmen fiyatlanmış olabilir. Merkez bankalarının güçlü altın alımları destekleyici, ancak daha çok orta vadeli bir unsur ve yeni başlıklar kısa vadeli y
+03.11 22:32 B6  karar turu: Claude «Endeksler gün içi kazançların bir kısmını kapanışa doğru yavaşça geri veriyor; seans bitimine çok az kaldığı için yeni pozisyon açmanın risk/getiri oranı zayıf.» / GPT «Endekslerde kısa vadeli satış baskısı var; normal seansın bitmesine 28 dakika kaldığından 1–3 saatlik taşıma seans dışına uzanır ve braket emirlerinin işlerliği kontrol edilmelidir.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
