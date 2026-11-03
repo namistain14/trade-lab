@@ -71,6 +71,65 @@ def crypto_tick(acc: dict, cfg: dict, log: list, data=None) -> dict:
     return prices
 
 
+# ---------------- Bot A (from 03.11): 1-hour trend pullback, both directions ----------------
+def crypto_trend_tick(acc: dict, cfg: dict, state: dict, log: list, data=None) -> dict:
+    """Erdem 03.11, after the backtest (reports/backtest_A_1yil.md): trade only WITH the 1-hour trend.
+    Up-trend (close above EMA200): buy when RSI dips below rsi_low and turns up.
+    Down-trend (close below EMA200): sell short when RSI rises above rsi_high and turns down.
+    Target / stop = tp_atr / sl_atr x ATR(14) on the 1-hour chart. One decision per closed hour per coin."""
+    fee, slip, tag = cfg["fee_rate"], cfg["slippage_rate"], cfg.get("tag", "A")
+    lev = cfg.get("leverage", 1)
+    prices = {}
+    seen = state.setdefault("trend_seen", {})
+    for sym in cfg["symbols"]:
+        m1 = data[sym]["1m"] if data else market.klines(sym, "1m", 240)
+        prices[sym] = m1[-1]["c"]
+        for tr in paper.check_exits(acc, sym, m1,
+                                    exit_fill=lambda side, lvl: lvl * (1 - slip) if side == "long" else lvl * (1 + slip),
+                                    exit_fee=lambda px, q: px * q * fee):
+            log.append(f"{tag}  CLOSE {sym} {tr['side']} {tr['reason']}: {tr['pnl']:+.2f} USD")
+
+    ok, why = paper.can_open(acc, cfg["max_trades_per_day"], acc["start"] * cfg["daily_loss_limit_pct"])
+    if not ok:
+        return prices
+    for sym in cfg["symbols"]:
+        if len(acc["positions"]) >= cfg["max_open"] or any(p["symbol"] == sym for p in acc["positions"]):
+            continue
+        h1 = data[sym]["1h"] if data else market.klines(sym, "1h", 300)
+        done = [c for c in h1 if c["closed"]]
+        if len(done) < 210 or seen.get(sym) == done[-1]["t"]:
+            continue  # this hour was already judged
+        seen[sym] = done[-1]["t"]
+        last = [t for t in acc["trades"] if t["symbol"] == sym]
+        if last and last[-1]["closed_ms"] > done[-1]["t"]:
+            continue  # wait one full hour after a trade on the same coin
+        closes = [c["c"] for c in done]
+        e200, r, a = market.ema(closes, 200)[-1], market.rsi(closes, 14), market.atr(done, 14)[-1]
+        side = None
+        if closes[-1] > e200 and r[-1] < cfg["rsi_low"] and r[-1] > r[-2]:
+            side = "long"
+        elif closes[-1] < e200 and r[-1] > cfg["rsi_high"] and r[-1] < r[-2]:
+            side = "short"
+        if not side or a <= 0:
+            continue
+        price = prices[sym] * (1 + slip) if side == "long" else prices[sym] * (1 - slip)
+        free = acc["balance"] * lev - sum(p["qty"] * p["entry"] for p in acc["positions"])
+        notional = min(acc["balance"] * cfg["position_pct"] * lev, free)
+        if notional < 10:
+            continue
+        tp_d, sl_d = cfg["tp_atr"] * a, cfg["sl_atr"] * a
+        tp = price + tp_d if side == "long" else price - tp_d
+        sl = price - sl_d if side == "long" else price + sl_d
+        trend = "yükseliş trendi, düzeltme bitti" if side == "long" else "düşüş trendi, tepki bitti"
+        paper.open_position(acc, symbol=sym, side=side, price=price, qty=notional / price, tp=tp, sl=sl,
+                            t_ms=_now_ms(), entry_cost=notional * fee, max_hold_min=cfg["max_hold_minutes"],
+                            margin=notional / lev,
+                            note=f"1 saatlik {trend} (RSI {r[-1]:.0f}); hedef {cfg['tp_atr']}xATR, stop {cfg['sl_atr']}xATR")
+        log.append(f"{tag}  {'BUY' if side == 'long' else 'SHORT'} {sym} {notional:.0f} USD @ {price:.4g} "
+                   f"(1s RSI {r[-1]:.0f}, TP {tp:.4g}, SL {sl:.4g})")
+    return prices
+
+
 # ---------------- Bot B: gold news (leveraged, long or short) ----------------
 def gold_market_open(now: dt.datetime | None = None) -> bool:
     """Real gold (XAU/USD) closes from Friday 21:00 to Sunday 22:00 UTC; no new trades then."""

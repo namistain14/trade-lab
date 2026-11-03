@@ -132,6 +132,17 @@ def main() -> None:
         if rs["id"] in rdone or rs["bot"] not in st:
             continue
         old = st[rs["bot"]]["account"]
+        bcr = b[rs["bot"]]
+        for pos in list(old["positions"]):  # close what is still open at the market price before archiving
+            try:
+                px = market.klines(pos["symbol"], "1m", 5)[-1]["c"]
+                slip = bcr.get("slippage_rate", 0)
+                fill = px * (1 - slip) if pos["side"] == "long" else px * (1 + slip)
+                tr = paper._close(old, pos, fill, int(dt.datetime.now().timestamp() * 1000), "strateji değişti",
+                                  fill * pos["qty"] * bcr.get("fee_rate", 0))
+                log.append(f"{bcr.get('tag', rs['bot'])}  CLOSE {pos['symbol']} strateji değişti: {tr['pnl']:+.2f} USD")
+            except Exception as e:  # noqa: BLE001
+                errors.append(f"reset close {pos['symbol']}: {e}")
         st[rs["bot"]].setdefault("archive", []).append({"until_ms": int(dt.datetime.now().timestamp() * 1000),
                                                       "balance": round(old["balance"], 2), "start": old["start"],
                                                       "trades": old["trades"]})
@@ -159,7 +170,7 @@ def main() -> None:
     # if B1 itself is switched off, the first gold bot still running reads the news in its place.
     gold_on = [n for n in b if b[n].get("enabled") and b[n].get("type") == "gold_news" and b[n].get("asset", "gold") == "gold"]
     news_owner = "gold_news" if "gold_news" in gold_on else (gold_on[0] if gold_on else None)
-    order = sorted(b, key=lambda n: (b[n].get("type", n) != "crypto_rules", n != news_owner))
+    order = sorted(b, key=lambda n: (b[n].get("type", n) not in ("crypto_rules", "crypto_trend"), n != news_owner))
     for name in order:
         bc = b[name]
         if not bc.get("enabled"):
@@ -169,6 +180,8 @@ def main() -> None:
         try:
             if kind == "crypto_rules":
                 prices.update(bots.crypto_tick(st[name]["account"], bc, log))
+            elif kind == "crypto_trend":
+                prices.update(bots.crypto_trend_tick(st[name]["account"], bc, st[name], log))
             elif kind == "gold_news":
                 own = bc.get("asset", "gold") != "gold"  # oil reads its own (oil) news and keeps it in its own state
                 shared = None if (own or name == news_owner) else st["gold_news"].setdefault("news", {})

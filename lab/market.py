@@ -82,3 +82,14 @@ def rsi(values: list[float], n: int = 14) -> list[float]:
         if i >= n:
             out[i] = 100.0 if loss == 0 else 100 - 100 / (1 + gain / loss)
     return out
+
+
+def atr(candles: list[dict], n: int = 14) -> list[float]:
+    """Average true range (Wilder), same length as candles."""
+    out, a = [0.0] * len(candles), None
+    for i in range(1, len(candles)):
+        c, p = candles[i], candles[i - 1]
+        tr = max(c["h"] - c["l"], abs(c["h"] - p["c"]), abs(c["l"] - p["c"]))
+        a = tr if a is None else (a * (n - 1) + tr) / n
+        out[i] = a
+    return out
