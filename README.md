@@ -1,30 +1,30 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 09:11 (İstanbul)
+> Son güncelleme: 03.11.2026 09:14 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -50.95 $ | -1073.71 $ |
-| İşlem sayısı | 5 | 84 |
-| Kazanma oranı | %0.0 | %17.9 |
-| Ödenen komisyon/spread | 21.40 $ | 371.60 $ |
+| Net kâr/zarar | -39.87 $ | -1062.62 $ |
+| İşlem sayısı | 6 | 85 |
+| Kazanma oranı | %16.7 | %18.8 |
+| Ödenen komisyon/spread | 23.74 $ | 373.95 $ |
 
-**Hesap değeri: 3,959.99 $** (başlangıç 5,000 $, -1040.01 $ / %-20.80)
+**Hesap değeri: 3,965.66 $** (başlangıç 5,000 $, -1034.34 $ / %-20.69)
 
-Açık pozisyonlar: BTCUSDT short @ 76804.95 (TP 76344.12 / SL 77112.17); ETHUSDT short @ 2249.42 (TP 2235.93 / SL 2258.42); SOLUSDT short @ 91.87 (TP 91.32 / SL 92.24)
+Açık pozisyonlar: BTCUSDT short @ 76804.95 (TP 76344.12 / SL 77112.17); ETHUSDT short @ 2249.42 (TP 2235.93 / SL 2258.42); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.25)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 09:14 | SOLUSDT | short | +11.08 $ | take profit |
 | 03.11 07:19 | BNBUSDT | short | -2.43 $ | time limit |
 | 03.11 07:19 | SOLUSDT | short | -13.24 $ | time limit |
 | 03.11 07:19 | BTCUSDT | short | -3.08 $ | time limit |
 | 03.11 02:08 | BTCUSDT | short | -6.89 $ | time limit |
-| 03.11 00:38 | BNBUSDT | short | -25.31 $ | stop |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-03.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 03.11 08:15 N  NEWS (11 new) score +0.15 conf 0.35: İran'ın Qeshm Adası ve Hürmüz'de ABD saldırı haberleri jeopolitik risk ve güvenli liman talebini destekleyerek altı hafif yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, ABD doları endeksinin 102 civarında sabit kalması ve "Gold $5,000" gibi çelişkili/eski başlıklar bu etkiyi sınırlıyor, bu yüzden skor düşük ve güven orta-düşük.
 03.11 08:15 N  GPT  score +0.35 conf 0.55: İran’ın Qeşm Adası’na yönelik ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Trump’ın çatışmayı küçümseyen açıklamaları, anlaşma umutları ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haberlerin doğrulanma ve fiyatlanma durumu da belirsiz.
 03.11 08:21 A  SHORT BTCUSDT 4712 USD x3 @ 76804.95 (ters sinyal, RSI 45)
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 08:59 N  GPT  score +0.12 conf 0.38: İran çatışmasının yeniden alevlenmesi ve Hizbullah’a ilişkin uyarı güvenli liman talebini sınırlı destekleyebilir. Ancak faiz artırımı beklentileri altını baskılıyor; Rusya-Ukrayna görüşmelerinin yeniden başlaması da jeopolitik desteği azaltıyor.
 03.11 09:11 N  NEWS (10 new) score -0.15 conf 0.40: İran savaşının tırmanması (Qeshm Adası saldırıları) jeopolitik güvenli liman talebini destekliyor, ancak Fed faiz artırımı beklentilerinin canlı kalması ve MCX'te yaşanan sert düşüş baskıyı ağırlaştırıyor. Çelişkili başlıklar (5.000 doların üzerindeki rekor iddiası ile 3.950 doların altındaki düşüş) nedeniyle güven düşük; net etki hafif negatif görünüyor.
 03.11 09:11 N  GPT  score +0.45 conf 0.58: Hürmüz Boğazı çevresinde bildirilen ABD saldırıları ve İran savaşı kaynaklı LNG arzı riski, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak faiz artırımı beklentileri ve altının baskı altında olduğuna dair haberler yükselişi sınırlıyor.
+03.11 09:14 A  CLOSE SOLUSDT take profit: +11.08 USD
+03.11 09:14 A  SHORT XRPUSDT 2389 USD x3 @ 1.25 (ters sinyal, RSI 43)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
