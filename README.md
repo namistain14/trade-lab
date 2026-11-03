@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 07:31 (İstanbul)
+> Son güncelleme: 03.11.2026 07:39 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
-Son haber analizi (03.11 07:25): Claude puan **+0.20**, güven 0.40 — ABD'nin İran'ın Hürmüz Boğazı ve Qeshm Adası hedeflerine yönelik saldırıları jeopolitik risk nedeniyle altın için hafif destekleyici, ancak Trump'ın anlaşma ihtimaline dair açıklamaları, Fed faiz artırımı endişeleri ve yaklaşık 102 seviyesinde seyreden dolar endeksi bu etkiyi dengeliyor. Altın haberleri karışık olduğu için sinyal zayıf ve güven düşük.
+Son haber analizi (03.11 07:39): Claude puan **+0.05**, güven 0.30 — İran'daki ABD saldırıları ve Kuzey Kore füze testleri güvenli liman talebini artırarak altını destekliyor; ancak Fed faiz artırımı beklentileri ve güçlü dolar (DXY ~102) altı baskılıyor ve altın yeniden 3.950 doların altına geriledi. Başlıklarda "5.000 doları aştı" ile "3.950 altı" gibi çelişkili fiyat bilgileri olduğu için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.30**, güven 0.48 — Hürmüz çevresindeki ABD-İran saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, altının seçimler öncesi gerilemesi ve doların yatay seyri yükseliş etkisini sınırlıyor.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.43 — Fed’in faiz artırımı beklentilerinin altını 3.950 doların altına itmesi kısa vadede baskın ve hafif aşağı yönlü. ABD’nin İran’daki hedeflere saldırısı güvenli liman talebini destekleyebilir; ancak anlaşma umutları ve çelişkili haber akışı yön sinyalini zayıflatıyor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 06:20 N  NEWS (10 new) score +0.10 conf 0.35: Haberler karışık: ABD'nin İran'a yönelik "savunma" amaçlı saldırıları ve Hürmüz'deki gerilim güvenli liman talebini destekliyor, ancak Fed faiz artırımı endişeleri ve dolar endeksinin 102 civarında sabit kalması altın için baskı oluşturuyor. Altının yıllık dip seviyesinden toparlanması kısa vadeli alımı gösteriyor; sinyaller birbiriyle çeliştiği için güven düşük.
-03.11 06:20 N  GPT  score +0.38 conf 0.55: İran’daki ABD saldırıları kısa vadede güvenli liman talebini destekleyebilir; altının dipten yaklaşık %2 toparlanması da yukarı yönlü momentuma işaret ediyor. Ancak doların yatay seyri, Fed faiz artışı endişeleri ve gerilimin büyüyüp büyümeyeceğine dair çelişkili haberler yükseliş beklentisini sınır
 03.11 06:32 N  NEWS (9 new) score -0.10 conf 0.40: Haberler karışık: ABD-İran müzakerelerinde ilerleme ve petrol primindeki gerileme jeopolitik güvenli liman talebini azaltırken, Qeshm Adası'na yönelik ABD saldırıları bunu dengeliyor. Fed faiz artırımı endişeleri ve dolar endeksinin 102 civarında seyretmesi altın için hafif olumsuz; altının yıllık dip seviyesinden toparlanması ise sınırlı bir destek sağlıyor.
 03.11 06:32 N  GPT  score +0.32 conf 0.56: İran’daki ABD saldırıları ve Kuzey Kore’nin füze denemesi kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la müzakerelerin sürmesi, doların yatay seyri ve Fed’in faiz artırımı endişeleri yükseliş etkisini sınırlıyor.
 03.11 06:49 N  NEWS (11 new) score +0.20 conf 0.40: ABD'nin İran'ın Qeshm Adası ve Hürmüz Boğazı'na yönelik yeni saldırıları jeopolitik risk primi yaratarak altı hafif destekliyor. Ancak Trump'ın savaş riskini küçümsemesi, ABD-İran anlaşma umutları ve Fed faiz artırımı endişeleri bu etkiyi dengeliyor, bu yüzden sinyal zayıf ve çelişkili.
@@ -99,6 +97,8 @@ Son işlemler:
 03.11 07:19 A  CLOSE BNBUSDT time limit: -2.43 USD
 03.11 07:25 N  NEWS (7 new) score +0.20 conf 0.40: ABD'nin İran'ın Hürmüz Boğazı ve Qeshm Adası hedeflerine yönelik saldırıları jeopolitik risk nedeniyle altın için hafif destekleyici, ancak Trump'ın anlaşma ihtimaline dair açıklamaları, Fed faiz artırımı endişeleri ve yaklaşık 102 seviyesinde seyreden dolar endeksi bu etkiyi dengeliyor. Altın haberleri karışık olduğu için sinyal zayıf ve güven düşük.
 03.11 07:25 N  GPT  score +0.30 conf 0.48: Hürmüz çevresindeki ABD-İran saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, altının seçimler öncesi gerilemesi ve doların yatay seyri yükseliş etkisini sınırlıyor.
+03.11 07:39 N  NEWS (11 new) score +0.05 conf 0.30: İran'daki ABD saldırıları ve Kuzey Kore füze testleri güvenli liman talebini artırarak altını destekliyor; ancak Fed faiz artırımı beklentileri ve güçlü dolar (DXY ~102) altı baskılıyor ve altın yeniden 3.950 doların altına geriledi. Başlıklarda "5.000 doları aştı" ile "3.950 altı" gibi çelişkili fiyat bilgileri olduğu için güven düşük tutuldu.
+03.11 07:39 N  GPT  score -0.20 conf 0.43: Fed’in faiz artırımı beklentilerinin altını 3.950 doların altına itmesi kısa vadede baskın ve hafif aşağı yönlü. ABD’nin İran’daki hedeflere saldırısı güvenli liman talebini destekleyebilir; ancak anlaşma umutları ve çelişkili haber akışı yön sinyalini zayıflatıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
