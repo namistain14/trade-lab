@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 03:43 (İstanbul)
+> Son güncelleme: 03.11.2026 03:46 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 4,742.97 $** (başlangıç 5,000 $, -257.03 $ / %-5.14)
 
-Son haber analizi (03.11 03:34): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
+Son haber analizi (03.11 03:46): Claude puan **+0.25**, güven 0.40 — Petrol fiyatlarının sert düşüşü (ABD-İran anlaşma umutları) enflasyon kaygısını ve Fed sıkılaşma beklentilerini gevşeterek altın için hafif destekleyici bir etki yaratıyor; dolar da geri çekiliyor. Ancak Netanyahu'nun yeni İran saldırısı talebi gibi jeopolitik risk haberleri ve ABD ara seçim belirsizliği karşıt yönde etki yaratabileceğinden güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.32**, güven 0.40 — Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.38**, güven 0.57 — ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli güvenli liman talebini ve altını destekleyebilir. Ancak Trump’ın savaş riskini küçümsemesi ve İran’la görüşmelerin sürdüğüne dair haberler yükseliş etkisini sınırlıyor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 01:54 N  GPT  score +0.32 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini zayıflatması, doların geri çekilmesi ve getirilerin düşmesi altını kısa vadede destekleyebilir. İran ve Ukrayna kaynaklı riskler destekleyici olsa da barış görüşmelerinde ilerleme olmaması ve altındaki teknik zayıflık görünümü sı
-03.11 02:06 N  NEWS (15 new) score +0.20 conf 0.40: Petrol fiyatlarındaki sert düşüş (ABD-İran müzakere umutları) Fed sıkılaştırma beklentilerini biraz geriletip altını destekliyor; ancak barış ihtimali jeopolitik güvenli liman talebini azaltıyor ve Fed sıkılaştırma bahisleri hâlâ sürüyor, bu yüzden etki sınırlı ve karışık.
 03.11 02:06 N  GPT  score +0.24 conf 0.48: Petrol fiyatlarındaki sert düşüşün Fed’in faiz artırımı beklentilerini ve doları zayıflatması altını kısa vadede destekleyebilir. İran’la görüşme umutları güvenli liman talebini azaltırken, bölgedeki saldırı riskleri ve çelişkili haberler görünümü belirsizleştiriyor.
 03.11 02:09 A  CLOSE BTCUSDT time limit: -6.89 USD
 03.11 02:18 N  NEWS (5 new) score +0.15 conf 0.40: Petrol fiyatlarının düşmesi (ABD-İran müzakere umutları) Fed sıkılaştırma beklentilerini gevşetip doları zayıflattığı için altın hafifçe destekleniyor; ancak güvenli liman talebi azalıyor, "Fed sıkılaştırma bahisleri sürüyor" ve müzakerelerde kırılma olmadığı haberleri çelişkili olduğundan etki sınırlı kalacak.
@@ -99,6 +97,8 @@ Son işlemler:
 03.11 03:34 N  GPT  score +0.32 conf 0.40: Petrol fiyatlarındaki sert düşüşün getirileri ve dolar baskısını azaltması, ayrıca İran’a yönelik yeni saldırı ihtimali altına kısa vadede destek sağlayabilir. Ancak İran’la anlaşma görüşmeleri ve haber akışındaki çelişkiler yükseliş beklentisini sınırlıyor.
 03.11 03:34 B5  LONG gold 25000 USD x10 @ 3965.08 (TP 3976.98, SL 3957.15; news +0.31)
 03.11 03:43 B5  CLOSE long stop: -55.94 USD
+03.11 03:46 N  NEWS (8 new) score +0.25 conf 0.40: 
+03.11 03:46 N  GPT  score +0.38 conf 0.57: ABD’nin İran’daki Qeşm Adası’na saldırdığı haberi kısa vadeli güvenli liman talebini ve altını destekleyebilir. Ancak Trump’ın savaş riskini küçümsemesi ve İran’la görüşmelerin sürdüğüne dair haberler yükseliş etkisini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
