@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 08:12 (İstanbul)
+> Son güncelleme: 03.11.2026 08:15 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
 
-Son haber analizi (03.11 08:03): Claude puan **-0.20**, güven 0.40 — Fed faiz artırımı beklentileri ve İran'la anlaşma umutları altının kısa vadeli güvenli liman talebini zayıflatıyor, bu da hafif negatif bir etki yaratıyor. Ancak başlıklar çelişkili (ABD'nin İran'a saldırısı, Qeshm saldırısı, ve "5.000 doları aştı" gibi eski/tutarsız haberler), bu yüzden güven düşük.
+Son haber analizi (03.11 08:15): Claude puan **+0.15**, güven 0.35 — İran'ın Qeshm Adası ve Hürmüz'de ABD saldırı haberleri jeopolitik risk ve güvenli liman talebini destekleyerek altı hafif yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, ABD doları endeksinin 102 civarında sabit kalması ve "Gold $5,000" gibi çelişkili/eski başlıklar bu etkiyi sınırlıyor, bu yüzden skor düşük ve güven orta-düşük.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.42 — İran’a yönelik ABD saldırısı güvenli liman talebini destekleyebilir; ancak olası anlaşmaya dair iyimserlik ve Fed faiz artırımı beklentilerinin altını baskılaması kısa vadede ağır basıyor. Haber akışı çelişkili olduğundan yön sinyali zayıf.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.55 — İran’ın Qeşm Adası’na yönelik ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Trump’ın çatışmayı küçümseyen açıklamaları, anlaşma umutları ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haberlerin doğrulanma ve fiyatlanma durumu da belirsiz.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 07:19 A  CLOSE BTCUSDT time limit: -3.08 USD
-03.11 07:19 A  CLOSE SOLUSDT time limit: -13.24 USD
 03.11 07:19 A  CLOSE BNBUSDT time limit: -2.43 USD
 03.11 07:25 N  NEWS (7 new) score +0.20 conf 0.40: ABD'nin İran'ın Hürmüz Boğazı ve Qeshm Adası hedeflerine yönelik saldırıları jeopolitik risk nedeniyle altın için hafif destekleyici, ancak Trump'ın anlaşma ihtimaline dair açıklamaları, Fed faiz artırımı endişeleri ve yaklaşık 102 seviyesinde seyreden dolar endeksi bu etkiyi dengeliyor. Altın haberleri karışık olduğu için sinyal zayıf ve güven düşük.
 03.11 07:25 N  GPT  score +0.30 conf 0.48: Hürmüz çevresindeki ABD-İran saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, altının seçimler öncesi gerilemesi ve doların yatay seyri yükseliş etkisini sınırlıyor.
@@ -99,6 +97,8 @@ Son işlemler:
 03.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 03.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+03.11 08:15 N  NEWS (11 new) score +0.15 conf 0.35: İran'ın Qeshm Adası ve Hürmüz'de ABD saldırı haberleri jeopolitik risk ve güvenli liman talebini destekleyerek altı hafif yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, ABD doları endeksinin 102 civarında sabit kalması ve "Gold $5,000" gibi çelişkili/eski başlıklar bu etkiyi sınırlıyor, bu yüzden skor düşük ve güven orta-düşük.
+03.11 08:15 N  GPT  score +0.35 conf 0.55: İran’ın Qeşm Adası’na yönelik ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Trump’ın çatışmayı küçümseyen açıklamaları, anlaşma umutları ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haberlerin doğrulanma ve fiyatlanma durumu da belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
