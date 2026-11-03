@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 18:12 (İstanbul)
+> Son güncelleme: 03.11.2026 18:15 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %8.3 | %17.6 |
 | Ödenen komisyon/spread | 47.29 $ | 397.49 $ |
 
-**Hesap değeri: 3,821.93 $** (başlangıç 5,000 $, -1178.07 $ / %-23.56)
+**Hesap değeri: 3,818.12 $** (başlangıç 5,000 $, -1181.88 $ / %-23.64)
 
 Açık pozisyonlar: BTCUSDT short @ 77192.84 (TP 76729.68 / SL 77501.61)
 
@@ -37,9 +37,9 @@ Son işlemler:
 
 **Hesap değeri: 4,588.19 $** (başlangıç 5,000 $, -411.81 $ / %-8.24)
 
-Son haber analizi (03.11 18:03): Claude puan **-0.10**, güven 0.35 — Fed faizleri değiştirmedi ve enflasyon kaygısı vurgulandı; faiz artırımı beklentisine dair haberler altın için hafif baskılayıcı. Öte yandan İran'la ilgili jeopolitik gerilim ve güvenli liman talebi bunu dengeliyor; haberler çelişkili olduğundan etki zayıf kalabilir.
+Son haber analizi (03.11 18:15): Claude puan **-0.15**, güven 0.40 — Altın için karışık tablo var: Fed faiz oranlarını sabit tuttu ve enflasyon endişeleri sürüyor, bu da kısa vadede baskı yaratıyor; gümüş yıllık dibe indi ve altın düşüyor. Buna karşılık ABD-İran çatışması ve Körfez gerilimi güvenli liman talebini destekliyor, Commerzbank düşüşü aşırı buluyor ve Çin'in altın alımları destek sağlıyor; bu unsurlar birbirini dengeliyor.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.36 — İran gerilimi ve Ukrayna’daki can kayıplarına ilişkin haberler güvenli liman talebini destekleyebilir; altının petrol fiyatları gerilerken toparlandığı da hafif olumlu. Fed’in faizleri sabit tutması beklenmiş olabilir, ancak enflasyon kaygıları ve doların sınırlı güçlenmesi yükselişi törpülüyor.
+GPT (gpt-6-luna): puan **+0.30**, güven 0.48 — Qeshm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak altının gün içinde düşüşte olduğuna dair haberler ve Fed’in yüksek enflasyon kaygıları bu etkiyi sınırlıyor; yön konusunda belirsizlik yüksek.
 
 Son işlemler:
 
@@ -81,7 +81,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %25.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 102,557.08 $** (başlangıç 100,000 $, +2557.08 $ / %+2.56)
+**Hesap değeri: 102,296.92 $** (başlangıç 100,000 $, +2296.92 $ / %+2.30)
 
 Açık pozisyonlar: AAPL long @ 332.47 (TP 337.18 / SL 328.88); NVDA long @ 208.30 (TP 208.30 / SL 208.30); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -97,9 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 16:38 N  NEWS (18 new) score -0.15 conf 0.40: ABD'nin İran'ın Qeshm adasına yönelik saldırısı ve İran savaşı riski güvenli liman talebini destekliyor, ancak merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi reel faiz ve Fed beklentileri üzerinden altın için baskı yaratıyor. Altının son saatlerdeki düşüşü ve dolar karışık seyri nedeniyle net etki hafif negatif, sinyal karışık olduğu için güven düşük.
-03.11 16:38 N  GPT  score +0.32 conf 0.48: İran’daki yeni ABD saldırısı ve Ukrayna’daki ölümcül bombardıman, kısa vadede güvenli liman talebini destekleyebilir. Ancak altındaki son sert düşüş ve büyük merkez bankalarının sıkılaşma sinyalleri bu etkiyi sınırlıyor; dolar da belirgin bir yön göstermiyor.
-03.11 16:38 B6  Alpaca kaydından 4 kapanmış işlem geri yüklendi
 03.11 16:38 B6  seans öncesi görüş: Aşırı korku ortamında jeopolitik umutlarla vadeliler toparlanıyor; ancak AAPL kaynaklı teknoloji baskısı nedeniyle temkinli bir alım eğilimi uygun.
 03.11 16:50 N  NEWS (11 new) score -0.40 conf 0.50: Ana etki baskı yönünde: merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi ve enflasyon kalıcılığı faiz beklentilerini sertleştirerek altın için negatif. Gold'ın 4.000 doların altında açılması ve "plunge" başlıklarıyla momentum zayıf. Savaş haberleri (İran, Rusya) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış ve yeni bir tırmanış sinyali net değil; dolar ise karışık seyrediyor.
 03.11 16:50 N  GPT  score +0.12 conf 0.32: Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
@@ -112,6 +109,9 @@ Son işlemler:
 03.11 18:03 N  GPT  score +0.15 conf 0.36: İran gerilimi ve Ukrayna’daki can kayıplarına ilişkin haberler güvenli liman talebini destekleyebilir; altının petrol fiyatları gerilerken toparlandığı da hafif olumlu. Fed’in faizleri sabit tutması beklenmiş olabilir, ancak enflasyon kaygıları ve doların sınırlı güçlenmesi yükselişi törpülüyor.
 03.11 18:03 B6  karar turu: Claude «Piyasa jeopolitik başlıklar arasında hafif pozitif ve yatay seyrediyor; şirkete özel hareketler, özellikle AAPL'deki toparlanma, daha fazla fırsat sunuyor.» / GPT «Endekslerde yatay görünüm ve jeopolitik belirsizlik hâkimken, kaldıraç nedeniyle toplam riski sınırlayarak yalnızca AAPL'deki göreli momentumu değerlendiriyorum.»
 03.11 18:03 B6  ALIŞ AAPL 249 adet ≈ 82,718 $ (1:4) @ 332.2 (TP 337.18, SL 328.88; ikisi de hemfikir, güven 0.55)
+03.11 18:15 N  NEWS (11 new) score -0.15 conf 0.40: Altın için karışık tablo var: Fed faiz oranlarını sabit tuttu ve enflasyon endişeleri sürüyor, bu da kısa vadede baskı yaratıyor; gümüş yıllık dibe indi ve altın düşüyor. Buna karşılık ABD-İran çatışması ve Körfez gerilimi güvenli liman talebini destekliyor, Commerzbank düşüşü aşırı buluyor ve Çin'in altın alımları destek sağlıyor; bu unsurlar birbirini dengeliyor.
+03.11 18:15 N  GPT  score +0.30 conf 0.48: Qeshm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak altının gün içinde düşüşte olduğuna dair haberler ve Fed’in yüksek enflasyon kaygıları bu etkiyi sınırlıyor; yön konusunda belirsizlik yüksek.
+03.11 18:15 B6  karar turu: Claude «Güçlü makro verilerle piyasa hafif pozitif ve teknoloji öncülüğünde ilerliyor, ancak İran kaynaklı jeopolitik risk yükselişi sınırlayabilir.» / GPT «Endekslerde sıkışık fiyatlama ve karışık haber akışı nedeniyle, dört kat kaldıraçla yeni pozisyon açmaya değecek ölçüde belirgin bir yönsel avantaj görünmüyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
