@@ -7721,6 +7721,10 @@
    [
     1793718214,
     3819.31
+   ],
+   [
+    1793718361,
+    3826.22
    ]
   ]
  },
@@ -14807,6 +14811,10 @@
    ],
    [
     1793718214,
+    4868.5
+   ],
+   [
+    1793718361,
     4868.5
    ]
   ],
@@ -23826,6 +23834,10 @@
    [
     1793718214,
     4963.78
+   ],
+   [
+    1793718361,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29690,6 +29702,10 @@
    [
     1793718214,
     4975.18
+   ],
+   [
+    1793718361,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35520,6 +35536,10 @@
    [
     1793718214,
     4993.28
+   ],
+   [
+    1793718361,
+    4993.28
    ]
   ]
  },
@@ -41187,6 +41207,10 @@
    [
     1793718214,
     4969.22
+   ],
+   [
+    1793718361,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -45764,6 +45788,10 @@
    [
     1793718214,
     4588.19
+   ],
+   [
+    1793718361,
+    4588.19
    ]
   ],
   "news_calls": {
@@ -45971,9 +45999,23 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 102642.609984,
+   "balance": 102617.645083,
    "start": 100000.0,
    "positions": [
+    {
+     "id": "dda00420-1bba-49b4-a76c-02bb41c24ab3",
+     "symbol": "AAPL",
+     "side": "long",
+     "qty": 249.0,
+     "entry": 332.472651,
+     "tp": 337.18,
+     "sl": 328.88,
+     "opened_ms": 1793718194276,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.55: Gap-down sonras\u0131 g\u00fc\u00e7l\u00fc toparlanma 331-333 band\u0131nda y\u00fcksek seviyede konsolide oluyor ve \u00f6nceki kapan\u0131\u015fa do\u011fru bo\u015fluk doldurma potansiyeli var. | GPT 0.6: G\u00fc\u00e7l\u00fc toparlanma sonras\u0131 s\u0131n\u0131rl\u0131 geri \u00e7ekilme ve Argus hedef art\u0131\u015f\u0131 al\u0131m\u0131 destekliyor, ancak y\u00fckseli\u015fi kovalama riski y\u00fcksek.",
+     "cur": 333.165
+    },
     {
      "id": "NVDA",
      "symbol": "NVDA",
@@ -45982,11 +46024,11 @@
      "entry": 208.302376,
      "tp": 208.302376,
      "sl": 208.302376,
-     "opened_ms": 1793718194130,
+     "opened_ms": 1793718361639,
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "",
-     "cur": 208.295
+     "cur": 207.715
     },
     {
      "id": "TSLA",
@@ -45996,11 +46038,11 @@
      "entry": 401.85,
      "tp": 401.85,
      "sl": 401.85,
-     "opened_ms": 1793718194130,
+     "opened_ms": 1793718361639,
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "",
-     "cur": 402.76
+     "cur": 401.79
     }
    ],
    "trades": [
@@ -46079,12 +46121,12 @@
    ],
    "day": {
     "date": "2026-11-03",
-    "pnl": 1665.29,
+    "pnl": 1774.5,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 102411.54
+   "equity": 102520.75
   },
   "equity_curve": [
    [
@@ -51390,6 +51432,10 @@
    [
     1793718214,
     102411.54
+   ],
+   [
+    1793718361,
+    102520.75
    ]
   ],
   "open": {
@@ -51472,7 +51518,7 @@
   "premarket_day": "2026-11-03",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "87288.42",
+   "buying_power": "0",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -55302,6 +55348,10 @@
    ],
    [
     1793718214,
+    5066.43
+   ],
+   [
+    1793718361,
     5066.43
    ]
   ],
