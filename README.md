@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 19:02 (İstanbul)
+> Son güncelleme: 03.11.2026 19:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,588.19 $** (başlangıç 5,000 $, -411.81 $ / %-8.24)
 
-Son haber analizi (03.11 19:01): Claude puan **-0.08**, güven 0.30 — Fed faizleri sabit tuttu ve enflasyon kaygısı sürüyor; ABD işgücü verisi öncesi temkinli bir hava var ve gümüş yıllık dip seviyesine inmiş durumda, bu da kısa vadede hafif baskıcı bir sinyal. ABD'nin Qeshm Adası'nı vurması güvenli liman talebini destekleyebilir, ancak altın bu gelişmeye rağmen düşüşte, bu yüzden etkisi sınırlı kalıyor; birçok başlık eski veya yeni olmayan içerik taşıdığı için güven düşük.
+Son haber analizi (03.11 19:45): Claude puan **+0.25**, güven 0.40 — Trump'ın İran'a yönelik saldırıları doğruladığı ve savaşın yeniden başlama riskinin arttığına dair yeni haberler, güvenli liman talebi nedeniyle altın için hafif yükseltici. Ancak doların yükselişi, Fed'in faizleri sabit tutması ve enflasyon endişeleri ile gümüşteki/altındaki düşüş gibi eski ve çelişkili sinyaller bu etkiyi sınırlıyor.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.37 — Ukrayna’daki ölümcül Rus saldırıları ve süren İran gerilimi kısa vadede güvenli liman talebini destekleyebilir. Ancak Körfez petrol akışlarındaki toparlanma ve Fed’in enflasyon kaygıları altının yükselişini sınırlıyor; etkiler karışık ve haberlerin bir kısmı zaten fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.55 — İran’a yönelik saldırıların teyidi ve Ukrayna’daki ağır saldırı güvenli liman talebini destekleyerek altını kısa vadede yukarı itebilir. Ancak doların güçlenmesi ve altındaki düşüş baskısı kazancı sınırlıyor; yön konusunda güven orta-düşük.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %20.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 101,735.25 $** (başlangıç 100,000 $, +1735.25 $ / %+1.74)
+**Hesap değeri: 102,378.13 $** (başlangıç 100,000 $, +2378.13 $ / %+2.38)
 
 Açık pozisyonlar: NVDA long @ 208.30 (TP 208.30 / SL 208.30); QQQ long @ 686.75 (TP 697.16 / SL 679.99); TSLA short @ 401.85 (TP 401.85 / SL 401.85)
 
@@ -86,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 18:26 N  GPT  score +0.20 conf 0.32: İran’daki çatışmanın sürmesi ve Beyrut saldırısına ilişkin yeni soruşturma güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi, Fed’in faizleri sabit tutması ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini sınırlıyor.
-03.11 18:26 B6  karar turu: Claude «Beklentiyi aşan makro veriler ve teknoloji liderliğiyle piyasa hafif pozitif, ancak İran kaynaklı jeopolitik risk ve faiz baskısı yükselişi sınırlayabilir.» / GPT «Kısa vadeli eğilim hafif yukarı; ancak güçlü istihdam verisinin faiz etkisi ve Hürmüz belirsizliği yükselişin devamını sınırlayabilir.»
-03.11 18:34 B6  CLOSE long AAPL stop: -859.05 USD
 03.11 18:38 N  NEWS (7 new) score -0.10 conf 0.35: Haberler karışık: ABD-İran çatışması jeopolitik risk yaratıp altını destekliyor, ancak arabulucu önerileri ve petrol fiyatlarındaki düşüş risk primini sınırlıyor. Fed'in faizleri sabit tutması ve yüksek enflasyon endişeleri, ayrıca yaklaşan ABD işgücü verisinin güçlü çıkma ihtimali, kısa vadede altı baskılayabilir; gümüşün 1 yılın dibine inmesi de zayıf duyarlılığa işaret ediyor.
 03.11 18:38 N  GPT  score -0.10 conf 0.35: ABD-İran arasında arabulucu önerilerinin görüşülmesi kısa vadeli gerilim ve güvenli liman talebini bir miktar azaltabilir; ancak sınırlı hava saldırıları ve yaklaşan ABD istihdam verisi belirsizliği koruyor. Başlıklar karışık ve altın üzerindeki net etki zayıf görünüyor.
 03.11 18:38 B6  karar turu: Claude «Güçlü makro verilere rağmen piyasa yatay seyrediyor; teknoloji tarafında hisse bazlı ayrışma öne çıkıyor.» / GPT «Endeksler yönsüz kalırken şirkete özgü yeni olumsuz haber ve göreli zayıflık nedeniyle AAPL kısa pozisyonu öne çıkıyor.»
@@ -101,6 +98,9 @@ Son işlemler:
 03.11 19:02 N  NEWS (6 new) score -0.08 conf 0.30: 
 03.11 19:02 N  GPT  score +0.15 conf 0.37: Ukrayna’daki ölümcül Rus saldırıları ve süren İran gerilimi kısa vadede güvenli liman talebini destekleyebilir. Ancak Körfez petrol akışlarındaki toparlanma ve Fed’in enflasyon kaygıları altının yükselişini sınırlıyor; etkiler karışık ve haberlerin bir kısmı zaten fiyatlanmış olabilir.
 03.11 19:02 B6  karar turu: Claude «Güçlü makro veriler ve yarı iletken liderliğiyle piyasa ılımlı pozitif seyrediyor, ancak Apple özelinde marj endişeleri baskı yaratıyor.» / GPT «Endekslerde kısa vadeli momentum yukarı yönlü olsa da Apple'daki şirket kaynaklı zayıflık ve jeopolitik haber riski seçici işlem gerektiriyor.»
+03.11 19:46 N  NEWS (20 new) score +0.25 conf 0.40: Trump'ın İran'a yönelik saldırıları doğruladığı ve savaşın yeniden başlama riskinin arttığına dair yeni haberler, güvenli liman talebi nedeniyle altın için hafif yükseltici. Ancak doların yükselişi, Fed'in faizleri sabit tutması ve enflasyon endişeleri ile gümüşteki/altındaki düşüş gibi eski ve çelişkili sinyaller bu etkiyi sınırlıyor.
+03.11 19:46 N  GPT  score +0.35 conf 0.55: İran’a yönelik saldırıların teyidi ve Ukrayna’daki ağır saldırı güvenli liman talebini destekleyerek altını kısa vadede yukarı itebilir. Ancak doların güçlenmesi ve altındaki düşüş baskısı kazancı sınırlıyor; yön konusunda güven orta-düşük.
+03.11 19:46 B6  karar turu: Claude «Piyasa güçlü makro verilere rağmen İran belirsizliği nedeniyle yatay ve hafif zayıf seyrediyor, öne çıkan hikaye yarı iletkenlerdeki güç ile Apple'daki bilanço satışı.» / GPT «Endekslerde gün içi ivme zayıflarken seçici işlem tercih ediyorum; AAPL'nin göreli gücü sınırlı avantaj sağlasa da 1:4 kaldıraç bilanço kaynaklı riski büyütüyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
