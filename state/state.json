@@ -7002,6 +7002,10 @@
    [
     1793682381,
     3926.29
+   ],
+   [
+    1793682561,
+    3926.29
    ]
   ]
  },
@@ -13525,6 +13529,10 @@
    [
     1793682381,
     4868.5
+   ],
+   [
+    1793682561,
+    4868.5
    ]
   ],
   "news": {
@@ -16307,7 +16315,6 @@
   ]
  },
  "log": [
-  "02.11 09:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfA8xtEvjwQroyvQNuQ'}",
   "02.11 09:54 A  CLOSE BNBUSDT time limit: +16.97 USD",
   "02.11 09:54 A  SHORT SOLUSDT 4988 USD x3 @ 94.35 (ters sinyal, RSI 37)",
   "02.11 09:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdfPQgoCnGbSVby1agbD'}",
@@ -16606,7 +16613,8 @@
   "03.11 08:03 N  NEWS (7 new) score -0.20 conf 0.40: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve \u0130ran'la anla\u015fma umutlar\u0131 alt\u0131n\u0131n k\u0131sa vadeli g\u00fcvenli liman talebini zay\u0131flat\u0131yor, bu da hafif negatif bir etki yarat\u0131yor. Ancak ba\u015fl\u0131klar \u00e7eli\u015fkili (ABD'nin \u0130ran'a sald\u0131r\u0131s\u0131, Qeshm sald\u0131r\u0131s\u0131, ve \"5.000 dolar\u0131 a\u015ft\u0131\" gibi eski/tutars\u0131z haberler), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
   "03.11 08:03 N  GPT  score -0.15 conf 0.42: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak olas\u0131 anla\u015fmaya dair iyimserlik ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lamas\u0131 k\u0131sa vadede a\u011f\u0131r bas\u0131yor. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan y\u00f6n sinyali zay\u0131f.",
   "03.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "03.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "03.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -21979,6 +21987,10 @@
    [
     1793682381,
     4963.78
+   ],
+   [
+    1793682561,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27279,6 +27291,10 @@
    [
     1793682381,
     4975.18
+   ],
+   [
+    1793682561,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32545,6 +32561,10 @@
    [
     1793682381,
     4993.28
+   ],
+   [
+    1793682561,
+    4993.28
    ]
   ]
  },
@@ -37648,6 +37668,10 @@
    [
     1793682381,
     4969.22
+   ],
+   [
+    1793682561,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -41597,6 +41621,10 @@
    ],
    [
     1793682381,
+    4631.09
+   ],
+   [
+    1793682561,
     4631.09
    ]
   ],
@@ -46558,6 +46586,10 @@
    [
     1793682381,
     100750.28
+   ],
+   [
+    1793682561,
+    100750.28
    ]
   ],
   "open": {},
@@ -49888,6 +49920,10 @@
    ],
    [
     1793682381,
+    5066.43
+   ],
+   [
+    1793682561,
     5066.43
    ]
   ],
