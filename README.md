@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 07:57 (İstanbul)
+> Son güncelleme: 03.11.2026 08:00 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -84,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 06:49 N  NEWS (11 new) score +0.20 conf 0.40: ABD'nin İran'ın Qeshm Adası ve Hürmüz Boğazı'na yönelik yeni saldırıları jeopolitik risk primi yaratarak altı hafif destekliyor. Ancak Trump'ın savaş riskini küçümsemesi, ABD-İran anlaşma umutları ve Fed faiz artırımı endişeleri bu etkiyi dengeliyor, bu yüzden sinyal zayıf ve çelişkili.
 03.11 06:49 N  GPT  score +0.45 conf 0.62: İran’ın Qeşm Adası ve Hürmüz çevresindeki ABD saldırıları kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak anlaşma umutları ve gerilimin sınırlı kalabileceği beklentisi yükselişi törpülüyor.
 03.11 07:01 N  NEWS (7 new) score -0.05 conf 0.30: İran'a yönelik ABD saldırıları jeopolitik güvenli liman talebini destekleyerek altın için olumlu olabilir; ancak aynı akışta İran anlaşması umutları, Fed faiz artırımı endişeleri ve yaklaşık 102 seviyesinde stabil dolar endeksi altını baskılıyor. Sinyaller çelişkili ve büyük ölçüde fiyatlanmış olduğundan 1-4 saatlik yön tahmini zayıf kalıyor.
 03.11 07:01 N  GPT  score +0.35 conf 0.46: İran’a yönelik ABD saldırıları ve Ukrayna’daki ölümcül saldırı kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, doların yatay seyri ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haber akışı da çelişkili.
@@ -99,6 +98,7 @@ Son işlemler:
 03.11 07:39 N  GPT  score -0.20 conf 0.43: Fed’in faiz artırımı beklentilerinin altını 3.950 doların altına itmesi kısa vadede baskın ve hafif aşağı yönlü. ABD’nin İran’daki hedeflere saldırısı güvenli liman talebini destekleyebilir; ancak anlaşma umutları ve çelişkili haber akışı yön sinyalini zayıflatıyor.
 03.11 07:51 N  NEWS (7 new) score -0.15 conf 0.35: Fed faiz artırımı beklentileri ve güçlü dolar altını 3.950 dolar civarında baskılıyor; ABD'nin Keşm Adası'na yaptığı saldırılar ve İran gerilimi ise güvenli liman talebi nedeniyle destekleyici. Başlıklar arasında çelişki var (5.000 dolar iddiası ile 3.950 dolar fiyatı), bu yüzden güven düşük.
 03.11 07:51 N  GPT  score -0.20 conf 0.38: Fed faiz artışı beklentilerinin altını baskıladığı ve fiyatın 3.950 doların altına gerilediği haberleri kısa vadede hafif negatif. İran’a yönelik ABD saldırısı güvenli liman talebini destekleyebilir; Avustralya faiz artışının ardından olası duraklama sinyali de görünümü karmaşıklaştırıyor.
+03.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -6990,6 +6990,10 @@
    [
     1793681837,
     3926.29
+   ],
+   [
+    1793682021,
+    3926.29
    ]
   ]
  },
@@ -13501,6 +13505,10 @@
    [
     1793681837,
     4868.5
+   ],
+   [
+    1793682021,
+    4868.5
    ]
   ],
   "news": {
@@ -16283,7 +16291,6 @@
   ]
  },
  "log": [
-  "02.11 09:07 N  NEWS (11 new) score +0.10 conf 0.35: Petrol fiyatlar\u0131n\u0131n gev\u015femesi enflasyon endi\u015felerini azaltarak alt\u0131 hafif\u00e7e destekliyor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 s\u00fcr\u00fcyor. Ba\u015fl\u0131klar \u00e7eli\u015fkili ve bir\u00e7o\u011fu zaten fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "02.11 09:07 N  GPT  score +0.20 conf 0.35: Alt\u0131n fiyatlar\u0131ndaki toparlanma ve s\u00fcren \u0130ran sava\u015f\u0131 hafif destekleyici; petrol\u00fcn gerilemesi enflasyon ve faiz bask\u0131s\u0131n\u0131 azaltabilir. Ancak Fed\u2019e ili\u015fkin \u015fahin beklentiler, \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 ve toparlanman\u0131n b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olma ihtimali y\u00fckseli\u015f sinyalini s\u0131n\u0131rl\u0131yor.",
   "02.11 09:19 N  NEWS (8 new) score -0.15 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve jeopolitik risk alt\u0131n i\u00e7in g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor, ancak faiz art\u0131r\u0131m\u0131 beklentileri, Fed sinyalleri ve g\u00fc\u00e7lenen dolar (rupi ve di\u011fer para birimlerinin de\u011fer kayb\u0131) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Yerel alt\u0131n fiyat\u0131 haberlerinin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve g\u00fcr\u00fclt\u00fc niteli\u011finde; bu nedenle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
   "02.11 09:19 N  GPT  score +0.12 conf 0.35: Reuters\u2019\u0131n daha yumu\u015fak petrol fiyatlar\u0131 e\u015fli\u011finde alt\u0131n\u0131n y\u00fckseldi\u011fini bildirmesi k\u0131sa vadede hafif destekleyici; ancak Fed\u2019in faiz g\u00f6r\u00fcn\u00fcm\u00fcne ili\u015fkin riskler ve dolar\u0131n g\u00fc\u00e7lenmesi kazan\u00e7lar\u0131 s\u0131n\u0131rlayabilir. Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu yerel alt\u0131n fiyatlar\u0131yla ilgili ve k\u00fcresel spot fiyat i\u00e7in g\u00fc\u00e7l\u00fc bir ",
@@ -16582,7 +16589,8 @@
   "03.11 07:39 N  NEWS (11 new) score +0.05 conf 0.30: \u0130ran'daki ABD sald\u0131r\u0131lar\u0131 ve Kuzey Kore f\u00fcze testleri g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekliyor; ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (DXY ~102) alt\u0131 bask\u0131l\u0131yor ve alt\u0131n yeniden 3.950 dolar\u0131n alt\u0131na geriledi. Ba\u015fl\u0131klarda \"5.000 dolar\u0131 a\u015ft\u0131\" ile \"3.950 alt\u0131\" gibi \u00e7eli\u015fkili fiyat bilgileri oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "03.11 07:39 N  GPT  score -0.20 conf 0.43: Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerinin alt\u0131n\u0131 3.950 dolar\u0131n alt\u0131na itmesi k\u0131sa vadede bask\u0131n ve hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc. ABD\u2019nin \u0130ran\u2019daki hedeflere sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak anla\u015fma umutlar\u0131 ve \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 y\u00f6n sinyalini zay\u0131flat\u0131yor.",
   "03.11 07:51 N  NEWS (7 new) score -0.15 conf 0.35: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n\u0131 3.950 dolar civar\u0131nda bask\u0131l\u0131yor; ABD'nin Ke\u015fm Adas\u0131'na yapt\u0131\u011f\u0131 sald\u0131r\u0131lar ve \u0130ran gerilimi ise g\u00fcvenli liman talebi nedeniyle destekleyici. Ba\u015fl\u0131klar aras\u0131nda \u00e7eli\u015fki var (5.000 dolar iddias\u0131 ile 3.950 dolar fiyat\u0131), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
-  "03.11 07:51 N  GPT  score -0.20 conf 0.38: Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 ve fiyat\u0131n 3.950 dolar\u0131n alt\u0131na geriledi\u011fi haberleri k\u0131sa vadede hafif negatif. \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; Avustralya faiz art\u0131\u015f\u0131n\u0131n ard\u0131ndan olas\u0131 duraklama sinyali de g\u00f6r\u00fcn\u00fcm\u00fc karma\u015f\u0131kla\u015ft\u0131r\u0131yor."
+  "03.11 07:51 N  GPT  score -0.20 conf 0.38: Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 ve fiyat\u0131n 3.950 dolar\u0131n alt\u0131na geriledi\u011fi haberleri k\u0131sa vadede hafif negatif. \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; Avustralya faiz art\u0131\u015f\u0131n\u0131n ard\u0131ndan olas\u0131 duraklama sinyali de g\u00f6r\u00fcn\u00fcm\u00fc karma\u015f\u0131kla\u015ft\u0131r\u0131yor.",
+  "03.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -21943,6 +21951,10 @@
    [
     1793681837,
     4963.78
+   ],
+   [
+    1793682021,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27231,6 +27243,10 @@
    [
     1793681837,
     4975.18
+   ],
+   [
+    1793682021,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32485,6 +32501,10 @@
    [
     1793681837,
     4993.28
+   ],
+   [
+    1793682021,
+    4993.28
    ]
   ]
  },
@@ -37576,6 +37596,10 @@
    [
     1793681837,
     4969.22
+   ],
+   [
+    1793682021,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -41513,6 +41537,10 @@
    ],
    [
     1793681837,
+    4631.09
+   ],
+   [
+    1793682021,
     4631.09
    ]
   ],
@@ -46462,6 +46490,10 @@
    [
     1793681837,
     100750.28
+   ],
+   [
+    1793682021,
+    100750.28
    ]
   ],
   "open": {},
@@ -49780,6 +49812,10 @@
    ],
    [
     1793681837,
+    5066.43
+   ],
+   [
+    1793682021,
     5066.43
    ]
   ],
