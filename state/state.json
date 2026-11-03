@@ -7554,6 +7554,10 @@
    [
     1793707077,
     3834.44
+   ],
+   [
+    1793707269,
+    3834.44
    ]
   ]
  },
@@ -14489,15 +14493,19 @@
    [
     1793707077,
     4868.5
+   ],
+   [
+    1793707269,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.3,
-   "reason": "Haberler birbiriyle \u00e7eli\u015fiyor: ABD'nin \u0130ran adas\u0131n\u0131 vurmas\u0131 jeopolitik risk ve g\u00fcvenli liman talebini destekliyor, ancak ABD-\u0130ran aras\u0131nda arabuluculukla y\u00fcr\u00fct\u00fclen m\u00fczakere haberleri ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (Renaissance tahmini) alt\u0131n\u0131 bask\u0131l\u0131yor. Dolar ise dar bir bantta seyrediyor, alt\u0131n ise 3.900 dolar civar\u0131nda karars\u0131z; bu nedenle net y\u00f6n belirsiz ve etki s\u0131n\u0131rl\u0131 kalmal\u0131.",
+   "score": 0.3,
+   "confidence": 0.4,
+   "reason": "ABD'nin \u0130ran'\u0131n Qeshm adas\u0131n\u0131 vurmas\u0131 ve sava\u015f yeniden t\u0131rmanma riski g\u00fcvenli liman talebini destekleyerek alt\u0131 hafif yukar\u0131 ta\u015f\u0131yabilir. Ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 Fed beklentilerini canland\u0131rabilir, diplomasi umutlar\u0131 ve dolarda dar bant ise bu etkiyi s\u0131n\u0131rl\u0131yor; alt\u0131n 3.900 civar\u0131nda zorlan\u0131yor.",
    "n": 45,
-   "ts": 1793706547709,
-   "new_headlines": 7,
+   "ts": 1793707269359,
+   "new_headlines": 14,
    "key_events": [
     "ABD'nin \u0130ran'a ait Qeshm Adas\u0131'n\u0131 vurmas\u0131 ve sava\u015f\u0131n yeniden alevlenme riski",
     "Renaissance Macro'nun 4-5 Fed faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6r\u00fcs\u00fc (alt\u0131n i\u00e7in olumsuz)",
@@ -14505,27 +14513,18 @@
    ],
    "gpt": {
     "score": 0.35,
-    "confidence": 0.48,
-    "reason": "ABD\u2019nin \u0130ran\u2019daki bir adaya sald\u0131r\u0131s\u0131 ve Rusya\u2019n\u0131n Harkiv\u2019deki hastane sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi, dolar\u0131n belirgin g\u00fc\u00e7 kazanmamas\u0131 ve alt\u0131n talebine ili\u015fkin zay\u0131f veriler y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+    "confidence": 0.47,
+    "reason": "ABD\u2019nin Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n uzak oldu\u011funa dair haberler, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak y\u00fckselen petrol\u00fcn enflasyon ve faiz beklentilerini g\u00fc\u00e7lendirmesi bu etkiyi s\u0131n\u0131rlayabilir; diplomasi haberleri de g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor.",
     "key_events": [
-     "ABD\u2019nin \u0130ran\u2019daki adaya sald\u0131r\u0131s\u0131",
-     "ABD-\u0130ran aras\u0131nda s\u00fcren diplomatik temaslar",
-     "Harkiv\u2019de hastaneye sald\u0131r\u0131"
+     "ABD\u2019nin Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n uzakla\u015fmas\u0131",
+     "Rusya\u2019n\u0131n Harkiv\u2019de hastaneyi vurmas\u0131",
+     "Sava\u015f riskiyle petrol fiyatlar\u0131n\u0131n y\u00fckselmesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792839318667,
-    "score": 0.1,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 7,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792841024510,
     "score": -0.2,
@@ -17216,32 +17215,53 @@
     "new": 7,
     "gpt_score": 0.35,
     "gpt_confidence": 0.48
+   },
+   {
+    "ts": 1793707269359,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "ABD'nin \u0130ran'\u0131n Qeshm adas\u0131n\u0131 vurmas\u0131 ve sava\u015f yeniden t\u0131rmanma riski g\u00fcvenli liman talebini destekleyerek alt\u0131 hafif yukar\u0131 ta\u015f\u0131yabilir. Ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 Fed beklentilerini canland\u0131rabilir, diplomasi umutlar\u0131 ve dolarda dar bant ise bu etkiyi s\u0131n\u0131rl\u0131yor; alt\u0131n 3.900 civar\u0131nda zorlan\u0131yor.",
+    "new": 14,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.47
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 62
+   "n": 63
   },
   "news_seen": [
+   "Drivers may get compensation offers before car finance saga ends",
+   "US approves possible Patriot PAC-3 missile sale to Ukraine - Janes Defence Intelligence",
+   "Gold prices on November 3rd: SJC gold bars surge. - Vietnam.vn",
+   "Dan Walters | The Turf War of California Colleges - Santa Clarita Valley Signal",
+   "Turkey Aims for the Moon, With Geopolitical Ambitions Back on Earth - The Media Line",
+   "Indian Rupee rises further amid US-Iran diplomacy hopes - FXStreet",
    "Japanese Yen weakens against US Dollar, US Midterm Elections in focus - FXStreet",
    "India gold demand down 29% in Q3 2026: WGC report - The New Indian Express",
+   "Nebraska independent says Trump's Iran war rhetoric is dangerous - Modern Ghana",
+   "What the $20 Burrito Debate Reveals About Inflation and the Cost of Living - Investopedia",
+   "China urges against military escalation as Iran says \u2018ball in America\u2019s court to prevent war\u2019 - Anadolu Ajans\u0131",
    "US strikes Iranian island ahead of midterm elections",
    "Beijing launches diplomatic flurry amid threat of renewed U.S. war with Iran - The Washington Post",
    "Azimut Undertakes New Mineral Resource Estimate on the Patwon Gold Deposit, James Bay Region, Qu\u00e9bec - The Manila Times",
    "US Dollar Holds Tight Range Ahead of Midterms; Aussie Dollar Drops Post-RBA - News and Statistics - IndexBox",
    "International students win ruling over pro-Palestine speech, while sanctions deepen arbitrary restrictions on civil society - Civicus Monitor",
+   "Kathryn Coulter Mitchell Joins Academy Securities\u2019 Advisory Board and Geopolitical Intelligence Group - Morningstar",
    "Guest Column: American deportation of Haitians threatens civil war in the island nation - The Atlanta Journal-Constitution",
    "F-16s could soon be armed with Castelion's hypersonic missile - Axios",
    "Gold and silver rate today (November 3, 2026): Check 24K, 22K, 20K and 18K gold prices at IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers - The Economic Times",
+   "F-16s could soon be armed with Castelion's hypersonic missile - Yahoo",
    "Russia Bombs Kharkiv Hospital, Injuring At Least 73, During Missile And Drone Attack: 5 outlets compared - NewsCord",
+   "Oil rises as Iran says war deal remains distant, US strikes Qeshm - The Lufkin Daily News",
+   "Ali Cherri Secures French Judges\u2019 War Crimes Inquiry Into Israeli Strike In Beirut: 15 outlets compared - NewsCord",
+   "Goldman Raises Oil Price Forecast for December as War Risks Cloud 2027 Outlook - Yahoo Finance",
    "Proposal for free bus service scrapped",
    "Can Iran and the US Reach a Deal Before the War Escalates Again? - Modern Diplomacy",
    "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-   "US Midterm Elections: What Could They Mean for the US Dollar? - Pound Sterling Live",
    "'Quiet quitting' could be hitting the economy - here's why",
    "US Dollar: Midterms pose limited downside \u2013 ING - FXStreet",
    "Gold struggles near $3,900 as traders assess Middle East developments,US election risks - FXStreet",
-   "Gold rates hold steady in Pakistan - Investify",
    "Apple unsure when it will get more foldable iPhones ahead of Christmas",
    "Mapping the Market: The dollar could deepen its losses - Reuters",
    "Iran rebuilds missile arsenal, fortifies production sites ahead of possible new war - www.israelhayom.com",
@@ -17253,26 +17273,12 @@
    "How Andrew Johnson undermined Reconstruction so the South could win the peace after losing the war - Milwaukee Independent",
    "Market Minute: Reasons to be bullish on the dollar - The Real Economy Blog",
    "Broken promises: Why the Iran war could decide the midterm elections - Washington Examiner",
-   "Drivers may get compensation offers before car finance saga ends",
+   "3 local events to honor memory of World War II veteran Audie Murphy - Roanoke Times",
    "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest - Al Jazeera",
-   "Global gold demand down 1% in Q3 at 1,360 tonne amid uncertainty over price: Report - Moneycontrol.com",
-   "US, Iran reviewing proposals to bridge differences, end war, Qatar mediators announce - The Jerusalem Post",
-   "Renaissance Macro Economist Forecasts Four or Five Fed Rate Hikes - Globest",
-   "Why Trump Often Mentioned Iran in the Midterm Campaign - The New York Times",
-   "Drones, air defense missile funding bill advances to committee review - Focus Taiwan",
-   "China reports simultaneous interception of two missile targets - Janes Defence Intelligence",
-   "Ukraine tennis player calls for Donald Trump aid in Russia war - South China Morning Post",
-   "Rafael Spike Users' Club convenes annual meeting in Cyprus with over 200 reps from 23 countries - The Jerusalem Post",
-   "Silver price today: Silver declines, FXStreet data show - www.tmgm.com",
-   "Indian Rupee holds its range against US Dollar as oil lends support \u2013 Commerzbank - www.tmgm.com",
-   "Forex Today: Dollar shows no signs of strength as US holds midterm elections - www.tmgm.com",
-   "Rich Lowry: The unauthorized war - Maui News",
-   "As Trump\u2019s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War - The New York Times"
+   "Global gold demand down 1% in Q3 at 1,360 tonne amid uncertainty over price: Report - Moneycontrol.com"
   ]
  },
  "log": [
-  "02.11 14:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdzzpetGv6qGehLug5TH'}",
-  "02.11 14:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge29d5zJ3pUGm8dmCNKe'}",
   "02.11 14:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2NviVr8ZkuUdgqzv24'}",
   "02.11 14:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge2cCoF6Gn3VtoMt7oSK'}",
   "02.11 14:36 N  NEWS (45 new) score -0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: Fed faiz beklentileri alt\u0131ndaki toparlanmay\u0131 s\u0131n\u0131rl\u0131yor ve ekim ay\u0131 2008'den bu yana en k\u00f6t\u00fc performans\u0131n\u0131 g\u00f6sterdi, bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran diplomasisine daha fazla zaman verdi\u011fini s\u00f6ylemesiyle petrol %3'ten fazla d\u00fc\u015ft\u00fc; bu jeopolitik risk primini azaltarak g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ancak n\u00fckleer sald\u0131r\u0131 ve sava\u015f tehdidi haberleri bu etkiyi k\u0131smen dengeliyor.",
@@ -17570,7 +17576,9 @@
   "03.11 14:37 N  NEWS (13 new) score +0.30 conf 0.40: Yeni gelen ABD'nin \u0130ran'a y\u00f6nelik misilleme sald\u0131r\u0131lar\u0131 (H\u00fcrm\u00fcz ve Qeshm Adas\u0131) jeopolitik risk primi nedeniyle alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc bir etkidir. Ancak Katar'\u0131n arabuluculuk a\u00e7\u0131klamas\u0131, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n tekrarlanan, zaten fiyatlanm\u0131\u015f nitelikte olmas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor.",
   "03.11 14:37 N  GPT  score +0.35 conf 0.52: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Harkiv\u2019deki hastane sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak Katar\u2019\u0131n arabuluculuk \u00e7abalar\u0131, diplomasi ihtimali ve alt\u0131n\u0131n son haber ak\u0131\u015f\u0131na ra\u011fmen zorlanmas\u0131 y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
   "03.11 14:49 N  NEWS (7 new) score +0.05 conf 0.30: Haberler birbiriyle \u00e7eli\u015fiyor: ABD'nin \u0130ran adas\u0131n\u0131 vurmas\u0131 jeopolitik risk ve g\u00fcvenli liman talebini destekliyor, ancak ABD-\u0130ran aras\u0131nda arabuluculukla y\u00fcr\u00fct\u00fclen m\u00fczakere haberleri ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (Renaissance tahmini) alt\u0131n\u0131 bask\u0131l\u0131yor. Dolar ise dar bir bantta seyrediyor, alt\u0131n ise 3.900 dolar civar\u0131nda karars\u0131z; bu nedenle net y\u00f6n belirsiz ve etki s\u0131n\u0131rl\u0131 kalmal\u0131.",
-  "03.11 14:49 N  GPT  score +0.35 conf 0.48: ABD\u2019nin \u0130ran\u2019daki bir adaya sald\u0131r\u0131s\u0131 ve Rusya\u2019n\u0131n Harkiv\u2019deki hastane sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi, dolar\u0131n belirgin g\u00fc\u00e7 kazanmamas\u0131 ve alt\u0131n talebine ili\u015fkin zay\u0131f veriler y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor."
+  "03.11 14:49 N  GPT  score +0.35 conf 0.48: ABD\u2019nin \u0130ran\u2019daki bir adaya sald\u0131r\u0131s\u0131 ve Rusya\u2019n\u0131n Harkiv\u2019deki hastane sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak ABD-\u0130ran g\u00f6r\u00fc\u015fmelerinin s\u00fcrmesi, dolar\u0131n belirgin g\u00fc\u00e7 kazanmamas\u0131 ve alt\u0131n talebine ili\u015fkin zay\u0131f veriler y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "03.11 15:01 N  NEWS (14 new) score +0.30 conf 0.40: ABD'nin \u0130ran'\u0131n Qeshm adas\u0131n\u0131 vurmas\u0131 ve sava\u015f yeniden t\u0131rmanma riski g\u00fcvenli liman talebini destekleyerek alt\u0131 hafif yukar\u0131 ta\u015f\u0131yabilir. Ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve s\u0131k\u0131 Fed beklentilerini canland\u0131rabilir, diplomasi umutlar\u0131 ve dolarda dar bant ise bu etkiyi s\u0131n\u0131rl\u0131yor; alt\u0131n 3.900 civar\u0131nda zorlan\u0131yor.",
+  "03.11 15:01 N  GPT  score +0.35 conf 0.47: ABD\u2019nin Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n uzak oldu\u011funa dair haberler, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak y\u00fckselen petrol\u00fcn enflasyon ve faiz beklentilerini g\u00fc\u00e7lendirmesi bu etkiyi s\u0131n\u0131rlayabilir; diplomasi haberleri de g\u00f6r\u00fcn\u00fcm\u00fc belirsiz k\u0131l\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -23355,6 +23363,10 @@
    [
     1793707077,
     4963.78
+   ],
+   [
+    1793707269,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29067,6 +29079,10 @@
    [
     1793707077,
     4975.18
+   ],
+   [
+    1793707269,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -34745,6 +34761,10 @@
    [
     1793707077,
     4993.28
+   ],
+   [
+    1793707269,
+    4993.28
    ]
   ]
  },
@@ -40260,6 +40280,10 @@
    [
     1793707077,
     4969.22
+   ],
+   [
+    1793707269,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -44659,6 +44683,10 @@
    [
     1793707077,
     4587.99
+   ],
+   [
+    1793707269,
+    4587.87
    ]
   ],
   "news_calls": {
@@ -50031,6 +50059,10 @@
    [
     1793707077,
     100746.25
+   ],
+   [
+    1793707269,
+    100746.25
    ]
   ],
   "open": {},
@@ -53773,6 +53805,10 @@
    ],
    [
     1793707077,
+    5066.43
+   ],
+   [
+    1793707269,
     5066.43
    ]
   ],
