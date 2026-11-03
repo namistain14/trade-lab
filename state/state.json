@@ -1,52 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 3937.37692755693,
+   "balance": 3896.427753723,
    "start": 5000,
-   "positions": [
-    {
-     "id": "15ddb360",
-     "symbol": "BTCUSDT",
-     "side": "short",
-     "qty": 0.0613443858611458,
-     "entry": 76804.9516,
-     "tp": 76344.1218904,
-     "sl": 77112.1714064,
-     "opened_ms": 1793683272767,
-     "entry_cost": 2.355776293498514,
-     "max_hold_min": 120,
-     "margin": 1570.5175289990093,
-     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "a325c32e",
-     "symbol": "ETHUSDT",
-     "side": "short",
-     "qty": 2.094558676032225,
-     "entry": 2249.42497,
-     "tp": 2235.92842018,
-     "sl": 2258.42266988,
-     "opened_ms": 1793684504605,
-     "entry_cost": 2.355776293498514,
-     "max_hold_min": 120,
-     "margin": 1570.5175289990093,
-     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    },
-    {
-     "id": "973d154a",
-     "symbol": "XRPUSDT",
-     "side": "short",
-     "qty": 1914.7043758001473,
-     "entry": 1.24772557,
-     "tp": 1.24023921658,
-     "sl": 1.2527164722800002,
-     "opened_ms": 1793686484995,
-     "entry_cost": 1.1945128043383666,
-     "max_hold_min": 120,
-     "margin": 796.3418695589111,
-     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f35b4d8c",
@@ -1747,12 +1704,72 @@
      "gross": 13.4322,
      "costs": 2.3491,
      "pnl": 11.0831
+    },
+    {
+     "id": "15ddb360",
+     "symbol": "BTCUSDT",
+     "side": "short",
+     "qty": 0.0613443858611458,
+     "entry": 76804.9516,
+     "tp": 76344.1218904,
+     "sl": 77112.1714064,
+     "opened_ms": 1793683272767,
+     "entry_cost": 2.355776293498514,
+     "max_hold_min": 120,
+     "margin": 1570.5175289990093,
+     "note": "TERS: RSI 45 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 76781.82764,
+     "closed_ms": 1793690580000,
+     "reason": "time limit",
+     "gross": 1.4185,
+     "costs": 4.7108,
+     "pnl": -3.2923
+    },
+    {
+     "id": "a325c32e",
+     "symbol": "ETHUSDT",
+     "side": "short",
+     "qty": 2.094558676032225,
+     "entry": 2249.42497,
+     "tp": 2235.92842018,
+     "sl": 2258.42266988,
+     "opened_ms": 1793684504605,
+     "entry_cost": 2.355776293498514,
+     "max_hold_min": 120,
+     "margin": 1570.5175289990093,
+     "note": "TERS: RSI 42 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 2259.1001966809636,
+     "closed_ms": 1793690580000,
+     "reason": "stop",
+     "gross": -20.2653,
+     "costs": 4.7217,
+     "pnl": -24.987
+    },
+    {
+     "id": "973d154a",
+     "symbol": "XRPUSDT",
+     "side": "short",
+     "qty": 1914.7043758001473,
+     "entry": 1.24772557,
+     "tp": 1.24023921658,
+     "sl": 1.2527164722800002,
+     "opened_ms": 1793686484995,
+     "entry_cost": 1.1945128043383666,
+     "max_hold_min": 120,
+     "margin": 796.3418695589111,
+     "note": "TERS: RSI 43 al\u0131m sinyali \u2192 sat\u0131\u015f, x3",
+     "exit": 1.253092287221684,
+     "closed_ms": 1793690580000,
+     "reason": "stop",
+     "gross": -10.2757,
+     "costs": 2.3942,
+     "pnl": -12.6698
     }
    ],
    "day": {
     "date": "2026-11-03",
     "trades": 9,
-    "pnl": -39.866794068163415,
+    "pnl": -80.8159679020929,
     "stopped": false
    },
    "last_check_ms": 0
@@ -7205,6 +7222,10 @@
    [
     1793690288,
     3928.4
+   ],
+   [
+    1793692418,
+    3896.43
    ]
   ]
  },
@@ -13868,43 +13889,38 @@
    [
     1793690288,
     4868.5
+   ],
+   [
+    1793692418,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
+   "score": 0.3,
    "confidence": 0.4,
    "reason": "ABD'nin H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki Qeshm Adas\u0131'na y\u00f6nelik sald\u0131r\u0131lar\u0131 ve \u0130ran'\u0131n sava\u015f konusundaki sert tutumu g\u00fcvenli liman talebini destekliyor, bu da alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Buna kar\u015f\u0131l\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar endeksinin 101,80 civar\u0131nda stabil seyretmesi ve Hindistan'da alt\u0131n talebinin zay\u0131flamas\u0131 gibi bask\u0131lay\u0131c\u0131 fakt\u00f6rler var; ayr\u0131ca \u00e7at\u0131\u015fma haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
    "n": 45,
-   "ts": 1793689941514,
-   "new_headlines": 13,
+   "ts": 1793692416422,
+   "new_headlines": 23,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.950 dolar alt\u0131na itti",
     "ABD-\u0130ran anla\u015fma umutlar\u0131, Khamenei m\u00fczakereleri destekledi",
     "ABD'nin Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 ve jeopolitik gerilim"
    ],
    "gpt": {
-    "score": 0.56,
-    "confidence": 0.58,
-    "reason": "Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019dan gelen sert a\u00e7\u0131klamalar, ayr\u0131ca Karadeniz\u2019de t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar, faiz art\u0131\u015f\u0131 beklentileri ve haberlerin do\u011frulanma/piyasa taraf\u0131ndan fiyatlanma belirsizli\u011fi y\u00fckseli\u015fi",
+    "score": 0.58,
+    "confidence": 0.62,
+    "reason": "ABD\u2019nin \u0130ran\u2019daki Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131 ve \u0130ran\u2019\u0131n sava\u015f uyar\u0131lar\u0131, Ukrayna\u2019daki a\u011f\u0131r sald\u0131r\u0131larla birlikte k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Dolar\u0131n belirgin g\u00fc\u00e7lenmemesi y\u00fckseli\u015fi destekliyor; ancak haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 tekrarl\u0131 ve merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli b",
     "key_events": [
-     "Qe\u015fm Adas\u0131\u2019na ABD sald\u0131r\u0131s\u0131 ve \u0130ran geriliminin yeniden t\u0131rmanmas\u0131",
-     "Karadeniz\u2019de sava\u015f\u0131n geni\u015fleme riski",
-     "Dolar\u0131n g\u00fc\u00e7l\u00fc seyri ve faiz art\u0131\u015f\u0131 beklentileri"
+     "ABD\u2019nin \u0130ran\u2019daki Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131",
+     "\u0130ran\u2019dan sava\u015f\u0131n \u00f6nlenmesi i\u00e7in ABD\u2019ye uyar\u0131",
+     "Ukrayna\u2019da sivil kay\u0131plara yol a\u00e7an Rus sald\u0131r\u0131s\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792827610263,
-    "score": -0.1,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 2,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1792828512984,
     "score": -0.3,
@@ -16595,66 +16611,70 @@
     "new": 13,
     "gpt_score": 0.56,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1793692416422,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 23,
+    "gpt_score": 0.58,
+    "gpt_confidence": 0.62
    }
   ],
   "news_calls": {
    "date": "2026-11-03",
-   "n": 44
+   "n": 45
   },
   "news_seen": [
+   "From scooters to shampoo - the people saving hundreds from dumpster diving",
+   "Central bank gold buying rises 42% as ETF inflows rebound in Q3 - Gulf Business",
+   "Iran War Pushes Lufthansa\u2019s 2026 Fuel Bill to \u20ac9.3 Billion, Adding \u20ac2 Billion in Costs - Kurdistan24",
+   "When will Iran war end? - Minot Daily News",
+   "Iran delivers \u2018firm, rational\u2019 response to US, says \u2018ball in America\u2019s court to prevent war\u2019 - Anadolu Ajans\u0131",
+   "North Korea claims cruise missile warhead can devastate 15-acre area - Stars and Stripes",
+   "Canadian Dollar regains lost ground amid higher Oil prices, US midterm elections - FXStreet",
+   "War widens in the Black Sea in a test of NATO red lines - The Japan Times",
+   "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms - FXEmpire",
+   "Ukraine War, Day 1,713: 26+ Civilians Murdered in Russian Bombing of Aid Center and Shelter - EA WorldView",
+   "US War on Iran, Day 250: US Strikes Qeshm Island in Strait of Hormuz - EA WorldView",
+   "Canadian Dollar Gains as Oil Rebounds, USD/CAD Retreats - TradingPedia",
+   "Central banks buy gold at fastest pace since 2024, WGC says - The Business Times",
+   "Aramco's profit rises as refining margins strengthen amid Iran war - CNBC",
+   "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+   "Forex Today: No signs of Dollar strength on US midterm election day - FXStreet",
+   "Gold, silver rate Coimbatore 3 Nov: Latest price movement today for investors ahead of Dhanteras, Diwali in Isha city - Livemint",
+   "Indian Rupee: Range holds against US Dollar with oil support \u2013 Commerzbank - FXStreet",
+   "US says Iran strikes were defensive response to missile threat - Middle East Online",
+   "Gold prices continue to fall ahead of Dhanteras, Diwali; demand likely to increase | Business News - Hindustan Times",
    "North Korea Tests Dispersal Warhead for Strategic Cruise Missile - Fana News -",
+   "Iran chief negotiator says ball in US court to \u2018prevent war\u2019 - Arab News",
+   "US strikes Iran\u2019s Qeshm Island on eve of election - Financial Times",
    "Apple unsure when more foldable iPhones will be available after selling out",
    "Dollar Index Holds Near 101.80 Amid Election and Nonfarm Payrolls Watch - KuCoin",
+   "War update: 206 clashes on front line over past day, fiercest fighting in Kostiantynivka sector - Ukrinform",
    "Ghalibaf: Iran Fully Prepared for Military Confrontation; Washington Must Prevent War - WANA News Agency",
    "War and the limits of economic growth - GIS Reports",
    "Gold, silver rate today Kolkata Nov 3: Latest price movement update City of Joy investors ahead of Dhanteras, Diwali - Livemint",
-   "Gold price update on the afternoon of November 3, 2026: SJC, plain 9999 DOJI BTMC Phu Quy rings. - Vietnam.vn",
-   "Iran official says US deal to end war still distant due to 'excessive' demands - The Jerusalem Post",
-   "Dollar General sued for deceptive store pricing - Pittsburgh Post-Gazette",
-   "LME nickel prices rebound above $15,500 per ton on weaker US dollar and expanding manufacturing - Yieh Corp.",
+   "Iran refuses to accept 'excessive' US demands, deal to end war still distant, Iran official says - The Jerusalem Post",
    "Euro edges up against US Dollar in countdown to US Midterm elections - FXStreet",
-   "India's gold demand likely to fall to six-year low in 2026 on price rise - Business Standard",
    "British Pound/US Dollar faces rejection at 0.5 Arc \u2013 Potential decline toward 1.3322 - FXStreet",
    "Utah Football's Best Modern 'Holy War' Players by Decade: 2000 and beyond - roundtable.io",
    "Swiss Franc: Upside momentum accelerates against US Dollar \u2013 UOB - FXStreet",
    "War widens in the Black Sea in a test of NATO red lines - Reuters",
    "Is the US-Iran War Restarting? US Reportedly Strikes Qeshm Island on Midterm Eve - Yahoo",
    "How NATO states on the Black Sea are being drawn into Ukraine war escalation - Reuters",
-   "Lufthansa says 2026 fuel costs to be 2 bn euros higher amid Iran war - France 24",
    "Gold (XAUUSD) & Silver Price Forecast: US Midterms in Focus, Can Gold Reclaim $3,975? - FXEmpire",
    "Opinion | The inflation election - The Washington Post",
    "US Dollar Caught Off Guard by Brent Plunge. Forecast as of 03.11.2026 - LiteFinance",
    "Gold, silver rate Bangalore 3 Nov: Latest update on price movement for investors in Silicon Valley of India today - Livemint",
    "US Fighter Jet Destroys Iranian Missile System on Qeshm Island in Strait of Hormuz - Caspian Post",
    "North Korea denies being behind record $6.3bn Binance hack",
-   "US War on Iran, Day 250: US Strikes Qeshm Island in Strait of Hormuz - EA WorldView",
    "European troops to rehearse post-war Ukraine deployment in Poland - Euronews.com",
-   "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council",
-   "Russia Ukraine War (copy) - Temple Daily Telegram",
-   "Culture War Tensions Roil Beverly Hills School Board Race - The New York Times",
-   "Public venues offer tea and warm welcome in winter",
-   "Euro: Key support at 1.1135 in focus against US Dollar \u2013 UOB - FXStreet",
-   "Iran War Threatens Record Annual Drop in Global LNG Supply, IEA Says - WSJ",
-   "WGC lowers outlook for gold investment demand growth as bar buying slows - Reuters",
-   "Ethiopia-Eritrea Conflict Could Open a Second Red Sea Front - Small Wars Journal",
-   "Gloucestershire village finds lost record of World War One servicemen - BBC",
-   "Iran war latest: US strikes Qeshm Island in Strait of Hormuz - The National",
-   "India's 2026 gold demand seen falling to six-year low on price rise - marketscreener.com",
-   "Gold mining cost inflation hits 13-year high - MiningMX",
-   "Pickaxe Mountain nuclear strike and Trump\u2019s other Iran war options - The Telegraph",
-   "Gold price prediction today: Why gold will continue to be under pressure; check November 3, 2026 outlook - The Times of India",
-   "Israel asks Lebanon to prevent Hezbollah from entering the war if the conflict with Iran resumes - report - i24NEWS",
-   "Indian Rupee extends winning streak against US Dollar amid lower oil prices - FXStreet",
-   "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linge - The Economic Times",
-   "U.S.-Ukraine-Russia talks on ending Moscow's war to resume - upi"
+   "Central bank buying and ETF inflows support gold demand in Q3 - World Gold Council"
   ]
  },
  "log": [
-  "02.11 11:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdms31Z65Hij7jGkBDLs'}",
-  "02.11 11:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdn6H8j72nQvY7fSY3iw'}",
-  "02.11 11:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdnKcUv9EMQcrUTAt9uS'}",
-  "02.11 11:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdnYrcpt8BYURfxGTetG'}",
-  "02.11 11:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdnn6Y79MkCjLLcy9p5y'}",
   "02.11 11:34 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgdo1PNV6rzuiWmm2xSEH'}",
   "02.11 11:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdoEde6NJaRVMnKvVYRm'}",
   "02.11 11:40 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgdoTsJz8xEvXrZAVxhJi'}",
@@ -16949,7 +16969,12 @@
   "03.11 10:00 N  NEWS (8 new) score +0.10 conf 0.30: \u0130ran'\u0131n H\u00fcrm\u00fcz'deki Qeshm Adas\u0131'na ABD sald\u0131r\u0131lar\u0131 ve Karadeniz'deki gerilim g\u00fcvenli liman talebini destekliyor, ayr\u0131ca dolar zay\u0131flamas\u0131 ve Brent'in d\u00fc\u015f\u00fc\u015f\u00fc faiz art\u0131r\u0131m\u0131 beklentilerini azaltabilir. Buna kar\u015f\u0131l\u0131k, MCX alt\u0131n fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve faiz art\u0131r\u0131m\u0131 bahislerinin s\u00fcrmesi, WGC'nin yat\u0131r\u0131m talebi beklentisini d\u00fc\u015f\u00fcrmesi ve Hindistan'daki alt\u0131n talebinin zay\u0131flamas\u0131 bask\u0131y\u0131 art\u0131r\u0131yor; bu nedenle etki kar\u0131\u015f\u0131k ve s\u0131n\u0131rl\u0131.",
   "03.11 10:00 N  GPT  score +0.28 conf 0.43: \u0130ran\u2019daki ABD sald\u0131r\u0131s\u0131 ve Karadeniz\u2019deki gerilim g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n zay\u0131flad\u0131\u011f\u0131na i\u015faret eden haberler de alt\u0131n i\u00e7in olumlu. Ancak Hindistan\u2019dan gelen zay\u0131f talep g\u00f6r\u00fcn\u00fcm\u00fc ve enflasyon/faiz beklentileri kaynakl\u0131 olas\u0131 bask\u0131, k\u0131sa vadeli y\u00fckseli\u015fin g\u00fcc\u00fcn\u00fc s\u0131n\u0131rl\u0131yor.",
   "03.11 10:12 N  NEWS (13 new) score +0.20 conf 0.40: ABD'nin H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki Qeshm Adas\u0131'na y\u00f6nelik sald\u0131r\u0131lar\u0131 ve \u0130ran'\u0131n sava\u015f konusundaki sert tutumu g\u00fcvenli liman talebini destekliyor, bu da alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Buna kar\u015f\u0131l\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar endeksinin 101,80 civar\u0131nda stabil seyretmesi ve Hindistan'da alt\u0131n talebinin zay\u0131flamas\u0131 gibi bask\u0131lay\u0131c\u0131 fakt\u00f6rler var; ayr\u0131ca \u00e7at\u0131\u015fma haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
-  "03.11 10:12 N  GPT  score +0.56 conf 0.58: Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019dan gelen sert a\u00e7\u0131klamalar, ayr\u0131ca Karadeniz\u2019de t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar, faiz art\u0131\u015f\u0131 beklentileri ve haberlerin do\u011frulanma/piyasa taraf\u0131ndan fiyatlanma belirsizli\u011fi y\u00fckseli\u015fi"
+  "03.11 10:12 N  GPT  score +0.56 conf 0.58: Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019dan gelen sert a\u00e7\u0131klamalar, ayr\u0131ca Karadeniz\u2019de t\u0131rmanma haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar, faiz art\u0131\u015f\u0131 beklentileri ve haberlerin do\u011frulanma/piyasa taraf\u0131ndan fiyatlanma belirsizli\u011fi y\u00fckseli\u015fi",
+  "03.11 10:53 A  CLOSE BTCUSDT time limit: -3.29 USD",
+  "03.11 10:53 A  CLOSE ETHUSDT stop: -24.99 USD",
+  "03.11 10:53 A  CLOSE XRPUSDT stop: -12.67 USD",
+  "03.11 10:53 N  NEWS (23 new) score +0.30 conf 0.40: ",
+  "03.11 10:53 N  GPT  score +0.58 conf 0.62: ABD\u2019nin \u0130ran\u2019daki Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131 ve \u0130ran\u2019\u0131n sava\u015f uyar\u0131lar\u0131, Ukrayna\u2019daki a\u011f\u0131r sald\u0131r\u0131larla birlikte k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Dolar\u0131n belirgin g\u00fc\u00e7lenmemesi y\u00fckseli\u015fi destekliyor; ancak haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 tekrarl\u0131 ve merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli b"
  ],
  "gold_big": {
   "account": {
@@ -22462,6 +22487,10 @@
    [
     1793690288,
     4963.78
+   ],
+   [
+    1793692418,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27902,6 +27931,10 @@
    [
     1793690288,
     4975.18
+   ],
+   [
+    1793692418,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -33308,6 +33341,10 @@
    [
     1793690288,
     4993.28
+   ],
+   [
+    1793692418,
+    4993.28
    ]
   ]
  },
@@ -38551,6 +38588,10 @@
    [
     1793690288,
     4969.22
+   ],
+   [
+    1793692418,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -42640,6 +42681,10 @@
    ],
    [
     1793690288,
+    4631.09
+   ],
+   [
+    1793692418,
     4631.09
    ]
   ],
@@ -47741,6 +47786,10 @@
    [
     1793690288,
     100750.28
+   ],
+   [
+    1793692418,
+    100750.28
    ]
   ],
   "open": {},
@@ -51211,6 +51260,10 @@
    ],
    [
     1793690288,
+    5066.43
+   ],
+   [
+    1793692418,
     5066.43
    ]
   ],
