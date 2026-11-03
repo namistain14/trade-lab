@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 16:46 (İstanbul)
+> Son güncelleme: 03.11.2026 16:50 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -35,9 +35,9 @@ Son işlemler:
 
 **Hesap değeri: 4,588.19 $** (başlangıç 5,000 $, -411.81 $ / %-8.24)
 
-Son haber analizi (03.11 16:38): Claude puan **-0.15**, güven 0.40 — ABD'nin İran'ın Qeshm adasına yönelik saldırısı ve İran savaşı riski güvenli liman talebini destekliyor, ancak merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi reel faiz ve Fed beklentileri üzerinden altın için baskı yaratıyor. Altının son saatlerdeki düşüşü ve dolar karışık seyri nedeniyle net etki hafif negatif, sinyal karışık olduğu için güven düşük.
+Son haber analizi (03.11 16:50): Claude puan **-0.40**, güven 0.50 — Ana etki baskı yönünde: merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi ve enflasyon kalıcılığı faiz beklentilerini sertleştirerek altın için negatif. Gold'ın 4.000 doların altında açılması ve "plunge" başlıklarıyla momentum zayıf. Savaş haberleri (İran, Rusya) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış ve yeni bir tırmanış sinyali net değil; dolar ise karışık seyrediyor.
 
-GPT (gpt-6-luna): puan **+0.32**, güven 0.48 — İran’daki yeni ABD saldırısı ve Ukrayna’daki ölümcül bombardıman, kısa vadede güvenli liman talebini destekleyebilir. Ancak altındaki son sert düşüş ve büyük merkez bankalarının sıkılaşma sinyalleri bu etkiyi sınırlıyor; dolar da belirgin bir yön göstermiyor.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.32 — Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 15:34 B5  CLOSE short stop: -55.97 USD
-03.11 15:34 N  NEWS (19 new) score +0.20 conf 0.35: ABD'nin İran'a ait bir adayı vurması ve çatışma riskinin sürmesi güvenli liman talebini hafifçe destekliyor; ancak ABD-İran arabuluculuk görüşmeleri, dolar endeksinin dar bantta seyretmesi ve Fed'in duraklamasına ilişkin haberler bu etkiyi sınırlıyor. Haberlerin çoğu çelişkili veya zaten fiyatlanmış olduğu için güven düşük.
 03.11 15:34 N  GPT  score +0.30 conf 0.56: ABD’nin İran’daki hedeflere yönelik yeni saldırıları kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak arabuluculuk görüşmelerinin sürmesi ve doların hafif güçlenmesi yükseliş etkisini sınırlıyor.
 03.11 15:34 B5  LONG gold 25000 USD x10 @ 3925.86 (TP 3937.64, SL 3918.01; news +0.25)
 03.11 15:46 N  NEWS (9 new) score -0.45 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: büyük merkez bankalarının Aralık'ta sıkılaşma sinyali vermesi (şahin tutum, reel faiz beklentilerini yükseltir) ve altın/gümüş fiyatlarının sert düşüşü ile fiyatın üst üste ikinci gün 4.000 doların altında açılması. İran savaşı kaynaklı enerji şoku ve ABD'nin İran'a hava saldırıları güvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve sıkılaşma beklentisi nedeniyle sınırlı kalıyor; ayrıca bazı haberler zaten fiyatlanmış durumda.
@@ -108,6 +106,8 @@ Son işlemler:
 03.11 16:38 N  GPT  score +0.32 conf 0.48: İran’daki yeni ABD saldırısı ve Ukrayna’daki ölümcül bombardıman, kısa vadede güvenli liman talebini destekleyebilir. Ancak altındaki son sert düşüş ve büyük merkez bankalarının sıkılaşma sinyalleri bu etkiyi sınırlıyor; dolar da belirgin bir yön göstermiyor.
 03.11 16:38 B6  Alpaca kaydından 4 kapanmış işlem geri yüklendi
 03.11 16:38 B6  seans öncesi görüş: Aşırı korku ortamında jeopolitik umutlarla vadeliler toparlanıyor; ancak AAPL kaynaklı teknoloji baskısı nedeniyle temkinli bir alım eğilimi uygun.
+03.11 16:50 N  NEWS (11 new) score -0.40 conf 0.50: Ana etki baskı yönünde: merkez bankalarının Aralık'ta sıkılaştırma sinyali vermesi ve enflasyon kalıcılığı faiz beklentilerini sertleştirerek altın için negatif. Gold'ın 4.000 doların altında açılması ve "plunge" başlıklarıyla momentum zayıf. Savaş haberleri (İran, Rusya) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış ve yeni bir tırmanış sinyali net değil; dolar ise karışık seyrediyor.
+03.11 16:50 N  GPT  score +0.12 conf 0.32: Ukrayna’daki ölümcül saldırı ve bölgesel gerilim haberleri kısa vadede güvenli liman talebini destekleyebilir; doların karışık seyri de baskıyı sınırlıyor. Ancak merkez bankalarının sıkılaşma beklentileri altın için olumsuz ve haberlerin bir kısmı yeni değil; net etki bu nedenle zayıf.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
