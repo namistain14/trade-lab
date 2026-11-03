@@ -1,30 +1,28 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 12:04 (İstanbul)
+> Son güncelleme: 03.11.2026 12:07 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -80.82 $ | -1103.57 $ |
-| İşlem sayısı | 9 | 88 |
-| Kazanma oranı | %11.1 | %18.2 |
-| Ödenen komisyon/spread | 35.57 $ | 385.78 $ |
+| Net kâr/zarar | -142.81 $ | -1165.56 $ |
+| İşlem sayısı | 12 | 91 |
+| Kazanma oranı | %8.3 | %17.6 |
+| Ödenen komisyon/spread | 47.29 $ | 397.49 $ |
 
-**Hesap değeri: 3,860.70 $** (başlangıç 5,000 $, -1139.30 $ / %-22.79)
-
-Açık pozisyonlar: BNBUSDT short @ 692.41 (TP 688.26 / SL 695.18); XRPUSDT short @ 1.25 (TP 1.24 / SL 1.26); DOGEUSDT short @ 0.07 (TP 0.07 / SL 0.07)
+**Hesap değeri: 3,834.44 $** (başlangıç 5,000 $, -1165.56 $ / %-23.31)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 03.11 12:07 | DOGEUSDT | short | -12.40 $ | stop |
+| 03.11 12:07 | XRPUSDT | short | -24.80 $ | stop |
+| 03.11 12:07 | BNBUSDT | short | -24.80 $ | stop |
 | 03.11 10:23 | XRPUSDT | short | -12.67 $ | stop |
 | 03.11 10:23 | ETHUSDT | short | -24.99 $ | stop |
-| 03.11 10:23 | BTCUSDT | short | -3.29 $ | time limit |
-| 03.11 09:14 | SOLUSDT | short | +11.08 $ | take profit |
-| 03.11 07:19 | BNBUSDT | short | -2.43 $ | time limit |
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,9 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 10:53 N  NEWS (23 new) score +0.30 conf 0.40: 
-03.11 10:53 N  GPT  score +0.58 conf 0.62: ABD’nin İran’daki Qeşm Adası’na saldırısı ve İran’ın savaş uyarıları, Ukrayna’daki ağır saldırılarla birlikte kısa vadede güvenli liman talebini artırabilir. Doların belirgin güçlenmemesi yükselişi destekliyor; ancak haber akışının bir kısmı tekrarlı ve merkez bankası alımları daha çok orta vadeli b
-03.11 11:05 N  NEWS (14 new) score -0.05 conf 0.30: 
 03.11 11:05 N  GPT  score +0.35 conf 0.48: ABD’nin İran’daki Qeşm Adası’na saldırısı ve savaşın tırmanma riski kısa vadede güvenli liman talebini destekleyebilir. Ancak diplomasi haberleri ve petrolün gerilemesi bu etkiyi sınırlarken, daha uzun süre yüksek faiz uyarısı altın için olumsuz; net görünüm temkinli biçimde hafif pozitif.
 03.11 11:17 N  NEWS (6 new) score +0.10 conf 0.35: 
 03.11 11:17 N  GPT  score +0.35 conf 0.48: Ukrayna’da sivillerin öldüğü saldırı ve enerji altyapısına yönelik bombardıman kısa vadede güvenli liman talebini artırabilir. Buna karşılık dolar ve sıkı likiditeye ilişkin riskler ile İran konusunda diplomasi başlıkları yükselişi sınırlayabilir.
@@ -101,6 +96,9 @@ Son işlemler:
 03.11 11:52 N  GPT  score +0.20 conf 0.36: Rusya’nın Harkiv’de hastaneyi vurması ve İran’la anlaşmanın hâlâ uzak görünmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak altında sert geri dönüş/düşüş haberleri ve dolar-yuan kaynaklı destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankası alımları daha çok orta vadeli bir
 03.11 12:04 N  NEWS (5 new) score -0.15 conf 0.40: 
 03.11 12:04 N  GPT  score -0.35 conf 0.58: Altının yaklaşık %1 düşmesi ve Orta Doğu kaynaklı petrol/enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskın biçimde olumsuz. Kuzey Kore ve İran gerilimi güvenli liman talebi yaratabilir; bu karşıt etkenler düşüş beklentisini sınırlıyor.
+03.11 12:07 A  CLOSE BNBUSDT stop: -24.80 USD
+03.11 12:07 A  CLOSE XRPUSDT stop: -24.80 USD
+03.11 12:07 A  CLOSE DOGEUSDT stop: -12.40 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
