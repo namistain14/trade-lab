@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 08:18 (İstanbul)
+> Son güncelleme: 03.11.2026 08:21 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %17.9 |
 | Ödenen komisyon/spread | 21.40 $ | 371.60 $ |
 
-**Hesap değeri: 3,926.29 $** (başlangıç 5,000 $, -1073.71 $ / %-21.47)
+**Hesap değeri: 3,922.52 $** (başlangıç 5,000 $, -1077.48 $ / %-21.55)
+
+Açık pozisyonlar: BTCUSDT short @ 76804.95 (TP 76344.12 / SL 77112.17)
 
 Son işlemler:
 
@@ -84,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 07:19 A  CLOSE BNBUSDT time limit: -2.43 USD
 03.11 07:25 N  NEWS (7 new) score +0.20 conf 0.40: ABD'nin İran'ın Hürmüz Boğazı ve Qeshm Adası hedeflerine yönelik saldırıları jeopolitik risk nedeniyle altın için hafif destekleyici, ancak Trump'ın anlaşma ihtimaline dair açıklamaları, Fed faiz artırımı endişeleri ve yaklaşık 102 seviyesinde seyreden dolar endeksi bu etkiyi dengeliyor. Altın haberleri karışık olduğu için sinyal zayıf ve güven düşük.
 03.11 07:25 N  GPT  score +0.30 conf 0.48: Hürmüz çevresindeki ABD-İran saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak anlaşma umutları, altının seçimler öncesi gerilemesi ve doların yatay seyri yükseliş etkisini sınırlıyor.
 03.11 07:39 N  NEWS (11 new) score +0.05 conf 0.30: İran'daki ABD saldırıları ve Kuzey Kore füze testleri güvenli liman talebini artırarak altını destekliyor; ancak Fed faiz artırımı beklentileri ve güçlü dolar (DXY ~102) altı baskılıyor ve altın yeniden 3.950 doların altına geriledi. Başlıklarda "5.000 doları aştı" ile "3.950 altı" gibi çelişkili fiyat bilgileri olduğu için güven düşük tutuldu.
@@ -99,6 +100,7 @@ Son işlemler:
 03.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 03.11 08:15 N  NEWS (11 new) score +0.15 conf 0.35: İran'ın Qeshm Adası ve Hürmüz'de ABD saldırı haberleri jeopolitik risk ve güvenli liman talebini destekleyerek altı hafif yukarı çekebilir. Ancak Fed faiz artırımı beklentileri, ABD doları endeksinin 102 civarında sabit kalması ve "Gold $5,000" gibi çelişkili/eski başlıklar bu etkiyi sınırlıyor, bu yüzden skor düşük ve güven orta-düşük.
 03.11 08:15 N  GPT  score +0.35 conf 0.55: İran’ın Qeşm Adası’na yönelik ABD saldırısı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak Trump’ın çatışmayı küçümseyen açıklamaları, anlaşma umutları ve Fed’in faiz artırımı beklentileri yükselişi sınırlıyor; haberlerin doğrulanma ve fiyatlanma durumu da belirsiz.
+03.11 08:21 A  SHORT BTCUSDT 4712 USD x3 @ 76804.95 (ters sinyal, RSI 45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
