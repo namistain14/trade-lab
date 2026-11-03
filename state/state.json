@@ -405,6 +405,10 @@
    [
     1793744164,
     5000.0
+   ],
+   [
+    1793744355,
+    5000.0
    ]
   ],
   "archive": [
@@ -9761,43 +9765,38 @@
    [
     1793744164,
     4868.5
+   ],
+   [
+    1793744355,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.25,
-   "confidence": 0.4,
-   "reason": "\u0130ran'la yeniden sava\u015f riski ve \"son \u00e7are\" m\u00fczakerelerinde karamsarl\u0131k, g\u00fcvenli liman talebini destekleyerek alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve enflasyonun h\u0131zlanmas\u0131 ile dolar endeksindeki y\u00fckseli\u015f faiz beklentilerini sertle\u015ftirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
+   "score": 0.12,
+   "confidence": 0.3,
+   "reason": "\u0130ran'la ilgili sava\u015f riski ve yeniden \u00e7at\u0131\u015fma endi\u015feleri alt\u0131n i\u00e7in hafif destekleyici bir jeopolitik talep unsuru olu\u015fturuyor. Ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyonun h\u0131zlanmas\u0131na dair haberler bu etkiyi dengeliyor; haberlerin \u00e7o\u011fu ise spor, tarih ya da zaten fiyatlanm\u0131\u015f geli\u015fmeler oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793743634231,
-   "new_headlines": 9,
+   "ts": 1793744354826,
+   "new_headlines": 7,
    "key_events": [
     "\u0130ran sava\u015f\u0131: son dakika m\u00fczakereleri ve tam \u00f6l\u00e7ekli \u00e7at\u0131\u015fma riski (g\u00fcvenli liman deste\u011fi)",
     "Dolar endeksi hafif y\u00fckseli\u015f, ABD ara se\u00e7im beklentisi (alt\u0131n i\u00e7in bask\u0131)",
     "Alt\u0131n rekor zirvelerden sonra yatay seyrediyor"
    ],
    "gpt": {
-    "score": 0.35,
-    "confidence": 0.42,
-    "reason": "\u0130ran\u2019la yeniden \u00e7at\u0131\u015fma riskinin y\u00fckseldi\u011fine ve g\u00f6r\u00fc\u015fmelerin k\u00f6t\u00fcmser ilerledi\u011fine dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131ndaki y\u00fckseli\u015fi s\u0131n\u0131rlarken, ba\u015fl\u0131klar\u0131n bir k\u0131sm\u0131 yeni bir fiil\u00ee t\u0131rman\u0131\u015f de\u011fil risk de\u011ferlendirmesi niteli\u011finde.",
+    "score": 0.18,
+    "confidence": 0.36,
+    "reason": "\u0130ran\u2019la yeniden \u00e7at\u0131\u015fma ihtimalinin y\u00fcksek oldu\u011fu ve g\u00f6r\u00fc\u015fmelerin k\u00f6t\u00fcmserlikle s\u00fcrd\u00fc\u011f\u00fc haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131na ters y\u00f6nde etki ediyor; haberlerin \u00f6nemli k\u0131sm\u0131 yeni de\u011fil ve fiyatlanm\u0131\u015f olabilir.",
     "key_events": [
-     "\u0130ran\u2019la kapsaml\u0131 \u00e7at\u0131\u015fma riskinin zirvede oldu\u011fu haberleri",
-     "Tahran\u2019\u0131n g\u00f6r\u00fc\u015fmelere k\u00f6t\u00fcmser yakla\u015fmas\u0131 ve n\u00fckleer silah \u00e7a\u011fr\u0131lar\u0131",
-     "Dolar endeksinin hafif y\u00fckselmesi"
+     "\u0130ran\u2019la \u00e7at\u0131\u015fma riskine dair artan endi\u015feler",
+     "Dolar endeksinde hafif y\u00fckseli\u015f",
+     "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n i\u00e7in s\u0131n\u0131rl\u0131 etkili"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792908808479,
-    "score": -0.15,
-    "confidence": 0.35,
-    "reason": "\u0130ran sava\u015f\u0131 ve Husi f\u00fcze sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekliyor, ancak Fed'in \"\u015fahin duraklama\" beklentisi, 116 dolarl\u0131k petrol kaynakl\u0131 enflasyon bask\u0131s\u0131 ve son haftada ya\u015fanan yakla\u015f\u0131k %4'l\u00fck alt\u0131n d\u00fc\u015f\u00fc\u015f\u00fc k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. Bu sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in y\u00f6nsel etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendirildi.",
-    "new": 16,
-    "gpt_score": 0.08,
-    "gpt_confidence": 0.31
-   },
    {
     "ts": 1792911955407,
     "score": -0.2,
@@ -12488,24 +12487,36 @@
     "new": 9,
     "gpt_score": 0.35,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1793744354826,
+    "score": 0.12,
+    "confidence": 0.3,
+    "reason": "\u0130ran'la ilgili sava\u015f riski ve yeniden \u00e7at\u0131\u015fma endi\u015feleri alt\u0131n i\u00e7in hafif destekleyici bir jeopolitik talep unsuru olu\u015fturuyor. Ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyonun h\u0131zlanmas\u0131na dair haberler bu etkiyi dengeliyor; haberlerin \u00e7o\u011fu ise spor, tarih ya da zaten fiyatlanm\u0131\u015f geli\u015fmeler oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 7,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 6
+   "n": 7
   },
   "news_seen": [
+   "Chinese Yuan: Modest decline expected against US Dollar \u2013 UOB - FXStreet",
+   "AI\u2019s control over the bond market is growing \u2014 even rivaling war and elections - MarketWatch",
+   "CCS hits Bellarmine with severe football sanctions for ineligible player - The Mercury News",
    "Spanish transport minister resigns days after deadly train crash",
    "Ukrainian forces destroy 138 Russian heavy flamethrower systems since war began - Ukrinform",
    "Choice Spine Says Polsinelli Sanctions Bid Is Premature - Law360",
    "NTSB says crucial plane parts found three miles from Florida crash site",
+   "Human Circuits in Cold War Taiwan: The Radio Corporation of America, KMT Martial Law, and the Hidden Labour Behind Global Semiconductor Production - The Yale Review of International Studies",
    "i-80 Gold (IAUX) Q3 2026 Earnings Call Transcript - The Globe and Mail",
    "On Cusp of Renewed War, More Iranians are Calling for Nuclear Weapons - The New York Times",
+   "President Zelenskyy says US elections will impact war in Ukraine - Al Jazeera",
    "Mortgage Rates Climb in October Amid Accelerating Inflation - Eye On Housing",
    "Alton Marine Olin Gray Honored For His World War II Heroism - RiverBender.com",
-   "Forex: $159.62 to one US dollar - Jamaica Observer",
    "Hoyas Sweep MAISA Championship Weekend, Winning Fall Women's Title and War Memorial - Georgetown University Athletics",
-   "The Holy War between No. 7 BYU and No. 3 Utah kicks off final stretch in Big 12 title chase - News-Times",
    "As war strains Kremlin finances, Putin reaches into more pockets in search of new revenue streams - Japan Today",
    "FBI Hosts Law Enforcement Briefing at War Memorial Stadium - Sheridan Media",
    "African laborers were forgotten in stories of World War I. In this performance, they take center stage. - University of California, Berkeley",
@@ -12514,7 +12525,6 @@
    "Remains of missing World War II soldier from Massachusetts identified after eight decades - WWLP",
    "Mountain Home NJROTC cadets visit National Cold War Center - Baxter Bulletin",
    "Dam of The Puma Sells for $2.4 Million at Keeneland - BloodHorse",
-   "Florida Gov. Ron DeSantis says the Iran war has backfired on Republicans - WUHF",
    "Dollar Index Edges Higher as Markets Eye U.S. Midterms and Iran Talks; Yen Trades in Upper 158 Range - BigGo Finance",
    "Iran war latest: Tehran entering last-ditch talks with 'complete pessimism' - The National",
    "The Risk of a Full-Scale Conflict With Iran is at its Peak - The Maritime Executive",
@@ -12522,8 +12532,10 @@
    "Frogs O\u2019 War Reacts Survey: Should TCU bench Jaden Craig for Adam Schobel? - Frogs O' War",
    "Who Is Nicolo Tresoldi? The Striker Igniting a Bidding War Between Premier League Giants - Sports Illustrated",
    "Paris Jackson\u2019s $600M War with Father Michael Jackson\u2019s Estate - Extra",
+   "Florida Gov. Ron DeSantis says the Iran war has backfired on Republicans - The National News Desk",
    "Eve of War, Dam of The Puma, Takes The Lead at Keeneland November - Thoroughbred Daily News",
    "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+   "The Holy War between No. 7 BYU and No. 3 Utah kicks off final stretch in Big 12 title chase - Your Valley",
    "Stevens Point Post Office evacuated after World War II grenade found - wjfw.com",
    "Singapore Dollar: Range-bound trading outlook against US Dollar \u2013 UOB - FXStreet",
    "El-Sayed says \u2018we need less war,\u2019 citing financial hardships on Americans - NewsNation",
@@ -12534,17 +12546,11 @@
    "U.S. Navy guided-missile destroyer USS Gridley completes seven-month deployment - Defence Industry Europe",
    "Minneapolis Fed\u2019s Glaubke receives Federal Reserve System\u2019s Taylor Award - Federal Reserve Bank of Minneapolis",
    "US Air Force asks industry for new cruise missile for Ukraine - Air Force TImes",
-   "Child marriage cases surge in Gaza as war deepens poverty and displacement - The Jerusalem Post",
    "Iranians say they cannot afford emergency kits as fears of renewed war grow - Iran International",
-   "Married off at 14: In Yemen\u2019s war, women and girls suffer \u2018devastating consequences\u2019 - UN News",
-   "Pope Leo\u2019s envoy witnesses hunger in war-torn Ukraine - Catholic Courier",
-   "Saudi Budget Deficit More Than Doubles as War Strains Finances - Bloomberg.com",
-   "What comes next in Trump\u2019s war with Iran : Here & Now Anytime - NPR"
+   "Married off at 14: In Yemen\u2019s war, women and girls suffer \u2018devastating consequences\u2019 - UN News"
   ]
  },
  "log": [
-  "02.11 22:50 N  NEWS (9 new) score -0.20 conf 0.40: ",
-  "02.11 22:50 N  GPT  score -0.25 conf 0.52: ABD-\u0130ran ate\u015fkes g\u00f6r\u00fc\u015fmeleri ve H\u00fcrm\u00fcz\u2019\u00fcn yeniden a\u00e7\u0131labilece\u011fi haberleri sava\u015f risk primini azalt\u0131p petrol\u00fc sert d\u00fc\u015f\u00fcrerek alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir. Ancak Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl sald\u0131r\u0131 g\u00fcvenli liman talebini destekliyor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "02.11 22:50 B5  SHORT gold 25000 USD x10 @ 3944.54 (TP 3932.71, SL 3952.43; news -0.23)",
   "02.11 22:50 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015fla piyasa g\u00fcn sonuna zay\u0131f giriyor; \u0130ran bar\u0131\u015f umutlar\u0131 ile AI hisselerindeki bask\u0131 aras\u0131nda belirsizlik s\u00fcr\u00fcyor ve kapan\u0131\u015fa dakikalar kala yeni pozisyon a\u00e7mak i\u00e7in zaman yok.\u00bb / GPT \u00abTeknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor; ancak kapan\u0131\u015fa 11 dakika kala 1\u20133 saatlik i\u015flem seans sonras\u0131na ta\u015faca\u011f\u0131ndan bracket emirlerinin ge\u00e7erlili\u011fi do\u011frulanmal\u0131 ",
   "02.11 23:02 N  NEWS (10 new) score -0.30 conf 0.45: ABD-\u0130ran m\u00fczakere haberleri ve petrolde yakla\u015f\u0131k %7'lik d\u00fc\u015f\u00fc\u015f jeopolitik g\u00fcvenli liman talebini azalt\u0131yor, bu da alt\u0131n i\u00e7in olumsuz. El Ni\u00f1o kaynakl\u0131 enflasyon riski uyar\u0131s\u0131 (SF Fed) faiz beklentilerini sertle\u015ftirebilece\u011finden ek bir bask\u0131 yarat\u0131yor; ancak petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini bir \u00f6l\u00e7\u00fcde yumu\u015fat\u0131yor ve \"alt\u0131n yeniden toparland\u0131\" gibi kar\u0131\u015f\u0131k sinyaller var, bu nedenle g\u00fcven orta d\u00fczeyde.",
@@ -12842,7 +12848,9 @@
   "04.11 00:55 N  NEWS (10 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131 ve m\u00fczakere belirsizli\u011fi jeopolitik g\u00fcvenli liman talebini hafif destekliyor; ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyon kaynakl\u0131 faiz beklentilerinin sertle\u015fme ihtimali alt\u0131n i\u00e7in dengeleyici bir bask\u0131 olu\u015fturuyor. Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde ve eski/fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in sinyal zay\u0131f.",
   "04.11 00:55 N  GPT  score +0.12 conf 0.32: \u0130ran\u2019la \u00e7at\u0131\u015fman\u0131n yeniden t\u0131rmanabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir; ancak yeni ve do\u011frulanm\u0131\u015f bir geli\u015fme yok. Enflasyon ve y\u00fckselen mortgage faizleri ile dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131rarak g\u00f6r\u00fcn\u00fcm\u00fc dengeliyor.",
   "04.11 01:07 N  NEWS (9 new) score +0.25 conf 0.40: \u0130ran'la yeniden sava\u015f riski ve \"son \u00e7are\" m\u00fczakerelerinde karamsarl\u0131k, g\u00fcvenli liman talebini destekleyerek alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve enflasyonun h\u0131zlanmas\u0131 ile dolar endeksindeki y\u00fckseli\u015f faiz beklentilerini sertle\u015ftirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-  "04.11 01:07 N  GPT  score +0.35 conf 0.42: \u0130ran\u2019la yeniden \u00e7at\u0131\u015fma riskinin y\u00fckseldi\u011fine ve g\u00f6r\u00fc\u015fmelerin k\u00f6t\u00fcmser ilerledi\u011fine dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131ndaki y\u00fckseli\u015fi s\u0131n\u0131rlarken, ba\u015fl\u0131klar\u0131n bir k\u0131sm\u0131 yeni bir fiil\u00ee t\u0131rman\u0131\u015f de\u011fil risk de\u011ferlendirmesi niteli\u011finde."
+  "04.11 01:07 N  GPT  score +0.35 conf 0.42: \u0130ran\u2019la yeniden \u00e7at\u0131\u015fma riskinin y\u00fckseldi\u011fine ve g\u00f6r\u00fc\u015fmelerin k\u00f6t\u00fcmser ilerledi\u011fine dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131ndaki y\u00fckseli\u015fi s\u0131n\u0131rlarken, ba\u015fl\u0131klar\u0131n bir k\u0131sm\u0131 yeni bir fiil\u00ee t\u0131rman\u0131\u015f de\u011fil risk de\u011ferlendirmesi niteli\u011finde.",
+  "04.11 01:19 N  NEWS (7 new) score +0.12 conf 0.30: \u0130ran'la ilgili sava\u015f riski ve yeniden \u00e7at\u0131\u015fma endi\u015feleri alt\u0131n i\u00e7in hafif destekleyici bir jeopolitik talep unsuru olu\u015fturuyor. Ancak dolar endeksinin y\u00fckseli\u015fi ve enflasyonun h\u0131zlanmas\u0131na dair haberler bu etkiyi dengeliyor; haberlerin \u00e7o\u011fu ise spor, tarih ya da zaten fiyatlanm\u0131\u015f geli\u015fmeler oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "04.11 01:19 N  GPT  score +0.18 conf 0.36: \u0130ran\u2019la yeniden \u00e7at\u0131\u015fma ihtimalinin y\u00fcksek oldu\u011fu ve g\u00f6r\u00fc\u015fmelerin k\u00f6t\u00fcmserlikle s\u00fcrd\u00fc\u011f\u00fc haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131na ters y\u00f6nde etki ediyor; haberlerin \u00f6nemli k\u0131sm\u0131 yeni de\u011fil ve fiyatlanm\u0131\u015f olabilir."
  ],
  "gold_big": {
   "account": {
@@ -19191,6 +19199,10 @@
    [
     1793744164,
     4963.78
+   ],
+   [
+    1793744355,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -25467,6 +25479,10 @@
    [
     1793744164,
     4975.18
+   ],
+   [
+    1793744355,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -31709,6 +31725,10 @@
    [
     1793744164,
     4993.28
+   ],
+   [
+    1793744355,
+    4993.28
    ]
   ]
  },
@@ -37788,6 +37808,10 @@
    [
     1793744164,
     4969.22
+   ],
+   [
+    1793744355,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -42814,6 +42838,10 @@
    [
     1793744164,
     4615.47
+   ],
+   [
+    1793744355,
+    4612.16
    ]
   ],
   "news_calls": {
@@ -48859,6 +48887,10 @@
    [
     1793744164,
     102500.9
+   ],
+   [
+    1793744355,
+    102500.9
    ]
   ],
   "open": {},
@@ -53172,6 +53204,10 @@
    ],
    [
     1793744164,
+    5066.43
+   ],
+   [
+    1793744355,
     5066.43
    ]
   ],
