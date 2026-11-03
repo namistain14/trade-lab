@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 12:13 (İstanbul)
+> Son güncelleme: 03.11.2026 12:16 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,11 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %30.0 |
 | Ödenen komisyon/spread | 47.58 $ | 237.94 $ |
 
-**Hesap değeri: 4,631.09 $** (başlangıç 5,000 $, -368.91 $ / %-7.38)
+**Hesap değeri: 4,625.13 $** (başlangıç 5,000 $, -374.87 $ / %-7.50)
 
-Son haber analizi (03.11 12:04): Claude puan **-0.15**, güven 0.40 — Haberler karışık: İran savaşı ve Ukrayna'daki saldırılar jeopolitik talebi destekliyor, merkez bankalarının altın alımı güçlü ve bu yapısal olarak olumlu. Ancak ABD-İran diplomasisi petrol fiyatlarını düşürdüğü için güvenli liman primi sınırlı kalıyor, ABD doları ise belirsiz seyrediyor ve ABD ara seçim ile NFP verisi (cuma) kısa vadeli volatilite yaratabilir. Bu çelişkili ve büyük ölçüde fiyatlanmış haberler nedeniyle sinyal zayıf.
+Açık pozisyonlar: PAXGUSDT short @ 3908.44 (TP 3896.71 / SL 3916.26)
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Altının yaklaşık %1 düşmesi ve Orta Doğu kaynaklı petrol/enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskın biçimde olumsuz. Kuzey Kore ve İran gerilimi güvenli liman talebi yaratabilir; bu karşıt etkenler düşüş beklentisini sınırlıyor.
+Son haber analizi (03.11 12:16): Claude puan **-0.20**, güven 0.40 — Altın birkaç saatlik görünümde hafif negatif: fiyat son haberlerde yaklaşık %1 geriledi, ABD ara seçim öncesi zayıf seyir ve petrol kaynaklı enflasyon endişeleri faiz beklentilerini sertleştirerek altına baskı yapabilir. Buna karşılık merkez bankalarının Q3'te 321 ton alımı ve İran savaşının sürmesi destek unsuru; ayrıca Hindistan talebindeki %29'luk düşüş ve Cuma günkü NFP verisi belirsizliği artırıyor, bu çelişkiler güveni sınırlıyor.
+
+GPT (gpt-6-luna): puan **-0.25**, güven 0.42 — Altın fiyatındaki yakın dönem düşüş ve seçim öncesi temkinli görünüm kısa vadede aşağı yönlü baskıya işaret ediyor. İran gerilimi ve güçlü merkez bankası alımları destek sağlasa da bunlar kısa vadeli fiyat zayıflığını dengeleyebilir; haber akışı karışık ve bir kısmı zaten fiyatlanmış olabilir.
 
 Son işlemler:
 
@@ -84,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 11:05 N  GPT  score +0.35 conf 0.48: ABD’nin İran’daki Qeşm Adası’na saldırısı ve savaşın tırmanma riski kısa vadede güvenli liman talebini destekleyebilir. Ancak diplomasi haberleri ve petrolün gerilemesi bu etkiyi sınırlarken, daha uzun süre yüksek faiz uyarısı altın için olumsuz; net görünüm temkinli biçimde hafif pozitif.
-03.11 11:17 N  NEWS (6 new) score +0.10 conf 0.35: 
-03.11 11:17 N  GPT  score +0.35 conf 0.48: Ukrayna’da sivillerin öldüğü saldırı ve enerji altyapısına yönelik bombardıman kısa vadede güvenli liman talebini artırabilir. Buna karşılık dolar ve sıkı likiditeye ilişkin riskler ile İran konusunda diplomasi başlıkları yükselişi sınırlayabilir.
 03.11 11:29 N  NEWS (8 new) score -0.10 conf 0.35: Haberlerin yönü karışık: ABD'nin Hürmüz'deki Qeshm Adası saldırısı ve savaş gerilimi güvenli liman talebini destekliyor, merkez bankası altın alımlarının %42 artışı da uzun vadede pozitif. Buna karşılık, ABD ara seçim öncesi altın ve gümüşte satış baskısı, Hindistan talebinde %29'luk düşüş, İsviçre frangının enflasyon verisiyle güçlenmesi ve "daha uzun süre yüksek faiz" yorumları kısa vadede altı baskılıyor; DXY ise yaklaşık 101,5 seviyesinde sabit.
 03.11 11:29 N  GPT  score +0.20 conf 0.45: İran’daki yeni ABD saldırısı ve Ukrayna’daki ağır saldırılar kısa vadede güvenli liman talebini destekleyebilir; doların belirgin güçlenmemesi de altın için sınırlı olumlu. Ancak altındaki düşüş haberleri ve Hindistan talebindeki sert gerileme görünümü dengeliyor; talep verisi kısa vadeye daha az do
 03.11 11:35 A  SHORT BNBUSDT 4676 USD x3 @ 692.41 (ters sinyal, RSI 40)
@@ -99,6 +98,9 @@ Son işlemler:
 03.11 12:07 A  CLOSE BNBUSDT stop: -24.80 USD
 03.11 12:07 A  CLOSE XRPUSDT stop: -24.80 USD
 03.11 12:07 A  CLOSE DOGEUSDT stop: -12.40 USD
+03.11 12:16 N  NEWS (10 new) score -0.20 conf 0.40: Altın birkaç saatlik görünümde hafif negatif: fiyat son haberlerde yaklaşık %1 geriledi, ABD ara seçim öncesi zayıf seyir ve petrol kaynaklı enflasyon endişeleri faiz beklentilerini sertleştirerek altına baskı yapabilir. Buna karşılık merkez bankalarının Q3'te 321 ton alımı ve İran savaşının sürmesi destek unsuru; ayrıca Hindistan talebindeki %29'luk düşüş ve Cuma günkü NFP verisi belirsizliği artırıyor, bu çelişkiler güveni sınırlıyor.
+03.11 12:16 N  GPT  score -0.25 conf 0.42: Altın fiyatındaki yakın dönem düşüş ve seçim öncesi temkinli görünüm kısa vadede aşağı yönlü baskıya işaret ediyor. İran gerilimi ve güçlü merkez bankası alımları destek sağlasa da bunlar kısa vadeli fiyat zayıflığını dengeleyebilir; haber akışı karışık ve bir kısmı zaten fiyatlanmış olabilir.
+03.11 12:16 B5  SHORT gold 25000 USD x10 @ 3908.44 (TP 3896.71, SL 3916.26; news -0.23)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
