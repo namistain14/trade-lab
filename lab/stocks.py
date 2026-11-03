@@ -119,7 +119,8 @@ def _by_symbol(ans: dict) -> dict:
 def _record_close(acc: dict, tr: dict, exit_px: float, reason: str, log: list, tag: str) -> None:
     d = 1 if tr["side"] == "long" else -1
     pnl = (exit_px - tr["entry"]) * tr["qty"] * d
-    acc["trades"].append({**{k: tr[k] for k in ("id", "symbol", "side", "qty", "entry", "tp", "sl", "opened_ms")},
+    acc["trades"].append({"id": tr.get("id") or tr.get("order_id") or tr["symbol"],
+                          **{k: tr.get(k) for k in ("symbol", "side", "qty", "entry", "tp", "sl", "opened_ms")},
                           "note": tr.get("note", ""), "exit": exit_px, "closed_ms": _now_ms(), "reason": reason,
                           "gross": round(pnl, 2), "costs": 0.0, "pnl": round(pnl, 2), "entry_cost": 0.0})
     acc["trades"] = acc["trades"][-500:]
@@ -143,6 +144,61 @@ def _exit_of(api: Alpaca, order_id: str) -> tuple[float | None, str]:
     return None, "kapandı"
 
 
+def _ts_ms(x: str | None) -> int:
+    return int(dt.datetime.fromisoformat(x.replace("Z", "+00:00")).timestamp() * 1000) if x else _now_ms()
+
+
+def rebuild_trades(api: "Alpaca", since_iso: str) -> list[dict]:
+    """Every round trip on the paper account, rebuilt from filled orders: flat -> position -> flat = one trade."""
+    orders, after = [], since_iso
+    for _ in range(20):
+        page = api.get("/v2/orders", status="closed", after=after, direction="asc", limit=500, nested="false")
+        page = [o for o in page if float(o.get("filled_qty") or 0) > 0]
+        if not page:
+            break
+        orders += page
+        if len(page) < 2:
+            break
+        after = page[-1]["submitted_at"]
+        if len(orders) > 3000:
+            break
+    seen, fills = set(), []
+    for o in orders:
+        if o["id"] in seen:
+            continue
+        seen.add(o["id"])
+        fills.append(o)
+    fills.sort(key=lambda o: o.get("filled_at") or "")
+    out, book = [], {}
+    for o in fills:
+        sym, q = o["symbol"], float(o["filled_qty"]) * (1 if o["side"] == "buy" else -1)
+        px, t = float(o["filled_avg_price"]), _ts_ms(o.get("filled_at"))
+        b = book.setdefault(sym, {"qty": 0.0})
+        if b["qty"] == 0:
+            b.update(qty=q, side="long" if q > 0 else "short", entry=px, opened=t, id=o["id"], size=abs(q), cost=0.0)
+            continue
+        if (b["qty"] > 0) == (q > 0):          # adding to the same side
+            tot = abs(b["qty"]) + abs(q)
+            b["entry"] = (b["entry"] * abs(b["qty"]) + px * abs(q)) / tot
+            b["qty"] += q
+            b["size"] = tot
+            continue
+        closed = min(abs(q), abs(b["qty"]))
+        b["cost"] += px * closed
+        b["qty"] += q
+        if abs(b["qty"]) < 1e-9:
+            exit_px = b["cost"] / b["size"]
+            d = 1 if b["side"] == "long" else -1
+            pnl = (exit_px - b["entry"]) * b["size"] * d
+            kind = {"limit": "take profit", "stop": "stop", "stop_limit": "stop"}.get(o.get("type") or o.get("order_type"), "seans sonu")
+            out.append({"id": b["id"], "symbol": sym, "side": b["side"], "qty": b["size"], "entry": round(b["entry"], 4),
+                        "tp": None, "sl": None, "opened_ms": b["opened"], "note": "Alpaca kaydından", "exit": round(exit_px, 4),
+                        "closed_ms": t, "reason": kind, "gross": round(pnl, 2), "costs": 0.0, "pnl": round(pnl, 2),
+                        "entry_cost": 0.0})
+            book[sym] = {"qty": 0.0}
+    return out
+
+
 def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: str | None, tag: str = "B6") -> dict:
     key, secret = os.environ.get("ALPACA_KEY_ID", "").strip(), os.environ.get("ALPACA_SECRET", "").strip()
     if not key or not secret:
@@ -162,6 +218,20 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
         acc["start"] = round(last_eq or equity, 2)
         st_bot["started"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     pos = {p["symbol"]: p for p in api.get("/v2/positions")}
+    st_bot["alpaca"] = {"multiplier": account.get("multiplier"), "buying_power": account.get("buying_power"),
+                        "daytrading_buying_power": account.get("daytrading_buying_power")}
+
+    # Erdem 03.11: closed trades were lost to a bug ('id'); rebuild the whole history once from Alpaca's fills
+    if st_bot.get("rebuilt") != "v1":
+        try:
+            hist = rebuild_trades(api, st_bot.get("started") or "2026-10-23T00:00:00Z")
+            known = {(t.get("symbol"), t.get("opened_ms")) for t in acc["trades"]}
+            acc["trades"] = sorted(acc["trades"] + [t for t in hist if (t["symbol"], t["opened_ms"]) not in known],
+                                   key=lambda t: t["closed_ms"])
+            st_bot["rebuilt"] = "v1"
+            log.append(f"{tag}  Alpaca kaydından {len(hist)} kapanmış işlem geri yüklendi")
+        except Exception as e:  # noqa: BLE001
+            log.append(f"{tag}  işlem geçmişi alınamadı: {str(e)[:150]}")
 
     # positions that disappeared since the last tick -> record the result
     for sym in [s for s in track if s not in pos]:
@@ -284,6 +354,8 @@ def stocks_tick(st_bot: dict, bc: dict, news_cfg: dict, log: list, claude_key: s
             continue
         px = market[sym]["price"]
         notional = equity * bc.get("position_pct", 0.2) * lev
+        bp = float(account.get("daytrading_buying_power") or 0) or float(account.get("buying_power") or 0)
+        notional = min(notional, bp * 0.95) if bp > 0 else 0
         qty = math.floor(notional / px)
         if qty < 1:
             continue
