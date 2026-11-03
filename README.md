@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 03.11.2026 13:09 (İstanbul)
+> Son güncelleme: 03.11.2026 13:12 (İstanbul)
 
 ## Bot A — Kripto TERS (alım sinyalinde satış, x3)
 
@@ -33,13 +33,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %28.6 |
 | Ödenen komisyon/spread | 59.50 $ | 249.86 $ |
 
-**Hesap değeri: 4,567.89 $** (başlangıç 5,000 $, -432.11 $ / %-8.64)
+**Hesap değeri: 4,571.46 $** (başlangıç 5,000 $, -428.54 $ / %-8.57)
 
 Açık pozisyonlar: PAXGUSDT short @ 3916.57 (TP 3904.82 / SL 3924.40)
 
-Son haber analizi (03.11 13:00): Claude puan **-0.25**, güven 0.40 — Altın için karışık tablo var: ABD-İran diplomasi umutları ve Fed Başkanı Warsh'un sert açıklamaları (faiz beklentileri ve dolar tarafında) kısa vadede baskı yaratabilir; buna karşılık Qeshm Adası saldırıları ve savaş riski güvenli liman talebini destekliyor. Merkez bankası alımları yapısal olarak destekleyici olsa da kısa vadeli etkisi sınırlı.
+Son haber analizi (03.11 13:12): Claude puan **-0.05**, güven 0.35 — İran'ın Qeshm Adası'na ABD saldırısı ve petrol fiyatlarındaki yükseliş güvenli liman talebini destekliyor, ancak enflasyon kaygısı, Fed Başkanı Warsh'un sert açıklamaları ve yükselen dolar/Fed beklentileri altını aşağı çekiyor. Altın zaten son saatlerde geriliyor, bu nedenle net etki hafif negatif ve belirsiz.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.56 — Altın fiyatındaki düşüş ve petrol kaynaklı enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskı yaratıyor. İran’la anlaşmanın uzak görünmesi güvenli liman talebini artırabilir; merkez bankası alımları ise daha çok uzun vadeli ve kısa vadeli etkiyi sınırlı ölçüde dengeliyor.
+GPT (gpt-6-luna): puan **+0.20**, güven 0.43 — İran’ın Qeşm Adası’na yönelik yeni ABD saldırısı kısa vadede güvenli liman talebini artırabilir. Ancak petrol kaynaklı enflasyon ve faiz endişeleriyle altının zaten gerilemesi, olası yükselişi sınırlıyor; net etki hafif pozitif görünüyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-03.11 12:04 N  GPT  score -0.35 conf 0.58: Altının yaklaşık %1 düşmesi ve Orta Doğu kaynaklı petrol/enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskın biçimde olumsuz. Kuzey Kore ve İran gerilimi güvenli liman talebi yaratabilir; bu karşıt etkenler düşüş beklentisini sınırlıyor.
-03.11 12:07 A  CLOSE BNBUSDT stop: -24.80 USD
 03.11 12:07 A  CLOSE XRPUSDT stop: -24.80 USD
 03.11 12:07 A  CLOSE DOGEUSDT stop: -12.40 USD
 03.11 12:16 N  NEWS (10 new) score -0.20 conf 0.40: Altın birkaç saatlik görünümde hafif negatif: fiyat son haberlerde yaklaşık %1 geriledi, ABD ara seçim öncesi zayıf seyir ve petrol kaynaklı enflasyon endişeleri faiz beklentilerini sertleştirerek altına baskı yapabilir. Buna karşılık merkez bankalarının Q3'te 321 ton alımı ve İran savaşının sürmesi destek unsuru; ayrıca Hindistan talebindeki %29'luk düşüş ve Cuma günkü NFP verisi belirsizliği artırıyor, bu çelişkiler güveni sınırlıyor.
@@ -101,6 +99,8 @@ Son işlemler:
 03.11 12:48 B5  SHORT gold 25000 USD x10 @ 3916.57 (TP 3904.82, SL 3924.40; news -0.23)
 03.11 13:00 N  NEWS (13 new) score -0.25 conf 0.40: 
 03.11 13:00 N  GPT  score -0.25 conf 0.56: Altın fiyatındaki düşüş ve petrol kaynaklı enflasyon kaygılarının faiz beklentilerini desteklemesi kısa vadede baskı yaratıyor. İran’la anlaşmanın uzak görünmesi güvenli liman talebini artırabilir; merkez bankası alımları ise daha çok uzun vadeli ve kısa vadeli etkiyi sınırlı ölçüde dengeliyor.
+03.11 13:12 N  NEWS (11 new) score -0.05 conf 0.35: İran'ın Qeshm Adası'na ABD saldırısı ve petrol fiyatlarındaki yükseliş güvenli liman talebini destekliyor, ancak enflasyon kaygısı, Fed Başkanı Warsh'un sert açıklamaları ve yükselen dolar/Fed beklentileri altını aşağı çekiyor. Altın zaten son saatlerde geriliyor, bu nedenle net etki hafif negatif ve belirsiz.
+03.11 13:12 N  GPT  score +0.20 conf 0.43: İran’ın Qeşm Adası’na yönelik yeni ABD saldırısı kısa vadede güvenli liman talebini artırabilir. Ancak petrol kaynaklı enflasyon ve faiz endişeleriyle altının zaten gerilemesi, olası yükselişi sınırlıyor; net etki hafif pozitif görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
