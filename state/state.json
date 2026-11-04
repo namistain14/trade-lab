@@ -1181,6 +1181,10 @@
    [
     1793792221,
     5000.0
+   ],
+   [
+    1793792412,
+    5000.0
    ]
   ],
   "archive": [
@@ -11313,43 +11317,38 @@
    [
     1793792221,
     4868.5
+   ],
+   [
+    1793792412,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.45,
+   "score": 0.5,
    "confidence": 0.6,
-   "reason": "Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar endeksi 1 ay\u0131n dibine geriledi ve alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; dolar zay\u0131fl\u0131\u011f\u0131 ve b\u00fcy\u00fcme endi\u015feleri alt\u0131n i\u00e7in destekleyici. Getiri art\u0131\u015flar\u0131n\u0131n toparlanmay\u0131 s\u0131n\u0131rlamas\u0131, Cuma g\u00fcnk\u00fc istihdam verisi \u00f6ncesi belirsizlik ve baz\u0131 yorumlar\u0131n \"bo\u011fa ko\u015fusu bitebilir\" uyar\u0131s\u0131 nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
+   "reason": "Demokratlar\u0131n Kongre'yi kazanmas\u0131 dolar\u0131n zay\u0131flamas\u0131na ve ABD tahvil getirilerinin d\u00fc\u015fmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde net olarak destekleyici. Ancak dolar endeksi ve alt\u0131n hareketinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda ve \u0130ran sava\u015f\u0131 ile ilgili haberler kar\u0131\u015f\u0131k sinyal veriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793791692771,
-   "new_headlines": 11,
+   "ts": 1793792411787,
+   "new_headlines": 14,
    "key_events": [
-    "Demokratlar\u0131n ara se\u00e7im zaferi, dolar\u0131n d\u00fc\u015fmesine ve tahvil faizlerinin gerilemesine yol a\u00e7t\u0131",
-    "Alt\u0131n ve g\u00fcm\u00fc\u015f fiyatlar\u0131 midterm sonu\u00e7lar\u0131yla y\u00fckseldi",
-    "\u0130ran sava\u015f\u0131n\u0131n se\u00e7men taraf\u0131ndan reddedildi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar; jeopolitik risk primini k\u0131smen azaltabilir"
+    "Demokratlar\u0131n ABD Kongresi'ni kazanmas\u0131; dolar endeksi 1 ay\u0131n en d\u00fc\u015f\u00fck seviyesi 101.41",
+    "Alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; ABD tahvil getirileri geriledi",
+    "Avro B\u00f6lgesi enflasyonu %4'e \u00e7\u0131kt\u0131; faiz art\u0131r\u0131m\u0131 beklentisi"
    ],
    "gpt": {
-    "score": 0.58,
-    "confidence": 0.68,
-    "reason": "Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar\u0131n gerilemesi ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir; \u0130ran geli\u015fmeleri belirsiz ve yakla\u015fan ABD istihdam verisi y\u00f6n\u00fc de\u011fi\u015ftirebilir.",
+    "score": 0.55,
+    "confidence": 0.64,
+    "reason": "Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ve Hazine getirilerindeki d\u00fc\u015f\u00fc\u015f, alt\u0131n\u0131 k\u0131sa vadede destekliyor; fiyat\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 da bu tepkiyi do\u011fruluyor. Hareketin \u00f6nemli k\u0131sm\u0131 ba\u015fl\u0131klara yans\u0131m\u0131\u015f olabilir ve yakla\u015fan ABD istihdam verisi oynakl\u0131k yaratabilir.",
     "key_events": [
-     "Dolar endeksi se\u00e7im sonras\u0131 bir ay\u0131n dibine indi",
-     "Alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
-     "\u0130ran sava\u015f\u0131 ve ABD istihdam verisi belirsizlik yarat\u0131yor"
+     "Dolar endeksi bir ay\u0131n dibine geriledi",
+     "Hazine getirileri d\u00fc\u015ferken alt\u0131n 4.000 dolar\u0131 a\u015ft\u0131",
+     "ABD istihdam verisi \u00f6ncesi belirsizlik"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793102534787,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n, g\u00fc\u00e7lenen dolar ve Fed'in s\u0131k\u0131la\u015fma sinyali verebilece\u011fi beklentisi nedeniyle 4.000 dolar civar\u0131nda bask\u0131 alt\u0131nda; g\u00fcm\u00fc\u015f\u00fcn Temmuz dibini k\u0131rmas\u0131 da d\u00fc\u015f\u00fc\u015f momentumunu destekliyor. \u0130ran'daki sava\u015f ve H\u00fcrm\u00fcz gerilimi jeopolitik destek sa\u011flasa da, piyasa etkisi \u015fimdiye kadar s\u0131n\u0131rl\u0131 kald\u0131.",
-    "new": 28,
-    "gpt_score": -0.3,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1793105242371,
     "score": -0.4,
@@ -14040,63 +14039,70 @@
     "new": 11,
     "gpt_score": 0.58,
     "gpt_confidence": 0.68
+   },
+   {
+    "ts": 1793792411787,
+    "score": 0.5,
+    "confidence": 0.6,
+    "reason": "Demokratlar\u0131n Kongre'yi kazanmas\u0131 dolar\u0131n zay\u0131flamas\u0131na ve ABD tahvil getirilerinin d\u00fc\u015fmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde net olarak destekleyici. Ancak dolar endeksi ve alt\u0131n hareketinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda ve \u0130ran sava\u015f\u0131 ile ilgili haberler kar\u0131\u015f\u0131k sinyal veriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 14,
+    "gpt_score": 0.55,
+    "gpt_confidence": 0.64
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 58
+   "n": 59
   },
   "news_seen": [
+   "Uproar over missing 'pop' as Rice Krispies changes its recipe",
+   "Global central banks hit pause in October after September hiking spree - WKZO",
+   "Hungary opens communist-era informer files in belated reckoning with Cold War past - Reuters",
+   "US Dollar Index Falls on Democrat Victory and Political Uncertainty - FXEmpire",
+   "Waging war on weeds - Jackson Hole News&Guide",
+   "Zcash catches a bid as Democratic sweep pressures US dollar and Treasury yields. What's next? - investingLive",
+   "Crypto Today: Bitcoin, Ethereum, XRP extend advance as US Dollar slides on Democrats' US midterm victory - Mitrade",
+   "AUD/USD rebounds above 0.7000 as US dollar slides but key technical hurdles remain - investingLive",
    "Tudor Gold Pins a Break From Gold-Price Trading on 3 Fourth-Quarter Catalysts - Crux Investor",
    "Gold reclaims $4,000 as Democrats\u2019 Congress win rattles US Dollar - FXStreet",
-   "UK Financial Conduct Authority publishes sanctions-focused proposed changes to its Financial Crime Guide - Global Sanctions and Export Controls Blog",
    "Rwanda's army team removed from Africa league after US sanctions, NBA says",
    "Democrats' US Midterm Sweep: What It Can Mean For Oil, Dollar, Emerging Market Equities - NDTV Profit",
    "Gold Tops $4,000 as Democratic Midterm Sweep Sinks Dollar; Strategist Warns Bull Run May Be Over - BigGo Finance",
    "Contributor: The next Congress shouldn't let Iran become a 'background war' - Los Angeles Times",
    "Key moments from a night of midterm election firsts",
    "Gold ETF Inflows Rise as Yields Limit Gold Price Recovery - www.equiti.com",
-   "Rupee gains 17 paise to settle at 94.58 against US dollar - Deccan Herald",
    "Democrats Take Congress as Trump Says Iran War Is Partly to Blame for GOP Losses - WSJ",
    "Gold Prices Surge in Bangladesh: 22-Carat Reaches Tk 2,24,182 - https://www.businesstimes-bd.com/",
    "Yemen\u2019s War Reaches the Horn of Africa - Geopolitical Futures",
    "Steve Chapman: The Iran war may produce an unexpected achievement - Chicago Tribune",
    "Persian Gulf leaders fear a renewed U.S.-Iran war as diplomacy sputters - Los Angeles Times",
    "Brown: Even in red-hot steel sector, U.S.-Canada trade war hurts Minnesota - Star Tribune",
+   "Traveling exhibit highlights World War I dead - Cascade Pioneer",
    "US dollar index hits 1-month low at 101.41 after midterms - The News International",
    "US dollar slides after Democrats\u2019 midterm election win as growth fears rise - The Guardian",
    "Gold prices rise by Tk 3,324 per bhari in Bangladesh market - New Age BD",
-   "Oil slips as markets weigh U.S. election outcome, Iran war uncertainty - Investing.com",
+   "Dhanteras, Diwali 2026: Buying gold jewellery or silver coins? Check these 6 key details in your bill before paying - Livemint",
    "Could Democrats' midterm victory accelerate Trump's Iran war? - Iran International",
    "What's happening to UK interest rates and what does it mean for mortgages?",
    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms - CNBC",
    "Democrats' Election Victory Weighs on Dollar, Offers Potential Relief for Naira - https://www.nigeriahousingmarket.com/",
-   "No more rice grains in Kellogg's Rice Krispies due to changing weather",
    "Gold rises as Dollar weakens ahead of US jobs data - FXStreet",
    "El Ni\u00f1o could push U.S. inflation one percentage point higher in 2027 (SPY:NYSEARCA) - Seeking Alpha",
-   "Bargain-hunting lifts PH stocks; peso ends sideways vs US dollar MANILA \u2013 Bargain-hunting lifted the Philippine Stock Exchange index (PSEi) on Wednesday, but the Philippine peso ended sideways against the US dollar. The local bourse\u2019s main index rose - Facebook",
+   "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - WSJ",
+   "Gold rates in Delhi on November 4: 24,22 karat rates rise with Dhanteras two days away - Upstox",
    "Wide differences keep Iran, US far from agreement to end war - The Arab Weekly",
    "France opens war crimes probe into deadly Israeli strike in Beirut - The Arab Weekly",
    "Gold Price in Pakistan Today: Rs 423,000/Tola (24K) | Live Sarafa Rate - Investify",
    "West Red Lake Gold Announces Integrated PFS Delivering C$764 Million Post-Tax NPV and Annual Gold Production of 100,000 Ounces Once Rowan Enters Production - GlobeNewswire",
    "'Part of it was Iran': Trump cites war's role in Democratic midterm sweep - Reuters",
    "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+   "Sahil Babayev: Azerbaijan's Oil Fund realizes gains following gold price surge - Report.az",
+   "European Shares Rise as Novo Nordisk Earnings Lift Markets Ahead of Eurozone Inflation Data: DAX, CAC, FTSE100 - Yahoo Finance UK",
    "Ukraine\u2019s war veteran challenge - Chatham House",
-   "Should Prabowo call Putin to stop Indonesians from fighting in Ukraine? - South China Morning Post",
-   "Democratic Sweep Drops Dollar, Pushing Gold Past $4,000 Toward Key Test - Benzinga",
-   "Gold price today: One analyst sees a slide to $3,500, two are watching friday's jobs report - FXStreet",
-   "Culture-war arguments: No, that\u2019s not how any of this works - The Arkansas Democrat-Gazette",
-   "US Dollar, Euro and Yuan Continue to Rise on Belarusian Currency and Stock Exchange on November 4 - REFORM.news",
-   "Gold prices surge for second time in two days - The Financial Express",
-   "Iran's chief negotiator says Americans voted 'no to war'",
-   "Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap - Bloomberg.com",
-   "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms - Bloomberg.com",
-   "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar - Bloomberg.com"
+   "Should Prabowo call Putin to stop Indonesians from fighting in Ukraine? - South China Morning Post"
   ]
  },
  "log": [
-  "03.11 09:11 N  NEWS (10 new) score -0.15 conf 0.40: \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 (Qeshm Adas\u0131 sald\u0131r\u0131lar\u0131) jeopolitik g\u00fcvenli liman talebini destekliyor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentilerinin canl\u0131 kalmas\u0131 ve MCX'te ya\u015fanan sert d\u00fc\u015f\u00fc\u015f bask\u0131y\u0131 a\u011f\u0131rla\u015ft\u0131r\u0131yor. \u00c7eli\u015fkili ba\u015fl\u0131klar (5.000 dolar\u0131n \u00fczerindeki rekor iddias\u0131 ile 3.950 dolar\u0131n alt\u0131ndaki d\u00fc\u015f\u00fc\u015f) nedeniyle g\u00fcven d\u00fc\u015f\u00fck; net etki hafif negatif g\u00f6r\u00fcn\u00fcyor.",
-  "03.11 09:11 N  GPT  score +0.45 conf 0.58: H\u00fcrm\u00fcz Bo\u011faz\u0131 \u00e7evresinde bildirilen ABD sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131 kaynakl\u0131 LNG arz\u0131 riski, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak faiz art\u0131r\u0131m\u0131 beklentileri ve alt\u0131n\u0131n bask\u0131 alt\u0131nda oldu\u011funa dair haberler y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
   "03.11 09:14 A  CLOSE SOLUSDT take profit: +11.08 USD",
   "03.11 09:14 A  SHORT XRPUSDT 2389 USD x3 @ 1.25 (ters sinyal, RSI 43)",
   "03.11 09:36 N  NEWS (16 new) score +0.05 conf 0.35: Qeshm Adas\u0131'ndaki ABD sald\u0131r\u0131lar\u0131 jeopolitik risk prim_ini destekleyerek alt\u0131n i\u00e7in hafif pozitif, ancak Brent'in sert d\u00fc\u015f\u00fc\u015f\u00fc, s\u00fcren faiz art\u0131r\u0131m\u0131 beklentileri, ABD dolar\u0131 ve zay\u0131f alt\u0131n talebi (WGC ve Hindistan) bask\u0131y\u0131 art\u0131r\u0131yor. Haberler kar\u0131\u015f\u0131k ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
@@ -14394,7 +14400,9 @@
   "04.11 14:16 N  NEWS (38 new) score +0.30 conf 0.50: Dolar endeksinin 1 ayl\u0131k dibe (101.41) gerilemesi ve Demokratlar\u0131n kongre zaferinin dolara bask\u0131 yapmas\u0131 alt\u0131n\u0131 destekliyor; ancak alt\u0131n zaten 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 i\u00e7in bir k\u0131s\u0131m etki fiyatlanm\u0131\u015f durumda. Euro b\u00f6lgesi enflasyonunun %4'e \u00e7\u0131kmas\u0131 faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek getiri taraf\u0131nda bask\u0131 yaratabilir, ayr\u0131ca ETF giri\u015flerine ra\u011fmen tahvil getirileri alt\u0131n\u0131n toparlanmas\u0131n\u0131 s\u0131n\u0131rl\u0131yor. Cuma g\u00fcnk\u00fc ABD istihdam verisi k\u0131sa vadede volatiliteyi art\u0131racak.",
   "04.11 14:16 N  GPT  score +0.55 conf 0.56: Dolar\u0131n bir ayl\u0131k dip seviyeye gerilemesi ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; \u0130ran sava\u015f\u0131 \u00e7evresindeki belirsizlik de g\u00fcvenli liman talebine katk\u0131 sa\u011flayabilir. Ancak y\u00fckselen getirilerin toparlanmay\u0131 s\u0131n\u0131rlad\u0131\u011f\u0131 belirtiliyor ve ABD istihdam verisi \u00f6ncesi hare",
   "04.11 14:28 N  NEWS (11 new) score +0.45 conf 0.60: Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar endeksi 1 ay\u0131n dibine geriledi ve alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; dolar zay\u0131fl\u0131\u011f\u0131 ve b\u00fcy\u00fcme endi\u015feleri alt\u0131n i\u00e7in destekleyici. Getiri art\u0131\u015flar\u0131n\u0131n toparlanmay\u0131 s\u0131n\u0131rlamas\u0131, Cuma g\u00fcnk\u00fc istihdam verisi \u00f6ncesi belirsizlik ve baz\u0131 yorumlar\u0131n \"bo\u011fa ko\u015fusu bitebilir\" uyar\u0131s\u0131 nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
-  "04.11 14:28 N  GPT  score +0.58 conf 0.68: Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar\u0131n gerilemesi ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir; \u0130ran geli\u015fmeleri belirsiz ve yakla\u015fan ABD istihdam verisi y\u00f6n\u00fc de\u011fi\u015ftirebilir."
+  "04.11 14:28 N  GPT  score +0.58 conf 0.68: Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar\u0131n gerilemesi ve alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir; \u0130ran geli\u015fmeleri belirsiz ve yakla\u015fan ABD istihdam verisi y\u00f6n\u00fc de\u011fi\u015ftirebilir.",
+  "04.11 14:40 N  NEWS (14 new) score +0.50 conf 0.60: Demokratlar\u0131n Kongre'yi kazanmas\u0131 dolar\u0131n zay\u0131flamas\u0131na ve ABD tahvil getirilerinin d\u00fc\u015fmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde net olarak destekleyici. Ancak dolar endeksi ve alt\u0131n hareketinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda ve \u0130ran sava\u015f\u0131 ile ilgili haberler kar\u0131\u015f\u0131k sinyal veriyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
+  "04.11 14:40 N  GPT  score +0.55 conf 0.64: Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ve Hazine getirilerindeki d\u00fc\u015f\u00fc\u015f, alt\u0131n\u0131 k\u0131sa vadede destekliyor; fiyat\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 da bu tepkiyi do\u011fruluyor. Hareketin \u00f6nemli k\u0131sm\u0131 ba\u015fl\u0131klara yans\u0131m\u0131\u015f olabilir ve yakla\u015fan ABD istihdam verisi oynakl\u0131k yaratabilir."
  ],
  "gold_big": {
   "account": {
@@ -21519,6 +21527,10 @@
    [
     1793792221,
     4963.78
+   ],
+   [
+    1793792412,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28571,6 +28583,10 @@
    [
     1793792221,
     4975.18
+   ],
+   [
+    1793792412,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35589,6 +35605,10 @@
    [
     1793792221,
     4993.28
+   ],
+   [
+    1793792412,
+    4993.28
    ]
   ]
  },
@@ -42444,6 +42464,10 @@
    [
     1793792221,
     4969.22
+   ],
+   [
+    1793792412,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -48435,6 +48459,10 @@
    [
     1793792221,
     4875.16
+   ],
+   [
+    1793792412,
+    4870.46
    ]
   ],
   "news_calls": {
@@ -55256,6 +55284,10 @@
    [
     1793792221,
     102491.32
+   ],
+   [
+    1793792412,
+    102491.32
    ]
   ],
   "open": {},
@@ -60345,6 +60377,10 @@
    ],
    [
     1793792221,
+    5066.43
+   ],
+   [
+    1793792412,
     5066.43
    ]
   ],
