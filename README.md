@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 11:44 (İstanbul)
+> Son güncelleme: 04.11.2026 11:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %62.5 | %40.6 |
 | Ödenen komisyon/spread | 95.07 $ | 380.67 $ |
 
-**Hesap değeri: 4,827.78 $** (başlangıç 5,000 $, -172.22 $ / %-3.44)
+**Hesap değeri: 4,828.22 $** (başlangıç 5,000 $, -171.78 $ / %-3.44)
 
 Açık pozisyonlar: PAXGUSDT long @ 4034.05 (TP 4046.15 / SL 4025.98)
 
-Son haber analizi (04.11 11:39): Claude puan **+0.55**, güven 0.60 — Dolar zayıflaması ve ABD Hazine getirilerinin düşmesi (ara seçim sonrası) altın için destekleyici; ayrıca İran savaşı ve Hormuz'da mayınlanmış tankerler jeopolitik risk primini canlı tutuyor. Ancak dolar kaybı ve altın yükselişi kısmen fiyatlanmış olabilir ve Hormuz haberi görece eski, bu yüzden güven orta düzeyde.
+Son haber analizi (04.11 11:59): Claude puan **+0.40**, güven 0.50 — ABD ara seçim sonuçlarının ardından dolar endeksi beş haftanın en düşük seviyesine geriledi ve Hazine getirileri düştü; bu, altın için 1-4 saatlik vadede destekleyici bir etkidir. İran'daki ABD saldırıları (Qeshm Adası) ise jeopolitik güvenli liman talebini artırıyor, ancak Trump'ın savaş risklerini küçümsemesi bu etkiyi kısmen dengeliyor. Birçok başlığın aynı dolar-altın hareketini tekrar etmesi ve haberlerin büyük ölçüde fiyatlanmış olması nedeniyle güveni sınırlı tuttum.
 
-GPT (gpt-6-luna): puan **+0.62**, güven 0.68 — Doların zayıflaması ve Hazine getirilerinin gerilemesi altını destekliyor; Hürmüz’de tankerlerin mayınlarla imha edildiği haberi de güvenli liman talebini artırabilir. Ancak altın seçim sonuçlarıyla zaten sert yükseldiğinden ve haber akışında anlaşma umudu da bulunduğundan kısa vadeli ek yükselişin 
+GPT (gpt-6-luna): puan **+0.78**, güven 0.76 — İran’ın Qeshm Adası’na yönelik yeni ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; Trump’ın savaş riskini küçümsemesi ise etkiyi bir miktar sınırlıyor. Doların zayıflaması ve altının seçim sonrası yükselişi de altını destekliyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 09:58 N  GPT  score +0.65 conf 0.68: Doların seçim sonuçları sonrası zayıflaması ve getirilerdeki düşüş altını kısa vadede destekliyor; DPRK füze haberleri de sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin çoğu aynı gelişmenin tekrarı ve kâr satışları olasılığı yükselişi sınırlayabilir.
-04.11 10:10 N  NEWS (18 new) score +0.25 conf 0.50: Dolar, ara seçim sonrası bir aylık en düşük seviyesine geriledi ve altın yaklaşık %2 yükselip 4.000 doların üzerine çıktı; bu, gold için kısa vadede olumlu bir sinyal. Ancak 07:03 UTC civarı haberlerde altının yeniden düştüğü ve Bullard'ın Aralık'ta faiz artırımını savunması gibi şahin unsurlar var; ayrıca hareketin büyük kısmı zaten fiyatlandı, bu yüzden güven orta düzeyde tutuldu.
 04.11 10:10 N  GPT  score +0.20 conf 0.48: Demokratların ara seçimlerdeki kazanımları ve zayıflayan dolar altını destekliyor; ancak altının %2’yi aşan yükselişten sonra yeniden gerilediğine dair yeni başlıklar kısa vadeli yönü belirsizleştiriyor. İran savaşı ve petrol oynaklığı güvenli liman talebini canlı tutabilir, fakat haberlerin önemli 
 04.11 10:22 N  NEWS (9 new) score +0.30 conf 0.50: Dolar, ara seçim sonrası bir aylık en düşük seviyesine geriledi ve altın yaklaşık %2 yükselerek 4.000 doların üzerine çıktı; bu, kısa vadede altın için olumlu. Ancak sıçrama büyük ölçüde fiyatlanmış görünüyor, bazı haberlerde altının yeniden düşüşe geçtiği ve petrol fiyatlarındaki dalgalanmaların yatırımcıları temkinli tuttuğu bildiriliyor. Bullard'ın Aralık'ta faiz artırımı çağrısı ise bir miktar baskı yaratabilir. Bu nedenlerle sinyal orta düzeyde pozitif ama belirsiz.
 04.11 10:22 N  GPT  score +0.45 conf 0.62: Demokratların ara seçimlerdeki kazanımları ve İran savaşının siyasi etkisi riskten kaçışı desteklerken, doların zayıflaması ve düşen getiriler altın için kısa vadede olumlu. Ancak altının zaten %2’den fazla yükseldiğine dair haberler ve ters yönlü fiyat başlıkları, önümüzdeki saatlerde kâr satışları
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 11:27 N  GPT  score +0.66 conf 0.72: Ara seçim sonuçlarının ardından doların zayıflaması altını kısa vadede destekliyor; fiyatın 4.000 doların üzerine çıkması güçlü bir yukarı yönlü tepkiye işaret ediyor. Ancak yükselişin önemli kısmı gerçekleşmiş olabilir ve İran haberleri karışık olduğundan kâr satışları riski var.
 04.11 11:39 N  NEWS (10 new) score +0.55 conf 0.60: Dolar zayıflaması ve ABD Hazine getirilerinin düşmesi (ara seçim sonrası) altın için destekleyici; ayrıca İran savaşı ve Hormuz'da mayınlanmış tankerler jeopolitik risk primini canlı tutuyor. Ancak dolar kaybı ve altın yükselişi kısmen fiyatlanmış olabilir ve Hormuz haberi görece eski, bu yüzden güven orta düzeyde.
 04.11 11:39 N  GPT  score +0.62 conf 0.68: Doların zayıflaması ve Hazine getirilerinin gerilemesi altını destekliyor; Hürmüz’de tankerlerin mayınlarla imha edildiği haberi de güvenli liman talebini artırabilir. Ancak altın seçim sonuçlarıyla zaten sert yükseldiğinden ve haber akışında anlaşma umudu da bulunduğundan kısa vadeli ek yükselişin 
+04.11 11:59 N  NEWS (16 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından dolar endeksi beş haftanın en düşük seviyesine geriledi ve Hazine getirileri düştü; bu, altın için 1-4 saatlik vadede destekleyici bir etkidir. İran'daki ABD saldırıları (Qeshm Adası) ise jeopolitik güvenli liman talebini artırıyor, ancak Trump'ın savaş risklerini küçümsemesi bu etkiyi kısmen dengeliyor. Birçok başlığın aynı dolar-altın hareketini tekrar etmesi ve haberlerin büyük ölçüde fiyatlanmış olması nedeniyle güveni sınırlı tuttum.
+04.11 11:59 N  GPT  score +0.78 conf 0.76: İran’ın Qeshm Adası’na yönelik yeni ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; Trump’ın savaş riskini küçümsemesi ise etkiyi bir miktar sınırlıyor. Doların zayıflaması ve altının seçim sonrası yükselişi de altını destekliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
