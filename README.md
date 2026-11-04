@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 16:37 (İstanbul)
+> Son güncelleme: 04.11.2026 16:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %58.3 | %41.7 |
 | Ödenen komisyon/spread | 142.49 $ | 428.08 $ |
 
-**Hesap değeri: 4,860.92 $** (başlangıç 5,000 $, -139.08 $ / %-2.78)
+**Hesap değeri: 4,854.99 $** (başlangıç 5,000 $, -145.01 $ / %-2.90)
+
+Açık pozisyonlar: PAXGUSDT long @ 4036.74 (TP 4048.85 / SL 4028.66)
 
 Son haber analizi (04.11 16:32): Claude puan **+0.50**, güven 0.60 — Dolar endeksi (DXY) ABD ara seçim sonuçlarının ardından 4-5 haftanın en düşük seviyesine geriledi ve büyüme endişeleri arttı; bu, altın için 1-4 saatlik vadede doğrudan destekleyici. İran savaşının seçim sonucunu etkilediğine dair haberler jeopolitik risk primini de hafifçe artırıyor, ancak piyasalar zaten dolar zayıflığını fiyatlamış durumda ve Dhanteras'a ilişkin perakende/düzeltme haberleri gibi bazı başlıklar eski veya tek başına belirleyici değil.
 
@@ -84,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 15:09 B5  LONG gold 25000 USD x10 @ 4034.77 (TP 4046.87, SL 4026.70; news +0.53)
 04.11 15:21 N  NEWS (9 new) score +0.40 conf 0.55: Demokratların Kongre zaferi doların bir aylık en düşük seviyesine gerilemesine ve Hazine tahvil getirilerinin düşmesine yol açtı; bu, altın için olumlu bir etkidir. ABD'nin İran'ın Qeshm Adası'nı vurması jeopolitik risk primini artırıyor, ancak Trump'ın riskleri yatıştırma mesajı bu etkiyi sınırlıyor ve haberlerin bir kısmı zaten fiyatlanmış olabilir.
 04.11 15:21 N  GPT  score +0.68 conf 0.67: İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; Trump’ın savaş risklerini küçümsemesi bu etkiyi sınırlıyor. Dolar ve Hazine getirilerindeki düşüş de altını destekliyor, ancak seçim kaynaklı hareketin bir kısmı fiyatlanmış görünüyor.
 04.11 15:33 B5  CLOSE long take profit: +69.06 USD
@@ -99,6 +100,7 @@ Son işlemler:
 04.11 16:32 N  NEWS (16 new) score +0.50 conf 0.60: Dolar endeksi (DXY) ABD ara seçim sonuçlarının ardından 4-5 haftanın en düşük seviyesine geriledi ve büyüme endişeleri arttı; bu, altın için 1-4 saatlik vadede doğrudan destekleyici. İran savaşının seçim sonucunu etkilediğine dair haberler jeopolitik risk primini de hafifçe artırıyor, ancak piyasalar zaten dolar zayıflığını fiyatlamış durumda ve Dhanteras'a ilişkin perakende/düzeltme haberleri gibi bazı başlıklar eski veya tek başına belirleyici değil.
 04.11 16:32 N  GPT  score +0.45 conf 0.62: Demokratların ara seçim başarısının ardından doların gerilemesi altını kısa vadede destekliyor; İran’dan gelen sert uyarılar da güvenli liman talebini artırabilir. Ancak seçim kaynaklı hareketin bir kısmı fiyatlanmış olabilir ve yeni bir askerî tırmanış haberi yok.
 04.11 16:32 B6  seans öncesi görüş: Seçim sonuçlarına rağmen güçlü ADP verisiyle piyasa pozitif açılışa hazırlanıyor; şirkete özel olumsuz haberler hisse bazında ayrışma yaratıyor.
+04.11 16:40 B5  LONG gold 25000 USD x10 @ 4036.74 (TP 4048.85, SL 4028.66; news +0.47)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
