@@ -585,6 +585,10 @@
    [
     1793755726,
     5000.0
+   ],
+   [
+    1793755917,
+    5000.0
    ]
   ],
   "archive": [
@@ -10121,43 +10125,38 @@
    [
     1793755726,
     4868.5
+   ],
+   [
+    1793755917,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.45,
+   "score": -0.4,
    "confidence": 0.6,
-   "reason": "Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar g\u00fc\u00e7leniyor, tahvil getirileri y\u00fckseliyor ve \u0130ran-ABD gerilimindeki yumu\u015fama g\u00fcvenli liman talebini azalt\u0131yor. Fed'in enflasyon konusunda endi\u015feli olmas\u0131 da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz bir sinyal; ancak haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan ve ABD ara se\u00e7im sonu\u00e7lar\u0131 belirsiz oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
+   "reason": "Alt\u0131n, dolar ve tahvil getirilerinin y\u00fckselmesi, \u0130ran ile gerilimin azalmas\u0131 (g\u00fcvenli liman talebini zay\u0131flat\u0131yor) ve Fed'in enflasyon konusundaki endi\u015feleri nedeniyle 1-4 saat i\u00e7inde bask\u0131 alt\u0131nda g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n zaten bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor, petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n beklenmesi belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1793755195769,
-   "new_headlines": 6,
+   "ts": 1793755916196,
+   "new_headlines": 8,
    "key_events": [
-    "Alt\u0131n bir y\u0131ll\u0131k dibe geriledi; dolar ve tahvil getirileri y\u00fckseliyor",
-    "\u0130ran-ABD gerilimi azal\u0131yor, g\u00fcvenli liman talebi zay\u0131fl\u0131yor",
-    "Fed enflasyon ve yapay zek\u00e2 nedeniyle endi\u015feli; ABD ara se\u00e7im sonu\u00e7lar\u0131 bekleniyor"
+    "Dolar ve ABD tahvil getirileri y\u00fckseldi, alt\u0131n 3.950 dolar\u0131n alt\u0131na geriledi",
+    "ABD-\u0130ran gerilimindeki azalma g\u00fcvenli liman talebini zay\u0131flat\u0131yor",
+    "Fed enflasyon ve yapay zeka kaynakl\u0131 bask\u0131lar nedeniyle temkinli; ABD ara se\u00e7im sonu\u00e7lar\u0131 bekleniyor"
    ],
    "gpt": {
-    "score": 0.18,
-    "confidence": 0.34,
-    "reason": "Alt\u0131n fiyat\u0131n\u0131n yumu\u015fayan petrol fiyatlar\u0131yla toparland\u0131\u011f\u0131 haberi ve Ukrayna\u2019daki yeni sald\u0131r\u0131lar k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak Fed\u2019in enflasyon kayg\u0131lar\u0131 ve \u00f6nceki dolar/getiri kaynakl\u0131 d\u00fc\u015f\u00fc\u015f haberleri y\u00f6n\u00fc belirsizle\u015ftiriyor; etkilerin bir k\u0131sm\u0131 \u00f6nceden fiyatlanm\u0131\u015f olabilir.",
+    "score": 0.05,
+    "confidence": 0.32,
+    "reason": "Yumu\u015fayan petrol fiyatlar\u0131 alt\u0131na hafif destek verirken, dolar ve tahvil getirilerindeki y\u00fckseli\u015f bask\u0131 yarat\u0131yor. \u0130ran geriliminin azalmas\u0131 ve \u00e7eli\u015fkili alt\u0131n haberleri k\u0131sa vadeli y\u00f6n sinyalini zay\u0131flat\u0131yor.",
     "key_events": [
-     "Alt\u0131n yumu\u015fayan petrol fiyatlar\u0131yla y\u00fckseldi",
-     "Ukrayna\u2019da enerji ve sivil altyap\u0131ya sald\u0131r\u0131lar",
-     "Fed\u2019in enflasyon kayg\u0131lar\u0131"
+     "Yumu\u015fak petrol fiyatlar\u0131 alt\u0131na destek",
+     "Dolar ve getirilerde y\u00fckseli\u015f bask\u0131s\u0131",
+     "\u0130ran gerilimi azal\u0131yor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1792990689434,
-    "score": 0.1,
-    "confidence": 0.4,
-    "reason": "Jeopolitik gerilim (\u0130ran/H\u00fcrm\u00fcz, Husi sald\u0131r\u0131lar\u0131, ABD'nin sava\u015f haz\u0131rl\u0131\u011f\u0131 haberleri) alt\u0131n i\u00e7in g\u00fcvenli liman talebi yarat\u0131yor ve hafif pozitif. Ancak petrol kaynakl\u0131 enflasyon endi\u015fesi Fed'in uzun s\u00fcre y\u00fcksek faiz tutaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek bask\u0131 yarat\u0131yor, dolar ise zay\u0131f seyrediyor. Bu kar\u0131\u015f\u0131k sinyaller ve FOMC \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil; g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 31,
-    "gpt_score": 0.22,
-    "gpt_confidence": 0.36
-   },
    {
     "ts": 1792992908247,
     "score": -0.1,
@@ -12848,11 +12847,20 @@
     "new": 6,
     "gpt_score": 0.18,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1793755916196,
+    "score": -0.4,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n, dolar ve tahvil getirilerinin y\u00fckselmesi, \u0130ran ile gerilimin azalmas\u0131 (g\u00fcvenli liman talebini zay\u0131flat\u0131yor) ve Fed'in enflasyon konusundaki endi\u015feleri nedeniyle 1-4 saat i\u00e7inde bask\u0131 alt\u0131nda g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n zaten bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor, petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n beklenmesi belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
+    "new": 8,
+    "gpt_score": 0.05,
+    "gpt_confidence": 0.32
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 18
+   "n": 19
   },
   "news_seen": [
    "Gold firms on softer oil prices, US midterm results awaited - The Mighty 790 KFGO",
@@ -12860,20 +12868,21 @@
    "FOMC Meeting: Why the Fed Is Nervous About Inflation and AI - Briefs Finance",
    "Ukraine war briefing: race to free dozens trapped under rubble of Russian strikes on aid hub - The Guardian",
    "Why Did Gold and Silver Slide to Their Lowest in a Year? - Kalkine",
-   "Iran War Doubles Egypt\u2019s LNG Bill as Gas Output Keeps Falling - Yahoo Finance",
    "Opinion | Can China tame its war machine? - South China Morning Post",
-   "Inglewood\u2019s Billionaire Billboard War is on the Ballot - Puck",
+   "Gold prices today, November 4th: Reversed downward trend as USD and US bond yields rose. - Vietnam.vn",
    "Ringgit strengthens as easing US-Iran tensions weigh on US dollar - The Vibes",
-   "Egypt\u2019s Sisi warns of \u2018catastrophic\u2019 fallout if US-Iran war resumes - Anadolu Ajans\u0131",
    "Ringgit opens marginally higher against US dollar - NST Online",
    "Bitcoin investors could pay the price as the Federal Reserve tightens bank lending rules - Cryptonews.net",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "Gold falls 0.5% on November 3 as dollar and yields rise - Nation Thailand",
    "Ringgit opens marginally higher against US dollar - Free Malaysia Today",
-   "Ukraine faces massive drone and missile strikes on power plants and civilian infrastructure - Fox News",
+   "Gold edges higher on softer oil prices - Business Recorder",
    "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms - Bloomberg.com",
    "Daniel Island veteran stood ready to launch during Cuban Missile Crisis - The Daniel Island News",
    "Rupee may slide to 102 against US dollar by December 2027, 106 by 2028: Report - Business Today",
+   "Gold prices today (November 4): Domestic gold continues to rise, world gold falls. - Vietnam.vn",
    "Iran war latest: Tehran entering last-ditch talks with 'complete pessimism' - The National",
+   "Gold prices today, November 4th: SJC gold increases by 600,000 VND/ounce, global prices recover. - Vietnam.vn",
    "Canva announces major job cuts after 'our hardest year yet'",
    "Gold demand steady in Q3 supported by ETFs and central banks - FXStreet",
    "90th Missile Wing announces death of Security Forces Airman - Cap City News",
@@ -12883,19 +12892,18 @@
    "Trump, Iran and the MOAB: Oil and Gold After the Midterms - CryptoTicker.io",
    "'I'm not a quitter': Kim Kardashian on retaking the bar exam",
    "Most voters oppose Iran war but say cost of living, government corruption motivated their ballot - Washington Times",
-   "Trump\u2019s trade chief pushing him to step up negotiations with Canada - Politico",
+   "Commentary: This Veterans Day, let\u2019s focus on preventing war - Itemlive",
    "Iran speaker: Ball in Trump administration court to prevent renewed war - The Hill",
-   "Colby students take on disinformation in Waterville election war room - Centralmaine.com",
    "Real Estate Investors Grow Cautious Amid Economic and Geopolitical Uncertainty - GroundBreak Carolinas",
    "OpenAI and Anthropic Set Up \u2018War Rooms\u2019 to Fight Disinfo About Midterm Elections - The New York Times",
    "US has no immediate plan to strike Iran, Trump tells FT - Financial Times",
    "Bedford area veterans host free Vietnam War Exhibit, promoting continued education - WJAC",
    "Gold Slides to a One-Year Low as Rally Unwinds - ETF.com",
    "Gold declines below $3,950 on stronger US Dollar, US midterm elections in focus - FXStreet",
-   "This Forgotten Cold War Nuclear Base Gives Us An Unexpected Perspective On Earth's Climate - BGR",
+   "Iran war has cost US families over $2K each - wandtv.com",
    "Hail Melania Trump, the one US diplomat making a difference in the Russia-Ukraine war - New York Post",
+   "How popular is the Iran War? - Silver Bulletin",
    "Holy War between No. 7 BYU, No. 3 Utah kicks off final stretch in Big 12 title chase - KUTV",
-   "Asian Tech Stocks to Rise on AI Rally as US Votes: Markets Wrap - Bloomberg.com",
    "More Iranians Call for Nuclear Weapons After War With U.S. - The New York Times",
    "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
    "Gold price update morning of November 4th: Fall after a quick recovery - Laodong.vn",
@@ -12903,8 +12911,6 @@
   ]
  },
  "log": [
-  "03.11 00:03 N  NEWS (11 new) score +0.08 conf 0.40: Haberler kar\u0131\u015f\u0131k: ABD-\u0130ran anla\u015fmas\u0131 beklentisi ve petrol d\u00fc\u015f\u00fc\u015f\u00fc, Fed faiz art\u0131\u015f\u0131 beklentilerini zay\u0131flatarak alt\u0131n i\u00e7in destekleyici olabilir; zay\u0131flayan dolar da olumlu. \u00d6te yandan g\u00fcvenli liman talebini azaltan bar\u0131\u015f beklentisi ve Dallas Fed ba\u015fkan\u0131n\u0131n \"en az iki faiz art\u0131\u015f\u0131 gerekli\" yorumu alt\u0131n i\u00e7in olumsuz. Bu \u00e7eli\u015fkiler ve alt\u0131n\u0131n son d\u00f6nemdeki sert d\u00fc\u015f\u00fc\u015f\u00fc nedeniyle y\u00f6n belirsiz, hafif pozitif bir e\u011filim s\u0131n\u0131rl\u0131 g\u00fcvenle de\u011ferlendirildi.",
-  "03.11 00:03 N  GPT  score +0.15 conf 0.38: \u0130ran\u2019la anla\u015fma ve H\u00fcrm\u00fcz\u2019\u00fcn yeniden a\u00e7\u0131lmas\u0131 ihtimali g\u00fcvenli liman talebini s\u0131n\u0131rlasa da dolar\u0131n gerilemesi ve petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 alt\u0131na k\u0131sa vadede hafif destek sa\u011flayabilir. Dallas Fed yetkilisinin en az iki faiz art\u0131\u015f\u0131 gerekti\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas",
   "03.11 00:06 A  SHORT BTCUSDT 4773 USD x3 @ 76798.96 (ters sinyal, RSI 43)",
   "03.11 00:06 A  SHORT BNBUSDT 4773 USD x3 @ 695.68 (ters sinyal, RSI 45)",
   "03.11 00:18 N  NEWS (7 new) score +0.05 conf 0.35: ",
@@ -13202,7 +13208,9 @@
   "04.11 04:07 N  NEWS (28 new) score -0.40 conf 0.50: Alt\u0131n, g\u00fc\u00e7lenen dolar ve y\u00fckselen ABD tahvil getirileri nedeniyle d\u00fc\u015f\u00fc\u015f e\u011filimindedir; \"Gold Slides to a One-Year Low\" ve \"Gold declines below $3,950\" ba\u015fl\u0131klar\u0131 bu bask\u0131y\u0131 teyit ediyor. \u0130ran'la gerilimin gev\u015femesi jeopolitik g\u00fcvenli liman talebini azaltarak ek bir bask\u0131 yarat\u0131yor, ancak \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flama riski ve s\u00fcrmekte olan \u00e7at\u0131\u015fmalar (Ukrayna) yukar\u0131 y\u00f6nl\u00fc riski s\u0131n\u0131rl\u0131 da olsa koruyor; ayr\u0131ca baz\u0131 ba\u015fl\u0131klar eski veya k\u0131smen fiyatlanm\u0131\u015f haberler.",
   "04.11 04:07 N  GPT  score +0.18 conf 0.38: \u0130ran g\u00f6r\u00fc\u015fmelerindeki karamsarl\u0131k ve Ukrayna\u2019ya y\u00f6nelik sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; ABD-\u0130ran geriliminin hafiflemesi ve son d\u00f6nemde y\u00fckselen dolar ile tahvil getirileri ise alt\u0131n\u0131 bask\u0131l\u0131yor. \u00c7eli\u015fkili sinyaller nedeniyle 1-4 saatlik etki hafif pozitif, ancak belirsiz.",
   "04.11 04:19 N  NEWS (6 new) score -0.45 conf 0.60: Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar g\u00fc\u00e7leniyor, tahvil getirileri y\u00fckseliyor ve \u0130ran-ABD gerilimindeki yumu\u015fama g\u00fcvenli liman talebini azalt\u0131yor. Fed'in enflasyon konusunda endi\u015feli olmas\u0131 da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz bir sinyal; ancak haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan ve ABD ara se\u00e7im sonu\u00e7lar\u0131 belirsiz oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
-  "04.11 04:19 N  GPT  score +0.18 conf 0.34: Alt\u0131n fiyat\u0131n\u0131n yumu\u015fayan petrol fiyatlar\u0131yla toparland\u0131\u011f\u0131 haberi ve Ukrayna\u2019daki yeni sald\u0131r\u0131lar k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak Fed\u2019in enflasyon kayg\u0131lar\u0131 ve \u00f6nceki dolar/getiri kaynakl\u0131 d\u00fc\u015f\u00fc\u015f haberleri y\u00f6n\u00fc belirsizle\u015ftiriyor; etkilerin bir k\u0131sm\u0131 \u00f6nceden fiyatlanm\u0131\u015f olabilir."
+  "04.11 04:19 N  GPT  score +0.18 conf 0.34: Alt\u0131n fiyat\u0131n\u0131n yumu\u015fayan petrol fiyatlar\u0131yla toparland\u0131\u011f\u0131 haberi ve Ukrayna\u2019daki yeni sald\u0131r\u0131lar k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak Fed\u2019in enflasyon kayg\u0131lar\u0131 ve \u00f6nceki dolar/getiri kaynakl\u0131 d\u00fc\u015f\u00fc\u015f haberleri y\u00f6n\u00fc belirsizle\u015ftiriyor; etkilerin bir k\u0131sm\u0131 \u00f6nceden fiyatlanm\u0131\u015f olabilir.",
+  "04.11 04:31 N  NEWS (8 new) score -0.40 conf 0.60: Alt\u0131n, dolar ve tahvil getirilerinin y\u00fckselmesi, \u0130ran ile gerilimin azalmas\u0131 (g\u00fcvenli liman talebini zay\u0131flat\u0131yor) ve Fed'in enflasyon konusundaki endi\u015feleri nedeniyle 1-4 saat i\u00e7inde bask\u0131 alt\u0131nda g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n zaten bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor, petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n beklenmesi belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
+  "04.11 04:31 N  GPT  score +0.05 conf 0.32: Yumu\u015fayan petrol fiyatlar\u0131 alt\u0131na hafif destek verirken, dolar ve tahvil getirilerindeki y\u00fckseli\u015f bask\u0131 yarat\u0131yor. \u0130ran geriliminin azalmas\u0131 ve \u00e7eli\u015fkili alt\u0131n haberleri k\u0131sa vadeli y\u00f6n sinyalini zay\u0131flat\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -19731,6 +19739,10 @@
    [
     1793755726,
     4963.78
+   ],
+   [
+    1793755917,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -26187,6 +26199,10 @@
    [
     1793755726,
     4975.18
+   ],
+   [
+    1793755917,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -32609,6 +32625,10 @@
    [
     1793755726,
     4993.28
+   ],
+   [
+    1793755917,
+    4993.28
    ]
   ]
  },
@@ -38868,6 +38888,10 @@
    [
     1793755726,
     4969.22
+   ],
+   [
+    1793755917,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -44078,6 +44102,10 @@
    ],
    [
     1793755726,
+    4601.28
+   ],
+   [
+    1793755917,
     4601.28
    ]
   ],
@@ -50304,6 +50332,10 @@
    [
     1793755726,
     102500.9
+   ],
+   [
+    1793755917,
+    102500.9
    ]
   ],
   "open": {},
@@ -54797,6 +54829,10 @@
    ],
    [
     1793755726,
+    5066.43
+   ],
+   [
+    1793755917,
     5066.43
    ]
   ],
