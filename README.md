@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 14:25 (İstanbul)
+> Son güncelleme: 04.11.2026 14:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %66.7 | %42.4 |
 | Ödenen komisyon/spread | 106.93 $ | 392.52 $ |
 
-**Hesap değeri: 4,881.65 $** (başlangıç 5,000 $, -118.35 $ / %-2.37)
+**Hesap değeri: 4,870.77 $** (başlangıç 5,000 $, -129.23 $ / %-2.58)
 
 Açık pozisyonlar: PAXGUSDT long @ 4046.89 (TP 4059.03 / SL 4038.80)
 
-Son haber analizi (04.11 14:16): Claude puan **+0.30**, güven 0.50 — Dolar endeksinin 1 aylık dibe (101.41) gerilemesi ve Demokratların kongre zaferinin dolara baskı yapması altını destekliyor; ancak altın zaten 4.000 doların üzerine çıktığı için bir kısım etki fiyatlanmış durumda. Euro bölgesi enflasyonunun %4'e çıkması faiz artırımı beklentilerini güçlendirerek getiri tarafında baskı yaratabilir, ayrıca ETF girişlerine rağmen tahvil getirileri altının toparlanmasını sınırlıyor. Cuma günkü ABD istihdam verisi kısa vadede volatiliteyi artıracak.
+Son haber analizi (04.11 14:28): Claude puan **+0.45**, güven 0.60 — Demokratların Kongre zaferi sonrası dolar endeksi 1 ayın dibine geriledi ve altın 4.000 doların üzerine çıktı; dolar zayıflığı ve büyüme endişeleri altın için destekleyici. Getiri artışlarının toparlanmayı sınırlaması, Cuma günkü istihdam verisi öncesi belirsizlik ve bazı yorumların "boğa koşusu bitebilir" uyarısı nedeniyle güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.55**, güven 0.56 — Doların bir aylık dip seviyeye gerilemesi ve altının 4.000 doların üzerine çıkması kısa vadede yükselişi destekliyor; İran savaşı çevresindeki belirsizlik de güvenli liman talebine katkı sağlayabilir. Ancak yükselen getirilerin toparlanmayı sınırladığı belirtiliyor ve ABD istihdam verisi öncesi hare
+GPT (gpt-6-luna): puan **+0.58**, güven 0.68 — Demokratların Kongre zaferi sonrası doların gerilemesi ve altının 4.000 doların üzerine çıkması, önümüzdeki saatlerde altını destekliyor. Ancak hareketin önemli kısmı fiyatlanmış olabilir; İran gelişmeleri belirsiz ve yaklaşan ABD istihdam verisi yönü değiştirebilir.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 12:23 B5  LONG gold 25000 USD x10 @ 4046.89 (TP 4059.03, SL 4038.80; news +0.51)
-04.11 12:35 N  NEWS (12 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından dolar zayıfladı ve Treasury getirileri geriledi; bu, altın için 1-4 saatlik vadede olumlu bir tablo. Ancak başlıklar çelişkili (bazıları altının çöktüğünü, bazıları yükseldiğini yazıyor) ve bazı haberler eski/tekrar niteliğinde olduğu için güven sınırlı.
 04.11 12:35 N  GPT  score +0.58 conf 0.65: Demokratların ara seçimlerdeki güçlü sonucu sonrası doların zayıflaması ve Hazine getirilerinin gerilemesi altını kısa vadede destekliyor; İran savaşının siyasi maliyetine ilişkin haberler de güvenli liman talebini artırabilir. Ancak yükselişin önemli kısmı zaten fiyatlanmış olabilir ve başlıklar ar
 04.11 13:02 N  NEWS (23 new) score +0.60 conf 0.70: Demokratlarin ara seçimlerdeki zaferi doları ve ABD tahvil faizlerini düşürdü; altın yaklaşık %3 yükseldi ve 4.050 dolar civarını test ediyor. Gelecek 1-4 saatte dolar zayıflığı ve düşen getiriler altını destekler, ayrıca İran savaşına karşı seçmen tepkisi jeopolitik risk algısını artırabilir; ancak haberlerin bir kısmı zaten fiyatlanmış olduğu için kazanç sınırlı kalabilir.
 04.11 13:02 N  GPT  score +0.68 conf 0.66: Dolar ve Hazine getirilerindeki düşüş, altını kısa vadede destekliyor; başlıklar seçim sonrası altının zaten yaklaşık %3 yükseldiğini de gösteriyor. Hareketin büyük kısmı fiyatlanmış olabilir ve haberler aynı gelişmeyi tekrar ediyor, bu nedenle ek yükselişin boyutu belirsiz.
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 13:41 B5P  GPT  score +0.35 conf 0.43: Hürmüz’de dört tankerin mayına çarptığı iddiası ve İran-ABD görüşmelerindeki tıkanma, kısa vadeli arz riskini artırarak Brent’i destekleyebilir. Ancak tanker haberleri henüz doğrulanmış değil ve Brent’in görüşmeler beklentisiyle gerilediğine dair çelişkili başlıklar yükseliş etkisini sınırlıyor.
 04.11 14:16 N  NEWS (38 new) score +0.30 conf 0.50: Dolar endeksinin 1 aylık dibe (101.41) gerilemesi ve Demokratların kongre zaferinin dolara baskı yapması altını destekliyor; ancak altın zaten 4.000 doların üzerine çıktığı için bir kısım etki fiyatlanmış durumda. Euro bölgesi enflasyonunun %4'e çıkması faiz artırımı beklentilerini güçlendirerek getiri tarafında baskı yaratabilir, ayrıca ETF girişlerine rağmen tahvil getirileri altının toparlanmasını sınırlıyor. Cuma günkü ABD istihdam verisi kısa vadede volatiliteyi artıracak.
 04.11 14:16 N  GPT  score +0.55 conf 0.56: Doların bir aylık dip seviyeye gerilemesi ve altının 4.000 doların üzerine çıkması kısa vadede yükselişi destekliyor; İran savaşı çevresindeki belirsizlik de güvenli liman talebine katkı sağlayabilir. Ancak yükselen getirilerin toparlanmayı sınırladığı belirtiliyor ve ABD istihdam verisi öncesi hare
+04.11 14:28 N  NEWS (11 new) score +0.45 conf 0.60: Demokratların Kongre zaferi sonrası dolar endeksi 1 ayın dibine geriledi ve altın 4.000 doların üzerine çıktı; dolar zayıflığı ve büyüme endişeleri altın için destekleyici. Getiri artışlarının toparlanmayı sınırlaması, Cuma günkü istihdam verisi öncesi belirsizlik ve bazı yorumların "boğa koşusu bitebilir" uyarısı nedeniyle güven sınırlı.
+04.11 14:28 N  GPT  score +0.58 conf 0.68: Demokratların Kongre zaferi sonrası doların gerilemesi ve altının 4.000 doların üzerine çıkması, önümüzdeki saatlerde altını destekliyor. Ancak hareketin önemli kısmı fiyatlanmış olabilir; İran gelişmeleri belirsiz ve yaklaşan ABD istihdam verisi yönü değiştirebilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
