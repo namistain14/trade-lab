@@ -813,6 +813,10 @@
    [
     1793768521,
     5000.0
+   ],
+   [
+    1793768689,
+    5000.0
    ]
   ],
   "archive": [
@@ -10577,6 +10581,10 @@
    [
     1793768521,
     4868.5
+   ],
+   [
+    1793768689,
+    4868.5
    ]
   ],
   "news": {
@@ -13359,7 +13367,6 @@
   ]
  },
  "log": [
-  "03.11 03:46 N  GPT  score +0.38 conf 0.57: ABD\u2019nin \u0130ran\u2019daki Qe\u015fm Adas\u0131\u2019na sald\u0131rd\u0131\u011f\u0131 haberi k\u0131sa vadeli g\u00fcvenli liman talebini ve alt\u0131n\u0131 destekleyebilir. Ancak Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi ve \u0130ran\u2019la g\u00f6r\u00fc\u015fmelerin s\u00fcrd\u00fc\u011f\u00fcne dair haberler y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
   "03.11 03:49 B5  LONG gold 25000 USD x10 @ 3956.86 (TP 3968.73, SL 3948.95; news +0.32)",
   "03.11 04:05 N  NEWS (18 new) score +0.20 conf 0.35: \u0130ran'la yeniden sava\u015f riski (Netanyahu'nun yeni sald\u0131r\u0131 talebi, Qeshm Adas\u0131'na ABD sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini hafif\u00e7e destekliyor; dolar'\u0131n zay\u0131flamas\u0131 da alt\u0131n i\u00e7in olumlu. Ancak \u0130ran ile m\u00fczakere kanallar\u0131n\u0131n a\u00e7\u0131k kalmas\u0131 ve Vance'in \"iyi g\u00f6r\u00fc\u015fmeler\" a\u00e7\u0131klamas\u0131 jeopolitik primi s\u0131n\u0131rlayabilir, bu y\u00fczden etki zay\u0131f ve kar\u0131\u015f\u0131k.",
   "03.11 04:05 N  GPT  score +0.38 conf 0.48: \u0130ran\u2019a y\u00f6nelik yeni sald\u0131r\u0131 ihtimali ve Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl bombard\u0131man k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n geriledi\u011fine dair haber de alt\u0131n i\u00e7in olumlu. Ancak \u0130ran\u2019la temaslar\u0131n s\u00fcrd\u00fc\u011f\u00fc ve haber ak\u0131\u015f\u0131n\u0131n \u00e7eli\u015fkili oldu\u011fu belirtiliyor, bu nedenle etkinin b\u00fcy\u00fckl\u00fc\u011f\u00fc belirsiz.",
@@ -13658,7 +13665,8 @@
   "04.11 07:55 B5  LONG gold 25000 USD x10 @ 3960.40 (TP 3972.28, SL 3952.48; news +0.39)",
   "04.11 08:02 N  NEWS (10 new) score +0.25 conf 0.40: Dolar\u0131n ABD ara se\u00e7im sonras\u0131 sert zay\u0131flamas\u0131 ve \u0130ran'daki \u00e7at\u0131\u015fman\u0131n t\u0131rmanmas\u0131 (ABD sald\u0131r\u0131lar\u0131, H\u00fcrm\u00fcz gerginli\u011fi) alt\u0131na k\u0131sa vadede destek veriyor. Ancak g\u00fc\u00e7l\u00fc istihdam verisinin faiz art\u0131r\u0131m\u0131 beklentilerini k\u00f6r\u00fcklemesi ve baz\u0131 haberlerde alt\u0131n\u0131n de\u011fer kaybetmesi bu etkiyi s\u0131n\u0131rl\u0131yor, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "04.11 08:02 N  GPT  score +0.32 conf 0.43: \u0130ran\u2019\u0131n H\u00fcrm\u00fcz plan\u0131na olumsuz yan\u0131t vermesi ve ABD sald\u0131r\u0131lar\u0131n\u0131 do\u011frulamas\u0131 g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n se\u00e7im sonu\u00e7lar\u0131yla zay\u0131flamas\u0131 da alt\u0131na olumlu. Ancak istihdam verileri kaynakl\u0131 faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki s\u0131n\u0131rl\u0131,",
-  "04.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "04.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "04.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -20415,6 +20423,10 @@
    [
     1793768521,
     4963.78
+   ],
+   [
+    1793768689,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -27099,6 +27111,10 @@
    [
     1793768521,
     4975.18
+   ],
+   [
+    1793768689,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -33749,6 +33765,10 @@
    [
     1793768521,
     4993.28
+   ],
+   [
+    1793768689,
+    4993.28
    ]
   ]
  },
@@ -40236,6 +40256,10 @@
    [
     1793768521,
     4969.22
+   ],
+   [
+    1793768689,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -45733,6 +45757,10 @@
    [
     1793768521,
     4609.38
+   ],
+   [
+    1793768689,
+    4581.35
    ]
   ],
   "news_calls": {
@@ -52186,6 +52214,10 @@
    [
     1793768521,
     102500.9
+   ],
+   [
+    1793768689,
+    102500.9
    ]
   ],
   "open": {},
@@ -56907,6 +56939,10 @@
    ],
    [
     1793768521,
+    5066.43
+   ],
+   [
+    1793768689,
     5066.43
    ]
   ],
