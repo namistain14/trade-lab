@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 20:34 (İstanbul)
+> Son güncelleme: 04.11.2026 20:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %60.0 | %43.6 |
 | Ödenen komisyon/spread | 178.05 $ | 463.64 $ |
 
-**Hesap değeri: 4,935.71 $** (başlangıç 5,000 $, -64.29 $ / %-1.29)
+**Hesap değeri: 4,938.48 $** (başlangıç 5,000 $, -61.52 $ / %-1.23)
 
 Açık pozisyonlar: PAXGUSDT long @ 4065.20 (TP 4077.40 / SL 4057.07)
 
-Son haber analizi (04.11 20:25): Claude puan **+0.20**, güven 0.40 — ABD ara seçim sonuçları doları zayıflatıyor ve petrol fiyatları Iran savaşının sona erebileceği beklentisiyle düşüyor; bu da enflasyon beklentilerini yumuşatarak altın için destekleyici bir etki yaratıyor. Ancak savaşın bitmesi güvenli liman talebini azaltabileceği için etki sınırlı ve kısa vadede belirsiz.
+Son haber analizi (04.11 20:37): Claude puan **+0.15**, güven 0.40 — ABD ara seçim sonuçları doları zayıflatıyor ve petrol fiyatları Iran savaşının sona erebileceği beklentisiyle düşüyor; bu da enflasyon beklentilerini yumuşatarak altın için destekleyici bir etki yaratıyor. Ancak savaşın bitmesi güvenli liman talebini azaltabileceği için etki sınırlı ve kısa vadede belirsiz.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.36 — Doların seçim sonuçları sonrası gerilemesi altına hafif destek sağlayabilir. İran savaşının sona erebileceği beklentisi ve petrol fiyatlarındaki düşüş güvenli liman talebini azaltıyor; haber akışı tekrarlı ve altına etkisi dolaylı olduğu için net etki sınırlı.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.42 — İran savaşının sona erebileceği beklentisi ve petrol fiyatlarındaki sert düşüş güvenli liman talebini azaltarak altını baskılayabilir; haberlerde altının gerilediği de belirtiliyor. Doların zayıflaması altın için destekleyici olsa da sinyaller çelişkili ve başlıkların çoğu aynı gelişmenin tekrarı.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %28.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,478.89 $** (başlangıç 100,000 $, +5478.89 $ / %+5.48)
+**Hesap değeri: 105,546.16 $** (başlangıç 100,000 $, +5546.16 $ / %+5.55)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 694.65 (TP 705.11 / SL 687.74); SPY long @ 763.34 (TP 774.83 / SL 755.75); TSLA long @ 386.41 (TP 391.60 / SL 381.95)
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 19:26 B6  karar turu: Claude «Endeks günü artıda geçiriyor ancak öğleden sonra teknoloji ve yapay zeka hisselerinde kâr satışı ile zayıflama öne çıkıyor.» / GPT «Endeksler günlük bazda pozitif kalsa da teknoloji hisselerinin öncülük ettiği gün içi zayıflama, önümüzdeki 1–3 saat için aşağı yönlü işlemleri destekliyor.»
-04.11 19:26 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"41829.89","code":40310000,"cost_basis":"48387.14","message":"insufficient buying power"}
 04.11 19:38 N  NEWS (13 new) score +0.30 conf 0.40: Demokratların Kongre'yi süpürmesiyle dolar endeksi 101.50'nin altına indi, bu altın için olumlu bir etken. İran savaşının süreceğine dair belirsizlik artıyor, bu da güvenli liman talebini destekliyor. Ancak "Gold Rises 2.26%" haberi yükselişin büyük kısmının zaten fiyatlandığını gösteriyor ve haberlerin çoğu tekrar eden, eski siyasi yorum niteliğinde.
 04.11 19:38 N  GPT  score +0.42 conf 0.56: Demokratların Kongre zaferi ve doların 101,50 seviyesinin altına gerilemesi altına kısa vadede destek sağlayabilir; İran savaşı çevresindeki siyasi belirsizlik de güvenli liman talebini canlı tutuyor. Ancak seçim haberlerinin büyük ölçüde aynı gelişmeyi yinelemesi ve savaşın sona ermesi ihtimalinin 
 04.11 19:38 B6  karar turu: Claude «Geniş piyasa seçim sonrası pozitif, ancak yapay zeka ve Musk bağlantılı hisselerdeki zayıflık teknolojiyi öğleden sonra aşağı çekebilir.» / GPT «Endeksler günlük bazda pozitif kalsa da teknoloji hisselerindeki göreli zayıflık kısa vadede satış yönünü destekliyor.»
@@ -103,6 +101,8 @@ Son işlemler:
 04.11 20:02 N  GPT  score +0.25 conf 0.40: Doların gerilemesi ve seçim sonuçlarının İran savaşının geleceğine dair belirsizliği artırması altına sınırlı destek verebilir. Ancak petrolün düşmesi ve savaşın sona erebileceği beklentisi güvenli liman talebini azaltabilir; haber akışı tekrarlı ve etkiler çelişkili.
 04.11 20:25 N  NEWS (29 new) score +0.20 conf 0.40: ABD ara seçim sonuçları doları zayıflatıyor ve petrol fiyatları Iran savaşının sona erebileceği beklentisiyle düşüyor; bu da enflasyon beklentilerini yumuşatarak altın için destekleyici bir etki yaratıyor. Ancak savaşın bitmesi güvenli liman talebini azaltabileceği için etki sınırlı ve kısa vadede belirsiz.
 04.11 20:25 N  GPT  score +0.15 conf 0.36: Doların seçim sonuçları sonrası gerilemesi altına hafif destek sağlayabilir. İran savaşının sona erebileceği beklentisi ve petrol fiyatlarındaki düşüş güvenli liman talebini azaltıyor; haber akışı tekrarlı ve altına etkisi dolaylı olduğu için net etki sınırlı.
+04.11 20:37 N  NEWS (16 new) score +0.15 conf 0.40: 
+04.11 20:37 N  GPT  score -0.15 conf 0.42: İran savaşının sona erebileceği beklentisi ve petrol fiyatlarındaki sert düşüş güvenli liman talebini azaltarak altını baskılayabilir; haberlerde altının gerilediği de belirtiliyor. Doların zayıflaması altın için destekleyici olsa da sinyaller çelişkili ve başlıkların çoğu aynı gelişmenin tekrarı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
