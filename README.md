@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 06:21 (İstanbul)
+> Son güncelleme: 04.11.2026 06:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,545.34 $** (başlangıç 5,000 $, -454.66 $ / %-9.09)
 
-Son haber analizi (04.11 06:12): Claude puan **+0.35**, güven 0.50 — ABD ara seçim sonuçlarında Demokratların öne geçmesiyle dolar endeksi bir aylık dibe geriledi ve Treasury getirileri düştü; bu, altın için 1-4 saatlik vadede hafif yükseliş yönlü bir etkidir. Ancak Fed'in enflasyon kaygısı ve önceki güçlü veri kaynaklı dolar/tahvil yükselişi gibi çelişkili haberler, sinyali sınırlıyor ve güveni orta seviyede tutuyor.
+Son haber analizi (04.11 06:24): Claude puan **+0.35**, güven 0.50 — Dolar endeksi ara seçim sonuçlarıyla zayıflıyor ve Treasury getirileri düşüyor; bu, altın için olumlu bir faktör. Ayrıca ABD'nin İran'a saldırı teyit etmesi ve Tahran'ın savaş uyarısı jeopolitik risk primini destekliyor. Ancak dolar zayıflığı ve midterm sonuçları kısmen fiyatlanmış durumda ve petrol düşüşü enflasyon beklentilerini yumuşatabileceği için etki sınırlı kalabilir.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.42 — Dolar ve tahvil getirilerindeki son gerileme altını kısa vadede destekliyor; Kuzey Kore’nin yeni füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak önceki başlıklardaki dolar/getiri yükselişi ve altındaki düşüş sinyalleri çelişkili, ayrıca seçim haberleri büyük ölçüde fiyatlanmış olabi
+GPT (gpt-6-luna): puan **+0.56**, güven 0.58 — İran’a yönelik saldırıların doğrulanması ve Tahran’ın yeni çatışma uyarısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki gerileme de altını destekliyor. Ancak haber akışındaki çelişkiler ve altının daha önceki düşüşü etkinin boyutuna dair belirsizlik yaratıyor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 04:43 N  GPT  score -0.12 conf 0.40: İran’a yönelik yaptırımlar ve savaşın yeniden başlayabileceğine dair uyarılar güvenli liman talebini destekleyebilir; ancak yakın vadeli saldırı planı olmadığı haberi bu etkiyi sınırlıyor. Altının güçlü dolar nedeniyle gerilediğine dair başlıklar kısa vadede hafif aşağı yönlü baskın görünüyor.
-04.11 05:08 N  NEWS (22 new) score +0.25 conf 0.40: Dolar endeksi ara seçim sonuçlarının Demokrat kazanımlarını göstermesiyle 101.50'nin altına düştü; zayıf dolar altını destekliyor. Öte yandan İran'la gerilimin azalması güvenli liman talebini sınırlıyor ve gözler ara seçim sonuçlarında olduğu için sinyal karışık; Fed'in enflasyon kaygısı ve yakın dönemdeki yıllık düşük seviyeler de yukarı yönlü hareketi sınırlayabilir.
 04.11 05:08 N  GPT  score +0.28 conf 0.43: Doların ABD ara seçimlerine ilişkin ilk sonuçlarla gerilemesi altını kısa vadede destekleyebilir; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak başlıklar altının yönü konusunda karışık ve etkilerin kalıcılığı belirsiz.
 04.11 05:08 B5  LONG gold 25000 USD x10 @ 3948.66 (TP 3960.51, SL 3940.76; news +0.27)
 04.11 05:20 N  NEWS (13 new) score -0.15 conf 0.35: Son haberler karışık: ABD tahvil faizlerinin ve doların yükselmesi altın üzerinde baskı yaratıyor ve altın 3.930 doların altına inmiş durumda, ancak ara seçim sonuçlarıyla dolar zayıflamış ve İran'la ilgili jeopolitik riskler (savaşın yeniden başlaması ihtimali) güvenli liman talebini destekleyebilir. Merkez bankası alımları destekleyici olsa da bu veri yeni değil; sinyaller birbiriyle çeliştiği için güven düşük.
@@ -99,6 +97,8 @@ Son işlemler:
 04.11 06:02 B5  CLOSE long stop: -55.94 USD
 04.11 06:12 N  NEWS (8 new) score +0.35 conf 0.50: ABD ara seçim sonuçlarında Demokratların öne geçmesiyle dolar endeksi bir aylık dibe geriledi ve Treasury getirileri düştü; bu, altın için 1-4 saatlik vadede hafif yükseliş yönlü bir etkidir. Ancak Fed'in enflasyon kaygısı ve önceki güçlü veri kaynaklı dolar/tahvil yükselişi gibi çelişkili haberler, sinyali sınırlıyor ve güveni orta seviyede tutuyor.
 04.11 06:12 N  GPT  score +0.25 conf 0.42: Dolar ve tahvil getirilerindeki son gerileme altını kısa vadede destekliyor; Kuzey Kore’nin yeni füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak önceki başlıklardaki dolar/getiri yükselişi ve altındaki düşüş sinyalleri çelişkili, ayrıca seçim haberleri büyük ölçüde fiyatlanmış olabi
+04.11 06:24 N  NEWS (6 new) score +0.35 conf 0.50: Dolar endeksi ara seçim sonuçlarıyla zayıflıyor ve Treasury getirileri düşüyor; bu, altın için olumlu bir faktör. Ayrıca ABD'nin İran'a saldırı teyit etmesi ve Tahran'ın savaş uyarısı jeopolitik risk primini destekliyor. Ancak dolar zayıflığı ve midterm sonuçları kısmen fiyatlanmış durumda ve petrol düşüşü enflasyon beklentilerini yumuşatabileceği için etki sınırlı kalabilir.
+04.11 06:24 N  GPT  score +0.56 conf 0.58: İran’a yönelik saldırıların doğrulanması ve Tahran’ın yeni çatışma uyarısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki gerileme de altını destekliyor. Ancak haber akışındaki çelişkiler ve altının daha önceki düşüşü etkinin boyutuna dair belirsizlik yaratıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
