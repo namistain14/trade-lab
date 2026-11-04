@@ -1465,6 +1465,10 @@
    [
     1793810092,
     5000.0
+   ],
+   [
+    1793810300,
+    5000.0
    ]
   ],
   "archive": [
@@ -11881,43 +11885,38 @@
    [
     1793810092,
     4868.5
+   ],
+   [
+    1793810300,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.45,
-   "confidence": 0.55,
-   "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 haberi jeopolitik risk ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n i\u00e7in olumlu. Dolar endeksinin 101.50'nin alt\u0131na inmesi de alt\u0131n\u0131 destekliyor. Ancak Trump'\u0131n riskleri azaltt\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n se\u00e7im sonu\u00e7lar\u0131na odaklanmas\u0131, etkinin k\u0131smen fiyatlanm\u0131\u015f ya da \u00e7eli\u015fkili olabilece\u011fini g\u00f6steriyor.",
+   "score": 0.3,
+   "confidence": 0.4,
+   "reason": "Demokratlar\u0131n Kongre'yi s\u00fcp\u00fcrmesiyle dolar endeksi 101.50'nin alt\u0131na indi, bu alt\u0131n i\u00e7in olumlu bir etken. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrece\u011fine dair belirsizlik art\u0131yor, bu da g\u00fcvenli liman talebini destekliyor. Ancak \"Gold Rises 2.26%\" haberi y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatland\u0131\u011f\u0131n\u0131 g\u00f6steriyor ve haberlerin \u00e7o\u011fu tekrar eden, eski siyasi yorum niteli\u011finde.",
    "n": 45,
-   "ts": 1793809563209,
-   "new_headlines": 27,
+   "ts": 1793810283623,
+   "new_headlines": 13,
    "key_events": [
     "ABD ara se\u00e7im sonu\u00e7lar\u0131: Demokratlar\u0131n g\u00fc\u00e7l\u00fc performans\u0131 dolar\u0131 ve getirileri d\u00fc\u015f\u00fcrd\u00fc",
     "Dolar bir ayl\u0131k en d\u00fc\u015f\u00fck seviyede; alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
     "\u0130ran ile m\u00fczakere beklentisi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir"
    ],
    "gpt": {
-    "score": 0.66,
-    "confidence": 0.64,
-    "reason": "Qeshm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019\u0131n daha geni\u015f sava\u015f uyar\u0131s\u0131 g\u00fcvenli liman talebini art\u0131r\u0131yor; se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 dolar\u0131n 101,50\u2019nin alt\u0131na gerilemesi de alt\u0131n\u0131 destekliyor. Ancak alt\u0131n\u0131n zaten sert y\u00fckselmi\u015f olmas\u0131 ve Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi yak\u0131n vadeli etkiyi s\u0131n\u0131rlaya",
+    "score": 0.42,
+    "confidence": 0.56,
+    "reason": "Demokratlar\u0131n Kongre zaferi ve dolar\u0131n 101,50 seviyesinin alt\u0131na gerilemesi alt\u0131na k\u0131sa vadede destek sa\u011flayabilir; \u0130ran sava\u015f\u0131 \u00e7evresindeki siyasi belirsizlik de g\u00fcvenli liman talebini canl\u0131 tutuyor. Ancak se\u00e7im haberlerinin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ayn\u0131 geli\u015fmeyi yinelemesi ve sava\u015f\u0131n sona ermesi ihtimalinin ",
     "key_events": [
-     "ABD\u2019nin \u0130ran\u2019daki Qeshm Adas\u0131\u2019na sald\u0131r\u0131s\u0131",
-     "\u0130ran\u2019dan daha geni\u015f sava\u015f uyar\u0131s\u0131",
-     "Dolar\u0131n 101,50\u2019nin alt\u0131na gerilemesi"
+     "Dolar 101,50 seviyesinin alt\u0131na geriledi",
+     "Vance, se\u00e7im yenilgisini \u0130ran sava\u015f\u0131na ba\u011flad\u0131",
+     "Ukrayna sald\u0131r\u0131lar\u0131nda Rusya'n\u0131n Belgorod b\u00f6lgesinde \u00fc\u00e7 ki\u015fi \u00f6ld\u00fc"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793154044478,
-    "score": -0.05,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 25,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1793156972154,
     "score": -0.15,
@@ -14608,19 +14607,37 @@
     "new": 27,
     "gpt_score": 0.66,
     "gpt_confidence": 0.64
+   },
+   {
+    "ts": 1793810283623,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "Demokratlar\u0131n Kongre'yi s\u00fcp\u00fcrmesiyle dolar endeksi 101.50'nin alt\u0131na indi, bu alt\u0131n i\u00e7in olumlu bir etken. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrece\u011fine dair belirsizlik art\u0131yor, bu da g\u00fcvenli liman talebini destekliyor. Ancak \"Gold Rises 2.26%\" haberi y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatland\u0131\u011f\u0131n\u0131 g\u00f6steriyor ve haberlerin \u00e7o\u011fu tekrar eden, eski siyasi yorum niteli\u011finde.",
+    "new": 13,
+    "gpt_score": 0.42,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 77
+   "n": 78
   },
   "news_seen": [
-   "Exclusive | U.S. Strikes Iran\u2019s Qeshm Island as Trump Talks Down War Risks - WSJ",
+   "Vance admits it: \u2018The reason we lost is the war\u2019 - Responsible Statecraft",
+   "JD Vance blames Iran war, Israel ties for Republican midterm losses - The Jerusalem Post",
+   "Vance blames Republicans\u2019 midterm losses on Iran war, cost of living - The Washington Post",
+   "Vance blames Iran war, US ties with Israel for Republican midterm rout - Ynetnews",
+   "Vance Blames Iran War for Republican Midterm Losses in US - Kurdistan24",
+   "China Is Defanging the Dollar, Not Dethroning It - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+   "US VP Vance Says Iran War Is \u2018the Reason We Lost\u2019 Midterms - ASHARQ AL-AWSAT English",
+   "Lazard's Eric Van Nostrand on midterm results: Uncertainty around the Iran war just went up - CNBC",
+   "Ukrainian strikes kill three in Russia\u2019s Belgorod region - Al Jazeera",
+   "Vance breaks silence on midterms: \u2018The reason we lost is the war\u2019 - The Hill",
    "Gold Price Today: Gold Rises 2.26% on November 04, 2026 - USA Today",
    "Israel's president begins consultations with parties after election deadlock",
    "JD Vance blames war in Iran for Republican midterm losses - Bangor Daily News",
+   "US VP Vance says Iran war is \u2018the reason we lost\u2019 midterms - Al Arabiya English",
    "Vance Blames Republican Midterm Losses On Iran War: \u2018Everyone Knows Why We Lost\u2019 - Forbes",
-   "US VP Vance says Iran war is \u2018the reason we lost\u2019 midterms - Arab News",
    "Trump admits Iran war hurt GOP in midterms but defends military campaign - Stars and Stripes",
    "Yes\u2014It Was Mostly the War - Cato Institute",
    "Vice President Vance blames Iran war for Republican midterm losses - CNBC",
@@ -14629,7 +14646,6 @@
    "Vance blames Iran war for Republican Senate losses - NewsNation",
    "US Dollar: Positioning and the election-led correction \u2013 Societe Generale - www.tmgm.com",
    "American voters demand end to Iran war as Democrats sweep midterms - Drop Site News",
-   "Physical Oil Just Went From a Bidding War to a Fire Sale - Yahoo Finance",
    "Physical Oil Just Went From a Bidding War to a Fire Sale - 24/7 Wall St.",
    "US Dollar breaks below 101.50 as Democrats sweep Congress - FXStreet",
    "Vance: Republicans Lost Midterms Because of Iran War, 'Trump Said So Himself' - Haaretz",
@@ -14637,35 +14653,24 @@
    "Vance says the Iran war cost Republicans the midterms - Axios",
    "Home from the Vietnam War\u2019 Premieres on Wyoming PBS on Veterans Day - Platte County Record-Times",
    "Vance Points to Iran War, Israel as Reasons for GOP Midterm Loss - Bloomberg.com",
+   "Dear Annie: What's supposed to be a grateful holiday turns into a turf war between 2 families - OregonLive.com",
+   "JD Vance blames Iran war for Republicans' defeat, says Trump voters switched sides - India Today",
    "Steamer Ranks Mets 6th Overall by WAR - Metsmerized",
    "Net worth by age: median and mean for U.S. households in 2025 - qz.com",
    "War, drought, inflation: How Sudan is edging closer to famine - The New Arab",
-   "Iran warns of wider war if US attacks after Trump election rout - The Korea Times",
    "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
    "Editorial: Peace Is More Than the Absence of War - Philadelphia Jewish Exponent",
    "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
    "Trump Acknowledges Role of Iran War in Democratic Sweep in Midterm Elections - GV Wire",
    "Poundland owner in crunch talks as retailer's collapse looms",
    "Gold prices this afternoon (November 4th): The global gold market heats up again. - Vietnam.vn",
-   "Republicans annihilated in midterms: Anti-War MAGA was right! Robby Soave | RISING - The Hill",
    "No regrets: Trump says Iran war justified despite polls drubbing - Al Jazeera",
    "Military analyst: Netherlands and Ukraine could begin mass missile production this year - Ukrinform",
    "Central Banks Keep Buying Gold, Most of It Off the Books - SchiffGold.com",
-   "Gold climbs further as 22-carat price reaches Tk 224,182 per Bhori - bdnews24.com",
-   "Secret police files released in Hungary, 47 years after fall of communism",
-   "Why ABC Scheduling the Holy War at Noon is a Stroke of Genius - Yahoo Sports",
-   "Gold prices surged today, November 5, 2026, following the US midterm election results, with the most cautious investors increasing their purchases. - Vietnam.vn",
-   "El Nino Poses \u2018Meaningful Risk\u2019 of Higher Inflation in 2027, SF Fed Paper Says - Insurance Journal",
-   "Papal envoy brings aid and message of solidarity to Ukrainians enduring war near the front lines - The Dialog",
-   "Iran's leaders say midterm results show US voters have rejected Trump's war | National News | 2news.com - KTVN",
-   "Iran's leaders say midterm results show US voters have rejected Trump's war - Clinton Herald",
-   "Silver Surges on US Election Outcome - TradingView"
+   "Gold climbs further as 22-carat price reaches Tk 224,182 per Bhori - bdnews24.com"
   ]
  },
  "log": [
-  "03.11 15:34 B5  LONG gold 25000 USD x10 @ 3925.86 (TP 3937.64, SL 3918.01; news +0.25)",
-  "03.11 15:46 N  NEWS (9 new) score -0.45 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: b\u00fcy\u00fck merkez bankalar\u0131n\u0131n Aral\u0131k'ta s\u0131k\u0131la\u015fma sinyali vermesi (\u015fahin tutum, reel faiz beklentilerini y\u00fckseltir) ve alt\u0131n/g\u00fcm\u00fc\u015f fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ile fiyat\u0131n \u00fcst \u00fcste ikinci g\u00fcn 4.000 dolar\u0131n alt\u0131nda a\u00e7\u0131lmas\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 enerji \u015foku ve ABD'nin \u0130ran'a hava sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki enflasyon ve s\u0131k\u0131la\u015fma beklentisi nedeniyle s\u0131n\u0131rl\u0131 kal\u0131yor; ayr\u0131ca baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
-  "03.11 15:46 N  GPT  score -0.35 conf 0.58: Alt\u0131n fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve b\u00fcy\u00fck merkez bankalar\u0131n\u0131n enflasyon nedeniyle Aral\u0131kta s\u0131k\u0131la\u015fma sinyali vermesi, k\u0131sa vadede faiz ve dolar kanal\u0131yla bask\u0131 yarat\u0131yor. \u0130ran\u2019a y\u00f6nelik sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir; bu nedenle g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k ve d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki de\u011ferlendirme temk",
   "03.11 15:58 B5  CLOSE long take profit: +69.03 USD",
   "03.11 15:58 N  NEWS (15 new) score -0.40 conf 0.50: ",
   "03.11 15:58 N  GPT  score -0.30 conf 0.55: Alt\u0131n\u0131n y\u0131ll\u0131k dipten toparlanmas\u0131n\u0131n ard\u0131ndan yeniden gerilemesi ve 4.000 dolar\u0131n alt\u0131nda kalmas\u0131 k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor; b\u00fcy\u00fck merkez bankalar\u0131n\u0131n s\u0131k\u0131la\u015fma sinyalleri de bask\u0131y\u0131 art\u0131rabilir. Dolar\u0131n kar\u0131\u015f\u0131k seyri ve jeopolitik riskler kar\u015f\u0131t y\u00f6nde etkiler yaratt\u0131\u011f\u0131ndan g\u00f6",
@@ -14962,7 +14967,10 @@
   "04.11 19:26 N  NEWS (27 new) score +0.45 conf 0.55: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 haberi jeopolitik risk ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n i\u00e7in olumlu. Dolar endeksinin 101.50'nin alt\u0131na inmesi de alt\u0131n\u0131 destekliyor. Ancak Trump'\u0131n riskleri azaltt\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n se\u00e7im sonu\u00e7lar\u0131na odaklanmas\u0131, etkinin k\u0131smen fiyatlanm\u0131\u015f ya da \u00e7eli\u015fkili olabilece\u011fini g\u00f6steriyor.",
   "04.11 19:26 N  GPT  score +0.66 conf 0.64: Qeshm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019\u0131n daha geni\u015f sava\u015f uyar\u0131s\u0131 g\u00fcvenli liman talebini art\u0131r\u0131yor; se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 dolar\u0131n 101,50\u2019nin alt\u0131na gerilemesi de alt\u0131n\u0131 destekliyor. Ancak alt\u0131n\u0131n zaten sert y\u00fckselmi\u015f olmas\u0131 ve Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi yak\u0131n vadeli etkiyi s\u0131n\u0131rlaya",
   "04.11 19:26 B6  karar turu: Claude \u00abEndeks g\u00fcn\u00fc art\u0131da ge\u00e7iriyor ancak \u00f6\u011fleden sonra teknoloji ve yapay zeka hisselerinde k\u00e2r sat\u0131\u015f\u0131 ile zay\u0131flama \u00f6ne \u00e7\u0131k\u0131yor.\u00bb / GPT \u00abEndeksler g\u00fcnl\u00fck bazda pozitif kalsa da teknoloji hisselerinin \u00f6nc\u00fcl\u00fck etti\u011fi g\u00fcn i\u00e7i zay\u0131flama, \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc i\u015flemleri destekliyor.\u00bb",
-  "04.11 19:26 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"41829.89\",\"code\":40310000,\"cost_basis\":\"48387.14\",\"message\":\"insufficient buying power\"}"
+  "04.11 19:26 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"41829.89\",\"code\":40310000,\"cost_basis\":\"48387.14\",\"message\":\"insufficient buying power\"}",
+  "04.11 19:38 N  NEWS (13 new) score +0.30 conf 0.40: Demokratlar\u0131n Kongre'yi s\u00fcp\u00fcrmesiyle dolar endeksi 101.50'nin alt\u0131na indi, bu alt\u0131n i\u00e7in olumlu bir etken. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrece\u011fine dair belirsizlik art\u0131yor, bu da g\u00fcvenli liman talebini destekliyor. Ancak \"Gold Rises 2.26%\" haberi y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatland\u0131\u011f\u0131n\u0131 g\u00f6steriyor ve haberlerin \u00e7o\u011fu tekrar eden, eski siyasi yorum niteli\u011finde.",
+  "04.11 19:38 N  GPT  score +0.42 conf 0.56: Demokratlar\u0131n Kongre zaferi ve dolar\u0131n 101,50 seviyesinin alt\u0131na gerilemesi alt\u0131na k\u0131sa vadede destek sa\u011flayabilir; \u0130ran sava\u015f\u0131 \u00e7evresindeki siyasi belirsizlik de g\u00fcvenli liman talebini canl\u0131 tutuyor. Ancak se\u00e7im haberlerinin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ayn\u0131 geli\u015fmeyi yinelemesi ve sava\u015f\u0131n sona ermesi ihtimalinin ",
+  "04.11 19:38 B6  karar turu: Claude \u00abGeni\u015f piyasa se\u00e7im sonras\u0131 pozitif, ancak yapay zeka ve Musk ba\u011flant\u0131l\u0131 hisselerdeki zay\u0131fl\u0131k teknolojiyi \u00f6\u011fleden sonra a\u015fa\u011f\u0131 \u00e7ekebilir.\u00bb / GPT \u00abEndeksler g\u00fcnl\u00fck bazda pozitif kalsa da teknoloji hisselerindeki g\u00f6reli zay\u0131fl\u0131k k\u0131sa vadede sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -22371,6 +22379,10 @@
    [
     1793810092,
     4963.78
+   ],
+   [
+    1793810300,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29707,6 +29719,10 @@
    [
     1793810092,
     4975.18
+   ],
+   [
+    1793810300,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -37009,6 +37025,10 @@
    [
     1793810092,
     4993.28
+   ],
+   [
+    1793810300,
+    4993.28
    ]
   ]
  },
@@ -44148,6 +44168,10 @@
    [
     1793810092,
     4969.22
+   ],
+   [
+    1793810300,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -50528,6 +50552,10 @@
    [
     1793810092,
     4930.97
+   ],
+   [
+    1793810300,
+    4947.87
    ]
   ],
   "news_calls": {
@@ -50735,7 +50763,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 104509.85723200001,
+   "balance": 104517.60723200001,
    "start": 100000.0,
    "positions": [
     {
@@ -50750,7 +50778,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Bilan\u00e7o sonras\u0131 g\u00fc\u00e7l\u00fc ivme s\u00fcr\u00fcyor, y\u00fckselen dipler ve g\u00fcn i\u00e7i zirveye yak\u0131n kapan\u0131\u015flar devam eden al\u0131m talebine i\u015faret ediyor. | GPT 0.6: Olumsuz \u015firket haberlerine ra\u011fmen y\u00fckselen dipler ve zirve yak\u0131n\u0131nda tutunma devam al\u0131m\u0131n\u0131 destekliyor, ancak g\u00fcnl\u00fck y\u00fckseli\u015f kovalamaca riskini art",
-     "cur": 351.986
+     "cur": 351.771
     },
     {
      "id": "e6961ff6-5381-4b14-a458-9092fd9c4e5d",
@@ -50764,7 +50792,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: QQQ g\u00fc\u00e7l\u00fcyken NVDA negatif kal\u0131yor; veri merkezi yava\u015flamas\u0131 haberleri ve 206 seviyesinden geri \u00e7ekilme g\u00f6receli zay\u0131fl\u0131\u011fa i\u015faret ediyor. | GPT 0.66: Endekslere g\u00f6re zay\u0131fl\u0131k ve son s\u0131\u00e7raman\u0131n geri verilmesi, veri merkezi yat\u0131r\u0131mlar\u0131na ili\u015fkin olumsuz haberlerle birlikte d\u00fc\u015f\u00fc\u015f\u00fc destekli",
-     "cur": 202.51
+     "cur": 202.24
     },
     {
      "id": "aa32387f-5730-46ee-bbf3-d527ff0fd130",
@@ -50778,7 +50806,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Endeks se\u00e7im sonras\u0131 istikrarl\u0131 y\u00fckseli\u015f trendinde, g\u00fc\u00e7l\u00fc ADP verisi ve artan dipler momentumu destekliyor. | GPT 0.64: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, k\u0131sa vadeli devam hareketini destekliyor.",
-     "cur": 765.385
+     "cur": 765.13
     },
     {
      "id": "1512a953-7ed3-485a-8a56-0f623c623f93",
@@ -50792,7 +50820,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Se\u00e7im kaynakl\u0131 sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan g\u00fc\u00e7l\u00fc piyasayla birlikte y\u00fckselen diplerle toparlan\u0131yor; k\u0131sa vadeli tepki al\u0131m\u0131 uygun g\u00f6r\u00fcn\u00fcyor. | GPT 0.58: Olumsuz haberlere ra\u011fmen son saatte y\u00fckselen dipler ve %1,64 toparlanma, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde k\u0131sa vadeli al\u0131m\u0131 destekliyor.",
-     "cur": 384.155
+     "cur": 383.89
     }
    ],
    "trades": [
@@ -50925,12 +50953,12 @@
    ],
    "day": {
     "date": "2026-11-04",
-    "pnl": 2663.4,
+    "pnl": 2714.69,
     "trades": 2,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 105154.72
+   "equity": 105206.01
   },
   "equity_curve": [
    [
@@ -57708,6 +57736,10 @@
    [
     1793810092,
     105154.72
+   ],
+   [
+    1793810300,
+    105206.01
    ]
   ],
   "open": {
@@ -57758,11 +57790,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793809563998,
+  "last_decision_ms": 1793810284386,
   "view": {
-   "ts": 1793809563998,
-   "claude": "Endeks g\u00fcn\u00fc art\u0131da ge\u00e7iriyor ancak \u00f6\u011fleden sonra teknoloji ve yapay zeka hisselerinde k\u00e2r sat\u0131\u015f\u0131 ile zay\u0131flama \u00f6ne \u00e7\u0131k\u0131yor.",
-   "gpt": "Endeksler g\u00fcnl\u00fck bazda pozitif kalsa da teknoloji hisselerinin \u00f6nc\u00fcl\u00fck etti\u011fi g\u00fcn i\u00e7i zay\u0131flama, \u00f6n\u00fcm\u00fczdeki 1\u20133 saat i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc i\u015flemleri destekliyor.",
+   "ts": 1793810284386,
+   "claude": "Geni\u015f piyasa se\u00e7im sonras\u0131 pozitif, ancak yapay zeka ve Musk ba\u011flant\u0131l\u0131 hisselerdeki zay\u0131fl\u0131k teknolojiyi \u00f6\u011fleden sonra a\u015fa\u011f\u0131 \u00e7ekebilir.",
+   "gpt": "Endeksler g\u00fcnl\u00fck bazda pozitif kalsa da teknoloji hisselerindeki g\u00f6reli zay\u0131fl\u0131k k\u0131sa vadede sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -57779,11 +57811,11 @@
     "QQQ": {
      "claude": [
       "short",
-      0.55
+      0.42
      ],
      "gpt": [
       "short",
-      0.65
+      0.6
      ]
     },
     "NVDA": {
@@ -57823,7 +57855,7 @@
   "premarket_day": "2026-11-04",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "50371.15",
+   "buying_power": "50849.64",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -63126,6 +63158,10 @@
    ],
    [
     1793810092,
+    5066.43
+   ],
+   [
+    1793810300,
     5066.43
    ]
   ],
