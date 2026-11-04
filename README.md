@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 13:22 (İstanbul)
+> Son güncelleme: 04.11.2026 13:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %66.7 | %42.4 |
 | Ödenen komisyon/spread | 106.93 $ | 392.52 $ |
 
-**Hesap değeri: 4,906.23 $** (başlangıç 5,000 $, -93.77 $ / %-1.88)
+**Hesap değeri: 4,883.87 $** (başlangıç 5,000 $, -116.13 $ / %-2.32)
 
 Açık pozisyonlar: PAXGUSDT long @ 4046.89 (TP 4059.03 / SL 4038.80)
 
-Son haber analizi (04.11 13:14): Claude puan **+0.50**, güven 0.60 — Demokratların ara seçimlerdeki zaferi doları ve ABD tahvil faizlerini düşürdü; bu, altın için 1-4 saatlik dönemde net olarak yükseltici bir etkidir. Iran savaşının seçmen tarafından reddedildiği haberi jeopolitik risk primini biraz azaltabilir, ancak bu etki dolar ve faiz kanalının gerisinde kalıyor.
+Son haber analizi (04.11 13:26): Claude puan **+0.40**, güven 0.55 — ABD ara seçim sonuçlarının ardından dolar zayıflıyor ve Hazine tahvil faizleri geriliyor; bu, altın için 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta İran-ABD gerilimi ve Husi füze saldırısı güvenli liman talebini hafifçe artırabilir, ancak bu haberlerin etkisi sınırlı ve haberlerin bir kısmı zaten fiyatlanmış durumda.
 
-GPT (gpt-6-luna): puan **+0.45**, güven 0.58 — Demokratların ara seçimlerdeki başarısı sonrası doların ve tahvil getirilerinin gerilemesi altını kısa vadede destekliyor; haber akışında altın rallisinin zaten başladığı görülüyor. İran’dan gelen savaş karşıtı söylem güvenli liman talebini bir miktar sınırlayabilir.
+GPT (gpt-6-luna): puan **+0.65**, güven 0.68 — Doların gerilemesi ve düşük tahvil getirileri altını kısa vadede destekliyor; Houthis saldırısı ve Irak’taki gerilim kaygıları da sınırlı güvenli liman talebi yaratabilir. Ancak altının bu haberlerle zaten sıçramış olması, hareketin bir kısmının fiyatlanmış olabileceğini düşündürüyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 11:39 N  GPT  score +0.62 conf 0.68: Doların zayıflaması ve Hazine getirilerinin gerilemesi altını destekliyor; Hürmüz’de tankerlerin mayınlarla imha edildiği haberi de güvenli liman talebini artırabilir. Ancak altın seçim sonuçlarıyla zaten sert yükseldiğinden ve haber akışında anlaşma umudu da bulunduğundan kısa vadeli ek yükselişin 
-04.11 11:59 N  NEWS (16 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından dolar endeksi beş haftanın en düşük seviyesine geriledi ve Hazine getirileri düştü; bu, altın için 1-4 saatlik vadede destekleyici bir etkidir. İran'daki ABD saldırıları (Qeshm Adası) ise jeopolitik güvenli liman talebini artırıyor, ancak Trump'ın savaş risklerini küçümsemesi bu etkiyi kısmen dengeliyor. Birçok başlığın aynı dolar-altın hareketini tekrar etmesi ve haberlerin büyük ölçüde fiyatlanmış olması nedeniyle güveni sınırlı tuttum.
 04.11 11:59 N  GPT  score +0.78 conf 0.76: İran’ın Qeshm Adası’na yönelik yeni ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; Trump’ın savaş riskini küçümsemesi ise etkiyi bir miktar sınırlıyor. Doların zayıflaması ve altının seçim sonrası yükselişi de altını destekliyor.
 04.11 12:11 N  NEWS (11 new) score +0.50 conf 0.55: ABD ara seçim sonuçlarının ardından dolar endeksi beş haftanın en düşük seviyesine geriledi ve Treasury getirileri düştü; bu da altın için net bir destek sinyali. Altın 4.000 doların üzerine yeniden çıktı, ancak yükselişin büyük kısmı zaten fiyatlandı ve ADP/ISM verileri ile dolar-yen'deki 158 bölgesindeki gerginlik kısa vadede ters yönlü hareket riski taşıyor.
 04.11 12:11 N  GPT  score +0.62 conf 0.68: Demokratların ara seçimlerdeki kazanımları sonrası doların zayıflaması ve tahvil getirilerinin düşmesi altını kısa vadede destekliyor; 4.000 doların üzerine toparlanma da momentumu doğruluyor. Ancak yükselişin önemli kısmı haberlere zaten yansımış göründüğünden ve 4.050 dolar direnç oluşturabileceği
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 13:02 N  GPT  score +0.68 conf 0.66: Dolar ve Hazine getirilerindeki düşüş, altını kısa vadede destekliyor; başlıklar seçim sonrası altının zaten yaklaşık %3 yükseldiğini de gösteriyor. Hareketin büyük kısmı fiyatlanmış olabilir ve haberler aynı gelişmeyi tekrar ediyor, bu nedenle ek yükselişin boyutu belirsiz.
 04.11 13:14 N  NEWS (16 new) score +0.50 conf 0.60: Demokratların ara seçimlerdeki zaferi doları ve ABD tahvil faizlerini düşürdü; bu, altın için 1-4 saatlik dönemde net olarak yükseltici bir etkidir. Iran savaşının seçmen tarafından reddedildiği haberi jeopolitik risk primini biraz azaltabilir, ancak bu etki dolar ve faiz kanalının gerisinde kalıyor.
 04.11 13:14 N  GPT  score +0.45 conf 0.58: Demokratların ara seçimlerdeki başarısı sonrası doların ve tahvil getirilerinin gerilemesi altını kısa vadede destekliyor; haber akışında altın rallisinin zaten başladığı görülüyor. İran’dan gelen savaş karşıtı söylem güvenli liman talebini bir miktar sınırlayabilir.
+04.11 13:26 N  NEWS (14 new) score +0.40 conf 0.55: ABD ara seçim sonuçlarının ardından dolar zayıflıyor ve Hazine tahvil faizleri geriliyor; bu, altın için 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta İran-ABD gerilimi ve Husi füze saldırısı güvenli liman talebini hafifçe artırabilir, ancak bu haberlerin etkisi sınırlı ve haberlerin bir kısmı zaten fiyatlanmış durumda.
+04.11 13:26 N  GPT  score +0.65 conf 0.68: Doların gerilemesi ve düşük tahvil getirileri altını kısa vadede destekliyor; Houthis saldırısı ve Irak’taki gerilim kaygıları da sınırlı güvenli liman talebi yaratabilir. Ancak altının bu haberlerle zaten sıçramış olması, hareketin bir kısmının fiyatlanmış olabileceğini düşündürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
