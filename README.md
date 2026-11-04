@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 22:34 (İstanbul)
+> Son güncelleme: 04.11.2026 22:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %56.2 | %42.5 |
 | Ödenen komisyon/spread | 189.90 $ | 475.49 $ |
 
-**Hesap değeri: 4,855.26 $** (başlangıç 5,000 $, -144.74 $ / %-2.89)
+**Hesap değeri: 4,871.22 $** (başlangıç 5,000 $, -128.78 $ / %-2.58)
 
 Açık pozisyonlar: PAXGUSDT long @ 4058.22 (TP 4070.40 / SL 4050.11)
 
-Son haber analizi (04.11 22:26): Claude puan **+0.20**, güven 0.35 — Demokratların Kongre'de çoğunluk kazanması sonrası dolar zayıflıyor ve petrol yaklaşık %9 düşüyor; bu, enflasyon beklentilerini ve Fed'in sıkılaşma olasılığını azaltarak altın için olumlu bir makro ortam yaratıyor. Ancak altının 3.5% sıçraması ve dolar hareketi büyük ölçüde fiyatlanmış durumda, haber akışı tekrar ediyor ve jeopolitik risk primi (İran savaşının sona erme beklentisi) güvenli liman talebini zayıflatıyor, bu nedenle güven sınırlı.
+Son haber analizi (04.11 22:38): Claude puan **+0.10**, güven 0.40 — İran savaşının sona erme beklentisi güvenli liman talebini azaltarak altın için olumsuz, petrol fiyatlarının sert düşüşüyle gelen enflasyon beklentisinin gerilemesi ise faiz indirimi beklentilerini destekleyerek olumlu etki yaratıyor. Bu karşıt etkiler birbirini büyük ölçüde dengeliyor; haberlerin çoğu da zaten fiyatlanmış olduğu için net etki zayıf görünüyor.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.38 — Doların seçim sonrası zayıflaması ve ABD’nin İran’daki Qeshm Adası’na saldırdığı haberi altına kısa vadede destek sağlayabilir. Ancak petrolün sert düşmesi ve piyasaların savaşın sona erebileceğini fiyatlaması bu desteği sınırlıyor; haber akışı çelişkili ve oynaklık yüksek.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.55 — ABD’de seçim yenilgisi sonrasında İran savaşını bitirme baskısının arttığı algısı ve petrolün sert düşüşü, kısa vadede güvenli liman talebini ve enflasyon risk primini azaltarak altına hafif baskı yapabilir. Ancak savaşın sona ereceğine dair somut bir gelişme yok ve manşetlerin çoğu aynı siyasi habe
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %37.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,265.80 $** (başlangıç 100,000 $, +5265.80 $ / %+5.27)
+**Hesap değeri: 105,244.25 $** (başlangıç 100,000 $, +5244.25 $ / %+5.24)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 694.65 (TP 705.11 / SL 687.74); SPY long @ 763.34 (TP 774.83 / SL 755.75)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 21:01 N  GPT  score +0.35 conf 0.56: Qeşm adasına yönelik yeni ABD saldırısı kısa vadede güvenli liman talebini artırabilir. Ancak savaşın siyasi baskıyla sona erebileceği beklentisi, düşen petrol ve çelişkili altın fiyatı haberleri yükseliş etkisini sınırlıyor.
-04.11 21:20 N  NEWS (19 new) score +0.50 conf 0.55: ABD ara seçim sonuçlarının ardından dolar zayıfladı, petrol düştü ve altın yeniden 4.000 doları aştı; bu, dolar zayıflığı ve petrol kaynaklı enflasyon baskısının azalması yoluyla altını destekliyor. Ancak 3,5% gibi bir yükseliş büyük ölçüde fiyatlanmış olabilir ve "altın 3.900'e düştü" gibi eski/çelişkili başlıklar güveni sınırlıyor.
-04.11 21:20 N  GPT  score +0.65 conf 0.62: Demokratların Kongre kazanımlarının doları zayıflatıp altını yeniden 4.000 doların üzerine taşıdığı bildiriliyor; bu, kısa vadede altını destekliyor. İran savaşı ve yeni yaptırımlar güvenli liman talebini artırabilir, ancak Vance’in savaştan uzaklaşma mesajı ve çelişkili fiyat haberleri yükselişin d
 04.11 21:32 N  NEWS (20 new) score +0.35 conf 0.50: Ara seçim sonuçları dolarda zayıflama ve petrolde sert düşüş (90 doların altı) getirdi; bu, enflasyon beklentilerini ve Fed'in sıkı duruş ihtimalini azaltarak altın için olumlu bir ortam yaratıyor. Ancak altın zaten yaklaşık %3,5 yükselip 4.000 doların üzerine çıktığı için etkinin bir kısmı fiyatlanmış durumda; ayrıca ABD'nin Qeshm Adası'nı vurması gibi gerilim haberleri güvenli liman talebini destekleyebilir, bu da sinyali karıştırıyor.
 04.11 21:32 N  GPT  score +0.35 conf 0.58: Doların zayıflaması ve İran’a yönelik yeni ABD saldırısı altını kısa vadede destekliyor; ancak petrol düşüşü enflasyon ve faiz beklentilerini aşağı çekebilir. Altın zaten yaklaşık %3,5 yükselip 4.000 doları aşmış olduğundan haberlerin önemli bölümü fiyatlanmış olabilir; savaşın tırmanması ile sona e
 04.11 21:44 B5  CLOSE long stop (gap): -55.99 USD
@@ -103,6 +100,9 @@ Son işlemler:
 04.11 22:26 N  GPT  score +0.20 conf 0.38: Doların seçim sonrası zayıflaması ve ABD’nin İran’daki Qeshm Adası’na saldırdığı haberi altına kısa vadede destek sağlayabilir. Ancak petrolün sert düşmesi ve piyasaların savaşın sona erebileceğini fiyatlaması bu desteği sınırlıyor; haber akışı çelişkili ve oynaklık yüksek.
 04.11 22:26 B6  CLOSE long TSLA take profit: +604.29 USD
 04.11 22:26 B6  karar turu: Claude «Seçim sonrası petrol düşüşü ve İran savaşının sona ereceği beklentisiyle endeksler güçlü, fakat gün sonuna yaklaşırken fiyatlar yatay seyrediyor ve kapanış öncesi yeni bir yön sinyali zayıf.» / GPT «Endekslerde yükseliş sonrası yataylaşma hâkim; kapanışa 34 dakika kala seans sonrası likidite ve bracket emirlerinin geçerliliği ayrıca kontrol edilmeli.»
+04.11 22:38 N  NEWS (14 new) score +0.10 conf 0.40: İran savaşının sona erme beklentisi güvenli liman talebini azaltarak altın için olumsuz, petrol fiyatlarının sert düşüşüyle gelen enflasyon beklentisinin gerilemesi ise faiz indirimi beklentilerini destekleyerek olumlu etki yaratıyor. Bu karşıt etkiler birbirini büyük ölçüde dengeliyor; haberlerin çoğu da zaten fiyatlanmış olduğu için net etki zayıf görünüyor.
+04.11 22:38 N  GPT  score -0.30 conf 0.55: ABD’de seçim yenilgisi sonrasında İran savaşını bitirme baskısının arttığı algısı ve petrolün sert düşüşü, kısa vadede güvenli liman talebini ve enflasyon risk primini azaltarak altına hafif baskı yapabilir. Ancak savaşın sona ereceğine dair somut bir gelişme yok ve manşetlerin çoğu aynı siyasi habe
+04.11 22:38 B6  karar turu: Claude «Demokratların seçim zaferi ve petroldeki düşüşle endeksler güçlü, ancak son bir saatte yatay konsolidasyon var ve kapanış yaklaşıyor.» / GPT «Endekslerde yükseliş ivmesi durmuş görünüyor; kapanışa 22 dakika kaldığından 1–3 saatlik işlem ufku seans sonrası likidite ve bracket emirlerinin geçerlilik risklerini içeriyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
