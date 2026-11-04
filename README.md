@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 18:59 (İstanbul)
+> Son güncelleme: 04.11.2026 19:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %57.1 | %42.1 |
 | Ödenen komisyon/spread | 166.20 $ | 451.79 $ |
 
-**Hesap değeri: 4,928.30 $** (başlangıç 5,000 $, -71.70 $ / %-1.43)
+**Hesap değeri: 4,940.75 $** (başlangıç 5,000 $, -59.25 $ / %-1.19)
 
 Açık pozisyonlar: PAXGUSDT long @ 4038.08 (TP 4050.19 / SL 4030.00)
 
-Son haber analizi (04.11 18:50): Claude puan **+0.40**, güven 0.50 — ABD ara seçim sonuçlarının ardından dolar zayıfladı ve altın, dolar kaynaklı rallide son bir günün en büyük artışına yaklaştı; bu da kısa vadede altın için olumlu bir etki yaratıyor. Ancak yükselişin büyük kısmı zaten fiyatlandı, hizmet enflasyonunun yüksek kalması ve Fed'in temkinli tutumu ise sınırlayıcı faktörler olarak duruyor.
+Son haber analizi (04.11 19:02): Claude puan **+0.60**, güven 0.60 — Dolar zayıflaması (ara seçim sonuçları sonrası) ve ABD'nin İran'ın Qeshm Adası'nı vurması gibi jeopolitik gerilim altın için destekleyici; merkez bankalarının altın alımları da yapısal destek sağlıyor. Ancak altın gün içinde en büyük kazancını zaten yaşadığı için bir kısmı fiyatlanmış olabilir ve ABD hizmet enflasyonunun yüksek kalması Fed beklentilerini sertleştirerek sınırlayıcı etki yaratabilir.
 
-GPT (gpt-6-luna): puan **+0.55**, güven 0.62 — Midterm sonuçlarının doları zayıflattığına dair haberler ve İran savaşı kaynaklı risk algısı altını kısa vadede destekliyor. Ancak altındaki yükselişin büyük ölçüde başlamış olması ve yeni bir askerî tırmanış haberi bulunmaması ek kazanç ihtimalini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.58**, güven 0.56 — İran’ın Qeşm Adası’na ABD saldırısı güvenli liman talebini artırabilir; midterm sonuçları sonrası doların zayıflaması da altını destekliyor. Ancak Trump’ın savaş riskini küçümsemesi ve altının gün içinde zaten sert yükselmiş olması kısa vadeli etkiyi sınırlayabilir.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %28.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,993.60 $** (başlangıç 100,000 $, +5993.60 $ / %+5.99)
+**Hesap değeri: 105,527.01 $** (başlangıç 100,000 $, +5527.01 $ / %+5.53)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); SPY long @ 763.34 (TP 774.83 / SL 755.75); TSLA long @ 386.41 (TP 391.60 / SL 381.95)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 18:06 B6  karar turu: Claude «Demokrat zaferi sonrası endeksler güçlü yükselişte ve teknoloji öncülüğünde risk iştahı yüksek, ancak Musk ve yapay zeka bağlantılı hisselerde haber kaynaklı baskı sürüyor.» / GPT «Endekslerde yükseliş eğilimi sürüyor; ancak kaldıraç ve siyasi haber riski nedeniyle uzamış hareketler yerine kontrollü toparlanmalar tercih edilmeli.»
-04.11 18:06 B6  ALIŞ TSLA 103 adet ≈ 39,738 $ (1:4) @ 385.81 (TP 391.6, SL 381.95; ikisi de hemfikir, güven 0.55)
-04.11 18:27 N  NEWS (22 new) score +0.40 conf 0.50: 
-04.11 18:27 N  GPT  score +0.68 conf 0.63: İran’ın Qeşm Adası’na yönelik ABD saldırısı ve Riyad havaalanına isabet ettiği bildirilen Husi füzesi, kısa vadede güvenli liman talebini artırabilir; doların zayıflama beklentisi de altını destekliyor. Ancak Trump’ın savaş risklerini küçümsemesi ve altının gün içinde zaten güçlü yükselmiş olması ek
 04.11 18:27 B6  CLOSE long QQQ take profit: +1539.06 USD
 04.11 18:27 B6  karar turu: Claude «Seçim sonrası yükselen endeksler gün içi zirvelerden geri çekilmeye başladı; zayıf PMI verileri ve yapay zekâ yatırımlarıyla ilgili siyasi endişeler öğleden sonra yükselişi sınırlayabilir.» / GPT «Endeksler günlük bazda güçlü olsa da son mumlarda ivme zayıflıyor; mevcut kaldıraçlı pozisyonlara ek risk yalnızca sınırlı büyüklükte alınmalı.»
 04.11 18:39 N  NEWS (15 new) score +0.40 conf 0.50: Yeni haberlerde ABD dolarının zayıflaması ve altın fiyatının bu güne kadarki en büyük günlük artışa yönelmesi kısa vadede altın için olumlu. Buna karşın ara seçim sonuçlarının İran savaşına karşı tepkiyi göstermesi jeopolitik korku primini azaltabilir ve bazı yükselişler zaten fiyatlanmış olabilir; bu nedenle güven orta düzeyde tutuldu.
@@ -103,6 +99,10 @@ Son işlemler:
 04.11 18:50 N  GPT  score +0.55 conf 0.62: Midterm sonuçlarının doları zayıflattığına dair haberler ve İran savaşı kaynaklı risk algısı altını kısa vadede destekliyor. Ancak altındaki yükselişin büyük ölçüde başlamış olması ve yeni bir askerî tırmanış haberi bulunmaması ek kazanç ihtimalini sınırlıyor.
 04.11 18:50 B6  karar turu: Claude «Endeksler günü artıda tutuyor ancak teknoloji tarafında, özellikle yapay zeka hisselerinde, gün içi satış baskısı artıyor ve öğleden sonra kazanımların bir kısmının geri verilmesi muhtemel.» / GPT «Endeksler günlük bazda artıda olsa da teknoloji hisselerindeki göreli zayıflık kısa vadede satış yönüne avantaj sağlıyor.»
 04.11 18:50 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"42486.29","code":40310000,"cost_basis":"49977.57","message":"insufficient buying power"}
+04.11 19:02 N  NEWS (10 new) score +0.60 conf 0.60: Dolar zayıflaması (ara seçim sonuçları sonrası) ve ABD'nin İran'ın Qeshm Adası'nı vurması gibi jeopolitik gerilim altın için destekleyici; merkez bankalarının altın alımları da yapısal destek sağlıyor. Ancak altın gün içinde en büyük kazancını zaten yaşadığı için bir kısmı fiyatlanmış olabilir ve ABD hizmet enflasyonunun yüksek kalması Fed beklentilerini sertleştirerek sınırlayıcı etki yaratabilir.
+04.11 19:02 N  GPT  score +0.58 conf 0.56: İran’ın Qeşm Adası’na ABD saldırısı güvenli liman talebini artırabilir; midterm sonuçları sonrası doların zayıflaması da altını destekliyor. Ancak Trump’ın savaş riskini küçümsemesi ve altının gün içinde zaten sert yükselmiş olması kısa vadeli etkiyi sınırlayabilir.
+04.11 19:02 B6  karar turu: Claude «Endeks genelinde yükseliş var ancak teknoloji ve yapay zeka hisseleri öğleden sonra zayıflama sinyali veriyor.» / GPT «Genel piyasa günlük bazda güçlü kalsa da teknoloji hisselerindeki göreli zayıflık, önümüzdeki 1-3 saatte aşağı yönlü işlemleri destekliyor.»
+04.11 19:02 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"42791.64","code":40310000,"cost_basis":"49270.71","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
