@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 03:06 (İstanbul)
+> Son güncelleme: 04.11.2026 04:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,601.28 $** (başlangıç 5,000 $, -398.72 $ / %-7.97)
 
-Son haber analizi (04.11 03:06): Claude puan **-0.45**, güven 0.60 — Altın, güçlenen dolar ve yükselen ABD tahvil getirilerine bağlı olarak bir yıllık dibe geriledi; Trump'ın İran'a karşı yakın vadede saldırı planı olmadığını söylemesi jeopolitik güvenli liman talebini azaltarak baskı yaratıyor. Haberlerin çoğu zaten fiyatlanmış olduğundan ve İran'da yeniden savaş riski hâlâ sürdüğünden güven orta seviyede.
+Son haber analizi (04.11 04:07): Claude puan **-0.40**, güven 0.50 — Altın, güçlenen dolar ve yükselen ABD tahvil getirileri nedeniyle düşüş eğilimindedir; "Gold Slides to a One-Year Low" ve "Gold declines below $3,950" başlıkları bu baskıyı teyit ediyor. İran'la gerilimin gevşemesi jeopolitik güvenli liman talebini azaltarak ek bir baskı yaratıyor, ancak İran savaşının yeniden başlama riski ve sürmekte olan çatışmalar (Ukrayna) yukarı yönlü riski sınırlı da olsa koruyor; ayrıca bazı başlıklar eski veya kısmen fiyatlanmış haberler.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.62 — Altın bir yıllık dip seviyeye gerilerken güçlenen dolar ve yükselen ABD getirileri kısa vadede baskıyı artırıyor; ABD’nin İran’a yönelik yakın vadeli saldırı planı olmadığının açıklanması da güvenli liman talebini sınırlayabilir. İran haberleri çelişkili ve hareketin bir kısmı zaten fiyatlanmış olab
+GPT (gpt-6-luna): puan **+0.18**, güven 0.38 — İran görüşmelerindeki karamsarlık ve Ukrayna’ya yönelik saldırılar güvenli liman talebini destekleyebilir; ABD-İran geriliminin hafiflemesi ve son dönemde yükselen dolar ile tahvil getirileri ise altını baskılıyor. Çelişkili sinyaller nedeniyle 1-4 saatlik etki hafif pozitif, ancak belirsiz.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 01:49 B5  CLOSE short stop: -55.96 USD
-04.11 01:55 N  NEWS (16 new) score +0.08 conf 0.30: İran'da ABD saldırılarının sürmesi ve Rusya'nın Ukrayna'ya enerji altyapısına yönelik büyük saldırısı güvenli liman talebini hafifçe destekliyor. Ancak dolar ve ABD tahvil getirilerinin yükselmesi, enflasyon kaynaklı faiz baskısı ve ABD ara seçim endişeleri altını baskılıyor. Gündemdeki birçok başlık da spor ve tarih haberi olduğundan sinyal zayıf, bu yüzden güven düşük.
 04.11 01:55 N  GPT  score +0.18 conf 0.34: Ukrayna enerji şebekesine yönelik büyük saldırı ve İran’daki çatışmaların sürdüğüne dair haberler kısa vadeli güvenli liman talebini destekleyebilir. Ancak doların ve ABD tahvil getirilerinin yükselmesi altını baskılıyor; haberlerin bir kısmı tekrarlı veya belirsiz olduğundan net etki sınırlı.
 04.11 02:07 N  NEWS (5 new) score -0.12 conf 0.40: İran savaşının yeniden alevlenme riski jeopolitik talebi destekliyor, ancak dolar ve ABD tahvil getirilerindeki yükseliş ile enflasyonun hızlanması (hawkish beklentiler) altın üzerinde baskı yaratıyor. Altın teknik analizlerde düşüş riski uyarısı alıyor ve haberler karışık olduğu için sinyal zayıf.
 04.11 02:07 N  GPT  score -0.15 conf 0.36: İran çevresindeki çatışma riski güvenli liman talebini destekleyebilir; ancak doların ve ABD tahvil getirilerinin yükselmesi ile altındaki düşüş haberi kısa vadede baskın görünüyor. Başlıkların çoğu yeni veya doğrudan fiyatı etkileyen bir gelişme değil, bu yüzden yön sinyali zayıf.
@@ -99,6 +97,8 @@ Son işlemler:
 04.11 02:54 N  GPT  score -0.48 conf 0.63: Altın yeni haber akışında sert düşüş ve bir yıllık dip vurgularıyla baskı altında; yükselen dolar ve ABD getirileri kısa vadede aşağı yönü destekliyor. İran ve Ukrayna kaynaklı gerilim güvenli liman talebi yaratabilir, ancak bu etki şimdilik dolar baskısını dengeleyecek kadar güçlü görünmüyor.
 04.11 03:06 N  NEWS (13 new) score -0.45 conf 0.60: Altın, güçlenen dolar ve yükselen ABD tahvil getirilerine bağlı olarak bir yıllık dibe geriledi; Trump'ın İran'a karşı yakın vadede saldırı planı olmadığını söylemesi jeopolitik güvenli liman talebini azaltarak baskı yaratıyor. Haberlerin çoğu zaten fiyatlanmış olduğundan ve İran'da yeniden savaş riski hâlâ sürdüğünden güven orta seviyede.
 04.11 03:06 N  GPT  score -0.48 conf 0.62: Altın bir yıllık dip seviyeye gerilerken güçlenen dolar ve yükselen ABD getirileri kısa vadede baskıyı artırıyor; ABD’nin İran’a yönelik yakın vadeli saldırı planı olmadığının açıklanması da güvenli liman talebini sınırlayabilir. İran haberleri çelişkili ve hareketin bir kısmı zaten fiyatlanmış olab
+04.11 04:07 N  NEWS (28 new) score -0.40 conf 0.50: Altın, güçlenen dolar ve yükselen ABD tahvil getirileri nedeniyle düşüş eğilimindedir; "Gold Slides to a One-Year Low" ve "Gold declines below $3,950" başlıkları bu baskıyı teyit ediyor. İran'la gerilimin gevşemesi jeopolitik güvenli liman talebini azaltarak ek bir baskı yaratıyor, ancak İran savaşının yeniden başlama riski ve sürmekte olan çatışmalar (Ukrayna) yukarı yönlü riski sınırlı da olsa koruyor; ayrıca bazı başlıklar eski veya kısmen fiyatlanmış haberler.
+04.11 04:07 N  GPT  score +0.18 conf 0.38: İran görüşmelerindeki karamsarlık ve Ukrayna’ya yönelik saldırılar güvenli liman talebini destekleyebilir; ABD-İran geriliminin hafiflemesi ve son dönemde yükselen dolar ile tahvil getirileri ise altını baskılıyor. Çelişkili sinyaller nedeniyle 1-4 saatlik etki hafif pozitif, ancak belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
