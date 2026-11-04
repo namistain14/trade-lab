@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 17:55 (İstanbul)
+> Son güncelleme: 04.11.2026 17:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +272.72 $ | -70.03 $ |
-| İşlem sayısı | 13 | 37 |
-| Kazanma oranı | %61.5 | %43.2 |
-| Ödenen komisyon/spread | 154.35 $ | 439.94 $ |
+| Net kâr/zarar | +216.81 $ | -125.95 $ |
+| İşlem sayısı | 14 | 38 |
+| Kazanma oranı | %57.1 | %42.1 |
+| Ödenen komisyon/spread | 166.20 $ | 451.79 $ |
 
-**Hesap değeri: 4,886.06 $** (başlangıç 5,000 $, -113.94 $ / %-2.28)
-
-Açık pozisyonlar: PAXGUSDT long @ 4047.23 (TP 4059.37 / SL 4039.13)
+**Hesap değeri: 4,874.05 $** (başlangıç 5,000 $, -125.95 $ / %-2.52)
 
 Son haber analizi (04.11 17:54): Claude puan **+0.45**, güven 0.55 — Dolar zayıflığı ve düşen tahvil getirileri (ara seçim sonuçlarının etkisi) altın için güçlü bir destek sağlıyor; ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırıyor. Ancak Trump'ın savaş risklerini küçümsemesi ve bazı haberlerin (Kitco, dolar satışı) zaten fiyatlanmış olması güveni sınırlıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 17:56 | PAXGUSDT | long | -55.92 $ | stop |
 | 04.11 17:40 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 16:18 | PAXGUSDT | long | -55.92 $ | stop |
 | 04.11 15:32 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 14:58 | PAXGUSDT | long | -55.92 $ | stop |
-| 04.11 12:17 | PAXGUSDT | long | +69.06 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -71,9 +69,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %16.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 103,955.15 $** (başlangıç 100,000 $, +3955.15 $ / %+3.96)
+**Hesap değeri: 103,869.50 $** (başlangıç 100,000 $, +3869.50 $ / %+3.87)
 
-Açık pozisyonlar: QQQ long @ 689.23 (TP 700.19 / SL 682.94); SPY long @ 763.34 (TP 774.83 / SL 755.75)
+Açık pozisyonlar: NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 689.23 (TP 700.19 / SL 682.94); SPY long @ 763.34 (TP 774.83 / SL 755.75)
 
 Son işlemler:
 
@@ -88,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 16:56 N  GPT  score +0.22 conf 0.43: Doların seçim sonuçları sonrası zayıflaması ve İran ile Kuzey Kore kaynaklı yeni güvenlik haberleri altına kısa vadede sınırlı destek sağlayabilir. Ancak dolar hareketi ve seçim etkisi büyük ölçüde fiyatlanmış görünüyor; hisse ve tahvil rallisi de güvenli liman talebini dengeleyebilir.
 04.11 17:31 N  NEWS (23 new) score +0.50 conf 0.55: Demokratların ara seçim süpürmesi doları ve tahvil getirilerini düşürdü; Kitco'ya göre altın ve gümüş yükseldi, dolar 5 haftanın en düşük seviyesine geriledi. İran savaşının sürmesi ve Hamaney'in uyarıları güvenli liman talebini destekliyor. Ancak yükselişin büyük kısmı 13:55 UTC'de zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde tutuldu.
 04.11 17:31 N  GPT  score +0.56 conf 0.68: Demokratların ara seçimlerdeki güçlü sonucu sonrası dolar ve tahvil getirilerinin gerilemesi altını destekliyor; haber akışında altın ve gümüşte yükseliş de bildiriliyor. Ancak seçim sonucu büyük ölçüde fiyatlanmış olabilir ve İran savaşı sürerken yönlü hareketin devamına dair belirsizlik var.
 04.11 17:31 B6  karar turu: Claude «Demokratların seçim zaferine rağmen piyasa güçlü ADP verisiyle risk iştahlı seyrediyor, ancak yapay zeka ve veri merkezi temalı hisselerde baskı sürüyor.» / GPT «Geniş piyasada yükseliş eğilimi baskın; ancak teknoloji haberleri ve dört kat kaldıraç nedeniyle aynı yöne açılan pozisyonların toplam riski sınırlı tutulmalı.»
@@ -103,6 +100,7 @@ Son işlemler:
 04.11 17:55 N  GPT  score +0.58 conf 0.64: İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüşe ilişkin haberler de altını destekliyor. Ancak seçim kaynaklı yükselişin önemli kısmı zaten fiyatlanmış olabilir ve petrolün düşmesi risk primini sınırlıyor.
 04.11 17:55 B6  karar turu: Claude «Seçim sonrası endeksler güçlü yükselişte olsa da zayıf PMI verisi ve yapay zeka/veri merkezi endişeleri hisse bazında ayrışma yaratıyor.» / GPT «Endekslerde yükseliş sürse de son ivme kaybı ve beklenti altı PMI verileri nedeniyle kaldıraçlı yeni işlemlerde belirgin göreli zayıflığa odaklanıyorum.»
 04.11 17:55 B6  AÇIĞA SATIŞ NVDA 508 adet ≈ 103,845 $ (1:4) @ 204.42 (TP 201.35, SL 206.46; ikisi de hemfikir, güven 0.55)
+04.11 17:57 B5  CLOSE long stop: -55.92 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
