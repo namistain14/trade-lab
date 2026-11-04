@@ -1,0 +1,49 @@
+name: Güvenlik taraması (anahtar + kişisel veri)
+# Her kayıtta sadece eklenen satırları tarar. Bulursa kırmızı olur ve Telegram'a dosya:satır + tür gider (değer asla).
+on:
+  push:
+    paths-ignore: ["state/**", "reports/**"]   # bot her 3 dk durum yazar; onları taramaya gerek yok
+  workflow_dispatch:
+    inputs:
+      tum:
+        description: "Tüm repoyu tara (temel ölçüm)"
+        type: boolean
+        default: false
+env:
+  PYTHONPATH: ${{ github.workspace }}/usage
+permissions:
+  contents: read
+jobs:
+  tara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - name: Tara
+        id: tara
+        run: |
+          set +e
+          if [ "${{ inputs.tum }}" = "true" ]; then
+            python3 ops/guvenlik_tarama.py tum > out.txt
+          else
+            python3 ops/guvenlik_tarama.py diff "${{ github.event.before }}" "${{ github.sha }}" > out.txt
+          fi
+          kod=$?; cat out.txt; echo "kod=$kod" >> "$GITHUB_OUTPUT"; exit 0
+      - name: Telegram uyarısı
+        if: steps.tara.outputs.kod != '0'
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -n "$TG" ] || exit 0
+          ozet=$(grep '^GUVENLIK_OZET ' out.txt | cut -d' ' -f2-)
+          msg="🔐 Güvenlik taraması: ${{ github.repository }} son kayıtta repoya girmemesi gereken bilgi var.
+          Kayıt: ${{ github.sha }} (${{ github.actor }})
+          $ozet
+          Değerler gizlendi. Ayrıntı: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -s -o /dev/null "https://api.telegram.org/bot$TG/sendMessage" --data-urlencode "chat_id=$CHAT" --data-urlencode "text=$msg"
+      - name: Sonuç
+        if: steps.tara.outputs.kod != '0'
+        run: exit 1
