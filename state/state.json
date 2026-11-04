@@ -1137,6 +1137,10 @@
    [
     1793788490,
     5000.0
+   ],
+   [
+    1793788681,
+    5000.0
    ]
   ],
   "archive": [
@@ -11225,14 +11229,18 @@
    [
     1793788490,
     4868.5
+   ],
+   [
+    1793788681,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.4,
-   "confidence": 0.55,
-   "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131fl\u0131yor ve Hazine tahvil faizleri geriliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta \u0130ran-ABD gerilimi ve Husi f\u00fcze sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini hafif\u00e7e art\u0131rabilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
+   "score": 0.5,
+   "confidence": 0.6,
+   "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131flarken ve tahvil getirileri d\u00fc\u015ferken alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, k\u0131sa vadede alt\u0131n\u0131 destekleyen net bir etken. Ancak \u0130ran sava\u015f\u0131na kar\u015f\u0131 tepkinin g\u00fcvenli liman talebini azaltabilece\u011fi, cuma g\u00fcnk\u00fc istihdam raporunun riski ve baz\u0131 analistlerin 3.500 dolar \u00f6ng\u00f6r\u00fcs\u00fc nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793787961068,
+   "ts": 1793788680429,
    "new_headlines": 14,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7im zaferi, dolar\u0131n d\u00fc\u015fmesine ve tahvil faizlerinin gerilemesine yol a\u00e7t\u0131",
@@ -11240,28 +11248,19 @@
     "\u0130ran sava\u015f\u0131n\u0131n se\u00e7men taraf\u0131ndan reddedildi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar; jeopolitik risk primini k\u0131smen azaltabilir"
    ],
    "gpt": {
-    "score": 0.65,
+    "score": 0.62,
     "confidence": 0.68,
-    "reason": "Dolar\u0131n gerilemesi ve d\u00fc\u015f\u00fck tahvil getirileri alt\u0131n\u0131 k\u0131sa vadede destekliyor; Houthis sald\u0131r\u0131s\u0131 ve Irak\u2019taki gerilim kayg\u0131lar\u0131 da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n bu haberlerle zaten s\u0131\u00e7ram\u0131\u015f olmas\u0131, hareketin bir k\u0131sm\u0131n\u0131n fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor.",
+    "reason": "Dolar\u0131n gerilemesi ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekleyen ba\u015fl\u0131ca etkenler; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 da belirtiliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f olabilir ve istihdam verisi \u00f6ncesi temkin, y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
     "key_events": [
-     "Dolar ve tahvil getirileri geriledi",
-     "Alt\u0131n haber ak\u0131\u015f\u0131nda zaten y\u00fckseldi",
-     "Houthis sald\u0131r\u0131s\u0131 ve Irak\u2019ta t\u0131rmanma endi\u015fesi"
+     "ABD ara se\u00e7imleri sonras\u0131 dolar zay\u0131flad\u0131",
+     "Tahvil getirileri d\u00fc\u015ft\u00fc; alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
+     "Cuma g\u00fcnk\u00fc istihdam verisi \u00f6ncesi belirsizlik"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793095331499,
-    "score": -0.35,
-    "confidence": 0.5,
-    "reason": "Dolar endeksi 102 \u00fczerinde g\u00fc\u00e7leniyor, FOMC \u00f6ncesi dolar al\u0131mlar\u0131 ve \"faiz art\u0131r\u0131m\u0131\" endi\u015feleri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar\u0131 yak\u0131n tutarken g\u00fcm\u00fc\u015f y\u0131ll\u0131k d\u00fc\u015f\u00fck seviyeleri k\u0131rd\u0131. Jeopolitik (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki dolar ve Fed beklentilerinin gerisinde kal\u0131yor; \"4.000 k\u0131r\u0131ld\u0131\" gibi haberlerin tarihi/kayna\u011f\u0131 belirsiz oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
-    "new": 15,
-    "gpt_score": -0.22,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1793097724745,
     "score": -0.2,
@@ -13952,63 +13951,70 @@
     "new": 14,
     "gpt_score": 0.65,
     "gpt_confidence": 0.68
+   },
+   {
+    "ts": 1793788680429,
+    "score": 0.5,
+    "confidence": 0.6,
+    "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131flarken ve tahvil getirileri d\u00fc\u015ferken alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, k\u0131sa vadede alt\u0131n\u0131 destekleyen net bir etken. Ancak \u0130ran sava\u015f\u0131na kar\u015f\u0131 tepkinin g\u00fcvenli liman talebini azaltabilece\u011fi, cuma g\u00fcnk\u00fc istihdam raporunun riski ve baz\u0131 analistlerin 3.500 dolar \u00f6ng\u00f6r\u00fcs\u00fc nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 14,
+    "gpt_score": 0.62,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 55
+   "n": 56
   },
   "news_seen": [
-   "Houthis target Yemen recruit camp with ballistic missile; casualties reported - Latest news from Azerbaijan",
-   "A war, a gas pump, and a broken promise just flipped red states - T\u00fcrkiye Today",
+   "Gold Price in Pakistan Today: Rs 423,000/Tola (24K) | Live Sarafa Rate - Investify",
+   "West Red Lake Gold Announces Integrated PFS Delivering - GlobeNewswire",
+   "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+   "Sahil Babayev: Azerbaijan's Oil Fund realizes gains following gold price surge - Report.az",
+   "Ukraine\u2019s war veteran challenge - Chatham House",
+   "Democratic Sweep Drops Dollar, Pushing Gold Past $4,000 Toward Key Test - Benzinga",
+   "Gold price today: One analyst sees a slide to $3,500, two are watching friday's jobs report - FXStreet",
    "Culture-war arguments: No, that\u2019s not how any of this works - The Arkansas Democrat-Gazette",
    "Iran's chief negotiator says Americans voted 'no to war'",
-   "Energy Transfer sanctions $1.6bn South Mississippi pipeline project - Offshore Technology",
-   "Fears of Armed Factions Spiraling Out of Control in Renewed War Spur Iraqi Contacts - ASHARQ AL-AWSAT English",
+   "Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap - Bloomberg.com",
+   "Why Are Indonesians Dying in Ukraine? - Foreign Policy",
    "Iran says Americans rejected Trump\u2019s war as the world reacts to the Midterms rout - NBC News",
-   "Carroll County historian honored for preserving Revolutionary War history - Carroll County Comet",
-   "Bishop raises plight of Christians caught in Sudanese civil war - www.christiantoday.com",
    "Surface-to-Air Missile Defense Deployed at Trump Airport and Mar-a-Lago - The Presidential Prayer Team",
+   "US attack raises questions on war - The Arkansas Democrat-Gazette",
    "US dollar slides after Democrats\u2019 midterm election win as growth fears rise - The Guardian",
    "Dollar retreats as Democratic wins in US midterms stoke AI regulation jitters By Reuters - Investing.com",
+   "US dollar slides after Democrats\u2019 midterm election win as growth fears rise - inkl",
    "Dollar surges to NIS 3.17: Seven-month high against shekel - The Jerusalem Post",
    "Bitcoin whipsaws after Democrats' victory as lower Treasury yields and US dollar provide support - investingLive",
    "Gold and silver prices jump as US midterm results weaken dollar and Treasury yields | Hindustan Times - Hindustan Times",
    "How America voted in maps and charts",
    "Silver Price Forecast: XAG/USD rallies to $52.00 amid lower yields, weak US Dollar - FXStreet",
-   "Ghalibaf: Americans Voted \u201cNo to War\u201d... - Jordan News",
-   "Trump acknowledged the impact of the war with Iran and fuel prices on the defeat in the congressional elections - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
    "Gold Advances Toward $4,050 on US Election Dollar Slide - TradingPedia",
    "White Friday sales under pressure from US Dollar - Egypt Independent",
    "Gold price hiked by Tk 3,324 per bhori in Bangladesh - Bangladesh Post",
-   "Gears of War: E-Day $500 Million: Schreier Says Real [2026] - shattered.io",
+   "No more funding for war with Iran | Letter - The Journal of the San Juan Islands",
    "Democrats Set to Ramp Up Iran War Scrutiny After Midterm Gains - Bloomberg Government News",
-   "Gold price optimism cools among Indians: Should investors change their investment strategy? - Moneycontrol.com",
+   "Democrats Set to Ramp Up Iran War Scrutiny After Midterm Gains - Bloomberg Law News",
+   "Gold price optimism cools among Indians: Should investors change their investment strategy? - TradingView",
    "Trump acknowledges Iran war\u2019s electoral cost after Democratic sweep - The Arab Weekly",
    "Democratic Party wins big: Gold prices surge, oil prices fluctuate. - Vietnam.vn",
    "Poundland supplier 'will lose millions' if retailer collapses",
    "Platinum Price Forecast: Dollar Drop Fuels Rebound After US Midterms - FXEmpire",
    "Dollar Sinks to One-Month Low as Democratic Midterm Sweep Fuels AI Regulation Fears - BigGo Finance",
    "Russia Keeps Building Missiles Despite Sanctions, Amassing Up to 700 Ballistic Missiles by October 2026 - UNITED24 Media",
-   "Iran\u2019s Chief Negotiator Warns Trump Against Another War, Says Tehran Remains Ready For Battle 'With Its F - Benzinga",
    "Osisko Gold Group Inc. Retreats as Gold Developer Faces Sector Headwinds and Macro Uncertainty - kalkine.ca",
    "P2 Gold Inc. Retreats as Exploration Stage Gold Copper Companies Face Persistent Market Pressure - kalkine.ca",
-   "Tiernan Gold Corp. Slides as Junior Explorer Faces Sentiment Headwinds and Exploration Stage Pressures - kalkine.ca",
    "Galiano Gold Inc. Encounters Selling Pressure as African Gold Producer Faces Sector and Macro Headwinds - kalkine.ca",
    "Gold X2 Mining Inc. Retreats as Junior Gold Equities Face Broad Headwinds - kalkine.ca",
    "Gold Demand Trends: Q3 2026 - Seeking Alpha",
    "US dollar falls and stocks waiver as Democrats sweep to victory in midterm elections - The Irish Times",
    "Gold prices may have crashed globally but gold smuggling in India has jumped to 50 tonnes from 3 tonnes i - The Times of India",
-   "Trump, conceding stunning midterm loss, admits Iran war and gas prices hurt Republicans - The Times of Israel",
-   "Europe\u2019s wave of aviation bomb hoaxes puts war risk and terrorism cover in focus - Insurance Business",
    "Iran war, Epstein, impeachment? What will Democrats do with control of Congress? - France 24",
    "Asian FX gains as dollar falls on U.S. midterm results, yuan weakens on PBOC move - Investing.com",
    "Institutional FX Volumes Cool in October as Fed and Bank of Japan Hold Rates - Finance Magnates"
   ]
  },
  "log": [
-  "03.11 08:36 N  NEWS (18 new) score +0.25 conf 0.40: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'n\u0131 vurmas\u0131 gibi yeni jeopolitik gerilim, alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekleyerek hafif yukar\u0131 y\u00f6nl\u00fc bir etki yaratabilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, ABD dolar\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f gibi \u00e7eli\u015fkili sinyaller ve kaynaklar aras\u0131ndaki tutars\u0131z fiyat verileri nedeniyle g\u00fcven s\u0131n\u0131rl\u0131 kalmaktad\u0131r.",
-  "03.11 08:36 N  GPT  score +0.25 conf 0.42: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve Ukrayna\u2019daki sivil kay\u0131plara ili\u015fkin haberler g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi de alt\u0131n i\u00e7in olumlu. Ancak alt\u0131n\u0131n son saatlerde zay\u0131flamas\u0131 ve Fed faiz art\u0131\u015f\u0131 beklentilerinin bask\u0131s\u0131 y\u00f6n\u00fc s\u0131n\u0131rl\u0131yor.",
   "03.11 08:41 A  SHORT ETHUSDT 4712 USD x3 @ 2249.42 (ters sinyal, RSI 42)",
   "03.11 08:41 A  SHORT SOLUSDT 2356 USD x3 @ 91.87 (ters sinyal, RSI 40)",
   "03.11 08:47 N  NEWS (9 new) score +0.15 conf 0.35: Hormuz ve Qeshm Adas\u0131'ndaki patlama ve ABD sald\u0131r\u0131 haberleri jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini hafif destekleyerek alt\u0131n\u0131 yukar\u0131 \u00e7ekebilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, d\u00fc\u015f\u00fck petrol kaynakl\u0131 enflasyon kayg\u0131s\u0131n\u0131n azalmas\u0131 ve ABD dolar\u0131ndaki olas\u0131 g\u00fc\u00e7 kar\u0131\u015f\u0131k sinyal veriyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya \u00e7eli\u015fkili (\u00f6r. 5.000 dolar iddias\u0131), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
@@ -14306,7 +14312,9 @@
   "04.11 13:14 N  NEWS (16 new) score +0.50 conf 0.60: Demokratlar\u0131n ara se\u00e7imlerdeki zaferi dolar\u0131 ve ABD tahvil faizlerini d\u00fc\u015f\u00fcrd\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde net olarak y\u00fckseltici bir etkidir. Iran sava\u015f\u0131n\u0131n se\u00e7men taraf\u0131ndan reddedildi\u011fi haberi jeopolitik risk primini biraz azaltabilir, ancak bu etki dolar ve faiz kanal\u0131n\u0131n gerisinde kal\u0131yor.",
   "04.11 13:14 N  GPT  score +0.45 conf 0.58: Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131 sonras\u0131 dolar\u0131n ve tahvil getirilerinin gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n rallisinin zaten ba\u015flad\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor. \u0130ran\u2019dan gelen sava\u015f kar\u015f\u0131t\u0131 s\u00f6ylem g\u00fcvenli liman talebini bir miktar s\u0131n\u0131rlayabilir.",
   "04.11 13:26 N  NEWS (14 new) score +0.40 conf 0.55: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131fl\u0131yor ve Hazine tahvil faizleri geriliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta \u0130ran-ABD gerilimi ve Husi f\u00fcze sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini hafif\u00e7e art\u0131rabilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
-  "04.11 13:26 N  GPT  score +0.65 conf 0.68: Dolar\u0131n gerilemesi ve d\u00fc\u015f\u00fck tahvil getirileri alt\u0131n\u0131 k\u0131sa vadede destekliyor; Houthis sald\u0131r\u0131s\u0131 ve Irak\u2019taki gerilim kayg\u0131lar\u0131 da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n bu haberlerle zaten s\u0131\u00e7ram\u0131\u015f olmas\u0131, hareketin bir k\u0131sm\u0131n\u0131n fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor."
+  "04.11 13:26 N  GPT  score +0.65 conf 0.68: Dolar\u0131n gerilemesi ve d\u00fc\u015f\u00fck tahvil getirileri alt\u0131n\u0131 k\u0131sa vadede destekliyor; Houthis sald\u0131r\u0131s\u0131 ve Irak\u2019taki gerilim kayg\u0131lar\u0131 da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n bu haberlerle zaten s\u0131\u00e7ram\u0131\u015f olmas\u0131, hareketin bir k\u0131sm\u0131n\u0131n fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor.",
+  "04.11 13:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131flarken ve tahvil getirileri d\u00fc\u015ferken alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, k\u0131sa vadede alt\u0131n\u0131 destekleyen net bir etken. Ancak \u0130ran sava\u015f\u0131na kar\u015f\u0131 tepkinin g\u00fcvenli liman talebini azaltabilece\u011fi, cuma g\u00fcnk\u00fc istihdam raporunun riski ve baz\u0131 analistlerin 3.500 dolar \u00f6ng\u00f6r\u00fcs\u00fc nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
+  "04.11 13:38 N  GPT  score +0.62 conf 0.68: Dolar\u0131n gerilemesi ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekleyen ba\u015fl\u0131ca etkenler; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 da belirtiliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f olabilir ve istihdam verisi \u00f6ncesi temkin, y\u00fckseli\u015fi s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -21387,6 +21395,10 @@
    [
     1793788490,
     4963.78
+   ],
+   [
+    1793788681,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28395,6 +28407,10 @@
    [
     1793788490,
     4975.18
+   ],
+   [
+    1793788681,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35369,6 +35385,10 @@
    [
     1793788490,
     4993.28
+   ],
+   [
+    1793788681,
+    4993.28
    ]
   ]
  },
@@ -42180,6 +42200,10 @@
    [
     1793788490,
     4969.22
+   ],
+   [
+    1793788681,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -48127,6 +48151,10 @@
    [
     1793788490,
     4880.23
+   ],
+   [
+    1793788681,
+    4889.99
    ]
   ],
   "news_calls": {
@@ -54904,6 +54932,10 @@
    [
     1793788490,
     102491.32
+   ],
+   [
+    1793788681,
+    102491.32
    ]
   ],
   "open": {},
@@ -59949,6 +59981,10 @@
    ],
    [
     1793788490,
+    5066.43
+   ],
+   [
+    1793788681,
     5066.43
    ]
   ],
