@@ -1701,6 +1701,10 @@
    [
     1793824058,
     5000.0
+   ],
+   [
+    1793824239,
+    5000.0
    ]
   ],
   "archive": [
@@ -12352,6 +12356,10 @@
    ],
    [
     1793824058,
+    4868.5
+   ],
+   [
+    1793824239,
     4868.5
    ]
   ],
@@ -23079,6 +23087,10 @@
    [
     1793824058,
     4963.78
+   ],
+   [
+    1793824239,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -30651,6 +30663,10 @@
    [
     1793824058,
     4975.18
+   ],
+   [
+    1793824239,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -38189,6 +38205,10 @@
    [
     1793824058,
     4993.28
+   ],
+   [
+    1793824239,
+    4993.28
    ]
   ]
  },
@@ -45564,6 +45584,10 @@
    [
     1793824058,
     4969.22
+   ],
+   [
+    1793824239,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -52222,6 +52246,10 @@
    [
     1793824058,
     4884.4
+   ],
+   [
+    1793824239,
+    4898.33
    ]
   ],
   "news_calls": {
@@ -52429,7 +52457,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 104660.86988400001,
+   "balance": 104663.409084,
    "start": 100000.0,
    "positions": [
     {
@@ -52444,7 +52472,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Bilan\u00e7o sonras\u0131 g\u00fc\u00e7l\u00fc ivme s\u00fcr\u00fcyor, y\u00fckselen dipler ve g\u00fcn i\u00e7i zirveye yak\u0131n kapan\u0131\u015flar devam eden al\u0131m talebine i\u015faret ediyor. | GPT 0.6: Olumsuz \u015firket haberlerine ra\u011fmen y\u00fckselen dipler ve zirve yak\u0131n\u0131nda tutunma devam al\u0131m\u0131n\u0131 destekliyor, ancak g\u00fcnl\u00fck y\u00fckseli\u015f kovalamaca riskini art",
-     "cur": 352.28
+     "cur": 351.98
     },
     {
      "id": "e6961ff6-5381-4b14-a458-9092fd9c4e5d",
@@ -52458,7 +52486,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: QQQ g\u00fc\u00e7l\u00fcyken NVDA negatif kal\u0131yor; veri merkezi yava\u015flamas\u0131 haberleri ve 206 seviyesinden geri \u00e7ekilme g\u00f6receli zay\u0131fl\u0131\u011fa i\u015faret ediyor. | GPT 0.66: Endekslere g\u00f6re zay\u0131fl\u0131k ve son s\u0131\u00e7raman\u0131n geri verilmesi, veri merkezi yat\u0131r\u0131mlar\u0131na ili\u015fkin olumsuz haberlerle birlikte d\u00fc\u015f\u00fc\u015f\u00fc destekli",
-     "cur": 202.09
+     "cur": 202.2899
     },
     {
      "id": "7ed3d320-d1ef-4062-8cd7-1d2721067b79",
@@ -52472,7 +52500,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Geni\u015f piyasa g\u00fc\u00e7l\u00fc, QQQ son 5 dakikal\u0131k mumlarda k\u0131sa vadeli dipten toparlan\u0131p pencerenin zirvesine \u00e7\u0131kt\u0131; AI bask\u0131s\u0131na ra\u011fmen \u0131l\u0131ml\u0131 bir y\u00fckseli\u015f e\u011filimi var. | GPT 0.6: Son yar\u0131m saatte dipten toparlan\u0131p saatlik zirveye ula\u015fmas\u0131, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde k\u0131sa vadeli y\u00fckseli\u015f devam\u0131n\u0131 de",
-     "cur": 692.82
+     "cur": 693.5
     },
     {
      "id": "aa32387f-5730-46ee-bbf3-d527ff0fd130",
@@ -52486,7 +52514,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Endeks se\u00e7im sonras\u0131 istikrarl\u0131 y\u00fckseli\u015f trendinde, g\u00fc\u00e7l\u00fc ADP verisi ve artan dipler momentumu destekliyor. | GPT 0.64: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, k\u0131sa vadeli devam hareketini destekliyor.",
-     "cur": 767.82
+     "cur": 768.26
     }
    ],
    "trades": [
@@ -52637,12 +52665,12 @@
    ],
    "day": {
     "date": "2026-11-04",
-    "pnl": 3360.06,
+    "pnl": 3295.01,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 105851.38
+   "equity": 105786.33
   },
   "equity_curve": [
    [
@@ -59656,6 +59684,10 @@
    [
     1793824058,
     105851.38
+   ],
+   [
+    1793824239,
+    105786.33
    ]
   ],
   "open": {
@@ -59771,7 +59803,7 @@
   "premarket_day": "2026-11-04",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "16243.96",
+   "buying_power": "15824.2",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -65310,6 +65342,10 @@
    ],
    [
     1793824058,
+    5066.43
+   ],
+   [
+    1793824239,
     5066.43
    ]
   ],
