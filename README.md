@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 23:36 (İstanbul)
+> Son güncelleme: 04.11.2026 23:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %56.2 | %42.5 |
 | Ödenen komisyon/spread | 189.90 $ | 475.49 $ |
 
-**Hesap değeri: 4,917.73 $** (başlangıç 5,000 $, -82.27 $ / %-1.65)
+**Hesap değeri: 4,899.62 $** (başlangıç 5,000 $, -100.38 $ / %-2.01)
 
 Açık pozisyonlar: PAXGUSDT long @ 4058.22 (TP 4070.40 / SL 4050.11)
 
@@ -66,29 +66,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +2143.35 $ | +1975.42 $ |
-| İşlem sayısı | 2 | 8 |
-| Kazanma oranı | %100.0 | %37.5 |
+| Net kâr/zarar | +3718.77 $ | +3550.84 $ |
+| İşlem sayısı | 3 | 9 |
+| Kazanma oranı | %100.0 | %44.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,897.48 $** (başlangıç 100,000 $, +5897.48 $ / %+5.90)
+**Hesap değeri: 106,054.78 $** (başlangıç 100,000 $, +6054.78 $ / %+6.05)
 
-Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 694.65 (TP 705.11 / SL 687.74); SPY long @ 763.34 (TP 774.83 / SL 755.75)
+Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); QQQ long @ 694.65 (TP 705.11 / SL 687.74); SPY long @ 763.34 (TP 774.83 / SL 755.75)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 23:39 | NVDA | short | +1575.42 $ | take profit |
 | 04.11 22:26 | TSLA | long | +604.29 $ | take profit |
 | 04.11 18:26 | QQQ | long | +1539.06 $ | take profit |
 | 03.11 23:48 | QQQ | long | -62.06 $ | seans sonu |
 | 03.11 18:34 | AAPL | long | -859.05 $ | stop |
-| 02.11 23:51 | TSLA | long | -1109.17 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-04.11 22:26 B6  CLOSE long TSLA take profit: +604.29 USD
 04.11 22:26 B6  karar turu: Claude «Seçim sonrası petrol düşüşü ve İran savaşının sona ereceği beklentisiyle endeksler güçlü, fakat gün sonuna yaklaşırken fiyatlar yatay seyrediyor ve kapanış öncesi yeni bir yön sinyali zayıf.» / GPT «Endekslerde yükseliş sonrası yataylaşma hâkim; kapanışa 34 dakika kala seans sonrası likidite ve bracket emirlerinin geçerliliği ayrıca kontrol edilmeli.»
 04.11 22:38 N  NEWS (14 new) score +0.10 conf 0.40: İran savaşının sona erme beklentisi güvenli liman talebini azaltarak altın için olumsuz, petrol fiyatlarının sert düşüşüyle gelen enflasyon beklentisinin gerilemesi ise faiz indirimi beklentilerini destekleyerek olumlu etki yaratıyor. Bu karşıt etkiler birbirini büyük ölçüde dengeliyor; haberlerin çoğu da zaten fiyatlanmış olduğu için net etki zayıf görünüyor.
 04.11 22:38 N  GPT  score -0.30 conf 0.55: ABD’de seçim yenilgisi sonrasında İran savaşını bitirme baskısının arttığı algısı ve petrolün sert düşüşü, kısa vadede güvenli liman talebini ve enflasyon risk primini azaltarak altına hafif baskı yapabilir. Ancak savaşın sona ereceğine dair somut bir gelişme yok ve manşetlerin çoğu aynı siyasi habe
@@ -103,6 +102,7 @@ Son işlemler:
 04.11 23:21 N  GPT  score +0.30 conf 0.48: Qeshm Adası’na yönelik ABD saldırısı ve İran’dan gelen yeni tehditler kısa vadede güvenli liman talebini artırabilir. Ancak savaşın sona erebileceğine dair beklentilerle petrolün gerilemesi ve haber akışındaki çelişkiler yükseliş etkisini sınırlıyor.
 04.11 23:33 N  NEWS (11 new) score +0.20 conf 0.40: 
 04.11 23:33 N  GPT  score +0.35 conf 0.48: İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini destekleyebilir; ancak Trump’ın savaş riskini küçümsemesi ve petrolün düşüşü tırmanmanın sınırlanacağı beklentisini güçlendiriyor. Demokratların seçim zaferiyle altının zaten 4.000 doların üzerine çıktığına dair haber, bu
+04.11 23:39 B6  CLOSE short NVDA take profit: +1575.42 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
