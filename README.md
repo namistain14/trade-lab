@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 08:57 (İstanbul)
+> Son güncelleme: 04.11.2026 09:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +95.21 $ | -247.54 $ |
-| İşlem sayısı | 5 | 29 |
-| Kazanma oranı | %60.0 | %37.9 |
-| Ödenen komisyon/spread | 59.47 $ | 345.07 $ |
+| Net kâr/zarar | +39.29 $ | -303.46 $ |
+| İşlem sayısı | 6 | 30 |
+| Kazanma oranı | %50.0 | %36.7 |
+| Ödenen komisyon/spread | 71.34 $ | 356.93 $ |
 
-**Hesap değeri: 4,746.53 $** (başlangıç 5,000 $, -253.47 $ / %-5.07)
-
-Açık pozisyonlar: PAXGUSDT long @ 4010.40 (TP 4022.43 / SL 4002.38)
+**Hesap değeri: 4,696.54 $** (başlangıç 5,000 $, -303.46 $ / %-6.07)
 
 Son haber analizi (04.11 08:57): Claude puan **+0.40**, güven 0.60 — Dolar endeksinin Eylül'ün son haftasındaki düşük seviyelere gerilemesi ve İran savaşının sürmesi, güvenli liman talebi ile zayıf dolar nedeniyle altın için olumlu bir tablo çiziyor. Ancak dolar düşüşü ve ara seçim sonuçları kısmen fiyatlanmış durumda ve Fed beklentilerinde net bir dovish sinyal yok, bu yüzden güven orta düzeyde tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 09:00 | PAXGUSDT | long | -55.93 $ | stop |
 | 04.11 08:52 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 08:32 | PAXGUSDT | long | +69.04 $ | take profit |
 | 04.11 07:50 | PAXGUSDT | long | +69.04 $ | take profit |
 | 04.11 06:01 | PAXGUSDT | long | -55.94 $ | stop |
-| 04.11 01:49 | PAXGUSDT | short | -55.96 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 04.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 04.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 04.11 08:13 N  NEWS (10 new) score +0.05 conf 0.35: Dolar, ara seçim sonrası Demokratların önde gitmesiyle zayıfladı ve bu altın için destekleyici; İran savaşının sürmesi ve Qeshm'e yapılan saldırılar güvenli liman talebini canlı tutuyor. Buna karşılık ABD istihdam verisinin faiz artırımı beklentilerini güçlendirmesi ve bazı haberlerde altının "kritik destek" altında kalma riski olması baskı yaratıyor. Sinyaller karışık olduğu için yön belirsiz ve güven düşük.
@@ -101,6 +98,7 @@ Son işlemler:
 04.11 08:57 N  NEWS (9 new) score +0.40 conf 0.60: Dolar endeksinin Eylül'ün son haftasındaki düşük seviyelere gerilemesi ve İran savaşının sürmesi, güvenli liman talebi ile zayıf dolar nedeniyle altın için olumlu bir tablo çiziyor. Ancak dolar düşüşü ve ara seçim sonuçları kısmen fiyatlanmış durumda ve Fed beklentilerinde net bir dovish sinyal yok, bu yüzden güven orta düzeyde tutuldu.
 04.11 08:57 N  GPT  score +0.35 conf 0.48: Demokratların ilerleyişiyle doların zayıflaması ve tahvillerin yükselmesi altını kısa vadede destekliyor; İran savaşı ve Hürmüz gerilimi de güvenli liman talebini artırabilir. Ancak haberlerin çoğu aynı seçim gelişmesini tekrarlıyor ve ilk fiyat tepkisi başlamış görünüyor, bu nedenle etki sınırlı ka
 04.11 08:57 B5  LONG gold 25000 USD x10 @ 4010.40 (TP 4022.43, SL 4002.38; news +0.38)
+04.11 09:00 B5  CLOSE long stop: -55.93 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
