@@ -1809,6 +1809,10 @@
    [
     1793829441,
     5000.0
+   ],
+   [
+    1793830039,
+    5000.0
    ]
   ],
   "archive": [
@@ -3661,12 +3665,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1793822400000,
-   "ETHUSDT": 1793822400000,
-   "SOLUSDT": 1793822400000,
-   "BNBUSDT": 1793822400000,
-   "XRPUSDT": 1793822400000,
-   "DOGEUSDT": 1793822400000
+   "BTCUSDT": 1793826000000,
+   "ETHUSDT": 1793826000000,
+   "SOLUSDT": 1793826000000,
+   "BNBUSDT": 1793826000000,
+   "XRPUSDT": 1793826000000,
+   "DOGEUSDT": 1793826000000
   }
  },
  "gold_news": {
@@ -12569,43 +12573,38 @@
    [
     1793829441,
     4868.5
+   ],
+   [
+    1793830039,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.3,
+   "score": 0.4,
    "confidence": 0.5,
-   "reason": "Dolar\u0131n iki ayl\u0131k dibe gerilemesi ve Demokratlar\u0131n Kongre'yi kazanmas\u0131yla \u0130ran sava\u015f\u0131n\u0131n g\u00fcndemde kalmas\u0131 alt\u0131n i\u00e7in destekleyici. Ancak ABD'nin Qeshm Adas\u0131'n\u0131 vurmas\u0131 ile Trump'\u0131n riskleri k\u00fc\u00e7\u00fcmsemesi \u00e7eli\u015fkili; petrol fiyatlar\u0131n\u0131n 100 dolar\u0131n alt\u0131na inmesi enflasyon beklentilerini s\u0131n\u0131rlay\u0131p faiz indirimi beklentilerini destekleyebilir, bu da alt\u0131 olumlu etkiler. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
+   "reason": "Dolar endeksinin ABD ara se\u00e7imleri sonras\u0131 iki ayl\u0131k dibe inmesi ve alt\u0131n\u0131n y\u00fckseli\u015fi, 1-4 saatlik g\u00f6r\u00fcn\u00fcmde alt\u0131 destekliyor. Ancak Iran sava\u015f\u0131n\u0131n kamuoyundaki etkisi, Vance'in sava\u015f\u0131 reddetmesi ve Qeshm sald\u0131r\u0131s\u0131 gibi \u00e7eli\u015fkili haberler, jeopolitik risk primini tam olarak belirsiz b\u0131rak\u0131yor; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793829094933,
-   "new_headlines": 2,
+   "ts": 1793830038737,
+   "new_headlines": 13,
    "key_events": [
     "ABD ara se\u00e7im sonu\u00e7lar\u0131: Demokratlar\u0131n g\u00fc\u00e7l\u00fc performans\u0131 dolar\u0131 ve getirileri d\u00fc\u015f\u00fcrd\u00fc",
     "Dolar bir ayl\u0131k en d\u00fc\u015f\u00fck seviyede; alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
     "\u0130ran ile m\u00fczakere beklentisi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir"
    ],
    "gpt": {
-    "score": 0.65,
-    "confidence": 0.68,
-    "reason": "Qe\u015fm Adas\u0131\u2019na y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131, sava\u015f\u0131n yeniden t\u0131rmanabilece\u011fi endi\u015fesini ve k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir. Trump\u2019\u0131n riskleri k\u00fc\u00e7\u00fcmsemesi ve sava\u015f\u0131n sona erebilece\u011fi beklentisi bu etkiyi s\u0131n\u0131rlarken, dolar\u0131n zay\u0131fl\u0131\u011f\u0131 alt\u0131n\u0131 destekliyor.",
+    "score": 0.4,
+    "confidence": 0.56,
+    "reason": "Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar\u0131n zay\u0131flamas\u0131 alt\u0131n\u0131 destekliyor; \u0130ran\u2019daki sald\u0131r\u0131 ve Kuzey Kore f\u00fcze denemesi de g\u00fcvenli liman talebini art\u0131rabilir. Ancak alt\u0131n\u0131n se\u00e7im haberleriyle zaten y\u00fckselmi\u015f olmas\u0131 ve \u0130ran sava\u015f\u0131n\u0131n yat\u0131\u015fabilece\u011fine dair a\u00e7\u0131klamalar k\u0131sa vadeli etk",
     "key_events": [
-     "ABD\u2019nin Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131s\u0131",
-     "Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi",
-     "Dolar\u0131n gerilemesi"
+     "Se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 dolar\u0131n gerilemesi",
+     "\u0130ran\u2019\u0131n Qe\u015fm Adas\u0131\u2019na sald\u0131r\u0131 haberi",
+     "Kuzey Kore\u2019nin f\u00fcze denemesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793223964950,
-    "score": 0.3,
-    "confidence": 0.5,
-    "reason": "Fed faizleri sabit tuttu ve haber ak\u0131\u015f\u0131na g\u00f6re dolar Fed karar\u0131n\u0131n ard\u0131ndan d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, arabuluculu\u011fun t\u0131kanmas\u0131 ve sava\u015f maliyetlerinin artmas\u0131 g\u00fcvenli liman talebini de destekliyor. Ancak \"y\u00fcksek enflasyon\" vurgusu ve Warsh'un \u0131l\u0131ml\u0131 tonu faiz beklentilerini net dovish yapmad\u0131\u011f\u0131ndan etki s\u0131n\u0131rl\u0131; ayr\u0131ca Fed haberinin fiyat tepkisi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten yans\u0131m\u0131\u015f olabilir.",
-    "new": 32,
-    "gpt_score": 0.32,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1793226262764,
     "score": -0.2,
@@ -15296,20 +15295,37 @@
     "new": 2,
     "gpt_score": 0.65,
     "gpt_confidence": 0.68
+   },
+   {
+    "ts": 1793830038737,
+    "score": 0.4,
+    "confidence": 0.5,
+    "reason": "Dolar endeksinin ABD ara se\u00e7imleri sonras\u0131 iki ayl\u0131k dibe inmesi ve alt\u0131n\u0131n y\u00fckseli\u015fi, 1-4 saatlik g\u00f6r\u00fcn\u00fcmde alt\u0131 destekliyor. Ancak Iran sava\u015f\u0131n\u0131n kamuoyundaki etkisi, Vance'in sava\u015f\u0131 reddetmesi ve Qeshm sald\u0131r\u0131s\u0131 gibi \u00e7eli\u015fkili haberler, jeopolitik risk primini tam olarak belirsiz b\u0131rak\u0131yor; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 13,
+    "gpt_score": 0.4,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
+   "Centcom Benefits From Project Agincourt, Drone Dominance Efforts - U.S. Department of War (.gov)",
+   "North Korea says it tested air-defence missile, staged cruise missile drill - Reuters",
    "Exclusive | U.S. Strikes Iran\u2019s Qeshm Island as Trump Talks Down War Risks - WSJ",
+   "Gold soars as dollar weakens after US polls - The Express Tribune",
+   "Forex: $159.60 to one US dollar - Jamaica Observer",
+   "Holy War game between No. 3 Utah, No. 7 BYU evolved into one of top FBS rivalries - KUTV",
    "Video: Trump Points to War in Iran for Republican Midterm Losses - The New York Times",
    "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
    "Pound rises to its highest level since the Brexit referendum",
+   "Vance: GOP lost midterms due to Iran war, voters want \u2018change\u2019 in Israel relationship - The Times of Israel",
+   "ANALYSIS | JD Vance blames war in Iran for Republicans' midterm disaster - CBC",
    "What new Democratic Congress could mean for Iran war, $1.5T Pentagon budget - Al-Monitor",
-   "Vance says Iran war cost GOP the midterms; Trump says he would have done nothing different - WBFF",
+   "Vance repudiates Iran war after US electoral defeat - Reuters",
    "FRED Adds Inflation Indicators from the St. Louis Fed - Federal Reserve Economic Data | FRED | St. Louis Fed",
+   "Vance says Iran war cost GOP the midterms; Trump says he would have done nothing different - KSNV",
    "U.S. Air Force to begin year-round operations at rebuilt World War II-era Pacific airfields - The Air Current",
    "Expedia forecasts downbeat fourth-quarter revenue as geopolitical tensions weigh - Reuters",
    "Trump concedes Iran war angered voters, triggered Democratic landslide - The Washington Post",
@@ -15328,31 +15344,21 @@
    "What\u2019s Likely to Change for the U.S. Economy After Democrats\u2019 Resounding Victory in the Midterms? - Investopedia",
    "Election stiffens the Fed's guardrails, but independence risks remain - Reuters",
    "Owners of US shale producer Enduring Resources IV explore $4 billion sale, sources say - Reuters",
+   "Supreme Court Reverses Attorney Sanctions for Lack of Due Process - Marianas Press",
    "France Opens War Crimes Investigation Into Israeli Airstrike That Killed Artist Ali Cherri's Parents - Hyperallergic",
-   "Tehran's war debate turns to wider strikes and nuclear threats - Iran International",
    "Gold Prices Are Above $4,000 After Democrats Win Big in Midterm Elections - Barron's",
    "Ukraine says bodycam video shows deadly Russian double-tap bombing",
    "British Pound: Recovery targets upper 1.36 area against US Dollar \u2013 Scotiabank - Mitrade",
+   "JD Vance says Iran war cost Republicans control of Congress - The Indian Express",
    "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
    "Yes, You Can Pass A Nuclear Missile Driving On Interstate 80 Through Wyoming - Cowboy State Daily",
    "JD Vance blames Iran war, Israel ties for Republican midterm losses - The Jerusalem Post",
+   "Agnico Eagle Soars 10%, Wheaton Precious Up 12% as Democratic Midterm Win Lifts Gold - TIKR.com",
    "Conservative US Supreme Court justices Thomas and Alito in spotlight after Democratic landslide - Reuters",
-   "Fears of election day interference fizzle, but federal war on voter fraud could continue - Los Angeles Times",
-   "Vance blames Iran war for GOP midterm losses - PBS",
-   "Presidential hopeful Vance appears to question Iran war after polls debacle - Al Jazeera",
-   "Vance Blames Iran War for GOP Midterms Wipeout - Foreign Policy",
-   "RAW: FILE: U-S UNVEILS NEW SANCTIONS TO PRESSURE IRAN - Local 3 News",
-   "As price gives no jitters, gold, silver retain glitter - The Times of India",
-   "Oil prices drop below $100 as midterms fuel hope for an end to the Iran war - NBC News",
-   "Swearing-in ceremony for incoming Federal Reserve Chair Kevin Warsh - The Lufkin Daily News",
-   "JD Vance says US war on Iran is \u2018real reason\u2019 Republicans lost midterm elections - The Guardian",
-   "Vance, in Break With Trump, Blames Iran War for Republicans\u2019 2026 Midterm Losses - The New York Times",
-   "From Data Centers, to Iran War, to Immigration: How the Blue Wave Can Boost Consumer Stocks - Barron's"
+   "The Art Market Is Doubling Down on the Gulf Despite the War With Iran - Observer"
   ]
  },
  "log": [
-  "03.11 21:42 N  NEWS (16 new) score +0.12 conf 0.35: ABD'nin \u0130ran'a yeni \"savunma\" sald\u0131r\u0131lar\u0131 (Qeshm adas\u0131) jeopolitik risk primi yaratarak alt\u0131n\u0131 hafif\u00e7e destekliyor. Ancak dolar ve ABD tahvil getirilerinin y\u00fckselmesi ve ABD ara se\u00e7im/NFP beklentisiyle g\u00fc\u00e7lenen dolar, k\u0131sa vadede alt\u0131 bask\u0131l\u0131yor; bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-  "03.11 21:42 N  GPT  score +0.15 conf 0.46: ABD\u2019nin \u0130ran\u2019a y\u00f6nelik yeni sald\u0131r\u0131lar\u0131 ve H\u00fcrm\u00fcz petrol ak\u0131\u015flar\u0131n\u0131n sava\u015f \u00f6ncesi d\u00fczeye d\u00f6nmesinin beklenmemesi g\u00fcvenli liman talebini destekleyebilir. Ancak y\u00fckselen dolar ve ABD tahvil getirileri alt\u0131n i\u00e7in \u00f6nemli bir kar\u015f\u0131 bask\u0131 olu\u015fturuyor; bu nedenle net etki s\u0131n\u0131rl\u0131 pozitif g\u00f6r\u00fcn\u00fcyor.",
   "03.11 21:42 B6  karar turu: Claude \u00abEndeksler g\u00fc\u00e7l\u00fc makro verilerle \u0131l\u0131ml\u0131 art\u0131da ancak son saatte yatay konsolidasyon var, belirgin bir momentum yok.\u00bb / GPT \u00abEndeksler yatayken AAPL'de se\u00e7ici k\u0131sa pozisyon \u00f6ne \u00e7\u0131k\u0131yor; normal seans kapan\u0131\u015f\u0131na yaln\u0131zca 78 dakika kald\u0131\u011f\u0131ndan pozisyonu kapan\u0131\u015ftan \u00f6nce kapatmak gerekir.\u00bb",
   "03.11 21:54 N  NEWS (12 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki ABD sald\u0131r\u0131lar\u0131 jeopolitik risk ve g\u00fcvenli liman talebini hafif destekliyor, WGC'nin merkez bankas\u0131 al\u0131mlar\u0131n\u0131n %42 art\u0131\u015f\u0131 da yap\u0131sal talebi g\u00fc\u00e7lendiriyor. Buna kar\u015f\u0131n dolar ve ABD tahvil getirilerinin y\u00fckseli\u015fi (17:49) ve \"Five Metals\" haberindeki alt\u0131n fiyatlar\u0131ndaki geri \u00e7ekilme alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya zaten fiyatlanm\u0131\u015f. Net etki 1-4 saat i\u00e7in hafif pozitif, d\u00fc\u015f\u00fck g\u00fcvenle.",
   "03.11 21:54 N  GPT  score +0.12 conf 0.43: \u0130ran\u2019a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve g\u00f6r\u00fc\u015fmelerdeki karamsarl\u0131k g\u00fcvenli liman talebini destekleyebilir; WGC\u2019nin g\u00fc\u00e7l\u00fc merkez bankas\u0131 al\u0131m\u0131 haberi de alt\u0131n i\u00e7in olumlu. Ancak dolar ve ABD getirilerindeki y\u00fckseli\u015f k\u0131sa vadeli kazan\u0131mlar\u0131 s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki hafif pozitif g\u00f6r",
@@ -15650,7 +15656,9 @@
   "05.11 00:39 N  NEWS (9 new) score +0.15 conf 0.40: Dolar endeksinin iki ayl\u0131k dibe inmesi ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi (enflasyon beklentilerinde gerileme, dolay\u0131s\u0131yla daha d\u00fc\u015f\u00fck reel faiz beklentisi) alt\u0131n i\u00e7in destekleyici. \u00d6te yandan \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi beklentisi jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve alt\u0131n piyasas\u0131 yatay seyrediyor. Bu kar\u0131\u015f\u0131k sinyaller nedeniyle hafif pozitif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fc\u015f.",
   "05.11 00:39 N  GPT  score +0.20 conf 0.48: Demokratlar\u0131n Kongreyi kazanmas\u0131 sonras\u0131 dolar\u0131n zay\u0131flamas\u0131 alt\u0131n\u0131 destekliyor; ancak \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi beklentisi g\u00fcvenli liman talebini azalt\u0131yor. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve etkiler \u00e7eli\u015fkili oldu\u011fundan k\u0131sa vadeli y\u00fckseli\u015f e\u011filimi s\u0131n\u0131rl\u0131.",
   "05.11 00:51 N  NEWS (2 new) score +0.30 conf 0.50: Dolar\u0131n iki ayl\u0131k dibe gerilemesi ve Demokratlar\u0131n Kongre'yi kazanmas\u0131yla \u0130ran sava\u015f\u0131n\u0131n g\u00fcndemde kalmas\u0131 alt\u0131n i\u00e7in destekleyici. Ancak ABD'nin Qeshm Adas\u0131'n\u0131 vurmas\u0131 ile Trump'\u0131n riskleri k\u00fc\u00e7\u00fcmsemesi \u00e7eli\u015fkili; petrol fiyatlar\u0131n\u0131n 100 dolar\u0131n alt\u0131na inmesi enflasyon beklentilerini s\u0131n\u0131rlay\u0131p faiz indirimi beklentilerini destekleyebilir, bu da alt\u0131 olumlu etkiler. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
-  "05.11 00:51 N  GPT  score +0.65 conf 0.68: Qe\u015fm Adas\u0131\u2019na y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131, sava\u015f\u0131n yeniden t\u0131rmanabilece\u011fi endi\u015fesini ve k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir. Trump\u2019\u0131n riskleri k\u00fc\u00e7\u00fcmsemesi ve sava\u015f\u0131n sona erebilece\u011fi beklentisi bu etkiyi s\u0131n\u0131rlarken, dolar\u0131n zay\u0131fl\u0131\u011f\u0131 alt\u0131n\u0131 destekliyor."
+  "05.11 00:51 N  GPT  score +0.65 conf 0.68: Qe\u015fm Adas\u0131\u2019na y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131, sava\u015f\u0131n yeniden t\u0131rmanabilece\u011fi endi\u015fesini ve k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir. Trump\u2019\u0131n riskleri k\u00fc\u00e7\u00fcmsemesi ve sava\u015f\u0131n sona erebilece\u011fi beklentisi bu etkiyi s\u0131n\u0131rlarken, dolar\u0131n zay\u0131fl\u0131\u011f\u0131 alt\u0131n\u0131 destekliyor.",
+  "05.11 01:07 N  NEWS (13 new) score +0.40 conf 0.50: Dolar endeksinin ABD ara se\u00e7imleri sonras\u0131 iki ayl\u0131k dibe inmesi ve alt\u0131n\u0131n y\u00fckseli\u015fi, 1-4 saatlik g\u00f6r\u00fcn\u00fcmde alt\u0131 destekliyor. Ancak Iran sava\u015f\u0131n\u0131n kamuoyundaki etkisi, Vance'in sava\u015f\u0131 reddetmesi ve Qeshm sald\u0131r\u0131s\u0131 gibi \u00e7eli\u015fkili haberler, jeopolitik risk primini tam olarak belirsiz b\u0131rak\u0131yor; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
+  "05.11 01:07 N  GPT  score +0.40 conf 0.56: Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar\u0131n zay\u0131flamas\u0131 alt\u0131n\u0131 destekliyor; \u0130ran\u2019daki sald\u0131r\u0131 ve Kuzey Kore f\u00fcze denemesi de g\u00fcvenli liman talebini art\u0131rabilir. Ancak alt\u0131n\u0131n se\u00e7im haberleriyle zaten y\u00fckselmi\u015f olmas\u0131 ve \u0130ran sava\u015f\u0131n\u0131n yat\u0131\u015fabilece\u011fine dair a\u00e7\u0131klamalar k\u0131sa vadeli etk"
  ],
  "gold_big": {
   "account": {
@@ -23403,6 +23411,10 @@
    [
     1793829441,
     4963.78
+   ],
+   [
+    1793830039,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -31083,6 +31095,10 @@
    [
     1793829441,
     4975.18
+   ],
+   [
+    1793830039,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -38729,6 +38745,10 @@
    [
     1793829441,
     4993.28
+   ],
+   [
+    1793830039,
+    4993.28
    ]
   ]
  },
@@ -46212,6 +46232,10 @@
    [
     1793829441,
     4969.22
+   ],
+   [
+    1793830039,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -52978,6 +53002,10 @@
    [
     1793829441,
     4878.8
+   ],
+   [
+    1793830039,
+    4885.63
    ]
   ],
   "news_calls": {
@@ -60535,6 +60563,10 @@
    [
     1793829441,
     105886.16
+   ],
+   [
+    1793830039,
+    105886.16
    ]
   ],
   "open": {},
@@ -66252,6 +66284,10 @@
    ],
    [
     1793829441,
+    5066.43
+   ],
+   [
+    1793830039,
     5066.43
    ]
   ],
