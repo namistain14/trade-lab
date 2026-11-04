@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 17:51 (İstanbul)
+> Son güncelleme: 04.11.2026 17:55 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %61.5 | %43.2 |
 | Ödenen komisyon/spread | 154.35 $ | 439.94 $ |
 
-**Hesap değeri: 4,910.39 $** (başlangıç 5,000 $, -89.61 $ / %-1.79)
+**Hesap değeri: 4,886.06 $** (başlangıç 5,000 $, -113.94 $ / %-2.28)
 
 Açık pozisyonlar: PAXGUSDT long @ 4047.23 (TP 4059.37 / SL 4039.13)
 
-Son haber analizi (04.11 17:42): Claude puan **+0.50**, güven 0.60 — Dolar zayıflığı ve düşen tahvil getirileri (ara seçim sonuçlarının etkisi) altın için güçlü bir destek sağlıyor; ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırıyor. Ancak Trump'ın savaş risklerini küçümsemesi ve bazı haberlerin (Kitco, dolar satışı) zaten fiyatlanmış olması güveni sınırlıyor.
+Son haber analizi (04.11 17:54): Claude puan **+0.45**, güven 0.55 — Dolar zayıflığı ve düşen tahvil getirileri (ara seçim sonuçlarının etkisi) altın için güçlü bir destek sağlıyor; ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırıyor. Ancak Trump'ın savaş risklerini küçümsemesi ve bazı haberlerin (Kitco, dolar satışı) zaten fiyatlanmış olması güveni sınırlıyor.
 
-GPT (gpt-6-luna): puan **+0.65**, güven 0.62 — Qeshm Adası’na yönelik ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüş de altını destekliyor. Trump’ın savaş riskini küçümsemesi ve piyasadaki yükselişin bir kısmının zaten fiyatlanmış olabileceği, etkiyi sınırlıyor.
+GPT (gpt-6-luna): puan **+0.58**, güven 0.64 — İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüşe ilişkin haberler de altını destekliyor. Ancak seçim kaynaklı yükselişin önemli kısmı zaten fiyatlanmış olabilir ve petrolün düşmesi risk primini sınırlıyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %16.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 104,170.99 $** (başlangıç 100,000 $, +4170.99 $ / %+4.17)
+**Hesap değeri: 103,955.15 $** (başlangıç 100,000 $, +3955.15 $ / %+3.96)
 
 Açık pozisyonlar: QQQ long @ 689.23 (TP 700.19 / SL 682.94); SPY long @ 763.34 (TP 774.83 / SL 755.75)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 16:40 B5  LONG gold 25000 USD x10 @ 4036.74 (TP 4048.85, SL 4028.66; news +0.47)
-04.11 16:44 N  NEWS (11 new) score +0.40 conf 0.60: Demokratların Kongre'yi kazanmasıyla dolar endeksi (DXY) dört haftanın en düşük seviyelerine geriledi ve altın yeniden 4.000 doların üzerine çıktı; bu, altın için 1-4 saatlik vadede olumlu bir tablo. Ayrıca İran savaşının seçim sonuçlarını etkilediği ve büyüme endişelerinin artmasının dovish beklentileri destekleyebileceği görülüyor. Buna karşın seçim sonrası dolar düzeltmesinin kısmen fiyatlanmış olması ve ABD tahvil/hisse rallisinin risk iştahını artırabilmesi güveni sınırlıyor.
-04.11 16:44 N  GPT  score +0.56 conf 0.58: Doların seçim sonuçları sonrası zayıflaması ve altının 4.000 doları yeniden aşması kısa vadede altın için belirgin destek. Ancak haber akışının büyük bölümü aynı seçim temasını tekrarlıyor ve hareketin bir kısmı fiyatlanmış olabilir.
-04.11 16:56 N  NEWS (8 new) score +0.40 conf 0.60: ABD ara seçim sonuçlarının ardından dolar endeksi (DXY) 4-5 haftanın en düşük seviyelerine geriledi ve bu altın için destekleyici. Ayrıca büyüme endişeleri Fed beklentilerini yumuşatabilir. Ancak dolar hareketinin büyük kısmı zaten fiyatlandı ve İran savaşının sürmesi jeopolitik risk primi dışında kalan etkileri karıştırıyor, bu yüzden güven orta düzeyde.
 04.11 16:56 N  GPT  score +0.22 conf 0.43: Doların seçim sonuçları sonrası zayıflaması ve İran ile Kuzey Kore kaynaklı yeni güvenlik haberleri altına kısa vadede sınırlı destek sağlayabilir. Ancak dolar hareketi ve seçim etkisi büyük ölçüde fiyatlanmış görünüyor; hisse ve tahvil rallisi de güvenli liman talebini dengeleyebilir.
 04.11 17:31 N  NEWS (23 new) score +0.50 conf 0.55: Demokratların ara seçim süpürmesi doları ve tahvil getirilerini düşürdü; Kitco'ya göre altın ve gümüş yükseldi, dolar 5 haftanın en düşük seviyesine geriledi. İran savaşının sürmesi ve Hamaney'in uyarıları güvenli liman talebini destekliyor. Ancak yükselişin büyük kısmı 13:55 UTC'de zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde tutuldu.
 04.11 17:31 N  GPT  score +0.56 conf 0.68: Demokratların ara seçimlerdeki güçlü sonucu sonrası dolar ve tahvil getirilerinin gerilemesi altını destekliyor; haber akışında altın ve gümüşte yükseliş de bildiriliyor. Ancak seçim sonucu büyük ölçüde fiyatlanmış olabilir ve İran savaşı sürerken yönlü hareketin devamına dair belirsizlik var.
@@ -103,6 +99,10 @@ Son işlemler:
 04.11 17:43 N  GPT  score +0.65 conf 0.62: Qeshm Adası’na yönelik ABD saldırısı kısa vadeli güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüş de altını destekliyor. Trump’ın savaş riskini küçümsemesi ve piyasadaki yükselişin bir kısmının zaten fiyatlanmış olabileceği, etkiyi sınırlıyor.
 04.11 17:43 B6  karar turu: Claude «Demokrat zaferine rağmen endeksler güçlü yükselişte ve QQQ ivmeleniyor, ancak veri merkezi ve 'Trump trade' hisselerinde baskı sürüyor.» / GPT «Endekslerde güçlü alım var; ancak kaldıraç altında ters yön riski yüksek olduğundan kısa pozisyonları yalnızca haber baskısı ve göreli zayıflık gösteren hisselerde seçiyorum.»
 04.11 17:45 B5  LONG gold 25000 USD x10 @ 4047.23 (TP 4059.37, SL 4039.13; news +0.57)
+04.11 17:55 N  NEWS (7 new) score +0.45 conf 0.55: 
+04.11 17:55 N  GPT  score +0.58 conf 0.64: İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüşe ilişkin haberler de altını destekliyor. Ancak seçim kaynaklı yükselişin önemli kısmı zaten fiyatlanmış olabilir ve petrolün düşmesi risk primini sınırlıyor.
+04.11 17:55 B6  karar turu: Claude «Seçim sonrası endeksler güçlü yükselişte olsa da zayıf PMI verisi ve yapay zeka/veri merkezi endişeleri hisse bazında ayrışma yaratıyor.» / GPT «Endekslerde yükseliş sürse de son ivme kaybı ve beklenti altı PMI verileri nedeniyle kaldıraçlı yeni işlemlerde belirgin göreli zayıflığa odaklanıyorum.»
+04.11 17:55 B6  AÇIĞA SATIŞ NVDA 508 adet ≈ 103,845 $ (1:4) @ 204.42 (TP 201.35, SL 206.46; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
