@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 21:29 (İstanbul)
+> Son güncelleme: 04.11.2026 21:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %60.0 | %43.6 |
 | Ödenen komisyon/spread | 178.05 $ | 463.64 $ |
 
-**Hesap değeri: 4,907.79 $** (başlangıç 5,000 $, -92.21 $ / %-1.84)
+**Hesap değeri: 4,920.03 $** (başlangıç 5,000 $, -79.97 $ / %-1.60)
 
 Açık pozisyonlar: PAXGUSDT long @ 4065.20 (TP 4077.40 / SL 4057.07)
 
-Son haber analizi (04.11 21:20): Claude puan **+0.50**, güven 0.55 — ABD ara seçim sonuçlarının ardından dolar zayıfladı, petrol düştü ve altın yeniden 4.000 doları aştı; bu, dolar zayıflığı ve petrol kaynaklı enflasyon baskısının azalması yoluyla altını destekliyor. Ancak 3,5% gibi bir yükseliş büyük ölçüde fiyatlanmış olabilir ve "altın 3.900'e düştü" gibi eski/çelişkili başlıklar güveni sınırlıyor.
+Son haber analizi (04.11 21:32): Claude puan **+0.35**, güven 0.50 — Ara seçim sonuçları dolarda zayıflama ve petrolde sert düşüş (90 doların altı) getirdi; bu, enflasyon beklentilerini ve Fed'in sıkı duruş ihtimalini azaltarak altın için olumlu bir ortam yaratıyor. Ancak altın zaten yaklaşık %3,5 yükselip 4.000 doların üzerine çıktığı için etkinin bir kısmı fiyatlanmış durumda; ayrıca ABD'nin Qeshm Adası'nı vurması gibi gerilim haberleri güvenli liman talebini destekleyebilir, bu da sinyali karıştırıyor.
 
-GPT (gpt-6-luna): puan **+0.65**, güven 0.62 — Demokratların Kongre kazanımlarının doları zayıflatıp altını yeniden 4.000 doların üzerine taşıdığı bildiriliyor; bu, kısa vadede altını destekliyor. İran savaşı ve yeni yaptırımlar güvenli liman talebini artırabilir, ancak Vance’in savaştan uzaklaşma mesajı ve çelişkili fiyat haberleri yükselişin d
+GPT (gpt-6-luna): puan **+0.35**, güven 0.58 — Doların zayıflaması ve İran’a yönelik yeni ABD saldırısı altını kısa vadede destekliyor; ancak petrol düşüşü enflasyon ve faiz beklentilerini aşağı çekebilir. Altın zaten yaklaşık %3,5 yükselip 4.000 doları aşmış olduğundan haberlerin önemli bölümü fiyatlanmış olabilir; savaşın tırmanması ile sona e
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %28.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,157.22 $** (başlangıç 100,000 $, +5157.22 $ / %+5.16)
+**Hesap değeri: 105,002.81 $** (başlangıç 100,000 $, +5002.81 $ / %+5.00)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 694.65 (TP 705.11 / SL 687.74); SPY long @ 763.34 (TP 774.83 / SL 755.75); TSLA long @ 386.41 (TP 391.60 / SL 381.95)
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 19:50 N  GPT  score +0.45 conf 0.56: Doların seçim sonuçları sonrası gerilemesi ve İran savaşının geleceğine ilişkin artan belirsizlik, kısa vadede altına destek verebilir. Ancak manşetlerin çoğu aynı siyasi gelişmenin tekrarı; savaşın sona erme olasılığı ve hareketin önceden fiyatlanmış olması yükselişi sınırlayabilir.
-04.11 19:50 B6  karar turu: Claude «Demokratların seçim zaferi sonrası endeksler geniş tabanlı yükseliyor; ancak AI ve Musk bağlantılı hisseler baskı altında olduğu için Nasdaq, S&P'nin gerisinde kalıyor.» / GPT «Endekslerde yön yukarı; ancak yapay zekâ yatırımlarına ilişkin siyasi belirsizlik ve kaldıraç, yükseliş işlemlerinde riski artırıyor.»
 04.11 19:50 B6  ALIŞ QQQ 70 adet ≈ 48,628 $ (1:4) @ 694.69 (TP 705.11, SL 687.74; ikisi de hemfikir, güven 0.55)
 04.11 20:02 N  NEWS (20 new) score +0.20 conf 0.40: Haberlerin çoğu aynı Vance açıklamasının tekrarı ve kısmen fiyatlanmış durumda. Petrol fiyatlarının 100 doların altına inmesi ve doların zayıflaması, enflasyon beklentilerini ve ABD faiz beklentilerini yumuşatarak altı kısa vadede destekleyebilir. Buna karşılık İran savaşının bitebileceği beklentisi jeopolitik güvenli liman talebini azaltarak altı bir miktar baskılayabilir, bu yüzden etki sınırlı ve karışık.
 04.11 20:02 N  GPT  score +0.25 conf 0.40: Doların gerilemesi ve seçim sonuçlarının İran savaşının geleceğine dair belirsizliği artırması altına sınırlı destek verebilir. Ancak petrolün düşmesi ve savaşın sona erebileceği beklentisi güvenli liman talebini azaltabilir; haber akışı tekrarlı ve etkiler çelişkili.
@@ -103,6 +101,8 @@ Son işlemler:
 04.11 21:01 N  GPT  score +0.35 conf 0.56: Qeşm adasına yönelik yeni ABD saldırısı kısa vadede güvenli liman talebini artırabilir. Ancak savaşın siyasi baskıyla sona erebileceği beklentisi, düşen petrol ve çelişkili altın fiyatı haberleri yükseliş etkisini sınırlıyor.
 04.11 21:20 N  NEWS (19 new) score +0.50 conf 0.55: ABD ara seçim sonuçlarının ardından dolar zayıfladı, petrol düştü ve altın yeniden 4.000 doları aştı; bu, dolar zayıflığı ve petrol kaynaklı enflasyon baskısının azalması yoluyla altını destekliyor. Ancak 3,5% gibi bir yükseliş büyük ölçüde fiyatlanmış olabilir ve "altın 3.900'e düştü" gibi eski/çelişkili başlıklar güveni sınırlıyor.
 04.11 21:20 N  GPT  score +0.65 conf 0.62: Demokratların Kongre kazanımlarının doları zayıflatıp altını yeniden 4.000 doların üzerine taşıdığı bildiriliyor; bu, kısa vadede altını destekliyor. İran savaşı ve yeni yaptırımlar güvenli liman talebini artırabilir, ancak Vance’in savaştan uzaklaşma mesajı ve çelişkili fiyat haberleri yükselişin d
+04.11 21:32 N  NEWS (20 new) score +0.35 conf 0.50: Ara seçim sonuçları dolarda zayıflama ve petrolde sert düşüş (90 doların altı) getirdi; bu, enflasyon beklentilerini ve Fed'in sıkı duruş ihtimalini azaltarak altın için olumlu bir ortam yaratıyor. Ancak altın zaten yaklaşık %3,5 yükselip 4.000 doların üzerine çıktığı için etkinin bir kısmı fiyatlanmış durumda; ayrıca ABD'nin Qeshm Adası'nı vurması gibi gerilim haberleri güvenli liman talebini destekleyebilir, bu da sinyali karıştırıyor.
+04.11 21:32 N  GPT  score +0.35 conf 0.58: Doların zayıflaması ve İran’a yönelik yeni ABD saldırısı altını kısa vadede destekliyor; ancak petrol düşüşü enflasyon ve faiz beklentilerini aşağı çekebilir. Altın zaten yaklaşık %3,5 yükselip 4.000 doları aşmış olduğundan haberlerin önemli bölümü fiyatlanmış olabilir; savaşın tırmanması ile sona e
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
