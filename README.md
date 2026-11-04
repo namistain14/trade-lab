@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 14:55 (İstanbul)
+> Son güncelleme: 04.11.2026 14:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +246.45 $ | -96.31 $ |
-| İşlem sayısı | 9 | 33 |
-| Kazanma oranı | %66.7 | %42.4 |
-| Ödenen komisyon/spread | 106.93 $ | 392.52 $ |
+| Net kâr/zarar | +190.53 $ | -152.22 $ |
+| İşlem sayısı | 10 | 34 |
+| Kazanma oranı | %60.0 | %41.2 |
+| Ödenen komisyon/spread | 118.78 $ | 404.37 $ |
 
-**Hesap değeri: 4,860.83 $** (başlangıç 5,000 $, -139.17 $ / %-2.78)
-
-Açık pozisyonlar: PAXGUSDT long @ 4046.89 (TP 4059.03 / SL 4038.80)
+**Hesap değeri: 4,847.78 $** (başlangıç 5,000 $, -152.22 $ / %-3.04)
 
 Son haber analizi (04.11 14:52): Claude puan **+0.40**, güven 0.50 — Demokratların Kongre zaferi sonrası dolar endeksinin 1 aylık dibe (101.41) gerilemesi ve büyüme endişeleri altın için 1-4 saatlik vadede olumlu. Ancak haberlerin büyük kısmı fiyatlanmış durumda (altın 4.000 doları aştı), ayrıca ETF/tahvil getirilerinin toparlanmayı sınırladığına dair çelişkili notlar var; bu nedenle güven orta düzeyde.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 14:58 | PAXGUSDT | long | -55.92 $ | stop |
 | 04.11 12:17 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 11:07 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 09:39 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 09:00 | PAXGUSDT | long | -55.93 $ | stop |
-| 04.11 08:52 | PAXGUSDT | long | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 13:14 N  GPT  score +0.45 conf 0.58: Demokratların ara seçimlerdeki başarısı sonrası doların ve tahvil getirilerinin gerilemesi altını kısa vadede destekliyor; haber akışında altın rallisinin zaten başladığı görülüyor. İran’dan gelen savaş karşıtı söylem güvenli liman talebini bir miktar sınırlayabilir.
 04.11 13:26 N  NEWS (14 new) score +0.40 conf 0.55: ABD ara seçim sonuçlarının ardından dolar zayıflıyor ve Hazine tahvil faizleri geriliyor; bu, altın için 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta İran-ABD gerilimi ve Husi füze saldırısı güvenli liman talebini hafifçe artırabilir, ancak bu haberlerin etkisi sınırlı ve haberlerin bir kısmı zaten fiyatlanmış durumda.
 04.11 13:26 N  GPT  score +0.65 conf 0.68: Doların gerilemesi ve düşük tahvil getirileri altını kısa vadede destekliyor; Houthis saldırısı ve Irak’taki gerilim kaygıları da sınırlı güvenli liman talebi yaratabilir. Ancak altının bu haberlerle zaten sıçramış olması, hareketin bir kısmının fiyatlanmış olabileceğini düşündürüyor.
 04.11 13:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara seçim sonuçlarının ardından dolar zayıflarken ve tahvil getirileri düşerken altın 4.000 doların üzerine çıktı; bu, kısa vadede altını destekleyen net bir etken. Ancak İran savaşına karşı tepkinin güvenli liman talebini azaltabileceği, cuma günkü istihdam raporunun riski ve bazı analistlerin 3.500 dolar öngörüsü nedeniyle güven orta düzeyde tutuldu.
@@ -101,6 +98,7 @@ Son işlemler:
 04.11 14:40 N  GPT  score +0.55 conf 0.64: Doların seçim sonrası zayıflaması ve Hazine getirilerindeki düşüş, altını kısa vadede destekliyor; fiyatın 4.000 doların üzerine çıkması da bu tepkiyi doğruluyor. Hareketin önemli kısmı başlıklara yansımış olabilir ve yaklaşan ABD istihdam verisi oynaklık yaratabilir.
 04.11 14:52 N  NEWS (23 new) score +0.40 conf 0.50: Demokratların Kongre zaferi sonrası dolar endeksinin 1 aylık dibe (101.41) gerilemesi ve büyüme endişeleri altın için 1-4 saatlik vadede olumlu. Ancak haberlerin büyük kısmı fiyatlanmış durumda (altın 4.000 doları aştı), ayrıca ETF/tahvil getirilerinin toparlanmayı sınırladığına dair çelişkili notlar var; bu nedenle güven orta düzeyde.
 04.11 14:52 N  GPT  score +0.48 conf 0.62: Demokratların Kongre zaferi sonrası doların zayıflaması ve altının 4.000 doların üzerine çıkması kısa vadede altını destekliyor. Ancak bu tepkinin önemli bölümü zaten fiyatlanmış olabilir; İran savaşı başlıkları da yeni bir tırmanıştan çok mevcut belirsizliği yansıtıyor.
+04.11 14:58 B5  CLOSE long stop: -55.92 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
