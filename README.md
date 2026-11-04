@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 16:52 (İstanbul)
+> Son güncelleme: 04.11.2026 16:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %58.3 | %41.7 |
 | Ödenen komisyon/spread | 142.49 $ | 428.08 $ |
 
-**Hesap değeri: 4,879.64 $** (başlangıç 5,000 $, -120.36 $ / %-2.41)
+**Hesap değeri: 4,891.84 $** (başlangıç 5,000 $, -108.16 $ / %-2.16)
 
 Açık pozisyonlar: PAXGUSDT long @ 4036.74 (TP 4048.85 / SL 4028.66)
 
-Son haber analizi (04.11 16:44): Claude puan **+0.40**, güven 0.60 — Demokratların Kongre'yi kazanmasıyla dolar endeksi (DXY) dört haftanın en düşük seviyelerine geriledi ve altın yeniden 4.000 doların üzerine çıktı; bu, altın için 1-4 saatlik vadede olumlu bir tablo. Ayrıca İran savaşının seçim sonuçlarını etkilediği ve büyüme endişelerinin artmasının dovish beklentileri destekleyebileceği görülüyor. Buna karşın seçim sonrası dolar düzeltmesinin kısmen fiyatlanmış olması ve ABD tahvil/hisse rallisinin risk iştahını artırabilmesi güveni sınırlıyor.
+Son haber analizi (04.11 16:56): Claude puan **+0.40**, güven 0.60 — ABD ara seçim sonuçlarının ardından dolar endeksi (DXY) 4-5 haftanın en düşük seviyelerine geriledi ve bu altın için destekleyici. Ayrıca büyüme endişeleri Fed beklentilerini yumuşatabilir. Ancak dolar hareketinin büyük kısmı zaten fiyatlandı ve İran savaşının sürmesi jeopolitik risk primi dışında kalan etkileri karıştırıyor, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.56**, güven 0.58 — Doların seçim sonuçları sonrası zayıflaması ve altının 4.000 doları yeniden aşması kısa vadede altın için belirgin destek. Ancak haber akışının büyük bölümü aynı seçim temasını tekrarlıyor ve hareketin bir kısmı fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **+0.22**, güven 0.43 — Doların seçim sonuçları sonrası zayıflaması ve İran ile Kuzey Kore kaynaklı yeni güvenlik haberleri altına kısa vadede sınırlı destek sağlayabilir. Ancak dolar hareketi ve seçim etkisi büyük ölçüde fiyatlanmış görünüyor; hisse ve tahvil rallisi de güvenli liman talebini dengeleyebilir.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 15:33 B5  CLOSE long take profit: +69.06 USD
-04.11 15:33 N  NEWS (17 new) score +0.30 conf 0.45: Dolar endeksi bir aylık dip seviyesine geriliyor ve Demokratların kongre zaferi Treasury getirilerini baskılıyor; bu, altın için olumlu bir makro tablo. Öte yandan İran savaşına karşı oy sinyali jeopolitik risk primini azaltabileceğinden güvenli liman talebi kısmen zayıflayabilir ve haberlerin birçoğu zaten fiyatlanmış durumda, bu nedenle güven sınırlı.
 04.11 15:33 N  GPT  score +0.42 conf 0.57: Demokratların ara seçimlerdeki başarısının doları ve Hazine tahvil getirilerini aşağı çektiğine dair haberler, kısa vadede altını destekliyor. Ancak seçim sonucu büyük ölçüde fiyatlanmış olabilir; İran’la ilgili haberler de net bir gerilimsizleşme sinyali vermiyor.
 04.11 15:39 B5  LONG gold 25000 USD x10 @ 4039.62 (TP 4051.74, SL 4031.54; news +0.36)
 04.11 15:45 N  NEWS (10 new) score +0.35 conf 0.50: ABD ara seçimlerinde Demokratların güçlenmesi doların bir aylık en düşük seviyeye gerilemesine ve Treasury getirilerinin baskılanmasına yol açtı; bu, altın için olumlu bir etki. Ancak İran ile müzakere beklentileri jeopolitik korku primini azaltabileceği için etki sınırlı ve kısa vadede karışık.
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 16:40 B5  LONG gold 25000 USD x10 @ 4036.74 (TP 4048.85, SL 4028.66; news +0.47)
 04.11 16:44 N  NEWS (11 new) score +0.40 conf 0.60: Demokratların Kongre'yi kazanmasıyla dolar endeksi (DXY) dört haftanın en düşük seviyelerine geriledi ve altın yeniden 4.000 doların üzerine çıktı; bu, altın için 1-4 saatlik vadede olumlu bir tablo. Ayrıca İran savaşının seçim sonuçlarını etkilediği ve büyüme endişelerinin artmasının dovish beklentileri destekleyebileceği görülüyor. Buna karşın seçim sonrası dolar düzeltmesinin kısmen fiyatlanmış olması ve ABD tahvil/hisse rallisinin risk iştahını artırabilmesi güveni sınırlıyor.
 04.11 16:44 N  GPT  score +0.56 conf 0.58: Doların seçim sonuçları sonrası zayıflaması ve altının 4.000 doları yeniden aşması kısa vadede altın için belirgin destek. Ancak haber akışının büyük bölümü aynı seçim temasını tekrarlıyor ve hareketin bir kısmı fiyatlanmış olabilir.
+04.11 16:56 N  NEWS (8 new) score +0.40 conf 0.60: ABD ara seçim sonuçlarının ardından dolar endeksi (DXY) 4-5 haftanın en düşük seviyelerine geriledi ve bu altın için destekleyici. Ayrıca büyüme endişeleri Fed beklentilerini yumuşatabilir. Ancak dolar hareketinin büyük kısmı zaten fiyatlandı ve İran savaşının sürmesi jeopolitik risk primi dışında kalan etkileri karıştırıyor, bu yüzden güven orta düzeyde.
+04.11 16:56 N  GPT  score +0.22 conf 0.43: Doların seçim sonuçları sonrası zayıflaması ve İran ile Kuzey Kore kaynaklı yeni güvenlik haberleri altına kısa vadede sınırlı destek sağlayabilir. Ancak dolar hareketi ve seçim etkisi büyük ölçüde fiyatlanmış görünüyor; hisse ve tahvil rallisi de güvenli liman talebini dengeleyebilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
