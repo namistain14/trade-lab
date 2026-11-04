@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 11:05 (İstanbul)
+> Son güncelleme: 04.11.2026 11:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +108.34 $ | -234.41 $ |
-| İşlem sayısı | 7 | 31 |
-| Kazanma oranı | %57.1 | %38.7 |
-| Ödenen komisyon/spread | 83.21 $ | 368.80 $ |
+| Net kâr/zarar | +177.39 $ | -165.36 $ |
+| İşlem sayısı | 8 | 32 |
+| Kazanma oranı | %62.5 | %40.6 |
+| Ödenen komisyon/spread | 95.07 $ | 380.67 $ |
 
-**Hesap değeri: 4,805.18 $** (başlangıç 5,000 $, -194.82 $ / %-3.90)
-
-Açık pozisyonlar: PAXGUSDT long @ 4019.76 (TP 4031.82 / SL 4011.72)
+**Hesap değeri: 4,834.64 $** (başlangıç 5,000 $, -165.36 $ / %-3.31)
 
 Son haber analizi (04.11 11:03): Claude puan **+0.60**, güven 0.60 — Demokratların Kongre'yi kazanması doların zayıflamasına ve altının %2'nin üzerinde yükselip 4.000 doların üstüne çıkmasına yol açtı; ayrıca İran'ın "total war" ilanı, Hormuz'da mayınla tanker imhası ve ABD saldırı onayı jeopolitik risk primini destekliyor. Ancak yükseliş kısmen fiyatlanmış olabilir ve yaklaşan istihdam verisi ile petrol oynaklığı kısa vadede geri dönüş riski yaratıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 11:07 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 09:39 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 09:00 | PAXGUSDT | long | -55.93 $ | stop |
 | 04.11 08:52 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 08:32 | PAXGUSDT | long | +69.04 $ | take profit |
-| 04.11 07:50 | PAXGUSDT | long | +69.04 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 09:09 N  GPT  score +0.45 conf 0.61: Doların beş haftanın dibine gerilemesi ve tahvil piyasasındaki yükseliş, kısa vadede altını destekliyor; İran savaşı kaynaklı belirsizlik de güvenli liman talebini canlı tutabilir. Ancak haberlerin çoğu aynı seçim gelişmesini yineliyor ve olası savaş tırmanışı/değişen politika beklentileri yönü beli
 04.11 09:21 N  NEWS (11 new) score +0.30 conf 0.45: Demokratların ara seçimlerdeki güçlü performansı doları 5 haftanın en düşük seviyesine çekti ve bu, altın için kısa vadede destekleyici. Petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatabilir; ancak Bullard'ın Aralık faiz artırımı çağrısı sınırlı bir baskı oluşturuyor ve dolar hareketinin büyük kısmı zaten fiyatlanmış olabilir.
 04.11 09:21 N  GPT  score +0.55 conf 0.64: Doların beş haftanın dibine gerilemesi ve altının 4.000 dolara yükseldiği haberleri kısa vadede destekleyici; siyasi belirsizlik de güvenli liman talebini artırabilir. Ancak İran savaşının seçim sonrası seyri belirsiz ve Bullard’ın faiz artırımı görüşü yükselişi sınırlayabilir.
 04.11 09:46 B5  CLOSE long take profit: +69.05 USD
@@ -101,6 +98,7 @@ Son işlemler:
 04.11 10:22 N  GPT  score +0.45 conf 0.62: Demokratların ara seçimlerdeki kazanımları ve İran savaşının siyasi etkisi riskten kaçışı desteklerken, doların zayıflaması ve düşen getiriler altın için kısa vadede olumlu. Ancak altının zaten %2’den fazla yükseldiğine dair haberler ve ters yönlü fiyat başlıkları, önümüzdeki saatlerde kâr satışları
 04.11 11:03 N  NEWS (23 new) score +0.60 conf 0.60: Demokratların Kongre'yi kazanması doların zayıflamasına ve altının %2'nin üzerinde yükselip 4.000 doların üstüne çıkmasına yol açtı; ayrıca İran'ın "total war" ilanı, Hormuz'da mayınla tanker imhası ve ABD saldırı onayı jeopolitik risk primini destekliyor. Ancak yükseliş kısmen fiyatlanmış olabilir ve yaklaşan istihdam verisi ile petrol oynaklığı kısa vadede geri dönüş riski yaratıyor.
 04.11 11:03 N  GPT  score +0.68 conf 0.62: Demokratların ara seçimlerdeki başarısı sonrası dolar ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran-Hürmüz gerilimi de güvenli liman talebini artırabilir. Ancak haberlerde doların kısmen toparlandığı ve seçim kaynaklı hareketin zaten fiyatlanmış olabileceği belirtiliyor.
+04.11 11:08 B5  CLOSE long take profit: +69.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
