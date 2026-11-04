@@ -1329,6 +1329,10 @@
    [
     1793800916,
     5000.0
+   ],
+   [
+    1793802670,
+    5000.0
    ]
   ],
   "archive": [
@@ -11609,43 +11613,38 @@
    [
     1793800916,
     4868.5
+   ],
+   [
+    1793802670,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.4,
-   "confidence": 0.6,
-   "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi (DXY) 4-5 haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine geriledi ve bu alt\u0131n i\u00e7in destekleyici. Ayr\u0131ca b\u00fcy\u00fcme endi\u015feleri Fed beklentilerini yumu\u015fatabilir. Ancak dolar hareketinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik risk primi d\u0131\u015f\u0131nda kalan etkileri kar\u0131\u015ft\u0131r\u0131yor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+   "score": 0.5,
+   "confidence": 0.55,
+   "reason": "Demokratlar\u0131n ara se\u00e7im s\u00fcp\u00fcrmesi dolar\u0131 ve tahvil getirilerini d\u00fc\u015f\u00fcrd\u00fc; Kitco'ya g\u00f6re alt\u0131n ve g\u00fcm\u00fc\u015f y\u00fckseldi, dolar 5 haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Hamaney'in uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 13:55 UTC'de zaten fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793800569751,
-   "new_headlines": 8,
+   "ts": 1793802639751,
+   "new_headlines": 23,
    "key_events": [
     "ABD ara se\u00e7im sonu\u00e7lar\u0131: Demokratlar\u0131n g\u00fc\u00e7l\u00fc performans\u0131 dolar\u0131 ve getirileri d\u00fc\u015f\u00fcrd\u00fc",
     "Dolar bir ayl\u0131k en d\u00fc\u015f\u00fck seviyede; alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
     "\u0130ran ile m\u00fczakere beklentisi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir"
    ],
    "gpt": {
-    "score": 0.22,
-    "confidence": 0.43,
-    "reason": "Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve \u0130ran ile Kuzey Kore kaynakl\u0131 yeni g\u00fcvenlik haberleri alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak dolar hareketi ve se\u00e7im etkisi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; hisse ve tahvil rallisi de g\u00fcvenli liman talebini dengeleyebilir.",
+    "score": 0.56,
+    "confidence": 0.68,
+    "reason": "Demokratlar\u0131n ara se\u00e7imlerdeki g\u00fc\u00e7l\u00fc sonucu sonras\u0131 dolar ve tahvil getirilerinin gerilemesi alt\u0131n\u0131 destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n ve g\u00fcm\u00fc\u015fte y\u00fckseli\u015f de bildiriliyor. Ancak se\u00e7im sonucu b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir ve \u0130ran sava\u015f\u0131 s\u00fcrerken y\u00f6nl\u00fc hareketin devam\u0131na dair belirsizlik var.",
     "key_events": [
-     "Dolar be\u015f haftan\u0131n diplerine yak\u0131n",
-     "Kuzey Kore f\u00fcze testi iddias\u0131",
-     "\u0130ran\u2019da n\u00fckleer silah \u00e7a\u011fr\u0131lar\u0131"
+     "Se\u00e7im sonras\u0131 dolar ve getirilerde d\u00fc\u015f\u00fc\u015f",
+     "Alt\u0131n ve g\u00fcm\u00fc\u015fte y\u00fckseli\u015f",
+     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793131517305,
-    "score": 0.05,
-    "confidence": 0.3,
-    "reason": "Hormuz Bo\u011faz\u0131'nda gemi sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi alt\u0131n i\u00e7in jeopolitik talep deste\u011fi sa\u011fl\u0131yor. Ancak PCE enflasyonunun y\u00fckselmesi beklentisi ve Fed'in enflasyona odaklanma vurgusu s\u0131k\u0131 para politikas\u0131 beklentisini g\u00fc\u00e7lendirip alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu kar\u0131\u015f\u0131k sinyaller nedeniyle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 22,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1793133741602,
     "score": -0.2,
@@ -14336,66 +14335,70 @@
     "new": 8,
     "gpt_score": 0.22,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1793802639751,
+    "score": 0.5,
+    "confidence": 0.55,
+    "reason": "Demokratlar\u0131n ara se\u00e7im s\u00fcp\u00fcrmesi dolar\u0131 ve tahvil getirilerini d\u00fc\u015f\u00fcrd\u00fc; Kitco'ya g\u00f6re alt\u0131n ve g\u00fcm\u00fc\u015f y\u00fckseldi, dolar 5 haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Hamaney'in uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 13:55 UTC'de zaten fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 23,
+    "gpt_score": 0.56,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 68
+   "n": 69
   },
   "news_seen": [
-   "CONTRIBUTOR'S VIEW - Lynn Gendusa: Women of War - LaGrange Daily News",
-   "North Korea claims cruise missile test with dispersal warhead - Army Technology",
-   "McClafferty routs Tozer after bitter culture-war campaign for St. Johns School Board seat - St. Johns Citizen",
+   "Democrats plan scrutiny of Trump\u2019s Iran war decisions - Muslim Network TV",
+   "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
+   "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+   "US Dollar: Softer tone as midterms reshape policy \u2013 ING - FXStreet",
+   "Trump admits Iran war impact on midterms, but stands by action in Iran - The Des Moines Register",
+   "Inspired by UK sanctions on Israel, US Democrats want to work with Labour - Middle East Eye",
+   "Iran war latest: Khamenei warns against expecting change in US policy after elections - The National",
+   "Willy Woo\u2019s 5-Year Debt Reset Warning: Can Bitcoin and Gold Protect You? - BeInCrypto",
+   "Ranking the Issues - National Review",
+   "Everything you need to know from the US midterm elections",
+   "IGI\u2019s profit falls 26% after Middle East war losses - Business Insurance",
+   "Mother of Ghanaian boy killed in US 'wants justice' as she flies for funeral",
+   "Crypto market outlook after US midterms, will Bitcoin reclaim $80,000? - Crypto News",
+   "Central Banks Pause Rate Hikes in October as Inflation Risks Persist - News and Statistics - IndexBox",
+   "Republicans face prospect of \u2018civil war\u2019 as Trump\u2019s aura starts to fade - South China Morning Post",
    "Joy in Iran over \u2018Trump\u2019s defeat\u2019 in US midterm elections \u2013 but war is not over - The Guardian",
-   "Gold price correction to lift Dhanteras sentiment, but sales volumes likely to remain flat: Jewellers - Moneycontrol.com",
+   "Gold and silver surge as Democratic midterm sweep drives dollar, yields lower - Kitco AM Report - Kitco",
+   "USAISEC year in review: Strengthening installation resilience across the Department of War - Army.mil",
+   "CONTRIBUTOR'S VIEW - Lynn Gendusa: Women of War - LaGrange Daily News",
+   "\u2018I\u2019m 100 Percent at War with Trump\u2019: MAGA Revolts After Midterms Wipeout - WIRED",
+   "McClafferty routs Tozer after bitter culture-war campaign for St. Johns School Board seat - St. Johns Citizen",
+   "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
+   "Gold price correction to lift Dhanteras sentiment, but sales volumes likely to remain flat: Jewellers - TradingView",
+   "How Congressional control shapes US fiscal policy and financial markets - investingLive",
+   "Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap - Bloomberg.com",
    "Canadian Dollar rises to seven-week high as markets digest US election results - FXStreet",
    "Iran hails US voters rejecting war while Khamenei warns hostility won\u2019t end - Al Jazeera",
    "Gold Price in Pakistan Today: Rs 423,500/Tola (24K) | Live Sarafa Rate - Investify",
+   "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war - The Guardian",
    "Altamira Gold Files NI 43-101 Technical Report on Updated Maria Bonita Resource Estimate, Cajueiro Gold District, Brazil - Investing News Network",
+   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
    "PERSPECTIVE: Democratic Sweep Adds New Twist to Markets\u2019 Iran War, AI, and Debt Worries - EnergyNow.com",
    "OPINION: The election is over \u2014 the war bill is not - Juneau Empire",
    "The Federal Reserve\u2019s Independence Is Assured For Now - Bloomberg.com",
    "Triple Flag increases revenue on higher gold price - www.mining-journal.com",
    "USAF Widens Lower-Cost Cruise Missile Effort To Also Include Glide Bombs - TWZ",
    "Trump admits the war in Iran contributed to midterm election results - LiveNOW from FOX",
-   "Real gold, unreal weight: How a new adulteration scam using heavy metals is beating acid and touchstone purity tests - Livemint",
    "More Iranians Call for Nuclear Weapons After War With U.S. - The New York Times",
    "ICC President condemns Trump\u2019s sanctions in UN General Assembly speech - Jurist.org",
-   "Uproar over missing 'pop' as Rice Krispies changes its recipe",
    "Gold shines as dollar slips to 5-week low, investors await U.S. midterm election results - The Hindu",
    "Trump: Iran war partially to blame for GOP midterm losses - The Hill",
    "Democrat's Midterm Gains Put Trump\u2019s Iran War And US-Israel Ties Under Pressure - Analysis - i24NEWS",
    "US midterms: What Trump's defeat means for Europe and global markets - Euronews.com",
    "Analysis \u2022 Israel's internal security chief is waging war on democracy from the inside - Haaretz",
-   "Gold Price Correction Boosts Dhanteras Jewellery Sentiment - Rediff MoneyWiz",
-   "Houthi missile attack kills dozens at military camp in Yemen's al-Dhale - The New Arab",
-   "US Dollar Index (DXY) retests four-week lows, hammered by US midterm results - FXStreet",
-   "\u201cGhosts of a Holy War: The 1929 Massacre in Palestine that Ignited the Arab-Israeli Conflict\u201d - Israel from the Inside with Daniel Gordis",
-   "Sherritt Furloughs 47% of Canada Workforce Amid Cuba Sanctions - Bloomberg.com",
-   "Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap - Bloomberg.com",
-   "US Dollar: Election-driven correction and positioning \u2013 Societe Generale - FXStreet",
-   "Divided Government Market Impact US Midterms - Funds Society",
-   "Iran says Americans rejected Trump\u2019s war as the world reacts to the midterms rout - NBC News",
-   "US dollar slides after Democrats\u2019 midterm election win as growth fears rise - The Guardian",
-   "Gold prices on global markets exceed $4,200 in third quarter - Apa.az",
-   "Can Democrats stop Iran war, reverse Trump\u2019s tariffs after midterms win? - Al Jazeera",
-   "Iranian officials say midterm results show US voters have rejected Trump's war - Gulf Coast News and Weather",
-   "Gold & Silver Prices Soar in Delhi Amid Festive Demand - Rediff MoneyWiz",
-   "Trump admits Iran war hurt Republican vote, vows to veto \u2018insane\u2019 bills - Al Jazeera",
-   "Riyadh parents stuck in war-time limbo - Yahoo",
-   "Iran war latest: Khamenei warns against expecting change in US policy after elections - thenationalnews.com",
-   "Iranian officials say midterm results show US voters have rejected Trump\u2019s war - WWNY",
-   "Japanese Yen underperforms peers despite post-election US Dollar sell-off - Mitrade",
-   "Dollar Slips After Democrats Sweep Midterms - Finimize",
-   "Gold reclaims $4,000 as Democrats\u2019 Congress win rattles US Dollar - FXStreet"
+   "Houthi missile attack kills dozens at military camp in Yemen's al-Dhale - The New Arab"
   ]
  },
  "log": [
-  "03.11 11:52 N  GPT  score +0.20 conf 0.36: Rusya\u2019n\u0131n Harkiv\u2019de hastaneyi vurmas\u0131 ve \u0130ran\u2019la anla\u015fman\u0131n h\u00e2l\u00e2 uzak g\u00f6r\u00fcnmesi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131nda sert geri d\u00f6n\u00fc\u015f/d\u00fc\u015f\u00fc\u015f haberleri ve dolar-yuan kaynakl\u0131 destekleyici olmayan sinyaller tabloyu dengeliyor; merkez bankas\u0131 al\u0131mlar\u0131 daha \u00e7ok orta vadeli bir",
-  "03.11 12:04 N  NEWS (5 new) score -0.15 conf 0.40: ",
-  "03.11 12:04 N  GPT  score -0.35 conf 0.58: Alt\u0131n\u0131n yakla\u015f\u0131k %1 d\u00fc\u015fmesi ve Orta Do\u011fu kaynakl\u0131 petrol/enflasyon kayg\u0131lar\u0131n\u0131n faiz beklentilerini desteklemesi k\u0131sa vadede bask\u0131n bi\u00e7imde olumsuz. Kuzey Kore ve \u0130ran gerilimi g\u00fcvenli liman talebi yaratabilir; bu kar\u015f\u0131t etkenler d\u00fc\u015f\u00fc\u015f beklentisini s\u0131n\u0131rl\u0131yor.",
-  "03.11 12:07 A  CLOSE BNBUSDT stop: -24.80 USD",
-  "03.11 12:07 A  CLOSE XRPUSDT stop: -24.80 USD",
   "03.11 12:07 A  CLOSE DOGEUSDT stop: -12.40 USD",
   "03.11 12:16 N  NEWS (10 new) score -0.20 conf 0.40: Alt\u0131n birka\u00e7 saatlik g\u00f6r\u00fcn\u00fcmde hafif negatif: fiyat son haberlerde yakla\u015f\u0131k %1 geriledi, ABD ara se\u00e7im \u00f6ncesi zay\u0131f seyir ve petrol kaynakl\u0131 enflasyon endi\u015feleri faiz beklentilerini sertle\u015ftirerek alt\u0131na bask\u0131 yapabilir. Buna kar\u015f\u0131l\u0131k merkez bankalar\u0131n\u0131n Q3'te 321 ton al\u0131m\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi destek unsuru; ayr\u0131ca Hindistan talebindeki %29'luk d\u00fc\u015f\u00fc\u015f ve Cuma g\u00fcnk\u00fc NFP verisi belirsizli\u011fi art\u0131r\u0131yor, bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "03.11 12:16 N  GPT  score -0.25 conf 0.42: Alt\u0131n fiyat\u0131ndaki yak\u0131n d\u00f6nem d\u00fc\u015f\u00fc\u015f ve se\u00e7im \u00f6ncesi temkinli g\u00f6r\u00fcn\u00fcm k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. \u0130ran gerilimi ve g\u00fc\u00e7l\u00fc merkez bankas\u0131 al\u0131mlar\u0131 destek sa\u011flasa da bunlar k\u0131sa vadeli fiyat zay\u0131fl\u0131\u011f\u0131n\u0131 dengeleyebilir; haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
@@ -14690,7 +14693,12 @@
   "04.11 16:44 N  NEWS (11 new) score +0.40 conf 0.60: Demokratlar\u0131n Kongre'yi kazanmas\u0131yla dolar endeksi (DXY) d\u00f6rt haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine geriledi ve alt\u0131n yeniden 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu bir tablo. Ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n se\u00e7im sonu\u00e7lar\u0131n\u0131 etkiledi\u011fi ve b\u00fcy\u00fcme endi\u015felerinin artmas\u0131n\u0131n dovish beklentileri destekleyebilece\u011fi g\u00f6r\u00fcl\u00fcyor. Buna kar\u015f\u0131n se\u00e7im sonras\u0131 dolar d\u00fczeltmesinin k\u0131smen fiyatlanm\u0131\u015f olmas\u0131 ve ABD tahvil/hisse rallisinin risk i\u015ftah\u0131n\u0131 art\u0131rabilmesi g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "04.11 16:44 N  GPT  score +0.56 conf 0.58: Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.000 dolar\u0131 yeniden a\u015fmas\u0131 k\u0131sa vadede alt\u0131n i\u00e7in belirgin destek. Ancak haber ak\u0131\u015f\u0131n\u0131n b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc ayn\u0131 se\u00e7im temas\u0131n\u0131 tekrarl\u0131yor ve hareketin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
   "04.11 16:56 N  NEWS (8 new) score +0.40 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi (DXY) 4-5 haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine geriledi ve bu alt\u0131n i\u00e7in destekleyici. Ayr\u0131ca b\u00fcy\u00fcme endi\u015feleri Fed beklentilerini yumu\u015fatabilir. Ancak dolar hareketinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik risk primi d\u0131\u015f\u0131nda kalan etkileri kar\u0131\u015ft\u0131r\u0131yor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
-  "04.11 16:56 N  GPT  score +0.22 conf 0.43: Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve \u0130ran ile Kuzey Kore kaynakl\u0131 yeni g\u00fcvenlik haberleri alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak dolar hareketi ve se\u00e7im etkisi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; hisse ve tahvil rallisi de g\u00fcvenli liman talebini dengeleyebilir."
+  "04.11 16:56 N  GPT  score +0.22 conf 0.43: Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve \u0130ran ile Kuzey Kore kaynakl\u0131 yeni g\u00fcvenlik haberleri alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak dolar hareketi ve se\u00e7im etkisi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; hisse ve tahvil rallisi de g\u00fcvenli liman talebini dengeleyebilir.",
+  "04.11 17:31 N  NEWS (23 new) score +0.50 conf 0.55: Demokratlar\u0131n ara se\u00e7im s\u00fcp\u00fcrmesi dolar\u0131 ve tahvil getirilerini d\u00fc\u015f\u00fcrd\u00fc; Kitco'ya g\u00f6re alt\u0131n ve g\u00fcm\u00fc\u015f y\u00fckseldi, dolar 5 haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Hamaney'in uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 13:55 UTC'de zaten fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
+  "04.11 17:31 N  GPT  score +0.56 conf 0.68: Demokratlar\u0131n ara se\u00e7imlerdeki g\u00fc\u00e7l\u00fc sonucu sonras\u0131 dolar ve tahvil getirilerinin gerilemesi alt\u0131n\u0131 destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n ve g\u00fcm\u00fc\u015fte y\u00fckseli\u015f de bildiriliyor. Ancak se\u00e7im sonucu b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir ve \u0130ran sava\u015f\u0131 s\u00fcrerken y\u00f6nl\u00fc hareketin devam\u0131na dair belirsizlik var.",
+  "04.11 17:31 B6  karar turu: Claude \u00abDemokratlar\u0131n se\u00e7im zaferine ra\u011fmen piyasa g\u00fc\u00e7l\u00fc ADP verisiyle risk i\u015ftahl\u0131 seyrediyor, ancak yapay zeka ve veri merkezi temal\u0131 hisselerde bask\u0131 s\u00fcr\u00fcyor.\u00bb / GPT \u00abGeni\u015f piyasada y\u00fckseli\u015f e\u011filimi bask\u0131n; ancak teknoloji haberleri ve d\u00f6rt kat kald\u0131ra\u00e7 nedeniyle ayn\u0131 y\u00f6ne a\u00e7\u0131lan pozisyonlar\u0131n toplam riski s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb",
+  "04.11 17:31 B6  ALI\u015e SPY 134 adet \u2248 102,293 $ (1:4) @ 763.38 (TP 774.83, SL 755.75; ikisi de hemfikir, g\u00fcven 0.56)",
+  "04.11 17:31 B6  ALI\u015e QQQ 148 adet \u2248 102,096 $ (1:4) @ 689.84 (TP 700.19, SL 682.94; ikisi de hemfikir, g\u00fcven 0.50)"
  ],
  "gold_big": {
   "account": {
@@ -21963,6 +21971,10 @@
    [
     1793800916,
     4963.78
+   ],
+   [
+    1793802670,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29163,6 +29175,10 @@
    [
     1793800916,
     4975.18
+   ],
+   [
+    1793802670,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -36329,6 +36345,10 @@
    [
     1793800916,
     4993.28
+   ],
+   [
+    1793802670,
+    4993.28
    ]
   ]
  },
@@ -43332,6 +43352,10 @@
    [
     1793800916,
     4969.22
+   ],
+   [
+    1793802670,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -49534,6 +49558,10 @@
    [
     1793800916,
     4900.51
+   ],
+   [
+    1793802670,
+    4834.24
    ]
   ],
   "news_calls": {
@@ -56503,21 +56531,100 @@
    [
     1793800916,
     102491.32
+   ],
+   [
+    1793802670,
+    102491.32
    ]
   ],
-  "open": {},
+  "open": {
+   "SPY": {
+    "order_id": "aa32387f-5730-46ee-bbf3-d527ff0fd130",
+    "symbol": "SPY",
+    "side": "long",
+    "qty": 134,
+    "entry": 763.38,
+    "tp": 774.83,
+    "sl": 755.75,
+    "opened_ms": 1793802640382,
+    "note": "Claude 0.56: Endeks se\u00e7im sonras\u0131 istikrarl\u0131 y\u00fckseli\u015f trendinde, g\u00fc\u00e7l\u00fc ADP verisi ve artan dipler momentumu destekliyor. | GPT 0.64: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, k\u0131sa vadeli devam hareketini destekliyor."
+   },
+   "QQQ": {
+    "order_id": "693df112-eafe-42bf-b10d-66b33598bf96",
+    "symbol": "QQQ",
+    "side": "long",
+    "qty": 148,
+    "entry": 689.84,
+    "tp": 700.19,
+    "sl": 682.94,
+    "opened_ms": 1793802640382,
+    "note": "Claude 0.5: Nasdaq geni\u015f piyasayla birlikte y\u00fckseliyor ancak veri merkezi yava\u015flama endi\u015fesi teknoloji taraf\u0131nda yukar\u0131 potansiyeli s\u0131n\u0131rlayabilir. | GPT 0.59: Son geri \u00e7ekilmenin toparlanmas\u0131 ve geni\u015f piyasan\u0131n deste\u011fi, yapay zek\u00e2 yat\u0131r\u0131mlar\u0131na ili\u015fkin olumsuz habere ra\u011fmen al\u0131ma s\u0131n\u0131rl\u0131 \u00fcst\u00fcnl\u00fck s"
+   }
+  },
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": false,
-  "last_decision_ms": 1793735768758,
+  "market_open": true,
+  "last_decision_ms": 1793802640382,
   "view": {
-   "ts": 1793799140246,
-   "claude": "Se\u00e7im sonu\u00e7lar\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc ADP verisiyle piyasa pozitif a\u00e7\u0131l\u0131\u015fa haz\u0131rlan\u0131yor; \u015firkete \u00f6zel olumsuz haberler hisse baz\u0131nda ayr\u0131\u015fma yarat\u0131yor.",
+   "ts": 1793802640382,
+   "claude": "Demokratlar\u0131n se\u00e7im zaferine ra\u011fmen piyasa g\u00fc\u00e7l\u00fc ADP verisiyle risk i\u015ftahl\u0131 seyrediyor, ancak yapay zeka ve veri merkezi temal\u0131 hisselerde bask\u0131 s\u00fcr\u00fcyor.",
+   "gpt": "Geni\u015f piyasada y\u00fckseli\u015f e\u011filimi bask\u0131n; ancak teknoloji haberleri ve d\u00f6rt kat kald\u0131ra\u00e7 nedeniyle ayn\u0131 y\u00f6ne a\u00e7\u0131lan pozisyonlar\u0131n toplam riski s\u0131n\u0131rl\u0131 tutulmal\u0131.",
+   "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
-   "gpt": "",
-   "premarket": true
+   "picks": {
+    "SPY": {
+     "claude": [
+      "long",
+      0.56
+     ],
+     "gpt": [
+      "long",
+      0.64
+     ]
+    },
+    "QQQ": {
+     "claude": [
+      "long",
+      0.5
+     ],
+     "gpt": [
+      "long",
+      0.59
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.4
+     ],
+     "gpt": [
+      "none",
+      0.6
+     ]
+    },
+    "AAPL": {
+     "claude": [
+      "none",
+      0.42
+     ],
+     "gpt": [
+      "long",
+      0.58
+     ]
+    },
+    "TSLA": {
+     "claude": [
+      "none",
+      0.45
+     ],
+     "gpt": [
+      "none",
+      0.69
+     ]
+    }
+   }
   },
   "next_open": "2026-11-04T09:30:00-05:00",
-  "state": "haz\u0131rl\u0131k (seans \u00f6ncesi)",
+  "state": "aktif (seans a\u00e7\u0131k)",
   "premarket_day": "2026-11-04",
   "alpaca": {
    "multiplier": "4",
@@ -61688,6 +61795,10 @@
    ],
    [
     1793800916,
+    5066.43
+   ],
+   [
+    1793802670,
     5066.43
    ]
   ],
