@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 18:03 (İstanbul)
+> Son güncelleme: 04.11.2026 18:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,874.05 $** (başlangıç 5,000 $, -125.95 $ / %-2.52)
 
-Son haber analizi (04.11 17:54): Claude puan **+0.45**, güven 0.55 — Dolar zayıflığı ve düşen tahvil getirileri (ara seçim sonuçlarının etkisi) altın için güçlü bir destek sağlıyor; ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırıyor. Ancak Trump'ın savaş risklerini küçümsemesi ve bazı haberlerin (Kitco, dolar satışı) zaten fiyatlanmış olması güveni sınırlıyor.
+Son haber analizi (04.11 18:06): Claude puan **+0.40**, güven 0.50 — ABD ara seçim sonuçlarının ardından doların zayıflaması ve tahvil faizlerinin düşmesi altın için destekleyici; İran savaşının yeniden başlama korkuları da güvenli liman talebini artırabilir. Ancak dolar zayıflığı ve faiz düşüşü haberleri büyük ölçüde fiyatlanmış durumda (altın 4.000 doların üzerine çıkmış), petrol düşüşü ve Fed bağımsızlığına dair belirsizlik ise karışık sinyaller veriyor.
 
-GPT (gpt-6-luna): puan **+0.58**, güven 0.64 — İran’ın Qeşm Adası’na yönelik ABD saldırısı kısa vadede güvenli liman talebini artırabilir; dolar ve tahvil getirilerindeki düşüşe ilişkin haberler de altını destekliyor. Ancak seçim kaynaklı yükselişin önemli kısmı zaten fiyatlanmış olabilir ve petrolün düşmesi risk primini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.56**, güven 0.61 — Trump karşıtı seçim sonuçlarının doları ve tahvil getirilerini aşağı çektiği, altını desteklediği bildiriliyor; İran savaşı belirsizliği de güvenli liman talebini canlı tutabilir. Ancak bu hareketin önemli kısmı fiyatlanmış olabilir ve savaşın seyri hakkındaki çelişkili haberler güveni sınırlıyor.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %16.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 103,843.28 $** (başlangıç 100,000 $, +3843.28 $ / %+3.84)
+**Hesap değeri: 103,724.72 $** (başlangıç 100,000 $, +3724.72 $ / %+3.72)
 
 Açık pozisyonlar: NVDA short @ 204.19 (TP 201.35 / SL 206.46); QQQ long @ 689.23 (TP 700.19 / SL 682.94); SPY long @ 763.34 (TP 774.83 / SL 755.75)
 
@@ -86,10 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 17:31 N  NEWS (23 new) score +0.50 conf 0.55: Demokratların ara seçim süpürmesi doları ve tahvil getirilerini düşürdü; Kitco'ya göre altın ve gümüş yükseldi, dolar 5 haftanın en düşük seviyesine geriledi. İran savaşının sürmesi ve Hamaney'in uyarıları güvenli liman talebini destekliyor. Ancak yükselişin büyük kısmı 13:55 UTC'de zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde tutuldu.
-04.11 17:31 N  GPT  score +0.56 conf 0.68: Demokratların ara seçimlerdeki güçlü sonucu sonrası dolar ve tahvil getirilerinin gerilemesi altını destekliyor; haber akışında altın ve gümüşte yükseliş de bildiriliyor. Ancak seçim sonucu büyük ölçüde fiyatlanmış olabilir ve İran savaşı sürerken yönlü hareketin devamına dair belirsizlik var.
-04.11 17:31 B6  karar turu: Claude «Demokratların seçim zaferine rağmen piyasa güçlü ADP verisiyle risk iştahlı seyrediyor, ancak yapay zeka ve veri merkezi temalı hisselerde baskı sürüyor.» / GPT «Geniş piyasada yükseliş eğilimi baskın; ancak teknoloji haberleri ve dört kat kaldıraç nedeniyle aynı yöne açılan pozisyonların toplam riski sınırlı tutulmalı.»
-04.11 17:31 B6  ALIŞ SPY 134 adet ≈ 102,293 $ (1:4) @ 763.38 (TP 774.83, SL 755.75; ikisi de hemfikir, güven 0.56)
 04.11 17:31 B6  ALIŞ QQQ 148 adet ≈ 102,096 $ (1:4) @ 689.84 (TP 700.19, SL 682.94; ikisi de hemfikir, güven 0.50)
 04.11 17:43 B5  CLOSE long take profit: +69.06 USD
 04.11 17:43 N  NEWS (17 new) score +0.50 conf 0.60: Dolar zayıflığı ve düşen tahvil getirileri (ara seçim sonuçlarının etkisi) altın için güçlü bir destek sağlıyor; ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırıyor. Ancak Trump'ın savaş risklerini küçümsemesi ve bazı haberlerin (Kitco, dolar satışı) zaten fiyatlanmış olması güveni sınırlıyor.
@@ -101,6 +97,10 @@ Son işlemler:
 04.11 17:55 B6  karar turu: Claude «Seçim sonrası endeksler güçlü yükselişte olsa da zayıf PMI verisi ve yapay zeka/veri merkezi endişeleri hisse bazında ayrışma yaratıyor.» / GPT «Endekslerde yükseliş sürse de son ivme kaybı ve beklenti altı PMI verileri nedeniyle kaldıraçlı yeni işlemlerde belirgin göreli zayıflığa odaklanıyorum.»
 04.11 17:55 B6  AÇIĞA SATIŞ NVDA 508 adet ≈ 103,845 $ (1:4) @ 204.42 (TP 201.35, SL 206.46; ikisi de hemfikir, güven 0.55)
 04.11 17:57 B5  CLOSE long stop: -55.92 USD
+04.11 18:06 N  NEWS (8 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından doların zayıflaması ve tahvil faizlerinin düşmesi altın için destekleyici; İran savaşının yeniden başlama korkuları da güvenli liman talebini artırabilir. Ancak dolar zayıflığı ve faiz düşüşü haberleri büyük ölçüde fiyatlanmış durumda (altın 4.000 doların üzerine çıkmış), petrol düşüşü ve Fed bağımsızlığına dair belirsizlik ise karışık sinyaller veriyor.
+04.11 18:06 N  GPT  score +0.56 conf 0.61: Trump karşıtı seçim sonuçlarının doları ve tahvil getirilerini aşağı çektiği, altını desteklediği bildiriliyor; İran savaşı belirsizliği de güvenli liman talebini canlı tutabilir. Ancak bu hareketin önemli kısmı fiyatlanmış olabilir ve savaşın seyri hakkındaki çelişkili haberler güveni sınırlıyor.
+04.11 18:06 B6  karar turu: Claude «Demokrat zaferi sonrası endeksler güçlü yükselişte ve teknoloji öncülüğünde risk iştahı yüksek, ancak Musk ve yapay zeka bağlantılı hisselerde haber kaynaklı baskı sürüyor.» / GPT «Endekslerde yükseliş eğilimi sürüyor; ancak kaldıraç ve siyasi haber riski nedeniyle uzamış hareketler yerine kontrollü toparlanmalar tercih edilmeli.»
+04.11 18:06 B6  ALIŞ TSLA 103 adet ≈ 39,738 $ (1:4) @ 385.81 (TP 391.6, SL 381.95; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
