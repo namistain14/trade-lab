@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 10:07 (İstanbul)
+> Son güncelleme: 04.11.2026 10:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %57.1 | %38.7 |
 | Ödenen komisyon/spread | 83.21 $ | 368.80 $ |
 
-**Hesap değeri: 4,762.45 $** (başlangıç 5,000 $, -237.55 $ / %-4.75)
+**Hesap değeri: 4,772.72 $** (başlangıç 5,000 $, -227.28 $ / %-4.55)
 
 Açık pozisyonlar: PAXGUSDT long @ 4019.76 (TP 4031.82 / SL 4011.72)
 
-Son haber analizi (04.11 09:58): Claude puan **+0.50**, güven 0.55 — Demokratların ara seçimlerdeki kazanımı dolar endeksini bir aylık / 5 haftalık dibe çekti ve tahvil faizleri gevşedi; bu, altın için net olarak yükseliş yönlü bir etki. Ayrıca Iran savaşının seçim sonucunda rol oynaması, jeopolitik risk primini azaltsa da dolar zayıflığı ve düşen getiriler baskın görünüyor. Ancak altın zaten 4.000 doları aştığı için kısmen fiyatlanmış durumda ve bugünkü istihdam verisi ile Bullard'ın Aralık faiz artırımı çağrısı yeniden sert bir geri dönüş riski doğurabilir.
+Son haber analizi (04.11 10:10): Claude puan **+0.25**, güven 0.50 — Dolar, ara seçim sonrası bir aylık en düşük seviyesine geriledi ve altın yaklaşık %2 yükselip 4.000 doların üzerine çıktı; bu, gold için kısa vadede olumlu bir sinyal. Ancak 07:03 UTC civarı haberlerde altının yeniden düştüğü ve Bullard'ın Aralık'ta faiz artırımını savunması gibi şahin unsurlar var; ayrıca hareketin büyük kısmı zaten fiyatlandı, bu yüzden güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **+0.65**, güven 0.68 — Doların seçim sonuçları sonrası zayıflaması ve getirilerdeki düşüş altını kısa vadede destekliyor; DPRK füze haberleri de sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin çoğu aynı gelişmenin tekrarı ve kâr satışları olasılığı yükselişi sınırlayabilir.
+GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Demokratların ara seçimlerdeki kazanımları ve zayıflayan dolar altını destekliyor; ancak altının %2’yi aşan yükselişten sonra yeniden gerilediğine dair yeni başlıklar kısa vadeli yönü belirsizleştiriyor. İran savaşı ve petrol oynaklığı güvenli liman talebini canlı tutabilir, fakat haberlerin önemli 
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 08:57 N  NEWS (9 new) score +0.40 conf 0.60: Dolar endeksinin Eylül'ün son haftasındaki düşük seviyelere gerilemesi ve İran savaşının sürmesi, güvenli liman talebi ile zayıf dolar nedeniyle altın için olumlu bir tablo çiziyor. Ancak dolar düşüşü ve ara seçim sonuçları kısmen fiyatlanmış durumda ve Fed beklentilerinde net bir dovish sinyal yok, bu yüzden güven orta düzeyde tutuldu.
-04.11 08:57 N  GPT  score +0.35 conf 0.48: Demokratların ilerleyişiyle doların zayıflaması ve tahvillerin yükselmesi altını kısa vadede destekliyor; İran savaşı ve Hürmüz gerilimi de güvenli liman talebini artırabilir. Ancak haberlerin çoğu aynı seçim gelişmesini tekrarlıyor ve ilk fiyat tepkisi başlamış görünüyor, bu nedenle etki sınırlı ka
 04.11 08:57 B5  LONG gold 25000 USD x10 @ 4010.40 (TP 4022.43, SL 4002.38; news +0.38)
 04.11 09:00 B5  CLOSE long stop: -55.93 USD
 04.11 09:06 B5  LONG gold 25000 USD x10 @ 4011.44 (TP 4023.48, SL 4003.42; news +0.38)
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 09:46 B5  LONG gold 25000 USD x10 @ 4019.76 (TP 4031.82, SL 4011.72; news +0.49)
 04.11 09:58 N  NEWS (13 new) score +0.50 conf 0.55: Demokratların ara seçimlerdeki kazanımı dolar endeksini bir aylık / 5 haftalık dibe çekti ve tahvil faizleri gevşedi; bu, altın için net olarak yükseliş yönlü bir etki. Ayrıca Iran savaşının seçim sonucunda rol oynaması, jeopolitik risk primini azaltsa da dolar zayıflığı ve düşen getiriler baskın görünüyor. Ancak altın zaten 4.000 doları aştığı için kısmen fiyatlanmış durumda ve bugünkü istihdam verisi ile Bullard'ın Aralık faiz artırımı çağrısı yeniden sert bir geri dönüş riski doğurabilir.
 04.11 09:58 N  GPT  score +0.65 conf 0.68: Doların seçim sonuçları sonrası zayıflaması ve getirilerdeki düşüş altını kısa vadede destekliyor; DPRK füze haberleri de sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin çoğu aynı gelişmenin tekrarı ve kâr satışları olasılığı yükselişi sınırlayabilir.
+04.11 10:10 N  NEWS (18 new) score +0.25 conf 0.50: Dolar, ara seçim sonrası bir aylık en düşük seviyesine geriledi ve altın yaklaşık %2 yükselip 4.000 doların üzerine çıktı; bu, gold için kısa vadede olumlu bir sinyal. Ancak 07:03 UTC civarı haberlerde altının yeniden düştüğü ve Bullard'ın Aralık'ta faiz artırımını savunması gibi şahin unsurlar var; ayrıca hareketin büyük kısmı zaten fiyatlandı, bu yüzden güven orta düzeyde tutuldu.
+04.11 10:10 N  GPT  score +0.20 conf 0.48: Demokratların ara seçimlerdeki kazanımları ve zayıflayan dolar altını destekliyor; ancak altının %2’yi aşan yükselişten sonra yeniden gerilediğine dair yeni başlıklar kısa vadeli yönü belirsizleştiriyor. İran savaşı ve petrol oynaklığı güvenli liman talebini canlı tutabilir, fakat haberlerin önemli 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
