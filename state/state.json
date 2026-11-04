@@ -673,6 +673,10 @@
    [
     1793760644,
     5000.0
+   ],
+   [
+    1793761211,
+    5000.0
    ]
   ],
   "archive": [
@@ -10297,43 +10301,38 @@
    [
     1793760644,
     4868.5
+   ],
+   [
+    1793761211,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.3,
-   "reason": "Yeni haberlerde kar\u0131\u015f\u0131k sinyaller var: ABD tahvil getirileri ve dolar\u0131n d\u00fc\u015fmesi (Demokratlar\u0131n ara se\u00e7imde \u00f6nde olmas\u0131) alt\u0131n i\u00e7in hafif destekleyici, Kuzey Kore'nin f\u00fcze denemesi ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir. \u00d6te yandan alt\u0131n 3.950$ alt\u0131na inmi\u015f, Fed'in enflasyon kayg\u0131s\u0131 ve d\u00fc\u015fen fiyat trendi bask\u0131 olu\u015fturuyor; bu nedenle etki n\u00f6tre yak\u0131n ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": 0.4,
+   "confidence": 0.55,
+   "reason": "Dolar endeksi ara se\u00e7im sonu\u00e7lar\u0131nda Demokratlar\u0131n \u00f6ne ge\u00e7mesiyle bir ayl\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in destekleyici bir tablo. Merkez bankas\u0131 al\u0131mlar\u0131 da alt\u0131na taban olu\u015fturuyor, ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve Fed beklentileri net de\u011fil, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1793760294992,
-   "new_headlines": 9,
+   "ts": 1793761211338,
+   "new_headlines": 15,
    "key_events": [
-    "Dolar ve ABD tahvil getirileri y\u00fckseldi, alt\u0131n 3.950 dolar\u0131n alt\u0131na geriledi",
-    "ABD-\u0130ran gerilimindeki azalma g\u00fcvenli liman talebini zay\u0131flat\u0131yor",
-    "Fed enflasyon ve yapay zeka kaynakl\u0131 bask\u0131lar nedeniyle temkinli; ABD ara se\u00e7im sonu\u00e7lar\u0131 bekleniyor"
+    "ABD ara se\u00e7im sonu\u00e7lar\u0131nda Demokratlar\u0131n \u00f6nde olmas\u0131 dolarda sert zay\u0131flamaya ve Treasury getirilerinde d\u00fc\u015f\u00fc\u015fe yol a\u00e7t\u0131",
+    "Merkez bankas\u0131 alt\u0131n al\u0131mlar\u0131 Q3'te perakende talep zay\u0131fl\u0131\u011f\u0131n\u0131 dengeledi",
+    "Alt\u0131n 3.930 dolar civar\u0131nda destek aray\u0131\u015f\u0131nda; petrol d\u00fc\u015f\u00fc\u015f\u00fc ve \u0130ran sava\u015f\u0131 arka planda"
    ],
    "gpt": {
-    "score": 0.2,
-    "confidence": 0.36,
-    "reason": "Dolar ve Hazine tahvil getirilerindeki gerileme alt\u0131n\u0131 desteklerken, Kuzey Kore\u2019nin yeni f\u00fcze denemesi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na inmesi ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkili fiyat sinyalleri k\u0131sa vadeli y\u00fckseli\u015f beklentisini zay\u0131flat\u0131yor.",
+    "score": 0.35,
+    "confidence": 0.53,
+    "reason": "Demokratlar\u0131n ara se\u00e7imlerde \u00f6nde g\u00f6r\u00fcnmesiyle dolar\u0131n zay\u0131flamas\u0131 ve tahvil getirilerinin gerilemesi, k\u0131sa vadede alt\u0131n\u0131 destekliyor; Kuzey Kore\u2019nin f\u00fcze denemesi de s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin \u00e7o\u011fu ayn\u0131 se\u00e7im geli\u015fmesini yans\u0131t\u0131yor ve alt\u0131n\u0131n yak\u0131n d\u00f6nemdeki fiyat ha",
     "key_events": [
-     "Dolar ve tahvil getirileri geriledi",
-     "Kuzey Kore yeni bir mermi/proje denemesi yapt\u0131",
-     "Alt\u0131n 3.950 dolar\u0131n alt\u0131na indi"
+     "Dolar\u0131n ve tahvil getirilerinin gerilemesi",
+     "Demokratlar\u0131n ara se\u00e7imlerde erken kazan\u0131mlar\u0131",
+     "Kuzey Kore\u2019nin yeni f\u00fcze denemesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793007903310,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "Fed karar\u0131 \u00f6ncesi haberler kar\u0131\u015f\u0131k ama hafif \u015fahin a\u011f\u0131rl\u0131kl\u0131: TD Securities, Ekim'de faiz pauzas\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n Aral\u0131k'ta art\u0131\u015f ihtimalini y\u00fckseltti\u011fini, dolar ise Fed karar\u0131 \u00f6ncesi diren\u00e7li kald\u0131\u011f\u0131n\u0131 belirtiyor; bu alt\u0131n i\u00e7in bask\u0131 olu\u015fturur. \u00d6te yandan \u0130ran sava\u015f\u0131nda diplomatik \u00e7abalar ve petrol\u00fcn d\u00fc\u015f\u00fc\u015f\u00fc jeopolitik risk primini azalt\u0131yor, ancak alt\u0131n 4.000 dolar civar\u0131nda toparlanma sinyali veriyor ve g\u00fcvenli liman talebi tamamen s\u00f6nm\u00fc\u015f de\u011fil. Sonu\u00e7 olarak hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
-    "new": 32,
-    "gpt_score": 0.1,
-    "gpt_confidence": 0.35
-   },
    {
     "ts": 1793010390184,
     "score": -0.3,
@@ -13024,63 +13023,70 @@
     "new": 9,
     "gpt_score": 0.2,
     "gpt_confidence": 0.36
+   },
+   {
+    "ts": 1793761211338,
+    "score": 0.4,
+    "confidence": 0.55,
+    "reason": "Dolar endeksi ara se\u00e7im sonu\u00e7lar\u0131nda Demokratlar\u0131n \u00f6ne ge\u00e7mesiyle bir ayl\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in destekleyici bir tablo. Merkez bankas\u0131 al\u0131mlar\u0131 da alt\u0131na taban olu\u015fturuyor, ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve Fed beklentileri net de\u011fil, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+    "new": 15,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.53
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 24
+   "n": 25
   },
   "news_seen": [
+   "Gold Price Consolidates Amid Dollar Weakness and Central Bank Buying - KuCoin",
+   "Texas Senate Race: Talarico Leads Paxton Amid Bitcoin Reserve Implications - KuCoin",
+   "New Zealand Dollar struggles to build on weak USD-led gains amid RBNZ's dovish tilt - FXStreet",
+   "Domestic gold prices are rising, trading around 141.2 million VND per tael. - Vietnam.vn",
+   "Gold Prices Today: Bullion Edges Higher As Oil Slips; US Midterm Election Results, Fed Rate Outlook In Focu - News18",
+   "US Midterm Elections: Democrats score early wins, weighing on US Dollar - FXStreet",
+   "Gold prices on November 4th: Price list at domestic gold, silver, and gemstone companies. - Vietnam.vn",
    "Gold Rate Today: Check 24K, 22K Gold Prices In Mumbai, Delhi, Chennai, Kolkata, Bengaluru On November 4 - NDTV Profit",
-   "Marvel's VisionQuest Episode 7 Features A Crucial Connection To Avengers: Infinity War - IMDb",
    "Gold price prediction: Will gold bounce back on Wednesday? Check outlook for November 4 - The Economic Times",
    "Gold (XAU/USD) Price Forecast: Critical Support Holds Amid Growing Downside Risk - FXEmpire",
    "Treasury Yields Fall, Dollar Weakens as Democrats Lead in Early US Midterm Count - bloomingbit",
+   "U.S. dollar up in Taipei trading - Focus Taiwan",
    "North Korea fires off \u2018unidentified projectile\u2019 in latest weapons test - The Japan Times",
    "US dollar outlook: Nasdaq breakdown raises stakes for EUR/USD, USD/JPY - FOREX.com",
+   "Thai baht/US dollar stronger on Wednesday - TradingView",
+   "Dollar Falls on Strong Democratic Showing - TradingView",
    "Oil edges down as investors await US midterm election results - Reuters",
    "$27 Million Contract Awarded for White Sands Missile Range\u2019s Latest Microgrid - Microgrid Knowledge",
    "Central Bank Buying Offsets Weaker Retail Gold Demand in Q3 - Crux Investor",
+   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
    "World gold prices have once again fallen below the $3,950/oz mark. - Vietnam.vn",
    "Dollar dips with US midterm results in focus - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "U.S. Dollar Index Weakens to One-Month Low as Democrats Take Lead - WSJ",
    "Gold firms on softer oil prices, US midterm results awaited - The Economic Times",
+   "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
    "Gold prices welcome geopolitical instability wave, silver prices fall by nearly 0.5% - Laodong.vn",
    "Gold and foreign currency prices 4.11: Domestic gold continues to increase - Laodong.vn",
-   "Natural Gas Price Forecast: Bearish Momentum Builds Below Key Averages - FXEmpire",
    "North Korea fires unidentified projectile toward sea off its east coast, Seoul says - Reuters",
    "Gold Falls Below $3,930 as Dollar and U.S. Treasury Yields Both Climb; Market Awaits Midterm Elections - BigGo Finance",
    "Gold and silver price today, November 4: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "Dollar dips with US midterm results in focus By Reuters - Investing.com",
    "Gold price dip brings relief to wedding-bound families in Kashmir - Greater Kashmir",
    "Breaking: US Dollar falls below 101.50 as early midterm results point to Democratic gains - FXStreet",
+   "Ringgit opens marginally higher against US dollar - The Malaysian Reserve",
    "Stock Futures Rise on AI Recovery as US Votes: Markets Wrap - Bloomberg.com",
    "No more rice grains in Kellogg's Rice Krispies due to changing weather",
    "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war - The Guardian",
    "US sanctions on Iran put Armenia\u2019s balancing act to the test - Amwaj.media",
+   "New York Times, Federal Reserve, Harvard, Columbia Employees Pour Campaign Cash Into Hard-Left Candidates - freebeacon.com",
    "African Laborers Were Forgotten in Stories of World War I - University of California, Berkeley",
    "U.S. Sanctions On Iran: Background And Political Context \u2013 Analysis - Eurasia Review",
    "DNC chair says Democrats should repeal Trump tariffs, end Iran war if they win power - The Hill",
    "Gold firms on softer oil prices, US midterm results awaited - The Mighty 790 KFGO",
    "Nomura Adjusts Laopu Gold's Price Target to HK$450 - www.marketscreener.com",
-   "Ukraine war briefing: race to free dozens trapped under rubble of Russian strikes on aid hub - The Guardian",
-   "Ukrainians in Syracuse hope midterms bring change to war - Spectrum News",
-   "FOMC Meeting: Why the Fed Is Nervous About Inflation and AI - Briefs Finance",
-   "Why Did Gold and Silver Slide to Their Lowest in a Year? - Kalkine",
-   "Iran War Doubles Egypt\u2019s LNG Bill as Gas Output Keeps Falling - Yahoo Finance",
-   "Opinion | Can China tame its war machine? - South China Morning Post",
-   "Gold prices today, November 4th: Reversed downward trend as USD and US bond yields rose. - Vietnam.vn",
-   "Inglewood\u2019s Billionaire Billboard War is on the Ballot - Puck",
-   "Egypt\u2019s Sisi warns of \u2018catastrophic\u2019 fallout if US-Iran war resumes - Anadolu Ajans\u0131",
-   "Unbeaten Utah Hosts BYU In A Holy War That Could Shape The Big 12 Title Race - FOX Sports",
-   "Bitcoin investors could pay the price as the Federal Reserve tightens bank lending rules - Cryptonews.net",
-   "Gold falls 0.5% on November 3 as dollar and yields rise - Nation Thailand",
-   "Ukraine faces massive drone and missile strikes on power plants and civilian infrastructure - Fox News",
-   "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms - Bloomberg.com"
+   "Ukraine war briefing: race to free dozens trapped under rubble of Russian strikes on aid hub - The Guardian"
   ]
  },
  "log": [
-  "03.11 01:05 N  NEWS (12 new) score +0.05 conf 0.30: Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran-ABD m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in olumsuz, ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131p ve dolarda gerileme alt\u0131n i\u00e7in olumlu. Dallas Fed'in faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir bask\u0131 yarat\u0131yor; genel etki n\u00f6trye yak\u0131n.",
-  "03.11 01:05 N  GPT  score -0.20 conf 0.42: \u0130ran-ABD g\u00f6r\u00fc\u015fmelerinin yo\u011funla\u015fmas\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede g\u00fcvenli liman talebini azaltabilir; Dallas Fed yetkilisinin faiz art\u0131r\u0131m\u0131 y\u00f6n\u00fcndeki tutumu da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n geri \u00e7ekilmesi ve sava\u015f riskinin tamamen ortadan kalkmam\u0131\u015f olmas\u0131 d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor.",
   "03.11 01:17 N  NEWS (9 new) score -0.10 conf 0.35: ",
   "03.11 01:17 N  GPT  score +0.20 conf 0.42: Dolar\u0131n gerilemesi ve zay\u0131flayan kredi talebi alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. \u0130ran g\u00f6r\u00fc\u015fmelerinin ilerlemesi g\u00fcvenli liman talebini azalt\u0131rken, petrol d\u00fc\u015f\u00fc\u015f\u00fc ile enflasyon ve Fed beklentilerindeki belirsizlik bu deste\u011fi dengeliyor.",
   "03.11 01:29 N  NEWS (8 new) score +0.15 conf 0.40: Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve Treasury getirilerinin geriye \u00e7ekilmesi enflasyon beklentilerini yumu\u015fat\u0131p reel faizleri bask\u0131layarak alt\u0131n i\u00e7in hafif olumlu bir etki yarat\u0131yor. Ancak \u0130ran ile m\u00fczakerelerin yo\u011funla\u015fmas\u0131 g\u00fcvenli liman talebini azalt\u0131yor ve Fed'in s\u0131k\u0131la\u015ft\u0131rma bahisleri s\u00fcrd\u00fc\u011f\u00fc i\u00e7in etki s\u0131n\u0131rl\u0131 kal\u0131yor.",
@@ -13378,7 +13384,9 @@
   "04.11 05:32 N  NEWS (12 new) score +0.20 conf 0.40: Yeni ba\u015fl\u0131klarda ABD ara se\u00e7im sonu\u00e7lar\u0131yla birlikte dolar zay\u0131fl\u0131yor ve Hazine getirileri geriliyor; bu, alt\u0131n i\u00e7in hafif olumlu. Buna kar\u015f\u0131n \u0130ran gerilimlerinin azalmas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor, petrol d\u00fc\u015f\u00fcyor ve alt\u0131n yak\u0131n d\u00f6nemde bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor. \u00c7eli\u015fkili ve k\u0131smen fiyatlanm\u0131\u015f haberler nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
   "04.11 05:32 N  GPT  score +0.28 conf 0.46: Demokratlar\u0131n erken se\u00e7im sonu\u00e7lar\u0131nda \u00f6nde g\u00f6r\u00fcnmesiyle Hazine tahvili getirileri ve dolar\u0131n gerilemesi, k\u0131sa vadede alt\u0131n\u0131 destekliyor. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f enflasyon ve g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan deste\u011fi s\u0131n\u0131rlarken, \u00f6nceki \u00e7eli\u015fkili fiyat haberleri g\u00fcveni azalt\u0131yor.",
   "04.11 05:44 N  NEWS (9 new) score +0.05 conf 0.30: Yeni haberlerde kar\u0131\u015f\u0131k sinyaller var: ABD tahvil getirileri ve dolar\u0131n d\u00fc\u015fmesi (Demokratlar\u0131n ara se\u00e7imde \u00f6nde olmas\u0131) alt\u0131n i\u00e7in hafif destekleyici, Kuzey Kore'nin f\u00fcze denemesi ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir. \u00d6te yandan alt\u0131n 3.950$ alt\u0131na inmi\u015f, Fed'in enflasyon kayg\u0131s\u0131 ve d\u00fc\u015fen fiyat trendi bask\u0131 olu\u015fturuyor; bu nedenle etki n\u00f6tre yak\u0131n ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "04.11 05:44 N  GPT  score +0.20 conf 0.36: Dolar ve Hazine tahvil getirilerindeki gerileme alt\u0131n\u0131 desteklerken, Kuzey Kore\u2019nin yeni f\u00fcze denemesi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na inmesi ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkili fiyat sinyalleri k\u0131sa vadeli y\u00fckseli\u015f beklentisini zay\u0131flat\u0131yor."
+  "04.11 05:44 N  GPT  score +0.20 conf 0.36: Dolar ve Hazine tahvil getirilerindeki gerileme alt\u0131n\u0131 desteklerken, Kuzey Kore\u2019nin yeni f\u00fcze denemesi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na inmesi ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkili fiyat sinyalleri k\u0131sa vadeli y\u00fckseli\u015f beklentisini zay\u0131flat\u0131yor.",
+  "04.11 06:00 N  NEWS (15 new) score +0.40 conf 0.55: Dolar endeksi ara se\u00e7im sonu\u00e7lar\u0131nda Demokratlar\u0131n \u00f6ne ge\u00e7mesiyle bir ayl\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in destekleyici bir tablo. Merkez bankas\u0131 al\u0131mlar\u0131 da alt\u0131na taban olu\u015fturuyor, ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve Fed beklentileri net de\u011fil, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+  "04.11 06:00 N  GPT  score +0.35 conf 0.53: Demokratlar\u0131n ara se\u00e7imlerde \u00f6nde g\u00f6r\u00fcnmesiyle dolar\u0131n zay\u0131flamas\u0131 ve tahvil getirilerinin gerilemesi, k\u0131sa vadede alt\u0131n\u0131 destekliyor; Kuzey Kore\u2019nin f\u00fcze denemesi de s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak haberlerin \u00e7o\u011fu ayn\u0131 se\u00e7im geli\u015fmesini yans\u0131t\u0131yor ve alt\u0131n\u0131n yak\u0131n d\u00f6nemdeki fiyat ha"
  ],
  "gold_big": {
   "account": {
@@ -19995,6 +20003,10 @@
    [
     1793760644,
     4963.78
+   ],
+   [
+    1793761211,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -26539,6 +26551,10 @@
    [
     1793760644,
     4975.18
+   ],
+   [
+    1793761211,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -33049,6 +33065,10 @@
    [
     1793760644,
     4993.28
+   ],
+   [
+    1793761211,
+    4993.28
    ]
   ]
  },
@@ -39396,6 +39416,10 @@
    [
     1793760644,
     4969.22
+   ],
+   [
+    1793761211,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -44711,6 +44735,10 @@
    [
     1793760644,
     4590.46
+   ],
+   [
+    1793761211,
+    4557.85
    ]
   ],
   "news_calls": {
@@ -51024,6 +51052,10 @@
    [
     1793760644,
     102500.9
+   ],
+   [
+    1793761211,
+    102500.9
    ]
   ],
   "open": {},
@@ -55605,6 +55637,10 @@
    ],
    [
     1793760644,
+    5066.43
+   ],
+   [
+    1793761211,
     5066.43
    ]
   ],

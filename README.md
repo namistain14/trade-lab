@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 05:50 (İstanbul)
+> Son güncelleme: 04.11.2026 06:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %32.0 |
 | Ödenen komisyon/spread | 11.91 $ | 297.50 $ |
 
-**Hesap değeri: 4,590.46 $** (başlangıç 5,000 $, -409.54 $ / %-8.19)
+**Hesap değeri: 4,557.85 $** (başlangıç 5,000 $, -442.15 $ / %-8.84)
 
 Açık pozisyonlar: PAXGUSDT long @ 3948.66 (TP 3960.51 / SL 3940.76)
 
-Son haber analizi (04.11 05:44): Claude puan **+0.05**, güven 0.30 — Yeni haberlerde karışık sinyaller var: ABD tahvil getirileri ve doların düşmesi (Demokratların ara seçimde önde olması) altın için hafif destekleyici, Kuzey Kore'nin füze denemesi ise sınırlı bir güvenli liman talebi yaratabilir. Öte yandan altın 3.950$ altına inmiş, Fed'in enflasyon kaygısı ve düşen fiyat trendi baskı oluşturuyor; bu nedenle etki nötre yakın ve güven düşük.
+Son haber analizi (04.11 06:00): Claude puan **+0.40**, güven 0.55 — Dolar endeksi ara seçim sonuçlarında Demokratların öne geçmesiyle bir aylık en düşük seviyeye geriledi ve Treasury getirileri düştü; bu, altın için destekleyici bir tablo. Merkez bankası alımları da altına taban oluşturuyor, ancak haber akışı karışık ve Fed beklentileri net değil, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.36 — Dolar ve Hazine tahvil getirilerindeki gerileme altını desteklerken, Kuzey Kore’nin yeni füze denemesi sınırlı güvenli liman talebi yaratabilir. Ancak altının 3.950 doların altına inmesi ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini zayıflatıyor.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.53 — Demokratların ara seçimlerde önde görünmesiyle doların zayıflaması ve tahvil getirilerinin gerilemesi, kısa vadede altını destekliyor; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin çoğu aynı seçim gelişmesini yansıtıyor ve altının yakın dönemdeki fiyat ha
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 04:19 N  NEWS (6 new) score -0.45 conf 0.60: Altın bir yıllık dibe yakın seyrediyor; dolar güçleniyor, tahvil getirileri yükseliyor ve İran-ABD gerilimindeki yumuşama güvenli liman talebini azaltıyor. Fed'in enflasyon konusunda endişeli olması da kısa vadede altın için olumsuz bir sinyal; ancak haberlerin çoğu zaten fiyatlanmış olduğundan ve ABD ara seçim sonuçları belirsiz olduğundan güven orta düzeyde.
-04.11 04:19 N  GPT  score +0.18 conf 0.34: Altın fiyatının yumuşayan petrol fiyatlarıyla toparlandığı haberi ve Ukrayna’daki yeni saldırılar kısa vadede sınırlı destek sağlayabilir. Ancak Fed’in enflasyon kaygıları ve önceki dolar/getiri kaynaklı düşüş haberleri yönü belirsizleştiriyor; etkilerin bir kısmı önceden fiyatlanmış olabilir.
 04.11 04:31 N  NEWS (8 new) score -0.40 conf 0.60: Altın, dolar ve tahvil getirilerinin yükselmesi, İran ile gerilimin azalması (güvenli liman talebini zayıflatıyor) ve Fed'in enflasyon konusundaki endişeleri nedeniyle 1-4 saat içinde baskı altında görünüyor. Ancak altın zaten bir yılın en düşük seviyesine yakın işlem görüyor, petrol fiyatlarındaki düşüş ve ABD ara seçim sonuçlarının beklenmesi belirsizliği artırdığı için sinyal karışık ve güven orta düzeyde.
 04.11 04:31 N  GPT  score +0.05 conf 0.32: Yumuşayan petrol fiyatları altına hafif destek verirken, dolar ve tahvil getirilerindeki yükseliş baskı yaratıyor. İran geriliminin azalması ve çelişkili altın haberleri kısa vadeli yön sinyalini zayıflatıyor.
 04.11 04:43 N  NEWS (11 new) score -0.30 conf 0.50: Altın son saatlerde güçlenen dolar ve yükselen tahvil getirileri nedeniyle yılın en düşük seviyesine yakın işlem görüyor; Fed'in enflasyon konusunda temkinli olması da kısa vadede baskı yaratıyor. İran'da savaşın yeniden başlama riski güvenli liman talebini destekleyebilir, ancak bu haberlerin altını yukarı çekmediği görülüyor, bu yüzden etkisi sınırlı. Seçim sonuçları ve İran müzakere haberleri net bir yön vermediği için güveni orta seviyede tutuyorum.
@@ -101,6 +99,8 @@ Son işlemler:
 04.11 05:32 N  GPT  score +0.28 conf 0.46: Demokratların erken seçim sonuçlarında önde görünmesiyle Hazine tahvili getirileri ve doların gerilemesi, kısa vadede altını destekliyor. Petrol fiyatlarındaki düşüş enflasyon ve güvenli liman talebi açısından desteği sınırlarken, önceki çelişkili fiyat haberleri güveni azaltıyor.
 04.11 05:44 N  NEWS (9 new) score +0.05 conf 0.30: Yeni haberlerde karışık sinyaller var: ABD tahvil getirileri ve doların düşmesi (Demokratların ara seçimde önde olması) altın için hafif destekleyici, Kuzey Kore'nin füze denemesi ise sınırlı bir güvenli liman talebi yaratabilir. Öte yandan altın 3.950$ altına inmiş, Fed'in enflasyon kaygısı ve düşen fiyat trendi baskı oluşturuyor; bu nedenle etki nötre yakın ve güven düşük.
 04.11 05:44 N  GPT  score +0.20 conf 0.36: Dolar ve Hazine tahvil getirilerindeki gerileme altını desteklerken, Kuzey Kore’nin yeni füze denemesi sınırlı güvenli liman talebi yaratabilir. Ancak altının 3.950 doların altına inmesi ve haber akışındaki çelişkili fiyat sinyalleri kısa vadeli yükseliş beklentisini zayıflatıyor.
+04.11 06:00 N  NEWS (15 new) score +0.40 conf 0.55: Dolar endeksi ara seçim sonuçlarında Demokratların öne geçmesiyle bir aylık en düşük seviyeye geriledi ve Treasury getirileri düştü; bu, altın için destekleyici bir tablo. Merkez bankası alımları da altına taban oluşturuyor, ancak haber akışı karışık ve Fed beklentileri net değil, bu yüzden güven orta düzeyde.
+04.11 06:00 N  GPT  score +0.35 conf 0.53: Demokratların ara seçimlerde önde görünmesiyle doların zayıflaması ve tahvil getirilerinin gerilemesi, kısa vadede altını destekliyor; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak haberlerin çoğu aynı seçim gelişmesini yansıtıyor ve altının yakın dönemdeki fiyat ha
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
