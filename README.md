@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 19:46 (İstanbul)
+> Son güncelleme: 04.11.2026 19:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %60.0 | %43.6 |
 | Ödenen komisyon/spread | 178.05 $ | 463.64 $ |
 
-**Hesap değeri: 4,937.19 $** (başlangıç 5,000 $, -62.81 $ / %-1.26)
+**Hesap değeri: 4,914.19 $** (başlangıç 5,000 $, -85.81 $ / %-1.72)
 
 Açık pozisyonlar: PAXGUSDT long @ 4065.20 (TP 4077.40 / SL 4057.07)
 
-Son haber analizi (04.11 19:38): Claude puan **+0.30**, güven 0.40 — Demokratların Kongre'yi süpürmesiyle dolar endeksi 101.50'nin altına indi, bu altın için olumlu bir etken. İran savaşının süreceğine dair belirsizlik artıyor, bu da güvenli liman talebini destekliyor. Ancak "Gold Rises 2.26%" haberi yükselişin büyük kısmının zaten fiyatlandığını gösteriyor ve haberlerin çoğu tekrar eden, eski siyasi yorum niteliğinde.
+Son haber analizi (04.11 19:50): Claude puan **+0.35**, güven 0.50 — Demokratların Kongre'yi süpürmesi sonrası dolar endeksi 101.50'nin altına indi ve dolar zayıfladı; bu, altın için olumlu bir etki. Ayrıca Türk lirasının rekor düşüşü EM risk algısını artırarak altını destekliyor. Ancak İran savaşının sona erme ihtimali güvenli liman talebini azaltabileceğinden etki sınırlı ve karışık; haberlerin çoğu zaten fiyatlanmış olabilir.
 
-GPT (gpt-6-luna): puan **+0.42**, güven 0.56 — Demokratların Kongre zaferi ve doların 101,50 seviyesinin altına gerilemesi altına kısa vadede destek sağlayabilir; İran savaşı çevresindeki siyasi belirsizlik de güvenli liman talebini canlı tutuyor. Ancak seçim haberlerinin büyük ölçüde aynı gelişmeyi yinelemesi ve savaşın sona ermesi ihtimalinin 
+GPT (gpt-6-luna): puan **+0.45**, güven 0.56 — Doların seçim sonuçları sonrası gerilemesi ve İran savaşının geleceğine ilişkin artan belirsizlik, kısa vadede altına destek verebilir. Ancak manşetlerin çoğu aynı siyasi gelişmenin tekrarı; savaşın sona erme olasılığı ve hareketin önceden fiyatlanmış olması yükselişi sınırlayabilir.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %28.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,473.83 $** (başlangıç 100,000 $, +5473.83 $ / %+5.47)
+**Hesap değeri: 105,629.01 $** (başlangıç 100,000 $, +5629.01 $ / %+5.63)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); SPY long @ 763.34 (TP 774.83 / SL 755.75); TSLA long @ 386.41 (TP 391.60 / SL 381.95)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 18:50 B6  karar turu: Claude «Endeksler günü artıda tutuyor ancak teknoloji tarafında, özellikle yapay zeka hisselerinde, gün içi satış baskısı artıyor ve öğleden sonra kazanımların bir kısmının geri verilmesi muhtemel.» / GPT «Endeksler günlük bazda artıda olsa da teknoloji hisselerindeki göreli zayıflık kısa vadede satış yönüne avantaj sağlıyor.»
-04.11 18:50 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"42486.29","code":40310000,"cost_basis":"49977.57","message":"insufficient buying power"}
-04.11 19:02 N  NEWS (10 new) score +0.60 conf 0.60: Dolar zayıflaması (ara seçim sonuçları sonrası) ve ABD'nin İran'ın Qeshm Adası'nı vurması gibi jeopolitik gerilim altın için destekleyici; merkez bankalarının altın alımları da yapısal destek sağlıyor. Ancak altın gün içinde en büyük kazancını zaten yaşadığı için bir kısmı fiyatlanmış olabilir ve ABD hizmet enflasyonunun yüksek kalması Fed beklentilerini sertleştirerek sınırlayıcı etki yaratabilir.
-04.11 19:02 N  GPT  score +0.58 conf 0.56: İran’ın Qeşm Adası’na ABD saldırısı güvenli liman talebini artırabilir; midterm sonuçları sonrası doların zayıflaması da altını destekliyor. Ancak Trump’ın savaş riskini küçümsemesi ve altının gün içinde zaten sert yükselmiş olması kısa vadeli etkiyi sınırlayabilir.
 04.11 19:02 B6  karar turu: Claude «Endeks genelinde yükseliş var ancak teknoloji ve yapay zeka hisseleri öğleden sonra zayıflama sinyali veriyor.» / GPT «Genel piyasa günlük bazda güçlü kalsa da teknoloji hisselerindeki göreli zayıflık, önümüzdeki 1-3 saatte aşağı yönlü işlemleri destekliyor.»
 04.11 19:02 B6  QQQ emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"42791.64","code":40310000,"cost_basis":"49270.71","message":"insufficient buying power"}
 04.11 19:26 N  NEWS (27 new) score +0.45 conf 0.55: ABD'nin İran'ın Qeshm Adası'na saldırısı haberi jeopolitik risk ve güvenli liman talebini artırarak altın için olumlu. Dolar endeksinin 101.50'nin altına inmesi de altını destekliyor. Ancak Trump'ın riskleri azalttığı yönündeki açıklamalar ve haberlerin büyük kısmının seçim sonuçlarına odaklanması, etkinin kısmen fiyatlanmış ya da çelişkili olabileceğini gösteriyor.
@@ -103,6 +99,10 @@ Son işlemler:
 04.11 19:38 B6  karar turu: Claude «Geniş piyasa seçim sonrası pozitif, ancak yapay zeka ve Musk bağlantılı hisselerdeki zayıflık teknolojiyi öğleden sonra aşağı çekebilir.» / GPT «Endeksler günlük bazda pozitif kalsa da teknoloji hisselerindeki göreli zayıflık kısa vadede satış yönünü destekliyor.»
 04.11 19:40 B5  CLOSE long take profit: +69.06 USD
 04.11 19:46 B5  LONG gold 25000 USD x10 @ 4065.20 (TP 4077.40, SL 4057.07; news +0.36)
+04.11 19:50 N  NEWS (20 new) score +0.35 conf 0.50: Demokratların Kongre'yi süpürmesi sonrası dolar endeksi 101.50'nin altına indi ve dolar zayıfladı; bu, altın için olumlu bir etki. Ayrıca Türk lirasının rekor düşüşü EM risk algısını artırarak altını destekliyor. Ancak İran savaşının sona erme ihtimali güvenli liman talebini azaltabileceğinden etki sınırlı ve karışık; haberlerin çoğu zaten fiyatlanmış olabilir.
+04.11 19:50 N  GPT  score +0.45 conf 0.56: Doların seçim sonuçları sonrası gerilemesi ve İran savaşının geleceğine ilişkin artan belirsizlik, kısa vadede altına destek verebilir. Ancak manşetlerin çoğu aynı siyasi gelişmenin tekrarı; savaşın sona erme olasılığı ve hareketin önceden fiyatlanmış olması yükselişi sınırlayabilir.
+04.11 19:50 B6  karar turu: Claude «Demokratların seçim zaferi sonrası endeksler geniş tabanlı yükseliyor; ancak AI ve Musk bağlantılı hisseler baskı altında olduğu için Nasdaq, S&P'nin gerisinde kalıyor.» / GPT «Endekslerde yön yukarı; ancak yapay zekâ yatırımlarına ilişkin siyasi belirsizlik ve kaldıraç, yükseliş işlemlerinde riski artırıyor.»
+04.11 19:50 B6  ALIŞ QQQ 70 adet ≈ 48,628 $ (1:4) @ 694.69 (TP 705.11, SL 687.74; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
