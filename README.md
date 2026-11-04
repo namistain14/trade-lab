@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 15:51 (İstanbul)
+> Son güncelleme: 04.11.2026 16:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,28 +18,26 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +259.59 $ | -83.17 $ |
-| İşlem sayısı | 11 | 35 |
-| Kazanma oranı | %63.6 | %42.9 |
-| Ödenen komisyon/spread | 130.64 $ | 416.23 $ |
+| Net kâr/zarar | +203.67 $ | -139.08 $ |
+| İşlem sayısı | 12 | 36 |
+| Kazanma oranı | %58.3 | %41.7 |
+| Ödenen komisyon/spread | 142.49 $ | 428.08 $ |
 
-**Hesap değeri: 4,916.66 $** (başlangıç 5,000 $, -83.34 $ / %-1.67)
+**Hesap değeri: 4,860.92 $** (başlangıç 5,000 $, -139.08 $ / %-2.78)
 
-Açık pozisyonlar: PAXGUSDT long @ 4039.62 (TP 4051.74 / SL 4031.54)
+Son haber analizi (04.11 16:20): Claude puan **+0.50**, güven 0.50 — Dolar endeksi, ABD ara seçim sonuçlarının ardından dört haftalık dibe yakın geriledi ve bu altını destekliyor. Ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırarak güvenli liman talebini canlandırabilir. Ancak dolar düşüşü ve seçim sonucu kısmen fiyatlanmış durumda, bu nedenle güven orta düzeyde tutuldu.
 
-Son haber analizi (04.11 15:45): Claude puan **+0.35**, güven 0.50 — ABD ara seçimlerinde Demokratların güçlenmesi doların bir aylık en düşük seviyeye gerilemesine ve Treasury getirilerinin baskılanmasına yol açtı; bu, altın için olumlu bir etki. Ancak İran ile müzakere beklentileri jeopolitik korku primini azaltabileceği için etki sınırlı ve kısa vadede karışık.
-
-GPT (gpt-6-luna): puan **+0.32**, güven 0.46 — Demokratların ara seçim zaferi sonrası doların ve Hazine getirilerinin gerilemesi altını kısa vadede destekliyor; altının 4.000 dolar üzerine dönmesi bu gelişmelerin bir kısmının zaten fiyatlandığını gösteriyor. İran başlıkları yeni ve belirgin bir tırmanış işareti vermediğinden ek güvenli liman des
+GPT (gpt-6-luna): puan **+0.68**, güven 0.62 — Qeshm Adası’na ABD saldırısı ve Yemen’deki ölümcül saldırı yakın vadeli güvenli liman talebini artırabilir; doların dört haftalık dipleri test etmesi de altını destekliyor. Ancak seçim kaynaklı hareketlerin büyük ölçüde fiyatlanmış olma ihtimali ve haber akışındaki çelişkiler güveni sınırlıyor.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 16:18 | PAXGUSDT | long | -55.92 $ | stop |
 | 04.11 15:32 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 14:58 | PAXGUSDT | long | -55.92 $ | stop |
 | 04.11 12:17 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 11:07 | PAXGUSDT | long | +69.05 $ | take profit |
-| 04.11 09:39 | PAXGUSDT | long | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,9 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 14:40 N  GPT  score +0.55 conf 0.64: Doların seçim sonrası zayıflaması ve Hazine getirilerindeki düşüş, altını kısa vadede destekliyor; fiyatın 4.000 doların üzerine çıkması da bu tepkiyi doğruluyor. Hareketin önemli kısmı başlıklara yansımış olabilir ve yaklaşan ABD istihdam verisi oynaklık yaratabilir.
-04.11 14:52 N  NEWS (23 new) score +0.40 conf 0.50: Demokratların Kongre zaferi sonrası dolar endeksinin 1 aylık dibe (101.41) gerilemesi ve büyüme endişeleri altın için 1-4 saatlik vadede olumlu. Ancak haberlerin büyük kısmı fiyatlanmış durumda (altın 4.000 doları aştı), ayrıca ETF/tahvil getirilerinin toparlanmayı sınırladığına dair çelişkili notlar var; bu nedenle güven orta düzeyde.
-04.11 14:52 N  GPT  score +0.48 conf 0.62: Demokratların Kongre zaferi sonrası doların zayıflaması ve altının 4.000 doların üzerine çıkması kısa vadede altını destekliyor. Ancak bu tepkinin önemli bölümü zaten fiyatlanmış olabilir; İran savaşı başlıkları da yeni bir tırmanıştan çok mevcut belirsizliği yansıtıyor.
 04.11 14:58 B5  CLOSE long stop: -55.92 USD
 04.11 15:09 N  NEWS (12 new) score +0.50 conf 0.55: Demokratların Kongre'yi kazanmasıyla dolar zayıfladı, dolar endeksi bir aylık dibe indi ve Treasury getirileri geriledi; bu altın için net olarak destekleyici. Ancak altın zaten 4.000 doları aştığı için bir kısmı fiyatlanmış durumda ve bazı yorumlar yükselişin sona erebileceğini belirtiyor, bu da güveni sınırlıyor.
 04.11 15:09 N  GPT  score +0.55 conf 0.58: Demokratların seçim zaferi sonrası doların gerilemesi ve tahvil rallisinin getirileri düşürmesi altını kısa vadede destekliyor; İran savaşı kaynaklı belirsizlik de güvenli liman talebini artırabilir. Ancak altın 4.000 dolar seviyesini zaten yeniden aşmış görünüyor ve haberler büyük ölçüde aynı geliş
@@ -101,6 +96,9 @@ Son işlemler:
 04.11 15:39 B5  LONG gold 25000 USD x10 @ 4039.62 (TP 4051.74, SL 4031.54; news +0.36)
 04.11 15:45 N  NEWS (10 new) score +0.35 conf 0.50: ABD ara seçimlerinde Demokratların güçlenmesi doların bir aylık en düşük seviyeye gerilemesine ve Treasury getirilerinin baskılanmasına yol açtı; bu, altın için olumlu bir etki. Ancak İran ile müzakere beklentileri jeopolitik korku primini azaltabileceği için etki sınırlı ve kısa vadede karışık.
 04.11 15:45 N  GPT  score +0.32 conf 0.46: Demokratların ara seçim zaferi sonrası doların ve Hazine getirilerinin gerilemesi altını kısa vadede destekliyor; altının 4.000 dolar üzerine dönmesi bu gelişmelerin bir kısmının zaten fiyatlandığını gösteriyor. İran başlıkları yeni ve belirgin bir tırmanış işareti vermediğinden ek güvenli liman des
+04.11 16:20 B5  CLOSE long stop: -55.92 USD
+04.11 16:20 N  NEWS (27 new) score +0.50 conf 0.50: Dolar endeksi, ABD ara seçim sonuçlarının ardından dört haftalık dibe yakın geriledi ve bu altını destekliyor. Ayrıca ABD'nin İran'ın Qeshm Adası'nı vurduğu haberi jeopolitik risk primini artırarak güvenli liman talebini canlandırabilir. Ancak dolar düşüşü ve seçim sonucu kısmen fiyatlanmış durumda, bu nedenle güven orta düzeyde tutuldu.
+04.11 16:20 N  GPT  score +0.68 conf 0.62: Qeshm Adası’na ABD saldırısı ve Yemen’deki ölümcül saldırı yakın vadeli güvenli liman talebini artırabilir; doların dört haftalık dipleri test etmesi de altını destekliyor. Ancak seçim kaynaklı hareketlerin büyük ölçüde fiyatlanmış olma ihtimali ve haber akışındaki çelişkiler güveni sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
