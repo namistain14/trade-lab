@@ -1141,6 +1141,10 @@
    [
     1793788681,
     5000.0
+   ],
+   [
+    1793788860,
+    5000.0
    ]
   ],
   "archive": [
@@ -11233,6 +11237,10 @@
    [
     1793788681,
     4868.5
+   ],
+   [
+    1793788860,
+    4868.5
    ]
   ],
   "news": {
@@ -14015,8 +14023,6 @@
   ]
  },
  "log": [
-  "03.11 08:41 A  SHORT ETHUSDT 4712 USD x3 @ 2249.42 (ters sinyal, RSI 42)",
-  "03.11 08:41 A  SHORT SOLUSDT 2356 USD x3 @ 91.87 (ters sinyal, RSI 40)",
   "03.11 08:47 N  NEWS (9 new) score +0.15 conf 0.35: Hormuz ve Qeshm Adas\u0131'ndaki patlama ve ABD sald\u0131r\u0131 haberleri jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini hafif destekleyerek alt\u0131n\u0131 yukar\u0131 \u00e7ekebilir. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, d\u00fc\u015f\u00fck petrol kaynakl\u0131 enflasyon kayg\u0131s\u0131n\u0131n azalmas\u0131 ve ABD dolar\u0131ndaki olas\u0131 g\u00fc\u00e7 kar\u0131\u015f\u0131k sinyal veriyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya \u00e7eli\u015fkili (\u00f6r. 5.000 dolar iddias\u0131), bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
   "03.11 08:47 N  GPT  score +0.48 conf 0.54: H\u00fcrm\u00fcz yak\u0131n\u0131ndaki \u0130ran patlamalar\u0131 ve ABD sald\u0131r\u0131s\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak Fed faiz art\u0131\u015f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lad\u0131\u011f\u0131 y\u00f6n\u00fcndeki haberler ve \u00e7at\u0131\u015fman\u0131n \u201cyumu\u015fak sava\u015f\u201d diye nitelenmesi y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
   "03.11 08:59 N  NEWS (7 new) score -0.10 conf 0.35: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve alt\u0131n\u0131n 3.950 dolar\u0131n alt\u0131na gerilemesi k\u0131sa vadede bask\u0131 yarat\u0131yor; ABD'nin H\u00fcrm\u00fcz'de sald\u0131r\u0131 haberleri ise g\u00fcvenli liman talebini destekleyebilir. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck, etki hafif negatif.",
@@ -14314,7 +14320,9 @@
   "04.11 13:26 N  NEWS (14 new) score +0.40 conf 0.55: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131fl\u0131yor ve Hazine tahvil faizleri geriliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede destekleyici bir etki. Jeopolitik tarafta \u0130ran-ABD gerilimi ve Husi f\u00fcze sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini hafif\u00e7e art\u0131rabilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
   "04.11 13:26 N  GPT  score +0.65 conf 0.68: Dolar\u0131n gerilemesi ve d\u00fc\u015f\u00fck tahvil getirileri alt\u0131n\u0131 k\u0131sa vadede destekliyor; Houthis sald\u0131r\u0131s\u0131 ve Irak\u2019taki gerilim kayg\u0131lar\u0131 da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n bu haberlerle zaten s\u0131\u00e7ram\u0131\u015f olmas\u0131, hareketin bir k\u0131sm\u0131n\u0131n fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor.",
   "04.11 13:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar zay\u0131flarken ve tahvil getirileri d\u00fc\u015ferken alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, k\u0131sa vadede alt\u0131n\u0131 destekleyen net bir etken. Ancak \u0130ran sava\u015f\u0131na kar\u015f\u0131 tepkinin g\u00fcvenli liman talebini azaltabilece\u011fi, cuma g\u00fcnk\u00fc istihdam raporunun riski ve baz\u0131 analistlerin 3.500 dolar \u00f6ng\u00f6r\u00fcs\u00fc nedeniyle g\u00fcven orta d\u00fczeyde tutuldu.",
-  "04.11 13:38 N  GPT  score +0.62 conf 0.68: Dolar\u0131n gerilemesi ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekleyen ba\u015fl\u0131ca etkenler; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 da belirtiliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f olabilir ve istihdam verisi \u00f6ncesi temkin, y\u00fckseli\u015fi s\u0131n\u0131rlayabilir."
+  "04.11 13:38 N  GPT  score +0.62 conf 0.68: Dolar\u0131n gerilemesi ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n\u0131 destekleyen ba\u015fl\u0131ca etkenler; haber ak\u0131\u015f\u0131nda alt\u0131n\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 da belirtiliyor. Ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f olabilir ve istihdam verisi \u00f6ncesi temkin, y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
+  "04.11 13:41 B5P  NEWS (45 new) score +0.15 conf 0.40: Haberler \u00e7eli\u015fkili: \u0130ran'\u0131n H\u00fcrm\u00fcz'de d\u00f6rt tankerin may\u0131nlarla vuruldu\u011funu \u00f6ne s\u00fcrmesi ve petrol fiyatlar\u0131ndaki H\u00fcrm\u00fcz arz riskleri fiyat\u0131 yukar\u0131 iter; buna kar\u015f\u0131l\u0131k Brent'in \u0130ran m\u00fczakereleri nedeniyle 4 haftal\u0131k dibe inmesi ve ABD-\u0130ran aras\u0131nda anla\u015fman\u0131n h\u00e2l\u00e2 uzak olmas\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 yarat\u0131r. Tanker iddias\u0131 do\u011frulanmam\u0131\u015f oldu\u011fu i\u00e7in net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck.",
+  "04.11 13:41 B5P  GPT  score +0.35 conf 0.43: H\u00fcrm\u00fcz\u2019de d\u00f6rt tankerin may\u0131na \u00e7arpt\u0131\u011f\u0131 iddias\u0131 ve \u0130ran-ABD g\u00f6r\u00fc\u015fmelerindeki t\u0131kanma, k\u0131sa vadeli arz riskini art\u0131rarak Brent\u2019i destekleyebilir. Ancak tanker haberleri hen\u00fcz do\u011frulanm\u0131\u015f de\u011fil ve Brent\u2019in g\u00f6r\u00fc\u015fmeler beklentisiyle geriledi\u011fine dair \u00e7eli\u015fkili ba\u015fl\u0131klar y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -21399,6 +21407,10 @@
    [
     1793788681,
     4963.78
+   ],
+   [
+    1793788860,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -28411,6 +28423,10 @@
    [
     1793788681,
     4975.18
+   ],
+   [
+    1793788860,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -35389,6 +35405,10 @@
    [
     1793788681,
     4993.28
+   ],
+   [
+    1793788860,
+    4993.28
    ]
   ]
  },
@@ -42204,6 +42224,10 @@
    [
     1793788681,
     4969.22
+   ],
+   [
+    1793788860,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -48155,6 +48179,10 @@
    [
     1793788681,
     4889.99
+   ],
+   [
+    1793788860,
+    4882.45
    ]
   ],
   "news_calls": {
@@ -54936,6 +54964,10 @@
    [
     1793788681,
     102491.32
+   ],
+   [
+    1793788860,
+    102491.32
    ]
   ],
   "open": {},
@@ -59986,77 +60018,81 @@
    [
     1793788681,
     5066.43
+   ],
+   [
+    1793788860,
+    5066.43
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Bask\u0131n haber ak\u0131\u015f\u0131 \u0130ran ile bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine ve H\u00fcrm\u00fcz Bo\u011faz\u0131'n\u0131n iki g\u00fcn i\u00e7inde yeniden a\u00e7\u0131labilece\u011fi ihtimaline i\u015faret ediyor; bu, sava\u015f primini h\u0131zla eritip Brent'i a\u015fa\u011f\u0131 \u00e7ekiyor (piyasada %7'ye varan d\u00fc\u015f\u00fc\u015f bildirildi). Kazakistan'\u0131n Samara hatt\u0131ndaki ta\u015f\u0131may\u0131 durdurmas\u0131 ve Hindistan'daki rafineri yang\u0131n\u0131 gibi arz kaynakl\u0131 yukar\u0131 y\u00f6nl\u00fc riskler var, ancak bunlar m\u00fczakere iyimserli\u011finin gerisinde kal\u0131yor; Goldman'\u0131n hedef art\u0131\u015f\u0131 ise uzun vadeli bir sinyal.",
+   "score": 0.15,
+   "confidence": 0.4,
+   "reason": "Haberler \u00e7eli\u015fkili: \u0130ran'\u0131n H\u00fcrm\u00fcz'de d\u00f6rt tankerin may\u0131nlarla vuruldu\u011funu \u00f6ne s\u00fcrmesi ve petrol fiyatlar\u0131ndaki H\u00fcrm\u00fcz arz riskleri fiyat\u0131 yukar\u0131 iter; buna kar\u015f\u0131l\u0131k Brent'in \u0130ran m\u00fczakereleri nedeniyle 4 haftal\u0131k dibe inmesi ve ABD-\u0130ran aras\u0131nda anla\u015fman\u0131n h\u00e2l\u00e2 uzak olmas\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 yarat\u0131r. Tanker iddias\u0131 do\u011frulanmam\u0131\u015f oldu\u011fu i\u00e7in net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
    "gpt": {
-    "score": -0.78,
-    "confidence": 0.82,
-    "reason": "ABD-\u0130ran ate\u015fkes g\u00f6r\u00fc\u015fmeleri ve \u0130ran\u2019\u0131n anla\u015fma kapsam\u0131nda H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019n\u0131 yeniden a\u00e7abilece\u011fi haberleri yak\u0131n vadeli arz kesintisi riskini azalt\u0131yor; petrol\u00fcn %7\u2019den fazla d\u00fc\u015fmesi bu beklentinin fiyatland\u0131\u011f\u0131n\u0131 g\u00f6steriyor. Kazakistan\u2019\u0131n petrol transitini durdurmas\u0131 s\u0131n\u0131rl\u0131 bir kar\u015f\u0131 unsur, ancak k\u0131",
+    "score": 0.35,
+    "confidence": 0.43,
+    "reason": "H\u00fcrm\u00fcz\u2019de d\u00f6rt tankerin may\u0131na \u00e7arpt\u0131\u011f\u0131 iddias\u0131 ve \u0130ran-ABD g\u00f6r\u00fc\u015fmelerindeki t\u0131kanma, k\u0131sa vadeli arz riskini art\u0131rarak Brent\u2019i destekleyebilir. Ancak tanker haberleri hen\u00fcz do\u011frulanm\u0131\u015f de\u011fil ve Brent\u2019in g\u00f6r\u00fc\u015fmeler beklentisiyle geriledi\u011fine dair \u00e7eli\u015fkili ba\u015fl\u0131klar y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri h\u0131zlan\u0131yor",
-     "\u0130ran, anla\u015fma halinde H\u00fcrm\u00fcz\u2019\u00fc a\u00e7abilece\u011fini s\u00f6yl\u00fcyor",
-     "Kazakistan Atyrau-Samara hatt\u0131ndaki ak\u0131\u015f\u0131 ask\u0131ya ald\u0131"
+     "\u0130ran\u2019\u0131n H\u00fcrm\u00fcz\u2019de d\u00f6rt tankerin may\u0131na \u00e7arpt\u0131\u011f\u0131 iddias\u0131",
+     "\u0130ran-ABD anla\u015fma g\u00f6r\u00fc\u015fmelerinde belirgin uzla\u015fmazl\u0131k",
+     "Brent\u2019in d\u00fc\u015f\u00fc\u015f ve toparlanma bildirimleri \u00e7eli\u015fkili"
     ],
     "model": "gpt-6-luna"
    },
-   "ts": 1793650074146,
+   "ts": 1793788859490,
    "new_headlines": 45
   },
   "news_calls": {
    "date": "2026-11-04",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China - Crude Oil Prices Today | OilPrice.com",
-   "Natural Gas Futures Market Holds Its Breath as Weak Weather and War Risk Collide - Natural Gas Intelligence",
-   "Brent Venables gives Jason Witten his chance to prove himself as OC material - Stormin in Norman",
-   "Iran war latest: Tehran holding intensive talks with mediators, foreign minister says - The National",
-   "Woman Linked to Tony Parker Cheating Scandal With Eva Longoria Dies by Suicide - TMZ",
-   "Berry Tramel: Ben Arbuckle only a symptom of the problem with Brent Venables\u2019 OU program - Tulsa World",
-   "Trump to Axios: \"No rush\" to decide on restarting war in Iran - Axios",
-   "Breakfast with the 'Holy War': BYU to play Utah at early 10 a.m. kickoff - BYU Daily Universe",
-   "US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields - marketscreener.com",
-   "Sugar Prices Retreat as Crude Oil Plunges - Barchart.com",
-   "Las Vegas artist Brent Holmes and chef Natalie Young saddle up for 'The Black Cowboy' experience - Las Vegas Weekly",
-   "\ud83c\uddee\ud83c\uddf3 Massive FIRE ERUPTS at Indian oil refinery after reported explosion The blaze hit HPCL\u2019s Visakhapatnam facility near a tank holding pitch oil, used in bitumen production. Firefighters responded, with reports now saying the blaze is under control. The caus - X",
-   "Kazakhstan halts oil transit to Russia after drone attack on Samara - The New Voice of Ukraine",
-   "Update: US Equity Indexes Rise Amid Sinking Crude Oil, Treasury Yields - Yahoo Finance",
-   "Immigration, economy, campaign spending: We answered your US midterm questions - The Guardian",
-   "Georgia Tech football's slide costs Brent Key contract extension - The Atlanta Journal-Constitution",
-   "$1 Million Criminal Penalty for Sanctions and Export Violations - Sandler, Travis & Rosenberg, P.A.",
-   "ExxonMobil shares drop as crude oil prices tumble - StreetInsider",
-   "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Dives As Khamenei Gives Iranian Officials Powers To Hold Peace Talks - FXEmpire",
-   "Why are oil prices so high? - The Times",
-   "Carney\u2019s Push to Fast-Track Pipeline Faces Mounting Indigenous Lawsuits - Bloomberg.com",
-   "Pinched ammonia supplies from Trinidad add to US farmer pain ahead of elections - Reuters",
-   "Iran Says It Would Reopen Strait of Hormuz in 2 Days as Part of U.S. Deal - The New York Times",
-   "Kazakhstan Suspends Oil Pumping via Atyrau-Samara Pipeline - Caspian Post",
-   "Iran pushing accelerated plan for ceasefire talks with US - Al Jazeera",
-   "West of Suez: Brent slides, LSGO cracks extend gains - Quantum Commodity Intelligence",
-   "Don\u2019t read too much into these midterms - The Washington Post",
-   "How Long Will Europe Stay Silent While Netanyahu Seeks to Wage Another War? - Haaretz",
-   "Trump floats revival of Keystone XL pipeline in potential Canada-U.S. trade deal - play 103.7",
-   "Israel hopes third Iran war will differ from Gaza conflict with Hamas - The Jerusalem Post",
-   "Massive fire breaks out at oil refinery in India's Visakhapatnam - Anadolu Ajans\u0131",
-   "New book examines Biden's response to Israel's war in Gaza - WBUR",
-   "Brent Allen Shirley - Chattanoogan.com Breaking News",
-   "Goldman Sachs raises Brent forecast to $105 as global oil supply risks persist - Oil & Gas 360",
-   "US Natural Gas Rises on Lower Appalachian Output, Cooler Weather - Bloomberg.com",
-   "The internet's latest obsession: The end of the world - Axios",
-   "Photos | Bayside Historical Society hosts Civil War Living History event - QNS.com",
-   "Oil Declines Ahead of Midterm Elections Despite Hormuz Attacks - Bloomberg.com",
-   "Brent Oil tests 200 SMA as bearish momentum accelerates: Live - Investing.com",
-   "Kuwait turns up the volume on oil production despite Hormuz threats - Baird Maritime",
-   "Trump reportedly in no rush to decide whether to resume war with Iran - The Times of Israel",
-   "Crude oil sinks more than 7% as U.S.-Iran peace talks ease war fears - Quartz",
-   "Lockheed Martin to invest $420M in Arkansas missile production expansion (LMT:NYSE) - Seeking Alpha",
-   "Strained, Not Broken: Saudi Arabia Hedges as War Tests Alliance With US - The Well News",
-   "Ft. Ticonderoga shows what a Revolutionary War skirmish would've sounded like - NCPR: North Country Public Radio"
+   "Wide differences keep Iran, US far from agreement to end war - The Arab Weekly",
+   "France opens war crimes probe into deadly Israeli strike in Beirut - The Arab Weekly",
+   "Lebanon PM warns Hezbollah against dragging country into another war - The Times of Israel",
+   "Oil Prices Rebound as Strait of Hormuz Supply Risks Persist - JournalArta",
+   "Ukraine\u2019s war veteran challenge - Chatham House",
+   "\u2018Trump lost the war and politics\u2019: Iran mocks US midterm election defeat - Ynetnews",
+   "Should Prabowo call Putin to stop Indonesians from fighting in Ukraine? - South China Morning Post",
+   "Brent hits 4-week low on Iran talks - Oil & Gas Middle East",
+   "A war, a gas pump, and a broken promise just flipped red states - T\u00fcrkiye Today",
+   "Culture-war arguments: No, that\u2019s not how any of this works - The Arkansas Democrat-Gazette",
+   "Iran Says Four Oil Tankers Destroyed by Mines Near Strait of Hormuz - Crude Oil Prices Today | OilPrice.com",
+   "Energy Transfer sanctions $1.6bn South Mississippi pipeline project - Offshore Technology",
+   "EIA: global refinery inputs fell sharply in 2Q26 before modest recovery - Hydrocarbon Engineering",
+   "Fears of Armed Factions Spiraling Out of Control in Renewed War Spur Iraqi Contacts - ASHARQ AL-AWSAT English",
+   "Why Are Indonesians Dying in Ukraine? - Foreign Policy",
+   "Iran says Americans rejected Trump\u2019s war as the world reacts to the Midterms rout - NBC News",
+   "Carroll County historian honored for preserving Revolutionary War history - Carroll County Comet",
+   "Bishop raises plight of Christians caught in Sudanese civil war - www.christiantoday.com",
+   "Brent declines as markets await US next move in Middle East conflict - https://www.engine.online/",
+   "Aramco explores East-West Pipeline expansion, new export routes and overseas storage - Oil & Gas Middle East",
+   "Surface-to-Air Missile Defense Deployed at Trump Airport and Mar-a-Lago - The Presidential Prayer Team",
+   "US attack raises questions on war - The Arkansas Democrat-Gazette",
+   "Indian refiner hedges Iran conflict freight risks with delivered crude - Baird Maritime",
+   "Four oil tankers destroyed in Hormuz after hitting mines, Tehran says - Modern Ghana",
+   "Ghalibaf: Americans Voted \u201cNo to War\u201d... - Jordan News",
+   "Iran Claims Four 'Offending' Oil Tankers Hit Naval Mines, US MQ-9 Drone Downed In Strait Of Hormuz - The Times of India",
+   "Trump acknowledged the impact of the war with Iran and fuel prices on the defeat in the congressional elections - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+   "Multiple Agencies Investigate Suspicious Activity Near Gas Pipeline in Bergen County - RLS Media",
+   "European gas rises as U.S. midterms and stalled Hormuz talks cloud outlook - Investing.com",
+   "Hormuz Tensions Keep Global Shipping and Oil Markets Under Pressure - Global Trade Magazine",
+   "Gears of War: E-Day $500 Million: Schreier Says Real [2026] - shattered.io",
+   "Democrats Set to Ramp Up Iran War Scrutiny After Midterm Gains - Bloomberg Government News",
+   "Iran's Araghchi regularly seeks talks amid efforts to avert renewed war, Germany says - Iran International",
+   "Trump acknowledges Iran war\u2019s electoral cost after Democratic sweep - The Arab Weekly",
+   "Poundland supplier 'will lose millions' if retailer collapses",
+   "Russia Keeps Building Missiles Despite Sanctions, Amassing Up to 700 Ballistic Missiles by October 2026 - UNITED24 Media",
+   "Trump, conceding stunning midterm loss, admits Iran war and gas prices hurt Republicans - The Times of Israel",
+   "Europe\u2019s wave of aviation bomb hoaxes puts war risk and terrorism cover in focus - Insurance Business",
+   "Iran war, Epstein, impeachment? What will Democrats do with control of Congress? - France 24",
+   "What next for Iran war after Trump's midterms defeat? - France 24",
+   "World War II love letter gives special glimpse of the past for one local family - Your Observer",
+   "U.S.-Ukraine-Russia Will Resume Talks to End War in UAE - The Presidential Prayer Team",
+   "How the midterm results will affect the Iran war - The Times",
+   "Oil rises on Iran war uncertainty after Trump's Republicans face election rout - Deccan Herald",
+   "San Francisco\u2019s forever war over the Great Highway is over \u2014 probably - The San Francisco Standard"
   ],
   "news_history": [
    {
@@ -60076,6 +60112,15 @@
     "new": 45,
     "gpt_score": -0.78,
     "gpt_confidence": 0.82
+   },
+   {
+    "ts": 1793788859490,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "Haberler \u00e7eli\u015fkili: \u0130ran'\u0131n H\u00fcrm\u00fcz'de d\u00f6rt tankerin may\u0131nlarla vuruldu\u011funu \u00f6ne s\u00fcrmesi ve petrol fiyatlar\u0131ndaki H\u00fcrm\u00fcz arz riskleri fiyat\u0131 yukar\u0131 iter; buna kar\u015f\u0131l\u0131k Brent'in \u0130ran m\u00fczakereleri nedeniyle 4 haftal\u0131k dibe inmesi ve ABD-\u0130ran aras\u0131nda anla\u015fman\u0131n h\u00e2l\u00e2 uzak olmas\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 yarat\u0131r. Tanker iddias\u0131 do\u011frulanmam\u0131\u015f oldu\u011fu i\u00e7in net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 45,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.43
    }
   ]
  }
