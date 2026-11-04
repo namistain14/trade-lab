@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 18:44 (İstanbul)
+> Son güncelleme: 04.11.2026 18:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %57.1 | %42.1 |
 | Ödenen komisyon/spread | 166.20 $ | 451.79 $ |
 
-**Hesap değeri: 4,874.05 $** (başlangıç 5,000 $, -125.95 $ / %-2.52)
+**Hesap değeri: 4,868.13 $** (başlangıç 5,000 $, -131.87 $ / %-2.64)
+
+Açık pozisyonlar: PAXGUSDT long @ 4038.08 (TP 4050.19 / SL 4030.00)
 
 Son haber analizi (04.11 18:38): Claude puan **+0.40**, güven 0.50 — Yeni haberlerde ABD dolarının zayıflaması ve altın fiyatının bu güne kadarki en büyük günlük artışa yönelmesi kısa vadede altın için olumlu. Buna karşın ara seçim sonuçlarının İran savaşına karşı tepkiyi göstermesi jeopolitik korku primini azaltabilir ve bazı yükselişler zaten fiyatlanmış olabilir; bu nedenle güven orta düzeyde tutuldu.
 
@@ -69,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %28.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,210.07 $** (başlangıç 100,000 $, +5210.07 $ / %+5.21)
+**Hesap değeri: 105,078.79 $** (başlangıç 100,000 $, +5078.79 $ / %+5.08)
 
 Açık pozisyonlar: AAPL long @ 353.72 (TP 359.08 / SL 350.23); NVDA short @ 204.19 (TP 201.35 / SL 206.46); SPY long @ 763.34 (TP 774.83 / SL 755.75); TSLA long @ 386.41 (TP 391.60 / SL 381.95)
 
@@ -86,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 17:55 B6  karar turu: Claude «Seçim sonrası endeksler güçlü yükselişte olsa da zayıf PMI verisi ve yapay zeka/veri merkezi endişeleri hisse bazında ayrışma yaratıyor.» / GPT «Endekslerde yükseliş sürse de son ivme kaybı ve beklenti altı PMI verileri nedeniyle kaldıraçlı yeni işlemlerde belirgin göreli zayıflığa odaklanıyorum.»
 04.11 17:55 B6  AÇIĞA SATIŞ NVDA 508 adet ≈ 103,845 $ (1:4) @ 204.42 (TP 201.35, SL 206.46; ikisi de hemfikir, güven 0.55)
 04.11 17:57 B5  CLOSE long stop: -55.92 USD
 04.11 18:06 N  NEWS (8 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından doların zayıflaması ve tahvil faizlerinin düşmesi altın için destekleyici; İran savaşının yeniden başlama korkuları da güvenli liman talebini artırabilir. Ancak dolar zayıflığı ve faiz düşüşü haberleri büyük ölçüde fiyatlanmış durumda (altın 4.000 doların üzerine çıkmış), petrol düşüşü ve Fed bağımsızlığına dair belirsizlik ise karışık sinyaller veriyor.
@@ -101,6 +102,7 @@ Son işlemler:
 04.11 18:39 N  GPT  score +0.55 conf 0.58: Zayıflayan dolar ve seçim sonuçları sonrası artan güvenli liman talebi kısa vadede altını destekliyor; altının gün içindeki yükselişi de bu yönü doğruluyor. Ancak haber akışının önemli kısmı tekrarlı ve hizmet enflasyonunun yüksek kalması kazanımları sınırlayabilir.
 04.11 18:39 B6  karar turu: Claude «Endeksler seçim sonrası güçlü açılışın ardından yatay konsolide oluyor, yapay zeka hisseleri baskı altında, Apple ise şirkete özgü haberlerle ayrışıyor.» / GPT «Endeksler güçlü günlük yükselişin ardından yataylaşırken, önümüzdeki 1–3 saatte geniş piyasa yerine belirgin göreli güç gösteren hisselerde seçici alım daha uygun.»
 04.11 18:39 B6  ALIŞ AAPL 242 adet ≈ 85,612 $ (1:4) @ 353.77 (TP 359.08, SL 350.23; ikisi de hemfikir, güven 0.55)
+04.11 18:47 B5  LONG gold 25000 USD x10 @ 4038.08 (TP 4050.19, SL 4030.00; news +0.48)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
