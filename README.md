@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 08:51 (İstanbul)
+> Son güncelleme: 04.11.2026 08:54 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +26.17 $ | -316.58 $ |
-| İşlem sayısı | 4 | 28 |
-| Kazanma oranı | %50.0 | %35.7 |
-| Ödenen komisyon/spread | 47.60 $ | 333.19 $ |
+| Net kâr/zarar | +95.21 $ | -247.54 $ |
+| İşlem sayısı | 5 | 29 |
+| Kazanma oranı | %60.0 | %37.9 |
+| Ödenen komisyon/spread | 59.47 $ | 345.07 $ |
 
-**Hesap değeri: 4,736.95 $** (başlangıç 5,000 $, -263.05 $ / %-5.26)
-
-Açık pozisyonlar: PAXGUSDT long @ 3989.30 (TP 4001.27 / SL 3981.32)
+**Hesap değeri: 4,752.46 $** (başlangıç 5,000 $, -247.54 $ / %-4.95)
 
 Son haber analizi (04.11 08:45): Claude puan **+0.50**, güven 0.60 — ABD ara seçim sonuçlarıyla dolar endeksi Eylül'ün son haftasındaki en düşük seviyelere geriledi ve altın yükseldi. Ayrıca İran'a yönelik ABD saldırıları ve Hürmüz gerilimi jeopolitik risk primini destekliyor. Ancak haberlerin büyük kısmı zaten fiyatlanmış olabilir ve Fed beklentileri ile enflasyon tarafında yeni bir sürpriz yok, bu yüzden güven orta düzeyde.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 04.11 08:52 | PAXGUSDT | long | +69.05 $ | take profit |
 | 04.11 08:32 | PAXGUSDT | long | +69.04 $ | take profit |
 | 04.11 07:50 | PAXGUSDT | long | +69.04 $ | take profit |
 | 04.11 06:01 | PAXGUSDT | long | -55.94 $ | stop |
 | 04.11 01:49 | PAXGUSDT | short | -55.96 $ | stop |
-| 03.11 23:04 | PAXGUSDT | short | +69.06 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 07:49 N  GPT  score +0.58 conf 0.66: İran’ın ABD’nin Hürmüz planına yanıtını yetersiz bulması ve Trump’ın saldırıları doğrulaması, kısa vadede güvenli liman talebini artırabilir. Doların seçim sonuçlarıyla zayıflaması da altını destekliyor; ancak çelişkili altın haberleri ve hareketin kısmen fiyatlanmış olma ihtimali yükselişi sınırlıy
 04.11 07:55 B5  LONG gold 25000 USD x10 @ 3960.40 (TP 3972.28, SL 3952.48; news +0.39)
 04.11 08:02 N  NEWS (10 new) score +0.25 conf 0.40: Doların ABD ara seçim sonrası sert zayıflaması ve İran'daki çatışmanın tırmanması (ABD saldırıları, Hürmüz gerginliği) altına kısa vadede destek veriyor. Ancak güçlü istihdam verisinin faiz artırımı beklentilerini körüklemesi ve bazı haberlerde altının değer kaybetmesi bu etkiyi sınırlıyor, bu yüzden güven düşük tutuldu.
 04.11 08:02 N  GPT  score +0.32 conf 0.43: İran’ın Hürmüz planına olumsuz yanıt vermesi ve ABD saldırılarını doğrulaması güvenli liman talebini destekleyebilir; doların seçim sonuçlarıyla zayıflaması da altına olumlu. Ancak istihdam verileri kaynaklı faiz artırımı beklentileri baskı yaratıyor ve haber akışı çelişkili olduğundan etki sınırlı,
@@ -101,6 +98,7 @@ Son işlemler:
 04.11 08:45 N  NEWS (19 new) score +0.50 conf 0.60: ABD ara seçim sonuçlarıyla dolar endeksi Eylül'ün son haftasındaki en düşük seviyelere geriledi ve altın yükseldi. Ayrıca İran'a yönelik ABD saldırıları ve Hürmüz gerilimi jeopolitik risk primini destekliyor. Ancak haberlerin büyük kısmı zaten fiyatlanmış olabilir ve Fed beklentileri ile enflasyon tarafında yeni bir sürpriz yok, bu yüzden güven orta düzeyde.
 04.11 08:45 N  GPT  score +0.55 conf 0.57: İran savaşındaki gerilim ve olası tırmanma güvenli liman talebini desteklerken, doların seçim sonuçları sonrası zayıflaması altın için olumlu. Ancak haberlerin bir kısmı fiyatlara yansımış olabilir ve dolar hareketi konusunda çelişkili başlıklar güveni sınırlıyor.
 04.11 08:45 B5  LONG gold 25000 USD x10 @ 3989.30 (TP 4001.27, SL 3981.32; news +0.53)
+04.11 08:54 B5  CLOSE long take profit: +69.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
