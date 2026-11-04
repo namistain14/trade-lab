@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 04.11.2026 11:11 (İstanbul)
+> Son güncelleme: 04.11.2026 11:15 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %62.5 | %40.6 |
 | Ödenen komisyon/spread | 95.07 $ | 380.67 $ |
 
-**Hesap değeri: 4,834.64 $** (başlangıç 5,000 $, -165.36 $ / %-3.31)
+**Hesap değeri: 4,828.71 $** (başlangıç 5,000 $, -171.29 $ / %-3.43)
 
-Son haber analizi (04.11 11:03): Claude puan **+0.60**, güven 0.60 — Demokratların Kongre'yi kazanması doların zayıflamasına ve altının %2'nin üzerinde yükselip 4.000 doların üstüne çıkmasına yol açtı; ayrıca İran'ın "total war" ilanı, Hormuz'da mayınla tanker imhası ve ABD saldırı onayı jeopolitik risk primini destekliyor. Ancak yükseliş kısmen fiyatlanmış olabilir ve yaklaşan istihdam verisi ile petrol oynaklığı kısa vadede geri dönüş riski yaratıyor.
+Açık pozisyonlar: PAXGUSDT long @ 4034.05 (TP 4046.15 / SL 4025.98)
 
-GPT (gpt-6-luna): puan **+0.68**, güven 0.62 — Demokratların ara seçimlerdeki başarısı sonrası dolar ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran-Hürmüz gerilimi de güvenli liman talebini artırabilir. Ancak haberlerde doların kısmen toparlandığı ve seçim kaynaklı hareketin zaten fiyatlanmış olabileceği belirtiliyor.
+Son haber analizi (04.11 11:15): Claude puan **+0.45**, güven 0.60 — ABD ara seçim sonuçlarının ardından doların zayıflaması ve getirilerin düşmesi altını %2'nin üzerinde yükseltip 4.000 doların üzerine taşıdı; Hürmüz'de mayın patlamaları ve İran'a yönelik saldırılar jeopolitik risk primini de destekliyor. Ancak sert yükseliş büyük ölçüde fiyatlandı, İran müzakere beklentileri piyasayı sakinleştirmeye başladı ve bekleyen ABD istihdam verisi kısa vadede dolar ve Fed beklentileri yönünden oynaklık yaratabilir.
+
+GPT (gpt-6-luna): puan **+0.62**, güven 0.66 — Yeni seçim sonuçları sonrası doların zayıflaması ve altının yükselmesi, önümüzdeki 1-4 saat için altını destekliyor. Ancak bu hareketin önemli kısmı çoktan fiyatlanmış olabilir; İran haberleri de yönü oynaklaştırıyor.
 
 Son işlemler:
 
@@ -84,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-04.11 09:21 N  NEWS (11 new) score +0.30 conf 0.45: Demokratların ara seçimlerdeki güçlü performansı doları 5 haftanın en düşük seviyesine çekti ve bu, altın için kısa vadede destekleyici. Petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatabilir; ancak Bullard'ın Aralık faiz artırımı çağrısı sınırlı bir baskı oluşturuyor ve dolar hareketinin büyük kısmı zaten fiyatlanmış olabilir.
-04.11 09:21 N  GPT  score +0.55 conf 0.64: Doların beş haftanın dibine gerilemesi ve altının 4.000 dolara yükseldiği haberleri kısa vadede destekleyici; siyasi belirsizlik de güvenli liman talebini artırabilir. Ancak İran savaşının seçim sonrası seyri belirsiz ve Bullard’ın faiz artırımı görüşü yükselişi sınırlayabilir.
-04.11 09:46 B5  CLOSE long take profit: +69.05 USD
 04.11 09:46 N  NEWS (25 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarındaki Demokrat üstünlüğü doları 5 haftanın en düşük seviyesine indirdi ve tahvil faizlerini yumuşattı; bu, altın için kısa vadede destekleyici. Ancak bu hareketlerin büyük kısmı başlıklarda zaten fiyatlanmış görünüyor ve Bullard'ın Aralık faiz artırımı çıkışı ile İran savaşının seyri belirsizlik yaratıyor, bu nedenle güven sınırlı.
 04.11 09:46 N  GPT  score +0.58 conf 0.61: Doların beş haftalık dip seviyesine gerilemesi ve yumuşayan getiriler, altını kısa vadede destekliyor; İran savaşı kaynaklı belirsizlik de güvenli liman talebini canlı tutabilir. Ancak altındaki sert yükselişin haberlere kısmen yansımış olması ve Bullard’ın faiz artışı beklentisi güveni sınırlıyor.
 04.11 09:46 B5  LONG gold 25000 USD x10 @ 4019.76 (TP 4031.82, SL 4011.72; news +0.49)
@@ -99,6 +98,9 @@ Son işlemler:
 04.11 11:03 N  NEWS (23 new) score +0.60 conf 0.60: Demokratların Kongre'yi kazanması doların zayıflamasına ve altının %2'nin üzerinde yükselip 4.000 doların üstüne çıkmasına yol açtı; ayrıca İran'ın "total war" ilanı, Hormuz'da mayınla tanker imhası ve ABD saldırı onayı jeopolitik risk primini destekliyor. Ancak yükseliş kısmen fiyatlanmış olabilir ve yaklaşan istihdam verisi ile petrol oynaklığı kısa vadede geri dönüş riski yaratıyor.
 04.11 11:03 N  GPT  score +0.68 conf 0.62: Demokratların ara seçimlerdeki başarısı sonrası dolar ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran-Hürmüz gerilimi de güvenli liman talebini artırabilir. Ancak haberlerde doların kısmen toparlandığı ve seçim kaynaklı hareketin zaten fiyatlanmış olabileceği belirtiliyor.
 04.11 11:08 B5  CLOSE long take profit: +69.05 USD
+04.11 11:15 N  NEWS (6 new) score +0.45 conf 0.60: ABD ara seçim sonuçlarının ardından doların zayıflaması ve getirilerin düşmesi altını %2'nin üzerinde yükseltip 4.000 doların üzerine taşıdı; Hürmüz'de mayın patlamaları ve İran'a yönelik saldırılar jeopolitik risk primini de destekliyor. Ancak sert yükseliş büyük ölçüde fiyatlandı, İran müzakere beklentileri piyasayı sakinleştirmeye başladı ve bekleyen ABD istihdam verisi kısa vadede dolar ve Fed beklentileri yönünden oynaklık yaratabilir.
+04.11 11:15 N  GPT  score +0.62 conf 0.66: Yeni seçim sonuçları sonrası doların zayıflaması ve altının yükselmesi, önümüzdeki 1-4 saat için altını destekliyor. Ancak bu hareketin önemli kısmı çoktan fiyatlanmış olabilir; İran haberleri de yönü oynaklaştırıyor.
+04.11 11:15 B5  LONG gold 25000 USD x10 @ 4034.05 (TP 4046.15, SL 4025.98; news +0.54)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
