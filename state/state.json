@@ -1677,6 +1677,10 @@
    [
     1793822338,
     5000.0
+   ],
+   [
+    1793822548,
+    5000.0
    ]
   ],
   "archive": [
@@ -3529,12 +3533,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1793815200000,
-   "ETHUSDT": 1793815200000,
-   "SOLUSDT": 1793815200000,
-   "BNBUSDT": 1793815200000,
-   "XRPUSDT": 1793815200000,
-   "DOGEUSDT": 1793815200000
+   "BTCUSDT": 1793818800000,
+   "ETHUSDT": 1793818800000,
+   "SOLUSDT": 1793818800000,
+   "BNBUSDT": 1793818800000,
+   "XRPUSDT": 1793818800000,
+   "DOGEUSDT": 1793818800000
   }
  },
  "gold_news": {
@@ -12305,43 +12309,38 @@
    [
     1793822338,
     4868.5
+   ],
+   [
+    1793822548,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.3,
-   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ABD ara se\u00e7im sonu\u00e7lar\u0131 ve Vance/Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131 su\u00e7lamas\u0131 \u00fczerine; do\u011frudan alt\u0131n fiyat\u0131n\u0131 etkileyecek yeni bir jeopolitik t\u0131rmanma veya Fed s\u00fcrpriz haberi yok. Petrol fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini yumu\u015fat\u0131p hafif bir faiz indirimi beklentisi yaratabilece\u011fi i\u00e7in k\u00fc\u00e7\u00fck bir olumlu etki var; ancak sava\u015f\u0131n bitme e\u011filimi g\u00fcvenli liman talebini azaltarak bunu dengeliyor.",
+   "score": 0.25,
+   "confidence": 0.4,
+   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ara se\u00e7im sonu\u00e7lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n siyasi etkisi hakk\u0131nda olup alt\u0131n fiyat\u0131na do\u011frudan etkisi zay\u0131f. Petrol fiyat\u0131n\u0131n 90 dolar\u0131n alt\u0131na d\u00fc\u015fmesi enflasyon beklentilerini gev\u015fetebilir ve haber ak\u0131\u015f\u0131nda tahvil faizlerinin ve dolar\u0131n geriledigi belirtiliyor; bu da alt\u0131n i\u00e7in hafif olumlu. G\u00fcvenli liman talebini art\u0131racak yeni bir \u00e7at\u0131\u015fma haberi yok, bu y\u00fczden etki s\u0131n\u0131rl\u0131 kalmal\u0131.",
    "n": 45,
-   "ts": 1793821809491,
-   "new_headlines": 11,
+   "ts": 1793822532715,
+   "new_headlines": 17,
    "key_events": [
     "ABD ara se\u00e7im sonu\u00e7lar\u0131: Demokratlar\u0131n g\u00fc\u00e7l\u00fc performans\u0131 dolar\u0131 ve getirileri d\u00fc\u015f\u00fcrd\u00fc",
     "Dolar bir ayl\u0131k en d\u00fc\u015f\u00fck seviyede; alt\u0131n 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
     "\u0130ran ile m\u00fczakere beklentisi g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.35,
-    "reason": "\u0130ran sava\u015f\u0131 \u00fczerindeki siyasi bask\u0131 ve K\u00f6rfez\u2019de yeniden \u00e7at\u0131\u015fma endi\u015fesi g\u00fcvenli liman talebini destekleyebilir. Ancak petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve sava\u015f\u0131n sona erme ihtimali bu deste\u011fi s\u0131n\u0131rl\u0131yor; dolar ve faizlere ili\u015fkin do\u011frudan yeni bir sinyal yok.",
+    "score": 0.3,
+    "confidence": 0.46,
+    "reason": "USD ve getirilerin geriledi\u011fine dair haberler alt\u0131n\u0131 k\u0131sa vadede destekliyor; petrol\u00fcn sert d\u00fc\u015f\u00fc\u015f\u00fc de enflasyon ve faiz bask\u0131s\u0131n\u0131 azaltabilir. Ancak sava\u015f kaynakl\u0131 g\u00fcvenli liman talebinin zay\u0131flamas\u0131 ve ba\u015fl\u0131klar\u0131n \u00e7o\u011funun yeni geli\u015fmeden \u00e7ok siyasi yorum olmas\u0131 y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Sava\u015f nedeniyle Cumhuriyet\u00e7ilerin se\u00e7im kaybetti\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar, \u00e7at\u0131\u015fmay\u0131 bitirme bask\u0131s\u0131n\u0131 art\u0131r\u0131yor",
-     "K\u00f6rfez liderleri diplomasi t\u0131kan\u0131rken yeni ABD-\u0130ran \u00e7at\u0131\u015fmas\u0131ndan endi\u015feli",
-     "Petrol fiyatlar\u0131 sava\u015f primi azal\u0131rken sert geriledi"
+     "USD ve getiriler a\u015fa\u011f\u0131 y\u00f6nl\u00fc",
+     "Petrol 90 dolar\u0131n alt\u0131na geriledi",
+     "\u0130ran sava\u015f\u0131yla ilgili siyasi haberler yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793197266413,
-    "score": -0.1,
-    "confidence": 0.3,
-    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran'la bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri (Katar arabuluculu\u011fu, K\u00f6rfez plan\u0131) jeopolitik korku primini azalt\u0131p alt\u0131n i\u00e7in hafif olumsuz; \u00f6te yandan petrol kaynakl\u0131 enflasyon, Bank of Canada'n\u0131n faiz art\u0131r\u0131m\u0131 ve Fed'in faiz art\u0131r\u0131m\u0131n\u0131 \"\u015fimdilik\" erteledi\u011fi haberleri s\u0131k\u0131 para politikas\u0131 beklentisini canl\u0131 tutarak alt\u0131n\u0131 bask\u0131l\u0131yor. Fed karar\u0131n\u0131n tonu belirsiz oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 30,
-    "gpt_score": 0.18,
-    "gpt_confidence": 0.34
-   },
    {
     "ts": 1793200683100,
     "score": -0.25,
@@ -15032,64 +15031,70 @@
     "new": 11,
     "gpt_score": 0.15,
     "gpt_confidence": 0.35
+   },
+   {
+    "ts": 1793822532715,
+    "score": 0.25,
+    "confidence": 0.4,
+    "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ara se\u00e7im sonu\u00e7lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n siyasi etkisi hakk\u0131nda olup alt\u0131n fiyat\u0131na do\u011frudan etkisi zay\u0131f. Petrol fiyat\u0131n\u0131n 90 dolar\u0131n alt\u0131na d\u00fc\u015fmesi enflasyon beklentilerini gev\u015fetebilir ve haber ak\u0131\u015f\u0131nda tahvil faizlerinin ve dolar\u0131n geriledigi belirtiliyor; bu da alt\u0131n i\u00e7in hafif olumlu. G\u00fcvenli liman talebini art\u0131racak yeni bir \u00e7at\u0131\u015fma haberi yok, bu y\u00fczden etki s\u0131n\u0131rl\u0131 kalmal\u0131.",
+    "new": 17,
+    "gpt_score": 0.3,
+    "gpt_confidence": 0.46
    }
   ],
   "news_calls": {
    "date": "2026-11-04",
-   "n": 91
+   "n": 92
   },
   "news_seen": [
+   "Holy War game between No. 3 Utah and No. 7 BYU has evolved into one of the top FBS rivalries - kens5.com",
+   "From Data Centers, to Iran War, to Immigration: How the Blue Wave Can Boost Consumer Stocks - Barron's",
+   "Alex Garland\u2019s \u2018Civil War\u2019 Gets Second Look After Texas Turns Blue: \u201cYou Owe Him an Apology\u201d - The Hollywood Reporter",
+   "JD Vance blames Israel and Iran war for GOP\u2019s crushing defeats - The Pittsburgh Jewish Chronicle",
+   "The Republicans\u2019 Campus Culture War May Have Passed Its Peak - The Chronicle of Higher Education",
+   "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him - Reuters",
+   "Oil prices plunge after Vance post on Iran war - Axios",
+   "Book review: The Wolves of War is a moving epic that raises the bar for John Gwynne's fantasy novels - Winter is Coming",
    "Trump acknowledges Iran war contributed to Republican losses but defends military campaign - The American Bazaar",
    "Poundland owner in crunch talks as retailer's collapse looms",
+   "\u2018I\u2019d Do It Again\u2019: Trump Defends Unpopular Iran War After Monumental Republican Midterm Losses - National Review",
    "Trump said Iran war, spike in gas prices harmed Republicans in election - The Detroit News",
-   "Holy War game between No. 3 Utah and No. 7 BYU has evolved into one of the top FBS rivalries - kare11.com",
+   "Gold Price Forecast Faces December Fed Test as $3,900 Support Comes Into View - Brave New Coin",
    "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
+   "Gold is taking it clue from the USD and yields moving lower. Technicals are also giving the buyers a push. - investingLive",
+   "Gold Price in Pakistan Today: Rs 424,000/Tola (24K) | Live Sarafa Rate - Investify",
    "Vance blames Republicans\u2019 midterm losses on Iran war, cost of living - The Washington Post",
-   "Oil prices plunge after Vance post on Iran war - Axios",
    "Iran's Security Chief Says Trump Suffered Military and Political Defeats in War with Tehran - Kurdistan24",
    "Persian Gulf Leaders Fear a Renewed US-Iran War as Diplomacy Sputters - Military.com",
-   "Chuck Schumer says Democrats will end the Iran war after election victories - azcentral.com and The Arizona Republic",
+   "Vance, in break with Trump, blames Iran war for Republicans' rout - San Francisco Examiner",
+   "President Trump acknowledges Iran war impacted results of midterms - CNBC",
    "Iran war costs average household $2,150, Moody\u2019s Analytics estimates - ABC10",
    "Vance: \u2018The reason we lost is the war\u2019 - The Spokesman-Review",
    "Ukraine, US, and EU Advance Post-War Recovery Plan at Brussels Talks - UNITED24 Media",
    "Nicolas Cage, Bill Skarsgard face off in 'Lords of War' teaser trailer - upi",
    "Oil\u2019s war premium is leaking out fast \u2014 and the midterms just sped it up - Yahoo Finance",
-   "Iraq War veteran blames Iran war for GOP midterm losses, warns on MAGA future - KFOX",
    "JD Vance Blames Midterm Losses on Trump\u2019s War: \u201cEveryone Knows Why We Lost\u201d - The Hollywood Reporter",
-   "Iraq War veteran blames Iran war for GOP midterm losses, warns on MAGA future - WSMH",
+   "Iraq War veteran blames Iran war for GOP midterm losses, warns on MAGA future - WLUK",
    "Pope Leo\u2019s envoy witnesses hunger in war-torn Ukraine - Catholic Standard",
    "What the Blue Tsunami Means for the Iran War\u2014and for Pete Hegseth - Slate Magazine",
-   "Defense companies pour hundreds of millions of dollars into missile production in Camden, Arkansas - Washington Times",
-   "US says Iran helped by Turkish, Indian companies; new sanctions issued - NewsNation",
    "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war - AP News",
    "Acorn\u2019s Squire finds a diamond in the rough of Aussie gold play - Stockhead",
    "Aura Minerals earnings up next: Can margins weather gold slide? By Investing.com - Investing.com Australia",
-   "Trump speaks about Vance\u2019s social media post on Iran war - NBC News",
+   "Vance blames Iran war for massive Republican losses - NBC News",
+   "US slaps sanctions on Indian, Turkish firms and people for aiding Iran - Reuters",
    "Vance blames Iran war for Republican midterm losses - NewsNation",
-   "Trump says he has no regrets about Iran war, despite midterm rout - Washington Times",
    "Vance says the Iran war cost Republicans the midterms - Axios",
+   "Oil plunges below $90 as Vance blames Iran war for GOP losses - Quartz",
    "JD Vance says US war on Iran is \u2018real reason\u2019 Republicans lost midterm elections - The Guardian",
    "Fears of election day interference fizzle, but federal war on voter fraud could continue - Los Angeles Times",
    "Trump says Vance post blaming midterm loss on Iran war, floating change to Israel ties, is 'largely true' - The Times of Israel",
    "CAIR, CAIR Action Exit Poll: Gaza Genocide, Iran War, Economy, and Islamophobia Shaped Muslim Vote - CAIR",
    "Crowd turns out at final quarter launch - CoinWorld",
-   "Oil plunges below $90 as Vance blames Iran war for GOP losses - Quartz",
    "Election stiffens the Fed's guardrails, but independence risks remain - Reuters",
-   "After the US midterms, what will a lame duck Trump mean for the global economy? - The Guardian",
-   "Trump under pressure on Iran war after Republicans' midterms defeat - Al-Monitor",
-   "\u2018The reason we lost is the war\u2019: Vance blames midterm GOP losses Iran conflict - Military Times",
-   "Iran war cost Republicans the midterms, Trump admits as Democrats weigh Middle East policy - The National",
-   "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him - Al-Monitor",
-   "The economic drivers of US Republicans' rout at polls - France 24",
-   "Bowen: Trump's loss limits powers at home, but it will likely be different abroad - BBC",
-   "Trump says Iran war has been worth it despite election losses - The Mighty 790 KFGO",
-   "Schumer says Republicans favor ending Iran war immediately, cites \u2018power of the purse\u2019 - The Hill"
+   "JD Vance blames Iran war, Israel ties for Republican midterm losses - The Jerusalem Post"
   ]
  },
  "log": [
-  "03.11 18:50 B6  ALI\u015e QQQ 116 adet \u2248 79,676 $ (1:4) @ 686.86 (TP 697.16, SL 679.99; ikisi de hemfikir, g\u00fcven 0.55)",
-  "03.11 18:50 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"3820.65\",\"code\":40310000,\"cost_basis\":\"81989.1\",\"message\":\"insufficient buying power\"}",
-  "03.11 19:02 N  NEWS (6 new) score -0.08 conf 0.30: ",
   "03.11 19:02 N  GPT  score +0.15 conf 0.37: Ukrayna\u2019daki \u00f6l\u00fcmc\u00fcl Rus sald\u0131r\u0131lar\u0131 ve s\u00fcren \u0130ran gerilimi k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak K\u00f6rfez petrol ak\u0131\u015flar\u0131ndaki toparlanma ve Fed\u2019in enflasyon kayg\u0131lar\u0131 alt\u0131n\u0131n y\u00fckseli\u015fini s\u0131n\u0131rl\u0131yor; etkiler kar\u0131\u015f\u0131k ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
   "03.11 19:02 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc makro veriler ve yar\u0131 iletken liderli\u011fiyle piyasa \u0131l\u0131ml\u0131 pozitif seyrediyor, ancak Apple \u00f6zelinde marj endi\u015feleri bask\u0131 yarat\u0131yor.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli momentum yukar\u0131 y\u00f6nl\u00fc olsa da Apple'daki \u015firket kaynakl\u0131 zay\u0131fl\u0131k ve jeopolitik haber riski se\u00e7ici i\u015flem gerektiriyor.\u00bb",
   "03.11 19:46 N  NEWS (20 new) score +0.25 conf 0.40: Trump'\u0131n \u0130ran'a y\u00f6nelik sald\u0131r\u0131lar\u0131 do\u011frulad\u0131\u011f\u0131 ve sava\u015f\u0131n yeniden ba\u015flama riskinin artt\u0131\u011f\u0131na dair yeni haberler, g\u00fcvenli liman talebi nedeniyle alt\u0131n i\u00e7in hafif y\u00fckseltici. Ancak dolar\u0131n y\u00fckseli\u015fi, Fed'in faizleri sabit tutmas\u0131 ve enflasyon endi\u015feleri ile g\u00fcm\u00fc\u015fteki/alt\u0131ndaki d\u00fc\u015f\u00fc\u015f gibi eski ve \u00e7eli\u015fkili sinyaller bu etkiyi s\u0131n\u0131rl\u0131yor.",
@@ -15386,7 +15391,10 @@
   "04.11 22:38 B6  karar turu: Claude \u00abDemokratlar\u0131n se\u00e7im zaferi ve petroldeki d\u00fc\u015f\u00fc\u015fle endeksler g\u00fc\u00e7l\u00fc, ancak son bir saatte yatay konsolidasyon var ve kapan\u0131\u015f yakla\u015f\u0131yor.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f ivmesi durmu\u015f g\u00f6r\u00fcn\u00fcyor; kapan\u0131\u015fa 22 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik i\u015flem ufku seans sonras\u0131 likidite ve bracket emirlerinin ge\u00e7erlilik risklerini i\u00e7eriyor.\u00bb",
   "04.11 22:50 N  NEWS (11 new) score +0.05 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ABD ara se\u00e7im sonu\u00e7lar\u0131 ve Vance/Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131 su\u00e7lamas\u0131 \u00fczerine; do\u011frudan alt\u0131n fiyat\u0131n\u0131 etkileyecek yeni bir jeopolitik t\u0131rmanma veya Fed s\u00fcrpriz haberi yok. Petrol fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini yumu\u015fat\u0131p hafif bir faiz indirimi beklentisi yaratabilece\u011fi i\u00e7in k\u00fc\u00e7\u00fck bir olumlu etki var; ancak sava\u015f\u0131n bitme e\u011filimi g\u00fcvenli liman talebini azaltarak bunu dengeliyor.",
   "04.11 22:50 N  GPT  score +0.15 conf 0.35: \u0130ran sava\u015f\u0131 \u00fczerindeki siyasi bask\u0131 ve K\u00f6rfez\u2019de yeniden \u00e7at\u0131\u015fma endi\u015fesi g\u00fcvenli liman talebini destekleyebilir. Ancak petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve sava\u015f\u0131n sona erme ihtimali bu deste\u011fi s\u0131n\u0131rl\u0131yor; dolar ve faizlere ili\u015fkin do\u011frudan yeni bir sinyal yok.",
-  "04.11 22:50 B6  karar turu: Claude \u00abDemokratlar\u0131n se\u00e7im zaferi ve petroldeki d\u00fc\u015f\u00fc\u015f endeksleri yukar\u0131 ta\u015f\u0131d\u0131, ancak kapan\u0131\u015f \u00f6ncesi fiyat hareketi yatay ve yeni pozisyon i\u00e7in gece riski y\u00fcksek.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i y\u00fckseli\u015f yataya d\u00f6nerken kapan\u0131\u015f sonras\u0131 likidite ve stop emirlerinin i\u015fleyi\u015fine ili\u015fkin riskler yeni pozisyonlar\u0131 cazip k\u0131lm\u0131yor.\u00bb"
+  "04.11 22:50 B6  karar turu: Claude \u00abDemokratlar\u0131n se\u00e7im zaferi ve petroldeki d\u00fc\u015f\u00fc\u015f endeksleri yukar\u0131 ta\u015f\u0131d\u0131, ancak kapan\u0131\u015f \u00f6ncesi fiyat hareketi yatay ve yeni pozisyon i\u00e7in gece riski y\u00fcksek.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i y\u00fckseli\u015f yataya d\u00f6nerken kapan\u0131\u015f sonras\u0131 likidite ve stop emirlerinin i\u015fleyi\u015fine ili\u015fkin riskler yeni pozisyonlar\u0131 cazip k\u0131lm\u0131yor.\u00bb",
+  "04.11 23:02 N  NEWS (17 new) score +0.25 conf 0.40: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu ara se\u00e7im sonu\u00e7lar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n siyasi etkisi hakk\u0131nda olup alt\u0131n fiyat\u0131na do\u011frudan etkisi zay\u0131f. Petrol fiyat\u0131n\u0131n 90 dolar\u0131n alt\u0131na d\u00fc\u015fmesi enflasyon beklentilerini gev\u015fetebilir ve haber ak\u0131\u015f\u0131nda tahvil faizlerinin ve dolar\u0131n geriledigi belirtiliyor; bu da alt\u0131n i\u00e7in hafif olumlu. G\u00fcvenli liman talebini art\u0131racak yeni bir \u00e7at\u0131\u015fma haberi yok, bu y\u00fczden etki s\u0131n\u0131rl\u0131 kalmal\u0131.",
+  "04.11 23:02 N  GPT  score +0.30 conf 0.46: USD ve getirilerin geriledi\u011fine dair haberler alt\u0131n\u0131 k\u0131sa vadede destekliyor; petrol\u00fcn sert d\u00fc\u015f\u00fc\u015f\u00fc de enflasyon ve faiz bask\u0131s\u0131n\u0131 azaltabilir. Ancak sava\u015f kaynakl\u0131 g\u00fcvenli liman talebinin zay\u0131flamas\u0131 ve ba\u015fl\u0131klar\u0131n \u00e7o\u011funun yeni geli\u015fmeden \u00e7ok siyasi yorum olmas\u0131 y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "04.11 23:02 B6  karar turu: Claude \u00abSe\u00e7im sonras\u0131 risk i\u015ftah\u0131 endeksleri y\u00fckseltti ancak son saatte teknoloji taraf\u0131nda sat\u0131\u015f bask\u0131s\u0131 var; seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon a\u00e7mak i\u00e7in yar\u0131nki a\u00e7\u0131l\u0131\u015f\u0131 beklemek daha mant\u0131kl\u0131.\u00bb / GPT \u00abEndekslerde kapan\u0131\u015fa do\u011fru ivme zay\u0131flarken Tesla negatif ayr\u0131\u015f\u0131yor; seans sonras\u0131 d\u00fc\u015f\u00fck likidite ve bracket emir k\u0131s\u0131tlar\u0131 i\u015flem riskini art\u0131r\u0131yor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -23007,6 +23015,10 @@
    [
     1793822338,
     4963.78
+   ],
+   [
+    1793822548,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -30555,6 +30567,10 @@
    [
     1793822338,
     4975.18
+   ],
+   [
+    1793822548,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -38069,6 +38085,10 @@
    [
     1793822338,
     4993.28
+   ],
+   [
+    1793822548,
+    4993.28
    ]
   ]
  },
@@ -45420,6 +45440,10 @@
    [
     1793822338,
     4969.22
+   ],
+   [
+    1793822548,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -52054,6 +52078,10 @@
    [
     1793822338,
     4860.5
+   ],
+   [
+    1793822548,
+    4877.81
    ]
   ],
   "news_calls": {
@@ -52261,7 +52289,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 104672.009884,
+   "balance": 104658.59408400003,
    "start": 100000.0,
    "positions": [
     {
@@ -52276,7 +52304,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Bilan\u00e7o sonras\u0131 g\u00fc\u00e7l\u00fc ivme s\u00fcr\u00fcyor, y\u00fckselen dipler ve g\u00fcn i\u00e7i zirveye yak\u0131n kapan\u0131\u015flar devam eden al\u0131m talebine i\u015faret ediyor. | GPT 0.6: Olumsuz \u015firket haberlerine ra\u011fmen y\u00fckselen dipler ve zirve yak\u0131n\u0131nda tutunma devam al\u0131m\u0131n\u0131 destekliyor, ancak g\u00fcnl\u00fck y\u00fckseli\u015f kovalamaca riskini art",
-     "cur": 352.05
+     "cur": 352.1799
     },
     {
      "id": "e6961ff6-5381-4b14-a458-9092fd9c4e5d",
@@ -52290,7 +52318,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: QQQ g\u00fc\u00e7l\u00fcyken NVDA negatif kal\u0131yor; veri merkezi yava\u015flamas\u0131 haberleri ve 206 seviyesinden geri \u00e7ekilme g\u00f6receli zay\u0131fl\u0131\u011fa i\u015faret ediyor. | GPT 0.66: Endekslere g\u00f6re zay\u0131fl\u0131k ve son s\u0131\u00e7raman\u0131n geri verilmesi, veri merkezi yat\u0131r\u0131mlar\u0131na ili\u015fkin olumsuz haberlerle birlikte d\u00fc\u015f\u00fc\u015f\u00fc destekli",
-     "cur": 202.52
+     "cur": 202.78
     },
     {
      "id": "7ed3d320-d1ef-4062-8cd7-1d2721067b79",
@@ -52304,7 +52332,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Geni\u015f piyasa g\u00fc\u00e7l\u00fc, QQQ son 5 dakikal\u0131k mumlarda k\u0131sa vadeli dipten toparlan\u0131p pencerenin zirvesine \u00e7\u0131kt\u0131; AI bask\u0131s\u0131na ra\u011fmen \u0131l\u0131ml\u0131 bir y\u00fckseli\u015f e\u011filimi var. | GPT 0.6: Son yar\u0131m saatte dipten toparlan\u0131p saatlik zirveye ula\u015fmas\u0131, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde k\u0131sa vadeli y\u00fckseli\u015f devam\u0131n\u0131 de",
-     "cur": 692.47
+     "cur": 692.805
     },
     {
      "id": "aa32387f-5730-46ee-bbf3-d527ff0fd130",
@@ -52318,7 +52346,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Endeks se\u00e7im sonras\u0131 istikrarl\u0131 y\u00fckseli\u015f trendinde, g\u00fc\u00e7l\u00fc ADP verisi ve artan dipler momentumu destekliyor. | GPT 0.64: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, k\u0131sa vadeli devam hareketini destekliyor.",
-     "cur": 767.25
+     "cur": 767.525
     }
    ],
    "trades": [
@@ -52469,12 +52497,12 @@
    ],
    "day": {
     "date": "2026-11-04",
-    "pnl": 2996.22,
+    "pnl": 2942.46,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 105487.54
+   "equity": 105433.78
   },
   "equity_curve": [
    [
@@ -59464,6 +59492,10 @@
    [
     1793822338,
     105487.54
+   ],
+   [
+    1793822548,
+    105433.78
    ]
   ],
   "open": {
@@ -59514,11 +59546,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793821810769,
+  "last_decision_ms": 1793822533497,
   "view": {
-   "ts": 1793821810769,
-   "claude": "Demokratlar\u0131n se\u00e7im zaferi ve petroldeki d\u00fc\u015f\u00fc\u015f endeksleri yukar\u0131 ta\u015f\u0131d\u0131, ancak kapan\u0131\u015f \u00f6ncesi fiyat hareketi yatay ve yeni pozisyon i\u00e7in gece riski y\u00fcksek.",
-   "gpt": "Endekslerde g\u00fcn i\u00e7i y\u00fckseli\u015f yataya d\u00f6nerken kapan\u0131\u015f sonras\u0131 likidite ve stop emirlerinin i\u015fleyi\u015fine ili\u015fkin riskler yeni pozisyonlar\u0131 cazip k\u0131lm\u0131yor.",
+   "ts": 1793822533497,
+   "claude": "Se\u00e7im sonras\u0131 risk i\u015ftah\u0131 endeksleri y\u00fckseltti ancak son saatte teknoloji taraf\u0131nda sat\u0131\u015f bask\u0131s\u0131 var; seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon a\u00e7mak i\u00e7in yar\u0131nki a\u00e7\u0131l\u0131\u015f\u0131 beklemek daha mant\u0131kl\u0131.",
+   "gpt": "Endekslerde kapan\u0131\u015fa do\u011fru ivme zay\u0131flarken Tesla negatif ayr\u0131\u015f\u0131yor; seans sonras\u0131 d\u00fc\u015f\u00fck likidite ve bracket emir k\u0131s\u0131tlar\u0131 i\u015flem riskini art\u0131r\u0131yor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -59569,7 +59601,7 @@
      ],
      "gpt": [
       "none",
-      0.8
+      0.94
      ]
     }
    }
@@ -59579,7 +59611,7 @@
   "premarket_day": "2026-11-04",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "14707.05",
+   "buying_power": "14239.53",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -65094,6 +65126,10 @@
    ],
    [
     1793822338,
+    5066.43
+   ],
+   [
+    1793822548,
     5066.43
    ]
   ],
