@@ -1357,6 +1357,10 @@
    [
     1793803706,
     5000.0
+   ],
+   [
+    1793803886,
+    5000.0
    ]
   ],
   "archive": [
@@ -11664,6 +11668,10 @@
    ],
    [
     1793803706,
+    4868.5
+   ],
+   [
+    1793803886,
     4868.5
    ]
   ],
@@ -22047,6 +22055,10 @@
    [
     1793803706,
     4963.78
+   ],
+   [
+    1793803886,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -29275,6 +29287,10 @@
    [
     1793803706,
     4975.18
+   ],
+   [
+    1793803886,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -36469,6 +36485,10 @@
    [
     1793803706,
     4993.28
+   ],
+   [
+    1793803886,
+    4993.28
    ]
   ]
  },
@@ -43500,6 +43520,10 @@
    [
     1793803706,
     4969.22
+   ],
+   [
+    1793803886,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -49751,6 +49775,10 @@
    [
     1793803706,
     4917.07
+   ],
+   [
+    1793803886,
+    4910.39
    ]
   ],
   "news_calls": {
@@ -49958,7 +49986,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 102499.46004600001,
+   "balance": 102491.322046,
    "start": 100000.0,
    "positions": [
     {
@@ -49973,7 +50001,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Nasdaq geni\u015f piyasayla birlikte y\u00fckseliyor ancak veri merkezi yava\u015flama endi\u015fesi teknoloji taraf\u0131nda yukar\u0131 potansiyeli s\u0131n\u0131rlayabilir. | GPT 0.59: Son geri \u00e7ekilmenin toparlanmas\u0131 ve geni\u015f piyasan\u0131n deste\u011fi, yapay zek\u00e2 yat\u0131r\u0131mlar\u0131na ili\u015fkin olumsuz habere ra\u011fmen al\u0131ma s\u0131n\u0131rl\u0131 \u00fcst\u00fcnl\u00fck s",
-     "cur": 698.51
+     "cur": 697.1035
     },
     {
      "id": "aa32387f-5730-46ee-bbf3-d527ff0fd130",
@@ -49987,7 +50015,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.56: Endeks se\u00e7im sonras\u0131 istikrarl\u0131 y\u00fckseli\u015f trendinde, g\u00fc\u00e7l\u00fc ADP verisi ve artan dipler momentumu destekliyor. | GPT 0.64: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, k\u0131sa vadeli devam hareketini destekliyor.",
-     "cur": 767.54
+     "cur": 767.18
     }
    ],
    "trades": [
@@ -50102,12 +50130,12 @@
    ],
    "day": {
     "date": "2026-11-04",
-    "pnl": 1944.21,
+    "pnl": 1679.67,
     "trades": 2,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 104435.53
+   "equity": 104170.99
   },
   "equity_curve": [
    [
@@ -56777,6 +56805,10 @@
    [
     1793803706,
     104435.53
+   ],
+   [
+    1793803886,
+    104170.99
    ]
   ],
   "open": {
@@ -56870,7 +56902,7 @@
   "premarket_day": "2026-11-04",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "170256.54",
+   "buying_power": "169515.83",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -62065,6 +62097,10 @@
    ],
    [
     1793803706,
+    5066.43
+   ],
+   [
+    1793803886,
     5066.43
    ]
   ],
