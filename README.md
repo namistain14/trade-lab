@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 18:00 (İstanbul)
+> Son güncelleme: 05.11.2026 18:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %71.4 | %46.8 |
 | Ödenen komisyon/spread | 82.79 $ | 558.27 $ |
 
-**Hesap değeri: 5,114.75 $** (başlangıç 5,000 $, +114.75 $ / %+2.30)
+**Hesap değeri: 5,109.69 $** (başlangıç 5,000 $, +109.69 $ / %+2.19)
 
 Açık pozisyonlar: PAXGUSDT short @ 4102.76 (TP 4090.45 / SL 4110.96)
 
@@ -66,29 +66,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +3307.54 $ |
-| İşlem sayısı | 0 | 12 |
-| Kazanma oranı | %0.0 | %41.7 |
+| Net kâr/zarar | -1051.77 $ | +2255.77 $ |
+| İşlem sayısı | 1 | 13 |
+| Kazanma oranı | %0.0 | %38.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 105,344.87 $** (başlangıç 100,000 $, +5344.87 $ / %+5.34)
+**Hesap değeri: 105,349.49 $** (başlangıç 100,000 $, +5349.49 $ / %+5.35)
 
-Açık pozisyonlar: AAPL long @ 353.95 (TP 358.80 / SL 349.96); NVDA short @ 190.65 (TP 188.13 / SL 192.91)
+Açık pozisyonlar: NVDA short @ 190.65 (TP 188.13 / SL 192.91)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 18:03 | AAPL | long | -1051.77 $ | stop |
 | 04.11 23:45 | SPY | long | +485.08 $ | seans sonu |
 | 04.11 23:45 | QQQ | long | -222.60 $ | seans sonu |
 | 04.11 23:45 | AAPL | long | -505.78 $ | seans sonu |
 | 04.11 23:39 | NVDA | short | +1575.42 $ | take profit |
-| 04.11 22:26 | TSLA | long | +604.29 $ | take profit |
 
 ## Son olaylar
 
 ```
-05.11 16:56 N  GPT  score -0.20 conf 0.43: Hammack’in enflasyonu düşürmek için kademeli faiz artışlarını desteklemesi ve doların erken işlemlerde güçlenmesi altın üzerinde hafif baskı yaratabilir. İran gerilimi güvenli liman talebini desteklese de haber akışı çelişkili ve etkinin kısa vadede netliği düşük.
 05.11 17:08 N  NEWS (14 new) score -0.15 conf 0.40: Haberler karışık: Fed'in Hammack'in sıkı para politikası ve faiz artırım yolunu savunması ile Bank of England'ın faiz artırması altın için kısa vadede baskı yaratır. Buna karşılık Demokratların Kongre'yi alması dolarda zayıflama ihtimalini artırıyor ve İran'a yönelik yeni savaş riski jeopolitik talebi destekliyor; bu nedenle etki sınırlı kalabilir.
 05.11 17:08 N  GPT  score -0.22 conf 0.48: Hammack’in enflasyonu düşürmek için kısıtlayıcı faizlerin sürmesi ve kademeli faiz artışlarını desteklemesi, kısa vadede altın için olumsuz; doların yükselişi de baskıyı artırabilir. İran çevresindeki savaş ve füze haberleri güvenli liman talebini desteklese de etkiler çelişkili ve haberlerin bir kı
 05.11 17:36 N  NEWS (17 new) score +0.02 conf 0.35: Haberler karışık: Fed'li Hammack ve BoE'nin faiz artırımı altın için baskılayıcı, ancak yükselen jobless claims, düşen tahviller ve yumuşayan işgücü maliyetleri altını destekliyor; İran savaşı ve jeopolitik risk ise güvenli liman talebini artırabilir. Fiyatlar 4.100 doların üzerinde tutunduğu için net etki yaklaşık nötr.
@@ -103,6 +102,7 @@ Son işlemler:
 05.11 18:00 N  GPT  score -0.30 conf 0.42: Doların toparlanması ve Fed’in enflasyon/rate görünümüne ilişkin şahin sinyaller altını kısa vadede baskılayabilir. İran savaşının sona erdirilmesine dair açıklama da güvenli liman talebini azaltabilir; ancak bu söylem koşullu ve haber akışı karışık olduğundan etki sınırlı görünüyor.
 05.11 18:00 B5  SHORT gold 25000 USD x10 @ 4102.76 (TP 4090.45, SL 4110.96; news -0.35)
 05.11 18:00 B6  karar turu: Claude «Piyasa teknoloji ve AI hisseleri öncülüğünde güçlü bir satış baskısı altında; ivme aşağı yönlü ancak hareketin büyük kısmı gerçekleşmiş durumda.» / GPT «Şahin Fed mesajları ve teknoloji öncülüğündeki satışlar kısa vadede aşağı yönü destekliyor; ancak aşırı düşen hisselerde tepki riski nedeniyle seçici kalıyorum.»
+05.11 18:03 B6  CLOSE long AAPL stop: -1051.77 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
