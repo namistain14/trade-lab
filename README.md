@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 19:05 (İstanbul)
+> Son güncelleme: 05.11.2026 19:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %54.5 | %45.1 |
 | Ödenen komisyon/spread | 130.13 $ | 605.62 $ |
 
-**Hesap değeri: 5,021.98 $** (başlangıç 5,000 $, +21.98 $ / %+0.44)
+**Hesap değeri: 5,016.06 $** (başlangıç 5,000 $, +16.06 $ / %+0.32)
+
+Açık pozisyonlar: PAXGUSDT short @ 4078.22 (TP 4065.99 / SL 4086.38)
 
 Son haber analizi (05.11 18:59): Claude puan **-0.45**, güven 0.60 — Birden fazla Fed yetkilisi (Barkin, Hammack, Richmond Fed) faiz artışlarının devam edeceğini ve enflasyonun yüksek kaldığını söylüyor; TD Securities da daha fazla sıkılaşma bekliyor. Bu, reel faizler ve dolar açısından altın için baskılayıcı; dolar da toparlanıyor. İran savaşıyla ilgili haberler jeopolitik risk primi sağlasa da, manşetlerin çoğu siyasi tartışma niteliğinde ve fiyatlanmış görünüyor.
 
@@ -69,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,883.69 $** (başlangıç 100,000 $, +9883.69 $ / %+9.88)
+**Hesap değeri: 109,161.74 $** (başlangıç 100,000 $, +9161.74 $ / %+9.16)
 
 Açık pozisyonlar: NVDA short @ 184.81 (TP 181.66 / SL 186.27); QQQ short @ 655.07 (TP 644.29 / SL 660.64)
 
@@ -86,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 18:36 N  GPT  score -0.35 conf 0.58: Doların yeniden güç kazanması ve yükselen tahvil getirilerinin altını rekor seviyelerden geri çektiği haberleri kısa vadede baskı yaratıyor; Fed yetkililerinin sıkı faiz duruşu da bu eğilimi destekliyor. İran kaynaklı jeopolitik riskler altına güvenli liman talebi sağlayabilir, ancak haber akışı kar
 05.11 18:36 B5  SHORT gold 25000 USD x10 @ 4095.67 (TP 4083.38, SL 4103.86; news -0.40)
 05.11 18:36 B6  karar turu: Claude «Fed'in faiz artışı sinyalleri ve AI/çip satışlarıyla piyasa ciddi risk-off modunda; son barlarda gelen tepki alımı kırılgan olduğundan seçici kalıp göreceli güçlü isimlere yöneliyorum.» / GPT «Piyasa genelinde satış baskısı baskın ancak uzamış düşüşler tepki riskini artırıyor; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlı tutulmalı.»
 05.11 18:48 N  NEWS (14 new) score -0.50 conf 0.60: Fed yetkililerinin (Hammack, Barkin) sıkılaştırmadan yana açıklamaları, BoE'nin faiz artırımı ve enflasyonun 6 yılın zirvesine yakın seyretmesi reel faizleri ve faiz artırımı beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar da toparlanma sinyali veriyor. Savaş kaynaklı güvenli liman talebi sürse de İran'da diplomatik ilerleme haberleri bu desteği sınırlıyor.
@@ -101,6 +102,7 @@ Son işlemler:
 05.11 19:00 B5  SHORT gold 25000 USD x10 @ 4072.12 (TP 4059.90, SL 4080.26; news -0.33)
 05.11 19:00 B6  karar turu: Claude «Seçim sonrası AI regülasyonu endişeleri ve şahin Fed söylemleriyle teknoloji ağırlıklı sert satış sürüyor; kısa vadeli tepki alımı mümkün ama trend zayıf.» / GPT «Genel eğilim aşağı yönlü; kaldıraç ve ilişkili açık pozisyonlar nedeniyle ek satış riskini sınırlı tutarak tepki yükselişlerini değerlendirmek daha uygun.»
 05.11 19:02 B5  CLOSE short stop: -55.93 USD
+05.11 19:08 B5  SHORT gold 25000 USD x10 @ 4078.22 (TP 4065.99, SL 4086.38; news -0.33)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
