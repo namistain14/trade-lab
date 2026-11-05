@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 06:54 (İstanbul)
+> Son güncelleme: 05.11.2026 06:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +207.19 $ | +94.31 $ |
-| İşlem sayısı | 3 | 43 |
-| Kazanma oranı | %100.0 | %46.5 |
-| Ödenen komisyon/spread | 35.52 $ | 511.01 $ |
+| Net kâr/zarar | +276.27 $ | +163.39 $ |
+| İşlem sayısı | 4 | 44 |
+| Kazanma oranı | %100.0 | %47.7 |
+| Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
 
-**Hesap değeri: 5,156.25 $** (başlangıç 5,000 $, +156.25 $ / %+3.13)
-
-Açık pozisyonlar: PAXGUSDT long @ 4119.59 (TP 4131.95 / SL 4111.35)
+**Hesap değeri: 5,163.39 $** (başlangıç 5,000 $, +163.39 $ / %+3.27)
 
 Son haber analizi (05.11 06:48): Claude puan **+0.50**, güven 0.60 — Ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve ABD tahvil getirileri düştü; bu, altın için net olarak yükseliş yönlü bir etki. Petrol fiyatlarının İran savaşının bitebileceği beklentisiyle düşmesi enflasyon beklentilerini ve Fed sıkılığı algısını yumuşatarak destekliyor. Ancak fiyat hareketinin büyük kısmı zaten gerçekleşti ve jeopolitik risk primi azaldığı için güvenli liman talebi zayıflıyor; bu nedenle kısa vadede kâr realizasyonu riski var.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 06:55 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 04:12 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 03:31 | PAXGUSDT | long | +69.06 $ | take profit |
 | 05.11 03:21 | PAXGUSDT | long | +69.06 $ | take profit |
 | 04.11 21:43 | PAXGUSDT | long | -55.99 $ | stop (gap) |
-| 04.11 19:39 | PAXGUSDT | long | +69.06 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 05:09 N  GPT  score +0.58 conf 0.66: Dolar ve tahvil getirilerindeki düşüş ile seçim sonrası süren alımlar altını kısa vadede destekliyor; fiyatın 4.100 doların üzerine çıkması momentumu güçlendiriyor. Ancak sert yükselişin önemli kısmı zaten gerçekleşmiş ve direnç ile yaklaşan istihdam verileri kısa vadeli kazançları sınırlayabilir.
 05.11 05:21 N  NEWS (8 new) score +0.40 conf 0.55: Demokratların Kongre seçimini kazanması doları ve ABD tahvil faizlerini düşürdü; bu da altın için olumlu bir makro etki yaratıyor ve altın 4.100 doların üzerine çıktı. Buna karşılık İran savaşının sona erme umutları güvenli liman primini azaltabilir ve sert yükseliş sonrası kâr realizasyonu riski var, bu yüzden güveni sınırlı tutuyorum.
 05.11 05:21 N  GPT  score +0.25 conf 0.56: Dolar ve tahvil getirilerindeki düşüş altını destekliyor; ancak İran savaşının sona erebileceğine dair artan umutlar güvenli liman talebini azaltabilir. Altındaki güçlü seçim sonrası yükselişin önemli kısmı zaten fiyatlanmış görünüyor.
 05.11 05:40 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara seçim sonuçları doları ve tahvil faizlerini zayıflatarak altını 4.100 doların üzerine taşıdı; İran savaşının sona erme umutları petrol fiyatlarını düşürüp enflasyon ve sert Fed beklentilerini gerilettiği için kısa vadede altı destekliyor. Buna karşın altın bir günde yaklaşık %3,4 yükseldiği için aşırı alım ve kâr realizasyonu riski yüksek, ayrıca yaklaşan tarım dışı istihdam verisi volatilite yaratabilir; bu nedenle güven orta düzeyde tutuldu.
@@ -101,6 +98,7 @@ Son işlemler:
 05.11 06:36 N  GPT  score +0.40 conf 0.58: Dolar ve tahvil getirilerindeki gerileme, altındaki yükselişi kısa vadede destekliyor; ancak bu hareket büyük ölçüde seçim sonrası fiyatlanmış görünüyor. Petrolün sert düşmesi ve İran savaşında tırmanma riskinin azalması güvenli liman talebini sınırlarken, BoE’nin olası faiz artışı da kısmi baskı ya
 05.11 06:48 N  NEWS (6 new) score +0.50 conf 0.60: Ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve ABD tahvil getirileri düştü; bu, altın için net olarak yükseliş yönlü bir etki. Petrol fiyatlarının İran savaşının bitebileceği beklentisiyle düşmesi enflasyon beklentilerini ve Fed sıkılığı algısını yumuşatarak destekliyor. Ancak fiyat hareketinin büyük kısmı zaten gerçekleşti ve jeopolitik risk primi azaldığı için güvenli liman talebi zayıflıyor; bu nedenle kısa vadede kâr realizasyonu riski var.
 05.11 06:48 N  GPT  score +0.48 conf 0.66: Dolar ve tahvil getirilerindeki düşüş altını kısa vadede destekliyor; yeni başlıklar yükselişi teyit ediyor. Ancak hareketin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşının sona ereceği beklentisi güvenli liman talebini azaltabilir.
+05.11 06:56 B5  CLOSE long take profit: +69.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
