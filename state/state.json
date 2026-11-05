@@ -2773,6 +2773,10 @@
    [
     1793889413,
     5000.0
+   ],
+   [
+    1793889551,
+    5000.0
    ]
   ],
   "archive": [
@@ -14496,6 +14500,10 @@
    ],
    [
     1793889413,
+    4868.5
+   ],
+   [
+    1793889551,
     4868.5
    ]
   ],
@@ -26295,6 +26303,10 @@
    [
     1793889413,
     4963.78
+   ],
+   [
+    1793889551,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -34939,6 +34951,10 @@
    [
     1793889413,
     4975.18
+   ],
+   [
+    1793889551,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -43549,6 +43565,10 @@
    [
     1793889413,
     4993.28
+   ],
+   [
+    1793889551,
+    4993.28
    ]
   ]
  },
@@ -51996,6 +52016,10 @@
    [
     1793889413,
     4969.22
+   ],
+   [
+    1793889551,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -59857,6 +59881,10 @@
    [
     1793889413,
     5120.67
+   ],
+   [
+    1793889551,
+    5120.67
    ]
   ],
   "news_calls": {
@@ -60066,7 +60094,22 @@
   "account": {
    "balance": 105876.17,
    "start": 100000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "840c1f0f-5baa-40f0-9941-69708d8e063d",
+     "symbol": "AAPL",
+     "side": "long",
+     "qty": 299.0,
+     "entry": 353.95,
+     "tp": 358.8,
+     "sl": 349.96,
+     "opened_ms": 1793889382618,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.45: Nasdaq sert d\u00fc\u015ferken pozitif kalarak g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor; tahvil ihrac\u0131 n\u00f6tr, savunmac\u0131 rotasyondan faydalanabilir. | GPT 0.58: Zay\u0131f piyasaya ra\u011fmen g\u00fcnl\u00fck kazanc\u0131n\u0131 korumas\u0131 ve son diplerden toparlanmas\u0131 s\u0131n\u0131rl\u0131 bir al\u0131\u015f avantaj\u0131 sunuyor.",
+     "cur": 354.09
+    }
+   ],
    "trades": [
     {
      "id": "796d46d4-72b9-4f18-b92a-318fb0647650",
@@ -60287,12 +60330,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 0.0,
+    "pnl": 41.86,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 105876.17
+   "equity": 105918.03
   },
   "equity_curve": [
    [
@@ -68378,6 +68421,10 @@
    [
     1793889413,
     105876.17
+   ],
+   [
+    1793889551,
+    105918.03
    ]
   ],
   "open": {
@@ -68460,7 +68507,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "423504.68",
+   "buying_power": "296624.63",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -75071,6 +75118,10 @@
    ],
    [
     1793889413,
+    5066.43
+   ],
+   [
+    1793889551,
     5066.43
    ]
   ],
