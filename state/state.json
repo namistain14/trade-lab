@@ -2889,6 +2889,10 @@
    [
     1793895467,
     5000.0
+   ],
+   [
+    1793900274,
+    5000.0
    ]
   ],
   "archive": [
@@ -4741,12 +4745,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1793890800000,
-   "ETHUSDT": 1793890800000,
-   "SOLUSDT": 1793890800000,
-   "BNBUSDT": 1793890800000,
-   "XRPUSDT": 1793890800000,
-   "DOGEUSDT": 1793890800000
+   "BTCUSDT": 1793894400000,
+   "ETHUSDT": 1793894400000,
+   "SOLUSDT": 1793894400000,
+   "BNBUSDT": 1793894400000,
+   "XRPUSDT": 1793894400000,
+   "DOGEUSDT": 1793894400000
   }
  },
  "gold_news": {
@@ -14729,43 +14733,38 @@
    [
     1793895467,
     4868.5
+   ],
+   [
+    1793900274,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
+   "score": -0.25,
+   "confidence": 0.4,
    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131kl\u0131 etkisi alt\u0131n i\u00e7in negatif: Fed'li Barkin ve Cleveland Fed'li Hammack k\u0131s\u0131tlay\u0131c\u0131 faiz ve daha fazla faiz art\u0131r\u0131m\u0131 gerekti\u011fini s\u00f6yl\u00fcyor, DXY/dolar g\u00fc\u00e7leniyor ve reel getiriler alt\u0131n rallisini zorluyor. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ise destekleyici olsa da bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve haberlerin tutarl\u0131l\u0131\u011f\u0131 zay\u0131f; bu nedenle g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1793895119570,
-   "new_headlines": 10,
+   "ts": 1793900246675,
+   "new_headlines": 43,
    "key_events": [
     "ABD ara se\u00e7im sonras\u0131 alt\u0131n %1,6 y\u00fckseldi (4.124,89 dolar)",
     "Dolar toparlan\u0131yor; ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi bekleniyor",
     "\u0130ran sava\u015f\u0131 ve Fed faiz beklentisine dair haberler, ama yeni ve net bir \u015fok yok"
    ],
    "gpt": {
-    "score": -0.55,
-    "confidence": 0.68,
-    "reason": "Yeni faiz art\u0131\u015f\u0131 ve Fed yetkililerinin enflasyon nedeniyle daha fazla s\u0131k\u0131la\u015fmay\u0131 desteklemesi, reel faizleri ve dolar\u0131 g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da yeni ba\u015fl\u0131klar gerilimin belirgin bi\u00e7imde t\u0131rmand\u0131\u011f\u0131n\u0131 g\u00f6stermiyor.",
+    "score": 0.16,
+    "confidence": 0.38,
+    "reason": "\u0130ran sava\u015f\u0131n\u0131n t\u0131rmanma ihtimali ve Rusya'n\u0131n \u0130ran'a f\u00fcze sistemleri sa\u011flad\u0131\u011f\u0131na dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran'\u0131n somut n\u00fckleer \u00f6nerileri de\u011ferlendirmesi ve dolar\u0131n g\u00fc\u00e7lenmesi bu etkiyi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan y\u00f6n sinyali zay\u0131f.",
     "key_events": [
-     "Faizlerin 4%'e y\u00fckseltilmesi",
-     "Fed yetkililerinden yeni faiz art\u0131\u015f\u0131 sinyalleri",
-     "\u0130ran sava\u015f\u0131yla ilgili haber ak\u0131\u015f\u0131, ancak yeni t\u0131rman\u0131\u015f sinyali s\u0131n\u0131rl\u0131"
+     "Rusya'n\u0131n \u0130ran'a f\u00fcze sistemi sa\u011flad\u0131\u011f\u0131 iddias\u0131",
+     "\u0130ran'\u0131n n\u00fckleer \u00f6nerileri de\u011ferlendirmesi",
+     "Dolar\u0131n g\u00fcvenli liman talebiyle y\u00fckselmesi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793623130261,
-    "score": -0.05,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 7,
-    "gpt_score": 0.25,
-    "gpt_confidence": 0.38
-   },
    {
     "ts": 1793623848902,
     "score": -0.1,
@@ -17456,68 +17455,70 @@
     "new": 10,
     "gpt_score": -0.55,
     "gpt_confidence": 0.68
+   },
+   {
+    "ts": 1793900246675,
+    "score": -0.25,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 43,
+    "gpt_score": 0.16,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 76
+   "n": 77
   },
   "news_seen": [
+   "Gold price rises to Tk 2.29 lakh a bhari - New Age BD",
+   "Trump administration held talks with Iran on deporting Iranians during the war, court documents show - WSLS",
+   "Farage says he is worried Trump will step up Iran war after midterm 'disaster' - BBC",
+   "After Trump's dismal midterms, Europe's far-right blame Iran war - Reuters",
+   "Melania Trump speaks on localized Ukraine-Russia ceasefire: 'Humanity over war' - FOX 32 Chicago",
+   "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+   "A cruise ship sold as a forever home left 203 residents in Cambodia as Iran war fuel costs hit up to $8,000 a cabin - Fortune",
+   "Seoul sends ships to Hormuz, but not to Trump\u2019s war - Tomorrow's Affairs",
    "Interest rates hiked to 4% in first increase in over three years",
-   "U.S.-Canada trade war squeezes craft brewers - Los Angeles Times",
-   "Payrolls vs CPI and How Two Data Releases Steer the U.S. Dollar - StoneX",
-   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
-   "\u2018The Flowers of Forest Hills\u2019 lead actress on bringing World War II immigration tale to life - QNS.com",
-   "Dakota Gold (DC) on future plans - www.mining-journal.com",
-   "Israel's UN ambassador rejects Vance's claim that Iran war was behind midterm losses - Middle East Eye",
-   "Most Hated Man Civil War Tour2.jpeg - WV News",
-   "Jeffries: Democrats won\u2019t let Vance \u2018run away\u2019 from record of Iran war support - The Hill",
-   "Apple Launches Seven-Part US Dollar High-Grade Bond Offering - www.marketscreener.com",
-   "The Wrong Way to End a War - Foreign Policy in Focus",
-   "Funeral today for Mass. World War II hero missing for 82 years - WCVB",
-   "Fed\u2019s Barkin backs gradual rate hikes as inflation stays too high - FXStreet",
+   "AngloGold faces rising costs as gold production falls - Business Day",
+   "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc - InsuranceNewsNet",
+   "Russia Secretly Supplies Iran With 90 Advanced Missile Launchers - Report - i24NEWS",
+   "What Trump\u2019s US midterm defeat means for the Iran war - The New Arab",
+   "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High - 24/7 Wall St.",
+   "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline. - Newsday",
+   "Russia and Ukraine exchange airstrikes as reconstruction and security talks resume in Brussels - AP News",
+   "U.S. Dollar Moves Higher Amid Rising Demand For Safe-Haven Assets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "\u2018Knives out\u2019 at Pentagon after unpopular Iran war dooms GOP in midterms - The Washington Post",
-   "How a Diplomatic Row Ended a Korean Startup\u2019s AI War Test in Ukraine - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-   "Republicans regroup after the war cost them Congress - 11Alive.com",
-   "Russell Brand is being investigated over two new rape complaints, police say",
-   "Rates could rise again if Iran war continues, BoE governor says - Reuters",
-   "France holds new strikes and protests as unions demand immediate answers",
-   "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz",
-   "Fed\u2019s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com",
-   "Richmond Fed's Thomas Barkin said more rate hikes are coming - Quartz",
-   "Iran threatens missile strikes on Europe if US uses bases there for attack - The Jerusalem Post",
-   "Stop Russia trafficking people into war - Amnesty International",
-   "A Democratic-controlled Congress will seek to constrain Trump\u2019s foreign adventures - The Guardian",
-   "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war fears - The Guardian",
-   "Lower gold prices add sparkle to Diwali shopping in Pune - The Indian Express",
-   "Cleveland Fed's Hammack Says Rates Must Turn Restrictive as Inflation Runs Near 6-Year High - BigGo Finance",
-   "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
-   "US Dollar Technical Outlook: DXY Bulls Fight to Hold Critical Support Ahead of NFP - StoneX",
-   "The Czech government\u2019s new culture war shows the Maga spirit is still alive in Europe - The Guardian",
-   "Iran Sanctions History Shows Evolving Roles of Congress - Legis1",
-   "Euro loses momentum as US Dollar regains footing after election-led volatility - FXStreet",
-   "Why do veterinary fees and sausage rolls vary in price across London?",
-   "Slotkin: Vance should stop trying to \u2018cover\u2019 himself over Iran war - The Hill",
-   "Vance Blames Republican Election Losses on the U.S. War on Iran - Democracy Now!",
-   "Papa Johns mobilizes for a pizza quality war - Restaurant Dive",
-   "Jewellers expect fall in gold prices to boost Dhantera sales - BusinessLine",
-   "Department of War's Office of Strategic Capital Signs $250 Million Conditional Loan Commitment With 6K Inc. - U.S. Department of War (.gov)",
-   "Robert Kiyosaki Issues Serious $40.5 Trillion Warning\u2014Predicts Gold, Silver And Bitcoin Price Crash - Forbes",
-   "Russia agreed to supply Iran with 90 helicopter missile launchers - The Guardian",
-   "Barkin Expects Gradual Further Federal Reserve Rate Increases - Oz Arab Media",
-   "The price of gold today, Nov. 5, 2026 \u2014 and the best places to buy - CNBC",
-   "Gold Faces $4,200 Barrier as Real Yields Challenge the Rally - FXEmpire",
-   "With 74% of Voters Saying Iran War Was Big Factor in Midterms, Dems Urged to Become Peace Party - Alaska Native News"
+   "Voters cite inflation, cost of living as key factors in midterm elections - The Christian Index",
+   "Gold Fields reaffirms FY 2026 production guidance after Q3 update - TradingView",
+   "GOP infighting begins; Civil-society groups propose delaying fight over Iran war until 2027; Saudi-Syria defense deal - Drop Site News",
+   "Bank of England Raises Rates for First Time in Three Years - The New York Times",
+   "Gold Price in Pakistan Today: Rs 435,500/Tola (24K) | Live Sarafa Rate - Investify",
+   "(GOLD) Equity Market Report (GOLD:CA) - Stock Traders Daily",
+   "Melania Trump on Oleshky ceasefire: Russia and Ukraine have chosen 'humanity over war' - NBC News",
+   "Pro-War Blogger Vanishes From Public After Telegram Post About Oleshky Evacuation - The Moscow Times",
+   "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+   "Dollar edges up as oil prices bounce, payrolls eyed - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "War, Deal, Or Stalemate? What The Midterms Mean For Trump's Iran War - Radio Free Europe/Radio Liberty",
+   "Central Banks Just Bought More Gold Than the World's Jewelry Buyers. Something Big Is Changing. - 24/7 Wall St.",
+   "Dollar edges up as oil prices bounce, payrolls eyed - Yahoo Finance",
+   "Melania Trump urges 'humanity over war' with Ukraine, Russia officials\u200b - Reuters",
+   "Iran is Reviewing \u2018Concrete Proposals\u2019 on Nuclear Program, Officials Say - The New York Times",
+   "Iran on midterms: \u2018Americans said NO TO WAR\u2019 - KFOR.com",
+   "As His Populist Allies Fall, Netanyahu Is Fighting Yesterday's War - Haaretz",
+   "Richmond Fed's Barkin Supports Gradual Rate Hikes Amid Inflation Concerns - GuruFocus",
+   "Democrats Won Congress. Can They Force Trump to End the Iran War? - FindLaw",
+   "The US Dollar's September buyers are now underwater - FXStreet",
+   "Gold and Silver Trim Post-Midterms Rebound as AI Tech Stocks Slump - BullionVault",
+   "The gavel and the war - Foundation for Defense of Democracies",
+   "Community honors Horry County\u2019s contribution to World War II at memorial on Nov. 9 - WMBF",
+   "Neither the election nor the US Dollar: Why Friday's payrolls hold the key to Gold's next move - FXStreet",
+   "Russia to provide Iran with 90 missile launchers as military ties grow: Reports - Al-Monitor",
+   "US boosts interceptor missile\u2019s production, uses automation to accelerate delivery - Interesting Engineering",
+   "Replacing the Glass: Modernizing the Discount Window for Efficiency and Ease of Use - Federal Reserve Bank of Atlanta"
   ]
  },
  "log": [
-  "04.11 16:32 N  GPT  score +0.45 conf 0.62: Demokratlar\u0131n ara se\u00e7im ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran\u2019dan gelen sert uyar\u0131lar da g\u00fcvenli liman talebini art\u0131rabilir. Ancak se\u00e7im kaynakl\u0131 hareketin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir ve yeni bir asker\u00ee t\u0131rman\u0131\u015f haberi yok.",
-  "04.11 16:32 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Se\u00e7im sonu\u00e7lar\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc ADP verisiyle piyasa pozitif a\u00e7\u0131l\u0131\u015fa haz\u0131rlan\u0131yor; \u015firkete \u00f6zel olumsuz haberler hisse baz\u0131nda ayr\u0131\u015fma yarat\u0131yor.",
-  "04.11 16:40 B5  LONG gold 25000 USD x10 @ 4036.74 (TP 4048.85, SL 4028.66; news +0.47)",
-  "04.11 16:44 N  NEWS (11 new) score +0.40 conf 0.60: Demokratlar\u0131n Kongre'yi kazanmas\u0131yla dolar endeksi (DXY) d\u00f6rt haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine geriledi ve alt\u0131n yeniden 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu bir tablo. Ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n se\u00e7im sonu\u00e7lar\u0131n\u0131 etkiledi\u011fi ve b\u00fcy\u00fcme endi\u015felerinin artmas\u0131n\u0131n dovish beklentileri destekleyebilece\u011fi g\u00f6r\u00fcl\u00fcyor. Buna kar\u015f\u0131n se\u00e7im sonras\u0131 dolar d\u00fczeltmesinin k\u0131smen fiyatlanm\u0131\u015f olmas\u0131 ve ABD tahvil/hisse rallisinin risk i\u015ftah\u0131n\u0131 art\u0131rabilmesi g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-  "04.11 16:44 N  GPT  score +0.56 conf 0.58: Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.000 dolar\u0131 yeniden a\u015fmas\u0131 k\u0131sa vadede alt\u0131n i\u00e7in belirgin destek. Ancak haber ak\u0131\u015f\u0131n\u0131n b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc ayn\u0131 se\u00e7im temas\u0131n\u0131 tekrarl\u0131yor ve hareketin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
-  "04.11 16:56 N  NEWS (8 new) score +0.40 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi (DXY) 4-5 haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine geriledi ve bu alt\u0131n i\u00e7in destekleyici. Ayr\u0131ca b\u00fcy\u00fcme endi\u015feleri Fed beklentilerini yumu\u015fatabilir. Ancak dolar hareketinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik risk primi d\u0131\u015f\u0131nda kalan etkileri kar\u0131\u015ft\u0131r\u0131yor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
-  "04.11 16:56 N  GPT  score +0.22 conf 0.43: Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 zay\u0131flamas\u0131 ve \u0130ran ile Kuzey Kore kaynakl\u0131 yeni g\u00fcvenlik haberleri alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak dolar hareketi ve se\u00e7im etkisi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; hisse ve tahvil rallisi de g\u00fcvenli liman talebini dengeleyebilir.",
   "04.11 17:31 N  NEWS (23 new) score +0.50 conf 0.55: Demokratlar\u0131n ara se\u00e7im s\u00fcp\u00fcrmesi dolar\u0131 ve tahvil getirilerini d\u00fc\u015f\u00fcrd\u00fc; Kitco'ya g\u00f6re alt\u0131n ve g\u00fcm\u00fc\u015f y\u00fckseldi, dolar 5 haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Hamaney'in uyar\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 13:55 UTC'de zaten fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
   "04.11 17:31 N  GPT  score +0.56 conf 0.68: Demokratlar\u0131n ara se\u00e7imlerdeki g\u00fc\u00e7l\u00fc sonucu sonras\u0131 dolar ve tahvil getirilerinin gerilemesi alt\u0131n\u0131 destekliyor; haber ak\u0131\u015f\u0131nda alt\u0131n ve g\u00fcm\u00fc\u015fte y\u00fckseli\u015f de bildiriliyor. Ancak se\u00e7im sonucu b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir ve \u0130ran sava\u015f\u0131 s\u00fcrerken y\u00f6nl\u00fc hareketin devam\u0131na dair belirsizlik var.",
   "04.11 17:31 B6  karar turu: Claude \u00abDemokratlar\u0131n se\u00e7im zaferine ra\u011fmen piyasa g\u00fc\u00e7l\u00fc ADP verisiyle risk i\u015ftahl\u0131 seyrediyor, ancak yapay zeka ve veri merkezi temal\u0131 hisselerde bask\u0131 s\u00fcr\u00fcyor.\u00bb / GPT \u00abGeni\u015f piyasada y\u00fckseli\u015f e\u011filimi bask\u0131n; ancak teknoloji haberleri ve d\u00f6rt kat kald\u0131ra\u00e7 nedeniyle ayn\u0131 y\u00f6ne a\u00e7\u0131lan pozisyonlar\u0131n toplam riski s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb",
@@ -17810,7 +17811,14 @@
   "05.11 19:12 N  GPT  score -0.55 conf 0.68: Yeni faiz art\u0131\u015f\u0131 ve Fed yetkililerinin enflasyon nedeniyle daha fazla s\u0131k\u0131la\u015fmay\u0131 desteklemesi, reel faizleri ve dolar\u0131 g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da yeni ba\u015fl\u0131klar gerilimin belirgin bi\u00e7imde t\u0131rmand\u0131\u011f\u0131n\u0131 g\u00f6stermiyor.",
   "05.11 19:12 B6  karar turu: Claude \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131 ve yapay zeka/veri merkezi endi\u015feleriyle b\u00fcy\u00fcme hisseleri sert sat\u0131l\u0131yor, savunmac\u0131 sekt\u00f6rler g\u00f6reli olarak g\u00fc\u00e7l\u00fc kal\u0131yor.\u00bb / GPT \u00abGeni\u015f piyasa ve teknoloji hisselerinde sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor; son tepki y\u00fckseli\u015fi short f\u0131rsat\u0131 sunsa da d\u00f6rt kat kald\u0131ra\u00e7ta ters hareket ve stop kaymas\u0131 riski y\u00fcksek.\u00bb",
   "05.11 19:14 B5  CLOSE short stop: -55.93 USD",
-  "05.11 19:14 B6  CLOSE short NVDA stop: -955.66 USD"
+  "05.11 19:14 B6  CLOSE short NVDA stop: -955.66 USD",
+  "05.11 20:37 N  NEWS (43 new) score -0.25 conf 0.40: ",
+  "05.11 20:37 N  GPT  score +0.16 conf 0.38: \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanma ihtimali ve Rusya'n\u0131n \u0130ran'a f\u00fcze sistemleri sa\u011flad\u0131\u011f\u0131na dair haberler k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran'\u0131n somut n\u00fckleer \u00f6nerileri de\u011ferlendirmesi ve dolar\u0131n g\u00fc\u00e7lenmesi bu etkiyi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan y\u00f6n sinyali zay\u0131f.",
+  "05.11 20:37 B6  CLOSE short QQQ stop: -1070.92 USD",
+  "05.11 20:37 B6  karar turu: Claude \u00abSe\u00e7im sonras\u0131 rallinin ard\u0131ndan AI/teknoloji kaynakl\u0131 sert sat\u0131\u015f s\u00fcr\u00fcyor; savunmac\u0131 sekt\u00f6rler \u00f6ne \u00e7\u0131karken trend kapan\u0131\u015fa kadar a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab\u00d6n\u00fcm\u00fczdeki 1\u20133 saatte a\u015fa\u011f\u0131 y\u00f6n a\u011f\u0131r bas\u0131yor; ancak sert g\u00fcnl\u00fck kay\u0131plar tepki riskini art\u0131r\u0131rken 1:4 kald\u0131ra\u00e7l\u0131 ve y\u00fcksek korelasyonlu k\u0131sa pozisyonlar\u0131n toplam riski s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb",
+  "05.11 20:37 B6  A\u00c7I\u011eA SATI\u015e SPY 143 adet \u2248 105,634 $ (1:4) @ 738.7 (TP 727.62, SL 746.09; ikisi de hemfikir, g\u00fcven 0.45)",
+  "05.11 20:37 B6  A\u00c7I\u011eA SATI\u015e QQQ 162 adet \u2248 105,966 $ (1:4) @ 654.11 (TP 644.3, SL 660.65; ikisi de hemfikir, g\u00fcven 0.55)",
+  "05.11 20:37 B6  A\u00c7I\u011eA SATI\u015e NVDA 576 adet \u2248 106,059 $ (1:4) @ 184.13 (TP 181.37, SL 185.97; ikisi de hemfikir, g\u00fcven 0.55)"
  ],
  "gold_big": {
   "account": {
@@ -26643,6 +26651,10 @@
    [
     1793895467,
     4963.78
+   ],
+   [
+    1793900274,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -35403,6 +35415,10 @@
    [
     1793895467,
     4975.18
+   ],
+   [
+    1793900274,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -44129,6 +44145,10 @@
    [
     1793895467,
     4993.28
+   ],
+   [
+    1793900274,
+    4993.28
    ]
   ]
  },
@@ -52692,6 +52712,10 @@
    [
     1793895467,
     4969.22
+   ],
+   [
+    1793900274,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -60774,6 +60798,10 @@
    [
     1793895467,
     4966.06
+   ],
+   [
+    1793900274,
+    4966.06
    ]
   ],
   "news_calls": {
@@ -60981,24 +61009,9 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 107008.68,
+   "balance": 106096.84,
    "start": 100000.0,
-   "positions": [
-    {
-     "id": "e5fa4935-f2f7-4af1-9f21-ae8f45aca198",
-     "symbol": "QQQ",
-     "side": "short",
-     "qty": 164.0,
-     "entry": 655.07,
-     "tp": 644.29,
-     "sl": 660.64,
-     "opened_ms": 1793893680790,
-     "entry_cost": 0.0,
-     "friction": 0.0,
-     "note": "Claude 0.55: Fed'in faiz art\u0131\u015f\u0131 sinyalleriyle teknoloji sat\u0131\u015f\u0131 h\u0131zlan\u0131yor, son 5 dakikada yeni dip k\u0131r\u0131ld\u0131. | GPT 0.75: Ba\u015far\u0131s\u0131z tepki denemesi ve yeni saatlik dipler, sert d\u00fc\u015f\u00fc\u015f\u00fc kovalama riskine ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 659.11
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "796d46d4-72b9-4f18-b92a-318fb0647650",
@@ -61287,16 +61300,34 @@
      "costs": 0.0,
      "pnl": -955.66,
      "entry_cost": 0.0
+    },
+    {
+     "id": "e5fa4935-f2f7-4af1-9f21-ae8f45aca198",
+     "symbol": "QQQ",
+     "side": "short",
+     "qty": 164,
+     "entry": 654.1,
+     "tp": 644.29,
+     "sl": 660.64,
+     "opened_ms": 1793893680790,
+     "note": "Claude 0.55: Fed'in faiz art\u0131\u015f\u0131 sinyalleriyle teknoloji sat\u0131\u015f\u0131 h\u0131zlan\u0131yor, son 5 dakikada yeni dip k\u0131r\u0131ld\u0131. | GPT 0.75: Ba\u015far\u0131s\u0131z tepki denemesi ve yeni saatlik dipler, sert d\u00fc\u015f\u00fc\u015f\u00fc kovalama riskine ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
+     "exit": 660.63,
+     "closed_ms": 1793900247435,
+     "reason": "stop",
+     "gross": -1070.92,
+     "costs": 0.0,
+     "pnl": -1070.92,
+     "entry_cost": 0.0
     }
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 469.95,
-    "trades": 9,
+    "pnl": 220.67,
+    "trades": 10,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 106346.12
+   "equity": 106096.84
   },
   "equity_curve": [
    [
@@ -69498,79 +69529,105 @@
    [
     1793895467,
     106346.12
+   ],
+   [
+    1793900274,
+    106096.84
    ]
   ],
   "open": {
+   "SPY": {
+    "order_id": "82178616-8618-46cb-9d61-df24dc2e32d4",
+    "symbol": "SPY",
+    "side": "short",
+    "qty": 143,
+    "entry": 738.7,
+    "tp": 727.62,
+    "sl": 746.09,
+    "opened_ms": 1793900247872,
+    "note": "Claude 0.45: Endeks g\u00fcn boyu d\u00fc\u015f\u00fc\u015f trendinde ve son saatte de zay\u0131flamaya devam ediyor; trend g\u00fcn\u00fc kapan\u0131\u015fa kadar s\u00fcrebilir. | GPT 0.62: Tepki y\u00fckseli\u015flerinin sat\u0131lmas\u0131 ve fiyat\u0131n son saat diplerinin alt\u0131na inmesi d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor."
+   },
    "QQQ": {
-    "order_id": "e5fa4935-f2f7-4af1-9f21-ae8f45aca198",
+    "order_id": "7c55c750-b907-4796-bf4f-dd1c7028e89f",
     "symbol": "QQQ",
     "side": "short",
-    "qty": 164,
-    "entry": 654.1,
-    "tp": 644.29,
-    "sl": 660.64,
-    "opened_ms": 1793893680790,
-    "note": "Claude 0.55: Fed'in faiz art\u0131\u015f\u0131 sinyalleriyle teknoloji sat\u0131\u015f\u0131 h\u0131zlan\u0131yor, son 5 dakikada yeni dip k\u0131r\u0131ld\u0131. | GPT 0.75: Ba\u015far\u0131s\u0131z tepki denemesi ve yeni saatlik dipler, sert d\u00fc\u015f\u00fc\u015f\u00fc kovalama riskine ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor."
+    "qty": 162,
+    "entry": 654.11,
+    "tp": 644.3,
+    "sl": 660.65,
+    "opened_ms": 1793900247872,
+    "note": "Claude 0.55: Yapay zeka sat\u0131\u015f dalgas\u0131 ve teknik destek k\u0131r\u0131l\u0131mlar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 endeksi bask\u0131lamaya devam ediyor. | GPT 0.67: AI hisselerindeki sat\u0131\u015f bask\u0131s\u0131 ve ba\u015far\u0131s\u0131z toparlanman\u0131n ard\u0131ndan gelen yeni dip k\u0131sa pozisyonu destekliyor."
+   },
+   "NVDA": {
+    "order_id": "40f456f9-8e8f-445c-9a2a-b4c5107178e1",
+    "symbol": "NVDA",
+    "side": "short",
+    "qty": 576,
+    "entry": 184.13,
+    "tp": 181.37,
+    "sl": 185.97,
+    "opened_ms": 1793900247872,
+    "note": "Claude 0.55: Microsoft'un neocloud \u015f\u00fcphecili\u011fi ve AI hisselerinin destek k\u0131rmas\u0131 gibi taze olumsuz haberlerle d\u00fc\u015f\u00fck seviyelerde zay\u0131f kapan\u0131\u015f bekleniyor. | GPT 0.65: AI hisselerindeki destek k\u0131r\u0131l\u0131\u015f\u0131 haberleri ve endekslerden zay\u0131f son saat performans\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam avantaj\u0131 sunuyor."
    }
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1793895119800,
+  "last_decision_ms": 1793900247872,
   "view": {
-   "ts": 1793895119800,
-   "claude": "\u015eahin Fed a\u00e7\u0131klamalar\u0131 ve yapay zeka/veri merkezi endi\u015feleriyle b\u00fcy\u00fcme hisseleri sert sat\u0131l\u0131yor, savunmac\u0131 sekt\u00f6rler g\u00f6reli olarak g\u00fc\u00e7l\u00fc kal\u0131yor.",
-   "gpt": "Geni\u015f piyasa ve teknoloji hisselerinde sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor; son tepki y\u00fckseli\u015fi short f\u0131rsat\u0131 sunsa da d\u00f6rt kat kald\u0131ra\u00e7ta ters hareket ve stop kaymas\u0131 riski y\u00fcksek.",
+   "ts": 1793900247872,
+   "claude": "Se\u00e7im sonras\u0131 rallinin ard\u0131ndan AI/teknoloji kaynakl\u0131 sert sat\u0131\u015f s\u00fcr\u00fcyor; savunmac\u0131 sekt\u00f6rler \u00f6ne \u00e7\u0131karken trend kapan\u0131\u015fa kadar a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor.",
+   "gpt": "\u00d6n\u00fcm\u00fczdeki 1\u20133 saatte a\u015fa\u011f\u0131 y\u00f6n a\u011f\u0131r bas\u0131yor; ancak sert g\u00fcnl\u00fck kay\u0131plar tepki riskini art\u0131r\u0131rken 1:4 kald\u0131ra\u00e7l\u0131 ve y\u00fcksek korelasyonlu k\u0131sa pozisyonlar\u0131n toplam riski s\u0131n\u0131rl\u0131 tutulmal\u0131.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "none",
-      0.35
+      "short",
+      0.45
      ],
      "gpt": [
       "short",
-      0.61
+      0.62
      ]
     },
     "QQQ": {
      "claude": [
-      null,
-      null
+      "short",
+      0.55
      ],
      "gpt": [
-      null,
-      null
+      "short",
+      0.67
      ]
     },
     "NVDA": {
      "claude": [
-      null,
-      null
+      "short",
+      0.55
      ],
      "gpt": [
-      null,
-      null
+      "short",
+      0.65
      ]
     },
     "AAPL": {
-     "claude": [
-      "long",
-      0.45
-     ],
-     "gpt": [
-      "none",
-      0.64
-     ]
-    },
-    "TSLA": {
      "claude": [
       "none",
       0.3
      ],
      "gpt": [
       "none",
-      0.73
+      0.61
+     ]
+    },
+    "TSLA": {
+     "claude": [
+      "none",
+      0.35
+     ],
+     "gpt": [
+      "none",
+      0.72
      ]
     }
    }
@@ -69580,7 +69637,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "295671.63",
+   "buying_power": "424387.36",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -76307,6 +76364,10 @@
    ],
    [
     1793895467,
+    5066.43
+   ],
+   [
+    1793900274,
     5066.43
    ]
   ],
