@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 03:26 (İstanbul)
+> Son güncelleme: 05.11.2026 03:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %43.9 |
 | Ödenen komisyon/spread | 11.85 $ | 487.33 $ |
 
-**Hesap değeri: 4,950.26 $** (başlangıç 5,000 $, -49.74 $ / %-0.99)
+**Hesap değeri: 4,955.36 $** (başlangıç 5,000 $, -44.64 $ / %-0.89)
 
 Açık pozisyonlar: PAXGUSDT long @ 4074.17 (TP 4086.40 / SL 4066.03)
 
-Son haber analizi (05.11 03:18): Claude puan **+0.35**, güven 0.50 — Demokratların Kongre'yi kazanmasının ardından dolar sert düştü ve altın yaklaşık %3,4-3,5 yükselerek 4.000 doların üzerine çıktı; bu, 1-4 saatlik görünümde net bir yukarı yönlü baskı. Ancak hareketin büyük kısmı zaten fiyatlanmış durumda, bazı haberler (BoE faiz artırımı beklentisi, Fed'in faiz artırım ihtimali) altın için karışık sinyal veriyor ve sert yükselişten sonra kâr realizasyonu riski yüksek.
+Son haber analizi (05.11 03:29): Claude puan **+0.45**, güven 0.60 — Demokratların Kongre'yi kazanması dolar ve tahvil getirilerini aşağı çekti; bu da altını yaklaşık %3,5 yükseltip 4.000 doların üzerine taşıdı. Savaş karşıtı siyasi baskı ve Fed/faiz beklentilerindeki yumuşama kısa vadede altı destekliyor, ancak sert yükselişin ardından kâr realizasyonu ve düzeltme riski yüksek, bu yüzden güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **+0.58**, güven 0.66 — Demokratların zaferi sonrası doların keskin düşmesi ve altının güçlü yükselişi kısa vadeli yukarı momentumu destekliyor; Kuzey Kore’nin füze denemeleri de güvenli liman talebine katkı sağlayabilir. Ancak yükselişin önemli kısmı zaten gerçekleşmiş ve faiz artışı beklentileri kâr satışları riskini art
+GPT (gpt-6-luna): puan **+0.42**, güven 0.58 — Demokratların zaferi sonrası dolar ve tahvil getirilerindeki düşüş altını destekliyor; İran savaşı nedeniyle artan siyasi belirsizlik de güvenli liman talebini canlı tutabilir. Ancak altın zaten sert yükseldi ve haberlerin çoğu bu harekete yansımış olabilir; savaşın sona ermesi beklentisi de yükseli
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 02:07 N  GPT  score +0.65 conf 0.62: İran’ın Qeşm Adası’na yönelik yeni ABD saldırısı kısa vadede güvenli liman talebini artırarak altını destekleyebilir; doların zayıflaması da olumlu. Ancak Trump’ın savaş risklerini hafife alması, savaşı bitirme yönündeki siyasi baskı ve altının zaten sert yükselmiş olması kazancı sınırlayabilir.
-05.11 02:19 N  NEWS (5 new) score +0.50 conf 0.50: 
 05.11 02:19 N  GPT  score +0.65 conf 0.58: Doların gerilemesi ve İran’a yönelik saldırı haberi, kısa vadede altına hem kur hem de güvenli liman kanalıyla destek veriyor; %3,4’lük sıçrama da yukarı yönlü momentumu gösteriyor. Ancak bu hareketin önemli kısmı fiyatlanmış olabilir ve risk iştahındaki artış olası kazançları sınırlayabilir.
 05.11 02:31 N  NEWS (6 new) score +0.40 conf 0.50: Demokratların Kongre'yi kazanması dolarda zayıflamaya ve altında yaklaşık %3,4'lük sert yükselişe yol açtı; petrol düşüşü de enflasyon ve Fed sıkılaştırma beklentilerini gevşetebileceği için altın lehine. Ancak hareketin büyük kısmı zaten fiyatlandı, aynı haber birçok kez tekrarlanıyor ve 1-4 saatlik vadede kâr realizasyonu ile geri çekilme riski yüksek, bu yüzden güven sınırlı.
 05.11 02:31 N  GPT  score +0.68 conf 0.67: Doların seçim sonuçları sonrası gerilemesi ve altının 4.050 doların üzerine çıkarak güçlü momentum kazanması kısa vadede yükselişi destekliyor. Ancak hareketin büyük kısmı yaşanmış olabilir; İran savaşının sona ermesi ihtimali ve düşen petrol fiyatı güvenli liman talebini sınırlayabilir.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 03:18 N  GPT  score +0.58 conf 0.66: Demokratların zaferi sonrası doların keskin düşmesi ve altının güçlü yükselişi kısa vadeli yukarı momentumu destekliyor; Kuzey Kore’nin füze denemeleri de güvenli liman talebine katkı sağlayabilir. Ancak yükselişin önemli kısmı zaten gerçekleşmiş ve faiz artışı beklentileri kâr satışları riskini art
 05.11 03:21 B5  CLOSE long take profit: +69.06 USD
 05.11 03:26 B5  LONG gold 25000 USD x10 @ 4074.17 (TP 4086.40, SL 4066.03; news +0.46)
+05.11 03:29 N  NEWS (5 new) score +0.45 conf 0.60: Demokratların Kongre'yi kazanması dolar ve tahvil getirilerini aşağı çekti; bu da altını yaklaşık %3,5 yükseltip 4.000 doların üzerine taşıdı. Savaş karşıtı siyasi baskı ve Fed/faiz beklentilerindeki yumuşama kısa vadede altı destekliyor, ancak sert yükselişin ardından kâr realizasyonu ve düzeltme riski yüksek, bu yüzden güven orta düzeyde tutuldu.
+05.11 03:29 N  GPT  score +0.42 conf 0.58: Demokratların zaferi sonrası dolar ve tahvil getirilerindeki düşüş altını destekliyor; İran savaşı nedeniyle artan siyasi belirsizlik de güvenli liman talebini canlı tutabilir. Ancak altın zaten sert yükseldi ve haberlerin çoğu bu harekete yansımış olabilir; savaşın sona ermesi beklentisi de yükseli
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
