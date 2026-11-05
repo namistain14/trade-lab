@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 12:36 (İstanbul)
+> Son güncelleme: 05.11.2026 12:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %66.7 | %45.7 |
 | Ödenen komisyon/spread | 70.97 $ | 546.46 $ |
 
-**Hesap değeri: 5,065.05 $** (başlangıç 5,000 $, +65.05 $ / %+1.30)
+**Hesap değeri: 5,069.55 $** (başlangıç 5,000 $, +69.55 $ / %+1.39)
 
 Açık pozisyonlar: PAXGUSDT long @ 4116.71 (TP 4129.06 / SL 4108.48)
 
-Son haber analizi (05.11 12:27): Claude puan **+0.35**, güven 0.50 — ABD ara seçim sonuçları sonrası dolar ve Treasury getirileri zayıfladı; bu, altın için kısa vadede destekleyici. İran savaşı ve Hürmüz'deki gerilim gibi jeopolitik riskler güvenli liman talebini artırabilir, ancak bazı haberler (eski, zaten fiyatlanmış olanlar ve Fed beklentisine dair net bir yönlendirme olmaması) güveni sınırlıyor.
+Son haber analizi (05.11 12:39): Claude puan **+0.25**, güven 0.40 — ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gevşedi, bu altın için olumlu; İran savaşı ve yeni yaptırımlar güvenli liman talebini destekliyor. Ancak altının bu haber akışıyla 08:38 civarında zaten yükseldiği görülüyor, Fed enflasyon tahmini tarafı ise belirsiz ve risk iştahı karışık, bu yüzden güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.36**, güven 0.53 — Doların siyasi belirsizlikle zayıflaması ve ABD tahvil getirilerindeki düşüş altını destekliyor; İran gerilimi ve Kuzey Kore’nin füze testi de sınırlı güvenli liman talebi yaratabilir. Ancak doların yeniden güçlendiğine ve piyasa yönünün netleşmediğine işaret eden haberler yükseliş beklentisini törp
+GPT (gpt-6-luna): puan **+0.20**, güven 0.35 — İran’a yönelik yeni yaptırımlar güvenli liman talebini bir miktar destekleyebilir; daha önceki haberlerde dolar ve tahvil getirilerindeki gevşeme de altın için olumlu. Ancak enflasyon görünümüne dair belirsiz başlıklar ve haberlerin bir kısmının zaten fiyatlanmış olma ihtimali kısa vadeli etkiyi sın
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 11:03 N  NEWS (25 new) score +0.45 conf 0.60: ABD ara seçim sonrası dolar zayıflıyor ve tahvil getirileri düşüyor; bu, altın için yükseliş yönlü bir etki. Petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatıp Fed'in daha gevşek duruşuna destek veriyor. Buna karşın İran savaşının tırmanma ihtimali ve Trump'ın yeni hamlesine ilişkin belirsizlik, güvenli liman talebini destekliyor; ancak barış umutları ve fiyatlanmış haberler bu etkiyi kısmen sınırlıyor.
-05.11 11:03 N  GPT  score +0.35 conf 0.46: Doların ve tahvil getirilerinin gerilemesi ile İran savaşı çevresindeki siyasi belirsizlik altını kısa vadede destekliyor. Ancak altındaki yükselişin zaten gerçekleşmiş olması ve barış umutlarına dair çelişkili haberler ek yükseliş beklentisini sınırlıyor.
 05.11 11:03 B5  LONG gold 25000 USD x10 @ 4116.71 (TP 4129.06, SL 4108.48; news +0.40)
 05.11 11:15 N  NEWS (10 new) score +0.40 conf 0.50: 
 05.11 11:15 N  GPT  score +0.35 conf 0.53: Dolar ve getirilerdeki gerileme ile Hürmüz’de tanker yangını iddiası kısa vadede altına destek verebilir. Ancak barış umutları ve yükselişin haberlerde zaten fiyatlanmış görünmesi, olası kazancı ve güveni sınırlıyor.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 12:15 N  GPT  score +0.32 conf 0.46: Dolar ve tahvil getirilerindeki gerilemeyle altının yükseldiği haberleri kısa vadede destekleyici; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak bu hareketin büyük ölçüde fiyatlanmış olma ihtimali ve petrolün gerilemesi yükselişi sınırlıyor.
 05.11 12:27 N  NEWS (8 new) score +0.35 conf 0.50: ABD ara seçim sonuçları sonrası dolar ve Treasury getirileri zayıfladı; bu, altın için kısa vadede destekleyici. İran savaşı ve Hürmüz'deki gerilim gibi jeopolitik riskler güvenli liman talebini artırabilir, ancak bazı haberler (eski, zaten fiyatlanmış olanlar ve Fed beklentisine dair net bir yönlendirme olmaması) güveni sınırlıyor.
 05.11 12:27 N  GPT  score +0.36 conf 0.53: Doların siyasi belirsizlikle zayıflaması ve ABD tahvil getirilerindeki düşüş altını destekliyor; İran gerilimi ve Kuzey Kore’nin füze testi de sınırlı güvenli liman talebi yaratabilir. Ancak doların yeniden güçlendiğine ve piyasa yönünün netleşmediğine işaret eden haberler yükseliş beklentisini törp
+05.11 12:39 N  NEWS (8 new) score +0.25 conf 0.40: ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gevşedi, bu altın için olumlu; İran savaşı ve yeni yaptırımlar güvenli liman talebini destekliyor. Ancak altının bu haber akışıyla 08:38 civarında zaten yükseldiği görülüyor, Fed enflasyon tahmini tarafı ise belirsiz ve risk iştahı karışık, bu yüzden güven sınırlı.
+05.11 12:39 N  GPT  score +0.20 conf 0.35: İran’a yönelik yeni yaptırımlar güvenli liman talebini bir miktar destekleyebilir; daha önceki haberlerde dolar ve tahvil getirilerindeki gevşeme de altın için olumlu. Ancak enflasyon görünümüne dair belirsiz başlıklar ve haberlerin bir kısmının zaten fiyatlanmış olma ihtimali kısa vadeli etkiyi sın
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
