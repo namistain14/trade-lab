@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 19:08 (İstanbul)
+> Son güncelleme: 05.11.2026 19:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %54.5 | %45.1 |
 | Ödenen komisyon/spread | 130.13 $ | 605.62 $ |
 
-**Hesap değeri: 5,016.06 $** (başlangıç 5,000 $, +16.06 $ / %+0.32)
+**Hesap değeri: 4,985.23 $** (başlangıç 5,000 $, -14.77 $ / %-0.30)
 
 Açık pozisyonlar: PAXGUSDT short @ 4078.22 (TP 4065.99 / SL 4086.38)
 
-Son haber analizi (05.11 18:59): Claude puan **-0.45**, güven 0.60 — Birden fazla Fed yetkilisi (Barkin, Hammack, Richmond Fed) faiz artışlarının devam edeceğini ve enflasyonun yüksek kaldığını söylüyor; TD Securities da daha fazla sıkılaşma bekliyor. Bu, reel faizler ve dolar açısından altın için baskılayıcı; dolar da toparlanıyor. İran savaşıyla ilgili haberler jeopolitik risk primi sağlasa da, manşetlerin çoğu siyasi tartışma niteliğinde ve fiyatlanmış görünüyor.
+Son haber analizi (05.11 19:11): Claude puan **-0.50**, güven 0.60 — Yeni haberlerin ağırlıklı etkisi altın için negatif: Fed'li Barkin ve Cleveland Fed'li Hammack kısıtlayıcı faiz ve daha fazla faiz artırımı gerektiğini söylüyor, DXY/dolar güçleniyor ve reel getiriler altın rallisini zorluyor. İran savaşı kaynaklı güvenli liman talebi ise destekleyici olsa da bu gelişmeler büyük ölçüde fiyatlanmış ve haberlerin tutarlılığı zayıf; bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.46 — Fed yetkililerinin enflasyon nedeniyle kısıtlayıcı faizleri ve kademeli faiz artışlarını desteklemesi, dolar ve reel faizler kanalıyla altın üzerinde baskı oluşturabilir. İran’ın Avrupa’ya yönelik füze tehdidi güvenli liman talebini desteklese de kısa vadeli etki karışık ve haberlerin bir kısmı tekr
+GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Yeni faiz artışı ve Fed yetkililerinin enflasyon nedeniyle daha fazla sıkılaşmayı desteklemesi, reel faizleri ve doları güçlendirerek altın üzerinde baskı yaratabilir. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da yeni başlıklar gerilimin belirgin biçimde tırmandığını göstermiyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,161.74 $** (başlangıç 100,000 $, +9161.74 $ / %+9.16)
+**Hesap değeri: 107,433.40 $** (başlangıç 100,000 $, +7433.40 $ / %+7.43)
 
 Açık pozisyonlar: NVDA short @ 184.81 (TP 181.66 / SL 186.27); QQQ short @ 655.07 (TP 644.29 / SL 660.64)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 18:36 B5  SHORT gold 25000 USD x10 @ 4095.67 (TP 4083.38, SL 4103.86; news -0.40)
-05.11 18:36 B6  karar turu: Claude «Fed'in faiz artışı sinyalleri ve AI/çip satışlarıyla piyasa ciddi risk-off modunda; son barlarda gelen tepki alımı kırılgan olduğundan seçici kalıp göreceli güçlü isimlere yöneliyorum.» / GPT «Piyasa genelinde satış baskısı baskın ancak uzamış düşüşler tepki riskini artırıyor; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlı tutulmalı.»
-05.11 18:48 N  NEWS (14 new) score -0.50 conf 0.60: Fed yetkililerinin (Hammack, Barkin) sıkılaştırmadan yana açıklamaları, BoE'nin faiz artırımı ve enflasyonun 6 yılın zirvesine yakın seyretmesi reel faizleri ve faiz artırımı beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar da toparlanma sinyali veriyor. Savaş kaynaklı güvenli liman talebi sürse de İran'da diplomatik ilerleme haberleri bu desteği sınırlıyor.
 05.11 18:48 N  GPT  score -0.20 conf 0.58: Fed yetkilisinin enflasyon karşısında kısıtlayıcı faizleri savunması ve doların toparlanması altın üzerinde kısa vadeli baskı yaratabilir. İran savaşıyla bağlantılı gerilim güvenli liman talebini desteklese de haber akışı karışık; bu etkiyi kısmen dengeliyor.
 05.11 18:48 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka hisselerindeki çözülmeyle piyasa güçlü bir satış dalgasında, momentum aşağı yönlü.» / GPT «Şahin Fed açıklamaları ve endekslerde süren dip yenilemeleri satış yönünü destekliyor; ancak dört kat kaldıraçta ilişkili teknoloji pozisyonlarının toplam riski ve tepki yükselişi olasılığı yüksek.»
 05.11 18:48 B6  AÇIĞA SATIŞ QQQ 164 adet ≈ 107,272 $ (1:4) @ 654.1 (TP 644.29, SL 660.64; ikisi de hemfikir, güven 0.55)
@@ -103,6 +100,9 @@ Son işlemler:
 05.11 19:00 B6  karar turu: Claude «Seçim sonrası AI regülasyonu endişeleri ve şahin Fed söylemleriyle teknoloji ağırlıklı sert satış sürüyor; kısa vadeli tepki alımı mümkün ama trend zayıf.» / GPT «Genel eğilim aşağı yönlü; kaldıraç ve ilişkili açık pozisyonlar nedeniyle ek satış riskini sınırlı tutarak tepki yükselişlerini değerlendirmek daha uygun.»
 05.11 19:02 B5  CLOSE short stop: -55.93 USD
 05.11 19:08 B5  SHORT gold 25000 USD x10 @ 4078.22 (TP 4065.99, SL 4086.38; news -0.33)
+05.11 19:12 N  NEWS (10 new) score -0.50 conf 0.60: Yeni haberlerin ağırlıklı etkisi altın için negatif: Fed'li Barkin ve Cleveland Fed'li Hammack kısıtlayıcı faiz ve daha fazla faiz artırımı gerektiğini söylüyor, DXY/dolar güçleniyor ve reel getiriler altın rallisini zorluyor. İran savaşı kaynaklı güvenli liman talebi ise destekleyici olsa da bu gelişmeler büyük ölçüde fiyatlanmış ve haberlerin tutarlılığı zayıf; bu nedenle güven orta düzeyde.
+05.11 19:12 N  GPT  score -0.55 conf 0.68: Yeni faiz artışı ve Fed yetkililerinin enflasyon nedeniyle daha fazla sıkılaşmayı desteklemesi, reel faizleri ve doları güçlendirerek altın üzerinde baskı yaratabilir. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da yeni başlıklar gerilimin belirgin biçimde tırmandığını göstermiyor.
+05.11 19:12 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka/veri merkezi endişeleriyle büyüme hisseleri sert satılıyor, savunmacı sektörler göreli olarak güçlü kalıyor.» / GPT «Geniş piyasa ve teknoloji hisselerinde satış baskısı sürüyor; son tepki yükselişi short fırsatı sunsa da dört kat kaldıraçta ters hareket ve stop kayması riski yüksek.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
