@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 20:46 (İstanbul)
+> Son güncelleme: 05.11.2026 20:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (05.11 20:37): Claude puan **-0.25**, güven 0.40 — Yeni haberlerin ağırlıklı etkisi altın için negatif: Fed'li Barkin ve Cleveland Fed'li Hammack kısıtlayıcı faiz ve daha fazla faiz artırımı gerektiğini söylüyor, DXY/dolar güçleniyor ve reel getiriler altın rallisini zorluyor. İran savaşı kaynaklı güvenli liman talebi ise destekleyici olsa da bu gelişmeler büyük ölçüde fiyatlanmış ve haberlerin tutarlılığı zayıf; bu nedenle güven orta düzeyde.
+Son haber analizi (05.11 20:49): Claude puan **-0.25**, güven 0.40 — Yeni haberlerin ağırlıklı etkisi altın için negatif: Fed'li Barkin ve Cleveland Fed'li Hammack kısıtlayıcı faiz ve daha fazla faiz artırımı gerektiğini söylüyor, DXY/dolar güçleniyor ve reel getiriler altın rallisini zorluyor. İran savaşı kaynaklı güvenli liman talebi ise destekleyici olsa da bu gelişmeler büyük ölçüde fiyatlanmış ve haberlerin tutarlılığı zayıf; bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.16**, güven 0.38 — İran savaşının tırmanma ihtimali ve Rusya'nın İran'a füze sistemleri sağladığına dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak İran'ın somut nükleer önerileri değerlendirmesi ve doların güçlenmesi bu etkiyi sınırlıyor; haber akışı çelişkili olduğundan yön sinyali zayıf.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.32 — İran’a Rusya’dan füze sistemleri tedarik edildiğine dair haberler jeopolitik risk ve güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve petrol kaynaklı faiz/enflasyon kaygıları altının yükselişini sınırlıyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 106,801.99 $** (başlangıç 100,000 $, +6801.99 $ / %+6.80)
+**Hesap değeri: 106,734.45 $** (başlangıç 100,000 $, +6734.45 $ / %+6.73)
 
 Açık pozisyonlar: NVDA short @ 183.87 (TP 181.37 / SL 185.97); QQQ short @ 653.82 (TP 644.30 / SL 660.65); SPY short @ 738.48 (TP 727.62 / SL 746.09)
 
@@ -86,10 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 19:00 B6  karar turu: Claude «Seçim sonrası AI regülasyonu endişeleri ve şahin Fed söylemleriyle teknoloji ağırlıklı sert satış sürüyor; kısa vadeli tepki alımı mümkün ama trend zayıf.» / GPT «Genel eğilim aşağı yönlü; kaldıraç ve ilişkili açık pozisyonlar nedeniyle ek satış riskini sınırlı tutarak tepki yükselişlerini değerlendirmek daha uygun.»
-05.11 19:02 B5  CLOSE short stop: -55.93 USD
-05.11 19:08 B5  SHORT gold 25000 USD x10 @ 4078.22 (TP 4065.99, SL 4086.38; news -0.33)
-05.11 19:12 N  NEWS (10 new) score -0.50 conf 0.60: Yeni haberlerin ağırlıklı etkisi altın için negatif: Fed'li Barkin ve Cleveland Fed'li Hammack kısıtlayıcı faiz ve daha fazla faiz artırımı gerektiğini söylüyor, DXY/dolar güçleniyor ve reel getiriler altın rallisini zorluyor. İran savaşı kaynaklı güvenli liman talebi ise destekleyici olsa da bu gelişmeler büyük ölçüde fiyatlanmış ve haberlerin tutarlılığı zayıf; bu nedenle güven orta düzeyde.
 05.11 19:12 N  GPT  score -0.55 conf 0.68: Yeni faiz artışı ve Fed yetkililerinin enflasyon nedeniyle daha fazla sıkılaşmayı desteklemesi, reel faizleri ve doları güçlendirerek altın üzerinde baskı yaratabilir. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da yeni başlıklar gerilimin belirgin biçimde tırmandığını göstermiyor.
 05.11 19:12 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka/veri merkezi endişeleriyle büyüme hisseleri sert satılıyor, savunmacı sektörler göreli olarak güçlü kalıyor.» / GPT «Geniş piyasa ve teknoloji hisselerinde satış baskısı sürüyor; son tepki yükselişi short fırsatı sunsa da dört kat kaldıraçta ters hareket ve stop kayması riski yüksek.»
 05.11 19:14 B5  CLOSE short stop: -55.93 USD
@@ -101,6 +97,10 @@ Son işlemler:
 05.11 20:37 B6  AÇIĞA SATIŞ SPY 143 adet ≈ 105,634 $ (1:4) @ 738.7 (TP 727.62, SL 746.09; ikisi de hemfikir, güven 0.45)
 05.11 20:37 B6  AÇIĞA SATIŞ QQQ 162 adet ≈ 105,966 $ (1:4) @ 654.11 (TP 644.3, SL 660.65; ikisi de hemfikir, güven 0.55)
 05.11 20:37 B6  AÇIĞA SATIŞ NVDA 576 adet ≈ 106,059 $ (1:4) @ 184.13 (TP 181.37, SL 185.97; ikisi de hemfikir, güven 0.55)
+05.11 20:49 N  NEWS (12 new) score -0.25 conf 0.40: 
+05.11 20:49 N  GPT  score +0.15 conf 0.32: İran’a Rusya’dan füze sistemleri tedarik edildiğine dair haberler jeopolitik risk ve güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve petrol kaynaklı faiz/enflasyon kaygıları altının yükselişini sınırlıyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
+05.11 20:49 B6  karar turu: Claude «AI ve teknoloji odaklı sert satış sürüyor, defansif hisseler göreli olarak güçlü kalırken kapanışa doğru oynaklık yüksek kalabilir.» / GPT «Piyasanın ana yönü aşağı; AAPL’deki göreli güç seçici alımı desteklese de mevcut endeks ve NVDA pozisyonlarıyla birleşen dört kat kaldıraç toplam riski artırıyor.»
+05.11 20:49 B6  ALIŞ AAPL 128 adet ≈ 44,159 $ (1:4) @ 344.99 (TP 350.16, SL 341.54; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
