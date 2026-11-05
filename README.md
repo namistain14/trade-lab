@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 17:45 (İstanbul)
+> Son güncelleme: 05.11.2026 17:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 5,120.67 $** (başlangıç 5,000 $, +120.67 $ / %+2.41)
 
-Son haber analizi (05.11 17:36): Claude puan **+0.02**, güven 0.35 — Haberler karışık: Fed'li Hammack ve BoE'nin faiz artırımı altın için baskılayıcı, ancak yükselen jobless claims, düşen tahviller ve yumuşayan işgücü maliyetleri altını destekliyor; İran savaşı ve jeopolitik risk ise güvenli liman talebini artırabilir. Fiyatlar 4.100 doların üzerinde tutunduğu için net etki yaklaşık nötr.
+Son haber analizi (05.11 17:48): Claude puan **-0.35**, güven 0.50 — Yeni başlıkların ağırlığı sıkılaşma yönünde: Fed'li Hammack ve Barkin faiz artırımlarını destekliyor, BoE ve bir merkez bankası faiz artırdı ve dolar toparlanıyor; altın 4.150 doları aşamadı. Buna karşılık İran diplomasisindeki ilerleme güvenli liman talebini biraz azaltıyor, ancak savaş riski hâlâ sürüyor ve bazı madencilik hisselerindeki yükseliş altının toparlandığına işaret ediyor; bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.42 — Fed yetkilisi Hammack’ın kısıtlayıcı politika ve kademeli faiz artırımı vurgusu altın için kısa vadede baskı yaratabilir. Ancak düşen getiriler, zayıflayan işgücü maliyetleri ve artan işsizlik başvuruları altını destekleyerek görünümü dengeliyor.
+GPT (gpt-6-luna): puan **-0.18**, güven 0.32 — İran’ın diplomatik ilerleme bildirmesi güvenli liman talebini sınırlayabilir; doların yeniden güçlenmesi de altın için kısa vadede baskı oluşturuyor. Buna karşılık haber akışı çelişkili ve bazı faiz haberlerinin ABD politikasına doğrudan etkisi belirsiz olduğundan görünüm temkinli ve hafif aşağı yön
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %41.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 104,973.19 $** (başlangıç 100,000 $, +4973.19 $ / %+4.97)
+**Hesap değeri: 105,448.60 $** (başlangıç 100,000 $, +5448.60 $ / %+5.45)
 
 Açık pozisyonlar: AAPL long @ 353.95 (TP 358.80 / SL 349.96)
 
@@ -86,10 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 15:48 N  NEWS (9 new) score -0.10 conf 0.40: 
-05.11 15:48 N  GPT  score +0.25 conf 0.42: Altın son yükselişini koruyor; düşen dolar ve tahvil getirileri ile İran savaşı kaynaklı belirsizlik kısa vadede destekleyici. Ancak petrol kaynaklı daha yüksek faiz beklentisi ve BoE faiz artışı bu desteği sınırlıyor; başlıklar çelişkili olduğundan güven düşük-orta.
-05.11 16:32 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-05.11 16:32 N  NEWS (28 new) score -0.05 conf 0.35: Haberler karışık: Dolar ve ABD işsizlik/istihdam verileri öncesinde yeniden güçleniyor ve altın 4.150 doların altında duraklıyor, bu kısa vadede baskı yaratır. Buna karşılık Demokratların Kongre zaferi doları zayıflatıyor, Hürmüz'deki gemi saldırıları ve İran savaşı güvenli liman talebini destekliyor; BoE'nin faiz artırımı ise sıkılaşma beklentilerini artırarak altın için olumsuz. Tüm bu etkiler birbirini dengelediğinden yön net değil.
 05.11 16:32 B6  seans öncesi görüş: Güçlü makro veriler ve seçim sonrası iyimserlik geniş piyasayı destekliyor, ancak çip ve Tesla tarafındaki şirkete özel baskılar seçici olmayı gerektiriyor.
 05.11 16:44 N  NEWS (11 new) score +0.05 conf 0.35: Sinyaller karışık: Demokratların Kongre'yi alması ve dolar/tahvil getirilerindeki düşüş altını destekleyebilir, İran'da savaşın yeniden başlayabileceğine dair haberler ise güvenli liman talebini artırır. Buna karşılık Bank of England'ın faiz artırımı ve ABD GSYİH verisinin Fed beklentilerini sertleştirmesi altın için baskı yaratır; bu nedenlerle etki sınırlı ve yön belirsiz kalıyor.
 05.11 16:44 N  GPT  score +0.35 conf 0.44: Demokratların Kongreyi alması ve seçim sonucunun doları zayıflatıp tahvil getirilerini düşürmesi altını destekleyebilir; İran’la gerilimin sürmesi de güvenli liman talebini artırıyor. Ancak savaşın sona erebileceği beklentisi, doların yeniden güçlenmesi ve yaklaşan ABD istihdam verileri kısa vadeli 
@@ -101,6 +97,10 @@ Son işlemler:
 05.11 17:36 N  GPT  score -0.15 conf 0.42: Fed yetkilisi Hammack’ın kısıtlayıcı politika ve kademeli faiz artırımı vurgusu altın için kısa vadede baskı yaratabilir. Ancak düşen getiriler, zayıflayan işgücü maliyetleri ve artan işsizlik başvuruları altını destekleyerek görünümü dengeliyor.
 05.11 17:36 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka/çip satışıyla teknoloji ağırlıklı sert bir risk iştahı kaybı yaşanıyor; geniş piyasa henüz tam yetişmemiş görünüyor.» / GPT «Şahin Fed söylemleriyle teknoloji ağırlıklı satış baskısı baskın; dört kat kaldıraçta ilişkili kısa pozisyonların toplam riski birlikte sınırlandırılmalı.»
 05.11 17:36 B6  ALIŞ AAPL 299 adet ≈ 105,696 $ (1:4) @ 353.5 (TP 358.8, SL 349.96; ikisi de hemfikir, güven 0.45)
+05.11 17:48 N  NEWS (18 new) score -0.35 conf 0.50: Yeni başlıkların ağırlığı sıkılaşma yönünde: Fed'li Hammack ve Barkin faiz artırımlarını destekliyor, BoE ve bir merkez bankası faiz artırdı ve dolar toparlanıyor; altın 4.150 doları aşamadı. Buna karşılık İran diplomasisindeki ilerleme güvenli liman talebini biraz azaltıyor, ancak savaş riski hâlâ sürüyor ve bazı madencilik hisselerindeki yükseliş altının toparlandığına işaret ediyor; bu yüzden güven orta düzeyde.
+05.11 17:48 N  GPT  score -0.18 conf 0.32: İran’ın diplomatik ilerleme bildirmesi güvenli liman talebini sınırlayabilir; doların yeniden güçlenmesi de altın için kısa vadede baskı oluşturuyor. Buna karşılık haber akışı çelişkili ve bazı faiz haberlerinin ABD politikasına doğrudan etkisi belirsiz olduğundan görünüm temkinli ve hafif aşağı yön
+05.11 17:48 B6  karar turu: Claude «Piyasa, teknoloji ve yapay zekâ hisselerinin önderliğinde güçlü bir risk-off satışı yaşıyor; düşüş ivmesi sürse de aşırı uzamış hareketlerde tepki riski var.» / GPT «Piyasa satış ağırlıklı; dört kat kaldıraçta ilişkili kısa pozisyonların toplam riskini sınırlamak ve sert düşmüş hisselerde tepki yükselişlerine dikkat etmek gerekiyor.»
+05.11 17:48 B6  AÇIĞA SATIŞ NVDA 552 adet ≈ 105,432 $ (1:4) @ 191.0 (TP 188.13, SL 192.91; ikisi de hemfikir, güven 0.58)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
