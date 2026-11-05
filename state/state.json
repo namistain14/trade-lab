@@ -2777,6 +2777,10 @@
    [
     1793889551,
     5000.0
+   ],
+   [
+    1793889730,
+    5000.0
    ]
   ],
   "archive": [
@@ -14504,6 +14508,10 @@
    ],
    [
     1793889551,
+    4868.5
+   ],
+   [
+    1793889730,
     4868.5
    ]
   ],
@@ -26307,6 +26315,10 @@
    [
     1793889551,
     4963.78
+   ],
+   [
+    1793889730,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -34955,6 +34967,10 @@
    [
     1793889551,
     4975.18
+   ],
+   [
+    1793889730,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -43569,6 +43585,10 @@
    [
     1793889551,
     4993.28
+   ],
+   [
+    1793889730,
+    4993.28
    ]
   ]
  },
@@ -52020,6 +52040,10 @@
    [
     1793889551,
     4969.22
+   ],
+   [
+    1793889730,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -59885,6 +59909,10 @@
    [
     1793889551,
     5120.67
+   ],
+   [
+    1793889730,
+    5120.67
    ]
   ],
   "news_calls": {
@@ -60092,7 +60120,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 105876.17,
+   "balance": 105876.17069999999,
    "start": 100000.0,
    "positions": [
     {
@@ -60107,7 +60135,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Nasdaq sert d\u00fc\u015ferken pozitif kalarak g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor; tahvil ihrac\u0131 n\u00f6tr, savunmac\u0131 rotasyondan faydalanabilir. | GPT 0.58: Zay\u0131f piyasaya ra\u011fmen g\u00fcnl\u00fck kazanc\u0131n\u0131 korumas\u0131 ve son diplerden toparlanmas\u0131 s\u0131n\u0131rl\u0131 bir al\u0131\u015f avantaj\u0131 sunuyor.",
-     "cur": 354.09
+     "cur": 352.2907
     }
    ],
    "trades": [
@@ -60330,12 +60358,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 41.86,
+    "pnl": -496.13,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 105918.03
+   "equity": 105380.04
   },
   "equity_curve": [
    [
@@ -68425,6 +68453,10 @@
    [
     1793889551,
     105918.03
+   ],
+   [
+    1793889730,
+    105380.04
    ]
   ],
   "open": {
@@ -68507,7 +68539,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "296624.63",
+   "buying_power": "295118.25",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -75122,6 +75154,10 @@
    ],
    [
     1793889551,
+    5066.43
+   ],
+   [
+    1793889730,
     5066.43
    ]
   ],
