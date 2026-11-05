@@ -2833,6 +2833,10 @@
    [
     1793892987,
     5000.0
+   ],
+   [
+    1793893127,
+    5000.0
    ]
   ],
   "archive": [
@@ -14616,6 +14620,10 @@
    ],
    [
     1793892987,
+    4868.5
+   ],
+   [
+    1793893127,
     4868.5
    ]
   ],
@@ -26475,6 +26483,10 @@
    [
     1793892987,
     4963.78
+   ],
+   [
+    1793893127,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -35179,6 +35191,10 @@
    [
     1793892987,
     4975.18
+   ],
+   [
+    1793893127,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -43849,6 +43865,10 @@
    [
     1793892987,
     4993.28
+   ],
+   [
+    1793893127,
+    4993.28
    ]
   ]
  },
@@ -52356,6 +52376,10 @@
    [
     1793892987,
     4969.22
+   ],
+   [
+    1793893127,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -60335,6 +60359,10 @@
    [
     1793892987,
     5002.9
+   ],
+   [
+    1793893127,
+    5012.24
    ]
   ],
   "news_calls": {
@@ -60542,7 +60570,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 106064.94,
+   "balance": 106086.41,
    "start": 100000.0,
    "positions": [
     {
@@ -60557,7 +60585,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Endeks her 5 dakikal\u0131k mumda yeni dip yap\u0131yor ve QQQ'ya g\u00f6re daha az uzam\u0131\u015f; trend g\u00fcn\u00fc devam edebilir. | GPT 0.67: Kesintisiz a\u015fa\u011f\u0131 y\u00f6nl\u00fc kapan\u0131\u015flar ve Fed'in enflasyon vurgusu, tepki riski bulunsa da d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 747.83
+     "cur": 746.75
     }
    ],
    "trades": [
@@ -60816,12 +60844,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 576.52,
+    "pnl": 750.27,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 106452.69
+   "equity": 106626.44
   },
   "equity_curve": [
    [
@@ -68967,6 +68995,10 @@
    [
     1793892987,
     106452.69
+   ],
+   [
+    1793893127,
+    106626.44
    ]
   ],
   "open": {
@@ -69049,7 +69081,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "299252.14",
+   "buying_power": "300155.66",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -75720,6 +75752,10 @@
    ],
    [
     1793892987,
+    5066.43
+   ],
+   [
+    1793893127,
     5066.43
    ]
   ],
