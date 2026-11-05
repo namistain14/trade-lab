@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 06:56 (İstanbul)
+> Son güncelleme: 05.11.2026 07:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %100.0 | %47.7 |
 | Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
 
-**Hesap değeri: 5,163.39 $** (başlangıç 5,000 $, +163.39 $ / %+3.27)
+**Hesap değeri: 5,157.48 $** (başlangıç 5,000 $, +157.48 $ / %+3.15)
 
-Son haber analizi (05.11 06:48): Claude puan **+0.50**, güven 0.60 — Ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve ABD tahvil getirileri düştü; bu, altın için net olarak yükseliş yönlü bir etki. Petrol fiyatlarının İran savaşının bitebileceği beklentisiyle düşmesi enflasyon beklentilerini ve Fed sıkılığı algısını yumuşatarak destekliyor. Ancak fiyat hareketinin büyük kısmı zaten gerçekleşti ve jeopolitik risk primi azaldığı için güvenli liman talebi zayıflıyor; bu nedenle kısa vadede kâr realizasyonu riski var.
+Açık pozisyonlar: PAXGUSDT long @ 4132.35 (TP 4144.74 / SL 4124.08)
 
-GPT (gpt-6-luna): puan **+0.48**, güven 0.66 — Dolar ve tahvil getirilerindeki düşüş altını kısa vadede destekliyor; yeni başlıklar yükselişi teyit ediyor. Ancak hareketin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşının sona ereceği beklentisi güvenli liman talebini azaltabilir.
+Son haber analizi (05.11 07:00): Claude puan **+0.45**, güven 0.50 — ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gerilediği için altın 2 haftalık zirveye yükseldi; bu dolar zayıflığı ve düşen getiriler kısa vadede altını destekliyor. Ancak İran savaşı risklerinin azalmasıyla güvenli liman talebi zayıflıyor, gold dört gün üst üste yükseldiği için bir kısım fiyatlama yapılmış olabilir ve haberlerdeki fiyat seviyeleri (4.000 ve 4.100 dolar) çelişkili, bu yüzden güven sınırlı.
+
+GPT (gpt-6-luna): puan **+0.48**, güven 0.65 — Dolar ve Hazine getirilerindeki gerileme, seçim sonrası altını destekliyor; fiyatın iki haftalık zirveye ve 4.100 doların üzerine çıkması kısa vadeli momentumu da olumlu kılıyor. Ancak yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve İran savaşının yatışabileceği beklentisi güvenli liman tale
 
 Son işlemler:
 
@@ -84,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 05:21 N  NEWS (8 new) score +0.40 conf 0.55: Demokratların Kongre seçimini kazanması doları ve ABD tahvil faizlerini düşürdü; bu da altın için olumlu bir makro etki yaratıyor ve altın 4.100 doların üzerine çıktı. Buna karşılık İran savaşının sona erme umutları güvenli liman primini azaltabilir ve sert yükseliş sonrası kâr realizasyonu riski var, bu yüzden güveni sınırlı tutuyorum.
-05.11 05:21 N  GPT  score +0.25 conf 0.56: Dolar ve tahvil getirilerindeki düşüş altını destekliyor; ancak İran savaşının sona erebileceğine dair artan umutlar güvenli liman talebini azaltabilir. Altındaki güçlü seçim sonrası yükselişin önemli kısmı zaten fiyatlanmış görünüyor.
-05.11 05:40 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara seçim sonuçları doları ve tahvil faizlerini zayıflatarak altını 4.100 doların üzerine taşıdı; İran savaşının sona erme umutları petrol fiyatlarını düşürüp enflasyon ve sert Fed beklentilerini gerilettiği için kısa vadede altı destekliyor. Buna karşın altın bir günde yaklaşık %3,4 yükseldiği için aşırı alım ve kâr realizasyonu riski yüksek, ayrıca yaklaşan tarım dışı istihdam verisi volatilite yaratabilir; bu nedenle güven orta düzeyde tutuldu.
 05.11 05:40 N  GPT  score +0.55 conf 0.64: ABD ara seçimlerinin ardından dolar ve tahvil getirilerindeki düşüş ile altındaki güçlü momentum kısa vadede yükselişi destekliyor. Ancak haberlerin çoğu aynı seçim kaynaklı hareketi tekrarlıyor ve İran gerilimi haberleri çelişkili; bu nedenle etkinin bir kısmı fiyatlanmış olabilir.
 05.11 05:52 N  NEWS (5 new) score +0.40 conf 0.50: ABD ara seçim sonrası dolar ve Treasury getirilerinin düşmesi altın için destekleyici; petrol fiyatlarının İran savaşında gerileme beklentisiyle düşmesi enflasyon beklentilerini yumuşatıp Fed'i daha az sıkılaştırıcı yapabilir. Buna karşın jeopolitik risk primi azalıyor ve altın son günlerde en büyük günlük artışlarından birini yaşadığı için kâr realizasyonu ve düzeltme riski yüksek; ayrıca BoE faiz artırımı haberi doğrudan altın için belirleyici değil.
 05.11 05:52 N  GPT  score +0.32 conf 0.55: Dolar ve tahvil getirilerindeki düşüş, seçim sonrası altın rallisini kısa vadede destekliyor. Ancak İran savaşının sona erebileceği beklentisi güvenli liman talebini azaltabilir ve yükselişin önemli kısmı fiyatlanmış görünüyor.
@@ -99,6 +98,9 @@ Son işlemler:
 05.11 06:48 N  NEWS (6 new) score +0.50 conf 0.60: Ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve ABD tahvil getirileri düştü; bu, altın için net olarak yükseliş yönlü bir etki. Petrol fiyatlarının İran savaşının bitebileceği beklentisiyle düşmesi enflasyon beklentilerini ve Fed sıkılığı algısını yumuşatarak destekliyor. Ancak fiyat hareketinin büyük kısmı zaten gerçekleşti ve jeopolitik risk primi azaldığı için güvenli liman talebi zayıflıyor; bu nedenle kısa vadede kâr realizasyonu riski var.
 05.11 06:48 N  GPT  score +0.48 conf 0.66: Dolar ve tahvil getirilerindeki düşüş altını kısa vadede destekliyor; yeni başlıklar yükselişi teyit ediyor. Ancak hareketin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşının sona ereceği beklentisi güvenli liman talebini azaltabilir.
 05.11 06:56 B5  CLOSE long take profit: +69.07 USD
+05.11 07:00 N  NEWS (7 new) score +0.45 conf 0.50: ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gerilediği için altın 2 haftalık zirveye yükseldi; bu dolar zayıflığı ve düşen getiriler kısa vadede altını destekliyor. Ancak İran savaşı risklerinin azalmasıyla güvenli liman talebi zayıflıyor, gold dört gün üst üste yükseldiği için bir kısım fiyatlama yapılmış olabilir ve haberlerdeki fiyat seviyeleri (4.000 ve 4.100 dolar) çelişkili, bu yüzden güven sınırlı.
+05.11 07:00 N  GPT  score +0.48 conf 0.65: Dolar ve Hazine getirilerindeki gerileme, seçim sonrası altını destekliyor; fiyatın iki haftalık zirveye ve 4.100 doların üzerine çıkması kısa vadeli momentumu da olumlu kılıyor. Ancak yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve İran savaşının yatışabileceği beklentisi güvenli liman tale
+05.11 07:00 B5  LONG gold 25000 USD x10 @ 4132.35 (TP 4144.74, SL 4124.08; news +0.46)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
