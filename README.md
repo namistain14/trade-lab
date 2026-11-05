@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 18:50 (İstanbul)
+> Son güncelleme: 05.11.2026 18:53 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +121.69 $ | +8.82 $ |
-| İşlem sayısı | 9 | 49 |
-| Kazanma oranı | %55.6 | %44.9 |
-| Ödenen komisyon/spread | 106.45 $ | 581.94 $ |
+| Net kâr/zarar | +190.79 $ | +77.92 $ |
+| İşlem sayısı | 10 | 50 |
+| Kazanma oranı | %60.0 | %46.0 |
+| Ödenen komisyon/spread | 118.28 $ | 593.77 $ |
 
-**Hesap değeri: 5,018.77 $** (başlangıç 5,000 $, +18.77 $ / %+0.38)
-
-Açık pozisyonlar: PAXGUSDT short @ 4095.67 (TP 4083.38 / SL 4103.86)
+**Hesap değeri: 5,077.92 $** (başlangıç 5,000 $, +77.92 $ / %+1.56)
 
 Son haber analizi (05.11 18:48): Claude puan **-0.50**, güven 0.60 — Fed yetkililerinin (Hammack, Barkin) sıkılaştırmadan yana açıklamaları, BoE'nin faiz artırımı ve enflasyonun 6 yılın zirvesine yakın seyretmesi reel faizleri ve faiz artırımı beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar da toparlanma sinyali veriyor. Savaş kaynaklı güvenli liman talebi sürse de İran'da diplomatik ilerleme haberleri bu desteği sınırlıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 18:54 | PAXGUSDT | short | +69.10 $ | take profit |
 | 05.11 18:18 | PAXGUSDT | short | -55.93 $ | stop |
 | 05.11 18:10 | PAXGUSDT | short | -55.92 $ | stop |
 | 05.11 14:18 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 10:28 | PAXGUSDT | long | -55.90 $ | stop |
-| 05.11 08:21 | PAXGUSDT | long | -55.90 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -66,30 +64,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +537.99 $ | +3845.53 $ |
-| İşlem sayısı | 2 | 14 |
-| Kazanma oranı | %50.0 | %42.9 |
+| Net kâr/zarar | +2131.25 $ | +5438.79 $ |
+| İşlem sayısı | 3 | 15 |
+| Kazanma oranı | %66.7 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,538.49 $** (başlangıç 100,000 $, +8538.49 $ / %+8.54)
+**Hesap değeri: 110,124.30 $** (başlangıç 100,000 $, +10124.30 $ / %+10.12)
 
-Açık pozisyonlar: NVDA short @ 184.81 (TP 181.66 / SL 186.27); QQQ short @ 655.07 (TP 644.29 / SL 660.64); SPY short @ 750.58 (TP 738.86 / SL 757.61)
+Açık pozisyonlar: NVDA short @ 184.81 (TP 181.66 / SL 186.27); QQQ short @ 655.07 (TP 644.29 / SL 660.64)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 18:53 | SPY | short | +1593.26 $ | take profit |
 | 05.11 18:12 | NVDA | short | +1589.76 $ | take profit |
 | 05.11 18:03 | AAPL | long | -1051.77 $ | stop |
 | 04.11 23:45 | SPY | long | +485.08 $ | seans sonu |
 | 04.11 23:45 | QQQ | long | -222.60 $ | seans sonu |
-| 04.11 23:45 | AAPL | long | -505.78 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-05.11 18:12 N  GPT  score -0.40 conf 0.55: Fed yetkililerinin kısıtlayıcı faizlerin sürmesi ve kademeli faiz artışları yönündeki mesajları, reel getiriler üzerinden altına kısa vadede baskı yapıyor; doların toparlanması da bu etkiyi destekliyor. İran konusunda diplomatik ilerleme ve savaşı sona erdirme söylemleri güvenli liman talebini sınır
-05.11 18:12 B6  CLOSE short NVDA take profit: +1589.76 USD
 05.11 18:12 B6  karar turu: Claude «Teknoloji öncülüğünde sert bir risk-off trend günü yaşanıyor; Fed'in şahin tonu ve yapay zeka şüpheleri baskıyı sürdürüyor, aşırı uzamış isimler yerine daha az uzamış olanlarda short tercih ediliyor.» / GPT «Piyasa genelinde satış eğilimi baskın; kısa pozisyonlar avantajlı görünse de uzamış düşüş ve 1:4 kaldıraç nedeniyle ani tepki ve eşzamanlı stop riski yüksek.»
 05.11 18:12 B6  AÇIĞA SATIŞ SPY 141 adet ≈ 105,766 $ (1:4) @ 750.11 (TP 738.86, SL 757.61; ikisi de hemfikir, güven 0.50)
 05.11 18:15 B5  SHORT gold 25000 USD x10 @ 4097.84 (TP 4085.55, SL 4106.04; news -0.40)
@@ -103,6 +99,8 @@ Son işlemler:
 05.11 18:48 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka hisselerindeki çözülmeyle piyasa güçlü bir satış dalgasında, momentum aşağı yönlü.» / GPT «Şahin Fed açıklamaları ve endekslerde süren dip yenilemeleri satış yönünü destekliyor; ancak dört kat kaldıraçta ilişkili teknoloji pozisyonlarının toplam riski ve tepki yükselişi olasılığı yüksek.»
 05.11 18:48 B6  AÇIĞA SATIŞ QQQ 164 adet ≈ 107,272 $ (1:4) @ 654.1 (TP 644.29, SL 660.64; ikisi de hemfikir, güven 0.55)
 05.11 18:48 B6  AÇIĞA SATIŞ NVDA 581 adet ≈ 107,154 $ (1:4) @ 184.43 (TP 181.66, SL 186.27; ikisi de hemfikir, güven 0.50)
+05.11 18:53 B5  CLOSE short take profit: +69.10 USD
+05.11 18:53 B6  CLOSE short SPY take profit: +1593.26 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
