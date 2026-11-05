@@ -2441,6 +2441,10 @@
    [
     1793867055,
     5000.0
+   ],
+   [
+    1793867246,
+    5000.0
    ]
   ],
   "archive": [
@@ -13833,43 +13837,38 @@
    [
     1793867055,
     4868.5
+   ],
+   [
+    1793867246,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.4,
-   "confidence": 0.5,
-   "reason": "ABD ara se\u00e7im sonras\u0131 dolar zay\u0131fl\u0131yor ve tahvil getirileri d\u00fc\u015f\u00fcyor; bu, alt\u0131n i\u00e7in y\u00fckseli\u015f y\u00f6nl\u00fc bir etki. Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon beklentilerini yumu\u015fat\u0131p Fed'in daha gev\u015fek duru\u015funa destek veriyor. Buna kar\u015f\u0131n \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanma ihtimali ve Trump'\u0131n yeni hamlesine ili\u015fkin belirsizlik, g\u00fcvenli liman talebini destekliyor; ancak bar\u0131\u015f umutlar\u0131 ve fiyatlanm\u0131\u015f haberler bu etkiyi k\u0131smen s\u0131n\u0131rl\u0131yor.",
+   "score": 0.35,
+   "confidence": 0.45,
+   "reason": "Ara se\u00e7im sonras\u0131 dolar zay\u0131flamas\u0131 ve d\u00fc\u015fen tahvil getirileri alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed'de gev\u015feme beklentisini destekliyor. Buna kar\u015f\u0131n ABD-\u0130ran sava\u015f\u0131n\u0131n sona erme umudu jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve 08:17 haberinde dolar yeniden toparlan\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama kar\u0131\u015f\u0131k.",
    "n": 45,
-   "ts": 1793866525279,
-   "new_headlines": 10,
+   "ts": 1793867246316,
+   "new_headlines": 9,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
     "\u0130ran sava\u015f\u0131 se\u00e7im sonucunu etkiledi; jeopolitik risk primi destekliyor"
    ],
    "gpt": {
-    "score": 0.35,
-    "confidence": 0.53,
-    "reason": "Dolar ve getirilerdeki gerileme ile H\u00fcrm\u00fcz\u2019de tanker yang\u0131n\u0131 iddias\u0131 k\u0131sa vadede alt\u0131na destek verebilir. Ancak bar\u0131\u015f umutlar\u0131 ve y\u00fckseli\u015fin haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcnmesi, olas\u0131 kazanc\u0131 ve g\u00fcveni s\u0131n\u0131rl\u0131yor.",
+    "score": 0.15,
+    "confidence": 0.38,
+    "reason": "Rusya\u2019ya y\u00f6nelik yo\u011fun drone sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak \u0130ran sava\u015f\u0131 i\u00e7in bar\u0131\u015f umutlar\u0131yla petrol\u00fcn gerilemesi ve dolar\u0131n yeniden g\u00fc\u00e7 kazanmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. \u00d6nceki dolar zay\u0131fl\u0131\u011f\u0131 ve alt\u0131n y\u00fckseli\u015fi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir.",
     "key_events": [
-     "Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131",
-     "H\u00fcrm\u00fcz\u2019de tanker yang\u0131n\u0131 iddias\u0131",
-     "\u0130ran konusunda bar\u0131\u015f umutlar\u0131"
+     "Rusya\u2019n\u0131n Ryazan b\u00f6lgesine 200\u2019den fazla drone sald\u0131r\u0131s\u0131",
+     "\u0130ran sava\u015f\u0131 sona erebilir beklentisiyle petrol d\u00fc\u015f\u00fc\u015f\u00fc",
+     "Dolar\u0131n yeniden g\u00fc\u00e7 kazand\u0131\u011f\u0131na dair sinyal"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793348725649,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Y\u00fcksek enerji fiyatlar\u0131 ve ABD enflasyon verisi (PCE) Fed'in faiz art\u0131rma beklentilerini g\u00fc\u00e7lendiriyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi ve dolar/tahvil taraf\u0131nda bask\u0131 s\u00fcr\u00fcyor. Jeopolitik haberler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratsa da, bu etki faiz beklentilerinin gerisinde kal\u0131yor.",
-    "new": 33,
-    "gpt_score": -0.35,
-    "gpt_confidence": 0.66
-   },
    {
     "ts": 1793352103021,
     "score": -0.45,
@@ -16560,19 +16559,34 @@
     "new": 10,
     "gpt_score": 0.35,
     "gpt_confidence": 0.53
+   },
+   {
+    "ts": 1793867246316,
+    "score": 0.35,
+    "confidence": 0.45,
+    "reason": "Ara se\u00e7im sonras\u0131 dolar zay\u0131flamas\u0131 ve d\u00fc\u015fen tahvil getirileri alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed'de gev\u015feme beklentisini destekliyor. Buna kar\u015f\u0131n ABD-\u0130ran sava\u015f\u0131n\u0131n sona erme umudu jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve 08:17 haberinde dolar yeniden toparlan\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama kar\u0131\u015f\u0131k.",
+    "new": 9,
+    "gpt_score": 0.15,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 46
+   "n": 47
   },
   "news_seen": [
+   "Silver Price Forecast: XAG/USD faces roadblock near $53.50 as US Dollar regains ground - FXStreet",
+   "General Atomics Concept Eyes Vektrex in Air-Launched Missile - Naval News",
+   "Missile War Monitor: More than 200 drones attack Russia's Ryazan region as Komyshuvakha toll rises to 40 - IntelliNews",
+   "Inflation, tariffs and a voter revolt: The midterm verdict on Trump\u2019s economy - The Seattle Times",
    "Gaza genocide, Iran war shaped American Muslim vote: CAIR report - Muslim Network TV",
-   "SSR Mining (SSRM) Q3 2026 Earnings Call: AISC Rises as Marigold Growth Advances - TradingKey",
+   "In a frontline Lebanese orphanage, girls strive for a normal life - Reuters",
+   "Oil Extends Slide After Plunging 8% on Hopes to End US-Iran War - Bloomberg.com",
    "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
    "Gold prices stabilise after 27% correction; is another big bull run ahead? - The Economic Times",
    "Jobs Report vs. Midterms in the Fight to Steer Gold and the Dollar - StoneX",
    "Iran war latest: IRGC claims two tankers and tugboat caught fire in Strait of Hormuz - The National",
+   "Gold Rate Today November 5: Check latest Gold prices in Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, Pune & Other Cities - BusinessLine",
    "Australian and New Zealand dollars rise as US dollar weakens following midterm elections - Economies.com",
    "Silver Rises as Political Shifts & Soft Dollar Lift XAG - TradingPedia",
    "Vance blames Iran war for election losses as Trump weighs next move against Tehran - Iran International",
@@ -16591,32 +16605,24 @@
    "Gold Price Forecast: US-Iran Peace Hopes Fuel Rally as Oil Plunges - FXEmpire",
    "Canadian Dollar Firms as Post-Election USD Slide Weighs - TradingPedia",
    "World gold prices rise sharply, to a two-week high - Laodong.vn",
+   "Russian Diesel Tankers Flee US Route as Trump-Putin Deal Hits Sanctions Wall - Kyiv Post",
    "US Dollar Price Forecast: DXY Eyes 101.10 as GBP/USD Tests 1.3500 Ahead of BoE - FXEmpire",
+   "Oil Prices Fall for Fourth Straight Day as Iran War Escalation Concerns Ease - KBOI",
    "US Dollar: Lower yields pressure USD after Democratic sweep \u2013 Danske Bank - FXStreet",
+   "Gold Price Rally Lifts Muthoot Finance, Manappuram Finance Stocks 5% Rise - APAC Media",
    "War update: 184 combat engagements on front line over past day - Ukrinform",
    "Vance blames Iran war for Republican defeat in US midterms - Yeni \u015eafak English",
    "Emirates Reports 66% Profit Slump on War, High Fuel Costs - Bloomberg.com",
    "ESAF expects Rs 990 crore gold SMA-0 recovery after swings - Multibagg AI",
    "Euro: Positive outlook hinges on 1.1280 against US Dollar - UOB - www.tmgm.com",
-   "Dhanteras 2026: A 12% demand surge awaits Indian gold market even as prices hit two-week high - The Economic Times",
    "Vance says Iran war cost GOP the midterms; Trump says he would have done nothing different - WSET",
    "Gold rate today Mangalore Nov 5: Check latest prices ahead of Dhanteras 2026 \u2014 What\u2019s happening after US midterm results - Livemint",
-   "Gold Price Rally Lifts Muthoot Finance, Manappuram Finance Stocks 5% Rise - APAC Media",
    "Caledonia Mining Corporation Plc: Caledonia Group Signs US$150 Million Interim Financing Facilities Agreement to Support Construction of the Bilboes Gold Project - TradingView",
    "A Democratic-controlled Congress will likely try to constrain Trump\u2019s foreign adventures - The Guardian",
-   "The unauthorized war - Iron Mountain Daily News",
-   "Poundland owner in crunch talks as retailer's collapse looms",
-   "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap - Bloomberg.com",
-   "North Korea\u2019s State of Play in the Russia-Ukraine War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-   "USD/JPY Price Forecast: Remains close to 20-day EMA - FXStreet",
-   "Gold Price Today: $4,135, Bull $4,225, Bear $4,000 - FinanceFeeds",
-   "Gold Futures Rise To Rs 1.45 Lakh/10 Gm On Firm Spot Demand; Silver Futures Decline - ETV Bharat",
-   "Gold Prices On Recovery Mode: Yellow Metal Rates Jump By Rs 6,600 In Two Days To Rs 1,46,100 - NDTV Profit"
+   "The unauthorized war - Iron Mountain Daily News"
   ]
  },
  "log": [
-  "04.11 07:49 N  GPT  score +0.58 conf 0.66: \u0130ran\u2019\u0131n ABD\u2019nin H\u00fcrm\u00fcz plan\u0131na yan\u0131t\u0131n\u0131 yetersiz bulmas\u0131 ve Trump\u2019\u0131n sald\u0131r\u0131lar\u0131 do\u011frulamas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Dolar\u0131n se\u00e7im sonu\u00e7lar\u0131yla zay\u0131flamas\u0131 da alt\u0131n\u0131 destekliyor; ancak \u00e7eli\u015fkili alt\u0131n haberleri ve hareketin k\u0131smen fiyatlanm\u0131\u015f olma ihtimali y\u00fckseli\u015fi s\u0131n\u0131rl\u0131y",
-  "04.11 07:55 B5  LONG gold 25000 USD x10 @ 3960.40 (TP 3972.28, SL 3952.48; news +0.39)",
   "04.11 08:02 N  NEWS (10 new) score +0.25 conf 0.40: Dolar\u0131n ABD ara se\u00e7im sonras\u0131 sert zay\u0131flamas\u0131 ve \u0130ran'daki \u00e7at\u0131\u015fman\u0131n t\u0131rmanmas\u0131 (ABD sald\u0131r\u0131lar\u0131, H\u00fcrm\u00fcz gerginli\u011fi) alt\u0131na k\u0131sa vadede destek veriyor. Ancak g\u00fc\u00e7l\u00fc istihdam verisinin faiz art\u0131r\u0131m\u0131 beklentilerini k\u00f6r\u00fcklemesi ve baz\u0131 haberlerde alt\u0131n\u0131n de\u011fer kaybetmesi bu etkiyi s\u0131n\u0131rl\u0131yor, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "04.11 08:02 N  GPT  score +0.32 conf 0.43: \u0130ran\u2019\u0131n H\u00fcrm\u00fcz plan\u0131na olumsuz yan\u0131t vermesi ve ABD sald\u0131r\u0131lar\u0131n\u0131 do\u011frulamas\u0131 g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n se\u00e7im sonu\u00e7lar\u0131yla zay\u0131flamas\u0131 da alt\u0131na olumlu. Ancak istihdam verileri kaynakl\u0131 faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki s\u0131n\u0131rl\u0131,",
   "04.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -16914,7 +16920,9 @@
   "05.11 11:03 N  GPT  score +0.35 conf 0.46: Dolar\u0131n ve tahvil getirilerinin gerilemesi ile \u0130ran sava\u015f\u0131 \u00e7evresindeki siyasi belirsizlik alt\u0131n\u0131 k\u0131sa vadede destekliyor. Ancak alt\u0131ndaki y\u00fckseli\u015fin zaten ger\u00e7ekle\u015fmi\u015f olmas\u0131 ve bar\u0131\u015f umutlar\u0131na dair \u00e7eli\u015fkili haberler ek y\u00fckseli\u015f beklentisini s\u0131n\u0131rl\u0131yor.",
   "05.11 11:03 B5  LONG gold 25000 USD x10 @ 4116.71 (TP 4129.06, SL 4108.48; news +0.40)",
   "05.11 11:15 N  NEWS (10 new) score +0.40 conf 0.50: ",
-  "05.11 11:15 N  GPT  score +0.35 conf 0.53: Dolar ve getirilerdeki gerileme ile H\u00fcrm\u00fcz\u2019de tanker yang\u0131n\u0131 iddias\u0131 k\u0131sa vadede alt\u0131na destek verebilir. Ancak bar\u0131\u015f umutlar\u0131 ve y\u00fckseli\u015fin haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcnmesi, olas\u0131 kazanc\u0131 ve g\u00fcveni s\u0131n\u0131rl\u0131yor."
+  "05.11 11:15 N  GPT  score +0.35 conf 0.53: Dolar ve getirilerdeki gerileme ile H\u00fcrm\u00fcz\u2019de tanker yang\u0131n\u0131 iddias\u0131 k\u0131sa vadede alt\u0131na destek verebilir. Ancak bar\u0131\u015f umutlar\u0131 ve y\u00fckseli\u015fin haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcnmesi, olas\u0131 kazanc\u0131 ve g\u00fcveni s\u0131n\u0131rl\u0131yor.",
+  "05.11 11:27 N  NEWS (9 new) score +0.35 conf 0.45: Ara se\u00e7im sonras\u0131 dolar zay\u0131flamas\u0131 ve d\u00fc\u015fen tahvil getirileri alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed'de gev\u015feme beklentisini destekliyor. Buna kar\u015f\u0131n ABD-\u0130ran sava\u015f\u0131n\u0131n sona erme umudu jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve 08:17 haberinde dolar yeniden toparlan\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama kar\u0131\u015f\u0131k.",
+  "05.11 11:27 N  GPT  score +0.15 conf 0.38: Rusya\u2019ya y\u00f6nelik yo\u011fun drone sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak \u0130ran sava\u015f\u0131 i\u00e7in bar\u0131\u015f umutlar\u0131yla petrol\u00fcn gerilemesi ve dolar\u0131n yeniden g\u00fc\u00e7 kazanmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. \u00d6nceki dolar zay\u0131fl\u0131\u011f\u0131 ve alt\u0131n y\u00fckseli\u015fi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir."
  ],
  "gold_big": {
   "account": {
@@ -25299,6 +25307,10 @@
    [
     1793867055,
     4963.78
+   ],
+   [
+    1793867246,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -33611,6 +33623,10 @@
    [
     1793867055,
     4975.18
+   ],
+   [
+    1793867246,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -41889,6 +41905,10 @@
    [
     1793867055,
     4993.28
+   ],
+   [
+    1793867246,
+    4993.28
    ]
   ]
  },
@@ -50004,6 +50024,10 @@
    [
     1793867055,
     4969.22
+   ],
+   [
+    1793867246,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -57528,6 +57552,10 @@
    [
     1793867055,
     5061.9
+   ],
+   [
+    1793867246,
+    5052.97
    ]
   ],
   "news_calls": {
@@ -65717,6 +65745,10 @@
    [
     1793867055,
     105876.17
+   ],
+   [
+    1793867246,
+    105876.17
    ]
   ],
   "open": {},
@@ -72066,6 +72098,10 @@
    ],
    [
     1793867055,
+    5066.43
+   ],
+   [
+    1793867246,
     5066.43
    ]
   ],
