@@ -2365,6 +2365,10 @@
    [
     1793861721,
     5000.0
+   ],
+   [
+    1793861912,
+    5000.0
    ]
   ],
   "archive": [
@@ -13681,43 +13685,38 @@
    [
     1793861721,
     4868.5
+   ],
+   [
+    1793861912,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.4,
+   "score": 0.35,
    "confidence": 0.5,
    "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici. Ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fc haberleri jeopolitik risk primini canl\u0131 tutuyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 05:24 civar\u0131nda zaten fiyatland\u0131 ve baz\u0131 analizler diren\u00e7 seviyelerinde sat\u0131\u015f bask\u0131s\u0131na dikkat \u00e7ekiyor; \u0130ngiltere Merkez Bankas\u0131'n\u0131n faiz art\u0131rma beklentisi ise s\u0131k\u0131la\u015fma y\u00f6n\u00fcnden bir bask\u0131 unsuru.",
    "n": 45,
-   "ts": 1793861192121,
-   "new_headlines": 14,
+   "ts": 1793861911241,
+   "new_headlines": 9,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
     "\u0130ran sava\u015f\u0131 se\u00e7im sonucunu etkiledi; jeopolitik risk primi destekliyor"
    ],
    "gpt": {
-    "score": 0.68,
-    "confidence": 0.69,
-    "reason": "Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar ve Hazine getirilerinin gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 haberlerde \u015fimdiden fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve siyasi etkiler belirsiz.",
+    "score": 0.22,
+    "confidence": 0.55,
+    "reason": "Dolar ve tahvil getirilerindeki gerileme alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 s\u00fcrerken g\u00fcvenli liman talebi de canl\u0131 kalabilir. Ancak se\u00e7im kaynakl\u0131 y\u00fckseli\u015fin \u00f6nemli b\u00f6l\u00fcm\u00fc fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve sava\u015f\u0131 bitirme \u00e7a\u011fr\u0131lar\u0131 risk primini azaltabilir.",
     "key_events": [
-     "Se\u00e7im sonucu sonras\u0131 dolar ve tahvil getirileri geriledi",
-     "Alt\u0131n 4.130 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
-     "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor"
+     "Dolar\u0131n zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici",
+     "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor, ancak bitirme \u00e7a\u011fr\u0131lar\u0131 var",
+     "Se\u00e7im sonras\u0131 y\u00fckseli\u015fin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793333050953,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Y\u00fcksek ABD enflasyonu, g\u00fc\u00e7l\u00fc GDP ve y\u00fckselen petrol fiyatlar\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n\u0131 bask\u0131l\u0131yor; dolar da destek buluyor. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebi yaratsa da, bu etki haber ak\u0131\u015f\u0131nda zay\u0131f kal\u0131yor ve ABD-\u0130ran m\u00fczakere umutlar\u0131 jeopolitik primi s\u0131n\u0131rl\u0131yor.",
-    "new": 20,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1793335895839,
     "score": -0.6,
@@ -16408,15 +16407,28 @@
     "new": 14,
     "gpt_score": 0.68,
     "gpt_confidence": 0.69
+   },
+   {
+    "ts": 1793861911241,
+    "score": 0.35,
+    "confidence": 0.5,
+    "reason": "",
+    "new": 9,
+    "gpt_score": 0.22,
+    "gpt_confidence": 0.55
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 41
+   "n": 42
   },
   "news_seen": [
+   "Poundland owner in crunch talks as retailer's collapse looms",
+   "USD/JPY Price Forecast: Remains close to 20-day EMA - FXStreet",
+   "How the US Paved the Road to War in Ukraine: an Interview with Stephen Kinzer - CounterPunch.org",
    "US Dollar Loses Its Shine After Democrats\u2019 Blue Tsunami. Forecast as of 05.11.2026 - LiteFinance",
    "North Korea\u2019s State of Play in the Russia-Ukraine War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+   "US Senate democratic leader says to end Iran war - China Daily Global Edition",
    "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
    "Gold Price Surges Globally Following US Senate Election Results - Ratopati",
    "Gold's bull market hinges on the Middle East! Citi - \u5bcc\u9014\u725b\u725b",
@@ -16427,6 +16439,7 @@
    "Gold, silver price prediction: Will gold hit Rs 1.5 lakh in Dhanteras week? Check outlook on November 5, - The Times of India",
    "News - 121st Field Hospital Revives Korean War-Era Rail Evacuation With a Commercial Railcar - DVIDS",
    "Hanwha Aerospace Builds Guided Missile Plant in Poland - Businesskorea",
+   "U.S. dollar ticks down - \u5df4\u58eb\u7684\u5831",
    "Bargain-hunting lifts PH stocks; peso ends sideways vs US dollar - Philippine News Agency",
    "Citi: If Middle East Tensions Ease, Gold Seen at $4,500 in 3 Months, $5,000 Longer Term - BigGo Finance",
    "Republicans Lose Midterms: What\u2019s Next for Trump and the Economy? - GoldBroker",
@@ -16438,6 +16451,7 @@
    "Why do sausage rolls and veterinary fees vary in price across London?",
    "Trump concedes Iran war angered voters, triggered Democratic landslide - The Washington Post",
    "Trump says Iran war will continue as Tehran shows no retreat - CGTN",
+   "Gold climbs to $4,113 as dollar, Treasury yields slip - Investify",
    "Gold Rate Today: 24K Gold Jumps Rs 6,110 to Rs 1.46 Lakh - HDFC Sky",
    "Indian Rupee extends advance on weak US Dollar, lower oil prices - FXStreet",
    "Gold, Silver Rates Today: Check 24K, 22K Gold Prices in Delhi, Mumbai, Chennai and Other Cities On November - News18",
@@ -16445,26 +16459,18 @@
    "New US Congress Could Force Trump to Impose Tougher Russia Sanctions, Restore Ukraine Aid \u2013 Brzezinski - Kyiv Post",
    "Bank of England set to hike interest rates to tackle higher inflation caused by Iran war - ABC News - Breaking News, Latest News and Videos",
    "Unexploded Kh-101 cruise missile discovered in Mykolaiv region - Ukrinform",
+   "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War - The New York Times",
    "A MAGA media civil war erupts over who\u2019s to blame for the GOP\u2019s thrashing - The Washington Post",
    "Latest US sanctions target dark fleet false-flag network - Seatrade Maritime News",
    "Gold price rises by Rs 13,300 per tola in a single day - OnlineKhabar English News",
    "Dollar Slips After Democrats Sweep US Midterms - Finimize",
+   "Gold eases from two-week top; holds comfortably above $4,100 as USD sticks to bearish tone - FXStreet",
    "Trump Acknowledges Iran War Role as Democrats Win House and Senate in 2026 Midterms: how 19 outlets framed it - NewsCord",
    "Gold surges past $4,130 as US election sends dollar, Treasury yields tumbling - Investing.com",
-   "Gold rate today Bangalore Nov 5: Check latest prices ahead of Dhanteras 2026 \u2013 Impact of US midterm election results - Livemint",
-   "JD Vance Blames Iran War for GOP Midterm Defeat, Trump Says He\u2019d Do It Again: 20 outlets compared - NewsCord",
-   "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle - Arab News",
-   "No to the Mecca Joint Defense Agreement and imperialist war in the Middle East! - World Socialist Web Site",
-   "Gold price surges by Rs 13,300 per tola in Nepali market - myRepublica",
-   "With control of Congress, here\u2019s how Democrats could stop Trump\u2019s war in Iran - The Conversation",
-   "India Gold price today: Gold rises, according to FXStreet data - www.tmgm.com",
-   "Soviet Nostalgia Is a Geopolitical Dead End - Asociaci\u00f3n Almendr\u00f3n",
-   "Gold (XAU/USD) Price Forecast: Post-Election Rally Tests Critical Resistance - FXEmpire"
+   "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica"
   ]
  },
  "log": [
-  "04.11 06:36 N  NEWS (10 new) score +0.40 conf 0.50: Dolar endeksi bir ayl\u0131k dibe geriledi ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu bir tablo. Demokratlar\u0131n Kongre'de \u00f6nde olmas\u0131 ve Iran sava\u015f\u0131na tepki, k\u0131sa vadede g\u00fcvenli liman talebini de destekleyebilir; ancak bu etkiler k\u0131smen fiyatlanm\u0131\u015f durumda ve haberler birbiriyle \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
-  "04.11 06:36 N  GPT  score +0.28 conf 0.45: Demokratlar\u0131n g\u00fc\u00e7l\u00fc sonu\u00e7lar\u0131yla dolar ve tahvil getirilerindeki gerileme alt\u0131n\u0131 k\u0131sa vadede destekliyor; Kuzey Kore\u2019nin f\u00fcze denemesi de s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak alt\u0131n\u0131n haber ak\u0131\u015f\u0131na ra\u011fmen k\u0131sa s\u00fcreli d\u00fc\u015fmesi ve man\u015fetlerin \u00e7eli\u015fkili olmas\u0131 y\u00fckseli\u015f beklentisini s\u0131n\u0131rl\u0131yor.",
   "04.11 06:53 N  NEWS (14 new) score +0.35 conf 0.50: ABD ara se\u00e7imlerinde Demokratlar\u0131n erken kazan\u0131mlar\u0131 dolar\u0131 zay\u0131flat\u0131yor ve alt\u0131n bu zay\u0131flamayla y\u00fckseliyor; bu k\u0131sa vadede alt\u0131n i\u00e7in olumlu bir etki. Ancak Vietnam kaynakl\u0131 \"alt\u0131n d\u00fc\u015f\u00fcyor\" haberleri, dolar hareketinin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011fi ve sinyallerin \u00e7eli\u015fkili olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "04.11 06:53 N  GPT  score +0.42 conf 0.58: Demokratlar\u0131n erken se\u00e7im kazan\u0131mlar\u0131 dolar\u0131 ve tahvil faizlerini a\u015fa\u011f\u0131 \u00e7ekerek alt\u0131n i\u00e7in k\u0131sa vadede destekleyici g\u00f6r\u00fcn\u00fcyor. Ancak se\u00e7im haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ayn\u0131 geli\u015fmenin tekrarlar\u0131 ve alt\u0131n g\u00f6r\u00fcn\u00fcm\u00fcne dair \u00e7eli\u015fkili ba\u015fl\u0131klar y\u00fckseli\u015fin g\u00fcc\u00fcn\u00fc s\u0131n\u0131rl\u0131yor.",
   "04.11 07:05 N  NEWS (11 new) score +0.30 conf 0.50: Dolar\u0131n ara se\u00e7im sonu\u00e7lar\u0131yla zay\u0131flamas\u0131 ve \"Gold rises as dollar weakens\" ba\u015fl\u0131klar\u0131n\u0131n y\u00fckseli\u015fi alt\u0131n\u0131 destekliyor; \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131n\u0131n teyidi jeopolitik risk talebini art\u0131r\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f enflasyon beklentilerini yumu\u015fat\u0131p Fed'den gelebilecek faiz bask\u0131s\u0131n\u0131 azaltabilir, ayr\u0131ca baz\u0131 ba\u015fl\u0131klar alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015fe dikkat \u00e7ekiyor; bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
@@ -16762,7 +16768,9 @@
   "05.11 09:17 N  GPT  score +0.38 conf 0.58: Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrece\u011fi a\u00e7\u0131klamas\u0131 da g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak alt\u0131n haber ak\u0131\u015f\u0131yla zaten sert y\u00fckselmi\u015f g\u00f6r\u00fcn\u00fcyor ve k\u0131sa vadede k\u00e2r sat\u0131\u015flar\u0131 riski var.",
   "05.11 09:17 B5  LONG gold 25000 USD x10 @ 4121.76 (TP 4134.13, SL 4113.52; news +0.39)",
   "05.11 09:46 N  NEWS (14 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici. Ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fc haberleri jeopolitik risk primini canl\u0131 tutuyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 05:24 civar\u0131nda zaten fiyatland\u0131 ve baz\u0131 analizler diren\u00e7 seviyelerinde sat\u0131\u015f bask\u0131s\u0131na dikkat \u00e7ekiyor; \u0130ngiltere Merkez Bankas\u0131'n\u0131n faiz art\u0131rma beklentisi ise s\u0131k\u0131la\u015fma y\u00f6n\u00fcnden bir bask\u0131 unsuru.",
-  "05.11 09:46 N  GPT  score +0.68 conf 0.69: Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar ve Hazine getirilerinin gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 haberlerde \u015fimdiden fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve siyasi etkiler belirsiz."
+  "05.11 09:46 N  GPT  score +0.68 conf 0.69: Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar ve Hazine getirilerinin gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 haberlerde \u015fimdiden fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve siyasi etkiler belirsiz.",
+  "05.11 09:58 N  NEWS (9 new) score +0.35 conf 0.50: ",
+  "05.11 09:58 N  GPT  score +0.22 conf 0.55: Dolar ve tahvil getirilerindeki gerileme alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 s\u00fcrerken g\u00fcvenli liman talebi de canl\u0131 kalabilir. Ancak se\u00e7im kaynakl\u0131 y\u00fckseli\u015fin \u00f6nemli b\u00f6l\u00fcm\u00fc fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve sava\u015f\u0131 bitirme \u00e7a\u011fr\u0131lar\u0131 risk primini azaltabilir."
  ],
  "gold_big": {
   "account": {
@@ -25071,6 +25079,10 @@
    [
     1793861721,
     4963.78
+   ],
+   [
+    1793861912,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -33307,6 +33319,10 @@
    [
     1793861721,
     4975.18
+   ],
+   [
+    1793861912,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -41509,6 +41525,10 @@
    [
     1793861721,
     4993.28
+   ],
+   [
+    1793861912,
+    4993.28
    ]
   ]
  },
@@ -49548,6 +49568,10 @@
    [
     1793861721,
     4969.22
+   ],
+   [
+    1793861912,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -56975,6 +56999,10 @@
    [
     1793861721,
     5102.01
+   ],
+   [
+    1793861912,
+    5105.28
    ]
   ],
   "news_calls": {
@@ -65088,6 +65116,10 @@
    [
     1793861721,
     105886.16
+   ],
+   [
+    1793861912,
+    105886.16
    ]
   ],
   "open": {},
@@ -71361,6 +71393,10 @@
    ],
    [
     1793861721,
+    5066.43
+   ],
+   [
+    1793861912,
     5066.43
    ]
   ],
