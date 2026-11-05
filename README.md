@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 21:35 (İstanbul)
+> Son güncelleme: 05.11.2026 21:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (05.11 21:25): Claude puan **-0.12**, güven 0.35 — Başlıkların çoğu eski veya zaten fiyatlanmış haberler (İran savaşı, Cuba yaptırımları, ara seçim sonuçları). İran'ın nükleer programa ilişkin "somut önerileri" incelemesi ve savaş primlerinin sönmesi jeopolitik risk primini hafifletip altı hafifçe baskılayabilir; güvenli liman talebini gösteren dolar yükselişi haberi ise eski. Net etki nötre yakın, hafif negatif.
+Son haber analizi (05.11 21:38): Claude puan **+0.05**, güven 0.30 — İsrail'in İran ile yeniden savaşa hazırlandığı haberi kısa vadede güvenli liman talebini destekleyerek altı hafif yukarı itebilir. Ancak Cleveland Fed'den Hammack'in faiz artırımı kapısını açık tutması ve İran'ın nükleer programla ilgili somut önerileri incelediği haber, bunu dengeliyor. Ayrıca savaş temalı haberlerin çoğu eski ve büyük ölçüde fiyatlanmış durumda, bu nedenle net etki zayıf ve belirsiz.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.42 — Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımlarını desteklemesi, kısa vadede reel faiz ve dolar kanalıyla altını baskılayabilir. İran konusunda diplomasi ihtimali ve savaşın siyasi maliyetine ilişkin haberler güvenli liman talebini azaltabilir; ancak manşetlerin çoğu piyasa etki
+GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — İsrail’in İran’la yeniden savaş ihtimaline hazırlanması kısa vadeli güvenli liman talebini destekleyebilir. Buna karşılık Fed yetkilisinin ek faiz artırımlarına kapıyı açık tutması altın için baskı yaratıyor; başlıklar net bir yön göstermediğinden etki sınırlı ve belirsiz.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 107,252.46 $** (başlangıç 100,000 $, +7252.46 $ / %+7.25)
+**Hesap değeri: 107,230.12 $** (başlangıç 100,000 $, +7230.12 $ / %+7.23)
 
 Açık pozisyonlar: AAPL long @ 345.10 (TP 350.16 / SL 341.54); NVDA short @ 183.87 (TP 181.37 / SL 185.97); QQQ short @ 653.82 (TP 644.30 / SL 660.65); SPY short @ 738.48 (TP 727.62 / SL 746.09)
 
@@ -86,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 20:37 B6  AÇIĞA SATIŞ QQQ 162 adet ≈ 105,966 $ (1:4) @ 654.11 (TP 644.3, SL 660.65; ikisi de hemfikir, güven 0.55)
-05.11 20:37 B6  AÇIĞA SATIŞ NVDA 576 adet ≈ 106,059 $ (1:4) @ 184.13 (TP 181.37, SL 185.97; ikisi de hemfikir, güven 0.55)
-05.11 20:49 N  NEWS (12 new) score -0.25 conf 0.40: 
 05.11 20:49 N  GPT  score +0.15 conf 0.32: İran’a Rusya’dan füze sistemleri tedarik edildiğine dair haberler jeopolitik risk ve güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve petrol kaynaklı faiz/enflasyon kaygıları altının yükselişini sınırlıyor; kısa vadeli etki bu nedenle hafif pozitif ve belirsiz.
 05.11 20:49 B6  karar turu: Claude «AI ve teknoloji odaklı sert satış sürüyor, defansif hisseler göreli olarak güçlü kalırken kapanışa doğru oynaklık yüksek kalabilir.» / GPT «Piyasanın ana yönü aşağı; AAPL’deki göreli güç seçici alımı desteklese de mevcut endeks ve NVDA pozisyonlarıyla birleşen dört kat kaldıraç toplam riski artırıyor.»
 05.11 20:49 B6  ALIŞ AAPL 128 adet ≈ 44,159 $ (1:4) @ 344.99 (TP 350.16, SL 341.54; ikisi de hemfikir, güven 0.55)
@@ -101,6 +98,9 @@ Son işlemler:
 05.11 21:25 N  NEWS (11 new) score -0.12 conf 0.35: 
 05.11 21:25 N  GPT  score -0.25 conf 0.42: Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımlarını desteklemesi, kısa vadede reel faiz ve dolar kanalıyla altını baskılayabilir. İran konusunda diplomasi ihtimali ve savaşın siyasi maliyetine ilişkin haberler güvenli liman talebini azaltabilir; ancak manşetlerin çoğu piyasa etki
 05.11 21:25 B6  karar turu: Claude «Yapay zekâ kaynaklı teknoloji satışı ve VIX'teki sert yükseliş piyasayı baskılıyor; aşırı satım bölgesindeki volatil seyirde yeni pozisyon açmak için net bir avantaj görünmüyor.» / GPT «Endekslerde zayıflık ve teknoloji satışları sürüyor; ancak sert düşüşlerin ardından tepki yükselişi riski yüksek olduğundan yeni girişlerde seçicilik gerekli.»
+05.11 21:38 N  NEWS (8 new) score +0.05 conf 0.30: İsrail'in İran ile yeniden savaşa hazırlandığı haberi kısa vadede güvenli liman talebini destekleyerek altı hafif yukarı itebilir. Ancak Cleveland Fed'den Hammack'in faiz artırımı kapısını açık tutması ve İran'ın nükleer programla ilgili somut önerileri incelediği haber, bunu dengeliyor. Ayrıca savaş temalı haberlerin çoğu eski ve büyük ölçüde fiyatlanmış durumda, bu nedenle net etki zayıf ve belirsiz.
+05.11 21:38 N  GPT  score +0.15 conf 0.34: İsrail’in İran’la yeniden savaş ihtimaline hazırlanması kısa vadeli güvenli liman talebini destekleyebilir. Buna karşılık Fed yetkilisinin ek faiz artırımlarına kapıyı açık tutması altın için baskı yaratıyor; başlıklar net bir yön göstermediğinden etki sınırlı ve belirsiz.
+05.11 21:38 B6  karar turu: Claude «Yapay zekâ kaynaklı teknoloji satışı ve VIX'teki sıçramayla piyasa sert düşüşte, ancak son bir saatte satış baskısı yavaşladı ve fiyatlar dar bir bantta konsolide oluyor.» / GPT «Genel piyasa ve teknoloji hisselerinde satış baskısı sürüyor; ancak sert düşüşler sonrasında kaldıraçlı yeni short işlemlerde tepki yükselişi riski yüksek.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
