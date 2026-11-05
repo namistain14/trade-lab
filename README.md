@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 01:02 (İstanbul)
+> Son güncelleme: 06.11.2026 01:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (06.11 00:53): Claude puan **+0.10**, güven 0.35 — Yeni başlıklar karışık: Nasdaq'ta 2,5 trilyon dolarlık sert satış ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak Fed'in Hammack ve Barkin'in kademeli faiz artışı çağrısı ve sabit dolar/ödemeler öncesi bekleyiş altın için baskılayıcı. Savaş haberlerinin çoğu zaten fiyatlanmış ve eski, bu yüzden sinyal zayıf.
+Son haber analizi (06.11 01:05): Claude puan **+0.20**, güven 0.40 — Yeni başlıkların çoğu İran savaşının siyasi yansımaları ve ABD ara seçim sonrası tartışmalar; doğrudan altın fiyatını etkileyecek yeni bir veri yok. Teknoloji hisselerindeki sert düşüş (risk-kaçışı) ve Fed'in faiz artırımı beklentilerinin gerilemesi altın için hafif olumlu, ancak Fed'li Hammack ve Barkin'in kademeli faiz artırımı çağrısı ve petrol kaynaklı enflasyon endişeleri bunu dengeliyor; etki sınırlı kalacak.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.36 — Nasdaq’taki sert düşüş ve İran savaşı çevresindeki belirsizlik güvenli liman talebini destekleyebilir; ancak savaşın siyasi baskıyla sınırlanabileceği beklentisi ve Fed yetkililerinin enflasyona karşı faiz artırımı yanlısı tutumu altın için karşı yönde. Doların yatay olduğu ve haberlerin önemli kısm
+GPT (gpt-6-luna): puan **+0.20**, güven 0.31 — Teknoloji hisselerindeki sert düşüş ve İran savaşı çevresindeki belirsizlik kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak yeni başlıklar doğrudan bir askerî tırmanış göstermiyor; petrolün toparlanması ve Fed yetkililerinin faiz artırımı yanlısı tutumu altını baskılayabilir.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD
-05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD
 05.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 05.11 23:52 N  NEWS (6 new) score +0.35 conf 0.45: Altın 4.100 doların üzerine çıktı; Nasdaq 100'ün sert düşüşü ve Aralık faiz artırımı beklentilerinin geri çekilmesi reel faiz baskısını azaltarak altını destekliyor. Ancak yükseliş zaten fiyatlanmaya başladı, ABD tarım dışı istihdam verisi ve dolar hareketi kısa vadede yönü değiştirebilir, bu yüzden güven orta düzeyde.
 05.11 23:52 N  GPT  score +0.45 conf 0.56: NASDAQ’taki sert düşüş ve Aralık faiz artırımı beklentilerinin zayıflaması altını kısa vadede destekliyor; ayrıca İran savaşı kaynaklı risk algısı sürüyor. Ancak doların görece istikrarlı olması ve haberlerin bir kısmının mevcut fiyat hareketini yansıtması yükseliş etkisini sınırlıyor.
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 00:40 N  GPT  score +0.20 conf 0.34: İran savaşı ve piyasalardaki teknoloji hissesi satışları güvenli liman talebini destekleyebilir; ancak Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımı yanlısı açıklamaları altın için ters yönde. Yeni başlıkların çoğu fiyat açısından önemsiz ve sinyaller karışık olduğundan kısa vad
 06.11 00:53 N  NEWS (12 new) score +0.10 conf 0.35: Yeni başlıklar karışık: Nasdaq'ta 2,5 trilyon dolarlık sert satış ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak Fed'in Hammack ve Barkin'in kademeli faiz artışı çağrısı ve sabit dolar/ödemeler öncesi bekleyiş altın için baskılayıcı. Savaş haberlerinin çoğu zaten fiyatlanmış ve eski, bu yüzden sinyal zayıf.
 06.11 00:53 N  GPT  score +0.20 conf 0.36: Nasdaq’taki sert düşüş ve İran savaşı çevresindeki belirsizlik güvenli liman talebini destekleyebilir; ancak savaşın siyasi baskıyla sınırlanabileceği beklentisi ve Fed yetkililerinin enflasyona karşı faiz artırımı yanlısı tutumu altın için karşı yönde. Doların yatay olduğu ve haberlerin önemli kısm
+06.11 01:05 N  NEWS (10 new) score +0.20 conf 0.40: Yeni başlıkların çoğu İran savaşının siyasi yansımaları ve ABD ara seçim sonrası tartışmalar; doğrudan altın fiyatını etkileyecek yeni bir veri yok. Teknoloji hisselerindeki sert düşüş (risk-kaçışı) ve Fed'in faiz artırımı beklentilerinin gerilemesi altın için hafif olumlu, ancak Fed'li Hammack ve Barkin'in kademeli faiz artırımı çağrısı ve petrol kaynaklı enflasyon endişeleri bunu dengeliyor; etki sınırlı kalacak.
+06.11 01:05 N  GPT  score +0.20 conf 0.31: Teknoloji hisselerindeki sert düşüş ve İran savaşı çevresindeki belirsizlik kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak yeni başlıklar doğrudan bir askerî tırmanış göstermiyor; petrolün toparlanması ve Fed yetkililerinin faiz artırımı yanlısı tutumu altını baskılayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
