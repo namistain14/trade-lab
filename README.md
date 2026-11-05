@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 05:06 (İstanbul)
+> Son güncelleme: 05.11.2026 05:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %46.5 |
 | Ödenen komisyon/spread | 35.52 $ | 511.01 $ |
 
-**Hesap değeri: 5,123.30 $** (başlangıç 5,000 $, +123.30 $ / %+2.47)
+**Hesap değeri: 5,127.18 $** (başlangıç 5,000 $, +127.18 $ / %+2.54)
 
 Açık pozisyonlar: PAXGUSDT long @ 4119.59 (TP 4131.95 / SL 4111.35)
 
-Son haber analizi (05.11 04:57): Claude puan **+0.45**, güven 0.55 — Demokratların Kongre'yi kazanması doların zayıflamasına, tahvil getirilerinin düşmesine ve altının yaklaşık %3,4 yükselmesine yol açtı; bu da kısa vadede altın için olumlu bir tablo. Ancak haberlerin çoğu yükselişin zaten fiyatlandığını gösteriyor ve 1-4 saatlik ufukta kâr realizasyonu ya da dolar toparlanması geri dönüş riski taşıyor.
+Son haber analizi (05.11 05:09): Claude puan **+0.40**, güven 0.55 — Demokratların Kongre'yi kazanması doların zayıflamasına, tahvil getirilerinin düşmesine ve altının yaklaşık %3,4 yükselmesine yol açtı; bu da kısa vadede altın için olumlu bir tablo. Ancak haberlerin çoğu yükselişin zaten fiyatlandığını gösteriyor ve 1-4 saatlik ufukta kâr realizasyonu ya da dolar toparlanması geri dönüş riski taşıyor.
 
-GPT (gpt-6-luna): puan **+0.55**, güven 0.67 — Demokratların ara seçim zaferi sonrasında dolar ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; 4.000 doların aşılması da yukarı yönlü momentumu teyit ediyor. Ancak sert yükselişin büyük kısmı gerçekleşmiş olabilir ve savaşın sona ermesi beklentisi güvenli liman talebini sınırlayabi
+GPT (gpt-6-luna): puan **+0.58**, güven 0.66 — Dolar ve tahvil getirilerindeki düşüş ile seçim sonrası süren alımlar altını kısa vadede destekliyor; fiyatın 4.100 doların üzerine çıkması momentumu güçlendiriyor. Ancak sert yükselişin önemli kısmı zaten gerçekleşmiş ve direnç ile yaklaşan istihdam verileri kısa vadeli kazançları sınırlayabilir.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 03:29 N  GPT  score +0.42 conf 0.58: Demokratların zaferi sonrası dolar ve tahvil getirilerindeki düşüş altını destekliyor; İran savaşı nedeniyle artan siyasi belirsizlik de güvenli liman talebini canlı tutabilir. Ancak altın zaten sert yükseldi ve haberlerin çoğu bu harekete yansımış olabilir; savaşın sona ermesi beklentisi de yükseli
-05.11 03:32 B5  CLOSE long take profit: +69.06 USD
 05.11 03:38 B5  LONG gold 25000 USD x10 @ 4080.33 (TP 4092.57, SL 4072.17; news +0.43)
 05.11 03:41 N  NEWS (7 new) score +0.40 conf 0.50: Demokratların Kongre'yi kazanması doların zayıflamasına ve ABD tahvil faizlerinin düşmesine yol açtı; bu da altını yaklaşık %3.5 yükseltip 4.000 doların üzerine taşıdı. Yükseliş eğilimi kısa vadede sürebilir, ancak hareketin büyük kısmı zaten fiyatlandı ve İran savaşının sürmesine ilişkin jeopolitik risk de yeni bir güvenli liman talebi yaratabilir; bu nedenle güven orta seviyede tutuldu.
 05.11 03:41 N  GPT  score +0.24 conf 0.53: Demokratların Kongre kontrolünü kazanmasının ardından dolar ve tahvil getirilerindeki düşüş, savaş kaynaklı siyasi belirsizlikle birlikte altını destekliyor. Ancak altındaki sert yükseliş bu haberi büyük ölçüde fiyatlamış olabilir; kısa vadede kâr satışları riski var.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 04:45 B5  LONG gold 25000 USD x10 @ 4119.59 (TP 4131.95, SL 4111.35; news +0.56)
 05.11 04:57 N  NEWS (7 new) score +0.45 conf 0.55: 
 05.11 04:57 N  GPT  score +0.55 conf 0.67: Demokratların ara seçim zaferi sonrasında dolar ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; 4.000 doların aşılması da yukarı yönlü momentumu teyit ediyor. Ancak sert yükselişin büyük kısmı gerçekleşmiş olabilir ve savaşın sona ermesi beklentisi güvenli liman talebini sınırlayabi
+05.11 05:09 N  NEWS (8 new) score +0.40 conf 0.55: 
+05.11 05:09 N  GPT  score +0.58 conf 0.66: Dolar ve tahvil getirilerindeki düşüş ile seçim sonrası süren alımlar altını kısa vadede destekliyor; fiyatın 4.100 doların üzerine çıkması momentumu güçlendiriyor. Ancak sert yükselişin önemli kısmı zaten gerçekleşmiş ve direnç ile yaklaşan istihdam verileri kısa vadeli kazançları sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
