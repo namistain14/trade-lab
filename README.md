@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 02:43 (İstanbul)
+> Son güncelleme: 06.11.2026 02:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %0.0 | %44.2 |
 | Ödenen komisyon/spread | 0.00 $ | 617.46 $ |
 
-**Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
+**Hesap değeri: 4,960.14 $** (başlangıç 5,000 $, -39.86 $ / %-0.80)
+
+Açık pozisyonlar: PAXGUSDT long @ 4091.00 (TP 4103.27 / SL 4082.82)
 
 Son haber analizi (06.11 02:42): Claude puan **+0.40**, güven 0.50 — Altın, İran savaşındaki tırmanış ve Hürmüz'deki patlama iddialarıyla güvenli liman talebinden, Polonya Merkez Bankası'nın ek altın alımı sinyalinden ve iki haftalık zirve tazelemesinden destek görüyor. Buna karşılık güvenli liman kaynaklı dolar gücü, NFP öncesi bekleme ve olası Fed beklentisi değişimleri kısa vadeli riskleri artırıyor; bu nedenle sinyal orta düzeyde pozitif ama güven sınırlı.
 
@@ -84,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 01:17 N  GPT  score +0.25 conf 0.40: Teknoloji hisselerindeki sert düşüş riskten kaçışı desteklerken, faiz indirimi beklentilerinin güçlendiğine dair haberler altın için olumlu. Ancak İran savaşı kaynaklı belirsizlik, petrolün toparlanması ve Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artışını desteklemesi görünümü karış
 06.11 01:29 N  NEWS (10 new) score -0.10 conf 0.35: 
 06.11 01:29 N  GPT  score -0.12 conf 0.35: Goldman Sachs’ın Fed görünümünü şahin bulup altın tahminlerini düşürmesi kısa vadede baskı yaratabilir. İran savaşı ve siyasi belirsizlik güvenli liman talebini desteklese de başlıkların çoğu dolaylı veya tekrarlayan nitelikte.
 06.11 01:42 N  NEWS (11 new) score +0.10 conf 0.30: Başlıklar karışık ve büyük ölçüde eski: Iran savaşı ve ABD ara seçim sonuçları jeopolitik risk primini destekliyor, altın yeniden 4.000 doların üzerine çıkmış ve teknik toparlanma haberleri var. Buna karşılık Goldman'ın hawkish Fed gerekçesiyle altın hedeflerini düşürmesi, ABD doları ve faiz beklentileri üzerinden baskı yaratıyor. Net etki hafif pozitif görünüyor ama güven düşük.
@@ -99,6 +100,7 @@ Son işlemler:
 06.11 02:31 N  GPT  score +0.35 conf 0.48: Trump’ın İran konusunda yakında karar vereceğini söylemesi ve Hürmüz’de patlama iddiaları kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altını baskılayabilir; haberler belirsiz ve çelişkili olduğundan etki sınırlı, güven düşük-orta düzeyde.
 06.11 02:43 N  NEWS (5 new) score +0.40 conf 0.50: Altın, İran savaşındaki tırmanış ve Hürmüz'deki patlama iddialarıyla güvenli liman talebinden, Polonya Merkez Bankası'nın ek altın alımı sinyalinden ve iki haftalık zirve tazelemesinden destek görüyor. Buna karşılık güvenli liman kaynaklı dolar gücü, NFP öncesi bekleme ve olası Fed beklentisi değişimleri kısa vadeli riskleri artırıyor; bu nedenle sinyal orta düzeyde pozitif ama güven sınırlı.
 06.11 02:43 N  GPT  score +0.35 conf 0.43: Altın fiyatının iki haftanın zirvesine çıkması ve Polonya Merkez Bankası’nın ek alımlara açık olması kısa vadede destekleyici; İran kararına ilişkin belirsizlik de güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve yaklaşan ABD istihdam verisi yönü sınırlıyor, bu nedenle görünüm temkinl
+06.11 02:45 B5  LONG gold 25000 USD x10 @ 4091.00 (TP 4103.27, SL 4082.82; news +0.38)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
