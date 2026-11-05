@@ -3081,6 +3081,10 @@
    [
     1793908444,
     5000.0
+   ],
+   [
+    1793908625,
+    5000.0
    ]
   ],
   "archive": [
@@ -15112,6 +15116,10 @@
    ],
    [
     1793908444,
+    4868.5
+   ],
+   [
+    1793908625,
     4868.5
    ]
   ],
@@ -27219,6 +27227,10 @@
    [
     1793908444,
     4963.78
+   ],
+   [
+    1793908625,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -36171,6 +36183,10 @@
    [
     1793908444,
     4975.18
+   ],
+   [
+    1793908625,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -45089,6 +45105,10 @@
    [
     1793908444,
     4993.28
+   ],
+   [
+    1793908625,
+    4993.28
    ]
   ]
  },
@@ -53844,6 +53864,10 @@
    [
     1793908444,
     4969.22
+   ],
+   [
+    1793908625,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -62118,6 +62142,10 @@
    [
     1793908444,
     4966.06
+   ],
+   [
+    1793908625,
+    4966.06
    ]
   ],
   "news_calls": {
@@ -62325,7 +62353,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 106086.579179,
+   "balance": 106092.54917899998,
    "start": 100000.0,
    "positions": [
     {
@@ -62340,7 +62368,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert piyasa sat\u0131\u015f\u0131nda yaln\u0131zca %1,3 d\u00fc\u015ferek g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor ve son 5 dakikal\u0131k mumlarda toparlanma var. | GPT 0.59: Endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 ve son dipten toparlanma, k\u0131sa vadeli y\u00fckseli\u015f i\u00e7in \u0131l\u0131ml\u0131 avantaj sunuyor.",
-     "cur": 346.265
+     "cur": 346.24
     },
     {
      "id": "40f456f9-8e8f-445c-9a2a-b4c5107178e1",
@@ -62354,7 +62382,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Microsoft'un neocloud \u015f\u00fcphecili\u011fi ve AI hisselerinin destek k\u0131rmas\u0131 gibi taze olumsuz haberlerle d\u00fc\u015f\u00fck seviyelerde zay\u0131f kapan\u0131\u015f bekleniyor. | GPT 0.65: AI hisselerindeki destek k\u0131r\u0131l\u0131\u015f\u0131 haberleri ve endekslerden zay\u0131f son saat performans\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam avantaj\u0131 sunuyor.",
-     "cur": 184.78
+     "cur": 184.13
     },
     {
      "id": "7c55c750-b907-4796-bf4f-dd1c7028e89f",
@@ -62368,7 +62396,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Yapay zeka sat\u0131\u015f dalgas\u0131 ve teknik destek k\u0131r\u0131l\u0131mlar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 endeksi bask\u0131lamaya devam ediyor. | GPT 0.67: AI hisselerindeki sat\u0131\u015f bask\u0131s\u0131 ve ba\u015far\u0131s\u0131z toparlanman\u0131n ard\u0131ndan gelen yeni dip k\u0131sa pozisyonu destekliyor.",
-     "cur": 657.97
+     "cur": 656.43
     },
     {
      "id": "82178616-8618-46cb-9d61-df24dc2e32d4",
@@ -62382,7 +62410,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Endeks g\u00fcn boyu d\u00fc\u015f\u00fc\u015f trendinde ve son saatte de zay\u0131flamaya devam ediyor; trend g\u00fcn\u00fc kapan\u0131\u015fa kadar s\u00fcrebilir. | GPT 0.62: Tepki y\u00fckseli\u015flerinin sat\u0131lmas\u0131 ve fiyat\u0131n son saat diplerinin alt\u0131na inmesi d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 740.53
+     "cur": 739.6
     }
    ],
    "trades": [
@@ -62695,12 +62723,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": -1128.17,
+    "pnl": -368.53,
     "trades": 9,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 104748.0
+   "equity": 105507.64
   },
   "equity_curve": [
    [
@@ -71094,6 +71122,10 @@
    [
     1793908444,
     104748.0
+   ],
+   [
+    1793908625,
+    105507.64
    ]
   ],
   "open": {
@@ -78128,6 +78160,10 @@
    ],
    [
     1793908444,
+    5066.43
+   ],
+   [
+    1793908625,
     5066.43
    ]
   ],
