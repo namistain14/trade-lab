@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 02:27 (İstanbul)
+> Son güncelleme: 06.11.2026 02:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (06.11 02:18): Claude puan **-0.10**, güven 0.30 — Başlıkların çoğu siyasi ve yerel haberler; yeni gelen haberlerin altın fiyatına doğrudan etkisi zayıf. Goldman'ın şahin Fed nedeniyle altın hedeflerini düşürmesi ve dolara güvenli liman talebinin yansıması hafif baskılayıcı, İran savaşının sürmesi ise sınırlı destek sağlıyor; bu nedenle net etki hafif negatif ve düşük güvenli.
+Son haber analizi (06.11 02:31): Claude puan **+0.10**, güven 0.30 — Başlıkların çoğu siyasi ve yerel haberler; yeni gelen haberlerin altın fiyatına doğrudan etkisi zayıf. Goldman'ın şahin Fed nedeniyle altın hedeflerini düşürmesi ve dolara güvenli liman talebinin yansıması hafif baskılayıcı, İran savaşının sürmesi ise sınırlı destek sağlıyor; bu nedenle net etki hafif negatif ve düşük güvenli.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.34 — Doların güvenli liman talebiyle güçlenmesi ve Fed’e ilişkin şahin beklentiler altın üzerinde kısa vadeli baskı yaratabilir. İran savaşı ve Sudan’daki çatışmalar güvenli liman talebini desteklese de başlıklar çelişkili ve çoğu yeni bir piyasa katalizörü sunmuyor.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.48 — Trump’ın İran konusunda yakında karar vereceğini söylemesi ve Hürmüz’de patlama iddiaları kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altını baskılayabilir; haberler belirsiz ve çelişkili olduğundan etki sınırlı, güven düşük-orta düzeyde.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 00:53 N  GPT  score +0.20 conf 0.36: Nasdaq’taki sert düşüş ve İran savaşı çevresindeki belirsizlik güvenli liman talebini destekleyebilir; ancak savaşın siyasi baskıyla sınırlanabileceği beklentisi ve Fed yetkililerinin enflasyona karşı faiz artırımı yanlısı tutumu altın için karşı yönde. Doların yatay olduğu ve haberlerin önemli kısm
-06.11 01:05 N  NEWS (10 new) score +0.20 conf 0.40: Yeni başlıkların çoğu İran savaşının siyasi yansımaları ve ABD ara seçim sonrası tartışmalar; doğrudan altın fiyatını etkileyecek yeni bir veri yok. Teknoloji hisselerindeki sert düşüş (risk-kaçışı) ve Fed'in faiz artırımı beklentilerinin gerilemesi altın için hafif olumlu, ancak Fed'li Hammack ve Barkin'in kademeli faiz artırımı çağrısı ve petrol kaynaklı enflasyon endişeleri bunu dengeliyor; etki sınırlı kalacak.
 06.11 01:05 N  GPT  score +0.20 conf 0.31: Teknoloji hisselerindeki sert düşüş ve İran savaşı çevresindeki belirsizlik kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak yeni başlıklar doğrudan bir askerî tırmanış göstermiyor; petrolün toparlanması ve Fed yetkililerinin faiz artırımı yanlısı tutumu altını baskılayabilir.
 06.11 01:17 N  NEWS (11 new) score +0.30 conf 0.45: Teknoloji hisselerindeki sert düşüş (risk-off) ve Aralık faiz artırımı beklentilerinin gerilemesi altın için olumlu; ancak Fed'den hâlâ sıkılaşmadan yana sesler ve petrol kaynaklı enflasyon riski bu etkiyi sınırlıyor. Haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
 06.11 01:17 N  GPT  score +0.25 conf 0.40: Teknoloji hisselerindeki sert düşüş riskten kaçışı desteklerken, faiz indirimi beklentilerinin güçlendiğine dair haberler altın için olumlu. Ancak İran savaşı kaynaklı belirsizlik, petrolün toparlanması ve Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artışını desteklemesi görünümü karış
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 02:06 N  GPT  score -0.15 conf 0.30: Doların güvenli liman talebiyle yükseldiğine dair haberler ve şahin Fed beklentisi altın üzerinde hafif baskı yaratabilir. Ancak İran savaşıyla ilgili başlıklar yeni bir tırmanış göstermiyor; altın görünümüne ilişkin haberler de çelişkili olduğundan etki sınırlı ve belirsiz.
 06.11 02:18 N  NEWS (5 new) score -0.10 conf 0.30: Başlıkların çoğu siyasi ve yerel haberler; yeni gelen haberlerin altın fiyatına doğrudan etkisi zayıf. Goldman'ın şahin Fed nedeniyle altın hedeflerini düşürmesi ve dolara güvenli liman talebinin yansıması hafif baskılayıcı, İran savaşının sürmesi ise sınırlı destek sağlıyor; bu nedenle net etki hafif negatif ve düşük güvenli.
 06.11 02:18 N  GPT  score -0.15 conf 0.34: Doların güvenli liman talebiyle güçlenmesi ve Fed’e ilişkin şahin beklentiler altın üzerinde kısa vadeli baskı yaratabilir. İran savaşı ve Sudan’daki çatışmalar güvenli liman talebini desteklese de başlıklar çelişkili ve çoğu yeni bir piyasa katalizörü sunmuyor.
+06.11 02:31 N  NEWS (12 new) score +0.10 conf 0.30: 
+06.11 02:31 N  GPT  score +0.35 conf 0.48: Trump’ın İran konusunda yakında karar vereceğini söylemesi ve Hürmüz’de patlama iddiaları kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altını baskılayabilir; haberler belirsiz ve çelişkili olduğundan etki sınırlı, güven düşük-orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
