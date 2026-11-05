@@ -2457,6 +2457,10 @@
    [
     1793867774,
     5000.0
+   ],
+   [
+    1793867966,
+    5000.0
    ]
   ],
   "archive": [
@@ -13865,43 +13869,38 @@
    [
     1793867774,
     4868.5
+   ],
+   [
+    1793867966,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.35,
-   "confidence": 0.45,
-   "reason": "Ara se\u00e7im sonras\u0131 dolar zay\u0131flamas\u0131 ve d\u00fc\u015fen tahvil getirileri alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed'de gev\u015feme beklentisini destekliyor. Buna kar\u015f\u0131n ABD-\u0130ran sava\u015f\u0131n\u0131n sona erme umudu jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve 08:17 haberinde dolar yeniden toparlan\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama kar\u0131\u015f\u0131k.",
+   "score": 0.3,
+   "confidence": 0.4,
+   "reason": "Dolar ara vermeden zay\u0131fl\u0131yor ve tahvil getirileri d\u00fc\u015f\u00fcyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu. Petrol fiyat\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekliyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki bar\u0131\u015f umutlar\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1793867246316,
-   "new_headlines": 9,
+   "ts": 1793867966173,
+   "new_headlines": 6,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
     "\u0130ran sava\u015f\u0131 se\u00e7im sonucunu etkiledi; jeopolitik risk primi destekliyor"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.38,
-    "reason": "Rusya\u2019ya y\u00f6nelik yo\u011fun drone sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak \u0130ran sava\u015f\u0131 i\u00e7in bar\u0131\u015f umutlar\u0131yla petrol\u00fcn gerilemesi ve dolar\u0131n yeniden g\u00fc\u00e7 kazanmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. \u00d6nceki dolar zay\u0131fl\u0131\u011f\u0131 ve alt\u0131n y\u00fckseli\u015fi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir.",
+    "score": 0.35,
+    "confidence": 0.55,
+    "reason": "Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; \u0130ran\u2019a y\u00f6nelik yeni yapt\u0131r\u0131mlar da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak \u0130ran sava\u015f\u0131nda bar\u0131\u015f umutlar\u0131 ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, jeopolitik risk primini azaltarak y\u00fcksel",
     "key_events": [
-     "Rusya\u2019n\u0131n Ryazan b\u00f6lgesine 200\u2019den fazla drone sald\u0131r\u0131s\u0131",
-     "\u0130ran sava\u015f\u0131 sona erebilir beklentisiyle petrol d\u00fc\u015f\u00fc\u015f\u00fc",
-     "Dolar\u0131n yeniden g\u00fc\u00e7 kazand\u0131\u011f\u0131na dair sinyal"
+     "Dolar zay\u0131flarken alt\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
+     "ABD, \u0130ran\u2019\u0131n petrol a\u011f\u0131na yapt\u0131r\u0131m a\u00e7\u0131klad\u0131",
+     "Bar\u0131\u015f umutlar\u0131yla petrol fiyatlar\u0131 geriledi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793352103021,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor: Fed faiz art\u0131r\u0131m\u0131 beklentileri, y\u00fcksek petrol ve ABD enflasyon verisi, alt\u0131n\u0131n 4.000 dolar alt\u0131na inmesi ve spot talepteki zay\u0131fl\u0131k. Jeopolitik risk (\u0130ran sava\u015f\u0131, Asya'da risk-off ve tahvil talebi) k\u0131smen destek sa\u011flasa da, bu etki Fed beklentilerinin gerisinde kal\u0131yor; DXY'deki gerileme ise s\u0131n\u0131rl\u0131 bir destek sunuyor.",
-    "new": 33,
-    "gpt_score": -0.58,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1793355450107,
     "score": -0.25,
@@ -16592,14 +16591,28 @@
     "new": 9,
     "gpt_score": 0.15,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1793867966173,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "Dolar ara vermeden zay\u0131fl\u0131yor ve tahvil getirileri d\u00fc\u015f\u00fcyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu. Petrol fiyat\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekliyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki bar\u0131\u015f umutlar\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
+    "new": 6,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.55
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 47
+   "n": 48
   },
   "news_seen": [
+   "U.S. Sanctions Network Assisting Iran\u2019s Oil Shadow Fleet - IranWire",
+   "Gold Price Returns to $4,100; Hong Kong Gold Stocks Rally, Laopu Gold Jumps Over 8% Intraday - BigGo Finance",
+   "The Czech government\u2019s new culture war shows the Maga spirit is still alive in Europe - The Guardian",
+   "Vance breaks with Trump on Iran war as 2028 presidential race looms - www.israelhayom.com",
    "Silver Price Forecast: XAG/USD faces roadblock near $53.50 as US Dollar regains ground - FXStreet",
+   "Gold rate today (November 5, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & - The Economic Times",
    "General Atomics Concept Eyes Vektrex in Air-Launched Missile - Naval News",
    "Missile War Monitor: More than 200 drones attack Russia's Ryazan region as Komyshuvakha toll rises to 40 - IntelliNews",
    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump\u2019s economy - The Seattle Times",
@@ -16621,6 +16634,7 @@
    "Gold Price in Pakistan Today: Rs 424,000/Tola (24K) | Live Sarafa Rate - Investify",
    "Trump administration divided over Iran war as Vance privately criticizes Netanyahu: Reports - A News",
    "Gold rises above $4,100 as U.S. dollar weakens after midterms - Traders Union",
+   "Caledonia Mining Corporation Plc: Caledonia Group Signs US$150 Million Interim Financing Facilities Agreement to Support Construction of the Bilboes Gold Project - Akron Beacon Journal",
    "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
    "Yen Holds Firm as BoJ Minutes Offset Soft Dollar & Fed - TradingPedia",
    "Gold rate today Kolhapur Nov 5: Check latest prices ahead of Dhanteras 2026 amid US midterm election results impact - Livemint",
@@ -16637,18 +16651,10 @@
    "War update: 184 combat engagements on front line over past day - Ukrinform",
    "Vance blames Iran war for Republican defeat in US midterms - Yeni \u015eafak English",
    "Emirates Reports 66% Profit Slump on War, High Fuel Costs - Bloomberg.com",
-   "ESAF expects Rs 990 crore gold SMA-0 recovery after swings - Multibagg AI",
-   "Euro: Positive outlook hinges on 1.1280 against US Dollar - UOB - www.tmgm.com",
-   "Vance says Iran war cost GOP the midterms; Trump says he would have done nothing different - WSET",
-   "Gold rate today Mangalore Nov 5: Check latest prices ahead of Dhanteras 2026 \u2014 What\u2019s happening after US midterm results - Livemint",
-   "Caledonia Mining Corporation Plc: Caledonia Group Signs US$150 Million Interim Financing Facilities Agreement to Support Construction of the Bilboes Gold Project - TradingView",
-   "A Democratic-controlled Congress will likely try to constrain Trump\u2019s foreign adventures - The Guardian",
-   "The unauthorized war - Iron Mountain Daily News"
+   "ESAF expects Rs 990 crore gold SMA-0 recovery after swings - Multibagg AI"
   ]
  },
  "log": [
-  "04.11 08:02 N  NEWS (10 new) score +0.25 conf 0.40: Dolar\u0131n ABD ara se\u00e7im sonras\u0131 sert zay\u0131flamas\u0131 ve \u0130ran'daki \u00e7at\u0131\u015fman\u0131n t\u0131rmanmas\u0131 (ABD sald\u0131r\u0131lar\u0131, H\u00fcrm\u00fcz gerginli\u011fi) alt\u0131na k\u0131sa vadede destek veriyor. Ancak g\u00fc\u00e7l\u00fc istihdam verisinin faiz art\u0131r\u0131m\u0131 beklentilerini k\u00f6r\u00fcklemesi ve baz\u0131 haberlerde alt\u0131n\u0131n de\u011fer kaybetmesi bu etkiyi s\u0131n\u0131rl\u0131yor, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
-  "04.11 08:02 N  GPT  score +0.32 conf 0.43: \u0130ran\u2019\u0131n H\u00fcrm\u00fcz plan\u0131na olumsuz yan\u0131t vermesi ve ABD sald\u0131r\u0131lar\u0131n\u0131 do\u011frulamas\u0131 g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n se\u00e7im sonu\u00e7lar\u0131yla zay\u0131flamas\u0131 da alt\u0131na olumlu. Ancak istihdam verileri kaynakl\u0131 faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki s\u0131n\u0131rl\u0131,",
   "04.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "04.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "04.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -16946,7 +16952,9 @@
   "05.11 11:15 N  NEWS (10 new) score +0.40 conf 0.50: ",
   "05.11 11:15 N  GPT  score +0.35 conf 0.53: Dolar ve getirilerdeki gerileme ile H\u00fcrm\u00fcz\u2019de tanker yang\u0131n\u0131 iddias\u0131 k\u0131sa vadede alt\u0131na destek verebilir. Ancak bar\u0131\u015f umutlar\u0131 ve y\u00fckseli\u015fin haberlerde zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcnmesi, olas\u0131 kazanc\u0131 ve g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "05.11 11:27 N  NEWS (9 new) score +0.35 conf 0.45: Ara se\u00e7im sonras\u0131 dolar zay\u0131flamas\u0131 ve d\u00fc\u015fen tahvil getirileri alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed'de gev\u015feme beklentisini destekliyor. Buna kar\u015f\u0131n ABD-\u0130ran sava\u015f\u0131n\u0131n sona erme umudu jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor ve 08:17 haberinde dolar yeniden toparlan\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama kar\u0131\u015f\u0131k.",
-  "05.11 11:27 N  GPT  score +0.15 conf 0.38: Rusya\u2019ya y\u00f6nelik yo\u011fun drone sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak \u0130ran sava\u015f\u0131 i\u00e7in bar\u0131\u015f umutlar\u0131yla petrol\u00fcn gerilemesi ve dolar\u0131n yeniden g\u00fc\u00e7 kazanmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. \u00d6nceki dolar zay\u0131fl\u0131\u011f\u0131 ve alt\u0131n y\u00fckseli\u015fi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir."
+  "05.11 11:27 N  GPT  score +0.15 conf 0.38: Rusya\u2019ya y\u00f6nelik yo\u011fun drone sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak \u0130ran sava\u015f\u0131 i\u00e7in bar\u0131\u015f umutlar\u0131yla petrol\u00fcn gerilemesi ve dolar\u0131n yeniden g\u00fc\u00e7 kazanmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor. \u00d6nceki dolar zay\u0131fl\u0131\u011f\u0131 ve alt\u0131n y\u00fckseli\u015fi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir.",
+  "05.11 11:39 N  NEWS (6 new) score +0.30 conf 0.40: Dolar ara vermeden zay\u0131fl\u0131yor ve tahvil getirileri d\u00fc\u015f\u00fcyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede olumlu. Petrol fiyat\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc enflasyon beklentilerini a\u015fa\u011f\u0131 \u00e7ekerek faiz indirimi beklentilerini destekliyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki bar\u0131\u015f umutlar\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor, ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
+  "05.11 11:39 N  GPT  score +0.35 conf 0.55: Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; \u0130ran\u2019a y\u00f6nelik yeni yapt\u0131r\u0131mlar da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak \u0130ran sava\u015f\u0131nda bar\u0131\u015f umutlar\u0131 ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, jeopolitik risk primini azaltarak y\u00fcksel"
  ],
  "gold_big": {
   "account": {
@@ -25347,6 +25355,10 @@
    [
     1793867774,
     4963.78
+   ],
+   [
+    1793867966,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -33675,6 +33687,10 @@
    [
     1793867774,
     4975.18
+   ],
+   [
+    1793867966,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -41969,6 +41985,10 @@
    [
     1793867774,
     4993.28
+   ],
+   [
+    1793867966,
+    4993.28
    ]
   ]
  },
@@ -50100,6 +50120,10 @@
    [
     1793867774,
     4969.22
+   ],
+   [
+    1793867966,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -57640,6 +57664,10 @@
    [
     1793867774,
     5044.16
+   ],
+   [
+    1793867966,
+    5049.87
    ]
   ],
   "news_calls": {
@@ -65845,6 +65873,10 @@
    [
     1793867774,
     105876.17
+   ],
+   [
+    1793867966,
+    105876.17
    ]
   ],
   "open": {},
@@ -72210,6 +72242,10 @@
    ],
    [
     1793867774,
+    5066.43
+   ],
+   [
+    1793867966,
     5066.43
    ]
   ],
