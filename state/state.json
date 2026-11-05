@@ -2857,6 +2857,10 @@
    [
     1793894027,
     5000.0
+   ],
+   [
+    1793894207,
+    5000.0
    ]
   ],
   "archive": [
@@ -14664,6 +14668,10 @@
    ],
    [
     1793894027,
+    4868.5
+   ],
+   [
+    1793894207,
     4868.5
    ]
   ],
@@ -26547,6 +26555,10 @@
    [
     1793894027,
     4963.78
+   ],
+   [
+    1793894207,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -35275,6 +35287,10 @@
    [
     1793894027,
     4975.18
+   ],
+   [
+    1793894207,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -43969,6 +43985,10 @@
    [
     1793894027,
     4993.28
+   ],
+   [
+    1793894207,
+    4993.28
    ]
   ]
  },
@@ -52500,6 +52520,10 @@
    [
     1793894027,
     4969.22
+   ],
+   [
+    1793894207,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -60508,6 +60532,10 @@
    [
     1793894027,
     5077.92
+   ],
+   [
+    1793894207,
+    5077.92
    ]
   ],
   "news_calls": {
@@ -60715,7 +60743,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 107745.94035699998,
+   "balance": 107745.94225699999,
    "start": 100000.0,
    "positions": [
     {
@@ -60730,7 +60758,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: \u00c7in H200 onay darbo\u011faz\u0131 haberi ve g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f momentumu s\u00fcr\u00fcyor, ancak d\u00fc\u015f\u00fc\u015f\u00fcn b\u00fcy\u00fck k\u0131sm\u0131 fiyatland\u0131. | GPT 0.7: \u00c7in sevkiyatlar\u0131ndaki onay darbo\u011faz\u0131 ve kal\u0131c\u0131la\u015famayan tepki y\u00fckseli\u015fi, a\u015f\u0131r\u0131 d\u00fc\u015f\u00fc\u015fe ra\u011fmen sat\u0131\u015f avantaj\u0131 sa\u011fl\u0131yor.",
-     "cur": 182.31
+     "cur": 184.0999
     },
     {
      "id": "e5fa4935-f2f7-4af1-9f21-ae8f45aca198",
@@ -60744,7 +60772,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Fed'in faiz art\u0131\u015f\u0131 sinyalleriyle teknoloji sat\u0131\u015f\u0131 h\u0131zlan\u0131yor, son 5 dakikada yeni dip k\u0131r\u0131ld\u0131. | GPT 0.75: Ba\u015far\u0131s\u0131z tepki denemesi ve yeni saatlik dipler, sert d\u00fc\u015f\u00fc\u015f\u00fc kovalama riskine ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor.",
-     "cur": 649.41
+     "cur": 654.56
     }
    ],
    "trades": [
@@ -61021,12 +61049,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 4248.13,
+    "pnl": 2363.6,
     "trades": 8,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 110124.3
+   "equity": 108239.77
   },
   "equity_curve": [
    [
@@ -69196,6 +69224,10 @@
    [
     1793894027,
     110124.3
+   ],
+   [
+    1793894207,
+    108239.77
    ]
   ],
   "open": {
@@ -69289,7 +69321,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "185586.78",
+   "buying_power": "175787.21",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -75984,6 +76016,10 @@
    ],
    [
     1793894027,
+    5066.43
+   ],
+   [
+    1793894207,
     5066.43
    ]
   ],
