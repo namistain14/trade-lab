@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 13:49 (İstanbul)
+> Son güncelleme: 05.11.2026 14:13 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %66.7 | %45.7 |
 | Ödenen komisyon/spread | 70.97 $ | 546.46 $ |
 
-**Hesap değeri: 5,061.59 $** (başlangıç 5,000 $, +61.59 $ / %+1.23)
+**Hesap değeri: 5,091.71 $** (başlangıç 5,000 $, +91.71 $ / %+1.83)
 
 Açık pozisyonlar: PAXGUSDT long @ 4116.71 (TP 4129.06 / SL 4108.48)
 
-Son haber analizi (05.11 13:43): Claude puan **+0.30**, güven 0.50 — İran'daki çatışma ve Hürmüz Boğazı'ndaki tanker yangınları, Trump'ın yeni saldırı ihtimali ve Körfez'deki gerilim güvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zayıflama da altın için olumlu. Buna karşın petrol fiyatlarındaki sert düşüş ve enflasyon/Fed beklentilerine ilişkin belirsizlik sınırlı bir yükseliş potansiyeli bırakıyor; sinyaller karışık olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (05.11 14:13): Claude puan **+0.05**, güven 0.30 — Haberler karışık: İran savaşına yönelik gerilimin azalması ve doların toparlanması altın için olumsuz, buna karşılık Trump'ın yeniden saldırı seçeneğini değerlendirmesi ve altının toparlanma eğilimi olumlu. ABD tarım dışı istihdam (NFP) verisi beklenirken kısa vadede net bir yön oluşmadığı için etki sınırlı ve yüksek belirsizlik içeriyor.
+
+GPT (gpt-6-luna): puan **+0.20**, güven 0.40 — İran savaşı ve Suudi Arabistan’a yönelen füze haberi güvenli liman talebini destekleyebilir; altının toparlanması da olumlu. Ancak doların yeniden güçlenmesi ve yaklaşan ABD istihdam verisi yukarı yönlü etkiyi sınırlıyor; savaş söyleminin soğuduğuna dair haberler de tabloyu karışık kılıyor.
 
 Son işlemler:
 
@@ -84,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 12:03 N  GPT  score +0.48 conf 0.62: ABD ara seçimleri sonrası dolar ve Hazine getirilerindeki yumuşama altını destekliyor; İran savaşı ve Rusya’nın İran’a füze sistemleri sağlayacağı haberi de güvenli liman talebini artırabilir. Ancak barış beklentileri ve yükselişin zaten fiyatlanmış olma ihtimali kazanımları sınırlıyor.
-05.11 12:15 N  NEWS (10 new) score +0.35 conf 0.50: ABD ara seçim sonuçlarının ardından dolar ve Hazine getirileri zayıfladı, bu da altın için olumlu; petrol fiyatlarının gerilemesi enflasyon baskısını azaltıp Fed beklentilerini yumuşatabilir. Hormuz'daki tanker yangınları ve İran savaşının sürmesi jeopolitik risk primini destekliyor, ancak dolar hareketi kısmen fiyatlanmış durumda ve birçok başlık eski/tekrar niteliğinde olduğu için güven sınırlı.
 05.11 12:15 N  GPT  score +0.32 conf 0.46: Dolar ve tahvil getirilerindeki gerilemeyle altının yükseldiği haberleri kısa vadede destekleyici; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak bu hareketin büyük ölçüde fiyatlanmış olma ihtimali ve petrolün gerilemesi yükselişi sınırlıyor.
 05.11 12:27 N  NEWS (8 new) score +0.35 conf 0.50: ABD ara seçim sonuçları sonrası dolar ve Treasury getirileri zayıfladı; bu, altın için kısa vadede destekleyici. İran savaşı ve Hürmüz'deki gerilim gibi jeopolitik riskler güvenli liman talebini artırabilir, ancak bazı haberler (eski, zaten fiyatlanmış olanlar ve Fed beklentisine dair net bir yönlendirme olmaması) güveni sınırlıyor.
 05.11 12:27 N  GPT  score +0.36 conf 0.53: Doların siyasi belirsizlikle zayıflaması ve ABD tahvil getirilerindeki düşüş altını destekliyor; İran gerilimi ve Kuzey Kore’nin füze testi de sınırlı güvenli liman talebi yaratabilir. Ancak doların yeniden güçlendiğine ve piyasa yönünün netleşmediğine işaret eden haberler yükseliş beklentisini törp
@@ -99,6 +99,8 @@ Son işlemler:
 05.11 13:31 N  NEWS (8 new) score +0.40 conf 0.55: 
 05.11 13:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 05.11 13:43 N  NEWS (11 new) score +0.30 conf 0.50: İran'daki çatışma ve Hürmüz Boğazı'ndaki tanker yangınları, Trump'ın yeni saldırı ihtimali ve Körfez'deki gerilim güvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zayıflama da altın için olumlu. Buna karşın petrol fiyatlarındaki sert düşüş ve enflasyon/Fed beklentilerine ilişkin belirsizlik sınırlı bir yükseliş potansiyeli bırakıyor; sinyaller karışık olduğu için güven orta düzeyde tutuldu.
+05.11 14:13 N  NEWS (27 new) score +0.05 conf 0.30: Haberler karışık: İran savaşına yönelik gerilimin azalması ve doların toparlanması altın için olumsuz, buna karşılık Trump'ın yeniden saldırı seçeneğini değerlendirmesi ve altının toparlanma eğilimi olumlu. ABD tarım dışı istihdam (NFP) verisi beklenirken kısa vadede net bir yön oluşmadığı için etki sınırlı ve yüksek belirsizlik içeriyor.
+05.11 14:13 N  GPT  score +0.20 conf 0.40: İran savaşı ve Suudi Arabistan’a yönelen füze haberi güvenli liman talebini destekleyebilir; altının toparlanması da olumlu. Ancak doların yeniden güçlenmesi ve yaklaşan ABD istihdam verisi yukarı yönlü etkiyi sınırlıyor; savaş söyleminin soğuduğuna dair haberler de tabloyu karışık kılıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
