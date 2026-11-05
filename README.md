@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 14:16 (İstanbul)
+> Son güncelleme: 05.11.2026 14:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +164.47 $ | +51.59 $ |
-| İşlem sayısı | 6 | 46 |
-| Kazanma oranı | %66.7 | %45.7 |
-| Ödenen komisyon/spread | 70.97 $ | 546.46 $ |
+| Net kâr/zarar | +233.54 $ | +120.67 $ |
+| İşlem sayısı | 7 | 47 |
+| Kazanma oranı | %71.4 | %46.8 |
+| Ödenen komisyon/spread | 82.79 $ | 558.27 $ |
 
-**Hesap değeri: 5,118.01 $** (başlangıç 5,000 $, +118.01 $ / %+2.36)
-
-Açık pozisyonlar: PAXGUSDT long @ 4116.71 (TP 4129.06 / SL 4108.48)
+**Hesap değeri: 5,120.67 $** (başlangıç 5,000 $, +120.67 $ / %+2.41)
 
 Son haber analizi (05.11 14:13): Claude puan **+0.05**, güven 0.30 — Haberler karışık: İran savaşına yönelik gerilimin azalması ve doların toparlanması altın için olumsuz, buna karşılık Trump'ın yeniden saldırı seçeneğini değerlendirmesi ve altının toparlanma eğilimi olumlu. ABD tarım dışı istihdam (NFP) verisi beklenirken kısa vadede net bir yön oluşmadığı için etki sınırlı ve yüksek belirsizlik içeriyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 14:18 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 10:28 | PAXGUSDT | long | -55.90 $ | stop |
 | 05.11 08:21 | PAXGUSDT | long | -55.90 $ | stop |
 | 05.11 06:55 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 04:12 | PAXGUSDT | long | +69.07 $ | take profit |
-| 05.11 03:31 | PAXGUSDT | long | +69.06 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 12:15 N  GPT  score +0.32 conf 0.46: Dolar ve tahvil getirilerindeki gerilemeyle altının yükseldiği haberleri kısa vadede destekleyici; Kuzey Kore’nin füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak bu hareketin büyük ölçüde fiyatlanmış olma ihtimali ve petrolün gerilemesi yükselişi sınırlıyor.
 05.11 12:27 N  NEWS (8 new) score +0.35 conf 0.50: ABD ara seçim sonuçları sonrası dolar ve Treasury getirileri zayıfladı; bu, altın için kısa vadede destekleyici. İran savaşı ve Hürmüz'deki gerilim gibi jeopolitik riskler güvenli liman talebini artırabilir, ancak bazı haberler (eski, zaten fiyatlanmış olanlar ve Fed beklentisine dair net bir yönlendirme olmaması) güveni sınırlıyor.
 05.11 12:27 N  GPT  score +0.36 conf 0.53: Doların siyasi belirsizlikle zayıflaması ve ABD tahvil getirilerindeki düşüş altını destekliyor; İran gerilimi ve Kuzey Kore’nin füze testi de sınırlı güvenli liman talebi yaratabilir. Ancak doların yeniden güçlendiğine ve piyasa yönünün netleşmediğine işaret eden haberler yükseliş beklentisini törp
 05.11 12:39 N  NEWS (8 new) score +0.25 conf 0.40: ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gevşedi, bu altın için olumlu; İran savaşı ve yeni yaptırımlar güvenli liman talebini destekliyor. Ancak altının bu haber akışıyla 08:38 civarında zaten yükseldiği görülüyor, Fed enflasyon tahmini tarafı ise belirsiz ve risk iştahı karışık, bu yüzden güven sınırlı.
@@ -101,6 +98,7 @@ Son işlemler:
 05.11 13:43 N  NEWS (11 new) score +0.30 conf 0.50: İran'daki çatışma ve Hürmüz Boğazı'ndaki tanker yangınları, Trump'ın yeni saldırı ihtimali ve Körfez'deki gerilim güvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zayıflama da altın için olumlu. Buna karşın petrol fiyatlarındaki sert düşüş ve enflasyon/Fed beklentilerine ilişkin belirsizlik sınırlı bir yükseliş potansiyeli bırakıyor; sinyaller karışık olduğu için güven orta düzeyde tutuldu.
 05.11 14:13 N  NEWS (27 new) score +0.05 conf 0.30: Haberler karışık: İran savaşına yönelik gerilimin azalması ve doların toparlanması altın için olumsuz, buna karşılık Trump'ın yeniden saldırı seçeneğini değerlendirmesi ve altının toparlanma eğilimi olumlu. ABD tarım dışı istihdam (NFP) verisi beklenirken kısa vadede net bir yön oluşmadığı için etki sınırlı ve yüksek belirsizlik içeriyor.
 05.11 14:13 N  GPT  score +0.20 conf 0.40: İran savaşı ve Suudi Arabistan’a yönelen füze haberi güvenli liman talebini destekleyebilir; altının toparlanması da olumlu. Ancak doların yeniden güçlenmesi ve yaklaşan ABD istihdam verisi yukarı yönlü etkiyi sınırlıyor; savaş söyleminin soğuduğuna dair haberler de tabloyu karışık kılıyor.
+05.11 14:19 B5  CLOSE long take profit: +69.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
