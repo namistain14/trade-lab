@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 02:48 (İstanbul)
+> Son güncelleme: 06.11.2026 02:51 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -33.95 $ |
-| İşlem sayısı | 0 | 52 |
-| Kazanma oranı | %0.0 | %44.2 |
-| Ödenen komisyon/spread | 0.00 $ | 617.46 $ |
+| Net kâr/zarar | -55.91 $ | -89.85 $ |
+| İşlem sayısı | 1 | 53 |
+| Kazanma oranı | %0.0 | %43.4 |
+| Ödenen komisyon/spread | 11.83 $ | 629.29 $ |
 
-**Hesap değeri: 4,938.81 $** (başlangıç 5,000 $, -61.19 $ / %-1.22)
-
-Açık pozisyonlar: PAXGUSDT long @ 4091.00 (TP 4103.27 / SL 4082.82)
+**Hesap değeri: 4,910.15 $** (başlangıç 5,000 $, -89.85 $ / %-1.80)
 
 Son haber analizi (06.11 02:42): Claude puan **+0.40**, güven 0.50 — Altın, İran savaşındaki tırmanış ve Hürmüz'deki patlama iddialarıyla güvenli liman talebinden, Polonya Merkez Bankası'nın ek altın alımı sinyalinden ve iki haftalık zirve tazelemesinden destek görüyor. Buna karşılık güvenli liman kaynaklı dolar gücü, NFP öncesi bekleme ve olası Fed beklentisi değişimleri kısa vadeli riskleri artırıyor; bu nedenle sinyal orta düzeyde pozitif ama güven sınırlı.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 02:52 | PAXGUSDT | long | -55.91 $ | stop |
 | 05.11 19:13 | PAXGUSDT | short | -55.93 $ | stop |
 | 05.11 19:03 | PAXGUSDT | short | -55.93 $ | stop |
 | 05.11 18:54 | PAXGUSDT | short | +69.10 $ | take profit |
 | 05.11 18:18 | PAXGUSDT | short | -55.93 $ | stop |
-| 05.11 18:10 | PAXGUSDT | short | -55.92 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 01:29 N  NEWS (10 new) score -0.10 conf 0.35: 
 06.11 01:29 N  GPT  score -0.12 conf 0.35: Goldman Sachs’ın Fed görünümünü şahin bulup altın tahminlerini düşürmesi kısa vadede baskı yaratabilir. İran savaşı ve siyasi belirsizlik güvenli liman talebini desteklese de başlıkların çoğu dolaylı veya tekrarlayan nitelikte.
 06.11 01:42 N  NEWS (11 new) score +0.10 conf 0.30: Başlıklar karışık ve büyük ölçüde eski: Iran savaşı ve ABD ara seçim sonuçları jeopolitik risk primini destekliyor, altın yeniden 4.000 doların üzerine çıkmış ve teknik toparlanma haberleri var. Buna karşılık Goldman'ın hawkish Fed gerekçesiyle altın hedeflerini düşürmesi, ABD doları ve faiz beklentileri üzerinden baskı yaratıyor. Net etki hafif pozitif görünüyor ama güven düşük.
 06.11 01:42 N  GPT  score -0.15 conf 0.36: Hawkish Fed beklentisiyle Goldman’ın altın hedeflerini düşürmesi kısa vadede baskı yaratabilir; buna karşılık teknik görünümdeki toparlanma ve İran savaşı kaynaklı belirsizlik aşağı yönü sınırlıyor. Haber akışı çelişkili ve önemli bir yeni politika ya da çatışma gelişmesi içermediğinden etki hafif n
@@ -101,6 +98,7 @@ Son işlemler:
 06.11 02:43 N  NEWS (5 new) score +0.40 conf 0.50: Altın, İran savaşındaki tırmanış ve Hürmüz'deki patlama iddialarıyla güvenli liman talebinden, Polonya Merkez Bankası'nın ek altın alımı sinyalinden ve iki haftalık zirve tazelemesinden destek görüyor. Buna karşılık güvenli liman kaynaklı dolar gücü, NFP öncesi bekleme ve olası Fed beklentisi değişimleri kısa vadeli riskleri artırıyor; bu nedenle sinyal orta düzeyde pozitif ama güven sınırlı.
 06.11 02:43 N  GPT  score +0.35 conf 0.43: Altın fiyatının iki haftanın zirvesine çıkması ve Polonya Merkez Bankası’nın ek alımlara açık olması kısa vadede destekleyici; İran kararına ilişkin belirsizlik de güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve yaklaşan ABD istihdam verisi yönü sınırlıyor, bu nedenle görünüm temkinl
 06.11 02:45 B5  LONG gold 25000 USD x10 @ 4091.00 (TP 4103.27, SL 4082.82; news +0.38)
+06.11 02:51 B5  CLOSE long stop: -55.91 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
