@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 23:43 (İstanbul)
+> Son güncelleme: 05.11.2026 23:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -64,12 +64,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +104.67 $ | +3412.21 $ |
-| İşlem sayısı | 5 | 17 |
-| Kazanma oranı | %40.0 | %41.2 |
+| Net kâr/zarar | +2572.20 $ | +5879.74 $ |
+| İşlem sayısı | 9 | 21 |
+| Kazanma oranı | %66.7 | %52.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,390.67 $** (başlangıç 100,000 $, +8390.67 $ / %+8.39)
+**Hesap değeri: 108,331.04 $** (başlangıç 100,000 $, +8331.04 $ / %+8.33)
 
 Açık pozisyonlar: AAPL long @ 345.10 (TP 350.16 / SL 341.54); NVDA short @ 183.87 (TP 181.37 / SL 185.97); QQQ short @ 653.82 (TP 644.30 / SL 660.65); SPY short @ 738.48 (TP 727.62 / SL 746.09)
 
@@ -77,20 +77,15 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 23:46 | SPY | short | +582.01 $ | seans sonu |
+| 05.11 23:46 | QQQ | short | +576.72 $ | seans sonu |
+| 05.11 23:46 | NVDA | short | +1215.36 $ | seans sonu |
+| 05.11 23:46 | AAPL | long | +93.44 $ | seans sonu |
 | 05.11 20:37 | QQQ | short | -1070.92 $ | stop |
-| 05.11 19:14 | NVDA | short | -955.66 $ | stop |
-| 05.11 18:53 | SPY | short | +1593.26 $ | take profit |
-| 05.11 18:12 | NVDA | short | +1589.76 $ | take profit |
-| 05.11 18:03 | AAPL | long | -1051.77 $ | stop |
 
 ## Son olaylar
 
 ```
-05.11 22:39 N  NEWS (6 new) score -0.10 conf 0.35: Haberler karışık: İran savaşı ve petrol fiyatlarındaki sıçrama (tanker saldırıları) güvenli liman talebini destekliyor, ancak Fed'in faiz sabit tutması, Hammack ve Barkin'in kademeli faiz artırımını savunması ve doların hafif güçlenmesi altın üzerinde baskı yaratıyor. Net etki hafif negatif, ancak eski ve kısmen fiyatlanmış haberler nedeniyle güven düşük.
-05.11 22:39 N  GPT  score +0.15 conf 0.34: İran savaşı ve tanker saldırıları kaynaklı petrol sıçraması ile Türkiye’deki ölümcül saldırılar kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in faizi sabit tutması belirgin bir sürpriz değil; petrolün enflasyon ve faiz beklentileri üzerindeki etkisi ile doların görece gücü yükselişi
-05.11 22:39 B6  karar turu: Claude «Yapay zeka kaynaklı sert satış ve VIX sıçraması sonrası piyasa gün içi dipte yatay konsolide oluyor; kapanışa yakın yeni pozisyon için net bir avantaj görünmüyor.» / GPT «Sert satışın ardından endeksler yataylaşıyor; normal seansın kapanmasına 21 dakika kalması, 1–3 saatlik işlemlerde uzatılmış seans likiditesi ve bracket emirlerinin geçerliliğini kritik kılıyor.»
-05.11 22:51 N  NEWS (6 new) score -0.12 conf 0.35: Yeni haberlerin ağırlığı hafif baskılayıcı: güçlü işgücü verisi doları destekliyor ve ABD tahvil getirileri düşerken dolar yatay seyrediyor; Fed'in faizleri sabit tutması ise beklenen bir gelişme. İran savaşı ve petrol fiyatlarındaki yükseliş sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış ve net etki zayıf kalıyor.
-05.11 22:51 N  GPT  score -0.20 conf 0.36: İran’ın nükleer program için somut önerileri değerlendirmesi gerilimin azalabileceği beklentisini desteklerken, güçlü istihdam verileriyle doların dayanıklı kalması altın üzerinde baskı yaratabilir. Ancak tanker saldırıları ve yükselen petrol fiyatları güvenli liman talebini canlı tuttuğundan kısa v
 05.11 22:51 B6  karar turu: Claude «Yapay zekâ kaynaklı sert satışın ardından gün sonunda zayıf bir tepki alımı görülüyor, ancak oynaklık (VIX) yüksek ve kapanış öncesi yeni pozisyon açmak için yeterli avantaj yok.» / GPT «Sert satış sonrası son saat toparlanıyor ancak kapanışa yakın tepki alımlarını kaldıraçla kovalamak riskli.»
 05.11 23:03 N  NEWS (9 new) score -0.15 conf 0.35: Başlıkların çoğu jeopolitik gürültü ve altı doğrudan etkilemeyen haberler. Güçlü ABD işgücü verisi doları desteklediği için altı hafifçe baskılıyor; Fed'in faizleri sabit tutması ve enflasyon endişeleri de dovish bir sinyal vermiyor. İran savaşıyla ilgili petrol fiyatı artışı güvenli liman talebini kısmen destekleyebilir, ancak bu etki sınırlı ve zaten fiyatlanmış görünüyor.
 05.11 23:03 N  GPT  score +0.18 conf 0.34: İran savaşı ve tanker saldırıları kaynaklı petrol sıçraması ile Ukrayna’daki yeni saldırı haberleri güvenli liman talebini destekleyebilir; tahvil getirilerindeki düşüş de altın için olumlu. Ancak doların güçlü seyri ve Fed’in enflasyon kaygıları bu etkiyi sınırlıyor; haberlerin çoğu zaten bilinen r
@@ -101,6 +96,11 @@ Son işlemler:
 05.11 23:28 N  GPT  score +0.12 conf 0.28: Altının kırılımını koruduğuna dair başlık kısa vadeli momentumu destekliyor; Çinli firmalara yönelik yaptırımlar da sınırlı güvenli liman talebi yaratabilir. Ancak Putin’in İran savaşını sona erdirmeye yardım teklifinin gerilimi azaltma ihtimali var ve doların yatay seyri yön sinyalini zayıflatıyor.
 05.11 23:40 N  NEWS (3 new) score +0.10 conf 0.30: 
 05.11 23:40 N  GPT  score +0.16 conf 0.30: Altın için 4.000 dolar üzerindeki güçlü yükseliş ve Dünya Bankası’nın uzun vadeli görünümü hafif destekleyici; ancak bunlar büyük ölçüde bilinen veya geriye dönük haberler. Yeni manşetlerde İran savaşıyla ilgili somut bir tırmanış yok ve doların yatay seyri kısa vadeli yön sinyalini sınırlıyor.
+05.11 23:46 B6  CLOSE long AAPL seans sonu: +93.44 USD
+05.11 23:46 B6  CLOSE short NVDA seans sonu: +1215.36 USD
+05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD
+05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD
+05.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
