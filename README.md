@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 08:11 (İstanbul)
+> Son güncelleme: 05.11.2026 08:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %47.7 |
 | Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
 
-**Hesap değeri: 5,130.98 $** (başlangıç 5,000 $, +130.98 $ / %+2.62)
+**Hesap değeri: 5,127.41 $** (başlangıç 5,000 $, +127.41 $ / %+2.55)
 
 Açık pozisyonlar: PAXGUSDT long @ 4132.35 (TP 4144.74 / SL 4124.08)
 
-Son haber analizi (05.11 08:02): Claude puan **+0.50**, güven 0.60 — ABD ara seçim sonuçları doları ve tahvil getirilerini zayıflatarak altın için olumlu bir ortam yarattı; Fed bağımsızlığı beklentisi ve merkez bankası alımları (321 ton) da destekleyici. Ancak yükseliş büyük ölçüde zaten fiyatlandı (gold 2 haftanın zirvesinde, yaklaşık %2 kazanç) ve İran savaşı/Rusya-İran bağlantılı jeopolitik haberler güvenli liman talebini artırsa da net etkisi belirsiz; bu nedenle güven orta düzeyde.
+Son haber analizi (05.11 08:14): Claude puan **+0.45**, güven 0.55 — ABD ara seçim sonuçları doları ve tahvil getirilerini zayıflatarak altın için olumlu bir ortam yarattı; Fed bağımsızlığı beklentisi ve merkez bankası alımları (321 ton) da destekleyici. Ancak yükseliş büyük ölçüde zaten fiyatlandı (gold 2 haftanın zirvesinde, yaklaşık %2 kazanç) ve İran savaşı/Rusya-İran bağlantılı jeopolitik haberler güvenli liman talebini artırsa da net etkisi belirsiz; bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.56 — Rusya’nın İran’a füze fırlatma sistemi desteği ve Kuzey Kore’nin yeni hava savunma füze testi güvenli liman talebini sınırlı ölçüde artırabilir. Dolar ve tahvil getirilerindeki düşüş altını destekliyor; ancak seçim sonrası güçlü yükselişin önemli kısmı zaten fiyatlanmış olduğundan kısa vadeli etki t
+GPT (gpt-6-luna): puan **+0.65**, güven 0.64 — Doların aylık dip seviyelerine gerilemesi ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran savaşı ve seçim sonrası siyasi belirsizlik de güvenli liman talebini artırabilir. Ancak altındaki sert yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve bu nedenle ek yükseliş için g
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 07:00 N  GPT  score +0.48 conf 0.65: Dolar ve Hazine getirilerindeki gerileme, seçim sonrası altını destekliyor; fiyatın iki haftalık zirveye ve 4.100 doların üzerine çıkması kısa vadeli momentumu da olumlu kılıyor. Ancak yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve İran savaşının yatışabileceği beklentisi güvenli liman tale
-05.11 07:00 B5  LONG gold 25000 USD x10 @ 4132.35 (TP 4144.74, SL 4124.08; news +0.46)
 05.11 07:12 N  NEWS (11 new) score +0.50 conf 0.60: ABD ara seçim sonuçları sonrası dolar ve tahvil getirileri geriledi, altın iki haftanın en yüksek seviyesine çıktı ve 4.000 doların üzerine taşındı; bu, 1-4 saatlik vadede altın için net yükseliş sinyali. Ancak hareketin bir kısmı zaten fiyatlandı ve altın yıl başındaki zirveden hâlâ geri çekilmiş durumda; ayrıca jeopolitik risk (İran savaşı) ve Fed beklentileri hakkındaki haberler karışık olduğundan güveni orta seviyede tuttum.
 05.11 07:12 N  GPT  score +0.68 conf 0.69: Doların ve ABD tahvil getirilerinin seçim sonuçları sonrası gerilemesi altını kısa vadede destekliyor; yeni haberler de bu hareketi teyit ediyor. Ancak yükselişin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşıyla ilgili haberlerin etkisi çelişkili olduğundan güven sınırlı.
 05.11 07:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara seçim sonuçları (Demokratların üstünlüğü) doları ve tahvil faizlerini zayıflatarak altın için net destekleyici bir ortam yaratıyor; Fed bağımsızlığı beklentisi de gevşek para politikası algısını güçlendiriyor. Merkez bankalarının çeyreklik 321 ton alımı yapısal talebi destekliyor. Ancak yükselişin büyük kısmı zaten fiyatlanmış durumda ve altın direnç seviyesinde, bu da kısa vadeli kâr realizasyonu riskini artırıyor.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 05.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 05.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+05.11 08:14 N  NEWS (11 new) score +0.45 conf 0.55: 
+05.11 08:14 N  GPT  score +0.65 conf 0.64: Doların aylık dip seviyelerine gerilemesi ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran savaşı ve seçim sonrası siyasi belirsizlik de güvenli liman talebini artırabilir. Ancak altındaki sert yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve bu nedenle ek yükseliş için g
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
