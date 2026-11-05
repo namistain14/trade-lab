@@ -2245,6 +2245,10 @@
    [
     1793854063,
     5000.0
+   ],
+   [
+    1793854256,
+    5000.0
    ]
   ],
   "archive": [
@@ -13441,43 +13445,38 @@
    [
     1793854063,
     4868.5
+   ],
+   [
+    1793854256,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.5,
-   "confidence": 0.6,
-   "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131 (Demokratlar\u0131n \u00fcst\u00fcnl\u00fc\u011f\u00fc) dolar\u0131 ve tahvil faizlerini zay\u0131flatarak alt\u0131n i\u00e7in net destekleyici bir ortam yarat\u0131yor; Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 beklentisi de gev\u015fek para politikas\u0131 alg\u0131s\u0131n\u0131 g\u00fc\u00e7lendiriyor. Merkez bankalar\u0131n\u0131n \u00e7eyreklik 321 ton al\u0131m\u0131 yap\u0131sal talebi destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda ve alt\u0131n diren\u00e7 seviyesinde, bu da k\u0131sa vadeli k\u00e2r realizasyonu riskini art\u0131r\u0131yor.",
+   "score": 0.4,
+   "confidence": 0.5,
+   "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi bir ayl\u0131k dibe geriledi ve tahvil getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in net olarak destekleyici. Ayr\u0131ca Demokratlar\u0131n Senato'yu kazanmas\u0131 Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131n\u0131 g\u00fc\u00e7lendirebilir, bu da faiz beklentileri a\u00e7\u0131s\u0131ndan olumlu. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n sona erdirilmesi y\u00f6n\u00fcnde siyasi bask\u0131 art\u0131yor ve petrol d\u00fc\u015f\u00fcyor; bu da jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Alt\u0131n zaten %2'ye yak\u0131n y\u00fckselip iki haftal\u0131k zirveye \u00e7\u0131kt\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu nedenle g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1793853535396,
-   "new_headlines": 14,
+   "ts": 1793854255483,
+   "new_headlines": 9,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
     "\u0130ran sava\u015f\u0131 se\u00e7im sonucunu etkiledi; jeopolitik risk primi destekliyor"
    ],
    "gpt": {
-    "score": 0.35,
-    "confidence": 0.61,
-    "reason": "Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; se\u00e7im sonras\u0131 zay\u0131fl\u0131kla birlikte alt\u0131n zaten yakla\u015f\u0131k %2 y\u00fckseldi\u011fi i\u00e7in bu etki k\u0131smen fiyatlanm\u0131\u015f olabilir. \u0130ran sava\u015f\u0131n\u0131 bitirme y\u00f6n\u00fcndeki siyasi mesajlar g\u00fcvenli liman talebini azaltabilir ve k\u0131sa vadeli k\u00e2r sat\u0131\u015flar\u0131n\u0131 tetikleyebilir.",
+    "score": 0.55,
+    "confidence": 0.68,
+    "reason": "Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131n k\u0131sa vadeli y\u00fckseli\u015fini destekliyor; se\u00e7im sonras\u0131 haber ak\u0131\u015f\u0131 ve g\u00fc\u00e7l\u00fc fiyat momentumu da olumlu. Ancak alt\u0131n zaten sert y\u00fckseldi ve \u0130ran sava\u015f\u0131n\u0131n sona ermesine y\u00f6nelik siyasi s\u00f6ylemler g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir.",
     "key_events": [
-     "Dolar ve getiriler geriledi",
-     "Alt\u0131n yakla\u015f\u0131k %2 y\u00fckselerek 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
-     "\u0130ran sava\u015f\u0131n\u0131 bitirme y\u00f6n\u00fcndeki mesajlar belirsizlik yarat\u0131yor"
+     "Dolar ve ABD getirileri geriliyor",
+     "Alt\u0131n sert y\u00fckseli\u015fle 4.100 dolar\u0131n \u00fczerinde",
+     "\u0130ran sava\u015f\u0131 i\u00e7in sona erme s\u00f6ylemleri g\u00fc\u00e7leniyor"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793309653870,
-    "score": -0.6,
-    "confidence": 0.6,
-    "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in negatif: s\u0131cak enflasyon ve g\u00fc\u00e7l\u00fc ABD GSYH verisi Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerini art\u0131r\u0131yor, gold ve g\u00fcm\u00fc\u015f d\u00fc\u015f\u00fc\u015fte, ve piyasa \u00e7\u00f6k\u00fc\u015f\u00fc g\u00fcvenli liman talebi yaratmad\u0131. \u0130ran sava\u015f\u0131 ve jeopolitik riskler ise destekleyici olabilir, ama bu haberler k\u0131smen fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali net de\u011fil; bu nedenle g\u00fcven orta d\u00fczeyde.",
-    "new": 22,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1793312276691,
     "score": -0.5,
@@ -16168,21 +16167,38 @@
     "new": 14,
     "gpt_score": 0.35,
     "gpt_confidence": 0.61
+   },
+   {
+    "ts": 1793854255483,
+    "score": 0.4,
+    "confidence": 0.5,
+    "reason": "ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi bir ayl\u0131k dibe geriledi ve tahvil getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in net olarak destekleyici. Ayr\u0131ca Demokratlar\u0131n Senato'yu kazanmas\u0131 Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131n\u0131 g\u00fc\u00e7lendirebilir, bu da faiz beklentileri a\u00e7\u0131s\u0131ndan olumlu. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n sona erdirilmesi y\u00f6n\u00fcnde siyasi bask\u0131 art\u0131yor ve petrol d\u00fc\u015f\u00fcyor; bu da jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Alt\u0131n zaten %2'ye yak\u0131n y\u00fckselip iki haftal\u0131k zirveye \u00e7\u0131kt\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu nedenle g\u00fcven orta d\u00fczeyde.",
+    "new": 9,
+    "gpt_score": 0.55,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 33
+   "n": 34
   },
   "news_seen": [
+   "Gold Price in Pakistan Today: Rs 424,000/Tola (24K) | Live Sarafa Rate - Investify",
+   "Vance says voters want to \u2018end the war,\u2019 change Israel relationship - The Washington Post",
+   "Gold price rises again by Tk 5,482 per bhari to reach Tk 2.29 lakh - New Age BD",
+   "US Vice President Vance Blames War with Iran for Republicans\u2019 Midterm Election Defeat - 8AM Media",
+   "Vance distances himself from Trump admin, criticizing the war in Iran; insiders blame Sec. Hegseth | LIVE BLOG - i24NEWS",
+   "World gold prices buck the trend and rise, while crude oil continues to fall. - Vietnam.vn",
    "Trump says \u2018largely true\u2019 Iran war caused midterms loss, after Vance comments - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "BAJUS raises 22-carat gold price by Tk 5,482 per bhori - Jagonews24",
+   "WSJ editorial says Vance's Iran war remarks undermine Trump, benefit Tehran - Iran International",
    "Chennai gold price rises by Rs 2,280 on November 5, 2026; check today's gold, silver rate - DT Next",
+   "Gold Holds Above $4,000 as Dollar, Yields Fall on Midterm Result - Bloomberg.com",
    "Gold Reclaims $4,100 as Central Banks Buy 321 Tons in a Quarter, Most Since Late 2024 - BigGo Finance",
    "Pound rises to its highest level since the Brexit referendum",
+   "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war - The Guardian",
    "Trump concedes Iran war angered voters, triggered Democratic landslide - The Washington Post",
    "Gold (XAU/USD) Price Forecast: Post-Election Rally Tests Critical Resistance - FXEmpire",
-   "Hegseth faces Republican revolt over Iran war after crushing midterm defeat \u2014 report - TRT World",
    "Democrats\u2019 Senate win could strengthen Federal Reserve independence - Finance & Commerce",
    "Trump points to Iran war in midterms defeat as Mississippi Senate race goes to the wire - Yahoo",
    "Asian FX rises as dollar slides on U.S. vote, kiwi leads gains; yuan steadies - Investing.com",
@@ -16193,7 +16209,6 @@
    "To Bomb Or Not To Bomb? Trump's Limited Iran War Options After Midterms - NDTV",
    "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
    "A MAGA media civil war erupts over who\u2019s to blame for the GOP\u2019s thrashing - The Washington Post",
-   "Gold Rate Today: Check 24K, 22K Gold Prices In Mumbai, Delhi, Chennai, Kolkata, Bengaluru On November 5 - NDTV Profit",
    "ETMarkets Commodity Talk| A 10% allocation to gold and silver? Motilal Oswal's Manav Modi explains the com - The Economic Times",
    "Gold Price Forecast: XAU/USD extends rally as Democrats\u2019 victory weakens US yields - FXStreet",
    "Gold and silver price today, November 5: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
@@ -16201,30 +16216,21 @@
    "Gold Price Today, November 5, 2026, Rises: Antam Hits IDR 2.55 Million per Gram, Buyback Also Strengthens - Aktualita.co",
    "Gold hits a two-week high as dollar, Treasury yields ease after US midterm elections - Reuters",
    "Inside the chip talent war: Trade secrets and rising Chinese rivals - CNBC",
+   "Gold prices today, November 5th: World gold prices rise sharply, SJC gold increases by 1.8 million VND. - Vietnam.vn",
    "Gold surges above US$4,000 as weaker dollar powers ASX miners - Proactive Investors Australia",
    "Gold gains 4 days in a row - VnExpress International",
    "Market News Today Australia: WTI Oil Plunges 9%, Gold Surges Above $4,000 as US Stocks Rally - Mitrade",
    "Gold prices today, November 5th: Soaring - Vietnam.vn",
    "\u2018Knives out\u2019 at Pentagon after unpopular Iran war dooms GOP in midterms - The Washington Post",
+   "Watch: Trump admits Iran war caused election losses - Middle East Eye",
    "Gold price today 5.11: Sharp increase, gold rings far exceed the 140 million VND/tael mark - Laodong.vn",
    "Dollar Weakens as U.S. Midterm Results Shift Congressional Balance; Won Tests 1,340 Level - Businesskorea",
    "KCNA: DPRK test-fires new air-defense missile system - chinadailyhk",
    "MercadoLibre Expands AI War Chest by $30 Million in Q3 - PYMNTS.com",
-   "How popular is the Iran War? - Silver Bulletin",
-   "US Dollar Index Falls to One-Month Low After 2026 Midterm Elections - EBC Financial Group",
-   "US dollar hits 18-month low at Vietnamese banks - vietnamnews.vn",
-   "New Zealand Dollar gains on USD weakness, domestic headwinds cap upside - FXStreet",
-   "Vance says voters want to \u2018end the war,\u2019 change Israel relationship - The Washington Post",
-   "Holy War game between No. 3 Utah and No. 7 BYU has evolved into one of the top FBS rivalries - TribLIVE.com",
-   "Gold Begins Its Comeback, but the Road Ahead Looks Rocky - Action Forex",
-   "Gold Holds Above $4,000 as Dollar, Yields Fall on Midterm Result - Bloomberg.com",
-   "Gold price correction to lift Dhanteras sentiment, but sales volumes likely to remain flat: Jewellers - ET Retail",
-   "Dollar Weakens After Democratic Victory - TradingView"
+   "US Dollar Index Falls to One-Month Low After 2026 Midterm Elections - EBC Financial Group"
   ]
  },
  "log": [
-  "04.11 04:19 N  NEWS (6 new) score -0.45 conf 0.60: Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar g\u00fc\u00e7leniyor, tahvil getirileri y\u00fckseliyor ve \u0130ran-ABD gerilimindeki yumu\u015fama g\u00fcvenli liman talebini azalt\u0131yor. Fed'in enflasyon konusunda endi\u015feli olmas\u0131 da k\u0131sa vadede alt\u0131n i\u00e7in olumsuz bir sinyal; ancak haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan ve ABD ara se\u00e7im sonu\u00e7lar\u0131 belirsiz oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
-  "04.11 04:19 N  GPT  score +0.18 conf 0.34: Alt\u0131n fiyat\u0131n\u0131n yumu\u015fayan petrol fiyatlar\u0131yla toparland\u0131\u011f\u0131 haberi ve Ukrayna\u2019daki yeni sald\u0131r\u0131lar k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak Fed\u2019in enflasyon kayg\u0131lar\u0131 ve \u00f6nceki dolar/getiri kaynakl\u0131 d\u00fc\u015f\u00fc\u015f haberleri y\u00f6n\u00fc belirsizle\u015ftiriyor; etkilerin bir k\u0131sm\u0131 \u00f6nceden fiyatlanm\u0131\u015f olabilir.",
   "04.11 04:31 N  NEWS (8 new) score -0.40 conf 0.60: Alt\u0131n, dolar ve tahvil getirilerinin y\u00fckselmesi, \u0130ran ile gerilimin azalmas\u0131 (g\u00fcvenli liman talebini zay\u0131flat\u0131yor) ve Fed'in enflasyon konusundaki endi\u015feleri nedeniyle 1-4 saat i\u00e7inde bask\u0131 alt\u0131nda g\u00f6r\u00fcn\u00fcyor. Ancak alt\u0131n zaten bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor, petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n beklenmesi belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyal kar\u0131\u015f\u0131k ve g\u00fcven orta d\u00fczeyde.",
   "04.11 04:31 N  GPT  score +0.05 conf 0.32: Yumu\u015fayan petrol fiyatlar\u0131 alt\u0131na hafif destek verirken, dolar ve tahvil getirilerindeki y\u00fckseli\u015f bask\u0131 yarat\u0131yor. \u0130ran geriliminin azalmas\u0131 ve \u00e7eli\u015fkili alt\u0131n haberleri k\u0131sa vadeli y\u00f6n sinyalini zay\u0131flat\u0131yor.",
   "04.11 04:43 N  NEWS (11 new) score -0.30 conf 0.50: Alt\u0131n son saatlerde g\u00fc\u00e7lenen dolar ve y\u00fckselen tahvil getirileri nedeniyle y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor; Fed'in enflasyon konusunda temkinli olmas\u0131 da k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran'da sava\u015f\u0131n yeniden ba\u015flama riski g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin alt\u0131n\u0131 yukar\u0131 \u00e7ekmedi\u011fi g\u00f6r\u00fcl\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131. Se\u00e7im sonu\u00e7lar\u0131 ve \u0130ran m\u00fczakere haberleri net bir y\u00f6n vermedi\u011fi i\u00e7in g\u00fcveni orta seviyede tutuyorum.",
@@ -16522,7 +16528,9 @@
   "05.11 07:12 N  NEWS (11 new) score +0.50 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 dolar ve tahvil getirileri geriledi, alt\u0131n iki haftan\u0131n en y\u00fcksek seviyesine \u00e7\u0131kt\u0131 ve 4.000 dolar\u0131n \u00fczerine ta\u015f\u0131nd\u0131; bu, 1-4 saatlik vadede alt\u0131n i\u00e7in net y\u00fckseli\u015f sinyali. Ancak hareketin bir k\u0131sm\u0131 zaten fiyatland\u0131 ve alt\u0131n y\u0131l ba\u015f\u0131ndaki zirveden h\u00e2l\u00e2 geri \u00e7ekilmi\u015f durumda; ayr\u0131ca jeopolitik risk (\u0130ran sava\u015f\u0131) ve Fed beklentileri hakk\u0131ndaki haberler kar\u0131\u015f\u0131k oldu\u011fundan g\u00fcveni orta seviyede tuttum.",
   "05.11 07:12 N  GPT  score +0.68 conf 0.69: Dolar\u0131n ve ABD tahvil getirilerinin se\u00e7im sonu\u00e7lar\u0131 sonras\u0131 gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; yeni haberler de bu hareketi teyit ediyor. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir ve \u0130ran sava\u015f\u0131yla ilgili haberlerin etkisi \u00e7eli\u015fkili oldu\u011fundan g\u00fcven s\u0131n\u0131rl\u0131.",
   "05.11 07:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131 (Demokratlar\u0131n \u00fcst\u00fcnl\u00fc\u011f\u00fc) dolar\u0131 ve tahvil faizlerini zay\u0131flatarak alt\u0131n i\u00e7in net destekleyici bir ortam yarat\u0131yor; Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 beklentisi de gev\u015fek para politikas\u0131 alg\u0131s\u0131n\u0131 g\u00fc\u00e7lendiriyor. Merkez bankalar\u0131n\u0131n \u00e7eyreklik 321 ton al\u0131m\u0131 yap\u0131sal talebi destekliyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda ve alt\u0131n diren\u00e7 seviyesinde, bu da k\u0131sa vadeli k\u00e2r realizasyonu riskini art\u0131r\u0131yor.",
-  "05.11 07:38 N  GPT  score +0.35 conf 0.61: Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; se\u00e7im sonras\u0131 zay\u0131fl\u0131kla birlikte alt\u0131n zaten yakla\u015f\u0131k %2 y\u00fckseldi\u011fi i\u00e7in bu etki k\u0131smen fiyatlanm\u0131\u015f olabilir. \u0130ran sava\u015f\u0131n\u0131 bitirme y\u00f6n\u00fcndeki siyasi mesajlar g\u00fcvenli liman talebini azaltabilir ve k\u0131sa vadeli k\u00e2r sat\u0131\u015flar\u0131n\u0131 tetikleyebilir."
+  "05.11 07:38 N  GPT  score +0.35 conf 0.61: Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; se\u00e7im sonras\u0131 zay\u0131fl\u0131kla birlikte alt\u0131n zaten yakla\u015f\u0131k %2 y\u00fckseldi\u011fi i\u00e7in bu etki k\u0131smen fiyatlanm\u0131\u015f olabilir. \u0130ran sava\u015f\u0131n\u0131 bitirme y\u00f6n\u00fcndeki siyasi mesajlar g\u00fcvenli liman talebini azaltabilir ve k\u0131sa vadeli k\u00e2r sat\u0131\u015flar\u0131n\u0131 tetikleyebilir.",
+  "05.11 07:50 N  NEWS (9 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi bir ayl\u0131k dibe geriledi ve tahvil getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in net olarak destekleyici. Ayr\u0131ca Demokratlar\u0131n Senato'yu kazanmas\u0131 Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131n\u0131 g\u00fc\u00e7lendirebilir, bu da faiz beklentileri a\u00e7\u0131s\u0131ndan olumlu. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n sona erdirilmesi y\u00f6n\u00fcnde siyasi bask\u0131 art\u0131yor ve petrol d\u00fc\u015f\u00fcyor; bu da jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Alt\u0131n zaten %2'ye yak\u0131n y\u00fckselip iki haftal\u0131k zirveye \u00e7\u0131kt\u0131\u011f\u0131 i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda, bu nedenle g\u00fcven orta d\u00fczeyde.",
+  "05.11 07:50 N  GPT  score +0.55 conf 0.68: Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131n k\u0131sa vadeli y\u00fckseli\u015fini destekliyor; se\u00e7im sonras\u0131 haber ak\u0131\u015f\u0131 ve g\u00fc\u00e7l\u00fc fiyat momentumu da olumlu. Ancak alt\u0131n zaten sert y\u00fckseldi ve \u0130ran sava\u015f\u0131n\u0131n sona ermesine y\u00f6nelik siyasi s\u00f6ylemler g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -24711,6 +24719,10 @@
    [
     1793854063,
     4963.78
+   ],
+   [
+    1793854256,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -32827,6 +32839,10 @@
    [
     1793854063,
     4975.18
+   ],
+   [
+    1793854256,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -40909,6 +40925,10 @@
    [
     1793854063,
     4993.28
+   ],
+   [
+    1793854256,
+    4993.28
    ]
   ]
  },
@@ -48828,6 +48848,10 @@
    [
     1793854063,
     4969.22
+   ],
+   [
+    1793854256,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -56114,6 +56138,10 @@
    [
     1793854063,
     5169.04
+   ],
+   [
+    1793854256,
+    5155.3
    ]
   ],
   "news_calls": {
@@ -64107,6 +64135,10 @@
    [
     1793854063,
     105886.16
+   ],
+   [
+    1793854256,
+    105886.16
    ]
   ],
   "open": {},
@@ -70260,6 +70292,10 @@
    ],
    [
     1793854063,
+    5066.43
+   ],
+   [
+    1793854256,
     5066.43
    ]
   ],
