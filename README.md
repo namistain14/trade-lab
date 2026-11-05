@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 22:11 (İstanbul)
+> Son güncelleme: 05.11.2026 22:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (05.11 22:02): Claude puan **-0.10**, güven 0.30 — Haberlerin çoğu gürültü (spor, kültür, siyasi analiz). Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması altın için kısa vadede baskı yaratıyor; buna karşılık İran savaşının yeniden başlayabileceği yönündeki IDF haberleri ve borsalardaki sert düşüş güvenli liman talebini destekliyor, bu da etkiyi dengeliyor. Net etki hafif negatif ve düşük güvenilirlikli.
+Son haber analizi (05.11 22:14): Claude puan **-0.08**, güven 0.30 — Haberlerin çoğu tekrar eden veya zaten fiyatlanmış İran savaşı yorumlarından oluşuyor. Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması altın için hafif baskılayıcı, Paraguay bankacılık krizi ve Batı Şeria'daki gerilim ise sınırlı güvenli liman talebi yaratabilir; net etki zayıf ve karışık.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.30 — Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımlarını desteklemesi altın için hafif baskılayıcı; İran’la ilgili haberlerde ise yakın vadeli net bir tırmanış sinyali yok. Yeni başlıkların çoğu piyasa açısından dolaylı veya fiyatlanması zor olduğundan beklenen etki sınırlı.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.34 — İran’a yönelik yeni yaptırımlar ve yeniden çatışma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Fed yetkililerinin kademeli faiz artırımı yönündeki mesajları ise altın için baskı oluşturuyor; haber akışı karışık ve kısa vadeli etkisi belirsiz.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 107,074.33 $** (başlangıç 100,000 $, +7074.33 $ / %+7.07)
+**Hesap değeri: 105,995.84 $** (başlangıç 100,000 $, +5995.84 $ / %+6.00)
 
 Açık pozisyonlar: AAPL long @ 345.10 (TP 350.16 / SL 341.54); NVDA short @ 183.87 (TP 181.37 / SL 185.97); QQQ short @ 653.82 (TP 644.30 / SL 660.65); SPY short @ 738.48 (TP 727.62 / SL 746.09)
 
@@ -86,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 21:13 N  NEWS (17 new) score -0.05 conf 0.30: Başlıkların çoğu eski veya zaten fiyatlanmış haberler (İran savaşı, Cuba yaptırımları, ara seçim sonuçları). İran'ın nükleer programa ilişkin "somut önerileri" incelemesi ve savaş primlerinin sönmesi jeopolitik risk primini hafifletip altı hafifçe baskılayabilir; güvenli liman talebini gösteren dolar yükselişi haberi ise eski. Net etki nötre yakın, hafif negatif.
-05.11 21:13 N  GPT  score -0.12 conf 0.32: Doların güvenli liman talebiyle güçlenmesi ve İran’la ilgili somut önerilerin değerlendirilmesi, altın için kısa vadede hafif baskı oluşturabilir. İran petrol ağına yönelik yeni yaptırımlar ve süren savaş riski bu etkiyi dengeliyor; net yön belirsiz.
-05.11 21:13 B6  karar turu: Claude «AI ve teknoloji kaynaklı sert satış sürüyor, defansif sektörler öne çıkıyor; kapanışa doğru oynaklık yüksek kalacak, tepki alımı ihtimali de var.» / GPT «Piyasa ve teknoloji hisselerinde satış baskısı sürüyor, ancak son diplerden tepki ve uzamış günlük düşüşler yeni kısa pozisyonlarda riski artırıyor.»
 05.11 21:25 N  NEWS (11 new) score -0.12 conf 0.35: 
 05.11 21:25 N  GPT  score -0.25 conf 0.42: Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımlarını desteklemesi, kısa vadede reel faiz ve dolar kanalıyla altını baskılayabilir. İran konusunda diplomasi ihtimali ve savaşın siyasi maliyetine ilişkin haberler güvenli liman talebini azaltabilir; ancak manşetlerin çoğu piyasa etki
 05.11 21:25 B6  karar turu: Claude «Yapay zekâ kaynaklı teknoloji satışı ve VIX'teki sert yükseliş piyasayı baskılıyor; aşırı satım bölgesindeki volatil seyirde yeni pozisyon açmak için net bir avantaj görünmüyor.» / GPT «Endekslerde zayıflık ve teknoloji satışları sürüyor; ancak sert düşüşlerin ardından tepki yükselişi riski yüksek olduğundan yeni girişlerde seçicilik gerekli.»
@@ -101,6 +98,9 @@ Son işlemler:
 05.11 22:02 N  NEWS (8 new) score -0.10 conf 0.30: Haberlerin çoğu gürültü (spor, kültür, siyasi analiz). Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması altın için kısa vadede baskı yaratıyor; buna karşılık İran savaşının yeniden başlayabileceği yönündeki IDF haberleri ve borsalardaki sert düşüş güvenli liman talebini destekliyor, bu da etkiyi dengeliyor. Net etki hafif negatif ve düşük güvenilirlikli.
 05.11 22:02 N  GPT  score -0.12 conf 0.30: Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımlarını desteklemesi altın için hafif baskılayıcı; İran’la ilgili haberlerde ise yakın vadeli net bir tırmanış sinyali yok. Yeni başlıkların çoğu piyasa açısından dolaylı veya fiyatlanması zor olduğundan beklenen etki sınırlı.
 05.11 22:02 B6  karar turu: Claude «Yapay zekâ hisselerindeki çöküş ve VIX'teki sıçramayla piyasa sert satış baskısında, ancak son bir saatte yatay konsolidasyon var ve kapanışa doğru yön belirsiz.» / GPT «Sert satışın ardından endeksler yataylaşırken kapanışa kalan 58 dakikada yeni katalizör olmadan kaldıraçlı yön pozisyonu açmak cazip görünmüyor.»
+05.11 22:14 N  NEWS (7 new) score -0.08 conf 0.30: Haberlerin çoğu tekrar eden veya zaten fiyatlanmış İran savaşı yorumlarından oluşuyor. Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması altın için hafif baskılayıcı, Paraguay bankacılık krizi ve Batı Şeria'daki gerilim ise sınırlı güvenli liman talebi yaratabilir; net etki zayıf ve karışık.
+05.11 22:14 N  GPT  score +0.12 conf 0.34: İran’a yönelik yeni yaptırımlar ve yeniden çatışma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Fed yetkililerinin kademeli faiz artırımı yönündeki mesajları ise altın için baskı oluşturuyor; haber akışı karışık ve kısa vadeli etkisi belirsiz.
+05.11 22:14 B6  karar turu: Claude «Yapay zeka kaynaklı sert satış ve VIX sıçraması piyasayı baskılıyor, ancak son saatte endekslerde kapanış öncesi kısa vadeli bir tepki alımı görülüyor.» / GPT «Endekslerdeki son toparlanma tepki alımlarını desteklese de sert satış ortamı ve normal seans kapanışına kalan 46 dakika nedeniyle kaldıraçlı pozisyonlarda risk yüksek.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
