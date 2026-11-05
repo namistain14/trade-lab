@@ -2757,6 +2757,10 @@
    [
     1793887499,
     5000.0
+   ],
+   [
+    1793887691,
+    5000.0
    ]
   ],
   "archive": [
@@ -14465,43 +14469,38 @@
    [
     1793887499,
     4868.5
+   ],
+   [
+    1793887691,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
+   "score": -0.15,
    "confidence": 0.4,
-   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran'da sava\u015f\u0131n yeniden ba\u015flama ihtimali ve jeopolitik risk alt\u0131n i\u00e7in destekleyici, Demokratlar\u0131n Kongre'yi almas\u0131 ve dolar\u0131n zay\u0131flamas\u0131 da olumlu. Buna kar\u015f\u0131l\u0131k Fed'li Hammack'in kademeli faiz art\u0131r\u0131m\u0131 y\u00f6nl\u00fc a\u00e7\u0131klamas\u0131, BoE'nin faiz art\u0131rmas\u0131 ve g\u00fc\u00e7l\u00fc ABD b\u00fcy\u00fcme verisi Fed beklentilerini s\u0131k\u0131la\u015ft\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Net etki hafif pozitif ama belirsiz.",
+   "reason": "Haberler kar\u0131\u015f\u0131k: Fed'in Hammack'in s\u0131k\u0131 para politikas\u0131 ve faiz art\u0131r\u0131m yolunu savunmas\u0131 ile Bank of England'\u0131n faiz art\u0131rmas\u0131 alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. Buna kar\u015f\u0131l\u0131k Demokratlar\u0131n Kongre'yi almas\u0131 dolarda zay\u0131flama ihtimalini art\u0131r\u0131yor ve \u0130ran'a y\u00f6nelik yeni sava\u015f riski jeopolitik talebi destekliyor; bu nedenle etki s\u0131n\u0131rl\u0131 kalabilir.",
    "n": 45,
-   "ts": 1793886973037,
-   "new_headlines": 12,
+   "ts": 1793887690935,
+   "new_headlines": 14,
    "key_events": [
     "ABD ara se\u00e7im sonras\u0131 alt\u0131n %1,6 y\u00fckseldi (4.124,89 dolar)",
     "Dolar toparlan\u0131yor; ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi bekleniyor",
     "\u0130ran sava\u015f\u0131 ve Fed faiz beklentisine dair haberler, ama yeni ve net bir \u015fok yok"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.43,
-    "reason": "Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi ve dolar\u0131n erken i\u015flemlerde g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir. \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve etkinin k\u0131sa vadede netli\u011fi d\u00fc\u015f\u00fck.",
+    "score": -0.22,
+    "confidence": 0.48,
+    "reason": "Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in k\u0131s\u0131tlay\u0131c\u0131 faizlerin s\u00fcrmesi ve kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi, k\u0131sa vadede alt\u0131n i\u00e7in olumsuz; dolar\u0131n y\u00fckseli\u015fi de bask\u0131y\u0131 art\u0131rabilir. \u0130ran \u00e7evresindeki sava\u015f ve f\u00fcze haberleri g\u00fcvenli liman talebini desteklese de etkiler \u00e7eli\u015fkili ve haberlerin bir k\u0131",
     "key_events": [
-     "Hammack faiz art\u0131\u015flar\u0131n\u0131n s\u00fcrmesini destekliyor",
-     "Dolar erken i\u015flemlerde y\u00fckseldi",
-     "\u0130ran gerilimi g\u00fcvenli liman talebini art\u0131rabilir"
+     "Fed yetkilisinden \u015fahin faiz mesaj\u0131",
+     "Dolar\u0131n erken i\u015flemlerde y\u00fckselmesi",
+     "\u0130ran \u00e7evresinde artan sava\u015f ve f\u00fcze riski"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793596681503,
-    "score": 0.2,
-    "confidence": 0.4,
-    "reason": "Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve \u0130ran diplomasisine ayr\u0131lan s\u00fcre sinyali enflasyon endi\u015felerini azaltarak alt\u0131 hafif\u00e7e destekliyor; ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar ve eski tarihli \"bir y\u0131ll\u0131k dip\" haberleri \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
-    "new": 15,
-    "gpt_score": 0.12,
-    "gpt_confidence": 0.38
-   },
    {
     "ts": 1793598216420,
     "score": 0.2,
@@ -17192,24 +17191,46 @@
     "new": 12,
     "gpt_score": -0.2,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1793887690935,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Haberler kar\u0131\u015f\u0131k: Fed'in Hammack'in s\u0131k\u0131 para politikas\u0131 ve faiz art\u0131r\u0131m yolunu savunmas\u0131 ile Bank of England'\u0131n faiz art\u0131rmas\u0131 alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. Buna kar\u015f\u0131l\u0131k Demokratlar\u0131n Kongre'yi almas\u0131 dolarda zay\u0131flama ihtimalini art\u0131r\u0131yor ve \u0130ran'a y\u00f6nelik yeni sava\u015f riski jeopolitik talebi destekliyor; bu nedenle etki s\u0131n\u0131rl\u0131 kalabilir.",
+    "new": 14,
+    "gpt_score": -0.22,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 67
+   "n": 68
   },
   "news_seen": [
-   "Fed's Hammack favors gradual rate-hike path to lower inflation - StreetInsider",
+   "The Iran War Comes Home: Experts React to the US Midterms - ORF Middle East",
+   "\u2018Taps\u2019 finally plays at Arlington for teenage soldier killed in Civil War - The Washington Post",
+   "What does the raise in interest rates mean?",
+   "Alamos Gold (TSX:AGI) Stock Rallies 10.66% as Gold Rebounds and Record Island Gold Output Draws Renewed Interest - kalkine.ca",
+   "Artemis Gold (TSXV:ARTG) Stock Surges 11.19% as Strong Blackwater Results and a Gold Rebound Reinforce Its Growth Path - kalkine.ca",
+   "Fed's Hammack: Gradual rate-hike path best way forward for policy - FXStreet",
+   "Gulf states brace for war with Iran\u2014again - The Economist",
+   "America\u2019s allies oppose more war in Iran. They may not get a say - The Economist",
+   "Ukraine\u2019s war risks a demographic collapse - The Economist",
+   "Fed's Hammack favors gradual rate-hike path to lower inflation - Reuters",
    "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
    "Getting inflation down to 2% should be through frequent small adjustments: FOMC's Hammack (DXY:) (DXY:) - Seeking Alpha",
+   "Fed\u2019s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com",
    "Gold Price in Pakistan Today: Rs 435,500/Tola (24K) | Live Sarafa Rate - Investify",
    "TC Energy sanctions Crossroads, American Midwest gas expansions - Pipeline and Gas Journal",
+   "Rupee settles flat at 94.46 against US dollar - Rediff",
+   "Saudi Coalition Says Houthi Ballistic Missile Targeting Medina Intercepted - Kurdistan24",
    "Fa\u2019az Missile: Pakistan Fires Its First Home-Built Air-to-Air Missile - MiGFlug",
    "Gold (XAUUSD) Price Forecast: Gold Rally Targets 50-Day Moving Average - FXEmpire",
    "Democrats Take Congress, Putting Trump\u2019s Fiscal Agenda to the Test - www.marketpulse.com",
    "US administration's war bill firmly rejected at ballot box - China Daily Global Edition",
    "Trump prepares for return to war; Khamenei warns of retaliation - The New Arab",
    "G Mining Ventures (TSX:GMIN) Stock Climbs 13.97% as Gold Rebounds and Tocantinzinho Output Recovers Ahead of Quarterly Results - kalkine.ca",
+   "Gold Price in Qatari Market Rises by 6.77 Percent This Week - Fana News -",
    "Russia to Supply Iran With 90 Helicopter-Mounted Missile Launchers Used in Ukraine War - Kyiv Post",
    "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
    "The Long War: Rethinking Defence Strategy in Prolonged Conflict - Royal United Services Institute (RUSI)",
@@ -17221,7 +17242,6 @@
    "The hidden cost of war: trauma suffered under occupation is killing Ukrainians years later - EU NEIGHBOURS east",
    "US imposes new sanctions to pressure Iran - WCNC",
    "Emirates saw its profits plunge as the Iran war drives up fuel costs - Quartz",
-   "Dhanteras: Jewellers Eye 20-30% Gold, Silver Sales Jump - Rediff MoneyWiz",
    "Trump says he has 'every intention' of keeping Pete Hegseth as pressure grows to oust War Secretary - New York Post",
    "US Dollar: Democratic sweep weighs on the Greenback \u2013 TD Securities - FXStreet",
    "Iranian Writers Association: War and Censorship Worsen Livelihood Crisis for Authors - IranWire",
@@ -17231,24 +17251,10 @@
    "Gold price jumps Rs 2,200 per 10 grams ahead of Dhanteras; silver gains Rs 1,500 in Delhi - Moneycontrol.com",
    "VanEck Gold Miners ETF (ASX:GDX): How Should Its 2026 Distribution Be Read? - Kalkine",
    "Interest rates hiked to 4% in first increase in over three years",
-   "France holds new strikes and protests as unions demand immediate answers",
-   "Pakistan successfully flight-tests indigenously developed Fa\u2019az missile from JF-17 fighter - Aerospace Global News",
-   "Why Your Dhanteras Gold Will Cost More And Weigh Less This Year - NDTV Profit",
-   "3.4% US GDP Growth Reprices Fed Outlook as Gold Mine Output Hits Record - Crux Investor",
-   "Gold price at the close of the session on November 5th: Nestling in the high price range - Laodong.vn",
-   "Gold Price Forecast, Prediction: $4,000 Recovery Tests Safe-Haven Role - Exchange Rates UK",
-   "\"Resisting the Long War\" Turns Pain Into Art - Newcity Art",
-   "UK Expands Human Rights Sanctions Regime - Human Rights Watch",
-   "Fort Hood shooting victims not memorialized among Global War on Terror casualties - Army Times",
-   "Gold Holds Above $4,000 as Dollar, Yields Fall on Midterm Result - Bloomberg.com",
-   "Swiss Franc loses ground as traders turn to US employment data - www.tmgm.com",
-   "Trump Says Iran War Was Part of Republicans' Midterm Losses as Tehran Welcomes the Result and Oil Falls Below $100 - Northeast Times",
-   "Gold stalls below $4,150 as US Dollar regains ground, US jobs data in focus - FXStreet"
+   "France holds new strikes and protests as unions demand immediate answers"
   ]
  },
  "log": [
-  "04.11 11:39 N  GPT  score +0.62 conf 0.68: Dolar\u0131n zay\u0131flamas\u0131 ve Hazine getirilerinin gerilemesi alt\u0131n\u0131 destekliyor; H\u00fcrm\u00fcz\u2019de tankerlerin may\u0131nlarla imha edildi\u011fi haberi de g\u00fcvenli liman talebini art\u0131rabilir. Ancak alt\u0131n se\u00e7im sonu\u00e7lar\u0131yla zaten sert y\u00fckseldi\u011finden ve haber ak\u0131\u015f\u0131nda anla\u015fma umudu da bulundu\u011fundan k\u0131sa vadeli ek y\u00fckseli\u015fin ",
-  "04.11 11:59 N  NEWS (16 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi be\u015f haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi ve Hazine getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede destekleyici bir etkidir. \u0130ran'daki ABD sald\u0131r\u0131lar\u0131 (Qeshm Adas\u0131) ise jeopolitik g\u00fcvenli liman talebini art\u0131r\u0131yor, ancak Trump'\u0131n sava\u015f risklerini k\u00fc\u00e7\u00fcmsemesi bu etkiyi k\u0131smen dengeliyor. Bir\u00e7ok ba\u015fl\u0131\u011f\u0131n ayn\u0131 dolar-alt\u0131n hareketini tekrar etmesi ve haberlerin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olmas\u0131 nedeniyle g\u00fcveni s\u0131n\u0131rl\u0131 tuttum.",
   "04.11 11:59 N  GPT  score +0.78 conf 0.76: \u0130ran\u2019\u0131n Qeshm Adas\u0131\u2019na y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir; Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi ise etkiyi bir miktar s\u0131n\u0131rl\u0131yor. Dolar\u0131n zay\u0131flamas\u0131 ve alt\u0131n\u0131n se\u00e7im sonras\u0131 y\u00fckseli\u015fi de alt\u0131n\u0131 destekliyor.",
   "04.11 12:11 N  NEWS (11 new) score +0.50 conf 0.55: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar endeksi be\u015f haftan\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi ve Treasury getirileri d\u00fc\u015ft\u00fc; bu da alt\u0131n i\u00e7in net bir destek sinyali. Alt\u0131n 4.000 dolar\u0131n \u00fczerine yeniden \u00e7\u0131kt\u0131, ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131 ve ADP/ISM verileri ile dolar-yen'deki 158 b\u00f6lgesindeki gerginlik k\u0131sa vadede ters y\u00f6nl\u00fc hareket riski ta\u015f\u0131yor.",
   "04.11 12:11 N  GPT  score +0.62 conf 0.68: Demokratlar\u0131n ara se\u00e7imlerdeki kazan\u0131mlar\u0131 sonras\u0131 dolar\u0131n zay\u0131flamas\u0131 ve tahvil getirilerinin d\u00fc\u015fmesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; 4.000 dolar\u0131n \u00fczerine toparlanma da momentumu do\u011fruluyor. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 haberlere zaten yans\u0131m\u0131\u015f g\u00f6r\u00fcnd\u00fc\u011f\u00fcnden ve 4.050 dolar diren\u00e7 olu\u015fturabilece\u011fi",
@@ -17546,7 +17552,9 @@
   "05.11 16:44 N  NEWS (11 new) score +0.05 conf 0.35: Sinyaller kar\u0131\u015f\u0131k: Demokratlar\u0131n Kongre'yi almas\u0131 ve dolar/tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekleyebilir, \u0130ran'da sava\u015f\u0131n yeniden ba\u015flayabilece\u011fine dair haberler ise g\u00fcvenli liman talebini art\u0131r\u0131r. Buna kar\u015f\u0131l\u0131k Bank of England'\u0131n faiz art\u0131r\u0131m\u0131 ve ABD GSY\u0130H verisinin Fed beklentilerini sertle\u015ftirmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131r; bu nedenlerle etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz kal\u0131yor.",
   "05.11 16:44 N  GPT  score +0.35 conf 0.44: Demokratlar\u0131n Kongreyi almas\u0131 ve se\u00e7im sonucunun dolar\u0131 zay\u0131flat\u0131p tahvil getirilerini d\u00fc\u015f\u00fcrmesi alt\u0131n\u0131 destekleyebilir; \u0130ran\u2019la gerilimin s\u00fcrmesi de g\u00fcvenli liman talebini art\u0131r\u0131yor. Ancak sava\u015f\u0131n sona erebilece\u011fi beklentisi, dolar\u0131n yeniden g\u00fc\u00e7lenmesi ve yakla\u015fan ABD istihdam verileri k\u0131sa vadeli ",
   "05.11 16:56 N  NEWS (12 new) score +0.10 conf 0.40: Haberler kar\u0131\u015f\u0131k: \u0130ran'da sava\u015f\u0131n yeniden ba\u015flama ihtimali ve jeopolitik risk alt\u0131n i\u00e7in destekleyici, Demokratlar\u0131n Kongre'yi almas\u0131 ve dolar\u0131n zay\u0131flamas\u0131 da olumlu. Buna kar\u015f\u0131l\u0131k Fed'li Hammack'in kademeli faiz art\u0131r\u0131m\u0131 y\u00f6nl\u00fc a\u00e7\u0131klamas\u0131, BoE'nin faiz art\u0131rmas\u0131 ve g\u00fc\u00e7l\u00fc ABD b\u00fcy\u00fcme verisi Fed beklentilerini s\u0131k\u0131la\u015ft\u0131rarak alt\u0131n \u00fczerinde bask\u0131 yaratabilir. Net etki hafif pozitif ama belirsiz.",
-  "05.11 16:56 N  GPT  score -0.20 conf 0.43: Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi ve dolar\u0131n erken i\u015flemlerde g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir. \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve etkinin k\u0131sa vadede netli\u011fi d\u00fc\u015f\u00fck."
+  "05.11 16:56 N  GPT  score -0.20 conf 0.43: Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi ve dolar\u0131n erken i\u015flemlerde g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir. \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve etkinin k\u0131sa vadede netli\u011fi d\u00fc\u015f\u00fck.",
+  "05.11 17:08 N  NEWS (14 new) score -0.15 conf 0.40: Haberler kar\u0131\u015f\u0131k: Fed'in Hammack'in s\u0131k\u0131 para politikas\u0131 ve faiz art\u0131r\u0131m yolunu savunmas\u0131 ile Bank of England'\u0131n faiz art\u0131rmas\u0131 alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. Buna kar\u015f\u0131l\u0131k Demokratlar\u0131n Kongre'yi almas\u0131 dolarda zay\u0131flama ihtimalini art\u0131r\u0131yor ve \u0130ran'a y\u00f6nelik yeni sava\u015f riski jeopolitik talebi destekliyor; bu nedenle etki s\u0131n\u0131rl\u0131 kalabilir.",
+  "05.11 17:08 N  GPT  score -0.22 conf 0.48: Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in k\u0131s\u0131tlay\u0131c\u0131 faizlerin s\u00fcrmesi ve kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi, k\u0131sa vadede alt\u0131n i\u00e7in olumsuz; dolar\u0131n y\u00fckseli\u015fi de bask\u0131y\u0131 art\u0131rabilir. \u0130ran \u00e7evresindeki sava\u015f ve f\u00fcze haberleri g\u00fcvenli liman talebini desteklese de etkiler \u00e7eli\u015fkili ve haberlerin bir k\u0131"
  ],
  "gold_big": {
   "account": {
@@ -26247,6 +26255,10 @@
    [
     1793887499,
     4963.78
+   ],
+   [
+    1793887691,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -34875,6 +34887,10 @@
    [
     1793887499,
     4975.18
+   ],
+   [
+    1793887691,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -43469,6 +43485,10 @@
    [
     1793887499,
     4993.28
+   ],
+   [
+    1793887691,
+    4993.28
    ]
   ]
  },
@@ -51900,6 +51920,10 @@
    [
     1793887499,
     4969.22
+   ],
+   [
+    1793887691,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -59744,6 +59768,10 @@
    ],
    [
     1793887499,
+    5120.67
+   ],
+   [
+    1793887691,
     5120.67
    ]
   ],
@@ -68250,6 +68278,10 @@
    [
     1793887499,
     105876.17
+   ],
+   [
+    1793887691,
+    105876.17
    ]
   ],
   "open": {},
@@ -74863,6 +74895,10 @@
    ],
    [
     1793887499,
+    5066.43
+   ],
+   [
+    1793887691,
     5066.43
    ]
   ],
