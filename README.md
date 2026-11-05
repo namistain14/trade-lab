@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 23:49 (İstanbul)
+> Son güncelleme: 05.11.2026 23:52 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (05.11 23:40): Claude puan **+0.10**, güven 0.30 — Yeni haberlerde çelişkili bir tablo var: Putin'in İran savaşını sona erdirme teklifi ve Demokratların seçim zaferinin savaşın bitişine yönelik baskısı jeopolitik risk primini hafifleten, dolayısıyla altın için hafif olumsuz. Buna karşın altının kırılımı koruması ve dolarda sınırlı hareket, ayrıca yaklaşan ABD istihdam verisi belirsizliği, güçlü bir yön sinyali vermiyor.
+Son haber analizi (05.11 23:52): Claude puan **+0.35**, güven 0.45 — Altın 4.100 doların üzerine çıktı; Nasdaq 100'ün sert düşüşü ve Aralık faiz artırımı beklentilerinin geri çekilmesi reel faiz baskısını azaltarak altını destekliyor. Ancak yükseliş zaten fiyatlanmaya başladı, ABD tarım dışı istihdam verisi ve dolar hareketi kısa vadede yönü değiştirebilir, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.16**, güven 0.30 — Altın için 4.000 dolar üzerindeki güçlü yükseliş ve Dünya Bankası’nın uzun vadeli görünümü hafif destekleyici; ancak bunlar büyük ölçüde bilinen veya geriye dönük haberler. Yeni manşetlerde İran savaşıyla ilgili somut bir tırmanış yok ve doların yatay seyri kısa vadeli yön sinyalini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.45**, güven 0.56 — NASDAQ’taki sert düşüş ve Aralık faiz artırımı beklentilerinin zayıflaması altını kısa vadede destekliyor; ayrıca İran savaşı kaynaklı risk algısı sürüyor. Ancak doların görece istikrarlı olması ve haberlerin bir kısmının mevcut fiyat hareketini yansıtması yükseliş etkisini sınırlıyor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 22:51 B6  karar turu: Claude «Yapay zekâ kaynaklı sert satışın ardından gün sonunda zayıf bir tepki alımı görülüyor, ancak oynaklık (VIX) yüksek ve kapanış öncesi yeni pozisyon açmak için yeterli avantaj yok.» / GPT «Sert satış sonrası son saat toparlanıyor ancak kapanışa yakın tepki alımlarını kaldıraçla kovalamak riskli.»
-05.11 23:03 N  NEWS (9 new) score -0.15 conf 0.35: Başlıkların çoğu jeopolitik gürültü ve altı doğrudan etkilemeyen haberler. Güçlü ABD işgücü verisi doları desteklediği için altı hafifçe baskılıyor; Fed'in faizleri sabit tutması ve enflasyon endişeleri de dovish bir sinyal vermiyor. İran savaşıyla ilgili petrol fiyatı artışı güvenli liman talebini kısmen destekleyebilir, ancak bu etki sınırlı ve zaten fiyatlanmış görünüyor.
 05.11 23:03 N  GPT  score +0.18 conf 0.34: İran savaşı ve tanker saldırıları kaynaklı petrol sıçraması ile Ukrayna’daki yeni saldırı haberleri güvenli liman talebini destekleyebilir; tahvil getirilerindeki düşüş de altın için olumlu. Ancak doların güçlü seyri ve Fed’in enflasyon kaygıları bu etkiyi sınırlıyor; haberlerin çoğu zaten bilinen r
 05.11 23:03 B6  karar turu: Claude «Yapay zeka hisselerindeki çöküş ve VIX sıçramasıyla piyasa sert riskten kaçış gününü kapattı; son saatteki hafif toparlanma seans sonrası işlemler için yeterli bir sinyal değil.» / GPT «Sert satış sonrası tepki yükselişi zayıflıyor; seans sonrası düşük likidite ve 1:4 kaldıraç yeni pozisyonun riskini artırıyor.»
 05.11 23:16 N  NEWS (11 new) score -0.05 conf 0.30: Haberlerin çoğu Iran savaşının siyasi etkilerini tartışan yorumlar ve gündelik altın fiyat içerikleri; yeni ve somut bir jeopolitik şok yok. Güçlü ABD işgücü verisi doları desteklediği için hafif negatif, petrol fiyatlarındaki yükselişle birlikte gelen tahvil faiz düşüşü ise hafif pozitif; bu karışık sinyaller nedeniyle net etki çok zayıf.
@@ -99,6 +97,8 @@ Son işlemler:
 05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD
 05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD
 05.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
+05.11 23:52 N  NEWS (6 new) score +0.35 conf 0.45: Altın 4.100 doların üzerine çıktı; Nasdaq 100'ün sert düşüşü ve Aralık faiz artırımı beklentilerinin geri çekilmesi reel faiz baskısını azaltarak altını destekliyor. Ancak yükseliş zaten fiyatlanmaya başladı, ABD tarım dışı istihdam verisi ve dolar hareketi kısa vadede yönü değiştirebilir, bu yüzden güven orta düzeyde.
+05.11 23:52 N  GPT  score +0.45 conf 0.56: NASDAQ’taki sert düşüş ve Aralık faiz artırımı beklentilerinin zayıflaması altını kısa vadede destekliyor; ayrıca İran savaşı kaynaklı risk algısı sürüyor. Ancak doların görece istikrarlı olması ve haberlerin bir kısmının mevcut fiyat hareketini yansıtması yükseliş etkisini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
