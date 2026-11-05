@@ -2561,6 +2561,10 @@
    [
     1793874488,
     5000.0
+   ],
+   [
+    1793874679,
+    5000.0
    ]
   ],
   "archive": [
@@ -14073,15 +14077,19 @@
    [
     1793874488,
     4868.5
+   ],
+   [
+    1793874679,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.25,
-   "confidence": 0.4,
+   "score": 0.4,
+   "confidence": 0.55,
    "reason": "Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1793873954409,
-   "new_headlines": 11,
+   "ts": 1793874679128,
+   "new_headlines": 8,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
@@ -14091,15 +14099,6 @@
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793373952266,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "",
-    "new": 36,
-    "gpt_score": -0.65,
-    "gpt_confidence": 0.72
-   },
    {
     "ts": 1793377212734,
     "score": -0.45,
@@ -16790,25 +16789,40 @@
     "new": 11,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793874679128,
+    "score": 0.4,
+    "confidence": 0.55,
+    "reason": "",
+    "new": 8,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 54
+   "n": 55
   },
   "news_seen": [
+   "Stock Rotation Rolls On as Chipmakers Retreat: Markets Wrap - Bloomberg.com",
+   "Saudi-led coalition says it intercepts ballistic missile headed toward Medina region - Anadolu Ajans\u0131",
+   "A prolonged war in Iran is the market\u2019s real \u2018black swan,\u2019 says this strategist - MarketWatch",
+   "Turkey's Erdogan says he wants to discuss ending Russia-Ukraine war with Putin after talks with Zelenskiy - Reuters",
    "Saudis say they downed ballistic missile as Houthis demand $51 billion in exchange for ceasefire - The Times of Israel",
    "What Gold Seasonality Shows About November and December Returns - StoneX",
    "US sanctions Indian and Turkish entities over illicit Iran oil trade - Baird Maritime",
+   "Why Indians Buying Gold On Dhanteras & Is Gold Rate High Today? Check 22K And 24K Prices In 20 Cities, 15-Day Trend And Last Year's Rates - Jagran Josh",
    "White Gold Corp. (TSXV:WGO): A Maiden Mine Study and Record Yukon Drilling Put a Multi-Deposit Gold District in the Spotlight - kalkine.ca",
+   "Chesapeake Gold Corp. (TSXV:CKG) Extends Bullish Momentum as Mining Developments Support Investor Confidence - kalkine.ca",
    "US sanctions Indian and Turkish firms accused of helping Iran - Al Jazeera",
    "The one culture war worth fighting could bring Texans together | Opinion - Austin American-Statesman",
    "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
    "Midterm Election Losses Complicate Trump\u2019s Options on Iran War - The New York Times",
    "A month after Yemen government offensive began, war of attrition takes hold - Al Jazeera",
+   "Ukraine's Soldiers Are Getting New Jobs in the Robot War - Business Insider",
    "Persian Gulf leaders fear renewed US-Iran war as diplomacy sputters - Jefferson City News Tribune",
    "Vance: \u2018The reason we lost is the war\u2019 - Jefferson City News Tribune",
-   "Ukraine's Soldiers Are Getting New Jobs in the Robot War - Business Insider",
    "US Dollar: Weaker as Brent slides on US-Iran hopes \u2013 MUFG - FXStreet",
    "PSEi up, peso improves to 62-level vs US dollar - Philippine News Agency",
    "The Blogs: Europe\u2019s Geopolitical Crisis Opens Doors to Israel - The Times of Israel",
@@ -16817,7 +16831,9 @@
    "Second buyer makes rescue bid for Poundland as retailer faces collapse",
    "Iran wary of new U.S. attacks despite Trump noting war's role in election losses - NPR",
    "Video. Ukraine: Russian drone and missile attack sparks fire in Kyiv region - Euronews.com",
+   "Santa Monica Studio Delays 'God of War Laufey' to May 2027 - Hypebeast",
    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump\u2019s economy - The Seattle Times",
+   "Gold hits 2-week high as dollar, oil, yields fall after US midterms - Reuters",
    "SJC gold bars experienced sharp fluctuations, losing 2 million VND per ounce from their morning peak. - Vietnam.vn",
    "U.S. issues fresh Iran-related sanctions - upi",
    "Swiss Franc Advances as Political Jitters Weigh on the Dollar - TradingPedia",
@@ -16831,22 +16847,12 @@
    "North Korea tests \u2018newly designed' air-defence missile system - Janes Defence Intelligence",
    "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - The Motley Fool",
    "How popular is the Iran War? - Silver Bulletin",
-   "India in final-stage talks to expand missile sale to Philippines, sources say - Reuters",
    "What the Midterms Mean for the Iran War - Time Magazine",
    "Geopolitical lock-out emerges as top economic risk for life sciences sector, says Willis - Yahoo Finance",
-   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
-   "Oil rises as investors weigh risk of Iran war escalation By Reuters - Investing.com",
-   "British Pound: Overbought but uptrend still in place against US Dollar \u2013 UOB - FXStreet",
-   "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap - Bloomberg.com",
-   "Canadian Dollar sits near September 16 highs vs USD as traders eye jobs data on Friday - FXStreet",
-   "US dollar outlook: Nasdaq breakdown raises stakes for EUR/USD, USD/JPY - StoneX",
-   "Russia agreed to supply Iran with 90 advanced missile launchers - FT - Iran International",
-   "Democratic sweep raises questions for U.S.-Israel ties and Iran war - Jewish Insider"
+   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette"
   ]
  },
  "log": [
-  "04.11 08:57 N  NEWS (9 new) score +0.40 conf 0.60: Dolar endeksinin Eyl\u00fcl'\u00fcn son haftas\u0131ndaki d\u00fc\u015f\u00fck seviyelere gerilemesi ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, g\u00fcvenli liman talebi ile zay\u0131f dolar nedeniyle alt\u0131n i\u00e7in olumlu bir tablo \u00e7iziyor. Ancak dolar d\u00fc\u015f\u00fc\u015f\u00fc ve ara se\u00e7im sonu\u00e7lar\u0131 k\u0131smen fiyatlanm\u0131\u015f durumda ve Fed beklentilerinde net bir dovish sinyal yok, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
-  "04.11 08:57 N  GPT  score +0.35 conf 0.48: Demokratlar\u0131n ilerleyi\u015fiyle dolar\u0131n zay\u0131flamas\u0131 ve tahvillerin y\u00fckselmesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz gerilimi de g\u00fcvenli liman talebini art\u0131rabilir. Ancak haberlerin \u00e7o\u011fu ayn\u0131 se\u00e7im geli\u015fmesini tekrarl\u0131yor ve ilk fiyat tepkisi ba\u015flam\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu nedenle etki s\u0131n\u0131rl\u0131 ka",
   "04.11 08:57 B5  LONG gold 25000 USD x10 @ 4010.40 (TP 4022.43, SL 4002.38; news +0.38)",
   "04.11 09:00 B5  CLOSE long stop: -55.93 USD",
   "04.11 09:06 B5  LONG gold 25000 USD x10 @ 4011.44 (TP 4023.48, SL 4003.42; news +0.38)",
@@ -17144,7 +17150,9 @@
   "05.11 13:07 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "05.11 13:07 N  NEWS (17 new) score +0.30 conf 0.40: Dolar ve Treasury getirilerinin ara se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ile petrol\u00fcn Iran'a dair umutlarla d\u00fc\u015fmesi, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici; ancak \u0130ran sava\u015f\u0131 riski ve hawkish Fed enflasyon beklentileri kar\u015f\u0131t y\u00f6nde etki yarat\u0131p g\u00fcveni s\u0131n\u0131rl\u0131yor. Alt\u0131n\u0131n rebound haberleri k\u0131smen fiyatlanm\u0131\u015f olabilir.",
   "05.11 13:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "05.11 13:19 N  NEWS (11 new) score +0.25 conf 0.40: Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131."
+  "05.11 13:19 N  NEWS (11 new) score +0.25 conf 0.40: Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
+  "05.11 13:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "05.11 13:31 N  NEWS (8 new) score +0.40 conf 0.55: "
  ],
  "gold_big": {
   "account": {
@@ -25649,6 +25657,10 @@
    [
     1793874488,
     4963.78
+   ],
+   [
+    1793874679,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -34081,6 +34093,10 @@
    [
     1793874488,
     4975.18
+   ],
+   [
+    1793874679,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -42479,6 +42495,10 @@
    [
     1793874488,
     4993.28
+   ],
+   [
+    1793874679,
+    4993.28
    ]
   ]
  },
@@ -50714,6 +50734,10 @@
    [
     1793874488,
     4969.22
+   ],
+   [
+    1793874679,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -58358,6 +58382,10 @@
    [
     1793874488,
     5057.77
+   ],
+   [
+    1793874679,
+    5062.56
    ]
   ],
   "news_calls": {
@@ -66667,6 +66695,10 @@
    [
     1793874488,
     105876.17
+   ],
+   [
+    1793874679,
+    105876.17
    ]
   ],
   "open": {},
@@ -73136,6 +73168,10 @@
    ],
    [
     1793874488,
+    5066.43
+   ],
+   [
+    1793874679,
     5066.43
    ]
   ],
