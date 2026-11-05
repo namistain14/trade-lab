@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 08:05 (İstanbul)
+> Son güncelleme: 05.11.2026 08:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %100.0 | %47.7 |
 | Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
 
-**Hesap değeri: 5,138.97 $** (başlangıç 5,000 $, +138.97 $ / %+2.78)
+**Hesap değeri: 5,131.83 $** (başlangıç 5,000 $, +131.83 $ / %+2.64)
 
 Açık pozisyonlar: PAXGUSDT long @ 4132.35 (TP 4144.74 / SL 4124.08)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 07:00 N  NEWS (7 new) score +0.45 conf 0.50: ABD ara seçim sonuçlarının ardından dolar ve Treasury getirileri gerilediği için altın 2 haftalık zirveye yükseldi; bu dolar zayıflığı ve düşen getiriler kısa vadede altını destekliyor. Ancak İran savaşı risklerinin azalmasıyla güvenli liman talebi zayıflıyor, gold dört gün üst üste yükseldiği için bir kısım fiyatlama yapılmış olabilir ve haberlerdeki fiyat seviyeleri (4.000 ve 4.100 dolar) çelişkili, bu yüzden güven sınırlı.
 05.11 07:00 N  GPT  score +0.48 conf 0.65: Dolar ve Hazine getirilerindeki gerileme, seçim sonrası altını destekliyor; fiyatın iki haftalık zirveye ve 4.100 doların üzerine çıkması kısa vadeli momentumu da olumlu kılıyor. Ancak yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve İran savaşının yatışabileceği beklentisi güvenli liman tale
 05.11 07:00 B5  LONG gold 25000 USD x10 @ 4132.35 (TP 4144.74, SL 4124.08; news +0.46)
 05.11 07:12 N  NEWS (11 new) score +0.50 conf 0.60: ABD ara seçim sonuçları sonrası dolar ve tahvil getirileri geriledi, altın iki haftanın en yüksek seviyesine çıktı ve 4.000 doların üzerine taşındı; bu, 1-4 saatlik vadede altın için net yükseliş sinyali. Ancak hareketin bir kısmı zaten fiyatlandı ve altın yıl başındaki zirveden hâlâ geri çekilmiş durumda; ayrıca jeopolitik risk (İran savaşı) ve Fed beklentileri hakkındaki haberler karışık olduğundan güveni orta seviyede tuttum.
@@ -101,6 +100,7 @@ Son işlemler:
 05.11 08:03 N  GPT  score +0.35 conf 0.56: Rusya’nın İran’a füze fırlatma sistemi desteği ve Kuzey Kore’nin yeni hava savunma füze testi güvenli liman talebini sınırlı ölçüde artırabilir. Dolar ve tahvil getirilerindeki düşüş altını destekliyor; ancak seçim sonrası güçlü yükselişin önemli kısmı zaten fiyatlanmış olduğundan kısa vadeli etki t
 05.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 05.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+05.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
