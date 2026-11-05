@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 08:17 (İstanbul)
+> Son güncelleme: 05.11.2026 08:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +276.27 $ | +163.39 $ |
-| İşlem sayısı | 4 | 44 |
-| Kazanma oranı | %100.0 | %47.7 |
-| Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
+| Net kâr/zarar | +220.37 $ | +107.49 $ |
+| İşlem sayısı | 5 | 45 |
+| Kazanma oranı | %80.0 | %46.7 |
+| Ödenen komisyon/spread | 59.15 $ | 534.64 $ |
 
-**Hesap değeri: 5,124.75 $** (başlangıç 5,000 $, +124.75 $ / %+2.50)
-
-Açık pozisyonlar: PAXGUSDT long @ 4132.35 (TP 4144.74 / SL 4124.08)
+**Hesap değeri: 5,107.49 $** (başlangıç 5,000 $, +107.49 $ / %+2.15)
 
 Son haber analizi (05.11 08:14): Claude puan **+0.45**, güven 0.55 — ABD ara seçim sonuçları doları ve tahvil getirilerini zayıflatarak altın için olumlu bir ortam yarattı; Fed bağımsızlığı beklentisi ve merkez bankası alımları (321 ton) da destekleyici. Ancak yükseliş büyük ölçüde zaten fiyatlandı (gold 2 haftanın zirvesinde, yaklaşık %2 kazanç) ve İran savaşı/Rusya-İran bağlantılı jeopolitik haberler güvenli liman talebini artırsa da net etkisi belirsiz; bu nedenle güven orta düzeyde.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 08:21 | PAXGUSDT | long | -55.90 $ | stop |
 | 05.11 06:55 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 04:12 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 03:31 | PAXGUSDT | long | +69.06 $ | take profit |
 | 05.11 03:21 | PAXGUSDT | long | +69.06 $ | take profit |
-| 04.11 21:43 | PAXGUSDT | long | -55.99 $ | stop (gap) |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 07:12 N  NEWS (11 new) score +0.50 conf 0.60: ABD ara seçim sonuçları sonrası dolar ve tahvil getirileri geriledi, altın iki haftanın en yüksek seviyesine çıktı ve 4.000 doların üzerine taşındı; bu, 1-4 saatlik vadede altın için net yükseliş sinyali. Ancak hareketin bir kısmı zaten fiyatlandı ve altın yıl başındaki zirveden hâlâ geri çekilmiş durumda; ayrıca jeopolitik risk (İran savaşı) ve Fed beklentileri hakkındaki haberler karışık olduğundan güveni orta seviyede tuttum.
 05.11 07:12 N  GPT  score +0.68 conf 0.69: Doların ve ABD tahvil getirilerinin seçim sonuçları sonrası gerilemesi altını kısa vadede destekliyor; yeni haberler de bu hareketi teyit ediyor. Ancak yükselişin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşıyla ilgili haberlerin etkisi çelişkili olduğundan güven sınırlı.
 05.11 07:38 N  NEWS (14 new) score +0.50 conf 0.60: ABD ara seçim sonuçları (Demokratların üstünlüğü) doları ve tahvil faizlerini zayıflatarak altın için net destekleyici bir ortam yaratıyor; Fed bağımsızlığı beklentisi de gevşek para politikası algısını güçlendiriyor. Merkez bankalarının çeyreklik 321 ton alımı yapısal talebi destekliyor. Ancak yükselişin büyük kısmı zaten fiyatlanmış durumda ve altın direnç seviyesinde, bu da kısa vadeli kâr realizasyonu riskini artırıyor.
 05.11 07:38 N  GPT  score +0.35 conf 0.61: Dolar ve tahvil getirilerindeki düşüş altını destekliyor; seçim sonrası zayıflıkla birlikte altın zaten yaklaşık %2 yükseldiği için bu etki kısmen fiyatlanmış olabilir. İran savaşını bitirme yönündeki siyasi mesajlar güvenli liman talebini azaltabilir ve kısa vadeli kâr satışlarını tetikleyebilir.
@@ -101,6 +98,7 @@ Son işlemler:
 05.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 05.11 08:14 N  NEWS (11 new) score +0.45 conf 0.55: 
 05.11 08:14 N  GPT  score +0.65 conf 0.64: Doların aylık dip seviyelerine gerilemesi ve tahvil getirilerindeki düşüş, altını kısa vadede destekliyor; İran savaşı ve seçim sonrası siyasi belirsizlik de güvenli liman talebini artırabilir. Ancak altındaki sert yükselişin önemli kısmı zaten gerçekleşmiş görünüyor ve bu nedenle ek yükseliş için g
+05.11 08:20 B5  CLOSE long stop: -55.90 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
