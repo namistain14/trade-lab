@@ -3277,6 +3277,10 @@
    [
     1793916862,
     5000.0
+   ],
+   [
+    1793917054,
+    5000.0
    ]
   ],
   "archive": [
@@ -15505,43 +15509,38 @@
    [
     1793916862,
     4868.5
+   ],
+   [
+    1793917054,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
-   "confidence": 0.4,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu \u0130ran sava\u015f\u0131n\u0131n siyasi yans\u0131malar\u0131 ve ABD ara se\u00e7im sonras\u0131 tart\u0131\u015fmalar; do\u011frudan alt\u0131n fiyat\u0131n\u0131 etkileyecek yeni bir veri yok. Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f (risk-ka\u00e7\u0131\u015f\u0131) ve Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin gerilemesi alt\u0131n i\u00e7in hafif olumlu, ancak Fed'li Hammack ve Barkin'in kademeli faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ve petrol kaynakl\u0131 enflasyon endi\u015feleri bunu dengeliyor; etki s\u0131n\u0131rl\u0131 kalacak.",
+   "score": 0.3,
+   "confidence": 0.45,
+   "reason": "Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f (risk-off) ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin gerilemesi alt\u0131n i\u00e7in olumlu; ancak Fed'den h\u00e2l\u00e2 s\u0131k\u0131la\u015fmadan yana sesler ve petrol kaynakl\u0131 enflasyon riski bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1793916335769,
-   "new_headlines": 10,
+   "ts": 1793917053698,
+   "new_headlines": 11,
    "key_events": [
     "ABD dolar\u0131 g\u00fc\u00e7l\u00fc i\u015fg\u00fcc\u00fc verisiyle sabitlendi (alt\u0131n i\u00e7in hafif negatif)",
     "Fed faizleri sabit tuttu (fiyatlanm\u0131\u015f, etkisi s\u0131n\u0131rl\u0131)",
     "Iran sava\u015f\u0131 s\u00fcr\u00fcyor; yeni somut eskalasyon haberi yok"
    ],
    "gpt": {
-    "score": 0.2,
-    "confidence": 0.31,
-    "reason": "Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f ve \u0130ran sava\u015f\u0131 \u00e7evresindeki belirsizlik k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak yeni ba\u015fl\u0131klar do\u011frudan bir asker\u00ee t\u0131rman\u0131\u015f g\u00f6stermiyor; petrol\u00fcn toparlanmas\u0131 ve Fed yetkililerinin faiz art\u0131r\u0131m\u0131 yanl\u0131s\u0131 tutumu alt\u0131n\u0131 bask\u0131layabilir.",
+    "score": 0.25,
+    "confidence": 0.4,
+    "reason": "Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f riskten ka\u00e7\u0131\u015f\u0131 desteklerken, faiz indirimi beklentilerinin g\u00fc\u00e7lendi\u011fine dair haberler alt\u0131n i\u00e7in olumlu. Ancak \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik, petrol\u00fcn toparlanmas\u0131 ve Fed yetkililerinin enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131\u015f\u0131n\u0131 desteklemesi g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f",
     "key_events": [
      "Teknoloji hisselerinde sert d\u00fc\u015f\u00fc\u015f",
-     "\u0130ran sava\u015f\u0131 ve ABD siyasetinde belirsizlik",
-     "Fed yetkililerinden kademeli faiz art\u0131r\u0131m\u0131 mesaj\u0131"
+     "Faiz indirimi beklentilerinin g\u00fc\u00e7lenmesi",
+     "Fed yetkililerinden enflasyon odakl\u0131 faiz art\u0131\u015f\u0131 mesaj\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793644640593,
-    "score": 0.1,
-    "confidence": 0.35,
-    "reason": "",
-    "new": 18,
-    "gpt_score": -0.25,
-    "gpt_confidence": 0.57
-   },
    {
     "ts": 1793645362289,
     "score": -0.1,
@@ -18232,40 +18231,55 @@
     "new": 10,
     "gpt_score": 0.2,
     "gpt_confidence": 0.31
+   },
+   {
+    "ts": 1793917053698,
+    "score": 0.3,
+    "confidence": 0.45,
+    "reason": "Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f (risk-off) ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin gerilemesi alt\u0131n i\u00e7in olumlu; ancak Fed'den h\u00e2l\u00e2 s\u0131k\u0131la\u015fmadan yana sesler ve petrol kaynakl\u0131 enflasyon riski bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
+    "new": 11,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.4
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 6
+   "n": 7
   },
   "news_seen": [
+   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "US dollar exchange rate rises against Iraqi dinar - IraqiNews",
+   "Contracts for Nov. 5, 2026 - U.S. Department of War (.gov)",
+   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
+   "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle - AP News",
+   "Gold price surges back above $4,000 - Start of a much bigger rally? [Video] - FXStreet",
    "Vault: War for the Financial Services gavel begins - Punchbowl News",
    "Precious Metal Selloff: Remember The All-Weather Portfolio (NYSEARCA:GLD) - Seeking Alpha",
    "Plaque honoring Revolutionary War patriots installed inside Missouri State Capitol - KRCG",
-   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "Forex: $159.48 to one US dollar - Jamaica Observer",
    "Employ America's Statement on Federal Reserve Oversight and the Next Chair of the House Financial Services Committee - Employ America",
    "\u2018Knives out\u2019 for Hegseth, other military leaders after Iran war dooms GOP - The Washington Post",
    "Trump rules out replacing Hegseth after Iran war fallout - ABC News - Breaking News, Latest News and Videos",
+   "Gold the clear winner from US election amid hopes for lower rates and oil prices - Livewire Markets",
    "The war on Iran is stripping the western Pacific of US naval forces - Defense One",
    "Despite the hardships of war, Iran\u2019s rulers still have a base of support - NPR",
    "The War for Love and Peace - The Times of Israel",
    "What could the midterm election results mean for the war in Iran? - WNEP",
-   "After Democrats win big during midterm election, what next for the war with Iran? - wfmynews2.com",
+   "Binance hack prompted US regulators to check in on bank systems, sources say - Reuters",
    "War\u2019s Impact on Protected Areas: Q&A with Wim Zwijnenburg on PAX\u2019s New Report - New Security Beat",
    "Brookhaven Supervisor Panico Attends Revolutionary War Patriot Recognition Ceremony - www.fireislandnews.com",
+   "Israel's UN ambassador rejects Vance's claim that Iran war was behind midterm losses - Middle East Eye",
    "House Financial Services Dem seeks Fed open-source demos, real-time data - FedScoop",
    "Will Trump Bring Down His Pumped-Up God of War? - Rolling Stone",
    "Trump faces new limits on Iran war with Dems in power - FOX 35 Orlando",
    "California governor commutes sentences for state's 548 death row inmates",
    "Democrats set sights on Hegseth as Iran war fuels post-election pressure - The Times of Israel",
-   "Vance fuels 2028 speculation with midterm Iran war remarks - Fox News",
    "The Unavoidable Neighbour: Managing Iran Beyond the War - Manara Magazine",
    "Opinion | JD Vance\u2019s stunning act of disloyalty - The Washington Post",
    "How to read the Iran war tea leaves - Politico",
-   "Leonardo\u2019s plan for aerostructures joint-venture slowed by \u2018geopolitical\u2019 headwinds - FlightGlobal",
    "Oil Rebounds After Sharp Iran War Selloff - Rigzone",
    "Video - CEO Clips: Dakota Gold: Advancing the Next Gold Mine in South Dakota's Historic Homestake District - Investing News Network",
-   "Gold Price Surges Back Above $4,000 \u2013 Is This the Start of a Much Bigger Rally? - FXEmpire",
+   "Ormond Memorial Art Museum to add sculpture honoring Gulf War veterans - Observer Local News",
    "Another View: This Veterans Day, let\u2019s focus on preventing war - Marin Independent Journal",
    "Fed's Hammack, Barkin favor gradual rate-hike path to lower inflation - Reuters",
    "Miami Texas New Gold Standard for Real Estate - Funds Society",
@@ -18274,21 +18288,13 @@
    "Saudi coalition intercepts missile fired towards Medina - Al Jazeera",
    "VP Vance signals Iran war main reason GOP lost midterms; new voter poll data sheds insight - WLUK",
    "Gold rallies above $4,100 as NASDAQ 100 crashes, December hike bets fade - www.tmgm.com",
+   "Melania Trump urges 'humanity over war' with Ukraine, Russia officials - Japan Today",
    "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire - Al Jazeera",
-   "The business of war: Inside Russia\u2019s multimillion prosthetics boom - TVP World",
    "House of Lords passes Motion of Regret relating to government sanctions regime, citing Israel - Jewish Policy Center",
-   "WSJ Opinion: It\u2019s the War, Stupid? / Trump\u2019s Next Steps in Iran - WSJ",
-   "Centcom launches podcast amid Iran war backlash - The Hill",
-   "Inflation Matters, It Turns Out - National Review",
-   "Hegseth demands $350B for military, fires back at Dem impeachment push - Fox News",
-   "Gold Defends Its Breakout. Palladium Reclaims $1,000. What\u2019s Next? - FXEmpire",
-   "Syria detains Hezbollah cell accused of Homs plot - FDD's Long War Journal",
-   "2026 College Football Week 10 Expert Picks: BYU-Utah Set For All-Time Holy War - FOX Sports"
+   "Centcom launches podcast amid Iran war backlash - The Hill"
   ]
  },
  "log": [
-  "04.11 21:32 N  GPT  score +0.35 conf 0.58: Dolar\u0131n zay\u0131flamas\u0131 ve \u0130ran\u2019a y\u00f6nelik yeni ABD sald\u0131r\u0131s\u0131 alt\u0131n\u0131 k\u0131sa vadede destekliyor; ancak petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon ve faiz beklentilerini a\u015fa\u011f\u0131 \u00e7ekebilir. Alt\u0131n zaten yakla\u015f\u0131k %3,5 y\u00fckselip 4.000 dolar\u0131 a\u015fm\u0131\u015f oldu\u011fundan haberlerin \u00f6nemli b\u00f6l\u00fcm\u00fc fiyatlanm\u0131\u015f olabilir; sava\u015f\u0131n t\u0131rmanmas\u0131 ile sona e",
-  "04.11 21:44 B5  CLOSE long stop (gap): -55.99 USD",
   "04.11 21:44 N  NEWS (16 new) score +0.60 conf 0.60: ABD ara se\u00e7im sonu\u00e7lar\u0131 dolarda zay\u0131flama yarat\u0131yor ve alt\u0131n son bir g\u00fcn\u00fcn en y\u00fcksek art\u0131\u015f\u0131na yakla\u015f\u0131yor; Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131na dair haberler de alt\u0131n lehine. Buna kar\u015f\u0131l\u0131k petrol\u00fcn %9 d\u00fc\u015fmesi ve \u0130ran sava\u015f\u0131na dair bar\u0131\u015f beklentileri jeopolitik g\u00fcvenli liman talebini azaltabilir, Qeshm sald\u0131r\u0131s\u0131 ise tersine risk \u00fcretiyor. Ana itici g\u00fc\u00e7 dolar zay\u0131fl\u0131\u011f\u0131 oldu\u011fu i\u00e7in net etki pozitif, ancak haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
   "04.11 21:44 N  GPT  score +0.28 conf 0.55: Dolar\u0131n zay\u0131flamas\u0131 ve \u0130ran \u00e7at\u0131\u015fmas\u0131na ili\u015fkin s\u00fcren belirsizlik alt\u0131n\u0131 destekliyor; ancak fiyat\u0131n g\u00fcn i\u00e7inde zaten sert y\u00fckselmi\u015f olmas\u0131 ve sava\u015f\u0131n sona erdirilmesine y\u00f6nelik siyasi bask\u0131 ek y\u00fckseli\u015f alan\u0131n\u0131 s\u0131n\u0131rlayabilir.",
   "04.11 21:50 B5  LONG gold 25000 USD x10 @ 4058.22 (TP 4070.40, SL 4050.11; news +0.44)",
@@ -18586,7 +18592,9 @@
   "06.11 00:53 N  NEWS (12 new) score +0.10 conf 0.35: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Nasdaq'ta 2,5 trilyon dolarl\u0131k sert sat\u0131\u015f ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebini destekliyor, ancak Fed'in Hammack ve Barkin'in kademeli faiz art\u0131\u015f\u0131 \u00e7a\u011fr\u0131s\u0131 ve sabit dolar/\u00f6demeler \u00f6ncesi bekleyi\u015f alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Sava\u015f haberlerinin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve eski, bu y\u00fczden sinyal zay\u0131f.",
   "06.11 00:53 N  GPT  score +0.20 conf 0.36: Nasdaq\u2019taki sert d\u00fc\u015f\u00fc\u015f ve \u0130ran sava\u015f\u0131 \u00e7evresindeki belirsizlik g\u00fcvenli liman talebini destekleyebilir; ancak sava\u015f\u0131n siyasi bask\u0131yla s\u0131n\u0131rlanabilece\u011fi beklentisi ve Fed yetkililerinin enflasyona kar\u015f\u0131 faiz art\u0131r\u0131m\u0131 yanl\u0131s\u0131 tutumu alt\u0131n i\u00e7in kar\u015f\u0131 y\u00f6nde. Dolar\u0131n yatay oldu\u011fu ve haberlerin \u00f6nemli k\u0131sm",
   "06.11 01:05 N  NEWS (10 new) score +0.20 conf 0.40: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu \u0130ran sava\u015f\u0131n\u0131n siyasi yans\u0131malar\u0131 ve ABD ara se\u00e7im sonras\u0131 tart\u0131\u015fmalar; do\u011frudan alt\u0131n fiyat\u0131n\u0131 etkileyecek yeni bir veri yok. Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f (risk-ka\u00e7\u0131\u015f\u0131) ve Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin gerilemesi alt\u0131n i\u00e7in hafif olumlu, ancak Fed'li Hammack ve Barkin'in kademeli faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ve petrol kaynakl\u0131 enflasyon endi\u015feleri bunu dengeliyor; etki s\u0131n\u0131rl\u0131 kalacak.",
-  "06.11 01:05 N  GPT  score +0.20 conf 0.31: Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f ve \u0130ran sava\u015f\u0131 \u00e7evresindeki belirsizlik k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak yeni ba\u015fl\u0131klar do\u011frudan bir asker\u00ee t\u0131rman\u0131\u015f g\u00f6stermiyor; petrol\u00fcn toparlanmas\u0131 ve Fed yetkililerinin faiz art\u0131r\u0131m\u0131 yanl\u0131s\u0131 tutumu alt\u0131n\u0131 bask\u0131layabilir."
+  "06.11 01:05 N  GPT  score +0.20 conf 0.31: Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f ve \u0130ran sava\u015f\u0131 \u00e7evresindeki belirsizlik k\u0131sa vadede s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak yeni ba\u015fl\u0131klar do\u011frudan bir asker\u00ee t\u0131rman\u0131\u015f g\u00f6stermiyor; petrol\u00fcn toparlanmas\u0131 ve Fed yetkililerinin faiz art\u0131r\u0131m\u0131 yanl\u0131s\u0131 tutumu alt\u0131n\u0131 bask\u0131layabilir.",
+  "06.11 01:17 N  NEWS (11 new) score +0.30 conf 0.45: Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f (risk-off) ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin gerilemesi alt\u0131n i\u00e7in olumlu; ancak Fed'den h\u00e2l\u00e2 s\u0131k\u0131la\u015fmadan yana sesler ve petrol kaynakl\u0131 enflasyon riski bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
+  "06.11 01:17 N  GPT  score +0.25 conf 0.40: Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f riskten ka\u00e7\u0131\u015f\u0131 desteklerken, faiz indirimi beklentilerinin g\u00fc\u00e7lendi\u011fine dair haberler alt\u0131n i\u00e7in olumlu. Ancak \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik, petrol\u00fcn toparlanmas\u0131 ve Fed yetkililerinin enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131\u015f\u0131n\u0131 desteklemesi g\u00f6r\u00fcn\u00fcm\u00fc kar\u0131\u015f"
  ],
  "gold_big": {
   "account": {
@@ -27807,6 +27815,10 @@
    [
     1793916862,
     4963.78
+   ],
+   [
+    1793917054,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -36955,6 +36967,10 @@
    [
     1793916862,
     4975.18
+   ],
+   [
+    1793917054,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -46069,6 +46085,10 @@
    [
     1793916862,
     4993.28
+   ],
+   [
+    1793917054,
+    4993.28
    ]
   ]
  },
@@ -55020,6 +55040,10 @@
    [
     1793916862,
     4969.22
+   ],
+   [
+    1793917054,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -63489,6 +63513,10 @@
    ],
    [
     1793916862,
+    4966.06
+   ],
+   [
+    1793917054,
     4966.06
    ]
   ],
@@ -72677,6 +72705,10 @@
    [
     1793916862,
     108278.0
+   ],
+   [
+    1793917054,
+    108278.0
    ]
   ],
   "open": {},
@@ -79862,6 +79894,10 @@
    ],
    [
     1793916862,
+    5066.43
+   ],
+   [
+    1793917054,
     5066.43
    ]
   ],
