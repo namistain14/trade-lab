@@ -2909,6 +2909,10 @@
    [
     1793900984,
     5000.0
+   ],
+   [
+    1793901136,
+    5000.0
    ]
   ],
   "archive": [
@@ -14768,6 +14772,10 @@
    ],
    [
     1793900984,
+    4868.5
+   ],
+   [
+    1793901136,
     4868.5
    ]
   ],
@@ -26703,6 +26711,10 @@
    [
     1793900984,
     4963.78
+   ],
+   [
+    1793901136,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -35483,6 +35495,10 @@
    [
     1793900984,
     4975.18
+   ],
+   [
+    1793901136,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -44229,6 +44245,10 @@
    [
     1793900984,
     4993.28
+   ],
+   [
+    1793901136,
+    4993.28
    ]
   ]
  },
@@ -52812,6 +52832,10 @@
    [
     1793900984,
     4969.22
+   ],
+   [
+    1793901136,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -60914,6 +60938,10 @@
    [
     1793900984,
     4966.06
+   ],
+   [
+    1793901136,
+    4966.06
    ]
   ],
   "news_calls": {
@@ -61121,9 +61149,23 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 106056.59917899998,
+   "balance": 106095.409179,
    "start": 100000.0,
    "positions": [
+    {
+     "id": "6ba2d8a4-0213-4391-a665-abf0c1627fa0",
+     "symbol": "AAPL",
+     "side": "long",
+     "qty": 128.0,
+     "entry": 345.1,
+     "tp": 350.16,
+     "sl": 341.54,
+     "opened_ms": 1793900968654,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.55: Sert piyasa sat\u0131\u015f\u0131nda yaln\u0131zca %1,3 d\u00fc\u015ferek g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor ve son 5 dakikal\u0131k mumlarda toparlanma var. | GPT 0.59: Endekslere kar\u015f\u0131 belirgin g\u00f6reli g\u00fc\u00e7 ve son dipten toparlanma, k\u0131sa vadeli y\u00fckseli\u015f i\u00e7in \u0131l\u0131ml\u0131 avantaj sunuyor.",
+     "cur": 344.99
+    },
     {
      "id": "40f456f9-8e8f-445c-9a2a-b4c5107178e1",
      "symbol": "NVDA",
@@ -61136,7 +61178,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Microsoft'un neocloud \u015f\u00fcphecili\u011fi ve AI hisselerinin destek k\u0131rmas\u0131 gibi taze olumsuz haberlerle d\u00fc\u015f\u00fck seviyelerde zay\u0131f kapan\u0131\u015f bekleniyor. | GPT 0.65: AI hisselerindeki destek k\u0131r\u0131l\u0131\u015f\u0131 haberleri ve endekslerden zay\u0131f son saat performans\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam avantaj\u0131 sunuyor.",
-     "cur": 182.81
+     "cur": 182.68
     },
     {
      "id": "7c55c750-b907-4796-bf4f-dd1c7028e89f",
@@ -61150,7 +61192,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Yapay zeka sat\u0131\u015f dalgas\u0131 ve teknik destek k\u0131r\u0131l\u0131mlar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 endeksi bask\u0131lamaya devam ediyor. | GPT 0.67: AI hisselerindeki sat\u0131\u015f bask\u0131s\u0131 ve ba\u015far\u0131s\u0131z toparlanman\u0131n ard\u0131ndan gelen yeni dip k\u0131sa pozisyonu destekliyor.",
-     "cur": 653.54
+     "cur": 652.89
     },
     {
      "id": "82178616-8618-46cb-9d61-df24dc2e32d4",
@@ -61164,7 +61206,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Endeks g\u00fcn boyu d\u00fc\u015f\u00fc\u015f trendinde ve son saatte de zay\u0131flamaya devam ediyor; trend g\u00fcn\u00fc kapan\u0131\u015fa kadar s\u00fcrebilir. | GPT 0.62: Tepki y\u00fckseli\u015flerinin sat\u0131lmas\u0131 ve fiyat\u0131n son saat diplerinin alt\u0131na inmesi d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 738.34
+     "cur": 737.7
     }
    ],
    "trades": [
@@ -61477,12 +61519,12 @@
    ],
    "day": {
     "date": "2026-11-05",
-    "pnl": 858.28,
+    "pnl": 1154.71,
     "trades": 10,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 106734.45
+   "equity": 107030.88
   },
   "equity_curve": [
    [
@@ -69704,6 +69746,10 @@
    [
     1793900984,
     106734.45
+   ],
+   [
+    1793901136,
+    107030.88
    ]
   ],
   "open": {
@@ -69819,7 +69865,7 @@
   "premarket_day": "2026-11-05",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "46783.92",
+   "buying_power": "0",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -76566,6 +76612,10 @@
    ],
    [
     1793900984,
+    5066.43
+   ],
+   [
+    1793901136,
     5066.43
    ]
   ],
