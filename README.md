@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 23:13 (İstanbul)
+> Son güncelleme: 05.11.2026 23:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (05.11 23:03): Claude puan **-0.15**, güven 0.35 — Başlıkların çoğu jeopolitik gürültü ve altı doğrudan etkilemeyen haberler. Güçlü ABD işgücü verisi doları desteklediği için altı hafifçe baskılıyor; Fed'in faizleri sabit tutması ve enflasyon endişeleri de dovish bir sinyal vermiyor. İran savaşıyla ilgili petrol fiyatı artışı güvenli liman talebini kısmen destekleyebilir, ancak bu etki sınırlı ve zaten fiyatlanmış görünüyor.
+Son haber analizi (05.11 23:16): Claude puan **-0.05**, güven 0.30 — Haberlerin çoğu Iran savaşının siyasi etkilerini tartışan yorumlar ve gündelik altın fiyat içerikleri; yeni ve somut bir jeopolitik şok yok. Güçlü ABD işgücü verisi doları desteklediği için hafif negatif, petrol fiyatlarındaki yükselişle birlikte gelen tahvil faiz düşüşü ise hafif pozitif; bu karışık sinyaller nedeniyle net etki çok zayıf.
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — İran savaşı ve tanker saldırıları kaynaklı petrol sıçraması ile Ukrayna’daki yeni saldırı haberleri güvenli liman talebini destekleyebilir; tahvil getirilerindeki düşüş de altın için olumlu. Ancak doların güçlü seyri ve Fed’in enflasyon kaygıları bu etkiyi sınırlıyor; haberlerin çoğu zaten bilinen r
+GPT (gpt-6-luna): puan **+0.08**, güven 0.24 — İran savaşı ve enerji krizine dair haberler güvenli liman talebini destekleyebilir; ancak yeni ve belirgin bir tırmanış haberi yok. Doların güçlü seyrine ilişkin önceki haberler altını sınırlarken, yeni altın üretim yatırımı kısa vadede anlamlı etki yaratmaz.
 
 Son işlemler:
 
@@ -69,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 107,746.16 $** (başlangıç 100,000 $, +7746.16 $ / %+7.75)
+**Hesap değeri: 107,456.46 $** (başlangıç 100,000 $, +7456.46 $ / %+7.46)
 
 Açık pozisyonlar: AAPL long @ 345.10 (TP 350.16 / SL 341.54); NVDA short @ 183.87 (TP 181.37 / SL 185.97); QQQ short @ 653.82 (TP 644.30 / SL 660.65); SPY short @ 738.48 (TP 727.62 / SL 746.09)
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 22:14 N  NEWS (7 new) score -0.08 conf 0.30: Haberlerin çoğu tekrar eden veya zaten fiyatlanmış İran savaşı yorumlarından oluşuyor. Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması altın için hafif baskılayıcı, Paraguay bankacılık krizi ve Batı Şeria'daki gerilim ise sınırlı güvenli liman talebi yaratabilir; net etki zayıf ve karışık.
-05.11 22:14 N  GPT  score +0.12 conf 0.34: İran’a yönelik yeni yaptırımlar ve yeniden çatışma ihtimali güvenli liman talebini sınırlı ölçüde destekleyebilir. Fed yetkililerinin kademeli faiz artırımı yönündeki mesajları ise altın için baskı oluşturuyor; haber akışı karışık ve kısa vadeli etkisi belirsiz.
 05.11 22:14 B6  karar turu: Claude «Yapay zeka kaynaklı sert satış ve VIX sıçraması piyasayı baskılıyor, ancak son saatte endekslerde kapanış öncesi kısa vadeli bir tepki alımı görülüyor.» / GPT «Endekslerdeki son toparlanma tepki alımlarını desteklese de sert satış ortamı ve normal seans kapanışına kalan 46 dakika nedeniyle kaldıraçlı pozisyonlarda risk yüksek.»
 05.11 22:27 N  NEWS (15 new) score +0.05 conf 0.30: Haberlerin çoğu gölge etkisi olmayan gündelik içerik. Petrol fiyatlarının 3 doların üzerinde yükselmesi ve tanker saldırıları jeopolitik risk ve güvenli liman talebi açısından hafif yükseltici, ancak enflasyonu artırarak Fed'in sıkılaştırma beklentisini destekleyebilir. Fed'in Hammack ve Barkin'in kademeli faiz artırımını savunması ve doların hafif yükselişi ise altın için baskılayıcı. Tahvil getirilerindeki düşüş ise destekleyici. Bu unsurlar birbirini dengelediğinden etki sınırlı ve belirsiz.
 05.11 22:27 N  GPT  score +0.35 conf 0.48: İran savaşı ve tanker saldırılarıyla petrolün 3 doların üzerinde yükselmesi, kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed yetkililerinin faiz artırımı yanlısı tutumu ve doların güçlenmesi altın için ters yönde; haber akışı da kısmen çelişkili ve belirsiz.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 23:03 N  NEWS (9 new) score -0.15 conf 0.35: Başlıkların çoğu jeopolitik gürültü ve altı doğrudan etkilemeyen haberler. Güçlü ABD işgücü verisi doları desteklediği için altı hafifçe baskılıyor; Fed'in faizleri sabit tutması ve enflasyon endişeleri de dovish bir sinyal vermiyor. İran savaşıyla ilgili petrol fiyatı artışı güvenli liman talebini kısmen destekleyebilir, ancak bu etki sınırlı ve zaten fiyatlanmış görünüyor.
 05.11 23:03 N  GPT  score +0.18 conf 0.34: İran savaşı ve tanker saldırıları kaynaklı petrol sıçraması ile Ukrayna’daki yeni saldırı haberleri güvenli liman talebini destekleyebilir; tahvil getirilerindeki düşüş de altın için olumlu. Ancak doların güçlü seyri ve Fed’in enflasyon kaygıları bu etkiyi sınırlıyor; haberlerin çoğu zaten bilinen r
 05.11 23:03 B6  karar turu: Claude «Yapay zeka hisselerindeki çöküş ve VIX sıçramasıyla piyasa sert riskten kaçış gününü kapattı; son saatteki hafif toparlanma seans sonrası işlemler için yeterli bir sinyal değil.» / GPT «Sert satış sonrası tepki yükselişi zayıflıyor; seans sonrası düşük likidite ve 1:4 kaldıraç yeni pozisyonun riskini artırıyor.»
+05.11 23:16 N  NEWS (11 new) score -0.05 conf 0.30: Haberlerin çoğu Iran savaşının siyasi etkilerini tartışan yorumlar ve gündelik altın fiyat içerikleri; yeni ve somut bir jeopolitik şok yok. Güçlü ABD işgücü verisi doları desteklediği için hafif negatif, petrol fiyatlarındaki yükselişle birlikte gelen tahvil faiz düşüşü ise hafif pozitif; bu karışık sinyaller nedeniyle net etki çok zayıf.
+05.11 23:16 N  GPT  score +0.08 conf 0.24: İran savaşı ve enerji krizine dair haberler güvenli liman talebini destekleyebilir; ancak yeni ve belirgin bir tırmanış haberi yok. Doların güçlü seyrine ilişkin önceki haberler altını sınırlarken, yeni altın üretim yatırımı kısa vadede anlamlı etki yaratmaz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
