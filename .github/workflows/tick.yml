@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # Erdem 05.11: each run starts the next one (GitHub's own schedule fires only ~hourly)
 
 concurrency:
   group: trade-lab
@@ -18,7 +19,7 @@ env:
 jobs:
   tick:
     runs-on: ubuntu-24.04
-    timeout-minutes: 55
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,7 +38,7 @@ jobs:
         run: |
           git config user.name "trade-lab-bot"
           git config user.email "trade-lab-bot@users.noreply.github.com"
-          end=$((SECONDS + 45*60))
+          end=$((SECONDS + 50*60))
           while :; do
             t0=$SECONDS
             python lab/run.py || echo "::warning::tick failed"
@@ -49,3 +50,12 @@ jobs:
             [ $((SECONDS + 180)) -ge $end ] && break
             wait=$((180 - (SECONDS - t0))); [ $wait -gt 0 ] && sleep $wait
           done
+      # chain: start the next run right away so there is never a gap (the concurrency group queues it behind this one).
+      # The 5-minute schedule above stays as a backup in case a chained run is ever lost.
+      - name: Start the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh run list -R "$GITHUB_REPOSITORY" -w tick.yml -s queued --json databaseId -q 'length' || echo 0)
+          [ "$n" = "0" ] && gh workflow run tick.yml -R "$GITHUB_REPOSITORY" --ref main || echo "a run is already queued"
