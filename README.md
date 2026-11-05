@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 17:13 (İstanbul)
+> Son güncelleme: 05.11.2026 17:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 5,120.67 $** (başlangıç 5,000 $, +120.67 $ / %+2.41)
 
-Son haber analizi (05.11 17:08): Claude puan **-0.15**, güven 0.40 — Haberler karışık: Fed'in Hammack'in sıkı para politikası ve faiz artırım yolunu savunması ile Bank of England'ın faiz artırması altın için kısa vadede baskı yaratır. Buna karşılık Demokratların Kongre'yi alması dolarda zayıflama ihtimalini artırıyor ve İran'a yönelik yeni savaş riski jeopolitik talebi destekliyor; bu nedenle etki sınırlı kalabilir.
+Son haber analizi (05.11 17:36): Claude puan **+0.02**, güven 0.35 — Haberler karışık: Fed'li Hammack ve BoE'nin faiz artırımı altın için baskılayıcı, ancak yükselen jobless claims, düşen tahviller ve yumuşayan işgücü maliyetleri altını destekliyor; İran savaşı ve jeopolitik risk ise güvenli liman talebini artırabilir. Fiyatlar 4.100 doların üzerinde tutunduğu için net etki yaklaşık nötr.
 
-GPT (gpt-6-luna): puan **-0.22**, güven 0.48 — Hammack’in enflasyonu düşürmek için kısıtlayıcı faizlerin sürmesi ve kademeli faiz artışlarını desteklemesi, kısa vadede altın için olumsuz; doların yükselişi de baskıyı artırabilir. İran çevresindeki savaş ve füze haberleri güvenli liman talebini desteklese de etkiler çelişkili ve haberlerin bir kı
+GPT (gpt-6-luna): puan **-0.15**, güven 0.42 — Fed yetkilisi Hammack’ın kısıtlayıcı politika ve kademeli faiz artırımı vurgusu altın için kısa vadede baskı yaratabilir. Ancak düşen getiriler, zayıflayan işgücü maliyetleri ve artan işsizlik başvuruları altını destekleyerek görünümü dengeliyor.
 
 Son işlemler:
 
@@ -84,10 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 15:24 N  NEWS (12 new) score +0.20 conf 0.40: Altın, ABD ara seçim sonrası dolar ve tahvil faizlerinin gerilemesiyle 2 haftanın en yüksek seviyesine çıktı ve kısa vadeli momentum pozitif. Ancak Fed'in Aralık'ta faiz artırma ihtimali, BoE'nin faiz artırımı ve ABD'de İran savaşının sona erme baskısı gibi sinyaller birbiriyle çelişiyor; bu nedenle yön belirsiz ve sinyal zayıf.
-05.11 15:24 N  GPT  score +0.28 conf 0.42: Altın, dolar ve tahvil getirilerindeki gerilemeyle iki haftanın zirvesine yaklaşmış; kısa vadeli momentum hafif olumlu. Ancak doların toparlanması, petrolün yeniden yükselmesi ve faiz haberleri yönü sınırlıyor; haber akışı da çelişkili.
-05.11 15:36 N  NEWS (10 new) score +0.20 conf 0.40: 
-05.11 15:36 N  GPT  score +0.20 conf 0.30: ABD ara seçimleri sonrası doların zayıflayabileceği beklentisi ve İran savaşı kaynaklı belirsizlik altına hafif destek sağlayabilir. Ancak doların yeniden toparlandığına dair haberler ve BoE faiz artışı karşıt sinyaller; yerel altın fiyatı haberleri küresel fiyat için belirleyici değil.
 05.11 15:48 N  NEWS (9 new) score -0.10 conf 0.40: 
 05.11 15:48 N  GPT  score +0.25 conf 0.42: Altın son yükselişini koruyor; düşen dolar ve tahvil getirileri ile İran savaşı kaynaklı belirsizlik kısa vadede destekleyici. Ancak petrol kaynaklı daha yüksek faiz beklentisi ve BoE faiz artışı bu desteği sınırlıyor; başlıklar çelişkili olduğundan güven düşük-orta.
 05.11 16:32 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -99,6 +95,10 @@ Son işlemler:
 05.11 16:56 N  GPT  score -0.20 conf 0.43: Hammack’in enflasyonu düşürmek için kademeli faiz artışlarını desteklemesi ve doların erken işlemlerde güçlenmesi altın üzerinde hafif baskı yaratabilir. İran gerilimi güvenli liman talebini desteklese de haber akışı çelişkili ve etkinin kısa vadede netliği düşük.
 05.11 17:08 N  NEWS (14 new) score -0.15 conf 0.40: Haberler karışık: Fed'in Hammack'in sıkı para politikası ve faiz artırım yolunu savunması ile Bank of England'ın faiz artırması altın için kısa vadede baskı yaratır. Buna karşılık Demokratların Kongre'yi alması dolarda zayıflama ihtimalini artırıyor ve İran'a yönelik yeni savaş riski jeopolitik talebi destekliyor; bu nedenle etki sınırlı kalabilir.
 05.11 17:08 N  GPT  score -0.22 conf 0.48: Hammack’in enflasyonu düşürmek için kısıtlayıcı faizlerin sürmesi ve kademeli faiz artışlarını desteklemesi, kısa vadede altın için olumsuz; doların yükselişi de baskıyı artırabilir. İran çevresindeki savaş ve füze haberleri güvenli liman talebini desteklese de etkiler çelişkili ve haberlerin bir kı
+05.11 17:36 N  NEWS (17 new) score +0.02 conf 0.35: Haberler karışık: Fed'li Hammack ve BoE'nin faiz artırımı altın için baskılayıcı, ancak yükselen jobless claims, düşen tahviller ve yumuşayan işgücü maliyetleri altını destekliyor; İran savaşı ve jeopolitik risk ise güvenli liman talebini artırabilir. Fiyatlar 4.100 doların üzerinde tutunduğu için net etki yaklaşık nötr.
+05.11 17:36 N  GPT  score -0.15 conf 0.42: Fed yetkilisi Hammack’ın kısıtlayıcı politika ve kademeli faiz artırımı vurgusu altın için kısa vadede baskı yaratabilir. Ancak düşen getiriler, zayıflayan işgücü maliyetleri ve artan işsizlik başvuruları altını destekleyerek görünümü dengeliyor.
+05.11 17:36 B6  karar turu: Claude «Şahin Fed açıklamaları ve yapay zeka/çip satışıyla teknoloji ağırlıklı sert bir risk iştahı kaybı yaşanıyor; geniş piyasa henüz tam yetişmemiş görünüyor.» / GPT «Şahin Fed söylemleriyle teknoloji ağırlıklı satış baskısı baskın; dört kat kaldıraçta ilişkili kısa pozisyonların toplam riski birlikte sınırlandırılmalı.»
+05.11 17:36 B6  ALIŞ AAPL 299 adet ≈ 105,696 $ (1:4) @ 353.5 (TP 358.8, SL 349.96; ikisi de hemfikir, güven 0.45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
