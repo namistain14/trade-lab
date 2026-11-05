@@ -2577,6 +2577,10 @@
    [
     1793875209,
     5000.0
+   ],
+   [
+    1793875397,
+    5000.0
    ]
   ],
   "archive": [
@@ -14105,15 +14109,19 @@
    [
     1793875209,
     4868.5
+   ],
+   [
+    1793875397,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.4,
-   "confidence": 0.55,
-   "reason": "Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
+   "score": 0.3,
+   "confidence": 0.5,
+   "reason": "\u0130ran'daki \u00e7at\u0131\u015fma ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki tanker yang\u0131nlar\u0131, Trump'\u0131n yeni sald\u0131r\u0131 ihtimali ve K\u00f6rfez'deki gerilim g\u00fcvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zay\u0131flama da alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131n petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve enflasyon/Fed beklentilerine ili\u015fkin belirsizlik s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f potansiyeli b\u0131rak\u0131yor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793874679128,
-   "new_headlines": 8,
+   "ts": 1793875395104,
+   "new_headlines": 11,
    "key_events": [
     "Demokratlar\u0131n ara se\u00e7imleri kazanmas\u0131, dolarda ve getirilerde d\u00fc\u015f\u00fc\u015f",
     "Alt\u0131n yakla\u015f\u0131k %3,4 y\u00fckseldi, 4.000 dolar \u00fczerinde",
@@ -14123,15 +14131,6 @@
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793377212734,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "",
-    "new": 27,
-    "gpt_score": -0.55,
-    "gpt_confidence": 0.62
-   },
    {
     "ts": 1793380178431,
     "score": -0.7,
@@ -16822,16 +16821,34 @@
     "new": 8,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1793875395104,
+    "score": 0.3,
+    "confidence": 0.5,
+    "reason": "\u0130ran'daki \u00e7at\u0131\u015fma ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki tanker yang\u0131nlar\u0131, Trump'\u0131n yeni sald\u0131r\u0131 ihtimali ve K\u00f6rfez'deki gerilim g\u00fcvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zay\u0131flama da alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131n petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve enflasyon/Fed beklentilerine ili\u015fkin belirsizlik s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f potansiyeli b\u0131rak\u0131yor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-05",
-   "n": 55
+   "n": 56
   },
   "news_seen": [
-   "Stock Rotation Rolls On as Chipmakers Retreat: Markets Wrap - Bloomberg.com",
+   "Trump: War with Iran Was Worth the Political Cost of Election Loss - IranWire",
+   "U.S. Sanctions Intermediaries Procuring Chinese Anti-Aircraft Missiles for Iran - IranWire",
+   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
+   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
+   "Iran war latest: IRGC claims two tankers and tugboat caught fire in Strait of Hormuz - The National",
+   "Guest Commentary: Alongside hatred of war, we must teach peace - Orlando Sentinel",
+   "Gold 10 gm or Silver 1 kg? What to buy on Dhanteras 2026? Which shopping will offer best returns over next 1, 3, 5 years - Livemint",
+   "Congress defeat: How Trump\u2019s allies are distancing themselves from Iran war - Al Jazeera",
+   "France gears up for strikes and protests as unions promise national mobilisation",
    "Saudi-led coalition says it intercepts ballistic missile headed toward Medina region - Anadolu Ajans\u0131",
    "A prolonged war in Iran is the market\u2019s real \u2018black swan,\u2019 says this strategist - MarketWatch",
+   "Bringing gold jewellery, bars, coins from Dubai to India? Know how much a passenger can bring duty-free - The Economic Times",
    "Turkey's Erdogan says he wants to discuss ending Russia-Ukraine war with Putin after talks with Zelenskiy - Reuters",
    "Saudis say they downed ballistic missile as Houthis demand $51 billion in exchange for ceasefire - The Times of Israel",
    "What Gold Seasonality Shows About November and December Returns - StoneX",
@@ -16839,11 +16856,12 @@
    "Why Indians Buying Gold On Dhanteras & Is Gold Rate High Today? Check 22K And 24K Prices In 20 Cities, 15-Day Trend And Last Year's Rates - Jagran Josh",
    "White Gold Corp. (TSXV:WGO): A Maiden Mine Study and Record Yukon Drilling Put a Multi-Deposit Gold District in the Spotlight - kalkine.ca",
    "Chesapeake Gold Corp. (TSXV:CKG) Extends Bullish Momentum as Mining Developments Support Investor Confidence - kalkine.ca",
-   "US sanctions Indian and Turkish firms accused of helping Iran - Al Jazeera",
+   "Amex Gold Mining Inc. (TSXV:AMX): A Positive Perron Feasibility Study and a Filed Quebec Project Notice Advance a High-Grade Underground Gold Mine Plan - kalkine.ca",
    "The one culture war worth fighting could bring Texans together | Opinion - Austin American-Statesman",
    "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
-   "Midterm Election Losses Complicate Trump\u2019s Options on Iran War - The New York Times",
+   "Political Losses Deepen the Stakes as Trump Contemplates Renewed Iran Attack - The New York Times",
    "A month after Yemen government offensive began, war of attrition takes hold - Al Jazeera",
+   "US sanctions Indian and Turkish firms accused of helping Iran - Al Jazeera",
    "Ukraine's Soldiers Are Getting New Jobs in the Robot War - Business Insider",
    "Persian Gulf leaders fear renewed US-Iran war as diplomacy sputters - Jefferson City News Tribune",
    "Vance: \u2018The reason we lost is the war\u2019 - Jefferson City News Tribune",
@@ -16855,9 +16873,7 @@
    "Second buyer makes rescue bid for Poundland as retailer faces collapse",
    "Iran wary of new U.S. attacks despite Trump noting war's role in election losses - NPR",
    "Video. Ukraine: Russian drone and missile attack sparks fire in Kyiv region - Euronews.com",
-   "Santa Monica Studio Delays 'God of War Laufey' to May 2027 - Hypebeast",
    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump\u2019s economy - The Seattle Times",
-   "Gold hits 2-week high as dollar, oil, yields fall after US midterms - Reuters",
    "SJC gold bars experienced sharp fluctuations, losing 2 million VND per ounce from their morning peak. - Vietnam.vn",
    "U.S. issues fresh Iran-related sanctions - upi",
    "Swiss Franc Advances as Political Jitters Weigh on the Dollar - TradingPedia",
@@ -16865,20 +16881,10 @@
    "DXY price outlook: US Dollar Index tests 1.236 resistance arc, awaiting directional confirmation - FXStreet",
    "What Is Driving Greatland Resources (ASX:GGP), Vault Minerals (ASX:VAU), and PDI Gold (ASX:PDI) Higher in the November Gold Rally? - Kalkine",
    "Gold rallies as dollar, Treasury yields soften after US midterm results - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-   "Can the Democrats prevent a new round of war with Iran? - Al Majalla",
-   "North Korea tests new air defense system, strategic cruise missile - upi",
-   "Indian Rupee capitalizes on weak US Dollar, lower oil prices - FXStreet",
-   "North Korea tests \u2018newly designed' air-defence missile system - Janes Defence Intelligence",
-   "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - The Motley Fool",
-   "How popular is the Iran War? - Silver Bulletin",
-   "What the Midterms Mean for the Iran War - Time Magazine",
-   "Geopolitical lock-out emerges as top economic risk for life sciences sector, says Willis - Yahoo Finance",
-   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette"
+   "Can the Democrats prevent a new round of war with Iran? - Al Majalla"
   ]
  },
  "log": [
-  "04.11 08:57 B5  LONG gold 25000 USD x10 @ 4010.40 (TP 4022.43, SL 4002.38; news +0.38)",
-  "04.11 09:00 B5  CLOSE long stop: -55.93 USD",
   "04.11 09:06 B5  LONG gold 25000 USD x10 @ 4011.44 (TP 4023.48, SL 4003.42; news +0.38)",
   "04.11 09:09 N  NEWS (17 new) score +0.40 conf 0.55: ABD ara se\u00e7im sonu\u00e7lar\u0131ndaki Demokrat kazan\u0131mlar\u0131 dolar\u0131n 5 haftal\u0131k dibine inmesine yol a\u00e7t\u0131; zay\u0131f dolar alt\u0131n\u0131 destekliyor. Ancak bu hareketin b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc haberler yay\u0131mland\u0131k\u00e7a fiyatlanm\u0131\u015f olabilir ve jeopolitik risk (\u0130ran sava\u015f\u0131) etkisi kar\u0131\u015f\u0131k, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
   "04.11 09:09 N  GPT  score +0.45 conf 0.61: Dolar\u0131n be\u015f haftan\u0131n dibine gerilemesi ve tahvil piyasas\u0131ndaki y\u00fckseli\u015f, k\u0131sa vadede alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak haberlerin \u00e7o\u011fu ayn\u0131 se\u00e7im geli\u015fmesini yineliyor ve olas\u0131 sava\u015f t\u0131rman\u0131\u015f\u0131/de\u011fi\u015fen politika beklentileri y\u00f6n\u00fc beli",
@@ -17176,7 +17182,9 @@
   "05.11 13:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "05.11 13:19 N  NEWS (11 new) score +0.25 conf 0.40: Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
   "05.11 13:31 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "05.11 13:31 N  NEWS (8 new) score +0.40 conf 0.55: "
+  "05.11 13:31 N  NEWS (8 new) score +0.40 conf 0.55: ",
+  "05.11 13:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "05.11 13:43 N  NEWS (11 new) score +0.30 conf 0.50: \u0130ran'daki \u00e7at\u0131\u015fma ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki tanker yang\u0131nlar\u0131, Trump'\u0131n yeni sald\u0131r\u0131 ihtimali ve K\u00f6rfez'deki gerilim g\u00fcvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zay\u0131flama da alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131n petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve enflasyon/Fed beklentilerine ili\u015fkin belirsizlik s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f potansiyeli b\u0131rak\u0131yor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu."
  ],
  "gold_big": {
   "account": {
@@ -25697,6 +25705,10 @@
    [
     1793875209,
     4963.78
+   ],
+   [
+    1793875397,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -34145,6 +34157,10 @@
    [
     1793875209,
     4975.18
+   ],
+   [
+    1793875397,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -42559,6 +42575,10 @@
    [
     1793875209,
     4993.28
+   ],
+   [
+    1793875397,
+    4993.28
    ]
   ]
  },
@@ -50810,6 +50830,10 @@
    [
     1793875209,
     4969.22
+   ],
+   [
+    1793875397,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -58470,6 +58494,10 @@
    [
     1793875209,
     5072.71
+   ],
+   [
+    1793875397,
+    5071.67
    ]
   ],
   "news_calls": {
@@ -66795,6 +66823,10 @@
    [
     1793875209,
     105876.17
+   ],
+   [
+    1793875397,
+    105876.17
    ]
   ],
   "open": {},
@@ -73280,6 +73312,10 @@
    ],
    [
     1793875209,
+    5066.43
+   ],
+   [
+    1793875397,
     5066.43
    ]
   ],
