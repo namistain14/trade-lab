@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 01:26 (İstanbul)
+> Son güncelleme: 06.11.2026 01:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (06.11 01:17): Claude puan **+0.30**, güven 0.45 — Teknoloji hisselerindeki sert düşüş (risk-off) ve Aralık faiz artırımı beklentilerinin gerilemesi altın için olumlu; ancak Fed'den hâlâ sıkılaşmadan yana sesler ve petrol kaynaklı enflasyon riski bu etkiyi sınırlıyor. Haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
+Son haber analizi (06.11 01:29): Claude puan **-0.10**, güven 0.35 — Teknoloji hisselerindeki sert düşüş (risk-off) ve Aralık faiz artırımı beklentilerinin gerilemesi altın için olumlu; ancak Fed'den hâlâ sıkılaşmadan yana sesler ve petrol kaynaklı enflasyon riski bu etkiyi sınırlıyor. Haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.40 — Teknoloji hisselerindeki sert düşüş riskten kaçışı desteklerken, faiz indirimi beklentilerinin güçlendiğine dair haberler altın için olumlu. Ancak İran savaşı kaynaklı belirsizlik, petrolün toparlanması ve Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artışını desteklemesi görünümü karış
+GPT (gpt-6-luna): puan **-0.12**, güven 0.35 — Goldman Sachs’ın Fed görünümünü şahin bulup altın tahminlerini düşürmesi kısa vadede baskı yaratabilir. İran savaşı ve siyasi belirsizlik güvenli liman talebini desteklese de başlıkların çoğu dolaylı veya tekrarlayan nitelikte.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 23:52 N  GPT  score +0.45 conf 0.56: NASDAQ’taki sert düşüş ve Aralık faiz artırımı beklentilerinin zayıflaması altını kısa vadede destekliyor; ayrıca İran savaşı kaynaklı risk algısı sürüyor. Ancak doların görece istikrarlı olması ve haberlerin bir kısmının mevcut fiyat hareketini yansıtması yükseliş etkisini sınırlıyor.
-06.11 00:04 N  NEWS (11 new) score +0.40 conf 0.50: Altın, Aralık faiz artırımı beklentilerinin geri çekilmesi ve Nasdaq 100'deki sert düşüşle birlikte güvenli liman talebinden destek görüyor; İran savaşının sürmesi ve petrol fiyatlarındaki yükseliş de jeopolitik risk primini canlı tutuyor. Ancak çoğu başlık görüş yazısı veya zaten fiyatlanmış haber niteliğinde, ayrıca bekleyen ABD istihdam verisi ve dolardaki olası güçlenme yönünde bir risk var; bu nedenle güven orta düzeyde.
 06.11 00:04 N  GPT  score +0.36 conf 0.48: İran savaşıyla ilgili belirsizlik ve Medine’ye yönelen füzenin önlenmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak petrol artışının faiz beklentilerini yükseltme riski ve Ukrayna temaslarının gerilimi azaltma ihtimali yükselişi sınırlıyor.
 06.11 00:16 N  NEWS (6 new) score +0.20 conf 0.40: İran savaşı ve Nasdaq'taki sert düşüş güvenli liman talebini destekliyor, Aralık faiz artırımı beklentilerinin geri çekilmesi altın için olumlu. Buna karşılık Fed'li Hammack ve Barkin'in kademeli faiz artırımını savunması ve petrol fiyatlarındaki toparlanmanın enflasyon endişesi yaratması, etkiyi sınırlıyor; bazı başlıklar da eski ve fiyatlanmış haberler.
 06.11 00:16 N  GPT  score -0.22 conf 0.42: Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımı eğilimini desteklemesi, kısa vadeli faiz ve reel getiri beklentilerini yükselterek altını baskılayabilir. Petrolün toparlanması da enflasyon ve sıkı politika kaygılarını besleyebilir; ancak haberlerin etkisi sınırlı ve İran kaynaklı 
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 01:05 N  GPT  score +0.20 conf 0.31: Teknoloji hisselerindeki sert düşüş ve İran savaşı çevresindeki belirsizlik kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak yeni başlıklar doğrudan bir askerî tırmanış göstermiyor; petrolün toparlanması ve Fed yetkililerinin faiz artırımı yanlısı tutumu altını baskılayabilir.
 06.11 01:17 N  NEWS (11 new) score +0.30 conf 0.45: Teknoloji hisselerindeki sert düşüş (risk-off) ve Aralık faiz artırımı beklentilerinin gerilemesi altın için olumlu; ancak Fed'den hâlâ sıkılaşmadan yana sesler ve petrol kaynaklı enflasyon riski bu etkiyi sınırlıyor. Haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
 06.11 01:17 N  GPT  score +0.25 conf 0.40: Teknoloji hisselerindeki sert düşüş riskten kaçışı desteklerken, faiz indirimi beklentilerinin güçlendiğine dair haberler altın için olumlu. Ancak İran savaşı kaynaklı belirsizlik, petrolün toparlanması ve Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artışını desteklemesi görünümü karış
+06.11 01:29 N  NEWS (10 new) score -0.10 conf 0.35: 
+06.11 01:29 N  GPT  score -0.12 conf 0.35: Goldman Sachs’ın Fed görünümünü şahin bulup altın tahminlerini düşürmesi kısa vadede baskı yaratabilir. İran savaşı ve siyasi belirsizlik güvenli liman talebini desteklese de başlıkların çoğu dolaylı veya tekrarlayan nitelikte.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
