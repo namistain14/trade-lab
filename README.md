@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 18:15 (İstanbul)
+> Son güncelleme: 05.11.2026 18:18 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +177.62 $ | +64.74 $ |
-| İşlem sayısı | 8 | 48 |
-| Kazanma oranı | %62.5 | %45.8 |
-| Ödenen komisyon/spread | 94.62 $ | 570.11 $ |
+| Net kâr/zarar | +121.69 $ | +8.82 $ |
+| İşlem sayısı | 9 | 49 |
+| Kazanma oranı | %55.6 | %44.9 |
+| Ödenen komisyon/spread | 106.45 $ | 581.94 $ |
 
-**Hesap değeri: 5,058.82 $** (başlangıç 5,000 $, +58.82 $ / %+1.18)
-
-Açık pozisyonlar: PAXGUSDT short @ 4097.84 (TP 4085.55 / SL 4106.04)
+**Hesap değeri: 5,008.82 $** (başlangıç 5,000 $, +8.82 $ / %+0.18)
 
 Son haber analizi (05.11 18:12): Claude puan **-0.40**, güven 0.55 — Fed yetkilileri (Barkin, Hammack, TD Securities) kademeli ama ek sıkılaştırma beklentisini destekliyor ve reel getiriler altına baskı yapıyor; ayrıca İran savaşında geri çekilme ihtimali güvenli liman talebini azaltıyor. Buna karşılık madencilik hisselerindeki yaklaşık %9 yükselişler altındaki kısa vadeli toparlanmaya işaret ediyor, bu yüzden güven orta düzeyde tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 05.11 18:18 | PAXGUSDT | short | -55.93 $ | stop |
 | 05.11 18:10 | PAXGUSDT | short | -55.92 $ | stop |
 | 05.11 14:18 | PAXGUSDT | long | +69.07 $ | take profit |
 | 05.11 10:28 | PAXGUSDT | long | -55.90 $ | stop |
 | 05.11 08:21 | PAXGUSDT | long | -55.90 $ | stop |
-| 05.11 06:55 | PAXGUSDT | long | +69.07 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -71,7 +69,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %42.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 106,113.20 $** (başlangıç 100,000 $, +6113.20 $ / %+6.11)
+**Hesap değeri: 106,200.62 $** (başlangıç 100,000 $, +6200.62 $ / %+6.20)
 
 Açık pozisyonlar: SPY short @ 750.58 (TP 738.86 / SL 757.61)
 
@@ -88,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 17:48 N  GPT  score -0.18 conf 0.32: İran’ın diplomatik ilerleme bildirmesi güvenli liman talebini sınırlayabilir; doların yeniden güçlenmesi de altın için kısa vadede baskı oluşturuyor. Buna karşılık haber akışı çelişkili ve bazı faiz haberlerinin ABD politikasına doğrudan etkisi belirsiz olduğundan görünüm temkinli ve hafif aşağı yön
 05.11 17:48 B6  karar turu: Claude «Piyasa, teknoloji ve yapay zekâ hisselerinin önderliğinde güçlü bir risk-off satışı yaşıyor; düşüş ivmesi sürse de aşırı uzamış hareketlerde tepki riski var.» / GPT «Piyasa satış ağırlıklı; dört kat kaldıraçta ilişkili kısa pozisyonların toplam riskini sınırlamak ve sert düşmüş hisselerde tepki yükselişlerine dikkat etmek gerekiyor.»
 05.11 17:48 B6  AÇIĞA SATIŞ NVDA 552 adet ≈ 105,432 $ (1:4) @ 191.0 (TP 188.13, SL 192.91; ikisi de hemfikir, güven 0.58)
 05.11 18:00 N  NEWS (17 new) score -0.40 conf 0.60: 
@@ -103,6 +100,7 @@ Son işlemler:
 05.11 18:12 B6  karar turu: Claude «Teknoloji öncülüğünde sert bir risk-off trend günü yaşanıyor; Fed'in şahin tonu ve yapay zeka şüpheleri baskıyı sürdürüyor, aşırı uzamış isimler yerine daha az uzamış olanlarda short tercih ediliyor.» / GPT «Piyasa genelinde satış eğilimi baskın; kısa pozisyonlar avantajlı görünse de uzamış düşüş ve 1:4 kaldıraç nedeniyle ani tepki ve eşzamanlı stop riski yüksek.»
 05.11 18:12 B6  AÇIĞA SATIŞ SPY 141 adet ≈ 105,766 $ (1:4) @ 750.11 (TP 738.86, SL 757.61; ikisi de hemfikir, güven 0.50)
 05.11 18:15 B5  SHORT gold 25000 USD x10 @ 4097.84 (TP 4085.55, SL 4106.04; news -0.40)
+05.11 18:18 B5  CLOSE short stop: -55.93 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
