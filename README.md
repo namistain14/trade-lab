@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 15:44 (İstanbul)
+> Son güncelleme: 05.11.2026 15:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 5,120.67 $** (başlangıç 5,000 $, +120.67 $ / %+2.41)
 
-Son haber analizi (05.11 15:36): Claude puan **+0.20**, güven 0.40 — Altın, ABD ara seçim sonrası dolar ve tahvil faizlerinin gerilemesiyle 2 haftanın en yüksek seviyesine çıktı ve kısa vadeli momentum pozitif. Ancak Fed'in Aralık'ta faiz artırma ihtimali, BoE'nin faiz artırımı ve ABD'de İran savaşının sona erme baskısı gibi sinyaller birbiriyle çelişiyor; bu nedenle yön belirsiz ve sinyal zayıf.
+Son haber analizi (05.11 15:48): Claude puan **-0.10**, güven 0.40 — Altın, ABD ara seçim sonrası dolar ve tahvil faizlerinin gerilemesiyle 2 haftanın en yüksek seviyesine çıktı ve kısa vadeli momentum pozitif. Ancak Fed'in Aralık'ta faiz artırma ihtimali, BoE'nin faiz artırımı ve ABD'de İran savaşının sona erme baskısı gibi sinyaller birbiriyle çelişiyor; bu nedenle yön belirsiz ve sinyal zayıf.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.30 — ABD ara seçimleri sonrası doların zayıflayabileceği beklentisi ve İran savaşı kaynaklı belirsizlik altına hafif destek sağlayabilir. Ancak doların yeniden toparlandığına dair haberler ve BoE faiz artışı karşıt sinyaller; yerel altın fiyatı haberleri küresel fiyat için belirleyici değil.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.42 — Altın son yükselişini koruyor; düşen dolar ve tahvil getirileri ile İran savaşı kaynaklı belirsizlik kısa vadede destekleyici. Ancak petrol kaynaklı daha yüksek faiz beklentisi ve BoE faiz artışı bu desteği sınırlıyor; başlıklar çelişkili olduğundan güven düşük-orta.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 14:13 N  NEWS (27 new) score +0.05 conf 0.30: Haberler karışık: İran savaşına yönelik gerilimin azalması ve doların toparlanması altın için olumsuz, buna karşılık Trump'ın yeniden saldırı seçeneğini değerlendirmesi ve altının toparlanma eğilimi olumlu. ABD tarım dışı istihdam (NFP) verisi beklenirken kısa vadede net bir yön oluşmadığı için etki sınırlı ve yüksek belirsizlik içeriyor.
-05.11 14:13 N  GPT  score +0.20 conf 0.40: İran savaşı ve Suudi Arabistan’a yönelen füze haberi güvenli liman talebini destekleyebilir; altının toparlanması da olumlu. Ancak doların yeniden güçlenmesi ve yaklaşan ABD istihdam verisi yukarı yönlü etkiyi sınırlıyor; savaş söyleminin soğuduğuna dair haberler de tabloyu karışık kılıyor.
 05.11 14:19 B5  CLOSE long take profit: +69.07 USD
 05.11 14:25 N  NEWS (11 new) score -0.10 conf 0.30: Başlıkların çoğu gürültü veya eski haber. İran savaşı söyleminin ara seçim yenilgisiyle yumuşaması jeopolitik risk primini biraz azaltabilir, ABD doları toparlanması ise altın için baskı yaratıyor. Gold'un kısa vadeli toparlanması ve NFP öncesi belirsizlik, yönü net olmadığı için etkiyi sınırlı tutuyor.
 05.11 14:25 N  GPT  score +0.20 conf 0.38: Altının toparlanması ve zayıf dolar haberleri kısa vadede hafif destekleyici; Kuzey Kore’nin füze denemeleri de güvenli liman talebini artırabilir. Ancak doların yeniden güçlenmesi, İran savaşı kaynaklı risklerin siyasi olarak yatışabileceği beklentisi ve yaklaşan ABD istihdam verisi yönü belirsizle
@@ -99,6 +97,8 @@ Son işlemler:
 05.11 15:24 N  GPT  score +0.28 conf 0.42: Altın, dolar ve tahvil getirilerindeki gerilemeyle iki haftanın zirvesine yaklaşmış; kısa vadeli momentum hafif olumlu. Ancak doların toparlanması, petrolün yeniden yükselmesi ve faiz haberleri yönü sınırlıyor; haber akışı da çelişkili.
 05.11 15:36 N  NEWS (10 new) score +0.20 conf 0.40: 
 05.11 15:36 N  GPT  score +0.20 conf 0.30: ABD ara seçimleri sonrası doların zayıflayabileceği beklentisi ve İran savaşı kaynaklı belirsizlik altına hafif destek sağlayabilir. Ancak doların yeniden toparlandığına dair haberler ve BoE faiz artışı karşıt sinyaller; yerel altın fiyatı haberleri küresel fiyat için belirleyici değil.
+05.11 15:48 N  NEWS (9 new) score -0.10 conf 0.40: 
+05.11 15:48 N  GPT  score +0.25 conf 0.42: Altın son yükselişini koruyor; düşen dolar ve tahvil getirileri ile İran savaşı kaynaklı belirsizlik kısa vadede destekleyici. Ancak petrol kaynaklı daha yüksek faiz beklentisi ve BoE faiz artışı bu desteği sınırlıyor; başlıklar çelişkili olduğundan güven düşük-orta.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
