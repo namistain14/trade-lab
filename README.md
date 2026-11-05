@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 05.11.2026 07:56 (İstanbul)
+> Son güncelleme: 05.11.2026 07:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %100.0 | %47.7 |
 | Ödenen komisyon/spread | 47.34 $ | 522.83 $ |
 
-**Hesap değeri: 5,169.10 $** (başlangıç 5,000 $, +169.10 $ / %+3.38)
+**Hesap değeri: 5,166.98 $** (başlangıç 5,000 $, +166.98 $ / %+3.34)
 
 Açık pozisyonlar: PAXGUSDT long @ 4132.35 (TP 4144.74 / SL 4124.08)
 
@@ -52,9 +52,9 @@ Son işlemler:
 
 **Hesap değeri: 5,066.43 $** (başlangıç 5,000 $, +66.43 $ / %+1.33)
 
-Son haber analizi (04.11 13:40): Claude puan **+0.15**, güven 0.40 — Haberler çelişkili: İran'ın Hürmüz'de dört tankerin mayınlarla vurulduğunu öne sürmesi ve petrol fiyatlarındaki Hürmüz arz riskleri fiyatı yukarı iter; buna karşılık Brent'in İran müzakereleri nedeniyle 4 haftalık dibe inmesi ve ABD-İran arasında anlaşmanın hâlâ uzak olması aşağı yönlü baskı yaratır. Tanker iddiası doğrulanmamış olduğu için net etki hafif pozitif, güven düşük.
+Son haber analizi (05.11 07:59): Claude puan **-0.05**, güven 0.40 — Haberler çelişkili: İran'ın Hürmüz'de dört tankerin mayınlarla vurulduğunu öne sürmesi ve petrol fiyatlarındaki Hürmüz arz riskleri fiyatı yukarı iter; buna karşılık Brent'in İran müzakereleri nedeniyle 4 haftalık dibe inmesi ve ABD-İran arasında anlaşmanın hâlâ uzak olması aşağı yönlü baskı yaratır. Tanker iddiası doğrulanmamış olduğu için net etki hafif pozitif, güven düşük.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.43 — Hürmüz’de dört tankerin mayına çarptığı iddiası ve İran-ABD görüşmelerindeki tıkanma, kısa vadeli arz riskini artırarak Brent’i destekleyebilir. Ancak tanker haberleri henüz doğrulanmış değil ve Brent’in görüşmeler beklentisiyle gerilediğine dair çelişkili başlıklar yükseliş etkisini sınırlıyor.
+GPT (gpt-6-luna): puan **+0.28**, güven 0.55 — Hürmüz’de iki tanker ve bir römorkörün alev aldığı haberi, doğrulanması hâlinde yakın vadeli arz ve taşımacılık risk primini artırarak Brent’i yukarı destekleyebilir. Ancak İran geriliminin azalacağı beklentileriyle süren sert satış ve haberin nedeni hakkındaki belirsizlik yükseliş etkisini sınırlıy
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 06:16 N  GPT  score +0.45 conf 0.58: Doların zayıflaması ve önceki haberlerde bildirilen düşen tahvil getirileri altını kısa vadede destekliyor; Kuzey Kore füze denemesi de sınırlı güvenli liman talebi yaratabilir. Ancak yükselişin büyük bölümü seçim sonrası fiyatlanmış görünüyor ve İran geriliminin azalacağı beklentisi güvenli liman t
-05.11 06:36 N  NEWS (10 new) score +0.30 conf 0.50: Dolar zayıflığı ve ABD tahvil faizlerinin düşmesi altın için olumlu; ara seçim sonrası dolar ve faiz hareketleri altına destek veriyor. Ancak İran savaşının sona erme beklentisi jeopolitik risk primini azaltarak altın için olumsuz etki yaratabilir, Bank of England'ın faiz artırımı ise dolar üzerinde karışık bir etki bırakıyor. Haberlerin çoğu zaten fiyatlanmış olduğu için güven orta-düşük tutuldu.
 05.11 06:36 N  GPT  score +0.40 conf 0.58: Dolar ve tahvil getirilerindeki gerileme, altındaki yükselişi kısa vadede destekliyor; ancak bu hareket büyük ölçüde seçim sonrası fiyatlanmış görünüyor. Petrolün sert düşmesi ve İran savaşında tırmanma riskinin azalması güvenli liman talebini sınırlarken, BoE’nin olası faiz artışı da kısmi baskı ya
 05.11 06:48 N  NEWS (6 new) score +0.50 conf 0.60: Ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve ABD tahvil getirileri düştü; bu, altın için net olarak yükseliş yönlü bir etki. Petrol fiyatlarının İran savaşının bitebileceği beklentisiyle düşmesi enflasyon beklentilerini ve Fed sıkılığı algısını yumuşatarak destekliyor. Ancak fiyat hareketinin büyük kısmı zaten gerçekleşti ve jeopolitik risk primi azaldığı için güvenli liman talebi zayıflıyor; bu nedenle kısa vadede kâr realizasyonu riski var.
 05.11 06:48 N  GPT  score +0.48 conf 0.66: Dolar ve tahvil getirilerindeki düşüş altını kısa vadede destekliyor; yeni başlıklar yükselişi teyit ediyor. Ancak hareketin önemli kısmı zaten fiyatlanmış olabilir ve İran savaşının sona ereceği beklentisi güvenli liman talebini azaltabilir.
@@ -101,6 +99,8 @@ Son işlemler:
 05.11 07:38 N  GPT  score +0.35 conf 0.61: Dolar ve tahvil getirilerindeki düşüş altını destekliyor; seçim sonrası zayıflıkla birlikte altın zaten yaklaşık %2 yükseldiği için bu etki kısmen fiyatlanmış olabilir. İran savaşını bitirme yönündeki siyasi mesajlar güvenli liman talebini azaltabilir ve kısa vadeli kâr satışlarını tetikleyebilir.
 05.11 07:50 N  NEWS (9 new) score +0.40 conf 0.50: ABD ara seçim sonuçlarının ardından dolar endeksi bir aylık dibe geriledi ve tahvil getirileri düştü; bu, altın için net olarak destekleyici. Ayrıca Demokratların Senato'yu kazanması Fed bağımsızlığını güçlendirebilir, bu da faiz beklentileri açısından olumlu. Buna karşılık İran savaşının sona erdirilmesi yönünde siyasi baskı artıyor ve petrol düşüyor; bu da jeopolitik güvenli liman talebini zayıflatıyor. Altın zaten %2'ye yakın yükselip iki haftalık zirveye çıktığı için bir kısmı fiyatlanmış durumda, bu nedenle güven orta düzeyde.
 05.11 07:50 N  GPT  score +0.55 conf 0.68: Dolar ve tahvil getirilerindeki düşüş altının kısa vadeli yükselişini destekliyor; seçim sonrası haber akışı ve güçlü fiyat momentumu da olumlu. Ancak altın zaten sert yükseldi ve İran savaşının sona ermesine yönelik siyasi söylemler güvenli liman talebini sınırlayabilir.
+05.11 07:59 B5P  NEWS (45 new) score -0.05 conf 0.40: 
+05.11 07:59 B5P  GPT  score +0.28 conf 0.55: Hürmüz’de iki tanker ve bir römorkörün alev aldığı haberi, doğrulanması hâlinde yakın vadeli arz ve taşımacılık risk primini artırarak Brent’i yukarı destekleyebilir. Ancak İran geriliminin azalacağı beklentileriyle süren sert satış ve haberin nedeni hakkındaki belirsizlik yükseliş etkisini sınırlıy
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
