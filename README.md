@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 00:50 (İstanbul)
+> Son güncelleme: 06.11.2026 00:53 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,966.06 $** (başlangıç 5,000 $, -33.94 $ / %-0.68)
 
-Son haber analizi (06.11 00:40): Claude puan **+0.30**, güven 0.45 — Altın için karışık ama hafif pozitif bir tablo var: Aralık faiz artırımı beklentilerinin geri çekilmesi ve Nasdaq'taki sert düşüş altını destekliyor, İran savaşı ve petrol hareketleri de güvenli liman talebini canlı tutuyor. Buna karşılık Fed yetkililerinin (Hammack, Barkin) kademeli faiz artırımını savunması ve dolar/istihdam verisi beklentisi baskı yaratabilir; ayrıca ilgili haberlerin çoğu genel nitelikte veya zaten fiyatlanmış olduğu için güven sınırlı.
+Son haber analizi (06.11 00:53): Claude puan **+0.10**, güven 0.35 — Yeni başlıklar karışık: Nasdaq'ta 2,5 trilyon dolarlık sert satış ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak Fed'in Hammack ve Barkin'in kademeli faiz artışı çağrısı ve sabit dolar/ödemeler öncesi bekleyiş altın için baskılayıcı. Savaş haberlerinin çoğu zaten fiyatlanmış ve eski, bu yüzden sinyal zayıf.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.34 — İran savaşı ve piyasalardaki teknoloji hissesi satışları güvenli liman talebini destekleyebilir; ancak Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımı yanlısı açıklamaları altın için ters yönde. Yeni başlıkların çoğu fiyat açısından önemsiz ve sinyaller karışık olduğundan kısa vad
+GPT (gpt-6-luna): puan **+0.20**, güven 0.36 — Nasdaq’taki sert düşüş ve İran savaşı çevresindeki belirsizlik güvenli liman talebini destekleyebilir; ancak savaşın siyasi baskıyla sınırlanabileceği beklentisi ve Fed yetkililerinin enflasyona karşı faiz artırımı yanlısı tutumu altın için karşı yönde. Doların yatay olduğu ve haberlerin önemli kısm
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-05.11 23:46 B6  CLOSE long AAPL seans sonu: +93.44 USD
-05.11 23:46 B6  CLOSE short NVDA seans sonu: +1215.36 USD
 05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD
 05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD
 05.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 00:28 N  GPT  score +0.25 conf 0.36: Teknoloji hisselerindeki sert düşüş ve Rusya-Ukrayna saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed yetkililerinin enflasyon için kademeli faiz artışını savunması ve petrolün toparlanması altın için ters yönde; bu nedenle net etki sınırlı ve belirsiz.
 06.11 00:40 N  NEWS (6 new) score +0.30 conf 0.45: Altın için karışık ama hafif pozitif bir tablo var: Aralık faiz artırımı beklentilerinin geri çekilmesi ve Nasdaq'taki sert düşüş altını destekliyor, İran savaşı ve petrol hareketleri de güvenli liman talebini canlı tutuyor. Buna karşılık Fed yetkililerinin (Hammack, Barkin) kademeli faiz artırımını savunması ve dolar/istihdam verisi beklentisi baskı yaratabilir; ayrıca ilgili haberlerin çoğu genel nitelikte veya zaten fiyatlanmış olduğu için güven sınırlı.
 06.11 00:40 N  GPT  score +0.20 conf 0.34: İran savaşı ve piyasalardaki teknoloji hissesi satışları güvenli liman talebini destekleyebilir; ancak Fed yetkililerinin enflasyonu düşürmek için kademeli faiz artırımı yanlısı açıklamaları altın için ters yönde. Yeni başlıkların çoğu fiyat açısından önemsiz ve sinyaller karışık olduğundan kısa vad
+06.11 00:53 N  NEWS (12 new) score +0.10 conf 0.35: Yeni başlıklar karışık: Nasdaq'ta 2,5 trilyon dolarlık sert satış ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak Fed'in Hammack ve Barkin'in kademeli faiz artışı çağrısı ve sabit dolar/ödemeler öncesi bekleyiş altın için baskılayıcı. Savaş haberlerinin çoğu zaten fiyatlanmış ve eski, bu yüzden sinyal zayıf.
+06.11 00:53 N  GPT  score +0.20 conf 0.36: Nasdaq’taki sert düşüş ve İran savaşı çevresindeki belirsizlik güvenli liman talebini destekleyebilir; ancak savaşın siyasi baskıyla sınırlanabileceği beklentisi ve Fed yetkililerinin enflasyona karşı faiz artırımı yanlısı tutumu altın için karşı yönde. Doların yatay olduğu ve haberlerin önemli kısm
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
