@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 15:39 (İstanbul)
+> Son güncelleme: 06.11.2026 15:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,573.88 $** (başlangıç 5,000 $, -426.12 $ / %-8.52)
 
-Son haber analizi (06.11 15:30): Claude puan **+0.05**, güven 0.30 — Haberler karışık: İran savaşına dair jeopolitik risk ve borsa satışları altın için destekleyici olsa da, Fed'in Williams'ın enflasyonun hâlâ yüksek olduğu yönündeki açıklaması ve dolar tarafındaki nakit talebi altını baskılayabilir. NFP öncesi altın geri çekilmiş durumda; bu veri belirleyici olacağı için yön belirsiz, bu nedenle skor hafif negatif ve güven düşük tutuldu.
+Son haber analizi (06.11 15:42): Claude puan **+0.05**, güven 0.30 — Haberler karışık: İran savaşına dair jeopolitik risk ve borsa satışları altın için destekleyici olsa da, Fed'in Williams'ın enflasyonun hâlâ yüksek olduğu yönündeki açıklaması ve dolar tarafındaki nakit talebi altını baskılayabilir. NFP öncesi altın geri çekilmiş durumda; bu veri belirleyici olacağı için yön belirsiz, bu nedenle skor hafif negatif ve güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.36 — İran savaşının yeniden tırmanabileceğine dair haberler ve küresel piyasalardaki riskten kaçış altına sınırlı destek sağlayabilir. Ancak NFP öncesi doların görece güçlü olması ve altının geri çekilmesi bu etkiyi dengeliyor; haber akışı çelişkili.
+GPT (gpt-6-luna): puan **+0.20**, güven 0.38 — İran savaşının yeniden başlayabileceğine dair haberler ve küresel hisse senetlerindeki düşüş güvenli liman talebini destekleyebilir; ancak petrol haberleri çelişkili ve altın istihdam verisi öncesinde geri çekiliyor. En yeni başlıkların çoğu piyasa açısından önemsiz olduğundan kısa vadeli yön sinyal
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 14:16 N  NEWS (13 new) score -0.15 conf 0.35: Dolar, teknoloji satışı kaynaklı güvenli liman talebiyle yükseliyor ve bu altın için baskı yaratıyor; Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması da sıkı para politikası beklentisini destekliyor. Buna karşın İran'ın Avrupa'ya kadar uzanabilecek füze tehdidi jeopolitik risk primini canlı tutuyor, bu da altını destekleyebilir; sinyaller karışık olduğu için düşük güvenle hafif negatif bir görünüm veriyorum.
-06.11 14:16 N  GPT  score -0.20 conf 0.42: Teknoloji satışlarıyla doların güvenli liman talebiyle güçlenmesi ve Fed’in enflasyonun hâlâ yüksek olduğu mesajı altını kısa vadede baskılayabilir. İran’dan olası misilleme tehdidi destekleyici olsa da savaş haberlerinin çoğu yeni değil; ayrıca petrol fiyatlarındaki gerileme gerilimin azalabileceği
 06.11 14:25 B5  CLOSE short stop (gap): -56.36 USD
 06.11 14:28 N  NEWS (17 new) score -0.15 conf 0.40: Fed'in New York ve Williams'ın "enflasyon çok yüksek" yorumları kısa vadede faiz beklentilerini sertleştirerek altı baskılıyor. Küresel borsa satışı ve dolar talebi de güvenli liman etkisiyle altın lehine değil aleyhine çalışıyor; buna karşılık savaş ve jeopolitik gerilim haberleri altı destekliyor. Bekleyen ABD tarım dışı istihdam verisi yönü belirsizleştirdiği için güven düşük.
 06.11 14:28 N  GPT  score -0.25 conf 0.56: Küresel hisse satışları güvenli liman talebini destekleyebilir; ancak doların güvenli liman alımlarıyla toparlanması ve Fed yetkilisinin enflasyonu hâlâ yüksek bulması altın üzerinde baskı yaratıyor. İstihdam ve enflasyon verileri öncesi altının gerilemesi, kısa vadede hafif aşağı yönlü görünümü des
@@ -100,6 +98,8 @@ Son işlemler:
 06.11 15:17 N  GPT  score -0.18 conf 0.36: NFP öncesi altındaki geri çekilme ve dolar talebindeki güçlenme kısa vadede baskı yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de de-eskalasyon haberleri ve çelişkili sinyaller yönü belirsizleştiriyor.
 06.11 15:30 N  NEWS (14 new) score +0.05 conf 0.30: 
 06.11 15:30 N  GPT  score +0.12 conf 0.36: İran savaşının yeniden tırmanabileceğine dair haberler ve küresel piyasalardaki riskten kaçış altına sınırlı destek sağlayabilir. Ancak NFP öncesi doların görece güçlü olması ve altının geri çekilmesi bu etkiyi dengeliyor; haber akışı çelişkili.
+06.11 15:42 N  NEWS (7 new) score +0.05 conf 0.30: 
+06.11 15:42 N  GPT  score +0.20 conf 0.38: İran savaşının yeniden başlayabileceğine dair haberler ve küresel hisse senetlerindeki düşüş güvenli liman talebini destekleyebilir; ancak petrol haberleri çelişkili ve altın istihdam verisi öncesinde geri çekiliyor. En yeni başlıkların çoğu piyasa açısından önemsiz olduğundan kısa vadeli yön sinyal
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
