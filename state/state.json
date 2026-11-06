@@ -4177,6 +4177,10 @@
    [
     1793955585,
     5000.0
+   ],
+   [
+    1793955777,
+    5000.0
    ]
   ],
   "archive": [
@@ -6029,12 +6033,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1793948400000,
-   "ETHUSDT": 1793948400000,
-   "SOLUSDT": 1793948400000,
-   "BNBUSDT": 1793948400000,
-   "XRPUSDT": 1793948400000,
-   "DOGEUSDT": 1793948400000
+   "BTCUSDT": 1793952000000,
+   "ETHUSDT": 1793952000000,
+   "SOLUSDT": 1793952000000,
+   "BNBUSDT": 1793952000000,
+   "XRPUSDT": 1793952000000,
+   "DOGEUSDT": 1793952000000
   }
  },
  "gold_news": {
@@ -17305,43 +17309,38 @@
    [
     1793955585,
     4868.5
+   ],
+   [
+    1793955777,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
+   "score": -0.4,
+   "confidence": 0.55,
    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hafif negatif: Goldman'\u0131n Fed'in \u015fahin tutumu nedeniyle y\u0131l sonu alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi ve dolar\u0131n toparlanmas\u0131 alt\u0131na bask\u0131 yap\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair haberler ve Kore borsas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini bir miktar destekliyor; bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1793955054586,
-   "new_headlines": 7,
+   "ts": 1793955776170,
+   "new_headlines": 12,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.55,
-    "confidence": 0.67,
-    "reason": "K\u0131sa vadede dolar\u0131n toparlanmas\u0131, alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi bask\u0131n; Goldman\u2019\u0131n tahmin indirimi de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran\u2019da sava\u015f\u0131n yeniden ba\u015flamas\u0131 ihtimali g\u00fcvenli liman talebini art\u0131rabilir, ancak haber belirsiz ve ilk piyasa tepkisi a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
+    "score": -0.45,
+    "confidence": 0.62,
+    "reason": "Alt\u0131n\u0131n 4.050 dolar\u0131n alt\u0131na d\u00fc\u015fmesi ve dolar\u0131n g\u00fc\u00e7lenmesi, Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisiyle \u00f6n\u00fcm\u00fczdeki saatlerde bask\u0131n\u0131n s\u00fcrmesine i\u015faret ediyor. \u0130ran\u2019\u0131n ABD\u2019ye n\u00fckleer teklif g\u00f6nderdi\u011fi haberi gerilimi azaltabilir; di\u011fer jeopolitik riskler ise d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
     "key_events": [
-     "Dolar y\u00fckselirken alt\u0131n 4.050 dolar\u0131n alt\u0131na indi",
-     "\u015eahin Fed beklentisi ve Goldman\u2019\u0131n tahmin indirimi",
-     "\u0130ran\u2019da sava\u015f\u0131n yeniden ba\u015flamas\u0131 ihtimali"
+     "Alt\u0131n %1\u2019den fazla geriledi; dolar y\u00fckseldi",
+     "Hawkish Fed beklentileri alt\u0131n i\u00e7in negatif",
+     "\u0130ran\u2019\u0131n ABD\u2019ye n\u00fckleer teklif iletti\u011fi bildirildi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793689223458,
-    "score": 0.1,
-    "confidence": 0.3,
-    "reason": "\u0130ran'\u0131n H\u00fcrm\u00fcz'deki Qeshm Adas\u0131'na ABD sald\u0131r\u0131lar\u0131 ve Karadeniz'deki gerilim g\u00fcvenli liman talebini destekliyor, ayr\u0131ca dolar zay\u0131flamas\u0131 ve Brent'in d\u00fc\u015f\u00fc\u015f\u00fc faiz art\u0131r\u0131m\u0131 beklentilerini azaltabilir. Buna kar\u015f\u0131l\u0131k, MCX alt\u0131n fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve faiz art\u0131r\u0131m\u0131 bahislerinin s\u00fcrmesi, WGC'nin yat\u0131r\u0131m talebi beklentisini d\u00fc\u015f\u00fcrmesi ve Hindistan'daki alt\u0131n talebinin zay\u0131flamas\u0131 bask\u0131y\u0131 art\u0131r\u0131yor; bu nedenle etki kar\u0131\u015f\u0131k ve s\u0131n\u0131rl\u0131.",
-    "new": 8,
-    "gpt_score": 0.28,
-    "gpt_confidence": 0.43
-   },
    {
     "ts": 1793689941514,
     "score": 0.2,
@@ -20032,24 +20031,42 @@
     "new": 7,
     "gpt_score": -0.55,
     "gpt_confidence": 0.67
+   },
+   {
+    "ts": 1793955776170,
+    "score": -0.4,
+    "confidence": 0.55,
+    "reason": "",
+    "new": 12,
+    "gpt_score": -0.45,
+    "gpt_confidence": 0.62
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 59
+   "n": 60
   },
   "news_seen": [
+   "Gold price drops by Tk 2,741 per Bhori - The Financial Express",
    "UK jailing of Indian sailor over Russia sanctions sets off \u2018perfect storm\u2019 - Al Jazeera",
+   "Gold May Hit Rs 1.68 Lakh Amid Global Uncertainty: Report - Rediff MoneyWiz",
    "Somalia's top court rejects president's term extension amid political crisis",
+   "Iran war latest: Tehran reportedly sent nuclear proposal to the US via Qatar - thenationalnews.com",
+   "Australian Dollar Slips as RBA Signals Potential Pause - TradingPedia",
    "Trump to Decide Soon on Resuming War Against the Islamic Republic - IranWire",
    "Gold falls below $4,050 as dollar rebounds after post-election rally - Investing.com",
+   "24k gold coin buying on Dhanteras 2026: Instamart and Blinkit offer discounts on pure gold coins from diff - The Economic Times",
+   "Dhanteras 2026: Gold delivered 11.4% annual returns over 40 years. Here's what investors should know - Moneycontrol.com",
    "Goldman lowers year-end gold price forecast on hawkish Fed shift - Investing.com",
+   "Japanese Yen: Bullish bias within 157.00\u2013159.00 band against US Dollar \u2013 UOB - FXStreet",
+   "US sanctions five Cuban tankers in fresh crackdown on oil shipping networks - Splash247",
    "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
    "Inflation Just Hit 3.7%. History Says to Own Companies That Can Do This 1 Thing. - Yahoo Finance",
    "Gold draws renewed interest as Korean stocks tumble after US midterms - The Korea Times",
-   "Gold Royalty Corp (GROY) Q3 2026 Earnings Call Highlights: Record Revenue, Tripled EBITDA and a ... By GuruFocus - Investing.com Canada",
+   "4 Arab States Condemn Houthi Missile Attack on Madinah Region - https://houseofsaud.com/",
    "US mortgage rates fall a 3rd week - The Arkansas Democrat-Gazette",
    "Gold, Silver Prices Decline In Futures Trade Amid Weak Demand - Deccan Chronicle",
+   "New Zealand Dollar depreciates as US Dollar gains ahead of Nonfarm Payrolls - FXStreet",
    "Firms told to publish salaries in job adverts ahead of new law",
    "Markets fret over growth and inflation, just as tech rout gains speed - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Major construction ongoing near Iran missile bases, satellite images suggest",
@@ -20067,28 +20084,17 @@
    "War update: 188 combat engagements on front line over past day - Ukrinform",
    "Gold, silver fall offers scope for 15-35% gains by next Dhanteras: Analysts - Business Standard",
    "Putin has shown no willingness to end Ukraine war, says Mike Pompeo - The Ukrainian Weekly",
+   "Gold Royalty Corp (GROY) Q3 2026 Earnings Call Highlights: Record Revenue, Tripled EBITDA and a ... - Yahoo Finance",
    "Trump Administration Held Talks with Iran on Deporting Iranians During War - ASHARQ AL-AWSAT English",
    "Putin-Linked Figures Profit as Russia\u2019s Prosthetics Industry Booms, Generating \u20ac202 Million in 2025 - Kyiv Post",
    "Oregon sanctions girls' flag football as participation soars nationwide - KATU",
    "US Dollar Could Turn Political Turmoil Into Its Next Rally. Forecast as of 06.11.2026 - LiteFinance",
    "Goldman Sachs sharply cuts its gold price target! Central bank gold purchases cannot offset the Federal Reserve's hawkish shift; the current landscape closely resembles that of 2022. - \u5bcc\u9014\u725b\u725b",
    "Guyana welcomes US sanctions against network accused of fraudulent use of national flag - Caribbean National Weekly",
-   "Gold and Silver Prices Today, 6 November 2026: Check 22K, 24K Gold and Silver Rates in Major Cities - India Infoline",
-   "Two \u2018lame ducks\u2019 and the risk of another war with Iran - Ynetnews",
-   "Heavy missiles will decide Ukraine\u2019s war - GIS Reports",
-   "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP - FXEmpire",
-   "Myanmar civil war: after supporting 500 Journalists, RSF continues its work through emergency assistance and radio broadcasting - RSF",
-   "Yen retreats from weekly high as dollar steadies ahead of US jobs report - Economies.com",
-   "Canadian Dollar weakens ahead of US, Canadian jobs data releases - FXStreet",
-   "U.S. Dollar Rises 0.1% Against Yen to 158.115 in 24 Hours - TOKENPOST",
-   "1.3500: Might act as key barrier for GBP/USD on US NFP day - www.tmgm.com",
-   "War Eagles stuff Tigers to end regular season - Laurel Leader-Call",
-   "Macau jails pro-democracy campaigner in city's first national security case"
+   "Gold prices fall - VnExpress International"
   ]
  },
  "log": [
-  "05.11 09:17 N  NEWS (4 new) score +0.40 conf 0.50: ",
-  "05.11 09:17 N  GPT  score +0.38 conf 0.58: Demokratlar\u0131n Kongre zaferi sonras\u0131 dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrece\u011fi a\u00e7\u0131klamas\u0131 da g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak alt\u0131n haber ak\u0131\u015f\u0131yla zaten sert y\u00fckselmi\u015f g\u00f6r\u00fcn\u00fcyor ve k\u0131sa vadede k\u00e2r sat\u0131\u015flar\u0131 riski var.",
   "05.11 09:17 B5  LONG gold 25000 USD x10 @ 4121.76 (TP 4134.13, SL 4113.52; news +0.39)",
   "05.11 09:46 N  NEWS (14 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar ve Treasury getirileri d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici. Ayr\u0131ca \u0130ran sava\u015f\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fc haberleri jeopolitik risk primini canl\u0131 tutuyor. Ancak y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 05:24 civar\u0131nda zaten fiyatland\u0131 ve baz\u0131 analizler diren\u00e7 seviyelerinde sat\u0131\u015f bask\u0131s\u0131na dikkat \u00e7ekiyor; \u0130ngiltere Merkez Bankas\u0131'n\u0131n faiz art\u0131rma beklentisi ise s\u0131k\u0131la\u015fma y\u00f6n\u00fcnden bir bask\u0131 unsuru.",
   "05.11 09:46 N  GPT  score +0.68 conf 0.69: Demokratlar\u0131n ara se\u00e7imlerdeki ba\u015far\u0131s\u0131n\u0131n ard\u0131ndan dolar ve Hazine getirilerinin gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 haberlerde \u015fimdiden fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve siyasi etkiler belirsiz.",
@@ -20386,7 +20392,9 @@
   "06.11 11:38 N  NEWS (7 new) score -0.35 conf 0.50: Dolar toparlanmas\u0131 ve alt\u0131n fiyat\u0131n\u0131n 4.050 dolar\u0131n alt\u0131na d\u00fc\u015fmesi, Goldman'\u0131n Fed'in \u015fahin duru\u015fu nedeniyle hedefi k\u0131rpmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Ancak \u0130ran sava\u015f\u0131 ve Ukrayna gibi jeopolitik riskler s\u00fcr\u00fcyor, ayr\u0131ca ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi \u00f6ncesi y\u00f6n belirsiz oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "06.11 11:38 N  GPT  score -0.45 conf 0.58: Dolar\u0131n istihdam verisi \u00f6ncesinde g\u00fc\u00e7lenmesiyle alt\u0131n\u0131n 4.050 dolar\u0131n alt\u0131na gerilemesi, \u00f6n\u00fcm\u00fczdeki saatler i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. Ukrayna sava\u015f\u0131na ili\u015fkin belirsizlik g\u00fcvenli liman talebini destekleyebilir; ancak bu haberler yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve y\u00f6n\u00fc s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde deng",
   "06.11 11:50 N  NEWS (7 new) score -0.30 conf 0.50: Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hafif negatif: Goldman'\u0131n Fed'in \u015fahin tutumu nedeniyle y\u0131l sonu alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi ve dolar\u0131n toparlanmas\u0131 alt\u0131na bask\u0131 yap\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131n\u0131n yeniden ba\u015flayabilece\u011fine dair haberler ve Kore borsas\u0131ndaki sert d\u00fc\u015f\u00fc\u015f g\u00fcvenli liman talebini bir miktar destekliyor; bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
-  "06.11 11:50 N  GPT  score -0.55 conf 0.67: K\u0131sa vadede dolar\u0131n toparlanmas\u0131, alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi bask\u0131n; Goldman\u2019\u0131n tahmin indirimi de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran\u2019da sava\u015f\u0131n yeniden ba\u015flamas\u0131 ihtimali g\u00fcvenli liman talebini art\u0131rabilir, ancak haber belirsiz ve ilk piyasa tepkisi a\u015fa\u011f\u0131 y\u00f6nl\u00fc."
+  "06.11 11:50 N  GPT  score -0.55 conf 0.67: K\u0131sa vadede dolar\u0131n toparlanmas\u0131, alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi bask\u0131n; Goldman\u2019\u0131n tahmin indirimi de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran\u2019da sava\u015f\u0131n yeniden ba\u015flamas\u0131 ihtimali g\u00fcvenli liman talebini art\u0131rabilir, ancak haber belirsiz ve ilk piyasa tepkisi a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
+  "06.11 12:02 N  NEWS (12 new) score -0.40 conf 0.55: ",
+  "06.11 12:02 N  GPT  score -0.45 conf 0.62: Alt\u0131n\u0131n 4.050 dolar\u0131n alt\u0131na d\u00fc\u015fmesi ve dolar\u0131n g\u00fc\u00e7lenmesi, Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisiyle \u00f6n\u00fcm\u00fczdeki saatlerde bask\u0131n\u0131n s\u00fcrmesine i\u015faret ediyor. \u0130ran\u2019\u0131n ABD\u2019ye n\u00fckleer teklif g\u00f6nderdi\u011fi haberi gerilimi azaltabilir; di\u011fer jeopolitik riskler ise d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -30507,6 +30515,10 @@
    [
     1793955585,
     4963.78
+   ],
+   [
+    1793955777,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -40555,6 +40567,10 @@
    [
     1793955585,
     4975.18
+   ],
+   [
+    1793955777,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -50569,6 +50585,10 @@
    [
     1793955585,
     4993.28
+   ],
+   [
+    1793955777,
+    4993.28
    ]
   ]
  },
@@ -60420,6 +60440,10 @@
    [
     1793955585,
     4969.22
+   ],
+   [
+    1793955777,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -69915,6 +69939,10 @@
    ],
    [
     1793955585,
+    4630.23
+   ],
+   [
+    1793955777,
     4630.23
    ]
   ],
@@ -80003,6 +80031,10 @@
    [
     1793955585,
     108259.6
+   ],
+   [
+    1793955777,
+    108259.6
    ]
   ],
   "open": {},
@@ -88109,6 +88141,10 @@
    ],
    [
     1793955585,
+    5007.68
+   ],
+   [
+    1793955777,
     5007.68
    ]
   ],
