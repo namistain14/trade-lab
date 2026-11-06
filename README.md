@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 18:11 (İstanbul)
+> Son güncelleme: 06.11.2026 18:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -65,29 +65,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1078.54 $ | +4801.20 $ |
-| İşlem sayısı | 1 | 22 |
-| Kazanma oranı | %0.0 | %50.0 |
+| Net kâr/zarar | +591.54 $ | +6471.28 $ |
+| İşlem sayısı | 2 | 23 |
+| Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,804.39 $** (başlangıç 100,000 $, +8804.39 $ / %+8.80)
+**Hesap değeri: 109,665.57 $** (başlangıç 100,000 $, +9665.57 $ / %+9.67)
 
-Açık pozisyonlar: QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
+Açık pozisyonlar: QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 18:14 | TSLA | long | +1670.08 $ | take profit |
 | 06.11 17:56 | AAPL | short | -1078.54 $ | stop |
 | 05.11 23:46 | SPY | short | +582.01 $ | seans sonu |
 | 05.11 23:46 | QQQ | short | +576.72 $ | seans sonu |
 | 05.11 23:46 | NVDA | short | +1215.36 $ | seans sonu |
-| 05.11 23:46 | AAPL | long | +93.44 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-06.11 17:43 B6  karar turu: Claude «Beklentileri aşan istihdam verisi ve teknoloji satışlarının ardından gelen dip alımı, piyasada kısa vadeli pozitif bir hava yaratıyor.» / GPT «Piyasa kısa vadede yukarı eğilimli ancak sert teknoloji sıçramaları ve dört kat kaldıraç nedeniyle hareketi kovalamadan seçici işlem yapılmalı.»
 06.11 17:43 B6  AÇIĞA SATIŞ AAPL 319 adet ≈ 108,297 $ (1:4) @ 339.49 (TP 334.4, SL 342.88; ikisi de hemfikir, güven 0.50)
 06.11 17:43 B6  ALIŞ TSLA 307 adet ≈ 108,586 $ (1:4) @ 353.7 (TP 359.01, SL 350.16; ikisi de hemfikir, güven 0.45)
 06.11 17:47 B5  CLOSE short stop: -55.94 USD
@@ -102,6 +101,7 @@ Son işlemler:
 06.11 18:08 N  GPT  score -0.45 conf 0.65: Beklentileri aşan istihdam verisi Fed’in faizleri yüksek tutacağı beklentisini ve doları destekleyerek kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve tankere yönelik saldırı güvenli liman talebini artırabilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı çelişkili.
 06.11 18:08 B6  karar turu: Claude «Güçlü istihdam ve Michigan verileriyle teknoloji öncülüğünde riskli varlık iştahı sürüyor, ancak sabah rallisinin ardından endekslerde kısa vadeli soğuma ve yatay seyir görülüyor.» / GPT «Endeksler günlük bazda güçlü olsa da son barlardaki geri çekilme yeni uzun pozisyonları kovalamak yerine seçici kısa işlemleri destekliyor.»
 06.11 18:11 B5  CLOSE short stop: -55.94 USD
+06.11 18:14 B6  CLOSE long TSLA take profit: +1670.08 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
