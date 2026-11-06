@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 09:46 (İstanbul)
+> Son güncelleme: 06.11.2026 09:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %40.4 |
 | Ödenen komisyon/spread | 59.20 $ | 676.66 $ |
 
-**Hesap değeri: 4,684.07 $** (başlangıç 5,000 $, -315.93 $ / %-6.32)
+**Hesap değeri: 4,679.31 $** (başlangıç 5,000 $, -320.69 $ / %-6.41)
 
 Açık pozisyonlar: PAXGUSDT short @ 4043.78 (TP 4031.65 / SL 4051.87)
 
-Son haber analizi (06.11 09:36): Claude puan **-0.15**, güven 0.40 — Dolar endeksi NFP öncesinde toparlanıyor ve enflasyon/Fed riski sürüyor; İran'da barış ilerlemesi jeopolitik güvenli liman talebini zayıflatıyor. Öte yandan ABD ara seçim sonucu ve küresel teknoloji hisselerindeki sert düşüş risk-off etkisiyle altını kısmen destekleyebilir; bu karışık tablo nedeniyle sinyal zayıf.
+Son haber analizi (06.11 09:49): Claude puan **-0.15**, güven 0.40 — Altın, dolar endeksinin (DXY ~101,8) NFP öncesi toparlanması ve yerel piyasalarda art arda düşüşlerle baskı altında. Jeopolitik risk (İran savaşı) ve ara dönüş beklentileri (WGC "interim bottom") olsa da, petrol fiyatlarının gevşemesi ve Fed riski altın için kısa vadede net olumsuz bir tablo çiziyor; sinyaller karışık olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.22**, güven 0.38 — Doların istihdam verisi öncesinde toparlanması ve altındaki düşüş haberleri kısa vadede baskı yönünde; ancak veri henüz açıklanmadı ve jeopolitik riskler aşağı yönü sınırlayabilir. ABD ara seçimlerinin altın için hafif olumlu görüldüğüne dair yeni yorum bu baskıyı kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.28**, güven 0.39 — Dolar endeksinin istihdam verisi öncesinde toparlanması ve altındaki düşüş haberleri kısa vadede baskı yaratıyor. İran kaynaklı belirsizlik ve teknoloji hisselerindeki sert düşüş güvenli liman talebini destekleyebilir; ancak haber akışı karışık ve belirgin yeni bir tırmanış yok.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 08:24 N  GPT  score -0.22 conf 0.38: Doların güvenli liman talebiyle güçlenmesi ve NFP öncesi temkin, kısa vadede altına baskı yapabilir. İran konusunda barış beklentileri ve riskten kaçışın altını destekleyebilmesi sinyalleri karıştırıyor; yön güveni düşük.
-06.11 08:35 N  NEWS (13 new) score -0.35 conf 0.50: Dolar endeksi (DXY) 101,80'e yükselerek NFP öncesi toparlanıyor ve altın piyasalarında düşüş görülüyor. İran savaşında barış beklentileri ve petrol fiyatlarının gevşemesi güvenli liman talebini zayıflatıyor, enflasyon endişeleri ise Fed'in sıkı kalma beklentisini destekliyor. Öte yandan WGC'nin altında dip yakın olabileceği ve NFP'nin ücret artışlarında yavaşlama öngörmesi kısmi bir destek sunuyor; bu nedenle sinyal orta düzeyde negatif ama net değil.
 06.11 08:35 N  GPT  score -0.30 conf 0.55: DXY’nin NFP öncesi toparlanması ve güçlü istihdam beklentisi, Fed’in daha sıkı kalabileceği algısıyla altını kısa vadede baskılıyor; altındaki düşüş haberleri de bu görünümü destekliyor. İran kaynaklı riskler güvenli liman talebi yaratabilir ancak barış ve petrol haberleri çelişkili, NFP öncesi yön 
 06.11 08:47 N  NEWS (13 new) score -0.40 conf 0.60: Altın üzerindeki baskı kısa vadede ağırlıklı olarak negatif: DXY 101.80'e toparlanıyor, ABD NFP öncesi dolar talebi artıyor, AI kaynaklı piyasa satışı ve Asya'da güvenli liman arayışı dolara ve yene akıyor, Iran savaşında barış ilerlemesi jeopolitik risk primini azaltıyor. WGC'nin "dip yakın olabilir" yorumu ve enflasyon/büyüme endişeleri destekleyici olsa da, bunlar mevcut düşüş momentumunu hemen tersine çevirecek güçte değil; düşüş haberlerinin çoğu zaten fiyatlanmış durumda.
 06.11 08:47 N  GPT  score -0.35 conf 0.57: Yapay zekâ kaynaklı piyasa satışları dolara güvenli liman talebini artırıyor; DXY’nin yükselişi ve altın fiyatlarındaki düşüş kısa vadede baskı yaratıyor. İran savaşı belirsizliği altına destek olabilir, ancak yaklaşan ABD istihdam verisi yönü netleştirmeyi zorlaştırıyor.
@@ -102,6 +100,8 @@ Son işlemler:
 06.11 09:30 B5  SHORT gold 25000 USD x10 @ 4043.78 (TP 4031.65, SL 4051.87; news -0.25)
 06.11 09:36 N  NEWS (4 new) score -0.15 conf 0.40: Dolar endeksi NFP öncesinde toparlanıyor ve enflasyon/Fed riski sürüyor; İran'da barış ilerlemesi jeopolitik güvenli liman talebini zayıflatıyor. Öte yandan ABD ara seçim sonucu ve küresel teknoloji hisselerindeki sert düşüş risk-off etkisiyle altını kısmen destekleyebilir; bu karışık tablo nedeniyle sinyal zayıf.
 06.11 09:36 N  GPT  score -0.22 conf 0.38: Doların istihdam verisi öncesinde toparlanması ve altındaki düşüş haberleri kısa vadede baskı yönünde; ancak veri henüz açıklanmadı ve jeopolitik riskler aşağı yönü sınırlayabilir. ABD ara seçimlerinin altın için hafif olumlu görüldüğüne dair yeni yorum bu baskıyı kısmen dengeliyor.
+06.11 09:49 N  NEWS (5 new) score -0.15 conf 0.40: Altın, dolar endeksinin (DXY ~101,8) NFP öncesi toparlanması ve yerel piyasalarda art arda düşüşlerle baskı altında. Jeopolitik risk (İran savaşı) ve ara dönüş beklentileri (WGC "interim bottom") olsa da, petrol fiyatlarının gevşemesi ve Fed riski altın için kısa vadede net olumsuz bir tablo çiziyor; sinyaller karışık olduğu için güven düşük.
+06.11 09:49 N  GPT  score -0.28 conf 0.39: Dolar endeksinin istihdam verisi öncesinde toparlanması ve altındaki düşüş haberleri kısa vadede baskı yaratıyor. İran kaynaklı belirsizlik ve teknoloji hisselerindeki sert düşüş güvenli liman talebini destekleyebilir; ancak haber akışı karışık ve belirgin yeni bir tırmanış yok.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
