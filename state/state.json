@@ -4621,6 +4621,10 @@
    [
     1793974581,
     5000.0
+   ],
+   [
+    1793974773,
+    5000.0
    ]
   ],
   "archive": [
@@ -18193,43 +18197,38 @@
    [
     1793974581,
     4868.5
+   ],
+   [
+    1793974773,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.7,
-   "reason": "Beklentilerin \u00fczerindeki g\u00fc\u00e7l\u00fc ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi (165 bin, i\u015fsizlik %4,1) dolar ve tahvil getirilerini y\u00fckseltti; bu, Fed'in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi s\u00fcrse de, bu etki faiz ve dolar kanal\u0131n\u0131n gerisinde kal\u0131yor; baz\u0131 eski ve \u00e7eli\u015fkili alt\u0131n haberleri g\u00fcveni biraz azalt\u0131yor.",
+   "score": -0.5,
+   "confidence": 0.6,
+   "reason": "G\u00fc\u00e7l\u00fc ABD istihdam verisi (165 bin i\u015f, i\u015fsizlik %4.1) Fed'in Aral\u0131k'ta faiz art\u0131rma ihtimalini canland\u0131rd\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etki. \u0130ran sava\u015f\u0131 ve jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon giri\u015fimleri ve Goldman'\u0131n alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
    "n": 45,
-   "ts": 1793974051584,
-   "new_headlines": 14,
+   "ts": 1793974772339,
+   "new_headlines": 18,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.68,
-    "confidence": 0.74,
-    "reason": "Beklentiyi a\u015fan istihdam ve i\u015fsizlik oran\u0131ndaki d\u00fc\u015f\u00fc\u015f dolar ile tahvil getirilerini y\u00fckselterek alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 olu\u015fturuyor. \u0130ran kaynakl\u0131 g\u00fcvenli liman talebi bu d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki kesin de\u011fil.",
+    "score": -0.4,
+    "confidence": 0.68,
+    "reason": "Beklentiyi a\u015fan istihdam ve i\u015fsizlikteki d\u00fc\u015f\u00fc\u015f, Fed\u2019in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 ve dolar talebini y\u00fckselterek k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. K\u00f6rfez\u2019deki \u00f6l\u00fcmc\u00fcl tanker sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve karma haber ak\u0131\u015f\u0131 g\u00fcveni azalt\u0131yor.",
     "key_events": [
-     "ABD istihdam\u0131 beklentiyi a\u015ft\u0131; dolar ve getiriler y\u00fckseldi",
-     "\u0130ran sava\u015f\u0131 ve tanker sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir",
-     "Alt\u0131nda ve piyasa haberlerinde z\u0131t y\u00f6nl\u00fc sinyaller"
+     "ABD\u2019de istihdam beklentiyi a\u015ft\u0131, i\u015fsizlik geriledi",
+     "Fed faiz art\u0131r\u0131m\u0131 bahisleri y\u00fckseldi",
+     "K\u00f6rfez\u2019de tanker sald\u0131r\u0131s\u0131nda bir denizci \u00f6ld\u00fc"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793713082865,
-    "score": -0.15,
-    "confidence": 0.4,
-    "reason": "ABD'nin \u0130ran'\u0131n Qeshm adas\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131 riski g\u00fcvenli liman talebini destekliyor, ancak merkez bankalar\u0131n\u0131n Aral\u0131k'ta s\u0131k\u0131la\u015ft\u0131rma sinyali vermesi reel faiz ve Fed beklentileri \u00fczerinden alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n son saatlerdeki d\u00fc\u015f\u00fc\u015f\u00fc ve dolar kar\u0131\u015f\u0131k seyri nedeniyle net etki hafif negatif, sinyal kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 18,
-    "gpt_score": 0.32,
-    "gpt_confidence": 0.48
-   },
    {
     "ts": 1793713803682,
     "score": -0.4,
@@ -20920,21 +20919,45 @@
     "new": 14,
     "gpt_score": -0.68,
     "gpt_confidence": 0.74
+   },
+   {
+    "ts": 1793974772339,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "G\u00fc\u00e7l\u00fc ABD istihdam verisi (165 bin i\u015f, i\u015fsizlik %4.1) Fed'in Aral\u0131k'ta faiz art\u0131rma ihtimalini canland\u0131rd\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etki. \u0130ran sava\u015f\u0131 ve jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon giri\u015fimleri ve Goldman'\u0131n alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
+    "new": 18,
+    "gpt_score": -0.4,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 85
+   "n": 86
   },
   "news_seen": [
+   "Dhanteras Gold Sales Volumes Marginally Down, Value Up - Deccan Chronicle",
+   "Ukraine seeks Norwegian funding for war risk insurance - Business Insurance",
+   "How the Iran war is changing the renewable energy landscape - Mezha.net",
+   "Inflation, tariffs and a voter revolt: The midterm verdict on Trump's economy - Hays Post",
+   "At Odesa\u2019s opera house, the show goes on despite missile alerts and drone attacks - The Irish Times",
+   "SALUTE TO VETERANS | Iraq War veteran helps others with benefits - West Linn Tidings",
+   "Construction continues on the US Federal Reserve building in Washington - The Daily News | Texas' Oldest Newspaper",
+   "Precious metals, resources benefit from geopolitical tailwinds - The Globe and Mail",
+   "US job growth tops expectations in October - France 24",
    "U.S. Special Operators Order New Guided Shoulder-fired Missile - Aviation Week",
    "US employers added a surprising 165,000 jobs in October; unemployment rate dipped to 4.1% - WTOP News",
    "Spotlight on USask History: Recollections of War - University of Saskatchewan",
-   "BREAKING: US NFP much stronger than expected \ud83d\udcc8 US Dollar and treasuries yields surge - XTB.com",
    "US job growth beats expectations in October; unemployment rate falls to 4.1% - Merced Sun-Star",
+   "Blockbuster October jobs report keeps Fed rate hike in play for December - AOL.com",
    "Jobs blowout shows strength of Trump economy, but wages trail inflation - Politico",
-   "U.S. adds 165,000 jobs, but wage growth struggles to keep up with inflation - News 5 Cleveland WEWS",
+   "U.S. adds 165,000 jobs, but wage growth struggles to keep up with inflation - AOL.com",
+   "Traders raise bets of Fed rate hike after jobs report - Raleigh News & Observer",
    "Trump Jr. blames Iran war for Republican midterm defeat, rejects criticism of father's policies - Ynetnews",
+   "Carlin Gold (TSXV:CGD) Drops 9.92%: Royalty Spin-Out Proposal and Nevada Exploration Timelines Weigh on Sentiment - kalkine.ca",
+   "One seafarer killed in missile attack on tanker in Gulf - The Jerusalem Post",
+   "Gas Attacks - National Review",
+   "Traders raise bets of Fed rate hike after jobs report - Central Oregon Daily",
+   "Euro and sterling fall as dollar strengthens ahead of US employment report - Economies.com",
    "One seafarer killed in missile attack on tanker in Gulf - Reuters",
    "Jay Rockefeller, heir to famed dynasty and healthcare advocate in Senate, dies at 89 - NBC News",
    "China puts DF-61 intercontinental nuclear missile into regular drills - Interesting Engineering",
@@ -20947,7 +20970,7 @@
    "Machina Selected by U.S. Department of War to Deploy Expeditionary Robotic Factories for LUCAS Manufacturing - Yahoo Finance",
    "Galiano expects cash boost as costly gold hedges expire - MiningMX",
    "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
-   "The Latest: Trump concedes Iran war impact on elections but insists he\u2019d \u2018do it again\u2019 - Audacy",
+   "The Latest: Trump concedes Iran war impact on elections but insists he\u2019d \u2018do it again\u2019 | National News | 2news.com - KTVN",
    "Russia\u2019s economy is suffering under the weight of war and sanctions. So why is the ruble still one of the world\u2019s strongest currencies? - Meduza",
    "Gold Price Today Surges 4.31% to $4,107\u2014Still 25% Below Its 52-Week High - The Cryptonomist",
    "Gold price prediction: Gold rate falls amidst big movement in oil price, inflation, check experts' opinion - The Economic Times",
@@ -20956,27 +20979,10 @@
    "Ringgit slips against US dollar amid global risk-off sentiment - The Malaysian Reserve",
    "Goldman Sachs lowered its gold price forecast as Fed turns hawkish - Quartz",
    "Opinion | How to de-escalate the gerrymandering war - The Washington Post",
-   "Gold goes digital on Dhanteras as NSE clocks 1.8 lakh EGR trades in one day - The Economic Times",
-   "Trump left with \u2018no good options\u2019 to end Iran war after US midterms defeat - South China Morning Post",
-   "European Far Right Reconsiders Trump Alliance Amid War-Driven Economic Turmoil - \u062a\u0633\u0646\u06cc\u0645",
-   "EU expands Ukraine sanctions push with new office and crypto task force - The Kyiv Independent",
-   "Palestinian woman uses Turkish skills to help war-stricken families | Daily Sabah - Daily Sabah",
-   "US inflation too high; essential to get back to 2%: Fed's Williams - Kitco",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - weareiowa.com",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - wtol.com",
-   "NATO seeks \u2018just\u2019 end to Ukraine war as Trump touts deal involving Europe - Macau Business",
-   "Gold price forecast cut by Goldman Sachs due to expected Fed rate hikes, now $4,150/oz by end of 2026. - Pluang",
-   "Gold Prices Drop Rs 2,500 on Dhanteras Amid Weak Demand - Rediff MoneyWiz",
-   "Dollar Rises as AI Stock Selloff Spurs Safe-Haven Flows; Payrolls in Focus - News and Statistics - IndexBox",
-   "Prediction: This epic Holy War between BYU and Utah will be decided by two words - killer instinct - Lawless Republic",
-   "War season 1 episode 2 recap: Mediation is for losers - Show Snob",
-   "Vietnam War author talk slated at Matheson History Museum on Nov. 11 - Mainstreet Daily News Gainesville",
-   "Gold prices plunge by Rs6,500 per tola in Pakistan - The Nation (Pakistan )"
+   "Gold goes digital on Dhanteras as NSE clocks 1.8 lakh EGR trades in one day - The Economic Times"
   ]
  },
  "log": [
-  "05.11 17:08 N  GPT  score -0.22 conf 0.48: Hammack\u2019in enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in k\u0131s\u0131tlay\u0131c\u0131 faizlerin s\u00fcrmesi ve kademeli faiz art\u0131\u015flar\u0131n\u0131 desteklemesi, k\u0131sa vadede alt\u0131n i\u00e7in olumsuz; dolar\u0131n y\u00fckseli\u015fi de bask\u0131y\u0131 art\u0131rabilir. \u0130ran \u00e7evresindeki sava\u015f ve f\u00fcze haberleri g\u00fcvenli liman talebini desteklese de etkiler \u00e7eli\u015fkili ve haberlerin bir k\u0131",
-  "05.11 17:36 N  NEWS (17 new) score +0.02 conf 0.35: Haberler kar\u0131\u015f\u0131k: Fed'li Hammack ve BoE'nin faiz art\u0131r\u0131m\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131, ancak y\u00fckselen jobless claims, d\u00fc\u015fen tahviller ve yumu\u015fayan i\u015fg\u00fcc\u00fc maliyetleri alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 ve jeopolitik risk ise g\u00fcvenli liman talebini art\u0131rabilir. Fiyatlar 4.100 dolar\u0131n \u00fczerinde tutundu\u011fu i\u00e7in net etki yakla\u015f\u0131k n\u00f6tr.",
   "05.11 17:36 N  GPT  score -0.15 conf 0.42: Fed yetkilisi Hammack\u2019\u0131n k\u0131s\u0131tlay\u0131c\u0131 politika ve kademeli faiz art\u0131r\u0131m\u0131 vurgusu alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yaratabilir. Ancak d\u00fc\u015fen getiriler, zay\u0131flayan i\u015fg\u00fcc\u00fc maliyetleri ve artan i\u015fsizlik ba\u015fvurular\u0131 alt\u0131n\u0131 destekleyerek g\u00f6r\u00fcn\u00fcm\u00fc dengeliyor.",
   "05.11 17:36 B6  karar turu: Claude \u00ab\u015eahin Fed a\u00e7\u0131klamalar\u0131 ve yapay zeka/\u00e7ip sat\u0131\u015f\u0131yla teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk i\u015ftah\u0131 kayb\u0131 ya\u015fan\u0131yor; geni\u015f piyasa hen\u00fcz tam yeti\u015fmemi\u015f g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab\u015eahin Fed s\u00f6ylemleriyle teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f bask\u0131s\u0131 bask\u0131n; d\u00f6rt kat kald\u0131ra\u00e7ta ili\u015fkili k\u0131sa pozisyonlar\u0131n toplam riski birlikte s\u0131n\u0131rland\u0131r\u0131lmal\u0131.\u00bb",
   "05.11 17:36 B6  ALI\u015e AAPL 299 adet \u2248 105,696 $ (1:4) @ 353.5 (TP 358.8, SL 349.96; ikisi de hemfikir, g\u00fcven 0.45)",
@@ -21274,7 +21280,9 @@
   "06.11 17:07 N  NEWS (14 new) score -0.60 conf 0.70: Beklentilerin \u00fczerindeki g\u00fc\u00e7l\u00fc ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi (165 bin, i\u015fsizlik %4,1) dolar ve tahvil getirilerini y\u00fckseltti; bu, Fed'in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi s\u00fcrse de, bu etki faiz ve dolar kanal\u0131n\u0131n gerisinde kal\u0131yor; baz\u0131 eski ve \u00e7eli\u015fkili alt\u0131n haberleri g\u00fcveni biraz azalt\u0131yor.",
   "06.11 17:07 N  GPT  score -0.68 conf 0.74: Beklentiyi a\u015fan istihdam ve i\u015fsizlik oran\u0131ndaki d\u00fc\u015f\u00fc\u015f dolar ile tahvil getirilerini y\u00fckselterek alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 olu\u015fturuyor. \u0130ran kaynakl\u0131 g\u00fcvenli liman talebi bu d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir; haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan etki kesin de\u011fil.",
   "06.11 17:10 B5  CLOSE short take profit: +69.09 USD",
-  "06.11 17:16 B5  SHORT gold 25000 USD x10 @ 4022.34 (TP 4010.27, SL 4030.38; news -0.64)"
+  "06.11 17:16 B5  SHORT gold 25000 USD x10 @ 4022.34 (TP 4010.27, SL 4030.38; news -0.64)",
+  "06.11 17:19 N  NEWS (18 new) score -0.50 conf 0.60: G\u00fc\u00e7l\u00fc ABD istihdam verisi (165 bin i\u015f, i\u015fsizlik %4.1) Fed'in Aral\u0131k'ta faiz art\u0131rma ihtimalini canland\u0131rd\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesine yol a\u00e7t\u0131; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etki. \u0130ran sava\u015f\u0131 ve jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon giri\u015fimleri ve Goldman'\u0131n alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
+  "06.11 17:19 N  GPT  score -0.40 conf 0.68: Beklentiyi a\u015fan istihdam ve i\u015fsizlikteki d\u00fc\u015f\u00fc\u015f, Fed\u2019in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 ve dolar talebini y\u00fckselterek k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. K\u00f6rfez\u2019deki \u00f6l\u00fcmc\u00fcl tanker sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve karma haber ak\u0131\u015f\u0131 g\u00fcveni azalt\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -31839,6 +31847,10 @@
    [
     1793974581,
     4963.78
+   ],
+   [
+    1793974773,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -42331,6 +42343,10 @@
    [
     1793974581,
     4975.18
+   ],
+   [
+    1793974773,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -52789,6 +52805,10 @@
    [
     1793974581,
     4993.28
+   ],
+   [
+    1793974773,
+    4993.28
    ]
   ]
  },
@@ -63084,6 +63104,10 @@
    [
     1793974581,
     4969.22
+   ],
+   [
+    1793974773,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -73103,6 +73127,10 @@
    [
     1793974581,
     4706.12
+   ],
+   [
+    1793974773,
+    4714.2
    ]
   ],
   "news_calls": {
@@ -83634,6 +83662,10 @@
    [
     1793974581,
     108259.6
+   ],
+   [
+    1793974773,
+    108259.6
    ]
   ],
   "open": {},
@@ -92132,6 +92164,10 @@
    ],
    [
     1793974581,
+    5007.68
+   ],
+   [
+    1793974773,
     5007.68
    ]
   ],
