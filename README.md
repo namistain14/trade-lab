@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 15:02 (İstanbul)
+> Son güncelleme: 06.11.2026 15:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,573.88 $** (başlangıç 5,000 $, -426.12 $ / %-8.52)
 
-Son haber analizi (06.11 14:53): Claude puan **-0.10**, güven 0.35 — Haberler karışık: Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğunu söylemesi ve doların güçlü seyri altına baskı yaparken, İran savaşı yeniden alevlenme korkuları ile küresel hisse satışı güvenli liman talebini destekliyor. Bekleyen ABD istihdam verisi nedeniyle kısa vadeli oynaklık yüksek olacağından, net etki hafif negatif ve düşük güvenilirlikli.
+Son haber analizi (06.11 15:05): Claude puan **-0.30**, güven 0.50 — Haberler karışık: Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğunu söylemesi ve doların güçlü seyri altına baskı yaparken, İran savaşı yeniden alevlenme korkuları ile küresel hisse satışı güvenli liman talebini destekliyor. Bekleyen ABD istihdam verisi nedeniyle kısa vadeli oynaklık yüksek olacağından, net etki hafif negatif ve düşük güvenilirlikli.
 
-GPT (gpt-6-luna): puan **-0.18**, güven 0.36 — Körfez’de gerilimin azalabileceği haberleri ve Fed yetkilisinin enflasyonun hâlâ yüksek olduğu yönündeki açıklaması altını kısa vadede baskılayabilir. Buna karşılık hisse senetlerindeki sert düşüş ve İran kaynaklı devam eden riskler güvenli liman talebini destekliyor; görünüm karışık.
+GPT (gpt-6-luna): puan **-0.12**, güven 0.35 — Doların NFP öncesinde güçlenmesi ve altındaki düşüş haberleri kısa vadede baskı yaratabilir. Piyasa genelindeki riskten kaçış ve İran gerilimi güvenli liman talebini desteklese de, gerilimin azalabileceğine dair haberler bu etkiyi sınırlıyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 13:40 B5P  GPT  score +0.38 conf 0.52: Hürmüz Boğazı’nda iki tankerin mayına çarparak yanması iddiası, arz kesintisi ve taşımacılık riskini artırarak Brent’i kısa vadede destekliyor. Ancak İran’ın Katar aracılığıyla teklif ilettiği ve gerilimin azalabileceği yönündeki haberler, ayrıca düşüş eğilimi, yükselişin güvenini sınırlıyor.
-06.11 13:52 N  NEWS (14 new) score -0.15 conf 0.30: Haberler karışık: Fed'in Williams'ın enflasyonun hâlâ yüksek olduğu yönündeki sözleri ve ABD dolarının güvenli liman talebiyle desteklenmesi altın için hafif olumsuz; buna karşılık İran'a yönelik üçüncü ABD uçak gemisi haberi jeopolitik risk primini destekliyor. Petrol fiyatlarındaki düşüş ve NFP öncesi eski tarihli "Fed faiz artırımı" beklentisi gibi unsurlar etkiyi dengeliyor, bu yüzden sinyal zayıf ve güven düşük.
 06.11 13:52 N  GPT  score -0.35 conf 0.68: Fed yetkilisinin enflasyonun hâlâ yüksek olduğunu vurgulaması, güçlü dolar ve yükselen tahvil getirileriyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; yaklaşan istihdam verisi de temkinliliği artırıyor. İran savaşı güvenli liman talebini destekleyebilir, ancak gerilimin azalabileceğine dai
 06.11 14:04 N  NEWS (9 new) score -0.30 conf 0.40: Fed'in Williams'ın enflasyonun hâlâ yüksek olduğu yönündeki sözleri ve faiz artırımı beklentilerinin dolara destek vermesi altın için olumsuz. Teknoloji satışıyla gelen dolar güvenli liman talebi de altın lehine güçlü bir sığınak etkisi yaratmıyor; ayrıca petrol düşüşü ve İran'da de-eskalasyon işaretleri jeopolitik prim baskısını artırıyor. Haber akışı karışık olduğu için güven düşük tutuldu.
 06.11 14:04 N  GPT  score -0.25 conf 0.48: Doların güvenli liman talebiyle yükselmesi ve Fed’den Williams’ın enflasyonun hâlâ yüksek olduğunu vurgulaması altını kısa vadede baskılıyor. İran kaynaklı riskler güvenli liman talebini desteklese de gerilimin azalabileceğine dair işaretler ve çelişkili haberler yönü sınırlıyor.
@@ -100,6 +98,8 @@ Son işlemler:
 06.11 14:41 N  GPT  score -0.15 conf 0.48: İran’la savaş korkularının petrol fiyatlarını yükseltmesi altına güvenli liman desteği sağlayabilir. Ancak doların güçlenmesi, Fed’in enflasyon vurgusu ve yaklaşan istihdam verisi öncesindeki temkinlilik kısa vadede bu desteği dengeliyor; net etki hafif negatif.
 06.11 14:53 N  NEWS (9 new) score -0.10 conf 0.35: Haberler karışık: Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğunu söylemesi ve doların güçlü seyri altına baskı yaparken, İran savaşı yeniden alevlenme korkuları ile küresel hisse satışı güvenli liman talebini destekliyor. Bekleyen ABD istihdam verisi nedeniyle kısa vadeli oynaklık yüksek olacağından, net etki hafif negatif ve düşük güvenilirlikli.
 06.11 14:53 N  GPT  score -0.18 conf 0.36: Körfez’de gerilimin azalabileceği haberleri ve Fed yetkilisinin enflasyonun hâlâ yüksek olduğu yönündeki açıklaması altını kısa vadede baskılayabilir. Buna karşılık hisse senetlerindeki sert düşüş ve İran kaynaklı devam eden riskler güvenli liman talebini destekliyor; görünüm karışık.
+06.11 15:05 N  NEWS (3 new) score -0.30 conf 0.50: 
+06.11 15:05 N  GPT  score -0.12 conf 0.35: Doların NFP öncesinde güçlenmesi ve altındaki düşüş haberleri kısa vadede baskı yaratabilir. Piyasa genelindeki riskten kaçış ve İran gerilimi güvenli liman talebini desteklese de, gerilimin azalabileceğine dair haberler bu etkiyi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
