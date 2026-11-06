@@ -4973,6 +4973,10 @@
    [
     1793989801,
     5000.0
+   ],
+   [
+    1793989981,
+    5000.0
    ]
   ],
   "archive": [
@@ -18896,6 +18900,10 @@
    ],
    [
     1793989801,
+    4868.5
+   ],
+   [
+    1793989981,
     4868.5
    ]
   ],
@@ -32895,6 +32903,10 @@
    [
     1793989801,
     4963.78
+   ],
+   [
+    1793989981,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -43739,6 +43751,10 @@
    [
     1793989801,
     4975.18
+   ],
+   [
+    1793989981,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -54549,6 +54565,10 @@
    [
     1793989801,
     4993.28
+   ],
+   [
+    1793989981,
+    4993.28
    ]
   ]
  },
@@ -65196,6 +65216,10 @@
    [
     1793989801,
     4969.22
+   ],
+   [
+    1793989981,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -75614,6 +75638,10 @@
    [
     1793989801,
     4544.23
+   ],
+   [
+    1793989981,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -75821,7 +75849,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 110664.20998400002,
+   "balance": 110666.90998400001,
    "start": 100000.0,
    "positions": [
     {
@@ -75836,7 +75864,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Nasdaq d\u00fc\u015ferken son bir saatte %0.9 y\u00fckselen g\u00f6reli g\u00fc\u00e7 var, diren\u00e7siz y\u00fckseli\u015f trendi s\u00fcr\u00fcyor. | GPT 0.65: Endeksler gerilerken son saatte y\u00fckselmesi ve yak\u0131n zirvelerini korumas\u0131 k\u0131sa vadeli g\u00f6reli g\u00fc\u00e7 avantaj\u0131 sunuyor.",
-     "cur": 344.39
+     "cur": 344.43
     },
     {
      "id": "3f80f949-2027-453b-80bf-f15324935bbf",
@@ -75850,7 +75878,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert sat\u0131\u015f\u0131n ard\u0131ndan yapay zek\u00e2 hisselerinde dip al\u0131m\u0131 s\u00fcr\u00fcyor ve be\u015f dakikal\u0131k kapan\u0131\u015flarda y\u00fckselen dipler olu\u015fuyor. | GPT 0.6: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc performans ve kazan\u0131mlar\u0131n korunmas\u0131, yatayla\u015fma sonras\u0131nda yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 656.78
+     "cur": 658.32
     },
     {
      "id": "5b52f9ae-7491-45a3-8266-ce371cb0d411",
@@ -75864,7 +75892,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 737.32
+     "cur": 738.53
     }
    ],
    "trades": [
@@ -76303,12 +76331,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 1954.95,
+    "pnl": 2349.73,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 110214.55
+   "equity": 110609.33
   },
   "equity_curve": [
    [
@@ -86594,6 +86622,10 @@
    [
     1793989801,
     110214.55
+   ],
+   [
+    1793989981,
+    110609.33
    ]
   ],
   "open": {
@@ -86698,7 +86730,7 @@
   "premarket_day": "2026-11-06",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "124715",
+   "buying_power": "125820.38",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -95530,6 +95562,10 @@
    ],
    [
     1793989801,
+    5007.68
+   ],
+   [
+    1793989981,
     5007.68
    ]
   ],
