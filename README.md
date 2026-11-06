@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 18:54 (İstanbul)
+> Son güncelleme: 06.11.2026 18:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (06.11 18:45): Claude puan **-0.60**, güven 0.65 — Güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4.1) dolar endeksini yukarı itti ve Fed'in Aralık'ta faiz artırımı ihtimalini gündeme getirdi; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı. Savaş kaynaklı güvenli liman talebi ise petrol fiyatlarında barış beklentisi nedeniyle zayıf kalıyor, bu yüzden yukarı destek sınırlı. Gold'un 4.000 dolar desteğine yönelik risk uyarıları ve yüksek enflasyon/hawkish Fed söylemleri aşağı yönlü baskıyı güçlendiriyor.
+Son haber analizi (06.11 18:57): Claude puan **-0.45**, güven 0.60 — Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doların yükselmesine ve Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesine yol açtı; bu, altın için net olarak baskılayıcı. İran savaşı ve yeni saldırı tehdidi güvenli liman talebini destekleyebilir, ancak bu etki haberlerin büyük kısmında zaten fiyatlanmış görünüyor ve jeopolitik kaynaklı yükseliş tek başına hawkish veri etkisini dengelemeyebilir.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.78 — Beklentileri aşan istihdam verisi doları sıçrattı ve Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. Körfez’deki güvenli liman desteği mevcut olsa da bu etkenden daha zayıf görünüyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.64 — Beklentileri aşan istihdam verisi dolar endeksini yükseltti ve Fed’in faizleri daha uzun süre yüksek tutacağı beklentisini güçlendirerek altını kısa vadede baskılıyor. İran’daki tanker saldırıları ve yeni saldırı ihtimali güvenli liman talebini destekleyebilir; bu karşıt etki düşüşü sınırlıyor.
 
 Son işlemler:
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,373.35 $** (başlangıç 100,000 $, +9373.35 $ / %+9.37)
+**Hesap değeri: 109,086.82 $** (başlangıç 100,000 $, +9086.82 $ / %+9.09)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA short @ 189.20 (TP 186.19 / SL 190.92); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 18:11 B5  CLOSE short stop: -55.94 USD
-06.11 18:14 B6  CLOSE long TSLA take profit: +1670.08 USD
-06.11 18:20 N  NEWS (12 new) score -0.50 conf 0.60: Beklenti üstü güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in sıkılaştırma olasılıklarını artırdı ve doların yükselişini destekledi; bu, altın için kısa vadede baskı oluşturur. İran savaşı ve jeopolitik risk güvenli liman talebini desteklese de bu etki büyük ölçüde fiyatlanmış görünüyor ve tüketici enflasyon beklentilerinin gerilemesi sınırlı bir dengeleyici etki yaratıyor.
 06.11 18:20 N  GPT  score -0.65 conf 0.76: Beklentiyi aşan istihdam ve işsizlik oranındaki düşüş, Fed’in daha sıkı kalacağı beklentisini ve dolar talebini güçlendirerek altın üzerinde baskı yaratıyor. İran savaşı kaynaklı riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş etkisi sınırsız değil.
 06.11 18:20 B6  karar turu: Claude «Güçlü istihdam verisi, Michigan güveninin beklentiyi aşması ve İran'la anlaşma umutları, satış dalgası sonrası teknoloji ağırlıklı bir toparlanmayı destekliyor; ancak sert yükselen çip hisselerinde kâr satışı riski var.» / GPT «Güçlü istihdam ve beklenti üzerindeki tüketici güveni risk iştahını destekliyor; ancak uzamış yükselişler ve mevcut SPY/QQQ pozisyonları nedeniyle y
 06.11 18:32 N  NEWS (16 new) score -0.40 conf 0.60: Güçlü ABD istihdam verisi (Ekimde 165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırımı ihtimalini canlandırıyor ve doları destekliyor; Williams ve Musalem'in enflasyon yorumları da şahin tonda. Bu, altın için net olarak baskılayıcı. Gulf'taki tanker saldırısı ve İran savaşı gibi jeopolitik riskler kısmen destekleyici olsa da, bunlar uzun süredir fiyatlanmış haberler olduğundan etkisi sınırlı kalır.
@@ -102,6 +99,9 @@ Son işlemler:
 06.11 18:45 B6  karar turu: Claude «Güçlü istihdam verisi sonrası yükselen piyasa öğle saatlerinde teknoloji ağırlıklı kâr satışıyla zayıflıyor, VIX yüksek ve oynaklık sürüyor.» / GPT «Endekslerdeki saatlik zayıflama ve volatilite artışı temkin gerektirirken, AAPL'de göreli güç ve TSLA'da şirkete özgü olumsuz haber seçici işlem fırsatı sunuyor.»
 06.11 18:45 B6  ALIŞ AAPL 221 adet ≈ 76,046 $ (1:4) @ 344.1 (TP 349.26, SL 340.66; ikisi de hemfikir, güven 0.55)
 06.11 18:45 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"3266.17","code":40310000,"cost_basis":"78164.28","message":"insufficient buying power"}
+06.11 18:57 N  NEWS (9 new) score -0.45 conf 0.60: Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doların yükselmesine ve Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesine yol açtı; bu, altın için net olarak baskılayıcı. İran savaşı ve yeni saldırı tehdidi güvenli liman talebini destekleyebilir, ancak bu etki haberlerin büyük kısmında zaten fiyatlanmış görünüyor ve jeopolitik kaynaklı yükseliş tek başına hawkish veri etkisini dengelemeyebilir.
+06.11 18:57 N  GPT  score -0.35 conf 0.64: Beklentileri aşan istihdam verisi dolar endeksini yükseltti ve Fed’in faizleri daha uzun süre yüksek tutacağı beklentisini güçlendirerek altını kısa vadede baskılıyor. İran’daki tanker saldırıları ve yeni saldırı ihtimali güvenli liman talebini destekleyebilir; bu karşıt etki düşüşü sınırlıyor.
+06.11 18:57 B6  karar turu: Claude «Güçlü istihdam verisi ve AI hisselerinde dipten alım, endekslerin günü yukarıda tutmasını sağlıyor; ancak yüksek VIX nedeniyle oynaklık sürüyor.» / GPT «Endekslerdeki toparlanma alımları desteklese de momentumun yataylaşması ve Tesla'ya özgü olumsuz haber kısa vadeli satış fırsatı sunuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
