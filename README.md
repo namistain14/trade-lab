@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 03:59 (İstanbul)
+> Son güncelleme: 06.11.2026 04:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -111.81 $ | -145.76 $ |
-| İşlem sayısı | 2 | 54 |
-| Kazanma oranı | %0.0 | %42.6 |
-| Ödenen komisyon/spread | 23.66 $ | 641.11 $ |
+| Net kâr/zarar | -167.72 $ | -201.66 $ |
+| İşlem sayısı | 3 | 55 |
+| Kazanma oranı | %0.0 | %41.8 |
+| Ödenen komisyon/spread | 35.49 $ | 652.94 $ |
 
-**Hesap değeri: 4,824.83 $** (başlangıç 5,000 $, -175.17 $ / %-3.50)
-
-Açık pozisyonlar: PAXGUSDT long @ 4095.23 (TP 4107.51 / SL 4087.04)
+**Hesap değeri: 4,798.34 $** (başlangıç 5,000 $, -201.66 $ / %-4.03)
 
 Son haber analizi (06.11 03:55): Claude puan **+0.25**, güven 0.40 — İran savaşının tırmanma riski (Trump'ın saldırı kararını "yakında" açıklaması, Hürmüz patlamaları) altın için güvenli liman talebini destekliyor. Buna karşılık dolar tarafındaki güç, ABD NFP verisi öncesi temkin ve altının zaten haftalık en büyük kazanımlara yakın yükselmesi kazançları sınırlayabilir; bu nedenle sinyal karışık ve orta düzeyde pozitif.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 04:01 | PAXGUSDT | long | -55.91 $ | stop |
 | 06.11 03:47 | PAXGUSDT | long | -55.90 $ | stop |
 | 06.11 02:52 | PAXGUSDT | long | -55.91 $ | stop |
 | 05.11 19:13 | PAXGUSDT | short | -55.93 $ | stop |
 | 05.11 19:03 | PAXGUSDT | short | -55.93 $ | stop |
-| 05.11 18:54 | PAXGUSDT | short | +69.10 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -86,7 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 02:55 N  NEWS (4 new) score +0.15 conf 0.40: 
 06.11 02:55 N  GPT  score +0.25 conf 0.36: İran savaşı ve Hürmüz’deki patlama iddiaları güvenli liman talebini destekleyebilir; ancak görüşmelerin sürmesi ve doların güçlenmesi yükselişi sınırlıyor. NFP öncesinde altının zaten iki haftanın zirvesine yaklaşmış olması kısa vadeli yön konusunda temkini gerektiriyor.
 06.11 03:07 N  NEWS (7 new) score -0.10 conf 0.40: Yeni haberlerde net bir yön yok: Goldman'ın altın tahminlerini Fed'in şahin duruşu nedeniyle düşürmesi ve ABD doları güvenli liman talebinin artması kısa vadede baskı yaratıyor. Buna karşılık İran savaşı ve Hürmüz'deki patlama iddiaları ile teknoloji hisselerindeki sert düşüş jeopolitik ve risk-off talebini destekleyerek altını kısmen dengeliyor; NFP öncesi fiyat zaten ~4.100 seviyesinde olduğu için etki sınırlı kalabilir.
 06.11 03:07 N  GPT  score +0.18 conf 0.31: İran savaşıyla ilgili belirsizlik ve olası gerilim güvenli liman talebini destekleyebilir; ancak doların güvenli liman alımlarıyla yükselmesi altını baskılıyor. Altının zaten yükselmiş olması ve yeni başlıkların çoğunun fiyatlanmış ya da kısa vadede doğrudan etkisiz görünmesi nedeniyle görünüm hafif
@@ -101,6 +98,7 @@ Son işlemler:
 06.11 03:55 N  NEWS (3 new) score +0.25 conf 0.40: İran savaşının tırmanma riski (Trump'ın saldırı kararını "yakında" açıklaması, Hürmüz patlamaları) altın için güvenli liman talebini destekliyor. Buna karşılık dolar tarafındaki güç, ABD NFP verisi öncesi temkin ve altının zaten haftalık en büyük kazanımlara yakın yükselmesi kazançları sınırlayabilir; bu nedenle sinyal karışık ve orta düzeyde pozitif.
 06.11 03:55 N  GPT  score +0.35 conf 0.46: Trump’ın İran’a yönelik yeni saldırıları değerlendirmesi ve bölgedeki savaş riskinin sürmesi kısa vadede güvenli liman talebini destekleyebilir. Ancak altın zaten güçlü yükseldi, dolar talebi de güçlü ve yaklaşan NFP verisi yönü sınırlayabilir.
 06.11 03:55 B5  LONG gold 25000 USD x10 @ 4095.23 (TP 4107.51, SL 4087.04; news +0.30)
+06.11 04:02 B5  CLOSE long stop: -55.91 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
