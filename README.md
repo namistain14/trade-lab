@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 14:22 (İstanbul)
+> Son güncelleme: 06.11.2026 14:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -335.82 $ | -369.77 $ |
-| İşlem sayısı | 6 | 58 |
-| Kazanma oranı | %0.0 | %39.7 |
-| Ödenen komisyon/spread | 71.06 $ | 688.52 $ |
+| Net kâr/zarar | -392.18 $ | -426.12 $ |
+| İşlem sayısı | 7 | 59 |
+| Kazanma oranı | %0.0 | %39.0 |
+| Ödenen komisyon/spread | 82.91 $ | 700.37 $ |
 
-**Hesap değeri: 4,606.68 $** (başlangıç 5,000 $, -393.32 $ / %-7.87)
-
-Açık pozisyonlar: PAXGUSDT short @ 4056.63 (TP 4044.46 / SL 4064.74)
+**Hesap değeri: 4,573.88 $** (başlangıç 5,000 $, -426.12 $ / %-8.52)
 
 Son haber analizi (06.11 14:16): Claude puan **-0.15**, güven 0.35 — Dolar, teknoloji satışı kaynaklı güvenli liman talebiyle yükseliyor ve bu altın için baskı yaratıyor; Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması da sıkı para politikası beklentisini destekliyor. Buna karşın İran'ın Avrupa'ya kadar uzanabilecek füze tehdidi jeopolitik risk primini canlı tutuyor, bu da altını destekleyebilir; sinyaller karışık olduğu için düşük güvenle hafif negatif bir görünüm veriyorum.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 14:26 | PAXGUSDT | short | -56.36 $ | stop (gap) |
 | 06.11 10:57 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 09:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 08:11 | PAXGUSDT | short | -56.23 $ | stop (gap) |
 | 06.11 04:01 | PAXGUSDT | long | -55.91 $ | stop |
-| 06.11 03:47 | PAXGUSDT | long | -55.90 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -87,7 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 13:16 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 13:16 N  NEWS (6 new) score -0.40 conf 0.55: Altın, güçlenen doların ve beklenen güçlü ABD tarım dışı istihdam (NFP) verisi öncesinde yaklaşık %1 düşüyor; Goldman'ın Fed'in sertleşme yönlü değişimi nedeniyle yıl sonu altın tahminini düşürmesi de kısa vadede baskı yaratıyor. Öte yandan İran'daki gerilimin azalmasına dair işaretler petrol fiyatlarını düşürse de WTI hâlâ 90 doların üzerinde olduğundan enflasyon ve faiz beklentileri altın için olumsuz kalıyor; NFP sonucunun belirsizliği nedeniyle güven sınırlı.
 06.11 13:28 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 13:28 N  NEWS (17 new) score -0.30 conf 0.50: Faiz artırımı beklentileri, güçlenen dolar ve tahvil getirilerindeki toparlanma altın üzerinde baskı yaratıyor; Goldman'ın Fed'in sert duruşu nedeniyle yıl sonu altın tahminini düşürmesi de olumsuz. İran savaşına ilişkin jeopolitik riskler ise güvenli liman talebi yaratabilir, ancak petrol fiyatlarındaki düşüş gerilimin azalabileceğine işaret ettiği için bu destek sınırlı kalabilir.
@@ -102,6 +99,7 @@ Son işlemler:
 06.11 14:04 B5  SHORT gold 25000 USD x10 @ 4056.63 (TP 4044.46, SL 4064.74; news -0.28)
 06.11 14:16 N  NEWS (13 new) score -0.15 conf 0.35: Dolar, teknoloji satışı kaynaklı güvenli liman talebiyle yükseliyor ve bu altın için baskı yaratıyor; Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması da sıkı para politikası beklentisini destekliyor. Buna karşın İran'ın Avrupa'ya kadar uzanabilecek füze tehdidi jeopolitik risk primini canlı tutuyor, bu da altını destekleyebilir; sinyaller karışık olduğu için düşük güvenle hafif negatif bir görünüm veriyorum.
 06.11 14:16 N  GPT  score -0.20 conf 0.42: Teknoloji satışlarıyla doların güvenli liman talebiyle güçlenmesi ve Fed’in enflasyonun hâlâ yüksek olduğu mesajı altını kısa vadede baskılayabilir. İran’dan olası misilleme tehdidi destekleyici olsa da savaş haberlerinin çoğu yeni değil; ayrıca petrol fiyatlarındaki gerileme gerilimin azalabileceği
+06.11 14:25 B5  CLOSE short stop (gap): -56.36 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
