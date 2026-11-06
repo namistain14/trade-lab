@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 5,007.68 $** (başlangıç 5,000 $, +7.68 $ / %+0.15)
 
-Son haber analizi (06.11 07:59): Claude puan **+0.35**, güven 0.50 — Hormuz'daki yeni tanker saldırıları ve Rusya'daki rafineri patlamaları/Ukrayna saldırıları arz riskini artırıp Brent'i 100 doların üzerine itti; ancak İran'ın Katar üzerinden nükleer öneri göndermesi, Orta Doğu barış beklentileri ve haftalık yaklaşık %12-13'lük düşüş yukarı yönlü hareketi sınırlayabilir, bu yüzden güven orta düzeyde.
+Son haber analizi (06.11 13:40): Claude puan **+0.10**, güven 0.40 — Hormuz'da iki tankerin mayına çarpıp yanması ve Iran'ın bazı ülkelere geçiş kısıtlaması getirmesi arz riskini artırarak fiyatları destekliyor. Ancak Bloomberg'in de-eskalasyon sinyallerine bağlı düşüşü, Iran'ın nükleer teklifi ve Qatar aracılığıyla yürüyen diplomasi ile haftalık yaklaşık %12'lik düşüş eğilimi baskılayıcı; haberler çelişkili olduğu için net etki hafif pozitif kalıyor.
 
-GPT (gpt-6-luna): puan **+0.55**, güven 0.66 — Hürmüz Boğazı’nda yeni tanker saldırısı haberleri ve Rusya’daki rafinerilere yönelik saldırı bildirimleri yakın vadeli arz riskini artırarak Brent’i destekliyor. İran’ın ABD’ye ilettiği bildirilen nükleer öneri ve daha geniş barış beklentileri bu etkiyi sınırlıyor; haberlerin bir kısmı doğrulanmamış
+GPT (gpt-6-luna): puan **+0.38**, güven 0.52 — Hürmüz Boğazı’nda iki tankerin mayına çarparak yanması iddiası, arz kesintisi ve taşımacılık riskini artırarak Brent’i kısa vadede destekliyor. Ancak İran’ın Katar aracılığıyla teklif ilettiği ve gerilimin azalabileceği yönündeki haberler, ayrıca düşüş eğilimi, yükselişin güvenini sınırlıyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 12:15 N  GPT  score -0.58 conf 0.70: Doların istihdam verisi öncesi toparlanması ve altının 4.050 doların altına düşmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; şahin Fed beklentileri de bu eğilimi destekliyor. İran’dan gelen müzakere haberi jeopolitik risk primini azaltabilir, ancak savaşla ilgili çelişkili haberler ve y
-06.11 12:27 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 12:27 N  NEWS (8 new) score -0.30 conf 0.50: Kısa vadede altın için baskı ağırlıklı: Goldman'ın Fed'in şahin dönüşü nedeniyle yıl sonu altın tahminini düşürmesi, doların toparlanması ve altının 4.050 doların altına inmesi negatif. Buna karşılık İran savaşı, Trump'ın savaşı yeniden başlatma kararı ve küresel teknoloji satışı güvenli liman talebini destekleyebilir; ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD tarım dışı istihdam (NFP) verisi öncesi belirsizlik yüksek.
 06.11 12:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 12:39 N  NEWS (9 new) score -0.20 conf 0.45: Dolar toparlanıyor ve NFP öncesi güç kazanıyor, Goldman da Fed'in şahin kaymasını gerekçe göstererek yıl sonu altın tahminini düşürdü; bu kısa vadede altın için baskılayıcı. İran savaşı belirsizliği ve petrolün 90 doların üzerinde seyretmesi güvenli liman talebini destekliyor, ancak bu etki dolar ve faiz beklentileri kadar güçlü görünmüyor.
@@ -100,6 +98,8 @@ Son işlemler:
 06.11 13:28 N  NEWS (17 new) score -0.30 conf 0.50: Faiz artırımı beklentileri, güçlenen dolar ve tahvil getirilerindeki toparlanma altın üzerinde baskı yaratıyor; Goldman'ın Fed'in sert duruşu nedeniyle yıl sonu altın tahminini düşürmesi de olumsuz. İran savaşına ilişkin jeopolitik riskler ise güvenli liman talebi yaratabilir, ancak petrol fiyatlarındaki düşüş gerilimin azalabileceğine işaret ettiği için bu destek sınırlı kalabilir.
 06.11 13:40 N  NEWS (18 new) score -0.25 conf 0.40: Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması ve dolar ile tahvil faizlerindeki toparlanma, altın üzerinde kısa vadede baskı yaratıyor. İran'a yönelik üçüncü ABD uçak gemisi görevi jeopolitik risk kaynaklı güvenli liman talebini destekleyebilir, ancak petrolün gerilim azalması sinyalleriyle düşmesi bu etkiyi dengeliyor; ayrıca NFP öncesi piyasa belirsizliği nedeniyle sinyal karışık.
 06.11 13:40 N  GPT  score -0.30 conf 0.56: Fed Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, dolar ve faiz beklentileri üzerinden altını kısa vadede baskılayabilir; NFP öncesi güçlü dolar ve düşen altın da bu yönü destekliyor. İran çevresindeki askerî gerilim güvenli liman talebi yaratabilir, ancak haberler çelişkili ve yak
+06.11 13:40 B5P  NEWS (43 new) score +0.10 conf 0.40: Hormuz'da iki tankerin mayına çarpıp yanması ve Iran'ın bazı ülkelere geçiş kısıtlaması getirmesi arz riskini artırarak fiyatları destekliyor. Ancak Bloomberg'in de-eskalasyon sinyallerine bağlı düşüşü, Iran'ın nükleer teklifi ve Qatar aracılığıyla yürüyen diplomasi ile haftalık yaklaşık %12'lik düşüş eğilimi baskılayıcı; haberler çelişkili olduğu için net etki hafif pozitif kalıyor.
+06.11 13:40 B5P  GPT  score +0.38 conf 0.52: Hürmüz Boğazı’nda iki tankerin mayına çarparak yanması iddiası, arz kesintisi ve taşımacılık riskini artırarak Brent’i kısa vadede destekliyor. Ancak İran’ın Katar aracılığıyla teklif ilettiği ve gerilimin azalabileceği yönündeki haberler, ayrıca düşüş eğilimi, yükselişin güvenini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
