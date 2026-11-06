@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 19:31 (İstanbul)
+> Son güncelleme: 06.11.2026 19:34 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (06.11 19:21): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi doları yükseltti ve Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; bu, reel faiz ve dolar kanalıyla altın için belirgin bir baskı yaratır. İran savaşının sürmesi güvenli liman talebi açısından destekleyici olsa da, petrol piyasasının barışı fiyatlaması ve Fed yetkililerinin enflasyon konusundaki sert söylemi bu etkiyi sınırlıyor.
+Son haber analizi (06.11 19:34): Claude puan **-0.60**, güven 0.60 — Güçlü ABD istihdam verisi doları yükseltti ve Aralık'ta faiz artırımı beklentilerini güçlendirdi; bu, altın için net olarak baskılayıcı bir etkidir. İran savaşı ve Ukrayna gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak piyasanın bu risklerin bir kısmını zaten fiyatladığı ve petrolde barış beklentisi olduğu görülüyor.
 
-GPT (gpt-6-luna): puan **-0.62**, güven 0.76 — Beklentileri aşan ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirirken dolar endeksini yükseltti; bu gelişmeler önümüzdeki saatlerde altın üzerinde baskı yaratabilir. Tüketici enflasyon beklentilerindeki gerileme ve jeopolitik riskler düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.38**, güven 0.66 — Güçlü ABD istihdam verisi, doların sıçraması ve Fed’in faiz artırımı beklentisi kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran’daki tırmanma ve Ukrayna riskleri güvenli liman talebini desteklese de bu baskıyı şimdilik ancak kısmen dengeliyor.
 
 Son işlemler:
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,723.74 $** (başlangıç 100,000 $, +9723.74 $ / %+9.72)
+**Hesap değeri: 109,676.15 $** (başlangıç 100,000 $, +9676.15 $ / %+9.68)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA short @ 189.20 (TP 186.19 / SL 190.92); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 18:32 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"75143.26","code":40310000,"cost_basis":"108558.65","message":"insufficient buying power"}
-06.11 18:45 N  NEWS (10 new) score -0.60 conf 0.65: Güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4.1) dolar endeksini yukarı itti ve Fed'in Aralık'ta faiz artırımı ihtimalini gündeme getirdi; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı. Savaş kaynaklı güvenli liman talebi ise petrol fiyatlarında barış beklentisi nedeniyle zayıf kalıyor, bu yüzden yukarı destek sınırlı. Gold'un 4.000 dolar desteğine yönelik risk uyarıları ve yüksek enflasyon/hawkish Fed söylemleri aşağı yönlü baskıyı güçlendiriyor.
-06.11 18:45 N  GPT  score -0.68 conf 0.78: Beklentileri aşan istihdam verisi doları sıçrattı ve Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. Körfez’deki güvenli liman desteği mevcut olsa da bu etkenden daha zayıf görünüyor.
 06.11 18:45 B6  karar turu: Claude «Güçlü istihdam verisi sonrası yükselen piyasa öğle saatlerinde teknoloji ağırlıklı kâr satışıyla zayıflıyor, VIX yüksek ve oynaklık sürüyor.» / GPT «Endekslerdeki saatlik zayıflama ve volatilite artışı temkin gerektirirken, AAPL'de göreli güç ve TSLA'da şirkete özgü olumsuz haber seçici işlem fırsatı sunuyor.»
 06.11 18:45 B6  ALIŞ AAPL 221 adet ≈ 76,046 $ (1:4) @ 344.1 (TP 349.26, SL 340.66; ikisi de hemfikir, güven 0.55)
 06.11 18:45 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"3266.17","code":40310000,"cost_basis":"78164.28","message":"insufficient buying power"}
@@ -102,6 +99,9 @@ Son işlemler:
 06.11 19:21 N  NEWS (14 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi doları yükseltti ve Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; bu, reel faiz ve dolar kanalıyla altın için belirgin bir baskı yaratır. İran savaşının sürmesi güvenli liman talebi açısından destekleyici olsa da, petrol piyasasının barışı fiyatlaması ve Fed yetkililerinin enflasyon konusundaki sert söylemi bu etkiyi sınırlıyor.
 06.11 19:21 N  GPT  score -0.62 conf 0.76: Beklentileri aşan ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirirken dolar endeksini yükseltti; bu gelişmeler önümüzdeki saatlerde altın üzerinde baskı yaratabilir. Tüketici enflasyon beklentilerindeki gerileme ve jeopolitik riskler düşüşü sınırlayabilir.
 06.11 19:21 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'ın sert düşüşünün ardından gelen dip alımlarıyla piyasa toparlanıyor, ancak son bir saatte momentum zayıfladı ve fiyatlar yatay seyrediyor.» / GPT «Endekslerde günlük yükselişe rağmen son beş dakikalık kapanışlarda ivme kaybı görülürken, güncel fiyatların toparlanması nedeniyle şirket haberlerine dayalı seçici işlemler öne çıkıyor.»
+06.11 19:34 N  NEWS (9 new) score -0.60 conf 0.60: Güçlü ABD istihdam verisi doları yükseltti ve Aralık'ta faiz artırımı beklentilerini güçlendirdi; bu, altın için net olarak baskılayıcı bir etkidir. İran savaşı ve Ukrayna gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak piyasanın bu risklerin bir kısmını zaten fiyatladığı ve petrolde barış beklentisi olduğu görülüyor.
+06.11 19:34 N  GPT  score -0.38 conf 0.66: Güçlü ABD istihdam verisi, doların sıçraması ve Fed’in faiz artırımı beklentisi kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran’daki tırmanma ve Ukrayna riskleri güvenli liman talebini desteklese de bu baskıyı şimdilik ancak kısmen dengeliyor.
+06.11 19:34 B6  karar turu: Claude «Nasdaq'ın sert düşüşünün ardından güçlü istihdam verisi ve büyüme hisselerine dip alımlarıyla piyasa toparlanıyor; ancak Fed faiz artırımı beklentileri yukarı yönü sınırlayabilir.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak faiz artışı beklentileri ve uzamış yükselişler yeni kaldıraçlı girişlerin cazibesini azaltıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
