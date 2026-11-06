@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 18:42 (İstanbul)
+> Son güncelleme: 06.11.2026 18:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (06.11 18:32): Claude puan **-0.40**, güven 0.60 — Güçlü ABD istihdam verisi (Ekimde 165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırımı ihtimalini canlandırıyor ve doları destekliyor; Williams ve Musalem'in enflasyon yorumları da şahin tonda. Bu, altın için net olarak baskılayıcı. Gulf'taki tanker saldırısı ve İran savaşı gibi jeopolitik riskler kısmen destekleyici olsa da, bunlar uzun süredir fiyatlanmış haberler olduğundan etkisi sınırlı kalır.
+Son haber analizi (06.11 18:45): Claude puan **-0.60**, güven 0.65 — Güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4.1) dolar endeksini yukarı itti ve Fed'in Aralık'ta faiz artırımı ihtimalini gündeme getirdi; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı. Savaş kaynaklı güvenli liman talebi ise petrol fiyatlarında barış beklentisi nedeniyle zayıf kalıyor, bu yüzden yukarı destek sınırlı. Gold'un 4.000 dolar desteğine yönelik risk uyarıları ve yüksek enflasyon/hawkish Fed söylemleri aşağı yönlü baskıyı güçlendiriyor.
 
-GPT (gpt-6-luna): puan **-0.38**, güven 0.68 — Beklentileri aşan istihdam ve Fed yetkililerinin enflasyon vurgusu, faizlerin yüksek kalacağı beklentisini ve doları destekleyerek altını kısa vadede baskılayabilir. Körfez’de tankere yönelik ölümcül saldırı güvenli liman talebini artırabilir; bu karşı etki düşüşü sınırlıyor.
+GPT (gpt-6-luna): puan **-0.68**, güven 0.78 — Beklentileri aşan istihdam verisi doları sıçrattı ve Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. Körfez’deki güvenli liman desteği mevcut olsa da bu etkenden daha zayıf görünüyor.
 
 Son işlemler:
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,117.19 $** (başlangıç 100,000 $, +9117.19 $ / %+9.12)
+**Hesap değeri: 108,881.32 $** (başlangıç 100,000 $, +8881.32 $ / %+8.88)
 
 Açık pozisyonlar: NVDA short @ 189.20 (TP 186.19 / SL 190.92); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,11 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 17:56 B6  ALIŞ SPY 108 adet ≈ 79,902 $ (1:4) @ 739.83 (TP 750.93, SL 732.43; ikisi de hemfikir, güven 0.55)
-06.11 17:56 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"4726.92","code":40310000,"cost_basis":"80021.53","message":"insufficient buying power"}
-06.11 18:08 N  NEWS (15 new) score -0.45 conf 0.60: Güçlü ABD istihdam raporu (165 bin yeni iş, beklentilerin üzerinde) Fed'in Aralık'ta faiz artırımını sürdürebileceği beklentisini güçlendirdi ve doları destekledi; bu, kısa vadede altın için net baskı yaratıyor. Pazartesi bulunan İran savaşı ve güvenli liman talebi destekleyici olsa da bu etki büyük ölçüde fiyatlanmış durumda ve Goldman'ın altın tahminlerini düşürmesi de negatif sinyal veriyor.
-06.11 18:08 N  GPT  score -0.45 conf 0.65: Beklentileri aşan istihdam verisi Fed’in faizleri yüksek tutacağı beklentisini ve doları destekleyerek kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve tankere yönelik saldırı güvenli liman talebini artırabilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı çelişkili.
-06.11 18:08 B6  karar turu: Claude «Güçlü istihdam ve Michigan verileriyle teknoloji öncülüğünde riskli varlık iştahı sürüyor, ancak sabah rallisinin ardından endekslerde kısa vadeli soğuma ve yatay seyir görülüyor.» / GPT «Endeksler günlük bazda güçlü olsa da son barlardaki geri çekilme yeni uzun pozisyonları kovalamak yerine seçici kısa işlemleri destekliyor.»
 06.11 18:11 B5  CLOSE short stop: -55.94 USD
 06.11 18:14 B6  CLOSE long TSLA take profit: +1670.08 USD
 06.11 18:20 N  NEWS (12 new) score -0.50 conf 0.60: Beklenti üstü güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in sıkılaştırma olasılıklarını artırdı ve doların yükselişini destekledi; bu, altın için kısa vadede baskı oluşturur. İran savaşı ve jeopolitik risk güvenli liman talebini desteklese de bu etki büyük ölçüde fiyatlanmış görünüyor ve tüketici enflasyon beklentilerinin gerilemesi sınırlı bir dengeleyici etki yaratıyor.
@@ -102,6 +97,11 @@ Son işlemler:
 06.11 18:32 B6  karar turu: Claude «Güçlü istihdam verisi sonrası açılıştaki yapay zeka toparlanması öğleye doğru zayıflıyor; Nasdaq'ta satış baskısı artarken seçici ve kısa vadeli pozisyonlar tercih edilmeli.» / GPT «Endekslerde son kapanışlar ivme kaybına işaret ederken şirket bazlı ayrışma öne çıkıyor; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı.»
 06.11 18:32 B6  AÇIĞA SATIŞ NVDA 574 adet ≈ 108,503 $ (1:4) @ 189.03 (TP 186.19, SL 190.92; ikisi de hemfikir, güven 0.60)
 06.11 18:32 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"75143.26","code":40310000,"cost_basis":"108558.65","message":"insufficient buying power"}
+06.11 18:45 N  NEWS (10 new) score -0.60 conf 0.65: Güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4.1) dolar endeksini yukarı itti ve Fed'in Aralık'ta faiz artırımı ihtimalini gündeme getirdi; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı. Savaş kaynaklı güvenli liman talebi ise petrol fiyatlarında barış beklentisi nedeniyle zayıf kalıyor, bu yüzden yukarı destek sınırlı. Gold'un 4.000 dolar desteğine yönelik risk uyarıları ve yüksek enflasyon/hawkish Fed söylemleri aşağı yönlü baskıyı güçlendiriyor.
+06.11 18:45 N  GPT  score -0.68 conf 0.78: Beklentileri aşan istihdam verisi doları sıçrattı ve Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. Körfez’deki güvenli liman desteği mevcut olsa da bu etkenden daha zayıf görünüyor.
+06.11 18:45 B6  karar turu: Claude «Güçlü istihdam verisi sonrası yükselen piyasa öğle saatlerinde teknoloji ağırlıklı kâr satışıyla zayıflıyor, VIX yüksek ve oynaklık sürüyor.» / GPT «Endekslerdeki saatlik zayıflama ve volatilite artışı temkin gerektirirken, AAPL'de göreli güç ve TSLA'da şirkete özgü olumsuz haber seçici işlem fırsatı sunuyor.»
+06.11 18:45 B6  ALIŞ AAPL 221 adet ≈ 76,046 $ (1:4) @ 344.1 (TP 349.26, SL 340.66; ikisi de hemfikir, güven 0.55)
+06.11 18:45 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"3266.17","code":40310000,"cost_basis":"78164.28","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
