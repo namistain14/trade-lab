@@ -4725,6 +4725,10 @@
    [
     1793979171,
     5000.0
+   ],
+   [
+    1793979202,
+    5000.0
    ]
   ],
   "archive": [
@@ -18400,6 +18404,10 @@
    ],
    [
     1793979171,
+    4868.5
+   ],
+   [
+    1793979202,
     4868.5
    ]
   ],
@@ -32151,6 +32159,10 @@
    [
     1793979171,
     4963.78
+   ],
+   [
+    1793979202,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -42747,6 +42759,10 @@
    [
     1793979171,
     4975.18
+   ],
+   [
+    1793979202,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -53309,6 +53325,10 @@
    [
     1793979171,
     4993.28
+   ],
+   [
+    1793979202,
+    4993.28
    ]
   ]
  },
@@ -63708,6 +63728,10 @@
    [
     1793979171,
     4969.22
+   ],
+   [
+    1793979202,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -73878,6 +73902,10 @@
    [
     1793979171,
     4544.23
+   ],
+   [
+    1793979202,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -74085,9 +74113,23 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108879.07998400001,
+   "balance": 108891.91974200001,
    "start": 100000.0,
    "positions": [
+    {
+     "id": "e13096d7-261a-4d94-8701-6862160393e6",
+     "symbol": "NVDA",
+     "side": "short",
+     "qty": 574.0,
+     "entry": 189.199983,
+     "tp": 186.19,
+     "sl": 190.92,
+     "opened_ms": 1793979151145,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.6: G\u00fcn i\u00e7i kazanc\u0131n\u0131 h\u0131zla geri veriyor, son bir saatte istikrarl\u0131 d\u00fc\u015f\u00fc\u015f trendi var; Hunterbrook raporu ve Kongre incelemesi bask\u0131y\u0131 art\u0131r\u0131yor. | GPT 0.67: QQQ\u2019dan belirgin zay\u0131f seyir ve ard\u0131\u015f\u0131k d\u00fc\u015f\u00fck kapan\u0131\u015flar, d\u00fc\u015f\u00fc\u015f\u00fc kovalamak riskine ra\u011fmen k\u0131sa y\u00f6n\u00fc destekliyor.",
+     "cur": 188.96
+    },
     {
      "id": "3f80f949-2027-453b-80bf-f15324935bbf",
      "symbol": "QQQ",
@@ -74100,7 +74142,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert sat\u0131\u015f\u0131n ard\u0131ndan yapay zek\u00e2 hisselerinde dip al\u0131m\u0131 s\u00fcr\u00fcyor ve be\u015f dakikal\u0131k kapan\u0131\u015flarda y\u00fckselen dipler olu\u015fuyor. | GPT 0.6: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc performans ve kazan\u0131mlar\u0131n korunmas\u0131, yatayla\u015fma sonras\u0131nda yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 657.07
+     "cur": 657.21
     },
     {
      "id": "5b52f9ae-7491-45a3-8266-ce371cb0d411",
@@ -74114,7 +74156,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 737.79
+     "cur": 737.91
     }
    ],
    "trades": [
@@ -74535,12 +74577,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 248.25,
+    "pnl": 434.76,
     "trades": 9,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 108507.85
+   "equity": 108694.36
   },
   "equity_curve": [
    [
@@ -84578,6 +84620,10 @@
    [
     1793979171,
     108507.85
+   ],
+   [
+    1793979202,
+    108694.36
    ]
   ],
   "open": {
@@ -84682,7 +84728,7 @@
   "premarket_day": "2026-11-06",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "209102.44",
+   "buying_power": "79634.31",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -93266,6 +93312,10 @@
    ],
    [
     1793979171,
+    5007.68
+   ],
+   [
+    1793979202,
     5007.68
    ]
   ],
