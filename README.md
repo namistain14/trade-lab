@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 18:08 (İstanbul)
+> Son güncelleme: 06.11.2026 18:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -365.89 $ | -399.83 $ |
-| İşlem sayısı | 11 | 63 |
-| Kazanma oranı | %18.2 | %39.7 |
-| Ödenen komisyon/spread | 130.36 $ | 747.81 $ |
+| Net kâr/zarar | -421.83 $ | -455.77 $ |
+| İşlem sayısı | 12 | 64 |
+| Kazanma oranı | %16.7 | %39.1 |
+| Ödenen komisyon/spread | 142.22 $ | 759.67 $ |
 
-**Hesap değeri: 4,566.29 $** (başlangıç 5,000 $, -433.71 $ / %-8.67)
-
-Açık pozisyonlar: PAXGUSDT short @ 4034.16 (TP 4022.06 / SL 4042.23)
+**Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
 Son haber analizi (06.11 18:08): Claude puan **-0.45**, güven 0.60 — Güçlü ABD istihdam raporu (165 bin yeni iş, beklentilerin üzerinde) Fed'in Aralık'ta faiz artırımını sürdürebileceği beklentisini güçlendirdi ve doları destekledi; bu, kısa vadede altın için net baskı yaratıyor. Pazartesi bulunan İran savaşı ve güvenli liman talebi destekleyici olsa da bu etki büyük ölçüde fiyatlanmış durumda ve Goldman'ın altın tahminlerini düşürmesi de negatif sinyal veriyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 18:11 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:47 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:11 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
-| 06.11 14:26 | PAXGUSDT | short | -56.36 $ | stop (gap) |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -72,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,147.20 $** (başlangıç 100,000 $, +8147.20 $ / %+8.15)
+**Hesap değeri: 108,804.39 $** (başlangıç 100,000 $, +8804.39 $ / %+8.80)
 
 Açık pozisyonlar: QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 17:43 N  GPT  score -0.65 conf 0.78: Beklentileri aşan ABD istihdam verisi doları ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için belirgin biçimde negatif. Körfez’de tankere yönelik ölümcül saldırı güvenli liman talebini destekleyebilir, ancak kısa vadede mak
 06.11 17:43 B6  karar turu: Claude «Beklentileri aşan istihdam verisi ve teknoloji satışlarının ardından gelen dip alımı, piyasada kısa vadeli pozitif bir hava yaratıyor.» / GPT «Piyasa kısa vadede yukarı eğilimli ancak sert teknoloji sıçramaları ve dört kat kaldıraç nedeniyle hareketi kovalamadan seçici işlem yapılmalı.»
 06.11 17:43 B6  AÇIĞA SATIŞ AAPL 319 adet ≈ 108,297 $ (1:4) @ 339.49 (TP 334.4, SL 342.88; ikisi de hemfikir, güven 0.50)
 06.11 17:43 B6  ALIŞ TSLA 307 adet ≈ 108,586 $ (1:4) @ 353.7 (TP 359.01, SL 350.16; ikisi de hemfikir, güven 0.45)
@@ -104,6 +101,7 @@ Son işlemler:
 06.11 18:08 N  NEWS (15 new) score -0.45 conf 0.60: Güçlü ABD istihdam raporu (165 bin yeni iş, beklentilerin üzerinde) Fed'in Aralık'ta faiz artırımını sürdürebileceği beklentisini güçlendirdi ve doları destekledi; bu, kısa vadede altın için net baskı yaratıyor. Pazartesi bulunan İran savaşı ve güvenli liman talebi destekleyici olsa da bu etki büyük ölçüde fiyatlanmış durumda ve Goldman'ın altın tahminlerini düşürmesi de negatif sinyal veriyor.
 06.11 18:08 N  GPT  score -0.45 conf 0.65: Beklentileri aşan istihdam verisi Fed’in faizleri yüksek tutacağı beklentisini ve doları destekleyerek kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve tankere yönelik saldırı güvenli liman talebini artırabilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı çelişkili.
 06.11 18:08 B6  karar turu: Claude «Güçlü istihdam ve Michigan verileriyle teknoloji öncülüğünde riskli varlık iştahı sürüyor, ancak sabah rallisinin ardından endekslerde kısa vadeli soğuma ve yatay seyir görülüyor.» / GPT «Endeksler günlük bazda güçlü olsa da son barlardaki geri çekilme yeni uzun pozisyonları kovalamak yerine seçici kısa işlemleri destekliyor.»
+06.11 18:11 B5  CLOSE short stop: -55.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
