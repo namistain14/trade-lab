@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 17:53 (İstanbul)
+> Son güncelleme: 06.11.2026 17:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %18.2 | %39.7 |
 | Ödenen komisyon/spread | 130.36 $ | 747.81 $ |
 
-**Hesap değeri: 4,594.24 $** (başlangıç 5,000 $, -405.76 $ / %-8.12)
+**Hesap değeri: 4,590.89 $** (başlangıç 5,000 $, -409.11 $ / %-8.18)
 
 Açık pozisyonlar: PAXGUSDT short @ 4034.16 (TP 4022.06 / SL 4042.23)
 
-Son haber analizi (06.11 17:43): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; Goldman da Fed'in şahin duruşu nedeniyle altın tahminlerini düşürdü. Bu baskı, İran savaşı ve Hürmüz/Körfez tanker saldırılarıyla ilgili jeopolitik güvenli liman talebini kısmen dengeliyor, bu yüzden güven orta düzeyde.
+Son haber analizi (06.11 17:56): Claude puan **-0.60**, güven 0.70 — Güçlü ABD tarım dışı istihdam verisi (165 bin, beklentinin üzerinde) dolar ve tahvil getirilerini yükseltti ve piyasada Fed faiz artırım beklentileri arttı; bu, altın için net olarak baskı yaratır. Goldman'ın hawkish Fed gerekçesiyle altın tahminlerini düşürmesi de aynı yönü destekliyor. İran savaşı haberleri güvenli liman talebi açısından bir miktar destek sağlasa da bu etki büyük ölçüde fiyatlanmış durumda.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.78 — Beklentileri aşan ABD istihdam verisi doları ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için belirgin biçimde negatif. Körfez’de tankere yönelik ölümcül saldırı güvenli liman talebini destekleyebilir, ancak kısa vadede mak
+GPT (gpt-6-luna): puan **-0.62**, güven 0.72 — Beklentileri aşan ABD istihdamı dolar ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için baskın biçimde olumsuz. Körfez’deki tanker saldırısı güvenli liman talebini destekleyebilir, ancak etkisi güçlü dolar baskısını şimdilik
 
 Son işlemler:
 
@@ -67,34 +67,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +5879.74 $ |
-| İşlem sayısı | 0 | 21 |
-| Kazanma oranı | %0.0 | %52.4 |
+| Net kâr/zarar | -1078.54 $ | +4801.20 $ |
+| İşlem sayısı | 1 | 22 |
+| Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,081.89 $** (başlangıç 100,000 $, +9081.89 $ / %+9.08)
+**Hesap değeri: 107,983.16 $** (başlangıç 100,000 $, +7983.16 $ / %+7.98)
 
-Açık pozisyonlar: AAPL short @ 339.55 (TP 334.40 / SL 342.88); QQQ long @ 657.70 (TP 667.83 / SL 651.38); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
+Açık pozisyonlar: QQQ long @ 657.70 (TP 667.83 / SL 651.38); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 17:56 | AAPL | short | -1078.54 $ | stop |
 | 05.11 23:46 | SPY | short | +582.01 $ | seans sonu |
 | 05.11 23:46 | QQQ | short | +576.72 $ | seans sonu |
 | 05.11 23:46 | NVDA | short | +1215.36 $ | seans sonu |
 | 05.11 23:46 | AAPL | long | +93.44 $ | seans sonu |
-| 05.11 20:37 | QQQ | short | -1070.92 $ | stop |
 
 ## Son olaylar
 
 ```
-06.11 17:19 N  NEWS (18 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
-06.11 17:19 N  GPT  score -0.40 conf 0.68: Beklentiyi aşan istihdam ve işsizlikteki düşüş, Fed’in faiz artırımı olasılığını ve dolar talebini yükselterek kısa vadede altını baskılıyor. Körfez’deki ölümcül tanker saldırısı güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve karma haber akışı güveni azaltıyor.
-06.11 17:25 B5  CLOSE short stop: -55.94 USD
-06.11 17:32 N  NEWS (14 new) score -0.50 conf 0.60: Beklenenden güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4,1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; bu, altın için net olarak baskılayıcı. İran savaşı kaynaklı tanker saldırıları ve jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor, ancak etkisi veri kaynaklı baskının gerisinde kalıyor.
-06.11 17:32 N  GPT  score -0.55 conf 0.76: Beklentiyi aşan istihdam verisi dolar ve tahvil getirilerini yükseltti; Fed’in faiz artırımı olasılığının artması kısa vadede altın için baskın biçimde olumsuz. Körfez’de tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu an bu etkiyi dengelemesi muhtemel.
-06.11 17:32 B5  SHORT gold 25000 USD x10 @ 4025.93 (TP 4013.86, SL 4033.99; news -0.53)
 06.11 17:32 B6  karar turu: Claude «Beklentilerin üzerindeki istihdam verisi ve yapay zekâ hisselerindeki dip alımıyla piyasa ılımlı yükseliş eğiliminde; teknoloji öncülük ediyor.» / GPT «Teknoloji hisselerinde toparlanma eğilimi var ancak güçlü istihdam ve ücret verileri faiz baskısı yaratabilir; dört kat kaldıraçta korelasyon ve stop kayması riski önemlidir.»
 06.11 17:32 B6  ALIŞ QQQ 164 adet ≈ 107,905 $ (1:4) @ 657.96 (TP 667.83, SL 651.38; ikisi de hemfikir, güven 0.55)
 06.11 17:43 N  NEWS (15 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; Goldman da Fed'in şahin duruşu nedeniyle altın tahminlerini düşürdü. Bu baskı, İran savaşı ve Hürmüz/Körfez tanker saldırılarıyla ilgili jeopolitik güvenli liman talebini kısmen dengeliyor, bu yüzden güven orta düzeyde.
@@ -104,6 +98,12 @@ Son işlemler:
 06.11 17:43 B6  ALIŞ TSLA 307 adet ≈ 108,586 $ (1:4) @ 353.7 (TP 359.01, SL 350.16; ikisi de hemfikir, güven 0.45)
 06.11 17:47 B5  CLOSE short stop: -55.94 USD
 06.11 17:53 B5  SHORT gold 25000 USD x10 @ 4034.16 (TP 4022.06, SL 4042.23; news -0.57)
+06.11 17:56 N  NEWS (7 new) score -0.60 conf 0.70: Güçlü ABD tarım dışı istihdam verisi (165 bin, beklentinin üzerinde) dolar ve tahvil getirilerini yükseltti ve piyasada Fed faiz artırım beklentileri arttı; bu, altın için net olarak baskı yaratır. Goldman'ın hawkish Fed gerekçesiyle altın tahminlerini düşürmesi de aynı yönü destekliyor. İran savaşı haberleri güvenli liman talebi açısından bir miktar destek sağlasa da bu etki büyük ölçüde fiyatlanmış durumda.
+06.11 17:56 N  GPT  score -0.62 conf 0.72: Beklentileri aşan ABD istihdamı dolar ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için baskın biçimde olumsuz. Körfez’deki tanker saldırısı güvenli liman talebini destekleyebilir, ancak etkisi güçlü dolar baskısını şimdilik
+06.11 17:56 B6  CLOSE short AAPL stop: -1078.54 USD
+06.11 17:56 B6  karar turu: Claude «Beklentiyi aşan istihdam verisi ve yapay zekâ hisselerinde dipten alımlarla piyasa risk iştahlı, ancak sert yükselen çip hisselerini kovalamaktan kaçınılmalı.» / GPT «Kısa vadeli yön yukarı olsa da sıcak ücret verileri ve son zirvelerden geri çekilme nedeniyle 1:4 kaldıraçta toplam korelasyon riski sınırlı tutulmalı.»
+06.11 17:56 B6  ALIŞ SPY 108 adet ≈ 79,902 $ (1:4) @ 739.83 (TP 750.93, SL 732.43; ikisi de hemfikir, güven 0.55)
+06.11 17:56 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"4726.92","code":40310000,"cost_basis":"80021.53","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
