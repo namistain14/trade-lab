@@ -3805,6 +3805,10 @@
    [
     1793939522,
     5000.0
+   ],
+   [
+    1793939714,
+    5000.0
    ]
   ],
   "archive": [
@@ -16561,43 +16565,38 @@
    [
     1793939522,
     4868.5
+   ],
+   [
+    1793939714,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.35,
-   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 kaynakl\u0131 petrol enflasyonu endi\u015fesi ve bekleyen ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi alt\u0131n\u0131 bask\u0131layabilirken, Trump'\u0131n sava\u015f tonunun yumu\u015famas\u0131 jeopolitik risk primini azalt\u0131yor. Fiyat seviyeleri de \u00e7eli\u015fkili (4.000 \u00fcst\u00fc ile 4.060-4.100 alt\u0131), bu y\u00fczden y\u00f6n belirsiz ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.2,
+   "confidence": 0.4,
+   "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve yakla\u015fan ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi, Fed'in s\u0131k\u0131 kalma beklentisini destekleyerek alt\u0131n \u00fczerinde hafif bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131 konusundaki ton yumu\u015famas\u0131 jeopolitik risk primini azalt\u0131yor; buna kar\u015f\u0131l\u0131k dolarda zay\u0131flama alt\u0131na k\u0131smi destek sa\u011fl\u0131yor ve NFP sonucu y\u00f6n\u00fc belirsiz b\u0131rakt\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793938992805,
-   "new_headlines": 5,
+   "ts": 1793939713170,
+   "new_headlines": 7,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.43,
-    "reason": "Y\u00fcksek petrol\u00fcn enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 olu\u015fturuyor; yakla\u015fan ABD istihdam verisi \u00f6ncesi temkinlilik de y\u00f6n\u00fc s\u0131n\u0131rlayabilir. \u0130ran kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da ba\u015fl\u0131klarda yeni bir t\u0131rman\u0131\u015f g\u00f6r\u00fcnm\u00fcyor ve haberler kar\u0131\u015f\u0131k.",
+    "score": 0.05,
+    "confidence": 0.24,
+    "reason": "Hegseth\u2019in \u0130ran sava\u015f\u0131n\u0131 savunmas\u0131 jeopolitik risk alg\u0131s\u0131n\u0131 bir miktar destekleyebilir, ancak yeni bir asker\u00ee t\u0131rman\u0131\u015f haberi yok. Petrol kaynakl\u0131 enflasyon endi\u015feleri ve yakla\u015fan istihdam verisi alt\u0131n i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk olu\u015ftururken, ba\u015fl\u0131klar kar\u0131\u015f\u0131k ve etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor.",
     "key_events": [
-     "Petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131yla alt\u0131n gev\u015fiyor",
-     "ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi bekleniyor",
-     "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor, ancak yeni t\u0131rman\u0131\u015f haberi yok"
+     "Hegseth \u0130ran sava\u015f\u0131n\u0131 savundu; yeni t\u0131rman\u0131\u015f haberi yok",
+     "Petrol kaynakl\u0131 enflasyon endi\u015feleri",
+     "ABD istihdam verisi \u00f6ncesi temkin"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793671524045,
-    "score": 0.2,
-    "confidence": 0.4,
-    "reason": "Petrol fiyatlar\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc (diplomasi umutlar\u0131) Fed faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatt\u0131\u011f\u0131 ve dolar\u0131 bask\u0131lad\u0131\u011f\u0131 i\u00e7in alt\u0131 k\u0131sa vadede destekliyor; alt\u0131n zaten yakla\u015f\u0131k %2 toparland\u0131. Ancak ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'na y\u00f6nelik sald\u0131r\u0131lar\u0131 ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini canl\u0131 tutuyor, bu da sinyalleri kar\u0131\u015f\u0131k hale getiriyor; bu nedenle g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
-    "new": 17,
-    "gpt_score": 0.25,
-    "gpt_confidence": 0.52
-   },
    {
     "ts": 1793672242476,
     "score": 0.25,
@@ -19288,19 +19287,36 @@
     "new": 5,
     "gpt_score": -0.2,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1793939713170,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "Petrol kaynakl\u0131 enflasyon endi\u015feleri ve yakla\u015fan ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi, Fed'in s\u0131k\u0131 kalma beklentisini destekleyerek alt\u0131n \u00fczerinde hafif bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131 konusundaki ton yumu\u015famas\u0131 jeopolitik risk primini azalt\u0131yor; buna kar\u015f\u0131l\u0131k dolarda zay\u0131flama alt\u0131na k\u0131smi destek sa\u011fl\u0131yor ve NFP sonucu y\u00f6n\u00fc belirsiz b\u0131rakt\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 7,
+    "gpt_score": 0.05,
+    "gpt_confidence": 0.24
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 37
+   "n": 38
   },
   "news_seen": [
+   "Trump signs order preventing future presidents from changing Oval Office",
+   "Hegseth vows to fight any impeachment, defends Iran war - Reuters",
+   "'There's a war happening on our block' | Neighbors in DC's LeDroit park demand accountability over constant shootouts - WUSA9",
+   "Chennai gold price remains stable on November 6, 2026; check today's gold, silver rate - DT Next",
+   "Gold Rate Today, 6 November: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities on Dhanteras - The Indian Express",
+   "Gold price correction brings buyers back to jewellery stores, but demand shifts to lightweight pieces - Moneycontrol.com",
    "Gold eases on inflation worries from higher oil as US payrolls data in focus - The Edge Malaysia",
    "Dhanteras 2026 diamond, gold, silver, brass, copper, bronze price today: Buying precious metal for prosper - The Economic Times",
    "HBO\u2019s \u2018War\u2019: What is it good for? - The Michigan Daily",
+   "Carney unveils budget to strengthen Canada's economy as Trump's trade war continues - ABC News - Breaking News, Latest News and Videos",
    "Gold Price Surges Back Above $4,000 \u2013 Is This the Start of a Much Bigger Rally? - FXEmpire",
    "Gold, silver prices today, 6 November: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata - Livemint",
    "VP Vance signals Iran war main reason GOP lost midterms; new voter poll data sheds insight - KFOX",
+   "BYU Football's Best Modern 'Holy War' Players by Decade: 1970s and 1980s - Yahoo Sports",
    "US war in Iran leaves Sri Lanka in troubled diplomatic waters - Nikkei Asia",
    "Gold eases on inflation worries from higher oil; US payrolls data in focus - Reuters",
    "Hegseth defends Iran war, assails critics as calls mount for his removal - The Washington Post",
@@ -19310,7 +19326,6 @@
    "Gold Price Forecast: XAU/USD corrects to near $4,060 amid caution ahead of US NFP data - FXStreet",
    "Is Laopu Gold\u2019s 11% Dividend Yield Sustainable? - Dividend Titan",
    "Kaua\u2018i missile range lease extension stalls - Aloha State Daily",
-   "Trump signs order preventing future presidents from changing Oval Office",
    "ETMarkets Commodity Talk| Building a 5-year portfolio? Why gold could take the largest share of your commo - The Economic Times",
    "Australian Dollar drops on dovish RBA outlook, stronger US Dollar - Mitrade",
    "The upward trend in global gold prices is slowing down. - Vietnam.vn",
@@ -19332,19 +19347,10 @@
    "Global tech stocks plunge as US midterms add to AI slowdown fears",
    "War Recap: I Smell a Rat - Vulture",
    "Dhanteras gold and silver price today, November 6: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
-   "War on the weekend? Strategist\u2019s startling Iran warning - AFR",
-   "U.S. Non-Farm Payrolls Preview: Even if data meets expectations, the dollar may not find a clear direction - \u5bcc\u9014\u725b\u725b",
-   "Iran\u2019s security chief meets Putin, delivers message from Khamenei - Al Jazeera",
-   "New Zealand Dollar softens below 0.5600, US NFP data looms - FXStreet",
-   "Carney unveils budget to strengthen Canada\u2019s economy as Trump\u2019s trade war slows growth - The Seattle Times",
-   "Gold Set for Biggest Weekly Gain Since August After US Midterms - Bloomberg.com",
-   "Dollar Stabilizes After Midterm Election Volatility: Strategists Cite Enduring Core Support as Options Market Signals Bullish Sentiment - Moomoo",
-   "A Revolutionary War Mystery Comes to Yorktown: Why Was General Rochambeau Arrested? - Halston Media Group"
+   "U.S. Non-Farm Payrolls Preview: Even if data meets expectations, the dollar may not find a clear direction - \u5bcc\u9014\u725b\u725b"
   ]
  },
  "log": [
-  "05.11 03:29 N  GPT  score +0.42 conf 0.58: Demokratlar\u0131n zaferi sonras\u0131 dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 nedeniyle artan siyasi belirsizlik de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak alt\u0131n zaten sert y\u00fckseldi ve haberlerin \u00e7o\u011fu bu harekete yans\u0131m\u0131\u015f olabilir; sava\u015f\u0131n sona ermesi beklentisi de y\u00fckseli",
-  "05.11 03:32 B5  CLOSE long take profit: +69.06 USD",
   "05.11 03:38 B5  LONG gold 25000 USD x10 @ 4080.33 (TP 4092.57, SL 4072.17; news +0.43)",
   "05.11 03:41 N  NEWS (7 new) score +0.40 conf 0.50: Demokratlar\u0131n Kongre'yi kazanmas\u0131 dolar\u0131n zay\u0131flamas\u0131na ve ABD tahvil faizlerinin d\u00fc\u015fmesine yol a\u00e7t\u0131; bu da alt\u0131n\u0131 yakla\u015f\u0131k %3.5 y\u00fckseltip 4.000 dolar\u0131n \u00fczerine ta\u015f\u0131d\u0131. Y\u00fckseli\u015f e\u011filimi k\u0131sa vadede s\u00fcrebilir, ancak hareketin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesine ili\u015fkin jeopolitik risk de yeni bir g\u00fcvenli liman talebi yaratabilir; bu nedenle g\u00fcven orta seviyede tutuldu.",
   "05.11 03:41 N  GPT  score +0.24 conf 0.53: Demokratlar\u0131n Kongre kontrol\u00fcn\u00fc kazanmas\u0131n\u0131n ard\u0131ndan dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, sava\u015f kaynakl\u0131 siyasi belirsizlikle birlikte alt\u0131n\u0131 destekliyor. Ancak alt\u0131ndaki sert y\u00fckseli\u015f bu haberi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlam\u0131\u015f olabilir; k\u0131sa vadede k\u00e2r sat\u0131\u015flar\u0131 riski var.",
@@ -19642,7 +19648,9 @@
   "06.11 07:10 N  NEWS (5 new) score +0.02 conf 0.30: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 kaynakl\u0131 petrol enflasyonu endi\u015fesi ve bekleyen ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi alt\u0131n\u0131 bask\u0131layabilirken, Trump'\u0131n sava\u015f tonunun yumu\u015famas\u0131 jeopolitik risk primini azalt\u0131yor. Fiyat seviyeleri de \u00e7eli\u015fkili (4.000 \u00fcst\u00fc ile 4.060-4.100 alt\u0131), bu y\u00fczden y\u00f6n belirsiz ve g\u00fcven d\u00fc\u015f\u00fck.",
   "06.11 07:10 N  GPT  score -0.15 conf 0.35: \u0130ran sava\u015f\u0131na ili\u015fkin Trump\u2019\u0131n daha az y\u0131k\u0131c\u0131 tonda konu\u015fmas\u0131 g\u00fcvenli liman talebini bir miktar azaltabilir; alt\u0131n\u0131n petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131yla geriledi\u011fi haberleri de k\u0131sa vadede bask\u0131 unsuru. Dolar\u0131n zay\u0131flamas\u0131 bu etkiyi dengelerken, yakla\u015fan ABD istihdam verisi y\u00f6n konusunda belirsiz",
   "06.11 07:23 N  NEWS (5 new) score -0.15 conf 0.35: ",
-  "06.11 07:23 N  GPT  score -0.20 conf 0.43: Y\u00fcksek petrol\u00fcn enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 olu\u015fturuyor; yakla\u015fan ABD istihdam verisi \u00f6ncesi temkinlilik de y\u00f6n\u00fc s\u0131n\u0131rlayabilir. \u0130ran kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da ba\u015fl\u0131klarda yeni bir t\u0131rman\u0131\u015f g\u00f6r\u00fcnm\u00fcyor ve haberler kar\u0131\u015f\u0131k."
+  "06.11 07:23 N  GPT  score -0.20 conf 0.43: Y\u00fcksek petrol\u00fcn enflasyon ve faiz beklentilerini yukar\u0131 \u00e7ekmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 olu\u015fturuyor; yakla\u015fan ABD istihdam verisi \u00f6ncesi temkinlilik de y\u00f6n\u00fc s\u0131n\u0131rlayabilir. \u0130ran kaynakl\u0131 g\u00fcvenli liman talebi destekleyici olsa da ba\u015fl\u0131klarda yeni bir t\u0131rman\u0131\u015f g\u00f6r\u00fcnm\u00fcyor ve haberler kar\u0131\u015f\u0131k.",
+  "06.11 07:35 N  NEWS (7 new) score -0.20 conf 0.40: Petrol kaynakl\u0131 enflasyon endi\u015feleri ve yakla\u015fan ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi, Fed'in s\u0131k\u0131 kalma beklentisini destekleyerek alt\u0131n \u00fczerinde hafif bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131 konusundaki ton yumu\u015famas\u0131 jeopolitik risk primini azalt\u0131yor; buna kar\u015f\u0131l\u0131k dolarda zay\u0131flama alt\u0131na k\u0131smi destek sa\u011fl\u0131yor ve NFP sonucu y\u00f6n\u00fc belirsiz b\u0131rakt\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "06.11 07:35 N  GPT  score +0.05 conf 0.24: Hegseth\u2019in \u0130ran sava\u015f\u0131n\u0131 savunmas\u0131 jeopolitik risk alg\u0131s\u0131n\u0131 bir miktar destekleyebilir, ancak yeni bir asker\u00ee t\u0131rman\u0131\u015f haberi yok. Petrol kaynakl\u0131 enflasyon endi\u015feleri ve yakla\u015fan istihdam verisi alt\u0131n i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk olu\u015ftururken, ba\u015fl\u0131klar kar\u0131\u015f\u0131k ve etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -29391,6 +29399,10 @@
    [
     1793939522,
     4963.78
+   ],
+   [
+    1793939714,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -39067,6 +39079,10 @@
    [
     1793939522,
     4975.18
+   ],
+   [
+    1793939714,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -48709,6 +48725,10 @@
    [
     1793939522,
     4993.28
+   ],
+   [
+    1793939714,
+    4993.28
    ]
   ]
  },
@@ -58188,6 +58208,10 @@
    [
     1793939522,
     4969.22
+   ],
+   [
+    1793939714,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -67248,6 +67272,10 @@
    ],
    [
     1793939522,
+    4798.34
+   ],
+   [
+    1793939714,
     4798.34
    ]
   ],
@@ -76964,6 +76992,10 @@
    [
     1793939522,
     108278.0
+   ],
+   [
+    1793939714,
+    108278.0
    ]
   ],
   "open": {},
@@ -84677,6 +84709,10 @@
    ],
    [
     1793939522,
+    5066.43
+   ],
+   [
+    1793939714,
     5066.43
    ]
   ],
