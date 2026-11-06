@@ -4845,6 +4845,10 @@
    [
     1793984319,
     5000.0
+   ],
+   [
+    1793984477,
+    5000.0
    ]
   ],
   "archive": [
@@ -6697,12 +6701,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1793977200000,
-   "ETHUSDT": 1793977200000,
-   "SOLUSDT": 1793977200000,
-   "BNBUSDT": 1793977200000,
-   "XRPUSDT": 1793977200000,
-   "DOGEUSDT": 1793977200000
+   "BTCUSDT": 1793980800000,
+   "ETHUSDT": 1793980800000,
+   "SOLUSDT": 1793980800000,
+   "BNBUSDT": 1793980800000,
+   "XRPUSDT": 1793980800000,
+   "DOGEUSDT": 1793980800000
   }
  },
  "gold_news": {
@@ -18640,6 +18644,10 @@
    ],
    [
     1793984319,
+    4868.5
+   ],
+   [
+    1793984477,
     4868.5
    ]
   ],
@@ -32511,6 +32519,10 @@
    [
     1793984319,
     4963.78
+   ],
+   [
+    1793984477,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -43227,6 +43239,10 @@
    [
     1793984319,
     4975.18
+   ],
+   [
+    1793984477,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -53909,6 +53925,10 @@
    [
     1793984319,
     4993.28
+   ],
+   [
+    1793984477,
+    4993.28
    ]
   ]
  },
@@ -64428,6 +64448,10 @@
    [
     1793984319,
     4969.22
+   ],
+   [
+    1793984477,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -74718,6 +74742,10 @@
    [
     1793984319,
     4544.23
+   ],
+   [
+    1793984477,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -74925,7 +74953,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108879.07974200002,
+   "balance": 108885.20474200002,
    "start": 100000.0,
    "positions": [
     {
@@ -74940,7 +74968,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Nasdaq d\u00fc\u015ferken son bir saatte %0.9 y\u00fckselen g\u00f6reli g\u00fc\u00e7 var, diren\u00e7siz y\u00fckseli\u015f trendi s\u00fcr\u00fcyor. | GPT 0.65: Endeksler gerilerken son saatte y\u00fckselmesi ve yak\u0131n zirvelerini korumas\u0131 k\u0131sa vadeli g\u00f6reli g\u00fc\u00e7 avantaj\u0131 sunuyor.",
-     "cur": 344.55
+     "cur": 344.055
     },
     {
      "id": "e13096d7-261a-4d94-8701-6862160393e6",
@@ -74954,7 +74982,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: G\u00fcn i\u00e7i kazanc\u0131n\u0131 h\u0131zla geri veriyor, son bir saatte istikrarl\u0131 d\u00fc\u015f\u00fc\u015f trendi var; Hunterbrook raporu ve Kongre incelemesi bask\u0131y\u0131 art\u0131r\u0131yor. | GPT 0.67: QQQ\u2019dan belirgin zay\u0131f seyir ve ard\u0131\u015f\u0131k d\u00fc\u015f\u00fck kapan\u0131\u015flar, d\u00fc\u015f\u00fc\u015f\u00fc kovalamak riskine ra\u011fmen k\u0131sa y\u00f6n\u00fc destekliyor.",
-     "cur": 188.505
+     "cur": 188.4
     },
     {
      "id": "3f80f949-2027-453b-80bf-f15324935bbf",
@@ -74968,7 +74996,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert sat\u0131\u015f\u0131n ard\u0131ndan yapay zek\u00e2 hisselerinde dip al\u0131m\u0131 s\u00fcr\u00fcyor ve be\u015f dakikal\u0131k kapan\u0131\u015flarda y\u00fckselen dipler olu\u015fuyor. | GPT 0.6: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc performans ve kazan\u0131mlar\u0131n korunmas\u0131, yatayla\u015fma sonras\u0131nda yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 660.65
+     "cur": 660.15
     },
     {
      "id": "5b52f9ae-7491-45a3-8266-ce371cb0d411",
@@ -74982,7 +75010,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 740.47
+     "cur": 739.96
     }
    ],
    "trades": [
@@ -75403,12 +75431,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 1578.98,
+    "pnl": 1398.9,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 109838.58
+   "equity": 109658.5
   },
   "equity_curve": [
    [
@@ -85566,6 +85594,10 @@
    [
     1793984319,
     109838.58
+   ],
+   [
+    1793984477,
+    109658.5
    ]
   ],
   "open": {
@@ -94385,6 +94417,10 @@
    ],
    [
     1793984319,
+    5007.68
+   ],
+   [
+    1793984477,
     5007.68
    ]
   ],
