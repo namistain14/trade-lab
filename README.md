@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 17:13 (İstanbul)
+> Son güncelleme: 06.11.2026 17:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %22.2 | %41.0 |
 | Ödenen komisyon/spread | 106.62 $ | 724.08 $ |
 
-**Hesap değeri: 4,712.05 $** (başlangıç 5,000 $, -287.95 $ / %-5.76)
+**Hesap değeri: 4,706.12 $** (başlangıç 5,000 $, -293.88 $ / %-5.88)
+
+Açık pozisyonlar: PAXGUSDT short @ 4022.34 (TP 4010.27 / SL 4030.38)
 
 Son haber analizi (06.11 17:07): Claude puan **-0.60**, güven 0.70 — Beklentilerin üzerindeki güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4,1) dolar ve tahvil getirilerini yükseltti; bu, Fed'in daha sıkı kalacağı beklentisini güçlendirerek altın için 1-4 saatlik dönemde baskılayıcı. İran savaşı kaynaklı güvenli liman talebi sürse de, bu etki faiz ve dolar kanalının gerisinde kalıyor; bazı eski ve çelişkili altın haberleri güveni biraz azaltıyor.
 
@@ -85,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 16:06 B5  SHORT gold 25000 USD x10 @ 4052.11 (TP 4039.95, SL 4060.21; news -0.23)
 06.11 16:18 N  NEWS (12 new) score -0.30 conf 0.50: Dolar, AI hisselerindeki satış nedeniyle güvenli liman talebiyle yükseliyor ve DXY haftalık zirvelere yaklaşıyor; bu altın için baskı oluşturuyor. Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması sıkı para politikası beklentisini destekleyerek altın için olumsuz. İran savaşı ile ilgili başlıklar ise büyük ölçüde eski ve fiyatlanmış haberler; yeni bir jeopolitik tırmanış sinyali zayıf. Öte yandan "altın haftalık kazanç yolunda" gibi karşıt bir haber var ve NFP verisi henüz açıklanmadığı için sinyal belirsiz.
 06.11 16:18 N  GPT  score -0.28 conf 0.56: Fed’den Williams’ın enflasyonun hâlâ yüksek olduğu mesajı ve doların istihdam verisi öncesi güçlenmesi, kısa vadede altın için baskı oluşturuyor. İran ve Doğu Avrupa kaynaklı riskler güvenli liman talebini desteklese de etkiler karışık; yaklaşan istihdam verisi belirsizliği artırıyor.
 06.11 16:31 B5  CLOSE short take profit: +69.09 USD
@@ -100,6 +101,7 @@ Son işlemler:
 06.11 17:07 N  NEWS (14 new) score -0.60 conf 0.70: Beklentilerin üzerindeki güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4,1) dolar ve tahvil getirilerini yükseltti; bu, Fed'in daha sıkı kalacağı beklentisini güçlendirerek altın için 1-4 saatlik dönemde baskılayıcı. İran savaşı kaynaklı güvenli liman talebi sürse de, bu etki faiz ve dolar kanalının gerisinde kalıyor; bazı eski ve çelişkili altın haberleri güveni biraz azaltıyor.
 06.11 17:07 N  GPT  score -0.68 conf 0.74: Beklentiyi aşan istihdam ve işsizlik oranındaki düşüş dolar ile tahvil getirilerini yükselterek altın üzerinde kısa vadede baskı oluşturuyor. İran kaynaklı güvenli liman talebi bu düşüşü sınırlayabilir; haber akışı çelişkili olduğundan etki kesin değil.
 06.11 17:10 B5  CLOSE short take profit: +69.09 USD
+06.11 17:16 B5  SHORT gold 25000 USD x10 @ 4022.34 (TP 4010.27, SL 4030.38; news -0.64)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
