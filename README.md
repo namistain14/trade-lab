@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 07:59 (İstanbul)
+> Son güncelleme: 06.11.2026 08:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.8 |
 | Ödenen komisyon/spread | 35.49 $ | 652.94 $ |
 
-**Hesap değeri: 4,788.14 $** (başlangıç 5,000 $, -211.86 $ / %-4.24)
+**Hesap değeri: 4,786.35 $** (başlangıç 5,000 $, -213.65 $ / %-4.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 4040.36 (TP 4028.24 / SL 4048.44)
 
@@ -50,7 +50,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 17.17 $ |
 
-**Hesap değeri: 5,057.67 $** (başlangıç 5,000 $, +57.67 $ / %+1.15)
+**Hesap değeri: 5,066.43 $** (başlangıç 5,000 $, +66.43 $ / %+1.33)
 
 Açık pozisyonlar: BZ=F long @ 99.69 (TP 99.99 / SL 99.50)
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 06:58 N  GPT  score -0.18 conf 0.43: Altın, yüksek petrol fiyatlarının enflasyon ve faiz beklentilerini desteklemesiyle geriliyor; yaklaşan ABD istihdam verisi kısa vadede temkinliliği artırıyor. Doların hafif düşmesi destekleyici olsa da Orta Doğu’da barış umutları güvenli liman talebini sınırlayabilir.
 06.11 07:10 N  NEWS (5 new) score +0.02 conf 0.30: Haberler karışık: İran savaşı kaynaklı petrol enflasyonu endişesi ve bekleyen ABD tarım dışı istihdam (NFP) verisi altını baskılayabilirken, Trump'ın savaş tonunun yumuşaması jeopolitik risk primini azaltıyor. Fiyat seviyeleri de çelişkili (4.000 üstü ile 4.060-4.100 altı), bu yüzden yön belirsiz ve güven düşük.
 06.11 07:10 N  GPT  score -0.15 conf 0.35: İran savaşına ilişkin Trump’ın daha az yıkıcı tonda konuşması güvenli liman talebini bir miktar azaltabilir; altının petrol kaynaklı enflasyon kaygılarıyla gerilediği haberleri de kısa vadede baskı unsuru. Doların zayıflaması bu etkiyi dengelerken, yaklaşan ABD istihdam verisi yön konusunda belirsiz
 06.11 07:23 N  NEWS (5 new) score -0.15 conf 0.35: 
@@ -103,6 +102,7 @@ Son işlemler:
 06.11 07:59 B5P  NEWS (44 new) score +0.35 conf 0.50: Hormuz'daki yeni tanker saldırıları ve Rusya'daki rafineri patlamaları/Ukrayna saldırıları arz riskini artırıp Brent'i 100 doların üzerine itti; ancak İran'ın Katar üzerinden nükleer öneri göndermesi, Orta Doğu barış beklentileri ve haftalık yaklaşık %12-13'lük düşüş yukarı yönlü hareketi sınırlayabilir, bu yüzden güven orta düzeyde.
 06.11 07:59 B5P  GPT  score +0.55 conf 0.66: Hürmüz Boğazı’nda yeni tanker saldırısı haberleri ve Rusya’daki rafinerilere yönelik saldırı bildirimleri yakın vadeli arz riskini artırarak Brent’i destekliyor. İran’ın ABD’ye ilettiği bildirilen nükleer öneri ve daha geniş barış beklentileri bu etkiyi sınırlıyor; haberlerin bir kısmı doğrulanmamış
 06.11 07:59 B5P  LONG BZ=F 25000 USD x10 @ 99.69 (TP 99.99, SL 99.50; news +0.45)
+06.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
