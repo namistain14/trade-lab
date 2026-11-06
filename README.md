@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 20:44 (İstanbul)
+> Son güncelleme: 06.11.2026 20:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,879.14 $** (başlangıç 100,000 $, +9879.14 $ / %+9.88)
+**Hesap değeri: 110,005.93 $** (başlangıç 100,000 $, +10005.93 $ / %+10.01)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 19:34 N  NEWS (9 new) score -0.60 conf 0.60: Güçlü ABD istihdam verisi doları yükseltti ve Aralık'ta faiz artırımı beklentilerini güçlendirdi; bu, altın için net olarak baskılayıcı bir etkidir. İran savaşı ve Ukrayna gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak piyasanın bu risklerin bir kısmını zaten fiyatladığı ve petrolde barış beklentisi olduğu görülüyor.
-06.11 19:34 N  GPT  score -0.38 conf 0.66: Güçlü ABD istihdam verisi, doların sıçraması ve Fed’in faiz artırımı beklentisi kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran’daki tırmanma ve Ukrayna riskleri güvenli liman talebini desteklese de bu baskıyı şimdilik ancak kısmen dengeliyor.
-06.11 19:34 B6  karar turu: Claude «Nasdaq'ın sert düşüşünün ardından güçlü istihdam verisi ve büyüme hisselerine dip alımlarıyla piyasa toparlanıyor; ancak Fed faiz artırımı beklentileri yukarı yönü sınırlayabilir.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak faiz artışı beklentileri ve uzamış yükselişler yeni kaldıraçlı girişlerin cazibesini azaltıyor.»
 06.11 19:46 N  NEWS (17 new) score -0.40 conf 0.60: Güçlü tarım dışı istihdam (165 bin) doları yükseltti ve piyasa Aralık'ta faiz artırımını fiyatlamaya başladı; bu, reel faiz ve dolar kanalından altı baskılıyor. İran savaşındaki tanker saldırıları ve Trump'ın yeni saldırı kararı güvenli liman talebini destekliyor, ancak bu haberler kısmen fiyatlanmış ve etkisi jeopolitik-ekonomik baskıyı dengelemeye yetmiyor.
 06.11 19:46 N  GPT  score -0.15 conf 0.48: Beklentiyi aşan istihdam verisi doları güçlendirip Fed’in faiz artırımı beklentisini destekleyerek altın üzerinde baskı yaratıyor. İran’da olası yeni saldırı kararı ve Körfez’de tanker saldırısında can kaybı güvenli liman talebini artırabilir; bu nedenle net etki sınırlı ve belirsiz.
 06.11 19:46 B6  karar turu: Claude «Güçlü istihdam verisi sonrası piyasa toparlanıyor ancak son saatte momentum zayıfladı ve Aralık faiz artırımı beklentileri yukarı hareketi sınırlayabilir.» / GPT «Endeksler gün içi kazanımlarını yatay seyirle sindirirken Tesla'nın göreli gücü öne çıkıyor, ancak sert günlük yükseliş kâr satışı riskini artırıyor.»
@@ -102,6 +99,9 @@ Son işlemler:
 06.11 20:23 B6  karar turu: Claude «Güçlü istihdam verisi ve teknoloji hisselerindeki dip alımları piyasayı yukarı taşıdı, ancak Fed faiz artışı beklentileri ve yüksek VIX nedeniyle öğleden sonra momentum zayıflıyor.» / GPT «Endeksler gün içi kazanımlarını korusa da son saatte ivme zayıf; yükselişi kovalamak yerine şirket özelindeki olumsuz haberlerde seçici kısa pozisyonlar öne çıkıyor.»
 06.11 20:35 B6  karar turu: Claude «Güçlü istihdam verisi Fed faiz artışı beklentilerini körüklerken, Nasdaq'taki sert düşüş sonrası gelen tepki alımları öğleden sonra hafifçe zayıflıyor; piyasa kararsız ve hafif negatif ivmeli.» / GPT «Endeksler günlük kazanımlarını korusa da son saatteki geri çekilme, yükselişi kovalamak yerine şirkete özgü olumsuz haberlerde seçici kısa pozisyonları destekliyor.»
 06.11 20:38 B6  CLOSE short NVDA take profit: +1687.56 USD
+06.11 20:47 B6  karar turu: Claude «Güçlü istihdam verisiyle gelen sert toparlanma, Fed faiz artışı beklentileri ve Çin'e yönelik sert söylem nedeniyle öğleden sonra geri veriliyor.» / GPT «Endekslerin günlük artılarını geri vermesi kısa yönü destekliyor; ancak sert geri dönüş riski nedeniyle 1:4 kaldıraçta toplam pozisyon büyüklüğü sınırlı tutulmalı.»
+06.11 20:47 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102838.95","code":40310000,"cost_basis":"113193.35","message":"insufficient buying power"}
+06.11 20:47 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102842.76","code":40310000,"cost_basis":"113117.81","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
