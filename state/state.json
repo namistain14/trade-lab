@@ -3849,6 +3849,10 @@
    [
     1793941373,
     5000.0
+   ],
+   [
+    1793941552,
+    5000.0
    ]
   ],
   "archive": [
@@ -16649,6 +16653,10 @@
    [
     1793941373,
     4868.5
+   ],
+   [
+    1793941552,
+    4868.5
    ]
   ],
   "news": {
@@ -19431,7 +19439,6 @@
   ]
  },
  "log": [
-  "05.11 04:45 N  GPT  score +0.62 conf 0.68: Demokratlar\u0131n ara se\u00e7im zaferi sonras\u0131 dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak alt\u0131n\u0131n zaten yakla\u015f\u0131k %3,4 y\u00fckselmi\u015f olmas\u0131 ve haberlerin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ayn\u0131 geli\u015fmeyi tekrarlamas\u0131, ek y\u00fcks",
   "05.11 04:45 B5  LONG gold 25000 USD x10 @ 4119.59 (TP 4131.95, SL 4111.35; news +0.56)",
   "05.11 04:57 N  NEWS (7 new) score +0.45 conf 0.55: ",
   "05.11 04:57 N  GPT  score +0.55 conf 0.67: Demokratlar\u0131n ara se\u00e7im zaferi sonras\u0131nda dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, alt\u0131n\u0131 k\u0131sa vadede destekliyor; 4.000 dolar\u0131n a\u015f\u0131lmas\u0131 da yukar\u0131 y\u00f6nl\u00fc momentumu teyit ediyor. Ancak sert y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 ger\u00e7ekle\u015fmi\u015f olabilir ve sava\u015f\u0131n sona ermesi beklentisi g\u00fcvenli liman talebini s\u0131n\u0131rlayabi",
@@ -19730,7 +19737,8 @@
   "06.11 07:59 B5P  NEWS (44 new) score +0.35 conf 0.50: Hormuz'daki yeni tanker sald\u0131r\u0131lar\u0131 ve Rusya'daki rafineri patlamalar\u0131/Ukrayna sald\u0131r\u0131lar\u0131 arz riskini art\u0131r\u0131p Brent'i 100 dolar\u0131n \u00fczerine itti; ancak \u0130ran'\u0131n Katar \u00fczerinden n\u00fckleer \u00f6neri g\u00f6ndermesi, Orta Do\u011fu bar\u0131\u015f beklentileri ve haftal\u0131k yakla\u015f\u0131k %12-13'l\u00fck d\u00fc\u015f\u00fc\u015f yukar\u0131 y\u00f6nl\u00fc hareketi s\u0131n\u0131rlayabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "06.11 07:59 B5P  GPT  score +0.55 conf 0.66: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda yeni tanker sald\u0131r\u0131s\u0131 haberleri ve Rusya\u2019daki rafinerilere y\u00f6nelik sald\u0131r\u0131 bildirimleri yak\u0131n vadeli arz riskini art\u0131rarak Brent\u2019i destekliyor. \u0130ran\u2019\u0131n ABD\u2019ye iletti\u011fi bildirilen n\u00fckleer \u00f6neri ve daha geni\u015f bar\u0131\u015f beklentileri bu etkiyi s\u0131n\u0131rl\u0131yor; haberlerin bir k\u0131sm\u0131 do\u011frulanmam\u0131\u015f",
   "06.11 07:59 B5P  LONG BZ=F 25000 USD x10 @ 99.69 (TP 99.99, SL 99.50; news +0.45)",
-  "06.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "06.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "06.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -29523,6 +29531,10 @@
    [
     1793941373,
     4963.78
+   ],
+   [
+    1793941552,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -39243,6 +39255,10 @@
    [
     1793941373,
     4975.18
+   ],
+   [
+    1793941552,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -48929,6 +48945,10 @@
    [
     1793941373,
     4993.28
+   ],
+   [
+    1793941552,
+    4993.28
    ]
   ]
  },
@@ -58452,6 +58472,10 @@
    [
     1793941373,
     4969.22
+   ],
+   [
+    1793941552,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -67573,6 +67597,10 @@
    [
     1793941373,
     4786.35
+   ],
+   [
+    1793941552,
+    4759.86
    ]
   ],
   "news_calls": {
@@ -77332,6 +77360,10 @@
    [
     1793941373,
     108278.0
+   ],
+   [
+    1793941552,
+    108278.0
    ]
   ],
   "open": {},
@@ -85105,6 +85137,10 @@
    ],
    [
     1793941373,
+    5066.43
+   ],
+   [
+    1793941552,
     5066.43
    ]
   ],
