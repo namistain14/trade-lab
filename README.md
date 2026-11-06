@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 08:05 (İstanbul)
+> Son güncelleme: 06.11.2026 08:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.8 |
 | Ödenen komisyon/spread | 35.49 $ | 652.94 $ |
 
-**Hesap değeri: 4,759.86 $** (başlangıç 5,000 $, -240.14 $ / %-4.80)
+**Hesap değeri: 4,757.02 $** (başlangıç 5,000 $, -242.98 $ / %-4.86)
 
 Açık pozisyonlar: PAXGUSDT short @ 4040.36 (TP 4028.24 / SL 4048.44)
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 07:10 N  GPT  score -0.15 conf 0.35: İran savaşına ilişkin Trump’ın daha az yıkıcı tonda konuşması güvenli liman talebini bir miktar azaltabilir; altının petrol kaynaklı enflasyon kaygılarıyla gerilediği haberleri de kısa vadede baskı unsuru. Doların zayıflaması bu etkiyi dengelerken, yaklaşan ABD istihdam verisi yön konusunda belirsiz
 06.11 07:23 N  NEWS (5 new) score -0.15 conf 0.35: 
 06.11 07:23 N  GPT  score -0.20 conf 0.43: Yüksek petrolün enflasyon ve faiz beklentilerini yukarı çekmesi altın üzerinde kısa vadeli baskı oluşturuyor; yaklaşan ABD istihdam verisi öncesi temkinlilik de yönü sınırlayabilir. İran kaynaklı güvenli liman talebi destekleyici olsa da başlıklarda yeni bir tırmanış görünmüyor ve haberler karışık.
 06.11 07:35 N  NEWS (7 new) score -0.20 conf 0.40: Petrol kaynaklı enflasyon endişeleri ve yaklaşan ABD tarım dışı istihdam (NFP) verisi, Fed'in sıkı kalma beklentisini destekleyerek altın üzerinde hafif baskı yaratıyor. Trump'ın İran savaşı konusundaki ton yumuşaması jeopolitik risk primini azaltıyor; buna karşılık dolarda zayıflama altına kısmi destek sağlıyor ve NFP sonucu yönü belirsiz bıraktığı için güven düşük.
@@ -103,6 +102,7 @@ Son işlemler:
 06.11 07:59 B5P  LONG BZ=F 25000 USD x10 @ 99.69 (TP 99.99, SL 99.50; news +0.45)
 06.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 06.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+06.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
