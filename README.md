@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 04:41 (İstanbul)
+> Son güncelleme: 06.11.2026 04:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,798.34 $** (başlangıç 5,000 $, -201.66 $ / %-4.03)
 
-Son haber analizi (06.11 04:32): Claude puan **+0.40**, güven 0.50 — Yeni haberler altın için genel olarak destekleyici: dolar ve tahvil getirileri zayıflarken altın iki haftanın en yüksek seviyesine çıktı, teknoloji hisselerindeki sert satış güvenli liman talebini artırıyor ve İran savaşının sürmesi jeopolitik risk primi ekliyor. Ancak ABD tarım dışı istihdam (NFP) verisi kısa vadede yönü tersine çevirebilir ve bazı yükseliş haberleri zaten fiyatlanmış durumda, bu yüzden güven orta düzeyde tutuldu.
+Son haber analizi (06.11 04:44): Claude puan **+0.30**, güven 0.50 — Altın, dolar ve getirilerin zayıflaması ile iki haftanın en yüksek seviyesinde ve ABD ara seçim sonrası haftalık kazanç yolunda; İran savaşı kararının "yakında" açıklanacağı ve teknoloji hisselerindeki sert düşüşün risk iştahını zayıflatması güvenli liman talebini destekliyor. Ancak doların güçlü kalması ve bugünkü ABD tarım dışı istihdam (NFP) verisinin sonucunun belirsizliği, kısa vadede yönü sınırlıyor.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.35 — Riskten kaçışın yeni başlıklarda yen talebini artırması ve İran savaşı çevresindeki siyasi bölünme altına sınırlı destek verebilir. Ancak doların tutunması, yaklaşan istihdam verisi ve altındaki önceki yükseliş kısa vadeli etkiyi belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.24**, güven 0.43 — Riskten kaçış ve İran savaşı çevresindeki belirsizlik altına sınırlı destek veriyor; ancak doların tutunması ve altının zaten güçlü yükselmiş olması kısa vadeli potansiyeli törpülüyor. İstihdam verisi öncesinde yönün netleşmesi zor.
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 03:31 N  GPT  score +0.20 conf 0.38: İran savaşı ve Hürmüz’deki patlama iddiaları güvenli liman talebini destekleyebilir; ancak doların güçlenmesi altın için ters yönde. Altının zaten yükselmiş olması ve yaklaşan NFP verisi, kısa vadeli yön konusunda temkin gerektiriyor.
-06.11 03:31 B5  LONG gold 25000 USD x10 @ 4103.64 (TP 4115.95, SL 4095.43; news +0.20)
 06.11 03:43 N  NEWS (7 new) score +0.20 conf 0.40: İran savaşının sürmesi, Hormuz'daki patlama iddiaları ve Polonya MB'nin altın alımına açık kapısı altın için destekleyici; ancak altın zaten haftalık en güçlü artışlarından birini yaşadığı için bir kısmı fiyatlanmış durumda. Doların güçlü kalması, ABD NFP verisi öncesi belirsizlik ve enflasyon/Fed beklentilerine dair karışık sinyaller ise yukarı yönlü hareketi sınırlıyor, bu yüzden güveni düşük tutuyorum.
 06.11 03:43 N  GPT  score +0.25 conf 0.42: İran savaşının sürmesi ve gerilimin devam etmesi güvenli liman talebiyle altını destekleyebilir; ancak altının haftalık yükselişinin önemli kısmı zaten fiyatlanmış görünüyor. Doların güçlü seyri ve yaklaşan ABD istihdam verisi kısa vadeli kazançları sınırlayabilir.
 06.11 03:46 B5  CLOSE long stop: -55.90 USD
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 04:20 N  GPT  score +0.30 conf 0.44: İran’a yönelik olası saldırı ve savaşın sürmesine dair haberler kısa vadede güvenli liman talebini destekleyebilir. Ancak altındaki yükselişin önemli kısmı zaten fiyatlanmış görünüyor; doların güçlü seyrine ilişkin haberler ve yaklaşan ABD istihdam verisi yükselişi sınırlayabilir.
 06.11 04:32 N  NEWS (6 new) score +0.40 conf 0.50: Yeni haberler altın için genel olarak destekleyici: dolar ve tahvil getirileri zayıflarken altın iki haftanın en yüksek seviyesine çıktı, teknoloji hisselerindeki sert satış güvenli liman talebini artırıyor ve İran savaşının sürmesi jeopolitik risk primi ekliyor. Ancak ABD tarım dışı istihdam (NFP) verisi kısa vadede yönü tersine çevirebilir ve bazı yükseliş haberleri zaten fiyatlanmış durumda, bu yüzden güven orta düzeyde tutuldu.
 06.11 04:32 N  GPT  score +0.20 conf 0.35: Riskten kaçışın yeni başlıklarda yen talebini artırması ve İran savaşı çevresindeki siyasi bölünme altına sınırlı destek verebilir. Ancak doların tutunması, yaklaşan istihdam verisi ve altındaki önceki yükseliş kısa vadeli etkiyi belirsizleştiriyor.
+06.11 04:44 N  NEWS (5 new) score +0.30 conf 0.50: Altın, dolar ve getirilerin zayıflaması ile iki haftanın en yüksek seviyesinde ve ABD ara seçim sonrası haftalık kazanç yolunda; İran savaşı kararının "yakında" açıklanacağı ve teknoloji hisselerindeki sert düşüşün risk iştahını zayıflatması güvenli liman talebini destekliyor. Ancak doların güçlü kalması ve bugünkü ABD tarım dışı istihdam (NFP) verisinin sonucunun belirsizliği, kısa vadede yönü sınırlıyor.
+06.11 04:44 N  GPT  score +0.24 conf 0.43: Riskten kaçış ve İran savaşı çevresindeki belirsizlik altına sınırlı destek veriyor; ancak doların tutunması ve altının zaten güçlü yükselmiş olması kısa vadeli potansiyeli törpülüyor. İstihdam verisi öncesinde yönün netleşmesi zor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
