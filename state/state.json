@@ -4381,6 +4381,10 @@
    [
     1793964347,
     5000.0
+   ],
+   [
+    1793964538,
+    5000.0
    ]
   ],
   "archive": [
@@ -17713,43 +17717,38 @@
    [
     1793964347,
     4868.5
+   ],
+   [
+    1793964538,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.15,
-   "confidence": 0.35,
-   "reason": "Dolar, teknoloji sat\u0131\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebiyle y\u00fckseliyor ve bu alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 da s\u0131k\u0131 para politikas\u0131 beklentisini destekliyor. Buna kar\u015f\u0131n \u0130ran'\u0131n Avrupa'ya kadar uzanabilecek f\u00fcze tehdidi jeopolitik risk primini canl\u0131 tutuyor, bu da alt\u0131n\u0131 destekleyebilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcvenle hafif negatif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
+   "confidence": 0.4,
+   "reason": "Fed'in New York ve Williams'\u0131n \"enflasyon \u00e7ok y\u00fcksek\" yorumlar\u0131 k\u0131sa vadede faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. K\u00fcresel borsa sat\u0131\u015f\u0131 ve dolar talebi de g\u00fcvenli liman etkisiyle alt\u0131n lehine de\u011fil aleyhine \u00e7al\u0131\u015f\u0131yor; buna kar\u015f\u0131l\u0131k sava\u015f ve jeopolitik gerilim haberleri alt\u0131 destekliyor. Bekleyen ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi y\u00f6n\u00fc belirsizle\u015ftirdi\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793963818163,
-   "new_headlines": 13,
+   "ts": 1793964537745,
+   "new_headlines": 17,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.42,
-    "reason": "Teknoloji sat\u0131\u015flar\u0131yla dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi ve Fed\u2019in enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu mesaj\u0131 alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir. \u0130ran\u2019dan olas\u0131 misilleme tehdidi destekleyici olsa da sava\u015f haberlerinin \u00e7o\u011fu yeni de\u011fil; ayr\u0131ca petrol fiyatlar\u0131ndaki gerileme gerilimin azalabilece\u011fi",
+    "score": -0.25,
+    "confidence": 0.56,
+    "reason": "K\u00fcresel hisse sat\u0131\u015flar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla toparlanmas\u0131 ve Fed yetkilisinin enflasyonu h\u00e2l\u00e2 y\u00fcksek bulmas\u0131 alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130stihdam ve enflasyon verileri \u00f6ncesi alt\u0131n\u0131n gerilemesi, k\u0131sa vadede hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcm\u00fc des",
     "key_events": [
-     "Dolar g\u00fcvenli liman talebiyle y\u00fckseldi",
-     "Fed\u2019den enflasyonun y\u00fcksek kald\u0131\u011f\u0131 mesaj\u0131",
-     "\u0130ran\u2019dan yeni sald\u0131r\u0131ya misilleme tehdidi"
+     "K\u00fcresel borsalarda sert d\u00fc\u015f\u00fc\u015f ve dolar\u0131n toparlanmas\u0131",
+     "Fed yetkilisi enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011funu vurgulad\u0131",
+     "Alt\u0131n, ABD istihdam verisi \u00f6ncesinde geriledi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793700753458,
-    "score": -0.05,
-    "confidence": 0.35,
-    "reason": "\u0130ran'\u0131n Qeshm Adas\u0131'na ABD sald\u0131r\u0131s\u0131 ve petrol fiyatlar\u0131ndaki y\u00fckseli\u015f g\u00fcvenli liman talebini destekliyor, ancak enflasyon kayg\u0131s\u0131, Fed Ba\u015fkan\u0131 Warsh'un sert a\u00e7\u0131klamalar\u0131 ve y\u00fckselen dolar/Fed beklentileri alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. Alt\u0131n zaten son saatlerde geriliyor, bu nedenle net etki hafif negatif ve belirsiz.",
-    "new": 11,
-    "gpt_score": 0.2,
-    "gpt_confidence": 0.43
-   },
    {
     "ts": 1793701474969,
     "score": -0.2,
@@ -20440,34 +20439,52 @@
     "new": 13,
     "gpt_score": -0.2,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1793964537745,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Fed'in New York ve Williams'\u0131n \"enflasyon \u00e7ok y\u00fcksek\" yorumlar\u0131 k\u0131sa vadede faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. K\u00fcresel borsa sat\u0131\u015f\u0131 ve dolar talebi de g\u00fcvenli liman etkisiyle alt\u0131n lehine de\u011fil aleyhine \u00e7al\u0131\u015f\u0131yor; buna kar\u015f\u0131l\u0131k sava\u015f ve jeopolitik gerilim haberleri alt\u0131 destekliyor. Bekleyen ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi y\u00f6n\u00fc belirsizle\u015ftirdi\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 17,
+    "gpt_score": -0.25,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 71
+   "n": 72
   },
   "news_seen": [
-   "Wall St Week Ahead As tech swoon roils market, US inflation data on tap - Reuters",
-   "Iran War passes 8-month mark. Here's a timeline of major events - WLWT",
-   "Iran War passes 8-month mark. Here's a timeline of major events - KMBC",
+   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
+   "Handguns to missile launchers: The officer leading the IDF's equipment return operation - Israel National News",
+   "Two dead after bus crashes in France, officials say",
+   "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+   "Gold struggles below $4,100 as US Nonfarm Payrolls takes centre stage - FXStreet",
+   "As tech swoon roils market, US inflation data on tap - Lexington Herald Leader",
+   "Satellite Images Reveal New Construction Near Iran Missile Sites - ASHARQ AL-AWSAT English",
+   "Invesco CurrencyShares Australian Dollar Trust 3Q 2026: Net income $377.28K \u2014 10-Q Summary - TradingView",
+   "Invesco DB US Dollar Index Bearish Fund 3Q 2026: Net income $246.76K \u2014 10-Q Summary - TradingView",
+   "Gold prices fall ahead of US jobs report, but weekly gains near 5% - Daily Observer",
+   "Mohsen Rezaei: Putin Called for an End to the \u2018Neither War Nor Peace\u2019 Stalemate - IranWire",
+   "New York Fed President Says Inflation \"Clearly Too High,\" Stresses Return to 2% - BigGo Finance",
+   "Iran War passes 8-month mark. Here's a timeline of major events - WBAL-TV",
    "FILE PHOTO: New York Federal Reserve Bank President John Williams speaks in New York - The Daily News | Texas' Oldest Newspaper",
    "West Virginians footing the bill for war and big oil - West Virginia Watch",
    "KTIC 840 AM/98.3 FM/98.7 FM - Who won the redistricting war? So far, it looks like Democrats - Rural Radio Network",
    "Trump dismisses prospect of replacing Hegseth amid Iran war fallout, looming Democratic investigations - Rural Radio Network",
+   "Invesco CurrencyShares Euro Trust 3Q 2026: EPS $0.26 \u2014 10-Q Summary - TradingView",
+   "Invesco CurrencyShares Swiss Franc Trust 3Q 2026: EPS ($0.15) \u2014 10-Q Summary - TradingView",
+   "Invesco DB US Dollar Index Bullish Fund 3Q 2026: Net income $4.6M \u2014 10-Q Summary - TradingView",
    "An Overview of Indian Naval Power - Geopolitical Futures",
-   "US inflation too high; essential to get back to 2%: Fed's Williams - Kansas City Star",
    "Iran war advocates own this debacle - Washington Examiner",
-   "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees - WFTV",
+   "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees - Audacy",
    "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
-   "Two dead after bus crashes in France, officials say",
+   "US inflation too high; essential to get back to 2%: Fed's Williams - Sacramento Bee",
    "'The alternative to diplomacy is war': Polisario warns of risks after collapse of Western Sahara UN mission - Middle East Eye",
-   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
    "Iran warns missile response to new attack could extend to Europe - Middle East Eye",
    "Aya Gold & Silver Inc. (TSX:AYA): High Profit Per Employee Signals a Lean Silver Producer Scaling Output and Exploration - kalkine.ca",
    "How voter anger over Iran war, prices and Israel powered Democratic midterm sweep - Anadolu Ajans\u0131",
    "The Dollar saves the day - FXStreet",
-   "Dollar climbs on safe haven demand as AI rout saps Asian markets - Yahoo",
-   "Gold price in Pakistan falls Rs6,500 per tola - Investify",
    "Nicolas Cage Returns in \u2018Lords of War\u2019 Alongside Bill Skarsg\u00e5rd as the First Trailer for the Highly Anticipated Sequel Arrives - IMDb",
    "A 'gas war' in Fulton as two stations drop prices below $3.00 a gallon - WSTM",
    "Trump\u2019s Iran war has left America weaker and less reliable, says Katulis - Decode39",
@@ -20481,22 +20498,11 @@
    "How the War with Iran Ends - Robin J Brooks | Substack",
    "In The War On Mosquitos, Bird Advocates Shift Their Game Plan - Honolulu Civil Beat",
    "Gold investors are buying into declining prices: Brooke Thackray - BNN Bloomberg",
-   "Electoral disaster sets off new war over populism in the GOP - Washington Examiner",
-   "F-35B releases Meteor missile from internal weapons bay for first time - AeroTime",
-   "Rutte Doubts Either Side Will Win Russia\u2019s War Against Ukraine - Kyiv Post",
-   "Europe's climate tax risks opening a new trade war with India at COP31 - Euronews",
-   "Elon Musk appears to signal the end of the road for Cybertruck",
-   "US economy resilient but inflation too high: Fed's Williams - The Standard (HK)",
-   "She Returns From War brings queer country back to Charleston - Charleston City Paper",
-   "Eldorado Gold Corporation (TSX:ELD): High Profit Per Employee Shows Gold Price Leverage While Skouries Ramp-Up Tests Near-Term Delivery - kalkine.ca",
-   "IAMGOLD (TSX:IMG): Gold Price Leverage and Mine Scale Lift Earnings Per Employee Across a Small Team - kalkine.ca",
-   "B2Gold Corp. (TSX:BTO): Multi-Mine Gold Production Lifts Earnings Per Employee Alongside a Growing Project Pipeline - kalkine.ca",
-   "Fortuna Mining Corp. (TSX:FVI): West African Gold Growth and Cash-Rich Operations Shape Earnings Per Employee - kalkine.ca"
+   "Gold buying on Dhanteras, Diwali: What should your ideal portfolio look like & what can you buy if not go - The Times of India",
+   "Electoral disaster sets off new war over populism in the GOP - Washington Examiner"
   ]
  },
  "log": [
-  "05.11 12:39 N  GPT  score +0.20 conf 0.35: \u0130ran\u2019a y\u00f6nelik yeni yapt\u0131r\u0131mlar g\u00fcvenli liman talebini bir miktar destekleyebilir; daha \u00f6nceki haberlerde dolar ve tahvil getirilerindeki gev\u015feme de alt\u0131n i\u00e7in olumlu. Ancak enflasyon g\u00f6r\u00fcn\u00fcm\u00fcne dair belirsiz ba\u015fl\u0131klar ve haberlerin bir k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olma ihtimali k\u0131sa vadeli etkiyi s\u0131n",
-  "05.11 13:07 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "05.11 13:07 N  NEWS (17 new) score +0.30 conf 0.40: Dolar ve Treasury getirilerinin ara se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ile petrol\u00fcn Iran'a dair umutlarla d\u00fc\u015fmesi, alt\u0131n i\u00e7in k\u0131sa vadede destekleyici; ancak \u0130ran sava\u015f\u0131 riski ve hawkish Fed enflasyon beklentileri kar\u015f\u0131t y\u00f6nde etki yarat\u0131p g\u00fcveni s\u0131n\u0131rl\u0131yor. Alt\u0131n\u0131n rebound haberleri k\u0131smen fiyatlanm\u0131\u015f olabilir.",
   "05.11 13:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "05.11 13:19 N  NEWS (11 new) score +0.25 conf 0.40: Dolar ve Treasury getirilerinin ara vermesi, ara se\u00e7im sonras\u0131 \"Gold rallies\" haberleri ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015fle birlikte alt\u0131n i\u00e7in hafif pozitif bir tablo var. Ancak \u0130ran'a ili\u015fkin jeopolitik gerilimin s\u00fcrmesi ve Fed'in enflasyon tahminlerine dair sert haberler belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in sinyaller kar\u0131\u015f\u0131k ve g\u00fcven s\u0131n\u0131rl\u0131.",
@@ -20794,7 +20800,9 @@
   "06.11 14:04 B5  SHORT gold 25000 USD x10 @ 4056.63 (TP 4044.46, SL 4064.74; news -0.28)",
   "06.11 14:16 N  NEWS (13 new) score -0.15 conf 0.35: Dolar, teknoloji sat\u0131\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebiyle y\u00fckseliyor ve bu alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 da s\u0131k\u0131 para politikas\u0131 beklentisini destekliyor. Buna kar\u015f\u0131n \u0130ran'\u0131n Avrupa'ya kadar uzanabilecek f\u00fcze tehdidi jeopolitik risk primini canl\u0131 tutuyor, bu da alt\u0131n\u0131 destekleyebilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcvenle hafif negatif bir g\u00f6r\u00fcn\u00fcm veriyorum.",
   "06.11 14:16 N  GPT  score -0.20 conf 0.42: Teknoloji sat\u0131\u015flar\u0131yla dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi ve Fed\u2019in enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu mesaj\u0131 alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir. \u0130ran\u2019dan olas\u0131 misilleme tehdidi destekleyici olsa da sava\u015f haberlerinin \u00e7o\u011fu yeni de\u011fil; ayr\u0131ca petrol fiyatlar\u0131ndaki gerileme gerilimin azalabilece\u011fi",
-  "06.11 14:25 B5  CLOSE short stop (gap): -56.36 USD"
+  "06.11 14:25 B5  CLOSE short stop (gap): -56.36 USD",
+  "06.11 14:28 N  NEWS (17 new) score -0.15 conf 0.40: Fed'in New York ve Williams'\u0131n \"enflasyon \u00e7ok y\u00fcksek\" yorumlar\u0131 k\u0131sa vadede faiz beklentilerini sertle\u015ftirerek alt\u0131 bask\u0131l\u0131yor. K\u00fcresel borsa sat\u0131\u015f\u0131 ve dolar talebi de g\u00fcvenli liman etkisiyle alt\u0131n lehine de\u011fil aleyhine \u00e7al\u0131\u015f\u0131yor; buna kar\u015f\u0131l\u0131k sava\u015f ve jeopolitik gerilim haberleri alt\u0131 destekliyor. Bekleyen ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi y\u00f6n\u00fc belirsizle\u015ftirdi\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "06.11 14:28 N  GPT  score -0.25 conf 0.56: K\u00fcresel hisse sat\u0131\u015flar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla toparlanmas\u0131 ve Fed yetkilisinin enflasyonu h\u00e2l\u00e2 y\u00fcksek bulmas\u0131 alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130stihdam ve enflasyon verileri \u00f6ncesi alt\u0131n\u0131n gerilemesi, k\u0131sa vadede hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcm\u00fc des"
  ],
  "gold_big": {
   "account": {
@@ -31119,6 +31127,10 @@
    [
     1793964347,
     4963.78
+   ],
+   [
+    1793964538,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -41371,6 +41383,10 @@
    [
     1793964347,
     4975.18
+   ],
+   [
+    1793964538,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -51589,6 +51605,10 @@
    [
     1793964347,
     4993.28
+   ],
+   [
+    1793964538,
+    4993.28
    ]
   ]
  },
@@ -61644,6 +61664,10 @@
    [
     1793964347,
     4969.22
+   ],
+   [
+    1793964538,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -71364,6 +71388,10 @@
    ],
    [
     1793964347,
+    4573.88
+   ],
+   [
+    1793964538,
     4573.88
    ]
   ],
@@ -81656,6 +81684,10 @@
    [
     1793964347,
     108259.6
+   ],
+   [
+    1793964538,
+    108259.6
    ]
   ],
   "open": {},
@@ -89966,6 +89998,10 @@
    ],
    [
     1793964347,
+    5007.68
+   ],
+   [
+    1793964538,
     5007.68
    ]
   ],
