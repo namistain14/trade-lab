@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 17:28 (İstanbul)
+> Son güncelleme: 06.11.2026 17:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %20.0 | %40.3 |
 | Ödenen komisyon/spread | 118.49 $ | 735.95 $ |
 
-**Hesap değeri: 4,656.11 $** (başlangıç 5,000 $, -343.89 $ / %-6.88)
+**Hesap değeri: 4,650.18 $** (başlangıç 5,000 $, -349.82 $ / %-7.00)
 
-Son haber analizi (06.11 17:19): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
+Açık pozisyonlar: PAXGUSDT short @ 4025.93 (TP 4013.86 / SL 4033.99)
 
-GPT (gpt-6-luna): puan **-0.40**, güven 0.68 — Beklentiyi aşan istihdam ve işsizlikteki düşüş, Fed’in faiz artırımı olasılığını ve dolar talebini yükselterek kısa vadede altını baskılıyor. Körfez’deki ölümcül tanker saldırısı güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve karma haber akışı güveni azaltıyor.
+Son haber analizi (06.11 17:31): Claude puan **-0.50**, güven 0.60 — Beklenenden güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4,1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; bu, altın için net olarak baskılayıcı. İran savaşı kaynaklı tanker saldırıları ve jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor, ancak etkisi veri kaynaklı baskının gerisinde kalıyor.
+
+GPT (gpt-6-luna): puan **-0.55**, güven 0.76 — Beklentiyi aşan istihdam verisi dolar ve tahvil getirilerini yükseltti; Fed’in faiz artırımı olasılığının artması kısa vadede altın için baskın biçimde olumsuz. Körfez’de tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu an bu etkiyi dengelemesi muhtemel.
 
 Son işlemler:
 
@@ -85,11 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 16:31 N  NEWS (13 new) score -0.20 conf 0.40: Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
-06.11 16:31 N  GPT  score -0.30 conf 0.56: Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
-06.11 16:31 B6  seans öncesi görüş: Teknoloji ağırlıklı sert satış sonrası açılışta tepki alımı olası, ancak istihdam verisi öncesi oynaklık yüksek olduğundan pozisyonlar küçük ve seçici tutulmalı.
-06.11 16:36 B5  SHORT gold 25000 USD x10 @ 4037.94 (TP 4025.83, SL 4046.02; news -0.25)
-06.11 16:42 N  NEWS (12 new) score -0.30 conf 0.40: 
 06.11 16:42 N  GPT  score -0.18 conf 0.36: İran savaşı ve bölgesel belirsizlik güvenli liman talebini destekleyebilir; ancak doların haftalık zirvelere çıkması ve Fed’in enflasyon konusunda temkinli, faiz beklentilerinin şahin olması altın üzerinde kısa vadeli baskı yaratıyor. Haber akışı karışık ve yeni bir belirgin tırmanış göstermediğinde
 06.11 16:54 N  NEWS (10 new) score -0.40 conf 0.50: Güçlü ABD istihdam verisi (işsizlik %4,1) ve Fed'in sıkılaşma beklentisi, Goldman'ın altın tahminini düşürmesi ve doların yükselişi altın için baskılayıcı. Tankere füze saldırısı gibi jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki dolar ve faiz kanalının gerisinde kalıyor. Eski ve çelişkili haberler (4,31% yükseliş başlığı, Rs düşüşleri) güveni düşürüyor.
 06.11 16:54 N  GPT  score -0.25 conf 0.58: Beklentileri aşan istihdam ve düşen işsizlik, Fed’in daha şahin kalabileceği ve doların destek bulabileceği beklentisini güçlendirerek altın üzerinde baskı yaratıyor. Tankere yönelik ölümcül saldırı güvenli liman talebini artırabilir; bu nedenle aşağı yönlü etki sınırlı ve jeopolitik haberlerle deng
@@ -100,6 +97,11 @@ Son işlemler:
 06.11 17:19 N  NEWS (18 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
 06.11 17:19 N  GPT  score -0.40 conf 0.68: Beklentiyi aşan istihdam ve işsizlikteki düşüş, Fed’in faiz artırımı olasılığını ve dolar talebini yükselterek kısa vadede altını baskılıyor. Körfez’deki ölümcül tanker saldırısı güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve karma haber akışı güveni azaltıyor.
 06.11 17:25 B5  CLOSE short stop: -55.94 USD
+06.11 17:32 N  NEWS (14 new) score -0.50 conf 0.60: Beklenenden güçlü ABD tarım dışı istihdam verisi (165 bin, işsizlik %4,1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; bu, altın için net olarak baskılayıcı. İran savaşı kaynaklı tanker saldırıları ve jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor, ancak etkisi veri kaynaklı baskının gerisinde kalıyor.
+06.11 17:32 N  GPT  score -0.55 conf 0.76: Beklentiyi aşan istihdam verisi dolar ve tahvil getirilerini yükseltti; Fed’in faiz artırımı olasılığının artması kısa vadede altın için baskın biçimde olumsuz. Körfez’de tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu an bu etkiyi dengelemesi muhtemel.
+06.11 17:32 B5  SHORT gold 25000 USD x10 @ 4025.93 (TP 4013.86, SL 4033.99; news -0.53)
+06.11 17:32 B6  karar turu: Claude «Beklentilerin üzerindeki istihdam verisi ve yapay zekâ hisselerindeki dip alımıyla piyasa ılımlı yükseliş eğiliminde; teknoloji öncülük ediyor.» / GPT «Teknoloji hisselerinde toparlanma eğilimi var ancak güçlü istihdam ve ücret verileri faiz baskısı yaratabilir; dört kat kaldıraçta korelasyon ve stop kayması riski önemlidir.»
+06.11 17:32 B6  ALIŞ QQQ 164 adet ≈ 107,905 $ (1:4) @ 657.96 (TP 667.83, SL 651.38; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
