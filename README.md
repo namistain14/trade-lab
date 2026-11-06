@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 20:07 (İstanbul)
+> Son güncelleme: 06.11.2026 20:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (06.11 19:58): Claude puan **-0.20**, güven 0.40 — Güçlü tarım dışı istihdam verisi (165 bin) dolar endeksini yükseltti ve piyasa Aralık'ta faiz artırımı beklentisini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. Buna karşılık İran savaşındaki tırmanış ve tanker saldırıları güvenli liman talebini destekliyor, bu nedenle etki karışık ve güven düşük.
+Son haber analizi (06.11 20:10): Claude puan **-0.50**, güven 0.60 — Yeni haberlerin ağırlıklı tonu şahin: beklentilerin üzerinde güçlü istihdam (165 bin), işsizlik oranının 4,1%'e gerilemesi, Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesi ve Fed yetkililerinin enflasyon uyarıları, doların yükselişiyle birlikte altın için baskı yaratıyor. İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu haberler büyük ölçüde fiyatlanmış ve eskidir; bu nedenle etkisi sınırlı kalır.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.38 — İran’ın yeniden saldırı kararı ve Körfez’de bir tankere yönelik ölümcül füze saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak güçlü ABD istihdamı sonrası doların yükselmesi ve Fed’in faiz artırımı beklentisi altın üzerinde baskı oluşturuyor; net etki hafif pozitif fakat belirsiz.
+GPT (gpt-6-luna): puan **-0.45**, güven 0.64 — Beklentiyi aşan istihdam ve güçlenen Aralık faiz artırımı beklentisi, dolar ile reel faizleri destekleyerek altın üzerinde kısa vadeli baskı oluşturuyor. İran gerilimi ve tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu anki makro sinyaller daha ağır basıyor.
 
 Son işlemler:
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,353.88 $** (başlangıç 100,000 $, +9353.88 $ / %+9.35)
+**Hesap değeri: 109,260.00 $** (başlangıç 100,000 $, +9260.00 $ / %+9.26)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA short @ 189.20 (TP 186.19 / SL 190.92); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 19:09 N  NEWS (11 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doları yukarı itti ve piyasada Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; New York Fed Başkanı Williams'ın enflasyonun çok yüksek olduğu yönündeki açıklaması da sıkılaştırıcı tonu destekliyor. Bu nedenle altın üzerinde 1-4 saatlik baskı beklenir; İran savaşına ilişkin jeopolitik risk ise büyük ölçüde fiyatlanmış olduğundan güvenli liman talebini tek başına dengelemeye yetmeyebilir.
-06.11 19:09 N  GPT  score -0.35 conf 0.58: Beklentiyi aşan ABD istihdamı doları güçlendirirken Williams’ın enflasyonun hâlâ yüksek olduğu vurgusu Fed’in gevşemesi beklentisini sınırlayarak altını baskılıyor. Yemen ve İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak haber akışı karışık ve bir kısmı önceden fiyatlanmış olabi
-06.11 19:09 B6  karar turu: Claude «Nasdaq'ın sert düşüşünün ardından güçlü istihdam verisiyle gelen tepki alımları öğle saatlerinde ivme kaybediyor, teknoloji tarafında kısa vadeli zayıflama sinyalleri var.» / GPT «Endeksler günlük bazda artıda olsa da son saatte zayıflayan momentum, olumsuz şirket haberlerine dayalı seçici kısa pozisyonları destekliyor.»
 06.11 19:21 N  NEWS (14 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi doları yükseltti ve Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; bu, reel faiz ve dolar kanalıyla altın için belirgin bir baskı yaratır. İran savaşının sürmesi güvenli liman talebi açısından destekleyici olsa da, petrol piyasasının barışı fiyatlaması ve Fed yetkililerinin enflasyon konusundaki sert söylemi bu etkiyi sınırlıyor.
 06.11 19:21 N  GPT  score -0.62 conf 0.76: Beklentileri aşan ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirirken dolar endeksini yükseltti; bu gelişmeler önümüzdeki saatlerde altın üzerinde baskı yaratabilir. Tüketici enflasyon beklentilerindeki gerileme ve jeopolitik riskler düşüşü sınırlayabilir.
 06.11 19:21 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'ın sert düşüşünün ardından gelen dip alımlarıyla piyasa toparlanıyor, ancak son bir saatte momentum zayıfladı ve fiyatlar yatay seyrediyor.» / GPT «Endekslerde günlük yükselişe rağmen son beş dakikalık kapanışlarda ivme kaybı görülürken, güncel fiyatların toparlanması nedeniyle şirket haberlerine dayalı seçici işlemler öne çıkıyor.»
@@ -102,6 +99,9 @@ Son işlemler:
 06.11 19:58 N  NEWS (8 new) score -0.20 conf 0.40: Güçlü tarım dışı istihdam verisi (165 bin) dolar endeksini yükseltti ve piyasa Aralık'ta faiz artırımı beklentisini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. Buna karşılık İran savaşındaki tırmanış ve tanker saldırıları güvenli liman talebini destekliyor, bu nedenle etki karışık ve güven düşük.
 06.11 19:58 N  GPT  score +0.15 conf 0.38: İran’ın yeniden saldırı kararı ve Körfez’de bir tankere yönelik ölümcül füze saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak güçlü ABD istihdamı sonrası doların yükselmesi ve Fed’in faiz artırımı beklentisi altın üzerinde baskı oluşturuyor; net etki hafif pozitif fakat belirsiz.
 06.11 19:58 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'taki sert düşüş sonrası tepki alımlarıyla piyasa pozitif seyrediyor, ancak artan Aralık faiz artırımı beklentileri yukarı yönlü potansiyeli sınırlayabilir.» / GPT «Endeksler pozitif ancak son saatte ivme sınırlı; güçlü istihdamın artırdığı faiz beklentileri ve kaldıraç, yeni pozisyonlarda seçiciliği gerektiriyor.»
+06.11 20:10 N  NEWS (5 new) score -0.50 conf 0.60: Yeni haberlerin ağırlıklı tonu şahin: beklentilerin üzerinde güçlü istihdam (165 bin), işsizlik oranının 4,1%'e gerilemesi, Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesi ve Fed yetkililerinin enflasyon uyarıları, doların yükselişiyle birlikte altın için baskı yaratıyor. İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu haberler büyük ölçüde fiyatlanmış ve eskidir; bu nedenle etkisi sınırlı kalır.
+06.11 20:10 N  GPT  score -0.45 conf 0.64: Beklentiyi aşan istihdam ve güçlenen Aralık faiz artırımı beklentisi, dolar ile reel faizleri destekleyerek altın üzerinde kısa vadeli baskı oluşturuyor. İran gerilimi ve tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu anki makro sinyaller daha ağır basıyor.
+06.11 20:10 B6  karar turu: Claude «Güçlü istihdam verisi Aralık faiz artırımı beklentisini canlandırsa da piyasa, Nasdaq'taki sert düşüşün ardından teknoloji ağırlıklı bir tepki yükselişi yaşıyor ve öğleden sonra yatay ile hafif oynak bir seyir bekleniyor.» / GPT «Endekslerde günlük yükseliş sürse de son saatte ivmenin zayıflaması ve faiz artışı beklentileri, yeni uzun pozisyonlarda yükselişi kovalamayı risk
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
