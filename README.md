@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 08:14 (İstanbul)
+> Son güncelleme: 06.11.2026 08:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %0.0 | %41.1 |
 | Ödenen komisyon/spread | 47.34 $ | 664.80 $ |
 
-**Hesap değeri: 4,742.11 $** (başlangıç 5,000 $, -257.89 $ / %-5.16)
+**Hesap değeri: 4,736.18 $** (başlangıç 5,000 $, -263.82 $ / %-5.28)
+
+Açık pozisyonlar: PAXGUSDT short @ 4040.58 (TP 4028.46 / SL 4048.66)
 
 Son haber analizi (06.11 08:12): Claude puan **-0.25**, güven 0.40 — Altın, petrol kaynaklı enflasyon kaygıları ve güçlenen dolar (DXY 101.80) nedeniyle baskı altında; haberlerde "gold eases" ve "gold prices plummet" temaları öne çıkıyor. İran savaşı jeopolitik talebi destekleyici olsa da, yüksek petrol fiyatlarının faiz beklentilerini sertleştirmesi bu etkiyi dengeliyor. Yaklaşan ABD tarım dışı istihdam (NFP) verisi yönü belirsiz bir risk yarattığı için güven düşük tutuldu.
 
@@ -48,7 +50,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 17.17 $ |
 
-**Hesap değeri: 5,047.64 $** (başlangıç 5,000 $, +47.64 $ / %+0.95)
+**Hesap değeri: 5,060.18 $** (başlangıç 5,000 $, +60.18 $ / %+1.20)
 
 Açık pozisyonlar: BZ=F long @ 99.69 (TP 99.99 / SL 99.50)
 
@@ -86,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 07:35 N  GPT  score +0.05 conf 0.24: Hegseth’in İran savaşını savunması jeopolitik risk algısını bir miktar destekleyebilir, ancak yeni bir askerî tırmanış haberi yok. Petrol kaynaklı enflasyon endişeleri ve yaklaşan istihdam verisi altın için aşağı yönlü risk oluştururken, başlıklar karışık ve etkisi sınırlı görünüyor.
 06.11 07:47 N  NEWS (7 new) score -0.10 conf 0.35: Yeni başlıklar karışık: AI satışı ve risk kaçışı güvenli liman talebini artırıyor, ancak dolara olan talep altın için baskı yaratıyor. Petrol kaynaklı enflasyon endişeleri Fed'in sıkı kalma beklentisini güçlendirip altı aşağı çekebilir; ABD tarım dışı istihdam (NFP) verisi de yön belirleyici olacak. Bu nedenle hafif negatif, düşük güvenli bir görünüm.
 06.11 07:47 N  GPT  score -0.25 conf 0.55: Asya’daki yapay zekâ kaynaklı riskten kaçışın dolara güvenli liman talebi yaratması ve yüksek petrolün enflasyon/faiz kaygılarını canlı tutması altın için kısa vadede hafif negatif. İran savaşıyla ilgili başlıklar yeni bir tırmanış göstermiyor; yaklaşan ABD istihdam verisi ve çelişkili altın haberle
 06.11 07:59 N  NEWS (8 new) score -0.20 conf 0.35: Dolar güvenli liman talebiyle güçleniyor ve petrol kaynaklı enflasyon endişeleri faiz indirimi beklentilerini zayıflatarak altı baskılıyor; öte yandan İran'ın Katar aracılığıyla nükleer teklif göndermesi jeopolitik risk primini azaltabilir. Yaklaşan ABD tarım-dışı istihdam (NFP) verisinin sonucu belirsiz olduğundan genel etki hafif negatif ve düşük güvenilirlikli.
@@ -101,6 +102,7 @@ Son işlemler:
 06.11 08:12 B5  CLOSE short stop (gap): -56.23 USD
 06.11 08:12 N  NEWS (9 new) score -0.25 conf 0.40: Altın, petrol kaynaklı enflasyon kaygıları ve güçlenen dolar (DXY 101.80) nedeniyle baskı altında; haberlerde "gold eases" ve "gold prices plummet" temaları öne çıkıyor. İran savaşı jeopolitik talebi destekleyici olsa da, yüksek petrol fiyatlarının faiz beklentilerini sertleştirmesi bu etkiyi dengeliyor. Yaklaşan ABD tarım dışı istihdam (NFP) verisi yönü belirsiz bir risk yarattığı için güven düşük tutuldu.
 06.11 08:12 N  GPT  score -0.28 conf 0.57: DXY’nin 101,80’e yükselmesi ve yüksek petrol kaynaklı enflasyon/faiz endişeleri kısa vadede altını baskılıyor; yaklaşan ABD istihdam verisi de temkinli pozisyonlanmayı destekliyor. İran savaşı güvenli liman talebi sağlasa da haber akışı karışık ve etkisi net değil.
+06.11 08:17 B5  SHORT gold 25000 USD x10 @ 4040.58 (TP 4028.46, SL 4048.66; news -0.27)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
