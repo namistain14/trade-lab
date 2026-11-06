@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 19:06 (İstanbul)
+> Son güncelleme: 06.11.2026 19:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (06.11 18:57): Claude puan **-0.45**, güven 0.60 — Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doların yükselmesine ve Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesine yol açtı; bu, altın için net olarak baskılayıcı. İran savaşı ve yeni saldırı tehdidi güvenli liman talebini destekleyebilir, ancak bu etki haberlerin büyük kısmında zaten fiyatlanmış görünüyor ve jeopolitik kaynaklı yükseliş tek başına hawkish veri etkisini dengelemeyebilir.
+Son haber analizi (06.11 19:09): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doları yukarı itti ve piyasada Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; New York Fed Başkanı Williams'ın enflasyonun çok yüksek olduğu yönündeki açıklaması da sıkılaştırıcı tonu destekliyor. Bu nedenle altın üzerinde 1-4 saatlik baskı beklenir; İran savaşına ilişkin jeopolitik risk ise büyük ölçüde fiyatlanmış olduğundan güvenli liman talebini tek başına dengelemeye yetmeyebilir.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.64 — Beklentileri aşan istihdam verisi dolar endeksini yükseltti ve Fed’in faizleri daha uzun süre yüksek tutacağı beklentisini güçlendirerek altını kısa vadede baskılıyor. İran’daki tanker saldırıları ve yeni saldırı ihtimali güvenli liman talebini destekleyebilir; bu karşıt etki düşüşü sınırlıyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Beklentiyi aşan ABD istihdamı doları güçlendirirken Williams’ın enflasyonun hâlâ yüksek olduğu vurgusu Fed’in gevşemesi beklentisini sınırlayarak altını baskılıyor. Yemen ve İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak haber akışı karışık ve bir kısmı önceden fiyatlanmış olabi
 
 Son işlemler:
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %52.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,575.10 $** (başlangıç 100,000 $, +9575.10 $ / %+9.58)
+**Hesap değeri: 109,390.86 $** (başlangıç 100,000 $, +9390.86 $ / %+9.39)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA short @ 189.20 (TP 186.19 / SL 190.92); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 18:20 N  GPT  score -0.65 conf 0.76: Beklentiyi aşan istihdam ve işsizlik oranındaki düşüş, Fed’in daha sıkı kalacağı beklentisini ve dolar talebini güçlendirerek altın üzerinde baskı yaratıyor. İran savaşı kaynaklı riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş etkisi sınırsız değil.
-06.11 18:20 B6  karar turu: Claude «Güçlü istihdam verisi, Michigan güveninin beklentiyi aşması ve İran'la anlaşma umutları, satış dalgası sonrası teknoloji ağırlıklı bir toparlanmayı destekliyor; ancak sert yükselen çip hisselerinde kâr satışı riski var.» / GPT «Güçlü istihdam ve beklenti üzerindeki tüketici güveni risk iştahını destekliyor; ancak uzamış yükselişler ve mevcut SPY/QQQ pozisyonları nedeniyle y
-06.11 18:32 N  NEWS (16 new) score -0.40 conf 0.60: Güçlü ABD istihdam verisi (Ekimde 165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırımı ihtimalini canlandırıyor ve doları destekliyor; Williams ve Musalem'in enflasyon yorumları da şahin tonda. Bu, altın için net olarak baskılayıcı. Gulf'taki tanker saldırısı ve İran savaşı gibi jeopolitik riskler kısmen destekleyici olsa da, bunlar uzun süredir fiyatlanmış haberler olduğundan etkisi sınırlı kalır.
 06.11 18:32 N  GPT  score -0.38 conf 0.68: Beklentileri aşan istihdam ve Fed yetkililerinin enflasyon vurgusu, faizlerin yüksek kalacağı beklentisini ve doları destekleyerek altını kısa vadede baskılayabilir. Körfez’de tankere yönelik ölümcül saldırı güvenli liman talebini artırabilir; bu karşı etki düşüşü sınırlıyor.
 06.11 18:32 B6  karar turu: Claude «Güçlü istihdam verisi sonrası açılıştaki yapay zeka toparlanması öğleye doğru zayıflıyor; Nasdaq'ta satış baskısı artarken seçici ve kısa vadeli pozisyonlar tercih edilmeli.» / GPT «Endekslerde son kapanışlar ivme kaybına işaret ederken şirket bazlı ayrışma öne çıkıyor; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı.»
 06.11 18:32 B6  AÇIĞA SATIŞ NVDA 574 adet ≈ 108,503 $ (1:4) @ 189.03 (TP 186.19, SL 190.92; ikisi de hemfikir, güven 0.60)
@@ -102,6 +99,9 @@ Son işlemler:
 06.11 18:57 N  NEWS (9 new) score -0.45 conf 0.60: Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doların yükselmesine ve Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesine yol açtı; bu, altın için net olarak baskılayıcı. İran savaşı ve yeni saldırı tehdidi güvenli liman talebini destekleyebilir, ancak bu etki haberlerin büyük kısmında zaten fiyatlanmış görünüyor ve jeopolitik kaynaklı yükseliş tek başına hawkish veri etkisini dengelemeyebilir.
 06.11 18:57 N  GPT  score -0.35 conf 0.64: Beklentileri aşan istihdam verisi dolar endeksini yükseltti ve Fed’in faizleri daha uzun süre yüksek tutacağı beklentisini güçlendirerek altını kısa vadede baskılıyor. İran’daki tanker saldırıları ve yeni saldırı ihtimali güvenli liman talebini destekleyebilir; bu karşıt etki düşüşü sınırlıyor.
 06.11 18:57 B6  karar turu: Claude «Güçlü istihdam verisi ve AI hisselerinde dipten alım, endekslerin günü yukarıda tutmasını sağlıyor; ancak yüksek VIX nedeniyle oynaklık sürüyor.» / GPT «Endekslerdeki toparlanma alımları desteklese de momentumun yataylaşması ve Tesla'ya özgü olumsuz haber kısa vadeli satış fırsatı sunuyor.»
+06.11 19:09 N  NEWS (11 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (Ekim'de 165 bin iş, işsizlik %4.1) doları yukarı itti ve piyasada Fed'in Aralık'ta faiz artırabileceği beklentisini güçlendirdi; New York Fed Başkanı Williams'ın enflasyonun çok yüksek olduğu yönündeki açıklaması da sıkılaştırıcı tonu destekliyor. Bu nedenle altın üzerinde 1-4 saatlik baskı beklenir; İran savaşına ilişkin jeopolitik risk ise büyük ölçüde fiyatlanmış olduğundan güvenli liman talebini tek başına dengelemeye yetmeyebilir.
+06.11 19:09 N  GPT  score -0.35 conf 0.58: Beklentiyi aşan ABD istihdamı doları güçlendirirken Williams’ın enflasyonun hâlâ yüksek olduğu vurgusu Fed’in gevşemesi beklentisini sınırlayarak altını baskılıyor. Yemen ve İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak haber akışı karışık ve bir kısmı önceden fiyatlanmış olabi
+06.11 19:09 B6  karar turu: Claude «Nasdaq'ın sert düşüşünün ardından güçlü istihdam verisiyle gelen tepki alımları öğle saatlerinde ivme kaybediyor, teknoloji tarafında kısa vadeli zayıflama sinyalleri var.» / GPT «Endeksler günlük bazda artıda olsa da son saatte zayıflayan momentum, olumsuz şirket haberlerine dayalı seçici kısa pozisyonları destekliyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
