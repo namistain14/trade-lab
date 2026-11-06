@@ -4333,6 +4333,10 @@
    [
     1793962187,
     5000.0
+   ],
+   [
+    1793962378,
+    5000.0
    ]
   ],
   "archive": [
@@ -17617,43 +17621,38 @@
    [
     1793962187,
     4868.5
+   ],
+   [
+    1793962378,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.25,
-   "confidence": 0.4,
-   "reason": "Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve dolar ile tahvil faizlerindeki toparlanma, alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran'a y\u00f6nelik \u00fc\u00e7\u00fcnc\u00fc ABD u\u00e7ak gemisi g\u00f6revi jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak petrol\u00fcn gerilim azalmas\u0131 sinyalleriyle d\u00fc\u015fmesi bu etkiyi dengeliyor; ayr\u0131ca NFP \u00f6ncesi piyasa belirsizli\u011fi nedeniyle sinyal kar\u0131\u015f\u0131k.",
+   "score": -0.15,
+   "confidence": 0.3,
+   "reason": "Haberler kar\u0131\u015f\u0131k: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki s\u00f6zleri ve ABD dolar\u0131n\u0131n g\u00fcvenli liman talebiyle desteklenmesi alt\u0131n i\u00e7in hafif olumsuz; buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \u00fc\u00e7\u00fcnc\u00fc ABD u\u00e7ak gemisi haberi jeopolitik risk primini destekliyor. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve NFP \u00f6ncesi eski tarihli \"Fed faiz art\u0131r\u0131m\u0131\" beklentisi gibi unsurlar etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793961618627,
-   "new_headlines": 18,
+   "ts": 1793962377541,
+   "new_headlines": 14,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.3,
-    "confidence": 0.56,
-    "reason": "Fed Williams\u2019\u0131n enflasyonun h\u00e2l\u00e2 fazla y\u00fcksek oldu\u011funu vurgulamas\u0131, dolar ve faiz beklentileri \u00fczerinden alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir; NFP \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve d\u00fc\u015fen alt\u0131n da bu y\u00f6n\u00fc destekliyor. \u0130ran \u00e7evresindeki asker\u00ee gerilim g\u00fcvenli liman talebi yaratabilir, ancak haberler \u00e7eli\u015fkili ve yak",
+    "score": -0.35,
+    "confidence": 0.68,
+    "reason": "Fed yetkilisinin enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011funu vurgulamas\u0131, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen tahvil getirileriyle birlikte alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; yakla\u015fan istihdam verisi de temkinlili\u011fi art\u0131r\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak gerilimin azalabilece\u011fine dai",
     "key_events": [
-     "Fed Williams: Enflasyon h\u00e2l\u00e2 fazla y\u00fcksek",
-     "NFP \u00f6ncesi dolar ve faiz beklentileri g\u00fc\u00e7l\u00fc",
-     "\u0130ran gerilimi g\u00fcvenli liman talebini destekleyebilir"
+     "Fed\u2019den enflasyonun y\u00fcksek kald\u0131\u011f\u0131 mesaj\u0131",
+     "Dolar ve tahvil getirileri alt\u0131n i\u00e7in bask\u0131 unsuru",
+     "\u0130ran kaynakl\u0131 g\u00fcvenli liman talebi, gerilimin azalmas\u0131 i\u015faretleriyle dengeleniyor"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793698114501,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131n petrol fiyatlar\u0131n\u0131 (WTI 96 dolar\u0131 \u00fczerinde) yukar\u0131 itmesi enflasyon ve s\u0131k\u0131la\u015fma beklentilerini besleyerek alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor; Avrupa Merkez Bankas\u0131'n\u0131n \u015fahin tonu ve dolar\u0131n ABD ara se\u00e7imleri \u00f6ncesinde dengeli seyretmesi de desteklemiyor. Buna kar\u015f\u0131l\u0131k sava\u015f riskinin s\u00fcrmesi ve merkez bankalar\u0131n\u0131n g\u00fc\u00e7l\u00fc alt\u0131n al\u0131mlar\u0131 (3. \u00e7eyrekte 321 ton) yap\u0131sal olarak destekleyici, bu y\u00fczden etki s\u0131n\u0131rl\u0131 ve belirsiz.",
-    "new": 17,
-    "gpt_score": 0.18,
-    "gpt_confidence": 0.43
-   },
    {
     "ts": 1793699316832,
     "score": -0.2,
@@ -20344,25 +20343,44 @@
     "new": 18,
     "gpt_score": -0.3,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1793962377541,
+    "score": -0.15,
+    "confidence": 0.3,
+    "reason": "Haberler kar\u0131\u015f\u0131k: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki s\u00f6zleri ve ABD dolar\u0131n\u0131n g\u00fcvenli liman talebiyle desteklenmesi alt\u0131n i\u00e7in hafif olumsuz; buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \u00fc\u00e7\u00fcnc\u00fc ABD u\u00e7ak gemisi haberi jeopolitik risk primini destekliyor. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve NFP \u00f6ncesi eski tarihli \"Fed faiz art\u0131r\u0131m\u0131\" beklentisi gibi unsurlar etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 14,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 68
+   "n": 69
   },
   "news_seen": [
    "Tanzanian opposition leader found guilty of incitement",
+   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
+   "Aya Gold & Silver Inc. (TSX:AYA): High Profit Per Employee Signals a Lean Silver Producer Scaling Output and Exploration - kalkine.ca",
    "Two dead after bus crashes in France, officials say",
-   "US inflation too high; essential to get back to 2%: Fed's Williams - Reuters",
+   "How voter anger over Iran war, prices and Israel powered Democratic midterm sweep - Anadolu Ajans\u0131",
+   "US inflation too high; essential to get back to 2%: Fed's Williams - Yahoo Finance Singapore",
+   "Nicolas Cage Returns in \u2018Lords of War\u2019 Alongside Bill Skarsg\u00e5rd as the First Trailer for the Highly Anticipated Sequel Arrives - IMDb",
    "A 'gas war' in Fulton as two stations drop prices below $3.00 a gallon - WSTM",
    "China puts DF missiles on display amid speculation about ICBM test - South China Morning Post",
-   "VP Vance signals Iran war main reason GOP lost midterms; new voter poll data sheds insight - WSMH",
+   "Report: Economic populism, US-Israel war on Iran fueled Democratic sweep - Muslim Network TV",
+   "#Video_News Emirates Group first-half profit plunges 66% amid #Middle_East war and rising fuel costs watch - Facebook",
+   "France Plans Upgraded MBDA Naval Cruise Missile Order - Aviation Week",
+   "NATO Seeks \u2018Just\u2019 End to Ukraine War as Trump Touts Deal Involving Europe - ASHARQ AL-AWSAT English",
    "In \u2018Birds of War,\u2019 Romance Unfolds Against a Backdrop of Strife - The New York Times",
    "Oil Declines on Signs of Moves Toward Gulf War De-Escalation - Bloomberg.com",
+   "Trump\u2019s Iran war has left America weaker and less reliable, says Katulis - Decode39",
    "Inside the EU\u2019s battle to bar Russian war veterans from Europe - Euronews",
+   "How the War with Iran Ends - Robin J Brooks | Substack",
    "In The War On Mosquitos, Bird Advocates Shift Their Game Plan - Honolulu Civil Beat",
    "Gold investors are buying into declining prices: Brooke Thackray - BNN Bloomberg",
    "Electoral disaster sets off new war over populism in the GOP - Washington Examiner",
+   "F-35B releases Meteor missile from internal weapons bay for first time - AeroTime",
    "Rutte Doubts Either Side Will Win Russia\u2019s War Against Ukraine - Kyiv Post",
    "Europe's climate tax risks opening a new trade war with India at COP31 - Euronews",
    "Elon Musk appears to signal the end of the road for Cybertruck",
@@ -20375,32 +20393,20 @@
    "MBDA\u2019s METEOR missile completes first jettison trials from F-35 - Defensehere",
    "Some Democrats don\u2019t want to wait for January to block Trump\u2019s war in Iran - Politico",
    "Swiss Franc: 0.8110 remains in focus against US Dollar - UOB - FXStreet",
+   "Dhanteras buyers may purchase 7-8 grams of gold, spend Rs 1.10 lakh on average, says IBJA Secretary - Moneycontrol.com",
    "Why is gold edging lower as recovering bond yields and Fed hike bets bolster USD ahead of US NFP? - www.tmgm.com",
    "France to Order Long-range Naval Cruise Missile from MBDA - ASHARQ AL-AWSAT English",
    "Gold prices fall 1% ahead of US jobs data, rising oil prices put pressure - Laodong.vn",
    "US Nonfarm Payrolls expected to pick up in October - FXStreet",
+   "US Dollar: Safe haven support as AI stocks slide \u2013 MUFG - www.tmgm.com",
    "France to order long-range naval cruise missile from MBDA - Reuters",
    "France to order long-range naval cruise missile from MBDA - Yahoo",
    "How does it affect me if share prices fall?",
    "Trump signs order to preserve Oval Office as national monument",
-   "NATO says Kyiv allies working for \u2018just and sustainable\u2019 end to war - Arab News",
-   "Fed Chair Kevin Warsh Is Planning to Break 45 Years of Precedent With a Stunning Change to Monetary Policy -- It Could Rattle Wall Street for Years to Come - The Motley Fool",
-   "US Dollar Maintains Levels Against Major Currencies - Fana News -",
-   "WTI Holds Above $90 Amid Geopolitical & Data Caution - TradingPedia",
-   "The Dollar\u2019s Bullish Case Holds Firm After Midterms Shakeout - Bloomberg.com",
-   "Dollar-yen May Test Upside on U.S. Jobs Report; Post-Midterm Stock Slump Weighs - BigGo Finance",
-   "Trump holds phone call with Iran war mediator Qatari Emir - The New Arab",
-   "Your Money:\u2009How to plan your next gold purchase | Business News - Hindustan Times",
-   "Gold price drops by Tk 2,741 per Bhori - The Financial Express",
-   "Gold Holds Above $4,000 as Dollar Rebounds Pre-NFP - TradingPedia",
-   "US Treasury Traders Make Bullish Bets Ahead of Jobs Report - Bloomberg.com",
-   "UK jailing of Indian sailor over Russia sanctions sets off \u2018perfect storm\u2019 - Al Jazeera",
-   "Alamos Gold (TSX:AGI): Low-Cost Ounces and Lean Operations Underpin Earnings Productivity and a Growth Pipeline - kalkine.ca"
+   "NATO says Kyiv allies working for \u2018just and sustainable\u2019 end to war - Arab News"
   ]
  },
  "log": [
-  "05.11 11:39 N  GPT  score +0.35 conf 0.55: Dolar\u0131n se\u00e7im sonras\u0131 zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor; \u0130ran\u2019a y\u00f6nelik yeni yapt\u0131r\u0131mlar da s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak \u0130ran sava\u015f\u0131nda bar\u0131\u015f umutlar\u0131 ve petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, jeopolitik risk primini azaltarak y\u00fcksel",
-  "05.11 12:03 N  NEWS (13 new) score +0.35 conf 0.50: Ara se\u00e7im sonras\u0131 dolar ve Hazine getirilerinin zay\u0131flamas\u0131 alt\u0131n i\u00e7in destekleyici; \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Hormuz'daki gerilim de g\u00fcvenli liman talebini canl\u0131 tutuyor. Ancak bar\u0131\u015f umutlar\u0131n\u0131n petrol fiyatlar\u0131n\u0131 d\u00fc\u015f\u00fcrmesi enflasyon beklentilerini bask\u0131layabilir ve Cuma g\u00fcnk\u00fc istihdam verisi belirsizlik yarat\u0131yor; ayr\u0131ca rallinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve 4.200$ direnci yak\u0131n.",
   "05.11 12:03 N  GPT  score +0.48 conf 0.62: ABD ara se\u00e7imleri sonras\u0131 dolar ve Hazine getirilerindeki yumu\u015fama alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 ve Rusya\u2019n\u0131n \u0130ran\u2019a f\u00fcze sistemleri sa\u011flayaca\u011f\u0131 haberi de g\u00fcvenli liman talebini art\u0131rabilir. Ancak bar\u0131\u015f beklentileri ve y\u00fckseli\u015fin zaten fiyatlanm\u0131\u015f olma ihtimali kazan\u0131mlar\u0131 s\u0131n\u0131rl\u0131yor.",
   "05.11 12:15 N  NEWS (10 new) score +0.35 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar ve Hazine getirileri zay\u0131flad\u0131, bu da alt\u0131n i\u00e7in olumlu; petrol fiyatlar\u0131n\u0131n gerilemesi enflasyon bask\u0131s\u0131n\u0131 azalt\u0131p Fed beklentilerini yumu\u015fatabilir. Hormuz'daki tanker yang\u0131nlar\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik risk primini destekliyor, ancak dolar hareketi k\u0131smen fiyatlanm\u0131\u015f durumda ve bir\u00e7ok ba\u015fl\u0131k eski/tekrar niteli\u011finde oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "05.11 12:15 N  GPT  score +0.32 conf 0.46: Dolar ve tahvil getirilerindeki gerilemeyle alt\u0131n\u0131n y\u00fckseldi\u011fi haberleri k\u0131sa vadede destekleyici; Kuzey Kore\u2019nin f\u00fcze denemesi de s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak bu hareketin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olma ihtimali ve petrol\u00fcn gerilemesi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor.",
@@ -20698,7 +20704,9 @@
   "06.11 13:40 N  NEWS (18 new) score -0.25 conf 0.40: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve dolar ile tahvil faizlerindeki toparlanma, alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran'a y\u00f6nelik \u00fc\u00e7\u00fcnc\u00fc ABD u\u00e7ak gemisi g\u00f6revi jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak petrol\u00fcn gerilim azalmas\u0131 sinyalleriyle d\u00fc\u015fmesi bu etkiyi dengeliyor; ayr\u0131ca NFP \u00f6ncesi piyasa belirsizli\u011fi nedeniyle sinyal kar\u0131\u015f\u0131k.",
   "06.11 13:40 N  GPT  score -0.30 conf 0.56: Fed Williams\u2019\u0131n enflasyonun h\u00e2l\u00e2 fazla y\u00fcksek oldu\u011funu vurgulamas\u0131, dolar ve faiz beklentileri \u00fczerinden alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir; NFP \u00f6ncesi g\u00fc\u00e7l\u00fc dolar ve d\u00fc\u015fen alt\u0131n da bu y\u00f6n\u00fc destekliyor. \u0130ran \u00e7evresindeki asker\u00ee gerilim g\u00fcvenli liman talebi yaratabilir, ancak haberler \u00e7eli\u015fkili ve yak",
   "06.11 13:40 B5P  NEWS (43 new) score +0.10 conf 0.40: Hormuz'da iki tankerin may\u0131na \u00e7arp\u0131p yanmas\u0131 ve Iran'\u0131n baz\u0131 \u00fclkelere ge\u00e7i\u015f k\u0131s\u0131tlamas\u0131 getirmesi arz riskini art\u0131rarak fiyatlar\u0131 destekliyor. Ancak Bloomberg'in de-eskalasyon sinyallerine ba\u011fl\u0131 d\u00fc\u015f\u00fc\u015f\u00fc, Iran'\u0131n n\u00fckleer teklifi ve Qatar arac\u0131l\u0131\u011f\u0131yla y\u00fcr\u00fcyen diplomasi ile haftal\u0131k yakla\u015f\u0131k %12'lik d\u00fc\u015f\u00fc\u015f e\u011filimi bask\u0131lay\u0131c\u0131; haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in net etki hafif pozitif kal\u0131yor.",
-  "06.11 13:40 B5P  GPT  score +0.38 conf 0.52: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda iki tankerin may\u0131na \u00e7arparak yanmas\u0131 iddias\u0131, arz kesintisi ve ta\u015f\u0131mac\u0131l\u0131k riskini art\u0131rarak Brent\u2019i k\u0131sa vadede destekliyor. Ancak \u0130ran\u2019\u0131n Katar arac\u0131l\u0131\u011f\u0131yla teklif iletti\u011fi ve gerilimin azalabilece\u011fi y\u00f6n\u00fcndeki haberler, ayr\u0131ca d\u00fc\u015f\u00fc\u015f e\u011filimi, y\u00fckseli\u015fin g\u00fcvenini s\u0131n\u0131rl\u0131yor."
+  "06.11 13:40 B5P  GPT  score +0.38 conf 0.52: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda iki tankerin may\u0131na \u00e7arparak yanmas\u0131 iddias\u0131, arz kesintisi ve ta\u015f\u0131mac\u0131l\u0131k riskini art\u0131rarak Brent\u2019i k\u0131sa vadede destekliyor. Ancak \u0130ran\u2019\u0131n Katar arac\u0131l\u0131\u011f\u0131yla teklif iletti\u011fi ve gerilimin azalabilece\u011fi y\u00f6n\u00fcndeki haberler, ayr\u0131ca d\u00fc\u015f\u00fc\u015f e\u011filimi, y\u00fckseli\u015fin g\u00fcvenini s\u0131n\u0131rl\u0131yor.",
+  "06.11 13:52 N  NEWS (14 new) score -0.15 conf 0.30: Haberler kar\u0131\u015f\u0131k: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki s\u00f6zleri ve ABD dolar\u0131n\u0131n g\u00fcvenli liman talebiyle desteklenmesi alt\u0131n i\u00e7in hafif olumsuz; buna kar\u015f\u0131l\u0131k \u0130ran'a y\u00f6nelik \u00fc\u00e7\u00fcnc\u00fc ABD u\u00e7ak gemisi haberi jeopolitik risk primini destekliyor. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve NFP \u00f6ncesi eski tarihli \"Fed faiz art\u0131r\u0131m\u0131\" beklentisi gibi unsurlar etkiyi dengeliyor, bu y\u00fczden sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "06.11 13:52 N  GPT  score -0.35 conf 0.68: Fed yetkilisinin enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011funu vurgulamas\u0131, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen tahvil getirileriyle birlikte alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor; yakla\u015fan istihdam verisi de temkinlili\u011fi art\u0131r\u0131yor. \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak gerilimin azalabilece\u011fine dai"
  ],
  "gold_big": {
   "account": {
@@ -30975,6 +30983,10 @@
    [
     1793962187,
     4963.78
+   ],
+   [
+    1793962378,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -41179,6 +41191,10 @@
    [
     1793962187,
     4975.18
+   ],
+   [
+    1793962378,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -51349,6 +51365,10 @@
    [
     1793962187,
     4993.28
+   ],
+   [
+    1793962378,
+    4993.28
    ]
   ]
  },
@@ -61356,6 +61376,10 @@
    [
     1793962187,
     4969.22
+   ],
+   [
+    1793962378,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -71007,6 +71031,10 @@
    ],
    [
     1793962187,
+    4630.23
+   ],
+   [
+    1793962378,
     4630.23
    ]
   ],
@@ -81251,6 +81279,10 @@
    [
     1793962187,
     108259.6
+   ],
+   [
+    1793962378,
+    108259.6
    ]
   ],
   "open": {},
@@ -89513,6 +89545,10 @@
    ],
    [
     1793962187,
+    5007.68
+   ],
+   [
+    1793962378,
     5007.68
    ]
   ],
