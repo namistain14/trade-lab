@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 13:37 (İstanbul)
+> Son güncelleme: 06.11.2026 13:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,9 @@
 
 **Hesap değeri: 4,630.23 $** (başlangıç 5,000 $, -369.77 $ / %-7.40)
 
-Son haber analizi (06.11 13:28): Claude puan **-0.30**, güven 0.50 — Faiz artırımı beklentileri, güçlenen dolar ve tahvil getirilerindeki toparlanma altın üzerinde baskı yaratıyor; Goldman'ın Fed'in sert duruşu nedeniyle yıl sonu altın tahminini düşürmesi de olumsuz. İran savaşına ilişkin jeopolitik riskler ise güvenli liman talebi yaratabilir, ancak petrol fiyatlarındaki düşüş gerilimin azalabileceğine işaret ettiği için bu destek sınırlı kalabilir.
+Son haber analizi (06.11 13:40): Claude puan **-0.25**, güven 0.40 — Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması ve dolar ile tahvil faizlerindeki toparlanma, altın üzerinde kısa vadede baskı yaratıyor. İran'a yönelik üçüncü ABD uçak gemisi görevi jeopolitik risk kaynaklı güvenli liman talebini destekleyebilir, ancak petrolün gerilim azalması sinyalleriyle düşmesi bu etkiyi dengeliyor; ayrıca NFP öncesi piyasa belirsizliği nedeniyle sinyal karışık.
+
+GPT (gpt-6-luna): puan **-0.30**, güven 0.56 — Fed Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, dolar ve faiz beklentileri üzerinden altını kısa vadede baskılayabilir; NFP öncesi güçlü dolar ve düşen altın da bu yönü destekliyor. İran çevresindeki askerî gerilim güvenli liman talebi yaratabilir, ancak haberler çelişkili ve yak
 
 Son işlemler:
 
@@ -83,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 12:02 N  GPT  score -0.45 conf 0.62: Altının 4.050 doların altına düşmesi ve doların güçlenmesi, Fed’in daha şahin kalabileceği beklentisiyle önümüzdeki saatlerde baskının sürmesine işaret ediyor. İran’ın ABD’ye nükleer teklif gönderdiği haberi gerilimi azaltabilir; diğer jeopolitik riskler ise düşüşü sınırlayabilir.
-06.11 12:15 N  NEWS (2 new) score -0.45 conf 0.60: Dolar toparlanması, Fed'de şahinleşme beklentisi ve Goldman'ın yıl sonu altın tahminini düşürmesi altın için baskılayıcı; altın $4.050'nin altına düştü. Kısa vadede İran savaşı ve jeopolitik gerilim gibi güvenli liman talebini destekleyebilecek haberler var ama bunların büyük kısmı zaten fiyatlanmış; ayrıca ABD tarım dışı istihdam (NFP) verisi öncesi oynaklık yüksek olduğu için güven sınırlı.
 06.11 12:15 N  GPT  score -0.58 conf 0.70: Doların istihdam verisi öncesi toparlanması ve altının 4.050 doların altına düşmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; şahin Fed beklentileri de bu eğilimi destekliyor. İran’dan gelen müzakere haberi jeopolitik risk primini azaltabilir, ancak savaşla ilgili çelişkili haberler ve y
 06.11 12:27 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 12:27 N  NEWS (8 new) score -0.30 conf 0.50: Kısa vadede altın için baskı ağırlıklı: Goldman'ın Fed'in şahin dönüşü nedeniyle yıl sonu altın tahminini düşürmesi, doların toparlanması ve altının 4.050 doların altına inmesi negatif. Buna karşılık İran savaşı, Trump'ın savaşı yeniden başlatma kararı ve küresel teknoloji satışı güvenli liman talebini destekleyebilir; ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD tarım dışı istihdam (NFP) verisi öncesi belirsizlik yüksek.
@@ -98,6 +98,8 @@ Son işlemler:
 06.11 13:16 N  NEWS (6 new) score -0.40 conf 0.55: Altın, güçlenen doların ve beklenen güçlü ABD tarım dışı istihdam (NFP) verisi öncesinde yaklaşık %1 düşüyor; Goldman'ın Fed'in sertleşme yönlü değişimi nedeniyle yıl sonu altın tahminini düşürmesi de kısa vadede baskı yaratıyor. Öte yandan İran'daki gerilimin azalmasına dair işaretler petrol fiyatlarını düşürse de WTI hâlâ 90 doların üzerinde olduğundan enflasyon ve faiz beklentileri altın için olumsuz kalıyor; NFP sonucunun belirsizliği nedeniyle güven sınırlı.
 06.11 13:28 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 13:28 N  NEWS (17 new) score -0.30 conf 0.50: Faiz artırımı beklentileri, güçlenen dolar ve tahvil getirilerindeki toparlanma altın üzerinde baskı yaratıyor; Goldman'ın Fed'in sert duruşu nedeniyle yıl sonu altın tahminini düşürmesi de olumsuz. İran savaşına ilişkin jeopolitik riskler ise güvenli liman talebi yaratabilir, ancak petrol fiyatlarındaki düşüş gerilimin azalabileceğine işaret ettiği için bu destek sınırlı kalabilir.
+06.11 13:40 N  NEWS (18 new) score -0.25 conf 0.40: Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması ve dolar ile tahvil faizlerindeki toparlanma, altın üzerinde kısa vadede baskı yaratıyor. İran'a yönelik üçüncü ABD uçak gemisi görevi jeopolitik risk kaynaklı güvenli liman talebini destekleyebilir, ancak petrolün gerilim azalması sinyalleriyle düşmesi bu etkiyi dengeliyor; ayrıca NFP öncesi piyasa belirsizliği nedeniyle sinyal karışık.
+06.11 13:40 N  GPT  score -0.30 conf 0.56: Fed Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, dolar ve faiz beklentileri üzerinden altını kısa vadede baskılayabilir; NFP öncesi güçlü dolar ve düşen altın da bu yönü destekliyor. İran çevresindeki askerî gerilim güvenli liman talebi yaratabilir, ancak haberler çelişkili ve yak
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
