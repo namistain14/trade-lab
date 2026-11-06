@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 18:05 (İstanbul)
+> Son güncelleme: 06.11.2026 18:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %18.2 | %39.7 |
 | Ödenen komisyon/spread | 130.36 $ | 747.81 $ |
 
-**Hesap değeri: 4,578.93 $** (başlangıç 5,000 $, -421.07 $ / %-8.42)
+**Hesap değeri: 4,566.29 $** (başlangıç 5,000 $, -433.71 $ / %-8.67)
 
 Açık pozisyonlar: PAXGUSDT short @ 4034.16 (TP 4022.06 / SL 4042.23)
 
-Son haber analizi (06.11 17:56): Claude puan **-0.60**, güven 0.70 — Güçlü ABD tarım dışı istihdam verisi (165 bin, beklentinin üzerinde) dolar ve tahvil getirilerini yükseltti ve piyasada Fed faiz artırım beklentileri arttı; bu, altın için net olarak baskı yaratır. Goldman'ın hawkish Fed gerekçesiyle altın tahminlerini düşürmesi de aynı yönü destekliyor. İran savaşı haberleri güvenli liman talebi açısından bir miktar destek sağlasa da bu etki büyük ölçüde fiyatlanmış durumda.
+Son haber analizi (06.11 18:08): Claude puan **-0.45**, güven 0.60 — Güçlü ABD istihdam raporu (165 bin yeni iş, beklentilerin üzerinde) Fed'in Aralık'ta faiz artırımını sürdürebileceği beklentisini güçlendirdi ve doları destekledi; bu, kısa vadede altın için net baskı yaratıyor. Pazartesi bulunan İran savaşı ve güvenli liman talebi destekleyici olsa da bu etki büyük ölçüde fiyatlanmış durumda ve Goldman'ın altın tahminlerini düşürmesi de negatif sinyal veriyor.
 
-GPT (gpt-6-luna): puan **-0.62**, güven 0.72 — Beklentileri aşan ABD istihdamı dolar ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için baskın biçimde olumsuz. Körfez’deki tanker saldırısı güvenli liman talebini destekleyebilir, ancak etkisi güçlü dolar baskısını şimdilik
+GPT (gpt-6-luna): puan **-0.45**, güven 0.65 — Beklentileri aşan istihdam verisi Fed’in faizleri yüksek tutacağı beklentisini ve doları destekleyerek kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve tankere yönelik saldırı güvenli liman talebini artırabilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı çelişkili.
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,405.24 $** (başlangıç 100,000 $, +8405.24 $ / %+8.41)
+**Hesap değeri: 108,147.20 $** (başlangıç 100,000 $, +8147.20 $ / %+8.15)
 
 Açık pozisyonlar: QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
 
@@ -89,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 17:32 B6  karar turu: Claude «Beklentilerin üzerindeki istihdam verisi ve yapay zekâ hisselerindeki dip alımıyla piyasa ılımlı yükseliş eğiliminde; teknoloji öncülük ediyor.» / GPT «Teknoloji hisselerinde toparlanma eğilimi var ancak güçlü istihdam ve ücret verileri faiz baskısı yaratabilir; dört kat kaldıraçta korelasyon ve stop kayması riski önemlidir.»
-06.11 17:32 B6  ALIŞ QQQ 164 adet ≈ 107,905 $ (1:4) @ 657.96 (TP 667.83, SL 651.38; ikisi de hemfikir, güven 0.55)
-06.11 17:43 N  NEWS (15 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; Goldman da Fed'in şahin duruşu nedeniyle altın tahminlerini düşürdü. Bu baskı, İran savaşı ve Hürmüz/Körfez tanker saldırılarıyla ilgili jeopolitik güvenli liman talebini kısmen dengeliyor, bu yüzden güven orta düzeyde.
 06.11 17:43 N  GPT  score -0.65 conf 0.78: Beklentileri aşan ABD istihdam verisi doları ve tahvil getirilerini yükselterek Fed’in daha şahin kalacağı beklentisini güçlendiriyor; bu, önümüzdeki saatlerde altın için belirgin biçimde negatif. Körfez’de tankere yönelik ölümcül saldırı güvenli liman talebini destekleyebilir, ancak kısa vadede mak
 06.11 17:43 B6  karar turu: Claude «Beklentileri aşan istihdam verisi ve teknoloji satışlarının ardından gelen dip alımı, piyasada kısa vadeli pozitif bir hava yaratıyor.» / GPT «Piyasa kısa vadede yukarı eğilimli ancak sert teknoloji sıçramaları ve dört kat kaldıraç nedeniyle hareketi kovalamadan seçici işlem yapılmalı.»
 06.11 17:43 B6  AÇIĞA SATIŞ AAPL 319 adet ≈ 108,297 $ (1:4) @ 339.49 (TP 334.4, SL 342.88; ikisi de hemfikir, güven 0.50)
@@ -104,6 +101,9 @@ Son işlemler:
 06.11 17:56 B6  karar turu: Claude «Beklentiyi aşan istihdam verisi ve yapay zekâ hisselerinde dipten alımlarla piyasa risk iştahlı, ancak sert yükselen çip hisselerini kovalamaktan kaçınılmalı.» / GPT «Kısa vadeli yön yukarı olsa da sıcak ücret verileri ve son zirvelerden geri çekilme nedeniyle 1:4 kaldıraçta toplam korelasyon riski sınırlı tutulmalı.»
 06.11 17:56 B6  ALIŞ SPY 108 adet ≈ 79,902 $ (1:4) @ 739.83 (TP 750.93, SL 732.43; ikisi de hemfikir, güven 0.55)
 06.11 17:56 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"4726.92","code":40310000,"cost_basis":"80021.53","message":"insufficient buying power"}
+06.11 18:08 N  NEWS (15 new) score -0.45 conf 0.60: Güçlü ABD istihdam raporu (165 bin yeni iş, beklentilerin üzerinde) Fed'in Aralık'ta faiz artırımını sürdürebileceği beklentisini güçlendirdi ve doları destekledi; bu, kısa vadede altın için net baskı yaratıyor. Pazartesi bulunan İran savaşı ve güvenli liman talebi destekleyici olsa da bu etki büyük ölçüde fiyatlanmış durumda ve Goldman'ın altın tahminlerini düşürmesi de negatif sinyal veriyor.
+06.11 18:08 N  GPT  score -0.45 conf 0.65: Beklentileri aşan istihdam verisi Fed’in faizleri yüksek tutacağı beklentisini ve doları destekleyerek kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve tankere yönelik saldırı güvenli liman talebini artırabilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı çelişkili.
+06.11 18:08 B6  karar turu: Claude «Güçlü istihdam ve Michigan verileriyle teknoloji öncülüğünde riskli varlık iştahı sürüyor, ancak sabah rallisinin ardından endekslerde kısa vadeli soğuma ve yatay seyir görülüyor.» / GPT «Endeksler günlük bazda güçlü olsa da son barlardaki geri çekilme yeni uzun pozisyonları kovalamak yerine seçici kısa işlemleri destekliyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
