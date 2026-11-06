@@ -5025,6 +5025,10 @@
    [
     1793992005,
     5000.0
+   ],
+   [
+    1793992186,
+    5000.0
    ]
   ],
   "archive": [
@@ -19000,6 +19004,10 @@
    ],
    [
     1793992005,
+    4868.5
+   ],
+   [
+    1793992186,
     4868.5
    ]
   ],
@@ -33051,6 +33059,10 @@
    [
     1793992005,
     4963.78
+   ],
+   [
+    1793992186,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -43947,6 +43959,10 @@
    [
     1793992005,
     4975.18
+   ],
+   [
+    1793992186,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -54809,6 +54825,10 @@
    [
     1793992005,
     4993.28
+   ],
+   [
+    1793992186,
+    4993.28
    ]
   ]
  },
@@ -65508,6 +65528,10 @@
    [
     1793992005,
     4969.22
+   ],
+   [
+    1793992186,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -75978,6 +76002,10 @@
    [
     1793992005,
     4544.23
+   ],
+   [
+    1793992186,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -76185,7 +76213,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 110656.01038400004,
+   "balance": 110664.21118400001,
    "start": 100000.0,
    "positions": [
     {
@@ -76200,7 +76228,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Nasdaq d\u00fc\u015ferken son bir saatte %0.9 y\u00fckselen g\u00f6reli g\u00fc\u00e7 var, diren\u00e7siz y\u00fckseli\u015f trendi s\u00fcr\u00fcyor. | GPT 0.65: Endeksler gerilerken son saatte y\u00fckselmesi ve yak\u0131n zirvelerini korumas\u0131 k\u0131sa vadeli g\u00f6reli g\u00fc\u00e7 avantaj\u0131 sunuyor.",
-     "cur": 344.53
+     "cur": 344.55
     },
     {
      "id": "4c32bc5c-ec0b-444b-aa33-28da7c2e4f21",
@@ -76214,7 +76242,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert d\u00fc\u015f\u00fc\u015f sonras\u0131 dip al\u0131m\u0131 s\u00fcr\u00fcyor, fiyat g\u00fcn i\u00e7i direnci yukar\u0131 k\u0131rd\u0131; ancak Daly'nin \u015fahin s\u00f6ylemi riski art\u0131r\u0131yor. | GPT 0.6: Son saatlik yatay band\u0131n yukar\u0131 k\u0131r\u0131lmas\u0131 ve olumsuz haberlere ra\u011fmen zirve yak\u0131n\u0131nda tutunmas\u0131, k\u0131sa vadeli devam lehine \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 187.35
+     "cur": 187.52
     },
     {
      "id": "3f80f949-2027-453b-80bf-f15324935bbf",
@@ -76242,7 +76270,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 738.43
+     "cur": 738.4599
     }
    ],
    "trades": [
@@ -76681,12 +76709,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 2456.11,
+    "pnl": 2572.26,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 110715.71
+   "equity": 110831.86
   },
   "equity_curve": [
    [
@@ -87024,6 +87052,10 @@
    [
     1793992005,
     110715.71
+   ],
+   [
+    1793992186,
+    110831.86
    ]
   ],
   "open": {
@@ -96023,6 +96055,10 @@
    ],
    [
     1793992005,
+    5007.68
+   ],
+   [
+    1793992186,
     5007.68
    ]
   ],
