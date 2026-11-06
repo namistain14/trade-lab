@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 21:21 (İstanbul)
+> Son güncelleme: 06.11.2026 21:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,876.42 $** (başlangıç 100,000 $, +9876.42 $ / %+9.88)
+**Hesap değeri: 109,955.08 $** (başlangıç 100,000 $, +9955.08 $ / %+9.96)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 19:58 N  NEWS (8 new) score -0.20 conf 0.40: Güçlü tarım dışı istihdam verisi (165 bin) dolar endeksini yükseltti ve piyasa Aralık'ta faiz artırımı beklentisini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. Buna karşılık İran savaşındaki tırmanış ve tanker saldırıları güvenli liman talebini destekliyor, bu nedenle etki karışık ve güven düşük.
-06.11 19:58 N  GPT  score +0.15 conf 0.38: İran’ın yeniden saldırı kararı ve Körfez’de bir tankere yönelik ölümcül füze saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak güçlü ABD istihdamı sonrası doların yükselmesi ve Fed’in faiz artırımı beklentisi altın üzerinde baskı oluşturuyor; net etki hafif pozitif fakat belirsiz.
 06.11 19:58 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'taki sert düşüş sonrası tepki alımlarıyla piyasa pozitif seyrediyor, ancak artan Aralık faiz artırımı beklentileri yukarı yönlü potansiyeli sınırlayabilir.» / GPT «Endeksler pozitif ancak son saatte ivme sınırlı; güçlü istihdamın artırdığı faiz beklentileri ve kaldıraç, yeni pozisyonlarda seçiciliği gerektiriyor.»
 06.11 20:10 N  NEWS (5 new) score -0.50 conf 0.60: Yeni haberlerin ağırlıklı tonu şahin: beklentilerin üzerinde güçlü istihdam (165 bin), işsizlik oranının 4,1%'e gerilemesi, Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesi ve Fed yetkililerinin enflasyon uyarıları, doların yükselişiyle birlikte altın için baskı yaratıyor. İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu haberler büyük ölçüde fiyatlanmış ve eskidir; bu nedenle etkisi sınırlı kalır.
 06.11 20:10 N  GPT  score -0.45 conf 0.64: Beklentiyi aşan istihdam ve güçlenen Aralık faiz artırımı beklentisi, dolar ile reel faizleri destekleyerek altın üzerinde kısa vadeli baskı oluşturuyor. İran gerilimi ve tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu anki makro sinyaller daha ağır basıyor.
@@ -102,6 +100,8 @@ Son işlemler:
 06.11 20:59 B6  karar turu: Claude «Güçlü istihdam verisi ve 2020'den beri en kötü günün ardından teknoloji öncülüğünde toparlanma sürüyor, ancak faiz artırımı beklentileri ve hafta sonu öncesi kâr satışları öğleden sonra dalgalanma riski taşıyor.» / GPT «Endekslerdeki son tepki henüz düşüş yapısını bozmadığından kısa yönü tercih ediyorum; 1:4 kaldıraçta iki pozisyonun ortak piyasa riskini sınırlamak önemli.»
 06.11 21:12 B6  karar turu: Claude «Güçlü istihdam verisiyle başlayan teknoloji toparlanması öğleden sonra zayıflıyor; ABD-Çin gerginliği ve Fed faiz artışı beklentileri Cuma kapanışına doğru kâr satışını destekleyebilir.» / GPT «Endekslerde gün içi kazanımların çözülmesi satış yönünü destekliyor; ancak taze şirket haberi eksikliği ve dört kat kaldıraç seçici işlem gerektiriyor.»
 06.11 21:12 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102518.41","code":40310000,"cost_basis":"113062.6","message":"insufficient buying power"}
+06.11 21:24 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq toparlandı, ancak Fed'den Daly'nin daha fazla sıkılaştırma sinyali öğleden sonra teknoloji hisselerinde momentumu zayıflatıyor.» / GPT «Fed’in şahin açıklamaları ve endekslerin son saatte gerilemesi, kaldıraç altında geniş piyasa alımı yerine seçici kısa pozisyonları destekliyor.»
+06.11 21:24 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102608.09","code":40310000,"cost_basis":"113083.78","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
