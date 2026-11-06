@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 17:44 (İstanbul)
+> Son güncelleme: 06.11.2026 17:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -309.95 $ | -343.89 $ |
-| İşlem sayısı | 10 | 62 |
-| Kazanma oranı | %20.0 | %40.3 |
-| Ödenen komisyon/spread | 118.49 $ | 735.95 $ |
+| Net kâr/zarar | -365.89 $ | -399.83 $ |
+| İşlem sayısı | 11 | 63 |
+| Kazanma oranı | %18.2 | %39.7 |
+| Ödenen komisyon/spread | 130.36 $ | 747.81 $ |
 
-**Hesap değeri: 4,651.05 $** (başlangıç 5,000 $, -348.95 $ / %-6.98)
-
-Açık pozisyonlar: PAXGUSDT short @ 4025.93 (TP 4013.86 / SL 4033.99)
+**Hesap değeri: 4,600.17 $** (başlangıç 5,000 $, -399.83 $ / %-8.00)
 
 Son haber analizi (06.11 17:43): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed faiz artırımı beklentilerini yükseltti, dolar ve tahvil getirileri yükseldi; Goldman da Fed'in şahin duruşu nedeniyle altın tahminlerini düşürdü. Bu baskı, İran savaşı ve Hürmüz/Körfez tanker saldırılarıyla ilgili jeopolitik güvenli liman talebini kısmen dengeliyor, bu yüzden güven orta düzeyde.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 17:47 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:11 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 14:26 | PAXGUSDT | short | -56.36 $ | stop (gap) |
-| 06.11 10:57 | PAXGUSDT | short | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -72,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,550.54 $** (başlangıç 100,000 $, +8550.54 $ / %+8.55)
+**Hesap değeri: 109,048.98 $** (başlangıç 100,000 $, +9048.98 $ / %+9.05)
 
 Açık pozisyonlar: AAPL short @ 339.55 (TP 334.40 / SL 342.88); QQQ long @ 657.70 (TP 667.83 / SL 651.38); TSLA long @ 353.67 (TP 359.01 / SL 350.16)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 17:10 B5  CLOSE short take profit: +69.09 USD
 06.11 17:16 B5  SHORT gold 25000 USD x10 @ 4022.34 (TP 4010.27, SL 4030.38; news -0.64)
 06.11 17:19 N  NEWS (18 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
 06.11 17:19 N  GPT  score -0.40 conf 0.68: Beklentiyi aşan istihdam ve işsizlikteki düşüş, Fed’in faiz artırımı olasılığını ve dolar talebini yükselterek kısa vadede altını baskılıyor. Körfez’deki ölümcül tanker saldırısı güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve karma haber akışı güveni azaltıyor.
@@ -104,6 +101,7 @@ Son işlemler:
 06.11 17:43 B6  karar turu: Claude «Beklentileri aşan istihdam verisi ve teknoloji satışlarının ardından gelen dip alımı, piyasada kısa vadeli pozitif bir hava yaratıyor.» / GPT «Piyasa kısa vadede yukarı eğilimli ancak sert teknoloji sıçramaları ve dört kat kaldıraç nedeniyle hareketi kovalamadan seçici işlem yapılmalı.»
 06.11 17:43 B6  AÇIĞA SATIŞ AAPL 319 adet ≈ 108,297 $ (1:4) @ 339.49 (TP 334.4, SL 342.88; ikisi de hemfikir, güven 0.50)
 06.11 17:43 B6  ALIŞ TSLA 307 adet ≈ 108,586 $ (1:4) @ 353.7 (TP 359.01, SL 350.16; ikisi de hemfikir, güven 0.45)
+06.11 17:47 B5  CLOSE short stop: -55.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
