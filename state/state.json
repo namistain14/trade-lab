@@ -3449,6 +3449,10 @@
    [
     1793924190,
     5000.0
+   ],
+   [
+    1793924381,
+    5000.0
    ]
   ],
   "archive": [
@@ -15849,15 +15853,19 @@
    [
     1793924190,
     4868.5
+   ],
+   [
+    1793924381,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.4,
-   "reason": "Yeni haberlerde net bir y\u00f6n yok: Goldman'\u0131n alt\u0131n tahminlerini Fed'in \u015fahin duru\u015fu nedeniyle d\u00fc\u015f\u00fcrmesi ve ABD dolar\u0131 g\u00fcvenli liman talebinin artmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131 ile teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f jeopolitik ve risk-off talebini destekleyerek alt\u0131n\u0131 k\u0131smen dengeliyor; NFP \u00f6ncesi fiyat zaten ~4.100 seviyesinde oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
+   "score": 0.02,
+   "confidence": 0.35,
+   "reason": "Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran sava\u015f\u0131 ve Hormuz patlamalar\u0131 g\u00fcvenli liman talebini destekliyor, Polonya'n\u0131n alt\u0131n al\u0131m\u0131na a\u00e7\u0131k kap\u0131 tutumu da olumlu. Buna kar\u015f\u0131l\u0131k dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131, Fed'in \u015fahin duru\u015fu ve Goldman'\u0131n alt\u0131n tahminlerini d\u00fc\u015f\u00fcrmesi bask\u0131 yarat\u0131yor; NFP verisi \u00f6ncesi belirsizlik de y\u00fcksek. Net etki n\u00f6tre yak\u0131n oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcven ile hafif pozitif skor veriyorum.",
    "n": 45,
-   "ts": 1793923619230,
-   "new_headlines": 7,
+   "ts": 1793924380903,
+   "new_headlines": 5,
    "key_events": [
     "ABD dolar\u0131 g\u00fc\u00e7l\u00fc i\u015fg\u00fcc\u00fc verisiyle sabitlendi (alt\u0131n i\u00e7in hafif negatif)",
     "Fed faizleri sabit tuttu (fiyatlanm\u0131\u015f, etkisi s\u0131n\u0131rl\u0131)",
@@ -15865,27 +15873,18 @@
    ],
    "gpt": {
     "score": 0.18,
-    "confidence": 0.31,
-    "reason": "\u0130ran sava\u015f\u0131yla ilgili belirsizlik ve olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n\u0131n zaten y\u00fckselmi\u015f olmas\u0131 ve yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011funun fiyatlanm\u0131\u015f ya da k\u0131sa vadede do\u011frudan etkisiz g\u00f6r\u00fcnmesi nedeniyle g\u00f6r\u00fcn\u00fcm hafif",
+    "confidence": 0.38,
+    "reason": "\u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019na ili\u015fkin belirsizlik g\u00fcvenli liman talebini destekleyebilir; alt\u0131n da son haberlerde y\u00fckseli\u015f momentumunda. Ancak dolar\u0131n g\u00fc\u00e7l\u00fc seyri, Fed\u2019in \u015fahin beklentileri ve yakla\u015fan istihdam verisi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
     "key_events": [
-     "\u0130ran sava\u015f\u0131 ve olas\u0131 t\u0131rmanma belirsizli\u011fi",
-     "Dolar\u0131n g\u00fcvenli liman talebiyle y\u00fckselmesi",
-     "Alt\u0131n\u0131n NFP \u00f6ncesi zaten y\u00fckselmi\u015f olmas\u0131"
+     "\u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019de gerilim",
+     "Dolar g\u00f6r\u00fcn\u00fcm\u00fc g\u00fc\u00e7l\u00fc; Fed beklentileri \u015fahin",
+     "Alt\u0131nda son y\u00fckseli\u015f ve yakla\u015fan istihdam verisi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793652692168,
-    "score": -0.05,
-    "confidence": 0.35,
-    "reason": "",
-    "new": 13,
-    "gpt_score": 0.25,
-    "gpt_confidence": 0.43
-   },
    {
     "ts": 1793653416851,
     "score": 0.08,
@@ -18576,17 +18575,31 @@
     "new": 7,
     "gpt_score": 0.18,
     "gpt_confidence": 0.31
+   },
+   {
+    "ts": 1793924380903,
+    "score": 0.02,
+    "confidence": 0.35,
+    "reason": "Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran sava\u015f\u0131 ve Hormuz patlamalar\u0131 g\u00fcvenli liman talebini destekliyor, Polonya'n\u0131n alt\u0131n al\u0131m\u0131na a\u00e7\u0131k kap\u0131 tutumu da olumlu. Buna kar\u015f\u0131l\u0131k dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131, Fed'in \u015fahin duru\u015fu ve Goldman'\u0131n alt\u0131n tahminlerini d\u00fc\u015f\u00fcrmesi bask\u0131 yarat\u0131yor; NFP verisi \u00f6ncesi belirsizlik de y\u00fcksek. Net etki n\u00f6tre yak\u0131n oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcven ile hafif pozitif skor veriyorum.",
+    "new": 5,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 16
+   "n": 17
   },
   "news_seen": [
-   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-   "US Navy to equip warships with 3,000-mph PAC-3 MSE missile hunters - Interesting Engineering",
+   "Utah vs. BYU: Old Friends, Holy War Stories & CFP Stakes | Jeff Hansen - KSL Sports",
+   "Talking Holy War: Inside the rivalry with former Utah receiver Demari Simpkins - KSL Sports",
    "Opinion | JD Vance\u2019s stunning act of disloyalty - The Washington Post",
+   "The engine parts that 'fight the laws of the universe'",
+   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "'I was asked if I was a crier': Your worst job interviews revealed",
+   "US Navy to equip warships with 3,000-mph PAC-3 MSE missile hunters - Interesting Engineering",
    "Shenandoah Valley to the Valley of Death: Vietnam War veteran reflects on his time in Southeast Asia - The Winchester Star",
+   "The Dollar\u2019s Bullish Case Holds Firm After Midterms Shakeout - Bloomberg.com",
    "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
    "Hegseth stands by Iran war as Vance, Trump cite it for midterm rout - TRT World",
    "The New Geopolitical Frontline Is On Orbit - Aviation Week",
@@ -18609,7 +18622,6 @@
    "Lorain native preserves father\u2019s World War II legacy - Morning Journal",
    "Gold price update morning of November 6th: Extending the upward momentum, positive prospects in the short term - Laodong.vn",
    "Voters want the Iran war to end. It\u2019s not that easy. - NBC News",
-   "Inside New York's bitter Republican civil war after blue wave - Gothamist",
    "\u2018Knives out\u2019 for Hegseth, other military leaders after Iran war dooms GOP - The Washington Post",
    "U.S. Dollar Moves Higher Amid Rising Demand For Safe-Haven Assets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "Feds: Tewksbury race war advocate threatened to kill President Donald Trump - Boston Herald",
@@ -18623,16 +18635,10 @@
    "Gold (XAU/USD) Price Forecast: Bullish Reversal Challenges Downtrend - FXEmpire",
    "Firms told to publish salaries in job adverts ahead of new law",
    "Goldman Sachs trims gold forecasts as Fed stays hawkish - Mining Weekly",
-   "IAMGOLD Reports Third Quarter 2026 Results - Quantisnow",
-   "Carney unveils budget to strengthen Canada\u2019s economy as Trump\u2019s trade war continues - Daily Journal",
-   "Trump expands Cuba sanctions, targeting new industries and offshore network - Miami Herald",
-   "How Gold Price Strength At Pan African Resources (LSE:PAF) Has Changed Its Investment Story - Simply Wall St",
-   "A 'gas war' in Fulton as two stations drop prices below $3.00 a gallon - WSTM"
+   "IAMGOLD Reports Third Quarter 2026 Results - Quantisnow"
   ]
  },
  "log": [
-  "04.11 23:33 N  NEWS (11 new) score +0.20 conf 0.40: ",
-  "04.11 23:33 N  GPT  score +0.35 conf 0.48: \u0130ran\u2019\u0131n Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi ve petrol\u00fcn d\u00fc\u015f\u00fc\u015f\u00fc t\u0131rmanman\u0131n s\u0131n\u0131rlanaca\u011f\u0131 beklentisini g\u00fc\u00e7lendiriyor. Demokratlar\u0131n se\u00e7im zaferiyle alt\u0131n\u0131n zaten 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131na dair haber, bu",
   "04.11 23:39 B6  CLOSE short NVDA take profit: +1575.42 USD",
   "04.11 23:45 N  NEWS (6 new) score +0.30 conf 0.50: ",
   "04.11 23:45 N  GPT  score +0.35 conf 0.52: Dolar\u0131n se\u00e7im sonras\u0131 gerilemesi ve \u0130ran\u2019daki yeni sald\u0131r\u0131 haberi alt\u0131na k\u0131sa vadede destek sa\u011flayabilir. Ancak sava\u015f riskinin azalaca\u011f\u0131 beklentisi, d\u00fc\u015fen petrol fiyatlar\u0131 ve haberlerin bir k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olmas\u0131 y\u00fckseli\u015f g\u00f6r\u00fcn\u00fcm\u00fcn\u00fc s\u0131n\u0131rl\u0131yor.",
@@ -18930,7 +18936,9 @@
   "06.11 02:55 N  NEWS (4 new) score +0.15 conf 0.40: ",
   "06.11 02:55 N  GPT  score +0.25 conf 0.36: \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019deki patlama iddialar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak g\u00f6r\u00fc\u015fmelerin s\u00fcrmesi ve dolar\u0131n g\u00fc\u00e7lenmesi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor. NFP \u00f6ncesinde alt\u0131n\u0131n zaten iki haftan\u0131n zirvesine yakla\u015fm\u0131\u015f olmas\u0131 k\u0131sa vadeli y\u00f6n konusunda temkini gerektiriyor.",
   "06.11 03:07 N  NEWS (7 new) score -0.10 conf 0.40: Yeni haberlerde net bir y\u00f6n yok: Goldman'\u0131n alt\u0131n tahminlerini Fed'in \u015fahin duru\u015fu nedeniyle d\u00fc\u015f\u00fcrmesi ve ABD dolar\u0131 g\u00fcvenli liman talebinin artmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131 ile teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f jeopolitik ve risk-off talebini destekleyerek alt\u0131n\u0131 k\u0131smen dengeliyor; NFP \u00f6ncesi fiyat zaten ~4.100 seviyesinde oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
-  "06.11 03:07 N  GPT  score +0.18 conf 0.31: \u0130ran sava\u015f\u0131yla ilgili belirsizlik ve olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n\u0131n zaten y\u00fckselmi\u015f olmas\u0131 ve yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011funun fiyatlanm\u0131\u015f ya da k\u0131sa vadede do\u011frudan etkisiz g\u00f6r\u00fcnmesi nedeniyle g\u00f6r\u00fcn\u00fcm hafif"
+  "06.11 03:07 N  GPT  score +0.18 conf 0.31: \u0130ran sava\u015f\u0131yla ilgili belirsizlik ve olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n\u0131n zaten y\u00fckselmi\u015f olmas\u0131 ve yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011funun fiyatlanm\u0131\u015f ya da k\u0131sa vadede do\u011frudan etkisiz g\u00f6r\u00fcnmesi nedeniyle g\u00f6r\u00fcn\u00fcm hafif",
+  "06.11 03:19 N  NEWS (5 new) score +0.02 conf 0.35: Haberler birbiriyle \u00e7eli\u015fiyor: \u0130ran sava\u015f\u0131 ve Hormuz patlamalar\u0131 g\u00fcvenli liman talebini destekliyor, Polonya'n\u0131n alt\u0131n al\u0131m\u0131na a\u00e7\u0131k kap\u0131 tutumu da olumlu. Buna kar\u015f\u0131l\u0131k dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131, Fed'in \u015fahin duru\u015fu ve Goldman'\u0131n alt\u0131n tahminlerini d\u00fc\u015f\u00fcrmesi bask\u0131 yarat\u0131yor; NFP verisi \u00f6ncesi belirsizlik de y\u00fcksek. Net etki n\u00f6tre yak\u0131n oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcven ile hafif pozitif skor veriyorum.",
+  "06.11 03:19 N  GPT  score +0.18 conf 0.38: \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019na ili\u015fkin belirsizlik g\u00fcvenli liman talebini destekleyebilir; alt\u0131n da son haberlerde y\u00fckseli\u015f momentumunda. Ancak dolar\u0131n g\u00fc\u00e7l\u00fc seyri, Fed\u2019in \u015fahin beklentileri ve yakla\u015fan istihdam verisi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir."
  ],
  "gold_big": {
   "account": {
@@ -28323,6 +28331,10 @@
    [
     1793924190,
     4963.78
+   ],
+   [
+    1793924381,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -37643,6 +37655,10 @@
    [
     1793924190,
     4975.18
+   ],
+   [
+    1793924381,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -46929,6 +46945,10 @@
    [
     1793924190,
     4993.28
+   ],
+   [
+    1793924381,
+    4993.28
    ]
   ]
  },
@@ -56052,6 +56072,10 @@
    [
     1793924190,
     4969.22
+   ],
+   [
+    1793924381,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -64714,6 +64738,10 @@
    ],
    [
     1793924190,
+    4910.15
+   ],
+   [
+    1793924381,
     4910.15
    ]
   ],
@@ -74074,6 +74102,10 @@
    [
     1793924190,
     108278.0
+   ],
+   [
+    1793924381,
+    108278.0
    ]
   ],
   "open": {},
@@ -81431,6 +81463,10 @@
    ],
    [
     1793924190,
+    5066.43
+   ],
+   [
+    1793924381,
     5066.43
    ]
   ],
