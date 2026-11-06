@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 12:48 (İstanbul)
+> Son güncelleme: 06.11.2026 12:51 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,630.23 $** (başlangıç 5,000 $, -369.77 $ / %-7.40)
 
-Son haber analizi (06.11 12:39): Claude puan **-0.20**, güven 0.45 — Dolar toparlanıyor ve NFP öncesi güç kazanıyor, Goldman da Fed'in şahin kaymasını gerekçe göstererek yıl sonu altın tahminini düşürdü; bu kısa vadede altın için baskılayıcı. İran savaşı belirsizliği ve petrolün 90 doların üzerinde seyretmesi güvenli liman talebini destekliyor, ancak bu etki dolar ve faiz beklentileri kadar güçlü görünmüyor.
+Son haber analizi (06.11 12:51): Claude puan **-0.35**, güven 0.50 — Dolar toparlanıyor ve NFP öncesi güç kazanıyor, Goldman da Fed'in şahin kaymasını gerekçe göstererek yıl sonu altın tahminini düşürdü; bu kısa vadede altın için baskılayıcı. İran savaşı belirsizliği ve petrolün 90 doların üzerinde seyretmesi güvenli liman talebini destekliyor, ancak bu etki dolar ve faiz beklentileri kadar güçlü görünmüyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 11:14 N  GPT  score -0.30 conf 0.44: Doların güçlenmesiyle altının %1’den fazla düşmesi kısa vadede aşağı yönlü momentumu destekliyor; Fed faiz artırımı riskine ilişkin beklentiler de baskı yaratabilir. Buna karşılık yeni haberlerde güçlü ve doğrudan bir piyasa katalizörü yok, bu yüzden görünümün güveni sınırlı.
-06.11 11:26 N  NEWS (6 new) score -0.30 conf 0.50: Fed'in sertleşme beklentisi, güçlenen dolar ve Goldman'ın hedef fiyat indirimi altın için baskı yaratıyor; İran savaşı ve teknoloji satışı kaynaklı güvenli liman talebi ise sınırlı bir destek sağlıyor. ABD istihdam verisi öncesi belirsizlik nedeniyle güven orta düzeyde tutuldu.
 06.11 11:26 N  GPT  score -0.35 conf 0.62: Doların güçlenmesiyle altının %1’den fazla düşmesi ve Fed’in daha şahin kalabileceği beklentisi kısa vadede baskın, olumsuz etkenler. İran savaşı söylemi ve teknoloji satışlarının güvenli liman talebini artırma ihtimali düşüşü sınırlayabilir; yaklaşan ABD istihdam verisi belirsizliği yükseltiyor.
 06.11 11:38 N  NEWS (7 new) score -0.35 conf 0.50: Dolar toparlanması ve altın fiyatının 4.050 doların altına düşmesi, Goldman'ın Fed'in şahin duruşu nedeniyle hedefi kırpması kısa vadede baskı yaratıyor. Ancak İran savaşı ve Ukrayna gibi jeopolitik riskler sürüyor, ayrıca ABD tarım dışı istihdam (NFP) verisi öncesi yön belirsiz olduğu için güven sınırlı.
 06.11 11:38 N  GPT  score -0.45 conf 0.58: Doların istihdam verisi öncesinde güçlenmesiyle altının 4.050 doların altına gerilemesi, önümüzdeki saatler için aşağı yönlü baskıya işaret ediyor. Ukrayna savaşına ilişkin belirsizlik güvenli liman talebini destekleyebilir; ancak bu haberler yeni bir tırmanış göstermiyor ve yönü sınırlı ölçüde deng
@@ -98,6 +96,8 @@ Son işlemler:
 06.11 12:27 N  NEWS (8 new) score -0.30 conf 0.50: Kısa vadede altın için baskı ağırlıklı: Goldman'ın Fed'in şahin dönüşü nedeniyle yıl sonu altın tahminini düşürmesi, doların toparlanması ve altının 4.050 doların altına inmesi negatif. Buna karşılık İran savaşı, Trump'ın savaşı yeniden başlatma kararı ve küresel teknoloji satışı güvenli liman talebini destekleyebilir; ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD tarım dışı istihdam (NFP) verisi öncesi belirsizlik yüksek.
 06.11 12:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 06.11 12:39 N  NEWS (9 new) score -0.20 conf 0.45: Dolar toparlanıyor ve NFP öncesi güç kazanıyor, Goldman da Fed'in şahin kaymasını gerekçe göstererek yıl sonu altın tahminini düşürdü; bu kısa vadede altın için baskılayıcı. İran savaşı belirsizliği ve petrolün 90 doların üzerinde seyretmesi güvenli liman talebini destekliyor, ancak bu etki dolar ve faiz beklentileri kadar güçlü görünmüyor.
+06.11 12:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+06.11 12:51 N  NEWS (5 new) score -0.35 conf 0.50: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
