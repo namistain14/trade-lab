@@ -3429,6 +3429,10 @@
    [
     1793923429,
     5000.0
+   ],
+   [
+    1793923620,
+    5000.0
    ]
   ],
   "archive": [
@@ -15809,43 +15813,38 @@
    [
     1793923429,
     4868.5
+   ],
+   [
+    1793923620,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.15,
+   "score": -0.1,
    "confidence": 0.4,
-   "reason": "Alt\u0131n, \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131yla g\u00fcvenli liman talebinden, Polonya Merkez Bankas\u0131'n\u0131n ek alt\u0131n al\u0131m\u0131 sinyalinden ve iki haftal\u0131k zirve tazelemesinden destek g\u00f6r\u00fcyor. Buna kar\u015f\u0131l\u0131k g\u00fcvenli liman kaynakl\u0131 dolar g\u00fcc\u00fc, NFP \u00f6ncesi bekleme ve olas\u0131 Fed beklentisi de\u011fi\u015fimleri k\u0131sa vadeli riskleri art\u0131r\u0131yor; bu nedenle sinyal orta d\u00fczeyde pozitif ama g\u00fcven s\u0131n\u0131rl\u0131.",
+   "reason": "Yeni haberlerde net bir y\u00f6n yok: Goldman'\u0131n alt\u0131n tahminlerini Fed'in \u015fahin duru\u015fu nedeniyle d\u00fc\u015f\u00fcrmesi ve ABD dolar\u0131 g\u00fcvenli liman talebinin artmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131 ile teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f jeopolitik ve risk-off talebini destekleyerek alt\u0131n\u0131 k\u0131smen dengeliyor; NFP \u00f6ncesi fiyat zaten ~4.100 seviyesinde oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
    "n": 45,
-   "ts": 1793922899522,
-   "new_headlines": 4,
+   "ts": 1793923619230,
+   "new_headlines": 7,
    "key_events": [
     "ABD dolar\u0131 g\u00fc\u00e7l\u00fc i\u015fg\u00fcc\u00fc verisiyle sabitlendi (alt\u0131n i\u00e7in hafif negatif)",
     "Fed faizleri sabit tuttu (fiyatlanm\u0131\u015f, etkisi s\u0131n\u0131rl\u0131)",
     "Iran sava\u015f\u0131 s\u00fcr\u00fcyor; yeni somut eskalasyon haberi yok"
    ],
    "gpt": {
-    "score": 0.25,
-    "confidence": 0.36,
-    "reason": "\u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019deki patlama iddialar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak g\u00f6r\u00fc\u015fmelerin s\u00fcrmesi ve dolar\u0131n g\u00fc\u00e7lenmesi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor. NFP \u00f6ncesinde alt\u0131n\u0131n zaten iki haftan\u0131n zirvesine yakla\u015fm\u0131\u015f olmas\u0131 k\u0131sa vadeli y\u00f6n konusunda temkini gerektiriyor.",
+    "score": 0.18,
+    "confidence": 0.31,
+    "reason": "\u0130ran sava\u015f\u0131yla ilgili belirsizlik ve olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n\u0131n zaten y\u00fckselmi\u015f olmas\u0131 ve yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011funun fiyatlanm\u0131\u015f ya da k\u0131sa vadede do\u011frudan etkisiz g\u00f6r\u00fcnmesi nedeniyle g\u00f6r\u00fcn\u00fcm hafif",
     "key_events": [
-     "H\u00fcrm\u00fcz\u2019de patlama iddialar\u0131 ve \u0130ran sava\u015f\u0131 belirsizli\u011fi",
-     "Dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi",
-     "NFP \u00f6ncesinde alt\u0131n\u0131n yak\u0131n d\u00f6nem zirvesine \u00e7\u0131kmas\u0131"
+     "\u0130ran sava\u015f\u0131 ve olas\u0131 t\u0131rmanma belirsizli\u011fi",
+     "Dolar\u0131n g\u00fcvenli liman talebiyle y\u00fckselmesi",
+     "Alt\u0131n\u0131n NFP \u00f6ncesi zaten y\u00fckselmi\u015f olmas\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793651972837,
-    "score": -0.2,
-    "confidence": 0.45,
-    "reason": "Dallas Fed Ba\u015fkan\u0131'n\u0131n en az iki faiz art\u0131r\u0131m\u0131 gerekti\u011fi y\u00f6n\u00fcndeki sert a\u00e7\u0131klamas\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; buna kar\u015f\u0131l\u0131k petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatmas\u0131 ve ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131n\u0131n alt\u0131n\u0131 destekleyen bir toparlanma sa\u011flamas\u0131 kar\u0131\u015f\u0131k bir tablo yarat\u0131yor. G\u00fcvenli liman talebi azal\u0131rken jeopolitik risk tamamen ortadan kalkmad\u0131\u011f\u0131 i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
-    "new": 5,
-    "gpt_score": 0.1,
-    "gpt_confidence": 0.4
-   },
    {
     "ts": 1793652692168,
     "score": -0.05,
@@ -18536,15 +18535,30 @@
     "new": 4,
     "gpt_score": 0.25,
     "gpt_confidence": 0.36
+   },
+   {
+    "ts": 1793923619230,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Yeni haberlerde net bir y\u00f6n yok: Goldman'\u0131n alt\u0131n tahminlerini Fed'in \u015fahin duru\u015fu nedeniyle d\u00fc\u015f\u00fcrmesi ve ABD dolar\u0131 g\u00fcvenli liman talebinin artmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131 ile teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f jeopolitik ve risk-off talebini destekleyerek alt\u0131n\u0131 k\u0131smen dengeliyor; NFP \u00f6ncesi fiyat zaten ~4.100 seviyesinde oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
+    "new": 7,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.31
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 15
+   "n": 16
   },
   "news_seen": [
+   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "US Navy to equip warships with 3,000-mph PAC-3 MSE missile hunters - Interesting Engineering",
+   "Opinion | JD Vance\u2019s stunning act of disloyalty - The Washington Post",
+   "Shenandoah Valley to the Valley of Death: Vietnam War veteran reflects on his time in Southeast Asia - The Winchester Star",
+   "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
+   "Hegseth stands by Iran war as Vance, Trump cite it for midterm rout - TRT World",
    "The New Geopolitical Frontline Is On Orbit - Aviation Week",
-   "Hegseth defends Iran war, vows to fight impeachment efforts - The New Arab",
+   "Torex Gold Resources Inc (TORXF) (Q3 2026) Earnings Call Highlights: Record Free Cash Flow, ... By GuruFocus - Investing.com Canada",
    "Poland central bank chief leaves door open to more gold buying - Mining.com.au",
    "Gold rises to near $4,100 ahead of US NFP data - FXStreet",
    "Gold Price Drop: Should You Buy This Dhanteras? Expert Market Analysis - Bhaskar English",
@@ -18554,7 +18568,6 @@
    "Chuck Schumer on funding and the Iran war - Punchbowl News",
    "There\u2019s only one responsible way to \u2018end the Iran war,\u2019 Chuck Schumer - New York Post",
    "Trump was asked about Secretary of War Pete Hegseth following Marsha Blackburn's seat - WBIR",
-   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
    "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
    "Fed's Cook lawyer seeks clarity ahead of any White House hearing - Yahoo",
    "Who won the redistricting war? So far, it looks like Democrats - ABC News - Breaking News, Latest News and Videos",
@@ -18562,9 +18575,9 @@
    "California governor commutes sentences for state's 548 death row inmates",
    "Gold Fields costs climb as Northern Star bid stalls | The Star - newspaper - Magzter",
    "Lorain native preserves father\u2019s World War II legacy - Morning Journal",
-   "VP JD Vance blames Republicans' midterm losses on Iran war - 13newsnow.com",
    "Gold price update morning of November 6th: Extending the upward momentum, positive prospects in the short term - Laodong.vn",
    "Voters want the Iran war to end. It\u2019s not that easy. - NBC News",
+   "Inside New York's bitter Republican civil war after blue wave - Gothamist",
    "\u2018Knives out\u2019 for Hegseth, other military leaders after Iran war dooms GOP - The Washington Post",
    "U.S. Dollar Moves Higher Amid Rising Demand For Safe-Haven Assets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "Feds: Tewksbury race war advocate threatened to kill President Donald Trump - Boston Herald",
@@ -18577,22 +18590,15 @@
    "Veterans\u2019 Home at Quincy to dedicate Gulf War Memorial - Herald-Whig",
    "Gold (XAU/USD) Price Forecast: Bullish Reversal Challenges Downtrend - FXEmpire",
    "Firms told to publish salaries in job adverts ahead of new law",
-   "Opinion | JD Vance\u2019s stunning act of disloyalty - The Washington Post",
+   "Goldman Sachs trims gold forecasts as Fed stays hawkish - Mining Weekly",
    "IAMGOLD Reports Third Quarter 2026 Results - Quantisnow",
    "Carney unveils budget to strengthen Canada\u2019s economy as Trump\u2019s trade war continues - Daily Journal",
    "Trump expands Cuba sanctions, targeting new industries and offshore network - Miami Herald",
-   "Gold prices today, November 6, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
    "How Gold Price Strength At Pan African Resources (LSE:PAF) Has Changed Its Investment Story - Simply Wall St",
-   "A 'gas war' in Fulton as two stations drop prices below $3.00 a gallon - WSTM",
-   "Iran War Emerges as Republican Lightening Rod in Aftermath of Midterm Shellacking - Algemeiner.com",
-   "Trump admits Iran war played a role in Republicans' midterm defeat - CBS News",
-   "IAMGOLD Corporation (IMG) Reports $856.5M Q3 Revenue, Reaffirms 2026 Production Guidance - TradingView",
-   "Republicans rebuke Trump on Iran war, economy after midterm wipeout - DW.com"
+   "A 'gas war' in Fulton as two stations drop prices below $3.00 a gallon - WSTM"
   ]
  },
  "log": [
-  "04.11 23:21 N  NEWS (15 new) score +0.15 conf 0.35: ",
-  "04.11 23:21 N  GPT  score +0.30 conf 0.48: Qeshm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 ve \u0130ran\u2019dan gelen yeni tehditler k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak sava\u015f\u0131n sona erebilece\u011fine dair beklentilerle petrol\u00fcn gerilemesi ve haber ak\u0131\u015f\u0131ndaki \u00e7eli\u015fkiler y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
   "04.11 23:33 N  NEWS (11 new) score +0.20 conf 0.40: ",
   "04.11 23:33 N  GPT  score +0.35 conf 0.48: \u0130ran\u2019\u0131n Qe\u015fm Adas\u0131\u2019na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n sava\u015f riskini k\u00fc\u00e7\u00fcmsemesi ve petrol\u00fcn d\u00fc\u015f\u00fc\u015f\u00fc t\u0131rmanman\u0131n s\u0131n\u0131rlanaca\u011f\u0131 beklentisini g\u00fc\u00e7lendiriyor. Demokratlar\u0131n se\u00e7im zaferiyle alt\u0131n\u0131n zaten 4.000 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131na dair haber, bu",
   "04.11 23:39 B6  CLOSE short NVDA take profit: +1575.42 USD",
@@ -18890,7 +18896,9 @@
   "06.11 02:45 B5  LONG gold 25000 USD x10 @ 4091.00 (TP 4103.27, SL 4082.82; news +0.38)",
   "06.11 02:51 B5  CLOSE long stop: -55.91 USD",
   "06.11 02:55 N  NEWS (4 new) score +0.15 conf 0.40: ",
-  "06.11 02:55 N  GPT  score +0.25 conf 0.36: \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019deki patlama iddialar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak g\u00f6r\u00fc\u015fmelerin s\u00fcrmesi ve dolar\u0131n g\u00fc\u00e7lenmesi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor. NFP \u00f6ncesinde alt\u0131n\u0131n zaten iki haftan\u0131n zirvesine yakla\u015fm\u0131\u015f olmas\u0131 k\u0131sa vadeli y\u00f6n konusunda temkini gerektiriyor."
+  "06.11 02:55 N  GPT  score +0.25 conf 0.36: \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019deki patlama iddialar\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak g\u00f6r\u00fc\u015fmelerin s\u00fcrmesi ve dolar\u0131n g\u00fc\u00e7lenmesi y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor. NFP \u00f6ncesinde alt\u0131n\u0131n zaten iki haftan\u0131n zirvesine yakla\u015fm\u0131\u015f olmas\u0131 k\u0131sa vadeli y\u00f6n konusunda temkini gerektiriyor.",
+  "06.11 03:07 N  NEWS (7 new) score -0.10 conf 0.40: Yeni haberlerde net bir y\u00f6n yok: Goldman'\u0131n alt\u0131n tahminlerini Fed'in \u015fahin duru\u015fu nedeniyle d\u00fc\u015f\u00fcrmesi ve ABD dolar\u0131 g\u00fcvenli liman talebinin artmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki patlama iddialar\u0131 ile teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f jeopolitik ve risk-off talebini destekleyerek alt\u0131n\u0131 k\u0131smen dengeliyor; NFP \u00f6ncesi fiyat zaten ~4.100 seviyesinde oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 kalabilir.",
+  "06.11 03:07 N  GPT  score +0.18 conf 0.31: \u0130ran sava\u015f\u0131yla ilgili belirsizlik ve olas\u0131 gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n g\u00fcvenli liman al\u0131mlar\u0131yla y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n\u0131n zaten y\u00fckselmi\u015f olmas\u0131 ve yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011funun fiyatlanm\u0131\u015f ya da k\u0131sa vadede do\u011frudan etkisiz g\u00f6r\u00fcnmesi nedeniyle g\u00f6r\u00fcn\u00fcm hafif"
  ],
  "gold_big": {
   "account": {
@@ -28263,6 +28271,10 @@
    [
     1793923429,
     4963.78
+   ],
+   [
+    1793923620,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -37563,6 +37575,10 @@
    [
     1793923429,
     4975.18
+   ],
+   [
+    1793923620,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -46829,6 +46845,10 @@
    [
     1793923429,
     4993.28
+   ],
+   [
+    1793923620,
+    4993.28
    ]
   ]
  },
@@ -55932,6 +55952,10 @@
    [
     1793923429,
     4969.22
+   ],
+   [
+    1793923620,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -64574,6 +64598,10 @@
    ],
    [
     1793923429,
+    4910.15
+   ],
+   [
+    1793923620,
     4910.15
    ]
   ],
@@ -73914,6 +73942,10 @@
    [
     1793923429,
     108278.0
+   ],
+   [
+    1793923620,
+    108278.0
    ]
   ],
   "open": {},
@@ -81251,6 +81283,10 @@
    ],
    [
     1793923429,
+    5066.43
+   ],
+   [
+    1793923620,
     5066.43
    ]
   ],

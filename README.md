@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 03:03 (İstanbul)
+> Son güncelleme: 06.11.2026 03:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,910.15 $** (başlangıç 5,000 $, -89.85 $ / %-1.80)
 
-Son haber analizi (06.11 02:54): Claude puan **+0.15**, güven 0.40 — Altın, İran savaşındaki tırmanış ve Hürmüz'deki patlama iddialarıyla güvenli liman talebinden, Polonya Merkez Bankası'nın ek altın alımı sinyalinden ve iki haftalık zirve tazelemesinden destek görüyor. Buna karşılık güvenli liman kaynaklı dolar gücü, NFP öncesi bekleme ve olası Fed beklentisi değişimleri kısa vadeli riskleri artırıyor; bu nedenle sinyal orta düzeyde pozitif ama güven sınırlı.
+Son haber analizi (06.11 03:06): Claude puan **-0.10**, güven 0.40 — Yeni haberlerde net bir yön yok: Goldman'ın altın tahminlerini Fed'in şahin duruşu nedeniyle düşürmesi ve ABD doları güvenli liman talebinin artması kısa vadede baskı yaratıyor. Buna karşılık İran savaşı ve Hürmüz'deki patlama iddiaları ile teknoloji hisselerindeki sert düşüş jeopolitik ve risk-off talebini destekleyerek altını kısmen dengeliyor; NFP öncesi fiyat zaten ~4.100 seviyesinde olduğu için etki sınırlı kalabilir.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.36 — İran savaşı ve Hürmüz’deki patlama iddiaları güvenli liman talebini destekleyebilir; ancak görüşmelerin sürmesi ve doların güçlenmesi yükselişi sınırlıyor. NFP öncesinde altının zaten iki haftanın zirvesine yaklaşmış olması kısa vadeli yön konusunda temkini gerektiriyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.31 — İran savaşıyla ilgili belirsizlik ve olası gerilim güvenli liman talebini destekleyebilir; ancak doların güvenli liman alımlarıyla yükselmesi altını baskılıyor. Altının zaten yükselmiş olması ve yeni başlıkların çoğunun fiyatlanmış ya da kısa vadede doğrudan etkisiz görünmesi nedeniyle görünüm hafif
 
 Son işlemler:
 
@@ -84,8 +84,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 01:42 N  GPT  score -0.15 conf 0.36: Hawkish Fed beklentisiyle Goldman’ın altın hedeflerini düşürmesi kısa vadede baskı yaratabilir; buna karşılık teknik görünümdeki toparlanma ve İran savaşı kaynaklı belirsizlik aşağı yönü sınırlıyor. Haber akışı çelişkili ve önemli bir yeni politika ya da çatışma gelişmesi içermediğinden etki hafif n
-06.11 01:54 N  NEWS (5 new) score -0.12 conf 0.35: Yeni başlıklar karışık: dolar güvenli liman talebiyle yükseliyor (altın için olumsuz) ve Iran savaşı sürüyor (olumlu), ancak savaşın bitebileceği yönündeki siyasi tartışmalar güvenli liman talebini zayıflatabilir. Goldman'ın şahin Fed nedeniyle altın hedeflerini düşürmesi gibi haberler zaten fiyatlanmış olduğundan etkisi sınırlı; bu nedenle hafif negatif, düşük güvenli bir görünüm.
 06.11 01:54 N  GPT  score -0.15 conf 0.43: İran savaşı ve ek askerî finansman tartışmaları güvenli liman talebini destekleyebilir; ancak yeni bir askerî tırmanış haberi yok. Doların güvenli liman talebiyle yükselmesi altını kısa vadede baskılıyor ve siyasi baskı savaşın sona ermesi olasılığını da gündemde tutuyor.
 06.11 02:06 N  NEWS (11 new) score +0.05 conf 0.30: 
 06.11 02:06 N  GPT  score -0.15 conf 0.30: Doların güvenli liman talebiyle yükseldiğine dair haberler ve şahin Fed beklentisi altın üzerinde hafif baskı yaratabilir. Ancak İran savaşıyla ilgili başlıklar yeni bir tırmanış göstermiyor; altın görünümüne ilişkin haberler de çelişkili olduğundan etki sınırlı ve belirsiz.
@@ -99,6 +97,8 @@ Son işlemler:
 06.11 02:51 B5  CLOSE long stop: -55.91 USD
 06.11 02:55 N  NEWS (4 new) score +0.15 conf 0.40: 
 06.11 02:55 N  GPT  score +0.25 conf 0.36: İran savaşı ve Hürmüz’deki patlama iddiaları güvenli liman talebini destekleyebilir; ancak görüşmelerin sürmesi ve doların güçlenmesi yükselişi sınırlıyor. NFP öncesinde altının zaten iki haftanın zirvesine yaklaşmış olması kısa vadeli yön konusunda temkini gerektiriyor.
+06.11 03:07 N  NEWS (7 new) score -0.10 conf 0.40: Yeni haberlerde net bir yön yok: Goldman'ın altın tahminlerini Fed'in şahin duruşu nedeniyle düşürmesi ve ABD doları güvenli liman talebinin artması kısa vadede baskı yaratıyor. Buna karşılık İran savaşı ve Hürmüz'deki patlama iddiaları ile teknoloji hisselerindeki sert düşüş jeopolitik ve risk-off talebini destekleyerek altını kısmen dengeliyor; NFP öncesi fiyat zaten ~4.100 seviyesinde olduğu için etki sınırlı kalabilir.
+06.11 03:07 N  GPT  score +0.18 conf 0.31: İran savaşıyla ilgili belirsizlik ve olası gerilim güvenli liman talebini destekleyebilir; ancak doların güvenli liman alımlarıyla yükselmesi altını baskılıyor. Altının zaten yükselmiş olması ve yeni başlıkların çoğunun fiyatlanmış ya da kısa vadede doğrudan etkisiz görünmesi nedeniyle görünüm hafif
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
