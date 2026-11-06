@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 21:45 (İstanbul)
+> Son güncelleme: 06.11.2026 21:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,388.93 $** (başlangıç 100,000 $, +10388.93 $ / %+10.39)
+**Hesap değeri: 110,609.77 $** (başlangıç 100,000 $, +10609.77 $ / %+10.61)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA long @ 187.28 (TP 189.97 / SL 185.29); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 20:10 N  GPT  score -0.45 conf 0.64: Beklentiyi aşan istihdam ve güçlenen Aralık faiz artırımı beklentisi, dolar ile reel faizleri destekleyerek altın üzerinde kısa vadeli baskı oluşturuyor. İran gerilimi ve tanker saldırısı güvenli liman talebini destekleyebilir, ancak şu anki makro sinyaller daha ağır basıyor.
 06.11 20:10 B6  karar turu: Claude «Güçlü istihdam verisi Aralık faiz artırımı beklentisini canlandırsa da piyasa, Nasdaq'taki sert düşüşün ardından teknoloji ağırlıklı bir tepki yükselişi yaşıyor ve öğleden sonra yatay ile hafif oynak bir seyir bekleniyor.» / GPT «Endekslerde günlük yükseliş sürse de son saatte ivmenin zayıflaması ve faiz artışı beklentileri, yeni uzun pozisyonlarda yükselişi kovalamayı risk
 06.11 20:23 B6  karar turu: Claude «Güçlü istihdam verisi ve teknoloji hisselerindeki dip alımları piyasayı yukarı taşıdı, ancak Fed faiz artışı beklentileri ve yüksek VIX nedeniyle öğleden sonra momentum zayıflıyor.» / GPT «Endeksler gün içi kazanımlarını korusa da son saatte ivme zayıf; yükselişi kovalamak yerine şirket özelindeki olumsuz haberlerde seçici kısa pozisyonlar öne çıkıyor.»
 06.11 20:35 B6  karar turu: Claude «Güçlü istihdam verisi Fed faiz artışı beklentilerini körüklerken, Nasdaq'taki sert düşüş sonrası gelen tepki alımları öğleden sonra hafifçe zayıflıyor; piyasa kararsız ve hafif negatif ivmeli.» / GPT «Endeksler günlük kazanımlarını korusa da son saatteki geri çekilme, yükselişi kovalamak yerine şirkete özgü olumsuz haberlerde seçici kısa pozisyonları destekliyor.»
@@ -102,6 +101,7 @@ Son işlemler:
 06.11 21:24 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102608.09","code":40310000,"cost_basis":"113083.78","message":"insufficient buying power"}
 06.11 21:36 B6  karar turu: Claude «Güçlü istihdam verisiyle Nasdaq toparlanıyor; ancak Fed'in şahin tonu ve hafta sonu riski yükselişi sınırlayabilir.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak Fed’in şahin açıklamaları ve kapanışa kalan sınırlı süre agresif alımlarda seçicilik gerektiriyor.»
 06.11 21:36 B6  ALIŞ NVDA 590 adet ≈ 110,424 $ (1:4) @ 187.16 (TP 189.97, SL 185.29; ikisi de hemfikir, güven 0.55)
+06.11 21:48 B6  karar turu: Claude «Nasdaq güçlü istihdam verisi sonrası sert düşüşten toparlanıyor, ancak Daly'nin şahin faiz artırımı söylemi ve Çin ticaret gerginliği Cuma öğleden sonrasında yukarı potansiyeli sınırlıyor.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak Fed’in şahin açıklamaları ve seans sonunun yaklaşması kaldıraçlı yeni işlemlerde seçicilik gerektiriyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
