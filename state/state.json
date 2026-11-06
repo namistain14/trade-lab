@@ -3889,6 +3889,10 @@
    [
     1793943168,
     5000.0
+   ],
+   [
+    1793943359,
+    5000.0
    ]
   ],
   "archive": [
@@ -16729,43 +16733,38 @@
    [
     1793943168,
     4868.5
+   ],
+   [
+    1793943359,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.4,
-   "reason": "Alt\u0131n, petrol kaynakl\u0131 enflasyon kayg\u0131lar\u0131 ve g\u00fc\u00e7lenen dolar (DXY 101.80) nedeniyle bask\u0131 alt\u0131nda; haberlerde \"gold eases\" ve \"gold prices plummet\" temalar\u0131 \u00f6ne \u00e7\u0131k\u0131yor. \u0130ran sava\u015f\u0131 jeopolitik talebi destekleyici olsa da, y\u00fcksek petrol fiyatlar\u0131n\u0131n faiz beklentilerini sertle\u015ftirmesi bu etkiyi dengeliyor. Yakla\u015fan ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi y\u00f6n\u00fc belirsiz bir risk yaratt\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+   "score": -0.35,
+   "confidence": 0.5,
+   "reason": "Dolar endeksi (DXY) 101,80'e y\u00fckselerek NFP \u00f6ncesi toparlan\u0131yor ve alt\u0131n piyasalar\u0131nda d\u00fc\u015f\u00fc\u015f g\u00f6r\u00fcl\u00fcyor. \u0130ran sava\u015f\u0131nda bar\u0131\u015f beklentileri ve petrol fiyatlar\u0131n\u0131n gev\u015femesi g\u00fcvenli liman talebini zay\u0131flat\u0131yor, enflasyon endi\u015feleri ise Fed'in s\u0131k\u0131 kalma beklentisini destekliyor. \u00d6te yandan WGC'nin alt\u0131nda dip yak\u0131n olabilece\u011fi ve NFP'nin \u00fccret art\u0131\u015flar\u0131nda yava\u015flama \u00f6ng\u00f6rmesi k\u0131smi bir destek sunuyor; bu nedenle sinyal orta d\u00fczeyde negatif ama net de\u011fil.",
    "n": 45,
-   "ts": 1793942639915,
-   "new_headlines": 15,
+   "ts": 1793943358473,
+   "new_headlines": 13,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.22,
-    "confidence": 0.38,
-    "reason": "Dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi ve NFP \u00f6ncesi temkin, k\u0131sa vadede alt\u0131na bask\u0131 yapabilir. \u0130ran konusunda bar\u0131\u015f beklentileri ve riskten ka\u00e7\u0131\u015f\u0131n alt\u0131n\u0131 destekleyebilmesi sinyalleri kar\u0131\u015ft\u0131r\u0131yor; y\u00f6n g\u00fcveni d\u00fc\u015f\u00fck.",
+    "score": -0.3,
+    "confidence": 0.55,
+    "reason": "DXY\u2019nin NFP \u00f6ncesi toparlanmas\u0131 ve g\u00fc\u00e7l\u00fc istihdam beklentisi, Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi alg\u0131s\u0131yla alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran kaynakl\u0131 riskler g\u00fcvenli liman talebi yaratabilir ancak bar\u0131\u015f ve petrol haberleri \u00e7eli\u015fkili, NFP \u00f6ncesi y\u00f6n ",
     "key_events": [
      "DXY 101,80\u2019e y\u00fckseldi; NFP bekleniyor",
-     "\u0130ran bar\u0131\u015f s\u00fcrecine dair belirsizlik ve petrol hareketleri",
-     "Asya piyasalar\u0131ndaki sat\u0131\u015flar g\u00fcvenli liman talebini art\u0131rabilir"
+     "Alt\u0131n fiyatlar\u0131nda d\u00fc\u015f\u00fc\u015f haberleri",
+     "\u0130ran gerilimi ve bar\u0131\u015f beklentileri \u00e7eli\u015fkili"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793675297841,
-    "score": 0.2,
-    "confidence": 0.35,
-    "reason": "Hormuz'da ABD'nin \u0130ran'a y\u00f6nelik savunma ama\u00e7l\u0131 vuru\u015flar\u0131 ve yeniden sava\u015f riski g\u00fcvenli liman talebini destekliyor, bu da alt\u0131n i\u00e7in hafif y\u00fckseli\u015f y\u00f6nl\u00fc. Ancak petrol fiyatlar\u0131ndaki y\u00fckseli\u015f enflasyon ve Fed'in s\u0131k\u0131 kalma beklentisi \u00fczerinden, dolar ise stabil seyrediyor; bu unsurlar alt\u0131n i\u00e7in bask\u0131 yaratabilir. Alt\u0131n\u0131n yakla\u015f\u0131k %2 toparlanmas\u0131 zaten fiyatlanm\u0131\u015f olabilece\u011finden ve haberler \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 7,
-    "gpt_score": 0.35,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1793676019485,
     "score": 0.1,
@@ -19456,27 +19455,41 @@
     "new": 15,
     "gpt_score": -0.22,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1793943358473,
+    "score": -0.35,
+    "confidence": 0.5,
+    "reason": "Dolar endeksi (DXY) 101,80'e y\u00fckselerek NFP \u00f6ncesi toparlan\u0131yor ve alt\u0131n piyasalar\u0131nda d\u00fc\u015f\u00fc\u015f g\u00f6r\u00fcl\u00fcyor. \u0130ran sava\u015f\u0131nda bar\u0131\u015f beklentileri ve petrol fiyatlar\u0131n\u0131n gev\u015femesi g\u00fcvenli liman talebini zay\u0131flat\u0131yor, enflasyon endi\u015feleri ise Fed'in s\u0131k\u0131 kalma beklentisini destekliyor. \u00d6te yandan WGC'nin alt\u0131nda dip yak\u0131n olabilece\u011fi ve NFP'nin \u00fccret art\u0131\u015flar\u0131nda yava\u015flama \u00f6ng\u00f6rmesi k\u0131smi bir destek sunuyor; bu nedenle sinyal orta d\u00fczeyde negatif ama net de\u011fil.",
+    "new": 13,
+    "gpt_score": -0.3,
+    "gpt_confidence": 0.55
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 42
+   "n": 43
   },
   "news_seen": [
+   "101.80: US Dollar Index (DXY) continues rebound ahead of US NFP report - www.tmgm.com",
+   "Hiring rebound expected in new US jobs data, though inflation is eroding the American paycheck - KVUE",
+   "India Gold price today: FXStreet data show prices falling - www.tmgm.com",
+   "The Gulf Faces Three Choices It Can No Longer Avoid - Bloomberg.com",
+   "Dubai gold prices shed Dh9.5 per gram, surrender most of Thursday\u2019s gains ahead of Diwali - Khaleej Times",
+   "Gold may be nearing interim bottom; broader macro outlook supports recovery: WGC - The Tribune",
    "Oil Extends Rebound on Uncertainty Over Iran War Peace Progress - Energy Connects",
    "Iraq\u2019s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran - Al Jazeera",
-   "Gold may be nearing interim bottom; broader macro outlook supports recovery: WGC - ANI News",
    "Yen jumps, Taiwan dollar briefly breaches 33 as AI stock rout slams Asian markets - BigGo Finance",
    "Markets fret over growth and inflation despite easing oil prices - Reuters",
    "Goldman Sachs: Gold has become a \"reverse oil trade\" and is more defensive - \u5bcc\u9014\u725b\u725b",
    "Gold price correction brings buyers back to jewellery stores, but demand shifts to lightweight pieces- Moneycontrol.com - LinkedIn",
+   "US job growth expected to pick up in October, with moderation in wage gains - Raleigh News & Observer",
    "Trump must end the war today and fire all top officials connected to it - Responsible Statecraft",
    "Gold Gets Cheaper By Over Rs 2,300 On Dhanteras; Prices Fall Below Rs 1,42,000. Should You Invest? - NDTV Profit",
    "Gold price crashes Rs 2,000, silver down by Rs 3,000 on Dhanteras 2026; key levels to track - Business Today",
+   "Gold eases on inflation worries from higher oil; U.S. payrolls data in focus - CNBC",
    "Gold price drops by Tk 2,740 per bhari - New Age BD",
    "Iran War Recalibrates Regional Expectations and Assumptions - The Soufan Center",
-   "Hiring rebound expected in new US jobs data, though inflation is eroding the American paycheck - reflector.com",
-   "Best path out of the Iran War is victory | Victor Joecks | Opinion | Opinion Columns - Las Vegas Review-Journal",
    "Is the Strait of Hormuz Really Safe After the Iran War? - Modern Diplomacy",
    "Gold prices plummet after 3 months, buyers lose up to 7.5 million VND/tael - Laodong.vn",
    "India Gold price today: Gold falls, according to FXStreet data - Mitrade",
@@ -19484,35 +19497,28 @@
    "US Dollar Index (DXY) extends recovery to 101.80 ahead of US NFP report - FXStreet",
    "Gold rate today in Hyderabad, November 6, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump\u2019s economy - Spanish Journal",
+   "Ukraine war briefing: Zelenskyy says Russia has damaged \u2018every power plant\u2019 as he seeks Latin American help - The Guardian",
    "Iran war latest: Tehran reportedly sent nuclear proposal to the US via Qatar - The National",
-   "Dollar lures bids for safety as AI rout grips Asian markets By Reuters - Investing.com",
+   "Oil prices could spike as U.S. action on Iran nears: Rapidan Energy - CNBC",
+   "Rupee falls 9 paise to 94.50 against U.S. dollar in early trade - The Hindu",
+   "Rupee falls 9 paise to 94.50 against US dollar in early trade - Rediff MoneyWiz",
    "Dhanteras timing 2026 Kolkata, latest gold, silver rates today: Shopping Shubh Muhurat, best purchase time and prices - Livemint",
    "22-carat gold price falls Tk 2,741 per bhori after over Tk 5,000 hike - Jagonews24",
    "Oil Heads for Steep Weekly Loss as Mideast Peace Prospects Rise - Bloomberg.com",
    "Gold (XAU/USD) Price Forecast: Bullish Reversal Challenges Downtrend - FXEmpire",
-   "Trump administration held talks with Iran on deporting Iranians during the war - San Mateo Daily Journal",
+   "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week - TradingView",
    "Trump signs order preventing future presidents from changing Oval Office",
    "Army medic from Bellevue was among the liberators of a World War II concentration camp - Pittsburgh Post-Gazette",
    "Hegseth vows to fight any impeachment, defends Iran war - Reuters",
    "'There's a war happening on our block' | Neighbors in DC's LeDroit park demand accountability over constant shootouts - WUSA9",
    "Chennai gold price remains stable on November 6, 2026; check today's gold, silver rate - DT Next",
-   "Rupee Vs USD: Indian Currency Falls 9 Paise Against US Dollar - ETV Bharat",
    "Gold Rate Today, 6 November: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities on Dhanteras - The Indian Express",
    "Gold eases on inflation worries from higher oil as US payrolls data in focus - The Edge Malaysia",
    "Asian FX mixed as yen gains on risk aversion, Taiwan dollar breaks 33 amid AI rout - Investing.com",
-   "Dhanteras 2026 diamond, gold, silver, brass, copper, bronze price today: Buying precious metal for prosper - The Economic Times",
-   "HBO\u2019s \u2018War\u2019: What is it good for? - The Michigan Daily",
-   "VP Vance signals Iran war main reason GOP lost midterms; new voter poll data sheds insight - KBOI",
-   "Carney unveils budget to strengthen Canada's economy as Trump's trade war continues - ABC News - Breaking News, Latest News and Videos",
-   "Gold Price Surges Back Above $4,000 \u2013 Is This the Start of a Much Bigger Rally? - FXEmpire",
-   "Gold, silver prices today, 6 November: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata - Livemint",
-   "US war in Iran leaves Sri Lanka in troubled diplomatic waters - Nikkei Asia",
-   "Gold eases on inflation worries from higher oil; US payrolls data in focus - Reuters"
+   "Dhanteras 2026 diamond, gold, silver, brass, copper, bronze price today: Buying precious metal for prosper - The Economic Times"
   ]
  },
  "log": [
-  "05.11 05:40 N  GPT  score +0.55 conf 0.64: ABD ara se\u00e7imlerinin ard\u0131ndan dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f ile alt\u0131ndaki g\u00fc\u00e7l\u00fc momentum k\u0131sa vadede y\u00fckseli\u015fi destekliyor. Ancak haberlerin \u00e7o\u011fu ayn\u0131 se\u00e7im kaynakl\u0131 hareketi tekrarl\u0131yor ve \u0130ran gerilimi haberleri \u00e7eli\u015fkili; bu nedenle etkinin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
-  "05.11 05:52 N  NEWS (5 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonras\u0131 dolar ve Treasury getirilerinin d\u00fc\u015fmesi alt\u0131n i\u00e7in destekleyici; petrol fiyatlar\u0131n\u0131n \u0130ran sava\u015f\u0131nda gerileme beklentisiyle d\u00fc\u015fmesi enflasyon beklentilerini yumu\u015fat\u0131p Fed'i daha az s\u0131k\u0131la\u015ft\u0131r\u0131c\u0131 yapabilir. Buna kar\u015f\u0131n jeopolitik risk primi azal\u0131yor ve alt\u0131n son g\u00fcnlerde en b\u00fcy\u00fck g\u00fcnl\u00fck art\u0131\u015flar\u0131ndan birini ya\u015fad\u0131\u011f\u0131 i\u00e7in k\u00e2r realizasyonu ve d\u00fczeltme riski y\u00fcksek; ayr\u0131ca BoE faiz art\u0131r\u0131m\u0131 haberi do\u011frudan alt\u0131n i\u00e7in belirleyici de\u011fil.",
   "05.11 05:52 N  GPT  score +0.32 conf 0.55: Dolar ve tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f, se\u00e7im sonras\u0131 alt\u0131n rallisini k\u0131sa vadede destekliyor. Ancak \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi beklentisi g\u00fcvenli liman talebini azaltabilir ve y\u00fckseli\u015fin \u00f6nemli k\u0131sm\u0131 fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor.",
   "05.11 06:04 N  NEWS (5 new) score +0.40 conf 0.50: ABD ara se\u00e7im sonu\u00e7lar\u0131n\u0131n ard\u0131ndan dolar ve Treasury getirileri d\u00fc\u015ft\u00fc, bu da alt\u0131n\u0131 4.100 dolar\u0131n \u00fczerine ta\u015f\u0131d\u0131; zay\u0131f dolar ve gerileyen getiriler k\u0131sa vadede alt\u0131 destekliyor. Ancak rallinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131, \u0130ran sava\u015f\u0131n\u0131n gerilemesi g\u00fcvenli liman talebini azalt\u0131yor ve yorumlar \"zorlu yol\" uyar\u0131s\u0131 yap\u0131yor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "05.11 06:04 N  GPT  score +0.35 conf 0.56: Dolar ve tahvil getirilerindeki gerileme, se\u00e7im sonras\u0131 alt\u0131n y\u00fckseli\u015fini k\u0131sa vadede destekliyor. Ancak bu hareketin \u00f6nemli k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; \u0130ran sava\u015f\u0131nda gerilimin azalmas\u0131 ve yakla\u015fan istihdam verisi kazan\u0131mlar\u0131 s\u0131n\u0131rlayabilir.",
@@ -19810,7 +19816,9 @@
   "06.11 08:17 B5  SHORT gold 25000 USD x10 @ 4040.58 (TP 4028.46, SL 4048.66; news -0.27)",
   "06.11 08:20 B5P  CLOSE long stop: -58.75 USD",
   "06.11 08:24 N  NEWS (15 new) score -0.15 conf 0.40: ",
-  "06.11 08:24 N  GPT  score -0.22 conf 0.38: Dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi ve NFP \u00f6ncesi temkin, k\u0131sa vadede alt\u0131na bask\u0131 yapabilir. \u0130ran konusunda bar\u0131\u015f beklentileri ve riskten ka\u00e7\u0131\u015f\u0131n alt\u0131n\u0131 destekleyebilmesi sinyalleri kar\u0131\u015ft\u0131r\u0131yor; y\u00f6n g\u00fcveni d\u00fc\u015f\u00fck."
+  "06.11 08:24 N  GPT  score -0.22 conf 0.38: Dolar\u0131n g\u00fcvenli liman talebiyle g\u00fc\u00e7lenmesi ve NFP \u00f6ncesi temkin, k\u0131sa vadede alt\u0131na bask\u0131 yapabilir. \u0130ran konusunda bar\u0131\u015f beklentileri ve riskten ka\u00e7\u0131\u015f\u0131n alt\u0131n\u0131 destekleyebilmesi sinyalleri kar\u0131\u015ft\u0131r\u0131yor; y\u00f6n g\u00fcveni d\u00fc\u015f\u00fck.",
+  "06.11 08:35 N  NEWS (13 new) score -0.35 conf 0.50: Dolar endeksi (DXY) 101,80'e y\u00fckselerek NFP \u00f6ncesi toparlan\u0131yor ve alt\u0131n piyasalar\u0131nda d\u00fc\u015f\u00fc\u015f g\u00f6r\u00fcl\u00fcyor. \u0130ran sava\u015f\u0131nda bar\u0131\u015f beklentileri ve petrol fiyatlar\u0131n\u0131n gev\u015femesi g\u00fcvenli liman talebini zay\u0131flat\u0131yor, enflasyon endi\u015feleri ise Fed'in s\u0131k\u0131 kalma beklentisini destekliyor. \u00d6te yandan WGC'nin alt\u0131nda dip yak\u0131n olabilece\u011fi ve NFP'nin \u00fccret art\u0131\u015flar\u0131nda yava\u015flama \u00f6ng\u00f6rmesi k\u0131smi bir destek sunuyor; bu nedenle sinyal orta d\u00fczeyde negatif ama net de\u011fil.",
+  "06.11 08:35 N  GPT  score -0.30 conf 0.55: DXY\u2019nin NFP \u00f6ncesi toparlanmas\u0131 ve g\u00fc\u00e7l\u00fc istihdam beklentisi, Fed\u2019in daha s\u0131k\u0131 kalabilece\u011fi alg\u0131s\u0131yla alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran kaynakl\u0131 riskler g\u00fcvenli liman talebi yaratabilir ancak bar\u0131\u015f ve petrol haberleri \u00e7eli\u015fkili, NFP \u00f6ncesi y\u00f6n "
  ],
  "gold_big": {
   "account": {
@@ -29643,6 +29651,10 @@
    [
     1793943168,
     4963.78
+   ],
+   [
+    1793943359,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -39403,6 +39415,10 @@
    [
     1793943168,
     4975.18
+   ],
+   [
+    1793943359,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -49129,6 +49145,10 @@
    [
     1793943168,
     4993.28
+   ],
+   [
+    1793943359,
+    4993.28
    ]
   ]
  },
@@ -58692,6 +58712,10 @@
    [
     1793943168,
     4969.22
+   ],
+   [
+    1793943359,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -67874,6 +67898,10 @@
    [
     1793943168,
     4769.77
+   ],
+   [
+    1793943359,
+    4755.36
    ]
   ],
   "news_calls": {
@@ -77673,6 +77701,10 @@
    [
     1793943168,
     108278.0
+   ],
+   [
+    1793943359,
+    108278.0
    ]
   ],
   "open": {},
@@ -85491,6 +85523,10 @@
    ],
    [
     1793943168,
+    5007.68
+   ],
+   [
+    1793943359,
     5007.68
    ]
   ],
