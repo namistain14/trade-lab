@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 22:58 (İstanbul)
+> Son güncelleme: 06.11.2026 23:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,608.99 $** (başlangıç 100,000 $, +10608.99 $ / %+10.61)
+**Hesap değeri: 110,905.63 $** (başlangıç 100,000 $, +10905.63 $ / %+10.91)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA long @ 187.28 (TP 189.97 / SL 185.29); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 21:12 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102518.41","code":40310000,"cost_basis":"113062.6","message":"insufficient buying power"}
 06.11 21:24 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq toparlandı, ancak Fed'den Daly'nin daha fazla sıkılaştırma sinyali öğleden sonra teknoloji hisselerinde momentumu zayıflatıyor.» / GPT «Fed’in şahin açıklamaları ve endekslerin son saatte gerilemesi, kaldıraç altında geniş piyasa alımı yerine seçici kısa pozisyonları destekliyor.»
 06.11 21:24 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102608.09","code":40310000,"cost_basis":"113083.78","message":"insufficient buying power"}
 06.11 21:36 B6  karar turu: Claude «Güçlü istihdam verisiyle Nasdaq toparlanıyor; ancak Fed'in şahin tonu ve hafta sonu riski yükselişi sınırlayabilir.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak Fed’in şahin açıklamaları ve kapanışa kalan sınırlı süre agresif alımlarda seçicilik gerektiriyor.»
@@ -103,6 +102,7 @@ Son işlemler:
 06.11 22:37 B5P  LONG BZ=F 25000 USD x10 @ 98.54 (TP 98.84, SL 98.35; news +0.34)
 06.11 22:49 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq dünkü sert düşüşten toparlanıyor, ancak Fed'in şahin tonu ve kapanışa çok az süre kalması yeni pozisyonu cazip kılmıyor.» / GPT «Endekslerde saatlik momentum yatay ve kapanışa 11 dakika kala 1–3 saatlik pozisyonlar seans dışı likidite ve stop emri işleyişi riski taşıyor.»
 06.11 22:52 B5P  CLOSE long stop (gap): -63.26 USD
+06.11 23:01 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq sert düşüşün ardından toparlandı, ancak Fed'in şahin tonu ve seansın kapanmış olması nedeniyle 1-3 saatlik yeni pozisyonlar için belirgin bir avantaj görünmüyor.» / GPT «Endekslerde son saat ivmesi zayıf; normal seans kapandıktan sonra 1:4 kaldıraçla işlem açmak için mevcut haber akışı yeterli avantaj sunmuyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
