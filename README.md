@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 16:39 (İstanbul)
+> Son güncelleme: 06.11.2026 16:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %12.5 | %40.0 |
 | Ödenen komisyon/spread | 94.76 $ | 712.22 $ |
 
-**Hesap değeri: 4,608.68 $** (başlangıç 5,000 $, -391.32 $ / %-7.83)
+**Hesap değeri: 4,644.47 $** (başlangıç 5,000 $, -355.53 $ / %-7.11)
 
 Açık pozisyonlar: PAXGUSDT short @ 4037.94 (TP 4025.83 / SL 4046.02)
 
-Son haber analizi (06.11 16:30): Claude puan **-0.20**, güven 0.40 — Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
+Son haber analizi (06.11 16:42): Claude puan **-0.30**, güven 0.40 — Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.56 — Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
+GPT (gpt-6-luna): puan **-0.18**, güven 0.36 — İran savaşı ve bölgesel belirsizlik güvenli liman talebini destekleyebilir; ancak doların haftalık zirvelere çıkması ve Fed’in enflasyon konusunda temkinli, faiz beklentilerinin şahin olması altın üzerinde kısa vadeli baskı yaratıyor. Haber akışı karışık ve yeni bir belirgin tırmanış göstermediğinde
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 15:30 N  GPT  score +0.12 conf 0.36: İran savaşının yeniden tırmanabileceğine dair haberler ve küresel piyasalardaki riskten kaçış altına sınırlı destek sağlayabilir. Ancak NFP öncesi doların görece güçlü olması ve altının geri çekilmesi bu etkiyi dengeliyor; haber akışı çelişkili.
-06.11 15:42 N  NEWS (7 new) score +0.05 conf 0.30: 
 06.11 15:42 N  GPT  score +0.20 conf 0.38: İran savaşının yeniden başlayabileceğine dair haberler ve küresel hisse senetlerindeki düşüş güvenli liman talebini destekleyebilir; ancak petrol haberleri çelişkili ve altın istihdam verisi öncesinde geri çekiliyor. En yeni başlıkların çoğu piyasa açısından önemsiz olduğundan kısa vadeli yön sinyal
 06.11 15:54 N  NEWS (31 new) score +0.00 conf 0.30: 
 06.11 15:54 N  GPT  score -0.18 conf 0.34: İstihdam verisi öncesi doların yükselmesi ve İran savaşı kaynaklı risk priminin petrol düşüşüyle azalması altın üzerinde hafif baskı yaratabilir. Ancak altının haftalık kazanç yönünde olması ve verinin henüz açıklanmaması kısa vadeli yönü belirsiz kılıyor.
@@ -102,6 +100,8 @@ Son işlemler:
 06.11 16:31 N  GPT  score -0.30 conf 0.56: Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
 06.11 16:31 B6  seans öncesi görüş: Teknoloji ağırlıklı sert satış sonrası açılışta tepki alımı olası, ancak istihdam verisi öncesi oynaklık yüksek olduğundan pozisyonlar küçük ve seçici tutulmalı.
 06.11 16:36 B5  SHORT gold 25000 USD x10 @ 4037.94 (TP 4025.83, SL 4046.02; news -0.25)
+06.11 16:42 N  NEWS (12 new) score -0.30 conf 0.40: 
+06.11 16:42 N  GPT  score -0.18 conf 0.36: İran savaşı ve bölgesel belirsizlik güvenli liman talebini destekleyebilir; ancak doların haftalık zirvelere çıkması ve Fed’in enflasyon konusunda temkinli, faiz beklentilerinin şahin olması altın üzerinde kısa vadeli baskı yaratıyor. Haber akışı karışık ve yeni bir belirgin tırmanış göstermediğinde
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
