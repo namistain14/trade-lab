@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 08:12 (İstanbul)
+> Son güncelleme: 06.11.2026 08:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -48,7 +48,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 17.17 $ |
 
-**Hesap değeri: 5,060.18 $** (başlangıç 5,000 $, +60.18 $ / %+1.20)
+**Hesap değeri: 5,047.64 $** (başlangıç 5,000 $, +47.64 $ / %+0.95)
 
 Açık pozisyonlar: BZ=F long @ 99.69 (TP 99.99 / SL 99.50)
 
