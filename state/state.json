@@ -4449,6 +4449,10 @@
    [
     1793967264,
     5000.0
+   ],
+   [
+    1793967455,
+    5000.0
    ]
   ],
   "archive": [
@@ -17849,43 +17853,38 @@
    [
     1793967264,
     4868.5
+   ],
+   [
+    1793967455,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Haberler kar\u0131\u015f\u0131k: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131na bask\u0131 yaparken, \u0130ran sava\u015f\u0131 yeniden alevlenme korkular\u0131 ile k\u00fcresel hisse sat\u0131\u015f\u0131 g\u00fcvenli liman talebini destekliyor. Bekleyen ABD istihdam verisi nedeniyle k\u0131sa vadeli oynakl\u0131k y\u00fcksek olaca\u011f\u0131ndan, net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikli.",
+   "score": -0.1,
+   "confidence": 0.35,
+   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131na dair jeopolitik risk ve borsa sat\u0131\u015flar\u0131 alt\u0131n i\u00e7in destekleyici olsa da, Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve dolar taraf\u0131ndaki nakit talebi alt\u0131n\u0131 bask\u0131layabilir. NFP \u00f6ncesi alt\u0131n geri \u00e7ekilmi\u015f durumda; bu veri belirleyici olaca\u011f\u0131 i\u00e7in y\u00f6n belirsiz, bu nedenle skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
    "n": 45,
-   "ts": 1793966735995,
-   "new_headlines": 3,
+   "ts": 1793967454448,
+   "new_headlines": 7,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.12,
-    "confidence": 0.35,
-    "reason": "Dolar\u0131n NFP \u00f6ncesinde g\u00fc\u00e7lenmesi ve alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri k\u0131sa vadede bask\u0131 yaratabilir. Piyasa genelindeki riskten ka\u00e7\u0131\u015f ve \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de, gerilimin azalabilece\u011fine dair haberler bu etkiyi s\u0131n\u0131rl\u0131yor.",
+    "score": -0.18,
+    "confidence": 0.36,
+    "reason": "NFP \u00f6ncesi alt\u0131ndaki geri \u00e7ekilme ve dolar talebindeki g\u00fc\u00e7lenme k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de de-eskalasyon haberleri ve \u00e7eli\u015fkili sinyaller y\u00f6n\u00fc belirsizle\u015ftiriyor.",
     "key_events": [
-     "NFP \u00f6ncesi dolar talebi",
-     "Alt\u0131n fiyat\u0131nda d\u00fc\u015f\u00fc\u015f haberleri",
-     "\u0130ran gerilimi ve olas\u0131 gerilimi azaltma sinyalleri"
+     "NFP \u00f6ncesi alt\u0131n ve pozisyonlarda temkinlilik",
+     "Dolar talebinde g\u00fc\u00e7lenme",
+     "\u0130ran gerilimi ile de-eskalasyon haberleri \u00e7eli\u015fkili"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793704011753,
-    "score": 0.15,
-    "confidence": 0.35,
-    "reason": "\u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki gerilim g\u00fcvenli liman talebini destekleyerek alt\u0131n\u0131 hafif\u00e7e yukar\u0131 ta\u015f\u0131yabilir. Ancak Katar'\u0131n arabuluculuk a\u00e7\u0131klamalar\u0131, faiz art\u0131r\u0131m\u0131 beklentilerini \u00f6ne \u00e7eken yorumlar ve dolardaki zay\u0131f g\u00f6r\u00fcn\u00fcm bu etkiyi s\u0131n\u0131rl\u0131yor; alt\u0131ndaki talep de zay\u0131flam\u0131\u015f g\u00f6r\u00fcn\u00fcyor.",
-    "new": 21,
-    "gpt_score": 0.4,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1793704732103,
     "score": 0.1,
@@ -20576,13 +20575,27 @@
     "new": 3,
     "gpt_score": -0.12,
     "gpt_confidence": 0.35
+   },
+   {
+    "ts": 1793967454448,
+    "score": -0.1,
+    "confidence": 0.35,
+    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131na dair jeopolitik risk ve borsa sat\u0131\u015flar\u0131 alt\u0131n i\u00e7in destekleyici olsa da, Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve dolar taraf\u0131ndaki nakit talebi alt\u0131n\u0131 bask\u0131layabilir. NFP \u00f6ncesi alt\u0131n geri \u00e7ekilmi\u015f durumda; bu veri belirleyici olaca\u011f\u0131 i\u00e7in y\u00f6n belirsiz, bu nedenle skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+    "new": 7,
+    "gpt_score": -0.18,
+    "gpt_confidence": 0.36
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 75
+   "n": 76
   },
   "news_seen": [
+   "\u2018No Good Options\u2019 for Iran War After President Trump\u2019s Midterm Defeat - The Media Line",
+   "Gold Pulls Back Before NFP After Its Strongest Week in Two Months - FXEmpire",
+   "Ted Cruz slams Trump's tariffs and says Iran war needs to end - Houston Chronicle",
+   "MARK DAVIS | Iran War Brings Regime Change\u2014To Texas - Dallas Express",
+   "Why gold prices are surprisingly low : Planet Money - NPR",
    "Kenyan doomsday cult leader given life sentence for murdering 191 people",
    "Opinion | How to de-escalate the gerrymandering war - The Washington Post",
    "Gold price at the close of the session on November 6th: Sharp decrease, a factor pulling precious metals down - Laodong.vn",
@@ -20598,17 +20611,16 @@
    "Gold price dip gives Dhanteras buying a shine, but consumers are spending lighter - Fortune India",
    "Euro: Rotation into Dollar cash caps gains against US Dollar \u2013 ING - FXStreet",
    "Renewed US-Iran war fears drive oil prices higher - Semafor",
-   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic - WSJ",
    "BYU and Utah\u2019s Holy War enters the spotlight: Bananas, banned words and fistfights - The New York Times",
    "Handguns to missile launchers: The officer leading the IDF's equipment return operation - Israel National News",
    "Two dead after bus crashes in France, officials say",
    "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+   "Iran War passes 8-month mark. Here's a timeline of major events - WISN",
    "As tech swoon roils market, US inflation data on tap By Reuters - Investing.com",
    "Satellite Images Reveal New Construction Near Iran Missile Sites - ASHARQ AL-AWSAT English",
    "Invesco CurrencyShares Australian Dollar Trust 3Q 2026: Net income $377.28K \u2014 10-Q Summary - TradingView",
    "Invesco DB US Dollar Index Bearish Fund 3Q 2026: Net income $246.76K \u2014 10-Q Summary - TradingView",
    "Gold prices fall ahead of US jobs report, but weekly gains near 5% - Daily Observer",
-   "Iran War passes 8-month mark. Here's a timeline of major events - khbs",
    "Mohsen Rezaei: Putin Called for an End to the \u2018Neither War Nor Peace\u2019 Stalemate - IranWire",
    "FILE PHOTO: New York Federal Reserve Bank President John Williams speaks in New York - The Daily News | Texas' Oldest Newspaper",
    "West Virginians footing the bill for war and big oil - West Virginia Watch",
@@ -20617,22 +20629,16 @@
    "Invesco DB US Dollar Index Bullish Fund 3Q 2026: Net income $4.6M \u2014 10-Q Summary - TradingView",
    "An Overview of Indian Naval Power - Geopolitical Futures",
    "US inflation too high; essential to get back to 2%: Fed's Williams - Kansas City Star",
-   "As tech swoon roils market, US inflation data on tap - TradingView",
    "Iran war advocates own this debacle - Washington Examiner",
-   "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees - Audacy",
+   "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees - 95.5 WSB",
    "'The alternative to diplomacy is war': Polisario warns of risks after collapse of Western Sahara UN mission - Middle East Eye",
    "Egypt condemns missile attack targeting Medina, reaffirms support for Saudi Arabia - Egypt Independent",
    "Iran warns missile response to new attack could extend to Europe - Middle East Eye",
    "Aya Gold & Silver Inc. (TSX:AYA): High Profit Per Employee Signals a Lean Silver Producer Scaling Output and Exploration - kalkine.ca",
-   "How voter anger over Iran war, prices and Israel powered Democratic midterm sweep - Anadolu Ajans\u0131",
-   "The Dollar saves the day - FXStreet",
-   "Gold price in Pakistan falls Rs6,500 per tola - Investify",
-   "Nicolas Cage Returns in \u2018Lords of War\u2019 Alongside Bill Skarsg\u00e5rd as the First Trailer for the Highly Anticipated Sequel Arrives - IMDb"
+   "How voter anger over Iran war, prices and Israel powered Democratic midterm sweep - Anadolu Ajans\u0131"
   ]
  },
  "log": [
-  "05.11 13:43 N  NEWS (11 new) score +0.30 conf 0.50: \u0130ran'daki \u00e7at\u0131\u015fma ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki tanker yang\u0131nlar\u0131, Trump'\u0131n yeni sald\u0131r\u0131 ihtimali ve K\u00f6rfez'deki gerilim g\u00fcvenli liman talebini destekliyor. Dolar ve ABD tahvil getirilerindeki zay\u0131flama da alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131n petrol fiyatlar\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve enflasyon/Fed beklentilerine ili\u015fkin belirsizlik s\u0131n\u0131rl\u0131 bir y\u00fckseli\u015f potansiyeli b\u0131rak\u0131yor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
-  "05.11 14:13 N  NEWS (27 new) score +0.05 conf 0.30: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131na y\u00f6nelik gerilimin azalmas\u0131 ve dolar\u0131n toparlanmas\u0131 alt\u0131n i\u00e7in olumsuz, buna kar\u015f\u0131l\u0131k Trump'\u0131n yeniden sald\u0131r\u0131 se\u00e7ene\u011fini de\u011ferlendirmesi ve alt\u0131n\u0131n toparlanma e\u011filimi olumlu. ABD tar\u0131m d\u0131\u015f\u0131 istihdam (NFP) verisi beklenirken k\u0131sa vadede net bir y\u00f6n olu\u015fmad\u0131\u011f\u0131 i\u00e7in etki s\u0131n\u0131rl\u0131 ve y\u00fcksek belirsizlik i\u00e7eriyor.",
   "05.11 14:13 N  GPT  score +0.20 conf 0.40: \u0130ran sava\u015f\u0131 ve Suudi Arabistan\u2019a y\u00f6nelen f\u00fcze haberi g\u00fcvenli liman talebini destekleyebilir; alt\u0131n\u0131n toparlanmas\u0131 da olumlu. Ancak dolar\u0131n yeniden g\u00fc\u00e7lenmesi ve yakla\u015fan ABD istihdam verisi yukar\u0131 y\u00f6nl\u00fc etkiyi s\u0131n\u0131rl\u0131yor; sava\u015f s\u00f6yleminin so\u011fudu\u011funa dair haberler de tabloyu kar\u0131\u015f\u0131k k\u0131l\u0131yor.",
   "05.11 14:19 B5  CLOSE long take profit: +69.07 USD",
   "05.11 14:25 N  NEWS (11 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc veya eski haber. \u0130ran sava\u015f\u0131 s\u00f6yleminin ara se\u00e7im yenilgisiyle yumu\u015famas\u0131 jeopolitik risk primini biraz azaltabilir, ABD dolar\u0131 toparlanmas\u0131 ise alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Gold'un k\u0131sa vadeli toparlanmas\u0131 ve NFP \u00f6ncesi belirsizlik, y\u00f6n\u00fc net olmad\u0131\u011f\u0131 i\u00e7in etkiyi s\u0131n\u0131rl\u0131 tutuyor.",
@@ -20930,7 +20936,9 @@
   "06.11 14:53 N  NEWS (9 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131na bask\u0131 yaparken, \u0130ran sava\u015f\u0131 yeniden alevlenme korkular\u0131 ile k\u00fcresel hisse sat\u0131\u015f\u0131 g\u00fcvenli liman talebini destekliyor. Bekleyen ABD istihdam verisi nedeniyle k\u0131sa vadeli oynakl\u0131k y\u00fcksek olaca\u011f\u0131ndan, net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenilirlikli.",
   "06.11 14:53 N  GPT  score -0.18 conf 0.36: K\u00f6rfez\u2019de gerilimin azalabilece\u011fi haberleri ve Fed yetkilisinin enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir. Buna kar\u015f\u0131l\u0131k hisse senetlerindeki sert d\u00fc\u015f\u00fc\u015f ve \u0130ran kaynakl\u0131 devam eden riskler g\u00fcvenli liman talebini destekliyor; g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k.",
   "06.11 15:05 N  NEWS (3 new) score -0.30 conf 0.50: ",
-  "06.11 15:05 N  GPT  score -0.12 conf 0.35: Dolar\u0131n NFP \u00f6ncesinde g\u00fc\u00e7lenmesi ve alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri k\u0131sa vadede bask\u0131 yaratabilir. Piyasa genelindeki riskten ka\u00e7\u0131\u015f ve \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de, gerilimin azalabilece\u011fine dair haberler bu etkiyi s\u0131n\u0131rl\u0131yor."
+  "06.11 15:05 N  GPT  score -0.12 conf 0.35: Dolar\u0131n NFP \u00f6ncesinde g\u00fc\u00e7lenmesi ve alt\u0131ndaki d\u00fc\u015f\u00fc\u015f haberleri k\u0131sa vadede bask\u0131 yaratabilir. Piyasa genelindeki riskten ka\u00e7\u0131\u015f ve \u0130ran gerilimi g\u00fcvenli liman talebini desteklese de, gerilimin azalabilece\u011fine dair haberler bu etkiyi s\u0131n\u0131rl\u0131yor.",
+  "06.11 15:17 N  NEWS (7 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131na dair jeopolitik risk ve borsa sat\u0131\u015flar\u0131 alt\u0131n i\u00e7in destekleyici olsa da, Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve dolar taraf\u0131ndaki nakit talebi alt\u0131n\u0131 bask\u0131layabilir. NFP \u00f6ncesi alt\u0131n geri \u00e7ekilmi\u015f durumda; bu veri belirleyici olaca\u011f\u0131 i\u00e7in y\u00f6n belirsiz, bu nedenle skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+  "06.11 15:17 N  GPT  score -0.18 conf 0.36: NFP \u00f6ncesi alt\u0131ndaki geri \u00e7ekilme ve dolar talebindeki g\u00fc\u00e7lenme k\u0131sa vadede bask\u0131 yaratabilir. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de de-eskalasyon haberleri ve \u00e7eli\u015fkili sinyaller y\u00f6n\u00fc belirsizle\u015ftiriyor."
  ],
  "gold_big": {
   "account": {
@@ -31323,6 +31331,10 @@
    [
     1793967264,
     4963.78
+   ],
+   [
+    1793967455,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -41643,6 +41655,10 @@
    [
     1793967264,
     4975.18
+   ],
+   [
+    1793967455,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -51929,6 +51945,10 @@
    [
     1793967264,
     4993.28
+   ],
+   [
+    1793967455,
+    4993.28
    ]
   ]
  },
@@ -62052,6 +62072,10 @@
    [
     1793967264,
     4969.22
+   ],
+   [
+    1793967455,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -71840,6 +71864,10 @@
    ],
    [
     1793967264,
+    4573.88
+   ],
+   [
+    1793967455,
     4573.88
    ]
   ],
@@ -82200,6 +82228,10 @@
    [
     1793967264,
     108259.6
+   ],
+   [
+    1793967455,
+    108259.6
    ]
   ],
   "open": {},
@@ -90578,6 +90610,10 @@
    ],
    [
     1793967264,
+    5007.68
+   ],
+   [
+    1793967455,
     5007.68
    ]
   ],
