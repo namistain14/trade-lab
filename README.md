@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 08:20 (İstanbul)
+> Son güncelleme: 06.11.2026 08:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.1 |
 | Ödenen komisyon/spread | 47.34 $ | 664.80 $ |
 
-**Hesap değeri: 4,750.90 $** (başlangıç 5,000 $, -249.10 $ / %-4.98)
+**Hesap değeri: 4,761.05 $** (başlangıç 5,000 $, -238.95 $ / %-4.78)
 
 Açık pozisyonlar: PAXGUSDT short @ 4040.58 (TP 4028.46 / SL 4048.66)
 
-Son haber analizi (06.11 08:12): Claude puan **-0.25**, güven 0.40 — Altın, petrol kaynaklı enflasyon kaygıları ve güçlenen dolar (DXY 101.80) nedeniyle baskı altında; haberlerde "gold eases" ve "gold prices plummet" temaları öne çıkıyor. İran savaşı jeopolitik talebi destekleyici olsa da, yüksek petrol fiyatlarının faiz beklentilerini sertleştirmesi bu etkiyi dengeliyor. Yaklaşan ABD tarım dışı istihdam (NFP) verisi yönü belirsiz bir risk yarattığı için güven düşük tutuldu.
+Son haber analizi (06.11 08:23): Claude puan **-0.15**, güven 0.40 — Altın, petrol kaynaklı enflasyon kaygıları ve güçlenen dolar (DXY 101.80) nedeniyle baskı altında; haberlerde "gold eases" ve "gold prices plummet" temaları öne çıkıyor. İran savaşı jeopolitik talebi destekleyici olsa da, yüksek petrol fiyatlarının faiz beklentilerini sertleştirmesi bu etkiyi dengeliyor. Yaklaşan ABD tarım dışı istihdam (NFP) verisi yönü belirsiz bir risk yarattığı için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **-0.28**, güven 0.57 — DXY’nin 101,80’e yükselmesi ve yüksek petrol kaynaklı enflasyon/faiz endişeleri kısa vadede altını baskılıyor; yaklaşan ABD istihdam verisi de temkinli pozisyonlanmayı destekliyor. İran savaşı güvenli liman talebi sağlasa da haber akışı karışık ve etkisi net değil.
+GPT (gpt-6-luna): puan **-0.22**, güven 0.38 — Doların güvenli liman talebiyle güçlenmesi ve NFP öncesi temkin, kısa vadede altına baskı yapabilir. İran konusunda barış beklentileri ve riskten kaçışın altını destekleyebilmesi sinyalleri karıştırıyor; yön güveni düşük.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 07:47 N  GPT  score -0.25 conf 0.55: Asya’daki yapay zekâ kaynaklı riskten kaçışın dolara güvenli liman talebi yaratması ve yüksek petrolün enflasyon/faiz kaygılarını canlı tutması altın için kısa vadede hafif negatif. İran savaşıyla ilgili başlıklar yeni bir tırmanış göstermiyor; yaklaşan ABD istihdam verisi ve çelişkili altın haberle
-06.11 07:59 N  NEWS (8 new) score -0.20 conf 0.35: Dolar güvenli liman talebiyle güçleniyor ve petrol kaynaklı enflasyon endişeleri faiz indirimi beklentilerini zayıflatarak altı baskılıyor; öte yandan İran'ın Katar aracılığıyla nükleer teklif göndermesi jeopolitik risk primini azaltabilir. Yaklaşan ABD tarım-dışı istihdam (NFP) verisinin sonucu belirsiz olduğundan genel etki hafif negatif ve düşük güvenilirlikli.
 06.11 07:59 N  GPT  score -0.20 conf 0.43: Asya piyasalarındaki AI kaynaklı riskten kaçış dolara güvenli liman talebi getiriyor; bu, altın için güvenli liman desteğini kısmen dengeliyor. Altının petrol kaynaklı enflasyon kaygıları ve ABD istihdam verisi öncesi gerilemesi kısa vadede hafif aşağı yönlü baskıya işaret ederken, İran’ın ABD’ye ön
 06.11 07:59 B5  SHORT gold 25000 USD x10 @ 4040.36 (TP 4028.24, SL 4048.44; news -0.20)
 06.11 07:59 B5P  NEWS (44 new) score +0.35 conf 0.50: Hormuz'daki yeni tanker saldırıları ve Rusya'daki rafineri patlamaları/Ukrayna saldırıları arz riskini artırıp Brent'i 100 doların üzerine itti; ancak İran'ın Katar üzerinden nükleer öneri göndermesi, Orta Doğu barış beklentileri ve haftalık yaklaşık %12-13'lük düşüş yukarı yönlü hareketi sınırlayabilir, bu yüzden güven orta düzeyde.
@@ -102,6 +100,8 @@ Son işlemler:
 06.11 08:12 N  GPT  score -0.28 conf 0.57: DXY’nin 101,80’e yükselmesi ve yüksek petrol kaynaklı enflasyon/faiz endişeleri kısa vadede altını baskılıyor; yaklaşan ABD istihdam verisi de temkinli pozisyonlanmayı destekliyor. İran savaşı güvenli liman talebi sağlasa da haber akışı karışık ve etkisi net değil.
 06.11 08:17 B5  SHORT gold 25000 USD x10 @ 4040.58 (TP 4028.46, SL 4048.66; news -0.27)
 06.11 08:20 B5P  CLOSE long stop: -58.75 USD
+06.11 08:24 N  NEWS (15 new) score -0.15 conf 0.40: 
+06.11 08:24 N  GPT  score -0.22 conf 0.38: Doların güvenli liman talebiyle güçlenmesi ve NFP öncesi temkin, kısa vadede altına baskı yapabilir. İran konusunda barış beklentileri ve riskten kaçışın altını destekleyebilmesi sinyalleri karıştırıyor; yön güveni düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
