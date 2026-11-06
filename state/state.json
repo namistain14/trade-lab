@@ -5157,6 +5157,10 @@
    [
     1793997659,
     5000.0
+   ],
+   [
+    1793997840,
+    5000.0
    ]
   ],
   "archive": [
@@ -19264,6 +19268,10 @@
    ],
    [
     1793997659,
+    4868.5
+   ],
+   [
+    1793997840,
     4868.5
    ]
   ],
@@ -33447,6 +33455,10 @@
    [
     1793997659,
     4963.78
+   ],
+   [
+    1793997840,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -44475,6 +44487,10 @@
    [
     1793997659,
     4975.18
+   ],
+   [
+    1793997840,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -55469,6 +55485,10 @@
    [
     1793997659,
     4993.28
+   ],
+   [
+    1793997840,
+    4993.28
    ]
   ]
  },
@@ -66300,6 +66320,10 @@
    [
     1793997659,
     4969.22
+   ],
+   [
+    1793997840,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -76902,6 +76926,10 @@
    [
     1793997659,
     4544.23
+   ],
+   [
+    1793997840,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -77109,7 +77137,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 110659.29198400002,
+   "balance": 110664.21538400002,
    "start": 100000.0,
    "positions": [
     {
@@ -77124,7 +77152,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Nasdaq d\u00fc\u015ferken son bir saatte %0.9 y\u00fckselen g\u00f6reli g\u00fc\u00e7 var, diren\u00e7siz y\u00fckseli\u015f trendi s\u00fcr\u00fcyor. | GPT 0.65: Endeksler gerilerken son saatte y\u00fckselmesi ve yak\u0131n zirvelerini korumas\u0131 k\u0131sa vadeli g\u00f6reli g\u00fc\u00e7 avantaj\u0131 sunuyor.",
-     "cur": 343.5004
+     "cur": 343.395
     },
     {
      "id": "4c32bc5c-ec0b-444b-aa33-28da7c2e4f21",
@@ -77138,7 +77166,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert d\u00fc\u015f\u00fc\u015f sonras\u0131 dip al\u0131m\u0131 s\u00fcr\u00fcyor, fiyat g\u00fcn i\u00e7i direnci yukar\u0131 k\u0131rd\u0131; ancak Daly'nin \u015fahin s\u00f6ylemi riski art\u0131r\u0131yor. | GPT 0.6: Son saatlik yatay band\u0131n yukar\u0131 k\u0131r\u0131lmas\u0131 ve olumsuz haberlere ra\u011fmen zirve yak\u0131n\u0131nda tutunmas\u0131, k\u0131sa vadeli devam lehine \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 187.63
+     "cur": 187.21
     },
     {
      "id": "3f80f949-2027-453b-80bf-f15324935bbf",
@@ -77152,7 +77180,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert sat\u0131\u015f\u0131n ard\u0131ndan yapay zek\u00e2 hisselerinde dip al\u0131m\u0131 s\u00fcr\u00fcyor ve be\u015f dakikal\u0131k kapan\u0131\u015flarda y\u00fckselen dipler olu\u015fuyor. | GPT 0.6: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc performans ve kazan\u0131mlar\u0131n korunmas\u0131, yatayla\u015fma sonras\u0131nda yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 658.18
+     "cur": 657.69
     },
     {
      "id": "5b52f9ae-7491-45a3-8266-ce371cb0d411",
@@ -77166,7 +77194,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 737.17
+     "cur": 737.06
     }
    ],
    "trades": [
@@ -77605,12 +77633,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 2172.41,
+    "pnl": 1814.0,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 110432.01
+   "equity": 110073.6
   },
   "equity_curve": [
    [
@@ -88080,6 +88108,10 @@
    [
     1793997659,
     110432.01
+   ],
+   [
+    1793997840,
+    110073.6
    ]
   ],
   "open": {
@@ -97232,6 +97264,10 @@
    ],
    [
     1793997659,
+    4944.42
+   ],
+   [
+    1793997840,
     4944.42
    ]
   ],
