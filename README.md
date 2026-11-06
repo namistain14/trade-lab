@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 17:22 (İstanbul)
+> Son güncelleme: 06.11.2026 17:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -254.00 $ | -287.95 $ |
-| İşlem sayısı | 9 | 61 |
-| Kazanma oranı | %22.2 | %41.0 |
-| Ödenen komisyon/spread | 106.62 $ | 724.08 $ |
+| Net kâr/zarar | -309.95 $ | -343.89 $ |
+| İşlem sayısı | 10 | 62 |
+| Kazanma oranı | %20.0 | %40.3 |
+| Ödenen komisyon/spread | 118.49 $ | 735.95 $ |
 
-**Hesap değeri: 4,681.75 $** (başlangıç 5,000 $, -318.25 $ / %-6.36)
-
-Açık pozisyonlar: PAXGUSDT short @ 4022.34 (TP 4010.27 / SL 4030.38)
+**Hesap değeri: 4,656.11 $** (başlangıç 5,000 $, -343.89 $ / %-6.88)
 
 Son haber analizi (06.11 17:19): Claude puan **-0.50**, güven 0.60 — Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 17:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:11 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 14:26 | PAXGUSDT | short | -56.36 $ | stop (gap) |
 | 06.11 10:57 | PAXGUSDT | short | -55.94 $ | stop |
-| 06.11 09:25 | PAXGUSDT | short | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -87,7 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 16:31 B5  CLOSE short take profit: +69.09 USD
 06.11 16:31 N  NEWS (13 new) score -0.20 conf 0.40: Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
 06.11 16:31 N  GPT  score -0.30 conf 0.56: Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
 06.11 16:31 B6  seans öncesi görüş: Teknoloji ağırlıklı sert satış sonrası açılışta tepki alımı olası, ancak istihdam verisi öncesi oynaklık yüksek olduğundan pozisyonlar küçük ve seçici tutulmalı.
@@ -102,6 +99,7 @@ Son işlemler:
 06.11 17:16 B5  SHORT gold 25000 USD x10 @ 4022.34 (TP 4010.27, SL 4030.38; news -0.64)
 06.11 17:19 N  NEWS (18 new) score -0.50 conf 0.60: Güçlü ABD istihdam verisi (165 bin iş, işsizlik %4.1) Fed'in Aralık'ta faiz artırma ihtimalini canlandırdı ve doların güçlenmesine yol açtı; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. İran savaşı ve jeopolitik riskler güvenli liman talebini destekleyebilir, ancak haberlerdeki de-eskalasyon girişimleri ve Goldman'ın altın tahminini düşürmesi bu desteği sınırlıyor.
 06.11 17:19 N  GPT  score -0.40 conf 0.68: Beklentiyi aşan istihdam ve işsizlikteki düşüş, Fed’in faiz artırımı olasılığını ve dolar talebini yükselterek kısa vadede altını baskılıyor. Körfez’deki ölümcül tanker saldırısı güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve karma haber akışı güveni azaltıyor.
+06.11 17:25 B5  CLOSE short stop: -55.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
