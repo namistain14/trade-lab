@@ -4685,6 +4685,10 @@
    [
     1793977338,
     5000.0
+   ],
+   [
+    1793977518,
+    5000.0
    ]
   ],
   "archive": [
@@ -18320,6 +18324,10 @@
    ],
    [
     1793977338,
+    4868.5
+   ],
+   [
+    1793977518,
     4868.5
    ]
   ],
@@ -32031,6 +32039,10 @@
    [
     1793977338,
     4963.78
+   ],
+   [
+    1793977518,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -42587,6 +42599,10 @@
    [
     1793977338,
     4975.18
+   ],
+   [
+    1793977518,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -53109,6 +53125,10 @@
    [
     1793977338,
     4993.28
+   ],
+   [
+    1793977518,
+    4993.28
    ]
   ]
  },
@@ -63468,6 +63488,10 @@
    [
     1793977338,
     4969.22
+   ],
+   [
+    1793977518,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -73593,6 +73617,10 @@
    [
     1793977338,
     4566.41
+   ],
+   [
+    1793977518,
+    4578.93
    ]
   ],
   "news_calls": {
@@ -73800,7 +73828,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 107200.20513600002,
+   "balance": 107235.48013600001,
    "start": 100000.0,
    "positions": [
     {
@@ -73815,7 +73843,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Sert sat\u0131\u015f\u0131n ard\u0131ndan yapay zek\u00e2 hisselerinde dip al\u0131m\u0131 s\u00fcr\u00fcyor ve be\u015f dakikal\u0131k kapan\u0131\u015flarda y\u00fckselen dipler olu\u015fuyor. | GPT 0.6: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc performans ve kazan\u0131mlar\u0131n korunmas\u0131, yatayla\u015fma sonras\u0131nda yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 661.31
+     "cur": 660.73
     },
     {
      "id": "5b52f9ae-7491-45a3-8266-ce371cb0d411",
@@ -73829,7 +73857,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: G\u00fc\u00e7l\u00fc istihdam verisi ve dipten al\u0131m havas\u0131 endeksi yukar\u0131 ta\u015f\u0131yor, momentum s\u00fcr\u00fcyor. | GPT 0.61: Son saatteki y\u00fckseli\u015f ve g\u00fc\u00e7l\u00fc istihdam verisine olumlu fiyat tepkisi, k\u00fc\u00e7\u00fck geri \u00e7ekilmede al\u0131m\u0131 destekliyor.",
-     "cur": 739.65
+     "cur": 739.0
     },
     {
      "id": "666a5a84-2795-4393-af19-62bdf672e72b",
@@ -73843,7 +73871,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Cybertruck haberine ra\u011fmen al\u0131c\u0131lar bask\u0131n; son 5 dakikal\u0131k kapan\u0131\u015flar y\u00fckselen momentum g\u00f6steriyor. | GPT 0.6: Cybertruck haberine ra\u011fmen son kapan\u0131\u015flardaki toparlanma ve g\u00fcn i\u00e7i zirveye y\u00f6neli\u015f al\u0131m lehine.",
-     "cur": 356.245
+     "cur": 356.31
     }
    ],
    "trades": [
@@ -74246,12 +74274,12 @@
    ],
    "day": {
     "date": "2026-11-06",
-    "pnl": 255.73,
-    "trades": 10,
+    "pnl": 145.64,
+    "trades": 9,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 108515.33
+   "equity": 108405.24
   },
   "equity_curve": [
    [
@@ -84249,6 +84277,10 @@
    [
     1793977338,
     108515.33
+   ],
+   [
+    1793977518,
+    108405.24
    ]
   ],
   "open": {
@@ -92897,6 +92929,10 @@
    ],
    [
     1793977338,
+    5007.68
+   ],
+   [
+    1793977518,
     5007.68
    ]
   ],
