@@ -4553,6 +4553,10 @@
    [
     1793971665,
     5000.0
+   ],
+   [
+    1793971867,
+    5000.0
    ]
   ],
   "archive": [
@@ -18057,43 +18061,38 @@
    [
     1793971665,
     4868.5
+   ],
+   [
+    1793971867,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Dolar, AI hisselerindeki sat\u0131\u015f nedeniyle g\u00fcvenli liman talebiyle y\u00fckseliyor ve DXY haftal\u0131k zirvelere yakla\u015f\u0131yor; bu alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 s\u0131k\u0131 para politikas\u0131 beklentisini destekleyerek alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131 ile ilgili ba\u015fl\u0131klar ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde eski ve fiyatlanm\u0131\u015f haberler; yeni bir jeopolitik t\u0131rman\u0131\u015f sinyali zay\u0131f. \u00d6te yandan \"alt\u0131n haftal\u0131k kazan\u00e7 yolunda\" gibi kar\u015f\u0131t bir haber var ve NFP verisi hen\u00fcz a\u00e7\u0131klanmad\u0131\u011f\u0131 i\u00e7in sinyal belirsiz.",
+   "score": -0.2,
+   "confidence": 0.4,
+   "reason": "Haberler \u00e7eli\u015fkili: Goldman'\u0131n Fed'in sertle\u015fmesi nedeniyle alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi, g\u00fc\u00e7lenen dolar ve DXY'nin y\u00fckseli\u015fi alt\u0131n i\u00e7in olumsuz; buna kar\u015f\u0131l\u0131k k\u00fcresel borsa sell-off'u ve Iran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici. Fiyat ba\u015fl\u0131\u011f\u0131 (%4,31 art\u0131\u015f) ile di\u011fer haberler (Pakistan ve Hindistan'da d\u00fc\u015f\u00fc\u015f) birbiriyle uyumsuz oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1793971137449,
-   "new_headlines": 12,
+   "ts": 1793971858070,
+   "new_headlines": 13,
    "key_events": [
     "Teknoloji hisselerinde sert sat\u0131\u015f ve ABD hisselerinde d\u00fc\u015f\u00fc\u015f; g\u00fcvenli liman talebi",
     "Dolar ve tahvil getirilerinin gerilemesiyle alt\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131",
     "\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve ara se\u00e7im sonras\u0131 jeopolitik belirsizlik; yakla\u015fan payrolls verisi"
    ],
    "gpt": {
-    "score": -0.28,
+    "score": -0.3,
     "confidence": 0.56,
-    "reason": "Fed\u2019den Williams\u2019\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu mesaj\u0131 ve dolar\u0131n istihdam verisi \u00f6ncesi g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran ve Do\u011fu Avrupa kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de etkiler kar\u0131\u015f\u0131k; yakla\u015fan istihdam verisi belirsizli\u011fi art\u0131r\u0131yor.",
+    "reason": "K\u00fcresel hisse senedi sat\u0131\u015flar\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak riskten ka\u00e7\u0131\u015f\u0131n dolar\u0131 g\u00fc\u00e7lendirmesi, Fed\u2019in enflasyon konusundaki temkinli duru\u015fu ve beklenen faiz art\u0131\u015flar\u0131 alt\u0131n i\u00e7in yak\u0131n vadede daha bask\u0131n bir bask\u0131 olu\u015fturuyor. Alt\u0131n\u0131n sert y\u00fckseldi\u011fine dair haberler",
     "key_events": [
-     "Williams: Enflasyon h\u00e2l\u00e2 y\u00fcksek, hedef %2",
-     "Dolar istihdam verisi \u00f6ncesi y\u00fckseldi",
-     "\u0130ran ve Do\u011fu Avrupa gerilimleri g\u00fcvenli liman talebini destekliyor"
+     "Dolar endeksi haftal\u0131k zirvelerine \u00e7\u0131kt\u0131; istihdam verisi \u00f6ncesi dolar talebi g\u00fc\u00e7l\u00fc",
+     "Hisse senedi sat\u0131\u015flar\u0131 k\u00fcresel riskten ka\u00e7\u0131\u015f\u0131 art\u0131rd\u0131",
+     "Fed enflasyonu y\u00fcksek buluyor; Goldman Fed faiz art\u0131\u015f\u0131 beklentisiyle alt\u0131n tahminini d\u00fc\u015f\u00fcrd\u00fc"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793709253957,
-    "score": 0.2,
-    "confidence": 0.35,
-    "reason": "ABD'nin \u0130ran'a ait bir aday\u0131 vurmas\u0131 ve \u00e7at\u0131\u015fma riskinin s\u00fcrmesi g\u00fcvenli liman talebini hafif\u00e7e destekliyor; ancak ABD-\u0130ran arabuluculuk g\u00f6r\u00fc\u015fmeleri, dolar endeksinin dar bantta seyretmesi ve Fed'in duraklamas\u0131na ili\u015fkin haberler bu etkiyi s\u0131n\u0131rl\u0131yor. Haberlerin \u00e7o\u011fu \u00e7eli\u015fkili veya zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 19,
-    "gpt_score": 0.3,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1793709974657,
     "score": -0.45,
@@ -20784,16 +20783,38 @@
     "new": 12,
     "gpt_score": -0.28,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1793971858070,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "Haberler \u00e7eli\u015fkili: Goldman'\u0131n Fed'in sertle\u015fmesi nedeniyle alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi, g\u00fc\u00e7lenen dolar ve DXY'nin y\u00fckseli\u015fi alt\u0131n i\u00e7in olumsuz; buna kar\u015f\u0131l\u0131k k\u00fcresel borsa sell-off'u ve Iran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici. Fiyat ba\u015fl\u0131\u011f\u0131 (%4,31 art\u0131\u015f) ile di\u011fer haberler (Pakistan ve Hindistan'da d\u00fc\u015f\u00fc\u015f) birbiriyle uyumsuz oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 13,
+    "gpt_score": -0.3,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-06",
-   "n": 81
+   "n": 82
   },
   "news_seen": [
+   "The Latest: Trump concedes Iran war impact on elections but insists he\u2019d \u2018do it again\u2019 - WTOP News",
+   "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+   "Gold Price Today Surges 4.31% to $4,107\u2014Still 25% Below Its 52-Week High - The Cryptonomist",
+   "US Dollar Index (DXY) hits weekly highs above 102.00 ahead of October's NFP release - www.tmgm.com",
+   "PM tells firms to publish salaries in job adverts ahead of new law",
+   "Ringgit slips against US dollar amid global risk-off sentiment - The Malaysian Reserve",
+   "Goldman Sachs lowered its gold price forecast as Fed turns hawkish - Quartz",
+   "Opinion | How to de-escalate the gerrymandering war - The Washington Post",
+   "Trump left with \u2018no good options\u2019 to end Iran war after US midterms defeat - South China Morning Post",
    "European Far Right Reconsiders Trump Alliance Amid War-Driven Economic Turmoil - \u062a\u0633\u0646\u06cc\u0645",
+   "EU expands Ukraine sanctions push with new office and crypto task force - The Kyiv Independent",
    "US inflation too high; essential to get back to 2%: Fed's Williams - Kitco",
    "'Drummer Boy' cast, creators preview American Revolutionary War musical film - weareiowa.com",
+   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - wtol.com",
+   "Gold price forecast cut by Goldman Sachs due to expected Fed rate hikes, now $4,150/oz by end of 2026. - Pluang",
+   "Dollar climbs as stock rout spreads to Asian, European markets - Central Oregon Daily",
    "Gold Prices Drop Rs 2,500 on Dhanteras Amid Weak Demand - Rediff MoneyWiz",
    "Iranians face looming war threat with no reliable info from state, media - DW.com",
    "Dollar Rises as AI Stock Selloff Spurs Safe-Haven Flows; Payrolls in Focus - News and Statistics - IndexBox",
@@ -20804,11 +20825,9 @@
    "Kenyan doomsday cult leader given life sentence for murdering 191 people",
    "Will a Democratic Congress accelerate an Iran war exit? - TRT World",
    "Russian extremist group denies sending hoax bomb threats",
-   "US Dollar Index (DXY) hits weekly highs above 102.00 ahead of October's NFP release - FXStreet",
    "Gold edges higher, heading for weekly gains - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
    "The Dollar Edges Up Ahead Of Friday\u2019s Jobs Report - Finimize",
    "US Dollar Rises Early Friday Before October Employment Data - marketscreener.com",
-   "PM tells firms to publish salaries in job adverts ahead of new law",
    "Jobs report to provide latest snapshot of hiring days after midterms - ABC News - Breaking News, Latest News and Videos",
    "'Drummer Boy' cast, creators preview American Revolutionary War musical film - KSDK",
    "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
@@ -20820,29 +20839,14 @@
    "After GOP Defeat, Vance Blames Trump\u2019s Iran War as 2028 Race Begins \u2013 CNN - Palestine Chronicle",
    "Family Business Summit day 2 tackles US-China ties, Asean and geopolitical shifts - South China Morning Post",
    "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WQAD",
-   "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees - WSB-TV",
    "'Drummer Boy' cast, creators preview American Revolutionary War musical film - 5newsonline.com",
    "'Drummer Boy' cast, creators preview American Revolutionary War musical film - KHOU",
    "Dollar Rises as Investors Flee AI Stocks and Await US Jobs Data - BigGo Finance",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - wtsp.com",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WNEP",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - localmemphis.com",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WUSA9",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - FOX43",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WLTX",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WCNC",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - ABC10",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WHAS11",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - KREM",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - fox61.com",
-   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WGRZ"
+   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - wfmynews2.com",
+   "'Drummer Boy' cast, creators preview American Revolutionary War musical film - WNEP"
   ]
  },
  "log": [
-  "05.11 15:24 N  GPT  score +0.28 conf 0.42: Alt\u0131n, dolar ve tahvil getirilerindeki gerilemeyle iki haftan\u0131n zirvesine yakla\u015fm\u0131\u015f; k\u0131sa vadeli momentum hafif olumlu. Ancak dolar\u0131n toparlanmas\u0131, petrol\u00fcn yeniden y\u00fckselmesi ve faiz haberleri y\u00f6n\u00fc s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 da \u00e7eli\u015fkili.",
-  "05.11 15:36 N  NEWS (10 new) score +0.20 conf 0.40: ",
-  "05.11 15:36 N  GPT  score +0.20 conf 0.30: ABD ara se\u00e7imleri sonras\u0131 dolar\u0131n zay\u0131flayabilece\u011fi beklentisi ve \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik alt\u0131na hafif destek sa\u011flayabilir. Ancak dolar\u0131n yeniden toparland\u0131\u011f\u0131na dair haberler ve BoE faiz art\u0131\u015f\u0131 kar\u015f\u0131t sinyaller; yerel alt\u0131n fiyat\u0131 haberleri k\u00fcresel fiyat i\u00e7in belirleyici de\u011fil.",
-  "05.11 15:48 N  NEWS (9 new) score -0.10 conf 0.40: ",
   "05.11 15:48 N  GPT  score +0.25 conf 0.42: Alt\u0131n son y\u00fckseli\u015fini koruyor; d\u00fc\u015fen dolar ve tahvil getirileri ile \u0130ran sava\u015f\u0131 kaynakl\u0131 belirsizlik k\u0131sa vadede destekleyici. Ancak petrol kaynakl\u0131 daha y\u00fcksek faiz beklentisi ve BoE faiz art\u0131\u015f\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor; ba\u015fl\u0131klar \u00e7eli\u015fkili oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck-orta.",
   "05.11 16:32 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "05.11 16:32 N  NEWS (28 new) score -0.05 conf 0.35: Haberler kar\u0131\u015f\u0131k: Dolar ve ABD i\u015fsizlik/istihdam verileri \u00f6ncesinde yeniden g\u00fc\u00e7leniyor ve alt\u0131n 4.150 dolar\u0131n alt\u0131nda durakl\u0131yor, bu k\u0131sa vadede bask\u0131 yarat\u0131r. Buna kar\u015f\u0131l\u0131k Demokratlar\u0131n Kongre zaferi dolar\u0131 zay\u0131flat\u0131yor, H\u00fcrm\u00fcz'deki gemi sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor; BoE'nin faiz art\u0131r\u0131m\u0131 ise s\u0131k\u0131la\u015fma beklentilerini art\u0131rarak alt\u0131n i\u00e7in olumsuz. T\u00fcm bu etkiler birbirini dengeledi\u011finden y\u00f6n net de\u011fil.",
@@ -21138,7 +21142,11 @@
   "06.11 16:06 N  GPT  score -0.20 conf 0.42: DXY'nin haftal\u0131k zirvelere \u00e7\u0131kmas\u0131 ve dolar\u0131n istihdam verisi \u00f6ncesi g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yaratabilir. Ancak alt\u0131n\u0131n y\u00fckseli\u015fini s\u00fcrd\u00fcrmesi ve NFP \u00f6ncesi belirsizlik etkinin s\u0131n\u0131rl\u0131 kalabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor.",
   "06.11 16:06 B5  SHORT gold 25000 USD x10 @ 4052.11 (TP 4039.95, SL 4060.21; news -0.23)",
   "06.11 16:18 N  NEWS (12 new) score -0.30 conf 0.50: Dolar, AI hisselerindeki sat\u0131\u015f nedeniyle g\u00fcvenli liman talebiyle y\u00fckseliyor ve DXY haftal\u0131k zirvelere yakla\u015f\u0131yor; bu alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Fed'in Williams'\u0131n enflasyonun h\u00e2l\u00e2 \u00e7ok y\u00fcksek oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 s\u0131k\u0131 para politikas\u0131 beklentisini destekleyerek alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131 ile ilgili ba\u015fl\u0131klar ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde eski ve fiyatlanm\u0131\u015f haberler; yeni bir jeopolitik t\u0131rman\u0131\u015f sinyali zay\u0131f. \u00d6te yandan \"alt\u0131n haftal\u0131k kazan\u00e7 yolunda\" gibi kar\u015f\u0131t bir haber var ve NFP verisi hen\u00fcz a\u00e7\u0131klanmad\u0131\u011f\u0131 i\u00e7in sinyal belirsiz.",
-  "06.11 16:18 N  GPT  score -0.28 conf 0.56: Fed\u2019den Williams\u2019\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu mesaj\u0131 ve dolar\u0131n istihdam verisi \u00f6ncesi g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran ve Do\u011fu Avrupa kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de etkiler kar\u0131\u015f\u0131k; yakla\u015fan istihdam verisi belirsizli\u011fi art\u0131r\u0131yor."
+  "06.11 16:18 N  GPT  score -0.28 conf 0.56: Fed\u2019den Williams\u2019\u0131n enflasyonun h\u00e2l\u00e2 y\u00fcksek oldu\u011fu mesaj\u0131 ve dolar\u0131n istihdam verisi \u00f6ncesi g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran ve Do\u011fu Avrupa kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de etkiler kar\u0131\u015f\u0131k; yakla\u015fan istihdam verisi belirsizli\u011fi art\u0131r\u0131yor.",
+  "06.11 16:31 B5  CLOSE short take profit: +69.09 USD",
+  "06.11 16:31 N  NEWS (13 new) score -0.20 conf 0.40: Haberler \u00e7eli\u015fkili: Goldman'\u0131n Fed'in sertle\u015fmesi nedeniyle alt\u0131n tahminini d\u00fc\u015f\u00fcrmesi, g\u00fc\u00e7lenen dolar ve DXY'nin y\u00fckseli\u015fi alt\u0131n i\u00e7in olumsuz; buna kar\u015f\u0131l\u0131k k\u00fcresel borsa sell-off'u ve Iran sava\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi destekleyici. Fiyat ba\u015fl\u0131\u011f\u0131 (%4,31 art\u0131\u015f) ile di\u011fer haberler (Pakistan ve Hindistan'da d\u00fc\u015f\u00fc\u015f) birbiriyle uyumsuz oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+  "06.11 16:31 N  GPT  score -0.30 conf 0.56: K\u00fcresel hisse senedi sat\u0131\u015flar\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak riskten ka\u00e7\u0131\u015f\u0131n dolar\u0131 g\u00fc\u00e7lendirmesi, Fed\u2019in enflasyon konusundaki temkinli duru\u015fu ve beklenen faiz art\u0131\u015flar\u0131 alt\u0131n i\u00e7in yak\u0131n vadede daha bask\u0131n bir bask\u0131 olu\u015fturuyor. Alt\u0131n\u0131n sert y\u00fckseldi\u011fine dair haberler",
+  "06.11 16:31 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert sat\u0131\u015f sonras\u0131 a\u00e7\u0131l\u0131\u015fta tepki al\u0131m\u0131 olas\u0131, ancak istihdam verisi \u00f6ncesi oynakl\u0131k y\u00fcksek oldu\u011fundan pozisyonlar k\u00fc\u00e7\u00fck ve se\u00e7ici tutulmal\u0131."
  ],
  "gold_big": {
   "account": {
@@ -31635,6 +31643,10 @@
    [
     1793971665,
     4963.78
+   ],
+   [
+    1793971867,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -42059,6 +42071,10 @@
    [
     1793971665,
     4975.18
+   ],
+   [
+    1793971867,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -52449,6 +52465,10 @@
    [
     1793971665,
     4993.28
+   ],
+   [
+    1793971867,
+    4993.28
    ]
   ]
  },
@@ -62676,6 +62696,10 @@
    [
     1793971665,
     4969.22
+   ],
+   [
+    1793971867,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -62685,25 +62709,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4573.876030818353,
+   "balance": 4642.965586896982,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "f9d83b93",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.169626142466629,
-     "entry": 4052.109386,
-     "tp": 4039.953057842,
-     "sl": 4060.213604772,
-     "opened_ms": 1793970375350,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.23/0.40",
-     "friction": 11.8533
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -63943,12 +63951,33 @@
      "gross": -56.3552,
      "costs": 0.0,
      "pnl": -56.3552
+    },
+    {
+     "id": "f9d83b93",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.169626142466629,
+     "entry": 4052.109386,
+     "tp": 4039.953057842,
+     "sl": 4060.213604772,
+     "opened_ms": 1793970375350,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.23/0.40",
+     "friction": 11.8533,
+     "exit": 4040.9110484535686,
+     "closed_ms": 1793971860000,
+     "reason": "take profit",
+     "gross": 69.0896,
+     "costs": 0.0,
+     "pnl": 69.0896
     }
    ],
    "day": {
     "date": "2026-11-06",
     "trades": 8,
-    "pnl": -392.17912999195477,
+    "pnl": -323.08957391332535,
     "stopped": false
    },
    "last_check_ms": 0
@@ -72585,6 +72614,10 @@
    [
     1793971665,
     4577.27
+   ],
+   [
+    1793971867,
+    4642.97
    ]
   ],
   "news_calls": {
@@ -83048,6 +83081,10 @@
    [
     1793971665,
     108259.6
+   ],
+   [
+    1793971867,
+    108259.6
    ]
   ],
   "open": {},
@@ -83055,67 +83092,15 @@
   "market_open": false,
   "last_decision_ms": 1793908997172,
   "view": {
-   "ts": 1793908997172,
-   "claude": "Yapay zeka hisselerindeki \u00e7\u00f6k\u00fc\u015f ve VIX s\u0131\u00e7ramas\u0131yla piyasa sert riskten ka\u00e7\u0131\u015f g\u00fcn\u00fcn\u00fc kapatt\u0131; son saatteki hafif toparlanma seans sonras\u0131 i\u015flemler i\u00e7in yeterli bir sinyal de\u011fil.",
-   "gpt": "Sert sat\u0131\u015f sonras\u0131 tepki y\u00fckseli\u015fi zay\u0131fl\u0131yor; seans sonras\u0131 d\u00fc\u015f\u00fck likidite ve 1:4 kald\u0131ra\u00e7 yeni pozisyonun riskini art\u0131r\u0131yor.",
-   "gpt_model": "gpt-6.1-sol",
+   "ts": 1793971867856,
+   "claude": "Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert sat\u0131\u015f sonras\u0131 a\u00e7\u0131l\u0131\u015fta tepki al\u0131m\u0131 olas\u0131, ancak istihdam verisi \u00f6ncesi oynakl\u0131k y\u00fcksek oldu\u011fundan pozisyonlar k\u00fc\u00e7\u00fck ve se\u00e7ici tutulmal\u0131.",
    "claude_model": "claude-opus-5-5",
-   "picks": {
-    "SPY": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "NVDA": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "AAPL": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "TSLA": {
-     "claude": [
-      "none",
-      0.3
-     ],
-     "gpt": [
-      "none",
-      0.9
-     ]
-    }
-   }
+   "gpt": "",
+   "premarket": true
   },
   "next_open": "2026-11-06T09:30:00-05:00",
-  "state": "uyku (piyasa kapal\u0131)",
-  "premarket_day": "2026-11-05",
+  "state": "haz\u0131rl\u0131k (seans \u00f6ncesi)",
+  "premarket_day": "2026-11-06",
   "alpaca": {
    "multiplier": "4",
    "buying_power": "433038.4",
@@ -91530,6 +91515,10 @@
    ],
    [
     1793971665,
+    5007.68
+   ],
+   [
+    1793971867,
     5007.68
    ]
   ],

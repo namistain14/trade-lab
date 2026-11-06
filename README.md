@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 16:27 (İstanbul)
+> Son güncelleme: 06.11.2026 16:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,28 +18,26 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -392.18 $ | -426.12 $ |
-| İşlem sayısı | 7 | 59 |
-| Kazanma oranı | %0.0 | %39.0 |
-| Ödenen komisyon/spread | 82.91 $ | 700.37 $ |
+| Net kâr/zarar | -323.09 $ | -357.03 $ |
+| İşlem sayısı | 8 | 60 |
+| Kazanma oranı | %12.5 | %40.0 |
+| Ödenen komisyon/spread | 94.76 $ | 712.22 $ |
 
-**Hesap değeri: 4,577.27 $** (başlangıç 5,000 $, -422.73 $ / %-8.45)
+**Hesap değeri: 4,642.97 $** (başlangıç 5,000 $, -357.03 $ / %-7.14)
 
-Açık pozisyonlar: PAXGUSDT short @ 4052.11 (TP 4039.95 / SL 4060.21)
+Son haber analizi (06.11 16:30): Claude puan **-0.20**, güven 0.40 — Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
 
-Son haber analizi (06.11 16:18): Claude puan **-0.30**, güven 0.50 — Dolar, AI hisselerindeki satış nedeniyle güvenli liman talebiyle yükseliyor ve DXY haftalık zirvelere yaklaşıyor; bu altın için baskı oluşturuyor. Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması sıkı para politikası beklentisini destekleyerek altın için olumsuz. İran savaşı ile ilgili başlıklar ise büyük ölçüde eski ve fiyatlanmış haberler; yeni bir jeopolitik tırmanış sinyali zayıf. Öte yandan "altın haftalık kazanç yolunda" gibi karşıt bir haber var ve NFP verisi henüz açıklanmadığı için sinyal belirsiz.
-
-GPT (gpt-6-luna): puan **-0.28**, güven 0.56 — Fed’den Williams’ın enflasyonun hâlâ yüksek olduğu mesajı ve doların istihdam verisi öncesi güçlenmesi, kısa vadede altın için baskı oluşturuyor. İran ve Doğu Avrupa kaynaklı riskler güvenli liman talebini desteklese de etkiler karışık; yaklaşan istihdam verisi belirsizliği artırıyor.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.56 — Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 06.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 | 06.11 14:26 | PAXGUSDT | short | -56.36 $ | stop (gap) |
 | 06.11 10:57 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 09:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 08:11 | PAXGUSDT | short | -56.23 $ | stop (gap) |
-| 06.11 04:01 | PAXGUSDT | long | -55.91 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -87,10 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 15:05 N  NEWS (3 new) score -0.30 conf 0.50: 
-06.11 15:05 N  GPT  score -0.12 conf 0.35: Doların NFP öncesinde güçlenmesi ve altındaki düşüş haberleri kısa vadede baskı yaratabilir. Piyasa genelindeki riskten kaçış ve İran gerilimi güvenli liman talebini desteklese de, gerilimin azalabileceğine dair haberler bu etkiyi sınırlıyor.
-06.11 15:17 N  NEWS (7 new) score -0.10 conf 0.35: Haberler karışık: İran savaşına dair jeopolitik risk ve borsa satışları altın için destekleyici olsa da, Fed'in Williams'ın enflasyonun hâlâ yüksek olduğu yönündeki açıklaması ve dolar tarafındaki nakit talebi altını baskılayabilir. NFP öncesi altın geri çekilmiş durumda; bu veri belirleyici olacağı için yön belirsiz, bu nedenle skor hafif negatif ve güven düşük tutuldu.
-06.11 15:17 N  GPT  score -0.18 conf 0.36: NFP öncesi altındaki geri çekilme ve dolar talebindeki güçlenme kısa vadede baskı yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de de-eskalasyon haberleri ve çelişkili sinyaller yönü belirsizleştiriyor.
 06.11 15:30 N  NEWS (14 new) score +0.05 conf 0.30: 
 06.11 15:30 N  GPT  score +0.12 conf 0.36: İran savaşının yeniden tırmanabileceğine dair haberler ve küresel piyasalardaki riskten kaçış altına sınırlı destek sağlayabilir. Ancak NFP öncesi doların görece güçlü olması ve altının geri çekilmesi bu etkiyi dengeliyor; haber akışı çelişkili.
 06.11 15:42 N  NEWS (7 new) score +0.05 conf 0.30: 
@@ -102,6 +96,10 @@ Son işlemler:
 06.11 16:06 B5  SHORT gold 25000 USD x10 @ 4052.11 (TP 4039.95, SL 4060.21; news -0.23)
 06.11 16:18 N  NEWS (12 new) score -0.30 conf 0.50: Dolar, AI hisselerindeki satış nedeniyle güvenli liman talebiyle yükseliyor ve DXY haftalık zirvelere yaklaşıyor; bu altın için baskı oluşturuyor. Fed'in Williams'ın enflasyonun hâlâ çok yüksek olduğu yönündeki açıklaması sıkı para politikası beklentisini destekleyerek altın için olumsuz. İran savaşı ile ilgili başlıklar ise büyük ölçüde eski ve fiyatlanmış haberler; yeni bir jeopolitik tırmanış sinyali zayıf. Öte yandan "altın haftalık kazanç yolunda" gibi karşıt bir haber var ve NFP verisi henüz açıklanmadığı için sinyal belirsiz.
 06.11 16:18 N  GPT  score -0.28 conf 0.56: Fed’den Williams’ın enflasyonun hâlâ yüksek olduğu mesajı ve doların istihdam verisi öncesi güçlenmesi, kısa vadede altın için baskı oluşturuyor. İran ve Doğu Avrupa kaynaklı riskler güvenli liman talebini desteklese de etkiler karışık; yaklaşan istihdam verisi belirsizliği artırıyor.
+06.11 16:31 B5  CLOSE short take profit: +69.09 USD
+06.11 16:31 N  NEWS (13 new) score -0.20 conf 0.40: Haberler çelişkili: Goldman'ın Fed'in sertleşmesi nedeniyle altın tahminini düşürmesi, güçlenen dolar ve DXY'nin yükselişi altın için olumsuz; buna karşılık küresel borsa sell-off'u ve Iran savaşı kaynaklı güvenli liman talebi destekleyici. Fiyat başlığı (%4,31 artış) ile diğer haberler (Pakistan ve Hindistan'da düşüş) birbiriyle uyumsuz olduğundan güven düşük.
+06.11 16:31 N  GPT  score -0.30 conf 0.56: Küresel hisse senedi satışları ve İran savaşı güvenli liman talebini destekleyebilir; ancak riskten kaçışın doları güçlendirmesi, Fed’in enflasyon konusundaki temkinli duruşu ve beklenen faiz artışları altın için yakın vadede daha baskın bir baskı oluşturuyor. Altının sert yükseldiğine dair haberler
+06.11 16:31 B6  seans öncesi görüş: Teknoloji ağırlıklı sert satış sonrası açılışta tepki alımı olası, ancak istihdam verisi öncesi oynaklık yüksek olduğundan pozisyonlar küçük ve seçici tutulmalı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
