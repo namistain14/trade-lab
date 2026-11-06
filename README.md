@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 20:56 (İstanbul)
+> Son güncelleme: 06.11.2026 20:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,784.06 $** (başlangıç 100,000 $, +9784.06 $ / %+9.78)
+**Hesap değeri: 110,090.15 $** (başlangıç 100,000 $, +10090.15 $ / %+10.09)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -87,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 19:46 N  NEWS (17 new) score -0.40 conf 0.60: Güçlü tarım dışı istihdam (165 bin) doları yükseltti ve piyasa Aralık'ta faiz artırımını fiyatlamaya başladı; bu, reel faiz ve dolar kanalından altı baskılıyor. İran savaşındaki tanker saldırıları ve Trump'ın yeni saldırı kararı güvenli liman talebini destekliyor, ancak bu haberler kısmen fiyatlanmış ve etkisi jeopolitik-ekonomik baskıyı dengelemeye yetmiyor.
 06.11 19:46 N  GPT  score -0.15 conf 0.48: Beklentiyi aşan istihdam verisi doları güçlendirip Fed’in faiz artırımı beklentisini destekleyerek altın üzerinde baskı yaratıyor. İran’da olası yeni saldırı kararı ve Körfez’de tanker saldırısında can kaybı güvenli liman talebini artırabilir; bu nedenle net etki sınırlı ve belirsiz.
 06.11 19:46 B6  karar turu: Claude «Güçlü istihdam verisi sonrası piyasa toparlanıyor ancak son saatte momentum zayıfladı ve Aralık faiz artırımı beklentileri yukarı hareketi sınırlayabilir.» / GPT «Endeksler gün içi kazanımlarını yatay seyirle sindirirken Tesla'nın göreli gücü öne çıkıyor, ancak sert günlük yükseliş kâr satışı riskini artırıyor.»
 06.11 19:58 N  NEWS (8 new) score -0.20 conf 0.40: Güçlü tarım dışı istihdam verisi (165 bin) dolar endeksini yükseltti ve piyasa Aralık'ta faiz artırımı beklentisini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. Buna karşılık İran savaşındaki tırmanış ve tanker saldırıları güvenli liman talebini destekliyor, bu nedenle etki karışık ve güven düşük.
@@ -102,6 +101,7 @@ Son işlemler:
 06.11 20:47 B6  karar turu: Claude «Güçlü istihdam verisiyle gelen sert toparlanma, Fed faiz artışı beklentileri ve Çin'e yönelik sert söylem nedeniyle öğleden sonra geri veriliyor.» / GPT «Endekslerin günlük artılarını geri vermesi kısa yönü destekliyor; ancak sert geri dönüş riski nedeniyle 1:4 kaldıraçta toplam pozisyon büyüklüğü sınırlı tutulmalı.»
 06.11 20:47 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102838.95","code":40310000,"cost_basis":"113193.35","message":"insufficient buying power"}
 06.11 20:47 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102842.76","code":40310000,"cost_basis":"113117.81","message":"insufficient buying power"}
+06.11 20:59 B6  karar turu: Claude «Güçlü istihdam verisi ve 2020'den beri en kötü günün ardından teknoloji öncülüğünde toparlanma sürüyor, ancak faiz artırımı beklentileri ve hafta sonu öncesi kâr satışları öğleden sonra dalgalanma riski taşıyor.» / GPT «Endekslerdeki son tepki henüz düşüş yapısını bozmadığından kısa yönü tercih ediyorum; 1:4 kaldıraçta iki pozisyonun ortak piyasa riskini sınırlamak önemli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
