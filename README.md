@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 09:27 (İstanbul)
+> Son güncelleme: 06.11.2026 09:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %0.0 | %40.4 |
 | Ödenen komisyon/spread | 59.20 $ | 676.66 $ |
 
-**Hesap değeri: 4,686.17 $** (başlangıç 5,000 $, -313.83 $ / %-6.28)
+**Hesap değeri: 4,680.24 $** (başlangıç 5,000 $, -319.76 $ / %-6.40)
+
+Açık pozisyonlar: PAXGUSDT short @ 4043.78 (TP 4031.65 / SL 4051.87)
 
 Son haber analizi (06.11 09:24): Claude puan **-0.20**, güven 0.40 — Altın, ABD tarım dışı istihdam (NFP) verisi öncesinde DXY'nin 101,80 civarında toparlanması ve tahvil getirilerindeki güç nedeniyle baskı altında; birçok haber fiyat düşüşünü teyit ediyor. Ancak WGC'nin "geçici dip" yorumu, teknoloji hisselerindeki sert düşüşle güvenli liman talebi ve Hürmüz/İran riskinin sürmesi yukarı yönlü riskleri koruyor; bu çelişkiler ve haberlerin büyük ölçüde fiyatlanmış olması güveni sınırlıyor.
 
@@ -85,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 08:17 B5  SHORT gold 25000 USD x10 @ 4040.58 (TP 4028.46, SL 4048.66; news -0.27)
 06.11 08:20 B5P  CLOSE long stop: -58.75 USD
 06.11 08:24 N  NEWS (15 new) score -0.15 conf 0.40: 
 06.11 08:24 N  GPT  score -0.22 conf 0.38: Doların güvenli liman talebiyle güçlenmesi ve NFP öncesi temkin, kısa vadede altına baskı yapabilir. İran konusunda barış beklentileri ve riskten kaçışın altını destekleyebilmesi sinyalleri karıştırıyor; yön güveni düşük.
@@ -100,6 +101,7 @@ Son işlemler:
 06.11 09:24 N  NEWS (8 new) score -0.20 conf 0.40: Altın, ABD tarım dışı istihdam (NFP) verisi öncesinde DXY'nin 101,80 civarında toparlanması ve tahvil getirilerindeki güç nedeniyle baskı altında; birçok haber fiyat düşüşünü teyit ediyor. Ancak WGC'nin "geçici dip" yorumu, teknoloji hisselerindeki sert düşüşle güvenli liman talebi ve Hürmüz/İran riskinin sürmesi yukarı yönlü riskleri koruyor; bu çelişkiler ve haberlerin büyük ölçüde fiyatlanmış olması güveni sınırlıyor.
 06.11 09:24 N  GPT  score -0.30 conf 0.55: ABD istihdam verisi öncesinde dolar endeksinin toparlanması ve altın fiyatlarındaki düşüş, önümüzdeki saatlerde baskının sürebileceğine işaret ediyor. İran savaşı ve Ukrayna diplomasisine ilişkin haberler güvenli liman talebini destekleyebilir; ancak yönleri belirsiz ve yaklaşan veri sonucu belirley
 06.11 09:27 B5  CLOSE short stop: -55.94 USD
+06.11 09:30 B5  SHORT gold 25000 USD x10 @ 4043.78 (TP 4031.65, SL 4051.87; news -0.25)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
