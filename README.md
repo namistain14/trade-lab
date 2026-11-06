@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 06.11.2026 22:46 (İstanbul)
+> Son güncelleme: 06.11.2026 22:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -48,7 +48,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 17.52 $ | 34.69 $ |
 
-**Hesap değeri: 4,953.21 $** (başlangıç 5,000 $, -46.79 $ / %-0.94)
+**Hesap değeri: 4,973.51 $** (başlangıç 5,000 $, -26.49 $ / %-0.53)
 
 Açık pozisyonlar: BZ=F long @ 98.54 (TP 98.84 / SL 98.35)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %54.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,452.57 $** (başlangıç 100,000 $, +10452.57 $ / %+10.45)
+**Hesap değeri: 110,729.01 $** (başlangıç 100,000 $, +10729.01 $ / %+10.73)
 
 Açık pozisyonlar: AAPL long @ 344.30 (TP 349.26 / SL 340.66); NVDA long @ 187.28 (TP 189.97 / SL 185.29); QQQ long @ 657.70 (TP 667.83 / SL 651.38); SPY long @ 740.27 (TP 750.93 / SL 732.43)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 20:59 B6  karar turu: Claude «Güçlü istihdam verisi ve 2020'den beri en kötü günün ardından teknoloji öncülüğünde toparlanma sürüyor, ancak faiz artırımı beklentileri ve hafta sonu öncesi kâr satışları öğleden sonra dalgalanma riski taşıyor.» / GPT «Endekslerdeki son tepki henüz düşüş yapısını bozmadığından kısa yönü tercih ediyorum; 1:4 kaldıraçta iki pozisyonun ortak piyasa riskini sınırlamak önemli.»
 06.11 21:12 B6  karar turu: Claude «Güçlü istihdam verisiyle başlayan teknoloji toparlanması öğleden sonra zayıflıyor; ABD-Çin gerginliği ve Fed faiz artışı beklentileri Cuma kapanışına doğru kâr satışını destekleyebilir.» / GPT «Endekslerde gün içi kazanımların çözülmesi satış yönünü destekliyor; ancak taze şirket haberi eksikliği ve dört kat kaldıraç seçici işlem gerektiriyor.»
 06.11 21:12 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102518.41","code":40310000,"cost_basis":"113062.6","message":"insufficient buying power"}
 06.11 21:24 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq toparlandı, ancak Fed'den Daly'nin daha fazla sıkılaştırma sinyali öğleden sonra teknoloji hisselerinde momentumu zayıflatıyor.» / GPT «Fed’in şahin açıklamaları ve endekslerin son saatte gerilemesi, kaldıraç altında geniş piyasa alımı yerine seçici kısa pozisyonları destekliyor.»
@@ -104,6 +103,7 @@ Son işlemler:
 06.11 22:37 B5P  NEWS (45 new) score +0.20 conf 0.40: 
 06.11 22:37 B5P  GPT  score +0.48 conf 0.58: Basra Körfezi’nde Yunan tankerine füze saldırısı ve mürettebat kaybı, Hürmüz çevresindeki seyrüsefer riskini artırarak Brent’e kısa vadede arz primi ekleyebilir. Ancak Brent’in haftalık sert düşüşü ve İran’ın görüşmelere açık olduğuna dair haberler olası yükselişi sınırlıyor.
 06.11 22:37 B5P  LONG BZ=F 25000 USD x10 @ 98.54 (TP 98.84, SL 98.35; news +0.34)
+06.11 22:49 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq dünkü sert düşüşten toparlanıyor, ancak Fed'in şahin tonu ve kapanışa çok az süre kalması yeni pozisyonu cazip kılmıyor.» / GPT «Endekslerde saatlik momentum yatay ve kapanışa 11 dakika kala 1–3 saatlik pozisyonlar seans dışı likidite ve stop emri işleyişi riski taşıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
