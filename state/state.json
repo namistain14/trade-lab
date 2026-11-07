@@ -6533,6 +6533,10 @@
    [
     1794056564,
     5000.0
+   ],
+   [
+    1794056742,
+    5000.0
    ]
   ],
   "archive": [
@@ -9606,10 +9610,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792746120,
-    4968.46
-   ],
    [
     1792746682,
     4968.46
@@ -21605,6 +21605,10 @@
    [
     1794056564,
     4868.5
+   ],
+   [
+    1794056742,
+    4868.5
    ]
   ],
   "news": {
@@ -24387,7 +24391,6 @@
   ]
  },
  "log": [
-  "05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD",
   "05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD",
   "05.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131",
   "05.11 23:52 N  NEWS (6 new) score +0.35 conf 0.45: Alt\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; Nasdaq 100'\u00fcn sert d\u00fc\u015f\u00fc\u015f\u00fc ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin geri \u00e7ekilmesi reel faiz bask\u0131s\u0131n\u0131 azaltarak alt\u0131n\u0131 destekliyor. Ancak y\u00fckseli\u015f zaten fiyatlanmaya ba\u015flad\u0131, ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi ve dolar hareketi k\u0131sa vadede y\u00f6n\u00fc de\u011fi\u015ftirebilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
@@ -24686,7 +24689,8 @@
   "07.11 15:35 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
   "07.11 15:36 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
   "07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
-  "07.11 15:42 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}"
+  "07.11 15:42 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
+  "07.11 16:05 ERROR B6: Alpaca GET /v2/account: 500 {\"code\":50010000,\"message\":\"internal server error occurred\"}"
  ],
  "gold_big": {
   "account": {
@@ -24872,10 +24876,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792746120,
-    4969.06
-   ],
    [
     1792746682,
     4969.06
@@ -36871,6 +36871,10 @@
    [
     1794056564,
     4963.78
+   ],
+   [
+    1794056742,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -36984,10 +36988,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792746120,
-    4988.81
-   ],
    [
     1792746682,
     4988.81
@@ -48983,6 +48983,10 @@
    [
     1794056564,
     4975.18
+   ],
+   [
+    1794056742,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -49066,10 +49070,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792746120,
-    5000
-   ],
    [
     1792746682,
     5000
@@ -61065,6 +61065,10 @@
    [
     1794056564,
     4993.28
+   ],
+   [
+    1794056742,
+    4993.28
    ]
   ]
  },
@@ -61273,10 +61277,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792746120,
-    4998.81
-   ],
    [
     1792746682,
     5003.31
@@ -73272,6 +73272,10 @@
    [
     1794056564,
     4969.22
+   ],
+   [
+    1794056742,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -85249,6 +85253,10 @@
    ],
    [
     1794056564,
+    4544.23
+   ],
+   [
+    1794056742,
     4544.23
    ]
   ],
@@ -97819,6 +97827,10 @@
    [
     1794056564,
     109993.83
+   ],
+   [
+    1794056742,
+    109993.83
    ]
   ],
   "open": {},
@@ -108302,6 +108314,10 @@
    ],
    [
     1794056564,
+    4944.42
+   ],
+   [
+    1794056742,
     4944.42
    ]
   ],
