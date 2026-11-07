@@ -6501,6 +6501,10 @@
    [
     1794055148,
     5000.0
+   ],
+   [
+    1794055326,
+    5000.0
    ]
   ],
   "archive": [
@@ -9574,10 +9578,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792742040,
-    4976.84
-   ],
    [
     1792742362,
     4975.65
@@ -21573,6 +21573,10 @@
    [
     1794055148,
     4868.5
+   ],
+   [
+    1794055326,
+    4868.5
    ]
   ],
   "news": {
@@ -24355,7 +24359,6 @@
   ]
  },
  "log": [
-  "05.11 23:46 B6  CLOSE short NVDA seans sonu: +1215.36 USD",
   "05.11 23:46 B6  CLOSE short QQQ seans sonu: +576.72 USD",
   "05.11 23:46 B6  CLOSE short SPY seans sonu: +582.01 USD",
   "05.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131",
@@ -24654,7 +24657,8 @@
   "07.11 00:20 B5P  GPT  score -0.20 conf 0.42: \u0130ran\u2019la g\u00f6r\u00fc\u015fmelerde ilerleme ve diplomasi beklentisi, yak\u0131n vadede petrol fiyatlar\u0131 \u00fczerinde hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 yarat\u0131yor. Ancak H\u00fcrm\u00fcz\u2019deki kesinti riski ve tanker sald\u0131r\u0131s\u0131 olas\u0131 d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor; yeni yapt\u0131r\u0131mlar\u0131n k\u0131sa vadeli arz etkisi ise belirsiz.",
   "07.11 15:35 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
   "07.11 15:36 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
-  "07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}"
+  "07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}",
+  "07.11 15:42 ERROR B6: Alpaca GET /v2/account: 503 {\"code\":50310000,\"message\":\"service unavailable\"}"
  ],
  "gold_big": {
   "account": {
@@ -24840,10 +24844,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792742040,
-    4980.42
-   ],
    [
     1792742362,
     4983.3
@@ -36839,6 +36839,10 @@
    [
     1794055148,
     4963.78
+   ],
+   [
+    1794055326,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -36952,10 +36956,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792742040,
-    5000.12
-   ],
    [
     1792742362,
     5003.0
@@ -48951,6 +48951,10 @@
    [
     1794055148,
     4975.18
+   ],
+   [
+    1794055326,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -49034,10 +49038,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1792742040,
-    5000
-   ],
    [
     1792742362,
     5000
@@ -61032,6 +61032,10 @@
    ],
    [
     1794055148,
+    4993.28
+   ],
+   [
+    1794055326,
     4993.28
    ]
   ]
@@ -73208,6 +73212,10 @@
    [
     1794055148,
     4969.22
+   ],
+   [
+    1794055326,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -85153,6 +85161,10 @@
    ],
    [
     1794055148,
+    4544.23
+   ],
+   [
+    1794055326,
     4544.23
    ]
   ],
@@ -97691,6 +97703,10 @@
    [
     1794055148,
     109993.83
+   ],
+   [
+    1794055326,
+    109993.83
    ]
   ],
   "open": {},
@@ -108142,6 +108158,10 @@
    ],
    [
     1794055148,
+    4944.42
+   ],
+   [
+    1794055326,
     4944.42
    ]
   ],

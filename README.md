@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 07.11.2026 15:39 (İstanbul)
+> Son güncelleme: 07.11.2026 15:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 22:37 B5P  LONG BZ=F 25000 USD x10 @ 98.54 (TP 98.84, SL 98.35; news +0.34)
 06.11 22:49 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq dünkü sert düşüşten toparlanıyor, ancak Fed'in şahin tonu ve kapanışa çok az süre kalması yeni pozisyonu cazip kılmıyor.» / GPT «Endekslerde saatlik momentum yatay ve kapanışa 11 dakika kala 1–3 saatlik pozisyonlar seans dışı likidite ve stop emri işleyişi riski taşıyor.»
 06.11 22:52 B5P  CLOSE long stop (gap): -63.26 USD
 06.11 23:01 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq sert düşüşün ardından toparlandı, ancak Fed'in şahin tonu ve seansın kapanmış olması nedeniyle 1-3 saatlik yeni pozisyonlar için belirgin bir avantaj görünmüyor.» / GPT «Endekslerde son saat ivmesi zayıf; normal seans kapandıktan sonra 1:4 kaldıraçla işlem açmak için mevcut haber akışı yeterli avantaj sunmuyor.»
@@ -101,6 +100,7 @@ Son işlemler:
 07.11 15:35 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 15:36 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
+07.11 15:42 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
