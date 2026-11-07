@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 07.11.2026 12:36 (İstanbul)
+> Son güncelleme: 07.11.2026 12:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
