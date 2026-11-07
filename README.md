@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 07.11.2026 16:05 (İstanbul)
+> Son güncelleme: 07.11.2026 16:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 22:52 B5P  CLOSE long stop (gap): -63.26 USD
 06.11 23:01 B6  karar turu: Claude «Güçlü istihdam verisi sonrası Nasdaq sert düşüşün ardından toparlandı, ancak Fed'in şahin tonu ve seansın kapanmış olması nedeniyle 1-3 saatlik yeni pozisyonlar için belirgin bir avantaj görünmüyor.» / GPT «Endekslerde son saat ivmesi zayıf; normal seans kapandıktan sonra 1:4 kaldıraçla işlem açmak için mevcut haber akışı yeterli avantaj sunmuyor.»
 06.11 23:13 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'ın sert düşüş sonrası toparlanması piyasayı destekliyor, ancak Fed'in şahin tonu ve seans dışı saatler yeni pozisyon için temkin gerektiriyor.» / GPT «Teknoloji öncülüğündeki yükseliş güçlü olsa da normal seans kapanışı sonrası mevcut veriler yeni kaldıraçlı giriş için yeterli avantaj sunmuyor.»
 06.11 23:47 B6  CLOSE long AAPL seans sonu: -190.06 USD
@@ -101,6 +100,7 @@ Son işlemler:
 07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 15:42 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 16:05 ERROR B6: Alpaca GET /v2/account: 500 {"code":50010000,"message":"internal server error occurred"}
+07.11 16:08 ERROR B6: Alpaca GET /v2/account: 500 {"code":50010000,"message":"internal server error occurred"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
