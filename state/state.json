@@ -8729,6 +8729,10 @@
    [
     1794150536,
     5000.0
+   ],
+   [
+    1794150716,
+    5000.0
    ]
   ],
   "archive": [
@@ -11803,10 +11807,6 @@
   },
   "equity_curve": [
    [
-    1793508181,
-    4868.5
-   ],
-   [
     1793508361,
     4868.5
    ],
@@ -23800,6 +23800,10 @@
    ],
    [
     1794150536,
+    4868.5
+   ],
+   [
+    1794150716,
     4868.5
    ]
   ],
@@ -26583,7 +26587,6 @@
   ]
  },
  "log": [
-  "06.11 17:43 B6  A\u00c7I\u011eA SATI\u015e AAPL 319 adet \u2248 108,297 $ (1:4) @ 339.49 (TP 334.4, SL 342.88; ikisi de hemfikir, g\u00fcven 0.50)",
   "06.11 17:43 B6  ALI\u015e TSLA 307 adet \u2248 108,586 $ (1:4) @ 353.7 (TP 359.01, SL 350.16; ikisi de hemfikir, g\u00fcven 0.45)",
   "06.11 17:47 B5  CLOSE short stop: -55.94 USD",
   "06.11 17:53 B5  SHORT gold 25000 USD x10 @ 4034.16 (TP 4022.06, SL 4042.23; news -0.57)",
@@ -26882,7 +26885,8 @@
   "08.11 17:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 18:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 18:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 18:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27069,10 +27073,6 @@
   },
   "equity_curve": [
    [
-    1793508181,
-    4963.78
-   ],
-   [
     1793508361,
     4963.78
    ],
@@ -39066,6 +39066,10 @@
    ],
    [
     1794150536,
+    4963.78
+   ],
+   [
+    1794150716,
     4963.78
    ]
   ],
@@ -39181,10 +39185,6 @@
   },
   "equity_curve": [
    [
-    1793508181,
-    4975.18
-   ],
-   [
     1793508361,
     4975.18
    ],
@@ -51178,6 +51178,10 @@
    ],
    [
     1794150536,
+    4975.18
+   ],
+   [
+    1794150716,
     4975.18
    ]
   ],
@@ -51263,10 +51267,6 @@
   },
   "equity_curve": [
    [
-    1793508181,
-    4993.28
-   ],
-   [
     1793508361,
     4993.28
    ],
@@ -63260,6 +63260,10 @@
    ],
    [
     1794150536,
+    4993.28
+   ],
+   [
+    1794150716,
     4993.28
    ]
   ]
@@ -63470,10 +63474,6 @@
   },
   "equity_curve": [
    [
-    1793508181,
-    4969.22
-   ],
-   [
     1793508361,
     4969.22
    ],
@@ -75467,6 +75467,10 @@
    ],
    [
     1794150536,
+    4969.22
+   ],
+   [
+    1794150716,
     4969.22
    ]
   ],
@@ -76835,10 +76839,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793508181,
-    5078.66
-   ],
    [
     1793508361,
     5078.66
@@ -88834,6 +88834,10 @@
    [
     1794150536,
     4544.23
+   ],
+   [
+    1794150716,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -89560,10 +89564,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793508181,
-    101128.9
-   ],
    [
     1793508361,
     101128.9
@@ -101559,6 +101559,10 @@
    [
     1794150536,
     109993.83
+   ],
+   [
+    1794150716,
+    109993.83
    ]
   ],
   "open": {},
@@ -101720,10 +101724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793508181,
-    5000
-   ],
    [
     1793508361,
     5000
@@ -113718,6 +113718,10 @@
    ],
    [
     1794150536,
+    4944.42
+   ],
+   [
+    1794150716,
     4944.42
    ]
   ],
