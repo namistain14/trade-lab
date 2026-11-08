@@ -8789,6 +8789,10 @@
    [
     1794153087,
     5000.0
+   ],
+   [
+    1794153267,
+    5000.0
    ]
   ],
   "archive": [
@@ -11863,10 +11867,6 @@
   },
   "equity_curve": [
    [
-    1793511447,
-    4868.5
-   ],
-   [
     1793511627,
     4868.5
    ],
@@ -23860,6 +23860,10 @@
    ],
    [
     1794153087,
+    4868.5
+   ],
+   [
+    1794153267,
     4868.5
    ]
   ],
@@ -26643,7 +26647,6 @@
   ]
  },
  "log": [
-  "06.11 18:20 N  NEWS (12 new) score -0.50 conf 0.60: Beklenti \u00fcst\u00fc g\u00fc\u00e7l\u00fc ABD istihdam verisi (165 bin i\u015f, i\u015fsizlik %4.1) Fed'in s\u0131k\u0131la\u015ft\u0131rma olas\u0131l\u0131klar\u0131n\u0131 art\u0131rd\u0131 ve dolar\u0131n y\u00fckseli\u015fini destekledi; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturur. \u0130ran sava\u015f\u0131 ve jeopolitik risk g\u00fcvenli liman talebini desteklese de bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve t\u00fcketici enflasyon beklentilerinin gerilemesi s\u0131n\u0131rl\u0131 bir dengeleyici etki yarat\u0131yor.",
   "06.11 18:20 N  GPT  score -0.65 conf 0.76: Beklentiyi a\u015fan istihdam ve i\u015fsizlik oran\u0131ndaki d\u00fc\u015f\u00fc\u015f, Fed\u2019in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentisini ve dolar talebini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 riskler g\u00fcvenli liman talebini destekleyebilir; bu nedenle d\u00fc\u015f\u00fc\u015f etkisi s\u0131n\u0131rs\u0131z de\u011fil.",
   "06.11 18:20 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc istihdam verisi, Michigan g\u00fcveninin beklentiyi a\u015fmas\u0131 ve \u0130ran'la anla\u015fma umutlar\u0131, sat\u0131\u015f dalgas\u0131 sonras\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 bir toparlanmay\u0131 destekliyor; ancak sert y\u00fckselen \u00e7ip hisselerinde k\u00e2r sat\u0131\u015f\u0131 riski var.\u00bb / GPT \u00abG\u00fc\u00e7l\u00fc istihdam ve beklenti \u00fczerindeki t\u00fcketici g\u00fcveni risk i\u015ftah\u0131n\u0131 destekliyor; ancak uzam\u0131\u015f y\u00fckseli\u015fler ve mevcut SPY/QQQ pozisyonlar\u0131 nedeniyle y",
   "06.11 18:32 N  NEWS (16 new) score -0.40 conf 0.60: G\u00fc\u00e7l\u00fc ABD istihdam verisi (Ekimde 165 bin i\u015f, i\u015fsizlik %4.1) Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimalini canland\u0131r\u0131yor ve dolar\u0131 destekliyor; Williams ve Musalem'in enflasyon yorumlar\u0131 da \u015fahin tonda. Bu, alt\u0131n i\u00e7in net olarak bask\u0131lay\u0131c\u0131. Gulf'taki tanker sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131 gibi jeopolitik riskler k\u0131smen destekleyici olsa da, bunlar uzun s\u00fcredir fiyatlanm\u0131\u015f haberler oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kal\u0131r.",
@@ -26942,7 +26945,8 @@
   "08.11 18:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 18:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 18:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 18:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27129,10 +27133,6 @@
   },
   "equity_curve": [
    [
-    1793511447,
-    4963.78
-   ],
-   [
     1793511627,
     4963.78
    ],
@@ -39126,6 +39126,10 @@
    ],
    [
     1794153087,
+    4963.78
+   ],
+   [
+    1794153267,
     4963.78
    ]
   ],
@@ -39241,10 +39245,6 @@
   },
   "equity_curve": [
    [
-    1793511447,
-    4975.18
-   ],
-   [
     1793511627,
     4975.18
    ],
@@ -51238,6 +51238,10 @@
    ],
    [
     1794153087,
+    4975.18
+   ],
+   [
+    1794153267,
     4975.18
    ]
   ],
@@ -51323,10 +51327,6 @@
   },
   "equity_curve": [
    [
-    1793511447,
-    4993.28
-   ],
-   [
     1793511627,
     4993.28
    ],
@@ -63320,6 +63320,10 @@
    ],
    [
     1794153087,
+    4993.28
+   ],
+   [
+    1794153267,
     4993.28
    ]
   ]
@@ -63530,10 +63534,6 @@
   },
   "equity_curve": [
    [
-    1793511447,
-    4969.22
-   ],
-   [
     1793511627,
     4969.22
    ],
@@ -75527,6 +75527,10 @@
    ],
    [
     1794153087,
+    4969.22
+   ],
+   [
+    1794153267,
     4969.22
    ]
   ],
@@ -76895,10 +76899,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793511447,
-    5078.66
-   ],
    [
     1793511627,
     5078.66
@@ -88894,6 +88894,10 @@
    [
     1794153087,
     4544.23
+   ],
+   [
+    1794153267,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -89620,10 +89624,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793511447,
-    101128.9
-   ],
    [
     1793511627,
     101128.9
@@ -101619,6 +101619,10 @@
    [
     1794153087,
     109993.83
+   ],
+   [
+    1794153267,
+    109993.83
    ]
   ],
   "open": {},
@@ -101780,10 +101784,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793511447,
-    5000
-   ],
    [
     1793511627,
     5000
@@ -113778,6 +113778,10 @@
    ],
    [
     1794153087,
+    4944.42
+   ],
+   [
+    1794153267,
     4944.42
    ]
   ],
