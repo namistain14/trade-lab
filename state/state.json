@@ -8897,6 +8897,10 @@
    [
     1794157649,
     5000.0
+   ],
+   [
+    1794157829,
+    5000.0
    ]
   ],
   "archive": [
@@ -11971,10 +11975,6 @@
   },
   "equity_curve": [
    [
-    1793516696,
-    4868.5
-   ],
-   [
     1793516876,
     4868.5
    ],
@@ -23968,6 +23968,10 @@
    ],
    [
     1794157649,
+    4868.5
+   ],
+   [
+    1794157829,
     4868.5
    ]
   ],
@@ -26751,7 +26755,6 @@
   ]
  },
  "log": [
-  "06.11 19:46 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc istihdam verisi sonras\u0131 piyasa toparlan\u0131yor ancak son saatte momentum zay\u0131flad\u0131 ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentileri yukar\u0131 hareketi s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndeksler g\u00fcn i\u00e7i kazan\u0131mlar\u0131n\u0131 yatay seyirle sindirirken Tesla'n\u0131n g\u00f6reli g\u00fcc\u00fc \u00f6ne \u00e7\u0131k\u0131yor, ancak sert g\u00fcnl\u00fck y\u00fckseli\u015f k\u00e2r sat\u0131\u015f\u0131 riskini art\u0131r\u0131yor.\u00bb",
   "06.11 19:58 N  NEWS (8 new) score -0.20 conf 0.40: G\u00fc\u00e7l\u00fc tar\u0131m d\u0131\u015f\u0131 istihdam verisi (165 bin) dolar endeksini y\u00fckseltti ve piyasa Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 beklentisini destekliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f ve tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor, bu nedenle etki kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
   "06.11 19:58 N  GPT  score +0.15 conf 0.38: \u0130ran\u2019\u0131n yeniden sald\u0131r\u0131 karar\u0131 ve K\u00f6rfez\u2019de bir tankere y\u00f6nelik \u00f6l\u00fcmc\u00fcl f\u00fcze sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak g\u00fc\u00e7l\u00fc ABD istihdam\u0131 sonras\u0131 dolar\u0131n y\u00fckselmesi ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentisi alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor; net etki hafif pozitif fakat belirsiz.",
   "06.11 19:58 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc istihdam verisi ve Nasdaq'taki sert d\u00fc\u015f\u00fc\u015f sonras\u0131 tepki al\u0131mlar\u0131yla piyasa pozitif seyrediyor, ancak artan Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentileri yukar\u0131 y\u00f6nl\u00fc potansiyeli s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndeksler pozitif ancak son saatte ivme s\u0131n\u0131rl\u0131; g\u00fc\u00e7l\u00fc istihdam\u0131n art\u0131rd\u0131\u011f\u0131 faiz beklentileri ve kald\u0131ra\u00e7, yeni pozisyonlarda se\u00e7icili\u011fi gerektiriyor.\u00bb",
@@ -27050,7 +27053,8 @@
   "08.11 19:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 20:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 20:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 20:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 20:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 20:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27237,10 +27241,6 @@
   },
   "equity_curve": [
    [
-    1793516696,
-    4963.78
-   ],
-   [
     1793516876,
     4963.78
    ],
@@ -39234,6 +39234,10 @@
    ],
    [
     1794157649,
+    4963.78
+   ],
+   [
+    1794157829,
     4963.78
    ]
   ],
@@ -39349,10 +39353,6 @@
   },
   "equity_curve": [
    [
-    1793516696,
-    4975.18
-   ],
-   [
     1793516876,
     4975.18
    ],
@@ -51346,6 +51346,10 @@
    ],
    [
     1794157649,
+    4975.18
+   ],
+   [
+    1794157829,
     4975.18
    ]
   ],
@@ -51431,10 +51435,6 @@
   },
   "equity_curve": [
    [
-    1793516696,
-    4993.28
-   ],
-   [
     1793516876,
     4993.28
    ],
@@ -63428,6 +63428,10 @@
    ],
    [
     1794157649,
+    4993.28
+   ],
+   [
+    1794157829,
     4993.28
    ]
   ]
@@ -63638,10 +63642,6 @@
   },
   "equity_curve": [
    [
-    1793516696,
-    4969.22
-   ],
-   [
     1793516876,
     4969.22
    ],
@@ -75635,6 +75635,10 @@
    ],
    [
     1794157649,
+    4969.22
+   ],
+   [
+    1794157829,
     4969.22
    ]
   ],
@@ -77003,10 +77007,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793516696,
-    5078.66
-   ],
    [
     1793516876,
     5078.66
@@ -89002,6 +89002,10 @@
    [
     1794157649,
     4544.23
+   ],
+   [
+    1794157829,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -89728,10 +89732,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793516696,
-    101128.9
-   ],
    [
     1793516876,
     101128.9
@@ -101727,6 +101727,10 @@
    [
     1794157649,
     109993.83
+   ],
+   [
+    1794157829,
+    109993.83
    ]
   ],
   "open": {},
@@ -101888,10 +101892,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793516696,
-    5000
-   ],
    [
     1793516876,
     5000
@@ -113886,6 +113886,10 @@
    ],
    [
     1794157649,
+    4944.42
+   ],
+   [
+    1794157829,
     4944.42
    ]
   ],
