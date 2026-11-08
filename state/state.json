@@ -9201,6 +9201,10 @@
    [
     1794170751,
     5000.0
+   ],
+   [
+    1794170931,
+    5000.0
    ]
   ],
   "archive": [
@@ -12275,10 +12279,6 @@
   },
   "equity_curve": [
    [
-    1793534168,
-    4868.5
-   ],
-   [
     1793534348,
     4868.5
    ],
@@ -24272,6 +24272,10 @@
    ],
    [
     1794170751,
+    4868.5
+   ],
+   [
+    1794170931,
     4868.5
    ]
   ],
@@ -27055,7 +27059,6 @@
   ]
  },
  "log": [
-  "08.11 09:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 09:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 09:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 09:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -27354,7 +27357,8 @@
   "08.11 23:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 23:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 23:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27541,10 +27545,6 @@
   },
   "equity_curve": [
    [
-    1793534168,
-    4963.78
-   ],
-   [
     1793534348,
     4963.78
    ],
@@ -39538,6 +39538,10 @@
    ],
    [
     1794170751,
+    4963.78
+   ],
+   [
+    1794170931,
     4963.78
    ]
   ],
@@ -39653,10 +39657,6 @@
   },
   "equity_curve": [
    [
-    1793534168,
-    4975.18
-   ],
-   [
     1793534348,
     4975.18
    ],
@@ -51650,6 +51650,10 @@
    ],
    [
     1794170751,
+    4975.18
+   ],
+   [
+    1794170931,
     4975.18
    ]
   ],
@@ -51735,10 +51739,6 @@
   },
   "equity_curve": [
    [
-    1793534168,
-    4993.28
-   ],
-   [
     1793534348,
     4993.28
    ],
@@ -63732,6 +63732,10 @@
    ],
    [
     1794170751,
+    4993.28
+   ],
+   [
+    1794170931,
     4993.28
    ]
   ]
@@ -63942,10 +63946,6 @@
   },
   "equity_curve": [
    [
-    1793534168,
-    4969.22
-   ],
-   [
     1793534348,
     4969.22
    ],
@@ -75939,6 +75939,10 @@
    ],
    [
     1794170751,
+    4969.22
+   ],
+   [
+    1794170931,
     4969.22
    ]
   ],
@@ -77307,10 +77311,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793534168,
-    5078.66
-   ],
    [
     1793534348,
     5078.66
@@ -89306,6 +89306,10 @@
    [
     1794170751,
     4544.23
+   ],
+   [
+    1794170931,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -90032,10 +90036,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793534168,
-    101128.9
-   ],
    [
     1793534348,
     101128.9
@@ -102031,6 +102031,10 @@
    [
     1794170751,
     109993.83
+   ],
+   [
+    1794170931,
+    109993.83
    ]
   ],
   "open": {},
@@ -102192,10 +102196,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793534168,
-    5000
-   ],
    [
     1793534348,
     5000
@@ -114190,6 +114190,10 @@
    ],
    [
     1794170751,
+    4944.42
+   ],
+   [
+    1794170931,
     4944.42
    ]
   ],
