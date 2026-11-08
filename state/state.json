@@ -7901,6 +7901,10 @@
    [
     1794115062,
     5000.0
+   ],
+   [
+    1794115243,
+    5000.0
    ]
   ],
   "archive": [
@@ -10974,10 +10978,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793254912,
-    4874.09
-   ],
    [
     1793259212,
     4871.31
@@ -22973,6 +22973,10 @@
    [
     1794115062,
     4868.5
+   ],
+   [
+    1794115243,
+    4868.5
    ]
   ],
   "news": {
@@ -25755,7 +25759,6 @@
   ]
  },
  "log": [
-  "06.11 00:16 N  GPT  score -0.22 conf 0.42: Fed yetkililerinin enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in kademeli faiz art\u0131r\u0131m\u0131 e\u011filimini desteklemesi, k\u0131sa vadeli faiz ve reel getiri beklentilerini y\u00fckselterek alt\u0131n\u0131 bask\u0131layabilir. Petrol\u00fcn toparlanmas\u0131 da enflasyon ve s\u0131k\u0131 politika kayg\u0131lar\u0131n\u0131 besleyebilir; ancak haberlerin etkisi s\u0131n\u0131rl\u0131 ve \u0130ran kaynakl\u0131 ",
   "06.11 00:28 N  NEWS (7 new) score +0.25 conf 0.40: Teknoloji/AI hisselerindeki sert d\u00fc\u015f\u00fc\u015f (Nasdaq 100 \u00e7\u00f6k\u00fc\u015f\u00fc) ve Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin azalmas\u0131 alt\u0131n\u0131 destekliyor; \u0130ran sava\u015f\u0131 ve petrol fiyatlar\u0131ndaki dalgalanma da g\u00fcvenli liman talebini canl\u0131 tutuyor. Ancak Fed'in Hammack ve Barkin'in kademeli faiz art\u0131r\u0131m\u0131n\u0131 savunmas\u0131 ve payroll verisinin beklenmesi, haberlerin bir k\u0131sm\u0131n\u0131n alt\u0131n i\u00e7in bask\u0131 yaratabilece\u011fini g\u00f6steriyor. Alt\u0131n zaten 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131\u011f\u0131 i\u00e7in k\u0131smen fiyatlanm\u0131\u015f bir y\u00fckseli\u015f s\u00f6z konusu.",
   "06.11 00:28 N  GPT  score +0.25 conf 0.36: Teknoloji hisselerindeki sert d\u00fc\u015f\u00fc\u015f ve Rusya-Ukrayna sald\u0131r\u0131lar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak Fed yetkililerinin enflasyon i\u00e7in kademeli faiz art\u0131\u015f\u0131n\u0131 savunmas\u0131 ve petrol\u00fcn toparlanmas\u0131 alt\u0131n i\u00e7in ters y\u00f6nde; bu nedenle net etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "06.11 00:40 N  NEWS (6 new) score +0.30 conf 0.45: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k ama hafif pozitif bir tablo var: Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerinin geri \u00e7ekilmesi ve Nasdaq'taki sert d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 destekliyor, \u0130ran sava\u015f\u0131 ve petrol hareketleri de g\u00fcvenli liman talebini canl\u0131 tutuyor. Buna kar\u015f\u0131l\u0131k Fed yetkililerinin (Hammack, Barkin) kademeli faiz art\u0131r\u0131m\u0131n\u0131 savunmas\u0131 ve dolar/istihdam verisi beklentisi bask\u0131 yaratabilir; ayr\u0131ca ilgili haberlerin \u00e7o\u011fu genel nitelikte veya zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
@@ -26054,7 +26057,8 @@
   "08.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 08:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 08:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 08:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 08:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 08:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -26240,10 +26244,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793254912,
-    4961.78
-   ],
    [
     1793259212,
     4960.6
@@ -38239,6 +38239,10 @@
    [
     1794115062,
     4963.78
+   ],
+   [
+    1794115243,
+    4963.78
    ]
   ],
   "news_calls": {
@@ -38352,10 +38356,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793254912,
-    4973.18
-   ],
    [
     1793259212,
     4971.99
@@ -50351,6 +50351,10 @@
    [
     1794115062,
     4975.18
+   ],
+   [
+    1794115243,
+    4975.18
    ]
   ],
   "news_calls": {
@@ -50434,10 +50438,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793254912,
-    4993.28
-   ],
    [
     1793259212,
     4993.28
@@ -62433,6 +62433,10 @@
    [
     1794115062,
     4993.28
+   ],
+   [
+    1794115243,
+    4993.28
    ]
   ]
  },
@@ -62641,10 +62645,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793254912,
-    4976.45
-   ],
    [
     1793259212,
     4976.45
@@ -74639,6 +74639,10 @@
    ],
    [
     1794115062,
+    4969.22
+   ],
+   [
+    1794115243,
     4969.22
    ]
   ],
@@ -87986,6 +87990,10 @@
    [
     1794115062,
     4544.23
+   ],
+   [
+    1794115243,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -88712,10 +88720,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793254912,
-    99842.81
-   ],
    [
     1793259212,
     99842.81
@@ -100711,6 +100715,10 @@
    [
     1794115062,
     109993.83
+   ],
+   [
+    1794115243,
+    109993.83
    ]
   ],
   "open": {},
@@ -112562,6 +112570,10 @@
    ],
    [
     1794115062,
+    4944.42
+   ],
+   [
+    1794115243,
     4944.42
    ]
   ],
