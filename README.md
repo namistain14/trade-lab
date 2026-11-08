@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 08.11.2026 08:02 (İstanbul)
+> Son güncelleme: 08.11.2026 08:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 23:13 B6  karar turu: Claude «Güçlü istihdam verisi ve Nasdaq'ın sert düşüş sonrası toparlanması piyasayı destekliyor, ancak Fed'in şahin tonu ve seans dışı saatler yeni pozisyon için temkin gerektiriyor.» / GPT «Teknoloji öncülüğündeki yükseliş güçlü olsa da normal seans kapanışı sonrası mevcut veriler yeni kaldıraçlı giriş için yeterli avantaj sunmuyor.»
 06.11 23:47 B6  CLOSE long AAPL seans sonu: -190.06 USD
 06.11 23:47 B6  CLOSE long NVDA seans sonu: -26.55 USD
 06.11 23:47 B6  CLOSE long QQQ seans sonu: -39.36 USD
@@ -101,6 +100,7 @@ Son işlemler:
 07.11 16:05 ERROR B6: Alpaca GET /v2/account: 500 {"code":50010000,"message":"internal server error occurred"}
 07.11 16:08 ERROR B6: Alpaca GET /v2/account: 500 {"code":50010000,"message":"internal server error occurred"}
 08.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+08.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
