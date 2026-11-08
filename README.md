@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 08.11.2026 08:11 (İstanbul)
+> Son güncelleme: 08.11.2026 08:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-06.11 23:47 B6  CLOSE long QQQ seans sonu: -39.36 USD
 06.11 23:47 B6  CLOSE long SPY seans sonu: -268.92 USD
 06.11 23:47 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 07.11 00:20 B5P  NEWS (42 new) score -0.15 conf 0.40: Haberler karışık: ABD-İran arasında anlaşmaya yakın olunduğu ve diplomasi umutlarının petrol vadeli işlemlerini düşürdüğü bildiriliyor, bu kısa vadede baskı yaratıyor. Buna karşılık Trump'ın savaşın yeniden başlatılmasına ilişkin kararının "yakında" açıklanacağı, Hürmüz Boğazı'ndaki aksamalar ve Citi'nin 150 dolara kadar tahmini ile UBS'in düşük envanter uyarısı fiyatı destekliyor; yeni İran yaptırımları ise büyük ölçüde rutin ve zaten fiyatlanmış.
@@ -101,6 +100,7 @@ Son işlemler:
 08.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 08.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 08.11 08:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+08.11 08:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
