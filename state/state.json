@@ -8693,6 +8693,10 @@
    [
     1794148916,
     5000.0
+   ],
+   [
+    1794149095,
+    5000.0
    ]
   ],
   "archive": [
@@ -11767,10 +11771,6 @@
   },
   "equity_curve": [
    [
-    1793506560,
-    4868.5
-   ],
-   [
     1793506738,
     4868.5
    ],
@@ -23764,6 +23764,10 @@
    ],
    [
     1794148916,
+    4868.5
+   ],
+   [
+    1794149095,
     4868.5
    ]
   ],
@@ -26547,7 +26551,6 @@
   ]
  },
  "log": [
-  "06.11 17:25 B5  CLOSE short stop: -55.94 USD",
   "06.11 17:32 N  NEWS (14 new) score -0.50 conf 0.60: Beklenenden g\u00fc\u00e7l\u00fc ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi (165 bin, i\u015fsizlik %4,1) Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltti, dolar ve tahvil getirileri y\u00fckseldi; bu, alt\u0131n i\u00e7in net olarak bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 kaynakl\u0131 tanker sald\u0131r\u0131lar\u0131 ve jeopolitik risk ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor, ancak etkisi veri kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor.",
   "06.11 17:32 N  GPT  score -0.55 conf 0.76: Beklentiyi a\u015fan istihdam verisi dolar ve tahvil getirilerini y\u00fckseltti; Fed\u2019in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n artmas\u0131 k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131n bi\u00e7imde olumsuz. K\u00f6rfez\u2019de tanker sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak \u015fu an bu etkiyi dengelemesi muhtemel.",
   "06.11 17:32 B5  SHORT gold 25000 USD x10 @ 4025.93 (TP 4013.86, SL 4033.99; news -0.53)",
@@ -26846,7 +26849,8 @@
   "08.11 17:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 17:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 17:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 17:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 17:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 17:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27033,10 +27037,6 @@
   },
   "equity_curve": [
    [
-    1793506560,
-    4963.78
-   ],
-   [
     1793506738,
     4963.78
    ],
@@ -39030,6 +39030,10 @@
    ],
    [
     1794148916,
+    4963.78
+   ],
+   [
+    1794149095,
     4963.78
    ]
   ],
@@ -39145,10 +39149,6 @@
   },
   "equity_curve": [
    [
-    1793506560,
-    4975.18
-   ],
-   [
     1793506738,
     4975.18
    ],
@@ -51142,6 +51142,10 @@
    ],
    [
     1794148916,
+    4975.18
+   ],
+   [
+    1794149095,
     4975.18
    ]
   ],
@@ -51227,10 +51231,6 @@
   },
   "equity_curve": [
    [
-    1793506560,
-    4993.28
-   ],
-   [
     1793506738,
     4993.28
    ],
@@ -63224,6 +63224,10 @@
    ],
    [
     1794148916,
+    4993.28
+   ],
+   [
+    1794149095,
     4993.28
    ]
   ]
@@ -63434,10 +63438,6 @@
   },
   "equity_curve": [
    [
-    1793506560,
-    4969.22
-   ],
-   [
     1793506738,
     4969.22
    ],
@@ -75431,6 +75431,10 @@
    ],
    [
     1794148916,
+    4969.22
+   ],
+   [
+    1794149095,
     4969.22
    ]
   ],
@@ -76799,10 +76803,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793506560,
-    5078.66
-   ],
    [
     1793506738,
     5078.66
@@ -88798,6 +88798,10 @@
    [
     1794148916,
     4544.23
+   ],
+   [
+    1794149095,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -89524,10 +89528,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793506560,
-    101128.9
-   ],
    [
     1793506738,
     101128.9
@@ -101523,6 +101523,10 @@
    [
     1794148916,
     109993.83
+   ],
+   [
+    1794149095,
+    109993.83
    ]
   ],
   "open": {},
@@ -101684,10 +101688,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793506560,
-    5000
-   ],
    [
     1793506738,
     5000
@@ -113682,6 +113682,10 @@
    ],
    [
     1794148916,
+    4944.42
+   ],
+   [
+    1794149095,
     4944.42
    ]
   ],
