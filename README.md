@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 08.11.2026 08:23 (İstanbul)
+> Son güncelleme: 08.11.2026 08:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -86,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-07.11 00:20 B5P  GPT  score -0.20 conf 0.42: İran’la görüşmelerde ilerleme ve diplomasi beklentisi, yakın vadede petrol fiyatları üzerinde hafif aşağı yönlü baskı yaratıyor. Ancak Hürmüz’deki kesinti riski ve tanker saldırısı olası düşüşü sınırlıyor; yeni yaptırımların kısa vadeli arz etkisi ise belirsiz.
 07.11 15:35 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 15:36 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
 07.11 15:39 ERROR B6: Alpaca GET /v2/account: 503 {"code":50310000,"message":"service unavailable"}
@@ -101,6 +100,7 @@ Son işlemler:
 08.11 08:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 08.11 08:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 08.11 08:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+08.11 08:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
