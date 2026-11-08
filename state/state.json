@@ -8957,6 +8957,10 @@
    [
     1794160201,
     5000.0
+   ],
+   [
+    1794160380,
+    5000.0
    ]
   ],
   "archive": [
@@ -12031,10 +12035,6 @@
   },
   "equity_curve": [
    [
-    1793520176,
-    4868.5
-   ],
-   [
     1793520356,
     4868.5
    ],
@@ -24028,6 +24028,10 @@
    ],
    [
     1794160201,
+    4868.5
+   ],
+   [
+    1794160380,
     4868.5
    ]
   ],
@@ -26811,7 +26815,6 @@
   ]
  },
  "log": [
-  "06.11 21:12 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"102518.41\",\"code\":40310000,\"cost_basis\":\"113062.6\",\"message\":\"insufficient buying power\"}",
   "06.11 21:24 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc istihdam verisi sonras\u0131 Nasdaq toparland\u0131, ancak Fed'den Daly'nin daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali \u00f6\u011fleden sonra teknoloji hisselerinde momentumu zay\u0131flat\u0131yor.\u00bb / GPT \u00abFed\u2019in \u015fahin a\u00e7\u0131klamalar\u0131 ve endekslerin son saatte gerilemesi, kald\u0131ra\u00e7 alt\u0131nda geni\u015f piyasa al\u0131m\u0131 yerine se\u00e7ici k\u0131sa pozisyonlar\u0131 destekliyor.\u00bb",
   "06.11 21:24 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"102608.09\",\"code\":40310000,\"cost_basis\":\"113083.78\",\"message\":\"insufficient buying power\"}",
   "06.11 21:36 B6  karar turu: Claude \u00abG\u00fc\u00e7l\u00fc istihdam verisiyle Nasdaq toparlan\u0131yor; ancak Fed'in \u015fahin tonu ve hafta sonu riski y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli momentum pozitif, ancak Fed\u2019in \u015fahin a\u00e7\u0131klamalar\u0131 ve kapan\u0131\u015fa kalan s\u0131n\u0131rl\u0131 s\u00fcre agresif al\u0131mlarda se\u00e7icilik gerektiriyor.\u00bb",
@@ -27110,7 +27113,8 @@
   "08.11 20:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 20:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 20:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 20:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "08.11 20:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "08.11 20:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -27297,10 +27301,6 @@
   },
   "equity_curve": [
    [
-    1793520176,
-    4963.78
-   ],
-   [
     1793520356,
     4963.78
    ],
@@ -39294,6 +39294,10 @@
    ],
    [
     1794160201,
+    4963.78
+   ],
+   [
+    1794160380,
     4963.78
    ]
   ],
@@ -39409,10 +39413,6 @@
   },
   "equity_curve": [
    [
-    1793520176,
-    4975.18
-   ],
-   [
     1793520356,
     4975.18
    ],
@@ -51406,6 +51406,10 @@
    ],
    [
     1794160201,
+    4975.18
+   ],
+   [
+    1794160380,
     4975.18
    ]
   ],
@@ -51491,10 +51495,6 @@
   },
   "equity_curve": [
    [
-    1793520176,
-    4993.28
-   ],
-   [
     1793520356,
     4993.28
    ],
@@ -63488,6 +63488,10 @@
    ],
    [
     1794160201,
+    4993.28
+   ],
+   [
+    1794160380,
     4993.28
    ]
   ]
@@ -63698,10 +63702,6 @@
   },
   "equity_curve": [
    [
-    1793520176,
-    4969.22
-   ],
-   [
     1793520356,
     4969.22
    ],
@@ -75695,6 +75695,10 @@
    ],
    [
     1794160201,
+    4969.22
+   ],
+   [
+    1794160380,
     4969.22
    ]
   ],
@@ -77063,10 +77067,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793520176,
-    5078.66
-   ],
    [
     1793520356,
     5078.66
@@ -89062,6 +89062,10 @@
    [
     1794160201,
     4544.23
+   ],
+   [
+    1794160380,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -89788,10 +89792,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793520176,
-    101128.9
-   ],
    [
     1793520356,
     101128.9
@@ -101787,6 +101787,10 @@
    [
     1794160201,
     109993.83
+   ],
+   [
+    1794160380,
+    109993.83
    ]
   ],
   "open": {},
@@ -101948,10 +101952,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793520176,
-    5000
-   ],
    [
     1793520356,
     5000
@@ -113946,6 +113946,10 @@
    ],
    [
     1794160201,
+    4944.42
+   ],
+   [
+    1794160380,
     4944.42
    ]
   ],
