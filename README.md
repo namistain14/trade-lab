@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 16:53 (İstanbul)
+> Son güncelleme: 09.11.2026 16:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %0.0 | %37.9 |
 | Ödenen komisyon/spread | 23.66 $ | 783.33 $ |
 
-**Hesap değeri: 4,432.40 $** (başlangıç 5,000 $, -567.60 $ / %-11.35)
+**Hesap değeri: 4,426.49 $** (başlangıç 5,000 $, -573.51 $ / %-11.47)
 
-Son haber analizi (09.11 16:44): Claude puan **+0.10**, güven 0.35 — Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
+Açık pozisyonlar: PAXGUSDT long @ 4116.70 (TP 4129.05 / SL 4108.47)
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — Doların gerilemesi ve yeni Orta Doğu gerilimi altına hafif destek verebilir; ancak bölgeye ilişkin endişelerin hafiflediği haberleri, yaklaşan enflasyon verisi ve güçlü istihdam sonrası faiz beklentileri yönü belirsizleştiriyor. Haber akışı çelişkili olduğundan kısa vadeli etki sınırlı görünüyor.
+Son haber analizi (09.11 16:56): Claude puan **+0.30**, güven 0.50 — Dolar zayıflığı ve Fed beklentilerini yumuşatan haberler altın için destekleyici, NVDA kaynaklı teknoloji satışı da güvenli liman talebini artırıyor. Buna karşılık İran diplomasisi jeopolitik risk primini azaltıyor, ABD Ekim CPI verisi beklentisi ise bir yönde net değil; altındaki yükseliş zaten kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+
+GPT (gpt-6-luna): puan **+0.32**, güven 0.43 — Doların zayıflaması ve güncel haberlerde altının yükselişinin öne çıkması kısa vadede altını destekliyor; bölgesel gerilim haberleri de güvenli liman talebine katkı sağlayabilir. Ancak İran diplomasisinin petrolü baskılaması ve yaklaşan ABD enflasyon verisi yönü belirsizleştiriyor; haberlerin bir kı
 
 Son işlemler:
 
@@ -86,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 15:31 N  NEWS (11 new) score +0.10 conf 0.40: Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
-09.11 15:31 N  GPT  score +0.10 conf 0.31: Doların geri çekilmesi altını hafifçe destekliyor; ancak İran’da görüşmelerin yeniden başlayabileceği haberi ve düşen petrol fiyatları jeopolitik güvenli liman talebini azaltabilir. Enflasyon verisi ve Fed konuşmaları öncesinde yön konusunda belirsizlik yüksek.
-09.11 15:43 N  NEWS (17 new) score -0.10 conf 0.35: 
 09.11 15:43 N  GPT  score +0.18 conf 0.36: Doların NFP sonrası geri çekilmesi ve faizlerdeki düşüş altını kısa vadede destekliyor; altın da 4.100 dolar civarındaki kazanımlarını koruyor. Ancak ABD TÜFE verisi öncesindeki belirsizlik, doların Fed desteğini koruduğuna dair karşıt haberler ve İran geriliminin yatışabileceği beklentisi görünümü 
 09.11 15:55 N  NEWS (13 new) score -0.10 conf 0.35: Karışık sinyaller var: enflasyon beklentileri yüksek ve Fed sıkılaşma riski altın için olumsuz, ancak dolar zayıflığı, petrol fiyatlarındaki düşüş ve İran'da kısmi gerilim azalması (Trump'ın çekinceli tutumu, müzakere ihtimali) jeopolitik güvenli liman talebini sınırlıyor. Yaklaşan ABD TÜFE verisinin yönü belirsiz olduğundan etki zayıf ve güven düşük.
 09.11 15:55 N  GPT  score -0.18 conf 0.38: CPI için yüksek enflasyon tahmini Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir; ancak bu gerçekleşmiş veri değil. Petrolün düşmesi ve vadeli hisse senetlerindeki yükseliş de güvenli liman talebini azaltırken, süren jeopolitik riskler düşüşü sınırlıyor.
@@ -101,6 +100,9 @@ Son işlemler:
 09.11 16:32 B6  seans öncesi görüş: Vadeli işlemler Hürmüz umutları ve çip toparlanmasıyla güçlü seyrediyor; ancak duyarlılık hâlâ aşırı korku bölgesinde olduğundan seçici hareket etmek gerekiyor.
 09.11 16:44 N  NEWS (12 new) score +0.10 conf 0.35: Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
 09.11 16:44 N  GPT  score +0.18 conf 0.34: Doların gerilemesi ve yeni Orta Doğu gerilimi altına hafif destek verebilir; ancak bölgeye ilişkin endişelerin hafiflediği haberleri, yaklaşan enflasyon verisi ve güçlü istihdam sonrası faiz beklentileri yönü belirsizleştiriyor. Haber akışı çelişkili olduğundan kısa vadeli etki sınırlı görünüyor.
+09.11 16:56 N  NEWS (13 new) score +0.30 conf 0.50: Dolar zayıflığı ve Fed beklentilerini yumuşatan haberler altın için destekleyici, NVDA kaynaklı teknoloji satışı da güvenli liman talebini artırıyor. Buna karşılık İran diplomasisi jeopolitik risk primini azaltıyor, ABD Ekim CPI verisi beklentisi ise bir yönde net değil; altındaki yükseliş zaten kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+09.11 16:56 N  GPT  score +0.32 conf 0.43: Doların zayıflaması ve güncel haberlerde altının yükselişinin öne çıkması kısa vadede altını destekliyor; bölgesel gerilim haberleri de güvenli liman talebine katkı sağlayabilir. Ancak İran diplomasisinin petrolü baskılaması ve yaklaşan ABD enflasyon verisi yönü belirsizleştiriyor; haberlerin bir kı
+09.11 16:56 B5  LONG gold 25000 USD x10 @ 4116.70 (TP 4129.05, SL 4108.47; news +0.31)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
