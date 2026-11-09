@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 09:12 (İstanbul)
+> Son güncelleme: 09.11.2026 09:15 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,504.78 $** (başlangıç 5,000 $, -495.22 $ / %-9.90)
+**Hesap değeri: 4,511.40 $** (başlangıç 5,000 $, -488.60 $ / %-9.77)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
-Son haber analizi (09.11 09:03): Claude puan **+0.40**, güven 0.50 — Altın, zayıf dolar ve İran savaşının tırmanması (Riyad'daki Aramco kulesine saldırı) nedeniyle güvenli liman talebiyle yükseliyor; ABD enflasyon verisi beklentisi de fiyatları destekliyor. Ancak Fed beklentileri nedeniyle doların dayanıklılığı, ABD-İran müzakere haberleri ve altının zaten yaşanan %1'in üzerindeki yükselişi bu etkiyi sınırlıyor.
+Son haber analizi (09.11 09:15): Claude puan **+0.40**, güven 0.50 — Jeopolitik risk artıyor: İran nükleer görüşmelerinin çökmesi, Riyad'da Aramco kulesine saldırı ve ABD'nin yeni görev gücü başlatması güvenli liman talebini destekliyor. Petrol fiyatının düşmesi ve dolar endeksinin gevşemesi enflasyon endişelerini azaltarak altını destekliyor; ayrıca altın ABD enflasyon verisi öncesinde %1'in üzerinde yükseldi. Buna karşılık Fed beklentilerinin doların güçlü kalması ve Çin bankalarının dolar mevduat faizini artırması baskı yaratabilir, bazı haberler de eski veya ilgisiz olduğu için güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.45 — Altın zaten %1’den fazla yükselmiş; Riyad’daki saldırı ve İran kaynaklı çatışma riski güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayabilir; haber akışı da çelişkili.
+GPT (gpt-6-luna): puan **+0.30**, güven 0.43 — Dolar endeksindeki düşüş ve petrolün gerilemesi altını kısa vadede destekleyebilir; İran çevresindeki gerilim de güvenli liman talebini artırıyor. Ancak altın zaten %1’den fazla yükselmiş ve ABD enflasyon verisi bekleniyor, bu nedenle ek hareket sınırlı ve belirsiz olabilir.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 08:03 N  NEWS (6 new) score +0.20 conf 0.40: Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflattığı için altın için hafif olumlu bir tablo var; dolar da sakin seyrediyor. Ancak güçlü ABD istihdam verisi altını baskılamış, İran savaşının müzakereyle sona erebileceği haberi jeopolitik güvenli liman talebini azaltıyor ve yaklaşan ABD TÜFE verisi belirsizliği artırıyor, bu nedenle sinyaller karışık.
-09.11 08:03 N  GPT  score +0.15 conf 0.30: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı beklentilerini hafifletmesi altını destekliyor; ancak güçlü ABD istihdam verileri ve doların dayanıklılığı bu desteği sınırlıyor. İran konusunda müzakere ve çatışma haberleri çelişkili, ayrıca yaklaşan ABD enflasyon verisi öncesinde kısa vadel
 09.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 08:51 N  GPT  score +0.20 conf 0.39: Altının %1’den fazla yükseldiğine ve doların yumuşadığına dair haberler kısa vadeli momentumu destekliyor; İran kaynaklı gerilim de güvenli liman talebini canlı tutabilir. Ancak yükseliş büyük ölçüde gerçekleşmiş görünüyor, Fed beklentileri doları destekliyor ve Çin bankalarının dolar mevduat faizle
 09.11 09:03 N  NEWS (12 new) score +0.40 conf 0.50: Altın, zayıf dolar ve İran savaşının tırmanması (Riyad'daki Aramco kulesine saldırı) nedeniyle güvenli liman talebiyle yükseliyor; ABD enflasyon verisi beklentisi de fiyatları destekliyor. Ancak Fed beklentileri nedeniyle doların dayanıklılığı, ABD-İran müzakere haberleri ve altının zaten yaşanan %1'in üzerindeki yükselişi bu etkiyi sınırlıyor.
 09.11 09:03 N  GPT  score +0.35 conf 0.45: Altın zaten %1’den fazla yükselmiş; Riyad’daki saldırı ve İran kaynaklı çatışma riski güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayabilir; haber akışı da çelişkili.
+09.11 09:15 N  NEWS (16 new) score +0.40 conf 0.50: Jeopolitik risk artıyor: İran nükleer görüşmelerinin çökmesi, Riyad'da Aramco kulesine saldırı ve ABD'nin yeni görev gücü başlatması güvenli liman talebini destekliyor. Petrol fiyatının düşmesi ve dolar endeksinin gevşemesi enflasyon endişelerini azaltarak altını destekliyor; ayrıca altın ABD enflasyon verisi öncesinde %1'in üzerinde yükseldi. Buna karşılık Fed beklentilerinin doların güçlü kalması ve Çin bankalarının dolar mevduat faizini artırması baskı yaratabilir, bazı haberler de eski veya ilgisiz olduğu için güven sınırlı.
+09.11 09:15 N  GPT  score +0.30 conf 0.43: Dolar endeksindeki düşüş ve petrolün gerilemesi altını kısa vadede destekleyebilir; İran çevresindeki gerilim de güvenli liman talebini artırıyor. Ancak altın zaten %1’den fazla yükselmiş ve ABD enflasyon verisi bekleniyor, bu nedenle ek hareket sınırlı ve belirsiz olabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
