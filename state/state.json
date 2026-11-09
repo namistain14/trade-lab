@@ -11289,6 +11289,10 @@
    [
     1794260037,
     5000.0
+   ],
+   [
+    1794260228,
+    5000.0
    ]
   ],
   "archive": [
@@ -14363,10 +14367,6 @@
   },
   "equity_curve": [
    [
-    1793675466,
-    4868.5
-   ],
-   [
     1793675646,
     4868.5
    ],
@@ -26361,43 +26361,38 @@
    [
     1794260037,
     4868.5
+   ],
+   [
+    1794260228,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.4,
-   "reason": "Yeni gelen \"s\u0131cak ABD enflasyonu / Fed faiz art\u0131r\u0131m\u0131\" ba\u015fl\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131 yaratabilir, ancak petrol d\u00fc\u015f\u00fc\u015f\u00fc ve zay\u0131flayan dolar (\u0130ran m\u00fczakere haberleri, Hormuz talebinde gev\u015feme) enflasyon ve dolar kanal\u0131ndan alt\u0131 destekliyor; ayr\u0131ca Hegseth/\u0130ran sava\u015f\u0131 haberleri jeopolitik risk primi sa\u011fl\u0131yor. Sinyaller kar\u0131\u015f\u0131k ve bir\u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in hafif pozitif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
+   "score": 0.05,
+   "confidence": 0.3,
+   "reason": "\u0130ran sava\u015f\u0131na y\u00f6nelik siyasi bask\u0131 ve Hegseth'e kar\u015f\u0131 azil giri\u015fimi jeopolitik risk alg\u0131s\u0131n\u0131 s\u00fcrd\u00fcr\u00fcyor, ancak yeni haberlerin \u00e7o\u011fu tekrar eden siyasi geli\u015fmeler ve Arap liderlerin sava\u015f\u0131n yeniden ba\u015flamas\u0131n\u0131 durdurma \u00e7abas\u0131 gibi k\u0131smen yat\u0131\u015ft\u0131r\u0131c\u0131 unsurlar i\u00e7eriyor. Petrol ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in destekleyici olsa da, s\u0131cak enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor; bu nedenle net etki zay\u0131f ve belirsiz.",
    "n": 45,
-   "ts": 1794259508719,
-   "new_headlines": 6,
+   "ts": 1794260228030,
+   "new_headlines": 10,
    "key_events": [
     "ABD T\u00dcFE verisi \u00f6ncesi dolar zay\u0131flamas\u0131, alt\u0131n 4.100 dolara yakla\u015f\u0131yor",
     "Fed Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Trump \u0130ran sava\u015f\u0131n\u0131 'kazand\u0131k' dedi; Rubio m\u00fczakerelerde ilerleme yok"
    ],
    "gpt": {
-    "score": 0.15,
-    "confidence": 0.38,
-    "reason": "Petrol ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; yen tahmini de dolar zay\u0131fl\u0131\u011f\u0131na i\u015faret ediyor. Ancak enflasyonun y\u00fcksek kalaca\u011f\u0131 ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentisi bu deste\u011fi s\u0131n\u0131rl\u0131yor; CPI hen\u00fcz yay\u0131mlanmad\u0131\u011f\u0131ndan y\u00f6n sinyali kesin de\u011fil.",
+    "score": 0.25,
+    "confidence": 0.42,
+    "reason": "\u0130ran sava\u015f\u0131 stratejisine y\u00f6nelik siyasi bask\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca petrol ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in olumlu. Ancak s\u0131cak enflasyon ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentisi bu deste\u011fi s\u0131n\u0131rl\u0131yor; yeni ba\u015fl\u0131klar do\u011frudan bir t\u0131rman\u0131\u015f veya politika de\u011fi\u015fikli\u011fi g\u00f6st",
     "key_events": [
-     "Petrol ve dolar geriledi; alt\u0131n toparland\u0131",
-     "Y\u00fcksek enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentisi",
-     "Yen tahmini dolarda zay\u0131fl\u0131\u011fa i\u015faret ediyor"
+     "Trump\u2019\u0131n \u0130ran sava\u015f\u0131 stratejisi \u00fczerindeki siyasi bask\u0131",
+     "Petrol ve dolar gerilerken alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131",
+     "S\u0131cak enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentisi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793809563209,
-    "score": 0.45,
-    "confidence": 0.55,
-    "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'na sald\u0131r\u0131s\u0131 haberi jeopolitik risk ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n i\u00e7in olumlu. Dolar endeksinin 101.50'nin alt\u0131na inmesi de alt\u0131n\u0131 destekliyor. Ancak Trump'\u0131n riskleri azaltt\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n se\u00e7im sonu\u00e7lar\u0131na odaklanmas\u0131, etkinin k\u0131smen fiyatlanm\u0131\u015f ya da \u00e7eli\u015fkili olabilece\u011fini g\u00f6steriyor.",
-    "new": 27,
-    "gpt_score": 0.66,
-    "gpt_confidence": 0.64
-   },
    {
     "ts": 1793810283623,
     "score": 0.3,
@@ -29088,37 +29083,49 @@
     "new": 6,
     "gpt_score": 0.15,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1794260228030,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "\u0130ran sava\u015f\u0131na y\u00f6nelik siyasi bask\u0131 ve Hegseth'e kar\u015f\u0131 azil giri\u015fimi jeopolitik risk alg\u0131s\u0131n\u0131 s\u00fcrd\u00fcr\u00fcyor, ancak yeni haberlerin \u00e7o\u011fu tekrar eden siyasi geli\u015fmeler ve Arap liderlerin sava\u015f\u0131n yeniden ba\u015flamas\u0131n\u0131 durdurma \u00e7abas\u0131 gibi k\u0131smen yat\u0131\u015ft\u0131r\u0131c\u0131 unsurlar i\u00e7eriyor. Petrol ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in destekleyici olsa da, s\u0131cak enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor; bu nedenle net etki zay\u0131f ve belirsiz.",
+    "new": 10,
+    "gpt_score": 0.25,
+    "gpt_confidence": 0.42
    }
   ],
   "news_calls": {
    "date": "2026-11-10",
-   "n": 3
+   "n": 4
   },
   "news_seen": [
+   "Midterm backlash adds new pressures to Trump's Iran war strategy - KPIC",
+   "Judge denies motion to dismiss Lindsay Clancy's murder case",
+   "Midterm backlash adds new pressures to Trump's Iran war strategy - KDNL",
+   "Midterm backlash adds new pressures to Trump's Iran war strategy - WBFF",
+   "BYU women's lacrosse closes fall with 14-11 'Holy War' win over Utah - BYU Daily Universe",
    "The Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Co - U.S. Department of War (.gov)",
+   "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
    "Republican lawmaker moves to impeach US Defense Secretary Hegseth - Al Jazeera",
-   "Judge denies motion to dismiss Lindsay Clancy's murder case - media reports",
    "Washington Policy Weekly: Trump Acknowledges Iran War\u2019s Role in Republican Midterm Losses - Arab Center Washington DC",
    "The New Cold War: Hackers Are Targeting Internet-Connected Freezers - U.S. News & World Report",
    "Fed Approves Two Applications by Mutual Federal Bancorp and MFB Bancorp - Mirage News",
    "Europe Is Still Making Up Its Mind About Which Hypersonic Interceptor Missile It Wants - The National Interest",
    "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+   "Trump\u2019s 8-Word Reply To JD Vance\u2019s Iran War Diss Called A \u2018Striking Rebuke\u2019 - Yahoo News Singapore",
    "A key report for where inflation stood in October comes out Tuesday. Here's what to expect - CNBC",
    "Trump and Vance Confront the Iran War After Midterm Rout - Bloomberg.com",
-   "Preston County soldier earned medal for Civil War actions - www.dominionpost.com",
+   "Preston County soldier earned medal for Civil War actions - The Dominion Post",
    "Hot U.S. inflation hasn\u2019t cooled off. Rising consumer prices to keep Fed rate hike on track. - MarketWatch",
    "Hegseth attacks civilian-led education in Naval War College speech - News From The States",
    "Top Yen Forecaster Predicts 147 Per Dollar as Rate Gap Narrows - Bloomberg.com",
-   "Why Iran war funding is \u201ca total nonstarter\u201d for Democrats | THE HILL EDITOR\u2019S CALL - The Hill",
    "Arab and Muslim leaders in push to stop Trump from reigniting Iran war - Financial Times",
-   "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
    "US October CPI to Be Released Without Annual Inflation Rate as Shutdown Fallout Distorts Price Picture - BigGo Finance",
    "What to Expect from Tuesday\u2019s Closely Watched Inflation Report - Investopedia",
    "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine - AP News",
+   "Iran accuses Israel of seeking to drag US into 'endless war' - T\u00fcrkiye Today",
    "Gold price rebounds as oil and dollar retreat - Mining.com.au",
-   "War, Tariffs, and Assigning Blame - The Washington Stand",
    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Sentinel Colorado",
-   "Iran\u2019s parliament speaker accuses Israel of trying to draw US into \u2018endless war\u2019 - Anadolu Ajans\u0131",
    "Rubio's defense of Trump's Iran war draws sharp contrast with Vance's midterm blame - Fox News",
    "Turkey steel factory blast kills at least 17 people",
    "Fed should move policy \u2018with care\u2019 as it responds to inflation, Barkin says - SRN News",
@@ -29127,24 +29134,19 @@
    "Gold defies Fed hike bets, tops $4,100 as Oil rout hits the USD | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "MAGA Civil War Explodes as Wiles Accused of Secret Anti-Trump Plot - The Daily Beast",
    "Gold defies Fed hike bets, tops $4,100 as Oil rout hits the USD - FXStreet",
+   "Trump\u2019s \u2018golden fleet\u2019 battleships and missile dome are on life support after midterm losses - Yahoo",
    "US: Hegseth faces impeachment push from Massie over Iran war - DW.com",
    "I talked to Ro. About Gaza War Powers - Daily Kos",
    "GOP Rep. Thomas Massie unveils impeachment articles against Defense Secretary Pete Hegseth - NBC News",
+   "Massie introduces impeachment articles against Hegseth, teeing up vote this week - CBS News",
    "To end 'whack-a-mole' war on AI deepfakes, address the 'ecosystem,' researchers urge - Tech Xplore",
    "France accuses Iran of supermarket fridge hacking",
    "How AI and inflation are fueling fears of Fed hikes ahead - Mortgage Professional America",
    "Hegseth Faces Impeachment Vote Over Illegal War - The Daily Beast",
-   "Hegseth faces impeachment resolution from a GOP member with little to lose - Axios",
-   "Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands - Bloomberg.com",
-   "Dollar slips against major currencies as Iran talks lift risk appetite - Central Oregon Daily",
-   "From the director: Accountability in the age of AI - Federal Reserve Bank of Minneapolis",
-   "Prescription for productivity: Healthy kids - Federal Reserve Bank of Minneapolis",
-   "Pete Hegseth faces House impeachment vote amid controversy over Iran War - The Hill"
+   "Hegseth faces impeachment resolution from a GOP member with little to lose - Axios"
   ]
  },
  "log": [
-  "08.11 23:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29442,7 +29444,9 @@
   "10.11 00:13 N  NEWS (15 new) score +0.10 conf 0.35: ",
   "10.11 00:13 N  GPT  score +0.25 conf 0.38: \u0130ran-H\u00fcrm\u00fcz geriliminin yumu\u015fayabilece\u011fi haberiyle petrol ve dolar\u0131n gerilemesi alt\u0131na k\u0131sa vadede destek sa\u011fl\u0131yor; ancak Fed\u2019den gelen temkinli/\u015fahin sinyaller ve yakla\u015fan enflasyon verisi y\u00fckseli\u015f potansiyelini s\u0131n\u0131rl\u0131yor. Yeni siyasi haberlerin \u00e7o\u011fu do\u011frudan fiyat kataliz\u00f6r\u00fc de\u011fil ve genel sinyal",
   "10.11 00:25 N  NEWS (6 new) score +0.10 conf 0.40: Yeni gelen \"s\u0131cak ABD enflasyonu / Fed faiz art\u0131r\u0131m\u0131\" ba\u015fl\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131 yaratabilir, ancak petrol d\u00fc\u015f\u00fc\u015f\u00fc ve zay\u0131flayan dolar (\u0130ran m\u00fczakere haberleri, Hormuz talebinde gev\u015feme) enflasyon ve dolar kanal\u0131ndan alt\u0131 destekliyor; ayr\u0131ca Hegseth/\u0130ran sava\u015f\u0131 haberleri jeopolitik risk primi sa\u011fl\u0131yor. Sinyaller kar\u0131\u015f\u0131k ve bir\u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in hafif pozitif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
-  "10.11 00:25 N  GPT  score +0.15 conf 0.38: Petrol ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; yen tahmini de dolar zay\u0131fl\u0131\u011f\u0131na i\u015faret ediyor. Ancak enflasyonun y\u00fcksek kalaca\u011f\u0131 ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentisi bu deste\u011fi s\u0131n\u0131rl\u0131yor; CPI hen\u00fcz yay\u0131mlanmad\u0131\u011f\u0131ndan y\u00f6n sinyali kesin de\u011fil."
+  "10.11 00:25 N  GPT  score +0.15 conf 0.38: Petrol ve dolar\u0131n gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekliyor; yen tahmini de dolar zay\u0131fl\u0131\u011f\u0131na i\u015faret ediyor. Ancak enflasyonun y\u00fcksek kalaca\u011f\u0131 ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentisi bu deste\u011fi s\u0131n\u0131rl\u0131yor; CPI hen\u00fcz yay\u0131mlanmad\u0131\u011f\u0131ndan y\u00f6n sinyali kesin de\u011fil.",
+  "10.11 00:37 N  NEWS (10 new) score +0.05 conf 0.30: \u0130ran sava\u015f\u0131na y\u00f6nelik siyasi bask\u0131 ve Hegseth'e kar\u015f\u0131 azil giri\u015fimi jeopolitik risk alg\u0131s\u0131n\u0131 s\u00fcrd\u00fcr\u00fcyor, ancak yeni haberlerin \u00e7o\u011fu tekrar eden siyasi geli\u015fmeler ve Arap liderlerin sava\u015f\u0131n yeniden ba\u015flamas\u0131n\u0131 durdurma \u00e7abas\u0131 gibi k\u0131smen yat\u0131\u015ft\u0131r\u0131c\u0131 unsurlar i\u00e7eriyor. Petrol ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in destekleyici olsa da, s\u0131cak enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor; bu nedenle net etki zay\u0131f ve belirsiz.",
+  "10.11 00:37 N  GPT  score +0.25 conf 0.42: \u0130ran sava\u015f\u0131 stratejisine y\u00f6nelik siyasi bask\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca petrol ve dolar\u0131n gerilemesi alt\u0131n i\u00e7in olumlu. Ancak s\u0131cak enflasyon ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentisi bu deste\u011fi s\u0131n\u0131rl\u0131yor; yeni ba\u015fl\u0131klar do\u011frudan bir t\u0131rman\u0131\u015f veya politika de\u011fi\u015fikli\u011fi g\u00f6st"
  ],
  "gold_big": {
   "account": {
@@ -29629,10 +29633,6 @@
   },
   "equity_curve": [
    [
-    1793675466,
-    4963.78
-   ],
-   [
     1793675646,
     4963.78
    ],
@@ -41626,6 +41626,10 @@
    ],
    [
     1794260037,
+    4963.78
+   ],
+   [
+    1794260228,
     4963.78
    ]
   ],
@@ -41741,10 +41745,6 @@
   },
   "equity_curve": [
    [
-    1793675466,
-    4975.18
-   ],
-   [
     1793675646,
     4975.18
    ],
@@ -53738,6 +53738,10 @@
    ],
    [
     1794260037,
+    4975.18
+   ],
+   [
+    1794260228,
     4975.18
    ]
   ],
@@ -53823,10 +53827,6 @@
   },
   "equity_curve": [
    [
-    1793675466,
-    4993.28
-   ],
-   [
     1793675646,
     4993.28
    ],
@@ -65820,6 +65820,10 @@
    ],
    [
     1794260037,
+    4993.28
+   ],
+   [
+    1794260228,
     4993.28
    ]
   ]
@@ -66030,10 +66034,6 @@
   },
   "equity_curve": [
    [
-    1793675466,
-    4969.22
-   ],
-   [
     1793675646,
     4969.22
    ],
@@ -78027,6 +78027,10 @@
    ],
    [
     1794260037,
+    4969.22
+   ],
+   [
+    1794260228,
     4969.22
    ]
   ],
@@ -79479,10 +79483,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793675466,
-    4648.91
-   ],
    [
     1793675646,
     4645.18
@@ -91478,6 +91478,10 @@
    [
     1794260037,
     4320.57
+   ],
+   [
+    1794260228,
+    4320.57
    ]
   ],
   "news_calls": {
@@ -92312,10 +92316,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793675466,
-    100750.28
-   ],
    [
     1793675646,
     100750.28
@@ -104311,6 +104311,10 @@
    [
     1794260037,
     111691.09
+   ],
+   [
+    1794260228,
+    111691.09
    ]
   ],
   "open": {},
@@ -104472,10 +104476,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793675466,
-    5066.43
-   ],
    [
     1793675646,
     5066.43
@@ -116470,6 +116470,10 @@
    ],
    [
     1794260037,
+    4944.42
+   ],
+   [
+    1794260228,
     4944.42
    ]
   ],
