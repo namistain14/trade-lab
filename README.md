@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 23:02 (İstanbul)
+> Son güncelleme: 09.11.2026 23:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -50,9 +50,9 @@ Son işlemler:
 
 **Hesap değeri: 4,944.42 $** (başlangıç 5,000 $, -55.58 $ / %-1.11)
 
-Son haber analizi (09.11 07:59): Claude puan **-0.40**, güven 0.50 — Brent 98 doların altına indi ve haftalık yaklaşık %16 düşüş yaşandı; Trump'ın İran'a yeni saldırıların "pek olası olmadığını" söylemesi ve Xi/Putin ile İran savaşını bitirme görüşmelerini açıklaması kısa vadede baskı yaratıyor. Buna karşın Hürmüz yakınında tanker yangını, Riyad'da Aramco kulesine Husi füze enkazı ve Rusya'daki rafineriye Ukrayna saldırısı gibi arz riskleri fiyatın tamamen düşmesini sınırlayabilir, bu yüzden sinyaller karışık.
+Son haber analizi (09.11 23:06): Claude puan **-0.10**, güven 0.40 — Brent yaklaşık %5 düşüşle 93,5 dolara geriledi; ABD-İran anlaşması umutları ana itici güç ve bu bearish etki kısmen fiyatlandı. Buna karşın Suudi Arabistan'ın Doğu-Batı boru hattına yönelik saldırısı ve Hürmüz Boğazı'ndaki patlama haberleri arz riskini canlı tutuyor, bu nedenle etki çelişkili ve sınırlı.
 
-GPT (gpt-6-luna): puan **-0.45**, güven 0.58 — İran’a yeni saldırı ihtimalinin düşük görülmesi ve barış görüşmelerine ilişkin umutlar, jeopolitik risk primini azaltarak Brent’i kısa vadede aşağı çekiyor; fiyatın 98 doların altına inmesi de bu yönü doğruluyor. Hürmüz yakınındaki tanker yangını, Aramco tesisine yönelik saldırı ve Rusya’daki rafine
+GPT (gpt-6-luna): puan **-0.18**, güven 0.42 — ABD-İran anlaşması umutlarıyla Brent’in yaklaşık %5 gerilemesi kısa vadede aşağı yönlü momentumu destekliyor. Ancak Hürmüz’de patlama haberleri ve Suudi Arabistan’ın Doğu-Batı petrol hattına yönelik sınırlı saldırı bu düşüşü sınırlayabilecek arz riskleri yaratıyor; haberler çelişkili ve bir kısmı fi
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,280.59 $** (başlangıç 100,000 $, +11280.59 $ / %+11.28)
+**Hesap değeri: 111,197.42 $** (başlangıç 100,000 $, +11197.42 $ / %+11.20)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 22:11 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"99844.83","code":40310000,"cost_basis":"113020.87","message":"insufficient buying power"}
-09.11 22:23 N  NEWS (12 new) score -0.10 conf 0.30: İran savaşına dair haberler sürüyor ve jeopolitik risk altın için destekleyici, ancak çoğu zaten fiyatlanmış durumda. Fed yetkililerinin (Goolsbee, Russell) enflasyona karşı sabırsızlık ve sıkı tonu, yaklaşan ABD enflasyon verisiyle birlikte altın üzerinde kısa vadede hafif baskı yaratabilir; zayıf dolar ise bunu kısmen dengeliyor.
 09.11 22:23 N  GPT  score +0.25 conf 0.38: İran Devrim Muhafızları’nın füze menzili sınırlarını kaldırdığı açıklaması kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la savaşın sona erdirilmesine yönelik görüşmeler ve Fed’in enflasyon konusundaki temkinli mesajları yönü belirsizleştiriyor; yeni bir enflasyon verisi henüz yok.
 09.11 22:23 B6  karar turu: Claude «Endeksler büyüme ve çip toparlanmasıyla güçlü seyrediyor; NVDA ise şirkete özel skandal baskısıyla ayrışıyor, ancak kapanışa az süre kaldığından hedeflere ulaşma potansiyeli sınırlı.» / GPT «Endeks rallisi son saatte duraklarken şirkete özgü haberler öne çıkıyor; kapanışa 37 dakika kalması ve 4 kat kaldıraç, seans sonrası likidite ve stop gerçekleşme riskini artırıyor.»
 09.11 22:23 B6  ALIŞ TSLA 291 adet ≈ 109,800 $ (1:4) @ 377.32 (TP 382.98, SL 373.55; ikisi de hemfikir, güven 0.50)
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 23:00 N  NEWS (10 new) score -0.30 conf 0.50: Haberlerin ağırlığı Fed'in sıkı duruşuna ve yükselen tahvil getirilerine işaret ediyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" başlığı ve Chicago Fed'in aşırı ısınma uyarısı altın için baskı yaratıyor. Buna karşılık İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk dengesini kısmen destekliyor, ancak İran müzakere haberleri risk iştahını artırıp bu güvenli liman etkisini zayıflatıyor; bu çelişkiler güveni sınırlıyor.
 09.11 23:00 N  GPT  score -0.25 conf 0.38: Talep ve enflasyon risklerine dair Fed uyarıları ile yükselen tahvil getirileri, kısa vadede altına baskı yapıyor. Doların zayıflaması ve İran kaynaklı gerilim haberleri bu baskıyı kısmen dengeliyor; haber akışı karışık ve bazı başlıkların piyasa etkisi belirsiz.
 09.11 23:00 B6  karar turu: Claude «Teknoloji ve geniş piyasa güçlü bir ralliyle günü kapattı, ancak NVDA şirkete özgü skandal haberiyle ayrıştı ve seans sonrası yeni pozisyon için net bir avantaj yok.» / GPT «Endekslerde güçlü günlük yükseliş son saatte yataylaşırken, 16:00 sonrası 4 kat kaldıraçla işlem için sunulan veriler yeterli yön avantajı göstermiyor.»
+09.11 23:06 B5P  NEWS (45 new) score -0.10 conf 0.40: Brent yaklaşık %5 düşüşle 93,5 dolara geriledi; ABD-İran anlaşması umutları ana itici güç ve bu bearish etki kısmen fiyatlandı. Buna karşın Suudi Arabistan'ın Doğu-Batı boru hattına yönelik saldırısı ve Hürmüz Boğazı'ndaki patlama haberleri arz riskini canlı tutuyor, bu nedenle etki çelişkili ve sınırlı.
+09.11 23:06 B5P  GPT  score -0.18 conf 0.42: ABD-İran anlaşması umutlarıyla Brent’in yaklaşık %5 gerilemesi kısa vadede aşağı yönlü momentumu destekliyor. Ancak Hürmüz’de patlama haberleri ve Suudi Arabistan’ın Doğu-Batı petrol hattına yönelik sınırlı saldırı bu düşüşü sınırlayabilecek arz riskleri yaratıyor; haberler çelişkili ve bir kısmı fi
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

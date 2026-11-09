@@ -11161,6 +11161,10 @@
    [
     1794254576,
     5000.0
+   ],
+   [
+    1794254765,
+    5000.0
    ]
   ],
   "archive": [
@@ -14235,10 +14239,6 @@
   },
   "equity_curve": [
    [
-    1793668436,
-    4868.5
-   ],
-   [
     1793668626,
     4868.5
    ],
@@ -26232,6 +26232,10 @@
    ],
    [
     1794254576,
+    4868.5
+   ],
+   [
+    1794254765,
     4868.5
    ]
   ],
@@ -29015,8 +29019,6 @@
   ]
  },
  "log": [
-  "08.11 22:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 22:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29314,7 +29316,9 @@
   "09.11 22:48 B6  karar turu: Claude \u00abEndeksler \u00e7iplerin toparlanmas\u0131yla g\u00fc\u00e7l\u00fc kapan\u0131\u015fa giderken NVDA \u015firkete \u00f6zg\u00fc skandal bask\u0131s\u0131yla ayr\u0131\u015f\u0131yor; kapan\u0131\u015f \u00f6ncesi yeni pozisyon i\u00e7in risk/getiri zay\u0131f.\u00bb / GPT \u00abEndeksler g\u00fc\u00e7l\u00fc ancak ivme s\u0131n\u0131rl\u0131; kapan\u0131\u015fa 12 dakika kala 1\u20133 saatlik i\u015flem seans d\u0131\u015f\u0131na ta\u015faca\u011f\u0131ndan bracket emirlerinin ge\u00e7erlili\u011fi ve likidite riski kritik.\u00bb",
   "09.11 23:00 N  NEWS (10 new) score -0.30 conf 0.50: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 Fed'in s\u0131k\u0131 duru\u015funa ve y\u00fckselen tahvil getirilerine i\u015faret ediyor; \"Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets\" ba\u015fl\u0131\u011f\u0131 ve Chicago Fed'in a\u015f\u0131r\u0131 \u0131s\u0131nma uyar\u0131s\u0131 alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve Hegseth'e y\u00f6nelik impeachment giri\u015fimi jeopolitik risk dengesini k\u0131smen destekliyor, ancak \u0130ran m\u00fczakere haberleri risk i\u015ftah\u0131n\u0131 art\u0131r\u0131p bu g\u00fcvenli liman etkisini zay\u0131flat\u0131yor; bu \u00e7eli\u015fkiler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "09.11 23:00 N  GPT  score -0.25 conf 0.38: Talep ve enflasyon risklerine dair Fed uyar\u0131lar\u0131 ile y\u00fckselen tahvil getirileri, k\u0131sa vadede alt\u0131na bask\u0131 yap\u0131yor. Dolar\u0131n zay\u0131flamas\u0131 ve \u0130ran kaynakl\u0131 gerilim haberleri bu bask\u0131y\u0131 k\u0131smen dengeliyor; haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve baz\u0131 ba\u015fl\u0131klar\u0131n piyasa etkisi belirsiz.",
-  "09.11 23:00 B6  karar turu: Claude \u00abTeknoloji ve geni\u015f piyasa g\u00fc\u00e7l\u00fc bir ralliyle g\u00fcn\u00fc kapatt\u0131, ancak NVDA \u015firkete \u00f6zg\u00fc skandal haberiyle ayr\u0131\u015ft\u0131 ve seans sonras\u0131 yeni pozisyon i\u00e7in net bir avantaj yok.\u00bb / GPT \u00abEndekslerde g\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015f son saatte yatayla\u015f\u0131rken, 16:00 sonras\u0131 4 kat kald\u0131ra\u00e7la i\u015flem i\u00e7in sunulan veriler yeterli y\u00f6n avantaj\u0131 g\u00f6stermiyor.\u00bb"
+  "09.11 23:00 B6  karar turu: Claude \u00abTeknoloji ve geni\u015f piyasa g\u00fc\u00e7l\u00fc bir ralliyle g\u00fcn\u00fc kapatt\u0131, ancak NVDA \u015firkete \u00f6zg\u00fc skandal haberiyle ayr\u0131\u015ft\u0131 ve seans sonras\u0131 yeni pozisyon i\u00e7in net bir avantaj yok.\u00bb / GPT \u00abEndekslerde g\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015f son saatte yatayla\u015f\u0131rken, 16:00 sonras\u0131 4 kat kald\u0131ra\u00e7la i\u015flem i\u00e7in sunulan veriler yeterli y\u00f6n avantaj\u0131 g\u00f6stermiyor.\u00bb",
+  "09.11 23:06 B5P  NEWS (45 new) score -0.10 conf 0.40: Brent yakla\u015f\u0131k %5 d\u00fc\u015f\u00fc\u015fle 93,5 dolara geriledi; ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131 ana itici g\u00fc\u00e7 ve bu bearish etki k\u0131smen fiyatland\u0131. Buna kar\u015f\u0131n Suudi Arabistan'\u0131n Do\u011fu-Bat\u0131 boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki patlama haberleri arz riskini canl\u0131 tutuyor, bu nedenle etki \u00e7eli\u015fkili ve s\u0131n\u0131rl\u0131.",
+  "09.11 23:06 B5P  GPT  score -0.18 conf 0.42: ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131yla Brent\u2019in yakla\u015f\u0131k %5 gerilemesi k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. Ancak H\u00fcrm\u00fcz\u2019de patlama haberleri ve Suudi Arabistan\u2019\u0131n Do\u011fu-Bat\u0131 petrol hatt\u0131na y\u00f6nelik s\u0131n\u0131rl\u0131 sald\u0131r\u0131 bu d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilecek arz riskleri yarat\u0131yor; haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 fi"
  ],
  "gold_big": {
   "account": {
@@ -29501,10 +29505,6 @@
   },
   "equity_curve": [
    [
-    1793668436,
-    4963.78
-   ],
-   [
     1793668626,
     4963.78
    ],
@@ -41498,6 +41498,10 @@
    ],
    [
     1794254576,
+    4963.78
+   ],
+   [
+    1794254765,
     4963.78
    ]
   ],
@@ -41613,10 +41617,6 @@
   },
   "equity_curve": [
    [
-    1793668436,
-    4975.18
-   ],
-   [
     1793668626,
     4975.18
    ],
@@ -53610,6 +53610,10 @@
    ],
    [
     1794254576,
+    4975.18
+   ],
+   [
+    1794254765,
     4975.18
    ]
   ],
@@ -53695,10 +53699,6 @@
   },
   "equity_curve": [
    [
-    1793668436,
-    4993.28
-   ],
-   [
     1793668626,
     4993.28
    ],
@@ -65692,6 +65692,10 @@
    ],
    [
     1794254576,
+    4993.28
+   ],
+   [
+    1794254765,
     4993.28
    ]
   ]
@@ -65902,10 +65906,6 @@
   },
   "equity_curve": [
    [
-    1793668436,
-    4969.22
-   ],
-   [
     1793668626,
     4969.22
    ],
@@ -77899,6 +77899,10 @@
    ],
    [
     1794254576,
+    4969.22
+   ],
+   [
+    1794254765,
     4969.22
    ]
   ],
@@ -79351,10 +79355,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793668436,
-    4740.43
-   ],
    [
     1793668626,
     4766.84
@@ -91350,6 +91350,10 @@
    [
     1794254576,
     4320.57
+   ],
+   [
+    1794254765,
+    4320.57
    ]
   ],
   "news_calls": {
@@ -91557,7 +91561,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108836.34019500001,
+   "balance": 108852.68169499999,
    "start": 100000.0,
    "positions": [
     {
@@ -91572,7 +91576,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 351.71
+     "cur": 351.495
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91586,7 +91590,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 679.03
+     "cur": 679.1899
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91600,7 +91604,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 753.87
+     "cur": 754.035
     },
     {
      "id": "c153971f-1539-4812-bde5-2f14b59a14cd",
@@ -91614,7 +91618,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 380.59
+     "cur": 380.36
     }
    ],
    "trades": [
@@ -92179,18 +92183,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 1286.76,
+    "pnl": 1203.59,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 111280.59
+   "equity": 111197.42
   },
   "equity_curve": [
-   [
-    1793668436,
-    100750.28
-   ],
    [
     1793668626,
     100750.28
@@ -104186,6 +104186,10 @@
    [
     1794254576,
     111280.59
+   ],
+   [
+    1794254765,
+    111197.42
    ]
   ],
   "open": {
@@ -104392,10 +104396,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793668436,
-    5066.43
-   ],
    [
     1793668626,
     5066.43
@@ -116391,77 +116391,81 @@
    [
     1794254576,
     4944.42
+   ],
+   [
+    1794254765,
+    4944.42
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.5,
-   "reason": "Brent 98 dolar\u0131n alt\u0131na indi ve haftal\u0131k yakla\u015f\u0131k %16 d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131; Trump'\u0131n \u0130ran'a yeni sald\u0131r\u0131lar\u0131n \"pek olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve Xi/Putin ile \u0130ran sava\u015f\u0131n\u0131 bitirme g\u00f6r\u00fc\u015fmelerini a\u00e7\u0131klamas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131n H\u00fcrm\u00fcz yak\u0131n\u0131nda tanker yang\u0131n\u0131, Riyad'da Aramco kulesine Husi f\u00fcze enkaz\u0131 ve Rusya'daki rafineriye Ukrayna sald\u0131r\u0131s\u0131 gibi arz riskleri fiyat\u0131n tamamen d\u00fc\u015fmesini s\u0131n\u0131rlayabilir, bu y\u00fczden sinyaller kar\u0131\u015f\u0131k.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "Brent yakla\u015f\u0131k %5 d\u00fc\u015f\u00fc\u015fle 93,5 dolara geriledi; ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131 ana itici g\u00fc\u00e7 ve bu bearish etki k\u0131smen fiyatland\u0131. Buna kar\u015f\u0131n Suudi Arabistan'\u0131n Do\u011fu-Bat\u0131 boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki patlama haberleri arz riskini canl\u0131 tutuyor, bu nedenle etki \u00e7eli\u015fkili ve s\u0131n\u0131rl\u0131.",
    "n": 45,
    "gpt": {
-    "score": -0.45,
-    "confidence": 0.58,
-    "reason": "\u0130ran\u2019a yeni sald\u0131r\u0131 ihtimalinin d\u00fc\u015f\u00fck g\u00f6r\u00fclmesi ve bar\u0131\u015f g\u00f6r\u00fc\u015fmelerine ili\u015fkin umutlar, jeopolitik risk primini azaltarak Brent\u2019i k\u0131sa vadede a\u015fa\u011f\u0131 \u00e7ekiyor; fiyat\u0131n 98 dolar\u0131n alt\u0131na inmesi de bu y\u00f6n\u00fc do\u011fruluyor. H\u00fcrm\u00fcz yak\u0131n\u0131ndaki tanker yang\u0131n\u0131, Aramco tesisine y\u00f6nelik sald\u0131r\u0131 ve Rusya\u2019daki rafine",
+    "score": -0.18,
+    "confidence": 0.42,
+    "reason": "ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131yla Brent\u2019in yakla\u015f\u0131k %5 gerilemesi k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. Ancak H\u00fcrm\u00fcz\u2019de patlama haberleri ve Suudi Arabistan\u2019\u0131n Do\u011fu-Bat\u0131 petrol hatt\u0131na y\u00f6nelik s\u0131n\u0131rl\u0131 sald\u0131r\u0131 bu d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilecek arz riskleri yarat\u0131yor; haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 fi",
     "key_events": [
-     "Brent 98 dolar\u0131n alt\u0131na geriledi; haftal\u0131k kay\u0131p y\u00fczde 16\u2019ya ula\u015ft\u0131",
-     "Trump yeni \u0130ran sald\u0131r\u0131lar\u0131n\u0131n d\u00fc\u015f\u00fck ihtimal oldu\u011funu s\u00f6yledi; diplomasi beklentisi artt\u0131",
-     "H\u00fcrm\u00fcz yak\u0131n\u0131nda tanker yang\u0131n\u0131 ve Rus rafinerisine sald\u0131r\u0131 arz riskini canl\u0131 tutuyor"
+     "Brent yakla\u015f\u0131k %5 d\u00fc\u015ft\u00fc; \u0130ran anla\u015fmas\u0131 beklentileri bask\u0131 yarat\u0131yor",
+     "H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda patlama haberleri",
+     "Suudi Do\u011fu-Bat\u0131 petrol hatt\u0131 hedef al\u0131nd\u0131; s\u0131n\u0131rl\u0131 yang\u0131n bildirildi"
     ],
     "model": "gpt-6-luna"
    },
-   "ts": 1794200384185,
+   "ts": 1794254764826,
    "new_headlines": 45
   },
   "news_calls": {
    "date": "2026-11-09",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
-   "Brent crude falls below $98 after 16% weekly drop - News Karnataka",
-   "Oil Prices Today: Brent Falls Below $98 After Biggest Weekly Drop Since 2020 - News Mobile",
-   "AUDIO: Why petrol prices may take longer to fall than crude oil - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-   "Pittsburgh police searching for driver who struck, toppled World War I memorial - CBS News",
-   "Pipeline Failures Cost Nigeria 42.6m Barrels of Oil in 2025 - economicconfidential.com",
-   "The Lieutenant Who Saw the War Coming - The Times of Israel",
-   "Trump Announces Talks with Xi Jinping and Putin to End Iran War - 8AM Media",
-   "Gold, silver prices this week to track West Asia theatre, crude oil, inflation - News9live",
-   "Vista Energy Stock: Cheap Enough Without The War Premium (NYSE:VIST) - Seeking Alpha",
-   "War with Iran, gasoline prices, a 'great dislike' for Israel, Trump explains why GOP lost the elections | LIVE BLOG - i24NEWS",
-   "BSR and FutureTec - Hanghua Joint Venture exchange cooperation to develop oil refining and petrochemical value chain - Laodong.vn",
-   "Why Even Falling Crude Oil Prices May Not Save IndiGo's Profits? - Trade Brains",
-   "Crude Oil Gains As Investors Weigh Renewed US-Iran Escalation Against Diplomacy By Kedia Advisory - Investing.com India",
-   "Brent oil futures flat after Trump\u2019s remarks on Iran war - BusinessLine",
-   "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-   "Police investigate damage to Troy Hill war monument - Pittsburgh Post-Gazette",
-   "Missile Debris Damages Aramco Tower in Riyadh After Houthi Attack - The SOFX Report",
-   "Nifty Outlook - Brent slips below 98 by Geojit Investments Ltd - Investment Guru India",
-   "Rubio says war on Iran unpopular but \u2018necessary\u2019 to stop nuclear threat - Al Jazeera",
-   "NNPC pitches 6,800km Nigeria\u2013Morocco gas pipeline to investors, eyes Trans-Saharan FID talks in 2027 - Oil & Gas Middle East",
-   "Ukrainian forces reportedly strike Russia's second-largest oil refinery in overnight drone attack - The Kyiv Independent",
-   "Can COP31 Deliver Climate Action as War and AI Reshape Global Energy Priorities? - Modern Diplomacy",
-   "Crude Oil Trades Mixed as Iran Peace Hopes Ease Risks - HDFC Sky",
-   "Letters: Local meeting must be held to address pipeline concerns - Delta Optimist",
-   "The next Congress shouldn\u2019t let Iran become a \u2018background war\u2019 - chronicleonline.com",
-   "Oil dips again on Iran talks hopes, but physical Gulf crude climbs - Gulf News",
-   "TOR expansion could deliver cheaper fuel, boost regional exports \u2013 Deputy MD - CitiNewsroom.com",
-   "How will the October 7 war affect children born into it? Israeli researchers launch major study - Ynetnews",
-   "Sensex, Nifty begin in the red despite lower crude prices: Check major gainers & laggards - News9live",
-   "Crude Oil Shows Mixed Signals \u2013 Analysis \u201309-11-2026 - Economies.com",
-   "Berger Talks Getting \"World War Z 2\" Right - Dark Horizons",
-   "War drove refugees into Turkey. Climate change is making it harder to leave. - The Japan Times",
-   "Samvat 2083: Rupee, bond hinge on W Asia war, inflation and capital flows - Rediff",
-   "News by CNBC TV18 on TradingView, 2026-11-09 \u2014 cnbctv:9e65d89f6094b:0 - TradingView",
-   "Tesla Announces It Will Discontinue the Cybertruck, a Culture War on Wheels - The New York Times",
-   "Trump tells CNN: 'Highly unlikely' US goes to war with Iran - Modern Ghana",
-   "Trump says he doesn\u2019t disagree with Vance that Iran war fueled GOP losses - 930 WFMD Free Talk",
-   "Stock Market Today: Sensex Drops, Nifty 50 Around 24,900; HCL Tech, Infosys, TCS Top Drags - NDTV Profit",
-   "Oil falls as Trump says new Iran attacks 'unlikely' - CNBC",
-   "Iranian Navy Says Tanker Caught Fire East of Strait of Hormuz - www.tokenpost.com",
-   "Crude Oil Forecast Raised To US$100 For 2026 And US$85 For 2027 - BusinessToday Malaysia",
-   "Oil price today: Brent slumps below $98 as Trump says new Iran attacks 'unlikely' - ET Now",
-   "Germany Confirms No More Patriot Missiles for Ukraine: Missile Defence Crisis Worsens - Military Watch Magazine",
-   "US big-deck amphibious push risks a Chinese missile trap - Asia Times",
-   "Trump says Ukraine will emerge with 'different shape' after Russia war - Anadolu Ajans\u0131"
+   "Netflix Officially Removes Clint Eastwood\u2019s R-Rated War Thriller - IMDb",
+   "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+   "Saudi Energy Minister Meets USSBC as Pipeline Hit - houseofsaud.com",
+   "Ukraine Tells UN Komyshuvakha, Mariupol Theater Strikes Will Serve as War Crimes Evidence - Kyiv Post",
+   "Hanwha WB Advanced System breaks ground for missile plant in Poland - Janes Defence Intelligence",
+   "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+   "Ukrainian children try to go to school as war will \u2018define an entire generation\u2019 - NewsNation",
+   "Athena Cinema to screen Vietnam War docs on Veterans Day - Athens County Independent",
+   "December WTI Crude Oil Contract Closes Down $3.98; or4.4%; Settles at $86.85 per Barrel. January Brent Oil Was Last Seen Down $4.78, or 4.9%, to $93.54. - marketscreener.com",
+   "Global energy prices extend losses as Brent crude drops nearly 5% on hopes of US-Iran deal - Anadolu Ajans\u0131",
+   "Cyber-attack on French supermarket freezers has geopolitical context - The Guardian",
+   "At Least Five Explosions Reported in Strait of Hormuz - WANA News Agency",
+   "Hegseth Mandates Military Education Reform - U.S. Department of War (.gov)",
+   "Rep. Thomas Massie reintroduces impeachment articles against Pete Hegseth over Iran war: \u2018Threat to the Constitution\u2019 - New York Post",
+   "Board of Immigration Appeals Disbars Attorney Brent Alan Jackson Following Virginia Disbarment - ALABnews -",
+   "Iran War - Post Register",
+   "Big 12 Update: Utah Wins Holy War, Texas Tech Survives West Virginia - Pistols Firing",
+   "Hegseth calls Iran war necessary, waves off \u2018noise\u2019 of expected impeachment push - South China Morning Post",
+   "NVIDIA, AMD, Intel: Inside the Chips Powering Russia\u2019s War - Kyiv Post",
+   "Remains of World War II veteran identified, returned home after 82 years - WBAY",
+   "Pete Hegseth decried \u2018destructive ideologies\u2019 in R.I. Monday. Back in Washington, some are preparing to impeach him. - The Boston Globe",
+   "Saudi Arabia says key East-West oil pipeline targeted as Houthi attacks raise fears over energy supplies - Firstpost",
+   "Opinion | The U.K. Aims Sanctions at Israel, Hits the Cayman Islands - WSJ",
+   "GOP Rep. Thomas Massie unveils impeachment articles against Defense Secretary Pete Hegseth - NBC News",
+   "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine - AP News",
+   "Massie introduces impeachment articles against Hegseth over Iran war - Al-Monitor",
+   "Envoy Jared Kushner says Trump 'determined' to end Ukraine war, as prez tells '60 Minutes' country will be 'different shape' - New York Post",
+   "Bennet urges US Senate to reject more funding for Iran war - Colorado Politics",
+   "Paraguay\u2019s Ueno Bank Crisis: Digital Banking, Financial Turmoil and Geopolitical Fallout - Modern Diplomacy",
+   "Long Run Outlook for World Crude Oil Prices - American Enterprise Institute - AEI",
+   "Brent Named MIAC Volleyball Offensive Player of the Week - Gustavus Adolphus College News",
+   "Iran's Revolutionary Guard Says It Lifted Its Limits on Ballistic Missile Range, Putting More Countries on Notice - Yahoo",
+   "Trump says 'a lot of people didn't like' Vance blaming midterm losses on Iran war - KFOX",
+   "East-West pipeline \u2018targeted\u2019 once again, Saudi Arabia confirms - Upstream Online",
+   "Official source: Limited fire following attack on Saudi Arabia's East-West oil pipeline - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
+   "Oil Offload Imminent for Wrecked Tanker Caroline Bezengi - The Maritime Executive",
+   "France blames Iran for supermarket fridge hack, seeks EU sanctions - Al-Monitor",
+   "When sanctions meet corruption: Iran and the risk of conflict \u2014 Part 1 - Devpolicy Blog from the Development Policy Centre",
+   "Sandburg students to honor Korean War veteran Lomac Payton at free Veterans Day tribute - WGIL",
+   "Amid trade war, union says Stellantis has sold Canadian assembly plant - Detroit Free Press",
+   "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Tests New Lows On Iran Deal Hopes - FXEmpire",
+   "Brent Venables praises Jason Witten after Sooners top Gators - Yahoo Sports",
+   "The facial recognition technology stopping shoplifters",
+   "Remains of World War II veteran identified, returned home after 82 years - FOX5 Vegas",
+   "Remains of World War II veteran identified, returned home after 82 years - WOWT"
   ],
   "news_history": [
    {
@@ -116544,6 +116548,15 @@
     "new": 45,
     "gpt_score": -0.45,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1794254764826,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Brent yakla\u015f\u0131k %5 d\u00fc\u015f\u00fc\u015fle 93,5 dolara geriledi; ABD-\u0130ran anla\u015fmas\u0131 umutlar\u0131 ana itici g\u00fc\u00e7 ve bu bearish etki k\u0131smen fiyatland\u0131. Buna kar\u015f\u0131n Suudi Arabistan'\u0131n Do\u011fu-Bat\u0131 boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 ve H\u00fcrm\u00fcz Bo\u011faz\u0131'ndaki patlama haberleri arz riskini canl\u0131 tutuyor, bu nedenle etki \u00e7eli\u015fkili ve s\u0131n\u0131rl\u0131.",
+    "new": 45,
+    "gpt_score": -0.18,
+    "gpt_confidence": 0.42
    }
   ]
  }
