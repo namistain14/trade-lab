@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 19:18 (İstanbul)
+> Son güncelleme: 09.11.2026 19:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
-Son haber analizi (09.11 19:09): Claude puan **-0.30**, güven 0.50 — Yeni haberlerde jeopolitik risk azalıyor: ABD-İran anlaşması haberi petrolü %4,6 düşürdü ve güvenli liman talebini zayıflatabilir. Goolsbee'nin enflasyon konusunda sert tonu ve yüksek reel getiri riski ile yaklaşan ABD TÜFE verisi, faiz beklentilerini sertleştirerek altı baskılayabilir. Ancak haberlerin bir kısmı eski ya da fiyatlanmış niteliğinde ve sonuç CPI sürprizine bağlı olduğu için güven orta düzeyde.
+Son haber analizi (09.11 19:22): Claude puan **-0.20**, güven 0.35 — Yeni haberlerde jeopolitik risk azalıyor: ABD-İran anlaşması haberi petrolü %4,6 düşürdü ve güvenli liman talebini zayıflatabilir. Goolsbee'nin enflasyon konusunda sert tonu ve yüksek reel getiri riski ile yaklaşan ABD TÜFE verisi, faiz beklentilerini sertleştirerek altı baskılayabilir. Ancak haberlerin bir kısmı eski ya da fiyatlanmış niteliğinde ve sonuç CPI sürprizine bağlı olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.52 — ABD-İran anlaşması haberinin petrolü sert düşürmesi ve Goolsbee’nin enflasyon vurgusu, enflasyon/şahin Fed kaygılarını öne çıkararak altını kısa vadede baskılayabilir. Hürmüz’deki tanker saldırıları ve artan işsizlik beklentileri güvenli liman talebiyle bunu kısmen dengeliyor; haber akışı çelişkili.
+GPT (gpt-6-luna): puan **+0.10**, güven 0.39 — Hürmüz’de tankerlerin vurulması güvenli liman talebini destekliyor; ancak bu başlık yeni değil ve Fed’den Goolsbee’nin enflasyon uyarısı altın için faiz kaynaklı baskı yaratabilir. Yeni haber akışı karışık olduğundan kısa vadeli net etki hafif pozitif ve belirsiz.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,291.09 $** (başlangıç 100,000 $, +10291.09 $ / %+10.29)
+**Hesap değeri: 110,188.91 $** (başlangıç 100,000 $, +10188.91 $ / %+10.19)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 18:33 N  GPT  score +0.20 conf 0.42: Hürmüz yakınlarında üç tankere yönelik saldırı kısa vadede güvenli liman talebini destekleyebilir. Ancak doların 52 haftalık zirvesi ve yüksek tahvil getirileri altını baskılıyor; İran’la ilgili yatıştırıcı açıklamalar da risk algısını sınırlıyor.
-09.11 18:33 B6  karar turu: Claude «Piyasa güçlü bir risk iştahıyla yükseliyor ve teknoloji öncülük ediyor, ancak büyük hareketleri kovalamaktan kaçınmak gerekiyor.» / GPT «Piyasa teknoloji öncülüğünde güçlü seyrediyor; ancak uzayan yükselişlerde 4 kat kaldıraç ve olası stop kayması nedeniyle seçici kalmak gerekiyor.»
-09.11 18:33 B6  ALIŞ QQQ 165 adet ≈ 111,377 $ (1:4) @ 675.01 (TP 685.14, SL 668.26; ikisi de hemfikir, güven 0.58)
-09.11 18:45 N  NEWS (8 new) score -0.10 conf 0.40: Karışık sinyaller var: Hürmüz'de IRGC'nin tankerlere saldırısı güvenli liman talebini destekliyor, ancak Trump'ın tam ölçekli savaşın "son derece olası olmadığını" söylemesi ve Ukrayna barış görüşmeleri jeopolitik primi azaltıyor. Goolsbee'nin hizmet enflasyonu uyarısı ve ABD dolarının 52 haftalık zirvesi altın için olumsuz; yüksek reel faizler CPI öncesi baskı yaratıyor. Genel etki hafif negatif, güven orta-düşük.
 09.11 18:45 N  GPT  score -0.20 conf 0.48: Goolsbee’nin hizmet enflasyonunun tarifeler dışındaki kaynaklarına ilişkin uyarısı faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı yaratabilir. İran konusunda görüşme ve Ukrayna barış görüşmelerinin yeniden başlaması gerilimin azalabileceğine işaret etse de Hürmüz yakınında
 09.11 18:45 B6  karar turu: Claude «Piyasa güçlü risk iştahıyla yükseliyor; NVDA zayıf kalsa da genel momentum pozitif, fakat jeopolitik ve enflasyon başlıkları geri çekilme riski taşıyor.» / GPT «Piyasanın kısa vadeli yönü yukarı olsa da enflasyon ve İran başlıkları nedeniyle dört kat kaldıraçla agresif pozisyon büyütmek riskli.»
 09.11 18:45 B6  ALIŞ SPY 57 adet ≈ 42,729 $ (1:4) @ 749.63 (TP 760.87, SL 742.13; ikisi de hemfikir, güven 0.55)
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 19:09 N  GPT  score -0.20 conf 0.52: ABD-İran anlaşması haberinin petrolü sert düşürmesi ve Goolsbee’nin enflasyon vurgusu, enflasyon/şahin Fed kaygılarını öne çıkararak altını kısa vadede baskılayabilir. Hürmüz’deki tanker saldırıları ve artan işsizlik beklentileri güvenli liman talebiyle bunu kısmen dengeliyor; haber akışı çelişkili.
 09.11 19:09 B6  karar turu: Claude «Piyasa geniş tabanlı yükselişte ancak NVDA, CEO skandalı nedeniyle endeksten ayrışarak zayıflıyor.» / GPT «Genel piyasa güçlü olsa da son zirvelerden gevşiyor; yeni şirket haberleriyle piyasadan negatif ayrışan NVDA'da seçici kısa pozisyon daha avantajlı görünüyor.»
 09.11 19:09 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"102240.6","code":40310000,"cost_basis":"113853.64","message":"insufficient buying power"}
+09.11 19:22 N  NEWS (16 new) score -0.20 conf 0.35: 
+09.11 19:22 N  GPT  score +0.10 conf 0.39: Hürmüz’de tankerlerin vurulması güvenli liman talebini destekliyor; ancak bu başlık yeni değil ve Fed’den Goolsbee’nin enflasyon uyarısı altın için faiz kaynaklı baskı yaratabilir. Yeni haber akışı karışık olduğundan kısa vadeli net etki hafif pozitif ve belirsiz.
+09.11 19:22 B6  karar turu: Claude «Endeksler büyüme hisselerinin öncülüğünde geniş tabanlı yükselişte, ancak NVDA şirkete özel skandal haberleriyle piyasadan ayrışarak düşüyor.» / GPT «Endekslerde güçlü günlük yükseliş son saatte ivme kaybederken, yeni pozisyon için en belirgin göreli zayıflık NVDA'da görülüyor.»
+09.11 19:22 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"101166.69","code":40310000,"cost_basis":"113319.32","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
