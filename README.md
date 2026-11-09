@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 22:26 (İstanbul)
+> Son güncelleme: 09.11.2026 22:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -167.73 $ | -623.50 $ |
-| İşlem sayısı | 3 | 67 |
-| Kazanma oranı | %0.0 | %37.3 |
-| Ödenen komisyon/spread | 35.48 $ | 795.15 $ |
+| Net kâr/zarar | -223.66 $ | -679.43 $ |
+| İşlem sayısı | 4 | 68 |
+| Kazanma oranı | %0.0 | %36.8 |
+| Ödenen komisyon/spread | 47.31 $ | 806.99 $ |
 
-**Hesap değeri: 4,356.58 $** (başlangıç 5,000 $, -643.42 $ / %-12.87)
-
-Açık pozisyonlar: PAXGUSDT short @ 4090.19 (TP 4077.92 / SL 4098.37)
+**Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
 Son haber analizi (09.11 22:23): Claude puan **-0.10**, güven 0.30 — İran savaşına dair haberler sürüyor ve jeopolitik risk altın için destekleyici, ancak çoğu zaten fiyatlanmış durumda. Fed yetkililerinin (Goolsbee, Russell) enflasyona karşı sabırsızlık ve sıkı tonu, yaklaşan ABD enflasyon verisiyle birlikte altın üzerinde kısa vadede hafif baskı yaratabilir; zayıf dolar ise bunu kısmen dengeliyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 22:29 | PAXGUSDT | short | -55.93 $ | stop |
 | 09.11 17:36 | PAXGUSDT | long | -55.90 $ | stop |
 | 09.11 14:18 | PAXGUSDT | short | -55.93 $ | stop |
 | 09.11 09:20 | PAXGUSDT | long | -55.90 $ | stop |
 | 06.11 18:11 | PAXGUSDT | short | -55.94 $ | stop |
-| 06.11 17:47 | PAXGUSDT | short | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -73,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,837.88 $** (başlangıç 100,000 $, +9837.88 $ / %+9.84)
+**Hesap değeri: 109,805.43 $** (başlangıç 100,000 $, +9805.43 $ / %+9.81)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
@@ -90,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 21:35 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"97805.88","code":40310000,"cost_basis":"112327.09","message":"insufficient buying power"}
 09.11 21:48 N  NEWS (11 new) score -0.20 conf 0.40: Haberlerin çoğu Fed'in sıkı duruşunu destekliyor (Daly ve Natixis ek faiz artırımı bekliyor, Barkin enflasyonu ana risk olarak görüyor), bu da altın için olumsuz. İran'da tam ölçekli savaş riskinin azalması ve doların zayıflaması ise güvenli liman talebini zayıflatırken kısmen altını destekliyor; sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 09.11 21:48 N  GPT  score -0.20 conf 0.43: İran’la yeniden geniş çaplı çatışma olasılığının düşük görülmesi güvenli liman talebini azaltırken, faiz artışı beklentisi ve yükselen tahvil getirileri altın üzerinde baskı kuruyor. Doların zayıflaması ve işgücü piyasasına dair kaygılar bu baskıyı kısmen dengeliyor.
 09.11 21:48 B6  karar turu: Claude «Piyasa geniş tabanlı ve büyüme hisseleri liderliğinde güçlü yükselişte, son saatte yatay-pozitif konsolidasyon sürüyor.» / GPT «Endekslerde son dakikalardaki toparlanma alımları destekliyor; ancak 14:47 itibarıyla normal seansın bitimine 73 dakika kalması ve 1:4 kaldıraç, küçük pozisyon ve kapanış öncesi çıkış disiplini gerektiriyor.»
@@ -105,6 +102,7 @@ Son işlemler:
 09.11 22:23 N  GPT  score +0.25 conf 0.38: İran Devrim Muhafızları’nın füze menzili sınırlarını kaldırdığı açıklaması kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la savaşın sona erdirilmesine yönelik görüşmeler ve Fed’in enflasyon konusundaki temkinli mesajları yönü belirsizleştiriyor; yeni bir enflasyon verisi henüz yok.
 09.11 22:23 B6  karar turu: Claude «Endeksler büyüme ve çip toparlanmasıyla güçlü seyrediyor; NVDA ise şirkete özel skandal baskısıyla ayrışıyor, ancak kapanışa az süre kaldığından hedeflere ulaşma potansiyeli sınırlı.» / GPT «Endeks rallisi son saatte duraklarken şirkete özgü haberler öne çıkıyor; kapanışa 37 dakika kalması ve 4 kat kaldıraç, seans sonrası likidite ve stop gerçekleşme riskini artırıyor.»
 09.11 22:23 B6  ALIŞ TSLA 291 adet ≈ 109,800 $ (1:4) @ 377.32 (TP 382.98, SL 373.55; ikisi de hemfikir, güven 0.50)
+09.11 22:29 B5  CLOSE short stop: -55.93 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -11109,6 +11109,10 @@
    [
     1794252387,
     5000.0
+   ],
+   [
+    1794252567,
+    5000.0
    ]
   ],
   "archive": [
@@ -14183,10 +14187,6 @@
   },
   "equity_curve": [
    [
-    1793665534,
-    4868.5
-   ],
-   [
     1793665712,
     4868.5
    ],
@@ -26180,6 +26180,10 @@
    ],
    [
     1794252387,
+    4868.5
+   ],
+   [
+    1794252567,
     4868.5
    ]
   ],
@@ -28963,7 +28967,6 @@
   ]
  },
  "log": [
-  "08.11 21:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 22:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29262,7 +29265,8 @@
   "09.11 22:23 N  NEWS (12 new) score -0.10 conf 0.30: \u0130ran sava\u015f\u0131na dair haberler s\u00fcr\u00fcyor ve jeopolitik risk alt\u0131n i\u00e7in destekleyici, ancak \u00e7o\u011fu zaten fiyatlanm\u0131\u015f durumda. Fed yetkililerinin (Goolsbee, Russell) enflasyona kar\u015f\u0131 sab\u0131rs\u0131zl\u0131k ve s\u0131k\u0131 tonu, yakla\u015fan ABD enflasyon verisiyle birlikte alt\u0131n \u00fczerinde k\u0131sa vadede hafif bask\u0131 yaratabilir; zay\u0131f dolar ise bunu k\u0131smen dengeliyor.",
   "09.11 22:23 N  GPT  score +0.25 conf 0.38: \u0130ran Devrim Muhaf\u0131zlar\u0131\u2019n\u0131n f\u00fcze menzili s\u0131n\u0131rlar\u0131n\u0131 kald\u0131rd\u0131\u011f\u0131 a\u00e7\u0131klamas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u0130ran\u2019la sava\u015f\u0131n sona erdirilmesine y\u00f6nelik g\u00f6r\u00fc\u015fmeler ve Fed\u2019in enflasyon konusundaki temkinli mesajlar\u0131 y\u00f6n\u00fc belirsizle\u015ftiriyor; yeni bir enflasyon verisi hen\u00fcz yok.",
   "09.11 22:23 B6  karar turu: Claude \u00abEndeksler b\u00fcy\u00fcme ve \u00e7ip toparlanmas\u0131yla g\u00fc\u00e7l\u00fc seyrediyor; NVDA ise \u015firkete \u00f6zel skandal bask\u0131s\u0131yla ayr\u0131\u015f\u0131yor, ancak kapan\u0131\u015fa az s\u00fcre kald\u0131\u011f\u0131ndan hedeflere ula\u015fma potansiyeli s\u0131n\u0131rl\u0131.\u00bb / GPT \u00abEndeks rallisi son saatte duraklarken \u015firkete \u00f6zg\u00fc haberler \u00f6ne \u00e7\u0131k\u0131yor; kapan\u0131\u015fa 37 dakika kalmas\u0131 ve 4 kat kald\u0131ra\u00e7, seans sonras\u0131 likidite ve stop ger\u00e7ekle\u015fme riskini art\u0131r\u0131yor.\u00bb",
-  "09.11 22:23 B6  ALI\u015e TSLA 291 adet \u2248 109,800 $ (1:4) @ 377.32 (TP 382.98, SL 373.55; ikisi de hemfikir, g\u00fcven 0.50)"
+  "09.11 22:23 B6  ALI\u015e TSLA 291 adet \u2248 109,800 $ (1:4) @ 377.32 (TP 382.98, SL 373.55; ikisi de hemfikir, g\u00fcven 0.50)",
+  "09.11 22:29 B5  CLOSE short stop: -55.93 USD"
  ],
  "gold_big": {
   "account": {
@@ -29449,10 +29453,6 @@
   },
   "equity_curve": [
    [
-    1793665534,
-    4963.78
-   ],
-   [
     1793665712,
     4963.78
    ],
@@ -41446,6 +41446,10 @@
    ],
    [
     1794252387,
+    4963.78
+   ],
+   [
+    1794252567,
     4963.78
    ]
   ],
@@ -41561,10 +41565,6 @@
   },
   "equity_curve": [
    [
-    1793665534,
-    4975.18
-   ],
-   [
     1793665712,
     4975.18
    ],
@@ -53558,6 +53558,10 @@
    ],
    [
     1794252387,
+    4975.18
+   ],
+   [
+    1794252567,
     4975.18
    ]
   ],
@@ -53643,10 +53647,6 @@
   },
   "equity_curve": [
    [
-    1793665534,
-    4993.28
-   ],
-   [
     1793665712,
     4993.28
    ],
@@ -65640,6 +65640,10 @@
    ],
    [
     1794252387,
+    4993.28
+   ],
+   [
+    1794252567,
     4993.28
    ]
   ]
@@ -65850,10 +65854,6 @@
   },
   "equity_curve": [
    [
-    1793665534,
-    4969.22
-   ],
-   [
     1793665712,
     4969.22
    ],
@@ -77848,6 +77848,10 @@
    [
     1794252387,
     4969.22
+   ],
+   [
+    1794252567,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -77857,25 +77861,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4376.498589163207,
+   "balance": 4320.571761734891,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "c6153e2c",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.112182855481215,
-     "entry": 4090.1917679999997,
-     "tp": 4077.9211926959997,
-     "sl": 4098.372151535999,
-     "opened_ms": 1794248586096,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.38/0.50",
-     "friction": 11.836
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -79283,21 +79271,38 @@
      "gross": -55.9009,
      "costs": 0.0,
      "pnl": -55.9009
+    },
+    {
+     "id": "c6153e2c",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.112182855481215,
+     "entry": 4090.1917679999997,
+     "tp": 4077.9211926959997,
+     "sl": 4098.372151535999,
+     "opened_ms": 1794248586096,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.38/0.50",
+     "friction": 11.836,
+     "exit": 4099.341825966306,
+     "closed_ms": 1794252540000,
+     "reason": "stop",
+     "gross": -55.9268,
+     "costs": 0.0,
+     "pnl": -55.9268
     }
    ],
    "day": {
     "date": "2026-11-09",
     "trades": 4,
-    "pnl": -167.72999107130872,
+    "pnl": -223.6568184996243,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793665534,
-    4798.9
-   ],
    [
     1793665712,
     4798.9
@@ -91293,6 +91298,10 @@
    [
     1794252387,
     4356.58
+   ],
+   [
+    1794252567,
+    4320.57
    ]
   ],
   "news_calls": {
@@ -91500,7 +91509,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108836.34519500002,
+   "balance": 108836.340195,
    "start": 100000.0,
    "positions": [
     {
@@ -91515,7 +91524,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 351.375
+     "cur": 351.3
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91529,7 +91538,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 677.14
+     "cur": 676.89
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91543,7 +91552,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 752.185
+     "cur": 751.89
     },
     {
      "id": "c153971f-1539-4812-bde5-2f14b59a14cd",
@@ -91557,7 +91566,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 377.4
+     "cur": 377.57
     }
    ],
    "trades": [
@@ -92122,18 +92131,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": -155.95,
+    "pnl": -188.4,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 109837.88
+   "equity": 109805.43
   },
   "equity_curve": [
-   [
-    1793665534,
-    100750.28
-   ],
    [
     1793665712,
     100750.28
@@ -104129,6 +104134,10 @@
    [
     1794252387,
     109837.88
+   ],
+   [
+    1794252567,
+    109805.43
    ]
   ],
   "open": {
@@ -104335,10 +104344,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793665534,
-    5066.43
-   ],
    [
     1793665712,
     5066.43
@@ -116333,6 +116338,10 @@
    ],
    [
     1794252387,
+    4944.42
+   ],
+   [
+    1794252567,
     4944.42
    ]
   ],
