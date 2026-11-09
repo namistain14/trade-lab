@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 17:29 (İstanbul)
+> Son güncelleme: 09.11.2026 17:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %37.9 |
 | Ödenen komisyon/spread | 23.66 $ | 783.33 $ |
 
-**Hesap değeri: 4,426.55 $** (başlangıç 5,000 $, -573.45 $ / %-11.47)
+**Hesap değeri: 4,404.14 $** (başlangıç 5,000 $, -595.86 $ / %-11.92)
 
 Açık pozisyonlar: PAXGUSDT long @ 4116.70 (TP 4129.05 / SL 4108.47)
 
-Son haber analizi (09.11 17:20): Claude puan **-0.10**, güven 0.30 — Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
+Son haber analizi (09.11 17:32): Claude puan **+0.20**, güven 0.30 — Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.32 — Doların gerilemesi ve altındaki mevcut yükseliş kısa vadede hafif destekleyici; ancak sıcak enflasyon ve yükselen tahvil getirileri Fed beklentilerini şahinleştirerek bu desteği sınırlıyor. Haber akışı çelişkili ve yeni bir jeopolitik tırmanış göstermediğinden görünüm temkinli biçimde hafif pozitif.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.42 — Doların geri çekilmesi ve İran’da yakın vadeli anlaşma beklentisinin zayıf olması altını kısa vadede destekleyebilir; Etiyopya-Eritre gerilimi de sınırlı güvenli liman talebi yaratıyor. Ancak sıcak enflasyon, yükselen tahvil getirileri ve Fed’in daha şahin kalma riski bu desteği dengeliyor.
 
 Son işlemler:
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 16:08 N  GPT  score +0.08 conf 0.34: Doların geri çekilmesi altına hafif destek sağlıyor; ancak petrolün düşmesi, hisselerdeki yükseliş ve İran konusunda gerilimin azaldığına dair sinyaller güvenli liman talebini sınırlıyor. CPI öncesi beklentiler ve Fed riskleri yönü belirsizleştiriyor; net etki büyük olasılıkla sınırlı.
-09.11 16:20 N  NEWS (8 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın için ilgisiz (Huang iddiası, Kanada doları, Rosstat verileri, yaptırımlar). Petrol düşüşü ve Trump'ın İran'da temkinli tutumu jeopolitik risk primini hafifletip güvenli liman talebini sınırlıyor; öte yandan doların zayıflaması ve gerilemeyen faizler altına hafif destek veriyor. Çelişkili enflasyon tahminleri (%3,8 ile ~%6) ve süregelen Fed sıkılaştırma riski nedeniyle net yön zayıf, güven düşük.
-09.11 16:20 N  GPT  score +0.15 conf 0.35: Doların gerilemesi ve Ukrayna-Rusya kaynaklı gerilim altına hafif destek veriyor; ancak İran konusunda tansiyonun sınırlanması ve düşen petrol güvenli liman talebini azaltabilir. Yaklaşan ABD enflasyon verisi ile Fed sıkılaşması riski yönü belirsizleştiriyor.
-09.11 16:32 N  NEWS (14 new) score +0.15 conf 0.35: Haberler karışık: ABD doları zayıflaması, Nvidia kaynaklı teknoloji satışında güvenli liman talebi ve fiyat hareketindeki %1,65'lik yükseliş altına destek veriyor; ancak iş verisi sonrası tahvil faizlerinin yükselmesi, Trump'ın İran'da kısıtlama sinyali (jeopolitik primi azaltıyor) ve beklenen yüksek enflasyon verisi (CPI %3,8) sıkılaşma riskini artırarak sınırlı bir düşüş baskısı yaratıyor. Net etki hafif pozitif, düşük güvenilirlik.
 09.11 16:32 N  GPT  score +0.15 conf 0.34: Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
 09.11 16:32 B6  seans öncesi görüş: Vadeli işlemler Hürmüz umutları ve çip toparlanmasıyla güçlü seyrediyor; ancak duyarlılık hâlâ aşırı korku bölgesinde olduğundan seçici hareket etmek gerekiyor.
 09.11 16:44 N  NEWS (12 new) score +0.10 conf 0.35: Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 17:08 N  GPT  score +0.20 conf 0.36: Doların gerilemesi ve Ukrayna/Orta Doğu kaynaklı jeopolitik riskler altını kısa vadede hafif destekleyebilir. Ancak Orta Doğu diplomasisi gerilimi azaltabilir ve yaklaşan ABD enflasyon verisi öncesi yön belirsiz; yeni başlıkların çoğu fiyatı doğrudan etkilemiyor.
 09.11 17:20 N  NEWS (16 new) score -0.10 conf 0.30: 
 09.11 17:20 N  GPT  score +0.15 conf 0.32: Doların gerilemesi ve altındaki mevcut yükseliş kısa vadede hafif destekleyici; ancak sıcak enflasyon ve yükselen tahvil getirileri Fed beklentilerini şahinleştirerek bu desteği sınırlıyor. Haber akışı çelişkili ve yeni bir jeopolitik tırmanış göstermediğinden görünüm temkinli biçimde hafif pozitif.
+09.11 17:33 N  NEWS (10 new) score +0.20 conf 0.30: 
+09.11 17:33 N  GPT  score +0.25 conf 0.42: Doların geri çekilmesi ve İran’da yakın vadeli anlaşma beklentisinin zayıf olması altını kısa vadede destekleyebilir; Etiyopya-Eritre gerilimi de sınırlı güvenli liman talebi yaratıyor. Ancak sıcak enflasyon, yükselen tahvil getirileri ve Fed’in daha şahin kalma riski bu desteği dengeliyor.
+09.11 17:33 B6  karar turu: Claude «Piyasa, ABD-Çin ticaret gerginliğinin azalmasıyla pozitif seyrediyor; NVDA ise şirkete özel skandalla ayrışarak zayıf kalıyor.» / GPT «Verilen akış teknoloji hisselerinde seçici alımı destekliyor; dört kat kaldıraçta ilişkili QQQ ve AAPL pozisyonlarının toplam riski sınırlı tutulmalı.»
+09.11 17:33 B6  ALIŞ QQQ 165 adet ≈ 109,497 $ (1:4) @ 663.62 (TP 673.57, SL 656.98; ikisi de hemfikir, güven 0.50)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
