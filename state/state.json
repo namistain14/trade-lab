@@ -11221,6 +11221,10 @@
    [
     1794257126,
     5000.0
+   ],
+   [
+    1794257318,
+    5000.0
    ]
   ],
   "archive": [
@@ -14295,10 +14299,6 @@
   },
   "equity_curve": [
    [
-    1793672052,
-    4868.5
-   ],
-   [
     1793672243,
     4868.5
    ],
@@ -26293,14 +26293,18 @@
    [
     1794257126,
     4868.5
+   ],
+   [
+    1794257318,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.15,
-   "confidence": 0.4,
-   "reason": "Alt\u0131n, petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn dolarda zay\u0131flama yaratmas\u0131yla 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131 ve Fed faiz art\u0131r\u0131m\u0131 beklentilerine ra\u011fmen y\u00fckseldi; bu, k\u0131sa vadede bo\u011fa y\u00f6nl\u00fc bir tepki. Buna kar\u015f\u0131n Fed yetkilisi Daly'nin daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve enflasyonun inat\u00e7\u0131 kalaca\u011f\u0131 beklentisi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; Hegseth'in g\u00f6revden al\u0131nma giri\u015fimi gibi haberlerin piyasa etkisi s\u0131n\u0131rl\u0131.",
+   "score": 0.05,
+   "confidence": 0.35,
+   "reason": "Haberler kar\u0131\u015f\u0131k: Petrol sat\u0131\u015f\u0131n\u0131n dolar\u00fd zay\u00fdflatmas\u00fd ve alt\u00fdn fiyat\u00fdn\u00fdn 4.100 dolar\u0131n \u00fczerine \u00e7\u00fdkmas\u00fd alt\u00fdn\u00fd destekliyor, ancak Fed yetkililerinin (Daly, Barkin) faiz art\u00fdr\u00fdm\u00fd sinyalleri ve enflasyon endi\u00feeleri bask\u00fd yarat\u00fdyor. \u0130ran'la m\u00fczakere haberleri risk i\u00fetah\u00fdn\u00fd art\u00fdrarak g\u00fcvenli liman talebini s\u00fdn\u00fdrl\u00fdyor; Hegseth/\u0130ran sava\u00fe\u00fd ve T\u00fcrkiye'deki fabrika patlamas\u00fd gibi jeopolitik haberler ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u00fd\u00fe durumda. Net etki hafif pozitif ama belirsiz.",
    "n": 45,
-   "ts": 1794256596991,
+   "ts": 1794257316239,
    "new_headlines": 7,
    "key_events": [
     "ABD T\u00dcFE verisi \u00f6ncesi dolar zay\u0131flamas\u0131, alt\u0131n 4.100 dolara yakla\u015f\u0131yor",
@@ -26308,28 +26312,19 @@
     "Trump \u0130ran sava\u015f\u0131n\u0131 'kazand\u0131k' dedi; Rubio m\u00fczakerelerde ilerleme yok"
    ],
    "gpt": {
-    "score": 0.25,
-    "confidence": 0.45,
-    "reason": "Dolar\u0131n \u0130ran g\u00f6r\u00fc\u015fmeleriyle zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor. Ancak Fed\u2019in daha fazla faiz art\u0131rabilece\u011fi beklentisi ve y\u00fckselen tahvil getirileri ters y\u00f6nde; haber ak\u0131\u015f\u0131 bu nedenle \u00e7eli\u015fkili.",
+    "score": 0.18,
+    "confidence": 0.34,
+    "reason": "\u0130ran parlamento ba\u015fkan\u0131n\u0131n \u0130srail\u2019in ABD\u2019yi sava\u015fa \u00e7ekmeye \u00e7al\u0131\u015ft\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebini destekleyebilir. Barkin\u2019in temkinli politika vurgusu belirgin bir \u015fahin sinyal de\u011fil; ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve etkisi belirsiz.",
     "key_events": [
-     "Alt\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131",
-     "\u0130ran g\u00f6r\u00fc\u015fmeleriyle dolar geriledi",
-     "Fed faiz art\u0131\u015f\u0131 beklentileri alt\u0131n i\u00e7in bask\u0131 unsuru"
+     "\u0130ran\u2019dan sava\u015f\u0131n geni\u015flemesi uyar\u0131s\u0131",
+     "Barkin: enflasyona kar\u015f\u0131 temkinli hareket edilmeli",
+     "T\u00fcrkiye\u2019de \u00e7elik fabrikas\u0131 patlamas\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793806001345,
-    "score": 0.4,
-    "confidence": 0.5,
-    "reason": "",
-    "new": 22,
-    "gpt_score": 0.68,
-    "gpt_confidence": 0.63
-   },
    {
     "ts": 1793806719043,
     "score": 0.4,
@@ -29020,13 +29015,27 @@
     "new": 7,
     "gpt_score": 0.25,
     "gpt_confidence": 0.45
+   },
+   {
+    "ts": 1794257316239,
+    "score": 0.05,
+    "confidence": 0.35,
+    "reason": "Haberler kar\u0131\u015f\u0131k: Petrol sat\u0131\u015f\u0131n\u0131n dolar\u00fd zay\u00fdflatmas\u00fd ve alt\u00fdn fiyat\u00fdn\u00fdn 4.100 dolar\u0131n \u00fczerine \u00e7\u00fdkmas\u00fd alt\u00fdn\u00fd destekliyor, ancak Fed yetkililerinin (Daly, Barkin) faiz art\u00fdr\u00fdm\u00fd sinyalleri ve enflasyon endi\u00feeleri bask\u00fd yarat\u00fdyor. \u0130ran'la m\u00fczakere haberleri risk i\u00fetah\u00fdn\u00fd art\u00fdrarak g\u00fcvenli liman talebini s\u00fdn\u00fdrl\u00fdyor; Hegseth/\u0130ran sava\u00fe\u00fd ve T\u00fcrkiye'deki fabrika patlamas\u00fd gibi jeopolitik haberler ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u00fd\u00fe durumda. Net etki hafif pozitif ama belirsiz.",
+    "new": 7,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.34
    }
   ],
   "news_calls": {
    "date": "2026-11-09",
-   "n": 83
+   "n": 84
   },
   "news_seen": [
+   "Iran\u2019s parliament speaker accuses Israel of trying to draw US into \u2018endless war\u2019 - Anadolu Ajans\u0131",
+   "Turkey steel factory blast kills at least 17 people",
+   "Fed should move policy \u2018with care\u2019 as it responds to inflation, Barkin says - SRN News",
+   "US CPI Forecast November 10 2026: Will Inflation Cool or Surprise Markets? - Cryptonews.net",
+   "Barrick Gold earnings analysis: questions answered and next catalysts - Yahoo Finance Singapore",
    "Pete Hegseth Lashes Out - The Atlantic",
    "Gold defies Fed hike bets, tops $4,100 as Oil rout hits the USD | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Gold defies Fed hike bets, tops $4,100 as Oil rout hits the USD - FXStreet",
@@ -29035,8 +29044,9 @@
    "To end 'whack-a-mole' war on AI deepfakes, address the 'ecosystem,' researchers urge - Tech Xplore",
    "France accuses Iran of supermarket fridge hacking",
    "How AI and inflation are fueling fears of Fed hikes ahead - Mortgage Professional America",
-   "Dollar slips against major currencies as Iran talks lift risk appetite - Central Oregon Daily",
    "Hegseth faces impeachment resolution from a GOP member with little to lose - Axios",
+   "Dollar slips against major currencies as Iran talks lift risk appetite - Central Oregon Daily",
+   "Prescription for productivity: Healthy kids - Federal Reserve Bank of Minneapolis",
    "Pete Hegseth faces House impeachment vote amid controversy over Iran War - The Hill",
    "Holiday show at Partridge Creek Mall to honor Macomb County war veterans - Macomb Daily",
    "Fed\u2019s Daly signals more rate hikes - Mortgage Professional America",
@@ -29051,14 +29061,13 @@
    "Ukraine Tells UN Komyshuvakha, Mariupol Theater Strikes Will Serve as War Crimes Evidence - Kyiv Post",
    "US consumer inflation expectations unchanged in October - Anadolu Ajans\u0131",
    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+   "France says Iran\u2019s Guards behind cyberattacks on fridges, vows sanctions - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "Going to school in war: How Ukraine\u2019s children are still trying to learn - NewsNation",
    "Athena Cinema to screen Vietnam War docs on Veterans Day - Athens County Independent",
    "Cyber-attack on French supermarket freezers has geopolitical context - The Guardian",
    "Hegseth Mandates Military Education Reform - U.S. Department of War (.gov)",
    "Rep. Thomas Massie reintroduces impeachment articles against Pete Hegseth over Iran war: \u2018Threat to the Constitution\u2019 - New York Post",
    "Hegseth calls Iran war necessary, waves off \u2018noise\u2019 of expected impeachment push - South China Morning Post",
-   "NVIDIA, AMD, Intel: Inside the Chips Powering Russia\u2019s War - Kyiv Post",
-   "U.S., Eurozone Bond Yields Rise Ahead of Inflation, Rates Outlook - WSJ",
    "Remains of World War II veteran identified, returned home after 82 years - 14 News",
    "Pete Hegseth decried \u2018destructive ideologies\u2019 in R.I. Monday. Back in Washington, some are preparing to impeach him. - The Boston Globe",
    "Opinion | The U.K. Aims Sanctions at Israel, Hits the Cayman Islands - WSJ",
@@ -29066,21 +29075,10 @@
    "Fed officials on watch for overheating demand as they weigh interest rate path - AOL.com",
    "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine - AP News",
    "Massie introduces impeachment articles against Hegseth over Iran war - Al-Monitor",
-   "AI Data Center Building Spree Looks Like 'Old-Fashioned Overheating,' Chicago Fed President Says, With Inflation the Biggest Problem - BigGo Finance",
-   "Envoy Jared Kushner says Trump 'determined' to end Ukraine war, as prez tells '60 Minutes' country will be 'different shape' - New York Post",
-   "Bennet urges US Senate to reject more funding for Iran war - Colorado Politics",
-   "Rep. Thomas Massie of Kentucky files resolution to impeach Defense Secretary Pete Hegseth - WSPA 7News",
-   "October CPI Forecast: Inflation Expected to Ease From September's Elevated Pace - News and Statistics - IndexBox",
-   "Paraguay\u2019s Ueno Bank Crisis: Digital Banking, Financial Turmoil and Geopolitical Fallout - Modern Diplomacy"
+   "AI Data Center Building Spree Looks Like 'Old-Fashioned Overheating,' Chicago Fed President Says, With Inflation the Biggest Problem - BigGo Finance"
   ]
  },
  "log": [
-  "08.11 22:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 23:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 23:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29374,7 +29372,13 @@
   "09.11 23:24 N  GPT  score -0.38 conf 0.68: Fed\u2019den daha fazla faiz art\u0131\u015f\u0131 sinyali ve y\u00fckselen tahvil getirileri, k\u0131sa vadede alt\u0131n\u0131n f\u0131rsat maliyetini art\u0131r\u0131p fiyat\u0131 bask\u0131layabilir. \u0130ran\u2019la ilgili siber sald\u0131r\u0131 haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flayabilir; ancak etkisi faiz g\u00f6r\u00fcn\u00fcm\u00fcnden zay\u0131f g\u00f6r\u00fcn\u00fcyor.",
   "09.11 23:36 N  NEWS (7 new) score +0.15 conf 0.40: Alt\u0131n, petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn dolarda zay\u0131flama yaratmas\u0131yla 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131 ve Fed faiz art\u0131r\u0131m\u0131 beklentilerine ra\u011fmen y\u00fckseldi; bu, k\u0131sa vadede bo\u011fa y\u00f6nl\u00fc bir tepki. Buna kar\u015f\u0131n Fed yetkilisi Daly'nin daha fazla faiz art\u0131r\u0131m\u0131na i\u015faret etmesi ve enflasyonun inat\u00e7\u0131 kalaca\u011f\u0131 beklentisi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; Hegseth'in g\u00f6revden al\u0131nma giri\u015fimi gibi haberlerin piyasa etkisi s\u0131n\u0131rl\u0131.",
   "09.11 23:36 N  GPT  score +0.25 conf 0.45: Dolar\u0131n \u0130ran g\u00f6r\u00fc\u015fmeleriyle zay\u0131flamas\u0131 ve alt\u0131n\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 k\u0131sa vadede y\u00fckseli\u015fi destekliyor. Ancak Fed\u2019in daha fazla faiz art\u0131rabilece\u011fi beklentisi ve y\u00fckselen tahvil getirileri ters y\u00f6nde; haber ak\u0131\u015f\u0131 bu nedenle \u00e7eli\u015fkili.",
-  "09.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/AAPL: 403 {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"318\",\"held_for_orders\":\"318\",\"message\":\"insufficient qty available for order (requested: 318, available: 0)\",\"symbol\":\"AAPL\"}"
+  "09.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/AAPL: 403 {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"318\",\"held_for_orders\":\"318\",\"message\":\"insufficient qty available for order (requested: 318, available: 0)\",\"symbol\":\"AAPL\"}",
+  "09.11 23:48 N  NEWS (7 new) score +0.05 conf 0.35: Haberler kar\u0131\u015f\u0131k: Petrol sat\u0131\u015f\u0131n\u0131n dolar\u00fd zay\u00fdflatmas\u00fd ve alt\u00fdn fiyat\u00fdn\u00fdn 4.100 dolar\u0131n \u00fczerine \u00e7\u00fdkmas\u00fd alt\u00fdn\u00fd destekliyor, ancak Fed yetkililerinin (Daly, Barkin) faiz art\u00fdr\u00fdm\u00fd sinyalleri ve enflasyon endi\u00feeleri bask\u00fd yarat\u00fdyor. \u0130ran'la m\u00fczakere haberleri risk i\u00fetah\u00fdn\u00fd art\u00fdrarak g\u00fcvenli liman talebini s\u00fdn\u00fdrl\u00fdyor; Hegseth/\u0130ran sava\u00fe\u00fd ve T\u00fcrkiye'deki fabrika patlamas\u00fd gibi jeopolitik haberler ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u00fd\u00fe durumda. Net etki hafif pozitif ama belirsiz.",
+  "09.11 23:48 N  GPT  score +0.18 conf 0.34: \u0130ran parlamento ba\u015fkan\u0131n\u0131n \u0130srail\u2019in ABD\u2019yi sava\u015fa \u00e7ekmeye \u00e7al\u0131\u015ft\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebini destekleyebilir. Barkin\u2019in temkinli politika vurgusu belirgin bir \u015fahin sinyal de\u011fil; ancak haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k ve etkisi belirsiz.",
+  "09.11 23:48 B6  CLOSE long QQQ seans sonu: +996.60 USD",
+  "09.11 23:48 B6  CLOSE long SPY seans sonu: +281.01 USD",
+  "09.11 23:48 B6  CLOSE long TSLA seans sonu: +1105.07 USD",
+  "09.11 23:48 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131"
  ],
  "gold_big": {
   "account": {
@@ -29561,10 +29565,6 @@
   },
   "equity_curve": [
    [
-    1793672052,
-    4963.78
-   ],
-   [
     1793672243,
     4963.78
    ],
@@ -41558,6 +41558,10 @@
    ],
    [
     1794257126,
+    4963.78
+   ],
+   [
+    1794257318,
     4963.78
    ]
   ],
@@ -41673,10 +41677,6 @@
   },
   "equity_curve": [
    [
-    1793672052,
-    4975.18
-   ],
-   [
     1793672243,
     4975.18
    ],
@@ -53670,6 +53670,10 @@
    ],
    [
     1794257126,
+    4975.18
+   ],
+   [
+    1794257318,
     4975.18
    ]
   ],
@@ -53755,10 +53759,6 @@
   },
   "equity_curve": [
    [
-    1793672052,
-    4993.28
-   ],
-   [
     1793672243,
     4993.28
    ],
@@ -65752,6 +65752,10 @@
    ],
    [
     1794257126,
+    4993.28
+   ],
+   [
+    1794257318,
     4993.28
    ]
   ]
@@ -65962,10 +65966,6 @@
   },
   "equity_curve": [
    [
-    1793672052,
-    4969.22
-   ],
-   [
     1793672243,
     4969.22
    ],
@@ -77959,6 +77959,10 @@
    ],
    [
     1794257126,
+    4969.22
+   ],
+   [
+    1794257318,
     4969.22
    ]
   ],
@@ -79411,10 +79415,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793672052,
-    4687.03
-   ],
    [
     1793672243,
     4687.03
@@ -91410,6 +91410,10 @@
    [
     1794257126,
     4320.57
+   ],
+   [
+    1794257318,
+    4320.57
    ]
   ],
   "news_calls": {
@@ -91617,22 +91621,22 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108819.193195,
+   "balance": 108840.71769500001,
    "start": 100000.0,
    "positions": [
     {
-     "id": "250aed91-0249-4216-9c9b-add0d20a95e1",
+     "id": "AAPL",
      "symbol": "AAPL",
      "side": "long",
      "qty": 318.0,
      "entry": 349.67,
-     "tp": 354.75,
-     "sl": 346.01,
-     "opened_ms": 1794237673602,
+     "tp": 349.67,
+     "sl": 349.67,
+     "opened_ms": 1794257316827,
      "entry_cost": 0.0,
      "friction": 0.0,
-     "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 350.82
+     "note": "",
+     "cur": 351.4
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91646,7 +91650,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 680.5538
+     "cur": 681.05
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91660,7 +91664,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 754.23
+     "cur": 754.56
     },
     {
      "id": "c153971f-1539-4812-bde5-2f14b59a14cd",
@@ -91674,7 +91678,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 381.34
+     "cur": 381.1175
     }
    ],
    "trades": [
@@ -92235,22 +92239,72 @@
      "costs": 0.0,
      "pnl": -1113.38,
      "entry_cost": 0.0
+    },
+    {
+     "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
+     "symbol": "QQQ",
+     "side": "long",
+     "qty": 165,
+     "entry": 675.01,
+     "tp": 685.14,
+     "sl": 668.26,
+     "opened_ms": 1794238418015,
+     "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
+     "exit": 681.05,
+     "closed_ms": 1794257317724,
+     "reason": "seans sonu",
+     "gross": 996.6,
+     "costs": 0.0,
+     "pnl": 996.6,
+     "entry_cost": 0.0
+    },
+    {
+     "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
+     "symbol": "SPY",
+     "side": "long",
+     "qty": 57,
+     "entry": 749.63,
+     "tp": 760.87,
+     "sl": 742.13,
+     "opened_ms": 1794239139765,
+     "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
+     "exit": 754.56,
+     "closed_ms": 1794257317954,
+     "reason": "seans sonu",
+     "gross": 281.01,
+     "costs": 0.0,
+     "pnl": 281.01,
+     "entry_cost": 0.0
+    },
+    {
+     "id": "c153971f-1539-4812-bde5-2f14b59a14cd",
+     "symbol": "TSLA",
+     "side": "long",
+     "qty": 291,
+     "entry": 377.32,
+     "tp": 382.98,
+     "sl": 373.55,
+     "opened_ms": 1794252219000,
+     "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
+     "exit": 381.1175,
+     "closed_ms": 1794257318173,
+     "reason": "seans sonu",
+     "gross": 1105.07,
+     "costs": 0.0,
+     "pnl": 1105.07,
+     "entry_cost": 0.0
     }
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 1476.79,
+    "pnl": 1718.69,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 111470.62
+   "equity": 111712.52
   },
   "equity_curve": [
-   [
-    1793672052,
-    100750.28
-   ],
    [
     1793672243,
     100750.28
@@ -104246,43 +104300,13 @@
    [
     1794257126,
     108819.19
+   ],
+   [
+    1794257318,
+    111712.52
    ]
   ],
-  "open": {
-   "QQQ": {
-    "order_id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
-    "symbol": "QQQ",
-    "side": "long",
-    "qty": 165,
-    "entry": 675.01,
-    "tp": 685.14,
-    "sl": 668.26,
-    "opened_ms": 1794238418015,
-    "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor."
-   },
-   "SPY": {
-    "order_id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
-    "symbol": "SPY",
-    "side": "long",
-    "qty": 57,
-    "entry": 749.63,
-    "tp": 760.87,
-    "sl": 742.13,
-    "opened_ms": 1794239139765,
-    "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor."
-   },
-   "TSLA": {
-    "order_id": "c153971f-1539-4812-bde5-2f14b59a14cd",
-    "symbol": "TSLA",
-    "side": "long",
-    "qty": 291,
-    "entry": 377.32,
-    "tp": 382.98,
-    "sl": 373.55,
-    "opened_ms": 1794252219000,
-    "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor."
-   }
-  },
+  "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
   "last_decision_ms": 1794255127020,
@@ -104441,10 +104465,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793672052,
-    5066.43
-   ],
    [
     1793672243,
     5066.43
@@ -116439,6 +116459,10 @@
    ],
    [
     1794257126,
+    4944.42
+   ],
+   [
+    1794257318,
     4944.42
    ]
   ],

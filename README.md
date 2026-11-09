@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 23:45 (İstanbul)
+> Son güncelleme: 09.11.2026 23:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
-Son haber analizi (09.11 23:36): Claude puan **+0.15**, güven 0.40 — Altın, petrol düşüşünün dolarda zayıflama yaratmasıyla 4.100 doların üzerine çıktı ve Fed faiz artırımı beklentilerine rağmen yükseldi; bu, kısa vadede boğa yönlü bir tepki. Buna karşın Fed yetkilisi Daly'nin daha fazla faiz artırımına işaret etmesi ve enflasyonun inatçı kalacağı beklentisi altın için baskı oluşturuyor; Hegseth'in görevden alınma girişimi gibi haberlerin piyasa etkisi sınırlı.
+Son haber analizi (09.11 23:48): Claude puan **+0.05**, güven 0.35 — Haberler karışık: Petrol satışının dolarý zayýflatmasý ve altýn fiyatýnýn 4.100 doların üzerine çýkmasý altýný destekliyor, ancak Fed yetkililerinin (Daly, Barkin) faiz artýrýmý sinyalleri ve enflasyon endiþeleri baský yaratýyor. İran'la müzakere haberleri risk iþtahýný artýrarak güvenli liman talebini sýnýrlýyor; Hegseth/İran savaþý ve Türkiye'deki fabrika patlamasý gibi jeopolitik haberler ise büyük ölçüde fiyatlanmýþ durumda. Net etki hafif pozitif ama belirsiz.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.45 — Doların İran görüşmeleriyle zayıflaması ve altının 4.100 doların üzerine çıkması kısa vadede yükselişi destekliyor. Ancak Fed’in daha fazla faiz artırabileceği beklentisi ve yükselen tahvil getirileri ters yönde; haber akışı bu nedenle çelişkili.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — İran parlamento başkanının İsrail’in ABD’yi savaşa çekmeye çalıştığı yönündeki açıklaması sınırlı güvenli liman talebini destekleyebilir. Barkin’in temkinli politika vurgusu belirgin bir şahin sinyal değil; ancak haber akışı karışık ve etkisi belirsiz.
 
 Son işlemler:
 
@@ -66,34 +66,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -579.56 $ | +7054.39 $ |
-| İşlem sayısı | 3 | 31 |
-| Kazanma oranı | %33.3 | %45.2 |
+| Net kâr/zarar | +1803.12 $ | +9437.07 $ |
+| İşlem sayısı | 6 | 34 |
+| Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 108,819.19 $** (başlangıç 100,000 $, +8819.19 $ / %+8.82)
+**Hesap değeri: 111,712.52 $** (başlangıç 100,000 $, +11712.52 $ / %+11.71)
 
-Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
+Açık pozisyonlar: AAPL long @ 349.67 (TP 349.67 / SL 349.67); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 23:48 | TSLA | long | +1105.07 $ | seans sonu |
+| 09.11 23:48 | SPY | long | +281.01 $ | seans sonu |
+| 09.11 23:48 | QQQ | long | +996.60 $ | seans sonu |
 | 09.11 21:28 | NVDA | long | -1113.38 $ | stop |
 | 09.11 19:06 | NVDA | long | -1115.17 $ | stop |
-| 09.11 18:12 | QQQ | long | +1648.99 $ | take profit |
-| 06.11 23:47 | SPY | long | -268.92 $ | seans sonu |
-| 06.11 23:47 | QQQ | long | -39.36 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-09.11 22:48 N  GPT  score -0.15 conf 0.38: ABD istihdam verisinin Aralık faiz artırımı beklentilerini güçlendirmesi ve tahvil getirilerindeki yükseliş kısa vadede altın üzerinde baskı oluşturuyor. İran’ın füze menzili sınırlarını kaldırması güvenli liman talebini destekleyebilir; ancak İran görüşmelerinin risk iştahını artırdığı haberleri bu
-09.11 22:48 B6  karar turu: Claude «Endeksler çiplerin toparlanmasıyla güçlü kapanışa giderken NVDA şirkete özgü skandal baskısıyla ayrışıyor; kapanış öncesi yeni pozisyon için risk/getiri zayıf.» / GPT «Endeksler güçlü ancak ivme sınırlı; kapanışa 12 dakika kala 1–3 saatlik işlem seans dışına taşacağından bracket emirlerinin geçerliliği ve likidite riski kritik.»
-09.11 23:00 N  NEWS (10 new) score -0.30 conf 0.50: Haberlerin ağırlığı Fed'in sıkı duruşuna ve yükselen tahvil getirilerine işaret ediyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" başlığı ve Chicago Fed'in aşırı ısınma uyarısı altın için baskı yaratıyor. Buna karşılık İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk dengesini kısmen destekliyor, ancak İran müzakere haberleri risk iştahını artırıp bu güvenli liman etkisini zayıflatıyor; bu çelişkiler güveni sınırlıyor.
-09.11 23:00 N  GPT  score -0.25 conf 0.38: Talep ve enflasyon risklerine dair Fed uyarıları ile yükselen tahvil getirileri, kısa vadede altına baskı yapıyor. Doların zayıflaması ve İran kaynaklı gerilim haberleri bu baskıyı kısmen dengeliyor; haber akışı karışık ve bazı başlıkların piyasa etkisi belirsiz.
-09.11 23:00 B6  karar turu: Claude «Teknoloji ve geniş piyasa güçlü bir ralliyle günü kapattı, ancak NVDA şirkete özgü skandal haberiyle ayrıştı ve seans sonrası yeni pozisyon için net bir avantaj yok.» / GPT «Endekslerde güçlü günlük yükseliş son saatte yataylaşırken, 16:00 sonrası 4 kat kaldıraçla işlem için sunulan veriler yeterli yön avantajı göstermiyor.»
-09.11 23:06 B5P  NEWS (45 new) score -0.10 conf 0.40: Brent yaklaşık %5 düşüşle 93,5 dolara geriledi; ABD-İran anlaşması umutları ana itici güç ve bu bearish etki kısmen fiyatlandı. Buna karşın Suudi Arabistan'ın Doğu-Batı boru hattına yönelik saldırısı ve Hürmüz Boğazı'ndaki patlama haberleri arz riskini canlı tutuyor, bu nedenle etki çelişkili ve sınırlı.
 09.11 23:06 B5P  GPT  score -0.18 conf 0.42: ABD-İran anlaşması umutlarıyla Brent’in yaklaşık %5 gerilemesi kısa vadede aşağı yönlü momentumu destekliyor. Ancak Hürmüz’de patlama haberleri ve Suudi Arabistan’ın Doğu-Batı petrol hattına yönelik sınırlı saldırı bu düşüşü sınırlayabilecek arz riskleri yaratıyor; haberler çelişkili ve bir kısmı fi
 09.11 23:12 N  NEWS (12 new) score -0.35 conf 0.50: Haberlerin çoğu faiz artırımı beklentilerini ve yükselen tahvil getirilerini öne çıkarıyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" ve Fed yetkililerinin aşırı ısınma konusundaki uyarıları altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk primi sağlasa da bu etki sınırlı ve belirsiz kalıyor; CPI beklentisinin "durgun" olması da net bir yön vermiyor.
 09.11 23:12 N  GPT  score -0.35 conf 0.56: Yükselen tahvil getirileri, Aralık faiz artırımı beklentileri ve inatçı enflasyon endişeleri kısa vadede altını baskılıyor. İran kaynaklı jeopolitik risk güvenli liman talebini destekleyebilir; ancak haber akışı çelişkili ve bu etki faiz baskısını kısmen dengeliyor.
@@ -103,6 +97,12 @@ Son işlemler:
 09.11 23:36 N  NEWS (7 new) score +0.15 conf 0.40: Altın, petrol düşüşünün dolarda zayıflama yaratmasıyla 4.100 doların üzerine çıktı ve Fed faiz artırımı beklentilerine rağmen yükseldi; bu, kısa vadede boğa yönlü bir tepki. Buna karşın Fed yetkilisi Daly'nin daha fazla faiz artırımına işaret etmesi ve enflasyonun inatçı kalacağı beklentisi altın için baskı oluşturuyor; Hegseth'in görevden alınma girişimi gibi haberlerin piyasa etkisi sınırlı.
 09.11 23:36 N  GPT  score +0.25 conf 0.45: Doların İran görüşmeleriyle zayıflaması ve altının 4.100 doların üzerine çıkması kısa vadede yükselişi destekliyor. Ancak Fed’in daha fazla faiz artırabileceği beklentisi ve yükselen tahvil getirileri ters yönde; haber akışı bu nedenle çelişkili.
 09.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/AAPL: 403 {"available":"0","code":40310000,"existing_qty":"318","held_for_orders":"318","message":"insufficient qty available for order (requested: 318, available: 0)","symbol":"AAPL"}
+09.11 23:48 N  NEWS (7 new) score +0.05 conf 0.35: Haberler karışık: Petrol satışının dolarý zayýflatmasý ve altýn fiyatýnýn 4.100 doların üzerine çýkmasý altýný destekliyor, ancak Fed yetkililerinin (Daly, Barkin) faiz artýrýmý sinyalleri ve enflasyon endiþeleri baský yaratýyor. İran'la müzakere haberleri risk iþtahýný artýrarak güvenli liman talebini sýnýrlýyor; Hegseth/İran savaþý ve Türkiye'deki fabrika patlamasý gibi jeopolitik haberler ise büyük ölçüde fiyatlanmýþ durumda. Net etki hafif pozitif ama belirsiz.
+09.11 23:48 N  GPT  score +0.18 conf 0.34: İran parlamento başkanının İsrail’in ABD’yi savaşa çekmeye çalıştığı yönündeki açıklaması sınırlı güvenli liman talebini destekleyebilir. Barkin’in temkinli politika vurgusu belirgin bir şahin sinyal değil; ancak haber akışı karışık ve etkisi belirsiz.
+09.11 23:48 B6  CLOSE long QQQ seans sonu: +996.60 USD
+09.11 23:48 B6  CLOSE long SPY seans sonu: +281.01 USD
+09.11 23:48 B6  CLOSE long TSLA seans sonu: +1105.07 USD
+09.11 23:48 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
