@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 01:10 (İstanbul)
+> Son güncelleme: 10.11.2026 01:13 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %36.8 |
 | Ödenen komisyon/spread | 0.00 $ | 806.99 $ |
 
-**Hesap değeri: 4,323.94 $** (başlangıç 5,000 $, -676.06 $ / %-13.52)
+**Hesap değeri: 4,320.00 $** (başlangıç 5,000 $, -680.00 $ / %-13.60)
 
 Açık pozisyonlar: PAXGUSDT long @ 4124.44 (TP 4136.82 / SL 4116.20)
 
-Son haber analizi (10.11 01:01): Claude puan **+0.10**, güven 0.35 — Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
+Son haber analizi (10.11 01:13): Claude puan **-0.10**, güven 0.35 — Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.35 — Fed Yönetim Kurulu üyesi Lisa Cook’un görevden alınmasına yönelik olası girişim, Fed’in bağımsızlığına dair kaygıları ve altına talebi artırabilir. Ancak İran savaşının sona ermesine yönelik diplomatik temaslar güvenli liman talebini sınırlıyor; haber akışı çelişkili ve kısa vadeli fiyat etkisi beli
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Trump’ın İran savaşının fiilen sona erdiği ve bitiş yönünde ivme bulunduğu açıklamaları güvenli liman talebini azaltabilir; petrol düşüşü ve buna bağlı enflasyon kaygılarının hafiflemesi de altın için kısa vadede olumsuz. Ancak açıklamalar henüz doğrulanmış bir ateşkese işaret etmiyor ve Fed/faiz be
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 23:48 B6  CLOSE long TSLA seans sonu: +1105.07 USD
-09.11 23:48 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 10.11 00:00 N  NEWS (9 new) score +0.10 conf 0.35: Altın, petrol ve doların gerilemesiyle toparlandı, bu kısa vadede destekleyici. Ancak Fed'in faiz artırımı beklentileri (Daly, Barkin) ve İran'la müzakere haberlerinin risk iştahını artırması altını sınırlıyor; Hegseth'e yönelik görevden alma girişimi ise jeopolitik açıdan büyük yeni bir şok değil.
 10.11 00:00 N  GPT  score +0.25 conf 0.40: Petrol ve doların gerilemesi altına kısa vadeli destek sağlıyor; İran savaşıyla ilgili söylemler de sınırlı güvenli liman talebi yaratabilir. Ancak manşetlerin bir kısmı mevcut fiyat hareketini zaten yansıtıyor ve CPI verisine ilişkin belirsizlik yönü netleştirmiyor.
 10.11 00:13 N  NEWS (15 new) score +0.10 conf 0.35: 
@@ -103,6 +101,8 @@ Son işlemler:
 10.11 00:49 B5  LONG gold 25000 USD x10 @ 4124.44 (TP 4136.82, SL 4116.20; news +0.25)
 10.11 01:01 N  NEWS (8 new) score +0.10 conf 0.35: Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
 10.11 01:01 N  GPT  score +0.15 conf 0.35: Fed Yönetim Kurulu üyesi Lisa Cook’un görevden alınmasına yönelik olası girişim, Fed’in bağımsızlığına dair kaygıları ve altına talebi artırabilir. Ancak İran savaşının sona ermesine yönelik diplomatik temaslar güvenli liman talebini sınırlıyor; haber akışı çelişkili ve kısa vadeli fiyat etkisi beli
+10.11 01:13 N  NEWS (17 new) score -0.10 conf 0.35: 
+10.11 01:13 N  GPT  score -0.35 conf 0.58: Trump’ın İran savaşının fiilen sona erdiği ve bitiş yönünde ivme bulunduğu açıklamaları güvenli liman talebini azaltabilir; petrol düşüşü ve buna bağlı enflasyon kaygılarının hafiflemesi de altın için kısa vadede olumsuz. Ancak açıklamalar henüz doğrulanmış bir ateşkese işaret etmiyor ve Fed/faiz be
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
