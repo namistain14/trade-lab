@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 07:56 (İstanbul)
+> Son güncelleme: 09.11.2026 07:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,540.75 $** (başlangıç 5,000 $, -459.25 $ / %-9.19)
+**Hesap değeri: 4,540.02 $** (başlangıç 5,000 $, -459.98 $ / %-9.20)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
@@ -52,9 +52,9 @@ Son işlemler:
 
 **Hesap değeri: 4,944.42 $** (başlangıç 5,000 $, -55.58 $ / %-1.11)
 
-Son haber analizi (07.11 00:20): Claude puan **-0.15**, güven 0.40 — Haberler karışık: ABD-İran arasında anlaşmaya yakın olunduğu ve diplomasi umutlarının petrol vadeli işlemlerini düşürdüğü bildiriliyor, bu kısa vadede baskı yaratıyor. Buna karşılık Trump'ın savaşın yeniden başlatılmasına ilişkin kararının "yakında" açıklanacağı, Hürmüz Boğazı'ndaki aksamalar ve Citi'nin 150 dolara kadar tahmini ile UBS'in düşük envanter uyarısı fiyatı destekliyor; yeni İran yaptırımları ise büyük ölçüde rutin ve zaten fiyatlanmış.
+Son haber analizi (09.11 07:59): Claude puan **-0.40**, güven 0.50 — Brent 98 doların altına indi ve haftalık yaklaşık %16 düşüş yaşandı; Trump'ın İran'a yeni saldırıların "pek olası olmadığını" söylemesi ve Xi/Putin ile İran savaşını bitirme görüşmelerini açıklaması kısa vadede baskı yaratıyor. Buna karşın Hürmüz yakınında tanker yangını, Riyad'da Aramco kulesine Husi füze enkazı ve Rusya'daki rafineriye Ukrayna saldırısı gibi arz riskleri fiyatın tamamen düşmesini sınırlayabilir, bu yüzden sinyaller karışık.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.42 — İran’la görüşmelerde ilerleme ve diplomasi beklentisi, yakın vadede petrol fiyatları üzerinde hafif aşağı yönlü baskı yaratıyor. Ancak Hürmüz’deki kesinti riski ve tanker saldırısı olası düşüşü sınırlıyor; yeni yaptırımların kısa vadeli arz etkisi ise belirsiz.
+GPT (gpt-6-luna): puan **-0.45**, güven 0.58 — İran’a yeni saldırı ihtimalinin düşük görülmesi ve barış görüşmelerine ilişkin umutlar, jeopolitik risk primini azaltarak Brent’i kısa vadede aşağı çekiyor; fiyatın 98 doların altına inmesi de bu yönü doğruluyor. Hürmüz yakınındaki tanker yangını, Aramco tesisine yönelik saldırı ve Rusya’daki rafine
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 02:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-09.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 07:02 N  NEWS (45 new) score -0.05 conf 0.30: 
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 07:38 N  GPT  score +0.20 conf 0.40: Düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması altını destekliyor; fiyatın 4.100 doların üzerine toparlandığı bildiriliyor. Buna karşılık güçlü ABD istihdam verisi doları ve Fed’in sıkı kalacağı beklentisini destekleyerek yükselişi sınırlayabilir; İran haberleri de net bir yeni tırman
 09.11 07:50 N  NEWS (14 new) score +0.30 conf 0.50: Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflatıyor, bu da altın için olumlu; altın 1,6% toparlandı. Ancak İran savaşının sona erebileceği haberleri jeopolitik risk primini azaltarak altını baskılayabilir, güçlü ABD istihdam verisi ve dolar toparlanması da kısa vadede negatif. Yaklaşan ABD TÜFE verisi nedeniyle sinyaller karışık olduğundan güven orta düzeyde.
 09.11 07:50 N  GPT  score +0.25 conf 0.55: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı baskısını hafifletmesi ile doların zayıf seyri altını destekliyor. İran konusunda gerilimin azalması güvenli liman talebini sınırlarken güçlü ABD istihdam verisi ve yaklaşan enflasyon sınaması görünümü belirsizleştiriyor.
+09.11 07:59 B5P  NEWS (45 new) score -0.40 conf 0.50: Brent 98 doların altına indi ve haftalık yaklaşık %16 düşüş yaşandı; Trump'ın İran'a yeni saldırıların "pek olası olmadığını" söylemesi ve Xi/Putin ile İran savaşını bitirme görüşmelerini açıklaması kısa vadede baskı yaratıyor. Buna karşın Hürmüz yakınında tanker yangını, Riyad'da Aramco kulesine Husi füze enkazı ve Rusya'daki rafineriye Ukrayna saldırısı gibi arz riskleri fiyatın tamamen düşmesini sınırlayabilir, bu yüzden sinyaller karışık.
+09.11 07:59 B5P  GPT  score -0.45 conf 0.58: İran’a yeni saldırı ihtimalinin düşük görülmesi ve barış görüşmelerine ilişkin umutlar, jeopolitik risk primini azaltarak Brent’i kısa vadede aşağı çekiyor; fiyatın 98 doların altına inmesi de bu yönü doğruluyor. Hürmüz yakınındaki tanker yangını, Aramco tesisine yönelik saldırı ve Rusya’daki rafine
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
