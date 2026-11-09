@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 19:03 (İstanbul)
+> Son güncelleme: 09.11.2026 19:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -66,29 +66,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +1648.99 $ | +9282.94 $ |
-| İşlem sayısı | 1 | 29 |
-| Kazanma oranı | %100.0 | %48.3 |
+| Net kâr/zarar | +533.82 $ | +8167.77 $ |
+| İşlem sayısı | 2 | 30 |
+| Kazanma oranı | %50.0 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,285.88 $** (başlangıç 100,000 $, +12285.88 $ / %+12.29)
+**Hesap değeri: 110,566.25 $** (başlangıç 100,000 $, +10566.25 $ / %+10.57)
 
-Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); NVDA long @ 178.94 (TP 181.15 / SL 176.69); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
+Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 19:06 | NVDA | long | -1115.17 $ | stop |
 | 09.11 18:12 | QQQ | long | +1648.99 $ | take profit |
 | 06.11 23:47 | SPY | long | -268.92 $ | seans sonu |
 | 06.11 23:47 | QQQ | long | -39.36 $ | seans sonu |
 | 06.11 23:47 | NVDA | long | -26.55 $ | seans sonu |
-| 06.11 23:47 | AAPL | long | -190.06 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-09.11 18:21 N  NEWS (12 new) score +0.10 conf 0.30: Haberler karışık: İran'la barış görüşmeleri ve "tam ölçekli savaşın yeniden başlaması olası değil" açıklaması güvenli liman talebini biraz azaltabilir, ancak petrol fiyatlarının düşmesi enflasyon ve faiz beklentilerini yumuşatarak altın için hafif olumlu bir etki yaratabilir. Merkez bankası altın alımlarının güçlü olması ve dolardaki zayıflama da destekleyici; yine de ABD enflasyon verisi beklentisi belirsizlik yaratıyor ve haberlerin çoğu zaten fiyatlanmış.
 09.11 18:21 N  GPT  score -0.15 conf 0.32: İran’la tam ölçekli savaşın olası görülmemesi ve görüşmelerin ilerlemesi güvenli liman talebini bir miktar azaltabilir. Doların NFP sonrası kazançlarını geri vermesi altını desteklerken, yaklaşan ABD enflasyon verisi ve çelişkili jeopolitik haberler kısa vadeli yönü belirsiz kılıyor.
 09.11 18:21 B6  karar turu: Claude «Hürmüz ve İran barış umutlarıyla piyasa güçlü bir yükseliş günü yaşıyor, ancak hareketin büyük kısmı gerçekleştiği için seçici ve ölçülü long tercih edilmeli.» / GPT «Piyasa yönü yukarı olsa da yükselişi kovalamadan seçici alım tercih ediyorum; 1:4 kaldıraçta birbiriyle ilişkili pozisyonlar toplam riski artırır.»
 09.11 18:21 B6  ALIŞ AAPL 318 adet ≈ 111,144 $ (1:4) @ 349.51 (TP 354.75, SL 346.01; ikisi de hemfikir, güven 0.50)
@@ -103,6 +102,7 @@ Son işlemler:
 09.11 18:57 N  NEWS (15 new) score -0.20 conf 0.40: Yeni haberlerin ağırlığı hafif negatif: Goolsbee'nin enflasyon konusunda sert tonu ve CPI öncesi yüksek reel getiri riski faiz beklentilerini sıkılaştırarak altı baskılıyor, USDU'nun 52 haftalık zirvesi de dolar tarafında ek baskı yaratıyor. Hormuz'da IRGC'nin tanker saldırısı ve merkez bankası alımları gibi güvenli liman/destek unsurları bunu kısmen dengeliyor; Trump'ın tam ölçekli savaş ihtimalini düşük görmesi ise jeopolitik primi azaltıyor.
 09.11 18:57 N  GPT  score -0.30 conf 0.58: Goolsbee’nin hizmet enflasyonunun kalıcılığına ve enflasyon hedefindeki başarısızlığa vurgu yapması, Fed’in daha şahin kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. Hürmüz yakınındaki tanker saldırıları güvenli liman talebini desteklese de İran konusunda barış görüşmeler
 09.11 18:57 B6  karar turu: Claude «Endeksler teknoloji öncülüğünde güçlü yükselişte ve risk iştahı yüksek; ancak NVDA'daki skandal ile İran kaynaklı haber riski oynaklık yaratabilir.» / GPT «SPY ve QQQ'daki istikrarlı yükseliş alıcıları destekliyor, ancak enflasyon ve İran başlıkları kaldıraçlı işlemlerde ani geri çekilme riskini artırıyor.»
+09.11 19:06 B6  CLOSE long NVDA stop: -1115.17 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
