@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 07:47 (İstanbul)
+> Son güncelleme: 09.11.2026 07:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,551.62 $** (başlangıç 5,000 $, -448.38 $ / %-8.97)
+**Hesap değeri: 4,533.28 $** (başlangıç 5,000 $, -466.72 $ / %-9.33)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
-Son haber analizi (09.11 07:38): Claude puan **+0.10**, güven 0.35 — Petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı yaklaşık %1 yukarı taşıdı ve dolar endeksi baskılandı; Riyad'daki Aramco kulesine füze enkazı düşmesi ve İran savaşının sürmesi güvenli liman talebini destekliyor. Buna karşın güçlü ABD istihdam verisi ve Fed beklentileri doları ve faiz baskısını güçlendirebilir, ayrıca ABD enflasyon verisi (CPI) yaklaştığı için yön belirsiz.
+Son haber analizi (09.11 07:50): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflatıyor, bu da altın için olumlu; altın 1,6% toparlandı. Ancak İran savaşının sona erebileceği haberleri jeopolitik risk primini azaltarak altını baskılayabilir, güçlü ABD istihdam verisi ve dolar toparlanması da kısa vadede negatif. Yaklaşan ABD TÜFE verisi nedeniyle sinyaller karışık olduğundan güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.40 — Düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması altını destekliyor; fiyatın 4.100 doların üzerine toparlandığı bildiriliyor. Buna karşılık güçlü ABD istihdam verisi doları ve Fed’in sıkı kalacağı beklentisini destekleyerek yükselişi sınırlayabilir; İran haberleri de net bir yeni tırman
+GPT (gpt-6-luna): puan **+0.25**, güven 0.55 — Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı baskısını hafifletmesi ile doların zayıf seyri altını destekliyor. İran konusunda gerilimin azalması güvenli liman talebini sınırlarken güçlü ABD istihdam verisi ve yaklaşan enflasyon sınaması görünümü belirsizleştiriyor.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-09.11 02:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 02:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 07:26 B5  LONG gold 25000 USD x10 @ 4114.61 (TP 4126.96, SL 4106.38; news +0.32)
 09.11 07:38 N  NEWS (12 new) score +0.10 conf 0.35: 
 09.11 07:38 N  GPT  score +0.20 conf 0.40: Düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması altını destekliyor; fiyatın 4.100 doların üzerine toparlandığı bildiriliyor. Buna karşılık güçlü ABD istihdam verisi doları ve Fed’in sıkı kalacağı beklentisini destekleyerek yükselişi sınırlayabilir; İran haberleri de net bir yeni tırman
+09.11 07:50 N  NEWS (14 new) score +0.30 conf 0.50: Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflatıyor, bu da altın için olumlu; altın 1,6% toparlandı. Ancak İran savaşının sona erebileceği haberleri jeopolitik risk primini azaltarak altını baskılayabilir, güçlü ABD istihdam verisi ve dolar toparlanması da kısa vadede negatif. Yaklaşan ABD TÜFE verisi nedeniyle sinyaller karışık olduğundan güven orta düzeyde.
+09.11 07:50 N  GPT  score +0.25 conf 0.55: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı baskısını hafifletmesi ile doların zayıf seyri altını destekliyor. İran konusunda gerilimin azalması güvenli liman talebini sınırlarken güçlü ABD istihdam verisi ve yaklaşan enflasyon sınaması görünümü belirsizleştiriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
