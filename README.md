@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 08:00 (İstanbul)
+> Son güncelleme: 09.11.2026 08:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,532.12 $** (başlangıç 5,000 $, -467.88 $ / %-9.36)
+**Hesap değeri: 4,531.82 $** (başlangıç 5,000 $, -468.18 $ / %-9.36)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
-Son haber analizi (09.11 07:50): Claude puan **+0.30**, güven 0.50 — Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflatıyor, bu da altın için olumlu; altın 1,6% toparlandı. Ancak İran savaşının sona erebileceği haberleri jeopolitik risk primini azaltarak altını baskılayabilir, güçlü ABD istihdam verisi ve dolar toparlanması da kısa vadede negatif. Yaklaşan ABD TÜFE verisi nedeniyle sinyaller karışık olduğundan güven orta düzeyde.
+Son haber analizi (09.11 08:03): Claude puan **+0.20**, güven 0.40 — Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflattığı için altın için hafif olumlu bir tablo var; dolar da sakin seyrediyor. Ancak güçlü ABD istihdam verisi altını baskılamış, İran savaşının müzakereyle sona erebileceği haberi jeopolitik güvenli liman talebini azaltıyor ve yaklaşan ABD TÜFE verisi belirsizliği artırıyor, bu nedenle sinyaller karışık.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.55 — Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı baskısını hafifletmesi ile doların zayıf seyri altını destekliyor. İran konusunda gerilimin azalması güvenli liman talebini sınırlarken güçlü ABD istihdam verisi ve yaklaşan enflasyon sınaması görünümü belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.30 — Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı beklentilerini hafifletmesi altını destekliyor; ancak güçlü ABD istihdam verileri ve doların dayanıklılığı bu desteği sınırlıyor. İran konusunda müzakere ve çatışma haberleri çelişkili, ayrıca yaklaşan ABD enflasyon verisi öncesinde kısa vadel
 
 Son işlemler:
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-09.11 07:02 N  NEWS (45 new) score -0.05 conf 0.30: 
-09.11 07:02 N  GPT  score +0.18 conf 0.43: İran savaşı ve Husilerin Suudi Arabistan’daki hedeflere saldırı iddiası güvenli liman talebini destekleyebilir; ancak Trump’ın yeni bir savaşı düşük olasılıklı göstermesi bu etkiyi sınırlıyor. Güçlü istihdam verileri, Fed’in faizleri yüksek tutacağı beklentisi ve güçlü dolar altın üzerinde baskı yar
 09.11 07:14 N  NEWS (8 new) score -0.05 conf 0.30: 
 09.11 07:14 N  GPT  score +0.32 conf 0.58: Altın son haberlerde 1%’den fazla yükselip 4.100 doların üzerine çıktı; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü ABD istihdam verisi Fed’in daha şahin kalabileceği beklentisini ve dolar desteğini artırırken, İran haberleri de tırman
 09.11 07:26 N  NEWS (10 new) score +0.30 conf 0.50: Petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı yaklaşık %1 yukarı taşıdı ve dolar endeksi baskılandı; Riyad'daki Aramco kulesine füze enkazı düşmesi ve İran savaşının sürmesi güvenli liman talebini destekliyor. Buna karşın güçlü ABD istihdam verisi ve Fed beklentileri doları ve faiz baskısını güçlendirebilir, ayrıca ABD enflasyon verisi (CPI) yaklaştığı için yön belirsiz.
@@ -103,6 +100,9 @@ Son işlemler:
 09.11 07:59 B5P  NEWS (45 new) score -0.40 conf 0.50: Brent 98 doların altına indi ve haftalık yaklaşık %16 düşüş yaşandı; Trump'ın İran'a yeni saldırıların "pek olası olmadığını" söylemesi ve Xi/Putin ile İran savaşını bitirme görüşmelerini açıklaması kısa vadede baskı yaratıyor. Buna karşın Hürmüz yakınında tanker yangını, Riyad'da Aramco kulesine Husi füze enkazı ve Rusya'daki rafineriye Ukrayna saldırısı gibi arz riskleri fiyatın tamamen düşmesini sınırlayabilir, bu yüzden sinyaller karışık.
 09.11 07:59 B5P  GPT  score -0.45 conf 0.58: İran’a yeni saldırı ihtimalinin düşük görülmesi ve barış görüşmelerine ilişkin umutlar, jeopolitik risk primini azaltarak Brent’i kısa vadede aşağı çekiyor; fiyatın 98 doların altına inmesi de bu yönü doğruluyor. Hürmüz yakınındaki tanker yangını, Aramco tesisine yönelik saldırı ve Rusya’daki rafine
 09.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+09.11 08:03 N  NEWS (6 new) score +0.20 conf 0.40: Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflattığı için altın için hafif olumlu bir tablo var; dolar da sakin seyrediyor. Ancak güçlü ABD istihdam verisi altını baskılamış, İran savaşının müzakereyle sona erebileceği haberi jeopolitik güvenli liman talebini azaltıyor ve yaklaşan ABD TÜFE verisi belirsizliği artırıyor, bu nedenle sinyaller karışık.
+09.11 08:03 N  GPT  score +0.15 conf 0.30: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı beklentilerini hafifletmesi altını destekliyor; ancak güçlü ABD istihdam verileri ve doların dayanıklılığı bu desteği sınırlıyor. İran konusunda müzakere ve çatışma haberleri çelişkili, ayrıca yaklaşan ABD enflasyon verisi öncesinde kısa vadel
+09.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
