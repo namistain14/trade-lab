@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 23:21 (İstanbul)
+> Son güncelleme: 09.11.2026 23:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
-Son haber analizi (09.11 23:12): Claude puan **-0.35**, güven 0.50 — Haberlerin çoğu faiz artırımı beklentilerini ve yükselen tahvil getirilerini öne çıkarıyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" ve Fed yetkililerinin aşırı ısınma konusundaki uyarıları altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk primi sağlasa da bu etki sınırlı ve belirsiz kalıyor; CPI beklentisinin "durgun" olması da net bir yön vermiyor.
+Son haber analizi (09.11 23:24): Claude puan **-0.40**, güven 0.50 — Faiz artırımı beklentileri öne çıkıyor: Fed'den Daly'nin daha fazla faiz artırımına işaret etmesi, enflasyon ve Fed artırımı korkuları ile ABD/Avrupa tahvil getirilerinin yükselmesi altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk yaratsa da, bunlar ağırlıklı olarak siyasi gürültü niteliğinde ve güvenli liman talebini tetikleyecek yeni bir eskalasyon içermiyor; bu nedenle etki sınırlı kalır.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.56 — Yükselen tahvil getirileri, Aralık faiz artırımı beklentileri ve inatçı enflasyon endişeleri kısa vadede altını baskılıyor. İran kaynaklı jeopolitik risk güvenli liman talebini destekleyebilir; ancak haber akışı çelişkili ve bu etki faiz baskısını kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.38**, güven 0.68 — Fed’den daha fazla faiz artışı sinyali ve yükselen tahvil getirileri, kısa vadede altının fırsat maliyetini artırıp fiyatı baskılayabilir. İran’la ilgili siber saldırı haberleri sınırlı güvenli liman desteği sağlayabilir; ancak etkisi faiz görünümünden zayıf görünüyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,696.54 $** (başlangıç 100,000 $, +11696.54 $ / %+11.70)
+**Hesap değeri: 111,564.06 $** (başlangıç 100,000 $, +11564.06 $ / %+11.56)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 22:29 B5  CLOSE short stop: -55.93 USD
-09.11 22:36 N  NEWS (9 new) score -0.30 conf 0.50: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi ve altın düşüşünü sürdürdü, Fed yetkilileri enflasyona karşı sabırsız tonda konuşuyor. İran müzakerelerinin risk iştahını artırması güvenli liman talebini azaltırken, dolarda zayıflama sınırlı bir destek sağlıyor; İran savaşı haberleri ise zaten fiyatlanmış durumda.
 09.11 22:36 N  GPT  score -0.20 conf 0.43: ABD istihdam verilerinin Aralık faiz artırımı beklentilerini güçlendirmesi altın üzerinde baskı yaratıyor; İran görüşmelerinin risk iştahını artırması da güvenli liman talebini azaltabilir. Doların zayıflaması altını desteklese de haber akışı çelişkili ve kısa vadeli net etki hafif negatif görünüyor
 09.11 22:36 B6  karar turu: Claude «Piyasa genel olarak güçlü ve teknoloji öncülüğünde yükseliyor, ancak kapanışa doğru yatay seyrediyor; NVDA'daki şirkete özgü baskı ise sürüyor.» / GPT «Endekslerdeki güçlü günlük yükseliş son saatte yataylaşırken kapanışa 24 dakika kalması ve seans dışında stop emirlerinin çalışmayabilmesi, dört kat kaldıraçla riski artırıyor.»
 09.11 22:48 N  NEWS (15 new) score -0.20 conf 0.40: Haberlerin ağırlığı altın için hafif negatif: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi, tahvil getirileri yükseldi ve İran müzakere umutları risk iştahını artırıp güvenli liman talebini azalttı. Buna karşılık Hegseth'e yönelik impeachment girişimi ve İran savaşı haberleri jeopolitik risk desteği sağlayabilir, Eylül enflasyonundan sonra Ekim CPI'nin yavaşlaması beklentisi ise bir miktar dengeleyici etki yaratabilir; sinyaller karışık olduğu için güven düşük.
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 23:12 N  NEWS (12 new) score -0.35 conf 0.50: Haberlerin çoğu faiz artırımı beklentilerini ve yükselen tahvil getirilerini öne çıkarıyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" ve Fed yetkililerinin aşırı ısınma konusundaki uyarıları altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk primi sağlasa da bu etki sınırlı ve belirsiz kalıyor; CPI beklentisinin "durgun" olması da net bir yön vermiyor.
 09.11 23:12 N  GPT  score -0.35 conf 0.56: Yükselen tahvil getirileri, Aralık faiz artırımı beklentileri ve inatçı enflasyon endişeleri kısa vadede altını baskılıyor. İran kaynaklı jeopolitik risk güvenli liman talebini destekleyebilir; ancak haber akışı çelişkili ve bu etki faiz baskısını kısmen dengeliyor.
 09.11 23:12 B6  karar turu: Claude «Endeksler teknoloji toparlanmasıyla güçlü kapandı, ancak seans sonrası düşük likiditede NVDA'daki skandal haberleri belirsizlik yaratıyor; yeni pozisyon için temkinli olmak gerekiyor.» / GPT «Endekslerde güçlü yükseliş var ancak saat 16:12’de seans sonrası işlem koşulları, 1:4 kaldıraçla yeni pozisyon açmanın riskini artırıyor.»
+09.11 23:24 N  NEWS (9 new) score -0.40 conf 0.50: Faiz artırımı beklentileri öne çıkıyor: Fed'den Daly'nin daha fazla faiz artırımına işaret etmesi, enflasyon ve Fed artırımı korkuları ile ABD/Avrupa tahvil getirilerinin yükselmesi altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk yaratsa da, bunlar ağırlıklı olarak siyasi gürültü niteliğinde ve güvenli liman talebini tetikleyecek yeni bir eskalasyon içermiyor; bu nedenle etki sınırlı kalır.
+09.11 23:24 N  GPT  score -0.38 conf 0.68: Fed’den daha fazla faiz artışı sinyali ve yükselen tahvil getirileri, kısa vadede altının fırsat maliyetini artırıp fiyatı baskılayabilir. İran’la ilgili siber saldırı haberleri sınırlı güvenli liman desteği sağlayabilir; ancak etkisi faiz görünümünden zayıf görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
