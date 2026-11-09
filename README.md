@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 09:49 (İstanbul)
+> Son güncelleme: 09.11.2026 09:52 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,488.33 $** (başlangıç 5,000 $, -511.67 $ / %-10.23)
 
-Son haber analizi (09.11 09:40): Claude puan **-0.20**, güven 0.40 — Yeni başlıklar karışık: ABD enflasyonu %3,7'ye çıktı ve Fed faiz artırımı beklentileri yükseldi, dolar kazançlarını koruyor; bu altın için olumsuz. Öte yandan Trump'ın İran'da yeniden tırmanma için "neden yok" demesi jeopolitik güvenli liman talebini azaltıyor ve petrol fiyatlarındaki düşüş enflasyon endişelerini hafifletiyor. Sabah erken saatlerdeki %1 üzeri yükseliş zayıf dolar ve petrol düşüşünden kaynaklanıyordu, bu etki kısmen fiyatlanmış durumda.
+Son haber analizi (09.11 09:52): Claude puan **+0.10**, güven 0.40 — Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltıp altın fiyatını kısa vadede yukarı taşıyor ve dolar zayıflıyor. Ancak güçlü istihdam verisi ve Fed faiz artırımı beklentileri doları destekliyor, İran'daki gerilimin azalması da güvenli liman talebini zayıflatıyor; bu nedenle etki sınırlı ve yön belirsiz.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.34 — %3,7 enflasyon ve Fed’in faiz artırımı beklentileri doları ve reel faizleri destekleyerek altın için baskı oluşturabilir. İran haberleri çelişkili; gerilimin artacağına dair net bir işaret yok ve düşük petrol fiyatları bu baskıyı kısmen dengeliyor.
+GPT (gpt-6-luna): puan **+0.22**, güven 0.42 — Altının %1’in üzerinde yükselmesi ve düşen petrolün enflasyon baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü istihdam verileriyle artan Fed sıkılaşma beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayıp oynaklığı artırabilir.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 08:27 N  NEWS (4 new) score +0.35 conf 0.50: Petrol fiyatlarının gerilemesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflattığı için altın yukarı yönlü destek buluyor; yeni İran savaşı tırmanışı güvenli liman talebini de destekliyor. Ancak ABD verileri sonrası dolar ve Fed bahisleri ile ABD CPI öncesi belirsizlik, ayrıca Trump'ın barış görüşmesi açıklaması jeopolitik primi azaltabileceği için etkiyi sınırlıyor.
-09.11 08:27 N  GPT  score +0.45 conf 0.56: İran nükleer görüşmelerinin çökmesi ve savaşın tırmanması kısa vadede güvenli liman talebini destekliyor; düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması da altın için olumlu. Ancak altın zaten belirgin yükselmişken doların Fed beklentileriyle güçlü kalması yükselişi sınırlayabilir.
 09.11 08:39 N  NEWS (8 new) score +0.40 conf 0.50: Yeni haberlerde altın, zayıflayan dolar ve petrol fiyatlarının enflasyon endişelerini azaltmasıyla yükseliyor; bu da faiz artırımı beklentilerini geriletip altını destekliyor. Ancak ABD'nin güçlü işgücü verisi ve Fed beklentileri nedeniyle dolar zaman zaman toparlanabilir, İran savaşında müzakere haberleri de jeopolitik risk primini azaltabilir; bu yüzden sinyal orta düzeyde pozitif.
 09.11 08:39 N  GPT  score +0.35 conf 0.48: Yumuşak dolar ve düşen petrolün enflasyon/faiz artışı kaygılarını azaltması altını destekliyor; İran gerilimi de güvenli liman talebini canlı tutabilir. Ancak altın zaten belirgin yükselmiş, Fed beklentileri doları destekliyor ve haber akışı çelişkili olduğundan kısa vadeli ek yükselişin güveni sını
 09.11 08:51 N  NEWS (8 new) score +0.30 conf 0.45: Haberler karışık ama hafif altın lehine: İran nükleer müzakerelerinin çöküşü ve savaşın tırmanması güvenli liman talebini destekliyor, petrol fiyatlarındaki düşüş enflasyon endişelerini azaltıp altını yukarı taşıyor ve dolar zayıflığı da olumlu. Buna karşın güçlü ABD istihdam verisi ve Fed beklentilerine bağlı dolar gücü altın için baskı yaratabilir; ayrıca altındaki yükselişin büyük kısmı zaten fiyatlanmış olabilir.
@@ -101,6 +99,8 @@ Son işlemler:
 09.11 09:27 N  GPT  score +0.25 conf 0.48: Altındaki %1’i aşan yükseliş ve yumuşak petrol/dolar haberleri kısa vadede destekleyici; İran’dan gelen savaş uyarısı da güvenli liman talebini artırabilir. Ancak Fed faiz artırımı beklentilerinin yükselmesi ve doların kazançlarını koruması bu desteği sınırlıyor; haber akışı çelişkili ve hareketin b
 09.11 09:40 N  NEWS (9 new) score -0.20 conf 0.40: Yeni başlıklar karışık: ABD enflasyonu %3,7'ye çıktı ve Fed faiz artırımı beklentileri yükseldi, dolar kazançlarını koruyor; bu altın için olumsuz. Öte yandan Trump'ın İran'da yeniden tırmanma için "neden yok" demesi jeopolitik güvenli liman talebini azaltıyor ve petrol fiyatlarındaki düşüş enflasyon endişelerini hafifletiyor. Sabah erken saatlerdeki %1 üzeri yükseliş zayıf dolar ve petrol düşüşünden kaynaklanıyordu, bu etki kısmen fiyatlanmış durumda.
 09.11 09:40 N  GPT  score -0.12 conf 0.34: %3,7 enflasyon ve Fed’in faiz artırımı beklentileri doları ve reel faizleri destekleyerek altın için baskı oluşturabilir. İran haberleri çelişkili; gerilimin artacağına dair net bir işaret yok ve düşük petrol fiyatları bu baskıyı kısmen dengeliyor.
+09.11 09:52 N  NEWS (15 new) score +0.10 conf 0.40: Petrol fiyatlarının gevşemesi enflasyon endişelerini azaltıp altın fiyatını kısa vadede yukarı taşıyor ve dolar zayıflıyor. Ancak güçlü istihdam verisi ve Fed faiz artırımı beklentileri doları destekliyor, İran'daki gerilimin azalması da güvenli liman talebini zayıflatıyor; bu nedenle etki sınırlı ve yön belirsiz.
+09.11 09:52 N  GPT  score +0.22 conf 0.42: Altının %1’in üzerinde yükselmesi ve düşen petrolün enflasyon baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü istihdam verileriyle artan Fed sıkılaşma beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayıp oynaklığı artırabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
