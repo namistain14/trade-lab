@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 07:11 (İstanbul)
+> Son güncelleme: 09.11.2026 07:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,544.23 $** (başlangıç 5,000 $, -455.77 $ / %-9.12)
 
-Son haber analizi (09.11 07:02): Claude puan **-0.05**, güven 0.30 — Yeni haberlerin ağırlıklı tonu şahin: beklentilerin üzerinde güçlü istihdam (165 bin), işsizlik oranının 4,1%'e gerilemesi, Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesi ve Fed yetkililerinin enflasyon uyarıları, doların yükselişiyle birlikte altın için baskı yaratıyor. İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu haberler büyük ölçüde fiyatlanmış ve eskidir; bu nedenle etkisi sınırlı kalır.
+Son haber analizi (09.11 07:14): Claude puan **-0.05**, güven 0.30 — Yeni haberlerin ağırlıklı tonu şahin: beklentilerin üzerinde güçlü istihdam (165 bin), işsizlik oranının 4,1%'e gerilemesi, Fed'in Aralık'ta faiz artırımı beklentisinin güçlenmesi ve Fed yetkililerinin enflasyon uyarıları, doların yükselişiyle birlikte altın için baskı yaratıyor. İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu haberler büyük ölçüde fiyatlanmış ve eskidir; bu nedenle etkisi sınırlı kalır.
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.43 — İran savaşı ve Husilerin Suudi Arabistan’daki hedeflere saldırı iddiası güvenli liman talebini destekleyebilir; ancak Trump’ın yeni bir savaşı düşük olasılıklı göstermesi bu etkiyi sınırlıyor. Güçlü istihdam verileri, Fed’in faizleri yüksek tutacağı beklentisi ve güçlü dolar altın üzerinde baskı yar
+GPT (gpt-6-luna): puan **+0.32**, güven 0.58 — Altın son haberlerde 1%’den fazla yükselip 4.100 doların üzerine çıktı; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü ABD istihdam verisi Fed’in daha şahin kalabileceği beklentisini ve dolar desteğini artırırken, İran haberleri de tırman
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 01:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-09.11 01:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 01:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 01:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 01:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -101,6 +99,8 @@ Son işlemler:
 09.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 07:02 N  NEWS (45 new) score -0.05 conf 0.30: 
 09.11 07:02 N  GPT  score +0.18 conf 0.43: İran savaşı ve Husilerin Suudi Arabistan’daki hedeflere saldırı iddiası güvenli liman talebini destekleyebilir; ancak Trump’ın yeni bir savaşı düşük olasılıklı göstermesi bu etkiyi sınırlıyor. Güçlü istihdam verileri, Fed’in faizleri yüksek tutacağı beklentisi ve güçlü dolar altın üzerinde baskı yar
+09.11 07:14 N  NEWS (8 new) score -0.05 conf 0.30: 
+09.11 07:14 N  GPT  score +0.32 conf 0.58: Altın son haberlerde 1%’den fazla yükselip 4.100 doların üzerine çıktı; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü ABD istihdam verisi Fed’in daha şahin kalabileceği beklentisini ve dolar desteğini artırırken, İran haberleri de tırman
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

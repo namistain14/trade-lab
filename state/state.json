@@ -9829,6 +9829,10 @@
    [
     1794197494,
     5000.0
+   ],
+   [
+    1794197686,
+    5000.0
    ]
   ],
   "archive": [
@@ -12903,10 +12907,6 @@
   },
   "equity_curve": [
    [
-    1793587750,
-    4868.5
-   ],
-   [
     1793587930,
     4868.5
    ],
@@ -24901,6 +24901,10 @@
    [
     1794197494,
     4868.5
+   ],
+   [
+    1794197686,
+    4868.5
    ]
   ],
   "news": {
@@ -24908,36 +24912,27 @@
    "confidence": 0.3,
    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131kl\u0131 tonu \u015fahin: beklentilerin \u00fczerinde g\u00fc\u00e7l\u00fc istihdam (165 bin), i\u015fsizlik oran\u0131n\u0131n 4,1%'e gerilemesi, Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 beklentisinin g\u00fc\u00e7lenmesi ve Fed yetkililerinin enflasyon uyar\u0131lar\u0131, dolar\u0131n y\u00fckseli\u015fiyle birlikte alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131na ili\u015fkin g\u00fcvenli liman talebi destekleyici olsa da bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve eskidir; bu nedenle etkisi s\u0131n\u0131rl\u0131 kal\u0131r.",
    "n": 45,
-   "ts": 1794196938251,
-   "new_headlines": 45,
+   "ts": 1794197685497,
+   "new_headlines": 8,
    "key_events": [
     "G\u00fc\u00e7l\u00fc ABD tar\u0131m d\u0131\u015f\u0131 istihdam verisi (165 bin) ve dolar endeksinin y\u00fckseli\u015fi",
     "Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131na y\u00f6nelik beklentilerin g\u00fc\u00e7lenmesi",
     "\u0130ran sava\u015f\u0131nda K\u00f6rfez'de tanker sald\u0131r\u0131s\u0131 ve Trump'\u0131n yeni sald\u0131r\u0131 karar\u0131n\u0131 '\u00e7ok yak\u0131nda' a\u00e7\u0131klamas\u0131"
    ],
    "gpt": {
-    "score": 0.18,
-    "confidence": 0.43,
-    "reason": "\u0130ran sava\u015f\u0131 ve Husilerin Suudi Arabistan\u2019daki hedeflere sald\u0131r\u0131 iddias\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n yeni bir sava\u015f\u0131 d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 g\u00f6stermesi bu etkiyi s\u0131n\u0131rl\u0131yor. G\u00fc\u00e7l\u00fc istihdam verileri, Fed\u2019in faizleri y\u00fcksek tutaca\u011f\u0131 beklentisi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yar",
+    "score": 0.32,
+    "confidence": 0.58,
+    "reason": "Alt\u0131n son haberlerde 1%\u2019den fazla y\u00fckselip 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon ve faiz bask\u0131s\u0131n\u0131 hafifletmesi k\u0131sa vadede destekleyici. Ancak g\u00fc\u00e7l\u00fc ABD istihdam verisi Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisini ve dolar deste\u011fini art\u0131r\u0131rken, \u0130ran haberleri de t\u0131rman",
     "key_events": [
-     "Husilerin Suudi hedeflerine sald\u0131r\u0131 iddias\u0131",
-     "Trump: ABD\u2019nin \u0130ran\u2019la sava\u015fa girme olas\u0131l\u0131\u011f\u0131 d\u00fc\u015f\u00fck",
-     "G\u00fc\u00e7l\u00fc ABD istihdam\u0131 ve dolar, Fed faiz beklentileri"
+     "Alt\u0131n 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131 ve %1\u2019den fazla y\u00fckseldi",
+     "D\u00fc\u015fen petrol fiyatlar\u0131 enflasyon endi\u015felerini hafifletti",
+     "G\u00fc\u00e7l\u00fc ABD istihdam verisi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in bask\u0131 unsuru"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793731348888,
-    "score": 0.12,
-    "confidence": 0.35,
-    "reason": "ABD'nin \u0130ran'a yeni \"savunma\" sald\u0131r\u0131lar\u0131 (Qeshm adas\u0131) jeopolitik risk primi yaratarak alt\u0131n\u0131 hafif\u00e7e destekliyor. Ancak dolar ve ABD tahvil getirilerinin y\u00fckselmesi ve ABD ara se\u00e7im/NFP beklentisiyle g\u00fc\u00e7lenen dolar, k\u0131sa vadede alt\u0131 bask\u0131l\u0131yor; bu nedenle etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k.",
-    "new": 16,
-    "gpt_score": 0.15,
-    "gpt_confidence": 0.46
-   },
    {
     "ts": 1793732068396,
     "score": 0.1,
@@ -27628,18 +27623,35 @@
     "new": 45,
     "gpt_score": 0.18,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1794197685497,
+    "score": -0.05,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 8,
+    "gpt_score": 0.32,
+    "gpt_confidence": 0.58
    }
   ],
   "news_calls": {
    "date": "2026-11-09",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
+   "Gold Rebounds Above $4,100 After Strong US Jobs Report Weighs on Price - JournalArta",
+   "Gold rises over 1% as falling oil prices ease inflation concerns - Banglanews24",
+   "Rubio says war on Iran unpopular but \u2018necessary\u2019 to stop nuclear threat - Al Jazeera",
+   "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
+   "The next Congress shouldn\u2019t let Iran become a \u2018background war\u2019 - chronicleonline.com",
    "How will the October 7 war affect children born into it? Israeli researchers launch major study - ynetnews",
+   "Gold price in Pakistan for today, November 09, 2026 - Investify",
    "Berger Talks Getting \"World War Z 2\" Right - Dark Horizons",
+   "$4,100 reclaimed: Will Gold buyers succeed ahead of US inflation test? - FXStreet",
    "War drove refugees into Turkey. Climate change is making it harder to leave. - The Japan Times",
    "Trump tells CNN: 'Highly unlikely' US goes to war with Iran - Modern Ghana",
    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - \u5df4\u58eb\u7684\u5831",
+   "Trump says he doesn\u2019t disagree with Vance that Iran war fueled GOP losses - 930 WFMD Free Talk",
    "Stock Market Today: Sensex Drops, Nifty 50 Around 24,900; HCL Tech, Infosys, TCS Top Drags - NDTV Profit",
    "Rupee Hits 7-Month High, Surges 28 Paise To 93.70 Against US Dollar In Early Trade - News18",
    "Police investigate damage to Troy Hill war monument - Pittsburgh Post-Gazette",
@@ -27657,6 +27669,7 @@
    "Gold prices in Pakistan today: 9 November 2026 - Pakistan Observer",
    "Elizabeth Warren Says Democrats Have \u2018a Lot of Different Tools\u2019 to Pressure Trump Over Iran War \u2014 Here\u2019s - Benzinga",
    "Rubio defends Trump's decision to go to war with Iran as US president prepares to meet Qatar's PM - ynetnews",
+   "US Dollar Technical Outlook: DXY Bulls Fight to Hold Critical Support Ahead of NFP - StoneX",
    "Trump doubles down on choice to start war on Iran - Middle East Eye",
    "Gold gains more than 1% as softer oil prices ease inflation worries - Reuters",
    "China\u2019s Yuan Stayed Steady Even As The Dollar Firmed - Finimize",
@@ -27670,21 +27683,10 @@
    "Gold price today 9.11: Gold bars, gold rings reverse direction and increase sharply - Laodong.vn",
    "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows - Iran International",
    "Inflation Data to Test Yield Curve's Recession Warning as Fed's Next Move Hangs in Balance - InteractiveCrypto",
-   "CNN\u2019s Oren Liebermann on missile attack on Riyadh\u2019s financial district - CNN",
-   "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-   "Trump says \u2018hatred\u2019 between Zelensky, Putin is main obstacle to ending war - The Hill",
-   "In Service of America: He inspected Soviet missile sites and was at the Pentagon on 9/11. Meet John Lohmann - Nashua Ink Link",
-   "Stock Market Today LIVE: GIFT Nifty signals quiet start; Brent crude at $97 per barrel - IndiaIPO",
-   "Don\u2019t mention the war: how Iran broke Trump\u2019s winning coalition - Asia Times",
-   "Iran US War: Trump says US unlikely to hit Iran again, but carriers are \u201cLocked and loaded\u201d - Organiser",
-   "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-   "Gold Is Up 4% Since Midterms: Here\u2019s Where Markets Think The Precious Metal Prices Are Headed - TradingView",
-   "Gold's short-term volatility contrasts with long-term bullishness - The Economic Times"
+   "Middle East latest: Trump plays down prospect of new strikes on Iran - The National"
   ]
  },
  "log": [
-  "08.11 12:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 12:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 12:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 12:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 12:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -27982,7 +27984,9 @@
   "09.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 07:02 N  NEWS (45 new) score -0.05 conf 0.30: ",
-  "09.11 07:02 N  GPT  score +0.18 conf 0.43: \u0130ran sava\u015f\u0131 ve Husilerin Suudi Arabistan\u2019daki hedeflere sald\u0131r\u0131 iddias\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n yeni bir sava\u015f\u0131 d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 g\u00f6stermesi bu etkiyi s\u0131n\u0131rl\u0131yor. G\u00fc\u00e7l\u00fc istihdam verileri, Fed\u2019in faizleri y\u00fcksek tutaca\u011f\u0131 beklentisi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yar"
+  "09.11 07:02 N  GPT  score +0.18 conf 0.43: \u0130ran sava\u015f\u0131 ve Husilerin Suudi Arabistan\u2019daki hedeflere sald\u0131r\u0131 iddias\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n yeni bir sava\u015f\u0131 d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 g\u00f6stermesi bu etkiyi s\u0131n\u0131rl\u0131yor. G\u00fc\u00e7l\u00fc istihdam verileri, Fed\u2019in faizleri y\u00fcksek tutaca\u011f\u0131 beklentisi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yar",
+  "09.11 07:14 N  NEWS (8 new) score -0.05 conf 0.30: ",
+  "09.11 07:14 N  GPT  score +0.32 conf 0.58: Alt\u0131n son haberlerde 1%\u2019den fazla y\u00fckselip 4.100 dolar\u0131n \u00fczerine \u00e7\u0131kt\u0131; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon ve faiz bask\u0131s\u0131n\u0131 hafifletmesi k\u0131sa vadede destekleyici. Ancak g\u00fc\u00e7l\u00fc ABD istihdam verisi Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisini ve dolar deste\u011fini art\u0131r\u0131rken, \u0130ran haberleri de t\u0131rman"
  ],
  "gold_big": {
   "account": {
@@ -28169,10 +28173,6 @@
   },
   "equity_curve": [
    [
-    1793587750,
-    4963.78
-   ],
-   [
     1793587930,
     4963.78
    ],
@@ -40166,6 +40166,10 @@
    ],
    [
     1794197494,
+    4963.78
+   ],
+   [
+    1794197686,
     4963.78
    ]
   ],
@@ -40281,10 +40285,6 @@
   },
   "equity_curve": [
    [
-    1793587750,
-    4975.18
-   ],
-   [
     1793587930,
     4975.18
    ],
@@ -52278,6 +52278,10 @@
    ],
    [
     1794197494,
+    4975.18
+   ],
+   [
+    1794197686,
     4975.18
    ]
   ],
@@ -52363,10 +52367,6 @@
   },
   "equity_curve": [
    [
-    1793587750,
-    4993.28
-   ],
-   [
     1793587930,
     4993.28
    ],
@@ -64360,6 +64360,10 @@
    ],
    [
     1794197494,
+    4993.28
+   ],
+   [
+    1794197686,
     4993.28
    ]
   ]
@@ -64570,10 +64574,6 @@
   },
   "equity_curve": [
    [
-    1793587750,
-    4969.22
-   ],
-   [
     1793587930,
     4969.22
    ],
@@ -76567,6 +76567,10 @@
    ],
    [
     1794197494,
+    4969.22
+   ],
+   [
+    1794197686,
     4969.22
    ]
   ],
@@ -77935,10 +77939,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793587750,
-    5078.66
-   ],
    [
     1793587930,
     5078.66
@@ -89934,6 +89934,10 @@
    [
     1794197494,
     4544.23
+   ],
+   [
+    1794197686,
+    4544.23
    ]
   ],
   "news_calls": {
@@ -90660,10 +90664,6 @@
    "equity": 109993.83
   },
   "equity_curve": [
-   [
-    1793587750,
-    100249.82
-   ],
    [
     1793587930,
     100319.91
@@ -102659,6 +102659,10 @@
    [
     1794197494,
     109993.83
+   ],
+   [
+    1794197686,
+    109993.83
    ]
   ],
   "open": {},
@@ -102820,10 +102824,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793587750,
-    5000
-   ],
    [
     1793587930,
     5000
@@ -114818,6 +114818,10 @@
    ],
    [
     1794197494,
+    4944.42
+   ],
+   [
+    1794197686,
     4944.42
    ]
   ],
