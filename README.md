@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 22:32 (İstanbul)
+> Son güncelleme: 09.11.2026 22:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
-Son haber analizi (09.11 22:23): Claude puan **-0.10**, güven 0.30 — İran savaşına dair haberler sürüyor ve jeopolitik risk altın için destekleyici, ancak çoğu zaten fiyatlanmış durumda. Fed yetkililerinin (Goolsbee, Russell) enflasyona karşı sabırsızlık ve sıkı tonu, yaklaşan ABD enflasyon verisiyle birlikte altın üzerinde kısa vadede hafif baskı yaratabilir; zayıf dolar ise bunu kısmen dengeliyor.
+Son haber analizi (09.11 22:36): Claude puan **-0.30**, güven 0.50 — Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi ve altın düşüşünü sürdürdü, Fed yetkilileri enflasyona karşı sabırsız tonda konuşuyor. İran müzakerelerinin risk iştahını artırması güvenli liman talebini azaltırken, dolarda zayıflama sınırlı bir destek sağlıyor; İran savaşı haberleri ise zaten fiyatlanmış durumda.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — İran Devrim Muhafızları’nın füze menzili sınırlarını kaldırdığı açıklaması kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la savaşın sona erdirilmesine yönelik görüşmeler ve Fed’in enflasyon konusundaki temkinli mesajları yönü belirsizleştiriyor; yeni bir enflasyon verisi henüz yok.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.43 — ABD istihdam verilerinin Aralık faiz artırımı beklentilerini güçlendirmesi altın üzerinde baskı yaratıyor; İran görüşmelerinin risk iştahını artırması da güvenli liman talebini azaltabilir. Doların zayıflaması altını desteklese de haber akışı çelişkili ve kısa vadeli net etki hafif negatif görünüyor
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,135.79 $** (başlangıç 100,000 $, +10135.79 $ / %+10.14)
+**Hesap değeri: 110,277.59 $** (başlangıç 100,000 $, +10277.59 $ / %+10.28)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 21:48 N  NEWS (11 new) score -0.20 conf 0.40: Haberlerin çoğu Fed'in sıkı duruşunu destekliyor (Daly ve Natixis ek faiz artırımı bekliyor, Barkin enflasyonu ana risk olarak görüyor), bu da altın için olumsuz. İran'da tam ölçekli savaş riskinin azalması ve doların zayıflaması ise güvenli liman talebini zayıflatırken kısmen altını destekliyor; sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
-09.11 21:48 N  GPT  score -0.20 conf 0.43: İran’la yeniden geniş çaplı çatışma olasılığının düşük görülmesi güvenli liman talebini azaltırken, faiz artışı beklentisi ve yükselen tahvil getirileri altın üzerinde baskı kuruyor. Doların zayıflaması ve işgücü piyasasına dair kaygılar bu baskıyı kısmen dengeliyor.
-09.11 21:48 B6  karar turu: Claude «Piyasa geniş tabanlı ve büyüme hisseleri liderliğinde güçlü yükselişte, son saatte yatay-pozitif konsolidasyon sürüyor.» / GPT «Endekslerde son dakikalardaki toparlanma alımları destekliyor; ancak 14:47 itibarıyla normal seansın bitimine 73 dakika kalması ve 1:4 kaldıraç, küçük pozisyon ve kapanış öncesi çıkış disiplini gerektiriyor.»
 09.11 21:59 N  NEWS (7 new) score -0.35 conf 0.50: 
 09.11 21:59 N  GPT  score -0.28 conf 0.48: İran konusunda yeni saldırı ihtimalinin düşük görülmesi ve olası görüşmeler güvenli liman talebini azaltabilir. Buna karşılık enflasyonun Fed’i sıkı tutacağına dair mesajlar altın için baskılayıcı; işgücü piyasasına ilişkin kaygılar ve haberlerin çelişkili niteliği düşüş beklentisini sınırlıyor.
 09.11 21:59 B6  karar turu: Claude «Endeksler çip ralisiyle güçlü seyrediyor ve son saatte zirve yakınında yatay konsolide oluyor; NVDA ise şirkete özgü skandal nedeniyle ayrışıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından ivme zayıflıyor; kapanışa yaklaşık bir saat kaldığından işlemler seans sonuna kadar kapatılmalı.»
@@ -103,6 +100,9 @@ Son işlemler:
 09.11 22:23 B6  karar turu: Claude «Endeksler büyüme ve çip toparlanmasıyla güçlü seyrediyor; NVDA ise şirkete özel skandal baskısıyla ayrışıyor, ancak kapanışa az süre kaldığından hedeflere ulaşma potansiyeli sınırlı.» / GPT «Endeks rallisi son saatte duraklarken şirkete özgü haberler öne çıkıyor; kapanışa 37 dakika kalması ve 4 kat kaldıraç, seans sonrası likidite ve stop gerçekleşme riskini artırıyor.»
 09.11 22:23 B6  ALIŞ TSLA 291 adet ≈ 109,800 $ (1:4) @ 377.32 (TP 382.98, SL 373.55; ikisi de hemfikir, güven 0.50)
 09.11 22:29 B5  CLOSE short stop: -55.93 USD
+09.11 22:36 N  NEWS (9 new) score -0.30 conf 0.50: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi ve altın düşüşünü sürdürdü, Fed yetkilileri enflasyona karşı sabırsız tonda konuşuyor. İran müzakerelerinin risk iştahını artırması güvenli liman talebini azaltırken, dolarda zayıflama sınırlı bir destek sağlıyor; İran savaşı haberleri ise zaten fiyatlanmış durumda.
+09.11 22:36 N  GPT  score -0.20 conf 0.43: ABD istihdam verilerinin Aralık faiz artırımı beklentilerini güçlendirmesi altın üzerinde baskı yaratıyor; İran görüşmelerinin risk iştahını artırması da güvenli liman talebini azaltabilir. Doların zayıflaması altını desteklese de haber akışı çelişkili ve kısa vadeli net etki hafif negatif görünüyor
+09.11 22:36 B6  karar turu: Claude «Piyasa genel olarak güçlü ve teknoloji öncülüğünde yükseliyor, ancak kapanışa doğru yatay seyrediyor; NVDA'daki şirkete özgü baskı ise sürüyor.» / GPT «Endekslerdeki güçlü günlük yükseliş son saatte yataylaşırken kapanışa 24 dakika kalması ve seans dışında stop emirlerinin çalışmayabilmesi, dört kat kaldıraçla riski artırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
