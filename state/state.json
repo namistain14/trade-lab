@@ -11477,6 +11477,10 @@
    [
     1794268039,
     5000.0
+   ],
+   [
+    1794268229,
+    5000.0
    ]
   ],
   "archive": [
@@ -14551,10 +14555,6 @@
   },
   "equity_curve": [
    [
-    1793685405,
-    4868.5
-   ],
-   [
     1793685597,
     4868.5
    ],
@@ -26549,43 +26549,38 @@
    [
     1794268039,
     4868.5
+   ],
+   [
+    1794268229,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.3,
-   "reason": "\u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" s\u00f6ylemi jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131 bask\u0131layabilir; ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon endi\u015felerini azaltmas\u0131 faiz beklentileri \u00fczerinden alt\u0131 destekliyor. Yakla\u015fan ABD T\u00dcFE verisi nedeniyle net etki belirsiz, bu y\u00fczden sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.05,
+   "confidence": 0.35,
+   "reason": "Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" oldu\u011funu s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131 hafif bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon endi\u015felerini azaltmas\u0131 ve faiz beklentileri \u00fczerindeki dovish etki alt\u0131 destekliyor; yakla\u015fan ABD T\u00dcFE verisi ise y\u00f6n\u00fc belirsiz b\u0131rak\u0131yor. Net etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1794267510583,
-   "new_headlines": 12,
+   "ts": 1794268229439,
+   "new_headlines": 4,
    "key_events": [
     "ABD T\u00dcFE verisi \u00f6ncesi dolar zay\u0131flamas\u0131, alt\u0131n 4.100 dolara yakla\u015f\u0131yor",
     "Fed Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Trump \u0130ran sava\u015f\u0131n\u0131 'kazand\u0131k' dedi; Rubio m\u00fczakerelerde ilerleme yok"
    ],
    "gpt": {
-    "score": -0.4,
-    "confidence": 0.66,
-    "reason": "Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n \u201cfiilen bitti\u011fi\u201d y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da ilerleme mesajlar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Petrol\u00fcn d\u00fc\u015fmesi enflasyon ve faiz beklentileri \u00fczerinden destek sa\u011flayabilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve belirsiz.",
+    "score": -0.28,
+    "confidence": 0.48,
+    "reason": "Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n fiilen sona erdi\u011fi y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da bar\u0131\u015fa y\u00f6nelik ilerleme haberleri, k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak a\u00e7\u0131klamalar tekrarlan\u0131yor ve petrol kaynakl\u0131 enflasyonun so\u011fumas\u0131 faiz beklentileri \u00fczerinden alt\u0131na destek ",
     "key_events": [
      "Trump: \u0130ran sava\u015f\u0131 fiilen sona erdi",
-     "Ukrayna sava\u015f\u0131n\u0131 bitirmeye y\u00f6nelik ilerleme a\u00e7\u0131klamas\u0131",
-     "D\u00fc\u015fen petrol enflasyon endi\u015felerini hafifletiyor"
+     "Ukrayna sava\u015f\u0131n\u0131n biti\u015fine y\u00f6nelik ilerleme a\u00e7\u0131klamalar\u0131",
+     "Hegseth hakk\u0131nda azil oylamas\u0131 giri\u015fimi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793818610305,
-    "score": 0.5,
-    "confidence": 0.5,
-    "reason": "Demokratlar\u0131n Kongre'de \u00e7o\u011funluk kazanmas\u0131 sonras\u0131 dolar zay\u0131fl\u0131yor ve petrol yakla\u015f\u0131k %9 d\u00fc\u015f\u00fcyor; bu, enflasyon beklentilerini ve Fed'in s\u0131k\u0131la\u015fma olas\u0131l\u0131\u011f\u0131n\u0131 azaltarak alt\u0131n i\u00e7in olumlu bir makro ortam yarat\u0131yor. Ancak alt\u0131n\u0131n 3.5% s\u0131\u00e7ramas\u0131 ve dolar hareketi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda, haber ak\u0131\u015f\u0131 tekrar ediyor ve jeopolitik risk primi (\u0130ran sava\u015f\u0131n\u0131n sona erme beklentisi) g\u00fcvenli liman talebini zay\u0131flat\u0131yor, bu nedenle g\u00fcven s\u0131n\u0131rl\u0131.",
-    "new": 18,
-    "gpt_score": 0.35,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1793820367554,
     "score": 0.2,
@@ -29276,22 +29271,33 @@
     "new": 12,
     "gpt_score": -0.4,
     "gpt_confidence": 0.66
+   },
+   {
+    "ts": 1794268229439,
+    "score": -0.05,
+    "confidence": 0.35,
+    "reason": "Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" oldu\u011funu s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131 hafif bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon endi\u015felerini azaltmas\u0131 ve faiz beklentileri \u00fczerindeki dovish etki alt\u0131 destekliyor; yakla\u015fan ABD T\u00dcFE verisi ise y\u00f6n\u00fc belirsiz b\u0131rak\u0131yor. Net etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 4,
+    "gpt_score": -0.28,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-11-10",
-   "n": 14
+   "n": 15
   },
   "news_seen": [
+   "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+   "Trump says Iran war 'militarily is effectively over' - WPLG Local 10",
    "Trump says Iran war is \u2018effectively over\u2019 - The Times",
    "Gold prices today, November 10th: Global prices continue to rise, SJC gold outlook remains optimistic. - Vietnam.vn",
    "Judge denies motion to dismiss Lindsay Clancy's murder case",
    "Donald Trump says Iran war could end soon, defends Pete Hegseth, Nvidia CEO - The Jerusalem Post",
-   "Inert World War I-era explosive found in Enfield attic, police say - New Haven Register",
    "Ukraine war: 400,000 Russian deaths, the toll Vladimir Putin tried to hide - Le Monde.fr",
    "US sees progress toward bringing end to war in Ukraine \u2014 Trump - TRT World",
    "Hegseth announces overhaul of military education at Naval War College visit - What's Up Newp",
    "Sycamore Township students celebrate World War II veteran turning 100 - WLWT",
+   "Inert World War I-era explosive found in Enfield attic, police say - CT Insider",
    "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
    "Australian Dollar recovers as Iran peace hopes sink Oil ahead US CPI - FXStreet",
    "Exclusive | Taylor Swift and Travis Kelce find neighborhood allies as war over $5.35M Ohio mansion heats up - Page Six",
@@ -29306,33 +29312,29 @@
    "Wall St jumps as oil slide cools inflation worries; Nvidia slumps - StreetInsider",
    "Lawmakers are beginning to debate the future of Secretary of War, Pete Hegseth - WBIR",
    "'Positive momentum' towards end to Iran war, Trump says - Sky News",
-   "Trump says war with Iran is 'effectively over,' but US remains 'locked and loaded' - Yahoo News Singapore",
    "The High Likelihood of Another U.S. War on Iran - Modern Diplomacy",
    "Gold prices surge, silver and platinum prices simultaneously rise - Laodong.vn",
    "Trump says US war in Iran \u2018effectively over\u2019 as he plays down escalation concerns - The Guardian",
-   "CRIS Radio receives state award for accessible Revolutionary War audio tour - New Britain Herald",
    "Why Gold Miners Rose on Gold\u2019s Down Day - FXEmpire",
    "Bloomberg\u2019s Top Yen Forecaster Sees Dollar-Yen Falling to 147 Next Year - bloomingbit",
    "Akron Municipal Court honors World War II vet John Seiberling at Veterans Day remembrance - Cleveland.com",
    "Dana White declines Trump\u2019s offer to be White House press secretary",
-   "Massie suggests DeSantis as war secretary if Hegseth ousted in impeachment push - Washington Examiner",
    "Jimi Hendrix Chosen to Represent Washington on 2029 U.S. Dollar Coin - Dailyfly News",
    "Legal fight escalates over physician\u2019s sanctions for past drug use - Iowa Capital Dispatch",
    "Hegseth Faces Eight Impeachment Charges as Democrats Target Trump Administration - Kyiv Post",
    "Gold extends post-election gains as tumbling oil prices ease inflation fears (GLD:NYSEARCA) - Seeking Alpha",
    "Trump calls Iran war \u2018effectively over\u2019 after talks with Qatar PM - Al Jazeera",
+   "Pete Hegseth lectures Naval War College in R.I. Back in Washington, some are preparing to impeach him. - The Boston Globe",
    "Chicago Fed's Goolsbee Warns AI Data Center Boom Is Overheating the U.S. Economy - BigGo Finance",
    "War On Iran Is \"Effectively Over\", Says Trump After Meeting With Qatari PM - NDTV",
    "Equinox Gold Reports Q3 Results; Transformational Combination Begins to Deliver - Quantisnow",
    "Gold prices today, November 10, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
    "Equinox Gold Reports Q3 Results; Transformational Combination Begins to Deliver - GlobeNewswire",
-   "Pete Hegseth lectures Naval War College in R.I. Back in Washington, some are preparing to impeach him. - The Boston Globe",
-   "Goolsbee says AI data centers are overheating the economy \u2014 The Hill - UA.NEWS"
+   "Goolsbee says AI data centers are overheating the economy \u2014 The Hill - UA.NEWS",
+   "Trump discusses Iran war, Dana White - Central Oregon Daily"
   ]
  },
  "log": [
-  "09.11 00:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "09.11 00:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 00:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 00:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 00:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29630,7 +29632,9 @@
   "10.11 02:26 N  NEWS (11 new) score -0.10 conf 0.35: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"etkili olarak bitti\u011fi\" y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131 hafif bask\u0131l\u0131yor. Ancak petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon endi\u015felerini hafifletip faiz indirimi beklentilerini destekleyebilece\u011finden, etkisi k\u0131smen dengeleniyor; ayr\u0131ca ba\u015fl\u0131klar tekrarl\u0131 ve gelecek ABD CPI verisinin y\u00f6n\u00fc belirsiz.",
   "10.11 02:26 N  GPT  score -0.20 conf 0.45: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n fiilen sona erdi\u011fi ve Rusya-Ukrayna sava\u015f\u0131n\u0131 bitirme y\u00f6n\u00fcnde ilerleme oldu\u011fu a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 k\u0131sa vadede bask\u0131layabilir. Petrol d\u00fc\u015f\u00fc\u015f\u00fcn\u00fcn enflasyon ve Fed beklentileri \u00fczerinden yaratabilece\u011fi destek ile \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 bu etkiyi s\u0131n",
   "10.11 02:38 N  NEWS (12 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" s\u00f6ylemi jeopolitik g\u00fcvenli liman talebini azalt\u0131p alt\u0131 bask\u0131layabilir; ancak petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon endi\u015felerini azaltmas\u0131 faiz beklentileri \u00fczerinden alt\u0131 destekliyor. Yakla\u015fan ABD T\u00dcFE verisi nedeniyle net etki belirsiz, bu y\u00fczden sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "10.11 02:38 N  GPT  score -0.40 conf 0.66: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n \u201cfiilen bitti\u011fi\u201d y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da ilerleme mesajlar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Petrol\u00fcn d\u00fc\u015fmesi enflasyon ve faiz beklentileri \u00fczerinden destek sa\u011flayabilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve belirsiz."
+  "10.11 02:38 N  GPT  score -0.40 conf 0.66: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n \u201cfiilen bitti\u011fi\u201d y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da ilerleme mesajlar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Petrol\u00fcn d\u00fc\u015fmesi enflasyon ve faiz beklentileri \u00fczerinden destek sa\u011flayabilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve belirsiz.",
+  "10.11 02:50 N  NEWS (4 new) score -0.05 conf 0.35: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" oldu\u011funu s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131 hafif bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon endi\u015felerini azaltmas\u0131 ve faiz beklentileri \u00fczerindeki dovish etki alt\u0131 destekliyor; yakla\u015fan ABD T\u00dcFE verisi ise y\u00f6n\u00fc belirsiz b\u0131rak\u0131yor. Net etki s\u0131n\u0131rl\u0131 ve kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "10.11 02:50 N  GPT  score -0.28 conf 0.48: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n fiilen sona erdi\u011fi y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da bar\u0131\u015fa y\u00f6nelik ilerleme haberleri, k\u0131sa vadede g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak a\u00e7\u0131klamalar tekrarlan\u0131yor ve petrol kaynakl\u0131 enflasyonun so\u011fumas\u0131 faiz beklentileri \u00fczerinden alt\u0131na destek "
  ],
  "gold_big": {
   "account": {
@@ -29817,10 +29821,6 @@
   },
   "equity_curve": [
    [
-    1793685405,
-    4963.78
-   ],
-   [
     1793685597,
     4963.78
    ],
@@ -41814,6 +41814,10 @@
    ],
    [
     1794268039,
+    4963.78
+   ],
+   [
+    1794268229,
     4963.78
    ]
   ],
@@ -41929,10 +41933,6 @@
   },
   "equity_curve": [
    [
-    1793685405,
-    4975.18
-   ],
-   [
     1793685597,
     4975.18
    ],
@@ -53926,6 +53926,10 @@
    ],
    [
     1794268039,
+    4975.18
+   ],
+   [
+    1794268229,
     4975.18
    ]
   ],
@@ -54011,10 +54015,6 @@
   },
   "equity_curve": [
    [
-    1793685405,
-    4993.28
-   ],
-   [
     1793685597,
     4993.28
    ],
@@ -66008,6 +66008,10 @@
    ],
    [
     1794268039,
+    4993.28
+   ],
+   [
+    1794268229,
     4993.28
    ]
   ]
@@ -66218,10 +66222,6 @@
   },
   "equity_curve": [
    [
-    1793685405,
-    4969.22
-   ],
-   [
     1793685597,
     4969.22
    ],
@@ -78215,6 +78215,10 @@
    ],
    [
     1794268039,
+    4969.22
+   ],
+   [
+    1794268229,
     4969.22
    ]
   ],
@@ -79683,10 +79687,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793685405,
-    4631.09
-   ],
    [
     1793685597,
     4631.09
@@ -91682,6 +91682,10 @@
    [
     1794268039,
     4322.85
+   ],
+   [
+    1794268229,
+    4325.63
    ]
   ],
   "news_calls": {
@@ -92516,10 +92520,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793685405,
-    100750.28
-   ],
    [
     1793685597,
     100750.28
@@ -104515,6 +104515,10 @@
    [
     1794268039,
     111691.09
+   ],
+   [
+    1794268229,
+    111691.09
    ]
   ],
   "open": {},
@@ -104676,10 +104680,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793685405,
-    5066.43
-   ],
    [
     1793685597,
     5066.43
@@ -116674,6 +116674,10 @@
    ],
    [
     1794268039,
+    4944.42
+   ],
+   [
+    1794268229,
     4944.42
    ]
   ],
