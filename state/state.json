@@ -10765,6 +10765,10 @@
    [
     1794237695,
     5000.0
+   ],
+   [
+    1794237840,
+    5000.0
    ]
   ],
   "archive": [
@@ -13838,10 +13842,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793646249,
-    4868.5
-   ],
    [
     1793646430,
     4868.5
@@ -25836,6 +25836,10 @@
    ],
    [
     1794237695,
+    4868.5
+   ],
+   [
+    1794237840,
     4868.5
    ]
   ],
@@ -29105,10 +29109,6 @@
   },
   "equity_curve": [
    [
-    1793646249,
-    4963.78
-   ],
-   [
     1793646430,
     4963.78
    ],
@@ -41102,6 +41102,10 @@
    ],
    [
     1794237695,
+    4963.78
+   ],
+   [
+    1794237840,
     4963.78
    ]
   ],
@@ -41217,10 +41221,6 @@
   },
   "equity_curve": [
    [
-    1793646249,
-    4975.18
-   ],
-   [
     1793646430,
     4975.18
    ],
@@ -53214,6 +53214,10 @@
    ],
    [
     1794237695,
+    4975.18
+   ],
+   [
+    1794237840,
     4975.18
    ]
   ],
@@ -53299,10 +53303,6 @@
   },
   "equity_curve": [
    [
-    1793646249,
-    4993.28
-   ],
-   [
     1793646430,
     4993.28
    ],
@@ -65296,6 +65296,10 @@
    ],
    [
     1794237695,
+    4993.28
+   ],
+   [
+    1794237840,
     4993.28
    ]
   ]
@@ -65506,10 +65510,6 @@
   },
   "equity_curve": [
    [
-    1793646249,
-    4969.22
-   ],
-   [
     1793646430,
     4969.22
    ],
@@ -77503,6 +77503,10 @@
    ],
    [
     1794237695,
+    4969.22
+   ],
+   [
+    1794237840,
     4969.22
    ]
   ],
@@ -78934,10 +78938,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793646249,
-    4944.34
-   ],
    [
     1793646430,
     4952.36
@@ -90933,6 +90933,10 @@
    [
     1794237695,
     4376.5
+   ],
+   [
+    1794237840,
+    4376.5
    ]
   ],
   "news_calls": {
@@ -91144,6 +91148,20 @@
    "start": 100000.0,
    "positions": [
     {
+     "id": "250aed91-0249-4216-9c9b-add0d20a95e1",
+     "symbol": "AAPL",
+     "side": "long",
+     "qty": 318.0,
+     "entry": 349.67,
+     "tp": 354.75,
+     "sl": 346.01,
+     "opened_ms": 1794237673602,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
+     "cur": 350.13
+    },
+    {
      "id": "fe590636-37b4-4802-9cfe-c05912dfb9b9",
      "symbol": "NVDA",
      "side": "long",
@@ -91155,7 +91173,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: CEO skandal\u0131yla gelen sert d\u00fc\u015f\u00fc\u015ften sonra g\u00fc\u00e7l\u00fc piyasa, olumlu analist yorumlar\u0131 ve 700M$ Blackwell anla\u015fmas\u0131 toparlanmay\u0131 destekliyor. | GPT 0.66: Yeni 700 milyon dolar\u0131 a\u015fan Blackwell anla\u015fmalar\u0131 haberi ve toparlanan fiyat, s\u00fcren man\u015fet riskine ra\u011fmen k\u0131sa vadeli al\u0131m\u0131 destekliyor.",
-     "cur": 178.745
+     "cur": 178.345
     }
    ],
    "trades": [
@@ -91684,18 +91702,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 1214.52,
+    "pnl": 1111.6,
     "trades": 1,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 111208.35
+   "equity": 111105.43
   },
   "equity_curve": [
-   [
-    1793646249,
-    100499.39
-   ],
    [
     1793646430,
     100480.56
@@ -103691,6 +103705,10 @@
    [
     1794237695,
     111208.35
+   ],
+   [
+    1794237840,
+    111105.43
    ]
   ],
   "open": {
@@ -103784,7 +103802,7 @@
   "premarket_day": "2026-11-09",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "311203.62",
+   "buying_power": "177481.37",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -103875,10 +103893,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793646249,
-    5000
-   ],
    [
     1793646430,
     5000
@@ -115873,6 +115887,10 @@
    ],
    [
     1794237695,
+    4944.42
+   ],
+   [
+    1794237840,
     4944.42
    ]
   ],
