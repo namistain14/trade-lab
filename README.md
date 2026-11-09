@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 17:05 (İstanbul)
+> Son güncelleme: 09.11.2026 17:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %37.9 |
 | Ödenen komisyon/spread | 23.66 $ | 783.33 $ |
 
-**Hesap değeri: 4,406.63 $** (başlangıç 5,000 $, -593.37 $ / %-11.87)
+**Hesap değeri: 4,393.21 $** (başlangıç 5,000 $, -606.79 $ / %-12.14)
 
 Açık pozisyonlar: PAXGUSDT long @ 4116.70 (TP 4129.05 / SL 4108.47)
 
-Son haber analizi (09.11 16:56): Claude puan **+0.30**, güven 0.50 — Dolar zayıflığı ve Fed beklentilerini yumuşatan haberler altın için destekleyici, NVDA kaynaklı teknoloji satışı da güvenli liman talebini artırıyor. Buna karşılık İran diplomasisi jeopolitik risk primini azaltıyor, ABD Ekim CPI verisi beklentisi ise bir yönde net değil; altındaki yükseliş zaten kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (09.11 17:08): Claude puan **+0.15**, güven 0.40 — Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
 
-GPT (gpt-6-luna): puan **+0.32**, güven 0.43 — Doların zayıflaması ve güncel haberlerde altının yükselişinin öne çıkması kısa vadede altını destekliyor; bölgesel gerilim haberleri de güvenli liman talebine katkı sağlayabilir. Ancak İran diplomasisinin petrolü baskılaması ve yaklaşan ABD enflasyon verisi yönü belirsizleştiriyor; haberlerin bir kı
+GPT (gpt-6-luna): puan **+0.20**, güven 0.36 — Doların gerilemesi ve Ukrayna/Orta Doğu kaynaklı jeopolitik riskler altını kısa vadede hafif destekleyebilir. Ancak Orta Doğu diplomasisi gerilimi azaltabilir ve yaklaşan ABD enflasyon verisi öncesi yön belirsiz; yeni başlıkların çoğu fiyatı doğrudan etkilemiyor.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 15:43 N  GPT  score +0.18 conf 0.36: Doların NFP sonrası geri çekilmesi ve faizlerdeki düşüş altını kısa vadede destekliyor; altın da 4.100 dolar civarındaki kazanımlarını koruyor. Ancak ABD TÜFE verisi öncesindeki belirsizlik, doların Fed desteğini koruduğuna dair karşıt haberler ve İran geriliminin yatışabileceği beklentisi görünümü 
-09.11 15:55 N  NEWS (13 new) score -0.10 conf 0.35: Karışık sinyaller var: enflasyon beklentileri yüksek ve Fed sıkılaşma riski altın için olumsuz, ancak dolar zayıflığı, petrol fiyatlarındaki düşüş ve İran'da kısmi gerilim azalması (Trump'ın çekinceli tutumu, müzakere ihtimali) jeopolitik güvenli liman talebini sınırlıyor. Yaklaşan ABD TÜFE verisinin yönü belirsiz olduğundan etki zayıf ve güven düşük.
 09.11 15:55 N  GPT  score -0.18 conf 0.38: CPI için yüksek enflasyon tahmini Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir; ancak bu gerçekleşmiş veri değil. Petrolün düşmesi ve vadeli hisse senetlerindeki yükseliş de güvenli liman talebini azaltırken, süren jeopolitik riskler düşüşü sınırlıyor.
 09.11 16:08 N  NEWS (11 new) score +0.15 conf 0.30: Dolar zayıflıyor ve petrol düşüyor, bu da enflasyon ve Fed sıkılaştırma beklentilerini biraz yumuşatarak altı destekliyor. Öte yandan Orta Doğu gerilimlerinin azalması ve risk iştahındaki artış güvenli liman talebini sınırlayabilir; ayrıca CPI beklentileri çelişkili (%3,8 ile ~%6), bu da yönü belirsiz kılıyor.
 09.11 16:08 N  GPT  score +0.08 conf 0.34: Doların geri çekilmesi altına hafif destek sağlıyor; ancak petrolün düşmesi, hisselerdeki yükseliş ve İran konusunda gerilimin azaldığına dair sinyaller güvenli liman talebini sınırlıyor. CPI öncesi beklentiler ve Fed riskleri yönü belirsizleştiriyor; net etki büyük olasılıkla sınırlı.
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 16:56 N  NEWS (13 new) score +0.30 conf 0.50: Dolar zayıflığı ve Fed beklentilerini yumuşatan haberler altın için destekleyici, NVDA kaynaklı teknoloji satışı da güvenli liman talebini artırıyor. Buna karşılık İran diplomasisi jeopolitik risk primini azaltıyor, ABD Ekim CPI verisi beklentisi ise bir yönde net değil; altındaki yükseliş zaten kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 09.11 16:56 N  GPT  score +0.32 conf 0.43: Doların zayıflaması ve güncel haberlerde altının yükselişinin öne çıkması kısa vadede altını destekliyor; bölgesel gerilim haberleri de güvenli liman talebine katkı sağlayabilir. Ancak İran diplomasisinin petrolü baskılaması ve yaklaşan ABD enflasyon verisi yönü belirsizleştiriyor; haberlerin bir kı
 09.11 16:56 B5  LONG gold 25000 USD x10 @ 4116.70 (TP 4129.05, SL 4108.47; news +0.31)
+09.11 17:08 N  NEWS (12 new) score +0.15 conf 0.40: Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
+09.11 17:08 N  GPT  score +0.20 conf 0.36: Doların gerilemesi ve Ukrayna/Orta Doğu kaynaklı jeopolitik riskler altını kısa vadede hafif destekleyebilir. Ancak Orta Doğu diplomasisi gerilimi azaltabilir ve yaklaşan ABD enflasyon verisi öncesi yön belirsiz; yeni başlıkların çoğu fiyatı doğrudan etkilemiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
