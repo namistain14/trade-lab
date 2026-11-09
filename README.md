@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 20:07 (İstanbul)
+> Son güncelleme: 09.11.2026 20:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
-Son haber analizi (09.11 19:58): Claude puan **+0.05**, güven 0.30 — Başlıkların çoğu altınla ilgisiz gürültü. Dolar gerilemesi (EUR/USD yükselişi) altın için hafif destekleyici, Goolsbee'nin enflasyon konusunda sert tonu ve yüksek enflasyon beklentileri ise baskılayıcı; İran savaşı haberleri ise eski ve fiyatlanmış olduğu için güvenli liman etkisi zayıf. Net etki çok sınırlı.
+Son haber analizi (09.11 20:10): Claude puan **+0.10**, güven 0.35 — Dolar zayıflaması (EUR/USD toparlanması) ve İran savaşına ilişkin jeopolitik gerilim (Suudi petrol boru hattı saldırısı) altın için hafif destekleyici; ancak petrol düşüşü, diplomasi çabaları, ABD-Çin ticaret ateşkesinin uzatılması ve Fed'in Goolsbee'nin enflasyon yorumu bu etkiyi dengeliyor. Yaklaşan ABD CPI verisi, sonucu belirsiz bir oynaklık kaynağı olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.08**, güven 0.25 — Goolsbee’nin enflasyonla mücadele vurgusu ve hâlâ yüksek beklentiler altın için hafif olumsuz; buna karşılık doların gerilemesi destekleyici. Önemli yeni bir jeopolitik tırmanış görünmüyor ve yaklaşan ABD TÜFE verisi yönü belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.36 — Suudi petrol boru hattına saldırı kısa vadede güvenli liman talebini destekleyebilir; ancak İran savaşını bitirmeye yönelik diplomasiyle petrolün gerilemesi ve Fed’den gelen enflasyon konusunda temkinli mesajlar bu desteği sınırlıyor. Doların zayıflaması altın için hafif olumlu, fakat yaklaşan ABD T
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,403.05 $** (başlangıç 100,000 $, +10403.05 $ / %+10.40)
+**Hesap değeri: 110,677.64 $** (başlangıç 100,000 $, +10677.64 $ / %+10.68)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 19:22 N  NEWS (16 new) score -0.20 conf 0.35: 
-09.11 19:22 N  GPT  score +0.10 conf 0.39: Hürmüz’de tankerlerin vurulması güvenli liman talebini destekliyor; ancak bu başlık yeni değil ve Fed’den Goolsbee’nin enflasyon uyarısı altın için faiz kaynaklı baskı yaratabilir. Yeni haber akışı karışık olduğundan kısa vadeli net etki hafif pozitif ve belirsiz.
-09.11 19:22 B6  karar turu: Claude «Endeksler büyüme hisselerinin öncülüğünde geniş tabanlı yükselişte, ancak NVDA şirkete özel skandal haberleriyle piyasadan ayrışarak düşüyor.» / GPT «Endekslerde güçlü günlük yükseliş son saatte ivme kaybederken, yeni pozisyon için en belirgin göreli zayıflık NVDA'da görülüyor.»
-09.11 19:22 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"101166.69","code":40310000,"cost_basis":"113319.32","message":"insufficient buying power"}
 09.11 19:34 N  NEWS (7 new) score -0.20 conf 0.40: Fed Başkanı Yardımcısı düzeyindeki Goolsbee'nin enflasyonla ilgili sert (şahin) açıklamaları faiz beklentilerini yukarı çekip altın için hafif baskı yaratabilir. Dolardaki zayıflama ve Iran savaşı kaynaklı jeopolitik risk ise bu baskıyı kısmen dengeliyor; yakında açıklanacak ABD TÜFE verisi ise belirsizliği artırıyor.
 09.11 19:34 N  GPT  score +0.15 conf 0.36: Doların gerilemesi altını kısa vadede destekleyebilir; ancak enflasyon beklentilerinin değişmemesi ve Fed yetkilisinin enflasyon konusundaki temkinli tonu bu desteği sınırlıyor. Yaklaşan ABD TÜFE verisi öncesinde yön belirsizliği yüksek.
 09.11 19:34 B6  karar turu: Claude «Endeksler büyüme hisseleri öncülüğünde güçlü ama öğle saatlerinde yatay seyrediyor; NVDA şirkete özgü olumsuz haberlerle piyasadan ayrışarak zayıf kalıyor.» / GPT «Endeksler günlük bazda güçlü ancak son saatte ivmesiz; yeni işlem için en belirgin yönsel avantaj NVDA'nın şirkete özgü zayıflığında.»
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 19:58 N  NEWS (11 new) score +0.05 conf 0.30: Başlıkların çoğu altınla ilgisiz gürültü. Dolar gerilemesi (EUR/USD yükselişi) altın için hafif destekleyici, Goolsbee'nin enflasyon konusunda sert tonu ve yüksek enflasyon beklentileri ise baskılayıcı; İran savaşı haberleri ise eski ve fiyatlanmış olduğu için güvenli liman etkisi zayıf. Net etki çok sınırlı.
 09.11 19:58 N  GPT  score -0.08 conf 0.25: Goolsbee’nin enflasyonla mücadele vurgusu ve hâlâ yüksek beklentiler altın için hafif olumsuz; buna karşılık doların gerilemesi destekleyici. Önemli yeni bir jeopolitik tırmanış görünmüyor ve yaklaşan ABD TÜFE verisi yönü belirsizleştiriyor.
 09.11 19:58 B6  karar turu: Claude «Piyasa geniş tabanlı ve güçlü yükselişte, ancak öğle saatlerinde yatay seyrediyor; Nvidia ise şirkete özel skandal baskısı altında ayrışıyor.» / GPT «Endekslerde güçlü günlük yükseliş yataya dönmüşken, 1:4 kaldıraç altında geniş piyasa hareketini kovalamak yerine şirket kaynaklı göreli zayıflığa odaklanıyorum.»
+09.11 20:10 N  NEWS (11 new) score +0.10 conf 0.35: Dolar zayıflaması (EUR/USD toparlanması) ve İran savaşına ilişkin jeopolitik gerilim (Suudi petrol boru hattı saldırısı) altın için hafif destekleyici; ancak petrol düşüşü, diplomasi çabaları, ABD-Çin ticaret ateşkesinin uzatılması ve Fed'in Goolsbee'nin enflasyon yorumu bu etkiyi dengeliyor. Yaklaşan ABD CPI verisi, sonucu belirsiz bir oynaklık kaynağı olduğu için güven düşük.
+09.11 20:10 N  GPT  score +0.15 conf 0.36: Suudi petrol boru hattına saldırı kısa vadede güvenli liman talebini destekleyebilir; ancak İran savaşını bitirmeye yönelik diplomasiyle petrolün gerilemesi ve Fed’den gelen enflasyon konusunda temkinli mesajlar bu desteği sınırlıyor. Doların zayıflaması altın için hafif olumlu, fakat yaklaşan ABD T
+09.11 20:10 B6  karar turu: Claude «Büyüme hisselerinin öncülüğünde 11 sektörün tamamı yükselişte, risk iştahı güçlü; NVDA ise şirkete özgü haberlerle negatif ayrışıyor.» / GPT «Endekslerde kısa vadeli yön yukarı olsa da büyük günlük yükselişler ve 1:4 kaldıraç nedeniyle yeni girişlerde seçici olmak ve stop disiplinini korumak gerekiyor.»
+09.11 20:10 B6  ALIŞ NVDA 622 adet ≈ 110,517 $ (1:4) @ 177.68 (TP 180.35, SL 175.9; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
