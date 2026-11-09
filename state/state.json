@@ -10957,6 +10957,10 @@
    [
     1794245847,
     5000.0
+   ],
+   [
+    1794246029,
+    5000.0
    ]
   ],
   "archive": [
@@ -14030,10 +14034,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793656471,
-    4868.5
-   ],
    [
     1793656638,
     4868.5
@@ -26028,6 +26028,10 @@
    ],
    [
     1794245847,
+    4868.5
+   ],
+   [
+    1794246029,
     4868.5
    ]
   ],
@@ -29297,10 +29301,6 @@
   },
   "equity_curve": [
    [
-    1793656471,
-    4963.78
-   ],
-   [
     1793656638,
     4963.78
    ],
@@ -41294,6 +41294,10 @@
    ],
    [
     1794245847,
+    4963.78
+   ],
+   [
+    1794246029,
     4963.78
    ]
   ],
@@ -41409,10 +41413,6 @@
   },
   "equity_curve": [
    [
-    1793656471,
-    4975.18
-   ],
-   [
     1793656638,
     4975.18
    ],
@@ -53406,6 +53406,10 @@
    ],
    [
     1794245847,
+    4975.18
+   ],
+   [
+    1794246029,
     4975.18
    ]
   ],
@@ -53491,10 +53495,6 @@
   },
   "equity_curve": [
    [
-    1793656471,
-    4993.28
-   ],
-   [
     1793656638,
     4993.28
    ],
@@ -65488,6 +65488,10 @@
    ],
    [
     1794245847,
+    4993.28
+   ],
+   [
+    1794246029,
     4993.28
    ]
   ]
@@ -65698,10 +65702,6 @@
   },
   "equity_curve": [
    [
-    1793656471,
-    4969.22
-   ],
-   [
     1793656638,
     4969.22
    ],
@@ -77695,6 +77695,10 @@
    ],
    [
     1794245847,
+    4969.22
+   ],
+   [
+    1794246029,
     4969.22
    ]
   ],
@@ -79126,10 +79130,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793656471,
-    4844.42
-   ],
    [
     1793656638,
     4851.82
@@ -91125,6 +91125,10 @@
    [
     1794245847,
     4376.5
+   ],
+   [
+    1794246029,
+    4376.5
    ]
   ],
   "news_calls": {
@@ -91332,7 +91336,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 109921.85024100001,
+   "balance": 109921.85024099998,
    "start": 100000.0,
    "positions": [
     {
@@ -91347,7 +91351,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 349.39
+     "cur": 349.23
     },
     {
      "id": "1aa9943c-81cb-4e99-891e-5631a34dcf46",
@@ -91361,7 +91365,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: CEO skandal\u0131yla a\u015f\u0131r\u0131 sat\u0131lan hisse, g\u00fc\u00e7l\u00fc piyasada son bir saatte y\u00fckselen diplerle toparlan\u0131yor; ancak NYT haberi nedeniyle risk y\u00fcksek. | GPT 0.63: Olumsuz haber ak\u0131\u015f\u0131na ra\u011fmen son saatteki g\u00fc\u00e7l\u00fc toparlanma ve y\u00fckselen dipler, piyasa deste\u011fiyle tepki y\u00fckseli\u015finin devam\u0131na orta d\u00fczeyd",
-     "cur": 177.97
+     "cur": 177.86
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91375,7 +91379,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 677.61
+     "cur": 677.26
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91389,7 +91393,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 752.39
+     "cur": 752.23
     }
    ],
    "trades": [
@@ -91936,18 +91940,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 589.99,
+    "pnl": 403.82,
     "trades": 2,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 110583.82
+   "equity": 110397.65
   },
   "equity_curve": [
-   [
-    1793656471,
-    100750.28
-   ],
    [
     1793656638,
     100750.28
@@ -103943,6 +103943,10 @@
    [
     1794245847,
     110583.82
+   ],
+   [
+    1794246029,
+    110397.65
    ]
   ],
   "open": {
@@ -104149,10 +104153,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793656471,
-    5066.43
-   ],
    [
     1793656638,
     5066.43
@@ -116147,6 +116147,10 @@
    ],
    [
     1794245847,
+    4944.42
+   ],
+   [
+    1794246029,
     4944.42
    ]
   ],
