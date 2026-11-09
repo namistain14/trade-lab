@@ -11201,6 +11201,10 @@
    [
     1794256226,
     5000.0
+   ],
+   [
+    1794256407,
+    5000.0
    ]
   ],
   "archive": [
@@ -14274,10 +14278,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793670236,
-    4868.5
-   ],
    [
     1793670416,
     4868.5
@@ -26272,6 +26272,10 @@
    ],
    [
     1794256226,
+    4868.5
+   ],
+   [
+    1794256407,
     4868.5
    ]
   ],
@@ -29541,10 +29545,6 @@
   },
   "equity_curve": [
    [
-    1793670236,
-    4963.78
-   ],
-   [
     1793670416,
     4963.78
    ],
@@ -41538,6 +41538,10 @@
    ],
    [
     1794256226,
+    4963.78
+   ],
+   [
+    1794256407,
     4963.78
    ]
   ],
@@ -41653,10 +41657,6 @@
   },
   "equity_curve": [
    [
-    1793670236,
-    4975.18
-   ],
-   [
     1793670416,
     4975.18
    ],
@@ -53650,6 +53650,10 @@
    ],
    [
     1794256226,
+    4975.18
+   ],
+   [
+    1794256407,
     4975.18
    ]
   ],
@@ -53735,10 +53739,6 @@
   },
   "equity_curve": [
    [
-    1793670236,
-    4993.28
-   ],
-   [
     1793670416,
     4993.28
    ],
@@ -65732,6 +65732,10 @@
    ],
    [
     1794256226,
+    4993.28
+   ],
+   [
+    1794256407,
     4993.28
    ]
   ]
@@ -65942,10 +65946,6 @@
   },
   "equity_curve": [
    [
-    1793670236,
-    4969.22
-   ],
-   [
     1793670416,
     4969.22
    ],
@@ -77939,6 +77939,10 @@
    ],
    [
     1794256226,
+    4969.22
+   ],
+   [
+    1794256407,
     4969.22
    ]
   ],
@@ -79391,10 +79395,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793670236,
-    4715.03
-   ],
    [
     1793670416,
     4717.31
@@ -91390,6 +91390,10 @@
    [
     1794256226,
     4320.57
+   ],
+   [
+    1794256407,
+    4320.57
    ]
   ],
   "news_calls": {
@@ -91597,7 +91601,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 108842.36949499999,
+   "balance": 108852.200195,
    "start": 100000.0,
    "positions": [
     {
@@ -91612,7 +91616,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 351.07
+     "cur": 350.75
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91626,7 +91630,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 681.075
+     "cur": 680.75
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91640,7 +91644,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 754.8301
+     "cur": 754.44
     },
     {
      "id": "c153971f-1539-4812-bde5-2f14b59a14cd",
@@ -91654,7 +91658,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Robotaxi geni\u015flemesi ve g\u00fcne\u015f paneli fabrikas\u0131 haberleri taze, fiyat g\u00fcn zirvesine yak\u0131n s\u0131k\u0131 bir konsolidasyonda ve piyasa g\u00fc\u00e7l\u00fc. | GPT 0.58: Yeni robotaksi geni\u015flemesi ve fabrika yat\u0131r\u0131m haberleri, yatay konsolidasyondan yukar\u0131 devam i\u00e7in \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 381.11
+     "cur": 381.0
     }
    ],
    "trades": [
@@ -92219,18 +92223,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 1632.74,
+    "pnl": 1432.94,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 111626.57
+   "equity": 111426.77
   },
   "equity_curve": [
-   [
-    1793670236,
-    100750.28
-   ],
    [
     1793670416,
     100750.28
@@ -104226,6 +104226,10 @@
    [
     1794256226,
     111626.57
+   ],
+   [
+    1794256407,
+    111426.77
    ]
   ],
   "open": {
@@ -104432,10 +104436,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793670236,
-    5066.43
-   ],
    [
     1793670416,
     5066.43
@@ -116430,6 +116430,10 @@
    ],
    [
     1794256226,
+    4944.42
+   ],
+   [
+    1794256407,
     4944.42
    ]
   ],
