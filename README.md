@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 16:40 (İstanbul)
+> Son güncelleme: 09.11.2026 16:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,432.40 $** (başlangıç 5,000 $, -567.60 $ / %-11.35)
 
-Son haber analizi (09.11 16:32): Claude puan **+0.15**, güven 0.35 — Haberler karışık: ABD doları zayıflaması, Nvidia kaynaklı teknoloji satışında güvenli liman talebi ve fiyat hareketindeki %1,65'lik yükseliş altına destek veriyor; ancak iş verisi sonrası tahvil faizlerinin yükselmesi, Trump'ın İran'da kısıtlama sinyali (jeopolitik primi azaltıyor) ve beklenen yüksek enflasyon verisi (CPI %3,8) sıkılaşma riskini artırarak sınırlı bir düşüş baskısı yaratıyor. Net etki hafif pozitif, düşük güvenilirlik.
+Son haber analizi (09.11 16:44): Claude puan **+0.10**, güven 0.35 — Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.34 — Doların gerilemesi ve yeni Orta Doğu gerilimi altına hafif destek verebilir; ancak bölgeye ilişkin endişelerin hafiflediği haberleri, yaklaşan enflasyon verisi ve güçlü istihdam sonrası faiz beklentileri yönü belirsizleştiriyor. Haber akışı çelişkili olduğundan kısa vadeli etki sınırlı görünüyor.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 15:19 N  NEWS (7 new) score +0.20 conf 0.40: Dolar genel olarak zayıf seyrediyor ve petrol fiyatlarındaki düşüş enflasyon endişelerini azaltarak faiz beklentilerini biraz yumuşatabilir; bu altın için hafif olumlu. Buna karşılık İran'la barış umutları jeopolitik korku primini azaltıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizlik yaratıyor, bu nedenle etki sınırlı ve karışık.
-09.11 15:19 N  GPT  score +0.15 conf 0.34: Ukrayna’daki yeni uzun menzilli saldırılar ve İran’ın müzakereler için şartlı tutumu güvenli liman talebini bir miktar destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak İran savaşının sona erebileceğine dair umutlar, güçlü risk iştahı ve beklenen ABD enflasyon verisi yönü belirsizl
 09.11 15:31 N  NEWS (11 new) score +0.10 conf 0.40: Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
 09.11 15:31 N  GPT  score +0.10 conf 0.31: Doların geri çekilmesi altını hafifçe destekliyor; ancak İran’da görüşmelerin yeniden başlayabileceği haberi ve düşen petrol fiyatları jeopolitik güvenli liman talebini azaltabilir. Enflasyon verisi ve Fed konuşmaları öncesinde yön konusunda belirsizlik yüksek.
 09.11 15:43 N  NEWS (17 new) score -0.10 conf 0.35: 
@@ -101,6 +99,8 @@ Son işlemler:
 09.11 16:32 N  NEWS (14 new) score +0.15 conf 0.35: Haberler karışık: ABD doları zayıflaması, Nvidia kaynaklı teknoloji satışında güvenli liman talebi ve fiyat hareketindeki %1,65'lik yükseliş altına destek veriyor; ancak iş verisi sonrası tahvil faizlerinin yükselmesi, Trump'ın İran'da kısıtlama sinyali (jeopolitik primi azaltıyor) ve beklenen yüksek enflasyon verisi (CPI %3,8) sıkılaşma riskini artırarak sınırlı bir düşüş baskısı yaratıyor. Net etki hafif pozitif, düşük güvenilirlik.
 09.11 16:32 N  GPT  score +0.15 conf 0.34: Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
 09.11 16:32 B6  seans öncesi görüş: Vadeli işlemler Hürmüz umutları ve çip toparlanmasıyla güçlü seyrediyor; ancak duyarlılık hâlâ aşırı korku bölgesinde olduğundan seçici hareket etmek gerekiyor.
+09.11 16:44 N  NEWS (12 new) score +0.10 conf 0.35: Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
+09.11 16:44 N  GPT  score +0.18 conf 0.34: Doların gerilemesi ve yeni Orta Doğu gerilimi altına hafif destek verebilir; ancak bölgeye ilişkin endişelerin hafiflediği haberleri, yaklaşan enflasyon verisi ve güçlü istihdam sonrası faiz beklentileri yönü belirsizleştiriyor. Haber akışı çelişkili olduğundan kısa vadeli etki sınırlı görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
