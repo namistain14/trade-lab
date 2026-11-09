@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 08:36 (İstanbul)
+> Son güncelleme: 09.11.2026 08:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,527.87 $** (başlangıç 5,000 $, -472.13 $ / %-9.44)
+**Hesap değeri: 4,524.53 $** (başlangıç 5,000 $, -475.47 $ / %-9.51)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
-Son haber analizi (09.11 08:27): Claude puan **+0.35**, güven 0.50 — Petrol fiyatlarının gerilemesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflattığı için altın yukarı yönlü destek buluyor; yeni İran savaşı tırmanışı güvenli liman talebini de destekliyor. Ancak ABD verileri sonrası dolar ve Fed bahisleri ile ABD CPI öncesi belirsizlik, ayrıca Trump'ın barış görüşmesi açıklaması jeopolitik primi azaltabileceği için etkiyi sınırlıyor.
+Son haber analizi (09.11 08:39): Claude puan **+0.40**, güven 0.50 — Yeni haberlerde altın, zayıflayan dolar ve petrol fiyatlarının enflasyon endişelerini azaltmasıyla yükseliyor; bu da faiz artırımı beklentilerini geriletip altını destekliyor. Ancak ABD'nin güçlü işgücü verisi ve Fed beklentileri nedeniyle dolar zaman zaman toparlanabilir, İran savaşında müzakere haberleri de jeopolitik risk primini azaltabilir; bu yüzden sinyal orta düzeyde pozitif.
 
-GPT (gpt-6-luna): puan **+0.45**, güven 0.56 — İran nükleer görüşmelerinin çökmesi ve savaşın tırmanması kısa vadede güvenli liman talebini destekliyor; düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması da altın için olumlu. Ancak altın zaten belirgin yükselmişken doların Fed beklentileriyle güçlü kalması yükselişi sınırlayabilir.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.48 — Yumuşak dolar ve düşen petrolün enflasyon/faiz artışı kaygılarını azaltması altını destekliyor; İran gerilimi de güvenli liman talebini canlı tutabilir. Ancak altın zaten belirgin yükselmiş, Fed beklentileri doları destekliyor ve haber akışı çelişkili olduğundan kısa vadeli ek yükselişin güveni sını
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 07:38 N  GPT  score +0.20 conf 0.40: Düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması altını destekliyor; fiyatın 4.100 doların üzerine toparlandığı bildiriliyor. Buna karşılık güçlü ABD istihdam verisi doları ve Fed’in sıkı kalacağı beklentisini destekleyerek yükselişi sınırlayabilir; İran haberleri de net bir yeni tırman
-09.11 07:50 N  NEWS (14 new) score +0.30 conf 0.50: Petrol fiyatlarının düşmesi enflasyon ve faiz artırımı beklentilerini zayıflatıyor, bu da altın için olumlu; altın 1,6% toparlandı. Ancak İran savaşının sona erebileceği haberleri jeopolitik risk primini azaltarak altını baskılayabilir, güçlü ABD istihdam verisi ve dolar toparlanması da kısa vadede negatif. Yaklaşan ABD TÜFE verisi nedeniyle sinyaller karışık olduğundan güven orta düzeyde.
 09.11 07:50 N  GPT  score +0.25 conf 0.55: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı baskısını hafifletmesi ile doların zayıf seyri altını destekliyor. İran konusunda gerilimin azalması güvenli liman talebini sınırlarken güçlü ABD istihdam verisi ve yaklaşan enflasyon sınaması görünümü belirsizleştiriyor.
 09.11 07:59 B5P  NEWS (45 new) score -0.40 conf 0.50: Brent 98 doların altına indi ve haftalık yaklaşık %16 düşüş yaşandı; Trump'ın İran'a yeni saldırıların "pek olası olmadığını" söylemesi ve Xi/Putin ile İran savaşını bitirme görüşmelerini açıklaması kısa vadede baskı yaratıyor. Buna karşın Hürmüz yakınında tanker yangını, Riyad'da Aramco kulesine Husi füze enkazı ve Rusya'daki rafineriye Ukrayna saldırısı gibi arz riskleri fiyatın tamamen düşmesini sınırlayabilir, bu yüzden sinyaller karışık.
 09.11 07:59 B5P  GPT  score -0.45 conf 0.58: İran’a yeni saldırı ihtimalinin düşük görülmesi ve barış görüşmelerine ilişkin umutlar, jeopolitik risk primini azaltarak Brent’i kısa vadede aşağı çekiyor; fiyatın 98 doların altına inmesi de bu yönü doğruluyor. Hürmüz yakınındaki tanker yangını, Aramco tesisine yönelik saldırı ve Rusya’daki rafine
@@ -103,6 +101,8 @@ Son işlemler:
 09.11 08:15 N  GPT  score -0.12 conf 0.35: Mideast endişelerinin azalması ve Fed beklentileriyle doların güçlü kalması kısa vadede altını baskılayabilir. Ancak düşen petrolün faiz artışı beklentilerini hafifletmesi ve altındaki yükseliş bu etkiyi dengeliyor; sinyal karışık.
 09.11 08:27 N  NEWS (4 new) score +0.35 conf 0.50: Petrol fiyatlarının gerilemesi enflasyon endişelerini azaltıp faiz artırımı beklentilerini zayıflattığı için altın yukarı yönlü destek buluyor; yeni İran savaşı tırmanışı güvenli liman talebini de destekliyor. Ancak ABD verileri sonrası dolar ve Fed bahisleri ile ABD CPI öncesi belirsizlik, ayrıca Trump'ın barış görüşmesi açıklaması jeopolitik primi azaltabileceği için etkiyi sınırlıyor.
 09.11 08:27 N  GPT  score +0.45 conf 0.56: İran nükleer görüşmelerinin çökmesi ve savaşın tırmanması kısa vadede güvenli liman talebini destekliyor; düşen petrolün enflasyon ve faiz artışı kaygılarını azaltması da altın için olumlu. Ancak altın zaten belirgin yükselmişken doların Fed beklentileriyle güçlü kalması yükselişi sınırlayabilir.
+09.11 08:39 N  NEWS (8 new) score +0.40 conf 0.50: Yeni haberlerde altın, zayıflayan dolar ve petrol fiyatlarının enflasyon endişelerini azaltmasıyla yükseliyor; bu da faiz artırımı beklentilerini geriletip altını destekliyor. Ancak ABD'nin güçlü işgücü verisi ve Fed beklentileri nedeniyle dolar zaman zaman toparlanabilir, İran savaşında müzakere haberleri de jeopolitik risk primini azaltabilir; bu yüzden sinyal orta düzeyde pozitif.
+09.11 08:39 N  GPT  score +0.35 conf 0.48: Yumuşak dolar ve düşen petrolün enflasyon/faiz artışı kaygılarını azaltması altını destekliyor; İran gerilimi de güvenli liman talebini canlı tutabilir. Ancak altın zaten belirgin yükselmiş, Fed beklentileri doları destekliyor ve haber akışı çelişkili olduğundan kısa vadeli ek yükselişin güveni sını
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
