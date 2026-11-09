@@ -10877,6 +10877,10 @@
    [
     1794242397,
     5000.0
+   ],
+   [
+    1794242577,
+    5000.0
    ]
   ],
   "archive": [
@@ -13950,10 +13954,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793652503,
-    4868.5
-   ],
    [
     1793652693,
     4868.5
@@ -25948,6 +25948,10 @@
    ],
    [
     1794242397,
+    4868.5
+   ],
+   [
+    1794242577,
     4868.5
    ]
   ],
@@ -29217,10 +29221,6 @@
   },
   "equity_curve": [
    [
-    1793652503,
-    4963.78
-   ],
-   [
     1793652693,
     4963.78
    ],
@@ -41214,6 +41214,10 @@
    ],
    [
     1794242397,
+    4963.78
+   ],
+   [
+    1794242577,
     4963.78
    ]
   ],
@@ -41329,10 +41333,6 @@
   },
   "equity_curve": [
    [
-    1793652503,
-    4975.18
-   ],
-   [
     1793652693,
     4975.18
    ],
@@ -53326,6 +53326,10 @@
    ],
    [
     1794242397,
+    4975.18
+   ],
+   [
+    1794242577,
     4975.18
    ]
   ],
@@ -53411,10 +53415,6 @@
   },
   "equity_curve": [
    [
-    1793652503,
-    4993.28
-   ],
-   [
     1793652693,
     4993.28
    ],
@@ -65408,6 +65408,10 @@
    ],
    [
     1794242397,
+    4993.28
+   ],
+   [
+    1794242577,
     4993.28
    ]
   ]
@@ -65618,10 +65622,6 @@
   },
   "equity_curve": [
    [
-    1793652503,
-    4969.22
-   ],
-   [
     1793652693,
     4969.22
    ],
@@ -77615,6 +77615,10 @@
    ],
    [
     1794242397,
+    4969.22
+   ],
+   [
+    1794242577,
     4969.22
    ]
   ],
@@ -79046,10 +79050,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793652503,
-    4860.94
-   ],
    [
     1793652693,
     4868.15
@@ -91045,6 +91045,10 @@
    [
     1794242397,
     4376.5
+   ],
+   [
+    1794242577,
+    4376.5
    ]
   ],
   "news_calls": {
@@ -91252,7 +91256,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 109925.150195,
+   "balance": 109921.855195,
    "start": 100000.0,
    "positions": [
     {
@@ -91281,7 +91285,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 675.12
+     "cur": 675.63
     },
     {
      "id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
@@ -91295,7 +91299,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor.",
-     "cur": 749.77
+     "cur": 750.215
     }
    ],
    "trades": [
@@ -91842,18 +91846,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": -67.03,
+    "pnl": 39.19,
     "trades": 2,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 109926.8
+   "equity": 110033.02
   },
   "equity_curve": [
-   [
-    1793652503,
-    96720.26
-   ],
    [
     1793652693,
     101857.0
@@ -103849,6 +103849,10 @@
    [
     1794242397,
     109926.8
+   ],
+   [
+    1794242577,
+    110033.02
    ]
   ],
   "open": {
@@ -103953,7 +103957,7 @@
   "premarket_day": "2026-11-09",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "121288.24",
+   "buying_power": "121585.65",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -104044,10 +104048,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793652503,
-    5066.43
-   ],
    [
     1793652693,
     5066.43
@@ -116042,6 +116042,10 @@
    ],
    [
     1794242397,
+    4944.42
+   ],
+   [
+    1794242577,
     4944.42
    ]
   ],
