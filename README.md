@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 00:58 (İstanbul)
+> Son güncelleme: 10.11.2026 01:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %36.8 |
 | Ödenen komisyon/spread | 0.00 $ | 806.99 $ |
 
-**Hesap değeri: 4,336.91 $** (başlangıç 5,000 $, -663.09 $ / %-13.26)
+**Hesap değeri: 4,322.73 $** (başlangıç 5,000 $, -677.27 $ / %-13.55)
 
 Açık pozisyonlar: PAXGUSDT long @ 4124.44 (TP 4136.82 / SL 4116.20)
 
-Son haber analizi (10.11 00:49): Claude puan **+0.30**, güven 0.45 — Petrol fiyatlarının düşmesi ve zayıflayan doların altını desteklemesi, Fed faiz artırımı beklentilerini zayıflatarak kısa vadede altı yukarı çekiyor. Buna karşılık Trump'ın Iran savaşının sonuna dair "momentum" söylemleri jeopolitik güvenli liman talebini biraz azaltıyor ve sıcak enflasyon haberleri faiz tarafında baskı yaratabilir; bu nedenle sinyal orta düzeyde pozitif ama karışık.
+Son haber analizi (10.11 01:01): Claude puan **+0.10**, güven 0.35 — Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.38 — Petrolün ve doların gerilemesi altına kısa vadede destek sağlıyor; ancak Trump’ın Katar arabulucusuyla görüşmesi ve savaşın sona ermesine yönelik ivme açıklaması güvenli liman talebini azaltabilir. Enflasyon ve Fed beklentileri de yönü belirsizleştirdiğinden etki sınırlı ve temkinli biçimde pozitif.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.35 — Fed Yönetim Kurulu üyesi Lisa Cook’un görevden alınmasına yönelik olası girişim, Fed’in bağımsızlığına dair kaygıları ve altına talebi artırabilir. Ancak İran savaşının sona ermesine yönelik diplomatik temaslar güvenli liman talebini sınırlıyor; haber akışı çelişkili ve kısa vadeli fiyat etkisi beli
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 23:48 B6  CLOSE long QQQ seans sonu: +996.60 USD
-09.11 23:48 B6  CLOSE long SPY seans sonu: +281.01 USD
 09.11 23:48 B6  CLOSE long TSLA seans sonu: +1105.07 USD
 09.11 23:48 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 10.11 00:00 N  NEWS (9 new) score +0.10 conf 0.35: Altın, petrol ve doların gerilemesiyle toparlandı, bu kısa vadede destekleyici. Ancak Fed'in faiz artırımı beklentileri (Daly, Barkin) ve İran'la müzakere haberlerinin risk iştahını artırması altını sınırlıyor; Hegseth'e yönelik görevden alma girişimi ise jeopolitik açıdan büyük yeni bir şok değil.
@@ -103,6 +101,8 @@ Son işlemler:
 10.11 00:49 N  NEWS (11 new) score +0.30 conf 0.45: Petrol fiyatlarının düşmesi ve zayıflayan doların altını desteklemesi, Fed faiz artırımı beklentilerini zayıflatarak kısa vadede altı yukarı çekiyor. Buna karşılık Trump'ın Iran savaşının sonuna dair "momentum" söylemleri jeopolitik güvenli liman talebini biraz azaltıyor ve sıcak enflasyon haberleri faiz tarafında baskı yaratabilir; bu nedenle sinyal orta düzeyde pozitif ama karışık.
 10.11 00:49 N  GPT  score +0.20 conf 0.38: Petrolün ve doların gerilemesi altına kısa vadede destek sağlıyor; ancak Trump’ın Katar arabulucusuyla görüşmesi ve savaşın sona ermesine yönelik ivme açıklaması güvenli liman talebini azaltabilir. Enflasyon ve Fed beklentileri de yönü belirsizleştirdiğinden etki sınırlı ve temkinli biçimde pozitif.
 10.11 00:49 B5  LONG gold 25000 USD x10 @ 4124.44 (TP 4136.82, SL 4116.20; news +0.25)
+10.11 01:01 N  NEWS (8 new) score +0.10 conf 0.35: Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
+10.11 01:01 N  GPT  score +0.15 conf 0.35: Fed Yönetim Kurulu üyesi Lisa Cook’un görevden alınmasına yönelik olası girişim, Fed’in bağımsızlığına dair kaygıları ve altına talebi artırabilir. Ancak İran savaşının sona ermesine yönelik diplomatik temaslar güvenli liman talebini sınırlıyor; haber akışı çelişkili ve kısa vadeli fiyat etkisi beli
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
