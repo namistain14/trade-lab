@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 22:56 (İstanbul)
+> Son güncelleme: 09.11.2026 23:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
-Son haber analizi (09.11 22:48): Claude puan **-0.20**, güven 0.40 — Haberlerin ağırlığı altın için hafif negatif: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi, tahvil getirileri yükseldi ve İran müzakere umutları risk iştahını artırıp güvenli liman talebini azalttı. Buna karşılık Hegseth'e yönelik impeachment girişimi ve İran savaşı haberleri jeopolitik risk desteği sağlayabilir, Eylül enflasyonundan sonra Ekim CPI'nin yavaşlaması beklentisi ise bir miktar dengeleyici etki yaratabilir; sinyaller karışık olduğu için güven düşük.
+Son haber analizi (09.11 23:00): Claude puan **-0.30**, güven 0.50 — Haberlerin ağırlığı Fed'in sıkı duruşuna ve yükselen tahvil getirilerine işaret ediyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" başlığı ve Chicago Fed'in aşırı ısınma uyarısı altın için baskı yaratıyor. Buna karşılık İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk dengesini kısmen destekliyor, ancak İran müzakere haberleri risk iştahını artırıp bu güvenli liman etkisini zayıflatıyor; bu çelişkiler güveni sınırlıyor.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.38 — ABD istihdam verisinin Aralık faiz artırımı beklentilerini güçlendirmesi ve tahvil getirilerindeki yükseliş kısa vadede altın üzerinde baskı oluşturuyor. İran’ın füze menzili sınırlarını kaldırması güvenli liman talebini destekleyebilir; ancak İran görüşmelerinin risk iştahını artırdığı haberleri bu
+GPT (gpt-6-luna): puan **-0.25**, güven 0.38 — Talep ve enflasyon risklerine dair Fed uyarıları ile yükselen tahvil getirileri, kısa vadede altına baskı yapıyor. Doların zayıflaması ve İran kaynaklı gerilim haberleri bu baskıyı kısmen dengeliyor; haber akışı karışık ve bazı başlıkların piyasa etkisi belirsiz.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,043.24 $** (başlangıç 100,000 $, +11043.24 $ / %+11.04)
+**Hesap değeri: 111,142.79 $** (başlangıç 100,000 $, +11142.79 $ / %+11.14)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13); TSLA long @ 377.38 (TP 382.98 / SL 373.55)
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 22:11 N  NEWS (28 new) score -0.20 conf 0.40: Fed yetkililerinin (Goolsbee, Russell, Natixis) sıkılaştırıcı tonu ve sıcak ABD enflasyonu, faiz artışı beklentilerini destekleyerek altın için olumsuz. İran'da tam ölçekli savaş ihtimalinin düşük görülmesi ve barış görüşmelerinin olası yeniden başlaması güvenli liman talebini azaltıyor; buna karşın altın, petrol düşüşüyle birlikte bir miktar yükseliyor, bu da sinyalleri karışık kılıyor.
-09.11 22:11 N  GPT  score -0.27 conf 0.55: İran’la görüşmelerin yeniden başlayabileceği ve yeni saldırıların olası görülmediği yönündeki haberler güvenli liman talebini azaltarak altını kısa vadede baskılayabilir. Enflasyona ilişkin Fed’in temkinli/hawkish mesajları da olumsuz; ancak haberler kesin bir politika değişikliği veya yeni bir geli
-09.11 22:11 B6  karar turu: Claude «Endeksler çip toparlanmasıyla güçlü ve yatay seyrediyor; kapanışa kadar Nvidia'daki göreceli zayıflık en belirgin fırsat.» / GPT «Endekslerde yükseliş ivmesi yataylaşırken şirket haberleri ayrışma yaratıyor; normal seansın bitmesine 49 dakika kalması ve 4 kat kaldıraç nedeniyle pozisyonları küçük tutup kapanışta kapatmak uygun.»
 09.11 22:11 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"99844.83","code":40310000,"cost_basis":"113020.87","message":"insufficient buying power"}
 09.11 22:23 N  NEWS (12 new) score -0.10 conf 0.30: İran savaşına dair haberler sürüyor ve jeopolitik risk altın için destekleyici, ancak çoğu zaten fiyatlanmış durumda. Fed yetkililerinin (Goolsbee, Russell) enflasyona karşı sabırsızlık ve sıkı tonu, yaklaşan ABD enflasyon verisiyle birlikte altın üzerinde kısa vadede hafif baskı yaratabilir; zayıf dolar ise bunu kısmen dengeliyor.
 09.11 22:23 N  GPT  score +0.25 conf 0.38: İran Devrim Muhafızları’nın füze menzili sınırlarını kaldırdığı açıklaması kısa vadede güvenli liman talebini destekleyebilir. Ancak İran’la savaşın sona erdirilmesine yönelik görüşmeler ve Fed’in enflasyon konusundaki temkinli mesajları yönü belirsizleştiriyor; yeni bir enflasyon verisi henüz yok.
@@ -103,6 +100,9 @@ Son işlemler:
 09.11 22:48 N  NEWS (15 new) score -0.20 conf 0.40: Haberlerin ağırlığı altın için hafif negatif: ABD istihdam verisi Aralık faiz artırımı beklentilerini güçlendirdi, tahvil getirileri yükseldi ve İran müzakere umutları risk iştahını artırıp güvenli liman talebini azalttı. Buna karşılık Hegseth'e yönelik impeachment girişimi ve İran savaşı haberleri jeopolitik risk desteği sağlayabilir, Eylül enflasyonundan sonra Ekim CPI'nin yavaşlaması beklentisi ise bir miktar dengeleyici etki yaratabilir; sinyaller karışık olduğu için güven düşük.
 09.11 22:48 N  GPT  score -0.15 conf 0.38: ABD istihdam verisinin Aralık faiz artırımı beklentilerini güçlendirmesi ve tahvil getirilerindeki yükseliş kısa vadede altın üzerinde baskı oluşturuyor. İran’ın füze menzili sınırlarını kaldırması güvenli liman talebini destekleyebilir; ancak İran görüşmelerinin risk iştahını artırdığı haberleri bu
 09.11 22:48 B6  karar turu: Claude «Endeksler çiplerin toparlanmasıyla güçlü kapanışa giderken NVDA şirkete özgü skandal baskısıyla ayrışıyor; kapanış öncesi yeni pozisyon için risk/getiri zayıf.» / GPT «Endeksler güçlü ancak ivme sınırlı; kapanışa 12 dakika kala 1–3 saatlik işlem seans dışına taşacağından bracket emirlerinin geçerliliği ve likidite riski kritik.»
+09.11 23:00 N  NEWS (10 new) score -0.30 conf 0.50: Haberlerin ağırlığı Fed'in sıkı duruşuna ve yükselen tahvil getirilerine işaret ediyor; "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets" başlığı ve Chicago Fed'in aşırı ısınma uyarısı altın için baskı yaratıyor. Buna karşılık İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk dengesini kısmen destekliyor, ancak İran müzakere haberleri risk iştahını artırıp bu güvenli liman etkisini zayıflatıyor; bu çelişkiler güveni sınırlıyor.
+09.11 23:00 N  GPT  score -0.25 conf 0.38: Talep ve enflasyon risklerine dair Fed uyarıları ile yükselen tahvil getirileri, kısa vadede altına baskı yapıyor. Doların zayıflaması ve İran kaynaklı gerilim haberleri bu baskıyı kısmen dengeliyor; haber akışı karışık ve bazı başlıkların piyasa etkisi belirsiz.
+09.11 23:00 B6  karar turu: Claude «Teknoloji ve geniş piyasa güçlü bir ralliyle günü kapattı, ancak NVDA şirkete özgü skandal haberiyle ayrıştı ve seans sonrası yeni pozisyon için net bir avantaj yok.» / GPT «Endekslerde güçlü günlük yükseliş son saatte yataylaşırken, 16:00 sonrası 4 kat kaldıraçla işlem için sunulan veriler yeterli yön avantajı göstermiyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
