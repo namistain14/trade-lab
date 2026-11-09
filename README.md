@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 17:35 (İstanbul)
+> Son güncelleme: 09.11.2026 17:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -111.83 $ | -567.60 $ |
-| İşlem sayısı | 2 | 66 |
-| Kazanma oranı | %0.0 | %37.9 |
-| Ödenen komisyon/spread | 23.66 $ | 783.33 $ |
+| Net kâr/zarar | -167.73 $ | -623.50 $ |
+| İşlem sayısı | 3 | 67 |
+| Kazanma oranı | %0.0 | %37.3 |
+| Ödenen komisyon/spread | 35.48 $ | 795.15 $ |
 
-**Hesap değeri: 4,402.68 $** (başlangıç 5,000 $, -597.32 $ / %-11.95)
-
-Açık pozisyonlar: PAXGUSDT long @ 4116.70 (TP 4129.05 / SL 4108.47)
+**Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
 Son haber analizi (09.11 17:32): Claude puan **+0.20**, güven 0.30 — Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 17:36 | PAXGUSDT | long | -55.90 $ | stop |
 | 09.11 14:18 | PAXGUSDT | short | -55.93 $ | stop |
 | 09.11 09:20 | PAXGUSDT | long | -55.90 $ | stop |
 | 06.11 18:11 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:47 | PAXGUSDT | short | -55.94 $ | stop |
-| 06.11 17:25 | PAXGUSDT | short | -55.94 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -73,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %46.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 110,118.20 $** (başlangıç 100,000 $, +10118.20 $ / %+10.12)
+**Hesap değeri: 110,344.25 $** (başlangıç 100,000 $, +10344.25 $ / %+10.34)
 
 Açık pozisyonlar: QQQ long @ 665.52 (TP 673.57 / SL 656.98)
 
@@ -90,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 16:32 N  GPT  score +0.15 conf 0.34: Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
 09.11 16:32 B6  seans öncesi görüş: Vadeli işlemler Hürmüz umutları ve çip toparlanmasıyla güçlü seyrediyor; ancak duyarlılık hâlâ aşırı korku bölgesinde olduğundan seçici hareket etmek gerekiyor.
 09.11 16:44 N  NEWS (12 new) score +0.10 conf 0.35: Dolar yeni haberlerde hafif zayıflıyor ve Orta Doğu/AI kaygıları azalıyor; bu altın için hafif destekleyici. Ancak İran savaşının sürmesi güvenli liman talebini canlı tutuyor, öte yandan ABD enflasyon verisi (Ekim TÜFE beklentisi %3,8) ve Fed beklentileri belirsizliği artırıyor; güçlü istihdam verisi ve yükselen tahviller ise altın için baskı oluşturmuş durumda. Sinyaller çelişkili ve bir kısmı eski haber olduğundan güven düşük.
 09.11 16:44 N  GPT  score +0.18 conf 0.34: Doların gerilemesi ve yeni Orta Doğu gerilimi altına hafif destek verebilir; ancak bölgeye ilişkin endişelerin hafiflediği haberleri, yaklaşan enflasyon verisi ve güçlü istihdam sonrası faiz beklentileri yönü belirsizleştiriyor. Haber akışı çelişkili olduğundan kısa vadeli etki sınırlı görünüyor.
@@ -105,6 +102,7 @@ Son işlemler:
 09.11 17:33 N  GPT  score +0.25 conf 0.42: Doların geri çekilmesi ve İran’da yakın vadeli anlaşma beklentisinin zayıf olması altını kısa vadede destekleyebilir; Etiyopya-Eritre gerilimi de sınırlı güvenli liman talebi yaratıyor. Ancak sıcak enflasyon, yükselen tahvil getirileri ve Fed’in daha şahin kalma riski bu desteği dengeliyor.
 09.11 17:33 B6  karar turu: Claude «Piyasa, ABD-Çin ticaret gerginliğinin azalmasıyla pozitif seyrediyor; NVDA ise şirkete özel skandalla ayrışarak zayıf kalıyor.» / GPT «Verilen akış teknoloji hisselerinde seçici alımı destekliyor; dört kat kaldıraçta ilişkili QQQ ve AAPL pozisyonlarının toplam riski sınırlı tutulmalı.»
 09.11 17:33 B6  ALIŞ QQQ 165 adet ≈ 109,497 $ (1:4) @ 663.62 (TP 673.57, SL 656.98; ikisi de hemfikir, güven 0.50)
+09.11 17:38 B5  CLOSE long stop: -55.90 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
