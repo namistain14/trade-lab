@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 18:09 (İstanbul)
+> Son güncelleme: 09.11.2026 18:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -66,29 +66,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +7633.95 $ |
-| İşlem sayısı | 0 | 28 |
-| Kazanma oranı | %0.0 | %46.4 |
+| Net kâr/zarar | +1648.99 $ | +9282.94 $ |
+| İşlem sayısı | 1 | 29 |
+| Kazanma oranı | %100.0 | %48.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,295.92 $** (başlangıç 100,000 $, +11295.92 $ / %+11.30)
+**Hesap değeri: 111,569.31 $** (başlangıç 100,000 $, +11569.31 $ / %+11.57)
 
-Açık pozisyonlar: QQQ long @ 665.52 (TP 673.57 / SL 656.98)
+Açık pozisyonlar: NVDA long @ 178.94 (TP 181.15 / SL 176.69)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 18:12 | QQQ | long | +1648.99 $ | take profit |
 | 06.11 23:47 | SPY | long | -268.92 $ | seans sonu |
 | 06.11 23:47 | QQQ | long | -39.36 $ | seans sonu |
 | 06.11 23:47 | NVDA | long | -26.55 $ | seans sonu |
 | 06.11 23:47 | AAPL | long | -190.06 $ | seans sonu |
-| 06.11 20:38 | NVDA | short | +1687.56 $ | take profit |
 
 ## Son olaylar
 
 ```
-09.11 17:33 N  NEWS (10 new) score +0.20 conf 0.30: 
 09.11 17:33 N  GPT  score +0.25 conf 0.42: Doların geri çekilmesi ve İran’da yakın vadeli anlaşma beklentisinin zayıf olması altını kısa vadede destekleyebilir; Etiyopya-Eritre gerilimi de sınırlı güvenli liman talebi yaratıyor. Ancak sıcak enflasyon, yükselen tahvil getirileri ve Fed’in daha şahin kalma riski bu desteği dengeliyor.
 09.11 17:33 B6  karar turu: Claude «Piyasa, ABD-Çin ticaret gerginliğinin azalmasıyla pozitif seyrediyor; NVDA ise şirkete özel skandalla ayrışarak zayıf kalıyor.» / GPT «Verilen akış teknoloji hisselerinde seçici alımı destekliyor; dört kat kaldıraçta ilişkili QQQ ve AAPL pozisyonlarının toplam riski sınırlı tutulmalı.»
 09.11 17:33 B6  ALIŞ QQQ 165 adet ≈ 109,497 $ (1:4) @ 663.62 (TP 673.57, SL 656.98; ikisi de hemfikir, güven 0.50)
@@ -103,6 +102,7 @@ Son işlemler:
 09.11 18:09 N  GPT  score +0.25 conf 0.40: İran savaşı ve Yemen’deki can kayıpları güvenli liman talebini destekleyebilir; ancak Trump’ın saldırıların genişlemesinin beklenmediğini söylemesi ve diplomatik temaslar yükseliş riskini sınırlıyor. Doların kazanımlarını geri vermesi altın için hafif destekleyici, fakat kısa vadeli yön sinyali karı
 09.11 18:09 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü yükseliyor; NVDA'daki skandal satışı tepki alımı fırsatı sunarken, uzamış hareketleri kovalamaktan kaçınmak gerekiyor.» / GPT «Endekslerde yön yukarı olsa da hareketin önemli bölümü gerçekleştiğinden yeni işlemlerde taze haberli NVDA ve dengelenen AAPL öne çıkıyor; dört kat kaldıraçta korelasyon ve stop kayması riski yüksek.»
 09.11 18:09 B6  ALIŞ NVDA 623 adet ≈ 111,187 $ (1:4) @ 178.47 (TP 181.15, SL 176.69; ikisi de hemfikir, güven 0.58)
+09.11 18:12 B6  CLOSE long QQQ take profit: +1648.99 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
