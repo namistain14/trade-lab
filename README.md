@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 16:28 (İstanbul)
+> Son güncelleme: 09.11.2026 16:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,432.40 $** (başlangıç 5,000 $, -567.60 $ / %-11.35)
 
-Son haber analizi (09.11 16:20): Claude puan **+0.05**, güven 0.30 — Yeni başlıkların çoğu altın için ilgisiz (Huang iddiası, Kanada doları, Rosstat verileri, yaptırımlar). Petrol düşüşü ve Trump'ın İran'da temkinli tutumu jeopolitik risk primini hafifletip güvenli liman talebini sınırlıyor; öte yandan doların zayıflaması ve gerilemeyen faizler altına hafif destek veriyor. Çelişkili enflasyon tahminleri (%3,8 ile ~%6) ve süregelen Fed sıkılaştırma riski nedeniyle net yön zayıf, güven düşük.
+Son haber analizi (09.11 16:32): Claude puan **+0.15**, güven 0.35 — Haberler karışık: ABD doları zayıflaması, Nvidia kaynaklı teknoloji satışında güvenli liman talebi ve fiyat hareketindeki %1,65'lik yükseliş altına destek veriyor; ancak iş verisi sonrası tahvil faizlerinin yükselmesi, Trump'ın İran'da kısıtlama sinyali (jeopolitik primi azaltıyor) ve beklenen yüksek enflasyon verisi (CPI %3,8) sıkılaşma riskini artırarak sınırlı bir düşüş baskısı yaratıyor. Net etki hafif pozitif, düşük güvenilirlik.
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.35 — Doların gerilemesi ve Ukrayna-Rusya kaynaklı gerilim altına hafif destek veriyor; ancak İran konusunda tansiyonun sınırlanması ve düşen petrol güvenli liman talebini azaltabilir. Yaklaşan ABD enflasyon verisi ile Fed sıkılaşması riski yönü belirsizleştiriyor.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
 
 Son işlemler:
 
@@ -86,9 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 14:55 N  GPT  score +0.12 conf 0.34: Bağdat’a yönelik uyarı ve süren İran gerilimi güvenli liman talebini destekleyebilir; doların gerilemesi de altına hafif destek sağlıyor. Ancak petrolün barış umuduyla düşmesi ve hisse vadeli işlemlerindeki yükseliş bu desteği sınırlıyor; kısa vadeli etki belirsiz ve hafif pozitif.
-09.11 15:07 N  NEWS (9 new) score +0.20 conf 0.40: 
-09.11 15:07 N  GPT  score +0.15 conf 0.36: Doların geniş tabanlı zayıflığı altını kısa vadede destekleyebilir. Ancak İran konusunda müzakere umutlarının petrolü düşürmesi güvenli liman talebini azaltabilir; enflasyon verisi ve Fed konuşmaları öncesinde yön net değil.
 09.11 15:19 N  NEWS (7 new) score +0.20 conf 0.40: Dolar genel olarak zayıf seyrediyor ve petrol fiyatlarındaki düşüş enflasyon endişelerini azaltarak faiz beklentilerini biraz yumuşatabilir; bu altın için hafif olumlu. Buna karşılık İran'la barış umutları jeopolitik korku primini azaltıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizlik yaratıyor, bu nedenle etki sınırlı ve karışık.
 09.11 15:19 N  GPT  score +0.15 conf 0.34: Ukrayna’daki yeni uzun menzilli saldırılar ve İran’ın müzakereler için şartlı tutumu güvenli liman talebini bir miktar destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak İran savaşının sona erebileceğine dair umutlar, güçlü risk iştahı ve beklenen ABD enflasyon verisi yönü belirsizl
 09.11 15:31 N  NEWS (11 new) score +0.10 conf 0.40: Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
@@ -101,6 +98,9 @@ Son işlemler:
 09.11 16:08 N  GPT  score +0.08 conf 0.34: Doların geri çekilmesi altına hafif destek sağlıyor; ancak petrolün düşmesi, hisselerdeki yükseliş ve İran konusunda gerilimin azaldığına dair sinyaller güvenli liman talebini sınırlıyor. CPI öncesi beklentiler ve Fed riskleri yönü belirsizleştiriyor; net etki büyük olasılıkla sınırlı.
 09.11 16:20 N  NEWS (8 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın için ilgisiz (Huang iddiası, Kanada doları, Rosstat verileri, yaptırımlar). Petrol düşüşü ve Trump'ın İran'da temkinli tutumu jeopolitik risk primini hafifletip güvenli liman talebini sınırlıyor; öte yandan doların zayıflaması ve gerilemeyen faizler altına hafif destek veriyor. Çelişkili enflasyon tahminleri (%3,8 ile ~%6) ve süregelen Fed sıkılaştırma riski nedeniyle net yön zayıf, güven düşük.
 09.11 16:20 N  GPT  score +0.15 conf 0.35: Doların gerilemesi ve Ukrayna-Rusya kaynaklı gerilim altına hafif destek veriyor; ancak İran konusunda tansiyonun sınırlanması ve düşen petrol güvenli liman talebini azaltabilir. Yaklaşan ABD enflasyon verisi ile Fed sıkılaşması riski yönü belirsizleştiriyor.
+09.11 16:32 N  NEWS (14 new) score +0.15 conf 0.35: Haberler karışık: ABD doları zayıflaması, Nvidia kaynaklı teknoloji satışında güvenli liman talebi ve fiyat hareketindeki %1,65'lik yükseliş altına destek veriyor; ancak iş verisi sonrası tahvil faizlerinin yükselmesi, Trump'ın İran'da kısıtlama sinyali (jeopolitik primi azaltıyor) ve beklenen yüksek enflasyon verisi (CPI %3,8) sıkılaşma riskini artırarak sınırlı bir düşüş baskısı yaratıyor. Net etki hafif pozitif, düşük güvenilirlik.
+09.11 16:32 N  GPT  score +0.15 conf 0.34: Ukrayna’daki saldırılar ve teknoloji hisselerindeki satış güvenli liman talebini destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak güçlü istihdam verisi sonrası yükselen tahvil getirileri baskı yaratıyor, petrolün düşmesi ve haber akışındaki çelişkiler net yönü belirsizleştiriyor.
+09.11 16:32 B6  seans öncesi görüş: Vadeli işlemler Hürmüz umutları ve çip toparlanmasıyla güçlü seyrediyor; ancak duyarlılık hâlâ aşırı korku bölgesinde olduğundan seçici hareket etmek gerekiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
