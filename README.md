@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 19:30 (İstanbul)
+> Son güncelleme: 09.11.2026 19:34 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
-Son haber analizi (09.11 19:22): Claude puan **-0.20**, güven 0.35 — Yeni haberlerde jeopolitik risk azalıyor: ABD-İran anlaşması haberi petrolü %4,6 düşürdü ve güvenli liman talebini zayıflatabilir. Goolsbee'nin enflasyon konusunda sert tonu ve yüksek reel getiri riski ile yaklaşan ABD TÜFE verisi, faiz beklentilerini sertleştirerek altı baskılayabilir. Ancak haberlerin bir kısmı eski ya da fiyatlanmış niteliğinde ve sonuç CPI sürprizine bağlı olduğu için güven orta düzeyde.
+Son haber analizi (09.11 19:34): Claude puan **-0.20**, güven 0.40 — Fed Başkanı Yardımcısı düzeyindeki Goolsbee'nin enflasyonla ilgili sert (şahin) açıklamaları faiz beklentilerini yukarı çekip altın için hafif baskı yaratabilir. Dolardaki zayıflama ve Iran savaşı kaynaklı jeopolitik risk ise bu baskıyı kısmen dengeliyor; yakında açıklanacak ABD TÜFE verisi ise belirsizliği artırıyor.
 
-GPT (gpt-6-luna): puan **+0.10**, güven 0.39 — Hürmüz’de tankerlerin vurulması güvenli liman talebini destekliyor; ancak bu başlık yeni değil ve Fed’den Goolsbee’nin enflasyon uyarısı altın için faiz kaynaklı baskı yaratabilir. Yeni haber akışı karışık olduğundan kısa vadeli net etki hafif pozitif ve belirsiz.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.36 — Doların gerilemesi altını kısa vadede destekleyebilir; ancak enflasyon beklentilerinin değişmemesi ve Fed yetkilisinin enflasyon konusundaki temkinli tonu bu desteği sınırlıyor. Yaklaşan ABD TÜFE verisi öncesinde yön belirsizliği yüksek.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,977.48 $** (başlangıç 100,000 $, +9977.48 $ / %+9.98)
+**Hesap değeri: 110,014.43 $** (başlangıç 100,000 $, +10014.43 $ / %+10.01)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 18:45 N  GPT  score -0.20 conf 0.48: Goolsbee’nin hizmet enflasyonunun tarifeler dışındaki kaynaklarına ilişkin uyarısı faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı yaratabilir. İran konusunda görüşme ve Ukrayna barış görüşmelerinin yeniden başlaması gerilimin azalabileceğine işaret etse de Hürmüz yakınında
-09.11 18:45 B6  karar turu: Claude «Piyasa güçlü risk iştahıyla yükseliyor; NVDA zayıf kalsa da genel momentum pozitif, fakat jeopolitik ve enflasyon başlıkları geri çekilme riski taşıyor.» / GPT «Piyasanın kısa vadeli yönü yukarı olsa da enflasyon ve İran başlıkları nedeniyle dört kat kaldıraçla agresif pozisyon büyütmek riskli.»
-09.11 18:45 B6  ALIŞ SPY 57 adet ≈ 42,729 $ (1:4) @ 749.63 (TP 760.87, SL 742.13; ikisi de hemfikir, güven 0.55)
-09.11 18:57 N  NEWS (15 new) score -0.20 conf 0.40: Yeni haberlerin ağırlığı hafif negatif: Goolsbee'nin enflasyon konusunda sert tonu ve CPI öncesi yüksek reel getiri riski faiz beklentilerini sıkılaştırarak altı baskılıyor, USDU'nun 52 haftalık zirvesi de dolar tarafında ek baskı yaratıyor. Hormuz'da IRGC'nin tanker saldırısı ve merkez bankası alımları gibi güvenli liman/destek unsurları bunu kısmen dengeliyor; Trump'ın tam ölçekli savaş ihtimalini düşük görmesi ise jeopolitik primi azaltıyor.
 09.11 18:57 N  GPT  score -0.30 conf 0.58: Goolsbee’nin hizmet enflasyonunun kalıcılığına ve enflasyon hedefindeki başarısızlığa vurgu yapması, Fed’in daha şahin kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. Hürmüz yakınındaki tanker saldırıları güvenli liman talebini desteklese de İran konusunda barış görüşmeler
 09.11 18:57 B6  karar turu: Claude «Endeksler teknoloji öncülüğünde güçlü yükselişte ve risk iştahı yüksek; ancak NVDA'daki skandal ile İran kaynaklı haber riski oynaklık yaratabilir.» / GPT «SPY ve QQQ'daki istikrarlı yükseliş alıcıları destekliyor, ancak enflasyon ve İran başlıkları kaldıraçlı işlemlerde ani geri çekilme riskini artırıyor.»
 09.11 19:06 B6  CLOSE long NVDA stop: -1115.17 USD
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 19:22 N  GPT  score +0.10 conf 0.39: Hürmüz’de tankerlerin vurulması güvenli liman talebini destekliyor; ancak bu başlık yeni değil ve Fed’den Goolsbee’nin enflasyon uyarısı altın için faiz kaynaklı baskı yaratabilir. Yeni haber akışı karışık olduğundan kısa vadeli net etki hafif pozitif ve belirsiz.
 09.11 19:22 B6  karar turu: Claude «Endeksler büyüme hisselerinin öncülüğünde geniş tabanlı yükselişte, ancak NVDA şirkete özel skandal haberleriyle piyasadan ayrışarak düşüyor.» / GPT «Endekslerde güçlü günlük yükseliş son saatte ivme kaybederken, yeni pozisyon için en belirgin göreli zayıflık NVDA'da görülüyor.»
 09.11 19:22 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"101166.69","code":40310000,"cost_basis":"113319.32","message":"insufficient buying power"}
+09.11 19:34 N  NEWS (7 new) score -0.20 conf 0.40: Fed Başkanı Yardımcısı düzeyindeki Goolsbee'nin enflasyonla ilgili sert (şahin) açıklamaları faiz beklentilerini yukarı çekip altın için hafif baskı yaratabilir. Dolardaki zayıflama ve Iran savaşı kaynaklı jeopolitik risk ise bu baskıyı kısmen dengeliyor; yakında açıklanacak ABD TÜFE verisi ise belirsizliği artırıyor.
+09.11 19:34 N  GPT  score +0.15 conf 0.36: Doların gerilemesi altını kısa vadede destekleyebilir; ancak enflasyon beklentilerinin değişmemesi ve Fed yetkilisinin enflasyon konusundaki temkinli tonu bu desteği sınırlıyor. Yaklaşan ABD TÜFE verisi öncesinde yön belirsizliği yüksek.
+09.11 19:34 B6  karar turu: Claude «Endeksler büyüme hisseleri öncülüğünde güçlü ama öğle saatlerinde yatay seyrediyor; NVDA şirkete özgü olumsuz haberlerle piyasadan ayrışarak zayıf kalıyor.» / GPT «Endeksler günlük bazda güçlü ancak son saatte ivmesiz; yeni işlem için en belirgin yönsel avantaj NVDA'nın şirkete özgü zayıflığında.»
+09.11 19:34 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"100691.06","code":40310000,"cost_basis":"113182.9","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
