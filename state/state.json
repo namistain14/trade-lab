@@ -10797,6 +10797,10 @@
    [
     1794238948,
     5000.0
+   ],
+   [
+    1794239155,
+    5000.0
    ]
   ],
   "archive": [
@@ -13871,10 +13875,6 @@
   },
   "equity_curve": [
    [
-    1793648621,
-    4868.5
-   ],
-   [
     1793648802,
     4868.5
    ],
@@ -25869,43 +25869,38 @@
    [
     1794238948,
     4868.5
+   ],
+   [
+    1794239155,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.1,
    "confidence": 0.4,
-   "reason": "Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de IRGC'nin tanker sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131 riski alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak Trump'\u0131n tam \u00f6l\u00e7ekli sava\u015f\u0131n \"son derece olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve ABD dolar\u0131n\u0131n 52 haftal\u0131k zirveye \u00e7\u0131kmas\u0131 alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Y\u00fcksek reel getiriler ve ABD T\u00dcFE verisi \u00f6ncesi temkin de k\u0131sa vadede olumsuz; merkez bankas\u0131 al\u0131mlar\u0131 ise destekleyici bir unsur.",
+   "reason": "Kar\u0131\u015f\u0131k sinyaller var: H\u00fcrm\u00fcz'de IRGC'nin tankerlere sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekliyor, ancak Trump'\u0131n tam \u00f6l\u00e7ekli sava\u015f\u0131n \"son derece olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri jeopolitik primi azalt\u0131yor. Goolsbee'nin hizmet enflasyonu uyar\u0131s\u0131 ve ABD dolar\u0131n\u0131n 52 haftal\u0131k zirvesi alt\u0131n i\u00e7in olumsuz; y\u00fcksek reel faizler CPI \u00f6ncesi bask\u0131 yarat\u0131yor. Genel etki hafif negatif, g\u00fcven orta-d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1794238416986,
-   "new_headlines": 10,
+   "ts": 1794239139041,
+   "new_headlines": 8,
    "key_events": [
     "ABD T\u00dcFE verisi \u00f6ncesi dolar zay\u0131flamas\u0131, alt\u0131n 4.100 dolara yakla\u015f\u0131yor",
     "Fed Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
     "Trump \u0130ran sava\u015f\u0131n\u0131 'kazand\u0131k' dedi; Rubio m\u00fczakerelerde ilerleme yok"
    ],
    "gpt": {
-    "score": 0.2,
-    "confidence": 0.42,
-    "reason": "H\u00fcrm\u00fcz yak\u0131nlar\u0131nda \u00fc\u00e7 tankere y\u00f6nelik sald\u0131r\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n 52 haftal\u0131k zirvesi ve y\u00fcksek tahvil getirileri alt\u0131n\u0131 bask\u0131l\u0131yor; \u0130ran\u2019la ilgili yat\u0131\u015ft\u0131r\u0131c\u0131 a\u00e7\u0131klamalar da risk alg\u0131s\u0131n\u0131 s\u0131n\u0131rl\u0131yor.",
+    "score": -0.2,
+    "confidence": 0.48,
+    "reason": "Goolsbee\u2019nin hizmet enflasyonunun tarifeler d\u0131\u015f\u0131ndaki kaynaklar\u0131na ili\u015fkin uyar\u0131s\u0131 faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran konusunda g\u00f6r\u00fc\u015fme ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131 gerilimin azalabilece\u011fine i\u015faret etse de H\u00fcrm\u00fcz yak\u0131n\u0131nda",
     "key_events": [
-     "H\u00fcrm\u00fcz yak\u0131nlar\u0131nda \u00fc\u00e7 tankere sald\u0131r\u0131",
-     "ABD dolar ETF\u2019si 52 haftal\u0131k zirvede",
-     "ABD-\u0130ran g\u00f6r\u00fc\u015fmeleri ve yat\u0131\u015ft\u0131r\u0131c\u0131 a\u00e7\u0131klamalar"
+     "Goolsbee\u2019den enflasyon uyar\u0131s\u0131",
+     "\u0130ran konusunda olas\u0131 g\u00f6r\u00fc\u015fmeler",
+     "H\u00fcrm\u00fcz yak\u0131n\u0131nda tanker sald\u0131r\u0131lar\u0131"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793781541946,
-    "score": 0.55,
-    "confidence": 0.6,
-    "reason": "Dolar zay\u0131flamas\u0131 ve ABD Hazine getirilerinin d\u00fc\u015fmesi (ara se\u00e7im sonras\u0131) alt\u0131n i\u00e7in destekleyici; ayr\u0131ca \u0130ran sava\u015f\u0131 ve Hormuz'da may\u0131nlanm\u0131\u015f tankerler jeopolitik risk primini canl\u0131 tutuyor. Ancak dolar kayb\u0131 ve alt\u0131n y\u00fckseli\u015fi k\u0131smen fiyatlanm\u0131\u015f olabilir ve Hormuz haberi g\u00f6rece eski, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
-    "new": 10,
-    "gpt_score": 0.62,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1793782762056,
     "score": 0.4,
@@ -28596,33 +28591,47 @@
     "new": 10,
     "gpt_score": 0.2,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1794239139041,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Kar\u0131\u015f\u0131k sinyaller var: H\u00fcrm\u00fcz'de IRGC'nin tankerlere sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekliyor, ancak Trump'\u0131n tam \u00f6l\u00e7ekli sava\u015f\u0131n \"son derece olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri jeopolitik primi azalt\u0131yor. Goolsbee'nin hizmet enflasyonu uyar\u0131s\u0131 ve ABD dolar\u0131n\u0131n 52 haftal\u0131k zirvesi alt\u0131n i\u00e7in olumsuz; y\u00fcksek reel faizler CPI \u00f6ncesi bask\u0131 yarat\u0131yor. Genel etki hafif negatif, g\u00fcven orta-d\u00fc\u015f\u00fck.",
+    "new": 8,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.48
    }
   ],
   "news_calls": {
    "date": "2026-11-09",
-   "n": 58
+   "n": 59
   },
   "news_seen": [
-   "Gold Mine Decision Is Near & New Drill Results Add to the Story - Streetwise Reports",
+   "Trump Signals Potential Trilateral Talks with China and Russia on Iran War - IranWire",
+   "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+   "Fed's Goolsbee warns services inflation goes beyond tariff pressure - FXStreet",
+   "Russia\u2019s new mini cruise missile is packed with American technology \u2014 Ukraine finds 52 US components among 93 foreign parts - Euromaidan Press",
+   "Zelenskyy, Modi discuss diplomatic efforts to end Russia-Ukraine war during phone call - Anadolu Ajans\u0131",
    "Civil servant who juggled five jobs found guilty of fraud",
+   "Gold Mine Decision Is Near & New Drill Results Add to the Story - Streetwise Reports",
    "Teledyne wins Lockheed Martin subcontract for next-generation missile defense (TDY:NYSE) - Seeking Alpha",
+   "IRGC strikes three tankers near Hormuz over \u2018US links\u2019 - Al Jazeera",
    "EXCLUSIVE: Republican AGs Tell UK and Netherlands To Drop Sanctions on Israeli Companies or Risk US Divestment - freebeacon.com",
    "Gold Price Outlook: High Real Yields Pose a Risk Ahead of US CPI - FXEmpire",
    "\u2018Totally True Tales from World War II\u2019 by Stuart Gibbs Tops Holds Lists | Book Pulse - School Library Journal",
-   "IRGC strikes three tankers near Hormuz over \u2018US links\u2019 - Al Jazeera",
    "Japanese Yen firms as US Dollar pares post-NFP gains | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Vietnam Veterans Return to Battlefields Where Friends Died in New Gary Sinise Documentary for Veterans Day - Military.com",
    "Trump says return to full-scale war with Iran \u2018highly unlikely\u2019 as peace talks pick up - Washington Examiner",
    "Armenia in the Changing South Caucasus: New Opportunities and Risks - Geopolitical Monitor",
+   "Ukraine Peace Talks Resume This Week in Abu Dhabi - The New York Times",
    "Harmony Gold Mining (HMY): Q1 gold output down 12% on ore gap, copper growth from CSA - Quantisnow",
    "Gold prices seen bullish by year-end amid dollar uncertainty, falling oil prices and strong investment demand: Analysts - The Tribune",
-   "As War Roils Energy Markets, China Sees Its Emissions Drop - Yahoo",
    "Watch live: Hegseth addresses Naval War College as impeachment push looms - The Hill",
    "MBDA on contract to study Aster 30 missile integration in MK 41 VLS - Naval News",
    "Iran Reportedly Buying Oil Facilities in China to Bypass U.S. Sanctions as Economic Pressure Mounts - Yahoo",
+   "Stephen Miller is now more powerful than ever. Expect a war with Duke - The Duke Chronicle",
    "Gold and silver prices extend post-election rebound, central banks on pace to beat 2025 purchases \u2013 Heraeus - Kitco",
    "Gold revenue rose 3%, but Harmony Gold (HMY) produced less as costs climbed. - Stock Titan",
-   "Stephen Miller is now more powerful than ever. Expect a war with Duke. - The Duke Chronicle",
    "Claes Bang Post World War Two Drama \u2018I Is Another\u2019 Unveils First Deals - Deadline",
    "U.S. Dollar ETF (USDU) Hits New 52-Week High - Zacks Investment Research",
    "The bridge where the Cold War ended - Princeton University Press",
@@ -28639,22 +28648,13 @@
    "FILE PHOTO: Illustration shows U.S. dollar banknotes - The Daily News | Texas' Oldest Newspaper",
    "At least 39 die after Europe-bound migrant boat sinks off Senegal",
    "Iran war: Will Trump's midterm defeat end or entrench the conflict with Tehran? - Middle East Eye",
-   "Coalition of the Willing kicks off first exercise for post-war Ukraine deployment - The Kyiv Independent",
+   "REPORT: The Chicago Cubs Are \"Unlikely\" to Enter a Bidding War for Tarik Skubal - Bleacher Nation",
    "AbraSilver Intersects 75 Metres of 2.44 g/t Gold and 106 g/t Silver at Oculto; 253 Metres of 0.54 g/t Gold at Oculto East - Investing News Network",
    "From War Hero to 'Wonderful Life,' Jimmy Stewart's Untold Faith Story Hits the Big Screen - CBN News",
-   "Wesdome Gold Mines (TSX:WDO) Enters a Fresh Buyback Window as Investors Track Capital Returns - kalkine.ca",
-   "Emirates president said the Iran war has again derailed his retirement plans - Quartz",
-   "Canadian dollar gains as U.S. dollar retreats, but weak jobs data cap recovery - Investing.com Canada",
-   "Ethiopia Conflict Spreads as Risk of War With Eritrea Grows - Legis1",
-   "\u2018No concession\u2019: What to expect from Russia-US-Ukraine talks in Abu Dhabi - Al Jazeera",
-   "Trump Says Strikes Unlikely as Rubio Slams Iran\u2019s Demands - Bloomberg.com"
+   "Wesdome Gold Mines (TSX:WDO) Enters a Fresh Buyback Window as Investors Track Capital Returns - kalkine.ca"
   ]
  },
  "log": [
-  "08.11 18:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 18:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 18:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "08.11 18:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 18:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "08.11 19:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -28950,7 +28950,11 @@
   "09.11 18:33 N  NEWS (10 new) score -0.10 conf 0.40: Haberler kar\u0131\u015f\u0131k: H\u00fcrm\u00fcz'de IRGC'nin tanker sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131 riski alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak Trump'\u0131n tam \u00f6l\u00e7ekli sava\u015f\u0131n \"son derece olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve ABD dolar\u0131n\u0131n 52 haftal\u0131k zirveye \u00e7\u0131kmas\u0131 alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Y\u00fcksek reel getiriler ve ABD T\u00dcFE verisi \u00f6ncesi temkin de k\u0131sa vadede olumsuz; merkez bankas\u0131 al\u0131mlar\u0131 ise destekleyici bir unsur.",
   "09.11 18:33 N  GPT  score +0.20 conf 0.42: H\u00fcrm\u00fcz yak\u0131nlar\u0131nda \u00fc\u00e7 tankere y\u00f6nelik sald\u0131r\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n 52 haftal\u0131k zirvesi ve y\u00fcksek tahvil getirileri alt\u0131n\u0131 bask\u0131l\u0131yor; \u0130ran\u2019la ilgili yat\u0131\u015ft\u0131r\u0131c\u0131 a\u00e7\u0131klamalar da risk alg\u0131s\u0131n\u0131 s\u0131n\u0131rl\u0131yor.",
   "09.11 18:33 B6  karar turu: Claude \u00abPiyasa g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor ve teknoloji \u00f6nc\u00fcl\u00fck ediyor, ancak b\u00fcy\u00fck hareketleri kovalamaktan ka\u00e7\u0131nmak gerekiyor.\u00bb / GPT \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc seyrediyor; ancak uzayan y\u00fckseli\u015flerde 4 kat kald\u0131ra\u00e7 ve olas\u0131 stop kaymas\u0131 nedeniyle se\u00e7ici kalmak gerekiyor.\u00bb",
-  "09.11 18:33 B6  ALI\u015e QQQ 165 adet \u2248 111,377 $ (1:4) @ 675.01 (TP 685.14, SL 668.26; ikisi de hemfikir, g\u00fcven 0.58)"
+  "09.11 18:33 B6  ALI\u015e QQQ 165 adet \u2248 111,377 $ (1:4) @ 675.01 (TP 685.14, SL 668.26; ikisi de hemfikir, g\u00fcven 0.58)",
+  "09.11 18:45 N  NEWS (8 new) score -0.10 conf 0.40: Kar\u0131\u015f\u0131k sinyaller var: H\u00fcrm\u00fcz'de IRGC'nin tankerlere sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekliyor, ancak Trump'\u0131n tam \u00f6l\u00e7ekli sava\u015f\u0131n \"son derece olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri jeopolitik primi azalt\u0131yor. Goolsbee'nin hizmet enflasyonu uyar\u0131s\u0131 ve ABD dolar\u0131n\u0131n 52 haftal\u0131k zirvesi alt\u0131n i\u00e7in olumsuz; y\u00fcksek reel faizler CPI \u00f6ncesi bask\u0131 yarat\u0131yor. Genel etki hafif negatif, g\u00fcven orta-d\u00fc\u015f\u00fck.",
+  "09.11 18:45 N  GPT  score -0.20 conf 0.48: Goolsbee\u2019nin hizmet enflasyonunun tarifeler d\u0131\u015f\u0131ndaki kaynaklar\u0131na ili\u015fkin uyar\u0131s\u0131 faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini destekleyerek alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran konusunda g\u00f6r\u00fc\u015fme ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131 gerilimin azalabilece\u011fine i\u015faret etse de H\u00fcrm\u00fcz yak\u0131n\u0131nda",
+  "09.11 18:45 B6  karar turu: Claude \u00abPiyasa g\u00fc\u00e7l\u00fc risk i\u015ftah\u0131yla y\u00fckseliyor; NVDA zay\u0131f kalsa da genel momentum pozitif, fakat jeopolitik ve enflasyon ba\u015fl\u0131klar\u0131 geri \u00e7ekilme riski ta\u015f\u0131yor.\u00bb / GPT \u00abPiyasan\u0131n k\u0131sa vadeli y\u00f6n\u00fc yukar\u0131 olsa da enflasyon ve \u0130ran ba\u015fl\u0131klar\u0131 nedeniyle d\u00f6rt kat kald\u0131ra\u00e7la agresif pozisyon b\u00fcy\u00fctmek riskli.\u00bb",
+  "09.11 18:45 B6  ALI\u015e SPY 57 adet \u2248 42,729 $ (1:4) @ 749.63 (TP 760.87, SL 742.13; ikisi de hemfikir, g\u00fcven 0.55)"
  ],
  "gold_big": {
   "account": {
@@ -29137,10 +29141,6 @@
   },
   "equity_curve": [
    [
-    1793648621,
-    4963.78
-   ],
-   [
     1793648802,
     4963.78
    ],
@@ -41134,6 +41134,10 @@
    ],
    [
     1794238948,
+    4963.78
+   ],
+   [
+    1794239155,
     4963.78
    ]
   ],
@@ -41249,10 +41253,6 @@
   },
   "equity_curve": [
    [
-    1793648621,
-    4975.18
-   ],
-   [
     1793648802,
     4975.18
    ],
@@ -53246,6 +53246,10 @@
    ],
    [
     1794238948,
+    4975.18
+   ],
+   [
+    1794239155,
     4975.18
    ]
   ],
@@ -53331,10 +53335,6 @@
   },
   "equity_curve": [
    [
-    1793648621,
-    4993.28
-   ],
-   [
     1793648802,
     4993.28
    ],
@@ -65328,6 +65328,10 @@
    ],
    [
     1794238948,
+    4993.28
+   ],
+   [
+    1794239155,
     4993.28
    ]
   ]
@@ -65538,10 +65542,6 @@
   },
   "equity_curve": [
    [
-    1793648621,
-    4969.22
-   ],
-   [
     1793648802,
     4969.22
    ],
@@ -77535,6 +77535,10 @@
    ],
    [
     1794238948,
+    4969.22
+   ],
+   [
+    1794239155,
     4969.22
    ]
   ],
@@ -78966,10 +78970,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793648621,
-    4910.82
-   ],
    [
     1793648802,
     4910.82
@@ -90965,6 +90965,10 @@
    [
     1794238948,
     4376.5
+   ],
+   [
+    1794239155,
+    4376.5
    ]
   ],
   "news_calls": {
@@ -91172,7 +91176,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 111314.03816600001,
+   "balance": 111329.94396600002,
    "start": 100000.0,
    "positions": [
     {
@@ -91187,7 +91191,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Sert y\u00fckseli\u015fin ard\u0131ndan 348-350 band\u0131nda konsolide oluyor ve piyasa g\u00fcc\u00fcyle yukar\u0131 k\u0131r\u0131l\u0131m potansiyeli ta\u015f\u0131yor. | GPT 0.62: \u0130lk s\u0131\u00e7rama sonras\u0131 yatay taban\u0131n \u00fcst band\u0131na d\u00f6n\u00fc\u015f, g\u00fc\u00e7l\u00fc piyasa e\u015fli\u011finde yukar\u0131 k\u0131r\u0131lma f\u0131rsat\u0131 sunuyor.",
-     "cur": 351.17
+     "cur": 351.155
     },
     {
      "id": "fe590636-37b4-4802-9cfe-c05912dfb9b9",
@@ -91201,7 +91205,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: CEO skandal\u0131yla gelen sert d\u00fc\u015f\u00fc\u015ften sonra g\u00fc\u00e7l\u00fc piyasa, olumlu analist yorumlar\u0131 ve 700M$ Blackwell anla\u015fmas\u0131 toparlanmay\u0131 destekliyor. | GPT 0.66: Yeni 700 milyon dolar\u0131 a\u015fan Blackwell anla\u015fmalar\u0131 haberi ve toparlanan fiyat, s\u00fcren man\u015fet riskine ra\u011fmen k\u0131sa vadeli al\u0131m\u0131 destekliyor.",
-     "cur": 178.2801
+     "cur": 178.76
     },
     {
      "id": "8cf29f9a-38cb-414a-baa9-4c27cf773e8c",
@@ -91215,7 +91219,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 674.55
+     "cur": 674.8701
     }
    ],
    "trades": [
@@ -91744,18 +91748,14 @@
    ],
    "day": {
     "date": "2026-11-09",
-    "pnl": 1268.8,
+    "pnl": 1631.73,
     "trades": 1,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 111262.63
+   "equity": 111625.56
   },
   "equity_curve": [
-   [
-    1793648621,
-    100432.41
-   ],
    [
     1793648802,
     100414.39
@@ -103751,6 +103751,10 @@
    [
     1794238948,
     111262.63
+   ],
+   [
+    1794239155,
+    111625.56
    ]
   ],
   "open": {
@@ -103786,36 +103790,47 @@
     "sl": 668.26,
     "opened_ms": 1794238418015,
     "note": "Claude 0.58: Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeks son bir saatte g\u00fc\u00e7l\u00fc momentum g\u00f6steriyor ve NVDA toparlanmas\u0131yla al\u0131m ilgisi s\u00fcr\u00fcyor. | GPT 0.61: Ara geri \u00e7ekilmelerin ard\u0131ndan yeni saatlik zirvelere ilerleyen teknoloji momentumu, y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor."
+   },
+   "SPY": {
+    "order_id": "f352627d-a5ed-4c4d-8e2d-1f714cbd433a",
+    "symbol": "SPY",
+    "side": "long",
+    "qty": 57,
+    "entry": 749.63,
+    "tp": 760.87,
+    "sl": 742.13,
+    "opened_ms": 1794239139765,
+    "note": "Claude 0.55: Endeks istikrarl\u0131 y\u00fckseli\u015f trendinde ve g\u00fcn i\u00e7i zirveye yak\u0131n; momentum s\u00fcr\u00fcyor, ancak \u0130ran ve Goolsbee haberleri riski s\u0131n\u0131rl\u0131yor. | GPT 0.58: Son saatteki d\u00fczenli y\u00fckseli\u015f ve zirveye yak\u0131n tutunma, taze makro risklere ra\u011fmen s\u0131n\u0131rl\u0131 bir al\u0131m avantaj\u0131 sunuyor."
    }
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794238418015,
+  "last_decision_ms": 1794239139765,
   "view": {
-   "ts": 1794238418015,
-   "claude": "Piyasa g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor ve teknoloji \u00f6nc\u00fcl\u00fck ediyor, ancak b\u00fcy\u00fck hareketleri kovalamaktan ka\u00e7\u0131nmak gerekiyor.",
-   "gpt": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc seyrediyor; ancak uzayan y\u00fckseli\u015flerde 4 kat kald\u0131ra\u00e7 ve olas\u0131 stop kaymas\u0131 nedeniyle se\u00e7ici kalmak gerekiyor.",
+   "ts": 1794239139765,
+   "claude": "Piyasa g\u00fc\u00e7l\u00fc risk i\u015ftah\u0131yla y\u00fckseliyor; NVDA zay\u0131f kalsa da genel momentum pozitif, fakat jeopolitik ve enflasyon ba\u015fl\u0131klar\u0131 geri \u00e7ekilme riski ta\u015f\u0131yor.",
+   "gpt": "Piyasan\u0131n k\u0131sa vadeli y\u00f6n\u00fc yukar\u0131 olsa da enflasyon ve \u0130ran ba\u015fl\u0131klar\u0131 nedeniyle d\u00f6rt kat kald\u0131ra\u00e7la agresif pozisyon b\u00fcy\u00fctmek riskli.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
       "long",
-      0.5
+      0.55
      ],
      "gpt": [
-      "none",
-      0.66
+      "long",
+      0.58
      ]
     },
     "QQQ": {
      "claude": [
-      "long",
-      0.58
+      null,
+      null
      ],
      "gpt": [
-      "long",
-      0.61
+      null,
+      null
      ]
     },
     "NVDA": {
@@ -103845,7 +103860,7 @@
      ],
      "gpt": [
       "none",
-      0.73
+      0.74
      ]
     }
    }
@@ -103855,7 +103870,7 @@
   "premarket_day": "2026-11-09",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "44220.03",
+   "buying_power": "45236.22",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -103946,10 +103961,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793648621,
-    5000
-   ],
    [
     1793648802,
     5000
@@ -115944,6 +115955,10 @@
    ],
    [
     1794238948,
+    4944.42
+   ],
+   [
+    1794239155,
     4944.42
    ]
   ],
