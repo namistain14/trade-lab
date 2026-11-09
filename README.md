@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 18:30 (İstanbul)
+> Son güncelleme: 09.11.2026 18:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
-Son haber analizi (09.11 18:21): Claude puan **+0.10**, güven 0.30 — Haberler karışık: İran'la barış görüşmeleri ve "tam ölçekli savaşın yeniden başlaması olası değil" açıklaması güvenli liman talebini biraz azaltabilir, ancak petrol fiyatlarının düşmesi enflasyon ve faiz beklentilerini yumuşatarak altın için hafif olumlu bir etki yaratabilir. Merkez bankası altın alımlarının güçlü olması ve dolardaki zayıflama da destekleyici; yine de ABD enflasyon verisi beklentisi belirsizlik yaratıyor ve haberlerin çoğu zaten fiyatlanmış.
+Son haber analizi (09.11 18:33): Claude puan **-0.10**, güven 0.40 — Haberler karışık: Hürmüz'de IRGC'nin tanker saldırısı ve İran savaşı riski altın için güvenli liman talebini destekliyor, ancak Trump'ın tam ölçekli savaşın "son derece olası olmadığını" söylemesi ve ABD dolarının 52 haftalık zirveye çıkması altın üzerinde baskı yaratıyor. Yüksek reel getiriler ve ABD TÜFE verisi öncesi temkin de kısa vadede olumsuz; merkez bankası alımları ise destekleyici bir unsur.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.32 — İran’la tam ölçekli savaşın olası görülmemesi ve görüşmelerin ilerlemesi güvenli liman talebini bir miktar azaltabilir. Doların NFP sonrası kazançlarını geri vermesi altını desteklerken, yaklaşan ABD enflasyon verisi ve çelişkili jeopolitik haberler kısa vadeli yönü belirsiz kılıyor.
+GPT (gpt-6-luna): puan **+0.20**, güven 0.42 — Hürmüz yakınlarında üç tankere yönelik saldırı kısa vadede güvenli liman talebini destekleyebilir. Ancak doların 52 haftalık zirvesi ve yüksek tahvil getirileri altını baskılıyor; İran’la ilgili yatıştırıcı açıklamalar da risk algısını sınırlıyor.
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %48.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,892.20 $** (başlangıç 100,000 $, +11892.20 $ / %+11.89)
+**Hesap değeri: 111,981.36 $** (başlangıç 100,000 $, +11981.36 $ / %+11.98)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); NVDA long @ 178.94 (TP 181.15 / SL 176.69)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 17:45 N  NEWS (10 new) score +0.05 conf 0.35: 
-09.11 17:45 N  GPT  score +0.18 conf 0.34: Doların zayıflaması ve İran savaşının bitişine dair yakın vadede anlaşma beklenmemesi altını hafif destekliyor; ancak Trump’ın saldırıların olası olmadığını söylemesi güvenli liman talebini sınırlayabilir. Başlıklar çelişkili ve merkez bankası alımları gibi bazı etkenler kısa vadeli değil.
-09.11 17:45 B6  karar turu: Claude «Ticaret gerginliğinin yumuşaması ve Hürmüz haberleriyle piyasa risk iştahlı seyrediyor; Nvidia ise CEO tartışmasına rağmen dipten tepki veriyor.» / GPT «Endeks momentumu alımları destekliyor; ancak QQQ pozisyonuna eklenecek işlemlerde korelasyon ve 1:4 kaldıraç nedeniyle toplam risk sınırlı tutulmalı.»
-09.11 17:57 N  NEWS (12 new) score +0.10 conf 0.30: Haberler karışık: İran'ın talepleri ve ABD'nin askeri baskısı jeopolitik risk primini destekliyor, ABD dolarının NFP sonrası kazançlarını geri vermesi de altın için hafif olumlu. Buna karşın Trump'ın yakın saldırı ihtimalini düşük görmesi ve ABD enflasyon verisinin (CPI) bekleniyor olması yönü belirsiz bırakıyor; bu nedenle sinyal zayıf.
 09.11 17:57 N  GPT  score +0.35 conf 0.42: Doların NFP sonrası kazanımlarının bir kısmını geri vermesi altını destekleyebilir; İran çevresindeki gerilim ve Yemen’deki can kayıpları da güvenli liman talebini artırıyor. Ancak haberlerin bir bölümü mevcut çatışmanın devamına dair ve Trump’ın saldırı olasılığını düşük göstermesi sinyali sınırlıy
 09.11 17:57 B6  karar turu: Claude «Teknoloji öncülüğünde güçlü bir risk iştahı var, ancak büyük hareketlerin bir kısmı fiyatlandı.» / GPT «Piyasa yönü yukarı olsa da mevcut QQQ pozisyonuyla yeni uzunlar korelasyon riskini artırıyor; dört kat kaldıraçta küçük pozisyonlar ve toplam risk sınırı önemli.»
 09.11 18:09 N  NEWS (13 new) score -0.05 conf 0.25: Yeni haberlerin çoğu altın fiyatına doğrudan etki etmeyecek nitelikte; İran savaşında Trump'ın yeni bir tırmanma planı olmadığını söylemesi jeopolitik güvenli liman talebini biraz azaltabilir, buna karşılık Rusya'nın altın satışı ile Çin'in merkez bankası alımları çelişkili sinyaller veriyor. Net etki hafif negatif-nötr olarak değerlendirildi ve güven düşük tutuldu.
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 18:21 N  GPT  score -0.15 conf 0.32: İran’la tam ölçekli savaşın olası görülmemesi ve görüşmelerin ilerlemesi güvenli liman talebini bir miktar azaltabilir. Doların NFP sonrası kazançlarını geri vermesi altını desteklerken, yaklaşan ABD enflasyon verisi ve çelişkili jeopolitik haberler kısa vadeli yönü belirsiz kılıyor.
 09.11 18:21 B6  karar turu: Claude «Hürmüz ve İran barış umutlarıyla piyasa güçlü bir yükseliş günü yaşıyor, ancak hareketin büyük kısmı gerçekleştiği için seçici ve ölçülü long tercih edilmeli.» / GPT «Piyasa yönü yukarı olsa da yükselişi kovalamadan seçici alım tercih ediyorum; 1:4 kaldıraçta birbiriyle ilişkili pozisyonlar toplam riski artırır.»
 09.11 18:21 B6  ALIŞ AAPL 318 adet ≈ 111,144 $ (1:4) @ 349.51 (TP 354.75, SL 346.01; ikisi de hemfikir, güven 0.50)
+09.11 18:33 N  NEWS (10 new) score -0.10 conf 0.40: Haberler karışık: Hürmüz'de IRGC'nin tanker saldırısı ve İran savaşı riski altın için güvenli liman talebini destekliyor, ancak Trump'ın tam ölçekli savaşın "son derece olası olmadığını" söylemesi ve ABD dolarının 52 haftalık zirveye çıkması altın üzerinde baskı yaratıyor. Yüksek reel getiriler ve ABD TÜFE verisi öncesi temkin de kısa vadede olumsuz; merkez bankası alımları ise destekleyici bir unsur.
+09.11 18:33 N  GPT  score +0.20 conf 0.42: Hürmüz yakınlarında üç tankere yönelik saldırı kısa vadede güvenli liman talebini destekleyebilir. Ancak doların 52 haftalık zirvesi ve yüksek tahvil getirileri altını baskılıyor; İran’la ilgili yatıştırıcı açıklamalar da risk algısını sınırlıyor.
+09.11 18:33 B6  karar turu: Claude «Piyasa güçlü bir risk iştahıyla yükseliyor ve teknoloji öncülük ediyor, ancak büyük hareketleri kovalamaktan kaçınmak gerekiyor.» / GPT «Piyasa teknoloji öncülüğünde güçlü seyrediyor; ancak uzayan yükselişlerde 4 kat kaldıraç ve olası stop kayması nedeniyle seçici kalmak gerekiyor.»
+09.11 18:33 B6  ALIŞ QQQ 165 adet ≈ 111,377 $ (1:4) @ 675.01 (TP 685.14, SL 668.26; ikisi de hemfikir, güven 0.58)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
