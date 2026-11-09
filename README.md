@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 15:40 (İstanbul)
+> Son güncelleme: 09.11.2026 15:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,432.40 $** (başlangıç 5,000 $, -567.60 $ / %-11.35)
 
-Son haber analizi (09.11 15:31): Claude puan **+0.10**, güven 0.40 — Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
+Son haber analizi (09.11 15:43): Claude puan **-0.10**, güven 0.35 — Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
 
-GPT (gpt-6-luna): puan **+0.10**, güven 0.31 — Doların geri çekilmesi altını hafifçe destekliyor; ancak İran’da görüşmelerin yeniden başlayabileceği haberi ve düşen petrol fiyatları jeopolitik güvenli liman talebini azaltabilir. Enflasyon verisi ve Fed konuşmaları öncesinde yön konusunda belirsizlik yüksek.
+GPT (gpt-6-luna): puan **+0.18**, güven 0.36 — Doların NFP sonrası geri çekilmesi ve faizlerdeki düşüş altını kısa vadede destekliyor; altın da 4.100 dolar civarındaki kazanımlarını koruyor. Ancak ABD TÜFE verisi öncesindeki belirsizlik, doların Fed desteğini koruduğuna dair karşıt haberler ve İran geriliminin yatışabileceği beklentisi görünümü 
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 14:18 B5  CLOSE short stop: -55.93 USD
-09.11 14:18 N  NEWS (14 new) score +0.10 conf 0.35: Dolar zayıflıyor ve altın yaklaşık 4.100 dolar civarında toparlanıyor; bu, altın için kısa vadede hafif destekleyici. Ancak İran'ın müzakereye açık olduğu yönündeki haberler jeopolitik risk primini sınırlayabilir, Aralık'ta Fed faiz artırımı beklentisi ise bir miktar baskı yaratıyor. Yaklaşan ABD enflasyon verisi (CPI) büyük bir oynaklık kaynağı olduğundan yönsel güven düşük.
 09.11 14:18 N  GPT  score +0.18 conf 0.38: Doların geri çekilmesi ve Orta Doğu’da diplomatik ilerleme ihtimalinin sınırlı görünmesi altını kısa vadede destekliyor; ancak İran’ın müzakereye açık olduğu haberi güvenli liman talebini azaltabilir. ABD enflasyon verisi öncesindeki belirsizlik ve Fed’in faiz artırımı beklentisi yönü sınırlıyor.
 09.11 14:31 N  NEWS (13 new) score +0.15 conf 0.35: Altın fiyatlarının yükselişe geçtiğine dair haberler ve petrol fiyatlarındaki düşüş, enflasyon baskısını azaltarak altını hafifçe destekliyor. Ancak ABD TÜFE verisi öncesi belirsizlik yüksek, dolar ise veri öncesi toparlanmış durumda ve İran savaşına dair müzakere haberleri çelişkili olduğu için güven düşük tutuldu.
 09.11 14:31 N  GPT  score +0.30 conf 0.46: İran savaşını bitirecek yakın bir anlaşma beklenmemesi ve diplomatik çıkmaz, kısa vadede güvenli liman talebini destekliyor; doların önceki yükselişinden geri çekilmesi de altın için olumlu. Ancak müzakere ihtimalinin sürmesi ve haberlerin önemli ölçüde mevcut riskleri yansıtması yükseliş etkisini s
@@ -101,6 +99,8 @@ Son işlemler:
 09.11 15:19 N  GPT  score +0.15 conf 0.34: Ukrayna’daki yeni uzun menzilli saldırılar ve İran’ın müzakereler için şartlı tutumu güvenli liman talebini bir miktar destekleyebilir; doların geri çekilmesi de altın için olumlu. Ancak İran savaşının sona erebileceğine dair umutlar, güçlü risk iştahı ve beklenen ABD enflasyon verisi yönü belirsizl
 09.11 15:31 N  NEWS (11 new) score +0.10 conf 0.40: Petrol fiyatlarının düşmesi (İran savaşında barış umudu) enflasyon kaygısını azaltıp faiz beklentilerini yumuşatarak altı hafif destekliyor; ayrıca dolarda genel zayıflık görülüyor. Buna karşılık barış görüşmeleri ihtimali güvenli liman talebini zayıflatıyor ve ABD enflasyon verisi ile Fed konuşmaları belirsizliği artırıyor, bu yüzden etki sınırlı kalacak.
 09.11 15:31 N  GPT  score +0.10 conf 0.31: Doların geri çekilmesi altını hafifçe destekliyor; ancak İran’da görüşmelerin yeniden başlayabileceği haberi ve düşen petrol fiyatları jeopolitik güvenli liman talebini azaltabilir. Enflasyon verisi ve Fed konuşmaları öncesinde yön konusunda belirsizlik yüksek.
+09.11 15:43 N  NEWS (17 new) score -0.10 conf 0.35: 
+09.11 15:43 N  GPT  score +0.18 conf 0.36: Doların NFP sonrası geri çekilmesi ve faizlerdeki düşüş altını kısa vadede destekliyor; altın da 4.100 dolar civarındaki kazanımlarını koruyor. Ancak ABD TÜFE verisi öncesindeki belirsizlik, doların Fed desteğini koruduğuna dair karşıt haberler ve İran geriliminin yatışabileceği beklentisi görünümü 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
