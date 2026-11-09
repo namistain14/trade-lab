@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 09:18 (İstanbul)
+> Son güncelleme: 09.11.2026 09:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -455.77 $ |
-| İşlem sayısı | 0 | 64 |
-| Kazanma oranı | %0.0 | %39.1 |
-| Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
+| Net kâr/zarar | -55.90 $ | -511.67 $ |
+| İşlem sayısı | 1 | 65 |
+| Kazanma oranı | %0.0 | %38.5 |
+| Ödenen komisyon/spread | 11.82 $ | 771.50 $ |
 
-**Hesap değeri: 4,499.92 $** (başlangıç 5,000 $, -500.08 $ / %-10.00)
-
-Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
+**Hesap değeri: 4,488.33 $** (başlangıç 5,000 $, -511.67 $ / %-10.23)
 
 Son haber analizi (09.11 09:15): Claude puan **+0.40**, güven 0.50 — Jeopolitik risk artıyor: İran nükleer görüşmelerinin çökmesi, Riyad'da Aramco kulesine saldırı ve ABD'nin yeni görev gücü başlatması güvenli liman talebini destekliyor. Petrol fiyatının düşmesi ve dolar endeksinin gevşemesi enflasyon endişelerini azaltarak altını destekliyor; ayrıca altın ABD enflasyon verisi öncesinde %1'in üzerinde yükseldi. Buna karşılık Fed beklentilerinin doların güçlü kalması ve Çin bankalarının dolar mevduat faizini artırması baskı yaratabilir, bazı haberler de eski veya ilgisiz olduğu için güven sınırlı.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 09:20 | PAXGUSDT | long | -55.90 $ | stop |
 | 06.11 18:11 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:47 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:25 | PAXGUSDT | short | -55.94 $ | stop |
 | 06.11 17:11 | PAXGUSDT | short | +69.09 $ | take profit |
-| 06.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -88,7 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:15 N  NEWS (7 new) score +0.20 conf 0.40: Petrol fiyatlarındaki düşüş enflasyon ve faiz artırımı beklentilerini zayıflattığı için altın kısa vadede hafif destekleniyor. Buna karşılık güçlü ABD istihdam verisi ve dolardaki yükseliş baskı yaratıyor, İran savaşını sonlandırmaya yönelik müzakere haberleri ise güvenli liman talebini azaltıyor; ayrıca ABD CPI verisi öncesi belirsizlik yüksek.
@@ -103,6 +100,7 @@ Son işlemler:
 09.11 09:03 N  GPT  score +0.35 conf 0.45: Altın zaten %1’den fazla yükselmiş; Riyad’daki saldırı ve İran kaynaklı çatışma riski güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayabilir; haber akışı da çelişkili.
 09.11 09:15 N  NEWS (16 new) score +0.40 conf 0.50: Jeopolitik risk artıyor: İran nükleer görüşmelerinin çökmesi, Riyad'da Aramco kulesine saldırı ve ABD'nin yeni görev gücü başlatması güvenli liman talebini destekliyor. Petrol fiyatının düşmesi ve dolar endeksinin gevşemesi enflasyon endişelerini azaltarak altını destekliyor; ayrıca altın ABD enflasyon verisi öncesinde %1'in üzerinde yükseldi. Buna karşılık Fed beklentilerinin doların güçlü kalması ve Çin bankalarının dolar mevduat faizini artırması baskı yaratabilir, bazı haberler de eski veya ilgisiz olduğu için güven sınırlı.
 09.11 09:15 N  GPT  score +0.30 conf 0.43: Dolar endeksindeki düşüş ve petrolün gerilemesi altını kısa vadede destekleyebilir; İran çevresindeki gerilim de güvenli liman talebini artırıyor. Ancak altın zaten %1’den fazla yükselmiş ve ABD enflasyon verisi bekleniyor, bu nedenle ek hareket sınırlı ve belirsiz olabilir.
+09.11 09:21 B5  CLOSE long stop: -55.90 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
