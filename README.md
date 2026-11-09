@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 21:25 (İstanbul)
+> Son güncelleme: 09.11.2026 21:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %37.3 |
 | Ödenen komisyon/spread | 35.48 $ | 795.15 $ |
 
-**Hesap değeri: 4,357.50 $** (başlangıç 5,000 $, -642.50 $ / %-12.85)
+**Hesap değeri: 4,352.86 $** (başlangıç 5,000 $, -647.14 $ / %-12.94)
 
 Açık pozisyonlar: PAXGUSDT short @ 4090.19 (TP 4077.92 / SL 4098.37)
 
@@ -68,29 +68,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +533.82 $ | +8167.77 $ |
-| İşlem sayısı | 2 | 30 |
-| Kazanma oranı | %50.0 | %46.7 |
+| Net kâr/zarar | -579.56 $ | +7054.39 $ |
+| İşlem sayısı | 3 | 31 |
+| Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,068.04 $** (başlangıç 100,000 $, +9068.04 $ / %+9.07)
+**Hesap değeri: 109,010.36 $** (başlangıç 100,000 $, +9010.36 $ / %+9.01)
 
-Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); NVDA long @ 177.64 (TP 180.35 / SL 175.90); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
+Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 09.11 21:28 | NVDA | long | -1113.38 $ | stop |
 | 09.11 19:06 | NVDA | long | -1115.17 $ | stop |
 | 09.11 18:12 | QQQ | long | +1648.99 $ | take profit |
 | 06.11 23:47 | SPY | long | -268.92 $ | seans sonu |
 | 06.11 23:47 | QQQ | long | -39.36 $ | seans sonu |
-| 06.11 23:47 | NVDA | long | -26.55 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-09.11 20:34 N  GPT  score +0.15 conf 0.36: Doların geniş çaplı zayıflaması altını kısa vadede destekliyor. Ancak İran savaşının sona erebileceğine dair diplomatik iyimserlik ve petrol düşüşü güvenli liman talebini ve enflasyon baskısı beklentisini azaltabilir; yaklaşan ABD TÜFE verisi yönü belirsiz kılıyor.
 09.11 20:34 B6  karar turu: Claude «Endeksler büyüme hisseleri öncülüğünde güçlü ve geniş tabanlı yükseliyor, ancak Fed yetkililerinin enflasyon vurgusu ve NVDA'daki skandal kaynaklı oynaklık riskleri canlı tutuyor.» / GPT «Endekslerde yükseliş eğilimi sürüyor ancak güçlü günlük primler ve enflasyon uyarıları yeni kaldıraçlı girişlerin riskini artırıyor.»
 09.11 20:46 N  NEWS (11 new) score +0.10 conf 0.35: Dolar zayıflıyor ve petrol düşüyor; bu, altın için hafif olumlu bir tablo. Ancak İran barış görüşmeleri güvenli liman talebini azaltıyor ve Goolsbee'nin enflasyon riski uyarısı faiz beklentilerini sertleştirerek altın üzerinde baskı yaratabilir. Sinyaller karışık olduğu için etki sınırlı tahmin ediliyor.
 09.11 20:46 N  GPT  score +0.12 conf 0.38: Doların zayıflaması altını desteklerken İran görüşmelerinin risk iştahını artırması güvenli liman talebini azaltabilir. Goolsbee’nin enflasyon risklerine dikkat çekmesi ve haber akışındaki çelişkiler kısa vadeli yön sinyalini zayıflatıyor.
@@ -105,6 +104,7 @@ Son işlemler:
 09.11 21:23 N  GPT  score -0.35 conf 0.62: Sıcak enflasyon ve Fed yetkililerinin ek faiz artışlarına işaret etmesi, yükselen tahvil getirileriyle birlikte altın üzerinde baskı oluşturabilir. İran’la geniş çaplı savaş olasılığının düşük görülmesi güvenli liman talebini azaltırken, doların zayıflaması düşüşü sınırlıyor.
 09.11 21:23 B5  SHORT gold 25000 USD x10 @ 4090.19 (TP 4077.92, SL 4098.37; news -0.38)
 09.11 21:23 B6  karar turu: Claude «Piyasa geniş tabanlı güçlü bir yükseliş günü yaşıyor ancak son saatte endekslerde hafif yorulma görülüyor; NVDA, Huang skandalı nedeniyle ayrışarak geride kalıyor.» / GPT «Endeksler günlük güçlü kazançlarını korusa da son saatte momentum zayıflıyor; yeni uzun pozisyonlarla yükselişi kovalamak yerine seçici işlemler öne çıkıyor.»
+09.11 21:28 B6  CLOSE long NVDA stop: -1113.38 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
