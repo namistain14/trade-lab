@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 10:25 (İstanbul)
+> Son güncelleme: 09.11.2026 10:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,488.33 $** (başlangıç 5,000 $, -511.67 $ / %-10.23)
 
-Son haber analizi (09.11 10:16): Claude puan **+0.05**, güven 0.35 — Petrol fiyatlarındaki düşüş enflasyon endişelerini azaltıp altı destekliyor, ancak güçlü ABD istihdam verisi ve Fed faiz artırımı beklentileri doları güçlendirip altı baskılıyor. Ayrıca İran savaşının yeniden başlamasının düşük görülmesi güvenli liman talebini azaltıyor; ABD TÜFE verisi öncesinde sinyaller çelişkili olduğu için yön belirsiz ve sinyal zayıf.
+Son haber analizi (09.11 10:28): Claude puan **-0.10**, güven 0.35 — Haberler karışık: güçlü ABD istihdam verisi ve Fed faiz artırımı beklentileri doları destekleyip altı baskılıyor, ancak petrol fiyatlarının düşmesi ve İran'da savaşın yeniden başlamasının "çok olası olmadığı" yönündeki açıklamalar enflasyon kaygısını azaltıp faiz artırımı ihtimallerini zayıflatabiliyor. Salı günkü ABD TÜFE verisi öncesinde pozisyonlanma yüksek; sonuç belirsiz olduğu için hafif negatif, düşük güvenli bir görünüm.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.43 — İran savaşının yeniden başlamasının düşük olasılıklı görülmesi ve Ukrayna’da barış beklentisi güvenli liman talebini azaltabilir; Fed faiz artışı bahisleriyle desteklenen dolar da altın için baskı oluşturuyor. Buna karşılık düşen petrol ve altındaki mevcut yükseliş bu etkileri dengeliyor; yaklaşan e
+GPT (gpt-6-luna): puan **+0.15**, güven 0.35 — Doların NFP sonrası yükselişini geri vermesi ve altının 4.120 dolar üzerine toparlanması kısa vadede hafif destekleyici. Ancak güçlü istihdam verisi Fed’in sıkı duruşu riskini koruyor; İran geriliminin yeniden tırmanmasının düşük görülmesi ve yaklaşan ABD TÜFE verisi kazançları sınırlayabilir.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 09:03 N  NEWS (12 new) score +0.40 conf 0.50: Altın, zayıf dolar ve İran savaşının tırmanması (Riyad'daki Aramco kulesine saldırı) nedeniyle güvenli liman talebiyle yükseliyor; ABD enflasyon verisi beklentisi de fiyatları destekliyor. Ancak Fed beklentileri nedeniyle doların dayanıklılığı, ABD-İran müzakere haberleri ve altının zaten yaşanan %1'in üzerindeki yükselişi bu etkiyi sınırlıyor.
-09.11 09:03 N  GPT  score +0.35 conf 0.45: Altın zaten %1’den fazla yükselmiş; Riyad’daki saldırı ve İran kaynaklı çatışma riski güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed beklentileri ve yaklaşan ABD enflasyon verisi yükselişi sınırlayabilir; haber akışı da çelişkili.
 09.11 09:15 N  NEWS (16 new) score +0.40 conf 0.50: Jeopolitik risk artıyor: İran nükleer görüşmelerinin çökmesi, Riyad'da Aramco kulesine saldırı ve ABD'nin yeni görev gücü başlatması güvenli liman talebini destekliyor. Petrol fiyatının düşmesi ve dolar endeksinin gevşemesi enflasyon endişelerini azaltarak altını destekliyor; ayrıca altın ABD enflasyon verisi öncesinde %1'in üzerinde yükseldi. Buna karşılık Fed beklentilerinin doların güçlü kalması ve Çin bankalarının dolar mevduat faizini artırması baskı yaratabilir, bazı haberler de eski veya ilgisiz olduğu için güven sınırlı.
 09.11 09:15 N  GPT  score +0.30 conf 0.43: Dolar endeksindeki düşüş ve petrolün gerilemesi altını kısa vadede destekleyebilir; İran çevresindeki gerilim de güvenli liman talebini artırıyor. Ancak altın zaten %1’den fazla yükselmiş ve ABD enflasyon verisi bekleniyor, bu nedenle ek hareket sınırlı ve belirsiz olabilir.
 09.11 09:21 B5  CLOSE long stop: -55.90 USD
@@ -101,6 +99,8 @@ Son işlemler:
 09.11 10:04 N  GPT  score +0.22 conf 0.43: Altının 4.120 doların üzerine toparlanması ve petrol fiyatlarındaki gevşemenin enflasyon baskısını azaltması kısa vadede destekleyici. Ancak güçlü istihdam verileri ve Fed’in daha sıkı kalabileceği beklentisi doları ve faizleri desteklerken, yaklaşan ABD TÜFE verisi görünümü belirsizleştiriyor.
 09.11 10:16 N  NEWS (14 new) score +0.05 conf 0.35: Petrol fiyatlarındaki düşüş enflasyon endişelerini azaltıp altı destekliyor, ancak güçlü ABD istihdam verisi ve Fed faiz artırımı beklentileri doları güçlendirip altı baskılıyor. Ayrıca İran savaşının yeniden başlamasının düşük görülmesi güvenli liman talebini azaltıyor; ABD TÜFE verisi öncesinde sinyaller çelişkili olduğu için yön belirsiz ve sinyal zayıf.
 09.11 10:16 N  GPT  score -0.12 conf 0.43: İran savaşının yeniden başlamasının düşük olasılıklı görülmesi ve Ukrayna’da barış beklentisi güvenli liman talebini azaltabilir; Fed faiz artışı bahisleriyle desteklenen dolar da altın için baskı oluşturuyor. Buna karşılık düşen petrol ve altındaki mevcut yükseliş bu etkileri dengeliyor; yaklaşan e
+09.11 10:28 N  NEWS (11 new) score -0.10 conf 0.35: Haberler karışık: güçlü ABD istihdam verisi ve Fed faiz artırımı beklentileri doları destekleyip altı baskılıyor, ancak petrol fiyatlarının düşmesi ve İran'da savaşın yeniden başlamasının "çok olası olmadığı" yönündeki açıklamalar enflasyon kaygısını azaltıp faiz artırımı ihtimallerini zayıflatabiliyor. Salı günkü ABD TÜFE verisi öncesinde pozisyonlanma yüksek; sonuç belirsiz olduğu için hafif negatif, düşük güvenli bir görünüm.
+09.11 10:28 N  GPT  score +0.15 conf 0.35: Doların NFP sonrası yükselişini geri vermesi ve altının 4.120 dolar üzerine toparlanması kısa vadede hafif destekleyici. Ancak güçlü istihdam verisi Fed’in sıkı duruşu riskini koruyor; İran geriliminin yeniden tırmanmasının düşük görülmesi ve yaklaşan ABD TÜFE verisi kazançları sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
