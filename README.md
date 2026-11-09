@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 00:21 (İstanbul)
+> Son güncelleme: 10.11.2026 00:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,320.57 $** (başlangıç 5,000 $, -679.43 $ / %-13.59)
 
-Son haber analizi (10.11 00:13): Claude puan **+0.10**, güven 0.35 — Altın, petrol ve doların gerilemesiyle toparlandı, bu kısa vadede destekleyici. Ancak Fed'in faiz artırımı beklentileri (Daly, Barkin) ve İran'la müzakere haberlerinin risk iştahını artırması altını sınırlıyor; Hegseth'e yönelik görevden alma girişimi ise jeopolitik açıdan büyük yeni bir şok değil.
+Son haber analizi (10.11 00:25): Claude puan **+0.10**, güven 0.40 — Yeni gelen "sıcak ABD enflasyonu / Fed faiz artırımı" başlığı altın için baskı yaratabilir, ancak petrol düşüşü ve zayıflayan dolar (İran müzakere haberleri, Hormuz talebinde gevşeme) enflasyon ve dolar kanalından altı destekliyor; ayrıca Hegseth/İran savaşı haberleri jeopolitik risk primi sağlıyor. Sinyaller karışık ve birçoğu zaten fiyatlanmış olduğu için hafif pozitif, düşük güvenli bir görünüm.
 
-GPT (gpt-6-luna): puan **+0.25**, güven 0.38 — İran-Hürmüz geriliminin yumuşayabileceği haberiyle petrol ve doların gerilemesi altına kısa vadede destek sağlıyor; ancak Fed’den gelen temkinli/şahin sinyaller ve yaklaşan enflasyon verisi yükseliş potansiyelini sınırlıyor. Yeni siyasi haberlerin çoğu doğrudan fiyat katalizörü değil ve genel sinyal
+GPT (gpt-6-luna): puan **+0.15**, güven 0.38 — Petrol ve doların gerilemesi altını kısa vadede destekliyor; yen tahmini de dolar zayıflığına işaret ediyor. Ancak enflasyonun yüksek kalacağı ve Fed’in faiz artırabileceği beklentisi bu desteği sınırlıyor; CPI henüz yayımlanmadığından yön sinyali kesin değil.
 
 Son işlemler:
 
@@ -86,8 +86,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 23:24 N  NEWS (9 new) score -0.40 conf 0.50: Faiz artırımı beklentileri öne çıkıyor: Fed'den Daly'nin daha fazla faiz artırımına işaret etmesi, enflasyon ve Fed artırımı korkuları ile ABD/Avrupa tahvil getirilerinin yükselmesi altın için baskılayıcı. İran savaşı ve Hegseth'e yönelik impeachment girişimi jeopolitik risk yaratsa da, bunlar ağırlıklı olarak siyasi gürültü niteliğinde ve güvenli liman talebini tetikleyecek yeni bir eskalasyon içermiyor; bu nedenle etki sınırlı kalır.
-09.11 23:24 N  GPT  score -0.38 conf 0.68: Fed’den daha fazla faiz artışı sinyali ve yükselen tahvil getirileri, kısa vadede altının fırsat maliyetini artırıp fiyatı baskılayabilir. İran’la ilgili siber saldırı haberleri sınırlı güvenli liman desteği sağlayabilir; ancak etkisi faiz görünümünden zayıf görünüyor.
 09.11 23:36 N  NEWS (7 new) score +0.15 conf 0.40: Altın, petrol düşüşünün dolarda zayıflama yaratmasıyla 4.100 doların üzerine çıktı ve Fed faiz artırımı beklentilerine rağmen yükseldi; bu, kısa vadede boğa yönlü bir tepki. Buna karşın Fed yetkilisi Daly'nin daha fazla faiz artırımına işaret etmesi ve enflasyonun inatçı kalacağı beklentisi altın için baskı oluşturuyor; Hegseth'in görevden alınma girişimi gibi haberlerin piyasa etkisi sınırlı.
 09.11 23:36 N  GPT  score +0.25 conf 0.45: Doların İran görüşmeleriyle zayıflaması ve altının 4.100 doların üzerine çıkması kısa vadede yükselişi destekliyor. Ancak Fed’in daha fazla faiz artırabileceği beklentisi ve yükselen tahvil getirileri ters yönde; haber akışı bu nedenle çelişkili.
 09.11 23:45 ERROR B6: Alpaca DELETE /v2/positions/AAPL: 403 {"available":"0","code":40310000,"existing_qty":"318","held_for_orders":"318","message":"insufficient qty available for order (requested: 318, available: 0)","symbol":"AAPL"}
@@ -101,6 +99,8 @@ Son işlemler:
 10.11 00:00 N  GPT  score +0.25 conf 0.40: Petrol ve doların gerilemesi altına kısa vadeli destek sağlıyor; İran savaşıyla ilgili söylemler de sınırlı güvenli liman talebi yaratabilir. Ancak manşetlerin bir kısmı mevcut fiyat hareketini zaten yansıtıyor ve CPI verisine ilişkin belirsizlik yönü netleştirmiyor.
 10.11 00:13 N  NEWS (15 new) score +0.10 conf 0.35: 
 10.11 00:13 N  GPT  score +0.25 conf 0.38: İran-Hürmüz geriliminin yumuşayabileceği haberiyle petrol ve doların gerilemesi altına kısa vadede destek sağlıyor; ancak Fed’den gelen temkinli/şahin sinyaller ve yaklaşan enflasyon verisi yükseliş potansiyelini sınırlıyor. Yeni siyasi haberlerin çoğu doğrudan fiyat katalizörü değil ve genel sinyal
+10.11 00:25 N  NEWS (6 new) score +0.10 conf 0.40: Yeni gelen "sıcak ABD enflasyonu / Fed faiz artırımı" başlığı altın için baskı yaratabilir, ancak petrol düşüşü ve zayıflayan dolar (İran müzakere haberleri, Hormuz talebinde gevşeme) enflasyon ve dolar kanalından altı destekliyor; ayrıca Hegseth/İran savaşı haberleri jeopolitik risk primi sağlıyor. Sinyaller karışık ve birçoğu zaten fiyatlanmış olduğu için hafif pozitif, düşük güvenli bir görünüm.
+10.11 00:25 N  GPT  score +0.15 conf 0.38: Petrol ve doların gerilemesi altını kısa vadede destekliyor; yen tahmini de dolar zayıflığına işaret ediyor. Ancak enflasyonun yüksek kalacağı ve Fed’in faiz artırabileceği beklentisi bu desteği sınırlıyor; CPI henüz yayımlanmadığından yön sinyali kesin değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
