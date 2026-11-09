@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 08:06 (İstanbul)
+> Son güncelleme: 09.11.2026 08:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %39.1 |
 | Ödenen komisyon/spread | 0.00 $ | 759.67 $ |
 
-**Hesap değeri: 4,538.08 $** (başlangıç 5,000 $, -461.92 $ / %-9.24)
+**Hesap değeri: 4,528.66 $** (başlangıç 5,000 $, -471.34 $ / %-9.43)
 
 Açık pozisyonlar: PAXGUSDT long @ 4114.61 (TP 4126.96 / SL 4106.38)
 
@@ -88,7 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 07:14 N  GPT  score +0.32 conf 0.58: Altın son haberlerde 1%’den fazla yükselip 4.100 doların üzerine çıktı; petrol fiyatlarındaki düşüşün enflasyon ve faiz baskısını hafifletmesi kısa vadede destekleyici. Ancak güçlü ABD istihdam verisi Fed’in daha şahin kalabileceği beklentisini ve dolar desteğini artırırken, İran haberleri de tırman
 09.11 07:26 N  NEWS (10 new) score +0.30 conf 0.50: Petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp altı yaklaşık %1 yukarı taşıdı ve dolar endeksi baskılandı; Riyad'daki Aramco kulesine füze enkazı düşmesi ve İran savaşının sürmesi güvenli liman talebini destekliyor. Buna karşın güçlü ABD istihdam verisi ve Fed beklentileri doları ve faiz baskısını güçlendirebilir, ayrıca ABD enflasyon verisi (CPI) yaklaştığı için yön belirsiz.
 09.11 07:26 N  GPT  score +0.35 conf 0.48: Düşük petrol fiyatlarının enflasyon ve faiz baskısını hafifletmesi ile doların zayıf seyri altını destekliyor; Riyad’daki Husi saldırısı da güvenli liman talebini artırabilir. Ancak güçlü ABD istihdam verisi ve yaklaşan enflasyon sinyalleri nedeniyle yükselişin devamına dair güven sınırlı.
 09.11 07:26 B5  LONG gold 25000 USD x10 @ 4114.61 (TP 4126.96, SL 4106.38; news +0.32)
@@ -103,6 +102,7 @@ Son işlemler:
 09.11 08:03 N  GPT  score +0.15 conf 0.30: Petrol fiyatlarındaki düşüşün enflasyon ve faiz artırımı beklentilerini hafifletmesi altını destekliyor; ancak güçlü ABD istihdam verileri ve doların dayanıklılığı bu desteği sınırlıyor. İran konusunda müzakere ve çatışma haberleri çelişkili, ayrıca yaklaşan ABD enflasyon verisi öncesinde kısa vadel
 09.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 09.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+09.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
