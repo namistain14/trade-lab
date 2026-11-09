@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 18:06 (İstanbul)
+> Son güncelleme: 09.11.2026 18:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,376.50 $** (başlangıç 5,000 $, -623.50 $ / %-12.47)
 
-Son haber analizi (09.11 17:57): Claude puan **+0.10**, güven 0.30 — Haberler karışık: İran'ın talepleri ve ABD'nin askeri baskısı jeopolitik risk primini destekliyor, ABD dolarının NFP sonrası kazançlarını geri vermesi de altın için hafif olumlu. Buna karşın Trump'ın yakın saldırı ihtimalini düşük görmesi ve ABD enflasyon verisinin (CPI) bekleniyor olması yönü belirsiz bırakıyor; bu nedenle sinyal zayıf.
+Son haber analizi (09.11 18:09): Claude puan **-0.05**, güven 0.25 — Yeni haberlerin çoğu altın fiyatına doğrudan etki etmeyecek nitelikte; İran savaşında Trump'ın yeni bir tırmanma planı olmadığını söylemesi jeopolitik güvenli liman talebini biraz azaltabilir, buna karşılık Rusya'nın altın satışı ile Çin'in merkez bankası alımları çelişkili sinyaller veriyor. Net etki hafif negatif-nötr olarak değerlendirildi ve güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.42 — Doların NFP sonrası kazanımlarının bir kısmını geri vermesi altını destekleyebilir; İran çevresindeki gerilim ve Yemen’deki can kayıpları da güvenli liman talebini artırıyor. Ancak haberlerin bir bölümü mevcut çatışmanın devamına dair ve Trump’ın saldırı olasılığını düşük göstermesi sinyali sınırlıy
+GPT (gpt-6-luna): puan **+0.25**, güven 0.40 — İran savaşı ve Yemen’deki can kayıpları güvenli liman talebini destekleyebilir; ancak Trump’ın saldırıların genişlemesinin beklenmediğini söylemesi ve diplomatik temaslar yükseliş riskini sınırlıyor. Doların kazanımlarını geri vermesi altın için hafif destekleyici, fakat kısa vadeli yön sinyali karı
 
 Son işlemler:
 
@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %46.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,284.79 $** (başlangıç 100,000 $, +11284.79 $ / %+11.28)
+**Hesap değeri: 111,295.92 $** (başlangıç 100,000 $, +11295.92 $ / %+11.30)
 
 Açık pozisyonlar: QQQ long @ 665.52 (TP 673.57 / SL 656.98)
 
@@ -88,10 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 17:08 N  NEWS (12 new) score +0.15 conf 0.40: Dolar zayıflığı ve İran diplomasisine bağlı petrol baskısı altındaki altın için hafif destekleyici bir tablo var; ancak Orta Doğu gerilimlerinin azalması güvenli liman talebini sınırlayabilir. Yaklaşan ABD TÜFE verisinin sonucu belirsiz olduğu için yön netliği düşük ve güven sınırlı.
-09.11 17:08 N  GPT  score +0.20 conf 0.36: Doların gerilemesi ve Ukrayna/Orta Doğu kaynaklı jeopolitik riskler altını kısa vadede hafif destekleyebilir. Ancak Orta Doğu diplomasisi gerilimi azaltabilir ve yaklaşan ABD enflasyon verisi öncesi yön belirsiz; yeni başlıkların çoğu fiyatı doğrudan etkilemiyor.
-09.11 17:20 N  NEWS (16 new) score -0.10 conf 0.30: 
-09.11 17:20 N  GPT  score +0.15 conf 0.32: Doların gerilemesi ve altındaki mevcut yükseliş kısa vadede hafif destekleyici; ancak sıcak enflasyon ve yükselen tahvil getirileri Fed beklentilerini şahinleştirerek bu desteği sınırlıyor. Haber akışı çelişkili ve yeni bir jeopolitik tırmanış göstermediğinden görünüm temkinli biçimde hafif pozitif.
 09.11 17:33 N  NEWS (10 new) score +0.20 conf 0.30: 
 09.11 17:33 N  GPT  score +0.25 conf 0.42: Doların geri çekilmesi ve İran’da yakın vadeli anlaşma beklentisinin zayıf olması altını kısa vadede destekleyebilir; Etiyopya-Eritre gerilimi de sınırlı güvenli liman talebi yaratıyor. Ancak sıcak enflasyon, yükselen tahvil getirileri ve Fed’in daha şahin kalma riski bu desteği dengeliyor.
 09.11 17:33 B6  karar turu: Claude «Piyasa, ABD-Çin ticaret gerginliğinin azalmasıyla pozitif seyrediyor; NVDA ise şirkete özel skandalla ayrışarak zayıf kalıyor.» / GPT «Verilen akış teknoloji hisselerinde seçici alımı destekliyor; dört kat kaldıraçta ilişkili QQQ ve AAPL pozisyonlarının toplam riski sınırlı tutulmalı.»
@@ -103,6 +99,10 @@ Son işlemler:
 09.11 17:57 N  NEWS (12 new) score +0.10 conf 0.30: Haberler karışık: İran'ın talepleri ve ABD'nin askeri baskısı jeopolitik risk primini destekliyor, ABD dolarının NFP sonrası kazançlarını geri vermesi de altın için hafif olumlu. Buna karşın Trump'ın yakın saldırı ihtimalini düşük görmesi ve ABD enflasyon verisinin (CPI) bekleniyor olması yönü belirsiz bırakıyor; bu nedenle sinyal zayıf.
 09.11 17:57 N  GPT  score +0.35 conf 0.42: Doların NFP sonrası kazanımlarının bir kısmını geri vermesi altını destekleyebilir; İran çevresindeki gerilim ve Yemen’deki can kayıpları da güvenli liman talebini artırıyor. Ancak haberlerin bir bölümü mevcut çatışmanın devamına dair ve Trump’ın saldırı olasılığını düşük göstermesi sinyali sınırlıy
 09.11 17:57 B6  karar turu: Claude «Teknoloji öncülüğünde güçlü bir risk iştahı var, ancak büyük hareketlerin bir kısmı fiyatlandı.» / GPT «Piyasa yönü yukarı olsa da mevcut QQQ pozisyonuyla yeni uzunlar korelasyon riskini artırıyor; dört kat kaldıraçta küçük pozisyonlar ve toplam risk sınırı önemli.»
+09.11 18:09 N  NEWS (13 new) score -0.05 conf 0.25: Yeni haberlerin çoğu altın fiyatına doğrudan etki etmeyecek nitelikte; İran savaşında Trump'ın yeni bir tırmanma planı olmadığını söylemesi jeopolitik güvenli liman talebini biraz azaltabilir, buna karşılık Rusya'nın altın satışı ile Çin'in merkez bankası alımları çelişkili sinyaller veriyor. Net etki hafif negatif-nötr olarak değerlendirildi ve güven düşük tutuldu.
+09.11 18:09 N  GPT  score +0.25 conf 0.40: İran savaşı ve Yemen’deki can kayıpları güvenli liman talebini destekleyebilir; ancak Trump’ın saldırıların genişlemesinin beklenmediğini söylemesi ve diplomatik temaslar yükseliş riskini sınırlıyor. Doların kazanımlarını geri vermesi altın için hafif destekleyici, fakat kısa vadeli yön sinyali karı
+09.11 18:09 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü yükseliyor; NVDA'daki skandal satışı tepki alımı fırsatı sunarken, uzamış hareketleri kovalamaktan kaçınmak gerekiyor.» / GPT «Endekslerde yön yukarı olsa da hareketin önemli bölümü gerçekleştiğinden yeni işlemlerde taze haberli NVDA ve dengelenen AAPL öne çıkıyor; dört kat kaldıraçta korelasyon ve stop kayması riski yüksek.»
+09.11 18:09 B6  ALIŞ NVDA 623 adet ≈ 111,187 $ (1:4) @ 178.47 (TP 181.15, SL 176.69; ikisi de hemfikir, güven 0.58)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
