@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 21:56 (İstanbul)
+> Son güncelleme: 09.11.2026 21:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %37.3 |
 | Ödenen komisyon/spread | 35.48 $ | 795.15 $ |
 
-**Hesap değeri: 4,350.04 $** (başlangıç 5,000 $, -649.96 $ / %-13.00)
+**Hesap değeri: 4,358.42 $** (başlangıç 5,000 $, -641.58 $ / %-12.83)
 
 Açık pozisyonlar: PAXGUSDT short @ 4090.19 (TP 4077.92 / SL 4098.37)
 
-Son haber analizi (09.11 21:47): Claude puan **-0.20**, güven 0.40 — Haberlerin çoğu Fed'in sıkı duruşunu destekliyor (Daly ve Natixis ek faiz artırımı bekliyor, Barkin enflasyonu ana risk olarak görüyor), bu da altın için olumsuz. İran'da tam ölçekli savaş riskinin azalması ve doların zayıflaması ise güvenli liman talebini zayıflatırken kısmen altını destekliyor; sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
+Son haber analizi (09.11 21:59): Claude puan **-0.35**, güven 0.50 — Haberlerin çoğu Fed'in sıkı duruşunu destekliyor (Daly ve Natixis ek faiz artırımı bekliyor, Barkin enflasyonu ana risk olarak görüyor), bu da altın için olumsuz. İran'da tam ölçekli savaş riskinin azalması ve doların zayıflaması ise güvenli liman talebini zayıflatırken kısmen altını destekliyor; sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.43 — İran’la yeniden geniş çaplı çatışma olasılığının düşük görülmesi güvenli liman talebini azaltırken, faiz artışı beklentisi ve yükselen tahvil getirileri altın üzerinde baskı kuruyor. Doların zayıflaması ve işgücü piyasasına dair kaygılar bu baskıyı kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.28**, güven 0.48 — İran konusunda yeni saldırı ihtimalinin düşük görülmesi ve olası görüşmeler güvenli liman talebini azaltabilir. Buna karşılık enflasyonun Fed’i sıkı tutacağına dair mesajlar altın için baskılayıcı; işgücü piyasasına ilişkin kaygılar ve haberlerin çelişkili niteliği düşüş beklentisini sınırlıyor.
 
 Son işlemler:
 
@@ -73,7 +73,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %45.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 109,736.21 $** (başlangıç 100,000 $, +9736.21 $ / %+9.74)
+**Hesap değeri: 109,760.96 $** (başlangıç 100,000 $, +9760.96 $ / %+9.76)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); QQQ long @ 675.26 (TP 685.14 / SL 668.26); SPY long @ 749.67 (TP 760.87 / SL 742.13)
 
@@ -90,9 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-09.11 21:11 N  NEWS (15 new) score +0.10 conf 0.30: Haberler karışık: İran müzakereleri dolarda zayıflama ve risk iştahı artışı yaratıyor ve petrol fiyatlarının düşmesi enflasyon beklentilerini baskılayarak altına hafif destek verebilir. Buna karşılık Fed yetkililerinin (Barkin, Goolsbee) enflasyon riskine vurgu yapması ve ABD tahvil faizlerinin yükselmesi altın üzerinde baskı oluşturuyor; jeopolitik güvenli liman talebi ise gerilimlerin azalmasıyla zayıf kalıyor.
-09.11 21:11 N  GPT  score +0.15 conf 0.35: Doların İran görüşmeleriyle zayıflaması ve altının yükseldiğine dair haberler kısa vadede destekleyici. Ancak yükselen tahvil getirileri ve Fed yetkililerinin enflasyon risklerine vurgu yapması bu etkiyi sınırlıyor; haber akışı karışık.
-09.11 21:11 B6  karar turu: Claude «Endeksler geniş tabanlı ve güçlü bir yükseliş gününde yatay konsolidasyon yapıyor; NVDA'daki Huang skandalı ayrışmasına rağmen genel risk iştahı korunuyor.» / GPT «Endekslerde güçlü günlük yükseliş son saatte ivme kaybetmiş; mevcut hareketleri kovalamak yerine yeni şirket haberleriyle desteklenen fırsatlar tercih edilmeli.»
 09.11 21:23 N  NEWS (10 new) score -0.40 conf 0.50: Yeni başlıklarda Fed'in sıkılaştırma yanlısı tonu baskın: enflasyonun inatçı olduğu, Daly'nin daha fazla faiz artırımı beklediği ve Fed'in enflasyona "az sabır" göstereceği mesajları reel faizleri ve doları destekleyerek altın için olumsuz. Trump'ın İran'da tam ölçekli savaşın "çok olası olmadığını" söylemesi de güvenli liman talebini azaltıyor; buna karşın altının yükselişine dair başlık ve dolar zayıflığı kısmen dengeleyici, bu yüzden güven orta düzeyde.
 09.11 21:23 N  GPT  score -0.35 conf 0.62: Sıcak enflasyon ve Fed yetkililerinin ek faiz artışlarına işaret etmesi, yükselen tahvil getirileriyle birlikte altın üzerinde baskı oluşturabilir. İran’la geniş çaplı savaş olasılığının düşük görülmesi güvenli liman talebini azaltırken, doların zayıflaması düşüşü sınırlıyor.
 09.11 21:23 B5  SHORT gold 25000 USD x10 @ 4090.19 (TP 4077.92, SL 4098.37; news -0.38)
@@ -105,6 +102,9 @@ Son işlemler:
 09.11 21:48 N  NEWS (11 new) score -0.20 conf 0.40: Haberlerin çoğu Fed'in sıkı duruşunu destekliyor (Daly ve Natixis ek faiz artırımı bekliyor, Barkin enflasyonu ana risk olarak görüyor), bu da altın için olumsuz. İran'da tam ölçekli savaş riskinin azalması ve doların zayıflaması ise güvenli liman talebini zayıflatırken kısmen altını destekliyor; sinyaller karışık ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 09.11 21:48 N  GPT  score -0.20 conf 0.43: İran’la yeniden geniş çaplı çatışma olasılığının düşük görülmesi güvenli liman talebini azaltırken, faiz artışı beklentisi ve yükselen tahvil getirileri altın üzerinde baskı kuruyor. Doların zayıflaması ve işgücü piyasasına dair kaygılar bu baskıyı kısmen dengeliyor.
 09.11 21:48 B6  karar turu: Claude «Piyasa geniş tabanlı ve büyüme hisseleri liderliğinde güçlü yükselişte, son saatte yatay-pozitif konsolidasyon sürüyor.» / GPT «Endekslerde son dakikalardaki toparlanma alımları destekliyor; ancak 14:47 itibarıyla normal seansın bitimine 73 dakika kalması ve 1:4 kaldıraç, küçük pozisyon ve kapanış öncesi çıkış disiplini gerektiriyor.»
+09.11 21:59 N  NEWS (7 new) score -0.35 conf 0.50: 
+09.11 21:59 N  GPT  score -0.28 conf 0.48: İran konusunda yeni saldırı ihtimalinin düşük görülmesi ve olası görüşmeler güvenli liman talebini azaltabilir. Buna karşılık enflasyonun Fed’i sıkı tutacağına dair mesajlar altın için baskılayıcı; işgücü piyasasına ilişkin kaygılar ve haberlerin çelişkili niteliği düşüş beklentisini sınırlıyor.
+09.11 21:59 B6  karar turu: Claude «Endeksler çip ralisiyle güçlü seyrediyor ve son saatte zirve yakınında yatay konsolide oluyor; NVDA ise şirkete özgü skandal nedeniyle ayrışıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından ivme zayıflıyor; kapanışa yaklaşık bir saat kaldığından işlemler seans sonuna kadar kapatılmalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
