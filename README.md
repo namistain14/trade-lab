@@ -71,7 +71,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %48.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 111,762.50 $** (başlangıç 100,000 $, +11762.50 $ / %+11.76)
+**Hesap değeri: 111,892.20 $** (başlangıç 100,000 $, +11892.20 $ / %+11.89)
 
 Açık pozisyonlar: AAPL long @ 349.67 (TP 354.75 / SL 346.01); NVDA long @ 178.94 (TP 181.15 / SL 176.69)
 
