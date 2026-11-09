@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 02:10 (İstanbul)
+> Son güncelleme: 10.11.2026 02:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %36.8 |
 | Ödenen komisyon/spread | 0.00 $ | 806.99 $ |
 
-**Hesap değeri: 4,323.70 $** (başlangıç 5,000 $, -676.30 $ / %-13.53)
+**Hesap değeri: 4,358.91 $** (başlangıç 5,000 $, -641.09 $ / %-12.82)
 
 Açık pozisyonlar: PAXGUSDT long @ 4124.44 (TP 4136.82 / SL 4116.20)
 
-Son haber analizi (10.11 02:02): Claude puan **+0.12**, güven 0.40 — Haberler karışık: Trump'ın İran savaşının "fiilen bitti" demesi jeopolitik korku primini azaltarak altı hafif baskılıyor, ancak petrol fiyatlarının düşüp enflasyon endişelerini hafifletmesi, zayıf dolar ve Lisa Cook'un Fed'den çıkarılmasına yönelik süreç (Fed bağımsızlığı riski) altın lehine daha dovish bir tablo çiziyor. Goolsbee'nin AI veri merkezi kaynaklı aşırı ısınma uyarısı kısa vadede faiz beklentilerini sertleştirebilir, bu da sınırlı bir baskı yaratır; net etki hafif pozitif.
+Son haber analizi (10.11 02:14): Claude puan **+0.30**, güven 0.50 — Haberler karışık: Trump'ın İran savaşının "fiilen bitti" demesi jeopolitik korku primini azaltarak altı hafif baskılıyor, ancak petrol fiyatlarının düşüp enflasyon endişelerini hafifletmesi, zayıf dolar ve Lisa Cook'un Fed'den çıkarılmasına yönelik süreç (Fed bağımsızlığı riski) altın lehine daha dovish bir tablo çiziyor. Goolsbee'nin AI veri merkezi kaynaklı aşırı ısınma uyarısı kısa vadede faiz beklentilerini sertleştirebilir, bu da sınırlı bir baskı yaratır; net etki hafif pozitif.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.60 — Trump’ın İran savaşının fiilen sona erdiğini söylemesi güvenli liman talebini azaltarak altın için kısa vadede baskı oluşturabilir. Goolsbee’nin ekonominin aşırı ısındığı uyarısı da faizlerin yüksek kalması riskini artırıyor; ancak bu açıklamaların piyasa fiyatlamasını ne ölçüde değiştirdiği belirsi
+GPT (gpt-6-luna): puan **+0.20**, güven 0.45 — Altının yükseldiği ve doların zayıfladığı haberleri kısa vadede destekleyici. Ancak Trump’ın İran savaşının fiilen sona erdiğini söylemesi güvenli liman talebini azaltabilir; petrol kaynaklı enflasyon kaygılarının hafiflemesi de yükselişi sınırlıyor.
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 00:49 N  NEWS (11 new) score +0.30 conf 0.45: Petrol fiyatlarının düşmesi ve zayıflayan doların altını desteklemesi, Fed faiz artırımı beklentilerini zayıflatarak kısa vadede altı yukarı çekiyor. Buna karşılık Trump'ın Iran savaşının sonuna dair "momentum" söylemleri jeopolitik güvenli liman talebini biraz azaltıyor ve sıcak enflasyon haberleri faiz tarafında baskı yaratabilir; bu nedenle sinyal orta düzeyde pozitif ama karışık.
-10.11 00:49 N  GPT  score +0.20 conf 0.38: Petrolün ve doların gerilemesi altına kısa vadede destek sağlıyor; ancak Trump’ın Katar arabulucusuyla görüşmesi ve savaşın sona ermesine yönelik ivme açıklaması güvenli liman talebini azaltabilir. Enflasyon ve Fed beklentileri de yönü belirsizleştirdiğinden etki sınırlı ve temkinli biçimde pozitif.
 10.11 00:49 B5  LONG gold 25000 USD x10 @ 4124.44 (TP 4136.82, SL 4116.20; news +0.25)
 10.11 01:01 N  NEWS (8 new) score +0.10 conf 0.35: Haberler karışık: zayıflayan dolar ve Fed bağımsızlığına dair endişeler (Lisa Cook duruşması) altını destekliyor, ancak sıcak enflasyon ve Fed faiz artırımı beklentisi ile Iran savaşında barış görüşmelerinin ilerlemesi güvenli liman talebini azaltarak baskı oluşturuyor. Yaklaşan ABD enflasyon raporu (CPI) belirsizliği artırdığı için güven düşük tutuldu.
 10.11 01:01 N  GPT  score +0.15 conf 0.35: Fed Yönetim Kurulu üyesi Lisa Cook’un görevden alınmasına yönelik olası girişim, Fed’in bağımsızlığına dair kaygıları ve altına talebi artırabilir. Ancak İran savaşının sona ermesine yönelik diplomatik temaslar güvenli liman talebini sınırlıyor; haber akışı çelişkili ve kısa vadeli fiyat etkisi beli
@@ -103,6 +101,8 @@ Son işlemler:
 10.11 01:50 N  GPT  score -0.15 conf 0.42: Trump’ın İran savaşının fiilen sona erdiği yönündeki açıklaması, güvenli liman talebini azaltarak altını kısa vadede hafifçe baskılayabilir. Ancak dolar zayıflığı ve altının zaten yükseldiğine dair haberler bu etkiyi dengeliyor; yeni ve belirleyici bir faiz sinyali yok.
 10.11 02:02 N  NEWS (10 new) score +0.12 conf 0.40: Haberler karışık: Trump'ın İran savaşının "fiilen bitti" demesi jeopolitik korku primini azaltarak altı hafif baskılıyor, ancak petrol fiyatlarının düşüp enflasyon endişelerini hafifletmesi, zayıf dolar ve Lisa Cook'un Fed'den çıkarılmasına yönelik süreç (Fed bağımsızlığı riski) altın lehine daha dovish bir tablo çiziyor. Goolsbee'nin AI veri merkezi kaynaklı aşırı ısınma uyarısı kısa vadede faiz beklentilerini sertleştirebilir, bu da sınırlı bir baskı yaratır; net etki hafif pozitif.
 10.11 02:02 N  GPT  score -0.35 conf 0.60: Trump’ın İran savaşının fiilen sona erdiğini söylemesi güvenli liman talebini azaltarak altın için kısa vadede baskı oluşturabilir. Goolsbee’nin ekonominin aşırı ısındığı uyarısı da faizlerin yüksek kalması riskini artırıyor; ancak bu açıklamaların piyasa fiyatlamasını ne ölçüde değiştirdiği belirsi
+10.11 02:14 N  NEWS (9 new) score +0.30 conf 0.50: 
+10.11 02:14 N  GPT  score +0.20 conf 0.45: Altının yükseldiği ve doların zayıfladığı haberleri kısa vadede destekleyici. Ancak Trump’ın İran savaşının fiilen sona erdiğini söylemesi güvenli liman talebini azaltabilir; petrol kaynaklı enflasyon kaygılarının hafiflemesi de yükselişi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
