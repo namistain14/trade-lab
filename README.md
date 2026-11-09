@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 09.11.2026 14:06 (İstanbul)
+> Son güncelleme: 09.11.2026 14:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %38.5 |
 | Ödenen komisyon/spread | 11.82 $ | 771.50 $ |
 
-**Hesap değeri: 4,472.25 $** (başlangıç 5,000 $, -527.75 $ / %-10.55)
+**Hesap değeri: 4,471.40 $** (başlangıç 5,000 $, -528.60 $ / %-10.57)
 
 Açık pozisyonlar: PAXGUSDT short @ 4086.38 (TP 4074.12 / SL 4094.56)
 
