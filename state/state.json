@@ -11809,6 +11809,10 @@
    [
     1794282231,
     5000.0
+   ],
+   [
+    1794282411,
+    5000.0
    ]
   ],
   "archive": [
@@ -14883,10 +14887,6 @@
   },
   "equity_curve": [
    [
-    1793705829,
-    4868.5
-   ],
-   [
     1793705997,
     4868.5
    ],
@@ -26880,6 +26880,10 @@
    ],
    [
     1794282231,
+    4868.5
+   ],
+   [
+    1794282411,
     4868.5
    ]
   ],
@@ -29663,7 +29667,6 @@
   ]
  },
  "log": [
-  "09.11 07:26 B5  LONG gold 25000 USD x10 @ 4114.61 (TP 4126.96, SL 4106.38; news +0.32)",
   "09.11 07:38 N  NEWS (12 new) score +0.10 conf 0.35: ",
   "09.11 07:38 N  GPT  score +0.20 conf 0.40: D\u00fc\u015fen petrol\u00fcn enflasyon ve faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131n\u0131 azaltmas\u0131 alt\u0131n\u0131 destekliyor; fiyat\u0131n 4.100 dolar\u0131n \u00fczerine toparland\u0131\u011f\u0131 bildiriliyor. Buna kar\u015f\u0131l\u0131k g\u00fc\u00e7l\u00fc ABD istihdam verisi dolar\u0131 ve Fed\u2019in s\u0131k\u0131 kalaca\u011f\u0131 beklentisini destekleyerek y\u00fckseli\u015fi s\u0131n\u0131rlayabilir; \u0130ran haberleri de net bir yeni t\u0131rman",
   "09.11 07:50 N  NEWS (14 new) score +0.30 conf 0.50: Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flat\u0131yor, bu da alt\u0131n i\u00e7in olumlu; alt\u0131n 1,6% toparland\u0131. Ancak \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi haberleri jeopolitik risk primini azaltarak alt\u0131n\u0131 bask\u0131layabilir, g\u00fc\u00e7l\u00fc ABD istihdam verisi ve dolar toparlanmas\u0131 da k\u0131sa vadede negatif. Yakla\u015fan ABD T\u00dcFE verisi nedeniyle sinyaller kar\u0131\u015f\u0131k oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
@@ -29962,7 +29965,8 @@
   "10.11 06:28 N  NEWS (5 new) score -0.10 conf 0.30: ",
   "10.11 06:28 N  GPT  score -0.15 conf 0.30: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n sona ermesine y\u00f6nelik olumlu mesajlar\u0131 g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 hafif\u00e7e bask\u0131layabilir. Ancak dolar\u0131n zay\u0131flamas\u0131 ve Rusya\u2019daki sava\u015f kay\u0131plar\u0131na ili\u015fkin haberler bu etkiyi dengeliyor; enflasyon verisi beklentisi de y\u00f6n konusunda belirsizlik yarat\u0131yor.",
   "10.11 06:41 N  NEWS (6 new) score -0.15 conf 0.35: Alt\u0131n, ABD T\u00dcFE verisi \u00f6ncesi hafif geriliyor ve dolar endeksi 101,70 civar\u0131nda yatay seyrediyor; bu da k\u0131sa vadede hafif bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"etkili bi\u00e7imde bitti\" oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 hafif\u00e7e olumsuz etkiliyor, ancak petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon beklentilerini gerileterek tahvil faizlerini a\u015fa\u011f\u0131 \u00e7ekebilir ve bu da alt\u0131 destekleyebilir. Sonu\u00e7 olarak y\u00f6n belirsiz; ana belirleyici CPI s\u00fcrprizi olacak.",
-  "10.11 06:41 N  GPT  score -0.18 conf 0.42: Alt\u0131n, ABD enflasyon verisi \u00f6ncesinde gerilerken dolar endeksi yatay; veri a\u00e7\u0131klanana kadar bu tablo hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair haberler g\u00fcvenli liman talebini azaltabilir, ancak k\u0131sa vadeli y\u00f6n i\u00e7in CPI sonucu belirleyici olacak."
+  "10.11 06:41 N  GPT  score -0.18 conf 0.42: Alt\u0131n, ABD enflasyon verisi \u00f6ncesinde gerilerken dolar endeksi yatay; veri a\u00e7\u0131klanana kadar bu tablo hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair haberler g\u00fcvenli liman talebini azaltabilir, ancak k\u0131sa vadeli y\u00f6n i\u00e7in CPI sonucu belirleyici olacak.",
+  "10.11 06:46 B5  CLOSE short take profit: +69.10 USD"
  ],
  "gold_big": {
   "account": {
@@ -30149,10 +30153,6 @@
   },
   "equity_curve": [
    [
-    1793705829,
-    4963.78
-   ],
-   [
     1793705997,
     4963.78
    ],
@@ -42146,6 +42146,10 @@
    ],
    [
     1794282231,
+    4963.78
+   ],
+   [
+    1794282411,
     4963.78
    ]
   ],
@@ -42261,10 +42265,6 @@
   },
   "equity_curve": [
    [
-    1793705829,
-    4975.18
-   ],
-   [
     1793705997,
     4975.18
    ],
@@ -54258,6 +54258,10 @@
    ],
    [
     1794282231,
+    4975.18
+   ],
+   [
+    1794282411,
     4975.18
    ]
   ],
@@ -54343,10 +54347,6 @@
   },
   "equity_curve": [
    [
-    1793705829,
-    4993.28
-   ],
-   [
     1793705997,
     4993.28
    ],
@@ -66340,6 +66340,10 @@
    ],
    [
     1794282231,
+    4993.28
+   ],
+   [
+    1794282411,
     4993.28
    ]
   ]
@@ -66550,10 +66554,6 @@
   },
   "equity_curve": [
    [
-    1793705829,
-    4969.22
-   ],
-   [
     1793705997,
     4969.22
    ],
@@ -78548,6 +78548,10 @@
    [
     1794282231,
     4969.22
+   ],
+   [
+    1794282411,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78557,25 +78561,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4264.672548427837,
+   "balance": 4333.775338895716,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "1a05dbc6",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.081396880789169,
-     "entry": 4110.897626,
-     "tp": 4098.564933122,
-     "sl": 4119.119421252,
-     "opened_ms": 1794275488678,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.29/0.45",
-     "friction": 11.8268
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -80025,21 +80013,38 @@
      "gross": -55.8992,
      "costs": 0.0,
      "pnl": -55.8992
+    },
+    {
+     "id": "1a05dbc6",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.081396880789169,
+     "entry": 4110.897626,
+     "tp": 4098.564933122,
+     "sl": 4119.119421252,
+     "opened_ms": 1794275488678,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.29/0.45",
+     "friction": 11.8268,
+     "exit": 4099.534646108625,
+     "closed_ms": 1794282300000,
+     "reason": "take profit",
+     "gross": 69.1028,
+     "costs": 0.0,
+     "pnl": 69.1028
     }
    ],
    "day": {
     "date": "2026-11-10",
     "trades": 2,
-    "pnl": -55.899213307054644,
+    "pnl": 13.203577160825098,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793705829,
-    4591.51
-   ],
    [
     1793705997,
     4577.85
@@ -92035,6 +92040,10 @@
    [
     1794282231,
     4333.32
+   ],
+   [
+    1794282411,
+    4333.78
    ]
   ],
   "news_calls": {
@@ -92869,10 +92878,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793705829,
-    100746.25
-   ],
    [
     1793705997,
     100746.25
@@ -104868,6 +104873,10 @@
    [
     1794282231,
     111691.09
+   ],
+   [
+    1794282411,
+    111691.09
    ]
   ],
   "open": {},
@@ -105029,10 +105038,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793705829,
-    5066.43
-   ],
    [
     1793705997,
     5066.43
@@ -117027,6 +117032,10 @@
    ],
    [
     1794282231,
+    4944.42
+   ],
+   [
+    1794282411,
     4944.42
    ]
   ],
