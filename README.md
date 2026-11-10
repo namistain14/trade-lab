@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 08:14 (İstanbul)
+> Son güncelleme: 10.11.2026 08:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,333.78 $** (başlangıç 5,000 $, -666.22 $ / %-13.32)
 
-Son haber analizi (10.11 08:05): Claude puan **-0.15**, güven 0.35 — Haberler karışık: İran'da daha fazla ABD saldırısının "çok olası olmadığı" ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini hafifleterek altı hafif baskılıyor; buna karşılık doların hafif zayıflaması ve ABD enflasyonunun yavaşlayabileceği beklentisi (CPI) altı destekleyebilir. Ana belirleyici yaklaşan ABD CPI verisi olduğu için net etki belirsiz kalıyor ve güven düşük.
+Son haber analizi (10.11 08:17): Claude puan **+0.10**, güven 0.35 — Ekim ayı ABD TÜFE'sinin beklentiden yavaş artması ihtimali faiz indirimi beklentilerini destekleyip altı kısa vadede yukarı taşıyabilir. Ancak Trump'ın İran savaşının askeri olarak bittiğini ve yeni saldırıların "çok olası olmadığını" söylemesi jeopolitik güvenli liman talebini zayıflatıyor, Ukrayna müzakereleri de risk iştahını artırabilir. Veri beklentilerde zaten fiyatlanmış olduğundan etki sınırlı ve yön belirsiz kalıyor.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.35 — İran savaşının sona erebileceğine dair açıklamalar ve Rusya-Ukrayna barış görüşmeleri güvenli liman talebini azaltarak altın üzerinde hafif baskı yaratabilir. Doların gerilemesi bunu kısmen dengeliyor; CPI verisi öncesinde yön sinyali sınırlı ve haber akışı çelişkili.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.40 — Ekim TÜFE’sinin yavaşlamasının beklenmesi ve doların zayıflığı altını kısa vadede destekleyebilir; ancak veri öncesi belirsizlik yüksek. Ukrayna barış görüşmeleri ve İran savaşının sona erebileceğine dair açıklamalar güvenli liman talebini sınırlarken, Orta Doğu’daki gerilimler ters yönde etki ediyo
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 07:29 N  NEWS (5 new) score -0.10 conf 0.40: İran'la ilgili "olumlu ivme" ve Trump'ın yeni saldırıların "pek olası olmadığını" söylemesi jeopolitik güvenli liman talebini biraz azaltarak altın için hafif baskılayıcı. Buna karşılık ABD enflasyon verisi (Ekim CPI) öncesinde enflasyonun yavaşlayacağı beklentisi faiz indirimi ihtimalini destekleyip altın için olumlu; dolar endeksi de 101,70 civarında sabit. Net etki hafif negatif, ancak CPI sonucu belirleyici olacağından güven düşük.
-10.11 07:29 N  GPT  score +0.15 conf 0.32: İran’ın füze menzili sınırını kaldırması ve ABD’nin boğazda ticari gemiye ateş açması kısa vadede güvenli liman talebini destekleyebilir; ancak Trump’ın yeni saldırıların pek olası olmadığını söylemesi bu etkiyi sınırlıyor. Doların kayıplarını koruması altına hafif destek verirken, yaklaşan ABD enfl
 10.11 07:41 N  NEWS (4 new) score +0.05 conf 0.35: 
 10.11 07:41 N  GPT  score +0.15 conf 0.38: Doların kayıplarını koruması ve enflasyonun yavaşlayabileceği beklentisi altına hafif destek sağlıyor. Ancak İran savaşında gerilimin azalabileceğine dair mesajlar ve yaklaşan ABD TÜFE verisi yönü belirsizleştiriyor.
 10.11 07:53 N  NEWS (7 new) score -0.10 conf 0.35: Haberler karışık: İran'da daha fazla ABD saldırısının "çok olası olmadığı" ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini hafifleterek altı hafif baskılıyor; buna karşılık doların hafif zayıflaması ve ABD enflasyonunun yavaşlayabileceği beklentisi (CPI) altı destekleyebilir. Ana belirleyici yaklaşan ABD CPI verisi olduğu için net etki belirsiz kalıyor ve güven düşük.
@@ -102,6 +100,8 @@ Son işlemler:
 10.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 10.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 10.11 08:11 B5P  CLOSE short stop (gap): -67.46 USD
+10.11 08:17 N  NEWS (8 new) score +0.10 conf 0.35: Ekim ayı ABD TÜFE'sinin beklentiden yavaş artması ihtimali faiz indirimi beklentilerini destekleyip altı kısa vadede yukarı taşıyabilir. Ancak Trump'ın İran savaşının askeri olarak bittiğini ve yeni saldırıların "çok olası olmadığını" söylemesi jeopolitik güvenli liman talebini zayıflatıyor, Ukrayna müzakereleri de risk iştahını artırabilir. Veri beklentilerde zaten fiyatlanmış olduğundan etki sınırlı ve yön belirsiz kalıyor.
+10.11 08:17 N  GPT  score +0.15 conf 0.40: Ekim TÜFE’sinin yavaşlamasının beklenmesi ve doların zayıflığı altını kısa vadede destekleyebilir; ancak veri öncesi belirsizlik yüksek. Ukrayna barış görüşmeleri ve İran savaşının sona erebileceğine dair açıklamalar güvenli liman talebini sınırlarken, Orta Doğu’daki gerilimler ters yönde etki ediyo
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
