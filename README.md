@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 14:42 (İstanbul)
+> Son güncelleme: 10.11.2026 14:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %80.0 | %39.7 |
 | Ödenen komisyon/spread | 59.15 $ | 866.14 $ |
 
-**Hesap değeri: 4,537.91 $** (başlangıç 5,000 $, -462.09 $ / %-9.24)
+**Hesap değeri: 4,530.96 $** (başlangıç 5,000 $, -469.04 $ / %-9.38)
 
 Açık pozisyonlar: PAXGUSDT short @ 4063.61 (TP 4051.42 / SL 4071.73)
 
-Son haber analizi (10.11 14:33): Claude puan **-0.35**, güven 0.50 — Fed'in Waller'ın 50 baz puanlık faiz artırımı çağrısı ve Aralık artırım beklentileri altın için baskılayıcı; ayrıca İran'da barış/de-escalasyon umutları petrolü 90 doların altına indirip güvenli liman talebini zayıflatıyor. ABD TÜFE verisi öncesinde belirsizlik yüksek olduğu için (sürpriz yönü belirleyici olacak) ve birçok başlık tekrar niteliğinde olduğundan güven orta düzeyde tutuldu.
+Son haber analizi (10.11 14:46): Claude puan **-0.35**, güven 0.50 — Fed'in Waller'ın Aralık'ta faiz artırımını destekleyen sert açıklamaları ve dolar desteği altın için baskılayıcı; Trump'ın İran savaşının "yakında bitebileceği" yönündeki sözleri ve petrol fiyatlarındaki gerileme jeopolitik korku primini azaltarak ek bir olumsuz etki yaratıyor. Ancak ABD enflasyon verisinin (CPI) sonucu belirsiz olduğu için güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.65 — Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajları ve yaklaşan ABD enflasyon verisi altını baskılıyor; fiyat zaten yaklaşık %1 gerilemiş. İran savaşının yakında bitebileceği beklentisi ve Ukrayna görüşmeleri güvenli liman talebini azaltabilir, ancak yeni enflas
+GPT (gpt-6-luna): puan **-0.40**, güven 0.68 — Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajı ve yaklaşan ABD TÜFE verisi altını baskılıyor; İran savaşının yakında sona erebileceği açıklaması da güvenli liman talebini azaltabilir. Ancak İran’ın koşulları ve TÜFE belirsizliği yönü sınırlıyor.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 13:21 N  GPT  score -0.12 conf 0.34: İran savaşının sona erdiği yönündeki açıklamalar ve düşen petrol fiyatları güvenli liman talebini azaltıp altın için hafif baskı yaratabilir. Ancak ABD enflasyon verisi henüz açıklanmadı; altının 4.100 dolar üzerinde kalması ve faiz beklentilerine dair çelişkili haberler yön sinyalini zayıflatıyor.
-10.11 13:33 N  NEWS (10 new) score -0.15 conf 0.40: İran savaşının "esasen bitti" denmesi ve Ukrayna müzakereleri jeopolitik güvenli liman talebini azaltıyor; Fed'in Waller'ın daha büyük faiz artırımı uyarısı ve doların toparlanması altın için olumsuz. Petrol düşüşü enflasyon endişelerini hafifleterek bir miktar destekleyici olsa da, 1-4 saatlik vadede ana belirleyici ABD enflasyon verisi olduğundan yön belirsiz.
 10.11 13:33 N  GPT  score -0.12 conf 0.43: İran savaşının sona erebileceği mesajları ve Rusya-Ukrayna görüşmelerinin ilerlemesi güvenli liman talebini azaltabilir; Fed’den daha büyük faiz artışı uyarısı da altın için baskı oluşturuyor. Doların kayıpları ise destekleyici, ayrıca yaklaşan ABD enflasyon verisi kısa vadeli yönü belirsizleştiriyo
 10.11 13:45 N  NEWS (22 new) score -0.45 conf 0.60: 
 10.11 13:45 N  GPT  score -0.45 conf 0.62: İran savaşının askerî olarak sona erdiği yönündeki açıklamalar ve Rusya-Ukrayna barış görüşmeleri güvenli liman talebini azaltabilir; petrol fiyatlarındaki düşüş de altın için baskı unsuru. Waller’ın faiz artışına desteği kısa vadede aşağı yönlü, ancak yaklaşan ABD enflasyon verisi belirsizliği artı
@@ -104,6 +102,8 @@ Son işlemler:
 10.11 14:21 N  GPT  score -0.68 conf 0.76: Waller’ın yüksek enflasyon sürerse 50 baz puanlık faiz artışının değerlendirilmesi gerektiği yönündeki açıklaması, Fed beklentilerini şahinleştirerek altını baskılıyor; altının zaten yaklaşık %1 gerilediği bildiriliyor. İran savaşının yakında bitebileceği beklentisi güvenli liman talebini azaltabili
 10.11 14:33 N  NEWS (14 new) score -0.35 conf 0.50: Fed'in Waller'ın 50 baz puanlık faiz artırımı çağrısı ve Aralık artırım beklentileri altın için baskılayıcı; ayrıca İran'da barış/de-escalasyon umutları petrolü 90 doların altına indirip güvenli liman talebini zayıflatıyor. ABD TÜFE verisi öncesinde belirsizlik yüksek olduğu için (sürpriz yönü belirleyici olacak) ve birçok başlık tekrar niteliğinde olduğundan güven orta düzeyde tutuldu.
 10.11 14:33 N  GPT  score -0.55 conf 0.65: Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajları ve yaklaşan ABD enflasyon verisi altını baskılıyor; fiyat zaten yaklaşık %1 gerilemiş. İran savaşının yakında bitebileceği beklentisi ve Ukrayna görüşmeleri güvenli liman talebini azaltabilir, ancak yeni enflas
+10.11 14:46 N  NEWS (11 new) score -0.35 conf 0.50: Fed'in Waller'ın Aralık'ta faiz artırımını destekleyen sert açıklamaları ve dolar desteği altın için baskılayıcı; Trump'ın İran savaşının "yakında bitebileceği" yönündeki sözleri ve petrol fiyatlarındaki gerileme jeopolitik korku primini azaltarak ek bir olumsuz etki yaratıyor. Ancak ABD enflasyon verisinin (CPI) sonucu belirsiz olduğu için güven orta düzeyde tutuldu.
+10.11 14:46 N  GPT  score -0.40 conf 0.68: Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajı ve yaklaşan ABD TÜFE verisi altını baskılıyor; İran savaşının yakında sona erebileceği açıklaması da güvenli liman talebini azaltabilir. Ancak İran’ın koşulları ve TÜFE belirsizliği yönü sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
