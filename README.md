@@ -87,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 22:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguoAZ7C7bbJwSp1i5Va4'}
 10.11 22:26 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 10.11 22:26 B6  karar turu: Claude «-» / GPT «Endekslerdeki toparlanmaya rağmen en belirgin göreli zayıflık NVDA'da; normal seansın bitmesine 34 dakika kalması nedeniyle 1–3 saatlik taşıma seans dışına uzanır ve 4 kat kaldıraçta stop emrinin çalışması veya hedef fiyattan gerçekleşmesi garanti değildir.»
 10.11 22:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguoPor4qoUUEGjrst2Wr'}
@@ -102,6 +101,7 @@ Son işlemler:
 10.11 22:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupznAxVdrBjEDMcip9S'}
 10.11 22:50 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 10.11 22:50 B6  karar turu: Claude «-» / GPT «Endekslerde toparlanma ve NVDA'da haber kaynaklı zayıflık ayrışıyor; normal seansın bitmesine 10 dakika kaldığından 1–3 saatlik işlemlerde seans sonrası likidite ve stop emirlerinin çalışmama riski önemlidir.»
+10.11 22:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cguq45teswzNHghMHkPZd'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
