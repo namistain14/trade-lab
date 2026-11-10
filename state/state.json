@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    5000.0
-   ],
-   [
     1793768869,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794325360,
+    5000.0
+   ],
+   [
+    1794325558,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    4868.5
-   ],
-   [
     1793768869,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794325360,
+    4868.5
+   ],
+   [
+    1794325558,
     4868.5
    ]
   ],
@@ -29867,9 +29867,6 @@
   ]
  },
  "log": [
-  "09.11 21:35 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"97805.88\",\"code\":40310000,\"cost_basis\":\"112327.09\",\"message\":\"insufficient buying power\"}",
-  "09.11 21:48 N  NEWS (11 new) score -0.20 conf 0.40: Haberlerin \u00e7o\u011fu Fed'in s\u0131k\u0131 duru\u015funu destekliyor (Daly ve Natixis ek faiz art\u0131r\u0131m\u0131 bekliyor, Barkin enflasyonu ana risk olarak g\u00f6r\u00fcyor), bu da alt\u0131n i\u00e7in olumsuz. \u0130ran'da tam \u00f6l\u00e7ekli sava\u015f riskinin azalmas\u0131 ve dolar\u0131n zay\u0131flamas\u0131 ise g\u00fcvenli liman talebini zay\u0131flat\u0131rken k\u0131smen alt\u0131n\u0131 destekliyor; sinyaller kar\u0131\u015f\u0131k ve bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "09.11 21:48 N  GPT  score -0.20 conf 0.43: \u0130ran\u2019la yeniden geni\u015f \u00e7apl\u0131 \u00e7at\u0131\u015fma olas\u0131l\u0131\u011f\u0131n\u0131n d\u00fc\u015f\u00fck g\u00f6r\u00fclmesi g\u00fcvenli liman talebini azalt\u0131rken, faiz art\u0131\u015f\u0131 beklentisi ve y\u00fckselen tahvil getirileri alt\u0131n \u00fczerinde bask\u0131 kuruyor. Dolar\u0131n zay\u0131flamas\u0131 ve i\u015fg\u00fcc\u00fc piyasas\u0131na dair kayg\u0131lar bu bask\u0131y\u0131 k\u0131smen dengeliyor.",
   "09.11 21:48 B6  karar turu: Claude \u00abPiyasa geni\u015f tabanl\u0131 ve b\u00fcy\u00fcme hisseleri liderli\u011finde g\u00fc\u00e7l\u00fc y\u00fckseli\u015fte, son saatte yatay-pozitif konsolidasyon s\u00fcr\u00fcyor.\u00bb / GPT \u00abEndekslerde son dakikalardaki toparlanma al\u0131mlar\u0131 destekliyor; ancak 14:47 itibar\u0131yla normal seans\u0131n bitimine 73 dakika kalmas\u0131 ve 1:4 kald\u0131ra\u00e7, k\u00fc\u00e7\u00fck pozisyon ve kapan\u0131\u015f \u00f6ncesi \u00e7\u0131k\u0131\u015f disiplini gerektiriyor.\u00bb",
   "09.11 21:59 N  NEWS (7 new) score -0.35 conf 0.50: ",
   "09.11 21:59 N  GPT  score -0.28 conf 0.48: \u0130ran konusunda yeni sald\u0131r\u0131 ihtimalinin d\u00fc\u015f\u00fck g\u00f6r\u00fclmesi ve olas\u0131 g\u00f6r\u00fc\u015fmeler g\u00fcvenli liman talebini azaltabilir. Buna kar\u015f\u0131l\u0131k enflasyonun Fed\u2019i s\u0131k\u0131 tutaca\u011f\u0131na dair mesajlar alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; i\u015fg\u00fcc\u00fc piyasas\u0131na ili\u015fkin kayg\u0131lar ve haberlerin \u00e7eli\u015fkili niteli\u011fi d\u00fc\u015f\u00fc\u015f beklentisini s\u0131n\u0131rl\u0131yor.",
@@ -30166,7 +30163,10 @@
   "10.11 18:33 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abBeklentiyi a\u015fan enflasyon ve s\u0131k\u0131la\u015fma riski endeksleri bask\u0131larken, kar\u0131\u015f\u0131k fiyatlama endeks i\u015flemlerinden \u00e7ok se\u00e7ici hisse i\u015flemlerini destekliyor.\u00bb",
   "10.11 18:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguVfUgVaYCfSC8GbAy3x'}",
   "10.11 18:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguVthCgL9vhoEDGwoeCp'}",
-  "10.11 18:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguW7zSdFySymJfxuYxfn'}"
+  "10.11 18:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguW7zSdFySymJfxuYxfn'}",
+  "10.11 18:45 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguWMKyjyek8u8zvFr7Xv'}",
+  "10.11 18:45 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "10.11 18:45 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEnflasyon s\u00fcrprizi ve ba\u015far\u0131s\u0131z toparlanmalar sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor; ancak ili\u015fkili k\u0131sa pozisyonlar\u0131n toplam riski 1:4 kald\u0131ra\u00e7 nedeniyle s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30353,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    4963.78
-   ],
-   [
     1793768869,
     4963.78
    ],
@@ -42350,6 +42346,10 @@
    ],
    [
     1794325360,
+    4963.78
+   ],
+   [
+    1794325558,
     4963.78
    ]
   ],
@@ -42465,10 +42465,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    4975.18
-   ],
-   [
     1793768869,
     4975.18
    ],
@@ -54462,6 +54458,10 @@
    ],
    [
     1794325360,
+    4975.18
+   ],
+   [
+    1794325558,
     4975.18
    ]
   ],
@@ -54547,10 +54547,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    4993.28
-   ],
-   [
     1793768869,
     4993.28
    ],
@@ -66544,6 +66540,10 @@
    ],
    [
     1794325360,
+    4993.28
+   ],
+   [
+    1794325558,
     4993.28
    ]
   ]
@@ -66754,10 +66754,6 @@
   },
   "equity_curve": [
    [
-    1793768689,
-    4969.22
-   ],
-   [
     1793768869,
     4969.22
    ],
@@ -78751,6 +78747,10 @@
    ],
    [
     1794325360,
+    4969.22
+   ],
+   [
+    1794325558,
     4969.22
    ]
   ],
@@ -80329,10 +80329,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793768689,
-    4581.35
-   ],
    [
     1793768869,
     4579.08
@@ -92328,6 +92324,10 @@
    [
     1794325360,
     4610.16
+   ],
+   [
+    1794325558,
+    4610.16
    ]
   ],
   "news_calls": {
@@ -93162,10 +93162,6 @@
    "equity": 111676.47
   },
   "equity_curve": [
-   [
-    1793768689,
-    102500.9
-   ],
    [
     1793768869,
     102500.9
@@ -105161,16 +105157,20 @@
    [
     1794325360,
     111676.47
+   ],
+   [
+    1794325558,
+    111676.47
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794324820044,
+  "last_decision_ms": 1794325540998,
   "view": {
-   "ts": 1794324820044,
+   "ts": 1794325540998,
    "claude": "",
-   "gpt": "Beklentiyi a\u015fan enflasyon ve s\u0131k\u0131la\u015fma riski endeksleri bask\u0131larken, kar\u0131\u015f\u0131k fiyatlama endeks i\u015flemlerinden \u00e7ok se\u00e7ici hisse i\u015flemlerini destekliyor.",
+   "gpt": "Enflasyon s\u00fcrprizi ve ba\u015far\u0131s\u0131z toparlanmalar sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor; ancak ili\u015fkili k\u0131sa pozisyonlar\u0131n toplam riski 1:4 kald\u0131ra\u00e7 nedeniyle s\u0131n\u0131rl\u0131 tutulmal\u0131.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": null,
    "picks": {
@@ -105180,21 +105180,11 @@
       null
      ],
      "gpt": [
-      "none",
-      0.66
+      "short",
+      0.61
      ]
     },
     "QQQ": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      "none",
-      0.62
-     ]
-    },
-    "NVDA": {
      "claude": [
       null,
       null
@@ -105204,14 +105194,24 @@
       0.65
      ]
     },
+    "NVDA": {
+     "claude": [
+      null,
+      null
+     ],
+     "gpt": [
+      "none",
+      0.72
+     ]
+    },
     "AAPL": {
      "claude": [
       null,
       null
      ],
      "gpt": [
-      "short",
-      0.57
+      "none",
+      0.64
      ]
     },
     "TSLA": {
@@ -105220,8 +105220,8 @@
       null
      ],
      "gpt": [
-      "long",
-      0.58
+      "short",
+      0.56
      ]
     }
    }
@@ -105343,10 +105343,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793768689,
-    5066.43
-   ],
    [
     1793768869,
     5066.43
@@ -117341,6 +117337,10 @@
    ],
    [
     1794325360,
+    4876.96
+   ],
+   [
+    1794325558,
     4876.96
    ]
   ],
