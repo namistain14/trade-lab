@@ -11913,6 +11913,10 @@
    [
     1794286769,
     5000.0
+   ],
+   [
+    1794286942,
+    5000.0
    ]
   ],
   "archive": [
@@ -13765,12 +13769,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1794279600000,
-   "ETHUSDT": 1794279600000,
-   "SOLUSDT": 1794279600000,
-   "BNBUSDT": 1794279600000,
-   "XRPUSDT": 1794279600000,
-   "DOGEUSDT": 1794279600000
+   "BTCUSDT": 1794283200000,
+   "ETHUSDT": 1794283200000,
+   "SOLUSDT": 1794283200000,
+   "BNBUSDT": 1794283200000,
+   "XRPUSDT": 1794283200000,
+   "DOGEUSDT": 1794283200000
   }
  },
  "gold_news": {
@@ -14986,10 +14990,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793711224,
-    4868.5
-   ],
    [
     1793711416,
     4868.5
@@ -26984,6 +26984,10 @@
    ],
    [
     1794286769,
+    4868.5
+   ],
+   [
+    1794286942,
     4868.5
    ]
   ],
@@ -29767,7 +29771,6 @@
   ]
  },
  "log": [
-  "09.11 08:27 N  GPT  score +0.45 conf 0.56: \u0130ran n\u00fckleer g\u00f6r\u00fc\u015fmelerinin \u00e7\u00f6kmesi ve sava\u015f\u0131n t\u0131rmanmas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekliyor; d\u00fc\u015fen petrol\u00fcn enflasyon ve faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131n\u0131 azaltmas\u0131 da alt\u0131n i\u00e7in olumlu. Ancak alt\u0131n zaten belirgin y\u00fckselmi\u015fken dolar\u0131n Fed beklentileriyle g\u00fc\u00e7l\u00fc kalmas\u0131 y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
   "09.11 08:39 N  NEWS (8 new) score +0.40 conf 0.50: Yeni haberlerde alt\u0131n, zay\u0131flayan dolar ve petrol fiyatlar\u0131n\u0131n enflasyon endi\u015felerini azaltmas\u0131yla y\u00fckseliyor; bu da faiz art\u0131r\u0131m\u0131 beklentilerini geriletip alt\u0131n\u0131 destekliyor. Ancak ABD'nin g\u00fc\u00e7l\u00fc i\u015fg\u00fcc\u00fc verisi ve Fed beklentileri nedeniyle dolar zaman zaman toparlanabilir, \u0130ran sava\u015f\u0131nda m\u00fczakere haberleri de jeopolitik risk primini azaltabilir; bu y\u00fczden sinyal orta d\u00fczeyde pozitif.",
   "09.11 08:39 N  GPT  score +0.35 conf 0.48: Yumu\u015fak dolar ve d\u00fc\u015fen petrol\u00fcn enflasyon/faiz art\u0131\u015f\u0131 kayg\u0131lar\u0131n\u0131 azaltmas\u0131 alt\u0131n\u0131 destekliyor; \u0130ran gerilimi de g\u00fcvenli liman talebini canl\u0131 tutabilir. Ancak alt\u0131n zaten belirgin y\u00fckselmi\u015f, Fed beklentileri dolar\u0131 destekliyor ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan k\u0131sa vadeli ek y\u00fckseli\u015fin g\u00fcveni s\u0131n\u0131",
   "09.11 08:51 N  NEWS (8 new) score +0.30 conf 0.45: Haberler kar\u0131\u015f\u0131k ama hafif alt\u0131n lehine: \u0130ran n\u00fckleer m\u00fczakerelerinin \u00e7\u00f6k\u00fc\u015f\u00fc ve sava\u015f\u0131n t\u0131rmanmas\u0131 g\u00fcvenli liman talebini destekliyor, petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f enflasyon endi\u015felerini azalt\u0131p alt\u0131n\u0131 yukar\u0131 ta\u015f\u0131yor ve dolar zay\u0131fl\u0131\u011f\u0131 da olumlu. Buna kar\u015f\u0131n g\u00fc\u00e7l\u00fc ABD istihdam verisi ve Fed beklentilerine ba\u011fl\u0131 dolar g\u00fcc\u00fc alt\u0131n i\u00e7in bask\u0131 yaratabilir; ayr\u0131ca alt\u0131ndaki y\u00fckseli\u015fin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
@@ -30066,7 +30069,8 @@
   "10.11 07:53 N  GPT  score -0.15 conf 0.34: Alt\u0131n fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin yeniden ba\u015flamas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor. Dolar\u0131n gerilemesi alt\u0131n\u0131 destekleyebilir; yakla\u015fan ABD T\u00dcFE verisi \u00f6ncesinde y\u00f6n sinyali zay\u0131f oldu\u011fundan etki hafif negatif.",
   "10.11 07:59 B5P  NEWS (43 new) score -0.25 conf 0.50: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri olarak bitti\u011fini s\u00f6ylemesi ve Brent'in %6,7 d\u00fc\u015f\u00fcp 91,70 dolara gerilemesi, bar\u0131\u015f beklentileri nedeniyle k\u0131sa vadede bask\u0131 yarat\u0131yor. Ancak Hormuz'daki gemi sald\u0131r\u0131lar\u0131, Husilerin Suudi boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131lar\u0131 ve \u00c7in'in ham petrol ithalat\u0131n\u0131n artmas\u0131 arz riskini canl\u0131 tutuyor; bu \u00e7eli\u015fkili haberler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "10.11 07:59 B5P  GPT  score -0.55 conf 0.68: \u0130ran sava\u015f\u0131n\u0131n asker\u00ee olarak sona erdi\u011fi a\u00e7\u0131klamas\u0131, sald\u0131r\u0131 risklerinin azald\u0131\u011f\u0131na dair haberler ve Brent\u2019in %6,73 d\u00fc\u015fmesi k\u0131sa vadede g\u00fc\u00e7l\u00fc a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. Suudi petrol boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131 ve H\u00fcrm\u00fcz\u2019deki gemi iddialar\u0131 arz riskini canl\u0131 tutsa da haberler \u00e7eli\u015fkili ve d\u00fc",
-  "10.11 07:59 B5P  SHORT BZ=F 25000 USD x10 @ 91.40 (TP 91.12, SL 91.58; news -0.40)"
+  "10.11 07:59 B5P  SHORT BZ=F 25000 USD x10 @ 91.40 (TP 91.12, SL 91.58; news -0.40)",
+  "10.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30253,10 +30257,6 @@
   },
   "equity_curve": [
    [
-    1793711224,
-    4963.78
-   ],
-   [
     1793711416,
     4963.78
    ],
@@ -42250,6 +42250,10 @@
    ],
    [
     1794286769,
+    4963.78
+   ],
+   [
+    1794286942,
     4963.78
    ]
   ],
@@ -42365,10 +42369,6 @@
   },
   "equity_curve": [
    [
-    1793711224,
-    4975.18
-   ],
-   [
     1793711416,
     4975.18
    ],
@@ -54362,6 +54362,10 @@
    ],
    [
     1794286769,
+    4975.18
+   ],
+   [
+    1794286942,
     4975.18
    ]
   ],
@@ -54447,10 +54451,6 @@
   },
   "equity_curve": [
    [
-    1793711224,
-    4993.28
-   ],
-   [
     1793711416,
     4993.28
    ],
@@ -66444,6 +66444,10 @@
    ],
    [
     1794286769,
+    4993.28
+   ],
+   [
+    1794286942,
     4993.28
    ]
   ]
@@ -66654,10 +66658,6 @@
   },
   "equity_curve": [
    [
-    1793711224,
-    4969.22
-   ],
-   [
     1793711416,
     4969.22
    ],
@@ -78651,6 +78651,10 @@
    ],
    [
     1794286769,
+    4969.22
+   ],
+   [
+    1794286942,
     4969.22
    ]
   ],
@@ -80145,10 +80149,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793711224,
-    4588.19
-   ],
    [
     1793711416,
     4588.19
@@ -92144,6 +92144,10 @@
    [
     1794286769,
     4333.78
+   ],
+   [
+    1794286942,
+    4333.78
    ]
   ],
   "news_calls": {
@@ -92978,10 +92982,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793711224,
-    100746.25
-   ],
    [
     1793711416,
     100746.25
@@ -104977,6 +104977,10 @@
    [
     1794286769,
     111691.09
+   ],
+   [
+    1794286942,
+    111691.09
    ]
   ],
   "open": {},
@@ -105154,10 +105158,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793711224,
-    5066.43
-   ],
    [
     1793711416,
     5066.43
@@ -117153,6 +117153,10 @@
    [
     1794286769,
     4935.31
+   ],
+   [
+    1794286942,
+    4944.42
    ]
   ],
   "news": {
