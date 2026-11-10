@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 11:58 (İstanbul)
+> Son güncelleme: 10.11.2026 12:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +13.20 $ | -666.22 $ |
-| İşlem sayısı | 2 | 70 |
-| Kazanma oranı | %50.0 | %37.1 |
-| Ödenen komisyon/spread | 23.64 $ | 830.63 $ |
+| Net kâr/zarar | +82.31 $ | -597.12 $ |
+| İşlem sayısı | 3 | 71 |
+| Kazanma oranı | %66.7 | %38.0 |
+| Ödenen komisyon/spread | 35.47 $ | 842.46 $ |
 
-**Hesap değeri: 4,324.21 $** (başlangıç 5,000 $, -675.79 $ / %-13.52)
-
-Açık pozisyonlar: PAXGUSDT short @ 4105.09 (TP 4092.77 / SL 4113.30)
+**Hesap değeri: 4,402.88 $** (başlangıç 5,000 $, -597.12 $ / %-11.94)
 
 Son haber analizi (10.11 11:55): Claude puan **-0.20**, güven 0.35 — ABD TÜFE verisi öncesi piyasa, Fed'in faiz artırma ihtimalini fiyatlıyor ve ING enflasyonun "fazla sıcak" gelebileceğini belirtiyor; bu sıkılaştırma beklentisi altın için olumsuz. Trump'ın İran savaşının "esasen bittiğini" söylemesi güvenli liman talebini azaltıyor, ancak Husilerin Riyad'a ateş açması jeopolitik riskin tamamen sönmediğini gösteriyor. Dolar (DXY) zayıflıyor, bu altına destek veriyor; sinyaller karışık olduğu ve CPI sonucu belirleyici olacağı için güven düşük.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 10.11 12:01 | PAXGUSDT | short | +69.10 $ | take profit |
 | 10.11 06:45 | PAXGUSDT | short | +69.10 $ | take profit |
 | 10.11 03:20 | PAXGUSDT | long | -55.90 $ | stop |
 | 09.11 22:29 | PAXGUSDT | short | -55.93 $ | stop |
 | 09.11 17:36 | PAXGUSDT | long | -55.90 $ | stop |
-| 09.11 14:18 | PAXGUSDT | short | -55.93 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 10:31 N  GPT  score -0.35 conf 0.66: Trump’ın İran savaşının yakında bitebileceği ve yeni saldırıların düşük ihtimal olduğu yönündeki açıklamaları güvenli liman talebini azaltırken, petrolün düşmesi ve hisse senetlerinin yükselmesi altın için hafif olumsuz. Ancak ABD enflasyon verisi öncesi tahvil faizlerinin yükselmesi baskı yaratırke
 10.11 10:43 N  NEWS (8 new) score -0.10 conf 0.35: 
 10.11 10:43 N  GPT  score -0.20 conf 0.58: Trump’ın İran savaşının yakında sona erebileceği yönündeki açıklamaları güvenli liman talebini azaltırken, yükselen tahvil faizleri ve doların güçlenme beklentisi altını kısa vadede baskılıyor. Ancak yaklaşan ABD TÜFE verisi yönü hızla değiştirebilir ve savaşla ilgili çelişkili haberler aşağı yönlü 
 10.11 10:55 N  NEWS (7 new) score -0.10 conf 0.30: İran savaşının sona erebileceğine dair haberler jeopolitik risk primini azaltarak altın için hafif olumsuz bir etki yaratıyor; petrol fiyatlarının düşmesi ise enflasyon beklentilerini gerileterek Fed sıkılaştırma endişelerini hafifletip kısmen destekleyici olabilir. Asıl belirleyici olay bu gecek ABD CPI verisi olup yönü belirsiz olduğu için sinyal zayıf ve güven düşük.
@@ -104,6 +101,7 @@ Son işlemler:
 10.11 11:43 N  GPT  score -0.25 conf 0.43: Yaklaşan ABD TÜFE verisi öncesinde tahvil getirilerinin yükselmesi ve Fed’in iki faiz artışı daha yapabileceği beklentisi altın üzerinde kısa vadeli baskı yaratıyor. Doların zayıflaması destekleyici; savaşın sona erebileceğine dair haberler ve barış görüşmeleri de güvenli liman talebini sınırlayabil
 10.11 11:55 N  NEWS (7 new) score -0.20 conf 0.35: 
 10.11 11:55 N  GPT  score -0.30 conf 0.58: Yaklaşan ABD TÜFE verisi öncesinde tahvil getirilerinin yükselmesi ve faiz baskısının altındaki geri çekilmeyle ilişkilendirilmesi kısa vadede aşağı yönlü. Doların kayıplarını koruması ve jeopolitik risklerin sürmesi bu baskıyı sınırlıyor; TÜFE öncesi yön belirsizliği yüksek.
+10.11 12:01 B5  CLOSE short take profit: +69.10 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
