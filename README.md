@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 15:12 (İstanbul)
+> Son güncelleme: 10.11.2026 15:15 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %39.7 |
 | Ödenen komisyon/spread | 59.15 $ | 866.14 $ |
 
-**Hesap değeri: 4,506.97 $** (başlangıç 5,000 $, -493.03 $ / %-9.86)
+**Hesap değeri: 4,497.80 $** (başlangıç 5,000 $, -502.20 $ / %-10.04)
 
 Açık pozisyonlar: PAXGUSDT short @ 4063.61 (TP 4051.42 / SL 4071.73)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 14:03 B5  SHORT gold 25000 USD x10 @ 4063.61 (TP 4051.42, SL 4071.73; news -0.64)
 10.11 14:09 N  NEWS (21 new) score -0.40 conf 0.50: Fed faiz artırımı beklentilerini yükselten Waller yorumları ve ABD dolarının kısa vadeli güçlenme beklentisi altın için baskılayıcı; petrol fiyatlarının İran'daki gerilim azalması umutlarıyla düşmesi de güvenli liman talebini zayıflatıyor. Buna karşın ABD-İran savaşı ve Hegseth'e karşı impeachment girişimi gibi jeopolitik gelişmeler büyük ölçüde fiyatlanmış durumda, bu nedenle sinyal karışık ve güven orta düzeyde.
 10.11 14:09 N  GPT  score -0.48 conf 0.66: İran savaşında gerilim düşüşü umutları ve Brent’in gerilemesi güvenli liman talebini zayıflatabilir; dolar desteği ve Fed’in daha şahin olabileceği beklentisi de altın üzerinde baskı yaratıyor. Yaklaşan ABD enflasyon verisi yönü hızla değiştirebileceğinden güven sınırlı.
 10.11 14:21 N  NEWS (17 new) score -0.60 conf 0.65: Fed'in Waller'ın Aralık'ta faiz artırımını ve 50 baz puanlık artırımın değerlendirilmesi gerektiğini söylemesi, reel faiz beklentilerini yükselterek altın için baskılayıcı; İran savaşının kısa sürede bitebileceği ve Brent'in 90 doların altına inmesi ise jeopolitik güvenli liman talebini azaltıyor. Bekleyen ABD TÜFE verisi sonucu ani değiştirebileceğinden güven orta düzeyde tutuldu.
@@ -104,6 +103,7 @@ Son işlemler:
 10.11 15:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguDfwr2HFqMUt1SgMMts'}
 10.11 15:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguDuBMV4fzY8TefkY1jb'}
 10.11 15:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguE8VNZaAc21peDWPeS8'}
+10.11 15:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguEMo6XVJpQzoojYbmfd'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
