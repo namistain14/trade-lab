@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 21:25 (İstanbul)
+> Son güncelleme: 10.11.2026 21:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -87,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 21:00 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 10.11 21:00 B6  karar turu: Claude «-» / GPT «Verilen akışta sıcak enflasyon ve şahin Fed mesajları aşağı yönlü eğilimi desteklese de satışın son saatte hızlanmaması nedeniyle 1:4 kaldıraçta toplam korelasyonlu pozisyon riski sınırlı tutulmalı.»
 10.11 21:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgugrK8MiMwmogCVswLdP'}
 10.11 21:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cguh5czGm3bRTL1iXXrxw'}
@@ -102,6 +101,7 @@ Son işlemler:
 10.11 21:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguiWzW993Qky7c3ufT2p'}
 10.11 21:25 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 10.11 21:25 B6  karar turu: Claude «-» / GPT «Genel eğilim aşağı yönlü; TSLA'nın göreli gücü sınırlı bir karşı yön fırsatı sunarken dört kat kaldıraç ve SPY–QQQ korelasyonu toplam riski artırıyor.»
+10.11 21:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguikKbDQmUCBaymBdmhz'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
