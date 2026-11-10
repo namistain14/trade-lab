@@ -11517,6 +11517,10 @@
    [
     1794269839,
     5000.0
+   ],
+   [
+    1794270019,
+    5000.0
    ]
   ],
   "archive": [
@@ -14591,10 +14595,6 @@
   },
   "equity_curve": [
    [
-    1793688128,
-    4868.5
-   ],
-   [
     1793688308,
     4868.5
    ],
@@ -26588,6 +26588,10 @@
    ],
    [
     1794269839,
+    4868.5
+   ],
+   [
+    1794270019,
     4868.5
    ]
   ],
@@ -29371,7 +29375,6 @@
   ]
  },
  "log": [
-  "09.11 00:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 00:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 00:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 01:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -29670,7 +29673,8 @@
   "10.11 03:02 N  NEWS (9 new) score +0.40 conf 0.50: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\u011fini\" s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in olumsuz, ancak petrol fiyatlar\u0131n\u0131n %4 d\u00fc\u015fmesi, enflasyon endi\u015felerinin hafiflemesi ve dolar\u0131n zay\u0131flamas\u0131 faiz indirimi beklentilerini destekleyip alt\u0131n\u0131 yukar\u0131 itiyor. Net etki hafif pozitif; ancak ABD T\u00dcFE verisi yakla\u015f\u0131rken volatilite y\u00fcksek ve haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "10.11 03:02 N  GPT  score -0.12 conf 0.34: \u0130ran sava\u015f\u0131n\u0131n asker\u00ee a\u00e7\u0131dan sona yakla\u015ft\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamalar g\u00fcvenli liman talebini azaltabilir; petrol\u00fcn d\u00fc\u015fmesi de enflasyon kayg\u0131lar\u0131n\u0131 hafifletiyor. Dolar\u0131n gerilemesi alt\u0131n\u0131 desteklese de ba\u015fl\u0131klar \u00e7eli\u015fkili ve sava\u015f\u0131n ger\u00e7ekten sona erdi\u011fi net de\u011fil, bu nedenle net etki s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde ne",
   "10.11 03:14 N  NEWS (18 new) score +0.10 conf 0.35: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"askeri olarak fiilen bitti\" demesi ve Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmelerindeki ilerleme g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in hafif olumsuz. Buna kar\u015f\u0131n petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi, ABD CPI'\u0131n\u0131n so\u011fuyaca\u011f\u0131 beklentisi ve dolarda zay\u0131flama, Fed'in daha yumu\u015fak duru\u015fu ihtimalini art\u0131rarak alt\u0131 hafif\u00e7e destekliyor. \u00c7o\u011fu haber eski veya fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in net bir y\u00f6n yok.",
-  "10.11 03:14 N  GPT  score -0.15 conf 0.36: \u0130ran sava\u015f\u0131n\u0131n fiilen sona erebilece\u011fi ve Ukrayna g\u00f6r\u00fc\u015fmelerindeki esneklik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in hafif negatif. Buna kar\u015f\u0131l\u0131k dolar\u0131n zay\u0131flad\u0131\u011f\u0131 ve alt\u0131n\u0131n y\u00fckseldi\u011fi haberleri etkiyi s\u0131n\u0131rl\u0131yor; CPI verisi hen\u00fcz a\u00e7\u0131klanmad\u0131\u011f\u0131ndan y\u00f6n konusunda g\u00fcven d\u00fc\u015f\u00fck."
+  "10.11 03:14 N  GPT  score -0.15 conf 0.36: \u0130ran sava\u015f\u0131n\u0131n fiilen sona erebilece\u011fi ve Ukrayna g\u00f6r\u00fc\u015fmelerindeki esneklik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in hafif negatif. Buna kar\u015f\u0131l\u0131k dolar\u0131n zay\u0131flad\u0131\u011f\u0131 ve alt\u0131n\u0131n y\u00fckseldi\u011fi haberleri etkiyi s\u0131n\u0131rl\u0131yor; CPI verisi hen\u00fcz a\u00e7\u0131klanmad\u0131\u011f\u0131ndan y\u00f6n konusunda g\u00fcven d\u00fc\u015f\u00fck.",
+  "10.11 03:20 B5  CLOSE long stop: -55.90 USD"
  ],
  "gold_big": {
   "account": {
@@ -29857,10 +29861,6 @@
   },
   "equity_curve": [
    [
-    1793688128,
-    4963.78
-   ],
-   [
     1793688308,
     4963.78
    ],
@@ -41854,6 +41854,10 @@
    ],
    [
     1794269839,
+    4963.78
+   ],
+   [
+    1794270019,
     4963.78
    ]
   ],
@@ -41969,10 +41973,6 @@
   },
   "equity_curve": [
    [
-    1793688128,
-    4975.18
-   ],
-   [
     1793688308,
     4975.18
    ],
@@ -53966,6 +53966,10 @@
    ],
    [
     1794269839,
+    4975.18
+   ],
+   [
+    1794270019,
     4975.18
    ]
   ],
@@ -54051,10 +54055,6 @@
   },
   "equity_curve": [
    [
-    1793688128,
-    4993.28
-   ],
-   [
     1793688308,
     4993.28
    ],
@@ -66048,6 +66048,10 @@
    ],
    [
     1794269839,
+    4993.28
+   ],
+   [
+    1794270019,
     4993.28
    ]
   ]
@@ -66258,10 +66262,6 @@
   },
   "equity_curve": [
    [
-    1793688128,
-    4969.22
-   ],
-   [
     1793688308,
     4969.22
    ],
@@ -78256,6 +78256,10 @@
    [
     1794269839,
     4969.22
+   ],
+   [
+    1794270019,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78265,25 +78269,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4320.571761734891,
+   "balance": 4264.672548427837,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "257267ac",
-     "symbol": "PAXGUSDT",
-     "side": "long",
-     "qty": 6.06142204703788,
-     "entry": 4124.444694,
-     "tp": 4136.818028082,
-     "sl": 4116.195804612,
-     "opened_ms": 1794260948361,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news +0.25/0.38",
-     "friction": 11.8161
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -79712,21 +79700,38 @@
      "gross": -55.9268,
      "costs": 0.0,
      "pnl": -55.9268
+    },
+    {
+     "id": "257267ac",
+     "symbol": "PAXGUSDT",
+     "side": "long",
+     "qty": 6.06142204703788,
+     "entry": 4124.444694,
+     "tp": 4136.818028082,
+     "sl": 4116.195804612,
+     "opened_ms": 1794260948361,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news +0.25/0.38",
+     "friction": 11.8161,
+     "exit": 4115.222565451078,
+     "closed_ms": 1794270000000,
+     "reason": "stop",
+     "gross": -55.8992,
+     "costs": 0.0,
+     "pnl": -55.8992
     }
    ],
    "day": {
     "date": "2026-11-10",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": -55.899213307054644,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793688128,
-    4631.09
-   ],
    [
     1793688308,
     4631.09
@@ -91722,6 +91727,10 @@
    [
     1794269839,
     4280.84
+   ],
+   [
+    1794270019,
+    4264.67
    ]
   ],
   "news_calls": {
@@ -92556,10 +92565,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793688128,
-    100750.28
-   ],
    [
     1793688308,
     100750.28
@@ -104555,6 +104560,10 @@
    [
     1794269839,
     111691.09
+   ],
+   [
+    1794270019,
+    111691.09
    ]
   ],
   "open": {},
@@ -104716,10 +104725,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793688128,
-    5066.43
-   ],
    [
     1793688308,
     5066.43
@@ -116714,6 +116719,10 @@
    ],
    [
     1794269839,
+    4944.42
+   ],
+   [
+    1794270019,
     4944.42
    ]
   ],
