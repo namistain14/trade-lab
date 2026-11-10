@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    5000.0
-   ],
-   [
     1793785091,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794336914,
+    5000.0
+   ],
+   [
+    1794337095,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    4868.5
-   ],
-   [
     1793785091,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794336914,
+    4868.5
+   ],
+   [
+    1794337095,
     4868.5
    ]
   ],
@@ -29867,7 +29867,6 @@
   ]
  },
  "log": [
-  "10.11 05:27 N  GPT  score -0.35 conf 0.58: \u0130ran sava\u015f\u0131n\u0131n asker\u00ee olarak sona erdi\u011fi ve yeni sald\u0131r\u0131lar\u0131n d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 oldu\u011fu y\u00f6n\u00fcndeki haberler g\u00fcvenli liman talebini azalt\u0131yor; Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri ve dolar\u0131n enflasyon verisi \u00f6ncesinde g\u00fc\u00e7lenmesi de alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Ancak yakla\u015fan ABD enflasyon verisi ve siyasi b",
   "10.11 05:39 N  NEWS (11 new) score -0.20 conf 0.40: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri olarak \"fiilen bitti\" demesi ve bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri umutlar\u0131 jeopolitik korku primini azaltarak alt\u0131n i\u00e7in hafif negatif. Buna kar\u015f\u0131n petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon endi\u015felerini azalt\u0131p Fed s\u0131k\u0131la\u015fma beklentilerini zay\u0131flatabildi\u011finden etki kar\u0131\u015f\u0131k; ABD enflasyon verisi ve Fed karar\u0131 \u00f6ncesinde belirsizlik y\u00fcksek.",
   "10.11 05:39 N  GPT  score -0.25 conf 0.48: Trump\u2019\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri a\u00e7\u0131dan fiilen sona erdi\u011fi ve yeni sald\u0131r\u0131lar\u0131n d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 oldu\u011fu y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in hafif olumsuz. Dolar\u0131n zay\u0131flamas\u0131 bunu k\u0131smen dengeliyor; yakla\u015fan ABD enflasyon verisi ve Fed beklentileri k\u0131sa vadeli y\u00f6n\u00fc belir",
   "10.11 05:52 N  NEWS (4 new) score -0.20 conf 0.40: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri olarak \"fiilen bitti\u011fini\" ve yeni sald\u0131r\u0131lar\u0131n pek olas\u0131 olmad\u0131\u011f\u0131n\u0131 s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini azaltarak alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131d\u0131r. Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve dolar\u0131n zay\u0131flamas\u0131 ise bir miktar destek sa\u011flasa da, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve bekleyen ABD enflasyon verisi belirsizli\u011fi yaratmaktad\u0131r; bu nedenle sinyal kar\u0131\u015f\u0131kt\u0131r ve g\u00fcven d\u00fc\u015f\u00fckt\u00fcr.",
@@ -30166,7 +30165,8 @@
   "10.11 21:49 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "10.11 21:49 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abMakro haberler bask\u0131 yarat\u0131rken son saat toparlanmas\u0131 endeksleri a\u00e7\u0131\u011fa satmay\u0131 zorla\u015ft\u0131r\u0131yor; kapan\u0131\u015fa yakla\u015f\u0131k 71 dakika kalmas\u0131 ve 1:4 kald\u0131ra\u00e7 nedeniyle pozisyonlar\u0131 k\u00fc\u00e7\u00fck tutup g\u00fcn sonunda kapatmak uygun.\u00bb",
   "10.11 21:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgukaVxVoomxhujAEgHvH'}",
-  "10.11 21:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgukoiTgri2imTbG36zEt'}"
+  "10.11 21:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgukoiTgri2imTbG36zEt'}",
+  "10.11 21:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgum32prE4iApeKASDLDj'}"
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30353,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    4963.78
-   ],
-   [
     1793785091,
     4963.78
    ],
@@ -42350,6 +42346,10 @@
    ],
    [
     1794336914,
+    4963.78
+   ],
+   [
+    1794337095,
     4963.78
    ]
   ],
@@ -42465,10 +42465,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    4975.18
-   ],
-   [
     1793785091,
     4975.18
    ],
@@ -54462,6 +54458,10 @@
    ],
    [
     1794336914,
+    4975.18
+   ],
+   [
+    1794337095,
     4975.18
    ]
   ],
@@ -54547,10 +54547,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    4993.28
-   ],
-   [
     1793785091,
     4993.28
    ],
@@ -66544,6 +66540,10 @@
    ],
    [
     1794336914,
+    4993.28
+   ],
+   [
+    1794337095,
     4993.28
    ]
   ]
@@ -66754,10 +66754,6 @@
   },
   "equity_curve": [
    [
-    1793784921,
-    4969.22
-   ],
-   [
     1793785091,
     4969.22
    ],
@@ -78751,6 +78747,10 @@
    ],
    [
     1794336914,
+    4969.22
+   ],
+   [
+    1794337095,
     4969.22
    ]
   ],
@@ -80329,10 +80329,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793784921,
-    4883.31
-   ],
    [
     1793785091,
     4880.35
@@ -92328,6 +92324,10 @@
    [
     1794336914,
     4610.16
+   ],
+   [
+    1794337095,
+    4610.16
    ]
   ],
   "news_calls": {
@@ -93162,10 +93162,6 @@
    "equity": 111676.47
   },
   "equity_curve": [
-   [
-    1793784921,
-    102491.32
-   ],
    [
     1793785091,
     102491.32
@@ -105161,6 +105157,10 @@
    [
     1794336914,
     111676.47
+   ],
+   [
+    1794337095,
+    111676.47
    ]
   ],
   "open": {},
@@ -105343,10 +105343,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793784921,
-    5066.43
-   ],
    [
     1793785091,
     5066.43
@@ -117341,6 +117337,10 @@
    ],
    [
     1794336914,
+    4876.96
+   ],
+   [
+    1794337095,
     4876.96
    ]
   ],
