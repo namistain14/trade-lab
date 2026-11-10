@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 05:36 (İstanbul)
+> Son güncelleme: 10.11.2026 05:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %36.2 |
 | Ödenen komisyon/spread | 11.82 $ | 818.80 $ |
 
-**Hesap değeri: 4,314.53 $** (başlangıç 5,000 $, -685.47 $ / %-13.71)
+**Hesap değeri: 4,310.94 $** (başlangıç 5,000 $, -689.06 $ / %-13.78)
 
 Açık pozisyonlar: PAXGUSDT short @ 4110.90 (TP 4098.56 / SL 4119.12)
 
-Son haber analizi (10.11 05:27): Claude puan **-0.30**, güven 0.50 — Altın 4.130-4.150 dolar civarında, Fed faiz artırımı beklentilerinin yükselmesi ve İran'la anlaşma umutlarının jeopolitik güvenli liman talebini azaltması nedeniyle baskı altında. ABD enflasyon verisi öncesi bekleme ve olası sürpriz riski nedeniyle güven orta düzeyde tutuldu.
+Son haber analizi (10.11 05:39): Claude puan **-0.20**, güven 0.40 — Trump'ın İran savaşının askeri olarak "fiilen bitti" demesi ve barış görüşmeleri umutları jeopolitik korku primini azaltarak altın için hafif negatif. Buna karşın petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp Fed sıkılaşma beklentilerini zayıflatabildiğinden etki karışık; ABD enflasyon verisi ve Fed kararı öncesinde belirsizlik yüksek.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — İran savaşının askerî olarak sona erdiği ve yeni saldırıların düşük olasılıklı olduğu yönündeki haberler güvenli liman talebini azaltıyor; Fed’in faiz artırımı beklentileri ve doların enflasyon verisi öncesinde güçlenmesi de altın için baskı yaratıyor. Ancak yaklaşan ABD enflasyon verisi ve siyasi b
+GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Trump’ın İran savaşının askeri açıdan fiilen sona erdiği ve yeni saldırıların düşük olasılıklı olduğu yönündeki açıklamaları güvenli liman talebini azaltarak altın için hafif olumsuz. Doların zayıflaması bunu kısmen dengeliyor; yaklaşan ABD enflasyon verisi ve Fed beklentileri kısa vadeli yönü belir
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 04:15 N  NEWS (11 new) score +0.08 conf 0.35: 
-10.11 04:15 N  GPT  score +0.08 conf 0.34: Petrol fiyatlarındaki düşüş ve önceki dolar zayıflığı altını 4.100 doların üzerine taşımış; bu kısa vadede hafif destekleyici. Ancak doların yeniden güçlenmesi, İran anlaşması beklentileri ve yaklaşan ABD enflasyon verisi yönü belirsizleştiriyor.
 10.11 04:27 N  NEWS (10 new) score -0.15 conf 0.35: Haberler karışık: İran'la anlaşma umutları ve jeopolitik risk primini azaltıyor, Fed faiz artırımı beklentileri ve dolar güçlenmesi altın üzerinde baskı yaratıyor. Petrol gerilemesi enflasyon endişelerini hafifletip bazı raporlarda altını destekliyor, ancak dolar zayıflaması haberleri de var. ABD enflasyon verisi öncesi belirsizlik yüksek olduğundan etki hafif negatif, güven düşük.
 10.11 04:27 N  GPT  score -0.32 conf 0.48: İran’a yeni saldırı olasılığının düşük görülmesi güvenli liman talebini azaltırken, Fed’in faiz artırımı beklentileri ve doların güçlenmesi kısa vadede altın üzerinde baskı yaratıyor. Petrol düşüşü ve buna eşlik eden dolar zayıflığı yönü kısmen dengeliyor; yaklaşan enflasyon verisi belirsizliği artı
 10.11 04:39 N  NEWS (9 new) score -0.30 conf 0.50: Altın 4.130-4.150$ civarında, Fed faiz artırımı beklentilerinin yükselmesi ve ABD-İran anlaşma umutları jeopolitik güvenli liman talebini azaltıyor; Trump'ın İran savaşını "resmen bitti" demesi de bunu destekliyor. Petrol fiyatlarının gerilemesi enflasyon endişelerini hafifletse de dolar ve faiz beklentileri altın için baskılayıcı. Yakın vadede ABD enflasyon verisi belirleyici olacağından, sonuç belirsiz ve güven orta düzeyde.
@@ -103,6 +101,8 @@ Son işlemler:
 10.11 05:15 N  GPT  score -0.28 conf 0.58: İran’da yeni saldırıların düşük olasılıklı görülmesi güvenli liman talebini azaltırken, doların enflasyon verisi öncesi toparlanması ve Fed’in daha şahin olabileceği beklentisi altını baskılıyor. Veri öncesi belirsizlik ve petrol düşüşünün enflasyon etkisi bu aşağı yönlü görünümü sınırlıyor.
 10.11 05:27 N  NEWS (7 new) score -0.30 conf 0.50: Altın 4.130-4.150 dolar civarında, Fed faiz artırımı beklentilerinin yükselmesi ve İran'la anlaşma umutlarının jeopolitik güvenli liman talebini azaltması nedeniyle baskı altında. ABD enflasyon verisi öncesi bekleme ve olası sürpriz riski nedeniyle güven orta düzeyde tutuldu.
 10.11 05:27 N  GPT  score -0.35 conf 0.58: İran savaşının askerî olarak sona erdiği ve yeni saldırıların düşük olasılıklı olduğu yönündeki haberler güvenli liman talebini azaltıyor; Fed’in faiz artırımı beklentileri ve doların enflasyon verisi öncesinde güçlenmesi de altın için baskı yaratıyor. Ancak yaklaşan ABD enflasyon verisi ve siyasi b
+10.11 05:39 N  NEWS (11 new) score -0.20 conf 0.40: Trump'ın İran savaşının askeri olarak "fiilen bitti" demesi ve barış görüşmeleri umutları jeopolitik korku primini azaltarak altın için hafif negatif. Buna karşın petrol fiyatlarının düşmesi enflasyon endişelerini azaltıp Fed sıkılaşma beklentilerini zayıflatabildiğinden etki karışık; ABD enflasyon verisi ve Fed kararı öncesinde belirsizlik yüksek.
+10.11 05:39 N  GPT  score -0.25 conf 0.48: Trump’ın İran savaşının askeri açıdan fiilen sona erdiği ve yeni saldırıların düşük olasılıklı olduğu yönündeki açıklamaları güvenli liman talebini azaltarak altın için hafif olumsuz. Doların zayıflaması bunu kısmen dengeliyor; yaklaşan ABD enflasyon verisi ve Fed beklentileri kısa vadeli yönü belir
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
