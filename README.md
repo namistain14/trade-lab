@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 11:40 (İstanbul)
+> Son güncelleme: 10.11.2026 11:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %50.0 | %37.1 |
 | Ödenen komisyon/spread | 23.64 $ | 830.63 $ |
 
-**Hesap değeri: 4,314.16 $** (başlangıç 5,000 $, -685.84 $ / %-13.72)
+**Hesap değeri: 4,319.58 $** (başlangıç 5,000 $, -680.42 $ / %-13.61)
 
 Açık pozisyonlar: PAXGUSDT short @ 4105.09 (TP 4092.77 / SL 4113.30)
 
-Son haber analizi (10.11 11:31): Claude puan **-0.15**, güven 0.40 — ABD enflasyon verisi (CPI) öncesi piyasalar sıcak bir veri ve Fed'in Aralık'ta faiz artırma ihtimali üzerine yoğunlaşmış durumda; bu, reel faiz beklentilerini yükselterek altın için kısa vadede baskı oluşturuyor. İran savaşında gerilimin azalması ve Abu Dhabi'deki Ukrayna barış görüşmeleri güvenli liman talebini zayıflatıyor. Buna karşılık doların zayıflaması altını destekliyor ve haberler çelişkili olduğu için güven düşük tutuldu.
+Son haber analizi (10.11 11:43): Claude puan **-0.20**, güven 0.40 — ABD TÜFE verisi öncesi piyasa, Fed'in faiz artırma ihtimalini fiyatlıyor ve ING enflasyonun "fazla sıcak" gelebileceğini belirtiyor; bu sıkılaştırma beklentisi altın için olumsuz. Trump'ın İran savaşının "esasen bittiğini" söylemesi güvenli liman talebini azaltıyor, ancak Husilerin Riyad'a ateş açması jeopolitik riskin tamamen sönmediğini gösteriyor. Dolar (DXY) zayıflıyor, bu altına destek veriyor; sinyaller karışık olduğu ve CPI sonucu belirleyici olacağı için güven düşük.
 
-GPT (gpt-6-luna): puan **-0.12**, güven 0.36 — Doların zayıflaması altını destekleyebilir; ancak yükselen ABD tahvil getirileri ve yüksek gelmesi beklenen CPI öncesindeki temkin, kısa vadede bu desteği sınırlıyor. İran savaşının yakında sona erebileceğine dair haberler güvenli liman talebini azaltırken görünüm çelişkili.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.43 — Yaklaşan ABD TÜFE verisi öncesinde tahvil getirilerinin yükselmesi ve Fed’in iki faiz artışı daha yapabileceği beklentisi altın üzerinde kısa vadeli baskı yaratıyor. Doların zayıflaması destekleyici; savaşın sona erebileceğine dair haberler ve barış görüşmeleri de güvenli liman talebini sınırlayabil
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 10:18 N  NEWS (5 new) score -0.20 conf 0.40: İran savaşının "yakında bitecek" ve "etkili biçimde sona erdi" yönündeki açıklamaları güvenli liman talebini azaltarak altın için hafif negatif bir etki yaratıyor. Petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatabilir, ancak ABD TÜFE verisini beklerken altın yatay-zayıf seyrediyor ve doların bazı günlerde güçlenmesi baskıyı artırıyor; Netanyahu'nun savaşın yeniden başlaması için baskı yaptığı haberi ise sınırlı bir jeopolitik risk primi getiriyor.
-10.11 10:18 N  GPT  score -0.25 conf 0.55: Trump’ın saldırıların yeniden başlamasını düşük olasılıklı görmesi, petrolün gerilemesi ve piyasaların toparlanması güvenli liman talebini azaltarak altını baskılıyor. Netanyahu’nun savaşı yeniden başlatma çabası bu görünümü kısmen dengeliyor; doların gücü ve yaklaşan ABD enflasyon verisi kısa vaded
 10.11 10:18 B5  SHORT gold 25000 USD x10 @ 4105.09 (TP 4092.77, SL 4113.30; news -0.23)
 10.11 10:31 N  NEWS (10 new) score -0.20 conf 0.40: İran savaşının "yakında bitecek" ve "etkili şekilde bitti" yönündeki açıklamaları jeopolitik güvenli liman talebini azaltıyor, petrol düşüşü ve risk iştahı altın için hafif negatif. Ancak asıl belirleyici olan ABD TÜFE verisi henüz açıklanmadı; enflasyonun beklentilerin altında gelmesi Fed faiz indirimi beklentilerini artırıp altını destekleyebilir, güçlü veri ise tersine baskı yaratır. Bu nedenle yön belirsiz ve güven düşük.
 10.11 10:31 N  GPT  score -0.35 conf 0.66: Trump’ın İran savaşının yakında bitebileceği ve yeni saldırıların düşük ihtimal olduğu yönündeki açıklamaları güvenli liman talebini azaltırken, petrolün düşmesi ve hisse senetlerinin yükselmesi altın için hafif olumsuz. Ancak ABD enflasyon verisi öncesi tahvil faizlerinin yükselmesi baskı yaratırke
@@ -104,6 +102,8 @@ Son işlemler:
 10.11 11:19 N  GPT  score -0.22 conf 0.45: CPI öncesinde yükselen ABD tahvil getirileri ve enflasyonun beklentileri aşabileceği yönündeki kaygı altın için baskı oluşturuyor; Ukrayna görüşmeleri ile İran savaşının yakında sona erebileceğine dair mesajlar da güvenli liman talebini azaltabilir. Ancak veri henüz açıklanmadı ve altın 4.100 dolar 
 10.11 11:31 N  NEWS (9 new) score -0.15 conf 0.40: ABD enflasyon verisi (CPI) öncesi piyasalar sıcak bir veri ve Fed'in Aralık'ta faiz artırma ihtimali üzerine yoğunlaşmış durumda; bu, reel faiz beklentilerini yükselterek altın için kısa vadede baskı oluşturuyor. İran savaşında gerilimin azalması ve Abu Dhabi'deki Ukrayna barış görüşmeleri güvenli liman talebini zayıflatıyor. Buna karşılık doların zayıflaması altını destekliyor ve haberler çelişkili olduğu için güven düşük tutuldu.
 10.11 11:31 N  GPT  score -0.12 conf 0.36: Doların zayıflaması altını destekleyebilir; ancak yükselen ABD tahvil getirileri ve yüksek gelmesi beklenen CPI öncesindeki temkin, kısa vadede bu desteği sınırlıyor. İran savaşının yakında sona erebileceğine dair haberler güvenli liman talebini azaltırken görünüm çelişkili.
+10.11 11:43 N  NEWS (12 new) score -0.20 conf 0.40: ABD TÜFE verisi öncesi piyasa, Fed'in faiz artırma ihtimalini fiyatlıyor ve ING enflasyonun "fazla sıcak" gelebileceğini belirtiyor; bu sıkılaştırma beklentisi altın için olumsuz. Trump'ın İran savaşının "esasen bittiğini" söylemesi güvenli liman talebini azaltıyor, ancak Husilerin Riyad'a ateş açması jeopolitik riskin tamamen sönmediğini gösteriyor. Dolar (DXY) zayıflıyor, bu altına destek veriyor; sinyaller karışık olduğu ve CPI sonucu belirleyici olacağı için güven düşük.
+10.11 11:43 N  GPT  score -0.25 conf 0.43: Yaklaşan ABD TÜFE verisi öncesinde tahvil getirilerinin yükselmesi ve Fed’in iki faiz artışı daha yapabileceği beklentisi altın üzerinde kısa vadeli baskı yaratıyor. Doların zayıflaması destekleyici; savaşın sona erebileceğine dair haberler ve barış görüşmeleri de güvenli liman talebini sınırlayabil
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
