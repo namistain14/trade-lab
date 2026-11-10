@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 15:00 (İstanbul)
+> Son güncelleme: 10.11.2026 15:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %39.7 |
 | Ödenen komisyon/spread | 59.15 $ | 866.14 $ |
 
-**Hesap değeri: 4,539.02 $** (başlangıç 5,000 $, -460.98 $ / %-9.22)
+**Hesap değeri: 4,518.17 $** (başlangıç 5,000 $, -481.83 $ / %-9.64)
 
 Açık pozisyonlar: PAXGUSDT short @ 4063.61 (TP 4051.42 / SL 4071.73)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 13:45 N  GPT  score -0.45 conf 0.62: İran savaşının askerî olarak sona erdiği yönündeki açıklamalar ve Rusya-Ukrayna barış görüşmeleri güvenli liman talebini azaltabilir; petrol fiyatlarındaki düşüş de altın için baskı unsuru. Waller’ın faiz artışına desteği kısa vadede aşağı yönlü, ancak yaklaşan ABD enflasyon verisi belirsizliği artı
 10.11 13:57 B5  CLOSE short take profit: +69.09 USD
 10.11 13:57 N  NEWS (29 new) score -0.60 conf 0.60: Fed'in Waller'ın şahin açıklamaları (Aralık'ta faiz artırımını desteklemesi, daha büyük adım açıklığı) tahvil faizlerini yükseltiyor ve altına baskı yaratıyor; altın zaten %1 düştü. Bugünkü CPI verisi kısa vadede büyük bir oynaklık yaratabileceğinden ve İran savaşının askeri olarak sona ermiş olması jeopolitik güvenli liman talebini zayıflattığından, güven orta seviyede tutuldu.
 10.11 13:57 N  GPT  score -0.68 conf 0.76: Waller’ın yüksek çekirdek enflasyon sürerse 50 baz puanlık faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajı tahvil getirilerini yükseltiyor; altın da haber akışında %1 gerilemiş. Yaklaşan ABD TÜFE verisi oynaklık yaratabilir, ancak önümüzdeki saatlerde faiz ve dolar baskısı ağır bas
@@ -104,6 +103,7 @@ Son işlemler:
 10.11 14:46 N  GPT  score -0.40 conf 0.68: Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajı ve yaklaşan ABD TÜFE verisi altını baskılıyor; İran savaşının yakında sona erebileceği açıklaması da güvenli liman talebini azaltabilir. Ancak İran’ın koşulları ve TÜFE belirsizliği yönü sınırlıyor.
 10.11 14:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguCz8jVqq7RCQZBpdRko'}
 10.11 15:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguDDR9qXeUWEYdmvegh1'}
+10.11 15:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguDSdsBT5utG44Pb4tQa'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
