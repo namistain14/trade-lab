@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 15:24 (İstanbul)
+> Son güncelleme: 10.11.2026 15:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %39.7 |
 | Ödenen komisyon/spread | 59.15 $ | 866.14 $ |
 
-**Hesap değeri: 4,499.03 $** (başlangıç 5,000 $, -500.97 $ / %-10.02)
+**Hesap değeri: 4,507.46 $** (başlangıç 5,000 $, -492.54 $ / %-9.85)
 
 Açık pozisyonlar: PAXGUSDT short @ 4063.61 (TP 4051.42 / SL 4071.73)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 14:21 N  GPT  score -0.68 conf 0.76: Waller’ın yüksek enflasyon sürerse 50 baz puanlık faiz artışının değerlendirilmesi gerektiği yönündeki açıklaması, Fed beklentilerini şahinleştirerek altını baskılıyor; altının zaten yaklaşık %1 gerilediği bildiriliyor. İran savaşının yakında bitebileceği beklentisi güvenli liman talebini azaltabili
 10.11 14:33 N  NEWS (14 new) score -0.35 conf 0.50: Fed'in Waller'ın 50 baz puanlık faiz artırımı çağrısı ve Aralık artırım beklentileri altın için baskılayıcı; ayrıca İran'da barış/de-escalasyon umutları petrolü 90 doların altına indirip güvenli liman talebini zayıflatıyor. ABD TÜFE verisi öncesinde belirsizlik yüksek olduğu için (sürpriz yönü belirleyici olacak) ve birçok başlık tekrar niteliğinde olduğundan güven orta düzeyde tutuldu.
 10.11 14:33 N  GPT  score -0.55 conf 0.65: Waller’ın daha büyük faiz artışının değerlendirilmesi gerektiği yönündeki şahin mesajları ve yaklaşan ABD enflasyon verisi altını baskılıyor; fiyat zaten yaklaşık %1 gerilemiş. İran savaşının yakında bitebileceği beklentisi ve Ukrayna görüşmeleri güvenli liman talebini azaltabilir, ancak yeni enflas
 10.11 14:46 N  NEWS (11 new) score -0.35 conf 0.50: Fed'in Waller'ın Aralık'ta faiz artırımını destekleyen sert açıklamaları ve dolar desteği altın için baskılayıcı; Trump'ın İran savaşının "yakında bitebileceği" yönündeki sözleri ve petrol fiyatlarındaki gerileme jeopolitik korku primini azaltarak ek bir olumsuz etki yaratıyor. Ancak ABD enflasyon verisinin (CPI) sonucu belirsiz olduğu için güven orta düzeyde tutuldu.
@@ -104,6 +103,7 @@ Son işlemler:
 10.11 15:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguEb48GUK4HfAa1N3nXT'}
 10.11 15:21 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguEpH9yGefYJYK7JfQ92'}
 10.11 15:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguF3avuYNgfk4ZW7w9kr'}
+10.11 15:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguFGr3rwZs5JmMMbqksE'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
