@@ -11869,6 +11869,10 @@
    [
     1794284777,
     5000.0
+   ],
+   [
+    1794284967,
+    5000.0
    ]
   ],
   "archive": [
@@ -14943,10 +14947,6 @@
   },
   "equity_curve": [
    [
-    1793709255,
-    4868.5
-   ],
-   [
     1793709422,
     4868.5
    ],
@@ -26941,43 +26941,38 @@
    [
     1794284777,
     4868.5
+   ],
+   [
+    1794284967,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.35,
-   "reason": "\u0130ran sava\u015f\u0131nda \"olumlu ivme\" ve ABD'nin daha fazla sald\u0131r\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n \"\u00e7ok d\u00fc\u015f\u00fck\" oldu\u011fu y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamalar jeopolitik g\u00fcvenli liman talebini biraz azalt\u0131yor, bu da alt\u0131n i\u00e7in hafif negatif. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f enflasyon beklentilerini yumu\u015fatarak olas\u0131 bir dovish zemini destekliyor, ancak ABD CPI verisi beklentisi belirsizli\u011fi y\u00fcksek ve alt\u0131n bu noktada veriyi beklerken yatay seyrediyor.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "\u0130ran'la ilgili \"olumlu ivme\" ve Trump'\u0131n yeni sald\u0131r\u0131lar\u0131n \"pek olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini biraz azaltarak alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi (Ekim CPI) \u00f6ncesinde enflasyonun yava\u015flayaca\u011f\u0131 beklentisi faiz indirimi ihtimalini destekleyip alt\u0131n i\u00e7in olumlu; dolar endeksi de 101,70 civar\u0131nda sabit. Net etki hafif negatif, ancak CPI sonucu belirleyici olaca\u011f\u0131ndan g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1794284222024,
-   "new_headlines": 6,
+   "ts": 1794284966328,
+   "new_headlines": 5,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 4.150 dolar\u0131n alt\u0131na itti",
     "Trump \u0130ran sava\u015f\u0131n\u0131n askeri olarak 'esasen bitti' oldu\u011funu s\u00f6yledi; jeopolitik risk primi azald\u0131",
     "ABD enflasyon verisi \u00f6ncesi dolar ve alt\u0131n bekleme modunda"
    ],
    "gpt": {
-    "score": -0.28,
-    "confidence": 0.56,
-    "reason": "Trump\u2019\u0131n \u0130ran\u2019a yeni sald\u0131r\u0131lar\u0131 \u201cson derece d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131\u201d g\u00f6rmesi ve sava\u015f\u0131n sona ermesine y\u00f6nelik olumlu ivme, k\u0131sa vadeli g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak \u00e7at\u0131\u015fman\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair \u00e7eli\u015fkili haberler ve yakla\u015fan ABD enflasyon verisi y\u00f6n\u00fc belirsiz k\u0131l\u0131yor.",
+    "score": 0.15,
+    "confidence": 0.32,
+    "reason": "\u0130ran\u2019\u0131n f\u00fcze menzili s\u0131n\u0131r\u0131n\u0131 kald\u0131rmas\u0131 ve ABD\u2019nin bo\u011fazda ticari gemiye ate\u015f a\u00e7mas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n yeni sald\u0131r\u0131lar\u0131n pek olas\u0131 olmad\u0131\u011f\u0131n\u0131 s\u00f6ylemesi bu etkiyi s\u0131n\u0131rl\u0131yor. Dolar\u0131n kay\u0131plar\u0131n\u0131 korumas\u0131 alt\u0131na hafif destek verirken, yakla\u015fan ABD enfl",
     "key_events": [
-     "\u0130ran sava\u015f\u0131nda gerilimin azalabilece\u011fi mesajlar\u0131",
-     "Alt\u0131nda ABD enflasyon verisi \u00f6ncesi temkinli seyir",
-     "Husilere y\u00f6nelik sald\u0131r\u0131 haberleri"
+     "\u0130ran\u2019\u0131n f\u00fcze menzili s\u0131n\u0131r\u0131n\u0131 kald\u0131rmas\u0131 ve gemiye ate\u015f a\u00e7\u0131lmas\u0131",
+     "Trump\u2019tan sald\u0131r\u0131lar\u0131n d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131 oldu\u011fu a\u00e7\u0131klamas\u0131",
+     "Dolar kay\u0131plar\u0131n\u0131 koruyor; ABD enflasyon verisi bekleniyor"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793837215817,
-    "score": 0.2,
-    "confidence": 0.4,
-    "reason": "",
-    "new": 8,
-    "gpt_score": 0.35,
-    "gpt_confidence": 0.55
-   },
    {
     "ts": 1793837935475,
     "score": 0.35,
@@ -29668,16 +29663,27 @@
     "new": 6,
     "gpt_score": -0.28,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1794284966328,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "\u0130ran'la ilgili \"olumlu ivme\" ve Trump'\u0131n yeni sald\u0131r\u0131lar\u0131n \"pek olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini biraz azaltarak alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi (Ekim CPI) \u00f6ncesinde enflasyonun yava\u015flayaca\u011f\u0131 beklentisi faiz indirimi ihtimalini destekleyip alt\u0131n i\u00e7in olumlu; dolar endeksi de 101,70 civar\u0131nda sabit. Net etki hafif negatif, ancak CPI sonucu belirleyici olaca\u011f\u0131ndan g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 5,
+    "gpt_score": 0.15,
+    "gpt_confidence": 0.32
    }
   ],
   "news_calls": {
    "date": "2026-11-10",
-   "n": 37
+   "n": 38
   },
   "news_seen": [
+   "Rate Hikes vs Safe Havens: Gold\u2019s 2027\u20132028 Price Outlook - deVere Group",
+   "Asia FX subdued, dollar holds losses ahead of U.S. inflation data - Investing.com",
    "Maybank initiates MoneyMax coverage with \u2018buy\u2019 call, S$0.69 target price - The Business Times",
    "Trump says more US attacks on Iran 'highly unlikely'",
-   "Global emissions set to dip, driven by Iran war oil shock, study shows - DW.com",
+   "Iran says it has lifted its self-imposed limit on missile ranges; U.S. fires on commercial vessel in strait - Texarkana Gazette",
    "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
    "Top yen forecaster sees currency at \u00a5147 per dollar in 2027 as rate gap narrows - Mezha.net",
    "NC man led effort to remember Gulf War vets through personal tragedy - Queen City News",
@@ -29685,10 +29691,10 @@
    "Gold Price Forecast: US Inflation Expected to Slow, October CPI May Support Gold Breaking Above $4,200 - TradingKey",
    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Arkansas Advocate",
    "Republican lawmaker seeks impeachment of defense chief Hegseth over Iran war - chinadailyhk",
+   "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough - Cryptonews.net",
    "Top yen forecaster predicts \u00a5147 per dollar as rate gap narrows - The Japan Times",
    "China's October crude oil imports rise to highest level since March amid Middle East war - Reuters",
    "Gold prices cool down after weekly increase of nearly 5%, new market signals appear - Laodong.vn",
-   "Bitcoin Faces U.S. CPI Test as Analysts Warn Inflation Relief May Not Be Enough - Moomoo",
    "Gold edges lower as focus shifts to US inflation data - Reuters",
    "US Dollar Index steadies near 101.70 as traders await US CPI | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Hacked Russian Records Put War Dead at Up to 450,000 - The SOFX Report",
@@ -29715,16 +29721,12 @@
    "Gold and foreign currency prices 10.11: Gold rebounds, USD weakens - Laodong.vn",
    "Gold price today, November 10th: Gold rings fall, gold bars rise in price - Laodong.vn",
    "Wash. Panel Nixes $10K Sanctions On Monsanto PCB Attys - Law360",
+   "How popular is the Iran War? - Silver Bulletin",
    "U.S. dollar down in Taipei trading - Focus Taiwan",
-   "'Positive momentum' towards end to Iran war, Trump says - Sky News",
-   "Sanford to Honor World War II Veteran for Service in Historic Army Battalion - www.mysanfordherald.com",
-   "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years - VICE",
-   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Gains Ground As Oil Tests New Lows - FXEmpire"
+   "'Positive momentum' towards end to Iran war, Trump says - Sky News"
   ]
  },
  "log": [
-  "09.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "09.11 08:03 N  NEWS (6 new) score +0.20 conf 0.40: Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini zay\u0131flatt\u0131\u011f\u0131 i\u00e7in alt\u0131n i\u00e7in hafif olumlu bir tablo var; dolar da sakin seyrediyor. Ancak g\u00fc\u00e7l\u00fc ABD istihdam verisi alt\u0131n\u0131 bask\u0131lam\u0131\u015f, \u0130ran sava\u015f\u0131n\u0131n m\u00fczakereyle sona erebilece\u011fi haberi jeopolitik g\u00fcvenli liman talebini azalt\u0131yor ve yakla\u015fan ABD T\u00dcFE verisi belirsizli\u011fi art\u0131r\u0131yor, bu nedenle sinyaller kar\u0131\u015f\u0131k.",
   "09.11 08:03 N  GPT  score +0.15 conf 0.30: Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fcn enflasyon ve faiz art\u0131r\u0131m\u0131 beklentilerini hafifletmesi alt\u0131n\u0131 destekliyor; ancak g\u00fc\u00e7l\u00fc ABD istihdam verileri ve dolar\u0131n dayan\u0131kl\u0131l\u0131\u011f\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor. \u0130ran konusunda m\u00fczakere ve \u00e7at\u0131\u015fma haberleri \u00e7eli\u015fkili, ayr\u0131ca yakla\u015fan ABD enflasyon verisi \u00f6ncesinde k\u0131sa vadel",
   "09.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "09.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30022,7 +30024,9 @@
   "10.11 07:05 N  NEWS (8 new) score -0.05 conf 0.30: \u0130ran sava\u015f\u0131n\u0131n \"etkili bi\u00e7imde bitti\" oldu\u011fu ve bar\u0131\u015f g\u00f6r\u00fc\u015fmelerindeki olumlu ivmenin jeopolitik g\u00fcvenli liman talebini zay\u0131flatmas\u0131 alt\u0131na hafif bask\u0131 yap\u0131yor. Buna kar\u015f\u0131l\u0131k Ekim CPI'nin enflasyonun yava\u015flayaca\u011f\u0131 beklentisi ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f gev\u015femeye dair beklentileri destekleyerek alt\u0131n i\u00e7in dengeleyici bir etki yarat\u0131yor; dolar endeksi ise yatay seyrediyor.",
   "10.11 07:05 N  GPT  score -0.08 conf 0.34: Alt\u0131n, ABD enflasyon verisi \u00f6ncesinde geriliyor; yava\u015flayan enflasyon beklentisi destekleyici olsa da hen\u00fcz ger\u00e7ekle\u015fmi\u015f bir veri de\u011fil. \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair \u00f6nceki a\u00e7\u0131klamalar g\u00fcvenli liman talebini s\u0131n\u0131rlarken, dolar ve faiz g\u00f6r\u00fcn\u00fcm\u00fcnde k\u0131sa vadeli g\u00fc\u00e7l\u00fc bir y\u00f6n sinyali yok.",
   "10.11 07:17 N  NEWS (6 new) score -0.15 conf 0.35: \u0130ran sava\u015f\u0131nda \"olumlu ivme\" ve ABD'nin daha fazla sald\u0131r\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n \"\u00e7ok d\u00fc\u015f\u00fck\" oldu\u011fu y\u00f6n\u00fcndeki yeni a\u00e7\u0131klamalar jeopolitik g\u00fcvenli liman talebini biraz azalt\u0131yor, bu da alt\u0131n i\u00e7in hafif negatif. Petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f enflasyon beklentilerini yumu\u015fatarak olas\u0131 bir dovish zemini destekliyor, ancak ABD CPI verisi beklentisi belirsizli\u011fi y\u00fcksek ve alt\u0131n bu noktada veriyi beklerken yatay seyrediyor.",
-  "10.11 07:17 N  GPT  score -0.28 conf 0.56: Trump\u2019\u0131n \u0130ran\u2019a yeni sald\u0131r\u0131lar\u0131 \u201cson derece d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131\u201d g\u00f6rmesi ve sava\u015f\u0131n sona ermesine y\u00f6nelik olumlu ivme, k\u0131sa vadeli g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak \u00e7at\u0131\u015fman\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair \u00e7eli\u015fkili haberler ve yakla\u015fan ABD enflasyon verisi y\u00f6n\u00fc belirsiz k\u0131l\u0131yor."
+  "10.11 07:17 N  GPT  score -0.28 conf 0.56: Trump\u2019\u0131n \u0130ran\u2019a yeni sald\u0131r\u0131lar\u0131 \u201cson derece d\u00fc\u015f\u00fck olas\u0131l\u0131kl\u0131\u201d g\u00f6rmesi ve sava\u015f\u0131n sona ermesine y\u00f6nelik olumlu ivme, k\u0131sa vadeli g\u00fcvenli liman talebini azaltarak alt\u0131n\u0131 bask\u0131layabilir. Ancak \u00e7at\u0131\u015fman\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair \u00e7eli\u015fkili haberler ve yakla\u015fan ABD enflasyon verisi y\u00f6n\u00fc belirsiz k\u0131l\u0131yor.",
+  "10.11 07:29 N  NEWS (5 new) score -0.10 conf 0.40: \u0130ran'la ilgili \"olumlu ivme\" ve Trump'\u0131n yeni sald\u0131r\u0131lar\u0131n \"pek olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini biraz azaltarak alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi (Ekim CPI) \u00f6ncesinde enflasyonun yava\u015flayaca\u011f\u0131 beklentisi faiz indirimi ihtimalini destekleyip alt\u0131n i\u00e7in olumlu; dolar endeksi de 101,70 civar\u0131nda sabit. Net etki hafif negatif, ancak CPI sonucu belirleyici olaca\u011f\u0131ndan g\u00fcven d\u00fc\u015f\u00fck.",
+  "10.11 07:29 N  GPT  score +0.15 conf 0.32: \u0130ran\u2019\u0131n f\u00fcze menzili s\u0131n\u0131r\u0131n\u0131 kald\u0131rmas\u0131 ve ABD\u2019nin bo\u011fazda ticari gemiye ate\u015f a\u00e7mas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir; ancak Trump\u2019\u0131n yeni sald\u0131r\u0131lar\u0131n pek olas\u0131 olmad\u0131\u011f\u0131n\u0131 s\u00f6ylemesi bu etkiyi s\u0131n\u0131rl\u0131yor. Dolar\u0131n kay\u0131plar\u0131n\u0131 korumas\u0131 alt\u0131na hafif destek verirken, yakla\u015fan ABD enfl"
  ],
  "gold_big": {
   "account": {
@@ -30209,10 +30213,6 @@
   },
   "equity_curve": [
    [
-    1793709255,
-    4963.78
-   ],
-   [
     1793709422,
     4963.78
    ],
@@ -42206,6 +42206,10 @@
    ],
    [
     1794284777,
+    4963.78
+   ],
+   [
+    1794284967,
     4963.78
    ]
   ],
@@ -42321,10 +42325,6 @@
   },
   "equity_curve": [
    [
-    1793709255,
-    4975.18
-   ],
-   [
     1793709422,
     4975.18
    ],
@@ -54318,6 +54318,10 @@
    ],
    [
     1794284777,
+    4975.18
+   ],
+   [
+    1794284967,
     4975.18
    ]
   ],
@@ -54403,10 +54407,6 @@
   },
   "equity_curve": [
    [
-    1793709255,
-    4993.28
-   ],
-   [
     1793709422,
     4993.28
    ],
@@ -66400,6 +66400,10 @@
    ],
    [
     1794284777,
+    4993.28
+   ],
+   [
+    1794284967,
     4993.28
    ]
   ]
@@ -66610,10 +66614,6 @@
   },
   "equity_curve": [
    [
-    1793709255,
-    4969.22
-   ],
-   [
     1793709422,
     4969.22
    ],
@@ -78607,6 +78607,10 @@
    ],
    [
     1794284777,
+    4969.22
+   ],
+   [
+    1794284967,
     4969.22
    ]
   ],
@@ -80101,10 +80105,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793709255,
-    4513.2
-   ],
    [
     1793709422,
     4511.48
@@ -92100,6 +92100,10 @@
    [
     1794284777,
     4333.78
+   ],
+   [
+    1794284967,
+    4333.78
    ]
   ],
   "news_calls": {
@@ -92934,10 +92938,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793709255,
-    100746.25
-   ],
    [
     1793709422,
     100746.25
@@ -104933,6 +104933,10 @@
    [
     1794284777,
     111691.09
+   ],
+   [
+    1794284967,
+    111691.09
    ]
   ],
   "open": {},
@@ -105094,10 +105098,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793709255,
-    5066.43
-   ],
    [
     1793709422,
     5066.43
@@ -117092,6 +117092,10 @@
    ],
    [
     1794284777,
+    4944.42
+   ],
+   [
+    1794284967,
     4944.42
    ]
   ],
