@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    5000.0
-   ],
-   [
     1793743264,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794306594,
+    5000.0
+   ],
+   [
+    1794306786,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    4868.5
-   ],
-   [
     1793743264,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794306594,
     4868.5
+   ],
+   [
+    1794306786,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.35,
-   "reason": "Fed Governor Waller'\u0131n Aral\u0131k'ta en az \u00e7eyrek puanl\u0131k faiz art\u0131r\u0131m\u0131n\u0131 destekledi\u011fini s\u00f6ylemesi ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi, reel faizler ve dolar \u00fczerinden alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" denmesi ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor; ancak yakla\u015fan ABD T\u00dcFE verisinin sonucu belirsiz oldu\u011fundan etki s\u0131n\u0131rl\u0131 tutuldu.",
+   "score": -0.15,
+   "confidence": 0.4,
+   "reason": "\u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" denmesi ve Ukrayna m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131yor; Fed'in Waller'\u0131n daha b\u00fcy\u00fck faiz art\u0131r\u0131m\u0131 uyar\u0131s\u0131 ve dolar\u0131n toparlanmas\u0131 alt\u0131n i\u00e7in olumsuz. Petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon endi\u015felerini hafifleterek bir miktar destekleyici olsa da, 1-4 saatlik vadede ana belirleyici ABD enflasyon verisi oldu\u011fundan y\u00f6n belirsiz.",
    "n": 45,
-   "ts": 1794306064451,
-   "new_headlines": 13,
+   "ts": 1794306785681,
+   "new_headlines": 10,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 4.150 dolar\u0131n alt\u0131na itti",
     "Trump \u0130ran sava\u015f\u0131n\u0131n askeri olarak 'esasen bitti' oldu\u011funu s\u00f6yledi; jeopolitik risk primi azald\u0131",
@@ -27101,27 +27101,18 @@
    ],
    "gpt": {
     "score": -0.12,
-    "confidence": 0.34,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131n sona erdi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve d\u00fc\u015fen petrol fiyatlar\u0131 g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Ancak ABD enflasyon verisi hen\u00fcz a\u00e7\u0131klanmad\u0131; alt\u0131n\u0131n 4.100 dolar \u00fczerinde kalmas\u0131 ve faiz beklentilerine dair \u00e7eli\u015fkili haberler y\u00f6n sinyalini zay\u0131flat\u0131yor.",
+    "confidence": 0.43,
+    "reason": "\u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi mesajlar\u0131 ve Rusya-Ukrayna g\u00f6r\u00fc\u015fmelerinin ilerlemesi g\u00fcvenli liman talebini azaltabilir; Fed\u2019den daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 uyar\u0131s\u0131 da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n kay\u0131plar\u0131 ise destekleyici, ayr\u0131ca yakla\u015fan ABD enflasyon verisi k\u0131sa vadeli y\u00f6n\u00fc belirsizle\u015ftiriyo",
     "key_events": [
-     "\u0130ran sava\u015f\u0131n\u0131n sona erdi\u011fi a\u00e7\u0131klamas\u0131; petrol geriliyor",
-     "ABD enflasyon verisi bekleniyor",
-     "Alt\u0131n 4.100 dolar \u00fczerinde"
+     "Ukrayna sava\u015f\u0131n\u0131 bitirmeye y\u00f6nelik g\u00f6r\u00fc\u015fmeler geni\u015fliyor",
+     "Fed yetkilisinden daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 uyar\u0131s\u0131",
+     "Dolar kay\u0131plar\u0131 ve yakla\u015fan ABD enflasyon verisi"
     ],
     "model": "gpt-6-luna"
    },
    "score_placeholder": "none"
   },
   "news_history": [
-   {
-    "ts": 1793865806610,
-    "score": 0.45,
-    "confidence": 0.6,
-    "reason": "ABD ara se\u00e7im sonras\u0131 dolar zay\u0131fl\u0131yor ve tahvil getirileri d\u00fc\u015f\u00fcyor; bu, alt\u0131n i\u00e7in y\u00fckseli\u015f y\u00f6nl\u00fc bir etki. Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon beklentilerini yumu\u015fat\u0131p Fed'in daha gev\u015fek duru\u015funa destek veriyor. Buna kar\u015f\u0131n \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanma ihtimali ve Trump'\u0131n yeni hamlesine ili\u015fkin belirsizlik, g\u00fcvenli liman talebini destekliyor; ancak bar\u0131\u015f umutlar\u0131 ve fiyatlanm\u0131\u015f haberler bu etkiyi k\u0131smen s\u0131n\u0131rl\u0131yor.",
-    "new": 25,
-    "gpt_score": 0.35,
-    "gpt_confidence": 0.46
-   },
    {
     "ts": 1793866525279,
     "score": 0.4,
@@ -29812,14 +29803,29 @@
     "new": 13,
     "gpt_score": -0.12,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1794306785681,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "\u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" denmesi ve Ukrayna m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131yor; Fed'in Waller'\u0131n daha b\u00fcy\u00fck faiz art\u0131r\u0131m\u0131 uyar\u0131s\u0131 ve dolar\u0131n toparlanmas\u0131 alt\u0131n i\u00e7in olumsuz. Petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon endi\u015felerini hafifleterek bir miktar destekleyici olsa da, 1-4 saatlik vadede ana belirleyici ABD enflasyon verisi oldu\u011fundan y\u00f6n belirsiz.",
+    "new": 10,
+    "gpt_score": -0.12,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-11-10",
-   "n": 67
+   "n": 68
   },
   "news_seen": [
+   "US, Ukraine, and European partners agree to move toward broader multilateral talks on ending war - Anadolu Ajans\u0131",
    "Police officer dies and another injured after backpack explosion in Oviedo",
+   "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war - Axios",
+   "UK investors increase physical gold buying by 77% - The Armchair Trader",
+   "Dollar nurses losses as traders brace for crucial U.S. inflation test - Investing.com",
+   "Gold price per tola sheds Rs1,500 in Pakistan - Business Recorder",
+   "Russia Ukraine War - WV News",
    "Inflation report to provide 1st snapshot of prices since midterm elections - ABC News - Breaking News, Latest News and Videos",
    "Coloma Library will host Korean War program for Veteran's Day - WSBT",
    "The \u201cWar Dogs\u201d Story Behind A $1.8 Billion ICE Windfall - The Lever",
@@ -29841,34 +29847,26 @@
    "European Stocks Rise as STOXX 600 Gains 0.9% on Falling Oil Prices Ahead of US Inflation Data: DAX, CAC, FTSE100 - Yahoo Finance UK",
    "U.S.-mediated talks on ending the war between Russia and Ukraine begin in Abu Dhabi - NBC News",
    "Canada reimposes sanctions on 11 Iranian entities it delisted under nuclear deal - Iran International",
-   "Euro yields linger at 1-month lows as sinking oil calms inflation jitters - Yahoo Finance",
    "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes - Bloomberg.com",
-   "Gold and silver retreat as Fed rate hike expectations rise ahead of US inflation data - Economies.com",
    "FTSE 100 Rises 0.8% as Lower Oil Prices Support London Stocks Ahead of US Inflation Data - Yahoo Finance UK",
    "Qatar PM to brief G7 and Saudi Arabia on Iran war after Trump talks - Middle East Eye",
    "U.S. Federal Reserve Governor Christopher Waller walks into the opening dinner of the Kansas City Fed\u2019s annual economic symposium in Jackson Hole - The Daily News | Texas' Oldest Newspaper",
    "Trump says more US attacks on Iran 'highly unlikely'",
+   "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap - Bloomberg.com",
    "Kushner and Witkoff renew peace talks to end war between Russia and Ukraine - NPR",
+   "British Pound turns upside down against USD as Fed\u2019s Waller warns of bigger rate hike - FXStreet",
+   "After midterm losses, Trump sends mixed messaging about next steps in war with Iran - NPR",
    "Expert discusses the prospects for negotiations to end the U.S. war with Iran - NPR",
    "Watch: Man smashes Chinese government building with excavator",
    "Our latest views on the major central banks - ING Think",
    "Holiday hunger bill to face final Stormont hurdle",
    "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions - CNBC",
    "Galiano Gold Inc. (TSX:GAU) Reports Third Quarter 2026 Results, Lifts Output 19% and Maintains Full-Year Guidance - kalkine.ca",
-   "Oil gets a louder voice in inflation, Fed research finds - TradingView",
-   "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi - The Killeen Daily Herald",
-   "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi - Ottumwa Courier",
-   "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi - Oskaloosa Herald",
-   "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi - News-Press NOW",
-   "US Consumer Price Index data expected to moderate as markets assess Fed's next move - FXStreet",
-   "As heavy rains swamp Gaza's tents, Israel must face sanctions - Middle East Eye",
-   "Missile War Monitor: Ukraine hits Iskander missile-fuel plant near St Petersburg, Russian drone kills three at Odesa food warehouse - IntelliNews",
-   "Trump says Iran war is \u2018effectively over\u2019 after midterms humiliation - The Independent"
+   "Oil gets a louder voice in inflation, Fed research finds (CL1:COM:Commodity) - Seeking Alpha",
+   "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi - The Killeen Daily Herald"
   ]
  },
  "log": [
-  "09.11 14:31 N  GPT  score +0.30 conf 0.46: \u0130ran sava\u015f\u0131n\u0131 bitirecek yak\u0131n bir anla\u015fma beklenmemesi ve diplomatik \u00e7\u0131kmaz, k\u0131sa vadede g\u00fcvenli liman talebini destekliyor; dolar\u0131n \u00f6nceki y\u00fckseli\u015finden geri \u00e7ekilmesi de alt\u0131n i\u00e7in olumlu. Ancak m\u00fczakere ihtimalinin s\u00fcrmesi ve haberlerin \u00f6nemli \u00f6l\u00e7\u00fcde mevcut riskleri yans\u0131tmas\u0131 y\u00fckseli\u015f etkisini s",
-  "09.11 14:43 N  NEWS (9 new) score -0.10 conf 0.30: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131nda somut bir anla\u015fma yok ve ABD'nin sald\u0131r\u0131 olas\u0131l\u0131\u011f\u0131 d\u00fc\u015f\u00fck g\u00f6r\u00fcl\u00fcyor, bu da jeopolitik risk primini k\u0131smen destekliyor. \u00d6te yandan g\u00fc\u00e7l\u00fc tar\u0131m d\u0131\u015f\u0131 istihdam verisi Fed'in s\u0131k\u0131 kalabilece\u011fi beklentisini g\u00fc\u00e7lendiriyor ve risk i\u015ftah\u0131ndaki art\u0131\u015f dolar ile tahvil getirilerinin gold \u00fczerindeki bask\u0131s\u0131n\u0131 s\u00fcrd\u00fcrebilir; bu nedenle net etki hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle.",
   "09.11 14:43 N  GPT  score +0.15 conf 0.34: Dolar\u0131n geri \u00e7ekilmesi alt\u0131na hafif destek sa\u011fl\u0131yor; ancak g\u00fc\u00e7l\u00fc istihdam verisi ve enflasyon ile Fed konu\u015fmalar\u0131 \u00f6ncesindeki temkin bu etkiyi s\u0131n\u0131rl\u0131yor. \u0130ran konusunda m\u00fczakere sinyalleri ile yak\u0131n vadede anla\u015fma beklenmedi\u011fi y\u00f6n\u00fcndeki haberler \u00e7eli\u015fkili, bu nedenle g\u00fcven d\u00fc\u015f\u00fck.",
   "09.11 14:55 N  NEWS (11 new) score -0.05 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131na dair diplomasi umutlar\u0131 ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f jeopolitik korku primini azalt\u0131p enflasyon beklentilerini yumu\u015fatarak alt\u0131 hafif olumsuz etkileyebilir; \u00f6te yandan dolar zay\u0131fl\u0131yor ve risk i\u015ftah\u0131 art\u0131yor, g\u00fc\u00e7l\u00fc tar\u0131m d\u0131\u015f\u0131 istihdam verisi ise faiz indirimi beklentilerini s\u0131n\u0131rlayarak bask\u0131 yarat\u0131yor. Net etki s\u0131n\u0131rl\u0131 oldu\u011fundan skor s\u0131f\u0131ra yak\u0131n ve g\u00fcven d\u00fc\u015f\u00fck.",
   "09.11 14:55 N  GPT  score +0.12 conf 0.34: Ba\u011fdat\u2019a y\u00f6nelik uyar\u0131 ve s\u00fcren \u0130ran gerilimi g\u00fcvenli liman talebini destekleyebilir; dolar\u0131n gerilemesi de alt\u0131na hafif destek sa\u011fl\u0131yor. Ancak petrol\u00fcn bar\u0131\u015f umuduyla d\u00fc\u015fmesi ve hisse vadeli i\u015flemlerindeki y\u00fckseli\u015f bu deste\u011fi s\u0131n\u0131rl\u0131yor; k\u0131sa vadeli etki belirsiz ve hafif pozitif.",
@@ -30166,7 +30164,9 @@
   "10.11 13:09 N  NEWS (17 new) score -0.40 conf 0.60: Fed Governor Waller'\u0131n Aral\u0131k'ta en az \u00e7eyrek puanl\u0131k faiz art\u0131r\u0131m\u0131n\u0131 destekledi\u011fini s\u00f6ylemesi ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi, reel faizler ve dolar \u00fczerinden alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" denmesi ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor; ancak yakla\u015fan ABD T\u00dcFE verisinin sonucu belirsiz oldu\u011fundan etki s\u0131n\u0131rl\u0131 tutuldu.",
   "10.11 13:09 N  GPT  score -0.42 conf 0.63: \u0130ran sava\u015f\u0131n\u0131n fiilen sona erdi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f, k\u0131sa vadeli g\u00fcvenli liman talebini azalt\u0131yor; Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri de alt\u0131na bask\u0131 yap\u0131yor. Ancak yakla\u015fan ABD enflasyon verisi ve \u0130ran\u2019\u0131n g\u00f6r\u00fc\u015fmelere ili\u015fkin a\u00e7\u0131klamalar\u0131 belirsizlik yaratt\u0131\u011f\u0131ndan d",
   "10.11 13:21 N  NEWS (13 new) score -0.10 conf 0.35: ",
-  "10.11 13:21 N  GPT  score -0.12 conf 0.34: \u0130ran sava\u015f\u0131n\u0131n sona erdi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve d\u00fc\u015fen petrol fiyatlar\u0131 g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Ancak ABD enflasyon verisi hen\u00fcz a\u00e7\u0131klanmad\u0131; alt\u0131n\u0131n 4.100 dolar \u00fczerinde kalmas\u0131 ve faiz beklentilerine dair \u00e7eli\u015fkili haberler y\u00f6n sinyalini zay\u0131flat\u0131yor."
+  "10.11 13:21 N  GPT  score -0.12 conf 0.34: \u0130ran sava\u015f\u0131n\u0131n sona erdi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamalar ve d\u00fc\u015fen petrol fiyatlar\u0131 g\u00fcvenli liman talebini azalt\u0131p alt\u0131n i\u00e7in hafif bask\u0131 yaratabilir. Ancak ABD enflasyon verisi hen\u00fcz a\u00e7\u0131klanmad\u0131; alt\u0131n\u0131n 4.100 dolar \u00fczerinde kalmas\u0131 ve faiz beklentilerine dair \u00e7eli\u015fkili haberler y\u00f6n sinyalini zay\u0131flat\u0131yor.",
+  "10.11 13:33 N  NEWS (10 new) score -0.15 conf 0.40: \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" denmesi ve Ukrayna m\u00fczakereleri jeopolitik g\u00fcvenli liman talebini azalt\u0131yor; Fed'in Waller'\u0131n daha b\u00fcy\u00fck faiz art\u0131r\u0131m\u0131 uyar\u0131s\u0131 ve dolar\u0131n toparlanmas\u0131 alt\u0131n i\u00e7in olumsuz. Petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon endi\u015felerini hafifleterek bir miktar destekleyici olsa da, 1-4 saatlik vadede ana belirleyici ABD enflasyon verisi oldu\u011fundan y\u00f6n belirsiz.",
+  "10.11 13:33 N  GPT  score -0.12 conf 0.43: \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fi mesajlar\u0131 ve Rusya-Ukrayna g\u00f6r\u00fc\u015fmelerinin ilerlemesi g\u00fcvenli liman talebini azaltabilir; Fed\u2019den daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 uyar\u0131s\u0131 da alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n kay\u0131plar\u0131 ise destekleyici, ayr\u0131ca yakla\u015fan ABD enflasyon verisi k\u0131sa vadeli y\u00f6n\u00fc belirsizle\u015ftiriyo"
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30353,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    4963.78
-   ],
-   [
     1793743264,
     4963.78
    ],
@@ -42350,6 +42346,10 @@
    ],
    [
     1794306594,
+    4963.78
+   ],
+   [
+    1794306786,
     4963.78
    ]
   ],
@@ -42465,10 +42465,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    4975.18
-   ],
-   [
     1793743264,
     4975.18
    ],
@@ -54462,6 +54458,10 @@
    ],
    [
     1794306594,
+    4975.18
+   ],
+   [
+    1794306786,
     4975.18
    ]
   ],
@@ -54547,10 +54547,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    4993.28
-   ],
-   [
     1793743264,
     4993.28
    ],
@@ -66544,6 +66540,10 @@
    ],
    [
     1794306594,
+    4993.28
+   ],
+   [
+    1794306786,
     4993.28
    ]
   ]
@@ -66754,10 +66754,6 @@
   },
   "equity_curve": [
    [
-    1793743085,
-    4969.22
-   ],
-   [
     1793743264,
     4969.22
    ],
@@ -78751,6 +78747,10 @@
    ],
    [
     1794306594,
+    4969.22
+   ],
+   [
+    1794306786,
     4969.22
    ]
   ],
@@ -80303,10 +80303,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793743085,
-    4614.26
-   ],
    [
     1793743264,
     4618.78
@@ -92302,6 +92298,10 @@
    [
     1794306594,
     4534.01
+   ],
+   [
+    1794306786,
+    4541.31
    ]
   ],
   "news_calls": {
@@ -93136,10 +93136,6 @@
    "equity": 111676.47
   },
   "equity_curve": [
-   [
-    1793743085,
-    102500.9
-   ],
    [
     1793743264,
     102500.9
@@ -105135,6 +105131,10 @@
    [
     1794306594,
     111676.47
+   ],
+   [
+    1794306786,
+    111676.47
    ]
   ],
   "open": {},
@@ -105317,10 +105317,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793743085,
-    5066.43
-   ],
    [
     1793743264,
     5066.43
@@ -117315,6 +117311,10 @@
    ],
    [
     1794306594,
+    4876.96
+   ],
+   [
+    1794306786,
     4876.96
    ]
   ],
