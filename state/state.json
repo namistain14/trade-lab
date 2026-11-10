@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    5000.0
-   ],
-   [
     1793791320,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794340030,
+    5000.0
+   ],
+   [
+    1794340226,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    4868.5
-   ],
-   [
     1793791320,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794340030,
+    4868.5
+   ],
+   [
+    1794340226,
     4868.5
    ]
   ],
@@ -29867,9 +29867,6 @@
   ]
  },
  "log": [
-  "10.11 07:59 B5P  NEWS (43 new) score -0.25 conf 0.50: Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri olarak bitti\u011fini s\u00f6ylemesi ve Brent'in %6,7 d\u00fc\u015f\u00fcp 91,70 dolara gerilemesi, bar\u0131\u015f beklentileri nedeniyle k\u0131sa vadede bask\u0131 yarat\u0131yor. Ancak Hormuz'daki gemi sald\u0131r\u0131lar\u0131, Husilerin Suudi boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131lar\u0131 ve \u00c7in'in ham petrol ithalat\u0131n\u0131n artmas\u0131 arz riskini canl\u0131 tutuyor; bu \u00e7eli\u015fkili haberler g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-  "10.11 07:59 B5P  GPT  score -0.55 conf 0.68: \u0130ran sava\u015f\u0131n\u0131n asker\u00ee olarak sona erdi\u011fi a\u00e7\u0131klamas\u0131, sald\u0131r\u0131 risklerinin azald\u0131\u011f\u0131na dair haberler ve Brent\u2019in %6,73 d\u00fc\u015fmesi k\u0131sa vadede g\u00fc\u00e7l\u00fc a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131ya i\u015faret ediyor. Suudi petrol boru hatt\u0131na y\u00f6nelik sald\u0131r\u0131 ve H\u00fcrm\u00fcz\u2019deki gemi iddialar\u0131 arz riskini canl\u0131 tutsa da haberler \u00e7eli\u015fkili ve d\u00fc",
-  "10.11 07:59 B5P  SHORT BZ=F 25000 USD x10 @ 91.40 (TP 91.12, SL 91.58; news -0.40)",
   "10.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "10.11 08:05 N  NEWS (11 new) score -0.15 conf 0.35: ",
   "10.11 08:05 N  GPT  score -0.15 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair a\u00e7\u0131klamalar ve Rusya-Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri g\u00fcvenli liman talebini azaltarak alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir. Dolar\u0131n gerilemesi bunu k\u0131smen dengeliyor; CPI verisi \u00f6ncesinde y\u00f6n sinyali s\u0131n\u0131rl\u0131 ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili.",
@@ -30166,7 +30163,10 @@
   "10.11 22:38 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde zay\u0131f toparlanmaya kar\u015f\u0131 NVDA'daki \u015firkete \u00f6zg\u00fc haber ak\u0131\u015f\u0131 se\u00e7ici k\u0131sa pozisyonu destekliyor; normal seans\u0131n bitimine 22 dakika kalmas\u0131 ve uzat\u0131lm\u0131\u015f seansta braket emirlerinin \u00e7al\u0131\u015fmayabilmesi riski art\u0131r\u0131yor.\u00bb",
   "10.11 22:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupJy6vSJgZGEQn1QJh4'}",
   "10.11 22:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupY9JhBYjMW9FBFp3Gc'}",
-  "10.11 22:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupmRJygTQtmpPfkQovV'}"
+  "10.11 22:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupmRJygTQtmpPfkQovV'}",
+  "10.11 22:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupznAxVdrBjEDMcip9S'}",
+  "10.11 22:50 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "10.11 22:50 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abEndekslerde toparlanma ve NVDA'da haber kaynakl\u0131 zay\u0131fl\u0131k ayr\u0131\u015f\u0131yor; normal seans\u0131n bitmesine 10 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik i\u015flemlerde seans sonras\u0131 likidite ve stop emirlerinin \u00e7al\u0131\u015fmama riski \u00f6nemlidir.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30353,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    4963.78
-   ],
-   [
     1793791320,
     4963.78
    ],
@@ -42350,6 +42346,10 @@
    ],
    [
     1794340030,
+    4963.78
+   ],
+   [
+    1794340226,
     4963.78
    ]
   ],
@@ -42465,10 +42465,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    4975.18
-   ],
-   [
     1793791320,
     4975.18
    ],
@@ -54462,6 +54458,10 @@
    ],
    [
     1794340030,
+    4975.18
+   ],
+   [
+    1794340226,
     4975.18
    ]
   ],
@@ -54547,10 +54547,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    4993.28
-   ],
-   [
     1793791320,
     4993.28
    ],
@@ -66544,6 +66540,10 @@
    ],
    [
     1794340030,
+    4993.28
+   ],
+   [
+    1794340226,
     4993.28
    ]
   ]
@@ -66754,10 +66754,6 @@
   },
   "equity_curve": [
    [
-    1793791141,
-    4969.22
-   ],
-   [
     1793791320,
     4969.22
    ],
@@ -78751,6 +78747,10 @@
    ],
    [
     1794340030,
+    4969.22
+   ],
+   [
+    1794340226,
     4969.22
    ]
   ],
@@ -80329,10 +80329,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793791141,
-    4877.63
-   ],
    [
     1793791320,
     4884.98
@@ -92328,6 +92324,10 @@
    [
     1794340030,
     4610.16
+   ],
+   [
+    1794340226,
+    4610.16
    ]
   ],
   "news_calls": {
@@ -93162,10 +93162,6 @@
    "equity": 111676.47
   },
   "equity_curve": [
-   [
-    1793791141,
-    102491.32
-   ],
    [
     1793791320,
     102491.32
@@ -105161,16 +105157,20 @@
    [
     1794340030,
     111676.47
+   ],
+   [
+    1794340226,
+    111676.47
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794339490260,
+  "last_decision_ms": 1794340211638,
   "view": {
-   "ts": 1794339490260,
+   "ts": 1794340211638,
    "claude": "",
-   "gpt": "Endekslerde zay\u0131f toparlanmaya kar\u015f\u0131 NVDA'daki \u015firkete \u00f6zg\u00fc haber ak\u0131\u015f\u0131 se\u00e7ici k\u0131sa pozisyonu destekliyor; normal seans\u0131n bitimine 22 dakika kalmas\u0131 ve uzat\u0131lm\u0131\u015f seansta braket emirlerinin \u00e7al\u0131\u015fmayabilmesi riski art\u0131r\u0131yor.",
+   "gpt": "Endekslerde toparlanma ve NVDA'da haber kaynakl\u0131 zay\u0131fl\u0131k ayr\u0131\u015f\u0131yor; normal seans\u0131n bitmesine 10 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik i\u015flemlerde seans sonras\u0131 likidite ve stop emirlerinin \u00e7al\u0131\u015fmama riski \u00f6nemlidir.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": null,
    "picks": {
@@ -105181,7 +105181,7 @@
      ],
      "gpt": [
       "none",
-      0.76
+      0.68
      ]
     },
     "QQQ": {
@@ -105191,7 +105191,7 @@
      ],
      "gpt": [
       "none",
-      0.73
+      0.65
      ]
     },
     "NVDA": {
@@ -105201,7 +105201,7 @@
      ],
      "gpt": [
       "short",
-      0.74
+      0.7
      ]
     },
     "AAPL": {
@@ -105211,7 +105211,7 @@
      ],
      "gpt": [
       "none",
-      0.74
+      0.76
      ]
     },
     "TSLA": {
@@ -105220,8 +105220,8 @@
       null
      ],
      "gpt": [
-      "none",
-      0.69
+      "long",
+      0.64
      ]
     }
    }
@@ -105343,10 +105343,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793791141,
-    5066.43
-   ],
    [
     1793791320,
     5066.43
@@ -117341,6 +117337,10 @@
    ],
    [
     1794340030,
+    4876.96
+   ],
+   [
+    1794340226,
     4876.96
    ]
   ],
