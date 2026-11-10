@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 08:02 (İstanbul)
+> Son güncelleme: 10.11.2026 08:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,333.78 $** (başlangıç 5,000 $, -666.22 $ / %-13.32)
 
-Son haber analizi (10.11 07:53): Claude puan **-0.10**, güven 0.35 — Haberler karışık: İran'da daha fazla ABD saldırısının "çok olası olmadığı" ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini hafifleterek altı hafif baskılıyor; buna karşılık doların hafif zayıflaması ve ABD enflasyonunun yavaşlayabileceği beklentisi (CPI) altı destekleyebilir. Ana belirleyici yaklaşan ABD CPI verisi olduğu için net etki belirsiz kalıyor ve güven düşük.
+Son haber analizi (10.11 08:05): Claude puan **-0.15**, güven 0.35 — Haberler karışık: İran'da daha fazla ABD saldırısının "çok olası olmadığı" ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini hafifleterek altı hafif baskılıyor; buna karşılık doların hafif zayıflaması ve ABD enflasyonunun yavaşlayabileceği beklentisi (CPI) altı destekleyebilir. Ana belirleyici yaklaşan ABD CPI verisi olduğu için net etki belirsiz kalıyor ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.34 — Altın fiyatlarındaki düşüş ve Ukrayna barış görüşmelerinin yeniden başlaması kısa vadede güvenli liman talebini sınırlıyor. Doların gerilemesi altını destekleyebilir; yaklaşan ABD TÜFE verisi öncesinde yön sinyali zayıf olduğundan etki hafif negatif.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.35 — İran savaşının sona erebileceğine dair açıklamalar ve Rusya-Ukrayna barış görüşmeleri güvenli liman talebini azaltarak altın üzerinde hafif baskı yaratabilir. Doların gerilemesi bunu kısmen dengeliyor; CPI verisi öncesinde yön sinyali sınırlı ve haber akışı çelişkili.
 
 Son işlemler:
 
@@ -88,9 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 06:53 N  GPT  score -0.25 conf 0.38: Trump’ın İran savaşının askeri açıdan fiilen sona erdiği ve yeni saldırıların düşük ihtimal olduğu açıklaması güvenli liman talebini azaltarak altını hafifçe baskılayabilir. Ancak ABD TÜFE verisi öncesindeki bekleyiş ve savaşla ilgili çelişkili mesajlar yönü belirsizleştiriyor.
-10.11 07:05 N  NEWS (8 new) score -0.05 conf 0.30: İran savaşının "etkili biçimde bitti" olduğu ve barış görüşmelerindeki olumlu ivmenin jeopolitik güvenli liman talebini zayıflatması altına hafif baskı yapıyor. Buna karşılık Ekim CPI'nin enflasyonun yavaşlayacağı beklentisi ve petrol fiyatlarındaki düşüş gevşemeye dair beklentileri destekleyerek altın için dengeleyici bir etki yaratıyor; dolar endeksi ise yatay seyrediyor.
-10.11 07:05 N  GPT  score -0.08 conf 0.34: Altın, ABD enflasyon verisi öncesinde geriliyor; yavaşlayan enflasyon beklentisi destekleyici olsa da henüz gerçekleşmiş bir veri değil. İran savaşının sona erebileceğine dair önceki açıklamalar güvenli liman talebini sınırlarken, dolar ve faiz görünümünde kısa vadeli güçlü bir yön sinyali yok.
 10.11 07:17 N  NEWS (6 new) score -0.15 conf 0.35: İran savaşında "olumlu ivme" ve ABD'nin daha fazla saldırı olasılığının "çok düşük" olduğu yönündeki yeni açıklamalar jeopolitik güvenli liman talebini biraz azaltıyor, bu da altın için hafif negatif. Petrol fiyatlarındaki düşüş enflasyon beklentilerini yumuşatarak olası bir dovish zemini destekliyor, ancak ABD CPI verisi beklentisi belirsizliği yüksek ve altın bu noktada veriyi beklerken yatay seyrediyor.
 10.11 07:17 N  GPT  score -0.28 conf 0.56: Trump’ın İran’a yeni saldırıları “son derece düşük olasılıklı” görmesi ve savaşın sona ermesine yönelik olumlu ivme, kısa vadeli güvenli liman talebini azaltarak altını baskılayabilir. Ancak çatışmanın sürdüğüne dair çelişkili haberler ve yaklaşan ABD enflasyon verisi yönü belirsiz kılıyor.
 10.11 07:29 N  NEWS (5 new) score -0.10 conf 0.40: İran'la ilgili "olumlu ivme" ve Trump'ın yeni saldırıların "pek olası olmadığını" söylemesi jeopolitik güvenli liman talebini biraz azaltarak altın için hafif baskılayıcı. Buna karşılık ABD enflasyon verisi (Ekim CPI) öncesinde enflasyonun yavaşlayacağı beklentisi faiz indirimi ihtimalini destekleyip altın için olumlu; dolar endeksi de 101,70 civarında sabit. Net etki hafif negatif, ancak CPI sonucu belirleyici olacağından güven düşük.
@@ -103,6 +100,9 @@ Son işlemler:
 10.11 07:59 B5P  GPT  score -0.55 conf 0.68: İran savaşının askerî olarak sona erdiği açıklaması, saldırı risklerinin azaldığına dair haberler ve Brent’in %6,73 düşmesi kısa vadede güçlü aşağı yönlü baskıya işaret ediyor. Suudi petrol boru hattına yönelik saldırı ve Hürmüz’deki gemi iddiaları arz riskini canlı tutsa da haberler çelişkili ve dü
 10.11 07:59 B5P  SHORT BZ=F 25000 USD x10 @ 91.40 (TP 91.12, SL 91.58; news -0.40)
 10.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+10.11 08:05 N  NEWS (11 new) score -0.15 conf 0.35: 
+10.11 08:05 N  GPT  score -0.15 conf 0.35: İran savaşının sona erebileceğine dair açıklamalar ve Rusya-Ukrayna barış görüşmeleri güvenli liman talebini azaltarak altın üzerinde hafif baskı yaratabilir. Doların gerilemesi bunu kısmen dengeliyor; CPI verisi öncesinde yön sinyali sınırlı ve haber akışı çelişkili.
+10.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
