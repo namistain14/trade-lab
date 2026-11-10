@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 20:20 (İstanbul)
+> Son güncelleme: 10.11.2026 20:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -87,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 19:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubHwqEToz3uHDxZGk9X'}
-10.11 19:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubXGC8xtPGSCsz26pxA'}
-10.11 19:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubkcuhNHbB7dU5WkUdz'}
 10.11 19:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubyoZGBnnETqG4Ur2UW'}
 10.11 19:59 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 10.11 19:59 B6  karar turu: Claude «-» / GPT «Yüksek enflasyon, şahin Fed söylemi ve jeopolitik riskler satış yönünü destekliyor; 1:4 kaldıraçta ilişkili short pozisyonlarının toplam riski sınırlanmalı ve stop kayması hesaba katılmalı.»
@@ -102,6 +99,9 @@ Son işlemler:
 10.11 20:14 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgud88ojE9kEs7VnqmGuF'}
 10.11 20:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgudMNAX4FgZeJtmWvWmN'}
 10.11 20:20 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgudahAPEzn8uuLSS5HrQ'}
+10.11 20:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgudow5Q7xzTV2woS1UaQ'}
+10.11 20:23 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+10.11 20:23 B6  karar turu: Claude «-» / GPT «Verilen akışta sıcak enflasyon, şahin Fed mesajları ve jeopolitik riskler satış yönünü desteklerken, dört kat kaldıraç nedeniyle düşüşü kovalamadan göreli güç ve zayıflık üzerinden seçici işlem tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
