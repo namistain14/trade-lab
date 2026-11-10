@@ -11925,6 +11925,10 @@
    [
     1794287302,
     5000.0
+   ],
+   [
+    1794287477,
+    5000.0
    ]
   ],
   "archive": [
@@ -14999,10 +15003,6 @@
   },
   "equity_curve": [
    [
-    1793711764,
-    4868.5
-   ],
-   [
     1793713092,
     4868.5
    ],
@@ -26996,6 +26996,10 @@
    ],
    [
     1794287302,
+    4868.5
+   ],
+   [
+    1794287477,
     4868.5
    ]
   ],
@@ -29779,7 +29783,6 @@
   ]
  },
  "log": [
-  "09.11 09:03 N  NEWS (12 new) score +0.40 conf 0.50: Alt\u0131n, zay\u0131f dolar ve \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 (Riyad'daki Aramco kulesine sald\u0131r\u0131) nedeniyle g\u00fcvenli liman talebiyle y\u00fckseliyor; ABD enflasyon verisi beklentisi de fiyatlar\u0131 destekliyor. Ancak Fed beklentileri nedeniyle dolar\u0131n dayan\u0131kl\u0131l\u0131\u011f\u0131, ABD-\u0130ran m\u00fczakere haberleri ve alt\u0131n\u0131n zaten ya\u015fanan %1'in \u00fczerindeki y\u00fckseli\u015fi bu etkiyi s\u0131n\u0131rl\u0131yor.",
   "09.11 09:03 N  GPT  score +0.35 conf 0.45: Alt\u0131n zaten %1\u2019den fazla y\u00fckselmi\u015f; Riyad\u2019daki sald\u0131r\u0131 ve \u0130ran kaynakl\u0131 \u00e7at\u0131\u015fma riski g\u00fcvenli liman talebini destekleyebilir. Ancak dolar\u0131n g\u00fc\u00e7l\u00fc seyri, Fed beklentileri ve yakla\u015fan ABD enflasyon verisi y\u00fckseli\u015fi s\u0131n\u0131rlayabilir; haber ak\u0131\u015f\u0131 da \u00e7eli\u015fkili.",
   "09.11 09:15 N  NEWS (16 new) score +0.40 conf 0.50: Jeopolitik risk art\u0131yor: \u0130ran n\u00fckleer g\u00f6r\u00fc\u015fmelerinin \u00e7\u00f6kmesi, Riyad'da Aramco kulesine sald\u0131r\u0131 ve ABD'nin yeni g\u00f6rev g\u00fcc\u00fc ba\u015flatmas\u0131 g\u00fcvenli liman talebini destekliyor. Petrol fiyat\u0131n\u0131n d\u00fc\u015fmesi ve dolar endeksinin gev\u015femesi enflasyon endi\u015felerini azaltarak alt\u0131n\u0131 destekliyor; ayr\u0131ca alt\u0131n ABD enflasyon verisi \u00f6ncesinde %1'in \u00fczerinde y\u00fckseldi. Buna kar\u015f\u0131l\u0131k Fed beklentilerinin dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 ve \u00c7in bankalar\u0131n\u0131n dolar mevduat faizini art\u0131rmas\u0131 bask\u0131 yaratabilir, baz\u0131 haberler de eski veya ilgisiz oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "09.11 09:15 N  GPT  score +0.30 conf 0.43: Dolar endeksindeki d\u00fc\u015f\u00fc\u015f ve petrol\u00fcn gerilemesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir; \u0130ran \u00e7evresindeki gerilim de g\u00fcvenli liman talebini art\u0131r\u0131yor. Ancak alt\u0131n zaten %1\u2019den fazla y\u00fckselmi\u015f ve ABD enflasyon verisi bekleniyor, bu nedenle ek hareket s\u0131n\u0131rl\u0131 ve belirsiz olabilir.",
@@ -30078,7 +30081,8 @@
   "10.11 08:05 N  NEWS (11 new) score -0.15 conf 0.35: ",
   "10.11 08:05 N  GPT  score -0.15 conf 0.35: \u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair a\u00e7\u0131klamalar ve Rusya-Ukrayna bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri g\u00fcvenli liman talebini azaltarak alt\u0131n \u00fczerinde hafif bask\u0131 yaratabilir. Dolar\u0131n gerilemesi bunu k\u0131smen dengeliyor; CPI verisi \u00f6ncesinde y\u00f6n sinyali s\u0131n\u0131rl\u0131 ve haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili.",
   "10.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "10.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "10.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "10.11 08:11 B5P  CLOSE short stop (gap): -67.46 USD"
  ],
  "gold_big": {
   "account": {
@@ -30265,10 +30269,6 @@
   },
   "equity_curve": [
    [
-    1793711764,
-    4963.78
-   ],
-   [
     1793713092,
     4963.78
    ],
@@ -42262,6 +42262,10 @@
    ],
    [
     1794287302,
+    4963.78
+   ],
+   [
+    1794287477,
     4963.78
    ]
   ],
@@ -42377,10 +42381,6 @@
   },
   "equity_curve": [
    [
-    1793711764,
-    4975.18
-   ],
-   [
     1793713092,
     4975.18
    ],
@@ -54374,6 +54374,10 @@
    ],
    [
     1794287302,
+    4975.18
+   ],
+   [
+    1794287477,
     4975.18
    ]
   ],
@@ -54459,10 +54463,6 @@
   },
   "equity_curve": [
    [
-    1793711764,
-    4993.28
-   ],
-   [
     1793713092,
     4993.28
    ],
@@ -66456,6 +66456,10 @@
    ],
    [
     1794287302,
+    4993.28
+   ],
+   [
+    1794287477,
     4993.28
    ]
   ]
@@ -66666,10 +66670,6 @@
   },
   "equity_curve": [
    [
-    1793711764,
-    4969.22
-   ],
-   [
     1793713092,
     4969.22
    ],
@@ -78663,6 +78663,10 @@
    ],
    [
     1794287302,
+    4969.22
+   ],
+   [
+    1794287477,
     4969.22
    ]
   ],
@@ -80157,10 +80161,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793711764,
-    4588.19
-   ],
    [
     1793713092,
     4588.19
@@ -92156,6 +92156,10 @@
    [
     1794287302,
     4333.78
+   ],
+   [
+    1794287477,
+    4333.78
    ]
   ],
   "news_calls": {
@@ -92990,10 +92994,6 @@
    "equity": 111691.09
   },
   "equity_curve": [
-   [
-    1793711764,
-    100746.25
-   ],
    [
     1793713092,
     100746.25
@@ -104989,6 +104989,10 @@
    [
     1794287302,
     111691.09
+   ],
+   [
+    1794287477,
+    111691.09
    ]
   ],
   "open": {},
@@ -105073,25 +105077,9 @@
  ],
  "oil_consensus": {
   "account": {
-   "balance": 4944.417554620708,
+   "balance": 4876.9620921257365,
    "start": 5000,
-   "positions": [
-    {
-     "id": "5a072cce",
-     "symbol": "BZ=F",
-     "side": "short",
-     "qty": 273.53280903010483,
-     "entry": 91.39671430511474,
-     "tp": 91.1225241621994,
-     "sl": 91.57950773372497,
-     "opened_ms": 1794286769051,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.40/0.50",
-     "friction": 18.2096
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "8f05ce3b",
@@ -105155,21 +105143,38 @@
      "gross": -63.2627,
      "costs": 0.0,
      "pnl": -63.2627
+    },
+    {
+     "id": "5a072cce",
+     "symbol": "BZ=F",
+     "side": "short",
+     "qty": 273.53280903010483,
+     "entry": 91.39671430511474,
+     "tp": 91.1225241621994,
+     "sl": 91.57950773372497,
+     "opened_ms": 1794286769051,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.40/0.50",
+     "friction": 18.2096,
+     "exit": 91.64332261047363,
+     "closed_ms": 1794286860000,
+     "reason": "stop (gap)",
+     "gross": -67.4555,
+     "costs": 0.0,
+     "pnl": -67.4555
     }
    ],
    "day": {
     "date": "2026-11-10",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": -67.45546249497113,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793711764,
-    5066.43
-   ],
    [
     1793713092,
     5066.43
@@ -117165,6 +117170,10 @@
    [
     1794287302,
     4944.42
+   ],
+   [
+    1794287477,
+    4876.96
    ]
   ],
   "news": {
