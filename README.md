@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 11:28 (İstanbul)
+> Son güncelleme: 10.11.2026 11:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %50.0 | %37.1 |
 | Ödenen komisyon/spread | 23.64 $ | 830.63 $ |
 
-**Hesap değeri: 4,321.53 $** (başlangıç 5,000 $, -678.47 $ / %-13.57)
+**Hesap değeri: 4,314.71 $** (başlangıç 5,000 $, -685.29 $ / %-13.71)
 
 Açık pozisyonlar: PAXGUSDT short @ 4105.09 (TP 4092.77 / SL 4113.30)
 
-Son haber analizi (10.11 11:19): Claude puan **-0.30**, güven 0.50 — ABD CPI verisinin sıcak gelmesi beklentisi (ING: "enflasyon rahatsız edecek kadar yüksek", Aralık'ta faiz artırımı tartışması) reel faizleri ve doları yukarı iterek altını baskılayabilir. İran savaşının sona ereceğine dair açıklamalar ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini azaltıyor. Buna karşılık altın 4.100 doların üzerinde tutunuyor ve CPI sonucu belirsiz olduğundan güven sınırlı.
+Son haber analizi (10.11 11:31): Claude puan **-0.15**, güven 0.40 — ABD enflasyon verisi (CPI) öncesi piyasalar sıcak bir veri ve Fed'in Aralık'ta faiz artırma ihtimali üzerine yoğunlaşmış durumda; bu, reel faiz beklentilerini yükselterek altın için kısa vadede baskı oluşturuyor. İran savaşında gerilimin azalması ve Abu Dhabi'deki Ukrayna barış görüşmeleri güvenli liman talebini zayıflatıyor. Buna karşılık doların zayıflaması altını destekliyor ve haberler çelişkili olduğu için güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **-0.22**, güven 0.45 — CPI öncesinde yükselen ABD tahvil getirileri ve enflasyonun beklentileri aşabileceği yönündeki kaygı altın için baskı oluşturuyor; Ukrayna görüşmeleri ile İran savaşının yakında sona erebileceğine dair mesajlar da güvenli liman talebini azaltabilir. Ancak veri henüz açıklanmadı ve altın 4.100 dolar 
+GPT (gpt-6-luna): puan **-0.12**, güven 0.36 — Doların zayıflaması altını destekleyebilir; ancak yükselen ABD tahvil getirileri ve yüksek gelmesi beklenen CPI öncesindeki temkin, kısa vadede bu desteği sınırlıyor. İran savaşının yakında sona erebileceğine dair haberler güvenli liman talebini azaltırken görünüm çelişkili.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 10:07 N  NEWS (5 new) score -0.10 conf 0.35: İran savaşının "yakında bitecek" ve "yeni saldırılar pek olası değil" açıklamaları jeopolitik güvenli liman talebini azaltıyor; petrol düşüşü ve risk iştahı da altın için kısa vadede hafif olumsuz. Öte yandan petrol düşüşü enflasyon beklentilerini aşağı çekip Fed'i yumuşatabilir, bu da altı destekler. ABD TÜFE verisi öncesi piyasa kararsız ve sonucu bilinmediği için güven düşük.
-10.11 10:07 N  GPT  score -0.30 conf 0.56: Trump’ın İran savaşının yakında bitebileceğini ve yeni saldırıların olasılığının düşük olduğunu söylemesi güvenli liman talebini azaltarak altını kısa vadede baskılayabilir. ABD TÜFE verisi öncesindeki belirsizlik ve bölgedeki füze saldırıları düşüşü sınırlıyor.
 10.11 10:18 N  NEWS (5 new) score -0.20 conf 0.40: İran savaşının "yakında bitecek" ve "etkili biçimde sona erdi" yönündeki açıklamaları güvenli liman talebini azaltarak altın için hafif negatif bir etki yaratıyor. Petrol fiyatlarının düşmesi enflasyon beklentilerini yumuşatabilir, ancak ABD TÜFE verisini beklerken altın yatay-zayıf seyrediyor ve doların bazı günlerde güçlenmesi baskıyı artırıyor; Netanyahu'nun savaşın yeniden başlaması için baskı yaptığı haberi ise sınırlı bir jeopolitik risk primi getiriyor.
 10.11 10:18 N  GPT  score -0.25 conf 0.55: Trump’ın saldırıların yeniden başlamasını düşük olasılıklı görmesi, petrolün gerilemesi ve piyasaların toparlanması güvenli liman talebini azaltarak altını baskılıyor. Netanyahu’nun savaşı yeniden başlatma çabası bu görünümü kısmen dengeliyor; doların gücü ve yaklaşan ABD enflasyon verisi kısa vaded
 10.11 10:18 B5  SHORT gold 25000 USD x10 @ 4105.09 (TP 4092.77, SL 4113.30; news -0.23)
@@ -104,6 +102,8 @@ Son işlemler:
 10.11 11:07 N  GPT  score -0.28 conf 0.55: Yaklaşan ABD TÜFE verisi öncesinde enflasyonun yüksek kalacağı beklentisi ve yükselen tahvil getirileri altını baskılıyor; fiyatlardaki geri çekilme de bu temkinli görünümü destekliyor. İran gerilimi sürse de Trump’ın çatışmanın yakında biteceği mesajı, düşen gaz fiyatları ve yeniden başlayan Ukrayn
 10.11 11:19 N  NEWS (8 new) score -0.30 conf 0.50: ABD CPI verisinin sıcak gelmesi beklentisi (ING: "enflasyon rahatsız edecek kadar yüksek", Aralık'ta faiz artırımı tartışması) reel faizleri ve doları yukarı iterek altını baskılayabilir. İran savaşının sona ereceğine dair açıklamalar ve Ukrayna barış görüşmelerinin yeniden başlaması jeopolitik güvenli liman talebini azaltıyor. Buna karşılık altın 4.100 doların üzerinde tutunuyor ve CPI sonucu belirsiz olduğundan güven sınırlı.
 10.11 11:19 N  GPT  score -0.22 conf 0.45: CPI öncesinde yükselen ABD tahvil getirileri ve enflasyonun beklentileri aşabileceği yönündeki kaygı altın için baskı oluşturuyor; Ukrayna görüşmeleri ile İran savaşının yakında sona erebileceğine dair mesajlar da güvenli liman talebini azaltabilir. Ancak veri henüz açıklanmadı ve altın 4.100 dolar 
+10.11 11:31 N  NEWS (9 new) score -0.15 conf 0.40: ABD enflasyon verisi (CPI) öncesi piyasalar sıcak bir veri ve Fed'in Aralık'ta faiz artırma ihtimali üzerine yoğunlaşmış durumda; bu, reel faiz beklentilerini yükselterek altın için kısa vadede baskı oluşturuyor. İran savaşında gerilimin azalması ve Abu Dhabi'deki Ukrayna barış görüşmeleri güvenli liman talebini zayıflatıyor. Buna karşılık doların zayıflaması altını destekliyor ve haberler çelişkili olduğu için güven düşük tutuldu.
+10.11 11:31 N  GPT  score -0.12 conf 0.36: Doların zayıflaması altını destekleyebilir; ancak yükselen ABD tahvil getirileri ve yüksek gelmesi beklenen CPI öncesindeki temkin, kısa vadede bu desteği sınırlıyor. İran savaşının yakında sona erebileceğine dair haberler güvenli liman talebini azaltırken görünüm çelişkili.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
