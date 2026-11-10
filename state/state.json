@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793775152,
-    5000.0
-   ],
-   [
     1793775332,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794329986,
+    5000.0
+   ],
+   [
+    1794330149,
     5000.0
    ]
   ],
@@ -13865,12 +13865,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1794322800000,
-   "ETHUSDT": 1794322800000,
-   "SOLUSDT": 1794322800000,
-   "BNBUSDT": 1794322800000,
-   "XRPUSDT": 1794322800000,
-   "DOGEUSDT": 1794322800000
+   "BTCUSDT": 1794326400000,
+   "ETHUSDT": 1794326400000,
+   "SOLUSDT": 1794326400000,
+   "BNBUSDT": 1794326400000,
+   "XRPUSDT": 1794326400000,
+   "DOGEUSDT": 1794326400000
   }
  },
  "gold_news": {
@@ -15086,10 +15086,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793775152,
-    4868.5
-   ],
    [
     1793775332,
     4868.5
@@ -27084,6 +27080,10 @@
    ],
    [
     1794329986,
+    4868.5
+   ],
+   [
+    1794330149,
     4868.5
    ]
   ],
@@ -29867,7 +29867,6 @@
   ]
  },
  "log": [
-  "10.11 00:00 N  NEWS (9 new) score +0.10 conf 0.35: Alt\u0131n, petrol ve dolar\u0131n gerilemesiyle toparland\u0131, bu k\u0131sa vadede destekleyici. Ancak Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (Daly, Barkin) ve \u0130ran'la m\u00fczakere haberlerinin risk i\u015ftah\u0131n\u0131 art\u0131rmas\u0131 alt\u0131n\u0131 s\u0131n\u0131rl\u0131yor; Hegseth'e y\u00f6nelik g\u00f6revden alma giri\u015fimi ise jeopolitik a\u00e7\u0131dan b\u00fcy\u00fck yeni bir \u015fok de\u011fil.",
   "10.11 00:00 N  GPT  score +0.25 conf 0.40: Petrol ve dolar\u0131n gerilemesi alt\u0131na k\u0131sa vadeli destek sa\u011fl\u0131yor; \u0130ran sava\u015f\u0131yla ilgili s\u00f6ylemler de s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir. Ancak man\u015fetlerin bir k\u0131sm\u0131 mevcut fiyat hareketini zaten yans\u0131t\u0131yor ve CPI verisine ili\u015fkin belirsizlik y\u00f6n\u00fc netle\u015ftirmiyor.",
   "10.11 00:13 N  NEWS (15 new) score +0.10 conf 0.35: ",
   "10.11 00:13 N  GPT  score +0.25 conf 0.38: \u0130ran-H\u00fcrm\u00fcz geriliminin yumu\u015fayabilece\u011fi haberiyle petrol ve dolar\u0131n gerilemesi alt\u0131na k\u0131sa vadede destek sa\u011fl\u0131yor; ancak Fed\u2019den gelen temkinli/\u015fahin sinyaller ve yakla\u015fan enflasyon verisi y\u00fckseli\u015f potansiyelini s\u0131n\u0131rl\u0131yor. Yeni siyasi haberlerin \u00e7o\u011fu do\u011frudan fiyat kataliz\u00f6r\u00fc de\u011fil ve genel sinyal",
@@ -30166,7 +30165,8 @@
   "10.11 19:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubkcuhNHbB7dU5WkUdz'}",
   "10.11 19:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubyoZGBnnETqG4Ur2UW'}",
   "10.11 19:59 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
-  "10.11 19:59 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abY\u00fcksek enflasyon, \u015fahin Fed s\u00f6ylemi ve jeopolitik riskler sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor; 1:4 kald\u0131ra\u00e7ta ili\u015fkili short pozisyonlar\u0131n\u0131n toplam riski s\u0131n\u0131rlanmal\u0131 ve stop kaymas\u0131 hesaba kat\u0131lmal\u0131.\u00bb"
+  "10.11 19:59 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00abY\u00fcksek enflasyon, \u015fahin Fed s\u00f6ylemi ve jeopolitik riskler sat\u0131\u015f y\u00f6n\u00fcn\u00fc destekliyor; 1:4 kald\u0131ra\u00e7ta ili\u015fkili short pozisyonlar\u0131n\u0131n toplam riski s\u0131n\u0131rlanmal\u0131 ve stop kaymas\u0131 hesaba kat\u0131lmal\u0131.\u00bb",
+  "10.11 20:02 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgucD3nPRi1YdjhGQpmYe'}"
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30353,6 @@
   },
   "equity_curve": [
    [
-    1793775152,
-    4963.78
-   ],
-   [
     1793775332,
     4963.78
    ],
@@ -42350,6 +42346,10 @@
    ],
    [
     1794329986,
+    4963.78
+   ],
+   [
+    1794330149,
     4963.78
    ]
   ],
@@ -42465,10 +42465,6 @@
   },
   "equity_curve": [
    [
-    1793775152,
-    4975.18
-   ],
-   [
     1793775332,
     4975.18
    ],
@@ -54462,6 +54458,10 @@
    ],
    [
     1794329986,
+    4975.18
+   ],
+   [
+    1794330149,
     4975.18
    ]
   ],
@@ -54547,10 +54547,6 @@
   },
   "equity_curve": [
    [
-    1793775152,
-    4993.28
-   ],
-   [
     1793775332,
     4993.28
    ],
@@ -66544,6 +66540,10 @@
    ],
    [
     1794329986,
+    4993.28
+   ],
+   [
+    1794330149,
     4993.28
    ]
   ]
@@ -66754,10 +66754,6 @@
   },
   "equity_curve": [
    [
-    1793775152,
-    4969.22
-   ],
-   [
     1793775332,
     4969.22
    ],
@@ -78751,6 +78747,10 @@
    ],
    [
     1794329986,
+    4969.22
+   ],
+   [
+    1794330149,
     4969.22
    ]
   ],
@@ -80329,10 +80329,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793775152,
-    4777.01
-   ],
    [
     1793775332,
     4796.54
@@ -92328,6 +92324,10 @@
    [
     1794329986,
     4610.16
+   ],
+   [
+    1794330149,
+    4610.16
    ]
   ],
   "news_calls": {
@@ -93162,10 +93162,6 @@
    "equity": 111676.47
   },
   "equity_curve": [
-   [
-    1793775152,
-    102500.9
-   ],
    [
     1793775332,
     102500.9
@@ -105161,6 +105157,10 @@
    [
     1794329986,
     111676.47
+   ],
+   [
+    1794330149,
+    111676.47
    ]
   ],
   "open": {},
@@ -105343,10 +105343,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793775152,
-    5066.43
-   ],
    [
     1793775332,
     5066.43
@@ -117341,6 +117337,10 @@
    ],
    [
     1794329986,
+    4876.96
+   ],
+   [
+    1794330149,
     4876.96
    ]
   ],
