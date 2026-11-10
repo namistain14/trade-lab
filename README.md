@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 16:29 (İstanbul)
+> Son güncelleme: 10.11.2026 16:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +220.50 $ | -458.93 $ |
-| İşlem sayısı | 5 | 73 |
-| Kazanma oranı | %80.0 | %39.7 |
-| Ödenen komisyon/spread | 59.15 $ | 866.14 $ |
+| Net kâr/zarar | +289.59 $ | -389.84 $ |
+| İşlem sayısı | 6 | 74 |
+| Kazanma oranı | %83.3 | %40.5 |
+| Ödenen komisyon/spread | 71.00 $ | 877.99 $ |
 
-**Hesap değeri: 4,550.22 $** (başlangıç 5,000 $, -449.78 $ / %-9.00)
-
-Açık pozisyonlar: PAXGUSDT short @ 4063.61 (TP 4051.42 / SL 4071.73)
+**Hesap değeri: 4,610.16 $** (başlangıç 5,000 $, -389.84 $ / %-7.80)
 
 Son haber analizi (10.11 14:46): Claude puan **-0.35**, güven 0.50 — Fed'in Waller'ın Aralık'ta faiz artırımını destekleyen sert açıklamaları ve dolar desteği altın için baskılayıcı; Trump'ın İran savaşının "yakında bitebileceği" yönündeki sözleri ve petrol fiyatlarındaki gerileme jeopolitik korku primini azaltarak ek bir olumsuz etki yaratıyor. Ancak ABD enflasyon verisinin (CPI) sonucu belirsiz olduğu için güven orta düzeyde tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 10.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 | 10.11 13:56 | PAXGUSDT | short | +69.09 $ | take profit |
 | 10.11 12:36 | PAXGUSDT | short | +69.10 $ | take profit |
 | 10.11 12:01 | PAXGUSDT | short | +69.10 $ | take profit |
 | 10.11 06:45 | PAXGUSDT | short | +69.10 $ | take profit |
-| 10.11 03:20 | PAXGUSDT | long | -55.90 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 15:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguGvBZmREDBWTLM2RhkB'}
-10.11 15:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguH9T4HdQHwKdXam1h1c'}
-10.11 15:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguHNhUKzVMsNB5bpUbgP'}
 10.11 15:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguHbzHyDh1UEecHuqLet'}
 10.11 16:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguHqCxabWhkVkB6nbS3w'}
 10.11 16:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguJ4YgqqMmoweG4zSHuY'}
@@ -104,6 +99,9 @@ Son işlemler:
 10.11 16:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguKUg9MQyh9Y7bmmCcN5'}
 10.11 16:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguKhvXeBPikjYcPDEQ1Q'}
 10.11 16:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguKwFJ7vpdwmAXGtkBEv'}
+10.11 16:32 B5  CLOSE short take profit: +69.09 USD
+10.11 16:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguLAWWXXjN3QN7LH3ttc'}
+10.11 16:32 B6  seans öncesi görüş alınamadı: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
