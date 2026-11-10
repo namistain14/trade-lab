@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 10.11.2026 02:59 (İstanbul)
+> Son güncelleme: 10.11.2026 03:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %36.8 |
 | Ödenen komisyon/spread | 0.00 $ | 806.99 $ |
 
-**Hesap değeri: 4,321.21 $** (başlangıç 5,000 $, -678.79 $ / %-13.58)
+**Hesap değeri: 4,310.36 $** (başlangıç 5,000 $, -689.64 $ / %-13.79)
 
 Açık pozisyonlar: PAXGUSDT long @ 4124.44 (TP 4136.82 / SL 4116.20)
 
-Son haber analizi (10.11 02:50): Claude puan **-0.05**, güven 0.35 — Trump'ın İran savaşının "esasen bitti" olduğunu söylemesi jeopolitik güvenli liman talebini azaltarak altı hafif baskılıyor. Buna karşılık petrol fiyatlarındaki düşüşün enflasyon endişelerini azaltması ve faiz beklentileri üzerindeki dovish etki altı destekliyor; yaklaşan ABD TÜFE verisi ise yönü belirsiz bırakıyor. Net etki sınırlı ve karışık olduğu için güven düşük.
+Son haber analizi (10.11 03:02): Claude puan **+0.40**, güven 0.50 — Trump'ın İran savaşının "esasen bittiğini" söylemesi jeopolitik güvenli liman talebini azaltarak altın için olumsuz, ancak petrol fiyatlarının %4 düşmesi, enflasyon endişelerinin hafiflemesi ve doların zayıflaması faiz indirimi beklentilerini destekleyip altını yukarı itiyor. Net etki hafif pozitif; ancak ABD TÜFE verisi yaklaşırken volatilite yüksek ve haberler çelişkili olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.28**, güven 0.48 — Trump’ın İran savaşının fiilen sona erdiği yönündeki yeni açıklaması ve Ukrayna’da barışa yönelik ilerleme haberleri, kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak açıklamalar tekrarlanıyor ve petrol kaynaklı enflasyonun soğuması faiz beklentileri üzerinden altına destek 
+GPT (gpt-6-luna): puan **-0.12**, güven 0.34 — İran savaşının askerî açıdan sona yaklaştığı yönündeki açıklamalar güvenli liman talebini azaltabilir; petrolün düşmesi de enflasyon kaygılarını hafifletiyor. Doların gerilemesi altını desteklese de başlıklar çelişkili ve savaşın gerçekten sona erdiği net değil, bu nedenle net etki sınırlı ölçüde ne
 
 Son işlemler:
 
@@ -88,8 +88,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-10.11 01:25 N  GPT  score -0.15 conf 0.42: İran ve Rusya-Ukrayna savaşlarının sona ermesine yönelik olumlu açıklamalar güvenli liman talebini azaltarak altın üzerinde hafif baskı yaratabilir. Ancak doların zayıflaması ve altının hâlihazırda yükselmesi bu etkiyi sınırlıyor; kısa vadeli görünüm karışık.
-10.11 01:37 N  NEWS (13 new) score -0.10 conf 0.35: Trump'ın İran savaşının askeri olarak "fiilen bittiği" yönündeki açıklamaları ve Rusya-Ukrayna'da ilerleme haberleri jeopolitik güvenli liman talebini biraz azaltabilir, bu da altın için hafif negatif. Buna karşılık zayıf dolar, petrol fiyatlarının düşüklüğü ve Fed'in Lisa Cook'u görevden alma tartışması gibi unsurlar altını destekliyor; haberler karışık ve çoğu zaten fiyatlanmış olduğu için güven düşük.
 10.11 01:37 N  GPT  score -0.28 conf 0.57: İran savaşının askerî açıdan sona yaklaştığı ve Rusya-Ukrayna savaşında ilerleme olduğu yönündeki haberler güvenli liman talebini azaltarak altını kısa vadede baskılayabilir. Doların zayıflaması altına destek verse de yeni başlıkların çoğu piyasa açısından sınırlı veya dolaylı; etki bu nedenle ölçül
 10.11 01:50 N  NEWS (13 new) score +0.20 conf 0.40: Petrol fiyatlarının düşmesi enflasyon endişelerini azaltıyor ve dolar zayıflıyor; bu da altın için olumlu. Öte yandan Trump'ın İran savaşının "esasen bittiğini" söylemesi jeopolitik güvenli liman talebini azaltarak altını sınırlı ölçüde baskılıyor, Goolsbee'nin ekonominin ısındığı yönündeki açıklaması da faiz beklentileri tarafında hafif bir baskı yaratıyor. Haberler karışık ve bir kısmı zaten fiyatlanmış olduğundan güven düşük.
 10.11 01:50 N  GPT  score -0.15 conf 0.42: Trump’ın İran savaşının fiilen sona erdiği yönündeki açıklaması, güvenli liman talebini azaltarak altını kısa vadede hafifçe baskılayabilir. Ancak dolar zayıflığı ve altının zaten yükseldiğine dair haberler bu etkiyi dengeliyor; yeni ve belirleyici bir faiz sinyali yok.
@@ -103,6 +101,8 @@ Son işlemler:
 10.11 02:38 N  GPT  score -0.40 conf 0.66: Trump’ın İran savaşının “fiilen bittiği” yönündeki yeni açıklaması ve Ukrayna’da ilerleme mesajları kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Petrolün düşmesi enflasyon ve faiz beklentileri üzerinden destek sağlayabilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
 10.11 02:50 N  NEWS (4 new) score -0.05 conf 0.35: Trump'ın İran savaşının "esasen bitti" olduğunu söylemesi jeopolitik güvenli liman talebini azaltarak altı hafif baskılıyor. Buna karşılık petrol fiyatlarındaki düşüşün enflasyon endişelerini azaltması ve faiz beklentileri üzerindeki dovish etki altı destekliyor; yaklaşan ABD TÜFE verisi ise yönü belirsiz bırakıyor. Net etki sınırlı ve karışık olduğu için güven düşük.
 10.11 02:50 N  GPT  score -0.28 conf 0.48: Trump’ın İran savaşının fiilen sona erdiği yönündeki yeni açıklaması ve Ukrayna’da barışa yönelik ilerleme haberleri, kısa vadede güvenli liman talebini azaltarak altını baskılayabilir. Ancak açıklamalar tekrarlanıyor ve petrol kaynaklı enflasyonun soğuması faiz beklentileri üzerinden altına destek 
+10.11 03:02 N  NEWS (9 new) score +0.40 conf 0.50: Trump'ın İran savaşının "esasen bittiğini" söylemesi jeopolitik güvenli liman talebini azaltarak altın için olumsuz, ancak petrol fiyatlarının %4 düşmesi, enflasyon endişelerinin hafiflemesi ve doların zayıflaması faiz indirimi beklentilerini destekleyip altını yukarı itiyor. Net etki hafif pozitif; ancak ABD TÜFE verisi yaklaşırken volatilite yüksek ve haberler çelişkili olduğu için güven orta düzeyde.
+10.11 03:02 N  GPT  score -0.12 conf 0.34: İran savaşının askerî açıdan sona yaklaştığı yönündeki açıklamalar güvenli liman talebini azaltabilir; petrolün düşmesi de enflasyon kaygılarını hafifletiyor. Doların gerilemesi altını desteklese de başlıklar çelişkili ve savaşın gerçekten sona erdiği net değil, bu nedenle net etki sınırlı ölçüde ne
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
