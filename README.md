@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 19:06 (İstanbul)
+> Son güncelleme: 11.11.2026 19:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %100.0 | %42.1 |
 | Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,783.89 $** (başlangıç 5,000 $, -216.11 $ / %-4.32)
+**Hesap değeri: 4,786.95 $** (başlangıç 5,000 $, -213.05 $ / %-4.26)
 
 Açık pozisyonlar: PAXGUSDT short @ 4006.90 (TP 3994.88 / SL 4014.91)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,520.58 $** (başlangıç 100,000 $, +14520.58 $ / %+14.52)
+**Hesap değeri: 114,394.03 $** (başlangıç 100,000 $, +14394.03 $ / %+14.39)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); QQQ long @ 689.35 (TP 699.58 / SL 682.35)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 18:11 N  NEWS (14 new) score -0.60 conf 0.60: Sıcak ABD enflasyon verisi Fed faiz artırımı beklentilerini güçlendirdi, reel getiriler yükseldi ve dolar değer kazandı; bu altın için net olarak baskılayıcı. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki büyük ölçüde fiyatlanmış görünüyor.
-11.11 18:11 N  GPT  score -0.55 conf 0.72: Beklentiden yüksek enflasyon ve Fed’in faiz artırımı olasılığındaki yükseliş, dolar ile reel getirileri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı jeopolitik riskler güvenli liman talebini artırabilir, ancak başlıkların bir kısmı dolaylı veya belirsiz olduğundan bu etki 
 11.11 18:21 B6  karar turu: Claude «Piyasa güçlü açılışın ardından yatay konsolidasyonda; jeopolitik riskler var, ancak TSLA'da göreceli güç öne çıkıyor.» / GPT «Endekslerde gün içi yükseliş ivmesi zayıflarken, dört kat kaldıraç altında seçici davranıp NVDA'daki şirkete özgü negatif ayrışmayı tercih ediyorum.»
 11.11 18:24 N  NEWS (11 new) score -0.45 conf 0.60: ABD enflasyonu beklentilerin üzerinde geldi ve Fed faiz artırımı beklentileri yükseldi; reel getiriler ve doların güçlenmesi altın için baskı oluşturuyor. Jeopolitik haberler (Rusya-Ukrayna görüşmeleri sonuçsuz, İran savaş finansmanı tartışması) güvenli liman talebini destekleyecek nitelikte değil; bu nedenle genel etki altın açısından negatif, ancak bir kısmı zaten fiyatlandığı için güven orta düzeyde.
 11.11 18:24 N  GPT  score -0.75 conf 0.78: Beklentiden yüksek ve yapışkan ABD enflasyonu Fed’in daha sıkı politika izleme olasılığını artırıyor; yükselen reel getiriler ve güçlü dolar kısa vadede altını baskılıyor. Rusya-Ukrayna görüşmelerinde ilerleme olmaması sınırlı güvenli liman desteği sağlayabilir, ancak faiz etkisi daha ağır basıyor.
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 18:57 B6  karar turu: Claude «ABD-Çin gerginliğinde yumuşama beklentisi ve teknoloji liderliğiyle piyasa risk iştahlı, Nasdaq S&P'yi geride bırakıyor.» / GPT «Teknoloji öncülüğünde yükseliş sürüyor ancak hareketlerin önemli kısmı gerçekleştiğinden, 4 kat kaldıraçla yeni girişlerde seçici kalmak gerekiyor.»
 11.11 19:00 N  NEWS (7 new) score -0.50 conf 0.60: Haberlerin çoğu gürültü (savaş anıları, veteran hikayeleri), ancak piyasayı etkileyen başlıklar ağırlıklı olarak Fed'in faiz artırımı beklentilerini ve sıcak ABD enflasyonunu gösteriyor; reel getiriler yükselirken dolar güçleniyor. Trump'ın İran savaşının "askeri olarak esasen bittiğini" söylemesi de jeopolitik güvenli liman talebini zayıflatıyor. Bu nedenler altın için kısa vadede baskılayıcı; ancak bazı haberlerin eski olabilmesi ve Standard Chartered'ın yükseliş tahmini gibi destekleyici unsurlar güveni sınırlıyor.
 11.11 19:00 N  GPT  score -0.45 conf 0.68: Sıcak ABD enflasyonu, Fed’in daha şahin olabileceği beklentisini ve dolar/gerçek faizleri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının askeri açıdan «fiilen sona erdiği» açıklaması güvenli liman talebini de azaltabilir; ancak bölgedeki gerilim haberleri bu etkiyi kısmen d
+11.11 19:10 B6  karar turu: Claude «CoreWeave kaynaklı AI rallisi ve döngüsel hisselerin liderliğiyle piyasa risk iştahlı, ancak öğle saatlerinde momentum hafifçe soğuyor.» / GPT «Teknoloji öncülüğünde risk iştahı güçlü, ancak son geri çekilme ve 1:4 kaldıraç nedeniyle geniş çaplı alım yerine seçici momentum işlemi tercih ediyorum.»
+11.11 19:10 B6  ALIŞ NVDA 653 adet ≈ 114,360 $ (1:4) @ 175.13 (TP 177.76, SL 173.38; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
