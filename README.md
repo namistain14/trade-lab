@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 19:34 (İstanbul)
+> Son güncelleme: 11.11.2026 19:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %42.1 |
 | Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,801.98 $** (başlangıç 5,000 $, -198.02 $ / %-3.96)
+**Hesap değeri: 4,797.87 $** (başlangıç 5,000 $, -202.13 $ / %-4.04)
 
 Açık pozisyonlar: PAXGUSDT short @ 4006.90 (TP 3994.88 / SL 4014.91)
 
-Son haber analizi (11.11 19:24): Claude puan **-0.30**, güven 0.40 — Sıcak ABD enflasyonu, Fed'de yarım puanlık faiz artışı beklentilerini ve yükselen reel getirileri öne çıkarıyor; bu, dolar güçlenmesiyle birlikte altın için baskı yaratıyor. Trump'ın İran savaşının "esasen bitti" demesi de jeopolitik güvenli liman talebini azaltıyor; ancak CPI ve Fed haberlerinin büyük kısmı zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde.
+Son haber analizi (11.11 19:36): Claude puan **-0.25**, güven 0.35 — Yeni başlıkların çoğu Veteran Günü ve savaş anma haberleri olup altın fiyatıyla ilgisi yok. Fiyatı etkileyebilecek unsurlar hafif baskıcı: enflasyonun inatçı kalması, tahvil faizlerinin yükselmesi ve Fed'in sıkı duruşuna dair yorumlar (Barkin, Fed başkanı) reel faiz beklentilerini yukarı çekip altın için olumsuz. Suudi petrol üretimindeki artış enflasyon baskısını azaltabilir ama etkisi sınırlı; savaş kaynaklı güvenli liman talebine dair yeni bir tırmanış yok.
 
-GPT (gpt-6-luna): puan **-0.38**, güven 0.62 — Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı oluşturuyor. İran savaşının etkili biçimde sona erdiği yönündeki açıklama ve Rusya-Ukrayna esir takası güvenli liman talebini sınırlayabilir; çatışma haberleri ise karışık.
+GPT (gpt-6-luna): puan **-0.05**, güven 0.22 — Yeni başlıkların çoğu altın açısından önemsiz; Suudi petrol üretimindeki artış enflasyon baskısını azaltabilirken, sıcak enflasyon ve Fed’in mücadeleyi sürdürmesi gerektiği yönündeki haberler ters yönde etkiliyor. Kısa vadeli net sinyal zayıf ve hafif aşağı yönlü.
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,027.71 $** (başlangıç 100,000 $, +15027.71 $ / %+15.03)
+**Hesap değeri: 115,043.56 $** (başlangıç 100,000 $, +15043.56 $ / %+15.04)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 18:45 B6  karar turu: Claude «Piyasa teknoloji ve Nvidia toparlanmasıyla pozitif seyrediyor ancak Çin ve İran kaynaklı manşet riskleri temkin gerektiriyor.» / GPT «Teknoloji öncülüğünde yön yukarı olsa da yükselişleri kovalamadan seçici kalmak ve 1:4 kaldıraçta toplam ilişkili pozisyon riskini sınırlamak gerekiyor.»
-11.11 18:45 B6  ALIŞ QQQ 166 adet ≈ 114,414 $ (1:4) @ 689.24 (TP 699.58, SL 682.35; ikisi de hemfikir, güven 0.50)
 11.11 18:48 N  NEWS (6 new) score -0.50 conf 0.60: Sıcak ABD enflasyonu, reel faizlerin yükselmesi ve Fed'in yarım puanlık faiz artırımı beklentisi, doların güçlenmesiyle birlikte altın için baskılayıcı bir tablo oluşturuyor. Trump'ın İran savaşının askeri olarak "fiilen bitti" demesi jeopolitik güvenli liman talebini de azaltıyor; İran'daki gölge savaş haberleri ise sınırlı bir destek sağlıyor. Enflasyon haberleri büyük ölçüde fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 11.11 18:48 N  GPT  score -0.65 conf 0.70: Sıcak enflasyon ve Fed’in daha büyük faiz artışı ihtimalinin güçlenmesi dolar ile reel getirileri destekleyerek altın üzerinde baskı kuruyor. İran savaşıyla ilgili güvenli liman haberleri karışık; Trump’ın savaşın fiilen bittiği açıklaması bu desteği sınırlıyor.
 11.11 18:57 B6  karar turu: Claude «ABD-Çin gerginliğinde yumuşama beklentisi ve teknoloji liderliğiyle piyasa risk iştahlı, Nasdaq S&P'yi geride bırakıyor.» / GPT «Teknoloji öncülüğünde yükseliş sürüyor ancak hareketlerin önemli kısmı gerçekleştiğinden, 4 kat kaldıraçla yeni girişlerde seçici kalmak gerekiyor.»
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 19:24 N  NEWS (7 new) score -0.30 conf 0.40: 
 11.11 19:24 N  GPT  score -0.38 conf 0.62: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı oluşturuyor. İran savaşının etkili biçimde sona erdiği yönündeki açıklama ve Rusya-Ukrayna esir takası güvenli liman talebini sınırlayabilir; çatışma haberleri ise karışık.
 11.11 19:34 B6  karar turu: Claude «CoreWeave sonuçlarıyla yapay zeka rallisi piyasayı yukarı taşıyor, ancak hareketin büyük kısmı gerçekleşti ve öğleden sonra konsolidasyon olası.» / GPT «Genel piyasa ve teknoloji hisseleri güçlü kalırken yeni alımlarda yükselişi kovalamamak, Tesla'daki göreli zayıflığı ise kısa vadeli satış fırsatı olarak değerlendirmek uygun.»
+11.11 19:36 N  NEWS (23 new) score -0.25 conf 0.35: Yeni başlıkların çoğu Veteran Günü ve savaş anma haberleri olup altın fiyatıyla ilgisi yok. Fiyatı etkileyebilecek unsurlar hafif baskıcı: enflasyonun inatçı kalması, tahvil faizlerinin yükselmesi ve Fed'in sıkı duruşuna dair yorumlar (Barkin, Fed başkanı) reel faiz beklentilerini yukarı çekip altın için olumsuz. Suudi petrol üretimindeki artış enflasyon baskısını azaltabilir ama etkisi sınırlı; savaş kaynaklı güvenli liman talebine dair yeni bir tırmanış yok.
+11.11 19:36 N  GPT  score -0.05 conf 0.22: Yeni başlıkların çoğu altın açısından önemsiz; Suudi petrol üretimindeki artış enflasyon baskısını azaltabilirken, sıcak enflasyon ve Fed’in mücadeleyi sürdürmesi gerektiği yönündeki haberler ters yönde etkiliyor. Kısa vadeli net sinyal zayıf ve hafif aşağı yönlü.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
