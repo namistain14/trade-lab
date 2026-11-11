@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    5000.0
-   ],
-   [
     1793904634,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794421380,
+    5000.0
+   ],
+   [
+    1794421552,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    4868.5
-   ],
-   [
     1793904634,
     4868.5
    ],
@@ -27085,43 +27081,39 @@
    [
     1794421380,
     4868.5
+   ],
+   [
+    1794421552,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
+   "score": -0.35,
    "confidence": 0.5,
-   "reason": "Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz gerilimi, ABD \u00fcslerine tehdit) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak s\u0131cak enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolar\u0131n 19 ayl\u0131k zirvesi daha bask\u0131n oldu\u011fu i\u00e7in k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131 daha olas\u0131.",
+   "reason": "Dolar endeksi y\u0131ll\u0131k zirveyi test ederken ve s\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltirken alt\u0131n \u00fczerinde bask\u0131 olu\u015fuyor; \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ise g\u00fcvenli liman talebini destekliyor ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki k\u0131sa vadede hafif negatif.",
    "n": 45,
-   "ts": 1794420833577,
-   "new_headlines": 9,
+   "ts": 1794421552542,
+   "new_headlines": 11,
    "key_events": [
-    "Dolar 19 ayl\u0131k zirvede; Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor",
-    "S\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltti",
-    "\u0130ran sava\u015f\u0131nda gerilim art\u0131yor; ABD \u00fcslerine tehdit, H\u00fcrm\u00fcz belirsizli\u011fi"
+    "Dolar endeksi (DXY) y\u0131ll\u0131k zirveye yak\u0131n; FXEmpire alt\u0131n d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc dolar g\u00fcc\u00fcne ba\u011fl\u0131yor",
+    "S\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltti; Fed beklentileri s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde",
+    "\u0130ran sava\u015f\u0131 ve Hormuz gerilimi s\u00fcr\u00fcyor ancak g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131 kal\u0131yor"
    ],
    "gpt": {
-    "score": -0.15,
-    "confidence": 0.42,
-    "reason": "\u0130ran ve H\u00fcrm\u00fcz Bo\u011faz\u0131 \u00e7evresindeki gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n yeni zirvesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 ve hafif negatif g\u00f6r\u00fcn\u00fcyor.",
+    "score": -0.42,
+    "confidence": 0.68,
+    "reason": "Dolar endeksinin y\u0131l\u0131n en y\u00fcksek seviyesine \u00e7\u0131kmas\u0131 ve alt\u0131n\u0131n dolar g\u00fc\u00e7lenirken gerilemesi, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran ve H\u00fcrm\u00fcz Bo\u011faz\u0131 kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
     "key_events": [
-     "\u0130ran H\u00fcrm\u00fcz\u2019\u00fcn sava\u015f \u00f6ncesi duruma d\u00f6nmeyece\u011fini s\u00f6yledi",
-     "Rusya-Ukrayna g\u00f6r\u00fc\u015fmeleri anla\u015fma olmadan sona erdi",
-     "Dolar zirvede; piyasalarda Fed faiz art\u0131r\u0131m\u0131 beklentisi"
+     "Dolar endeksi y\u0131l\u0131n zirvesinde",
+     "Alt\u0131n dolar\u0131n g\u00fcc\u00fcyle geriliyor",
+     "\u0130ran ve H\u00fcrm\u00fcz kaynakl\u0131 riskler s\u00fcr\u00fcyor"
     ],
     "model": "gpt-6-luna"
    },
-   "score_placeholder": "none"
+   "score_placeholder": "none",
+   "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1793921460360,
-    "score": 0.1,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 12,
-    "gpt_score": 0.35,
-    "gpt_confidence": 0.48
-   },
    {
     "ts": 1793922179991,
     "score": 0.4,
@@ -29812,63 +29804,70 @@
     "new": 9,
     "gpt_score": -0.15,
     "gpt_confidence": 0.42
+   },
+   {
+    "ts": 1794421552542,
+    "score": -0.35,
+    "confidence": 0.5,
+    "reason": "Dolar endeksi y\u0131ll\u0131k zirveyi test ederken ve s\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltirken alt\u0131n \u00fczerinde bask\u0131 olu\u015fuyor; \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ise g\u00fcvenli liman talebini destekliyor ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki k\u0131sa vadede hafif negatif.",
+    "new": 11,
+    "gpt_score": -0.42,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-11",
-   "n": 54
+   "n": 55
   },
   "news_seen": [
+   "On this day: Armistice agreement to end World War I signed - The Jerusalem Post",
+   "Bells rang to honor veterans who served in World War I - WUSA9",
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Drops As Dollar Tests Yearly Highs - FXEmpire",
+   "Trump\u2019s Legacy War: The Limits of American Power in Iran - Open Canada",
+   "Missing 11-month-old baby found buried alive in a crate in South Carolina",
    "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+   "Trump hijacks Veterans Day speech to make case for his Iran war \u2014 and 250-foot arch - The Independent",
    "Tubi Is Winning Hollywood\u2019s War for YouTube Creators. How? - Like & Subscribe from Natalie Jarvey",
    "Poundland founder writes to King for help",
-   "Turkey's president calls the war in Gaza an 'ecocide' at the UN climate summit - New Haven Register",
    "Brad Friedel on Shrewsbury Town takeover",
    "Netanyahu, Trump have screaming phone call over Iran war: Report - Washington Times",
+   "Turkey\u2019s president calls the war in Gaza an \u2018ecocide\u2019 at the UN climate summit - The Seattle Times",
+   "Trump links 1983 Beirut bombing to Iran war in Veterans Day remarks - Washington Times",
    "Swiss Franc slides nearly 1% as US Dollar hits fresh yearly high - FXStreet",
    "Trump claims US has already won the Iran war, now wants \u2018total victory\u2019 - The Times of Israel",
    "Iran War Day 257: Iran Threatens U.S. Bases in Europe - The American Conservative",
    "Spain sees widespread disruption in first general strike for 14 years",
+   "Bill Skarsgard tries to one-up Nicolas Cage in 'Lords of War' teaser - upi",
    "UW and CSU Border War to pause for 2027 season after 81 consecutive years - Oil City News",
    "Why does Pete Hegseth call himself secretary of war? \u2018Dopey but dangerous\u2019 wouldn\u2019t fit on a badge | Emma Brockes - The Guardian",
    "Strait of Hormuz will not return to pre-war status, Iran\u2019s Ghalibaf says - The Times of Israel",
    "What a Hormuz Endgame Could Actually Look Like - Foreign Policy",
    "Stocks up but pound flags against dollar strength - Yahoo Finance UK",
+   "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
    "US Credit Card Debt Hits Record $1.28 Trillion as October Inflation Runs Hot - IndexBox",
    "Opinion | The War or the Wallet: What Drove Voters? - WSJ",
    "Iran\u2019s War Machine Faces a Supply Crisis Amid U.S. Pressure - \u0627\u0644\u062d\u0631\u0629",
    "Veterans tour Washington war memorials using AI glasses - Gray TV",
-   "US Dollar Index Price Forecast: DXY hits fresh yearly high after bullish flag breakout - FXStreet",
+   "US Dollar Index Price Forecast: DXY hits yearly high after bullish flag breakout - FXStreet",
    "Voluntary Sanctions Disclosures in the United States and United Kingdom: Similar Objectives, Differe - Clyde & Co",
    "Remembering World War II veteran, Maj. Jim Rogan - Washington Examiner",
    "Veteran sheriff reflects on memories of his time during war - WREG.com",
    "Gold Price Today on November 11, 2026 - USA Today",
-   "Iran's top negotiator says Tehran has no desire for war to continue - Middle East Eye",
    "Why the US Dollar's rally isn't as strong as it looks - FXStreet",
    "Is The Iran War 'Effectively Over' As Trump Claims? - Forbes",
-   "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
    "Sacha Gervasi Pic About Iron Maiden's Frontman In War-Torn Sarajevo Lands Scribe Arash Amel - Deadline",
    "Workers across Spain stage first general strike in 14 years",
    "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "Hot Inflation Data Hammers Yields And Sends Nvidia (NASDAQ: NVDA), Microsoft (NASDAQ: MSFT) Sliding As Anthropic Eyes IPO Valuation - Foreign Policy Journal",
    "New Zealand Dollar struggles as Fed, RBNZ rate paths diverge - FXStreet",
-   "WATCH LIVE: Texas Panhandle War Memorial to host 27th annual Veterans Day ceremony - KVII",
    "Watch Iran War Leaves Europe Vulnerable To Harsh Winter - Bloomberg.com",
    "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
    "Vietnam War refugee unveils a memorial to honor veterans in Seattle - Yakima Herald-Republic",
-   "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-   "US Treasury Futures Retreat as Markets See More Fed Hikes - Bloomberg.com",
-   "U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory - CBS News",
-   "Dollar Rises to 19-Month High on Fed Rate-Hike Bets - WSJ",
-   "Springfield Civil War general and former House Speaker to be inducted into Ohio Veterans Hall of Fame - Springfield News-Sun",
-   "Veterans tour war memorials during Veterans Day week - www.localnewslive.com",
-   "Veterans tour war memorials during Veterans Day week - WSFA",
-   "Veterans tour war memorials during Veterans Day week - WIBW"
+   "US Equity Futures Rise as AI Enthusiasm Counters Hot Inflation - Bloomberg.com",
+   "Indonesia's vice president resigns amid signs ruling alliance is fraying"
   ]
  },
  "log": [
-  "11.11 02:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgv89uyzAdZEDs5Au7h9G'}",
-  "11.11 02:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgv8P7ioBDZDi5CSbXBCX'}",
   "11.11 02:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgv8cMvg9DjatcLTrRj2D'}",
   "11.11 02:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgv8qjmweTajrXgTzBYwE'}",
   "11.11 02:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgv94wVVoWCfFNYekwoqc'}",
@@ -30166,7 +30165,9 @@
   "11.11 21:10 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen risk i\u015ftah\u0131 s\u00fcr\u00fcyor ancak endeksler \u00f6\u011fleden sonra dar bantta konsolide oluyor ve yeni bir itici g\u00fc\u00e7 g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndekslerde g\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015fe ra\u011fmen son saat momentumu zay\u0131f; mevcut seviyelerde kald\u0131ra\u00e7la y\u00fckseli\u015fi kovalamak cazip de\u011fil.\u00bb",
   "11.11 21:13 N  NEWS (9 new) score -0.30 conf 0.50: Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz gerilimi, ABD \u00fcslerine tehdit) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak s\u0131cak enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolar\u0131n 19 ayl\u0131k zirvesi daha bask\u0131n oldu\u011fu i\u00e7in k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131 daha olas\u0131.",
   "11.11 21:13 N  GPT  score -0.15 conf 0.42: \u0130ran ve H\u00fcrm\u00fcz Bo\u011faz\u0131 \u00e7evresindeki gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n yeni zirvesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 ve hafif negatif g\u00f6r\u00fcn\u00fcyor.",
-  "11.11 21:23 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen yapay zeka rallisi piyasay\u0131 risk i\u015ftahl\u0131 tutuyor, ancak endeksler g\u00fcn i\u00e7i zirveye yak\u0131n ve son saatte ivme zay\u0131flad\u0131.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f e\u011filimi korunuyor ancak g\u00fcnl\u00fck hareketlerin b\u00fcy\u00fckl\u00fc\u011f\u00fc ve taze \u015firket haberlerinin azl\u0131\u011f\u0131, 4 kat kald\u0131ra\u00e7la hareketi kovalama riskini art\u0131r\u0131yor.\u00bb"
+  "11.11 21:23 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen yapay zeka rallisi piyasay\u0131 risk i\u015ftahl\u0131 tutuyor, ancak endeksler g\u00fcn i\u00e7i zirveye yak\u0131n ve son saatte ivme zay\u0131flad\u0131.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f e\u011filimi korunuyor ancak g\u00fcnl\u00fck hareketlerin b\u00fcy\u00fckl\u00fc\u011f\u00fc ve taze \u015firket haberlerinin azl\u0131\u011f\u0131, 4 kat kald\u0131ra\u00e7la hareketi kovalama riskini art\u0131r\u0131yor.\u00bb",
+  "11.11 21:25 N  NEWS (11 new) score -0.35 conf 0.50: Dolar endeksi y\u0131ll\u0131k zirveyi test ederken ve s\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltirken alt\u0131n \u00fczerinde bask\u0131 olu\u015fuyor; \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ise g\u00fcvenli liman talebini destekliyor ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki k\u0131sa vadede hafif negatif.",
+  "11.11 21:25 N  GPT  score -0.42 conf 0.68: Dolar endeksinin y\u0131l\u0131n en y\u00fcksek seviyesine \u00e7\u0131kmas\u0131 ve alt\u0131n\u0131n dolar g\u00fc\u00e7lenirken gerilemesi, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran ve H\u00fcrm\u00fcz Bo\u011faz\u0131 kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    4963.78
-   ],
-   [
     1793904634,
     4963.78
    ],
@@ -42350,6 +42347,10 @@
    ],
    [
     1794421380,
+    4963.78
+   ],
+   [
+    1794421552,
     4963.78
    ]
   ],
@@ -42465,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    4975.18
-   ],
-   [
     1793904634,
     4975.18
    ],
@@ -54462,6 +54459,10 @@
    ],
    [
     1794421380,
+    4975.18
+   ],
+   [
+    1794421552,
     4975.18
    ]
   ],
@@ -54547,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    4993.28
-   ],
-   [
     1793904634,
     4993.28
    ],
@@ -66544,6 +66541,10 @@
    ],
    [
     1794421380,
+    4993.28
+   ],
+   [
+    1794421552,
     4993.28
    ]
   ]
@@ -66754,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793904428,
-    4969.22
-   ],
-   [
     1793904634,
     4969.22
    ],
@@ -78751,6 +78748,10 @@
    ],
    [
     1794421380,
+    4969.22
+   ],
+   [
+    1794421552,
     4969.22
    ]
   ],
@@ -80450,10 +80451,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793904428,
-    4966.06
-   ],
    [
     1793904634,
     4966.06
@@ -92449,6 +92446,10 @@
    [
     1794421380,
     4826.86
+   ],
+   [
+    1794421552,
+    4824.16
    ]
   ],
   "news_calls": {
@@ -92656,7 +92657,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 113973.859924,
+   "balance": 113973.864924,
    "start": 100000.0,
    "positions": [
     {
@@ -92671,7 +92672,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: China Renaissance'\u0131n 425$ hedefli y\u00fckseltmesi sonras\u0131 g\u00fc\u00e7l\u00fc momentumla g\u00fcn i\u00e7i d\u00f6n\u00fc\u015f ya\u015fand\u0131. | GPT 0.6: Al tavsiyesine y\u00fckseltme ve 425 dolar hedefiyle desteklenen kesintisiz y\u00fckseli\u015f, son s\u0131\u00e7ramaya ra\u011fmen s\u0131n\u0131rl\u0131 bir devam avantaj\u0131 sunuyor.",
-     "cur": 355.2
+     "cur": 355.05
     },
     {
      "id": "7da8b8d5-c158-4fb4-b921-d06b3ec500a9",
@@ -92685,7 +92686,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: CoreWeave sonu\u00e7lar\u0131 AI rallisini canland\u0131rd\u0131 ve skandal sonras\u0131 dip al\u0131m\u0131 g\u00fc\u00e7l\u00fc; son barlardaki hafif geri \u00e7ekilme ana momentumu bozmad\u0131. | GPT 0.62: CoreWeave kaynakl\u0131 taze sekt\u00f6r deste\u011fi ve g\u00fc\u00e7l\u00fc saatlik momentum, \u00e7eli\u015fkili \u015firket haberlerine ra\u011fmen zirveden geri \u00e7ekilmede al\u0131m\u0131 deste",
-     "cur": 176.92
+     "cur": 176.915
     },
     {
      "id": "93d87681-b5eb-438b-870e-8e1f7f9da021",
@@ -92699,7 +92700,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Teknoloji liderli\u011finde istikrarl\u0131 y\u00fckseli\u015f trendi s\u00fcr\u00fcyor ve fiyat g\u00fcn i\u00e7i zirvede kapan\u0131yor. | GPT 0.62: Son kapan\u0131\u015flardaki y\u00fckselen dipler ve h\u0131zlanan teknoloji al\u0131mlar\u0131 k\u0131sa vadeli devam\u0131 destekliyor.",
-     "cur": 695.05
+     "cur": 695.095
     },
     {
      "id": "dce14ffc-2095-4dff-8fd7-4ca2a0eb8cac",
@@ -92713,7 +92714,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks son bir saattir istikrarl\u0131 y\u00fckseliyor, CoreWeave kaynakl\u0131 AI rallisi ve d\u00f6ng\u00fcsel sekt\u00f6r liderli\u011fi momentumu destekliyor. | GPT 0.61: Son be\u015f dakikal\u0131k kapan\u0131\u015flardaki kademeli y\u00fckseli\u015f ve geni\u015f piyasa g\u00fcc\u00fc, s\u0131n\u0131rl\u0131 bir devam avantaj\u0131 sunuyor.",
-     "cur": 762.01
+     "cur": 761.99
     }
    ],
    "trades": [
@@ -93350,18 +93351,14 @@
    ],
    "day": {
     "date": "2026-11-11",
-    "pnl": 5480.75,
+    "pnl": 5436.24,
     "trades": 1,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 117157.22
+   "equity": 117112.71
   },
   "equity_curve": [
-   [
-    1793904428,
-    107237.61
-   ],
    [
     1793904634,
     107207.9
@@ -105357,6 +105354,10 @@
    [
     1794421380,
     117157.22
+   ],
+   [
+    1794421552,
+    117112.71
    ]
   ],
   "open": {
@@ -105584,10 +105585,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793904428,
-    5066.43
-   ],
    [
     1793904634,
     5066.43
@@ -117582,6 +117579,10 @@
    ],
    [
     1794421380,
+    4876.96
+   ],
+   [
+    1794421552,
     4876.96
    ]
   ],
