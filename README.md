@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 21:19 (İstanbul)
+> Son güncelleme: 11.11.2026 21:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,824.60 $** (başlangıç 5,000 $, -175.40 $ / %-3.51)
+**Hesap değeri: 4,826.86 $** (başlangıç 5,000 $, -173.14 $ / %-3.46)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,802.89 $** (başlangıç 100,000 $, +16802.89 $ / %+16.80)
+**Hesap değeri: 117,157.22 $** (başlangıç 100,000 $, +17157.22 $ / %+17.16)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 20:31 B5  SHORT gold 25000 USD x10 @ 3997.50 (TP 3985.51, SL 4005.50; news -0.30)
 11.11 20:34 B6  karar turu: Claude «CoreWeave sonuçlarıyla canlanan yapay zeka rallisi ve ABD-Çin yumuşaması piyasayı yukarı taşıyor, teknoloji ağırlıklı risk iştahı öğleden sonra da sürebilir.» / GPT «Endekslerde yukarı yön korunuyor; ancak gün içindeki güçlü yükseliş ve mevcut teknoloji ağırlığı, dört kat kaldıraçta yeni pozisyonun küçük tutulmasını gerektiriyor.»
 11.11 20:37 N  NEWS (7 new) score -0.40 conf 0.50: Dolar endeksi yılın zirvesine yükseliyor ve sıcak enflasyon verisi tahvil faizlerini yukarı itiyor; bu da Fed sıkılaşma beklentilerini destekleyip altın için baskı yaratıyor. Iran savaşının "etkili biçimde bitti" söylemi ve Bessent'in tehdit nedeniyle taşınması gibi jeopolitik haberler sınırlı bir güvenli liman talebi sağlasa da, ana etki negatif kalıyor; haberlerin çoğu ise alakasız.
 11.11 20:37 N  GPT  score -0.35 conf 0.55: Dolar endeksinin yeni zirveye çıkması ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı oluşturuyor. İran kaynaklı güvenlik haberleri güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı karışık.
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 21:10 B6  karar turu: Claude «CoreWeave sonuçlarıyla gelen risk iştahı sürüyor ancak endeksler öğleden sonra dar bantta konsolide oluyor ve yeni bir itici güç görünmüyor.» / GPT «Endekslerde güçlü günlük yükselişe rağmen son saat momentumu zayıf; mevcut seviyelerde kaldıraçla yükselişi kovalamak cazip değil.»
 11.11 21:13 N  NEWS (9 new) score -0.30 conf 0.50: Jeopolitik riskler (İran savaşı, Hürmüz gerilimi, ABD üslerine tehdit) altın için güvenli liman talebini destekliyor, ancak sıcak enflasyon verisi, Fed faiz artırımı beklentileri ve doların 19 aylık zirvesi daha baskın olduğu için kısa vadede altın üzerinde baskı yaratması daha olası.
 11.11 21:13 N  GPT  score -0.15 conf 0.42: İran ve Hürmüz Boğazı çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak doların yeni zirvesi ve Fed’in faiz artıracağı beklentisi altın üzerinde baskı yaratıyor. Haber akışı çelişkili olduğundan kısa vadeli net etki sınırlı ve hafif negatif görünüyor.
+11.11 21:23 B6  karar turu: Claude «CoreWeave sonuçlarıyla gelen yapay zeka rallisi piyasayı risk iştahlı tutuyor, ancak endeksler gün içi zirveye yakın ve son saatte ivme zayıfladı.» / GPT «Endekslerde yükseliş eğilimi korunuyor ancak günlük hareketlerin büyüklüğü ve taze şirket haberlerinin azlığı, 4 kat kaldıraçla hareketi kovalama riskini artırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
