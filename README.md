@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 17:35 (İstanbul)
+> Son güncelleme: 11.11.2026 17:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %100.0 | %42.1 |
 | Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,748.34 $** (başlangıç 5,000 $, -251.66 $ / %-5.03)
+**Hesap değeri: 4,742.40 $** (başlangıç 5,000 $, -257.60 $ / %-5.15)
+
+Açık pozisyonlar: PAXGUSDT short @ 4006.90 (TP 3994.88 / SL 4014.91)
 
 Son haber analizi (11.11 17:35): Claude puan **-0.50**, güven 0.60 — Beklentilerden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirerek reel faizleri yukarı itiyor; bu altın için net olumsuz. Gold'un 4.050 doların altında zorlanması ve Goldman ile Yardeni'nin artırım tahminleri bu baskıyı teyit ediyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki faiz kanalının gerisinde kalıyor. Güçlü dolar ve Avro'nun Mayıs 2025'ten bu yana en düşük seviyesi de altını baskılıyor; öte yandan "Depreciating Dollar" gibi zıt başlıklar ve CPI sonrası toparlanma sinyalleri belirsizliği artırıyor.
 
@@ -72,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,347.64 $** (başlangıç 100,000 $, +12347.64 $ / %+12.35)
+**Hesap değeri: 111,761.53 $** (başlangıç 100,000 $, +11761.53 $ / %+11.76)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA short @ 174.78 (TP 171.26 / SL 175.61)
 
@@ -89,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 16:34 N  GPT  score -0.55 conf 0.66: Sıcak enflasyon ve Fed’in daha fazla faiz artışını değerlendirmesi, dolar ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. OPEC+ üretim artışı ile Rusya-Ukrayna esir takası kısmen dengeleyici olsa da bunlar yakın vadede baskın görünmüyor; faiz haberleri büyük ölçüde aynı temanın 
 11.11 16:47 N  NEWS (11 new) score -0.60 conf 0.70: Sıcak enflasyon verisi sonrası Fed'in faiz artırımına yakınlaştığı ve doların güçlendiği (rate-hike bahisleri) yeni haberlerle net biçimde görülüyor; bu reel faiz ve dolar kanalıyla altı baskılar. Ukrayna'daki müzakereler ve jeopolitik gerilim ise güvenli liman talebini sınırlı artırıyor; ayrıca bazı haberler (altın fiyatlarındaki düşüş) zaten fiyatlanmış durumda.
 11.11 16:47 N  GPT  score -0.65 conf 0.78: Sıcak enflasyon verisi ve Fed’in faiz artıracağına dair güçlenen beklentiler doları ve tahvil getirilerini destekleyerek altını kısa vadede baskılıyor. Rusya-Ukrayna görüşmelerinde ilerleme olmaması sınırlı güvenli liman talebi yaratabilir, ancak ana etkiyi dengelemesi zor.
 11.11 16:59 N  NEWS (13 new) score -0.45 conf 0.60: Sıcak ABD enflasyon verisi, Fed'in faiz artırımı beklentilerini güçlendirdi, doların yükselmesi ve tahvil satışı altın için 1-4 saat içinde baskı oluşturuyor. Hormuz gerilimi ve jeopolitik riskler kısmi bir toparlanma sağlayabilir, bu nedenle güven orta düzeyde tutuldu.
@@ -104,6 +105,7 @@ Son işlemler:
 11.11 17:33 B6  ALIŞ AAPL 316 adet ≈ 111,482 $ (1:4) @ 352.79 (TP 358.08, SL 349.26; ikisi de hemfikir, güven 0.55)
 11.11 17:35 N  NEWS (18 new) score -0.50 conf 0.60: Beklentilerden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirerek reel faizleri yukarı itiyor; bu altın için net olumsuz. Gold'un 4.050 doların altında zorlanması ve Goldman ile Yardeni'nin artırım tahminleri bu baskıyı teyit ediyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu etki faiz kanalının gerisinde kalıyor. Güçlü dolar ve Avro'nun Mayıs 2025'ten bu yana en düşük seviyesi de altını baskılıyor; öte yandan "Depreciating Dollar" gibi zıt başlıklar ve CPI sonrası toparlanma sinyalleri belirsizliği artırıyor.
 11.11 17:35 N  GPT  score -0.35 conf 0.65: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı beklentilerini ve doları güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor; altının 4.050 doların altında zorlanması da bunu destekliyor. İran ve Hürmüz kaynaklı gerilim güvenli liman talebiyle düşüşü sınırlayabilir, bu nedenle görünüm temkinli
+11.11 17:38 B5  SHORT gold 25000 USD x10 @ 4006.90 (TP 3994.88, SL 4014.91; news -0.42)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
