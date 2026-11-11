@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    5000.0
-   ],
-   [
     1793909009,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794425558,
+    5000.0
+   ],
+   [
+    1794425756,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    4868.5
-   ],
-   [
     1793909009,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794425558,
+    4868.5
+   ],
+   [
+    1794425756,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "11.11 03:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvBrXpyYizDbtQGz5Hcc'}",
   "11.11 03:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvC5uaHaaukKHT7xrmmc'}",
   "11.11 03:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvCK4sFB3ENmXmqwApst'}",
   "11.11 03:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvCYLRz61YLDPFQUKZ4k'}",
@@ -30167,7 +30166,8 @@
   "11.11 22:14 N  GPT  score -0.58 conf 0.66: Dolar\u0131n yeni zirvelere y\u00f6nelmesi ve y\u00fcksek ABD getirilerinin Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirmesi, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n i\u00e7in bask\u0131n bi\u00e7imde olumsuz. \u0130ran sava\u015f\u0131 ve gerilim haberleri g\u00fcvenli liman talebini destekleyebilir; ancak \u00e7o\u011fu haber yeni de\u011fil ve \u015fu anki dolar/faiz bask\u0131s\u0131n\u0131",
   "11.11 22:23 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen g\u00fc\u00e7l\u00fc AI rallisi son saatte, Nvidia/Huang belirsizli\u011fi ve kapan\u0131\u015f \u00f6ncesi k\u00e2r realizasyonuyla hafif\u00e7e so\u011fuyor.\u00bb / GPT \u00abG\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015fe ra\u011fmen son saat sat\u0131\u015f a\u011f\u0131rl\u0131kl\u0131; kapan\u0131\u015fa yaln\u0131zca 37 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik ta\u015f\u0131ma normal seans\u0131 a\u015far ve kald\u0131ra\u00e7l\u0131 pozisyon kapan\u0131\u015f \u00f6ncesinde sonland\u0131r\u0131lmal\u0131d\u0131r.\u00bb",
   "11.11 22:26 N  NEWS (7 new) score -0.40 conf 0.50: Faiz art\u0131\u015f\u0131 beklentileri (Aral\u0131k Fed hike olas\u0131l\u0131\u011f\u0131), y\u00fcksek ABD tahvil getirileri ve y\u0131ll\u0131k zirveye yak\u0131n dolar, alt\u0131 bask\u0131l\u0131yor; FXStreet alt\u0131n haberi 4.000 dolar\u0131n alt\u0131na sarkma g\u00f6steriyor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz gerilimi g\u00fcvenli liman talebini destekliyor ancak piyasa bu jeopolitik riski \u015fu an fiyatlamada geri planda b\u0131rakm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Ba\u015fl\u0131klar \u00e7eli\u015fkili (BigGo \"4.000 \u00fczerinde tutunuyor\"), bu nedenle g\u00fcven orta d\u00fczeyde.",
-  "11.11 22:26 N  GPT  score -0.25 conf 0.45: G\u00fc\u00e7l\u00fc dolar, y\u00fckselen ABD tahvil getirileri ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. Ust-Luga\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak sava\u015f haberlerinin \u00e7o\u011fu tekrarl\u0131 ve etkisi belirsiz oldu\u011fundan g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k."
+  "11.11 22:26 N  GPT  score -0.25 conf 0.45: G\u00fc\u00e7l\u00fc dolar, y\u00fckselen ABD tahvil getirileri ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor. Ust-Luga\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak sava\u015f haberlerinin \u00e7o\u011fu tekrarl\u0131 ve etkisi belirsiz oldu\u011fundan g\u00f6r\u00fcn\u00fcm kar\u0131\u015f\u0131k.",
+  "11.11 22:35 B6  karar turu: Claude \u00abPiyasa CoreWeave kaynakl\u0131 yapay zek\u00e2 rallisiyle g\u00fc\u00e7l\u00fc bir g\u00fcn ge\u00e7irdi ancak son saatte Nvidia/Huang belirsizli\u011fi ve \u0130ran haber ak\u0131\u015f\u0131yla hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; kapan\u0131\u015f \u00f6ncesi yeni pozisyon i\u00e7in net bir avantaj yok.\u00bb / GPT \u00abEndekslerde g\u00fcnl\u00fck g\u00fc\u00e7l\u00fc y\u00fckseli\u015fe ra\u011fmen son saatte momentum zay\u0131fl\u0131yor; kapan\u0131\u015fa 25 dakika kalmas\u0131, 1\u20133 saatlik i\u015flemlerde seans sonras\u0131 likidite v"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    4963.78
-   ],
-   [
     1793909009,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794425558,
+    4963.78
+   ],
+   [
+    1794425756,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    4975.18
-   ],
-   [
     1793909009,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794425558,
+    4975.18
+   ],
+   [
+    1794425756,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    4993.28
-   ],
-   [
     1793909009,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794425558,
+    4993.28
+   ],
+   [
+    1794425756,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793908809,
-    4969.22
-   ],
-   [
     1793909009,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794425558,
+    4969.22
+   ],
+   [
+    1794425756,
     4969.22
    ]
   ],
@@ -80451,10 +80451,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793908809,
-    4966.06
-   ],
    [
     1793909009,
     4966.06
@@ -92450,6 +92446,10 @@
    [
     1794425558,
     4841.97
+   ],
+   [
+    1794425756,
+    4841.91
    ]
   ],
   "news_calls": {
@@ -92657,7 +92657,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 113973.75432400001,
+   "balance": 113973.86072399998,
    "start": 100000.0,
    "positions": [
     {
@@ -92672,7 +92672,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: China Renaissance'\u0131n 425$ hedefli y\u00fckseltmesi sonras\u0131 g\u00fc\u00e7l\u00fc momentumla g\u00fcn i\u00e7i d\u00f6n\u00fc\u015f ya\u015fand\u0131. | GPT 0.6: Al tavsiyesine y\u00fckseltme ve 425 dolar hedefiyle desteklenen kesintisiz y\u00fckseli\u015f, son s\u0131\u00e7ramaya ra\u011fmen s\u0131n\u0131rl\u0131 bir devam avantaj\u0131 sunuyor.",
-     "cur": 355.085
+     "cur": 355.005
     },
     {
      "id": "7da8b8d5-c158-4fb4-b921-d06b3ec500a9",
@@ -92686,7 +92686,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: CoreWeave sonu\u00e7lar\u0131 AI rallisini canland\u0131rd\u0131 ve skandal sonras\u0131 dip al\u0131m\u0131 g\u00fc\u00e7l\u00fc; son barlardaki hafif geri \u00e7ekilme ana momentumu bozmad\u0131. | GPT 0.62: CoreWeave kaynakl\u0131 taze sekt\u00f6r deste\u011fi ve g\u00fc\u00e7l\u00fc saatlik momentum, \u00e7eli\u015fkili \u015firket haberlerine ra\u011fmen zirveden geri \u00e7ekilmede al\u0131m\u0131 deste",
-     "cur": 175.22
+     "cur": 175.06
     },
     {
      "id": "93d87681-b5eb-438b-870e-8e1f7f9da021",
@@ -92700,7 +92700,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Teknoloji liderli\u011finde istikrarl\u0131 y\u00fckseli\u015f trendi s\u00fcr\u00fcyor ve fiyat g\u00fcn i\u00e7i zirvede kapan\u0131yor. | GPT 0.62: Son kapan\u0131\u015flardaki y\u00fckselen dipler ve h\u0131zlanan teknoloji al\u0131mlar\u0131 k\u0131sa vadeli devam\u0131 destekliyor.",
-     "cur": 692.55
+     "cur": 692.41
     },
     {
      "id": "dce14ffc-2095-4dff-8fd7-4ca2a0eb8cac",
@@ -92714,7 +92714,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Endeks son bir saattir istikrarl\u0131 y\u00fckseliyor, CoreWeave kaynakl\u0131 AI rallisi ve d\u00f6ng\u00fcsel sekt\u00f6r liderli\u011fi momentumu destekliyor. | GPT 0.61: Son be\u015f dakikal\u0131k kapan\u0131\u015flardaki kademeli y\u00fckseli\u015f ve geni\u015f piyasa g\u00fcc\u00fc, s\u0131n\u0131rl\u0131 bir devam avantaj\u0131 sunuyor.",
-     "cur": 760.5616
+     "cur": 760.4512
     }
    ],
    "trades": [
@@ -93351,18 +93351,14 @@
    ],
    "day": {
     "date": "2026-11-11",
-    "pnl": 3823.61,
+    "pnl": 3663.43,
     "trades": 1,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115500.08
+   "equity": 115339.9
   },
   "equity_curve": [
-   [
-    1793908809,
-    105536.09
-   ],
    [
     1793909009,
     105982.58
@@ -105358,6 +105354,10 @@
    [
     1794425558,
     115500.08
+   ],
+   [
+    1794425756,
+    115339.9
    ]
   ],
   "open": {
@@ -105408,11 +105408,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794425017879,
+  "last_decision_ms": 1794425739993,
   "view": {
-   "ts": 1794425017879,
-   "claude": "CoreWeave sonu\u00e7lar\u0131yla gelen g\u00fc\u00e7l\u00fc AI rallisi son saatte, Nvidia/Huang belirsizli\u011fi ve kapan\u0131\u015f \u00f6ncesi k\u00e2r realizasyonuyla hafif\u00e7e so\u011fuyor.",
-   "gpt": "G\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015fe ra\u011fmen son saat sat\u0131\u015f a\u011f\u0131rl\u0131kl\u0131; kapan\u0131\u015fa yaln\u0131zca 37 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik ta\u015f\u0131ma normal seans\u0131 a\u015far ve kald\u0131ra\u00e7l\u0131 pozisyon kapan\u0131\u015f \u00f6ncesinde sonland\u0131r\u0131lmal\u0131d\u0131r.",
+   "ts": 1794425739993,
+   "claude": "Piyasa CoreWeave kaynakl\u0131 yapay zek\u00e2 rallisiyle g\u00fc\u00e7l\u00fc bir g\u00fcn ge\u00e7irdi ancak son saatte Nvidia/Huang belirsizli\u011fi ve \u0130ran haber ak\u0131\u015f\u0131yla hafif k\u00e2r sat\u0131\u015f\u0131 g\u00f6r\u00fcl\u00fcyor; kapan\u0131\u015f \u00f6ncesi yeni pozisyon i\u00e7in net bir avantaj yok.",
+   "gpt": "Endekslerde g\u00fcnl\u00fck g\u00fc\u00e7l\u00fc y\u00fckseli\u015fe ra\u011fmen son saatte momentum zay\u0131fl\u0131yor; kapan\u0131\u015fa 25 dakika kalmas\u0131, 1\u20133 saatlik i\u015flemlerde seans sonras\u0131 likidite ve stop emri i\u015fleyi\u015fi risklerini art\u0131r\u0131yor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -105459,11 +105459,11 @@
     "TSLA": {
      "claude": [
       "none",
-      0.58
+      0.35
      ],
      "gpt": [
-      "short",
-      0.58
+      "none",
+      0.74
      ]
     }
    }
@@ -105585,10 +105585,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793908809,
-    5066.43
-   ],
    [
     1793909009,
     5066.43
@@ -117583,6 +117579,10 @@
    ],
    [
     1794425558,
+    4876.96
+   ],
+   [
+    1794425756,
     4876.96
    ]
   ],
