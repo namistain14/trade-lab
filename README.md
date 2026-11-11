@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 21:47 (İstanbul)
+> Son güncelleme: 11.11.2026 21:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,840.78 $** (başlangıç 5,000 $, -159.22 $ / %-3.18)
+**Hesap değeri: 4,845.61 $** (başlangıç 5,000 $, -154.39 $ / %-3.09)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
-Son haber analizi (11.11 21:38): Claude puan **-0.40**, güven 0.50 — Dolar endeksi yıllık zirvesini test ediyor ve piyasalar sıkılaşan (hawkish) Fed'e bahis yapıyor; bu, altın için 1-4 saatlik vadede baskı yaratan bir faktör. Öte yandan İran savaşında de-eskalasyon sinyalleri (Tahran'ın savaşın sürmesini istemediği, Trump'ın savaşın "kazanıldığını" söylemesi) güvenli liman talebini azaltıyor. Haberlerin çoğu (veteran anma haberleri, spor, magazin) fiyatı etkilemeyecek gürültü; bu nedenle güven orta düzeyde.
+Son haber analizi (11.11 21:50): Claude puan **-0.45**, güven 0.60 — Yeni haberlerin ağırlığı altın için negatif: yüksek ABD tahvil getirileri ve Aralık'ta Fed faiz artırımı ihtimalleri altını 4.000 doların altına itti, dolar yıllık zirvelere yakın. İran'a yeni askeri saldırı veya yaptırım ihtimali güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.67 — Doların yılın en yüksek seviyelerine çıkması ve Fed’in daha şahin olacağı beklentisi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran başlıkları jeopolitik risk primi sağlayabilir; ancak savaşın sona erebileceğine dair açıklamalar bu desteği sınırlıyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Yükselen ABD tahvil getirileri, Fed’in faiz artırımı beklentileri ve doların yıllık zirvesi kısa vadede altın üzerinde baskı yaratıyor. İran’a yönelik yeni saldırı veya yaptırım ihtimali güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi sınırlı ve jeopolitik haberler etkisi belirsiz.
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,435.32 $** (başlangıç 100,000 $, +17435.32 $ / %+17.44)
+**Hesap değeri: 117,437.35 $** (başlangıç 100,000 $, +17437.35 $ / %+17.44)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 20:58 B6  karar turu: Claude «CoreWeave sonuçlarıyla teknoloji öncülüğünde güçlü bir risk iştahı var, ancak öğleden sonra momentum yatay seyre döndü ve Nvidia skandalı oynaklık riski taşıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından saatlik momentum zayıflıyor; kaldıraçlı yeni girişlerde hareketi kovalamaktan kaçınmak gerekiyor.»
-11.11 21:01 N  NEWS (9 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi ve Fed faiz artırımı beklentileri, doların yıllık/19 aylık zirvesine çıkmasına ve tahvil getirilerinin yükselmesine yol açıyor; bu da altın için net bir baskı oluşturuyor. İran savaşıyla ilgili haberler güvenli liman talebini bir miktar destekleyebilir, ancak Trump'ın savaşın "fiilen bittiği" yönündeki açıklamaları bu etkiyi sınırlıyor.
 11.11 21:01 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi ve Fed’in daha fazla faiz artırabileceği beklentisi, doların yıllık zirvelere çıkmasıyla birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşına ilişkin söylemler güvenli liman talebini destekleyebilir; ancak çatışmanın sona erebileceği mesajları bu desteği sınırlıyor.
 11.11 21:04 B5  CLOSE short take profit: +69.08 USD
 11.11 21:10 B5  SHORT gold 25000 USD x10 @ 3986.19 (TP 3974.23, SL 3994.16; news -0.59)
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 21:38 N  NEWS (10 new) score -0.40 conf 0.50: Dolar endeksi yıllık zirvesini test ediyor ve piyasalar sıkılaşan (hawkish) Fed'e bahis yapıyor; bu, altın için 1-4 saatlik vadede baskı yaratan bir faktör. Öte yandan İran savaşında de-eskalasyon sinyalleri (Tahran'ın savaşın sürmesini istemediği, Trump'ın savaşın "kazanıldığını" söylemesi) güvenli liman talebini azaltıyor. Haberlerin çoğu (veteran anma haberleri, spor, magazin) fiyatı etkilemeyecek gürültü; bu nedenle güven orta düzeyde.
 11.11 21:38 N  GPT  score -0.48 conf 0.67: Doların yılın en yüksek seviyelerine çıkması ve Fed’in daha şahin olacağı beklentisi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran başlıkları jeopolitik risk primi sağlayabilir; ancak savaşın sona erebileceğine dair açıklamalar bu desteği sınırlıyor.
 11.11 21:47 B6  karar turu: Claude «CoreWeave sonuçlarının desteğiyle teknoloji öncülüğünde risk iştahı güçlü, endeksler gün zirvesine yakın ve yukarı eğilimli.» / GPT «Endekslerin yükselişi alımları destekliyor ancak günlük hareketlerin büyüklüğü ve kapanışa yalnızca 73 dakika kalması, %1,5 hedefe ulaşmayı zorlaştırıyor.»
+11.11 21:50 N  NEWS (10 new) score -0.45 conf 0.60: Yeni haberlerin ağırlığı altın için negatif: yüksek ABD tahvil getirileri ve Aralık'ta Fed faiz artırımı ihtimalleri altını 4.000 doların altına itti, dolar yıllık zirvelere yakın. İran'a yeni askeri saldırı veya yaptırım ihtimali güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor.
+11.11 21:50 N  GPT  score -0.35 conf 0.58: Yükselen ABD tahvil getirileri, Fed’in faiz artırımı beklentileri ve doların yıllık zirvesi kısa vadede altın üzerinde baskı yaratıyor. İran’a yönelik yeni saldırı veya yaptırım ihtimali güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi sınırlı ve jeopolitik haberler etkisi belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
