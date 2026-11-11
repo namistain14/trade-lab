@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 21:35 (İstanbul)
+> Son güncelleme: 11.11.2026 21:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,803.15 $** (başlangıç 5,000 $, -196.85 $ / %-3.94)
+**Hesap değeri: 4,822.84 $** (başlangıç 5,000 $, -177.16 $ / %-3.54)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
-Son haber analizi (11.11 21:25): Claude puan **-0.35**, güven 0.50 — Dolar endeksi yıllık zirveyi test ederken ve sıcak enflasyon verisi tahvil faizlerini yükseltirken altın üzerinde baskı oluşuyor; İran savaşı ve jeopolitik gerilim ise güvenli liman talebini destekliyor ancak bu etki büyük ölçüde fiyatlanmış görünüyor. Net etki kısa vadede hafif negatif.
+Son haber analizi (11.11 21:38): Claude puan **-0.40**, güven 0.50 — Dolar endeksi yıllık zirvesini test ediyor ve piyasalar sıkılaşan (hawkish) Fed'e bahis yapıyor; bu, altın için 1-4 saatlik vadede baskı yaratan bir faktör. Öte yandan İran savaşında de-eskalasyon sinyalleri (Tahran'ın savaşın sürmesini istemediği, Trump'ın savaşın "kazanıldığını" söylemesi) güvenli liman talebini azaltıyor. Haberlerin çoğu (veteran anma haberleri, spor, magazin) fiyatı etkilemeyecek gürültü; bu nedenle güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.42**, güven 0.68 — Dolar endeksinin yılın en yüksek seviyesine çıkması ve altının dolar güçlenirken gerilemesi, önümüzdeki saatlerde altın üzerinde baskı yaratıyor. İran ve Hürmüz Boğazı kaynaklı jeopolitik riskler güvenli liman talebiyle düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.48**, güven 0.67 — Doların yılın en yüksek seviyelerine çıkması ve Fed’in daha şahin olacağı beklentisi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran başlıkları jeopolitik risk primi sağlayabilir; ancak savaşın sona erebileceğine dair açıklamalar bu desteği sınırlıyor.
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,128.78 $** (başlangıç 100,000 $, +17128.78 $ / %+17.13)
+**Hesap değeri: 117,261.79 $** (başlangıç 100,000 $, +17261.79 $ / %+17.26)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 20:47 B6  karar turu: Claude «Piyasa, CoreWeave sonuçlarının desteklediği teknoloji rallisiyle güçlü ve risk iştahı yüksek, ancak Nvidia CEO'su etrafındaki skandal haberleri teknoloji tarafında oynaklık riski taşıyor.» / GPT «Endekslerde yukarı eğilim korunuyor ancak saatlik ivme zayıf; 1:4 kaldıraçla yeni pozisyonlarda risk sınırlı tutulmalı.»
-11.11 20:49 N  NEWS (10 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi, tahvil faizlerindeki yükseliş ve Fed'in faiz artırımı beklentileri altını baskılıyor; dolar 19 aylık zirvesine çıktı ve DXY yıllık zirvesini gördü. Jeopolitik haberler (İran savaşı, Hürmüz) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki mevcut sert satış baskısını dengelemekte yetersiz kalıyor.
 11.11 20:49 N  GPT  score -0.62 conf 0.74: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri, doların güçlenmesiyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; altın da kayıplarını koruyor. İran ve Hürmüz kaynaklı riskler güvenli liman talebi sağlayabilir, ancak mevcut haber akışında bu etki dolar/faiz baskısını dengelemiyor
 11.11 20:58 B6  karar turu: Claude «CoreWeave sonuçlarıyla teknoloji öncülüğünde güçlü bir risk iştahı var, ancak öğleden sonra momentum yatay seyre döndü ve Nvidia skandalı oynaklık riski taşıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından saatlik momentum zayıflıyor; kaldıraçlı yeni girişlerde hareketi kovalamaktan kaçınmak gerekiyor.»
 11.11 21:01 N  NEWS (9 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi ve Fed faiz artırımı beklentileri, doların yıllık/19 aylık zirvesine çıkmasına ve tahvil getirilerinin yükselmesine yol açıyor; bu da altın için net bir baskı oluşturuyor. İran savaşıyla ilgili haberler güvenli liman talebini bir miktar destekleyebilir, ancak Trump'ın savaşın "fiilen bittiği" yönündeki açıklamaları bu etkiyi sınırlıyor.
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 21:25 N  NEWS (11 new) score -0.35 conf 0.50: Dolar endeksi yıllık zirveyi test ederken ve sıcak enflasyon verisi tahvil faizlerini yükseltirken altın üzerinde baskı oluşuyor; İran savaşı ve jeopolitik gerilim ise güvenli liman talebini destekliyor ancak bu etki büyük ölçüde fiyatlanmış görünüyor. Net etki kısa vadede hafif negatif.
 11.11 21:25 N  GPT  score -0.42 conf 0.68: Dolar endeksinin yılın en yüksek seviyesine çıkması ve altının dolar güçlenirken gerilemesi, önümüzdeki saatlerde altın üzerinde baskı yaratıyor. İran ve Hürmüz Boğazı kaynaklı jeopolitik riskler güvenli liman talebiyle düşüşü sınırlayabilir.
 11.11 21:35 B6  karar turu: Claude «CoreWeave sonuçlarıyla yapay zekâ rallisi piyasayı yukarı taşıyor, son saatte ise endeksler yatay-pozitif konsolidasyonda.» / GPT «Endekslerde güçlü günlük yükselişe rağmen son saat ivmesi zayıf; mevcut seviyelerde hareketi kovalamak yerine yeni katalizör gerekiyor.»
+11.11 21:38 N  NEWS (10 new) score -0.40 conf 0.50: Dolar endeksi yıllık zirvesini test ediyor ve piyasalar sıkılaşan (hawkish) Fed'e bahis yapıyor; bu, altın için 1-4 saatlik vadede baskı yaratan bir faktör. Öte yandan İran savaşında de-eskalasyon sinyalleri (Tahran'ın savaşın sürmesini istemediği, Trump'ın savaşın "kazanıldığını" söylemesi) güvenli liman talebini azaltıyor. Haberlerin çoğu (veteran anma haberleri, spor, magazin) fiyatı etkilemeyecek gürültü; bu nedenle güven orta düzeyde.
+11.11 21:38 N  GPT  score -0.48 conf 0.67: Doların yılın en yüksek seviyelerine çıkması ve Fed’in daha şahin olacağı beklentisi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran başlıkları jeopolitik risk primi sağlayabilir; ancak savaşın sona erebileceğine dair açıklamalar bu desteği sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
