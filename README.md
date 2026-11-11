@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 21:07 (İstanbul)
+> Son güncelleme: 11.11.2026 21:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,830.54 $** (başlangıç 5,000 $, -169.46 $ / %-3.39)
+**Hesap değeri: 4,824.60 $** (başlangıç 5,000 $, -175.40 $ / %-3.51)
+
+Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
 Son haber analizi (11.11 21:01): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyon verisi ve Fed faiz artırımı beklentileri, doların yıllık/19 aylık zirvesine çıkmasına ve tahvil getirilerinin yükselmesine yol açıyor; bu da altın için net bir baskı oluşturuyor. İran savaşıyla ilgili haberler güvenli liman talebini bir miktar destekleyebilir, ancak Trump'ın savaşın "fiilen bittiği" yönündeki açıklamaları bu etkiyi sınırlıyor.
 
@@ -72,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,325.00 $** (başlangıç 100,000 $, +16325.00 $ / %+16.32)
+**Hesap değeri: 116,638.65 $** (başlangıç 100,000 $, +16638.65 $ / %+16.64)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -89,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 20:22 B6  karar turu: Claude «CoreWeave sonuçlarıyla canlanan yapay zeka rallisi endeksleri gün zirvesine yakın tutuyor, ancak son bir saatte momentum yavaşladı ve jeopolitik başlıklar risk oluşturuyor.» / GPT «Endekslerde yükseliş eğilimi korunuyor ancak saatlik ivmenin zayıflığı, 1:4 kaldıraçla gerçekleşmiş hareketleri kovalamayı cazip kılmıyor.»
-11.11 20:25 B5  CLOSE short stop: -55.95 USD
 11.11 20:25 N  NEWS (4 new) score -0.40 conf 0.60: Sıcak enflasyon verisi tahvil faizlerini yükseltiyor ve dolar 19 ayın zirvesine çıkarak Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için net olarak baskılayıcı. İran destekli saldırı planları ve Bessent'in tehdit nedeniyle yer değiştirmesi gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak etkisi makro haberlerin gerisinde kalıyor.
 11.11 20:25 N  GPT  score -0.20 conf 0.35: İran kaynaklı saldırı planları ve Hazine Bakanı’nın tehditler nedeniyle yer değiştirmesi güvenli liman talebini destekleyebilir; ancak doların 19 ayın zirvesine çıkması ve Fed’in faiz artırımı beklentileri altın üzerinde baskı yaratıyor. Haber akışı karışık ve kısa vadeli etki sınırlı görünüyor.
 11.11 20:31 B5  SHORT gold 25000 USD x10 @ 3997.50 (TP 3985.51, SL 4005.50; news -0.30)
@@ -104,6 +104,8 @@ Son işlemler:
 11.11 21:01 N  NEWS (9 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi ve Fed faiz artırımı beklentileri, doların yıllık/19 aylık zirvesine çıkmasına ve tahvil getirilerinin yükselmesine yol açıyor; bu da altın için net bir baskı oluşturuyor. İran savaşıyla ilgili haberler güvenli liman talebini bir miktar destekleyebilir, ancak Trump'ın savaşın "fiilen bittiği" yönündeki açıklamaları bu etkiyi sınırlıyor.
 11.11 21:01 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi ve Fed’in daha fazla faiz artırabileceği beklentisi, doların yıllık zirvelere çıkmasıyla birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşına ilişkin söylemler güvenli liman talebini destekleyebilir; ancak çatışmanın sona erebileceği mesajları bu desteği sınırlıyor.
 11.11 21:04 B5  CLOSE short take profit: +69.08 USD
+11.11 21:10 B5  SHORT gold 25000 USD x10 @ 3986.19 (TP 3974.23, SL 3994.16; news -0.59)
+11.11 21:10 B6  karar turu: Claude «CoreWeave sonuçlarıyla gelen risk iştahı sürüyor ancak endeksler öğleden sonra dar bantta konsolide oluyor ve yeni bir itici güç görünmüyor.» / GPT «Endekslerde güçlü günlük yükselişe rağmen son saat momentumu zayıf; mevcut seviyelerde kaldıraçla yükselişi kovalamak cazip değil.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
