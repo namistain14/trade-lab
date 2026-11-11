@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 17:29 (İstanbul)
+> Son güncelleme: 11.11.2026 17:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +69.09 $ | -320.75 $ |
-| İşlem sayısı | 1 | 75 |
-| Kazanma oranı | %100.0 | %41.3 |
-| Ödenen komisyon/spread | 11.86 $ | 889.84 $ |
+| Net kâr/zarar | +138.17 $ | -251.66 $ |
+| İşlem sayısı | 2 | 76 |
+| Kazanma oranı | %100.0 | %42.1 |
+| Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,735.32 $** (başlangıç 5,000 $, -264.68 $ / %-5.29)
-
-Açık pozisyonlar: PAXGUSDT short @ 4032.02 (TP 4019.93 / SL 4040.09)
+**Hesap değeri: 4,748.34 $** (başlangıç 5,000 $, -251.66 $ / %-5.03)
 
 Son haber analizi (11.11 17:23): Claude puan **-0.40**, güven 0.60 — Enflasyon beklentinin üzerinde geldi ve Fed'in faiz artırma olasılığı yükseldi; Goolsbee ve Chicago Fed başkanının sert yorumları ile tahvil satışı ve güçlenen dolar altın için baskı yaratıyor. İran savaşı ve Hormuz gerilimi jeopolitik destek sağlasa da, CPI kaynaklı satış zaten fiyatlanmış durumda ve haberlerde çelişkili unsurlar var, bu nedenle güven orta düzeyde.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 11.11 17:33 | PAXGUSDT | short | +69.08 $ | take profit |
 | 11.11 15:33 | PAXGUSDT | short | +69.09 $ | take profit |
 | 10.11 16:31 | PAXGUSDT | short | +69.09 $ | take profit |
 | 10.11 13:56 | PAXGUSDT | short | +69.09 $ | take profit |
 | 10.11 12:36 | PAXGUSDT | short | +69.10 $ | take profit |
-| 10.11 12:01 | PAXGUSDT | short | +69.10 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,10 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 16:10 N  NEWS (14 new) score -0.60 conf 0.70: Sıcak enflasyon verisi ve Fed'in faiz artırımına yönelik sıkılaşma sinyalleri, dolar endeksini ve faiz artırımı beklentilerini yükseltiyor; bu da altın için 1-4 saatlik dönemde baskı yaratıyor. Jeopolitik haberler (İran gerilimi) güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish Fed ve güçlü dolar etkisinin gerisinde kalıyor.
-11.11 16:10 N  GPT  score -0.58 conf 0.69: Fed’in daha hızlı faiz artırabileceği beklentisi ve sıcak enflasyon haberleri doları destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı güvenli liman talebi kısmi denge sağlayabilir; ancak başlıklar yeni ve doğrudan bir çatışma tırmanışına işaret etmiyor.
-11.11 16:22 N  NEWS (8 new) score -0.60 conf 0.70: Yeni başlıklar net şekilde şahin bir tabloya işaret ediyor: ABD enflasyonu yeniden yükseldi, Fed yetkilileri daha hızlı faiz artırımını değerlendiriyor ve dolar güçleniyor. Bu koşullar reel faizleri ve faiz artırımı beklentilerini yükselterek altın için baskı oluşturur. İran ve Ukrayna ile ilgili jeopolitik haberler ise büyük ölçüde eski veya fiyatlanmış olduğundan güvenli liman talebini belirgin biçimde artırmıyor.
-11.11 16:22 N  GPT  score -0.70 conf 0.78: Sıcak enflasyon verisi ve Fed yetkililerinin daha hızlı faiz artışlarını değerlendirmesi, dolar ve faiz beklentilerini destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı güvenli liman talebi olası olsa da başlıklar acil bir tırmanış göstermiyor ve bu etki baskın görünmüyor.
 11.11 16:32 B6  seans öncesi görüş: Piyasa ABD-Çin yumuşama umuduyla hafif pozitif, ancak enflasyon ve Fed faiz artışı riski ile çelişkili endeks verileri temkin gerektiriyor.
 11.11 16:34 N  NEWS (11 new) score -0.50 conf 0.60: Sıcak enflasyon verisi ve Fed yetkililerinin daha hızlı faiz artırımı düşünmesi, dolarda güçlenme ve faiz artırımı beklentilerini yükseltiyor; bu, reel faizler ve dolar üzerinden altın için net olumsuz bir tablo. Haberlerde altın fiyatlarının sert düştüğü de yansıyor. Jeopolitik tarafta İran gerginliği sürse de Rusya-Ukrayna esir takası ve sınırlı diplomatik ilerleme güvenli liman talebini sınırlıyor.
 11.11 16:34 N  GPT  score -0.55 conf 0.66: Sıcak enflasyon ve Fed’in daha fazla faiz artışını değerlendirmesi, dolar ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. OPEC+ üretim artışı ile Rusya-Ukrayna esir takası kısmen dengeleyici olsa da bunlar yakın vadede baskın görünmüyor; faiz haberleri büyük ölçüde aynı temanın 
@@ -104,6 +98,10 @@ Son işlemler:
 11.11 17:11 N  GPT  score -0.35 conf 0.62: Sıcak enflasyon verisi ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları ve reel faizleri destekleyerek altın üzerinde baskı yaratıyor. Ancak altının gün içi toparlanması ve jeopolitik riskler düşüşü sınırlayabilir; kısa vadeli görünüm bu nedenle temkinli biçimde aşağı yönlü.
 11.11 17:23 N  NEWS (10 new) score -0.40 conf 0.60: Enflasyon beklentinin üzerinde geldi ve Fed'in faiz artırma olasılığı yükseldi; Goolsbee ve Chicago Fed başkanının sert yorumları ile tahvil satışı ve güçlenen dolar altın için baskı yaratıyor. İran savaşı ve Hormuz gerilimi jeopolitik destek sağlasa da, CPI kaynaklı satış zaten fiyatlanmış durumda ve haberlerde çelişkili unsurlar var, bu nedenle güven orta düzeyde.
 11.11 17:23 N  GPT  score -0.35 conf 0.58: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve dolar/faiz getirilerini yükselterek altına kısa vadede baskı yapıyor. İran gerilimi ve Hürmüz kaynaklı güvenli liman talebi bunu kısmen dengeliyor; haber akışı çelişkili olduğundan düşüş beklentisi sınırlı.
+11.11 17:33 B5  CLOSE short take profit: +69.08 USD
+11.11 17:33 B6  karar turu: Claude «Piyasa ABD-Çin yumuşaması umuduyla pozitif ama endekslerde son saatte momentum yavaşlıyor; şirkete özel haberler öne çıkıyor.» / GPT «Piyasa pozitif ancak teknoloji endeksi duraklıyor; dört kat kaldıraç altında endeksi kovalamak yerine şirket haberi ve göreli güce dayalı seçici işlemler öne çıkıyor.»
+11.11 17:33 B6  AÇIĞA SATIŞ NVDA 642 adet ≈ 111,625 $ (1:4) @ 173.87 (TP 171.26, SL 175.61; ikisi de hemfikir, güven 0.50)
+11.11 17:33 B6  ALIŞ AAPL 316 adet ≈ 111,482 $ (1:4) @ 352.79 (TP 358.08, SL 349.26; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
