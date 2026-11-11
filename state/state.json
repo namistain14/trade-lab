@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    5000.0
-   ],
-   [
     1793919422,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794439140,
+    5000.0
+   ],
+   [
+    1794439331,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    4868.5
-   ],
-   [
     1793919422,
     4868.5
    ],
@@ -27085,28 +27081,32 @@
    [
     1794439140,
     4868.5
+   ],
+   [
+    1794439331,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
-   "confidence": 0.7,
-   "reason": "S\u0131cak Ekim enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltti ve dolar y\u0131ll\u0131k zirvelere yakla\u015f\u0131yor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir tablo. Sava\u015f haberleri (\u0130ran) g\u00fcvenli liman talebini destekleyebilir ancak fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor; bu nedenle g\u00fcven orta-y\u00fcksek tutuldu.",
+   "confidence": 0.6,
+   "reason": "S\u0131cak Ekim CPI verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda. Jeopolitik (\u0130ran sava\u015f\u0131) ba\u015fl\u0131klar\u0131n\u0131n g\u00fcvenli liman talebi yaratma etkisi ise s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "ts": 1794438609898,
-   "new_headlines": 12,
+   "ts": 1794439330950,
+   "new_headlines": 2,
    "key_events": [
-    "Ekim CPI enflasyonu s\u0131cak geldi; Goolsbee 'endi\u015fe verici' dedi",
-    "Fed faiz art\u0131r\u0131m\u0131 bahisleri y\u00fckseldi, dolar g\u00fc\u00e7lendi",
-    "Alt\u0131n 4.000 dolar alt\u0131na sarkt\u0131"
+    "Ekim CPI verisi s\u0131cak geldi; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi",
+    "Goolsbee: CPI 's\u0131n\u0131rda endi\u015fe verici', Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi",
+    "Dolar g\u00fc\u00e7leniyor; Wall Street Fed'in hata yapt\u0131\u011f\u0131n\u0131 ve daha fazla art\u0131r\u0131m gelebilece\u011fini tart\u0131\u015f\u0131yor"
    ],
    "gpt": {
-    "score": -0.58,
-    "confidence": 0.68,
-    "reason": "Dolar\u0131n g\u00fc\u00e7lenmesi ve s\u0131cak enflasyon verisinin Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini beslemesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Ancak alt\u0131n\u0131n gerilemesine dair haberler daha eski ve muhtemelen b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu do\u011frudan etkisiz.",
+    "score": -0.65,
+    "confidence": 0.74,
+    "reason": "S\u0131cak enflasyon ve olas\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar\u0131 destekleyip alt\u0131n\u0131 bask\u0131l\u0131yor; dolar\u0131n g\u00fc\u00e7lenmesi ve Rusya\u2019n\u0131n yuanla alternatif aray\u0131\u015f\u0131ndan geri \u00e7ekilmesi de bu e\u011filimi peki\u015ftiriyor. \u0130ran kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebi yaratabilir, ancak ba\u015fl\u0131klarda yeni ve belirgin",
     "key_events": [
-     "Dolar y\u00fckseli\u015fi ve \u015fahin Fed beklentileri",
-     "S\u0131cak T\u00dcFE verisi faiz art\u0131r\u0131m\u0131 kayg\u0131lar\u0131n\u0131 art\u0131rd\u0131",
-     "Alt\u0131n 4.000 dolar\u0131n alt\u0131na geriledi"
+     "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi",
+     "Dolar\u0131n y\u00fckseli\u015fi ve alt\u0131n\u0131n 4.000 dolar alt\u0131na inmesi",
+     "Rusya\u2019n\u0131n dolara alternatif aray\u0131\u015f\u0131ndan geri \u00e7ekilmesi"
     ],
     "model": "gpt-6-luna"
    },
@@ -27114,15 +27114,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1793936792684,
-    "score": 0.05,
-    "confidence": 0.3,
-    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve Trump'\u0131n karar\u0131n\u0131n \"yak\u0131nda\" a\u00e7\u0131klanaca\u011f\u0131 beklentisi jeopolitik risk kaynakl\u0131 hafif destek sa\u011fl\u0131yor, ancak alt\u0131n 4.060 dolar civar\u0131na gerilemi\u015f, dolar toparlan\u0131yor ve NFP verisi \u00f6ncesi temkin hakim. Yak\u0131n vadede etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz; b\u00fcy\u00fck \u00f6l\u00e7\u00fcde NFP sonucuna ba\u011fl\u0131 olacak.",
-    "new": 8,
-    "gpt_score": -0.2,
-    "gpt_confidence": 0.4
-   },
    {
     "ts": 1793937511422,
     "score": 0.02,
@@ -29813,14 +29804,25 @@
     "new": 12,
     "gpt_score": -0.58,
     "gpt_confidence": 0.68
+   },
+   {
+    "ts": 1794439330950,
+    "score": -0.6,
+    "confidence": 0.6,
+    "reason": "S\u0131cak Ekim CPI verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda. Jeopolitik (\u0130ran sava\u015f\u0131) ba\u015fl\u0131klar\u0131n\u0131n g\u00fcvenli liman talebi yaratma etkisi ise s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+    "new": 2,
+    "gpt_score": -0.65,
+    "gpt_confidence": 0.74
    }
   ],
   "news_calls": {
    "date": "2026-11-12",
-   "n": 8
+   "n": 9
   },
   "news_seen": [
+   "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
    "Democrat Scott Colom wins Mississippi Senate race in surprise victory for party",
+   "Russia bows out of attempt to replace US dollar with Chinese yuan after years of promoting currency alternatives among its BRICS friends - Business Insider Africa",
    "Welch pushes to extend PACT Act protections to Iran war veterans - WCAX",
    "Australian Dollar dips under 0.6850 as Fed-RBA policy divergence widens - FXStreet",
    "U.S. Dollar Rallies As Traders Bet On Hawkish Fed: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
@@ -29831,6 +29833,7 @@
    "Lynchburg Honors World War I Soldiers During Veterans\u2019 Day Ceremony - WDBJ7",
    "Tracking Trump: Trump defends Iran war in Veterans Day speech; Hegseth impeachment fails; Kennedy family sues Trump; and more - The Washington Post",
    "Veterans celebrate rededication of Vietnam War memorial in Milwaukee - WPR",
+   "Wall Street Says the Fed Made a Mistake. Now More Rate Hikes May Be Coming - www.thewealthadvisor.com",
    "Revolutionary War monument unveiled as Miamisburg honors veterans at annual ceremony - WKEF",
    "Hormuz oil flows are not regularly above pre-war levels - PolitiFact",
    "Chicago Fed's Goolsbee Calls October CPI 'Borderline Disturbing' as December Rate Decision Looms - BigGo Finance",
@@ -29843,7 +29846,6 @@
    "Gold (XAU/USD) Price Forecast: Bullish Reversal Faces Critical Support Test - FXEmpire",
    "Gold Slips Below $4,000 on Hot Inflation Data and Fed Rate-Hike Bets - News and Statistics - IndexBox",
    "Gold Miners Post Strong Q2 Despite Price Pullback and Rising Costs - IndexBox",
-   "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
    "Poundland set for more time to secure a rescue deal as emergency talks continue",
    "Clashes erupt in Barcelona after thousands join Spain general strike",
    "Opinion | It Matters How the Iran War Ends - WSJ",
@@ -29860,16 +29862,12 @@
    "US Dollar poised for further gains as Bitcoin faces mounting downside pressure amid monetary uncertainty and crypto market turmoil - FXStreet",
    "\u2018We have not forgotten\u2019: Local residents honor Revolutionary War veterans - Daily Journal",
    "The evolving global role of the dollar - PhillyVoice",
-   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Drops As Dollar Tests Yearly Highs - FXEmpire",
-   "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
    "A new Vietnam War documentary teaches us how to heal from \u2014 and confront \u2014 the past - Texas Standard",
-   "Falling oil prices are no longer enough to bring down borrowing costs in the world\u2019s most important bond market - MarketWatch",
-   "National Guard Soldier turns wartime letters into music - NEWS10 ABC"
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Drops As Dollar Tests Yearly Highs - FXEmpire",
+   "'Not the answer': Labour MPs speak out against Rosebank as decision looms"
   ]
  },
  "log": [
-  "11.11 05:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvLPxmiJFtPsdXK1fom1'}",
-  "11.11 05:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvLdDHgwxEdN3Bs9BSAc'}",
   "11.11 05:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvLfhsxHV4He3wmFH3Hq'}",
   "11.11 05:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvLu3JcJj4dvpRsoe4gm'}",
   "11.11 05:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvM8H9B3X67T3JXwrEyZ'}",
@@ -30167,7 +30165,9 @@
   "12.11 01:58 N  NEWS (4 new) score -0.60 conf 0.70: S\u0131cak Ekim CPI verisi, Fed'in Aral\u0131k'ta faiz art\u0131rma beklentilerini y\u00fckseltti ve dolar g\u00fc\u00e7leniyor; bu da alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131. Alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na indi\u011fi i\u00e7in bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcveni orta-y\u00fcksek tutuyorum.",
   "12.11 01:58 N  GPT  score -0.65 conf 0.75: S\u0131cak Ekim enflasyonu ve Goolsbee\u2019nin veriyi \u201crahats\u0131z edici\u201d bulmas\u0131, Aral\u0131k\u2019ta faiz art\u0131\u015f\u0131 beklentilerini ve dolar\u0131n g\u00fcc\u00fcn\u00fc destekleyerek alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran\u2019\u0131n Arjantin kuvvetlerini ter\u00f6r \u00f6rg\u00fct\u00fc ilan etmesi s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flayabilir, ancak yak\u0131n vadede bask\u0131n g\u00f6r\u00fcn",
   "12.11 02:10 N  NEWS (12 new) score -0.60 conf 0.70: S\u0131cak Ekim enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltti ve dolar y\u0131ll\u0131k zirvelere yakla\u015f\u0131yor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir tablo. Sava\u015f haberleri (\u0130ran) g\u00fcvenli liman talebini destekleyebilir ancak fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor; bu nedenle g\u00fcven orta-y\u00fcksek tutuldu.",
-  "12.11 02:10 N  GPT  score -0.58 conf 0.68: Dolar\u0131n g\u00fc\u00e7lenmesi ve s\u0131cak enflasyon verisinin Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini beslemesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Ancak alt\u0131n\u0131n gerilemesine dair haberler daha eski ve muhtemelen b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu do\u011frudan etkisiz."
+  "12.11 02:10 N  GPT  score -0.58 conf 0.68: Dolar\u0131n g\u00fc\u00e7lenmesi ve s\u0131cak enflasyon verisinin Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerini beslemesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Ancak alt\u0131n\u0131n gerilemesine dair haberler daha eski ve muhtemelen b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu do\u011frudan etkisiz.",
+  "12.11 02:22 N  NEWS (2 new) score -0.60 conf 0.60: S\u0131cak Ekim CPI verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 4.000 dolar\u0131n alt\u0131na inmi\u015f durumda. Jeopolitik (\u0130ran sava\u015f\u0131) ba\u015fl\u0131klar\u0131n\u0131n g\u00fcvenli liman talebi yaratma etkisi ise s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+  "12.11 02:22 N  GPT  score -0.65 conf 0.74: S\u0131cak enflasyon ve olas\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar\u0131 destekleyip alt\u0131n\u0131 bask\u0131l\u0131yor; dolar\u0131n g\u00fc\u00e7lenmesi ve Rusya\u2019n\u0131n yuanla alternatif aray\u0131\u015f\u0131ndan geri \u00e7ekilmesi de bu e\u011filimi peki\u015ftiriyor. \u0130ran kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebi yaratabilir, ancak ba\u015fl\u0131klarda yeni ve belirgin"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    4963.78
-   ],
-   [
     1793919422,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794439140,
+    4963.78
+   ],
+   [
+    1794439331,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    4975.18
-   ],
-   [
     1793919422,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794439140,
+    4975.18
+   ],
+   [
+    1794439331,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    4993.28
-   ],
-   [
     1793919422,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794439140,
+    4993.28
+   ],
+   [
+    1794439331,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793919253,
-    4969.22
-   ],
-   [
     1793919422,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794439140,
+    4969.22
+   ],
+   [
+    1794439331,
     4969.22
    ]
   ],
@@ -80451,10 +80451,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793919253,
-    4966.06
-   ],
    [
     1793919422,
     4966.06
@@ -92450,6 +92446,10 @@
    [
     1794439140,
     4881.55
+   ],
+   [
+    1794439331,
+    4873.96
    ]
   ],
   "news_calls": {
@@ -93374,10 +93374,6 @@
    "equity": 115261.43
   },
   "equity_curve": [
-   [
-    1793919253,
-    108278.0
-   ],
    [
     1793919422,
     108278.0
@@ -105373,6 +105369,10 @@
    [
     1794439140,
     115261.43
+   ],
+   [
+    1794439331,
+    115261.43
    ]
   ],
   "open": {},
@@ -105555,10 +105555,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793919253,
-    5066.43
-   ],
    [
     1793919422,
     5066.43
@@ -117553,6 +117549,10 @@
    ],
    [
     1794439140,
+    4876.96
+   ],
+   [
+    1794439331,
     4876.96
    ]
   ],
