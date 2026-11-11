@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 20:19 (İstanbul)
+> Son güncelleme: 11.11.2026 20:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %100.0 | %42.9 |
 | Ödenen komisyon/spread | 35.59 $ | 913.58 $ |
 
-**Hesap değeri: 4,800.39 $** (başlangıç 5,000 $, -199.61 $ / %-3.99)
+**Hesap değeri: 4,790.69 $** (başlangıç 5,000 $, -209.31 $ / %-4.19)
 
 Açık pozisyonlar: PAXGUSDT short @ 3993.56 (TP 3981.58 / SL 4001.55)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,382.55 $** (başlangıç 100,000 $, +16382.55 $ / %+16.38)
+**Hesap değeri: 116,269.91 $** (başlangıç 100,000 $, +16269.91 $ / %+16.27)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 19:34 B6  karar turu: Claude «CoreWeave sonuçlarıyla yapay zeka rallisi piyasayı yukarı taşıyor, ancak hareketin büyük kısmı gerçekleşti ve öğleden sonra konsolidasyon olası.» / GPT «Genel piyasa ve teknoloji hisseleri güçlü kalırken yeni alımlarda yükselişi kovalamamak, Tesla'daki göreli zayıflığı ise kısa vadeli satış fırsatı olarak değerlendirmek uygun.»
 11.11 19:36 N  NEWS (23 new) score -0.25 conf 0.35: Yeni başlıkların çoğu Veteran Günü ve savaş anma haberleri olup altın fiyatıyla ilgisi yok. Fiyatı etkileyebilecek unsurlar hafif baskıcı: enflasyonun inatçı kalması, tahvil faizlerinin yükselmesi ve Fed'in sıkı duruşuna dair yorumlar (Barkin, Fed başkanı) reel faiz beklentilerini yukarı çekip altın için olumsuz. Suudi petrol üretimindeki artış enflasyon baskısını azaltabilir ama etkisi sınırlı; savaş kaynaklı güvenli liman talebine dair yeni bir tırmanış yok.
 11.11 19:36 N  GPT  score -0.05 conf 0.22: Yeni başlıkların çoğu altın açısından önemsiz; Suudi petrol üretimindeki artış enflasyon baskısını azaltabilirken, sıcak enflasyon ve Fed’in mücadeleyi sürdürmesi gerektiği yönündeki haberler ters yönde etkiliyor. Kısa vadeli net sinyal zayıf ve hafif aşağı yönlü.
 11.11 19:45 B6  karar turu: Claude «CoreWeave sonuçlarıyla canlanan AI rallisi piyasayı yukarı taşıyor ve risk iştahı güçlü, ancak jeopolitik ve Çin başlıkları oynaklık riski taşıyor.» / GPT «Piyasa genelinde yön yukarı olsa da gün içi yükselişleri kovalamak yerine göreli zayıflığı belirgin Tesla'da kısa pozisyon tercih ediyorum.»
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 20:10 B6  karar turu: Claude «CoreWeave sonuçlarıyla AI ve teknoloji rallisi sürüyor, endeksler güçlü; ancak öğleden sonra hafif yorulma sinyalleri görülüyor.» / GPT «Genel piyasa pozitif kalırken son mumlardaki geri çekilme ivme kaybına işaret ediyor; TSLA’nın belirgin göreli zayıflığı kısa pozisyon için fırsat sunuyor.»
 11.11 20:13 N  NEWS (6 new) score -0.60 conf 0.60: Sıcak enflasyon verisi tahvil faizlerini yükseltiyor ve Fed faiz artırımı beklentilerini güçlendiriyor; dolar 19 ayın zirvesinde. Bu, altın için net olarak baskılayıcı bir tablo. İran kaynaklı jeopolitik gerilim (Bessent tehdidi, İran bağlantılı saldırı planı) güvenli liman talebi yaratabilir ama etkisi enflasyon/dolar kanalının gerisinde kalıyor.
 11.11 20:13 N  GPT  score -0.20 conf 0.36: Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentileri altın için kısa vadede baskı oluşturuyor. Jeopolitik riskler ve enflasyon haberinin getirileri düşürdüğüne dair ifade bunu kısmen dengelese de manşetler çelişkili ve etkisi belirsiz.
+11.11 20:22 B6  karar turu: Claude «CoreWeave sonuçlarıyla canlanan yapay zeka rallisi endeksleri gün zirvesine yakın tutuyor, ancak son bir saatte momentum yavaşladı ve jeopolitik başlıklar risk oluşturuyor.» / GPT «Endekslerde yükseliş eğilimi korunuyor ancak saatlik ivmenin zayıflığı, 1:4 kaldıraçla gerçekleşmiş hareketleri kovalamayı cazip kılmıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
