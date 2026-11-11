@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 10:40 (İstanbul)
+> Son güncelleme: 11.11.2026 10:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,610.16 $** (başlangıç 5,000 $, -389.84 $ / %-7.80)
 
-Son haber analizi (11.11 10:31): Claude puan **-0.40**, güven 0.60 — Sıcak CPI verisi Fed'in Aralık'ta faiz artırma ihtimalini yükseltti (Goldman da ek faiz artırımı ekledi) ve bu da doları destekleyip altın üzerinde baskı yaratıyor; altın $4.050 üzerinde kalsa da yukarı yönlü hareket sınırlı görünüyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor ancak bu etki faiz beklentilerinin gerisinde kalıyor.
+Son haber analizi (11.11 10:43): Claude puan **-0.45**, güven 0.60 — Sıcak ABD enflasyon verisi Fed faiz artırımı beklentilerini yükseltti ve dolar destekleniyor; bu, altın için 1-4 saatlik vadede baskılayıcı. İran savaşındaki duraklama ve jeopolitik riskler güvenli liman talebi yaratsa da, bunun etkisi faiz ve dolar kanalının gerisinde kalıyor.
 
-GPT (gpt-6-luna): puan **-0.38**, güven 0.70 — Sıcak enflasyon verisi Fed faiz artırımı beklentilerini güçlendiriyor; yükselen faiz ve dolar altın üzerinde kısa vadede baskı yaratabilir. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de bu etki, haberlerdeki çelişkili altın fiyatı sinyalleri nedeniyle baskın görünmüyor.
+GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Sıcak enflasyon verisi Fed faiz artırımı beklentilerini ve dolar desteğini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşı kaynaklı güvenli liman talebi bu düşüşü kısmen sınırlayabilir; haberlerin çoğu aynı enflasyon şokunu yansıtıyor.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 09:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvhhS7gMtNnrc9Ks2iYf'}
-11.11 09:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvhviSJBSFqxahSL1dJ8'}
 11.11 10:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgvi9yiB9L7EyvZF4e8wK'}
 11.11 10:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgviPGkyNeJaiCKqTWp7j'}
 11.11 10:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvicV3mEgy7s1X7NrCPf'}
@@ -102,6 +100,8 @@ Son işlemler:
 11.11 10:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvkFcwR2U9VNLYNL43YU'}
 11.11 10:31 N  NEWS (45 new) score -0.40 conf 0.60: Sıcak CPI verisi Fed'in Aralık'ta faiz artırma ihtimalini yükseltti (Goldman da ek faiz artırımı ekledi) ve bu da doları destekleyip altın üzerinde baskı yaratıyor; altın $4.050 üzerinde kalsa da yukarı yönlü hareket sınırlı görünüyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor ancak bu etki faiz beklentilerinin gerisinde kalıyor.
 11.11 10:31 N  GPT  score -0.38 conf 0.70: Sıcak enflasyon verisi Fed faiz artırımı beklentilerini güçlendiriyor; yükselen faiz ve dolar altın üzerinde kısa vadede baskı yaratabilir. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de bu etki, haberlerdeki çelişkili altın fiyatı sinyalleri nedeniyle baskın görünmüyor.
+11.11 10:43 N  NEWS (10 new) score -0.45 conf 0.60: Sıcak ABD enflasyon verisi Fed faiz artırımı beklentilerini yükseltti ve dolar destekleniyor; bu, altın için 1-4 saatlik vadede baskılayıcı. İran savaşındaki duraklama ve jeopolitik riskler güvenli liman talebi yaratsa da, bunun etkisi faiz ve dolar kanalının gerisinde kalıyor.
+11.11 10:43 N  GPT  score -0.55 conf 0.68: Sıcak enflasyon verisi Fed faiz artırımı beklentilerini ve dolar desteğini güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşı kaynaklı güvenli liman talebi bu düşüşü kısmen sınırlayabilir; haberlerin çoğu aynı enflasyon şokunu yansıtıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
