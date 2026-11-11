@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 20:47 (İstanbul)
+> Son güncelleme: 11.11.2026 20:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %75.0 | %42.3 |
 | Ödenen komisyon/spread | 47.47 $ | 925.46 $ |
 
-**Hesap değeri: 4,778.67 $** (başlangıç 5,000 $, -221.33 $ / %-4.43)
+**Hesap değeri: 4,779.73 $** (başlangıç 5,000 $, -220.27 $ / %-4.41)
 
 Açık pozisyonlar: PAXGUSDT short @ 3997.50 (TP 3985.51 / SL 4005.50)
 
-Son haber analizi (11.11 20:37): Claude puan **-0.40**, güven 0.50 — Dolar endeksi yılın zirvesine yükseliyor ve sıcak enflasyon verisi tahvil faizlerini yukarı itiyor; bu da Fed sıkılaşma beklentilerini destekleyip altın için baskı yaratıyor. Iran savaşının "etkili biçimde bitti" söylemi ve Bessent'in tehdit nedeniyle taşınması gibi jeopolitik haberler sınırlı bir güvenli liman talebi sağlasa da, ana etki negatif kalıyor; haberlerin çoğu ise alakasız.
+Son haber analizi (11.11 20:49): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyon verisi, tahvil faizlerindeki yükseliş ve Fed'in faiz artırımı beklentileri altını baskılıyor; dolar 19 aylık zirvesine çıktı ve DXY yıllık zirvesini gördü. Jeopolitik haberler (İran savaşı, Hürmüz) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki mevcut sert satış baskısını dengelemekte yetersiz kalıyor.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.55 — Dolar endeksinin yeni zirveye çıkması ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı oluşturuyor. İran kaynaklı güvenlik haberleri güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı karışık.
+GPT (gpt-6-luna): puan **-0.62**, güven 0.74 — Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri, doların güçlenmesiyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; altın da kayıplarını koruyor. İran ve Hürmüz kaynaklı riskler güvenli liman talebi sağlayabilir, ancak mevcut haber akışında bu etki dolar/faiz baskısını dengelemiyor
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,470.65 $** (başlangıç 100,000 $, +16470.65 $ / %+16.47)
+**Hesap değeri: 116,559.50 $** (başlangıç 100,000 $, +16559.50 $ / %+16.56)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 19:58 B6  ALIŞ SPY 66 adet ≈ 50,156 $ (1:4) @ 759.94 (TP 771.34, SL 752.34; ikisi de hemfikir, güven 0.55)
-11.11 20:01 N  NEWS (8 new) score -0.35 conf 0.50: Dolar 19 aylık zirveye çıkarken Fed faiz artırımı beklentileri güçleniyor; bu, reel faizler ve dolar yoluyla altın için net baskılayıcı bir etken. İran kaynaklı jeopolitik gerilim (Bessent'e tehdit, saldırı planı) güvenli liman talebini destekleyici olsa da, İran savaşının sürmesi zaten fiyatlanmış durumda; bu nedenle etkisi sınırlı kalabilir.
 11.11 20:01 N  GPT  score -0.12 conf 0.38: İran bağlantılı saldırı planı ve ABD Hazine Bakanı’na yönelik tehdit haberleri güvenli liman talebini destekleyebilir. Ancak doların 19 ayın zirvesine çıkması ve Fed’in faiz artıracağı beklentisi altın üzerinde baskı yaratıyor; kısa vadede net etki hafif negatif ve belirsiz.
 11.11 20:10 B6  karar turu: Claude «CoreWeave sonuçlarıyla AI ve teknoloji rallisi sürüyor, endeksler güçlü; ancak öğleden sonra hafif yorulma sinyalleri görülüyor.» / GPT «Genel piyasa pozitif kalırken son mumlardaki geri çekilme ivme kaybına işaret ediyor; TSLA’nın belirgin göreli zayıflığı kısa pozisyon için fırsat sunuyor.»
 11.11 20:13 N  NEWS (6 new) score -0.60 conf 0.60: Sıcak enflasyon verisi tahvil faizlerini yükseltiyor ve Fed faiz artırımı beklentilerini güçlendiriyor; dolar 19 ayın zirvesinde. Bu, altın için net olarak baskılayıcı bir tablo. İran kaynaklı jeopolitik gerilim (Bessent tehdidi, İran bağlantılı saldırı planı) güvenli liman talebi yaratabilir ama etkisi enflasyon/dolar kanalının gerisinde kalıyor.
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 20:37 N  NEWS (7 new) score -0.40 conf 0.50: Dolar endeksi yılın zirvesine yükseliyor ve sıcak enflasyon verisi tahvil faizlerini yukarı itiyor; bu da Fed sıkılaşma beklentilerini destekleyip altın için baskı yaratıyor. Iran savaşının "etkili biçimde bitti" söylemi ve Bessent'in tehdit nedeniyle taşınması gibi jeopolitik haberler sınırlı bir güvenli liman talebi sağlasa da, ana etki negatif kalıyor; haberlerin çoğu ise alakasız.
 11.11 20:37 N  GPT  score -0.35 conf 0.55: Dolar endeksinin yeni zirveye çıkması ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı oluşturuyor. İran kaynaklı güvenlik haberleri güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi sınırlı ve haber akışı karışık.
 11.11 20:47 B6  karar turu: Claude «Piyasa, CoreWeave sonuçlarının desteklediği teknoloji rallisiyle güçlü ve risk iştahı yüksek, ancak Nvidia CEO'su etrafındaki skandal haberleri teknoloji tarafında oynaklık riski taşıyor.» / GPT «Endekslerde yukarı eğilim korunuyor ancak saatlik ivme zayıf; 1:4 kaldıraçla yeni pozisyonlarda risk sınırlı tutulmalı.»
+11.11 20:49 N  NEWS (10 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi, tahvil faizlerindeki yükseliş ve Fed'in faiz artırımı beklentileri altını baskılıyor; dolar 19 aylık zirvesine çıktı ve DXY yıllık zirvesini gördü. Jeopolitik haberler (İran savaşı, Hürmüz) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki mevcut sert satış baskısını dengelemekte yetersiz kalıyor.
+11.11 20:49 N  GPT  score -0.62 conf 0.74: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri, doların güçlenmesiyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; altın da kayıplarını koruyor. İran ve Hürmüz kaynaklı riskler güvenli liman talebi sağlayabilir, ancak mevcut haber akışında bu etki dolar/faiz baskısını dengelemiyor
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
