@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 22:56 (İstanbul)
+> Son güncelleme: 11.11.2026 22:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,855.52 $** (başlangıç 5,000 $, -144.48 $ / %-2.89)
+**Hesap değeri: 4,855.46 $** (başlangıç 5,000 $, -144.54 $ / %-2.89)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,592.82 $** (başlangıç 100,000 $, +15592.82 $ / %+15.59)
+**Hesap değeri: 115,545.03 $** (başlangıç 100,000 $, +15545.03 $ / %+15.55)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 21:59 B6  karar turu: Claude «CoreWeave sonuçlarıyla teknoloji öncülüğünde güçlü bir yükseliş günü yaşanıyor; Nvidia'daki Huang skandalı belirsizlik yaratsa da genel eğilim yukarı.» / GPT «Endekslerde yükseliş korunurken momentum yavaşlıyor; 4 kat kaldıraçla riski sınırlamak ve kapanışa yaklaşık bir saat kaldığından pozisyonu seans bitmeden kapatmak önemli.»
 11.11 22:02 N  NEWS (11 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskıcı: enflasyonun Fed'i faiz artırımına itebileceği, Aralık ayı faiz artırımı ihtimalinin yükselmesi ve ABD tahvil getirilerinin yüksekliği altını 4.000 doların altına çekiyor; dolar yıllık zirvelere yakın seyrediyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor olsa da bu etki şu an faiz ve dolar kanalının gerisinde kalıyor. Savaş haberleri tekrarlandığı için güven orta seviyede tutuldu.
 11.11 22:02 N  GPT  score -0.35 conf 0.63: Yüksek enflasyonun Fed’i daha şahin bir çizgiye itebileceği beklentisi, yükselen ABD tahvil getirileri ve güçlü dolar kısa vadede altın üzerinde baskı yaratıyor. İran savaşı ve Hürmüz’e ilişkin riskler güvenli liman talebini desteklese de haberler büyük ölçüde tekrarlı ve bu etkiyi kısmen dengeliyor
 11.11 22:11 B6  karar turu: Claude «CoreWeave kaynaklı AI rallisiyle piyasa güçlü bir gün geçirdi, ancak son saatte endekslerde ve teknoloji hisselerinde kapanış öncesi kâr realizasyonu başladı.» / GPT «Günlük güçlü yükselişe rağmen son barlarda satış baskısı artıyor; kapanışa kalan 49 dakika, hedefe ulaşma süresini daraltıyor ve kaldıraç riskini artırıyor.»
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 22:47 B6  karar turu: Claude «CoreWeave sonuçlarıyla gelen AI rallisi gün içinde piyasayı belirgin şekilde yukarı taşıdı, ancak son saatte Nvidia/Huang belirsizliği ve İran haberleri nedeniyle kapanışa doğru hafif bir kâr satışı görülüyor.» / GPT «Endekslerde yükseliş ivmesi zayıflarken kapanışa yalnızca 13 dakika kalması, sonraki 1–3 saatte düşük likidite ve seans dışında stop emirlerinin çalışmaması r
 11.11 22:50 N  NEWS (6 new) score -0.40 conf 0.60: Sıcak Ekim enflasyon verisi, Aralık Fed faiz artırımı beklentilerini yükseltiyor ve dolar güçleniyor; bu yüksek reel getiri ve güçlü dolar nedeniyle altın için kısa vadede baskı yaratıyor. İran savaşı haberleri jeopolitik talebi destekleyebilir, ancak piyasada güvenli liman etkisi belirgin değil ve altın 4.000 doların altına sarkıyor.
 11.11 22:50 N  GPT  score -0.35 conf 0.66: Sıcak enflasyon verisi ve Fed’in daha şahin kalabileceği beklentisi, yükselen ABD getirileri ve güçlü dolar üzerinden altın için kısa vadede baskı yaratıyor. İran savaşı kaynaklı güvenli liman talebi destekleyici olsa da haber akışı karışık ve bu riskin bir kısmı zaten fiyatlanmış olabilir.
+11.11 22:59 B6  karar turu: Claude «CoreWeave kaynaklı yapay zeka rallisiyle endeksler güçlü kapanıyor, ancak son saatteki hafif geri çekilme ve kapanış sonrası beklenen NVDA bilançosu belirsizliği artırıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından momentum zayıflıyor; kapanışa bir dakika kala 1:4 kaldıraçla seans dışına taşınacak işlemlerde temkinliyim.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
