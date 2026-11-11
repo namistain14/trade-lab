@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 15:55 (İstanbul)
+> Son güncelleme: 11.11.2026 15:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %41.3 |
 | Ödenen komisyon/spread | 11.86 $ | 889.84 $ |
 
-**Hesap değeri: 4,681.75 $** (başlangıç 5,000 $, -318.25 $ / %-6.36)
+**Hesap değeri: 4,677.23 $** (başlangıç 5,000 $, -322.77 $ / %-6.46)
 
 Açık pozisyonlar: PAXGUSDT short @ 4032.02 (TP 4019.93 / SL 4040.09)
 
-Son haber analizi (11.11 15:46): Claude puan **-0.50**, güven 0.60 — Sıcak enflasyon ve Fed'in faiz artırımına yönelik şahin söylemleri, faiz artırımı beklentilerini yükseltip doları güçlendiriyor; bu da altın için baskı oluşturuyor. İran ve Ukrayna'daki çatışma haberleri sınırlı bir güvenli liman talebi sağlasa da bu etkiyi dolar ve faiz kaynaklı düşüşün gölgelemesi bekleniyor.
+Son haber analizi (11.11 15:58): Claude puan **-0.60**, güven 0.60 — Sıcak enflasyon verisi ve Fed'in sıkılaştırma sinyalleri dolar ile faiz artırımı beklentilerini yükseltiyor; bu, altın için 1-4 saatlik vadede baskı oluşturuyor. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar kaynaklı düşüşü dengelemeye yetmiyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.76 — Sıcak enflasyon verileri ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyip altın üzerinde baskı yaratıyor; altın fiyatlarındaki düşüş haberleri de bu yönü teyit ediyor. İran kaynaklı tehditler güvenli liman talebini artırabilir, ancak kısa vadede faiz ve dolar etkisi daha baskın 
+GPT (gpt-6-luna): puan **-0.58**, güven 0.72 — Sıcak enflasyon ve Fed’in şahin söylemi faiz artışı beklentilerini ve doları güçlendiriyor; bu, kısa vadede altın üzerinde baskın bir olumsuz etki yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de haberlerin bir kısmı tekrarlı veya belirsiz olduğundan bu desteğin ağırlığı daha 
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 14:34 N  GPT  score -0.48 conf 0.69: Sıcak enflasyon verisi Fed’in faiz artırımı beklentilerini güçlendirirken dolar iki haftanın zirvesine yaklaşıyor; bu, kısa vadede altın üzerinde baskı yaratıyor. Rusya yaptırımları ve İran kaynaklı gerilimler güvenli liman talebini destekleyebilir, ancak şu an faiz ve dolar etkisi daha baskın görün
-11.11 14:46 N  NEWS (10 new) score -0.40 conf 0.60: Faiz artırımı beklentileri güçleniyor ve dolar iki haftalık zirveye yaklaşıyor; bu, reel faiz ve dolar kanalıyla altın için baskılayıcı. İran savaşına bağlı enflasyon yükselişi güvenli liman talebini bir miktar destekliyor olsa da, piyasada baskın etki hawkish Fed ve güçlü dolar yönünde görünüyor.
 11.11 14:46 N  GPT  score -0.28 conf 0.55: Doların iki haftalık zirveye yaklaşması ve enflasyonun Fed’in faiz artırımı beklentilerini güçlendirmesi altın üzerinde kısa vadeli baskı yaratıyor. IRGC’nin yeni füze açıklaması güvenli liman talebini destekleyebilir, ancak haber belirsiz ve etkisi mevcut savaş riskleriyle kısmen fiyatlanmış olabil
 11.11 14:58 N  NEWS (10 new) score -0.45 conf 0.60: Faiz artırımı beklentilerinin güçlenmesi, doların iki haftalık zirveye yaklaşması ve enflasyonun yükselmesi altın için baskılayıcı. Iran savaşına ilişkin jeopolitik risk güvenli liman talebini destekleyebilir, ancak ABD'nin diplomatik çabaları ve Rusya-Ukrayna esir takası gibi gelişmeler bu etkiyi sınırlıyor. Altın haberlerinde de fiyatın 4.050 dolar civarında zorlandığı görülüyor.
 11.11 14:58 N  GPT  score -0.35 conf 0.63: Fed faiz artırımı beklentilerinin güçlenmesi ve doların sağlam seyri, kısa vadede altın üzerinde baskı yaratıyor. İran’ın füze tesisleri ve ABD’nin sert söylemi güvenli liman talebini desteklese de Rusya-Ukrayna esir takası haberi ve bu gerilimin zaten sürüyor olması yükselişi sınırlayabilir.
@@ -104,6 +102,8 @@ Son işlemler:
 11.11 15:40 B5  SHORT gold 25000 USD x10 @ 4032.02 (TP 4019.93, SL 4040.09; news -0.59)
 11.11 15:46 N  NEWS (15 new) score -0.50 conf 0.60: Sıcak enflasyon ve Fed'in faiz artırımına yönelik şahin söylemleri, faiz artırımı beklentilerini yükseltip doları güçlendiriyor; bu da altın için baskı oluşturuyor. İran ve Ukrayna'daki çatışma haberleri sınırlı bir güvenli liman talebi sağlasa da bu etkiyi dolar ve faiz kaynaklı düşüşün gölgelemesi bekleniyor.
 11.11 15:46 N  GPT  score -0.68 conf 0.76: Sıcak enflasyon verileri ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyip altın üzerinde baskı yaratıyor; altın fiyatlarındaki düşüş haberleri de bu yönü teyit ediyor. İran kaynaklı tehditler güvenli liman talebini artırabilir, ancak kısa vadede faiz ve dolar etkisi daha baskın 
+11.11 15:58 N  NEWS (16 new) score -0.60 conf 0.60: Sıcak enflasyon verisi ve Fed'in sıkılaştırma sinyalleri dolar ile faiz artırımı beklentilerini yükseltiyor; bu, altın için 1-4 saatlik vadede baskı oluşturuyor. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar kaynaklı düşüşü dengelemeye yetmiyor.
+11.11 15:58 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon ve Fed’in şahin söylemi faiz artışı beklentilerini ve doları güçlendiriyor; bu, kısa vadede altın üzerinde baskın bir olumsuz etki yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de haberlerin bir kısmı tekrarlı veya belirsiz olduğundan bu desteğin ağırlığı daha 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
