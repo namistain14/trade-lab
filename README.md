@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 19:10 (İstanbul)
+> Son güncelleme: 11.11.2026 19:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %100.0 | %42.1 |
 | Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,786.95 $** (başlangıç 5,000 $, -213.05 $ / %-4.26)
+**Hesap değeri: 4,791.69 $** (başlangıç 5,000 $, -208.31 $ / %-4.17)
 
 Açık pozisyonlar: PAXGUSDT short @ 4006.90 (TP 3994.88 / SL 4014.91)
 
-Son haber analizi (11.11 19:00): Claude puan **-0.50**, güven 0.60 — Haberlerin çoğu gürültü (savaş anıları, veteran hikayeleri), ancak piyasayı etkileyen başlıklar ağırlıklı olarak Fed'in faiz artırımı beklentilerini ve sıcak ABD enflasyonunu gösteriyor; reel getiriler yükselirken dolar güçleniyor. Trump'ın İran savaşının "askeri olarak esasen bittiğini" söylemesi de jeopolitik güvenli liman talebini zayıflatıyor. Bu nedenler altın için kısa vadede baskılayıcı; ancak bazı haberlerin eski olabilmesi ve Standard Chartered'ın yükseliş tahmini gibi destekleyici unsurlar güveni sınırlıyor.
+Son haber analizi (11.11 19:12): Claude puan **-0.45**, güven 0.55 — Sıcak ABD enflasyonu, Fed'de yarım puanlık faiz artışı beklentilerini ve yükselen reel getirileri öne çıkarıyor; bu, dolar güçlenmesiyle birlikte altın için baskı yaratıyor. Trump'ın İran savaşının "esasen bitti" demesi de jeopolitik güvenli liman talebini azaltıyor; ancak CPI ve Fed haberlerinin büyük kısmı zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.45**, güven 0.68 — Sıcak ABD enflasyonu, Fed’in daha şahin olabileceği beklentisini ve dolar/gerçek faizleri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının askeri açıdan «fiilen sona erdiği» açıklaması güvenli liman talebini de azaltabilir; ancak bölgedeki gerilim haberleri bu etkiyi kısmen d
+GPT (gpt-6-luna): puan **-0.45**, güven 0.66 — Sıcak enflasyon ve Fed’in daha şahin kalabileceği beklentisi dolar ile reel getirileri destekleyerek altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini kısmen artırabilir, ancak haberler karışık ve yakın vadeli etkileri belirsiz.
 
 Son işlemler:
 
@@ -74,9 +74,9 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,394.03 $** (başlangıç 100,000 $, +14394.03 $ / %+14.39)
+**Hesap değeri: 114,812.18 $** (başlangıç 100,000 $, +14812.18 $ / %+14.81)
 
-Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); QQQ long @ 689.35 (TP 699.58 / SL 682.35)
+Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35)
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 18:21 B6  karar turu: Claude «Piyasa güçlü açılışın ardından yatay konsolidasyonda; jeopolitik riskler var, ancak TSLA'da göreceli güç öne çıkıyor.» / GPT «Endekslerde gün içi yükseliş ivmesi zayıflarken, dört kat kaldıraç altında seçici davranıp NVDA'daki şirkete özgü negatif ayrışmayı tercih ediyorum.»
-11.11 18:24 N  NEWS (11 new) score -0.45 conf 0.60: ABD enflasyonu beklentilerin üzerinde geldi ve Fed faiz artırımı beklentileri yükseldi; reel getiriler ve doların güçlenmesi altın için baskı oluşturuyor. Jeopolitik haberler (Rusya-Ukrayna görüşmeleri sonuçsuz, İran savaş finansmanı tartışması) güvenli liman talebini destekleyecek nitelikte değil; bu nedenle genel etki altın açısından negatif, ancak bir kısmı zaten fiyatlandığı için güven orta düzeyde.
 11.11 18:24 N  GPT  score -0.75 conf 0.78: Beklentiden yüksek ve yapışkan ABD enflasyonu Fed’in daha sıkı politika izleme olasılığını artırıyor; yükselen reel getiriler ve güçlü dolar kısa vadede altını baskılıyor. Rusya-Ukrayna görüşmelerinde ilerleme olmaması sınırlı güvenli liman desteği sağlayabilir, ancak faiz etkisi daha ağır basıyor.
 11.11 18:33 B6  karar turu: Claude «Piyasa ABD-Çin ve İran başlıklarına rağmen pozitif seyrediyor, ancak öğle saatlerinde momentum zayıfladı ve yatay bir seyir hakim.» / GPT «Endekslerde sabah yükselişi yataylaşırken seçici işlem tercih ediyorum; dört kat kaldıraç nedeniyle toplam pozisyon büyüklüğünü sınırlı tutmak önemli.»
 11.11 18:36 N  NEWS (15 new) score -0.45 conf 0.60: Sıcak ABD enflasyon verisi, reel getirilerin yükselmesi ve Fed'in yarım puanlık faiz artırımı ihtimalinin masada olması altını baskılıyor; dolardaki güç de bu yönü destekliyor. Savaş kaynaklı güvenli liman talebi ise yeni bir tırmanış haberi olmadığı için sınırlı kalıyor.
@@ -106,6 +104,8 @@ Son işlemler:
 11.11 19:00 N  GPT  score -0.45 conf 0.68: Sıcak ABD enflasyonu, Fed’in daha şahin olabileceği beklentisini ve dolar/gerçek faizleri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının askeri açıdan «fiilen sona erdiği» açıklaması güvenli liman talebini de azaltabilir; ancak bölgedeki gerilim haberleri bu etkiyi kısmen d
 11.11 19:10 B6  karar turu: Claude «CoreWeave kaynaklı AI rallisi ve döngüsel hisselerin liderliğiyle piyasa risk iştahlı, ancak öğle saatlerinde momentum hafifçe soğuyor.» / GPT «Teknoloji öncülüğünde risk iştahı güçlü, ancak son geri çekilme ve 1:4 kaldıraç nedeniyle geniş çaplı alım yerine seçici momentum işlemi tercih ediyorum.»
 11.11 19:10 B6  ALIŞ NVDA 653 adet ≈ 114,360 $ (1:4) @ 175.13 (TP 177.76, SL 173.38; ikisi de hemfikir, güven 0.55)
+11.11 19:12 N  NEWS (7 new) score -0.45 conf 0.55: Sıcak ABD enflasyonu, Fed'de yarım puanlık faiz artışı beklentilerini ve yükselen reel getirileri öne çıkarıyor; bu, dolar güçlenmesiyle birlikte altın için baskı yaratıyor. Trump'ın İran savaşının "esasen bitti" demesi de jeopolitik güvenli liman talebini azaltıyor; ancak CPI ve Fed haberlerinin büyük kısmı zaten fiyatlanmış olabilir, bu yüzden güven orta düzeyde.
+11.11 19:12 N  GPT  score -0.45 conf 0.66: Sıcak enflasyon ve Fed’in daha şahin kalabileceği beklentisi dolar ile reel getirileri destekleyerek altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini kısmen artırabilir, ancak haberler karışık ve yakın vadeli etkileri belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
