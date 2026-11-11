@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 23:09 (İstanbul)
+> Son güncelleme: 11.11.2026 23:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,858.97 $** (başlangıç 5,000 $, -141.03 $ / %-2.82)
+**Hesap değeri: 4,854.64 $** (başlangıç 5,000 $, -145.36 $ / %-2.91)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,941.12 $** (başlangıç 100,000 $, +14941.12 $ / %+14.94)
+**Hesap değeri: 114,970.55 $** (başlangıç 100,000 $, +14970.55 $ / %+14.97)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 22:11 B6  karar turu: Claude «CoreWeave kaynaklı AI rallisiyle piyasa güçlü bir gün geçirdi, ancak son saatte endekslerde ve teknoloji hisselerinde kapanış öncesi kâr realizasyonu başladı.» / GPT «Günlük güçlü yükselişe rağmen son barlarda satış baskısı artıyor; kapanışa kalan 49 dakika, hedefe ulaşma süresini daraltıyor ve kaldıraç riskini artırıyor.»
 11.11 22:14 N  NEWS (6 new) score -0.60 conf 0.60: Dolar yıllık zirvelere yakın seyrediyor, yüksek ABD tahvil getirileri ve Aralık ayında Fed faiz artırımı beklentileri altın üzerinde baskı yaratıyor; altın 4.000 doların altına sarkmış durumda. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış görünüyor.
 11.11 22:14 N  GPT  score -0.58 conf 0.66: Doların yeni zirvelere yönelmesi ve yüksek ABD getirilerinin Fed’in faiz artırımı beklentilerini güçlendirmesi, önümüzdeki saatlerde altın için baskın biçimde olumsuz. İran savaşı ve gerilim haberleri güvenli liman talebini destekleyebilir; ancak çoğu haber yeni değil ve şu anki dolar/faiz baskısını
 11.11 22:23 B6  karar turu: Claude «CoreWeave sonuçlarıyla gelen güçlü AI rallisi son saatte, Nvidia/Huang belirsizliği ve kapanış öncesi kâr realizasyonuyla hafifçe soğuyor.» / GPT «Güçlü günlük yükselişe rağmen son saat satış ağırlıklı; kapanışa yalnızca 37 dakika kaldığından 1–3 saatlik taşıma normal seansı aşar ve kaldıraçlı pozisyon kapanış öncesinde sonlandırılmalıdır.»
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 22:59 B6  karar turu: Claude «CoreWeave kaynaklı yapay zeka rallisiyle endeksler güçlü kapanıyor, ancak son saatteki hafif geri çekilme ve kapanış sonrası beklenen NVDA bilançosu belirsizliği artırıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından momentum zayıflıyor; kapanışa bir dakika kala 1:4 kaldıraçla seans dışına taşınacak işlemlerde temkinliyim.»
 11.11 23:02 N  NEWS (10 new) score -0.30 conf 0.50: Sıcak enflasyon verisi nedeniyle Fed'in faiz artırımı beklentileri ve yüksek ABD tahvil getirileri altın üzerinde baskı yaratıyor; altın 4.000 doların altına sarkmış. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve manşetlerde yeni bir tırmanış sinyali zayıf, bu yüzden etki sınırlı kalıyor.
 11.11 23:02 N  GPT  score -0.15 conf 0.30: İran savaşına bağlı enerji ve ısınma maliyetlerinin artacağı haberi enflasyon ile daha sıkı Fed beklentilerini güçlendirerek altın üzerinde baskı yaratabilir. Ancak savaş kaynaklı güvenli liman talebi bunu dengeleyebilir; yeni başlıkların çoğu kısa vadeli fiyatlama açısından sınırlı ve etkiler karış
+11.11 23:12 B6  karar turu: Claude «Gün güçlü bir teknoloji rallisiyle kapandı, ancak kapanış sonrası doğrulanmamış Hormuz başlığı seans dışında risk iştahını baskılayabilir; ince likiditede yeni pozisyon açmak yerine beklemek daha mantıklı.» / GPT «Günlük yükselişe rağmen kapanıştaki momentum kaybı ve teyitsiz Hürmüz haberi aşağı yönlü riski artırırken, kapanış sonrası düşük likidite ve braket emirlerinin de
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
