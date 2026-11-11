@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 20:28 (İstanbul)
+> Son güncelleme: 11.11.2026 20:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %75.0 | %42.3 |
 | Ödenen komisyon/spread | 47.47 $ | 925.46 $ |
 
-**Hesap değeri: 4,761.47 $** (başlangıç 5,000 $, -238.53 $ / %-4.77)
+**Hesap değeri: 4,755.53 $** (başlangıç 5,000 $, -244.47 $ / %-4.89)
+
+Açık pozisyonlar: PAXGUSDT short @ 3997.50 (TP 3985.51 / SL 4005.50)
 
 Son haber analizi (11.11 20:25): Claude puan **-0.40**, güven 0.60 — Sıcak enflasyon verisi tahvil faizlerini yükseltiyor ve dolar 19 ayın zirvesine çıkarak Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için net olarak baskılayıcı. İran destekli saldırı planları ve Bessent'in tehdit nedeniyle yer değiştirmesi gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak etkisi makro haberlerin gerisinde kalıyor.
 
@@ -72,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,228.57 $** (başlangıç 100,000 $, +16228.57 $ / %+16.23)
+**Hesap değeri: 116,240.96 $** (başlangıç 100,000 $, +16240.96 $ / %+16.24)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -89,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 19:48 N  NEWS (15 new) score -0.60 conf 0.70: Yeni başlıklar ağırlıklı olarak altı baskılıyor: dolar 19 aylık zirveye yükseldi ve piyasalar Aralık'ta Fed faiz artırımını fiyatlıyor, bu da reel faiz beklentilerini yukarı itip altın için negatif. Enflasyonun sıcak kalması da sıkılaştırma riskini destekliyor; savaş ve Rusya-Ukrayna haberleri ise eski veya fiyatlanmış olduğu için güvenli liman etkisi zayıf.
 11.11 19:48 N  GPT  score -0.48 conf 0.68: Doların 19 ayın zirvesine çıkması ve Fed’in faiz artırımı beklentilerinin güçlenmesi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. Sıcak enflasyon ve jeopolitik haberler destekleyici olsa da bunların etkisi sınırlı ve kısmen çelişkili görünüyor.
 11.11 19:51 B5  CLOSE short take profit: +69.08 USD
 11.11 19:58 B5  SHORT gold 25000 USD x10 @ 3993.56 (TP 3981.58, SL 4001.55; news -0.54)
@@ -104,6 +105,7 @@ Son işlemler:
 11.11 20:25 B5  CLOSE short stop: -55.95 USD
 11.11 20:25 N  NEWS (4 new) score -0.40 conf 0.60: Sıcak enflasyon verisi tahvil faizlerini yükseltiyor ve dolar 19 ayın zirvesine çıkarak Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için net olarak baskılayıcı. İran destekli saldırı planları ve Bessent'in tehdit nedeniyle yer değiştirmesi gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilir, ancak etkisi makro haberlerin gerisinde kalıyor.
 11.11 20:25 N  GPT  score -0.20 conf 0.35: İran kaynaklı saldırı planları ve Hazine Bakanı’nın tehditler nedeniyle yer değiştirmesi güvenli liman talebini destekleyebilir; ancak doların 19 ayın zirvesine çıkması ve Fed’in faiz artırımı beklentileri altın üzerinde baskı yaratıyor. Haber akışı karışık ve kısa vadeli etki sınırlı görünüyor.
+11.11 20:31 B5  SHORT gold 25000 USD x10 @ 3997.50 (TP 3985.51, SL 4005.50; news -0.30)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
