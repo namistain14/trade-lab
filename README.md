@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 18:05 (İstanbul)
+> Son güncelleme: 11.11.2026 18:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %100.0 | %42.1 |
 | Ödenen komisyon/spread | 23.72 $ | 901.71 $ |
 
-**Hesap değeri: 4,736.91 $** (başlangıç 5,000 $, -263.09 $ / %-5.26)
+**Hesap değeri: 4,732.17 $** (başlangıç 5,000 $, -267.83 $ / %-5.36)
 
 Açık pozisyonlar: PAXGUSDT short @ 4006.90 (TP 3994.88 / SL 4014.91)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,233.07 $** (başlangıç 100,000 $, +14233.07 $ / %+14.23)
+**Hesap değeri: 114,220.43 $** (başlangıç 100,000 $, +14220.43 $ / %+14.22)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 17:23 N  GPT  score -0.35 conf 0.58: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve dolar/faiz getirilerini yükselterek altına kısa vadede baskı yapıyor. İran gerilimi ve Hürmüz kaynaklı güvenli liman talebi bunu kısmen dengeliyor; haber akışı çelişkili olduğundan düşüş beklentisi sınırlı.
 11.11 17:33 B5  CLOSE short take profit: +69.08 USD
 11.11 17:33 B6  karar turu: Claude «Piyasa ABD-Çin yumuşaması umuduyla pozitif ama endekslerde son saatte momentum yavaşlıyor; şirkete özel haberler öne çıkıyor.» / GPT «Piyasa pozitif ancak teknoloji endeksi duraklıyor; dört kat kaldıraç altında endeksi kovalamak yerine şirket haberi ve göreli güce dayalı seçici işlemler öne çıkıyor.»
 11.11 17:33 B6  AÇIĞA SATIŞ NVDA 642 adet ≈ 111,625 $ (1:4) @ 173.87 (TP 171.26, SL 175.61; ikisi de hemfikir, güven 0.50)
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 17:57 B6  karar turu: Claude «Piyasa ABD-Çin yumuşaması umuduyla pozitif açıldı ancak son saatte teknoloji tarafında, özellikle NVDA'da, kâr satışları ve haber kaynaklı belirsizlik hâkim.» / GPT «Endekslerde ivme karışık olduğundan şirket bazlı işlemler öne çıkıyor; 1:4 kaldıraçta yüzde 1 stop, kayma hariç işlem teminatında yaklaşık yüzde 4 kayıp yaratabilir.»
 11.11 17:59 N  NEWS (17 new) score -0.50 conf 0.60: Beklenenden sıcak ABD enflasyonu (CPI) Fed faiz artırımı olasılığını yükseltiyor, reel getiriler yükseliyor ve dolar güçlü seyrediyor; bu altın için net olarak baskılayıcı. İran ile ilgili saldırı planı haberleri ve savaş gündemi sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki faiz ve dolar kanalının gerisinde kalıyor.
 11.11 17:59 N  GPT  score -0.58 conf 0.74: Beklentiyi aşan ve yapışkan enflasyon haberleri Fed’in daha sıkı politika olasılığını ve reel getirileri yükselterek altını baskılıyor; doların güçlenmesi de bu etkiyi destekliyor. İran bağlantılı saldırı planı haberi güvenli liman talebini bir miktar artırabilir, ancak belirgin bir tırmanışa işaret
+11.11 18:09 B6  karar turu: Claude «Endeksler teknoloji öncülüğünde yükselişte, ancak İran kaynaklı yeni jeopolitik açıklamalar gün ortasında temkinli olmayı gerektiriyor.» / GPT «Endekslerdeki toparlanmaya rağmen momentum karışık; dört kat kaldıraçta geniş piyasa yönü yerine NVDA'nın haber kaynaklı zayıflığında seçici kısa pozisyon tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
