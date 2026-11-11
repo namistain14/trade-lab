@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 11.11.2026 21:44 (İstanbul)
+> Son güncelleme: 11.11.2026 21:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %80.0 | %43.0 |
 | Ödenen komisyon/spread | 59.35 $ | 937.34 $ |
 
-**Hesap değeri: 4,828.68 $** (başlangıç 5,000 $, -171.32 $ / %-3.43)
+**Hesap değeri: 4,840.78 $** (başlangıç 5,000 $, -159.22 $ / %-3.18)
 
 Açık pozisyonlar: PAXGUSDT short @ 3986.19 (TP 3974.23 / SL 3994.16)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,431.59 $** (başlangıç 100,000 $, +17431.59 $ / %+17.43)
+**Hesap değeri: 117,435.32 $** (başlangıç 100,000 $, +17435.32 $ / %+17.44)
 
 Açık pozisyonlar: AAPL long @ 352.42 (TP 358.08 / SL 349.26); NVDA long @ 175.04 (TP 177.76 / SL 173.38); QQQ long @ 689.35 (TP 699.58 / SL 682.35); SPY long @ 760.03 (TP 771.34 / SL 752.34)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-11.11 20:49 N  GPT  score -0.62 conf 0.74: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentileri, doların güçlenmesiyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; altın da kayıplarını koruyor. İran ve Hürmüz kaynaklı riskler güvenli liman talebi sağlayabilir, ancak mevcut haber akışında bu etki dolar/faiz baskısını dengelemiyor
 11.11 20:58 B6  karar turu: Claude «CoreWeave sonuçlarıyla teknoloji öncülüğünde güçlü bir risk iştahı var, ancak öğleden sonra momentum yatay seyre döndü ve Nvidia skandalı oynaklık riski taşıyor.» / GPT «Endekslerde güçlü günlük yükselişin ardından saatlik momentum zayıflıyor; kaldıraçlı yeni girişlerde hareketi kovalamaktan kaçınmak gerekiyor.»
 11.11 21:01 N  NEWS (9 new) score -0.60 conf 0.70: Sıcak ABD enflasyon verisi ve Fed faiz artırımı beklentileri, doların yıllık/19 aylık zirvesine çıkmasına ve tahvil getirilerinin yükselmesine yol açıyor; bu da altın için net bir baskı oluşturuyor. İran savaşıyla ilgili haberler güvenli liman talebini bir miktar destekleyebilir, ancak Trump'ın savaşın "fiilen bittiği" yönündeki açıklamaları bu etkiyi sınırlıyor.
 11.11 21:01 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi ve Fed’in daha fazla faiz artırabileceği beklentisi, doların yıllık zirvelere çıkmasıyla birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşına ilişkin söylemler güvenli liman talebini destekleyebilir; ancak çatışmanın sona erebileceği mesajları bu desteği sınırlıyor.
@@ -106,6 +105,7 @@ Son işlemler:
 11.11 21:35 B6  karar turu: Claude «CoreWeave sonuçlarıyla yapay zekâ rallisi piyasayı yukarı taşıyor, son saatte ise endeksler yatay-pozitif konsolidasyonda.» / GPT «Endekslerde güçlü günlük yükselişe rağmen son saat ivmesi zayıf; mevcut seviyelerde hareketi kovalamak yerine yeni katalizör gerekiyor.»
 11.11 21:38 N  NEWS (10 new) score -0.40 conf 0.50: Dolar endeksi yıllık zirvesini test ediyor ve piyasalar sıkılaşan (hawkish) Fed'e bahis yapıyor; bu, altın için 1-4 saatlik vadede baskı yaratan bir faktör. Öte yandan İran savaşında de-eskalasyon sinyalleri (Tahran'ın savaşın sürmesini istemediği, Trump'ın savaşın "kazanıldığını" söylemesi) güvenli liman talebini azaltıyor. Haberlerin çoğu (veteran anma haberleri, spor, magazin) fiyatı etkilemeyecek gürültü; bu nedenle güven orta düzeyde.
 11.11 21:38 N  GPT  score -0.48 conf 0.67: Doların yılın en yüksek seviyelerine çıkması ve Fed’in daha şahin olacağı beklentisi, kısa vadede altın üzerinde belirgin baskı oluşturuyor. İran başlıkları jeopolitik risk primi sağlayabilir; ancak savaşın sona erebileceğine dair açıklamalar bu desteği sınırlıyor.
+11.11 21:47 B6  karar turu: Claude «CoreWeave sonuçlarının desteğiyle teknoloji öncülüğünde risk iştahı güçlü, endeksler gün zirvesine yakın ve yukarı eğilimli.» / GPT «Endekslerin yükselişi alımları destekliyor ancak günlük hareketlerin büyüklüğü ve kapanışa yalnızca 73 dakika kalması, %1,5 hedefe ulaşmayı zorlaştırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
