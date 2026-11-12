@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    5000.0
-   ],
-   [
     1793937141,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794459772,
+    5000.0
+   ],
+   [
+    1794459808,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    4868.5
-   ],
-   [
     1793937141,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794459772,
+    4868.5
+   ],
+   [
+    1794459808,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "11.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "11.11 08:05 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvZN7U3xSoYDohEzcxpR'}",
   "11.11 08:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "11.11 08:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvZbWmd9eLQuAoQ72EZt'}",
@@ -30167,7 +30166,8 @@
   "12.11 07:59 B5P  GPT  score -0.35 conf 0.56: Bar\u0131\u015f g\u00f6r\u00fc\u015fmesi umutlar\u0131, Suudi \u00fcretimindeki art\u0131\u015f ve OPEC+ ihracat\u0131n\u0131n sava\u015f \u00f6ncesi seviyelere yakla\u015fmas\u0131 yak\u0131n vadede arz endi\u015felerini azalt\u0131p Brent \u00fczerinde bask\u0131 kuruyor. H\u00fcrm\u00fcz\u2019deki may\u0131n/tanker haberleri ve \u0130ran\u2019\u0131n misilleme tehdidi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 do\u011frulanmam\u0131\u015f vey",
   "12.11 08:02 N  NEWS (6 new) score -0.60 conf 0.70: G\u00fc\u00e7l\u00fc dolar (2026'n\u0131n en y\u00fcksek seviyesi/19 ay zirvesi), Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131nda kalmas\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Orta Do\u011fu riskleri jeopolitik talebi destekliyor olsa da, dolar ve faiz kanal\u0131 daha bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
   "12.11 08:02 N  GPT  score -0.68 conf 0.79: G\u00fc\u00e7lenen dolar ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor; fiyat\u0131n 4.000 dolar\u0131n alt\u0131nda zorlanmas\u0131 ve haftan\u0131n en d\u00fc\u015f\u00fck seviyelerine gerilemesi bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran-\u0130srail gerilimi g\u00fcvenli liman talebini art\u0131rabilir, ancak k\u0131sa vadede dolar v",
-  "12.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "12.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "12.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    4963.78
-   ],
-   [
     1793937141,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794459772,
+    4963.78
+   ],
+   [
+    1794459808,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    4975.18
-   ],
-   [
     1793937141,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794459772,
+    4975.18
+   ],
+   [
+    1794459808,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    4993.28
-   ],
-   [
     1793937141,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794459772,
+    4993.28
+   ],
+   [
+    1794459808,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793936961,
-    4969.22
-   ],
-   [
     1793937141,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794459772,
+    4969.22
+   ],
+   [
+    1794459808,
     4969.22
    ]
   ],
@@ -80514,10 +80514,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793936961,
-    4798.34
-   ],
    [
     1793937141,
     4798.34
@@ -92513,6 +92509,10 @@
    [
     1794459772,
     4797.3
+   ],
+   [
+    1794459808,
+    4800.63
    ]
   ],
   "news_calls": {
@@ -93437,10 +93437,6 @@
    "equity": 115261.43
   },
   "equity_curve": [
-   [
-    1793936961,
-    108278.0
-   ],
    [
     1793937141,
     108278.0
@@ -105436,6 +105432,10 @@
    [
     1794459772,
     115261.43
+   ],
+   [
+    1794459808,
+    115261.43
    ]
   ],
   "open": {},
@@ -105618,10 +105618,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793936961,
-    5066.43
-   ],
    [
     1793937141,
     5066.43
@@ -117616,6 +117612,10 @@
    ],
    [
     1794459772,
+    4876.96
+   ],
+   [
+    1794459808,
     4876.96
    ]
   ],
