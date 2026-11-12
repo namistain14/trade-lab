@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 23:18 (İstanbul)
+> Son güncelleme: 12.11.2026 23:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,697.47 $** (başlangıç 5,000 $, -302.53 $ / %-6.05)
+**Hesap değeri: 4,682.07 $** (başlangıç 5,000 $, -317.93 $ / %-6.36)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
@@ -69,29 +69,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1989.40 $ | +10282.26 $ |
-| İşlem sayısı | 2 | 41 |
-| Kazanma oranı | %0.0 | %51.2 |
+| Net kâr/zarar | -1214.85 $ | +11056.81 $ |
+| İşlem sayısı | 3 | 42 |
+| Kazanma oranı | %33.3 | %52.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,410.68 $** (başlangıç 100,000 $, +13410.68 $ / %+13.41)
+**Hesap değeri: 114,247.52 $** (başlangıç 100,000 $, +14247.52 $ / %+14.25)
 
-Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
+Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 23:21 | TSLA | long | +774.55 $ | take profit |
 | 12.11 21:50 | NVDA | long | -834.20 $ | stop |
 | 12.11 20:38 | AAPL | long | -1155.20 $ | stop |
 | 11.11 23:45 | SPY | long | +21.86 $ | seans sonu |
 | 11.11 23:45 | QQQ | long | +339.47 $ | seans sonu |
-| 11.11 23:45 | NVDA | long | -45.71 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-12.11 21:35 B6  karar turu: Claude «Endeksler hafif artıda ve yatay seyrediyor; Fed'in enflasyon uyarıları ile Nvidia kaynaklı belirsizlik yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endeksler yatay seyrederken NVDA'daki toparlanma seçici alımı destekliyor, ancak şirket haberleri ve enflasyon açıklamaları nedeniyle 1:4 kaldıraçta pozisyon büyüklüğü sınırlı tutulmalı.»
 12.11 21:35 B6  ALIŞ NVDA 496 adet ≈ 82,609 $ (1:4) @ 166.55 (TP 169.05, SL 164.88; ikisi de hemfikir, güven 0.52)
 12.11 21:38 B5  CLOSE short stop (gap): -56.18 USD
 12.11 21:47 B6  karar turu: Claude «Endeksler Nvidia'daki CEO değişimi ve DOJ soruşturması haberlerine rağmen yatay, ancak son bir saatte hafif satış baskısı görülüyor.» / GPT «Endekslerde son saat satış baskısı öne çıkarken Nvidia kaynaklı olumsuz haber akışı teknoloji hisselerinde temkin gerektiriyor.»
@@ -106,6 +105,7 @@ Son işlemler:
 12.11 22:49 B6  karar turu: Claude «Piyasa NVDA kaynaklı baskıya rağmen hafif ekside dengeli kapanışa gidiyor; kapanışa dakikalar kala ve gece haber riski yüksekken yeni pozisyon açmak mantıklı değil.» / GPT «Endeksler hafif zayıf; kapanışa 12 dakika kaldığından 1–3 saatlik işlem kapanış sonrasına taşar ve braket emirlerinin bu seansta çalıştığı doğrulanmalıdır.»
 12.11 23:01 B6  karar turu: Claude «Endeksler Nvidia krizine rağmen hafif ekside ve sakin kapandı; seans sonrası düşük likidite ve gece haber riski nedeniyle yeni pozisyon açmamak daha doğru.» / GPT «Saat 16:00 itibarıyla seans dışına geçişte düşük likidite ve bracket emirlerinin işlerliğinin doğrulanmamış olması, 1:4 kaldıraçla yeni pozisyon açmayı elverişsiz kılıyor.»
 12.11 23:13 B6  karar turu: Claude «Seans kapandı; Nvidia'daki CEO krizi teknoloji hisselerine baskı yapıyor ama düşük likiditede yeni pozisyon açmak için yeterli avantaj yok.» / GPT «Endekslerde eğilim aşağı; ancak 16:12 itibarıyla normal seans kapalı olduğundan düşük likidite ve bracket emirlerinin seans dışı geçerliliğinin belirsizliği 4 kat kaldıraçla yeni pozisyon açmayı elverişsiz kılıyor.»
+12.11 23:21 B6  CLOSE long TSLA take profit: +774.55 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
