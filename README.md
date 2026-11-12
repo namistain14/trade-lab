@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 06:22 (İstanbul)
+> Son güncelleme: 12.11.2026 06:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %33.3 | %42.7 |
 | Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
 
-**Hesap değeri: 4,795.47 $** (başlangıç 5,000 $, -204.53 $ / %-4.09)
+**Hesap değeri: 4,785.85 $** (başlangıç 5,000 $, -214.15 $ / %-4.28)
 
 Açık pozisyonlar: PAXGUSDT short @ 3975.48 (TP 3963.56 / SL 3983.44)
 
-Son haber analizi (12.11 06:13): Claude puan **-0.60**, güven 0.60 — Sıcak ABD enflasyon verisi ve Fed'in faiz artırımı beklentilerinin yükselmesi, güçlü doların da desteğiyle altını baskılıyor; Deutsche Bank'ın üç art arda Fed artırımı öngörmesi bu baskıyı sürdürüyor. Doların 19 aylık zirvesinden hafifçe geri çekilmesi ve İran savaşıyla ilgili jeopolitik haberlerin sınırlı güvenli liman talebi yaratması kısmen dengeleyici, ancak haberlerin çoğu zaten fiyatlanmış durumda.
+Son haber analizi (12.11 06:25): Claude puan **-0.50**, güven 0.55 — Sıcak CPI sonrası Fed'in sıkılaştırma beklentileri ve güçlenen dolar altını 4.000 doların altına itti; yeni haberler de dolar ve Fed faiz artışı beklentilerinin hâlâ güçlü olduğunu gösteriyor, bu nedenle kısa vadede baskı sürebilir. Ancak düşüş büyük ölçüde fiyatlanmış olabilir ve bazı başlıklar eski veya tekrar eden nitelikte olduğundan güven sınırlı tutuldu.
 
-GPT (gpt-6-luna): puan **-0.58**, güven 0.72 — Sıcak enflasyon verisi sonrası Fed’in daha fazla faiz artıracağı beklentisi ve doların güçlü seyri altın üzerinde belirgin baskı yaratıyor. Doların son gerilemesi ve İran savaşı kaynaklı güvenli liman talebi bu baskıyı kısmen sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.58**, güven 0.67 — Fed’in daha fazla faiz artıracağı beklentisi ve doların güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor; yeni başlıklar da dolar yükselirken altının desteği test ettiğini gösteriyor. PBOC kaynaklı dolar geri çekilmesi sınırlı bir karşı unsur, ancak belirgin yeni bir güvenli liman katalizörü y
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 04:24 N  NEWS (11 new) score -0.50 conf 0.60: Güçlü ABD enflasyon verisi, doların 19 aylık zirvesine yakın seyretmesi ve Fed'in faiz artırma beklentilerinin güçlenmesi altın üzerinde baskı yaratıyor; altın 4.000 doların altına geriledi. İran savaşının tırmanması (Trump'ın "toplam zafer" vaadi, İran'ın daha geniş savaş tehdidi) jeopolitik korku alımını destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve kısa vadede dolar/faiz kanalı daha belirleyici.
-12.11 04:24 N  GPT  score -0.25 conf 0.58: Güçlü dolar ve enflasyonun Fed faiz artışı beklentilerini yükseltmesi altın üzerinde kısa vadeli baskı kuruyor. İran geriliminin tırmanma riski güvenli liman talebiyle bunu kısmen dengeliyor; haberlerin çoğu mevcut fiyat hareketini yansıtıyor olabilir.
 12.11 04:36 N  NEWS (6 new) score -0.50 conf 0.60: Güçlü ABD enflasyon verisi, dolarda 19 aylık zirve ve Fed'in faiz artırma beklentilerinin güçlenmesi altın üzerinde baskı yaratıyor; altın 4.000 doların altına sarkmış durumda. Bu gelişmelerin bir kısmı zaten fiyatlanmış olduğu ve yeni haberlerin çoğu (savaş gazileri, Iran War karşıtı açıklamalar) piyasa etkisi taşımadığı için güveni sınırlıyorum.
 12.11 04:36 N  GPT  score -0.55 conf 0.62: Güçlü dolar ve enflasyon verilerinin Fed faiz artışı beklentilerini artırması altın üzerinde kısa vadeli baskı yaratıyor; altının 4.000 doların altına gerilemesi de bu yönü destekliyor. En yeni başlıklar önemli bir tırmanış sinyali vermediğinden ve ana haberler piyasaya yansımış olabileceğinden güve
 12.11 04:48 N  NEWS (4 new) score -0.60 conf 0.70: Güçlü ABD enflasyon verisi, doların 19 aylık zirvesi ve Fed'in faiz artırımı beklentileri altını 4.000 doların altında tutuyor; bu, kısa vadede altın için net ayı sinyali. İran savaşıyla ilgili haberler (korku alımı potansiyeli) mevcut ancak yeni bir eskalasyon gösteren taze haber yok ve bu konular büyük ölçüde fiyatlanmış durumda, bu yüzden güvenli liman etkisi sınırlı kalıyor.
@@ -104,6 +102,8 @@ Son işlemler:
 12.11 06:01 N  GPT  score -0.55 conf 0.62: Güçlü dolar ve yüksek enflasyonun Fed faiz artırımı beklentilerini beslemesi altın üzerinde baskı yaratıyor; altın zaten 4.000 doların altına gerilemiş olduğundan bu etki kısmen fiyatlanmış olabilir. Yeni başlıklarda doların yükselişi düşüş yönünü desteklerken, belirgin yeni bir jeopolitik tırmanış 
 12.11 06:13 N  NEWS (6 new) score -0.60 conf 0.60: Sıcak ABD enflasyon verisi ve Fed'in faiz artırımı beklentilerinin yükselmesi, güçlü doların da desteğiyle altını baskılıyor; Deutsche Bank'ın üç art arda Fed artırımı öngörmesi bu baskıyı sürdürüyor. Doların 19 aylık zirvesinden hafifçe geri çekilmesi ve İran savaşıyla ilgili jeopolitik haberlerin sınırlı güvenli liman talebi yaratması kısmen dengeleyici, ancak haberlerin çoğu zaten fiyatlanmış durumda.
 12.11 06:13 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi sonrası Fed’in daha fazla faiz artıracağı beklentisi ve doların güçlü seyri altın üzerinde belirgin baskı yaratıyor. Doların son gerilemesi ve İran savaşı kaynaklı güvenli liman talebi bu baskıyı kısmen sınırlayabilir.
+12.11 06:25 N  NEWS (4 new) score -0.50 conf 0.55: Sıcak CPI sonrası Fed'in sıkılaştırma beklentileri ve güçlenen dolar altını 4.000 doların altına itti; yeni haberler de dolar ve Fed faiz artışı beklentilerinin hâlâ güçlü olduğunu gösteriyor, bu nedenle kısa vadede baskı sürebilir. Ancak düşüş büyük ölçüde fiyatlanmış olabilir ve bazı başlıklar eski veya tekrar eden nitelikte olduğundan güven sınırlı tutuldu.
+12.11 06:25 N  GPT  score -0.58 conf 0.67: Fed’in daha fazla faiz artıracağı beklentisi ve doların güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor; yeni başlıklar da dolar yükselirken altının desteği test ettiğini gösteriyor. PBOC kaynaklı dolar geri çekilmesi sınırlı bir karşı unsur, ancak belirgin yeni bir güvenli liman katalizörü y
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
