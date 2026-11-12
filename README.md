@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 23:09 (İstanbul)
+> Son güncelleme: 12.11.2026 23:13 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,691.28 $** (başlangıç 5,000 $, -308.72 $ / %-6.17)
+**Hesap değeri: 4,690.06 $** (başlangıç 5,000 $, -309.94 $ / %-6.20)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %51.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,528.07 $** (başlangıç 100,000 $, +13528.07 $ / %+13.53)
+**Hesap değeri: 113,458.66 $** (başlangıç 100,000 $, +13458.66 $ / %+13.46)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 21:26 N  GPT  score -0.68 conf 0.72: Beklentiden yüksek ABD enflasyonu ve Fed’in daha fazla faiz artırabileceği görüşü dolar ile reel faizleri destekleyerek altın üzerinde baskı kuruyor; altının önemli desteği kırdığına dair haber de kısa vadeli düşüş momentumuna işaret ediyor. Daly’nin yeni enflasyon uyarısı bu görünümü güçlendiriyor,
 12.11 21:35 B6  karar turu: Claude «Endeksler hafif artıda ve yatay seyrediyor; Fed'in enflasyon uyarıları ile Nvidia kaynaklı belirsizlik yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endeksler yatay seyrederken NVDA'daki toparlanma seçici alımı destekliyor, ancak şirket haberleri ve enflasyon açıklamaları nedeniyle 1:4 kaldıraçta pozisyon büyüklüğü sınırlı tutulmalı.»
 12.11 21:35 B6  ALIŞ NVDA 496 adet ≈ 82,609 $ (1:4) @ 166.55 (TP 169.05, SL 164.88; ikisi de hemfikir, güven 0.52)
 12.11 21:38 B5  CLOSE short stop (gap): -56.18 USD
@@ -106,6 +105,7 @@ Son işlemler:
 12.11 22:36 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"67250.86","code":40310000,"cost_basis":"79150.36","message":"insufficient buying power"}
 12.11 22:49 B6  karar turu: Claude «Piyasa NVDA kaynaklı baskıya rağmen hafif ekside dengeli kapanışa gidiyor; kapanışa dakikalar kala ve gece haber riski yüksekken yeni pozisyon açmak mantıklı değil.» / GPT «Endeksler hafif zayıf; kapanışa 12 dakika kaldığından 1–3 saatlik işlem kapanış sonrasına taşar ve braket emirlerinin bu seansta çalıştığı doğrulanmalıdır.»
 12.11 23:01 B6  karar turu: Claude «Endeksler Nvidia krizine rağmen hafif ekside ve sakin kapandı; seans sonrası düşük likidite ve gece haber riski nedeniyle yeni pozisyon açmamak daha doğru.» / GPT «Saat 16:00 itibarıyla seans dışına geçişte düşük likidite ve bracket emirlerinin işlerliğinin doğrulanmamış olması, 1:4 kaldıraçla yeni pozisyon açmayı elverişsiz kılıyor.»
+12.11 23:13 B6  karar turu: Claude «Seans kapandı; Nvidia'daki CEO krizi teknoloji hisselerine baskı yapıyor ama düşük likiditede yeni pozisyon açmak için yeterli avantaj yok.» / GPT «Endekslerde eğilim aşağı; ancak 16:12 itibarıyla normal seans kapalı olduğundan düşük likidite ve bracket emirlerinin seans dışı geçerliliğinin belirsizliği 4 kat kaldıraçla yeni pozisyon açmayı elverişsiz kılıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
