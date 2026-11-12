@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 07:56 (İstanbul)
+> Son güncelleme: 12.11.2026 07:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %33.3 | %42.7 |
 | Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
 
-**Hesap değeri: 4,814.84 $** (başlangıç 5,000 $, -185.16 $ / %-3.70)
+**Hesap değeri: 4,817.11 $** (başlangıç 5,000 $, -182.89 $ / %-3.66)
 
 Açık pozisyonlar: PAXGUSDT short @ 3975.48 (TP 3963.56 / SL 3983.44)
 
@@ -52,9 +52,9 @@ Son işlemler:
 
 **Hesap değeri: 4,876.96 $** (başlangıç 5,000 $, -123.04 $ / %-2.46)
 
-Son haber analizi (10.11 07:59): Claude puan **-0.25**, güven 0.50 — Trump'ın İran savaşının askeri olarak bittiğini söylemesi ve Brent'in %6,7 düşüp 91,70 dolara gerilemesi, barış beklentileri nedeniyle kısa vadede baskı yaratıyor. Ancak Hormuz'daki gemi saldırıları, Husilerin Suudi boru hattına yönelik saldırıları ve Çin'in ham petrol ithalatının artması arz riskini canlı tutuyor; bu çelişkili haberler güveni sınırlıyor.
+Son haber analizi (12.11 07:59): Claude puan **-0.15**, güven 0.40 — Başlıklar karışık: ABD-İran barış görüşmesi umutları, Brent'in 92 doların altına inmesi ve Suudi üretim artışı fiyatı aşağı çekiyor, ancak Hormuz'da mayına çarpan tanker, İran'ın misilleme tehditleri ve barış görüşmelerinin tıkanması ciddi bir yukarı risk oluşturuyor. Bu çelişkiler ve bazı haberlerin eski veya zaten fiyatlanmış olması nedeniyle yön sinyali zayıf ve güven düşük.
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — İran savaşının askerî olarak sona erdiği açıklaması, saldırı risklerinin azaldığına dair haberler ve Brent’in %6,73 düşmesi kısa vadede güçlü aşağı yönlü baskıya işaret ediyor. Suudi petrol boru hattına yönelik saldırı ve Hürmüz’deki gemi iddiaları arz riskini canlı tutsa da haberler çelişkili ve dü
+GPT (gpt-6-luna): puan **-0.35**, güven 0.56 — Barış görüşmesi umutları, Suudi üretimindeki artış ve OPEC+ ihracatının savaş öncesi seviyelere yaklaşması yakın vadede arz endişelerini azaltıp Brent üzerinde baskı kuruyor. Hürmüz’deki mayın/tanker haberleri ve İran’ın misilleme tehdidi düşüşü sınırlıyor; haber akışının bir kısmı doğrulanmamış vey
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 06:25 N  GPT  score -0.58 conf 0.67: Fed’in daha fazla faiz artıracağı beklentisi ve doların güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor; yeni başlıklar da dolar yükselirken altının desteği test ettiğini gösteriyor. PBOC kaynaklı dolar geri çekilmesi sınırlı bir karşı unsur, ancak belirgin yeni bir güvenli liman katalizörü y
-12.11 06:38 N  NEWS (5 new) score -0.60 conf 0.70: Güçlü dolar (19 aylık zirve), Fed'in faiz artırımı beklentilerinin yükselmesi ve enflasyon kaygıları altını 4.000 doların altına itti; yeni haberler ve 12 günlük dip ile tutarlı bir baskı görülüyor. Savaş haberleri (İran) güvenli liman talebini destekleyebilir ancak mevcut piyasada bu etki baskın değil.
 12.11 06:38 N  GPT  score -0.75 conf 0.81: Doların 19 ayın zirvesine yükselmesi ve Fed’in daha büyük faiz artışı beklentilerinin güçlenmesi, getirisi olmayan altın üzerinde belirgin baskı yaratıyor; altının 12 günlük düşük seviyeye gerilemesi bu görünümü destekliyor. Doların kısa süreli geri çekildiğine dair haberler aşağı yönlü etkiyi bir m
 12.11 06:50 N  NEWS (7 new) score -0.60 conf 0.70: Fed faiz artırımı beklentilerinin yükselmesi, güçlü dolar ve enflasyon kaynaklı baskı altçizilmiş altın fiyatı (4.000 doların altında) kısa vadede düşüş yönlü baskı altında. Savaş/jeopolitik haberleri (İran, Ukrayna barış görüşmeleri) güvenli liman talebini sınırlı destekliyor; bu nedenle genel etki negatif, ancak eski haberlerin çoğu zaten fiyatlanmış.
 12.11 06:50 N  GPT  score -0.68 conf 0.78: Doların güçlenmesi ve daha şahin Fed faiz beklentileri altın üzerinde kısa vadeli baskı oluşturuyor; yeni başlıklarda güvenli liman talebini belirgin biçimde artıracak bir gelişme yok. Haberlerin çoğu aynı fiyat hareketini ve beklentileri tekrarladığı için düşüş yönündeki sinyal güçlü, ancak ek teyi
@@ -104,6 +102,8 @@ Son işlemler:
 12.11 07:38 N  GPT  score -0.35 conf 0.68: Güçlenen dolar ve artan Fed faiz artırımı beklentileri altın üzerinde kısa vadede baskın; altının haftanın en düşük seviyelerine gerilemesi bu görünümü destekliyor. İran’ın genişletilmiş misilleme uyarısı güvenli liman talebini artırabilir, ancak haber akışı çelişkili olduğundan düşüş beklentisinin 
 12.11 07:50 N  NEWS (9 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesine yükseldi ve Fed'in faiz artırımı beklentileri güçleniyor; bu, altın için net bir baskı unsuru. Jeopolitik (İran-İsrail gerilimi) ise güvenli liman talebi yaratıyor, ancak mevcut haber akışında dolar ve faiz etkisi baskın görünüyor.
 12.11 07:50 N  GPT  score -0.58 conf 0.68: Güçlenen dolar ve Fed’in daha şahin olacağı beklentileri altını baskılıyor; fiyatların sert düşüşü de kısa vadeli görünümü zayıflatıyor. İran kaynaklı gerilim güvenli liman talebi yaratabilir, ancak bu etki mevcut baskıyı şimdilik dengelemiyor.
+12.11 07:59 B5P  NEWS (45 new) score -0.15 conf 0.40: Başlıklar karışık: ABD-İran barış görüşmesi umutları, Brent'in 92 doların altına inmesi ve Suudi üretim artışı fiyatı aşağı çekiyor, ancak Hormuz'da mayına çarpan tanker, İran'ın misilleme tehditleri ve barış görüşmelerinin tıkanması ciddi bir yukarı risk oluşturuyor. Bu çelişkiler ve bazı haberlerin eski veya zaten fiyatlanmış olması nedeniyle yön sinyali zayıf ve güven düşük.
+12.11 07:59 B5P  GPT  score -0.35 conf 0.56: Barış görüşmesi umutları, Suudi üretimindeki artış ve OPEC+ ihracatının savaş öncesi seviyelere yaklaşması yakın vadede arz endişelerini azaltıp Brent üzerinde baskı kuruyor. Hürmüz’deki mayın/tanker haberleri ve İran’ın misilleme tehdidi düşüşü sınırlıyor; haber akışının bir kısmı doğrulanmamış vey
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
