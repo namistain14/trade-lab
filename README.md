@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 12:30 (İstanbul)
+> Son güncelleme: 12.11.2026 12:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +108.41 $ | -61.04 $ |
-| İşlem sayısı | 7 | 86 |
-| Kazanma oranı | %57.1 | %44.2 |
-| Ödenen komisyon/spread | 83.25 $ | 1020.59 $ |
+| Net kâr/zarar | +52.45 $ | -117.01 $ |
+| İşlem sayısı | 8 | 87 |
+| Kazanma oranı | %50.0 | %43.7 |
+| Ödenen komisyon/spread | 95.16 $ | 1032.50 $ |
 
-**Hesap değeri: 4,893.79 $** (başlangıç 5,000 $, -106.21 $ / %-2.12)
-
-Açık pozisyonlar: PAXGUSDT short @ 3927.30 (TP 3915.52 / SL 3935.16)
+**Hesap değeri: 4,882.99 $** (başlangıç 5,000 $, -117.01 $ / %-2.34)
 
 Son haber analizi (12.11 12:30): Claude puan **-0.70**, güven 0.70 — Sıcak ABD enflasyonu, Aralık'ta Fed faiz artırımı beklentisi ve dolarda 19 aylık zirve, reel faizleri yükseltip altını baskılıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki haberlerde zaten fiyatlanmış ve baskın dolar/faiz etkisinin gerisinde kalıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 12:32 | PAXGUSDT | short | -55.96 $ | stop |
 | 12.11 11:50 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 11:27 | PAXGUSDT | short | +69.07 $ | take profit |
 | 12.11 10:03 | PAXGUSDT | short | -55.96 $ | stop |
 | 12.11 09:48 | PAXGUSDT | short | +69.07 $ | take profit |
-| 12.11 03:48 | PAXGUSDT | short | -55.95 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 11:30 N  NEWS (13 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirip doları 19 aylık zirveye taşıdı ve altın 4.000 doların altına indi. Reel faiz ve güçlü dolar baskısı kısa vadede altı aşağı çekiyor. Jeopolitik gerilim (İran, Ukrayna) güvenli liman talebi yaratabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor, bu yüzden etkisi sınırlı.
 12.11 11:30 N  GPT  score -0.72 conf 0.78: Beklentiden yüksek enflasyonun Fed faiz artırımı beklentilerini ve doları güçlendirmesi, yükselen tahvil getirileriyle birlikte altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın 4.000 doların altına inmesi bu görünümü destekliyor. İran kaynaklı jeopolitik riskler güvenli liman talebi sağl
 12.11 11:33 B5  SHORT gold 25000 USD x10 @ 3947.49 (TP 3935.65, SL 3955.39; news -0.66)
 12.11 11:42 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu, güçlenen dolar (DXY 19 aylık zirvede) ve yükselen reel getiriler altın üzerinde baskı yaratıyor; altın 4.000 doların altına kırıldı. Piyasa Fed sıkılaştırma beklentisi fiyatlıyor; savaş kaynaklı güvenli liman talebi ise bu baskıyı kısmen dengeliyor, bu yüzden güven orta seviyede.
@@ -104,6 +101,7 @@ Son işlemler:
 12.11 12:18 N  GPT  score -0.55 conf 0.72: Dolar rallisinin hızlanması, Fed faiz artırımı beklentileri ve yükselen reel getiriler kısa vadede altın üzerinde belirgin baskı yaratıyor. Rusya ve İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak Moskova’daki görüşmeler ve mevcut fiyat düşüşü bu desteği sınırlıyor.
 12.11 12:30 N  NEWS (12 new) score -0.70 conf 0.70: Sıcak ABD enflasyonu, Aralık'ta Fed faiz artırımı beklentisi ve dolarda 19 aylık zirve, reel faizleri yükseltip altını baskılıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki haberlerde zaten fiyatlanmış ve baskın dolar/faiz etkisinin gerisinde kalıyor.
 12.11 12:30 N  GPT  score -0.58 conf 0.68: Fed faiz artışı beklentilerinin güçlenmesi ve doların yükselişi, artan reel faizlerle birlikte önümüzdeki birkaç saat için altın üzerinde baskı yaratıyor. Ukrayna ve Orta Doğu’daki gerilimler güvenli liman talebiyle düşüşü sınırlayabilir; bu nedenle görünüm kesin değil.
+12.11 12:33 B5  CLOSE short stop: -55.96 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
