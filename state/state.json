@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    5000.0
-   ],
-   [
     1793925270,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794444986,
+    5000.0
+   ],
+   [
+    1794445174,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    4868.5
-   ],
-   [
     1793925270,
     4868.5
    ],
@@ -27085,27 +27081,32 @@
    [
     1794444986,
     4868.5
+   ],
+   [
+    1794445174,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
    "confidence": 0.7,
-   "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri y\u00fczde 100'e y\u00fckseldi ve dolar y\u0131ll\u0131k zirvelere yak\u0131n seyrediyor; bu, reel faiz ve dolar kanallar\u0131yla alt\u0131n i\u00e7in net olarak negatif. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentileri taraf\u0131ndan \u015fimdilik bast\u0131r\u0131l\u0131yor.",
+   "reason": "S\u0131cak enflasyon verisi faiz art\u0131r\u0131m\u0131 beklentilerini (%100 olas\u0131l\u0131k) y\u00fckseltti, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131 bir tablo. Iran sava\u015f\u0131yla ilgili haberler g\u00fcvenli liman talebini destekliyor olsa da, mevcut fiyat hareketini \u015fimdilik dolar ve Fed beklentileri y\u00f6nlendiriyor.",
    "n": 45,
-   "ts": 1794444454801,
-   "new_headlines": 10,
+   "ts": 1794445173919,
+   "new_headlines": 30,
    "key_events": [
-    "Enflasyon verisi s\u0131cak geldi, Fed faiz art\u0131r\u0131m\u0131 oranlar\u0131 y\u00fczde 100'e \u00e7\u0131kt\u0131",
-    "Alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; dolar y\u0131ll\u0131k zirveye yak\u0131n",
-    "\u0130ran sava\u015f\u0131 m\u00fczakereleri sonu\u00e7suz; jeopolitik destek s\u0131n\u0131rl\u0131 kal\u0131yor"
+    "S\u0131cak ABD enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltti",
+    "Dolar 19 ayl\u0131k zirvede; alt\u0131n 4.000 dolar\u0131n alt\u0131na geriledi",
+    "\u0130ran sava\u015f\u0131 ve Trump'\u0131n 'toplam zafer' a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor"
    ],
    "gpt": {
     "score": -0.65,
-    "confidence": 0.7,
-    "reason": "S\u0131cak enflasyon verisi sonras\u0131 Fed faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fckselmesi ve dolar\u0131n g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 riskler ve Ukrayna\u2019ya ili\u015fkin haberler s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sunsa da yeni ve belirleyici bir t\u0131rman\u0131\u015f g\u00f6r\u00fcnm\u00fcyor.",
+    "confidence": 0.74,
+    "reason": "Beklentiyi a\u015fan enflasyonun Fed faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 ve dolar talebini y\u00fckseltmesi, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde siyasi s\u00f6ylem niteli\u011finde ve bu etki g\u00fc\u00e7l\u00fc dolar\u0131n gerisinde kal\u0131yor.",
     "key_events": [
-     "Faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 y\u00fczde 100\u2019e \u00e7\u0131kt\u0131; enflasyon verisi beklentiyi a\u015ft\u0131",
-     "Dolar bir ayl\u0131k zirveye yak\u0131n, alt\u0131n 4.000 dolar\u0131n alt\u0131nda"
+     "G\u00fc\u00e7l\u00fc ABD enflasyonu ve artan Fed faiz art\u0131r\u0131m\u0131 beklentisi",
+     "Dolar\u0131n 19 ay\u0131n zirvesine yakla\u015fmas\u0131",
+     "\u0130ran geriliminin g\u00fcvenli liman talebine s\u0131n\u0131rl\u0131 deste\u011fi"
     ],
     "model": "gpt-6-luna"
    },
@@ -27113,15 +27114,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1793942639915,
-    "score": -0.15,
-    "confidence": 0.4,
-    "reason": "",
-    "new": 15,
-    "gpt_score": -0.22,
-    "gpt_confidence": 0.38
-   },
    {
     "ts": 1793943358473,
     "score": -0.35,
@@ -29812,21 +29804,59 @@
     "new": 10,
     "gpt_score": -0.65,
     "gpt_confidence": 0.7
+   },
+   {
+    "ts": 1794445173919,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "S\u0131cak enflasyon verisi faiz art\u0131r\u0131m\u0131 beklentilerini (%100 olas\u0131l\u0131k) y\u00fckseltti, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131 bir tablo. Iran sava\u015f\u0131yla ilgili haberler g\u00fcvenli liman talebini destekliyor olsa da, mevcut fiyat hareketini \u015fimdilik dolar ve Fed beklentileri y\u00f6nlendiriyor.",
+    "new": 30,
+    "gpt_score": -0.65,
+    "gpt_confidence": 0.74
    }
   ],
   "news_calls": {
    "date": "2026-11-12",
-   "n": 16
+   "n": 17
   },
   "news_seen": [
+   "Gold prices today, November 12th: Falling for the second consecutive session, dropping below the $4,000 mark. - Vietnam.vn",
+   "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "Gold slips as strong US inflation data bolsters dollar, Fed hike expectations - marketscreener.com",
+   "Democratic veterans on call for end to Iran War - FOX Carolina News",
+   "Democratic veterans on call for end to Iran War - ABC7 WWSB",
+   "Democratic veterans on call for end to Iran War - WSMV",
+   "Democratic veterans on call for end to Iran War - WJHG",
+   "Democratic veterans on call for end to Iran War - Upper Michigan's Source",
+   "Democratic veterans on call for end to Iran War - AZ Family",
+   "Democratic veterans on call for end to Iran War - wandtv.com",
+   "Democratic veterans on call for end to Iran War - KCTV",
+   "Democratic veterans on call for end to Iran War - WOWT",
+   "Democratic veterans on call for end to Iran War - WRDW",
+   "South Dakota veteran\u2019s Vietnam War photos, camera donated to state historical society - Dakota News Now",
+   "Democratic veterans on call for end to Iran War - WITN",
+   "Democratic veterans on call for end to Iran War - WVLT",
+   "Democratic veterans on call for end to Iran War - WBTV",
+   "Democratic veterans on call for end to Iran War - Atlanta News First",
+   "Democratic veterans on call for end to Iran War - WABI",
+   "Democratic veterans on call for end to Iran War - FOX19 | Cincinnati",
+   "Democratic veterans on call for end to Iran War - WTVA",
+   "Democratic veterans on call for end to Iran War - WKYT",
+   "Democratic veterans on call for end to Iran War - WMTV 15 NEWS",
+   "Poundland set for more time to secure a rescue deal as emergency talks continue",
+   "US Dollar Hits 19-Month High - news.sbs.co.kr",
+   "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Drops As Dollar Tests Yearly Highs - FXEmpire",
    "Hegseth\u2019s group shouted down by soldier for laughing at war memorial - The Times",
+   "Trump vows \u2018total victory\u2019 as Iran rejects concessions and threatens wider war - Iran International",
    "Texas Panhandle War Memorial Center honors veterans, families at 27th ceremony - KVII",
    "Nigeria's president launches re-election manifesto but can he regain voters' trust?",
    "How Gold Price Volatility Will Impact Newmont Shares Investors - Simply Wall St",
-   "Democratic veterans on call for end to Iran War - WFIE | 14 News",
+   "US Dollar Forecast: AUD/USD, Gold, EUR/USD Under Pressu - FOREX.com",
+   "Yen Hovers Near Key 160 Level, Fueling Intervention Concerns - Bloomberg",
+   "Democratic veterans on call for end to Iran War - KFVS12",
+   "Dollar near one-month high as yen edges toward 160 - WNWN-FM",
    "Retired Army colonel details the longest deployment of Afghanistan war in book - WIBW",
-   "Dollar near one-month high as yen edges toward 160 - KELO-AM",
    "Dow Jones Industrial Average (DJIA) and S&P 500 Slide As Rate Hike Odds Hit 100% On Hotter-Than-Expected Inflation Data - Foreign Policy Journal",
    "Heroes Among Us: Korean War veteran receives special medal more than 70 years after his service - ABC7 WWSB",
    "Gold Price Forecast: Tests Support as Dollar Climbs - FXEmpire",
@@ -29834,41 +29864,10 @@
    "At 101, Montana veteran shares a story of war and reconciliation - KRTV",
    "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike - Bloomberg",
    "USD/CHF Price Forecast: Carry Trade Demand Fuels Dollar Rally - InsuranceNewsNet",
-   "From Paris to DC - why offices are being turned into apartments",
-   "Battlefield memories: The untold stories from the Vietnam War - WTVC",
-   "Rare IPO Bets on End of War and Economic Crisis in Myanmar - Bloomberg",
-   "The Iran War Stalemate And The Case For Congressional Control Of Nuclear First Use - OpEd - Eurasia Review",
-   "Democrat Scott Colom seals historic win in Mississippi Senate race",
-   "Ireland Backs Ukraine\u2019s 2027 Funding, Tougher Russia Sanctions and Joint Drone Production - Kyiv Post",
-   "After 81 years, Orlando WWII prisoner of war finally laid to rest on Veterans Day - WKMG",
-   "US Dollar: Supportive fundamentals offset deficit worries \u2013 Rabobank - FXStreet",
-   "Group works to replace Civil War gravestones - WBAY",
-   "Veterans Day ceremony at Hagerstown Vietnam War monument | PHOTOS - The Herald-Mail",
-   "New monument recognizing local World War Two veterans is unveiled in Rutland - WPTZ",
-   "Egypt\u2019s Strategic Pivot: The Nile, Sudan\u2019s War and a New Route Into Africa - Middle East Forum",
-   "Why thousands of Michiganders kept fighting months after WWI ended - ClickOnDetroit | WDIV Local 4",
-   "How Could IAMGOLD (TSX:IMG) Reduce Its C\u00f4t\u00e9 Gold Royalty Burden Through the Latest Deal? - Kalkine Media",
-   "Russia\u2019s redesigned Geran-5 missile expands threat to Ukrainian skies - FDD's Long War Journal",
-   "A tribute to World War II heroes who have passed | On The Pennsylvania Road - WNEP",
-   "Vietnam War nurse highlights women\u2019s service at Apopka Veterans Day ceremony - The Apopka Chief Newspaper",
-   "COMMENTARY: A 50 bps rate hike? Warsh's Fed has a comms problem - Reuters",
-   "Westminster College reflects on Vietnam trip honoring alumni killed in war - KOMU 8",
-   "Gold falls below $4,000 as Fed rate hike bets grow - FXStreet",
-   "Veterans Day commemoration in Bangor honors Maine\u2019s fallen Korean War service members - WABI",
-   "Some under-25s should get less benefits, Milburn review to say",
-   "Ghalibaf Says Strait of Hormuz Will \u201cNever Return\u201d to Pre-War Status: 7 outlets compared - NewsCord",
-   "DeLand trust plans monument for World War II tugboat built on Lake Beresford - WESH",
-   "Gold (XAU/USD) Price Forecast: Bullish Reversal Faces Critical Support Test - FXEmpire",
-   "Opinion | Netanyahu wants civil war. If it tears down Israeli democracy, even better - Haaretz",
-   "Russia bows out of attempt to replace US dollar with Chinese yuan after years of promoting currency alternatives among its BRICS friends - Business Insider Africa",
-   "Oil Steadies After Slump as Iran War Talks Make Little Progress - Yahoo! Finance Canada",
-   "Welch pushes to extend PACT Act protections to Iran war veterans - WCAX",
-   "Australian Dollar dips under 0.6850 as Fed-RBA policy divergence widens - FXStreet"
+   "From Paris to DC - why offices are being turned into apartments"
   ]
  },
  "log": [
-  "11.11 06:13 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvQps7Yt79eZAxQZoXyp'}",
-  "11.11 06:16 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvR48xQh7krcuWZtPTBn'}",
   "11.11 06:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvRHTGMKh6sZXAP9M22X'}",
   "11.11 06:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvRWiLpafZdswBQ1LBbW'}",
   "11.11 06:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvRjwf8LRQigbVB5k5Ut'}",
@@ -30166,7 +30165,9 @@
   "12.11 03:35 N  GPT  score -0.68 conf 0.72: S\u0131cak enflasyon verisi sonras\u0131 faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fczde 100\u2019e \u00e7\u0131kmas\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n\u0131n f\u0131rsat maliyetini art\u0131r\u0131p fiyat\u0131 bask\u0131layabilir. Hindistan\u2019da d\u00fczeltme sonras\u0131 fiziki al\u0131m art\u0131\u015f\u0131 destekleyici olsa da 1\u20134 saatlik g\u00f6r\u00fcn\u00fcmde etkisi s\u0131n\u0131rl\u0131 kalabilir.",
   "12.11 03:47 N  NEWS (10 new) score -0.60 conf 0.70: Faiz art\u0131r\u0131m\u0131 beklentileri y\u00fczde 100'e y\u00fckseldi ve dolar y\u0131ll\u0131k zirvelere yak\u0131n seyrediyor; bu, reel faiz ve dolar kanallar\u0131yla alt\u0131n i\u00e7in net olarak negatif. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentileri taraf\u0131ndan \u015fimdilik bast\u0131r\u0131l\u0131yor.",
   "12.11 03:47 N  GPT  score -0.65 conf 0.70: S\u0131cak enflasyon verisi sonras\u0131 Fed faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fckselmesi ve dolar\u0131n g\u00fc\u00e7lenmesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 kaynakl\u0131 riskler ve Ukrayna\u2019ya ili\u015fkin haberler s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sunsa da yeni ve belirleyici bir t\u0131rman\u0131\u015f g\u00f6r\u00fcnm\u00fcyor.",
-  "12.11 03:50 B5  CLOSE short stop: -55.95 USD"
+  "12.11 03:50 B5  CLOSE short stop: -55.95 USD",
+  "12.11 03:59 N  NEWS (30 new) score -0.60 conf 0.70: S\u0131cak enflasyon verisi faiz art\u0131r\u0131m\u0131 beklentilerini (%100 olas\u0131l\u0131k) y\u00fckseltti, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve alt\u0131n 4.000 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; bu, alt\u0131n i\u00e7in 1-4 saatlik d\u00f6nemde bask\u0131lay\u0131c\u0131 bir tablo. Iran sava\u015f\u0131yla ilgili haberler g\u00fcvenli liman talebini destekliyor olsa da, mevcut fiyat hareketini \u015fimdilik dolar ve Fed beklentileri y\u00f6nlendiriyor.",
+  "12.11 03:59 N  GPT  score -0.65 conf 0.74: Beklentiyi a\u015fan enflasyonun Fed faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 ve dolar talebini y\u00fckseltmesi, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131 yaratabilir. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde siyasi s\u00f6ylem niteli\u011finde ve bu etki g\u00fc\u00e7l\u00fc dolar\u0131n gerisinde kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30353,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    4963.78
-   ],
-   [
     1793925270,
     4963.78
    ],
@@ -42350,6 +42347,10 @@
    ],
    [
     1794444986,
+    4963.78
+   ],
+   [
+    1794445174,
     4963.78
    ]
   ],
@@ -42465,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    4975.18
-   ],
-   [
     1793925270,
     4975.18
    ],
@@ -54462,6 +54459,10 @@
    ],
    [
     1794444986,
+    4975.18
+   ],
+   [
+    1794445174,
     4975.18
    ]
   ],
@@ -54547,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    4993.28
-   ],
-   [
     1793925270,
     4993.28
    ],
@@ -66544,6 +66541,10 @@
    ],
    [
     1794444986,
+    4993.28
+   ],
+   [
+    1794445174,
     4993.28
    ]
   ]
@@ -66754,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793925102,
-    4969.22
-   ],
-   [
     1793925270,
     4969.22
    ],
@@ -78751,6 +78748,10 @@
    ],
    [
     1794444986,
+    4969.22
+   ],
+   [
+    1794445174,
     4969.22
    ]
   ],
@@ -80497,10 +80498,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793925102,
-    4904.24
-   ],
    [
     1793925270,
     4889.92
@@ -92496,6 +92493,10 @@
    [
     1794444986,
     4787.71
+   ],
+   [
+    1794445174,
+    4787.71
    ]
   ],
   "news_calls": {
@@ -93420,10 +93421,6 @@
    "equity": 115261.43
   },
   "equity_curve": [
-   [
-    1793925102,
-    108278.0
-   ],
    [
     1793925270,
     108278.0
@@ -105419,6 +105416,10 @@
    [
     1794444986,
     115261.43
+   ],
+   [
+    1794445174,
+    115261.43
    ]
   ],
   "open": {},
@@ -105601,10 +105602,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793925102,
-    5066.43
-   ],
    [
     1793925270,
     5066.43
@@ -117599,6 +117596,10 @@
    ],
    [
     1794444986,
+    4876.96
+   ],
+   [
+    1794445174,
     4876.96
    ]
   ],
