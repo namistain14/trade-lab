@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    5000.0
-   ],
-   [
     1793943529,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794466006,
+    5000.0
+   ],
+   [
+    1794466185,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    4868.5
-   ],
-   [
     1793943529,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794466006,
+    4868.5
+   ],
+   [
+    1794466185,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "11.11 09:40 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvgZ7eLMdivfnSTZFoNY'}",
   "11.11 09:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvgnN5NBqoyaCi1sxiYK'}",
   "11.11 09:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgvh1fzVBrd2Qn7E1QM8W'}",
   "11.11 09:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvhEuq3Gbuc7W2yP84VN'}",
@@ -30167,7 +30166,8 @@
   "12.11 09:28 N  NEWS (9 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolar endeksinin 2025 zirvesine yak\u0131n seyri alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 4.000 dolar deste\u011finin alt\u0131nda ve d\u00fc\u015f\u00fc\u015fte. \u0130ran sava\u015f\u0131 ve jeopolitik haberler g\u00fcvenli liman talebini destekliyor olsa da, bu etki mevcut s\u0131k\u0131la\u015fma ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
   "12.11 09:28 N  GPT  score -0.55 conf 0.66: Dolar\u0131n g\u00fc\u00e7lenmesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131y\u0131 art\u0131r\u0131yor; fiyat\u0131n 4.000 dolar\u0131n alt\u0131nda kalmas\u0131 da zay\u0131f g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. Orta Do\u011fu ve Ukrayna\u2019daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebi sa\u011flayabilir, ancak ba\u015fl\u0131klar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde s\u00fcregelen geli\u015fmeler ve bu e",
   "12.11 09:40 N  NEWS (5 new) score -0.50 conf 0.60: Alt\u0131n 4.000 dolar\u0131n alt\u0131na indi; g\u00fc\u00e7l\u00fc dolar (19 ayl\u0131k zirve), Fed faiz art\u0131r\u0131m\u0131 beklentileri ve y\u00fcksek enflasyon reel faizleri y\u00fckselterek alt\u0131na bask\u0131 yap\u0131yor. \u0130ran sava\u015f\u0131 haberleri g\u00fcvenli liman talebini destekliyor olsa da piyasada zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve alt\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor.",
-  "12.11 09:40 N  GPT  score -0.58 conf 0.76: Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemesi, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri k\u0131sa vadede belirgin bask\u0131 yarat\u0131yor. \u0130ran\u2019a y\u00f6nelik tehditler g\u00fcvenli liman talebini destekleyebilir; ancak temas haberleri ve mevcut fiyat d\u00fc\u015f\u00fc\u015f\u00fc bu deste\u011fi s\u0131n\u0131rl\u0131yor."
+  "12.11 09:40 N  GPT  score -0.58 conf 0.76: Alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na gerilemesi, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri k\u0131sa vadede belirgin bask\u0131 yarat\u0131yor. \u0130ran\u2019a y\u00f6nelik tehditler g\u00fcvenli liman talebini destekleyebilir; ancak temas haberleri ve mevcut fiyat d\u00fc\u015f\u00fc\u015f\u00fc bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
+  "12.11 09:49 B5  CLOSE short take profit: +69.07 USD"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    4963.78
-   ],
-   [
     1793943529,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794466006,
+    4963.78
+   ],
+   [
+    1794466185,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    4975.18
-   ],
-   [
     1793943529,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794466006,
+    4975.18
+   ],
+   [
+    1794466185,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    4993.28
-   ],
-   [
     1793943529,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794466006,
+    4993.28
+   ],
+   [
+    1794466185,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793943359,
-    4969.22
-   ],
-   [
     1793943529,
     4969.22
    ],
@@ -78753,6 +78749,10 @@
    [
     1794466006,
     4969.22
+   ],
+   [
+    1794466185,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78762,25 +78762,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4787.709630911626,
+   "balance": 4856.781349709511,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "9136df73",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.288541347413668,
-     "entry": 3975.4847139999997,
-     "tp": 3963.558259858,
-     "sl": 3983.4356834279997,
-     "opened_ms": 1794451052486,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.59/0.68",
-     "friction": 11.8889
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -80503,21 +80487,38 @@
      "gross": -55.9527,
      "costs": 0.0,
      "pnl": -55.9527
+    },
+    {
+     "id": "9136df73",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.288541347413668,
+     "entry": 3975.4847139999997,
+     "tp": 3963.558259858,
+     "sl": 3983.4356834279997,
+     "opened_ms": 1794451052486,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.59/0.68",
+     "friction": 11.8889,
+     "exit": 3964.500971509972,
+     "closed_ms": 1794466080000,
+     "reason": "take profit",
+     "gross": 69.0717,
+     "costs": 0.0,
+     "pnl": 69.0717
     }
    ],
    "day": {
     "date": "2026-11-12",
     "trades": 3,
-    "pnl": -42.83287378233709,
+    "pnl": 26.238845015547767,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793943359,
-    4755.36
-   ],
    [
     1793943529,
     4743.85
@@ -92513,6 +92514,10 @@
    [
     1794466006,
     4850.0
+   ],
+   [
+    1794466185,
+    4856.78
    ]
   ],
   "news_calls": {
@@ -93437,10 +93442,6 @@
    "equity": 115261.43
   },
   "equity_curve": [
-   [
-    1793943359,
-    108278.0
-   ],
    [
     1793943529,
     108278.0
@@ -105436,6 +105437,10 @@
    [
     1794466006,
     115261.43
+   ],
+   [
+    1794466185,
+    115261.43
    ]
   ],
   "open": {},
@@ -105618,10 +105623,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793943359,
-    5007.68
-   ],
    [
     1793943529,
     5007.68
@@ -117616,6 +117617,10 @@
    ],
    [
     1794466006,
+    4876.96
+   ],
+   [
+    1794466185,
     4876.96
    ]
   ],

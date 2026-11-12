@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 09:46 (İstanbul)
+> Son güncelleme: 12.11.2026 09:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -42.83 $ | -212.29 $ |
-| İşlem sayısı | 3 | 82 |
-| Kazanma oranı | %33.3 | %42.7 |
-| Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
+| Net kâr/zarar | +26.24 $ | -143.22 $ |
+| İşlem sayısı | 4 | 83 |
+| Kazanma oranı | %50.0 | %43.4 |
+| Ödenen komisyon/spread | 47.55 $ | 984.89 $ |
 
-**Hesap değeri: 4,850.00 $** (başlangıç 5,000 $, -150.00 $ / %-3.00)
-
-Açık pozisyonlar: PAXGUSDT short @ 3975.48 (TP 3963.56 / SL 3983.44)
+**Hesap değeri: 4,856.78 $** (başlangıç 5,000 $, -143.22 $ / %-2.86)
 
 Son haber analizi (12.11 09:40): Claude puan **-0.50**, güven 0.60 — Altın 4.000 doların altına indi; güçlü dolar (19 aylık zirve), Fed faiz artırımı beklentileri ve yüksek enflasyon reel faizleri yükselterek altına baskı yapıyor. İran savaşı haberleri güvenli liman talebini destekliyor olsa da piyasada zaten fiyatlanmış görünüyor ve altı yukarı taşımıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 09:48 | PAXGUSDT | short | +69.07 $ | take profit |
 | 12.11 03:48 | PAXGUSDT | short | -55.95 $ | stop |
 | 12.11 03:21 | PAXGUSDT | short | -55.95 $ | stop |
 | 12.11 03:01 | PAXGUSDT | short | +69.07 $ | take profit |
 | 11.11 21:04 | PAXGUSDT | short | +69.08 $ | take profit |
-| 11.11 20:25 | PAXGUSDT | short | -55.95 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 08:15 N  GPT  score -0.55 conf 0.72: Güçlenen dolar ve ABD enflasyon verileri sonrası artan Fed faiz artırımı beklentileri altın üzerinde baskın; fiyatın 4.000 doların altına gerilemesi bu görünümü destekliyor. İran ve Gazze kaynaklı tırmanma güvenli liman talebi yaratabilir, ancak kısa vadede baskıyı dengelemesi belirsiz.
 12.11 08:27 N  NEWS (6 new) score -0.60 conf 0.70: Enflasyon verisinin ardından Fed faiz artırımı beklentileri güçlenirken dolar 19 aylık zirvesine yükseldi; altın 4.000 doların altında, gün dibine yakın seyrediyor. Orta Doğu riskleri doları güvenli liman olarak desteklediği için jeopolitik talep altını sınırlıyor, bu nedenle 1-4 saatlik görünümde baskı sürebilir. Güvenlik talebi ve ABD PPI verisi kısa vadede ters yönde sürpriz yaratabileceği için güven orta düzeyde tutuldu.
 12.11 08:27 N  GPT  score -0.35 conf 0.68: Güçlenen dolar ve ABD enflasyonu sonrası artan Fed faiz artırımı beklentileri kısa vadede altın üzerinde baskın; fiyatın 4.000 doların altına gerilemesi bu baskıyı yansıtıyor. Rusya’nın Kyiv’e füze saldırısı ve Orta Doğu’daki tırmanış güvenli liman talebini desteklese de düşüşü şimdilik dengelemiyor
 12.11 08:39 N  NEWS (7 new) score -0.60 conf 0.60: Sıcak ABD enflasyon verisi, Fed faiz artırımı beklentileri ve doların 19 aylık zirvesi altına gerilemesi altın için baskılayıcı. Orta Doğu riskleri güvenli liman talebi yaratsa da bu etkiyi dolar güçlenmesi büyük ölçüde nötralize ediyor; altın 4.000 doların altında seyrediyor.
@@ -104,6 +101,7 @@ Son işlemler:
 12.11 09:28 N  GPT  score -0.55 conf 0.66: Doların güçlenmesi ve Fed’in faiz artıracağı beklentisi altın üzerinde kısa vadeli baskıyı artırıyor; fiyatın 4.000 doların altında kalması da zayıf görünümü destekliyor. Orta Doğu ve Ukrayna’daki çatışmalar güvenli liman talebi sağlayabilir, ancak başlıklar büyük ölçüde süregelen gelişmeler ve bu e
 12.11 09:40 N  NEWS (5 new) score -0.50 conf 0.60: Altın 4.000 doların altına indi; güçlü dolar (19 aylık zirve), Fed faiz artırımı beklentileri ve yüksek enflasyon reel faizleri yükselterek altına baskı yapıyor. İran savaşı haberleri güvenli liman talebini destekliyor olsa da piyasada zaten fiyatlanmış görünüyor ve altı yukarı taşımıyor.
 12.11 09:40 N  GPT  score -0.58 conf 0.76: Altının 4.000 doların altına gerilemesi, güçlü dolar ve Fed faiz artırımı beklentileri kısa vadede belirgin baskı yaratıyor. İran’a yönelik tehditler güvenli liman talebini destekleyebilir; ancak temas haberleri ve mevcut fiyat düşüşü bu desteği sınırlıyor.
+12.11 09:49 B5  CLOSE short take profit: +69.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
