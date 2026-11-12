@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 03:47 (İstanbul)
+> Son güncelleme: 12.11.2026 03:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +13.12 $ | -156.34 $ |
-| İşlem sayısı | 2 | 81 |
-| Kazanma oranı | %50.0 | %43.2 |
-| Ödenen komisyon/spread | 23.78 $ | 961.11 $ |
+| Net kâr/zarar | -42.83 $ | -212.29 $ |
+| İşlem sayısı | 3 | 82 |
+| Kazanma oranı | %33.3 | %42.7 |
+| Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
 
-**Hesap değeri: 4,795.67 $** (başlangıç 5,000 $, -204.33 $ / %-4.09)
-
-Açık pozisyonlar: PAXGUSDT short @ 3978.02 (TP 3966.09 / SL 3985.98)
+**Hesap değeri: 4,787.71 $** (başlangıç 5,000 $, -212.29 $ / %-4.25)
 
 Son haber analizi (12.11 03:47): Claude puan **-0.60**, güven 0.70 — Faiz artırımı beklentileri yüzde 100'e yükseldi ve dolar yıllık zirvelere yakın seyrediyor; bu, reel faiz ve dolar kanallarıyla altın için net olarak negatif. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor olsa da, bu etki Fed sıkılaştırma beklentileri tarafından şimdilik bastırılıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 03:48 | PAXGUSDT | short | -55.95 $ | stop |
 | 12.11 03:21 | PAXGUSDT | short | -55.95 $ | stop |
 | 12.11 03:01 | PAXGUSDT | short | +69.07 $ | take profit |
 | 11.11 21:04 | PAXGUSDT | short | +69.08 $ | take profit |
 | 11.11 20:25 | PAXGUSDT | short | -55.95 $ | stop |
-| 11.11 19:52 | PAXGUSDT | short | +69.08 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 02:46 N  GPT  score -0.58 conf 0.70: Sıcak enflasyon verisi, Fed’in faiz artırabileceği beklentisi ve doların güçlenmesi kısa vadede altın üzerinde belirgin baskı yaratıyor; fiyatın 4.000 doların altına indiği de bu eğilimi destekliyor. İran savaşı ve Hormuz’a ilişkin haberler güvenli liman talebini artırabilir, ancak Trump’ın savaşın 
 12.11 02:58 N  NEWS (7 new) score -0.50 conf 0.60: Sıcak Ekim CPI verisi ve artan Fed faiz artırımı beklentileri, doların güçlenmesiyle birlikte altı 4.000 doların altına çekti; bu baskı kısa vadede altın için olumsuz. Savaşa ilişkin haberler (İran, Hürmüz) büyük ölçüde eski ve fiyatlanmış olduğundan güvenli liman talebini destekleyici bir etki beklenmiyor. Diğer başlıkların çoğu Veterans Day ve yerel haberler olup piyasa etkisi yok.
 12.11 02:58 N  GPT  score -0.45 conf 0.58: Sıcak enflasyon verisi ve Fed faiz artırımı beklentileri dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı yaratıyor; fiyatın 4.000 doların altına inmiş olması bu eğilimin kısmen fiyatlandığını düşündürüyor. İrlanda’nın Ukrayna’ya finansman ve Rusya’ya daha sıkı yaptırım taahhüdü sını
 12.11 03:01 B5  CLOSE short take profit: +69.07 USD
@@ -104,6 +101,7 @@ Son işlemler:
 12.11 03:35 N  GPT  score -0.68 conf 0.72: Sıcak enflasyon verisi sonrası faiz artırımı olasılığının yüzde 100’e çıkması ve doların güçlenmesi, kısa vadede altının fırsat maliyetini artırıp fiyatı baskılayabilir. Hindistan’da düzeltme sonrası fiziki alım artışı destekleyici olsa da 1–4 saatlik görünümde etkisi sınırlı kalabilir.
 12.11 03:47 N  NEWS (10 new) score -0.60 conf 0.70: Faiz artırımı beklentileri yüzde 100'e yükseldi ve dolar yıllık zirvelere yakın seyrediyor; bu, reel faiz ve dolar kanallarıyla altın için net olarak negatif. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor olsa da, bu etki Fed sıkılaştırma beklentileri tarafından şimdilik bastırılıyor.
 12.11 03:47 N  GPT  score -0.65 conf 0.70: Sıcak enflasyon verisi sonrası Fed faiz artırımı olasılığının yükselmesi ve doların güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor. İran savaşı kaynaklı riskler ve Ukrayna’ya ilişkin haberler sınırlı güvenli liman desteği sunsa da yeni ve belirleyici bir tırmanış görünmüyor.
+12.11 03:50 B5  CLOSE short stop: -55.95 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
