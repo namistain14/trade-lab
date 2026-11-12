@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 14:08 (İstanbul)
+> Son güncelleme: 12.11.2026 14:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %40.0 | %42.7 |
 | Ödenen komisyon/spread | 118.97 $ | 1056.31 $ |
 
-**Hesap değeri: 4,771.07 $** (başlangıç 5,000 $, -228.93 $ / %-4.58)
+**Hesap değeri: 4,765.12 $** (başlangıç 5,000 $, -234.88 $ / %-4.70)
+
+Açık pozisyonlar: PAXGUSDT short @ 3945.96 (TP 3934.12 / SL 3953.85)
 
 Son haber analizi (12.11 14:08): Claude puan **-0.70**, güven 0.70 — Sıcak ABD enflasyon verisi (CPI) Fed faiz artırımı beklentilerini yükseltti, dolar endeksi 19 ayın zirvesine çıktı ve altın 4.000 doların altına, yaklaşık 3.973 dolara geriledi; bu durum kısa vadede altın için güçlü bir baskı oluşturuyor. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve etkisi sınırlı görünüyor; bu nedenle düşüş eğilimi baskın.
 
@@ -87,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 13:04 B5  CLOSE short stop: -55.96 USD
 12.11 13:07 N  NEWS (10 new) score -0.60 conf 0.70: Yüksek enflasyon verisi (CPI) sonrası Fed'in Aralık'ta faiz artırma ihtimali fiyatlanıyor, dolar 19 aylık zirvesine çıktı ve tahvil getirileri yükseldi; bu, altın için net olarak baskı yaratıyor. Ayrıca Trump'ın İran savaşının "etkin biçimde bittiğini" söylemesi jeopolitik güvenli liman talebini zayıflatıyor. Altının üç gündür düşüşte olması ve bu haberlerin büyük ölçüde fiyatlanmış olması nedeniyle etki kısmen önceden yansımış olabilir, bu yüzden güven orta düzeyde.
 12.11 13:07 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentilerinin güçlenmesi, yükselen tahvil getirileriyle birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşının “fiilen sona erdiği” açıklaması güvenli liman talebini de azaltabilir; ancak devam eden çatışma haberleri bu etkiyi kısmen
 12.11 13:10 B5  SHORT gold 25000 USD x10 @ 3941.51 (TP 3929.69, SL 3949.39; news -0.64)
@@ -102,6 +103,7 @@ Son işlemler:
 12.11 13:56 N  GPT  score -0.72 conf 0.78: Beklentiden yüksek ABD enflasyonu, Fed’in faiz artırımı ihtimalini ve getirileri yükselterek altın üzerinde belirgin baskı oluşturuyor; fiyatın 4.000 doların altına inmesi de kısa vadeli zayıflığı teyit ediyor. İran’la doğrudan diplomasi olasılığı güvenli liman talebini sınırlayabilir, ancak doların
 12.11 14:08 N  NEWS (14 new) score -0.70 conf 0.70: Sıcak ABD enflasyon verisi (CPI) Fed faiz artırımı beklentilerini yükseltti, dolar endeksi 19 ayın zirvesine çıktı ve altın 4.000 doların altına, yaklaşık 3.973 dolara geriledi; bu durum kısa vadede altın için güçlü bir baskı oluşturuyor. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve etkisi sınırlı görünüyor; bu nedenle düşüş eğilimi baskın.
 12.11 14:08 N  GPT  score -0.76 conf 0.78: Sıcak ABD enflasyonu Fed’in faiz artırımı beklentilerini ve getirileri güçlendirirken doların 19 ayın zirvesine çıkması altın üzerinde belirgin baskı yaratıyor; 4.000 doların altına düşüş de kısa vadeli momentumu aşağı çekiyor. Ukrayna’daki saldırı gibi jeopolitik riskler destekleyici olsa da yeni v
+12.11 14:11 B5  SHORT gold 25000 USD x10 @ 3945.96 (TP 3934.12, SL 3953.85; news -0.73)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
