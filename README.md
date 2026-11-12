@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 22:09 (İstanbul)
+> Son güncelleme: 12.11.2026 22:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,722.21 $** (başlangıç 5,000 $, -277.79 $ / %-5.56)
+**Hesap değeri: 4,717.31 $** (başlangıç 5,000 $, -282.69 $ / %-5.65)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %51.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,640.63 $** (başlangıç 100,000 $, +13640.63 $ / %+13.64)
+**Hesap değeri: 113,710.77 $** (başlangıç 100,000 $, +13710.77 $ / %+13.71)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 21:11 B6  karar turu: Claude «Endeksler gün içi zirveden hafifçe geri çekilip yatay seyrediyor; Fed'den gelen şahin enflasyon yorumları ve Orta Doğu gerilimi temkinli bir hava yaratırken piyasanın odağı Nvidia'daki liderlik krizi.» / GPT «Endekslerdeki son yarım saatlik zayıflama satışları destekliyor ancak geniş piyasada belirgin ivme olmadığından şirket haberlerine dayalı seçici işlemler öncelikli.»
 12.11 21:14 N  NEWS (11 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerinin yükselmesi ve doların 19 aylık zirvesi altın için güçlü baskı yaratıyor; altın 3900 doların altına inmiş durumda. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu haberlerin çoğu eski veya genel nitelikte olduğundan etkisi sınırlı kalıyor. Kısa vadede aşırı satış sonrası teknik tepki riski ve fiyatların kısmen yansımış olması güveni biraz düşürüyor.
 12.11 21:14 N  GPT  score -0.78 conf 0.78: Beklentiden yüksek ABD enflasyonu Fed’in faiz artırımı olasılığını güçlendirirken doların 19 ayın zirvesine çıkması altını baskılıyor; yeni başlıklar da altındaki düşüşün sürdüğüne işaret ediyor. İran savaşı kaynaklı güvenli liman talebi olası bir dengeleyici olsa da başlıklarda yeni bir tırmanış gö
 12.11 21:23 B6  karar turu: Claude «Endeksler NVDA'daki sert düşüşe rağmen yatay ve kararsız; enflasyon kaygıları ile jeopolitik haberler yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endekslerdeki zayıf saatlik momentum belirgin yön avantajı sunmazken, NVDA kaynaklı taze olumsuz haberler seçici kısa pozisyonları destekliyor.»
@@ -106,6 +105,7 @@ Son işlemler:
 12.11 21:50 B6  CLOSE long NVDA stop: -834.20 USD
 12.11 22:00 B6  karar turu: Claude «Endeksler hafif negatif ve son saatte zayıflıyor; Nvidia krizi yarı iletkenlerde baskı yaratırken geniş piyasa nispeten dirençli.» / GPT «Endekslerde son saatte satış baskısı hâkim; normal seansın kalan bir saatinde kaldıraç ve kapanış oynaklığı riski artırıyor.»
 12.11 22:00 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"68072.28","code":40310000,"cost_basis":"80259.69","message":"insufficient buying power"}
+12.11 22:12 B6  karar turu: Claude «Endeksler Nvidia şokuna rağmen yatay seyrediyor, ancak son saatte hafif bir zayıflık var ve Fed konuşmaları belirgin bir yön vermiyor.» / GPT «Endeksler hafif zayıf; kapanışa yalnızca 48 dakika kaldığından yüzde 1,5 hedef zorlayıcı ve gün içi pozisyonlar kapanış öncesinde sonlandırılmalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
