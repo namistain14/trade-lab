@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 20:23 (İstanbul)
+> Son güncelleme: 12.11.2026 20:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %42.9 | %43.0 |
 | Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,809.67 $** (başlangıç 5,000 $, -190.33 $ / %-3.81)
+**Hesap değeri: 4,812.25 $** (başlangıç 5,000 $, -187.75 $ / %-3.76)
 
 Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
 
-Son haber analizi (12.11 20:13): Claude puan **-0.75**, güven 0.70 — Yeni gelen başlıklar çok şahin: dolar 19 aylık zirvede, Fed'in faiz artırımı beklentileri güçleniyor, Goolsbee enflasyonu "rahatsız edici" buluyor ve ABD enflasyonu beklentilerin üzerinde geldi. Bu tablo reel faiz ve dolar yoluyla altın için net olumsuz; altın zaten 2,66% düşüş ve 13 aylık en düşük seviyede. Jeopolitik riskler (Gazze, Ukrayna, İran) güvenli liman talebi yaratabilir ama bu etkisi şahin Fed baskısının gerisinde kalıyor. Bazı başlıklar eski olduğu için güveni biraz sınırladım.
+Son haber analizi (12.11 20:26): Claude puan **-0.70**, güven 0.70 — Yeni haberlerin ağırlığı sıkılaşma yönünde: sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltiyor, dolar 19 aylık zirvesine çıktı ve gümüş %3'ten fazla düştü. Gold 12 Kasım'da %2,66 değer kaybetti, bu da baskının sürdüğünü gösteriyor. İran savaşı fonlaması ve Ukrayna haberleri güvenli liman talebini sınırlı destekliyor, ancak bu etkiler faiz ve dolar baskısının gerisinde kalıyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.76 — Doların 19 ayın zirvesine yaklaşması ve Fed yetkililerinin enflasyonun kalıcı olduğuna dair şahin mesajları, kısa vadede faiz beklentilerini ve altın üzerindeki baskıyı artırıyor. Gazze’deki saldırı güvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz baskısını şimdilik dengele
+GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Sıcak enflasyon ve Fed’in daha fazla faiz artırabileceği beklentisi doların 19 ayın zirvesine çıkmasını destekliyor; yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik riskler sınırlı güvenli liman desteği sağlasa da haberler büyük ölçüde devam eden gelişmeler ve kısa vadel
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,739.67 $** (başlangıç 100,000 $, +14739.67 $ / %+14.74)
+**Hesap değeri: 115,037.82 $** (başlangıç 100,000 $, +15037.82 $ / %+15.04)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 19:34 B6  karar turu: Claude «Endeksler gün içi zirveden geri çekiliyor; Goolsbee'nin şahin enflasyon yorumları ve Nvidia belirsizliği teknoloji tarafında baskıyı canlı tutuyor.» / GPT «SPY ve QQQ'da saatlik yükselişin son bölümde zayıflaması ve enflasyon uyarıları temkin gerektirirken, en belirgin aşağı yönlü fırsat NVDA'da.»
-12.11 19:37 N  NEWS (16 new) score -0.70 conf 0.75: Fed'in faiz artırımı beklentileri güçleniyor (Hammack, Goolsbee, 'daha hızlı artırım' başlıkları), reel getiriler yükseliyor ve dolar/AUD Fed sıkılaştırma bahisleriyle güçleniyor; bu ortam altın için net olarak negatif. Altın bugün yaklaşık %2,66 düşmüş durumda. Jeopolitik başlıklar (Ukrayna, İran) güvenli liman talebi yaratabilir ancak bu etki hawkish Fed'in baskısını dengelemeye yetmez; güven, bazı başlıkların eski ya da zaten fiyatlanmış olması nedeniyle biraz sınırlı.
 12.11 19:37 N  GPT  score -0.72 conf 0.79: Fed yetkililerinin enflasyonun yayılması nedeniyle daha hızlı faiz artışlarını değerlendirmesi ve Goolsbee’nin enflasyonun kötüleştiğini söylemesi, faiz ve reel getiri beklentilerini yükselterek altını baskılıyor. Altındaki sert düşüş bu eğilimi teyit ediyor; ancak haberlerin bir kısmı tekrarlı ve U
 12.11 19:46 B6  karar turu: Claude «Endeksler yatay ama öğleden sonra hafif zayıflıyor; Goolsbee'nin şahin yorumları ve Nvidia'daki yönetim krizi teknoloji üzerinde baskı oluşturuyor.» / GPT «Endekslerde son mumlarda belirginleşen zayıflık ve şahin Fed açıklamaları aşağı yönü desteklerken NVDA'nın şirkete özgü haber akışı satış baskısını artırıyor.»
 12.11 19:49 N  NEWS (12 new) score -0.70 conf 0.65: Fed'in faiz artırımı ihtimali (Goolsbee, Hammack, Chicago Fed açıklamaları, "Fed şahinleri" başlığı) ve Treasury getirilerinin yükselmesiyle dolar güçleniyor; bu da altın için belirgin baskı yaratıyor. Altının 13 ayın en düşük seviyesine gerilemesi ve günlük %2,66 düşüş bu yönü destekliyor; jeopolitik (Ukrayna, İran) haberleri güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor.</reason>
@@ -107,6 +105,8 @@ Son işlemler:
 12.11 20:13 N  NEWS (7 new) score -0.75 conf 0.70: Yeni gelen başlıklar çok şahin: dolar 19 aylık zirvede, Fed'in faiz artırımı beklentileri güçleniyor, Goolsbee enflasyonu "rahatsız edici" buluyor ve ABD enflasyonu beklentilerin üzerinde geldi. Bu tablo reel faiz ve dolar yoluyla altın için net olumsuz; altın zaten 2,66% düşüş ve 13 aylık en düşük seviyede. Jeopolitik riskler (Gazze, Ukrayna, İran) güvenli liman talebi yaratabilir ama bu etkisi şahin Fed baskısının gerisinde kalıyor. Bazı başlıklar eski olduğu için güveni biraz sınırladım.
 12.11 20:13 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine yaklaşması ve Fed yetkililerinin enflasyonun kalıcı olduğuna dair şahin mesajları, kısa vadede faiz beklentilerini ve altın üzerindeki baskıyı artırıyor. Gazze’deki saldırı güvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz baskısını şimdilik dengele
 12.11 20:23 B6  karar turu: Claude «Endeksler gün içinde yatay ancak son bir saatte Nasdaq öncülüğünde hafif zayıflıyor; Goolsbee'nin şahin enflasyon yorumları ve NVDA belirsizliği risk iştahını baskılıyor.» / GPT «QQQ öncülüğündeki zayıflık ve enflasyon endişeleri aşağı yönü desteklerken NVDA'da haber akışı kaynaklı ani tepki yükselişi riski yüksek.»
+12.11 20:26 N  NEWS (14 new) score -0.70 conf 0.70: Yeni haberlerin ağırlığı sıkılaşma yönünde: sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltiyor, dolar 19 aylık zirvesine çıktı ve gümüş %3'ten fazla düştü. Gold 12 Kasım'da %2,66 değer kaybetti, bu da baskının sürdüğünü gösteriyor. İran savaşı fonlaması ve Ukrayna haberleri güvenli liman talebini sınırlı destekliyor, ancak bu etkiler faiz ve dolar baskısının gerisinde kalıyor.
+12.11 20:26 N  GPT  score -0.72 conf 0.78: Sıcak enflasyon ve Fed’in daha fazla faiz artırabileceği beklentisi doların 19 ayın zirvesine çıkmasını destekliyor; yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik riskler sınırlı güvenli liman desteği sağlasa da haberler büyük ölçüde devam eden gelişmeler ve kısa vadel
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

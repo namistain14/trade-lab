@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    5000.0
-   ],
-   [
     1793981722,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794504184,
+    5000.0
+   ],
+   [
+    1794504361,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    4868.5
-   ],
-   [
     1793981722,
     4868.5
    ],
@@ -27085,28 +27081,32 @@
    [
     1794504184,
     4868.5
+   ],
+   [
+    1794504361,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.75,
+   "score": -0.7,
    "confidence": 0.7,
-   "reason": "Yeni gelen ba\u015fl\u0131klar \u00e7ok \u015fahin: dolar 19 ayl\u0131k zirvede, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, Goolsbee enflasyonu \"rahats\u0131z edici\" buluyor ve ABD enflasyonu beklentilerin \u00fczerinde geldi. Bu tablo reel faiz ve dolar yoluyla alt\u0131n i\u00e7in net olumsuz; alt\u0131n zaten 2,66% d\u00fc\u015f\u00fc\u015f ve 13 ayl\u0131k en d\u00fc\u015f\u00fck seviyede. Jeopolitik riskler (Gazze, Ukrayna, \u0130ran) g\u00fcvenli liman talebi yaratabilir ama bu etkisi \u015fahin Fed bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Baz\u0131 ba\u015fl\u0131klar eski oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
+   "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: s\u0131cak ABD enflasyonu Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltiyor, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve g\u00fcm\u00fc\u015f %3'ten fazla d\u00fc\u015ft\u00fc. Gold 12 Kas\u0131m'da %2,66 de\u011fer kaybetti, bu da bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor. \u0130ran sava\u015f\u0131 fonlamas\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, ancak bu etkiler faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
    "n": 45,
-   "ts": 1794503598048,
-   "new_headlines": 7,
+   "ts": 1794504361456,
+   "new_headlines": 14,
    "key_events": [
     "ABD enflasyonu beklentinin \u00fczerinde; Fed faiz art\u0131r\u0131m\u0131 ihtimali y\u00fckseldi",
     "Alt\u0131n %2,66 d\u00fc\u015ft\u00fc, 13 ayl\u0131k dibe geriledi",
     "Dolar ve Hazine getirileri y\u00fckseldi; Fed yetkilileri daha h\u0131zl\u0131 art\u0131r\u0131m tart\u0131\u015f\u0131yor"
    ],
    "gpt": {
-    "score": -0.68,
-    "confidence": 0.76,
-    "reason": "Dolar\u0131n 19 ay\u0131n zirvesine yakla\u015fmas\u0131 ve Fed yetkililerinin enflasyonun kal\u0131c\u0131 oldu\u011funa dair \u015fahin mesajlar\u0131, k\u0131sa vadede faiz beklentilerini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131r\u0131yor. Gazze\u2019deki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131 \u015fimdilik dengele",
+    "score": -0.72,
+    "confidence": 0.78,
+    "reason": "S\u0131cak enflasyon ve Fed\u2019in daha fazla faiz art\u0131rabilece\u011fi beklentisi dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131n\u0131 destekliyor; y\u00fckselen faiz beklentileri alt\u0131n i\u00e7in belirgin bask\u0131 olu\u015fturuyor. Jeopolitik riskler s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flasa da haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde devam eden geli\u015fmeler ve k\u0131sa vadel",
     "key_events": [
-     "Dolar 19 ay\u0131n zirvesinde; Fed\u2019in \u015fahin faiz beklentileri \u00f6ne \u00e7\u0131k\u0131yor",
-     "Goolsbee enflasyonu rahats\u0131z edici ve kal\u0131c\u0131 olarak niteledi",
-     "Gazze\u2019de hastane sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekleyebilir"
+     "Dolar 19 ay\u0131n zirvesinde; faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi",
+     "Fed yetkilileri enflasyonun kal\u0131c\u0131 oldu\u011funa dair uyar\u0131lar yapt\u0131",
+     "Alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve sat\u0131\u015f bask\u0131s\u0131 haberleri"
     ],
     "model": "gpt-6-luna"
    },
@@ -27114,15 +27114,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794210768441,
-    "score": -0.2,
-    "confidence": 0.4,
-    "reason": "G\u00fc\u00e7l\u00fc ABD istihdam verisi Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltti ve dolar 102 \u00fczerinde kald\u0131; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon beklentilerini s\u0131n\u0131rlayarak bir miktar destekleyici olsa da, bu etkiler \u00e7eli\u015fkili ve Sal\u0131 g\u00fcnk\u00fc ABD CPI verisi \u00f6ncesinde belirsizlik y\u00fcksek.",
-    "new": 8,
-    "gpt_score": 0.08,
-    "gpt_confidence": 0.36
-   },
    {
     "ts": 1794211492783,
     "score": -0.25,
@@ -29813,39 +29804,58 @@
     "new": 7,
     "gpt_score": -0.68,
     "gpt_confidence": 0.76
+   },
+   {
+    "ts": 1794504361456,
+    "score": -0.7,
+    "confidence": 0.7,
+    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: s\u0131cak ABD enflasyonu Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltiyor, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve g\u00fcm\u00fc\u015f %3'ten fazla d\u00fc\u015ft\u00fc. Gold 12 Kas\u0131m'da %2,66 de\u011fer kaybetti, bu da bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor. \u0130ran sava\u015f\u0131 fonlamas\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, ancak bu etkiler faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
+    "new": 14,
+    "gpt_score": -0.72,
+    "gpt_confidence": 0.78
    }
   ],
   "news_calls": {
    "date": "2026-11-12",
-   "n": 94
+   "n": 95
   },
   "news_seen": [
+   "Finland bars Russian athletes from entering country over Ukraine war - The Guardian",
+   "US senators demand end to Iran war funding in bill averting shutdown - News From The States",
+   "Caledonia Mining's Gold-Price Tailwind Masks A Stalled Blanket Recovery, Forcing A Guidance Cut As Bilboes Financing Advances - Finviz",
+   "OR Royalties Beats On Gold-Price Leverage, But Flat Ounces, Sequential Slide And Barnat Overhang Temper The Quarter - Finviz",
+   "Gold prices today, November 13, 2026, plummeted, heading towards $3,800, with increasing downward pressure due to a wave of sell-offs and liquidations. - Vietnam.vn",
+   "Fed Releases 2027 FOMC Schedule Without Regular October Meeting - bloomingbit",
+   "Dollar Reaches 19-Month High as Rate Expectations Dominate - GV Wire",
+   "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
+   "Fed faces tougher inflation fight as pressure builds for more rate hikes - Mezha.net",
+   "Silver tumbles over 3% as hot US inflation boosts Fed hike bets - FXStreet",
+   "The Dollar Hit A 19-Month High As Rate-Hike Bets Grew - Finimize",
+   "Chicago Fed's Goolsbee Says Fed Is Failing to Meet Price Stability Mandate - bloomingbit",
    "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
    "U.S. Dollar Tests Yearly Highs As Traders Focus On Hawkish Fed Policy Outlook: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "Why the Fed's Austan Goolsbee says inflation in the US is 'disturbing' - Yahoo Finance UK",
-   "The average US 30-year mortgage rate falls to 7.11% this week, its fourth straight decline - Newsday",
+   "Russia: Lev Shlosberg\u2019s outrageous 11-year prison sentence for anti-war views upheld - Amnesty International",
    "Legacy of Courage: World War II veteran, 101, takes stage as grand marshal for parade - News-Leader, Fernandina Beach",
-   "Dollar reaches 19-month high as rate expectations dominate - Euronext Markets: Real-time Stock Market Data | live",
    "Mortgage Rates Fall for Fourth Straight Week Despite Looming Fed Hike - Realtor.com",
    "John F. Gould painting donated to National World War I Museum - My Hudson Valley",
-   "Fed faces tougher inflation fight as pressure builds for more rate hikes - Axios",
+   "Fed's Barr: US should prepare for 'serious' AI job disruption, widening inequality - Reuters",
    "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
    "Pentagon backs war memorial guard who reprimanded Hegseth's group - BBC",
    "Pentagon backs war memorial guard who reprimanded Hegseth's group",
    "Could Netanyahu launch another Iran war to stay in power? - The New Arab",
    "Housing costs, demographic trends big concerns as winter tourism season starts in Vermont - Federal Reserve Bank of Boston",
+   "Bessent, Bonds and the Battle for the Dollar: Is America losing its financial supremacy? - Essential Business",
    "Fed\u2019s Goolsbee warns hot inflation is no fluke as economy overheats - FXStreet",
    "Remarks by Under Secretary of War for Policy Elbridge Colby at the Naval Submarine League' - U.S. Department of War (.gov)",
+   "With Cybertruck ending, pull the plug on the EV culture war | Aaron Brown - Buffalo News",
    "With Cybertruck ending, pull the plug on the EV culture war | Aaron Brown - Roanoke Times",
    "Fraser students to research World War II Navy veterans\u2019 legacies - Macomb Daily",
    "Canadian Dollar Technical Outlook: USD/CAD 2% Rally Puts Yearly Highs Back in Play - FOREX.com",
-   "Yen Falls to Key 160 Level Per Dollar, Raising Intervention Risk - Bloomberg.com",
-   "Bessent, Bonds and the Battle for the Dollar: Is America losing its financial supremacy? - Essential Business",
    "Federal Reserve Bank of Chicago President - Yahoo Finance",
    "IMF backs Fed\u2019s inflation control measures, supports price stability focus - Crypto Briefing",
    "The Fed's inflation dilemma: Wait for oil relief or raise rates? - CNBC",
    "Fed Officials Consider Faster Hikes as Higher Prices Seep Into Broader Economy - Arkansas Business",
-   "Inflation continues to go 'the wrong way,' Chicago Fed's Goolsbee says - Seeking Alpha",
    "Cry \u2018drone,\u2019 and let slip the fruit flies of war - Breaking Defense",
    "The Gaza War Divided New York Nightlife. An Israeli Scene Grew in Its Wake - Haaretz",
    "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
@@ -29854,22 +29864,10 @@
    "Documentarian Helps 103-yo D-Day Survivor Recover His Lost War Medals\u2013Just in Time for Veterans Day - Good News Network",
    "Civil War soldier who died in Northern Virginia is finally l... - InsideNoVa",
    "Africa's largest economy sees citrus exports take double hit from Iran war and bad weather, as world's largest economy ends trade privileges, threatening its $1.3 billion fruit market - Business Insider Africa",
-   "The Attrition Trap: Russia\u2019s Stalling Offensive and the War Against Ukraine\u2019s Civilians - www.lvivherald.com",
-   "Yahoo Finance Invest: Federal Reserve Bank of Chicago President - Yahoo Finance",
-   "Fed Rate Hawks Crush Gold Price $150 to New 13-Month Low - BullionVault",
-   "Gold Price Today: Gold Falls 26% From Record High - Coinpedia",
-   "Crisis in Cuba \u2013 When the Cold War turned hot: Part 2 \u2013 The Bay of Pigs, 1961 - The Past",
-   "Trump Finally Stops the Russia-Ukraine War. Wrong Trump, Right Result. - The Warwick Valley Dispatch",
-   "US inflation rises more than expected, raising likelihood of Fed rate hike - Scripps News",
-   "Fed\u2019s Hammack backs gradual rate hikes as AI spending fuels sticky inflation - Yahoo Finance Singapore",
-   "The US dollar moves higher as Treasury yields extend their gains - investingLive",
-   "Australian Dollar slides to 10-month low as Fed tightening bets gather pace - FXStreet",
-   "US-South Africa: Ramaphosa tests Trump\u2019s visa sanctions with AI-focused US visit - The Africa Report"
+   "The Attrition Trap: Russia\u2019s Stalling Offensive and the War Against Ukraine\u2019s Civilians - www.lvivherald.com"
   ]
  },
  "log": [
-  "11.11 21:10 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen risk i\u015ftah\u0131 s\u00fcr\u00fcyor ancak endeksler \u00f6\u011fleden sonra dar bantta konsolide oluyor ve yeni bir itici g\u00fc\u00e7 g\u00f6r\u00fcnm\u00fcyor.\u00bb / GPT \u00abEndekslerde g\u00fc\u00e7l\u00fc g\u00fcnl\u00fck y\u00fckseli\u015fe ra\u011fmen son saat momentumu zay\u0131f; mevcut seviyelerde kald\u0131ra\u00e7la y\u00fckseli\u015fi kovalamak cazip de\u011fil.\u00bb",
-  "11.11 21:13 N  NEWS (9 new) score -0.30 conf 0.50: Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz gerilimi, ABD \u00fcslerine tehdit) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak s\u0131cak enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolar\u0131n 19 ayl\u0131k zirvesi daha bask\u0131n oldu\u011fu i\u00e7in k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131 daha olas\u0131.",
   "11.11 21:13 N  GPT  score -0.15 conf 0.42: \u0130ran ve H\u00fcrm\u00fcz Bo\u011faz\u0131 \u00e7evresindeki gerilim g\u00fcvenli liman talebini destekleyebilir; ancak dolar\u0131n yeni zirvesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili oldu\u011fundan k\u0131sa vadeli net etki s\u0131n\u0131rl\u0131 ve hafif negatif g\u00f6r\u00fcn\u00fcyor.",
   "11.11 21:23 B6  karar turu: Claude \u00abCoreWeave sonu\u00e7lar\u0131yla gelen yapay zeka rallisi piyasay\u0131 risk i\u015ftahl\u0131 tutuyor, ancak endeksler g\u00fcn i\u00e7i zirveye yak\u0131n ve son saatte ivme zay\u0131flad\u0131.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f e\u011filimi korunuyor ancak g\u00fcnl\u00fck hareketlerin b\u00fcy\u00fckl\u00fc\u011f\u00fc ve taze \u015firket haberlerinin azl\u0131\u011f\u0131, 4 kat kald\u0131ra\u00e7la hareketi kovalama riskini art\u0131r\u0131yor.\u00bb",
   "11.11 21:25 N  NEWS (11 new) score -0.35 conf 0.50: Dolar endeksi y\u0131ll\u0131k zirveyi test ederken ve s\u0131cak enflasyon verisi tahvil faizlerini y\u00fckseltirken alt\u0131n \u00fczerinde bask\u0131 olu\u015fuyor; \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ise g\u00fcvenli liman talebini destekliyor ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki k\u0131sa vadede hafif negatif.",
@@ -30167,7 +30165,9 @@
   "12.11 20:10 B6  karar turu: Claude \u00abEndeksler yatay ve hafif zay\u0131f seyrediyor; Nvidia'daki liderlik krizi ve Goolsbee'nin \u015fahin enflasyon yorumlar\u0131 teknoloji taraf\u0131nda bask\u0131 yarat\u0131yor.\u00bb / GPT \u00abTeknoloji hisselerindeki g\u00fcn i\u00e7i zay\u0131fl\u0131k ve Nvidia kaynakl\u0131 haber riski, \u00f6n\u00fcm\u00fczdeki 1-3 saatte a\u015fa\u011f\u0131 y\u00f6n\u00fc destekliyor.\u00bb",
   "12.11 20:13 N  NEWS (7 new) score -0.75 conf 0.70: Yeni gelen ba\u015fl\u0131klar \u00e7ok \u015fahin: dolar 19 ayl\u0131k zirvede, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, Goolsbee enflasyonu \"rahats\u0131z edici\" buluyor ve ABD enflasyonu beklentilerin \u00fczerinde geldi. Bu tablo reel faiz ve dolar yoluyla alt\u0131n i\u00e7in net olumsuz; alt\u0131n zaten 2,66% d\u00fc\u015f\u00fc\u015f ve 13 ayl\u0131k en d\u00fc\u015f\u00fck seviyede. Jeopolitik riskler (Gazze, Ukrayna, \u0130ran) g\u00fcvenli liman talebi yaratabilir ama bu etkisi \u015fahin Fed bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Baz\u0131 ba\u015fl\u0131klar eski oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
   "12.11 20:13 N  GPT  score -0.68 conf 0.76: Dolar\u0131n 19 ay\u0131n zirvesine yakla\u015fmas\u0131 ve Fed yetkililerinin enflasyonun kal\u0131c\u0131 oldu\u011funa dair \u015fahin mesajlar\u0131, k\u0131sa vadede faiz beklentilerini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131r\u0131yor. Gazze\u2019deki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131 \u015fimdilik dengele",
-  "12.11 20:23 B6  karar turu: Claude \u00abEndeksler g\u00fcn i\u00e7inde yatay ancak son bir saatte Nasdaq \u00f6nc\u00fcl\u00fc\u011f\u00fcnde hafif zay\u0131fl\u0131yor; Goolsbee'nin \u015fahin enflasyon yorumlar\u0131 ve NVDA belirsizli\u011fi risk i\u015ftah\u0131n\u0131 bask\u0131l\u0131yor.\u00bb / GPT \u00abQQQ \u00f6nc\u00fcl\u00fc\u011f\u00fcndeki zay\u0131fl\u0131k ve enflasyon endi\u015feleri a\u015fa\u011f\u0131 y\u00f6n\u00fc desteklerken NVDA'da haber ak\u0131\u015f\u0131 kaynakl\u0131 ani tepki y\u00fckseli\u015fi riski y\u00fcksek.\u00bb"
+  "12.11 20:23 B6  karar turu: Claude \u00abEndeksler g\u00fcn i\u00e7inde yatay ancak son bir saatte Nasdaq \u00f6nc\u00fcl\u00fc\u011f\u00fcnde hafif zay\u0131fl\u0131yor; Goolsbee'nin \u015fahin enflasyon yorumlar\u0131 ve NVDA belirsizli\u011fi risk i\u015ftah\u0131n\u0131 bask\u0131l\u0131yor.\u00bb / GPT \u00abQQQ \u00f6nc\u00fcl\u00fc\u011f\u00fcndeki zay\u0131fl\u0131k ve enflasyon endi\u015feleri a\u015fa\u011f\u0131 y\u00f6n\u00fc desteklerken NVDA'da haber ak\u0131\u015f\u0131 kaynakl\u0131 ani tepki y\u00fckseli\u015fi riski y\u00fcksek.\u00bb",
+  "12.11 20:26 N  NEWS (14 new) score -0.70 conf 0.70: Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: s\u0131cak ABD enflasyonu Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltiyor, dolar 19 ayl\u0131k zirvesine \u00e7\u0131kt\u0131 ve g\u00fcm\u00fc\u015f %3'ten fazla d\u00fc\u015ft\u00fc. Gold 12 Kas\u0131m'da %2,66 de\u011fer kaybetti, bu da bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor. \u0130ran sava\u015f\u0131 fonlamas\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, ancak bu etkiler faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
+  "12.11 20:26 N  GPT  score -0.72 conf 0.78: S\u0131cak enflasyon ve Fed\u2019in daha fazla faiz art\u0131rabilece\u011fi beklentisi dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131n\u0131 destekliyor; y\u00fckselen faiz beklentileri alt\u0131n i\u00e7in belirgin bask\u0131 olu\u015fturuyor. Jeopolitik riskler s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flasa da haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde devam eden geli\u015fmeler ve k\u0131sa vadel"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    4963.78
-   ],
-   [
     1793981722,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794504184,
+    4963.78
+   ],
+   [
+    1794504361,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    4975.18
-   ],
-   [
     1793981722,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794504184,
+    4975.18
+   ],
+   [
+    1794504361,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    4993.28
-   ],
-   [
     1793981722,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794504184,
+    4993.28
+   ],
+   [
+    1794504361,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793981542,
-    4969.22
-   ],
-   [
     1793981722,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794504184,
+    4969.22
+   ],
+   [
+    1794504361,
     4969.22
    ]
   ],
@@ -80892,10 +80892,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793981542,
-    4544.23
-   ],
    [
     1793981722,
     4544.23
@@ -92891,6 +92887,10 @@
    [
     1794504184,
     4809.67
+   ],
+   [
+    1794504361,
+    4812.25
    ]
   ],
   "news_calls": {
@@ -93098,7 +93098,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 115251.02786399999,
+   "balance": 115251.034864,
    "start": 100000.0,
    "positions": [
     {
@@ -93113,7 +93113,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: Piyasa negatifken istikrarl\u0131 y\u00fckseli\u015fle g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor ve NVDA'dan \u00e7\u0131kan paran\u0131n megacap rotasyonundan faydalan\u0131yor. | GPT 0.63: Piyasaya g\u00f6re g\u00fc\u00e7l\u00fc seyir ve son kapan\u0131\u015flardaki ivmelenme, a\u015f\u0131r\u0131 uzamam\u0131\u015f bir y\u00fckseli\u015f devam\u0131 f\u0131rsat\u0131 sunuyor.",
-     "cur": 356.338
+     "cur": 356.465
     },
     {
      "id": "973c27a6-5cb9-4026-ab47-d7167484604b",
@@ -93127,7 +93127,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: NVDA'n\u0131n dipten d\u00f6n\u00fc\u015f\u00fcyle Nasdaq son bir saatte %0,95 toparland\u0131; panik sat\u0131\u015f\u0131 sonras\u0131 kademeli toparlanman\u0131n s\u00fcrmesi bekleniyor. | GPT 0.58: G\u00fc\u00e7l\u00fc saatlik toparlanman\u0131n ard\u0131ndan fiyat\u0131n son zirve yak\u0131n\u0131nda tutunmas\u0131 al\u0131c\u0131lar\u0131n kontrol\u00fcn\u00fc destekliyor.",
-     "cur": 689.37
+     "cur": 690.065
     },
     {
      "id": "4def1002-4d1a-42aa-8af8-42287c37e2df",
@@ -93141,7 +93141,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Endeks g\u00fcn\u00fcn kayb\u0131n\u0131 sildi; NVDA toparland\u0131k\u00e7a istikrarl\u0131 y\u00fckseli\u015f momentumu s\u00fcr\u00fcyor. | GPT 0.63: Son saatte y\u00fckselen dipler ve g\u00fcn i\u00e7i zirvelere ilerleyen fiyat, k\u0131sa vadeli y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 760.081
+     "cur": 760.615
     },
     {
      "id": "40afe354-4d43-48cf-8533-42fc0440df7b",
@@ -93155,7 +93155,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: QQQ g\u00fcc\u00fcyle birlikte y\u00fckselen dipler ve k\u0131sa vadeli yukar\u0131 trend \u0131l\u0131ml\u0131 bir long f\u0131rsat\u0131 sunuyor. | GPT 0.56: Son saatteki \u00f6l\u00e7\u00fcl\u00fc y\u00fckseli\u015f ve zirvelere yak\u0131n tutunma, g\u00fc\u00e7l\u00fc Nasdaq e\u015fli\u011finde k\u0131sa vadeli devam avantaj\u0131 sunuyor.",
-     "cur": 390.76
+     "cur": 391.25
     }
    ],
    "trades": [
@@ -93864,18 +93864,14 @@
    ],
    "day": {
     "date": "2026-11-12",
-    "pnl": -511.36,
+    "pnl": -213.21,
     "trades": 4,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114739.67
+   "equity": 115037.82
   },
   "equity_curve": [
-   [
-    1793981542,
-    109536.27
-   ],
    [
     1793981722,
     109646.96
@@ -105871,6 +105867,10 @@
    [
     1794504184,
     114739.67
+   ],
+   [
+    1794504361,
+    115037.82
    ]
   ],
   "open": {
@@ -106098,10 +106098,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793981542,
-    5007.68
-   ],
    [
     1793981722,
     5007.68
@@ -118096,6 +118092,10 @@
    ],
    [
     1794504184,
+    4876.96
+   ],
+   [
+    1794504361,
     4876.96
    ]
   ],
