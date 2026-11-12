@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    5000.0
-   ],
-   [
     1793986150,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794508711,
+    5000.0
+   ],
+   [
+    1794508892,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    4868.5
-   ],
-   [
     1793986150,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794508711,
+    4868.5
+   ],
+   [
+    1794508892,
     4868.5
    ]
   ],
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    4963.78
-   ],
-   [
     1793986150,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794508711,
+    4963.78
+   ],
+   [
+    1794508892,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    4975.18
-   ],
-   [
     1793986150,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794508711,
+    4975.18
+   ],
+   [
+    1794508892,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    4993.28
-   ],
-   [
     1793986150,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794508711,
+    4993.28
+   ],
+   [
+    1794508892,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793985968,
-    4969.22
-   ],
-   [
     1793986150,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794508711,
+    4969.22
+   ],
+   [
+    1794508892,
     4969.22
    ]
   ],
@@ -80897,10 +80897,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793985968,
-    4544.23
-   ],
    [
     1793986150,
     4544.23
@@ -92896,6 +92892,10 @@
    [
     1794508711,
     4724.31
+   ],
+   [
+    1794508892,
+    4724.31
    ]
   ],
   "news_calls": {
@@ -93103,7 +93103,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 114272.08545599999,
+   "balance": 114288.47815599998,
    "start": 100000.0,
    "positions": [
     {
@@ -93118,7 +93118,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.52: Huang'\u0131n ayr\u0131l\u0131\u011f\u0131 sonras\u0131 sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan yeni not indirimlerine ra\u011fmen fiyat son bir saatte istikrarl\u0131 toparlan\u0131yor, ancak DOJ soru\u015fturmas\u0131 riski s\u00fcr\u00fcyor. | GPT 0.58: Olumsuz \u015firket haberlerine ra\u011fmen son saatteki %0,9 toparlanma ve art arda y\u00fckselen kapan\u0131\u015flar, riskli fakat al\u0131n",
-     "cur": 165.92
+     "cur": 165.59
     },
     {
      "id": "973c27a6-5cb9-4026-ab47-d7167484604b",
@@ -93132,7 +93132,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: NVDA'n\u0131n dipten d\u00f6n\u00fc\u015f\u00fcyle Nasdaq son bir saatte %0,95 toparland\u0131; panik sat\u0131\u015f\u0131 sonras\u0131 kademeli toparlanman\u0131n s\u00fcrmesi bekleniyor. | GPT 0.58: G\u00fc\u00e7l\u00fc saatlik toparlanman\u0131n ard\u0131ndan fiyat\u0131n son zirve yak\u0131n\u0131nda tutunmas\u0131 al\u0131c\u0131lar\u0131n kontrol\u00fcn\u00fc destekliyor.",
-     "cur": 690.61
+     "cur": 690.72
     },
     {
      "id": "4def1002-4d1a-42aa-8af8-42287c37e2df",
@@ -93146,7 +93146,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Endeks g\u00fcn\u00fcn kayb\u0131n\u0131 sildi; NVDA toparland\u0131k\u00e7a istikrarl\u0131 y\u00fckseli\u015f momentumu s\u00fcr\u00fcyor. | GPT 0.63: Son saatte y\u00fckselen dipler ve g\u00fcn i\u00e7i zirvelere ilerleyen fiyat, k\u0131sa vadeli y\u00fckseli\u015fin devam\u0131n\u0131 destekliyor.",
-     "cur": 760.21
+     "cur": 760.28
     },
     {
      "id": "40afe354-4d43-48cf-8533-42fc0440df7b",
@@ -93160,7 +93160,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: QQQ g\u00fcc\u00fcyle birlikte y\u00fckselen dipler ve k\u0131sa vadeli yukar\u0131 trend \u0131l\u0131ml\u0131 bir long f\u0131rsat\u0131 sunuyor. | GPT 0.56: Son saatteki \u00f6l\u00e7\u00fcl\u00fc y\u00fckseli\u015f ve zirvelere yak\u0131n tutunma, g\u00fc\u00e7l\u00fc Nasdaq e\u015fli\u011finde k\u0131sa vadeli devam avantaj\u0131 sunuyor.",
-     "cur": 391.895
+     "cur": 391.8401
     }
    ],
    "trades": [
@@ -93887,18 +93887,14 @@
    ],
    "day": {
     "date": "2026-11-12",
-    "pnl": -505.85,
+    "pnl": -630.88,
     "trades": 5,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114745.18
+   "equity": 114620.15
   },
   "equity_curve": [
-   [
-    1793985968,
-    109601.94
-   ],
    [
     1793986150,
     109657.32
@@ -105894,6 +105890,10 @@
    [
     1794508711,
     114745.18
+   ],
+   [
+    1794508892,
+    114620.15
    ]
   ],
   "open": {
@@ -106121,10 +106121,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793985968,
-    5007.68
-   ],
    [
     1793986150,
     5007.68
@@ -118119,6 +118115,10 @@
    ],
    [
     1794508711,
+    4876.96
+   ],
+   [
+    1794508892,
     4876.96
    ]
   ],
