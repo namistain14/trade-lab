@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 08:06 (İstanbul)
+> Son güncelleme: 12.11.2026 08:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %33.3 | %42.7 |
 | Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
 
-**Hesap değeri: 4,797.99 $** (başlangıç 5,000 $, -202.01 $ / %-4.04)
+**Hesap değeri: 4,802.83 $** (başlangıç 5,000 $, -197.17 $ / %-3.94)
 
 Açık pozisyonlar: PAXGUSDT short @ 3975.48 (TP 3963.56 / SL 3983.44)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 07:14 N  NEWS (8 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesine çıkarken Fed faiz artırımı beklentileri güçleniyor; bu, reel faizler ve güçlü dolar nedeniyle altın için net olarak baskı yaratıyor. Ayrıca petrol, İran ve Ukrayna barış görüşmeleri umuduyla düşüyor, bu da jeopolitik güvenli liman talebini zayıflatıyor. Altın zaten haftalık en düşük seviyeye gerilemiş durumda; yine de PPI verisi ve yen müdahalesi riski kısa vadede oynaklık yaratabilir.
 12.11 07:14 N  GPT  score -0.55 conf 0.68: Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentilerinin güçlenmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor. İran’ın misilleme söylemi güvenli liman talebini destekleyebilir; ancak petrolün barış görüşmeleri umuduyla gerilemesi bu desteği sınırlıyor.
 12.11 07:26 N  NEWS (7 new) score -0.60 conf 0.60: Dolar 19 aylık zirvesine çıkarken Fed faiz artırımı beklentileri güçleniyor ve altın bir haftanın en düşük seviyesine geriledi; bu, altın için net bir baskı sinyali. İran savaşı ve Orta Doğu gerilimi güvenli liman talebini destekleyebilir, ancak petrol fiyatlarının barış umutlarıyla düşmesi bu etkiyi zayıflatıyor. Yakın vadede PPI verisi ve dolar hareketi belirleyici olacak; bu nedenle güven orta düzeyde.
 12.11 07:26 N  GPT  score -0.55 conf 0.72: Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentilerinin güçlenmesi, altındaki düşüşü kısa vadede destekliyor. İran’dan misilleme tehdidi ve Gazze’deki saldırı güvenli liman talebini artırabilir; bu nedenle düşüş görünümü kesin değil.
@@ -104,6 +103,7 @@ Son işlemler:
 12.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 12.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 12.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+12.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
