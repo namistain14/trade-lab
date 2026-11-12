@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.0 | %42.7 |
 | Ödenen komisyon/spread | 118.97 $ | 1056.31 $ |
 
-**Hesap değeri: 4,793.12 $** (başlangıç 5,000 $, -206.88 $ / %-4.14)
+**Hesap değeri: 4,793.75 $** (başlangıç 5,000 $, -206.25 $ / %-4.12)
 
 Açık pozisyonlar: PAXGUSDT short @ 3945.96 (TP 3934.12 / SL 3953.85)
 
