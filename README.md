@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 03:29 (İstanbul)
+> Son güncelleme: 12.11.2026 03:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %50.0 | %43.2 |
 | Ödenen komisyon/spread | 23.78 $ | 961.11 $ |
 
-**Hesap değeri: 4,843.66 $** (başlangıç 5,000 $, -156.34 $ / %-3.13)
+**Hesap değeri: 4,837.72 $** (başlangıç 5,000 $, -162.28 $ / %-3.25)
+
+Açık pozisyonlar: PAXGUSDT short @ 3978.02 (TP 3966.09 / SL 3985.98)
 
 Son haber analizi (12.11 03:23): Claude puan **-0.60**, güven 0.70 — Fed faiz artırımı beklentileri güçleniyor, dolar bir aylık zirveye yakın ve altın 4.000 doların altında tutunuyor; bu tablo kısa vadede altın için baskı yaratıyor. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish Fed ve güçlü dolar ile sınırlı kalıyor.
 
@@ -87,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 02:22 N  NEWS (2 new) score -0.60 conf 0.60: Sıcak Ekim CPI verisi, Fed faiz artırımı beklentilerinin yükselmesi ve doların güçlenmesi altın için baskılayıcı; altın zaten 4.000 doların altına inmiş durumda. Jeopolitik (İran savaşı) başlıklarının güvenli liman talebi yaratma etkisi ise sınırlı ve büyük ölçüde fiyatlanmış görünüyor, bu yüzden güven orta düzeyde.
 12.11 02:22 N  GPT  score -0.65 conf 0.74: Sıcak enflasyon ve olası Fed faiz artırımı beklentileri doları destekleyip altını baskılıyor; doların güçlenmesi ve Rusya’nın yuanla alternatif arayışından geri çekilmesi de bu eğilimi pekiştiriyor. İran kaynaklı jeopolitik riskler güvenli liman talebi yaratabilir, ancak başlıklarda yeni ve belirgin
 12.11 02:34 N  NEWS (8 new) score -0.50 conf 0.60: Sıcak Ekim CPI verisi, Fed faiz artırımı beklentilerini yükseltti ve dolar güçlendi; bu, altın fiyatını 4.000 doların altına itti. İran savaşı ve Hürmüz haberleri jeopolitik risk desteği sağlıyor olsa da büyük ölçüde bilinen ve fiyatlanmış konular olduğu için bu baskıyı dengelemiyor.
 12.11 02:34 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi, Fed’in faiz artırabileceği beklentisi ve doların güçlenmesi altın üzerinde belirgin kısa vadeli baskı yaratıyor; altının 4.000 doların altına düşmesi de bu baskıyı yansıtıyor. Hürmüz’e ilişkin gerilim güvenli liman talebini destekleyebilir, ancak Trump’ın savaşın yakında bite
@@ -102,6 +103,7 @@ Son işlemler:
 12.11 03:20 B5  CLOSE short stop: -55.95 USD
 12.11 03:23 N  NEWS (8 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri güçleniyor, dolar bir aylık zirveye yakın ve altın 4.000 doların altında tutunuyor; bu tablo kısa vadede altın için baskı yaratıyor. İran savaşıyla ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish Fed ve güçlü dolar ile sınırlı kalıyor.
 12.11 03:23 N  GPT  score -0.65 conf 0.72: Doların güçlenmesi ve Fed faiz artışı beklentilerinin yükselmesi altın üzerinde kısa vadeli baskı yaratıyor; altının 4.000 doların altında kalması da bu görünümü destekliyor. İran savaşı kaynaklı güvenli liman talebi dengeleyici olabilir, ancak başlıklarda yeni ve belirgin bir tırmanış yok.
+12.11 03:32 B5  SHORT gold 25000 USD x10 @ 3978.02 (TP 3966.09, SL 3985.98; news -0.62)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
