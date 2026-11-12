@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 20:55 (İstanbul)
+> Son güncelleme: 12.11.2026 20:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %42.9 | %43.0 |
 | Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,795.54 $** (başlangıç 5,000 $, -204.46 $ / %-4.09)
+**Hesap değeri: 4,811.86 $** (başlangıç 5,000 $, -188.14 $ / %-3.76)
 
 Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,280.90 $** (başlangıç 100,000 $, +15280.90 $ / %+15.28)
+**Hesap değeri: 115,049.48 $** (başlangıç 100,000 $, +15049.48 $ / %+15.05)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 20:01 B5  SHORT gold 25000 USD x10 @ 3877.14 (TP 3865.51, SL 3884.90; news -0.69)
-12.11 20:10 B6  karar turu: Claude «Endeksler yatay ve hafif zayıf seyrediyor; Nvidia'daki liderlik krizi ve Goolsbee'nin şahin enflasyon yorumları teknoloji tarafında baskı yaratıyor.» / GPT «Teknoloji hisselerindeki gün içi zayıflık ve Nvidia kaynaklı haber riski, önümüzdeki 1-3 saatte aşağı yönü destekliyor.»
 12.11 20:13 N  NEWS (7 new) score -0.75 conf 0.70: Yeni gelen başlıklar çok şahin: dolar 19 aylık zirvede, Fed'in faiz artırımı beklentileri güçleniyor, Goolsbee enflasyonu "rahatsız edici" buluyor ve ABD enflasyonu beklentilerin üzerinde geldi. Bu tablo reel faiz ve dolar yoluyla altın için net olumsuz; altın zaten 2,66% düşüş ve 13 aylık en düşük seviyede. Jeopolitik riskler (Gazze, Ukrayna, İran) güvenli liman talebi yaratabilir ama bu etkisi şahin Fed baskısının gerisinde kalıyor. Bazı başlıklar eski olduğu için güveni biraz sınırladım.
 12.11 20:13 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine yaklaşması ve Fed yetkililerinin enflasyonun kalıcı olduğuna dair şahin mesajları, kısa vadede faiz beklentilerini ve altın üzerindeki baskıyı artırıyor. Gazze’deki saldırı güvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz baskısını şimdilik dengele
 12.11 20:23 B6  karar turu: Claude «Endeksler gün içinde yatay ancak son bir saatte Nasdaq öncülüğünde hafif zayıflıyor; Goolsbee'nin şahin enflasyon yorumları ve NVDA belirsizliği risk iştahını baskılıyor.» / GPT «QQQ öncülüğündeki zayıflık ve enflasyon endişeleri aşağı yönü desteklerken NVDA'da haber akışı kaynaklı ani tepki yükselişi riski yüksek.»
@@ -106,6 +104,8 @@ Son işlemler:
 12.11 20:47 B6  AAPL emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"72480.46","code":40310000,"cost_basis":"85345.25","message":"insufficient buying power"}
 12.11 20:50 N  NEWS (8 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, altın için 1-4 saatlik vadede net bir baskı oluşturuyor. İran savaşı ve jeopolitik haberler güvenli liman talebi yaratabilir ancak mevcut haber akışında bu etkiyi belirgin biçimde bastırıyor.
 12.11 20:50 N  GPT  score -0.68 conf 0.76: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyerek altın üzerinde belirgin baskı yaratıyor; doların 19 ayın zirvesine çıkması ve altındaki satışlar bu görünümü teyit ediyor. İran görüşmelerindeki belirsizlik güvenli liman talebini bir miktar destekleyebilir,
+12.11 20:59 B6  karar turu: Claude «Endeksler yatay ve sakin seyrediyor; asıl hareket Nvidia'ya özgü haber akışından geliyor ve satış baskısı sürüyor.» / GPT «Endeksler yatay seyrederken NVDA'daki taze olumsuz haber akışı ve AAPL'ın göreli zayıflığı seçici kısa pozisyonları destekliyor.»
+12.11 20:59 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71773.99","code":40310000,"cost_basis":"84614.89","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
