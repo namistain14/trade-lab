@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 01:35 (İstanbul)
+> Son güncelleme: 13.11.2026 01:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %42.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1199.45 $ |
 
-**Hesap değeri: 4,726.27 $** (başlangıç 5,000 $, -273.73 $ / %-5.47)
+**Hesap değeri: 4,725.63 $** (başlangıç 5,000 $, -274.37 $ / %-5.49)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
-Son haber analizi (13.11 01:26): Claude puan **-0.60**, güven 0.70 — Dolar 19 ayın zirvesinde (DXY 103.08) ve Fed faiz artırımı beklentileri yükseliyor; Daly daha fazla sıkılaşma olabileceğini söyledi. Bu, altın için net olarak baskılayıcı; İran savaşı kaynaklı jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor, ancak mevcut tabloyu değiştirmiyor.
+Son haber analizi (13.11 01:38): Claude puan **-0.65**, güven 0.70 — Dolar 19 aylık zirvede ve Fed faiz artırımı beklentileri yükselirken altın 3900 doların altına düştü; Fed'in Daly'nin sıkılaştırma yorumu ve ABD enflasyonunun yeniden yükselmesi reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki haberlerin baskın hawkish/güçlü dolar temasının altında kalıyor.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.70 — Fed’in daha sıkı politika beklentileri dolar ve getirileri destekliyor; yeni başlıklarda dolar rallisi ile altının aşağı yönlü görünümü öne çıkıyor ve bu kısa vadede altına baskı yapabilir. Ukrayna barış görüşmeleri güvenli liman talebini bir miktar sınırlayabilir; başlıkların bir kısmı piyasa yorum
+GPT (gpt-6-luna): puan **-0.75**, güven 0.72 — Fed’in daha sıkı politika beklentisini güçlendiren yüksek enflasyon ve faiz artışı bahisleri doları ve getirileri destekleyerek altını baskılıyor; altın 3.900 doların altına inerken düşüş momentumu da kısa vadede aleyhte. Ancak haberlerin bir kısmı fiyat hareketini zaten yansıtıyor ve jeopolitik baş
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 00:01 N  GPT  score -0.78 conf 0.78: Doların 19 ayın zirvesine çıkması ve Fed yetkililerinin enflasyon ile ek faiz artışlarına ilişkin şahin mesajları altın için güçlü baskı oluşturuyor. Altındaki sert düşüş bu gelişmelerin kısmen fiyatlanmış olabileceğini, jeopolitik riskler ise sınırlı bir destek sağlayabileceğini gösteriyor.
-13.11 00:13 N  NEWS (7 new) score -0.70 conf 0.70: Fed yetkililerinin (Daly, Goolsbee, SF Fed) peş peşe faiz artırımı mesajı vermesi, Aralık artırımı olasılığının yaklaşık %87'ye çıkması ve doların 19 aylık zirvesi gerçek faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. İran savaşına ilişkin jeopolitik risk bir miktar destek sağlayabilir, ancak piyasa bunu zaten fiyatlıyor gibi görünüyor ve altın yıllık dip seviyesinde (~3.850$) düşüyor. Yakın vadede ABD enflasyon verisi ve Fed konuşmaları belirleyici olacak.
 13.11 00:13 N  GPT  score -0.48 conf 0.62: Daly’nin daha fazla faiz artışını olası görmesi ve doların 19 ayın zirvesinde olması, kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak bu haberlerin bir kısmı zaten fiyatlanmış ve etkiler çelişkili.
 13.11 00:26 N  NEWS (4 new) score -0.70 conf 0.72: Şahin Fed söylemleri (Daly: daha fazla faiz artırımı; Aralık'ta çeyrek puanlık artış olasılığı %87) ve doların 19 aylık zirvesi, reel faiz beklentilerini yükseltip altını baskılıyor. Altının 3.850 dolar civarında bir yıllık dibe inmesi kısmen fiyatlanmış olsa da, yeni haberler bu baskıyı sürdürdüğü için kısa vadede negatif görünüm hakim; Ukrayna ve İran savaşı haberleri ise güvenli liman talebini destekleyici ama şu an etkisi sınırlı.
 13.11 00:26 N  GPT  score -0.68 conf 0.78: Fed’in daha fazla faiz artırımı beklentisi ve getirilerdeki yükseliş doları 19 ayın zirvesine taşıyor; bu, önümüzdeki saatlerde altın üzerinde belirgin baskı yaratabilir. Jeopolitik riskler destekleyici olsa da haberlerin çoğu yeni değil ve mevcut düşüşün bir kısmı fiyatlanmış olabilir.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 01:14 N  GPT  score -0.32 conf 0.57: Doların 19 ayın zirvesi ve Fed’in daha sıkı politika beklentileri altın üzerinde kısa vadeli baskıyı destekliyor; ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor. Rusya-Ukrayna görüşmelerinin sürmesi güvenli liman talebini hafifçe azaltabilir, fakat yeni başlıkların çoğu altın için doğ
 13.11 01:26 N  NEWS (8 new) score -0.60 conf 0.70: Dolar 19 ayın zirvesinde (DXY 103.08) ve Fed faiz artırımı beklentileri yükseliyor; Daly daha fazla sıkılaşma olabileceğini söyledi. Bu, altın için net olarak baskılayıcı; İran savaşı kaynaklı jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor, ancak mevcut tabloyu değiştirmiyor.
 13.11 01:26 N  GPT  score -0.65 conf 0.70: Fed’in daha sıkı politika beklentileri dolar ve getirileri destekliyor; yeni başlıklarda dolar rallisi ile altının aşağı yönlü görünümü öne çıkıyor ve bu kısa vadede altına baskı yapabilir. Ukrayna barış görüşmeleri güvenli liman talebini bir miktar sınırlayabilir; başlıkların bir kısmı piyasa yorum
+13.11 01:38 N  NEWS (9 new) score -0.65 conf 0.70: Dolar 19 aylık zirvede ve Fed faiz artırımı beklentileri yükselirken altın 3900 doların altına düştü; Fed'in Daly'nin sıkılaştırma yorumu ve ABD enflasyonunun yeniden yükselmesi reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki haberlerin baskın hawkish/güçlü dolar temasının altında kalıyor.
+13.11 01:38 N  GPT  score -0.75 conf 0.72: Fed’in daha sıkı politika beklentisini güçlendiren yüksek enflasyon ve faiz artışı bahisleri doları ve getirileri destekleyerek altını baskılıyor; altın 3.900 doların altına inerken düşüş momentumu da kısa vadede aleyhte. Ancak haberlerin bir kısmı fiyat hareketini zaten yansıtıyor ve jeopolitik baş
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
