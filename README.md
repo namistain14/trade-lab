@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 19:55 (İstanbul)
+> Son güncelleme: 12.11.2026 19:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +5.93 $ | -163.53 $ |
-| İşlem sayısı | 20 | 99 |
-| Kazanma oranı | %45.0 | %43.4 |
-| Ödenen komisyon/spread | 238.24 $ | 1175.58 $ |
+| Net kâr/zarar | -50.05 $ | -219.51 $ |
+| İşlem sayısı | 21 | 100 |
+| Kazanma oranı | %42.9 | %43.0 |
+| Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,792.97 $** (başlangıç 5,000 $, -207.03 $ / %-4.14)
-
-Açık pozisyonlar: PAXGUSDT short @ 3876.39 (TP 3864.77 / SL 3884.15)
+**Hesap değeri: 4,780.49 $** (başlangıç 5,000 $, -219.51 $ / %-4.39)
 
 Son haber analizi (12.11 19:49): Claude puan **-0.70**, güven 0.65 — Fed'in faiz artırımı ihtimali (Goolsbee, Hammack, Chicago Fed açıklamaları, "Fed şahinleri" başlığı) ve Treasury getirilerinin yükselmesiyle dolar güçleniyor; bu da altın için belirgin baskı yaratıyor. Altının 13 ayın en düşük seviyesine gerilemesi ve günlük %2,66 düşüş bu yönü destekliyor; jeopolitik (Ukrayna, İran) haberleri güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor.</reason>
 <parameter name="key_events">["Fed yetkilileri (Goolsbee, Hammack) enflasyon nedeniyle faiz artırımını tartışıyor", "ABD tahvil getirileri yükselirken dolar güçleniyor", "Altın 13 ayın en düşük seviyesine geriledi, günlük yaklaşık %2,66 düşüş"]
@@ -36,11 +34,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 19:56 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 19:06 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 18:46 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 18:31 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 17:57 | PAXGUSDT | short | +69.05 $ | take profit |
-| 12.11 17:44 | PAXGUSDT | short | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -75,7 +73,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,657.52 $** (başlangıç 100,000 $, +15657.52 $ / %+15.66)
+**Hesap değeri: 115,830.48 $** (başlangıç 100,000 $, +15830.48 $ / %+15.83)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -92,8 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 19:06 B5  CLOSE short stop: -55.98 USD
-12.11 19:09 B6  karar turu: Claude «Piyasa, Nvidia şokunu sindirip teknoloji öncülüğünde öğleden önce toparlanıyor.» / GPT «Endekslerde yükseliş momentumu sürüyor ancak NVIDIA kaynaklı haber riski ve mevcut endeks pozisyonları toplam kaldıraçta ölçülü kalmayı gerektiriyor.»
 12.11 19:12 N  NEWS (8 new) score -0.70 conf 0.70: Altın, Fed'in sıkılaştırma beklentileri, reel faizlerin yükselmesi ve güçlenen doların baskısıyla 3.900 doların altına düştü; Fed yetkililerinin kademeli faiz artırımını desteklemesi ve ABD enflasyon verileri kısa vadede altın için net olumsuz. Ukrayna'daki barış görüşmeleri ve İran gerilimine ilişkin haberler ise güvenli liman talebini artırmıyor, bu yüzden yukarı yönlü destek zayıf.
 12.11 19:12 N  GPT  score -0.58 conf 0.72: Fed’in daha sıkı politika beklentileri ve yükselen reel getiriler doları destekleyerek altın üzerinde baskı yaratıyor; fiyatın 3.900 doların altına sert düşmesi kısa vadeli aşağı yönlü momentumu güçlendiriyor. Ancak satışların önemli kısmı gerçekleşmiş olabilir ve Cuma günkü üretici enflasyonu önces
 12.11 19:12 B5  SHORT gold 25000 USD x10 @ 3876.39 (TP 3864.77, SL 3884.15; news -0.64)
@@ -108,6 +104,8 @@ Son işlemler:
 12.11 19:49 N  NEWS (12 new) score -0.70 conf 0.65: Fed'in faiz artırımı ihtimali (Goolsbee, Hammack, Chicago Fed açıklamaları, "Fed şahinleri" başlığı) ve Treasury getirilerinin yükselmesiyle dolar güçleniyor; bu da altın için belirgin baskı yaratıyor. Altının 13 ayın en düşük seviyesine gerilemesi ve günlük %2,66 düşüş bu yönü destekliyor; jeopolitik (Ukrayna, İran) haberleri güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor.</reason>
 <parameter name="key_events">["Fed yetkilileri (Goolsbee, Hammack) enflasyon nedeniyle faiz artırımını tartışıyor", "ABD tahvil getirileri yükselirken dolar güçleniyor", "Altın 13 ayın en düşük seviyesine geriledi, günlük yaklaşık %2,66 düşüş"]
 12.11 19:49 N  GPT  score -0.65 conf 0.70: Fed’in daha sıkılaşabileceğine dair beklentiler ve yükselen ABD tahvil getirileriyle güçlenen dolar, önümüzdeki saatlerde altın üzerinde baskı yaratıyor. Savaş haberleri sınırlı güvenli liman desteği sağlasa da çoğu süregelen gelişmeler; sert düşüşün bir kısmı zaten fiyatlanmış olabilir.
+12.11 19:58 B5  CLOSE short stop: -55.98 USD
+12.11 19:58 B6  karar turu: Claude «Endeksler hafif artıda ve yatay seyrediyor, ancak NVDA kaynaklı belirsizlik ile Fed'in şahin açıklamaları yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endekslerdeki sınırlı toparlanmaya karşın şahin Fed açıklamaları yükselişi sınırlarken, NVDA şirket özelindeki olumsuz haberlerle ayrışıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
