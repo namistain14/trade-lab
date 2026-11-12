@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 20:31 (İstanbul)
+> Son güncelleme: 12.11.2026 20:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %42.9 | %43.0 |
 | Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,809.60 $** (başlangıç 5,000 $, -190.40 $ / %-3.81)
+**Hesap değeri: 4,803.60 $** (başlangıç 5,000 $, -196.40 $ / %-3.93)
 
 Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,093.46 $** (başlangıç 100,000 $, +15093.46 $ / %+15.09)
+**Hesap değeri: 115,263.11 $** (başlangıç 100,000 $, +15263.11 $ / %+15.26)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 19:37 N  GPT  score -0.72 conf 0.79: Fed yetkililerinin enflasyonun yayılması nedeniyle daha hızlı faiz artışlarını değerlendirmesi ve Goolsbee’nin enflasyonun kötüleştiğini söylemesi, faiz ve reel getiri beklentilerini yükselterek altını baskılıyor. Altındaki sert düşüş bu eğilimi teyit ediyor; ancak haberlerin bir kısmı tekrarlı ve U
 12.11 19:46 B6  karar turu: Claude «Endeksler yatay ama öğleden sonra hafif zayıflıyor; Goolsbee'nin şahin yorumları ve Nvidia'daki yönetim krizi teknoloji üzerinde baskı oluşturuyor.» / GPT «Endekslerde son mumlarda belirginleşen zayıflık ve şahin Fed açıklamaları aşağı yönü desteklerken NVDA'nın şirkete özgü haber akışı satış baskısını artırıyor.»
 12.11 19:49 N  NEWS (12 new) score -0.70 conf 0.65: Fed'in faiz artırımı ihtimali (Goolsbee, Hammack, Chicago Fed açıklamaları, "Fed şahinleri" başlığı) ve Treasury getirilerinin yükselmesiyle dolar güçleniyor; bu da altın için belirgin baskı yaratıyor. Altının 13 ayın en düşük seviyesine gerilemesi ve günlük %2,66 düşüş bu yönü destekliyor; jeopolitik (Ukrayna, İran) haberleri güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor.</reason>
 <parameter name="key_events">["Fed yetkilileri (Goolsbee, Hammack) enflasyon nedeniyle faiz artırımını tartışıyor", "ABD tahvil getirileri yükselirken dolar güçleniyor", "Altın 13 ayın en düşük seviyesine geriledi, günlük yaklaşık %2,66 düşüş"]
@@ -107,6 +106,7 @@ Son işlemler:
 12.11 20:23 B6  karar turu: Claude «Endeksler gün içinde yatay ancak son bir saatte Nasdaq öncülüğünde hafif zayıflıyor; Goolsbee'nin şahin enflasyon yorumları ve NVDA belirsizliği risk iştahını baskılıyor.» / GPT «QQQ öncülüğündeki zayıflık ve enflasyon endişeleri aşağı yönü desteklerken NVDA'da haber akışı kaynaklı ani tepki yükselişi riski yüksek.»
 12.11 20:26 N  NEWS (14 new) score -0.70 conf 0.70: Yeni haberlerin ağırlığı sıkılaşma yönünde: sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltiyor, dolar 19 aylık zirvesine çıktı ve gümüş %3'ten fazla düştü. Gold 12 Kasım'da %2,66 değer kaybetti, bu da baskının sürdüğünü gösteriyor. İran savaşı fonlaması ve Ukrayna haberleri güvenli liman talebini sınırlı destekliyor, ancak bu etkiler faiz ve dolar baskısının gerisinde kalıyor.
 12.11 20:26 N  GPT  score -0.72 conf 0.78: Sıcak enflasyon ve Fed’in daha fazla faiz artırabileceği beklentisi doların 19 ayın zirvesine çıkmasını destekliyor; yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik riskler sınırlı güvenli liman desteği sağlasa da haberler büyük ölçüde devam eden gelişmeler ve kısa vadel
+12.11 20:35 B6  karar turu: Claude «Endeksler yatay ve sakin seyrediyor; ancak Nvidia'daki yönetim krizi ve Goolsbee'nin enflasyon uyarıları teknoloji tarafında belirsizliği yüksek tutuyor.» / GPT «Endeksler yatay seyrederken NVDA’daki şirkete özgü olumsuz haberler aşağı yönlü ayrışmanın sürmesini destekliyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
