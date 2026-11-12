@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 18:45 (İstanbul)
+> Son güncelleme: 12.11.2026 18:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,892.45 $** (başlangıç 5,000 $, -107.55 $ / %-2.15)
 
-Son haber analizi (12.11 18:35): Claude puan **-0.65**, güven 0.60 — Ekim enflasyon verisi sonrası reel faizlerin yükselmesi, Fed'in sıkı para politikası beklentileri ve güçlenen doların altın üzerindeki baskısı, kısa vadede altın için belirgin negatif bir tablo çiziyor. ABD'nin Putin ile Ukrayna savaşını görüşmesi de güvenli liman talebini zayıflatarak bu baskıyı destekliyor; ancak altının bu haberlerin bir kısmını zaten fiyatladığı (%3'ün üzerinde düşüş) ve olası bir toparlanma riski göz önünde bulundurulmalı.
+Son haber analizi (12.11 18:48): Claude puan **-0.60**, güven 0.70 — Altın, Ekim enflasyon verisinin ardından yükselen reel getiriler ve Fed'in faiz artırımına sıcak bakan (Hammack) açıklamalarıyla baskı altında ve %3 düşüşle 3.900 doların altına indi. Jeopolitik gelişmeler (Iran tehditleri, ABD-Rusya temasları) güvenli liman talebini sınırlı destekliyor, ancak ana etki hawkish Fed ve güçlenen dolar yönünde.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.68 — Yükselen reel getiriler ve sıkılaşan Fed beklentileri altın için kısa vadede belirgin baskı oluşturuyor; gün içindeki sert düşüş de satış momentumuna işaret ediyor. Moskova görüşmesi jeopolitik riskleri bir miktar desteklese de haber tek başına yeni bir tırmanış göstermiyor.
+GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Fed yetkililerinin yapay zekâ yatırımlarının enflasyonu kalıcı kılabileceği ve kademeli faiz artışlarını desteklediği yönündeki açıklamaları, faiz ve reel getiri beklentilerini yükselterek altını baskılıyor. Altındaki sert düşüşün ve benzer haberlerin zaten fiyatlanmış olma ihtimali, kısa vadeli ek 
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,922.98 $** (başlangıç 100,000 $, +14922.98 $ / %+14.92)
+**Hesap değeri: 115,014.78 $** (başlangıç 100,000 $, +15014.78 $ / %+15.01)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 17:59 N  GPT  score -0.18 conf 0.35: Fed yetkilisinin enflasyonun kötüleştiğini ve daha sıkı faizlerin gerekebileceğini söylemesi altın için kısa vadede baskı oluşturuyor. Ukrayna’daki Starlink kesintisi ve Rusya’ya yönelik yeni yaptırım haberleri güvenli liman talebini destekleyebilir; Putin’le görüşme başlığı da yönü belirsizleştiriy
-12.11 18:09 B6  karar turu: Claude «NVDA liderlik krizi Nasdaq'ı baskılıyor; sabahki tepki alımları zayıflıyor ve piyasa temkinli, hafif negatif seyrediyor.» / GPT «Verilen akışta zayıflayan endeks tepkisi ve şirket haberleri satış yönünü destekliyor; 1:4 kaldıraçta stop fiyatından gerçekleşme garantisi bulunmuyor.»
 12.11 18:11 N  NEWS (34 new) score -0.30 conf 0.50: Fed'in Hammack'in enflasyonun kötüleştiğini ve kademeli faiz artırımını desteklediğini söylemesi, reel faiz beklentilerini yükselterek altın için baskı yaratıyor. Dolarda kırılma ihtimalini tartışan haberler de kısa vadede altını olumsuz etkileyebilir. İran müzakerelerinden Vance'in çekilmesi jeopolitik gerilim yaratıp güvenli liman talebini destekleyebilir, ancak etkisi sınırlı; geri kalan haberlerin çoğu (anma yazıları, Nvidia yönetim değişikliği, şirket kazançları) altınla ilgisiz gürültü.
 12.11 18:11 N  GPT  score -0.15 conf 0.32: Fed’den Hammack’ın enflasyonun kötüleştiğini ve kademeli faiz artışlarını desteklediğini söylemesi ile doların güçlenebileceğine dair yorumlar altın için hafif negatif. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir; haber akışı karışık ve belirgin bir piyasa sürprizi yok.
 12.11 18:21 B6  karar turu: Claude «Piyasa sabahki NVDA şokunu kısmen sindirip toparlanıyor, ancak liderlik belirsizliği ve zayıf konut verisi oynaklığı yüksek tutuyor.» / GPT «Endekslerdeki toparlanma ivme kaybederken şirkete özgü olumsuz haber ve fiyat zayıflığının birleştiği TSLA'da seçici satış tercih ediyorum.»
@@ -104,6 +102,8 @@ Son işlemler:
 12.11 18:36 B5  SHORT gold 25000 USD x10 @ 3864.34 (TP 3852.74, SL 3872.07; news -0.65)
 12.11 18:45 B5  CLOSE short stop: -55.98 USD
 12.11 18:45 B6  karar turu: Claude «Piyasa NVIDIA liderlik şokunu sindirmeye çalışıyor; endeksler hafif ekside ve öğle saatlerinde yavaş bir toparlanma eğiliminde.» / GPT «Verilen haber akışında şirket kaynaklı satış fırsatları öne çıkarken, dört kat kaldıraçta ani haber sıçramaları stop seviyesinden daha kötü gerçekleşme riski taşıyor.»
+12.11 18:48 N  NEWS (6 new) score -0.60 conf 0.70: Altın, Ekim enflasyon verisinin ardından yükselen reel getiriler ve Fed'in faiz artırımına sıcak bakan (Hammack) açıklamalarıyla baskı altında ve %3 düşüşle 3.900 doların altına indi. Jeopolitik gelişmeler (Iran tehditleri, ABD-Rusya temasları) güvenli liman talebini sınırlı destekliyor, ancak ana etki hawkish Fed ve güçlenen dolar yönünde.
+12.11 18:48 N  GPT  score -0.68 conf 0.72: Fed yetkililerinin yapay zekâ yatırımlarının enflasyonu kalıcı kılabileceği ve kademeli faiz artışlarını desteklediği yönündeki açıklamaları, faiz ve reel getiri beklentilerini yükselterek altını baskılıyor. Altındaki sert düşüşün ve benzer haberlerin zaten fiyatlanmış olma ihtimali, kısa vadeli ek 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
