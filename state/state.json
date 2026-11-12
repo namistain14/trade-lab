@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    5000.0
-   ],
-   [
     1793923069,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794442644,
+    5000.0
+   ],
+   [
+    1794442825,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    4868.5
-   ],
-   [
     1793923069,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794442644,
+    4868.5
+   ],
+   [
+    1794442825,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "11.11 05:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvNxhGhcRggc4oEkCc2N'}",
   "11.11 05:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvPBhDLqSMDbUvXYmxeq'}",
   "11.11 05:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvPQxkarv5nqbCAqc6wr'}",
   "11.11 05:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgvPeANCxdziQyTCpV3y8'}",
@@ -30167,7 +30166,8 @@
   "12.11 03:01 B5  CLOSE short take profit: +69.07 USD",
   "12.11 03:07 B5  SHORT gold 25000 USD x10 @ 3970.58 (TP 3958.66, SL 3978.52; news -0.47)",
   "12.11 03:10 N  NEWS (7 new) score -0.60 conf 0.60: Faiz art\u0131\u015f\u0131 beklentilerinin g\u00fc\u00e7lenmesi, dolar\u0131n bir ayl\u0131k zirveye yak\u0131n seyretmesi ve enflasyon verilerinin (Goolsbee'nin \"endi\u015fe verici\" yorumu, CPI sonras\u0131 tahvil/mortgage faiz art\u0131\u015f\u0131) alt\u0131n\u0131 bask\u0131l\u0131yor. Iran sava\u015f\u0131 gibi jeopolitik risk destekleyici olsa da bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
-  "12.11 03:10 N  GPT  score -0.38 conf 0.65: Dolar\u0131n bir ay\u0131n zirvesine yakla\u015fmas\u0131 ve Fed\u2019in daha \u015fahin olabilece\u011fine dair beklentiler alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019e ili\u015fkin haberler g\u00fcvenli liman talebini destekleyebilir; ancak bunlar yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve etkinin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir."
+  "12.11 03:10 N  GPT  score -0.38 conf 0.65: Dolar\u0131n bir ay\u0131n zirvesine yakla\u015fmas\u0131 ve Fed\u2019in daha \u015fahin olabilece\u011fine dair beklentiler alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz\u2019e ili\u015fkin haberler g\u00fcvenli liman talebini destekleyebilir; ancak bunlar yeni bir t\u0131rman\u0131\u015f g\u00f6stermiyor ve etkinin bir k\u0131sm\u0131 fiyatlanm\u0131\u015f olabilir.",
+  "12.11 03:20 B5  CLOSE short stop: -55.95 USD"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    4963.78
-   ],
-   [
     1793923069,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794442644,
+    4963.78
+   ],
+   [
+    1794442825,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    4975.18
-   ],
-   [
     1793923069,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794442644,
+    4975.18
+   ],
+   [
+    1794442825,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    4993.28
-   ],
-   [
     1793923069,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794442644,
+    4993.28
+   ],
+   [
+    1794442825,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1793922900,
-    4969.22
-   ],
-   [
     1793923069,
     4969.22
    ],
@@ -78753,6 +78749,10 @@
    [
     1794442644,
     4969.22
+   ],
+   [
+    1794442825,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78762,25 +78762,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4899.6167573687235,
+   "balance": 4843.662309941672,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "a5f5db2e",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.296316180342631,
-     "entry": 3970.575696,
-     "tp": 3958.6639689119997,
-     "sl": 3978.516847392,
-     "opened_ms": 1794442061050,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.47/0.58",
-     "friction": 11.8913
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -80461,21 +80445,38 @@
      "gross": 69.0743,
      "costs": 0.0,
      "pnl": 69.0743
+    },
+    {
+     "id": "a5f5db2e",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.296316180342631,
+     "entry": 3970.575696,
+     "tp": 3958.6639689119997,
+     "sl": 3978.516847392,
+     "opened_ms": 1794442061050,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.47/0.58",
+     "friction": 11.8913,
+     "exit": 3979.4625507614783,
+     "closed_ms": 1794442860000,
+     "reason": "stop",
+     "gross": -55.9544,
+     "costs": 0.0,
+     "pnl": -55.9544
     }
    ],
    "day": {
     "date": "2026-11-12",
     "trades": 1,
-    "pnl": 69.07425267476027,
+    "pnl": 13.119805247708939,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793922900,
-    4910.15
-   ],
    [
     1793923069,
     4910.15
@@ -92471,6 +92472,10 @@
    [
     1794442644,
     4866.22
+   ],
+   [
+    1794442825,
+    4843.66
    ]
   ],
   "news_calls": {
@@ -93395,10 +93400,6 @@
    "equity": 115261.43
   },
   "equity_curve": [
-   [
-    1793922900,
-    108278.0
-   ],
    [
     1793923069,
     108278.0
@@ -105394,6 +105395,10 @@
    [
     1794442644,
     115261.43
+   ],
+   [
+    1794442825,
+    115261.43
    ]
   ],
   "open": {},
@@ -105576,10 +105581,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1793922900,
-    5066.43
-   ],
    [
     1793923069,
     5066.43
@@ -117574,6 +117575,10 @@
    ],
    [
     1794442644,
+    4876.96
+   ],
+   [
+    1794442825,
     4876.96
    ]
   ],
