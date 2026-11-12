@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 21:47 (İstanbul)
+> Son güncelleme: 12.11.2026 21:50 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,724.31 $** (başlangıç 5,000 $, -275.69 $ / %-5.51)
+**Hesap değeri: 4,718.35 $** (başlangıç 5,000 $, -281.65 $ / %-5.63)
+
+Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
 Son haber analizi (12.11 21:26): Claude puan **-0.70**, güven 0.72 — Sıcak ABD enflasyonu Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirveye çıktı; bu, reel faiz ve dolar kanalıyla altı baskılıyor. İran savaşı gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak mevcut haber akışında bu etki faiz ve dolar etkisinin altında kalıyor.
 
@@ -67,30 +69,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1155.20 $ | +11116.46 $ |
-| İşlem sayısı | 1 | 40 |
-| Kazanma oranı | %0.0 | %52.5 |
+| Net kâr/zarar | -1989.40 $ | +10282.26 $ |
+| İşlem sayısı | 2 | 41 |
+| Kazanma oranı | %0.0 | %51.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,877.53 $** (başlangıç 100,000 $, +13877.53 $ / %+13.88)
+**Hesap değeri: 113,532.49 $** (başlangıç 100,000 $, +13532.49 $ / %+13.53)
 
-Açık pozisyonlar: NVDA long @ 166.24 (TP 169.05 / SL 164.88); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
+Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 21:50 | NVDA | long | -834.20 $ | stop |
 | 12.11 20:38 | AAPL | long | -1155.20 $ | stop |
 | 11.11 23:45 | SPY | long | +21.86 $ | seans sonu |
 | 11.11 23:45 | QQQ | long | +339.47 $ | seans sonu |
 | 11.11 23:45 | NVDA | long | -45.71 $ | seans sonu |
-| 11.11 23:45 | AAPL | long | +805.80 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-12.11 20:59 B6  karar turu: Claude «Endeksler yatay ve sakin seyrediyor; asıl hareket Nvidia'ya özgü haber akışından geliyor ve satış baskısı sürüyor.» / GPT «Endeksler yatay seyrederken NVDA'daki taze olumsuz haber akışı ve AAPL'ın göreli zayıflığı seçici kısa pozisyonları destekliyor.»
-12.11 20:59 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71773.99","code":40310000,"cost_basis":"84614.89","message":"insufficient buying power"}
 12.11 21:02 N  NEWS (8 new) score -0.70 conf 0.70: Beklenenden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, reel faiz ve dolar kanallarından altın için net baskı anlamına geliyor. Savaş haberleri güvenli liman talebi yaratabilir ancak mevcut akışta bu etki baskın değil; bazı çelişkili başlıklar (ipotek oranlarının düşmesi) güveni biraz sınırlıyor.
 12.11 21:02 N  GPT  score -0.68 conf 0.68: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve doları güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran ve diğer çatışmalara ilişkin başlıklar yeni bir tırmanış göstermediğinden güvenli liman desteği sınırlı; haber akışındaki bazı çelişkiler güveni azaltıyor.
 12.11 21:11 B6  karar turu: Claude «Endeksler gün içi zirveden hafifçe geri çekilip yatay seyrediyor; Fed'den gelen şahin enflasyon yorumları ve Orta Doğu gerilimi temkinli bir hava yaratırken piyasanın odağı Nvidia'daki liderlik krizi.» / GPT «Endekslerdeki son yarım saatlik zayıflama satışları destekliyor ancak geniş piyasada belirgin ivme olmadığından şirket haberlerine dayalı seçici işlemler öncelikli.»
@@ -104,6 +104,8 @@ Son işlemler:
 12.11 21:35 B6  ALIŞ NVDA 496 adet ≈ 82,609 $ (1:4) @ 166.55 (TP 169.05, SL 164.88; ikisi de hemfikir, güven 0.52)
 12.11 21:38 B5  CLOSE short stop (gap): -56.18 USD
 12.11 21:47 B6  karar turu: Claude «Endeksler Nvidia'daki CEO değişimi ve DOJ soruşturması haberlerine rağmen yatay, ancak son bir saatte hafif satış baskısı görülüyor.» / GPT «Endekslerde son saat satış baskısı öne çıkarken Nvidia kaynaklı olumsuz haber akışı teknoloji hisselerinde temkin gerektiriyor.»
+12.11 21:50 B5  SHORT gold 25000 USD x10 @ 3879.72 (TP 3868.08, SL 3887.48; news -0.69)
+12.11 21:50 B6  CLOSE long NVDA stop: -834.20 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
