@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 13:16 (İstanbul)
+> Son güncelleme: 12.11.2026 13:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %44.4 | %43.2 |
 | Ödenen komisyon/spread | 107.07 $ | 1044.41 $ |
 
-**Hesap değeri: 4,812.13 $** (başlangıç 5,000 $, -187.87 $ / %-3.76)
+**Hesap değeri: 4,808.58 $** (başlangıç 5,000 $, -191.42 $ / %-3.83)
 
 Açık pozisyonlar: PAXGUSDT short @ 3941.51 (TP 3929.69 / SL 3949.39)
 
-Son haber analizi (12.11 13:07): Claude puan **-0.60**, güven 0.70 — Yüksek enflasyon verisi (CPI) sonrası Fed'in Aralık'ta faiz artırma ihtimali fiyatlanıyor, dolar 19 aylık zirvesine çıktı ve tahvil getirileri yükseldi; bu, altın için net olarak baskı yaratıyor. Ayrıca Trump'ın İran savaşının "etkin biçimde bittiğini" söylemesi jeopolitik güvenli liman talebini zayıflatıyor. Altının üç gündür düşüşte olması ve bu haberlerin büyük ölçüde fiyatlanmış olması nedeniyle etki kısmen önceden yansımış olabilir, bu yüzden güven orta düzeyde.
+Son haber analizi (12.11 13:19): Claude puan **-0.60**, güven 0.70 — Fed faiz artırımı beklentileri güçleniyor (ANZ'nin daha sert sıkılaşma uyarısı, Aralık artırımı bahisleri, enflasyon kaynaklı 50 baz puanlık artırım korkuları) ve dolar 19 ay zirvesine yakın seyrediyor; bu tablo altın için net olarak baskı yaratıyor. İran savaşının "etkili biçimde bitti" denmesi jeopolitik güvenli liman talebini de azaltıyor. Altının son üç gündür düşmesi ve bu haberlerin büyük ölçüde fiyatlanmış olması olası kısa vadeli tepki genişliğini sınırlayabilir, bu yüzden güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.76 — Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentilerinin güçlenmesi, yükselen tahvil getirileriyle birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşının “fiilen sona erdiği” açıklaması güvenli liman talebini de azaltabilir; ancak devam eden çatışma haberleri bu etkiyi kısmen
+GPT (gpt-6-luna): puan **-0.62**, güven 0.72 — Doların güçlenmesi ve Fed faiz artırımı beklentilerinin yükselmesi, artan reel getiri beklentisi üzerinden altın için belirgin kısa vadeli baskı yaratıyor. Orta Doğu’daki çatışma güvenli liman talebini desteklese de haber akışında yeni ve güçlü bir tırmanış sinyali sınırlı; bu nedenle baskın etki aş
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 12:06 N  GPT  score -0.65 conf 0.74: Doların 19 ayın zirvesine yaklaşması, Fed faiz artışı beklentileri ve yükselen tahvil faizleri kısa vadede altın üzerinde belirgin baskı yaratıyor. Gazze’deki saldırı ve Rusya’ya yeni yaptırım haberleri güvenli liman talebini desteklese de bu baskıyı şimdilik dengelemesi zor görünüyor.
-12.11 12:18 N  NEWS (8 new) score -0.40 conf 0.50: Fed'de Aralık faiz artırımı beklentileri ve yükselen reel getiriler ile güçlenen dolar, altın üzerinde baskı oluşturuyor; altın 4.000 doların altına sarkmış durumda. İran savaşı ve Ukrayna müzakereleri gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki kısa vadede hawkish Fed ve dolar tarafının gerisinde kalıyor.
 12.11 12:18 N  GPT  score -0.55 conf 0.72: Dolar rallisinin hızlanması, Fed faiz artırımı beklentileri ve yükselen reel getiriler kısa vadede altın üzerinde belirgin baskı yaratıyor. Rusya ve İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak Moskova’daki görüşmeler ve mevcut fiyat düşüşü bu desteği sınırlıyor.
 12.11 12:30 N  NEWS (12 new) score -0.70 conf 0.70: Sıcak ABD enflasyonu, Aralık'ta Fed faiz artırımı beklentisi ve dolarda 19 aylık zirve, reel faizleri yükseltip altını baskılıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki haberlerde zaten fiyatlanmış ve baskın dolar/faiz etkisinin gerisinde kalıyor.
 12.11 12:30 N  GPT  score -0.58 conf 0.68: Fed faiz artışı beklentilerinin güçlenmesi ve doların yükselişi, artan reel faizlerle birlikte önümüzdeki birkaç saat için altın üzerinde baskı yaratıyor. Ukrayna ve Orta Doğu’daki gerilimler güvenli liman talebiyle düşüşü sınırlayabilir; bu nedenle görünüm kesin değil.
@@ -104,6 +102,8 @@ Son işlemler:
 12.11 13:07 N  NEWS (10 new) score -0.60 conf 0.70: Yüksek enflasyon verisi (CPI) sonrası Fed'in Aralık'ta faiz artırma ihtimali fiyatlanıyor, dolar 19 aylık zirvesine çıktı ve tahvil getirileri yükseldi; bu, altın için net olarak baskı yaratıyor. Ayrıca Trump'ın İran savaşının "etkin biçimde bittiğini" söylemesi jeopolitik güvenli liman talebini zayıflatıyor. Altının üç gündür düşüşte olması ve bu haberlerin büyük ölçüde fiyatlanmış olması nedeniyle etki kısmen önceden yansımış olabilir, bu yüzden güven orta düzeyde.
 12.11 13:07 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine çıkması ve Fed faiz artırımı beklentilerinin güçlenmesi, yükselen tahvil getirileriyle birlikte altın üzerinde belirgin baskı yaratıyor. İran savaşının “fiilen sona erdiği” açıklaması güvenli liman talebini de azaltabilir; ancak devam eden çatışma haberleri bu etkiyi kısmen
 12.11 13:10 B5  SHORT gold 25000 USD x10 @ 3941.51 (TP 3929.69, SL 3949.39; news -0.64)
+12.11 13:19 N  NEWS (17 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri güçleniyor (ANZ'nin daha sert sıkılaşma uyarısı, Aralık artırımı bahisleri, enflasyon kaynaklı 50 baz puanlık artırım korkuları) ve dolar 19 ay zirvesine yakın seyrediyor; bu tablo altın için net olarak baskı yaratıyor. İran savaşının "etkili biçimde bitti" denmesi jeopolitik güvenli liman talebini de azaltıyor. Altının son üç gündür düşmesi ve bu haberlerin büyük ölçüde fiyatlanmış olması olası kısa vadeli tepki genişliğini sınırlayabilir, bu yüzden güven orta düzeyde tutuldu.
+12.11 13:19 N  GPT  score -0.62 conf 0.72: Doların güçlenmesi ve Fed faiz artırımı beklentilerinin yükselmesi, artan reel getiri beklentisi üzerinden altın için belirgin kısa vadeli baskı yaratıyor. Orta Doğu’daki çatışma güvenli liman talebini desteklese de haber akışında yeni ve güçlü bir tırmanış sinyali sınırlı; bu nedenle baskın etki aş
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
