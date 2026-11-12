@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 22:33 (İstanbul)
+> Son güncelleme: 12.11.2026 22:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,730.78 $** (başlangıç 5,000 $, -269.22 $ / %-5.38)
+**Hesap değeri: 4,720.99 $** (başlangıç 5,000 $, -279.01 $ / %-5.58)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %51.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,212.37 $** (başlangıç 100,000 $, +13212.37 $ / %+13.21)
+**Hesap değeri: 113,319.24 $** (başlangıç 100,000 $, +13319.24 $ / %+13.32)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 21:14 N  GPT  score -0.78 conf 0.78: Beklentiden yüksek ABD enflasyonu Fed’in faiz artırımı olasılığını güçlendirirken doların 19 ayın zirvesine çıkması altını baskılıyor; yeni başlıklar da altındaki düşüşün sürdüğüne işaret ediyor. İran savaşı kaynaklı güvenli liman talebi olası bir dengeleyici olsa da başlıklarda yeni bir tırmanış gö
-12.11 21:23 B6  karar turu: Claude «Endeksler NVDA'daki sert düşüşe rağmen yatay ve kararsız; enflasyon kaygıları ile jeopolitik haberler yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endekslerdeki zayıf saatlik momentum belirgin yön avantajı sunmazken, NVDA kaynaklı taze olumsuz haberler seçici kısa pozisyonları destekliyor.»
 12.11 21:23 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71451.91","code":40310000,"cost_basis":"84497.45","message":"insufficient buying power"}
 12.11 21:26 N  NEWS (7 new) score -0.70 conf 0.72: Sıcak ABD enflasyonu Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirveye çıktı; bu, reel faiz ve dolar kanalıyla altı baskılıyor. İran savaşı gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak mevcut haber akışında bu etki faiz ve dolar etkisinin altında kalıyor.
 12.11 21:26 N  GPT  score -0.68 conf 0.72: Beklentiden yüksek ABD enflasyonu ve Fed’in daha fazla faiz artırabileceği görüşü dolar ile reel faizleri destekleyerek altın üzerinde baskı kuruyor; altının önemli desteği kırdığına dair haber de kısa vadeli düşüş momentumuna işaret ediyor. Daly’nin yeni enflasyon uyarısı bu görünümü güçlendiriyor,
@@ -106,6 +104,8 @@ Son işlemler:
 12.11 22:00 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"68072.28","code":40310000,"cost_basis":"80259.69","message":"insufficient buying power"}
 12.11 22:12 B6  karar turu: Claude «Endeksler Nvidia şokuna rağmen yatay seyrediyor, ancak son saatte hafif bir zayıflık var ve Fed konuşmaları belirgin bir yön vermiyor.» / GPT «Endeksler hafif zayıf; kapanışa yalnızca 48 dakika kaldığından yüzde 1,5 hedef zorlayıcı ve gün içi pozisyonlar kapanış öncesinde sonlandırılmalı.»
 12.11 22:24 B6  karar turu: Claude «Endeksler NVDA şokuna rağmen hafif ekside ve dengeli seyrediyor; seans sonuna doğru net bir yön sinyali yok.» / GPT «Endekslerde hafif satış baskısı var; normal seansın kapanmasına 36 dakika kalması, 1–3 saatlik işlemlerde seans dışı likidite ve braket emirlerinin çalışması açısından ek risk yaratıyor.»
+12.11 22:36 B6  karar turu: Claude «Piyasa, Nvidia kaynaklı belirsizlik ve kapanışa doğru hafif satış baskısıyla zayıf ve temkinli seyrediyor.» / GPT «Endekslerde kapanışa doğru zayıflık hâkim; normal seansın bitmesine 24 dakika kalması, 1–3 saatlik işlemleri uzatılmış seans likiditesi ve bracket emirlerinin geçerliliğine bağımlı kılıyor.»
+12.11 22:36 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"67250.86","code":40310000,"cost_basis":"79150.36","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
