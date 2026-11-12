@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 16:43 (İstanbul)
+> Son güncelleme: 12.11.2026 16:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,28 +18,26 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +22.69 $ | -146.77 $ |
-| İşlem sayısı | 13 | 92 |
-| Kazanma oranı | %46.2 | %43.5 |
-| Ödenen komisyon/spread | 154.70 $ | 1092.04 $ |
+| Net kâr/zarar | +91.74 $ | -77.72 $ |
+| İşlem sayısı | 14 | 93 |
+| Kazanma oranı | %50.0 | %44.1 |
+| Ödenen komisyon/spread | 166.62 $ | 1103.96 $ |
 
-**Hesap değeri: 4,888.37 $** (başlangıç 5,000 $, -111.63 $ / %-2.23)
+**Hesap değeri: 4,922.28 $** (başlangıç 5,000 $, -77.72 $ / %-1.55)
 
-Açık pozisyonlar: PAXGUSDT short @ 3910.70 (TP 3898.97 / SL 3918.52)
+Son haber analizi (12.11 16:46): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltti, dolar endeksi yılın zirvesine (103,08) çıktı ve altın yaklaşık %2 düştü; bu şahin ve güçlü dolar etkisi altın için net negatif. İran-ABD savaşı gibi jeopolitik risklerin güvenli liman talebi destek sağlasa da bu haberler eskiye dayandığı ve fiyatlanmış göründüğü için etkisi sınırlı kalıyor.
 
-Son haber analizi (12.11 16:34): Claude puan **-0.40**, güven 0.50 — Sıcak ABD enflasyonu (CPI) Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine yakın seviyelere çıktı; bu, altın için 1-4 saatlik görünümde belirgin bir baskı anlamına geliyor. İran savaşı ve Orta Doğu gelişmeleri jeopolitik destek sağlayabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış niteliğinde, bu yüzden etkileri sınırlı kalıyor.
-
-GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Sıcak ABD enflasyonu ve Fed faiz artırımı beklentilerinin güçlenmesi, doların yıl içi zirvesi ve altındaki düşüş kısa vadede baskın biçimde negatif. Doların gün içindeki geri çekilmesi ve Orta Doğu/Ukraine kaynaklı riskler düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.58**, güven 0.72 — Sıcak enflasyon verisi ve Fed faiz artırımı beklentileri doları güçlendirirken altının yaklaşık %2 düşmesi, kısa vadede aşağı yönlü baskının ağır bastığını gösteriyor. İran savaşı ve yükselen işsizlik başvuruları güvenli liman talebiyle bu baskıyı kısmen sınırlayabilir.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 16:46 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 16:25 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 16:08 | PAXGUSDT | short | -55.96 $ | stop |
 | 12.11 15:34 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 13:53 | PAXGUSDT | short | -55.96 $ | stop |
-| 12.11 13:03 | PAXGUSDT | short | -55.96 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,9 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 15:45 N  NEWS (8 new) score -0.50 conf 0.60: Sıcak ABD enflasyon verisi ve artan Fed faiz artırımı beklentileri, doları 19 aylık zirveye taşıyarak altını 4.000 doların altına itiyor; bu da 1-4 saatlik görünümde altın için baskılayıcı. İran savaşının sürmesi güvenli liman talebini destekleyebilir, ancak Erdoğan'ın ateşkes çağrısı ve haberlerin çoğunun eski/fiyatlanmış olması bu etkiyi sınırlıyor.
-12.11 15:45 N  GPT  score -0.40 conf 0.66: Sıcak ABD enflasyonu, yükselen tahvil faizleri ve Fed’in faiz artırımı beklentileri altın üzerinde güçlü baskı oluşturuyor. Erdoğan’ın savaşın sona ermesi çağrısı henüz somut bir ateşkes değil; doların kısa süreli soluklanması ise düşüşü sınırlayabilir.
-12.11 15:57 N  NEWS (12 new) score -0.70 conf 0.72: Sıcak ABD enflasyon verisi (CPI) Fed faiz artırımı beklentilerini güçlendirdi, dolar endeksi 19 aylık zirvesine yakın seyrediyor ve altın 4.000 doların altına indi. Reel faiz ve güçlü dolar baskısı kısa vadede altın için net negatif; İran savaşıyla ilgili jeopolitik haberler ise güvenli liman talebini sınırlı destekliyor, bu yüzden güven orta düzeyde tutuldu.
 12.11 15:57 N  GPT  score -0.68 conf 0.78: Sıcak enflasyonun daha büyük faiz artışlarını gündeme getirmesi ve dolar endeksinin yıl içi zirvesine çıkması, kısa vadede altın üzerinde belirgin baskı yaratıyor. İran’ın tehditleri güvenli liman talebini destekleyebilir; ancak bu etki, mevcut faiz ve dolar baskısını şimdilik dengelemiyor.
 12.11 16:09 B5  CLOSE short stop: -55.96 USD
 12.11 16:09 N  NEWS (15 new) score -0.60 conf 0.60: Sıcak ABD enflasyon verisi Fed faiz artırımı beklentilerini güçlendirdi, dolar endeksi yılın zirvesine yakın seyrediyor ve altın 4.000 doların altına geriledi; bu reel faiz ve dolar kanalıyla altı baskılıyor. Jeopolitik haberler (İran savaşı, Ukrayna, Gazze) güvenli liman talebini destekleyebilir, ancak bunlar büyük ölçüde fiyatlanmış durumda; ayrıca "dolar düşüyor" gibi çelişkili başlıklar güveni biraz azaltıyor.
@@ -104,6 +99,9 @@ Son işlemler:
 12.11 16:31 B6  seans öncesi görüş: Piyasa NVDA'dan diğer çip ve büyük teknoloji hisselerine rotasyonla hafif pozitif seyrediyor; en net fırsat NVDA'daki haber kaynaklı satış baskısında.
 12.11 16:34 N  NEWS (10 new) score -0.40 conf 0.50: 
 12.11 16:34 N  GPT  score -0.55 conf 0.68: Sıcak ABD enflasyonu ve Fed faiz artırımı beklentilerinin güçlenmesi, doların yıl içi zirvesi ve altındaki düşüş kısa vadede baskın biçimde negatif. Doların gün içindeki geri çekilmesi ve Orta Doğu/Ukraine kaynaklı riskler düşüşü sınırlayabilir.
+12.11 16:46 B5  CLOSE short take profit: +69.06 USD
+12.11 16:46 N  NEWS (10 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltti, dolar endeksi yılın zirvesine (103,08) çıktı ve altın yaklaşık %2 düştü; bu şahin ve güçlü dolar etkisi altın için net negatif. İran-ABD savaşı gibi jeopolitik risklerin güvenli liman talebi destek sağlasa da bu haberler eskiye dayandığı ve fiyatlanmış göründüğü için etkisi sınırlı kalıyor.
+12.11 16:46 N  GPT  score -0.58 conf 0.72: Sıcak enflasyon verisi ve Fed faiz artırımı beklentileri doları güçlendirirken altının yaklaşık %2 düşmesi, kısa vadede aşağı yönlü baskının ağır bastığını gösteriyor. İran savaşı ve yükselen işsizlik başvuruları güvenli liman talebiyle bu baskıyı kısmen sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
