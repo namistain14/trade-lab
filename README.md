@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 04:09 (İstanbul)
+> Son güncelleme: 12.11.2026 04:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,787.71 $** (başlangıç 5,000 $, -212.29 $ / %-4.25)
 
-Son haber analizi (12.11 03:59): Claude puan **-0.60**, güven 0.70 — Sıcak enflasyon verisi faiz artırımı beklentilerini (%100 olasılık) yükseltti, dolar 19 aylık zirvesine çıktı ve altın 4.000 doların altına düştü; bu, altın için 1-4 saatlik dönemde baskılayıcı bir tablo. Iran savaşıyla ilgili haberler güvenli liman talebini destekliyor olsa da, mevcut fiyat hareketini şimdilik dolar ve Fed beklentileri yönlendiriyor.
+Son haber analizi (12.11 04:12): Claude puan **-0.70**, güven 0.75 — Güçlü ABD enflasyon verisi doların yükselmesine ve Fed sıkılaştırma beklentilerinin artmasına yol açtı; altın 4.000 doların altına indi. Dolar 19 aylık zirvede ve reel faiz beklentileri yukarı yönlü olduğundan kısa vadede altın üzerinde baskı sürebilir. Iran savaşına karşı haberler ise jeopolitik güvenli liman talebini artırmadığı için etkisi sınırlı.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.74 — Beklentiyi aşan enflasyonun Fed faiz artırımı olasılığını ve dolar talebini yükseltmesi, önümüzdeki saatlerde altın üzerinde baskı yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de haberler büyük ölçüde siyasi söylem niteliğinde ve bu etki güçlü doların gerisinde kalıyor.
+GPT (gpt-6-luna): puan **-0.62**, güven 0.72 — Güçlü ABD enflasyonu Fed’in daha sıkı kalacağı beklentisini ve doların yükselişini destekliyor; ikisi de kısa vadede altın için baskı oluşturuyor. Haberdeki düşüşün zaten gerçekleşmiş olması ve İran savaşıyla ilgili çağrıların somut bir gelişme olmaması ek hareket beklentisini sınırlıyor.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 03:01 B5  CLOSE short take profit: +69.07 USD
-12.11 03:07 B5  SHORT gold 25000 USD x10 @ 3970.58 (TP 3958.66, SL 3978.52; news -0.47)
 12.11 03:10 N  NEWS (7 new) score -0.60 conf 0.60: Faiz artışı beklentilerinin güçlenmesi, doların bir aylık zirveye yakın seyretmesi ve enflasyon verilerinin (Goolsbee'nin "endişe verici" yorumu, CPI sonrası tahvil/mortgage faiz artışı) altını baskılıyor. Iran savaşı gibi jeopolitik risk destekleyici olsa da bu etki büyük ölçüde fiyatlanmış görünüyor; bu nedenle güven orta düzeyde tutuldu.
 12.11 03:10 N  GPT  score -0.38 conf 0.65: Doların bir ayın zirvesine yaklaşması ve Fed’in daha şahin olabileceğine dair beklentiler altın üzerinde kısa vadeli baskı yaratıyor. İran savaşı ve Hürmüz’e ilişkin haberler güvenli liman talebini destekleyebilir; ancak bunlar yeni bir tırmanış göstermiyor ve etkinin bir kısmı fiyatlanmış olabilir.
 12.11 03:20 B5  CLOSE short stop: -55.95 USD
@@ -102,6 +100,8 @@ Son işlemler:
 12.11 03:50 B5  CLOSE short stop: -55.95 USD
 12.11 03:59 N  NEWS (30 new) score -0.60 conf 0.70: Sıcak enflasyon verisi faiz artırımı beklentilerini (%100 olasılık) yükseltti, dolar 19 aylık zirvesine çıktı ve altın 4.000 doların altına düştü; bu, altın için 1-4 saatlik dönemde baskılayıcı bir tablo. Iran savaşıyla ilgili haberler güvenli liman talebini destekliyor olsa da, mevcut fiyat hareketini şimdilik dolar ve Fed beklentileri yönlendiriyor.
 12.11 03:59 N  GPT  score -0.65 conf 0.74: Beklentiyi aşan enflasyonun Fed faiz artırımı olasılığını ve dolar talebini yükseltmesi, önümüzdeki saatlerde altın üzerinde baskı yaratabilir. İran kaynaklı gerilim güvenli liman talebini desteklese de haberler büyük ölçüde siyasi söylem niteliğinde ve bu etki güçlü doların gerisinde kalıyor.
+12.11 04:12 N  NEWS (12 new) score -0.70 conf 0.75: Güçlü ABD enflasyon verisi doların yükselmesine ve Fed sıkılaştırma beklentilerinin artmasına yol açtı; altın 4.000 doların altına indi. Dolar 19 aylık zirvede ve reel faiz beklentileri yukarı yönlü olduğundan kısa vadede altın üzerinde baskı sürebilir. Iran savaşına karşı haberler ise jeopolitik güvenli liman talebini artırmadığı için etkisi sınırlı.
+12.11 04:12 N  GPT  score -0.62 conf 0.72: Güçlü ABD enflasyonu Fed’in daha sıkı kalacağı beklentisini ve doların yükselişini destekliyor; ikisi de kısa vadede altın için baskı oluşturuyor. Haberdeki düşüşün zaten gerçekleşmiş olması ve İran savaşıyla ilgili çağrıların somut bir gelişme olmaması ek hareket beklentisini sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
