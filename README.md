@@ -23,7 +23,7 @@
 | Kazanma oranı | %42.9 | %43.0 |
 | Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,797.61 $** (başlangıç 5,000 $, -202.39 $ / %-4.05)
+**Hesap değeri: 4,801.22 $** (başlangıç 5,000 $, -198.78 $ / %-3.98)
 
 Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,224.69 $** (başlangıç 100,000 $, +15224.69 $ / %+15.22)
+**Hesap değeri: 115,238.26 $** (başlangıç 100,000 $, +15238.26 $ / %+15.24)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
