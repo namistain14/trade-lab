@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 20:59 (İstanbul)
+> Son güncelleme: 12.11.2026 21:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %42.9 | %43.0 |
 | Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
 
-**Hesap değeri: 4,811.86 $** (başlangıç 5,000 $, -188.14 $ / %-3.76)
+**Hesap değeri: 4,791.42 $** (başlangıç 5,000 $, -208.58 $ / %-4.17)
 
 Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
 
-Son haber analizi (12.11 20:50): Claude puan **-0.70**, güven 0.75 — Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, altın için 1-4 saatlik vadede net bir baskı oluşturuyor. İran savaşı ve jeopolitik haberler güvenli liman talebi yaratabilir ancak mevcut haber akışında bu etkiyi belirgin biçimde bastırıyor.
+Son haber analizi (12.11 21:02): Claude puan **-0.70**, güven 0.70 — Beklenenden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, reel faiz ve dolar kanallarından altın için net baskı anlamına geliyor. Savaş haberleri güvenli liman talebi yaratabilir ancak mevcut akışta bu etki baskın değil; bazı çelişkili başlıklar (ipotek oranlarının düşmesi) güveni biraz sınırlıyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.76 — Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyerek altın üzerinde belirgin baskı yaratıyor; doların 19 ayın zirvesine çıkması ve altındaki satışlar bu görünümü teyit ediyor. İran görüşmelerindeki belirsizlik güvenli liman talebini bir miktar destekleyebilir,
+GPT (gpt-6-luna): puan **-0.68**, güven 0.68 — Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve doları güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran ve diğer çatışmalara ilişkin başlıklar yeni bir tırmanış göstermediğinden güvenli liman desteği sınırlı; haber akışındaki bazı çelişkiler güveni azaltıyor.
 
 Son işlemler:
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,049.48 $** (başlangıç 100,000 $, +15049.48 $ / %+15.05)
+**Hesap değeri: 114,828.90 $** (başlangıç 100,000 $, +14828.90 $ / %+14.83)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 20:13 N  NEWS (7 new) score -0.75 conf 0.70: Yeni gelen başlıklar çok şahin: dolar 19 aylık zirvede, Fed'in faiz artırımı beklentileri güçleniyor, Goolsbee enflasyonu "rahatsız edici" buluyor ve ABD enflasyonu beklentilerin üzerinde geldi. Bu tablo reel faiz ve dolar yoluyla altın için net olumsuz; altın zaten 2,66% düşüş ve 13 aylık en düşük seviyede. Jeopolitik riskler (Gazze, Ukrayna, İran) güvenli liman talebi yaratabilir ama bu etkisi şahin Fed baskısının gerisinde kalıyor. Bazı başlıklar eski olduğu için güveni biraz sınırladım.
-12.11 20:13 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine yaklaşması ve Fed yetkililerinin enflasyonun kalıcı olduğuna dair şahin mesajları, kısa vadede faiz beklentilerini ve altın üzerindeki baskıyı artırıyor. Gazze’deki saldırı güvenli liman talebini destekleyebilir; ancak bu etki mevcut dolar ve faiz baskısını şimdilik dengele
 12.11 20:23 B6  karar turu: Claude «Endeksler gün içinde yatay ancak son bir saatte Nasdaq öncülüğünde hafif zayıflıyor; Goolsbee'nin şahin enflasyon yorumları ve NVDA belirsizliği risk iştahını baskılıyor.» / GPT «QQQ öncülüğündeki zayıflık ve enflasyon endişeleri aşağı yönü desteklerken NVDA'da haber akışı kaynaklı ani tepki yükselişi riski yüksek.»
 12.11 20:26 N  NEWS (14 new) score -0.70 conf 0.70: Yeni haberlerin ağırlığı sıkılaşma yönünde: sıcak ABD enflasyonu Fed faiz artırımı beklentilerini yükseltiyor, dolar 19 aylık zirvesine çıktı ve gümüş %3'ten fazla düştü. Gold 12 Kasım'da %2,66 değer kaybetti, bu da baskının sürdüğünü gösteriyor. İran savaşı fonlaması ve Ukrayna haberleri güvenli liman talebini sınırlı destekliyor, ancak bu etkiler faiz ve dolar baskısının gerisinde kalıyor.
 12.11 20:26 N  GPT  score -0.72 conf 0.78: Sıcak enflasyon ve Fed’in daha fazla faiz artırabileceği beklentisi doların 19 ayın zirvesine çıkmasını destekliyor; yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik riskler sınırlı güvenli liman desteği sağlasa da haberler büyük ölçüde devam eden gelişmeler ve kısa vadel
@@ -106,6 +104,8 @@ Son işlemler:
 12.11 20:50 N  GPT  score -0.68 conf 0.76: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyerek altın üzerinde belirgin baskı yaratıyor; doların 19 ayın zirvesine çıkması ve altındaki satışlar bu görünümü teyit ediyor. İran görüşmelerindeki belirsizlik güvenli liman talebini bir miktar destekleyebilir,
 12.11 20:59 B6  karar turu: Claude «Endeksler yatay ve sakin seyrediyor; asıl hareket Nvidia'ya özgü haber akışından geliyor ve satış baskısı sürüyor.» / GPT «Endeksler yatay seyrederken NVDA'daki taze olumsuz haber akışı ve AAPL'ın göreli zayıflığı seçici kısa pozisyonları destekliyor.»
 12.11 20:59 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71773.99","code":40310000,"cost_basis":"84614.89","message":"insufficient buying power"}
+12.11 21:02 N  NEWS (8 new) score -0.70 conf 0.70: Beklenenden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, reel faiz ve dolar kanallarından altın için net baskı anlamına geliyor. Savaş haberleri güvenli liman talebi yaratabilir ancak mevcut akışta bu etki baskın değil; bazı çelişkili başlıklar (ipotek oranlarının düşmesi) güveni biraz sınırlıyor.
+12.11 21:02 N  GPT  score -0.68 conf 0.68: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve doları güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran ve diğer çatışmalara ilişkin başlıklar yeni bir tırmanış göstermediğinden güvenli liman desteği sınırlı; haber akışındaki bazı çelişkiler güveni azaltıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
