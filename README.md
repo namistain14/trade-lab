@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 07:59 (İstanbul)
+> Son güncelleme: 12.11.2026 08:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %33.3 | %42.7 |
 | Ödenen komisyon/spread | 35.66 $ | 973.00 $ |
 
-**Hesap değeri: 4,817.11 $** (başlangıç 5,000 $, -182.89 $ / %-3.66)
+**Hesap değeri: 4,797.30 $** (başlangıç 5,000 $, -202.70 $ / %-4.05)
 
 Açık pozisyonlar: PAXGUSDT short @ 3975.48 (TP 3963.56 / SL 3983.44)
 
-Son haber analizi (12.11 07:50): Claude puan **-0.60**, güven 0.70 — Dolar 19 aylık zirvesine yükseldi ve Fed'in faiz artırımı beklentileri güçleniyor; bu, altın için net bir baskı unsuru. Jeopolitik (İran-İsrail gerilimi) ise güvenli liman talebi yaratıyor, ancak mevcut haber akışında dolar ve faiz etkisi baskın görünüyor.
+Son haber analizi (12.11 08:02): Claude puan **-0.60**, güven 0.70 — Güçlü dolar (2026'nın en yüksek seviyesi/19 ay zirvesi), Fed faiz artırımı beklentilerinin yükselmesi ve altının 4.000 doların altında kalması altın için baskılayıcı. Orta Doğu riskleri jeopolitik talebi destekliyor olsa da, dolar ve faiz kanalı daha baskın görünüyor.
 
-GPT (gpt-6-luna): puan **-0.58**, güven 0.68 — Güçlenen dolar ve Fed’in daha şahin olacağı beklentileri altını baskılıyor; fiyatların sert düşüşü de kısa vadeli görünümü zayıflatıyor. İran kaynaklı gerilim güvenli liman talebi yaratabilir, ancak bu etki mevcut baskıyı şimdilik dengelemiyor.
+GPT (gpt-6-luna): puan **-0.68**, güven 0.79 — Güçlenen dolar ve Fed’in faiz artırımı beklentilerinin yükselmesi altın üzerinde belirgin baskı yaratıyor; fiyatın 4.000 doların altında zorlanması ve haftanın en düşük seviyelerine gerilemesi bu görünümü destekliyor. İran-İsrail gerilimi güvenli liman talebini artırabilir, ancak kısa vadede dolar v
 
 Son işlemler:
 
@@ -89,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 06:38 N  GPT  score -0.75 conf 0.81: Doların 19 ayın zirvesine yükselmesi ve Fed’in daha büyük faiz artışı beklentilerinin güçlenmesi, getirisi olmayan altın üzerinde belirgin baskı yaratıyor; altının 12 günlük düşük seviyeye gerilemesi bu görünümü destekliyor. Doların kısa süreli geri çekildiğine dair haberler aşağı yönlü etkiyi bir m
-12.11 06:50 N  NEWS (7 new) score -0.60 conf 0.70: Fed faiz artırımı beklentilerinin yükselmesi, güçlü dolar ve enflasyon kaynaklı baskı altçizilmiş altın fiyatı (4.000 doların altında) kısa vadede düşüş yönlü baskı altında. Savaş/jeopolitik haberleri (İran, Ukrayna barış görüşmeleri) güvenli liman talebini sınırlı destekliyor; bu nedenle genel etki negatif, ancak eski haberlerin çoğu zaten fiyatlanmış.
-12.11 06:50 N  GPT  score -0.68 conf 0.78: Doların güçlenmesi ve daha şahin Fed faiz beklentileri altın üzerinde kısa vadeli baskı oluşturuyor; yeni başlıklarda güvenli liman talebini belirgin biçimde artıracak bir gelişme yok. Haberlerin çoğu aynı fiyat hareketini ve beklentileri tekrarladığı için düşüş yönündeki sinyal güçlü, ancak ek teyi
 12.11 07:02 N  NEWS (12 new) score -0.70 conf 0.70: ABD enflasyon verisinin ardından Fed faiz artırımı beklentileri yükseldi ve dolar 19 aylık zirvesine çıktı; bu, altın için 1-4 saatlik görünümde güçlü bir baskı oluşturuyor. Savaş kaynaklı güvenli liman talebine dair yeni bir gelişme ise öne çıkmadığı için bu baskıyı dengeleyecek bir unsur zayıf.
 12.11 07:02 N  GPT  score -0.68 conf 0.73: Doların 19 ayın zirvesine çıkması ve güçlü ABD enflasyonu sonrası Fed faiz artırımı beklentilerinin yükselmesi, önümüzdeki saatlerde altın üzerinde belirgin baskı yaratıyor. PPI öncesi belirsizlik ve bazı jeopolitik başlıklar düşüşü sınırlayabilir; ancak yeni bir tırmanış sinyali yok.
 12.11 07:14 N  NEWS (8 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesine çıkarken Fed faiz artırımı beklentileri güçleniyor; bu, reel faizler ve güçlü dolar nedeniyle altın için net olarak baskı yaratıyor. Ayrıca petrol, İran ve Ukrayna barış görüşmeleri umuduyla düşüyor, bu da jeopolitik güvenli liman talebini zayıflatıyor. Altın zaten haftalık en düşük seviyeye gerilemiş durumda; yine de PPI verisi ve yen müdahalesi riski kısa vadede oynaklık yaratabilir.
@@ -104,6 +101,9 @@ Son işlemler:
 12.11 07:50 N  GPT  score -0.58 conf 0.68: Güçlenen dolar ve Fed’in daha şahin olacağı beklentileri altını baskılıyor; fiyatların sert düşüşü de kısa vadeli görünümü zayıflatıyor. İran kaynaklı gerilim güvenli liman talebi yaratabilir, ancak bu etki mevcut baskıyı şimdilik dengelemiyor.
 12.11 07:59 B5P  NEWS (45 new) score -0.15 conf 0.40: Başlıklar karışık: ABD-İran barış görüşmesi umutları, Brent'in 92 doların altına inmesi ve Suudi üretim artışı fiyatı aşağı çekiyor, ancak Hormuz'da mayına çarpan tanker, İran'ın misilleme tehditleri ve barış görüşmelerinin tıkanması ciddi bir yukarı risk oluşturuyor. Bu çelişkiler ve bazı haberlerin eski veya zaten fiyatlanmış olması nedeniyle yön sinyali zayıf ve güven düşük.
 12.11 07:59 B5P  GPT  score -0.35 conf 0.56: Barış görüşmesi umutları, Suudi üretimindeki artış ve OPEC+ ihracatının savaş öncesi seviyelere yaklaşması yakın vadede arz endişelerini azaltıp Brent üzerinde baskı kuruyor. Hürmüz’deki mayın/tanker haberleri ve İran’ın misilleme tehdidi düşüşü sınırlıyor; haber akışının bir kısmı doğrulanmamış vey
+12.11 08:02 N  NEWS (6 new) score -0.60 conf 0.70: Güçlü dolar (2026'nın en yüksek seviyesi/19 ay zirvesi), Fed faiz artırımı beklentilerinin yükselmesi ve altının 4.000 doların altında kalması altın için baskılayıcı. Orta Doğu riskleri jeopolitik talebi destekliyor olsa da, dolar ve faiz kanalı daha baskın görünüyor.
+12.11 08:02 N  GPT  score -0.68 conf 0.79: Güçlenen dolar ve Fed’in faiz artırımı beklentilerinin yükselmesi altın üzerinde belirgin baskı yaratıyor; fiyatın 4.000 doların altında zorlanması ve haftanın en düşük seviyelerine gerilemesi bu görünümü destekliyor. İran-İsrail gerilimi güvenli liman talebini artırabilir, ancak kısa vadede dolar v
+12.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
