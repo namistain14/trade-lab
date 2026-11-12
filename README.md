@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 21:57 (İstanbul)
+> Son güncelleme: 12.11.2026 22:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %40.9 | %42.6 |
 | Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,716.09 $** (başlangıç 5,000 $, -283.91 $ / %-5.68)
+**Hesap değeri: 4,700.37 $** (başlangıç 5,000 $, -299.63 $ / %-5.99)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %51.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,710.83 $** (başlangıç 100,000 $, +13710.83 $ / %+13.71)
+**Hesap değeri: 113,721.66 $** (başlangıç 100,000 $, +13721.66 $ / %+13.72)
 
 Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 21:02 N  NEWS (8 new) score -0.70 conf 0.70: Beklenenden yüksek ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, reel faiz ve dolar kanallarından altın için net baskı anlamına geliyor. Savaş haberleri güvenli liman talebi yaratabilir ancak mevcut akışta bu etki baskın değil; bazı çelişkili başlıklar (ipotek oranlarının düşmesi) güveni biraz sınırlıyor.
-12.11 21:02 N  GPT  score -0.68 conf 0.68: Beklentiyi aşan ABD enflasyonu Fed faiz artırımı olasılığını ve doları güçlendirerek altın üzerinde kısa vadeli baskı yaratıyor. İran ve diğer çatışmalara ilişkin başlıklar yeni bir tırmanış göstermediğinden güvenli liman desteği sınırlı; haber akışındaki bazı çelişkiler güveni azaltıyor.
 12.11 21:11 B6  karar turu: Claude «Endeksler gün içi zirveden hafifçe geri çekilip yatay seyrediyor; Fed'den gelen şahin enflasyon yorumları ve Orta Doğu gerilimi temkinli bir hava yaratırken piyasanın odağı Nvidia'daki liderlik krizi.» / GPT «Endekslerdeki son yarım saatlik zayıflama satışları destekliyor ancak geniş piyasada belirgin ivme olmadığından şirket haberlerine dayalı seçici işlemler öncelikli.»
 12.11 21:14 N  NEWS (11 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerinin yükselmesi ve doların 19 aylık zirvesi altın için güçlü baskı yaratıyor; altın 3900 doların altına inmiş durumda. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak bu haberlerin çoğu eski veya genel nitelikte olduğundan etkisi sınırlı kalıyor. Kısa vadede aşırı satış sonrası teknik tepki riski ve fiyatların kısmen yansımış olması güveni biraz düşürüyor.
 12.11 21:14 N  GPT  score -0.78 conf 0.78: Beklentiden yüksek ABD enflasyonu Fed’in faiz artırımı olasılığını güçlendirirken doların 19 ayın zirvesine çıkması altını baskılıyor; yeni başlıklar da altındaki düşüşün sürdüğüne işaret ediyor. İran savaşı kaynaklı güvenli liman talebi olası bir dengeleyici olsa da başlıklarda yeni bir tırmanış gö
@@ -106,6 +104,8 @@ Son işlemler:
 12.11 21:47 B6  karar turu: Claude «Endeksler Nvidia'daki CEO değişimi ve DOJ soruşturması haberlerine rağmen yatay, ancak son bir saatte hafif satış baskısı görülüyor.» / GPT «Endekslerde son saat satış baskısı öne çıkarken Nvidia kaynaklı olumsuz haber akışı teknoloji hisselerinde temkin gerektiriyor.»
 12.11 21:50 B5  SHORT gold 25000 USD x10 @ 3879.72 (TP 3868.08, SL 3887.48; news -0.69)
 12.11 21:50 B6  CLOSE long NVDA stop: -834.20 USD
+12.11 22:00 B6  karar turu: Claude «Endeksler hafif negatif ve son saatte zayıflıyor; Nvidia krizi yarı iletkenlerde baskı yaratırken geniş piyasa nispeten dirençli.» / GPT «Endekslerde son saatte satış baskısı hâkim; normal seansın kalan bir saatinde kaldıraç ve kapanış oynaklığı riski artırıyor.»
+12.11 22:00 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"68072.28","code":40310000,"cost_basis":"80259.69","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
