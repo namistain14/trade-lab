@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 18:21 (İstanbul)
+> Son güncelleme: 12.11.2026 18:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %52.9 | %44.8 |
 | Ödenen komisyon/spread | 202.41 $ | 1139.75 $ |
 
-**Hesap değeri: 5,004.41 $** (başlangıç 5,000 $, +4.41 $ / %+0.09)
+**Hesap değeri: 4,998.44 $** (başlangıç 5,000 $, -1.56 $ / %-0.03)
 
-Son haber analizi (12.11 18:11): Claude puan **-0.30**, güven 0.50 — Fed'in Hammack'in enflasyonun kötüleştiğini ve kademeli faiz artırımını desteklediğini söylemesi, reel faiz beklentilerini yükselterek altın için baskı yaratıyor. Dolarda kırılma ihtimalini tartışan haberler de kısa vadede altını olumsuz etkileyebilir. İran müzakerelerinden Vance'in çekilmesi jeopolitik gerilim yaratıp güvenli liman talebini destekleyebilir, ancak etkisi sınırlı; geri kalan haberlerin çoğu (anma yazıları, Nvidia yönetim değişikliği, şirket kazançları) altınla ilgisiz gürültü.
+Açık pozisyonlar: PAXGUSDT short @ 3854.78 (TP 3843.21 / SL 3862.49)
 
-GPT (gpt-6-luna): puan **-0.15**, güven 0.32 — Fed’den Hammack’ın enflasyonun kötüleştiğini ve kademeli faiz artışlarını desteklediğini söylemesi ile doların güçlenebileceğine dair yorumlar altın için hafif negatif. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir; haber akışı karışık ve belirgin bir piyasa sürprizi yok.
+Son haber analizi (12.11 18:23): Claude puan **-0.65**, güven 0.65 — Altın, yaklaşık %3,18 düşüşle 3.900 doların altına inmiş; Fed'in sıkı para politikası beklentisi, ABD enflasyon endişeleri ve güçlenen dolar (dolar kırılımı tartışması) baskı oluşturuyor. Ukrayna ve Ebola gibi haberler güvenli liman talebini artırmadığı için jeopolitik etki sınırlı; bu nedenle düşüş eğilimi baskın. Haberlerin bir kısmı tekrar niteliğinde olduğundan güven orta düzeyde.
+
+GPT (gpt-6-luna): puan **-0.55**, güven 0.58 — Altının 3.900 doların altına sert düşmesi ve yeni satış dalgası kısa vadeli aşağı yönlü momentuma işaret ediyor. Daha sıkı Fed beklentileri de baskıyı artırabilir; Ukrayna haberleri sınırlı güvenli liman desteği sağlasa da belirgin bir tırmanış göstermiyor.
 
 Son işlemler:
 
@@ -72,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %53.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,312.09 $** (başlangıç 100,000 $, +14312.09 $ / %+14.31)
+**Hesap değeri: 114,473.39 $** (başlangıç 100,000 $, +14473.39 $ / %+14.47)
 
 Açık pozisyonlar: AAPL long @ 358.76 (TP 364.70 / SL 355.72); QQQ long @ 686.67 (TP 697.03 / SL 679.86)
 
@@ -89,9 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 17:44 B5  CLOSE short take profit: +69.05 USD
-12.11 17:44 B6  karar turu: Claude «NVDA kaynaklı sabah panik satışı sonrası piyasa dipten toparlanıyor; teknoloji ağırlıklı endekslerde temkinli bir yukarı eğilim öne çıkıyor.» / GPT «Endekslerde tepki alımları baskın olsa da NVDA kaynaklı haber riski yüksek; 1:4 kaldıraçta ilişkili pozisyonlar için toplam risk sınırlı tutulmalı.»
-12.11 17:44 B6  ALIŞ QQQ 167 adet ≈ 114,684 $ (1:4) @ 686.73 (TP 697.03, SL 679.86; ikisi de hemfikir, güven 0.50)
 12.11 17:47 N  NEWS (9 new) score -0.60 conf 0.70: Fed yetkilisi Hammack'in daha sıkı faiz ve kademeli artırım çağrısı, Fed artırım beklentilerini yükseltip dolar ile tahvil getirilerini destekliyor; bu da altın için net baskılayıcı. Altın 4.000 doların altına düştü ve dolar 19 aylık zirvede, ancak jeopolitik başlıklar (Rusya-Ukrayna, İran, Gazze) güvenli liman talebi yaratabilir ve bu etki kısmen sınırlayıcı olabilir.
 12.11 17:47 N  GPT  score -0.65 conf 0.76: Fed yetkilisi Hammack’ın enflasyonun kötüleştiği ve daha kısıtlayıcı faizlerin gerektiği yönündeki açıklamaları, doların güçlenmesi ve yükselen faiz beklentileriyle birlikte kısa vadede altın için baskı oluşturuyor. Gazze ve Rusya-Ukrayna kaynaklı gerilimler güvenli liman talebini destekleyebilir, a
 12.11 17:50 B5  SHORT gold 25000 USD x10 @ 3883.69 (TP 3872.04, SL 3891.46; news -0.62)
@@ -104,6 +103,9 @@ Son işlemler:
 12.11 18:11 N  NEWS (34 new) score -0.30 conf 0.50: Fed'in Hammack'in enflasyonun kötüleştiğini ve kademeli faiz artırımını desteklediğini söylemesi, reel faiz beklentilerini yükselterek altın için baskı yaratıyor. Dolarda kırılma ihtimalini tartışan haberler de kısa vadede altını olumsuz etkileyebilir. İran müzakerelerinden Vance'in çekilmesi jeopolitik gerilim yaratıp güvenli liman talebini destekleyebilir, ancak etkisi sınırlı; geri kalan haberlerin çoğu (anma yazıları, Nvidia yönetim değişikliği, şirket kazançları) altınla ilgisiz gürültü.
 12.11 18:11 N  GPT  score -0.15 conf 0.32: Fed’den Hammack’ın enflasyonun kötüleştiğini ve kademeli faiz artışlarını desteklediğini söylemesi ile doların güçlenebileceğine dair yorumlar altın için hafif negatif. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir; haber akışı karışık ve belirgin bir piyasa sürprizi yok.
 12.11 18:21 B6  karar turu: Claude «Piyasa sabahki NVDA şokunu kısmen sindirip toparlanıyor, ancak liderlik belirsizliği ve zayıf konut verisi oynaklığı yüksek tutuyor.» / GPT «Endekslerdeki toparlanma ivme kaybederken şirkete özgü olumsuz haber ve fiyat zayıflığının birleştiği TSLA'da seçici satış tercih ediyorum.»
+12.11 18:23 N  NEWS (10 new) score -0.65 conf 0.65: Altın, yaklaşık %3,18 düşüşle 3.900 doların altına inmiş; Fed'in sıkı para politikası beklentisi, ABD enflasyon endişeleri ve güçlenen dolar (dolar kırılımı tartışması) baskı oluşturuyor. Ukrayna ve Ebola gibi haberler güvenli liman talebini artırmadığı için jeopolitik etki sınırlı; bu nedenle düşüş eğilimi baskın. Haberlerin bir kısmı tekrar niteliğinde olduğundan güven orta düzeyde.
+12.11 18:23 N  GPT  score -0.55 conf 0.58: Altının 3.900 doların altına sert düşmesi ve yeni satış dalgası kısa vadeli aşağı yönlü momentuma işaret ediyor. Daha sıkı Fed beklentileri de baskıyı artırabilir; Ukrayna haberleri sınırlı güvenli liman desteği sağlasa da belirgin bir tırmanış göstermiyor.
+12.11 18:23 B5  SHORT gold 25000 USD x10 @ 3854.78 (TP 3843.21, SL 3862.49; news -0.60)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
