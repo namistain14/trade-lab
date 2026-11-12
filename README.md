@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 16:22 (İstanbul)
+> Son güncelleme: 12.11.2026 16:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -46.37 $ | -215.83 $ |
-| İşlem sayısı | 12 | 91 |
-| Kazanma oranı | %41.7 | %42.9 |
-| Ödenen komisyon/spread | 142.79 $ | 1080.13 $ |
+| Net kâr/zarar | +22.69 $ | -146.77 $ |
+| İşlem sayısı | 13 | 92 |
+| Kazanma oranı | %46.2 | %43.5 |
+| Ödenen komisyon/spread | 154.70 $ | 1092.04 $ |
 
-**Hesap değeri: 4,808.57 $** (başlangıç 5,000 $, -191.43 $ / %-3.83)
-
-Açık pozisyonlar: PAXGUSDT short @ 3927.55 (TP 3915.77 / SL 3935.41)
+**Hesap değeri: 4,853.23 $** (başlangıç 5,000 $, -146.77 $ / %-2.94)
 
 Son haber analizi (12.11 16:22): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyonu (CPI) Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine yakın seviyelere çıktı; bu, altın için 1-4 saatlik görünümde belirgin bir baskı anlamına geliyor. İran savaşı ve Orta Doğu gelişmeleri jeopolitik destek sağlayabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış niteliğinde, bu yüzden etkileri sınırlı kalıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 16:25 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 16:08 | PAXGUSDT | short | -55.96 $ | stop |
 | 12.11 15:34 | PAXGUSDT | short | +69.06 $ | take profit |
 | 12.11 13:53 | PAXGUSDT | short | -55.96 $ | stop |
 | 12.11 13:03 | PAXGUSDT | short | -55.96 $ | stop |
-| 12.11 12:32 | PAXGUSDT | short | -55.96 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 15:21 N  GPT  score -0.58 conf 0.72: Doların 19 ayın zirvesine çıkması ve Fed’in faiz artırabileceği beklentisi, yükselen reel faiz kanalıyla altını kısa vadede baskılıyor; altının 4.000 doların altında kalması da bu görünümle uyumlu. Ukrayna’daki yeni Starlink kesintisi ve bölgesel çatışmalar güvenli liman talebi sağlayabilir, ancak b
 12.11 15:33 B5  CLOSE short take profit: +69.06 USD
 12.11 15:33 N  NEWS (14 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın üzerinde belirgin baskı yaratıyor; altın 4.000 doların altına geriledi. Savaş kaynaklı güvenli liman talebi (Ukrayna, İran, Gazze) bu baskıyı sınırlayabilir, ancak haberlerin çoğu zaten fiyatlanmış durumda.
 12.11 15:33 N  GPT  score -0.65 conf 0.72: Sıcak ABD enflasyonu ve Fed faiz artırımı beklentileri dolar ile tahvil getirilerini destekleyerek altın üzerinde kısa vadeli baskı yaratıyor; altının 4.000 doların altına gerilemesi bu eğilimi doğruluyor. Savaş kaynaklı güvenli liman talebi destekleyici olsa da haberler büyük ölçüde mevcut riskleri
@@ -104,6 +101,7 @@ Son işlemler:
 12.11 16:13 B5  SHORT gold 25000 USD x10 @ 3927.55 (TP 3915.77, SL 3935.41; news -0.64)
 12.11 16:22 N  NEWS (7 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu (CPI) Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine yakın seviyelere çıktı; bu, altın için 1-4 saatlik görünümde belirgin bir baskı anlamına geliyor. İran savaşı ve Orta Doğu gelişmeleri jeopolitik destek sağlayabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış niteliğinde, bu yüzden etkileri sınırlı kalıyor.
 12.11 16:22 N  GPT  score -0.55 conf 0.68: Sıcak ABD enflasyonu ve artan Fed faiz artırımı beklentileri doları güçlendirip altın üzerinde baskı kuruyor; altındaki düşüş haberleri bu yönü destekliyor. Gazze’de hastane saldırısı ve İran gerilimi güvenli liman talebini artırabilir, ancak kısa vadede faiz ve dolar baskısı ağır basıyor.
+12.11 16:25 B5  CLOSE short take profit: +69.06 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
