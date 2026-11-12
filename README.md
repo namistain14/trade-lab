@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 00:23 (İstanbul)
+> Son güncelleme: 13.11.2026 00:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %42.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1199.45 $ |
 
-**Hesap değeri: 4,760.04 $** (başlangıç 5,000 $, -239.96 $ / %-4.80)
+**Hesap değeri: 4,759.71 $** (başlangıç 5,000 $, -240.29 $ / %-4.81)
 
 Açık pozisyonlar: PAXGUSDT short @ 3879.72 (TP 3868.08 / SL 3887.48)
 
-Son haber analizi (13.11 00:13): Claude puan **-0.70**, güven 0.70 — Fed yetkililerinin (Daly, Goolsbee, SF Fed) peş peşe faiz artırımı mesajı vermesi, Aralık artırımı olasılığının yaklaşık %87'ye çıkması ve doların 19 aylık zirvesi gerçek faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. İran savaşına ilişkin jeopolitik risk bir miktar destek sağlayabilir, ancak piyasa bunu zaten fiyatlıyor gibi görünüyor ve altın yıllık dip seviyesinde (~3.850$) düşüyor. Yakın vadede ABD enflasyon verisi ve Fed konuşmaları belirleyici olacak.
+Son haber analizi (13.11 00:26): Claude puan **-0.70**, güven 0.72 — Şahin Fed söylemleri (Daly: daha fazla faiz artırımı; Aralık'ta çeyrek puanlık artış olasılığı %87) ve doların 19 aylık zirvesi, reel faiz beklentilerini yükseltip altını baskılıyor. Altının 3.850 dolar civarında bir yıllık dibe inmesi kısmen fiyatlanmış olsa da, yeni haberler bu baskıyı sürdürdüğü için kısa vadede negatif görünüm hakim; Ukrayna ve İran savaşı haberleri ise güvenli liman talebini destekleyici ama şu an etkisi sınırlı.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.62 — Daly’nin daha fazla faiz artışını olası görmesi ve doların 19 ayın zirvesinde olması, kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak bu haberlerin bir kısmı zaten fiyatlanmış ve etkiler çelişkili.
+GPT (gpt-6-luna): puan **-0.68**, güven 0.78 — Fed’in daha fazla faiz artırımı beklentisi ve getirilerdeki yükseliş doları 19 ayın zirvesine taşıyor; bu, önümüzdeki saatlerde altın üzerinde belirgin baskı yaratabilir. Jeopolitik riskler destekleyici olsa da haberlerin çoğu yeni değil ve mevcut düşüşün bir kısmı fiyatlanmış olabilir.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 22:12 B6  karar turu: Claude «Endeksler Nvidia şokuna rağmen yatay seyrediyor, ancak son saatte hafif bir zayıflık var ve Fed konuşmaları belirgin bir yön vermiyor.» / GPT «Endeksler hafif zayıf; kapanışa yalnızca 48 dakika kaldığından yüzde 1,5 hedef zorlayıcı ve gün içi pozisyonlar kapanış öncesinde sonlandırılmalı.»
-12.11 22:24 B6  karar turu: Claude «Endeksler NVDA şokuna rağmen hafif ekside ve dengeli seyrediyor; seans sonuna doğru net bir yön sinyali yok.» / GPT «Endekslerde hafif satış baskısı var; normal seansın kapanmasına 36 dakika kalması, 1–3 saatlik işlemlerde seans dışı likidite ve braket emirlerinin çalışması açısından ek risk yaratıyor.»
 12.11 22:36 B6  karar turu: Claude «Piyasa, Nvidia kaynaklı belirsizlik ve kapanışa doğru hafif satış baskısıyla zayıf ve temkinli seyrediyor.» / GPT «Endekslerde kapanışa doğru zayıflık hâkim; normal seansın bitmesine 24 dakika kalması, 1–3 saatlik işlemleri uzatılmış seans likiditesi ve bracket emirlerinin geçerliliğine bağımlı kılıyor.»
 12.11 22:36 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"67250.86","code":40310000,"cost_basis":"79150.36","message":"insufficient buying power"}
 12.11 22:49 B6  karar turu: Claude «Piyasa NVDA kaynaklı baskıya rağmen hafif ekside dengeli kapanışa gidiyor; kapanışa dakikalar kala ve gece haber riski yüksekken yeni pozisyon açmak mantıklı değil.» / GPT «Endeksler hafif zayıf; kapanışa 12 dakika kaldığından 1–3 saatlik işlem kapanış sonrasına taşar ve braket emirlerinin bu seansta çalıştığı doğrulanmalıdır.»
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 00:01 N  GPT  score -0.78 conf 0.78: Doların 19 ayın zirvesine çıkması ve Fed yetkililerinin enflasyon ile ek faiz artışlarına ilişkin şahin mesajları altın için güçlü baskı oluşturuyor. Altındaki sert düşüş bu gelişmelerin kısmen fiyatlanmış olabileceğini, jeopolitik riskler ise sınırlı bir destek sağlayabileceğini gösteriyor.
 13.11 00:13 N  NEWS (7 new) score -0.70 conf 0.70: Fed yetkililerinin (Daly, Goolsbee, SF Fed) peş peşe faiz artırımı mesajı vermesi, Aralık artırımı olasılığının yaklaşık %87'ye çıkması ve doların 19 aylık zirvesi gerçek faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. İran savaşına ilişkin jeopolitik risk bir miktar destek sağlayabilir, ancak piyasa bunu zaten fiyatlıyor gibi görünüyor ve altın yıllık dip seviyesinde (~3.850$) düşüyor. Yakın vadede ABD enflasyon verisi ve Fed konuşmaları belirleyici olacak.
 13.11 00:13 N  GPT  score -0.48 conf 0.62: Daly’nin daha fazla faiz artışını olası görmesi ve doların 19 ayın zirvesinde olması, kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini destekleyebilir; ancak bu haberlerin bir kısmı zaten fiyatlanmış ve etkiler çelişkili.
+13.11 00:26 N  NEWS (4 new) score -0.70 conf 0.72: Şahin Fed söylemleri (Daly: daha fazla faiz artırımı; Aralık'ta çeyrek puanlık artış olasılığı %87) ve doların 19 aylık zirvesi, reel faiz beklentilerini yükseltip altını baskılıyor. Altının 3.850 dolar civarında bir yıllık dibe inmesi kısmen fiyatlanmış olsa da, yeni haberler bu baskıyı sürdürdüğü için kısa vadede negatif görünüm hakim; Ukrayna ve İran savaşı haberleri ise güvenli liman talebini destekleyici ama şu an etkisi sınırlı.
+13.11 00:26 N  GPT  score -0.68 conf 0.78: Fed’in daha fazla faiz artırımı beklentisi ve getirilerdeki yükseliş doları 19 ayın zirvesine taşıyor; bu, önümüzdeki saatlerde altın üzerinde belirgin baskı yaratabilir. Jeopolitik riskler destekleyici olsa da haberlerin çoğu yeni değil ve mevcut düşüşün bir kısmı fiyatlanmış olabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
