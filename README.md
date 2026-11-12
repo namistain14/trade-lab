@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 12.11.2026 21:35 (İstanbul)
+> Son güncelleme: 12.11.2026 21:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -50.05 $ | -219.51 $ |
-| İşlem sayısı | 21 | 100 |
-| Kazanma oranı | %42.9 | %43.0 |
-| Ödenen komisyon/spread | 250.18 $ | 1187.52 $ |
+| Net kâr/zarar | -106.23 $ | -275.69 $ |
+| İşlem sayısı | 22 | 101 |
+| Kazanma oranı | %40.9 | %42.6 |
+| Ödenen komisyon/spread | 262.12 $ | 1199.45 $ |
 
-**Hesap değeri: 4,745.38 $** (başlangıç 5,000 $, -254.62 $ / %-5.09)
-
-Açık pozisyonlar: PAXGUSDT short @ 3877.14 (TP 3865.51 / SL 3884.90)
+**Hesap değeri: 4,724.31 $** (başlangıç 5,000 $, -275.69 $ / %-5.51)
 
 Son haber analizi (12.11 21:26): Claude puan **-0.70**, güven 0.72 — Sıcak ABD enflasyonu Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirveye çıktı; bu, reel faiz ve dolar kanalıyla altı baskılıyor. İran savaşı gibi jeopolitik riskler güvenli liman talebini destekleyebilir, ancak mevcut haber akışında bu etki faiz ve dolar etkisinin altında kalıyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 12.11 21:37 | PAXGUSDT | short | -56.18 $ | stop (gap) |
 | 12.11 19:56 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 19:06 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 18:46 | PAXGUSDT | short | -55.98 $ | stop |
 | 12.11 18:31 | PAXGUSDT | short | -55.98 $ | stop |
-| 12.11 17:57 | PAXGUSDT | short | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -74,9 +72,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,214.66 $** (başlangıç 100,000 $, +15214.66 $ / %+15.21)
+**Hesap değeri: 114,745.18 $** (başlangıç 100,000 $, +14745.18 $ / %+14.75)
 
-Açık pozisyonlar: QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
+Açık pozisyonlar: NVDA long @ 166.24 (TP 169.05 / SL 164.88); QQQ long @ 686.67 (TP 697.03 / SL 679.86); SPY long @ 760.10 (TP 771.32 / SL 752.32); TSLA long @ 392.26 (TP 398.01 / SL 388.21)
 
 Son işlemler:
 
@@ -91,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-12.11 20:50 N  NEWS (8 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed faiz artırımı beklentilerini güçlendirdi ve dolar 19 aylık zirvesine çıktı; bu, altın için 1-4 saatlik vadede net bir baskı oluşturuyor. İran savaşı ve jeopolitik haberler güvenli liman talebi yaratabilir ancak mevcut haber akışında bu etkiyi belirgin biçimde bastırıyor.
 12.11 20:50 N  GPT  score -0.68 conf 0.76: Sıcak ABD enflasyonu ve Fed’in faiz artırımı beklentilerinin güçlenmesi doları destekleyerek altın üzerinde belirgin baskı yaratıyor; doların 19 ayın zirvesine çıkması ve altındaki satışlar bu görünümü teyit ediyor. İran görüşmelerindeki belirsizlik güvenli liman talebini bir miktar destekleyebilir,
 12.11 20:59 B6  karar turu: Claude «Endeksler yatay ve sakin seyrediyor; asıl hareket Nvidia'ya özgü haber akışından geliyor ve satış baskısı sürüyor.» / GPT «Endeksler yatay seyrederken NVDA'daki taze olumsuz haber akışı ve AAPL'ın göreli zayıflığı seçici kısa pozisyonları destekliyor.»
 12.11 20:59 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71773.99","code":40310000,"cost_basis":"84614.89","message":"insufficient buying power"}
@@ -106,6 +103,7 @@ Son işlemler:
 12.11 21:26 N  GPT  score -0.68 conf 0.72: Beklentiden yüksek ABD enflasyonu ve Fed’in daha fazla faiz artırabileceği görüşü dolar ile reel faizleri destekleyerek altın üzerinde baskı kuruyor; altının önemli desteği kırdığına dair haber de kısa vadeli düşüş momentumuna işaret ediyor. Daly’nin yeni enflasyon uyarısı bu görünümü güçlendiriyor,
 12.11 21:35 B6  karar turu: Claude «Endeksler hafif artıda ve yatay seyrediyor; Fed'in enflasyon uyarıları ile Nvidia kaynaklı belirsizlik yukarı yönlü ivmeyi sınırlıyor.» / GPT «Endeksler yatay seyrederken NVDA'daki toparlanma seçici alımı destekliyor, ancak şirket haberleri ve enflasyon açıklamaları nedeniyle 1:4 kaldıraçta pozisyon büyüklüğü sınırlı tutulmalı.»
 12.11 21:35 B6  ALIŞ NVDA 496 adet ≈ 82,609 $ (1:4) @ 166.55 (TP 169.05, SL 164.88; ikisi de hemfikir, güven 0.52)
+12.11 21:38 B5  CLOSE short stop (gap): -56.18 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
