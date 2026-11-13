@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:00 (İstanbul)
+> Son güncelleme: 13.11.2026 17:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %33.3 | %41.8 |
 | Ödenen komisyon/spread | 107.40 $ | 1306.85 $ |
 
-**Hesap değeri: 4,588.17 $** (başlangıç 5,000 $, -411.83 $ / %-8.24)
+**Hesap değeri: 4,582.20 $** (başlangıç 5,000 $, -417.80 $ / %-8.36)
 
-Son haber analizi (13.11 16:52): Claude puan **-0.40**, güven 0.55 — Sıcak PPI verisi (yıllık %6,5, yaklaşık dört yılın en yüksek seviyesi), Goolsbee'nin sıkılaştırma uyarısı ve doların haftalık en güçlü performansı altın için baskılayıcı. İran'ın ABD radarını vurduğu haberi ve Netanyahu'nun savaşın yeniden başlamasını istemesi güvenli liman talebini destekleyip kısmen dengeliyor; ancak bu jeopolitik etki kısa vadede hawkish Fed beklentilerinin gerisinde kalabilir.
+Açık pozisyonlar: PAXGUSDT short @ 3875.29 (TP 3863.67 / SL 3883.05)
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.62 — Toptan fiyat enflasyonunun yüksek kalması ve Goolsbee’nin enflasyon uyarısı, Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. İsrail’in savaşı yeniden başlatma girişimi güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
+Son haber analizi (13.11 17:04): Claude puan **-0.55**, güven 0.60 — Sıcak PPI verisi (yıllık %6,5, yaklaşık dört yılın en yüksek seviyesi), Goolsbee'nin sıkılaştırma uyarısı ve doların haftalık en güçlü performansı altın için baskılayıcı. İran'ın ABD radarını vurduğu haberi ve Netanyahu'nun savaşın yeniden başlamasını istemesi güvenli liman talebini destekleyip kısmen dengeliyor; ancak bu jeopolitik etki kısa vadede hawkish Fed beklentilerinin gerisinde kalabilir.
+
+GPT (gpt-6-luna): puan **-0.45**, güven 0.66 — Doların güçlenmesi ve Goolsbee’nin kalıcı, genişleyen enflasyon baskılarına dair uyarıları Fed’in daha şahin kalabileceği beklentisini destekleyerek altın üzerinde baskı yaratıyor. Aylık toptan enflasyonun beklentiden düşük gelmesi ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
 
 Son işlemler:
 
@@ -87,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 16:03 N  GPT  score -0.55 conf 0.68: Güçlenen dolar, %5,125’e çıkan 10 yıllık tahvil faizi ve yapışkan enflasyon/Fed sıkılaşması beklentileri kısa vadede altını baskılıyor. Rusya-Ukrayna ve İran kaynaklı riskler güvenli liman talebini destekleyebilir, ancak etkileri şimdilik daha sınırlı görünüyor.
-13.11 16:15 N  NEWS (9 new) score -0.40 conf 0.55: 
-13.11 16:15 N  GPT  score -0.40 conf 0.68: Doların iki ayın en iyi haftasına yönelmesi ve 10 yıllık tahvil faizinin %5,125’e çıkması altın üzerinde baskı yaratıyor; altının haftalık kayıpları da bu eğilimi destekliyor. Savaş ve İran kaynaklı riskler güvenli liman talebini desteklese de çoğu yeni ve belirleyici değil; yaklaşan ABD enflasyon v
 13.11 16:21 B5  CLOSE short take profit: +69.05 USD
 13.11 16:24 B5  SHORT gold 25000 USD x10 @ 3872.68 (TP 3861.06, SL 3880.42; news -0.40)
 13.11 16:27 N  NEWS (5 new) score -0.40 conf 0.55: Altın haftalık düşüş eğilimindeyken dolar güçleniyor, 10 yıllık tahvil getirisi 5,125% seviyesine çıkmış ve enflasyon ile Fed'in sıkılaştırma beklentileri sert kalıyor; bu, kısa vadede altın için baskılayıcı. Iran'ın ABD radarını vurması jeopolitik risk yaratıyor ancak güvenli liman talebi şimdiye kadar altını yukarı taşıyamadı, bu yüzden etkisi sınırlı kalıyor. ABD PPI verisi öncesi belirsizlik yüksek, bu nedenle güven orta düzeyde tutuldu.
@@ -102,6 +101,9 @@ Son işlemler:
 13.11 16:52 N  GPT  score -0.35 conf 0.62: Toptan fiyat enflasyonunun yüksek kalması ve Goolsbee’nin enflasyon uyarısı, Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. İsrail’in savaşı yeniden başlatma girişimi güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
 13.11 16:52 B5  SHORT gold 25000 USD x10 @ 3870.73 (TP 3859.11, SL 3878.47; news -0.38)
 13.11 16:57 B5  CLOSE short stop: -55.98 USD
+13.11 17:04 N  NEWS (12 new) score -0.55 conf 0.60: 
+13.11 17:04 N  GPT  score -0.45 conf 0.66: Doların güçlenmesi ve Goolsbee’nin kalıcı, genişleyen enflasyon baskılarına dair uyarıları Fed’in daha şahin kalabileceği beklentisini destekleyerek altın üzerinde baskı yaratıyor. Aylık toptan enflasyonun beklentiden düşük gelmesi ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
+13.11 17:04 B5  SHORT gold 25000 USD x10 @ 3875.29 (TP 3863.67, SL 3883.05; news -0.50)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
