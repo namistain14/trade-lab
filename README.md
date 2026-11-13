@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:34 (İstanbul)
+> Son güncelleme: 13.11.2026 17:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -67,29 +67,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +10683.69 $ |
-| İşlem sayısı | 0 | 44 |
-| Kazanma oranı | %0.0 | %52.3 |
+| Net kâr/zarar | +1722.12 $ | +12405.81 $ |
+| İşlem sayısı | 1 | 45 |
+| Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,552.06 $** (başlangıç 100,000 $, +14552.06 $ / %+14.55)
+**Hesap değeri: 115,281.54 $** (başlangıç 100,000 $, +15281.54 $ / %+15.28)
 
-Açık pozisyonlar: NVDA short @ 166.52 (TP 165.32 / SL 169.52); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
+Açık pozisyonlar: QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
 | 12.11 23:46 | SPY | long | -466.64 $ | seans sonu |
 | 12.11 23:46 | QQQ | long | +93.52 $ | seans sonu |
 | 12.11 23:21 | TSLA | long | +774.55 $ | take profit |
 | 12.11 21:50 | NVDA | long | -834.20 $ | stop |
-| 12.11 20:38 | AAPL | long | -1155.20 $ | stop |
 
 ## Son olaylar
 
 ```
-13.11 16:52 N  NEWS (13 new) score -0.40 conf 0.55: Sıcak PPI verisi (yıllık %6,5, yaklaşık dört yılın en yüksek seviyesi), Goolsbee'nin sıkılaştırma uyarısı ve doların haftalık en güçlü performansı altın için baskılayıcı. İran'ın ABD radarını vurduğu haberi ve Netanyahu'nun savaşın yeniden başlamasını istemesi güvenli liman talebini destekleyip kısmen dengeliyor; ancak bu jeopolitik etki kısa vadede hawkish Fed beklentilerinin gerisinde kalabilir.
 13.11 16:52 N  GPT  score -0.35 conf 0.62: Toptan fiyat enflasyonunun yüksek kalması ve Goolsbee’nin enflasyon uyarısı, Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. İsrail’in savaşı yeniden başlatma girişimi güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
 13.11 16:52 B5  SHORT gold 25000 USD x10 @ 3870.73 (TP 3859.11, SL 3878.47; news -0.38)
 13.11 16:57 B5  CLOSE short stop: -55.98 USD
@@ -104,6 +103,7 @@ Son işlemler:
 13.11 17:32 B6  karar turu: Claude «PPI beklentiye yakın ve hafif yumuşak gelse de Fed'in şahin tonu ve NVDA kaynaklı teknoloji zayıflığı piyasayı kararsız, Nasdaq'ı ise baskı altında tutuyor.» / GPT «Şahin Fed söylemi ve Nvidia kaynaklı baskı teknoloji tarafında seçici satışları desteklerken, dört kat kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı.»
 13.11 17:32 B6  AÇIĞA SATIŞ QQQ 165 adet ≈ 113,466 $ (1:4) @ 687.67 (TP 677.35, SL 694.55; ikisi de hemfikir, güven 0.50)
 13.11 17:32 B6  AÇIĞA SATIŞ NVDA 678 adet ≈ 113,796 $ (1:4) @ 167.84 (TP 165.32, SL 169.52; ikisi de hemfikir, güven 0.58)
+13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
