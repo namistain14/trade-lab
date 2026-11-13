@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 11:54 (İstanbul)
+> Son güncelleme: 13.11.2026 11:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %25.0 | %41.9 |
 | Ödenen komisyon/spread | 47.72 $ | 1247.17 $ |
 
-**Hesap değeri: 4,649.17 $** (başlangıç 5,000 $, -350.83 $ / %-7.02)
+**Hesap değeri: 4,636.76 $** (başlangıç 5,000 $, -363.24 $ / %-7.26)
 
 Açık pozisyonlar: PAXGUSDT short @ 3890.44 (TP 3878.77 / SL 3898.22)
 
-Son haber analizi (13.11 11:45): Claude puan **-0.50**, güven 0.60 — Altın, bir yıllık dip yakınında ve Fed faiz artırımı beklentileri ile güçlenen doların baskısı altında. Dolar endeksi yükselişte ve PPI verisi öncesi reel faiz beklentileri altın için olumsuz. İran savaşındaki tıkanma ve ABD-Rusya arabuluculuk haberleri jeopolitik risk primini sınırlıyor; bu da güvenli liman talebini zayıflatıyor. Ancak altın zaten aşırı satılmış görünüyor ve PPI sürpriz verisi tersine dönüş tetikleyebilir, bu yüzden güven orta düzeyde tutuldu.
+Son haber analizi (13.11 11:57): Claude puan **-0.40**, güven 0.60 — Altın bir yıllık dibe yakın işlem görüyor; Fed'in sert duruşu, Hazine getirilerinde yükseliş ve faiz artırımı bahislerinin güçlenmesi, dolardaki dayanıklılık ile birlikte baskı oluşturuyor. İran savaşına dair jeopolitik risk ve ABD PPI verisi ise iki yönlü volatilite yaratabilir; savaş haberlerinin güvenli liman talebini artırma etkisi, savaşın sona erebileceği ve arabuluculuk sinyalleriyle sınırlı kalıyor.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Doların güçlenmesi ve Fed faiz artışı beklentileri altını kısa vadede baskılıyor; Rusya-Ukrayna barış görüşmelerine dair yeni haberler de güvenli liman talebini sınırlayabilir. PPI verisi öncesi belirsizlik ve İran başlıklarındaki çelişkiler yön sinyaline duyulan güveni azaltıyor.
+GPT (gpt-6-luna): puan **-0.42**, güven 0.65 — Fed’in daha şahin kalacağına yönelik beklentilerle dolar ve tahvil getirilerinin yükselmesi, kısa vadede altın üzerinde baskı yaratıyor. Rusya-Ukrayna gerilimi güvenli liman talebini desteklese de etkiler karışık; ABD ÜFE verisi öncesinde yön konusunda temkinliyim.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 10:20 N  GPT  score -0.20 conf 0.38: Dolar ve ABD tahvil getirilerindeki yükseliş ile faiz artırımı beklentileri altın için kısa vadede baskı oluşturuyor. Enflasyonun gerilemesi ve savaş riskleri destekleyici olsa da, dipten toparlanma haberleriyle çelişen fiyat yönü görünümü belirsiz kılıyor.
-13.11 10:32 N  NEWS (8 new) score -0.35 conf 0.55: Altın bir yılın en düşük seviyesine yakın işlem görüyor; Fed faiz artırımı beklentileri, güçlenen dolar ve yükselen ABD tahvil getirileri altın üzerinde baskı yaratıyor. İran savaşıyla ilgili jeopolitik risk safe-haven talebini destekliyor olsa da bu etki sınırlı kalıyor; ABD enflasyonunun hafif gerilemesi ve bekleyen PPI verisi kısa vadede oynaklık yaratabilir.
 13.11 10:32 N  GPT  score -0.22 conf 0.46: Güçlenen dolar, yükselen ABD getirileri ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı yaratıyor; düşük enflasyon haberi ve İran’da çatışmaların yeniden başlayabileceği riski ise bunu kısmen dengeliyor. Aşırı satım sonrası toparlanma ve yaklaşan ÜFE verisi yön konusunda belirsizl
 13.11 10:44 N  NEWS (8 new) score -0.40 conf 0.55: Altın, bir yıllık dip yakınında (~3.850-3.900$) ve Fed faiz artırımı beklentileri ile yükselen ABD tahvil getirileri ve güçlü dolar nedeniyle baskı altında. Savaş kaynaklı güvenli liman talebi ise Trump'ın savaşın yakında bitebileceği açıklamasıyla zayıflıyor; ancak ABD PPI verisi ve İran'daki belirsizlik kısa vadede oynaklık yaratabilir, bu yüzden güven orta düzeyde.
 13.11 10:44 N  GPT  score -0.30 conf 0.58: Güçlü dolar, yükselen getiriler ve Fed faiz artırımı beklentileri altını kısa vadede baskılıyor; PPI öncesi bu görünüm sürebilir. İran savaşına ilişkin çelişkili haberler güvenli liman talebini destekleyebilse de altının toparlanması ve aşırı satım görünümü düşüşü sınırlıyor.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 11:32 N  GPT  score -0.25 conf 0.55: Yaklaşan ABD ÜFE verisi öncesinde dolar ve tahvil getirilerindeki güçlenme, Fed’in daha sıkı kalabileceği beklentisiyle altını kısa vadede baskılıyor. Bir yıllık dipten gelen toparlanma ve İran kaynaklı riskler destek sağlasa da haberler çelişkili ve ÜFE sonucu belirsiz.
 13.11 11:45 N  NEWS (4 new) score -0.50 conf 0.60: Altın, bir yıllık dip yakınında ve Fed faiz artırımı beklentileri ile güçlenen doların baskısı altında. Dolar endeksi yükselişte ve PPI verisi öncesi reel faiz beklentileri altın için olumsuz. İran savaşındaki tıkanma ve ABD-Rusya arabuluculuk haberleri jeopolitik risk primini sınırlıyor; bu da güvenli liman talebini zayıflatıyor. Ancak altın zaten aşırı satılmış görünüyor ve PPI sürpriz verisi tersine dönüş tetikleyebilir, bu yüzden güven orta düzeyde tutuldu.
 13.11 11:45 N  GPT  score -0.35 conf 0.58: Doların güçlenmesi ve Fed faiz artışı beklentileri altını kısa vadede baskılıyor; Rusya-Ukrayna barış görüşmelerine dair yeni haberler de güvenli liman talebini sınırlayabilir. PPI verisi öncesi belirsizlik ve İran başlıklarındaki çelişkiler yön sinyaline duyulan güveni azaltıyor.
+13.11 11:57 N  NEWS (9 new) score -0.40 conf 0.60: Altın bir yıllık dibe yakın işlem görüyor; Fed'in sert duruşu, Hazine getirilerinde yükseliş ve faiz artırımı bahislerinin güçlenmesi, dolardaki dayanıklılık ile birlikte baskı oluşturuyor. İran savaşına dair jeopolitik risk ve ABD PPI verisi ise iki yönlü volatilite yaratabilir; savaş haberlerinin güvenli liman talebini artırma etkisi, savaşın sona erebileceği ve arabuluculuk sinyalleriyle sınırlı kalıyor.
+13.11 11:57 N  GPT  score -0.42 conf 0.65: Fed’in daha şahin kalacağına yönelik beklentilerle dolar ve tahvil getirilerinin yükselmesi, kısa vadede altın üzerinde baskı yaratıyor. Rusya-Ukrayna gerilimi güvenli liman talebini desteklese de etkiler karışık; ABD ÜFE verisi öncesinde yön konusunda temkinliyim.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
