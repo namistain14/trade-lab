@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 05:01 (İstanbul)
+> Son güncelleme: 13.11.2026 05:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,668.34 $** (başlangıç 5,000 $, -331.66 $ / %-6.63)
 
-Son haber analizi (13.11 04:53): Claude puan **-0.70**, güven 0.75 — Fed'in daha sert faiz artırımı beklentileri (Waller yarım puanlık artırımı, Williams'ın "enflasyon çok yüksek" açıklaması), güçlü doların 19 aylık zirvesi ve 96 dolarlık petrol enflasyon kaygısını artırarak altın üzerinde baskı oluşturuyor. Altın zaten 13 aylık dip yakınında; İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyemiyor, bu yüzden düşüş eğilimi baskın görünüyor.
+Son haber analizi (13.11 05:05): Claude puan **-0.60**, güven 0.70 — Fed faiz artırımı beklentileri, yükselen ABD tahvil getirileri ve 19 aylık zirveye yaklaşan dolar altın için baskılayıcı; altın yaklaşık 13 aylık dip civarında. Ukrayna barış görüşmelerinin genişlemesi ve Fed'in Williams gibi isimlerinin sert açıklamaları da güvenli liman talebini azaltıyor; ancak haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.62**, güven 0.72 — Fed’den Williams’ın enflasyonun hâlâ fazla yüksek olduğunu söylemesi, güçlü dolar ve yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik başlıklar güvenli liman talebini destekleyebilir; ancak haberler karışık ve mevcut düşüşün bir kısmı fiyatlanmış görünüyor.
+GPT (gpt-6-luna): puan **-0.62**, güven 0.68 — Doların 19 ayın zirvesine yaklaşması, yükselen ABD tahvil getirileri ve Fed’in daha sıkı politika beklentileri altın üzerinde belirgin kısa vadeli baskı yaratıyor. Ukrayna görüşmeleri güvenli liman talebini sınırlayabilir; ancak haberlerin önemli bir kısmı mevcut düşüşü zaten yansıtıyor ve jeopoliti
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 03:28 N  GPT  score -0.65 conf 0.70: Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın için baskı yaratıyor. Doların güçlenmesi ve altının önemli desteklerin altına gerilemesi kısa vadeli düşüş riskini artırıyor; ancak başlıkların bir kısmı aynı gelişmeleri 
-13.11 03:40 N  NEWS (4 new) score -0.60 conf 0.60: Altın, enflasyon endişeleri ve güçlenen doların baskısıyla yıllık dip seviyesine (3900 doların altı) yakın işlem görüyor; Fed yetkililerinin (Williams, Waller) sıkı para politikası mesajları reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı devam ettiği halde güvenli liman talebi fiyatı desteklemiyor, bu da baskının sürdüğünü gösteriyor; ancak bazı başlıkların eski olması ve PPI verisi gibi kısa vadeli sürprizlerin yönü değiştirebilmesi güveni sınırlıyor.
 13.11 03:40 N  GPT  score -0.58 conf 0.66: Altının 3.900 doların altına gerilemesi, doların güçlenmesi ve Fed yetkililerinin enflasyonun hâlâ yüksek olduğu mesajı kısa vadede aşağı yönlü baskıyı destekliyor. Trump’ın İran konusunda itidal çağrısı ve savaşın siyasi maliyetine vurgu da güvenli liman talebini sınırlayabilir; ancak bu haberlerin
 13.11 03:52 N  NEWS (5 new) score -0.55 conf 0.60: 
 13.11 03:52 N  GPT  score -0.65 conf 0.72: Altının yüzde 3 düşerek bir yılın en düşük seviyelerine inmesi ve doların güçlenmesi kısa vadeli aşağı yönlü momentumu destekliyor. Fed yetkililerinin enflasyonun hâlâ yüksek olduğunu vurgulaması faiz beklentilerini şahinleştirirken, İran başlığındaki belirsizlik güvenli liman talebi yaratabilir; bu
@@ -102,6 +100,8 @@ Son işlemler:
 13.11 04:41 N  GPT  score -0.65 conf 0.72: Williams’ın enflasyonun hâlâ yüksek olduğunu vurgulaması, Fed faiz artırımı beklentileri ve doların 19 ayın zirvesine çıkması altın üzerinde kısa vadeli baskı yaratıyor. Ukrayna haberlerinde görüşmeler sürerken belirgin bir yeni tırmanış sinyali yok; haberlerin bir kısmı da mevcut fiyatlamayı yansıt
 13.11 04:53 N  NEWS (6 new) score -0.70 conf 0.75: Fed'in daha sert faiz artırımı beklentileri (Waller yarım puanlık artırımı, Williams'ın "enflasyon çok yüksek" açıklaması), güçlü doların 19 aylık zirvesi ve 96 dolarlık petrol enflasyon kaygısını artırarak altın üzerinde baskı oluşturuyor. Altın zaten 13 aylık dip yakınında; İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyemiyor, bu yüzden düşüş eğilimi baskın görünüyor.
 13.11 04:53 N  GPT  score -0.62 conf 0.72: Fed’den Williams’ın enflasyonun hâlâ fazla yüksek olduğunu söylemesi, güçlü dolar ve yükselen faiz beklentileri altın için belirgin baskı oluşturuyor. Jeopolitik başlıklar güvenli liman talebini destekleyebilir; ancak haberler karışık ve mevcut düşüşün bir kısmı fiyatlanmış görünüyor.
+13.11 05:05 N  NEWS (10 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri, yükselen ABD tahvil getirileri ve 19 aylık zirveye yaklaşan dolar altın için baskılayıcı; altın yaklaşık 13 aylık dip civarında. Ukrayna barış görüşmelerinin genişlemesi ve Fed'in Williams gibi isimlerinin sert açıklamaları da güvenli liman talebini azaltıyor; ancak haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+13.11 05:05 N  GPT  score -0.62 conf 0.68: Doların 19 ayın zirvesine yaklaşması, yükselen ABD tahvil getirileri ve Fed’in daha sıkı politika beklentileri altın üzerinde belirgin kısa vadeli baskı yaratıyor. Ukrayna görüşmeleri güvenli liman talebini sınırlayabilir; ancak haberlerin önemli bir kısmı mevcut düşüşü zaten yansıtıyor ve jeopoliti
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
