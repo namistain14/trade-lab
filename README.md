@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:01 (İstanbul)
+> Son güncelleme: 13.11.2026 18:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,532.20 $** (başlangıç 5,000 $, -467.80 $ / %-9.36)
 
-Son haber analizi (13.11 17:52): Claude puan **-0.60**, güven 0.60 — Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
+Son haber analizi (13.11 18:04): Claude puan **-0.60**, güven 0.70 — Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.70 — Fed’in enflasyonla mücadelede daha uzun süre sıkı kalabileceğine dair mesajlar ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor; ılımlı PPI bu etkiyi dengeleyememiş görünüyor. Jeopolitik riskler bir miktar güvenli liman talebi sağlayabilir, ancak yeni haberlerin altına etkisi sınırlı ve ka
+GPT (gpt-6-luna): puan **-0.48**, güven 0.66 — Enflasyon ve Fed yetkililerinin açıklamaları faiz indirimi beklentilerini zayıflatıp daha şahin bir görünümü destekliyor; doların 19 ayın zirvesine yakın seyri altın üzerinde baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebi sağlayabilir, ancak kısa vadede bu baskıyı dengeleyece
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,082.39 $** (başlangıç 100,000 $, +16082.39 $ / %+16.08)
+**Hesap değeri: 115,928.34 $** (başlangıç 100,000 $, +15928.34 $ / %+15.93)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 17:16 N  GPT  score -0.28 conf 0.64: Yüksek ve kalıcı görünen üretici enflasyonu, Fed faiz artırımı beklentileri ve güçlenen dolar kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler destekleyici; ancak haber akışındaki karşıt sinyaller net düşüş beklentisini sınırlıyor.
-13.11 17:28 N  NEWS (11 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri, güçlü dolar (19 aylık zirve) ve yüksek PPI enflasyonu (yıllık %6,5) altın için baskı oluşturuyor; Goolsbee'nin sert açıklamaları da bunu destekliyor. Buna karşılık İran savaşı, Netanyahu'nun saldırı baskısı ve Bahreyn'deki saldırı jeopolitik talebi destekliyor, Hazine Bakanı'nın faiz artırımına karşı çıkması ise kısmen dovish bir sinyal. Sonuç olarak net etki hafif negatif, ancak sinyaller çelişkili olduğu için güven düşük.
 13.11 17:28 N  GPT  score -0.25 conf 0.56: Fed’in enflasyona karşı daha sıkı duruş sinyali ve doların güçlü seyri kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler destek sağlasa da haberlerin bir bölümü zaten fiyatlanmış; son yükseliş bu baskıyı kısmen dengeliyor.
 13.11 17:32 B5  CLOSE short stop: -55.98 USD
 13.11 17:32 B6  karar turu: Claude «PPI beklentiye yakın ve hafif yumuşak gelse de Fed'in şahin tonu ve NVDA kaynaklı teknoloji zayıflığı piyasayı kararsız, Nasdaq'ı ise baskı altında tutuyor.» / GPT «Şahin Fed söylemi ve Nvidia kaynaklı baskı teknoloji tarafında seçici satışları desteklerken, dört kat kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı.»
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 17:52 N  NEWS (15 new) score -0.60 conf 0.60: 
 13.11 17:52 N  GPT  score -0.48 conf 0.70: Fed’in enflasyonla mücadelede daha uzun süre sıkı kalabileceğine dair mesajlar ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor; ılımlı PPI bu etkiyi dengeleyememiş görünüyor. Jeopolitik riskler bir miktar güvenli liman talebi sağlayabilir, ancak yeni haberlerin altına etkisi sınırlı ve ka
 13.11 17:55 B6  karar turu: Claude «Nvidia krizi ve Goolsbee'nin şahin enflasyon yorumları teknoloji ağırlıklı piyasayı aşağı çekiyor; genel eğilim hafif negatif.» / GPT «Endekslerde aşağı yönlü ivme baskın; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı ve sert düşmüş NVDA kovalanmamalı.»
+13.11 18:04 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
+13.11 18:04 N  GPT  score -0.48 conf 0.66: Enflasyon ve Fed yetkililerinin açıklamaları faiz indirimi beklentilerini zayıflatıp daha şahin bir görünümü destekliyor; doların 19 ayın zirvesine yakın seyri altın üzerinde baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebi sağlayabilir, ancak kısa vadede bu baskıyı dengeleyece
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
