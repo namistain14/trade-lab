@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:32 (İstanbul)
+> Son güncelleme: 13.11.2026 17:34 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -72,7 +72,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,936.01 $** (başlangıç 100,000 $, +13936.01 $ / %+13.94)
+**Hesap değeri: 114,552.06 $** (başlangıç 100,000 $, +14552.06 $ / %+14.55)
+
+Açık pozisyonlar: NVDA short @ 166.52 (TP 165.32 / SL 169.52); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
 Son işlemler:
 
