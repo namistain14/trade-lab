@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:17 (İstanbul)
+> Son güncelleme: 13.11.2026 18:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %30.0 | %41.4 |
 | Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
 
-**Hesap değeri: 4,538.28 $** (başlangıç 5,000 $, -461.72 $ / %-9.23)
+**Hesap değeri: 4,557.10 $** (başlangıç 5,000 $, -442.90 $ / %-8.86)
 
 Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,705.69 $** (başlangıç 100,000 $, +15705.69 $ / %+15.71)
+**Hesap değeri: 116,137.13 $** (başlangıç 100,000 $, +16137.13 $ / %+16.14)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
@@ -91,10 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
-13.11 17:40 N  NEWS (17 new) score -0.50 conf 0.60: Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
-13.11 17:40 N  GPT  score -0.45 conf 0.67: Kısa vadede doların 19 ayın zirvesine yakın seyretmesi ve yükselen reel getiriler, altın üzerindeki baskıyı artırıyor; enflasyon ve Fed beklentilerine dair haberler ise çelişkili. İran gerilimi ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak faiz-dolar etkisi şimdilik ağır basıyor
-13.11 17:44 B6  karar turu: Claude «Piyasa NVDA kaynaklı yarı iletken zayıflığıyla baskı altında. Genel endeks ise yumuşak PPI verisiyle görece dengede.» / GPT «Kısa vadeli görünüm satış ağırlıklı; mevcut QQQ pozisyonuyla olası risk örtüşmesi ve 4 kat kaldıracın etkisi gözetilerek göreli güçlü hisselerde seçici alım tercih edilmeli.»
 13.11 17:44 B6  ALIŞ AAPL 320 adet ≈ 115,146 $ (1:4) @ 359.83 (TP 365.23, SL 356.23; ikisi de hemfikir, güven 0.45)
 13.11 17:52 N  NEWS (15 new) score -0.60 conf 0.60: 
 13.11 17:52 N  GPT  score -0.48 conf 0.70: Fed’in enflasyonla mücadelede daha uzun süre sıkı kalabileceğine dair mesajlar ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor; ılımlı PPI bu etkiyi dengeleyememiş görünüyor. Jeopolitik riskler bir miktar güvenli liman talebi sağlayabilir, ancak yeni haberlerin altına etkisi sınırlı ve ka
@@ -106,6 +102,10 @@ Son işlemler:
 13.11 18:08 B6  AÇIĞA SATIŞ TSLA 298 adet ≈ 115,552 $ (1:4) @ 387.76 (TP 381.94, SL 391.64; ikisi de hemfikir, güven 0.50)
 13.11 18:11 B6  CLOSE short QQQ take profit: +1751.13 USD
 13.11 18:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19dibJ74kY3hjme36p7'}
+13.11 18:20 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19rxiUCWwW2nb4DVvWX'}
+13.11 18:20 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+13.11 18:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+13.11 18:20 B6  karar turu: Claude «-» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
