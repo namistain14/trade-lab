@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 04:13 (İstanbul)
+> Son güncelleme: 13.11.2026 04:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,668.34 $** (başlangıç 5,000 $, -331.66 $ / %-6.63)
 
-Son haber analizi (13.11 04:04): Claude puan **-0.50**, güven 0.55 — Fed yetkililerinin (Williams) enflasyonu "çok yüksek" olarak tanımlaması ve dolar güçlenmesiyle birlikte altın yılın en düşük seviyesine yakın, 3900 doların altında işlem görüyor; bu sıkı para politikası beklentisi altın için baskılayıcı. İran savaşı ve Ukrayna gerilimi güvenli liman talebini destekleyebilse de, haber akışında bu etki belirgin değil. Waller'ın yarım puanlık artırım önerisi gibi bazı başlıklar eski olabilir, bu yüzden güveni orta seviyede tutuyorum.
+Son haber analizi (13.11 04:16): Claude puan **-0.60**, güven 0.60 — Yeni başlıklar ağırlıklı olarak altın için negatif: Fed yetkilileri (Williams, Waller) enflasyonu "çok yüksek" olarak tanımlayıp yarım puanlık faiz artırımını gündeme getiriyor, dolar faiz artırımı beklentileriyle güçleniyor ve altın yıllık en düşük seviyelere yakın işlem görüyor. Iran ve Ukrayna ile ilgili jeopolitik haberler güvenli liman talebini bir miktar destekleyebilir, ancak bu etki haberlerin çoğunun zaten fiyatlanmış olması ve baskın sürücünün sıkılaşma beklentisi nedeniyle sınırlı kalıyor.
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Williams’ın enflasyonun hâlâ fazla yüksek olduğu yönündeki açıklaması, faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı kurabilir; doların güçlenmesi ve altındaki sert düşüş de kısa vadeli aşağı yönlü momentumu artırıyor. Putin’in Avrupa’ya yönelik tehdidi güvenli liman tale
+GPT (gpt-6-luna): puan **-0.58**, güven 0.68 — Doların enflasyon kaygılarıyla güçlenmesi ve Fed’den Williams’ın enflasyonu hâlâ fazla yüksek bulması, faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı yaratıyor. Ukrayna’daki gerilim güvenli liman talebini kısmen destekleyebilir; ancak haberler karışık ve altındaki düşüşün 
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 02:52 N  NEWS (11 new) score -0.55 conf 0.70: Altın, Fed faiz artırımı beklentileri, güçlenen dolar ve enflasyon kaygıları nedeniyle bir yıllık dip seviyesine (3.900 doların altına) geriledi; bu hawkish tablo kısa vadede altın için baskılayıcıdır. İran savaşıyla ilgili jeopolitik risk ise güvenli liman talebini destekleyecek yerde, Trump'ın yeniden saldırı olmayacağı sinyali nedeniyle zayıflamış görünüyor. Yaklaşan ABD PPI verisi kısa vadede oynaklık yaratabilir, bu yüzden güveni orta-yüksek tutuyorum.
-13.11 02:52 N  GPT  score -0.68 conf 0.76: Doların yılın en yüksek seviyelerine yaklaşması ve Fed’in daha şahin fiyatlanması altın üzerinde baskı yaratıyor; altının 3.900 doların altına gerilediği haberleri bu eğilimi destekliyor. İran başlıkları güvenli liman talebini artırabilir ancak yeni bir saldırı ihtimalinin düşük olduğuna dair haberl
 13.11 03:04 N  NEWS (5 new) score -0.70 conf 0.70: Haberler güçlü biçimde altın için negatif: Fed'in Waller'ın yarım puanlık faiz artırımını gündeme getirmesi, sıcak enflasyon verisi ve doların yılın zirvesine yakın seyretmesi altını bir yıllık dip seviyesine (3.900 doların altına) itiyor. İran savaşının sona yaklaştığına dair sinyaller de güvenli liman talebini zayıflatıyor; ancak fiyat hareketinin büyük kısmı zaten yansımış olabileceğinden güven orta düzeyde tutuldu.
 13.11 03:04 N  GPT  score -0.65 conf 0.68: Waller’ın sıcak enflasyon sonrası yarım puanlık faiz artışını gündeme getirmesi ve doların güçlü seyri, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor. İran cephesindeki belirsiz fakat sınırlı gerilim desteğine karşın altının zaten sert düşmüş olması ek düşüş sinyalinin gücünü azalt
 13.11 03:06 B5  CLOSE short stop: -55.98 USD
@@ -102,6 +100,8 @@ Son işlemler:
 13.11 03:52 N  GPT  score -0.65 conf 0.72: Altının yüzde 3 düşerek bir yılın en düşük seviyelerine inmesi ve doların güçlenmesi kısa vadeli aşağı yönlü momentumu destekliyor. Fed yetkililerinin enflasyonun hâlâ yüksek olduğunu vurgulaması faiz beklentilerini şahinleştirirken, İran başlığındaki belirsizlik güvenli liman talebi yaratabilir; bu
 13.11 04:04 N  NEWS (5 new) score -0.50 conf 0.55: Fed yetkililerinin (Williams) enflasyonu "çok yüksek" olarak tanımlaması ve dolar güçlenmesiyle birlikte altın yılın en düşük seviyesine yakın, 3900 doların altında işlem görüyor; bu sıkı para politikası beklentisi altın için baskılayıcı. İran savaşı ve Ukrayna gerilimi güvenli liman talebini destekleyebilse de, haber akışında bu etki belirgin değil. Waller'ın yarım puanlık artırım önerisi gibi bazı başlıklar eski olabilir, bu yüzden güveni orta seviyede tutuyorum.
 13.11 04:04 N  GPT  score -0.55 conf 0.68: Williams’ın enflasyonun hâlâ fazla yüksek olduğu yönündeki açıklaması, faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı kurabilir; doların güçlenmesi ve altındaki sert düşüş de kısa vadeli aşağı yönlü momentumu artırıyor. Putin’in Avrupa’ya yönelik tehdidi güvenli liman tale
+13.11 04:16 N  NEWS (4 new) score -0.60 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için negatif: Fed yetkilileri (Williams, Waller) enflasyonu "çok yüksek" olarak tanımlayıp yarım puanlık faiz artırımını gündeme getiriyor, dolar faiz artırımı beklentileriyle güçleniyor ve altın yıllık en düşük seviyelere yakın işlem görüyor. Iran ve Ukrayna ile ilgili jeopolitik haberler güvenli liman talebini bir miktar destekleyebilir, ancak bu etki haberlerin çoğunun zaten fiyatlanmış olması ve baskın sürücünün sıkılaşma beklentisi nedeniyle sınırlı kalıyor.
+13.11 04:16 N  GPT  score -0.58 conf 0.68: Doların enflasyon kaygılarıyla güçlenmesi ve Fed’den Williams’ın enflasyonu hâlâ fazla yüksek bulması, faizlerin yüksek kalacağı beklentisini destekleyerek altın üzerinde baskı yaratıyor. Ukrayna’daki gerilim güvenli liman talebini kısmen destekleyebilir; ancak haberler karışık ve altındaki düşüşün 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
