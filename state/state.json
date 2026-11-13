@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    5000.0
-   ],
-   [
     1794062560,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794585215,
+    5000.0
+   ],
+   [
+    1794585250,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    4868.5
-   ],
-   [
     1794062560,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794585215,
+    4868.5
+   ],
+   [
+    1794585250,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "12.11 19:12 B5  SHORT gold 25000 USD x10 @ 3876.39 (TP 3864.77, SL 3884.15; news -0.64)",
   "12.11 19:21 B6  karar turu: Claude \u00abEndeksler son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde toparlan\u0131yor, ancak Goolsbee'nin \u015fahin enflasyon yorumlar\u0131 ve Nvidia kaynakl\u0131 belirsizlik oynakl\u0131\u011f\u0131 y\u00fcksek tutuyor.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f momentumu s\u00fcrerken yeni \u015fahin Fed a\u00e7\u0131klamalar\u0131 ve Nvidia kaynakl\u0131 haber riski, kald\u0131ra\u00e7l\u0131 i\u015flemlerde sert d\u00f6n\u00fc\u015f tehlikesini art\u0131r\u0131yor.\u00bb",
   "12.11 19:21 B6  ALI\u015e TSLA 123 adet \u2248 48,232 $ (1:4) @ 392.13 (TP 398.01, SL 388.21; ikisi de hemfikir, g\u00fcven 0.50)",
   "12.11 19:24 N  NEWS (11 new) score -0.60 conf 0.70: Fed'in \u015fahinle\u015fmesi (Hammack ve Barr'\u0131n kademeli faiz art\u0131\u015f\u0131 sinyalleri), CPI sonras\u0131 reel faizlerin y\u00fckselmesi ve dolar lehine hareket alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Jeopolitik geli\u015fmeler (\u0130ran sava\u015f\u0131, Ukrayna m\u00fczakereleri) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki \u015fu an s\u0131k\u0131la\u015fma beklentilerinin gerisinde kal\u0131yor; baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
@@ -30167,7 +30166,8 @@
   "13.11 18:44 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "13.11 18:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BvQrAFLTj7phTPLqNn'}",
   "13.11 18:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1C9gwPuJe1hzfmpUUxJ'}",
-  "13.11 18:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1CP2nNRzcNUub6CvvXA'}"
+  "13.11 18:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1CP2nNRzcNUub6CvvXA'}",
+  "13.11 18:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1CRdTWBKcxo3rpyVufY'}"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    4963.78
-   ],
-   [
     1794062560,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794585215,
+    4963.78
+   ],
+   [
+    1794585250,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    4975.18
-   ],
-   [
     1794062560,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794585215,
+    4975.18
+   ],
+   [
+    1794585250,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    4993.28
-   ],
-   [
     1794062560,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794585215,
+    4993.28
+   ],
+   [
+    1794585250,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794062380,
-    4969.22
-   ],
-   [
     1794062560,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794585215,
+    4969.22
+   ],
+   [
+    1794585250,
     4969.22
    ]
   ],
@@ -81144,10 +81144,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794062380,
-    4544.23
-   ],
    [
     1794062560,
     4544.23
@@ -93143,6 +93139,10 @@
    [
     1794585215,
     4582.93
+   ],
+   [
+    1794585250,
+    4594.37
    ]
   ],
   "news_calls": {
@@ -93350,7 +93350,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 116546.56800000001,
+   "balance": 116598.71800000001,
    "start": 100000.0,
    "positions": [
     {
@@ -93365,7 +93365,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 358.9101
+     "cur": 358.75
     },
     {
      "id": "bf1b0c8e-cb69-446c-bba8-547ca7a491e5",
@@ -93379,7 +93379,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: xAI Grok ekibi haberi ve Texas denetim riskiyle d\u00fc\u015fen tepeler devam ediyor; zay\u0131f toparlanmalar sat\u0131l\u0131yor. | GPT 0.61: Zay\u0131f tepki al\u0131mlar\u0131 ve yeniden dip b\u00f6lgesine d\u00f6n\u00fc\u015f, d\u00fczenleyici inceleme haberinin de bask\u0131s\u0131yla d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131na s\u0131n\u0131rl\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 388.88
+     "cur": 388.431
     }
    ],
    "trades": [
@@ -94214,18 +94214,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 1862.74,
+    "pnl": 1997.46,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115798.75
+   "equity": 115933.47
   },
   "equity_curve": [
-   [
-    1794062380,
-    109993.83
-   ],
    [
     1794062560,
     109993.83
@@ -106221,6 +106217,10 @@
    [
     1794585215,
     115798.75
+   ],
+   [
+    1794585250,
+    115933.47
    ]
   ],
   "open": {
@@ -106314,7 +106314,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "93496.75",
+   "buying_power": "94469.01",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106426,10 +106426,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794062380,
-    4944.42
-   ],
    [
     1794062560,
     4944.42
@@ -118424,6 +118420,10 @@
    ],
    [
     1794585215,
+    4876.96
+   ],
+   [
+    1794585250,
     4876.96
    ]
   ],
