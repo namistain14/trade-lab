@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 09:40 (İstanbul)
+> Son güncelleme: 13.11.2026 09:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.7 |
 | Ödenen komisyon/spread | 23.86 $ | 1223.31 $ |
 
-**Hesap değeri: 4,663.21 $** (başlangıç 5,000 $, -336.79 $ / %-6.74)
+**Hesap değeri: 4,682.98 $** (başlangıç 5,000 $, -317.02 $ / %-6.34)
 
 Açık pozisyonlar: PAXGUSDT short @ 3894.59 (TP 3882.91 / SL 3902.38)
 
-Son haber analizi (13.11 09:31): Claude puan **-0.45**, güven 0.60 — Faiz artırımı beklentileri ve güçlenen dolar, petrol kaynaklı enflasyon endişeleriyle birlikte altın üzerinde baskı yaratıyor; altın 3.900 doların altına düşmüş durumda ve 13 aylık dip gösteriyor. İran'ın ABD radar sahasını hedef aldığını açıklaması jeopolitik risk-kaçışı yaratabilecek olsa da, bu haberin altın fiyatını yukarı taşıdığına dair bir işaret yok; ayrıca birçok başlık eski veya tekrar eden nitelikte, bu da güveni sınırlıyor.
+Son haber analizi (13.11 09:43): Claude puan **-0.40**, güven 0.50 — Altın 3.900 doların altına inip 13 aylık dibe yakın seviyelere geriledi; güçlü dolar, petrol kaynaklı enflasyon ve Fed faiz artırım riski altını baskılıyor. Ukrayna/İran jeopolitik gelişmeleri güvenli liman talebini sınırlı destekliyor, ayrıca PPI verisi ve bazı yerel fiyat haberleri çoğunlukla zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.48 — Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde baskı yaratıyor; haftalık düşüş sonrası gelen tepki alımları ise kısa vadeli kayıpları sınırlayabilir. Jeopolitik haberler destekleyici olsa da yeni ve belirleyici bir tırmanış görünmüyor, bu nedenle yön sinyali karışık.
+GPT (gpt-6-luna): puan **-0.30**, güven 0.58 — Doların güçlenmesi, enflasyon verisi öncesi faiz artışı beklentileri ve altındaki süregelen düşüş kısa vadede baskın biçimde negatif. Rusya yaptırımları ve düşük fiyatlardan alımlar destek sağlasa da etkileri sınırlı ve haber akışı çelişkili.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 08:19 N  NEWS (4 new) score -0.60 conf 0.70: Altın 13 aylık dip seviyesine yakın işlem görüyor; ABD doları endeksi 19 aylık zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor, petrol kaynaklı enflasyon endişeleri de baskıyı artırıyor. İran'ın ABD radar sahasını hedef aldığını bildirmesi güvenli liman talebi açısından destekleyici olsa da, bu gelişme dolar ve faiz kaynaklı baskının gerisinde kalıyor; yakın vadede etki negatif görünüyor.
-13.11 08:19 N  GPT  score -0.25 conf 0.56: Yeni başlıkların çoğu altın fiyatını etkileyebilecek somut bir gelişme içermiyor. İran kaynaklı gerilim güvenli liman talebini desteklese de güçlü dolar, Fed’in faiz artırımı beklentileri ve altındaki düşüş eğilimi önümüzdeki saatlerde baskın görünüyor.
 13.11 08:31 N  NEWS (7 new) score -0.50 conf 0.60: Altın 13 aylık dibe yakın, ABD doları (DXY) yaklaşık 19 aylık zirvede ve Fed faiz artırımı beklentileri güçleniyor; bu, altın için baskı oluşturuyor. Petrol yükselişi enflasyon endişelerini artırıyor, İran kaynaklı jeopolitik risk ise sınırlı bir güvenli liman desteği sağlıyor. Yaklaşan ABD enflasyon (PPI) verisi yüksek çıkarsa düşüş sürebilir, düşük çıkarsa kısa vadeli tepki gelebilir; bu nedenle güven orta düzeyde.
 13.11 08:31 N  GPT  score -0.35 conf 0.58: Doların güçlü seyri ve enflasyon verisi öncesi Fed’in sıkı kalabileceği beklentisi altın üzerinde baskı yaratıyor. İran kaynaklı riskler güvenli liman talebini desteklese de fiyat haberleri çelişkili ve veri öncesi yön belirsiz.
 13.11 08:43 N  NEWS (4 new) score -0.50 conf 0.60: Altın 13 aylık dibe yakın işlem görüyor; güçlü dolar (DXY 19 aylık zirvede), Fed faiz artırımı beklentileri ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı yaratıyor. İran'ın ABD radar üssünü hedef aldığı haberi sınırlı bir güvenli liman talebi sağlasa da, bu etki dolar ve faiz kanalının gerisinde kalıyor; ayrıca Ukrayna'da müzakere haberleri risk iştahını destekliyor.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 09:19 N  GPT  score -0.55 conf 0.66: Doların iki ayın en güçlü haftasına yönelmesi ve faiz artışı beklentileri, kısa vadede altın üzerinde baskı yaratıyor; son günlerdeki düşüş ve zayıf haftalık görünüm de bunu destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini artırabilir, ancak başlıkların çoğu yeni değil veya fiyat
 13.11 09:31 N  NEWS (7 new) score -0.45 conf 0.60: Faiz artırımı beklentileri ve güçlenen dolar, petrol kaynaklı enflasyon endişeleriyle birlikte altın üzerinde baskı yaratıyor; altın 3.900 doların altına düşmüş durumda ve 13 aylık dip gösteriyor. İran'ın ABD radar sahasını hedef aldığını açıklaması jeopolitik risk-kaçışı yaratabilecek olsa da, bu haberin altın fiyatını yukarı taşıdığına dair bir işaret yok; ayrıca birçok başlık eski veya tekrar eden nitelikte, bu da güveni sınırlıyor.
 13.11 09:31 N  GPT  score -0.20 conf 0.48: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde baskı yaratıyor; haftalık düşüş sonrası gelen tepki alımları ise kısa vadeli kayıpları sınırlayabilir. Jeopolitik haberler destekleyici olsa da yeni ve belirleyici bir tırmanış görünmüyor, bu nedenle yön sinyali karışık.
+13.11 09:43 N  NEWS (4 new) score -0.40 conf 0.50: Altın 3.900 doların altına inip 13 aylık dibe yakın seviyelere geriledi; güçlü dolar, petrol kaynaklı enflasyon ve Fed faiz artırım riski altını baskılıyor. Ukrayna/İran jeopolitik gelişmeleri güvenli liman talebini sınırlı destekliyor, ayrıca PPI verisi ve bazı yerel fiyat haberleri çoğunlukla zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+13.11 09:43 N  GPT  score -0.30 conf 0.58: Doların güçlenmesi, enflasyon verisi öncesi faiz artışı beklentileri ve altındaki süregelen düşüş kısa vadede baskın biçimde negatif. Rusya yaptırımları ve düşük fiyatlardan alımlar destek sağlasa da etkileri sınırlı ve haber akışı çelişkili.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
