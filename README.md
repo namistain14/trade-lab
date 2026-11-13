@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:40 (İstanbul)
+> Son güncelleme: 13.11.2026 17:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,124.79 $** (başlangıç 100,000 $, +15124.79 $ / %+15.12)
+**Hesap değeri: 115,250.19 $** (başlangıç 100,000 $, +15250.19 $ / %+15.25)
 
 Açık pozisyonlar: QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 16:57 B5  CLOSE short stop: -55.98 USD
-13.11 17:04 N  NEWS (12 new) score -0.55 conf 0.60: 
 13.11 17:04 N  GPT  score -0.45 conf 0.66: Doların güçlenmesi ve Goolsbee’nin kalıcı, genişleyen enflasyon baskılarına dair uyarıları Fed’in daha şahin kalabileceği beklentisini destekleyerek altın üzerinde baskı yaratıyor. Aylık toptan enflasyonun beklentiden düşük gelmesi ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
 13.11 17:04 B5  SHORT gold 25000 USD x10 @ 3875.29 (TP 3863.67, SL 3883.05; news -0.50)
 13.11 17:16 N  NEWS (11 new) score -0.35 conf 0.50: Üretici fiyatları (PPI) yıllık %6,5 ile yaklaşık dört yılın en yüksek seviyesine çıktı ve Fed'de faiz artırımı beklentileri güçleniyor; bu, ABD dolarını destekleyip reel faizleri yukarı iten bir ortam yaratarak altın için olumsuz. Buna karşılık İran'la artan çatışma haberleri jeopolitik talebi destekliyor, ancak bu etki büyük ölçüde fiyatlanmış durumda; Hazine Bakanı'nın Fed'e faiz artırmama çağrısı ve Goolsbee'nin enflasyon konusundaki sert tonu ise belirsizlik yaratıyor.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
 13.11 17:40 N  NEWS (17 new) score -0.50 conf 0.60: Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
 13.11 17:40 N  GPT  score -0.45 conf 0.67: Kısa vadede doların 19 ayın zirvesine yakın seyretmesi ve yükselen reel getiriler, altın üzerindeki baskıyı artırıyor; enflasyon ve Fed beklentilerine dair haberler ise çelişkili. İran gerilimi ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak faiz-dolar etkisi şimdilik ağır basıyor
+13.11 17:44 B6  karar turu: Claude «Piyasa NVDA kaynaklı yarı iletken zayıflığıyla baskı altında. Genel endeks ise yumuşak PPI verisiyle görece dengede.» / GPT «Kısa vadeli görünüm satış ağırlıklı; mevcut QQQ pozisyonuyla olası risk örtüşmesi ve 4 kat kaldıracın etkisi gözetilerek göreli güçlü hisselerde seçici alım tercih edilmeli.»
+13.11 17:44 B6  ALIŞ AAPL 320 adet ≈ 115,146 $ (1:4) @ 359.83 (TP 365.23, SL 356.23; ikisi de hemfikir, güven 0.45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
