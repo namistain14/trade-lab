@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    5000.0
-   ],
-   [
     1794066574,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794589252,
+    5000.0
+   ],
+   [
+    1794589432,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    4868.5
-   ],
-   [
     1794066574,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794589252,
+    4868.5
+   ],
+   [
+    1794589432,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "12.11 21:38 B5  CLOSE short stop (gap): -56.18 USD",
   "12.11 21:47 B6  karar turu: Claude \u00abEndeksler Nvidia'daki CEO de\u011fi\u015fimi ve DOJ soru\u015fturmas\u0131 haberlerine ra\u011fmen yatay, ancak son bir saatte hafif sat\u0131\u015f bask\u0131s\u0131 g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00abEndekslerde son saat sat\u0131\u015f bask\u0131s\u0131 \u00f6ne \u00e7\u0131karken Nvidia kaynakl\u0131 olumsuz haber ak\u0131\u015f\u0131 teknoloji hisselerinde temkin gerektiriyor.\u00bb",
   "12.11 21:50 B5  SHORT gold 25000 USD x10 @ 3879.72 (TP 3868.08, SL 3887.48; news -0.69)",
   "12.11 21:50 B6  CLOSE long NVDA stop: -834.20 USD",
@@ -30167,7 +30166,8 @@
   "13.11 19:57 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "13.11 19:57 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
   "13.11 19:57 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
-  "13.11 20:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HWdLHCnBA7sUGfmyWP'}"
+  "13.11 20:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HWdLHCnBA7sUGfmyWP'}",
+  "13.11 20:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Hjuq51ZV8jsCGaRozM'}"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    4963.78
-   ],
-   [
     1794066574,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794589252,
+    4963.78
+   ],
+   [
+    1794589432,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    4975.18
-   ],
-   [
     1794066574,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794589252,
+    4975.18
+   ],
+   [
+    1794589432,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    4993.28
-   ],
-   [
     1794066574,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794589252,
+    4993.28
+   ],
+   [
+    1794589432,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794066546,
-    4969.22
-   ],
-   [
     1794066574,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794589252,
+    4969.22
+   ],
+   [
+    1794589432,
     4969.22
    ]
   ],
@@ -81149,10 +81149,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794066546,
-    4544.23
-   ],
    [
     1794066574,
     4544.23
@@ -93148,6 +93144,10 @@
    [
     1794589252,
     4545.26
+   ],
+   [
+    1794589432,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -93355,7 +93355,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 116598.72340000003,
+   "balance": 116598.72,
    "start": 100000.0,
    "positions": [
     {
@@ -93370,7 +93370,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 357.6799
+     "cur": 357.85
     },
     {
      "id": "bf1b0c8e-cb69-446c-bba8-547ca7a491e5",
@@ -93384,7 +93384,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: xAI Grok ekibi haberi ve Texas denetim riskiyle d\u00fc\u015fen tepeler devam ediyor; zay\u0131f toparlanmalar sat\u0131l\u0131yor. | GPT 0.61: Zay\u0131f tepki al\u0131mlar\u0131 ve yeniden dip b\u00f6lgesine d\u00f6n\u00fc\u015f, d\u00fczenleyici inceleme haberinin de bask\u0131s\u0131yla d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131na s\u0131n\u0131rl\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 390.0393
+     "cur": 389.895
     }
    ],
    "trades": [
@@ -94219,18 +94219,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 1175.76,
+    "pnl": 1273.19,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115111.77
+   "equity": 115209.2
   },
   "equity_curve": [
-   [
-    1794066546,
-    109993.83
-   ],
    [
     1794066574,
     109993.83
@@ -106226,6 +106222,10 @@
    [
     1794589252,
     115111.77
+   ],
+   [
+    1794589432,
+    115209.2
    ]
   ],
   "open": {
@@ -106319,7 +106319,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "90634.56",
+   "buying_power": "91044.98",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106431,10 +106431,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794066546,
-    4944.42
-   ],
    [
     1794066574,
     4944.42
@@ -118429,6 +118425,10 @@
    ],
    [
     1794589252,
+    4876.96
+   ],
+   [
+    1794589432,
     4876.96
    ]
   ],
