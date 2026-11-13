@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:32 (İstanbul)
+> Son güncelleme: 13.11.2026 18:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %30.0 | %41.4 |
 | Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
 
-**Hesap değeri: 4,607.18 $** (başlangıç 5,000 $, -392.82 $ / %-7.86)
+**Hesap değeri: 4,599.83 $** (başlangıç 5,000 $, -400.17 $ / %-8.00)
 
 Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,951.13 $** (başlangıç 100,000 $, +15951.13 $ / %+15.95)
+**Hesap değeri: 115,955.65 $** (başlangıç 100,000 $, +15955.65 $ / %+15.96)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 18:08 B6  karar turu: Claude «Nvidia liderlik krizi ve şahin Fed söylemleri teknoloji ağırlıklı satış baskısı yaratıyor; piyasa gün içi zayıf seyrini koruyor.» / GPT «Piyasa yönü aşağı; ancak uzamış satışlar tepki riskini artırırken mevcut QQQ pozisyonuyla olası korelasyon nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
 13.11 18:08 B6  AÇIĞA SATIŞ TSLA 298 adet ≈ 115,552 $ (1:4) @ 387.76 (TP 381.94, SL 391.64; ikisi de hemfikir, güven 0.50)
 13.11 18:11 B6  CLOSE short QQQ take profit: +1751.13 USD
 13.11 18:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19dibJ74kY3hjme36p7'}
@@ -106,6 +105,7 @@ Son işlemler:
 13.11 18:32 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 13.11 18:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 13.11 18:32 B6  karar turu: Claude «-» / GPT «-»
+13.11 18:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1B1JAr5o35wpidCEvWA'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
