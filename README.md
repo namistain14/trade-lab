@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 21:07 (İstanbul)
+> Son güncelleme: 13.11.2026 21:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %53.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,623.14 $** (başlangıç 100,000 $, +14623.14 $ / %+14.62)
+**Hesap değeri: 114,535.14 $** (başlangıç 100,000 $, +14535.14 $ / %+14.54)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23)
 
@@ -89,10 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 20:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Lm2FQvdFdg2ZDLwatc'}
-13.11 20:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1LzLabeubAUhgQMyGgU'}
-13.11 20:46 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
-13.11 20:46 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 13.11 20:46 B6  karar turu: Claude «-» / GPT «-»
 13.11 20:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1MDakVN16xeGvsW45ah'}
 13.11 20:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1MSp2pJZ39K2Y9qJj3Y'}
@@ -104,6 +100,10 @@ Son işlemler:
 13.11 21:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1N8fXx9MxAH3uERZHYP'}
 13.11 21:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1NN1Z5kWWDosHd1DHFx'}
 13.11 21:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1NbBn6Yf87MCedWmozP'}
+13.11 21:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1NpdqsDF7s4pY4dxz53'}
+13.11 21:10 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+13.11 21:10 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+13.11 21:10 B6  karar turu: Claude «-» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
