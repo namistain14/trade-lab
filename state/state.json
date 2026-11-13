@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    5000.0
-   ],
-   [
     1794077091,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794599790,
+    5000.0
+   ],
+   [
+    1794599825,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    4868.5
-   ],
-   [
     1794077091,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794599790,
+    4868.5
+   ],
+   [
+    1794599825,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "13.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "13.11 08:19 B5  CLOSE short stop: -55.97 USD",
   "13.11 08:19 N  NEWS (4 new) score -0.60 conf 0.70: Alt\u0131n 13 ayl\u0131k dip seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor; ABD dolar\u0131 endeksi 19 ayl\u0131k zirvesine yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, petrol kaynakl\u0131 enflasyon endi\u015feleri de bask\u0131y\u0131 art\u0131r\u0131yor. \u0130ran'\u0131n ABD radar sahas\u0131n\u0131 hedef ald\u0131\u011f\u0131n\u0131 bildirmesi g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da, bu geli\u015fme dolar ve faiz kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor; yak\u0131n vadede etki negatif g\u00f6r\u00fcn\u00fcyor.",
   "13.11 08:19 N  GPT  score -0.25 conf 0.56: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 etkileyebilecek somut bir geli\u015fme i\u00e7ermiyor. \u0130ran kaynakl\u0131 gerilim g\u00fcvenli liman talebini desteklese de g\u00fc\u00e7l\u00fc dolar, Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri ve alt\u0131ndaki d\u00fc\u015f\u00fc\u015f e\u011filimi \u00f6n\u00fcm\u00fczdeki saatlerde bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
@@ -30167,7 +30166,8 @@
   "13.11 22:47 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "13.11 22:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WSpbr5D8oMEY95JnNp'}",
   "13.11 22:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WgVVY12NMNE6gfkysH'}",
-  "13.11 22:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WuRa1LogZMHn6M4Rch'}"
+  "13.11 22:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WuRa1LogZMHn6M4Rch'}",
+  "13.11 22:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Wx1YDLKre2BEX8WwUm'}"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    4963.78
-   ],
-   [
     1794077091,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794599790,
+    4963.78
+   ],
+   [
+    1794599825,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    4975.18
-   ],
-   [
     1794077091,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794599790,
+    4975.18
+   ],
+   [
+    1794599825,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    4993.28
-   ],
-   [
     1794077091,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794599790,
+    4993.28
+   ],
+   [
+    1794599825,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794076912,
-    4969.22
-   ],
-   [
     1794077091,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794599790,
+    4969.22
+   ],
+   [
+    1794599825,
     4969.22
    ]
   ],
@@ -81149,10 +81149,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794076912,
-    4544.23
-   ],
    [
     1794077091,
     4544.23
@@ -93148,6 +93144,10 @@
    [
     1794599790,
     4545.26
+   ],
+   [
+    1794599825,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -93370,7 +93370,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 357.02
+     "cur": 357.111
     }
    ],
    "trades": [
@@ -94223,18 +94223,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 474.33,
+    "pnl": 503.45,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114410.34
+   "equity": 114439.46
   },
   "equity_curve": [
-   [
-    1794076912,
-    109993.83
-   ],
    [
     1794077091,
     109993.83
@@ -106230,6 +106226,10 @@
    [
     1794599790,
     114410.34
+   ],
+   [
+    1794599825,
+    114439.46
    ]
   ],
   "open": {
@@ -106312,7 +106312,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "320545.68",
+   "buying_power": "320627.22",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106424,10 +106424,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794076912,
-    4944.42
-   ],
    [
     1794077091,
     4944.42
@@ -118422,6 +118418,10 @@
    ],
    [
     1794599790,
+    4876.96
+   ],
+   [
+    1794599825,
     4876.96
    ]
   ],
