@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:35 (İstanbul)
+> Son güncelleme: 13.11.2026 18:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -192.12 $ | -467.80 $ |
-| İşlem sayısı | 10 | 111 |
-| Kazanma oranı | %30.0 | %41.4 |
-| Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
+| Net kâr/zarar | -123.07 $ | -398.76 $ |
+| İşlem sayısı | 11 | 112 |
+| Kazanma oranı | %36.4 | %42.0 |
+| Ödenen komisyon/spread | 131.27 $ | 1330.73 $ |
 
-**Hesap değeri: 4,599.83 $** (başlangıç 5,000 $, -400.17 $ / %-8.00)
-
-Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
+**Hesap değeri: 4,601.24 $** (başlangıç 5,000 $, -398.76 $ / %-7.98)
 
 Son haber analizi (13.11 18:04): Claude puan **-0.60**, güven 0.70 — Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 18:39 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 17:32 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:56 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:31 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:19 | PAXGUSDT | short | +69.05 $ | take profit |
-| 13.11 14:55 | PAXGUSDT | short | -63.41 $ | stop (gap) |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -74,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,955.65 $** (başlangıç 100,000 $, +15955.65 $ / %+15.96)
+**Hesap değeri: 116,287.89 $** (başlangıç 100,000 $, +16287.89 $ / %+16.29)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
@@ -91,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 18:08 B6  AÇIĞA SATIŞ TSLA 298 adet ≈ 115,552 $ (1:4) @ 387.76 (TP 381.94, SL 391.64; ikisi de hemfikir, güven 0.50)
-13.11 18:11 B6  CLOSE short QQQ take profit: +1751.13 USD
 13.11 18:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19dibJ74kY3hjme36p7'}
 13.11 18:20 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19rxiUCWwW2nb4DVvWX'}
 13.11 18:20 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
@@ -106,6 +102,8 @@ Son işlemler:
 13.11 18:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 13.11 18:32 B6  karar turu: Claude «-» / GPT «-»
 13.11 18:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1B1JAr5o35wpidCEvWA'}
+13.11 18:38 B5  CLOSE short take profit: +69.05 USD
+13.11 18:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BEa4RrDfRoKPcV1PjL'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
