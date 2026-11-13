@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:37 (İstanbul)
+> Son güncelleme: 13.11.2026 17:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,532.20 $** (başlangıç 5,000 $, -467.80 $ / %-9.36)
 
-Son haber analizi (13.11 17:28): Claude puan **-0.30**, güven 0.50 — Fed faiz artırımı beklentileri, güçlü dolar (19 aylık zirve) ve yüksek PPI enflasyonu (yıllık %6,5) altın için baskı oluşturuyor; Goolsbee'nin sert açıklamaları da bunu destekliyor. Buna karşılık İran savaşı, Netanyahu'nun saldırı baskısı ve Bahreyn'deki saldırı jeopolitik talebi destekliyor, Hazine Bakanı'nın faiz artırımına karşı çıkması ise kısmen dovish bir sinyal. Sonuç olarak net etki hafif negatif, ancak sinyaller çelişkili olduğu için güven düşük.
+Son haber analizi (13.11 17:40): Claude puan **-0.50**, güven 0.60 — Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.56 — Fed’in enflasyona karşı daha sıkı duruş sinyali ve doların güçlü seyri kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler destek sağlasa da haberlerin bir bölümü zaten fiyatlanmış; son yükseliş bu baskıyı kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.45**, güven 0.67 — Kısa vadede doların 19 ayın zirvesine yakın seyretmesi ve yükselen reel getiriler, altın üzerindeki baskıyı artırıyor; enflasyon ve Fed beklentilerine dair haberler ise çelişkili. İran gerilimi ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak faiz-dolar etkisi şimdilik ağır basıyor
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,281.54 $** (başlangıç 100,000 $, +15281.54 $ / %+15.28)
+**Hesap değeri: 115,124.79 $** (başlangıç 100,000 $, +15124.79 $ / %+15.12)
 
 Açık pozisyonlar: QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 16:52 N  GPT  score -0.35 conf 0.62: Toptan fiyat enflasyonunun yüksek kalması ve Goolsbee’nin enflasyon uyarısı, Fed’in daha sıkı kalabileceği beklentisini güçlendirerek altını kısa vadede baskılayabilir. İsrail’in savaşı yeniden başlatma girişimi güvenli liman talebini destekleyebilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
-13.11 16:52 B5  SHORT gold 25000 USD x10 @ 3870.73 (TP 3859.11, SL 3878.47; news -0.38)
 13.11 16:57 B5  CLOSE short stop: -55.98 USD
 13.11 17:04 N  NEWS (12 new) score -0.55 conf 0.60: 
 13.11 17:04 N  GPT  score -0.45 conf 0.66: Doların güçlenmesi ve Goolsbee’nin kalıcı, genişleyen enflasyon baskılarına dair uyarıları Fed’in daha şahin kalabileceği beklentisini destekleyerek altın üzerinde baskı yaratıyor. Aylık toptan enflasyonun beklentiden düşük gelmesi ve İran kaynaklı jeopolitik riskler düşüşü sınırlayabilir.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 17:32 B6  AÇIĞA SATIŞ QQQ 165 adet ≈ 113,466 $ (1:4) @ 687.67 (TP 677.35, SL 694.55; ikisi de hemfikir, güven 0.50)
 13.11 17:32 B6  AÇIĞA SATIŞ NVDA 678 adet ≈ 113,796 $ (1:4) @ 167.84 (TP 165.32, SL 169.52; ikisi de hemfikir, güven 0.58)
 13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
+13.11 17:40 N  NEWS (17 new) score -0.50 conf 0.60: Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
+13.11 17:40 N  GPT  score -0.45 conf 0.67: Kısa vadede doların 19 ayın zirvesine yakın seyretmesi ve yükselen reel getiriler, altın üzerindeki baskıyı artırıyor; enflasyon ve Fed beklentilerine dair haberler ise çelişkili. İran gerilimi ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak faiz-dolar etkisi şimdilik ağır basıyor
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
