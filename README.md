@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 14:59 (İstanbul)
+> Son güncelleme: 13.11.2026 15:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,11 +23,13 @@
 | Kazanma oranı | %33.3 | %42.1 |
 | Ödenen komisyon/spread | 71.59 $ | 1271.04 $ |
 
-**Hesap değeri: 4,631.08 $** (başlangıç 5,000 $, -368.92 $ / %-7.38)
+**Hesap değeri: 4,625.11 $** (başlangıç 5,000 $, -374.89 $ / %-7.50)
 
-Son haber analizi (13.11 14:50): Claude puan **-0.40**, güven 0.60 — Enflasyonun beklentilerin üzerinde gelmesi Fed faiz artırımı beklentilerini güçlendiriyor ve dolar güçleniyor; bu, reel faiz ve dolar kanalıyla altın için net olumsuz. İran savaşının ertelenmesi ve petrol arzının fazlaya geçmesi jeopolitik güvenli liman talebini sınırlıyor, ancak savaş tehdidinin sürmesi tamamen ortadan kalkmadığı için düşüş sınırlı kalabilir; PPI verisinin sonucu belirsizliği artırıyor.
+Açık pozisyonlar: PAXGUSDT short @ 3883.58 (TP 3871.93 / SL 3891.35)
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.66 — İran çatışmasının ertelenebileceği haberi güvenli liman talebini sınırlarken, doların güçlenmesi ve faiz artışı beklentilerinin yükselmesi altın üzerinde baskı yaratıyor. PPI öncesi hareketlerin temkinli kalması olası; çatışmanın yeniden alevlenme riski düşüşü sınırlıyor.
+Son haber analizi (13.11 15:02): Claude puan **-0.40**, güven 0.60 — Enflasyonun beklentilerin üzerinde gelmesi ve Fed faiz artırımı beklentilerinin güçlenmesi, dolar yükselişiyle birlikte altı baskılıyor. İran savaşıyla ilgili jeopolitik risk güvenli liman talebini destekleyebilir, ancak haberler çatışmanın ertelendiğine işaret ettiği için bu etki sınırlı kalıyor.
+
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — ABD’de istihdamın enflasyonist risklere işaret etmesi, faiz artırımı beklentilerinin güçlenmesi ve doların yükselişi kısa vadede altın üzerinde baskı yaratıyor. İran gerilimi güvenli liman talebini desteklese de PPI öncesi bu etkiyi dengelemekte yetersiz kalabilir.
 
 Son işlemler:
 
@@ -87,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 13:49 N  NEWS (4 new) score -0.50 conf 0.60: Şahin Fed beklentileri, yükselen ABD tahvil getirileri ve 19 aylık zirvesine yakın dolar, reel faizleri yukarı iterek altın için baskı oluşturuyor. Altın haftalık düşüşe gidiyor; ABD enflasyon verisi öncesinde sert bir hareket riski var, bu da güveni sınırlıyor. İran savaşındaki jeopolitik gerilim ise güvenli liman talebini destekliyor ama petrol arzı fazlası sinyali ve müzakere söylemleri bu etkiyi sınırlıyor.
-13.11 13:49 N  GPT  score -0.35 conf 0.62: Yükselen ABD tahvil getirileri, şahin Fed beklentileri ve güçlü dolar kısa vadede altın üzerinde baskı yaratıyor; yaklaşan ABD enflasyon verisi öncesinde bu etki öne çıkabilir. İran ve Karadeniz kaynaklı riskler güvenli liman talebini desteklese de haberler net bir yeni tırmanış göstermiyor ve görün
-13.11 14:01 N  NEWS (7 new) score -0.50 conf 0.60: Enflasyonun beklentilerin üzerinde gelmesi, Fed faiz artırımı beklentilerini güçlendiriyor ve reel faizleri/doları yukarı taşıyor; bu altın için net olumsuz. İran gerilimi jeopolitik talebi desteklese de petrol arzının fazlaya geçtiği haberi ve ABD'nin "anlaşmaya ihtiyaç yok" söylemi güvenli liman primini sınırlıyor.
 13.11 14:01 N  GPT  score -0.55 conf 0.72: ABD enflasyonunun tahminleri aşması ve faiz artırımı beklentilerinin güçlenmesi, dolar ile getirileri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini artırabilir; petrol arz fazlası beklentisi ve haberlerin bir kısmının zaten fiyatlanmış olması 
 13.11 14:14 N  NEWS (16 new) score -0.40 conf 0.55: Enflasyonun beklentilerin üzerinde seyretmesi, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolar ile reel faizlerin yükselmesi altın için baskı yaratıyor. Jeopolitik riskler (İran savaşı, Rusya yaptırımları) güvenli liman talebini destekliyor olsa da, bu etki hawkish Fed ve güçlü doların gerisinde kalıyor; altın haftalık düşüşe giderken ABD enflasyon verisi bekleniyor.
 13.11 14:14 N  GPT  score -0.25 conf 0.45: Güçlenen dolar ve Fed’in enflasyon nedeniyle daha şahin kalabileceği beklentisi, kısa vadede altın üzerinde baskı oluşturuyor. İran ve Rusya kaynaklı jeopolitik riskler destekleyici olsa da başlıkların çoğu yeni ve somut bir tırmanış göstermiyor; petrol arzındaki toparlanma da enflasyon baskısını sı
@@ -102,6 +101,9 @@ Son işlemler:
 13.11 14:50 N  NEWS (8 new) score -0.40 conf 0.60: Enflasyonun beklentilerin üzerinde gelmesi Fed faiz artırımı beklentilerini güçlendiriyor ve dolar güçleniyor; bu, reel faiz ve dolar kanalıyla altın için net olumsuz. İran savaşının ertelenmesi ve petrol arzının fazlaya geçmesi jeopolitik güvenli liman talebini sınırlıyor, ancak savaş tehdidinin sürmesi tamamen ortadan kalkmadığı için düşüş sınırlı kalabilir; PPI verisinin sonucu belirsizliği artırıyor.
 13.11 14:50 N  GPT  score -0.35 conf 0.66: İran çatışmasının ertelenebileceği haberi güvenli liman talebini sınırlarken, doların güçlenmesi ve faiz artışı beklentilerinin yükselmesi altın üzerinde baskı yaratıyor. PPI öncesi hareketlerin temkinli kalması olası; çatışmanın yeniden alevlenme riski düşüşü sınırlıyor.
 13.11 14:56 B5  CLOSE short stop (gap): -63.41 USD
+13.11 15:02 N  NEWS (6 new) score -0.40 conf 0.60: Enflasyonun beklentilerin üzerinde gelmesi ve Fed faiz artırımı beklentilerinin güçlenmesi, dolar yükselişiyle birlikte altı baskılıyor. İran savaşıyla ilgili jeopolitik risk güvenli liman talebini destekleyebilir, ancak haberler çatışmanın ertelendiğine işaret ettiği için bu etki sınırlı kalıyor.
+13.11 15:02 N  GPT  score -0.35 conf 0.58: ABD’de istihdamın enflasyonist risklere işaret etmesi, faiz artırımı beklentilerinin güçlenmesi ve doların yükselişi kısa vadede altın üzerinde baskı yaratıyor. İran gerilimi güvenli liman talebini desteklese de PPI öncesi bu etkiyi dengelemekte yetersiz kalabilir.
+13.11 15:02 B5  SHORT gold 25000 USD x10 @ 3883.58 (TP 3871.93, SL 3891.35; news -0.38)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
