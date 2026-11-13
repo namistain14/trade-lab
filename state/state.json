@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    5000.0
-   ],
-   [
     1794063459,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794585970,
+    5000.0
+   ],
+   [
+    1794586151,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    4868.5
-   ],
-   [
     1794063459,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794585970,
+    4868.5
+   ],
+   [
+    1794586151,
     4868.5
    ]
   ],
@@ -29868,10 +29868,6 @@
   ]
  },
  "log": [
-  "12.11 19:46 B6  karar turu: Claude \u00abEndeksler yatay ama \u00f6\u011fleden sonra hafif zay\u0131fl\u0131yor; Goolsbee'nin \u015fahin yorumlar\u0131 ve Nvidia'daki y\u00f6netim krizi teknoloji \u00fczerinde bask\u0131 olu\u015fturuyor.\u00bb / GPT \u00abEndekslerde son mumlarda belirginle\u015fen zay\u0131fl\u0131k ve \u015fahin Fed a\u00e7\u0131klamalar\u0131 a\u015fa\u011f\u0131 y\u00f6n\u00fc desteklerken NVDA'n\u0131n \u015firkete \u00f6zg\u00fc haber ak\u0131\u015f\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131 art\u0131r\u0131yor.\u00bb",
-  "12.11 19:49 N  NEWS (12 new) score -0.70 conf 0.65: Fed'in faiz art\u0131r\u0131m\u0131 ihtimali (Goolsbee, Hammack, Chicago Fed a\u00e7\u0131klamalar\u0131, \"Fed \u015fahinleri\" ba\u015fl\u0131\u011f\u0131) ve Treasury getirilerinin y\u00fckselmesiyle dolar g\u00fc\u00e7leniyor; bu da alt\u0131n i\u00e7in belirgin bask\u0131 yarat\u0131yor. Alt\u0131n\u0131n 13 ay\u0131n en d\u00fc\u015f\u00fck seviyesine gerilemesi ve g\u00fcnl\u00fck %2,66 d\u00fc\u015f\u00fc\u015f bu y\u00f6n\u00fc destekliyor; jeopolitik (Ukrayna, \u0130ran) haberleri g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengelemiyor.</reason>\n<parameter name=\"key_events\">[\"Fed yetkilileri (Goolsbee, Hammack) enflasyon nedeniyle faiz art\u0131r\u0131m\u0131n\u0131 tart\u0131\u015f\u0131yor\", \"ABD tahvil getirileri y\u00fckselirken dolar g\u00fc\u00e7leniyor\", \"Alt\u0131n 13 ay\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi, g\u00fcnl\u00fck yakla\u015f\u0131k %2,66 d\u00fc\u015f\u00fc\u015f\"]",
-  "12.11 19:49 N  GPT  score -0.65 conf 0.70: Fed\u2019in daha s\u0131k\u0131la\u015fabilece\u011fine dair beklentiler ve y\u00fckselen ABD tahvil getirileriyle g\u00fc\u00e7lenen dolar, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Sava\u015f haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flasa da \u00e7o\u011fu s\u00fcregelen geli\u015fmeler; sert d\u00fc\u015f\u00fc\u015f\u00fcn bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
-  "12.11 19:58 B5  CLOSE short stop: -55.98 USD",
   "12.11 19:58 B6  karar turu: Claude \u00abEndeksler hafif art\u0131da ve yatay seyrediyor, ancak NVDA kaynakl\u0131 belirsizlik ile Fed'in \u015fahin a\u00e7\u0131klamalar\u0131 yukar\u0131 y\u00f6nl\u00fc ivmeyi s\u0131n\u0131rl\u0131yor.\u00bb / GPT \u00abEndekslerdeki s\u0131n\u0131rl\u0131 toparlanmaya kar\u015f\u0131n \u015fahin Fed a\u00e7\u0131klamalar\u0131 y\u00fckseli\u015fi s\u0131n\u0131rlarken, NVDA \u015firket \u00f6zelindeki olumsuz haberlerle ayr\u0131\u015f\u0131yor.\u00bb",
   "12.11 20:01 N  NEWS (9 new) score -0.70 conf 0.70: ABD enflasyonunun beklentinin \u00fczerinde gelmesi ve Fed'in faiz art\u0131r\u0131m ihtimalinin y\u00fckselmesi, dolar ve tahvil getirilerinin y\u00fckseli\u015fiyle birlikte alt\u0131 bask\u0131l\u0131yor. Gold'un %2,66 d\u00fc\u015f\u00fc\u015f\u00fc ve 13 ayl\u0131k dip haberleri bu bask\u0131y\u0131 teyit ediyor; jeopolitik gerilimler ise g\u00fcvenli liman talebi yaratacak kadar belirleyici g\u00f6r\u00fcnm\u00fcyor.",
   "12.11 20:01 N  GPT  score -0.68 conf 0.78: Beklentiyi a\u015fan ABD enflasyonu ve Fed yetkililerinin daha fazla faiz art\u0131\u015f\u0131na i\u015faret eden a\u00e7\u0131klamalar\u0131, getirileri ve dolar\u0131 destekleyerek alt\u0131n \u00fczerinde bask\u0131 kuruyor. Gazze\u2019deki sald\u0131r\u0131 g\u00fcvenli liman talebini k\u0131smen art\u0131rabilir; ayr\u0131ca alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan haberlerin bir k\u0131sm\u0131 fiyatlanm",
@@ -30167,7 +30163,11 @@
   "13.11 18:57 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "13.11 19:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1CtUYxgboBKoNwi8Ezc'}",
   "13.11 19:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1D7RXWSFw1h8mSApZmQ'}",
-  "13.11 19:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1DLhhDVXjhALCsjyzRS'}"
+  "13.11 19:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1DLhhDVXjhALCsjyzRS'}",
+  "13.11 19:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1DZzQfewJUfSs2G5jc5'}",
+  "13.11 19:09 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "13.11 19:09 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
+  "13.11 19:09 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    4963.78
-   ],
-   [
     1794063459,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794585970,
+    4963.78
+   ],
+   [
+    1794586151,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    4975.18
-   ],
-   [
     1794063459,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794585970,
+    4975.18
+   ],
+   [
+    1794586151,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    4993.28
-   ],
-   [
     1794063459,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794585970,
+    4993.28
+   ],
+   [
+    1794586151,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794063280,
-    4969.22
-   ],
-   [
     1794063459,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794585970,
+    4969.22
+   ],
+   [
+    1794586151,
     4969.22
    ]
   ],
@@ -81144,10 +81144,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794063280,
-    4544.23
-   ],
    [
     1794063459,
     4544.23
@@ -93143,6 +93139,10 @@
    [
     1794585970,
     4619.71
+   ],
+   [
+    1794586151,
+    4578.34
    ]
   ],
   "news_calls": {
@@ -93350,7 +93350,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 116598.72000000002,
+   "balance": 116598.72,
    "start": 100000.0,
    "positions": [
     {
@@ -93365,7 +93365,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 358.13
+     "cur": 357.97
     },
     {
      "id": "bf1b0c8e-cb69-446c-bba8-547ca7a491e5",
@@ -93379,7 +93379,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: xAI Grok ekibi haberi ve Texas denetim riskiyle d\u00fc\u015fen tepeler devam ediyor; zay\u0131f toparlanmalar sat\u0131l\u0131yor. | GPT 0.61: Zay\u0131f tepki al\u0131mlar\u0131 ve yeniden dip b\u00f6lgesine d\u00f6n\u00fc\u015f, d\u00fczenleyici inceleme haberinin de bask\u0131s\u0131yla d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131na s\u0131n\u0131rl\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 388.505
+     "cur": 390.55
     }
    ],
    "trades": [
@@ -94214,18 +94214,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 1777.01,
+    "pnl": 1116.4,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115713.02
+   "equity": 115052.41
   },
   "equity_curve": [
-   [
-    1794063280,
-    109993.83
-   ],
    [
     1794063459,
     109993.83
@@ -106221,6 +106217,10 @@
    [
     1794585970,
     115713.02
+   ],
+   [
+    1794586151,
+    115052.41
    ]
   ],
   "open": {
@@ -106249,9 +106249,9 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794585429458,
+  "last_decision_ms": 1794586150358,
   "view": {
-   "ts": 1794585429458,
+   "ts": 1794586150358,
    "claude": "",
    "gpt": "",
    "gpt_model": null,
@@ -106314,7 +106314,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "93781.18",
+   "buying_power": "89981.36",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106426,10 +106426,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794063280,
-    4944.42
-   ],
    [
     1794063459,
     4944.42
@@ -118424,6 +118420,10 @@
    ],
    [
     1794585970,
+    4876.96
+   ],
+   [
+    1794586151,
     4876.96
    ]
   ],
