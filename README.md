@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:08 (İstanbul)
+> Son güncelleme: 13.11.2026 18:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %30.0 | %41.4 |
 | Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
 
-**Hesap değeri: 4,543.44 $** (başlangıç 5,000 $, -456.56 $ / %-9.13)
+**Hesap değeri: 4,526.29 $** (başlangıç 5,000 $, -473.71 $ / %-9.47)
 
 Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
 
@@ -69,29 +69,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +1722.12 $ | +12405.81 $ |
-| İşlem sayısı | 1 | 45 |
-| Kazanma oranı | %100.0 | %53.3 |
+| Net kâr/zarar | +3473.25 $ | +14156.94 $ |
+| İşlem sayısı | 2 | 46 |
+| Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,824.74 $** (başlangıç 100,000 $, +15824.74 $ / %+15.82)
+**Hesap değeri: 116,147.01 $** (başlangıç 100,000 $, +16147.01 $ / %+16.15)
 
-Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
+Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 18:11 | QQQ | short | +1751.13 $ | take profit |
 | 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
 | 12.11 23:46 | SPY | long | -466.64 $ | seans sonu |
 | 12.11 23:46 | QQQ | long | +93.52 $ | seans sonu |
 | 12.11 23:21 | TSLA | long | +774.55 $ | take profit |
-| 12.11 21:50 | NVDA | long | -834.20 $ | stop |
 
 ## Son olaylar
 
 ```
-13.11 17:32 B6  AÇIĞA SATIŞ QQQ 165 adet ≈ 113,466 $ (1:4) @ 687.67 (TP 677.35, SL 694.55; ikisi de hemfikir, güven 0.50)
 13.11 17:32 B6  AÇIĞA SATIŞ NVDA 678 adet ≈ 113,796 $ (1:4) @ 167.84 (TP 165.32, SL 169.52; ikisi de hemfikir, güven 0.58)
 13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
 13.11 17:40 N  NEWS (17 new) score -0.50 conf 0.60: Faiz artırımı beklentileri, güçlenen dolar (19 aylık zirve) ve reel getirilerdeki yükseliş altını baskılıyor; toptan fiyat enflasyonunun 2022'den bu yana en hızlı artışı ve Goolsbee'nin sıkılaştırma uyarısı hawkish tabloyu destekliyor. Mossad'ın İran savaşını yeniden başlatma baskısı gibi jeopolitik haberler sınırlı bir güvenli liman desteği sağlayabilir, ancak ana etki negatif kalıyor.
@@ -106,6 +105,7 @@ Son işlemler:
 13.11 18:05 B5  SHORT gold 25000 USD x10 @ 3878.86 (TP 3867.23, SL 3886.62; news -0.54)
 13.11 18:08 B6  karar turu: Claude «Nvidia liderlik krizi ve şahin Fed söylemleri teknoloji ağırlıklı satış baskısı yaratıyor; piyasa gün içi zayıf seyrini koruyor.» / GPT «Piyasa yönü aşağı; ancak uzamış satışlar tepki riskini artırırken mevcut QQQ pozisyonuyla olası korelasyon nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
 13.11 18:08 B6  AÇIĞA SATIŞ TSLA 298 adet ≈ 115,552 $ (1:4) @ 387.76 (TP 381.94, SL 391.64; ikisi de hemfikir, güven 0.50)
+13.11 18:11 B6  CLOSE short QQQ take profit: +1751.13 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
