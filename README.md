@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 08:43 (İstanbul)
+> Son güncelleme: 13.11.2026 08:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,9 @@
 | Kazanma oranı | %0.0 | %41.7 |
 | Ödenen komisyon/spread | 23.86 $ | 1223.31 $ |
 
-**Hesap değeri: 4,612.37 $** (başlangıç 5,000 $, -387.63 $ / %-7.75)
+**Hesap değeri: 4,606.40 $** (başlangıç 5,000 $, -393.60 $ / %-7.87)
+
+Açık pozisyonlar: PAXGUSDT short @ 3894.59 (TP 3882.91 / SL 3902.38)
 
 Son haber analizi (13.11 08:43): Claude puan **-0.50**, güven 0.60 — Altın 13 aylık dibe yakın işlem görüyor; güçlü dolar (DXY 19 aylık zirvede), Fed faiz artırımı beklentileri ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı yaratıyor. İran'ın ABD radar üssünü hedef aldığı haberi sınırlı bir güvenli liman talebi sağlasa da, bu etki dolar ve faiz kanalının gerisinde kalıyor; ayrıca Ukrayna'da müzakere haberleri risk iştahını destekliyor.
 
@@ -87,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 07:55 N  NEWS (6 new) score -0.40 conf 0.60: Altın 13 aylık dibe yakın seyrediyor; doların 19 aylık zirvede olması, Fed faiz artırımı beklentileri ve petrol kaynaklı enflasyon endişeleri baskı oluşturuyor. Ancak İran'ın ABD radar sahasını hedef aldığı haberi ve ABD PPI verisi öncesi ucuzluk alımları kısa vadeli toparlanma riskini artırıyor, bu nedenle güven orta düzeyde.
 13.11 07:55 N  GPT  score -0.35 conf 0.58: Doların güçlü seyri ve Fed faiz artırımı beklentileri altın üzerinde baskı yaratıyor; petrol kaynaklı enflasyon endişeleri de bu baskıyı destekliyor. Dipten gelen pazarlık alımları kısa vadeli toparlanma sağlasa da altının haftalık düşüşte olması aşağı yönlü eğilimi öne çıkarıyor.
 13.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 13.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -102,6 +103,7 @@ Son işlemler:
 13.11 08:31 N  GPT  score -0.35 conf 0.58: Doların güçlü seyri ve enflasyon verisi öncesi Fed’in sıkı kalabileceği beklentisi altın üzerinde baskı yaratıyor. İran kaynaklı riskler güvenli liman talebini desteklese de fiyat haberleri çelişkili ve veri öncesi yön belirsiz.
 13.11 08:43 N  NEWS (4 new) score -0.50 conf 0.60: Altın 13 aylık dibe yakın işlem görüyor; güçlü dolar (DXY 19 aylık zirvede), Fed faiz artırımı beklentileri ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı yaratıyor. İran'ın ABD radar üssünü hedef aldığı haberi sınırlı bir güvenli liman talebi sağlasa da, bu etki dolar ve faiz kanalının gerisinde kalıyor; ayrıca Ukrayna'da müzakere haberleri risk iştahını destekliyor.
 13.11 08:43 N  GPT  score -0.20 conf 0.43: Güçlü dolar ve Fed faiz artışı beklentileri altın üzerinde kısa vadeli baskıyı sürdürüyor. Putin’in Avrupa’ya yönelik uyarısı güvenli liman talebini destekleyebilir; ancak barış görüşmelerinin ilerlemesi ve çelişkili haber akışı bu etkiyi sınırlıyor.
+13.11 08:46 B5  SHORT gold 25000 USD x10 @ 3894.59 (TP 3882.91, SL 3902.38; news -0.35)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
