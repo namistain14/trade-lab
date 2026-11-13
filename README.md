@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:05 (İstanbul)
+> Son güncelleme: 13.11.2026 18:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %30.0 | %41.4 |
 | Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
 
-**Hesap değeri: 4,526.23 $** (başlangıç 5,000 $, -473.77 $ / %-9.48)
+**Hesap değeri: 4,543.44 $** (başlangıç 5,000 $, -456.56 $ / %-9.13)
 
 Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,891.49 $** (başlangıç 100,000 $, +15891.49 $ / %+15.89)
+**Hesap değeri: 115,824.74 $** (başlangıç 100,000 $, +15824.74 $ / %+15.82)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 17:32 B5  CLOSE short stop: -55.98 USD
-13.11 17:32 B6  karar turu: Claude «PPI beklentiye yakın ve hafif yumuşak gelse de Fed'in şahin tonu ve NVDA kaynaklı teknoloji zayıflığı piyasayı kararsız, Nasdaq'ı ise baskı altında tutuyor.» / GPT «Şahin Fed söylemi ve Nvidia kaynaklı baskı teknoloji tarafında seçici satışları desteklerken, dört kat kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı.»
 13.11 17:32 B6  AÇIĞA SATIŞ QQQ 165 adet ≈ 113,466 $ (1:4) @ 687.67 (TP 677.35, SL 694.55; ikisi de hemfikir, güven 0.50)
 13.11 17:32 B6  AÇIĞA SATIŞ NVDA 678 adet ≈ 113,796 $ (1:4) @ 167.84 (TP 165.32, SL 169.52; ikisi de hemfikir, güven 0.58)
 13.11 17:37 B6  CLOSE short NVDA take profit: +1722.12 USD
@@ -106,6 +104,8 @@ Son işlemler:
 13.11 18:04 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
 13.11 18:04 N  GPT  score -0.48 conf 0.66: Enflasyon ve Fed yetkililerinin açıklamaları faiz indirimi beklentilerini zayıflatıp daha şahin bir görünümü destekliyor; doların 19 ayın zirvesine yakın seyri altın üzerinde baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebi sağlayabilir, ancak kısa vadede bu baskıyı dengeleyece
 13.11 18:05 B5  SHORT gold 25000 USD x10 @ 3878.86 (TP 3867.23, SL 3886.62; news -0.54)
+13.11 18:08 B6  karar turu: Claude «Nvidia liderlik krizi ve şahin Fed söylemleri teknoloji ağırlıklı satış baskısı yaratıyor; piyasa gün içi zayıf seyrini koruyor.» / GPT «Piyasa yönü aşağı; ancak uzamış satışlar tepki riskini artırırken mevcut QQQ pozisyonuyla olası korelasyon nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
+13.11 18:08 B6  AÇIĞA SATIŞ TSLA 298 adet ≈ 115,552 $ (1:4) @ 387.76 (TP 381.94, SL 391.64; ikisi de hemfikir, güven 0.50)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
