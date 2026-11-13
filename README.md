@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 18:23 (İstanbul)
+> Son güncelleme: 13.11.2026 18:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %30.0 | %41.4 |
 | Ödenen komisyon/spread | 119.34 $ | 1318.79 $ |
 
-**Hesap değeri: 4,569.48 $** (başlangıç 5,000 $, -430.52 $ / %-8.61)
+**Hesap değeri: 4,581.85 $** (başlangıç 5,000 $, -418.15 $ / %-8.36)
 
 Açık pozisyonlar: PAXGUSDT short @ 3878.86 (TP 3867.23 / SL 3886.62)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,098.42 $** (başlangıç 100,000 $, +16098.42 $ / %+16.10)
+**Hesap değeri: 116,060.01 $** (başlangıç 100,000 $, +16060.01 $ / %+16.06)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 17:52 N  NEWS (15 new) score -0.60 conf 0.60: 
 13.11 17:52 N  GPT  score -0.48 conf 0.70: Fed’in enflasyonla mücadelede daha uzun süre sıkı kalabileceğine dair mesajlar ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor; ılımlı PPI bu etkiyi dengeleyememiş görünüyor. Jeopolitik riskler bir miktar güvenli liman talebi sağlayabilir, ancak yeni haberlerin altına etkisi sınırlı ve ka
 13.11 17:55 B6  karar turu: Claude «Nvidia krizi ve Goolsbee'nin şahin enflasyon yorumları teknoloji ağırlıklı piyasayı aşağı çekiyor; genel eğilim hafif negatif.» / GPT «Endekslerde aşağı yönlü ivme baskın; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı ve sert düşmüş NVDA kovalanmamalı.»
 13.11 18:04 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
@@ -106,6 +105,7 @@ Son işlemler:
 13.11 18:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 13.11 18:20 B6  karar turu: Claude «-» / GPT «-»
 13.11 18:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1A6D5nU7Bicw9ZZg5ww'}
+13.11 18:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AKifPQu53Q4CBBDBio'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
