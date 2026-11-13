@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 17:52 (İstanbul)
+> Son güncelleme: 13.11.2026 17:55 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %53.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,727.79 $** (başlangıç 100,000 $, +15727.79 $ / %+15.73)
+**Hesap değeri: 115,641.48 $** (başlangıç 100,000 $, +15641.48 $ / %+15.64)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); QQQ short @ 688.18 (TP 677.35 / SL 694.55)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 17:16 N  NEWS (11 new) score -0.35 conf 0.50: Üretici fiyatları (PPI) yıllık %6,5 ile yaklaşık dört yılın en yüksek seviyesine çıktı ve Fed'de faiz artırımı beklentileri güçleniyor; bu, ABD dolarını destekleyip reel faizleri yukarı iten bir ortam yaratarak altın için olumsuz. Buna karşılık İran'la artan çatışma haberleri jeopolitik talebi destekliyor, ancak bu etki büyük ölçüde fiyatlanmış durumda; Hazine Bakanı'nın Fed'e faiz artırmama çağrısı ve Goolsbee'nin enflasyon konusundaki sert tonu ise belirsizlik yaratıyor.
 13.11 17:16 N  GPT  score -0.28 conf 0.64: Yüksek ve kalıcı görünen üretici enflasyonu, Fed faiz artırımı beklentileri ve güçlenen dolar kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler destekleyici; ancak haber akışındaki karşıt sinyaller net düşüş beklentisini sınırlıyor.
 13.11 17:28 N  NEWS (11 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri, güçlü dolar (19 aylık zirve) ve yüksek PPI enflasyonu (yıllık %6,5) altın için baskı oluşturuyor; Goolsbee'nin sert açıklamaları da bunu destekliyor. Buna karşılık İran savaşı, Netanyahu'nun saldırı baskısı ve Bahreyn'deki saldırı jeopolitik talebi destekliyor, Hazine Bakanı'nın faiz artırımına karşı çıkması ise kısmen dovish bir sinyal. Sonuç olarak net etki hafif negatif, ancak sinyaller çelişkili olduğu için güven düşük.
 13.11 17:28 N  GPT  score -0.25 conf 0.56: Fed’in enflasyona karşı daha sıkı duruş sinyali ve doların güçlü seyri kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler destek sağlasa da haberlerin bir bölümü zaten fiyatlanmış; son yükseliş bu baskıyı kısmen dengeliyor.
@@ -104,6 +103,7 @@ Son işlemler:
 13.11 17:44 B6  ALIŞ AAPL 320 adet ≈ 115,146 $ (1:4) @ 359.83 (TP 365.23, SL 356.23; ikisi de hemfikir, güven 0.45)
 13.11 17:52 N  NEWS (15 new) score -0.60 conf 0.60: 
 13.11 17:52 N  GPT  score -0.48 conf 0.70: Fed’in enflasyonla mücadelede daha uzun süre sıkı kalabileceğine dair mesajlar ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor; ılımlı PPI bu etkiyi dengeleyememiş görünüyor. Jeopolitik riskler bir miktar güvenli liman talebi sağlayabilir, ancak yeni haberlerin altına etkisi sınırlı ve ka
+13.11 17:55 B6  karar turu: Claude «Nvidia krizi ve Goolsbee'nin şahin enflasyon yorumları teknoloji ağırlıklı piyasayı aşağı çekiyor; genel eğilim hafif negatif.» / GPT «Endekslerde aşağı yönlü ivme baskın; 1:4 kaldıraçta ilişkili kısa pozisyonların toplam riski sınırlanmalı ve sert düşmüş NVDA kovalanmamalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
