@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 10:41 (İstanbul)
+> Son güncelleme: 13.11.2026 10:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %25.0 | %41.9 |
 | Ödenen komisyon/spread | 47.72 $ | 1247.17 $ |
 
-**Hesap değeri: 4,627.77 $** (başlangıç 5,000 $, -372.23 $ / %-7.44)
+**Hesap değeri: 4,624.88 $** (başlangıç 5,000 $, -375.12 $ / %-7.50)
 
 Açık pozisyonlar: PAXGUSDT short @ 3890.44 (TP 3878.77 / SL 3898.22)
 
-Son haber analizi (13.11 10:32): Claude puan **-0.35**, güven 0.55 — Altın bir yılın en düşük seviyesine yakın işlem görüyor; Fed faiz artırımı beklentileri, güçlenen dolar ve yükselen ABD tahvil getirileri altın üzerinde baskı yaratıyor. İran savaşıyla ilgili jeopolitik risk safe-haven talebini destekliyor olsa da bu etki sınırlı kalıyor; ABD enflasyonunun hafif gerilemesi ve bekleyen PPI verisi kısa vadede oynaklık yaratabilir.
+Son haber analizi (13.11 10:44): Claude puan **-0.40**, güven 0.55 — Altın, bir yıllık dip yakınında (~3.850-3.900$) ve Fed faiz artırımı beklentileri ile yükselen ABD tahvil getirileri ve güçlü dolar nedeniyle baskı altında. Savaş kaynaklı güvenli liman talebi ise Trump'ın savaşın yakında bitebileceği açıklamasıyla zayıflıyor; ancak ABD PPI verisi ve İran'daki belirsizlik kısa vadede oynaklık yaratabilir, bu yüzden güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.22**, güven 0.46 — Güçlenen dolar, yükselen ABD getirileri ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı yaratıyor; düşük enflasyon haberi ve İran’da çatışmaların yeniden başlayabileceği riski ise bunu kısmen dengeliyor. Aşırı satım sonrası toparlanma ve yaklaşan ÜFE verisi yön konusunda belirsizl
+GPT (gpt-6-luna): puan **-0.30**, güven 0.58 — Güçlü dolar, yükselen getiriler ve Fed faiz artırımı beklentileri altını kısa vadede baskılıyor; PPI öncesi bu görünüm sürebilir. İran savaşına ilişkin çelişkili haberler güvenli liman talebini destekleyebilse de altının toparlanması ve aşırı satım görünümü düşüşü sınırlıyor.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 09:31 N  GPT  score -0.20 conf 0.48: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde baskı yaratıyor; haftalık düşüş sonrası gelen tepki alımları ise kısa vadeli kayıpları sınırlayabilir. Jeopolitik haberler destekleyici olsa da yeni ve belirleyici bir tırmanış görünmüyor, bu nedenle yön sinyali karışık.
-13.11 09:43 N  NEWS (4 new) score -0.40 conf 0.50: Altın 3.900 doların altına inip 13 aylık dibe yakın seviyelere geriledi; güçlü dolar, petrol kaynaklı enflasyon ve Fed faiz artırım riski altını baskılıyor. Ukrayna/İran jeopolitik gelişmeleri güvenli liman talebini sınırlı destekliyor, ayrıca PPI verisi ve bazı yerel fiyat haberleri çoğunlukla zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 13.11 09:43 N  GPT  score -0.30 conf 0.58: Doların güçlenmesi, enflasyon verisi öncesi faiz artışı beklentileri ve altındaki süregelen düşüş kısa vadede baskın biçimde negatif. Rusya yaptırımları ve düşük fiyatlardan alımlar destek sağlasa da etkileri sınırlı ve haber akışı çelişkili.
 13.11 09:49 B5  CLOSE short take profit: +69.05 USD
 13.11 09:55 N  NEWS (5 new) score -0.30 conf 0.45: Dolar gücü, Fed sıkılaşma riskleri ve petrol kaynaklı enflasyon endişeleri altını baskılıyor; altın 13 aylık dip yakınında ve ETF çıkışları sürüyor. Jeopolitik haberler (Ukrayna, İran savaşı, yaptırımlar) güvenli liman talebi yaratabilir, ancak bunlar büyük ölçüde fiyatlanmış durumda; PPI verisi ve haftalık kapanış belirsizliği nedeniyle güven düşük tutuldu.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 10:20 N  GPT  score -0.20 conf 0.38: Dolar ve ABD tahvil getirilerindeki yükseliş ile faiz artırımı beklentileri altın için kısa vadede baskı oluşturuyor. Enflasyonun gerilemesi ve savaş riskleri destekleyici olsa da, dipten toparlanma haberleriyle çelişen fiyat yönü görünümü belirsiz kılıyor.
 13.11 10:32 N  NEWS (8 new) score -0.35 conf 0.55: Altın bir yılın en düşük seviyesine yakın işlem görüyor; Fed faiz artırımı beklentileri, güçlenen dolar ve yükselen ABD tahvil getirileri altın üzerinde baskı yaratıyor. İran savaşıyla ilgili jeopolitik risk safe-haven talebini destekliyor olsa da bu etki sınırlı kalıyor; ABD enflasyonunun hafif gerilemesi ve bekleyen PPI verisi kısa vadede oynaklık yaratabilir.
 13.11 10:32 N  GPT  score -0.22 conf 0.46: Güçlenen dolar, yükselen ABD getirileri ve Fed faiz artırımı beklentileri altın üzerinde kısa vadeli baskı yaratıyor; düşük enflasyon haberi ve İran’da çatışmaların yeniden başlayabileceği riski ise bunu kısmen dengeliyor. Aşırı satım sonrası toparlanma ve yaklaşan ÜFE verisi yön konusunda belirsizl
+13.11 10:44 N  NEWS (8 new) score -0.40 conf 0.55: Altın, bir yıllık dip yakınında (~3.850-3.900$) ve Fed faiz artırımı beklentileri ile yükselen ABD tahvil getirileri ve güçlü dolar nedeniyle baskı altında. Savaş kaynaklı güvenli liman talebi ise Trump'ın savaşın yakında bitebileceği açıklamasıyla zayıflıyor; ancak ABD PPI verisi ve İran'daki belirsizlik kısa vadede oynaklık yaratabilir, bu yüzden güven orta düzeyde.
+13.11 10:44 N  GPT  score -0.30 conf 0.58: Güçlü dolar, yükselen getiriler ve Fed faiz artırımı beklentileri altını kısa vadede baskılıyor; PPI öncesi bu görünüm sürebilir. İran savaşına ilişkin çelişkili haberler güvenli liman talebini destekleyebilse de altının toparlanması ve aşırı satım görünümü düşüşü sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
