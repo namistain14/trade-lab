@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 03:37 (İstanbul)
+> Son güncelleme: 13.11.2026 03:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,668.34 $** (başlangıç 5,000 $, -331.66 $ / %-6.63)
 
-Son haber analizi (13.11 03:28): Claude puan **-0.60**, güven 0.60 — Fed yetkililerinin (Williams, Waller) enflasyon konusundaki sert ve sıkılaştırıcı mesajları ile güçlenen dolar, altını 1 yılın en düşük seviyesine ya da altına itiyor; İran savaşı kaynaklı güvenli liman talebi ise fiyatlarda yeterince yansımadığı için altı destekleyemiyor. PPI verisi öncesinde baskı sürebilir, ancak olay akışı tek yönlü olmadığı ve bazı haberler eski olduğu için güven orta düzeyde.
+Son haber analizi (13.11 03:40): Claude puan **-0.60**, güven 0.60 — Altın, enflasyon endişeleri ve güçlenen doların baskısıyla yıllık dip seviyesine (3900 doların altı) yakın işlem görüyor; Fed yetkililerinin (Williams, Waller) sıkı para politikası mesajları reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı devam ettiği halde güvenli liman talebi fiyatı desteklemiyor, bu da baskının sürdüğünü gösteriyor; ancak bazı başlıkların eski olması ve PPI verisi gibi kısa vadeli sürprizlerin yönü değiştirebilmesi güveni sınırlıyor.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.70 — Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın için baskı yaratıyor. Doların güçlenmesi ve altının önemli desteklerin altına gerilemesi kısa vadeli düşüş riskini artırıyor; ancak başlıkların bir kısmı aynı gelişmeleri 
+GPT (gpt-6-luna): puan **-0.58**, güven 0.66 — Altının 3.900 doların altına gerilemesi, doların güçlenmesi ve Fed yetkililerinin enflasyonun hâlâ yüksek olduğu mesajı kısa vadede aşağı yönlü baskıyı destekliyor. Trump’ın İran konusunda itidal çağrısı ve savaşın siyasi maliyetine vurgu da güvenli liman talebini sınırlayabilir; ancak bu haberlerin
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 02:15 N  NEWS (9 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri ve doların yıllık zirvelere yakın seyretmesi altın üzerinde güçlü baskı yaratıyor; altın 3900 doların altına inmiş durumda. İran savaşıyla ilgili yeni gelişmeler (müzakerelerin durdurulması) jeopolitik risk primi getirse de bu etki şu an faiz ve dolar etkisinin gerisinde kalıyor.
-13.11 02:15 N  GPT  score -0.45 conf 0.69: Fed’in şahin beklentileri ve doların yıllık zirveleri test etmesi, kısa vadede altın üzerinde güçlü baskı oluşturuyor; altın zaten sert düşüşte. İran müzakerelerindeki aksama güvenli liman talebini artırabilir, ancak etkisi şu an dolar ve faiz baskısını dengelemek için yetersiz görünüyor.
 13.11 02:27 N  NEWS (8 new) score -0.60 conf 0.70: Altın 1 yılın en düşük seviyesine yakın, 3.900 doların altında işlem görüyor; Fed faiz artırımı beklentileri, güçlenen dolar ve yükselen tahvil getirileri altını baskılıyor. Enflasyon endişeleri ve yaklaşan ABD PPI verisi kısa vadede volatiliteyi artırabilir, İran savaşı ise güvenli liman talebi yaratmadığı için destekleyici bir etki göstermiyor.
 13.11 02:27 N  GPT  score -0.68 conf 0.72: Fed’in daha şahin olacağı beklentisiyle dolar ve tahvil getirilerinin yükselmesi, altın için kısa vadede belirgin baskı yaratıyor; enflasyon kaygıları ve yaklaşan ÜFE verisi bu baskıyı artırabilir. Ancak altının düşüşü haberlerde zaten görülüyor ve İran kaynaklı jeopolitik riskler olası güvenli lima
 13.11 02:39 N  NEWS (8 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri ve güçlenen dolar/Treasury getirileri altını bir yıllık dibe kadar itti; enflasyon endişeleri ve yaklaşan ABD PPI verisi kısa vadede baskıyı sürdürebilir. İran savaşı ve hükümet kapanma riski gibi jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki baskın değil ve haberlerin çoğu zaten fiyatlanmış.
@@ -102,6 +100,8 @@ Son işlemler:
 13.11 03:16 N  GPT  score -0.70 conf 0.72: Doların güçlenmesi ve Fed’in daha şahin olabileceği beklentisi altın üzerinde belirgin kısa vadeli baskı yaratıyor; 3.900 doların altına iniş de aşağı yönlü momentumu destekliyor. İran savaşı kaynaklı güvenli liman talebi bu baskıyı kısmen dengeleyebilir, ancak haber akışı çoğunlukla aynı düşüş tema
 13.11 03:28 N  NEWS (8 new) score -0.60 conf 0.60: Fed yetkililerinin (Williams, Waller) enflasyon konusundaki sert ve sıkılaştırıcı mesajları ile güçlenen dolar, altını 1 yılın en düşük seviyesine ya da altına itiyor; İran savaşı kaynaklı güvenli liman talebi ise fiyatlarda yeterince yansımadığı için altı destekleyemiyor. PPI verisi öncesinde baskı sürebilir, ancak olay akışı tek yönlü olmadığı ve bazı haberler eski olduğu için güven orta düzeyde.
 13.11 03:28 N  GPT  score -0.65 conf 0.70: Williams’ın enflasyonun hâlâ fazla yüksek olduğunu vurgulaması, Fed’in faizleri yüksek tutacağı beklentisini güçlendirerek altın için baskı yaratıyor. Doların güçlenmesi ve altının önemli desteklerin altına gerilemesi kısa vadeli düşüş riskini artırıyor; ancak başlıkların bir kısmı aynı gelişmeleri 
+13.11 03:40 N  NEWS (4 new) score -0.60 conf 0.60: Altın, enflasyon endişeleri ve güçlenen doların baskısıyla yıllık dip seviyesine (3900 doların altı) yakın işlem görüyor; Fed yetkililerinin (Williams, Waller) sıkı para politikası mesajları reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı devam ettiği halde güvenli liman talebi fiyatı desteklemiyor, bu da baskının sürdüğünü gösteriyor; ancak bazı başlıkların eski olması ve PPI verisi gibi kısa vadeli sürprizlerin yönü değiştirebilmesi güveni sınırlıyor.
+13.11 03:40 N  GPT  score -0.58 conf 0.66: Altının 3.900 doların altına gerilemesi, doların güçlenmesi ve Fed yetkililerinin enflasyonun hâlâ yüksek olduğu mesajı kısa vadede aşağı yönlü baskıyı destekliyor. Trump’ın İran konusunda itidal çağrısı ve savaşın siyasi maliyetine vurgu da güvenli liman talebini sınırlayabilir; ancak bu haberlerin
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
