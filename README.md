@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 13:58 (İstanbul)
+> Son güncelleme: 13.11.2026 14:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %25.0 | %41.9 |
 | Ödenen komisyon/spread | 47.72 $ | 1247.17 $ |
 
-**Hesap değeri: 4,671.91 $** (başlangıç 5,000 $, -328.09 $ / %-6.56)
+**Hesap değeri: 4,679.05 $** (başlangıç 5,000 $, -320.95 $ / %-6.42)
 
 Açık pozisyonlar: PAXGUSDT short @ 3890.44 (TP 3878.77 / SL 3898.22)
 
-Son haber analizi (13.11 13:49): Claude puan **-0.50**, güven 0.60 — Şahin Fed beklentileri, yükselen ABD tahvil getirileri ve 19 aylık zirvesine yakın dolar, reel faizleri yukarı iterek altın için baskı oluşturuyor. Altın haftalık düşüşe gidiyor; ABD enflasyon verisi öncesinde sert bir hareket riski var, bu da güveni sınırlıyor. İran savaşındaki jeopolitik gerilim ise güvenli liman talebini destekliyor ama petrol arzı fazlası sinyali ve müzakere söylemleri bu etkiyi sınırlıyor.
+Son haber analizi (13.11 14:01): Claude puan **-0.50**, güven 0.60 — Enflasyonun beklentilerin üzerinde gelmesi, Fed faiz artırımı beklentilerini güçlendiriyor ve reel faizleri/doları yukarı taşıyor; bu altın için net olumsuz. İran gerilimi jeopolitik talebi desteklese de petrol arzının fazlaya geçtiği haberi ve ABD'nin "anlaşmaya ihtiyaç yok" söylemi güvenli liman primini sınırlıyor.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.62 — Yükselen ABD tahvil getirileri, şahin Fed beklentileri ve güçlü dolar kısa vadede altın üzerinde baskı yaratıyor; yaklaşan ABD enflasyon verisi öncesinde bu etki öne çıkabilir. İran ve Karadeniz kaynaklı riskler güvenli liman talebini desteklese de haberler net bir yeni tırmanış göstermiyor ve görün
+GPT (gpt-6-luna): puan **-0.55**, güven 0.72 — ABD enflasyonunun tahminleri aşması ve faiz artırımı beklentilerinin güçlenmesi, dolar ile getirileri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini artırabilir; petrol arz fazlası beklentisi ve haberlerin bir kısmının zaten fiyatlanmış olması 
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 12:33 N  NEWS (10 new) score -0.40 conf 0.60: Fed'in şahin tonu, yükselen ABD tahvil getirileri ve güçlenen doların altın üzerindeki baskısı, İran savaşına bağlı jeopolitik talebi geride bırakıyor. Altın 13 aylık dip seviyesinden toparlansa da faiz artırımı beklentileri ve PPI verisi öncesi dolar talebi kısa vadede aşağı yönlü riski koruyor; ancak PPI verisinin beklentiden zayıf çıkması ve jeopolitik gerilim haberleri sert düşüşü sınırlayabilir.
-13.11 12:33 N  GPT  score -0.55 conf 0.66: Hawkish Fed beklentileri, yükselen ABD getirileri ve güçlenen dolar kısa vadede altını baskılıyor; yaklaşan ABD ÜFE verisi de oynaklığı artırabilir. Yemen yaptırımları ve İran’daki çıkmaz güvenli liman talebini desteklese de yeni ve belirgin bir tırmanış sinyali vermiyor.
 13.11 12:45 N  NEWS (10 new) score -0.45 conf 0.60: Piyasa tablosu altın için olumsuz: Fed'in şahin duruşu, yükselen ABD tahvil getirileri ve Fed faiz artırımı bahislerinin güçlenmesi reel faizleri ve doları yukarı itiyor. Buna karşılık altın 13 aylık dibinden toparlanma sinyali veriyor ve İran savaşı nedeniyle güvenli liman talebi sürüyor, bu da düşüşü sınırlayabilir.
 13.11 12:45 N  GPT  score -0.30 conf 0.48: Fed’in şahin beklentileri, yükselen ABD getirileri ve güçlü dolar altın üzerinde baskı yaratıyor; yaklaşan enflasyon verisi de kısa vadeli temkinliliği artırıyor. Yemen yaptırımları ve Rusya’daki saldırı güvenli liman talebini desteklese de, haber akışı karışık ve etkisi sınırlı görünüyor.
 13.11 12:57 N  NEWS (9 new) score -0.35 conf 0.50: Baskın etki faiz ve dolar kanalından geliyor: Fed'in şahin duruşu, yükselen ABD tahvil getirileri ve güçlenen dolar altın için olumsuz. Savaş kaynaklı güvenli liman talebi ve İran anlaşmasının çıkmazı kısmen destek sağlıyor, ancak bu etki yüksek reel faiz baskısıyla dengeleniyor. Çelişkili ve bazı eski haber başlıklarının olması güveni düşürüyor; ABD PPI verisi kısa vadeli yönü değiştirebilir.
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 13:37 N  GPT  score -0.35 conf 0.63: Fed kaynaklı dolar ve tahvil getirilerindeki yükseliş, yaklaşan ABD enflasyon verisi öncesinde altın üzerinde kısa vadeli baskı yaratıyor. Karadeniz ve İran kaynaklı riskler güvenli liman talebini desteklese de etkileri bu aşamada sınırlı; enflasyon verisi öncesi yön belirsizliği yüksek.
 13.11 13:49 N  NEWS (4 new) score -0.50 conf 0.60: Şahin Fed beklentileri, yükselen ABD tahvil getirileri ve 19 aylık zirvesine yakın dolar, reel faizleri yukarı iterek altın için baskı oluşturuyor. Altın haftalık düşüşe gidiyor; ABD enflasyon verisi öncesinde sert bir hareket riski var, bu da güveni sınırlıyor. İran savaşındaki jeopolitik gerilim ise güvenli liman talebini destekliyor ama petrol arzı fazlası sinyali ve müzakere söylemleri bu etkiyi sınırlıyor.
 13.11 13:49 N  GPT  score -0.35 conf 0.62: Yükselen ABD tahvil getirileri, şahin Fed beklentileri ve güçlü dolar kısa vadede altın üzerinde baskı yaratıyor; yaklaşan ABD enflasyon verisi öncesinde bu etki öne çıkabilir. İran ve Karadeniz kaynaklı riskler güvenli liman talebini desteklese de haberler net bir yeni tırmanış göstermiyor ve görün
+13.11 14:01 N  NEWS (7 new) score -0.50 conf 0.60: Enflasyonun beklentilerin üzerinde gelmesi, Fed faiz artırımı beklentilerini güçlendiriyor ve reel faizleri/doları yukarı taşıyor; bu altın için net olumsuz. İran gerilimi jeopolitik talebi desteklese de petrol arzının fazlaya geçtiği haberi ve ABD'nin "anlaşmaya ihtiyaç yok" söylemi güvenli liman primini sınırlıyor.
+13.11 14:01 N  GPT  score -0.55 conf 0.72: ABD enflasyonunun tahminleri aşması ve faiz artırımı beklentilerinin güçlenmesi, dolar ile getirileri destekleyerek altın üzerinde kısa vadeli baskı yaratıyor. İran kaynaklı gerilim güvenli liman talebini artırabilir; petrol arz fazlası beklentisi ve haberlerin bir kısmının zaten fiyatlanmış olması 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
