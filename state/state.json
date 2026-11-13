@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    5000.0
-   ],
-   [
     1794062019,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794584676,
+    5000.0
+   ],
+   [
+    1794584854,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    4868.5
-   ],
-   [
     1794062019,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794584676,
+    4868.5
+   ],
+   [
+    1794584854,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "12.11 19:09 B6  karar turu: Claude \u00abPiyasa, Nvidia \u015fokunu sindirip teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde \u00f6\u011fleden \u00f6nce toparlan\u0131yor.\u00bb / GPT \u00abEndekslerde y\u00fckseli\u015f momentumu s\u00fcr\u00fcyor ancak NVIDIA kaynakl\u0131 haber riski ve mevcut endeks pozisyonlar\u0131 toplam kald\u0131ra\u00e7ta \u00f6l\u00e7\u00fcl\u00fc kalmay\u0131 gerektiriyor.\u00bb",
   "12.11 19:12 N  NEWS (8 new) score -0.70 conf 0.70: Alt\u0131n, Fed'in s\u0131k\u0131la\u015ft\u0131rma beklentileri, reel faizlerin y\u00fckselmesi ve g\u00fc\u00e7lenen dolar\u0131n bask\u0131s\u0131yla 3.900 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; Fed yetkililerinin kademeli faiz art\u0131r\u0131m\u0131n\u0131 desteklemesi ve ABD enflasyon verileri k\u0131sa vadede alt\u0131n i\u00e7in net olumsuz. Ukrayna'daki bar\u0131\u015f g\u00f6r\u00fc\u015fmeleri ve \u0130ran gerilimine ili\u015fkin haberler ise g\u00fcvenli liman talebini art\u0131rm\u0131yor, bu y\u00fczden yukar\u0131 y\u00f6nl\u00fc destek zay\u0131f.",
   "12.11 19:12 N  GPT  score -0.58 conf 0.72: Fed\u2019in daha s\u0131k\u0131 politika beklentileri ve y\u00fckselen reel getiriler dolar\u0131 destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; fiyat\u0131n 3.900 dolar\u0131n alt\u0131na sert d\u00fc\u015fmesi k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu g\u00fc\u00e7lendiriyor. Ancak sat\u0131\u015flar\u0131n \u00f6nemli k\u0131sm\u0131 ger\u00e7ekle\u015fmi\u015f olabilir ve Cuma g\u00fcnk\u00fc \u00fcretici enflasyonu \u00f6nces",
   "12.11 19:12 B5  SHORT gold 25000 USD x10 @ 3876.39 (TP 3864.77, SL 3884.15; news -0.64)",
@@ -30167,7 +30166,8 @@
   "13.11 18:44 B5  SHORT gold 25000 USD x10 @ 3867.54 (TP 3855.93, SL 3875.27; news -0.54)",
   "13.11 18:44 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "13.11 18:44 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "13.11 18:44 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
+  "13.11 18:44 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
+  "13.11 18:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BvQrAFLTj7phTPLqNn'}"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    4963.78
-   ],
-   [
     1794062019,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794584676,
+    4963.78
+   ],
+   [
+    1794584854,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    4975.18
-   ],
-   [
     1794062019,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794584676,
+    4975.18
+   ],
+   [
+    1794584854,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    4993.28
-   ],
-   [
     1794062019,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794584676,
+    4993.28
+   ],
+   [
+    1794584854,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794061839,
-    4969.22
-   ],
-   [
     1794062019,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794584676,
+    4969.22
+   ],
+   [
+    1794584854,
     4969.22
    ]
   ],
@@ -81144,10 +81144,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794061839,
-    4544.23
-   ],
    [
     1794062019,
     4544.23
@@ -93143,6 +93139,10 @@
    [
     1794584676,
     4595.27
+   ],
+   [
+    1794584854,
+    4567.48
    ]
   ],
   "news_calls": {
@@ -93350,7 +93350,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 116600.21000000002,
+   "balance": 116598.72,
    "start": 100000.0,
    "positions": [
     {
@@ -93365,7 +93365,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 358.32
+     "cur": 358.97
     },
     {
      "id": "bf1b0c8e-cb69-446c-bba8-547ca7a491e5",
@@ -93379,7 +93379,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: xAI Grok ekibi haberi ve Texas denetim riskiyle d\u00fc\u015fen tepeler devam ediyor; zay\u0131f toparlanmalar sat\u0131l\u0131yor. | GPT 0.61: Zay\u0131f tepki al\u0131mlar\u0131 ve yeniden dip b\u00f6lgesine d\u00f6n\u00fc\u015f, d\u00fczenleyici inceleme haberinin de bask\u0131s\u0131yla d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131na s\u0131n\u0131rl\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 388.165
+     "cur": 388.27
     }
    ],
    "trades": [
@@ -94214,18 +94214,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 1940.62,
+    "pnl": 2115.84,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115876.63
+   "equity": 116051.85
   },
   "equity_curve": [
-   [
-    1794061839,
-    109993.83
-   ],
    [
     1794062019,
     109993.83
@@ -106221,6 +106217,10 @@
    [
     1794584676,
     115876.63
+   ],
+   [
+    1794584854,
+    116051.85
    ]
   ],
   "open": {
@@ -106314,7 +106314,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "94568.28",
+   "buying_power": "94954",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106426,10 +106426,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794061839,
-    4944.42
-   ],
    [
     1794062019,
     4944.42
@@ -118424,6 +118420,10 @@
    ],
    [
     1794584676,
+    4876.96
+   ],
+   [
+    1794584854,
     4876.96
    ]
   ],
