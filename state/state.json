@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    5000.0
-   ],
-   [
     1794060191,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794582691,
+    5000.0
+   ],
+   [
+    1794582871,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    4868.5
-   ],
-   [
     1794060191,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794582691,
+    4868.5
+   ],
+   [
+    1794582871,
     4868.5
    ]
   ],
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    4963.78
-   ],
-   [
     1794060191,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794582691,
+    4963.78
+   ],
+   [
+    1794582871,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    4975.18
-   ],
-   [
     1794060191,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794582691,
+    4975.18
+   ],
+   [
+    1794582871,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    4993.28
-   ],
-   [
     1794060191,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794582691,
+    4993.28
+   ],
+   [
+    1794582871,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794060014,
-    4969.22
-   ],
-   [
     1794060191,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794582691,
+    4969.22
+   ],
+   [
+    1794582871,
     4969.22
    ]
   ],
@@ -81123,10 +81123,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794060014,
-    4544.23
-   ],
    [
     1794060191,
     4544.23
@@ -93122,6 +93118,10 @@
    [
     1794582691,
     4526.29
+   ],
+   [
+    1794582871,
+    4506.63
    ]
   ],
   "news_calls": {
@@ -93329,7 +93329,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 116598.71979999999,
+   "balance": 116622.98000000001,
    "start": 100000.0,
    "positions": [
     {
@@ -93344,7 +93344,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 358.285
+     "cur": 357.698
     },
     {
      "id": "bf1b0c8e-cb69-446c-bba8-547ca7a491e5",
@@ -93358,7 +93358,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: xAI Grok ekibi haberi ve Texas denetim riskiyle d\u00fc\u015fen tepeler devam ediyor; zay\u0131f toparlanmalar sat\u0131l\u0131yor. | GPT 0.61: Zay\u0131f tepki al\u0131mlar\u0131 ve yeniden dip b\u00f6lgesine d\u00f6n\u00fc\u015f, d\u00fczenleyici inceleme haberinin de bask\u0131s\u0131yla d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131na s\u0131n\u0131rl\u0131 avantaj sa\u011fl\u0131yor.",
-     "cur": 387.2151
+     "cur": 388.0
     }
    ],
    "trades": [
@@ -94193,18 +94193,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 2211.0,
+    "pnl": 1813.52,
     "trades": 7,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 116147.01
+   "equity": 115749.53
   },
   "equity_curve": [
-   [
-    1794060014,
-    109993.83
-   ],
    [
     1794060191,
     109993.83
@@ -106200,6 +106196,10 @@
    [
     1794582691,
     116147.01
+   ],
+   [
+    1794582871,
+    115749.53
    ]
   ],
   "open": {
@@ -106293,7 +106293,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "96226.4",
+   "buying_power": "94450.8",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794060014,
-    4944.42
-   ],
    [
     1794060191,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794582691,
+    4876.96
+   ],
+   [
+    1794582871,
     4876.96
    ]
   ],
