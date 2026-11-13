@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 19:24 (İstanbul)
+> Son güncelleme: 13.11.2026 19:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -123.07 $ | -398.76 $ |
-| İşlem sayısı | 11 | 112 |
-| Kazanma oranı | %36.4 | %42.0 |
-| Ödenen komisyon/spread | 131.27 $ | 1330.73 $ |
+| Net kâr/zarar | -179.05 $ | -454.74 $ |
+| İşlem sayısı | 12 | 113 |
+| Kazanma oranı | %33.3 | %41.6 |
+| Ödenen komisyon/spread | 143.21 $ | 1342.67 $ |
 
-**Hesap değeri: 4,574.78 $** (başlangıç 5,000 $, -425.22 $ / %-8.50)
-
-Açık pozisyonlar: PAXGUSDT short @ 3867.54 (TP 3855.93 / SL 3875.27)
+**Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
 Son haber analizi (13.11 18:04): Claude puan **-0.60**, güven 0.70 — Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 19:25 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 18:39 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 17:32 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:56 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:31 | PAXGUSDT | short | -55.98 $ | stop |
-| 13.11 16:19 | PAXGUSDT | short | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -74,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %54.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,616.31 $** (başlangıç 100,000 $, +15616.31 $ / %+15.62)
+**Hesap değeri: 115,088.19 $** (başlangıç 100,000 $, +15088.19 $ / %+15.09)
 
 Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
 
@@ -91,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 19:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1CtUYxgboBKoNwi8Ezc'}
-13.11 19:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1D7RXWSFw1h8mSApZmQ'}
 13.11 19:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1DLhhDVXjhALCsjyzRS'}
 13.11 19:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1DZzQfewJUfSs2G5jc5'}
 13.11 19:09 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
@@ -106,6 +102,8 @@ Son işlemler:
 13.11 19:21 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 13.11 19:21 B6  karar turu: Claude «-» / GPT «-»
 13.11 19:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1EiMM5gvJui5Aky4JFV'}
+13.11 19:27 B5  CLOSE short stop: -55.98 USD
+13.11 19:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1EwbSGPj5bxStXHxYAr'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
