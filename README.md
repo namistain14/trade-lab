@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 20:06 (İstanbul)
+> Son güncelleme: 13.11.2026 20:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -67,33 +67,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +3473.25 $ | +14156.94 $ |
-| İşlem sayısı | 2 | 46 |
-| Kazanma oranı | %100.0 | %54.3 |
+| Net kâr/zarar | +2303.76 $ | +12987.45 $ |
+| İşlem sayısı | 3 | 47 |
+| Kazanma oranı | %66.7 | %53.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,067.11 $** (başlangıç 100,000 $, +15067.11 $ / %+15.07)
+**Hesap değeri: 114,957.54 $** (başlangıç 100,000 $, +14957.54 $ / %+14.96)
 
-Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23); TSLA short @ 387.45 (TP 381.94 / SL 391.64)
+Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 20:09 | TSLA | short | -1169.49 $ | stop |
 | 13.11 18:11 | QQQ | short | +1751.13 $ | take profit |
 | 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
 | 12.11 23:46 | SPY | long | -466.64 $ | seans sonu |
 | 12.11 23:46 | QQQ | long | +93.52 $ | seans sonu |
-| 12.11 23:21 | TSLA | long | +774.55 $ | take profit |
 
 ## Son olaylar
 
 ```
-13.11 19:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1G96UgoDMYVVzEpLRfh'}
-13.11 19:45 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1GNJR9dgXe16oLNa1dG'}
-13.11 19:45 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
-13.11 19:45 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
-13.11 19:45 B6  karar turu: Claude «-» / GPT «-»
 13.11 19:48 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1GbZe3kFSepGcoSq5TB'}
 13.11 19:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1GprFnz3n9Lpgas92bU'}
 13.11 19:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1H44oTsQr79zUquZa6B'}
@@ -104,6 +99,11 @@ Son işlemler:
 13.11 20:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HWdLHCnBA7sUGfmyWP'}
 13.11 20:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Hjuq51ZV8jsCGaRozM'}
 13.11 20:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HyCMrfTEA5ZYiVvMaX'}
+13.11 20:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1JCTFAoUsysnrKcdsKc'}
+13.11 20:09 B6  CLOSE short TSLA stop: -1169.49 USD
+13.11 20:09 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
+13.11 20:09 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+13.11 20:09 B6  karar turu: Claude «-» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
