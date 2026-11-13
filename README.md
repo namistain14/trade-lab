@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 03:12 (İstanbul)
+> Son güncelleme: 13.11.2026 03:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,9 @@
 
 **Hesap değeri: 4,668.34 $** (başlangıç 5,000 $, -331.66 $ / %-6.63)
 
-Son haber analizi (13.11 03:04): Claude puan **-0.70**, güven 0.70 — Haberler güçlü biçimde altın için negatif: Fed'in Waller'ın yarım puanlık faiz artırımını gündeme getirmesi, sıcak enflasyon verisi ve doların yılın zirvesine yakın seyretmesi altını bir yıllık dip seviyesine (3.900 doların altına) itiyor. İran savaşının sona yaklaştığına dair sinyaller de güvenli liman talebini zayıflatıyor; ancak fiyat hareketinin büyük kısmı zaten yansımış olabileceğinden güven orta düzeyde tutuldu.
+Son haber analizi (13.11 03:16): Claude puan **-0.70**, güven 0.70 — Altın, Fed'in faiz artırımı beklentileri, güçlenen dolar ve yükselen Treasury getirileri nedeniyle bir yıllık en düşük seviyelerin altına indi; bu tablo kısa vadede baskılayıcı. İran savaşı başlıklarının çoğu eski veya çelişkili ve Trump'ın yeni bir saldırı olasılığını düşürmesi güvenli liman talebini de zayıflatıyor; yakın vadeli PPI verisi ise volatiliteyi artırabilir.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.68 — Waller’ın sıcak enflasyon sonrası yarım puanlık faiz artışını gündeme getirmesi ve doların güçlü seyri, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor. İran cephesindeki belirsiz fakat sınırlı gerilim desteğine karşın altının zaten sert düşmüş olması ek düşüş sinyalinin gücünü azalt
+GPT (gpt-6-luna): puan **-0.70**, güven 0.72 — Doların güçlenmesi ve Fed’in daha şahin olabileceği beklentisi altın üzerinde belirgin kısa vadeli baskı yaratıyor; 3.900 doların altına iniş de aşağı yönlü momentumu destekliyor. İran savaşı kaynaklı güvenli liman talebi bu baskıyı kısmen dengeleyebilir, ancak haber akışı çoğunlukla aynı düşüş tema
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 01:50 N  NEWS (5 new) score -0.60 conf 0.65: Faiz artırımı beklentilerinin yükselmesi, dolar endeksinin yıllık zirveye çıkması ve altının 3900 doların altına inmesi kısa vadede altın için belirgin bir baskı oluşturuyor. Fed'in Daly gibi yetkililerinin daha fazla sıkılaştırma sinyali vermesi ve İran savaşına dair jeopolitik risklerin ise güvenli liman talebini sınırlı artırması, bu baskıyı tam olarak dengelemiyor.
-13.11 01:50 N  GPT  score -0.65 conf 0.68: Doların güçlenmesi ve Fed’in faiz artırımı beklentilerinin yükselmesi, altın için kısa vadede belirgin baskı oluşturuyor. Yeni İran ve Rusya başlıkları doğrudan bir tırmanış haberi değil; Rusya-Ukrayna görüşmelerinin sürmesi de güvenli liman talebini sınırlayabilir.
 13.11 02:03 N  NEWS (6 new) score -0.70 conf 0.72: Fed faiz artırımı beklentileri ve doların 19 aylık zirvesi altın üzerinde güçlü bir baskı yaratıyor; altın 1 yılın dibine inerek 3900 doların altına düştü. Iran savaşı ile ilgili jeopolitik haberler güvenli liman talebini destekleyebilir, ancak bu etki mevcut sıkılaşma ve dolar momentumunun gerisinde kalıyor.
 13.11 02:03 N  GPT  score -0.75 conf 0.78: Fed’in faiz artırımı beklentilerinin güçlenmesi dolar ve tahvil getirilerini yükseltiyor; altındaki sert düşüş kısa vadeli aşağı yönlü momentumu destekliyor. İran’a ilişkin gerilim güvenli liman talebini artırabilir, ancak bu akışta yeni ve belirleyici bir tırmanış görünmüyor; düşüşün bir kısmı da z
 13.11 02:15 N  NEWS (9 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri ve doların yıllık zirvelere yakın seyretmesi altın üzerinde güçlü baskı yaratıyor; altın 3900 doların altına inmiş durumda. İran savaşıyla ilgili yeni gelişmeler (müzakerelerin durdurulması) jeopolitik risk primi getirse de bu etki şu an faiz ve dolar etkisinin gerisinde kalıyor.
@@ -102,6 +100,8 @@ Son işlemler:
 13.11 03:04 N  NEWS (5 new) score -0.70 conf 0.70: Haberler güçlü biçimde altın için negatif: Fed'in Waller'ın yarım puanlık faiz artırımını gündeme getirmesi, sıcak enflasyon verisi ve doların yılın zirvesine yakın seyretmesi altını bir yıllık dip seviyesine (3.900 doların altına) itiyor. İran savaşının sona yaklaştığına dair sinyaller de güvenli liman talebini zayıflatıyor; ancak fiyat hareketinin büyük kısmı zaten yansımış olabileceğinden güven orta düzeyde tutuldu.
 13.11 03:04 N  GPT  score -0.65 conf 0.68: Waller’ın sıcak enflasyon sonrası yarım puanlık faiz artışını gündeme getirmesi ve doların güçlü seyri, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor. İran cephesindeki belirsiz fakat sınırlı gerilim desteğine karşın altının zaten sert düşmüş olması ek düşüş sinyalinin gücünü azalt
 13.11 03:06 B5  CLOSE short stop: -55.98 USD
+13.11 03:16 N  NEWS (8 new) score -0.70 conf 0.70: Altın, Fed'in faiz artırımı beklentileri, güçlenen dolar ve yükselen Treasury getirileri nedeniyle bir yıllık en düşük seviyelerin altına indi; bu tablo kısa vadede baskılayıcı. İran savaşı başlıklarının çoğu eski veya çelişkili ve Trump'ın yeni bir saldırı olasılığını düşürmesi güvenli liman talebini de zayıflatıyor; yakın vadeli PPI verisi ise volatiliteyi artırabilir.
+13.11 03:16 N  GPT  score -0.70 conf 0.72: Doların güçlenmesi ve Fed’in daha şahin olabileceği beklentisi altın üzerinde belirgin kısa vadeli baskı yaratıyor; 3.900 doların altına iniş de aşağı yönlü momentumu destekliyor. İran savaşı kaynaklı güvenli liman talebi bu baskıyı kısmen dengeleyebilir, ancak haber akışı çoğunlukla aynı düşüş tema
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
