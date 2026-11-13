@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 23:30 (İstanbul)
+> Son güncelleme: 13.11.2026 23:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -67,30 +67,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +2303.76 $ | +12987.45 $ |
-| İşlem sayısı | 3 | 47 |
-| Kazanma oranı | %66.7 | %53.2 |
+| Net kâr/zarar | +1148.78 $ | +11832.47 $ |
+| İşlem sayısı | 4 | 48 |
+| Kazanma oranı | %50.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,275.94 $** (başlangıç 100,000 $, +14275.94 $ / %+14.28)
-
-Açık pozisyonlar: AAPL long @ 359.92 (TP 365.23 / SL 356.23)
+**Hesap değeri: 114,154.56 $** (başlangıç 100,000 $, +14154.56 $ / %+14.15)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 23:33 | AAPL | long | -1154.98 $ | stop |
 | 13.11 20:09 | TSLA | short | -1169.49 $ | stop |
 | 13.11 18:11 | QQQ | short | +1751.13 $ | take profit |
 | 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
 | 12.11 23:46 | SPY | long | -466.64 $ | seans sonu |
-| 12.11 23:46 | QQQ | long | +93.52 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-13.11 23:00 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
-13.11 23:00 B6  karar turu: Claude «-» / GPT «-»
 13.11 23:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1XQUDYydkzxDfhLKyrv'}
 13.11 23:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1XdjCZqJ9nwpugtxZ4C'}
 13.11 23:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Xs17QUfNhkpjrhACnS'}
@@ -104,6 +100,8 @@ Son işlemler:
 13.11 23:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Z1KTZBTjuJVG8m6bf8'}
 13.11 23:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1ZEa8xDuho1oJyrUXKM'}
 13.11 23:30 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1ZTun1oAE74MvWnHSYg'}
+13.11 23:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1ZhAn2b1QYmv4z1pD8f'}
+13.11 23:33 B6  CLOSE long AAPL stop: -1154.98 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
