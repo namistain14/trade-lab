@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794073464,
-    5000.0
-   ],
-   [
     1794073644,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794596342,
+    5000.0
+   ],
+   [
+    1794596519,
     5000.0
    ]
   ],
@@ -13865,12 +13865,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1794589200000,
-   "ETHUSDT": 1794589200000,
-   "SOLUSDT": 1794589200000,
-   "BNBUSDT": 1794589200000,
-   "XRPUSDT": 1794589200000,
-   "DOGEUSDT": 1794589200000
+   "BTCUSDT": 1794592800000,
+   "ETHUSDT": 1794592800000,
+   "SOLUSDT": 1794592800000,
+   "BNBUSDT": 1794592800000,
+   "XRPUSDT": 1794592800000,
+   "DOGEUSDT": 1794592800000
   }
  },
  "gold_news": {
@@ -15086,10 +15086,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794073464,
-    4868.5
-   ],
    [
     1794073644,
     4868.5
@@ -27084,6 +27080,10 @@
    ],
    [
     1794596342,
+    4868.5
+   ],
+   [
+    1794596519,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "13.11 05:29 N  NEWS (8 new) score -0.60 conf 0.70: G\u00fc\u00e7l\u00fc dolar (19 ayl\u0131k zirve), Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve 96 dolarl\u0131k petrol enflasyon endi\u015felerini art\u0131rarak alt\u0131 bask\u0131l\u0131yor; alt\u0131n 13 ayl\u0131k dip yak\u0131n\u0131nda. \u0130ran sava\u015f\u0131 ve jeopolitik risk safe-haven talebini s\u0131n\u0131rl\u0131 destekliyor ancak bask\u0131n etki negatif.",
   "13.11 05:29 N  GPT  score -0.55 conf 0.68: G\u00fc\u00e7l\u00fc dolar, y\u00fckselen tahvil getirileri ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran ve Rusya-Ukrayna sava\u015flar\u0131n\u0131 sona erdirme \u00e7abalar\u0131 g\u00fcvenli liman talebini de s\u0131n\u0131rlayabilir; ancak bu geli\u015fmelerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
   "13.11 05:41 N  NEWS (16 new) score -0.65 conf 0.60: Dolar 19 ayl\u0131k zirvesine yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor; petrol 96 dolar civar\u0131nda enflasyon kayg\u0131s\u0131n\u0131 besliyor. Alt\u0131n 3.900 dolar\u0131n alt\u0131na inip 13 ayl\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor. Trump'\u0131n \u0130ran anla\u015fmas\u0131na gerek olmad\u0131\u011f\u0131 y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Bekleyen ABD PPI verisi k\u0131sa vadede s\u00fcrpriz yaratabilece\u011finden g\u00fcven orta d\u00fczeyde tutuldu.",
   "13.11 05:41 N  GPT  score -0.70 conf 0.78: Dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131, ABD tahvil getirileri ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n\u0131 \u00f6n\u00fcm\u00fczdeki saatlerde bask\u0131l\u0131yor; fiyat\u0131n 3.900 dolar\u0131n alt\u0131na gerilemesi de bu g\u00f6r\u00fcn\u00fcm\u00fc destekliyor. \u0130ran kaynakl\u0131 jeopolitik risk ve dipten toparlanma olas\u0131l\u0131\u011f\u0131 d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir.",
@@ -30167,7 +30166,8 @@
   "13.11 21:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1SX9BgtAFY7osRi1aEB'}",
   "13.11 21:59 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "13.11 21:59 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "13.11 21:59 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
+  "13.11 21:59 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
+  "13.11 22:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1SkJzAAiKAiPR7dx3Az'}"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794073464,
-    4963.78
-   ],
-   [
     1794073644,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794596342,
+    4963.78
+   ],
+   [
+    1794596519,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794073464,
-    4975.18
-   ],
-   [
     1794073644,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794596342,
+    4975.18
+   ],
+   [
+    1794596519,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794073464,
-    4993.28
-   ],
-   [
     1794073644,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794596342,
+    4993.28
+   ],
+   [
+    1794596519,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794073464,
-    4969.22
-   ],
-   [
     1794073644,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794596342,
+    4969.22
+   ],
+   [
+    1794596519,
     4969.22
    ]
   ],
@@ -81149,10 +81149,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794073464,
-    4544.23
-   ],
    [
     1794073644,
     4544.23
@@ -93148,6 +93144,10 @@
    [
     1794596342,
     4545.26
+   ],
+   [
+    1794596519,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -93370,7 +93370,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji zay\u0131fl\u0131\u011f\u0131na ra\u011fmen g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor, NVDA'dan \u00e7\u0131kan para g\u00fcvenli b\u00fcy\u00fck teknolojiye kayabilir. | GPT 0.65: Zay\u0131flayan teknoloji piyasas\u0131na ra\u011fmen y\u00fckseli\u015fini korumas\u0131 ve zirve yak\u0131n\u0131ndaki tutunmas\u0131 al\u0131m y\u00f6n\u00fcnde g\u00f6reli g\u00fc\u00e7 sa\u011fl\u0131yor.",
-     "cur": 358.395
+     "cur": 358.25
     }
    ],
    "trades": [
@@ -94223,18 +94223,14 @@
    ],
    "day": {
     "date": "2026-11-13",
-    "pnl": 914.33,
+    "pnl": 867.93,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114850.34
+   "equity": 114803.94
   },
   "equity_curve": [
-   [
-    1794073464,
-    109993.83
-   ],
    [
     1794073644,
     109993.83
@@ -106230,6 +106226,10 @@
    [
     1794596342,
     114850.34
+   ],
+   [
+    1794596519,
+    114803.94
    ]
   ],
   "open": {
@@ -106312,7 +106312,7 @@
   "premarket_day": "2026-11-13",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "321777.68",
+   "buying_power": "321647.76",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106424,10 +106424,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794073464,
-    4944.42
-   ],
    [
     1794073644,
     4944.42
@@ -118422,6 +118418,10 @@
    ],
    [
     1794596342,
+    4876.96
+   ],
+   [
+    1794596519,
     4876.96
    ]
   ],
