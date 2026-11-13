@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 09:04 (İstanbul)
+> Son güncelleme: 13.11.2026 09:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.7 |
 | Ödenen komisyon/spread | 23.86 $ | 1223.31 $ |
 
-**Hesap değeri: 4,618.15 $** (başlangıç 5,000 $, -381.85 $ / %-7.64)
+**Hesap değeri: 4,653.20 $** (başlangıç 5,000 $, -346.80 $ / %-6.94)
 
 Açık pozisyonlar: PAXGUSDT short @ 3894.59 (TP 3882.91 / SL 3902.38)
 
-Son haber analizi (13.11 08:55): Claude puan **-0.60**, güven 0.60 — Faiz artırımı beklentileri (Fed'den Williams'ın daha fazla artırım sinyali), güçlenen dolar (DXY 19 aylık zirvede) ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı oluşturuyor; altın 13 aylık dibe geriledi. İran'ın ABD radar sahasını hedef aldığı haberi jeopolitik risk yaratsa da güvenli liman talebini tek başına öne çıkarmıyor. Bu nedenle kısa vadede negatif eğilim hakim, ancak ABD enflasyon verisi ve alım fırsatları yönü değiştirebilir.
+Son haber analizi (13.11 09:07): Claude puan **-0.60**, güven 0.65 — Dolar endeksi yaklaşık 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor; Williams daha fazla faiz artırımına işaret ediyor, bu da altın için net bir baskı oluşturuyor. Altın 13 aylık dip seviyesine yakın işlem görürken, ABD PPI verisi öncesi satış baskısı sürüyor. Jeopolitik risk (İran) altına destek verebilir, ancak güvenli liman talebi dolar ve faiz etkisinin gerisinde kalıyor; bazı haberlerin eski veya çelişkili olması güveni biraz düşürüyor.
 
-GPT (gpt-6-luna): puan **-0.48**, güven 0.68 — Fed’den Williams’ın enflasyonun kalıcılığı nedeniyle daha fazla faiz artışına işaret etmesi ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş beklentisi temkinli.
+GPT (gpt-6-luna): puan **-0.55**, güven 0.66 — Doların iki ayın en iyi haftasına yönelmesi ve kalıcı enflasyon nedeniyle faiz artışı beklentilerinin güçlenmesi, önümüzdeki saatlerde altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik risk güvenli liman talebini destekleyebilir; ancak manşetler karışık ve savaş haberi etkisi belirsiz.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-13.11 08:07 N  NEWS (5 new) score -0.60 conf 0.70: Altın 13 aylık dip seviyesine geriledi; Fed faiz artırımı beklentileri, DXY'nin 19 aylık zirvesine yakın seviyelerde seyretmesi ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı oluşturuyor. İran'ın ABD radar üssünü hedef alması gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki güçlü dolar ve sıkılaşma beklentileriyle dengelenemiyor; bu nedenle kısa vadede negatif görünüm hakim.
 13.11 08:07 N  GPT  score -0.45 conf 0.62: Güçlü dolar ve Fed’in faiz artırımı beklentileri altın üzerindeki baskıyı artırıyor; fiyatın 3.900 doların altına gerilemesi de kısa vadeli momentumu zayıf gösteriyor. İran’ın ABD radar sahasını hedef aldığı haberi güvenli liman talebini destekleyebilir, ancak şu anki baskın etki aşağı yönlü görünüy
 13.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 13.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -104,6 +102,8 @@ Son işlemler:
 13.11 08:46 B5  SHORT gold 25000 USD x10 @ 3894.59 (TP 3882.91, SL 3902.38; news -0.35)
 13.11 08:55 N  NEWS (2 new) score -0.60 conf 0.60: Faiz artırımı beklentileri (Fed'den Williams'ın daha fazla artırım sinyali), güçlenen dolar (DXY 19 aylık zirvede) ve petrol kaynaklı enflasyon endişeleri altın üzerinde baskı oluşturuyor; altın 13 aylık dibe geriledi. İran'ın ABD radar sahasını hedef aldığı haberi jeopolitik risk yaratsa da güvenli liman talebini tek başına öne çıkarmıyor. Bu nedenle kısa vadede negatif eğilim hakim, ancak ABD enflasyon verisi ve alım fırsatları yönü değiştirebilir.
 13.11 08:55 N  GPT  score -0.48 conf 0.68: Fed’den Williams’ın enflasyonun kalıcılığı nedeniyle daha fazla faiz artışına işaret etmesi ve güçlü dolar, kısa vadede altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş beklentisi temkinli.
+13.11 09:07 N  NEWS (11 new) score -0.60 conf 0.65: Dolar endeksi yaklaşık 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor; Williams daha fazla faiz artırımına işaret ediyor, bu da altın için net bir baskı oluşturuyor. Altın 13 aylık dip seviyesine yakın işlem görürken, ABD PPI verisi öncesi satış baskısı sürüyor. Jeopolitik risk (İran) altına destek verebilir, ancak güvenli liman talebi dolar ve faiz etkisinin gerisinde kalıyor; bazı haberlerin eski veya çelişkili olması güveni biraz düşürüyor.
+13.11 09:07 N  GPT  score -0.55 conf 0.66: Doların iki ayın en iyi haftasına yönelmesi ve kalıcı enflasyon nedeniyle faiz artışı beklentilerinin güçlenmesi, önümüzdeki saatlerde altın üzerinde baskı yaratıyor. İran kaynaklı jeopolitik risk güvenli liman talebini destekleyebilir; ancak manşetler karışık ve savaş haberi etkisi belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
