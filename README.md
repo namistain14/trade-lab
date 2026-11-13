@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 13.11.2026 16:27 (İstanbul)
+> Son güncelleme: 13.11.2026 16:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -24.18 $ | -299.87 $ |
-| İşlem sayısı | 7 | 108 |
-| Kazanma oranı | %42.9 | %42.6 |
-| Ödenen komisyon/spread | 83.52 $ | 1282.98 $ |
+| Net kâr/zarar | -80.16 $ | -355.85 $ |
+| İşlem sayısı | 8 | 109 |
+| Kazanma oranı | %37.5 | %42.2 |
+| Ödenen komisyon/spread | 95.46 $ | 1294.91 $ |
 
-**Hesap değeri: 4,699.00 $** (başlangıç 5,000 $, -301.00 $ / %-6.02)
-
-Açık pozisyonlar: PAXGUSDT short @ 3872.68 (TP 3861.06 / SL 3880.42)
+**Hesap değeri: 4,644.15 $** (başlangıç 5,000 $, -355.85 $ / %-7.12)
 
 Son haber analizi (13.11 16:27): Claude puan **-0.40**, güven 0.55 — Altın haftalık düşüş eğilimindeyken dolar güçleniyor, 10 yıllık tahvil getirisi 5,125% seviyesine çıkmış ve enflasyon ile Fed'in sıkılaştırma beklentileri sert kalıyor; bu, kısa vadede altın için baskılayıcı. Iran'ın ABD radarını vurması jeopolitik risk yaratıyor ancak güvenli liman talebi şimdiye kadar altını yukarı taşıyamadı, bu yüzden etkisi sınırlı kalıyor. ABD PPI verisi öncesi belirsizlik yüksek, bu nedenle güven orta düzeyde tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 13.11 16:31 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:19 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 14:55 | PAXGUSDT | short | -63.41 $ | stop (gap) |
 | 13.11 14:28 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 10:01 | PAXGUSDT | short | -55.97 $ | stop |
-| 13.11 09:48 | PAXGUSDT | short | +69.05 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-13.11 15:14 N  GPT  score -0.38 conf 0.62: Yapışkan ABD enflasyonu ve Fed’in daha agresif sıkılaşabileceği beklentisi, doların güçlenmesiyle birlikte altın üzerinde kısa vadeli baskı yaratıyor; yaklaşan PPI verisi bu baskıyı artırabilir. Ukrayna-Rusya gerilimi güvenli liman talebini desteklese de jeopolitik haberlerin bir kısmı zaten fiyatla
-13.11 15:26 N  NEWS (10 new) score -0.45 conf 0.60: 
 13.11 15:26 N  GPT  score -0.58 conf 0.72: Yükselen ücretlerin enflasyon baskısını artırabileceği, Fed’in daha sıkı kalabileceği ve dolar ile tahvil getirilerinin güçlendiği yönündeki haber akışı altını kısa vadede baskılıyor; fiyatın zaten gerilediği de belirtiliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de yeni
 13.11 15:38 N  NEWS (3 new) score -0.40 conf 0.60: Enflasyon ve istihdam verileri Fed'in sıkı kalacağı beklentisini güçlendiriyor, dolar ise PPI öncesinde yükseliyor; bu da altın için baskı yaratıyor. İran ve Ukrayna savaşı haberleri güvenli liman talebini destekleyebilir, ancak bunların büyük kısmı zaten fiyatlanmış ve IEA'nın petrol arzının fazlaya döndüğü açıklaması jeopolitik primi azaltıyor.
 13.11 15:38 N  GPT  score -0.40 conf 0.62: ABD enflasyon verisi öncesinde doların yükselmesi, tahvil getirilerindeki sıçrama ve ücret/enflasyon baskısı Fed’in daha sıkı kalacağı beklentisini güçlendirerek altını kısa vadede baskılıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini desteklese de yeni ve belirleyici bir tırmanış habe
@@ -104,6 +100,8 @@ Son işlemler:
 13.11 16:24 B5  SHORT gold 25000 USD x10 @ 3872.68 (TP 3861.06, SL 3880.42; news -0.40)
 13.11 16:27 N  NEWS (5 new) score -0.40 conf 0.55: Altın haftalık düşüş eğilimindeyken dolar güçleniyor, 10 yıllık tahvil getirisi 5,125% seviyesine çıkmış ve enflasyon ile Fed'in sıkılaştırma beklentileri sert kalıyor; bu, kısa vadede altın için baskılayıcı. Iran'ın ABD radarını vurması jeopolitik risk yaratıyor ancak güvenli liman talebi şimdiye kadar altını yukarı taşıyamadı, bu yüzden etkisi sınırlı kalıyor. ABD PPI verisi öncesi belirsizlik yüksek, bu nedenle güven orta düzeyde tutuldu.
 13.11 16:27 N  GPT  score -0.20 conf 0.45: İran’ın ABD radarını vurduğu haberi güvenli liman talebini destekleyebilir; ancak güçlü dolar, yüksek ABD tahvil getirileri ve altındaki son düşüş kısa vadede baskın görünüyor. Yaklaşan enflasyon verisi ve Fed açıklamaları yönü belirsizleştiriyor.
+13.11 16:31 B5  CLOSE short stop: -55.98 USD
+13.11 16:31 B6  seans öncesi görüş: Geniş piyasa hafif pozitif, ancak Nvidia'daki liderlik krizi teknoloji ve yarı iletkenler üzerinde baskı yaratıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
