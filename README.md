@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 02:25 (İstanbul)
+> Son güncelleme: 17.11.2026 02:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 02:15): Claude puan **+0.05**, güven 0.20 — Yeni gelen başlıkların çoğu (OpenAI davası, Nvidia, Brexit gıda anlaşması, Bond oyuncusu, göç merkezi) altın fiyatıyla doğrudan ilgili değil. Yemen'deki Husi ilerlemesi jeopolitik risk içeriyor ancak haber eski ve somut bir piyasa şoku yaratmış görünmüyor; bu nedenle etkisi çok sınırlı, hafif yükseliş yönlü ve düşük güvenilirlikli.
+Son haber analizi (17.11 02:28): Claude puan **-0.70**, güven 0.80 — Sıcak ABD enflasyonu, Fed'in faiz artırımı beklentilerinin yükselmesi ve doların güçlenmesi altın üzerinde ağır baskı yaratıyor; altın ve gümüş yıllık en düşük seviyelere geriledi. Jeopolitik güvenli liman talebi (Yemen/Houthi) ise etkisi sınırlı kalıyor; merkez bankası alımları ise uzun vadeli destek olsa da kısa vadeyi değiştirmiyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 00:51 N  NEWS (8 new) score +0.05 conf 0.30: 
-17.11 01:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 01:03 N  NEWS (18 new) score -0.40 conf 0.60: Sıcak ABD enflasyonu faiz artırımı beklentilerini güçlendirdi, dolar haftalık kazançlarını uzatıyor ve Fed yetkilileri (Hammack, Cleveland) küçük faiz artırımlarını savunuyor; bu, altın için net olarak baskılayıcı. Husi ilerlemesi ve İran savaşı gibi jeopolitik haberler güvenli liman talebini bir miktar destekliyor, ancak çoğu savaş başlığı eski ve fiyatlanmış olduğundan etkisi sınırlı.
 17.11 01:15 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 01:15 N  NEWS (10 new) score -0.30 conf 0.50: Sıcak ABD enflasyonu, faiz artırımı beklentilerini ve güçlenen doları öne çıkarıyor; Fed yetkililerinin (Hammack, Cleveland) küçük faiz artırımlarını tercih etmesi altın için olumsuz. Buna karşılık Hürmüz/Bab el-Mendeb'de Husi ilerleyişi ve İran savaşı güvenli liman talebini destekliyor, ancak altının bir yılın en düşük seviyesine gerilemesi bu haberlerin büyük bölümünün zaten fiyatlandığını gösteriyor.
@@ -100,6 +98,8 @@ Son işlemler:
 17.11 02:03 N  NEWS (32 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi (Hammack ve diğer yetkililerin küçük ama devam eden artırımları savunması) ve dolardaki yükseliş altını 1 yılın en düşük seviyesine ve 52 haftanın dibine itti. Jeopolitik risk (Yemen/Husi) ise güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor. Fiyatlara çoktan yansımış olması ve altın için olası alım desteği (Goldman merkez bankası alımları) kısa vadede sert düşüş riskini biraz sınırlayabilir.
 17.11 02:15 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 02:15 N  NEWS (5 new) score +0.05 conf 0.20: Yeni gelen başlıkların çoğu (OpenAI davası, Nvidia, Brexit gıda anlaşması, Bond oyuncusu, göç merkezi) altın fiyatıyla doğrudan ilgili değil. Yemen'deki Husi ilerlemesi jeopolitik risk içeriyor ancak haber eski ve somut bir piyasa şoku yaratmış görünmüyor; bu nedenle etkisi çok sınırlı, hafif yükseliş yönlü ve düşük güvenilirlikli.
+17.11 02:28 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 02:28 N  NEWS (39 new) score -0.70 conf 0.80: Sıcak ABD enflasyonu, Fed'in faiz artırımı beklentilerinin yükselmesi ve doların güçlenmesi altın üzerinde ağır baskı yaratıyor; altın ve gümüş yıllık en düşük seviyelere geriledi. Jeopolitik güvenli liman talebi (Yemen/Houthi) ise etkisi sınırlı kalıyor; merkez bankası alımları ise uzun vadeli destek olsa da kısa vadeyi değiştirmiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
