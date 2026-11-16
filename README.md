@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 23:22 (İstanbul)
+> Son güncelleme: 16.11.2026 23:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (16.11 23:13): Claude puan **-0.60**, güven 0.60 — Altın 13 aylık ve bir yıllık dip seviyelerinde, güçlenen dolar ve artan Fed faiz artırımı beklentileri nedeniyle baskı altında; bu reel faiz ve dolar kanalı kısa vadede altın için net negatif. Merkez bankası alımları ve Kırım köprüsü saldırısı gibi jeopolitik gelişmeler sınırlı destek sağlasa da fiyatlamaya yetmiyor; birçok başlık tekrar niteliğinde olduğu için güven orta düzeyde.
+Son haber analizi (16.11 23:25): Claude puan **-0.60**, güven 0.70 — Altın yıllık en düşük seviyeye geriledi; Treasury getirilerindeki yükseliş ve güçlenen dolar baskı yaratıyor. Fed'in Hammack gibi isimlerinin faiz artırımını savunması ve enflasyonun yayılması reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı ve üçüncü/beşinci uçak gemisi haberleri güvenli liman talebini destekliyor, ancak bu etki şu an fiyatlarda görülmüyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 22:36 N  NEWS (14 new) score -0.50 conf 0.60: Yeni haberler ağırlıklı olarak altı baskılıyor: altın bir yılın en düşük seviyesine geriledi, dolar güçleniyor ve Fed'in faiz artırımı beklentileri konuşuluyor. Merkez bankası alımları bir miktar destek sağlasa da, İran savaşına ilişkin ek ABD uçak gemisi haberleri jeopolitik risk primini artırmadığı için güvenli liman talebi fiyatı yukarı taşımıyor. Bu nedenle kısa vadeli eğilim aşağı yönlü; ancak haberlerin büyük kısmı eski veya kısmen fiyatlanmış olduğundan güven orta düzeyde.
-16.11 22:36 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 22:36 B6  karar turu: Claude «Piyasa teknoloji ve Nvidia kaynaklı satışla sert düşük ama son saatte yatay; kapanışa çok az kaldığından yeni pozisyonun risk/getirisi zayıf.» / GPT «-»
 16.11 22:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 22:48 N  NEWS (11 new) score -0.45 conf 0.60: Fed'in Hammack'in art arda sıkılaştırma (faiz artışı) çağrısı ve güçlenen doların, altın üzerinde baskı yaratıyor; gold bir yılın en düşük seviyesine yakın işlem görüyor. İran savaşına ilişkin uçak gemisi yığınağı güvenli liman talebini destekleyebilir, ancak bu etki haberlerde büyük ölçüde fiyatlanmış görünüyor ve merkez bankası alımları sınırlı bir destek sağlıyor.
@@ -100,6 +98,8 @@ Son işlemler:
 16.11 23:13 N  NEWS (40 new) score -0.60 conf 0.60: Altın 13 aylık ve bir yıllık dip seviyelerinde, güçlenen dolar ve artan Fed faiz artırımı beklentileri nedeniyle baskı altında; bu reel faiz ve dolar kanalı kısa vadede altın için net negatif. Merkez bankası alımları ve Kırım köprüsü saldırısı gibi jeopolitik gelişmeler sınırlı destek sağlasa da fiyatlamaya yetmiyor; birçok başlık tekrar niteliğinde olduğu için güven orta düzeyde.
 16.11 23:13 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 23:13 B6  karar turu: Claude «Nvidia liderlik krizi ve faiz artışı beklentileriyle teknoloji ağırlıklı sert bir satış günü yaşandı, ancak piyasa kapandığı için yeni intraday pozisyon açmak yerine yarının açılışı beklenmeli.» / GPT «-»
+16.11 23:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+16.11 23:25 N  NEWS (35 new) score -0.60 conf 0.70: Altın yıllık en düşük seviyeye geriledi; Treasury getirilerindeki yükseliş ve güçlenen dolar baskı yaratıyor. Fed'in Hammack gibi isimlerinin faiz artırımını savunması ve enflasyonun yayılması reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı ve üçüncü/beşinci uçak gemisi haberleri güvenli liman talebini destekliyor, ancak bu etki şu an fiyatlarda görülmüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

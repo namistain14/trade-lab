@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    5000.0
-   ],
-   [
     1794264603,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794860541,
+    5000.0
+   ],
+   [
+    1794860731,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    4868.5
-   ],
-   [
     1794264603,
     4868.5
    ],
@@ -27085,34 +27081,29 @@
    [
     1794860541,
     4868.5
+   ],
+   [
+    1794860731,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
-   "confidence": 0.6,
-   "reason": "Alt\u0131n 13 ayl\u0131k ve bir y\u0131ll\u0131k dip seviyelerinde, g\u00fc\u00e7lenen dolar ve artan Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bask\u0131 alt\u0131nda; bu reel faiz ve dolar kanal\u0131 k\u0131sa vadede alt\u0131n i\u00e7in net negatif. Merkez bankas\u0131 al\u0131mlar\u0131 ve K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 destek sa\u011flasa da fiyatlamaya yetmiyor; bir\u00e7ok ba\u015fl\u0131k tekrar niteli\u011finde oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
+   "confidence": 0.7,
+   "reason": "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi; Treasury getirilerindeki y\u00fckseli\u015f ve g\u00fc\u00e7lenen dolar bask\u0131 yarat\u0131yor. Fed'in Hammack gibi isimlerinin faiz art\u0131r\u0131m\u0131n\u0131 savunmas\u0131 ve enflasyonun yay\u0131lmas\u0131 reel faiz beklentilerini y\u00fckselterek alt\u0131n\u0131 olumsuz etkiliyor. \u0130ran sava\u015f\u0131 ve \u00fc\u00e7\u00fcnc\u00fc/be\u015finci u\u00e7ak gemisi haberleri g\u00fcvenli liman talebini destekliyor, ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fclm\u00fcyor.",
    "n": 45,
-   "ts": 1794860009881,
-   "new_headlines": 40,
+   "ts": 1794860730650,
+   "new_headlines": 35,
    "key_events": [
-    "Fed s\u0131k\u0131la\u015ft\u0131rma (faiz art\u0131r\u0131m\u0131) beklentileri y\u00fckseldi, alt\u0131n 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi",
-    "Dolar g\u00fc\u00e7lendi; alt\u0131n y\u00fckseli\u015fleri s\u0131n\u0131rl\u0131",
-    "K\u0131r\u0131m k\u00f6pr\u00fcs\u00fcne Ukrayna \u0130HA sald\u0131r\u0131s\u0131 (s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi)"
+    "Alt\u0131n 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi; ABD tahvil getirileri ve dolar bask\u0131 yap\u0131yor",
+    "Fed'den Hammack faiz art\u0131r\u0131m\u0131n\u0131 savundu; enflasyon yay\u0131l\u0131yor",
+    "\u0130ran sava\u015f\u0131 kapsam\u0131nda ek ABD u\u00e7ak gemisi b\u00f6lgeye ula\u015ft\u0131 (g\u00fcvenli liman deste\u011fi)"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794287878676,
-    "score": 0.1,
-    "confidence": 0.35,
-    "reason": "Ekim ay\u0131 ABD T\u00dcFE'sinin beklentiden yava\u015f artmas\u0131 ihtimali faiz indirimi beklentilerini destekleyip alt\u0131 k\u0131sa vadede yukar\u0131 ta\u015f\u0131yabilir. Ancak Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n askeri olarak bitti\u011fini ve yeni sald\u0131r\u0131lar\u0131n \"\u00e7ok olas\u0131 olmad\u0131\u011f\u0131n\u0131\" s\u00f6ylemesi jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor, Ukrayna m\u00fczakereleri de risk i\u015ftah\u0131n\u0131 art\u0131rabilir. Veri beklentilerde zaten fiyatlanm\u0131\u015f oldu\u011fundan etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz kal\u0131yor.",
-    "new": 8,
-    "gpt_score": 0.15,
-    "gpt_confidence": 0.4
-   },
    {
     "ts": 1794288597263,
     "score": -0.1,
@@ -29803,63 +29794,70 @@
     "new": 40,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794860730650,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi; Treasury getirilerindeki y\u00fckseli\u015f ve g\u00fc\u00e7lenen dolar bask\u0131 yarat\u0131yor. Fed'in Hammack gibi isimlerinin faiz art\u0131r\u0131m\u0131n\u0131 savunmas\u0131 ve enflasyonun yay\u0131lmas\u0131 reel faiz beklentilerini y\u00fckselterek alt\u0131n\u0131 olumsuz etkiliyor. \u0130ran sava\u015f\u0131 ve \u00fc\u00e7\u00fcnc\u00fc/be\u015finci u\u00e7ak gemisi haberleri g\u00fcvenli liman talebini destekliyor, ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fclm\u00fcyor.",
+    "new": 35,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-16",
-   "n": 10
+   "n": 11
   },
   "news_seen": [
+   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "Ro Khanna calls for $1,700 Iran war \u2018refund checks\u2019 - Denver Gazette",
+   "War Secretary Announces General Officer Appointments for Nov. 16 - Mirage News",
+   "Gold price drops to more than one-year low - Mining.com.au",
    "Forensic expert says his analysis raises doubts about how Epstein died",
+   "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015 - Kitco",
+   "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
+   "Fed's Hammack backs slow hikes as inflation broadens - FXStreet",
+   "A year after taking her $5 billion online retail empire into Africa, Russia\u2019s richest woman faces EU sanctions over links to Europe's largest armed conflict - Business Insider Africa",
+   "Warsh says AI could lift growth, cost jobs or disappoint and hit stocks as the Fed studies three scenarios - MLQ.ai",
+   "Cleveland Fed's Hammack says more rate hikes are needed to lower inflation - Seeking Alpha",
+   "Middle East latest: Pakistan awaits US response to latest Iran proposals - The National",
+   "Fed\u2019s Hammack Prefers Small Hikes, Sees Risk of Bigger Moves - Bloomberg.com",
+   "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV - Reuters",
+   "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - BankInfoSecurity",
    "Gold Use in Tech and Industry Increased Modestly in Q3 - FXStreet",
+   "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war - AP News",
    "Gold price dip presents an opportunity for long-term investors - FXStreet",
+   "New memorial on National Mall brings closure to Gulf War veterans - The Eagle Online",
    "Lindsay Clancy to face retrial next year for deaths of her three children",
+   "'Darkhorse' Marines tell story of Afghan War's bloodiest battle in new documentary - KPBS",
    "Inflation is back - so why is gold falling? - Kitco",
+   "Syria: Progress \u2018real\u2019 but fragile, as remnants of war wreck young lives - UN News",
+   "Fed Chairman Highlights Economic Uncertainty of A.I. Boom - The New York Times",
+   "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ",
    "Gold Price November 17 2026 - Robinhood",
+   "Khanna proposes $1,700 Iran war refund checks for Americans - The Hill",
+   "US reserve crude stocks fall by most in nearly three months - Quantum Commodity Intelligence",
+   "Land Power Library - US Army Divisions of the Pacific War - Australian Army Research Centre",
+   "EU sanctions Wildberries CEO Tatyana Kim as well as enablers of Moscow's shadow fleet - DW.com",
    "Gold\u2019s bull market will benefit from tech selloff as capital rotates back into precious metals \u2013 Jesse Colombo - Kitco",
    "Gold: Central Bank Buying Is Keeping It Afloat as More Fed Hikes Are Expected - Investing.com",
+   "A $4 million missile to stop a $35,000 drone: What the Iran war\u2019s weapons cost the US and its allies - El Cronista",
+   "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
    "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "'Parents are offering to pay kids' wages': Salon owner",
-   "What Makes Xtra-Gold (TSX:XTG) Per-Share Value Growth Worth Watching? - Kalkine Media",
-   "Silver leads Gold to new 2026 lows: What the ratio says - FXStreet",
-   "Gold isn't being sold for thew reason most people think - FXStreet",
-   "When will we see Robert Pattinson as Bond in cinemas?",
-   "Gold price shows signs of a bubble burst, with potential drop to $2,500/oz amid weakening trend. - Pluang",
-   "Gold: The Bubble Is Bursting And $2,500 Should Not Be Ruled Out (Commodity:XAUUSD:CUR) - Seeking Alpha",
-   "Five EU countries announce migrant deportation centre in Rwanda",
-   "Gold prices today, November 17, 2026, have not yet reached their bottom, continuously losing key levels; the worst-case scenario is the $3,800 mark. - Vietnam.vn",
-   "Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?",
-   "Gold holds near 13-month low as hawkish Fed outlook caps upside - FXStreet",
-   "Gold Price Forecast: Hawkish Fed Signals Keep Rallies Vulnerable - FXEmpire",
-   "Gold price drops to more than one-year low - Mining.com.au",
-   "Asante Gold shares in meltdown after nightmare quarterly report - MiningMX",
-   "The price of gold today, Nov. 16, 2026 \u2014 and the best places to buy - CNBC",
-   "Street cricket with a legend then metro ride as William and Kate begin India visit",
-   "Robert Pattinson: How the Twilight star became 007",
-   "Gold price slides as Fed hike bets rise, silver bar and coin sales drop despite lower prices \u2013 Heraeus - Kitco",
-   "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-   "Gold hits one-year low as dollar strengthens, Fed rate bets rise - \u0633\u0627\u0646\u0627",
-   "Raye, Rosal\u00eda and Dolly Parton recognised in Grammy nominations",
-   "Gold prices slide toward a one-year low as the dollar and rate expectations reshape the metals trade - kalkine.ca",
-   "UAE gold now at its cheapest this year: Buy now or wait for another drop? - Gulf News",
-   "Estonia to close Russia border crossings after attempted drone factory arson attack",
-   "Gold prices this afternoon (November 16): World gold prices hit a \"bottom\". - Vietnam.vn",
-   "Current price of gold as of November 16, 2026 - Fortune",
-   "Gold rate today in Delhi: Check 24K and 22K gold PM rates on 16 November - Livemint",
-   "G\u00e9rard Depardieu drops appeal against sexual assault conviction",
-   "Gold price struggles even as New York Fed's Empire State survey weakens - Kitco",
-   "'Plenty of Reasons to Sell' as Gold Sinks 15% in 12 Weeks - BullionVault",
-   "Gold Price Today on November 16, 2026 - USA Today",
-   "Create more jobs for under-25s by cutting National Insurance, key report urges",
-   "Gold hits over one-year low on resilient dollar as hawkish Fed bets build - Kitco",
-   "Ashes of exiled Nobel Laureate Miguel \u00c1ngel Asturias returned to Guatemala",
-   "Gold prices plummet after three months, buyers lose up to 10.5 million VND/tael - Laodong.vn",
-   "Gold prices today, Monday, November 16, 2026: Gold prices hit lowest levels in over a year. Here's why. - Yahoo Finance"
+   "Three aircraft carriers, 53,000 troops in Middle East as US, Israel prepare for possible Iran war - The Jerusalem Post",
+   "LeoLabs acquires FishEye to bolster its missile defense chops - Breaking Defense",
+   "Watch What U.S. Aircraft Carriers Bring to the Iran War - WSJ",
+   "Markers Go Up Honoring War Dogs on State Route in Herkimer - Utica Observer Dispatch",
+   "A Perfect Storm for the US Dollar - Investing.com",
+   "Gold drops to more than one-year low as US dollar marches higher - The Korea Times",
+   "BPI Statement on Supreme Court Preserving Federal Reserve Discretion Over Master Accounts - Bank Policy Institute",
+   "The War At Home: How To Build A Great Game Table When You\u2019re Short On Space - Bell of Lost Souls",
+   "Making a Difference: Lessons yet to be learned from the war that did not end all wars - Catholic Standard",
+   "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire"
   ]
  },
  "log": [
-  "15.11 12:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 12:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 12:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 12:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 12:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "16.11 23:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "16.11 23:13 N  NEWS (40 new) score -0.60 conf 0.60: Alt\u0131n 13 ayl\u0131k ve bir y\u0131ll\u0131k dip seviyelerinde, g\u00fc\u00e7lenen dolar ve artan Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bask\u0131 alt\u0131nda; bu reel faiz ve dolar kanal\u0131 k\u0131sa vadede alt\u0131n i\u00e7in net negatif. Merkez bankas\u0131 al\u0131mlar\u0131 ve K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 destek sa\u011flasa da fiyatlamaya yetmiyor; bir\u00e7ok ba\u015fl\u0131k tekrar niteli\u011finde oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "16.11 23:13 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "16.11 23:13 B6  karar turu: Claude \u00abNvidia liderlik krizi ve faiz art\u0131\u015f\u0131 beklentileriyle teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f g\u00fcn\u00fc ya\u015fand\u0131, ancak piyasa kapand\u0131\u011f\u0131 i\u00e7in yeni intraday pozisyon a\u00e7mak yerine yar\u0131n\u0131n a\u00e7\u0131l\u0131\u015f\u0131 beklenmeli.\u00bb / GPT \u00ab-\u00bb"
+  "16.11 23:13 B6  karar turu: Claude \u00abNvidia liderlik krizi ve faiz art\u0131\u015f\u0131 beklentileriyle teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f g\u00fcn\u00fc ya\u015fand\u0131, ancak piyasa kapand\u0131\u011f\u0131 i\u00e7in yeni intraday pozisyon a\u00e7mak yerine yar\u0131n\u0131n a\u00e7\u0131l\u0131\u015f\u0131 beklenmeli.\u00bb / GPT \u00ab-\u00bb",
+  "16.11 23:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "16.11 23:25 N  NEWS (35 new) score -0.60 conf 0.70: Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi; Treasury getirilerindeki y\u00fckseli\u015f ve g\u00fc\u00e7lenen dolar bask\u0131 yarat\u0131yor. Fed'in Hammack gibi isimlerinin faiz art\u0131r\u0131m\u0131n\u0131 savunmas\u0131 ve enflasyonun yay\u0131lmas\u0131 reel faiz beklentilerini y\u00fckselterek alt\u0131n\u0131 olumsuz etkiliyor. \u0130ran sava\u015f\u0131 ve \u00fc\u00e7\u00fcnc\u00fc/be\u015finci u\u00e7ak gemisi haberleri g\u00fcvenli liman talebini destekliyor, ancak bu etki \u015fu an fiyatlarda g\u00f6r\u00fclm\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    4963.78
-   ],
-   [
     1794264603,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794860541,
+    4963.78
+   ],
+   [
+    1794860731,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    4975.18
-   ],
-   [
     1794264603,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794860541,
+    4975.18
+   ],
+   [
+    1794860731,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    4993.28
-   ],
-   [
     1794264603,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794860541,
+    4993.28
+   ],
+   [
+    1794860731,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794264412,
-    4969.22
-   ],
-   [
     1794264603,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794860541,
+    4969.22
+   ],
+   [
+    1794860731,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794264412,
-    4315.15
-   ],
    [
     1794264603,
     4315.21
@@ -93138,6 +93134,10 @@
    [
     1794860541,
     4545.26
+   ],
+   [
+    1794860731,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794264412,
-    111691.09
-   ],
    [
     1794264603,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794860541,
     114145.15
+   ],
+   [
+    1794860731,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794264412,
-    4944.42
-   ],
    [
     1794264603,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794860541,
+    4876.96
+   ],
+   [
+    1794860731,
     4876.96
    ]
   ],
