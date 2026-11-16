@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    5000.0
-   ],
-   [
     1794273328,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794869320,
+    5000.0
+   ],
+   [
+    1794869508,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    4868.5
-   ],
-   [
     1794273328,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794869320,
     4868.5
+   ],
+   [
+    1794869508,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: s\u0131cak ABD enflasyonu faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor, dolar haftal\u0131k kazan\u00e7lar\u0131n\u0131 uzat\u0131yor ve Fed'in Hammack gibi isimleri k\u00fc\u00e7\u00fck art\u0131r\u0131mlardan yana. Jeopolitik gerilim (Kiev k\u00f6pr\u00fclerine f\u00fcze sald\u0131r\u0131lar\u0131, Husi ilerlemesi) g\u00fcvenli liman talebi yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; merkez bankas\u0131 al\u0131mlar\u0131yla ilgili Goldman tahmini ise uzun vadeli ve k\u0131sa vadeli etkisi zay\u0131f. Alt\u0131n\u0131n y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine inmesi gibi bilgiler zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
+   "score": -0.4,
+   "confidence": 0.5,
+   "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir.",
    "n": 45,
-   "ts": 1794868788055,
-   "new_headlines": 16,
+   "ts": 1794869507342,
+   "new_headlines": 7,
    "key_events": [
     "Hammack ve Warsh'tan faiz art\u0131r\u0131m\u0131na a\u00e7\u0131k, s\u0131k\u0131la\u015ft\u0131rma yanl\u0131s\u0131 Fed a\u00e7\u0131klamalar\u0131",
     "S\u0131cak ABD enflasyonu sonras\u0131 dolar haftal\u0131k y\u00fckseli\u015fte; EUR/USD 1.10'a geriledi",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794296610657,
-    "score": -0.1,
-    "confidence": 0.35,
-    "reason": "",
-    "new": 8,
-    "gpt_score": -0.2,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1794297330878,
     "score": -0.1,
@@ -29803,20 +29794,34 @@
     "new": 16,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794869507342,
+    "score": -0.4,
+    "confidence": 0.5,
+    "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 9
+   "n": 10
   },
   "news_seen": [
+   "Middle East latest: Pakistan awaits US response to latest Iran proposals - thenationalnews.com",
    "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "U.S. dollar\u2019s AI-driven breakout could become a stock-market wrecking ball - MarketWatch",
+   "Inside the U.S.-Canada Trade War - Industrial Equipment News",
+   "Case to decide Prince George\u2019s County\u2019s $39 million tug-of-war postponed again - The Baltimore Banner",
+   "Opinion | Why the Ukraine War Is Working for Putin - WSJ",
    "The Left\u2019s War on Gig - The Washington Post",
    "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
    "Warsh highlights AI risks and implications for economy - Ticker News",
    "Washington Policy Weekly: Senators Push to Remove US-Israel Defense Cooperation Provisions from NDAA - Arab Center Washington DC",
-   "Central bank buying to support higher gold price in 2027: Goldman - Mining.com.au",
    "EU sanctions four Haitian gangs over serious human rights violations - 1470 & 100.3 WMBD",
+   "Contracts for Nov. 16, 2026 - U.S. Department of War (.gov)",
    "Russian Missiles Hit Kyiv\u2019s North and South Bridges as Allies Prepare to Meet at NATO HQ - UNITED24 Media",
    "Virginia state Sen. Louise Lucas requests sanctions against Blanche, Patel over comments - National News Desk",
    "Can the US, China, and Russia Keep AI from Triggering Nuclear War? - The National Interest",
@@ -29824,42 +29829,35 @@
    "Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine - The Kyiv Independent",
    "The Trade War Was a Problem Before Iran\u2014Congress Can End It - Cato Institute",
    "EU Targets Russia\u2019s E-Commerce Giant and Dozens More Banks in Latest Wartime Sanctions Push - Kharon",
-   "Gold price update, morning of November 17, 2026: SJC, 9999 gold rings, DOJI BTMC, PNJ, Phu Quy. - Vietnam.vn",
    "Houthis retake Bab al Mandeb and move toward Aden - FDD's Long War Journal",
-   "Contracts for Nov. 16, 2026 - U.S. Department of War (.gov)",
    "Mexican Peso Retreats Against Dollar as 19-Month Dollar High Pressures Emerging Market Currencies - BigGo Finance",
    "Zelenskyy Calls for Missile Parity as North Korea Sends Russia Dozens of Ballistic Missiles a Month - UNITED24 Media",
    "Fed officials debate AI\u2019s impact on inflation and interest rates - ColoradoBiz",
-   "Gold Prices Fall to Lowest Level in More Than a Year - Qatar news agency",
    "891st Missile Security Forces Squadron Airmen earn expert pistol qualification - Minot Air Force Base (.mil)",
    "Salute to Veterans | Gulf War vet remembers \u2018camaraderie, brotherhood\u2019 - Rogue Valley Times",
    "New DoW Audit Progress Marks Breakthrough Toward a Department-Wide Clean Opinion - U.S. Department of War (.gov)",
-   "StrikePoint Gold Strengthens Management Team - Investing News Network",
    "Fed\u2019s Hammack Reiterates Preference for Small, Incremental Hikes - Bloomberg.com",
    "Houthi rebel advance in Yemen may further destabilise global economy",
    "MTSU students turn rules of war into interactive games at Nov. 18 Red Cross event - MTSU News",
-   "Fake gold jewelry made from industrial metal tricks Japan shops - Nikkei Asia",
    "Beyond screening: FCA sets out its expectations for effective sanctions controls - Stephenson Harwood",
    "\u2018Espionage in World War II: The FBI and OSS\u2019 with Bradley Hart - Small Wars Journal",
    "Fed Decision And Inflation Data Cast Shadow Over Malaysia Equities As KLCI Steadies Above 1,610 - Foreign Policy Journal",
-   "American Barrick Gold Launches IPO For Separation And Production Growth (ABGC) - Seeking Alpha",
    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
    "Zelensky warns of imminent Russian attacks, 'extremely dangerous' North Korean missile development - The Kyiv Independent",
+   "California rep. calls for refund checks to be given to Americans due to the Iran war - KEYE",
    "Half of the Russians in new EU sanctions package listed with incomplete or incorrect data, The Insider finds - theins.press",
    "Iranian parliament speaker says regional calm hinges on ending Israel\u2019s war on Lebanon - Anadolu Ajans\u0131",
    "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
    "Fed Chairman Highlights Economic Uncertainty of A.I. Boom - The New York Times",
    "JD Vance promises Iran won\u2019t turn into \u2018forever war\u2019 \u2014 and Trump will end it by 2028 - New York Post",
    "Wall Street Has Bad News for Your Wallet - U.S. News & World Report",
-   "Orezone Gold Reports Third Quarter 2026 Results - aapnews.aap.com.au",
    "Another View: World War II still has lessons for today\u2019s wars - Marin Independent Journal",
    "A newly translated book looks at the Russian side of World War II's Lend-Lease program - Alaska Public Media",
-   "FX weekly: Dollar extends weekly gains as hot U.S. inflation fuels rate-hike bets (DXY:) - Seeking Alpha"
+   "FX weekly: Dollar extends weekly gains as hot U.S. inflation fuels rate-hike bets (DXY:) - Seeking Alpha",
+   "The Fed Is Worried AI Agents Could Trigger a Bank Run - Gizmodo"
   ]
  },
  "log": [
-  "15.11 13:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 13:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 13:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 14:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 14:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 01:27 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 01:27 N  NEWS (12 new) score -0.10 conf 0.35: Alt\u0131n fiyatlar\u0131n\u0131n bir y\u0131l\u0131 a\u015fk\u0131n s\u00fcredir en d\u00fc\u015f\u00fck seviyeye geriledi\u011fine dair haberler mevcut ve bu momentum k\u0131sa vadede bask\u0131 yaratabilir. Husilerin Bab el-Mendeb'i ele ge\u00e7irmesi ve \u0130ran sava\u015f\u0131 gibi jeopolitik risklerin g\u00fcvenli liman talebini destekleyici olmas\u0131, bu d\u00fc\u015f\u00fc\u015f\u00fc tamamen telafi etmemekte; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fc\u015f veriyorum.",
   "17.11 01:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 01:39 N  NEWS (16 new) score -0.50 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: s\u0131cak ABD enflasyonu faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor, dolar haftal\u0131k kazan\u00e7lar\u0131n\u0131 uzat\u0131yor ve Fed'in Hammack gibi isimleri k\u00fc\u00e7\u00fck art\u0131r\u0131mlardan yana. Jeopolitik gerilim (Kiev k\u00f6pr\u00fclerine f\u00fcze sald\u0131r\u0131lar\u0131, Husi ilerlemesi) g\u00fcvenli liman talebi yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; merkez bankas\u0131 al\u0131mlar\u0131yla ilgili Goldman tahmini ise uzun vadeli ve k\u0131sa vadeli etkisi zay\u0131f. Alt\u0131n\u0131n y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine inmesi gibi bilgiler zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m."
+  "17.11 01:39 N  NEWS (16 new) score -0.50 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: s\u0131cak ABD enflasyonu faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor, dolar haftal\u0131k kazan\u00e7lar\u0131n\u0131 uzat\u0131yor ve Fed'in Hammack gibi isimleri k\u00fc\u00e7\u00fck art\u0131r\u0131mlardan yana. Jeopolitik gerilim (Kiev k\u00f6pr\u00fclerine f\u00fcze sald\u0131r\u0131lar\u0131, Husi ilerlemesi) g\u00fcvenli liman talebi yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; merkez bankas\u0131 al\u0131mlar\u0131yla ilgili Goldman tahmini ise uzun vadeli ve k\u0131sa vadeli etkisi zay\u0131f. Alt\u0131n\u0131n y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine inmesi gibi bilgiler zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
+  "17.11 01:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 01:51 N  NEWS (7 new) score -0.40 conf 0.50: Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    4963.78
-   ],
-   [
     1794273328,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794869320,
+    4963.78
+   ],
+   [
+    1794869508,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    4975.18
-   ],
-   [
     1794273328,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794869320,
+    4975.18
+   ],
+   [
+    1794869508,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    4993.28
-   ],
-   [
     1794273328,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794869320,
+    4993.28
+   ],
+   [
+    1794869508,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794273137,
-    4969.22
-   ],
-   [
     1794273328,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794869320,
+    4969.22
+   ],
+   [
+    1794869508,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794273137,
-    4264.67
-   ],
    [
     1794273328,
     4264.67
@@ -93138,6 +93134,10 @@
    [
     1794869320,
     4545.26
+   ],
+   [
+    1794869508,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794273137,
-    111691.09
-   ],
    [
     1794273328,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794869320,
     114145.15
+   ],
+   [
+    1794869508,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794273137,
-    4944.42
-   ],
    [
     1794273328,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794869320,
+    4876.96
+   ],
+   [
+    1794869508,
     4876.96
    ]
   ],
