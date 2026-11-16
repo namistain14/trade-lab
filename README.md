@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 22:08 (İstanbul)
+> Son güncelleme: 16.11.2026 22:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (16.11 21:59): Claude puan **-0.10**, güven 0.30 — Yeni haberlerin çoğu altın fiyatıyla ilgisiz (füze testi, askeri ve şirket haberleri). Fed Başkanı Warsh'un AI etkisine dair açıklamaları enflasyon riskinden kaçınır görünüyor, bu da hafif nötr-düşük. Önceden bilinen zayıf dolar/yüksek tahvil getirisi baskısı ve "faiz artırımı" tartışmaları altını hâlâ aşağı çekiyor; jeopolitik güvenli liman talebini artıracak yeni bir gelişme yok.
+Son haber analizi (16.11 22:11): Claude puan **-0.25**, güven 0.50 — Yeni başlıklarda Fed'in faiz artırımı risklerine ve doların yükselişine dair haberler altın için baskı yaratıyor; İran savaşına ilişkin uçak gemisi konuşlanmaları ise güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış görünüyor. Merkez bankası alımları bir miktar destek sağlıyor, bu nedenle etki hafif negatif kabul edildi.
 
 Son işlemler:
 
@@ -85,10 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 21:23 N  NEWS (45 new) score -0.50 conf 0.60: Altın, Hazine tahvil getirileri ve güçlü doların baskısıyla yıllık dibe geriledi; ABD enflasyon verisi ve Fed'in faiz artırımı ihtimali tartışması (Warsh/Barr açıklamaları) politika sıkılaştırma beklentisini canlı tutarak altı aşağı çekiyor. İran savaşı haberleri güvenli liman talebini destekliyor olsa da bu etki, reel faiz ve dolar kanalının gerisinde kalıyor; bu nedenle net etki hafif-orta düzeyde negatif.
-16.11 21:23 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
-16.11 21:23 B6  karar turu: Claude «Nvidia liderlik krizi ve çip ihracat kısıtlamaları teknoloji ağırlıklı bir risk-off ortamı yaratıyor, piyasa gün sonuna doğru zayıf seyrediyor.» / GPT «-»
-16.11 21:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 21:35 N  NEWS (12 new) score -0.45 conf 0.60: Haberler genel olarak altın için olumsuz: Dolar Liberation Day kayıplarını silmiş, Treasury getirileri ve dolar altına baskı yapıyor ve altın 1 yılın en düşük seviyesinde. Fed'in faiz artırımı ihtimali tartışılıyor ve enflasyon verileri sıkılaşma endişelerini canlı tutuyor. İran savaşı haberleri çok sayıda olmasına rağmen güvenli liman talebini artırdığına dair net bir işaret yok, bu yüzden etkisi sınırlı kalıyor. Gözlem penceresi kısa olduğu için güven orta seviyede.
 16.11 21:35 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 21:35 B6  karar turu: Claude «Yapay zeka/yarı iletken kaynaklı riskten kaçış sürüyor ve son saatte satış hızlanıyor, kapanışa doğru zayıflığın devamı bekleniyor.» / GPT «-»
@@ -100,6 +96,10 @@ Son işlemler:
 16.11 21:59 N  NEWS (13 new) score -0.10 conf 0.30: Yeni haberlerin çoğu altın fiyatıyla ilgisiz (füze testi, askeri ve şirket haberleri). Fed Başkanı Warsh'un AI etkisine dair açıklamaları enflasyon riskinden kaçınır görünüyor, bu da hafif nötr-düşük. Önceden bilinen zayıf dolar/yüksek tahvil getirisi baskısı ve "faiz artırımı" tartışmaları altını hâlâ aşağı çekiyor; jeopolitik güvenli liman talebini artıracak yeni bir gelişme yok.
 16.11 21:59 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 21:59 B6  karar turu: Claude «Piyasa, NVDA liderlik krizi ve çip ihracat kısıtlamalarıyla teknoloji ağırlıklı satış baskısı altında; son saatte yatay bir konsolidasyon görülüyor.» / GPT «-»
+16.11 22:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+16.11 22:11 N  NEWS (13 new) score -0.25 conf 0.50: Yeni başlıklarda Fed'in faiz artırımı risklerine ve doların yükselişine dair haberler altın için baskı yaratıyor; İran savaşına ilişkin uçak gemisi konuşlanmaları ise güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış görünüyor. Merkez bankası alımları bir miktar destek sağlıyor, bu nedenle etki hafif negatif kabul edildi.
+16.11 22:11 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+16.11 22:11 B6  karar turu: Claude «Yapay zeka ve yarı iletken satışlarıyla piyasa sert düştü, son bir saatte dengelendi; kapanışa az zaman kaldığı için seçici kalınmalı.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
