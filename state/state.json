@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    5000.0
-   ],
-   [
     1794258206,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794853947,
+    5000.0
+   ],
+   [
+    1794854145,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    4868.5
-   ],
-   [
     1794258206,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794853947,
     4868.5
+   ],
+   [
+    1794854145,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
+   "score": -0.45,
    "confidence": 0.6,
-   "reason": "Alt\u0131n, Hazine tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar\u0131n bask\u0131s\u0131yla y\u0131ll\u0131k dibe geriledi; ABD enflasyon verisi ve Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015fmas\u0131 (Warsh/Barr a\u00e7\u0131klamalar\u0131) politika s\u0131k\u0131la\u015ft\u0131rma beklentisini canl\u0131 tutarak alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. \u0130ran sava\u015f\u0131 haberleri g\u00fcvenli liman talebini destekliyor olsa da bu etki, reel faiz ve dolar kanal\u0131n\u0131n gerisinde kal\u0131yor; bu nedenle net etki hafif-orta d\u00fczeyde negatif.",
+   "reason": "Haberler genel olarak alt\u0131n i\u00e7in olumsuz: Dolar Liberation Day kay\u0131plar\u0131n\u0131 silmi\u015f, Treasury getirileri ve dolar alt\u0131na bask\u0131 yap\u0131yor ve alt\u0131n 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesinde. Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015f\u0131l\u0131yor ve enflasyon verileri s\u0131k\u0131la\u015fma endi\u015felerini canl\u0131 tutuyor. \u0130ran sava\u015f\u0131 haberleri \u00e7ok say\u0131da olmas\u0131na ra\u011fmen g\u00fcvenli liman talebini art\u0131rd\u0131\u011f\u0131na dair net bir i\u015faret yok, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. G\u00f6zlem penceresi k\u0131sa oldu\u011fu i\u00e7in g\u00fcven orta seviyede.",
    "n": 45,
-   "ts": 1794853416023,
-   "new_headlines": 45,
+   "ts": 1794854134636,
+   "new_headlines": 12,
    "key_events": [
     "Alt\u0131n y\u0131ll\u0131k dibe geriledi; tahvil getirileri ve dolar bask\u0131 yarat\u0131yor",
     "ABD enflasyon verisi ve Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015fmas\u0131",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794281312044,
-    "score": -0.1,
-    "confidence": 0.3,
-    "reason": "",
-    "new": 5,
-    "gpt_score": -0.15,
-    "gpt_confidence": 0.3
-   },
    {
     "ts": 1794282061926,
     "score": -0.15,
@@ -29803,20 +29794,35 @@
     "new": 45,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794854134636,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Haberler genel olarak alt\u0131n i\u00e7in olumsuz: Dolar Liberation Day kay\u0131plar\u0131n\u0131 silmi\u015f, Treasury getirileri ve dolar alt\u0131na bask\u0131 yap\u0131yor ve alt\u0131n 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesinde. Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015f\u0131l\u0131yor ve enflasyon verileri s\u0131k\u0131la\u015fma endi\u015felerini canl\u0131 tutuyor. \u0130ran sava\u015f\u0131 haberleri \u00e7ok say\u0131da olmas\u0131na ra\u011fmen g\u00fcvenli liman talebini art\u0131rd\u0131\u011f\u0131na dair net bir i\u015faret yok, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. G\u00f6zlem penceresi k\u0131sa oldu\u011fu i\u00e7in g\u00fcven orta seviyede.",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-16",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
-   "Trump\u2019s Asia trip faces hurdles from Nvidia scandal, Iran war - NewsNation",
    "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
-   "Warsh outlines three possible super intelligence scenarios for US economy - Baltimore Sun",
+   "Tether Capital Invests $15 Million in Nomad to Expand Access to Dollar-Based Financial Services in Brazil - Tether.io",
+   "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
+   "Dollar Erases Liberation Day Loss as \u2018Sell America\u2019 Fear Fades - Bloomberg.com",
+   "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System - PYMNTS.com",
    "Italy unveils plans to develop a new naval missile launcher - Breaking Defense",
+   "Bibliometric Study of Century-Long Trade War Research Reveals Heavy US-China Focus - Bioengineer.org",
+   "Fed\u2019s Barr says AI agents could fuel future bank runs - American Banker",
+   "Warsh outlines three possible super intelligence scenarios for US economy - Baltimore Sun",
+   "Fed Chairman Warsh grapples with AI\u2019s potential economic impact, steers clear of its inflation risk - KTVN",
    "US inflation data deepens risk aversion channel for silver as policy tightening worries persist - Traders Union",
    "These peace groups are challenging Trump\u2019s war on Iran - Prism Reports",
-   "Matt Duss: End The Iran War, End The Blockade, Stop The Israel Merger - FOREVER WARS by Spencer Ackerman",
+   "Warsh Says Fed Is Gaming Out How AI Could Reshape Economy - WSJ",
    "How the Iran war has disrupted the world of sport - The New Arab",
    "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
    "'Parents are offering to pay kids' wages': Salon owner",
@@ -29828,40 +29834,30 @@
    "Federal Reserve considers AI\u2019s impact on economy, potential rate hikes - Crypto Briefing",
    "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015 - KFGO",
    "Cargo ship capsizes off Bulgaria\u2019s Black Sea coast - Al Jazeera",
-   "How will AI shake up the economy? Warsh says the Fed is starting to figure that out. - MarketWatch",
    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
    "Wage War Makes Landfall On Their US Tour - MUSIC SCENE MEDIA",
    "A War Without Beneficiaries - Riddle Russia",
    "Duckworth, Warren And Gillibrand Move To Block Funding For Trump\u2019s Iran War - RiverBender.com",
    "The War Room newsletter: Will America or Iran blink first? - The Economist",
+   "Brussels Sanctions Russian Refineries, 'Shadow Fleet' Entities - Energy Intelligence",
    "Warsh outlines 3 possible AI futures for US economy, from growth boom to job losses - KFOX",
    "Put James Bond Back in the Cold War - National Review",
    "How the War Made Journalism Harder in Iran - Yahoo",
+   "Peak Energy Eyes Korea Green Projects as War Upends Fuel Flows - Energy Connects",
    "Prince Harry tells wounded Ukrainian veterans, 'You're going to win the war' - KFOX",
    "EU plans sanctions against Iran after supermarket freezer sabotage - Yahoo",
+   "Syria: Progress \u2018real\u2019 but fragile, as remnants of war wreck young lives - UN News",
    "Trump Claims U.S. Air Defenses Intercepted 99.99% of Iran\u2019s Missile and Drone Attacks: who 17 outlets blamed - NewsCord",
    "Fed Chair Kevin Warsh Speaks Live Today on AI and Tech - Barron's",
    "Hezbollah Sets Conditions for Lebanese Dialogue as Israel Warns of Iran War Role: 6 outlets compared - NewsCord",
    "Fed chair Kevin Warsh says AI boom could help sustain \u2018substantially higher\u2019 US growth - Financial Times",
    "Silver leads Gold to new 2026 lows: What the ratio says - FXStreet",
    "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams - The New York Times",
-   "Fed's Barr warns on AI risks to financial system - Reuters",
    "Gold isn't being sold for thew reason most people think - FXStreet",
-   "Warsh grapples with AI\u2019s potential economic impact, steers clear of its inflation risk - MyNorthwest.com",
-   "Fed Chairman Warsh grapples with AI\u2019s potential economic impact, steers clear of its inflation risk - KSAT",
-   "Under Secretary of War for Policy Elbridge Colby Travels to Brussels - U.S. Department of War (.gov)",
-   "Fed warns of growing financial risks from AI boom - Axios",
-   "Fed's Warsh sees risk of stock bust if AI boom disappoints - Axios",
-   "Washington Letter: Iran war looms over the upcoming Congress and potential 2028 contenders - OSV News",
-   "Pentagon Ignored Iran Threats In Kuwait. Then, 6 US Soldiers Died - NDTV",
-   "Retired K9 Andor honored with Medal of Bravery at Animals in War & Peace Ceremony - KCENTV.com"
+   "Warsh grapples with AI\u2019s potential economic impact, steers clear of its inflation risk - Audacy"
   ]
  },
  "log": [
-  "15.11 11:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 11:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 11:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 11:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 11:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 11:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 11:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30153,11 @@
   "16.11 21:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "16.11 21:23 N  NEWS (45 new) score -0.50 conf 0.60: Alt\u0131n, Hazine tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar\u0131n bask\u0131s\u0131yla y\u0131ll\u0131k dibe geriledi; ABD enflasyon verisi ve Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015fmas\u0131 (Warsh/Barr a\u00e7\u0131klamalar\u0131) politika s\u0131k\u0131la\u015ft\u0131rma beklentisini canl\u0131 tutarak alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. \u0130ran sava\u015f\u0131 haberleri g\u00fcvenli liman talebini destekliyor olsa da bu etki, reel faiz ve dolar kanal\u0131n\u0131n gerisinde kal\u0131yor; bu nedenle net etki hafif-orta d\u00fczeyde negatif.",
   "16.11 21:23 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "16.11 21:23 B6  karar turu: Claude \u00abNvidia liderlik krizi ve \u00e7ip ihracat k\u0131s\u0131tlamalar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 bir risk-off ortam\u0131 yarat\u0131yor, piyasa g\u00fcn sonuna do\u011fru zay\u0131f seyrediyor.\u00bb / GPT \u00ab-\u00bb"
+  "16.11 21:23 B6  karar turu: Claude \u00abNvidia liderlik krizi ve \u00e7ip ihracat k\u0131s\u0131tlamalar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 bir risk-off ortam\u0131 yarat\u0131yor, piyasa g\u00fcn sonuna do\u011fru zay\u0131f seyrediyor.\u00bb / GPT \u00ab-\u00bb",
+  "16.11 21:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "16.11 21:35 N  NEWS (12 new) score -0.45 conf 0.60: Haberler genel olarak alt\u0131n i\u00e7in olumsuz: Dolar Liberation Day kay\u0131plar\u0131n\u0131 silmi\u015f, Treasury getirileri ve dolar alt\u0131na bask\u0131 yap\u0131yor ve alt\u0131n 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesinde. Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015f\u0131l\u0131yor ve enflasyon verileri s\u0131k\u0131la\u015fma endi\u015felerini canl\u0131 tutuyor. \u0130ran sava\u015f\u0131 haberleri \u00e7ok say\u0131da olmas\u0131na ra\u011fmen g\u00fcvenli liman talebini art\u0131rd\u0131\u011f\u0131na dair net bir i\u015faret yok, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. G\u00f6zlem penceresi k\u0131sa oldu\u011fu i\u00e7in g\u00fcven orta seviyede.",
+  "16.11 21:35 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
+  "16.11 21:35 B6  karar turu: Claude \u00abYapay zeka/yar\u0131 iletken kaynakl\u0131 riskten ka\u00e7\u0131\u015f s\u00fcr\u00fcyor ve son saatte sat\u0131\u015f h\u0131zlan\u0131yor, kapan\u0131\u015fa do\u011fru zay\u0131fl\u0131\u011f\u0131n devam\u0131 bekleniyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    4963.78
-   ],
-   [
     1794258206,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794853947,
+    4963.78
+   ],
+   [
+    1794854145,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    4975.18
-   ],
-   [
     1794258206,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794853947,
+    4975.18
+   ],
+   [
+    1794854145,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    4993.28
-   ],
-   [
     1794258206,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794853947,
+    4993.28
+   ],
+   [
+    1794854145,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794258036,
-    4969.22
-   ],
-   [
     1794258206,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794853947,
+    4969.22
+   ],
+   [
+    1794854145,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794258036,
-    4320.57
-   ],
    [
     1794258206,
     4320.57
@@ -93138,6 +93134,10 @@
    [
     1794853947,
     4545.26
+   ],
+   [
+    1794854145,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794258036,
-    111691.09
-   ],
    [
     1794258206,
     111691.09
@@ -106223,30 +106219,24 @@
    [
     1794853947,
     114145.15
+   ],
+   [
+    1794854145,
+    114145.15
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794853416292,
+  "last_decision_ms": 1794854134887,
   "view": {
-   "ts": 1794853416292,
-   "claude": "Nvidia liderlik krizi ve \u00e7ip ihracat k\u0131s\u0131tlamalar\u0131 teknoloji a\u011f\u0131rl\u0131kl\u0131 bir risk-off ortam\u0131 yarat\u0131yor, piyasa g\u00fcn sonuna do\u011fru zay\u0131f seyrediyor.",
+   "ts": 1794854134887,
+   "claude": "Yapay zeka/yar\u0131 iletken kaynakl\u0131 riskten ka\u00e7\u0131\u015f s\u00fcr\u00fcyor ve son saatte sat\u0131\u015f h\u0131zlan\u0131yor, kapan\u0131\u015fa do\u011fru zay\u0131fl\u0131\u011f\u0131n devam\u0131 bekleniyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
-     "claude": [
-      "none",
-      0.35
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
      "claude": [
       "short",
       0.5
@@ -106256,10 +106246,20 @@
       null
      ]
     },
-    "NVDA": {
+    "QQQ": {
      "claude": [
       "short",
-      0.58
+      0.55
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.35
      ],
      "gpt": [
       null,
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794258036,
-    4944.42
-   ],
    [
     1794258206,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794853947,
+    4876.96
+   ],
+   [
+    1794854145,
     4876.96
    ]
   ],
