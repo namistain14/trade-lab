@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 00:23 (İstanbul)
+> Son güncelleme: 17.11.2026 00:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 00:14): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyonu faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın bir yılın en düşük seviyesine geriledi; bu baskı jeopolitik (İran savaşı) kaynaklı güvenli liman talebinden daha belirleyici görünüyor. Fed'in Hammack'ten gelen sıkılaştırıcı açıklamaları tekrar eden haberler olduğu için etkisi kısmen fiyatlanmış olabilir.
+Son haber analizi (17.11 00:26): Claude puan **-0.70**, güven 0.75 — Sıcak ABD enflasyonu, faiz artırımı beklentilerini besliyor ve dolar yükseliyor; altın yıllık en düşük seviyeye geriledi. Hawkish Fed söylemleri (Hammack, Warsh) ve güçlü dolar kısa vadede altın için baskılayıcı. Jeopolitik korku veya güvenli liman talebine dair yeni bir başlık yok, bu yüzden düşüş eğilimi ağır basıyor; ancak altın zaten büyük ölçüde fiyatlanmış olabileceğinden güven orta düzeyde.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 23:00 B6  karar turu: Claude «Teknoloji ağırlıklı ve Nvidia kaynaklı risk-off bir gün kapandı; seans sonrası düşük likidite ve manşet riski nedeniyle yeni pozisyon açmak yerine yarının açılışını beklemek daha disiplinli.» / GPT «-»
-16.11 23:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 23:13 N  NEWS (40 new) score -0.60 conf 0.60: Altın 13 aylık ve bir yıllık dip seviyelerinde, güçlenen dolar ve artan Fed faiz artırımı beklentileri nedeniyle baskı altında; bu reel faiz ve dolar kanalı kısa vadede altın için net negatif. Merkez bankası alımları ve Kırım köprüsü saldırısı gibi jeopolitik gelişmeler sınırlı destek sağlasa da fiyatlamaya yetmiyor; birçok başlık tekrar niteliğinde olduğu için güven orta düzeyde.
 16.11 23:13 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 23:13 B6  karar turu: Claude «Nvidia liderlik krizi ve faiz artışı beklentileriyle teknoloji ağırlıklı sert bir satış günü yaşandı, ancak piyasa kapandığı için yeni intraday pozisyon açmak yerine yarının açılışı beklenmeli.» / GPT «-»
@@ -100,6 +98,8 @@ Son işlemler:
 17.11 00:02 N  NEWS (38 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu faiz artırımı beklentilerini ve doları güçlendiriyor; Fed'in Hammack'in şahin açıklamaları da altın için olumsuz. İran savaşına dair jeopolitik risk altını destekleyebilir ancak haberler altının yıllık en düşük seviyeye gerilediğini gösteriyor, bu da güvenli liman talebinin şu an baskılanabildiğini gösteriyor.
 17.11 00:14 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 00:14 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın bir yılın en düşük seviyesine geriledi; bu baskı jeopolitik (İran savaşı) kaynaklı güvenli liman talebinden daha belirleyici görünüyor. Fed'in Hammack'ten gelen sıkılaştırıcı açıklamaları tekrar eden haberler olduğu için etkisi kısmen fiyatlanmış olabilir.
+17.11 00:26 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 00:26 N  NEWS (30 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, faiz artırımı beklentilerini besliyor ve dolar yükseliyor; altın yıllık en düşük seviyeye geriledi. Hawkish Fed söylemleri (Hammack, Warsh) ve güçlü dolar kısa vadede altın için baskılayıcı. Jeopolitik korku veya güvenli liman talebine dair yeni bir başlık yok, bu yüzden düşüş eğilimi ağır basıyor; ancak altın zaten büyük ölçüde fiyatlanmış olabileceğinden güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
