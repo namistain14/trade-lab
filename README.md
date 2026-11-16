@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 02:00 (İstanbul)
+> Son güncelleme: 17.11.2026 02:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 01:51): Claude puan **-0.40**, güven 0.50 — Faiz artırımı beklentileri ve güçlenen doların (DXY) altın üzerinde baskı yaratması, jeopolitik risk primini kısmen dengeliyor. Fed'in şahin tonu (Hammack'in küçük artırım tercihi) ve sıcak enflasyon verisi kısa vadede altı aşağı çekebilir, ancak İran–Ukrayna–Yemen kaynaklı güvenli liman talebi sınırlı bir destek sağlayabilir; yeni haberlerin çoğu zaten fiyatlanmış niteliktedir.
+Son haber analizi (17.11 02:03): Claude puan **-0.70**, güven 0.75 — Sıcak ABD enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi (Hammack ve diğer yetkililerin küçük ama devam eden artırımları savunması) ve dolardaki yükseliş altını 1 yılın en düşük seviyesine ve 52 haftanın dibine itti. Jeopolitik risk (Yemen/Husi) ise güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor. Fiyatlara çoktan yansımış olması ve altın için olası alım desteği (Goldman merkez bankası alımları) kısa vadede sert düşüş riskini biraz sınırlayabilir.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 00:26 N  NEWS (30 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, faiz artırımı beklentilerini besliyor ve dolar yükseliyor; altın yıllık en düşük seviyeye geriledi. Hawkish Fed söylemleri (Hammack, Warsh) ve güçlü dolar kısa vadede altın için baskılayıcı. Jeopolitik korku veya güvenli liman talebine dair yeni bir başlık yok, bu yüzden düşüş eğilimi ağır basıyor; ancak altın zaten büyük ölçüde fiyatlanmış olabileceğinden güven orta düzeyde.
-17.11 00:38 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 00:38 N  NEWS (43 new) score -0.05 conf 0.35: Jeopolitik başlıklar (ABD-İran savaşı, üçüncü uçak gemisinin bölgeye gelmesi, İsrail'in yeniden savaş ihtimali) güvenli liman talebini destekleyerek altı yukarı çekebilir. Ancak "Gold price drops to more than one-year low" ve "Inflation is back - so why is gold falling?" başlıkları, enflasyon ve faiz beklentileri kaynaklı baskının sürdüğünü gösteriyor; bu da kısa vadede altı aşağı çekebilir. Haberlerin büyük kısmı genel savaş arka planı olup fiyatlanmış veya alakasız olduğu için net yön sinyali zayıf.
 17.11 00:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 00:51 N  NEWS (8 new) score +0.05 conf 0.30: 
@@ -100,6 +98,8 @@ Son işlemler:
 17.11 01:39 N  NEWS (16 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: sıcak ABD enflasyonu faiz artırımı beklentilerini güçlendiriyor, dolar haftalık kazançlarını uzatıyor ve Fed'in Hammack gibi isimleri küçük artırımlardan yana. Jeopolitik gerilim (Kiev köprülerine füze saldırıları, Husi ilerlemesi) güvenli liman talebi yaratabilir, ancak etkisi sınırlı kalıyor; merkez bankası alımlarıyla ilgili Goldman tahmini ise uzun vadeli ve kısa vadeli etkisi zayıf. Altının yılın en düşük seviyesine inmesi gibi bilgiler zaten fiyatlanmış olduğu için güveni biraz sınırladım.
 17.11 01:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 01:51 N  NEWS (7 new) score -0.40 conf 0.50: Faiz artırımı beklentileri ve güçlenen doların (DXY) altın üzerinde baskı yaratması, jeopolitik risk primini kısmen dengeliyor. Fed'in şahin tonu (Hammack'in küçük artırım tercihi) ve sıcak enflasyon verisi kısa vadede altı aşağı çekebilir, ancak İran–Ukrayna–Yemen kaynaklı güvenli liman talebi sınırlı bir destek sağlayabilir; yeni haberlerin çoğu zaten fiyatlanmış niteliktedir.
+17.11 02:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 02:03 N  NEWS (32 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi (Hammack ve diğer yetkililerin küçük ama devam eden artırımları savunması) ve dolardaki yükseliş altını 1 yılın en düşük seviyesine ve 52 haftanın dibine itti. Jeopolitik risk (Yemen/Husi) ise güvenli liman talebi yaratmadığı için bu baskıyı dengelemiyor. Fiyatlara çoktan yansımış olması ve altın için olası alım desteği (Goldman merkez bankası alımları) kısa vadede sert düşüş riskini biraz sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

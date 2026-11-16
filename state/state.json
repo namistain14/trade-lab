@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    5000.0
-   ],
-   [
     1794274048,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794870041,
+    5000.0
+   ],
+   [
+    1794870228,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    4868.5
-   ],
-   [
     1794274048,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794870041,
     4868.5
+   ],
+   [
+    1794870228,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.5,
-   "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir.",
+   "score": -0.7,
+   "confidence": 0.75,
+   "reason": "S\u0131cak ABD enflasyonu, Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi (Hammack ve di\u011fer yetkililerin k\u00fc\u00e7\u00fck ama devam eden art\u0131r\u0131mlar\u0131 savunmas\u0131) ve dolardaki y\u00fckseli\u015f alt\u0131n\u0131 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine ve 52 haftan\u0131n dibine itti. Jeopolitik risk (Yemen/Husi) ise g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengelemiyor. Fiyatlara \u00e7oktan yans\u0131m\u0131\u015f olmas\u0131 ve alt\u0131n i\u00e7in olas\u0131 al\u0131m deste\u011fi (Goldman merkez bankas\u0131 al\u0131mlar\u0131) k\u0131sa vadede sert d\u00fc\u015f\u00fc\u015f riskini biraz s\u0131n\u0131rlayabilir.",
    "n": 45,
-   "ts": 1794869507342,
-   "new_headlines": 7,
+   "ts": 1794870227557,
+   "new_headlines": 32,
    "key_events": [
     "Hammack ve Warsh'tan faiz art\u0131r\u0131m\u0131na a\u00e7\u0131k, s\u0131k\u0131la\u015ft\u0131rma yanl\u0131s\u0131 Fed a\u00e7\u0131klamalar\u0131",
     "S\u0131cak ABD enflasyonu sonras\u0131 dolar haftal\u0131k y\u00fckseli\u015fte; EUR/USD 1.10'a geriledi",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794297330878,
-    "score": -0.1,
-    "confidence": 0.3,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131n sona erebilece\u011fine dair haberler jeopolitik risk primini azaltarak alt\u0131n i\u00e7in hafif olumsuz bir etki yarat\u0131yor; petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ise enflasyon beklentilerini gerileterek Fed s\u0131k\u0131la\u015ft\u0131rma endi\u015felerini hafifletip k\u0131smen destekleyici olabilir. As\u0131l belirleyici olay bu gecek ABD CPI verisi olup y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 7,
-    "gpt_score": -0.28,
-    "gpt_confidence": 0.46
-   },
    {
     "ts": 1794298050026,
     "score": -0.3,
@@ -29803,63 +29794,70 @@
     "new": 7,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794870227557,
+    "score": -0.7,
+    "confidence": 0.75,
+    "reason": "S\u0131cak ABD enflasyonu, Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi (Hammack ve di\u011fer yetkililerin k\u00fc\u00e7\u00fck ama devam eden art\u0131r\u0131mlar\u0131 savunmas\u0131) ve dolardaki y\u00fckseli\u015f alt\u0131n\u0131 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine ve 52 haftan\u0131n dibine itti. Jeopolitik risk (Yemen/Husi) ise g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengelemiyor. Fiyatlara \u00e7oktan yans\u0131m\u0131\u015f olmas\u0131 ve alt\u0131n i\u00e7in olas\u0131 al\u0131m deste\u011fi (Goldman merkez bankas\u0131 al\u0131mlar\u0131) k\u0131sa vadede sert d\u00fc\u015f\u00fc\u015f riskini biraz s\u0131n\u0131rlayabilir.",
+    "new": 32,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 10
+   "n": 11
   },
   "news_seen": [
-   "Middle East latest: Pakistan awaits US response to latest Iran proposals - thenationalnews.com",
    "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
-   "U.S. dollar\u2019s AI-driven breakout could become a stock-market wrecking ball - MarketWatch",
-   "Inside the U.S.-Canada Trade War - Industrial Equipment News",
-   "Case to decide Prince George\u2019s County\u2019s $39 million tug-of-war postponed again - The Baltimore Banner",
-   "Opinion | Why the Ukraine War Is Working for Putin - WSJ",
-   "The Left\u2019s War on Gig - The Washington Post",
+   "Gold and silver settle at new 52-week lows as U.S. rate hike bets boost dollar (GLD:NYSEARCA) - Seeking Alpha",
+   "Gold, silver extend losses as tech selloff, dollar pressure metals- Kitco PM Report - Kitco",
    "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
    "Warsh highlights AI risks and implications for economy - Ticker News",
-   "Washington Policy Weekly: Senators Push to Remove US-Israel Defense Cooperation Provisions from NDAA - Arab Center Washington DC",
-   "EU sanctions four Haitian gangs over serious human rights violations - 1470 & 100.3 WMBD",
-   "Contracts for Nov. 16, 2026 - U.S. Department of War (.gov)",
-   "Russian Missiles Hit Kyiv\u2019s North and South Bridges as Allies Prepare to Meet at NATO HQ - UNITED24 Media",
-   "Virginia state Sen. Louise Lucas requests sanctions against Blanche, Patel over comments - National News Desk",
-   "Can the US, China, and Russia Keep AI from Triggering Nuclear War? - The National Interest",
+   "Central bank buying to support higher gold price in 2027: Goldman - Mining.com.au",
    "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine - The Kyiv Independent",
-   "The Trade War Was a Problem Before Iran\u2014Congress Can End It - Cato Institute",
-   "EU Targets Russia\u2019s E-Commerce Giant and Dozens More Banks in Latest Wartime Sanctions Push - Kharon",
-   "Houthis retake Bab al Mandeb and move toward Aden - FDD's Long War Journal",
+   "Gold price update, morning of November 17, 2026: SJC, 9999 gold rings, DOJI BTMC, PNJ, Phu Quy. - Vietnam.vn",
    "Mexican Peso Retreats Against Dollar as 19-Month Dollar High Pressures Emerging Market Currencies - BigGo Finance",
-   "Zelenskyy Calls for Missile Parity as North Korea Sends Russia Dozens of Ballistic Missiles a Month - UNITED24 Media",
    "Fed officials debate AI\u2019s impact on inflation and interest rates - ColoradoBiz",
-   "891st Missile Security Forces Squadron Airmen earn expert pistol qualification - Minot Air Force Base (.mil)",
-   "Salute to Veterans | Gulf War vet remembers \u2018camaraderie, brotherhood\u2019 - Rogue Valley Times",
-   "New DoW Audit Progress Marks Breakthrough Toward a Department-Wide Clean Opinion - U.S. Department of War (.gov)",
+   "Gold Prices Fall to Lowest Level in More Than a Year - Qatar news agency",
+   "StrikePoint Gold Strengthens Management Team - Investing News Network",
    "Fed\u2019s Hammack Reiterates Preference for Small, Incremental Hikes - Bloomberg.com",
    "Houthi rebel advance in Yemen may further destabilise global economy",
-   "MTSU students turn rules of war into interactive games at Nov. 18 Red Cross event - MTSU News",
-   "Beyond screening: FCA sets out its expectations for effective sanctions controls - Stephenson Harwood",
-   "\u2018Espionage in World War II: The FBI and OSS\u2019 with Bradley Hart - Small Wars Journal",
+   "Fake gold jewelry made from industrial metal tricks Japan shops - Nikkei Asia",
    "Fed Decision And Inflation Data Cast Shadow Over Malaysia Equities As KLCI Steadies Above 1,610 - Foreign Policy Journal",
-   "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-   "Zelensky warns of imminent Russian attacks, 'extremely dangerous' North Korean missile development - The Kyiv Independent",
-   "California rep. calls for refund checks to be given to Americans due to the Iran war - KEYE",
-   "Half of the Russians in new EU sanctions package listed with incomplete or incorrect data, The Insider finds - theins.press",
-   "Iranian parliament speaker says regional calm hinges on ending Israel\u2019s war on Lebanon - Anadolu Ajans\u0131",
-   "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
+   "American Barrick Gold Launches IPO For Separation And Production Growth (ABGC) - Seeking Alpha",
    "Fed Chairman Highlights Economic Uncertainty of A.I. Boom - The New York Times",
-   "JD Vance promises Iran won\u2019t turn into \u2018forever war\u2019 \u2014 and Trump will end it by 2028 - New York Post",
    "Wall Street Has Bad News for Your Wallet - U.S. News & World Report",
-   "Another View: World War II still has lessons for today\u2019s wars - Marin Independent Journal",
-   "A newly translated book looks at the Russian side of World War II's Lend-Lease program - Alaska Public Media",
+   "Orezone Gold Reports Third Quarter 2026 Results - aapnews.aap.com.au",
    "FX weekly: Dollar extends weekly gains as hot U.S. inflation fuels rate-hike bets (DXY:) - Seeking Alpha",
-   "The Fed Is Worried AI Agents Could Trigger a Bank Run - Gizmodo"
+   "The Fed Is Worried AI Agents Could Trigger a Bank Run - Gizmodo",
+   "US Strategic Petroleum Reserve Hits Lowest Level Since 1982 - News and Statistics - IndexBox",
+   "CPI | Supreme Court Denies Custodia Bank Appeal in Federal Reserve Dispute - PYMNTS.com",
+   "US Inflation Pressures Intensify, but Cleveland Fed President Says She Prefers \"Small Rate Hikes\" - BigGo Finance",
+   "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+   "What the Federal Reserve Is Saying About the State of the AI Revolution - American Enterprise Institute - AEI",
+   "Cleveland Fed\u2019s Hammack prefers small hikes, sees risk of bigger moves - Crain's Cleveland",
+   "Fed chair weighs AI\u2019s economic impact, but sidesteps inflation risk - Fast Company",
+   "Gold price drops to more than one-year low - Mining.com.au",
+   "US Dollar Technical Outlook: DXY Bulls Fight to Hold Critical Support Ahead of NFP - StoneX",
+   "Fed's Hammack backs slow hikes as inflation broadens - FXStreet",
+   "Cleveland Fed's Hammack says more rate hikes are needed to lower inflation - Seeking Alpha",
+   "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks - The Lufkin Daily News",
+   "Gold price dip presents an opportunity for long-term investors - FXStreet",
+   "Lindsay Clancy to face retrial next year for deaths of her three children",
+   "Inflation is back - so why is gold falling? - Kitco",
+   "Fed Chair Kevin Warsh: Three Scenarios Show How Superintelligence Impacts US Economy and Employment - TradingKey",
+   "Gold Price November 17 2026 - Robinhood",
+   "US reserve crude stocks fall by most in nearly three months - Quantum Commodity Intelligence",
+   "Gold\u2019s bull market will benefit from tech selloff as capital rotates back into precious metals \u2013 Jesse Colombo - Kitco",
+   "A Perfect Storm for the US Dollar - Investing.com",
+   "Gold drops to more than one-year low as US dollar marches higher - The Korea Times",
+   "BPI Statement on Supreme Court Preserving Federal Reserve Discretion Over Master Accounts - Bank Policy Institute",
+   "Dollar Erases Liberation Day Loss as \u2018Sell America\u2019 Fear Fades - Bloomberg.com"
   ]
  },
  "log": [
-  "15.11 13:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 14:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 14:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 14:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 14:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 01:39 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 01:39 N  NEWS (16 new) score -0.50 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: s\u0131cak ABD enflasyonu faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor, dolar haftal\u0131k kazan\u00e7lar\u0131n\u0131 uzat\u0131yor ve Fed'in Hammack gibi isimleri k\u00fc\u00e7\u00fck art\u0131r\u0131mlardan yana. Jeopolitik gerilim (Kiev k\u00f6pr\u00fclerine f\u00fcze sald\u0131r\u0131lar\u0131, Husi ilerlemesi) g\u00fcvenli liman talebi yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; merkez bankas\u0131 al\u0131mlar\u0131yla ilgili Goldman tahmini ise uzun vadeli ve k\u0131sa vadeli etkisi zay\u0131f. Alt\u0131n\u0131n y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine inmesi gibi bilgiler zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
   "17.11 01:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 01:51 N  NEWS (7 new) score -0.40 conf 0.50: Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir."
+  "17.11 01:51 N  NEWS (7 new) score -0.40 conf 0.50: Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (DXY) alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131, jeopolitik risk primini k\u0131smen dengeliyor. Fed'in \u015fahin tonu (Hammack'in k\u00fc\u00e7\u00fck art\u0131r\u0131m tercihi) ve s\u0131cak enflasyon verisi k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir, ancak \u0130ran\u2013Ukrayna\u2013Yemen kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 bir destek sa\u011flayabilir; yeni haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f niteliktedir.",
+  "17.11 02:03 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 02:03 N  NEWS (32 new) score -0.70 conf 0.75: S\u0131cak ABD enflasyonu, Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi (Hammack ve di\u011fer yetkililerin k\u00fc\u00e7\u00fck ama devam eden art\u0131r\u0131mlar\u0131 savunmas\u0131) ve dolardaki y\u00fckseli\u015f alt\u0131n\u0131 1 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine ve 52 haftan\u0131n dibine itti. Jeopolitik risk (Yemen/Husi) ise g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengelemiyor. Fiyatlara \u00e7oktan yans\u0131m\u0131\u015f olmas\u0131 ve alt\u0131n i\u00e7in olas\u0131 al\u0131m deste\u011fi (Goldman merkez bankas\u0131 al\u0131mlar\u0131) k\u0131sa vadede sert d\u00fc\u015f\u00fc\u015f riskini biraz s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    4963.78
-   ],
-   [
     1794274048,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794870041,
+    4963.78
+   ],
+   [
+    1794870228,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    4975.18
-   ],
-   [
     1794274048,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794870041,
+    4975.18
+   ],
+   [
+    1794870228,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    4993.28
-   ],
-   [
     1794274048,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794870041,
+    4993.28
+   ],
+   [
+    1794870228,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794273858,
-    4969.22
-   ],
-   [
     1794274048,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794870041,
+    4969.22
+   ],
+   [
+    1794870228,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794273858,
-    4264.67
-   ],
    [
     1794274048,
     4264.67
@@ -93138,6 +93134,10 @@
    [
     1794870041,
     4545.26
+   ],
+   [
+    1794870228,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794273858,
-    111691.09
-   ],
    [
     1794274048,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794870041,
     114145.15
+   ],
+   [
+    1794870228,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794273858,
-    4944.42
-   ],
    [
     1794274048,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794870041,
+    4876.96
+   ],
+   [
+    1794870228,
     4876.96
    ]
   ],
