@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    5000.0
-   ],
-   [
     1794269839,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794865675,
+    5000.0
+   ],
+   [
+    1794865862,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    4868.5
-   ],
-   [
     1794269839,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794865675,
     4868.5
+   ],
+   [
+    1794865862,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.05,
-   "confidence": 0.35,
+   "score": 0.05,
+   "confidence": 0.3,
    "reason": "Jeopolitik ba\u015fl\u0131klar (ABD-\u0130ran sava\u015f\u0131, \u00fc\u00e7\u00fcnc\u00fc u\u00e7ak gemisinin b\u00f6lgeye gelmesi, \u0130srail'in yeniden sava\u015f ihtimali) g\u00fcvenli liman talebini destekleyerek alt\u0131 yukar\u0131 \u00e7ekebilir. Ancak \"Gold price drops to more than one-year low\" ve \"Inflation is back - so why is gold falling?\" ba\u015fl\u0131klar\u0131, enflasyon ve faiz beklentileri kaynakl\u0131 bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor; bu da k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 genel sava\u015f arka plan\u0131 olup fiyatlanm\u0131\u015f veya alakas\u0131z oldu\u011fu i\u00e7in net y\u00f6n sinyali zay\u0131f.",
    "n": 45,
-   "ts": 1794865093697,
-   "new_headlines": 43,
+   "ts": 1794865862003,
+   "new_headlines": 8,
    "key_events": [
     "Hammack ve Warsh'tan faiz art\u0131r\u0131m\u0131na a\u00e7\u0131k, s\u0131k\u0131la\u015ft\u0131rma yanl\u0131s\u0131 Fed a\u00e7\u0131klamalar\u0131",
     "S\u0131cak ABD enflasyonu sonras\u0131 dolar haftal\u0131k y\u00fckseli\u015fte; EUR/USD 1.10'a geriledi",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794292948296,
-    "score": -0.1,
-    "confidence": 0.4,
-    "reason": "\u0130ran sava\u015f\u0131n\u0131n \"yak\u0131nda bitmesi\" ve ABD'nin daha fazla sald\u0131r\u0131 olas\u0131l\u0131\u011f\u0131n\u0131 \"\u00e7ok d\u00fc\u015f\u00fck\" g\u00f6rmesi jeopolitik g\u00fcvenli liman talebini biraz azaltarak alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k Suudi Arabistan'a y\u00f6nelik Husi f\u00fcze sald\u0131r\u0131s\u0131 ve ABD CPI verisi \u00f6ncesi belirsizlik, k\u0131sa vadede y\u00f6n\u00fc dengeliyor; genel etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendiriliyor.",
-    "new": 4,
-    "gpt_score": -0.28,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1794293699341,
     "score": -0.2,
@@ -29803,25 +29794,38 @@
     "new": 43,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794865862003,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "",
+    "new": 8,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 4
+   "n": 5
   },
   "news_seen": [
+   "New DoW Audit Progress Marks Breakthrough Toward a Department-Wide Clean Opinion - U.S. Department of War (.gov)",
+   "StrikePoint Gold Strengthens Management Team - Investing News Network",
+   "MTSU students turn rules of war into interactive games at Nov. 18 Red Cross event - MTSU News",
+   "Fake gold jewelry made from industrial metal tricks Japan shops - Nikkei Asia",
    "\u2018Espionage in World War II: The FBI and OSS\u2019 with Bradley Hart - Small Wars Journal",
    "American Barrick Gold Launches IPO For Separation And Production Growth (ABGC) - Seeking Alpha",
    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
    "Zelensky warns of imminent Russian attacks, 'extremely dangerous' North Korean missile development - The Kyiv Independent",
    "California rep. calls for refund checks to be given to Americans due to the Iran war - National News Desk",
    "Half of the Russians in new EU sanctions package listed with incomplete or incorrect data, The Insider finds - theins.press",
+   "Iranian parliament speaker says regional calm hinges on ending Israel\u2019s war on Lebanon - Anadolu Ajans\u0131",
    "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
-   "Protected Spaces Moderate War Exposure and Mental Distress in Negev Bedouin Communities - Bioengineer.org",
    "JD Vance promises Iran won\u2019t turn into \u2018forever war\u2019 \u2014 and Trump will end it by 2028 - New York Post",
+   "Orezone Gold Reports Third Quarter 2026 Results - aapnews.aap.com.au",
    "EU sanctions 24 employees of Kremlin-linked disinformation operation after The Insider\u2019s investigations - https://theins.press/en",
    "The Latest: Trump says he plans to talk about war in Ukraine during meeting with Xi and Putin - KWKT - FOX 44",
-   "Orezone Gold Reports Third Quarter 2026 Results - GlobeNewswire",
    "Another View: World War II still has lessons for today\u2019s wars - Marin Independent Journal",
    "At least 110,000 Swiss precision rounds shipped to Russia in sanctions-evasion scheme, The Insider identifies importers - https://theins.press/en",
    "A newly translated book looks at the Russian side of World War II's Lend-Lease program - Alaska Public Media",
@@ -29830,18 +29834,18 @@
    "LeoLabs Buys Missile Defense and Space Awareness Engineering Firm FishEye - Via Satellite",
    "Bextel Denies Having $400K War Chest, Says Volunteers Got Finance Reports Wrong - Cowboy State Daily",
    "EU sanctions four Haitian gangs over serious human rights violations - Reuters",
-   "Forensic expert says his analysis of autopsy photos suggest Epstein was killed",
+   "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
    "Israel's caretaker government weighs renewed Iran war as US remains reluctant - Ynetnews",
    "How the US elections and Iran war are influencing the UN\u2019s COP31 climate talks \u2013 and discussions around fossil fuels - The Conversation",
    "3rd US aircraft carrier arrives in the Middle East as Trump keeps options open in Iran war - Las Vegas Review-Journal",
    "Rubio says Iran war not \u2018necessarily popular\u2019 but needed - The North State Journal",
    "Ro Khanna calls for $1,700 Iran war \u2018refund checks\u2019 - Denver Gazette",
    "Gold price drops to more than one-year low - Mining.com.au",
-   "War Secretary Announces General Officer Appointments for Nov. 16 - Mirage News",
    "Iran faces winter gas crisis after US war damages energy plants - The Jerusalem Post",
    "A year after taking her $5 billion online retail empire into Africa, Russia\u2019s richest woman faces EU sanctions over links to Europe's largest armed conflict - Business Insider Africa",
    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
    "Middle East latest: Pakistan awaits US response to latest Iran proposals - The National",
+   "Secretary of War General Officer Announcements for Nov. 16, 2026 - U.S. Department of War (.gov)",
    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - BankInfoSecurity",
    "Gold Use in Tech and Industry Increased Modestly in Q3 - FXStreet",
    "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war - AP News",
@@ -29850,16 +29854,10 @@
    "New memorial on National Mall brings closure to Gulf War veterans - The Eagle Online",
    "Lindsay Clancy to face retrial next year for deaths of her three children",
    "A French Court Annuls the $1.6-Million Sale of This Camille Pissarro Painting, Allegedly Looted During World War II - Smithsonian Magazine",
-   "'Darkhorse' Marines tell story of Afghan War's bloodiest battle in new documentary - KPBS",
-   "Inflation is back - so why is gold falling? - Kitco",
-   "Gulf remittances survived the war, but their growth did not - OMFIF",
-   "Syria: Progress \u2018real\u2019 but fragile, as remnants of war wreck young lives - UN News",
-   "Gold Price November 17 2026 - Robinhood"
+   "'Darkhorse' Marines tell story of Afghan War's bloodiest battle in new documentary - KPBS"
   ]
  },
  "log": [
-  "15.11 13:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 13:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 13:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 13:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 13:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 00:26 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 00:26 N  NEWS (30 new) score -0.70 conf 0.75: S\u0131cak ABD enflasyonu, faiz art\u0131r\u0131m\u0131 beklentilerini besliyor ve dolar y\u00fckseliyor; alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi. Hawkish Fed s\u00f6ylemleri (Hammack, Warsh) ve g\u00fc\u00e7l\u00fc dolar k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Jeopolitik korku veya g\u00fcvenli liman talebine dair yeni bir ba\u015fl\u0131k yok, bu y\u00fczden d\u00fc\u015f\u00fc\u015f e\u011filimi a\u011f\u0131r bas\u0131yor; ancak alt\u0131n zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilece\u011finden g\u00fcven orta d\u00fczeyde.",
   "17.11 00:38 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 00:38 N  NEWS (43 new) score -0.05 conf 0.35: Jeopolitik ba\u015fl\u0131klar (ABD-\u0130ran sava\u015f\u0131, \u00fc\u00e7\u00fcnc\u00fc u\u00e7ak gemisinin b\u00f6lgeye gelmesi, \u0130srail'in yeniden sava\u015f ihtimali) g\u00fcvenli liman talebini destekleyerek alt\u0131 yukar\u0131 \u00e7ekebilir. Ancak \"Gold price drops to more than one-year low\" ve \"Inflation is back - so why is gold falling?\" ba\u015fl\u0131klar\u0131, enflasyon ve faiz beklentileri kaynakl\u0131 bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor; bu da k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 genel sava\u015f arka plan\u0131 olup fiyatlanm\u0131\u015f veya alakas\u0131z oldu\u011fu i\u00e7in net y\u00f6n sinyali zay\u0131f."
+  "17.11 00:38 N  NEWS (43 new) score -0.05 conf 0.35: Jeopolitik ba\u015fl\u0131klar (ABD-\u0130ran sava\u015f\u0131, \u00fc\u00e7\u00fcnc\u00fc u\u00e7ak gemisinin b\u00f6lgeye gelmesi, \u0130srail'in yeniden sava\u015f ihtimali) g\u00fcvenli liman talebini destekleyerek alt\u0131 yukar\u0131 \u00e7ekebilir. Ancak \"Gold price drops to more than one-year low\" ve \"Inflation is back - so why is gold falling?\" ba\u015fl\u0131klar\u0131, enflasyon ve faiz beklentileri kaynakl\u0131 bask\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor; bu da k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Haberlerin b\u00fcy\u00fck k\u0131sm\u0131 genel sava\u015f arka plan\u0131 olup fiyatlanm\u0131\u015f veya alakas\u0131z oldu\u011fu i\u00e7in net y\u00f6n sinyali zay\u0131f.",
+  "17.11 00:51 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 00:51 N  NEWS (8 new) score +0.05 conf 0.30: "
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    4963.78
-   ],
-   [
     1794269839,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794865675,
+    4963.78
+   ],
+   [
+    1794865862,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    4975.18
-   ],
-   [
     1794269839,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794865675,
+    4975.18
+   ],
+   [
+    1794865862,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    4993.28
-   ],
-   [
     1794269839,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794865675,
+    4993.28
+   ],
+   [
+    1794865862,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794269670,
-    4969.22
-   ],
-   [
     1794269839,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794865675,
+    4969.22
+   ],
+   [
+    1794865862,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794269670,
-    4299.69
-   ],
    [
     1794269839,
     4280.84
@@ -93138,6 +93134,10 @@
    [
     1794865675,
     4545.26
+   ],
+   [
+    1794865862,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794269670,
-    111691.09
-   ],
    [
     1794269839,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794865675,
     114145.15
+   ],
+   [
+    1794865862,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794269670,
-    4944.42
-   ],
    [
     1794269839,
     4944.42
@@ -118403,6 +118399,10 @@
    ],
    [
     1794865675,
+    4876.96
+   ],
+   [
+    1794865862,
     4876.96
    ]
   ],
