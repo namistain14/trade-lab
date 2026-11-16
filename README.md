@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 21:44 (İstanbul)
+> Son güncelleme: 16.11.2026 21:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (16.11 21:35): Claude puan **-0.45**, güven 0.60 — Haberler genel olarak altın için olumsuz: Dolar Liberation Day kayıplarını silmiş, Treasury getirileri ve dolar altına baskı yapıyor ve altın 1 yılın en düşük seviyesinde. Fed'in faiz artırımı ihtimali tartışılıyor ve enflasyon verileri sıkılaşma endişelerini canlı tutuyor. İran savaşı haberleri çok sayıda olmasına rağmen güvenli liman talebini artırdığına dair net bir işaret yok, bu yüzden etkisi sınırlı kalıyor. Gözlem penceresi kısa olduğu için güven orta seviyede.
+Son haber analizi (16.11 21:47): Claude puan **-0.45**, güven 0.60 — Altın, güçlü dolar ve yükselen Hazine getirileri nedeniyle 1 yılın dibinde; Fed'in faiz artırımı ihtimalini tartışması ve enflasyon verisinin risk algısını baskılaması altın için olumsuz. Iran savaşına ilişkin jeopolitik gerilim (üçüncü uçak gemisi, Pakistan arabuluculuğu) güvenli liman talebini destekleyebilir, ancak bu etki şu an fiyatlanmış görünmüyor; bu nedenle güven orta düzeyde.
 
 Son işlemler:
 
@@ -85,10 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 00:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 00:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 01:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 01:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -100,6 +96,10 @@ Son işlemler:
 16.11 21:35 N  NEWS (12 new) score -0.45 conf 0.60: Haberler genel olarak altın için olumsuz: Dolar Liberation Day kayıplarını silmiş, Treasury getirileri ve dolar altına baskı yapıyor ve altın 1 yılın en düşük seviyesinde. Fed'in faiz artırımı ihtimali tartışılıyor ve enflasyon verileri sıkılaşma endişelerini canlı tutuyor. İran savaşı haberleri çok sayıda olmasına rağmen güvenli liman talebini artırdığına dair net bir işaret yok, bu yüzden etkisi sınırlı kalıyor. Gözlem penceresi kısa olduğu için güven orta seviyede.
 16.11 21:35 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 21:35 B6  karar turu: Claude «Yapay zeka/yarı iletken kaynaklı riskten kaçış sürüyor ve son saatte satış hızlanıyor, kapanışa doğru zayıflığın devamı bekleniyor.» / GPT «-»
+16.11 21:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+16.11 21:47 N  NEWS (9 new) score -0.45 conf 0.60: Altın, güçlü dolar ve yükselen Hazine getirileri nedeniyle 1 yılın dibinde; Fed'in faiz artırımı ihtimalini tartışması ve enflasyon verisinin risk algısını baskılaması altın için olumsuz. Iran savaşına ilişkin jeopolitik gerilim (üçüncü uçak gemisi, Pakistan arabuluculuğu) güvenli liman talebini destekleyebilir, ancak bu etki şu an fiyatlanmış görünmüyor; bu nedenle güven orta düzeyde.
+16.11 21:47 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+16.11 21:47 B6  karar turu: Claude «Piyasa, NVDA liderlik krizi ve çip ihracat kısıtlamalarıyla teknoloji öncülüğünde riskten kaçış modunda; kapanışa doğru zayıflık sürebilir.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
