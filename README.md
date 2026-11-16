@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 23:34 (İstanbul)
+> Son güncelleme: 16.11.2026 23:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (16.11 23:25): Claude puan **-0.60**, güven 0.70 — Altın yıllık en düşük seviyeye geriledi; Treasury getirilerindeki yükseliş ve güçlenen dolar baskı yaratıyor. Fed'in Hammack gibi isimlerinin faiz artırımını savunması ve enflasyonun yayılması reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı ve üçüncü/beşinci uçak gemisi haberleri güvenli liman talebini destekliyor, ancak bu etki şu an fiyatlarda görülmüyor.
+Son haber analizi (16.11 23:37): Claude puan **-0.60**, güven 0.70 — Fed'in Hammack gibi isimleri faiz artırımı çağrısı yapıyor, dolar 19 aylık zirveye yakın ve ABD tahvil getirileri yükseliyor; bu ortam altın için net olarak negatif. Jeopolitik güvenli liman talebini destekleyecek yeni bir kriz haberi yok. Altın zaten 1 yılın dibinde olduğundan bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tuttum.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 22:36 B6  karar turu: Claude «Piyasa teknoloji ve Nvidia kaynaklı satışla sert düşük ama son saatte yatay; kapanışa çok az kaldığından yeni pozisyonun risk/getirisi zayıf.» / GPT «-»
-16.11 22:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 22:48 N  NEWS (11 new) score -0.45 conf 0.60: Fed'in Hammack'in art arda sıkılaştırma (faiz artışı) çağrısı ve güçlenen doların, altın üzerinde baskı yaratıyor; gold bir yılın en düşük seviyesine yakın işlem görüyor. İran savaşına ilişkin uçak gemisi yığınağı güvenli liman talebini destekleyebilir, ancak bu etki haberlerde büyük ölçüde fiyatlanmış görünüyor ve merkez bankası alımları sınırlı bir destek sağlıyor.
 16.11 22:48 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 22:48 B6  karar turu: Claude «Nvidia liderlik krizi, şahin Fed yorumları ve yarı iletken satışlarıyla teknoloji ağırlıklı geniş bir düşüş yaşanıyor; kapanışa dakikalar kala yeni pozisyon açmak için risk/ödül oranı uygun değil.» / GPT «-»
@@ -100,6 +98,8 @@ Son işlemler:
 16.11 23:13 B6  karar turu: Claude «Nvidia liderlik krizi ve faiz artışı beklentileriyle teknoloji ağırlıklı sert bir satış günü yaşandı, ancak piyasa kapandığı için yeni intraday pozisyon açmak yerine yarının açılışı beklenmeli.» / GPT «-»
 16.11 23:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 23:25 N  NEWS (35 new) score -0.60 conf 0.70: Altın yıllık en düşük seviyeye geriledi; Treasury getirilerindeki yükseliş ve güçlenen dolar baskı yaratıyor. Fed'in Hammack gibi isimlerinin faiz artırımını savunması ve enflasyonun yayılması reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı ve üçüncü/beşinci uçak gemisi haberleri güvenli liman talebini destekliyor, ancak bu etki şu an fiyatlarda görülmüyor.
+16.11 23:37 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+16.11 23:37 N  NEWS (31 new) score -0.60 conf 0.70: Fed'in Hammack gibi isimleri faiz artırımı çağrısı yapıyor, dolar 19 aylık zirveye yakın ve ABD tahvil getirileri yükseliyor; bu ortam altın için net olarak negatif. Jeopolitik güvenli liman talebini destekleyecek yeni bir kriz haberi yok. Altın zaten 1 yılın dibinde olduğundan bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tuttum.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
