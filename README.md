@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 00:35 (İstanbul)
+> Son güncelleme: 17.11.2026 00:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 00:26): Claude puan **-0.70**, güven 0.75 — Sıcak ABD enflasyonu, faiz artırımı beklentilerini besliyor ve dolar yükseliyor; altın yıllık en düşük seviyeye geriledi. Hawkish Fed söylemleri (Hammack, Warsh) ve güçlü dolar kısa vadede altın için baskılayıcı. Jeopolitik korku veya güvenli liman talebine dair yeni bir başlık yok, bu yüzden düşüş eğilimi ağır basıyor; ancak altın zaten büyük ölçüde fiyatlanmış olabileceğinden güven orta düzeyde.
+Son haber analizi (17.11 00:38): Claude puan **-0.05**, güven 0.35 — Jeopolitik başlıklar (ABD-İran savaşı, üçüncü uçak gemisinin bölgeye gelmesi, İsrail'in yeniden savaş ihtimali) güvenli liman talebini destekleyerek altı yukarı çekebilir. Ancak "Gold price drops to more than one-year low" ve "Inflation is back - so why is gold falling?" başlıkları, enflasyon ve faiz beklentileri kaynaklı baskının sürdüğünü gösteriyor; bu da kısa vadede altı aşağı çekebilir. Haberlerin büyük kısmı genel savaş arka planı olup fiyatlanmış veya alakasız olduğu için net yön sinyali zayıf.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 23:13 N  NEWS (40 new) score -0.60 conf 0.60: Altın 13 aylık ve bir yıllık dip seviyelerinde, güçlenen dolar ve artan Fed faiz artırımı beklentileri nedeniyle baskı altında; bu reel faiz ve dolar kanalı kısa vadede altın için net negatif. Merkez bankası alımları ve Kırım köprüsü saldırısı gibi jeopolitik gelişmeler sınırlı destek sağlasa da fiyatlamaya yetmiyor; birçok başlık tekrar niteliğinde olduğu için güven orta düzeyde.
-16.11 23:13 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 23:13 B6  karar turu: Claude «Nvidia liderlik krizi ve faiz artışı beklentileriyle teknoloji ağırlıklı sert bir satış günü yaşandı, ancak piyasa kapandığı için yeni intraday pozisyon açmak yerine yarının açılışı beklenmeli.» / GPT «-»
 16.11 23:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 23:25 N  NEWS (35 new) score -0.60 conf 0.70: Altın yıllık en düşük seviyeye geriledi; Treasury getirilerindeki yükseliş ve güçlenen dolar baskı yaratıyor. Fed'in Hammack gibi isimlerinin faiz artırımını savunması ve enflasyonun yayılması reel faiz beklentilerini yükselterek altını olumsuz etkiliyor. İran savaşı ve üçüncü/beşinci uçak gemisi haberleri güvenli liman talebini destekliyor, ancak bu etki şu an fiyatlarda görülmüyor.
@@ -100,6 +98,8 @@ Son işlemler:
 17.11 00:14 N  NEWS (8 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu faiz artırımı beklentilerini besliyor, dolar güçleniyor ve altın bir yılın en düşük seviyesine geriledi; bu baskı jeopolitik (İran savaşı) kaynaklı güvenli liman talebinden daha belirleyici görünüyor. Fed'in Hammack'ten gelen sıkılaştırıcı açıklamaları tekrar eden haberler olduğu için etkisi kısmen fiyatlanmış olabilir.
 17.11 00:26 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 00:26 N  NEWS (30 new) score -0.70 conf 0.75: Sıcak ABD enflasyonu, faiz artırımı beklentilerini besliyor ve dolar yükseliyor; altın yıllık en düşük seviyeye geriledi. Hawkish Fed söylemleri (Hammack, Warsh) ve güçlü dolar kısa vadede altın için baskılayıcı. Jeopolitik korku veya güvenli liman talebine dair yeni bir başlık yok, bu yüzden düşüş eğilimi ağır basıyor; ancak altın zaten büyük ölçüde fiyatlanmış olabileceğinden güven orta düzeyde.
+17.11 00:38 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 00:38 N  NEWS (43 new) score -0.05 conf 0.35: Jeopolitik başlıklar (ABD-İran savaşı, üçüncü uçak gemisinin bölgeye gelmesi, İsrail'in yeniden savaş ihtimali) güvenli liman talebini destekleyerek altı yukarı çekebilir. Ancak "Gold price drops to more than one-year low" ve "Inflation is back - so why is gold falling?" başlıkları, enflasyon ve faiz beklentileri kaynaklı baskının sürdüğünü gösteriyor; bu da kısa vadede altı aşağı çekebilir. Haberlerin büyük kısmı genel savaş arka planı olup fiyatlanmış veya alakasız olduğu için net yön sinyali zayıf.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
