@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 23:59 (İstanbul)
+> Son güncelleme: 17.11.2026 00:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (16.11 23:49): Claude puan **-0.60**, güven 0.70 — Altın 13 aylık/bir yıllık dip seviyelerine geriledi; güçlü dolar, artan Fed faiz artırımı beklentileri ve "hawkish Fed" görünümü altını baskılıyor. Merkez bankası alımları ve düşük fiyat kaynaklı alım ilgisi kısmen destek olsa da kısa vadede baskı ağır basıyor; savaş/jeopolitik haberler (Kırım köprüsü saldırısı) ise sınırlı güvenli liman etkisi yaratıyor.
+Son haber analizi (17.11 00:02): Claude puan **-0.60**, güven 0.70 — Sıcak ABD enflasyonu faiz artırımı beklentilerini ve doları güçlendiriyor; Fed'in Hammack'in şahin açıklamaları da altın için olumsuz. İran savaşına dair jeopolitik risk altını destekleyebilir ancak haberler altının yıllık en düşük seviyeye gerilediğini gösteriyor, bu da güvenli liman talebinin şu an baskılanabildiğini gösteriyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 22:48 B6  karar turu: Claude «Nvidia liderlik krizi, şahin Fed yorumları ve yarı iletken satışlarıyla teknoloji ağırlıklı geniş bir düşüş yaşanıyor; kapanışa dakikalar kala yeni pozisyon açmak için risk/ödül oranı uygun değil.» / GPT «-»
-16.11 23:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 23:00 N  NEWS (31 new) score -0.60 conf 0.70: Fed yetkilisi Hammack'in faiz artırımlarını savunması, güçlenen dolar ve yükselen Hazine getirileri altın için baskı yaratıyor; altın yıllık en düşük seviyeye geriledi. Jeopolitik kaçış talebini tetikleyecek bir savaş ya da kriz haberi yok, bu nedenle düşüş eğilimi net görünüyor, ancak haberlerin büyük kısmı zaten fiyatlanmış olabilir.
 16.11 23:00 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 16.11 23:00 B6  karar turu: Claude «Teknoloji ağırlıklı ve Nvidia kaynaklı risk-off bir gün kapandı; seans sonrası düşük likidite ve manşet riski nedeniyle yeni pozisyon açmak yerine yarının açılışını beklemek daha disiplinli.» / GPT «-»
@@ -100,6 +98,8 @@ Son işlemler:
 16.11 23:37 N  NEWS (31 new) score -0.60 conf 0.70: Fed'in Hammack gibi isimleri faiz artırımı çağrısı yapıyor, dolar 19 aylık zirveye yakın ve ABD tahvil getirileri yükseliyor; bu ortam altın için net olarak negatif. Jeopolitik güvenli liman talebini destekleyecek yeni bir kriz haberi yok. Altın zaten 1 yılın dibinde olduğundan bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tuttum.
 16.11 23:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 16.11 23:49 N  NEWS (36 new) score -0.60 conf 0.70: Altın 13 aylık/bir yıllık dip seviyelerine geriledi; güçlü dolar, artan Fed faiz artırımı beklentileri ve "hawkish Fed" görünümü altını baskılıyor. Merkez bankası alımları ve düşük fiyat kaynaklı alım ilgisi kısmen destek olsa da kısa vadede baskı ağır basıyor; savaş/jeopolitik haberler (Kırım köprüsü saldırısı) ise sınırlı güvenli liman etkisi yaratıyor.
+17.11 00:02 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 00:02 N  NEWS (38 new) score -0.60 conf 0.70: Sıcak ABD enflasyonu faiz artırımı beklentilerini ve doları güçlendiriyor; Fed'in Hammack'in şahin açıklamaları da altın için olumsuz. İran savaşına dair jeopolitik risk altını destekleyebilir ancak haberler altının yıllık en düşük seviyeye gerilediğini gösteriyor, bu da güvenli liman talebinin şu an baskılanabildiğini gösteriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
