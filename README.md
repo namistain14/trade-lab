@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 16.11.2026 01:05 (İstanbul)
+> Son güncelleme: 16.11.2026 21:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,9 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (13.11 18:04): Claude puan **-0.60**, güven 0.70 — Sıcak ABD üretici fiyat enflasyonu, Fed'de faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesi altın için baskılayıcı. Altın 2026'nın en düşük seviyesi olan yaklaşık 3.850 dolara geriledi; İran savaşı ve jeopolitik haberler güvenli liman talebini destekliyor ama bu etki büyük ölçüde fiyatlanmış durumda.
-
-GPT (gpt-6-luna): puan **-0.48**, güven 0.66 — Enflasyon ve Fed yetkililerinin açıklamaları faiz indirimi beklentilerini zayıflatıp daha şahin bir görünümü destekliyor; doların 19 ayın zirvesine yakın seyri altın üzerinde baskı yaratıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebi sağlayabilir, ancak kısa vadede bu baskıyı dengeleyece
+Son haber analizi (16.11 21:23): Claude puan **-0.50**, güven 0.60 — Altın, Hazine tahvil getirileri ve güçlü doların baskısıyla yıllık dibe geriledi; ABD enflasyon verisi ve Fed'in faiz artırımı ihtimali tartışması (Warsh/Barr açıklamaları) politika sıkılaştırma beklentisini canlı tutarak altı aşağı çekiyor. İran savaşı haberleri güvenli liman talebini destekliyor olsa da bu etki, reel faiz ve dolar kanalının gerisinde kalıyor; bu nedenle net etki hafif-orta düzeyde negatif.
 
 Son işlemler:
 
@@ -87,10 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-16.11 00:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-16.11 00:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 00:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 00:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 00:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -102,6 +96,10 @@ Son işlemler:
 16.11 00:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 01:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 16.11 01:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+16.11 21:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+16.11 21:23 N  NEWS (45 new) score -0.50 conf 0.60: Altın, Hazine tahvil getirileri ve güçlü doların baskısıyla yıllık dibe geriledi; ABD enflasyon verisi ve Fed'in faiz artırımı ihtimali tartışması (Warsh/Barr açıklamaları) politika sıkılaştırma beklentisini canlı tutarak altı aşağı çekiyor. İran savaşı haberleri güvenli liman talebini destekliyor olsa da bu etki, reel faiz ve dolar kanalının gerisinde kalıyor; bu nedenle net etki hafif-orta düzeyde negatif.
+16.11 21:23 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+16.11 21:23 B6  karar turu: Claude «Nvidia liderlik krizi ve çip ihracat kısıtlamaları teknoloji ağırlıklı bir risk-off ortamı yaratıyor, piyasa gün sonuna doğru zayıf seyrediyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
