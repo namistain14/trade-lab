@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 19:05 (İstanbul)
+> Son güncelleme: 17.11.2026 19:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 18:19 B6  karar turu: Claude «Piyasa çip hisselerinin baskısıyla hafif negatif seyrediyor; teknolojide zayıflık öne çıkıyor.» / GPT «-»
-17.11 18:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 18:25 N  NEWS (12 new) score -0.60 conf 0.65: Altın bir yıllık dibe yakın seyrediyor; dolar 19 aylık zirvede, ABD enflasyonu beklentileri aştı, faiz artırımı beklentileri sertleşiyor ve 10 yıllık getiri %5'e yaklaşıyor. Iran savaşı güvenli liman talebini destekleyecek bir etki yaratmıyor, bu nedenle baskı sürecek gibi görünüyor; eski ve çelişkili 'altın yükseldi' haberi ise güveni biraz düşürüyor.
 17.11 18:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 18:32 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısıyla endeksler gün içi düşüş eğiliminde, çip hisseleri en zayıf grup.» / GPT «-»
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 18:56 B6  karar turu: Claude «Piyasa son bir saatte teknoloji öncülüğünde sert satış yedi; hafif tepki gelse de genel eğilim zayıf, seçici kısa pozisyon tercih ediliyor.» / GPT «-»
 17.11 19:02 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 19:02 N  NEWS (17 new) score -0.50 conf 0.60: Altın bir yıllık dibe yakın seyrediyor; ABD enflasyonu ve ithal fiyatları beklentileri aştı, Fed faiz artırımı beklentileri ve 10 yıllık tahvil getirisinin %5'e yaklaşması doları ve getirileri yukarı taşıyor. Bu koşullar altın için net olarak negatif, İran savaşındaki çıkmazın sınırlı güvenli liman talebi ise bu baskıyı tam olarak dengeleyemiyor.
+17.11 19:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+17.11 19:08 B6  karar turu: Claude «Piyasa öğle saatlerinde sert satış sonrası tepki alımı görüyor, ancak genel eğilim negatif olduğundan sadece göreceli güçlü hisselerde seçici uzun pozisyon mantıklı.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
