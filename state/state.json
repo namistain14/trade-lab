@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    5000.0
-   ],
-   [
     1794353890,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794949851,
+    5000.0
+   ],
+   [
+    1794950041,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    4868.5
-   ],
-   [
     1794353890,
     4868.5
    ],
@@ -27085,28 +27081,32 @@
    [
     1794949851,
     4868.5
+   ],
+   [
+    1794950041,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.4,
-   "reason": "\u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekleyerek alt\u0131 hafif yukar\u0131 \u00e7ekebilir, ancak \u0130ran sava\u015f\u0131 zaten uzun s\u00fcredir fiyatlanm\u0131\u015f durumda. Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": 0.05,
+   "confidence": 0.35,
+   "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'ndaki f\u00fcze sahas\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini k\u0131sa vadede hafif destekliyor. Ancak Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu, ama \"dramatik ad\u0131m\" gerekmedi\u011fini s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilece\u011fi i\u00e7in etki s\u0131n\u0131rl\u0131 kal\u0131yor; genel tablo n\u00f6tre yak\u0131n.",
    "n": 45,
-   "ts": 1794949289727,
-   "new_headlines": 45,
+   "ts": 1794950040636,
+   "new_headlines": 10,
    "key_events": [
     "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesinden toparlanam\u0131yor; dolar ve tahvil getirileri y\u00fckseliyor (Kitco)",
     "Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor (FXEmpire)",
     "\u0130ran sava\u015f\u0131 ve Ukrayna-Rusya gerilimi g\u00fcvenli liman talebini destekliyor ancak fiyatlara yans\u0131m\u0131yor"
    ],
    "gpt": {
-    "score": 0.35,
-    "confidence": 0.58,
-    "reason": "\u0130ran\u2019daki f\u00fcze sahas\u0131na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 b\u00f6lgesel gerilim ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak Fed\u2019den gelen temkinli-\u015fahin mesajlar ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; yinelenen haberler ek etkiyi belirsiz k\u0131l\u0131yor.",
+    "score": 0.45,
+    "confidence": 0.59,
+    "reason": "ABD\u2019nin \u0130ran\u2019daki IRGC f\u00fcze sahas\u0131na sald\u0131r\u0131s\u0131 ve Netanyahu\u2019nun tehdit a\u00e7\u0131klamalar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Fed\u2019den Williams\u2019\u0131n s\u0131k\u0131 politika yanl\u0131s\u0131 duru\u015fu y\u00fckseli\u015fi s\u0131n\u0131rlarken, sava\u015f haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir.",
     "key_events": [
-     "ABD\u2019nin Qe\u015fm Adas\u0131\u2019ndaki \u0130ran f\u00fcze sahas\u0131na sald\u0131r\u0131s\u0131",
-     "Fed Williams: s\u0131k\u0131 politika tercihi s\u00fcr\u00fcyor, ancak dramatik ad\u0131m gerekmiyor",
-     "Dolar\u0131n son kazan\u0131mlar\u0131n\u0131 korumas\u0131"
+     "ABD\u2019nin \u0130ran\u2019daki f\u00fcze sahas\u0131na sald\u0131r\u0131s\u0131",
+     "Netanyahu\u2019dan \u0130ran tehdidi uyar\u0131s\u0131",
+     "Fed\u2019den Williams s\u0131k\u0131 politika mesaj\u0131"
     ],
     "model": "gpt-6-luna"
    },
@@ -27114,15 +27114,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794436408494,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "S\u0131cak enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesi ve g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in net bask\u0131 olu\u015fturuyor; alt\u0131n 4.000 dolar\u0131n alt\u0131na indi. \u0130ran sava\u015f\u0131yla ilgili ba\u015fl\u0131klar\u0131n \u00e7o\u011fu eski veya genel nitelikte oldu\u011fundan g\u00fcvenli liman talebini art\u0131rm\u0131yor.",
-    "new": 3,
-    "gpt_score": -0.72,
-    "gpt_confidence": 0.76
-   },
    {
     "ts": 1794437171866,
     "score": -0.55,
@@ -29813,13 +29804,31 @@
     "new": 45,
     "gpt_score": 0.35,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1794950040636,
+    "score": 0.05,
+    "confidence": 0.35,
+    "reason": "ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'ndaki f\u00fcze sahas\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini k\u0131sa vadede hafif destekliyor. Ancak Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu, ama \"dramatik ad\u0131m\" gerekmedi\u011fini s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilece\u011fi i\u00e7in etki s\u0131n\u0131rl\u0131 kal\u0131yor; genel tablo n\u00f6tre yak\u0131n.",
+    "new": 10,
+    "gpt_score": 0.45,
+    "gpt_confidence": 0.59
    }
   ],
   "news_calls": {
    "date": "2026-11-18",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
+   "Netanyahu says Europe can no longer view Iran's missile and nuclear threat as a distant Middle East problem - Latin Times",
+   "Russian military plane crashes killing all 19 on board",
+   "SD Bullion Publishes Long-Term Gold Price Analysis Examining Gold\u2019s 50-Year Record Against Inflation - www.entrepreneur.com",
+   "Naval Research Lab Completes First INSPYRE Field Campaign - U.S. Department of War (.gov)",
+   "Gold Price Today on November 17, 2026 - USA Today",
+   "US loses measles elimination status after 26 years amid record case numbers",
+   "US strikes Revolutionary Guard missile launch site on Qeshm Island in retaliatory attack - Washington Examiner",
+   "US Navy chief says Iran war has put \u2018strain\u2019 on maritime forces - Al Jazeera",
+   "Federal Reserve's Cook declines to participate in White House hearing - Goshen News",
    "US strikes IRGC missile site on Iran\u2019s Qeshm Island, official tells JNS - JNS.org",
    "AI could transform the economy, but the Fed is struggling to predict how - WSET",
    "AI could transform the economy, but the Fed is struggling to predict how - KVII",
@@ -29827,7 +29836,6 @@
    "Santa Barbara Man Among Americans In Russian Captivity As Ukraine War Rages - News Channel 3-12",
    "Telluride Bluegrass Will Bring Together Caamp, Stephen Wilson Jr., The War on Drugs, Sam Bush Band, Del McCoury Band, The Womack Sister, Yonder Mountain String Band, Punch Brothers and More - Jambands.com",
    "If we won the Iran war, why are we hiding? - Washington Times",
-   "Sa\u2019ar vows countermeasures over new British sanctions - JNS.org",
    "The War on Drugs Wake Up a 97-Year-Old New Jersey Theater With Spellbinding, Two-Hour Set Featuring New Songs - Variety",
    "Fact Check Team: Has the Iran war becoming a political liability for Trump? - 13WHAM-TV",
    "Ro Khanna proposes $1,700 Iran war checks - The American Bazaar",
@@ -29837,7 +29845,7 @@
    "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
    "Kootenai County has been designated as a World War II Heritage City - Boise State Public Radio",
    "Trump in Asia ahead of talks with Russian and Chinese presidents",
-   "Russian military plane crashes killing all 19 on board",
+   "Gold loan companies expect rise in pledged jewellery auctions as falling prices hit borrowers' repayment c - The Economic Times",
    "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
    "Man killed in Phoenix identified decades later as war veteran - 12News",
    "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher - Naval News",
@@ -29854,22 +29862,12 @@
    "Fed\u2019s Williams Says No Need for \u2018Dramatic\u2019 Rate Move - Bloomberg.com",
    "The Fed changes the game: The dollar finally wipes out Trump's tariff shock - Cointribune",
    "Speed camera fault may have allowed drivers to escape fines",
-   "Rand Paul embraces anti-war conservative mantle ahead of 2028 - Washington Times",
    "Ukraine Uses Its Own Missile Guidance System to Strike the $4 Billion Crimean Bridge Without Starlink or Starshield - UNITED24 Media",
    "Black Monday 1987: 5 linked forces behind the stock market's worst day - qz.com",
-   "US fighter jets strike Iranian missile site on Qeshm Island after attack in Bahrain - Ynetnews",
-   "Josh Turek outlines his Senate priorities, including ending the Iran war, stopping Trump tariffs and making healthcare affordable for everyone except trans people needing gender-affirming care - Little Village Magazine",
-   "Boiling Point: The road to war and Ukraine\u2019s uncertain future - The Real News Network",
-   "Chinese Yuan: Further gains likely against US Dollar \u2013 UOB - FXStreet",
-   "Zelensky calls on US to enable satellite communications to target ballistic missile launchers - Ukrinform",
-   "Canadian dollar holds near 19-month low as greenback consolidates recent gains - Reuters",
-   "How Bitcoin still competes with a 2.92% Treasury yield after inflation - Cryptonews.net",
-   "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today - The Times of Israel"
+   "Gold prices fall 6.3% in October amid Fed rate hike fears, but Indian demand stays strong during festivals. - Pluang"
   ]
  },
  "log": [
-  "16.11 22:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "16.11 22:36 N  NEWS (14 new) score -0.50 conf 0.60: Yeni haberler a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131 bask\u0131l\u0131yor: alt\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi, dolar g\u00fc\u00e7leniyor ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri konu\u015fuluyor. Merkez bankas\u0131 al\u0131mlar\u0131 bir miktar destek sa\u011flasa da, \u0130ran sava\u015f\u0131na ili\u015fkin ek ABD u\u00e7ak gemisi haberleri jeopolitik risk primini art\u0131rmad\u0131\u011f\u0131 i\u00e7in g\u00fcvenli liman talebi fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor. Bu nedenle k\u0131sa vadeli e\u011filim a\u015fa\u011f\u0131 y\u00f6nl\u00fc; ancak haberlerin b\u00fcy\u00fck k\u0131sm\u0131 eski veya k\u0131smen fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
   "16.11 22:36 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
   "16.11 22:36 B6  karar turu: Claude \u00abPiyasa teknoloji ve Nvidia kaynakl\u0131 sat\u0131\u015fla sert d\u00fc\u015f\u00fck ama son saatte yatay; kapan\u0131\u015fa \u00e7ok az kald\u0131\u011f\u0131ndan yeni pozisyonun risk/getirisi zay\u0131f.\u00bb / GPT \u00ab-\u00bb",
   "16.11 22:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -30167,7 +30165,9 @@
   "17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD",
   "17.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131",
   "18.11 00:01 N  NEWS (45 new) score -0.10 conf 0.40: \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekleyerek alt\u0131 hafif yukar\u0131 \u00e7ekebilir, ancak \u0130ran sava\u015f\u0131 zaten uzun s\u00fcredir fiyatlanm\u0131\u015f durumda. Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
-  "18.11 00:01 N  GPT  score +0.35 conf 0.58: \u0130ran\u2019daki f\u00fcze sahas\u0131na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 b\u00f6lgesel gerilim ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak Fed\u2019den gelen temkinli-\u015fahin mesajlar ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; yinelenen haberler ek etkiyi belirsiz k\u0131l\u0131yor."
+  "18.11 00:01 N  GPT  score +0.35 conf 0.58: \u0130ran\u2019daki f\u00fcze sahas\u0131na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 b\u00f6lgesel gerilim ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak Fed\u2019den gelen temkinli-\u015fahin mesajlar ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; yinelenen haberler ek etkiyi belirsiz k\u0131l\u0131yor.",
+  "18.11 00:14 N  NEWS (10 new) score +0.05 conf 0.35: ABD'nin \u0130ran'\u0131n Qeshm Adas\u0131'ndaki f\u00fcze sahas\u0131na y\u00f6nelik sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini k\u0131sa vadede hafif destekliyor. Ancak Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu, ama \"dramatik ad\u0131m\" gerekmedi\u011fini s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilece\u011fi i\u00e7in etki s\u0131n\u0131rl\u0131 kal\u0131yor; genel tablo n\u00f6tre yak\u0131n.",
+  "18.11 00:14 N  GPT  score +0.45 conf 0.59: ABD\u2019nin \u0130ran\u2019daki IRGC f\u00fcze sahas\u0131na sald\u0131r\u0131s\u0131 ve Netanyahu\u2019nun tehdit a\u00e7\u0131klamalar\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Fed\u2019den Williams\u2019\u0131n s\u0131k\u0131 politika yanl\u0131s\u0131 duru\u015fu y\u00fckseli\u015fi s\u0131n\u0131rlarken, sava\u015f haberlerinin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir."
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    4963.78
-   ],
-   [
     1794353890,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794949851,
+    4963.78
+   ],
+   [
+    1794950041,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    4975.18
-   ],
-   [
     1794353890,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794949851,
+    4975.18
+   ],
+   [
+    1794950041,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    4993.28
-   ],
-   [
     1794353890,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794949851,
+    4993.28
+   ],
+   [
+    1794950041,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794353711,
-    4969.22
-   ],
-   [
     1794353890,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794949851,
+    4969.22
+   ],
+   [
+    1794950041,
     4969.22
    ]
   ],
@@ -81186,10 +81186,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794353711,
-    4610.16
-   ],
    [
     1794353890,
     4610.16
@@ -93185,6 +93181,10 @@
    [
     1794949851,
     4507.51
+   ],
+   [
+    1794950041,
+    4510.11
    ]
   ],
   "news_calls": {
@@ -94325,10 +94325,6 @@
    "equity": 112393.69
   },
   "equity_curve": [
-   [
-    1794353711,
-    111676.47
-   ],
    [
     1794353890,
     111676.47
@@ -106324,6 +106320,10 @@
    [
     1794949851,
     112393.69
+   ],
+   [
+    1794950041,
+    112393.69
    ]
   ],
   "open": {},
@@ -106506,10 +106506,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794353711,
-    4876.96
-   ],
    [
     1794353890,
     4876.96
@@ -118504,6 +118500,10 @@
    ],
    [
     1794949851,
+    4876.96
+   ],
+   [
+    1794950041,
     4876.96
    ]
   ],
