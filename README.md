@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 21:53 (İstanbul)
+> Son güncelleme: 17.11.2026 21:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
 
-**Hesap değeri: 4,479.30 $** (başlangıç 5,000 $, -520.70 $ / %-10.41)
+**Hesap değeri: 4,484.50 $** (başlangıç 5,000 $, -515.50 $ / %-10.31)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,700.85 $** (başlangıç 100,000 $, +12700.85 $ / %+12.70)
+**Hesap değeri: 112,291.43 $** (başlangıç 100,000 $, +12291.43 $ / %+12.29)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:34 N  NEWS (1 new) score +0.20 conf 0.35: Kırım Köprüsü'nün kısmen çökmesi ve Kiev'deki Rus saldırıları jeopolitik gerilimi artırarak altına sınırlı bir güvenli liman talebi getirebilir. Ancak bu gelişmelerin altın fiyatına etkisi genellikle kısa vadede küçük kalır, makro veri ya da Fed beklentileri ise bu haberlerden daha belirleyici olur; bu nedenle güven düşük tutuldu.
 17.11 20:34 N  GPT  score +0.35 conf 0.55: Kırım Köprüsü’ne yönelik saldırı ve Rusya-Ukrayna çatışmasındaki tırmanış, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. İran’a ilişkin ABD açıklaması da jeopolitik riski yükseltiyor; ancak dolar ve faizlere dair yeni bir sinyal olmaması etkiyi sınırlıyor.
 17.11 20:34 B5  LONG gold 25000 USD x10 @ 3857.75 (TP 3869.32, SL 3850.04; news +0.28)
 17.11 20:42 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside, öğleden sonraki tepki yükselişi zayıflıyor ve hafif negatif eğilim sürüyor.» / GPT «Endekslerde gün içi tepki yükselişi zayıflarken, yeni şirket haberleriyle desteklenmeyen hareketleri kovalamak yerine göreli zayıflıkta seçici kısa pozisyonlar öne çıkıyor.»
@@ -104,6 +103,7 @@ Son işlemler:
 17.11 21:40 B5  CLOSE long stop: -55.96 USD
 17.11 21:44 B6  karar turu: Claude «Piyasa günü yaklaşık %1,2 düşüşle geçiriyor ve öğleden sonraki tepki alımları satışla karşılanıyor, kapanışa doğru hafif negatif eğilim sürebilir.» / GPT «Başarısız tepki yükselişi aşağı yönü destekliyor ancak dar saatlik hareketler ve kapanışa kalan 77 dakika, yüzde 1,5 hedefe ulaşmayı zorlaştırıyor.»
 17.11 21:47 B5  SHORT gold 25000 USD x10 @ 3845.81 (TP 3834.27, SL 3853.50; news -0.33)
+17.11 21:56 B6  karar turu: Claude «Piyasa %1'in üzerinde ekside ve yatay-aşağı seyrediyor; son saatte toparlanma zayıf kaldı, kapanışa doğru hafif satış baskısı bekleniyor.» / GPT «Genel görünüm aşağı yönlü; ancak normal seansın bitimine yaklaşık 64 dakika kalması, yüzde 1,5 kâr hedefine ulaşma olasılığını sınırlıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
