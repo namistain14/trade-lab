@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 00:59 (İstanbul)
+> Son güncelleme: 18.11.2026 01:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 1354.61 $ |
 
-**Hesap değeri: 4,508.61 $** (başlangıç 5,000 $, -491.39 $ / %-9.83)
+**Hesap değeri: 4,508.03 $** (başlangıç 5,000 $, -491.97 $ / %-9.84)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
-Son haber analizi (18.11 00:50): Claude puan **+0.30**, güven 0.50 — İran ile ABD arasındaki çatışmanın tırmanması (Qeshm Adası'na ABD saldırıları ve Bahreyn üssüne yönelik hedefleme) jeopolitik risk ve güvenli liman talebini artırarak altı kısa vadede destekliyor. Ancak FXEmpire'ın güçlü dolar ve faiz artırımı beklentilerine dair notu ile Fed'in Williams'ın "ani faiz hamlesi gerekmiyor" açıklaması karışık sinyaller veriyor; bu nedenle etki sınırlı ve yönü belirsiz.
+Son haber analizi (18.11 01:02): Claude puan **-0.05**, güven 0.35 — İran ile ABD arasındaki çatışmanın tırmanması (Qeshm Adası'na ABD saldırıları ve Bahreyn üssüne yönelik hedefleme) jeopolitik risk ve güvenli liman talebini artırarak altı kısa vadede destekliyor. Ancak FXEmpire'ın güçlü dolar ve faiz artırımı beklentilerine dair notu ile Fed'in Williams'ın "ani faiz hamlesi gerekmiyor" açıklaması karışık sinyaller veriyor; bu nedenle etki sınırlı ve yönü belirsiz.
 
-GPT (gpt-6-luna): puan **+0.42**, güven 0.66 — ABD’nin İran’daki füze sahasına düzenlediği yeni saldırı ve Bahreyn’deki üsse yönelik saldırı, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Fed’den Williams’ın «dramatik» bir faiz hamlesine gerek olmadığını söylemesi sınırlı destek sunarken, güçlü dolar ve faiz artışı beklent
+GPT (gpt-6-luna): puan **+0.12**, güven 0.39 — İran’daki çatışma ve ABD’nin füze tesisine yönelik saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak daha güçlü ABD büyüme beklentisi ve Fed’den ek faiz artışı sinyalleri altını baskılayabilir; etkiler bu nedenle dengeli ve belirsiz.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 22:57 B6  karar turu: Claude «Piyasa gün boyu satıcılı ve kapanışa doğru zayıf; seansın son dakikalarında yeni gün içi pozisyon açmak mantıklı değil.» / GPT «Piyasa kapanışa doğru zayıflıyor; seans dışında bracket emirlerinin çalışacağı doğrulanmadan 4 kat kaldıraçla yeni pozisyon açmak uygun değil.»
-17.11 23:09 B6  karar turu: Claude «Endeksler günü yaklaşık %1,4 düşüşle kapattı; işlem sonrası seansta likidite zayıf olduğundan yeni pozisyon açmak yerine beklemek daha disiplinli.» / GPT «Genel eğilim aşağı olsa da saat 16:09 itibarıyla normal seans dışında likidite ve bracket emirlerinin işlerliği doğrulanmadığından yeni kaldıraçlı pozisyon açmıyorum.»
 17.11 23:46 B6  CLOSE long QQQ seans sonu: -307.07 USD
 17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD
 17.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
@@ -102,6 +100,8 @@ Son işlemler:
 18.11 00:38 N  GPT  score +0.35 conf 0.52: ABD’nin İran’daki füze tesisine saldırısı ve Bahreyn’deki üs tehdidi kısa vadede güvenli liman talebini artırabilir. Ancak güçlü dolar ve faiz artışı beklentilerine ilişkin haberler altını sınırlayabilir; saldırı haberlerinin tekrarlı olması da ek etkinin belirsizliğini artırıyor.
 18.11 00:50 N  NEWS (10 new) score +0.30 conf 0.50: İran ile ABD arasındaki çatışmanın tırmanması (Qeshm Adası'na ABD saldırıları ve Bahreyn üssüne yönelik hedefleme) jeopolitik risk ve güvenli liman talebini artırarak altı kısa vadede destekliyor. Ancak FXEmpire'ın güçlü dolar ve faiz artırımı beklentilerine dair notu ile Fed'in Williams'ın "ani faiz hamlesi gerekmiyor" açıklaması karışık sinyaller veriyor; bu nedenle etki sınırlı ve yönü belirsiz.
 18.11 00:50 N  GPT  score +0.42 conf 0.66: ABD’nin İran’daki füze sahasına düzenlediği yeni saldırı ve Bahreyn’deki üsse yönelik saldırı, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Fed’den Williams’ın «dramatik» bir faiz hamlesine gerek olmadığını söylemesi sınırlı destek sunarken, güçlü dolar ve faiz artışı beklent
+18.11 01:02 N  NEWS (8 new) score -0.05 conf 0.35: 
+18.11 01:02 N  GPT  score +0.12 conf 0.39: İran’daki çatışma ve ABD’nin füze tesisine yönelik saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak daha güçlü ABD büyüme beklentisi ve Fed’den ek faiz artışı sinyalleri altını baskılayabilir; etkiler bu nedenle dengeli ve belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
