@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 21:37 (İstanbul)
+> Son güncelleme: 17.11.2026 21:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -454.74 $ |
-| İşlem sayısı | 0 | 113 |
-| Kazanma oranı | %0.0 | %41.6 |
-| Ödenen komisyon/spread | 0.00 $ | 1342.67 $ |
+| Net kâr/zarar | -55.96 $ | -510.70 $ |
+| İşlem sayısı | 1 | 114 |
+| Kazanma oranı | %0.0 | %41.2 |
+| Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
 
-**Hesap değeri: 4,524.19 $** (başlangıç 5,000 $, -475.81 $ / %-9.52)
-
-Açık pozisyonlar: PAXGUSDT long @ 3857.75 (TP 3869.32 / SL 3850.04)
+**Hesap değeri: 4,489.30 $** (başlangıç 5,000 $, -510.70 $ / %-10.21)
 
 Son haber analizi (17.11 21:08): Claude puan **-0.40**, güven 0.55 — Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 17.11 21:41 | PAXGUSDT | long | -55.96 $ | stop |
 | 13.11 19:25 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 18:39 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 17:32 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 16:56 | PAXGUSDT | short | -55.98 $ | stop |
-| 13.11 16:31 | PAXGUSDT | short | -55.98 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -72,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,327.22 $** (başlangıç 100,000 $, +13327.22 $ / %+13.33)
+**Hesap değeri: 112,786.90 $** (başlangıç 100,000 $, +12786.90 $ / %+12.79)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:30 B6  ALIŞ QQQ 173 adet ≈ 113,497 $ (1:4) @ 656.05 (TP 665.89, SL 649.49; ikisi de hemfikir, güven 0.55)
 17.11 20:30 B6  ALIŞ NVDA 739 adet ≈ 114,131 $ (1:4) @ 154.44 (TP 156.76, SL 152.9; ikisi de hemfikir, güven 0.55)
 17.11 20:30 B6  ALIŞ TSLA 299 adet ≈ 113,931 $ (1:4) @ 381.04 (TP 386.76, SL 377.23; ikisi de hemfikir, güven 0.60)
 17.11 20:34 N  NEWS (1 new) score +0.20 conf 0.35: Kırım Köprüsü'nün kısmen çökmesi ve Kiev'deki Rus saldırıları jeopolitik gerilimi artırarak altına sınırlı bir güvenli liman talebi getirebilir. Ancak bu gelişmelerin altın fiyatına etkisi genellikle kısa vadede küçük kalır, makro veri ya da Fed beklentileri ise bu haberlerden daha belirleyici olur; bu nedenle güven düşük tutuldu.
@@ -104,6 +101,7 @@ Son işlemler:
 17.11 21:08 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside ve son bir saatte dengelenmiş durumda; belirgin bir katalizör olmadan kapanışa kadar yatay ile hafif tepki alımları bekleniyor.» / GPT «Endekslerde günlük satışın ardından dar bantta dengelenme görülüyor; 1:4 kaldıraçla mevcut fiyatlardan yön kovalamak yerine yeni bir kırılma beklemek daha disiplinli.»
 17.11 21:20 B6  karar turu: Claude «Piyasa genel olarak satış baskısı altında; düşük momentumla aşağı eğilimli yatay bir seyir izliyor.» / GPT «Endekslerde aşağı eğilim sürüyor; taze şirket haberi bulunmadığından mevcut pozisyonlara ek piyasa riski sınırlı tutulmalı.»
 17.11 21:32 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son saatte ılımlı bir tepki alımı var; seçici ve temkinli alım tarafı öne çıkıyor.» / GPT «Endekslerde gün içi kayıplara rağmen son bölümde toparlanma güçleniyor; yükseliş yönünde sınırlı avantaj var ancak kaldıraç dönüş riskini büyütüyor.»
+17.11 21:40 B5  CLOSE long stop: -55.96 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
