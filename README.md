@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 21:40 (İstanbul)
+> Son güncelleme: 17.11.2026 21:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,786.90 $** (başlangıç 100,000 $, +12786.90 $ / %+12.79)
+**Hesap değeri: 112,521.03 $** (başlangıç 100,000 $, +12521.03 $ / %+12.52)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -87,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:30 B6  ALIŞ NVDA 739 adet ≈ 114,131 $ (1:4) @ 154.44 (TP 156.76, SL 152.9; ikisi de hemfikir, güven 0.55)
 17.11 20:30 B6  ALIŞ TSLA 299 adet ≈ 113,931 $ (1:4) @ 381.04 (TP 386.76, SL 377.23; ikisi de hemfikir, güven 0.60)
 17.11 20:34 N  NEWS (1 new) score +0.20 conf 0.35: Kırım Köprüsü'nün kısmen çökmesi ve Kiev'deki Rus saldırıları jeopolitik gerilimi artırarak altına sınırlı bir güvenli liman talebi getirebilir. Ancak bu gelişmelerin altın fiyatına etkisi genellikle kısa vadede küçük kalır, makro veri ya da Fed beklentileri ise bu haberlerden daha belirleyici olur; bu nedenle güven düşük tutuldu.
 17.11 20:34 N  GPT  score +0.35 conf 0.55: Kırım Köprüsü’ne yönelik saldırı ve Rusya-Ukrayna çatışmasındaki tırmanış, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. İran’a ilişkin ABD açıklaması da jeopolitik riski yükseltiyor; ancak dolar ve faizlere dair yeni bir sinyal olmaması etkiyi sınırlıyor.
@@ -102,6 +101,7 @@ Son işlemler:
 17.11 21:20 B6  karar turu: Claude «Piyasa genel olarak satış baskısı altında; düşük momentumla aşağı eğilimli yatay bir seyir izliyor.» / GPT «Endekslerde aşağı eğilim sürüyor; taze şirket haberi bulunmadığından mevcut pozisyonlara ek piyasa riski sınırlı tutulmalı.»
 17.11 21:32 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son saatte ılımlı bir tepki alımı var; seçici ve temkinli alım tarafı öne çıkıyor.» / GPT «Endekslerde gün içi kayıplara rağmen son bölümde toparlanma güçleniyor; yükseliş yönünde sınırlı avantaj var ancak kaldıraç dönüş riskini büyütüyor.»
 17.11 21:40 B5  CLOSE long stop: -55.96 USD
+17.11 21:44 B6  karar turu: Claude «Piyasa günü yaklaşık %1,2 düşüşle geçiriyor ve öğleden sonraki tepki alımları satışla karşılanıyor, kapanışa doğru hafif negatif eğilim sürebilir.» / GPT «Başarısız tepki yükselişi aşağı yönü destekliyor ancak dar saatlik hareketler ve kapanışa kalan 77 dakika, yüzde 1,5 hedefe ulaşmayı zorlaştırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
