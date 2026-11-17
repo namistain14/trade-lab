@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 20:51 (İstanbul)
+> Son güncelleme: 17.11.2026 20:55 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1342.67 $ |
 
-**Hesap değeri: 4,535.99 $** (başlangıç 5,000 $, -464.01 $ / %-9.28)
+**Hesap değeri: 4,531.32 $** (başlangıç 5,000 $, -468.68 $ / %-9.37)
 
 Açık pozisyonlar: PAXGUSDT long @ 3857.75 (TP 3869.32 / SL 3850.04)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,963.64 $** (başlangıç 100,000 $, +12963.64 $ / %+12.96)
+**Hesap değeri: 113,161.63 $** (başlangıç 100,000 $, +13161.63 $ / %+13.16)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8stt9MtqKaknrPX2to1'}
 17.11 20:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8t8QaYttP3s3uBwDo1p'}
 17.11 20:19 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 17.11 20:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
@@ -104,6 +103,7 @@ Son işlemler:
 17.11 20:34 N  GPT  score +0.35 conf 0.55: Kırım Köprüsü’ne yönelik saldırı ve Rusya-Ukrayna çatışmasındaki tırmanış, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. İran’a ilişkin ABD açıklaması da jeopolitik riski yükseltiyor; ancak dolar ve faizlere dair yeni bir sinyal olmaması etkiyi sınırlıyor.
 17.11 20:34 B5  LONG gold 25000 USD x10 @ 3857.75 (TP 3869.32, SL 3850.04; news +0.28)
 17.11 20:42 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside, öğleden sonraki tepki yükselişi zayıflıyor ve hafif negatif eğilim sürüyor.» / GPT «Endekslerde gün içi tepki yükselişi zayıflarken, yeni şirket haberleriyle desteklenmeyen hareketleri kovalamak yerine göreli zayıflıkta seçici kısa pozisyonlar öne çıkıyor.»
+17.11 20:55 B6  karar turu: Claude «Endeksler %1'in üzerinde ekside ve öğleden sonra yatay-zayıf konsolide oluyor; tepkiler satış fırsatı olarak değerlendiriliyor.» / GPT «Endekslerde günlük satış baskısı sürerken son saat yatay; yeni işlemde göreli zayıflık gösteren hisselerde seçici kısa pozisyonları tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
