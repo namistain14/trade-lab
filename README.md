@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 19:23 (İstanbul)
+> Son güncelleme: 17.11.2026 19:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 19:14): Claude puan **-0.30**, güven 0.40 — Altın, dolar ve tahvil getirilerinin yükselişi nedeniyle yılın en düşük seviyelerinden toparlanmakta zorlanıyor; "Fed faiz artırımı beklentisi doları yukarı taşıyor" başlığı ve 10 yıllık getirinin %5'e yaklaşması kısa vadede baskı yaratıyor. İran savaşındaki çıkmaz güvenli liman talebini destekliyor olsa da bu etki baskın değil; Fed Governor Cook'un Beyaz Saray duruşmasına katılmayı reddetmesi gibi Fed bağımsızlığı haberleri uzun vadede altın lehine olabilir ama 1-4 saatlik ufukta etkisi sınırlı. Birçok başlık eski veya zaten fiyatlanmış olduğu için güven düşük tutuldu.
+Son haber analizi (17.11 19:26): Claude puan **-0.30**, güven 0.50 — Altın bir yıllık dibe yakın seyrediyor; güçlenen dolar, yükselen getiriler ve Fed faiz artırımı beklentileri kısa vadede baskı yaratıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ama bu etki zaten fiyatlanmış görünüyor ve Fed Governor Cook'un Beyaz Saray duruşmasına katılmama haberi tek başına belirleyici değil.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 18:38 N  NEWS (13 new) score -0.40 conf 0.50: Altın, dolar 19 aylık zirvesi ve 10 yıllık tahvil getirisinin %5'e yaklaşması nedeniyle baskı altında; ABD enflasyonunun beklentinin üzerinde gelmesi de Fed'in sıkı kalacağı beklentisini güçlendiriyor. Jeopolitik gerilim (İran savaşı, Kırım Köprüsü) güvenli liman talebini destekleyebilir, ancak Vance'in "sonsuz savaş olmayacak" açıklaması bu etkiyi sınırlıyor; sonuç olarak kısa vadede net negatif görünüm, orta düzeyde güven.
-17.11 18:44 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 18:44 B6  karar turu: Claude «Piyasada son bir saatte teknoloji öncülüğünde sert satış var; zayıf hisselerde kısa pozisyon tercih edilir ancak aşırı satım sonrası tepki riski göz önünde tutulmalı.» / GPT «-»
 17.11 18:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 18:50 N  NEWS (8 new) score -0.50 conf 0.60: 
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 19:14 N  NEWS (11 new) score -0.30 conf 0.40: Altın, dolar ve tahvil getirilerinin yükselişi nedeniyle yılın en düşük seviyelerinden toparlanmakta zorlanıyor; "Fed faiz artırımı beklentisi doları yukarı taşıyor" başlığı ve 10 yıllık getirinin %5'e yaklaşması kısa vadede baskı yaratıyor. İran savaşındaki çıkmaz güvenli liman talebini destekliyor olsa da bu etki baskın değil; Fed Governor Cook'un Beyaz Saray duruşmasına katılmayı reddetmesi gibi Fed bağımsızlığı haberleri uzun vadede altın lehine olabilir ama 1-4 saatlik ufukta etkisi sınırlı. Birçok başlık eski veya zaten fiyatlanmış olduğu için güven düşük tutuldu.
 17.11 19:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 19:20 B6  karar turu: Claude «Endeksler gün içi satış baskısı altında ve sert dipten gelen tepki zayıflıyor; göreli güç gösteren hisseler dışında temkinli negatif bir görünüm var.» / GPT «-»
+17.11 19:26 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 19:26 N  NEWS (11 new) score -0.30 conf 0.50: Altın bir yıllık dibe yakın seyrediyor; güçlenen dolar, yükselen getiriler ve Fed faiz artırımı beklentileri kısa vadede baskı yaratıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ama bu etki zaten fiyatlanmış görünüyor ve Fed Governor Cook'un Beyaz Saray duruşmasına katılmama haberi tek başına belirleyici değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
