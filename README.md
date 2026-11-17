@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 01:11 (İstanbul)
+> Son güncelleme: 18.11.2026 01:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 1354.61 $ |
 
-**Hesap değeri: 4,500.55 $** (başlangıç 5,000 $, -499.45 $ / %-9.99)
+**Hesap değeri: 4,487.16 $** (başlangıç 5,000 $, -512.84 $ / %-10.26)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
-Son haber analizi (18.11 01:02): Claude puan **-0.05**, güven 0.35 — İran ile ABD arasındaki çatışmanın tırmanması (Qeshm Adası'na ABD saldırıları ve Bahreyn üssüne yönelik hedefleme) jeopolitik risk ve güvenli liman talebini artırarak altı kısa vadede destekliyor. Ancak FXEmpire'ın güçlü dolar ve faiz artırımı beklentilerine dair notu ile Fed'in Williams'ın "ani faiz hamlesi gerekmiyor" açıklaması karışık sinyaller veriyor; bu nedenle etki sınırlı ve yönü belirsiz.
+Son haber analizi (18.11 01:14): Claude puan **-0.10**, güven 0.40 — İran ile ABD arasındaki çatışmanın tırmanması (Qeshm Adası'na ABD saldırıları ve Bahreyn üssüne yönelik hedefleme) jeopolitik risk ve güvenli liman talebini artırarak altı kısa vadede destekliyor. Ancak FXEmpire'ın güçlü dolar ve faiz artırımı beklentilerine dair notu ile Fed'in Williams'ın "ani faiz hamlesi gerekmiyor" açıklaması karışık sinyaller veriyor; bu nedenle etki sınırlı ve yönü belirsiz.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.39 — İran’daki çatışma ve ABD’nin füze tesisine yönelik saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak daha güçlü ABD büyüme beklentisi ve Fed’den ek faiz artışı sinyalleri altını baskılayabilir; etkiler bu nedenle dengeli ve belirsiz.
+GPT (gpt-6-luna): puan **+0.35**, güven 0.48 — İran’daki ABD saldırıları ve Kerç Köprüsü’ne yönelik saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir. Buna karşılık Fed’den olası faiz artışı sinyalleri ve güçlü dolar baskısı yükselişi sınırlayabilir; haber akışı çelişkili olduğundan etki belirsiz.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 23:46 B6  CLOSE long QQQ seans sonu: -307.07 USD
-17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD
 17.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 18.11 00:01 N  NEWS (45 new) score -0.10 conf 0.40: İran'a yönelik ABD saldırıları jeopolitik risk primini destekleyerek altı hafif yukarı çekebilir, ancak İran savaşı zaten uzun süredir fiyatlanmış durumda. Fed'in Williams'ın sıkılaştırmadan yana olduğunu söylemesi ve doların güçlü seyri altın üzerinde baskı yaratabilir; bu nedenle net etki hafif negatif, güven düşük.
 18.11 00:01 N  GPT  score +0.35 conf 0.58: İran’daki füze sahasına yönelik ABD saldırısı bölgesel gerilim ve güvenli liman talebini artırarak altını kısa vadede destekleyebilir. Ancak Fed’den gelen temkinli-şahin mesajlar ve doların güçlü seyri yükselişi sınırlıyor; yinelenen haberler ek etkiyi belirsiz kılıyor.
@@ -102,6 +100,8 @@ Son işlemler:
 18.11 00:50 N  GPT  score +0.42 conf 0.66: ABD’nin İran’daki füze sahasına düzenlediği yeni saldırı ve Bahreyn’deki üsse yönelik saldırı, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Fed’den Williams’ın «dramatik» bir faiz hamlesine gerek olmadığını söylemesi sınırlı destek sunarken, güçlü dolar ve faiz artışı beklent
 18.11 01:02 N  NEWS (8 new) score -0.05 conf 0.35: 
 18.11 01:02 N  GPT  score +0.12 conf 0.39: İran’daki çatışma ve ABD’nin füze tesisine yönelik saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak daha güçlü ABD büyüme beklentisi ve Fed’den ek faiz artışı sinyalleri altını baskılayabilir; etkiler bu nedenle dengeli ve belirsiz.
+18.11 01:14 N  NEWS (12 new) score -0.10 conf 0.40: 
+18.11 01:14 N  GPT  score +0.35 conf 0.48: İran’daki ABD saldırıları ve Kerç Köprüsü’ne yönelik saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir. Buna karşılık Fed’den olası faiz artışı sinyalleri ve güçlü dolar baskısı yükselişi sınırlayabilir; haber akışı çelişkili olduğundan etki belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
