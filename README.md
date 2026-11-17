@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 09:03 (İstanbul)
+> Son güncelleme: 17.11.2026 09:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 08:54): Claude puan **-0.50**, güven 0.60 — Altın, güçlü dolar ve Fed faiz artırımı beklentileri nedeniyle yaklaşık bir yıllık dibe yakın seyrediyor; yeni haberlerde ABD'nin İran'da "sonsuz savaş" ihtimalini reddetmesi ve petrolün düşmesi jeopolitik güvenli liman talebini zayıflatıyor. Ukrayna ve İran'daki çatışma haberleri ise büyük ölçüde fiyatlanmış durumda olduğundan etkisi sınırlı kalabilir.
+Son haber analizi (17.11 09:06): Claude puan **-0.40**, güven 0.60 — Faiz artırımı beklentileri ve güçlenen dolar altın için baskılayıcı; Warsh'ın inflasyon nedeniyle faiz artırımına yaklaştığına dair haberler ve doların 19 aylık zirvesi altını aşağı çekiyor. İran ve Ukrayna'daki gerilim güvenli liman talebi yaratabilir, ancak petrolün düşmesi ve ABD'nin "sonsuz savaş" ihtimalini reddetmesi bu etkiyi sınırlıyor; ayrıca Hazine tahvil satışıyla doların bir miktar zayıflaması karışık sinyal veriyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 08:00 B5P  NEWS (45 new) score -0.30 conf 0.50: Hormuz'daki tanker saldırıları ve mayın isabeti arz riskini artırıp fiyatı destekliyor, ancak piyasa bunu görmezden gelip Goldman'ın 2027'ye kadar büyük arz fazlası öngörüsü, Hormuz sevkiyatlarının iyileşmesi ve dolar güçlenmesi nedeniyle Brent'i 92 doların altına çekti. Haber akışı net olarak fiyatı aşağı çekiyor, ancak jeopolitik risk yüksek olduğundan güven orta düzeyde.
-17.11 08:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 17.11 08:06 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 08:06 N  NEWS (30 new) score -0.75 conf 0.80: Fed faiz artırımı beklentileri ve 19 aylık zirvedeki dolar altını yıllık dip seviyelerine çekiyor; güvenli liman talebini destekleyecek bir jeopolitik şok yok. Çin alımı ve $3,850 destek seviyesi kısa vadede sınırlı bir toparlanma ihtimali bırakıyor, ancak ana yön aşağı.
 17.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 08:42 N  NEWS (8 new) score -0.35 conf 0.50: Altın, güçlü dolar ve Fed faiz artırımı beklentileri nedeniyle yıllık dip seviyelere yakın işlem görüyor; bu baskı ana eğilimi aşağı yönlü tutuyor. Yeni gelen İran'da "sonsuz savaş" olasılığının reddi ve petrol fiyatlarındaki düşüş jeopolitik risk primini ve enflasyon korkusunu azaltarak kısmen destekleyici olabilir, ancak haberlerin çoğu eski veya fiyatlanmış olduğu için etkisi sınırlı.
 17.11 08:54 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 08:54 N  NEWS (3 new) score -0.50 conf 0.60: Altın, güçlü dolar ve Fed faiz artırımı beklentileri nedeniyle yaklaşık bir yıllık dibe yakın seyrediyor; yeni haberlerde ABD'nin İran'da "sonsuz savaş" ihtimalini reddetmesi ve petrolün düşmesi jeopolitik güvenli liman talebini zayıflatıyor. Ukrayna ve İran'daki çatışma haberleri ise büyük ölçüde fiyatlanmış durumda olduğundan etkisi sınırlı kalabilir.
+17.11 09:06 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 09:06 N  NEWS (18 new) score -0.40 conf 0.60: Faiz artırımı beklentileri ve güçlenen dolar altın için baskılayıcı; Warsh'ın inflasyon nedeniyle faiz artırımına yaklaştığına dair haberler ve doların 19 aylık zirvesi altını aşağı çekiyor. İran ve Ukrayna'daki gerilim güvenli liman talebi yaratabilir, ancak petrolün düşmesi ve ABD'nin "sonsuz savaş" ihtimalini reddetmesi bu etkiyi sınırlıyor; ayrıca Hazine tahvil satışıyla doların bir miktar zayıflaması karışık sinyal veriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
