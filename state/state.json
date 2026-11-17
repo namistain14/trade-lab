@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    5000.0
-   ],
-   [
     1794303682,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794899772,
+    5000.0
+   ],
+   [
+    1794899959,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    4868.5
-   ],
-   [
     1794303682,
     4868.5
    ],
@@ -27085,34 +27081,29 @@
    [
     1794899772,
     4868.5
+   ],
+   [
+    1794899959,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.12,
-   "confidence": 0.3,
-   "reason": "Haberlerin \u00e7o\u011fu g\u00f6r\u00fc\u015f yaz\u0131s\u0131, eski veya zaten fiyatlanm\u0131\u015f jeopolitik geli\u015fmeler; \u0130ran sava\u015f\u0131 ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak Vance'in \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ve petrol\u00fcn d\u00fc\u015fmesi, enflasyon beklentilerini yumu\u015fatarak s\u0131n\u0131rl\u0131 bir dovish etki yaratabilir; bu kar\u0131\u015f\u0131k sinyaller nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.7,
+   "confidence": 0.75,
+   "reason": "Alt\u0131n 1 y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar 19 ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri art\u0131yor, bu da reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilse de, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerinin gerisinde kal\u0131yor.",
    "n": 45,
-   "ts": 1794899239649,
-   "new_headlines": 23,
+   "ts": 1794899958345,
+   "new_headlines": 17,
    "key_events": [
-    "Dolar 19 ay\u0131n zirvesinde; Fed faiz art\u0131r\u0131m\u0131 bahisleri y\u00fckseliyor",
-    "Alt\u0131n 1 y\u0131l\u0131n dibine yak\u0131n; Warsh'\u0131n ilk testi: inat\u00e7\u0131 enflasyon art\u0131r\u0131m bask\u0131s\u0131",
-    "\u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor; ABD 'sonsuz sava\u015f' olmayacak mesaj\u0131 veriyor"
+    "Alt\u0131n 1 y\u0131ll\u0131k dibe yak\u0131n; dolar g\u00fc\u00e7leniyor, Fed faiz art\u0131r\u0131m\u0131 bahisleri b\u00fcy\u00fcyor",
+    "Dolar 19 ayl\u0131k zirvede (Fed art\u0131r\u0131m beklentileri)",
+    "Warsh'\u0131n ilk s\u0131nav\u0131: inat\u00e7\u0131 enflasyon faiz art\u0131r\u0131m\u0131na itiyor"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794396120109,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "S\u0131cak ABD enflasyon verisi sonras\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi ve dolar iki haftal\u0131k zirveye yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu, alt\u0131n i\u00e7in reel faiz ve dolar kanal\u0131ndan bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili haberler kar\u0131\u015f\u0131k (Trump'\u0131n \"haz\u0131r\" a\u00e7\u0131klamas\u0131 vs. ABD'nin geri ad\u0131m att\u0131\u011f\u0131 raporu), bu y\u00fczden jeopolitik g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kalabilir.",
-    "new": 8,
-    "gpt_score": -0.45,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1794396841635,
     "score": -0.5,
@@ -29803,63 +29794,70 @@
     "new": 23,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794899958345,
+    "score": -0.7,
+    "confidence": 0.75,
+    "reason": "Alt\u0131n 1 y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar 19 ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri art\u0131yor, bu da reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilse de, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerinin gerisinde kal\u0131yor.",
+    "new": 17,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 49
+   "n": 50
   },
   "news_seen": [
+   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "Dubai Airport Traffic Falls But Shows Signs of Recovery Amid Iran War - WSJ",
+   "Inflation Is Sending US Bond Yields Higher Again. Here\u2019s Why We\u2019re Not Worried - Morningstar",
    "Which areas have the most jobs for 16-24 year-olds? Use our look-up to find out",
    "The Drug War Is Not Judged by Whether It Works - Liberal Currents",
    "Ukraine War, Day 1,727: Kyiv and Russia Trade Strikes on Bridges - EA WorldView",
+   "Despite years of war, nearly 90% of Israeli children say they are happy - Ynetnews",
+   "India identifies Tara Gas as tanker targeted in Strait of Hormuz missile attack - Gulf Business",
    "Spiritual Death and the $1.5 Trillion War Budget - Counterpunch",
    "Elina Svitolina, drained by war and a split, ends her season with WTA Finals loss - The Mining Gazette",
    "Krystal Ball Interview: The New Oligarchy \u2013 Big Tech, Billionaires & War (Transcript) - The Singju Post",
    "Remains of two ROK soldiers killed in Korean War returned to families - NK News",
+   "Gold hovers near 1-year low as dollar rallies, Fed rate hike bets grow - Anadolu Ajans\u0131",
+   "Indian Rupee: Oil prices weigh on outlook against US Dollar \u2013 Commerzbank - FXStreet",
+   "US dollar hits 19-month peak on Fed hike bets, while NZ dollar slumps - TradingView",
    "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact - The Guardian",
+   "Making the US dollar great again - Financial Times",
    "War, sanctions and falling freight put Russian railways under pressure - International Railway Journal",
    "Can Airpower Win Without Political Unity? Lessons from Yemen - Small Wars Journal",
+   "Euro: Extended slide eyes 1.0975 support against US Dollar \u2013 UOB - FXStreet",
    "Church war memorial repair fund appeal tops \u00a38,000 - Yahoo News Canada",
    "Letters: War on Iran could just make matters worse - NOLA.com",
    "Vance says Trump administration will not let war on Iran become another 'forever war' - TRT World",
    "'Inside Deutsche Bank': Despite scandals and war in Ukraine, bank maintained business ties with Russians - Le Monde.fr",
    "EU Sanctions Wildberries CEO Over Alleged Russian Military Links - Global Cosmetics News",
    "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+   "Two major Kyiv bridges hit in Russian attack, mayor says - BBC",
    "Two major Kyiv bridges hit in Russian attack, mayor says",
    "Stories of survival and pain: Children amid Israel\u2019s war on south Lebanon - Al Jazeera",
    "Trump Admin. has 'no clear plan; to end the War in Iran, says incoming House Democrat - Modern Ghana",
+   "Border Closures and Iran War Push Millions of Afghans Deeper Into Poverty, Report Says - thekabultribune.com",
+   "Ukrainian monitoring channels claim missile strike sends Crimea bridge road arch into the water - Meduza",
+   "Indonesian Rupiah gains as US Dollar weakens amid Treasury sell-off - FXStreet",
    "Morning Bid: Markets shaken, not stirred, as US-China tech war he - Global Banking & Finance Review",
+   "Warsh's First Big Test: Stubborn Inflation Pushes Toward a Rate Hike as White House Presses for a Hold - BigGo Finance",
    "Archaeologists uncover sections of medieval church in war-torn Sudan - Reuters",
+   "North Korea is 'honing' its ballistic missiles in Ukraine with dozens of attacks a month, Zelenskyy says - Business Insider",
    "Kyiv bridges attacked in Russian missile strikes overnight; Russia says it downed over 2,000 drones - i24NEWS",
    "Oil falls after US dismisses prospect of \u2018forever war\u2019 with Iran - Arabian Gulf Business Insight | AGBI",
    "France expects EU sanctions on Iran in December over fridge hack - Arab News",
    "War a world away chills premiere skating event for 4 Ukrainians - Cascadia Daily News",
+   "US dollar hits 19-month peak on Fed hike bets; Aussie dips - Forex Factory",
+   "Institutional forecast: The Federal Reserve will implement consecutive rate hikes in December and January, followed by a prolonged pause. - Moomoo",
    "Scott Bessent is running Washington\u2019s other war department - Responsible Statecraft",
-   "Trump's pick for Navy secretary likely to face Iran war questions during confirmation hearing - WKMG",
-   "The secret war between al-Qaeda and Islamic State - Financial Times",
-   "Trump Is Now 0 for 10 With His Gifts to Putin - Bloomberg.com",
-   "UMass alum returns to talk law, war and diplomacy - Massachusetts Daily Collegian",
-   "Ukraine-Russia war latest: Power cuts in Kyiv as vital bridges struck in massive Russian ballistic missile attack - Yahoo News New Zealand",
-   "Remarks by Under Secretary of War for Policy Elbridge Colby at the Naval Submarine League' - U.S. Department of War (.gov)",
-   "Third U.S. carrier arrives, stoking concerns about renewed conflicts with Iran - CNBC",
-   "The Latest: Trump says he plans to talk about war in Ukraine during meeting with Xi and Putin - Dallas News",
-   "Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National",
-   "Vance: We Will Not Let The War Become A \u2018Forever War\u2019 - Kurdistan24",
-   "Iran Update, November 16, 2026 - Institute for the Study of War",
-   "Russian Offensive Campaign Assessment, November 16, 2026 - Institute for the Study of War",
-   "\u2018Give Every American Family a $1700 Check\u2019: Ro Khanna Says Compensate American Families for Iran War - Benzinga",
-   "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report",
-   "How Trump and Xi went from tariff war to trade truce - Reuters",
-   "Two major Kyiv bridges hit in Russian attack, mayor says - BBC",
-   "Transcript: Finland\u2019s President Stubb on Europe\u2019s Geopolitical Future and Enlargement - The Singju Post",
-   "Ukraine Hits Kerch Bridge in its Biggest Drone Attack of the War - The SOFX Report",
-   "Ro Khanna Wants $1,700 Checks for Families Hit by Iran War Costs - Around Prague"
+   "Trump's pick for Navy secretary likely to face Iran war questions during confirmation hearing - WKMG"
   ]
  },
  "log": [
-  "15.11 17:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 18:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 18:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 18:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 18:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 09:55 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 09:55 N  NEWS (17 new) score -0.70 conf 0.75: Alt\u0131n 1 y\u0131l\u0131n dibine yak\u0131n seyrediyor; dolar 19 ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, bu da reel faizler ve dolar \u00fczerinden alt\u0131n\u0131 bask\u0131l\u0131yor. Jeopolitik haberler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor ve petrol d\u00fc\u015f\u00fc\u015f\u00fc enflasyon endi\u015fesini bir \u00f6l\u00e7\u00fcde hafifletiyor.",
   "17.11 10:07 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 10:07 N  NEWS (23 new) score +0.12 conf 0.30: Haberlerin \u00e7o\u011fu g\u00f6r\u00fc\u015f yaz\u0131s\u0131, eski veya zaten fiyatlanm\u0131\u015f jeopolitik geli\u015fmeler; \u0130ran sava\u015f\u0131 ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak Vance'in \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ve petrol\u00fcn d\u00fc\u015fmesi, enflasyon beklentilerini yumu\u015fatarak s\u0131n\u0131rl\u0131 bir dovish etki yaratabilir; bu kar\u0131\u015f\u0131k sinyaller nedeniyle g\u00fcven d\u00fc\u015f\u00fck."
+  "17.11 10:07 N  NEWS (23 new) score +0.12 conf 0.30: Haberlerin \u00e7o\u011fu g\u00f6r\u00fc\u015f yaz\u0131s\u0131, eski veya zaten fiyatlanm\u0131\u015f jeopolitik geli\u015fmeler; \u0130ran sava\u015f\u0131 ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak Vance'in \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ve petrol\u00fcn d\u00fc\u015fmesi, enflasyon beklentilerini yumu\u015fatarak s\u0131n\u0131rl\u0131 bir dovish etki yaratabilir; bu kar\u0131\u015f\u0131k sinyaller nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
+  "17.11 10:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 10:19 N  NEWS (17 new) score -0.70 conf 0.75: Alt\u0131n 1 y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar 19 ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri art\u0131yor, bu da reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilse de, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerinin gerisinde kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    4963.78
-   ],
-   [
     1794303682,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794899772,
+    4963.78
+   ],
+   [
+    1794899959,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    4975.18
-   ],
-   [
     1794303682,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794899772,
+    4975.18
+   ],
+   [
+    1794899959,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    4993.28
-   ],
-   [
     1794303682,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794899772,
+    4993.28
+   ],
+   [
+    1794899959,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794303500,
-    4969.22
-   ],
-   [
     1794303682,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794899772,
+    4969.22
+   ],
+   [
+    1794899959,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794303500,
-    4471.98
-   ],
    [
     1794303682,
     4466.05
@@ -93138,6 +93134,10 @@
    [
     1794899772,
     4545.26
+   ],
+   [
+    1794899959,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794303500,
-    111676.47
-   ],
    [
     1794303682,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794899772,
     114145.15
+   ],
+   [
+    1794899959,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794303500,
-    4876.96
-   ],
    [
     1794303682,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794899772,
+    4876.96
+   ],
+   [
+    1794899959,
     4876.96
    ]
   ],
