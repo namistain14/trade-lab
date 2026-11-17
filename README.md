@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 17:46 (İstanbul)
+> Son güncelleme: 17.11.2026 17:49 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 17:36): Claude puan **-0.60**, güven 0.70 — Altın, sıkılaşma beklentilerinin güçlenmesi ve reel faizlerin yükselmesi nedeniyle bir yıllık dibe yakın işlem görüyor; Fed yetkilisi Musalem'in faizin 1 puan artabileceği yönündeki açıklaması ve ABD ithalat fiyatlarındaki beklentinin üzerindeki artış baskıyı sürdürüyor. Kırım köprüsü, İran-İsrail/ABD çatışmaları gibi jeopolitik haberler güvenli liman talebi yaratabilir, ancak bunların etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda.
+Son haber analizi (17.11 17:49): Claude puan **-0.45**, güven 0.60 — Altın, bir yıllık dipte ve faiz artırımı beklentileri sertleşiyor; reel getiriler yükseliyor, dolar ve enerji fiyatları destek buluyor, ABD ithal fiyatları beklentinin üzerinde geldi. Kırım Köprüsü ve Orta Doğu gerilimleri jeopolitik güvenli liman talebi yaratabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor ve ana etki hâlâ baskı yönünde.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 16:36 N  NEWS (8 new) score -0.60 conf 0.60: Fed yetkilileri (Musalem) birkaç faiz artırımının ilkbahara kadar gerekebileceğini söyledi ve piyasa art arda faiz artırımı bahis yapıyor; bu, reel faizleri ve doları yukarı iterek altın için net olumsuz. ABD doları yükselişi ve altının 3.850 dolar civarında zorlanması bu baskıyı teyit ediyor; İran savaşı ve Kırım köprüsü saldırısı gibi jeopolitik haberler ise güvenli liman talebini sınırlı artırıyor.
-17.11 16:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 16:48 N  NEWS (9 new) score -0.50 conf 0.60: Fed yetkililerinden (Musalem, St. Louis) art arda faiz artırımı çağrıları ve yükselen faiz beklentileri, doların toparlanması ve gerçek faizlerin yükselmesi altın için net olarak baskılayıcı. Kırım köprüsü saldırısı ve İran savaşı gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlasa da, bu etkiyi dolar ve faiz kanalı büyük ölçüde dengeliyor; ayrıca bazı haberler zaten fiyatlanmış durumda.
 17.11 17:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 17:00 N  NEWS (15 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem) art arda faiz artırımı çağrısı, güçlü ABD perakende satışları ve dolardaki yükseliş altın üzerinde net baskı yaratıyor; altın 3.848 dolara geriledi. İran ve Ukrayna-Kırım gelişmeleri güvenli liman talebi yaratabilir ancak fiyat tepkisi zayıf kaldığı için etkisi sınırlı görünüyor.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 17:36 N  NEWS (10 new) score -0.60 conf 0.70: Altın, sıkılaşma beklentilerinin güçlenmesi ve reel faizlerin yükselmesi nedeniyle bir yıllık dibe yakın işlem görüyor; Fed yetkilisi Musalem'in faizin 1 puan artabileceği yönündeki açıklaması ve ABD ithalat fiyatlarındaki beklentinin üzerindeki artış baskıyı sürdürüyor. Kırım köprüsü, İran-İsrail/ABD çatışmaları gibi jeopolitik haberler güvenli liman talebi yaratabilir, ancak bunların etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda.
 17.11 17:43 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 17:43 B6  karar turu: Claude «Endeksler hafif ekside ve yatay seyrediyor; bu ortamda hisseye özgü haberler ve kısa vadeli kırılımlar belirleyici olacak.» / GPT «-»
+17.11 17:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 17:49 N  NEWS (12 new) score -0.45 conf 0.60: Altın, bir yıllık dipte ve faiz artırımı beklentileri sertleşiyor; reel getiriler yükseliyor, dolar ve enerji fiyatları destek buluyor, ABD ithal fiyatları beklentinin üzerinde geldi. Kırım Köprüsü ve Orta Doğu gerilimleri jeopolitik güvenli liman talebi yaratabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor ve ana etki hâlâ baskı yönünde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

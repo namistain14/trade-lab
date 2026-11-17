@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    5000.0
-   ],
-   [
     1794330870,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794926785,
+    5000.0
+   ],
+   [
+    1794926971,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    4868.5
-   ],
-   [
     1794330870,
     4868.5
    ],
@@ -27085,34 +27081,29 @@
    [
     1794926785,
     4868.5
+   ],
+   [
+    1794926971,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.7,
-   "reason": "Alt\u0131n, s\u0131k\u0131la\u015fma beklentilerinin g\u00fc\u00e7lenmesi ve reel faizlerin y\u00fckselmesi nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; Fed yetkilisi Musalem'in faizin 1 puan artabilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve ABD ithalat fiyatlar\u0131ndaki beklentinin \u00fczerindeki art\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc, \u0130ran-\u0130srail/ABD \u00e7at\u0131\u015fmalar\u0131 gibi jeopolitik haberler g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Alt\u0131n, bir y\u0131ll\u0131k dipte ve faiz art\u0131r\u0131m\u0131 beklentileri sertle\u015fiyor; reel getiriler y\u00fckseliyor, dolar ve enerji fiyatlar\u0131 destek buluyor, ABD ithal fiyatlar\u0131 beklentinin \u00fczerinde geldi. K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc ve Orta Do\u011fu gerilimleri jeopolitik g\u00fcvenli liman talebi yaratabilir, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve ana etki h\u00e2l\u00e2 bask\u0131 y\u00f6n\u00fcnde.",
    "n": 45,
-   "ts": 1794926212075,
-   "new_headlines": 10,
+   "ts": 1794926971807,
+   "new_headlines": 12,
    "key_events": [
-    "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n, reel getiri bask\u0131s\u0131 s\u00fcr\u00fcyor",
-    "Fed'in Musalem'den s\u0131k\u0131la\u015ft\u0131rma yorumu ve g\u00fc\u00e7l\u00fc dolar",
-    "\u0130ran-ABD sava\u015f\u0131 ve Ukrayna gerilimi s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011fl\u0131yor"
+    "Gold ve g\u00fcm\u00fc\u015f bir y\u0131ll\u0131k dipte; faiz art\u0131r\u0131m\u0131 beklentileri sertle\u015fiyor",
+    "ABD ithal fiyatlar\u0131 beklentinin \u00fczerinde artt\u0131; dolar ve enerji fiyatlar\u0131 destekliyor",
+    "K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'ne f\u00fcze sald\u0131r\u0131s\u0131 (g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kalabilir)"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794423018655,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: y\u00fcksek ABD tahvil getirileri ve Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 ihtimalleri alt\u0131n\u0131 4.000 dolar\u0131n alt\u0131na itti, dolar y\u0131ll\u0131k zirvelere yak\u0131n. \u0130ran'a yeni askeri sald\u0131r\u0131 veya yapt\u0131r\u0131m ihtimali g\u00fcvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
-    "new": 10,
-    "gpt_score": -0.35,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1794423739385,
     "score": -0.5,
@@ -29803,24 +29794,41 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794926971807,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Alt\u0131n, bir y\u0131ll\u0131k dipte ve faiz art\u0131r\u0131m\u0131 beklentileri sertle\u015fiyor; reel getiriler y\u00fckseliyor, dolar ve enerji fiyatlar\u0131 destek buluyor, ABD ithal fiyatlar\u0131 beklentinin \u00fczerinde geldi. K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc ve Orta Do\u011fu gerilimleri jeopolitik g\u00fcvenli liman talebi yaratabilir, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve ana etki h\u00e2l\u00e2 bask\u0131 y\u00f6n\u00fcnde.",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 86
+   "n": 87
   },
   "news_seen": [
+   "Fed's Cook won't appear at White House hearing to consider her firing without changes - Politico",
+   "Trump says Russia-Ukraine war 'very close' to being resolved - Yeni Safak English",
+   "Fed needs to prepare for bond-market intervention during calm times, Hammack says - Reuters",
+   "It's not just AI \u2014 the dollar 'wrecking ball' is leveling gold and bitcoin as the debasement trade unravels - Yahoo Finance",
+   "Missiles! At the Crimea Bridge - Bloomberg.com",
+   "Ghost Towns of Afghanistan: The Environmental Toll of Decades of War - Al Jazeera",
    "\u2018Putin\u2019s Favorite Toy\u2019: Russian War Bloggers Fume After Crimean Bridge Arch Collapses - Kyiv Post",
+   "Don\u2019t Misread the Gold-Silver Ratio as a Silver Buy Signal - NAI500",
    "Gold and Silver Slide to One-Year Lows as Rate-Hike Bets Harden: The Market Picture - India Infoline",
    "Kerry King Announces New Album, Unleashes Lead Single \u201cMy War\u201d - The Rock Revival",
    "How new US chip restrictions on South East Asia will hit China",
    "Gears of War Reloaded is on sale for just $9.99 on the PlayStation Store. - GameGPU",
    "US Dollar: How are rate expectations and energy moves providing support? \u2013 MUFG - www.tmgm.com",
-   "USD/JPY Price Forecast: Is the 200-day SMA near 158.80 supporting the Dollar? - www.tmgm.com",
+   "China, Russia\u2019s reality check for Trump: Why US sanctions may not matter any more - The Times of India",
    "Gold dips near session lows as U.S. retail sales meet expectations in October - Pluang",
    "Gold prices face pressure from rising real yiel... - Pluang",
-   "Two prisoners, one rift: South Korea, Europe and Russia\u2019s war on Ukraine - European Council on Foreign Relations",
    "Gold Price Falls to Rs 1.38 Lakh per 10 Grams, Silver Hits One-Year Low - Kashmir Observer",
+   "Two prisoners, one rift: South Korea, Europe and Russia\u2019s war on Ukraine - European Council on Foreign Relations",
+   "UK sanctions Israeli companies building West Bank settlements - Alton Telegraph",
    "America Invented the Drone War, So Why Is It Falling Behind? - The Cipher Brief",
    "Fed's Waller says central bank will work with private sector on digital finance - Reuters",
    "G.I. Joe Announced For New Crossover in Supremacy: World War 3 - Bleeding Cool News",
@@ -29834,32 +29842,22 @@
    "Iran\u2019s Ghalibaf says ending Israel\u2019s war on Lebanon essential to regional stability - Middle East Monitor",
    "SLAYER's KERRY KING announces new solo album with raging song \"My War\" - Revolver Magazine",
    "Gold, silver rate today Chennai, Coimbatore 17 November: Latest prices of yellow and white metal in Tamil Nadu cities - Livemint",
-   "The Kerch Bridge is crucial to Russia\u2019s war effort and for asserting Moscow\u2019s control of Crimea - Bozeman Daily Chronicle",
+   "The Kerch Bridge is crucial to Russia's war effort and for asserting Moscow's control of Crimea - Newsday",
    "Settler leaders denounce UK sanctions, call measures \u2018antisemitic\u2019 - The Times of Israel",
    "US picks Anduril to build containerized missile launcher for air defense - Interesting Engineering",
    "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts - Morgan Lewis",
    "Gold Price Forecast: $3,850 Support at Risk as Real Yields Bite - FXEmpire",
    "Tuesday, November 17. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes",
    "Pope Leo XIV Hopes for \u201cLess War, Less Division\u201d After Midterm Elections and Keeps Francis\u2019s Latin Mass Limits - Letters from Leo",
-   "Slayer's Kerry King Announces 2nd Solo Album + Drops New Song - Loudwire",
-   "UK sanctions Israeli companies building West Bank settlements - Daily Sitka Sentinel",
+   "Slayer's Kerry King Announces 2nd Solo Album - Hear the New Song - Loudwire",
+   "UK sanctions Israeli companies building West Bank settlements - Bozeman Daily Chronicle",
    "Gold price prediction: Gold rate jumps but experts warn of major volatile phase for bullion, check silver - The Economic Times",
    "Iran: No UN inspectors allowed at nuclear sites until war with US is over - Baltimore Sun",
    "Missile-drones, cruise missiles, and a Flamingo guided to the last second: Kyiv\u2019s account of the night Russia\u2019s Kerch bridge lost its road - Euromaidan Press",
-   "Academy Securities Appoints Rear Admiral Mike Studeman to Advisory Board and Geopolitical Intelligence Group - citybiz",
-   "Northrop Grumman to accelerate patriot missile motor manufacturing - Interesting Engineering",
-   "Gold trades near one-year low as U.S. retail sales slow - Kitco AM Report - Kitco",
-   "Gold prices this afternoon (November 17): World gold prices reverse course and rise again. - Vietnam.vn",
-   "Gold prices dip as U.S. retail sales meet expec... - Pluang",
-   "The Fed rate may need to rise by 1 percentage point, Musalem says - TradingView",
-   "Russia's Arctic oil shipments hit record amid sanctions, melting ice - Anadolu Ajans\u0131",
-   "Fed\u2019s Cook to Skip \u2018Unfair\u2019 White House Hearing, Lawyer Says - Bloomberg.com",
-   "Trump says Russia-Ukraine war 'very close' to being resolved - Anadolu Ajans\u0131"
+   "Academy Securities Appoints Rear Admiral Mike Studeman to Advisory Board and Geopolitical Intelligence Group - citybiz"
   ]
  },
  "log": [
-  "15.11 21:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 21:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:51 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 17:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 17:36 N  NEWS (10 new) score -0.60 conf 0.70: Alt\u0131n, s\u0131k\u0131la\u015fma beklentilerinin g\u00fc\u00e7lenmesi ve reel faizlerin y\u00fckselmesi nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; Fed yetkilisi Musalem'in faizin 1 puan artabilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve ABD ithalat fiyatlar\u0131ndaki beklentinin \u00fczerindeki art\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc, \u0130ran-\u0130srail/ABD \u00e7at\u0131\u015fmalar\u0131 gibi jeopolitik haberler g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
   "17.11 17:43 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "17.11 17:43 B6  karar turu: Claude \u00abEndeksler hafif ekside ve yatay seyrediyor; bu ortamda hisseye \u00f6zg\u00fc haberler ve k\u0131sa vadeli k\u0131r\u0131l\u0131mlar belirleyici olacak.\u00bb / GPT \u00ab-\u00bb"
+  "17.11 17:43 B6  karar turu: Claude \u00abEndeksler hafif ekside ve yatay seyrediyor; bu ortamda hisseye \u00f6zg\u00fc haberler ve k\u0131sa vadeli k\u0131r\u0131l\u0131mlar belirleyici olacak.\u00bb / GPT \u00ab-\u00bb",
+  "17.11 17:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 17:49 N  NEWS (12 new) score -0.45 conf 0.60: Alt\u0131n, bir y\u0131ll\u0131k dipte ve faiz art\u0131r\u0131m\u0131 beklentileri sertle\u015fiyor; reel getiriler y\u00fckseliyor, dolar ve enerji fiyatlar\u0131 destek buluyor, ABD ithal fiyatlar\u0131 beklentinin \u00fczerinde geldi. K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc ve Orta Do\u011fu gerilimleri jeopolitik g\u00fcvenli liman talebi yaratabilir, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve ana etki h\u00e2l\u00e2 bask\u0131 y\u00f6n\u00fcnde."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    4963.78
-   ],
-   [
     1794330870,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794926785,
+    4963.78
+   ],
+   [
+    1794926971,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    4975.18
-   ],
-   [
     1794330870,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794926785,
+    4975.18
+   ],
+   [
+    1794926971,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    4993.28
-   ],
-   [
     1794330870,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794926785,
+    4993.28
+   ],
+   [
+    1794926971,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794330704,
-    4969.22
-   ],
-   [
     1794330870,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794926785,
+    4969.22
+   ],
+   [
+    1794926971,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794330704,
-    4610.16
-   ],
    [
     1794330870,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794926785,
     4545.26
+   ],
+   [
+    1794926971,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794330704,
-    111676.47
-   ],
    [
     1794330870,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794926785,
     114145.15
+   ],
+   [
+    1794926971,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794330704,
-    4876.96
-   ],
    [
     1794330870,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794926785,
+    4876.96
+   ],
+   [
+    1794926971,
     4876.96
    ]
   ],
