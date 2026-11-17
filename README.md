@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 15:44 (İstanbul)
+> Son güncelleme: 17.11.2026 15:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 15:35): Claude puan **-0.40**, güven 0.50 — Altının 17 Kasım'da Eylül 2025'ten bu yana en düşük seviyeden açılması, güçlenen dolar ve yüksek enflasyon başlıkları kısa vadede baskı yaratıyor. İran savaşında "sonsuz savaş olmayacak" açıklaması ise güvenli liman talebini sınırlıyor; ancak bu haberler kısmen fiyatlanmış ve genel jeopolitik gürültü ağırlıklı olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (17.11 15:47): Claude puan **-0.60**, güven 0.70 — Fed yetkililerinin (Musalem, Hammack) faiz artırımı mesajları, güçlenen dolar ve yüksek enflasyon birlikte altın üzerinde baskı yaratıyor; altın fiyatı 2025 Eylül'den bu yana en düşük seviyeden açıldı. İran savaşının "donmuş çatışmaya" dönüşmesi ve Vance'in savaşın sonsuz olmayacağını söylemesi jeopolitik güvenli liman talebini sınırlıyor; yine de Goldman'ın yüksek hedef tahmini uzun vadeli destek olabilir, bu yüzden güveni sınırlı tutuyorum.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 14:10 N  NEWS (12 new) score -0.40 conf 0.60: Piyasadaki baskın etki Fed'in art arda faiz artırımı beklentisi ve doların 19 aylık zirvesi nedeniyle altı aşağı yönlü baskılıyor. Orta Doğu'daki savaş ve İran'a bağlı gelişmeler (Bahreyn'de insansız hava aracı saldırısı) güvenli liman talebini destekliyor olsa da bu etki hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor.
-17.11 14:22 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 14:22 N  NEWS (9 new) score -0.50 conf 0.60: Dolar 19 ayın zirvesine çıkarken piyasa Fed'in art arda faiz artırabileceğine fiyat veriyor; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı bir etki yaratıyor. İran savaşıyla ilgili jeopolitik risk primi büyük ölçüde zaten fiyatlanmış durumda, bu yüzden güvenli liman talebi kısa vadede sınırlı bir destek sağlıyor.
 17.11 14:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 14:35 N  NEWS (9 new) score -0.45 conf 0.60: Piyasalarda ardarda Fed faiz artırımı beklentisi ve doların 19 aylık zirvesi altın üzerinde baskı yaratıyor; altın 3.850 dolar civarında zorlanıyor. İran savaşına bağlı jeopolitik risk primi ise büyük ölçüde fiyatlanmış durumda ve Ukrayna barışına dair iyimser açıklamalar güvenli liman talebini biraz daha azaltabilir.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 15:23 N  NEWS (7 new) score -0.60 conf 0.60: Altın, güçlenen dolar, yüksek enflasyon ve Fed'in art arda faiz artırma beklentisi nedeniyle baskı altında; altın son bir yılın en düşük açılışını yaptı. İran savaşı ve Rusya-Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberler çoğunlukla fiyatlanmış durumda.
 17.11 15:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 15:35 N  NEWS (7 new) score -0.40 conf 0.50: Altının 17 Kasım'da Eylül 2025'ten bu yana en düşük seviyeden açılması, güçlenen dolar ve yüksek enflasyon başlıkları kısa vadede baskı yaratıyor. İran savaşında "sonsuz savaş olmayacak" açıklaması ise güvenli liman talebini sınırlıyor; ancak bu haberler kısmen fiyatlanmış ve genel jeopolitik gürültü ağırlıklı olduğu için güven orta düzeyde tutuldu.
+17.11 15:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 15:47 N  NEWS (11 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem, Hammack) faiz artırımı mesajları, güçlenen dolar ve yüksek enflasyon birlikte altın üzerinde baskı yaratıyor; altın fiyatı 2025 Eylül'den bu yana en düşük seviyeden açıldı. İran savaşının "donmuş çatışmaya" dönüşmesi ve Vance'in savaşın sonsuz olmayacağını söylemesi jeopolitik güvenli liman talebini sınırlıyor; yine de Goldman'ın yüksek hedef tahmini uzun vadeli destek olabilir, bu yüzden güveni sınırlı tutuyorum.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
