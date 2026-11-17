@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 04:02 (İstanbul)
+> Son güncelleme: 17.11.2026 04:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 03:53): Claude puan **-0.60**, güven 0.70 — Güçlenen dolar, Fed faiz artırımı beklentilerinin yükselmesi ve altının 1 yılın en düşüğüne (~3.850$) inmesi altın için net olarak negatif bir tablo çiziyor. Jeopolitik (İran savaşı) riski altına destek verebilse de bu etki şu an dolar ve faiz kanalının gerisinde kalıyor; güven, haberlerin bir kısmının zaten fiyatlanmış olması nedeniyle sınırlı.
+Son haber analizi (17.11 04:05): Claude puan **-0.70**, güven 0.70 — Altın 1 yılın en düşük seviyesi olan yaklaşık 3.830 dolara geriledi. Güçlenen dolar, Fed faiz artırımı beklentileri ve yükselen tahviller reel faiz baskısını artırarak altını aşağı çekiyor. Ukrayna'daki tırmanış ve Orta Doğu gerilimi güvenli liman talebini destekleyebilir, ancak bu etki şu an hakim olan sıkı para politikası baskısının altında kalıyor.
 
 Son işlemler:
 
@@ -85,8 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 02:28 N  NEWS (39 new) score -0.70 conf 0.80: Sıcak ABD enflasyonu, Fed'in faiz artırımı beklentilerinin yükselmesi ve doların güçlenmesi altın üzerinde ağır baskı yaratıyor; altın ve gümüş yıllık en düşük seviyelere geriledi. Jeopolitik güvenli liman talebi (Yemen/Houthi) ise etkisi sınırlı kalıyor; merkez bankası alımları ise uzun vadeli destek olsa da kısa vadeyi değiştirmiyor.
-17.11 02:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 02:40 N  NEWS (11 new) score -0.70 conf 0.75: Altın, güçlenen doların ve Fed'in faiz artırımı beklentilerinin yükselmesi nedeniyle bir yıllık dibe (yaklaşık 3.850 dolar) geriledi; sıcak enflasyon verisi ve Fed yetkililerinin (Hammack, Cleveland) daha fazla artırım yönündeki açıklamaları reel faiz baskısını sürdürüyor. Jeopolitik risk (Yemen/Husi gelişmeleri) güvenli liman talebini sınırlı destekliyor, ancak mevcut etki baskın değil; bazı olumsuz haberlerin zaten fiyatlandığı göz önüne alınarak güven orta düzeyde tutuldu.
 17.11 02:52 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 02:52 N  NEWS (30 new) score -0.60 conf 0.70: Altın, güçlü doların ve Fed faiz artırımı beklentilerinin yükselmesi nedeniyle yaklaşık 3.850 dolarlık bir yıllık dibe geriledi; reel faiz ve dolar baskısı kısa vadede altı aşağı çekmeye devam edebilir. Jeopolitik haberler (İran savaşı, Ukrayna, Bab al-Mandeb) güvenli liman talebini destekliyor olsa da bu etki şu an dolar ve faiz kanalının gerisinde kalıyor; düşüşün bir kısmı zaten fiyatlanmış olabileceği için güven orta seviyede tutuldu.
@@ -100,6 +98,8 @@ Son işlemler:
 17.11 03:41 N  NEWS (14 new) score -0.60 conf 0.70: Güçlü dolar ve artan Fed faiz artırımı beklentileri altını yaklaşık 3.850 dolarlık bir yıllık dibe itti; Hammack'in küçük artırımları tercih etmesi ve Chicago Fed'den gelen yüksek enflasyon uyarısı şahin tonu destekliyor. Jeopolitik (İran savaşı) ise güvenli liman talebini artırmadığı için altın lehine bir destek sağlamıyor. Düşüş kısmen fiyatlanmış olabileceğinden etki 1-4 saatte negatif ama sert değil.
 17.11 03:53 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 03:53 N  NEWS (10 new) score -0.60 conf 0.70: Güçlenen dolar, Fed faiz artırımı beklentilerinin yükselmesi ve altının 1 yılın en düşüğüne (~3.850$) inmesi altın için net olarak negatif bir tablo çiziyor. Jeopolitik (İran savaşı) riski altına destek verebilse de bu etki şu an dolar ve faiz kanalının gerisinde kalıyor; güven, haberlerin bir kısmının zaten fiyatlanmış olması nedeniyle sınırlı.
+17.11 04:05 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 04:05 N  NEWS (16 new) score -0.70 conf 0.70: Altın 1 yılın en düşük seviyesi olan yaklaşık 3.830 dolara geriledi. Güçlenen dolar, Fed faiz artırımı beklentileri ve yükselen tahviller reel faiz baskısını artırarak altını aşağı çekiyor. Ukrayna'daki tırmanış ve Orta Doğu gerilimi güvenli liman talebini destekleyebilir, ancak bu etki şu an hakim olan sıkı para politikası baskısının altında kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
