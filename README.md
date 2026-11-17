@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 17:33 (İstanbul)
+> Son güncelleme: 17.11.2026 17:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 17:24): Claude puan **-0.30**, güven 0.60 — Gold, yılın en düşük seviyesine yakın işlem görüyor; reel getiri yükselişi, güçlü dolar ve Fed'in sıkılaştırma beklentisi (Musalem'in faiz artırımı yorumu) altın üzerinde baskı oluşturuyor. Jeopolitik gerilim (İran-ABD savaşı, Ukrayna) güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca perakende satışların beklentiye uygun gelmesi ve ABD ithal fiyatlarının artışı karışık sinyal veriyor.
+Son haber analizi (17.11 17:36): Claude puan **-0.60**, güven 0.70 — Altın, sıkılaşma beklentilerinin güçlenmesi ve reel faizlerin yükselmesi nedeniyle bir yıllık dibe yakın işlem görüyor; Fed yetkilisi Musalem'in faizin 1 puan artabileceği yönündeki açıklaması ve ABD ithalat fiyatlarındaki beklentinin üzerindeki artış baskıyı sürdürüyor. Kırım köprüsü, İran-İsrail/ABD çatışmaları gibi jeopolitik haberler güvenli liman talebi yaratabilir, ancak bunların etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 16:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-17.11 16:24 N  NEWS (12 new) score -0.50 conf 0.60: Fed yetkilisi Musalem'in "birkaç faiz artırımı" gerekebileceği yönündeki sözleri ve buna bağlı dolar toparlanması altın için baskılayıcı. Jeopolitik gerilim (İran savaşı, Kırım köprüsü saldırısı) güvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve güçlenen doların gerisinde kalıyor.
 17.11 16:30 B6  seans öncesi görüş: Piyasa açılış öncesi Nasdaq öncülüğünde sert riskten kaçış modunda; bu yüzden pozisyonlar küçük ve sadece şirkete özgü taze haberlere dayalı açılıyor.
 17.11 16:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 16:36 N  NEWS (8 new) score -0.60 conf 0.60: Fed yetkilileri (Musalem) birkaç faiz artırımının ilkbahara kadar gerekebileceğini söyledi ve piyasa art arda faiz artırımı bahis yapıyor; bu, reel faizleri ve doları yukarı iterek altın için net olumsuz. ABD doları yükselişi ve altının 3.850 dolar civarında zorlanması bu baskıyı teyit ediyor; İran savaşı ve Kırım köprüsü saldırısı gibi jeopolitik haberler ise güvenli liman talebini sınırlı artırıyor.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 17:24 N  NEWS (23 new) score -0.30 conf 0.60: Gold, yılın en düşük seviyesine yakın işlem görüyor; reel getiri yükselişi, güçlü dolar ve Fed'in sıkılaştırma beklentisi (Musalem'in faiz artırımı yorumu) altın üzerinde baskı oluşturuyor. Jeopolitik gerilim (İran-ABD savaşı, Ukrayna) güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca perakende satışların beklentiye uygun gelmesi ve ABD ithal fiyatlarının artışı karışık sinyal veriyor.
 17.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 17:30 B6  karar turu: Claude «Teknoloji ağırlıklı belirgin bir risk-off günü yaşanıyor; en net fırsat, şirkete özgü negatif haberle zayıflayan NVDA'da short.» / GPT «-»
+17.11 17:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 17:36 N  NEWS (10 new) score -0.60 conf 0.70: Altın, sıkılaşma beklentilerinin güçlenmesi ve reel faizlerin yükselmesi nedeniyle bir yıllık dibe yakın işlem görüyor; Fed yetkilisi Musalem'in faizin 1 puan artabileceği yönündeki açıklaması ve ABD ithalat fiyatlarındaki beklentinin üzerindeki artış baskıyı sürdürüyor. Kırım köprüsü, İran-İsrail/ABD çatışmaları gibi jeopolitik haberler güvenli liman talebi yaratabilir, ancak bunların etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
