@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 18:53 (İstanbul)
+> Son güncelleme: 17.11.2026 18:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 18:07 B6  karar turu: Claude «Piyasa hafif negatif, teknoloji baskı altında; şirkete özgü haberler ve göreceli güç ön planda.» / GPT «-»
-17.11 18:13 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 18:13 N  NEWS (20 new) score -0.40 conf 0.60: Altının bir yıllık dip seviyelerine yakın olması, doların 19 aylık zirvede olması, faiz artırımı beklentilerinin sertleşmesi ve ABD enflasyonunun beklentileri aşması altın için baskı oluşturuyor. Jeopolitik tarafta İran savaşına ilişkin "sonsuz savaş olmayacak" açıklamaları güvenli liman talebini sınırlıyor; yalnızca hisse senedi skandallarına bağlı kısa süreli bir yükseliş görülmesi bu tabloyu tam tersine çevirmiyor.
 17.11 18:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 18:19 B6  karar turu: Claude «Piyasa çip hisselerinin baskısıyla hafif negatif seyrediyor; teknolojide zayıflık öne çıkıyor.» / GPT «-»
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 18:44 B6  karar turu: Claude «Piyasada son bir saatte teknoloji öncülüğünde sert satış var; zayıf hisselerde kısa pozisyon tercih edilir ancak aşırı satım sonrası tepki riski göz önünde tutulmalı.» / GPT «-»
 17.11 18:50 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 18:50 N  NEWS (8 new) score -0.50 conf 0.60: 
+17.11 18:56 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+17.11 18:56 B6  karar turu: Claude «Piyasa son bir saatte teknoloji öncülüğünde sert satış yedi; hafif tepki gelse de genel eğilim zayıf, seçici kısa pozisyon tercih ediliyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
