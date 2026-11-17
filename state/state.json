@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    5000.0
-   ],
-   [
     1794318246,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794914366,
+    5000.0
+   ],
+   [
+    1794914553,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    4868.5
-   ],
-   [
     1794318246,
     4868.5
    ],
@@ -27085,34 +27081,29 @@
    [
     1794914366,
     4868.5
+   ],
+   [
+    1794914553,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.4,
+   "score": -0.5,
    "confidence": 0.6,
-   "reason": "Piyasadaki bask\u0131n etki Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n 19 ayl\u0131k zirvesi nedeniyle alt\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131l\u0131yor. Orta Do\u011fu'daki sava\u015f ve \u0130ran'a ba\u011fl\u0131 geli\u015fmeler (Bahreyn'de insans\u0131z hava arac\u0131 sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki hawkish Fed ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
+   "reason": "Dolar 19 ay\u0131n zirvesine \u00e7\u0131karken piyasa Fed'in art arda faiz art\u0131rabilece\u011fine fiyat veriyor; bu, reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik risk primi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcvenli liman talebi k\u0131sa vadede s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
    "n": 45,
-   "ts": 1794913831223,
-   "new_headlines": 12,
+   "ts": 1794914552447,
+   "new_headlines": 9,
    "key_events": [
-    "Alt\u0131n 3.850 dolar civar\u0131nda zorlan\u0131yor; Fed'in arka arkaya faiz art\u0131r\u0131m\u0131 bahisleri",
-    "Dolar 19 ay\u0131n zirvesinde, hawkish Fed beklentileri",
-    "Bahreyn'de \u0130ran ba\u011flant\u0131l\u0131 \u0130HA sald\u0131r\u0131s\u0131 (s\u0131n\u0131rl\u0131 jeopolitik destek)"
+    "Dolar 19 ay\u0131n zirvesinde; Fed s\u0131k\u0131la\u015ft\u0131rma beklentisi (10:48 UTC)",
+    "Alt\u0131n 3.850$ civar\u0131nda zorlan\u0131yor; art arda faiz art\u0131r\u0131m\u0131 bahisleri (11:02 UTC)",
+    "\u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; g\u00fcvenli liman deste\u011fi s\u0131n\u0131rl\u0131"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794410663033,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "ABD enflasyonu beklentilerin \u00fczerinde geldi ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi; reel getiriler ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik haberler (Rusya-Ukrayna g\u00f6r\u00fc\u015fmeleri sonu\u00e7suz, \u0130ran sava\u015f finansman\u0131 tart\u0131\u015fmas\u0131) g\u00fcvenli liman talebini destekleyecek nitelikte de\u011fil; bu nedenle genel etki alt\u0131n a\u00e7\u0131s\u0131ndan negatif, ancak bir k\u0131sm\u0131 zaten fiyatland\u0131\u011f\u0131 i\u00e7in g\u00fcven orta d\u00fczeyde.",
-    "new": 11,
-    "gpt_score": -0.75,
-    "gpt_confidence": 0.78
-   },
    {
     "ts": 1794411383983,
     "score": -0.45,
@@ -29803,15 +29794,30 @@
     "new": 12,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794914552447,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Dolar 19 ay\u0131n zirvesine \u00e7\u0131karken piyasa Fed'in art arda faiz art\u0131rabilece\u011fine fiyat veriyor; bu, reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik risk primi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcvenli liman talebi k\u0131sa vadede s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
+    "new": 9,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 69
+   "n": 70
   },
   "news_seen": [
+   "Exclusive: Hanwha tests Chunmoo missile from ship off Mississippi - Axios",
+   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "Netflix K-drama Sword & Silence: sweeping war epic cuts corners to mimic classic shows - South China Morning Post",
    "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go",
+   "UK sanctions firms involved in illegal West Bank settlements, Gaza-aid blocking group - Anadolu Ajans\u0131",
    "The NFL\u2019s Salute to Service honors the military \u2013 and leaves out the realities of war | Lee Escobedo - The Guardian",
+   "Stories of survival and pain: Children amid Israel\u2019s war on south Lebanon - Al Jazeera",
+   "Trump keeps weighing his Iran options. He should do them all | Opinion - USA Today",
    "Gold struggles near $3,850 as traders bet on back-to-back Fed rate hikes - FXStreet",
    "Cherokee History of Civil War Appalachia - New River Valley News",
    "Before the Falklands War, Islanders and Argentines Were Neighbors - Yahoo",
@@ -29819,12 +29825,14 @@
    "The Contradictions of the Ukraine Peace Process - Geopolitical Futures",
    "The Fed's 'Immaculate Disinflation' Strategy Will Fail - Bloomberg.com",
    "Future Tense: \u2018The Forever War\u2019 - dailycampus.com",
-   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "Democrats\u2019 Push to End Iran War Revives Debate Over Congress\u2019s War Powers - National Review",
+   "Kosovo's Former President Thaci Found Guilty Of Obstructing Justice In War Crimes Trial - Radio Free Europe/Radio Liberty",
    "UK imposes sanctions on Israeli companies operating in Judea and Samaria - Israel Hayom",
    "Ed Miliband announces first sanctions on Israeli firms working in West Bank - The Guardian",
    "Immigration arrests after organised crime blitz",
    "Larijani: US Must Pay War Reparations or Lose Its Interests - WANA News Agency",
    "Before AI goes to real war, make it fight a fake one - The Economist",
+   "Dollar hits 19-month high on expectations of Fed tightening rates - marketscreener.com",
    "\u2018We have no full solution\u2019: Israeli hospitals unprepared for another war with Iran - Ynetnews",
    "Inflation Is 3.7%. Here\u2019s the Savings Rate You Need Just to Break Even. - 24/7 Wall St.",
    "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
@@ -29832,14 +29840,13 @@
    "Bahrain thwarts drone attack; Iran claims targeting US radar - Al Jazeera",
    "EU Sees Eurozone Economy Hold Up Despite Iran War - ASHARQ AL-AWSAT English",
    "PE has fallen to 6.5 times; has Laopu Gold bottomed out? - \u5bcc\u9014\u725b\u725b",
-   "Dollar steady after five-day rally, NZ dollar at lowest since 2020 - Euronext Markets: Real-time Stock Market Data | live",
    "US Dollar, Gold, Silver Outlook: 2026 Extremes and Key Levels to Watch - FOREX.com",
-   "Pope calls for \u2018less war, less division\u2019 after US midterm elections - A News",
    "Goldman Sachs' 2027 Gold Outlook: Central Banks Underpin the Bull Market, With the Fed Holding the Key to the Next Leg Higher. - Substack",
    "Dollar scales new 19-month peak on hawkish Fed bets; Yen hemmed near 160 - Investing.com",
    "Thor Explorations Ltd.: Can a Single Nigerian Gold Mine and a Large Cash Pile Sustain Its Quarterly Dividend? - kalkine.ca",
    "German Investor Confidence Rises to Highest Level Since Start of Iran War - WSJ",
    "German Investor Outlook Jumps to Highest Since Iran War Began - Bloomberg.com",
+   "Pope calls for \u2018less war, less division\u2019 after US midterm elections - Anadolu Ajans\u0131",
    "UK sanctions West Bank settlement construction companies, activist group that blocks Gaza aid - The Times of Israel",
    "U.K. Sanctions 8 Israeli Firms Tied to West Bank Settlement Construction - Haaretz",
    "How new US chip restrictions on South East Asia will hit China",
@@ -29847,19 +29854,10 @@
    "Goldman Sachs has cut its gold price target twice. What is lacking for gold prices to return to the high level? - eu.36kr.com",
    "US naval presence in Middle East exceeds peak of Iran war: Israeli institute - A News",
    "Will President Trump meet Kim Jong Un?",
-   "We Owned the Night, We Lost the War: The Echo of Afghan Counterterrorism Missions - Modern War Institute -",
-   "Gold, Silver Recover After Sharp Selloff; Prices Remain Under Pressure - Deccan Chronicle",
-   "The Stock Market Is Primed for an Explosive Week. Nvidia and the Federal Reserve May Decide What Comes Next. - The Motley Fool",
-   "Ukraine War, Day 1,727: Kyiv and Russia Trade Strikes on Bridges - EA WorldView",
-   "Vance: Trump will not allow Iran conflict to become \u2018forever war\u2019 - JNS.org",
-   "Chart of the Day: EURUSD at its Lowest Levels of the Year - XTB.com",
-   "Trump\u2019s Culture War, Amid Setbacks, Will Soon Face a Hostile Congress - The New York Times",
-   "Britain Sanctions Israeli Settlement Builders, Gaza Aid-Blocking Activists - U.S. News & World Report"
+   "We Owned the Night, We Lost the War: The Echo of Afghan Counterterrorism Missions - Modern War Institute -"
   ]
  },
  "log": [
-  "15.11 19:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 19:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 19:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 13:58 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 13:58 N  NEWS (12 new) score -0.35 conf 0.50: Dolar\u0131n 19 ayl\u0131k zirveye \u00e7\u0131kmas\u0131 ve Fed'e y\u00f6nelik \u015fahin beklentiler alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve Almanya'da yat\u0131r\u0131mc\u0131 g\u00fcveninin y\u00fckselmesi risk i\u015ftah\u0131n\u0131 art\u0131r\u0131yor.",
   "17.11 14:10 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 14:10 N  NEWS (12 new) score -0.40 conf 0.60: Piyasadaki bask\u0131n etki Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n 19 ayl\u0131k zirvesi nedeniyle alt\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131l\u0131yor. Orta Do\u011fu'daki sava\u015f ve \u0130ran'a ba\u011fl\u0131 geli\u015fmeler (Bahreyn'de insans\u0131z hava arac\u0131 sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki hawkish Fed ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor."
+  "17.11 14:10 N  NEWS (12 new) score -0.40 conf 0.60: Piyasadaki bask\u0131n etki Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n 19 ayl\u0131k zirvesi nedeniyle alt\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131l\u0131yor. Orta Do\u011fu'daki sava\u015f ve \u0130ran'a ba\u011fl\u0131 geli\u015fmeler (Bahreyn'de insans\u0131z hava arac\u0131 sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini destekliyor olsa da bu etki hawkish Fed ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
+  "17.11 14:22 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 14:22 N  NEWS (9 new) score -0.50 conf 0.60: Dolar 19 ay\u0131n zirvesine \u00e7\u0131karken piyasa Fed'in art arda faiz art\u0131rabilece\u011fine fiyat veriyor; bu, reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir etki yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik risk primi b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda, bu y\u00fczden g\u00fcvenli liman talebi k\u0131sa vadede s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    4963.78
-   ],
-   [
     1794318246,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794914366,
+    4963.78
+   ],
+   [
+    1794914553,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    4975.18
-   ],
-   [
     1794318246,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794914366,
+    4975.18
+   ],
+   [
+    1794914553,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    4993.28
-   ],
-   [
     1794318246,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794914366,
+    4993.28
+   ],
+   [
+    1794914553,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794318065,
-    4969.22
-   ],
-   [
     1794318246,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794914366,
+    4969.22
+   ],
+   [
+    1794914553,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794318065,
-    4610.16
-   ],
    [
     1794318246,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794914366,
     4545.26
+   ],
+   [
+    1794914553,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794318065,
-    111676.47
-   ],
    [
     1794318246,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794914366,
     114145.15
+   ],
+   [
+    1794914553,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794318065,
-    4876.96
-   ],
    [
     1794318246,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794914366,
+    4876.96
+   ],
+   [
+    1794914553,
     4876.96
    ]
   ],
