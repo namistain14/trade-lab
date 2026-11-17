@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 16:57 (İstanbul)
+> Son güncelleme: 17.11.2026 17:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 16:48): Claude puan **-0.50**, güven 0.60 — Fed yetkililerinden (Musalem, St. Louis) art arda faiz artırımı çağrıları ve yükselen faiz beklentileri, doların toparlanması ve gerçek faizlerin yükselmesi altın için net olarak baskılayıcı. Kırım köprüsü saldırısı ve İran savaşı gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlasa da, bu etkiyi dolar ve faiz kanalı büyük ölçüde dengeliyor; ayrıca bazı haberler zaten fiyatlanmış durumda.
+Son haber analizi (17.11 17:00): Claude puan **-0.60**, güven 0.70 — Fed yetkililerinin (Musalem) art arda faiz artırımı çağrısı, güçlü ABD perakende satışları ve dolardaki yükseliş altın üzerinde net baskı yaratıyor; altın 3.848 dolara geriledi. İran ve Ukrayna-Kırım gelişmeleri güvenli liman talebi yaratabilir ancak fiyat tepkisi zayıf kaldığı için etkisi sınırlı görünüyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 15:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-17.11 15:35 N  NEWS (7 new) score -0.40 conf 0.50: Altının 17 Kasım'da Eylül 2025'ten bu yana en düşük seviyeden açılması, güçlenen dolar ve yüksek enflasyon başlıkları kısa vadede baskı yaratıyor. İran savaşında "sonsuz savaş olmayacak" açıklaması ise güvenli liman talebini sınırlıyor; ancak bu haberler kısmen fiyatlanmış ve genel jeopolitik gürültü ağırlıklı olduğu için güven orta düzeyde tutuldu.
 17.11 15:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 15:47 N  NEWS (11 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem, Hammack) faiz artırımı mesajları, güçlenen dolar ve yüksek enflasyon birlikte altın üzerinde baskı yaratıyor; altın fiyatı 2025 Eylül'den bu yana en düşük seviyeden açıldı. İran savaşının "donmuş çatışmaya" dönüşmesi ve Vance'in savaşın sonsuz olmayacağını söylemesi jeopolitik güvenli liman talebini sınırlıyor; yine de Goldman'ın yüksek hedef tahmini uzun vadeli destek olabilir, bu yüzden güveni sınırlı tutuyorum.
 17.11 15:59 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 16:36 N  NEWS (8 new) score -0.60 conf 0.60: Fed yetkilileri (Musalem) birkaç faiz artırımının ilkbahara kadar gerekebileceğini söyledi ve piyasa art arda faiz artırımı bahis yapıyor; bu, reel faizleri ve doları yukarı iterek altın için net olumsuz. ABD doları yükselişi ve altının 3.850 dolar civarında zorlanması bu baskıyı teyit ediyor; İran savaşı ve Kırım köprüsü saldırısı gibi jeopolitik haberler ise güvenli liman talebini sınırlı artırıyor.
 17.11 16:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 16:48 N  NEWS (9 new) score -0.50 conf 0.60: Fed yetkililerinden (Musalem, St. Louis) art arda faiz artırımı çağrıları ve yükselen faiz beklentileri, doların toparlanması ve gerçek faizlerin yükselmesi altın için net olarak baskılayıcı. Kırım köprüsü saldırısı ve İran savaşı gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlasa da, bu etkiyi dolar ve faiz kanalı büyük ölçüde dengeliyor; ayrıca bazı haberler zaten fiyatlanmış durumda.
+17.11 17:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 17:00 N  NEWS (15 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem) art arda faiz artırımı çağrısı, güçlü ABD perakende satışları ve dolardaki yükseliş altın üzerinde net baskı yaratıyor; altın 3.848 dolara geriledi. İran ve Ukrayna-Kırım gelişmeleri güvenli liman talebi yaratabilir ancak fiyat tepkisi zayıf kaldığı için etkisi sınırlı görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
