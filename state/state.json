@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    5000.0
-   ],
-   [
     1794344071,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794940131,
+    5000.0
+   ],
+   [
+    1794940331,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    4868.5
-   ],
-   [
     1794344071,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794940131,
+    4868.5
+   ],
+   [
+    1794940331,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "16.11 21:35 B6  karar turu: Claude \u00abYapay zeka/yar\u0131 iletken kaynakl\u0131 riskten ka\u00e7\u0131\u015f s\u00fcr\u00fcyor ve son saatte sat\u0131\u015f h\u0131zlan\u0131yor, kapan\u0131\u015fa do\u011fru zay\u0131fl\u0131\u011f\u0131n devam\u0131 bekleniyor.\u00bb / GPT \u00ab-\u00bb",
   "16.11 21:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "16.11 21:47 N  NEWS (9 new) score -0.45 conf 0.60: Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve y\u00fckselen Hazine getirileri nedeniyle 1 y\u0131l\u0131n dibinde; Fed'in faiz art\u0131r\u0131m\u0131 ihtimalini tart\u0131\u015fmas\u0131 ve enflasyon verisinin risk alg\u0131s\u0131n\u0131 bask\u0131lamas\u0131 alt\u0131n i\u00e7in olumsuz. Iran sava\u015f\u0131na ili\u015fkin jeopolitik gerilim (\u00fc\u00e7\u00fcnc\u00fc u\u00e7ak gemisi, Pakistan arabuluculu\u011fu) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki \u015fu an fiyatlanm\u0131\u015f g\u00f6r\u00fcnm\u00fcyor; bu nedenle g\u00fcven orta d\u00fczeyde.",
   "16.11 21:47 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
@@ -30167,7 +30166,8 @@
   "17.11 21:08 N  NEWS (7 new) score -0.40 conf 0.55: Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcrken dolar ve tahvil getirileri y\u00fckseliyor ve faiz art\u0131r\u0131m\u0131 beklentileri fiyatlamaya devam ediyor; bu, k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir tablo. \u0130ran ve Ukrayna'daki sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zay\u0131f kald\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor.",
   "17.11 21:08 N  GPT  score -0.25 conf 0.48: Alt\u0131n, y\u00fckselen dolar ve tahvil getirileri ile faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bask\u0131 alt\u0131nda; Meksika Merkez Bankas\u0131 yetkilisinin enflasyon riskleri vurgusu da hafif\u00e7e olumsuz. \u0130ran ve Ukrayna ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak yeni ve ani bir t\u0131rman\u0131\u015f g\u00f6stermedikleri i\u00e7in",
   "17.11 21:08 B6  karar turu: Claude \u00abPiyasa yakla\u015f\u0131k %1 ekside ve son bir saatte dengelenmi\u015f durumda; belirgin bir kataliz\u00f6r olmadan kapan\u0131\u015fa kadar yatay ile hafif tepki al\u0131mlar\u0131 bekleniyor.\u00bb / GPT \u00abEndekslerde g\u00fcnl\u00fck sat\u0131\u015f\u0131n ard\u0131ndan dar bantta dengelenme g\u00f6r\u00fcl\u00fcyor; 1:4 kald\u0131ra\u00e7la mevcut fiyatlardan y\u00f6n kovalamak yerine yeni bir k\u0131r\u0131lma beklemek daha disiplinli.\u00bb",
-  "17.11 21:20 B6  karar turu: Claude \u00abPiyasa genel olarak sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; d\u00fc\u015f\u00fck momentumla a\u015fa\u011f\u0131 e\u011filimli yatay bir seyir izliyor.\u00bb / GPT \u00abEndekslerde a\u015fa\u011f\u0131 e\u011filim s\u00fcr\u00fcyor; taze \u015firket haberi bulunmad\u0131\u011f\u0131ndan mevcut pozisyonlara ek piyasa riski s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb"
+  "17.11 21:20 B6  karar turu: Claude \u00abPiyasa genel olarak sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; d\u00fc\u015f\u00fck momentumla a\u015fa\u011f\u0131 e\u011filimli yatay bir seyir izliyor.\u00bb / GPT \u00abEndekslerde a\u015fa\u011f\u0131 e\u011filim s\u00fcr\u00fcyor; taze \u015firket haberi bulunmad\u0131\u011f\u0131ndan mevcut pozisyonlara ek piyasa riski s\u0131n\u0131rl\u0131 tutulmal\u0131.\u00bb",
+  "17.11 21:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc ekside ge\u00e7iriyor ancak son saatte \u0131l\u0131ml\u0131 bir tepki al\u0131m\u0131 var; se\u00e7ici ve temkinli al\u0131m taraf\u0131 \u00f6ne \u00e7\u0131k\u0131yor.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i kay\u0131plara ra\u011fmen son b\u00f6l\u00fcmde toparlanma g\u00fc\u00e7leniyor; y\u00fckseli\u015f y\u00f6n\u00fcnde s\u0131n\u0131rl\u0131 avantaj var ancak kald\u0131ra\u00e7 d\u00f6n\u00fc\u015f riskini b\u00fcy\u00fct\u00fcyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    4963.78
-   ],
-   [
     1794344071,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794940131,
+    4963.78
+   ],
+   [
+    1794940331,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    4975.18
-   ],
-   [
     1794344071,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794940131,
+    4975.18
+   ],
+   [
+    1794940331,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    4993.28
-   ],
-   [
     1794344071,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794940131,
+    4993.28
+   ],
+   [
+    1794940331,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794343891,
-    4969.22
-   ],
-   [
     1794344071,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794940131,
+    4969.22
+   ],
+   [
+    1794940331,
     4969.22
    ]
   ],
@@ -81165,10 +81165,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794343891,
-    4610.16
-   ],
    [
     1794344071,
     4610.16
@@ -93164,6 +93160,10 @@
    [
     1794940131,
     4516.87
+   ],
+   [
+    1794940331,
+    4519.46
    ]
   ],
   "news_calls": {
@@ -93371,7 +93371,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 114145.15534599999,
+   "balance": 114145.155346,
    "start": 100000.0,
    "positions": [
     {
@@ -93386,7 +93386,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Rockwell i\u015f birli\u011fi haberi taze ve olumlu; hisse g\u00fcnl\u00fck d\u00fc\u015f\u00fc\u015ften QQQ ile birlikte toparlan\u0131yor. | GPT 0.58: Rockwell i\u015f birli\u011fi haberi ve toparlanan fiyat al\u0131m\u0131 desteklerken ihracat k\u0131s\u0131tlamas\u0131 riski g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-     "cur": 153.99
+     "cur": 153.91
     },
     {
      "id": "3faf3e89-6eeb-49e0-9703-ee5be5307c92",
@@ -93400,7 +93400,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Son bir saatte g\u00fc\u00e7l\u00fc toparlanma ve y\u00fckselen dipler, k\u0131sa vadeli tepki al\u0131m\u0131 f\u0131rsat\u0131 sunuyor. | GPT 0.59: SPY'a g\u00f6re g\u00fc\u00e7l\u00fc saatlik toparlanma ve son y\u00fckseli\u015fin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde korunmas\u0131 al\u0131m lehine.",
-     "cur": 656.255
+     "cur": 656.48
     },
     {
      "id": "e69c8106-705c-46da-8e19-0653970a42e4",
@@ -93414,7 +93414,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: D\u00fc\u015fen piyasada pozitif kalarak g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor; robotaksi haberi de destekliyor. | GPT 0.62: Negatif piyasaya ra\u011fmen g\u00fcnl\u00fck pozitif ayr\u0131\u015fma ve y\u00fckselen k\u0131sa vadeli dipler al\u0131m\u0131 destekliyor.",
-     "cur": 380.34
+     "cur": 380.435
     }
    ],
    "trades": [
@@ -94285,18 +94285,14 @@
    ],
    "day": {
     "date": "2026-11-17",
-    "pnl": -304.4,
+    "pnl": -296.19,
     "trades": 0,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 113840.75
+   "equity": 113848.96
   },
   "equity_curve": [
-   [
-    1794343891,
-    111676.47
-   ],
    [
     1794344071,
     111676.47
@@ -106292,6 +106288,10 @@
    [
     1794940131,
     113840.75
+   ],
+   [
+    1794940331,
+    113848.96
    ]
   ],
   "open": {
@@ -106331,22 +106331,22 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794939591505,
+  "last_decision_ms": 1794940311798,
   "view": {
-   "ts": 1794939591505,
-   "claude": "Piyasa genel olarak sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; d\u00fc\u015f\u00fck momentumla a\u015fa\u011f\u0131 e\u011filimli yatay bir seyir izliyor.",
-   "gpt": "Endekslerde a\u015fa\u011f\u0131 e\u011filim s\u00fcr\u00fcyor; taze \u015firket haberi bulunmad\u0131\u011f\u0131ndan mevcut pozisyonlara ek piyasa riski s\u0131n\u0131rl\u0131 tutulmal\u0131.",
+   "ts": 1794940311798,
+   "claude": "Piyasa g\u00fcn\u00fc ekside ge\u00e7iriyor ancak son saatte \u0131l\u0131ml\u0131 bir tepki al\u0131m\u0131 var; se\u00e7ici ve temkinli al\u0131m taraf\u0131 \u00f6ne \u00e7\u0131k\u0131yor.",
+   "gpt": "Endekslerde g\u00fcn i\u00e7i kay\u0131plara ra\u011fmen son b\u00f6l\u00fcmde toparlanma g\u00fc\u00e7leniyor; y\u00fckseli\u015f y\u00f6n\u00fcnde s\u0131n\u0131rl\u0131 avantaj var ancak kald\u0131ra\u00e7 d\u00f6n\u00fc\u015f riskini b\u00fcy\u00fct\u00fcyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
       "none",
-      0.3
+      0.4
      ],
      "gpt": [
-      "none",
-      0.62
+      "long",
+      0.57
      ]
     },
     "QQQ": {
@@ -106371,12 +106371,12 @@
     },
     "AAPL": {
      "claude": [
-      "short",
-      0.4
+      "long",
+      0.55
      ],
      "gpt": [
-      "short",
-      0.6
+      "long",
+      0.59
      ]
     },
     "TSLA": {
@@ -106508,10 +106508,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794343891,
-    4876.96
-   ],
    [
     1794344071,
     4876.96
@@ -118506,6 +118502,10 @@
    ],
    [
     1794940131,
+    4876.96
+   ],
+   [
+    1794940331,
     4876.96
    ]
   ],
