@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    5000.0
-   ],
-   [
     1794325956,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794922036,
+    5000.0
+   ],
+   [
+    1794922226,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    4868.5
-   ],
-   [
     1794325956,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794922036,
+    4868.5
+   ],
+   [
+    1794922226,
     4868.5
    ]
   ],
@@ -29858,7 +29858,6 @@
   ]
  },
  "log": [
-  "15.11 20:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30156,8 @@
   "17.11 16:12 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 16:12 N  NEWS (18 new) score -0.60 conf 0.70: Fed yetkilisi Musalem ve St. Louis Fed ba\u015fkan\u0131, enflasyon nedeniyle ilkbahara kadar birka\u00e7 faiz art\u0131r\u0131m\u0131 gerekebilece\u011fini s\u00f6yledi; bu da faiz beklentilerini y\u00fckseltip dolar\u0131n toparlanmas\u0131na yol a\u00e7t\u0131 (FT: dolar 'liberation day' kay\u0131plar\u0131n\u0131 sildi). Alt\u0131n bu nedenle bask\u0131 alt\u0131nda ve Yahoo'ya g\u00f6re 29 Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeden a\u00e7\u0131ld\u0131. K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 gibi jeopolitik haberler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bask\u0131n etki hawkish Fed ve g\u00fc\u00e7l\u00fc dolar y\u00f6n\u00fcnde.",
   "17.11 16:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 16:24 N  NEWS (12 new) score -0.50 conf 0.60: Fed yetkilisi Musalem'in \"birka\u00e7 faiz art\u0131r\u0131m\u0131\" gerekebilece\u011fi y\u00f6n\u00fcndeki s\u00f6zleri ve buna ba\u011fl\u0131 dolar toparlanmas\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Jeopolitik gerilim (\u0130ran sava\u015f\u0131, K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve g\u00fc\u00e7lenen dolar\u0131n gerisinde kal\u0131yor."
+  "17.11 16:24 N  NEWS (12 new) score -0.50 conf 0.60: Fed yetkilisi Musalem'in \"birka\u00e7 faiz art\u0131r\u0131m\u0131\" gerekebilece\u011fi y\u00f6n\u00fcndeki s\u00f6zleri ve buna ba\u011fl\u0131 dolar toparlanmas\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Jeopolitik gerilim (\u0130ran sava\u015f\u0131, K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve g\u00fc\u00e7lenen dolar\u0131n gerisinde kal\u0131yor.",
+  "17.11 16:30 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Piyasa a\u00e7\u0131l\u0131\u015f \u00f6ncesi Nasdaq \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sert riskten ka\u00e7\u0131\u015f modunda; bu y\u00fczden pozisyonlar k\u00fc\u00e7\u00fck ve sadece \u015firkete \u00f6zg\u00fc taze haberlere dayal\u0131 a\u00e7\u0131l\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    4963.78
-   ],
-   [
     1794325956,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794922036,
+    4963.78
+   ],
+   [
+    1794922226,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    4975.18
-   ],
-   [
     1794325956,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794922036,
+    4975.18
+   ],
+   [
+    1794922226,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    4993.28
-   ],
-   [
     1794325956,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794922036,
+    4993.28
+   ],
+   [
+    1794922226,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794325776,
-    4969.22
-   ],
-   [
     1794325956,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794922036,
+    4969.22
+   ],
+   [
+    1794922226,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794325776,
-    4610.16
-   ],
    [
     1794325956,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794922036,
     4545.26
+   ],
+   [
+    1794922226,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794325776,
-    111676.47
-   ],
    [
     1794325956,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794922036,
     114145.15
+   ],
+   [
+    1794922226,
+    114145.15
    ]
   ],
   "open": {},
@@ -106230,67 +106230,15 @@
   "market_open": false,
   "last_decision_ms": 1794860010244,
   "view": {
-   "ts": 1794860010244,
-   "claude": "Nvidia liderlik krizi ve faiz art\u0131\u015f\u0131 beklentileriyle teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f g\u00fcn\u00fc ya\u015fand\u0131, ancak piyasa kapand\u0131\u011f\u0131 i\u00e7in yeni intraday pozisyon a\u00e7mak yerine yar\u0131n\u0131n a\u00e7\u0131l\u0131\u015f\u0131 beklenmeli.",
-   "gpt": "",
-   "gpt_model": null,
+   "ts": 1794922226372,
+   "claude": "Piyasa a\u00e7\u0131l\u0131\u015f \u00f6ncesi Nasdaq \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sert riskten ka\u00e7\u0131\u015f modunda; bu y\u00fczden pozisyonlar k\u00fc\u00e7\u00fck ve sadece \u015firkete \u00f6zg\u00fc taze haberlere dayal\u0131 a\u00e7\u0131l\u0131yor.",
    "claude_model": "claude-opus-5-5",
-   "picks": {
-    "SPY": {
-     "claude": [
-      "none",
-      0.3
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      "none",
-      0.3
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "NVDA": {
-     "claude": [
-      "none",
-      0.35
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "AAPL": {
-     "claude": [
-      "none",
-      0.25
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "TSLA": {
-     "claude": [
-      "none",
-      0.25
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    }
-   }
+   "gpt": "",
+   "premarket": true
   },
   "next_open": "2026-11-17T09:30:00-05:00",
-  "state": "uyku (piyasa kapal\u0131)",
-  "premarket_day": "2026-11-13",
+  "state": "haz\u0131rl\u0131k (seans \u00f6ncesi)",
+  "premarket_day": "2026-11-17",
   "alpaca": {
    "multiplier": "4",
    "buying_power": "456580.6",
@@ -106405,10 +106353,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794325776,
-    4876.96
-   ],
    [
     1794325956,
     4876.96
@@ -118403,6 +118347,10 @@
    ],
    [
     1794922036,
+    4876.96
+   ],
+   [
+    1794922226,
     4876.96
    ]
   ],

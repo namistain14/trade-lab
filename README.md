@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 16:27 (İstanbul)
+> Son güncelleme: 17.11.2026 16:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -83,7 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 14:59 N  NEWS (9 new) score -0.35 conf 0.50: Piyasadaki en önemli sinyal, altının Fed'in art arda faiz artırımı beklentisiyle baskı altında olması ve doların güçlenmesi, bu da altı kısa vadede aşağı yönlü etkiler. Jeopolitik tarafta İran savaşının uzayabileceği yönündeki endişeler güvenli liman talebini destekleyebilir, ancak Vance'in savaşın sonsuz hale gelmeyeceğini söylemesi ve Rusya-Ukrayna barışının "çok yakın" olduğu haberleri bu desteği zayıflatıyor.
 17.11 15:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 15:11 N  NEWS (14 new) score -0.40 conf 0.50: Altın için baskı ağırlıkta: piyasa art arda Fed faiz artışı bahis yapıyor (şahin beklenti) ve gümüş, doların güçlenmesiyle düşüyor. Trump'ın Rusya-Ukrayna savaşının "çok yakın" olduğu açıklaması güvenli liman talebini zayıflatıyor; İran savaşıyla ilgili jeopolitik haberler ise destek sağlasa da daha az yeni bir tırmanış içermiyor ve zaten fiyatlanmış olabilir.
 17.11 15:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -98,6 +97,7 @@ Son işlemler:
 17.11 16:12 N  NEWS (18 new) score -0.60 conf 0.70: Fed yetkilisi Musalem ve St. Louis Fed başkanı, enflasyon nedeniyle ilkbahara kadar birkaç faiz artırımı gerekebileceğini söyledi; bu da faiz beklentilerini yükseltip doların toparlanmasına yol açtı (FT: dolar 'liberation day' kayıplarını sildi). Altın bu nedenle baskı altında ve Yahoo'ya göre 29 Eylül 2025'ten bu yana en düşük seviyeden açıldı. Kırım köprüsü saldırısı gibi jeopolitik haberler sınırlı bir güvenli liman talebi yaratabilir, ancak baskın etki hawkish Fed ve güçlü dolar yönünde.
 17.11 16:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 16:24 N  NEWS (12 new) score -0.50 conf 0.60: Fed yetkilisi Musalem'in "birkaç faiz artırımı" gerekebileceği yönündeki sözleri ve buna bağlı dolar toparlanması altın için baskılayıcı. Jeopolitik gerilim (İran savaşı, Kırım köprüsü saldırısı) güvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve güçlenen doların gerisinde kalıyor.
+17.11 16:30 B6  seans öncesi görüş: Piyasa açılış öncesi Nasdaq öncülüğünde sert riskten kaçış modunda; bu yüzden pozisyonlar küçük ve sadece şirkete özgü taze haberlere dayalı açılıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
