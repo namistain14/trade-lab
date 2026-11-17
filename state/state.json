@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    5000.0
-   ],
-   [
     1794340030,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794935942,
+    5000.0
+   ],
+   [
+    1794936124,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    4868.5
-   ],
-   [
     1794340030,
     4868.5
    ],
@@ -27085,34 +27081,38 @@
    [
     1794935942,
     4868.5
+   ],
+   [
+    1794936124,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.4,
-   "reason": "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesinden toparlanmakta zorlan\u0131yor; dolar ve tahvil getirileri y\u00fckseliyor, piyasada Fed faiz art\u0131r\u0131m\u0131 beklentisi fiyatlan\u0131yor, bu da alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131 jeopolitik risk \u00fcretse de etkisi enflasyon/faiz kanal\u0131yla s\u0131n\u0131rl\u0131 kal\u0131yor; Fed Gov. Cook'un Beyaz Saray duru\u015fmas\u0131na kat\u0131lmay\u0131 reddetmesi Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 endi\u015fesi yarat\u0131p k\u0131smen alt\u0131n\u0131 destekleyebilir ancak bu haber daha az belirleyici.",
-   "n": 45,
-   "ts": 1794933532201,
-   "new_headlines": 8,
+   "score": 0.15,
+   "confidence": 0.3,
+   "reason": "Yeni haberlerin \u00e7o\u011fu jeopolitik gerilimi art\u0131r\u0131yor (K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'nde k\u0131smi \u00e7\u00f6k\u00fc\u015f, Kiev'deki k\u00f6pr\u00fcye Rus sald\u0131r\u0131s\u0131, \u0130ran plan\u0131na ili\u015fkin ABD a\u00e7\u0131klamas\u0131), bu da g\u00fcvenli liman talebini hafif\u00e7e destekler. Ancak Fed, enflasyon veya dolar taraf\u0131nda do\u011frudan bir s\u00fcrpriz yok ve Trump'\u0131n Asya'daki Putin/\u015ei zirveleri diplomatik bir gev\u015femeye i\u015faret edebilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "n": 23,
+   "ts": 1794936123485,
+   "new_headlines": 17,
    "key_events": [
     "Alt\u0131n bir y\u0131ll\u0131k dipte; dolar ve getiriler y\u00fckseliyor",
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar\u0131 g\u00fc\u00e7lendiriyor",
     "\u0130ran sava\u015f\u0131 \u00e7\u0131kmaz\u0131 ve K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131"
    ],
-   "gpt": null,
+   "gpt": {
+    "score": 0.3,
+    "confidence": 0.46,
+    "reason": "K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc\u2019ne y\u00f6nelik sald\u0131r\u0131 ve ABD\u2019nin \u0130ran kaynakl\u0131 olas\u0131 tehditleri ciddiye ald\u0131\u011f\u0131n\u0131 s\u00f6ylemesi k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar y\u00f6n\u00fcne dair yeni bir sinyal yok; bu nedenle y\u00fckseli\u015f etkisinin s\u0131n\u0131rl\u0131 kalma",
+    "key_events": [
+     "K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc\u2019ne sald\u0131r\u0131",
+     "ABD\u2019den \u0130ran kaynakl\u0131 tehdit uyar\u0131s\u0131"
+    ],
+    "model": "gpt-6-luna"
+   },
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794430306445,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Dolar \u00e7ok ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor; s\u0131cak Ekim enflasyonu sonras\u0131 s\u0131k\u0131la\u015ft\u0131rma ihtimali alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran'la do\u011frudan m\u00fczakere ihtimali ve risk i\u015ftah\u0131ndaki art\u0131\u015f (Nasdaq y\u00fckseli\u015fi) jeopolitik g\u00fcvenli liman talebini azalt\u0131yor; ancak sava\u015f ba\u015fl\u0131\u011f\u0131 haberlerinin \u00e7o\u011fu eski ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
-    "new": 13,
-    "gpt_score": -0.5,
-    "gpt_confidence": 0.7
-   },
    {
     "ts": 1794433528886,
     "score": -0.6,
@@ -29803,63 +29803,48 @@
     "new": 8,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794936123485,
+    "score": 0.15,
+    "confidence": 0.3,
+    "reason": "Yeni haberlerin \u00e7o\u011fu jeopolitik gerilimi art\u0131r\u0131yor (K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'nde k\u0131smi \u00e7\u00f6k\u00fc\u015f, Kiev'deki k\u00f6pr\u00fcye Rus sald\u0131r\u0131s\u0131, \u0130ran plan\u0131na ili\u015fkin ABD a\u00e7\u0131klamas\u0131), bu da g\u00fcvenli liman talebini hafif\u00e7e destekler. Ancak Fed, enflasyon veya dolar taraf\u0131nda do\u011frudan bir s\u00fcrpriz yok ve Trump'\u0131n Asya'daki Putin/\u015ei zirveleri diplomatik bir gev\u015femeye i\u015faret edebilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 17,
+    "gpt_score": 0.3,
+    "gpt_confidence": 0.46
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 96
+   "n": 97
   },
   "news_seen": [
-   "Never read the book, but the BBC 'War and Peace' miniseries finds forgiveness - Angelus News",
-   "One crew member missing after two missile strikes on LPG carrier in Strait of Hormuz - Marine Log",
-   "How the US elections and Iran war are influencing the UN\u2019s COP31 climate talks and discussions around fossil fuels - Brooklyn Eagle",
-   "Huang says he's willing to return as Nvidia boss in first remarks since resignation",
+   "Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss",
    "US loses measles elimination status after 26 years amid record case numbers",
-   "Trump's pick for Navy secretary acknowledges the Iran war is straining military resources | National News | 2news.com - KTVN",
-   "Vance vows US won\u2019t make long-term commitment to Iran war - The Hill",
-   "The Kerch Bridge is crucial to Russia\u2019s war effort and for asserting Moscow\u2019s control of Crimea - Los Angeles Times",
-   "100-MPH limit is disrupting Ukraine\u2019s drone war. NATO chief says efforts are underway to restore Starshield speed for Kyiv - Euromaidan Press",
-   "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - BBC",
-   "Ro Khanna Calls for $1,700 Iran War Refund Checks for American Families - INDIA New England News",
-   "Factbox-What Is the Crimean Bridge and Why Does It Matter in the Russia-Ukraine War? - U.S. News & World Report",
-   "Is Iraq Heading Towards Civil War? - The Media Line",
-   "Pope Leo caps Latin America tour with call for \"less war, less division,\" weighs in on married priest debate - CBS News",
-   "Lawyer for Fed's Cook threatens to not take part in 'unfair' White House hearing - Fresno Bee",
-   "Fed Governor Lisa Cook not expected to attend White House hearing - upi",
+   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "Trump says US taking 'very seriously' any Iranian plot against Washington",
    "UK sanctions firms over Israeli West Bank settlements",
-   "Trump Flailing Over Iran - DCReport.org",
-   "Federal Reserve Gov. Lisa Cook refuses to attend Trump committee hearing - Yahoo News New Zealand",
    "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
-   "Federal Reserve\u2019s Lisa Cook refuses to participate in White House hearing - Monterey Herald",
-   "EU targets owners and ship managers with new sanctions on Russia - TradeWinds News",
-   "Slayer\u2019s Kerry King Enters the Thrash Metal Thunderdome in New \u2018My War\u2019 Music Video - Rolling Stone",
-   "Fresh clashes at the Eritrean border\u2014Is Ethiopia sliding into a regional war? - DW.com",
-   "Hanwha Test-Fires Palletized Missile Launcher from Ship Off Mississippi Coast - gCaptain",
-   "Kevin Warsh\u2019s Steady Hand at the Fed - American Enterprise Institute - AEI",
-   "Moses: the Iran war doesn\u2019t explain the downtown San Jose BART extension\u2019s massive overage - https://www.opportunitynowsv.org/",
-   "Federal Reserve's Cook refuses to participate in White House hearing - The Washington Post",
+   "BBC reports from Kyiv bridge hit by Russian attack",
    "How the attack on Crimean Bridge unfolded",
-   "World War 2 veteran turns 100 - KXLY.com",
-   "Gold struggles to rebound from one-year low as US dollar, yields advance - TradingView",
    "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-   "Fed Rate Hike Prospects Boost the Dollar - Barchart.com",
-   "\u2018Do not build\u2019: UK sanctions 8 Israeli construction companies for building West Bank settlements - The Times of Israel",
-   "Hanwha Executes Maritime-based Missile Test from Palletizable Launcher off Mississippi Coast - Yahoo Finance",
-   "Platoon Leader: James McDonough and the Vietnam War - Clearance Jobs",
-   "Prince Harry visits Ukraine again to support veterans injured in war with Russia - Washington Times",
-   "JD Vance Abruptly Changes Tune on Iran War Despite Election Losses - The New Republic",
-   "Federal Reserve-Cook - Times Argus",
-   "British Government imposes sanctions on 8 Israeli companies involved in settlement construction - Middle East Monitor",
-   "British government sanctions West Bank developers - upi",
-   "Why gold and silver prices have slumped to a one-year low - Euronews.com",
-   "Federal Reserve's Cook refuses to participate in White House hearing - morning-times.com",
-   "Federal Reserve's Cook refuses to participate in White House hearing - Herald Bulletin",
-   "Carney eyes 'other options' for embattled Canadian auto sector on China trip"
+   "Carney eyes 'other options' for embattled Canadian auto sector on China trip",
+   "Speed camera fault may have allowed drivers to escape fines",
+   "US bank services returning to normal after major outage",
+   "How new US chip restrictions on South East Asia will hit China",
+   "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+   "Government must act now or lose Royal Mail, former minister warns",
+   "Where are the most jobs for 18-24 year-olds?",
+   "Gunmen kill Costa Rican journalist who reported on drugs trade",
+   "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
+   "Nvidia partner Megaspeed being investigated by US government over chip exports",
+   "US government confirms investigation into tech firm Megaspeed",
+   "Immigration arrests after organised crime blitz",
+   "Will President Trump meet Kim Jong Un?",
+   "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed"
   ]
  },
  "log": [
-  "16.11 00:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "16.11 00:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "16.11 00:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "16.11 00:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "16.11 00:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30142,9 @@
   "17.11 20:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8t8QaYttP3s3uBwDo1p'}",
   "17.11 20:19 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "17.11 20:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "17.11 20:19 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
+  "17.11 20:19 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
+  "17.11 20:22 N  NEWS (17 new) score +0.15 conf 0.30: Yeni haberlerin \u00e7o\u011fu jeopolitik gerilimi art\u0131r\u0131yor (K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'nde k\u0131smi \u00e7\u00f6k\u00fc\u015f, Kiev'deki k\u00f6pr\u00fcye Rus sald\u0131r\u0131s\u0131, \u0130ran plan\u0131na ili\u015fkin ABD a\u00e7\u0131klamas\u0131), bu da g\u00fcvenli liman talebini hafif\u00e7e destekler. Ancak Fed, enflasyon veya dolar taraf\u0131nda do\u011frudan bir s\u00fcrpriz yok ve Trump'\u0131n Asya'daki Putin/\u015ei zirveleri diplomatik bir gev\u015femeye i\u015faret edebilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "17.11 20:22 N  GPT  score +0.30 conf 0.46: K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc\u2019ne y\u00f6nelik sald\u0131r\u0131 ve ABD\u2019nin \u0130ran kaynakl\u0131 olas\u0131 tehditleri ciddiye ald\u0131\u011f\u0131n\u0131 s\u00f6ylemesi k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar y\u00f6n\u00fcne dair yeni bir sinyal yok; bu nedenle y\u00fckseli\u015f etkisinin s\u0131n\u0131rl\u0131 kalma"
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30331,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    4963.78
-   ],
-   [
     1794340030,
     4963.78
    ],
@@ -42341,6 +42324,10 @@
    ],
    [
     1794935942,
+    4963.78
+   ],
+   [
+    1794936124,
     4963.78
    ]
   ],
@@ -42456,10 +42443,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    4975.18
-   ],
-   [
     1794340030,
     4975.18
    ],
@@ -54453,6 +54436,10 @@
    ],
    [
     1794935942,
+    4975.18
+   ],
+   [
+    1794936124,
     4975.18
    ]
   ],
@@ -54538,10 +54525,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    4993.28
-   ],
-   [
     1794340030,
     4993.28
    ],
@@ -66535,6 +66518,10 @@
    ],
    [
     1794935942,
+    4993.28
+   ],
+   [
+    1794936124,
     4993.28
    ]
   ]
@@ -66745,10 +66732,6 @@
   },
   "equity_curve": [
    [
-    1794339850,
-    4969.22
-   ],
-   [
     1794340030,
     4969.22
    ],
@@ -78742,6 +78725,10 @@
    ],
    [
     1794935942,
+    4969.22
+   ],
+   [
+    1794936124,
     4969.22
    ]
   ],
@@ -81139,10 +81126,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794339850,
-    4610.16
-   ],
    [
     1794340030,
     4610.16
@@ -93138,6 +93121,10 @@
    [
     1794935942,
     4545.26
+   ],
+   [
+    1794936124,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94211,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794339850,
-    111676.47
-   ],
    [
     1794340030,
     111676.47
@@ -106223,6 +106206,10 @@
    [
     1794935942,
     114145.15
+   ],
+   [
+    1794936124,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106392,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794339850,
-    4876.96
-   ],
    [
     1794340030,
     4876.96
@@ -118403,6 +118386,10 @@
    ],
    [
     1794935942,
+    4876.96
+   ],
+   [
+    1794936124,
     4876.96
    ]
   ],
