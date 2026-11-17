@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 08:06 (İstanbul)
+> Son güncelleme: 17.11.2026 08:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -83,7 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 07:04 N  NEWS (16 new) score -0.40 conf 0.60: Yeni başlıkların çoğu altın için olumsuz: dolar 19 aylık zirveye çıktı, Fed faiz artırma beklentileri güçlendi ve altın yıllık dibe yakın işlem görüyor. İran savaşı jeopolitik talebi destekliyor olsa da bu etki hâlihazırda sert dolar ve faiz baskısıyla sınırlanıyor; ayrıca dolar endeksinin 03:21'de biraz geri çekilmesi kısa vadeli sinyali karıştırıyor.
 17.11 07:17 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 07:17 N  NEWS (16 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentileri ve güçlü doların baskısıyla yaklaşık bir yılın en düşük seviyesine yakın işlem görüyor; reel faiz ve dolar tarafındaki bu baskı kısa vadede altı aşağı çekme eğiliminde. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak haberlerde bu desteğin mevcut sert satış baskısını dengelemediği görülüyor; ayrıca 3.850 destek seviyesi ve ABD perakende satış verisi kısa vadede tepki yaratabilir.
 17.11 07:29 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -98,6 +97,7 @@ Son işlemler:
 17.11 08:06 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 08:06 N  NEWS (30 new) score -0.75 conf 0.80: Fed faiz artırımı beklentileri ve 19 aylık zirvedeki dolar altını yıllık dip seviyelerine çekiyor; güvenli liman talebini destekleyecek bir jeopolitik şok yok. Çin alımı ve $3,850 destek seviyesi kısa vadede sınırlı bir toparlanma ihtimali bırakıyor, ancak ana yön aşağı.
 17.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+17.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
