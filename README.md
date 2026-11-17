@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 14:56 (İstanbul)
+> Son güncelleme: 17.11.2026 14:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 14:47): Claude puan **-0.30**, güven 0.50 — Piyasada art arda Fed faiz artırımı beklentisi ve güçlenen dolar altın için baskı oluşturuyor; yüksek enflasyon (%3,7) da reel faiz beklentilerini yukarı çekerek altını olumsuz etkiliyor. İran savaşı ve jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki büyük ölçüde fiyatlanmış görünüyor ve tek başına altı yukarı taşımaya yetmiyor.
+Son haber analizi (17.11 14:59): Claude puan **-0.35**, güven 0.50 — Piyasadaki en önemli sinyal, altının Fed'in art arda faiz artırımı beklentisiyle baskı altında olması ve doların güçlenmesi, bu da altı kısa vadede aşağı yönlü etkiler. Jeopolitik tarafta İran savaşının uzayabileceği yönündeki endişeler güvenli liman talebini destekleyebilir, ancak Vance'in savaşın sonsuz hale gelmeyeceğini söylemesi ve Rusya-Ukrayna barışının "çok yakın" olduğu haberleri bu desteği zayıflatıyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 13:21 N  NEWS (8 new) score -0.30 conf 0.50: Güçlü dolar (DXY 19 aylık zirveye yakın, 103.5 direnci) ve yüksek reel faiz beklentileri altın üzerinde baskı oluşturuyor; altın 3830-3870 bandında ve sert satış sonrası kısmi toparlanma sinyali veriyor. Iran savaşı ve Ukrayna'daki gelişmeler güvenli liman talebini artırmadığı için jeopolitik etkisi sınırlı; yakın vadede Fed tutanakları ve ABD piyasa verileri belirleyici olacak.
-17.11 13:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 13:33 N  NEWS (15 new) score -0.35 conf 0.50: 
 17.11 13:46 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 13:46 N  NEWS (9 new) score -0.40 conf 0.60: Dolar 19 aylık zirvesine çıkıyor ve piyasalar Fed'in sıkı duruşuna dair bahisler yapıyor; bu, reel faiz beklentilerini yükselterek altın için baskı oluşturuyor. Kırım Köprüsü'ndeki saldırı ve İran savaşının sürmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu haberlerin etkisi sınırlı ve Alman yatırımcı güveninin yükselmesi risk iştahını artırıyor. Genel tablo altın için olumsuz, ancak haber akışında çelişkili unsurlar olduğu için güven orta düzeyde.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 14:35 N  NEWS (9 new) score -0.45 conf 0.60: Piyasalarda ardarda Fed faiz artırımı beklentisi ve doların 19 aylık zirvesi altın üzerinde baskı yaratıyor; altın 3.850 dolar civarında zorlanıyor. İran savaşına bağlı jeopolitik risk primi ise büyük ölçüde fiyatlanmış durumda ve Ukrayna barışına dair iyimser açıklamalar güvenli liman talebini biraz daha azaltabilir.
 17.11 14:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 14:47 N  NEWS (11 new) score -0.30 conf 0.50: Piyasada art arda Fed faiz artırımı beklentisi ve güçlenen dolar altın için baskı oluşturuyor; yüksek enflasyon (%3,7) da reel faiz beklentilerini yukarı çekerek altını olumsuz etkiliyor. İran savaşı ve jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki büyük ölçüde fiyatlanmış görünüyor ve tek başına altı yukarı taşımaya yetmiyor.
+17.11 14:59 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 14:59 N  NEWS (9 new) score -0.35 conf 0.50: Piyasadaki en önemli sinyal, altının Fed'in art arda faiz artırımı beklentisiyle baskı altında olması ve doların güçlenmesi, bu da altı kısa vadede aşağı yönlü etkiler. Jeopolitik tarafta İran savaşının uzayabileceği yönündeki endişeler güvenli liman talebini destekleyebilir, ancak Vance'in savaşın sonsuz hale gelmeyeceğini söylemesi ve Rusya-Ukrayna barışının "çok yakın" olduğu haberleri bu desteği zayıflatıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
