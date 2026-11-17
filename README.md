@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 19:17 (İstanbul)
+> Son güncelleme: 17.11.2026 19:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 18:32 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısıyla endeksler gün içi düşüş eğiliminde, çip hisseleri en zayıf grup.» / GPT «-»
-17.11 18:38 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 18:38 N  NEWS (13 new) score -0.40 conf 0.50: Altın, dolar 19 aylık zirvesi ve 10 yıllık tahvil getirisinin %5'e yaklaşması nedeniyle baskı altında; ABD enflasyonunun beklentinin üzerinde gelmesi de Fed'in sıkı kalacağı beklentisini güçlendiriyor. Jeopolitik gerilim (İran savaşı, Kırım Köprüsü) güvenli liman talebini destekleyebilir, ancak Vance'in "sonsuz savaş olmayacak" açıklaması bu etkiyi sınırlıyor; sonuç olarak kısa vadede net negatif görünüm, orta düzeyde güven.
 17.11 18:44 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 18:44 B6  karar turu: Claude «Piyasada son bir saatte teknoloji öncülüğünde sert satış var; zayıf hisselerde kısa pozisyon tercih edilir ancak aşırı satım sonrası tepki riski göz önünde tutulmalı.» / GPT «-»
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 19:08 B6  karar turu: Claude «Piyasa öğle saatlerinde sert satış sonrası tepki alımı görüyor, ancak genel eğilim negatif olduğundan sadece göreceli güçlü hisselerde seçici uzun pozisyon mantıklı.» / GPT «-»
 17.11 19:14 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 19:14 N  NEWS (11 new) score -0.30 conf 0.40: Altın, dolar ve tahvil getirilerinin yükselişi nedeniyle yılın en düşük seviyelerinden toparlanmakta zorlanıyor; "Fed faiz artırımı beklentisi doları yukarı taşıyor" başlığı ve 10 yıllık getirinin %5'e yaklaşması kısa vadede baskı yaratıyor. İran savaşındaki çıkmaz güvenli liman talebini destekliyor olsa da bu etki baskın değil; Fed Governor Cook'un Beyaz Saray duruşmasına katılmayı reddetmesi gibi Fed bağımsızlığı haberleri uzun vadede altın lehine olabilir ama 1-4 saatlik ufukta etkisi sınırlı. Birçok başlık eski veya zaten fiyatlanmış olduğu için güven düşük tutuldu.
+17.11 19:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+17.11 19:20 B6  karar turu: Claude «Endeksler gün içi satış baskısı altında ve sert dipten gelen tepki zayıflıyor; göreli güç gösteren hisseler dışında temkinli negatif bir görünüm var.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
