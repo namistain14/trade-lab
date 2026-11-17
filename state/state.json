@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    5000.0
-   ],
-   [
     1794289127,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794885211,
+    5000.0
+   ],
+   [
+    1794885385,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    4868.5
-   ],
-   [
     1794289127,
     4868.5
    ],
@@ -27085,33 +27081,29 @@
    [
     1794885211,
     4868.5
+   ],
+   [
+    1794885385,
+    4868.5
    ]
   ],
   "news": {
    "score": 0.05,
-   "confidence": 0.25,
-   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil (Nvidia, OpenAI davas\u0131, istihdam raporu, Epstein, vb.). Fed beklentileri, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131mlar\u0131yla ilgili yeni bir geli\u015fme yok. Yemen'deki Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak etkisi belirsiz ve somut bir jeopolitik \u015fok de\u011fil.",
+   "confidence": 0.2,
+   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemeyen genel haberler. Yemen'de Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir bilgi yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve belirsiz.",
    "n": 10,
-   "ts": 1794883403728,
-   "new_headlines": 5,
+   "ts": 1794885385671,
+   "new_headlines": 0,
    "key_events": [
-    "Yemen'de Husi ilerlemesi k\u00fcresel ekonomi i\u00e7in risk uyar\u0131s\u0131 (dolayl\u0131, hafif g\u00fcvenli liman etkisi)",
-    "Fed, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131m\u0131na dair yeni haber yok"
+    "Yemen'de Husi ilerlemesi: s\u0131n\u0131rl\u0131 jeopolitik risk",
+    "ABD bankalar\u0131nda hizmet kesintisi: alt\u0131 do\u011frudan etkilemiyor",
+    "Fed, dolar ve enflasyon i\u00e7in yeni haber yok"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794311166038,
-    "score": -0.35,
-    "confidence": 0.5,
-    "reason": "Fed'in Waller'\u0131n Aral\u0131k'ta faiz art\u0131r\u0131m\u0131n\u0131 destekleyen sert a\u00e7\u0131klamalar\u0131 ve dolar deste\u011fi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"yak\u0131nda bitebilece\u011fi\" y\u00f6n\u00fcndeki s\u00f6zleri ve petrol fiyatlar\u0131ndaki gerileme jeopolitik korku primini azaltarak ek bir olumsuz etki yarat\u0131yor. Ancak ABD enflasyon verisinin (CPI) sonucu belirsiz oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
-    "new": 11,
-    "gpt_score": -0.4,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1794382302370,
     "score": -0.4,
@@ -29802,11 +29794,20 @@
     "new": 5,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794885385671,
+    "score": 0.05,
+    "confidence": 0.2,
+    "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemeyen genel haberler. Yemen'de Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir bilgi yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve belirsiz.",
+    "new": 0,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 29
+   "n": 30
   },
   "news_seen": [
    "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
@@ -29822,8 +29823,6 @@
   ]
  },
  "log": [
-  "15.11 15:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 15:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 15:53 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 15:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 15:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30121,7 +30120,9 @@
   "17.11 05:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 05:30 N  NEWS (17 new) score -0.70 conf 0.75: Dolar 19 ayl\u0131k zirveye \u00e7\u0131kt\u0131 ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor; bu, reel faiz ve dolar kanal\u0131yla alt\u0131n i\u00e7in net bearish bir tablo. Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n (yakla\u015f\u0131k 3.850 dolar) i\u015flem g\u00f6r\u00fcyor, Hammack ve Chicago Fed a\u00e7\u0131klamalar\u0131 da s\u0131k\u0131 para politikas\u0131n\u0131 destekliyor; \u00c7in al\u0131mlar\u0131 ise yaln\u0131zca s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
   "17.11 05:43 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 05:43 N  NEWS (5 new) score +0.05 conf 0.25: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil (Nvidia, OpenAI davas\u0131, istihdam raporu, Epstein, vb.). Fed beklentileri, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131mlar\u0131yla ilgili yeni bir geli\u015fme yok. Yemen'deki Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak etkisi belirsiz ve somut bir jeopolitik \u015fok de\u011fil."
+  "17.11 05:43 N  NEWS (5 new) score +0.05 conf 0.25: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil (Nvidia, OpenAI davas\u0131, istihdam raporu, Epstein, vb.). Fed beklentileri, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131mlar\u0131yla ilgili yeni bir geli\u015fme yok. Yemen'deki Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak etkisi belirsiz ve somut bir jeopolitik \u015fok de\u011fil.",
+  "17.11 06:16 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 06:16 N  NEWS (0 new) score +0.05 conf 0.20: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemeyen genel haberler. Yemen'de Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir bilgi yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve belirsiz."
  ],
  "gold_big": {
   "account": {
@@ -30308,10 +30309,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    4963.78
-   ],
-   [
     1794289127,
     4963.78
    ],
@@ -42305,6 +42302,10 @@
    ],
    [
     1794885211,
+    4963.78
+   ],
+   [
+    1794885385,
     4963.78
    ]
   ],
@@ -42420,10 +42421,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    4975.18
-   ],
-   [
     1794289127,
     4975.18
    ],
@@ -54417,6 +54414,10 @@
    ],
    [
     1794885211,
+    4975.18
+   ],
+   [
+    1794885385,
     4975.18
    ]
   ],
@@ -54502,10 +54503,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    4993.28
-   ],
-   [
     1794289127,
     4993.28
    ],
@@ -66499,6 +66496,10 @@
    ],
    [
     1794885211,
+    4993.28
+   ],
+   [
+    1794885385,
     4993.28
    ]
   ]
@@ -66709,10 +66710,6 @@
   },
   "equity_curve": [
    [
-    1794288946,
-    4969.22
-   ],
-   [
     1794289127,
     4969.22
    ],
@@ -78706,6 +78703,10 @@
    ],
    [
     1794885211,
+    4969.22
+   ],
+   [
+    1794885385,
     4969.22
    ]
   ],
@@ -81103,10 +81104,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794288946,
-    4333.78
-   ],
    [
     1794289127,
     4333.78
@@ -93102,6 +93099,10 @@
    [
     1794885211,
     4545.26
+   ],
+   [
+    1794885385,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94188,10 +94189,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794288946,
-    111691.09
-   ],
    [
     1794289127,
     111691.09
@@ -106187,6 +106184,10 @@
    [
     1794885211,
     114145.15
+   ],
+   [
+    1794885385,
+    114145.15
    ]
   ],
   "open": {},
@@ -106369,10 +106370,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794288946,
-    4876.96
-   ],
    [
     1794289127,
     4876.96
@@ -118367,6 +118364,10 @@
    ],
    [
     1794885211,
+    4876.96
+   ],
+   [
+    1794885385,
     4876.96
    ]
   ],
