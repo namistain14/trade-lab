@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 20:27 (İstanbul)
+> Son güncelleme: 17.11.2026 20:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -85,10 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:02 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8rtqCeLjSnTunZTsQgH'}
-17.11 20:05 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8s84RzEyRVgzMau2Pw3'}
-17.11 20:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8sD26EQhn6wZi5w4cin'}
-17.11 20:06 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 17.11 20:06 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 20:06 B6  karar turu: Claude «-» / GPT «-»
 17.11 20:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8sSqXdQJZWdgK6J82Cj'}
@@ -100,6 +96,10 @@ Son işlemler:
 17.11 20:19 B6  karar turu: Claude «-» / GPT «-»
 17.11 20:22 N  NEWS (17 new) score +0.15 conf 0.30: Yeni haberlerin çoğu jeopolitik gerilimi artırıyor (Kırım Köprüsü'nde kısmi çöküş, Kiev'deki köprüye Rus saldırısı, İran planına ilişkin ABD açıklaması), bu da güvenli liman talebini hafifçe destekler. Ancak Fed, enflasyon veya dolar tarafında doğrudan bir sürpriz yok ve Trump'ın Asya'daki Putin/Şi zirveleri diplomatik bir gevşemeye işaret edebilir; bu nedenle etki sınırlı ve güven düşük.
 17.11 20:22 N  GPT  score +0.30 conf 0.46: Kırım Köprüsü’ne yönelik saldırı ve ABD’nin İran kaynaklı olası tehditleri ciddiye aldığını söylemesi kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar yönüne dair yeni bir sinyal yok; bu nedenle yükseliş etkisinin sınırlı kalma
+17.11 20:30 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son bir saatte teknoloji öncülüğünde tepki yükselişi var; seçici long pozisyonlar mantıklı.» / GPT «Günlük kayıplara rağmen saatlik toparlanma alım yönünde ılımlı avantaj sağlıyor; ancak 1:4 kaldıraçta aynı yöne korelasyonlu pozisyonların toplam riski sınırlanmalı.»
+17.11 20:30 B6  ALIŞ QQQ 173 adet ≈ 113,497 $ (1:4) @ 656.05 (TP 665.89, SL 649.49; ikisi de hemfikir, güven 0.55)
+17.11 20:30 B6  ALIŞ NVDA 739 adet ≈ 114,131 $ (1:4) @ 154.44 (TP 156.76, SL 152.9; ikisi de hemfikir, güven 0.55)
+17.11 20:30 B6  ALIŞ TSLA 299 adet ≈ 113,931 $ (1:4) @ 381.04 (TP 386.76, SL 377.23; ikisi de hemfikir, güven 0.60)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
