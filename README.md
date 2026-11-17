@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 23:43 (İstanbul)
+> Son güncelleme: 17.11.2026 23:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
 
-**Hesap değeri: 4,504.52 $** (başlangıç 5,000 $, -495.48 $ / %-9.91)
+**Hesap değeri: 4,505.04 $** (başlangıç 5,000 $, -494.96 $ / %-9.90)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
@@ -67,12 +67,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1161.25 $ | +10671.22 $ |
-| İşlem sayısı | 1 | 49 |
-| Kazanma oranı | %0.0 | %51.0 |
+| Net kâr/zarar | -1904.29 $ | +9928.18 $ |
+| İşlem sayısı | 3 | 51 |
+| Kazanma oranı | %0.0 | %49.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,583.87 $** (başlangıç 100,000 $, +12583.87 $ / %+12.58)
+**Hesap değeri: 112,442.83 $** (başlangıç 100,000 $, +12442.83 $ / %+12.44)
 
 Açık pozisyonlar: QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -80,18 +80,15 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 17.11 23:46 | TSLA | long | -435.97 $ | seans sonu |
+| 17.11 23:46 | QQQ | long | -307.07 $ | seans sonu |
 | 17.11 22:51 | NVDA | long | -1161.25 $ | stop |
 | 13.11 23:33 | AAPL | long | -1154.98 $ | stop |
 | 13.11 20:09 | TSLA | short | -1169.49 $ | stop |
-| 13.11 18:11 | QQQ | short | +1751.13 $ | take profit |
-| 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
 
 ## Son olaylar
 
 ```
-17.11 21:08 N  GPT  score -0.25 conf 0.48: Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
-17.11 21:08 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside ve son bir saatte dengelenmiş durumda; belirgin bir katalizör olmadan kapanışa kadar yatay ile hafif tepki alımları bekleniyor.» / GPT «Endekslerde günlük satışın ardından dar bantta dengelenme görülüyor; 1:4 kaldıraçla mevcut fiyatlardan yön kovalamak yerine yeni bir kırılma beklemek daha disiplinli.»
-17.11 21:20 B6  karar turu: Claude «Piyasa genel olarak satış baskısı altında; düşük momentumla aşağı eğilimli yatay bir seyir izliyor.» / GPT «Endekslerde aşağı eğilim sürüyor; taze şirket haberi bulunmadığından mevcut pozisyonlara ek piyasa riski sınırlı tutulmalı.»
 17.11 21:32 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son saatte ılımlı bir tepki alımı var; seçici ve temkinli alım tarafı öne çıkıyor.» / GPT «Endekslerde gün içi kayıplara rağmen son bölümde toparlanma güçleniyor; yükseliş yönünde sınırlı avantaj var ancak kaldıraç dönüş riskini büyütüyor.»
 17.11 21:40 B5  CLOSE long stop: -55.96 USD
 17.11 21:44 B6  karar turu: Claude «Piyasa günü yaklaşık %1,2 düşüşle geçiriyor ve öğleden sonraki tepki alımları satışla karşılanıyor, kapanışa doğru hafif negatif eğilim sürebilir.» / GPT «Başarısız tepki yükselişi aşağı yönü destekliyor ancak dar saatlik hareketler ve kapanışa kalan 77 dakika, yüzde 1,5 hedefe ulaşmayı zorlaştırıyor.»
@@ -104,6 +101,9 @@ Son işlemler:
 17.11 22:51 B6  CLOSE long NVDA stop: -1161.25 USD
 17.11 22:57 B6  karar turu: Claude «Piyasa gün boyu satıcılı ve kapanışa doğru zayıf; seansın son dakikalarında yeni gün içi pozisyon açmak mantıklı değil.» / GPT «Piyasa kapanışa doğru zayıflıyor; seans dışında bracket emirlerinin çalışacağı doğrulanmadan 4 kat kaldıraçla yeni pozisyon açmak uygun değil.»
 17.11 23:09 B6  karar turu: Claude «Endeksler günü yaklaşık %1,4 düşüşle kapattı; işlem sonrası seansta likidite zayıf olduğundan yeni pozisyon açmak yerine beklemek daha disiplinli.» / GPT «Genel eğilim aşağı olsa da saat 16:09 itibarıyla normal seans dışında likidite ve bracket emirlerinin işlerliği doğrulanmadığından yeni kaldıraçlı pozisyon açmıyorum.»
+17.11 23:46 B6  CLOSE long QQQ seans sonu: -307.07 USD
+17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD
+17.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
