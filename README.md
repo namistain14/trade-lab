@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 18:22 (İstanbul)
+> Son güncelleme: 17.11.2026 18:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 18:13): Claude puan **-0.40**, güven 0.60 — Altının bir yıllık dip seviyelerine yakın olması, doların 19 aylık zirvede olması, faiz artırımı beklentilerinin sertleşmesi ve ABD enflasyonunun beklentileri aşması altın için baskı oluşturuyor. Jeopolitik tarafta İran savaşına ilişkin "sonsuz savaş olmayacak" açıklamaları güvenli liman talebini sınırlıyor; yalnızca hisse senedi skandallarına bağlı kısa süreli bir yükseliş görülmesi bu tabloyu tam tersine çevirmiyor.
+Son haber analizi (17.11 18:25): Claude puan **-0.60**, güven 0.65 — Altın bir yıllık dibe yakın seyrediyor; dolar 19 aylık zirvede, ABD enflasyonu beklentileri aştı, faiz artırımı beklentileri sertleşiyor ve 10 yıllık getiri %5'e yaklaşıyor. Iran savaşı güvenli liman talebini destekleyecek bir etki yaratmıyor, bu nedenle baskı sürecek gibi görünüyor; eski ve çelişkili 'altın yükseldi' haberi ise güveni biraz düşürüyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 17:36 N  NEWS (10 new) score -0.60 conf 0.70: Altın, sıkılaşma beklentilerinin güçlenmesi ve reel faizlerin yükselmesi nedeniyle bir yıllık dibe yakın işlem görüyor; Fed yetkilisi Musalem'in faizin 1 puan artabileceği yönündeki açıklaması ve ABD ithalat fiyatlarındaki beklentinin üzerindeki artış baskıyı sürdürüyor. Kırım köprüsü, İran-İsrail/ABD çatışmaları gibi jeopolitik haberler güvenli liman talebi yaratabilir, ancak bunların etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda.
-17.11 17:43 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 17:43 B6  karar turu: Claude «Endeksler hafif ekside ve yatay seyrediyor; bu ortamda hisseye özgü haberler ve kısa vadeli kırılımlar belirleyici olacak.» / GPT «-»
 17.11 17:49 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 17:49 N  NEWS (12 new) score -0.45 conf 0.60: Altın, bir yıllık dipte ve faiz artırımı beklentileri sertleşiyor; reel getiriler yükseliyor, dolar ve enerji fiyatları destek buluyor, ABD ithal fiyatları beklentinin üzerinde geldi. Kırım Köprüsü ve Orta Doğu gerilimleri jeopolitik güvenli liman talebi yaratabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor ve ana etki hâlâ baskı yönünde.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 18:13 N  NEWS (20 new) score -0.40 conf 0.60: Altının bir yıllık dip seviyelerine yakın olması, doların 19 aylık zirvede olması, faiz artırımı beklentilerinin sertleşmesi ve ABD enflasyonunun beklentileri aşması altın için baskı oluşturuyor. Jeopolitik tarafta İran savaşına ilişkin "sonsuz savaş olmayacak" açıklamaları güvenli liman talebini sınırlıyor; yalnızca hisse senedi skandallarına bağlı kısa süreli bir yükseliş görülmesi bu tabloyu tam tersine çevirmiyor.
 17.11 18:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 18:19 B6  karar turu: Claude «Piyasa çip hisselerinin baskısıyla hafif negatif seyrediyor; teknolojide zayıflık öne çıkıyor.» / GPT «-»
+17.11 18:25 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 18:25 N  NEWS (12 new) score -0.60 conf 0.65: Altın bir yıllık dibe yakın seyrediyor; dolar 19 aylık zirvede, ABD enflasyonu beklentileri aştı, faiz artırımı beklentileri sertleşiyor ve 10 yıllık getiri %5'e yaklaşıyor. Iran savaşı güvenli liman talebini destekleyecek bir etki yaratmıyor, bu nedenle baskı sürecek gibi görünüyor; eski ve çelişkili 'altın yükseldi' haberi ise güveni biraz düşürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
