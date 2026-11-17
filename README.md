@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 14:44 (İstanbul)
+> Son güncelleme: 17.11.2026 14:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 14:35): Claude puan **-0.45**, güven 0.60 — Piyasalarda ardarda Fed faiz artırımı beklentisi ve doların 19 aylık zirvesi altın üzerinde baskı yaratıyor; altın 3.850 dolar civarında zorlanıyor. İran savaşına bağlı jeopolitik risk primi ise büyük ölçüde fiyatlanmış durumda ve Ukrayna barışına dair iyimser açıklamalar güvenli liman talebini biraz daha azaltabilir.
+Son haber analizi (17.11 14:47): Claude puan **-0.30**, güven 0.50 — Piyasada art arda Fed faiz artırımı beklentisi ve güçlenen dolar altın için baskı oluşturuyor; yüksek enflasyon (%3,7) da reel faiz beklentilerini yukarı çekerek altını olumsuz etkiliyor. İran savaşı ve jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki büyük ölçüde fiyatlanmış görünüyor ve tek başına altı yukarı taşımaya yetmiyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 13:09 N  NEWS (14 new) score -0.25 conf 0.50: Dolar endeksi 19 aylık zirveye yakın seyrediyor ve altın 3.830-3.870 dolar bandında baskı altında; yüksek faiz ve güçlü dolar altını aşağı çekiyor. Yeni jeopolitik haberler (Ukrayna'nın Kırım köprüsüne saldırısı, İran savaşı) güvenli liman talebini destekliyor olsa da, Vance'in İran savaşının uzamayacağı yönündeki açıklaması ve petrol fiyatlarındaki düşüş enflasyon ve faiz beklentileri açısından nötr-dovish bir sinyal olarak okunabilir; bu nedenle etki sınırlı ve karışık.
-17.11 13:21 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 13:21 N  NEWS (8 new) score -0.30 conf 0.50: Güçlü dolar (DXY 19 aylık zirveye yakın, 103.5 direnci) ve yüksek reel faiz beklentileri altın üzerinde baskı oluşturuyor; altın 3830-3870 bandında ve sert satış sonrası kısmi toparlanma sinyali veriyor. Iran savaşı ve Ukrayna'daki gelişmeler güvenli liman talebini artırmadığı için jeopolitik etkisi sınırlı; yakın vadede Fed tutanakları ve ABD piyasa verileri belirleyici olacak.
 17.11 13:33 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 13:33 N  NEWS (15 new) score -0.35 conf 0.50: 
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 14:22 N  NEWS (9 new) score -0.50 conf 0.60: Dolar 19 ayın zirvesine çıkarken piyasa Fed'in art arda faiz artırabileceğine fiyat veriyor; bu, reel faiz beklentilerini yükselterek altın için baskılayıcı bir etki yaratıyor. İran savaşıyla ilgili jeopolitik risk primi büyük ölçüde zaten fiyatlanmış durumda, bu yüzden güvenli liman talebi kısa vadede sınırlı bir destek sağlıyor.
 17.11 14:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 14:35 N  NEWS (9 new) score -0.45 conf 0.60: Piyasalarda ardarda Fed faiz artırımı beklentisi ve doların 19 aylık zirvesi altın üzerinde baskı yaratıyor; altın 3.850 dolar civarında zorlanıyor. İran savaşına bağlı jeopolitik risk primi ise büyük ölçüde fiyatlanmış durumda ve Ukrayna barışına dair iyimser açıklamalar güvenli liman talebini biraz daha azaltabilir.
+17.11 14:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 14:47 N  NEWS (11 new) score -0.30 conf 0.50: Piyasada art arda Fed faiz artırımı beklentisi ve güçlenen dolar altın için baskı oluşturuyor; yüksek enflasyon (%3,7) da reel faiz beklentilerini yukarı çekerek altını olumsuz etkiliyor. İran savaşı ve jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki büyük ölçüde fiyatlanmış görünüyor ve tek başına altı yukarı taşımaya yetmiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
