@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 22:29 (İstanbul)
+> Son güncelleme: 17.11.2026 22:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
 
-**Hesap değeri: 4,494.64 $** (başlangıç 5,000 $, -505.36 $ / %-10.11)
+**Hesap değeri: 4,498.54 $** (başlangıç 5,000 $, -501.46 $ / %-10.03)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,957.73 $** (başlangıç 100,000 $, +12957.73 $ / %+12.96)
+**Hesap değeri: 113,008.80 $** (başlangıç 100,000 $, +13008.80 $ / %+13.01)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:42 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside, öğleden sonraki tepki yükselişi zayıflıyor ve hafif negatif eğilim sürüyor.» / GPT «Endekslerde gün içi tepki yükselişi zayıflarken, yeni şirket haberleriyle desteklenmeyen hareketleri kovalamak yerine göreli zayıflıkta seçici kısa pozisyonlar öne çıkıyor.»
 17.11 20:55 B6  karar turu: Claude «Endeksler %1'in üzerinde ekside ve öğleden sonra yatay-zayıf konsolide oluyor; tepkiler satış fırsatı olarak değerlendiriliyor.» / GPT «Endekslerde günlük satış baskısı sürerken son saat yatay; yeni işlemde göreli zayıflık gösteren hisselerde seçici kısa pozisyonları tercih ediyorum.»
 17.11 20:56 N  NEWS (40 new) score -0.40 conf 0.55: Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
 17.11 20:56 N  GPT  score -0.25 conf 0.46: Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
@@ -104,6 +103,7 @@ Son işlemler:
 17.11 21:56 B6  karar turu: Claude «Piyasa %1'in üzerinde ekside ve yatay-aşağı seyrediyor; son saatte toparlanma zayıf kaldı, kapanışa doğru hafif satış baskısı bekleniyor.» / GPT «Genel görünüm aşağı yönlü; ancak normal seansın bitimine yaklaşık 64 dakika kalması, yüzde 1,5 kâr hedefine ulaşma olasılığını sınırlıyor.»
 17.11 22:08 B6  karar turu: Claude «Piyasa günü yaklaşık %1 düşüşle geçiriyor ve son saatte dengelenmiş görünüyor; kapanışa doğru şirkete özgü olumlu haberler seçici fırsat sunabilir.» / GPT «Piyasa zayıf ve dar bantta; normal seansın kapanmasına 52 dakika kaldığından 1–3 saatlik hedef seans dışına taşabilir ve 1:4 kaldıraç riski büyütür.»
 17.11 22:20 B6  karar turu: Claude «Piyasa günü yaklaşık %1 ekside geçiriyor ancak son saatte satış baskısı durulmuş ve kapanış öncesi hafif tepki alımları görülüyor.» / GPT «Endeksler zayıf ve yönsüz olduğundan şirkete özgü taze katalizörler öncelikli; normal seansın kapanmasına 40 dakika kalması, 1–3 saatlik tutuşta seans sonrası likidite ve braket emirlerinin geçerliliğini önemli kılıyor.»
+17.11 22:32 B6  karar turu: Claude «Piyasa gün genelinde zayıf ama son saatte satış baskısı azaldı ve fiyatlar yatay seyrediyor; kapanışa kadar şirkete özgü olumlu haberler öne çıkabilir.» / GPT «Piyasa zayıf; normal seansın kapanmasına 28 dakika kaldığından 1–3 saatlik işlemler seans dışına taşabilir ve dört kat kaldıraçta stop fiyatından gerçekleşme garanti değildir.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
