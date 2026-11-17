@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 16:33 (İstanbul)
+> Son güncelleme: 17.11.2026 16:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 16:24): Claude puan **-0.50**, güven 0.60 — Fed yetkilisi Musalem'in "birkaç faiz artırımı" gerekebileceği yönündeki sözleri ve buna bağlı dolar toparlanması altın için baskılayıcı. Jeopolitik gerilim (İran savaşı, Kırım köprüsü saldırısı) güvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve güçlenen doların gerisinde kalıyor.
+Son haber analizi (17.11 16:36): Claude puan **-0.60**, güven 0.60 — Fed yetkilileri (Musalem) birkaç faiz artırımının ilkbahara kadar gerekebileceğini söyledi ve piyasa art arda faiz artırımı bahis yapıyor; bu, reel faizleri ve doları yukarı iterek altın için net olumsuz. ABD doları yükselişi ve altının 3.850 dolar civarında zorlanması bu baskıyı teyit ediyor; İran savaşı ve Kırım köprüsü saldırısı gibi jeopolitik haberler ise güvenli liman talebini sınırlı artırıyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 15:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
-17.11 15:11 N  NEWS (14 new) score -0.40 conf 0.50: Altın için baskı ağırlıkta: piyasa art arda Fed faiz artışı bahis yapıyor (şahin beklenti) ve gümüş, doların güçlenmesiyle düşüyor. Trump'ın Rusya-Ukrayna savaşının "çok yakın" olduğu açıklaması güvenli liman talebini zayıflatıyor; İran savaşıyla ilgili jeopolitik haberler ise destek sağlasa da daha az yeni bir tırmanış içermiyor ve zaten fiyatlanmış olabilir.
 17.11 15:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 15:23 N  NEWS (7 new) score -0.60 conf 0.60: Altın, güçlenen dolar, yüksek enflasyon ve Fed'in art arda faiz artırma beklentisi nedeniyle baskı altında; altın son bir yılın en düşük açılışını yaptı. İran savaşı ve Rusya-Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberler çoğunlukla fiyatlanmış durumda.
 17.11 15:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 16:24 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 16:24 N  NEWS (12 new) score -0.50 conf 0.60: Fed yetkilisi Musalem'in "birkaç faiz artırımı" gerekebileceği yönündeki sözleri ve buna bağlı dolar toparlanması altın için baskılayıcı. Jeopolitik gerilim (İran savaşı, Kırım köprüsü saldırısı) güvenli liman talebini destekleyebilir, ancak bu etki hawkish Fed ve güçlenen doların gerisinde kalıyor.
 17.11 16:30 B6  seans öncesi görüş: Piyasa açılış öncesi Nasdaq öncülüğünde sert riskten kaçış modunda; bu yüzden pozisyonlar küçük ve sadece şirkete özgü taze haberlere dayalı açılıyor.
+17.11 16:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 16:36 N  NEWS (8 new) score -0.60 conf 0.60: Fed yetkilileri (Musalem) birkaç faiz artırımının ilkbahara kadar gerekebileceğini söyledi ve piyasa art arda faiz artırımı bahis yapıyor; bu, reel faizleri ve doları yukarı iterek altın için net olumsuz. ABD doları yükselişi ve altının 3.850 dolar civarında zorlanması bu baskıyı teyit ediyor; İran savaşı ve Kırım köprüsü saldırısı gibi jeopolitik haberler ise güvenli liman talebini sınırlı artırıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
