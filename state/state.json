@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    5000.0
-   ],
-   [
     1794321207,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794917286,
+    5000.0
+   ],
+   [
+    1794917473,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    4868.5
-   ],
-   [
     1794321207,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794917286,
     4868.5
+   ],
+   [
+    1794917473,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.35,
+   "score": -0.4,
    "confidence": 0.5,
-   "reason": "Piyasadaki en \u00f6nemli sinyal, alt\u0131n\u0131n Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisiyle bask\u0131 alt\u0131nda olmas\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesi, bu da alt\u0131 k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc etkiler. Jeopolitik tarafta \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi y\u00f6n\u00fcndeki endi\u015feler g\u00fcvenli liman talebini destekleyebilir, ancak Vance'in sava\u015f\u0131n sonsuz hale gelmeyece\u011fini s\u00f6ylemesi ve Rusya-Ukrayna bar\u0131\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu haberleri bu deste\u011fi zay\u0131flat\u0131yor.",
+   "reason": "Alt\u0131n i\u00e7in bask\u0131 a\u011f\u0131rl\u0131kta: piyasa art arda Fed faiz art\u0131\u015f\u0131 bahis yap\u0131yor (\u015fahin beklenti) ve g\u00fcm\u00fc\u015f, dolar\u0131n g\u00fc\u00e7lenmesiyle d\u00fc\u015f\u00fcyor. Trump'\u0131n Rusya-Ukrayna sava\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu a\u00e7\u0131klamas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor; \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler ise destek sa\u011flasa da daha az yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor ve zaten fiyatlanm\u0131\u015f olabilir.",
    "n": 45,
-   "ts": 1794916753396,
-   "new_headlines": 9,
+   "ts": 1794917473564,
+   "new_headlines": 14,
    "key_events": [
     "Piyasalar ard\u0131\u015f\u0131k Fed faiz art\u0131r\u0131m\u0131 bekliyor; alt\u0131n 3.850 dolar civar\u0131nda zay\u0131f",
     "Dolar 19 ayl\u0131k zirvede, \u015fahin Fed beklentileri alt\u0131n i\u00e7in olumsuz",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794413574019,
-    "score": -0.45,
-    "confidence": 0.55,
-    "reason": "S\u0131cak ABD enflasyonu, Fed'de yar\u0131m puanl\u0131k faiz art\u0131\u015f\u0131 beklentilerini ve y\u00fckselen reel getirileri \u00f6ne \u00e7\u0131kar\u0131yor; bu, dolar g\u00fc\u00e7lenmesiyle birlikte alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Trump'\u0131n \u0130ran sava\u015f\u0131n\u0131n \"esasen bitti\" demesi de jeopolitik g\u00fcvenli liman talebini azalt\u0131yor; ancak CPI ve Fed haberlerinin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
-    "new": 7,
-    "gpt_score": -0.45,
-    "gpt_confidence": 0.66
-   },
    {
     "ts": 1794414295610,
     "score": -0.3,
@@ -29803,17 +29794,34 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794917473564,
+    "score": -0.4,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n i\u00e7in bask\u0131 a\u011f\u0131rl\u0131kta: piyasa art arda Fed faiz art\u0131\u015f\u0131 bahis yap\u0131yor (\u015fahin beklenti) ve g\u00fcm\u00fc\u015f, dolar\u0131n g\u00fc\u00e7lenmesiyle d\u00fc\u015f\u00fcyor. Trump'\u0131n Rusya-Ukrayna sava\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu a\u00e7\u0131klamas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor; \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler ise destek sa\u011flasa da daha az yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor ve zaten fiyatlanm\u0131\u015f olabilir.",
+    "new": 14,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 73
+   "n": 74
   },
   "news_seen": [
-   "Sterling Edges Up Against Dollar, Ends Five-Day Decline - Global Banking & Finance Review",
-   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
+   "Five EU countries call for tougher sanctions on Russian crypto networks - INSIGHT EU MONITORING",
+   "Gold, Silver, Rare Earths: A commodities market that refuses to follow the script - The Armchair Trader",
+   "Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO - CDO Magazine",
+   "Breaking Down Meta\u2019s Coming Two-Front War on TV - Next in Media | Mike Shields",
+   "Jamie Dimon Declared the U.S. Will Hang On to Its Status as the World's Top Reserve Currency. Here's Why That Confidence Matters for Dollar-Denominated Assets JPMorgan Clients Hold. - The Motley Fool",
+   "EU imposes sanctions on 4 Haiti gangs - Antelope Valley Press",
+   "Trump says Russia-Ukraine war 'very close' to being resolved - A News",
+   "Gunmen kill Costa Rican journalist who reported on drugs trade",
+   "1.3137: To act as key support for GBP/USD with UK CPI data on the horizon - FXStreet",
    "Free agents to invest in, avoid during 2026-27 MLB offseason - ABC7 New York",
-   "Pretending to be in New Zeland, booking leave and buying consoles - the lengths fans are going to for GTA 6",
+   "Sterling edges up against dollar, breaking five-day slump - AOL.com",
+   "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
    "EU expands sanctions targeting Russia\u2019s shadow fleet support network - safety4sea",
    "A dovish d\u00e9tente gives way to geopolitical gravity - Yahoo",
    "Opinion: Your input helps the Federal Reserve stay rooted in reality - STLtoday.com",
@@ -29821,16 +29829,17 @@
    "Iowans want Congress to end Iran way, says U.S. Sen.-elect Josh Turek - The Des Moines Register",
    "EU readies fresh sanctions on Russia to counter 'absurd' demands - Euronews.com",
    "Vance: Trump will not allow Iran war to become endless... - www.jordannews.jo",
-   "UK sanctions eight Israeli firms, activist group over Judea and Samaria, Gaza aid - JNS.org",
+   "Putin\u2019s prized bridge is partially destroyed in Ukrainian strike - NBC News",
    "UK targets Israeli settlement companies with new sanctions - The Jerusalem Post",
    "Silver Price Forecast: Slide Continues as Dollar Strengthens - FXEmpire",
    "Britain sanctions Israeli settlement firms in push to protect two-state solution - Reuters",
-   "Trump says Russia-Ukraine war 'very close' to being resolved - Anadolu Ajans\u0131",
-   "UK announces sanctions on eight Israeli construction companies involved in building West Bank settlements - i24NEWS",
+   "UK imposes sanctions on companies building West Bank settlements - Financial Times",
    "More Than Half of Russian Men Under 40 Who Died in 2025 Were Killed in the War Against Ukraine - UNITED24 Media",
    "Iran Condemns US-Israeli Claims Linking Missile Bases to Dams - WANA News Agency",
+   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
    "JD Vance Says US Won\u2019t Let Iran War Become a \u201cForever War\u201d: what 9 outlets left out - NewsCord",
    "UK Sanctions Eight West Bank Settlement Firms and Activist Group Tzav 9: 10 outlets compared - NewsCord",
+   "Nvidia partner Megaspeed being investigated by US government over chip exports",
    "US government confirms investigation into tech firm Megaspeed",
    "Exclusive: Hanwha tests Chunmoo missile from ship off Mississippi - Axios",
    "Exclusive: Hanwha tests Chunmoo missile from ship off Mississippi - Yahoo",
@@ -29845,21 +29854,10 @@
    "Tracking China\u2019s War of Words Against Japan - The New York Times",
    "Chinese sanctions and their impact on European supply chains - Defence24.com",
    "The Contradictions of the Ukraine Peace Process - Geopolitical Futures",
-   "The Fed's 'Immaculate Disinflation' Strategy Will Fail - Bloomberg.com",
-   "Democrats\u2019 Push to End Iran War Revives Debate Over Congress\u2019s War Powers - National Review",
-   "Future Tense: \u2018The Forever War\u2019 - dailycampus.com",
-   "When will the war with Iran end? - Washington Examiner",
-   "Kosovo's Former President Thaci Found Guilty Of Obstructing Justice In War Crimes Trial - Radio Free Europe/Radio Liberty",
-   "UK imposes sanctions on Israeli companies operating in Judea and Samaria - Israel Hayom",
-   "Ed Miliband announces first sanctions on Israeli firms working in West Bank - The Guardian",
-   "Immigration arrests after organised crime blitz",
-   "Larijani: US Must Pay War Reparations or Lose Its Interests - WANA News Agency",
-   "Before AI goes to real war, make it fight a fake one - The Economist"
+   "The Fed's 'Immaculate Disinflation' Strategy Will Fail - Bloomberg.com"
   ]
  },
  "log": [
-  "15.11 20:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 20:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 14:47 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 14:47 N  NEWS (11 new) score -0.30 conf 0.50: Piyasada art arda Fed faiz art\u0131r\u0131m\u0131 beklentisi ve g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; y\u00fcksek enflasyon (%3,7) da reel faiz beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n\u0131 olumsuz etkiliyor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim ise g\u00fcvenli liman talebi yaratsa da bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve tek ba\u015f\u0131na alt\u0131 yukar\u0131 ta\u015f\u0131maya yetmiyor.",
   "17.11 14:59 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 14:59 N  NEWS (9 new) score -0.35 conf 0.50: Piyasadaki en \u00f6nemli sinyal, alt\u0131n\u0131n Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisiyle bask\u0131 alt\u0131nda olmas\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesi, bu da alt\u0131 k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc etkiler. Jeopolitik tarafta \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi y\u00f6n\u00fcndeki endi\u015feler g\u00fcvenli liman talebini destekleyebilir, ancak Vance'in sava\u015f\u0131n sonsuz hale gelmeyece\u011fini s\u00f6ylemesi ve Rusya-Ukrayna bar\u0131\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu haberleri bu deste\u011fi zay\u0131flat\u0131yor."
+  "17.11 14:59 N  NEWS (9 new) score -0.35 conf 0.50: Piyasadaki en \u00f6nemli sinyal, alt\u0131n\u0131n Fed'in art arda faiz art\u0131r\u0131m\u0131 beklentisiyle bask\u0131 alt\u0131nda olmas\u0131 ve dolar\u0131n g\u00fc\u00e7lenmesi, bu da alt\u0131 k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc etkiler. Jeopolitik tarafta \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fi y\u00f6n\u00fcndeki endi\u015feler g\u00fcvenli liman talebini destekleyebilir, ancak Vance'in sava\u015f\u0131n sonsuz hale gelmeyece\u011fini s\u00f6ylemesi ve Rusya-Ukrayna bar\u0131\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu haberleri bu deste\u011fi zay\u0131flat\u0131yor.",
+  "17.11 15:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 15:11 N  NEWS (14 new) score -0.40 conf 0.50: Alt\u0131n i\u00e7in bask\u0131 a\u011f\u0131rl\u0131kta: piyasa art arda Fed faiz art\u0131\u015f\u0131 bahis yap\u0131yor (\u015fahin beklenti) ve g\u00fcm\u00fc\u015f, dolar\u0131n g\u00fc\u00e7lenmesiyle d\u00fc\u015f\u00fcyor. Trump'\u0131n Rusya-Ukrayna sava\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu a\u00e7\u0131klamas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor; \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler ise destek sa\u011flasa da daha az yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor ve zaten fiyatlanm\u0131\u015f olabilir."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    4963.78
-   ],
-   [
     1794321207,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794917286,
+    4963.78
+   ],
+   [
+    1794917473,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    4975.18
-   ],
-   [
     1794321207,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794917286,
+    4975.18
+   ],
+   [
+    1794917473,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    4993.28
-   ],
-   [
     1794321207,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794917286,
+    4993.28
+   ],
+   [
+    1794917473,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794320994,
-    4969.22
-   ],
-   [
     1794321207,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794917286,
+    4969.22
+   ],
+   [
+    1794917473,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794320994,
-    4610.16
-   ],
    [
     1794321207,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794917286,
     4545.26
+   ],
+   [
+    1794917473,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794320994,
-    111676.47
-   ],
    [
     1794321207,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794917286,
     114145.15
+   ],
+   [
+    1794917473,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794320994,
-    4876.96
-   ],
    [
     1794321207,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794917286,
+    4876.96
+   ],
+   [
+    1794917473,
     4876.96
    ]
   ],
