@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    5000.0
-   ],
-   [
     1794337691,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794933705,
+    5000.0
+   ],
+   [
+    1794933898,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    4868.5
-   ],
-   [
     1794337691,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794933705,
+    4868.5
+   ],
+   [
+    1794933898,
     4868.5
    ]
   ],
@@ -29858,9 +29858,6 @@
   ]
  },
  "log": [
-  "15.11 23:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 23:34 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 23:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 23:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 23:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 23:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30154,10 @@
   "17.11 19:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
   "17.11 19:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn i\u00e7i d\u00fc\u015f\u00fc\u015fte ve \u00f6\u011fle saatlerindeki zay\u0131f toparlanma s\u00f6nerken endekslerde hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc e\u011filim \u00f6ne \u00e7\u0131k\u0131yor.\u00bb / GPT \u00ab-\u00bb",
   "17.11 19:38 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 19:38 N  NEWS (8 new) score -0.15 conf 0.40: Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesinden toparlanmakta zorlan\u0131yor; dolar ve tahvil getirileri y\u00fckseliyor, piyasada Fed faiz art\u0131r\u0131m\u0131 beklentisi fiyatlan\u0131yor, bu da alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131 jeopolitik risk \u00fcretse de etkisi enflasyon/faiz kanal\u0131yla s\u0131n\u0131rl\u0131 kal\u0131yor; Fed Gov. Cook'un Beyaz Saray duru\u015fmas\u0131na kat\u0131lmay\u0131 reddetmesi Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 endi\u015fesi yarat\u0131p k\u0131smen alt\u0131n\u0131 destekleyebilir ancak bu haber daha az belirleyici."
+  "17.11 19:38 N  NEWS (8 new) score -0.15 conf 0.40: Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesinden toparlanmakta zorlan\u0131yor; dolar ve tahvil getirileri y\u00fckseliyor, piyasada Fed faiz art\u0131r\u0131m\u0131 beklentisi fiyatlan\u0131yor, bu da alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 ve \u0130ran sava\u015f\u0131 jeopolitik risk \u00fcretse de etkisi enflasyon/faiz kanal\u0131yla s\u0131n\u0131rl\u0131 kal\u0131yor; Fed Gov. Cook'un Beyaz Saray duru\u015fmas\u0131na kat\u0131lmay\u0131 reddetmesi Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 endi\u015fesi yarat\u0131p k\u0131smen alt\u0131n\u0131 destekleyebilir ancak bu haber daha az belirleyici.",
+  "17.11 19:44 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "17.11 19:44 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
+  "17.11 19:44 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    4963.78
-   ],
-   [
     1794337691,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794933705,
+    4963.78
+   ],
+   [
+    1794933898,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    4975.18
-   ],
-   [
     1794337691,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794933705,
+    4975.18
+   ],
+   [
+    1794933898,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    4993.28
-   ],
-   [
     1794337691,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794933705,
+    4993.28
+   ],
+   [
+    1794933898,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794337511,
-    4969.22
-   ],
-   [
     1794337691,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794933705,
+    4969.22
+   ],
+   [
+    1794933898,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794337511,
-    4610.16
-   ],
    [
     1794337691,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794933705,
     4545.26
+   ],
+   [
+    1794933898,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794337511,
-    111676.47
-   ],
    [
     1794337691,
     111676.47
@@ -106223,23 +106219,27 @@
    [
     1794933705,
     114145.15
+   ],
+   [
+    1794933898,
+    114145.15
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1794933165163,
+  "last_decision_ms": 1794933885407,
   "view": {
-   "ts": 1794933165163,
-   "claude": "Piyasa g\u00fcn i\u00e7i d\u00fc\u015f\u00fc\u015fte ve \u00f6\u011fle saatlerindeki zay\u0131f toparlanma s\u00f6nerken endekslerde hafif a\u015fa\u011f\u0131 y\u00f6nl\u00fc e\u011filim \u00f6ne \u00e7\u0131k\u0131yor.",
+   "ts": 1794933885407,
+   "claude": "",
    "gpt": "",
    "gpt_model": null,
-   "claude_model": "claude-opus-5-5",
+   "claude_model": null,
    "picks": {
     "SPY": {
      "claude": [
-      "short",
-      0.5
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106248,8 +106248,8 @@
     },
     "QQQ": {
      "claude": [
-      "short",
-      0.55
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106258,8 +106258,8 @@
     },
     "NVDA": {
      "claude": [
-      "none",
-      0.35
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106268,8 +106268,8 @@
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.3
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106278,8 +106278,8 @@
     },
     "TSLA": {
      "claude": [
-      "none",
-      0.3
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794337511,
-    4876.96
-   ],
    [
     1794337691,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794933705,
+    4876.96
+   ],
+   [
+    1794933898,
     4876.96
    ]
   ],
