@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    5000.0
-   ],
-   [
     1794328531,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794924584,
+    5000.0
+   ],
+   [
+    1794924772,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    4868.5
-   ],
-   [
     1794328531,
     4868.5
    ],
@@ -27085,15 +27081,19 @@
    [
     1794924584,
     4868.5
+   ],
+   [
+    1794924772,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.7,
-   "reason": "Fed yetkililerinin (Musalem) art arda faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131, g\u00fc\u00e7l\u00fc ABD perakende sat\u0131\u015flar\u0131 ve dolardaki y\u00fckseli\u015f alt\u0131n \u00fczerinde net bask\u0131 yarat\u0131yor; alt\u0131n 3.848 dolara geriledi. \u0130ran ve Ukrayna-K\u0131r\u0131m geli\u015fmeleri g\u00fcvenli liman talebi yaratabilir ancak fiyat tepkisi zay\u0131f kald\u0131\u011f\u0131 i\u00e7in etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Fed yetkililerinin s\u0131k\u0131la\u015ft\u0131rma \u00e7a\u011fr\u0131lar\u0131 (Musalem: \"4 faiz art\u0131r\u0131m\u0131 gerekebilir\"), reel getirilerin y\u00fckselmesi ve dolardaki toparlanma alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; ABD ithalat fiyatlar\u0131n\u0131n beklentiden fazla artmas\u0131 da enflasyon kayg\u0131s\u0131n\u0131 besleyerek faiz art\u0131\u015f\u0131 beklentisini destekliyor. Ker\u00e7 K\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131, \u0130ran-ABD gerilimi ve Bahreyn'deki \u0130HA sald\u0131r\u0131s\u0131 jeopolitik risk primi sa\u011flasa da, piyasan\u0131n bu haberlere g\u00fc\u00e7l\u00fc bir g\u00fcvenli liman tepkisi vermemesi ve alt\u0131n\u0131n $3,850 civar\u0131nda zay\u0131f seyretmesi etkiyi s\u0131n\u0131rl\u0131yor.",
    "n": 45,
-   "ts": 1794924051058,
-   "new_headlines": 15,
+   "ts": 1794924771492,
+   "new_headlines": 18,
    "key_events": [
     "St. Louis Fed Musalem: 'birka\u00e7 faiz art\u0131r\u0131m\u0131' gerekebilir",
     "ABD perakende sat\u0131\u015flar\u0131 beklentiyi a\u015ft\u0131; alt\u0131n 3.848 dolara d\u00fc\u015ft\u00fc",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794420833577,
-    "score": -0.3,
-    "confidence": 0.5,
-    "reason": "Jeopolitik riskler (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz gerilimi, ABD \u00fcslerine tehdit) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor, ancak s\u0131cak enflasyon verisi, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolar\u0131n 19 ayl\u0131k zirvesi daha bask\u0131n oldu\u011fu i\u00e7in k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yaratmas\u0131 daha olas\u0131.",
-    "new": 9,
-    "gpt_score": -0.15,
-    "gpt_confidence": 0.42
-   },
    {
     "ts": 1794421552542,
     "score": -0.35,
@@ -29803,15 +29794,36 @@
     "new": 15,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794924771492,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Fed yetkililerinin s\u0131k\u0131la\u015ft\u0131rma \u00e7a\u011fr\u0131lar\u0131 (Musalem: \"4 faiz art\u0131r\u0131m\u0131 gerekebilir\"), reel getirilerin y\u00fckselmesi ve dolardaki toparlanma alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; ABD ithalat fiyatlar\u0131n\u0131n beklentiden fazla artmas\u0131 da enflasyon kayg\u0131s\u0131n\u0131 besleyerek faiz art\u0131\u015f\u0131 beklentisini destekliyor. Ker\u00e7 K\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131, \u0130ran-ABD gerilimi ve Bahreyn'deki \u0130HA sald\u0131r\u0131s\u0131 jeopolitik risk primi sa\u011flasa da, piyasan\u0131n bu haberlere g\u00fc\u00e7l\u00fc bir g\u00fcvenli liman tepkisi vermemesi ve alt\u0131n\u0131n $3,850 civar\u0131nda zay\u0131f seyretmesi etkiyi s\u0131n\u0131rl\u0131yor.",
+    "new": 18,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 83
+   "n": 84
   },
   "news_seen": [
+   "US import prices rise more than expected in October - StreetInsider",
+   "SLAYER's KERRY KING announces new solo album with raging song \"My War\" - Revolver Magazine",
+   "The Kerch Bridge is crucial to Russia\u2019s war effort and for asserting Moscow\u2019s control of Crimea - Durango Herald",
+   "Settler leaders denounce UK sanctions, call measures \u2018antisemitic\u2019 - The Times of Israel",
+   "US picks Anduril to build containerized missile launcher for air defense - Interesting Engineering",
+   "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts - Morgan Lewis",
+   "Gold Price Forecast: $3,850 Support at Risk as Real Yields Bite - FXEmpire",
+   "Tuesday, November 17. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes",
+   "After October 7 & Iranian missile strike, Soroka unveils expanded emergency department - Israel National News",
+   "UK sanctions Israeli companies building West Bank settlements - Yahoo",
+   "Gold price prediction: Gold rate jumps but experts warn of major volatile phase for bullion, check silver - The Economic Times",
    "Iran: No UN inspectors allowed at nuclear sites until war with US is over - Baltimore Sun",
    "Academy Securities Appoints Rear Admiral Mike Studeman to Advisory Board and Geopolitical Intelligence Group - citybiz",
+   "Northrop Grumman to accelerate patriot missile motor manufacturing - Interesting Engineering",
    "Gold prices this afternoon (November 17): World gold prices reverse course and rise again. - Vietnam.vn",
    "Gold prices dip as U.S. retail sales meet expec... - Pluang",
    "The Fed rate may need to rise by 1 percentage point, Musalem says - TradingView",
@@ -29821,45 +29833,31 @@
    "Kevin Warsh: Chairman says Fed is contingency planning for AI bad actors, or growth - Fortune",
    "Silver Dips as Dollar Strengthens: Experts Predict Bounce - Investing News Network",
    "Hungary voices concern over Russian strikes on western Ukraine as opposition slams government\u2019s \u2018war policy\u2019 - Anadolu Ajans\u0131",
+   "Dollar steadies after five-day rally, NZ dollar at lowest since 2020 - The Lufkin Daily News",
    "Bahrain thwarts drone attack; Iran claims targeting US radar - Al Jazeera",
+   "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing - CNBC",
+   "Goldman Sachs Predicts Gold Price Will Reach $5,600 by 2028 - Coinpedia",
    "Russian War Bloggers Spot NATO Spy Planes Before Crimean Bridge Collapse - UNITED24 Media",
+   "Dollar Pauses After Five-Day Surge as Kiwi Sinks to Six-Year Low - BigGo Finance",
    "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months - CNBC",
    "China gold market update: Robust demand in October | Post by Ray Jia | Insights - World Gold Council",
    "\u2018Unprecedented\u2019 Ukraine attack on Crimean bridge - Al Jazeera",
    "Euro: Downtrend eyes lower supports against US Dollar \u2013 Societe Generale - FXStreet",
    "Gold price drops to $3,848/oz after September retail sales rise 0.2%, core rises 0.6% - Kitco",
    "Gold price sinks to Rs 1.38 lakh/10gm; silver plunges to one-year low - MillenniumPost",
+   "Pope says he hopes for less war after US midterm elections - Plataforma Media",
    "St. Louis Fed's Musalem calls for interest rate hikes 'soon' - AOL.com",
    "Gold Price Today on November 17, 2026 - USA Today",
    "Gold struggles near $3,850 as traders bet on back-to-back Fed rate hikes - FXStreet",
    "Gold price at the close of the session on November 17: Simultaneously rebounding after a series of price slippage days - Laodong.vn",
    "Why Gold Loses Appeal When Fed Rate Hikes Lift Treasury Yields - StoneX",
+   "Iran War: Trump Holds Fire as Israel Weighs New Strikes | Jerusalem Dateline, 11 - cbn.com",
    "Iranians fear more civilian infrastructure could be targeted in new US war - Al Jazeera",
    "These Ukrainians Aren\u2019t in Combat. But They Deal With War Every Day. - The New York Times",
-   "Europe\u2019s RUTA Missiles Hit Crimean Bridge Seven Times, Bringing Down Span, Manufacturer Says - UNITED24 Media",
-   "Global gold prices plummeted, prompting Shanghai residents to queue up to buy gold. - Vietnam.vn",
-   "US dollar rally erases \u2018liberation day\u2019 losses as rate expectations rise - Financial Times",
-   "UK sanctions eight Israeli settlement companies, Tzav 9 over West Bank violence, Gaza aid blockade - The Jerusalem Post",
-   "A war over football: The absurd true story of the 1902 Palmetto Bowl - thetigercu.com",
-   "SALUTE TO VETERANS | Gresham veteran had top-secret clearance during Vietnam War - Gresham Outlook",
-   "US dollar steady after five-day rally as kiwi drops to six-year low - The Business Times",
-   "Iran War Day 263: Vance Says Trump Won\u2019t Let Iran Become \u2018Forever War\u2019 - The American Conservative",
-   "Speed camera fault may have allowed drivers to escape fines",
-   "Gold Prices Stabilize - \u0648\u0643\u0627\u0644\u0629 \u0633\u0628\u0623",
-   "E-News | Classroom discussion leads to award-winning Civil War memoir - West Virginia University",
-   "Oakley fire threatens building storing lawn equipment, Civil War artifacts - Cincinnati Enquirer",
-   "Garza: A Blue Wave, Geopolitical Tides, and a North American Anchor - Rio Grande Guardian",
-   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-   "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - BBC",
-   "Those sanctions we\u2019ve been hearing about? They\u2019re a much bigger deal than you think. - Israel from the Inside with Daniel Gordis",
-   "How Was the Cold War Won? - Yahoo",
-   "How Union prisoners executed the biggest jailbreak of the Civil War - We Are The Mighty",
-   "St. Louis Fed president says several rate hikes are likely to be needed before spring - Quartz"
+   "Europe\u2019s RUTA Missiles Hit Crimean Bridge Seven Times, Bringing Down Span, Manufacturer Says - UNITED24 Media"
   ]
  },
  "log": [
-  "15.11 21:15 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 21:18 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:21 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:24 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 21:27 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 16:48 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 16:48 N  NEWS (9 new) score -0.50 conf 0.60: Fed yetkililerinden (Musalem, St. Louis) art arda faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131lar\u0131 ve y\u00fckselen faiz beklentileri, dolar\u0131n toparlanmas\u0131 ve ger\u00e7ek faizlerin y\u00fckselmesi alt\u0131n i\u00e7in net olarak bask\u0131lay\u0131c\u0131. K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 ve \u0130ran sava\u015f\u0131 gibi jeopolitik geli\u015fmeler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, bu etkiyi dolar ve faiz kanal\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde dengeliyor; ayr\u0131ca baz\u0131 haberler zaten fiyatlanm\u0131\u015f durumda.",
   "17.11 17:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 17:00 N  NEWS (15 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem) art arda faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131, g\u00fc\u00e7l\u00fc ABD perakende sat\u0131\u015flar\u0131 ve dolardaki y\u00fckseli\u015f alt\u0131n \u00fczerinde net bask\u0131 yarat\u0131yor; alt\u0131n 3.848 dolara geriledi. \u0130ran ve Ukrayna-K\u0131r\u0131m geli\u015fmeleri g\u00fcvenli liman talebi yaratabilir ancak fiyat tepkisi zay\u0131f kald\u0131\u011f\u0131 i\u00e7in etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor."
+  "17.11 17:00 N  NEWS (15 new) score -0.60 conf 0.70: Fed yetkililerinin (Musalem) art arda faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131, g\u00fc\u00e7l\u00fc ABD perakende sat\u0131\u015flar\u0131 ve dolardaki y\u00fckseli\u015f alt\u0131n \u00fczerinde net bask\u0131 yarat\u0131yor; alt\u0131n 3.848 dolara geriledi. \u0130ran ve Ukrayna-K\u0131r\u0131m geli\u015fmeleri g\u00fcvenli liman talebi yaratabilir ancak fiyat tepkisi zay\u0131f kald\u0131\u011f\u0131 i\u00e7in etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor.",
+  "17.11 17:12 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 17:12 N  NEWS (18 new) score -0.45 conf 0.60: Fed yetkililerinin s\u0131k\u0131la\u015ft\u0131rma \u00e7a\u011fr\u0131lar\u0131 (Musalem: \"4 faiz art\u0131r\u0131m\u0131 gerekebilir\"), reel getirilerin y\u00fckselmesi ve dolardaki toparlanma alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; ABD ithalat fiyatlar\u0131n\u0131n beklentiden fazla artmas\u0131 da enflasyon kayg\u0131s\u0131n\u0131 besleyerek faiz art\u0131\u015f\u0131 beklentisini destekliyor. Ker\u00e7 K\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131, \u0130ran-ABD gerilimi ve Bahreyn'deki \u0130HA sald\u0131r\u0131s\u0131 jeopolitik risk primi sa\u011flasa da, piyasan\u0131n bu haberlere g\u00fc\u00e7l\u00fc bir g\u00fcvenli liman tepkisi vermemesi ve alt\u0131n\u0131n $3,850 civar\u0131nda zay\u0131f seyretmesi etkiyi s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    4963.78
-   ],
-   [
     1794328531,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794924584,
+    4963.78
+   ],
+   [
+    1794924772,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    4975.18
-   ],
-   [
     1794328531,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794924584,
+    4975.18
+   ],
+   [
+    1794924772,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    4993.28
-   ],
-   [
     1794328531,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794924584,
+    4993.28
+   ],
+   [
+    1794924772,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794328494,
-    4969.22
-   ],
-   [
     1794328531,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794924584,
+    4969.22
+   ],
+   [
+    1794924772,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794328494,
-    4610.16
-   ],
    [
     1794328531,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794924584,
     4545.26
+   ],
+   [
+    1794924772,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794328494,
-    111676.47
-   ],
    [
     1794328531,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794924584,
     114145.15
+   ],
+   [
+    1794924772,
+    114145.15
    ]
   ],
   "open": {},
@@ -106353,10 +106353,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794328494,
-    4876.96
-   ],
    [
     1794328531,
     4876.96
@@ -118351,6 +118347,10 @@
    ],
    [
     1794924584,
+    4876.96
+   ],
+   [
+    1794924772,
     4876.96
    ]
   ],
