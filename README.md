@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 07:56 (İstanbul)
+> Son güncelleme: 17.11.2026 08:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -48,9 +48,7 @@ Son işlemler:
 
 **Hesap değeri: 4,876.96 $** (başlangıç 5,000 $, -123.04 $ / %-2.46)
 
-Son haber analizi (12.11 07:59): Claude puan **-0.15**, güven 0.40 — Başlıklar karışık: ABD-İran barış görüşmesi umutları, Brent'in 92 doların altına inmesi ve Suudi üretim artışı fiyatı aşağı çekiyor, ancak Hormuz'da mayına çarpan tanker, İran'ın misilleme tehditleri ve barış görüşmelerinin tıkanması ciddi bir yukarı risk oluşturuyor. Bu çelişkiler ve bazı haberlerin eski veya zaten fiyatlanmış olması nedeniyle yön sinyali zayıf ve güven düşük.
-
-GPT (gpt-6-luna): puan **-0.35**, güven 0.56 — Barış görüşmesi umutları, Suudi üretimindeki artış ve OPEC+ ihracatının savaş öncesi seviyelere yaklaşması yakın vadede arz endişelerini azaltıp Brent üzerinde baskı kuruyor. Hürmüz’deki mayın/tanker haberleri ve İran’ın misilleme tehdidi düşüşü sınırlıyor; haber akışının bir kısmı doğrulanmamış vey
+Son haber analizi (17.11 08:00): Claude puan **-0.30**, güven 0.50 — Hormuz'daki tanker saldırıları ve mayın isabeti arz riskini artırıp fiyatı destekliyor, ancak piyasa bunu görmezden gelip Goldman'ın 2027'ye kadar büyük arz fazlası öngörüsü, Hormuz sevkiyatlarının iyileşmesi ve dolar güçlenmesi nedeniyle Brent'i 92 doların altına çekti. Haber akışı net olarak fiyatı aşağı çekiyor, ancak jeopolitik risk yüksek olduğundan güven orta düzeyde.
 
 Son işlemler:
 
@@ -85,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 06:28 N  NEWS (44 new) score -0.70 conf 0.75: Dolar 19 aylık zirvesine yakın güçlü seyrediyor ve piyasa Fed faiz artırımı beklentisini fiyatlıyor; bu, altın için yüksek reel faiz ve güçlü dolar nedeniyle baskı yaratıyor. Altın yıllık en düşük seviyelere geriledi; İran savaşı ve Hürmüz'deki tanker saldırıları güvenli liman talebini destekliyor ancak bu etki dolar ve faiz baskısının gerisinde kalıyor.
-17.11 06:40 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 06:40 N  NEWS (17 new) score -0.50 conf 0.60: Dolar endeksi 19 aylık zirvede ve Fed faiz artırımı beklentileri güçleniyor; bu, reel faiz ve dolar kanalıyla altın için net baskı anlamına geliyor. Ukrayna, Hürmüz ve İran savaşına dair jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak altının 52 haftalık dibe yakın seyretmesi bu riskin şimdilik fiyatlanmadığını gösteriyor.
 17.11 06:52 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 06:52 N  NEWS (20 new) score -0.60 conf 0.70: Altın yıllık en düşük seviyesine geriledi; Fed faiz artırımı beklentileri ve 19 aylık zirveden biraz geri çekilen ama yükselişini koruyan dolar altını baskılıyor. İran savaşı ve Ukrayna'daki gerilim güvenli liman talebini destekleyemiyor, Çin alımları ise sınırlı bir destek sağlıyor.
@@ -100,6 +96,8 @@ Son işlemler:
 17.11 07:41 N  NEWS (43 new) score -0.70 conf 0.70: Altın, güçlenen dolar (19 aylık zirve) ve Fed faiz artırımı beklentileri nedeniyle yıllık en düşük seviyeye yakın ($3.850) işlem görüyor; jeopolitik risk kaynaklı güvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukarı yönlü hareketin Fed ve dolar baskısıyla sınırlı kalacağı belirtiliyor; haberlerin çoğu tekrar niteliğinde olduğundan güven orta-yüksek.
 17.11 07:53 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 07:53 N  NEWS (44 new) score -0.40 conf 0.60: Dolar endeksi 19 aylık zirveye yakın seyrediyor ve Fed'in faiz artırma beklentileri güçleniyor; bu, reel faiz ve dolar kanalıyla altın üzerinde baskı yaratıyor. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak haberler bu etkiyi sınırlı gösteriyor ve altının YTD dibinden toparlanması kazançları sınırlayan faktör olarak Fed/USD'yi işaret ediyor.
+17.11 08:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 08:00 B5P  NEWS (45 new) score -0.30 conf 0.50: Hormuz'daki tanker saldırıları ve mayın isabeti arz riskini artırıp fiyatı destekliyor, ancak piyasa bunu görmezden gelip Goldman'ın 2027'ye kadar büyük arz fazlası öngörüsü, Hormuz sevkiyatlarının iyileşmesi ve dolar güçlenmesi nedeniyle Brent'i 92 doların altına çekti. Haber akışı net olarak fiyatı aşağı çekiyor, ancak jeopolitik risk yüksek olduğundan güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

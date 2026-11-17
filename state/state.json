@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    5000.0
-   ],
-   [
     1794295488,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794891412,
+    5000.0
+   ],
+   [
+    1794891600,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    4868.5
-   ],
-   [
     1794295488,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794891412,
+    4868.5
+   ],
+   [
+    1794891600,
     4868.5
    ]
   ],
@@ -29858,8 +29858,6 @@
   ]
  },
  "log": [
-  "15.11 16:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 16:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 07:41 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 07:41 N  NEWS (43 new) score -0.70 conf 0.70: Alt\u0131n, g\u00fc\u00e7lenen dolar (19 ayl\u0131k zirve) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n ($3.850) i\u015flem g\u00f6r\u00fcyor; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukar\u0131 y\u00f6nl\u00fc hareketin Fed ve dolar bask\u0131s\u0131yla s\u0131n\u0131rl\u0131 kalaca\u011f\u0131 belirtiliyor; haberlerin \u00e7o\u011fu tekrar niteli\u011finde oldu\u011fundan g\u00fcven orta-y\u00fcksek.",
   "17.11 07:53 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 07:53 N  NEWS (44 new) score -0.40 conf 0.60: Dolar endeksi 19 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed'in faiz art\u0131rma beklentileri g\u00fc\u00e7leniyor; bu, reel faiz ve dolar kanal\u0131yla alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekleyebilir, ancak haberler bu etkiyi s\u0131n\u0131rl\u0131 g\u00f6steriyor ve alt\u0131n\u0131n YTD dibinden toparlanmas\u0131 kazan\u00e7lar\u0131 s\u0131n\u0131rlayan fakt\u00f6r olarak Fed/USD'yi i\u015faret ediyor."
+  "17.11 07:53 N  NEWS (44 new) score -0.40 conf 0.60: Dolar endeksi 19 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed'in faiz art\u0131rma beklentileri g\u00fc\u00e7leniyor; bu, reel faiz ve dolar kanal\u0131yla alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebini destekleyebilir, ancak haberler bu etkiyi s\u0131n\u0131rl\u0131 g\u00f6steriyor ve alt\u0131n\u0131n YTD dibinden toparlanmas\u0131 kazan\u00e7lar\u0131 s\u0131n\u0131rlayan fakt\u00f6r olarak Fed/USD'yi i\u015faret ediyor.",
+  "17.11 08:00 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 08:00 B5P  NEWS (45 new) score -0.30 conf 0.50: Hormuz'daki tanker sald\u0131r\u0131lar\u0131 ve may\u0131n isabeti arz riskini art\u0131r\u0131p fiyat\u0131 destekliyor, ancak piyasa bunu g\u00f6rmezden gelip Goldman'\u0131n 2027'ye kadar b\u00fcy\u00fck arz fazlas\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Hormuz sevkiyatlar\u0131n\u0131n iyile\u015fmesi ve dolar g\u00fc\u00e7lenmesi nedeniyle Brent'i 92 dolar\u0131n alt\u0131na \u00e7ekti. Haber ak\u0131\u015f\u0131 net olarak fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor, ancak jeopolitik risk y\u00fcksek oldu\u011fundan g\u00fcven orta d\u00fczeyde."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    4963.78
-   ],
-   [
     1794295488,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794891412,
+    4963.78
+   ],
+   [
+    1794891600,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    4975.18
-   ],
-   [
     1794295488,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794891412,
+    4975.18
+   ],
+   [
+    1794891600,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    4993.28
-   ],
-   [
     1794295488,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794891412,
+    4993.28
+   ],
+   [
+    1794891600,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794295308,
-    4969.22
-   ],
-   [
     1794295488,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794891412,
+    4969.22
+   ],
+   [
+    1794891600,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794295308,
-    4316.47
-   ],
    [
     1794295488,
     4326.89
@@ -93138,6 +93134,10 @@
    [
     1794891412,
     4545.26
+   ],
+   [
+    1794891600,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794295308,
-    111691.09
-   ],
    [
     1794295488,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794891412,
     114145.15
+   ],
+   [
+    1794891600,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794295308,
-    4876.96
-   ],
    [
     1794295488,
     4876.96
@@ -118404,77 +118400,71 @@
    [
     1794891412,
     4876.96
+   ],
+   [
+    1794891600,
+    4876.96
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.4,
-   "reason": "Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmesi umutlar\u0131, Brent'in 92 dolar\u0131n alt\u0131na inmesi ve Suudi \u00fcretim art\u0131\u015f\u0131 fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor, ancak Hormuz'da may\u0131na \u00e7arpan tanker, \u0130ran'\u0131n misilleme tehditleri ve bar\u0131\u015f g\u00f6r\u00fc\u015fmelerinin t\u0131kanmas\u0131 ciddi bir yukar\u0131 risk olu\u015fturuyor. Bu \u00e7eli\u015fkiler ve baz\u0131 haberlerin eski veya zaten fiyatlanm\u0131\u015f olmas\u0131 nedeniyle y\u00f6n sinyali zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.3,
+   "confidence": 0.5,
+   "reason": "Hormuz'daki tanker sald\u0131r\u0131lar\u0131 ve may\u0131n isabeti arz riskini art\u0131r\u0131p fiyat\u0131 destekliyor, ancak piyasa bunu g\u00f6rmezden gelip Goldman'\u0131n 2027'ye kadar b\u00fcy\u00fck arz fazlas\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Hormuz sevkiyatlar\u0131n\u0131n iyile\u015fmesi ve dolar g\u00fc\u00e7lenmesi nedeniyle Brent'i 92 dolar\u0131n alt\u0131na \u00e7ekti. Haber ak\u0131\u015f\u0131 net olarak fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor, ancak jeopolitik risk y\u00fcksek oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
    "n": 45,
-   "gpt": {
-    "score": -0.35,
-    "confidence": 0.56,
-    "reason": "Bar\u0131\u015f g\u00f6r\u00fc\u015fmesi umutlar\u0131, Suudi \u00fcretimindeki art\u0131\u015f ve OPEC+ ihracat\u0131n\u0131n sava\u015f \u00f6ncesi seviyelere yakla\u015fmas\u0131 yak\u0131n vadede arz endi\u015felerini azalt\u0131p Brent \u00fczerinde bask\u0131 kuruyor. H\u00fcrm\u00fcz\u2019deki may\u0131n/tanker haberleri ve \u0130ran\u2019\u0131n misilleme tehdidi d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131n\u0131n bir k\u0131sm\u0131 do\u011frulanmam\u0131\u015f vey",
-    "key_events": [
-     "Suudi \u00fcretimi art\u0131yor; OPEC+ ihracat\u0131 sava\u015f \u00f6ncesi seviyelere yakla\u015f\u0131yor",
-     "ABD-\u0130ran bar\u0131\u015f g\u00f6r\u00fc\u015fmesi umutlar\u0131 fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor",
-     "H\u00fcrm\u00fcz\u2019de tanker ve misilleme riski d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rl\u0131yor"
-    ],
-    "model": "gpt-6-luna"
-   },
-   "ts": 1794459588708,
+   "gpt": null,
+   "ts": 1794891600098,
    "new_headlines": 45
   },
   "news_calls": {
    "date": "2026-11-17",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "Crude oil from northern Iraq smuggled to Iran, Afghanistan - IraqiNews",
-   "Global OPEC+ oil exports close to prewar levels amid ongoing incidents in Strait of Hormuz - Rudaw",
-   "ASEAN to launch joint oil product stockpiling scheme as early as 2027, Nikkei reports - Reuters",
-   "Indian shares extend gains as lower crude oil, foreign inflows boost sentiment - www.marketscreener.com",
-   "\u2018I'm 28, but I look 40\u2019: How war has changed the faces of Gaza - The National",
-   "Kazakhstan\u2013China Pipeline: oil transportation volumes increase over the first 10 months of 2026 - www.marketscreener.com",
-   "Hassi Messaoud refinery set for 2027 - Oil & Gas Middle East",
-   "Exclusive | Adnoc Gas Still Evaluating Options to Bypass Strait of Hormuz - WSJ",
-   "Central PA veterans share thoughts on Iran war, state of America - WHP Harrisburg",
-   "Brent down 21% as Saudi output jumps - Oil & Gas Middle East",
-   "Crude oil price slips on US-Iran peace talk hopes; Brent dips below $92, WTI under $86 - Moneycontrol.com",
-   "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
-   "World War II veteran surprised with 99 letters from local elementary - ABC4 Utah",
-   "Oil Price Forecast: WTI Falls Below $87 as Supply Fears Ease - FXEmpire",
-   "Iran Unveils Underground \u2018Missile City\u2019 as Military Chief Warns of Retaliation Beyond Middle East - The SOFX Report",
-   "Here are the \u201826 All-MLB First and Second Teams - MLB.com",
-   "Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
-   "Midstream oil and gas in the Middle East: the pipelines, gas plants and LNG terminals behind the new awards track - Oil & Gas Middle East",
-   "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-   "Group works to uncover lost Civil War graves in Manassas - FOX 5 DC",
-   "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
-   "Strait of Hormuz crisis: Iran says key oil route will never return to pre-war status as US peace talks stall - Open Magazine",
-   "Family dedicates first headstone for William Barklage, killed in Civil War clash in Warren County - KMOV",
-   "Family dedicates first headstone for man killed in Civil War clash in Warren County - KMOV",
-   "Wildlife trade regulator CITES lifts sanctions against Laos, prompting conservation concerns - news - Mongabay",
-   "How war has connected the world for 500 years - Phys.org",
-   "War of words between Michigan Wolverines-Oregon Ducks heats up as Dan Lanning responds to criticisms - Fox News",
-   "2027: A Major Shift in Crude Oil and Gold Markets \u2013 A Comprehensive Analysis of ING\u2019s Five Scenarios, Where Opportunities and Pitfalls Coexist - Moomoo",
-   "Vandalized World War I tribute in Kansas City\u2019s historic northeast restored - FOX4KC.com",
-   "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump and Xi\u2019s Diplomacy - The New York Times",
-   "'US Ship' Falls Prey To Iran; Tanker Erupts In Flames After Striking Mines In Hormuz - The Times of India",
-   "Group works to find the remains of Civil War soldiers in Manassas - FOX 5 DC",
-   "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems - The Guardian",
-   "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-   "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Gains Ground As Iran Wants To Keep Nuclear Material Inside The Country - FXEmpire",
-   "How the fog of war puts journalism in the frame - The Conversation",
-   "FILE PHOTO: A Chinese-flagged tanker is seen moored at an oil terminal in Tsing Yi port - The Daily News | Texas' Oldest Newspaper",
-   "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-   "Community expresses gratitude for 104-year-old World War II veteran, others at annual ceremony - WPXI",
-   "Oil Retreats as Iran and Ukraine Peace Hopes Weigh on Crude; Brent Slips to $91.62 - BigGo Finance",
-   "Tulsa roofing company gives World War II veteran a free new roof on Veterans Day - KTUL",
-   "What a wind-down of the War in Iran could look like - FOX 2 Detroit",
-   "Eisenkot says Israel should not return to war for now - The National",
-   "Trump thanks US troops for war on Iran and defends Pete Hegseth - Middle East Eye",
-   "'Remember the cost of war': Rio Grande City family keeps memory of fallen WWII brothers alive - KRGV"
+   "UMass alum returns to talk law, war and diplomacy - Massachusetts Daily Collegian",
+   "Ukraine-Russia war latest: Power cuts in Kyiv as vital bridges struck in massive Russian ballistic missile attack - Yahoo News New Zealand",
+   "UKMTO Reports Attack on Tanker in Strait of Hormuz - WANA News Agency",
+   "Oil tanker burns in Strait of Hormuz after hitting mine - Mehr News Agency",
+   "Goldman Sachs: Global Oil Market Faces Large Surplus by 2027 - IDNFinancials",
+   "The Latest: Trump says he plans to talk about war in Ukraine during meeting with Xi and Putin - Dallas News",
+   "Decatur City Council approves natural gas pipeline underneath Lake Decatur - wandtv.com",
+   "Oil prices fall as supply surplus outlook outweighs tanker attack concerns - Business Standard",
+   "Vance: We Will Not Let The War Become A \u2018Forever War\u2019 - Kurdistan24",
+   "Crude oil futures fall as Hormuz shipments improve in Q3 2026 - BusinessLine",
+   "Iran Update, November 16, 2026 - Institute for the Study of War",
+   "Crude Oil Prices Fall on Global Supply Surplus Outlook - HDFC Sky",
+   "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
+   "\u2018Give Every American Family a $1700 Check\u2019: Ro Khanna Says Compensate American Families for Iran War - Benzinga",
+   "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News",
+   "Iraqi parliamentary inquiry uncovers evidence of oil smuggling in Jurf al-Sakhar - Anadolu Ajans\u0131",
+   "How Trump and Xi Moved From Tariff War to Trade Truce (Timeline) - Global Banking & Finance Review",
+   "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report",
+   "Brent Bolte steps down as Bemidji State head coach; Jordan Hein named successor - Bemidji Pioneer",
+   "ExxonMobil sanctions Longtail gas, condensate development offshore Guyana - Offshore Magazine",
+   "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
+   "Oil Price Forecast: Brent and WTI Slide on Supply Surplus Outlook - FXEmpire",
+   "Transcript: Finland\u2019s President Stubb on Europe\u2019s Geopolitical Future and Enlargement - The Singju Post",
+   "Russian Offensive Campaign Assessment, November 16, 2026 - Institute for the Study of War",
+   "Ukraine Hits Kerch Bridge in its Biggest Drone Attack of the War - The SOFX Report",
+   "Brent Falls To US$92 Despite Continued Tanker Attacks In Strait Of Hormuz - BusinessToday Malaysia",
+   "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field - Al Jazeera",
+   "Ro Khanna Wants $1,700 Checks for Families Hit by Iran War Costs - Around Prague",
+   "OPEC Officials Meet to Assess Oil Production Capacity - 8AM Media",
+   "Zelensky warns Russia is preparing a new missile strike on Ukraine - Around Prague",
+   "Decatur City Council approves natural gas pipeline underneath Lake Decatur - WAND",
+   "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ",
+   "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges - The Guardian",
+   "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
+   "Nasdaq slides 2.5% | Nvidia to report earnings today | Brent oil falls 3.5% on rising supply - Moneycontrol.com",
+   "Vance says there\u2019s \u2018no daylight\u2019 between him and Trump on the war in Iran - NBC News",
+   "Ro Khanna pitches $1,700 checks for Americans to offset Iran war costs: 'A chance to deliver' - Fox News",
+   "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
+   "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629",
+   "JD Vance: Iran will not be a forever war - The Times",
+   "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Dives As Supply Exceeds Demand - FXEmpire",
+   "Manzanar War Relocation Center honors Japanese-Americans - CBS News",
+   "Trump\u2019s Advisers Are at War Over China Ahead of Xi Summit - WSJ",
+   "\u2018PEACE + WAR\u2019 Album Review: No White Flags in Sight - The Harvard Crimson",
+   "Tom Burman: CSU's 'Scheduling Goals' Axe 2027 Border War - 7220 Sports"
   ],
   "news_history": [
    {
@@ -118584,6 +118574,15 @@
     "new": 45,
     "gpt_score": -0.35,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1794891600098,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Hormuz'daki tanker sald\u0131r\u0131lar\u0131 ve may\u0131n isabeti arz riskini art\u0131r\u0131p fiyat\u0131 destekliyor, ancak piyasa bunu g\u00f6rmezden gelip Goldman'\u0131n 2027'ye kadar b\u00fcy\u00fck arz fazlas\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Hormuz sevkiyatlar\u0131n\u0131n iyile\u015fmesi ve dolar g\u00fc\u00e7lenmesi nedeniyle Brent'i 92 dolar\u0131n alt\u0131na \u00e7ekti. Haber ak\u0131\u015f\u0131 net olarak fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor, ancak jeopolitik risk y\u00fcksek oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
+    "new": 45,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ]
  }
