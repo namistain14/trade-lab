@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 21:16 (İstanbul)
+> Son güncelleme: 17.11.2026 21:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1342.67 $ |
 
-**Hesap değeri: 4,504.62 $** (başlangıç 5,000 $, -495.38 $ / %-9.91)
+**Hesap değeri: 4,498.99 $** (başlangıç 5,000 $, -501.01 $ / %-10.02)
 
 Açık pozisyonlar: PAXGUSDT long @ 3857.75 (TP 3869.32 / SL 3850.04)
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,806.95 $** (başlangıç 100,000 $, +12806.95 $ / %+12.81)
+**Hesap değeri: 113,323.30 $** (başlangıç 100,000 $, +13323.30 $ / %+13.32)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:22 N  GPT  score +0.30 conf 0.46: Kırım Köprüsü’ne yönelik saldırı ve ABD’nin İran kaynaklı olası tehditleri ciddiye aldığını söylemesi kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar yönüne dair yeni bir sinyal yok; bu nedenle yükseliş etkisinin sınırlı kalma
 17.11 20:30 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son bir saatte teknoloji öncülüğünde tepki yükselişi var; seçici long pozisyonlar mantıklı.» / GPT «Günlük kayıplara rağmen saatlik toparlanma alım yönünde ılımlı avantaj sağlıyor; ancak 1:4 kaldıraçta aynı yöne korelasyonlu pozisyonların toplam riski sınırlanmalı.»
 17.11 20:30 B6  ALIŞ QQQ 173 adet ≈ 113,497 $ (1:4) @ 656.05 (TP 665.89, SL 649.49; ikisi de hemfikir, güven 0.55)
 17.11 20:30 B6  ALIŞ NVDA 739 adet ≈ 114,131 $ (1:4) @ 154.44 (TP 156.76, SL 152.9; ikisi de hemfikir, güven 0.55)
@@ -104,6 +103,7 @@ Son işlemler:
 17.11 21:08 N  NEWS (7 new) score -0.40 conf 0.55: Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
 17.11 21:08 N  GPT  score -0.25 conf 0.48: Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
 17.11 21:08 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside ve son bir saatte dengelenmiş durumda; belirgin bir katalizör olmadan kapanışa kadar yatay ile hafif tepki alımları bekleniyor.» / GPT «Endekslerde günlük satışın ardından dar bantta dengelenme görülüyor; 1:4 kaldıraçla mevcut fiyatlardan yön kovalamak yerine yeni bir kırılma beklemek daha disiplinli.»
+17.11 21:20 B6  karar turu: Claude «Piyasa genel olarak satış baskısı altında; düşük momentumla aşağı eğilimli yatay bir seyir izliyor.» / GPT «Endekslerde aşağı eğilim sürüyor; taze şirket haberi bulunmadığından mevcut pozisyonlara ek piyasa riski sınırlı tutulmalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
