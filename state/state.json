@@ -6,7 +6,7 @@
    "positions": [],
    "trades": [],
    "day": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -14,10 +14,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794352811,
-    5000.0
-   ],
    [
     1794352990,
     5000.0
@@ -12012,6 +12008,10 @@
    ],
    [
     1794949099,
+    5000.0
+   ],
+   [
+    1794949290,
     5000.0
    ]
   ],
@@ -13865,12 +13865,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1794942000000,
-   "ETHUSDT": 1794942000000,
-   "SOLUSDT": 1794942000000,
-   "BNBUSDT": 1794942000000,
-   "XRPUSDT": 1794942000000,
-   "DOGEUSDT": 1794942000000
+   "BTCUSDT": 1794945600000,
+   "ETHUSDT": 1794945600000,
+   "SOLUSDT": 1794945600000,
+   "BNBUSDT": 1794945600000,
+   "XRPUSDT": 1794945600000,
+   "DOGEUSDT": 1794945600000
   }
  },
  "gold_news": {
@@ -15086,10 +15086,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794352811,
-    4868.5
-   ],
    [
     1794352990,
     4868.5
@@ -27085,28 +27081,32 @@
    [
     1794949099,
     4868.5
+   ],
+   [
+    1794949290,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.55,
-   "reason": "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcrken dolar ve tahvil getirileri y\u00fckseliyor ve faiz art\u0131r\u0131m\u0131 beklentileri fiyatlamaya devam ediyor; bu, k\u0131sa vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir tablo. \u0130ran ve Ukrayna'daki sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zay\u0131f kald\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "\u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekleyerek alt\u0131 hafif yukar\u0131 \u00e7ekebilir, ancak \u0130ran sava\u015f\u0131 zaten uzun s\u00fcredir fiyatlanm\u0131\u015f durumda. Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1794938882620,
-   "new_headlines": 7,
+   "ts": 1794949289727,
+   "new_headlines": 45,
    "key_events": [
     "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesinden toparlanam\u0131yor; dolar ve tahvil getirileri y\u00fckseliyor (Kitco)",
     "Faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor (FXEmpire)",
     "\u0130ran sava\u015f\u0131 ve Ukrayna-Rusya gerilimi g\u00fcvenli liman talebini destekliyor ancak fiyatlara yans\u0131m\u0131yor"
    ],
    "gpt": {
-    "score": -0.25,
-    "confidence": 0.48,
-    "reason": "Alt\u0131n, y\u00fckselen dolar ve tahvil getirileri ile faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bask\u0131 alt\u0131nda; Meksika Merkez Bankas\u0131 yetkilisinin enflasyon riskleri vurgusu da hafif\u00e7e olumsuz. \u0130ran ve Ukrayna ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak yeni ve ani bir t\u0131rman\u0131\u015f g\u00f6stermedikleri i\u00e7in",
+    "score": 0.35,
+    "confidence": 0.58,
+    "reason": "\u0130ran\u2019daki f\u00fcze sahas\u0131na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 b\u00f6lgesel gerilim ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak Fed\u2019den gelen temkinli-\u015fahin mesajlar ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; yinelenen haberler ek etkiyi belirsiz k\u0131l\u0131yor.",
     "key_events": [
-     "Alt\u0131n bir y\u0131l\u0131n d\u00fc\u015f\u00fck seviyelerine yak\u0131n; dolar ve getiriler y\u00fckseliyor",
-     "Meksika Merkez Bankas\u0131 yetkilisi enflasyon risklerine dikkat \u00e7ekti",
-     "\u0130ran ve Ukrayna gerilimi s\u00fcr\u00fcyor, fakat yeni bir ani t\u0131rman\u0131\u015f yok"
+     "ABD\u2019nin Qe\u015fm Adas\u0131\u2019ndaki \u0130ran f\u00fcze sahas\u0131na sald\u0131r\u0131s\u0131",
+     "Fed Williams: s\u0131k\u0131 politika tercihi s\u00fcr\u00fcyor, ancak dramatik ad\u0131m gerekmiyor",
+     "Dolar\u0131n son kazan\u0131mlar\u0131n\u0131 korumas\u0131"
     ],
     "model": "gpt-6-luna"
    },
@@ -27114,15 +27114,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794435688482,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Yeni ba\u015fl\u0131klar g\u00fc\u00e7l\u00fc dolar ve Aral\u0131k Fed faiz art\u0131r\u0131m\u0131 beklentilerinin y\u00fckselmesini, alt\u0131n\u0131n 4.000 dolar\u0131n alt\u0131na inmesini \u00f6ne \u00e7\u0131kar\u0131yor; bu, k\u0131sa vadede alt\u0131n i\u00e7in net bir bask\u0131 sinyali. Iran sava\u015f\u0131yla ilgili haberlerin \u00e7o\u011fu eski ve zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcvenli liman talebi etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
-    "new": 5,
-    "gpt_score": -0.78,
-    "gpt_confidence": 0.77
-   },
    {
     "ts": 1794436408494,
     "score": -0.6,
@@ -29813,63 +29804,70 @@
     "new": 7,
     "gpt_score": -0.25,
     "gpt_confidence": 0.48
+   },
+   {
+    "ts": 1794949289727,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "\u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekleyerek alt\u0131 hafif yukar\u0131 \u00e7ekebilir, ancak \u0130ran sava\u015f\u0131 zaten uzun s\u00fcredir fiyatlanm\u0131\u015f durumda. Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 45,
+    "gpt_score": 0.35,
+    "gpt_confidence": 0.58
    }
   ],
   "news_calls": {
-   "date": "2026-11-17",
-   "n": 100
+   "date": "2026-11-18",
+   "n": 1
   },
   "news_seen": [
-   "U.S. Army Space and Missile Defense commander visits UAH - 256 Today",
-   "Iran\u2019s long game and America\u2019s short war - FDD's Long War Journal",
-   "Fed\u2019s first close look at AI buildout finds $3 trillion of commitments off Big Tech\u2019s balance sheets - Fortune",
-   "UK sanctions on Israel leave EU unmoved, despite \u2018man-made catastrophe\u2019 in Gaza - EUobserver",
-   "Sa'ar vows 'countermeasures' after UK announces sanctions on companies involved in West Bank construction - The Times of Israel",
-   "Fed governor Lisa Cook will skip White House tribunal on her firing - Axios",
-   "Australian Dollar Price Forecast: Bottoming out? - FXStreet",
-   "Mexico cenbank's Borja says length of rate pause unclear, flags inflation risks - Reuters",
-   "Rising housing costs are creating 'enormous pressure.' What are the challenges and solutions? - Federal Reserve Bank of Boston",
-   "Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss",
-   "Fed Gov. Lisa Cook balks at White House inquiry into her mortgages - Detroit Free Press",
-   "Russia\u2019s War Has Become an Escape Route for Political Assassins - Newsweek",
-   "U.S. identifies remains of 6 soldiers killed in Korean War, including 2 teens - CBS News",
-   "UK sanctions firms over Israeli West Bank settlements",
-   "How Crimea Bridge Attack Hampers Putin\u2019s Ukraine War Effort - Newsweek",
-   "Battleship North Carolina to honor 115 fallen World War II service members with holiday wreaths - WWAYTV3",
-   "Stephen Baldwin Reveals Sean Penn Blowup Resulting in 'Casualties of War' Firing - TV Insider",
-   "Trump says US taking 'very seriously' any Iranian plot against Washington",
-   "Why Is Royal Gold (NASDAQ:RGLD) Gaining Attention Amid Gold Surge? - Kalkine Media",
-   "Ukrainian President Volodymyr Zelensky Appeals to NATO For More Help in War Against Russia - C-SPAN",
-   "U.S. Dollar Pulls Back Amid Profit-Taking: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-   "OU sanctions Alpha Tau Omega fraternity following hazing investigation - KOKH",
-   "Gold struggles to rebound from one-year low as US dollar, yields advance - Kitco",
-   "Australian Dollar defies USD strength: What's keeping AUD/USD afloat? - FXStreet",
-   "Grains Rally as Fund Buy on Black Sea War, APEC Summit: Livestock Fall - AgWeb",
-   "Ramstein: Zelensky proposes swapping partners\u2019 Patriot and IRIS-T missile stockpiles for future deliveries - Ukrinform",
-   "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-   "War in Sudan Takes Toll on Marine Life - Earth Island Institute",
-   "The Iran War Has Slipped Into a Dangerous Limbo - The Atlantic",
-   "US loses measles elimination status after 26 years amid record case numbers",
-   "BAT Hit With 4th Claim Over North Korea Sanctions Breach - Law360",
-   "Global Gold Prices Fall to One-Year Low, Here Are the Causes and Future Outlook - Aktualita.co",
-   "Former New York Federal Reserve President Dud... - \u94fe\u6355\u624bChainCatcher",
-   "Saudi Arabia's executions surge amid regional conflict - DW.com",
-   "World War II and Korean War veteran celebrated 100th birthday in Redding - KRCR",
-   "Tech leaders tell Fed chairman Warsh how AI could transform the economy - Axios",
-   "Gold prices today, November 18, 2026, are struggling to hold the $3,850/ounce mark; domestic buyers and sellers face two risks, but demand remains 'resilient'. - Vietnam.vn",
-   "Gustavo de Ar\u00edstegui: Geopolitical analysis of 17 November - Atalayar",
-   "Military Special Pay Faces Year-End Deadline Amid War Operations - Legis1",
-   "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias - The Washington Post",
-   "USD/CAD Forecast: Canadian Dollar Remains Under Pressure After Inflation Data - StoneX",
-   "New Carrier Group Deployment Will Give U.S. More Options in War Against Iran - RANE Worldview",
-   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - BBC",
-   "Polk Middle eighth graders step into Revolutionary War history at Cowpens - The Tryon Daily Bulletin",
-   "Gold Weekly Forecast: Strong Dollar and Rate Hike Bets Add Pressure - FXEmpire"
+   "US strikes IRGC missile site on Iran\u2019s Qeshm Island, official tells JNS - JNS.org",
+   "AI could transform the economy, but the Fed is struggling to predict how - WSET",
+   "AI could transform the economy, but the Fed is struggling to predict how - KVII",
+   "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "Santa Barbara Man Among Americans In Russian Captivity As Ukraine War Rages - News Channel 3-12",
+   "Telluride Bluegrass Will Bring Together Caamp, Stephen Wilson Jr., The War on Drugs, Sam Bush Band, Del McCoury Band, The Womack Sister, Yonder Mountain String Band, Punch Brothers and More - Jambands.com",
+   "If we won the Iran war, why are we hiding? - Washington Times",
+   "Sa\u2019ar vows countermeasures over new British sanctions - JNS.org",
+   "The War on Drugs Wake Up a 97-Year-Old New Jersey Theater With Spellbinding, Two-Hour Set Featuring New Songs - Variety",
+   "Fact Check Team: Has the Iran war becoming a political liability for Trump? - 13WHAM-TV",
+   "Ro Khanna proposes $1,700 Iran war checks - The American Bazaar",
+   "US strikes Iran again despite Trump\u2019s promise to end war after midterms humiliation - The Independent",
+   "VA Proposes Ending Insurance Premiums for WWII, Korean War-Era Veterans - MOAA",
+   "US carries out self-defense strike on IRGC missile launch site on Qeshm Island - Fox News",
+   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+   "Kootenai County has been designated as a World War II Heritage City - Boise State Public Radio",
+   "Trump in Asia ahead of talks with Russian and Chinese presidents",
+   "Russian military plane crashes killing all 19 on board",
+   "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
+   "Man killed in Phoenix identified decades later as war veteran - 12News",
+   "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher - Naval News",
+   "Fed's Williams still favors tighter monetary policy, but says now is not the time for 'dramatic action' - Reuters",
+   "Remarks by Under Secretary of War for Policy Elbridge Colby at the Ukraine Defense Contact - U.S. Department of War (.gov)",
+   "France rejects Lavrov\u2019s claims of direct involvement in Ukraine war - Euronews.com",
+   "Fact Check Team: Has the Iran war becoming a political liability for Trump? - KDNL",
+   "ICE Cancels Deportation Flights for Afghan War Refugees But Continues to Jail Them - Truthout",
+   "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz - gCaptain",
+   "Israel vows retaliation after UK sanctions firms for West Bank settlements - Middle East Eye",
+   "Sanctions in a Snap: Developments in Sanctions October 2026 - JD Supra",
+   "Presentation of the Price of War Symposium Defence Tech Innovation Award \u2013 official sponsor Citi - The National Law Review",
+   "Ryan slams Trump over Iran war social media post - Daily Freeman",
+   "Fed\u2019s Williams Says No Need for \u2018Dramatic\u2019 Rate Move - Bloomberg.com",
+   "The Fed changes the game: The dollar finally wipes out Trump's tariff shock - Cointribune",
+   "Speed camera fault may have allowed drivers to escape fines",
+   "Rand Paul embraces anti-war conservative mantle ahead of 2028 - Washington Times",
+   "Ukraine Uses Its Own Missile Guidance System to Strike the $4 Billion Crimean Bridge Without Starlink or Starshield - UNITED24 Media",
+   "Black Monday 1987: 5 linked forces behind the stock market's worst day - qz.com",
+   "US fighter jets strike Iranian missile site on Qeshm Island after attack in Bahrain - Ynetnews",
+   "Josh Turek outlines his Senate priorities, including ending the Iran war, stopping Trump tariffs and making healthcare affordable for everyone except trans people needing gender-affirming care - Little Village Magazine",
+   "Boiling Point: The road to war and Ukraine\u2019s uncertain future - The Real News Network",
+   "Chinese Yuan: Further gains likely against US Dollar \u2013 UOB - FXStreet",
+   "Zelensky calls on US to enable satellite communications to target ballistic missile launchers - Ukrinform",
+   "Canadian dollar holds near 19-month low as greenback consolidates recent gains - Reuters",
+   "How Bitcoin still competes with a 2.92% Treasury yield after inflation - Cryptonews.net",
+   "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today - The Times of Israel"
   ]
  },
  "log": [
-  "16.11 22:24 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
-  "16.11 22:24 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f sonras\u0131 piyasa kapan\u0131\u015fa do\u011fru dengelenmeye \u00e7al\u0131\u015f\u0131yor; kalan s\u00fcrede yaln\u0131zca haber destekli NVDA tepkisi k\u0131sa vadeli f\u0131rsat sunuyor.\u00bb / GPT \u00ab-\u00bb",
   "16.11 22:36 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "16.11 22:36 N  NEWS (14 new) score -0.50 conf 0.60: Yeni haberler a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131 bask\u0131l\u0131yor: alt\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi, dolar g\u00fc\u00e7leniyor ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri konu\u015fuluyor. Merkez bankas\u0131 al\u0131mlar\u0131 bir miktar destek sa\u011flasa da, \u0130ran sava\u015f\u0131na ili\u015fkin ek ABD u\u00e7ak gemisi haberleri jeopolitik risk primini art\u0131rmad\u0131\u011f\u0131 i\u00e7in g\u00fcvenli liman talebi fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor. Bu nedenle k\u0131sa vadeli e\u011filim a\u015fa\u011f\u0131 y\u00f6nl\u00fc; ancak haberlerin b\u00fcy\u00fck k\u0131sm\u0131 eski veya k\u0131smen fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
   "16.11 22:36 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
@@ -30167,7 +30165,9 @@
   "17.11 23:09 B6  karar turu: Claude \u00abEndeksler g\u00fcn\u00fc yakla\u015f\u0131k %1,4 d\u00fc\u015f\u00fc\u015fle kapatt\u0131; i\u015flem sonras\u0131 seansta likidite zay\u0131f oldu\u011fundan yeni pozisyon a\u00e7mak yerine beklemek daha disiplinli.\u00bb / GPT \u00abGenel e\u011filim a\u015fa\u011f\u0131 olsa da saat 16:09 itibar\u0131yla normal seans d\u0131\u015f\u0131nda likidite ve bracket emirlerinin i\u015flerli\u011fi do\u011frulanmad\u0131\u011f\u0131ndan yeni kald\u0131ra\u00e7l\u0131 pozisyon a\u00e7m\u0131yorum.\u00bb",
   "17.11 23:46 B6  CLOSE long QQQ seans sonu: -307.07 USD",
   "17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD",
-  "17.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131"
+  "17.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131",
+  "18.11 00:01 N  NEWS (45 new) score -0.10 conf 0.40: \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekleyerek alt\u0131 hafif yukar\u0131 \u00e7ekebilir, ancak \u0130ran sava\u015f\u0131 zaten uzun s\u00fcredir fiyatlanm\u0131\u015f durumda. Fed'in Williams'\u0131n s\u0131k\u0131la\u015ft\u0131rmadan yana oldu\u011funu s\u00f6ylemesi ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
+  "18.11 00:01 N  GPT  score +0.35 conf 0.58: \u0130ran\u2019daki f\u00fcze sahas\u0131na y\u00f6nelik ABD sald\u0131r\u0131s\u0131 b\u00f6lgesel gerilim ve g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 k\u0131sa vadede destekleyebilir. Ancak Fed\u2019den gelen temkinli-\u015fahin mesajlar ve dolar\u0131n g\u00fc\u00e7l\u00fc seyri y\u00fckseli\u015fi s\u0131n\u0131rl\u0131yor; yinelenen haberler ek etkiyi belirsiz k\u0131l\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794352811,
-    4963.78
-   ],
-   [
     1794352990,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794949099,
+    4963.78
+   ],
+   [
+    1794949290,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794352811,
-    4975.18
-   ],
-   [
     1794352990,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794949099,
+    4975.18
+   ],
+   [
+    1794949290,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794352811,
-    4993.28
-   ],
-   [
     1794352990,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794949099,
+    4993.28
+   ],
+   [
+    1794949290,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794352811,
-    4969.22
-   ],
-   [
     1794352990,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794949099,
+    4969.22
+   ],
+   [
+    1794949290,
     4969.22
    ]
   ],
@@ -81178,18 +81178,14 @@
     }
    ],
    "day": {
-    "date": "2026-11-17",
-    "trades": 2,
-    "pnl": -55.962068867125936,
+    "date": "2026-11-18",
+    "trades": 0,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794352811,
-    4610.16
-   ],
    [
     1794352990,
     4610.16
@@ -93185,6 +93181,10 @@
    [
     1794949099,
     4526.03
+   ],
+   [
+    1794949290,
+    4517.65
    ]
   ],
   "news_calls": {
@@ -94325,10 +94325,6 @@
    "equity": 112393.69
   },
   "equity_curve": [
-   [
-    1794352811,
-    111676.47
-   ],
    [
     1794352990,
     111676.47
@@ -106324,11 +106320,15 @@
    [
     1794949099,
     112393.69
+   ],
+   [
+    1794949290,
+    112393.69
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": true,
+  "market_open": false,
   "last_decision_ms": 1794946180334,
   "view": {
    "ts": 1794946180334,
@@ -106389,8 +106389,8 @@
     }
    }
   },
-  "next_open": "2026-11-17T09:30:00-05:00",
-  "state": "aktif (seans a\u00e7\u0131k)",
+  "next_open": "2026-11-18T09:30:00-05:00",
+  "state": "uyku (piyasa kapal\u0131)",
   "premarket_day": "2026-11-17",
   "alpaca": {
    "multiplier": "4",
@@ -106498,7 +106498,7 @@
     }
    ],
    "day": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -106506,10 +106506,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794352811,
-    4876.96
-   ],
    [
     1794352990,
     4876.96
@@ -118505,6 +118501,10 @@
    [
     1794949099,
     4876.96
+   ],
+   [
+    1794949290,
+    4876.96
    ]
   ],
   "news": {
@@ -118517,8 +118517,8 @@
    "new_headlines": 45
   },
   "news_calls": {
-   "date": "2026-11-17",
-   "n": 1
+   "date": "2026-11-18",
+   "n": 0
   },
   "news_seen": [
    "UMass alum returns to talk law, war and diplomacy - Massachusetts Daily Collegian",

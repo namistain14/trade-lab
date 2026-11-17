@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 23:58 (İstanbul)
+> Son güncelleme: 18.11.2026 00:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,18 +18,18 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -55.96 $ | -510.70 $ |
-| İşlem sayısı | 1 | 114 |
+| Net kâr/zarar | +0.00 $ | -510.70 $ |
+| İşlem sayısı | 0 | 114 |
 | Kazanma oranı | %0.0 | %41.2 |
-| Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
+| Ödenen komisyon/spread | 0.00 $ | 1354.61 $ |
 
-**Hesap değeri: 4,526.03 $** (başlangıç 5,000 $, -473.97 $ / %-9.48)
+**Hesap değeri: 4,517.65 $** (başlangıç 5,000 $, -482.35 $ / %-9.65)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
-Son haber analizi (17.11 21:08): Claude puan **-0.40**, güven 0.55 — Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
+Son haber analizi (18.11 00:01): Claude puan **-0.10**, güven 0.40 — İran'a yönelik ABD saldırıları jeopolitik risk primini destekleyerek altı hafif yukarı çekebilir, ancak İran savaşı zaten uzun süredir fiyatlanmış durumda. Fed'in Williams'ın sıkılaştırmadan yana olduğunu söylemesi ve doların güçlü seyri altın üzerinde baskı yaratabilir; bu nedenle net etki hafif negatif, güven düşük.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
+GPT (gpt-6-luna): puan **+0.35**, güven 0.58 — İran’daki füze sahasına yönelik ABD saldırısı bölgesel gerilim ve güvenli liman talebini artırarak altını kısa vadede destekleyebilir. Ancak Fed’den gelen temkinli-şahin mesajlar ve doların güçlü seyri yükselişi sınırlıyor; yinelenen haberler ek etkiyi belirsiz kılıyor.
 
 Son işlemler:
 
@@ -67,8 +67,8 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1904.29 $ | +9928.18 $ |
-| İşlem sayısı | 3 | 51 |
+| Net kâr/zarar | +0.00 $ | +9928.18 $ |
+| İşlem sayısı | 0 | 51 |
 | Kazanma oranı | %0.0 | %49.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 21:32 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son saatte ılımlı bir tepki alımı var; seçici ve temkinli alım tarafı öne çıkıyor.» / GPT «Endekslerde gün içi kayıplara rağmen son bölümde toparlanma güçleniyor; yükseliş yönünde sınırlı avantaj var ancak kaldıraç dönüş riskini büyütüyor.»
-17.11 21:40 B5  CLOSE long stop: -55.96 USD
 17.11 21:44 B6  karar turu: Claude «Piyasa günü yaklaşık %1,2 düşüşle geçiriyor ve öğleden sonraki tepki alımları satışla karşılanıyor, kapanışa doğru hafif negatif eğilim sürebilir.» / GPT «Başarısız tepki yükselişi aşağı yönü destekliyor ancak dar saatlik hareketler ve kapanışa kalan 77 dakika, yüzde 1,5 hedefe ulaşmayı zorlaştırıyor.»
 17.11 21:47 B5  SHORT gold 25000 USD x10 @ 3845.81 (TP 3834.27, SL 3853.50; news -0.33)
 17.11 21:56 B6  karar turu: Claude «Piyasa %1'in üzerinde ekside ve yatay-aşağı seyrediyor; son saatte toparlanma zayıf kaldı, kapanışa doğru hafif satış baskısı bekleniyor.» / GPT «Genel görünüm aşağı yönlü; ancak normal seansın bitimine yaklaşık 64 dakika kalması, yüzde 1,5 kâr hedefine ulaşma olasılığını sınırlıyor.»
@@ -102,6 +100,8 @@ Son işlemler:
 17.11 23:46 B6  CLOSE long QQQ seans sonu: -307.07 USD
 17.11 23:46 B6  CLOSE long TSLA seans sonu: -435.97 USD
 17.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
+18.11 00:01 N  NEWS (45 new) score -0.10 conf 0.40: İran'a yönelik ABD saldırıları jeopolitik risk primini destekleyerek altı hafif yukarı çekebilir, ancak İran savaşı zaten uzun süredir fiyatlanmış durumda. Fed'in Williams'ın sıkılaştırmadan yana olduğunu söylemesi ve doların güçlü seyri altın üzerinde baskı yaratabilir; bu nedenle net etki hafif negatif, güven düşük.
+18.11 00:01 N  GPT  score +0.35 conf 0.58: İran’daki füze sahasına yönelik ABD saldırısı bölgesel gerilim ve güvenli liman talebini artırarak altını kısa vadede destekleyebilir. Ancak Fed’den gelen temkinli-şahin mesajlar ve doların güçlü seyri yükselişi sınırlıyor; yinelenen haberler ek etkiyi belirsiz kılıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
