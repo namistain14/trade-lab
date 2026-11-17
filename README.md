@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 11:53 (İstanbul)
+> Son güncelleme: 17.11.2026 11:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 11:44): Claude puan **+0.10**, güven 0.40 — Jeopolitik gerilim (İran savaşı, Ukrayna-Kırım saldırıları) altın için güvenli liman talebini destekliyor, ayrıca DXY 19 aylık zirveden geri çekilirken ABD tahvil getirilerinin düşmesi altın için olumlu. Buna karşılık ING'in güçlü dolar görüşü ve EUR/USD'nin 19 aylık dibe yakın seyretmesi ile dolar momentumu altın üzerinde baskı yaratabilir; haberlerin büyük kısmı zaten fiyatlanmış niteliğinde olduğundan güven düşük tutuldu.
+Son haber analizi (17.11 11:56): Claude puan **-0.10**, güven 0.35 — Dolar tarafında güç (DXY 19 aylık zirvelerden geri çekilse de ING'nin güçlü momentum tespiti ve euro/dolarda 19 aylık dip) altın için baskı oluşturuyor; altın da bir yılı aşkın dip bölgesine yakın işlem görüyor. Ukrayna'daki Kerç köprüsü saldırısı ve İran savaşına dair jeopolitik gerilim jeopolitik risk primini destekliyor, ancak Vance'in "sonsuz savaş olmayacak" açıklaması bu riski sınırlıyor; kısa vadeli etki hafif negatif, çelişkili haberler nedeniyle güven düşük.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 10:19 N  NEWS (17 new) score -0.70 conf 0.75: Altın 1 yıllık dibe yakın seyrediyor; dolar 19 aylık zirvede ve Fed faiz artırımı beklentileri artıyor, bu da reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. İran savaşı ve Hürmüz'deki saldırılar güvenli liman talebini destekleyebilse de, bu etki Fed sıkılaştırma beklentilerinin gerisinde kalıyor.
-17.11 10:32 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 10:32 N  NEWS (17 new) score +0.10 conf 0.30: İran savaşına ilişkin yeni haberler karışık: Hormuz'da tanker saldırısı ve üçüncü ABD uçak gemisinin bölgeye ulaşması jeopolitik riski artırıp altın için hafif olumlu olabilir, ancak Vance'in "sonsuz savaş olmayacak" açıklaması ve petrol fiyatlarının düşmesi risk primini azaltıyor. Fed beklentisi, dolar veya enflasyona dair yeni bir veri gelmediği için etki sınırlı kalıyor; Ukrayna-Rusya köprü saldırıları ise büyük ölçüde fiyatlanmış durumda.
 17.11 10:44 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 10:44 N  NEWS (43 new) score -0.70 conf 0.75: Altın, Fed faiz artırımı beklentileri ve 19 aylık zirvedeki dolar nedeniyle 1 yıllık dibe yakın işlem görüyor; reel getiri ve enflasyon baskısı altını aşağı çekiyor. Ukrayna-Rusya saldırıları gibi jeopolitik haberler eski ve fiyatlanmış olduğundan güvenli liman talebini artırmıyor; yüksek belirsizlik nedeniyle güven sınırlı tutuldu.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 11:32 N  NEWS (8 new) score -0.20 conf 0.35: Başlıklar karışık: Fed faiz artırımı beklentileri ve güçlü dolar altını yıllık dibe yakın tutarken, ABD tahvil getirilerindeki düşüş ve dolardaki geri çekilme kısmen destekliyor. İran ve Ukrayna çatışmalarındaki jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu haberlerin çoğu zaten fiyatlanmış ve yeni bir tırmanış sinyali zayıf; net etki hafif negatif, güven düşük.
 17.11 11:44 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 11:44 N  NEWS (10 new) score +0.10 conf 0.40: Jeopolitik gerilim (İran savaşı, Ukrayna-Kırım saldırıları) altın için güvenli liman talebini destekliyor, ayrıca DXY 19 aylık zirveden geri çekilirken ABD tahvil getirilerinin düşmesi altın için olumlu. Buna karşılık ING'in güçlü dolar görüşü ve EUR/USD'nin 19 aylık dibe yakın seyretmesi ile dolar momentumu altın üzerinde baskı yaratabilir; haberlerin büyük kısmı zaten fiyatlanmış niteliğinde olduğundan güven düşük tutuldu.
+17.11 11:56 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 11:56 N  NEWS (10 new) score -0.10 conf 0.35: Dolar tarafında güç (DXY 19 aylık zirvelerden geri çekilse de ING'nin güçlü momentum tespiti ve euro/dolarda 19 aylık dip) altın için baskı oluşturuyor; altın da bir yılı aşkın dip bölgesine yakın işlem görüyor. Ukrayna'daki Kerç köprüsü saldırısı ve İran savaşına dair jeopolitik gerilim jeopolitik risk primini destekliyor, ancak Vance'in "sonsuz savaş olmayacak" açıklaması bu riski sınırlıyor; kısa vadeli etki hafif negatif, çelişkili haberler nedeniyle güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
