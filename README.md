@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 20:55 (İstanbul)
+> Son güncelleme: 17.11.2026 20:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1342.67 $ |
 
-**Hesap değeri: 4,531.32 $** (başlangıç 5,000 $, -468.68 $ / %-9.37)
+**Hesap değeri: 4,527.05 $** (başlangıç 5,000 $, -472.95 $ / %-9.46)
 
 Açık pozisyonlar: PAXGUSDT long @ 3857.75 (TP 3869.32 / SL 3850.04)
 
-Son haber analizi (17.11 20:34): Claude puan **+0.20**, güven 0.35 — Kırım Köprüsü'nün kısmen çökmesi ve Kiev'deki Rus saldırıları jeopolitik gerilimi artırarak altına sınırlı bir güvenli liman talebi getirebilir. Ancak bu gelişmelerin altın fiyatına etkisi genellikle kısa vadede küçük kalır, makro veri ya da Fed beklentileri ise bu haberlerden daha belirleyici olur; bu nedenle güven düşük tutuldu.
+Son haber analizi (17.11 20:55): Claude puan **-0.40**, güven 0.55 — Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
 
-GPT (gpt-6-luna): puan **+0.35**, güven 0.55 — Kırım Köprüsü’ne yönelik saldırı ve Rusya-Ukrayna çatışmasındaki tırmanış, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. İran’a ilişkin ABD açıklaması da jeopolitik riski yükseltiyor; ancak dolar ve faizlere dair yeni bir sinyal olmaması etkiyi sınırlıyor.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.46 — Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,161.63 $** (başlangıç 100,000 $, +13161.63 $ / %+13.16)
+**Hesap değeri: 113,178.71 $** (başlangıç 100,000 $, +13178.71 $ / %+13.18)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch8t8QaYttP3s3uBwDo1p'}
-17.11 20:19 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo
 17.11 20:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 17.11 20:19 B6  karar turu: Claude «-» / GPT «-»
 17.11 20:22 N  NEWS (17 new) score +0.15 conf 0.30: Yeni haberlerin çoğu jeopolitik gerilimi artırıyor (Kırım Köprüsü'nde kısmi çöküş, Kiev'deki köprüye Rus saldırısı, İran planına ilişkin ABD açıklaması), bu da güvenli liman talebini hafifçe destekler. Ancak Fed, enflasyon veya dolar tarafında doğrudan bir sürpriz yok ve Trump'ın Asya'daki Putin/Şi zirveleri diplomatik bir gevşemeye işaret edebilir; bu nedenle etki sınırlı ve güven düşük.
@@ -104,6 +102,8 @@ Son işlemler:
 17.11 20:34 B5  LONG gold 25000 USD x10 @ 3857.75 (TP 3869.32, SL 3850.04; news +0.28)
 17.11 20:42 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside, öğleden sonraki tepki yükselişi zayıflıyor ve hafif negatif eğilim sürüyor.» / GPT «Endekslerde gün içi tepki yükselişi zayıflarken, yeni şirket haberleriyle desteklenmeyen hareketleri kovalamak yerine göreli zayıflıkta seçici kısa pozisyonlar öne çıkıyor.»
 17.11 20:55 B6  karar turu: Claude «Endeksler %1'in üzerinde ekside ve öğleden sonra yatay-zayıf konsolide oluyor; tepkiler satış fırsatı olarak değerlendiriliyor.» / GPT «Endekslerde günlük satış baskısı sürerken son saat yatay; yeni işlemde göreli zayıflık gösteren hisselerde seçici kısa pozisyonları tercih ediyorum.»
+17.11 20:56 N  NEWS (40 new) score -0.40 conf 0.55: Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
+17.11 20:56 N  GPT  score -0.25 conf 0.46: Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
