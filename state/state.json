@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    5000.0
-   ],
-   [
     1794294227,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794890301,
+    5000.0
+   ],
+   [
+    1794890487,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    4868.5
-   ],
-   [
     1794294227,
     4868.5
    ],
@@ -27085,34 +27081,29 @@
    [
     1794890301,
     4868.5
+   ],
+   [
+    1794890487,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Alt\u0131n, dolar endeksinin 19 ayl\u0131k zirvesi ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu bask\u0131 k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131na dair jeopolitik risk ve Vance'in \"uzun s\u00fcreli sava\u015f olmayacak\" a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor, bu da tabloyu yaln\u0131zca k\u0131smen dengeliyor.",
+   "score": -0.7,
+   "confidence": 0.7,
+   "reason": "Alt\u0131n, g\u00fc\u00e7lenen dolar (19 ayl\u0131k zirve) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n ($3.850) i\u015flem g\u00f6r\u00fcyor; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukar\u0131 y\u00f6nl\u00fc hareketin Fed ve dolar bask\u0131s\u0131yla s\u0131n\u0131rl\u0131 kalaca\u011f\u0131 belirtiliyor; haberlerin \u00e7o\u011fu tekrar niteli\u011finde oldu\u011fundan g\u00fcven orta-y\u00fcksek.",
    "n": 45,
-   "ts": 1794889766980,
-   "new_headlines": 15,
+   "ts": 1794890486588,
+   "new_headlines": 43,
    "key_events": [
-    "Dolar endeksi 19 ay\u0131n zirvesinde; Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
-    "Alt\u0131n y\u0131ll\u0131k dibe yak\u0131n; CNBC ve Reuters 'firm dollar' ve Fed hike bahislerini \u00f6ne \u00e7\u0131kar\u0131yor",
-    "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor ancak Vance sava\u015f\u0131n uzun s\u00fcreli olmayaca\u011f\u0131n\u0131 belirtti; g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131"
+    "ABD dolar\u0131 19 ayl\u0131k zirvede; alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n ($3.850)",
+    "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
+    "Alt\u0131n toparlanma sinyali veriyor ama dolar ve Fed beklentileri yukar\u0131y\u0131 s\u0131n\u0131rl\u0131yor"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794386651350,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "S\u0131cak ABD enflasyon verisi, Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar endeksinin y\u00fckseli\u015fi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; alt\u0131n yakla\u015f\u0131k 4.000 dolar civar\u0131nda kay\u0131p tutuyor. Iran sava\u015f\u0131 kaynakl\u0131 jeopolitik risk ve merkez bankas\u0131 al\u0131mlar\u0131 bir miktar destek sa\u011flasa da, k\u0131sa vadede reel faiz ve dolar etkisi bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
-    "new": 10,
-    "gpt_score": -0.48,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1794387396958,
     "score": -0.4,
@@ -29803,63 +29794,70 @@
     "new": 15,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794890486588,
+    "score": -0.7,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n, g\u00fc\u00e7lenen dolar (19 ayl\u0131k zirve) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n ($3.850) i\u015flem g\u00f6r\u00fcyor; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukar\u0131 y\u00f6nl\u00fc hareketin Fed ve dolar bask\u0131s\u0131yla s\u0131n\u0131rl\u0131 kalaca\u011f\u0131 belirtiliyor; haberlerin \u00e7o\u011fu tekrar niteli\u011finde oldu\u011fundan g\u00fcven orta-y\u00fcksek.",
+    "new": 43,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 36
+   "n": 37
   },
   "news_seen": [
-   "Productivity and Jobs Task Force Conference - Federal Reserve Bank of San Francisco",
-   "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh - CNBC",
-   "Iran Update, November 16, 2026 - Institute for the Study of War",
-   "African Economies to End Year With High Rates as Fed Risks Loom - Bloomberg.com",
-   "\u2018Give Every American Family a $1700 Check\u2019: Ro Khanna Says Compensate American Families for Iran War - Benzinga",
-   "New Zealand Dollar Drops to Six-Year Low Against Greenback - Bloomberg.com",
-   "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News",
-   "Gold recovers from YTD low; Fed hike bets and bullish USD to cap further gains - FXStreet",
-   "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report",
-   "ExxonMobil sanctions Longtail gas, condensate development offshore Guyana - Offshore Magazine",
-   "How Trump and Xi went from tariff war to trade truce - Reuters",
-   "Transcript: Finland\u2019s President Stubb on Europe\u2019s Geopolitical Future and Enlargement - The Singju Post",
-   "Ukraine Hits Kerch Bridge in its Biggest Drone Attack of the War - The SOFX Report",
-   "New Zealand Dollar slides towards 18-month lows after RBNZ Q4 Inflation Expectations QoQ - www.tmgm.com",
-   "Ro Khanna Wants $1,700 Checks for Families Hit by Iran War Costs - Around Prague",
-   "United States Dollar Index retreats from 19-month high of 103.70, outlook remains bullish - FXStreet",
-   "Zelensky warns Russia is preparing a new missile strike on Ukraine - Around Prague",
-   "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges - The Guardian",
-   "Fed Chair Kevin Warsh warned that AI could trigger job losses or a stock bust if it disappoints - Quartz",
-   "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
-   "USD/JPY, USD/CAD Outlook: Fed hawks put dollar bulls on alert - StoneX",
-   "Vance says there\u2019s \u2018no daylight\u2019 between him and Trump on the war in Iran - NBC News",
-   "Ro Khanna pitches $1,700 checks for Americans to offset Iran war costs: 'A chance to deliver' - Fox News",
-   "Euro Falls to 19-Month Low as Dollar Strengthens - Briefs Finance",
-   "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
-   "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629",
-   "JD Vance: Iran will not be a forever war - The Times",
-   "Manzanar War Relocation Center honors Japanese-Americans - CBS News",
-   "Trump\u2019s Advisers Are at War Over China Ahead of Xi Summit - WSJ",
-   "\u2018PEACE + WAR\u2019 Album Review: No White Flags in Sight - The Harvard Crimson",
-   "Dollar Strengthens Against Major Peers Ahead Of Fed Decision - Moomoo",
-   "New Zealand Dollar falls toward 18-month lows following RBNZ Q4 Inflation Expectations QoQ - FXStreet",
-   "AI economic impact \u2014 Fed Considers Three Growth and Unemployment Scenarios - The Korea Daily",
-   "Tom Burman: CSU's 'Scheduling Goals' Axe 2027 Border War - 7220 Sports",
+   "Gold recovers from YTD low; Fed hike bets and bullish USD to cap further gains - www.tmgm.com",
+   "Gold price in India: Rates on November 17 - FXStreet",
+   "Gold rate today in Hyderabad, November 17, 2026: Check 22K, 24K and 18K gold prices - Hyderabad Mail",
+   "Gold down 23%, silver plunges 55%: Why precious metals are losing their shine - Fortune India",
+   "Gold, silver prices today, 17 Nov Tuesday: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata - Livemint",
+   "Gold Price Forecast: Gold Holds Key $3,850 Support, US October Retail Sales May Drive Rebound Toward $4,000 - TradingKey",
+   "Gold Rate Today, November 17: Gold's Losing Streak Continues, Hits Near One-Year Low! From Fed Decisions To Dollar Strength, Check Top Reasons And 24K, 22K, 18K Price - Jagran Josh",
+   "Gold Prices Near One-Year Low Amid Strong Dollar and Fed Rate Hike Bets - Hamro Patro",
+   "Goldman Sachs Adjusts Bellevue Gold's Price Target to AU$1.85 - www.marketscreener.com",
+   "Gold price update today, November 17th: The price hasn't hit bottom yet, continuously losing key levels; the worst-case scenario is the $3,800 mark. - Vietnam.vn",
+   "Gold Price Forecast: XAU/USD stays vulnerable amid Fed hike bets, geopolitical uncertainty - FXStreet",
+   "Gold Price Drops to Lowest Level in Over a Year Amid Expectations of Fed Rate Hike - KuCoin",
+   "On the morning of November 17th, gold prices fell to their lowest level in months. - Vietnam.vn",
+   "Gold price today, November 17: Falling, approaching the lowest price level after more than 1 year - Laodong.vn",
+   "Goldman Sachs: \"Gold Prices May Not Hit a New All-Time High Until Late 2028\" - \uc544\uc2dc\uc544\uacbd\uc81c",
+   "Silver Price Forecast: Bearish potential appears intact despite XAG/USD rebound above $47.00 - www.tmgm.com",
+   "Gold and silver price today, November 17: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities - Moneycontrol.com",
    "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "Newsom makes surprise visit to Ukraine amid war - LiveNOW from FOX",
-   "Vance says war on Iran will not become a long-term commitment - Middle East Eye",
-   "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ",
-   "JD Vance Slams \u2018Neoconservatives\u2019 Over Iran \u2018Forever War\u2019 - Newsweek",
-   "U.S. dollar up in Taipei trading - Focus Taiwan",
-   "Vance hits back at \u2018neoconservatives\u2019 advocating \u2018forever\u2019 war with Iran - Washington Examiner",
-   "U.S. dollar hits 19-month peak on Fed hike bets; Aussie dips - CNBC",
-   "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh - Reuters",
+   "Canaccord Genuity Adjusts PDI Gold's Price Target to AU$7.75 - www.marketscreener.com",
+   "Gold and silver prices hit bottom 52 weeks, USD hits 19-month high - Laodong.vn",
+   "Gold prices are falling: China is buying anyway - FXStreet",
+   "Gold Price Prediction November 2026: What Are the Experts Saying? - MoneyMagpie",
+   "How fears over Western finance could boost the gold push of Hong Kong, Singapore - South China Morning Post",
+   "Gold price falls below $3,850/ounce, silver under pressure - Laodong.vn",
    "Precious metals break to new 52-week lows as us dollar reaches new 19-month high - Kitco",
-   "Middle East latest: Pakistan awaits US response to latest Iran proposals - The National"
+   "Gold Falls to One-Year Low, Down 31% From Record High; Headed for Worst Annual Decline Since 2015 - BigGo Finance",
+   "Analyst: Tech Selloff Could Be New \u201cCatalyst\u201d for Precious Metals - NAI500",
+   "Why are gold prices continuously falling and silver prices hitting rock bottom? - Vietnam.vn",
+   "Oil price tanks, gold still trades lower - Mining.com.au",
+   "Goldman Sachs just revamped its 2027 gold target for the second time - AOL.com",
+   "Customers report service outages at major US banks",
+   "Gold prices today, November 17th: Hit a more than one-year low as the USD strengthens. - Vietnam.vn",
+   "Antam Gold Price Today, November 17, 2026: Check the Latest 1 Gram Price and Buyback - Aktualita.co",
+   "Strong US Dollar and rising Fed rate hike bets push gold to one-year low near $3,850 - www.tmgm.com",
+   "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+   "We couldn't afford a house alone, so we bought one with strangers",
+   "Strong US Dollar and mounting Fed hike bets push Gold down to one-year low near $3,850 - www.tmgm.com",
+   "Gold prices today (November 17): World gold prices fall. - Vietnam.vn",
+   "Gold price update morning of November 17: World gold loses nearly 20USD/ounce more - Laodong.vn",
+   "Gold falls to one-year low near $3,850 on strong US Dollar, rising Fed hike bets - FXStreet",
+   "Gold prices today, November 17th: World gold prices below $3,900, warning of the risk of a sharp decline. - Vietnam.vn",
+   "Should I buy gold and keep it safe, or invest it in stocks? - Vietnam.vn",
+   "Five EU countries announce migrant deportation centre in Rwanda",
+   "Gold prices today, November 17, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. - Vietnam.vn",
+   "California sues OpenAI over Hugging Face attack"
   ]
  },
  "log": [
-  "15.11 16:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 16:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 16:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 07:17 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 07:17 N  NEWS (16 new) score -0.60 conf 0.70: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar\u0131n bask\u0131s\u0131yla yakla\u015f\u0131k bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor; reel faiz ve dolar taraf\u0131ndaki bu bask\u0131 k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekme e\u011filiminde. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak haberlerde bu deste\u011fin mevcut sert sat\u0131\u015f bask\u0131s\u0131n\u0131 dengelemedi\u011fi g\u00f6r\u00fcl\u00fcyor; ayr\u0131ca 3.850 destek seviyesi ve ABD perakende sat\u0131\u015f verisi k\u0131sa vadede tepki yaratabilir.",
   "17.11 07:29 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 07:29 N  NEWS (15 new) score -0.50 conf 0.60: Alt\u0131n, dolar endeksinin 19 ayl\u0131k zirvesi ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu bask\u0131 k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131na dair jeopolitik risk ve Vance'in \"uzun s\u00fcreli sava\u015f olmayacak\" a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor, bu da tabloyu yaln\u0131zca k\u0131smen dengeliyor."
+  "17.11 07:29 N  NEWS (15 new) score -0.50 conf 0.60: Alt\u0131n, dolar endeksinin 19 ayl\u0131k zirvesi ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu bask\u0131 k\u0131sa vadede alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131na dair jeopolitik risk ve Vance'in \"uzun s\u00fcreli sava\u015f olmayacak\" a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor, bu da tabloyu yaln\u0131zca k\u0131smen dengeliyor.",
+  "17.11 07:41 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 07:41 N  NEWS (43 new) score -0.70 conf 0.70: Alt\u0131n, g\u00fc\u00e7lenen dolar (19 ayl\u0131k zirve) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye yak\u0131n ($3.850) i\u015flem g\u00f6r\u00fcyor; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukar\u0131 y\u00f6nl\u00fc hareketin Fed ve dolar bask\u0131s\u0131yla s\u0131n\u0131rl\u0131 kalaca\u011f\u0131 belirtiliyor; haberlerin \u00e7o\u011fu tekrar niteli\u011finde oldu\u011fundan g\u00fcven orta-y\u00fcksek."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    4963.78
-   ],
-   [
     1794294227,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794890301,
+    4963.78
+   ],
+   [
+    1794890487,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    4975.18
-   ],
-   [
     1794294227,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794890301,
+    4975.18
+   ],
+   [
+    1794890487,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    4993.28
-   ],
-   [
     1794294227,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794890301,
+    4993.28
+   ],
+   [
+    1794890487,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794294049,
-    4969.22
-   ],
-   [
     1794294227,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794890301,
+    4969.22
+   ],
+   [
+    1794890487,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794294049,
-    4333.78
-   ],
    [
     1794294227,
     4333.78
@@ -93138,6 +93134,10 @@
    [
     1794890301,
     4545.26
+   ],
+   [
+    1794890487,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794294049,
-    111691.09
-   ],
    [
     1794294227,
     111691.09
@@ -106223,6 +106219,10 @@
    [
     1794890301,
     114145.15
+   ],
+   [
+    1794890487,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794294049,
-    4876.96
-   ],
    [
     1794294227,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794890301,
+    4876.96
+   ],
+   [
+    1794890487,
     4876.96
    ]
   ],
