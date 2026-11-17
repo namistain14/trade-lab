@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 21:04 (İstanbul)
+> Son güncelleme: 17.11.2026 21:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.6 |
 | Ödenen komisyon/spread | 0.00 $ | 1342.67 $ |
 
-**Hesap değeri: 4,524.58 $** (başlangıç 5,000 $, -475.42 $ / %-9.51)
+**Hesap değeri: 4,520.89 $** (başlangıç 5,000 $, -479.11 $ / %-9.58)
 
 Açık pozisyonlar: PAXGUSDT long @ 3857.75 (TP 3869.32 / SL 3850.04)
 
-Son haber analizi (17.11 20:55): Claude puan **-0.40**, güven 0.55 — Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
+Son haber analizi (17.11 21:08): Claude puan **-0.40**, güven 0.55 — Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.46 — Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
 
 Son işlemler:
 
@@ -72,7 +72,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,210.54 $** (başlangıç 100,000 $, +13210.54 $ / %+13.21)
+**Hesap değeri: 113,461.53 $** (başlangıç 100,000 $, +13461.53 $ / %+13.46)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
@@ -89,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 20:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
-17.11 20:19 B6  karar turu: Claude «-» / GPT «-»
-17.11 20:22 N  NEWS (17 new) score +0.15 conf 0.30: Yeni haberlerin çoğu jeopolitik gerilimi artırıyor (Kırım Köprüsü'nde kısmi çöküş, Kiev'deki köprüye Rus saldırısı, İran planına ilişkin ABD açıklaması), bu da güvenli liman talebini hafifçe destekler. Ancak Fed, enflasyon veya dolar tarafında doğrudan bir sürpriz yok ve Trump'ın Asya'daki Putin/Şi zirveleri diplomatik bir gevşemeye işaret edebilir; bu nedenle etki sınırlı ve güven düşük.
 17.11 20:22 N  GPT  score +0.30 conf 0.46: Kırım Köprüsü’ne yönelik saldırı ve ABD’nin İran kaynaklı olası tehditleri ciddiye aldığını söylemesi kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar yönüne dair yeni bir sinyal yok; bu nedenle yükseliş etkisinin sınırlı kalma
 17.11 20:30 B6  karar turu: Claude «Piyasa günü ekside geçiriyor ancak son bir saatte teknoloji öncülüğünde tepki yükselişi var; seçici long pozisyonlar mantıklı.» / GPT «Günlük kayıplara rağmen saatlik toparlanma alım yönünde ılımlı avantaj sağlıyor; ancak 1:4 kaldıraçta aynı yöne korelasyonlu pozisyonların toplam riski sınırlanmalı.»
 17.11 20:30 B6  ALIŞ QQQ 173 adet ≈ 113,497 $ (1:4) @ 656.05 (TP 665.89, SL 649.49; ikisi de hemfikir, güven 0.55)
@@ -104,6 +101,9 @@ Son işlemler:
 17.11 20:55 B6  karar turu: Claude «Endeksler %1'in üzerinde ekside ve öğleden sonra yatay-zayıf konsolide oluyor; tepkiler satış fırsatı olarak değerlendiriliyor.» / GPT «Endekslerde günlük satış baskısı sürerken son saat yatay; yeni işlemde göreli zayıflık gösteren hisselerde seçici kısa pozisyonları tercih ediyorum.»
 17.11 20:56 N  NEWS (40 new) score -0.40 conf 0.55: Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
 17.11 20:56 N  GPT  score -0.25 conf 0.46: Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
+17.11 21:08 N  NEWS (7 new) score -0.40 conf 0.55: Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
+17.11 21:08 N  GPT  score -0.25 conf 0.48: Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
+17.11 21:08 B6  karar turu: Claude «Piyasa yaklaşık %1 ekside ve son bir saatte dengelenmiş durumda; belirgin bir katalizör olmadan kapanışa kadar yatay ile hafif tepki alımları bekleniyor.» / GPT «Endekslerde günlük satışın ardından dar bantta dengelenme görülüyor; 1:4 kaldıraçla mevcut fiyatlardan yön kovalamak yerine yeni bir kırılma beklemek daha disiplinli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
