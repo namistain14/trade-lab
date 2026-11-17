@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    5000.0
-   ],
-   [
     1794348964,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794944920,
+    5000.0
+   ],
+   [
+    1794945100,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    4868.5
-   ],
-   [
     1794348964,
     4868.5
    ],
@@ -27084,6 +27080,10 @@
    ],
    [
     1794944920,
+    4868.5
+   ],
+   [
+    1794945100,
     4868.5
    ]
   ],
@@ -29868,7 +29868,6 @@
   ]
  },
  "log": [
-  "16.11 22:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "16.11 22:11 N  NEWS (13 new) score -0.25 conf 0.50: Yeni ba\u015fl\u0131klarda Fed'in faiz art\u0131r\u0131m\u0131 risklerine ve dolar\u0131n y\u00fckseli\u015fine dair haberler alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131na ili\u015fkin u\u00e7ak gemisi konu\u015flanmalar\u0131 ise g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Merkez bankas\u0131 al\u0131mlar\u0131 bir miktar destek sa\u011fl\u0131yor, bu nedenle etki hafif negatif kabul edildi.",
   "16.11 22:11 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
   "16.11 22:11 B6  karar turu: Claude \u00abYapay zeka ve yar\u0131 iletken sat\u0131\u015flar\u0131yla piyasa sert d\u00fc\u015ft\u00fc, son bir saatte dengelendi; kapan\u0131\u015fa az zaman kald\u0131\u011f\u0131 i\u00e7in se\u00e7ici kal\u0131nmal\u0131.\u00bb / GPT \u00ab-\u00bb",
@@ -30167,7 +30166,8 @@
   "17.11 22:08 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc yakla\u015f\u0131k %1 d\u00fc\u015f\u00fc\u015fle ge\u00e7iriyor ve son saatte dengelenmi\u015f g\u00f6r\u00fcn\u00fcyor; kapan\u0131\u015fa do\u011fru \u015firkete \u00f6zg\u00fc olumlu haberler se\u00e7ici f\u0131rsat sunabilir.\u00bb / GPT \u00abPiyasa zay\u0131f ve dar bantta; normal seans\u0131n kapanmas\u0131na 52 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik hedef seans d\u0131\u015f\u0131na ta\u015fabilir ve 1:4 kald\u0131ra\u00e7 riski b\u00fcy\u00fct\u00fcr.\u00bb",
   "17.11 22:20 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc yakla\u015f\u0131k %1 ekside ge\u00e7iriyor ancak son saatte sat\u0131\u015f bask\u0131s\u0131 durulmu\u015f ve kapan\u0131\u015f \u00f6ncesi hafif tepki al\u0131mlar\u0131 g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00abEndeksler zay\u0131f ve y\u00f6ns\u00fcz oldu\u011fundan \u015firkete \u00f6zg\u00fc taze kataliz\u00f6rler \u00f6ncelikli; normal seans\u0131n kapanmas\u0131na 40 dakika kalmas\u0131, 1\u20133 saatlik tutu\u015fta seans sonras\u0131 likidite ve braket emirlerinin ge\u00e7erlili\u011fini \u00f6nemli k\u0131l\u0131yor.\u00bb",
   "17.11 22:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn genelinde zay\u0131f ama son saatte sat\u0131\u015f bask\u0131s\u0131 azald\u0131 ve fiyatlar yatay seyrediyor; kapan\u0131\u015fa kadar \u015firkete \u00f6zg\u00fc olumlu haberler \u00f6ne \u00e7\u0131kabilir.\u00bb / GPT \u00abPiyasa zay\u0131f; normal seans\u0131n kapanmas\u0131na 28 dakika kald\u0131\u011f\u0131ndan 1\u20133 saatlik i\u015flemler seans d\u0131\u015f\u0131na ta\u015fabilir ve d\u00f6rt kat kald\u0131ra\u00e7ta stop fiyat\u0131ndan ger\u00e7ekle\u015fme garanti de\u011fildir.\u00bb",
-  "17.11 22:46 B6  karar turu: Claude \u00abPiyasa g\u00fcn genelinde yakla\u015f\u0131k %1,2 d\u00fc\u015f\u00fc\u015fle yatay bir kapan\u0131\u015fa ilerliyor ve kalan 15 dakika yeni pozisyon i\u00e7in yeterli avantaj sunmuyor.\u00bb / GPT \u00abEndeksler zay\u0131f seyrederken se\u00e7ici al\u0131m tercih ediyorum; normal seans\u0131n bitmesine 15 dakika kalmas\u0131 nedeniyle 1\u20133 saatlik pozisyonlarda uzat\u0131lm\u0131\u015f seans likiditesi ve braket emirlerinin ge\u00e7erlili\u011fi kritik.\u00bb"
+  "17.11 22:46 B6  karar turu: Claude \u00abPiyasa g\u00fcn genelinde yakla\u015f\u0131k %1,2 d\u00fc\u015f\u00fc\u015fle yatay bir kapan\u0131\u015fa ilerliyor ve kalan 15 dakika yeni pozisyon i\u00e7in yeterli avantaj sunmuyor.\u00bb / GPT \u00abEndeksler zay\u0131f seyrederken se\u00e7ici al\u0131m tercih ediyorum; normal seans\u0131n bitmesine 15 dakika kalmas\u0131 nedeniyle 1\u20133 saatlik pozisyonlarda uzat\u0131lm\u0131\u015f seans likiditesi ve braket emirlerinin ge\u00e7erlili\u011fi kritik.\u00bb",
+  "17.11 22:51 B6  CLOSE long NVDA stop: -1161.25 USD"
  ],
  "gold_big": {
   "account": {
@@ -30354,10 +30354,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    4963.78
-   ],
-   [
     1794348964,
     4963.78
    ],
@@ -42351,6 +42347,10 @@
    ],
    [
     1794944920,
+    4963.78
+   ],
+   [
+    1794945100,
     4963.78
    ]
   ],
@@ -42466,10 +42466,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    4975.18
-   ],
-   [
     1794348964,
     4975.18
    ],
@@ -54463,6 +54459,10 @@
    ],
    [
     1794944920,
+    4975.18
+   ],
+   [
+    1794945100,
     4975.18
    ]
   ],
@@ -54548,10 +54548,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    4993.28
-   ],
-   [
     1794348964,
     4993.28
    ],
@@ -66545,6 +66541,10 @@
    ],
    [
     1794944920,
+    4993.28
+   ],
+   [
+    1794945100,
     4993.28
    ]
   ]
@@ -66755,10 +66755,6 @@
   },
   "equity_curve": [
    [
-    1794348784,
-    4969.22
-   ],
-   [
     1794348964,
     4969.22
    ],
@@ -78752,6 +78748,10 @@
    ],
    [
     1794944920,
+    4969.22
+   ],
+   [
+    1794945100,
     4969.22
    ]
   ],
@@ -81186,10 +81186,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794348784,
-    4610.16
-   ],
    [
     1794348964,
     4610.16
@@ -93185,6 +93181,10 @@
    [
     1794944920,
     4523.11
+   ],
+   [
+    1794945100,
+    4522.91
    ]
   ],
   "news_calls": {
@@ -93392,23 +93392,9 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 114133.19034599999,
+   "balance": 113104.11652699998,
    "start": 100000.0,
    "positions": [
-    {
-     "id": "7bcc0827-ed59-46ef-a62c-e83b5fb7f7ae",
-     "symbol": "NVDA",
-     "side": "long",
-     "qty": 739.0,
-     "entry": 154.277321,
-     "tp": 156.76,
-     "sl": 152.9,
-     "opened_ms": 1794936633974,
-     "entry_cost": 0.0,
-     "friction": 0.0,
-     "note": "Claude 0.55: Rockwell i\u015f birli\u011fi haberi taze ve olumlu; hisse g\u00fcnl\u00fck d\u00fc\u015f\u00fc\u015ften QQQ ile birlikte toparlan\u0131yor. | GPT 0.58: Rockwell i\u015f birli\u011fi haberi ve toparlanan fiyat al\u0131m\u0131 desteklerken ihracat k\u0131s\u0131tlamas\u0131 riski g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-     "cur": 153.14
-    },
     {
      "id": "3faf3e89-6eeb-49e0-9703-ee5be5307c92",
      "symbol": "QQQ",
@@ -93421,7 +93407,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Son bir saatte g\u00fc\u00e7l\u00fc toparlanma ve y\u00fckselen dipler, k\u0131sa vadeli tepki al\u0131m\u0131 f\u0131rsat\u0131 sunuyor. | GPT 0.59: SPY'a g\u00f6re g\u00fc\u00e7l\u00fc saatlik toparlanma ve son y\u00fckseli\u015fin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde korunmas\u0131 al\u0131m lehine.",
-     "cur": 653.47
+     "cur": 653.4195
     },
     {
      "id": "e69c8106-705c-46da-8e19-0653970a42e4",
@@ -93435,7 +93421,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: D\u00fc\u015fen piyasada pozitif kalarak g\u00f6reli g\u00fc\u00e7 g\u00f6steriyor; robotaksi haberi de destekliyor. | GPT 0.62: Negatif piyasaya ra\u011fmen g\u00fcnl\u00fck pozitif ayr\u0131\u015fma ve y\u00fckselen k\u0131sa vadeli dipler al\u0131m\u0131 destekliyor.",
-     "cur": 379.99
+     "cur": 379.8799
     }
    ],
    "trades": [
@@ -94302,22 +94288,36 @@
      "costs": 0.0,
      "pnl": -1154.98,
      "entry_cost": 0.0
+    },
+    {
+     "id": "7bcc0827-ed59-46ef-a62c-e83b5fb7f7ae",
+     "symbol": "NVDA",
+     "side": "long",
+     "qty": 739,
+     "entry": 154.44,
+     "tp": 156.76,
+     "sl": 152.9,
+     "opened_ms": 1794936633974,
+     "note": "Claude 0.55: Rockwell i\u015f birli\u011fi haberi taze ve olumlu; hisse g\u00fcnl\u00fck d\u00fc\u015f\u00fc\u015ften QQQ ile birlikte toparlan\u0131yor. | GPT 0.58: Rockwell i\u015f birli\u011fi haberi ve toparlanan fiyat al\u0131m\u0131 desteklerken ihracat k\u0131s\u0131tlamas\u0131 riski g\u00fcveni s\u0131n\u0131rl\u0131yor.",
+     "exit": 152.868619,
+     "closed_ms": 1794945100282,
+     "reason": "stop",
+     "gross": -1161.25,
+     "costs": 0.0,
+     "pnl": -1161.25,
+     "entry_cost": 0.0
     }
    ],
    "day": {
     "date": "2026-11-17",
-    "pnl": -1530.97,
-    "trades": 0,
+    "pnl": -1761.22,
+    "trades": 1,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 112614.18
+   "equity": 112383.93
   },
   "equity_curve": [
-   [
-    1794348784,
-    111676.47
-   ],
    [
     1794348964,
     111676.47
@@ -106313,6 +106313,10 @@
    [
     1794944920,
     112614.18
+   ],
+   [
+    1794945100,
+    112383.93
    ]
   ],
   "open": {
@@ -106326,17 +106330,6 @@
     "sl": 649.49,
     "opened_ms": 1794936633974,
     "note": "Claude 0.55: Son bir saatte g\u00fc\u00e7l\u00fc toparlanma ve y\u00fckselen dipler, k\u0131sa vadeli tepki al\u0131m\u0131 f\u0131rsat\u0131 sunuyor. | GPT 0.59: SPY'a g\u00f6re g\u00fc\u00e7l\u00fc saatlik toparlanma ve son y\u00fckseli\u015fin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde korunmas\u0131 al\u0131m lehine."
-   },
-   "NVDA": {
-    "order_id": "7bcc0827-ed59-46ef-a62c-e83b5fb7f7ae",
-    "symbol": "NVDA",
-    "side": "long",
-    "qty": 739,
-    "entry": 154.44,
-    "tp": 156.76,
-    "sl": 152.9,
-    "opened_ms": 1794936633974,
-    "note": "Claude 0.55: Rockwell i\u015f birli\u011fi haberi taze ve olumlu; hisse g\u00fcnl\u00fck d\u00fc\u015f\u00fc\u015ften QQQ ile birlikte toparlan\u0131yor. | GPT 0.58: Rockwell i\u015f birli\u011fi haberi ve toparlanan fiyat al\u0131m\u0131 desteklerken ihracat k\u0131s\u0131tlamas\u0131 riski g\u00fcveni s\u0131n\u0131rl\u0131yor."
    },
    "TSLA": {
     "order_id": "e69c8106-705c-46da-8e19-0653970a42e4",
@@ -106417,7 +106410,7 @@
   "premarket_day": "2026-11-17",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "0",
+   "buying_power": "86717.67",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106529,10 +106522,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794348784,
-    4876.96
-   ],
    [
     1794348964,
     4876.96
@@ -118527,6 +118516,10 @@
    ],
    [
     1794944920,
+    4876.96
+   ],
+   [
+    1794945100,
     4876.96
    ]
   ],

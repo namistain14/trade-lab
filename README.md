@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 22:48 (İstanbul)
+> Son güncelleme: 17.11.2026 22:51 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,7 +23,7 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 11.94 $ | 1354.61 $ |
 
-**Hesap değeri: 4,523.11 $** (başlangıç 5,000 $, -476.89 $ / %-9.54)
+**Hesap değeri: 4,522.91 $** (başlangıç 5,000 $, -477.09 $ / %-9.54)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
@@ -67,29 +67,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +11832.47 $ |
-| İşlem sayısı | 0 | 48 |
-| Kazanma oranı | %0.0 | %52.1 |
+| Net kâr/zarar | -1161.25 $ | +10671.22 $ |
+| İşlem sayısı | 1 | 49 |
+| Kazanma oranı | %0.0 | %51.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,614.18 $** (başlangıç 100,000 $, +12614.18 $ / %+12.61)
+**Hesap değeri: 112,383.93 $** (başlangıç 100,000 $, +12383.93 $ / %+12.38)
 
-Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
+Açık pozisyonlar: QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 17.11 22:51 | NVDA | long | -1161.25 $ | stop |
 | 13.11 23:33 | AAPL | long | -1154.98 $ | stop |
 | 13.11 20:09 | TSLA | short | -1169.49 $ | stop |
 | 13.11 18:11 | QQQ | short | +1751.13 $ | take profit |
 | 13.11 17:37 | NVDA | short | +1722.12 $ | take profit |
-| 12.11 23:46 | SPY | long | -466.64 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-17.11 20:56 N  NEWS (40 new) score -0.40 conf 0.55: Altın bir yılın en düşük seviyesinde, ABD doları ve tahvil getirileri yükselirken toparlanmakta zorlanıyor; faiz artırımı beklentileri de baskı yaratıyor. Savaş ve jeopolitik haberleri (İran, Kırım köprüsü saldırısı) güvenli liman talebini kısmen destekliyor olsa da, bu etki ana baskı olan güçlü dolar ve sıkı para politikası beklentileri karşısında sınırlı kalıyor.
 17.11 20:56 N  GPT  score -0.25 conf 0.46: Altın için kısa vadede dolar ve yükselen getirilerin yarattığı baskı, jeopolitik risklerden gelebilecek güvenli liman talebinden ağır basıyor. Doların kâr satışlarıyla geri çekilmesi ve savaş başlıkları düşüşü sınırlayabilir; haber akışı bu nedenle karışık.
 17.11 21:08 N  NEWS (7 new) score -0.40 conf 0.55: Altın yıllık en düşük seviyesine yakın işlem görürken dolar ve tahvil getirileri yükseliyor ve faiz artırımı beklentileri fiyatlamaya devam ediyor; bu, kısa vadede altın için baskılayıcı bir tablo. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir ancak mevcut fiyat hareketinde bu etkinin zayıf kaldığı görülüyor.
 17.11 21:08 N  GPT  score -0.25 conf 0.48: Altın, yükselen dolar ve tahvil getirileri ile faiz artırımı beklentileri nedeniyle baskı altında; Meksika Merkez Bankası yetkilisinin enflasyon riskleri vurgusu da hafifçe olumsuz. İran ve Ukrayna başlıkları güvenli liman talebini destekleyebilir, ancak yeni ve ani bir tırmanış göstermedikleri için
@@ -104,6 +103,7 @@ Son işlemler:
 17.11 22:20 B6  karar turu: Claude «Piyasa günü yaklaşık %1 ekside geçiriyor ancak son saatte satış baskısı durulmuş ve kapanış öncesi hafif tepki alımları görülüyor.» / GPT «Endeksler zayıf ve yönsüz olduğundan şirkete özgü taze katalizörler öncelikli; normal seansın kapanmasına 40 dakika kalması, 1–3 saatlik tutuşta seans sonrası likidite ve braket emirlerinin geçerliliğini önemli kılıyor.»
 17.11 22:32 B6  karar turu: Claude «Piyasa gün genelinde zayıf ama son saatte satış baskısı azaldı ve fiyatlar yatay seyrediyor; kapanışa kadar şirkete özgü olumlu haberler öne çıkabilir.» / GPT «Piyasa zayıf; normal seansın kapanmasına 28 dakika kaldığından 1–3 saatlik işlemler seans dışına taşabilir ve dört kat kaldıraçta stop fiyatından gerçekleşme garanti değildir.»
 17.11 22:46 B6  karar turu: Claude «Piyasa gün genelinde yaklaşık %1,2 düşüşle yatay bir kapanışa ilerliyor ve kalan 15 dakika yeni pozisyon için yeterli avantaj sunmuyor.» / GPT «Endeksler zayıf seyrederken seçici alım tercih ediyorum; normal seansın bitmesine 15 dakika kalması nedeniyle 1–3 saatlik pozisyonlarda uzatılmış seans likiditesi ve braket emirlerinin geçerliliği kritik.»
+17.11 22:51 B6  CLOSE long NVDA stop: -1161.25 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
