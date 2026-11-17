@@ -15,10 +15,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    5000.0
-   ],
-   [
     1794322660,
     5000.0
    ],
@@ -12012,6 +12008,10 @@
    ],
    [
     1794918758,
+    5000.0
+   ],
+   [
+    1794918947,
     5000.0
    ]
   ],
@@ -15087,10 +15087,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    4868.5
-   ],
-   [
     1794322660,
     4868.5
    ],
@@ -27085,14 +27081,18 @@
    [
     1794918758,
     4868.5
+   ],
+   [
+    1794918947,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.6,
-   "reason": "Alt\u0131n, g\u00fc\u00e7lenen dolar, y\u00fcksek enflasyon ve Fed'in art arda faiz art\u0131rma beklentisi nedeniyle bask\u0131 alt\u0131nda; alt\u0131n son bir y\u0131l\u0131n en d\u00fc\u015f\u00fck a\u00e7\u0131l\u0131\u015f\u0131n\u0131 yapt\u0131. \u0130ran sava\u015f\u0131 ve Rusya-Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131yor ve haberler \u00e7o\u011funlukla fiyatlanm\u0131\u015f durumda.",
+   "score": -0.4,
+   "confidence": 0.5,
+   "reason": "Alt\u0131n\u0131n 17 Kas\u0131m'da Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeden a\u00e7\u0131lmas\u0131, g\u00fc\u00e7lenen dolar ve y\u00fcksek enflasyon ba\u015fl\u0131klar\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131nda \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve genel jeopolitik g\u00fcr\u00fclt\u00fc a\u011f\u0131rl\u0131kl\u0131 oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
    "n": 45,
-   "ts": 1794918224482,
+   "ts": 1794918946878,
    "new_headlines": 7,
    "key_events": [
     "Alt\u0131n son bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesinde a\u00e7\u0131ld\u0131; yakla\u015f\u0131k 3.850 dolar \u00e7evresinde zay\u0131f seyrediyor",
@@ -27104,15 +27104,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794415014452,
-    "score": -0.25,
-    "confidence": 0.35,
-    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu Veteran G\u00fcn\u00fc ve sava\u015f anma haberleri olup alt\u0131n fiyat\u0131yla ilgisi yok. Fiyat\u0131 etkileyebilecek unsurlar hafif bask\u0131c\u0131: enflasyonun inat\u00e7\u0131 kalmas\u0131, tahvil faizlerinin y\u00fckselmesi ve Fed'in s\u0131k\u0131 duru\u015funa dair yorumlar (Barkin, Fed ba\u015fkan\u0131) reel faiz beklentilerini yukar\u0131 \u00e7ekip alt\u0131n i\u00e7in olumsuz. Suudi petrol \u00fcretimindeki art\u0131\u015f enflasyon bask\u0131s\u0131n\u0131 azaltabilir ama etkisi s\u0131n\u0131rl\u0131; sava\u015f kaynakl\u0131 g\u00fcvenli liman talebine dair yeni bir t\u0131rman\u0131\u015f yok.",
-    "new": 23,
-    "gpt_score": -0.05,
-    "gpt_confidence": 0.22
-   },
    {
     "ts": 1794415732091,
     "score": -0.6,
@@ -29803,26 +29794,39 @@
     "new": 7,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794918946878,
+    "score": -0.4,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n\u0131n 17 Kas\u0131m'da Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeden a\u00e7\u0131lmas\u0131, g\u00fc\u00e7lenen dolar ve y\u00fcksek enflasyon ba\u015fl\u0131klar\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131nda \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve genel jeopolitik g\u00fcr\u00fclt\u00fc a\u011f\u0131rl\u0131kl\u0131 oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-17",
-   "n": 75
+   "n": 76
   },
   "news_seen": [
+   "EA on Express 24-7: Trump Camp\u2019s \u201cLimbo\u201d in Its War on Iran - EA WorldView",
+   "UK imposes sanctions on eight Israeli firms and a group blocking Gaza aid - Middle East Eye",
    "South African Rand: Coalition risks pressure ZAR against US Dollar \u2013 Commerzbank - FXStreet",
    "Where are the most jobs for 18-24 year-olds?",
+   "\u2018We have money for war, but not to fund climate\u2019: Zambian delegation criticizes Global North over COP31 draft decision - Anadolu Ajans\u0131",
+   "Artemis Gold Inc. (TSXV:ARTG) Stock Faces Downward Pressure as Expansion Risks and Gold Market Volatility Raise Investor Caution - kalkine.ca",
+   "Gold X2 Mining Inc. (TSXV:AUXX) Slides as Moss Gold Drilling Spend, a Pending U.S. Listing and a Royalty Spin-Out Test Patience - kalkine.ca",
    "Gold price today, Tuesday, November 17, 2026: Gold opens at lowest price since September 29, 2025 - Yahoo Finance",
    "Gold, Silver, Rare Earths: A commodities market that refuses to follow the script - The Armchair Trader",
    "James Stanley: Gold faces selling pressure as U.S. dollar strengthens and inflation stays high - Traders Union",
    "Five EU countries call for tougher sanctions on Russian crypto networks - INSIGHT EU MONITORING",
+   "Ukraine\u2019s drone war never belonged to Fedorov, says defence entrepreneur - EU Perspectives",
    "Seth Farrington, U.S. Army DEVCOM Aviation & Missile Center CDAO - CDO Magazine",
    "Breaking Down Meta\u2019s Coming Two-Front War on TV - Next in Media | Mike Shields",
    "Jamie Dimon Declared the U.S. Will Hang On to Its Status as the World's Top Reserve Currency. Here's Why That Confidence Matters for Dollar-Denominated Assets JPMorgan Clients Hold. - The Motley Fool",
    "EU imposes sanctions on 4 Haiti gangs - Antelope Valley Press",
    "Gunmen kill Costa Rican journalist who reported on drugs trade",
-   "1.3137: To act as key support for GBP/USD with UK CPI data on the horizon - FXStreet",
-   "Free agents to invest in, avoid during 2026-27 MLB offseason - ABC7 New York",
    "Sterling edges up against dollar, breaking five-day slump - AOL.com",
    "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
    "EU expands sanctions targeting Russia\u2019s shadow fleet support network - safety4sea",
@@ -29846,20 +29850,14 @@
    "US government confirms investigation into tech firm Megaspeed",
    "Exclusive: Hanwha tests Chunmoo missile from ship off Mississippi - Axios",
    "Sword & Silence: sweeping war epic cuts corners to mimic classic K-dramas - South China Morning Post",
-   "Russia Ukraine War - WV News",
-   "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go",
+   "US Dollar, Gold, Silver Outlook: 2026 Extremes and Key Levels to Watch - FOREX.com",
    "Ed Miliband announces first sanctions on Israeli firms working in West Bank - The Guardian",
    "The NFL\u2019s Salute to Service honors the military \u2013 and leaves out the realities of war | Lee Escobedo - The Guardian",
    "Stories of survival and pain: Children amid Israel\u2019s war on south Lebanon - Al Jazeera",
-   "Trump keeps weighing his Iran options. He should do them all | Opinion - USA Today",
-   "Gold struggles near $3,850 as traders bet on back-to-back Fed rate hikes - FXStreet",
-   "Before the Falklands War, Islanders and Argentines Were Neighbors - Yahoo",
-   "Tracking China\u2019s War of Words Against Japan - The New York Times"
+   "Trump keeps weighing his Iran options. He should do them all | Opinion - USA Today"
   ]
  },
  "log": [
-  "15.11 20:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "15.11 20:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "15.11 20:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30157,7 +30155,9 @@
   "17.11 15:11 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 15:11 N  NEWS (14 new) score -0.40 conf 0.50: Alt\u0131n i\u00e7in bask\u0131 a\u011f\u0131rl\u0131kta: piyasa art arda Fed faiz art\u0131\u015f\u0131 bahis yap\u0131yor (\u015fahin beklenti) ve g\u00fcm\u00fc\u015f, dolar\u0131n g\u00fc\u00e7lenmesiyle d\u00fc\u015f\u00fcyor. Trump'\u0131n Rusya-Ukrayna sava\u015f\u0131n\u0131n \"\u00e7ok yak\u0131n\" oldu\u011fu a\u00e7\u0131klamas\u0131 g\u00fcvenli liman talebini zay\u0131flat\u0131yor; \u0130ran sava\u015f\u0131yla ilgili jeopolitik haberler ise destek sa\u011flasa da daha az yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor ve zaten fiyatlanm\u0131\u015f olabilir.",
   "17.11 15:23 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
-  "17.11 15:23 N  NEWS (7 new) score -0.60 conf 0.60: Alt\u0131n, g\u00fc\u00e7lenen dolar, y\u00fcksek enflasyon ve Fed'in art arda faiz art\u0131rma beklentisi nedeniyle bask\u0131 alt\u0131nda; alt\u0131n son bir y\u0131l\u0131n en d\u00fc\u015f\u00fck a\u00e7\u0131l\u0131\u015f\u0131n\u0131 yapt\u0131. \u0130ran sava\u015f\u0131 ve Rusya-Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131yor ve haberler \u00e7o\u011funlukla fiyatlanm\u0131\u015f durumda."
+  "17.11 15:23 N  NEWS (7 new) score -0.60 conf 0.60: Alt\u0131n, g\u00fc\u00e7lenen dolar, y\u00fcksek enflasyon ve Fed'in art arda faiz art\u0131rma beklentisi nedeniyle bask\u0131 alt\u0131nda; alt\u0131n son bir y\u0131l\u0131n en d\u00fc\u015f\u00fck a\u00e7\u0131l\u0131\u015f\u0131n\u0131 yapt\u0131. \u0130ran sava\u015f\u0131 ve Rusya-Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131yor ve haberler \u00e7o\u011funlukla fiyatlanm\u0131\u015f durumda.",
+  "17.11 15:35 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
+  "17.11 15:35 N  NEWS (7 new) score -0.40 conf 0.50: Alt\u0131n\u0131n 17 Kas\u0131m'da Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeden a\u00e7\u0131lmas\u0131, g\u00fc\u00e7lenen dolar ve y\u00fcksek enflasyon ba\u015fl\u0131klar\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131nda \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131yor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f ve genel jeopolitik g\u00fcr\u00fclt\u00fc a\u011f\u0131rl\u0131kl\u0131 oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu."
  ],
  "gold_big": {
   "account": {
@@ -30344,10 +30344,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    4963.78
-   ],
-   [
     1794322660,
     4963.78
    ],
@@ -42341,6 +42337,10 @@
    ],
    [
     1794918758,
+    4963.78
+   ],
+   [
+    1794918947,
     4963.78
    ]
   ],
@@ -42456,10 +42456,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    4975.18
-   ],
-   [
     1794322660,
     4975.18
    ],
@@ -54453,6 +54449,10 @@
    ],
    [
     1794918758,
+    4975.18
+   ],
+   [
+    1794918947,
     4975.18
    ]
   ],
@@ -54538,10 +54538,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    4993.28
-   ],
-   [
     1794322660,
     4993.28
    ],
@@ -66535,6 +66531,10 @@
    ],
    [
     1794918758,
+    4993.28
+   ],
+   [
+    1794918947,
     4993.28
    ]
   ]
@@ -66745,10 +66745,6 @@
   },
   "equity_curve": [
    [
-    1794322626,
-    4969.22
-   ],
-   [
     1794322660,
     4969.22
    ],
@@ -78742,6 +78738,10 @@
    ],
    [
     1794918758,
+    4969.22
+   ],
+   [
+    1794918947,
     4969.22
    ]
   ],
@@ -81139,10 +81139,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794322626,
-    4610.16
-   ],
    [
     1794322660,
     4610.16
@@ -93138,6 +93134,10 @@
    [
     1794918758,
     4545.26
+   ],
+   [
+    1794918947,
+    4545.26
    ]
   ],
   "news_calls": {
@@ -94224,10 +94224,6 @@
    "equity": 114145.15
   },
   "equity_curve": [
-   [
-    1794322626,
-    111676.47
-   ],
    [
     1794322660,
     111676.47
@@ -106223,6 +106219,10 @@
    [
     1794918758,
     114145.15
+   ],
+   [
+    1794918947,
+    114145.15
    ]
   ],
   "open": {},
@@ -106405,10 +106405,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794322626,
-    4876.96
-   ],
    [
     1794322660,
     4876.96
@@ -118403,6 +118399,10 @@
    ],
    [
     1794918758,
+    4876.96
+   ],
+   [
+    1794918947,
     4876.96
    ]
   ],
