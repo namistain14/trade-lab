@@ -70,7 +70,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %52.1 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 112,521.03 $** (başlangıç 100,000 $, +12521.03 $ / %+12.52)
+**Hesap değeri: 112,635.85 $** (başlangıç 100,000 $, +12635.85 $ / %+12.64)
 
 Açık pozisyonlar: NVDA long @ 154.28 (TP 156.76 / SL 152.90); QQQ long @ 655.92 (TP 665.89 / SL 649.49); TSLA long @ 380.84 (TP 386.76 / SL 377.23)
 
