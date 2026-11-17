@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 00:22 (İstanbul)
+> Son güncelleme: 18.11.2026 00:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -23,13 +23,13 @@
 | Kazanma oranı | %0.0 | %41.2 |
 | Ödenen komisyon/spread | 0.00 $ | 1354.61 $ |
 
-**Hesap değeri: 4,493.60 $** (başlangıç 5,000 $, -506.40 $ / %-10.13)
+**Hesap değeri: 4,488.20 $** (başlangıç 5,000 $, -511.80 $ / %-10.24)
 
 Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
 
-Son haber analizi (18.11 00:14): Claude puan **+0.05**, güven 0.35 — ABD'nin İran'ın Qeshm Adası'ndaki füze sahasına yönelik saldırısı güvenli liman talebini kısa vadede hafif destekliyor. Ancak Fed'in Williams'ın sıkılaştırmadan yana olduğunu, ama "dramatik adım" gerekmediğini söylemesi ve doların güçlü seyri altın üzerinde baskı yaratabileceği için etki sınırlı kalıyor; genel tablo nötre yakın.
+Son haber analizi (18.11 00:26): Claude puan **-0.05**, güven 0.35 — İran savaşının sürmesi ve ABD'nin Qeshm Adası'na yönelik yeni saldırıları jeopolitik risk nedeniyle altı destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Buna karşılık 10 yıllık tahvil getirisinin %5'e yaklaşması ve Fed'li Williams'ın hâlâ sıkılaştırmayı savunması reel faiz ve dolar tarafında altı baskılıyor; bu nedenle net etki hafif negatif.
 
-GPT (gpt-6-luna): puan **+0.45**, güven 0.59 — ABD’nin İran’daki IRGC füze sahasına saldırısı ve Netanyahu’nun tehdit açıklamaları kısa vadede güvenli liman talebini destekleyebilir. Fed’den Williams’ın sıkı politika yanlısı duruşu yükselişi sınırlarken, savaş haberlerinin bir kısmı zaten fiyatlanmış olabilir.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.46 — ABD 10 yıllık tahvil getirisinin %5’in üzerine çıkma beklentisi ve Fed’den gelen sıkılaşmacı mesajlar altın üzerinde baskı yaratabilir. İran’daki çatışmanın sürmesi ve yeni İsrail yaptırımları güvenli liman talebini desteklese de kısa vadeli net etki hafif negatif görünüyor.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 21:56 B6  karar turu: Claude «Piyasa %1'in üzerinde ekside ve yatay-aşağı seyrediyor; son saatte toparlanma zayıf kaldı, kapanışa doğru hafif satış baskısı bekleniyor.» / GPT «Genel görünüm aşağı yönlü; ancak normal seansın bitimine yaklaşık 64 dakika kalması, yüzde 1,5 kâr hedefine ulaşma olasılığını sınırlıyor.»
-17.11 22:08 B6  karar turu: Claude «Piyasa günü yaklaşık %1 düşüşle geçiriyor ve son saatte dengelenmiş görünüyor; kapanışa doğru şirkete özgü olumlu haberler seçici fırsat sunabilir.» / GPT «Piyasa zayıf ve dar bantta; normal seansın kapanmasına 52 dakika kaldığından 1–3 saatlik hedef seans dışına taşabilir ve 1:4 kaldıraç riski büyütür.»
 17.11 22:20 B6  karar turu: Claude «Piyasa günü yaklaşık %1 ekside geçiriyor ancak son saatte satış baskısı durulmuş ve kapanış öncesi hafif tepki alımları görülüyor.» / GPT «Endeksler zayıf ve yönsüz olduğundan şirkete özgü taze katalizörler öncelikli; normal seansın kapanmasına 40 dakika kalması, 1–3 saatlik tutuşta seans sonrası likidite ve braket emirlerinin geçerliliğini önemli kılıyor.»
 17.11 22:32 B6  karar turu: Claude «Piyasa gün genelinde zayıf ama son saatte satış baskısı azaldı ve fiyatlar yatay seyrediyor; kapanışa kadar şirkete özgü olumlu haberler öne çıkabilir.» / GPT «Piyasa zayıf; normal seansın kapanmasına 28 dakika kaldığından 1–3 saatlik işlemler seans dışına taşabilir ve dört kat kaldıraçta stop fiyatından gerçekleşme garanti değildir.»
 17.11 22:46 B6  karar turu: Claude «Piyasa gün genelinde yaklaşık %1,2 düşüşle yatay bir kapanışa ilerliyor ve kalan 15 dakika yeni pozisyon için yeterli avantaj sunmuyor.» / GPT «Endeksler zayıf seyrederken seçici alım tercih ediyorum; normal seansın bitmesine 15 dakika kalması nedeniyle 1–3 saatlik pozisyonlarda uzatılmış seans likiditesi ve braket emirlerinin geçerliliği kritik.»
@@ -102,6 +100,8 @@ Son işlemler:
 18.11 00:01 N  GPT  score +0.35 conf 0.58: İran’daki füze sahasına yönelik ABD saldırısı bölgesel gerilim ve güvenli liman talebini artırarak altını kısa vadede destekleyebilir. Ancak Fed’den gelen temkinli-şahin mesajlar ve doların güçlü seyri yükselişi sınırlıyor; yinelenen haberler ek etkiyi belirsiz kılıyor.
 18.11 00:14 N  NEWS (10 new) score +0.05 conf 0.35: ABD'nin İran'ın Qeshm Adası'ndaki füze sahasına yönelik saldırısı güvenli liman talebini kısa vadede hafif destekliyor. Ancak Fed'in Williams'ın sıkılaştırmadan yana olduğunu, ama "dramatik adım" gerekmediğini söylemesi ve doların güçlü seyri altın üzerinde baskı yaratabileceği için etki sınırlı kalıyor; genel tablo nötre yakın.
 18.11 00:14 N  GPT  score +0.45 conf 0.59: ABD’nin İran’daki IRGC füze sahasına saldırısı ve Netanyahu’nun tehdit açıklamaları kısa vadede güvenli liman talebini destekleyebilir. Fed’den Williams’ın sıkı politika yanlısı duruşu yükselişi sınırlarken, savaş haberlerinin bir kısmı zaten fiyatlanmış olabilir.
+18.11 00:26 N  NEWS (13 new) score -0.05 conf 0.35: İran savaşının sürmesi ve ABD'nin Qeshm Adası'na yönelik yeni saldırıları jeopolitik risk nedeniyle altı destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Buna karşılık 10 yıllık tahvil getirisinin %5'e yaklaşması ve Fed'li Williams'ın hâlâ sıkılaştırmayı savunması reel faiz ve dolar tarafında altı baskılıyor; bu nedenle net etki hafif negatif.
+18.11 00:26 N  GPT  score -0.15 conf 0.46: ABD 10 yıllık tahvil getirisinin %5’in üzerine çıkma beklentisi ve Fed’den gelen sıkılaşmacı mesajlar altın üzerinde baskı yaratabilir. İran’daki çatışmanın sürmesi ve yeni İsrail yaptırımları güvenli liman talebini desteklese de kısa vadeli net etki hafif negatif görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
