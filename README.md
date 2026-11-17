@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 08:14 (İstanbul)
+> Son güncelleme: 17.11.2026 08:18 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 08:05): Claude puan **-0.75**, güven 0.80 — Fed faiz artırımı beklentileri ve 19 aylık zirvedeki dolar altını yıllık dip seviyelerine çekiyor; güvenli liman talebini destekleyecek bir jeopolitik şok yok. Çin alımı ve $3,850 destek seviyesi kısa vadede sınırlı bir toparlanma ihtimali bırakıyor, ancak ana yön aşağı.
+Son haber analizi (17.11 08:18): Claude puan **-0.35**, güven 0.50 — Altın yıllık dip yakınında ve piyasa Fed faiz artırımı beklentileri ile güçlü doların baskısı altında; İran'daki çatışma ve Hormuz'da tanker saldırısı gibi jeopolitik gelişmelere rağmen altın bu haberlere güvenli liman talebiyle tepki vermiyor. Bu nedenle kısa vadede (1-4 saat) hafif-orta düzeyde düşüş yönlü bir baskı bekliyorum; ancak haberlerin birçoğu tekrar eden ve fiyatlanmış nitelikte olduğundan güven sınırlı.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 07:17 N  NEWS (16 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentileri ve güçlü doların baskısıyla yaklaşık bir yılın en düşük seviyesine yakın işlem görüyor; reel faiz ve dolar tarafındaki bu baskı kısa vadede altı aşağı çekme eğiliminde. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak haberlerde bu desteğin mevcut sert satış baskısını dengelemediği görülüyor; ayrıca 3.850 destek seviyesi ve ABD perakende satış verisi kısa vadede tepki yaratabilir.
-17.11 07:29 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 07:29 N  NEWS (15 new) score -0.50 conf 0.60: Altın, dolar endeksinin 19 aylık zirvesi ve Fed faiz artırımı beklentileri nedeniyle bir yıllık dibe yakın işlem görüyor; bu baskı kısa vadede altın için olumsuz. İran savaşına dair jeopolitik risk ve Vance'in "uzun süreli savaş olmayacak" açıklamaları güvenli liman talebini sınırlıyor, bu da tabloyu yalnızca kısmen dengeliyor.
 17.11 07:41 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 07:41 N  NEWS (43 new) score -0.70 conf 0.70: Altın, güçlenen dolar (19 aylık zirve) ve Fed faiz artırımı beklentileri nedeniyle yıllık en düşük seviyeye yakın ($3.850) işlem görüyor; jeopolitik risk kaynaklı güvenli liman talebi ise haberlerde yok. 04:37 UTC'de hafif toparlanma haberi olsa da bu yukarı yönlü hareketin Fed ve dolar baskısıyla sınırlı kalacağı belirtiliyor; haberlerin çoğu tekrar niteliğinde olduğundan güven orta-yüksek.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 17.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 17.11 08:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+17.11 08:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 08:18 N  NEWS (28 new) score -0.35 conf 0.50: Altın yıllık dip yakınında ve piyasa Fed faiz artırımı beklentileri ile güçlü doların baskısı altında; İran'daki çatışma ve Hormuz'da tanker saldırısı gibi jeopolitik gelişmelere rağmen altın bu haberlere güvenli liman talebiyle tepki vermiyor. Bu nedenle kısa vadede (1-4 saat) hafif-orta düzeyde düşüş yönlü bir baskı bekliyorum; ancak haberlerin birçoğu tekrar eden ve fiyatlanmış nitelikte olduğundan güven sınırlı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
