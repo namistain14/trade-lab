@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 17.11.2026 09:27 (İstanbul)
+> Son güncelleme: 17.11.2026 09:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,7 +25,7 @@
 
 **Hesap değeri: 4,545.26 $** (başlangıç 5,000 $, -454.74 $ / %-9.09)
 
-Son haber analizi (17.11 09:18): Claude puan **-0.30**, güven 0.50 — Haberler karışık ama ağırlıklı olarak altın için negatif: Fed faiz artırımı beklentileri, doların 19 aylık zirvesi ve 5% Hazine getirisi altın üzerinde baskı yaratıyor. Hormuz'daki tanker saldırısı ve İran gerilimi güvenli liman talebini destekleyebilir, ancak ABD'nin "sonsuz savaş" olmayacağını belirtmesi ve petrol fiyatlarının düşmesi bu etkiyi sınırlıyor. Bazı başlıklar eski veya çelişkili olduğu için güven düşük tutuldu.
+Son haber analizi (17.11 09:30): Claude puan **-0.10**, güven 0.35 — İran'daki savaş ve Hürmüz'de tanker saldırısı gibi yeni jeopolitik gerilim unsurları güvenli liman talebini destekliyor. Ancak Fed faiz artırımı beklentileri, güçlenen dolar ve "aşırı satım" yorumları gibi baskılar altın üzerinde daha ağır basıyor; bu nedenle net etki hafif negatif ve düşük güvenle değerlendiriliyor.
 
 Son işlemler:
 
@@ -83,8 +83,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-17.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-17.11 08:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 17.11 08:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 17.11 08:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 08:18 N  NEWS (28 new) score -0.35 conf 0.50: Altın yıllık dip yakınında ve piyasa Fed faiz artırımı beklentileri ile güçlü doların baskısı altında; İran'daki çatışma ve Hormuz'da tanker saldırısı gibi jeopolitik gelişmelere rağmen altın bu haberlere güvenli liman talebiyle tepki vermiyor. Bu nedenle kısa vadede (1-4 saat) hafif-orta düzeyde düşüş yönlü bir baskı bekliyorum; ancak haberlerin birçoğu tekrar eden ve fiyatlanmış nitelikte olduğundan güven sınırlı.
@@ -98,6 +96,8 @@ Son işlemler:
 17.11 09:06 N  NEWS (18 new) score -0.40 conf 0.60: Faiz artırımı beklentileri ve güçlenen dolar altın için baskılayıcı; Warsh'ın inflasyon nedeniyle faiz artırımına yaklaştığına dair haberler ve doların 19 aylık zirvesi altını aşağı çekiyor. İran ve Ukrayna'daki gerilim güvenli liman talebi yaratabilir, ancak petrolün düşmesi ve ABD'nin "sonsuz savaş" ihtimalini reddetmesi bu etkiyi sınırlıyor; ayrıca Hazine tahvil satışıyla doların bir miktar zayıflaması karışık sinyal veriyor.
 17.11 09:18 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
 17.11 09:18 N  NEWS (6 new) score -0.30 conf 0.50: Haberler karışık ama ağırlıklı olarak altın için negatif: Fed faiz artırımı beklentileri, doların 19 aylık zirvesi ve 5% Hazine getirisi altın üzerinde baskı yaratıyor. Hormuz'daki tanker saldırısı ve İran gerilimi güvenli liman talebini destekleyebilir, ancak ABD'nin "sonsuz savaş" olmayacağını belirtmesi ve petrol fiyatlarının düşmesi bu etkiyi sınırlıyor. Bazı başlıklar eski veya çelişkili olduğu için güven düşük tutuldu.
+17.11 09:30 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin
+17.11 09:30 N  NEWS (8 new) score -0.10 conf 0.35: İran'daki savaş ve Hürmüz'de tanker saldırısı gibi yeni jeopolitik gerilim unsurları güvenli liman talebini destekliyor. Ancak Fed faiz artırımı beklentileri, güçlenen dolar ve "aşırı satım" yorumları gibi baskılar altın üzerinde daha ağır basıyor; bu nedenle net etki hafif negatif ve düşük güvenle değerlendiriliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
