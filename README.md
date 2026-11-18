@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 19:06 (İstanbul)
+> Son güncelleme: 18.11.2026 19:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,065.21 $** (başlangıç 5,000 $, +65.21 $ / %+1.30)
+**Hesap değeri: 5,066.26 $** (başlangıç 5,000 $, +66.26 $ / %+1.33)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +242.21 $ | -268.49 $ |
-| İşlem sayısı | 18 | 132 |
-| Kazanma oranı | %55.6 | %43.2 |
-| Ödenen komisyon/spread | 215.77 $ | 1570.38 $ |
+| Net kâr/zarar | +311.22 $ | -199.48 $ |
+| İşlem sayısı | 19 | 133 |
+| Kazanma oranı | %57.9 | %43.6 |
+| Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,780.06 $** (başlangıç 5,000 $, -219.94 $ / %-4.40)
-
-Açık pozisyonlar: PAXGUSDT short @ 3753.06 (TP 3741.80 / SL 3760.57)
+**Hesap değeri: 4,800.52 $** (başlangıç 5,000 $, -199.48 $ / %-3.99)
 
 Son haber analizi (18.11 19:03): Claude puan **-0.60**, güven 0.65 — Fed Governor Waller'ın faiz artırımı (50 baz puan, "şok" artırım) çağrısı reel faiz ve Fed beklentilerini sertleştirerek altın için güçlü bir baskı yaratıyor; altın zaten 14 aylık dibe (3.800 doları altı) gerilemiş durumda. İran savaşının tırmanması (Kuveyt/Bahreyn saldırıları, ABD füze saldırısı) normalde güvenli liman talebini artırsa da, piyasanın bu jeopolitik riskleri göz ardı edip faiz kanalına tepki verdiği görülüyor; bu nedenle net etki kısa vadede negatif.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 19:09 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 18:09 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 17:44 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 16:08 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 15:38 | PAXGUSDT | short | +69.02 $ | take profit |
-| 18.11 15:09 | PAXGUSDT | short | -56.01 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -76,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,987.20 $** (başlangıç 100,000 $, +14987.20 $ / %+14.99)
+**Hesap değeri: 114,952.77 $** (başlangıç 100,000 $, +14952.77 $ / %+14.95)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 18:20 B6  AÇIĞA SATIŞ AAPL 322 adet ≈ 113,933 $ (1:4) @ 353.83 (TP 348.52, SL 357.37; ikisi de hemfikir, güven 0.45)
-18.11 18:26 N  NEWS (8 new) score -0.70 conf 0.72: Altın, Fed'in agresif sıkılaştırma beklentileriyle 14 aylık dibe geriledi; Waller'ın yüzde 100 baz puan veya daha fazla faiz artırımına işaret eden açıklamaları, güçlenen dolar (UUP 52 haftalık zirvede) ve yükselen tahvil getirileri altın üzerinde baskı yaratıyor. Iran ve Ukrayna savaşlarındaki jeopolitik riskler güvenli liman talebini destekleyebilir, ancak bu etki faiz beklentilerinin gerisinde kalıyor.
 18.11 18:26 N  GPT  score -0.75 conf 0.78: Waller’ın enflasyona karşı daha sert Fed tepkisi gerektiği yönündeki açıklamaları ve artan faiz artışı beklentileri, yükselen dolar ile birlikte kısa vadede altın üzerinde belirgin baskı yaratıyor. İran ve diğer çatışmalara ilişkin riskler güvenli liman talebini destekleyebilir; ancak bu başlıklar ç
 18.11 18:32 B6  karar turu: Claude «Piyasa yatay ve kararsız; NVDA'daki SEC haberi teknoloji tarafında baskı yaratabilir, seçici ve dikkatli olmak gerekiyor.» / GPT «Endekslerde son yükselişlerin korunamaması aşağı yönlü işlemleri destekliyor, ancak manşetler New York saatiyle birkaç saatlik olduğundan taze katalizör sayılmamalı.»
 18.11 18:38 N  NEWS (12 new) score -0.70 conf 0.72: Fed yetkililerinden gelen sert şahin mesajlar (Waller'ın yarım puanlık Aralık faiz artırımı ve "şok" artırım ihtimali) reel faiz beklentilerini yükseltip doları destekleyerek altı baskılıyor. Altın zaten 14 aylık dibe inmiş durumda. İran'ın Kuveyt ve Bahreyn'e saldırısı güvenli liman talebini artırabilir, ancak bu etki faiz beklentilerinin gölgesinde kalıyor; bu nedenle ağırlıklı olarak negatif bir görünüm var.
@@ -108,6 +104,8 @@ Son işlemler:
 18.11 18:57 B6  karar turu: Claude «Piyasa öğleden önce hafif negatif seyrediyor; NVDA kaynaklı haber riski teknoloji tarafında satış baskısını canlı tutuyor.» / GPT «Piyasa kısa vadede zayıf ancak diplerden toparlanıyor; yeni şirket haberleriyle desteklenmeyen işlemlerde ve dört kat kaldıraçta temkin gerekli.»
 18.11 19:03 N  NEWS (12 new) score -0.60 conf 0.65: Fed Governor Waller'ın faiz artırımı (50 baz puan, "şok" artırım) çağrısı reel faiz ve Fed beklentilerini sertleştirerek altın için güçlü bir baskı yaratıyor; altın zaten 14 aylık dibe (3.800 doları altı) gerilemiş durumda. İran savaşının tırmanması (Kuveyt/Bahreyn saldırıları, ABD füze saldırısı) normalde güvenli liman talebini artırsa da, piyasanın bu jeopolitik riskleri göz ardı edip faiz kanalına tepki verdiği görülüyor; bu nedenle net etki kısa vadede negatif.
 18.11 19:03 N  GPT  score -0.48 conf 0.66: Waller’ın 50 baz puanlık faiz artırımı ve enflasyonu düşürmek için şok sıkılaşma çağrısı, reel faizler ve dolar beklentileri üzerinden altın için belirgin baskı yaratıyor; sert düşüş de satış momentumuna işaret ediyor. İran çevresindeki yeni saldırı haberleri güvenli liman talebini destekleyebilir, 
+18.11 19:09 B5  CLOSE short take profit: +69.02 USD
+18.11 19:09 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay-hafif negatif seyrediyor; NVDA'daki şirket özel olumsuz haberler endeksleri sınırlı etkiliyor ve yön belirsiz.» / GPT «Endekslerde toparlanma kırılgan; şirkete özgü haberler yeni endeks işlemlerine güçlü destek vermediğinden SPY satışında avantaj sınırlı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
