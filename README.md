@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 00:22 (İstanbul)
+> Son güncelleme: 19.11.2026 00:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,082.90 $** (başlangıç 5,000 $, +82.90 $ / %+1.66)
+**Hesap değeri: 5,084.93 $** (başlangıç 5,000 $, +84.93 $ / %+1.70)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %0.0 | %44.1 |
 | Ödenen komisyon/spread | 0.00 $ | 1618.41 $ |
 
-**Hesap değeri: 4,864.64 $** (başlangıç 5,000 $, -135.36 $ / %-2.71)
+**Hesap değeri: 4,873.43 $** (başlangıç 5,000 $, -126.57 $ / %-2.53)
 
 Açık pozisyonlar: PAXGUSDT short @ 3722.31 (TP 3711.14 / SL 3729.75)
 
-Son haber analizi (19.11 00:13): Claude puan **-0.60**, güven 0.70 — FOMC tutanakları ve Fed yetkililerinin (Waller dahil) sert faiz artırımı sinyalleri doların güçlenmesine ve reel faizlerin yükselmesine yol açıyor; bu, altın için belirgin bir baskı yaratıyor. İran savaşı ve Orta Doğu gerilimi jeopolitik güvenli liman talebini destekliyor olsa da, bu etki hawkish Fed ve dolar rallisinin gerisinde kalıyor.
+Son haber analizi (19.11 00:25): Claude puan **-0.60**, güven 0.60 — Fed tutanakları ve Waller'ın sert açıklamaları faiz artırımı beklentilerini güçlendirdi, dolar yıllık zirvelere yaklaşırken altın üzerinde baskı oluşturuyor. İran'daki çatışmanın genişlemesi güvenli liman talebini destekleyebilir, ancak bu etki kısa vadede hawkish Fed ve güçlü doların gerisinde kalıyor.
 
-GPT (gpt-6-luna): puan **-0.70**, güven 0.78 — Fed tutanaklarında enflasyon kaygıları ve daha fazla faiz artışı beklentisi öne çıkarken dolar güçleniyor; bu, kısa vadede altın için belirgin baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de haberlerin bir bölümü zaten fiyatlanmış görünüyor.
+GPT (gpt-6-luna): puan **+0.15**, güven 0.58 — İran’ın Körfez’deki saldırıları genişletmesi kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak Fed’in daha fazla faiz artışına açık olduğuna dair sinyaller ve güçlü dolar bu etkiyi sınırlıyor; haber akışı iki yönlü.
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 22:24 B6  karar turu: Claude «Piyasa kapanışa doğru kararsız; QQQ'nun pozitif, SPY'nin negatif olması zayıf bir genişliğe işaret ediyor ama net bir yön sinyali yok.» / GPT «Endekslerde son yükselişlerin geri verilmesi satış baskısına işaret ederken normal seansın kapanmasına yalnızca 36 dakika kalması 1–3 saatlik işlem ufkunu kısıtlıyor.»
-18.11 22:36 B6  karar turu: Claude «Kapanışa doğru endekslerde satış baskısı sürüyor, ancak seans sonuna az kaldığı için yeni pozisyon açmanın risk/getiri oranı zayıf.» / GPT «Endekslerde kapanışa doğru satış baskısı baskın; ancak normal seansa yalnızca 24 dakika kalması, 1–3 saatlik işlemlerde seans sonrası likidite ve kaldıraç riskini artırıyor.»
 18.11 22:48 B6  karar turu: Claude «Endeksler son saatte satış baskısıyla zayıf kapanışa gidiyor; kapanışa çok az süre kaldığı için yeni pozisyon açmak mantıklı değil.» / GPT «SPY ve QQQ'daki aşağı yönlü ivme satıcıları destekliyor, ancak kapanışın yakınlığı ve kaldıraç seans sonrası likidite riskini artırıyor.»
 18.11 23:00 B6  karar turu: Claude «Endeksler gün sonunda yatay ve hafif zayıf kapandı; seans sonrasında yeni pozisyon açmak için yeterli avantaj görünmüyor.» / GPT «Endekslerde son saat zayıflığı baskın; kapanış sonrası işlemlerde düşük likidite ve braket emirlerinin tetiklenme belirsizliği nedeniyle yeni pozisyon açmıyorum.»
 18.11 23:12 B6  karar turu: Claude «Piyasa kapanışta karışık ve yatay; seans sonrasında yeni pozisyon için yeterli avantaj görünmüyor.» / GPT «16:12 New York saatinde normal seans kapanmış durumda; dar fiyat aralıkları, önümüzdeki 1–3 saatte %1,5 hedef için kaldıraçlı yeni pozisyonu desteklemiyor.»
@@ -106,6 +104,8 @@ Son işlemler:
 19.11 00:01 B5  SHORT gold 25000 USD x10 @ 3722.31 (TP 3711.14, SL 3729.75; news -0.35)
 19.11 00:13 N  NEWS (28 new) score -0.60 conf 0.70: FOMC tutanakları ve Fed yetkililerinin (Waller dahil) sert faiz artırımı sinyalleri doların güçlenmesine ve reel faizlerin yükselmesine yol açıyor; bu, altın için belirgin bir baskı yaratıyor. İran savaşı ve Orta Doğu gerilimi jeopolitik güvenli liman talebini destekliyor olsa da, bu etki hawkish Fed ve dolar rallisinin gerisinde kalıyor.
 19.11 00:13 N  GPT  score -0.70 conf 0.78: Fed tutanaklarında enflasyon kaygıları ve daha fazla faiz artışı beklentisi öne çıkarken dolar güçleniyor; bu, kısa vadede altın için belirgin baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de haberlerin bir bölümü zaten fiyatlanmış görünüyor.
+19.11 00:25 N  NEWS (12 new) score -0.60 conf 0.60: Fed tutanakları ve Waller'ın sert açıklamaları faiz artırımı beklentilerini güçlendirdi, dolar yıllık zirvelere yaklaşırken altın üzerinde baskı oluşturuyor. İran'daki çatışmanın genişlemesi güvenli liman talebini destekleyebilir, ancak bu etki kısa vadede hawkish Fed ve güçlü doların gerisinde kalıyor.
+19.11 00:25 N  GPT  score +0.15 conf 0.58: İran’ın Körfez’deki saldırıları genişletmesi kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak Fed’in daha fazla faiz artışına açık olduğuna dair sinyaller ve güçlü dolar bu etkiyi sınırlıyor; haber akışı iki yönlü.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
