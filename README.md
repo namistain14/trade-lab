@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 22:06 (İstanbul)
+> Son güncelleme: 18.11.2026 22:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,070.72 $** (başlangıç 5,000 $, +70.72 $ / %+1.41)
+**Hesap değeri: 5,073.97 $** (başlangıç 5,000 $, +73.97 $ / %+1.48)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +324.22 $ | -186.48 $ |
-| İşlem sayısı | 21 | 135 |
-| Kazanma oranı | %57.1 | %43.7 |
-| Ödenen komisyon/spread | 251.79 $ | 1606.40 $ |
+| Net kâr/zarar | +393.23 $ | -117.47 $ |
+| İşlem sayısı | 22 | 136 |
+| Kazanma oranı | %59.1 | %44.1 |
+| Ödenen komisyon/spread | 263.80 $ | 1618.41 $ |
 
-**Hesap değeri: 4,862.65 $** (başlangıç 5,000 $, -137.35 $ / %-2.75)
-
-Açık pozisyonlar: PAXGUSDT short @ 3736.49 (TP 3725.28 / SL 3743.97)
+**Hesap değeri: 4,882.53 $** (başlangıç 5,000 $, -117.47 $ / %-2.35)
 
 Son haber analizi (18.11 20:41): Claude puan **-0.70**, güven 0.72 — Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 22:08 | PAXGUSDT | short | +69.01 $ | take profit |
 | 18.11 21:32 | PAXGUSDT | short | -56.02 $ | stop |
 | 18.11 20:52 | PAXGUSDT | short | +69.01 $ | take profit |
 | 18.11 19:09 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 18:09 | PAXGUSDT | short | +69.02 $ | take profit |
-| 18.11 17:44 | PAXGUSDT | short | -56.01 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -76,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,716.51 $** (başlangıç 100,000 $, +14716.51 $ / %+14.72)
+**Hesap değeri: 114,784.66 $** (başlangıç 100,000 $, +14784.66 $ / %+14.78)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -93,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 20:35 B6  ALIŞ QQQ 172 adet ≈ 113,833 $ (1:4) @ 661.82 (TP 671.75, SL 655.2; ikisi de hemfikir, güven 0.50)
 18.11 20:41 N  NEWS (12 new) score -0.70 conf 0.72: Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
 18.11 20:41 N  GPT  score -0.68 conf 0.72: Fed yetkililerinden enflasyonun kalıcılığı ve 50 baz puanlık faiz artışı yönündeki şahin mesajlar doları ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. Altının sert düşmüş olması ve Putin-Trump görüşmesiyle Ukrayna savaşının sona erdirilmesine yönelik girişimler bu etkiyi kısme
 18.11 20:47 B6  karar turu: Claude «Piyasa öğleden sonra toparlansa da zirveden hafif geri çekiliyor; teknoloji tarafı karışık, NVDA'daki SEC haberi ise duyarlılığı baskılıyor.» / GPT «Endekslerde saatlik toparlanma sürse de zirvelerden geri çekilme var; dört kat kaldıraç nedeniyle yeni pozisyonlarda küçük teminat tahsisi ve disiplinli stop gerekli.»
@@ -108,6 +105,7 @@ Son işlemler:
 18.11 21:38 B5  SHORT gold 25000 USD x10 @ 3736.49 (TP 3725.28, SL 3743.97; news -0.69)
 18.11 21:47 B6  karar turu: Claude «NVDA'daki SEC soruşturması ve AAPL kesintisine rağmen endeksler son bir saatte toparlanıyor ve teknoloji ağırlıklı alımlarla piyasa hafif pozitif seyrediyor.» / GPT «Endekslerde toparlanma eğilimi var ancak son fiyatlardaki ivme kaybı yeni kaldıraçlı girişlerin avantajını sınırlıyor.»
 18.11 21:59 B6  karar turu: Claude «Teknoloji ağırlıklı endeksler NVDA'daki SEC soruşturması ve Apple kesintisine rağmen dirençli; gün sonuna doğru ılımlı pozitif seyir bekleniyor.» / GPT «Teknoloji öncülüğünde sınırlı pozitif seyir sürse de son barlardaki duraksama, kapanış öncesinde kaldıraçlı yeni pozisyonların cazibesini azaltıyor.»
+18.11 22:09 B5  CLOSE short take profit: +69.01 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
