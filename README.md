@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 20:13 (İstanbul)
+> Son güncelleme: 18.11.2026 20:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,086.21 $** (başlangıç 5,000 $, +86.21 $ / %+1.72)
+**Hesap değeri: 5,086.37 $** (başlangıç 5,000 $, +86.37 $ / %+1.73)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,825.19 $** (başlangıç 5,000 $, -174.81 $ / %-3.50)
+**Hesap değeri: 4,827.46 $** (başlangıç 5,000 $, -172.54 $ / %-3.45)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
-Son haber analizi (18.11 20:04): Claude puan **+0.15**, güven 0.30 — Yeni gelen başlıkların çoğu (Ukrayna cephe hattı, Fransa davası) altın fiyatıyla doğrudan ilgili değil. Kuwait'in İran saldırısını püskürttüğü haberi ve ABD'nin adaya saldırıları jeopolitik gerilimi artırarak hafif güvenli liman talebini destekleyebilir, ancak bu haber saat 13:04'te geldiği için büyük ölçüde fiyatlanmış olabilir. İngiltere'deki enflasyon artışı ve ABD Fed beklentisine dair net bir sinyal yok; bu nedenle etki sınırlı ve belirsiz.
+Son haber analizi (18.11 20:16): Claude puan **+0.05**, güven 0.25 — Başlıkların çoğu altın piyasasıyla ilgisiz. Kuwait'in İran saldırısını püskürttüğü haberi hafif güvenli liman talebi yaratabilir, ancak 13:04 UTC'de geldiği ve fiyatlanmış olabileceği için etkisi sınırlı. Trump-Putin-Xi zirvesi ve İngiltere'de enerji faturası/enflasyon artışı ise karşıt yönde etkiler taşıyor, bu nedenle net sinyal zayıf.
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.32 — İran saldırısı ve Ukrayna’daki çatışma güvenli liman talebini sınırlı ölçüde destekleyebilir; ancak haberlerin altın üzerindeki kısa vadeli etkisi belirsiz ve yeni bir tırmanış net değil. İngiltere enflasyonundaki artışın faiz beklentilerini destekleme olasılığı ile Trump-Putin-Xi görüşmeleri yönü d
+GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — Kuveyt’in İran saldırısını püskürttüğü haberi kısa vadeli güvenli liman talebini destekleyebilir; ancak Trump-Putin-Xi görüşmesindeki uzlaşmacı görüntü ve yeni ABD faiz/dolar sinyallerinin yokluğu etkiyi sınırlıyor. Haber akışı karışık olduğundan yön konusunda güven düşük.
 
 Son işlemler:
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,211.35 $** (başlangıç 100,000 $, +16211.35 $ / %+16.21)
+**Hesap değeri: 116,091.23 $** (başlangıç 100,000 $, +16091.23 $ / %+16.09)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 19:15 N  GPT  score -0.70 conf 0.72: Waller’ın faiz artırımı çağrısı doları ve getirileri destekleyerek altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de aşağı yönlü momentumu gösteriyor. Trump’ın Putin ve Xi ile görüşmesi güvenli liman talebini azaltabilir, ancak devam eden çatışma haberleri düşüşü kısmen sınırlıyor.
-18.11 19:15 B5  SHORT gold 25000 USD x10 @ 3741.38 (TP 3730.16, SL 3748.86; news -0.60)
 18.11 19:21 B6  karar turu: Claude «Piyasa öğle saatlerinde teknoloji liderliğinde zayıflıyor ve NVIDIA'daki regülasyon haberleri risk iştahını baskılıyor, bu nedenle kısa vadeli eğilim aşağı yönlü.» / GPT «Endekslerde gün içi düşüş eğilimi baskın; ancak hareketin bir kısmı gerçekleştiğinden ve başlıklar saatler öncesine ait olduğundan tepki yükselişi riski gözetilmeli.»
 18.11 19:27 N  NEWS (5 new) score -0.60 conf 0.70: Fed Governor Waller'ın 50 baz puanlık faiz artırımı çağrısı ve doların 19 aylık zirveye yakın seyretmesi, reel faiz ve dolar kanallarından altı baskılıyor. Jeopolitik gerilim (İran saldırıları, ABD'nin İran füze sahasını vurması) güvenli liman talebi yaratabilir, ancak altın zaten 14 aylık dibe inmiş durumda ve bu risk primi etkisi şimdiye kadar sınırlı kaldı; bu nedenle ağırlık hawkish Fed ve güçlü dolar tarafında.
 18.11 19:27 N  GPT  score -0.68 conf 0.78: Waller’ın 50 baz puanlık faiz artışı çağrısı, yükselen enflasyon beklentileri ve doların 19 ayın zirvesine yaklaşması kısa vadede altın üzerinde belirgin baskı yaratıyor; düşüşün zaten sertleşmiş olması ek aşağı hareketin boyutuna ilişkin güveni sınırlıyor. İran ve Ukrayna kaynaklı riskler güvenli l
@@ -108,6 +106,8 @@ Son işlemler:
 18.11 20:04 N  NEWS (3 new) score +0.15 conf 0.30: Yeni gelen başlıkların çoğu (Ukrayna cephe hattı, Fransa davası) altın fiyatıyla doğrudan ilgili değil. Kuwait'in İran saldırısını püskürttüğü haberi ve ABD'nin adaya saldırıları jeopolitik gerilimi artırarak hafif güvenli liman talebini destekleyebilir, ancak bu haber saat 13:04'te geldiği için büyük ölçüde fiyatlanmış olabilir. İngiltere'deki enflasyon artışı ve ABD Fed beklentisine dair net bir sinyal yok; bu nedenle etki sınırlı ve belirsiz.
 18.11 20:04 N  GPT  score +0.18 conf 0.32: İran saldırısı ve Ukrayna’daki çatışma güvenli liman talebini sınırlı ölçüde destekleyebilir; ancak haberlerin altın üzerindeki kısa vadeli etkisi belirsiz ve yeni bir tırmanış net değil. İngiltere enflasyonundaki artışın faiz beklentilerini destekleme olasılığı ile Trump-Putin-Xi görüşmeleri yönü d
 18.11 20:10 B6  karar turu: Claude «Piyasa dar bir bantta kararsız seyrediyor; NVDA kaynaklı olumsuz haber akışı teknoloji tarafında baskı riski oluştururken endekslerde net bir sinyal bulunmuyor.» / GPT «Endeksler yönsüz; şirket haberleri New York saatine göre birkaç saatlik olduğundan taze katalizör sayılmaz ve mevcut görünüm kaldıraçlı yeni girişleri desteklemiyor.»
+18.11 20:16 N  NEWS (1 new) score +0.05 conf 0.25: Başlıkların çoğu altın piyasasıyla ilgisiz. Kuwait'in İran saldırısını püskürttüğü haberi hafif güvenli liman talebi yaratabilir, ancak 13:04 UTC'de geldiği ve fiyatlanmış olabileceği için etkisi sınırlı. Trump-Putin-Xi zirvesi ve İngiltere'de enerji faturası/enflasyon artışı ise karşıt yönde etkiler taşıyor, bu nedenle net sinyal zayıf.
+18.11 20:16 N  GPT  score +0.15 conf 0.34: Kuveyt’in İran saldırısını püskürttüğü haberi kısa vadeli güvenli liman talebini destekleyebilir; ancak Trump-Putin-Xi görüşmesindeki uzlaşmacı görüntü ve yeni ABD faiz/dolar sinyallerinin yokluğu etkiyi sınırlıyor. Haber akışı karışık olduğundan yön konusunda güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
