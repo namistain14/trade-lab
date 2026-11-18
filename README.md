@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 17:10 (İstanbul)
+> Son güncelleme: 18.11.2026 17:13 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,027.59 $** (başlangıç 5,000 $, +27.59 $ / %+0.55)
+**Hesap değeri: 5,028.36 $** (başlangıç 5,000 $, +28.36 $ / %+0.57)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -27,9 +27,9 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 **Hesap değeri: 4,718.50 $** (başlangıç 5,000 $, -281.50 $ / %-5.63)
 
-Son haber analizi (18.11 17:01): Claude puan **-0.70**, güven 0.70 — Şahin Fed açıklamaları (Waller'ın "şok" faiz artırımı ihtimali, Fed'in dört kez artırabileceği yorumu) ve 19 aylık zirveye çıkan dolar, altın üzerinde güçlü baskı yaratıyor; altın zaten %2 düşüşle bir yılın en düşük seviyesinde. İran ve Suudi-Husi savaşı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısı karşısında sınırlı kalıyor. Bazı başlıklar eski veya çelişkili olduğu için güven orta seviyede tutuldu.
+Son haber analizi (18.11 17:13): Claude puan **-0.55**, güven 0.60 — Fed yetkililerinin sıkılaştırma sinyalleri (Waller'ın "şok" faiz artışı, Aralık'ta faiz artırma olasılığının %95'e çıkması) ve 19 aylık zirveye çıkan dolar, altın üzerinde baskı yaratıyor; altın zaten 14 aylık dibe inmiş durumda. İran savaşı ve Kuveyt'e yönelik saldırı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak piyasanın bu haberlere şimdiye kadar yanıtı zayıf kaldı; bu nedenle kısa vadede baskı sürmesi daha olası.
 
-GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Fed yetkililerinin daha sert ve daha fazla faiz artışı sinyali ile doların güçlenmesi, kısa vadede altın için belirgin biçimde olumsuz; altındaki sert düşüş bu baskının fiyatlandığını da gösteriyor. Suudi Arabistan-Husi çatışmasının uzayabileceği haberi güvenli liman talebini destekleyebilir, ancak 
+GPT (gpt-6-luna): puan **-0.78**, güven 0.84 — Fed yetkililerinin daha agresif faiz artışı mesajları ve Aralık artışına ilişkin yüksek olasılık, doların 52 haftanın zirvesine çıkmasıyla birlikte altın üzerinde güçlü kısa vadeli baskı yaratıyor. İran ve bölgesel çatışma haberleri güvenli liman talebini destekleyebilir; ancak mevcut fiyat hareketi
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 15:48 N  GPT  score -0.48 conf 0.68: Waller’ın enflasyon uyarısı ve olası faiz artışları ile doların güçlenmesi, kısa vadede altın üzerinde baskı kuruyor; fiyatın 3.800 doların altına inmesi satış momentumunu da gösteriyor. ETF girişleri ve Etiyopya-Eritre gerilimi destekleyici olsa da bu etkiler şimdilik baskıyı dengelemeye yetmeyebil
-18.11 16:00 N  NEWS (6 new) score -0.60 conf 0.65: Fed yetkililerinin (Waller dahil) faiz artırımı sinyalleri ve yükselen dolar, Fed tutanakları öncesinde altın üzerinde baskı yaratıyor; altın 3.800 doların altında ve 3.700'e doğru satış sürüyor. Iran savaşının sürmesi güvenli liman talebini destekleyebilir, ancak bu etki şu an fiyatlara yansımıyor.
 18.11 16:00 N  GPT  score -0.45 conf 0.62: Altın 3.800 doların altına gerileyip teknik destekleri kırarken doların yükselmesi ve Fed yetkilisinin yeni faiz artışlarına açık kapı bırakması kısa vadede baskıyı artırıyor. Çin ve ETF talebine ilişkin haberler destekleyici olsa da daha uzun vadeli; Fed tutanakları öncesinde belirsizlik yüksek.
 18.11 16:09 B5  CLOSE short stop: -56.01 USD
 18.11 16:12 N  NEWS (13 new) score -0.70 conf 0.70: Fed yetkilisi Waller'ın 50 baz puanlık faiz artırımı çağrısı, Fed tutanaklarına odaklanma ve güçlenen doların piyasaya hakim olması altın için net baskı yaratıyor; altın yıllık dip seviyelerine geriliyor. İran savaşının tırmanması güvenli liman talebi açısından destekleyici olsa da bu etkiyi belirgin şekilde bastırıyor. Kaynaklar arasındaki fiyat seviyeleri tutarsız olduğu için güven biraz kırpıldı.
@@ -104,6 +102,8 @@ Son işlemler:
 18.11 16:49 N  GPT  score -0.82 conf 0.82: Altının 14 ayın dibine gerilemesi ve doların 19 ayın zirvesine çıkması kısa vadeli satış baskısını destekliyor. Waller’ın daha büyük faiz artışlarını gündeme getirmesi de altın için olumsuz; jeopolitik riskler bu baskıyı kısmen sınırlayabilir.
 18.11 17:01 N  NEWS (10 new) score -0.70 conf 0.70: Şahin Fed açıklamaları (Waller'ın "şok" faiz artırımı ihtimali, Fed'in dört kez artırabileceği yorumu) ve 19 aylık zirveye çıkan dolar, altın üzerinde güçlü baskı yaratıyor; altın zaten %2 düşüşle bir yılın en düşük seviyesinde. İran ve Suudi-Husi savaşı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısı karşısında sınırlı kalıyor. Bazı başlıklar eski veya çelişkili olduğu için güven orta seviyede tutuldu.
 18.11 17:01 N  GPT  score -0.72 conf 0.78: Fed yetkililerinin daha sert ve daha fazla faiz artışı sinyali ile doların güçlenmesi, kısa vadede altın için belirgin biçimde olumsuz; altındaki sert düşüş bu baskının fiyatlandığını da gösteriyor. Suudi Arabistan-Husi çatışmasının uzayabileceği haberi güvenli liman talebini destekleyebilir, ancak 
+18.11 17:13 N  NEWS (11 new) score -0.55 conf 0.60: Fed yetkililerinin sıkılaştırma sinyalleri (Waller'ın "şok" faiz artışı, Aralık'ta faiz artırma olasılığının %95'e çıkması) ve 19 aylık zirveye çıkan dolar, altın üzerinde baskı yaratıyor; altın zaten 14 aylık dibe inmiş durumda. İran savaşı ve Kuveyt'e yönelik saldırı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak piyasanın bu haberlere şimdiye kadar yanıtı zayıf kaldı; bu nedenle kısa vadede baskı sürmesi daha olası.
+18.11 17:13 N  GPT  score -0.78 conf 0.84: Fed yetkililerinin daha agresif faiz artışı mesajları ve Aralık artışına ilişkin yüksek olasılık, doların 52 haftanın zirvesine çıkmasıyla birlikte altın üzerinde güçlü kısa vadeli baskı yaratıyor. İran ve bölgesel çatışma haberleri güvenli liman talebini destekleyebilir; ancak mevcut fiyat hareketi
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
