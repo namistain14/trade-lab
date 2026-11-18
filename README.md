@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 07:18 (İstanbul)
+> Son güncelleme: 18.11.2026 07:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,994.93 $** (başlangıç 5,000 $, -5.07 $ / %-0.10)
+**Hesap değeri: 4,995.37 $** (başlangıç 5,000 $, -4.63 $ / %-0.09)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +345.16 $ | -165.54 $ |
-| İşlem sayısı | 5 | 119 |
-| Kazanma oranı | %100.0 | %43.7 |
-| Ödenen komisyon/spread | 59.85 $ | 1414.46 $ |
+| Net kâr/zarar | +289.15 $ | -221.54 $ |
+| İşlem sayısı | 6 | 120 |
+| Kazanma oranı | %83.3 | %43.3 |
+| Ödenen komisyon/spread | 71.83 $ | 1426.45 $ |
 
-**Hesap değeri: 4,787.56 $** (başlangıç 5,000 $, -212.44 $ / %-4.25)
-
-Açık pozisyonlar: PAXGUSDT short @ 3776.98 (TP 3765.65 / SL 3784.54)
+**Hesap değeri: 4,778.46 $** (başlangıç 5,000 $, -221.54 $ / %-4.43)
 
 Son haber analizi (18.11 07:15): Claude puan **-0.60**, güven 0.70 — Şahin Fed beklentileri (Aralık faiz artırımı neredeyse kesin, Williams'ın hamle beklentisi), 19 aylık zirveye yakın güçlü dolar ve reel faiz baskısı altın fiyatlarını 14 aylık dip seviyesine ve 3.800 doların altına itti. İran savaşı ve Hürmüz'ün kapalı kalması jeopolitik risk primi sağlasa da, bu güvenli liman talebi şimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanakları öncesi kısa vadede satış baskısı sürebilir.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 07:19 | PAXGUSDT | short | -56.00 $ | stop |
 | 18.11 07:07 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:48 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:07 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 03:35 | PAXGUSDT | short | +69.03 $ | take profit |
-| 18.11 03:13 | PAXGUSDT | short | +69.04 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 05:54 N  NEWS (12 new) score +0.05 conf 0.30: Başlıkların çoğu altın fiyatıyla ilgisiz (teknoloji, magazin, sağlık, trafik). Kırım Köprüsü'nün kısmen çökmesi gibi Ukrayna-Rusya gerilimi haberleri hafif güvenli liman talebi yaratabilir, ancak bu olay büyük ölçüde fiyatlanmış ve etkisi sınırlı; Trump-Xi görüşmesi ise jeopolitik gerilimi azaltıcı yönde. Fed, reel faiz veya dolar hakkında yeni bir sinyal yok, bu nedenle etki çok zayıf ve nötre yakın.
 18.11 05:54 N  GPT  score +0.18 conf 0.30: Ukrayna’nın Kırım Köprüsü’ne saldırısı ve Batı Şeria’daki ölüm haberi kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak Fed, faizler veya dolar yönünde yeni bir sinyal yok; etkilerin altına yansıması belirsiz.
 18.11 06:27 N  NEWS (0 new) score +0.12 conf 0.30: Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil (Fed, dolar, enflasyon veya merkez bankası alımları yok). Kırım Köprüsü'nün kısmen çökmesi ve Rusya'ya ait askeri uçak kazası Ukrayna-Rusya gerilimini artırarak sınırlı bir güvenli liman talebi yaratabilir, ancak bu gelişmeler muhtemelen kısmen fiyatlanmış durumda; Trump'ın Asya'daki Xi ve Putin görüşmeleri ise belirsizliği hem artırıp hem azaltabilir.
 18.11 06:27 N  GPT  score +0.15 conf 0.30: Kırım Köprüsü’ne yönelik saldırı ve bölgesel şiddet haberleri kısa vadede güvenli liman talebini hafifçe destekleyebilir. Ancak yeni başlıkların çoğu altınla ilgisiz ve dolar ya da faiz beklentilerinde belirgin bir değişime işaret etmiyor.
@@ -104,6 +101,7 @@ Son işlemler:
 18.11 07:12 B5  SHORT gold 25000 USD x10 @ 3776.98 (TP 3765.65, SL 3784.54; news -0.62)
 18.11 07:15 N  NEWS (12 new) score -0.60 conf 0.70: Şahin Fed beklentileri (Aralık faiz artırımı neredeyse kesin, Williams'ın hamle beklentisi), 19 aylık zirveye yakın güçlü dolar ve reel faiz baskısı altın fiyatlarını 14 aylık dip seviyesine ve 3.800 doların altına itti. İran savaşı ve Hürmüz'ün kapalı kalması jeopolitik risk primi sağlasa da, bu güvenli liman talebi şimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanakları öncesi kısa vadede satış baskısı sürebilir.
 18.11 07:15 N  GPT  score -0.55 conf 0.67: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın zaten sert düşmüş olması bu etkinin bir kısmının fiyatlanmış olabileceğini düşündürüyor. İran çevresindeki yeni saldırı ve güvenlik haberleri güvenli liman talebini destekleyebilir, anca
+18.11 07:21 B5  CLOSE short stop: -56.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
