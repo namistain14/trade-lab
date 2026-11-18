@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 18:14 (İstanbul)
+> Son güncelleme: 18.11.2026 18:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,040.48 $** (başlangıç 5,000 $, +40.48 $ / %+0.81)
+**Hesap değeri: 5,042.13 $** (başlangıç 5,000 $, +42.13 $ / %+0.84)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %55.6 | %43.2 |
 | Ödenen komisyon/spread | 215.77 $ | 1570.38 $ |
 
-**Hesap değeri: 4,725.51 $** (başlangıç 5,000 $, -274.49 $ / %-5.49)
+**Hesap değeri: 4,746.82 $** (başlangıç 5,000 $, -253.18 $ / %-5.06)
 
 Açık pozisyonlar: PAXGUSDT short @ 3753.06 (TP 3741.80 / SL 3760.57)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,069.08 $** (başlangıç 100,000 $, +14069.08 $ / %+14.07)
+**Hesap değeri: 114,447.61 $** (başlangıç 100,000 $, +14447.61 $ / %+14.45)
 
 Açık pozisyonlar: NVDA short @ 154.97 (TP 152.63 / SL 156.50)
 
