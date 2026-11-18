@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    5000.0
-   ],
-   [
     1794438610,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795028947,
     5073.97
+   ],
+   [
+    1795029142,
+    5075.18
    ]
   ],
   "archive": [
@@ -15116,10 +15116,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    4868.5
-   ],
-   [
     1794438610,
     4868.5
    ],
@@ -27113,6 +27109,10 @@
    ],
    [
     1795028947,
+    4868.5
+   ],
+   [
+    1795029142,
     4868.5
    ]
   ],
@@ -29897,7 +29897,6 @@
   ]
  },
  "log": [
-  "17.11 21:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc ekside ge\u00e7iriyor ancak son saatte \u0131l\u0131ml\u0131 bir tepki al\u0131m\u0131 var; se\u00e7ici ve temkinli al\u0131m taraf\u0131 \u00f6ne \u00e7\u0131k\u0131yor.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i kay\u0131plara ra\u011fmen son b\u00f6l\u00fcmde toparlanma g\u00fc\u00e7leniyor; y\u00fckseli\u015f y\u00f6n\u00fcnde s\u0131n\u0131rl\u0131 avantaj var ancak kald\u0131ra\u00e7 d\u00f6n\u00fc\u015f riskini b\u00fcy\u00fct\u00fcyor.\u00bb",
   "17.11 21:40 B5  CLOSE long stop: -55.96 USD",
   "17.11 21:44 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc yakla\u015f\u0131k %1,2 d\u00fc\u015f\u00fc\u015fle ge\u00e7iriyor ve \u00f6\u011fleden sonraki tepki al\u0131mlar\u0131 sat\u0131\u015fla kar\u015f\u0131lan\u0131yor, kapan\u0131\u015fa do\u011fru hafif negatif e\u011filim s\u00fcrebilir.\u00bb / GPT \u00abBa\u015far\u0131s\u0131z tepki y\u00fckseli\u015fi a\u015fa\u011f\u0131 y\u00f6n\u00fc destekliyor ancak dar saatlik hareketler ve kapan\u0131\u015fa kalan 77 dakika, y\u00fczde 1,5 hedefe ula\u015fmay\u0131 zorla\u015ft\u0131r\u0131yor.\u00bb",
   "17.11 21:47 B5  SHORT gold 25000 USD x10 @ 3845.81 (TP 3834.27, SL 3853.50; news -0.33)",
@@ -30196,7 +30195,8 @@
   "18.11 21:38 B5  SHORT gold 25000 USD x10 @ 3736.49 (TP 3725.28, SL 3743.97; news -0.69)",
   "18.11 21:47 B6  karar turu: Claude \u00abNVDA'daki SEC soru\u015fturmas\u0131 ve AAPL kesintisine ra\u011fmen endeksler son bir saatte toparlan\u0131yor ve teknoloji a\u011f\u0131rl\u0131kl\u0131 al\u0131mlarla piyasa hafif pozitif seyrediyor.\u00bb / GPT \u00abEndekslerde toparlanma e\u011filimi var ancak son fiyatlardaki ivme kayb\u0131 yeni kald\u0131ra\u00e7l\u0131 giri\u015flerin avantaj\u0131n\u0131 s\u0131n\u0131rl\u0131yor.\u00bb",
   "18.11 21:59 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 endeksler NVDA'daki SEC soru\u015fturmas\u0131 ve Apple kesintisine ra\u011fmen diren\u00e7li; g\u00fcn sonuna do\u011fru \u0131l\u0131ml\u0131 pozitif seyir bekleniyor.\u00bb / GPT \u00abTeknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde s\u0131n\u0131rl\u0131 pozitif seyir s\u00fcrse de son barlardaki duraksama, kapan\u0131\u015f \u00f6ncesinde kald\u0131ra\u00e7l\u0131 yeni pozisyonlar\u0131n cazibesini azalt\u0131yor.\u00bb",
-  "18.11 22:09 B5  CLOSE short take profit: +69.01 USD"
+  "18.11 22:09 B5  CLOSE short take profit: +69.01 USD",
+  "18.11 22:12 B6  karar turu: Claude \u00abEndeksler g\u00fcn sonuna yakla\u015f\u0131rken kar\u0131\u015f\u0131k seyrediyor: QQQ hafif art\u0131da, SPY hafif ekside ve k\u0131sa vadede belirgin bir y\u00f6n sinyali yok.\u00bb / GPT \u00abEndekslerde g\u00fcn i\u00e7i zirvelerden geri \u00e7ekilme bask\u0131n, ancak son tepki ve kapan\u0131\u015f\u0131n yakla\u015fmas\u0131 yeni y\u00f6nl\u00fc pozisyonlar\u0131n cazibesini azalt\u0131yor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30383,10 +30383,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    4963.78
-   ],
-   [
     1794438610,
     4963.78
    ],
@@ -42380,6 +42376,10 @@
    ],
    [
     1795028947,
+    4963.78
+   ],
+   [
+    1795029142,
     4963.78
    ]
   ],
@@ -42495,10 +42495,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    4975.18
-   ],
-   [
     1794438610,
     4975.18
    ],
@@ -54492,6 +54488,10 @@
    ],
    [
     1795028947,
+    4975.18
+   ],
+   [
+    1795029142,
     4975.18
    ]
   ],
@@ -54577,10 +54577,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    4993.28
-   ],
-   [
     1794438610,
     4993.28
    ],
@@ -66574,6 +66570,10 @@
    ],
    [
     1795028947,
+    4993.28
+   ],
+   [
+    1795029142,
     4993.28
    ]
   ]
@@ -66784,10 +66784,6 @@
   },
   "equity_curve": [
    [
-    1794438420,
-    4969.22
-   ],
-   [
     1794438610,
     4969.22
    ],
@@ -78781,6 +78777,10 @@
    ],
    [
     1795028947,
+    4969.22
+   ],
+   [
+    1795029142,
     4969.22
    ]
   ],
@@ -81661,10 +81661,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794438420,
-    4855.21
-   ],
    [
     1794438610,
     4863.23
@@ -93660,6 +93656,10 @@
    [
     1795028947,
     4882.53
+   ],
+   [
+    1795029142,
+    4882.53
    ]
   ],
   "news_calls": {
@@ -93867,7 +93867,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 114560.69506899998,
+   "balance": 114560.69506899996,
    "start": 100000.0,
    "positions": [
     {
@@ -93882,7 +93882,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor.",
-     "cur": 352.85
+     "cur": 353.235
     },
     {
      "id": "228448a7-c681-41ee-aa44-1ce20c61f50a",
@@ -93896,7 +93896,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q haberi taze ve olumsuz, fiyat da g\u00fcn i\u00e7i dip seviyelere do\u011fru d\u00fc\u015fmeye devam ediyor. | GPT 0.76: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6rlerken ba\u015far\u0131s\u0131z tepkiler d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 151.46
+     "cur": 151.6
     },
     {
      "id": "fc81bb42-e040-4410-8160-47ef16221b4a",
@@ -93910,7 +93910,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: Teknoloji endeksi geri \u00e7ekilme olmadan istikrarl\u0131 y\u00fckseliyor ve \u00f6\u011fleden sonra momentum devam edebilir. | GPT 0.63: SPY\u2019a g\u00f6re g\u00fc\u00e7l\u00fc performans ve saatlik zirve yak\u0131n\u0131ndaki tutunma, yukar\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor.",
-     "cur": 658.45
+     "cur": 659.19
     },
     {
      "id": "1872b60e-8788-44ff-8d58-e49d43df1939",
@@ -93924,7 +93924,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Barclays'\u0131n Al tavsiyesi ve piyasaya g\u00f6re g\u00fc\u00e7l\u00fc momentum var; k\u00fc\u00e7\u00fck geri \u00e7ekilme makul bir giri\u015f sunuyor. | GPT 0.61: Y\u00fckselen dipler ve zirveden s\u0131n\u0131rl\u0131 geri \u00e7ekilme al\u0131m\u0131 destekliyor, ancak eski Barclays haberi g\u00fc\u00e7l\u00fc bir kataliz\u00f6r de\u011fil.",
-     "cur": 383.255
+     "cur": 383.585
     }
    ],
    "trades": [
@@ -94903,18 +94903,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 2397.98,
+    "pnl": 2332.04,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114784.66
+   "equity": 114718.72
   },
   "equity_curve": [
-   [
-    1794438420,
-    115261.43
-   ],
    [
     1794438610,
     115261.43
@@ -106910,6 +106906,10 @@
    [
     1795028947,
     114784.66
+   ],
+   [
+    1795029142,
+    114718.72
    ]
   ],
   "open": {
@@ -106960,22 +106960,22 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795028380572,
+  "last_decision_ms": 1795029127868,
   "view": {
-   "ts": 1795028380572,
-   "claude": "Teknoloji a\u011f\u0131rl\u0131kl\u0131 endeksler NVDA'daki SEC soru\u015fturmas\u0131 ve Apple kesintisine ra\u011fmen diren\u00e7li; g\u00fcn sonuna do\u011fru \u0131l\u0131ml\u0131 pozitif seyir bekleniyor.",
-   "gpt": "Teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde s\u0131n\u0131rl\u0131 pozitif seyir s\u00fcrse de son barlardaki duraksama, kapan\u0131\u015f \u00f6ncesinde kald\u0131ra\u00e7l\u0131 yeni pozisyonlar\u0131n cazibesini azalt\u0131yor.",
+   "ts": 1795029127868,
+   "claude": "Endeksler g\u00fcn sonuna yakla\u015f\u0131rken kar\u0131\u015f\u0131k seyrediyor: QQQ hafif art\u0131da, SPY hafif ekside ve k\u0131sa vadede belirgin bir y\u00f6n sinyali yok.",
+   "gpt": "Endekslerde g\u00fcn i\u00e7i zirvelerden geri \u00e7ekilme bask\u0131n, ancak son tepki ve kapan\u0131\u015f\u0131n yakla\u015fmas\u0131 yeni y\u00f6nl\u00fc pozisyonlar\u0131n cazibesini azalt\u0131yor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "long",
-      0.42
+      "none",
+      0.35
      ],
      "gpt": [
       "none",
-      0.79
+      0.78
      ]
     },
     "QQQ": {
@@ -107137,10 +107137,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794438420,
-    4876.96
-   ],
    [
     1794438610,
     4876.96
@@ -119135,6 +119131,10 @@
    ],
    [
     1795028947,
+    4876.96
+   ],
+   [
+    1795029142,
     4876.96
    ]
   ],
