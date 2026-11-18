@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 22:45 (İstanbul)
+> Son güncelleme: 18.11.2026 22:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,079.03 $** (başlangıç 5,000 $, +79.03 $ / %+1.58)
+**Hesap değeri: 5,085.81 $** (başlangıç 5,000 $, +85.81 $ / %+1.72)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,296.32 $** (başlangıç 100,000 $, +15296.32 $ / %+15.30)
+**Hesap değeri: 115,369.90 $** (başlangıç 100,000 $, +15369.90 $ / %+15.37)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 20:47 B6  ALIŞ TSLA 113 adet ≈ 43,462 $ (1:4) @ 384.62 (TP 390.39, SL 380.77; ikisi de hemfikir, güven 0.55)
 18.11 20:53 B5  CLOSE short take profit: +69.01 USD
 18.11 20:59 B5  SHORT gold 25000 USD x10 @ 3729.10 (TP 3717.92, SL 3736.56; news -0.69)
 18.11 20:59 B6  karar turu: Claude «Endeks genelinde yön belirsiz; teknoloji görece güçlü olsa da NVDA'daki SEC soruşturması haberi duyarlılığı baskılıyor.» / GPT «Endeksler gün içinde kararsız; mevcut geri çekilme ve taze endeks katalizörü eksikliği yeni kaldıraçlı pozisyonu desteklemiyor.»
@@ -106,6 +105,7 @@ Son işlemler:
 18.11 22:12 B6  karar turu: Claude «Endeksler gün sonuna yaklaşırken karışık seyrediyor: QQQ hafif artıda, SPY hafif ekside ve kısa vadede belirgin bir yön sinyali yok.» / GPT «Endekslerde gün içi zirvelerden geri çekilme baskın, ancak son tepki ve kapanışın yaklaşması yeni yönlü pozisyonların cazibesini azaltıyor.»
 18.11 22:24 B6  karar turu: Claude «Piyasa kapanışa doğru kararsız; QQQ'nun pozitif, SPY'nin negatif olması zayıf bir genişliğe işaret ediyor ama net bir yön sinyali yok.» / GPT «Endekslerde son yükselişlerin geri verilmesi satış baskısına işaret ederken normal seansın kapanmasına yalnızca 36 dakika kalması 1–3 saatlik işlem ufkunu kısıtlıyor.»
 18.11 22:36 B6  karar turu: Claude «Kapanışa doğru endekslerde satış baskısı sürüyor, ancak seans sonuna az kaldığı için yeni pozisyon açmanın risk/getiri oranı zayıf.» / GPT «Endekslerde kapanışa doğru satış baskısı baskın; ancak normal seansa yalnızca 24 dakika kalması, 1–3 saatlik işlemlerde seans sonrası likidite ve kaldıraç riskini artırıyor.»
+18.11 22:48 B6  karar turu: Claude «Endeksler son saatte satış baskısıyla zayıf kapanışa gidiyor; kapanışa çok az süre kaldığı için yeni pozisyon açmak mantıklı değil.» / GPT «SPY ve QQQ'daki aşağı yönlü ivme satıcıları destekliyor, ancak kapanışın yakınlığı ve kaldıraç seans sonrası likidite riskini artırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
