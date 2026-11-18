@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794427539,
-    5000.0
-   ],
-   [
     1794427593,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795021107,
     5100.86
+   ],
+   [
+    1795021268,
+    5081.53
    ]
   ],
   "archive": [
@@ -13894,12 +13894,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795014000000,
-   "ETHUSDT": 1795014000000,
+   "BTCUSDT": 1795017600000,
+   "ETHUSDT": 1795017600000,
    "SOLUSDT": 1794960000000,
-   "BNBUSDT": 1795014000000,
+   "BNBUSDT": 1795017600000,
    "XRPUSDT": 1794988800000,
-   "DOGEUSDT": 1795014000000
+   "DOGEUSDT": 1795017600000
   }
  },
  "gold_news": {
@@ -15115,10 +15115,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794427539,
-    4868.5
-   ],
    [
     1794427593,
     4868.5
@@ -27113,6 +27109,10 @@
    ],
    [
     1795021107,
+    4868.5
+   ],
+   [
+    1795021268,
     4868.5
    ]
   ],
@@ -30356,10 +30356,6 @@
   },
   "equity_curve": [
    [
-    1794427539,
-    4963.78
-   ],
-   [
     1794427593,
     4963.78
    ],
@@ -42353,6 +42349,10 @@
    ],
    [
     1795021107,
+    4963.78
+   ],
+   [
+    1795021268,
     4963.78
    ]
   ],
@@ -42468,10 +42468,6 @@
   },
   "equity_curve": [
    [
-    1794427539,
-    4975.18
-   ],
-   [
     1794427593,
     4975.18
    ],
@@ -54465,6 +54461,10 @@
    ],
    [
     1795021107,
+    4975.18
+   ],
+   [
+    1795021268,
     4975.18
    ]
   ],
@@ -54550,10 +54550,6 @@
   },
   "equity_curve": [
    [
-    1794427539,
-    4993.28
-   ],
-   [
     1794427593,
     4993.28
    ],
@@ -66547,6 +66543,10 @@
    ],
    [
     1795021107,
+    4993.28
+   ],
+   [
+    1795021268,
     4993.28
    ]
   ]
@@ -66757,10 +66757,6 @@
   },
   "equity_curve": [
    [
-    1794427539,
-    4969.22
-   ],
-   [
     1794427593,
     4969.22
    ],
@@ -78754,6 +78750,10 @@
    ],
    [
     1795021107,
+    4969.22
+   ],
+   [
+    1795021268,
     4969.22
    ]
   ],
@@ -81587,10 +81587,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794427539,
-    4866.06
-   ],
    [
     1794427593,
     4867.5
@@ -93586,6 +93582,10 @@
    [
     1795021107,
     4836.48
+   ],
+   [
+    1795021268,
+    4790.51
    ]
   ],
   "news_calls": {
@@ -93793,7 +93793,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 115713.59114499998,
+   "balance": 115721.58054499999,
    "start": 100000.0,
    "positions": [
     {
@@ -93808,7 +93808,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor.",
-     "cur": 351.615
+     "cur": 352.08
     },
     {
      "id": "228448a7-c681-41ee-aa44-1ce20c61f50a",
@@ -93822,7 +93822,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q haberi taze ve olumsuz, fiyat da g\u00fcn i\u00e7i dip seviyelere do\u011fru d\u00fc\u015fmeye devam ediyor. | GPT 0.76: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6rlerken ba\u015far\u0131s\u0131z tepkiler d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 151.1301
+     "cur": 151.7855
     },
     {
      "id": "38b5c3dc-02cb-4789-89ce-753e4c0593a4",
@@ -93836,7 +93836,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Sat\u0131\u015f y\u00f6n\u00fcndeki not indirimi ve son bir saatteki istikrarl\u0131 d\u00fc\u015f\u00fc\u015f zay\u0131fl\u0131\u011fa i\u015faret ediyor, ancak Barclays'in al tavsiyesi bunu k\u0131smen dengeliyor. | GPT 0.64: Son kapan\u0131\u015flardaki kesintisiz zay\u0131fl\u0131k ve sat\u0131\u015f notuna indirim, daha yeni fakat yaln\u0131zca mevcut notu koruyan olumlu a\u00e7\u0131klamaya a\u011f",
-     "cur": 380.255
+     "cur": 381.725
     }
    ],
    "trades": [
@@ -94797,18 +94797,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 4879.76,
+    "pnl": 3790.91,
     "trades": 5,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 117266.44
+   "equity": 116177.59
   },
   "equity_curve": [
-   [
-    1794427539,
-    115351.39
-   ],
    [
     1794427593,
     115209.73
@@ -106804,6 +106800,10 @@
    [
     1795021107,
     117266.44
+   ],
+   [
+    1795021268,
+    116177.59
    ]
   ],
   "open": {
@@ -107020,10 +107020,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794427539,
-    4876.96
-   ],
    [
     1794427593,
     4876.96
@@ -119018,6 +119014,10 @@
    ],
    [
     1795021107,
+    4876.96
+   ],
+   [
+    1795021268,
     4876.96
    ]
   ],
