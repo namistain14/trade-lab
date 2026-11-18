@@ -30,10 +30,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    5000.0
-   ],
-   [
     1794396290,
     5000.0
    ],
@@ -12028,6 +12024,10 @@
    [
     1794989624,
     4999.56
+   ],
+   [
+    1794989803,
+    4998.24
    ]
   ],
   "archive": [
@@ -15102,10 +15102,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    4868.5
-   ],
-   [
     1794396290,
     4868.5
    ],
@@ -27099,6 +27095,10 @@
    ],
    [
     1794989624,
+    4868.5
+   ],
+   [
+    1794989803,
     4868.5
    ]
   ],
@@ -29883,7 +29883,6 @@
   ]
  },
  "log": [
-  "17.11 10:07 N  NEWS (23 new) score +0.12 conf 0.30: Haberlerin \u00e7o\u011fu g\u00f6r\u00fc\u015f yaz\u0131s\u0131, eski veya zaten fiyatlanm\u0131\u015f jeopolitik geli\u015fmeler; \u0130ran sava\u015f\u0131 ve Ukrayna'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini hafif\u00e7e destekliyor. Ancak Vance'in \"sonsuz sava\u015f olmayacak\" a\u00e7\u0131klamas\u0131 ve petrol\u00fcn d\u00fc\u015fmesi, enflasyon beklentilerini yumu\u015fatarak s\u0131n\u0131rl\u0131 bir dovish etki yaratabilir; bu kar\u0131\u015f\u0131k sinyaller nedeniyle g\u00fcven d\u00fc\u015f\u00fck.",
   "17.11 10:19 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 10:19 N  NEWS (17 new) score -0.70 conf 0.75: Alt\u0131n 1 y\u0131ll\u0131k dibe yak\u0131n seyrediyor; dolar 19 ayl\u0131k zirvede ve Fed faiz art\u0131r\u0131m\u0131 beklentileri art\u0131yor, bu da reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilse de, bu etki Fed s\u0131k\u0131la\u015ft\u0131rma beklentilerinin gerisinde kal\u0131yor.",
   "17.11 10:32 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -30182,7 +30181,8 @@
   "18.11 10:55 N  NEWS (13 new) score -0.70 conf 0.75: Alt\u0131n 3.800 dolar\u0131n alt\u0131na inerek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, dolar endeksi 19 ayl\u0131k zirveye yak\u0131n ve ABD verileri faiz art\u0131r\u0131m\u0131n\u0131 destekliyor. Bu makroekonomik bask\u0131, sava\u015f kaynakl\u0131 jeopolitik risk primini (\u0130ran sava\u015f\u0131, Ukrayna) b\u00fcy\u00fck \u00f6l\u00e7\u00fcde bast\u0131rd\u0131\u011f\u0131 i\u00e7in k\u0131sa vadede alt\u0131n \u00fczerinde a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc bir etki bekleniyor.",
   "18.11 10:55 N  GPT  score -0.62 conf 0.72: Alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na gerilemesi, dolar\u0131n 19 ay\u0131n zirvesine yak\u0131n seyretmesi ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi k\u0131sa vadede bask\u0131n\u0131n s\u00fcrebilece\u011fine i\u015faret ediyor. Yeni jeopolitik ba\u015fl\u0131klar belirgin bir t\u0131rman\u0131\u015f g\u00f6stermedi\u011finden g\u00fcvenli liman deste\u011fi s\u0131n\u0131rl\u0131; haberlerin bir k\u0131sm\u0131 ",
   "18.11 11:07 N  NEWS (7 new) score -0.60 conf 0.70: Alt\u0131n 3.800 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve y\u0131ll\u0131k dip seviyesine geriledi; DXY 19 ayl\u0131k zirveye yak\u0131n seyrediyor ve veriler Fed'in faiz art\u0131r\u0131m\u0131 ihtimalini g\u00fc\u00e7lendiriyor. Yeni \u0130ran sava\u015f\u0131 geli\u015fmeleri (ABD sald\u0131r\u0131lar\u0131, Bahreyn ve Kuveyt'te \u0130HA sald\u0131r\u0131lar\u0131) jeopolitik risk primi sa\u011flasa da, g\u00fc\u00e7l\u00fc dolar ve artan faiz beklentileri bu g\u00fcvenli liman etkisini bask\u0131l\u0131yor.",
-  "18.11 11:07 N  GPT  score -0.68 conf 0.78: G\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin derinle\u015fmesi, alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na sert d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc destekleyen ba\u015fl\u0131ca k\u0131sa vadeli etkenler. K\u00f6rfez\u2019deki yeni drone sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak \u015fu an bu bask\u0131y\u0131 dengelemiyor."
+  "18.11 11:07 N  GPT  score -0.68 conf 0.78: G\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin derinle\u015fmesi, alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na sert d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc destekleyen ba\u015fl\u0131ca k\u0131sa vadeli etkenler. K\u00f6rfez\u2019deki yeni drone sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak \u015fu an bu bask\u0131y\u0131 dengelemiyor.",
+  "18.11 11:16 B5  CLOSE short take profit: +69.02 USD"
  ],
  "gold_big": {
   "account": {
@@ -30369,10 +30369,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    4963.78
-   ],
-   [
     1794396290,
     4963.78
    ],
@@ -42366,6 +42362,10 @@
    ],
    [
     1794989624,
+    4963.78
+   ],
+   [
+    1794989803,
     4963.78
    ]
   ],
@@ -42481,10 +42481,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    4975.18
-   ],
-   [
     1794396290,
     4975.18
    ],
@@ -54478,6 +54474,10 @@
    ],
    [
     1794989624,
+    4975.18
+   ],
+   [
+    1794989803,
     4975.18
    ]
   ],
@@ -54563,10 +54563,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    4993.28
-   ],
-   [
     1794396290,
     4993.28
    ],
@@ -66560,6 +66556,10 @@
    ],
    [
     1794989624,
+    4993.28
+   ],
+   [
+    1794989803,
     4993.28
    ]
   ]
@@ -66770,10 +66770,6 @@
   },
   "equity_curve": [
    [
-    1794396120,
-    4969.22
-   ],
-   [
     1794396290,
     4969.22
    ],
@@ -78768,6 +78764,10 @@
    [
     1794989624,
     4969.22
+   ],
+   [
+    1794989803,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78777,25 +78777,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4791.479550638186,
+   "balance": 4860.498938371536,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "b0b33602",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.637415110998473,
-     "entry": 3766.5265139999997,
-     "tp": 3755.2269344579995,
-     "sl": 3774.0595670279995,
-     "opened_ms": 1794985805483,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.64/0.60",
-     "friction": 11.9936
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -81358,21 +81342,38 @@
      "gross": 69.023,
      "costs": 0.0,
      "pnl": 69.023
+    },
+    {
+     "id": "b0b33602",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.637415110998473,
+     "entry": 3766.5265139999997,
+     "tp": 3755.2269344579995,
+     "sl": 3774.0595670279995,
+     "opened_ms": 1794985805483,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.64/0.60",
+     "friction": 11.9936,
+     "exit": 3756.1279798448913,
+     "closed_ms": 1794989640000,
+     "reason": "take profit",
+     "gross": 69.0194,
+     "costs": 0.0,
+     "pnl": 69.0194
     }
    ],
    "day": {
     "date": "2026-11-18",
     "trades": 8,
-    "pnl": 302.1770908420434,
+    "pnl": 371.19647857539326,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794396120,
-    4615.97
-   ],
    [
     1794396290,
     4619.68
@@ -93368,6 +93369,10 @@
    [
     1794989624,
     4866.26
+   ],
+   [
+    1794989803,
+    4860.5
    ]
   ],
   "news_calls": {
@@ -93575,7 +93580,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 112393.69,
+   "balance": 112386.68,
    "start": 100000.0,
    "positions": [],
    "trades": [
@@ -94500,18 +94505,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": -1751.46,
+    "pnl": 0.0,
     "trades": 3,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 112393.69
+   "equity": 112386.68
   },
   "equity_curve": [
-   [
-    1794396120,
-    111676.47
-   ],
    [
     1794396290,
     111676.47
@@ -106507,6 +106508,10 @@
    [
     1794989624,
     112393.69
+   ],
+   [
+    1794989803,
+    112386.68
    ]
   ],
   "open": {},
@@ -106577,7 +106582,7 @@
   "premarket_day": "2026-11-17",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "449574.76",
+   "buying_power": "449546.72",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106689,10 +106694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794396120,
-    4876.96
-   ],
    [
     1794396290,
     4876.96
@@ -118687,6 +118688,10 @@
    ],
    [
     1794989624,
+    4876.96
+   ],
+   [
+    1794989803,
     4876.96
    ]
   ],
