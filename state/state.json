@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    5000.0
-   ],
-   [
     1794429755,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795023122,
     5040.59
+   ],
+   [
+    1795023326,
+    5033.38
    ]
   ],
   "archive": [
@@ -15116,10 +15116,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    4868.5
-   ],
-   [
     1794429755,
     4868.5
    ],
@@ -27113,6 +27109,10 @@
    ],
    [
     1795023122,
+    4868.5
+   ],
+   [
+    1795023326,
     4868.5
    ]
   ],
@@ -29897,8 +29897,6 @@
   ]
  },
  "log": [
-  "17.11 20:22 N  NEWS (17 new) score +0.15 conf 0.30: Yeni haberlerin \u00e7o\u011fu jeopolitik gerilimi art\u0131r\u0131yor (K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'nde k\u0131smi \u00e7\u00f6k\u00fc\u015f, Kiev'deki k\u00f6pr\u00fcye Rus sald\u0131r\u0131s\u0131, \u0130ran plan\u0131na ili\u015fkin ABD a\u00e7\u0131klamas\u0131), bu da g\u00fcvenli liman talebini hafif\u00e7e destekler. Ancak Fed, enflasyon veya dolar taraf\u0131nda do\u011frudan bir s\u00fcrpriz yok ve Trump'\u0131n Asya'daki Putin/\u015ei zirveleri diplomatik bir gev\u015femeye i\u015faret edebilir; bu nedenle etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "17.11 20:22 N  GPT  score +0.30 conf 0.46: K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc\u2019ne y\u00f6nelik sald\u0131r\u0131 ve ABD\u2019nin \u0130ran kaynakl\u0131 olas\u0131 tehditleri ciddiye ald\u0131\u011f\u0131n\u0131 s\u00f6ylemesi k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rarak alt\u0131n\u0131 destekleyebilir. Ancak haberlerin etkisi belirsiz ve faiz ya da dolar y\u00f6n\u00fcne dair yeni bir sinyal yok; bu nedenle y\u00fckseli\u015f etkisinin s\u0131n\u0131rl\u0131 kalma",
   "17.11 20:30 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc ekside ge\u00e7iriyor ancak son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde tepki y\u00fckseli\u015fi var; se\u00e7ici long pozisyonlar mant\u0131kl\u0131.\u00bb / GPT \u00abG\u00fcnl\u00fck kay\u0131plara ra\u011fmen saatlik toparlanma al\u0131m y\u00f6n\u00fcnde \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor; ancak 1:4 kald\u0131ra\u00e7ta ayn\u0131 y\u00f6ne korelasyonlu pozisyonlar\u0131n toplam riski s\u0131n\u0131rlanmal\u0131.\u00bb",
   "17.11 20:30 B6  ALI\u015e QQQ 173 adet \u2248 113,497 $ (1:4) @ 656.05 (TP 665.89, SL 649.49; ikisi de hemfikir, g\u00fcven 0.55)",
   "17.11 20:30 B6  ALI\u015e NVDA 739 adet \u2248 114,131 $ (1:4) @ 154.44 (TP 156.76, SL 152.9; ikisi de hemfikir, g\u00fcven 0.55)",
@@ -30196,7 +30194,9 @@
   "18.11 20:22 B6  karar turu: Claude \u00abEndeksler \u00f6\u011fleden sonra toparlanma e\u011filiminde; teknoloji a\u011f\u0131rl\u0131kl\u0131 QQQ, NVDA'daki SEC soru\u015fturmas\u0131 haberine ra\u011fmen dayan\u0131kl\u0131 g\u00f6r\u00fcn\u00fcyor, ancak bu haber yukar\u0131 y\u00f6nl\u00fc potansiyeli s\u0131n\u0131rlayabilir.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli y\u00f6n yukar\u0131 olsa da mevcut oynakl\u0131kta y\u00fczde 1,5 hedef iddial\u0131 ve iki uzun pozisyonun korelasyonu kald\u0131ra\u00e7l\u0131 riski art\u0131r\u0131yor.\u00bb",
   "18.11 20:25 B6  CLOSE short TSLA stop: -1171.20 USD",
   "18.11 20:29 N  NEWS (40 new) score -0.70 conf 0.72: Alt\u0131n, Fed'in s\u0131k\u0131la\u015ft\u0131rma beklentilerinin artmas\u0131 ve g\u00fc\u00e7lenen dolar nedeniyle %2'den fazla d\u00fc\u015f\u00fcp Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye geriledi; reel faiz ve dolar bask\u0131s\u0131 k\u0131sa vadede alt\u0131n i\u00e7in net olarak negatif. \u0130ran sava\u015f\u0131yla ilgili haberler (durgunluk, s\u00fcr\u00fcyor) yeni bir g\u00fcvenli liman talebi yaratmad\u0131\u011f\u0131 i\u00e7in jeopolitik destek s\u0131n\u0131rl\u0131 kal\u0131yor; yine de \"Fed 50 baz puan\" gibi sert s\u00f6ylemlerin ve dolar y\u00fckseli\u015finin zamanla fiyatlanm\u0131\u015f olabilece\u011fi riski, g\u00fcveni biraz d\u00fc\u015f\u00fcr\u00fcyor.",
-  "18.11 20:29 N  GPT  score -0.72 conf 0.78: Fed\u2019in daha s\u0131k\u0131 politika beklentileri ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in belirgin k\u0131sa vadeli bask\u0131 olu\u015fturuyor; alt\u0131n\u0131n y\u00fczde 2\u2019den fazla d\u00fc\u015ferek 2025 Eyl\u00fcl\u2019den beri en d\u00fc\u015f\u00fck seviyeye gerilemesi de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. \u0130ran ve di\u011fer \u00e7at\u0131\u015fma ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebi sa\u011flayabili"
+  "18.11 20:29 N  GPT  score -0.72 conf 0.78: Fed\u2019in daha s\u0131k\u0131 politika beklentileri ve dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in belirgin k\u0131sa vadeli bask\u0131 olu\u015fturuyor; alt\u0131n\u0131n y\u00fczde 2\u2019den fazla d\u00fc\u015ferek 2025 Eyl\u00fcl\u2019den beri en d\u00fc\u015f\u00fck seviyeye gerilemesi de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. \u0130ran ve di\u011fer \u00e7at\u0131\u015fma ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebi sa\u011flayabili",
+  "18.11 20:35 B6  karar turu: Claude \u00abPiyasa \u00f6\u011fleden sonra teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir toparlanma momentumu sergiliyor ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fti.\u00bb / GPT \u00abEndekslerde k\u0131sa vadeli momentum pozitif, ancak haberler New York saatine g\u00f6re eski ve kald\u0131ra\u00e7la birle\u015fen olas\u0131 geri \u00e7ekilmeler riski art\u0131r\u0131yor.\u00bb",
+  "18.11 20:35 B6  ALI\u015e QQQ 172 adet \u2248 113,833 $ (1:4) @ 661.82 (TP 671.75, SL 655.2; ikisi de hemfikir, g\u00fcven 0.50)"
  ],
  "gold_big": {
   "account": {
@@ -30383,10 +30383,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    4963.78
-   ],
-   [
     1794429755,
     4963.78
    ],
@@ -42380,6 +42376,10 @@
    ],
    [
     1795023122,
+    4963.78
+   ],
+   [
+    1795023326,
     4963.78
    ]
   ],
@@ -42495,10 +42495,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    4975.18
-   ],
-   [
     1794429755,
     4975.18
    ],
@@ -54492,6 +54488,10 @@
    ],
    [
     1795023122,
+    4975.18
+   ],
+   [
+    1795023326,
     4975.18
    ]
   ],
@@ -54577,10 +54577,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    4993.28
-   ],
-   [
     1794429755,
     4993.28
    ],
@@ -66574,6 +66570,10 @@
    ],
    [
     1795023122,
+    4993.28
+   ],
+   [
+    1795023326,
     4993.28
    ]
   ]
@@ -66784,10 +66784,6 @@
   },
   "equity_curve": [
    [
-    1794429584,
-    4969.22
-   ],
-   [
     1794429755,
     4969.22
    ],
@@ -78781,6 +78777,10 @@
    ],
    [
     1795023122,
+    4969.22
+   ],
+   [
+    1795023326,
     4969.22
    ]
   ],
@@ -81614,10 +81614,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794429584,
-    4858.78
-   ],
    [
     1794429755,
     4862.79
@@ -93613,6 +93609,10 @@
    [
     1795023122,
     4771.87
+   ],
+   [
+    1795023326,
+    4797.39
    ]
   ],
   "news_calls": {
@@ -93820,7 +93820,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 114570.500045,
+   "balance": 114575.91004499998,
    "start": 100000.0,
    "positions": [
     {
@@ -93835,7 +93835,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor.",
-     "cur": 353.695
+     "cur": 353.69
     },
     {
      "id": "228448a7-c681-41ee-aa44-1ce20c61f50a",
@@ -93849,7 +93849,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q haberi taze ve olumsuz, fiyat da g\u00fcn i\u00e7i dip seviyelere do\u011fru d\u00fc\u015fmeye devam ediyor. | GPT 0.76: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6rlerken ba\u015far\u0131s\u0131z tepkiler d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor.",
-     "cur": 153.11
+     "cur": 152.72
     }
    ],
    "trades": [
@@ -94828,18 +94828,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 1637.98,
+    "pnl": 1941.79,
     "trades": 6,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114024.66
+   "equity": 114328.47
   },
   "equity_curve": [
-   [
-    1794429584,
-    114999.68
-   ],
    [
     1794429755,
     114839.5
@@ -106835,6 +106831,10 @@
    [
     1795023122,
     114024.66
+   ],
+   [
+    1795023326,
+    114328.47
    ]
   ],
   "open": {
@@ -106859,42 +106859,53 @@
     "sl": 153.73,
     "opened_ms": 1795016676302,
     "note": "Claude 0.6: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q haberi taze ve olumsuz, fiyat da g\u00fcn i\u00e7i dip seviyelere do\u011fru d\u00fc\u015fmeye devam ediyor. | GPT 0.76: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6rlerken ba\u015far\u0131s\u0131z tepkiler d\u00fc\u015f\u00fc\u015f\u00fcn devam\u0131n\u0131 destekliyor."
+   },
+   "QQQ": {
+    "order_id": "fc81bb42-e040-4410-8160-47ef16221b4a",
+    "symbol": "QQQ",
+    "side": "long",
+    "qty": 172,
+    "entry": 661.82,
+    "tp": 671.75,
+    "sl": 655.2,
+    "opened_ms": 1795023303348,
+    "note": "Claude 0.5: Teknoloji endeksi geri \u00e7ekilme olmadan istikrarl\u0131 y\u00fckseliyor ve \u00f6\u011fleden sonra momentum devam edebilir. | GPT 0.63: SPY\u2019a g\u00f6re g\u00fc\u00e7l\u00fc performans ve saatlik zirve yak\u0131n\u0131ndaki tutunma, yukar\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor."
    }
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795022529376,
+  "last_decision_ms": 1795023303348,
   "view": {
-   "ts": 1795022529376,
-   "claude": "Endeksler \u00f6\u011fleden sonra toparlanma e\u011filiminde; teknoloji a\u011f\u0131rl\u0131kl\u0131 QQQ, NVDA'daki SEC soru\u015fturmas\u0131 haberine ra\u011fmen dayan\u0131kl\u0131 g\u00f6r\u00fcn\u00fcyor, ancak bu haber yukar\u0131 y\u00f6nl\u00fc potansiyeli s\u0131n\u0131rlayabilir.",
-   "gpt": "Endekslerde k\u0131sa vadeli y\u00f6n yukar\u0131 olsa da mevcut oynakl\u0131kta y\u00fczde 1,5 hedef iddial\u0131 ve iki uzun pozisyonun korelasyonu kald\u0131ra\u00e7l\u0131 riski art\u0131r\u0131yor.",
+   "ts": 1795023303348,
+   "claude": "Piyasa \u00f6\u011fleden sonra teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir toparlanma momentumu sergiliyor ancak hareketin \u00f6nemli k\u0131sm\u0131 zaten ger\u00e7ekle\u015fti.",
+   "gpt": "Endekslerde k\u0131sa vadeli momentum pozitif, ancak haberler New York saatine g\u00f6re eski ve kald\u0131ra\u00e7la birle\u015fen olas\u0131 geri \u00e7ekilmeler riski art\u0131r\u0131yor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
+     "claude": [
+      "none",
+      0.35
+     ],
+     "gpt": [
+      "long",
+      0.59
+     ]
+    },
+    "QQQ": {
      "claude": [
       "long",
       0.5
      ],
      "gpt": [
       "long",
-      0.57
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      "long",
-      0.55
-     ],
-     "gpt": [
-      "long",
-      0.6
+      0.63
      ]
     },
     "NVDA": {
      "claude": [
-      "none",
-      0.0
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106903,8 +106914,8 @@
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.0
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -106914,11 +106925,11 @@
     "TSLA": {
      "claude": [
       "none",
-      0.0
+      0.4
      ],
      "gpt": [
-      null,
-      null
+      "none",
+      0.65
      ]
     }
    }
@@ -106928,7 +106939,7 @@
   "premarket_day": "2026-11-18",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "179622.59",
+   "buying_power": "181202.42",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -107040,10 +107051,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794429584,
-    4876.96
-   ],
    [
     1794429755,
     4876.96
@@ -119038,6 +119045,10 @@
    ],
    [
     1795023122,
+    4876.96
+   ],
+   [
+    1795023326,
     4876.96
    ]
   ],
