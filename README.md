@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 13:22 (İstanbul)
+> Son güncelleme: 18.11.2026 13:25 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,994.33 $** (başlangıç 5,000 $, -5.67 $ / %-0.11)
+**Hesap değeri: 4,999.01 $** (başlangıç 5,000 $, -0.99 $ / %-0.02)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %58.3 | %42.9 |
 | Ödenen komisyon/spread | 143.79 $ | 1498.40 $ |
 
-**Hesap değeri: 4,723.81 $** (başlangıç 5,000 $, -276.19 $ / %-5.52)
+**Hesap değeri: 4,726.53 $** (başlangıç 5,000 $, -273.47 $ / %-5.47)
 
 Açık pozisyonlar: PAXGUSDT short @ 3770.51 (TP 3759.19 / SL 3778.05)
 
