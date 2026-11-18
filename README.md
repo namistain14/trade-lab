@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 21:44 (İstanbul)
+> Son güncelleme: 18.11.2026 21:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,044.94 $** (başlangıç 5,000 $, +44.94 $ / %+0.90)
+**Hesap değeri: 5,045.65 $** (başlangıç 5,000 $, +45.65 $ / %+0.91)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.1 | %43.7 |
 | Ödenen komisyon/spread | 251.79 $ | 1606.40 $ |
 
-**Hesap değeri: 4,818.09 $** (başlangıç 5,000 $, -181.91 $ / %-3.64)
+**Hesap değeri: 4,823.51 $** (başlangıç 5,000 $, -176.49 $ / %-3.53)
 
 Açık pozisyonlar: PAXGUSDT short @ 3736.49 (TP 3725.28 / SL 3743.97)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,715.56 $** (başlangıç 100,000 $, +14715.56 $ / %+14.72)
+**Hesap değeri: 114,813.47 $** (başlangıç 100,000 $, +14813.47 $ / %+14.81)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 20:29 N  GPT  score -0.72 conf 0.78: Fed’in daha sıkı politika beklentileri ve doların güçlenmesi altın için belirgin kısa vadeli baskı oluşturuyor; altının yüzde 2’den fazla düşerek 2025 Eylül’den beri en düşük seviyeye gerilemesi de aşağı yönlü momentuma işaret ediyor. İran ve diğer çatışma başlıkları güvenli liman talebi sağlayabili
 18.11 20:35 B6  karar turu: Claude «Piyasa öğleden sonra teknoloji öncülüğünde güçlü bir toparlanma momentumu sergiliyor ancak hareketin önemli kısmı zaten gerçekleşti.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak haberler New York saatine göre eski ve kaldıraçla birleşen olası geri çekilmeler riski artırıyor.»
 18.11 20:35 B6  ALIŞ QQQ 172 adet ≈ 113,833 $ (1:4) @ 661.82 (TP 671.75, SL 655.2; ikisi de hemfikir, güven 0.50)
 18.11 20:41 N  NEWS (12 new) score -0.70 conf 0.72: Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 21:32 B5  CLOSE short stop: -56.02 USD
 18.11 21:35 B6  karar turu: Claude «Endeks yatay ama teknoloji ağırlıklı alımlar ve öğleden sonraki toparlanma hafif pozitif bir eğilime işaret ediyor; NVDA ve AAPL'deki şirkete özgü olumsuz haberler riskleri sınırlı tutuyor.» / GPT «Endekslerde toparlanma alıcıları destekliyor ancak düşük oynaklık, kalan seansta yüzde 1,5 kâr hedefine ulaşmayı zorlaştırıyor.»
 18.11 21:38 B5  SHORT gold 25000 USD x10 @ 3736.49 (TP 3725.28, SL 3743.97; news -0.69)
+18.11 21:47 B6  karar turu: Claude «NVDA'daki SEC soruşturması ve AAPL kesintisine rağmen endeksler son bir saatte toparlanıyor ve teknoloji ağırlıklı alımlarla piyasa hafif pozitif seyrediyor.» / GPT «Endekslerde toparlanma eğilimi var ancak son fiyatlardaki ivme kaybı yeni kaldıraçlı girişlerin avantajını sınırlıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
