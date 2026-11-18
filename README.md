@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 09:39 (İstanbul)
+> Son güncelleme: 18.11.2026 09:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,998.24 $** (başlangıç 5,000 $, -1.76 $ / %-0.04)
+**Hesap değeri: 4,998.02 $** (başlangıç 5,000 $, -1.98 $ / %-0.04)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %71.4 | %43.0 |
 | Ödenen komisyon/spread | 83.82 $ | 1438.43 $ |
 
-**Hesap değeri: 4,769.57 $** (başlangıç 5,000 $, -230.43 $ / %-4.61)
+**Hesap değeri: 4,753.50 $** (başlangıç 5,000 $, -246.50 $ / %-4.93)
 
 Açık pozisyonlar: PAXGUSDT short @ 3780.09 (TP 3768.75 / SL 3787.65)
 
-Son haber analizi (18.11 09:30): Claude puan **-0.60**, güven 0.70 — Altın yıllık en düşük seviyelere geriledi ve ABD doları 19 aylık zirvesine yakın seyrediyor; Fed faiz artırımı beklentileri (sıkılaşma sinyalleri) reel faiz kaynaklı baskıyı artırıyor. İran ve Husi çatışmalarının tırmanması güvenli liman talebi yaratabilir, ancak bu jeopolitik destek mevcut satışı dengelemiyor; New York Fed başkanının büyük faiz artırımına karşı çıkması ise sınırlı bir yumuşama sinyali.
+Son haber analizi (18.11 09:42): Claude puan **-0.60**, güven 0.65 — Altın 1,5 yılın en düşük seviyesine yakın, 3.800 doların altında ve Fed sıkılaşma sinyalleri ile doların 19 aylık zirveye yakın seyri altın üzerinde güçlü baskı yaratıyor. İran savaşının tırmanması güvenli liman talebini destekleyerek kısa vadeli bir tampon sağlayabilir, ancak baskın etki hawkish Fed ve güçlü dolardan geliyor.
 
-GPT (gpt-6-luna): puan **-0.58**, güven 0.67 — Fed’in daha sıkı politika beklentileri ve güçlü dolar, altındaki sert düşüşü kısa vadede destekliyor; manşetlerdeki savaş riskleri güvenli liman talebi yaratabilse de fiyat hareketine henüz baskın görünmüyor. Benzer düşüş haberlerinin tekrarı ve haberlerin bir kısmının zaten fiyatlanmış olma ihtimal
+GPT (gpt-6-luna): puan **-0.72**, güven 0.76 — Altının 3.800 doların altına gerilemesi, Fed’in sıkılaşma beklentileri ve güçlü dolar kısa vadede belirgin aşağı yönlü baskı oluşturuyor. Orta Doğu’daki gerilim güvenli liman talebiyle düşüşü sınırlayabilir; ancak yeni başlıklar piyasayı hemen değiştirecek ölçüde net bir tırmanış göstermiyor.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 08:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-18.11 08:16 N  NEWS (8 new) score -0.55 conf 0.60: Altın, güçlü dolar (19 aylık zirveye yakın) ve Fed'de faiz artırımı beklentileri nedeniyle sert düşüşte; yakın vadede baskı sürüyor. İran savaşı ve Körfez'deki saldırılar güvenli liman talebini destekleyebilir, ancak bu etki hâlihazırda düşüşü durduramıyor. Bu nedenle 1-4 saatlik görünümde negatif eğilim ağır basıyor, ancak bu gece açıklanacak FOMC tutanakları büyük bir oynaklık yaratabilir.
 18.11 08:16 N  GPT  score -0.72 conf 0.74: Güçlü dolar ve Fed’in faiz artırımı beklentileri altındaki sert satış baskısını sürdürüyor; bu etkenler kısa vadede güvenli liman talebinden ağır basıyor. İran çevresindeki yeni saldırı ve suçlamalar düşüşü sınırlayabilir, ancak başlıkların çoğu tekrarlı veya fiyat hareketini zaten yansıtıyor.
 18.11 08:29 N  NEWS (6 new) score +0.03 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Bezos/007, Waymo, Nvidia, çip yatırımları, casusluk davaları). Savaş, Fed, faiz, dolar veya enflasyonla ilgili önemli bir yeni gelişme yok; Trump-Xi görüşmesi ise altın için net bir güvenli liman etkisi yaratacak düzeyde değil. Bu nedenle etki çok sınırlı ve güven düşük.
 18.11 08:29 N  GPT  score +0.02 conf 0.12: Başlıkların çoğu altın fiyatını kısa vadede etkilemesi beklenmeyen teknoloji ve magazin haberleri. Askerî casusluk soruşturması sınırlı güvenli liman talebi yaratabilir, ancak belirgin bir gerilim tırmanışı yok.
@@ -104,6 +102,8 @@ Son işlemler:
 18.11 09:18 N  GPT  score -0.68 conf 0.76: Fed’in sıkılaşma beklentilerinin güçlenmesi ve doların kuvvetli seyri, altındaki düşüş baskısını önümüzdeki saatlerde sürdürebilir. İran ve Körfez’deki tırmanış güvenli liman talebini desteklese de şu an faiz ve dolar etkisi daha baskın görünüyor.
 18.11 09:30 N  NEWS (6 new) score -0.60 conf 0.70: Altın yıllık en düşük seviyelere geriledi ve ABD doları 19 aylık zirvesine yakın seyrediyor; Fed faiz artırımı beklentileri (sıkılaşma sinyalleri) reel faiz kaynaklı baskıyı artırıyor. İran ve Husi çatışmalarının tırmanması güvenli liman talebi yaratabilir, ancak bu jeopolitik destek mevcut satışı dengelemiyor; New York Fed başkanının büyük faiz artırımına karşı çıkması ise sınırlı bir yumuşama sinyali.
 18.11 09:30 N  GPT  score -0.58 conf 0.67: Fed’in daha sıkı politika beklentileri ve güçlü dolar, altındaki sert düşüşü kısa vadede destekliyor; manşetlerdeki savaş riskleri güvenli liman talebi yaratabilse de fiyat hareketine henüz baskın görünmüyor. Benzer düşüş haberlerinin tekrarı ve haberlerin bir kısmının zaten fiyatlanmış olma ihtimal
+18.11 09:42 N  NEWS (8 new) score -0.60 conf 0.65: Altın 1,5 yılın en düşük seviyesine yakın, 3.800 doların altında ve Fed sıkılaşma sinyalleri ile doların 19 aylık zirveye yakın seyri altın üzerinde güçlü baskı yaratıyor. İran savaşının tırmanması güvenli liman talebini destekleyerek kısa vadeli bir tampon sağlayabilir, ancak baskın etki hawkish Fed ve güçlü dolardan geliyor.
+18.11 09:42 N  GPT  score -0.72 conf 0.76: Altının 3.800 doların altına gerilemesi, Fed’in sıkılaşma beklentileri ve güçlü dolar kısa vadede belirgin aşağı yönlü baskı oluşturuyor. Orta Doğu’daki gerilim güvenli liman talebiyle düşüşü sınırlayabilir; ancak yeni başlıklar piyasayı hemen değiştirecek ölçüde net bir tırmanış göstermiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
