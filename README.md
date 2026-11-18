@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 20:07 (İstanbul)
+> Son güncelleme: 18.11.2026 20:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,071.61 $** (başlangıç 5,000 $, +71.61 $ / %+1.43)
+**Hesap değeri: 5,073.70 $** (başlangıç 5,000 $, +73.70 $ / %+1.47)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,806.95 $** (başlangıç 5,000 $, -193.05 $ / %-3.86)
+**Hesap değeri: 4,828.60 $** (başlangıç 5,000 $, -171.40 $ / %-3.43)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,483.97 $** (başlangıç 100,000 $, +15483.97 $ / %+15.48)
+**Hesap değeri: 116,176.82 $** (başlangıç 100,000 $, +16176.82 $ / %+16.18)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 19:15 N  NEWS (15 new) score -0.50 conf 0.60: Fed Governor Waller'ın agresif faiz artırımı (50 baz puan) çağrısı ve güçlenen doları, ggerçek faiz beklentilerini yükselterek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının genişlemesi ve Körfez'e saldırılar güvenli liman talebini destekliyor olsa da, bu etki şu an hawkish Fed ve dolar baskısının gerisinde kalıyor; ayrıca altın zaten 14 aylık dibe inmiş olduğu için bazı etkiler fiyatlanmış olabilir.
 18.11 19:15 N  GPT  score -0.70 conf 0.72: Waller’ın faiz artırımı çağrısı doları ve getirileri destekleyerek altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de aşağı yönlü momentumu gösteriyor. Trump’ın Putin ve Xi ile görüşmesi güvenli liman talebini azaltabilir, ancak devam eden çatışma haberleri düşüşü kısmen sınırlıyor.
 18.11 19:15 B5  SHORT gold 25000 USD x10 @ 3741.38 (TP 3730.16, SL 3748.86; news -0.60)
 18.11 19:21 B6  karar turu: Claude «Piyasa öğle saatlerinde teknoloji liderliğinde zayıflıyor ve NVIDIA'daki regülasyon haberleri risk iştahını baskılıyor, bu nedenle kısa vadeli eğilim aşağı yönlü.» / GPT «Endekslerde gün içi düşüş eğilimi baskın; ancak hareketin bir kısmı gerçekleştiğinden ve başlıklar saatler öncesine ait olduğundan tepki yükselişi riski gözetilmeli.»
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 19:58 B6  karar turu: Claude «Piyasa öğleden sonra hafif negatif eğilimde; teknoloji hisseleri NVDA kaynaklı baskıyla endeksten zayıf seyrediyor.» / GPT «Endekslerde kısa vadeli eğilim aşağı; teknoloji daha zayıf görünürken saatler önceki şirket haberleri yeni katalizör sayılmamalı.»
 18.11 20:04 N  NEWS (3 new) score +0.15 conf 0.30: Yeni gelen başlıkların çoğu (Ukrayna cephe hattı, Fransa davası) altın fiyatıyla doğrudan ilgili değil. Kuwait'in İran saldırısını püskürttüğü haberi ve ABD'nin adaya saldırıları jeopolitik gerilimi artırarak hafif güvenli liman talebini destekleyebilir, ancak bu haber saat 13:04'te geldiği için büyük ölçüde fiyatlanmış olabilir. İngiltere'deki enflasyon artışı ve ABD Fed beklentisine dair net bir sinyal yok; bu nedenle etki sınırlı ve belirsiz.
 18.11 20:04 N  GPT  score +0.18 conf 0.32: İran saldırısı ve Ukrayna’daki çatışma güvenli liman talebini sınırlı ölçüde destekleyebilir; ancak haberlerin altın üzerindeki kısa vadeli etkisi belirsiz ve yeni bir tırmanış net değil. İngiltere enflasyonundaki artışın faiz beklentilerini destekleme olasılığı ile Trump-Putin-Xi görüşmeleri yönü d
+18.11 20:10 B6  karar turu: Claude «Piyasa dar bir bantta kararsız seyrediyor; NVDA kaynaklı olumsuz haber akışı teknoloji tarafında baskı riski oluştururken endekslerde net bir sinyal bulunmuyor.» / GPT «Endeksler yönsüz; şirket haberleri New York saatine göre birkaç saatlik olduğundan taze katalizör sayılmaz ve mevcut görünüm kaldıraçlı yeni girişleri desteklemiyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
