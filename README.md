@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 08:13 (İstanbul)
+> Son güncelleme: 18.11.2026 08:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,994.93 $** (başlangıç 5,000 $, -5.07 $ / %-0.10)
+**Hesap değeri: 4,991.62 $** (başlangıç 5,000 $, -8.38 $ / %-0.17)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %83.3 | %43.3 |
 | Ödenen komisyon/spread | 71.83 $ | 1426.45 $ |
 
-**Hesap değeri: 4,825.90 $** (başlangıç 5,000 $, -174.10 $ / %-3.48)
+**Hesap değeri: 4,788.45 $** (başlangıç 5,000 $, -211.55 $ / %-4.23)
 
 Açık pozisyonlar: PAXGUSDT short @ 3784.74 (TP 3773.39 / SL 3792.31)
 
-Son haber analizi (18.11 08:04): Claude puan **-0.60**, güven 0.70 — Altın, güçlü doların ve Fed'de faiz artırımı beklentilerinin baskısıyla bir yılın en düşük seviyesine geriledi ve 3.800 doların altına indi. İran savaşı gibi jeopolitik riskler güvenli liman talebini bir miktar destekleyebilse de, bu haberler yükseliş etkisini sınırlamakta; kısa vadede fiyat üzerindeki ağırlık aşağı yönlü görünüyor. Fed tutanakları öncesi belirsizlik ve Williams'ın Aralık'ta "büyük adım" gerekmediği yönündeki yorumu kısmen olumlu bir sinyal olduğu için güven orta-yüksek seviyede tutuldu.
+Son haber analizi (18.11 08:16): Claude puan **-0.55**, güven 0.60 — Altın, güçlü dolar (19 aylık zirveye yakın) ve Fed'de faiz artırımı beklentileri nedeniyle sert düşüşte; yakın vadede baskı sürüyor. İran savaşı ve Körfez'deki saldırılar güvenli liman talebini destekleyebilir, ancak bu etki hâlihazırda düşüşü durduramıyor. Bu nedenle 1-4 saatlik görünümde negatif eğilim ağır basıyor, ancak bu gece açıklanacak FOMC tutanakları büyük bir oynaklık yaratabilir.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.78 — Doların 19 ayın zirvesine yakın seyretmesi ve Fed faiz artırımı beklentileri, önümüzdeki saatlerde altın üzerinde belirgin baskı yaratıyor; fiyatın 3.800 doların altına gerilemesi de bu görünümü destekliyor. FOMC tutanakları öncesindeki belirsizlik ve dipten alım ilgisi düşüşün hızını sınırlayabilir
+GPT (gpt-6-luna): puan **-0.72**, güven 0.74 — Güçlü dolar ve Fed’in faiz artırımı beklentileri altındaki sert satış baskısını sürdürüyor; bu etkenler kısa vadede güvenli liman talebinden ağır basıyor. İran çevresindeki yeni saldırı ve suçlamalar düşüşü sınırlayabilir, ancak başlıkların çoğu tekrarlı veya fiyat hareketini zaten yansıtıyor.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 07:15 N  GPT  score -0.55 conf 0.67: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın zaten sert düşmüş olması bu etkinin bir kısmının fiyatlanmış olabileceğini düşündürüyor. İran çevresindeki yeni saldırı ve güvenlik haberleri güvenli liman talebini destekleyebilir, anca
-18.11 07:21 B5  CLOSE short stop: -56.00 USD
 18.11 07:24 B5  SHORT gold 25000 USD x10 @ 3784.74 (TP 3773.39, SL 3792.31; news -0.57)
 18.11 07:27 N  NEWS (8 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesine yakın seyrediyor, Fed'de sıkılaşma beklentisi güçleniyor ve altın 1 yılın en düşük seviyesine, 3.800 dolar altına geriledi; bu tablo 1-4 saatlik vadede altın için baskılayıcı. İran savaşına bağlı jeopolitik risk güvenli liman talebini destekleyebilir ama mevcut haberlerde bu etki dolar ve faiz baskısının gerisinde kalıyor; FOMC tutanakları öncesi belirsizlik ise volatiliteyi artırıyor.
 18.11 07:27 N  GPT  score -0.65 conf 0.72: Güçlü dolar ve Fed’in faizleri yüksek tutabileceği ya da artırabileceği beklentisi, yaklaşan FOMC tutanakları öncesinde altın üzerinde belirgin baskı yaratıyor; son haber akışındaki fiyat düşüşleri de bu yönü destekliyor. Orta Doğu gerilimi güvenli liman talebi sağlayabilir, ancak kısa vadede bu etk
@@ -104,6 +102,8 @@ Son işlemler:
 18.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 18.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 18.11 08:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+18.11 08:16 N  NEWS (8 new) score -0.55 conf 0.60: Altın, güçlü dolar (19 aylık zirveye yakın) ve Fed'de faiz artırımı beklentileri nedeniyle sert düşüşte; yakın vadede baskı sürüyor. İran savaşı ve Körfez'deki saldırılar güvenli liman talebini destekleyebilir, ancak bu etki hâlihazırda düşüşü durduramıyor. Bu nedenle 1-4 saatlik görünümde negatif eğilim ağır basıyor, ancak bu gece açıklanacak FOMC tutanakları büyük bir oynaklık yaratabilir.
+18.11 08:16 N  GPT  score -0.72 conf 0.74: Güçlü dolar ve Fed’in faiz artırımı beklentileri altındaki sert satış baskısını sürdürüyor; bu etkenler kısa vadede güvenli liman talebinden ağır basıyor. İran çevresindeki yeni saldırı ve suçlamalar düşüşü sınırlayabilir, ancak başlıkların çoğu tekrarlı veya fiyat hareketini zaten yansıtıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
