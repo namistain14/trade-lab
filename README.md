@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 11:35 (İstanbul)
+> Son güncelleme: 18.11.2026 11:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.34 $** (başlangıç 5,000 $, -0.66 $ / %-0.01)
+**Hesap değeri: 4,999.12 $** (başlangıç 5,000 $, -0.88 $ / %-0.02)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,7 +25,9 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %70.0 | %43.5 |
 | Ödenen komisyon/spread | 119.80 $ | 1474.41 $ |
 
-**Hesap değeri: 4,804.49 $** (başlangıç 5,000 $, -195.51 $ / %-3.91)
+**Hesap değeri: 4,798.49 $** (başlangıç 5,000 $, -201.51 $ / %-4.03)
+
+Açık pozisyonlar: PAXGUSDT short @ 3758.61 (TP 3747.33 / SL 3766.13)
 
 Son haber analizi (18.11 11:31): Claude puan **-0.60**, güven 0.70 — Altın 3.800 doların altına inip yılın en düşük seviyelerini gördü; dolar endeksi 19 aylık zirveye yakın ve piyasada Fed'in faiz artırımı ihtimali tartışılıyor, bu da 1-4 saatlik görünümde altın için baskılayıcı. Jeopolitik riskler (İran savaşı, Ukrayna, Kerç köprüsü) sürse de altın bu gerilimlere güvenli liman tepkisi vermiyor; FOMC tutanakları öncesi belirsizlik ise kısa vadede yön değişimi riskini artırıyor.
 
@@ -87,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 10:31 N  NEWS (11 new) score -0.40 conf 0.60: Altın 3.800 doların altına inerek yılın/1,5 yılın en düşük seviyesine geriledi ve Fed faiz artırımı beklentileri güçleniyor; bu, reel faizler ve dolar açısından altın için baskılayıcı. ABD'nin İran'a yeni saldırıları gibi jeopolitik risk unsurları güvenli liman talebini destekleyebilir, ancak fiyat bu habere rağmen düşüşte kalıyor; Goldman'ın merkez bankası alımlarına dayalı hedefi ise destekleyici bir unsur olarak sınırlı etki yaratabilir.
 18.11 10:31 N  GPT  score -0.35 conf 0.67: Fed faiz artırımı beklentilerinin güçlenmesi ve altındaki sert düşüş eğilimi kısa vadede baskın biçimde aşağı yönlü. ABD’nin İran’a yeniden saldırdığı haberi güvenli liman talebini artırabilir, ancak bu etki şimdilik düşüş baskısını dengelemekle sınırlı kalabilir.
 18.11 10:43 N  NEWS (16 new) score -0.70 conf 0.70: Altın, Orta Doğu savaşına rağmen güvenli liman talebinin zayıf kaldığı, faiz artırımı beklentilerinin ve güçlenen doların baskı yarattığı bir ortamda 3.800 doların altına inip yıllık dibe yakın seviyelere geriledi. Dolar endeksinin 19 aylık zirveye yakın seyretmesi ve ABD'de faiz artırımı yönünde verilerin güçlenmesi kısa vadede altı aşağı çekmeye devam edebilir; buna karşın aşırı satış sonrası teknik tepki riski ve bazı analistlerin yukarı hedefleri güveni biraz sınırlıyor.
 18.11 10:43 N  GPT  score -0.74 conf 0.78: Doların 19 ayın zirvesine yakın seyretmesi ve Fed’in sıkılaşma beklentilerinin güçlenmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; fiyatın 3.800 doların altına gerilemesi de düşüş eğilimini teyit ediyor. Orta Doğu’daki savaş güvenli liman talebi sağlasa da şu an bu baskıyı dengeleyemiyo
@@ -102,6 +103,7 @@ Son işlemler:
 18.11 11:31 B5  CLOSE short stop: -56.01 USD
 18.11 11:31 N  NEWS (4 new) score -0.60 conf 0.70: Altın 3.800 doların altına inip yılın en düşük seviyelerini gördü; dolar endeksi 19 aylık zirveye yakın ve piyasada Fed'in faiz artırımı ihtimali tartışılıyor, bu da 1-4 saatlik görünümde altın için baskılayıcı. Jeopolitik riskler (İran savaşı, Ukrayna, Kerç köprüsü) sürse de altın bu gerilimlere güvenli liman tepkisi vermiyor; FOMC tutanakları öncesi belirsizlik ise kısa vadede yön değişimi riskini artırıyor.
 18.11 11:31 N  GPT  score -0.55 conf 0.68: Doların 19 ayın zirvesine yakın seyretmesi ve Fed tutanakları öncesi faiz artışı beklentilerinin güçlenmesi, altın üzerinde kısa vadede baskın biçimde negatif. Kerç Köprüsü’ne yönelik saldırı güvenli liman talebini destekleyebilir; ancak mevcut fiyat düşüşü ve jeopolitik haberlerin sınırlı etkisi bu
+18.11 11:38 B5  SHORT gold 25000 USD x10 @ 3758.61 (TP 3747.33, SL 3766.13; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
