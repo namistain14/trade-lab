@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 08:38 (İstanbul)
+> Son güncelleme: 18.11.2026 08:41 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,988.09 $** (başlangıç 5,000 $, -11.91 $ / %-0.24)
+**Hesap değeri: 4,988.97 $** (başlangıç 5,000 $, -11.03 $ / %-0.22)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -27,9 +27,9 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
 **Hesap değeri: 4,722.46 $** (başlangıç 5,000 $, -277.54 $ / %-5.55)
 
-Son haber analizi (18.11 08:29): Claude puan **+0.03**, güven 0.20 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Bezos/007, Waymo, Nvidia, çip yatırımları, casusluk davaları). Savaş, Fed, faiz, dolar veya enflasyonla ilgili önemli bir yeni gelişme yok; Trump-Xi görüşmesi ise altın için net bir güvenli liman etkisi yaratacak düzeyde değil. Bu nedenle etki çok sınırlı ve güven düşük.
+Son haber analizi (18.11 08:41): Claude puan **+0.02**, güven 0.70 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil (Java güvenlik açığı, Bezos/007, Waymo, Nvidia, Avrupa çip planı, Thomas Markle). Trump-Xi görüşmesi ve bir ABD askerinin casusluk gözaltısı gibi jeopolitik haberler var, ancak bunların güvenli liman talebini belirgin biçimde artırdığına dair bir işaret yok; Fed, reel faiz, dolar veya enflasyonla ilgili yeni bir veri de yok. Bu nedenle beklenen etki ihmal edilebilir düzeyde.
 
-GPT (gpt-6-luna): puan **+0.02**, güven 0.12 — Başlıkların çoğu altın fiyatını kısa vadede etkilemesi beklenmeyen teknoloji ve magazin haberleri. Askerî casusluk soruşturması sınırlı güvenli liman talebi yaratabilir, ancak belirgin bir gerilim tırmanışı yok.
+GPT (gpt-6-luna): puan **+0.00**, güven 0.08 — Başlıklar arasında altın fiyatını kısa vadede etkileyebilecek önemli bir jeopolitik, merkez bankası, enflasyon veya dolar gelişmesi yok. Yeni Java güvenlik açığı altın için belirgin bir yön sinyali oluşturmuyor.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 07:40 N  NEWS (4 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesinde, Fed'in aralık ayında faiz artırımı beklentisi güçlü ve New York Fed Başkanı Williams'ın şahin açıklamaları altını baskılıyor; altın bir yılın en düşük seviyesine geriledi. Ortadaki İran savaşı güvenli liman talebini destekleyemiyor, bu yüzden genel etki negatif, ancak FOMC tutanakları öncesi aşırı satış nedeniyle kısa vadede tepki riski var.
-18.11 07:40 N  GPT  score -0.45 conf 0.67: Güçlü dolar ve Fed’in daha sıkı politika beklentileri altını baskılıyor; 3.800 doların altındaki sert satış ve yaklaşan FOMC tutanakları kısa vadeli aşağı yönlü eğilimi destekliyor. Yeni Orta Doğu ve Sudan gerilimleri güvenli liman talebi yaratabilir, ancak etkileri şimdilik sınırlı ve mevcut fiyat 
 18.11 07:52 N  NEWS (6 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesinde ve faiz artırımı beklentileri güçleniyor; New York Fed Başkanı Williams'ın hawkish açıklamaları ve FOMC tutanaklarının bu gece gelmesi altın üzerinde baskı yaratıyor. Jeopolitik gerilim (İran savaşı, Ukrayna, Husi saldırıları) güvenli liman talebi sağlasa da, faiz ve dolar etkisi bunu baskılıyor; yine de tutanaklar beklentiden yumuşak çıkarsa kısa vadeli tepki ters olabilir.
 18.11 07:52 N  GPT  score -0.72 conf 0.78: Güçlü dolar ve Fed’in faiz artırabileceği beklentileri altını baskılıyor; 3.800 doların altına iniş ve süren satışlar kısa vadede aşağı yönlü momentuma işaret ediyor. Avustralya’nın yaptırımları sınırlı güvenli liman desteği sağlayabilir, ancak etkisi faiz ve dolar baskısını dengelemiyor.
 18.11 08:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -102,6 +100,8 @@ Son işlemler:
 18.11 08:29 N  NEWS (6 new) score +0.03 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Bezos/007, Waymo, Nvidia, çip yatırımları, casusluk davaları). Savaş, Fed, faiz, dolar veya enflasyonla ilgili önemli bir yeni gelişme yok; Trump-Xi görüşmesi ise altın için net bir güvenli liman etkisi yaratacak düzeyde değil. Bu nedenle etki çok sınırlı ve güven düşük.
 18.11 08:29 N  GPT  score +0.02 conf 0.12: Başlıkların çoğu altın fiyatını kısa vadede etkilemesi beklenmeyen teknoloji ve magazin haberleri. Askerî casusluk soruşturması sınırlı güvenli liman talebi yaratabilir, ancak belirgin bir gerilim tırmanışı yok.
 18.11 08:32 B5  CLOSE short stop: -56.00 USD
+18.11 08:41 N  NEWS (1 new) score +0.02 conf 0.70: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil (Java güvenlik açığı, Bezos/007, Waymo, Nvidia, Avrupa çip planı, Thomas Markle). Trump-Xi görüşmesi ve bir ABD askerinin casusluk gözaltısı gibi jeopolitik haberler var, ancak bunların güvenli liman talebini belirgin biçimde artırdığına dair bir işaret yok; Fed, reel faiz, dolar veya enflasyonla ilgili yeni bir veri de yok. Bu nedenle beklenen etki ihmal edilebilir düzeyde.
+18.11 08:41 N  GPT  score +0.00 conf 0.08: Başlıklar arasında altın fiyatını kısa vadede etkileyebilecek önemli bir jeopolitik, merkez bankası, enflasyon veya dolar gelişmesi yok. Yeni Java güvenlik açığı altın için belirgin bir yön sinyali oluşturmuyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
