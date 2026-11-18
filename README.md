@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 12:24 (İstanbul)
+> Son güncelleme: 18.11.2026 12:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,000.77 $** (başlangıç 5,000 $, +0.77 $ / %+0.02)
+**Hesap değeri: 4,999.78 $** (başlangıç 5,000 $, -0.22 $ / %-0.00)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +259.18 $ | -251.52 $ |
-| İşlem sayısı | 11 | 125 |
-| Kazanma oranı | %63.6 | %43.2 |
-| Ödenen komisyon/spread | 131.80 $ | 1486.41 $ |
+| Net kâr/zarar | +203.17 $ | -307.52 $ |
+| İşlem sayısı | 12 | 126 |
+| Kazanma oranı | %58.3 | %42.9 |
+| Ödenen komisyon/spread | 143.79 $ | 1498.40 $ |
 
-**Hesap değeri: 4,728.54 $** (başlangıç 5,000 $, -271.46 $ / %-5.43)
-
-Açık pozisyonlar: PAXGUSDT short @ 3763.38 (TP 3752.09 / SL 3770.90)
+**Hesap değeri: 4,692.48 $** (başlangıç 5,000 $, -307.52 $ / %-6.15)
 
 Son haber analizi (18.11 12:20): Claude puan **-0.60**, güven 0.70 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor; bu, reel faiz ve dolar kanalıyla altın için net olumsuz. Jeopolitik başlıkların çoğu eski veya zaten fiyatlanmış, güvenli liman talebini artıracak yeni bir sıçrama görünmüyor; FOMC tutanakları öncesi belirsizlik ise kısa vadede dalgalanma yaratabilir.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 12:26 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 11:47 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 11:31 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 11:14 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 10:04 | PAXGUSDT | short | +69.02 $ | take profit |
-| 18.11 08:32 | PAXGUSDT | short | -56.00 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -91,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 11:31 N  GPT  score -0.55 conf 0.68: Doların 19 ayın zirvesine yakın seyretmesi ve Fed tutanakları öncesi faiz artışı beklentilerinin güçlenmesi, altın üzerinde kısa vadede baskın biçimde negatif. Kerç Köprüsü’ne yönelik saldırı güvenli liman talebini destekleyebilir; ancak mevcut fiyat düşüşü ve jeopolitik haberlerin sınırlı etkisi bu
 18.11 11:38 B5  SHORT gold 25000 USD x10 @ 3758.61 (TP 3747.33, SL 3766.13; news -0.57)
 18.11 11:41 B5P  NEWS (45 new) score +0.30 conf 0.40: Hürmüz Boğazı'nda ADNOC gemisinin vurulması ve gaz tankerine isabet gibi yeni saldırılar, ayrıca ABD'nin İran adasını vurması ve Bahreyn/Kuwait'e dronlar, arz riski primini yukarı çekebilir. Buna karşılık Brent'in 100 doların altına inmesi, fazla arz ve bozulan fiyat yapısı (backwardation, zayıf motorin) gibi baskılayıcı haberler piyasada zaten fiyatlanmış görünüyor; bu nedenle net etki hafif yukarı yönlü ama belirsiz.
 18.11 11:41 B5P  GPT  score +0.58 conf 0.68: Hürmüz Boğazı’nda ADNOC bağlantılı gemiye saldırı, can kaybı ve başka bir tanker hasarı haberleri yakın vadeli arz kesintisi risk primini artırıyor. Ancak arz fazlası endişeleri ve petrolün 100 doların altına indiğine dair haberler yükselişi sınırlayabilir.
@@ -106,6 +103,7 @@ Son işlemler:
 18.11 12:08 N  GPT  score -0.50 conf 0.72: Güçlenen dolar ve Fed faiz artırımı beklentileri altını kısa vadede baskılıyor; fiyatın yeni dipleri test ettiğine dair haberler bu eğilimi destekliyor. ICBM denemesi ve yaptırım gerilimi güvenli liman talebini artırabilir, ancak haber akışı sınırlı ve bu etki şu an için dolar baskısını dengelemiyor
 18.11 12:20 N  NEWS (16 new) score -0.60 conf 0.70: 
 18.11 12:20 N  GPT  score -0.68 conf 0.72: Güçlenen dolar, yükselen tahvil getirileri ve Fed faiz artırımı beklentileri altın üzerinde kısa vadede belirgin baskı yaratıyor; altındaki düşüş haberleri de bu eğilimi doğruluyor. Jeopolitik riskler güvenli liman talebini destekleyebilir, ancak mevcut başlıklar fiyat baskısını şimdilik dengelemiyo
+18.11 12:27 B5  CLOSE short stop: -56.01 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
