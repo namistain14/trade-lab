@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 20:19 (İstanbul)
+> Son güncelleme: 18.11.2026 20:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,073.65 $** (başlangıç 5,000 $, +73.65 $ / %+1.47)
+**Hesap değeri: 5,059.60 $** (başlangıç 5,000 $, +59.60 $ / %+1.19)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,802.54 $** (başlangıç 5,000 $, -197.46 $ / %-3.95)
+**Hesap değeri: 4,807.68 $** (başlangıç 5,000 $, -192.32 $ / %-3.85)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,440.92 $** (başlangıç 100,000 $, +15440.92 $ / %+15.44)
+**Hesap değeri: 115,315.12 $** (başlangıç 100,000 $, +15315.12 $ / %+15.32)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 19:21 B6  karar turu: Claude «Piyasa öğle saatlerinde teknoloji liderliğinde zayıflıyor ve NVIDIA'daki regülasyon haberleri risk iştahını baskılıyor, bu nedenle kısa vadeli eğilim aşağı yönlü.» / GPT «Endekslerde gün içi düşüş eğilimi baskın; ancak hareketin bir kısmı gerçekleştiğinden ve başlıklar saatler öncesine ait olduğundan tepki yükselişi riski gözetilmeli.»
 18.11 19:27 N  NEWS (5 new) score -0.60 conf 0.70: Fed Governor Waller'ın 50 baz puanlık faiz artırımı çağrısı ve doların 19 aylık zirveye yakın seyretmesi, reel faiz ve dolar kanallarından altı baskılıyor. Jeopolitik gerilim (İran saldırıları, ABD'nin İran füze sahasını vurması) güvenli liman talebi yaratabilir, ancak altın zaten 14 aylık dibe inmiş durumda ve bu risk primi etkisi şimdiye kadar sınırlı kaldı; bu nedenle ağırlık hawkish Fed ve güçlü dolar tarafında.
 18.11 19:27 N  GPT  score -0.68 conf 0.78: Waller’ın 50 baz puanlık faiz artışı çağrısı, yükselen enflasyon beklentileri ve doların 19 ayın zirvesine yaklaşması kısa vadede altın üzerinde belirgin baskı yaratıyor; düşüşün zaten sertleşmiş olması ek aşağı hareketin boyutuna ilişkin güveni sınırlıyor. İran ve Ukrayna kaynaklı riskler güvenli l
 18.11 19:33 B6  karar turu: Claude «Piyasa hafif negatif ve yatay; NVDA'ya özel olumsuz haberler teknolojiye sınırlı baskı yapıyor ancak endekslerde net bir trend yok.» / GPT «Endekslerde hafif negatif ancak yönsüz seyir hâkim; mevcut veriler 1:4 kaldıraçla yeni pozisyon açmayı desteklemiyor.»
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 20:10 B6  karar turu: Claude «Piyasa dar bir bantta kararsız seyrediyor; NVDA kaynaklı olumsuz haber akışı teknoloji tarafında baskı riski oluştururken endekslerde net bir sinyal bulunmuyor.» / GPT «Endeksler yönsüz; şirket haberleri New York saatine göre birkaç saatlik olduğundan taze katalizör sayılmaz ve mevcut görünüm kaldıraçlı yeni girişleri desteklemiyor.»
 18.11 20:16 N  NEWS (1 new) score +0.05 conf 0.25: Başlıkların çoğu altın piyasasıyla ilgisiz. Kuwait'in İran saldırısını püskürttüğü haberi hafif güvenli liman talebi yaratabilir, ancak 13:04 UTC'de geldiği ve fiyatlanmış olabileceği için etkisi sınırlı. Trump-Putin-Xi zirvesi ve İngiltere'de enerji faturası/enflasyon artışı ise karşıt yönde etkiler taşıyor, bu nedenle net sinyal zayıf.
 18.11 20:16 N  GPT  score +0.15 conf 0.34: Kuveyt’in İran saldırısını püskürttüğü haberi kısa vadeli güvenli liman talebini destekleyebilir; ancak Trump-Putin-Xi görüşmesindeki uzlaşmacı görüntü ve yeni ABD faiz/dolar sinyallerinin yokluğu etkiyi sınırlıyor. Haber akışı karışık olduğundan yön konusunda güven düşük.
+18.11 20:22 B6  karar turu: Claude «Endeksler öğleden sonra toparlanma eğiliminde; teknoloji ağırlıklı QQQ, NVDA'daki SEC soruşturması haberine rağmen dayanıklı görünüyor, ancak bu haber yukarı yönlü potansiyeli sınırlayabilir.» / GPT «Endekslerde kısa vadeli yön yukarı olsa da mevcut oynaklıkta yüzde 1,5 hedef iddialı ve iki uzun pozisyonun korelasyonu kaldıraçlı riski artırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
