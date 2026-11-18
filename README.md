@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 17:52 (İstanbul)
+> Son güncelleme: 18.11.2026 17:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,041.64 $** (başlangıç 5,000 $, +41.64 $ / %+0.83)
+**Hesap değeri: 5,045.44 $** (başlangıç 5,000 $, +45.44 $ / %+0.91)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %52.9 | %42.7 |
 | Ödenen komisyon/spread | 203.78 $ | 1558.39 $ |
 
-**Hesap değeri: 4,661.34 $** (başlangıç 5,000 $, -338.66 $ / %-6.77)
+**Hesap değeri: 4,690.63 $** (başlangıç 5,000 $, -309.37 $ / %-6.19)
 
 Açık pozisyonlar: PAXGUSDT short @ 3764.67 (TP 3753.37 / SL 3772.20)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 17:13 N  NEWS (11 new) score -0.55 conf 0.60: Fed yetkililerinin sıkılaştırma sinyalleri (Waller'ın "şok" faiz artışı, Aralık'ta faiz artırma olasılığının %95'e çıkması) ve 19 aylık zirveye çıkan dolar, altın üzerinde baskı yaratıyor; altın zaten 14 aylık dibe inmiş durumda. İran savaşı ve Kuveyt'e yönelik saldırı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak piyasanın bu haberlere şimdiye kadar yanıtı zayıf kaldı; bu nedenle kısa vadede baskı sürmesi daha olası.
 18.11 17:13 N  GPT  score -0.78 conf 0.84: Fed yetkililerinin daha agresif faiz artışı mesajları ve Aralık artışına ilişkin yüksek olasılık, doların 52 haftanın zirvesine çıkmasıyla birlikte altın üzerinde güçlü kısa vadeli baskı yaratıyor. İran ve bölgesel çatışma haberleri güvenli liman talebini destekleyebilir; ancak mevcut fiyat hareketi
 18.11 17:25 N  NEWS (10 new) score -0.70 conf 0.70: Haberlerin büyük çoğunluğu altın için düşüş baskısına işaret ediyor: Fed yetkililerinin sert faiz artırımı sinyalleri, Aralık'ta faiz artırımı olasılığının %95'e çıkması ve dolar endeksinin 52 haftalık/19 aylık zirvesi altın fiyatını 3.800 doların altına ve 14 aylık dibe çekti. Jeopolitik gerilim (ABD-İran savaşı) güvenli liman talebi yaratıyor olsa da, reel faiz ve dolar etkisi bunu bastırıyor; bazı başlıkların eski olması ve çelişkili yorumlar güveni biraz sınırlıyor.
 18.11 17:25 N  GPT  score -0.68 conf 0.72: Fed yetkililerinin daha agresif faiz artışı sinyalleri ve doların 52 haftanın zirvesine çıkması, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor; altının 3.800 doların altına gerilemesi de aşağı yönlü momentumu destekliyor. İran ve diğer çatışma başlıkları güvenli liman talebi yarata
@@ -106,6 +105,7 @@ Son işlemler:
 18.11 17:49 N  NEWS (13 new) score -0.80 conf 0.80: Fed'in Waller'ın Aralık'ta 50 baz puanlık faiz artırımı önerisi ve Fed artırım beklentilerinin yükselmesi, doları 52 haftalık zirveye taşıyarak altını 14 aylık dip seviyesine (3.765 dolar altına) indirdi. Bu güçlü şahin sinyal, İran ve Ukrayna'daki savaş haberlerinin sınırlı güvenli liman talebinden çok daha baskın; yine de haberlerin büyük kısmı zaten fiyatlandığı için güven orta-yüksek seviyede.
 18.11 17:49 N  GPT  score -0.78 conf 0.82: Waller’ın enflasyonun kötüleştiği ve daha sert faiz artışlarının gerekebileceği yönündeki açıklamaları, doların 52 haftanın zirvesine çıkmasıyla birleşerek altın üzerinde belirgin baskı yaratıyor. Ukrayna ve İran kaynaklı riskler güvenli liman talebini destekleyebilir; ancak başlıklar sınırlı ve mev
 18.11 17:49 B5  SHORT gold 25000 USD x10 @ 3764.67 (TP 3753.37, SL 3772.20; news -0.79)
+18.11 17:56 B6  karar turu: Claude «Piyasa hafif negatif ve kararsız; en net fırsat, şirkete özel ağır negatif haberle baskı altındaki NVDA'da.» / GPT «Endekslerde baskı sürerken göreli güçlü hisselerde seçici alım ve teknoloji endeksindeki tepkilerde satış öne çıkıyor; 1:4 kaldıraçta stop emri gerçekleşme fiyatını garanti etmez.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
