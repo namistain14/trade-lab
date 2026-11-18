@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 18:05 (İstanbul)
+> Son güncelleme: 18.11.2026 18:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,045.05 $** (başlangıç 5,000 $, +45.05 $ / %+0.90)
+**Hesap değeri: 5,045.22 $** (başlangıç 5,000 $, +45.22 $ / %+0.90)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +173.19 $ | -337.51 $ |
-| İşlem sayısı | 17 | 131 |
-| Kazanma oranı | %52.9 | %42.7 |
-| Ödenen komisyon/spread | 203.78 $ | 1558.39 $ |
+| Net kâr/zarar | +242.21 $ | -268.49 $ |
+| İşlem sayısı | 18 | 132 |
+| Kazanma oranı | %55.6 | %43.2 |
+| Ödenen komisyon/spread | 215.77 $ | 1570.38 $ |
 
-**Hesap değeri: 4,700.92 $** (başlangıç 5,000 $, -299.08 $ / %-5.98)
-
-Açık pozisyonlar: PAXGUSDT short @ 3764.67 (TP 3753.37 / SL 3772.20)
+**Hesap değeri: 4,731.51 $** (başlangıç 5,000 $, -268.49 $ / %-5.37)
 
 Son haber analizi (18.11 18:01): Claude puan **-0.60**, güven 0.70 — Altın, Fed faiz artırımı beklentileri, Waller'ın daha sert enflasyon duruşu çağrısı ve dolar endeksinin 52 haftalık zirvesi nedeniyle 14 aylık dibe geriledi; bu baskılar kısa vadede jeopolitik (İran savaşı) kaynaklı güvenli liman talebinden baskın görünüyor. Jeopolitik haberlerin çoğu eski ve fiyatlanmış olduğundan, yeni bir şok olmadıkça düşüş eğilimi sürebilir.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 18:09 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 17:44 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 16:08 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 15:38 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 15:09 | PAXGUSDT | short | -56.01 $ | stop |
-| 18.11 14:14 | PAXGUSDT | short | +69.02 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -91,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 17:25 N  GPT  score -0.68 conf 0.72: Fed yetkililerinin daha agresif faiz artışı sinyalleri ve doların 52 haftanın zirvesine çıkması, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor; altının 3.800 doların altına gerilemesi de aşağı yönlü momentumu destekliyor. İran ve diğer çatışma başlıkları güvenli liman talebi yarata
-18.11 17:32 B6  karar turu: Claude «Endeksler hafif pozitif ve teknoloji öncülüğünde, ancak şirket özelindeki olumsuz haberler NVDA'da kısa yönlü fırsat sunuyor.» / GPT «Endekslerde sınırlı pozitif seyir varken şirket bazlı ayrışma öne çıkıyor; dört kat kaldıraç nedeniyle küçük teminat tahsisiyle yüzde 1 stop ve yüzde 1,5 hedef disiplini korunmalı.»
-18.11 17:32 B6  AÇIĞA SATIŞ NVDA 705 adet ≈ 112,384 $ (1:4) @ 159.41 (TP 157.02, SL 161.0; ikisi de hemfikir, güven 0.58)
 18.11 17:37 N  NEWS (12 new) score -0.80 conf 0.80: Fed yetkililerinin (Waller) daha sert faiz artırımı çağrısı ve Aralık'ta faiz artırımı olasılığının %95'e çıkması, reel faiz ve dolar beklentilerini güçlendirerek altın üzerinde ağır bir baskı yaratıyor. Dolar endeksinin 52 haftalık zirveye çıkması ve altının 14 aylık dibe inmesi bu yönü teyit ediyor; İran savaşının güvenli liman talebini artırma potansiyeli ise bu baskıyı sınırlı ölçüde dengeliyor.
 18.11 17:37 N  GPT  score -0.78 conf 0.84: Waller’ın enflasyona karşı daha sert yanıt ve 100 baz puan veya üzeri faiz artışı ihtimalini gündeme getirmesi, Fed beklentilerini şahinleştirerek dolar ve faizler üzerinden altını baskılıyor. İran’daki savaş güvenli liman talebini desteklese de bu etki şimdilik güçlü dolar ve altındaki sert düşüşün
 18.11 17:37 B5  SHORT gold 25000 USD x10 @ 3761.14 (TP 3749.85, SL 3768.66; news -0.79)
@@ -106,6 +101,9 @@ Son işlemler:
 18.11 17:56 B6  karar turu: Claude «Piyasa hafif negatif ve kararsız; en net fırsat, şirkete özel ağır negatif haberle baskı altındaki NVDA'da.» / GPT «Endekslerde baskı sürerken göreli güçlü hisselerde seçici alım ve teknoloji endeksindeki tepkilerde satış öne çıkıyor; 1:4 kaldıraçta stop emri gerçekleşme fiyatını garanti etmez.»
 18.11 18:01 N  NEWS (7 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentileri, Waller'ın daha sert enflasyon duruşu çağrısı ve dolar endeksinin 52 haftalık zirvesi nedeniyle 14 aylık dibe geriledi; bu baskılar kısa vadede jeopolitik (İran savaşı) kaynaklı güvenli liman talebinden baskın görünüyor. Jeopolitik haberlerin çoğu eski ve fiyatlanmış olduğundan, yeni bir şok olmadıkça düşüş eğilimi sürebilir.
 18.11 18:01 N  GPT  score -0.78 conf 0.82: Fed’in enflasyona karşı daha sert davranabileceği ve faiz artışlarının sürebileceği beklentisi, doların 52 haftanın zirvesinde olmasıyla birlikte altın üzerinde güçlü kısa vadeli baskı yaratıyor. İran ve Hürmüz kaynaklı riskler güvenli liman talebini destekleyebilir; ancak başlıkların çoğu yeni deği
+18.11 18:09 B5  CLOSE short take profit: +69.02 USD
+18.11 18:09 B6  karar turu: Claude «Genel piyasa yatay ve kararsız; asıl fırsat NVDA'daki şirkete özgü olumsuz haberde.» / GPT «Endekslerde yön belirsizken dört kat kaldıraç nedeniyle toplam riski sınırlayıp NVDA'daki şirkete özgü zayıflığı ve AAPL'daki göreli gücü seçici biçimde değerlendiriyorum.»
+18.11 18:09 B6  AÇIĞA SATIŞ NVDA 735 adet ≈ 113,888 $ (1:4) @ 154.95 (TP 152.63, SL 156.5; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
