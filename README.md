@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 19:55 (İstanbul)
+> Son güncelleme: 18.11.2026 19:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,110.11 $** (başlangıç 5,000 $, +110.11 $ / %+2.20)
+**Hesap değeri: 5,100.86 $** (başlangıç 5,000 $, +100.86 $ / %+2.02)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,861.81 $** (başlangıç 5,000 $, -138.19 $ / %-2.76)
+**Hesap değeri: 4,836.48 $** (başlangıç 5,000 $, -163.52 $ / %-3.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,553.39 $** (başlangıç 100,000 $, +17553.39 $ / %+17.55)
+**Hesap değeri: 117,266.44 $** (başlangıç 100,000 $, +17266.44 $ / %+17.27)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 19:03 N  GPT  score -0.48 conf 0.66: Waller’ın 50 baz puanlık faiz artırımı ve enflasyonu düşürmek için şok sıkılaşma çağrısı, reel faizler ve dolar beklentileri üzerinden altın için belirgin baskı yaratıyor; sert düşüş de satış momentumuna işaret ediyor. İran çevresindeki yeni saldırı haberleri güvenli liman talebini destekleyebilir, 
 18.11 19:09 B5  CLOSE short take profit: +69.02 USD
 18.11 19:09 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay-hafif negatif seyrediyor; NVDA'daki şirket özel olumsuz haberler endeksleri sınırlı etkiliyor ve yön belirsiz.» / GPT «Endekslerde toparlanma kırılgan; şirkete özgü haberler yeni endeks işlemlerine güçlü destek vermediğinden SPY satışında avantaj sınırlı.»
 18.11 19:15 N  NEWS (15 new) score -0.50 conf 0.60: Fed Governor Waller'ın agresif faiz artırımı (50 baz puan) çağrısı ve güçlenen doları, ggerçek faiz beklentilerini yükselterek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının genişlemesi ve Körfez'e saldırılar güvenli liman talebini destekliyor olsa da, bu etki şu an hawkish Fed ve dolar baskısının gerisinde kalıyor; ayrıca altın zaten 14 aylık dibe inmiş olduğu için bazı etkiler fiyatlanmış olabilir.
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 19:46 B6  karar turu: Claude «Piyasa öğleden sonra hafif negatif seyrediyor; NVDA kaynaklı haber riski teknoloji hisselerinde satış baskısını canlı tutuyor.» / GPT «Endekslerde kısa vadeli baskı aşağı yönlü; ancak haberler New York saatine göre birkaç saatlik olduğundan taze katalizör sayılmamalı.»
 18.11 19:52 N  NEWS (14 new) score +0.20 conf 0.35: Kuwait'in İran'dan iki ay sonra ilk saldırıyı püskürttüğünü ve ABD'nin bir adaya saldırısını bildiren haber, jeopolitik riski artırarak altın için hafif olumlu (güvenli liman) bir etki yaratabilir. Ancak Trump-Putin-Xi zirvesi gerilimi azaltabilir ve İngiltere'deki enflasyon artışı Fed/BoE beklentilerini sertleştirerek bu etkiyi dengeleyebilir; diğer haberlerin çoğu piyasa açısından önemsiz.
 18.11 19:52 N  GPT  score +0.30 conf 0.45: Kuveyt’in İran saldırısını püskürttüğünü bildirmesi ve ABD’nin ada saldırısı, bölgesel gerilim ve güvenli liman talebi üzerinden altını destekleyebilir. İngiltere’de yükselen enflasyon haberi ise altına etkisi sınırlı ve faiz beklentileri kanalıyla belirsiz; diğer öne çıkan haberler kısa vadede beli
+18.11 19:58 B6  karar turu: Claude «Piyasa öğleden sonra hafif negatif eğilimde; teknoloji hisseleri NVDA kaynaklı baskıyla endeksten zayıf seyrediyor.» / GPT «Endekslerde kısa vadeli eğilim aşağı; teknoloji daha zayıf görünürken saatler önceki şirket haberleri yeni katalizör sayılmamalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
