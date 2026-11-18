@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 22:21 (İstanbul)
+> Son güncelleme: 18.11.2026 22:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,070.33 $** (başlangıç 5,000 $, +70.33 $ / %+1.41)
+**Hesap değeri: 5,071.27 $** (başlangıç 5,000 $, +71.27 $ / %+1.43)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,784.48 $** (başlangıç 100,000 $, +14784.48 $ / %+14.78)
+**Hesap değeri: 114,715.12 $** (başlangıç 100,000 $, +14715.12 $ / %+14.72)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 20:41 N  GPT  score -0.68 conf 0.72: Fed yetkililerinden enflasyonun kalıcılığı ve 50 baz puanlık faiz artışı yönündeki şahin mesajlar doları ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. Altının sert düşmüş olması ve Putin-Trump görüşmesiyle Ukrayna savaşının sona erdirilmesine yönelik girişimler bu etkiyi kısme
 18.11 20:47 B6  karar turu: Claude «Piyasa öğleden sonra toparlansa da zirveden hafif geri çekiliyor; teknoloji tarafı karışık, NVDA'daki SEC haberi ise duyarlılığı baskılıyor.» / GPT «Endekslerde saatlik toparlanma sürse de zirvelerden geri çekilme var; dört kat kaldıraç nedeniyle yeni pozisyonlarda küçük teminat tahsisi ve disiplinli stop gerekli.»
 18.11 20:47 B6  ALIŞ TSLA 113 adet ≈ 43,462 $ (1:4) @ 384.62 (TP 390.39, SL 380.77; ikisi de hemfikir, güven 0.55)
 18.11 20:53 B5  CLOSE short take profit: +69.01 USD
@@ -106,6 +105,7 @@ Son işlemler:
 18.11 21:59 B6  karar turu: Claude «Teknoloji ağırlıklı endeksler NVDA'daki SEC soruşturması ve Apple kesintisine rağmen dirençli; gün sonuna doğru ılımlı pozitif seyir bekleniyor.» / GPT «Teknoloji öncülüğünde sınırlı pozitif seyir sürse de son barlardaki duraksama, kapanış öncesinde kaldıraçlı yeni pozisyonların cazibesini azaltıyor.»
 18.11 22:09 B5  CLOSE short take profit: +69.01 USD
 18.11 22:12 B6  karar turu: Claude «Endeksler gün sonuna yaklaşırken karışık seyrediyor: QQQ hafif artıda, SPY hafif ekside ve kısa vadede belirgin bir yön sinyali yok.» / GPT «Endekslerde gün içi zirvelerden geri çekilme baskın, ancak son tepki ve kapanışın yaklaşması yeni yönlü pozisyonların cazibesini azaltıyor.»
+18.11 22:24 B6  karar turu: Claude «Piyasa kapanışa doğru kararsız; QQQ'nun pozitif, SPY'nin negatif olması zayıf bir genişliğe işaret ediyor ama net bir yön sinyali yok.» / GPT «Endekslerde son yükselişlerin geri verilmesi satış baskısına işaret ederken normal seansın kapanmasına yalnızca 36 dakika kalması 1–3 saatlik işlem ufkunu kısıtlıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
