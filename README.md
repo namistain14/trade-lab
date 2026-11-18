@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 17:28 (İstanbul)
+> Son güncelleme: 18.11.2026 17:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,023.73 $** (başlangıç 5,000 $, +23.73 $ / %+0.47)
+**Hesap değeri: 5,007.86 $** (başlangıç 5,000 $, +7.86 $ / %+0.16)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 16:12 N  NEWS (13 new) score -0.70 conf 0.70: Fed yetkilisi Waller'ın 50 baz puanlık faiz artırımı çağrısı, Fed tutanaklarına odaklanma ve güçlenen doların piyasaya hakim olması altın için net baskı yaratıyor; altın yıllık dip seviyelerine geriliyor. İran savaşının tırmanması güvenli liman talebi açısından destekleyici olsa da bu etkiyi belirgin şekilde bastırıyor. Kaynaklar arasındaki fiyat seviyeleri tutarsız olduğu için güven biraz kırpıldı.
-18.11 16:12 N  GPT  score -0.40 conf 0.62: Waller’ın 50 baz puanlık faiz artırımı çağrısı ve altındaki derinleşen satışlar, kısa vadede yüksek faiz ve dolar üzerinden baskının ağır bastığını gösteriyor. İran’ın karşı saldırıları güvenli liman talebini destekleyebilir; bu nedenle düşüş görünümünün güveni sınırlı.
 18.11 16:24 N  NEWS (9 new) score -0.60 conf 0.70: Fed Governor Waller'ın yarım puanlık faiz artırımını savunması ve enflasyon konusundaki şahin mesajları, dolar güçlenirken altını baskılıyor; altın bir yılın en düşük seviyesine geriledi. İran savaşının tırmanması güvenli liman talebi yaratabilir, ancak haberlerin genel etkisi mevcut satış baskısını sürdürmeye işaret ediyor.
 18.11 16:24 N  GPT  score -0.68 conf 0.76: Waller’ın daha agresif, hatta yarım puanlık faiz artışını değerlendirme çağrısı ve doların yükselişi kısa vadede altını baskılıyor; altındaki sert düşüş de bu eğilimi doğruluyor. İran’daki gerilim güvenli liman talebini desteklese de şimdilik faiz ve dolar etkisini dengelemesi zor.
 18.11 16:31 B6  seans öncesi görüş: Endeks vadelileri zayıf ve risk iştahı düşük; şirkete özel olumsuz haberler satış yönünde fırsat sunuyor.
@@ -104,6 +102,8 @@ Son işlemler:
 18.11 17:13 N  GPT  score -0.78 conf 0.84: Fed yetkililerinin daha agresif faiz artışı mesajları ve Aralık artışına ilişkin yüksek olasılık, doların 52 haftanın zirvesine çıkmasıyla birlikte altın üzerinde güçlü kısa vadeli baskı yaratıyor. İran ve bölgesel çatışma haberleri güvenli liman talebini destekleyebilir; ancak mevcut fiyat hareketi
 18.11 17:25 N  NEWS (10 new) score -0.70 conf 0.70: Haberlerin büyük çoğunluğu altın için düşüş baskısına işaret ediyor: Fed yetkililerinin sert faiz artırımı sinyalleri, Aralık'ta faiz artırımı olasılığının %95'e çıkması ve dolar endeksinin 52 haftalık/19 aylık zirvesi altın fiyatını 3.800 doların altına ve 14 aylık dibe çekti. Jeopolitik gerilim (ABD-İran savaşı) güvenli liman talebi yaratıyor olsa da, reel faiz ve dolar etkisi bunu bastırıyor; bazı başlıkların eski olması ve çelişkili yorumlar güveni biraz sınırlıyor.
 18.11 17:25 N  GPT  score -0.68 conf 0.72: Fed yetkililerinin daha agresif faiz artışı sinyalleri ve doların 52 haftanın zirvesine çıkması, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor; altının 3.800 doların altına gerilemesi de aşağı yönlü momentumu destekliyor. İran ve diğer çatışma başlıkları güvenli liman talebi yarata
+18.11 17:32 B6  karar turu: Claude «Endeksler hafif pozitif ve teknoloji öncülüğünde, ancak şirket özelindeki olumsuz haberler NVDA'da kısa yönlü fırsat sunuyor.» / GPT «Endekslerde sınırlı pozitif seyir varken şirket bazlı ayrışma öne çıkıyor; dört kat kaldıraç nedeniyle küçük teminat tahsisiyle yüzde 1 stop ve yüzde 1,5 hedef disiplini korunmalı.»
+18.11 17:32 B6  AÇIĞA SATIŞ NVDA 705 adet ≈ 112,384 $ (1:4) @ 159.41 (TP 157.02, SL 161.0; ikisi de hemfikir, güven 0.58)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
