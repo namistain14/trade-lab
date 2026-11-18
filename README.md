@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 00:58 (İstanbul)
+> Son güncelleme: 19.11.2026 01:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,091.71 $** (başlangıç 5,000 $, +91.71 $ / %+1.83)
+**Hesap değeri: 5,089.34 $** (başlangıç 5,000 $, +89.34 $ / %+1.79)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %0.0 | %44.1 |
 | Ödenen komisyon/spread | 0.00 $ | 1618.41 $ |
 
-**Hesap değeri: 4,885.46 $** (başlangıç 5,000 $, -114.54 $ / %-2.29)
+**Hesap değeri: 4,880.29 $** (başlangıç 5,000 $, -119.71 $ / %-2.39)
 
 Açık pozisyonlar: PAXGUSDT short @ 3722.31 (TP 3711.14 / SL 3729.75)
 
-Son haber analizi (19.11 00:50): Claude puan **-0.60**, güven 0.60 — Fed tutanakları ve Fed yetkililerinin (Waller, Levy) sıkılaşma yanlısı açıklamaları dolar endeksini yıllık zirvelere taşıyor ve reel faiz beklentilerini yükseltiyor; bu da altın için belirgin bir baskı. İran savaşı kaynaklı güvenli liman talebi bir destek olsa da, şu an bunun etkisi hawkish Fed ve güçlü doların gerisinde kalıyor.
+Son haber analizi (19.11 01:02): Claude puan **-0.70**, güven 0.72 — Fed tutanakları ve Fed yetkililerinin açıklamaları faiz artırımı ihtimalini güçlendiriyor; ABD doları yıllık zirveleri test ediyor ve altın 14 aylık dibe yakın seyrediyor. Savaş kaynaklı güvenli liman talebi var ancak bu, sıkılaşma ve güçlü dolar baskısının gerisinde kalıyor.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.72 — Şahin Fed mesajları ve faiz artırımı beklentilerinin güçlenmesi doları destekleyip altın üzerinde baskı yaratıyor; altındaki sert düşüş de bu yönü teyit ediyor. İran’daki çatışmanın genişlemesi güvenli liman talebini artırabilir, ancak kısa vadede faiz ve dolar etkisi daha ağır basıyor.
+GPT (gpt-6-luna): puan **-0.78**, güven 0.76 — Fed tutanaklarının yeni faiz artışlarına açık kapı bırakması ve doların güçlenmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; altının 14 ayın dibine yakın seyretmesi de düşüş eğilimini destekliyor. Savaş kaynaklı güvenli liman talebi bunu kısmen dengeleyebilir, ancak mevcut haber akışında
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 23:46 B6  CLOSE short NVDA seans sonu: +871.35 USD
-18.11 23:46 B6  CLOSE long QQQ seans sonu: -467.84 USD
 18.11 23:46 B6  CLOSE long TSLA seans sonu: -107.35 USD
 18.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 19.11 00:01 N  NEWS (43 new) score -0.45 conf 0.60: Altın üzerindeki baskı net olarak aşağı yönlü: Fed tutanakları enflasyonla mücadelede kararlılığı gösteriyor, dolar güçleniyor ve altın yaklaşık %3 düşüşle 14 aylık dip seviyesine geriledi. İran'ın ABD üslerine saldırısı gibi jeopolitik gerilim güvenli liman talebini destekleyici olsa da, mevcut fiyat hareketi bu etkiyi bastırıyor; bu nedenle güven orta düzeyde.
@@ -106,6 +104,8 @@ Son işlemler:
 19.11 00:38 N  GPT  score -0.40 conf 0.68: Fed’in faiz artırımlarına yönelik şahin mesajları ve güçlenen dolar, altın üzerindeki kısa vadeli baskıyı artırıyor; altındaki sert düşüş de bu görünümle uyumlu. İran çevresindeki çatışmanın tırmanması güvenli liman talebiyle düşüşü sınırlayabilir.
 19.11 00:50 N  NEWS (5 new) score -0.60 conf 0.60: 
 19.11 00:50 N  GPT  score -0.65 conf 0.72: Şahin Fed mesajları ve faiz artırımı beklentilerinin güçlenmesi doları destekleyip altın üzerinde baskı yaratıyor; altındaki sert düşüş de bu yönü teyit ediyor. İran’daki çatışmanın genişlemesi güvenli liman talebini artırabilir, ancak kısa vadede faiz ve dolar etkisi daha ağır basıyor.
+19.11 01:02 N  NEWS (9 new) score -0.70 conf 0.72: Fed tutanakları ve Fed yetkililerinin açıklamaları faiz artırımı ihtimalini güçlendiriyor; ABD doları yıllık zirveleri test ediyor ve altın 14 aylık dibe yakın seyrediyor. Savaş kaynaklı güvenli liman talebi var ancak bu, sıkılaşma ve güçlü dolar baskısının gerisinde kalıyor.
+19.11 01:02 N  GPT  score -0.78 conf 0.76: Fed tutanaklarının yeni faiz artışlarına açık kapı bırakması ve doların güçlenmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; altının 14 ayın dibine yakın seyretmesi de düşüş eğilimini destekliyor. Savaş kaynaklı güvenli liman talebi bunu kısmen dengeleyebilir, ancak mevcut haber akışında
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
