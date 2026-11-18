@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 07:03 (İstanbul)
+> Son güncelleme: 18.11.2026 07:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,998.68 $** (başlangıç 5,000 $, -1.32 $ / %-0.03)
+**Hesap değeri: 5,002.21 $** (başlangıç 5,000 $, +2.21 $ / %+0.04)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +276.13 $ | -234.57 $ |
-| İşlem sayısı | 4 | 118 |
-| Kazanma oranı | %100.0 | %43.2 |
-| Ödenen komisyon/spread | 47.87 $ | 1402.48 $ |
+| Net kâr/zarar | +345.16 $ | -165.54 $ |
+| İşlem sayısı | 5 | 119 |
+| Kazanma oranı | %100.0 | %43.7 |
+| Ödenen komisyon/spread | 59.85 $ | 1414.46 $ |
 
-**Hesap değeri: 4,822.61 $** (başlangıç 5,000 $, -177.39 $ / %-3.55)
-
-Açık pozisyonlar: PAXGUSDT short @ 3791.86 (TP 3780.49 / SL 3799.45)
+**Hesap değeri: 4,834.46 $** (başlangıç 5,000 $, -165.54 $ / %-3.31)
 
 Son haber analizi (18.11 07:03): Claude puan **-0.70**, güven 0.70 — Fed'in şahin sinyalleri, Aralık'ta faiz artırımı beklentisinin yükselmesi ve güçlü doların altını baskılıyor; altın 14 aylık dibe yakın seviyelere geriledi. İran savaşı güvenli liman talebi yaratabilir, ancak bu etki şu an faiz ve dolar baskısının gerisinde kalıyor. FOMC tutanakları gece açıklanacağı için volatilite yüksek olabilir; bu nedenle güven orta-yüksek ama tam değil.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 07:07 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:48 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:07 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 03:35 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 03:13 | PAXGUSDT | short | +69.04 $ | take profit |
-| 17.11 21:41 | PAXGUSDT | long | -55.96 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 05:29 N  GPT  score -0.68 conf 0.76: Hawkish Fed beklentileri ve 19 ayın zirvesine yakın güçlü dolar altını kısa vadede baskılıyor; 3.800 doların altına düşüş bu momentumu teyit ediyor. İran çevresindeki gerilim güvenli liman talebi yaratabilir, ancak mevcut başlıklar bu baskıyı şimdilik dengelemiyor.
 18.11 05:41 N  NEWS (7 new) score -0.50 conf 0.60: Şahin Fed tonu, güçlü dolar (19 aylık zirveye yakın) ve faiz artırımı beklentilerini destekleyen veriler altını 3.800 doların altına ve Eylül 2025'ten bu yana en düşük seviyeye itti; bu baskı kısa vadede sürebilir. ABD'nin İran'a yönelik yeni "öz savunma" saldırısı güvenli liman talebini artırabilir, ancak İran savaşı haberleri uzun süredir var ve altın bu gerilimlere rağmen düşmeye devam ediyor, bu da jeopolitik etkinin sınırlı kaldığını gösteriyor.
 18.11 05:41 N  GPT  score -0.35 conf 0.68: Hawkish Fed beklentileri ve güçlü dolar altın üzerinde baskın biçimde aşağı yönlü; fiyatın 3.800 doların altına gerilemesi bu baskıyı doğruluyor. İran’daki yeni ABD saldırısı güvenli liman talebini artırabilir, ancak kısa vadede düşüş eğilimini tamamen dengelemesi belirsiz.
 18.11 05:50 B5  CLOSE short take profit: +69.03 USD
@@ -104,6 +101,7 @@ Son işlemler:
 18.11 06:51 N  GPT  score -0.68 conf 0.72: Altının 3.800 doların altına gerilemesi, güçlü dolar ve Fed’in faizleri yüksek tutabileceği beklentisi kısa vadede belirgin aşağı yönlü baskı yaratıyor. İran’la süregelen çatışmalar güvenli liman talebini destekleyebilir; ancak başlıklarda yeni ve net bir tırmanış sinyali yok.
 18.11 07:03 N  NEWS (7 new) score -0.70 conf 0.70: Fed'in şahin sinyalleri, Aralık'ta faiz artırımı beklentisinin yükselmesi ve güçlü doların altını baskılıyor; altın 14 aylık dibe yakın seviyelere geriledi. İran savaşı güvenli liman talebi yaratabilir, ancak bu etki şu an faiz ve dolar baskısının gerisinde kalıyor. FOMC tutanakları gece açıklanacağı için volatilite yüksek olabilir; bu nedenle güven orta-yüksek ama tam değil.
 18.11 07:03 N  GPT  score -0.55 conf 0.72: Güçlü dolar ve Fed’in daha sıkı politika beklentisi altın üzerinde belirgin baskı yaratıyor; fiyatın 3.800 doların altına gerilemesi satış momentumunu gösteriyor. Williams’ın aralıkta büyük bir adım gereksiz demesi ve İran kaynaklı riskler düşüşü bir miktar sınırlasa da kısa vadeli görünüm hâlâ aşağ
+18.11 07:06 B5  CLOSE short take profit: +69.03 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
