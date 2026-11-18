@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 03:09 (İstanbul)
+> Son güncelleme: 18.11.2026 03:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -18,14 +18,12 @@
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | -510.70 $ |
-| İşlem sayısı | 0 | 114 |
-| Kazanma oranı | %0.0 | %41.2 |
-| Ödenen komisyon/spread | 0.00 $ | 1354.61 $ |
+| Net kâr/zarar | +69.04 $ | -441.66 $ |
+| İşlem sayısı | 1 | 115 |
+| Kazanma oranı | %100.0 | %41.7 |
+| Ödenen komisyon/spread | 11.95 $ | 1366.56 $ |
 
-**Hesap değeri: 4,556.33 $** (başlangıç 5,000 $, -443.67 $ / %-8.87)
-
-Açık pozisyonlar: PAXGUSDT short @ 3845.81 (TP 3834.27 / SL 3853.50)
+**Hesap değeri: 4,558.34 $** (başlangıç 5,000 $, -441.66 $ / %-8.83)
 
 Son haber analizi (18.11 03:03): Claude puan **-0.40**, güven 0.50 — Sıcak CPI verisi sonrası doların yıllık zirvelere yönelmesi ve Fed faiz artırımı beklentilerinin sürmesi altın için baskı oluşturuyor; altın yakın zamanda bir yıllık dibe yakın işlem görüyor. İran savaşı güvenli liman talebini destekleyebilir, ancak bu etki fiyatlanmış görünüyor ve dolardaki geri çekilme kısa vadeli toparlanma sinyali veriyor. Çelişkili ve eski başlıklar (5.600$ hedefleri gibi) nedeniyle güven orta seviyede tutuldu.
 
@@ -35,11 +33,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 03:13 | PAXGUSDT | short | +69.04 $ | take profit |
 | 17.11 21:41 | PAXGUSDT | long | -55.96 $ | stop |
 | 13.11 19:25 | PAXGUSDT | short | -55.98 $ | stop |
 | 13.11 18:39 | PAXGUSDT | short | +69.05 $ | take profit |
 | 13.11 17:32 | PAXGUSDT | short | -55.98 $ | stop |
-| 13.11 16:56 | PAXGUSDT | short | -55.98 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -87,7 +85,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 01:38 N  GPT  score +0.40 conf 0.48: İran’daki füze sahasına ABD saldırısı ve bölgeye üçüncü uçak gemisinin gönderilmesi kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Ancak haber akışı karışık ve Fed’in daha önceki şahin mesajları ile güçlü dolar baskısı kazanımları sınırlayabilir.
 18.11 01:51 N  NEWS (6 new) score -0.10 conf 0.40: İran'a yönelik ABD saldırıları jeopolitik risk nedeniyle altını destekliyor; ancak NY Fed'den Williams'ın ek faiz artırımı ihtimalini dile getirmesi ve güçlü dolar/faiz artırımı beklentilerine dair haberler altı baskılıyor. Net etki hafif negatif, düşük-orta güvenle değerlendirilmiştir.
 18.11 01:51 N  GPT  score +0.35 conf 0.46: İran’daki füze tesisine yönelik ABD saldırısı ve Ukrayna’nın Kerç Köprüsü’ne saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak güçlü dolar ve daha yüksek faiz beklentileri altını baskılıyor; haberlerin fiyatlanmış olma ihtimali de etkiyi sınırlıyor.
 18.11 02:03 N  NEWS (7 new) score -0.20 conf 0.45: En yeni ve en önemli haber, St. Louis Fed Başkanı'nın "baharda 1% faiz artırımı gerekebilir" yorumu; bu sözler faiz beklentilerini sertleştirip doları destekleyerek altı baskılar. İran savaşıyla ilgili ABD'nin Qeshm Adası'ndaki füze sahasını vurması güvenli liman talebini artırabilir, ancak bu gelişmenin büyük kısmı zaten fiyatlanmış ve eski haberler sinyali zayıflatıyor.
@@ -102,6 +99,7 @@ Son işlemler:
 18.11 02:51 N  GPT  score -0.12 conf 0.31: Güçlü enflasyon verisi ve Fed faiz artırımı beklentileri altın için hafif olumsuz; doların geri çekilmesi ise bu baskıyı kısmen dengeliyor. Yeni başlıkların çoğu altın açısından doğrudan etkisiz ve haber akışı çelişkili olduğundan kısa vadeli yön sinyali zayıf.
 18.11 03:03 N  NEWS (4 new) score -0.40 conf 0.50: Sıcak CPI verisi sonrası doların yıllık zirvelere yönelmesi ve Fed faiz artırımı beklentilerinin sürmesi altın için baskı oluşturuyor; altın yakın zamanda bir yıllık dibe yakın işlem görüyor. İran savaşı güvenli liman talebini destekleyebilir, ancak bu etki fiyatlanmış görünüyor ve dolardaki geri çekilme kısa vadeli toparlanma sinyali veriyor. Çelişkili ve eski başlıklar (5.600$ hedefleri gibi) nedeniyle güven orta seviyede tutuldu.
 18.11 03:03 N  GPT  score -0.12 conf 0.30: Doların geri çekilmesi altına kısa vadeli destek sağlayabilir; ancak sıcak enflasyon, faiz artırımı beklentileri ve altının zayıf seyri bu desteği sınırlıyor. Yeni haberlerde altın için belirleyici, büyük bir gelişme yok; görünüm hafif aşağı yönlü ve belirsiz.
+18.11 03:12 B5  CLOSE short take profit: +69.04 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
