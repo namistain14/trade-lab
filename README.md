@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 05:38 (İstanbul)
+> Son güncelleme: 18.11.2026 05:41 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,002.65 $** (başlangıç 5,000 $, +2.65 $ / %+0.05)
+**Hesap değeri: 5,005.96 $** (başlangıç 5,000 $, +5.96 $ / %+0.12)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %100.0 | %42.7 |
 | Ödenen komisyon/spread | 35.89 $ | 1390.50 $ |
 
-**Hesap değeri: 4,713.85 $** (başlangıç 5,000 $, -286.15 $ / %-5.72)
+**Hesap değeri: 4,723.85 $** (başlangıç 5,000 $, -276.15 $ / %-5.52)
 
 Açık pozisyonlar: PAXGUSDT short @ 3798.62 (TP 3787.22 / SL 3806.22)
 
-Son haber analizi (18.11 05:29): Claude puan **-0.60**, güven 0.70 — Altın, şahin Fed tonu, 19 aylık zirvedeki doların ve faiz artırımı beklentilerinin güçlenmesi nedeniyle 3.800 doların altına düştü; bu baskı, İran savaşına dair jeopolitik risk primini şimdilik gölgede bırakıyor. Savaş kaynaklı güvenli liman talebi yukarı yönlü bir risk olsa da kısa vadede baskın etken Fed ve dolar olduğu için görünüm negatif.
+Son haber analizi (18.11 05:41): Claude puan **-0.50**, güven 0.60 — Şahin Fed tonu, güçlü dolar (19 aylık zirveye yakın) ve faiz artırımı beklentilerini destekleyen veriler altını 3.800 doların altına ve Eylül 2025'ten bu yana en düşük seviyeye itti; bu baskı kısa vadede sürebilir. ABD'nin İran'a yönelik yeni "öz savunma" saldırısı güvenli liman talebini artırabilir, ancak İran savaşı haberleri uzun süredir var ve altın bu gerilimlere rağmen düşmeye devam ediyor, bu da jeopolitik etkinin sınırlı kaldığını gösteriyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.76 — Hawkish Fed beklentileri ve 19 ayın zirvesine yakın güçlü dolar altını kısa vadede baskılıyor; 3.800 doların altına düşüş bu momentumu teyit ediyor. İran çevresindeki gerilim güvenli liman talebi yaratabilir, ancak mevcut başlıklar bu baskıyı şimdilik dengelemiyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.68 — Hawkish Fed beklentileri ve güçlü dolar altın üzerinde baskın biçimde aşağı yönlü; fiyatın 3.800 doların altına gerilemesi bu baskıyı doğruluyor. İran’daki yeni ABD saldırısı güvenli liman talebini artırabilir, ancak kısa vadede düşüş eğilimini tamamen dengelemesi belirsiz.
 
 Son işlemler:
 
@@ -89,8 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 04:28 N  NEWS (6 new) score -0.15 conf 0.40: Yeni haberlerde doların güçlenmesi ve Fed'in şahin açıklamaları altın için baskı oluşturuyor; buna karşılık ABD'nin İran'a yönelik "öz savunma" saldırıları ve çatışmanın yeniden başlayabileceği endişeleri güvenli liman talebini destekliyor. Net etki hafif negatif, ancak jeopolitik gerilim ve ilk haberlerdeki dolar geri çekilmesi belirsizliği artırdığı için güven düşük.
-18.11 04:28 N  GPT  score -0.25 conf 0.48: Hawkish Fed mesajları ve güçlü perakende satışlar dolar talebini artırarak altını kısa vadede baskılıyor. İran çevresindeki tırmanma haberleri güvenli liman talebi sağlayabilir; bu nedenle düşüş eğilimi sınırlı ve belirsiz.
 18.11 04:40 N  NEWS (2 new) score -0.40 conf 0.50: Dolar 19 aylık zirvesine yakın seyrediyor ve güçlü perakende satışlarıyla birlikte şahin Fed söylemleri faiz artırımı beklentilerini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. İran-ABD çatışmasının tırmanması güvenli liman talebini artırabilir, ancak altın son dönemde bu jeopolitik riske rağmen zayıf kalıyor, bu yüzden etki sınırlı kalabilir.
 18.11 04:40 N  GPT  score -0.40 conf 0.66: Yeni başlıklar, güçlü verilerin Fed faiz artırımı beklentisini desteklemesiyle doların 19 ayın zirvesine yakın kaldığını gösteriyor; bu, kısa vadede altın için baskı oluşturur. İran kaynaklı çatışma haberleri güvenli liman talebini desteklese de daha eski ve karşıt bir etken olduğundan net görünüm ı
 18.11 04:40 B5  SHORT gold 25000 USD x10 @ 3805.06 (TP 3793.64, SL 3812.67; news -0.40)
@@ -104,6 +102,8 @@ Son işlemler:
 18.11 05:17 N  GPT  score -0.68 conf 0.76: Doların 19 ayın zirvesine yakın kalması ve faiz artırımı beklentilerinin güçlenmesi altını kısa vadede baskılıyor; altın ve diğer değerli metallerdeki sert düşüş de bu eğilimi doğruluyor. İran kaynaklı jeopolitik riskler güvenli liman talebi yaratabilir, ancak mevcut başlıklarda bu etki dolar baskıs
 18.11 05:29 N  NEWS (7 new) score -0.60 conf 0.70: Altın, şahin Fed tonu, 19 aylık zirvedeki doların ve faiz artırımı beklentilerinin güçlenmesi nedeniyle 3.800 doların altına düştü; bu baskı, İran savaşına dair jeopolitik risk primini şimdilik gölgede bırakıyor. Savaş kaynaklı güvenli liman talebi yukarı yönlü bir risk olsa da kısa vadede baskın etken Fed ve dolar olduğu için görünüm negatif.
 18.11 05:29 N  GPT  score -0.68 conf 0.76: Hawkish Fed beklentileri ve 19 ayın zirvesine yakın güçlü dolar altını kısa vadede baskılıyor; 3.800 doların altına düşüş bu momentumu teyit ediyor. İran çevresindeki gerilim güvenli liman talebi yaratabilir, ancak mevcut başlıklar bu baskıyı şimdilik dengelemiyor.
+18.11 05:41 N  NEWS (7 new) score -0.50 conf 0.60: Şahin Fed tonu, güçlü dolar (19 aylık zirveye yakın) ve faiz artırımı beklentilerini destekleyen veriler altını 3.800 doların altına ve Eylül 2025'ten bu yana en düşük seviyeye itti; bu baskı kısa vadede sürebilir. ABD'nin İran'a yönelik yeni "öz savunma" saldırısı güvenli liman talebini artırabilir, ancak İran savaşı haberleri uzun süredir var ve altın bu gerilimlere rağmen düşmeye devam ediyor, bu da jeopolitik etkinin sınırlı kaldığını gösteriyor.
+18.11 05:41 N  GPT  score -0.35 conf 0.68: Hawkish Fed beklentileri ve güçlü dolar altın üzerinde baskın biçimde aşağı yönlü; fiyatın 3.800 doların altına gerilemesi bu baskıyı doğruluyor. İran’daki yeni ABD saldırısı güvenli liman talebini artırabilir, ancak kısa vadede düşüş eğilimini tamamen dengelemesi belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
