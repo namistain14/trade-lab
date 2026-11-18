@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.78 $** (başlangıç 5,000 $, -0.22 $ / %-0.00)
+**Hesap değeri: 5,000.22 $** (başlangıç 5,000 $, +0.22 $ / %+0.00)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
