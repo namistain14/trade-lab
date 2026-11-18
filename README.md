@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 04:01 (İstanbul)
+> Son güncelleme: 18.11.2026 04:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,998.68 $** (başlangıç 5,000 $, -1.32 $ / %-0.03)
+**Hesap değeri: 5,000.00 $** (başlangıç 5,000 $, +0.00 $ / %+0.00)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -27,9 +27,9 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
 **Hesap değeri: 4,627.38 $** (başlangıç 5,000 $, -372.62 $ / %-7.45)
 
-Son haber analizi (18.11 03:52): Claude puan **-0.10**, güven 0.40 — İran'a yönelik ABD saldırısı ve ABD-İran savaşının yeniden başlayabileceği endişeleri güvenli liman talebini destekliyor, ancak bu gelişmeler kısmen fiyatlanmış durumda. Güçlenen dolar ve faiz artırımı beklentilerine dair haberler (ve FOMC tutanakları öncesi altının düşüşü) altın üzerinde daha baskılayıcı; net etki hafifçe negatif ve düşük güvenli.
+Son haber analizi (18.11 04:04): Claude puan **-0.10**, güven 0.35 — İran'a yönelik ABD saldırısı jeopolitik risk prim desteği sağlıyor, ancak "altın ve gümüş dolar güçlenmesiyle sert düştü" ve "faiz artırımı bahisleri" başlıkları baskı yaratıyor. Dolar bir miktar geri çekilse de altın yaklaşık 3.850 dolarda sınırlı kalıyor; net etki hafif negatif ve sinyaller karışık olduğu için güven düşük.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.43 — İran çevresindeki ABD saldırıları ve yeni çatışma endişeleri güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altını baskılıyor; haber akışı karışık ve kısa vadeli net etki sınırlı görünüyor.
+GPT (gpt-6-luna): puan **+0.25**, güven 0.56 — ABD’nin İran’daki füze tesisine yönelik saldırısı ve karşılıklı saldırı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve altındaki son düşüş bu desteği sınırlıyor; haberlerin bir kısmı süregelen çatışmaya dair olduğundan etki belirsiz.
 
 Son işlemler:
 
@@ -87,8 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 02:51 N  GPT  score -0.12 conf 0.31: Güçlü enflasyon verisi ve Fed faiz artırımı beklentileri altın için hafif olumsuz; doların geri çekilmesi ise bu baskıyı kısmen dengeliyor. Yeni başlıkların çoğu altın açısından doğrudan etkisiz ve haber akışı çelişkili olduğundan kısa vadeli yön sinyali zayıf.
-18.11 03:03 N  NEWS (4 new) score -0.40 conf 0.50: Sıcak CPI verisi sonrası doların yıllık zirvelere yönelmesi ve Fed faiz artırımı beklentilerinin sürmesi altın için baskı oluşturuyor; altın yakın zamanda bir yıllık dibe yakın işlem görüyor. İran savaşı güvenli liman talebini destekleyebilir, ancak bu etki fiyatlanmış görünüyor ve dolardaki geri çekilme kısa vadeli toparlanma sinyali veriyor. Çelişkili ve eski başlıklar (5.600$ hedefleri gibi) nedeniyle güven orta seviyede tutuldu.
 18.11 03:03 N  GPT  score -0.12 conf 0.30: Doların geri çekilmesi altına kısa vadeli destek sağlayabilir; ancak sıcak enflasyon, faiz artırımı beklentileri ve altının zayıf seyri bu desteği sınırlıyor. Yeni haberlerde altın için belirleyici, büyük bir gelişme yok; görünüm hafif aşağı yönlü ve belirsiz.
 18.11 03:12 B5  CLOSE short take profit: +69.04 USD
 18.11 03:15 N  NEWS (3 new) score -0.20 conf 0.40: Altın, Fed faiz artırımı beklentileri ve güçlü dolar nedeniyle baskı altında; yakın vadede bu ağırlıklı olarak negatif. Buna karşın İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor, dolar da son saatlerde geri çekiliyor; bu nedenle sinyal zayıf ve karışık.
@@ -102,6 +100,8 @@ Son işlemler:
 18.11 03:52 N  NEWS (5 new) score -0.10 conf 0.40: İran'a yönelik ABD saldırısı ve ABD-İran savaşının yeniden başlayabileceği endişeleri güvenli liman talebini destekliyor, ancak bu gelişmeler kısmen fiyatlanmış durumda. Güçlenen dolar ve faiz artırımı beklentilerine dair haberler (ve FOMC tutanakları öncesi altının düşüşü) altın üzerinde daha baskılayıcı; net etki hafifçe negatif ve düşük güvenli.
 18.11 03:52 N  GPT  score +0.20 conf 0.43: İran çevresindeki ABD saldırıları ve yeni çatışma endişeleri güvenli liman talebini destekleyebilir. Ancak doların güçlenmesi altını baskılıyor; haber akışı karışık ve kısa vadeli net etki sınırlı görünüyor.
 18.11 04:01 A  SHORT SOLUSDT 1650 USD @ 74.79 (1s RSI 67, TP 70.82, SL 76.77)
+18.11 04:04 N  NEWS (5 new) score -0.10 conf 0.35: İran'a yönelik ABD saldırısı jeopolitik risk prim desteği sağlıyor, ancak "altın ve gümüş dolar güçlenmesiyle sert düştü" ve "faiz artırımı bahisleri" başlıkları baskı yaratıyor. Dolar bir miktar geri çekilse de altın yaklaşık 3.850 dolarda sınırlı kalıyor; net etki hafif negatif ve sinyaller karışık olduğu için güven düşük.
+18.11 04:04 N  GPT  score +0.25 conf 0.56: ABD’nin İran’daki füze tesisine yönelik saldırısı ve karşılıklı saldırı haberleri kısa vadede güvenli liman talebini artırabilir. Ancak doların güçlenmesi ve altındaki son düşüş bu desteği sınırlıyor; haberlerin bir kısmı süregelen çatışmaya dair olduğundan etki belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
