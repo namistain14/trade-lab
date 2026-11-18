@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 14:56 (İstanbul)
+> Son güncelleme: 18.11.2026 14:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,019.16 $** (başlangıç 5,000 $, +19.16 $ / %+0.38)
+**Hesap değeri: 5,024.56 $** (başlangıç 5,000 $, +24.56 $ / %+0.49)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %61.5 | %43.3 |
 | Ödenen komisyon/spread | 155.78 $ | 1510.39 $ |
 
-**Hesap değeri: 4,769.00 $** (başlangıç 5,000 $, -231.00 $ / %-4.62)
+**Hesap değeri: 4,765.01 $** (başlangıç 5,000 $, -234.99 $ / %-4.70)
 
 Açık pozisyonlar: PAXGUSDT short @ 3759.01 (TP 3747.73 / SL 3766.53)
 
-Son haber analizi (18.11 14:47): Claude puan **-0.70**, güven 0.72 — Altın 14 aylık dibe geriledi; Fed faiz artırımı beklentileri ve 19 aylık zirvedeki güçlü dolar baskı yaratıyor. İran savaşının tırmanması güvenli liman talebi yaratabilse de, mevcut piyasa tepkisi bu jeopolitik desteği bastırıyor, bu nedenle kısa vadede belirgin negatif bir görünüm var.
+Son haber analizi (18.11 14:59): Claude puan **-0.60**, güven 0.70 — Fed faiz artırımı beklentileri güçleniyor, dolar 19 ayın zirvesine yakın ve altın 3.800 doların altına, yaklaşık 14 aylık dibe geriledi. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyecek bir unsur olmasına rağmen piyasada bu etki belirgin değil. UBS'nin 5.000 dolar hedefi gibi uzun vadeli olumlu yorumlar kısa vadeli baskıyı değiştirmediği için skoru negatif tutuyorum.
 
-GPT (gpt-6-luna): puan **-0.58**, güven 0.72 — Güçlü dolar ve artan Fed faiz artırımı beklentileri altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın 14 ayın dibine gerilemesi bu eğilimi destekliyor. İran’daki saldırıların genişlemesi güvenli liman talebini artırabilir, ancak şu an için faiz ve dolar etkisi daha ağır basıyor.
+GPT (gpt-6-luna): puan **-0.58**, güven 0.68 — Fed faiz artırımı beklentilerinin güçlenmesi ve doların yüksek seyri altını kısa vadede baskılıyor; altındaki sert düşüş de bu eğilimi teyit ediyor. İran ve diğer jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak yeni başlıklarda bu etkinin baskın olduğuna dair net işaret yok.
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 13:34 N  GPT  score -0.68 conf 0.78: Doların güçlenmesi ve Fed’in faizleri daha uzun süre yüksek tutacağı beklentisi altın üzerinde belirgin baskı yaratıyor; son düşüş haberleri de bu eğilimi doğruluyor. İran’daki gelişmeler güvenli liman talebini destekleyebilir, ancak kısa vadede bu etki dolar ve faiz beklentilerinin gerisinde kalıyo
-18.11 13:46 N  NEWS (7 new) score -0.45 conf 0.60: Altın, Fed'de Aralık'ta faiz artırımı fiyatlanması, güçlü dolar ve 14 aylık dibe inen fiyatlar nedeniyle baskı altında. İran'a yönelik ABD saldırıları jeopolitik risk yaratıp güvenli liman talebini destekleyebilir, ancak piyasa bu haberlere şimdiye kadar yükselişle değil satışla tepki verdi; bu yüzden orta-kısa vadede baskının sürmesi daha olası.
 18.11 13:46 N  GPT  score -0.55 conf 0.72: Güçlü dolar ve Fed’in daha şahin fiyatlanması altını baskılıyor; fiyatın 3.800 doların altına sert düşmesi kısa vadeli momentumu da aşağı yönlü gösteriyor. İran’a yönelik ABD saldırıları güvenli liman talebini artırabilir, ancak bu etki şu an için faiz ve dolar baskısını dengelemiyor.
 18.11 13:58 N  NEWS (3 new) score -0.60 conf 0.62: Altın, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolar gücü nedeniyle 3.800 doların altına inerek Eylül 2025'ten bu yana en düşük seviyesine geriledi; bu baskı ABD'nin İran'a yönelik saldırılarındaki jeopolitik risk primini ağır basıyor. Savaş haberlerinin güvenli liman talebi yaratma potansiyeli olsa da piyasa tepkisi şu an faiz ve dolar kanalına odaklı, bu yüzden 1-4 saatlik görünümde negatif eğilim tercih ediliyor; ancak fiyatın zaten büyük ölçüde düşmüş olması ve çelişkili sinyaller güveni sınırlıyor.
 18.11 13:58 N  GPT  score -0.72 conf 0.76: Fed faiz artırımı beklentilerinin güçlenmesi ve doların yükselmesi altını kısa vadede baskılıyor; 3.800 doların altına iniş satış baskısının sürdüğüne işaret ediyor. ABD-İran çatışması güvenli liman talebini destekleyebilir, ancak mevcut fiyat hareketinde bu etki faiz ve dolar baskısını dengeleyemiy
@@ -106,6 +104,8 @@ Son işlemler:
 18.11 14:35 N  GPT  score -0.68 conf 0.76: Fed faiz artırımı beklentileri ve doların güçlü seyri, altını 14 ayın en düşük seviyelerine taşıdığı için kısa vadeli baskın etki aşağı yönlü. İran ve Etiyopya-Eritre gerilimleri güvenli liman talebini destekleyebilir, ancak mevcut satış baskısını şimdilik dengeleyecek güçte görünmüyor.
 18.11 14:47 N  NEWS (11 new) score -0.70 conf 0.72: Altın 14 aylık dibe geriledi; Fed faiz artırımı beklentileri ve 19 aylık zirvedeki güçlü dolar baskı yaratıyor. İran savaşının tırmanması güvenli liman talebi yaratabilse de, mevcut piyasa tepkisi bu jeopolitik desteği bastırıyor, bu nedenle kısa vadede belirgin negatif bir görünüm var.
 18.11 14:47 N  GPT  score -0.58 conf 0.72: Güçlü dolar ve artan Fed faiz artırımı beklentileri altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın 14 ayın dibine gerilemesi bu eğilimi destekliyor. İran’daki saldırıların genişlemesi güvenli liman talebini artırabilir, ancak şu an için faiz ve dolar etkisi daha ağır basıyor.
+18.11 14:59 N  NEWS (8 new) score -0.60 conf 0.70: Fed faiz artırımı beklentileri güçleniyor, dolar 19 ayın zirvesine yakın ve altın 3.800 doların altına, yaklaşık 14 aylık dibe geriledi. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyecek bir unsur olmasına rağmen piyasada bu etki belirgin değil. UBS'nin 5.000 dolar hedefi gibi uzun vadeli olumlu yorumlar kısa vadeli baskıyı değiştirmediği için skoru negatif tutuyorum.
+18.11 14:59 N  GPT  score -0.58 conf 0.68: Fed faiz artırımı beklentilerinin güçlenmesi ve doların yüksek seyri altını kısa vadede baskılıyor; altındaki sert düşüş de bu eğilimi teyit ediyor. İran ve diğer jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak yeni başlıklarda bu etkinin baskın olduğuna dair net işaret yok.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
