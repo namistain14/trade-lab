@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    5000.0
-   ],
-   [
     1794455582,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795043132,
     5107.81
+   ],
+   [
+    1795043312,
+    5102.07
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    4868.5
-   ],
-   [
     1794455582,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795043132,
+    4868.5
+   ],
+   [
+    1795043312,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "18.11 02:03 N  NEWS (7 new) score -0.20 conf 0.45: En yeni ve en \u00f6nemli haber, St. Louis Fed Ba\u015fkan\u0131'n\u0131n \"baharda 1% faiz art\u0131r\u0131m\u0131 gerekebilir\" yorumu; bu s\u00f6zler faiz beklentilerini sertle\u015ftirip dolar\u0131 destekleyerek alt\u0131 bask\u0131lar. \u0130ran sava\u015f\u0131yla ilgili ABD'nin Qeshm Adas\u0131'ndaki f\u00fcze sahas\u0131n\u0131 vurmas\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu geli\u015fmenin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve eski haberler sinyali zay\u0131flat\u0131yor.",
   "18.11 02:03 N  GPT  score -0.25 conf 0.38: St. Louis Fed ba\u015fkan\u0131na atfedilen sert faiz art\u0131r\u0131m\u0131 beklentisi dolar ve reel faizleri destekleyerek alt\u0131na k\u0131sa vadede bask\u0131 yapabilir; ancak haberin do\u011frulanm\u0131\u015f politika de\u011fi\u015fikli\u011fi olmamas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor. \u0130ran\u2019daki \u00e7at\u0131\u015fma ve Ukrayna\u2019n\u0131n Ker\u00e7 K\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini destekley",
   "18.11 02:15 N  NEWS (11 new) score -0.40 conf 0.50: S\u0131cak CPI verisi sonras\u0131 dolar endeksi y\u0131ll\u0131k zirvelere y\u00f6nelirken, St. Louis Fed Ba\u015fkan\u0131'n\u0131n baharda 1% faiz art\u0131r\u0131m\u0131 gerekti\u011fini s\u00f6ylemesi faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebi destekliyor olsa da bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; k\u0131sa vadeli tablo alt\u0131n i\u00e7in olumsuz, ancak dolar geri \u00e7ekilmesi sinyalleri ve Goldman'\u0131n uzun vadeli bo\u011fa g\u00f6r\u00fc\u015f\u00fc belirsizli\u011fi art\u0131r\u0131yor.",
   "18.11 02:15 N  GPT  score +0.18 conf 0.36: Dolar\u0131n k\u00e2r sat\u0131\u015flar\u0131yla geri \u00e7ekilmesi ve y\u00fckseli\u015finin getiri deste\u011fini kaybetmesi alt\u0131na k\u0131sa vadede s\u0131n\u0131rl\u0131 destek sa\u011flayabilir. Ancak s\u0131cak enflasyon ve faiz art\u0131r\u0131m\u0131 beklentileri dolar\u0131 ve reel getirileri destekleyebilece\u011finden y\u00f6n sinyali zay\u0131f ve \u00e7eli\u015fkili.",
@@ -30203,7 +30202,8 @@
   "19.11 01:50 N  NEWS (7 new) score -0.60 conf 0.70: FOMC tutanaklar\u0131 ve Fed yetkililerinin faiz art\u0131r\u0131m sinyalleri, g\u00fc\u00e7lenen dolar\u0131 ve y\u00fckselen reel faiz beklentilerini destekleyerek alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor; \"Gold's Rout Accelerates\" ba\u015fl\u0131\u011f\u0131 da sat\u0131\u015f bask\u0131s\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcn\u00fc g\u00f6steriyor. \u0130ran sava\u015f\u0131 ve Gazze'deki kara harek\u00e2t\u0131 gibi jeopolitik gerilim haberleri g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destekleyici olsa da, mevcut a\u011f\u0131rl\u0131k hawkish Fed ve dolar taraf\u0131nda; baz\u0131 ba\u015fl\u0131klar\u0131n eski olabilece\u011fi ve tekrarlanan haber ak\u0131\u015f\u0131 nedeniyle g\u00fcven orta-y\u00fcksek seviyede tutuldu.",
   "19.11 01:50 N  GPT  score -0.68 conf 0.76: Fed\u2019in faiz art\u0131rmaya yakla\u015ft\u0131\u011f\u0131na dair yeni haberler ve dolar\u0131n y\u0131ll\u0131k zirveleri test etmesi, k\u0131sa vadede alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor. \u0130ran ve Gazze\u2019deki t\u0131rmanma g\u00fcvenli liman talebini destekleyebilir; ancak mevcut fiyat d\u00fc\u015f\u00fc\u015f\u00fc ve haberlerin bir k\u0131sm\u0131n\u0131n \u00f6nceden fiyatlanm\u0131\u015f olma ihtima",
   "19.11 02:02 N  NEWS (7 new) score -0.60 conf 0.60: \u015eahin FOMC tutanaklar\u0131, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali ve y\u0131ll\u0131k zirveye yakla\u015fan dolar\u0131n g\u00fc\u00e7lenmesi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 14 ayl\u0131k dibe geriledi. \u0130ran'la ilgili jeopolitik geli\u015fmeler (tanker may\u0131n iddias\u0131, Hizbullah yapt\u0131r\u0131mlar\u0131) g\u00fcvenli liman talebini destekleyebilir, ancak bu etki Fed ve dolar bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor ve haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f durumda.",
-  "19.11 02:02 N  GPT  score -0.68 conf 0.76: Fed tutanaklar\u0131n\u0131n daha y\u00fcksek faiz ihtimalini g\u00fc\u00e7lendirmesi ve dolar\u0131n y\u0131ll\u0131k zirveleri test etmesi, k\u0131sa vadede alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor. \u0130ran ve b\u00f6lgedeki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebi sa\u011flayabilir; ancak mevcut fiyat hareketi ve haber ak\u0131\u015f\u0131nda faiz-dolar etkisi a\u011f\u0131r bas\u0131y"
+  "19.11 02:02 N  GPT  score -0.68 conf 0.76: Fed tutanaklar\u0131n\u0131n daha y\u00fcksek faiz ihtimalini g\u00fc\u00e7lendirmesi ve dolar\u0131n y\u0131ll\u0131k zirveleri test etmesi, k\u0131sa vadede alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor. \u0130ran ve b\u00f6lgedeki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebi sa\u011flayabilir; ancak mevcut fiyat hareketi ve haber ak\u0131\u015f\u0131nda faiz-dolar etkisi a\u011f\u0131r bas\u0131y",
+  "19.11 02:08 B5  CLOSE short stop: -56.02 USD"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    4963.78
-   ],
-   [
     1794455582,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795043132,
+    4963.78
+   ],
+   [
+    1795043312,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    4975.18
-   ],
-   [
     1794455582,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795043132,
+    4975.18
+   ],
+   [
+    1795043312,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    4993.28
-   ],
-   [
     1794455582,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795043132,
+    4993.28
+   ],
+   [
+    1795043312,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794455413,
-    4969.22
-   ],
-   [
     1794455582,
     4969.22
    ],
@@ -78789,6 +78785,10 @@
    [
     1795043132,
     4969.22
+   ],
+   [
+    1795043312,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78798,25 +78798,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4882.5329650814865,
+   "balance": 4826.515524896619,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "289031bb",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.716267899095737,
-     "entry": 3722.30536,
-     "tp": 3711.1384439199996,
-     "sl": 3729.74997072,
-     "opened_ms": 1795035694743,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.35/0.60",
-     "friction": 12.0173
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -81673,21 +81657,38 @@
      "gross": 69.0114,
      "costs": 0.0,
      "pnl": 69.0114
+    },
+    {
+     "id": "289031bb",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.716267899095737,
+     "entry": 3722.30536,
+     "tp": 3711.1384439199996,
+     "sl": 3729.74997072,
+     "opened_ms": 1795035694743,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.35/0.60",
+     "friction": 12.0173,
+     "exit": 3730.6459207141443,
+     "closed_ms": 1795043280000,
+     "reason": "stop",
+     "gross": -56.0174,
+     "costs": 0.0,
+     "pnl": -56.0174
     }
    ],
    "day": {
     "date": "2026-11-19",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": -56.017440184867255,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794455413,
-    4764.72
-   ],
    [
     1794455582,
     4765.86
@@ -93683,6 +93684,10 @@
    [
     1795043132,
     4854.29
+   ],
+   [
+    1795043312,
+    4826.52
    ]
   ],
   "news_calls": {
@@ -94949,10 +94954,6 @@
    "equity": 115334.94
   },
   "equity_curve": [
-   [
-    1794455413,
-    115261.43
-   ],
    [
     1794455582,
     115261.43
@@ -106948,6 +106949,10 @@
    [
     1795043132,
     115334.94
+   ],
+   [
+    1795043312,
+    115334.94
    ]
   ],
   "open": {},
@@ -107130,10 +107135,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794455413,
-    4876.96
-   ],
    [
     1794455582,
     4876.96
@@ -119128,6 +119129,10 @@
    ],
    [
     1795043132,
+    4876.96
+   ],
+   [
+    1795043312,
     4876.96
    ]
   ],
