@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 15:32 (İstanbul)
+> Son güncelleme: 18.11.2026 15:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,031.66 $** (başlangıç 5,000 $, +31.66 $ / %+0.63)
+**Hesap değeri: 5,028.57 $** (başlangıç 5,000 $, +28.57 $ / %+0.57)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.1 | %43.0 |
 | Ödenen komisyon/spread | 167.78 $ | 1522.39 $ |
 
-**Hesap değeri: 4,716.43 $** (başlangıç 5,000 $, -283.57 $ / %-5.67)
+**Hesap değeri: 4,721.68 $** (başlangıç 5,000 $, -278.32 $ / %-5.57)
 
 Açık pozisyonlar: PAXGUSDT short @ 3762.69 (TP 3751.40 / SL 3770.21)
 
-Son haber analizi (18.11 15:23): Claude puan **-0.45**, güven 0.60 — Altın yıllık zirveye yakın düşük seviyelerde ve %2 civarında sert düşüyor; Fed'in faiz artırımı olasılığı, güçlü dolar ve bakır/kripto gibi varlıklardaki satış baskısı kısa vadede altı aşağı çekiyor. İran savaşının genişlemesi ve Körfez saldırıları güvenli liman talebini destekleyebilir, ancak bu jeopolitik risk şimdiye kadar fiyatı yukarı taşımadığı için etkisi sınırlı kalıyor; UBS'nin 5.000 dolar hedefi uzun vadeli olduğundan kısa vadeli etkisi zayıf.
+Son haber analizi (18.11 15:35): Claude puan **-0.55**, güven 0.60 — Fed yetkililerinin Aralık'ta yeniden faiz artırabileceği ve güçlenen doların altını baskılaması, altın fiyatlarının yıllık dip seviyelerinde düşmesine yol açıyor; İran savaşı ve Körfez'e yönelik saldırılar jeopolitik destek sağlasa da, bu güvenli liman talebi şu an sıkılaşma beklentilerinin gerisinde kalıyor. Yine de UBS'in 5.000 dolar hedefi ve savaş riskinin sürmesi nedeniyle güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.45**, güven 0.62 — Altın fiyatının yılın en düşük seviyelerine gerileyip düşüşünü sürdürmesi ve yakın vadede Fed faiz artırımı beklentisi kısa vadede baskın biçimde olumsuz. İran ve Hürmüz Boğazı kaynaklı riskler güvenli liman talebini destekleyebilir, ancak bu haberlerin bir kısmı süregelen gelişmeler ve düşüşü şimdi
+GPT (gpt-6-luna): puan **-0.45**, güven 0.62 — Fed’in Aralıkta faiz artırımı beklentisi ve doların Fed tutanakları öncesinde güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor. İran ve Balkanlar kaynaklı riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi kesin değil.
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 14:19 B5  SHORT gold 25000 USD x10 @ 3759.01 (TP 3747.73, SL 3766.53; news -0.69)
-18.11 14:23 N  NEWS (6 new) score -0.60 conf 0.65: Altın 3.800 doların altına inip yaklaşık 14 aylık dibe geriledi; dolar 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor. Yeni İran savaşı haberleri güvenli liman talebi yaratmadığı için, baskın etki hâlâ sıkı para politikası ve güçlü dolar yönünde; bu da kısa vadede altın için negatif. Güvenlik riski ve enflasyon baskısı yukarı yönlü riskler olarak duruyor, bu yüzden güven orta düzeyde.
 18.11 14:23 N  GPT  score -0.68 conf 0.78: Fed faiz artırımı beklentilerinin güçlenmesi ve doların 19 ayın zirvesine yakın seyretmesi, altındaki düşüşü kısa vadede destekliyor; fiyatın 3.800 doların altına inmesi de satış baskısına işaret ediyor. İran ve Körfez kaynaklı gerilim güvenli liman talebi yaratabilir, ancak yeni başlıklar belirsiz 
 18.11 14:35 N  NEWS (15 new) score -0.70 conf 0.70: Altın, Fed faiz artırımı beklentilerinin güçlenmesi ve doların 19 aylık zirvesine yakın seyretmesi nedeniyle 14 aylık dibe geriledi; bu baskı jeopolitik kaynaklı güvenli liman talebinden (İran savaşı, Etiyopya-Eritre gerilimi) daha ağır basıyor. Yine de bazı düşüşler zaten fiyatlanmış olabilir ve UBS'in uzun vadeli 5.000 dolar görüşü gibi haberler kısa vadeli karşı hareketi sınırlayabilir.
 18.11 14:35 N  GPT  score -0.68 conf 0.76: Fed faiz artırımı beklentileri ve doların güçlü seyri, altını 14 ayın en düşük seviyelerine taşıdığı için kısa vadeli baskın etki aşağı yönlü. İran ve Etiyopya-Eritre gerilimleri güvenli liman talebini destekleyebilir, ancak mevcut satış baskısını şimdilik dengeleyecek güçte görünmüyor.
@@ -106,6 +104,8 @@ Son işlemler:
 18.11 15:23 N  NEWS (6 new) score -0.45 conf 0.60: Altın yıllık zirveye yakın düşük seviyelerde ve %2 civarında sert düşüyor; Fed'in faiz artırımı olasılığı, güçlü dolar ve bakır/kripto gibi varlıklardaki satış baskısı kısa vadede altı aşağı çekiyor. İran savaşının genişlemesi ve Körfez saldırıları güvenli liman talebini destekleyebilir, ancak bu jeopolitik risk şimdiye kadar fiyatı yukarı taşımadığı için etkisi sınırlı kalıyor; UBS'nin 5.000 dolar hedefi uzun vadeli olduğundan kısa vadeli etkisi zayıf.
 18.11 15:23 N  GPT  score -0.45 conf 0.62: Altın fiyatının yılın en düşük seviyelerine gerileyip düşüşünü sürdürmesi ve yakın vadede Fed faiz artırımı beklentisi kısa vadede baskın biçimde olumsuz. İran ve Hürmüz Boğazı kaynaklı riskler güvenli liman talebini destekleyebilir, ancak bu haberlerin bir kısmı süregelen gelişmeler ve düşüşü şimdi
 18.11 15:26 B5  SHORT gold 25000 USD x10 @ 3762.69 (TP 3751.40, SL 3770.21; news -0.45)
+18.11 15:35 N  NEWS (10 new) score -0.55 conf 0.60: Fed yetkililerinin Aralık'ta yeniden faiz artırabileceği ve güçlenen doların altını baskılaması, altın fiyatlarının yıllık dip seviyelerinde düşmesine yol açıyor; İran savaşı ve Körfez'e yönelik saldırılar jeopolitik destek sağlasa da, bu güvenli liman talebi şu an sıkılaşma beklentilerinin gerisinde kalıyor. Yine de UBS'in 5.000 dolar hedefi ve savaş riskinin sürmesi nedeniyle güven orta düzeyde tutuldu.
+18.11 15:35 N  GPT  score -0.45 conf 0.62: Fed’in Aralıkta faiz artırımı beklentisi ve doların Fed tutanakları öncesinde güçlenmesi, kısa vadede altın üzerinde baskı yaratıyor. İran ve Balkanlar kaynaklı riskler güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimi kesin değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
