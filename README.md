@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 23:58 (İstanbul)
+> Son güncelleme: 19.11.2026 00:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,087.41 $** (başlangıç 5,000 $, +87.41 $ / %+1.75)
+**Hesap değeri: 5,086.47 $** (başlangıç 5,000 $, +86.47 $ / %+1.73)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,16 +20,18 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +393.23 $ | -117.47 $ |
-| İşlem sayısı | 22 | 136 |
-| Kazanma oranı | %59.1 | %44.1 |
-| Ödenen komisyon/spread | 263.80 $ | 1618.41 $ |
+| Net kâr/zarar | +0.00 $ | -117.47 $ |
+| İşlem sayısı | 0 | 136 |
+| Kazanma oranı | %0.0 | %44.1 |
+| Ödenen komisyon/spread | 0.00 $ | 1618.41 $ |
 
-**Hesap değeri: 4,882.53 $** (başlangıç 5,000 $, -117.47 $ / %-2.35)
+**Hesap değeri: 4,876.52 $** (başlangıç 5,000 $, -123.48 $ / %-2.47)
 
-Son haber analizi (18.11 20:41): Claude puan **-0.70**, güven 0.72 — Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
+Açık pozisyonlar: PAXGUSDT short @ 3722.31 (TP 3711.14 / SL 3729.75)
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Fed yetkililerinden enflasyonun kalıcılığı ve 50 baz puanlık faiz artışı yönündeki şahin mesajlar doları ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. Altının sert düşmüş olması ve Putin-Trump görüşmesiyle Ukrayna savaşının sona erdirilmesine yönelik girişimler bu etkiyi kısme
+Son haber analizi (19.11 00:01): Claude puan **-0.45**, güven 0.60 — Altın üzerindeki baskı net olarak aşağı yönlü: Fed tutanakları enflasyonla mücadelede kararlılığı gösteriyor, dolar güçleniyor ve altın yaklaşık %3 düşüşle 14 aylık dip seviyesine geriledi. İran'ın ABD üslerine saldırısı gibi jeopolitik gerilim güvenli liman talebini destekleyici olsa da, mevcut fiyat hareketi bu etkiyi bastırıyor; bu nedenle güven orta düzeyde.
+
+GPT (gpt-6-luna): puan **-0.25**, güven 0.61 — İran’ın ABD üslerine saldırısı ve Ukrayna’daki tırmanış güvenli liman talebini destekleyebilir; ancak Fed’in enflasyonu soğutma vurgusu, güçlenen dolar ve altındaki sert düşüş kısa vadede daha baskın görünüyor. Haber akışı çelişkili olduğundan görünüm ılımlı biçimde negatif.
 
 Son işlemler:
 
@@ -69,9 +71,9 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +3007.53 $ | +12935.71 $ |
-| İşlem sayısı | 7 | 58 |
-| Kazanma oranı | %57.1 | %50.0 |
+| Net kâr/zarar | +0.00 $ | +12935.71 $ |
+| İşlem sayısı | 0 | 58 |
+| Kazanma oranı | %0.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
 **Hesap değeri: 115,334.94 $** (başlangıç 100,000 $, +15334.94 $ / %+15.33)
@@ -89,9 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 21:38 B5  SHORT gold 25000 USD x10 @ 3736.49 (TP 3725.28, SL 3743.97; news -0.69)
-18.11 21:47 B6  karar turu: Claude «NVDA'daki SEC soruşturması ve AAPL kesintisine rağmen endeksler son bir saatte toparlanıyor ve teknoloji ağırlıklı alımlarla piyasa hafif pozitif seyrediyor.» / GPT «Endekslerde toparlanma eğilimi var ancak son fiyatlardaki ivme kaybı yeni kaldıraçlı girişlerin avantajını sınırlıyor.»
-18.11 21:59 B6  karar turu: Claude «Teknoloji ağırlıklı endeksler NVDA'daki SEC soruşturması ve Apple kesintisine rağmen dirençli; gün sonuna doğru ılımlı pozitif seyir bekleniyor.» / GPT «Teknoloji öncülüğünde sınırlı pozitif seyir sürse de son barlardaki duraksama, kapanış öncesinde kaldıraçlı yeni pozisyonların cazibesini azaltıyor.»
 18.11 22:09 B5  CLOSE short take profit: +69.01 USD
 18.11 22:12 B6  karar turu: Claude «Endeksler gün sonuna yaklaşırken karışık seyrediyor: QQQ hafif artıda, SPY hafif ekside ve kısa vadede belirgin bir yön sinyali yok.» / GPT «Endekslerde gün içi zirvelerden geri çekilme baskın, ancak son tepki ve kapanışın yaklaşması yeni yönlü pozisyonların cazibesini azaltıyor.»
 18.11 22:24 B6  karar turu: Claude «Piyasa kapanışa doğru kararsız; QQQ'nun pozitif, SPY'nin negatif olması zayıf bir genişliğe işaret ediyor ama net bir yön sinyali yok.» / GPT «Endekslerde son yükselişlerin geri verilmesi satış baskısına işaret ederken normal seansın kapanmasına yalnızca 36 dakika kalması 1–3 saatlik işlem ufkunu kısıtlıyor.»
@@ -104,6 +103,9 @@ Son işlemler:
 18.11 23:46 B6  CLOSE long QQQ seans sonu: -467.84 USD
 18.11 23:46 B6  CLOSE long TSLA seans sonu: -107.35 USD
 18.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
+19.11 00:01 N  NEWS (43 new) score -0.45 conf 0.60: Altın üzerindeki baskı net olarak aşağı yönlü: Fed tutanakları enflasyonla mücadelede kararlılığı gösteriyor, dolar güçleniyor ve altın yaklaşık %3 düşüşle 14 aylık dip seviyesine geriledi. İran'ın ABD üslerine saldırısı gibi jeopolitik gerilim güvenli liman talebini destekleyici olsa da, mevcut fiyat hareketi bu etkiyi bastırıyor; bu nedenle güven orta düzeyde.
+19.11 00:01 N  GPT  score -0.25 conf 0.61: İran’ın ABD üslerine saldırısı ve Ukrayna’daki tırmanış güvenli liman talebini destekleyebilir; ancak Fed’in enflasyonu soğutma vurgusu, güçlenen dolar ve altındaki sert düşüş kısa vadede daha baskın görünüyor. Haber akışı çelişkili olduğundan görünüm ılımlı biçimde negatif.
+19.11 00:01 B5  SHORT gold 25000 USD x10 @ 3722.31 (TP 3711.14, SL 3729.75; news -0.35)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
