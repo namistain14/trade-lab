@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 23:43 (İstanbul)
+> Son güncelleme: 18.11.2026 23:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,091.04 $** (başlangıç 5,000 $, +91.04 $ / %+1.82)
+**Hesap değeri: 5,089.06 $** (başlangıç 5,000 $, +89.06 $ / %+1.78)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -69,12 +69,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +2267.01 $ | +12195.19 $ |
-| İşlem sayısı | 3 | 54 |
-| Kazanma oranı | %66.7 | %50.0 |
+| Net kâr/zarar | +3007.53 $ | +12935.71 $ |
+| İşlem sayısı | 7 | 58 |
+| Kazanma oranı | %57.1 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,303.65 $** (başlangıç 100,000 $, +15303.65 $ / %+15.30)
+**Hesap değeri: 115,374.47 $** (başlangıç 100,000 $, +15374.47 $ / %+15.37)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -82,20 +82,15 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 23:46 | TSLA | long | -107.35 $ | seans sonu |
+| 18.11 23:46 | QQQ | long | -467.84 $ | seans sonu |
+| 18.11 23:46 | NVDA | short | +871.35 $ | seans sonu |
+| 18.11 23:46 | AAPL | short | +444.36 $ | seans sonu |
 | 18.11 20:25 | TSLA | short | -1171.20 $ | stop |
-| 18.11 18:38 | NVDA | short | +1718.01 $ | take profit |
-| 18.11 17:37 | NVDA | short | +1720.20 $ | take profit |
-| 17.11 23:46 | TSLA | long | -435.97 $ | seans sonu |
-| 17.11 23:46 | QQQ | long | -307.07 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-18.11 20:59 B6  karar turu: Claude «Endeks genelinde yön belirsiz; teknoloji görece güçlü olsa da NVDA'daki SEC soruşturması haberi duyarlılığı baskılıyor.» / GPT «Endeksler gün içinde kararsız; mevcut geri çekilme ve taze endeks katalizörü eksikliği yeni kaldıraçlı pozisyonu desteklemiyor.»
-18.11 21:11 B6  karar turu: Claude «Piyasa öğleden sonra hafif satış baskısı altında ve NVDA kaynaklı olumsuz haber akışı endeksleri aşağı çekiyor; ancak SPY için %1,5 hedef 1-3 saatte iddialı, bu yüzden güven düşük.» / GPT «Endekslerde kısa vadeli momentum aşağı yönlü; verilen şirket haberleri New York saatine göre eski olduğundan yeni katalizör sayılmamalı.»
-18.11 21:23 B6  karar turu: Claude «Endeks genelinde zayıf ve karışık bir seyir var, şirket özelinde NVDA'daki SEC soruşturması ön planda; açık QQQ pozisyonuna ek olarak bağıntılı risk eklemek mantıklı değil.» / GPT «Endekslerde saatlik zayıflığa rağmen dipten toparlanma var; şirket haberleri mevcut saatte taze katalizör sayılmıyor.»
-18.11 21:32 B5  CLOSE short stop: -56.02 USD
-18.11 21:35 B6  karar turu: Claude «Endeks yatay ama teknoloji ağırlıklı alımlar ve öğleden sonraki toparlanma hafif pozitif bir eğilime işaret ediyor; NVDA ve AAPL'deki şirkete özgü olumsuz haberler riskleri sınırlı tutuyor.» / GPT «Endekslerde toparlanma alıcıları destekliyor ancak düşük oynaklık, kalan seansta yüzde 1,5 kâr hedefine ulaşmayı zorlaştırıyor.»
 18.11 21:38 B5  SHORT gold 25000 USD x10 @ 3736.49 (TP 3725.28, SL 3743.97; news -0.69)
 18.11 21:47 B6  karar turu: Claude «NVDA'daki SEC soruşturması ve AAPL kesintisine rağmen endeksler son bir saatte toparlanıyor ve teknoloji ağırlıklı alımlarla piyasa hafif pozitif seyrediyor.» / GPT «Endekslerde toparlanma eğilimi var ancak son fiyatlardaki ivme kaybı yeni kaldıraçlı girişlerin avantajını sınırlıyor.»
 18.11 21:59 B6  karar turu: Claude «Teknoloji ağırlıklı endeksler NVDA'daki SEC soruşturması ve Apple kesintisine rağmen dirençli; gün sonuna doğru ılımlı pozitif seyir bekleniyor.» / GPT «Teknoloji öncülüğünde sınırlı pozitif seyir sürse de son barlardaki duraksama, kapanış öncesinde kaldıraçlı yeni pozisyonların cazibesini azaltıyor.»
@@ -106,6 +101,11 @@ Son işlemler:
 18.11 22:48 B6  karar turu: Claude «Endeksler son saatte satış baskısıyla zayıf kapanışa gidiyor; kapanışa çok az süre kaldığı için yeni pozisyon açmak mantıklı değil.» / GPT «SPY ve QQQ'daki aşağı yönlü ivme satıcıları destekliyor, ancak kapanışın yakınlığı ve kaldıraç seans sonrası likidite riskini artırıyor.»
 18.11 23:00 B6  karar turu: Claude «Endeksler gün sonunda yatay ve hafif zayıf kapandı; seans sonrasında yeni pozisyon açmak için yeterli avantaj görünmüyor.» / GPT «Endekslerde son saat zayıflığı baskın; kapanış sonrası işlemlerde düşük likidite ve braket emirlerinin tetiklenme belirsizliği nedeniyle yeni pozisyon açmıyorum.»
 18.11 23:12 B6  karar turu: Claude «Piyasa kapanışta karışık ve yatay; seans sonrasında yeni pozisyon için yeterli avantaj görünmüyor.» / GPT «16:12 New York saatinde normal seans kapanmış durumda; dar fiyat aralıkları, önümüzdeki 1–3 saatte %1,5 hedef için kaldıraçlı yeni pozisyonu desteklemiyor.»
+18.11 23:46 B6  CLOSE short AAPL seans sonu: +444.36 USD
+18.11 23:46 B6  CLOSE short NVDA seans sonu: +871.35 USD
+18.11 23:46 B6  CLOSE long QQQ seans sonu: -467.84 USD
+18.11 23:46 B6  CLOSE long TSLA seans sonu: -107.35 USD
+18.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
