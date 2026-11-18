@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794421722,
-    5000.0
-   ],
-   [
     1794421749,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795015259,
     5037.72
+   ],
+   [
+    1795015416,
+    5048.52
    ]
   ],
   "archive": [
@@ -15115,10 +15115,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794421722,
-    4868.5
-   ],
    [
     1794421749,
     4868.5
@@ -27113,6 +27109,10 @@
    ],
    [
     1795015259,
+    4868.5
+   ],
+   [
+    1795015416,
     4868.5
    ]
   ],
@@ -30383,10 +30383,6 @@
   },
   "equity_curve": [
    [
-    1794421722,
-    4963.78
-   ],
-   [
     1794421749,
     4963.78
    ],
@@ -42380,6 +42376,10 @@
    ],
    [
     1795015259,
+    4963.78
+   ],
+   [
+    1795015416,
     4963.78
    ]
   ],
@@ -42495,10 +42495,6 @@
   },
   "equity_curve": [
    [
-    1794421722,
-    4975.18
-   ],
-   [
     1794421749,
     4975.18
    ],
@@ -54492,6 +54488,10 @@
    ],
    [
     1795015259,
+    4975.18
+   ],
+   [
+    1795015416,
     4975.18
    ]
   ],
@@ -54577,10 +54577,6 @@
   },
   "equity_curve": [
    [
-    1794421722,
-    4993.28
-   ],
-   [
     1794421749,
     4993.28
    ],
@@ -66574,6 +66570,10 @@
    ],
    [
     1795015259,
+    4993.28
+   ],
+   [
+    1795015416,
     4993.28
    ]
   ]
@@ -66784,10 +66784,6 @@
   },
   "equity_curve": [
    [
-    1794421722,
-    4969.22
-   ],
-   [
     1794421749,
     4969.22
    ],
@@ -78781,6 +78777,10 @@
    ],
    [
     1795015259,
+    4969.22
+   ],
+   [
+    1795015416,
     4969.22
    ]
   ],
@@ -81593,10 +81593,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794421722,
-    4818.58
-   ],
    [
     1794421749,
     4819.58
@@ -93592,6 +93588,10 @@
    [
     1795015259,
     4723.91
+   ],
+   [
+    1795015416,
+    4756.95
    ]
   ],
   "news_calls": {
@@ -93799,9 +93799,23 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 113986.08012500001,
+   "balance": 113954.615125,
    "start": 100000.0,
    "positions": [
+    {
+     "id": "70a2ea41-c8f5-43e8-9722-eb98ac16dced",
+     "symbol": "AAPL",
+     "side": "short",
+     "qty": 322.0,
+     "entry": 353.72,
+     "tp": 348.52,
+     "sl": 357.37,
+     "opened_ms": 1795015236172,
+     "entry_cost": 0.0,
+     "friction": 0.0,
+     "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor.",
+     "cur": 353.605
+    },
     {
      "id": "c4c1c72b-b94f-46d7-a3db-af27adabfe7d",
      "symbol": "NVDA",
@@ -93814,7 +93828,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q ciddi bir risk; sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan dipte tepki al\u0131m\u0131 gelmiyor, sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.68: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6r olu\u015ftururken endeksteki toparlanmaya kat\u0131lamamas\u0131, ya\u015fanan d\u00fc\u015f\u00fc\u015fe ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destek",
-     "cur": 154.78
+     "cur": 153.815
     }
    ],
    "trades": [
@@ -94757,18 +94771,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 1741.2,
+    "pnl": 2456.04,
     "trades": 4,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114127.88
+   "equity": 114842.72
   },
   "equity_curve": [
-   [
-    1794421722,
-    117405.49
-   ],
    [
     1794421749,
     117460.78
@@ -106764,6 +106774,10 @@
    [
     1795015259,
     114127.88
+   ],
+   [
+    1795015416,
+    114842.72
    ]
   ],
   "open": {
@@ -106857,7 +106871,7 @@
   "premarket_day": "2026-11-18",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "320004.38",
+   "buying_power": "187044.14",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106969,10 +106983,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794421722,
-    4876.96
-   ],
    [
     1794421749,
     4876.96
@@ -118967,6 +118977,10 @@
    ],
    [
     1795015259,
+    4876.96
+   ],
+   [
+    1795015416,
     4876.96
    ]
   ],
