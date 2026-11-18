@@ -30,10 +30,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    5000.0
-   ],
-   [
     1794397910,
     5000.0
    ],
@@ -12028,6 +12024,10 @@
    [
     1794991115,
     4999.12
+   ],
+   [
+    1794991305,
+    4999.34
    ]
   ],
   "archive": [
@@ -15102,10 +15102,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    4868.5
-   ],
-   [
     1794397910,
     4868.5
    ],
@@ -27099,6 +27095,10 @@
    ],
    [
     1794991115,
+    4868.5
+   ],
+   [
+    1794991305,
     4868.5
    ]
   ],
@@ -29883,8 +29883,6 @@
   ]
  },
  "log": [
-  "17.11 10:56 N  NEWS (25 new) score -0.50 conf 0.60: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve 19 ayl\u0131k zirveye \u00e7\u0131kan dolar nedeniyle y\u0131l\u0131n dibine yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu bask\u0131 jeopolitik haberlerdeki s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebinin \u00f6n\u00fcne ge\u00e7iyor. ABD tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f ve dolardaki hafif geri \u00e7ekilme k\u0131sa vadede bir miktar destek sa\u011flayabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde tutuldu.",
-  "17.11 11:08 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 11:08 N  NEWS (16 new) score -0.10 conf 0.35: Jeopolitik gerilim (K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc, Kiev sald\u0131r\u0131lar\u0131, H\u00fcrm\u00fcz'de tanker vurulmas\u0131) g\u00fcvenli liman talebini destekleyebilir, ancak alt\u0131n son haberlerde sava\u015f primi yerine Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor. Bu \u00e7eli\u015fki nedeniyle ve yeni haberlerin \u00e7o\u011funun do\u011frudan alt\u0131n fiyat\u0131n\u0131 hareket ettirecek nitelikte olmamas\u0131 sebebiyle hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenli bir g\u00f6r\u00fcn\u00fcm.",
   "17.11 11:20 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 11:20 N  NEWS (19 new) score -0.60 conf 0.60: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolardaki 19 ayl\u0131k zirve nedeniyle y\u0131l\u0131n dibine yak\u0131n seyrediyor; bu, 1-4 saatlik vadede alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir tablo. Jeopolitik gerilim (\u0130ran sava\u015f\u0131, H\u00fcrm\u00fcz, Ukrayna) g\u00fcvenli liman talebi yaratsa da bu etki belirgin bi\u00e7imde s\u0131n\u0131rl\u0131 kal\u0131yor; ABD tahvil getirilerindeki baz\u0131 geri \u00e7ekilmeler ve dolardaki k\u0131smi gev\u015feme ise g\u00fcveni azalt\u0131yor.",
@@ -30182,7 +30180,9 @@
   "18.11 11:31 B5  CLOSE short stop: -56.01 USD",
   "18.11 11:31 N  NEWS (4 new) score -0.60 conf 0.70: Alt\u0131n 3.800 dolar\u0131n alt\u0131na inip y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyelerini g\u00f6rd\u00fc; dolar endeksi 19 ayl\u0131k zirveye yak\u0131n ve piyasada Fed'in faiz art\u0131r\u0131m\u0131 ihtimali tart\u0131\u015f\u0131l\u0131yor, bu da 1-4 saatlik g\u00f6r\u00fcn\u00fcmde alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna, Ker\u00e7 k\u00f6pr\u00fcs\u00fc) s\u00fcrse de alt\u0131n bu gerilimlere g\u00fcvenli liman tepkisi vermiyor; FOMC tutanaklar\u0131 \u00f6ncesi belirsizlik ise k\u0131sa vadede y\u00f6n de\u011fi\u015fimi riskini art\u0131r\u0131yor.",
   "18.11 11:31 N  GPT  score -0.55 conf 0.68: Dolar\u0131n 19 ay\u0131n zirvesine yak\u0131n seyretmesi ve Fed tutanaklar\u0131 \u00f6ncesi faiz art\u0131\u015f\u0131 beklentilerinin g\u00fc\u00e7lenmesi, alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131n bi\u00e7imde negatif. Ker\u00e7 K\u00f6pr\u00fcs\u00fc\u2019ne y\u00f6nelik sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak mevcut fiyat d\u00fc\u015f\u00fc\u015f\u00fc ve jeopolitik haberlerin s\u0131n\u0131rl\u0131 etkisi bu",
-  "18.11 11:38 B5  SHORT gold 25000 USD x10 @ 3758.61 (TP 3747.33, SL 3766.13; news -0.57)"
+  "18.11 11:38 B5  SHORT gold 25000 USD x10 @ 3758.61 (TP 3747.33, SL 3766.13; news -0.57)",
+  "18.11 11:41 B5P  NEWS (45 new) score +0.30 conf 0.40: H\u00fcrm\u00fcz Bo\u011faz\u0131'nda ADNOC gemisinin vurulmas\u0131 ve gaz tankerine isabet gibi yeni sald\u0131r\u0131lar, ayr\u0131ca ABD'nin \u0130ran adas\u0131n\u0131 vurmas\u0131 ve Bahreyn/Kuwait'e dronlar, arz riski primini yukar\u0131 \u00e7ekebilir. Buna kar\u015f\u0131l\u0131k Brent'in 100 dolar\u0131n alt\u0131na inmesi, fazla arz ve bozulan fiyat yap\u0131s\u0131 (backwardation, zay\u0131f motorin) gibi bask\u0131lay\u0131c\u0131 haberler piyasada zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle net etki hafif yukar\u0131 y\u00f6nl\u00fc ama belirsiz.",
+  "18.11 11:41 B5P  GPT  score +0.58 conf 0.68: H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda ADNOC ba\u011flant\u0131l\u0131 gemiye sald\u0131r\u0131, can kayb\u0131 ve ba\u015fka bir tanker hasar\u0131 haberleri yak\u0131n vadeli arz kesintisi risk primini art\u0131r\u0131yor. Ancak arz fazlas\u0131 endi\u015feleri ve petrol\u00fcn 100 dolar\u0131n alt\u0131na indi\u011fine dair haberler y\u00fckseli\u015fi s\u0131n\u0131rlayabilir."
  ],
  "gold_big": {
   "account": {
@@ -30369,10 +30369,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    4963.78
-   ],
-   [
     1794397910,
     4963.78
    ],
@@ -42366,6 +42362,10 @@
    ],
    [
     1794991115,
+    4963.78
+   ],
+   [
+    1794991305,
     4963.78
    ]
   ],
@@ -42481,10 +42481,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    4975.18
-   ],
-   [
     1794397910,
     4975.18
    ],
@@ -54478,6 +54474,10 @@
    ],
    [
     1794991115,
+    4975.18
+   ],
+   [
+    1794991305,
     4975.18
    ]
   ],
@@ -54563,10 +54563,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    4993.28
-   ],
-   [
     1794397910,
     4993.28
    ],
@@ -66560,6 +66556,10 @@
    ],
    [
     1794991115,
+    4993.28
+   ],
+   [
+    1794991305,
     4993.28
    ]
   ]
@@ -66770,10 +66770,6 @@
   },
   "equity_curve": [
    [
-    1794397731,
-    4969.22
-   ],
-   [
     1794397910,
     4969.22
    ],
@@ -78767,6 +78763,10 @@
    ],
    [
     1794991115,
+    4969.22
+   ],
+   [
+    1794991305,
     4969.22
    ]
   ],
@@ -81411,10 +81411,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794397731,
-    4644.33
-   ],
    [
     1794397910,
     4659.41
@@ -93410,6 +93406,10 @@
    [
     1794991115,
     4798.49
+   ],
+   [
+    1794991305,
+    4787.45
    ]
   ],
   "news_calls": {
@@ -94550,10 +94550,6 @@
    "equity": 112386.68
   },
   "equity_curve": [
-   [
-    1794397731,
-    111676.47
-   ],
    [
     1794397910,
     111676.47
@@ -106549,6 +106545,10 @@
    [
     1794991115,
     112386.68
+   ],
+   [
+    1794991305,
+    112386.68
    ]
   ],
   "open": {},
@@ -106731,10 +106731,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794397731,
-    4876.96
-   ],
    [
     1794397910,
     4876.96
@@ -118730,67 +118726,81 @@
    [
     1794991115,
     4876.96
+   ],
+   [
+    1794991305,
+    4876.96
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Hormuz'daki tanker sald\u0131r\u0131lar\u0131 ve may\u0131n isabeti arz riskini art\u0131r\u0131p fiyat\u0131 destekliyor, ancak piyasa bunu g\u00f6rmezden gelip Goldman'\u0131n 2027'ye kadar b\u00fcy\u00fck arz fazlas\u0131 \u00f6ng\u00f6r\u00fcs\u00fc, Hormuz sevkiyatlar\u0131n\u0131n iyile\u015fmesi ve dolar g\u00fc\u00e7lenmesi nedeniyle Brent'i 92 dolar\u0131n alt\u0131na \u00e7ekti. Haber ak\u0131\u015f\u0131 net olarak fiyat\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor, ancak jeopolitik risk y\u00fcksek oldu\u011fundan g\u00fcven orta d\u00fczeyde.",
+   "score": 0.3,
+   "confidence": 0.4,
+   "reason": "H\u00fcrm\u00fcz Bo\u011faz\u0131'nda ADNOC gemisinin vurulmas\u0131 ve gaz tankerine isabet gibi yeni sald\u0131r\u0131lar, ayr\u0131ca ABD'nin \u0130ran adas\u0131n\u0131 vurmas\u0131 ve Bahreyn/Kuwait'e dronlar, arz riski primini yukar\u0131 \u00e7ekebilir. Buna kar\u015f\u0131l\u0131k Brent'in 100 dolar\u0131n alt\u0131na inmesi, fazla arz ve bozulan fiyat yap\u0131s\u0131 (backwardation, zay\u0131f motorin) gibi bask\u0131lay\u0131c\u0131 haberler piyasada zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle net etki hafif yukar\u0131 y\u00f6nl\u00fc ama belirsiz.",
    "n": 45,
-   "gpt": null,
-   "ts": 1794891600098,
+   "gpt": {
+    "score": 0.58,
+    "confidence": 0.68,
+    "reason": "H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda ADNOC ba\u011flant\u0131l\u0131 gemiye sald\u0131r\u0131, can kayb\u0131 ve ba\u015fka bir tanker hasar\u0131 haberleri yak\u0131n vadeli arz kesintisi risk primini art\u0131r\u0131yor. Ancak arz fazlas\u0131 endi\u015feleri ve petrol\u00fcn 100 dolar\u0131n alt\u0131na indi\u011fine dair haberler y\u00fckseli\u015fi s\u0131n\u0131rlayabilir.",
+    "key_events": [
+     "H\u00fcrm\u00fcz\u2019de gemi sald\u0131r\u0131s\u0131; 1 ki\u015fi kay\u0131p, 11 yaral\u0131",
+     "Bo\u011fazdan ge\u00e7i\u015fte artan g\u00fcvenlik riski",
+     "Arz fazlas\u0131 endi\u015feleri fiyatlar\u0131 bask\u0131l\u0131yor"
+    ],
+    "model": "gpt-6-luna"
+   },
+   "ts": 1794991304479,
    "new_headlines": 45
   },
   "news_calls": {
    "date": "2026-11-18",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "UMass alum returns to talk law, war and diplomacy - Massachusetts Daily Collegian",
-   "Ukraine-Russia war latest: Power cuts in Kyiv as vital bridges struck in massive Russian ballistic missile attack - Yahoo News New Zealand",
-   "UKMTO Reports Attack on Tanker in Strait of Hormuz - WANA News Agency",
-   "Oil tanker burns in Strait of Hormuz after hitting mine - Mehr News Agency",
-   "Goldman Sachs: Global Oil Market Faces Large Surplus by 2027 - IDNFinancials",
-   "The Latest: Trump says he plans to talk about war in Ukraine during meeting with Xi and Putin - Dallas News",
-   "Decatur City Council approves natural gas pipeline underneath Lake Decatur - wandtv.com",
-   "Oil prices fall as supply surplus outlook outweighs tanker attack concerns - Business Standard",
-   "Vance: We Will Not Let The War Become A \u2018Forever War\u2019 - Kurdistan24",
-   "Crude oil futures fall as Hormuz shipments improve in Q3 2026 - BusinessLine",
-   "Iran Update, November 16, 2026 - Institute for the Study of War",
-   "Crude Oil Prices Fall on Global Supply Surplus Outlook - HDFC Sky",
-   "Brent crude slips below $92, WTI at $83 as supply surplus outlook outweighs Middle East tensions - Moneycontrol.com",
-   "\u2018Give Every American Family a $1700 Check\u2019: Ro Khanna Says Compensate American Families for Iran War - Benzinga",
-   "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News",
-   "Iraqi parliamentary inquiry uncovers evidence of oil smuggling in Jurf al-Sakhar - Anadolu Ajans\u0131",
-   "How Trump and Xi Moved From Tariff War to Trade Truce (Timeline) - Global Banking & Finance Review",
-   "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report",
-   "Brent Bolte steps down as Bemidji State head coach; Jordan Hein named successor - Bemidji Pioneer",
-   "ExxonMobil sanctions Longtail gas, condensate development offshore Guyana - Offshore Magazine",
-   "Crude Oil Falls As Restored Middle East Shipments Fuel Global Surplus Concerns By Kedia Advisory - Investing.com India",
-   "Oil Price Forecast: Brent and WTI Slide on Supply Surplus Outlook - FXEmpire",
-   "Transcript: Finland\u2019s President Stubb on Europe\u2019s Geopolitical Future and Enlargement - The Singju Post",
-   "Russian Offensive Campaign Assessment, November 16, 2026 - Institute for the Study of War",
-   "Ukraine Hits Kerch Bridge in its Biggest Drone Attack of the War - The SOFX Report",
-   "Brent Falls To US$92 Despite Continued Tanker Attacks In Strait Of Hormuz - BusinessToday Malaysia",
-   "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field - Al Jazeera",
-   "Ro Khanna Wants $1,700 Checks for Families Hit by Iran War Costs - Around Prague",
-   "OPEC Officials Meet to Assess Oil Production Capacity - 8AM Media",
-   "Zelensky warns Russia is preparing a new missile strike on Ukraine - Around Prague",
-   "Decatur City Council approves natural gas pipeline underneath Lake Decatur - WAND",
-   "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ",
-   "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges - The Guardian",
-   "Texas A&M launches Center for the Study of War and Society | Bryan - College Station - Community Impact",
-   "Nasdaq slides 2.5% | Nvidia to report earnings today | Brent oil falls 3.5% on rising supply - Moneycontrol.com",
-   "Vance says there\u2019s \u2018no daylight\u2019 between him and Trump on the war in Iran - NBC News",
-   "Ro Khanna pitches $1,700 checks for Americans to offset Iran war costs: 'A chance to deliver' - Fox News",
-   "US Dollar Rallies as Fed Rate Risks Pressure Global Markets - FXEmpire",
-   "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629",
-   "JD Vance: Iran will not be a forever war - The Times",
-   "Natural Gas, WTI Oil, Brent Oil Forecasts \u2013 Oil Dives As Supply Exceeds Demand - FXEmpire",
-   "Manzanar War Relocation Center honors Japanese-Americans - CBS News",
-   "Trump\u2019s Advisers Are at War Over China Ahead of Xi Summit - WSJ",
-   "\u2018PEACE + WAR\u2019 Album Review: No White Flags in Sight - The Harvard Crimson",
-   "Tom Burman: CSU's 'Scheduling Goals' Axe 2027 Border War - 7220 Sports"
+   "Ukraine\u2019s Liutyi Drone Gets a Jet-Powered Upgrade\u2014And Russia\u2019s Crimean Bridge Is Among Its First Targets - UNITED24 Media",
+   "Saudi coalition says intercepted Houthi cruise missile - Naharnet",
+   "War is accelerating Ukraine's AI rollout, digital chief tells Euronews - Yahoo News Singapore",
+   "Australia imposes sanctions on 4 Israeli organizations, 3 individuals - JNS.org",
+   "Xi and Putin Blast Sanctions Ahead of Trilateral Summit with Trump - Politics Today",
+   "Ukraine brings down Kerch road span with mixed missile and drone arsenal - IntelliNews",
+   "Higher petrol and diesel prices push UK inflation to 3.6%",
+   "Ships risk Hormuz Strait due to limited US protection - Al Jazeera",
+   "US-Israeli war created \u2018horrific\u2019 situation for Iranians: Amnesty - IraqiNews",
+   "France rejects Russian claim of direct involvement in Ukraine war - Anadolu Ajans\u0131",
+   "NNPC Targets 12bcf/d Gas Output, Calls For Innovative Pipeline Financing - MarketForces Africa",
+   "Oil Falls Below $100 as Supply Surplus Outweighs Iran Conflict Risk Premium - BigGo Finance",
+   "Is Iraq Heading Towards Civil War? - The Media Line",
+   "Fact Check Team: Is the Iran war becoming a political liability for Trump? - WCIV",
+   "\u2018Ad hoc era\u2019 of farming endures as Iran war batters ag economy - Farm Progress",
+   "Shafaq News..High-tech smugglers drain Iraq\u2019s oil pipelines - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "Crude Oil Prices Lower On Concerns Over Excess Supply - MarketForces Africa",
+   "'I'm definitely taking that belt' \u2013 Riley ready for war over IBF title - DAZN",
+   "Crude Oil Market Brief: Backwardated Curve, Softening Diesel, Surplus Risks - CMB News",
+   "Qalibaf Slams CNN Report on Iran\u2019s Alleged Plot as \u2018War Mongering\u2019 - \u062a\u0633\u0646\u06cc\u0645",
+   "Putin says Western sanctions backfiring as he pitches Russia as Asia trade hub - South China Morning Post",
+   "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - The Straits Times",
+   "The Iran War Did Not Doom Republicans\u2014The Way President Trump Waged It Did - Providence Magazine",
+   "From war games to crisis planning: Manila\u2019s bid for a \u2018Squad\u2019 command hub - South China Morning Post",
+   "Palm oil prices continue to fall amid record Malaysian stocks and declining crude oil prices - UkrAgroConsult",
+   "Crew abandons gas tanker after being hit by projectile while sailing through Strait of Hormuz - New York Post",
+   "Hanwha test launches Chunmoo missile off the coast of Mississippi - Defensehere",
+   "How the Houthis fund war effort and tighten grip on Yemen - Al Jazeera",
+   "Bahrain and Kuwait repel drone attacks after US strikes Iranian island - South China Morning Post",
+   "Ukraine's Termit: the robot platform changing the ground war - Dealroom",
+   "Israeli firms struggle to secure foreign financing as U.K. expands sanctions - Haaretz",
+   "Senators press acting U.S. Navy Secretary on Iran war costs, sailor health in confirmation hearing - CNBC",
+   "Trump: PH to be a \u2018very natural partner\u2019 in new oil pipeline in Alaska - ABS-CBN",
+   "Japan refinery runs climb as crude supply improves - Quantum Commodity Intelligence",
+   "UAE State Oil Firm Ship Hit In Hormuz, 11 Injured, 1 Missing - NDTV",
+   "Czech Republic eyes Israel's Arrow 3 defense system amid European fears of missile threats - The Jerusalem Post",
+   "Xi and Putin blast Western \u2018protectionism\u2019 and sanctions before meeting Trump at APEC - The Japan Times",
+   "living with war 2 - European Western Balkans",
+   "One missing, 11 injured after ADNOC vessel attacked in Strait of Hormuz - Al Arabiya English",
+   "Japan said that Southeast Asian nations will be able to access its crude oil storage facilities as part of efforts to prepare the region for a future energy crisis. I via ANC 24/7 Link to the full story in the comments section. - Facebook",
+   "ADNOC vessel attacked in Strait of Hormuz, 1 missing, 11 injured - Gulf News",
+   "Australia imposes new sanctions over illegal settlement expansion in occupied West Bank - Anadolu Ajans\u0131",
+   "Trump\u2019s Ukraine-War Realpolitik Isn\u2019t Realistic - National Review",
+   "Woodside Energy (ASX:WDS): What Brent Volatility Means Alongside Its New Capital Framework - Kalkine",
+   "Soroka Medical Center expands emergency department by 50% after Iranian missile strike - JNS.org"
   ],
   "news_history": [
    {
@@ -118909,6 +118919,15 @@
     "new": 45,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1794991304479,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "H\u00fcrm\u00fcz Bo\u011faz\u0131'nda ADNOC gemisinin vurulmas\u0131 ve gaz tankerine isabet gibi yeni sald\u0131r\u0131lar, ayr\u0131ca ABD'nin \u0130ran adas\u0131n\u0131 vurmas\u0131 ve Bahreyn/Kuwait'e dronlar, arz riski primini yukar\u0131 \u00e7ekebilir. Buna kar\u015f\u0131l\u0131k Brent'in 100 dolar\u0131n alt\u0131na inmesi, fazla arz ve bozulan fiyat yap\u0131s\u0131 (backwardation, zay\u0131f motorin) gibi bask\u0131lay\u0131c\u0131 haberler piyasada zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; bu nedenle net etki hafif yukar\u0131 y\u00f6nl\u00fc ama belirsiz.",
+    "new": 45,
+    "gpt_score": 0.58,
+    "gpt_confidence": 0.68
    }
   ]
  }

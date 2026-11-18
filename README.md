@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 11:38 (İstanbul)
+> Son güncelleme: 18.11.2026 11:41 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.12 $** (başlangıç 5,000 $, -0.88 $ / %-0.02)
+**Hesap değeri: 4,999.34 $** (başlangıç 5,000 $, -0.66 $ / %-0.01)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %70.0 | %43.5 |
 | Ödenen komisyon/spread | 119.80 $ | 1474.41 $ |
 
-**Hesap değeri: 4,798.49 $** (başlangıç 5,000 $, -201.51 $ / %-4.03)
+**Hesap değeri: 4,787.45 $** (başlangıç 5,000 $, -212.55 $ / %-4.25)
 
 Açık pozisyonlar: PAXGUSDT short @ 3758.61 (TP 3747.33 / SL 3766.13)
 
@@ -54,7 +54,9 @@ Son işlemler:
 
 **Hesap değeri: 4,876.96 $** (başlangıç 5,000 $, -123.04 $ / %-2.46)
 
-Son haber analizi (17.11 08:00): Claude puan **-0.30**, güven 0.50 — Hormuz'daki tanker saldırıları ve mayın isabeti arz riskini artırıp fiyatı destekliyor, ancak piyasa bunu görmezden gelip Goldman'ın 2027'ye kadar büyük arz fazlası öngörüsü, Hormuz sevkiyatlarının iyileşmesi ve dolar güçlenmesi nedeniyle Brent'i 92 doların altına çekti. Haber akışı net olarak fiyatı aşağı çekiyor, ancak jeopolitik risk yüksek olduğundan güven orta düzeyde.
+Son haber analizi (18.11 11:41): Claude puan **+0.30**, güven 0.40 — Hürmüz Boğazı'nda ADNOC gemisinin vurulması ve gaz tankerine isabet gibi yeni saldırılar, ayrıca ABD'nin İran adasını vurması ve Bahreyn/Kuwait'e dronlar, arz riski primini yukarı çekebilir. Buna karşılık Brent'in 100 doların altına inmesi, fazla arz ve bozulan fiyat yapısı (backwardation, zayıf motorin) gibi baskılayıcı haberler piyasada zaten fiyatlanmış görünüyor; bu nedenle net etki hafif yukarı yönlü ama belirsiz.
+
+GPT (gpt-6-luna): puan **+0.58**, güven 0.68 — Hürmüz Boğazı’nda ADNOC bağlantılı gemiye saldırı, can kaybı ve başka bir tanker hasarı haberleri yakın vadeli arz kesintisi risk primini artırıyor. Ancak arz fazlası endişeleri ve petrolün 100 doların altına indiğine dair haberler yükselişi sınırlayabilir.
 
 Son işlemler:
 
@@ -89,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 10:31 N  GPT  score -0.35 conf 0.67: Fed faiz artırımı beklentilerinin güçlenmesi ve altındaki sert düşüş eğilimi kısa vadede baskın biçimde aşağı yönlü. ABD’nin İran’a yeniden saldırdığı haberi güvenli liman talebini artırabilir, ancak bu etki şimdilik düşüş baskısını dengelemekle sınırlı kalabilir.
-18.11 10:43 N  NEWS (16 new) score -0.70 conf 0.70: Altın, Orta Doğu savaşına rağmen güvenli liman talebinin zayıf kaldığı, faiz artırımı beklentilerinin ve güçlenen doların baskı yarattığı bir ortamda 3.800 doların altına inip yıllık dibe yakın seviyelere geriledi. Dolar endeksinin 19 aylık zirveye yakın seyretmesi ve ABD'de faiz artırımı yönünde verilerin güçlenmesi kısa vadede altı aşağı çekmeye devam edebilir; buna karşın aşırı satış sonrası teknik tepki riski ve bazı analistlerin yukarı hedefleri güveni biraz sınırlıyor.
 18.11 10:43 N  GPT  score -0.74 conf 0.78: Doların 19 ayın zirvesine yakın seyretmesi ve Fed’in sıkılaşma beklentilerinin güçlenmesi, kısa vadede altın üzerinde belirgin baskı yaratıyor; fiyatın 3.800 doların altına gerilemesi de düşüş eğilimini teyit ediyor. Orta Doğu’daki savaş güvenli liman talebi sağlasa da şu an bu baskıyı dengeleyemiyo
 18.11 10:55 N  NEWS (13 new) score -0.70 conf 0.75: Altın 3.800 doların altına inerek Eylül 2025'ten bu yana en düşük seviyeye geriledi; Fed faiz artırımı beklentileri güçleniyor, dolar endeksi 19 aylık zirveye yakın ve ABD verileri faiz artırımını destekliyor. Bu makroekonomik baskı, savaş kaynaklı jeopolitik risk primini (İran savaşı, Ukrayna) büyük ölçüde bastırdığı için kısa vadede altın üzerinde ağırlıklı olarak düşüş yönlü bir etki bekleniyor.
 18.11 10:55 N  GPT  score -0.62 conf 0.72: Altının 3.800 doların altına gerilemesi, doların 19 ayın zirvesine yakın seyretmesi ve Fed faiz artırımı beklentilerinin güçlenmesi kısa vadede baskının sürebileceğine işaret ediyor. Yeni jeopolitik başlıklar belirgin bir tırmanış göstermediğinden güvenli liman desteği sınırlı; haberlerin bir kısmı 
@@ -104,6 +104,8 @@ Son işlemler:
 18.11 11:31 N  NEWS (4 new) score -0.60 conf 0.70: Altın 3.800 doların altına inip yılın en düşük seviyelerini gördü; dolar endeksi 19 aylık zirveye yakın ve piyasada Fed'in faiz artırımı ihtimali tartışılıyor, bu da 1-4 saatlik görünümde altın için baskılayıcı. Jeopolitik riskler (İran savaşı, Ukrayna, Kerç köprüsü) sürse de altın bu gerilimlere güvenli liman tepkisi vermiyor; FOMC tutanakları öncesi belirsizlik ise kısa vadede yön değişimi riskini artırıyor.
 18.11 11:31 N  GPT  score -0.55 conf 0.68: Doların 19 ayın zirvesine yakın seyretmesi ve Fed tutanakları öncesi faiz artışı beklentilerinin güçlenmesi, altın üzerinde kısa vadede baskın biçimde negatif. Kerç Köprüsü’ne yönelik saldırı güvenli liman talebini destekleyebilir; ancak mevcut fiyat düşüşü ve jeopolitik haberlerin sınırlı etkisi bu
 18.11 11:38 B5  SHORT gold 25000 USD x10 @ 3758.61 (TP 3747.33, SL 3766.13; news -0.57)
+18.11 11:41 B5P  NEWS (45 new) score +0.30 conf 0.40: Hürmüz Boğazı'nda ADNOC gemisinin vurulması ve gaz tankerine isabet gibi yeni saldırılar, ayrıca ABD'nin İran adasını vurması ve Bahreyn/Kuwait'e dronlar, arz riski primini yukarı çekebilir. Buna karşılık Brent'in 100 doların altına inmesi, fazla arz ve bozulan fiyat yapısı (backwardation, zayıf motorin) gibi baskılayıcı haberler piyasada zaten fiyatlanmış görünüyor; bu nedenle net etki hafif yukarı yönlü ama belirsiz.
+18.11 11:41 B5P  GPT  score +0.58 conf 0.68: Hürmüz Boğazı’nda ADNOC bağlantılı gemiye saldırı, can kaybı ve başka bir tanker hasarı haberleri yakın vadeli arz kesintisi risk primini artırıyor. Ancak arz fazlası endişeleri ve petrolün 100 doların altına indiğine dair haberler yükselişi sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
