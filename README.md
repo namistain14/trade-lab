@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,000.78 $** (başlangıç 5,000 $, +0.78 $ / %+0.02)
+**Hesap değeri: 5,002.10 $** (başlangıç 5,000 $, +2.10 $ / %+0.04)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %58.3 | %42.9 |
 | Ödenen komisyon/spread | 143.79 $ | 1498.40 $ |
 
-**Hesap değeri: 4,714.13 $** (başlangıç 5,000 $, -285.87 $ / %-5.72)
+**Hesap değeri: 4,707.23 $** (başlangıç 5,000 $, -292.77 $ / %-5.86)
 
 Açık pozisyonlar: PAXGUSDT short @ 3770.51 (TP 3759.19 / SL 3778.05)
 
