@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 16:06 (İstanbul)
+> Son güncelleme: 18.11.2026 16:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,034.42 $** (başlangıç 5,000 $, +34.42 $ / %+0.69)
+**Hesap değeri: 5,032.71 $** (başlangıç 5,000 $, +32.71 $ / %+0.65)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +285.21 $ | -225.49 $ |
-| İşlem sayısı | 15 | 129 |
-| Kazanma oranı | %60.0 | %43.4 |
-| Ödenen komisyon/spread | 179.78 $ | 1534.39 $ |
+| Net kâr/zarar | +229.19 $ | -281.50 $ |
+| İşlem sayısı | 16 | 130 |
+| Kazanma oranı | %56.2 | %43.1 |
+| Ödenen komisyon/spread | 191.78 $ | 1546.39 $ |
 
-**Hesap değeri: 4,743.95 $** (başlangıç 5,000 $, -256.05 $ / %-5.12)
-
-Açık pozisyonlar: PAXGUSDT short @ 3746.42 (TP 3735.18 / SL 3753.91)
+**Hesap değeri: 4,718.50 $** (başlangıç 5,000 $, -281.50 $ / %-5.63)
 
 Son haber analizi (18.11 16:00): Claude puan **-0.60**, güven 0.65 — Fed yetkililerinin (Waller dahil) faiz artırımı sinyalleri ve yükselen dolar, Fed tutanakları öncesinde altın üzerinde baskı yaratıyor; altın 3.800 doların altında ve 3.700'e doğru satış sürüyor. Iran savaşının sürmesi güvenli liman talebini destekleyebilir, ancak bu etki şu an fiyatlara yansımıyor.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 16:08 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 15:38 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 15:09 | PAXGUSDT | short | -56.01 $ | stop |
 | 18.11 14:14 | PAXGUSDT | short | +69.02 $ | take profit |
 | 18.11 12:26 | PAXGUSDT | short | -56.01 $ | stop |
-| 18.11 11:47 | PAXGUSDT | short | -56.01 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -91,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 14:59 N  GPT  score -0.58 conf 0.68: Fed faiz artırımı beklentilerinin güçlenmesi ve doların yüksek seyri altını kısa vadede baskılıyor; altındaki sert düşüş de bu eğilimi teyit ediyor. İran ve diğer jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak yeni başlıklarda bu etkinin baskın olduğuna dair net işaret yok.
 18.11 15:11 B5  CLOSE short stop: -56.01 USD
 18.11 15:11 N  NEWS (12 new) score -0.15 conf 0.40: İran'ın Körfez ülkelerine yönelik saldırıları jeopolitik risk ve güvenli liman talebini destekliyor, ancak altın son saatlerde %2 civarında düşüyor, Fed'in faiz artırma ihtimali ve güçlü dolar baskı yaratıyor. Bakır ve ABD doları ile ilgili haberler de altın için olumsuz bir ortam gösteriyor; bu nedenle net etki hafif negatif ve düşük güvenle değerlendirilmiştir.
 18.11 15:11 N  GPT  score +0.18 conf 0.43: İran’ın Körfez ülkelerine yönelik misilleme saldırıları kısa vadede güvenli liman talebini destekleyebilir. Ancak altın ve diğer emtialardaki düşüş, güçlü dolar ve olası Fed faiz artırımı beklentisi bu desteği sınırlıyor.
@@ -106,6 +103,7 @@ Son işlemler:
 18.11 15:48 N  GPT  score -0.48 conf 0.68: Waller’ın enflasyon uyarısı ve olası faiz artışları ile doların güçlenmesi, kısa vadede altın üzerinde baskı kuruyor; fiyatın 3.800 doların altına inmesi satış momentumunu da gösteriyor. ETF girişleri ve Etiyopya-Eritre gerilimi destekleyici olsa da bu etkiler şimdilik baskıyı dengelemeye yetmeyebil
 18.11 16:00 N  NEWS (6 new) score -0.60 conf 0.65: Fed yetkililerinin (Waller dahil) faiz artırımı sinyalleri ve yükselen dolar, Fed tutanakları öncesinde altın üzerinde baskı yaratıyor; altın 3.800 doların altında ve 3.700'e doğru satış sürüyor. Iran savaşının sürmesi güvenli liman talebini destekleyebilir, ancak bu etki şu an fiyatlara yansımıyor.
 18.11 16:00 N  GPT  score -0.45 conf 0.62: Altın 3.800 doların altına gerileyip teknik destekleri kırarken doların yükselmesi ve Fed yetkilisinin yeni faiz artışlarına açık kapı bırakması kısa vadede baskıyı artırıyor. Çin ve ETF talebine ilişkin haberler destekleyici olsa da daha uzun vadeli; Fed tutanakları öncesinde belirsizlik yüksek.
+18.11 16:09 B5  CLOSE short stop: -56.01 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
