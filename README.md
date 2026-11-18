@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 11:59 (İstanbul)
+> Son güncelleme: 18.11.2026 12:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,9 +12,9 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,999.12 $** (başlangıç 5,000 $, -0.88 $ / %-0.02)
+**Hesap değeri: 4,996.48 $** (başlangıç 5,000 $, -3.52 $ / %-0.07)
 
-Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
+Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
 ## Bot B5 — Altın: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %63.6 | %43.2 |
 | Ödenen komisyon/spread | 131.80 $ | 1486.41 $ |
 
-**Hesap değeri: 4,740.36 $** (başlangıç 5,000 $, -259.64 $ / %-5.19)
+**Hesap değeri: 4,733.58 $** (başlangıç 5,000 $, -266.42 $ / %-5.33)
 
 Açık pozisyonlar: PAXGUSDT short @ 3763.38 (TP 3752.09 / SL 3770.90)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 11:19 N  NEWS (10 new) score -0.70 conf 0.60: Altın 3.800 doların altına düştü; Fed faiz artırımı beklentileri ve doların 19 aylık zirveye yakın seyri altını baskılıyor. Yakın vadede FOMC tutanakları önemli bir risk olarak bekleniyor, İran savaşı gibi güvenli liman haberleri ise fiyatı desteklemeye yetmiyor.
 18.11 11:19 N  GPT  score -0.68 conf 0.78: Dolar endeksindeki yükseliş ve Fed tutanakları öncesinde güçlenen şahin faiz beklentileri, kısa vadede altın üzerinde belirgin baskı oluşturuyor. Bölgesel çatışma haberleri güvenli liman talebini desteklese de yeni ve güçlü bir tırmanış sinyali vermiyor; altındaki sert düşüş de mevcut olumsuz moment
 18.11 11:19 B5  SHORT gold 25000 USD x10 @ 3756.69 (TP 3745.42, SL 3764.20; news -0.69)
 18.11 11:31 B5  CLOSE short stop: -56.01 USD
@@ -106,6 +105,7 @@ Son işlemler:
 18.11 11:53 B5  SHORT gold 25000 USD x10 @ 3763.38 (TP 3752.09, SL 3770.90; news -0.71)
 18.11 11:56 N  NEWS (12 new) score -0.70 conf 0.70: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor; bu, reel faizleri yükselterek altını baskılıyor. Altın yıllık/YTD dip seviyelerine geriledi ve FOMC tutanakları öncesinde satış sürüyor. Jeopolitik haberler (İran, Ukrayna) güvenli liman talebi yaratabilir, ancak mevcut haber akışında bu etki dolar ve faiz kaynaklı baskının gerisinde kalıyor.
 18.11 11:56 N  GPT  score -0.58 conf 0.69: Doların 19 ayın zirvesine yakın seyretmesi ve Fed faiz artırımı beklentilerinin güçlenmesi, önümüzdeki saatlerde altın üzerinde baskı oluşturuyor; altının yeni dipleri görmesi de aşağı yönlü momentumu destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini artırabilir, ancak kısa vadede
+18.11 12:02 A  SHORT XRPUSDT 1650 USD @ 0.9997 (1s RSI 69, TP 0.9573, SL 1.021)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
