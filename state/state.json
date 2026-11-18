@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    5000.0
-   ],
-   [
     1794421722,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795015056,
     5042.13
+   ],
+   [
+    1795015259,
+    5037.72
    ]
   ],
   "archive": [
@@ -15116,10 +15116,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    4868.5
-   ],
-   [
     1794421722,
     4868.5
    ],
@@ -27113,6 +27109,10 @@
    ],
    [
     1795015056,
+    4868.5
+   ],
+   [
+    1795015259,
     4868.5
    ]
   ],
@@ -29897,8 +29897,6 @@
   ]
  },
  "log": [
-  "17.11 18:50 N  NEWS (8 new) score -0.50 conf 0.60: ",
-  "17.11 18:56 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A",
   "17.11 18:56 B6  karar turu: Claude \u00abPiyasa son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sert sat\u0131\u015f yedi; hafif tepki gelse de genel e\u011filim zay\u0131f, se\u00e7ici k\u0131sa pozisyon tercih ediliyor.\u00bb / GPT \u00ab-\u00bb",
   "17.11 19:02 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 19:02 N  NEWS (17 new) score -0.50 conf 0.60: Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n seyrediyor; ABD enflasyonu ve ithal fiyatlar\u0131 beklentileri a\u015ft\u0131, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve 10 y\u0131ll\u0131k tahvil getirisinin %5'e yakla\u015fmas\u0131 dolar\u0131 ve getirileri yukar\u0131 ta\u015f\u0131yor. Bu ko\u015fullar alt\u0131n i\u00e7in net olarak negatif, \u0130ran sava\u015f\u0131ndaki \u00e7\u0131kmaz\u0131n s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi ise bu bask\u0131y\u0131 tam olarak dengeleyemiyor.",
@@ -30196,7 +30194,9 @@
   "18.11 18:09 B6  A\u00c7I\u011eA SATI\u015e NVDA 735 adet \u2248 113,888 $ (1:4) @ 154.95 (TP 152.63, SL 156.5; ikisi de hemfikir, g\u00fcven 0.55)",
   "18.11 18:14 N  NEWS (9 new) score -0.70 conf 0.70: Alt\u0131n 14 ayl\u0131k dibe geriledi; Fed'in faiz art\u0131rma beklentileri g\u00fc\u00e7leniyor (Waller 100 baz puana kadar art\u0131\u015f olabilece\u011fini s\u00f6yl\u00fcyor), dolar endeksi 52 haftal\u0131k zirvede ve reel getiriler y\u00fckseliyor. Bu bask\u0131lar \u0130ran sava\u015f\u0131n\u0131n jeopolitik g\u00fcvenli liman talebinden daha belirleyici; yine de sava\u015f ve belirsizlik kaynakl\u0131 ani bir tepki riski ve haberlerin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "18.11 18:14 N  GPT  score -0.72 conf 0.78: Fed\u2019in enflasyonla m\u00fccadelede daha sert ve olas\u0131 faiz art\u0131r\u0131mlar\u0131na y\u00f6nelmesi ile dolar\u0131n 52 haftal\u0131k zirvesi, k\u0131sa vadede alt\u0131n\u0131n ta\u015f\u0131ma maliyetini art\u0131r\u0131p fiyat\u0131 bask\u0131l\u0131yor. \u0130ran ve Yemen kaynakl\u0131 riskler g\u00fcvenli liman talebini desteklese de bu etki \u015fimdilik faiz ve dolar bask\u0131s\u0131n\u0131 dengelemiyor; h",
-  "18.11 18:14 B5  SHORT gold 25000 USD x10 @ 3753.06 (TP 3741.80, SL 3760.57; news -0.71)"
+  "18.11 18:14 B5  SHORT gold 25000 USD x10 @ 3753.06 (TP 3741.80, SL 3760.57; news -0.71)",
+  "18.11 18:20 B6  karar turu: Claude \u00abPiyasa genel olarak yatay; teknoloji hafif pozitif ancak NVDA'daki SEC soru\u015fturmas\u0131 se\u00e7ici risk yarat\u0131yor.\u00bb / GPT \u00abEndekslerde net y\u00f6n yok; d\u00f6rt kat kald\u0131ra\u00e7 alt\u0131nda agresif giri\u015fleri yaln\u0131zca AAPL sat\u0131\u015f ve TSLA al\u0131\u015f y\u00f6n\u00fcndeki s\u0131n\u0131rl\u0131 \u015firket bazl\u0131 avantajlarla s\u0131n\u0131rl\u0131yorum.\u00bb",
+  "18.11 18:20 B6  A\u00c7I\u011eA SATI\u015e AAPL 322 adet \u2248 113,933 $ (1:4) @ 353.83 (TP 348.52, SL 357.37; ikisi de hemfikir, g\u00fcven 0.45)"
  ],
  "gold_big": {
   "account": {
@@ -30383,10 +30383,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    4963.78
-   ],
-   [
     1794421722,
     4963.78
    ],
@@ -42380,6 +42376,10 @@
    ],
    [
     1795015056,
+    4963.78
+   ],
+   [
+    1795015259,
     4963.78
    ]
   ],
@@ -42495,10 +42495,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    4975.18
-   ],
-   [
     1794421722,
     4975.18
    ],
@@ -54492,6 +54488,10 @@
    ],
    [
     1795015056,
+    4975.18
+   ],
+   [
+    1795015259,
     4975.18
    ]
   ],
@@ -54577,10 +54577,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    4993.28
-   ],
-   [
     1794421722,
     4993.28
    ],
@@ -66574,6 +66570,10 @@
    ],
    [
     1795015056,
+    4993.28
+   ],
+   [
+    1795015259,
     4993.28
    ]
   ]
@@ -66784,10 +66784,6 @@
   },
   "equity_curve": [
    [
-    1794421552,
-    4969.22
-   ],
-   [
     1794421722,
     4969.22
    ],
@@ -78781,6 +78777,10 @@
    ],
    [
     1795015056,
+    4969.22
+   ],
+   [
+    1795015259,
     4969.22
    ]
   ],
@@ -81593,10 +81593,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794421552,
-    4824.16
-   ],
    [
     1794421722,
     4818.58
@@ -93592,6 +93588,10 @@
    [
     1795015056,
     4746.82
+   ],
+   [
+    1795015259,
+    4723.91
    ]
   ],
   "news_calls": {
@@ -93799,7 +93799,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 113978.735125,
+   "balance": 113986.08012500001,
    "start": 100000.0,
    "positions": [
     {
@@ -93814,7 +93814,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q ciddi bir risk; sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan dipte tepki al\u0131m\u0131 gelmiyor, sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.68: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6r olu\u015ftururken endeksteki toparlanmaya kat\u0131lamamas\u0131, ya\u015fanan d\u00fc\u015f\u00fc\u015fe ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destek",
-     "cur": 154.335
+     "cur": 154.78
     }
    ],
    "trades": [
@@ -94757,18 +94757,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 2060.93,
+    "pnl": 1741.2,
     "trades": 4,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 114447.61
+   "equity": 114127.88
   },
   "equity_curve": [
-   [
-    1794421552,
-    117112.71
-   ],
    [
     1794421722,
     117405.49
@@ -106764,6 +106760,10 @@
    [
     1795015056,
     114447.61
+   ],
+   [
+    1795015259,
+    114127.88
    ]
   ],
   "open": {
@@ -106777,15 +106777,26 @@
     "sl": 156.5,
     "opened_ms": 1795014516877,
     "note": "Claude 0.55: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q ciddi bir risk; sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan dipte tepki al\u0131m\u0131 gelmiyor, sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.68: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6r olu\u015ftururken endeksteki toparlanmaya kat\u0131lamamas\u0131, ya\u015fanan d\u00fc\u015f\u00fc\u015fe ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destek"
+   },
+   "AAPL": {
+    "order_id": "70a2ea41-c8f5-43e8-9722-eb98ac16dced",
+    "symbol": "AAPL",
+    "side": "short",
+    "qty": 322,
+    "entry": 353.83,
+    "tp": 348.52,
+    "sl": 357.37,
+    "opened_ms": 1795015236172,
+    "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor."
    }
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795014516877,
+  "last_decision_ms": 1795015236172,
   "view": {
-   "ts": 1795014516877,
-   "claude": "Genel piyasa yatay ve karars\u0131z; as\u0131l f\u0131rsat NVDA'daki \u015firkete \u00f6zg\u00fc olumsuz haberde.",
-   "gpt": "Endekslerde y\u00f6n belirsizken d\u00f6rt kat kald\u0131ra\u00e7 nedeniyle toplam riski s\u0131n\u0131rlay\u0131p NVDA'daki \u015firkete \u00f6zg\u00fc zay\u0131fl\u0131\u011f\u0131 ve AAPL'daki g\u00f6reli g\u00fcc\u00fc se\u00e7ici bi\u00e7imde de\u011ferlendiriyorum.",
+   "ts": 1795015236172,
+   "claude": "Piyasa genel olarak yatay; teknoloji hafif pozitif ancak NVDA'daki SEC soru\u015fturmas\u0131 se\u00e7ici risk yarat\u0131yor.",
+   "gpt": "Endekslerde net y\u00f6n yok; d\u00f6rt kat kald\u0131ra\u00e7 alt\u0131nda agresif giri\u015fleri yaln\u0131zca AAPL sat\u0131\u015f ve TSLA al\u0131\u015f y\u00f6n\u00fcndeki s\u0131n\u0131rl\u0131 \u015firket bazl\u0131 avantajlarla s\u0131n\u0131rl\u0131yorum.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -106796,47 +106807,47 @@
      ],
      "gpt": [
       "none",
-      0.62
+      0.78
      ]
     },
     "QQQ": {
      "claude": [
-      "none",
-      0.3
+      "long",
+      0.4
      ],
      "gpt": [
       "none",
-      0.61
+      0.68
      ]
     },
     "NVDA": {
      "claude": [
-      "short",
-      0.55
+      null,
+      null
      ],
      "gpt": [
-      "short",
-      0.68
+      null,
+      null
      ]
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.4
+      "short",
+      0.45
      ],
      "gpt": [
-      "long",
-      0.55
+      "short",
+      0.61
      ]
     },
     "TSLA": {
      "claude": [
       "none",
-      0.35
+      0.3
      ],
      "gpt": [
-      "none",
-      0.6
+      "long",
+      0.56
      ]
     }
    }
@@ -106846,7 +106857,7 @@
   "premarket_day": "2026-11-18",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "321666.95",
+   "buying_power": "320004.38",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106958,10 +106969,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794421552,
-    4876.96
-   ],
    [
     1794421722,
     4876.96
@@ -118956,6 +118963,10 @@
    ],
    [
     1795015056,
+    4876.96
+   ],
+   [
+    1795015259,
     4876.96
    ]
   ],

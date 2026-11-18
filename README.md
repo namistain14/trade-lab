@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 18:17 (İstanbul)
+> Son güncelleme: 18.11.2026 18:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,042.13 $** (başlangıç 5,000 $, +42.13 $ / %+0.84)
+**Hesap değeri: 5,037.72 $** (başlangıç 5,000 $, +37.72 $ / %+0.75)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %55.6 | %43.2 |
 | Ödenen komisyon/spread | 215.77 $ | 1570.38 $ |
 
-**Hesap değeri: 4,746.82 $** (başlangıç 5,000 $, -253.18 $ / %-5.06)
+**Hesap değeri: 4,723.91 $** (başlangıç 5,000 $, -276.09 $ / %-5.52)
 
 Açık pozisyonlar: PAXGUSDT short @ 3753.06 (TP 3741.80 / SL 3760.57)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,447.61 $** (başlangıç 100,000 $, +14447.61 $ / %+14.45)
+**Hesap değeri: 114,127.88 $** (başlangıç 100,000 $, +14127.88 $ / %+14.13)
 
 Açık pozisyonlar: NVDA short @ 154.97 (TP 152.63 / SL 156.50)
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 17:37 B6  CLOSE short NVDA take profit: +1720.20 USD
-18.11 17:44 B5  CLOSE short stop: -56.01 USD
 18.11 17:44 B6  karar turu: Claude «Piyasa hafif negatif seyrediyor; teknoloji tarafında NVDA'ya özgü olumsuz haberler baskı yaratırken AAPL göreceli güç gösteriyor.» / GPT «Endekslerde satış baskısı sürerken AAPL'nin göreli gücünü ve TSLA'nın başarısız yükselişini seçici biçimde değerlendiriyor, dört kat kaldıraç nedeniyle toplam riski sınırlı tutuyorum.»
 18.11 17:49 N  NEWS (13 new) score -0.80 conf 0.80: Fed'in Waller'ın Aralık'ta 50 baz puanlık faiz artırımı önerisi ve Fed artırım beklentilerinin yükselmesi, doları 52 haftalık zirveye taşıyarak altını 14 aylık dip seviyesine (3.765 dolar altına) indirdi. Bu güçlü şahin sinyal, İran ve Ukrayna'daki savaş haberlerinin sınırlı güvenli liman talebinden çok daha baskın; yine de haberlerin büyük kısmı zaten fiyatlandığı için güven orta-yüksek seviyede.
 18.11 17:49 N  GPT  score -0.78 conf 0.82: Waller’ın enflasyonun kötüleştiği ve daha sert faiz artışlarının gerekebileceği yönündeki açıklamaları, doların 52 haftanın zirvesine çıkmasıyla birleşerek altın üzerinde belirgin baskı yaratıyor. Ukrayna ve İran kaynaklı riskler güvenli liman talebini destekleyebilir; ancak başlıklar sınırlı ve mev
@@ -108,6 +106,8 @@ Son işlemler:
 18.11 18:14 N  NEWS (9 new) score -0.70 conf 0.70: Altın 14 aylık dibe geriledi; Fed'in faiz artırma beklentileri güçleniyor (Waller 100 baz puana kadar artış olabileceğini söylüyor), dolar endeksi 52 haftalık zirvede ve reel getiriler yükseliyor. Bu baskılar İran savaşının jeopolitik güvenli liman talebinden daha belirleyici; yine de savaş ve belirsizlik kaynaklı ani bir tepki riski ve haberlerin büyük ölçüde fiyatlanmış olması güveni sınırlıyor.
 18.11 18:14 N  GPT  score -0.72 conf 0.78: Fed’in enflasyonla mücadelede daha sert ve olası faiz artırımlarına yönelmesi ile doların 52 haftalık zirvesi, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor. İran ve Yemen kaynaklı riskler güvenli liman talebini desteklese de bu etki şimdilik faiz ve dolar baskısını dengelemiyor; h
 18.11 18:14 B5  SHORT gold 25000 USD x10 @ 3753.06 (TP 3741.80, SL 3760.57; news -0.71)
+18.11 18:20 B6  karar turu: Claude «Piyasa genel olarak yatay; teknoloji hafif pozitif ancak NVDA'daki SEC soruşturması seçici risk yaratıyor.» / GPT «Endekslerde net yön yok; dört kat kaldıraç altında agresif girişleri yalnızca AAPL satış ve TSLA alış yönündeki sınırlı şirket bazlı avantajlarla sınırlıyorum.»
+18.11 18:20 B6  AÇIĞA SATIŞ AAPL 322 adet ≈ 113,933 $ (1:4) @ 353.83 (TP 348.52, SL 357.37; ikisi de hemfikir, güven 0.45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
