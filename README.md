@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 19:18 (İstanbul)
+> Son güncelleme: 18.11.2026 19:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,089.57 $** (başlangıç 5,000 $, +89.57 $ / %+1.79)
+**Hesap değeri: 5,103.94 $** (başlangıç 5,000 $, +103.94 $ / %+2.08)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,791.45 $** (başlangıç 5,000 $, -208.55 $ / %-4.17)
+**Hesap değeri: 4,840.76 $** (başlangıç 5,000 $, -159.24 $ / %-3.18)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,556.98 $** (başlangıç 100,000 $, +16556.98 $ / %+16.56)
+**Hesap değeri: 117,209.19 $** (başlangıç 100,000 $, +17209.19 $ / %+17.21)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 18:38 N  GPT  score -0.55 conf 0.69: Waller’ın enflasyon karşısında sert adım ve olası yarım puanlık faiz artışı mesajı, faiz beklentileri ve dolar üzerinden altın için belirgin baskı oluşturuyor; yükselen enflasyon beklentileri de bu tonu destekliyor. İran’ın Kuveyt ve Bahreyn’e saldırıları güvenli liman talebini artırabilir, ancak al
 18.11 18:38 B6  CLOSE short NVDA take profit: +1718.01 USD
 18.11 18:45 B6  karar turu: Claude «Piyasa hafif negatif ve yönsüz; şirkete özgü olumsuz haberler, özellikle NVDA'daki SEC soruşturması, en belirgin fırsatı sunuyor.» / GPT «Endekslerde son bölümde satış baskısı belirginleşirken haberler artık çok taze olmadığından 4 kat kaldıraçta geniş piyasa yerine şirkete özgü zayıflığı süren hisselerde seçici kısa pozisyon tercih ediyorum.»
 18.11 18:45 B6  AÇIĞA SATIŞ NVDA 761 adet ≈ 115,832 $ (1:4) @ 152.21 (TP 149.93, SL 153.73; ikisi de hemfikir, güven 0.60)
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 19:15 N  NEWS (15 new) score -0.50 conf 0.60: Fed Governor Waller'ın agresif faiz artırımı (50 baz puan) çağrısı ve güçlenen doları, ggerçek faiz beklentilerini yükselterek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının genişlemesi ve Körfez'e saldırılar güvenli liman talebini destekliyor olsa da, bu etki şu an hawkish Fed ve dolar baskısının gerisinde kalıyor; ayrıca altın zaten 14 aylık dibe inmiş olduğu için bazı etkiler fiyatlanmış olabilir.
 18.11 19:15 N  GPT  score -0.70 conf 0.72: Waller’ın faiz artırımı çağrısı doları ve getirileri destekleyerek altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de aşağı yönlü momentumu gösteriyor. Trump’ın Putin ve Xi ile görüşmesi güvenli liman talebini azaltabilir, ancak devam eden çatışma haberleri düşüşü kısmen sınırlıyor.
 18.11 19:15 B5  SHORT gold 25000 USD x10 @ 3741.38 (TP 3730.16, SL 3748.86; news -0.60)
+18.11 19:21 B6  karar turu: Claude «Piyasa öğle saatlerinde teknoloji liderliğinde zayıflıyor ve NVIDIA'daki regülasyon haberleri risk iştahını baskılıyor, bu nedenle kısa vadeli eğilim aşağı yönlü.» / GPT «Endekslerde gün içi düşüş eğilimi baskın; ancak hareketin bir kısmı gerçekleştiğinden ve başlıklar saatler öncesine ait olduğundan tepki yükselişi riski gözetilmeli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
