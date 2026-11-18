@@ -44,10 +44,6 @@
   },
   "equity_curve": [
    [
-    1794422299,
-    5000.0
-   ],
-   [
     1794422468,
     5000.0
    ],
@@ -12042,6 +12038,10 @@
    [
     1795015976,
     5051.44
+   ],
+   [
+    1795016137,
+    5038.88
    ]
   ],
   "archive": [
@@ -15115,10 +15115,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794422299,
-    4868.5
-   ],
    [
     1794422468,
     4868.5
@@ -27113,6 +27109,10 @@
    ],
    [
     1795015976,
+    4868.5
+   ],
+   [
+    1795016137,
     4868.5
    ]
   ],
@@ -30383,10 +30383,6 @@
   },
   "equity_curve": [
    [
-    1794422299,
-    4963.78
-   ],
-   [
     1794422468,
     4963.78
    ],
@@ -42380,6 +42376,10 @@
    ],
    [
     1795015976,
+    4963.78
+   ],
+   [
+    1795016137,
     4963.78
    ]
   ],
@@ -42495,10 +42495,6 @@
   },
   "equity_curve": [
    [
-    1794422299,
-    4975.18
-   ],
-   [
     1794422468,
     4975.18
    ],
@@ -54492,6 +54488,10 @@
    ],
    [
     1795015976,
+    4975.18
+   ],
+   [
+    1795016137,
     4975.18
    ]
   ],
@@ -54577,10 +54577,6 @@
   },
   "equity_curve": [
    [
-    1794422299,
-    4993.28
-   ],
-   [
     1794422468,
     4993.28
    ],
@@ -66574,6 +66570,10 @@
    ],
    [
     1795015976,
+    4993.28
+   ],
+   [
+    1795016137,
     4993.28
    ]
   ]
@@ -66784,10 +66784,6 @@
   },
   "equity_curve": [
    [
-    1794422299,
-    4969.22
-   ],
-   [
     1794422468,
     4969.22
    ],
@@ -78781,6 +78777,10 @@
    ],
    [
     1795015976,
+    4969.22
+   ],
+   [
+    1795016137,
     4969.22
    ]
   ],
@@ -81593,10 +81593,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794422299,
-    4822.84
-   ],
    [
     1794422468,
     4829.56
@@ -93592,6 +93588,10 @@
    [
     1795015976,
     4713.45
+   ],
+   [
+    1795016137,
+    4706.99
    ]
   ],
   "news_calls": {
@@ -93799,7 +93799,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 113975.46662499999,
+   "balance": 113978.73012499999,
    "start": 100000.0,
    "positions": [
     {
@@ -93814,7 +93814,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Servis kesintisi ve d\u00fczenleyici haberler var, son mumlarda da zirveden geri \u00e7ekilme ba\u015flad\u0131. | GPT 0.61: Hizmet kesintisi haberiyle birlikte son zirvelerden s\u00fcren geri \u00e7ekilme, b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan sat\u0131\u015f f\u0131rsat\u0131 sunuyor.",
-     "cur": 353.085
+     "cur": 353.385
     },
     {
      "id": "c4c1c72b-b94f-46d7-a3db-af27adabfe7d",
@@ -93828,7 +93828,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: SEC soru\u015fturmas\u0131 ve ertelenen 10-Q ciddi bir risk; sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan dipte tepki al\u0131m\u0131 gelmiyor, sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir. | GPT 0.68: SEC soru\u015fturmas\u0131 ve geciken 10-Q g\u00fc\u00e7l\u00fc negatif kataliz\u00f6r olu\u015ftururken endeksteki toparlanmaya kat\u0131lamamas\u0131, ya\u015fanan d\u00fc\u015f\u00fc\u015fe ra\u011fmen sat\u0131\u015f y\u00f6n\u00fcn\u00fc destek",
-     "cur": 153.1799
+     "cur": 153.81
     }
    ],
    "trades": [
@@ -94771,18 +94771,14 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "pnl": 3111.13,
+    "pnl": 2554.67,
     "trades": 4,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 115497.81
+   "equity": 114941.35
   },
   "equity_curve": [
-   [
-    1794422299,
-    117261.79
-   ],
    [
     1794422468,
     117303.69
@@ -106778,6 +106774,10 @@
    [
     1795015976,
     115497.81
+   ],
+   [
+    1795016137,
+    114941.35
    ]
   ],
   "open": {
@@ -106871,7 +106871,7 @@
   "premarket_day": "2026-11-18",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "190450.62",
+   "buying_power": "187557.02",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -106983,10 +106983,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794422299,
-    4876.96
-   ],
    [
     1794422468,
     4876.96
@@ -118981,6 +118977,10 @@
    ],
    [
     1795015976,
+    4876.96
+   ],
+   [
+    1795016137,
     4876.96
    ]
   ],
