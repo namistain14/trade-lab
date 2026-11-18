@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 19:24 (İstanbul)
+> Son güncelleme: 18.11.2026 19:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,091.66 $** (başlangıç 5,000 $, +91.66 $ / %+1.83)
+**Hesap değeri: 5,089.18 $** (başlangıç 5,000 $, +89.18 $ / %+1.78)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,814.03 $** (başlangıç 5,000 $, -185.97 $ / %-3.72)
+**Hesap değeri: 4,826.26 $** (başlangıç 5,000 $, -173.74 $ / %-3.47)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
-Son haber analizi (18.11 19:15): Claude puan **-0.50**, güven 0.60 — Fed Governor Waller'ın agresif faiz artırımı (50 baz puan) çağrısı ve güçlenen doları, ggerçek faiz beklentilerini yükselterek altın üzerinde kısa vadeli baskı yaratıyor. İran savaşının genişlemesi ve Körfez'e saldırılar güvenli liman talebini destekliyor olsa da, bu etki şu an hawkish Fed ve dolar baskısının gerisinde kalıyor; ayrıca altın zaten 14 aylık dibe inmiş olduğu için bazı etkiler fiyatlanmış olabilir.
+Son haber analizi (18.11 19:27): Claude puan **-0.60**, güven 0.70 — Fed Governor Waller'ın 50 baz puanlık faiz artırımı çağrısı ve doların 19 aylık zirveye yakın seyretmesi, reel faiz ve dolar kanallarından altı baskılıyor. Jeopolitik gerilim (İran saldırıları, ABD'nin İran füze sahasını vurması) güvenli liman talebi yaratabilir, ancak altın zaten 14 aylık dibe inmiş durumda ve bu risk primi etkisi şimdiye kadar sınırlı kaldı; bu nedenle ağırlık hawkish Fed ve güçlü dolar tarafında.
 
-GPT (gpt-6-luna): puan **-0.70**, güven 0.72 — Waller’ın faiz artırımı çağrısı doları ve getirileri destekleyerek altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de aşağı yönlü momentumu gösteriyor. Trump’ın Putin ve Xi ile görüşmesi güvenli liman talebini azaltabilir, ancak devam eden çatışma haberleri düşüşü kısmen sınırlıyor.
+GPT (gpt-6-luna): puan **-0.68**, güven 0.78 — Waller’ın 50 baz puanlık faiz artışı çağrısı, yükselen enflasyon beklentileri ve doların 19 ayın zirvesine yaklaşması kısa vadede altın üzerinde belirgin baskı yaratıyor; düşüşün zaten sertleşmiş olması ek aşağı hareketin boyutuna ilişkin güveni sınırlıyor. İran ve Ukrayna kaynaklı riskler güvenli l
 
 Son işlemler:
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,691.92 $** (başlangıç 100,000 $, +15691.92 $ / %+15.69)
+**Hesap değeri: 116,113.88 $** (başlangıç 100,000 $, +16113.88 $ / %+16.11)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 18:38 B6  CLOSE short NVDA take profit: +1718.01 USD
-18.11 18:45 B6  karar turu: Claude «Piyasa hafif negatif ve yönsüz; şirkete özgü olumsuz haberler, özellikle NVDA'daki SEC soruşturması, en belirgin fırsatı sunuyor.» / GPT «Endekslerde son bölümde satış baskısı belirginleşirken haberler artık çok taze olmadığından 4 kat kaldıraçta geniş piyasa yerine şirkete özgü zayıflığı süren hisselerde seçici kısa pozisyon tercih ediyorum.»
 18.11 18:45 B6  AÇIĞA SATIŞ NVDA 761 adet ≈ 115,832 $ (1:4) @ 152.21 (TP 149.93, SL 153.73; ikisi de hemfikir, güven 0.60)
 18.11 18:45 B6  AÇIĞA SATIŞ TSLA 305 adet ≈ 115,882 $ (1:4) @ 379.94 (TP 374.24, SL 383.74; ikisi de hemfikir, güven 0.45)
 18.11 18:50 N  NEWS (14 new) score -0.50 conf 0.60: Fed Governor Waller'ın enflasyonu "şok" ile düşürmek için faiz artırımının gerekebileceği yönündeki sözleri, reel faiz beklentilerini yükselterek altı baskılıyor. Altın fiyatının Ekim 2025'ten bu yana en düşük seviyeye inmesi ve 3.875 dolar desteğinin test edilmesi de negatif momentumu teyit ediyor; İran savaşı ve Hürmüz gerilimi jeopolitik destek sağlasa da bu etki görece zayıf kalıyor.
@@ -108,6 +106,8 @@ Son işlemler:
 18.11 19:15 N  GPT  score -0.70 conf 0.72: Waller’ın faiz artırımı çağrısı doları ve getirileri destekleyerek altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de aşağı yönlü momentumu gösteriyor. Trump’ın Putin ve Xi ile görüşmesi güvenli liman talebini azaltabilir, ancak devam eden çatışma haberleri düşüşü kısmen sınırlıyor.
 18.11 19:15 B5  SHORT gold 25000 USD x10 @ 3741.38 (TP 3730.16, SL 3748.86; news -0.60)
 18.11 19:21 B6  karar turu: Claude «Piyasa öğle saatlerinde teknoloji liderliğinde zayıflıyor ve NVIDIA'daki regülasyon haberleri risk iştahını baskılıyor, bu nedenle kısa vadeli eğilim aşağı yönlü.» / GPT «Endekslerde gün içi düşüş eğilimi baskın; ancak hareketin bir kısmı gerçekleştiğinden ve başlıklar saatler öncesine ait olduğundan tepki yükselişi riski gözetilmeli.»
+18.11 19:27 N  NEWS (5 new) score -0.60 conf 0.70: Fed Governor Waller'ın 50 baz puanlık faiz artırımı çağrısı ve doların 19 aylık zirveye yakın seyretmesi, reel faiz ve dolar kanallarından altı baskılıyor. Jeopolitik gerilim (İran saldırıları, ABD'nin İran füze sahasını vurması) güvenli liman talebi yaratabilir, ancak altın zaten 14 aylık dibe inmiş durumda ve bu risk primi etkisi şimdiye kadar sınırlı kaldı; bu nedenle ağırlık hawkish Fed ve güçlü dolar tarafında.
+18.11 19:27 N  GPT  score -0.68 conf 0.78: Waller’ın 50 baz puanlık faiz artışı çağrısı, yükselen enflasyon beklentileri ve doların 19 ayın zirvesine yaklaşması kısa vadede altın üzerinde belirgin baskı yaratıyor; düşüşün zaten sertleşmiş olması ek aşağı hareketin boyutuna ilişkin güveni sınırlıyor. İran ve Ukrayna kaynaklı riskler güvenli l
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
