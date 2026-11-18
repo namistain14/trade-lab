@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 18:54 (İstanbul)
+> Son güncelleme: 18.11.2026 18:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,064.39 $** (başlangıç 5,000 $, +64.39 $ / %+1.29)
+**Hesap değeri: 5,054.80 $** (başlangıç 5,000 $, +54.80 $ / %+1.10)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,7 +25,7 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %55.6 | %43.2 |
 | Ödenen komisyon/spread | 215.77 $ | 1570.38 $ |
 
-**Hesap değeri: 4,760.88 $** (başlangıç 5,000 $, -239.12 $ / %-4.78)
+**Hesap değeri: 4,754.08 $** (başlangıç 5,000 $, -245.92 $ / %-4.92)
 
 Açık pozisyonlar: PAXGUSDT short @ 3753.06 (TP 3741.80 / SL 3760.57)
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %50.9 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,684.67 $** (başlangıç 100,000 $, +15684.67 $ / %+15.68)
+**Hesap değeri: 115,318.95 $** (başlangıç 100,000 $, +15318.95 $ / %+15.32)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); TSLA short @ 380.00 (TP 374.24 / SL 383.74)
 
@@ -93,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 18:14 N  GPT  score -0.72 conf 0.78: Fed’in enflasyonla mücadelede daha sert ve olası faiz artırımlarına yönelmesi ile doların 52 haftalık zirvesi, kısa vadede altının taşıma maliyetini artırıp fiyatı baskılıyor. İran ve Yemen kaynaklı riskler güvenli liman talebini desteklese de bu etki şimdilik faiz ve dolar baskısını dengelemiyor; h
 18.11 18:14 B5  SHORT gold 25000 USD x10 @ 3753.06 (TP 3741.80, SL 3760.57; news -0.71)
 18.11 18:20 B6  karar turu: Claude «Piyasa genel olarak yatay; teknoloji hafif pozitif ancak NVDA'daki SEC soruşturması seçici risk yaratıyor.» / GPT «Endekslerde net yön yok; dört kat kaldıraç altında agresif girişleri yalnızca AAPL satış ve TSLA alış yönündeki sınırlı şirket bazlı avantajlarla sınırlıyorum.»
 18.11 18:20 B6  AÇIĞA SATIŞ AAPL 322 adet ≈ 113,933 $ (1:4) @ 353.83 (TP 348.52, SL 357.37; ikisi de hemfikir, güven 0.45)
@@ -108,6 +107,7 @@ Son işlemler:
 18.11 18:45 B6  AÇIĞA SATIŞ TSLA 305 adet ≈ 115,882 $ (1:4) @ 379.94 (TP 374.24, SL 383.74; ikisi de hemfikir, güven 0.45)
 18.11 18:50 N  NEWS (14 new) score -0.50 conf 0.60: Fed Governor Waller'ın enflasyonu "şok" ile düşürmek için faiz artırımının gerekebileceği yönündeki sözleri, reel faiz beklentilerini yükselterek altı baskılıyor. Altın fiyatının Ekim 2025'ten bu yana en düşük seviyeye inmesi ve 3.875 dolar desteğinin test edilmesi de negatif momentumu teyit ediyor; İran savaşı ve Hürmüz gerilimi jeopolitik destek sağlasa da bu etki görece zayıf kalıyor.
 18.11 18:50 N  GPT  score -0.35 conf 0.63: Fed yetkilisi Waller’ın enflasyonu bastırmak için faiz artışının gerekebileceği uyarısı, kısa vadede dolar ve reel faizleri destekleyerek altını baskılayabilir. İran ve Ukrayna kaynaklı çatışma haberleri güvenli liman talebini artırsa da, altının yeni dip seviyelere gerilediğine ilişkin haberler gör
+18.11 18:57 B6  karar turu: Claude «Piyasa öğleden önce hafif negatif seyrediyor; NVDA kaynaklı haber riski teknoloji tarafında satış baskısını canlı tutuyor.» / GPT «Piyasa kısa vadede zayıf ancak diplerden toparlanıyor; yeni şirket haberleriyle desteklenmeyen işlemlerde ve dört kat kaldıraçta temkin gerekli.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
