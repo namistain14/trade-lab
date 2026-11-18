@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 04:37 (İstanbul)
+> Son güncelleme: 18.11.2026 04:40 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,007.95 $** (başlangıç 5,000 $, +7.95 $ / %+0.16)
+**Hesap değeri: 5,007.28 $** (başlangıç 5,000 $, +7.28 $ / %+0.15)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,11 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %100.0 | %42.2 |
 | Ödenen komisyon/spread | 23.92 $ | 1378.53 $ |
 
-**Hesap değeri: 4,627.38 $** (başlangıç 5,000 $, -372.62 $ / %-7.45)
+**Hesap değeri: 4,621.39 $** (başlangıç 5,000 $, -378.61 $ / %-7.57)
 
-Son haber analizi (18.11 04:28): Claude puan **-0.15**, güven 0.40 — Yeni haberlerde doların güçlenmesi ve Fed'in şahin açıklamaları altın için baskı oluşturuyor; buna karşılık ABD'nin İran'a yönelik "öz savunma" saldırıları ve çatışmanın yeniden başlayabileceği endişeleri güvenli liman talebini destekliyor. Net etki hafif negatif, ancak jeopolitik gerilim ve ilk haberlerdeki dolar geri çekilmesi belirsizliği artırdığı için güven düşük.
+Açık pozisyonlar: PAXGUSDT short @ 3805.06 (TP 3793.64 / SL 3812.67)
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Hawkish Fed mesajları ve güçlü perakende satışlar dolar talebini artırarak altını kısa vadede baskılıyor. İran çevresindeki tırmanma haberleri güvenli liman talebi sağlayabilir; bu nedenle düşüş eğilimi sınırlı ve belirsiz.
+Son haber analizi (18.11 04:40): Claude puan **-0.40**, güven 0.50 — Dolar 19 aylık zirvesine yakın seyrediyor ve güçlü perakende satışlarıyla birlikte şahin Fed söylemleri faiz artırımı beklentilerini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. İran-ABD çatışmasının tırmanması güvenli liman talebini artırabilir, ancak altın son dönemde bu jeopolitik riske rağmen zayıf kalıyor, bu yüzden etki sınırlı kalabilir.
+
+GPT (gpt-6-luna): puan **-0.40**, güven 0.66 — Yeni başlıklar, güçlü verilerin Fed faiz artırımı beklentisini desteklemesiyle doların 19 ayın zirvesine yakın kaldığını gösteriyor; bu, kısa vadede altın için baskı oluşturur. İran kaynaklı çatışma haberleri güvenli liman talebini desteklese de daha eski ve karşıt bir etken olduğundan net görünüm ı
 
 Son işlemler:
 
@@ -87,9 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 03:28 N  NEWS (9 new) score -0.50 conf 0.60: Altın 14 aylık dip yakınında, faiz artırımı beklentileri ve güçlenen dolar baskı oluşturuyor; jeopolitik risk (İran savaşı, Qeshm saldırısı) güvenli liman talebi yaratsa da mevcut haber akışında etkisi baskılanmış görünüyor. Güçlü dolar ve sıkılaşma beklentisi kısa vadede altı aşağı çekme eğiliminde, ancak haberlerin bir kısmı eski/fiyatlanmış ve dolar geri çekilmeleri toparlanma ihtimalini de koruyor.
-18.11 03:28 N  GPT  score -0.28 conf 0.58: Son haberlerde doların güçlenmesiyle altın ve gümüşte sert düşüş bildirilmesi, ayrıca faiz artışı baskısının altını 14 ayın diplerine yakın tutması kısa vadede aşağı yönlü. ABD’nin İran’daki IRGC füze mevzisini vurması güvenli liman talebini destekleyebilir ve düşüşü sınırlayabilir.
-18.11 03:28 B5  SHORT gold 25000 USD x10 @ 3824.90 (TP 3813.43, SL 3832.55; news -0.39)
 18.11 03:37 B5  CLOSE short take profit: +69.03 USD
 18.11 03:40 N  NEWS (10 new) score +0.15 conf 0.40: ABD'nin İran füze sahasına saldırısı ve Kuveyt'teki İHA saldırıları jeopolitik risk ve güvenli liman talebini artırarak altını hafifçe destekliyor. Ancak altın 14 aylık dibe yakın seyrediyor, faiz artırımı beklentileri ve dolar tarafındaki baskı ise kısa vadede negatif; doların geri çekilmesi ise destekleyici. Sinyaller karışık olduğu için sınırlı bir pozitif görüş ve düşük güven uygun.
 18.11 03:40 N  GPT  score +0.35 conf 0.57: İran’daki füze tesisine ABD saldırısı ve Kuveyt’te bildirilen drone saldırıları kısa vadede güvenli liman talebini artırabilir; dolar rallisinin ivme kaybetmesi de altını destekliyor. Ancak güçlü dolar ve faiz artışı beklentileri altındaki yakın dönem baskıyı sürdürdüğünden yükseliş etkisi sınırlı v
@@ -102,6 +101,9 @@ Son işlemler:
 18.11 04:16 N  GPT  score +0.25 conf 0.42: ABD’nin İran’daki füze sahasına saldırısı ve karşılıklı saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir; doların geri çekilmesi de altına sınırlı destek sağlıyor. Ancak altının yakın zamanda bir yılın dibine gerilemesi ve haberlerin bir kısmının eski ya da tekrarlı olması yüksel
 18.11 04:28 N  NEWS (6 new) score -0.15 conf 0.40: Yeni haberlerde doların güçlenmesi ve Fed'in şahin açıklamaları altın için baskı oluşturuyor; buna karşılık ABD'nin İran'a yönelik "öz savunma" saldırıları ve çatışmanın yeniden başlayabileceği endişeleri güvenli liman talebini destekliyor. Net etki hafif negatif, ancak jeopolitik gerilim ve ilk haberlerdeki dolar geri çekilmesi belirsizliği artırdığı için güven düşük.
 18.11 04:28 N  GPT  score -0.25 conf 0.48: Hawkish Fed mesajları ve güçlü perakende satışlar dolar talebini artırarak altını kısa vadede baskılıyor. İran çevresindeki tırmanma haberleri güvenli liman talebi sağlayabilir; bu nedenle düşüş eğilimi sınırlı ve belirsiz.
+18.11 04:40 N  NEWS (2 new) score -0.40 conf 0.50: Dolar 19 aylık zirvesine yakın seyrediyor ve güçlü perakende satışlarıyla birlikte şahin Fed söylemleri faiz artırımı beklentilerini destekliyor; bu, altın için 1-4 saatlik vadede baskılayıcı. İran-ABD çatışmasının tırmanması güvenli liman talebini artırabilir, ancak altın son dönemde bu jeopolitik riske rağmen zayıf kalıyor, bu yüzden etki sınırlı kalabilir.
+18.11 04:40 N  GPT  score -0.40 conf 0.66: Yeni başlıklar, güçlü verilerin Fed faiz artırımı beklentisini desteklemesiyle doların 19 ayın zirvesine yakın kaldığını gösteriyor; bu, kısa vadede altın için baskı oluşturur. İran kaynaklı çatışma haberleri güvenli liman talebini desteklese de daha eski ve karşıt bir etken olduğundan net görünüm ı
+18.11 04:40 B5  SHORT gold 25000 USD x10 @ 3805.06 (TP 3793.64, SL 3812.67; news -0.40)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
