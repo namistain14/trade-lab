@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 07:21 (İstanbul)
+> Son güncelleme: 18.11.2026 07:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,995.37 $** (başlangıç 5,000 $, -4.63 $ / %-0.09)
+**Hesap değeri: 4,995.81 $** (başlangıç 5,000 $, -4.19 $ / %-0.08)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -25,7 +25,9 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 | Kazanma oranı | %83.3 | %43.3 |
 | Ödenen komisyon/spread | 71.83 $ | 1426.45 $ |
 
-**Hesap değeri: 4,778.46 $** (başlangıç 5,000 $, -221.54 $ / %-4.43)
+**Hesap değeri: 4,772.47 $** (başlangıç 5,000 $, -227.53 $ / %-4.55)
+
+Açık pozisyonlar: PAXGUSDT short @ 3784.74 (TP 3773.39 / SL 3792.31)
 
 Son haber analizi (18.11 07:15): Claude puan **-0.60**, güven 0.70 — Şahin Fed beklentileri (Aralık faiz artırımı neredeyse kesin, Williams'ın hamle beklentisi), 19 aylık zirveye yakın güçlü dolar ve reel faiz baskısı altın fiyatlarını 14 aylık dip seviyesine ve 3.800 doların altına itti. İran savaşı ve Hürmüz'ün kapalı kalması jeopolitik risk primi sağlasa da, bu güvenli liman talebi şimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanakları öncesi kısa vadede satış baskısı sürebilir.
 
@@ -87,7 +89,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 05:54 N  GPT  score +0.18 conf 0.30: Ukrayna’nın Kırım Köprüsü’ne saldırısı ve Batı Şeria’daki ölüm haberi kısa vadede sınırlı güvenli liman talebi yaratabilir. Ancak Fed, faizler veya dolar yönünde yeni bir sinyal yok; etkilerin altına yansıması belirsiz.
 18.11 06:27 N  NEWS (0 new) score +0.12 conf 0.30: Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil (Fed, dolar, enflasyon veya merkez bankası alımları yok). Kırım Köprüsü'nün kısmen çökmesi ve Rusya'ya ait askeri uçak kazası Ukrayna-Rusya gerilimini artırarak sınırlı bir güvenli liman talebi yaratabilir, ancak bu gelişmeler muhtemelen kısmen fiyatlanmış durumda; Trump'ın Asya'daki Xi ve Putin görüşmeleri ise belirsizliği hem artırıp hem azaltabilir.
 18.11 06:27 N  GPT  score +0.15 conf 0.30: Kırım Köprüsü’ne yönelik saldırı ve bölgesel şiddet haberleri kısa vadede güvenli liman talebini hafifçe destekleyebilir. Ancak yeni başlıkların çoğu altınla ilgisiz ve dolar ya da faiz beklentilerinde belirgin bir değişime işaret etmiyor.
 18.11 06:38 N  NEWS (43 new) score -0.70 conf 0.75: Altın 3.800 doların altına inip Eylül 2025'ten bu yana en düşük seviyeyi gördü; hawkish Fed tonu, faiz artırımı beklentileri ve 19 aylık zirvedeki dolar baskının ana nedeni. İran savaşı ve ABD'nin İran adasına saldırısı gibi jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak bu etki haberlerdeki baskın bearish akışın altında kalıyor.
@@ -102,6 +103,7 @@ Son işlemler:
 18.11 07:15 N  NEWS (12 new) score -0.60 conf 0.70: Şahin Fed beklentileri (Aralık faiz artırımı neredeyse kesin, Williams'ın hamle beklentisi), 19 aylık zirveye yakın güçlü dolar ve reel faiz baskısı altın fiyatlarını 14 aylık dip seviyesine ve 3.800 doların altına itti. İran savaşı ve Hürmüz'ün kapalı kalması jeopolitik risk primi sağlasa da, bu güvenli liman talebi şimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanakları öncesi kısa vadede satış baskısı sürebilir.
 18.11 07:15 N  GPT  score -0.55 conf 0.67: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altın üzerinde kısa vadede belirgin baskı yaratıyor; fiyatın zaten sert düşmüş olması bu etkinin bir kısmının fiyatlanmış olabileceğini düşündürüyor. İran çevresindeki yeni saldırı ve güvenlik haberleri güvenli liman talebini destekleyebilir, anca
 18.11 07:21 B5  CLOSE short stop: -56.00 USD
+18.11 07:24 B5  SHORT gold 25000 USD x10 @ 3784.74 (TP 3773.39, SL 3792.31; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -30,10 +30,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    5000.0
-   ],
-   [
     1794382472,
     5000.0
    ],
@@ -12028,6 +12024,10 @@
    [
     1794975695,
     4995.37
+   ],
+   [
+    1794975875,
+    4995.81
    ]
   ],
   "archive": [
@@ -15102,10 +15102,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    4868.5
-   ],
-   [
     1794382472,
     4868.5
    ],
@@ -27099,6 +27095,10 @@
    ],
    [
     1794975695,
+    4868.5
+   ],
+   [
+    1794975875,
     4868.5
    ]
   ],
@@ -29883,7 +29883,6 @@
   ]
  },
  "log": [
-  "17.11 06:16 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 06:16 N  NEWS (0 new) score +0.05 conf 0.20: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131 do\u011frudan etkilemeyen genel haberler. Yemen'de Husi ilerlemesinin k\u00fcresel ekonomiyi istikrars\u0131zla\u015ft\u0131rabilece\u011fi uyar\u0131s\u0131 hafif bir g\u00fcvenli liman talebi yaratabilir, ancak Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir bilgi yok; bu nedenle etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "17.11 06:28 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 06:28 N  NEWS (44 new) score -0.70 conf 0.75: Dolar 19 ayl\u0131k zirvesine yak\u0131n g\u00fc\u00e7l\u00fc seyrediyor ve piyasa Fed faiz art\u0131r\u0131m\u0131 beklentisini fiyatl\u0131yor; bu, alt\u0131n i\u00e7in y\u00fcksek reel faiz ve g\u00fc\u00e7l\u00fc dolar nedeniyle bask\u0131 yarat\u0131yor. Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyelere geriledi; \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekliyor ancak bu etki dolar ve faiz bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor.",
@@ -30182,7 +30181,8 @@
   "18.11 07:12 B5  SHORT gold 25000 USD x10 @ 3776.98 (TP 3765.65, SL 3784.54; news -0.62)",
   "18.11 07:15 N  NEWS (12 new) score -0.60 conf 0.70: \u015eahin Fed beklentileri (Aral\u0131k faiz art\u0131r\u0131m\u0131 neredeyse kesin, Williams'\u0131n hamle beklentisi), 19 ayl\u0131k zirveye yak\u0131n g\u00fc\u00e7l\u00fc dolar ve reel faiz bask\u0131s\u0131 alt\u0131n fiyatlar\u0131n\u0131 14 ayl\u0131k dip seviyesine ve 3.800 dolar\u0131n alt\u0131na itti. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'\u00fcn kapal\u0131 kalmas\u0131 jeopolitik risk primi sa\u011flasa da, bu g\u00fcvenli liman talebi \u015fimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanaklar\u0131 \u00f6ncesi k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir.",
   "18.11 07:15 N  GPT  score -0.55 conf 0.67: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentisi alt\u0131n \u00fczerinde k\u0131sa vadede belirgin bask\u0131 yarat\u0131yor; fiyat\u0131n zaten sert d\u00fc\u015fm\u00fc\u015f olmas\u0131 bu etkinin bir k\u0131sm\u0131n\u0131n fiyatlanm\u0131\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. \u0130ran \u00e7evresindeki yeni sald\u0131r\u0131 ve g\u00fcvenlik haberleri g\u00fcvenli liman talebini destekleyebilir, anca",
-  "18.11 07:21 B5  CLOSE short stop: -56.00 USD"
+  "18.11 07:21 B5  CLOSE short stop: -56.00 USD",
+  "18.11 07:24 B5  SHORT gold 25000 USD x10 @ 3784.74 (TP 3773.39, SL 3792.31; news -0.57)"
  ],
  "gold_big": {
   "account": {
@@ -30369,10 +30369,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    4963.78
-   ],
-   [
     1794382472,
     4963.78
    ],
@@ -42366,6 +42362,10 @@
    ],
    [
     1794975695,
+    4963.78
+   ],
+   [
+    1794975875,
     4963.78
    ]
   ],
@@ -42481,10 +42481,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    4975.18
-   ],
-   [
     1794382472,
     4975.18
    ],
@@ -54478,6 +54474,10 @@
    ],
    [
     1794975695,
+    4975.18
+   ],
+   [
+    1794975875,
     4975.18
    ]
   ],
@@ -54563,10 +54563,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    4993.28
-   ],
-   [
     1794382472,
     4993.28
    ],
@@ -66560,6 +66556,10 @@
    ],
    [
     1794975695,
+    4993.28
+   ],
+   [
+    1794975875,
     4993.28
    ]
   ]
@@ -66770,10 +66770,6 @@
   },
   "equity_curve": [
    [
-    1794382304,
-    4969.22
-   ],
-   [
     1794382472,
     4969.22
    ],
@@ -78768,6 +78764,10 @@
    [
     1794975695,
     4969.22
+   ],
+   [
+    1794975875,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78779,7 +78779,23 @@
   "account": {
    "balance": 4778.457409795584,
    "start": 5000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "e1e89087",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.605468550628381,
+     "entry": 3784.74287,
+     "tp": 3773.38864139,
+     "sl": 3792.31235574,
+     "opened_ms": 1794975875212,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.57/0.67",
+     "friction": 11.984
+    }
+   ],
    "trades": [
     {
      "id": "f6f333ef",
@@ -81304,17 +81320,13 @@
    ],
    "day": {
     "date": "2026-11-18",
-    "trades": 5,
+    "trades": 6,
     "pnl": 289.15494999944053,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794382304,
-    4610.16
-   ],
    [
     1794382472,
     4610.16
@@ -93310,6 +93322,10 @@
    [
     1794975695,
     4778.46
+   ],
+   [
+    1794975875,
+    4772.47
    ]
   ],
   "news_calls": {
@@ -94450,10 +94466,6 @@
    "equity": 112393.69
   },
   "equity_curve": [
-   [
-    1794382304,
-    111676.47
-   ],
    [
     1794382472,
     111676.47
@@ -106449,6 +106461,10 @@
    [
     1794975695,
     112393.69
+   ],
+   [
+    1794975875,
+    112393.69
    ]
   ],
   "open": {},
@@ -106631,10 +106647,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794382304,
-    4876.96
-   ],
    [
     1794382472,
     4876.96
@@ -118629,6 +118641,10 @@
    ],
    [
     1794975695,
+    4876.96
+   ],
+   [
+    1794975875,
     4876.96
    ]
   ],
