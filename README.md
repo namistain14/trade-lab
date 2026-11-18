@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 21:32 (İstanbul)
+> Son güncelleme: 18.11.2026 21:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,050.45 $** (başlangıç 5,000 $, +50.45 $ / %+1.01)
+**Hesap değeri: 5,054.25 $** (başlangıç 5,000 $, +54.25 $ / %+1.08)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -74,7 +74,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,514.72 $** (başlangıç 100,000 $, +14514.72 $ / %+14.51)
+**Hesap değeri: 114,608.63 $** (başlangıç 100,000 $, +14608.63 $ / %+14.61)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20); TSLA long @ 384.89 (TP 390.39 / SL 380.77)
 
@@ -91,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 20:25 B6  CLOSE short TSLA stop: -1171.20 USD
 18.11 20:29 N  NEWS (40 new) score -0.70 conf 0.72: Altın, Fed'in sıkılaştırma beklentilerinin artması ve güçlenen dolar nedeniyle %2'den fazla düşüp Eylül 2025'ten bu yana en düşük seviyeye geriledi; reel faiz ve dolar baskısı kısa vadede altın için net olarak negatif. İran savaşıyla ilgili haberler (durgunluk, sürüyor) yeni bir güvenli liman talebi yaratmadığı için jeopolitik destek sınırlı kalıyor; yine de "Fed 50 baz puan" gibi sert söylemlerin ve dolar yükselişinin zamanla fiyatlanmış olabileceği riski, güveni biraz düşürüyor.
 18.11 20:29 N  GPT  score -0.72 conf 0.78: Fed’in daha sıkı politika beklentileri ve doların güçlenmesi altın için belirgin kısa vadeli baskı oluşturuyor; altının yüzde 2’den fazla düşerek 2025 Eylül’den beri en düşük seviyeye gerilemesi de aşağı yönlü momentuma işaret ediyor. İran ve diğer çatışma başlıkları güvenli liman talebi sağlayabili
 18.11 20:35 B6  karar turu: Claude «Piyasa öğleden sonra teknoloji öncülüğünde güçlü bir toparlanma momentumu sergiliyor ancak hareketin önemli kısmı zaten gerçekleşti.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak haberler New York saatine göre eski ve kaldıraçla birleşen olası geri çekilmeler riski artırıyor.»
@@ -106,6 +105,7 @@ Son işlemler:
 18.11 21:11 B6  karar turu: Claude «Piyasa öğleden sonra hafif satış baskısı altında ve NVDA kaynaklı olumsuz haber akışı endeksleri aşağı çekiyor; ancak SPY için %1,5 hedef 1-3 saatte iddialı, bu yüzden güven düşük.» / GPT «Endekslerde kısa vadeli momentum aşağı yönlü; verilen şirket haberleri New York saatine göre eski olduğundan yeni katalizör sayılmamalı.»
 18.11 21:23 B6  karar turu: Claude «Endeks genelinde zayıf ve karışık bir seyir var, şirket özelinde NVDA'daki SEC soruşturması ön planda; açık QQQ pozisyonuna ek olarak bağıntılı risk eklemek mantıklı değil.» / GPT «Endekslerde saatlik zayıflığa rağmen dipten toparlanma var; şirket haberleri mevcut saatte taze katalizör sayılmıyor.»
 18.11 21:32 B5  CLOSE short stop: -56.02 USD
+18.11 21:35 B6  karar turu: Claude «Endeks yatay ama teknoloji ağırlıklı alımlar ve öğleden sonraki toparlanma hafif pozitif bir eğilime işaret ediyor; NVDA ve AAPL'deki şirkete özgü olumsuz haberler riskleri sınırlı tutuyor.» / GPT «Endekslerde toparlanma alıcıları destekliyor ancak düşük oynaklık, kalan seansta yüzde 1,5 kâr hedefine ulaşmayı zorlaştırıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
