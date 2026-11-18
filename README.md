@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 20:38 (İstanbul)
+> Son güncelleme: 18.11.2026 20:41 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 5,043.84 $** (başlangıç 5,000 $, +43.84 $ / %+0.88)
+**Hesap değeri: 5,051.72 $** (başlangıç 5,000 $, +51.72 $ / %+1.03)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @ 1.00 (TP 0.96 / SL 1.02)
 
@@ -25,13 +25,13 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77); XRPUSDT short @
 | Kazanma oranı | %57.9 | %43.6 |
 | Ödenen komisyon/spread | 227.77 $ | 1582.38 $ |
 
-**Hesap değeri: 4,822.39 $** (başlangıç 5,000 $, -177.61 $ / %-3.55)
+**Hesap değeri: 4,834.75 $** (başlangıç 5,000 $, -165.25 $ / %-3.31)
 
 Açık pozisyonlar: PAXGUSDT short @ 3741.38 (TP 3730.16 / SL 3748.86)
 
-Son haber analizi (18.11 20:29): Claude puan **-0.70**, güven 0.72 — Altın, Fed'in sıkılaştırma beklentilerinin artması ve güçlenen dolar nedeniyle %2'den fazla düşüp Eylül 2025'ten bu yana en düşük seviyeye geriledi; reel faiz ve dolar baskısı kısa vadede altın için net olarak negatif. İran savaşıyla ilgili haberler (durgunluk, sürüyor) yeni bir güvenli liman talebi yaratmadığı için jeopolitik destek sınırlı kalıyor; yine de "Fed 50 baz puan" gibi sert söylemlerin ve dolar yükselişinin zamanla fiyatlanmış olabileceği riski, güveni biraz düşürüyor.
+Son haber analizi (18.11 20:41): Claude puan **-0.70**, güven 0.72 — Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
 
-GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Fed’in daha sıkı politika beklentileri ve doların güçlenmesi altın için belirgin kısa vadeli baskı oluşturuyor; altının yüzde 2’den fazla düşerek 2025 Eylül’den beri en düşük seviyeye gerilemesi de aşağı yönlü momentuma işaret ediyor. İran ve diğer çatışma başlıkları güvenli liman talebi sağlayabili
+GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Fed yetkililerinden enflasyonun kalıcılığı ve 50 baz puanlık faiz artışı yönündeki şahin mesajlar doları ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. Altının sert düşmüş olması ve Putin-Trump görüşmesiyle Ukrayna savaşının sona erdirilmesine yönelik girişimler bu etkiyi kısme
 
 Son işlemler:
 
@@ -76,7 +76,7 @@ Son işlemler:
 | Kazanma oranı | %66.7 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,460.91 $** (başlangıç 100,000 $, +14460.91 $ / %+14.46)
+**Hesap değeri: 114,523.88 $** (başlangıç 100,000 $, +14523.88 $ / %+14.52)
 
 Açık pozisyonlar: AAPL short @ 353.72 (TP 348.52 / SL 357.37); NVDA short @ 152.38 (TP 149.93 / SL 153.73); QQQ long @ 661.78 (TP 671.75 / SL 655.20)
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 19:46 B6  karar turu: Claude «Piyasa öğleden sonra hafif negatif seyrediyor; NVDA kaynaklı haber riski teknoloji hisselerinde satış baskısını canlı tutuyor.» / GPT «Endekslerde kısa vadeli baskı aşağı yönlü; ancak haberler New York saatine göre birkaç saatlik olduğundan taze katalizör sayılmamalı.»
-18.11 19:52 N  NEWS (14 new) score +0.20 conf 0.35: Kuwait'in İran'dan iki ay sonra ilk saldırıyı püskürttüğünü ve ABD'nin bir adaya saldırısını bildiren haber, jeopolitik riski artırarak altın için hafif olumlu (güvenli liman) bir etki yaratabilir. Ancak Trump-Putin-Xi zirvesi gerilimi azaltabilir ve İngiltere'deki enflasyon artışı Fed/BoE beklentilerini sertleştirerek bu etkiyi dengeleyebilir; diğer haberlerin çoğu piyasa açısından önemsiz.
 18.11 19:52 N  GPT  score +0.30 conf 0.45: Kuveyt’in İran saldırısını püskürttüğünü bildirmesi ve ABD’nin ada saldırısı, bölgesel gerilim ve güvenli liman talebi üzerinden altını destekleyebilir. İngiltere’de yükselen enflasyon haberi ise altına etkisi sınırlı ve faiz beklentileri kanalıyla belirsiz; diğer öne çıkan haberler kısa vadede beli
 18.11 19:58 B6  karar turu: Claude «Piyasa öğleden sonra hafif negatif eğilimde; teknoloji hisseleri NVDA kaynaklı baskıyla endeksten zayıf seyrediyor.» / GPT «Endekslerde kısa vadeli eğilim aşağı; teknoloji daha zayıf görünürken saatler önceki şirket haberleri yeni katalizör sayılmamalı.»
 18.11 20:04 N  NEWS (3 new) score +0.15 conf 0.30: Yeni gelen başlıkların çoğu (Ukrayna cephe hattı, Fransa davası) altın fiyatıyla doğrudan ilgili değil. Kuwait'in İran saldırısını püskürttüğü haberi ve ABD'nin adaya saldırıları jeopolitik gerilimi artırarak hafif güvenli liman talebini destekleyebilir, ancak bu haber saat 13:04'te geldiği için büyük ölçüde fiyatlanmış olabilir. İngiltere'deki enflasyon artışı ve ABD Fed beklentisine dair net bir sinyal yok; bu nedenle etki sınırlı ve belirsiz.
@@ -108,6 +106,8 @@ Son işlemler:
 18.11 20:29 N  GPT  score -0.72 conf 0.78: Fed’in daha sıkı politika beklentileri ve doların güçlenmesi altın için belirgin kısa vadeli baskı oluşturuyor; altının yüzde 2’den fazla düşerek 2025 Eylül’den beri en düşük seviyeye gerilemesi de aşağı yönlü momentuma işaret ediyor. İran ve diğer çatışma başlıkları güvenli liman talebi sağlayabili
 18.11 20:35 B6  karar turu: Claude «Piyasa öğleden sonra teknoloji öncülüğünde güçlü bir toparlanma momentumu sergiliyor ancak hareketin önemli kısmı zaten gerçekleşti.» / GPT «Endekslerde kısa vadeli momentum pozitif, ancak haberler New York saatine göre eski ve kaldıraçla birleşen olası geri çekilmeler riski artırıyor.»
 18.11 20:35 B6  ALIŞ QQQ 172 adet ≈ 113,833 $ (1:4) @ 661.82 (TP 671.75, SL 655.2; ikisi de hemfikir, güven 0.50)
+18.11 20:41 N  NEWS (12 new) score -0.70 conf 0.72: Haberlerin çoğu Fed'in sıkılaşma beklentisini artırıyor: Waller 50bp faiz artırımı çağrısı yaptı, Fed'den yükseliş sinyalleri geliyor ve dolar yıllık zirvelere yakın seyrediyor. Bu tablo reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna) ise güvenli liman talebini sınırlı destekliyor. Haberlerin bir kısmı zaten fiyatlanmış olduğundan etkinin kısa vadede kısmen sınırlı kalabileceğini not ediyorum.
+18.11 20:41 N  GPT  score -0.68 conf 0.72: Fed yetkililerinden enflasyonun kalıcılığı ve 50 baz puanlık faiz artışı yönündeki şahin mesajlar doları ve faiz beklentilerini destekleyerek altın üzerinde baskı yaratıyor. Altının sert düşmüş olması ve Putin-Trump görüşmesiyle Ukrayna savaşının sona erdirilmesine yönelik girişimler bu etkiyi kısme
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
