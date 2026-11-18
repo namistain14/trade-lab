@@ -30,10 +30,6 @@
   },
   "equity_curve": [
    [
-    1794384495,
-    5000.0
-   ],
-   [
     1794384662,
     5000.0
    ],
@@ -12028,6 +12024,10 @@
    [
     1794977906,
     4995.37
+   ],
+   [
+    1794978090,
+    4999.34
    ]
   ],
   "archive": [
@@ -13880,12 +13880,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1794970800000,
-   "ETHUSDT": 1794970800000,
+   "BTCUSDT": 1794974400000,
+   "ETHUSDT": 1794974400000,
    "SOLUSDT": 1794960000000,
-   "BNBUSDT": 1794970800000,
-   "XRPUSDT": 1794970800000,
-   "DOGEUSDT": 1794970800000
+   "BNBUSDT": 1794974400000,
+   "XRPUSDT": 1794974400000,
+   "DOGEUSDT": 1794974400000
   }
  },
  "gold_news": {
@@ -15101,10 +15101,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794384495,
-    4868.5
-   ],
    [
     1794384662,
     4868.5
@@ -27099,6 +27095,10 @@
    ],
    [
     1794977906,
+    4868.5
+   ],
+   [
+    1794978090,
     4868.5
    ]
   ],
@@ -29883,7 +29883,6 @@
   ]
  },
  "log": [
-  "17.11 06:52 N  NEWS (20 new) score -0.60 conf 0.70: Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyesine geriledi; Fed faiz art\u0131r\u0131m\u0131 beklentileri ve 19 ayl\u0131k zirveden biraz geri \u00e7ekilen ama y\u00fckseli\u015fini koruyan dolar alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Ukrayna'daki gerilim g\u00fcvenli liman talebini destekleyemiyor, \u00c7in al\u0131mlar\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor.",
   "17.11 07:04 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 07:04 N  NEWS (16 new) score -0.40 conf 0.60: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n i\u00e7in olumsuz: dolar 19 ayl\u0131k zirveye \u00e7\u0131kt\u0131, Fed faiz art\u0131rma beklentileri g\u00fc\u00e7lendi ve alt\u0131n y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor. \u0130ran sava\u015f\u0131 jeopolitik talebi destekliyor olsa da bu etki h\u00e2lihaz\u0131rda sert dolar ve faiz bask\u0131s\u0131yla s\u0131n\u0131rlan\u0131yor; ayr\u0131ca dolar endeksinin 03:21'de biraz geri \u00e7ekilmesi k\u0131sa vadeli sinyali kar\u0131\u015ft\u0131r\u0131yor.",
   "17.11 07:17 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -30182,7 +30181,8 @@
   "18.11 07:40 N  NEWS (4 new) score -0.60 conf 0.70: Dolar 19 ayl\u0131k zirvesinde, Fed'in aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 beklentisi g\u00fc\u00e7l\u00fc ve New York Fed Ba\u015fkan\u0131 Williams'\u0131n \u015fahin a\u00e7\u0131klamalar\u0131 alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi. Ortadaki \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyemiyor, bu y\u00fczden genel etki negatif, ancak FOMC tutanaklar\u0131 \u00f6ncesi a\u015f\u0131r\u0131 sat\u0131\u015f nedeniyle k\u0131sa vadede tepki riski var.",
   "18.11 07:40 N  GPT  score -0.45 conf 0.67: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in daha s\u0131k\u0131 politika beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; 3.800 dolar\u0131n alt\u0131ndaki sert sat\u0131\u015f ve yakla\u015fan FOMC tutanaklar\u0131 k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc e\u011filimi destekliyor. Yeni Orta Do\u011fu ve Sudan gerilimleri g\u00fcvenli liman talebi yaratabilir, ancak etkileri \u015fimdilik s\u0131n\u0131rl\u0131 ve mevcut fiyat ",
   "18.11 07:52 N  NEWS (6 new) score -0.60 conf 0.70: Dolar 19 ayl\u0131k zirvesinde ve faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor; New York Fed Ba\u015fkan\u0131 Williams'\u0131n hawkish a\u00e7\u0131klamalar\u0131 ve FOMC tutanaklar\u0131n\u0131n bu gece gelmesi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Jeopolitik gerilim (\u0130ran sava\u015f\u0131, Ukrayna, Husi sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebi sa\u011flasa da, faiz ve dolar etkisi bunu bask\u0131l\u0131yor; yine de tutanaklar beklentiden yumu\u015fak \u00e7\u0131karsa k\u0131sa vadeli tepki ters olabilir.",
-  "18.11 07:52 N  GPT  score -0.72 conf 0.78: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; 3.800 dolar\u0131n alt\u0131na ini\u015f ve s\u00fcren sat\u0131\u015flar k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Avustralya\u2019n\u0131n yapt\u0131r\u0131mlar\u0131 s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flayabilir, ancak etkisi faiz ve dolar bask\u0131s\u0131n\u0131 dengelemiyor."
+  "18.11 07:52 N  GPT  score -0.72 conf 0.78: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; 3.800 dolar\u0131n alt\u0131na ini\u015f ve s\u00fcren sat\u0131\u015flar k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Avustralya\u2019n\u0131n yapt\u0131r\u0131mlar\u0131 s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi sa\u011flayabilir, ancak etkisi faiz ve dolar bask\u0131s\u0131n\u0131 dengelemiyor.",
+  "18.11 08:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30369,10 +30369,6 @@
   },
   "equity_curve": [
    [
-    1794384495,
-    4963.78
-   ],
-   [
     1794384662,
     4963.78
    ],
@@ -42366,6 +42362,10 @@
    ],
    [
     1794977906,
+    4963.78
+   ],
+   [
+    1794978090,
     4963.78
    ]
   ],
@@ -42481,10 +42481,6 @@
   },
   "equity_curve": [
    [
-    1794384495,
-    4975.18
-   ],
-   [
     1794384662,
     4975.18
    ],
@@ -54478,6 +54474,10 @@
    ],
    [
     1794977906,
+    4975.18
+   ],
+   [
+    1794978090,
     4975.18
    ]
   ],
@@ -54563,10 +54563,6 @@
   },
   "equity_curve": [
    [
-    1794384495,
-    4993.28
-   ],
-   [
     1794384662,
     4993.28
    ],
@@ -66560,6 +66556,10 @@
    ],
    [
     1794977906,
+    4993.28
+   ],
+   [
+    1794978090,
     4993.28
    ]
   ]
@@ -66770,10 +66770,6 @@
   },
   "equity_curve": [
    [
-    1794384495,
-    4969.22
-   ],
-   [
     1794384662,
     4969.22
    ],
@@ -78767,6 +78763,10 @@
    ],
    [
     1794977906,
+    4969.22
+   ],
+   [
+    1794978090,
     4969.22
    ]
   ],
@@ -81327,10 +81327,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794384495,
-    4610.16
-   ],
    [
     1794384662,
     4610.16
@@ -93326,6 +93322,10 @@
    [
     1794977906,
     4802.32
+   ],
+   [
+    1794978090,
+    4807.47
    ]
   ],
   "news_calls": {
@@ -94466,10 +94466,6 @@
    "equity": 112393.69
   },
   "equity_curve": [
-   [
-    1794384495,
-    111676.47
-   ],
    [
     1794384662,
     111676.47
@@ -106465,6 +106461,10 @@
    [
     1794977906,
     112393.69
+   ],
+   [
+    1794978090,
+    112393.69
    ]
   ],
   "open": {},
@@ -106647,10 +106647,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794384495,
-    4876.96
-   ],
    [
     1794384662,
     4876.96
@@ -118645,6 +118641,10 @@
    ],
    [
     1794977906,
+    4876.96
+   ],
+   [
+    1794978090,
     4876.96
    ]
   ],
