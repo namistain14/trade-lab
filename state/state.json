@@ -30,10 +30,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    5000.0
-   ],
-   [
     1794392097,
     5000.0
    ],
@@ -12028,6 +12024,10 @@
    [
     1794985265,
     4999.78
+   ],
+   [
+    1794985445,
+    4996.69
    ]
   ],
   "archive": [
@@ -15102,10 +15102,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    4868.5
-   ],
-   [
     1794392097,
     4868.5
    ],
@@ -27099,6 +27095,10 @@
    ],
    [
     1794985265,
+    4868.5
+   ],
+   [
+    1794985445,
     4868.5
    ]
   ],
@@ -29883,7 +29883,6 @@
   ]
  },
  "log": [
-  "17.11 08:42 N  NEWS (8 new) score -0.35 conf 0.50: Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle y\u0131ll\u0131k dip seviyelere yak\u0131n i\u015flem g\u00f6r\u00fcyor; bu bask\u0131 ana e\u011filimi a\u015fa\u011f\u0131 y\u00f6nl\u00fc tutuyor. Yeni gelen \u0130ran'da \"sonsuz sava\u015f\" olas\u0131l\u0131\u011f\u0131n\u0131n reddi ve petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f jeopolitik risk primini ve enflasyon korkusunu azaltarak k\u0131smen destekleyici olabilir, ancak haberlerin \u00e7o\u011fu eski veya fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131.",
   "17.11 08:54 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
   "17.11 08:54 N  NEWS (3 new) score -0.50 conf 0.60: Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle yakla\u015f\u0131k bir y\u0131ll\u0131k dibe yak\u0131n seyrediyor; yeni haberlerde ABD'nin \u0130ran'da \"sonsuz sava\u015f\" ihtimalini reddetmesi ve petrol\u00fcn d\u00fc\u015fmesi jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor. Ukrayna ve \u0130ran'daki \u00e7at\u0131\u015fma haberleri ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kalabilir.",
   "17.11 09:06 N  GPT news failed: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settin",
@@ -30182,7 +30181,8 @@
   "18.11 09:42 N  NEWS (8 new) score -0.60 conf 0.65: Alt\u0131n 1,5 y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n, 3.800 dolar\u0131n alt\u0131nda ve Fed s\u0131k\u0131la\u015fma sinyalleri ile dolar\u0131n 19 ayl\u0131k zirveye yak\u0131n seyri alt\u0131n \u00fczerinde g\u00fc\u00e7l\u00fc bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 g\u00fcvenli liman talebini destekleyerek k\u0131sa vadeli bir tampon sa\u011flayabilir, ancak bask\u0131n etki hawkish Fed ve g\u00fc\u00e7l\u00fc dolardan geliyor.",
   "18.11 09:42 N  GPT  score -0.72 conf 0.76: Alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na gerilemesi, Fed\u2019in s\u0131k\u0131la\u015fma beklentileri ve g\u00fc\u00e7l\u00fc dolar k\u0131sa vadede belirgin a\u015fa\u011f\u0131 y\u00f6nl\u00fc bask\u0131 olu\u015fturuyor. Orta Do\u011fu\u2019daki gerilim g\u00fcvenli liman talebiyle d\u00fc\u015f\u00fc\u015f\u00fc s\u0131n\u0131rlayabilir; ancak yeni ba\u015fl\u0131klar piyasay\u0131 hemen de\u011fi\u015ftirecek \u00f6l\u00e7\u00fcde net bir t\u0131rman\u0131\u015f g\u00f6stermiyor.",
   "18.11 09:54 N  NEWS (4 new) score -0.50 conf 0.60: Alt\u0131n 1,5 y\u0131l\u0131n dibine yak\u0131n, 3.800 dolar\u0131n alt\u0131nda ve haberlerde Fed s\u0131k\u0131la\u015fma sinyalleri ile g\u00fc\u00e7lenen dolar \u00f6ne \u00e7\u0131k\u0131yor; bu da k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 jeopolitik risk talebi do\u011furabilir, ancak piyasan\u0131n bu haberlere g\u00fcvenli liman al\u0131m\u0131yla de\u011fil sat\u0131\u015fla tepki vermesi bask\u0131n etkinin hawkish Fed ve dolar oldu\u011funu g\u00f6steriyor.",
-  "18.11 09:54 N  GPT  score -0.50 conf 0.67: Fed\u2019in daha s\u0131k\u0131 politika beklentileri ve g\u00fc\u00e7l\u00fc dolar, alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na gerilemesiyle birlikte k\u0131sa vadede bask\u0131n bi\u00e7imde a\u015fa\u011f\u0131 y\u00f6nl\u00fc. \u0130ran\u2019\u0131n f\u00fcze sald\u0131r\u0131s\u0131na ili\u015fkin yeni haber g\u00fcvenli liman talebini destekleyebilir; bu nedenle d\u00fc\u015f\u00fc\u015f e\u011filimine ra\u011fmen g\u00fcven s\u0131n\u0131rl\u0131."
+  "18.11 09:54 N  GPT  score -0.50 conf 0.67: Fed\u2019in daha s\u0131k\u0131 politika beklentileri ve g\u00fc\u00e7l\u00fc dolar, alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na gerilemesiyle birlikte k\u0131sa vadede bask\u0131n bi\u00e7imde a\u015fa\u011f\u0131 y\u00f6nl\u00fc. \u0130ran\u2019\u0131n f\u00fcze sald\u0131r\u0131s\u0131na ili\u015fkin yeni haber g\u00fcvenli liman talebini destekleyebilir; bu nedenle d\u00fc\u015f\u00fc\u015f e\u011filimine ra\u011fmen g\u00fcven s\u0131n\u0131rl\u0131.",
+  "18.11 10:04 B5  CLOSE short take profit: +69.02 USD"
  ],
  "gold_big": {
   "account": {
@@ -30369,10 +30369,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    4963.78
-   ],
-   [
     1794392097,
     4963.78
    ],
@@ -42366,6 +42362,10 @@
    ],
    [
     1794985265,
+    4963.78
+   ],
+   [
+    1794985445,
     4963.78
    ]
   ],
@@ -42481,10 +42481,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    4975.18
-   ],
-   [
     1794392097,
     4975.18
    ],
@@ -54478,6 +54474,10 @@
    ],
    [
     1794985265,
+    4975.18
+   ],
+   [
+    1794985445,
     4975.18
    ]
   ],
@@ -54563,10 +54563,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    4993.28
-   ],
-   [
     1794392097,
     4993.28
    ],
@@ -66560,6 +66556,10 @@
    ],
    [
     1794985265,
+    4993.28
+   ],
+   [
+    1794985445,
     4993.28
    ]
   ]
@@ -66770,10 +66770,6 @@
   },
   "equity_curve": [
    [
-    1794391917,
-    4969.22
-   ],
-   [
     1794392097,
     4969.22
    ],
@@ -78768,6 +78764,10 @@
    [
     1794985265,
     4969.22
+   ],
+   [
+    1794985445,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78777,25 +78777,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 4722.456589512989,
+   "balance": 4791.479550638186,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "6130bb5c",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.613592498683498,
-     "entry": 3780.0938,
-     "tp": 3768.7535186,
-     "sl": 3787.6539876,
-     "opened_ms": 1794981985082,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.57/0.60",
-     "friction": 11.9865
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -81337,21 +81321,38 @@
      "gross": -56.0008,
      "costs": 0.0,
      "pnl": -56.0008
+    },
+    {
+     "id": "6130bb5c",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.613592498683498,
+     "entry": 3780.0938,
+     "tp": 3768.7535186,
+     "sl": 3787.6539876,
+     "opened_ms": 1794981985082,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.57/0.60",
+     "friction": 11.9865,
+     "exit": 3769.65726930372,
+     "closed_ms": 1794985440000,
+     "reason": "take profit",
+     "gross": 69.023,
+     "costs": 0.0,
+     "pnl": 69.023
     }
    ],
    "day": {
     "date": "2026-11-18",
     "trades": 7,
-    "pnl": 233.15412971684606,
+    "pnl": 302.1770908420434,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794391917,
-    4625.55
-   ],
    [
     1794392097,
     4625.67
@@ -93347,6 +93348,10 @@
    [
     1794985265,
     4774.66
+   ],
+   [
+    1794985445,
+    4791.48
    ]
   ],
   "news_calls": {
@@ -94487,10 +94492,6 @@
    "equity": 112393.69
   },
   "equity_curve": [
-   [
-    1794391917,
-    111676.47
-   ],
    [
     1794392097,
     111676.47
@@ -106486,6 +106487,10 @@
    [
     1794985265,
     112393.69
+   ],
+   [
+    1794985445,
+    112393.69
    ]
   ],
   "open": {},
@@ -106668,10 +106673,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794391917,
-    4876.96
-   ],
    [
     1794392097,
     4876.96
@@ -118666,6 +118667,10 @@
    ],
    [
     1794985265,
+    4876.96
+   ],
+   [
+    1794985445,
     4876.96
    ]
   ],
