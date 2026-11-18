@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 18.11.2026 08:29 (İstanbul)
+> Son güncelleme: 18.11.2026 08:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %0.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 4,986.77 $** (başlangıç 5,000 $, -13.23 $ / %-0.26)
+**Hesap değeri: 4,981.47 $** (başlangıç 5,000 $, -18.53 $ / %-0.37)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -20,14 +20,12 @@ Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +289.15 $ | -221.54 $ |
-| İşlem sayısı | 6 | 120 |
-| Kazanma oranı | %83.3 | %43.3 |
-| Ödenen komisyon/spread | 71.83 $ | 1426.45 $ |
+| Net kâr/zarar | +233.15 $ | -277.54 $ |
+| İşlem sayısı | 7 | 121 |
+| Kazanma oranı | %71.4 | %43.0 |
+| Ödenen komisyon/spread | 83.82 $ | 1438.43 $ |
 
-**Hesap değeri: 4,769.89 $** (başlangıç 5,000 $, -230.11 $ / %-4.60)
-
-Açık pozisyonlar: PAXGUSDT short @ 3784.74 (TP 3773.39 / SL 3792.31)
+**Hesap değeri: 4,722.46 $** (başlangıç 5,000 $, -277.54 $ / %-5.55)
 
 Son haber analizi (18.11 08:29): Claude puan **+0.03**, güven 0.20 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Bezos/007, Waymo, Nvidia, çip yatırımları, casusluk davaları). Savaş, Fed, faiz, dolar veya enflasyonla ilgili önemli bir yeni gelişme yok; Trump-Xi görüşmesi ise altın için net bir güvenli liman etkisi yaratacak düzeyde değil. Bu nedenle etki çok sınırlı ve güven düşük.
 
@@ -37,11 +35,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 18.11 08:32 | PAXGUSDT | short | -56.00 $ | stop |
 | 18.11 07:19 | PAXGUSDT | short | -56.00 $ | stop |
 | 18.11 07:07 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:48 | PAXGUSDT | short | +69.03 $ | take profit |
 | 18.11 05:07 | PAXGUSDT | short | +69.03 $ | take profit |
-| 18.11 03:35 | PAXGUSDT | short | +69.03 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -89,7 +87,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-18.11 07:27 N  GPT  score -0.65 conf 0.72: Güçlü dolar ve Fed’in faizleri yüksek tutabileceği ya da artırabileceği beklentisi, yaklaşan FOMC tutanakları öncesinde altın üzerinde belirgin baskı yaratıyor; son haber akışındaki fiyat düşüşleri de bu yönü destekliyor. Orta Doğu gerilimi güvenli liman talebi sağlayabilir, ancak kısa vadede bu etk
 18.11 07:40 N  NEWS (4 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesinde, Fed'in aralık ayında faiz artırımı beklentisi güçlü ve New York Fed Başkanı Williams'ın şahin açıklamaları altını baskılıyor; altın bir yılın en düşük seviyesine geriledi. Ortadaki İran savaşı güvenli liman talebini destekleyemiyor, bu yüzden genel etki negatif, ancak FOMC tutanakları öncesi aşırı satış nedeniyle kısa vadede tepki riski var.
 18.11 07:40 N  GPT  score -0.45 conf 0.67: Güçlü dolar ve Fed’in daha sıkı politika beklentileri altını baskılıyor; 3.800 doların altındaki sert satış ve yaklaşan FOMC tutanakları kısa vadeli aşağı yönlü eğilimi destekliyor. Yeni Orta Doğu ve Sudan gerilimleri güvenli liman talebi yaratabilir, ancak etkileri şimdilik sınırlı ve mevcut fiyat 
 18.11 07:52 N  NEWS (6 new) score -0.60 conf 0.70: Dolar 19 aylık zirvesinde ve faiz artırımı beklentileri güçleniyor; New York Fed Başkanı Williams'ın hawkish açıklamaları ve FOMC tutanaklarının bu gece gelmesi altın üzerinde baskı yaratıyor. Jeopolitik gerilim (İran savaşı, Ukrayna, Husi saldırıları) güvenli liman talebi sağlasa da, faiz ve dolar etkisi bunu baskılıyor; yine de tutanaklar beklentiden yumuşak çıkarsa kısa vadeli tepki ters olabilir.
@@ -104,6 +101,7 @@ Son işlemler:
 18.11 08:16 N  GPT  score -0.72 conf 0.74: Güçlü dolar ve Fed’in faiz artırımı beklentileri altındaki sert satış baskısını sürdürüyor; bu etkenler kısa vadede güvenli liman talebinden ağır basıyor. İran çevresindeki yeni saldırı ve suçlamalar düşüşü sınırlayabilir, ancak başlıkların çoğu tekrarlı veya fiyat hareketini zaten yansıtıyor.
 18.11 08:29 N  NEWS (6 new) score +0.03 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Bezos/007, Waymo, Nvidia, çip yatırımları, casusluk davaları). Savaş, Fed, faiz, dolar veya enflasyonla ilgili önemli bir yeni gelişme yok; Trump-Xi görüşmesi ise altın için net bir güvenli liman etkisi yaratacak düzeyde değil. Bu nedenle etki çok sınırlı ve güven düşük.
 18.11 08:29 N  GPT  score +0.02 conf 0.12: Başlıkların çoğu altın fiyatını kısa vadede etkilemesi beklenmeyen teknoloji ve magazin haberleri. Askerî casusluk soruşturması sınırlı güvenli liman talebi yaratabilir, ancak belirgin bir gerilim tırmanışı yok.
+18.11 08:32 B5  CLOSE short stop: -56.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
