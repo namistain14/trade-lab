@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    5000.0
-   ],
-   [
     1794524942,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795112576,
     5081.11
+   ],
+   [
+    1795112785,
+    5077.8
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    4868.5
-   ],
-   [
     1794524942,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795112576,
     4868.5
+   ],
+   [
+    1795112785,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
    "confidence": 0.7,
-   "reason": "Fed'in \u015fahin tutumu, dolar\u0131n 19 ayl\u0131k zirvesi ve faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131c\u0131. Jeopolitik tarafta \u0130ran/\u0130srail \u00e7at\u0131\u015fmas\u0131 risk-ka\u00e7\u0131\u015f\u0131n\u0131 destekleyebilir, ancak Trump-Putin-Xi bar\u0131\u015f bildirisi bu g\u00fcvenli liman talebini zay\u0131flat\u0131yor; gold'un zaten d\u00fc\u015f\u00fc\u015f trendinde olmas\u0131 nedeniyle g\u00fcven orta-y\u00fcksek.",
+   "reason": "Alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor; Fed'in \u015fahin tutumu, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve dolar\u0131n 19 ayl\u0131k zirvesi alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebi yaratmas\u0131 gerekirken fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor, bu y\u00fczden bask\u0131 daha g\u00fc\u00e7l\u00fc g\u00f6r\u00fcn\u00fcyor.",
    "n": 45,
-   "ts": 1795112047792,
-   "new_headlines": 11,
+   "ts": 1795112767275,
+   "new_headlines": 6,
    "key_events": [
-    "Fed'de \u015fahin duru\u015f ve Aral\u0131k faiz art\u0131r\u0131m\u0131 ihtimali; ABD dolar\u0131 19 ayl\u0131k zirvede",
-    "Alt\u0131n 3.800 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc; 'Gold price reset' ve sat\u0131\u015f bask\u0131s\u0131",
-    "Trump-Putin-Xi bar\u0131\u015f bildirisi g\u00fcvenli liman talebini azalt\u0131yor; \u0130srail-Hizbullah \u00e7at\u0131\u015fmas\u0131 s\u0131n\u0131rl\u0131 etki"
+    "Alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor, sat\u0131\u015f s\u00fcr\u00fcyor",
+    "Fed'de \u015fahin duru\u015f ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n y\u00fckselmesi",
+    "Dolar 19 ayl\u0131k zirvede; BOJ faiz art\u0131r\u0131m\u0131 ipucu yen \u00fczerinde bask\u0131 yarat\u0131yor"
    ],
    "gpt": {
-    "score": -0.5,
-    "confidence": 0.64,
-    "reason": "Fed\u2019in enflasyona kar\u015f\u0131 temkinli ve \u015fahin duru\u015fu ile g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; bar\u0131\u015f deklarasyonu da g\u00fcvenli liman talebini azaltabilir. Bekaa\u2019daki \u0130srail sald\u0131r\u0131s\u0131 yukar\u0131 y\u00f6nl\u00fc risk sunsa da k\u0131sa vadede genel denge hafif-orta \u00f6l\u00e7\u00fcde a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
+    "score": -0.55,
+    "confidence": 0.68,
+    "reason": "G\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri, alt\u0131ndaki devam eden sat\u0131\u015flarla birlikte k\u0131sa vadede bask\u0131n ve a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor. Suudi Arabistan\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir; ancak bar\u0131\u015f deklarasyonu ve \u00e7eli\u015fkili jeopolitik haberler bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "\u015eahin Fed mesajlar\u0131 ve g\u00fc\u00e7l\u00fc dolar",
-     "Trump-Putin-Xi bar\u0131\u015f deklarasyonu",
-     "\u0130srail\u2019in Bekaa\u2019da Hezbollah tesisine sald\u0131r\u0131s\u0131"
+     "Dolar\u0131n 19 ay\u0131n zirvesi ve Fed\u2019in \u015fahin duru\u015fu",
+     "Alt\u0131n y\u0131ll\u0131k dipleri test ediyor; sat\u0131\u015f s\u00fcr\u00fcyor",
+     "Suudi Arabistan\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794572081897,
-    "score": -0.4,
-    "confidence": 0.5,
-    "reason": "Enflasyonun beklentilerin \u00fczerinde kalmas\u0131 ve Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi, dolarda y\u00fckseli\u015fle birlikte alt\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik risk ise m\u00fczakere haberleri nedeniyle g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 tutuyor; PPI verisinin sonucu belirsizli\u011fi art\u0131rd\u0131\u011f\u0131 i\u00e7in g\u00fcven orta d\u00fczeyde.",
-    "new": 9,
-    "gpt_score": -0.38,
-    "gpt_confidence": 0.62
-   },
    {
     "ts": 1794572803715,
     "score": -0.45,
@@ -29849,13 +29840,26 @@
     "new": 11,
     "gpt_score": -0.5,
     "gpt_confidence": 0.64
+   },
+   {
+    "ts": 1795112767275,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor; Fed'in \u015fahin tutumu, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve dolar\u0131n 19 ayl\u0131k zirvesi alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebi yaratmas\u0131 gerekirken fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor, bu y\u00fczden bask\u0131 daha g\u00fc\u00e7l\u00fc g\u00f6r\u00fcn\u00fcyor.",
+    "new": 6,
+    "gpt_score": -0.55,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-19",
-   "n": 72
+   "n": 73
   },
   "news_seen": [
+   "Iran war has cost US more than $48 billion, Pentagon official says - The Times of Israel",
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Tests Yearly Lows As Sell-Off Continues - FXEmpire",
+   "Tokyo FX: Dollar-Yen Rises to Upper 159 Range as BOJ Chief's Rate-Hike Hint Adds Yen-Selling Pressure - BigGo Finance",
+   "Iran War Day 265: Houthis Strike Riyadh Financial District - The American Conservative",
    "Hawkish Fed stance weighs further on silver via stronger Dollar and risk sentiment - Traders Union",
    "Marking Black History Month: Showcase of War Studies PhD research - King's College London",
    "IDF strikes Hezbollah missile production site in Lebanon's Bekaa Valley - The Jerusalem Post",
@@ -29864,10 +29868,11 @@
    "Historian to lead Civil War exhibit tour at PoCo Muse in Valparaiso - nwitimes.com",
    "Jefferson: inflation must return to 2% before Fed changes target - American Banker",
    "Canadian Dollar strengthens as Oil rebounds, hawkish Fed limits gains - FXStreet",
+   "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
    "Goolsbee: Fed independence key to curbing inflation - Breakingthenews.net",
    "Bomb squad called to Northampton County after man finds \u2018missile-type\u2019 device, police say - The Morning Call",
    "Mortgage Rates Climb as Hotter Inflation Raises Odds of a December Fed Hike - Norada Real Estate Investments",
-   "Trump spoke of Ukraine and a peaceful end to the war during trilateral talks with Xi and Putin in China, Witkoff says - Oskaloosa Herald",
+   "Trump spoke of Ukraine and a peaceful end to the war during trilateral talks with Xi and Putin in China, Witkoff says - Idaho State Journal",
    "Jon Jones & Josh Hokit continue war of words, GTA 6 review, UFC Qatar preview | The Boys in the Back | November 19, 2026 - Yahoo Sports",
    "Iran missile strike on Tel Aviv exposes financial and bureaucratic hurdles to rebuilding - CTech",
    "The average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide - ABC News - Breaking News, Latest News and Videos",
@@ -29895,18 +29900,10 @@
    "Gold prices are plummeting today, November 20, 2026, with a stable bottom being established. Is it time to buy? - Vietnam.vn",
    "Breaking: Peso surpasses 19 to the dollar, its weakest point in 17 months - Mexico News Daily",
    "Gold and Silver Sink Again in China, Then London, as Anthropic Floats - BullionVault",
-   "The Canadian Dollar falls to its weakest level against the US Dollar in 19 months - FXStreet",
-   "US dollar exchange rate rises in Iraq\u2019s parallel market - IraqiNews",
-   "Israeli military completes ground operation in Gaza beyond Yellow Line",
-   "How the US Civil War Impacted Presidential Elections for 70 Years - History is Now",
-   "US sanctions Hezbollah-linked entities inhibiting terror group\u2019s removal from Southern Lebanon - JNS.org",
-   "Gold Price Falls Below $3,800, Putting pressure on African producers\u2019 export earnings and Public Finances - Africa Sustainability Matters"
+   "The Canadian Dollar falls to its weakest level against the US Dollar in 19 months - FXStreet"
   ]
  },
  "log": [
-  "19.11 05:41 N  NEWS (9 new) score -0.55 conf 0.60: Fed'in daha fazla faiz art\u0131r\u0131m\u0131 sinyali vermesi ve dolar\u0131n 19 ayl\u0131k zirvesine yak\u0131n seyretmesi, reel faiz ve dolar kanal\u0131yla alt\u0131 bask\u0131l\u0131yor; alt\u0131n 14 ayl\u0131k dip b\u00f6lgesinde. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor, bu y\u00fczden tepki s\u0131n\u0131rl\u0131 kalabilir.",
-  "19.11 05:41 N  GPT  score -0.35 conf 0.57: Fed\u2019in daha fazla faiz art\u0131r\u0131m\u0131 sinyali ve g\u00fc\u00e7l\u00fc dolar, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor. Dip seviyelerden toparlanma ve \u0130ran \u00e7evresindeki gerilim destekleyici olsa da bu etkiler \u015fimdilik bask\u0131y\u0131 dengelemeye yetmeyebilir.",
-  "19.11 05:50 B5  CLOSE short take profit: +69.01 USD",
   "19.11 05:53 N  NEWS (6 new) score -0.60 conf 0.60: Alt\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine yak\u0131n i\u015flem g\u00f6r\u00fcyor; Fed yetkililerinin daha fazla s\u0131k\u0131la\u015fma sinyali vermesi ve dolar endeksinin 19-20 ayl\u0131k zirvesine yak\u0131n seyretmesi k\u0131sa vadede bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 ve Do\u011fu Afrika'daki \u00e7at\u0131\u015fmalar g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut s\u0131k\u0131 para politikas\u0131 ve g\u00fc\u00e7l\u00fc dolar\u0131n gerisinde kal\u0131yor.",
   "19.11 05:53 N  GPT  score -0.35 conf 0.56: Fed yetkililerinin daha fazla s\u0131k\u0131la\u015fma sinyali ve dolar\u0131n 19 ay\u0131n zirvesine yak\u0131n seyretmesi, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. \u0130ran ve Etiyopya-Eritre gerilimi g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fcne dair haberler k\u0131smen geriye d\u00f6n\u00fck oldu\u011fundan etki belirsiz.",
   "19.11 05:56 B5  SHORT gold 25000 USD x10 @ 3713.75 (TP 3702.61, SL 3721.17; news -0.47)",
@@ -30203,7 +30200,10 @@
   "19.11 21:14 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"53663.68\",\"code\":40310000,\"cost_basis\":\"63000.99\",\"message\":\"insufficient buying power\"}",
   "19.11 21:14 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"53663.68\",\"code\":40310000,\"cost_basis\":\"62889.54\",\"message\":\"insufficient buying power\"}",
   "19.11 21:16 B5  CLOSE short take profit: +69.00 USD",
-  "19.11 21:19 B5  SHORT gold 25000 USD x10 @ 3671.09 (TP 3660.07, SL 3678.43; news -0.55)"
+  "19.11 21:19 B5  SHORT gold 25000 USD x10 @ 3671.09 (TP 3660.07, SL 3678.43; news -0.55)",
+  "19.11 21:26 N  NEWS (6 new) score -0.60 conf 0.70: Alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor; Fed'in \u015fahin tutumu, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve dolar\u0131n 19 ayl\u0131k zirvesi alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebi yaratmas\u0131 gerekirken fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor, bu y\u00fczden bask\u0131 daha g\u00fc\u00e7l\u00fc g\u00f6r\u00fcn\u00fcyor.",
+  "19.11 21:26 N  GPT  score -0.55 conf 0.68: G\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri, alt\u0131ndaki devam eden sat\u0131\u015flarla birlikte k\u0131sa vadede bask\u0131n ve a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor. Suudi Arabistan\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir; ancak bar\u0131\u015f deklarasyonu ve \u00e7eli\u015fkili jeopolitik haberler bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
+  "19.11 21:26 B6  karar turu: Claude \u00abNVIDIA CEO istifas\u0131 ve not indirimleri teknoloji a\u011f\u0131rl\u0131kl\u0131 piyasada risk i\u015ftah\u0131n\u0131 bast\u0131r\u0131yor; g\u00fcn sonuna do\u011fru zay\u0131fl\u0131\u011f\u0131n s\u00fcrmesi muhtemel.\u00bb / GPT \u00abPiyasa genelinde sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor ancak diplerden gelen tepki nedeniyle 4 kat kald\u0131ra\u00e7ta toplam riski s\u0131n\u0131rlamak gerekiyor.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    4963.78
-   ],
-   [
     1794524942,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795112576,
+    4963.78
+   ],
+   [
+    1795112785,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    4975.18
-   ],
-   [
     1794524942,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795112576,
+    4975.18
+   ],
+   [
+    1795112785,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    4993.28
-   ],
-   [
     1794524942,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795112576,
+    4993.28
+   ],
+   [
+    1795112785,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794524762,
-    4969.22
-   ],
-   [
     1794524942,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795112576,
+    4969.22
+   ],
+   [
+    1795112785,
     4969.22
    ]
   ],
@@ -81978,10 +81978,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794524762,
-    4728.85
-   ],
    [
     1794524942,
     4738.19
@@ -93977,6 +93973,10 @@
    [
     1795112576,
     4958.68
+   ],
+   [
+    1795112785,
+    4952.28
    ]
   ],
   "news_calls": {
@@ -94184,7 +94184,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 117221.33000000002,
+   "balance": 117221.3274,
    "start": 100000.0,
    "positions": [
     {
@@ -94199,7 +94199,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Piyasa y\u00fckselirken haber olmadan saatlik %1,3 d\u00fc\u015f\u00fc\u015f g\u00f6receli zay\u0131fl\u0131k g\u00f6steriyor, zay\u0131f toparlanma short i\u00e7in uygun. | GPT 0.65: Pozitif endekslere ra\u011fmen s\u00fcren belirgin g\u00f6reli zay\u0131fl\u0131k ve dip yak\u0131n\u0131ndaki fiyatlama a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor.",
-     "cur": 348.68
+     "cur": 348.86
     },
     {
      "id": "8882cedf-c1d9-462d-ba1a-5209961743e7",
@@ -94213,7 +94213,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.6: CEO istifas\u0131 ve ard\u0131ndan gelen not d\u00fc\u015f\u00fcrmeleri a\u011f\u0131r bir negatif kataliz\u00f6r; 150,5 civar\u0131ndaki tepki y\u00fckseli\u015fi zay\u0131fl\u0131yor. | GPT 0.67: Verilen istifa ba\u011flant\u0131l\u0131 not indirimi haberleri ve endekslere g\u00f6re saatlik zay\u0131fl\u0131k, tepki sonras\u0131 k\u0131sa pozisyonu destekliyor.",
-     "cur": 148.83
+     "cur": 149.1051
     },
     {
      "id": "55de0fc2-2c76-4cb0-b973-a3974c9ecbce",
@@ -94227,7 +94227,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji endeksi son iki mumda sert k\u0131r\u0131l\u0131m yapt\u0131 ve NVDA kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131 devam edebilir. | GPT 0.65: Yatay band\u0131n a\u015fa\u011f\u0131 k\u0131r\u0131lmas\u0131 ve SPY'a g\u00f6re zay\u0131fl\u0131k, k\u0131sa vadede sat\u0131\u015flar\u0131n devam\u0131n\u0131 destekliyor.",
-     "cur": 649.82
+     "cur": 650.33
     }
    ],
    "trades": [
@@ -95422,18 +95422,14 @@
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl": 3781.83,
+    "pnl": 3418.9,
     "trades": 12,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 119101.74
+   "equity": 118738.81
   },
   "equity_curve": [
-   [
-    1794524762,
-    113945.8
-   ],
    [
     1794524942,
     113945.8
@@ -107429,6 +107425,10 @@
    [
     1795112576,
     119101.74
+   ],
+   [
+    1795112785,
+    118738.81
    ]
   ],
   "open": {
@@ -107468,28 +107468,28 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795112047962,
+  "last_decision_ms": 1795112767478,
   "view": {
-   "ts": 1795112047962,
-   "claude": "NVIDIA CEO istifas\u0131 ve not indirimleriyle risk i\u015ftah\u0131 zay\u0131f; endeksler \u00f6\u011fleden sonra seans diplerini yeniden test ediyor.",
-   "gpt": "Endekslerde saatlik de\u011fi\u015fim yatay g\u00f6r\u00fcnse de son kapan\u0131\u015flardaki belirgin zay\u0131flama \u00f6n\u00fcm\u00fczdeki 1-3 saat i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc e\u011filim sunuyor.",
+   "ts": 1795112767478,
+   "claude": "NVIDIA CEO istifas\u0131 ve not indirimleri teknoloji a\u011f\u0131rl\u0131kl\u0131 piyasada risk i\u015ftah\u0131n\u0131 bast\u0131r\u0131yor; g\u00fcn sonuna do\u011fru zay\u0131fl\u0131\u011f\u0131n s\u00fcrmesi muhtemel.",
+   "gpt": "Piyasa genelinde sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor ancak diplerden gelen tepki nedeniyle 4 kat kald\u0131ra\u00e7ta toplam riski s\u0131n\u0131rlamak gerekiyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "short",
-      0.55
+      "none",
+      0.4
      ],
      "gpt": [
       "short",
-      0.68
+      0.59
      ]
     },
     "QQQ": {
      "claude": [
-      "none",
-      0.0
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -107498,8 +107498,8 @@
     },
     "NVDA": {
      "claude": [
-      "none",
-      0.0
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -107508,8 +107508,8 @@
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.0
+      null,
+      null
      ],
      "gpt": [
       null,
@@ -107522,8 +107522,8 @@
       0.55
      ],
      "gpt": [
-      "short",
-      0.64
+      "none",
+      0.62
      ]
     }
    }
@@ -107533,7 +107533,7 @@
   "premarket_day": "2026-11-19",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "61713.24",
+   "buying_power": "59826.02",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -107645,10 +107645,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794524762,
-    4876.96
-   ],
    [
     1794524942,
     4876.96
@@ -119643,6 +119639,10 @@
    ],
    [
     1795112576,
+    4876.96
+   ],
+   [
+    1795112785,
     4876.96
    ]
   ],
