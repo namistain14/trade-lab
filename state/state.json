@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    5000.0
-   ],
-   [
     1794531323,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795119019,
     5099.2
+   ],
+   [
+    1795119232,
+    5103.84
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    4868.5
-   ],
-   [
     1794531323,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795119019,
     4868.5
+   ],
+   [
+    1795119232,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.5,
-   "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 bask\u0131 y\u00f6n\u00fcnde: Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 sinyali vermesi ve Goolsbee'nin a\u015f\u0131r\u0131l\u0131\u011f\u0131 \u00f6nleme vurgusu faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, bu da alt\u0131n\u0131 bask\u0131l\u0131yor. Senato'nun \u0130ran sava\u015f yetkisi karar\u0131 ise g\u00fcvenli liman talebini dolayl\u0131 olarak destekleyebilir ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f bir siyasi sonu\u00e7 oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131; g\u00fc\u00e7l\u00fc dolar ve alt\u0131n\u0131n 14 ayl\u0131k dibi de olumsuz teknik tabloyu g\u00f6steriyor.",
+   "score": -0.2,
+   "confidence": 0.45,
+   "reason": "Yeni haberlerin \u00e7o\u011fu jeopolitik g\u00fcr\u00fclt\u00fc: Senato'nun \u0130ran sava\u015f yetkisi karar\u0131n\u0131 reddetmesi ve \u0130srail'in Hizbullah'a sald\u0131r\u0131s\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 gerekebilece\u011fini belirtmesi ve piyasada faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 14 ayl\u0131k dibe ve g\u00fc\u00e7l\u00fc dolara kar\u015f\u0131 geriliyor. Net etki hafif negatif.",
    "n": 45,
-   "ts": 1795118490524,
-   "new_headlines": 17,
+   "ts": 1795119210196,
+   "new_headlines": 12,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe geriledi; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor",
     "JPMorgan, enflasyon nedeniyle Fed'in ard\u0131\u015f\u0131k \u00fc\u00e7 toplant\u0131da faiz art\u0131rabilece\u011fini \u00f6ng\u00f6r\u00fcyor",
     "\u0130ran sava\u015f\u0131 ve Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor"
    ],
    "gpt": {
-    "score": -0.25,
-    "confidence": 0.58,
-    "reason": "Senatonun \u0130ran sava\u015f\u0131 yetkilerini s\u0131n\u0131rlama giri\u015fimini reddetmesi g\u00fcvenli liman talebini destekleyebilir; ancak haberin tekrarlanmas\u0131 ve etkinin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olma ihtimali bu deste\u011fi azalt\u0131yor. Enflasyon endi\u015feleriyle Fed\u2019den daha s\u0131k\u0131 politika beklentisi ve g\u00fc\u00e7l\u00fc dolar k\u0131sa vadede alt\u0131n",
+    "score": 0.18,
+    "confidence": 0.38,
+    "reason": "\u0130ran sava\u015f\u0131n\u0131 s\u0131n\u0131rlama giri\u015fiminin reddedilmesi ve \u0130srail\u2019in Hizbullah hedefini vurmas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n \u00fczerindeki g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131\u015f\u0131 beklentisi bask\u0131s\u0131 ile Ukrayna\u2019da m\u00fczakere sinyalleri y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Senato \u0130ran sava\u015f\u0131 yetkilerini s\u0131n\u0131rlama karar\u0131n\u0131 reddetti",
-     "Fed yetkilisi y\u00fcksek enflasyon kar\u015f\u0131s\u0131nda ek politika ayarlamalar\u0131na i\u015faret etti",
-     "G\u00fc\u00e7l\u00fc dolar ve faiz art\u0131\u015f\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor"
+     "\u0130ran sava\u015f\u0131n\u0131 s\u0131n\u0131rlama tasar\u0131s\u0131 Senato\u2019da reddedildi",
+     "\u0130srail L\u00fcbnan\u2019da Hizbullah f\u00fcze tesisini vurdu",
+     "Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakere sinyali"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794578642234,
-    "score": -0.55,
-    "confidence": 0.6,
-    "reason": "",
-    "new": 12,
-    "gpt_score": -0.45,
-    "gpt_confidence": 0.66
-   },
    {
     "ts": 1794579362354,
     "score": -0.35,
@@ -29849,23 +29840,41 @@
     "new": 17,
     "gpt_score": -0.25,
     "gpt_confidence": 0.58
+   },
+   {
+    "ts": 1795119210196,
+    "score": -0.2,
+    "confidence": 0.45,
+    "reason": "Yeni haberlerin \u00e7o\u011fu jeopolitik g\u00fcr\u00fclt\u00fc: Senato'nun \u0130ran sava\u015f yetkisi karar\u0131n\u0131 reddetmesi ve \u0130srail'in Hizbullah'a sald\u0131r\u0131s\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 gerekebilece\u011fini belirtmesi ve piyasada faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 14 ayl\u0131k dibe ve g\u00fc\u00e7l\u00fc dolara kar\u015f\u0131 geriliyor. Net etki hafif negatif.",
+    "new": 12,
+    "gpt_score": 0.18,
+    "gpt_confidence": 0.38
    }
   ],
   "news_calls": {
    "date": "2026-11-19",
-   "n": 81
+   "n": 82
   },
   "news_seen": [
+   "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "IDF targets Hezbollah missile facility after terrorists return to site in Lebanon - Yahoo",
+   "Andy Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - Sky News",
+   "Senate Republicans quash measure aimed at ending unpopular Iran war - Yahoo",
+   "8 Action Thriller War Movies With Zombies (#2 Is a Martial Arts Masterpiece) - MovieWeb",
+   "Where Is the Next Support Level for Gold? - Barchart.com",
+   "Retirement savers see gold\u2019s appeal. Why do so few own it? - Yahoo Finance",
    "US Senate Rejects Resolution Curbing Trump's Iran War Powers - GV Wire",
-   "US Senate rejects resolution curbing Trump's Iran war powers - The Jerusalem Post",
+   "Fed's Barr worried regulation changes may increase financial sector risks - Reuters",
+   "US Senate Republicans reject resolution calling on Trump to end Iran war - The Jerusalem Post",
    "US Senate rejects resolution curbing Trump's Iran war powers - Reuters",
    "US Senate rejects resolution curbing Trump's Iran war powers - Forth.News",
    "Senate Republicans Vote Down Iran War Powers Resolution - NOTUS",
    "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
    "Kushner says he believes Russia is \u2018comfortable\u2019 with NATO-like security guarantees for Ukraine - AP News",
+   "Dems, GOP rebels fail to rein in Trump's Iran war in Senate, but bigger battle looms - Fox News",
    "Fed\u2019s Barr signals need for further policy adjustments amid high inflation - Crypto Briefing",
    "Senate Republicans reject war powers resolution to end Iran war - The Hill",
-   "Iran war costs surpass $48B as lawmakers demand unreleased estimates on base damage - News4JAX",
+   "Iran war costs surpass $48B as lawmakers demand unreleased estimates on base damage - WKMG",
    "Senate GOP rejects Iran war rebuke in first unity test since election - Washington Examiner",
    "Senate Republicans Block Bid to Rein in Trump on Iran War - The New York Times",
    "Canadian dollar steadies near 19-month low as stocks slide - Reuters",
@@ -29888,25 +29897,13 @@
    "Settler leader says municipality\u2019s foreign currency accounts frozen due to UK sanctions - The Times of Israel",
    "Bitcoin vs Gold Price Forecast: XAU Hits 14-Month Low as BTC Retests $63K on Fed Rate Hike Fears - Cryptonews.net",
    "Stocks Fall as Anthropic Debut Not an AI All-Clear: Markets Wrap - Bloomberg.com",
+   "IDF strikes Hezbollah missile facility in Lebanon\u2019s Beqaa Valley - JNS.org",
    "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
    "Fed Tells Regional Staff to Expect Lower Pay Increases in 2027 - Bloomberg.com",
-   "Democrats Weigh Shutdown Over Iran War But Some Warn Against the Risk - Newsweek",
-   "Oil Continues Downward Plummet As Iran War Reshapes World Energy Market For The Better - Ship & Bunker",
-   "Trump tells European leaders that Putin wants to end the war in Ukraine, but Putin says Moscow won\u2019t negotiate with Kyiv after Crimean Bridge strikes - Meduza",
-   "Iran war could leave consumers facing years of uncertainty over energy costs - NBC 15 WPMI",
-   "EXCLUSIVE: Activist Carronade raises Brookdale stake above 5%, pushes for changes - Reuters",
-   "WATCH: \u201cThe war is never over.\u201d Stars of ELSINORE Andrew Scott and Billie Piper Talk HIV, Allyship, and Ethel Merman Disco - GLAAD",
-   "Navy comptroller nominee says Iran war has cost $48.3 billion - Washington Examiner",
-   "7 million pages of military records from the War of 1812 are finally online - Popular Science",
-   "Goolsbee says the Fed's job right now is to keep AI surge from overheating the economy - Reuters",
-   "US Dollar Hits 19-Month High as Vietnam's Central Rate Rises to 25,656 Dong - BigGo Finance",
-   "Battleship North Carolina Launches \"Fallen Heroes\" to Honor the World War II \u201cImmortal 11,000\u201d from Greene and Lenoir Counties - Neuse News"
+   "Democrats Weigh Shutdown Over Iran War But Some Warn Against the Risk - Newsweek"
   ]
  },
  "log": [
-  "19.11 07:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBevtwn76BnEq8HrN6As'}",
-  "19.11 07:30 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfA8qKTL8fxnQiY9v3s'}",
-  "19.11 07:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfPNd9Cf2LUrms2qvrK'}",
   "19.11 07:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfcgvM4F1HChr5YQg28'}",
   "19.11 07:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfqvfhFyPdP2Cok7tHz'}",
   "19.11 07:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBg5FjmvUpCjVfhMCNVi'}",
@@ -30203,7 +30200,10 @@
   "19.11 23:01 N  NEWS (17 new) score -0.35 conf 0.50: Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 bask\u0131 y\u00f6n\u00fcnde: Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 sinyali vermesi ve Goolsbee'nin a\u015f\u0131r\u0131l\u0131\u011f\u0131 \u00f6nleme vurgusu faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, bu da alt\u0131n\u0131 bask\u0131l\u0131yor. Senato'nun \u0130ran sava\u015f yetkisi karar\u0131 ise g\u00fcvenli liman talebini dolayl\u0131 olarak destekleyebilir ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f bir siyasi sonu\u00e7 oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131; g\u00fc\u00e7l\u00fc dolar ve alt\u0131n\u0131n 14 ayl\u0131k dibi de olumsuz teknik tabloyu g\u00f6steriyor.",
   "19.11 23:01 N  GPT  score -0.25 conf 0.58: Senatonun \u0130ran sava\u015f\u0131 yetkilerini s\u0131n\u0131rlama giri\u015fimini reddetmesi g\u00fcvenli liman talebini destekleyebilir; ancak haberin tekrarlanmas\u0131 ve etkinin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olma ihtimali bu deste\u011fi azalt\u0131yor. Enflasyon endi\u015feleriyle Fed\u2019den daha s\u0131k\u0131 politika beklentisi ve g\u00fc\u00e7l\u00fc dolar k\u0131sa vadede alt\u0131n",
   "19.11 23:01 B6  karar turu: Claude \u00abPiyasa g\u00fcn boyu sat\u0131c\u0131l\u0131 ge\u00e7ti ve kapan\u0131\u015fa do\u011fru d\u00fc\u015f\u00fc\u015f h\u0131zland\u0131, ancak seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon i\u00e7in risk/getiri dengesi zay\u0131f.\u00bb / GPT \u00abKapan\u0131\u015fta sat\u0131\u015f bask\u0131s\u0131 g\u00fc\u00e7l\u00fc olsa da yeni kataliz\u00f6r bulunmamas\u0131 ve seans sonras\u0131 stop uygulama riski yeni i\u015flem a\u00e7may\u0131 desteklemiyor.\u00bb",
-  "19.11 23:04 B6  CLOSE short QQQ take profit: +1753.30 USD"
+  "19.11 23:04 B6  CLOSE short QQQ take profit: +1753.30 USD",
+  "19.11 23:13 N  NEWS (12 new) score -0.20 conf 0.45: Yeni haberlerin \u00e7o\u011fu jeopolitik g\u00fcr\u00fclt\u00fc: Senato'nun \u0130ran sava\u015f yetkisi karar\u0131n\u0131 reddetmesi ve \u0130srail'in Hizbullah'a sald\u0131r\u0131s\u0131 k\u0131sa vadeli g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 gerekebilece\u011fini belirtmesi ve piyasada faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten 14 ayl\u0131k dibe ve g\u00fc\u00e7l\u00fc dolara kar\u015f\u0131 geriliyor. Net etki hafif negatif.",
+  "19.11 23:13 N  GPT  score +0.18 conf 0.38: \u0130ran sava\u015f\u0131n\u0131 s\u0131n\u0131rlama giri\u015fiminin reddedilmesi ve \u0130srail\u2019in Hizbullah hedefini vurmas\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n \u00fczerindeki g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131\u015f\u0131 beklentisi bask\u0131s\u0131 ile Ukrayna\u2019da m\u00fczakere sinyalleri y\u00fckseli\u015f etkisini s\u0131n\u0131rl\u0131yor.",
+  "19.11 23:13 B6  karar turu: Claude \u00abPiyasa teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015fla g\u00fcn\u00fc yakla\u015f\u0131k %2 d\u00fc\u015f\u00fc\u015fle kapatt\u0131, ancak seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon a\u00e7mak yerine yar\u0131n a\u00e7\u0131l\u0131\u015f\u0131 beklemek daha disiplinli.\u00bb / GPT \u00abNormal seans 16:00'da kapand\u0131; g\u00f6r\u00fcn\u00fcm a\u015fa\u011f\u0131 y\u00f6nl\u00fc olsa da \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte seans sonras\u0131 likidite ve bracket emirlerinin \u00e7al\u0131\u015fmas\u0131 do\u011frulanmadan 1:4 kald\u0131ra\u00e7la yeni risk almam.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    4963.78
-   ],
-   [
     1794531323,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795119019,
+    4963.78
+   ],
+   [
+    1795119232,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    4975.18
-   ],
-   [
     1794531323,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795119019,
+    4975.18
+   ],
+   [
+    1795119232,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    4993.28
-   ],
-   [
     1794531323,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795119019,
+    4993.28
+   ],
+   [
+    1795119232,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794531154,
-    4969.22
-   ],
-   [
     1794531323,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795119019,
+    4969.22
+   ],
+   [
+    1795119232,
     4969.22
    ]
   ],
@@ -82020,10 +82020,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794531154,
-    4668.34
-   ],
    [
     1794531323,
     4668.34
@@ -94019,6 +94015,10 @@
    [
     1795119019,
     4998.78
+   ],
+   [
+    1795119232,
+    4997.75
    ]
   ],
   "news_calls": {
@@ -94226,7 +94226,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 120521.21003500001,
+   "balance": 120532.670035,
    "start": 100000.0,
    "positions": [
     {
@@ -94241,7 +94241,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Piyasa y\u00fckselirken haber olmadan saatlik %1,3 d\u00fc\u015f\u00fc\u015f g\u00f6receli zay\u0131fl\u0131k g\u00f6steriyor, zay\u0131f toparlanma short i\u00e7in uygun. | GPT 0.65: Pozitif endekslere ra\u011fmen s\u00fcren belirgin g\u00f6reli zay\u0131fl\u0131k ve dip yak\u0131n\u0131ndaki fiyatlama a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor.",
-     "cur": 349.18
+     "cur": 348.85
     },
     {
      "id": "cde8a57e-5d7c-4caa-8346-d24fcd0fc829",
@@ -94255,7 +94255,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Direksiyonsuz Model Y ve Japonya Megapack haberleri az \u00f6nce \u00e7\u0131kt\u0131, fiyat hen\u00fcz tepki vermedi ve yukar\u0131 hareket bekleniyor. | GPT 0.55: Yeni Megapack operasyonu ve direksiyonsuz Model Y haberleri, saatlik yatayla\u015fman\u0131n ard\u0131ndan k\u0131sa vadeli tepki al\u0131m\u0131n\u0131 destekleyebilir.",
-     "cur": 375.45
+     "cur": 374.73
     }
    ],
    "trades": [
@@ -95486,18 +95486,14 @@
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl": 4953.39,
+    "pnl": 4961.82,
     "trades": 14,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 120273.3
+   "equity": 120281.73
   },
   "equity_curve": [
-   [
-    1794531154,
-    113945.8
-   ],
    [
     1794531323,
     113945.8
@@ -107493,6 +107489,10 @@
    [
     1795119019,
     120273.3
+   ],
+   [
+    1795119232,
+    120281.73
    ]
   ],
   "open": {
@@ -107521,11 +107521,11 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795118491248,
+  "last_decision_ms": 1795119210991,
   "view": {
-   "ts": 1795118491248,
-   "claude": "Piyasa g\u00fcn boyu sat\u0131c\u0131l\u0131 ge\u00e7ti ve kapan\u0131\u015fa do\u011fru d\u00fc\u015f\u00fc\u015f h\u0131zland\u0131, ancak seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon i\u00e7in risk/getiri dengesi zay\u0131f.",
-   "gpt": "Kapan\u0131\u015fta sat\u0131\u015f bask\u0131s\u0131 g\u00fc\u00e7l\u00fc olsa da yeni kataliz\u00f6r bulunmamas\u0131 ve seans sonras\u0131 stop uygulama riski yeni i\u015flem a\u00e7may\u0131 desteklemiyor.",
+   "ts": 1795119210991,
+   "claude": "Piyasa teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015fla g\u00fcn\u00fc yakla\u015f\u0131k %2 d\u00fc\u015f\u00fc\u015fle kapatt\u0131, ancak seans kapand\u0131\u011f\u0131 i\u00e7in yeni pozisyon a\u00e7mak yerine yar\u0131n a\u00e7\u0131l\u0131\u015f\u0131 beklemek daha disiplinli.",
+   "gpt": "Normal seans 16:00'da kapand\u0131; g\u00f6r\u00fcn\u00fcm a\u015fa\u011f\u0131 y\u00f6nl\u00fc olsa da \u00f6n\u00fcm\u00fczdeki 1\u20133 saatte seans sonras\u0131 likidite ve bracket emirlerinin \u00e7al\u0131\u015fmas\u0131 do\u011frulanmadan 1:4 kald\u0131ra\u00e7la yeni risk almam.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
@@ -107536,17 +107536,17 @@
      ],
      "gpt": [
       "none",
-      0.94
+      0.9
      ]
     },
     "QQQ": {
      "claude": [
-      null,
-      null
+      "none",
+      0.3
      ],
      "gpt": [
-      null,
-      null
+      "none",
+      0.9
      ]
     },
     "NVDA": {
@@ -107556,7 +107556,7 @@
      ],
      "gpt": [
       "none",
-      0.91
+      0.86
      ]
     },
     "AAPL": {
@@ -107586,7 +107586,7 @@
   "premarket_day": "2026-11-19",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "226847.44",
+   "buying_power": "227169.71",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -107698,10 +107698,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794531154,
-    4876.96
-   ],
    [
     1794531323,
     4876.96
@@ -119696,6 +119692,10 @@
    ],
    [
     1795119019,
+    4876.96
+   ],
+   [
+    1795119232,
     4876.96
    ]
   ],
