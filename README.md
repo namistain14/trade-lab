@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 20:33 (İstanbul)
+> Son güncelleme: 19.11.2026 20:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,078.46 $** (başlangıç 5,000 $, +78.46 $ / %+1.57)
+**Hesap değeri: 5,082.66 $** (başlangıç 5,000 $, +82.66 $ / %+1.65)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %46.2 | %44.3 |
 | Ödenen komisyon/spread | 156.34 $ | 1774.75 $ |
 
-**Hesap değeri: 4,892.83 $** (başlangıç 5,000 $, -107.17 $ / %-2.14)
+**Hesap değeri: 4,887.94 $** (başlangıç 5,000 $, -112.06 $ / %-2.24)
 
 Açık pozisyonlar: PAXGUSDT short @ 3681.45 (TP 3670.41 / SL 3688.82)
 
-Son haber analizi (19.11 20:25): Claude puan **-0.70**, güven 0.75 — Fed'de faiz artırım beklentileri güçleniyor ("Almost all" politikacılar artırımı olası görüyor), dolar yeni zirvelere yakın ve altın 14 aylık dibe geriledi; bu baskı kısa vadede altın için negatif. Jeopolitik (İran savaşı, Gazze) risk primi ise zayıf kalıyor, bu yüzden düşüş eğilimi net.
+Son haber analizi (19.11 20:37): Claude puan **-0.60**, güven 0.70 — Dolar 19 aylık zirveye yakın seyrediyor, Fed'de faiz artırımı beklentileri güçleniyor ve altın 14 aylık dibe geriledi; bu tablo altın için net olarak baskılayıcı. İran savaşı ve enerji şoku güvenli liman talebini destekliyor olsa da piyasa bu jeopolitik riski şu an fiyatlamıyor gibi görünüyor, bu yüzden etkisi sınırlı kalıyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.73 — Fed’de faiz artırımı beklentilerinin güçlenmesi ve doların diğer para birimleri karşısında değer kazanması, kısa vadede altını baskılıyor; altındaki sert düşüşü bildiren başlıklar da bu eğilimi doğruluyor. Jeopolitik riskler güvenli liman talebini destekleyebilir, ancak mevcut haber akışında bu etki
+GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Doların 19 ayın zirvesine çıkması, dirençli işgücü piyasası ve güçlenen Fed faiz artırımı beklentileri kısa vadede altın üzerinde belirgin baskı yaratıyor. İran kaynaklı enerji şoku güvenli liman talebini destekleyebilir; ancak başlıklar bunun yeni bir tırmanışından çok mevcut riskin devamına işaret
 
 Son işlemler:
 
@@ -82,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,488.92 $** (başlangıç 100,000 $, +16488.92 $ / %+16.49)
+**Hesap değeri: 116,430.61 $** (başlangıç 100,000 $, +16430.61 $ / %+16.43)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
@@ -99,10 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 20:01 N  NEWS (8 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi; güçlü dolar ve Fed faiz artırımı beklentileri (Jefferson'ın enflasyon uyarısı, azalan faiz indirimi ihtimali) baskı yaratıyor. Savaş kaynaklı güvenli liman talebi var ancak enerji şoku zaten fiyatlanmış görünüyor ve bu haberler altını destekleyemiyor, bu nedenle kısa vadede negatif eğilim sürebilir.
-19.11 20:01 N  GPT  score -0.55 conf 0.76: Güçlenen dolar ve Fed’in faiz artıracağı beklentilerinin altını baskıladığı, fiyatın 14 ayın dibine gerilediği belirtiliyor. Petrol arzındaki artış ve savaş priminin silinmesi enflasyon baskısını azaltarak bu görünümü bir miktar dengeleyebilir; ancak kısa vadede aşağı yönlü baskınlık sürüyor.
-19.11 20:03 B5  CLOSE short take profit: +69.00 USD
-19.11 20:06 B6  CLOSE short NVDA take profit: +1802.78 USD
 19.11 20:09 B5  SHORT gold 25000 USD x10 @ 3666.76 (TP 3655.76, SL 3674.09; news -0.57)
 19.11 20:13 N  NEWS (10 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi; güçlü dolar ve Fed'in faiz artırımı beklentileri (enflasyon kaynaklı, Jefferson'un AI kaynaklı enflasyon uyarısı, ipotek faizlerinin yükselişi) altını baskılıyor. Savaş ve jeopolitik haberleri güvenli liman talebini destekleyebilir, ancak bu etki zaten fiyatlanmış görünüyor ve yükselen reel faiz/dolar baskısını dengelemiyor.
 19.11 20:13 N  GPT  score -0.45 conf 0.65: Güçlü dolar ve Fed’in faiz artırımı beklentileri, altının 3.800 doların altına gerilemesiyle birlikte kısa vadede baskın ve negatif görünüyor. Gazze’deki gelişmeler güvenli liman talebini destekleyebilir; ancak enerji şokunun enflasyon ve faiz beklentilerini beslemesi bu desteği sınırlıyor.
@@ -114,6 +110,10 @@ Son işlemler:
 19.11 20:25 B5  SHORT gold 25000 USD x10 @ 3681.45 (TP 3670.41, SL 3688.82; news -0.69)
 19.11 20:25 B6  karar turu: Claude «Piyasa öğleden sonraki sert satışın ardından ani bir tepki alımıyla toparlanıyor, ancak NVDA kaynaklı risk iştahsızlığı sürüyor ve yön henüz netleşmedi.» / GPT «Endekslerde sert düşüş sonrası tepki var, ancak saatlik zayıflık sürdüğünden kaldıraçlı işlemlerde temkinli biçimde kısa yönü tercih ediyorum.»
 19.11 20:27 B6  CLOSE short NVDA stop: -1316.47 USD
+19.11 20:37 N  NEWS (11 new) score -0.60 conf 0.70: Dolar 19 aylık zirveye yakın seyrediyor, Fed'de faiz artırımı beklentileri güçleniyor ve altın 14 aylık dibe geriledi; bu tablo altın için net olarak baskılayıcı. İran savaşı ve enerji şoku güvenli liman talebini destekliyor olsa da piyasa bu jeopolitik riski şu an fiyatlamıyor gibi görünüyor, bu yüzden etkisi sınırlı kalıyor.
+19.11 20:37 N  GPT  score -0.68 conf 0.72: Doların 19 ayın zirvesine çıkması, dirençli işgücü piyasası ve güçlenen Fed faiz artırımı beklentileri kısa vadede altın üzerinde belirgin baskı yaratıyor. İran kaynaklı enerji şoku güvenli liman talebini destekleyebilir; ancak başlıklar bunun yeni bir tırmanışından çok mevcut riskin devamına işaret
+19.11 20:37 B6  karar turu: Claude «Endeksler öğle saatlerindeki satıştan hızla toparlandı ancak gün genelinde hafif negatif; en net fırsat NVDA'daki olumsuz haber akışında.» / GPT «Endekslerdeki sert satış sonrası toparlanma son mumlarda ivme kaybediyor; kısa yönü öne çıksa da 1:4 kaldıraçta yeniden sıçrama riski yüksek.»
+19.11 20:37 B6  AÇIĞA SATIŞ NVDA 774 adet ≈ 116,286 $ (1:4) @ 150.24 (TP 147.99, SL 151.74; ikisi de hemfikir, güven 0.60)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
