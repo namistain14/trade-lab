@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 16:28 (İstanbul)
+> Son güncelleme: 19.11.2026 16:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,067.21 $** (başlangıç 5,000 $, +67.21 $ / %+1.34)
+**Hesap değeri: 5,064.79 $** (başlangıç 5,000 $, +64.79 $ / %+1.30)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,876.67 $** (başlangıç 5,000 $, -123.33 $ / %-2.47)
 
-Son haber analizi (19.11 16:19): Claude puan **-0.05**, güven 0.30 — Yeni jeopolitik haberler (Kerch Köprüsü saldırısı, Putin'in sert karşılık tehdidi, Orta Doğu'da savaş riskleri) güvenli liman talebini hafifçe destekliyor. Ancak ABD doları ve enflasyon kaynaklı sıkılaşma beklentileri, ayrıca altının 14 aylık en düşük seviyeden açılması gibi negatif trend sinyalleri bu etkiyi dengeliyor; net etki sınırlı ve belirsiz.
+Son haber analizi (19.11 16:31): Claude puan **-0.15**, güven 0.40 — Altın için karışık tablo var: Ukrayna, Kırım Köprüsü ve Orta Doğu'daki jeopolitik gerilim güvenli liman talebini destekliyor, ancak ABD doları genel olarak güçleniyor (euro yeni dip gördü) ve başlıkta altının 14 ayın en düşük seviyesinden açıldığı belirtiliyor; bu da ağırlıklı olarak kısa vadeli baskıyı işaret ediyor. Jeopolitik haberlerin etkisi sınırlı ve büyük ölçüde fiyatlanmış görünüyor, bu nedenle güven düşük tutuldu.
 
-GPT (gpt-6-luna): puan **+0.28**, güven 0.38 — Putin’in Kerç Köprüsü saldırısına daha sert karşılık verme tehdidi ve İran’la ilgili savaş söylemi kısa vadede güvenli liman talebini destekleyebilir; doların erken saatlerde gerilemesi de altına hafif destek sağlar. Ancak dolar ve enflasyon görünümüne ilişkin karşıt sinyaller ile başlıkların sınırl
+GPT (gpt-6-luna): puan **-0.25**, güven 0.43 — Eurodaki yeni dip ve geniş tabanlı dolar gücü altın üzerinde kısa vadede baskı yaratıyor; buna karşılık doların gün içinde gevşediği haberleri ve artan jeopolitik riskler düşüşü sınırlayabilir. Haber akışı çelişkili olduğundan görünüm hafif düşüş yönlü ve güven düşük-orta düzeyde.
 
 Son işlemler:
 
@@ -95,9 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 15:06 N  NEWS (8 new) score -0.45 conf 0.60: Başlıklar ağırlıklı olarak altın için baskılayıcı: JPMorgan'ın Fed'in yıl sonuna kadar üç faiz artırımı öngörmesi ve Danske'nin "şahin Fed" vurgusu reel faiz ve dolar beklentilerini yukarı çekiyor. Altın 14 aylık dibe gerilemiş ve İran savaşına rağmen güvenli liman talebi zayıf görünüyor. Öte yandan Hormuz saldırıları ve Riyad'a füze saldırısı gibi jeopolitik riskler kısa vadeli yukarı yönlü bir destek sağlayabilir; ayrıca ABD dolarının yedi günlük yükselişinden sonra gevşemesi sınırlı bir rahatlama sunuyor.
-19.11 15:06 N  GPT  score +0.10 conf 0.30: Hürmüz’deki saldırılar ve Riyad’a yönelik füze haberi güvenli liman talebini destekleyebilir; ancak Fed’in daha fazla faiz artıracağı beklentisi altın için baskı oluşturuyor. Doların son yükseliş sonrası gerilemesi kısmi destek sağlasa da haberler çelişkili ve yeni bir belirgin tırmanışa işaret etmi
-19.11 15:15 B5  CLOSE short take profit: +69.01 USD
 19.11 15:18 N  NEWS (13 new) score -0.30 conf 0.50: 
 19.11 15:18 N  GPT  score +0.25 conf 0.52: Riyad’daki füze hasarı ve Husilerin saldırıları kısa vadede güvenli liman talebini artırabilir. Ancak Fed’in daha hızlı faiz artırabileceği beklentisi altını baskılıyor; haber akışı bu nedenle karışık ve etki sınırlı görünüyor.
 19.11 15:30 N  NEWS (4 new) score -0.35 conf 0.50: Altın 14 aylık en düşük seviyeden açıldı ve Fed'in faiz artırımı beklentisi ile güçlenen dolar (hawkish Fed sinyalleri) fiyatı baskılıyor. Orta Doğu'daki savaş ve Riyadh'a saldırı gibi jeopolitik risklere rağmen altın güvenli liman talebi göstermiyor; bu da piyasanın risk primini düşük tuttuğunu gösteriyor. Öte yandan 'Fed faiz artırımı' başlığıyla birlikte dip alımlarının gelmesi kısa vadede toparlanma ihtimalini artırdığı için güven orta düzeyde tutuldu.
@@ -110,6 +107,9 @@ Son işlemler:
 19.11 16:07 N  GPT  score +0.25 conf 0.42: Riyad’ın finans bölgesine yönelik füze saldırısı haberi ve artan jeopolitik gerilim kısa vadede güvenli liman talebini destekleyebilir. Ancak güçlü dolar ve şahin Fed beklentileri altını baskılıyor; etkilerin yönü bu nedenle sınırlı ve belirsiz.
 19.11 16:19 N  NEWS (10 new) score -0.05 conf 0.30: Yeni jeopolitik haberler (Kerch Köprüsü saldırısı, Putin'in sert karşılık tehdidi, Orta Doğu'da savaş riskleri) güvenli liman talebini hafifçe destekliyor. Ancak ABD doları ve enflasyon kaynaklı sıkılaşma beklentileri, ayrıca altının 14 aylık en düşük seviyeden açılması gibi negatif trend sinyalleri bu etkiyi dengeliyor; net etki sınırlı ve belirsiz.
 19.11 16:19 N  GPT  score +0.28 conf 0.38: Putin’in Kerç Köprüsü saldırısına daha sert karşılık verme tehdidi ve İran’la ilgili savaş söylemi kısa vadede güvenli liman talebini destekleyebilir; doların erken saatlerde gerilemesi de altına hafif destek sağlar. Ancak dolar ve enflasyon görünümüne ilişkin karşıt sinyaller ile başlıkların sınırl
+19.11 16:31 N  NEWS (8 new) score -0.15 conf 0.40: Altın için karışık tablo var: Ukrayna, Kırım Köprüsü ve Orta Doğu'daki jeopolitik gerilim güvenli liman talebini destekliyor, ancak ABD doları genel olarak güçleniyor (euro yeni dip gördü) ve başlıkta altının 14 ayın en düşük seviyesinden açıldığı belirtiliyor; bu da ağırlıklı olarak kısa vadeli baskıyı işaret ediyor. Jeopolitik haberlerin etkisi sınırlı ve büyük ölçüde fiyatlanmış görünüyor, bu nedenle güven düşük tutuldu.
+19.11 16:31 N  GPT  score -0.25 conf 0.43: Eurodaki yeni dip ve geniş tabanlı dolar gücü altın üzerinde kısa vadede baskı yaratıyor; buna karşılık doların gün içinde gevşediği haberleri ve artan jeopolitik riskler düşüşü sınırlayabilir. Haber akışı çelişkili olduğundan görünüm hafif düşüş yönlü ve güven düşük-orta düzeyde.
+19.11 16:31 B6  seans öncesi görüş: Piyasa güçlü bir açılışa hazırlanıyor ancak hareketin büyük kısmı fiyatlandı; NVDA ise karışık haberlerle göreceli zayıf kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
