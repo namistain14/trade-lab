@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 06:11 (İstanbul)
+> Son güncelleme: 19.11.2026 06:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,105.16 $** (başlangıç 5,000 $, +105.16 $ / %+2.10)
+**Hesap değeri: 5,106.26 $** (başlangıç 5,000 $, +106.26 $ / %+2.13)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +25.99 $ | -91.48 $ |
-| İşlem sayısı | 4 | 140 |
-| Kazanma oranı | %50.0 | %44.3 |
-| Ödenen komisyon/spread | 48.06 $ | 1666.47 $ |
+| Net kâr/zarar | +94.99 $ | -22.48 $ |
+| İşlem sayısı | 5 | 141 |
+| Kazanma oranı | %60.0 | %44.7 |
+| Ödenen komisyon/spread | 60.09 $ | 1678.50 $ |
 
-**Hesap değeri: 4,941.86 $** (başlangıç 5,000 $, -58.14 $ / %-1.16)
-
-Açık pozisyonlar: PAXGUSDT short @ 3702.99 (TP 3691.88 / SL 3710.40)
+**Hesap değeri: 4,977.52 $** (başlangıç 5,000 $, -22.48 $ / %-0.45)
 
 Son haber analizi (19.11 06:05): Claude puan **-0.40**, güven 0.60 — Dolar 19 aylık zirveye yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faizleri ve doları yukarı iterek altın için baskılayıcı. İran savaşı ve Etiyopya-Eritre gerilimi gibi jeopolitik riskler altını destekleyebilir, ancak altın zaten bir yıllık dibe yakın fiyatlanmış ve haberlerin ağırlığı hawkish Fed/güçlü dolar tarafında olduğu için net etki hafif-orta düzeyde negatif.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 06:13 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 05:59 | PAXGUSDT | short | +69.01 $ | take profit |
 | 19.11 05:49 | PAXGUSDT | short | +69.01 $ | take profit |
 | 19.11 04:40 | PAXGUSDT | short | -56.01 $ | stop |
 | 19.11 02:08 | PAXGUSDT | short | -56.02 $ | stop |
-| 18.11 22:08 | PAXGUSDT | short | +69.01 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 05:16 N  NEWS (8 new) score -0.50 conf 0.60: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed'in şahin sinyalleri altın üzerinde baskı yaratıyor; altın 14 aylık dibe yakın işlem görüyor. İran savaşı haberlerindeki tırmanış güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar yukarı yönlü tepki vermedi, bu nedenle baskın etki negatif kalıyor.
 19.11 05:16 N  GPT  score -0.35 conf 0.56: Doların 19-20 ayın zirvelerine yakın seyretmesi ve Fed’e ilişkin şahin beklentiler, kısa vadede altın üzerinde baskı yaratıyor. İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak haberlerin çoğu süregelen gelişmeler ve etkileri çelişkili.
 19.11 05:29 N  NEWS (6 new) score -0.35 conf 0.50: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed'in şahin sinyalleri altın için baskı yaratıyor; altın 14 aylık dibe inmiş durumda. İran savaşı riski güvenli liman talebini destekleyebilir, ancak bu etki büyük ölçüde fiyatlanmış ve dolar gücü daha belirleyici görünüyor. Zayıf istihdam verisine rağmen doların yükselmesi çelişkili bir tablo yarattığı için güven sınırlı.
 19.11 05:29 N  GPT  score -0.35 conf 0.58: Doların 19 ayın zirvesine yakın seyretmesi ve Fed’in enflasyon kaygılarının öne çıkması kısa vadede altını baskılıyor; altındaki son düşüş de bu yönü destekliyor. İran ve Ukrayna kaynaklı gerilimler güvenli liman talebini artırabilir, ancak yeni başlıklar belirgin bir tırmanış göstermiyor.
@@ -112,6 +109,7 @@ Son işlemler:
 19.11 06:05 N  NEWS (4 new) score -0.40 conf 0.60: Dolar 19 aylık zirveye yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faizleri ve doları yukarı iterek altın için baskılayıcı. İran savaşı ve Etiyopya-Eritre gerilimi gibi jeopolitik riskler altını destekleyebilir, ancak altın zaten bir yıllık dibe yakın fiyatlanmış ve haberlerin ağırlığı hawkish Fed/güçlü dolar tarafında olduğu için net etki hafif-orta düzeyde negatif.
 19.11 06:05 N  GPT  score -0.30 conf 0.55: Fed yetkililerinin daha sıkı politika sinyalleri ve 19 ayın zirvesine yakın dolar, kısa vadede altın üzerinde baskı yaratıyor. Körfez’deki savaş ve Etiyopya-Eritre gerilimi güvenli liman talebini destekleyebilir; bu nedenle düşüş beklentisi sınırlı güven taşıyor.
 19.11 06:05 B5  SHORT gold 25000 USD x10 @ 3702.99 (TP 3691.88, SL 3710.40; news -0.35)
+19.11 06:14 B5  CLOSE short take profit: +69.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
