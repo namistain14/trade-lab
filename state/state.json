@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    5000.0
-   ],
-   [
     1794482586,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795069934,
     5062.58
+   ],
+   [
+    1795070114,
+    5061.48
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    4868.5
-   ],
-   [
     1794482586,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795069934,
+    4868.5
+   ],
+   [
+    1795070114,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "18.11 12:02 A  SHORT XRPUSDT 1650 USD @ 0.9997 (1s RSI 69, TP 0.9573, SL 1.021)",
   "18.11 12:08 N  NEWS (11 new) score -0.60 conf 0.60: Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor; bu, reel faiz ve dolar kanal\u0131yla alt\u0131n i\u00e7in net olumsuz. Jeopolitik ba\u015fl\u0131klar\u0131n \u00e7o\u011fu eski veya zaten fiyatlanm\u0131\u015f, g\u00fcvenli liman talebini art\u0131racak yeni bir s\u0131\u00e7rama g\u00f6r\u00fcnm\u00fcyor; FOMC tutanaklar\u0131 \u00f6ncesi belirsizlik ise k\u0131sa vadede dalgalanma yaratabilir.",
   "18.11 12:08 N  GPT  score -0.50 conf 0.72: G\u00fc\u00e7lenen dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; fiyat\u0131n yeni dipleri test etti\u011fine dair haberler bu e\u011filimi destekliyor. ICBM denemesi ve yapt\u0131r\u0131m gerilimi g\u00fcvenli liman talebini art\u0131rabilir, ancak haber ak\u0131\u015f\u0131 s\u0131n\u0131rl\u0131 ve bu etki \u015fu an i\u00e7in dolar bask\u0131s\u0131n\u0131 dengelemiyor",
   "18.11 12:20 N  NEWS (16 new) score -0.60 conf 0.70: ",
@@ -30203,7 +30202,8 @@
   "19.11 09:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBow4djhKXZWgJv48ZqM'}",
   "19.11 09:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBoyA9S2MAdBxn6hwCoj'}",
   "19.11 09:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpCTR7r57HsVNkCS2qs'}",
-  "19.11 09:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpRkqyHC3M22kGZE3U5'}"
+  "19.11 09:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpRkqyHC3M22kGZE3U5'}",
+  "19.11 09:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpf1SvZFp6wGbRdjf21'}"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    4963.78
-   ],
-   [
     1794482586,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795069934,
+    4963.78
+   ],
+   [
+    1795070114,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    4975.18
-   ],
-   [
     1794482586,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795069934,
+    4975.18
+   ],
+   [
+    1795070114,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    4993.28
-   ],
-   [
     1794482586,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795069934,
+    4993.28
+   ],
+   [
+    1795070114,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794482418,
-    4969.22
-   ],
-   [
     1794482586,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795069934,
+    4969.22
+   ],
+   [
+    1795070114,
     4969.22
    ]
   ],
@@ -81836,10 +81836,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794482418,
-    4791.28
-   ],
    [
     1794482586,
     4794.01
@@ -93835,6 +93831,10 @@
    [
     1795069934,
     4807.66
+   ],
+   [
+    1795070114,
+    4807.66
    ]
   ],
   "news_calls": {
@@ -95101,10 +95101,6 @@
    "equity": 115334.94
   },
   "equity_curve": [
-   [
-    1794482418,
-    115251.03
-   ],
    [
     1794482586,
     115251.03
@@ -107100,6 +107096,10 @@
    [
     1795069934,
     115334.94
+   ],
+   [
+    1795070114,
+    115334.94
    ]
   ],
   "open": {},
@@ -107282,10 +107282,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794482418,
-    4876.96
-   ],
    [
     1794482586,
     4876.96
@@ -119280,6 +119276,10 @@
    ],
    [
     1795069934,
+    4876.96
+   ],
+   [
+    1795070114,
     4876.96
    ]
   ],
