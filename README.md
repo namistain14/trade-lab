@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 20:18 (İstanbul)
+> Son güncelleme: 19.11.2026 20:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,109.35 $** (başlangıç 5,000 $, +109.35 $ / %+2.19)
+**Hesap değeri: 5,099.64 $** (başlangıç 5,000 $, +99.64 $ / %+1.99)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +74.93 $ | -42.54 $ |
-| İşlem sayısı | 12 | 148 |
-| Kazanma oranı | %50.0 | %44.6 |
-| Ödenen komisyon/spread | 144.29 $ | 1762.70 $ |
+| Net kâr/zarar | +18.90 $ | -98.57 $ |
+| İşlem sayısı | 13 | 149 |
+| Kazanma oranı | %46.2 | %44.3 |
+| Ödenen komisyon/spread | 156.34 $ | 1774.75 $ |
 
-**Hesap değeri: 4,918.51 $** (başlangıç 5,000 $, -81.49 $ / %-1.63)
-
-Açık pozisyonlar: PAXGUSDT short @ 3666.76 (TP 3655.76 / SL 3674.09)
+**Hesap değeri: 4,901.43 $** (başlangıç 5,000 $, -98.57 $ / %-1.97)
 
 Son haber analizi (19.11 20:13): Claude puan **-0.60**, güven 0.70 — Altın 14 aylık dibe geriledi; güçlü dolar ve Fed'in faiz artırımı beklentileri (enflasyon kaynaklı, Jefferson'un AI kaynaklı enflasyon uyarısı, ipotek faizlerinin yükselişi) altını baskılıyor. Savaş ve jeopolitik haberleri güvenli liman talebini destekleyebilir, ancak bu etki zaten fiyatlanmış görünüyor ve yükselen reel faiz/dolar baskısını dengelemiyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 20:20 | PAXGUSDT | short | -56.03 $ | stop |
 | 19.11 20:04 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 19:36 | PAXGUSDT | short | -57.21 $ | stop (gap) |
 | 19.11 18:18 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 15:16 | PAXGUSDT | short | +69.01 $ | take profit |
-| 19.11 08:07 | PAXGUSDT | short | -56.02 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -82,7 +80,7 @@ Son işlemler:
 | Kazanma oranı | %57.1 | %50.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,190.22 $** (başlangıç 100,000 $, +20190.22 $ / %+20.19)
+**Hesap değeri: 118,181.84 $** (başlangıç 100,000 $, +18181.84 $ / %+18.18)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 148.70 (TP 146.36 / SL 150.08); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
@@ -99,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 19:53 B6  CLOSE long TSLA stop: -420.82 USD
 19.11 19:56 B6  CLOSE short QQQ stop: +624.75 USD
 19.11 20:00 B  NEWS failed: Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}, 'request_id': 'req_011ChCeHmYm4uwyyfKdSY7yq'}
 19.11 20:00 B6  karar turu: Claude «Son bir saatte teknoloji öncülüğünde belirgin bir satış dalgası var; NVDA'daki yönetim krizi Nasdaq üzerinde baskıyı artırıyor.» / GPT «Piyasa genelindeki aşağı kırılma satış yönünü destekliyor; dört kat kaldıraç nedeniyle QQQ ve NVDA işlemlerinin toplam korelasyon riski sınırlanmalı.»
@@ -114,6 +111,7 @@ Son işlemler:
 19.11 20:13 N  GPT  score -0.45 conf 0.65: Güçlü dolar ve Fed’in faiz artırımı beklentileri, altının 3.800 doların altına gerilemesiyle birlikte kısa vadede baskın ve negatif görünüyor. Gazze’deki gelişmeler güvenli liman talebini destekleyebilir; ancak enerji şokunun enflasyon ve faiz beklentilerini beslemesi bu desteği sınırlıyor.
 19.11 20:13 B6  karar turu: Claude «Piyasada öğleden sonra teknoloji ağırlıklı sert bir satış dalgası var ve NVDA'daki yönetim krizi riskten kaçışı besliyor.» / GPT «Piyasa genelinde aşağı yönlü momentum baskın; ancak uzayan düşüş ve 1:4 kaldıraç nedeniyle ilişkili kısa pozisyonlarda toplam risk sınırlı tutulmalı.»
 19.11 20:13 B6  AÇIĞA SATIŞ NVDA 808 adet ≈ 120,061 $ (1:4) @ 148.59 (TP 146.36, SL 150.08; ikisi de hemfikir, güven 0.55)
+19.11 20:21 B5  CLOSE short stop: -56.03 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
