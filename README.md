@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 23:55 (İstanbul)
+> Son güncelleme: 19.11.2026 23:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,104.28 $** (başlangıç 5,000 $, +104.28 $ / %+2.09)
+**Hesap değeri: 5,106.70 $** (başlangıç 5,000 $, +106.70 $ / %+2.13)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +100.86 $ | -16.61 $ |
-| İşlem sayısı | 16 | 152 |
-| Kazanma oranı | %50.0 | %44.7 |
-| Ödenen komisyon/spread | 192.47 $ | 1810.88 $ |
+| Net kâr/zarar | +169.85 $ | +52.38 $ |
+| İşlem sayısı | 17 | 153 |
+| Kazanma oranı | %52.9 | %45.1 |
+| Ödenen komisyon/spread | 204.51 $ | 1822.93 $ |
 
-**Hesap değeri: 5,042.49 $** (başlangıç 5,000 $, +42.49 $ / %+0.85)
-
-Açık pozisyonlar: PAXGUSDT short @ 3666.23 (TP 3655.23 / SL 3673.56)
+**Hesap değeri: 5,052.38 $** (başlangıç 5,000 $, +52.38 $ / %+1.05)
 
 Son haber analizi (19.11 23:50): Claude puan **-0.30**, güven 0.50 — Fed yetkililerinin (Goolsbee: "sıcak enflasyon", FOMC'de tüm seçeneklerin masada olduğu; Barr: enflasyon ek politika sıkılaştırması gerektiriyor) şahin mesajları reel faiz beklentilerini yükselterek altın için baskı yaratıyor. İran savaşıyla ilgili Senato'daki savaş yetkisi oylaması ve Trump'ın Xi/Putin'in savaşın bitmesini istediği yönündeki açıklaması ise jeopolitik korku primini sınırlıyor; bu nedenle güvenli liman talebi destekleyici olsa da ana etki sınırlı kalıyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 23:58 | PAXGUSDT | short | +68.99 $ | take profit |
 | 19.11 22:11 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 21:30 | PAXGUSDT | short | -56.03 $ | stop |
 | 19.11 21:14 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 20:20 | PAXGUSDT | short | -56.03 $ | stop |
-| 19.11 20:04 | PAXGUSDT | short | +69.00 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 23:01 N  GPT  score -0.25 conf 0.58: Senatonun İran savaşı yetkilerini sınırlama girişimini reddetmesi güvenli liman talebini destekleyebilir; ancak haberin tekrarlanması ve etkinin büyük ölçüde fiyatlanmış olma ihtimali bu desteği azaltıyor. Enflasyon endişeleriyle Fed’den daha sıkı politika beklentisi ve güçlü dolar kısa vadede altın
 19.11 23:01 B6  karar turu: Claude «Piyasa gün boyu satıcılı geçti ve kapanışa doğru düşüş hızlandı, ancak seans kapandığı için yeni pozisyon için risk/getiri dengesi zayıf.» / GPT «Kapanışta satış baskısı güçlü olsa da yeni katalizör bulunmaması ve seans sonrası stop uygulama riski yeni işlem açmayı desteklemiyor.»
 19.11 23:04 B6  CLOSE short QQQ take profit: +1753.30 USD
 19.11 23:13 N  NEWS (12 new) score -0.20 conf 0.45: Yeni haberlerin çoğu jeopolitik gürültü: Senato'nun İran savaş yetkisi kararını reddetmesi ve İsrail'in Hizbullah'a saldırısı kısa vadeli güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Fed'in Barr'ın yüksek enflasyon nedeniyle ek politika sıkılaştırması gerekebileceğini belirtmesi ve piyasada faiz artırımı beklentilerinin güçlenmesi altın için baskılayıcı; altın zaten 14 aylık dibe ve güçlü dolara karşı geriliyor. Net etki hafif negatif.
@@ -112,6 +109,7 @@ Son işlemler:
 19.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 19.11 23:50 N  NEWS (10 new) score -0.30 conf 0.50: Fed yetkililerinin (Goolsbee: "sıcak enflasyon", FOMC'de tüm seçeneklerin masada olduğu; Barr: enflasyon ek politika sıkılaştırması gerektiriyor) şahin mesajları reel faiz beklentilerini yükselterek altın için baskı yaratıyor. İran savaşıyla ilgili Senato'daki savaş yetkisi oylaması ve Trump'ın Xi/Putin'in savaşın bitmesini istediği yönündeki açıklaması ise jeopolitik korku primini sınırlıyor; bu nedenle güvenli liman talebi destekleyici olsa da ana etki sınırlı kalıyor.
 19.11 23:50 N  GPT  score +0.15 conf 0.42: Senato’nun İran savaşı yetkilerini sınırlama girişimini reddetmesi çatışmanın sürebileceği algısını ve güvenli liman talebini destekleyebilir. Ancak Goolsbee’nin aşırı ısınma ve enflasyon vurgusu faiz indirimi beklentilerini törpüleyerek altını baskılayabilir; Trump’ın savaşın sona erdirilmesine yön
+19.11 23:58 B5  CLOSE short take profit: +68.99 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
