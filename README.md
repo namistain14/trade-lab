@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 20:00 (İstanbul)
+> Son güncelleme: 19.11.2026 20:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,101.41 $** (başlangıç 5,000 $, +101.41 $ / %+2.03)
+**Hesap değeri: 5,101.85 $** (başlangıç 5,000 $, +101.85 $ / %+2.04)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %45.5 | %44.2 |
 | Ödenen komisyon/spread | 132.25 $ | 1750.66 $ |
 
-**Hesap değeri: 4,885.91 $** (başlangıç 5,000 $, -114.09 $ / %-2.28)
+**Hesap değeri: 4,900.24 $** (başlangıç 5,000 $, -99.76 $ / %-2.00)
 
 Açık pozisyonlar: PAXGUSDT short @ 3680.13 (TP 3669.09 / SL 3687.49)
 
-Son haber analizi (19.11 19:48): Claude puan **-0.60**, güven 0.70 — Yeni gelen başlıklar altın için net olarak baskılayıcı: güçlü dolar ve Fed'de faiz artırımı beklentilerinin yükselmesi altını 14 aylık dibe çekiyor. Jefferson'ın enflasyon uyarısı ve Fed'e yönelik sıkılaştırma yorumları bu baskıyı destekliyor; jeopolitik (İran savaşı, Ukrayna) haberleri ise güvenli liman talebi yaratmadığı için dengeleyici etki göstermiyor. Birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
+Son haber analizi (19.11 20:01): Claude puan **-0.60**, güven 0.70 — Altın 14 aylık dibe geriledi; güçlü dolar ve Fed faiz artırımı beklentileri (Jefferson'ın enflasyon uyarısı, azalan faiz indirimi ihtimali) baskı yaratıyor. Savaş kaynaklı güvenli liman talebi var ancak enerji şoku zaten fiyatlanmış görünüyor ve bu haberler altını destekleyemiyor, bu nedenle kısa vadede negatif eğilim sürebilir.
 
-GPT (gpt-6-luna): puan **-0.62**, güven 0.76 — Güçlü dolar ve Fed’in faiz artıracağına yönelik artan beklentiler, altını kısa vadede baskılıyor; fiyatın 14 ayın dibine gerilemesi de bu etkinin hâlihazırda belirgin olduğunu gösteriyor. İran kaynaklı enerji şoku ve Myanmar kararı güvenli liman talebini destekleyebilir, ancak yeni ve güçlü bir kata
+GPT (gpt-6-luna): puan **-0.55**, güven 0.76 — Güçlenen dolar ve Fed’in faiz artıracağı beklentilerinin altını baskıladığı, fiyatın 14 ayın dibine gerilediği belirtiliyor. Petrol arzındaki artış ve savaş priminin silinmesi enflasyon baskısını azaltarak bu görünümü bir miktar dengeleyebilir; ancak kısa vadede aşağı yönlü baskınlık sürüyor.
 
 Son işlemler:
 
@@ -82,9 +82,9 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,097.09 $** (başlangıç 100,000 $, +17097.09 $ / %+17.10)
+**Hesap değeri: 116,607.95 $** (başlangıç 100,000 $, +16607.95 $ / %+16.61)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 150.31 (TP 148.23 / SL 151.99); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
 Son işlemler:
 
@@ -99,8 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 19:36 N  NEWS (9 new) score -0.30 conf 0.50: Faiz artırımı beklentileri ve güçlenen dolar altını baskılıyor; Fed Başkan Yardımcısı Jefferson'ın enflasyon uyarısı ve "Fed faiz artırmaya hazırlanıyor" temalı haberler bu yönü destekliyor. Riyad'daki PIF kulesine Husi saldırısı gibi jeopolitik gerginlik güvenli liman talebini sınırlı da olsa artırabilir, ancak bu etki şimdiye kadar altın fiyatını yukarı taşımamış görünüyor.
-19.11 19:36 N  GPT  score -0.25 conf 0.45: Jefferson’ın yapay zekâ kaynaklı enflasyonun sürebileceği yönündeki sözleri Fed’in daha sıkı kalacağı beklentisini güçlendirerek altını kısa vadede baskılayabilir; doların güçlenmesi de bu yönde. Ortadoğu’daki saldırı haberleri güvenli liman talebini desteklese de haber akışı çelişkili ve büyük ölçü
 19.11 19:36 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; teknoloji hafif güçlü, SPY ise hafif ekside.» / GPT «Endekslerde yatay seyir hâkim; dört kat kaldıraçla yeni pozisyon açmayı destekleyecek belirgin bir haber veya momentum avantajı görünmüyor.»
 19.11 19:41 B5  SHORT gold 25000 USD x10 @ 3680.13 (TP 3669.09, SL 3687.49; news -0.28)
 19.11 19:48 N  NEWS (10 new) score -0.60 conf 0.70: Yeni gelen başlıklar altın için net olarak baskılayıcı: güçlü dolar ve Fed'de faiz artırımı beklentilerinin yükselmesi altını 14 aylık dibe çekiyor. Jefferson'ın enflasyon uyarısı ve Fed'e yönelik sıkılaştırma yorumları bu baskıyı destekliyor; jeopolitik (İran savaşı, Ukrayna) haberleri ise güvenli liman talebi yaratmadığı için dengeleyici etki göstermiyor. Birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
@@ -114,6 +112,8 @@ Son işlemler:
 19.11 20:00 B6  karar turu: Claude «Son bir saatte teknoloji öncülüğünde belirgin bir satış dalgası var; NVDA'daki yönetim krizi Nasdaq üzerinde baskıyı artırıyor.» / GPT «Piyasa genelindeki aşağı kırılma satış yönünü destekliyor; dört kat kaldıraç nedeniyle QQQ ve NVDA işlemlerinin toplam korelasyon riski sınırlanmalı.»
 19.11 20:00 B6  AÇIĞA SATIŞ QQQ 178 adet ≈ 116,517 $ (1:4) @ 654.59 (TP 644.77, SL 661.14; ikisi de hemfikir, güven 0.45)
 19.11 20:00 B6  AÇIĞA SATIŞ NVDA 778 adet ≈ 117,081 $ (1:4) @ 150.49 (TP 148.23, SL 151.99; ikisi de hemfikir, güven 0.55)
+19.11 20:01 N  NEWS (8 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi; güçlü dolar ve Fed faiz artırımı beklentileri (Jefferson'ın enflasyon uyarısı, azalan faiz indirimi ihtimali) baskı yaratıyor. Savaş kaynaklı güvenli liman talebi var ancak enerji şoku zaten fiyatlanmış görünüyor ve bu haberler altını destekleyemiyor, bu nedenle kısa vadede negatif eğilim sürebilir.
+19.11 20:01 N  GPT  score -0.55 conf 0.76: Güçlenen dolar ve Fed’in faiz artıracağı beklentilerinin altını baskıladığı, fiyatın 14 ayın dibine gerilediği belirtiliyor. Petrol arzındaki artış ve savaş priminin silinmesi enflasyon baskısını azaltarak bu görünümü bir miktar dengeleyebilir; ancak kısa vadede aşağı yönlü baskınlık sürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
