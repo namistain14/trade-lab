@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 15:39 (İstanbul)
+> Son güncelleme: 19.11.2026 15:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,075.16 $** (başlangıç 5,000 $, +75.16 $ / %+1.50)
+**Hesap değeri: 5,075.60 $** (başlangıç 5,000 $, +75.60 $ / %+1.51)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,876.67 $** (başlangıç 5,000 $, -123.33 $ / %-2.47)
 
-Son haber analizi (19.11 15:30): Claude puan **-0.35**, güven 0.50 — Altın 14 aylık en düşük seviyeden açıldı ve Fed'in faiz artırımı beklentisi ile güçlenen dolar (hawkish Fed sinyalleri) fiyatı baskılıyor. Orta Doğu'daki savaş ve Riyadh'a saldırı gibi jeopolitik risklere rağmen altın güvenli liman talebi göstermiyor; bu da piyasanın risk primini düşük tuttuğunu gösteriyor. Öte yandan 'Fed faiz artırımı' başlığıyla birlikte dip alımlarının gelmesi kısa vadede toparlanma ihtimalini artırdığı için güven orta düzeyde tutuldu.
+Son haber analizi (19.11 15:42): Claude puan **-0.25**, güven 0.40 — Altın 14 aylık en düşük seviyeden açıldı ve Fed'in faiz artırımı beklentisi ile güçlenen dolar (hawkish Fed sinyalleri) fiyatı baskılıyor. Orta Doğu'daki savaş ve Riyadh'a saldırı gibi jeopolitik risklere rağmen altın güvenli liman talebi göstermiyor; bu da piyasanın risk primini düşük tuttuğunu gösteriyor. Öte yandan 'Fed faiz artırımı' başlığıyla birlikte dip alımlarının gelmesi kısa vadede toparlanma ihtimalini artırdığı için güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **+0.10**, güven 0.40 — Riyad’daki füze hasarı ve İran savaşıyla ilgili haberler kısa vadede güvenli liman talebini artırabilir; doların gevşemesi de altına sınırlı destek sağlıyor. Ancak 14 ayın en düşük seviyeleri ve şahin Fed beklentisi aşağı yönlü baskıyı koruduğundan net etki zayıf ve belirsiz.
+GPT (gpt-6-luna): puan **+0.10**, güven 0.32 — Doların veri açıklamaları öncesinde gerilemesi altına kısa vadeli destek sağlayabilir. Ancak kalıcı enflasyon ve şahin Fed beklentileri bu desteği sınırlarken, Ukrayna ve nükleer gündemindeki haberler belirgin biçimde tek yönlü değil.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 14:17 N  GPT  score +0.22 conf 0.38: Riyad’daki füze hasarı, Gazze’deki operasyon ve İran’a yeni saldırı ihtimali kısa vadeli güvenli liman talebini destekleyebilir. Ancak daha hızlı Fed faiz artırımı beklentisi altın için olumsuz; dolar rallisinin durması ve diplomatik görüşme haberleri de etkileri dengeliyor.
-19.11 14:30 N  NEWS (8 new) score -0.15 conf 0.35: Haberler karışık: İran savaşı ve Riyad'daki füze saldırıları jeopolitik risk prim desteği sağlıyor, ancak ABD-Çin-Rusya zirvesi ve "nükleer savaş kazanılamaz" bildirgesi gerilimi azaltıcı yönde. Fed'in daha hızlı faiz artırma beklentisi ve dolardaki güç altın için baskı oluşturuyor; bu nedenle kısa vadede hafif negatif bir görünüm, düşük güvenle.
 19.11 14:30 N  GPT  score -0.15 conf 0.31: ABD, Çin ve Rusya’nın nükleer savaşı önlemeye dönük bildirisi risk iştahını destekleyip güvenli liman talebini sınırlayabilir; ancak İran çevresindeki çatışma haberleri bu etkiyi dengeliyor. Daha hızlı Fed faiz artışı beklentileri de altın için baskı unsuru, fakat kısa vadeli yön sinyalleri çelişkil
 19.11 14:42 N  NEWS (13 new) score -0.50 conf 0.60: Altın için baskı ağırlıklı olarak düşüş yönünde: "Gold loses its shine" başlığında fiyatların 14 aylık dibe indiği, Fed'in hawkish sinyalleri ve faiz artırımı beklentilerinin güçlenmesi ile dolar desteğinin altını baskıladığı görülüyor. ABD, Çin ve Rusya'nın nükleer savaşın kazanılamayacağına dair ortak açıklaması ise jeopolitik risk primini azaltıyor; Orta Doğu'daki çatışmalara rağmen güvenli liman talebi zayıf kalıyor. Yine de İran-Hürmüz gerilimi ve füze saldırıları gibi risklerin sürmesi, düşüşün sınırlı kalabileceği anlamına geliyor, bu nedenle güven orta düzeyde.
 19.11 14:42 N  GPT  score -0.40 conf 0.62: Şahin Fed beklentileri ve güçlü dolar altın üzerinde baskı kurarken, fiyatların sert düşüşü bu yönü destekliyor. Hürmüz’deki saldırılar ve bölgesel gerilim güvenli liman talebini artırabilir; bu nedenle aşağı yönlü etki sınırlı ve belirsiz.
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 15:18 N  GPT  score +0.25 conf 0.52: Riyad’daki füze hasarı ve Husilerin saldırıları kısa vadede güvenli liman talebini artırabilir. Ancak Fed’in daha hızlı faiz artırabileceği beklentisi altını baskılıyor; haber akışı bu nedenle karışık ve etki sınırlı görünüyor.
 19.11 15:30 N  NEWS (4 new) score -0.35 conf 0.50: Altın 14 aylık en düşük seviyeden açıldı ve Fed'in faiz artırımı beklentisi ile güçlenen dolar (hawkish Fed sinyalleri) fiyatı baskılıyor. Orta Doğu'daki savaş ve Riyadh'a saldırı gibi jeopolitik risklere rağmen altın güvenli liman talebi göstermiyor; bu da piyasanın risk primini düşük tuttuğunu gösteriyor. Öte yandan 'Fed faiz artırımı' başlığıyla birlikte dip alımlarının gelmesi kısa vadede toparlanma ihtimalini artırdığı için güven orta düzeyde tutuldu.
 19.11 15:30 N  GPT  score +0.10 conf 0.40: Riyad’daki füze hasarı ve İran savaşıyla ilgili haberler kısa vadede güvenli liman talebini artırabilir; doların gevşemesi de altına sınırlı destek sağlıyor. Ancak 14 ayın en düşük seviyeleri ve şahin Fed beklentisi aşağı yönlü baskıyı koruduğundan net etki zayıf ve belirsiz.
+19.11 15:42 N  NEWS (11 new) score -0.25 conf 0.40: 
+19.11 15:42 N  GPT  score +0.10 conf 0.32: Doların veri açıklamaları öncesinde gerilemesi altına kısa vadeli destek sağlayabilir. Ancak kalıcı enflasyon ve şahin Fed beklentileri bu desteği sınırlarken, Ukrayna ve nükleer gündemindeki haberler belirgin biçimde tek yönlü değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
