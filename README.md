@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 19:53 (İstanbul)
+> Son güncelleme: 19.11.2026 19:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,104.94 $** (başlangıç 5,000 $, +104.94 $ / %+2.10)
+**Hesap değeri: 5,099.64 $** (başlangıç 5,000 $, +99.64 $ / %+1.99)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %45.5 | %44.2 |
 | Ödenen komisyon/spread | 132.25 $ | 1750.66 $ |
 
-**Hesap değeri: 4,886.59 $** (başlangıç 5,000 $, -113.41 $ / %-2.27)
+**Hesap değeri: 4,867.16 $** (başlangıç 5,000 $, -132.84 $ / %-2.66)
 
 Açık pozisyonlar: PAXGUSDT short @ 3680.13 (TP 3669.09 / SL 3687.49)
 
@@ -77,29 +77,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +702.26 $ | +13637.97 $ |
-| İşlem sayısı | 5 | 63 |
-| Kazanma oranı | %40.0 | %49.2 |
+| Net kâr/zarar | +1327.01 $ | +14262.72 $ |
+| İşlem sayısı | 6 | 64 |
+| Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 117,352.41 $** (başlangıç 100,000 $, +17352.41 $ / %+17.35)
+**Hesap değeri: 116,907.91 $** (başlangıç 100,000 $, +16907.91 $ / %+16.91)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 19:56 | QQQ | short | +624.75 $ | stop |
 | 19.11 19:53 | TSLA | long | -420.82 $ | stop |
 | 19.11 19:53 | NVDA | short | +1765.59 $ | take profit |
 | 19.11 19:01 | NVDA | short | -1193.40 $ | stop |
 | 19.11 18:37 | NVDA | short | +1726.96 $ | take profit |
-| 19.11 18:06 | NVDA | short | -1176.07 $ | stop |
 
 ## Son olaylar
 
 ```
-19.11 19:11 B6  AÇIĞA SATIŞ NVDA 748 adet ≈ 114,429 $ (1:4) @ 152.98 (TP 150.69, SL 154.51; ikisi de hemfikir, güven 0.55)
 19.11 19:24 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: güçlü dolar ve Fed faiz artırımı beklentileri altın satışını besliyor, altın 14 aylık dibe yakın işlem görüyor. Körfez'deki gerilim ve İran savaşı riski güvenli liman talebi yaratabilir, ancak bu etki sınırlı kalıyor ve haber akışı zaten bilinen bir gerilimi tekrarlıyor; bu nedenle güven orta düzeyde tutuldu.
 19.11 19:24 N  GPT  score -0.35 conf 0.61: Altın için en doğrudan güncel sinyal, güçlü dolar ve Fed faiz artışı beklentilerinin satışları artırdığı yönünde; bu, kısa vadede baskının sürebileceğini düşündürüyor. Orta Doğu gerilimi güvenli liman talebini destekleyebilir ancak haberler karışık ve bu etki faiz beklentileriyle sınırlanabilir.
 19.11 19:24 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; teknoloji hafif pozitif, SPY ise hafif negatif seyrediyor.» / GPT «Endeksler yatay ve dalgalı seyrederken, 1:4 kaldıraç nedeniyle şirket haberleriyle desteklenen işlemlerde dahi küçük pozisyon ve sıkı risk disiplini gerekli.»
@@ -114,6 +113,7 @@ Son işlemler:
 19.11 19:48 B6  ALIŞ TSLA 106 adet ≈ 40,489 $ (1:4) @ 381.97 (TP 387.7, SL 378.15; ikisi de hemfikir, güven 0.55)
 19.11 19:53 B6  CLOSE short NVDA take profit: +1765.59 USD
 19.11 19:53 B6  CLOSE long TSLA stop: -420.82 USD
+19.11 19:56 B6  CLOSE short QQQ stop: +624.75 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
