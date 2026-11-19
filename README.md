@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 06:30 (İstanbul)
+> Son güncelleme: 19.11.2026 06:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,094.57 $** (başlangıç 5,000 $, +94.57 $ / %+1.89)
+**Hesap değeri: 5,090.60 $** (başlangıç 5,000 $, +90.60 $ / %+1.81)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.4 |
 | Ödenen komisyon/spread | 72.12 $ | 1690.53 $ |
 
-**Hesap değeri: 4,921.50 $** (başlangıç 5,000 $, -78.50 $ / %-1.57)
+**Hesap değeri: 4,915.48 $** (başlangıç 5,000 $, -84.52 $ / %-1.69)
+
+Açık pozisyonlar: PAXGUSDT short @ 3707.92 (TP 3696.79 / SL 3715.33)
 
 Son haber analizi (19.11 06:30): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
 
@@ -95,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 05:50 B5  CLOSE short take profit: +69.01 USD
 19.11 05:53 N  NEWS (6 new) score -0.60 conf 0.60: Altın bir yılın en düşük seviyesine yakın işlem görüyor; Fed yetkililerinin daha fazla sıkılaşma sinyali vermesi ve dolar endeksinin 19-20 aylık zirvesine yakın seyretmesi kısa vadede baskılayıcı. İran savaşı ve Doğu Afrika'daki çatışmalar güvenli liman talebini destekleyebilir, ancak bu etki mevcut sıkı para politikası ve güçlü doların gerisinde kalıyor.
 19.11 05:53 N  GPT  score -0.35 conf 0.56: Fed yetkililerinin daha fazla sıkılaşma sinyali ve doların 19 ayın zirvesine yakın seyretmesi, kısa vadede altın üzerinde baskı yaratıyor. İran ve Etiyopya-Eritre gerilimi güvenli liman talebini destekleyebilir; ayrıca altının sert düşüşüne dair haberler kısmen geriye dönük olduğundan etki belirsiz.
 19.11 05:56 B5  SHORT gold 25000 USD x10 @ 3713.75 (TP 3702.61, SL 3721.17; news -0.47)
@@ -110,6 +111,7 @@ Son işlemler:
 19.11 06:26 B5  CLOSE short stop: -56.02 USD
 19.11 06:30 N  NEWS (5 new) score -0.50 conf 0.60: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
 19.11 06:30 N  GPT  score -0.55 conf 0.64: Fed Başkanı Warsh’ın %2 enflasyon hedefini vurgulaması ve doların sıkılaşma beklentileriyle 19 ayın zirvesine yakın seyretmesi, kısa vadede altın üzerinde baskı yaratıyor. Körfez gerilimi güvenli liman talebini destekleyebilir; ancak petrol ve savaş haberlerinin etkisi karışık, bu nedenle düşüş bekl
+19.11 06:32 B5  SHORT gold 25000 USD x10 @ 3707.92 (TP 3696.79, SL 3715.33; news -0.53)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
