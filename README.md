@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 22:09 (İstanbul)
+> Son güncelleme: 19.11.2026 22:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,086.41 $** (başlangıç 5,000 $, +86.41 $ / %+1.73)
+**Hesap değeri: 5,086.19 $** (başlangıç 5,000 $, +86.19 $ / %+1.72)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +31.86 $ | -85.61 $ |
-| İşlem sayısı | 15 | 151 |
-| Kazanma oranı | %46.7 | %44.4 |
-| Ödenen komisyon/spread | 180.42 $ | 1798.84 $ |
+| Net kâr/zarar | +100.86 $ | -16.61 $ |
+| İşlem sayısı | 16 | 152 |
+| Kazanma oranı | %50.0 | %44.7 |
+| Ödenen komisyon/spread | 192.47 $ | 1810.88 $ |
 
-**Hesap değeri: 4,974.52 $** (başlangıç 5,000 $, -25.48 $ / %-0.51)
-
-Açık pozisyonlar: PAXGUSDT short @ 3677.52 (TP 3666.49 / SL 3684.88)
+**Hesap değeri: 4,983.39 $** (başlangıç 5,000 $, -16.61 $ / %-0.33)
 
 Son haber analizi (19.11 22:03): Claude puan **-0.50**, güven 0.60 — Haberlerin çoğu altın için baskılayıcı: Fed'in şahin duruşu ve Aralık ayında faiz artırımı ihtimali, sıcak enflasyon verisi ve güçlü dolar altını aşağı çekiyor; altın yıllık dip seviyelerini test ediyor. İran savaşı ve İsrail-Hizbullah çatışmaları güvenli liman talebi yaratabilir, ancak petrol fiyatlarının düşmesi ve bu jeopolitik gelişmelerin piyasada zaten fiyatlanmış olması bu etkiyi sınırlıyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 22:11 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 21:30 | PAXGUSDT | short | -56.03 $ | stop |
 | 19.11 21:14 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 20:20 | PAXGUSDT | short | -56.03 $ | stop |
 | 19.11 20:04 | PAXGUSDT | short | +69.00 $ | take profit |
-| 19.11 19:36 | PAXGUSDT | short | -57.21 $ | stop (gap) |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -82,7 +80,7 @@ Son işlemler:
 | Kazanma oranı | %55.6 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,807.29 $** (başlangıç 100,000 $, +19807.29 $ / %+19.81)
+**Hesap değeri: 119,874.66 $** (başlangıç 100,000 $, +19874.66 $ / %+19.87)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
@@ -99,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 21:26 N  GPT  score -0.55 conf 0.68: Güçlü dolar ve şahin Fed beklentileri, altındaki devam eden satışlarla birlikte kısa vadede baskın ve aşağı yönlü görünüyor. Suudi Arabistan’daki saldırı güvenli liman talebini artırabilir; ancak barış deklarasyonu ve çelişkili jeopolitik haberler bu desteği sınırlıyor.
 19.11 21:26 B6  karar turu: Claude «NVIDIA CEO istifası ve not indirimleri teknoloji ağırlıklı piyasada risk iştahını bastırıyor; gün sonuna doğru zayıflığın sürmesi muhtemel.» / GPT «Piyasa genelinde satış baskısı sürüyor ancak diplerden gelen tepki nedeniyle 4 kat kaldıraçta toplam riski sınırlamak gerekiyor.»
 19.11 21:31 B5  CLOSE short stop: -56.03 USD
 19.11 21:38 N  NEWS (10 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (Aralık'ta olası Fed hamlesi), güçlü dolar (19 aylık zirve) ve gösterilen mortgage faiz artışları altın için baskılayıcı. Gold yıllık dipleri test ediyor; İran savaşı ve Netanyahu'nun savaşın kaçınılmaz olduğu yönündeki haberleri güvenli liman talebi yaratabilir ancak bu etki şimdiye kadar satış baskısını dengelemedi.
@@ -114,6 +111,7 @@ Son işlemler:
 19.11 22:03 B6  karar turu: Claude «Piyasa NVDA kaynaklı zayıflıkla günü ekside geçiriyor; kapanışa doğru baskı sürebilir, ancak taze olumlu haberi olan TSLA ayrışabilir.» / GPT «Endekslerde zayıflık sürerken kapanışa yalnızca 57 dakika kalması ve 1:4 kaldıraç, haber odaklı işlemlerde bile sıkı risk disiplini gerektiriyor.»
 19.11 22:03 B6  ALIŞ TSLA 155 adet ≈ 58,475 $ (1:4) @ 377.26 (TP 382.92, SL 373.49; ikisi de hemfikir, güven 0.55)
 19.11 22:09 B6  CLOSE short NVDA take profit: +1780.94 USD
+19.11 22:12 B5  CLOSE short take profit: +69.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
