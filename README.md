@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 23:34 (İstanbul)
+> Son güncelleme: 19.11.2026 23:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,111.78 $** (başlangıç 5,000 $, +111.78 $ / %+2.24)
+**Hesap değeri: 5,106.48 $** (başlangıç 5,000 $, +106.48 $ / %+2.13)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.7 |
 | Ödenen komisyon/spread | 192.47 $ | 1810.88 $ |
 
-**Hesap değeri: 5,007.03 $** (başlangıç 5,000 $, +7.03 $ / %+0.14)
+**Hesap değeri: 5,001.50 $** (başlangıç 5,000 $, +1.50 $ / %+0.03)
 
 Açık pozisyonlar: PAXGUSDT short @ 3666.23 (TP 3655.23 / SL 3673.56)
 
-Son haber analizi (19.11 23:26): Claude puan **-0.05**, güven 0.30 — Yeni haberlerin çoğu Senato'nun İran savaş yetkisi oylamasının reddedilmesi gibi büyük ölçüde fiyatlanmış gelişmeler; savaşın sürmesi sınırlı bir güvenli liman desteği sağlasa da etkisi zayıf. Fed'in faiz yolu konusunda temkinli tutum ve Barr'ın yüksek enflasyon nedeniyle ek politika ayarına işaret etmesi ise hafif baskılayıcı (şahin) sinyal veriyor; genel tablo nötre yakın, hafif negatif.
+Son haber analizi (19.11 23:38): Claude puan **-0.15**, güven 0.30 — Yeni haberlerin çoğu aynı Senato oylamasının tekrarı ve büyük ölçüde fiyatlanmış; İran savaşının sürmesi sınırlı bir güvenli liman desteği sağlıyor. Fed'in Barr'ın enflasyon nedeniyle ek politika sıkılaşmasına ihtiyaç olduğunu söylemesi ise altın için kısa vadede baskı yaratabilecek bir şahin sinyal.
 
-GPT (gpt-6-luna): puan **+0.28**, güven 0.42 — Senato’nun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi ve güvenli liman talebinin artması ihtimalini destekleyerek altın için hafif olumlu. Ancak bu haberin tekrarlanmış olması ve Fed’den gelen enflasyon/politika ayarlaması sinyallerinin faizleri destekleyebilmesi yükseliş etkis
+GPT (gpt-6-luna): puan **+0.18**, güven 0.48 — Senatonun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi riskini ve güvenli liman talebini sınırlı ölçüde destekliyor. Barr’ın enflasyon nedeniyle ek politika ayarlaması gerektiği mesajı altın için baskı oluşturabilir; haberlerin çoğu mevcut gelişmelerin tekrarı olduğundan net etki
 
 Son işlemler:
 
@@ -82,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %60.0 | %51.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,239.93 $** (başlangıç 100,000 $, +20239.93 $ / %+20.24)
+**Hesap değeri: 120,327.87 $** (başlangıç 100,000 $, +20327.87 $ / %+20.33)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
@@ -99,8 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 22:37 N  GPT  score -0.40 conf 0.66: Fed’in daha sıkı kalacağı beklentisi ve doların 19 ayın zirvesinde olması, kısa vadede altın üzerinde baskın görünüyor. Riyad’a yönelik saldırı ve İran savaşı güvenli liman talebini desteklese de son sert düşüş bu desteğin şimdilik sınırlı kaldığını gösteriyor.
-19.11 22:37 B6  karar turu: Claude «Piyasa günü yaklaşık %1,3 düşüşle geçirdi ve kapanışa doğru hafif tepki alımı görülüyor; ancak kalan süre kısa olduğundan yeni pozisyonlarda seçici olmak gerekiyor.» / GPT «Endekslerdeki toparlanmaya rağmen görünüm kırılgan; normal seansın kapanmasına 23 dakika kaldığından 1–3 saatlik tutuş seans dışına taşarak likidite ve stop emrinin gerçekleşme riskini artırır.»
 19.11 22:37 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"68557.17","code":40310000,"cost_basis":"80378.49","message":"insufficient buying power"}
 19.11 22:49 N  NEWS (8 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi; güçlü dolar, Fed faiz artırımı beklentileri ve JPMorgan'ın ardışık üç toplantıda faiz artırımı öngörüsü reel faiz tarafında baskı yaratıyor. İran savaşı ve Ukrayna gerilimi güvenli liman talebini destekliyor olsa da bu etki mevcut hawkish fiyatlamanın gerisinde kalıyor; bu nedenle 1-4 saatlik görünümde negatif eğilim baskın.
 19.11 22:49 N  GPT  score -0.58 conf 0.68: Fed’in önümüzdeki üç toplantıda faiz artırabileceği beklentisi ve güçlü dolar, kısa vadede altın üzerinde belirgin baskı yaratıyor; fiyatın 14 ayın dibine gerilemesi de bu görünümle uyumlu. Kyiv’deki saldırılar güvenli liman talebini destekleyebilir, ancak şu an faiz ve dolar etkisi daha ağır basıyo
@@ -114,6 +112,8 @@ Son işlemler:
 19.11 23:13 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla günü yaklaşık %2 düşüşle kapattı, ancak seans kapandığı için yeni pozisyon açmak yerine yarın açılışı beklemek daha disiplinli.» / GPT «Normal seans 16:00'da kapandı; görünüm aşağı yönlü olsa da önümüzdeki 1–3 saatte seans sonrası likidite ve bracket emirlerinin çalışması doğrulanmadan 1:4 kaldıraçla yeni risk almam.»
 19.11 23:26 N  NEWS (19 new) score -0.05 conf 0.30: Yeni haberlerin çoğu Senato'nun İran savaş yetkisi oylamasının reddedilmesi gibi büyük ölçüde fiyatlanmış gelişmeler; savaşın sürmesi sınırlı bir güvenli liman desteği sağlasa da etkisi zayıf. Fed'in faiz yolu konusunda temkinli tutum ve Barr'ın yüksek enflasyon nedeniyle ek politika ayarına işaret etmesi ise hafif baskılayıcı (şahin) sinyal veriyor; genel tablo nötre yakın, hafif negatif.
 19.11 23:26 N  GPT  score +0.28 conf 0.42: Senato’nun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi ve güvenli liman talebinin artması ihtimalini destekleyerek altın için hafif olumlu. Ancak bu haberin tekrarlanmış olması ve Fed’den gelen enflasyon/politika ayarlaması sinyallerinin faizleri destekleyebilmesi yükseliş etkis
+19.11 23:38 N  NEWS (15 new) score -0.15 conf 0.30: Yeni haberlerin çoğu aynı Senato oylamasının tekrarı ve büyük ölçüde fiyatlanmış; İran savaşının sürmesi sınırlı bir güvenli liman desteği sağlıyor. Fed'in Barr'ın enflasyon nedeniyle ek politika sıkılaşmasına ihtiyaç olduğunu söylemesi ise altın için kısa vadede baskı yaratabilecek bir şahin sinyal.
+19.11 23:38 N  GPT  score +0.18 conf 0.48: Senatonun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi riskini ve güvenli liman talebini sınırlı ölçüde destekliyor. Barr’ın enflasyon nedeniyle ek politika ayarlaması gerektiği mesajı altın için baskı oluşturabilir; haberlerin çoğu mevcut gelişmelerin tekrarı olduğundan net etki
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
