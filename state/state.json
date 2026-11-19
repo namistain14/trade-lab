@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    5000.0
-   ],
-   [
     1794527875,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795115527,
     5086.19
+   ],
+   [
+    1795115739,
+    5087.29
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    4868.5
-   ],
-   [
     1794527875,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795115527,
     4868.5
+   ],
+   [
+    1795115739,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.5,
    "confidence": 0.6,
-   "reason": "Haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: Fed'in \u015fahin duru\u015fu ve Aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 ihtimali, s\u0131cak enflasyon verisi ve g\u00fc\u00e7l\u00fc dolar alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor. \u0130ran sava\u015f\u0131 ve \u0130srail-Hizbullah \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebi yaratabilir, ancak petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi ve bu jeopolitik geli\u015fmelerin piyasada zaten fiyatlanm\u0131\u015f olmas\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor.",
+   "reason": "Dolar 19 ayl\u0131k zirvede, Fed'e y\u00f6nelik \u015fahin beklentiler ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; FXEmpire ba\u015fl\u0131\u011f\u0131 da alt\u0131n\u0131n y\u0131ll\u0131k dipleri test etti\u011fini g\u00f6steriyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna, Orta Do\u011fu) g\u00fcvenli liman talebini destekleyebilir, ancak piyasada bu etki \u015fimdilik g\u00f6r\u00fclm\u00fcyor ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azaltarak da s\u0131n\u0131rl\u0131 bir etki yarat\u0131yor.",
    "n": 45,
-   "ts": 1795114998310,
-   "new_headlines": 7,
+   "ts": 1795115720818,
+   "new_headlines": 11,
    "key_events": [
     "Fed'de \u015fahin duru\u015f ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimalinin y\u00fckselmesi",
     "S\u0131cak enflasyon verisi ve g\u00fc\u00e7l\u00fc dolar (Thackray: dolar 'y\u0131k\u0131c\u0131 top')",
     "Alt\u0131n y\u0131ll\u0131k dipleri test ediyor; \u0130ran sava\u015f\u0131/\u0130srail-Hizbullah \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor"
    ],
    "gpt": {
-    "score": 0.12,
-    "confidence": 0.34,
-    "reason": "\u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n geni\u015flemesi ve Suudi Arabistan\u2019daki sald\u0131r\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u015fahin Fed beklentileri, g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 ve alt\u0131ndaki s\u00fcregelen sat\u0131\u015f bu etkiyi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 da \u00e7eli\u015fkili.",
+    "score": -0.35,
+    "confidence": 0.52,
+    "reason": "Dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131 ve Fed\u2019in s\u0131k\u0131 duru\u015fu alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f de enflasyon ve faiz kayg\u0131lar\u0131n\u0131 hafifletebilir. \u0130ran kaynakl\u0131 \u00e7at\u0131\u015fma riski g\u00fcvenli liman talebini desteklese de bu kar\u015f\u0131t etki k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm\u00fc belirsizle\u015ftiriyor.",
     "key_events": [
-     "\u0130ran ve b\u00f6lgedeki \u00e7at\u0131\u015fmalar\u0131n t\u0131rmanma riski",
-     "Fed\u2019in enflasyon kayg\u0131lar\u0131 ve olas\u0131 faiz art\u0131\u015f\u0131",
-     "Alt\u0131n\u0131n y\u0131ll\u0131k dipleri test etmesi"
+     "Dolar 19 ay\u0131n zirvesinde",
+     "\u0130ran \u00e7at\u0131\u015fmas\u0131 ve yeni t\u0131rmanma riski",
+     "Alt\u0131n y\u0131ll\u0131k dipleri test ediyor"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794575002154,
-    "score": -0.45,
-    "confidence": 0.55,
-    "reason": "Dolar 103 seviyesinin \u00fczerinde, ABD 10 y\u0131ll\u0131k tahvil faizi %5,125'e y\u00fckseldi ve enflasyon verileri (PPI) ile Fed konu\u015fmalar\u0131 \u00f6ncesinde s\u0131k\u0131la\u015fma beklentisi g\u00fc\u00e7leniyor; bu ortam alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Alt\u0131n\u0131n son 5 g\u00fcnde %4'ten fazla d\u00fc\u015fmesi ve \u0130ran sava\u015f\u0131n\u0131n ertelenmi\u015f g\u00f6r\u00fcnmesi de jeopolitik g\u00fcvenli liman talebini zay\u0131flat\u0131yor; ancak PPI s\u00fcrprizi ve Fed s\u00f6ylemi k\u0131sa vadede y\u00f6n de\u011fi\u015ftirebilece\u011finden g\u00fcven orta d\u00fczeyde.",
-    "new": 6,
-    "gpt_score": -0.55,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1794575722466,
     "score": -0.4,
@@ -29849,14 +29840,32 @@
     "new": 7,
     "gpt_score": 0.12,
     "gpt_confidence": 0.34
+   },
+   {
+    "ts": 1795115720818,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Dolar 19 ayl\u0131k zirvede, Fed'e y\u00f6nelik \u015fahin beklentiler ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; FXEmpire ba\u015fl\u0131\u011f\u0131 da alt\u0131n\u0131n y\u0131ll\u0131k dipleri test etti\u011fini g\u00f6steriyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna, Orta Do\u011fu) g\u00fcvenli liman talebini destekleyebilir, ancak piyasada bu etki \u015fimdilik g\u00f6r\u00fclm\u00fcyor ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azaltarak da s\u0131n\u0131rl\u0131 bir etki yarat\u0131yor.",
+    "new": 11,
+    "gpt_score": -0.35,
+    "gpt_confidence": 0.52
    }
   ],
   "news_calls": {
    "date": "2026-11-19",
-   "n": 76
+   "n": 77
   },
   "news_seen": [
+   "Oil Continues Downward Plummet As Iran War Reshapes World Energy Market For The Better - Ship & Bunker",
+   "Cost of War Update: Gold Star husband briefed on wife's death - CBS News",
+   "Trump tells European leaders that Putin wants to end the war in Ukraine, but Putin says Moscow won\u2019t negotiate with Kyiv after Crimean Bridge strikes - Meduza",
+   "Iran war could leave consumers facing years of uncertainty over energy costs - NBC 15 WPMI",
+   "WATCH: \u201cThe war is never over.\u201d Stars of ELSINORE Andrew Scott and Billie Piper Talk HIV, Allyship, and Ethel Merman Disco - GLAAD",
+   "Navy comptroller nominee says Iran war has cost $48.3 billion - Washington Examiner",
    "7 million pages of military records from the War of 1812 are finally online - Popular Science",
+   "This Founder Returned To Liberia After Fleeing The Civil War To Start A Grassroots Healthcare Movement - Forbes",
+   "Bomb squad investigates suspicious 'missile-type' device in Lehigh Twp. - Tioga Publishing",
+   "US Dollar Hits 19-Month High as Vietnam's Central Rate Rises to 25,656 Dong - BigGo Finance",
    "Battleship North Carolina Launches \"Fallen Heroes\" to Honor the World War II \u201cImmortal 11,000\u201d from Greene and Lenoir Counties - Neuse News",
    "\u2018Missile-type device\u2019 prompts lockdowns at Lehigh Township school, church - LehighValleyLive.com",
    "The U.S. dollar is a wrecking ball: Brooke Thackray - BNN Bloomberg",
@@ -29880,34 +29889,21 @@
    "Home From the Vietnam War - Film Threat",
    "Kushner says Russia is \u2018comfortable\u2019 with NATO-like security guarantees for Ukraine to end war - AP News",
    "Polish Heritage Center to host virtual World War II program in December - SouthTexasNews.com",
+   "Historian to lead Civil War exhibit tour at PoCo Muse in Valparaiso - nwitimes.com",
    "Jefferson: inflation must return to 2% before Fed changes target - American Banker",
    "Canadian Dollar strengthens as Oil rebounds, hawkish Fed limits gains - FXStreet",
    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
    "Goolsbee: Fed independence key to curbing inflation - Breakingthenews.net",
    "Bomb squad called to Northampton County after man finds \u2018missile-type\u2019 device, police say - The Morning Call",
-   "More voters blame Trump\u2019s tariffs for raising cost of living than Iran war: poll - New York Post",
    "Mortgage Rates Climb as Hotter Inflation Raises Odds of a December Fed Hike - Norada Real Estate Investments",
-   "Trump spoke of Ukraine and a peaceful end to the war during trilateral talks with Xi and Putin in China, Witkoff says - Oskaloosa Herald",
+   "Trump spoke of Ukraine and a peaceful end to the war during trilateral talks with Xi and Putin in China, Witkoff says - Dayton Daily News",
    "Jon Jones & Josh Hokit continue war of words, GTA 6 review, UFC Qatar preview | The Boys in the Back | November 19, 2026 - Yahoo Sports",
    "Iran missile strike on Tel Aviv exposes financial and bureaucratic hurdles to rebuilding - CTech",
-   "The average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide - ABC News - Breaking News, Latest News and Videos",
    "Australian Dollar tumbles to fresh yearly low as jobs shock fuels RBA policy rethink - FXStreet",
-   "Mexican Peso Hits 17-Month Low as Fed Outlook Rattles Markets - Bloomberg.com",
-   "Fed\u2019s Jefferson Says AI Buildout Exerting Upward Pressure On Inflation - TradingView",
-   "Trump, Putin and Xi release 'peace declaration' after historic meeting - BBC",
-   "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-   "US Treasury sanctions three people linked to Southeast Asia scam centers - Reuters",
-   "Rohingya genocide: What was said in court and what happens now?",
-   "What impact will the Shenzhen summit have on the US-China trade war? - France 24",
-   "Mortgage rates rise after four weeks of declines - Mortgage Professional America",
-   "Gold, Copper or Uranium? Why Seabridge Gold Inc. Is Back in the TSX Spotlight - kalkine.ca"
+   "Mexican Peso Hits 17-Month Low as Fed Outlook Rattles Markets - Bloomberg.com"
   ]
  },
  "log": [
-  "19.11 06:32 B5  SHORT gold 25000 USD x10 @ 3707.92 (TP 3696.79, SL 3715.33; news -0.53)",
-  "19.11 06:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbSStFgCQxoL8aYM22J'}",
-  "19.11 06:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbfisnk1ZA9eK4j3reH'}",
-  "19.11 06:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbtyUjN1CqzsptDYkJf'}",
   "19.11 06:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBc8Hqu2sbX3nimqQcXq'}",
   "19.11 06:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBcMXt7YEkWwRfnP31JS'}",
   "19.11 06:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBcamrr1tYUPoTe8DapC'}",
@@ -30203,7 +30199,11 @@
   "19.11 22:03 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 zay\u0131fl\u0131kla g\u00fcn\u00fc ekside ge\u00e7iriyor; kapan\u0131\u015fa do\u011fru bask\u0131 s\u00fcrebilir, ancak taze olumlu haberi olan TSLA ayr\u0131\u015fabilir.\u00bb / GPT \u00abEndekslerde zay\u0131fl\u0131k s\u00fcrerken kapan\u0131\u015fa yaln\u0131zca 57 dakika kalmas\u0131 ve 1:4 kald\u0131ra\u00e7, haber odakl\u0131 i\u015flemlerde bile s\u0131k\u0131 risk disiplini gerektiriyor.\u00bb",
   "19.11 22:03 B6  ALI\u015e TSLA 155 adet \u2248 58,475 $ (1:4) @ 377.26 (TP 382.92, SL 373.49; ikisi de hemfikir, g\u00fcven 0.55)",
   "19.11 22:09 B6  CLOSE short NVDA take profit: +1780.94 USD",
-  "19.11 22:12 B5  CLOSE short take profit: +69.00 USD"
+  "19.11 22:12 B5  CLOSE short take profit: +69.00 USD",
+  "19.11 22:15 N  NEWS (11 new) score -0.50 conf 0.60: Dolar 19 ayl\u0131k zirvede, Fed'e y\u00f6nelik \u015fahin beklentiler ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; FXEmpire ba\u015fl\u0131\u011f\u0131 da alt\u0131n\u0131n y\u0131ll\u0131k dipleri test etti\u011fini g\u00f6steriyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna, Orta Do\u011fu) g\u00fcvenli liman talebini destekleyebilir, ancak piyasada bu etki \u015fimdilik g\u00f6r\u00fclm\u00fcyor ve petrol fiyatlar\u0131n\u0131n d\u00fc\u015fmesi enflasyon bask\u0131s\u0131n\u0131 azaltarak da s\u0131n\u0131rl\u0131 bir etki yarat\u0131yor.",
+  "19.11 22:15 N  GPT  score -0.35 conf 0.52: Dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131 ve Fed\u2019in s\u0131k\u0131 duru\u015fu alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; petrol fiyatlar\u0131ndaki d\u00fc\u015f\u00fc\u015f de enflasyon ve faiz kayg\u0131lar\u0131n\u0131 hafifletebilir. \u0130ran kaynakl\u0131 \u00e7at\u0131\u015fma riski g\u00fcvenli liman talebini desteklese de bu kar\u015f\u0131t etki k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm\u00fc belirsizle\u015ftiriyor.",
+  "19.11 22:15 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc yakla\u015f\u0131k %1,6 d\u00fc\u015f\u00fc\u015fle negatif ge\u00e7iriyor ve kapan\u0131\u015fa do\u011fru hafif a\u015fa\u011f\u0131 e\u011filimli yatay bir seyir izliyor.\u00bb / GPT \u00abGenel g\u00f6r\u00fcn\u00fcm zay\u0131f; ancak normal seans\u0131n kapan\u0131\u015f\u0131na yaln\u0131zca 45 dakika kalmas\u0131, hedefe ula\u015fma s\u00fcresini ve i\u015flem esnekli\u011fini k\u0131s\u0131tl\u0131yor.\u00bb",
+  "19.11 22:15 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"71759.63\",\"code\":40310000,\"cost_basis\":\"84634.37\",\"message\":\"insufficient buying power\"}"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    4963.78
-   ],
-   [
     1794527875,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795115527,
+    4963.78
+   ],
+   [
+    1795115739,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    4975.18
-   ],
-   [
     1794527875,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795115527,
+    4975.18
+   ],
+   [
+    1795115739,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    4993.28
-   ],
-   [
     1794527875,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795115527,
+    4993.28
+   ],
+   [
+    1795115739,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794527695,
-    4969.22
-   ],
-   [
     1794527875,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795115527,
+    4969.22
+   ],
+   [
+    1795115739,
     4969.22
    ]
   ],
@@ -82004,10 +82004,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794527695,
-    4700.11
-   ],
    [
     1794527875,
     4699.85
@@ -94003,6 +93999,10 @@
    [
     1795115527,
     4983.39
+   ],
+   [
+    1795115739,
+    4983.39
    ]
   ],
   "news_calls": {
@@ -94210,7 +94210,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 118832.07303500001,
+   "balance": 118842.84503499999,
    "start": 100000.0,
    "positions": [
     {
@@ -94225,7 +94225,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Piyasa y\u00fckselirken haber olmadan saatlik %1,3 d\u00fc\u015f\u00fc\u015f g\u00f6receli zay\u0131fl\u0131k g\u00f6steriyor, zay\u0131f toparlanma short i\u00e7in uygun. | GPT 0.65: Pozitif endekslere ra\u011fmen s\u00fcren belirgin g\u00f6reli zay\u0131fl\u0131k ve dip yak\u0131n\u0131ndaki fiyatlama a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor.",
-     "cur": 348.725
+     "cur": 348.805
     },
     {
      "id": "55de0fc2-2c76-4cb0-b973-a3974c9ecbce",
@@ -94239,7 +94239,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: Teknoloji endeksi son iki mumda sert k\u0131r\u0131l\u0131m yapt\u0131 ve NVDA kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131 devam edebilir. | GPT 0.65: Yatay band\u0131n a\u015fa\u011f\u0131 k\u0131r\u0131lmas\u0131 ve SPY'a g\u00f6re zay\u0131fl\u0131k, k\u0131sa vadede sat\u0131\u015flar\u0131n devam\u0131n\u0131 destekliyor.",
-     "cur": 648.41
+     "cur": 648.55
     },
     {
      "id": "cde8a57e-5d7c-4caa-8346-d24fcd0fc829",
@@ -94253,7 +94253,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Direksiyonsuz Model Y ve Japonya Megapack haberleri az \u00f6nce \u00e7\u0131kt\u0131, fiyat hen\u00fcz tepki vermedi ve yukar\u0131 hareket bekleniyor. | GPT 0.55: Yeni Megapack operasyonu ve direksiyonsuz Model Y haberleri, saatlik yatayla\u015fman\u0131n ard\u0131ndan k\u0131sa vadeli tepki al\u0131m\u0131n\u0131 destekleyebilir.",
-     "cur": 376.1264
+     "cur": 376.61
     }
    ],
    "trades": [
@@ -95466,18 +95466,14 @@
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl": 4554.75,
+    "pnl": 4589.24,
     "trades": 13,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 119874.66
+   "equity": 119909.15
   },
   "equity_curve": [
-   [
-    1794527695,
-    113945.8
-   ],
    [
     1794527875,
     113945.8
@@ -107473,6 +107469,10 @@
    [
     1795115527,
     119874.66
+   ],
+   [
+    1795115739,
+    119909.15
    ]
   ],
   "open": {
@@ -107512,22 +107512,22 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795114999034,
+  "last_decision_ms": 1795115721622,
   "view": {
-   "ts": 1795114999034,
-   "claude": "Piyasa NVDA kaynakl\u0131 zay\u0131fl\u0131kla g\u00fcn\u00fc ekside ge\u00e7iriyor; kapan\u0131\u015fa do\u011fru bask\u0131 s\u00fcrebilir, ancak taze olumlu haberi olan TSLA ayr\u0131\u015fabilir.",
-   "gpt": "Endekslerde zay\u0131fl\u0131k s\u00fcrerken kapan\u0131\u015fa yaln\u0131zca 57 dakika kalmas\u0131 ve 1:4 kald\u0131ra\u00e7, haber odakl\u0131 i\u015flemlerde bile s\u0131k\u0131 risk disiplini gerektiriyor.",
+   "ts": 1795115721622,
+   "claude": "Piyasa g\u00fcn\u00fc yakla\u015f\u0131k %1,6 d\u00fc\u015f\u00fc\u015fle negatif ge\u00e7iriyor ve kapan\u0131\u015fa do\u011fru hafif a\u015fa\u011f\u0131 e\u011filimli yatay bir seyir izliyor.",
+   "gpt": "Genel g\u00f6r\u00fcn\u00fcm zay\u0131f; ancak normal seans\u0131n kapan\u0131\u015f\u0131na yaln\u0131zca 45 dakika kalmas\u0131, hedefe ula\u015fma s\u00fcresini ve i\u015flem esnekli\u011fini k\u0131s\u0131tl\u0131yor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "short",
-      0.4
+      "none",
+      0.35
      ],
      "gpt": [
       "none",
-      0.72
+      0.64
      ]
     },
     "QQQ": {
@@ -107542,12 +107542,12 @@
     },
     "NVDA": {
      "claude": [
-      null,
-      null
+      "short",
+      0.5
      ],
      "gpt": [
-      null,
-      null
+      "short",
+      0.67
      ]
     },
     "AAPL": {
@@ -107562,12 +107562,12 @@
     },
     "TSLA": {
      "claude": [
-      "long",
-      0.55
+      null,
+      null
      ],
      "gpt": [
-      "long",
-      0.55
+      null,
+      null
      ]
     }
    }
@@ -107577,7 +107577,7 @@
   "premarket_day": "2026-11-19",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "86695.96",
+   "buying_power": "86627.29",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -107689,10 +107689,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794527695,
-    4876.96
-   ],
    [
     1794527875,
     4876.96
@@ -119687,6 +119683,10 @@
    ],
    [
     1795115527,
+    4876.96
+   ],
+   [
+    1795115739,
     4876.96
    ]
   ],

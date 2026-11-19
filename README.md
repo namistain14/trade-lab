@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 22:12 (İstanbul)
+> Son güncelleme: 19.11.2026 22:15 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,086.19 $** (başlangıç 5,000 $, +86.19 $ / %+1.72)
+**Hesap değeri: 5,087.29 $** (başlangıç 5,000 $, +87.29 $ / %+1.75)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,983.39 $** (başlangıç 5,000 $, -16.61 $ / %-0.33)
 
-Son haber analizi (19.11 22:03): Claude puan **-0.50**, güven 0.60 — Haberlerin çoğu altın için baskılayıcı: Fed'in şahin duruşu ve Aralık ayında faiz artırımı ihtimali, sıcak enflasyon verisi ve güçlü dolar altını aşağı çekiyor; altın yıllık dip seviyelerini test ediyor. İran savaşı ve İsrail-Hizbullah çatışmaları güvenli liman talebi yaratabilir, ancak petrol fiyatlarının düşmesi ve bu jeopolitik gelişmelerin piyasada zaten fiyatlanmış olması bu etkiyi sınırlıyor.
+Son haber analizi (19.11 22:15): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvede, Fed'e yönelik şahin beklentiler ve Aralık'ta faiz artırımı olasılığı altın için baskı oluşturuyor; FXEmpire başlığı da altının yıllık dipleri test ettiğini gösteriyor. Jeopolitik riskler (İran savaşı, Ukrayna, Orta Doğu) güvenli liman talebini destekleyebilir, ancak piyasada bu etki şimdilik görülmüyor ve petrol fiyatlarının düşmesi enflasyon baskısını azaltarak da sınırlı bir etki yaratıyor.
 
-GPT (gpt-6-luna): puan **+0.12**, güven 0.34 — İran çatışmasının genişlemesi ve Suudi Arabistan’daki saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir. Ancak şahin Fed beklentileri, güçlü dolar baskısı ve altındaki süregelen satış bu etkiyi sınırlıyor; haber akışı da çelişkili.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.52 — Doların 19 ayın zirvesine çıkması ve Fed’in sıkı duruşu altın üzerinde baskı yaratıyor; petrol fiyatlarındaki düşüş de enflasyon ve faiz kaygılarını hafifletebilir. İran kaynaklı çatışma riski güvenli liman talebini desteklese de bu karşıt etki kısa vadeli görünümü belirsizleştiriyor.
 
 Son işlemler:
 
@@ -80,7 +80,7 @@ Son işlemler:
 | Kazanma oranı | %55.6 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,874.66 $** (başlangıç 100,000 $, +19874.66 $ / %+19.87)
+**Hesap değeri: 119,909.15 $** (başlangıç 100,000 $, +19909.15 $ / %+19.91)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
@@ -97,10 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 21:26 B6  karar turu: Claude «NVIDIA CEO istifası ve not indirimleri teknoloji ağırlıklı piyasada risk iştahını bastırıyor; gün sonuna doğru zayıflığın sürmesi muhtemel.» / GPT «Piyasa genelinde satış baskısı sürüyor ancak diplerden gelen tepki nedeniyle 4 kat kaldıraçta toplam riski sınırlamak gerekiyor.»
-19.11 21:31 B5  CLOSE short stop: -56.03 USD
-19.11 21:38 N  NEWS (10 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (Aralık'ta olası Fed hamlesi), güçlü dolar (19 aylık zirve) ve gösterilen mortgage faiz artışları altın için baskılayıcı. Gold yıllık dipleri test ediyor; İran savaşı ve Netanyahu'nun savaşın kaçınılmaz olduğu yönündeki haberleri güvenli liman talebi yaratabilir ancak bu etki şimdiye kadar satış baskısını dengelemedi.
-19.11 21:38 N  GPT  score -0.25 conf 0.58: İran’la savaşın yeniden alevlenebileceğine dair yeni açıklamalar güvenli liman talebini destekleyebilir. Ancak güçlü dolar, şahin Fed beklentileri ve altının yıllık dipleri test eden satış eğilimi kısa vadede baskın görünüyor.
 19.11 21:38 B5  SHORT gold 25000 USD x10 @ 3677.52 (TP 3666.49, SL 3684.88; news -0.38)
 19.11 21:38 B6  karar turu: Claude «Piyasa NVIDIA CEO istifası ve not indirimleri baskısıyla yaklaşık %1 ekside, öğleden sonra ise temkinli bir dipten dönüş denemesi var.» / GPT «Endeksler günlük kayıplarını korurken dipten toparlanıyor; UTC zamanlı NVIDIA haberleri New York saatine göre birkaç saat eski olduğundan taze katalizör sayılmamalı.»
 19.11 21:51 N  NEWS (8 new) score -0.50 conf 0.60: Sıkılaşan Fed beklentileri (Aralık'ta faiz artırımı ihtimali), güçlü dolar ve enflasyon sürprizleri altın üzerinde baskı yaratıyor; altın yıllık dip seviyelerini test ediyor. İran savaşının yeniden başlayabileceğine dair haberler güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish ve dolar kaynaklı satış baskısını şimdilik dengeleyemiyor.
@@ -112,6 +108,10 @@ Son işlemler:
 19.11 22:03 B6  ALIŞ TSLA 155 adet ≈ 58,475 $ (1:4) @ 377.26 (TP 382.92, SL 373.49; ikisi de hemfikir, güven 0.55)
 19.11 22:09 B6  CLOSE short NVDA take profit: +1780.94 USD
 19.11 22:12 B5  CLOSE short take profit: +69.00 USD
+19.11 22:15 N  NEWS (11 new) score -0.50 conf 0.60: Dolar 19 aylık zirvede, Fed'e yönelik şahin beklentiler ve Aralık'ta faiz artırımı olasılığı altın için baskı oluşturuyor; FXEmpire başlığı da altının yıllık dipleri test ettiğini gösteriyor. Jeopolitik riskler (İran savaşı, Ukrayna, Orta Doğu) güvenli liman talebini destekleyebilir, ancak piyasada bu etki şimdilik görülmüyor ve petrol fiyatlarının düşmesi enflasyon baskısını azaltarak da sınırlı bir etki yaratıyor.
+19.11 22:15 N  GPT  score -0.35 conf 0.52: Doların 19 ayın zirvesine çıkması ve Fed’in sıkı duruşu altın üzerinde baskı yaratıyor; petrol fiyatlarındaki düşüş de enflasyon ve faiz kaygılarını hafifletebilir. İran kaynaklı çatışma riski güvenli liman talebini desteklese de bu karşıt etki kısa vadeli görünümü belirsizleştiriyor.
+19.11 22:15 B6  karar turu: Claude «Piyasa günü yaklaşık %1,6 düşüşle negatif geçiriyor ve kapanışa doğru hafif aşağı eğilimli yatay bir seyir izliyor.» / GPT «Genel görünüm zayıf; ancak normal seansın kapanışına yalnızca 45 dakika kalması, hedefe ulaşma süresini ve işlem esnekliğini kısıtlıyor.»
+19.11 22:15 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71759.63","code":40310000,"cost_basis":"84634.37","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
