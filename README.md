@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 21:04 (İstanbul)
+> Son güncelleme: 19.11.2026 21:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,085.52 $** (başlangıç 5,000 $, +85.52 $ / %+1.71)
+**Hesap değeri: 5,088.39 $** (başlangıç 5,000 $, +88.39 $ / %+1.77)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %46.2 | %44.3 |
 | Ödenen komisyon/spread | 156.34 $ | 1774.75 $ |
 
-**Hesap değeri: 4,940.84 $** (başlangıç 5,000 $, -59.16 $ / %-1.18)
+**Hesap değeri: 4,965.56 $** (başlangıç 5,000 $, -34.44 $ / %-0.69)
 
 Açık pozisyonlar: PAXGUSDT short @ 3681.45 (TP 3670.41 / SL 3688.82)
 
@@ -82,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 118,574.59 $** (başlangıç 100,000 $, +18574.59 $ / %+18.57)
+**Hesap değeri: 119,422.45 $** (başlangıç 100,000 $, +19422.45 $ / %+19.42)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 150.02 (TP 147.99 / SL 151.74); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
