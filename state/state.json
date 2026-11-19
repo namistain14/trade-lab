@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    5000.0
-   ],
-   [
     1794543683,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795131305,
     5106.26
+   ],
+   [
+    1795131485,
+    5105.82
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    4868.5
-   ],
-   [
     1794543683,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795131305,
+    4868.5
+   ],
+   [
+    1795131485,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "19.11 09:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpCTR7r57HsVNkCS2qs'}",
   "19.11 09:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpRkqyHC3M22kGZE3U5'}",
   "19.11 09:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBpf1SvZFp6wGbRdjf21'}",
   "19.11 09:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBptJ5u2FcRxQoT1EcS9'}",
@@ -30203,7 +30202,8 @@
   "20.11 02:19 B5  SHORT gold 25000 USD x10 @ 3624.51 (TP 3613.64, SL 3631.76; news -0.57)",
   "20.11 02:31 N  NEWS (6 new) score -0.60 conf 0.70: Alt\u0131n, sert Fed'e ba\u011fl\u0131 \u015fahin sinyaller, g\u00fc\u00e7lenen dolar ve y\u00fckselen tahvil getirileri nedeniyle 14 ayl\u0131k dibe ($3.650 alt\u0131) geriledi; ETF \u00e7\u0131k\u0131\u015flar\u0131 da bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyecek nitelikte olsa da, piyasada bu jeopolitik etki fiyatlamaya yans\u0131m\u0131yor, bu y\u00fczden k\u0131sa vadede a\u011f\u0131rl\u0131k d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde.",
   "20.11 02:31 N  GPT  score -0.58 conf 0.72: Hawkish Fed beklentileri, y\u00fckselen tahvil getirileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; 14 ay\u0131n dibine gerileme sat\u0131\u015f momentumunu destekliyor. \u0130ran sava\u015f\u0131 ve Suudi Arabistan\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak \u015fu an bu etki faiz ve dolar bask\u0131s\u0131n\u0131 dengeleyemiyor.",
-  "20.11 02:35 B5  CLOSE short take profit: +68.98 USD"
+  "20.11 02:35 B5  CLOSE short take profit: +68.98 USD",
+  "20.11 02:38 B5  SHORT gold 25000 USD x10 @ 3596.03 (TP 3585.24, SL 3603.22; news -0.59)"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    4963.78
-   ],
-   [
     1794543683,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795131305,
+    4963.78
+   ],
+   [
+    1795131485,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    4975.18
-   ],
-   [
     1794543683,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795131305,
+    4975.18
+   ],
+   [
+    1795131485,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    4993.28
-   ],
-   [
     1794543683,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795131305,
+    4993.28
+   ],
+   [
+    1795131485,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794543516,
-    4969.22
-   ],
-   [
     1794543683,
     4969.22
    ],
@@ -78789,6 +78785,10 @@
    [
     1795131305,
     4969.22
+   ],
+   [
+    1795131485,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78800,7 +78800,23 @@
   "account": {
    "balance": 5147.236182739983,
    "start": 5000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "8f955063",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.952109879420326,
+     "entry": 3596.03062,
+     "tp": 3585.24252814,
+     "sl": 3603.22268124,
+     "opened_ms": 1795131484655,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.59/0.70",
+     "friction": 12.0881
+    }
+   ],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82123,17 +82139,13 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "trades": 5,
+    "trades": 6,
     "pnl": 94.85558816818828,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794543516,
-    4668.34
-   ],
    [
     1794543683,
     4662.37
@@ -94129,6 +94141,10 @@
    [
     1795131305,
     5147.24
+   ],
+   [
+    1795131485,
+    5141.19
    ]
   ],
   "news_calls": {
@@ -95611,10 +95627,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794543516,
-    113945.8
-   ],
    [
     1794543683,
     113945.8
@@ -107610,6 +107622,10 @@
    [
     1795131305,
     120564.69
+   ],
+   [
+    1795131485,
+    120564.69
    ]
   ],
   "open": {},
@@ -107792,10 +107808,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794543516,
-    4876.96
-   ],
    [
     1794543683,
     4876.96
@@ -119790,6 +119802,10 @@
    ],
    [
     1795131305,
+    4876.96
+   ],
+   [
+    1795131485,
     4876.96
    ]
   ],
