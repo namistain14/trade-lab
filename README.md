@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 22:06 (İstanbul)
+> Son güncelleme: 19.11.2026 22:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,088.61 $** (başlangıç 5,000 $, +88.61 $ / %+1.77)
+**Hesap değeri: 5,086.41 $** (başlangıç 5,000 $, +86.41 $ / %+1.73)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %46.7 | %44.4 |
 | Ödenen komisyon/spread | 180.42 $ | 1798.84 $ |
 
-**Hesap değeri: 4,977.24 $** (başlangıç 5,000 $, -22.76 $ / %-0.46)
+**Hesap değeri: 4,974.52 $** (başlangıç 5,000 $, -25.48 $ / %-0.51)
 
 Açık pozisyonlar: PAXGUSDT short @ 3677.52 (TP 3666.49 / SL 3684.88)
 
@@ -77,29 +77,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +1813.32 $ | +14749.03 $ |
-| İşlem sayısı | 8 | 66 |
-| Kazanma oranı | %50.0 | %50.0 |
+| Net kâr/zarar | +3594.26 $ | +16529.97 $ |
+| İşlem sayısı | 9 | 67 |
+| Kazanma oranı | %55.6 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,604.72 $** (başlangıç 100,000 $, +19604.72 $ / %+19.60)
+**Hesap değeri: 119,807.29 $** (başlangıç 100,000 $, +19807.29 $ / %+19.81)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 150.02 (TP 147.99 / SL 151.74); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 22:09 | NVDA | short | +1780.94 $ | take profit |
 | 19.11 20:27 | NVDA | short | -1316.47 $ | stop |
 | 19.11 20:06 | NVDA | short | +1802.78 $ | take profit |
 | 19.11 19:56 | QQQ | short | +624.75 $ | stop |
 | 19.11 19:53 | TSLA | long | -420.82 $ | stop |
-| 19.11 19:53 | NVDA | short | +1765.59 $ | take profit |
 
 ## Son olaylar
 
 ```
-19.11 21:26 N  NEWS (6 new) score -0.60 conf 0.70: Altın yıllık dip seviyelerini test ediyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı ihtimallerinin yükselmesi ve doların 19 aylık zirvesi altını baskılıyor. İran savaşı ve Orta Doğu gerilimi güvenli liman talebi yaratması gerekirken fiyatı yukarı taşımıyor, bu yüzden baskı daha güçlü görünüyor.
 19.11 21:26 N  GPT  score -0.55 conf 0.68: Güçlü dolar ve şahin Fed beklentileri, altındaki devam eden satışlarla birlikte kısa vadede baskın ve aşağı yönlü görünüyor. Suudi Arabistan’daki saldırı güvenli liman talebini artırabilir; ancak barış deklarasyonu ve çelişkili jeopolitik haberler bu desteği sınırlıyor.
 19.11 21:26 B6  karar turu: Claude «NVIDIA CEO istifası ve not indirimleri teknoloji ağırlıklı piyasada risk iştahını bastırıyor; gün sonuna doğru zayıflığın sürmesi muhtemel.» / GPT «Piyasa genelinde satış baskısı sürüyor ancak diplerden gelen tepki nedeniyle 4 kat kaldıraçta toplam riski sınırlamak gerekiyor.»
 19.11 21:31 B5  CLOSE short stop: -56.03 USD
@@ -114,6 +113,7 @@ Son işlemler:
 19.11 22:03 N  GPT  score +0.12 conf 0.34: İran çatışmasının genişlemesi ve Suudi Arabistan’daki saldırı haberleri kısa vadede güvenli liman talebini destekleyebilir. Ancak şahin Fed beklentileri, güçlü dolar baskısı ve altındaki süregelen satış bu etkiyi sınırlıyor; haber akışı da çelişkili.
 19.11 22:03 B6  karar turu: Claude «Piyasa NVDA kaynaklı zayıflıkla günü ekside geçiriyor; kapanışa doğru baskı sürebilir, ancak taze olumlu haberi olan TSLA ayrışabilir.» / GPT «Endekslerde zayıflık sürerken kapanışa yalnızca 57 dakika kalması ve 1:4 kaldıraç, haber odaklı işlemlerde bile sıkı risk disiplini gerektiriyor.»
 19.11 22:03 B6  ALIŞ TSLA 155 adet ≈ 58,475 $ (1:4) @ 377.26 (TP 382.92, SL 373.49; ikisi de hemfikir, güven 0.55)
+19.11 22:09 B6  CLOSE short NVDA take profit: +1780.94 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
