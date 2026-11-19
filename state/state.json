@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    5000.0
-   ],
-   [
     1794493564,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795081017,
     5072.51
+   ],
+   [
+    1795081197,
+    5073.61
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    4868.5
-   ],
-   [
     1794493564,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795081017,
+    4868.5
+   ],
+   [
+    1795081197,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "18.11 17:25 N  GPT  score -0.68 conf 0.72: Fed yetkililerinin daha agresif faiz art\u0131\u015f\u0131 sinyalleri ve dolar\u0131n 52 haftan\u0131n zirvesine \u00e7\u0131kmas\u0131, k\u0131sa vadede alt\u0131n\u0131n ta\u015f\u0131ma maliyetini art\u0131r\u0131p fiyat\u0131 bask\u0131l\u0131yor; alt\u0131n\u0131n 3.800 dolar\u0131n alt\u0131na gerilemesi de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. \u0130ran ve di\u011fer \u00e7at\u0131\u015fma ba\u015fl\u0131klar\u0131 g\u00fcvenli liman talebi yarata",
   "18.11 17:32 B6  karar turu: Claude \u00abEndeksler hafif pozitif ve teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde, ancak \u015firket \u00f6zelindeki olumsuz haberler NVDA'da k\u0131sa y\u00f6nl\u00fc f\u0131rsat sunuyor.\u00bb / GPT \u00abEndekslerde s\u0131n\u0131rl\u0131 pozitif seyir varken \u015firket bazl\u0131 ayr\u0131\u015fma \u00f6ne \u00e7\u0131k\u0131yor; d\u00f6rt kat kald\u0131ra\u00e7 nedeniyle k\u00fc\u00e7\u00fck teminat tahsisiyle y\u00fczde 1 stop ve y\u00fczde 1,5 hedef disiplini korunmal\u0131.\u00bb",
   "18.11 17:32 B6  A\u00c7I\u011eA SATI\u015e NVDA 705 adet \u2248 112,384 $ (1:4) @ 159.41 (TP 157.02, SL 161.0; ikisi de hemfikir, g\u00fcven 0.58)",
   "18.11 17:37 N  NEWS (12 new) score -0.80 conf 0.80: Fed yetkililerinin (Waller) daha sert faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 ve Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n %95'e \u00e7\u0131kmas\u0131, reel faiz ve dolar beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde a\u011f\u0131r bir bask\u0131 yarat\u0131yor. Dolar endeksinin 52 haftal\u0131k zirveye \u00e7\u0131kmas\u0131 ve alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi bu y\u00f6n\u00fc teyit ediyor; \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rma potansiyeli ise bu bask\u0131y\u0131 s\u0131n\u0131rl\u0131 \u00f6l\u00e7\u00fcde dengeliyor.",
@@ -30203,7 +30202,8 @@
   "19.11 12:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC3px3aA5NgAvZ7SCg1v'}",
   "19.11 12:30 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC44FsFeamoauf89b4Jc'}",
   "19.11 12:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC4HUz9MdxBMVJRPnCQu'}",
-  "19.11 12:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC4WkvxSHGvPsCQadaz6'}"
+  "19.11 12:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC4WkvxSHGvPsCQadaz6'}",
+  "19.11 12:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC4k4kNWf8igGj1HgWRd'}"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    4963.78
-   ],
-   [
     1794493564,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795081017,
+    4963.78
+   ],
+   [
+    1795081197,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    4975.18
-   ],
-   [
     1794493564,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795081017,
+    4975.18
+   ],
+   [
+    1795081197,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    4993.28
-   ],
-   [
     1794493564,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795081017,
+    4993.28
+   ],
+   [
+    1795081197,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794493395,
-    4969.22
-   ],
-   [
     1794493564,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795081017,
+    4969.22
+   ],
+   [
+    1795081197,
     4969.22
    ]
   ],
@@ -81836,10 +81836,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794493395,
-    4860.35
-   ],
    [
     1794493564,
     4859.84
@@ -93835,6 +93831,10 @@
    [
     1795081017,
     4807.66
+   ],
+   [
+    1795081197,
+    4807.66
    ]
   ],
   "news_calls": {
@@ -95101,10 +95101,6 @@
    "equity": 115319.91
   },
   "equity_curve": [
-   [
-    1794493395,
-    115251.03
-   ],
    [
     1794493564,
     115251.03
@@ -107100,6 +107096,10 @@
    [
     1795081017,
     115319.91
+   ],
+   [
+    1795081197,
+    115319.91
    ]
   ],
   "open": {},
@@ -107282,10 +107282,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794493395,
-    4876.96
-   ],
    [
     1794493564,
     4876.96
@@ -119280,6 +119276,10 @@
    ],
    [
     1795081017,
+    4876.96
+   ],
+   [
+    1795081197,
     4876.96
    ]
   ],
