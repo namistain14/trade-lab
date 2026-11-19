@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 18:03 (İstanbul)
+> Son güncelleme: 19.11.2026 18:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,055.30 $** (başlangıç 5,000 $, +55.30 $ / %+1.11)
+**Hesap değeri: 5,056.84 $** (başlangıç 5,000 $, +56.84 $ / %+1.14)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %44.4 | %44.1 |
 | Ödenen komisyon/spread | 108.18 $ | 1726.59 $ |
 
-**Hesap değeri: 4,903.17 $** (başlangıç 5,000 $, -96.83 $ / %-1.94)
+**Hesap değeri: 4,874.30 $** (başlangıç 5,000 $, -125.70 $ / %-2.51)
 
 Açık pozisyonlar: PAXGUSDT short @ 3706.33 (TP 3695.21 / SL 3713.74)
 
@@ -77,29 +77,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +12935.71 $ |
-| İşlem sayısı | 0 | 58 |
-| Kazanma oranı | %0.0 | %50.0 |
+| Net kâr/zarar | -1176.07 $ | +11759.64 $ |
+| İşlem sayısı | 1 | 59 |
+| Kazanma oranı | %0.0 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,816.32 $** (başlangıç 100,000 $, +14816.32 $ / %+14.82)
+**Hesap değeri: 114,259.56 $** (başlangıç 100,000 $, +14259.56 $ / %+14.26)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 155.23 (TP 152.52 / SL 156.39)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 18:06 | NVDA | short | -1176.07 $ | stop |
 | 18.11 23:46 | TSLA | long | -107.35 $ | seans sonu |
 | 18.11 23:46 | QQQ | long | -467.84 $ | seans sonu |
 | 18.11 23:46 | NVDA | short | +871.35 $ | seans sonu |
 | 18.11 23:46 | AAPL | short | +444.36 $ | seans sonu |
-| 18.11 20:25 | TSLA | short | -1171.20 $ | stop |
 
 ## Son olaylar
 
 ```
-19.11 17:08 N  NEWS (16 new) score -0.45 conf 0.60: Fed'in faiz artırımı beklentisi (JPMorgan üç toplantıda hike öngörüyor), güçlü reel faizler ve dolar gücü altını baskılıyor; altın 8 seanslık kayıp serisinde ve jobless claims artışına rağmen 3.700$ civarına yaklaşıyor. Savaş/jeopolitik riski (İran savaşı) güvenli liman talebini destekliyor olsa da haberler bu desteği şu an belirgin biçimde yansıtmıyor, bu yüzden net etki negatif.
 19.11 17:08 N  GPT  score -0.55 conf 0.66: Güçlü reel faizler ve Fed’in faiz artırabileceği beklentisi doları destekleyerek altın üzerinde baskı kuruyor; devam eden düşüş de kısa vadeli momentumu zayıflatıyor. İran savaşı kaynaklı güvenli liman talebi aşağı yönlü görünümü sınırlasa da yeni başlıklar net bir tırmanış göstermiyor.
 19.11 17:20 N  NEWS (11 new) score -0.40 conf 0.60: Haberlerin ağırlığı altın için olumsuz: Fed'in şahin tutumu, JP Morgan'ın üç toplantıda faiz artışı beklentisi, güçlü dolar ve reel faizlerin desteği altın üzerinde baskı yaratıyor; altın 8 seans üst üste düşüş yaşıyor. Hürmüz gerilimi ve Philly Fed'in zayıf verisi sınırlı bir jeopolitik destek sağlasa da fiyat yine de 3.700 civarında zayıf seyrediyor. Yatırımcı satışı ve kaldıraç çözülmesi de kısa vadeli düşüşü destekliyor.
 19.11 17:20 N  GPT  score -0.58 conf 0.68: Önümüzdeki birkaç saat için görünüm aşağı yönlü: Fed’in daha şahin olacağı beklentisi ve güçlü dolar/gerçek faizler altını baskılıyor; uzun süren satış serisi de zayıf momentuma işaret ediyor. Zayıf istihdam verisi ve Hürmüz gerilimi sınırlı destek sağlayabilir, ancak altının bunlara rağmen zorlanma
@@ -114,6 +113,7 @@ Son işlemler:
 19.11 17:57 N  GPT  score -0.25 conf 0.48: Jefferson’ın yapay zekâ yatırımlarının enflasyon baskısını artırdığı uyarısı, Fed’in daha şahin kalabileceği beklentisini güçlendirerek altın için kısa vadede olumsuz. Doların soluklanması ve İran kaynaklı enerji güvenliği riskleri bu baskıyı kısmen dengeliyor; haber akışı çelişkili olduğundan etki 
 19.11 17:57 B6  karar turu: Claude «Endeksler günü artıda tutsa da son bir saatte satış baskısı artıyor; NVDA'daki yönetim şoku teknoloji tarafında risk iştahını zayıflatabilir.» / GPT «Endekslerin gün içi kazanımları erirken kısa vadeli yön aşağı; 1:4 kaldıraçta birbiriyle yüksek korelasyonlu kısa pozisyonların toplam riski sınırlanmalı.»
 19.11 17:57 B6  AÇIĞA SATIŞ NVDA 744 adet ≈ 115,201 $ (1:4) @ 154.84 (TP 152.52, SL 156.39; ikisi de hemfikir, güven 0.62)
+19.11 18:06 B6  CLOSE short NVDA stop: -1176.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
