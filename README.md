@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 00:11 (İstanbul)
+> Son güncelleme: 20.11.2026 00:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,110.68 $** (başlangıç 5,000 $, +110.68 $ / %+2.21)
+**Hesap değeri: 5,110.46 $** (başlangıç 5,000 $, +110.46 $ / %+2.21)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %45.1 |
 | Ödenen komisyon/spread | 0.00 $ | 1822.93 $ |
 
-**Hesap değeri: 5,043.27 $** (başlangıç 5,000 $, +43.27 $ / %+0.87)
+**Hesap değeri: 5,038.14 $** (başlangıç 5,000 $, +38.14 $ / %+0.76)
 
 Açık pozisyonlar: PAXGUSDT short @ 3652.18 (TP 3641.22 / SL 3659.48)
 
-Son haber analizi (20.11 00:02): Claude puan **-0.50**, güven 0.60 — Altın, 14 aylık dibe inen fiyatla ve Fed faiz artırımı beklentisiyle baskı altında; bu, reel faiz ve dolar tarafında altın için olumsuz. İran savaşının sürmesi ve Senato'da savaş yetkisi kararının reddedilmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; enerji krizine ilişkin IEA raporu ise enflasyon ve sıkılaşma beklentilerini besleyerek altını aşağı çekebilir.
+Son haber analizi (20.11 00:14): Claude puan **-0.60**, güven 0.70 — Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun sıcak olduğunu ve ek politika sıkılaştırması seçeneklerinin masada olduğunu söylüyor, bu da faiz artırımı beklentilerini ve doları destekleyerek altını baskılıyor. Savaş kaynaklı güvenli liman talebi (İran savaşının sürmesi, Senato'nun savaş yetkisi kararını reddetmesi) bir destek sunsa da bu gelişmeler büyük ölçüde fiyatlanmış durumda; dolar 19 aylık zirveden biraz geri çekildiği için etki kısmen sınırlı.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.48 — Fed’in faiz artırımı beklentisi ve altının 14 ayın dibine indiği haberi kısa vadede baskıyı destekliyor. İran savaşının sürmesi güvenli liman talebi yaratabilir; ancak bu riskin bir kısmı zaten fiyatlanmış ve haber akışı karışık.
+GPT (gpt-6-luna): puan **-0.43**, güven 0.67 — Sıcak enflasyon vurgusu ve Fed yetkililerinin daha sıkı politika sinyalleri faiz artışı beklentilerini ve altın üzerindeki baskıyı güçlendiriyor; altının 14 ayın dibine gerilemesi de aşağı yönlü momentuma işaret ediyor. Doların zirveden gevşemesi ve İran savaşının sürmesi kayıpları sınırlayabilir, a
 
 Son işlemler:
 
@@ -97,8 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 23:13 N  GPT  score +0.18 conf 0.38: İran savaşını sınırlama girişiminin reddedilmesi ve İsrail’in Hizbullah hedefini vurması kısa vadede güvenli liman talebini destekleyebilir. Ancak altın üzerindeki güçlü dolar ve faiz artışı beklentisi baskısı ile Ukrayna’da müzakere sinyalleri yükseliş etkisini sınırlıyor.
-19.11 23:13 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla günü yaklaşık %2 düşüşle kapattı, ancak seans kapandığı için yeni pozisyon açmak yerine yarın açılışı beklemek daha disiplinli.» / GPT «Normal seans 16:00'da kapandı; görünüm aşağı yönlü olsa da önümüzdeki 1–3 saatte seans sonrası likidite ve bracket emirlerinin çalışması doğrulanmadan 1:4 kaldıraçla yeni risk almam.»
 19.11 23:26 N  NEWS (19 new) score -0.05 conf 0.30: Yeni haberlerin çoğu Senato'nun İran savaş yetkisi oylamasının reddedilmesi gibi büyük ölçüde fiyatlanmış gelişmeler; savaşın sürmesi sınırlı bir güvenli liman desteği sağlasa da etkisi zayıf. Fed'in faiz yolu konusunda temkinli tutum ve Barr'ın yüksek enflasyon nedeniyle ek politika ayarına işaret etmesi ise hafif baskılayıcı (şahin) sinyal veriyor; genel tablo nötre yakın, hafif negatif.
 19.11 23:26 N  GPT  score +0.28 conf 0.42: Senato’nun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi ve güvenli liman talebinin artması ihtimalini destekleyerek altın için hafif olumlu. Ancak bu haberin tekrarlanmış olması ve Fed’den gelen enflasyon/politika ayarlaması sinyallerinin faizleri destekleyebilmesi yükseliş etkis
 19.11 23:38 N  NEWS (15 new) score -0.15 conf 0.30: Yeni haberlerin çoğu aynı Senato oylamasının tekrarı ve büyük ölçüde fiyatlanmış; İran savaşının sürmesi sınırlı bir güvenli liman desteği sağlıyor. Fed'in Barr'ın enflasyon nedeniyle ek politika sıkılaşmasına ihtiyaç olduğunu söylemesi ise altın için kısa vadede baskı yaratabilecek bir şahin sinyal.
@@ -112,6 +110,8 @@ Son işlemler:
 20.11 00:02 N  NEWS (14 new) score -0.50 conf 0.60: Altın, 14 aylık dibe inen fiyatla ve Fed faiz artırımı beklentisiyle baskı altında; bu, reel faiz ve dolar tarafında altın için olumsuz. İran savaşının sürmesi ve Senato'da savaş yetkisi kararının reddedilmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; enerji krizine ilişkin IEA raporu ise enflasyon ve sıkılaşma beklentilerini besleyerek altını aşağı çekebilir.
 20.11 00:02 N  GPT  score -0.30 conf 0.48: Fed’in faiz artırımı beklentisi ve altının 14 ayın dibine indiği haberi kısa vadede baskıyı destekliyor. İran savaşının sürmesi güvenli liman talebi yaratabilir; ancak bu riskin bir kısmı zaten fiyatlanmış ve haber akışı karışık.
 20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)
+20.11 00:14 N  NEWS (14 new) score -0.60 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun sıcak olduğunu ve ek politika sıkılaştırması seçeneklerinin masada olduğunu söylüyor, bu da faiz artırımı beklentilerini ve doları destekleyerek altını baskılıyor. Savaş kaynaklı güvenli liman talebi (İran savaşının sürmesi, Senato'nun savaş yetkisi kararını reddetmesi) bir destek sunsa da bu gelişmeler büyük ölçüde fiyatlanmış durumda; dolar 19 aylık zirveden biraz geri çekildiği için etki kısmen sınırlı.
+20.11 00:14 N  GPT  score -0.43 conf 0.67: Sıcak enflasyon vurgusu ve Fed yetkililerinin daha sıkı politika sinyalleri faiz artışı beklentilerini ve altın üzerindeki baskıyı güçlendiriyor; altının 14 ayın dibine gerilemesi de aşağı yönlü momentuma işaret ediyor. Doların zirveden gevşemesi ve İran savaşının sürmesi kayıpları sınırlayabilir, a
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

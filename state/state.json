@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    5000.0
-   ],
-   [
     1794535135,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795122700,
     5110.68
+   ],
+   [
+    1795122892,
+    5110.46
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    4868.5
-   ],
-   [
     1794535135,
     4868.5
    ],
@@ -27121,14 +27117,18 @@
    [
     1795122700,
     4868.5
+   ],
+   [
+    1795122892,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "Alt\u0131n, 14 ayl\u0131k dibe inen fiyatla ve Fed faiz art\u0131r\u0131m\u0131 beklentisiyle bask\u0131 alt\u0131nda; bu, reel faiz ve dolar taraf\u0131nda alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Senato'da sava\u015f yetkisi karar\u0131n\u0131n reddedilmesi g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; enerji krizine ili\u015fkin IEA raporu ise enflasyon ve s\u0131k\u0131la\u015fma beklentilerini besleyerek alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir.",
+   "score": -0.6,
+   "confidence": 0.7,
+   "reason": "Yeni haberlerin a\u011f\u0131rl\u0131kl\u0131 etkisi alt\u0131n i\u00e7in belirgin bi\u00e7imde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun s\u0131cak oldu\u011funu ve ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 se\u00e7eneklerinin masada oldu\u011funu s\u00f6yl\u00fcyor, bu da faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi (\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Senato'nun sava\u015f yetkisi karar\u0131n\u0131 reddetmesi) bir destek sunsa da bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; dolar 19 ayl\u0131k zirveden biraz geri \u00e7ekildi\u011fi i\u00e7in etki k\u0131smen s\u0131n\u0131rl\u0131.",
    "n": 45,
-   "ts": 1795122129176,
+   "ts": 1795122891831,
    "new_headlines": 14,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe geriledi; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor",
@@ -27136,13 +27136,13 @@
     "\u0130ran sava\u015f\u0131 ve Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor"
    ],
    "gpt": {
-    "score": -0.3,
-    "confidence": 0.48,
-    "reason": "Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentisi ve alt\u0131n\u0131n 14 ay\u0131n dibine indi\u011fi haberi k\u0131sa vadede bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebi yaratabilir; ancak bu riskin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k.",
+    "score": -0.43,
+    "confidence": 0.67,
+    "reason": "S\u0131cak enflasyon vurgusu ve Fed yetkililerinin daha s\u0131k\u0131 politika sinyalleri faiz art\u0131\u015f\u0131 beklentilerini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 g\u00fc\u00e7lendiriyor; alt\u0131n\u0131n 14 ay\u0131n dibine gerilemesi de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Dolar\u0131n zirveden gev\u015femesi ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi kay\u0131plar\u0131 s\u0131n\u0131rlayabilir, a",
     "key_events": [
-     "Fed faiz art\u0131r\u0131m\u0131 beklentisi",
-     "Alt\u0131n\u0131n 14 ay\u0131n en d\u00fc\u015f\u00fck seviyesine gerilemesi",
-     "\u0130ran sava\u015f\u0131n\u0131 s\u0131n\u0131rlama giri\u015fiminin Senato\u2019da reddedilmesi"
+     "Goolsbee s\u0131cak enflasyon kar\u015f\u0131s\u0131nda Fed\u2019in t\u00fcm se\u00e7eneklerinin masada oldu\u011funu s\u00f6yledi",
+     "Barr enflasyon nedeniyle ek politika ayarlamas\u0131na i\u015faret etti",
+     "Alt\u0131n 14 ay\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi; dolar k\u0131sa s\u00fcreli gev\u015fedi"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794582287869,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "S\u0131cak ABD \u00fcretici fiyat enflasyonu, Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n 19 ayl\u0131k zirvesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Alt\u0131n 2026'n\u0131n en d\u00fc\u015f\u00fck seviyesi olan yakla\u015f\u0131k 3.850 dolara geriledi; \u0130ran sava\u015f\u0131 ve jeopolitik haberler g\u00fcvenli liman talebini destekliyor ama bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
-    "new": 8,
-    "gpt_score": -0.48,
-    "gpt_confidence": 0.66
-   },
    {
     "ts": 1794853416023,
     "score": -0.5,
@@ -29849,63 +29840,70 @@
     "new": 14,
     "gpt_score": -0.3,
     "gpt_confidence": 0.48
+   },
+   {
+    "ts": 1795122891831,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Yeni haberlerin a\u011f\u0131rl\u0131kl\u0131 etkisi alt\u0131n i\u00e7in belirgin bi\u00e7imde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun s\u0131cak oldu\u011funu ve ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 se\u00e7eneklerinin masada oldu\u011funu s\u00f6yl\u00fcyor, bu da faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi (\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Senato'nun sava\u015f yetkisi karar\u0131n\u0131 reddetmesi) bir destek sunsa da bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; dolar 19 ayl\u0131k zirveden biraz geri \u00e7ekildi\u011fi i\u00e7in etki k\u0131smen s\u0131n\u0131rl\u0131.",
+    "new": 14,
+    "gpt_score": -0.43,
+    "gpt_confidence": 0.67
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 1
+   "n": 2
   },
   "news_seen": [
+   "The Sanctions Puzzle: 10 Key Areas to Watch in 2027 and Beyond - JD Supra",
+   "Goolsbee says all options on Fed\u2019s table amid hot inflation - Crain's Chicago Business",
    "During Milestone Visit, Hegseth Champions U.S.-Venezuelan Partnership - U.S. Department of War (.gov)",
+   "Fed's Barr worried regulatory changes may increase financial sector risks - Reuters",
    "US war against Iran has cost $48.3B, Pentagon official tells Senate - Anadolu Ajans\u0131",
+   "Russian edition of Alexandra Prokopenko\u2019s \u2018From Sovereigns to Servants: How the War Against Ukraine Reshaped Russia\u2019s Elite\u2019 wins special prize for political nonfiction - Meduza",
    "Secretary of War Announces Flag and General Officer Nominations - Seapower Magazine",
+   "Federal Reserve Bank of Chicago President Austan Goolsbee is interviewed on the sidelines of the Kansas City Fed's annual economic symposium, in Jackson Hole - The Lufkin Daily News",
    "Senate again rejects resolution calling for end to Iran war - Jewish Insider",
    "Senate Democrats Fall Short of Curbing Trump on Iran War - Newser",
-   "Gold Hits 14-Month Low as Fed Rate Hike Looms - Investing News Network",
+   "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network",
+   "Fed's Goolsbee says AI surge could strain US capacity, overheat economy - Reuters",
    "War in Tigray Severely Disrupted Regional Healthcare Systems and Provider Well-Being - Bioengineer.org",
    "Senate Republicans in US reject measure to limit Trump\u2019s war powers in Iran - Al Jazeera",
+   "Dollar Slips From 19-Month Peak as Anthropic Debut Lifts Risk Appetite; Yen Eases - BigGo Finance",
    "Trump says Xi, Putin want the war on Iran to end - Middle East Eye",
+   "Trump appointees without experience linked to measles return, travel chaos - Cleveland.com",
+   "Fed's Barr Says Inflation Calls for Further Policy Adjustment - marketscreener.com",
    "US Senate blocks Iran war powers resolution - Middle East Monitor",
    "Saudi Arabia among 16 countries backing UK and Australian sanctions on Israeli settlement expansion - Arab News",
    "Saudi, Arab and Islamic FMs welcome UK, Australia sanctions over Israeli settlements - Al Arabiya English",
    "Gold Prices Today In Hyderabad: 22K, 24K Rates - INDToday",
    "Senate rejects first post-election attempt to end Iran war - Stars and Stripes",
+   "Senate Republicans quash measure aimed at ending unpopular Iran war - Central Oregon Daily",
    "US Senate blocks Iran war powers resolution - Anadolu Ajans\u0131",
    "Senate Republicans rejects war powers bill to halt fighting in Iran - The Guardian",
    "US Senate Republicans reject resolution curbing Trump's Iran war powers - Middle East Eye",
    "IEA Energy Report Finds Crisis Unleashed by Trump's Iran War \u2018Is By Far the Largest\u2019 in Over 50 Years - Common Dreams",
    "The Blogs: UK sanctions Israel. Israel sanctions UK - The Times of Israel",
-   "Senate Republicans block latest Democratic effort to end the war in Iran - The Seattle Times",
    "John Fetterman Breaks Ranks With Democrats in Bid To End Iran War - Newsweek",
-   "Senate Republicans block latest Democratic effort to end the war in Iran - ClickOnDetroit | WDIV Local 4",
+   "Senate Republicans block latest Democratic effort to end the war in Iran - WKMG",
    "Senate Republicans block latest Democratic effort to end the war in Iran - Ottumwa Courier",
+   "An outsider\u2019s view of Australian cricket\u2019s civil war: conflicting \u2018truths\u2019 and Cummins in a corner - The Guardian",
    "Senate Blocks War Powers Resolution to Halt Military Action Against Iran - C-SPAN",
+   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
    "Senate Republicans Vote Down Iran War Powers Resolution - NOTUS",
    "Can Hezbollah\u2019s shadow financial network survive fresh US sanctions? - Arab News",
    "Senate rejects resolution to end Iran war, with no new GOP support after election rout - Washington Times",
    "Myanmar committed genocide against Rohingya minority, top UN court rules",
-   "Senate Republicans reject war powers resolution to end Iran war - Yahoo",
-   "IDF targets Hezbollah missile facility after terrorists return to site in Lebanon - Yahoo",
+   "US Senate Republicans reject resolution calling on Trump to end Iran war - The Jerusalem Post",
    "War-Driven Cost Squeeze Alarms Companies, Bank of America Says - Bloomberg.com",
    "T\u00fcrkiye, 14 other countries welcome UK, Australian sanctions over illegal Israeli settlements - Anadolu Ajans\u0131",
    "Andy Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - Sky News",
    "Senate Republicans quash measure aimed at ending unpopular Iran war - USA Today",
-   "US Senate rejects resolution curbing Trump's Iran war powers - Reuters",
-   "8 Action Thriller War Movies With Zombies (#2 Is a Martial Arts Masterpiece) - MovieWeb",
-   "Where Is the Next Support Level for Gold? - Barchart.com",
-   "Retirement savers see gold\u2019s appeal. Why do so few own it? - Yahoo Finance",
-   "US Senate Rejects Resolution Curbing Trump's Iran War Powers - GV Wire",
-   "US Senate Republicans reject resolution calling on Trump to end Iran war - The Jerusalem Post",
-   "Trump, Xi, Putin End Historic Summit With Denunciation of Nuclear War - WSJ",
-   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
-   "Kushner says he believes Russia is \u2018comfortable\u2019 with NATO-like security guarantees for Ukraine - AP News",
-   "Dems, GOP rebels fail to rein in Trump's Iran war in Senate, but bigger battle looms - Fox News",
-   "Senate Republicans reject war powers resolution to end Iran conflict - The Hill"
+   "Gold Rate Today in Bangalore, 20 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo"
   ]
  },
  "log": [
-  "19.11 08:07 B5  CLOSE short stop: -56.02 USD",
-  "19.11 08:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBhwptqUnsQomNDv4pST'}",
   "19.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "19.11 08:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBiB4k8HfJQaKGUwpRom'}",
   "19.11 08:13 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBiQJTF8yM2yvNHtcnaY'}",
@@ -30203,7 +30201,9 @@
   "19.11 23:58 B5  CLOSE short take profit: +68.99 USD",
   "20.11 00:02 N  NEWS (14 new) score -0.50 conf 0.60: Alt\u0131n, 14 ayl\u0131k dibe inen fiyatla ve Fed faiz art\u0131r\u0131m\u0131 beklentisiyle bask\u0131 alt\u0131nda; bu, reel faiz ve dolar taraf\u0131nda alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Senato'da sava\u015f yetkisi karar\u0131n\u0131n reddedilmesi g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; enerji krizine ili\u015fkin IEA raporu ise enflasyon ve s\u0131k\u0131la\u015fma beklentilerini besleyerek alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir.",
   "20.11 00:02 N  GPT  score -0.30 conf 0.48: Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentisi ve alt\u0131n\u0131n 14 ay\u0131n dibine indi\u011fi haberi k\u0131sa vadede bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebi yaratabilir; ancak bu riskin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k.",
-  "20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)"
+  "20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)",
+  "20.11 00:14 N  NEWS (14 new) score -0.60 conf 0.70: Yeni haberlerin a\u011f\u0131rl\u0131kl\u0131 etkisi alt\u0131n i\u00e7in belirgin bi\u00e7imde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun s\u0131cak oldu\u011funu ve ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 se\u00e7eneklerinin masada oldu\u011funu s\u00f6yl\u00fcyor, bu da faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi (\u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi, Senato'nun sava\u015f yetkisi karar\u0131n\u0131 reddetmesi) bir destek sunsa da bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; dolar 19 ayl\u0131k zirveden biraz geri \u00e7ekildi\u011fi i\u00e7in etki k\u0131smen s\u0131n\u0131rl\u0131.",
+  "20.11 00:14 N  GPT  score -0.43 conf 0.67: S\u0131cak enflasyon vurgusu ve Fed yetkililerinin daha s\u0131k\u0131 politika sinyalleri faiz art\u0131\u015f\u0131 beklentilerini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 g\u00fc\u00e7lendiriyor; alt\u0131n\u0131n 14 ay\u0131n dibine gerilemesi de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Dolar\u0131n zirveden gev\u015femesi ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi kay\u0131plar\u0131 s\u0131n\u0131rlayabilir, a"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    4963.78
-   ],
-   [
     1794535135,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795122700,
+    4963.78
+   ],
+   [
+    1795122892,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    4975.18
-   ],
-   [
     1794535135,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795122700,
+    4975.18
+   ],
+   [
+    1795122892,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    4993.28
-   ],
-   [
     1794535135,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795122700,
+    4993.28
+   ],
+   [
+    1795122892,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794534956,
-    4969.22
-   ],
-   [
     1794535135,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795122700,
+    4969.22
+   ],
+   [
+    1795122892,
     4969.22
    ]
   ],
@@ -82041,10 +82041,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794534956,
-    4668.34
-   ],
    [
     1794535135,
     4668.34
@@ -94040,6 +94036,10 @@
    [
     1795122700,
     5043.27
+   ],
+   [
+    1795122892,
+    5038.14
    ]
   ],
   "news_calls": {
@@ -95522,10 +95522,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794534956,
-    113945.8
-   ],
    [
     1794535135,
     113945.8
@@ -107521,6 +107517,10 @@
    [
     1795122700,
     120564.69
+   ],
+   [
+    1795122892,
+    120564.69
    ]
   ],
   "open": {},
@@ -107703,10 +107703,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794534956,
-    4876.96
-   ],
    [
     1794535135,
     4876.96
@@ -119701,6 +119697,10 @@
    ],
    [
     1795122700,
+    4876.96
+   ],
+   [
+    1795122892,
     4876.96
    ]
   ],
