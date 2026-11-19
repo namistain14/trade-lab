@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 06:23 (İstanbul)
+> Son güncelleme: 19.11.2026 06:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,097.44 $** (başlangıç 5,000 $, +97.44 $ / %+1.95)
+**Hesap değeri: 5,096.34 $** (başlangıç 5,000 $, +96.34 $ / %+1.93)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +94.99 $ | -22.48 $ |
-| İşlem sayısı | 5 | 141 |
-| Kazanma oranı | %60.0 | %44.7 |
-| Ödenen komisyon/spread | 60.09 $ | 1678.50 $ |
+| Net kâr/zarar | +38.96 $ | -78.50 $ |
+| İşlem sayısı | 6 | 142 |
+| Kazanma oranı | %50.0 | %44.4 |
+| Ödenen komisyon/spread | 72.12 $ | 1690.53 $ |
 
-**Hesap değeri: 4,962.45 $** (başlangıç 5,000 $, -37.55 $ / %-0.75)
-
-Açık pozisyonlar: PAXGUSDT short @ 3700.65 (TP 3689.55 / SL 3708.05)
+**Hesap değeri: 4,921.50 $** (başlangıç 5,000 $, -78.50 $ / %-1.57)
 
 Son haber analizi (19.11 06:18): Claude puan **-0.45**, güven 0.60 — Dolar 19 aylık zirvenin yakınında ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faizleri ve doları destekleyerek altın için kısa vadede baskı yaratıyor. İran savaşının genişleme riski ve Suudi Arabistan'a yönelik Husi tehdidi jeopolitik talebi destekliyor, ancak bu etki dolar ve faiz kanalının gerisinde kalıyor; altın zaten bir yıllık dibe yakın seviyelerde olduğu için haberlerin bir kısmı fiyatlanmış durumda.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 06:27 | PAXGUSDT | short | -56.02 $ | stop |
 | 19.11 06:13 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 05:59 | PAXGUSDT | short | +69.01 $ | take profit |
 | 19.11 05:49 | PAXGUSDT | short | +69.01 $ | take profit |
 | 19.11 04:40 | PAXGUSDT | short | -56.01 $ | stop |
-| 19.11 02:08 | PAXGUSDT | short | -56.02 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 05:35 B5  SHORT gold 25000 USD x10 @ 3736.02 (TP 3724.81, SL 3743.49; news -0.35)
 19.11 05:41 N  NEWS (9 new) score -0.55 conf 0.60: Fed'in daha fazla faiz artırımı sinyali vermesi ve doların 19 aylık zirvesine yakın seyretmesi, reel faiz ve dolar kanalıyla altı baskılıyor; altın 14 aylık dip bölgesinde. İran savaşı ve Orta Doğu gerilimi güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish ve güçlü dolar baskısının altında kalıyor, bu yüzden tepki sınırlı kalabilir.
 19.11 05:41 N  GPT  score -0.35 conf 0.57: Fed’in daha fazla faiz artırımı sinyali ve güçlü dolar, kısa vadede altın üzerinde baskı oluşturuyor. Dip seviyelerden toparlanma ve İran çevresindeki gerilim destekleyici olsa da bu etkiler şimdilik baskıyı dengelemeye yetmeyebilir.
 19.11 05:50 B5  CLOSE short take profit: +69.01 USD
@@ -112,6 +109,7 @@ Son işlemler:
 19.11 06:18 N  NEWS (6 new) score -0.45 conf 0.60: Dolar 19 aylık zirvenin yakınında ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faizleri ve doları destekleyerek altın için kısa vadede baskı yaratıyor. İran savaşının genişleme riski ve Suudi Arabistan'a yönelik Husi tehdidi jeopolitik talebi destekliyor, ancak bu etki dolar ve faiz kanalının gerisinde kalıyor; altın zaten bir yıllık dibe yakın seviyelerde olduğu için haberlerin bir kısmı fiyatlanmış durumda.
 19.11 06:18 N  GPT  score -0.45 conf 0.62: Doların sıkılaşma beklentileriyle yükselişini sürdüreceği ve Fed’in şahin tutumu altın üzerinde kısa vadede baskı yaratıyor. Riyad’a yönelik Husi füze tehdidi güvenli liman talebini destekleyebilir; ancak haber akışı çelişkili ve etkisi sınırlı görünüyor.
 19.11 06:18 B5  SHORT gold 25000 USD x10 @ 3700.65 (TP 3689.55, SL 3708.05; news -0.45)
+19.11 06:26 B5  CLOSE short stop: -56.02 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
