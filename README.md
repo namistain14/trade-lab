@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 07:00 (İstanbul)
+> Son güncelleme: 19.11.2026 07:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,078.46 $** (başlangıç 5,000 $, +78.46 $ / %+1.57)
+**Hesap değeri: 5,073.83 $** (başlangıç 5,000 $, +73.83 $ / %+1.48)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %42.9 | %44.1 |
 | Ödenen komisyon/spread | 84.14 $ | 1702.55 $ |
 
-**Hesap değeri: 4,863.68 $** (başlangıç 5,000 $, -136.32 $ / %-2.73)
+**Hesap değeri: 4,857.67 $** (başlangıç 5,000 $, -142.33 $ / %-2.85)
+
+Açık pozisyonlar: PAXGUSDT short @ 3717.72 (TP 3706.56 / SL 3725.15)
 
 Son haber analizi (19.11 06:30): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
 
@@ -95,8 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 06:18 N  GPT  score -0.45 conf 0.62: Doların sıkılaşma beklentileriyle yükselişini sürdüreceği ve Fed’in şahin tutumu altın üzerinde kısa vadede baskı yaratıyor. Riyad’a yönelik Husi füze tehdidi güvenli liman talebini destekleyebilir; ancak haber akışı çelişkili ve etkisi sınırlı görünüyor.
-19.11 06:18 B5  SHORT gold 25000 USD x10 @ 3700.65 (TP 3689.55, SL 3708.05; news -0.45)
 19.11 06:26 B5  CLOSE short stop: -56.02 USD
 19.11 06:30 N  NEWS (5 new) score -0.50 conf 0.60: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
 19.11 06:30 N  GPT  score -0.55 conf 0.64: Fed Başkanı Warsh’ın %2 enflasyon hedefini vurgulaması ve doların sıkılaşma beklentileriyle 19 ayın zirvesine yakın seyretmesi, kısa vadede altın üzerinde baskı yaratıyor. Körfez gerilimi güvenli liman talebini destekleyebilir; ancak petrol ve savaş haberlerinin etkisi karışık, bu nedenle düşüş bekl
@@ -110,6 +110,8 @@ Son işlemler:
 19.11 06:59 B5  CLOSE short stop (gap): -57.81 USD
 19.11 06:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBcp6C2xcwfnPrwapH9w'}
 19.11 07:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBcsZ3Q1bvWrNxiUeoXC'}
+19.11 07:03 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBd6indna4JXYsDCnu4D'}
+19.11 07:03 B5  SHORT gold 25000 USD x10 @ 3717.72 (TP 3706.56, SL 3725.15; news -0.53)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
