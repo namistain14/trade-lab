@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    5000.0
-   ],
-   [
     1794477323,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795064839,
     5068.76
+   ],
+   [
+    1795065014,
+    5070.52
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    4868.5
-   ],
-   [
     1794477323,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795064839,
+    4868.5
+   ],
+   [
+    1795065014,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "18.11 10:04 B5  CLOSE short take profit: +69.02 USD",
   "18.11 10:07 N  NEWS (8 new) score -0.60 conf 0.60: Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n (3.800 dolar\u0131n alt\u0131) geriliyor; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131/Fed s\u0131k\u0131la\u015ft\u0131rma beklentileri bask\u0131 yarat\u0131yor. \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut d\u00fc\u015f\u00fc\u015f\u00fc \u015fimdiye kadar dengelemedi; net etki 1-4 saat i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
   "18.11 10:07 N  GPT  score -0.68 conf 0.76: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in s\u0131k\u0131la\u015fma beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor; yeni haber ak\u0131\u015f\u0131nda da dolar\u0131n y\u00fckseli\u015fi ve alt\u0131n\u0131n y\u0131ll\u0131k dip seviyelere gerilemesi \u00f6ne \u00e7\u0131k\u0131yor. Orta Do\u011fu\u2019daki gerilim g\u00fcvenli liman talebini destekleyebilir, ancak k\u0131sa vadede bu etki fiyat d\u00fc\u015f\u00fc\u015f\u00fc ve faiz beklentilerinin gerisinde ka",
   "18.11 10:10 B5  SHORT gold 25000 USD x10 @ 3766.53 (TP 3755.23, SL 3774.06; news -0.64)",
@@ -30203,7 +30202,8 @@
   "19.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "19.11 08:07 B5  CLOSE short stop: -56.02 USD",
   "19.11 08:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBhwptqUnsQomNDv4pST'}",
-  "19.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "19.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "19.11 08:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBiB4k8HfJQaKGUwpRom'}"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    4963.78
-   ],
-   [
     1794477323,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795064839,
+    4963.78
+   ],
+   [
+    1795065014,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    4975.18
-   ],
-   [
     1794477323,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795064839,
+    4975.18
+   ],
+   [
+    1795065014,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    4993.28
-   ],
-   [
     1794477323,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795064839,
+    4993.28
+   ],
+   [
+    1795065014,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794477293,
-    4969.22
-   ],
-   [
     1794477323,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795064839,
+    4969.22
+   ],
+   [
+    1795065014,
     4969.22
    ]
   ],
@@ -81836,10 +81836,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794477293,
-    4853.72
-   ],
    [
     1794477323,
     4852.64
@@ -93835,6 +93831,10 @@
    [
     1795064839,
     4807.66
+   ],
+   [
+    1795065014,
+    4807.66
    ]
   ],
   "news_calls": {
@@ -95101,10 +95101,6 @@
    "equity": 115334.94
   },
   "equity_curve": [
-   [
-    1794477293,
-    115251.03
-   ],
    [
     1794477323,
     115251.03
@@ -107100,6 +107096,10 @@
    [
     1795064839,
     115334.94
+   ],
+   [
+    1795065014,
+    115334.94
    ]
   ],
   "open": {},
@@ -107282,10 +107282,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794477293,
-    4876.96
-   ],
    [
     1794477323,
     4876.96
@@ -119280,6 +119276,10 @@
    ],
    [
     1795064839,
+    4876.96
+   ],
+   [
+    1795065014,
     4876.96
    ]
   ],
