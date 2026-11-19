@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 23:01 (İstanbul)
+> Son güncelleme: 19.11.2026 23:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,098.10 $** (başlangıç 5,000 $, +98.10 $ / %+1.96)
+**Hesap değeri: 5,097.88 $** (başlangıç 5,000 $, +97.88 $ / %+1.96)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.7 |
 | Ödenen komisyon/spread | 192.47 $ | 1810.88 $ |
 
-**Hesap değeri: 5,044.60 $** (başlangıç 5,000 $, +44.60 $ / %+0.89)
+**Hesap değeri: 5,017.46 $** (başlangıç 5,000 $, +17.46 $ / %+0.35)
 
 Açık pozisyonlar: PAXGUSDT short @ 3666.23 (TP 3655.23 / SL 3673.56)
 
@@ -77,29 +77,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +3594.26 $ | +16529.97 $ |
-| İşlem sayısı | 9 | 67 |
-| Kazanma oranı | %55.6 | %50.7 |
+| Net kâr/zarar | +5347.56 $ | +18283.27 $ |
+| İşlem sayısı | 10 | 68 |
+| Kazanma oranı | %60.0 | %51.5 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,250.49 $** (başlangıç 100,000 $, +20250.49 $ / %+20.25)
+**Hesap değeri: 120,354.06 $** (başlangıç 100,000 $, +20354.06 $ / %+20.35)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 23:04 | QQQ | short | +1753.30 $ | take profit |
 | 19.11 22:09 | NVDA | short | +1780.94 $ | take profit |
 | 19.11 20:27 | NVDA | short | -1316.47 $ | stop |
 | 19.11 20:06 | NVDA | short | +1802.78 $ | take profit |
 | 19.11 19:56 | QQQ | short | +624.75 $ | stop |
-| 19.11 19:53 | TSLA | long | -420.82 $ | stop |
 
 ## Son olaylar
 
 ```
-19.11 22:15 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71759.63","code":40310000,"cost_basis":"84634.37","message":"insufficient buying power"}
 19.11 22:18 B5  SHORT gold 25000 USD x10 @ 3666.23 (TP 3655.23, SL 3673.56; news -0.42)
 19.11 22:27 N  NEWS (16 new) score -0.60 conf 0.70: Altın, Fed'in faiz artırımı beklentilerinin yükselmesi ve doların 19 aylık zirvesi nedeniyle 14 aylık dip seviyesine geriledi; bu baskı kısa vadede baskın etken. Iran savaşı ve Orta Doğu gerilimi güvenli liman talebini destekliyor olsa da, bu haberler büyük ölçüde fiyatlanmış ve piyasa tepkisi faiz/dolar kanalında kalıyor.
 19.11 22:27 N  GPT  score -0.68 conf 0.78: Faiz artırımı beklentilerinin güçlenmesi altını 14 ayın dibine çekmiş; güçlü dolar ve sıkı Fed beklentileri önümüzdeki saatlerde baskının sürmesine işaret ediyor. İran-Lübnan hattındaki çatışmalar güvenli liman talebini destekleyebilir, ancak şu an faiz ve dolar etkisi daha ağır basıyor.
@@ -114,6 +113,7 @@ Son işlemler:
 19.11 23:01 N  NEWS (17 new) score -0.35 conf 0.50: Yeni haberlerin ağırlığı baskı yönünde: Fed'in Barr'ın yüksek enflasyon nedeniyle ek politika sıkılaştırması sinyali vermesi ve Goolsbee'nin aşırılığı önleme vurgusu faiz artırımı beklentilerini besliyor, bu da altını baskılıyor. Senato'nun İran savaş yetkisi kararı ise güvenli liman talebini dolaylı olarak destekleyebilir ancak büyük ölçüde fiyatlanmış bir siyasi sonuç olduğu için etkisi sınırlı; güçlü dolar ve altının 14 aylık dibi de olumsuz teknik tabloyu gösteriyor.
 19.11 23:01 N  GPT  score -0.25 conf 0.58: Senatonun İran savaşı yetkilerini sınırlama girişimini reddetmesi güvenli liman talebini destekleyebilir; ancak haberin tekrarlanması ve etkinin büyük ölçüde fiyatlanmış olma ihtimali bu desteği azaltıyor. Enflasyon endişeleriyle Fed’den daha sıkı politika beklentisi ve güçlü dolar kısa vadede altın
 19.11 23:01 B6  karar turu: Claude «Piyasa gün boyu satıcılı geçti ve kapanışa doğru düşüş hızlandı, ancak seans kapandığı için yeni pozisyon için risk/getiri dengesi zayıf.» / GPT «Kapanışta satış baskısı güçlü olsa da yeni katalizör bulunmaması ve seans sonrası stop uygulama riski yeni işlem açmayı desteklemiyor.»
+19.11 23:04 B6  CLOSE short QQQ take profit: +1753.30 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
