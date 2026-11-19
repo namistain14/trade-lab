@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    5000.0
-   ],
-   [
     1794538042,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795125618,
     5123.03
+   ],
+   [
+    1795125834,
+    5117.96
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    4868.5
-   ],
-   [
     1794538042,
     4868.5
    ],
@@ -27121,15 +27117,19 @@
    [
     1795125618,
     4868.5
+   ],
+   [
+    1795125834,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.5,
-   "confidence": 0.6,
-   "reason": "S\u0131cak enflasyon s\u00fcrprizi ve Fed'in faiz art\u0131r\u0131m\u0131n\u0131 d\u0131\u015flamayan a\u00e7\u0131klamalar\u0131 (Goolsbee) reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 14 ayl\u0131k dibe inmi\u015f, UBS hedefini d\u00fc\u015f\u00fcrm\u00fc\u015f. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik talebi destekliyor ama Senato'nun sava\u015f yetkisi karar\u0131 ve Xi/Putin'in bar\u0131\u015f \u00e7a\u011fr\u0131s\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; genel tablo k\u0131sa vadede hafif-orta d\u00fczeyde negatif.",
-   "n": 45,
-   "ts": 1795125055745,
-   "new_headlines": 14,
+   "score": -0.1,
+   "confidence": 0.3,
+   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil. Trump, Putin ve Xi'nin \"bar\u0131\u015f bildirgesi\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakereye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131 jeopolitik gerilimi azaltabilece\u011finden, g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif negatif; ancak bu geli\u015fmeler belirsiz ve hen\u00fcz somut bir anla\u015fma i\u00e7ermiyor. Anthropic'in halka arz\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rsa da alt\u0131n \u00fczerinde net bir etkisi beklenmiyor.",
+   "n": 13,
+   "ts": 1795125834550,
+   "new_headlines": 11,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe geriledi; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor",
     "JPMorgan, enflasyon nedeniyle Fed'in ard\u0131\u015f\u0131k \u00fc\u00e7 toplant\u0131da faiz art\u0131rabilece\u011fini \u00f6ng\u00f6r\u00fcyor",
@@ -27137,12 +27137,12 @@
    ],
    "gpt": {
     "score": -0.2,
-    "confidence": 0.57,
-    "reason": "Goolsbee\u2019nin daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131n\u0131 d\u0131\u015flamamas\u0131 ve enflasyon riskleri, tahvil getirileri ile dolar \u00fczerinden alt\u0131na k\u0131sa vadede bask\u0131 yapabilir. \u0130ran sava\u015f\u0131n\u0131n uzama ihtimali g\u00fcvenli liman talebini desteklese de bu etkiyi k\u0131smen dengeliyor; net g\u00f6r\u00fcn\u00fcm hafif negatif.",
+    "confidence": 0.35,
+    "reason": "Trump-Putin-Xi\u2019nin bar\u0131\u015f deklarasyonu ve Avrupa\u2019n\u0131n Rusya\u2019yla g\u00f6r\u00fc\u015fmeye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonu\u00e7lar\u0131 belirsiz; faiz ve dolar y\u00f6n\u00fcne dair yeni bir haber de yok.",
     "key_events": [
-     "Goolsbee\u2019den daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131na a\u00e7\u0131k kap\u0131",
-     "\u0130ran sava\u015f\u0131 yetkilerini s\u0131n\u0131rlama tasar\u0131s\u0131 reddedildi",
-     "Tahran, sava\u015f\u0131n uzayabilece\u011fi uyar\u0131s\u0131 yapt\u0131"
+     "\u00dc\u00e7l\u00fc bar\u0131\u015f deklarasyonu",
+     "Avrupa-Rusya g\u00f6r\u00fc\u015fme sinyali",
+     "Gazze\u2019de kara operasyonunun tamamlanmas\u0131"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794855576693,
-    "score": -0.1,
-    "confidence": 0.3,
-    "reason": "Yeni haberlerin \u00e7o\u011fu alt\u0131n fiyat\u0131yla ilgisiz (f\u00fcze testi, askeri ve \u015firket haberleri). Fed Ba\u015fkan\u0131 Warsh'un AI etkisine dair a\u00e7\u0131klamalar\u0131 enflasyon riskinden ka\u00e7\u0131n\u0131r g\u00f6r\u00fcn\u00fcyor, bu da hafif n\u00f6tr-d\u00fc\u015f\u00fck. \u00d6nceden bilinen zay\u0131f dolar/y\u00fcksek tahvil getirisi bask\u0131s\u0131 ve \"faiz art\u0131r\u0131m\u0131\" tart\u0131\u015fmalar\u0131 alt\u0131n\u0131 h\u00e2l\u00e2 a\u015fa\u011f\u0131 \u00e7ekiyor; jeopolitik g\u00fcvenli liman talebini art\u0131racak yeni bir geli\u015fme yok.",
-    "new": 13,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794856295386,
     "score": -0.25,
@@ -29849,63 +29840,38 @@
     "new": 14,
     "gpt_score": -0.2,
     "gpt_confidence": 0.57
+   },
+   {
+    "ts": 1795125834550,
+    "score": -0.1,
+    "confidence": 0.3,
+    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil. Trump, Putin ve Xi'nin \"bar\u0131\u015f bildirgesi\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakereye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131 jeopolitik gerilimi azaltabilece\u011finden, g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif negatif; ancak bu geli\u015fmeler belirsiz ve hen\u00fcz somut bir anla\u015fma i\u00e7ermiyor. Anthropic'in halka arz\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rsa da alt\u0131n \u00fczerinde net bir etkisi beklenmiyor.",
+    "new": 11,
+    "gpt_score": -0.2,
+    "gpt_confidence": 0.35
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 5
+   "n": 6
   },
   "news_seen": [
-   "Tracking Trump: Senate rejects war powers resolution; Trump meets Xi and Putin; Thanksgiving dinner inflation; and more - The Washington Post",
-   "Senate rejects Iran war powers measure in 48\u201351 vote - finchannel",
-   "US sanctions alleged drug trafficking groups and Canadian-based mafia leaders - Anadolu Ajans\u0131",
-   "Fed\u2019s Goolsbee Won\u2019t Rule Out Larger Rate Increases as Inflation Risks Mount - Barron's",
-   "Netanyahu wants a 7-day war with Iran. Tehran warns it could last much longer - Ynetnews",
-   "Senator Kaine speaks on the ongoing Iran War - 13newsnow.com",
-   "Middle Power Ties in the Gulf and Africa: The Iran War Inflection Point - CSIS | Center for Strategic and International Studies",
-   "Gold Plunges More Than 30% This Year as UBS Cuts End-2026 Target to $4,500 - BigGo Finance",
-   "NEAR slips as US inflation surprise and Fed policy add risk for crypto via higher Treasury yields - Traders Union",
-   "Anthropic IPO Buzz Fails to Stem Selloff as US Stocks Sink More Than 2% - bloomingbit",
-   "Syria hails historic UN resolution recognizing post-war progress - Arab News",
-   "Gold the top commodity pick for 2027 even as broader commodities likely to underperform \u2013 Morgan Stanley - Kitco",
-   "Trump eyes 2027 to 'see what happens' with stalemated US-Iran war - TRT World",
-   "Backing Trump, US Senate Republicans block Iran war resolution - Reuters",
+   "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+   "Anthropic becomes one of world's most valuable public companies in stock market debut",
    "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-   "Cuba seizes three Starlink antennas as authorities intensify pressure on privately operated satellite internet - Latin Times",
-   "US missile shortages create a range problem, report shows - Military Times",
-   "Senate Republicans in US reject measure to limit Trump\u2019s war powers in Iran - Al Jazeera",
    "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-   "Barr says Fed downsizing could hamper response to future crises - American Banker",
-   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
-   "Kast and Xi meet for the first time, signing Chile-China deals as Xi urges the world to choose openness over isolation - Latin Times",
-   "The Pentagon revealed the colossal U.S. costs of the war with Iran and named the amount - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-   "The Sanctions Puzzle: 10 Key Areas to Watch in 2027 and Beyond - JD Supra",
-   "Goolsbee says all options on Fed\u2019s table amid hot inflation - Crain's Chicago Business",
-   "NSA Outage Hits Iran War Ops Amid Nationwide Tech Trouble - Yahoo",
-   "US-Israeli war on Iran 'leave lasting marks' on global energy market, says IEA chief - Middle East Eye",
-   "During Milestone Visit, Hegseth Champions U.S.-Venezuelan Partnership - U.S. Department of War (.gov)",
-   "Fed's Barr worried regulatory changes may increase financial sector risks - Reuters",
-   "US war against Iran has cost $48.3B, Pentagon official tells Senate - Anadolu Ajans\u0131",
-   "Senate Republicans quash measure aimed at ending unpopular Iran war - USA Today",
-   "Russian edition of Alexandra Prokopenko\u2019s \u2018From Sovereigns to Servants: How the War Against Ukraine Reshaped Russia\u2019s Elite\u2019 wins special prize for political nonfiction - Meduza",
-   "Secretary of War Announces Flag and General Officer Nominations - Seapower Magazine",
-   "Federal Reserve Bank of Chicago President Austan Goolsbee is interviewed on the sidelines of the Kansas City Fed's annual economic symposium, in Jackson Hole - The Lufkin Daily News",
-   "Senate again rejects resolution calling for end to Iran war - Jewish Insider",
-   "Senate Democrats Fall Short of Curbing Trump on Iran War - Newser",
-   "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network",
-   "Bitcoin Falls Below $62,000 As Senate Rejects Iran War Powers Resolution - Yahoo Finance",
-   "Twilio, Oracle, Fastly, and Elastic shares plummet, what you need to know - TradingView",
-   "Federal prosecutor targeting Democrats is an Afghan war veteran and former top aide to Sen. Ted Cruz - Washington Times",
-   "Fed's Goolsbee says AI surge could strain US capacity, overheat economy - Reuters",
-   "War in Tigray Severely Disrupted Regional Healthcare Systems and Provider Well-Being - Bioengineer.org",
-   "Dollar Slips From 19-Month Peak as Anthropic Debut Lifts Risk Appetite; Yen Eases - BigGo Finance",
-   "Trump says Xi, Putin want the war on Iran to end - Middle East Eye",
-   "US Senate blocks Iran war powers resolution - Middle East Monitor"
+   "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+   "Rohingya genocide: What was said in court and what happens now?",
+   "Susan Smith denied parole again 32 years after drowning her two sons",
+   "What did Trump, Xi and Putin get out of their historic meeting?",
+   "Israeli military completes ground operation in Gaza beyond Yellow Line",
+   "Anthropic raises $81bn in record-breaking stock market debut",
+   "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "More support for households reliant on heating oil"
   ]
  },
  "log": [
-  "19.11 08:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkEVErEqpEchu2KeVRH'}",
-  "19.11 08:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkGncvWSsyHEonSd4rD'}",
   "19.11 08:40 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkW4BuK8RBK3arZGeEc'}",
   "19.11 08:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkjNsAg2M3pjVcnWWDC'}",
   "19.11 08:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkxbzZm85gSfgghEb3w'}",
@@ -30203,7 +30169,9 @@
   "20.11 00:41 B5  CLOSE short stop: -56.05 USD",
   "20.11 00:47 B5  SHORT gold 25000 USD x10 @ 3616.03 (TP 3605.18, SL 3623.26; news -0.56)",
   "20.11 00:50 N  NEWS (14 new) score -0.50 conf 0.60: S\u0131cak enflasyon s\u00fcrprizi ve Fed'in faiz art\u0131r\u0131m\u0131n\u0131 d\u0131\u015flamayan a\u00e7\u0131klamalar\u0131 (Goolsbee) reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 14 ayl\u0131k dibe inmi\u015f, UBS hedefini d\u00fc\u015f\u00fcrm\u00fc\u015f. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi jeopolitik talebi destekliyor ama Senato'nun sava\u015f yetkisi karar\u0131 ve Xi/Putin'in bar\u0131\u015f \u00e7a\u011fr\u0131s\u0131 bu etkiyi s\u0131n\u0131rl\u0131yor; genel tablo k\u0131sa vadede hafif-orta d\u00fczeyde negatif.",
-  "20.11 00:50 N  GPT  score -0.20 conf 0.57: Goolsbee\u2019nin daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131n\u0131 d\u0131\u015flamamas\u0131 ve enflasyon riskleri, tahvil getirileri ile dolar \u00fczerinden alt\u0131na k\u0131sa vadede bask\u0131 yapabilir. \u0130ran sava\u015f\u0131n\u0131n uzama ihtimali g\u00fcvenli liman talebini desteklese de bu etkiyi k\u0131smen dengeliyor; net g\u00f6r\u00fcn\u00fcm hafif negatif."
+  "20.11 00:50 N  GPT  score -0.20 conf 0.57: Goolsbee\u2019nin daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131n\u0131 d\u0131\u015flamamas\u0131 ve enflasyon riskleri, tahvil getirileri ile dolar \u00fczerinden alt\u0131na k\u0131sa vadede bask\u0131 yapabilir. \u0130ran sava\u015f\u0131n\u0131n uzama ihtimali g\u00fcvenli liman talebini desteklese de bu etkiyi k\u0131smen dengeliyor; net g\u00f6r\u00fcn\u00fcm hafif negatif.",
+  "20.11 01:03 N  NEWS (11 new) score -0.10 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil. Trump, Putin ve Xi'nin \"bar\u0131\u015f bildirgesi\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakereye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131 jeopolitik gerilimi azaltabilece\u011finden, g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif negatif; ancak bu geli\u015fmeler belirsiz ve hen\u00fcz somut bir anla\u015fma i\u00e7ermiyor. Anthropic'in halka arz\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rsa da alt\u0131n \u00fczerinde net bir etkisi beklenmiyor.",
+  "20.11 01:03 N  GPT  score -0.20 conf 0.35: Trump-Putin-Xi\u2019nin bar\u0131\u015f deklarasyonu ve Avrupa\u2019n\u0131n Rusya\u2019yla g\u00f6r\u00fc\u015fmeye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonu\u00e7lar\u0131 belirsiz; faiz ve dolar y\u00f6n\u00fcne dair yeni bir haber de yok."
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30358,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    4963.78
-   ],
-   [
     1794538042,
     4963.78
    ],
@@ -42387,6 +42351,10 @@
    ],
    [
     1795125618,
+    4963.78
+   ],
+   [
+    1795125834,
     4963.78
    ]
   ],
@@ -42502,10 +42470,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    4975.18
-   ],
-   [
     1794538042,
     4975.18
    ],
@@ -54499,6 +54463,10 @@
    ],
    [
     1795125618,
+    4975.18
+   ],
+   [
+    1795125834,
     4975.18
    ]
   ],
@@ -54584,10 +54552,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    4993.28
-   ],
-   [
     1794538042,
     4993.28
    ],
@@ -66581,6 +66545,10 @@
    ],
    [
     1795125618,
+    4993.28
+   ],
+   [
+    1795125834,
     4993.28
    ]
   ]
@@ -66791,10 +66759,6 @@
   },
   "equity_curve": [
    [
-    1794537861,
-    4969.22
-   ],
-   [
     1794538042,
     4969.22
    ],
@@ -78788,6 +78752,10 @@
    ],
    [
     1795125618,
+    4969.22
+   ],
+   [
+    1795125834,
     4969.22
    ]
   ],
@@ -82083,10 +82051,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794537861,
-    4668.34
-   ],
    [
     1794538042,
     4668.34
@@ -94082,6 +94046,10 @@
    [
     1795125618,
     5058.73
+   ],
+   [
+    1795125834,
+    5031.21
    ]
   ],
   "news_calls": {
@@ -95564,10 +95532,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794537861,
-    113945.8
-   ],
    [
     1794538042,
     113945.8
@@ -107563,6 +107527,10 @@
    [
     1795125618,
     120564.69
+   ],
+   [
+    1795125834,
+    120564.69
    ]
   ],
   "open": {},
@@ -107745,10 +107713,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794537861,
-    4876.96
-   ],
    [
     1794538042,
     4876.96
@@ -119743,6 +119707,10 @@
    ],
    [
     1795125618,
+    4876.96
+   ],
+   [
+    1795125834,
     4876.96
    ]
   ],

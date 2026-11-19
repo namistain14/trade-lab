@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 01:00 (İstanbul)
+> Son güncelleme: 20.11.2026 01:03 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,123.03 $** (başlangıç 5,000 $, +123.03 $ / %+2.46)
+**Hesap değeri: 5,117.96 $** (başlangıç 5,000 $, +117.96 $ / %+2.36)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %45.2 |
 | Ödenen komisyon/spread | 24.13 $ | 1847.06 $ |
 
-**Hesap değeri: 5,058.73 $** (başlangıç 5,000 $, +58.73 $ / %+1.17)
+**Hesap değeri: 5,031.21 $** (başlangıç 5,000 $, +31.21 $ / %+0.62)
 
 Açık pozisyonlar: PAXGUSDT short @ 3616.03 (TP 3605.18 / SL 3623.26)
 
-Son haber analizi (20.11 00:50): Claude puan **-0.50**, güven 0.60 — Sıcak enflasyon sürprizi ve Fed'in faiz artırımını dışlamayan açıklamaları (Goolsbee) reel faiz ve dolar beklentilerini yukarı çekerek altın için baskı yaratıyor; altın 14 aylık dibe inmiş, UBS hedefini düşürmüş. İran savaşının sürmesi jeopolitik talebi destekliyor ama Senato'nun savaş yetkisi kararı ve Xi/Putin'in barış çağrısı bu etkiyi sınırlıyor; genel tablo kısa vadede hafif-orta düzeyde negatif.
+Son haber analizi (20.11 01:03): Claude puan **-0.10**, güven 0.30 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.57 — Goolsbee’nin daha büyük faiz artışlarını dışlamaması ve enflasyon riskleri, tahvil getirileri ile dolar üzerinden altına kısa vadede baskı yapabilir. İran savaşının uzama ihtimali güvenli liman talebini desteklese de bu etkiyi kısmen dengeliyor; net görünüm hafif negatif.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.35 — Trump-Putin-Xi’nin barış deklarasyonu ve Avrupa’nın Rusya’yla görüşmeye hazır olduğunu açıklaması, kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonuçları belirsiz; faiz ve dolar yönüne dair yeni bir haber de yok.
 
 Son işlemler:
 
@@ -97,8 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 00:02 N  NEWS (14 new) score -0.50 conf 0.60: Altın, 14 aylık dibe inen fiyatla ve Fed faiz artırımı beklentisiyle baskı altında; bu, reel faiz ve dolar tarafında altın için olumsuz. İran savaşının sürmesi ve Senato'da savaş yetkisi kararının reddedilmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; enerji krizine ilişkin IEA raporu ise enflasyon ve sıkılaşma beklentilerini besleyerek altını aşağı çekebilir.
-20.11 00:02 N  GPT  score -0.30 conf 0.48: Fed’in faiz artırımı beklentisi ve altının 14 ayın dibine indiği haberi kısa vadede baskıyı destekliyor. İran savaşının sürmesi güvenli liman talebi yaratabilir; ancak bu riskin bir kısmı zaten fiyatlanmış ve haber akışı karışık.
 20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)
 20.11 00:14 N  NEWS (14 new) score -0.60 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun sıcak olduğunu ve ek politika sıkılaştırması seçeneklerinin masada olduğunu söylüyor, bu da faiz artırımı beklentilerini ve doları destekleyerek altını baskılıyor. Savaş kaynaklı güvenli liman talebi (İran savaşının sürmesi, Senato'nun savaş yetkisi kararını reddetmesi) bir destek sunsa da bu gelişmeler büyük ölçüde fiyatlanmış durumda; dolar 19 aylık zirveden biraz geri çekildiği için etki kısmen sınırlı.
 20.11 00:14 N  GPT  score -0.43 conf 0.67: Sıcak enflasyon vurgusu ve Fed yetkililerinin daha sıkı politika sinyalleri faiz artışı beklentilerini ve altın üzerindeki baskıyı güçlendiriyor; altının 14 ayın dibine gerilemesi de aşağı yönlü momentuma işaret ediyor. Doların zirveden gevşemesi ve İran savaşının sürmesi kayıpları sınırlayabilir, a
@@ -112,6 +110,8 @@ Son işlemler:
 20.11 00:47 B5  SHORT gold 25000 USD x10 @ 3616.03 (TP 3605.18, SL 3623.26; news -0.56)
 20.11 00:50 N  NEWS (14 new) score -0.50 conf 0.60: Sıcak enflasyon sürprizi ve Fed'in faiz artırımını dışlamayan açıklamaları (Goolsbee) reel faiz ve dolar beklentilerini yukarı çekerek altın için baskı yaratıyor; altın 14 aylık dibe inmiş, UBS hedefini düşürmüş. İran savaşının sürmesi jeopolitik talebi destekliyor ama Senato'nun savaş yetkisi kararı ve Xi/Putin'in barış çağrısı bu etkiyi sınırlıyor; genel tablo kısa vadede hafif-orta düzeyde negatif.
 20.11 00:50 N  GPT  score -0.20 conf 0.57: Goolsbee’nin daha büyük faiz artışlarını dışlamaması ve enflasyon riskleri, tahvil getirileri ile dolar üzerinden altına kısa vadede baskı yapabilir. İran savaşının uzama ihtimali güvenli liman talebini desteklese de bu etkiyi kısmen dengeliyor; net görünüm hafif negatif.
+20.11 01:03 N  NEWS (11 new) score -0.10 conf 0.30: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
+20.11 01:03 N  GPT  score -0.20 conf 0.35: Trump-Putin-Xi’nin barış deklarasyonu ve Avrupa’nın Rusya’yla görüşmeye hazır olduğunu açıklaması, kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonuçları belirsiz; faiz ve dolar yönüne dair yeni bir haber de yok.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
