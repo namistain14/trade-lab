@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 01:18 (İstanbul)
+> Son güncelleme: 20.11.2026 01:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,117.07 $** (başlangıç 5,000 $, +117.07 $ / %+2.34)
+**Hesap değeri: 5,113.99 $** (başlangıç 5,000 $, +113.99 $ / %+2.28)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +12.94 $ | +65.32 $ |
-| İşlem sayısı | 2 | 155 |
-| Kazanma oranı | %50.0 | %45.2 |
-| Ödenen komisyon/spread | 24.13 $ | 1847.06 $ |
+| Net kâr/zarar | -43.11 $ | +9.27 $ |
+| İşlem sayısı | 3 | 156 |
+| Kazanma oranı | %33.3 | %44.9 |
+| Ödenen komisyon/spread | 36.21 $ | 1859.14 $ |
 
-**Hesap değeri: 5,026.17 $** (başlangıç 5,000 $, +26.17 $ / %+0.52)
-
-Açık pozisyonlar: PAXGUSDT short @ 3616.03 (TP 3605.18 / SL 3623.26)
+**Hesap değeri: 5,009.27 $** (başlangıç 5,000 $, +9.27 $ / %+0.19)
 
 Son haber analizi (20.11 01:03): Claude puan **-0.10**, güven 0.30 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 01:21 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 00:41 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 00:25 | PAXGUSDT | short | +68.99 $ | take profit |
 | 19.11 23:58 | PAXGUSDT | short | +68.99 $ | take profit |
 | 19.11 22:11 | PAXGUSDT | short | +69.00 $ | take profit |
-| 19.11 21:30 | PAXGUSDT | short | -56.03 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)
 20.11 00:14 N  NEWS (14 new) score -0.60 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun sıcak olduğunu ve ek politika sıkılaştırması seçeneklerinin masada olduğunu söylüyor, bu da faiz artırımı beklentilerini ve doları destekleyerek altını baskılıyor. Savaş kaynaklı güvenli liman talebi (İran savaşının sürmesi, Senato'nun savaş yetkisi kararını reddetmesi) bir destek sunsa da bu gelişmeler büyük ölçüde fiyatlanmış durumda; dolar 19 aylık zirveden biraz geri çekildiği için etki kısmen sınırlı.
 20.11 00:14 N  GPT  score -0.43 conf 0.67: Sıcak enflasyon vurgusu ve Fed yetkililerinin daha sıkı politika sinyalleri faiz artışı beklentilerini ve altın üzerindeki baskıyı güçlendiriyor; altının 14 ayın dibine gerilemesi de aşağı yönlü momentuma işaret ediyor. Doların zirveden gevşemesi ve İran savaşının sürmesi kayıpları sınırlayabilir, a
 20.11 00:26 B5  CLOSE short take profit: +68.99 USD
@@ -112,6 +109,7 @@ Son işlemler:
 20.11 00:50 N  GPT  score -0.20 conf 0.57: Goolsbee’nin daha büyük faiz artışlarını dışlamaması ve enflasyon riskleri, tahvil getirileri ile dolar üzerinden altına kısa vadede baskı yapabilir. İran savaşının uzama ihtimali güvenli liman talebini desteklese de bu etkiyi kısmen dengeliyor; net görünüm hafif negatif.
 20.11 01:03 N  NEWS (11 new) score -0.10 conf 0.30: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
 20.11 01:03 N  GPT  score -0.20 conf 0.35: Trump-Putin-Xi’nin barış deklarasyonu ve Avrupa’nın Rusya’yla görüşmeye hazır olduğunu açıklaması, kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonuçları belirsiz; faiz ve dolar yönüne dair yeni bir haber de yok.
+20.11 01:21 B5  CLOSE short stop: -56.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
