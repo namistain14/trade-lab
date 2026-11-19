@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 18:34 (İstanbul)
+> Son güncelleme: 19.11.2026 18:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,076.92 $** (başlangıç 5,000 $, +76.92 $ / %+1.54)
+**Hesap değeri: 5,081.77 $** (başlangıç 5,000 $, +81.77 $ / %+1.64)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -75,29 +75,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1176.07 $ | +11759.64 $ |
-| İşlem sayısı | 1 | 59 |
-| Kazanma oranı | %0.0 | %49.2 |
+| Net kâr/zarar | +550.89 $ | +13486.60 $ |
+| İşlem sayısı | 2 | 60 |
+| Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,030.08 $** (başlangıç 100,000 $, +16030.08 $ / %+16.03)
+**Hesap değeri: 116,380.82 $** (başlangıç 100,000 $, +16380.82 $ / %+16.38)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 154.21 (TP 152.19 / SL 156.06)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 18:37 | NVDA | short | +1726.96 $ | take profit |
 | 19.11 18:06 | NVDA | short | -1176.07 $ | stop |
 | 18.11 23:46 | TSLA | long | -107.35 $ | seans sonu |
 | 18.11 23:46 | QQQ | long | -467.84 $ | seans sonu |
 | 18.11 23:46 | NVDA | short | +871.35 $ | seans sonu |
-| 18.11 23:46 | AAPL | short | +444.36 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-19.11 17:57 B6  karar turu: Claude «Endeksler günü artıda tutsa da son bir saatte satış baskısı artıyor; NVDA'daki yönetim şoku teknoloji tarafında risk iştahını zayıflatabilir.» / GPT «Endekslerin gün içi kazanımları erirken kısa vadeli yön aşağı; 1:4 kaldıraçta birbiriyle yüksek korelasyonlu kısa pozisyonların toplam riski sınırlanmalı.»
 19.11 17:57 B6  AÇIĞA SATIŞ NVDA 744 adet ≈ 115,201 $ (1:4) @ 154.84 (TP 152.52, SL 156.39; ikisi de hemfikir, güven 0.62)
 19.11 18:06 B6  CLOSE short NVDA stop: -1176.07 USD
 19.11 18:09 N  NEWS (14 new) score -0.30 conf 0.50: Altın 14 aylık dibe yakın ve 8 seanslık düşüş serisinde; Fed faiz artırımı korkuları reel faiz beklentilerini yukarı çekerek baskı yaratıyor. Riyad'a füze saldırısı ve Hürmüz gerilimi jeopolitik talebi destekliyor, ancak Trump'ın İran savaşını bitirme arayışı ve USS George Washington'ın bölgeden çekilmesi güvenli liman primini sınırlıyor; haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
@@ -112,6 +111,7 @@ Son işlemler:
 19.11 18:34 N  GPT  score -0.15 conf 0.36: İran çevresindeki askeri gerilim güvenli liman talebini destekleyebilir; ancak üçlü barış deklarasyonu ve Fed’in şahin beklentileri bu etkiyi dengeliyor. Haber akışı çelişkili olduğundan kısa vadeli yön sinyali zayıf ve hafif negatif.
 19.11 18:34 B6  karar turu: Claude «Teknoloji öncülüğünde gün içi satış baskısı sürüyor; NVDA'daki yönetim belirsizliği risk iştahını zayıflatıyor.» / GPT «Endekslerde satış ivmesi baskın; SPY ve QQQ tarafında aşağı yön tercih edilirken sert düşmüş TSLA'da yeni pozisyon kovalanmamalı.»
 19.11 18:34 B6  AÇIĞA SATIŞ QQQ 175 adet ≈ 115,598 $ (1:4) @ 660.56 (TP 650.65, SL 667.17; ikisi de hemfikir, güven 0.55)
+19.11 18:37 B6  CLOSE short NVDA take profit: +1726.96 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
