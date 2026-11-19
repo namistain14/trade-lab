@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 18:06 (İstanbul)
+> Son güncelleme: 19.11.2026 18:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,056.84 $** (başlangıç 5,000 $, +56.84 $ / %+1.14)
+**Hesap değeri: 5,053.53 $** (başlangıç 5,000 $, +53.53 $ / %+1.07)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,13 +31,13 @@ Son işlemler:
 | Kazanma oranı | %44.4 | %44.1 |
 | Ödenen komisyon/spread | 108.18 $ | 1726.59 $ |
 
-**Hesap değeri: 4,874.30 $** (başlangıç 5,000 $, -125.70 $ / %-2.51)
+**Hesap değeri: 4,876.19 $** (başlangıç 5,000 $, -123.81 $ / %-2.48)
 
 Açık pozisyonlar: PAXGUSDT short @ 3706.33 (TP 3695.21 / SL 3713.74)
 
-Son haber analizi (19.11 17:57): Claude puan **-0.35**, güven 0.50 — Başlıkların çoğu altın için baskılayıcı: Fed'in şahin beklentisi, güçlü reel faizler ve dolar (19 aylık zirveden sonra kısa mola) altını aşağı çekiyor; Jefferson'ın enflasyon uyarısı da şahin tonu destekliyor. Hormuz ve İran savaşı gerilimleri jeopolitik destek sağlasa da, altının $3.700 civarında zayıf kalması ve güçlü dolar nedeniyle bu güvenli liman talebi şimdilik sınırlı görünüyor; bu nedenle orta düzeyde negatif, güven ise çelişkili haberler yüzünden düşük.
+Son haber analizi (19.11 18:09): Claude puan **-0.30**, güven 0.50 — Altın 14 aylık dibe yakın ve 8 seanslık düşüş serisinde; Fed faiz artırımı korkuları reel faiz beklentilerini yukarı çekerek baskı yaratıyor. Riyad'a füze saldırısı ve Hürmüz gerilimi jeopolitik talebi destekliyor, ancak Trump'ın İran savaşını bitirme arayışı ve USS George Washington'ın bölgeden çekilmesi güvenli liman primini sınırlıyor; haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Jefferson’ın yapay zekâ yatırımlarının enflasyon baskısını artırdığı uyarısı, Fed’in daha şahin kalabileceği beklentisini güçlendirerek altın için kısa vadede olumsuz. Doların soluklanması ve İran kaynaklı enerji güvenliği riskleri bu baskıyı kısmen dengeliyor; haber akışı çelişkili olduğundan etki 
+GPT (gpt-6-luna): puan **-0.18**, güven 0.43 — Riyad’daki füze saldırısı ve Hürmüz gerilimi güvenli liman talebini destekleyebilir; ancak altındaki uzun düşüş serisi ve Fed faiz artırımı beklentileri kısa vadede baskın görünüyor. ABD gemisinin bölgeden ayrılması ve savaşın sona erdirilmesine yönelik işaretler de jeopolitik risk primini sınırlıyo
 
 Son işlemler:
 
@@ -82,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,259.56 $** (başlangıç 100,000 $, +14259.56 $ / %+14.26)
+**Hesap değeri: 114,261.21 $** (başlangıç 100,000 $, +14261.21 $ / %+14.26)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
 
@@ -99,9 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 17:08 N  GPT  score -0.55 conf 0.66: Güçlü reel faizler ve Fed’in faiz artırabileceği beklentisi doları destekleyerek altın üzerinde baskı kuruyor; devam eden düşüş de kısa vadeli momentumu zayıflatıyor. İran savaşı kaynaklı güvenli liman talebi aşağı yönlü görünümü sınırlasa da yeni başlıklar net bir tırmanış göstermiyor.
-19.11 17:20 N  NEWS (11 new) score -0.40 conf 0.60: Haberlerin ağırlığı altın için olumsuz: Fed'in şahin tutumu, JP Morgan'ın üç toplantıda faiz artışı beklentisi, güçlü dolar ve reel faizlerin desteği altın üzerinde baskı yaratıyor; altın 8 seans üst üste düşüş yaşıyor. Hürmüz gerilimi ve Philly Fed'in zayıf verisi sınırlı bir jeopolitik destek sağlasa da fiyat yine de 3.700 civarında zayıf seyrediyor. Yatırımcı satışı ve kaldıraç çözülmesi de kısa vadeli düşüşü destekliyor.
-19.11 17:20 N  GPT  score -0.58 conf 0.68: Önümüzdeki birkaç saat için görünüm aşağı yönlü: Fed’in daha şahin olacağı beklentisi ve güçlü dolar/gerçek faizler altını baskılıyor; uzun süren satış serisi de zayıf momentuma işaret ediyor. Zayıf istihdam verisi ve Hürmüz gerilimi sınırlı destek sağlayabilir, ancak altının bunlara rağmen zorlanma
 19.11 17:32 N  NEWS (7 new) score -0.50 conf 0.60: Altın, Fed sıkılaştırma beklentileri, güçlü dolar ve yükselen reel faizler nedeniyle baskı altında; 8 seanslık kayıp serisi sürüyor ve jeopolitik risklere (İran saldırı ihtimali, Hürmüz gerilimi) rağmen güvenli liman talebi fiyatı destekleyemiyor. Bu nedenle kısa vadeli görünüm negatif, ancak haberlerin çoğu zaten fiyatlanmış olduğundan güven orta düzeyde.
 19.11 17:32 N  GPT  score -0.25 conf 0.48: Fed’in şahin beklentileri, güçlü reel faizler ve altındaki sert düşüş kısa vadede baskın; doların soluklanması ve İran’a olası saldırı haberleri düşüşü sınırlayabilir. İran haberi henüz kesinleşmiş bir tırmanış değil ve başlık akışı çelişkili olduğundan güven düşük-orta düzeyde.
 19.11 17:32 B6  karar turu: Claude «Piyasa güçlü bir açılışın ardından yatay konsolidasyonda; NVDA'daki çelişkili haberler teknoloji tarafında oynaklık riski taşıyor.» / GPT «Endeksler gün bazında güçlü ancak saatlik momentum zayıf; dört kat kaldıraçta geniş piyasa yükselişini kovalamak yerine NVDA'daki taze olumsuz habere sınırlı riskle odaklanıyorum.»
@@ -114,6 +111,9 @@ Son işlemler:
 19.11 17:57 B6  karar turu: Claude «Endeksler günü artıda tutsa da son bir saatte satış baskısı artıyor; NVDA'daki yönetim şoku teknoloji tarafında risk iştahını zayıflatabilir.» / GPT «Endekslerin gün içi kazanımları erirken kısa vadeli yön aşağı; 1:4 kaldıraçta birbiriyle yüksek korelasyonlu kısa pozisyonların toplam riski sınırlanmalı.»
 19.11 17:57 B6  AÇIĞA SATIŞ NVDA 744 adet ≈ 115,201 $ (1:4) @ 154.84 (TP 152.52, SL 156.39; ikisi de hemfikir, güven 0.62)
 19.11 18:06 B6  CLOSE short NVDA stop: -1176.07 USD
+19.11 18:09 N  NEWS (14 new) score -0.30 conf 0.50: Altın 14 aylık dibe yakın ve 8 seanslık düşüş serisinde; Fed faiz artırımı korkuları reel faiz beklentilerini yukarı çekerek baskı yaratıyor. Riyad'a füze saldırısı ve Hürmüz gerilimi jeopolitik talebi destekliyor, ancak Trump'ın İran savaşını bitirme arayışı ve USS George Washington'ın bölgeden çekilmesi güvenli liman primini sınırlıyor; haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
+19.11 18:09 N  GPT  score -0.18 conf 0.43: Riyad’daki füze saldırısı ve Hürmüz gerilimi güvenli liman talebini destekleyebilir; ancak altındaki uzun düşüş serisi ve Fed faiz artırımı beklentileri kısa vadede baskın görünüyor. ABD gemisinin bölgeden ayrılması ve savaşın sona erdirilmesine yönelik işaretler de jeopolitik risk primini sınırlıyo
+19.11 18:09 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde yükselişte ancak gün içi dalgalanma yüksek ve SPY son saatte yatay-zayıf seyrediyor.» / GPT «Endekslerde günlük kazançlara rağmen kısa vadeli ivme karışık; dört kat kaldıraçta küçük pozisyonlarla, belirlenen yüzde 1,5 kâr ve yüzde 1 zarar braketlerini koruyarak seçici satışları tercih ediyorum.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
