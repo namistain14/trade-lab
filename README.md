@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 19:56 (İstanbul)
+> Son güncelleme: 19.11.2026 20:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,099.64 $** (başlangıç 5,000 $, +99.64 $ / %+1.99)
+**Hesap değeri: 5,101.41 $** (başlangıç 5,000 $, +101.41 $ / %+2.03)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %45.5 | %44.2 |
 | Ödenen komisyon/spread | 132.25 $ | 1750.66 $ |
 
-**Hesap değeri: 4,867.16 $** (başlangıç 5,000 $, -132.84 $ / %-2.66)
+**Hesap değeri: 4,885.91 $** (başlangıç 5,000 $, -114.09 $ / %-2.28)
 
 Açık pozisyonlar: PAXGUSDT short @ 3680.13 (TP 3669.09 / SL 3687.49)
 
@@ -82,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 116,907.91 $** (başlangıç 100,000 $, +16907.91 $ / %+16.91)
+**Hesap değeri: 117,097.09 $** (başlangıç 100,000 $, +17097.09 $ / %+17.10)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
 
@@ -99,10 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 19:24 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: güçlü dolar ve Fed faiz artırımı beklentileri altın satışını besliyor, altın 14 aylık dibe yakın işlem görüyor. Körfez'deki gerilim ve İran savaşı riski güvenli liman talebi yaratabilir, ancak bu etki sınırlı kalıyor ve haber akışı zaten bilinen bir gerilimi tekrarlıyor; bu nedenle güven orta düzeyde tutuldu.
-19.11 19:24 N  GPT  score -0.35 conf 0.61: Altın için en doğrudan güncel sinyal, güçlü dolar ve Fed faiz artışı beklentilerinin satışları artırdığı yönünde; bu, kısa vadede baskının sürebileceğini düşündürüyor. Orta Doğu gerilimi güvenli liman talebini destekleyebilir ancak haberler karışık ve bu etki faiz beklentileriyle sınırlanabilir.
-19.11 19:24 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; teknoloji hafif pozitif, SPY ise hafif negatif seyrediyor.» / GPT «Endeksler yatay ve dalgalı seyrederken, 1:4 kaldıraç nedeniyle şirket haberleriyle desteklenen işlemlerde dahi küçük pozisyon ve sıkı risk disiplini gerekli.»
-19.11 19:36 B5  CLOSE short stop (gap): -57.21 USD
 19.11 19:36 N  NEWS (9 new) score -0.30 conf 0.50: Faiz artırımı beklentileri ve güçlenen dolar altını baskılıyor; Fed Başkan Yardımcısı Jefferson'ın enflasyon uyarısı ve "Fed faiz artırmaya hazırlanıyor" temalı haberler bu yönü destekliyor. Riyad'daki PIF kulesine Husi saldırısı gibi jeopolitik gerginlik güvenli liman talebini sınırlı da olsa artırabilir, ancak bu etki şimdiye kadar altın fiyatını yukarı taşımamış görünüyor.
 19.11 19:36 N  GPT  score -0.25 conf 0.45: Jefferson’ın yapay zekâ kaynaklı enflasyonun sürebileceği yönündeki sözleri Fed’in daha sıkı kalacağı beklentisini güçlendirerek altını kısa vadede baskılayabilir; doların güçlenmesi de bu yönde. Ortadoğu’daki saldırı haberleri güvenli liman talebini desteklese de haber akışı çelişkili ve büyük ölçü
 19.11 19:36 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; teknoloji hafif güçlü, SPY ise hafif ekside.» / GPT «Endekslerde yatay seyir hâkim; dört kat kaldıraçla yeni pozisyon açmayı destekleyecek belirgin bir haber veya momentum avantajı görünmüyor.»
@@ -114,6 +110,10 @@ Son işlemler:
 19.11 19:53 B6  CLOSE short NVDA take profit: +1765.59 USD
 19.11 19:53 B6  CLOSE long TSLA stop: -420.82 USD
 19.11 19:56 B6  CLOSE short QQQ stop: +624.75 USD
+19.11 20:00 B  NEWS failed: Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}, 'request_id': 'req_011ChCeHmYm4uwyyfKdSY7yq'}
+19.11 20:00 B6  karar turu: Claude «Son bir saatte teknoloji öncülüğünde belirgin bir satış dalgası var; NVDA'daki yönetim krizi Nasdaq üzerinde baskıyı artırıyor.» / GPT «Piyasa genelindeki aşağı kırılma satış yönünü destekliyor; dört kat kaldıraç nedeniyle QQQ ve NVDA işlemlerinin toplam korelasyon riski sınırlanmalı.»
+19.11 20:00 B6  AÇIĞA SATIŞ QQQ 178 adet ≈ 116,517 $ (1:4) @ 654.59 (TP 644.77, SL 661.14; ikisi de hemfikir, güven 0.45)
+19.11 20:00 B6  AÇIĞA SATIŞ NVDA 778 adet ≈ 117,081 $ (1:4) @ 150.49 (TP 148.23, SL 151.99; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
