@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 20:03 (İstanbul)
+> Son güncelleme: 19.11.2026 20:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,110.01 $** (başlangıç 5,000 $, +110.01 $ / %+2.20)
+**Hesap değeri: 5,111.56 $** (başlangıç 5,000 $, +111.56 $ / %+2.23)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -75,29 +75,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +1327.01 $ | +14262.72 $ |
-| İşlem sayısı | 6 | 64 |
-| Kazanma oranı | %50.0 | %50.0 |
+| Net kâr/zarar | +3129.79 $ | +16065.50 $ |
+| İşlem sayısı | 7 | 65 |
+| Kazanma oranı | %57.1 | %50.8 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,647.05 $** (başlangıç 100,000 $, +19647.05 $ / %+19.65)
+**Hesap değeri: 120,369.57 $** (başlangıç 100,000 $, +20369.57 $ / %+20.37)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 150.31 (TP 148.23 / SL 151.99); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 20:06 | NVDA | short | +1802.78 $ | take profit |
 | 19.11 19:56 | QQQ | short | +624.75 $ | stop |
 | 19.11 19:53 | TSLA | long | -420.82 $ | stop |
 | 19.11 19:53 | NVDA | short | +1765.59 $ | take profit |
 | 19.11 19:01 | NVDA | short | -1193.40 $ | stop |
-| 19.11 18:37 | NVDA | short | +1726.96 $ | take profit |
 
 ## Son olaylar
 
 ```
-19.11 19:41 B5  SHORT gold 25000 USD x10 @ 3680.13 (TP 3669.09, SL 3687.49; news -0.28)
 19.11 19:48 N  NEWS (10 new) score -0.60 conf 0.70: Yeni gelen başlıklar altın için net olarak baskılayıcı: güçlü dolar ve Fed'de faiz artırımı beklentilerinin yükselmesi altını 14 aylık dibe çekiyor. Jefferson'ın enflasyon uyarısı ve Fed'e yönelik sıkılaştırma yorumları bu baskıyı destekliyor; jeopolitik (İran savaşı, Ukrayna) haberleri ise güvenli liman talebi yaratmadığı için dengeleyici etki göstermiyor. Birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
 19.11 19:48 N  GPT  score -0.62 conf 0.76: Güçlü dolar ve Fed’in faiz artıracağına yönelik artan beklentiler, altını kısa vadede baskılıyor; fiyatın 14 ayın dibine gerilemesi de bu etkinin hâlihazırda belirgin olduğunu gösteriyor. İran kaynaklı enerji şoku ve Myanmar kararı güvenli liman talebini destekleyebilir, ancak yeni ve güçlü bir kata
 19.11 19:48 B6  karar turu: Claude «Piyasa yatay ve teknoloji ağırlıklı hafif pozitif bir seyir izliyor, ancak NVDA'daki CEO istifası ve not indirimleri riskini akılda tutmak gerekiyor.» / GPT «Endekslerdeki saatlik toparlanma seçici alımları destekliyor ancak dar işlem aralıkları ve NVIDIA kaynaklı haber riski agresif kaldıraç kullanımında temkin gerektiriyor.»
@@ -112,6 +111,7 @@ Son işlemler:
 19.11 20:01 N  NEWS (8 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi; güçlü dolar ve Fed faiz artırımı beklentileri (Jefferson'ın enflasyon uyarısı, azalan faiz indirimi ihtimali) baskı yaratıyor. Savaş kaynaklı güvenli liman talebi var ancak enerji şoku zaten fiyatlanmış görünüyor ve bu haberler altını destekleyemiyor, bu nedenle kısa vadede negatif eğilim sürebilir.
 19.11 20:01 N  GPT  score -0.55 conf 0.76: Güçlenen dolar ve Fed’in faiz artıracağı beklentilerinin altını baskıladığı, fiyatın 14 ayın dibine gerilediği belirtiliyor. Petrol arzındaki artış ve savaş priminin silinmesi enflasyon baskısını azaltarak bu görünümü bir miktar dengeleyebilir; ancak kısa vadede aşağı yönlü baskınlık sürüyor.
 19.11 20:03 B5  CLOSE short take profit: +69.00 USD
+19.11 20:06 B6  CLOSE short NVDA take profit: +1802.78 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
