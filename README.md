@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 00:35 (İstanbul)
+> Son güncelleme: 20.11.2026 00:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,122.81 $** (başlangıç 5,000 $, +122.81 $ / %+2.46)
+**Hesap değeri: 5,121.93 $** (başlangıç 5,000 $, +121.93 $ / %+2.44)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,11 +31,13 @@ Son işlemler:
 | Kazanma oranı | %100.0 | %45.5 |
 | Ödenen komisyon/spread | 12.06 $ | 1834.98 $ |
 
-**Hesap değeri: 5,121.37 $** (başlangıç 5,000 $, +121.37 $ / %+2.43)
+**Hesap değeri: 5,115.33 $** (başlangıç 5,000 $, +115.33 $ / %+2.31)
 
-Son haber analizi (20.11 00:26): Claude puan **-0.45**, güven 0.60 — Fed yetkililerinin (Goolsbee, Barr) sıkı para politikası ve enflasyon konusundaki sert mesajları, faiz artırımı beklentilerini güçlendirerek doları destekliyor ve altı baskılıyor. İran savaşıyla ilgili Senato kararı ve Avrupa-Rusya müzakere haberleri ise güvenli liman talebini artırmadığı için altın üzerinde ek bir yukarı yönlü etki yaratmıyor; haberlerin çoğu zaten fiyatlanmış durumda.
+Açık pozisyonlar: PAXGUSDT short @ 3615.32 (TP 3604.47 / SL 3622.55)
 
-GPT (gpt-6-luna): puan **+0.15**, güven 0.34 — İran savaşını sınırlama girişiminin reddedilmesi, çatışmanın sürmesi riskini canlı tutarak altına hafif destek verebilir. Ancak Ukrayna için görüşme sinyali ve enflasyon kaynaklı şahin Fed beklentileri bu desteği dengeliyor; başlıkların bir kısmı da tekrarlı veya önceden fiyatlanmış görünüyor.
+Son haber analizi (20.11 00:38): Claude puan **-0.55**, güven 0.60 — Fed yetkililerinin sıkılaştırma sinyalleri (Goolsbee: sıcak enflasyon, tüm seçeneklerin masada olduğu; Barr: ek politika ayarı gerektiği) ve güçlü dolar, 14 aylık dibe inen altını baskılıyor. İran savaşının sürmesi güvenli liman talebini bir miktar destekliyor, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; altının 21:27'de "sabitlenmesi" kısa vadeli bir toparlanma sinyali olabilir, bu yüzden güven orta düzeyde.
+
+GPT (gpt-6-luna): puan **-0.58**, güven 0.76 — Altın için yakın vadede baskın etki, Fed’in daha fazla faiz artışı sinyali ve dolar gücü; altının 14 ayın dibine yakın seyretmesi de bu baskıyı yansıtıyor. İran savaşı ve enerji arzına ilişkin riskler güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde mevcut fiyatlamaya girmiş gö
 
 Son işlemler:
 
@@ -95,9 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 23:38 N  GPT  score +0.18 conf 0.48: Senatonun İran savaşını durdurma girişimini reddetmesi, çatışmanın sürmesi riskini ve güvenli liman talebini sınırlı ölçüde destekliyor. Barr’ın enflasyon nedeniyle ek politika ayarlaması gerektiği mesajı altın için baskı oluşturabilir; haberlerin çoğu mevcut gelişmelerin tekrarı olduğundan net etki
-19.11 23:46 B6  CLOSE short AAPL seans sonu: +524.76 USD
-19.11 23:46 B6  CLOSE long TSLA seans sonu: -282.10 USD
 19.11 23:46 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 19.11 23:50 N  NEWS (10 new) score -0.30 conf 0.50: Fed yetkililerinin (Goolsbee: "sıcak enflasyon", FOMC'de tüm seçeneklerin masada olduğu; Barr: enflasyon ek politika sıkılaştırması gerektiriyor) şahin mesajları reel faiz beklentilerini yükselterek altın için baskı yaratıyor. İran savaşıyla ilgili Senato'daki savaş yetkisi oylaması ve Trump'ın Xi/Putin'in savaşın bitmesini istediği yönündeki açıklaması ise jeopolitik korku primini sınırlıyor; bu nedenle güvenli liman talebi destekleyici olsa da ana etki sınırlı kalıyor.
 19.11 23:50 N  GPT  score +0.15 conf 0.42: Senato’nun İran savaşı yetkilerini sınırlama girişimini reddetmesi çatışmanın sürebileceği algısını ve güvenli liman talebini destekleyebilir. Ancak Goolsbee’nin aşırı ısınma ve enflasyon vurgusu faiz indirimi beklentilerini törpüleyerek altını baskılayabilir; Trump’ın savaşın sona erdirilmesine yön
@@ -110,6 +109,9 @@ Son işlemler:
 20.11 00:26 B5  CLOSE short take profit: +68.99 USD
 20.11 00:26 N  NEWS (9 new) score -0.45 conf 0.60: Fed yetkililerinin (Goolsbee, Barr) sıkı para politikası ve enflasyon konusundaki sert mesajları, faiz artırımı beklentilerini güçlendirerek doları destekliyor ve altı baskılıyor. İran savaşıyla ilgili Senato kararı ve Avrupa-Rusya müzakere haberleri ise güvenli liman talebini artırmadığı için altın üzerinde ek bir yukarı yönlü etki yaratmıyor; haberlerin çoğu zaten fiyatlanmış durumda.
 20.11 00:26 N  GPT  score +0.15 conf 0.34: İran savaşını sınırlama girişiminin reddedilmesi, çatışmanın sürmesi riskini canlı tutarak altına hafif destek verebilir. Ancak Ukrayna için görüşme sinyali ve enflasyon kaynaklı şahin Fed beklentileri bu desteği dengeliyor; başlıkların bir kısmı da tekrarlı veya önceden fiyatlanmış görünüyor.
+20.11 00:38 N  NEWS (12 new) score -0.55 conf 0.60: Fed yetkililerinin sıkılaştırma sinyalleri (Goolsbee: sıcak enflasyon, tüm seçeneklerin masada olduğu; Barr: ek politika ayarı gerektiği) ve güçlü dolar, 14 aylık dibe inen altını baskılıyor. İran savaşının sürmesi güvenli liman talebini bir miktar destekliyor, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; altının 21:27'de "sabitlenmesi" kısa vadeli bir toparlanma sinyali olabilir, bu yüzden güven orta düzeyde.
+20.11 00:38 N  GPT  score -0.58 conf 0.76: Altın için yakın vadede baskın etki, Fed’in daha fazla faiz artışı sinyali ve dolar gücü; altının 14 ayın dibine yakın seyretmesi de bu baskıyı yansıtıyor. İran savaşı ve enerji arzına ilişkin riskler güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde mevcut fiyatlamaya girmiş gö
+20.11 00:38 B5  SHORT gold 25000 USD x10 @ 3615.32 (TP 3604.47, SL 3622.55; news -0.56)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
