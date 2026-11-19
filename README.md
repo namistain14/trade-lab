@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 14:26 (İstanbul)
+> Son güncelleme: 19.11.2026 14:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,071.18 $** (başlangıç 5,000 $, +71.18 $ / %+1.42)
+**Hesap değeri: 5,069.42 $** (başlangıç 5,000 $, +69.42 $ / %+1.39)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,807.66 $** (başlangıç 5,000 $, -192.34 $ / %-3.85)
 
-Son haber analizi (19.11 14:17): Claude puan **-0.15**, güven 0.40 — Yeni başlıklar karışık: FXStreet'in "Fed'in daha hızlı faiz artırma ihtimali" uyarısı altın için baskılayıcı, dolar gücünün sürmesi de negatif. İran savaşı ve Trump'ın yeni bir İran saldırısı değerlendirmesi güvenli liman talebini destekliyor, ancak ABD-Çin-Rusya zirvesi jeopolitik riski azaltarak bunu dengeliyor. Net etki hafif negatif ve belirsiz.
+Son haber analizi (19.11 14:30): Claude puan **-0.15**, güven 0.35 — Haberler karışık: İran savaşı ve Riyad'daki füze saldırıları jeopolitik risk prim desteği sağlıyor, ancak ABD-Çin-Rusya zirvesi ve "nükleer savaş kazanılamaz" bildirgesi gerilimi azaltıcı yönde. Fed'in daha hızlı faiz artırma beklentisi ve dolardaki güç altın için baskı oluşturuyor; bu nedenle kısa vadede hafif negatif bir görünüm, düşük güvenle.
 
-GPT (gpt-6-luna): puan **+0.22**, güven 0.38 — Riyad’daki füze hasarı, Gazze’deki operasyon ve İran’a yeni saldırı ihtimali kısa vadeli güvenli liman talebini destekleyebilir. Ancak daha hızlı Fed faiz artırımı beklentisi altın için olumsuz; dolar rallisinin durması ve diplomatik görüşme haberleri de etkileri dengeliyor.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.31 — ABD, Çin ve Rusya’nın nükleer savaşı önlemeye dönük bildirisi risk iştahını destekleyip güvenli liman talebini sınırlayabilir; ancak İran çevresindeki çatışma haberleri bu etkiyi dengeliyor. Daha hızlı Fed faiz artışı beklentileri de altın için baskı unsuru, fakat kısa vadeli yön sinyalleri çelişkil
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 13:16 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7XnV6s4FxmtCokqC9N'}
-19.11 13:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7m55Lvb1pQ1svpR9sU'}
 19.11 13:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7zMUC7dQydiNxHMy5H'}
 19.11 13:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC8DaNhG8ftN1eENENWm'}
 19.11 13:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC8StrJTfsBnehpN4AmC'}
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 14:05 N  GPT  score +0.05 conf 0.30: İran’da yeni saldırı ihtimali ve bölgesel enerji/ güvenlik riskleri güvenli liman talebini destekleyebilir; ancak ABD-Çin-Rusya görüşmelerinde belirgin bir kırılma olmaması, güçlü dolar ve daha yüksek faiz beklentisi altını sınırlıyor. Haber akışı çelişkili ve kısa vadeli fiyat etkisi belirsiz.
 19.11 14:17 N  NEWS (16 new) score -0.15 conf 0.40: Yeni başlıklar karışık: FXStreet'in "Fed'in daha hızlı faiz artırma ihtimali" uyarısı altın için baskılayıcı, dolar gücünün sürmesi de negatif. İran savaşı ve Trump'ın yeni bir İran saldırısı değerlendirmesi güvenli liman talebini destekliyor, ancak ABD-Çin-Rusya zirvesi jeopolitik riski azaltarak bunu dengeliyor. Net etki hafif negatif ve belirsiz.
 19.11 14:17 N  GPT  score +0.22 conf 0.38: Riyad’daki füze hasarı, Gazze’deki operasyon ve İran’a yeni saldırı ihtimali kısa vadeli güvenli liman talebini destekleyebilir. Ancak daha hızlı Fed faiz artırımı beklentisi altın için olumsuz; dolar rallisinin durması ve diplomatik görüşme haberleri de etkileri dengeliyor.
+19.11 14:30 N  NEWS (8 new) score -0.15 conf 0.35: Haberler karışık: İran savaşı ve Riyad'daki füze saldırıları jeopolitik risk prim desteği sağlıyor, ancak ABD-Çin-Rusya zirvesi ve "nükleer savaş kazanılamaz" bildirgesi gerilimi azaltıcı yönde. Fed'in daha hızlı faiz artırma beklentisi ve dolardaki güç altın için baskı oluşturuyor; bu nedenle kısa vadede hafif negatif bir görünüm, düşük güvenle.
+19.11 14:30 N  GPT  score -0.15 conf 0.31: ABD, Çin ve Rusya’nın nükleer savaşı önlemeye dönük bildirisi risk iştahını destekleyip güvenli liman talebini sınırlayabilir; ancak İran çevresindeki çatışma haberleri bu etkiyi dengeliyor. Daha hızlı Fed faiz artışı beklentileri de altın için baskı unsuru, fakat kısa vadeli yön sinyalleri çelişkil
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
