@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 22:15 (İstanbul)
+> Son güncelleme: 19.11.2026 22:18 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,087.29 $** (başlangıç 5,000 $, +87.29 $ / %+1.75)
+**Hesap değeri: 5,089.28 $** (başlangıç 5,000 $, +89.28 $ / %+1.79)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.7 |
 | Ödenen komisyon/spread | 192.47 $ | 1810.88 $ |
 
-**Hesap değeri: 4,983.39 $** (başlangıç 5,000 $, -16.61 $ / %-0.33)
+**Hesap değeri: 4,977.36 $** (başlangıç 5,000 $, -22.64 $ / %-0.45)
+
+Açık pozisyonlar: PAXGUSDT short @ 3666.23 (TP 3655.23 / SL 3673.56)
 
 Son haber analizi (19.11 22:15): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvede, Fed'e yönelik şahin beklentiler ve Aralık'ta faiz artırımı olasılığı altın için baskı oluşturuyor; FXEmpire başlığı da altının yıllık dipleri test ettiğini gösteriyor. Jeopolitik riskler (İran savaşı, Ukrayna, Orta Doğu) güvenli liman talebini destekleyebilir, ancak piyasada bu etki şimdilik görülmüyor ve petrol fiyatlarının düşmesi enflasyon baskısını azaltarak da sınırlı bir etki yaratıyor.
 
@@ -80,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %55.6 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,909.15 $** (başlangıç 100,000 $, +19909.15 $ / %+19.91)
+**Hesap değeri: 119,900.95 $** (başlangıç 100,000 $, +19900.95 $ / %+19.90)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 654.23 (TP 644.77 / SL 661.14); TSLA long @ 377.11 (TP 382.92 / SL 373.49)
 
@@ -97,7 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 21:38 B5  SHORT gold 25000 USD x10 @ 3677.52 (TP 3666.49, SL 3684.88; news -0.38)
 19.11 21:38 B6  karar turu: Claude «Piyasa NVIDIA CEO istifası ve not indirimleri baskısıyla yaklaşık %1 ekside, öğleden sonra ise temkinli bir dipten dönüş denemesi var.» / GPT «Endeksler günlük kayıplarını korurken dipten toparlanıyor; UTC zamanlı NVIDIA haberleri New York saatine göre birkaç saat eski olduğundan taze katalizör sayılmamalı.»
 19.11 21:51 N  NEWS (8 new) score -0.50 conf 0.60: Sıkılaşan Fed beklentileri (Aralık'ta faiz artırımı ihtimali), güçlü dolar ve enflasyon sürprizleri altın üzerinde baskı yaratıyor; altın yıllık dip seviyelerini test ediyor. İran savaşının yeniden başlayabileceğine dair haberler güvenli liman talebini destekleyebilir, ancak bu etki mevcut hawkish ve dolar kaynaklı satış baskısını şimdilik dengeleyemiyor.
 19.11 21:51 N  GPT  score -0.20 conf 0.42: Fed’in enflasyon ve aşırı ısınma kaygıları ile doların güçlü görünümü, yakın vadede altına baskı yapabilir; altının yıllık dipleri test etmesi de zayıf momentuma işaret ediyor. İran’la yeniden savaş ihtimaline dair yeni açıklamalar güvenli liman talebini destekleyebilir, bu nedenle görünüm karışık v
@@ -112,6 +113,7 @@ Son işlemler:
 19.11 22:15 N  GPT  score -0.35 conf 0.52: Doların 19 ayın zirvesine çıkması ve Fed’in sıkı duruşu altın üzerinde baskı yaratıyor; petrol fiyatlarındaki düşüş de enflasyon ve faiz kaygılarını hafifletebilir. İran kaynaklı çatışma riski güvenli liman talebini desteklese de bu karşıt etki kısa vadeli görünümü belirsizleştiriyor.
 19.11 22:15 B6  karar turu: Claude «Piyasa günü yaklaşık %1,6 düşüşle negatif geçiriyor ve kapanışa doğru hafif aşağı eğilimli yatay bir seyir izliyor.» / GPT «Genel görünüm zayıf; ancak normal seansın kapanışına yalnızca 45 dakika kalması, hedefe ulaşma süresini ve işlem esnekliğini kısıtlıyor.»
 19.11 22:15 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"71759.63","code":40310000,"cost_basis":"84634.37","message":"insufficient buying power"}
+19.11 22:18 B5  SHORT gold 25000 USD x10 @ 3666.23 (TP 3655.23, SL 3673.56; news -0.42)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
