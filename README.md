@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 00:02 (İstanbul)
+> Son güncelleme: 20.11.2026 00:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,107.59 $** (başlangıç 5,000 $, +107.59 $ / %+2.15)
+**Hesap değeri: 5,111.12 $** (başlangıç 5,000 $, +111.12 $ / %+2.22)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %45.1 |
 | Ödenen komisyon/spread | 0.00 $ | 1822.93 $ |
 
-**Hesap değeri: 5,052.38 $** (başlangıç 5,000 $, +52.38 $ / %+1.05)
+**Hesap değeri: 5,046.35 $** (başlangıç 5,000 $, +46.35 $ / %+0.93)
+
+Açık pozisyonlar: PAXGUSDT short @ 3652.18 (TP 3641.22 / SL 3659.48)
 
 Son haber analizi (20.11 00:02): Claude puan **-0.50**, güven 0.60 — Altın, 14 aylık dibe inen fiyatla ve Fed faiz artırımı beklentisiyle baskı altında; bu, reel faiz ve dolar tarafında altın için olumsuz. İran savaşının sürmesi ve Senato'da savaş yetkisi kararının reddedilmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; enerji krizine ilişkin IEA raporu ise enflasyon ve sıkılaşma beklentilerini besleyerek altını aşağı çekebilir.
 
@@ -95,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 23:13 N  NEWS (12 new) score -0.20 conf 0.45: Yeni haberlerin çoğu jeopolitik gürültü: Senato'nun İran savaş yetkisi kararını reddetmesi ve İsrail'in Hizbullah'a saldırısı kısa vadeli güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda. Fed'in Barr'ın yüksek enflasyon nedeniyle ek politika sıkılaştırması gerekebileceğini belirtmesi ve piyasada faiz artırımı beklentilerinin güçlenmesi altın için baskılayıcı; altın zaten 14 aylık dibe ve güçlü dolara karşı geriliyor. Net etki hafif negatif.
 19.11 23:13 N  GPT  score +0.18 conf 0.38: İran savaşını sınırlama girişiminin reddedilmesi ve İsrail’in Hizbullah hedefini vurması kısa vadede güvenli liman talebini destekleyebilir. Ancak altın üzerindeki güçlü dolar ve faiz artışı beklentisi baskısı ile Ukrayna’da müzakere sinyalleri yükseliş etkisini sınırlıyor.
 19.11 23:13 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla günü yaklaşık %2 düşüşle kapattı, ancak seans kapandığı için yeni pozisyon açmak yerine yarın açılışı beklemek daha disiplinli.» / GPT «Normal seans 16:00'da kapandı; görünüm aşağı yönlü olsa da önümüzdeki 1–3 saatte seans sonrası likidite ve bracket emirlerinin çalışması doğrulanmadan 1:4 kaldıraçla yeni risk almam.»
 19.11 23:26 N  NEWS (19 new) score -0.05 conf 0.30: Yeni haberlerin çoğu Senato'nun İran savaş yetkisi oylamasının reddedilmesi gibi büyük ölçüde fiyatlanmış gelişmeler; savaşın sürmesi sınırlı bir güvenli liman desteği sağlasa da etkisi zayıf. Fed'in faiz yolu konusunda temkinli tutum ve Barr'ın yüksek enflasyon nedeniyle ek politika ayarına işaret etmesi ise hafif baskılayıcı (şahin) sinyal veriyor; genel tablo nötre yakın, hafif negatif.
@@ -110,6 +111,7 @@ Son işlemler:
 19.11 23:58 B5  CLOSE short take profit: +68.99 USD
 20.11 00:02 N  NEWS (14 new) score -0.50 conf 0.60: Altın, 14 aylık dibe inen fiyatla ve Fed faiz artırımı beklentisiyle baskı altında; bu, reel faiz ve dolar tarafında altın için olumsuz. İran savaşının sürmesi ve Senato'da savaş yetkisi kararının reddedilmesi güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; enerji krizine ilişkin IEA raporu ise enflasyon ve sıkılaşma beklentilerini besleyerek altını aşağı çekebilir.
 20.11 00:02 N  GPT  score -0.30 conf 0.48: Fed’in faiz artırımı beklentisi ve altının 14 ayın dibine indiği haberi kısa vadede baskıyı destekliyor. İran savaşının sürmesi güvenli liman talebi yaratabilir; ancak bu riskin bir kısmı zaten fiyatlanmış ve haber akışı karışık.
+20.11 00:04 B5  SHORT gold 25000 USD x10 @ 3652.18 (TP 3641.22, SL 3659.48; news -0.40)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
