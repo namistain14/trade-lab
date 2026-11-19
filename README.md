@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 13:28 (İstanbul)
+> Son güncelleme: 19.11.2026 13:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,073.61 $** (başlangıç 5,000 $, +73.61 $ / %+1.47)
+**Hesap değeri: 5,074.05 $** (başlangıç 5,000 $, +74.05 $ / %+1.48)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,807.66 $** (başlangıç 5,000 $, -192.34 $ / %-3.85)
 
-Son haber analizi (19.11 06:30): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
+Son haber analizi (19.11 13:29): Claude puan **-0.30**, güven 0.50 — Fed tutanakları daha yüksek faiz ihtiyacına işaret ederek altı baskılıyor ve dolar güçleniyor; enflasyonun yeniden hızlanması da reel faiz beklentilerini yukarı çekebilir. İran savaşı, Riyad'a füze saldırısı gibi jeopolitik riskler güvenli liman talebini destekliyor olsa da piyasa bunlara sınırlı tepki veriyor ve petrol stokları gibi faktörler jeopolitik riski geri plana itiyor; bu nedenle net etki hafif-orta düzeyde negatif.
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.64 — Fed Başkanı Warsh’ın %2 enflasyon hedefini vurgulaması ve doların sıkılaşma beklentileriyle 19 ayın zirvesine yakın seyretmesi, kısa vadede altın üzerinde baskı yaratıyor. Körfez gerilimi güvenli liman talebini destekleyebilir; ancak petrol ve savaş haberlerinin etkisi karışık, bu nedenle düşüş bekl
+GPT (gpt-6-luna): puan **+0.15**, güven 0.38 — İran’a yönelik yeni saldırı ihtimali ve Riyad’ı hedef alan füze haberi kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed’in faizleri yüksek tutma eğilimi ve barış görüşmelerine dair iyimser açıklamalar yükselişi sınırlıyor.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 12:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC5F81PrCxHnzi1shbwm'}
-19.11 12:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC5UNWtVVNce1Dr7mQQV'}
 19.11 12:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC5he3tE2Frf8iK5rRzd'}
 19.11 12:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC5vvVTvfBYEbfK3zRah'}
 19.11 12:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC6AD112m5wPbw4s327Z'}
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 13:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7zMUC7dQydiNxHMy5H'}
 19.11 13:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC8DaNhG8ftN1eENENWm'}
 19.11 13:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC8StrJTfsBnehpN4AmC'}
+19.11 13:29 N  NEWS (45 new) score -0.30 conf 0.50: Fed tutanakları daha yüksek faiz ihtiyacına işaret ederek altı baskılıyor ve dolar güçleniyor; enflasyonun yeniden hızlanması da reel faiz beklentilerini yukarı çekebilir. İran savaşı, Riyad'a füze saldırısı gibi jeopolitik riskler güvenli liman talebini destekliyor olsa da piyasa bunlara sınırlı tepki veriyor ve petrol stokları gibi faktörler jeopolitik riski geri plana itiyor; bu nedenle net etki hafif-orta düzeyde negatif.
+19.11 13:29 N  GPT  score +0.15 conf 0.38: İran’a yönelik yeni saldırı ihtimali ve Riyad’ı hedef alan füze haberi kısa vadede güvenli liman talebini destekleyebilir. Ancak doların güçlü seyri, Fed’in faizleri yüksek tutma eğilimi ve barış görüşmelerine dair iyimser açıklamalar yükselişi sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
