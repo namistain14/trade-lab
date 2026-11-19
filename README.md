@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 08:04 (İstanbul)
+> Son güncelleme: 19.11.2026 08:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,072.95 $** (başlangıç 5,000 $, +72.95 $ / %+1.46)
+**Hesap değeri: 5,068.76 $** (başlangıç 5,000 $, +68.76 $ / %+1.38)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -18.85 $ | -136.32 $ |
-| İşlem sayısı | 7 | 143 |
-| Kazanma oranı | %42.9 | %44.1 |
-| Ödenen komisyon/spread | 84.14 $ | 1702.55 $ |
+| Net kâr/zarar | -74.87 $ | -192.34 $ |
+| İşlem sayısı | 8 | 144 |
+| Kazanma oranı | %37.5 | %43.8 |
+| Ödenen komisyon/spread | 96.16 $ | 1714.57 $ |
 
-**Hesap değeri: 4,840.32 $** (başlangıç 5,000 $, -159.68 $ / %-3.19)
-
-Açık pozisyonlar: PAXGUSDT short @ 3717.72 (TP 3706.56 / SL 3725.15)
+**Hesap değeri: 4,807.66 $** (başlangıç 5,000 $, -192.34 $ / %-3.85)
 
 Son haber analizi (19.11 06:30): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Altın zaten bir yılın en düşük seviyesinde ve düşüş trendinde olduğu için, İran savaşı ve Husi tehditleri gibi jeopolitik risklerin güvenli liman talebini tek başına dengelemesi zor görünüyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 08:07 | PAXGUSDT | short | -56.02 $ | stop |
 | 19.11 06:58 | PAXGUSDT | short | -57.81 $ | stop (gap) |
 | 19.11 06:27 | PAXGUSDT | short | -56.02 $ | stop |
 | 19.11 06:13 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 05:59 | PAXGUSDT | short | +69.01 $ | take profit |
-| 19.11 05:49 | PAXGUSDT | short | +69.01 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,9 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 07:30 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfA8qKTL8fxnQiY9v3s'}
-19.11 07:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfPNd9Cf2LUrms2qvrK'}
-19.11 07:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfcgvM4F1HChr5YQg28'}
 19.11 07:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBfqvfhFyPdP2Cok7tHz'}
 19.11 07:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBg5FjmvUpCjVfhMCNVi'}
 19.11 07:45 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBgJWTuf5A24yWZb91D8'}
@@ -112,6 +107,9 @@ Son işlemler:
 19.11 08:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 19.11 08:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBhic1prJ36FYHzqKkee'}
 19.11 08:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+19.11 08:07 B5  CLOSE short stop: -56.02 USD
+19.11 08:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBhwptqUnsQomNDv4pST'}
+19.11 08:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
