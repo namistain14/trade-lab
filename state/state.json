@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794532594,
-    5000.0
-   ],
-   [
     1794532763,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795120319,
     5111.12
+   ],
+   [
+    1795120499,
+    5111.78
    ]
   ],
   "archive": [
@@ -15122,10 +15122,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794532594,
-    4868.5
-   ],
    [
     1794532763,
     4868.5
@@ -27120,6 +27116,10 @@
    ],
    [
     1795120319,
+    4868.5
+   ],
+   [
+    1795120499,
     4868.5
    ]
   ],
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794532594,
-    4963.78
-   ],
-   [
     1794532763,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795120319,
+    4963.78
+   ],
+   [
+    1795120499,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794532594,
-    4975.18
-   ],
-   [
     1794532763,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795120319,
+    4975.18
+   ],
+   [
+    1795120499,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794532594,
-    4993.28
-   ],
-   [
     1794532763,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795120319,
+    4993.28
+   ],
+   [
+    1795120499,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794532594,
-    4969.22
-   ],
-   [
     1794532763,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795120319,
+    4969.22
+   ],
+   [
+    1795120499,
     4969.22
    ]
   ],
@@ -82020,10 +82020,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794532594,
-    4668.34
-   ],
    [
     1794532763,
     4668.34
@@ -94019,6 +94015,10 @@
    [
     1795120319,
     5025.64
+   ],
+   [
+    1795120499,
+    5007.03
    ]
   ],
   "news_calls": {
@@ -94226,7 +94226,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 120521.210035,
+   "balance": 120521.212235,
    "start": 100000.0,
    "positions": [
     {
@@ -94241,7 +94241,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Piyasa y\u00fckselirken haber olmadan saatlik %1,3 d\u00fc\u015f\u00fc\u015f g\u00f6receli zay\u0131fl\u0131k g\u00f6steriyor, zay\u0131f toparlanma short i\u00e7in uygun. | GPT 0.65: Pozitif endekslere ra\u011fmen s\u00fcren belirgin g\u00f6reli zay\u0131fl\u0131k ve dip yak\u0131n\u0131ndaki fiyatlama a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam\u0131 destekliyor.",
-     "cur": 349.09
+     "cur": 348.8268
     },
     {
      "id": "cde8a57e-5d7c-4caa-8346-d24fcd0fc829",
@@ -94255,7 +94255,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Direksiyonsuz Model Y ve Japonya Megapack haberleri az \u00f6nce \u00e7\u0131kt\u0131, fiyat hen\u00fcz tepki vermedi ve yukar\u0131 hareket bekleniyor. | GPT 0.55: Yeni Megapack operasyonu ve direksiyonsuz Model Y haberleri, saatlik yatayla\u015fman\u0131n ard\u0131ndan k\u0131sa vadeli tepki al\u0131m\u0131n\u0131 destekleyebilir.",
-     "cur": 375.03
+     "cur": 374.485
     }
    ],
    "trades": [
@@ -95486,18 +95486,14 @@
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl": 4917.9,
+    "pnl": 4920.02,
     "trades": 14,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 120237.81
+   "equity": 120239.93
   },
   "equity_curve": [
-   [
-    1794532594,
-    113945.8
-   ],
    [
     1794532763,
     113945.8
@@ -107493,6 +107489,10 @@
    [
     1795120319,
     120237.81
+   ],
+   [
+    1795120499,
+    120239.93
    ]
   ],
   "open": {
@@ -107586,7 +107586,7 @@
   "premarket_day": "2026-11-19",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "226871.21",
+   "buying_power": "227152.54",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -107698,10 +107698,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794532594,
-    4876.96
-   ],
    [
     1794532763,
     4876.96
@@ -119696,6 +119692,10 @@
    ],
    [
     1795120319,
+    4876.96
+   ],
+   [
+    1795120499,
     4876.96
    ]
   ],
