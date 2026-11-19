@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 06:44 (İstanbul)
+> Son güncelleme: 19.11.2026 06:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,088.61 $** (başlangıç 5,000 $, +88.61 $ / %+1.77)
+**Hesap değeri: 5,083.54 $** (başlangıç 5,000 $, +83.54 $ / %+1.67)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.4 |
 | Ödenen komisyon/spread | 72.12 $ | 1690.53 $ |
 
-**Hesap değeri: 4,946.36 $** (başlangıç 5,000 $, -53.64 $ / %-1.07)
+**Hesap değeri: 4,909.75 $** (başlangıç 5,000 $, -90.25 $ / %-1.80)
 
 Açık pozisyonlar: PAXGUSDT short @ 3707.92 (TP 3696.79 / SL 3715.33)
 
@@ -97,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 05:56 B5  SHORT gold 25000 USD x10 @ 3713.75 (TP 3702.61, SL 3721.17; news -0.47)
 19.11 05:59 B5  CLOSE short take profit: +69.01 USD
 19.11 06:05 N  NEWS (4 new) score -0.40 conf 0.60: Dolar 19 aylık zirveye yakın seyrediyor ve Fed yetkilileri daha fazla sıkılaştırma sinyali veriyor; bu, reel faizleri ve doları yukarı iterek altın için baskılayıcı. İran savaşı ve Etiyopya-Eritre gerilimi gibi jeopolitik riskler altını destekleyebilir, ancak altın zaten bir yıllık dibe yakın fiyatlanmış ve haberlerin ağırlığı hawkish Fed/güçlü dolar tarafında olduğu için net etki hafif-orta düzeyde negatif.
 19.11 06:05 N  GPT  score -0.30 conf 0.55: Fed yetkililerinin daha sıkı politika sinyalleri ve 19 ayın zirvesine yakın dolar, kısa vadede altın üzerinde baskı yaratıyor. Körfez’deki savaş ve Etiyopya-Eritre gerilimi güvenli liman talebini destekleyebilir; bu nedenle düşüş beklentisi sınırlı güven taşıyor.
@@ -112,6 +111,7 @@ Son işlemler:
 19.11 06:32 B5  SHORT gold 25000 USD x10 @ 3707.92 (TP 3696.79, SL 3715.33; news -0.53)
 19.11 06:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbSStFgCQxoL8aYM22J'}
 19.11 06:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbfisnk1ZA9eK4j3reH'}
+19.11 06:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbtyUjN1CqzsptDYkJf'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
