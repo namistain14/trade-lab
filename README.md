@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,091.92 $** (başlangıç 5,000 $, +91.92 $ / %+1.84)
+**Hesap değeri: 5,087.73 $** (başlangıç 5,000 $, +87.73 $ / %+1.75)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %44.5 |
 | Ödenen komisyon/spread | 120.21 $ | 1738.62 $ |
 
-**Hesap değeri: 4,939.45 $** (başlangıç 5,000 $, -60.55 $ / %-1.21)
+**Hesap değeri: 4,924.19 $** (başlangıç 5,000 $, -75.81 $ / %-1.52)
 
 Açık pozisyonlar: PAXGUSDT short @ 3670.77 (TP 3659.75 / SL 3678.11)
 
@@ -82,9 +82,9 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,574.75 $** (başlangıç 100,000 $, +14574.75 $ / %+14.57)
+**Hesap değeri: 114,411.44 $** (başlangıç 100,000 $, +14411.44 $ / %+14.41)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 153.02 (TP 150.69 / SL 154.51); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
 
 Son işlemler:
 
