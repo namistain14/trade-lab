@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 19:38 (İstanbul)
+> Son güncelleme: 19.11.2026 19:41 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,089.28 $** (başlangıç 5,000 $, +89.28 $ / %+1.79)
+**Hesap değeri: 5,084.20 $** (başlangıç 5,000 $, +84.20 $ / %+1.68)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %45.5 | %44.2 |
 | Ödenen komisyon/spread | 132.25 $ | 1750.66 $ |
 
-**Hesap değeri: 4,888.46 $** (başlangıç 5,000 $, -111.54 $ / %-2.23)
+**Hesap değeri: 4,882.44 $** (başlangıç 5,000 $, -117.56 $ / %-2.35)
+
+Açık pozisyonlar: PAXGUSDT short @ 3680.13 (TP 3669.09 / SL 3687.49)
 
 Son haber analizi (19.11 19:36): Claude puan **-0.30**, güven 0.50 — Faiz artırımı beklentileri ve güçlenen dolar altını baskılıyor; Fed Başkan Yardımcısı Jefferson'ın enflasyon uyarısı ve "Fed faiz artırmaya hazırlanıyor" temalı haberler bu yönü destekliyor. Riyad'daki PIF kulesine Husi saldırısı gibi jeopolitik gerginlik güvenli liman talebini sınırlı da olsa artırabilir, ancak bu etki şimdiye kadar altın fiyatını yukarı taşımamış görünüyor.
 
@@ -80,7 +82,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 113,647.62 $** (başlangıç 100,000 $, +13647.62 $ / %+13.65)
+**Hesap değeri: 113,410.94 $** (başlangıç 100,000 $, +13410.94 $ / %+13.41)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 153.02 (TP 150.69 / SL 154.51); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
 
@@ -97,7 +99,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 18:59 N  GPT  score -0.30 conf 0.60: Yeni haberlerde altındaki kayıpların daha sıkı Fed beklentilerine bağlanması, güçlü dolar zeminiyle birlikte önümüzdeki 1–4 saat için aşağı yönlü baskıya işaret ediyor. Ancak şahin patikanın kısmen fiyatlanmış olması, dolar rallisinin soluklanması ve Orta Doğu kaynaklı güvenli liman talebi düşüş bek
 19.11 18:59 B5  SHORT gold 25000 USD x10 @ 3670.77 (TP 3659.75, SL 3678.11; news -0.45)
 19.11 18:59 B6  karar turu: Claude «NVDA CEO istifası teknoloji tarafında belirsizlik yaratırken endeksler bir saatlik sert satıştan sonra kırılgan bir tepki veriyor; yön netleşene kadar temkinli kalmak mantıklı.» / GPT «Endekslerde saatlik satış baskısı baskın olsa da son diplerden gelen tepki, yeni kısa pozisyonlarda temkin gerektiriyor.»
 19.11 19:01 B6  CLOSE short NVDA stop: -1193.40 USD
@@ -112,6 +113,7 @@ Son işlemler:
 19.11 19:36 N  NEWS (9 new) score -0.30 conf 0.50: Faiz artırımı beklentileri ve güçlenen dolar altını baskılıyor; Fed Başkan Yardımcısı Jefferson'ın enflasyon uyarısı ve "Fed faiz artırmaya hazırlanıyor" temalı haberler bu yönü destekliyor. Riyad'daki PIF kulesine Husi saldırısı gibi jeopolitik gerginlik güvenli liman talebini sınırlı da olsa artırabilir, ancak bu etki şimdiye kadar altın fiyatını yukarı taşımamış görünüyor.
 19.11 19:36 N  GPT  score -0.25 conf 0.45: Jefferson’ın yapay zekâ kaynaklı enflasyonun sürebileceği yönündeki sözleri Fed’in daha sıkı kalacağı beklentisini güçlendirerek altını kısa vadede baskılayabilir; doların güçlenmesi de bu yönde. Ortadoğu’daki saldırı haberleri güvenli liman talebini desteklese de haber akışı çelişkili ve büyük ölçü
 19.11 19:36 B6  karar turu: Claude «Piyasa öğle saatlerinde yatay ve kararsız; teknoloji hafif güçlü, SPY ise hafif ekside.» / GPT «Endekslerde yatay seyir hâkim; dört kat kaldıraçla yeni pozisyon açmayı destekleyecek belirgin bir haber veya momentum avantajı görünmüyor.»
+19.11 19:41 B5  SHORT gold 25000 USD x10 @ 3680.13 (TP 3669.09, SL 3687.49; news -0.28)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
