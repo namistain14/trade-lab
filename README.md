@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 18:15 (İstanbul)
+> Son güncelleme: 19.11.2026 18:18 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,065.01 $** (başlangıç 5,000 $, +65.01 $ / %+1.30)
+**Hesap değeri: 5,066.33 $** (başlangıç 5,000 $, +66.33 $ / %+1.33)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -5.86 $ | -123.33 $ |
-| İşlem sayısı | 9 | 145 |
-| Kazanma oranı | %44.4 | %44.1 |
-| Ödenen komisyon/spread | 108.18 $ | 1726.59 $ |
+| Net kâr/zarar | +63.14 $ | -54.33 $ |
+| İşlem sayısı | 10 | 146 |
+| Kazanma oranı | %50.0 | %44.5 |
+| Ödenen komisyon/spread | 120.21 $ | 1738.62 $ |
 
-**Hesap değeri: 4,932.31 $** (başlangıç 5,000 $, -67.69 $ / %-1.35)
-
-Açık pozisyonlar: PAXGUSDT short @ 3706.33 (TP 3695.21 / SL 3713.74)
+**Hesap değeri: 4,945.67 $** (başlangıç 5,000 $, -54.33 $ / %-1.09)
 
 Son haber analizi (19.11 18:09): Claude puan **-0.30**, güven 0.50 — Altın 14 aylık dibe yakın ve 8 seanslık düşüş serisinde; Fed faiz artırımı korkuları reel faiz beklentilerini yukarı çekerek baskı yaratıyor. Riyad'a füze saldırısı ve Hürmüz gerilimi jeopolitik talebi destekliyor, ancak Trump'ın İran savaşını bitirme arayışı ve USS George Washington'ın bölgeden çekilmesi güvenli liman primini sınırlıyor; haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 18:18 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 15:16 | PAXGUSDT | short | +69.01 $ | take profit |
 | 19.11 08:07 | PAXGUSDT | short | -56.02 $ | stop |
 | 19.11 06:58 | PAXGUSDT | short | -57.81 $ | stop (gap) |
 | 19.11 06:27 | PAXGUSDT | short | -56.02 $ | stop |
-| 19.11 06:13 | PAXGUSDT | short | +69.00 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -82,7 +80,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 114,479.99 $** (başlangıç 100,000 $, +14479.99 $ / %+14.48)
+**Hesap değeri: 114,197.05 $** (başlangıç 100,000 $, +14197.05 $ / %+14.20)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25)
 
@@ -99,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 17:32 N  NEWS (7 new) score -0.50 conf 0.60: Altın, Fed sıkılaştırma beklentileri, güçlü dolar ve yükselen reel faizler nedeniyle baskı altında; 8 seanslık kayıp serisi sürüyor ve jeopolitik risklere (İran saldırı ihtimali, Hürmüz gerilimi) rağmen güvenli liman talebi fiyatı destekleyemiyor. Bu nedenle kısa vadeli görünüm negatif, ancak haberlerin çoğu zaten fiyatlanmış olduğundan güven orta düzeyde.
 19.11 17:32 N  GPT  score -0.25 conf 0.48: Fed’in şahin beklentileri, güçlü reel faizler ve altındaki sert düşüş kısa vadede baskın; doların soluklanması ve İran’a olası saldırı haberleri düşüşü sınırlayabilir. İran haberi henüz kesinleşmiş bir tırmanış değil ve başlık akışı çelişkili olduğundan güven düşük-orta düzeyde.
 19.11 17:32 B6  karar turu: Claude «Piyasa güçlü bir açılışın ardından yatay konsolidasyonda; NVDA'daki çelişkili haberler teknoloji tarafında oynaklık riski taşıyor.» / GPT «Endeksler gün bazında güçlü ancak saatlik momentum zayıf; dört kat kaldıraçta geniş piyasa yükselişini kovalamak yerine NVDA'daki taze olumsuz habere sınırlı riskle odaklanıyorum.»
 19.11 17:45 N  NEWS (11 new) score -0.50 conf 0.60: Baskın etki negatif: dolar 19 aylık zirvesinde, güçlü reel faizler ve Fed'in sıkılaşma beklentisi (JPMorgan'ın üç toplantıda faiz artırımı öngörüsü) altın üzerinde baskı yaratıyor; altın 8 seans üst üste düşüş yaşadı. İran'a saldırı ihtimali ve Hormuz gerginliği gibi jeopolitik risk ise kısa vadede sınırlı bir destek sağlıyor, ancak bu haberlerin büyük kısmı zaten fiyatlanmış olduğu için güveni azaltıyor.
@@ -114,6 +111,7 @@ Son işlemler:
 19.11 18:09 N  NEWS (14 new) score -0.30 conf 0.50: Altın 14 aylık dibe yakın ve 8 seanslık düşüş serisinde; Fed faiz artırımı korkuları reel faiz beklentilerini yukarı çekerek baskı yaratıyor. Riyad'a füze saldırısı ve Hürmüz gerilimi jeopolitik talebi destekliyor, ancak Trump'ın İran savaşını bitirme arayışı ve USS George Washington'ın bölgeden çekilmesi güvenli liman primini sınırlıyor; haberler karışık ve bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 19.11 18:09 N  GPT  score -0.18 conf 0.43: Riyad’daki füze saldırısı ve Hürmüz gerilimi güvenli liman talebini destekleyebilir; ancak altındaki uzun düşüş serisi ve Fed faiz artırımı beklentileri kısa vadede baskın görünüyor. ABD gemisinin bölgeden ayrılması ve savaşın sona erdirilmesine yönelik işaretler de jeopolitik risk primini sınırlıyo
 19.11 18:09 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde yükselişte ancak gün içi dalgalanma yüksek ve SPY son saatte yatay-zayıf seyrediyor.» / GPT «Endekslerde günlük kazançlara rağmen kısa vadeli ivme karışık; dört kat kaldıraçta küçük pozisyonlarla, belirlenen yüzde 1,5 kâr ve yüzde 1 zarar braketlerini koruyarak seçici satışları tercih ediyorum.»
+19.11 18:18 B5  CLOSE short take profit: +69.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
