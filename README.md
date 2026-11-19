@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 04:34 (İstanbul)
+> Son güncelleme: 19.11.2026 04:37 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,106.93 $** (başlangıç 5,000 $, +106.93 $ / %+2.14)
+**Hesap değeri: 5,106.26 $** (başlangıç 5,000 $, +106.26 $ / %+2.13)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %43.8 |
 | Ödenen komisyon/spread | 12.02 $ | 1630.43 $ |
 
-**Hesap değeri: 4,826.52 $** (başlangıç 5,000 $, -173.48 $ / %-3.47)
+**Hesap değeri: 4,820.51 $** (başlangıç 5,000 $, -179.49 $ / %-3.59)
+
+Açık pozisyonlar: PAXGUSDT short @ 3734.82 (TP 3723.62 / SL 3742.29)
 
 Son haber analizi (19.11 04:28): Claude puan **-0.60**, güven 0.60 — Şahin Fed söylemleri, güçlenen dolar ve faiz artırımı beklentisi altını 14 aylık dibe itiyor; jeopolitik risk (İran savaşı, Venezuela, Kırım köprüsü saldırısı) güvenli liman talebi yaratmaya çalışsa da bu etki baskın değil. Düşüş büyük ölçüde fiyatlanmış olduğundan güveni orta seviyede tutuyorum.
 
@@ -95,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 03:03 N  GPT  score -0.55 conf 0.68: Önümüzdeki birkaç saatte altın için baskın etkenler, şahin Fed beklentileri ve yıllık zirvelerini sınayan güçlü dolar; bunlar fiyatı aşağı çekiyor. İran çevresindeki gerilim ve yeni çatışma riskleri güvenli liman talebi sağlayabilir, ancak şu an düşüş baskısını dengelemesi belirsiz.
 19.11 03:15 N  NEWS (5 new) score -0.50 conf 0.60: Faiz artırımı beklentisi güçleniyor (Fed tutanakları ve Kashkari'nin daha fazla artırım yorumu) ve dolar yıllık zirvelere yakın seyrediyor; bu, altın için net bir baskı oluşturuyor. İran'a yeni saldırı ihtimali gibi jeopolitik risk güvenli liman talebini destekleyebilir, ancak bu etki baskın faktör olan sıkı para politikası ve güçlü doların gerisinde kalıyor; ayrıca birçok başlık zaten fiyatlanmış durumda.
 19.11 03:15 N  GPT  score -0.72 conf 0.78: Şahin Fed mesajları ve güçlenen dolar, yükselen reel faiz beklentileri üzerinden altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de bu eğilimi destekliyor. İran ve Yemen kaynaklı gerilimler güvenli liman talebini artırabilir, ancak kısa vadede bu etki baskın görünmüyor.
 19.11 03:27 N  NEWS (5 new) score -0.60 conf 0.70: Fed'in şahin tonu (tutanaklarda Aralık'ta faiz artırımı ihtiyacı, Kashkari'nin daha fazla artırım beklentisi) ve doların yıllık zirveye yakın seyri altını baskılıyor; altın 14 aylık dibe inmiş durumda. İran savaşı ve jeopolitik gerilim gibi güvenli liman etkenleri var ama altını yukarı taşımadığı görülüyor, bu yüzden genel etki negatif; yine de haberlerin çoğu zaten fiyatlanmış olabileceğinden güven orta-yüksek.
@@ -110,6 +111,7 @@ Son işlemler:
 19.11 04:16 N  GPT  score -0.35 conf 0.58: Hawkish Fed beklentileri ve doların güçlü kalması, altının yeni dip seviyelere gerilemesiyle birlikte kısa vadede aşağı yönlü baskıyı öne çıkarıyor. Kırım Köprüsü saldırısı güvenli liman talebini destekleyebilir; Yemen haberi ise füzenin engellenmesi nedeniyle sınırlı ve çelişkili bir etki yaratıyor
 19.11 04:28 N  NEWS (6 new) score -0.60 conf 0.60: Şahin Fed söylemleri, güçlenen dolar ve faiz artırımı beklentisi altını 14 aylık dibe itiyor; jeopolitik risk (İran savaşı, Venezuela, Kırım köprüsü saldırısı) güvenli liman talebi yaratmaya çalışsa da bu etki baskın değil. Düşüş büyük ölçüde fiyatlanmış olduğundan güveni orta seviyede tutuyorum.
 19.11 04:28 N  GPT  score -0.58 conf 0.72: Altın üzerindeki baskın kısa vadeli etki negatif: şahin Fed beklentileri ve güçlü dolar, fiyatın yeni dipler ve teknik kırılma yönünde ilerlemesini destekliyor. Yemen ve Kırım kaynaklı gerilimler güvenli liman talebini artırabilir, ancak şu an bu baskıyı dengeleyecek kadar güçlü görünmüyor.
+19.11 04:37 B5  SHORT gold 25000 USD x10 @ 3734.82 (TP 3723.62, SL 3742.29; news -0.59)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
