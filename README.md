@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 01:24 (İstanbul)
+> Son güncelleme: 20.11.2026 01:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,111.78 $** (başlangıç 5,000 $, +111.78 $ / %+2.24)
+**Hesap değeri: 5,109.35 $** (başlangıç 5,000 $, +109.35 $ / %+2.19)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 5,009.27 $** (başlangıç 5,000 $, +9.27 $ / %+0.19)
 
-Son haber analizi (20.11 01:03): Claude puan **-0.10**, güven 0.30 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
+Son haber analizi (20.11 01:27): Claude puan **-0.15**, güven 0.30 — Başlıkların çoğu altınla doğrudan ilgili değil; Fed, reel faiz, dolar veya enflasyon hakkında yeni bir veri yok. Trump-Putin-Xi "barış deklarasyonu" ve Avrupa'nın Rusya ile Ukrayna savaşını sonlandırma görüşmelerine hazır olduğunu söylemesi jeopolitik risk primini biraz azaltabileceği için hafif negatif; Gazze'deki askeri operasyon ise destekleyici ama eski ve sınırlı bir etki. Genel etki zayıf, bu nedenle düşük güven.
 
-GPT (gpt-6-luna): puan **-0.20**, güven 0.35 — Trump-Putin-Xi’nin barış deklarasyonu ve Avrupa’nın Rusya’yla görüşmeye hazır olduğunu açıklaması, kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonuçları belirsiz; faiz ve dolar yönüne dair yeni bir haber de yok.
+GPT (gpt-6-luna): puan **-0.15**, güven 0.23 — Yeni başlık, Trump-Putin-Xi görüşmelerine dair yorumlardan ibaret; belirgin yeni bir piyasa katalizörü sunmuyor. Önceki barış açıklaması ve Ukrayna’da görüşmelere açıklık güvenli liman talebini sınırlayabilir, ancak haberlerin etkisi belirsiz ve muhtemelen kısmen fiyatlanmış durumda.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 00:14 N  NEWS (14 new) score -0.60 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed yetkilileri (Goolsbee, Barr) enflasyonun sıcak olduğunu ve ek politika sıkılaştırması seçeneklerinin masada olduğunu söylüyor, bu da faiz artırımı beklentilerini ve doları destekleyerek altını baskılıyor. Savaş kaynaklı güvenli liman talebi (İran savaşının sürmesi, Senato'nun savaş yetkisi kararını reddetmesi) bir destek sunsa da bu gelişmeler büyük ölçüde fiyatlanmış durumda; dolar 19 aylık zirveden biraz geri çekildiği için etki kısmen sınırlı.
-20.11 00:14 N  GPT  score -0.43 conf 0.67: Sıcak enflasyon vurgusu ve Fed yetkililerinin daha sıkı politika sinyalleri faiz artışı beklentilerini ve altın üzerindeki baskıyı güçlendiriyor; altının 14 ayın dibine gerilemesi de aşağı yönlü momentuma işaret ediyor. Doların zirveden gevşemesi ve İran savaşının sürmesi kayıpları sınırlayabilir, a
 20.11 00:26 B5  CLOSE short take profit: +68.99 USD
 20.11 00:26 N  NEWS (9 new) score -0.45 conf 0.60: Fed yetkililerinin (Goolsbee, Barr) sıkı para politikası ve enflasyon konusundaki sert mesajları, faiz artırımı beklentilerini güçlendirerek doları destekliyor ve altı baskılıyor. İran savaşıyla ilgili Senato kararı ve Avrupa-Rusya müzakere haberleri ise güvenli liman talebini artırmadığı için altın üzerinde ek bir yukarı yönlü etki yaratmıyor; haberlerin çoğu zaten fiyatlanmış durumda.
 20.11 00:26 N  GPT  score +0.15 conf 0.34: İran savaşını sınırlama girişiminin reddedilmesi, çatışmanın sürmesi riskini canlı tutarak altına hafif destek verebilir. Ancak Ukrayna için görüşme sinyali ve enflasyon kaynaklı şahin Fed beklentileri bu desteği dengeliyor; başlıkların bir kısmı da tekrarlı veya önceden fiyatlanmış görünüyor.
@@ -110,6 +108,8 @@ Son işlemler:
 20.11 01:03 N  NEWS (11 new) score -0.10 conf 0.30: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil. Trump, Putin ve Xi'nin "barış bildirgesi" ve Avrupa'nın Rusya ile Ukrayna savaşı için müzakereye hazır olduğunu açıklaması jeopolitik gerilimi azaltabileceğinden, güvenli liman talebi açısından hafif negatif; ancak bu gelişmeler belirsiz ve henüz somut bir anlaşma içermiyor. Anthropic'in halka arzı risk iştahını artırsa da altın üzerinde net bir etkisi beklenmiyor.
 20.11 01:03 N  GPT  score -0.20 conf 0.35: Trump-Putin-Xi’nin barış deklarasyonu ve Avrupa’nın Rusya’yla görüşmeye hazır olduğunu açıklaması, kısa vadede güvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonuçları belirsiz; faiz ve dolar yönüne dair yeni bir haber de yok.
 20.11 01:21 B5  CLOSE short stop: -56.05 USD
+20.11 01:27 N  NEWS (1 new) score -0.15 conf 0.30: Başlıkların çoğu altınla doğrudan ilgili değil; Fed, reel faiz, dolar veya enflasyon hakkında yeni bir veri yok. Trump-Putin-Xi "barış deklarasyonu" ve Avrupa'nın Rusya ile Ukrayna savaşını sonlandırma görüşmelerine hazır olduğunu söylemesi jeopolitik risk primini biraz azaltabileceği için hafif negatif; Gazze'deki askeri operasyon ise destekleyici ama eski ve sınırlı bir etki. Genel etki zayıf, bu nedenle düşük güven.
+20.11 01:27 N  GPT  score -0.15 conf 0.23: Yeni başlık, Trump-Putin-Xi görüşmelerine dair yorumlardan ibaret; belirgin yeni bir piyasa katalizörü sunmuyor. Önceki barış açıklaması ve Ukrayna’da görüşmelere açıklık güvenli liman talebini sınırlayabilir, ancak haberlerin etkisi belirsiz ve muhtemelen kısmen fiyatlanmış durumda.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

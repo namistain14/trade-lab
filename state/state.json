@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    5000.0
-   ],
-   [
     1794539330,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795127083,
     5111.78
+   ],
+   [
+    1795127269,
+    5109.35
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    4868.5
-   ],
-   [
     1794539330,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795127083,
     4868.5
+   ],
+   [
+    1795127269,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
+   "score": -0.15,
    "confidence": 0.3,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil. Trump, Putin ve Xi'nin \"bar\u0131\u015f bildirgesi\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakereye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131 jeopolitik gerilimi azaltabilece\u011finden, g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif negatif; ancak bu geli\u015fmeler belirsiz ve hen\u00fcz somut bir anla\u015fma i\u00e7ermiyor. Anthropic'in halka arz\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rsa da alt\u0131n \u00fczerinde net bir etkisi beklenmiyor.",
-   "n": 13,
-   "ts": 1795125834550,
-   "new_headlines": 11,
+   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla do\u011frudan ilgili de\u011fil; Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir veri yok. Trump-Putin-Xi \"bar\u0131\u015f deklarasyonu\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131n\u0131 sonland\u0131rma g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011funu s\u00f6ylemesi jeopolitik risk primini biraz azaltabilece\u011fi i\u00e7in hafif negatif; Gazze'deki askeri operasyon ise destekleyici ama eski ve s\u0131n\u0131rl\u0131 bir etki. Genel etki zay\u0131f, bu nedenle d\u00fc\u015f\u00fck g\u00fcven.",
+   "n": 12,
+   "ts": 1795127269638,
+   "new_headlines": 1,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe geriledi; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri bask\u0131 yarat\u0131yor",
     "JPMorgan, enflasyon nedeniyle Fed'in ard\u0131\u015f\u0131k \u00fc\u00e7 toplant\u0131da faiz art\u0131rabilece\u011fini \u00f6ng\u00f6r\u00fcyor",
     "\u0130ran sava\u015f\u0131 ve Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor"
    ],
    "gpt": {
-    "score": -0.2,
-    "confidence": 0.35,
-    "reason": "Trump-Putin-Xi\u2019nin bar\u0131\u015f deklarasyonu ve Avrupa\u2019n\u0131n Rusya\u2019yla g\u00f6r\u00fc\u015fmeye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonu\u00e7lar\u0131 belirsiz; faiz ve dolar y\u00f6n\u00fcne dair yeni bir haber de yok.",
+    "score": -0.15,
+    "confidence": 0.23,
+    "reason": "Yeni ba\u015fl\u0131k, Trump-Putin-Xi g\u00f6r\u00fc\u015fmelerine dair yorumlardan ibaret; belirgin yeni bir piyasa kataliz\u00f6r\u00fc sunmuyor. \u00d6nceki bar\u0131\u015f a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da g\u00f6r\u00fc\u015fmelere a\u00e7\u0131kl\u0131k g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir, ancak haberlerin etkisi belirsiz ve muhtemelen k\u0131smen fiyatlanm\u0131\u015f durumda.",
     "key_events": [
-     "\u00dc\u00e7l\u00fc bar\u0131\u015f deklarasyonu",
-     "Avrupa-Rusya g\u00f6r\u00fc\u015fme sinyali",
-     "Gazze\u2019de kara operasyonunun tamamlanmas\u0131"
+     "Liderlerin bar\u0131\u015f a\u00e7\u0131klamas\u0131",
+     "Ukrayna konusunda g\u00f6r\u00fc\u015fmelere a\u00e7\u0131kl\u0131k",
+     "Yeni ba\u015fl\u0131kta belirgin piyasa haberi yok"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794856295386,
-    "score": -0.25,
-    "confidence": 0.5,
-    "reason": "Yeni ba\u015fl\u0131klarda Fed'in faiz art\u0131r\u0131m\u0131 risklerine ve dolar\u0131n y\u00fckseli\u015fine dair haberler alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131na ili\u015fkin u\u00e7ak gemisi konu\u015flanmalar\u0131 ise g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Merkez bankas\u0131 al\u0131mlar\u0131 bir miktar destek sa\u011fl\u0131yor, bu nedenle etki hafif negatif kabul edildi.",
-    "new": 13,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794857077996,
     "score": -0.3,
@@ -29849,22 +29840,30 @@
     "new": 11,
     "gpt_score": -0.2,
     "gpt_confidence": 0.35
+   },
+   {
+    "ts": 1795127269638,
+    "score": -0.15,
+    "confidence": 0.3,
+    "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla do\u011frudan ilgili de\u011fil; Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir veri yok. Trump-Putin-Xi \"bar\u0131\u015f deklarasyonu\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131n\u0131 sonland\u0131rma g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011funu s\u00f6ylemesi jeopolitik risk primini biraz azaltabilece\u011fi i\u00e7in hafif negatif; Gazze'deki askeri operasyon ise destekleyici ama eski ve s\u0131n\u0131rl\u0131 bir etki. Genel etki zay\u0131f, bu nedenle d\u00fc\u015f\u00fck g\u00fcven.",
+    "new": 1,
+    "gpt_score": -0.15,
+    "gpt_confidence": 0.23
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 6
+   "n": 7
   },
   "news_seen": [
-   "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
-   "Anthropic becomes one of world's most valuable public companies in stock market debut",
    "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "Anthropic becomes one of world's most valuable public companies in stock market debut",
    "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
    "Myanmar committed genocide against Rohingya minority, top UN court rules",
    "Trump, Putin and Xi release 'peace declaration' after historic meeting",
    "Rohingya genocide: What was said in court and what happens now?",
    "Susan Smith denied parole again 32 years after drowning her two sons",
-   "What did Trump, Xi and Putin get out of their historic meeting?",
+   "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
    "Israeli military completes ground operation in Gaza beyond Yellow Line",
    "Anthropic raises $81bn in record-breaking stock market debut",
    "Dozens missing after boat carrying migrants sinks off Senegal's coast",
@@ -29872,8 +29871,6 @@
   ]
  },
  "log": [
-  "19.11 08:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkjNsAg2M3pjVcnWWDC'}",
-  "19.11 08:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBkxbzZm85gSfgghEb3w'}",
   "19.11 08:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBmBr13WXe9mxb3gzvmb'}",
   "19.11 08:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBmR4tZ1XyoaYmNVbak4'}",
   "19.11 08:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBmePNfVzCDBPSipiNxH'}",
@@ -30171,7 +30168,9 @@
   "20.11 00:50 N  GPT  score -0.20 conf 0.57: Goolsbee\u2019nin daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131n\u0131 d\u0131\u015flamamas\u0131 ve enflasyon riskleri, tahvil getirileri ile dolar \u00fczerinden alt\u0131na k\u0131sa vadede bask\u0131 yapabilir. \u0130ran sava\u015f\u0131n\u0131n uzama ihtimali g\u00fcvenli liman talebini desteklese de bu etkiyi k\u0131smen dengeliyor; net g\u00f6r\u00fcn\u00fcm hafif negatif.",
   "20.11 01:03 N  NEWS (11 new) score -0.10 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil. Trump, Putin ve Xi'nin \"bar\u0131\u015f bildirgesi\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131 i\u00e7in m\u00fczakereye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131 jeopolitik gerilimi azaltabilece\u011finden, g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif negatif; ancak bu geli\u015fmeler belirsiz ve hen\u00fcz somut bir anla\u015fma i\u00e7ermiyor. Anthropic'in halka arz\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rsa da alt\u0131n \u00fczerinde net bir etkisi beklenmiyor.",
   "20.11 01:03 N  GPT  score -0.20 conf 0.35: Trump-Putin-Xi\u2019nin bar\u0131\u015f deklarasyonu ve Avrupa\u2019n\u0131n Rusya\u2019yla g\u00f6r\u00fc\u015fmeye haz\u0131r oldu\u011funu a\u00e7\u0131klamas\u0131, k\u0131sa vadede g\u00fcvenli liman talebini bir miktar azaltabilir. Ancak deklarasyonun somut sonu\u00e7lar\u0131 belirsiz; faiz ve dolar y\u00f6n\u00fcne dair yeni bir haber de yok.",
-  "20.11 01:21 B5  CLOSE short stop: -56.05 USD"
+  "20.11 01:21 B5  CLOSE short stop: -56.05 USD",
+  "20.11 01:27 N  NEWS (1 new) score -0.15 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131nla do\u011frudan ilgili de\u011fil; Fed, reel faiz, dolar veya enflasyon hakk\u0131nda yeni bir veri yok. Trump-Putin-Xi \"bar\u0131\u015f deklarasyonu\" ve Avrupa'n\u0131n Rusya ile Ukrayna sava\u015f\u0131n\u0131 sonland\u0131rma g\u00f6r\u00fc\u015fmelerine haz\u0131r oldu\u011funu s\u00f6ylemesi jeopolitik risk primini biraz azaltabilece\u011fi i\u00e7in hafif negatif; Gazze'deki askeri operasyon ise destekleyici ama eski ve s\u0131n\u0131rl\u0131 bir etki. Genel etki zay\u0131f, bu nedenle d\u00fc\u015f\u00fck g\u00fcven.",
+  "20.11 01:27 N  GPT  score -0.15 conf 0.23: Yeni ba\u015fl\u0131k, Trump-Putin-Xi g\u00f6r\u00fc\u015fmelerine dair yorumlardan ibaret; belirgin yeni bir piyasa kataliz\u00f6r\u00fc sunmuyor. \u00d6nceki bar\u0131\u015f a\u00e7\u0131klamas\u0131 ve Ukrayna\u2019da g\u00f6r\u00fc\u015fmelere a\u00e7\u0131kl\u0131k g\u00fcvenli liman talebini s\u0131n\u0131rlayabilir, ancak haberlerin etkisi belirsiz ve muhtemelen k\u0131smen fiyatlanm\u0131\u015f durumda."
  ],
  "gold_big": {
   "account": {
@@ -30358,10 +30357,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    4963.78
-   ],
-   [
     1794539330,
     4963.78
    ],
@@ -42355,6 +42350,10 @@
    ],
    [
     1795127083,
+    4963.78
+   ],
+   [
+    1795127269,
     4963.78
    ]
   ],
@@ -42470,10 +42469,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    4975.18
-   ],
-   [
     1794539330,
     4975.18
    ],
@@ -54467,6 +54462,10 @@
    ],
    [
     1795127083,
+    4975.18
+   ],
+   [
+    1795127269,
     4975.18
    ]
   ],
@@ -54552,10 +54551,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    4993.28
-   ],
-   [
     1794539330,
     4993.28
    ],
@@ -66549,6 +66544,10 @@
    ],
    [
     1795127083,
+    4993.28
+   ],
+   [
+    1795127269,
     4993.28
    ]
   ]
@@ -66759,10 +66758,6 @@
   },
   "equity_curve": [
    [
-    1794539161,
-    4969.22
-   ],
-   [
     1794539330,
     4969.22
    ],
@@ -78756,6 +78751,10 @@
    ],
    [
     1795127083,
+    4969.22
+   ],
+   [
+    1795127269,
     4969.22
    ]
   ],
@@ -82056,10 +82055,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794539161,
-    4668.34
-   ],
    [
     1794539330,
     4668.34
@@ -94055,6 +94050,10 @@
    [
     1795127083,
     5009.27
+   ],
+   [
+    1795127269,
+    5009.27
    ]
   ],
   "news_calls": {
@@ -95537,10 +95536,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794539161,
-    113945.8
-   ],
    [
     1794539330,
     113945.8
@@ -107536,6 +107531,10 @@
    [
     1795127083,
     120564.69
+   ],
+   [
+    1795127269,
+    120564.69
    ]
   ],
   "open": {},
@@ -107718,10 +107717,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794539161,
-    4876.96
-   ],
    [
     1794539330,
     4876.96
@@ -119716,6 +119711,10 @@
    ],
    [
     1795127083,
+    4876.96
+   ],
+   [
+    1795127269,
     4876.96
    ]
   ],
