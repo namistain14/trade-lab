@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 04:25 (İstanbul)
+> Son güncelleme: 19.11.2026 04:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,098.98 $** (başlangıç 5,000 $, +98.98 $ / %+1.98)
+**Hesap değeri: 5,101.63 $** (başlangıç 5,000 $, +101.63 $ / %+2.03)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,826.52 $** (başlangıç 5,000 $, -173.48 $ / %-3.47)
 
-Son haber analizi (19.11 04:16): Claude puan **-0.55**, güven 0.70 — Altın 14 aylık dibe yakın seyrediyor; Fed'in aralıkta faiz artırımına işaret eden şahin söylemi ve güçlenen dolar (DXY yıllık zirveye yakın) baskı yaratıyor. İran savaşı ve Hûti/Kırım köprüsü gibi jeopolitik haberler güvenli liman talebini destekleyebilse de, şu an bu etki şahin Fed ve dolar gücünün gerisinde kalıyor; kısa vadede aşağı yönlü risk baskın, ancak haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
+Son haber analizi (19.11 04:28): Claude puan **-0.60**, güven 0.60 — Şahin Fed söylemleri, güçlenen dolar ve faiz artırımı beklentisi altını 14 aylık dibe itiyor; jeopolitik risk (İran savaşı, Venezuela, Kırım köprüsü saldırısı) güvenli liman talebi yaratmaya çalışsa da bu etki baskın değil. Düşüş büyük ölçüde fiyatlanmış olduğundan güveni orta seviyede tutuyorum.
 
-GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Hawkish Fed beklentileri ve doların güçlü kalması, altının yeni dip seviyelere gerilemesiyle birlikte kısa vadede aşağı yönlü baskıyı öne çıkarıyor. Kırım Köprüsü saldırısı güvenli liman talebini destekleyebilir; Yemen haberi ise füzenin engellenmesi nedeniyle sınırlı ve çelişkili bir etki yaratıyor
+GPT (gpt-6-luna): puan **-0.58**, güven 0.72 — Altın üzerindeki baskın kısa vadeli etki negatif: şahin Fed beklentileri ve güçlü dolar, fiyatın yeni dipler ve teknik kırılma yönünde ilerlemesini destekliyor. Yemen ve Kırım kaynaklı gerilimler güvenli liman talebini artırabilir, ancak şu an bu baskıyı dengeleyecek kadar güçlü görünmüyor.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 02:51 N  GPT  score -0.65 conf 0.76: Şahin Fed söylemi ve Aralıkta daha yüksek faiz beklentisi doları desteklerken altını 14 ayın en düşük seviyesine itmiş; bu kısa vadede aşağı yönlü momentumu güçlendiriyor. İran’la gerilimin tırmanma riski güvenli liman talebi yaratabilir, ancak şu an için bu etki faiz ve dolar baskısını dengelemiyor
-19.11 03:03 N  NEWS (5 new) score -0.60 conf 0.70: Fed tutanakları ve Fed yetkililerinin sert (şahin) açıklamaları, Aralık'ta faiz artırımı ihtimalini öne çıkarıyor; bu, reel faizleri ve doları yukarı iterek altın için baskı oluşturuyor. Dolar yıllık zirvelerine yaklaşırken altın 14 aylık dibe ve 3.750 doların altına geriledi; İran savaşına ilişkin güvenli liman talebi destekleyici olsa da bu etkiyi şimdilik bastırıyor. Başlıkların bazıları tarih ve bağlam açısından tutarsız olduğu için güveni biraz düşürdüm.
 19.11 03:03 N  GPT  score -0.55 conf 0.68: Önümüzdeki birkaç saatte altın için baskın etkenler, şahin Fed beklentileri ve yıllık zirvelerini sınayan güçlü dolar; bunlar fiyatı aşağı çekiyor. İran çevresindeki gerilim ve yeni çatışma riskleri güvenli liman talebi sağlayabilir, ancak şu an düşüş baskısını dengelemesi belirsiz.
 19.11 03:15 N  NEWS (5 new) score -0.50 conf 0.60: Faiz artırımı beklentisi güçleniyor (Fed tutanakları ve Kashkari'nin daha fazla artırım yorumu) ve dolar yıllık zirvelere yakın seyrediyor; bu, altın için net bir baskı oluşturuyor. İran'a yeni saldırı ihtimali gibi jeopolitik risk güvenli liman talebini destekleyebilir, ancak bu etki baskın faktör olan sıkı para politikası ve güçlü doların gerisinde kalıyor; ayrıca birçok başlık zaten fiyatlanmış durumda.
 19.11 03:15 N  GPT  score -0.72 conf 0.78: Şahin Fed mesajları ve güçlenen dolar, yükselen reel faiz beklentileri üzerinden altın üzerinde belirgin baskı yaratıyor; altının sert düşüşü de bu eğilimi destekliyor. İran ve Yemen kaynaklı gerilimler güvenli liman talebini artırabilir, ancak kısa vadede bu etki baskın görünmüyor.
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 04:04 N  GPT  score -0.58 conf 0.72: Doların güçlenmesi ve Fed’in daha fazla faiz artışına yönelik şahin beklentiler altını baskılıyor; 14 ayın dibine iniş de kısa vadeli aşağı yönlü momentumu teyit ediyor. İran gerilimi ve diğer jeopolitik riskler güvenli liman talebi yaratabilir, ancak şu an bu baskıyı dengelemiyor.
 19.11 04:16 N  NEWS (9 new) score -0.55 conf 0.70: Altın 14 aylık dibe yakın seyrediyor; Fed'in aralıkta faiz artırımına işaret eden şahin söylemi ve güçlenen dolar (DXY yıllık zirveye yakın) baskı yaratıyor. İran savaşı ve Hûti/Kırım köprüsü gibi jeopolitik haberler güvenli liman talebini destekleyebilse de, şu an bu etki şahin Fed ve dolar gücünün gerisinde kalıyor; kısa vadede aşağı yönlü risk baskın, ancak haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
 19.11 04:16 N  GPT  score -0.35 conf 0.58: Hawkish Fed beklentileri ve doların güçlü kalması, altının yeni dip seviyelere gerilemesiyle birlikte kısa vadede aşağı yönlü baskıyı öne çıkarıyor. Kırım Köprüsü saldırısı güvenli liman talebini destekleyebilir; Yemen haberi ise füzenin engellenmesi nedeniyle sınırlı ve çelişkili bir etki yaratıyor
+19.11 04:28 N  NEWS (6 new) score -0.60 conf 0.60: Şahin Fed söylemleri, güçlenen dolar ve faiz artırımı beklentisi altını 14 aylık dibe itiyor; jeopolitik risk (İran savaşı, Venezuela, Kırım köprüsü saldırısı) güvenli liman talebi yaratmaya çalışsa da bu etki baskın değil. Düşüş büyük ölçüde fiyatlanmış olduğundan güveni orta seviyede tutuyorum.
+19.11 04:28 N  GPT  score -0.58 conf 0.72: Altın üzerindeki baskın kısa vadeli etki negatif: şahin Fed beklentileri ve güçlü dolar, fiyatın yeni dipler ve teknik kırılma yönünde ilerlemesini destekliyor. Yemen ve Kırım kaynaklı gerilimler güvenli liman talebini artırabilir, ancak şu an bu baskıyı dengeleyecek kadar güçlü görünmüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
