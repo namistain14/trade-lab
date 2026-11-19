@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 07:09 (İstanbul)
+> Son güncelleme: 19.11.2026 07:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,074.71 $** (başlangıç 5,000 $, +74.71 $ / %+1.49)
+**Hesap değeri: 5,077.58 $** (başlangıç 5,000 $, +77.58 $ / %+1.55)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %42.9 | %44.1 |
 | Ödenen komisyon/spread | 84.14 $ | 1702.55 $ |
 
-**Hesap değeri: 4,852.43 $** (başlangıç 5,000 $, -147.57 $ / %-2.95)
+**Hesap değeri: 4,840.39 $** (başlangıç 5,000 $, -159.61 $ / %-3.19)
 
 Açık pozisyonlar: PAXGUSDT short @ 3717.72 (TP 3706.56 / SL 3725.15)
 
@@ -97,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 06:30 N  GPT  score -0.55 conf 0.64: Fed Başkanı Warsh’ın %2 enflasyon hedefini vurgulaması ve doların sıkılaşma beklentileriyle 19 ayın zirvesine yakın seyretmesi, kısa vadede altın üzerinde baskı yaratıyor. Körfez gerilimi güvenli liman talebini destekleyebilir; ancak petrol ve savaş haberlerinin etkisi karışık, bu nedenle düşüş bekl
 19.11 06:32 B5  SHORT gold 25000 USD x10 @ 3707.92 (TP 3696.79, SL 3715.33; news -0.53)
 19.11 06:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbSStFgCQxoL8aYM22J'}
 19.11 06:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBbfisnk1ZA9eK4j3reH'}
@@ -112,6 +111,7 @@ Son işlemler:
 19.11 07:03 B5  SHORT gold 25000 USD x10 @ 3717.72 (TP 3706.56, SL 3725.15; news -0.53)
 19.11 07:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBdKyzZDs8qV3kTDrvVx'}
 19.11 07:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBdZEJtaEyMhh4TVhPHf'}
+19.11 07:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBdnYYc7DARpLMFCFYpB'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
