@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    5000.0
-   ],
-   [
     1794502328,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795089777,
     5067.21
+   ],
+   [
+    1795089970,
+    5068.76
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    4868.5
-   ],
-   [
     1794502328,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795089777,
     4868.5
+   ],
+   [
+    1795089970,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.5,
-   "reason": "Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: ABD-\u00c7in-Rusya zirvesinde \"n\u00fckleer sava\u015f kazan\u0131lamaz\" bildirisi jeopolitik risk primini azalt\u0131yor, Fed'in daha sert faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n yeniden g\u00fc\u00e7lenmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Dolar\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finin durmas\u0131 k\u0131smen destekleyici olsa da, alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi ve Orta Do\u011fu gerilimine ra\u011fmen de\u011fer kaybetmesi (zay\u0131f g\u00fcvenli liman talebi) genel e\u011filimi a\u015fa\u011f\u0131 y\u00f6nl\u00fc tutuyor. Haberlerin bir k\u0131sm\u0131 eski ve fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
+   "score": -0.45,
+   "confidence": 0.6,
+   "reason": "Ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: JPMorgan'\u0131n Fed'in y\u0131l sonuna kadar \u00fc\u00e7 faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi ve Danske'nin \"\u015fahin Fed\" vurgusu reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekiyor. Alt\u0131n 14 ayl\u0131k dibe gerilemi\u015f ve \u0130ran sava\u015f\u0131na ra\u011fmen g\u00fcvenli liman talebi zay\u0131f g\u00f6r\u00fcn\u00fcyor. \u00d6te yandan Hormuz sald\u0131r\u0131lar\u0131 ve Riyad'a f\u00fcze sald\u0131r\u0131s\u0131 gibi jeopolitik riskler k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc bir destek sa\u011flayabilir; ayr\u0131ca ABD dolar\u0131n\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finden sonra gev\u015femesi s\u0131n\u0131rl\u0131 bir rahatlama sunuyor.",
    "n": 45,
-   "ts": 1795089248391,
-   "new_headlines": 5,
+   "ts": 1795089970162,
+   "new_headlines": 8,
    "key_events": [
     "Fed yetkilileri daha fazla s\u0131k\u0131la\u015fma sinyali verdi; dolar 19 ayl\u0131k zirvede",
     "Alt\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi",
     "\u0130ran sava\u015f\u0131 ve Etiyopya-Eritre \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini destekleyebilir"
    ],
    "gpt": {
-    "score": -0.15,
-    "confidence": 0.38,
-    "reason": "ABD dolar\u0131ndaki yeni gev\u015feme alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir; ancak ABD, \u00c7in ve Rusya liderlerinin n\u00fckleer sava\u015f\u0131n \u00f6nlenmesine y\u00f6nelik a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini azaltabilir. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve Fed\u2019in \u015fahin g\u00f6r\u00fcn\u00fcm\u00fc daha \u00f6nce g\u00fcndeme geldi\u011finden net etki s\u0131n\u0131rl\u0131 ve hafif negati",
+    "score": 0.1,
+    "confidence": 0.3,
+    "reason": "H\u00fcrm\u00fcz\u2019deki sald\u0131r\u0131lar ve Riyad\u2019a y\u00f6nelik f\u00fcze haberi g\u00fcvenli liman talebini destekleyebilir; ancak Fed\u2019in daha fazla faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n son y\u00fckseli\u015f sonras\u0131 gerilemesi k\u0131smi destek sa\u011flasa da haberler \u00e7eli\u015fkili ve yeni bir belirgin t\u0131rman\u0131\u015fa i\u015faret etmi",
     "key_events": [
-     "Dolar yedi g\u00fcnl\u00fck y\u00fckseli\u015fin ard\u0131ndan gev\u015fedi",
-     "Liderler n\u00fckleer sava\u015f\u0131n \u00f6nlenmesi mesaj\u0131 verdi",
-     "\u015eahin Fed beklentileri alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor"
+     "H\u00fcrm\u00fcz\u2019de gemilere y\u00f6nelik sald\u0131r\u0131 haberleri",
+     "Fed\u2019in gelecek y\u0131l \u00fc\u00e7 faiz art\u0131r\u0131m\u0131 beklentisi",
+     "Dolar\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015fin ard\u0131ndan gerilemesi"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794549328115,
-    "score": -0.6,
-    "confidence": 0.6,
-    "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri (Fed'den Williams'\u0131n daha fazla art\u0131r\u0131m sinyali), g\u00fc\u00e7lenen dolar (DXY 19 ayl\u0131k zirvede) ve petrol kaynakl\u0131 enflasyon endi\u015feleri alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor; alt\u0131n 13 ayl\u0131k dibe geriledi. \u0130ran'\u0131n ABD radar sahas\u0131n\u0131 hedef ald\u0131\u011f\u0131 haberi jeopolitik risk yaratsa da g\u00fcvenli liman talebini tek ba\u015f\u0131na \u00f6ne \u00e7\u0131karm\u0131yor. Bu nedenle k\u0131sa vadede negatif e\u011filim hakim, ancak ABD enflasyon verisi ve al\u0131m f\u0131rsatlar\u0131 y\u00f6n\u00fc de\u011fi\u015ftirebilir.",
-    "new": 2,
-    "gpt_score": -0.48,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1794550048503,
     "score": -0.6,
@@ -29849,13 +29840,30 @@
     "new": 5,
     "gpt_score": -0.15,
     "gpt_confidence": 0.38
+   },
+   {
+    "ts": 1795089970162,
+    "score": -0.45,
+    "confidence": 0.6,
+    "reason": "Ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: JPMorgan'\u0131n Fed'in y\u0131l sonuna kadar \u00fc\u00e7 faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi ve Danske'nin \"\u015fahin Fed\" vurgusu reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekiyor. Alt\u0131n 14 ayl\u0131k dibe gerilemi\u015f ve \u0130ran sava\u015f\u0131na ra\u011fmen g\u00fcvenli liman talebi zay\u0131f g\u00f6r\u00fcn\u00fcyor. \u00d6te yandan Hormuz sald\u0131r\u0131lar\u0131 ve Riyad'a f\u00fcze sald\u0131r\u0131s\u0131 gibi jeopolitik riskler k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc bir destek sa\u011flayabilir; ayr\u0131ca ABD dolar\u0131n\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finden sonra gev\u015femesi s\u0131n\u0131rl\u0131 bir rahatlama sunuyor.",
+    "new": 8,
+    "gpt_score": 0.1,
+    "gpt_confidence": 0.3
    }
   ],
   "news_calls": {
    "date": "2026-11-19",
-   "n": 41
+   "n": 42
   },
   "news_seen": [
+   "How the Iran War Strengthens Gulf Autocracy and Deepens Sectarian Divides - WhoWhatWhy",
+   "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+   "An outsider\u2019s view of Australian cricket\u2019s civil war: conflicting \u2018truths\u2019 and Cummins in a corner - The Guardian",
+   "US Sanctions Charity Over Hezbollah Links in Southern Lebanon - Global Arab Network",
+   "'War' Courtroom Finale, ABC Fall Finales, 'Traitors' Draws Final Blood, Julia Garner & Anthony Boyle in 'Altruists' - TV Insider",
+   "JPMorgan Sees Fed Raising Rates Three Times by Next Year - bloomingbit",
+   "Anthropic Has a $237 Billion War Chest. Here\u2019s What It Could Buy. - www.trendingtopics.eu",
+   "UK inflation hits 12-month high on surging motor fuel costs - Yahoo Finance Singapore",
    "Help me move this fight forward : For a strengthening of sanctions against animal abuse - MyPetition.org",
    "The Spin | Sandpapergate\u2019s \u2018war of the ghosts\u2019 highlights perils of relying on recall - The Guardian",
    "US dollar eases after seven-session rally, rates and equities in focus - The Business Times",
@@ -29876,7 +29884,6 @@
    "Gold Prices Today In Hyderabad: 22K, 24K Rates - INDToday",
    "\u2018Soul Patrol\u2019 \u2014 a powerful documentary on the Vietnam War\u2019s 1st all-Black Special Ops Team - New York Amsterdam News",
    "AI Boom Is Reshaping the US Dollar, but Markets Remain Divided Over Its Future - Modern Diplomacy",
-   "Gold buyers remain cautious amid prospects of faster Fed rate hikes - FXStreet",
    "How Houthi-Backed Judicial Custodians Seize Private Assets and Fund the War - The Media Line",
    "Israeli military completes ground operation in Gaza beyond Yellow Line",
    "Civil War veteran receives headstone more than century after death - Jacksonville Journal-Courier",
@@ -29893,19 +29900,10 @@
    "Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms - Al-Monitor",
    "Anthropic raises $81bn in record-breaking stock market debut",
    "Infographic: Gold prices continue to fall sharply on November 19 - Nhan Dan Online",
-   "Leaders of the US, China and Russia hold historic trilateral summit - Euronews.com",
-   "Czech PM tours Israeli missile defense sites as countries strengthen security ties - JNS.org",
-   "US Dollar and Gold Show Tail-Risk Resilience While Bitcoin Functions as Diversifier - Bioengineer.org",
-   "Pound Holds Near $1.3144 as Dollar Strength Persists; UK Consumer Confidence Falls for Third Month - BigGo Finance",
-   "Xi Warns Trump and Putin of Nuclear \u2018Sword of Damocles,\u2019 Urges 3 Powers to Prevent Global War - Kyiv Post",
-   "European Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - EU NEIGHBOURS east",
-   "'It's a dream come true' \u2013 South African DJ celebrates featuring in GTA 6",
-   "Trump, Xi, Putin Begin Historic Talks With Ukraine War in Focus - Modern Diplomacy"
+   "Leaders of the US, China and Russia hold historic trilateral summit - Euronews.com"
   ]
  },
  "log": [
-  "18.11 19:03 N  NEWS (12 new) score -0.60 conf 0.65: Fed Governor Waller'\u0131n faiz art\u0131r\u0131m\u0131 (50 baz puan, \"\u015fok\" art\u0131r\u0131m) \u00e7a\u011fr\u0131s\u0131 reel faiz ve Fed beklentilerini sertle\u015ftirerek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 yarat\u0131yor; alt\u0131n zaten 14 ayl\u0131k dibe (3.800 dolar\u0131 alt\u0131) gerilemi\u015f durumda. \u0130ran sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 (Kuveyt/Bahreyn sald\u0131r\u0131lar\u0131, ABD f\u00fcze sald\u0131r\u0131s\u0131) normalde g\u00fcvenli liman talebini art\u0131rsa da, piyasan\u0131n bu jeopolitik riskleri g\u00f6z ard\u0131 edip faiz kanal\u0131na tepki verdi\u011fi g\u00f6r\u00fcl\u00fcyor; bu nedenle net etki k\u0131sa vadede negatif.",
-  "18.11 19:03 N  GPT  score -0.48 conf 0.66: Waller\u2019\u0131n 50 baz puanl\u0131k faiz art\u0131r\u0131m\u0131 ve enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in \u015fok s\u0131k\u0131la\u015fma \u00e7a\u011fr\u0131s\u0131, reel faizler ve dolar beklentileri \u00fczerinden alt\u0131n i\u00e7in belirgin bask\u0131 yarat\u0131yor; sert d\u00fc\u015f\u00fc\u015f de sat\u0131\u015f momentumuna i\u015faret ediyor. \u0130ran \u00e7evresindeki yeni sald\u0131r\u0131 haberleri g\u00fcvenli liman talebini destekleyebilir, ",
   "18.11 19:09 B5  CLOSE short take profit: +69.02 USD",
   "18.11 19:09 B6  karar turu: Claude \u00abPiyasa \u00f6\u011fle saatlerinde yatay-hafif negatif seyrediyor; NVDA'daki \u015firket \u00f6zel olumsuz haberler endeksleri s\u0131n\u0131rl\u0131 etkiliyor ve y\u00f6n belirsiz.\u00bb / GPT \u00abEndekslerde toparlanma k\u0131r\u0131lgan; \u015firkete \u00f6zg\u00fc haberler yeni endeks i\u015flemlerine g\u00fc\u00e7l\u00fc destek vermedi\u011finden SPY sat\u0131\u015f\u0131nda avantaj s\u0131n\u0131rl\u0131.\u00bb",
   "18.11 19:15 N  NEWS (15 new) score -0.50 conf 0.60: Fed Governor Waller'\u0131n agresif faiz art\u0131r\u0131m\u0131 (50 baz puan) \u00e7a\u011fr\u0131s\u0131 ve g\u00fc\u00e7lenen dolar\u0131, gger\u00e7ek faiz beklentilerini y\u00fckselterek alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n geni\u015flemesi ve K\u00f6rfez'e sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da, bu etki \u015fu an hawkish Fed ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca alt\u0131n zaten 14 ayl\u0131k dibe inmi\u015f oldu\u011fu i\u00e7in baz\u0131 etkiler fiyatlanm\u0131\u015f olabilir.",
@@ -30203,7 +30201,9 @@
   "19.11 14:42 N  GPT  score -0.40 conf 0.62: \u015eahin Fed beklentileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 kurarken, fiyatlar\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc bu y\u00f6n\u00fc destekliyor. H\u00fcrm\u00fcz\u2019deki sald\u0131r\u0131lar ve b\u00f6lgesel gerilim g\u00fcvenli liman talebini art\u0131rabilir; bu nedenle a\u015fa\u011f\u0131 y\u00f6nl\u00fc etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "19.11 14:42 B5  SHORT gold 25000 USD x10 @ 3719.64 (TP 3708.48, SL 3727.08; news -0.45)",
   "19.11 14:54 N  NEWS (5 new) score -0.35 conf 0.50: Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: ABD-\u00c7in-Rusya zirvesinde \"n\u00fckleer sava\u015f kazan\u0131lamaz\" bildirisi jeopolitik risk primini azalt\u0131yor, Fed'in daha sert faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n yeniden g\u00fc\u00e7lenmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Dolar\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finin durmas\u0131 k\u0131smen destekleyici olsa da, alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi ve Orta Do\u011fu gerilimine ra\u011fmen de\u011fer kaybetmesi (zay\u0131f g\u00fcvenli liman talebi) genel e\u011filimi a\u015fa\u011f\u0131 y\u00f6nl\u00fc tutuyor. Haberlerin bir k\u0131sm\u0131 eski ve fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
-  "19.11 14:54 N  GPT  score -0.15 conf 0.38: ABD dolar\u0131ndaki yeni gev\u015feme alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir; ancak ABD, \u00c7in ve Rusya liderlerinin n\u00fckleer sava\u015f\u0131n \u00f6nlenmesine y\u00f6nelik a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini azaltabilir. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve Fed\u2019in \u015fahin g\u00f6r\u00fcn\u00fcm\u00fc daha \u00f6nce g\u00fcndeme geldi\u011finden net etki s\u0131n\u0131rl\u0131 ve hafif negati"
+  "19.11 14:54 N  GPT  score -0.15 conf 0.38: ABD dolar\u0131ndaki yeni gev\u015feme alt\u0131na k\u0131sa vadeli destek sa\u011flayabilir; ancak ABD, \u00c7in ve Rusya liderlerinin n\u00fckleer sava\u015f\u0131n \u00f6nlenmesine y\u00f6nelik a\u00e7\u0131klamalar\u0131 g\u00fcvenli liman talebini azaltabilir. Haber ak\u0131\u015f\u0131 \u00e7eli\u015fkili ve Fed\u2019in \u015fahin g\u00f6r\u00fcn\u00fcm\u00fc daha \u00f6nce g\u00fcndeme geldi\u011finden net etki s\u0131n\u0131rl\u0131 ve hafif negati",
+  "19.11 15:06 N  NEWS (8 new) score -0.45 conf 0.60: Ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: JPMorgan'\u0131n Fed'in y\u0131l sonuna kadar \u00fc\u00e7 faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi ve Danske'nin \"\u015fahin Fed\" vurgusu reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekiyor. Alt\u0131n 14 ayl\u0131k dibe gerilemi\u015f ve \u0130ran sava\u015f\u0131na ra\u011fmen g\u00fcvenli liman talebi zay\u0131f g\u00f6r\u00fcn\u00fcyor. \u00d6te yandan Hormuz sald\u0131r\u0131lar\u0131 ve Riyad'a f\u00fcze sald\u0131r\u0131s\u0131 gibi jeopolitik riskler k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc bir destek sa\u011flayabilir; ayr\u0131ca ABD dolar\u0131n\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finden sonra gev\u015femesi s\u0131n\u0131rl\u0131 bir rahatlama sunuyor.",
+  "19.11 15:06 N  GPT  score +0.10 conf 0.30: H\u00fcrm\u00fcz\u2019deki sald\u0131r\u0131lar ve Riyad\u2019a y\u00f6nelik f\u00fcze haberi g\u00fcvenli liman talebini destekleyebilir; ancak Fed\u2019in daha fazla faiz art\u0131raca\u011f\u0131 beklentisi alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar\u0131n son y\u00fckseli\u015f sonras\u0131 gerilemesi k\u0131smi destek sa\u011flasa da haberler \u00e7eli\u015fkili ve yeni bir belirgin t\u0131rman\u0131\u015fa i\u015faret etmi"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    4963.78
-   ],
-   [
     1794502328,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795089777,
+    4963.78
+   ],
+   [
+    1795089970,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    4975.18
-   ],
-   [
     1794502328,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795089777,
+    4975.18
+   ],
+   [
+    1795089970,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    4993.28
-   ],
-   [
     1794502328,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795089777,
+    4993.28
+   ],
+   [
+    1795089970,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794502158,
-    4969.22
-   ],
-   [
     1794502328,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795089777,
+    4969.22
+   ],
+   [
+    1795089970,
     4969.22
    ]
   ],
@@ -81852,10 +81852,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794502158,
-    4826.12
-   ],
    [
     1794502328,
     4794.13
@@ -93851,6 +93847,10 @@
    [
     1795089777,
     4846.69
+   ],
+   [
+    1795089970,
+    4841.85
    ]
   ],
   "news_calls": {
@@ -95117,10 +95117,6 @@
    "equity": 115319.91
   },
   "equity_curve": [
-   [
-    1794502158,
-    115636.04
-   ],
    [
     1794502328,
     115879.63
@@ -107116,6 +107112,10 @@
    [
     1795089777,
     115319.91
+   ],
+   [
+    1795089970,
+    115319.91
    ]
   ],
   "open": {},
@@ -107298,10 +107298,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794502158,
-    4876.96
-   ],
    [
     1794502328,
     4876.96
@@ -119296,6 +119292,10 @@
    ],
    [
     1795089777,
+    4876.96
+   ],
+   [
+    1795089970,
     4876.96
    ]
   ],
