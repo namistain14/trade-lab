@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 21:14 (İstanbul)
+> Son güncelleme: 19.11.2026 21:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,089.28 $** (başlangıç 5,000 $, +89.28 $ / %+1.79)
+**Hesap değeri: 5,088.17 $** (başlangıç 5,000 $, +88.17 $ / %+1.76)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +18.90 $ | -98.57 $ |
-| İşlem sayısı | 13 | 149 |
-| Kazanma oranı | %46.2 | %44.3 |
-| Ödenen komisyon/spread | 156.34 $ | 1774.75 $ |
+| Net kâr/zarar | +87.89 $ | -29.58 $ |
+| İşlem sayısı | 14 | 150 |
+| Kazanma oranı | %50.0 | %44.7 |
+| Ödenen komisyon/spread | 168.38 $ | 1786.79 $ |
 
-**Hesap değeri: 4,972.82 $** (başlangıç 5,000 $, -27.18 $ / %-0.54)
-
-Açık pozisyonlar: PAXGUSDT short @ 3681.45 (TP 3670.41 / SL 3688.82)
+**Hesap değeri: 4,970.42 $** (başlangıç 5,000 $, -29.58 $ / %-0.59)
 
 Son haber analizi (19.11 21:14): Claude puan **-0.60**, güven 0.70 — Fed'in şahin tutumu, doların 19 aylık zirvesi ve faiz artırımı beklentilerinin güçlenmesi altın için baskıcı. Jeopolitik tarafta İran/İsrail çatışması risk-kaçışını destekleyebilir, ancak Trump-Putin-Xi barış bildirisi bu güvenli liman talebini zayıflatıyor; gold'un zaten düşüş trendinde olması nedeniyle güven orta-yüksek.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 21:14 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 20:20 | PAXGUSDT | short | -56.03 $ | stop |
 | 19.11 20:04 | PAXGUSDT | short | +69.00 $ | take profit |
 | 19.11 19:36 | PAXGUSDT | short | -57.21 $ | stop (gap) |
 | 19.11 18:18 | PAXGUSDT | short | +69.00 $ | take profit |
-| 19.11 15:16 | PAXGUSDT | short | +69.01 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -82,7 +80,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,629.03 $** (başlangıç 100,000 $, +19629.03 $ / %+19.63)
+**Hesap değeri: 119,966.39 $** (başlangıç 100,000 $, +19966.39 $ / %+19.97)
 
 Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 150.02 (TP 147.99 / SL 151.74); QQQ short @ 654.23 (TP 644.77 / SL 661.14)
 
@@ -99,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 20:37 N  NEWS (11 new) score -0.60 conf 0.70: Dolar 19 aylık zirveye yakın seyrediyor, Fed'de faiz artırımı beklentileri güçleniyor ve altın 14 aylık dibe geriledi; bu tablo altın için net olarak baskılayıcı. İran savaşı ve enerji şoku güvenli liman talebini destekliyor olsa da piyasa bu jeopolitik riski şu an fiyatlamıyor gibi görünüyor, bu yüzden etkisi sınırlı kalıyor.
 19.11 20:37 N  GPT  score -0.68 conf 0.72: Doların 19 ayın zirvesine çıkması, dirençli işgücü piyasası ve güçlenen Fed faiz artırımı beklentileri kısa vadede altın üzerinde belirgin baskı yaratıyor. İran kaynaklı enerji şoku güvenli liman talebini destekleyebilir; ancak başlıklar bunun yeni bir tırmanışından çok mevcut riskin devamına işaret
 19.11 20:37 B6  karar turu: Claude «Endeksler öğle saatlerindeki satıştan hızla toparlandı ancak gün genelinde hafif negatif; en net fırsat NVDA'daki olumsuz haber akışında.» / GPT «Endekslerdeki sert satış sonrası toparlanma son mumlarda ivme kaybediyor; kısa yönü öne çıksa da 1:4 kaldıraçta yeniden sıçrama riski yüksek.»
 19.11 20:37 B6  AÇIĞA SATIŞ NVDA 774 adet ≈ 116,286 $ (1:4) @ 150.24 (TP 147.99, SL 151.74; ikisi de hemfikir, güven 0.60)
@@ -114,6 +111,7 @@ Son işlemler:
 19.11 21:14 B6  karar turu: Claude «NVIDIA CEO istifası ve not indirimleriyle risk iştahı zayıf; endeksler öğleden sonra seans diplerini yeniden test ediyor.» / GPT «Endekslerde saatlik değişim yatay görünse de son kapanışlardaki belirgin zayıflama önümüzdeki 1-3 saat için aşağı yönlü eğilim sunuyor.»
 19.11 21:14 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"53663.68","code":40310000,"cost_basis":"63000.99","message":"insufficient buying power"}
 19.11 21:14 B6  TSLA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"53663.68","code":40310000,"cost_basis":"62889.54","message":"insufficient buying power"}
+19.11 21:16 B5  CLOSE short take profit: +69.00 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
