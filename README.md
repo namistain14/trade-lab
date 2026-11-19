@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 19:50 (İstanbul)
+> Son güncelleme: 19.11.2026 19:53 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,093.03 $** (başlangıç 5,000 $, +93.03 $ / %+1.86)
+**Hesap değeri: 5,104.94 $** (başlangıç 5,000 $, +104.94 $ / %+2.10)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,7 @@ Son işlemler:
 | Kazanma oranı | %45.5 | %44.2 |
 | Ödenen komisyon/spread | 132.25 $ | 1750.66 $ |
 
-**Hesap değeri: 4,871.37 $** (başlangıç 5,000 $, -128.63 $ / %-2.57)
+**Hesap değeri: 4,886.59 $** (başlangıç 5,000 $, -113.41 $ / %-2.27)
 
 Açık pozisyonlar: PAXGUSDT short @ 3680.13 (TP 3669.09 / SL 3687.49)
 
@@ -77,30 +77,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -642.51 $ | +12293.20 $ |
-| İşlem sayısı | 3 | 61 |
-| Kazanma oranı | %33.3 | %49.2 |
+| Net kâr/zarar | +702.26 $ | +13637.97 $ |
+| İşlem sayısı | 5 | 63 |
+| Kazanma oranı | %40.0 | %49.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 115,467.75 $** (başlangıç 100,000 $, +15467.75 $ / %+15.47)
+**Hesap değeri: 117,352.41 $** (başlangıç 100,000 $, +17352.41 $ / %+17.35)
 
-Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); NVDA short @ 153.02 (TP 150.69 / SL 154.51); QQQ short @ 660.30 (TP 650.65 / SL 667.17); TSLA long @ 382.29 (TP 387.70 / SL 378.15)
+Açık pozisyonlar: AAPL short @ 349.21 (TP 344.50 / SL 353.25); QQQ short @ 660.30 (TP 650.65 / SL 667.17)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 19.11 19:53 | TSLA | long | -420.82 $ | stop |
+| 19.11 19:53 | NVDA | short | +1765.59 $ | take profit |
 | 19.11 19:01 | NVDA | short | -1193.40 $ | stop |
 | 19.11 18:37 | NVDA | short | +1726.96 $ | take profit |
 | 19.11 18:06 | NVDA | short | -1176.07 $ | stop |
-| 18.11 23:46 | TSLA | long | -107.35 $ | seans sonu |
-| 18.11 23:46 | QQQ | long | -467.84 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-19.11 19:11 N  GPT  score -0.25 conf 0.58: İran çevresindeki gerilim ve Riyad’daki saldırı güvenli liman talebini destekleyebilir; ancak Fed’in daha sıkı faiz patikasına ilişkin beklentiler ve altının son kayıpları kısa vadede daha baskın, aşağı yönlü bir etki yaratıyor. Çelişkili jeopolitik sinyaller net etkinin büyüklüğüne dair güveni sını
-19.11 19:11 B6  karar turu: Claude «Piyasa öğle saatlerinde hafif satış baskısı altında kararsız seyrediyor; şirkete özel en güçlü olumsuz katalizör NVDA tarafında.» / GPT «Endekslerdeki saatlik satış baskısı nedeniyle tepki yükselişlerinde kısa tarafı tercih ediyor, NVDA haberini en güçlü şirkete özgü negatif katalizör olarak değerlendiriyorum.»
 19.11 19:11 B6  AÇIĞA SATIŞ NVDA 748 adet ≈ 114,429 $ (1:4) @ 152.98 (TP 150.69, SL 154.51; ikisi de hemfikir, güven 0.55)
 19.11 19:24 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskılayıcı: güçlü dolar ve Fed faiz artırımı beklentileri altın satışını besliyor, altın 14 aylık dibe yakın işlem görüyor. Körfez'deki gerilim ve İran savaşı riski güvenli liman talebi yaratabilir, ancak bu etki sınırlı kalıyor ve haber akışı zaten bilinen bir gerilimi tekrarlıyor; bu nedenle güven orta düzeyde tutuldu.
 19.11 19:24 N  GPT  score -0.35 conf 0.61: Altın için en doğrudan güncel sinyal, güçlü dolar ve Fed faiz artışı beklentilerinin satışları artırdığı yönünde; bu, kısa vadede baskının sürebileceğini düşündürüyor. Orta Doğu gerilimi güvenli liman talebini destekleyebilir ancak haberler karışık ve bu etki faiz beklentileriyle sınırlanabilir.
@@ -114,6 +112,8 @@ Son işlemler:
 19.11 19:48 N  GPT  score -0.62 conf 0.76: Güçlü dolar ve Fed’in faiz artıracağına yönelik artan beklentiler, altını kısa vadede baskılıyor; fiyatın 14 ayın dibine gerilemesi de bu etkinin hâlihazırda belirgin olduğunu gösteriyor. İran kaynaklı enerji şoku ve Myanmar kararı güvenli liman talebini destekleyebilir, ancak yeni ve güçlü bir kata
 19.11 19:48 B6  karar turu: Claude «Piyasa yatay ve teknoloji ağırlıklı hafif pozitif bir seyir izliyor, ancak NVDA'daki CEO istifası ve not indirimleri riskini akılda tutmak gerekiyor.» / GPT «Endekslerdeki saatlik toparlanma seçici alımları destekliyor ancak dar işlem aralıkları ve NVIDIA kaynaklı haber riski agresif kaldıraç kullanımında temkin gerektiriyor.»
 19.11 19:48 B6  ALIŞ TSLA 106 adet ≈ 40,489 $ (1:4) @ 381.97 (TP 387.7, SL 378.15; ikisi de hemfikir, güven 0.55)
+19.11 19:53 B6  CLOSE short NVDA take profit: +1765.59 USD
+19.11 19:53 B6  CLOSE long TSLA stop: -420.82 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
