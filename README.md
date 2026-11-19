@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 05:13 (İstanbul)
+> Son güncelleme: 19.11.2026 05:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,095.45 $** (başlangıç 5,000 $, +95.45 $ / %+1.91)
+**Hesap değeri: 5,096.11 $** (başlangıç 5,000 $, +96.11 $ / %+1.92)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,770.50 $** (başlangıç 5,000 $, -229.50 $ / %-4.59)
 
-Son haber analizi (19.11 05:04): Claude puan **-0.45**, güven 0.60 — Dolar endeksi yaklaşık 19-20 aylık zirveye yakın seyrediyor, Fed'den şahin sinyaller geliyor ve altın 14 aylık dip seviyesine yakın işlem görüyor; bu baskı, İran savaşı haberlerinden gelen güvenli liman talebinin etkisini büyük ölçüde gölgeliyor. Savaş genişlemesi riski altına kısa vadeli destek sağlayabilir, ancak mevcut trend ve dolar gücü nedeniyle net etki 1-4 saatte negatif görünüyor; haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (19.11 05:16): Claude puan **-0.50**, güven 0.60 — Dolar 19 aylık zirvesine yakın seyrediyor ve Fed'in şahin sinyalleri altın üzerinde baskı yaratıyor; altın 14 aylık dibe yakın işlem görüyor. İran savaşı haberlerindeki tırmanış güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar yukarı yönlü tepki vermedi, bu nedenle baskın etki negatif kalıyor.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.56 — Doların 19 ayın zirvesine yakın seyretmesi altın üzerinde kısa vadeli baskı yaratıyor. Netanyahu’nun İran savaşını sürdürme isteği ve füze testi güvenli liman talebini destekleyebilir, ancak haberler kesin bir yeni tırmanış göstermiyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.56 — Doların 19-20 ayın zirvelerine yakın seyretmesi ve Fed’e ilişkin şahin beklentiler, kısa vadede altın üzerinde baskı yaratıyor. İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak haberlerin çoğu süregelen gelişmeler ve etkileri çelişkili.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 03:52 N  GPT  score -0.40 conf 0.66: Hawkish Fed beklentileri ve güçlenen dolar, altını 14 ayın diplerine yaklaştıran baskıyı kısa vadede sürdürüyor. İran gerilimi ve olası yeni saldırılar güvenli liman talebi yaratabilir; bu nedenle düşüş beklentisi temkinli.
-19.11 04:04 N  NEWS (3 new) score -0.70 conf 0.75: Fed'in Aralık'ta yeni faiz artırımına işaret etmesi, Kashkari'nin piyasanın beklediğinden fazla sıkılaşma öngördüğünü söylemesi ve doların yıllık zirvelere yakın güçlenmesi altını 14 aylık dibe itti; reel faiz ve dolar kanalı altın için net olumsuz. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir ancak bu etki mevcut sıkılaştırma baskısının gerisinde kalıyor. Fiyatın zaten düşmüş olması kısa vadeli tepki riskini artırdığı için güveni biraz sınırlıyorum.
 19.11 04:04 N  GPT  score -0.58 conf 0.72: Doların güçlenmesi ve Fed’in daha fazla faiz artışına yönelik şahin beklentiler altını baskılıyor; 14 ayın dibine iniş de kısa vadeli aşağı yönlü momentumu teyit ediyor. İran gerilimi ve diğer jeopolitik riskler güvenli liman talebi yaratabilir, ancak şu an bu baskıyı dengelemiyor.
 19.11 04:16 N  NEWS (9 new) score -0.55 conf 0.70: Altın 14 aylık dibe yakın seyrediyor; Fed'in aralıkta faiz artırımına işaret eden şahin söylemi ve güçlenen dolar (DXY yıllık zirveye yakın) baskı yaratıyor. İran savaşı ve Hûti/Kırım köprüsü gibi jeopolitik haberler güvenli liman talebini destekleyebilse de, şu an bu etki şahin Fed ve dolar gücünün gerisinde kalıyor; kısa vadede aşağı yönlü risk baskın, ancak haberlerin çoğu zaten fiyatlanmış olduğu için güven orta düzeyde.
 19.11 04:16 N  GPT  score -0.35 conf 0.58: Hawkish Fed beklentileri ve doların güçlü kalması, altının yeni dip seviyelere gerilemesiyle birlikte kısa vadede aşağı yönlü baskıyı öne çıkarıyor. Kırım Köprüsü saldırısı güvenli liman talebini destekleyebilir; Yemen haberi ise füzenin engellenmesi nedeniyle sınırlı ve çelişkili bir etki yaratıyor
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 04:52 N  GPT  score -0.25 conf 0.40: Doların güçlü seyri ve Fed’e ilişkin şahin beklentiler altın üzerinde baskı kuruyor; ancak bunlar büyük ölçüde önceki haberlerde yer alıyor. Trump’ın Xi ve Putin’le görüşmesi diplomasi ihtimali sunsa da savaş kaynaklı belirsizlik sürüyor ve kısa vadeli etkisi net değil.
 19.11 05:04 N  NEWS (11 new) score -0.45 conf 0.60: Dolar endeksi yaklaşık 19-20 aylık zirveye yakın seyrediyor, Fed'den şahin sinyaller geliyor ve altın 14 aylık dip seviyesine yakın işlem görüyor; bu baskı, İran savaşı haberlerinden gelen güvenli liman talebinin etkisini büyük ölçüde gölgeliyor. Savaş genişlemesi riski altına kısa vadeli destek sağlayabilir, ancak mevcut trend ve dolar gücü nedeniyle net etki 1-4 saatte negatif görünüyor; haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 19.11 05:04 N  GPT  score -0.25 conf 0.56: Doların 19 ayın zirvesine yakın seyretmesi altın üzerinde kısa vadeli baskı yaratıyor. Netanyahu’nun İran savaşını sürdürme isteği ve füze testi güvenli liman talebini destekleyebilir, ancak haberler kesin bir yeni tırmanış göstermiyor.
+19.11 05:16 N  NEWS (8 new) score -0.50 conf 0.60: Dolar 19 aylık zirvesine yakın seyrediyor ve Fed'in şahin sinyalleri altın üzerinde baskı yaratıyor; altın 14 aylık dibe yakın işlem görüyor. İran savaşı haberlerindeki tırmanış güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar yukarı yönlü tepki vermedi, bu nedenle baskın etki negatif kalıyor.
+19.11 05:16 N  GPT  score -0.35 conf 0.56: Doların 19-20 ayın zirvelerine yakın seyretmesi ve Fed’e ilişkin şahin beklentiler, kısa vadede altın üzerinde baskı yaratıyor. İran çevresindeki gerilim güvenli liman talebini destekleyebilir; ancak haberlerin çoğu süregelen gelişmeler ve etkileri çelişkili.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
