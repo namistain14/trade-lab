@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 19.11.2026 05:01 (İstanbul)
+> Son güncelleme: 19.11.2026 05:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %100.0 | %100.0 |
 | Ödenen komisyon/spread | 1.62 $ | 1.62 $ |
 
-**Hesap değeri: 5,097.22 $** (başlangıç 5,000 $, +97.22 $ / %+1.94)
+**Hesap değeri: 5,094.79 $** (başlangıç 5,000 $, +94.79 $ / %+1.90)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 4,770.50 $** (başlangıç 5,000 $, -229.50 $ / %-4.59)
 
-Son haber analizi (19.11 04:52): Claude puan **-0.50**, güven 0.60 — Altın 14 aylık dip seviyesinde ve baskı altında; güçlenen dolar, Fed'in şahin söylemleri ve faiz artırımı beklentileri kısa vadede altın için olumsuz. İran savaşı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir, ancak bu etkiler henüz fiyatlara yansımış görünmüyor, bu yüzden güven orta düzeyde.
+Son haber analizi (19.11 05:04): Claude puan **-0.45**, güven 0.60 — Dolar endeksi yaklaşık 19-20 aylık zirveye yakın seyrediyor, Fed'den şahin sinyaller geliyor ve altın 14 aylık dip seviyesine yakın işlem görüyor; bu baskı, İran savaşı haberlerinden gelen güvenli liman talebinin etkisini büyük ölçüde gölgeliyor. Savaş genişlemesi riski altına kısa vadeli destek sağlayabilir, ancak mevcut trend ve dolar gücü nedeniyle net etki 1-4 saatte negatif görünüyor; haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 
-GPT (gpt-6-luna): puan **-0.25**, güven 0.40 — Doların güçlü seyri ve Fed’e ilişkin şahin beklentiler altın üzerinde baskı kuruyor; ancak bunlar büyük ölçüde önceki haberlerde yer alıyor. Trump’ın Xi ve Putin’le görüşmesi diplomasi ihtimali sunsa da savaş kaynaklı belirsizlik sürüyor ve kısa vadeli etkisi net değil.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.56 — Doların 19 ayın zirvesine yakın seyretmesi altın üzerinde kısa vadeli baskı yaratıyor. Netanyahu’nun İran savaşını sürdürme isteği ve füze testi güvenli liman talebini destekleyebilir, ancak haberler kesin bir yeni tırmanış göstermiyor.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-19.11 03:39 N  GPT  score -0.65 conf 0.72: Fed’in daha fazla faiz artışı beklentisi ve doların yıllık zirveleri test etmesi altın üzerinde baskı kuruyor; fiyatın 14 ayın dibine yakın seyretmesi aşağı yönlü momentumu destekliyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebi yaratabilir, ancak başlıklar yeni bir tırmanıştan çok mevcut
-19.11 03:52 N  NEWS (5 new) score -0.60 conf 0.70: Fed yetkililerinin (Kashkari dahil) daha fazla faiz artırımı sinyali vermesi, güçlenen doları ve yükselen reel faiz beklentilerini destekliyor; altın 14 aylık dibe yakın seviyelerde işlem görüyor. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir, ancak bu etki mevcut sert düşüşü dengelemeye yetmiyor. Yaklaşan NFP verisi kısa vadede volatilite yaratabilir, bu nedenle güven orta düzeyde tutuldu.
 19.11 03:52 N  GPT  score -0.40 conf 0.66: Hawkish Fed beklentileri ve güçlenen dolar, altını 14 ayın diplerine yaklaştıran baskıyı kısa vadede sürdürüyor. İran gerilimi ve olası yeni saldırılar güvenli liman talebi yaratabilir; bu nedenle düşüş beklentisi temkinli.
 19.11 04:04 N  NEWS (3 new) score -0.70 conf 0.75: Fed'in Aralık'ta yeni faiz artırımına işaret etmesi, Kashkari'nin piyasanın beklediğinden fazla sıkılaşma öngördüğünü söylemesi ve doların yıllık zirvelere yakın güçlenmesi altını 14 aylık dibe itti; reel faiz ve dolar kanalı altın için net olumsuz. İran savaşı ve jeopolitik gerilim güvenli liman talebi yaratabilir ancak bu etki mevcut sıkılaştırma baskısının gerisinde kalıyor. Fiyatın zaten düşmüş olması kısa vadeli tepki riskini artırdığı için güveni biraz sınırlıyorum.
 19.11 04:04 N  GPT  score -0.58 conf 0.72: Doların güçlenmesi ve Fed’in daha fazla faiz artışına yönelik şahin beklentiler altını baskılıyor; 14 ayın dibine iniş de kısa vadeli aşağı yönlü momentumu teyit ediyor. İran gerilimi ve diğer jeopolitik riskler güvenli liman talebi yaratabilir, ancak şu an bu baskıyı dengelemiyor.
@@ -110,6 +108,8 @@ Son işlemler:
 19.11 04:40 N  GPT  score -0.32 conf 0.53: Hawkish Fed beklentileri ve güçlü doların altındaki aşağı yönlü baskısı, kısa vadede çatışma kaynaklı güvenli liman talebinden ağır basıyor. İran çevresindeki gerilim altını destekleyebilir; ancak savaşı önleme girişimleri ve haberlerin çelişkili etkisi düşüş görünümüne dair güveni sınırlıyor.
 19.11 04:52 N  NEWS (6 new) score -0.50 conf 0.60: Altın 14 aylık dip seviyesinde ve baskı altında; güçlenen dolar, Fed'in şahin söylemleri ve faiz artırımı beklentileri kısa vadede altın için olumsuz. İran savaşı ve bölgesel gerilim haberleri güvenli liman talebini destekleyebilir, ancak bu etkiler henüz fiyatlara yansımış görünmüyor, bu yüzden güven orta düzeyde.
 19.11 04:52 N  GPT  score -0.25 conf 0.40: Doların güçlü seyri ve Fed’e ilişkin şahin beklentiler altın üzerinde baskı kuruyor; ancak bunlar büyük ölçüde önceki haberlerde yer alıyor. Trump’ın Xi ve Putin’le görüşmesi diplomasi ihtimali sunsa da savaş kaynaklı belirsizlik sürüyor ve kısa vadeli etkisi net değil.
+19.11 05:04 N  NEWS (11 new) score -0.45 conf 0.60: Dolar endeksi yaklaşık 19-20 aylık zirveye yakın seyrediyor, Fed'den şahin sinyaller geliyor ve altın 14 aylık dip seviyesine yakın işlem görüyor; bu baskı, İran savaşı haberlerinden gelen güvenli liman talebinin etkisini büyük ölçüde gölgeliyor. Savaş genişlemesi riski altına kısa vadeli destek sağlayabilir, ancak mevcut trend ve dolar gücü nedeniyle net etki 1-4 saatte negatif görünüyor; haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+19.11 05:04 N  GPT  score -0.25 conf 0.56: Doların 19 ayın zirvesine yakın seyretmesi altın üzerinde kısa vadeli baskı yaratıyor. Netanyahu’nun İran savaşını sürdürme isteği ve füze testi güvenli liman talebini destekleyebilir, ancak haberler kesin bir yeni tırmanış göstermiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
