@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    5000.0
-   ],
-   [
     1794583236,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795171138,
     5104.97
+   ],
+   [
+    1795171329,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    4868.5
-   ],
-   [
     1794583236,
     4868.5
    ],
@@ -27126,28 +27122,32 @@
    [
     1795171138,
     4868.5
+   ],
+   [
+    1795171329,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.45,
-   "confidence": 0.6,
-   "reason": "Alt\u0131n 14 ayl\u0131k dibe geriledi ve teknik k\u0131r\u0131l\u0131mlar s\u00fcr\u00fcyor; Fed'in s\u0131k\u0131 duru\u015f risklerine ve g\u00fc\u00e7l\u00fc dolara (g\u00fcvenli liman talebi dahil) ba\u011fl\u0131 bask\u0131 g\u00f6r\u00fcl\u00fcyor. Polonya'da f\u00fcze patlamas\u0131 gibi jeopolitik haberler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, mevcut d\u00fc\u015f\u00fc\u015f momentumunu tersine \u00e7evirecek yeterli bir etken g\u00f6r\u00fcnm\u00fcyor.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k sinyaller var: Rusya'n\u0131n Polonya'ya f\u00fcze girmesi ve ABD tahvil getirilerinin sert d\u00fc\u015f\u00fc\u015f\u00fc g\u00fcvenli liman talebini destekliyor, ancak g\u00fc\u00e7l\u00fc dolar, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi k\u0131sa vadeli bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Net etkinin hafif negatif olmas\u0131 ve g\u00fcven d\u00fczeyinin d\u00fc\u015f\u00fck olmas\u0131 bekleniyor.",
    "n": 45,
-   "ts": 1795170608207,
-   "new_headlines": 7,
+   "ts": 1795171328272,
+   "new_headlines": 14,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe geriledi, teknik seviyeler k\u0131r\u0131ld\u0131 (3.500 $ riskte)",
     "Fed'de s\u0131k\u0131 duru\u015f beklentileri ve g\u00fc\u00e7l\u00fc dolar alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
     "Polonya'da olas\u0131 Rus f\u00fczesi hava sahas\u0131 ihlali: s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi"
    ],
    "gpt": {
-    "score": -0.3,
+    "score": 0.3,
     "confidence": 0.56,
-    "reason": "Alt\u0131n\u0131n 14 ay\u0131n dibine gerilemesi ve dolar ile \u015fahin Fed beklentilerinin destek bulmas\u0131 k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Ukrayna ve \u0130ran kaynakl\u0131 riskler g\u00fcvenli liman talebini art\u0131rsa da bu destek \u015fimdilik fiyat d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc dengeleyemiyor; a\u015f\u0131r\u0131 sat\u0131m tepki y\u00fckseli\u015fi riskini art\u0131r\u0131yor.",
+    "reason": "Polonya\u2019ya Rus f\u00fczesinin isabet etti\u011fi haberi ve g\u00fcvenli liman talebiyle Hazine tahvil getirilerinin sert d\u00fc\u015fmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir; dolar\u0131n zay\u0131flamas\u0131 da olumlu. Ancak alt\u0131ndaki g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f e\u011filimi ve Fed\u2019in s\u0131k\u0131la\u015faca\u011f\u0131 beklentileri bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
     "key_events": [
-     "Alt\u0131n 14 ay\u0131n en d\u00fc\u015f\u00fck seviyesinde",
-     "\u015eahin Fed beklentileri ve g\u00fc\u00e7l\u00fc dolar",
-     "Ukrayna ve \u0130ran gerilimi g\u00fcvenli liman deste\u011fi"
+     "Polonya\u2019da Rus f\u00fczesinin isabet etti\u011fi bildirildi",
+     "G\u00fcvenli liman talebiyle tahvil getirileri sert d\u00fc\u015ft\u00fc",
+     "Alt\u0131ndaki d\u00fc\u015f\u00fc\u015f e\u011filimi ve Fed beklentileri bask\u0131 yarat\u0131yor"
     ],
     "model": "gpt-6-luna"
    },
@@ -27155,15 +27155,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794901442407,
-    "score": -0.7,
-    "confidence": 0.75,
-    "reason": "Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve 19 ayl\u0131k zirvedeki dolar nedeniyle 1 y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; reel getiri ve enflasyon bask\u0131s\u0131 alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. Ukrayna-Rusya sald\u0131r\u0131lar\u0131 gibi jeopolitik haberler eski ve fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcvenli liman talebini art\u0131rm\u0131yor; y\u00fcksek belirsizlik nedeniyle g\u00fcven s\u0131n\u0131rl\u0131 tutuldu.",
-    "new": 43,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794902163821,
     "score": -0.5,
@@ -29854,30 +29845,51 @@
     "new": 7,
     "gpt_score": -0.3,
     "gpt_confidence": 0.56
+   },
+   {
+    "ts": 1795171328272,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k sinyaller var: Rusya'n\u0131n Polonya'ya f\u00fcze girmesi ve ABD tahvil getirilerinin sert d\u00fc\u015f\u00fc\u015f\u00fc g\u00fcvenli liman talebini destekliyor, ancak g\u00fc\u00e7l\u00fc dolar, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi k\u0131sa vadeli bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Net etkinin hafif negatif olmas\u0131 ve g\u00fcven d\u00fczeyinin d\u00fc\u015f\u00fck olmas\u0131 bekleniyor.",
+    "new": 14,
+    "gpt_score": 0.3,
+    "gpt_confidence": 0.56
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 66
+   "n": 67
   },
   "news_seen": [
+   "Poland says Russian missile hit its territory during attack on Ukraine - France 24",
+   "Gold Breaks Down but is This a Sign of What\u2019s to Come? - StoneX",
+   "Rights Groups Urge Sanctions After Top UN Court Finds Myanmar Committed Genocide Against Rohingya - U.S. News & World Report",
+   "Swiss Franc pares losses as the AI sell-off dents US Dollar\u2019s strength - FXStreet",
+   "Opinion | Israel must prepare for more war on Iran, but not every threat justifies it - Haaretz",
+   "US dollar to Polish Z\u0142oty exchange rate consolidates as buyers dominate despite overbought signals - Traders Union",
+   "Ukraine updates: Kyiv targeted by missile strikes, bridges hit - DW.com",
    "Merz Says Russia Could See Gradual Sanctions Relief in Exchange for Ukraine Peace Concessions - Kyiv Post",
-   "Israel upgrades David's Sling to counter wider range of Iranian missile threats - www.calcalistech.com",
+   "Polish Defence Minister Links Russian Missile Incursion to Coalition of the Willing Exercises - REFORM.news",
+   "Israel upgrades David's Sling to counter wider range of Iranian missile threats - CTech",
+   "Treasury yields are sharply lower as investors flee to safe havens - CNBC",
    "Three Kyiv bridges hit during major Russian missile attack",
    "TSX closes at six-month low as gold and miners tumble - Mining.com.au",
-   "Russia Is Turning Shahed Drones Into Multitasking Weapons That Can Spy, Strike, and Relay Signals - UNITED24 Media",
    "Dubai gold price drop: Is a rate-lock scheme worth it? - Gulf News",
    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - thenationalnews.com",
    "Senate passes 'Death Bets Act' to ban prediction market contracts tied to death and war - The Block",
+   "Gold price in Pakistan falls Rs15,400 per tola - Mettis Global",
    "ECB to Expand Euro Currency Swap Lines, Seeking to Reduce Dollar Dependence - BigGo Finance",
+   "Meet the Media\u2019s Favorite \u2018Sanctions Expert\u2019: A 29-Year-Old With a Raft of Online Certifications and Little Real-World Experience - freebeacon.com",
+   "Russia unleashes retaliatory barrage on Kyiv bridges - Al Jazeera",
    "When Nazis were held responsible for war crimes - The Washington Post",
    "Gold hits 14-month low, 'Rich Dad Poor Dad' author Robert Kiyosaki says 'strong hands' are waiting to buy - Moneycontrol.com",
    "The War Is Ravaging Ukraine\u2019s Wildlife, Too - The New York Times",
-   "Russia unleashes retaliatory barrage on Kyiv bridges - Al Jazeera",
    "Airbnb's divisive new house rules come into force",
    "Cleanup of Cold War scrap yard underway in Oak Ridge - Oakridger",
+   "Gold Prices Hit 14-Month Low as Strong Dollar and Fed Rate Hike Bets Drive Weekly Sell-Off - Yahoo Finance UK",
    "Syria hails historic UN resolution recognizing post-war progress - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "Dems draft a curb on Iran war cash - Politico",
+   "What\u2019s going on with gold? - Fidelity International",
    "Gold (XAUUSD) Price Forecast: Gold Slides Toward Stronger Support Zone - FXEmpire",
    "Gold Price Drops Back to Nearly $3,500 - blue News",
    "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
@@ -29893,24 +29905,10 @@
    "\u2018We\u2019ve Got Time\u2019: Trump Suggests Iran War Will Continue Into 2027 - Time Magazine",
    "Sterling today: Pound edges up on UK retail beat, dollar caps gains - Investing.com",
    "Putin scores \u2018massive win\u2019 at first trilateral meeting, rebuilding standing as Ukraine war grinds on - CNBC",
-   "Taiwan Stocks Plunge 17.5% in a Week as Taiwan's Central Bank Stems Losses, Taiwan Dollar Defies Trend to Close Stronger at NT$32.936 - BigGo Finance",
-   "Steady China rates and stable US Dollar keep Australian Dollar subdued - www.tmgm.com",
-   "Swiss Franc stays firm as US Dollar slips despite hawkish Fed outlook - www.tmgm.com",
-   "Fed's Paulson: Clear communication of perspectives is needed - www.tmgm.com",
-   "The Fed\u2019s intentions remain key for the markets - FXStreet",
-   "Merchant mariners of the Vietnam War deserve full veteran status | Opinion - The Portland Press Herald",
-   "Gold Bars, Maple Leafs and Mining Stocks: Three Ways to Gain Exposure to Gold and What Separates Them - Share Talk",
-   "More bang for less buck: Israel turns to cheaper missile defense as interceptor stocks dwindle - Ynetnews",
-   "Missile War Monitor: Russian ballistic missiles hit three of Kyiv's Dnipro bridges and kill three water workers - bne IntelliNews",
-   "British Bank Backed by Kushner\u2019s Affinity Gets U.S. License - WSJ",
-   "Gold prices see steep fall of Tk 10,964 per bhori in a day - The Financial Express",
-   "USD/JPY Price Forecast: US Dollar approaches a key support area around 158.90 - FXStreet",
-   "US: Cost of war in Iran passes $48 billion not including damage to infrastructure - DW.com"
+   "Taiwan Stocks Plunge 17.5% in a Week as Taiwan's Central Bank Stems Losses, Taiwan Dollar Defies Trend to Close Stronger at NT$32.936 - BigGo Finance"
   ]
  },
  "log": [
-  "19.11 19:11 N  GPT  score -0.25 conf 0.58: \u0130ran \u00e7evresindeki gerilim ve Riyad\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini destekleyebilir; ancak Fed\u2019in daha s\u0131k\u0131 faiz patikas\u0131na ili\u015fkin beklentiler ve alt\u0131n\u0131n son kay\u0131plar\u0131 k\u0131sa vadede daha bask\u0131n, a\u015fa\u011f\u0131 y\u00f6nl\u00fc bir etki yarat\u0131yor. \u00c7eli\u015fkili jeopolitik sinyaller net etkinin b\u00fcy\u00fckl\u00fc\u011f\u00fcne dair g\u00fcveni s\u0131n\u0131",
-  "19.11 19:11 B6  karar turu: Claude \u00abPiyasa \u00f6\u011fle saatlerinde hafif sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda karars\u0131z seyrediyor; \u015firkete \u00f6zel en g\u00fc\u00e7l\u00fc olumsuz kataliz\u00f6r NVDA taraf\u0131nda.\u00bb / GPT \u00abEndekslerdeki saatlik sat\u0131\u015f bask\u0131s\u0131 nedeniyle tepki y\u00fckseli\u015flerinde k\u0131sa taraf\u0131 tercih ediyor, NVDA haberini en g\u00fc\u00e7l\u00fc \u015firkete \u00f6zg\u00fc negatif kataliz\u00f6r olarak de\u011ferlendiriyorum.\u00bb",
   "19.11 19:11 B6  A\u00c7I\u011eA SATI\u015e NVDA 748 adet \u2248 114,429 $ (1:4) @ 152.98 (TP 150.69, SL 154.51; ikisi de hemfikir, g\u00fcven 0.55)",
   "19.11 19:24 N  NEWS (9 new) score -0.50 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n sat\u0131\u015f\u0131n\u0131 besliyor, alt\u0131n 14 ayl\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor. K\u00f6rfez'deki gerilim ve \u0130ran sava\u015f\u0131 riski g\u00fcvenli liman talebi yaratabilir, ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131yor ve haber ak\u0131\u015f\u0131 zaten bilinen bir gerilimi tekrarl\u0131yor; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
   "19.11 19:24 N  GPT  score -0.35 conf 0.61: Alt\u0131n i\u00e7in en do\u011frudan g\u00fcncel sinyal, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131\u015f\u0131 beklentilerinin sat\u0131\u015flar\u0131 art\u0131rd\u0131\u011f\u0131 y\u00f6n\u00fcnde; bu, k\u0131sa vadede bask\u0131n\u0131n s\u00fcrebilece\u011fini d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor. Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekleyebilir ancak haberler kar\u0131\u015f\u0131k ve bu etki faiz beklentileriyle s\u0131n\u0131rlanabilir.",
@@ -30208,7 +30206,9 @@
   "20.11 13:18 N  NEWS (8 new) score -0.30 conf 0.50: Alt\u0131n 2026 dip seviyelerine yak\u0131n ve teknik olarak a\u015f\u0131r\u0131 sat\u0131m b\u00f6lgesinde; haberlerde Fed'in s\u0131k\u0131 (hawkish) beklentileri ve g\u00fc\u00e7l\u00fc dolar\u0131n g\u00fcvenli liman talebi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Ukrayna'daki gerilim jeopolitik destek sa\u011flasa da, bu risk primi fiyatlara yans\u0131m\u0131yor. ECB'nin dolar ba\u011f\u0131ml\u0131l\u0131\u011f\u0131n\u0131 azaltma ad\u0131m\u0131 ve merkez bankas\u0131 \u00e7e\u015fitlendirmesi uzun vadede alt\u0131n lehine olsa da k\u0131sa vadede etkisi s\u0131n\u0131rl\u0131 kal\u0131r. Haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "20.11 13:18 N  GPT  score -0.25 conf 0.56: Ortado\u011fu\u2019daki sald\u0131r\u0131lar\u0131n ve \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ve dolar/Fed kaynakl\u0131 bask\u0131, \u00f6n\u00fcm\u00fczdeki saatlerde a\u015fa\u011f\u0131 y\u00f6nl\u00fc etkinin a\u011f\u0131r basabilece\u011fine i\u015faret ediyor.",
   "20.11 13:30 N  NEWS (7 new) score -0.45 conf 0.60: Alt\u0131n 14 ayl\u0131k dibe geriledi ve teknik k\u0131r\u0131l\u0131mlar s\u00fcr\u00fcyor; Fed'in s\u0131k\u0131 duru\u015f risklerine ve g\u00fc\u00e7l\u00fc dolara (g\u00fcvenli liman talebi dahil) ba\u011fl\u0131 bask\u0131 g\u00f6r\u00fcl\u00fcyor. Polonya'da f\u00fcze patlamas\u0131 gibi jeopolitik haberler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, mevcut d\u00fc\u015f\u00fc\u015f momentumunu tersine \u00e7evirecek yeterli bir etken g\u00f6r\u00fcnm\u00fcyor.",
-  "20.11 13:30 N  GPT  score -0.30 conf 0.56: Alt\u0131n\u0131n 14 ay\u0131n dibine gerilemesi ve dolar ile \u015fahin Fed beklentilerinin destek bulmas\u0131 k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Ukrayna ve \u0130ran kaynakl\u0131 riskler g\u00fcvenli liman talebini art\u0131rsa da bu destek \u015fimdilik fiyat d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc dengeleyemiyor; a\u015f\u0131r\u0131 sat\u0131m tepki y\u00fckseli\u015fi riskini art\u0131r\u0131yor."
+  "20.11 13:30 N  GPT  score -0.30 conf 0.56: Alt\u0131n\u0131n 14 ay\u0131n dibine gerilemesi ve dolar ile \u015fahin Fed beklentilerinin destek bulmas\u0131 k\u0131sa vadeli a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentuma i\u015faret ediyor. Ukrayna ve \u0130ran kaynakl\u0131 riskler g\u00fcvenli liman talebini art\u0131rsa da bu destek \u015fimdilik fiyat d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc dengeleyemiyor; a\u015f\u0131r\u0131 sat\u0131m tepki y\u00fckseli\u015fi riskini art\u0131r\u0131yor.",
+  "20.11 13:42 N  NEWS (14 new) score -0.10 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k sinyaller var: Rusya'n\u0131n Polonya'ya f\u00fcze girmesi ve ABD tahvil getirilerinin sert d\u00fc\u015f\u00fc\u015f\u00fc g\u00fcvenli liman talebini destekliyor, ancak g\u00fc\u00e7l\u00fc dolar, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve alt\u0131n\u0131n 14 ayl\u0131k dibe inmesi k\u0131sa vadeli bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Net etkinin hafif negatif olmas\u0131 ve g\u00fcven d\u00fczeyinin d\u00fc\u015f\u00fck olmas\u0131 bekleniyor.",
+  "20.11 13:42 N  GPT  score +0.30 conf 0.56: Polonya\u2019ya Rus f\u00fczesinin isabet etti\u011fi haberi ve g\u00fcvenli liman talebiyle Hazine tahvil getirilerinin sert d\u00fc\u015fmesi alt\u0131n\u0131 k\u0131sa vadede destekleyebilir; dolar\u0131n zay\u0131flamas\u0131 da olumlu. Ancak alt\u0131ndaki g\u00fc\u00e7l\u00fc d\u00fc\u015f\u00fc\u015f e\u011filimi ve Fed\u2019in s\u0131k\u0131la\u015faca\u011f\u0131 beklentileri bu deste\u011fi s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    4963.78
-   ],
-   [
     1794583236,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795171138,
+    4963.78
+   ],
+   [
+    1795171329,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    4975.18
-   ],
-   [
     1794583236,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795171138,
+    4975.18
+   ],
+   [
+    1795171329,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    4993.28
-   ],
-   [
     1794583236,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795171138,
+    4993.28
+   ],
+   [
+    1795171329,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794583054,
-    4969.22
-   ],
-   [
     1794583236,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795171138,
+    4969.22
+   ],
+   [
+    1795171329,
     4969.22
    ]
   ],
@@ -82660,10 +82660,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794583054,
-    4538.28
-   ],
    [
     1794583236,
     4557.1
@@ -94659,6 +94655,10 @@
    [
     1795171138,
     5239.01
+   ],
+   [
+    1795171329,
+    5239.01
    ]
   ],
   "news_calls": {
@@ -96141,10 +96141,6 @@
    "equity": 120538.72
   },
   "equity_curve": [
-   [
-    1794583054,
-    115705.69
-   ],
    [
     1794583236,
     116137.13
@@ -108140,6 +108136,10 @@
    [
     1795171138,
     120538.72
+   ],
+   [
+    1795171329,
+    120538.72
    ]
   ],
   "open": {},
@@ -108322,10 +108322,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794583054,
-    4876.96
-   ],
    [
     1794583236,
     4876.96
@@ -120320,6 +120316,10 @@
    ],
    [
     1795171138,
+    4876.96
+   ],
+   [
+    1795171329,
     4876.96
    ]
   ],
