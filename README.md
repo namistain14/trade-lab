@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:27 (İstanbul)
+> Son güncelleme: 20.11.2026 17:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %48.5 | %45.7 |
 | Ödenen komisyon/spread | 399.45 $ | 2222.37 $ |
 
-**Hesap değeri: 5,189.70 $** (başlangıç 5,000 $, +189.70 $ / %+3.79)
+**Hesap değeri: 5,183.65 $** (başlangıç 5,000 $, +183.65 $ / %+3.67)
+
+Açık pozisyonlar: PAXGUSDT short @ 3565.76 (TP 3555.06 / SL 3572.89)
 
 Son haber analizi (20.11 17:21): Claude puan **-0.60**, güven 0.60 — Baskın etki negatif: Fed'in şahin tutumu ve ABD'de parasal sıkılaşma beklentileri altını 14 aylık dibe doğru itiyor, ayrıca AI kaynaklı satış dalgası ve güvenli liman talebinin çözülmesi fiyatları aşağı çekiyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler teorik olarak altı destekleyebilir, ancak piyasada şu an bu risk prim olarak yansımıyor; bu yüzden güven orta seviyede tutuldu.
 
@@ -94,10 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 16:33 N  NEWS (11 new) score -0.60 conf 0.70: Piyasa, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolardaki yükselişin etkisiyle altını 14 aylık dibe itiyor; bu baskın hawkish-dolar etkisi, Polonya'ya düşen Rus füzesi gibi jeopolitik gerilimlerin sınırlı güvenli liman talebinden daha ağır basıyor. Bu haberlerin çoğu zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
-20.11 16:33 N  GPT  score +0.18 conf 0.48: Polonya’ya Rus füzesinin isabet ettiği haberinin tırmanma riski kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artıracağı beklentileri baskı yaratıyor; olayın ayrıntıları netleşmediği için etki sınırlı ve belirsiz.
-20.11 16:33 B6  seans öncesi görüş: Teknoloji ağırlıklı sert bir risk-off gap-down var; büyük hareket zaten gerçekleştiği için açılıştan önce kovalamak yerine yön teyidini beklemek daha mantıklı.
-20.11 16:44 N  NEWS (6 new) score -0.60 conf 0.70: Fed'in Aralık'ta faiz artırımı ihtimali artıyor (Goolsbee, Rabobank), bu da reel faiz beklentilerini yükselterek altı baskılıyor. Altın 3.550$ altına inerken güvenli liman talebi de çözülüyor; Polonya'ya füze düşmesi gibi jeopolitik haberler bu baskıyı dengeleyemiyor.
 20.11 16:44 N  GPT  score -0.55 conf 0.68: Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
 20.11 16:44 B5  SHORT gold 25000 USD x10 @ 3553.49 (TP 3542.83, SL 3560.60; news -0.57)
 20.11 16:50 B5  CLOSE short stop (gap): -62.21 USD
@@ -109,6 +107,10 @@ Son işlemler:
 20.11 17:12 B5  CLOSE short stop: -56.06 USD
 20.11 17:21 N  NEWS (9 new) score -0.60 conf 0.60: Baskın etki negatif: Fed'in şahin tutumu ve ABD'de parasal sıkılaşma beklentileri altını 14 aylık dibe doğru itiyor, ayrıca AI kaynaklı satış dalgası ve güvenli liman talebinin çözülmesi fiyatları aşağı çekiyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler teorik olarak altı destekleyebilir, ancak piyasada şu an bu risk prim olarak yansımıyor; bu yüzden güven orta seviyede tutuldu.
 20.11 17:21 N  GPT  score -0.35 conf 0.58: Hawkish Fed beklentileri ve altındaki sert düşüş kısa vadede baskının sürdüğüne işaret ediyor. Polonya’ya yönelik Rus füze saldırısı güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimine ilişkin güven sınırlı.
+20.11 17:30 B5  SHORT gold 25000 USD x10 @ 3565.76 (TP 3555.06, SL 3572.89; news -0.47)
+20.11 17:30 B6  karar turu: Claude «Piyasa sert satıştan sonra açılışın ardından tepki yükselişinde; göreli güçlü ve haber desteği olan hisselerde seçici alım tercih ediliyor.» / GPT «Sert günlük kayıplara rağmen endekslerde kısa vadeli toparlanma baskın, ancak yüksek kaldıraç ve aynı yöndeki pozisyonların korelasyonu riski büyütüyor.»
+20.11 17:30 B6  ALIŞ AAPL 341 adet ≈ 120,513 $ (1:4) @ 353.41 (TP 358.71, SL 349.88; ikisi de hemfikir, güven 0.55)
+20.11 17:30 B6  ALIŞ TSLA 328 adet ≈ 120,389 $ (1:4) @ 367.04 (TP 372.55, SL 363.37; ikisi de hemfikir, güven 0.45)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
