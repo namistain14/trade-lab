@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:29 (İstanbul)
+> Son güncelleme: 20.11.2026 19:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -74,29 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1802.87 $ | +16723.06 $ |
-| İşlem sayısı | 4 | 74 |
-| Kazanma oranı | %25.0 | %50.0 |
+| Net kâr/zarar | -4.37 $ | +18521.56 $ |
+| İşlem sayısı | 5 | 75 |
+| Kazanma oranı | %40.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,856.63 $** (başlangıç 100,000 $, +21856.63 $ / %+21.86)
+**Hesap değeri: 122,559.66 $** (başlangıç 100,000 $, +22559.66 $ / %+22.56)
 
-Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
+Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 19:32 | TSLA | short | +1798.50 $ | take profit |
 | 20.11 19:02 | AAPL | long | -1217.52 $ | stop |
 | 20.11 18:28 | SPY | long | -1223.81 $ | stop |
 | 20.11 17:57 | TSLA | long | +1846.64 $ | take profit |
 | 20.11 17:36 | AAPL | long | -1208.18 $ | stop |
-| 19.11 23:46 | TSLA | long | -282.10 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
 20.11 19:02 B5  CLOSE short take profit: +68.96 USD
 20.11 19:02 B6  CLOSE long AAPL stop: -1217.52 USD
 20.11 19:05 B6  karar turu: Claude «Teknoloji ağırlıklı risk iştahsızlığı derinleşiyor ve endeksler gün içi diplerini test ediyor; aşağı yönlü eğilim baskın.» / GPT «Endekslerde aşağı yönlü momentum baskın; dört kat kaldıraçta mevcut QQQ ve TSLA pozisyonlarıyla toplam yönsel riski sınırlamak önemli.»
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 19:23 N  GPT  score -0.60 conf 0.72: Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
 20.11 19:29 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı öğleden sonra da sürüyor ve piyasa zayıf seyrediyor.» / GPT «Endekslerde gün içi satış baskısı sürerken kısa yön öne çıkıyor; 1:4 kaldıraçta açık pozisyonlarla ortak piyasa riski sınırlanmalı.»
 20.11 19:29 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"91188.34","code":40310000,"cost_basis":"106076.56","message":"insufficient buying power"}
+20.11 19:32 B6  CLOSE short TSLA take profit: +1798.50 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
