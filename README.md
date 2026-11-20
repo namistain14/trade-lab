@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:30 (İstanbul)
+> Son güncelleme: 20.11.2026 17:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,28 +25,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +137.32 $ | +189.70 $ |
-| İşlem sayısı | 33 | 186 |
-| Kazanma oranı | %48.5 | %45.7 |
-| Ödenen komisyon/spread | 399.45 $ | 2222.37 $ |
+| Net kâr/zarar | +81.26 $ | +133.64 $ |
+| İşlem sayısı | 34 | 187 |
+| Kazanma oranı | %47.1 | %45.5 |
+| Ödenen komisyon/spread | 411.55 $ | 2234.48 $ |
 
-**Hesap değeri: 5,183.65 $** (başlangıç 5,000 $, +183.65 $ / %+3.67)
+**Hesap değeri: 5,133.64 $** (başlangıç 5,000 $, +133.64 $ / %+2.67)
 
-Açık pozisyonlar: PAXGUSDT short @ 3565.76 (TP 3555.06 / SL 3572.89)
+Son haber analizi (20.11 17:33): Claude puan **-0.50**, güven 0.60 — Faiz artırımı beklentileri (Chicago Fed başkanının Aralık'ta daha büyük artırımı dışlamaması, Rabobank'ın Aralık artırım fiyatlamasını işaret etmesi) reel faiz ve dolar tarafında altı baskılıyor; haberler de altın için haftanın en kötü performansına ve "safe-haven" talebinin çözülmesine işaret ediyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratıyor ama bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
 
-Son haber analizi (20.11 17:21): Claude puan **-0.60**, güven 0.60 — Baskın etki negatif: Fed'in şahin tutumu ve ABD'de parasal sıkılaşma beklentileri altını 14 aylık dibe doğru itiyor, ayrıca AI kaynaklı satış dalgası ve güvenli liman talebinin çözülmesi fiyatları aşağı çekiyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler teorik olarak altı destekleyebilir, ancak piyasada şu an bu risk prim olarak yansımıyor; bu yüzden güven orta seviyede tutuldu.
-
-GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Hawkish Fed beklentileri ve altındaki sert düşüş kısa vadede baskının sürdüğüne işaret ediyor. Polonya’ya yönelik Rus füze saldırısı güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimine ilişkin güven sınırlı.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Fed’in daha büyük faiz artışı ihtimalini açık tutması ve Aralık artışı fiyatlaması, yükselen faiz beklentileri ve dolar üzerinden altını kısa vadede baskılıyor. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu etki mevcut düşüş baskısını kısmen deng
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 17:32 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 17:12 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 16:50 | PAXGUSDT | short | -62.21 $ | stop (gap) |
 | 20.11 16:23 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 10:41 | PAXGUSDT | short | -56.07 $ | stop |
-| 20.11 08:46 | PAXGUSDT | short | -56.08 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -81,7 +79,9 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,538.72 $** (başlangıç 100,000 $, +20538.72 $ / %+20.54)
+**Hesap değeri: 120,367.80 $** (başlangıç 100,000 $, +20367.80 $ / %+20.37)
+
+Açık pozisyonlar: AAPL long @ 351.08 (TP 358.71 / SL 349.88); TSLA long @ 367.53 (TP 372.55 / SL 363.37)
 
 Son işlemler:
 
@@ -96,9 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 16:44 N  GPT  score -0.55 conf 0.68: Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
-20.11 16:44 B5  SHORT gold 25000 USD x10 @ 3553.49 (TP 3542.83, SL 3560.60; news -0.57)
-20.11 16:50 B5  CLOSE short stop (gap): -62.21 USD
 20.11 16:56 N  NEWS (10 new) score -0.50 conf 0.60: Altın için baskın etki, Fed'in aralık ayında faiz artırımı olasılığına dair şahin beklentiler ve güçlü doların neden olduğu düşüş yönlü. Polonya'ya Rus füzesi isabeti gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak altın bu haberlere rağmen düşüşte ve güvenli liman alımları henüz fiyatlanmış görünmüyor, bu yüzden etkisi sınırlı kalabilir.
 20.11 16:56 N  GPT  score -0.25 conf 0.62: Polonya’ya Rus füzesinin düşmesi ve bunun kasıtlı provokasyon olabileceği iddiası güvenli liman talebini destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artırımı beklentileri altın üzerindeki baskıyı artırıyor; sert düşüş haberleriyle birlikte kısa vadeli etki hafif negatif görünüyor.
 20.11 16:56 B5  SHORT gold 25000 USD x10 @ 3566.13 (TP 3555.43, SL 3573.26; news -0.38)
@@ -111,6 +108,9 @@ Son işlemler:
 20.11 17:30 B6  karar turu: Claude «Piyasa sert satıştan sonra açılışın ardından tepki yükselişinde; göreli güçlü ve haber desteği olan hisselerde seçici alım tercih ediliyor.» / GPT «Sert günlük kayıplara rağmen endekslerde kısa vadeli toparlanma baskın, ancak yüksek kaldıraç ve aynı yöndeki pozisyonların korelasyonu riski büyütüyor.»
 20.11 17:30 B6  ALIŞ AAPL 341 adet ≈ 120,513 $ (1:4) @ 353.41 (TP 358.71, SL 349.88; ikisi de hemfikir, güven 0.55)
 20.11 17:30 B6  ALIŞ TSLA 328 adet ≈ 120,389 $ (1:4) @ 367.04 (TP 372.55, SL 363.37; ikisi de hemfikir, güven 0.45)
+20.11 17:33 B5  CLOSE short stop: -56.06 USD
+20.11 17:33 N  NEWS (12 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (Chicago Fed başkanının Aralık'ta daha büyük artırımı dışlamaması, Rabobank'ın Aralık artırım fiyatlamasını işaret etmesi) reel faiz ve dolar tarafında altı baskılıyor; haberler de altın için haftanın en kötü performansına ve "safe-haven" talebinin çözülmesine işaret ediyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratıyor ama bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
+20.11 17:33 N  GPT  score -0.35 conf 0.58: Fed’in daha büyük faiz artışı ihtimalini açık tutması ve Aralık artışı fiyatlaması, yükselen faiz beklentileri ve dolar üzerinden altını kısa vadede baskılıyor. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu etki mevcut düşüş baskısını kısmen deng
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
