@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 05:55 (İstanbul)
+> Son güncelleme: 20.11.2026 05:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,28 +25,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +303.33 $ | +355.71 $ |
-| İşlem sayısı | 19 | 172 |
-| Kazanma oranı | %57.9 | %46.5 |
-| Ödenen komisyon/spread | 229.73 $ | 2052.66 $ |
+| Net kâr/zarar | +247.26 $ | +299.64 $ |
+| İşlem sayısı | 20 | 173 |
+| Kazanma oranı | %55.0 | %46.2 |
+| Ödenen komisyon/spread | 241.85 $ | 2064.77 $ |
 
-**Hesap değeri: 5,331.39 $** (başlangıç 5,000 $, +331.39 $ / %+6.63)
+**Hesap değeri: 5,299.64 $** (başlangıç 5,000 $, +299.64 $ / %+5.99)
 
-Açık pozisyonlar: PAXGUSDT short @ 3545.62 (TP 3534.98 / SL 3552.71)
+Son haber analizi (20.11 05:59): Claude puan **-0.70**, güven 0.70 — Altın, Fed faiz artırımı beklentileri, 5% üzeri tahvil getirileri ve 19 aylık zirveye yakın doların baskısı altında 3.600 doların altına ve Eylül 2025'ten bu yana en düşük seviyelere geriledi. İran savaşı ve nükleer gerilim gibi jeopolitik riskler güvenli liman talebi yaratabilir, ancak bu haberler şimdiye kadar altını yukarı taşımadı; bu nedenle kısa vadede baskı sürmesi daha olası.
 
-Son haber analizi (20.11 05:46): Claude puan **-0.70**, güven 0.70 — Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed faiz artırımı beklentileri güçleniyor, dolar 19 aylık zirveye yakın ve tahvil getirileri (%5 civarı) altını cazibesiz kılıyor. Altın 3.550$ civarına, Eylül 2025'ten bu yana en düşük seviyeye geriledi. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir, ancak bu etki Fed ve dolar baskısının gerisinde kalıyor. Fiyatlanmış bir düşüş olabileceği ve güvenli liman talebinin ani toparlanma yaratma ihtimali nedeniyle güven orta seviyede.
-
-GPT (gpt-6-luna): puan **-0.78**, güven 0.82 — Altın yeni dip seviyelere gerilerken güçlü dolar ve Fed faiz artışı beklentileri kısa vadede baskıyı artırıyor. Ukrayna ve Sudan’daki çatışma haberleri güvenli liman talebini destekleyebilir, ancak şu anki fiyat hareketinde bu etki baskın görünmüyor.
+GPT (gpt-6-luna): puan **-0.50**, güven 0.68 — Doların güçlenmesi ve yüksek faiz beklentileri altındaki sert satış baskısını destekliyor; kısa vadede aşağı yönlü risk ağır basıyor. Jeopolitik gerilimler destek sağlayabilir, ancak yeni ve belirleyici bir tırmanış haberi yok.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 05:58 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 05:46 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 05:31 | PAXGUSDT | short | +68.95 $ | take profit |
 | 20.11 05:13 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 04:59 | PAXGUSDT | short | +68.96 $ | take profit |
-| 20.11 04:44 | PAXGUSDT | short | +68.96 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -96,9 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 05:06 B5  SHORT gold 25000 USD x10 @ 3544.93 (TP 3534.30, SL 3552.02; news -0.64)
-20.11 05:10 N  NEWS (10 new) score -0.45 conf 0.55: Dolar 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor (JPMorgan üç artırım öngörüsü, Fed Başkan Yardımcısı Jefferson'un enflasyon uyarısı); bu tablo reel faizleri ve doları yukarı iten, altın için net olumsuz bir ortam. İran, Ukrayna ve Husi saldırılarına ilişkin jeopolitik haberler güvenli liman talebini artırabilir, ancak bunların çoğu zaten fiyatlanmış ve dolar/faiz etkisini dengeleyemiyor; Asya hisselerindeki risk-off hareketi de altına sınırlı destek veriyor.
-20.11 05:10 N  GPT  score -0.35 conf 0.58: Doların 19 ayın zirvesine yaklaşması ve Fed faiz artırımı beklentileri altın üzerinde baskı kuruyor. Riskten kaçış ve Riyad’a yönelik saldırı güvenli liman talebini desteklese de kısa vadede dolar etkisi ağır basabilir.
 20.11 05:12 B5  CLOSE short take profit: +68.96 USD
 20.11 05:18 B5  SHORT gold 25000 USD x10 @ 3537.14 (TP 3526.53, SL 3544.22; news -0.40)
 20.11 05:22 N  NEWS (16 new) score -0.70 conf 0.75: Altın, Fed faiz artırımı beklentileri, 5% üzeri tahvil getirileri ve 19 aylık zirveye yakın dolar nedeniyle sert düşüşte; bu baskılar 1-4 saatlik vadede altın için ayı yönlü. Jeopolitik haberler (Ukrayna, İran, Orta Doğu) güvenli liman talebini destekleyebilir, ancak mevcut tepkide etkisi sınırlı kalıyor.
@@ -111,6 +106,9 @@ Son işlemler:
 20.11 05:46 N  NEWS (6 new) score -0.70 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed faiz artırımı beklentileri güçleniyor, dolar 19 aylık zirveye yakın ve tahvil getirileri (%5 civarı) altını cazibesiz kılıyor. Altın 3.550$ civarına, Eylül 2025'ten bu yana en düşük seviyeye geriledi. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir, ancak bu etki Fed ve dolar baskısının gerisinde kalıyor. Fiyatlanmış bir düşüş olabileceği ve güvenli liman talebinin ani toparlanma yaratma ihtimali nedeniyle güven orta seviyede.
 20.11 05:46 N  GPT  score -0.78 conf 0.82: Altın yeni dip seviyelere gerilerken güçlü dolar ve Fed faiz artışı beklentileri kısa vadede baskıyı artırıyor. Ukrayna ve Sudan’daki çatışma haberleri güvenli liman talebini destekleyebilir, ancak şu anki fiyat hareketinde bu etki baskın görünmüyor.
 20.11 05:52 B5  SHORT gold 25000 USD x10 @ 3545.62 (TP 3534.98, SL 3552.71; news -0.74)
+20.11 05:59 B5  CLOSE short stop: -56.07 USD
+20.11 05:59 N  NEWS (8 new) score -0.70 conf 0.70: Altın, Fed faiz artırımı beklentileri, 5% üzeri tahvil getirileri ve 19 aylık zirveye yakın doların baskısı altında 3.600 doların altına ve Eylül 2025'ten bu yana en düşük seviyelere geriledi. İran savaşı ve nükleer gerilim gibi jeopolitik riskler güvenli liman talebi yaratabilir, ancak bu haberler şimdiye kadar altını yukarı taşımadı; bu nedenle kısa vadede baskı sürmesi daha olası.
+20.11 05:59 N  GPT  score -0.50 conf 0.68: Doların güçlenmesi ve yüksek faiz beklentileri altındaki sert satış baskısını destekliyor; kısa vadede aşağı yönlü risk ağır basıyor. Jeopolitik gerilimler destek sağlayabilir, ancak yeni ve belirleyici bir tırmanış haberi yok.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
