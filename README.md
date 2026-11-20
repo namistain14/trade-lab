@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:19 (İstanbul)
+> Son güncelleme: 20.11.2026 18:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,11 +30,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.0 |
 | Ödenen komisyon/spread | 435.75 $ | 2258.68 $ |
 
-**Hesap değeri: 5,271.57 $** (başlangıç 5,000 $, +271.57 $ / %+5.43)
+**Hesap değeri: 5,265.51 $** (başlangıç 5,000 $, +265.51 $ / %+5.31)
 
-Son haber analizi (20.11 18:10): Claude puan **-0.20**, güven 0.40 — Altın 14 aylık dibe yakın ve satış baskısı altında; Fed'in sert (hawkish) söylemleri ve güçlü doların (tek kazanan olarak öne çıkması) kısa vadede altını aşağı çekiyor. İran'a yeni saldırı ihtimali ve Polonya'ya füze isabeti gibi jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar altında belirgin bir yükseliş vermedi; bu nedenle etki sınırlı ve karışık.
+Açık pozisyonlar: PAXGUSDT short @ 3535.27 (TP 3524.67 / SL 3542.34)
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.43 — İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
+Son haber analizi (20.11 18:22): Claude puan **-0.50**, güven 0.60 — Yeni başlıklar ağırlıklı olarak altın için olumsuz: Fed faiz artırımı beklentileri ve güçlenen dolar (dolar 4 haftalık yükseliş serisinde), altının haftalık en kötü performansa yönelmesi ve zorunlu satışlar baskı yaratıyor. ABD/İsrail'in İran'a yeni saldırı planladığı haberi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etkiler jeopolitik riskin zaten kısmen fiyatlanmış olması ve Fed/dolar etkisinin daha baskın görünmesi nedeniyle sınırlı kalıyor.
+
+GPT (gpt-6-luna): puan **-0.65**, güven 0.72 — Önümüzdeki saatlerde altın için baskın etkenler, Fed’in daha şahin olabileceği beklentisi ve doların üst üste dördüncü haftalık yükselişe yönelmesi; bunlar altını aşağı çekiyor. İran’a ilişkin yaptırım ve olası çatışma haberleri güvenli liman talebi yaratabilir, ancak yeni bir tırmanış teyit edilmed
 
 Son işlemler:
 
@@ -79,7 +81,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,567.27 $** (başlangıç 100,000 $, +20567.27 $ / %+20.57)
+**Hesap değeri: 120,312.67 $** (başlangıç 100,000 $, +20312.67 $ / %+20.31)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); SPY long @ 716.64 (TP 726.91 / SL 709.01)
 
@@ -96,9 +98,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:42 B6  ALIŞ AAPL 342 adet ≈ 119,977 $ (1:4) @ 350.81 (TP 356.07, SL 347.3; ikisi de hemfikir, güven 0.55)
-20.11 17:45 N  NEWS (9 new) score -0.60 conf 0.70: Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
-20.11 17:45 N  GPT  score -0.55 conf 0.68: Önümüzdeki saatlerde altın üzerinde baskın etki, Fed’in daha şahin olabileceği beklentisi ve süregelen satış/deleveraging görünümü nedeniyle aşağı yönlü. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu risk, faiz baskısını kısmen dengeliyor.
 20.11 17:48 B5  SHORT gold 25000 USD x10 @ 3574.33 (TP 3563.61, SL 3581.48; news -0.57)
 20.11 17:54 B5  CLOSE short take profit: +68.97 USD
 20.11 17:54 B6  karar turu: Claude «Endeksler sabahki düşüşü telafi ediyor, ancak NVDA şirkete özel olumsuz haberle ayrışarak zayıf kalıyor.» / GPT «Endekslerde kısa vadeli toparlanma baskın olsa da NVDA'nın ayrışan zayıflığı ve dört kat kaldıraç, toplam pozisyon riskinin sınırlanmasını gerektiriyor.»
@@ -111,6 +110,9 @@ Son işlemler:
 20.11 18:10 N  NEWS (12 new) score -0.20 conf 0.40: Altın 14 aylık dibe yakın ve satış baskısı altında; Fed'in sert (hawkish) söylemleri ve güçlü doların (tek kazanan olarak öne çıkması) kısa vadede altını aşağı çekiyor. İran'a yeni saldırı ihtimali ve Polonya'ya füze isabeti gibi jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar altında belirgin bir yükseliş vermedi; bu nedenle etki sınırlı ve karışık.
 20.11 18:10 N  GPT  score +0.18 conf 0.43: İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
 20.11 18:16 B6  karar turu: Claude «Teknoloji, NVDA öncülüğünde baskı altında; SPY ise daha dirençli ve piyasa genelinde karışık, hafif negatif bir seyir var.» / GPT «Teknoloji hisselerindeki göreli zayıflık ve başarısız tepki yükselişleri önümüzdeki 1–3 saat için aşağı yönlü işlemlere sınırlı avantaj sağlıyor.»
+20.11 18:22 N  NEWS (10 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için olumsuz: Fed faiz artırımı beklentileri ve güçlenen dolar (dolar 4 haftalık yükseliş serisinde), altının haftalık en kötü performansa yönelmesi ve zorunlu satışlar baskı yaratıyor. ABD/İsrail'in İran'a yeni saldırı planladığı haberi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etkiler jeopolitik riskin zaten kısmen fiyatlanmış olması ve Fed/dolar etkisinin daha baskın görünmesi nedeniyle sınırlı kalıyor.
+20.11 18:22 N  GPT  score -0.65 conf 0.72: Önümüzdeki saatlerde altın için baskın etkenler, Fed’in daha şahin olabileceği beklentisi ve doların üst üste dördüncü haftalık yükselişe yönelmesi; bunlar altını aşağı çekiyor. İran’a ilişkin yaptırım ve olası çatışma haberleri güvenli liman talebi yaratabilir, ancak yeni bir tırmanış teyit edilmed
+20.11 18:22 B5  SHORT gold 25000 USD x10 @ 3535.27 (TP 3524.67, SL 3542.34; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
