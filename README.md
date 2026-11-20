@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 08:40 (İstanbul)
+> Son güncelleme: 20.11.2026 08:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %53.6 | %46.4 |
 | Ödenen komisyon/spread | 338.87 $ | 2161.79 $ |
 
-**Hesap değeri: 5,351.16 $** (başlangıç 5,000 $, +351.16 $ / %+7.02)
+**Hesap değeri: 5,345.09 $** (başlangıç 5,000 $, +345.09 $ / %+6.90)
+
+Açık pozisyonlar: PAXGUSDT short @ 3514.15 (TP 3503.60 / SL 3521.18)
 
 Son haber analizi (20.11 08:37): Claude puan **-0.50**, güven 0.60 — Yeni başlıklar ağırlıklı olarak altın için baskı yaratıyor: Reuters altının sekiz ayın en kötü haftasına gittiğini, Fed faiz artırımı beklentilerinin ve güçlü doların altını zayıflattığını bildiriyor. İran savaşı ve Husi saldırıları jeopolitik risk sağlasa da güvenli liman talebi bu baskıyı dengelemekte yetersiz kalıyor; ayrıca rupi ve DXY'deki hareketler birbiriyle çelişkili sinyaller veriyor, bu nedenle güven orta düzeyde.
 
@@ -94,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 08:03 B5  SHORT gold 25000 USD x10 @ 3525.48 (TP 3514.91, SL 3532.54; news -0.64)
 20.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -109,6 +110,7 @@ Son işlemler:
 20.11 08:37 B5  CLOSE short stop: -56.08 USD
 20.11 08:37 N  NEWS (25 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için baskı yaratıyor: Reuters altının sekiz ayın en kötü haftasına gittiğini, Fed faiz artırımı beklentilerinin ve güçlü doların altını zayıflattığını bildiriyor. İran savaşı ve Husi saldırıları jeopolitik risk sağlasa da güvenli liman talebi bu baskıyı dengelemekte yetersiz kalıyor; ayrıca rupi ve DXY'deki hareketler birbiriyle çelişkili sinyaller veriyor, bu nedenle güven orta düzeyde.
 20.11 08:37 N  GPT  score -0.62 conf 0.78: Güçlü dolar ve Fed’in faiz artırabileceği beklentileri, altının sert haftalık düşüşünü besleyerek kısa vadede baskıyı artırıyor. İran ve Yemen kaynaklı gerilimler güvenli liman talebini desteklese de bu risklerin bir kısmı zaten fiyatlanmış olabilir.
+20.11 08:43 B5  SHORT gold 25000 USD x10 @ 3514.15 (TP 3503.60, SL 3521.18; news -0.56)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
