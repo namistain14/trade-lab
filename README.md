@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:59 (İstanbul)
+> Son güncelleme: 20.11.2026 19:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +232.08 $ | +284.46 $ |
-| İşlem sayısı | 38 | 191 |
-| Kazanma oranı | %50.0 | %46.1 |
-| Ödenen komisyon/spread | 460.00 $ | 2282.92 $ |
+| Net kâr/zarar | +301.03 $ | +353.41 $ |
+| İşlem sayısı | 39 | 192 |
+| Kazanma oranı | %51.3 | %46.4 |
+| Ödenen komisyon/spread | 472.11 $ | 2295.04 $ |
 
-**Hesap değeri: 5,307.29 $** (başlangıç 5,000 $, +307.29 $ / %+6.15)
-
-Açık pozisyonlar: PAXGUSDT short @ 3548.22 (TP 3537.58 / SL 3555.32)
+**Hesap değeri: 5,353.41 $** (başlangıç 5,000 $, +353.41 $ / %+7.07)
 
 Son haber analizi (20.11 18:59): Claude puan **-0.60**, güven 0.65 — Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 19:02 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 18:37 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 18:28 | PAXGUSDT | short | +68.95 $ | take profit |
 | 20.11 17:53 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 17:42 | PAXGUSDT | short | +68.97 $ | take profit |
-| 20.11 17:32 | PAXGUSDT | short | -56.06 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -76,30 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -585.35 $ | +17940.58 $ |
-| İşlem sayısı | 3 | 73 |
-| Kazanma oranı | %33.3 | %50.7 |
+| Net kâr/zarar | -1802.87 $ | +16723.06 $ |
+| İşlem sayısı | 4 | 74 |
+| Kazanma oranı | %25.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,170.82 $** (başlangıç 100,000 $, +20170.82 $ / %+20.17)
+**Hesap değeri: 120,736.50 $** (başlangıç 100,000 $, +20736.50 $ / %+20.74)
 
-Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
+Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 19:02 | AAPL | long | -1217.52 $ | stop |
 | 20.11 18:28 | SPY | long | -1223.81 $ | stop |
 | 20.11 17:57 | TSLA | long | +1846.64 $ | take profit |
 | 20.11 17:36 | AAPL | long | -1208.18 $ | stop |
 | 19.11 23:46 | TSLA | long | -282.10 $ | seans sonu |
-| 19.11 23:46 | AAPL | short | +524.76 $ | seans sonu |
 
 ## Son olaylar
 
 ```
-20.11 18:28 B6  CLOSE long SPY stop: -1223.81 USD
-20.11 18:28 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde satış baskısı altında ve kısa vadeli momentum aşağı yönlü; zaten sert düşmüş hisselerde kovalamaktan kaçınıyorum.» / GPT «Kısa vadeli görünüm satıcılı; ancak diplerden tepki ve aynı yöne açılan pozisyonların korelasyonu nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
 20.11 18:28 B6  AÇIĞA SATIŞ QQQ 189 adet ≈ 119,272 $ (1:4) @ 631.07 (TP 621.6, SL 637.38; ikisi de hemfikir, güven 0.55)
 20.11 18:28 B6  AÇIĞA SATIŞ TSLA 330 adet ≈ 119,592 $ (1:4) @ 362.4 (TP 356.96, SL 366.02; ikisi de hemfikir, güven 0.50)
 20.11 18:34 N  NEWS (15 new) score -0.50 conf 0.60: Haberlerin çoğu altın için olumsuz: Fed'de sıkılaşma (faiz artırımı) tartışması, doların 19 ayın zirvesine yakın seyretmesi ve altının 14 aylık dip seviyelere inmesi baskı oluşturuyor. Ukrayna/Polonya'daki füze saldırıları ve İran'a yeni saldırı ihtimali gibi jeopolitik riskler güvenli liman talebi yaratabilir, ancak piyasada bu riskler henüz altını yukarı taşımıyor; bu nedenle etkisi sınırlı kalıyor.
@@ -113,6 +109,8 @@ Son işlemler:
 20.11 18:53 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla gün içi düşüş trendinde ve kısa vadede zayıflığın sürmesi bekleniyor.» / GPT «Endekslerde aşağı yönlü ivme baskın, ancak uzayan düşüşler ve dört kat kaldıraç ani tepki yükselişlerinin zararını büyütebilir.»
 20.11 18:59 N  NEWS (12 new) score -0.60 conf 0.65: Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
 20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
+20.11 19:02 B5  CLOSE short take profit: +68.96 USD
+20.11 19:02 B6  CLOSE long AAPL stop: -1217.52 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
