@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:38 (İstanbul)
+> Son güncelleme: 20.11.2026 19:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 122,690.07 $** (başlangıç 100,000 $, +22690.07 $ / %+22.69)
+**Hesap değeri: 122,692.91 $** (başlangıç 100,000 $, +22692.91 $ / %+22.69)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 19:05 B6  karar turu: Claude «Teknoloji ağırlıklı risk iştahsızlığı derinleşiyor ve endeksler gün içi diplerini test ediyor; aşağı yönlü eğilim baskın.» / GPT «Endekslerde aşağı yönlü momentum baskın; dört kat kaldıraçta mevcut QQQ ve TSLA pozisyonlarıyla toplam yönsel riski sınırlamak önemli.»
-20.11 19:05 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"85960.72","code":40310000,"cost_basis":"100924.84","message":"insufficient buying power"}
 20.11 19:08 B5  SHORT gold 25000 USD x10 @ 3542.80 (TP 3532.17, SL 3549.89; news -0.40)
 20.11 19:11 N  NEWS (6 new) score -0.50 conf 0.60: Faiz artırımı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirvesinde ve altın 14 aylık dibe yakın seviyede; bu baskı 1-4 saatlik görünümde altını aşağı çekebilir. Polonya'daki füze olayı ve İran savaşı güvenli liman talebini destekliyor ancak bu etki şimdiye kadar faiz baskısının gerisinde kaldı; eski haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 20.11 19:11 N  GPT  score +0.20 conf 0.48: Polonya’da Rus füzesinin can kaybına yol açması ve bunun kasıtlı provokasyon olarak nitelenmesi kısa vadeli güvenli liman talebini artırabilir. Ancak güçlü dolar ve faiz artırımı beklentileri altın üzerindeki baskıyı sürdürüyor; bu nedenle olası yükseliş sınırlı ve belirsiz.
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 19:32 B6  CLOSE short TSLA take profit: +1798.50 USD
 20.11 19:35 N  NEWS (14 new) score -0.55 conf 0.60: Baskın etki faiz artırımı beklentileri ve güçlü dolardan geliyor: piyasalar Aralık ve Ocak'ta Fed faiz artırımını fiyatlıyor, dolar endeksi 19 aylık zirveye yakın ve altın 3.600 doların altına inmiş durumda. Polonya'ya Rus füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor; birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta düzeyde tutuldu.
 20.11 19:35 N  GPT  score -0.35 conf 0.62: Fed faiz artırımı beklentileri ve güçlü dolar altını baskılıyor; altının 3.600 doların altına inmesi ve sert düşüş de kısa vadeli momentumu olumsuz gösteriyor. Rusya’nın Polonya’ya uzanan saldırı haberleri güvenli liman talebini artırabilir, bu nedenle düşüş yönündeki görüşün güveni sınırlı.
+20.11 19:42 B6  karar turu: Claude «Teknoloji ağırlıklı geniş bir satış baskısı var ve endeksler gün diplerine yakın düşük tepelerle aşağı yönlü seyrediyor.» / GPT «Endekslerde aşağı yönlü akış short tarafını destekliyor ancak 1:4 kaldıraçta sert düşmüş hisseleri kovalamak ani tepki riskini büyütüyor.»
+20.11 19:42 B6  AÇIĞA SATIŞ AAPL 353 adet ≈ 122,385 $ (1:4) @ 346.7 (TP 341.5, SL 350.17; ikisi de hemfikir, güven 0.55)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
