@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:13 (İstanbul)
+> Son güncelleme: 20.11.2026 18:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,361.15 $** (başlangıç 100,000 $, +21361.15 $ / %+21.36)
+**Hesap değeri: 120,936.26 $** (başlangıç 100,000 $, +20936.26 $ / %+20.94)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); SPY long @ 716.64 (TP 726.91 / SL 709.01)
 
@@ -96,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:42 B6  karar turu: Claude «Piyasa sabahki düşüşten toparlanmaya çalışıyor ancak teknoloji tarafında NVDA kaynaklı zayıflık sürüyor, hisse bazlı haber akışı öne çıkıyor.» / GPT «SPY toparlanırken teknoloji hisselerinde ayrışma belirgin; dört kat kaldıraç altında sert düşüşleri kovalamadan seçici long işlemler daha uygun görünüyor.»
 20.11 17:42 B6  ALIŞ AAPL 342 adet ≈ 119,977 $ (1:4) @ 350.81 (TP 356.07, SL 347.3; ikisi de hemfikir, güven 0.55)
 20.11 17:45 N  NEWS (9 new) score -0.60 conf 0.70: Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
 20.11 17:45 N  GPT  score -0.55 conf 0.68: Önümüzdeki saatlerde altın üzerinde baskın etki, Fed’in daha şahin olabileceği beklentisi ve süregelen satış/deleveraging görünümü nedeniyle aşağı yönlü. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu risk, faiz baskısını kısmen dengeliyor.
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 18:05 B6  ALIŞ SPY 169 adet ≈ 121,033 $ (1:4) @ 716.17 (TP 726.91, SL 709.01; ikisi de hemfikir, güven 0.50)
 20.11 18:10 N  NEWS (12 new) score -0.20 conf 0.40: Altın 14 aylık dibe yakın ve satış baskısı altında; Fed'in sert (hawkish) söylemleri ve güçlü doların (tek kazanan olarak öne çıkması) kısa vadede altını aşağı çekiyor. İran'a yeni saldırı ihtimali ve Polonya'ya füze isabeti gibi jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar altında belirgin bir yükseliş vermedi; bu nedenle etki sınırlı ve karışık.
 20.11 18:10 N  GPT  score +0.18 conf 0.43: İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
+20.11 18:16 B6  karar turu: Claude «Teknoloji, NVDA öncülüğünde baskı altında; SPY ise daha dirençli ve piyasa genelinde karışık, hafif negatif bir seyir var.» / GPT «Teknoloji hisselerindeki göreli zayıflık ve başarısız tepki yükselişleri önümüzdeki 1–3 saat için aşağı yönlü işlemlere sınırlı avantaj sağlıyor.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
