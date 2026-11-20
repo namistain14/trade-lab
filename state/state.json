@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    5000.0
-   ],
-   [
     1794558579,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795146280,
     5104.97
+   ],
+   [
+    1795146470,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    4868.5
-   ],
-   [
     1794558579,
     4868.5
    ],
@@ -27126,28 +27122,32 @@
    [
     1795146280,
     4868.5
+   ],
+   [
+    1795146470,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
    "confidence": 0.7,
-   "reason": "Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle sert d\u00fc\u015f\u00fc\u015fte ve haftal\u0131k bazda en k\u00f6t\u00fc performansa do\u011fru gidiyor; \u0130ran sava\u015f\u0131na dair haberler jeopolitik risk primini destekleyebilir ancak bu etki \u015fu an bask\u0131n de\u011fil. Fiyatlarda zaten b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131\u011f\u0131 i\u00e7in k\u0131sa vadede tepki al\u0131m\u0131 riski de var, bu nedenle g\u00fcven orta seviyede tutuldu.",
+   "reason": "Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar nedeniyle sert d\u00fc\u015f\u00fc\u015f trendinde; haftal\u0131k kay\u0131p 8 ay\u0131n en k\u00f6t\u00fcs\u00fc ve fiyat 3.600 dolar\u0131n alt\u0131nda, bu da k\u0131sa vadede bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve DXY'nin 104 alt\u0131na inmesi gibi s\u0131n\u0131rl\u0131 kar\u015f\u0131 sinyaller var, bu y\u00fczden g\u00fcveni orta-y\u00fcksek tutuyorum.",
    "n": 45,
-   "ts": 1795145699971,
-   "new_headlines": 6,
+   "ts": 1795146470721,
+   "new_headlines": 2,
    "key_events": [
     "Reuters: Alt\u0131n haftal\u0131k en k\u00f6t\u00fc performansa y\u00f6neliyor; g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 bahisleri bask\u0131 yarat\u0131yor",
     "Alt\u0131n 3.600 dolar\u0131n alt\u0131na, son ~8 ay\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi",
     "\u0130ran sava\u015f\u0131 s\u00fcr\u00fcyor; Senato Trump'\u0131n \u0130ran'a sald\u0131r\u0131s\u0131n\u0131 engelleyen karar\u0131 reddetti (jeopolitik risk s\u0131n\u0131rl\u0131 destek)"
    ],
    "gpt": {
-    "score": -0.62,
-    "confidence": 0.71,
-    "reason": "Dolar\u0131n g\u00fc\u00e7lenmesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lamas\u0131, yeni Reuters ba\u015fl\u0131\u011f\u0131yla da teyit ediliyor; sert d\u00fc\u015f\u00fc\u015f e\u011filimi k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk yarat\u0131yor. \u0130ran\u2019a ili\u015fkin gerilim g\u00fcvenli liman talebini destekleyebilir, ancak \u015fu an faiz ve dolar bask\u0131s\u0131 a\u011f\u0131r bas\u0131yor; haberl",
+    "score": -0.68,
+    "confidence": 0.69,
+    "reason": "Dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 ve Fed faiz art\u0131\u015f\u0131 beklentileri alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor; yeni fiyat tahmini de d\u00fc\u015f\u00fc\u015f riskine i\u015faret ediyor. Ancak sert haftal\u0131k sat\u0131\u015flar\u0131n b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olmas\u0131 ve jeopolitik riskler ek d\u00fc\u015f\u00fc\u015f beklentisine temkin getiriyor.",
     "key_events": [
-     "Dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
-     "Alt\u0131n haftal\u0131k bazda sert d\u00fc\u015f\u00fc\u015fte",
-     "\u0130ran konusunda yeni askeri gerilim riski"
+     "Dolar ve Fed faiz art\u0131\u015f\u0131 beklentileri alt\u0131n i\u00e7in olumsuz",
+     "Alt\u0131n sert d\u00fc\u015f\u00fc\u015fle haftay\u0131 kapatmaya haz\u0131rlan\u0131yor",
+     "\u0130ran gerilimi g\u00fcvenli liman talebi sa\u011flayabilir"
     ],
     "model": "gpt-6-luna"
    },
@@ -27155,15 +27155,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794875341403,
-    "score": -0.45,
-    "confidence": 0.55,
-    "reason": "Alt\u0131n, g\u00fc\u00e7lenen dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n (~3.850$) i\u015flem g\u00f6r\u00fcyor; yeni gelen Chicago Fed Ba\u015fkan\u0131 a\u00e7\u0131klamas\u0131 da y\u00fcksek enflasyonun kal\u0131c\u0131l\u0131\u011f\u0131na dikkat \u00e7ekerek \u015fahin tonu destekliyor. Jeopolitik (\u0130ran sava\u015f\u0131) ba\u015fl\u0131klar\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rma etkisi ise bu bask\u0131y\u0131 dengeleyecek kadar g\u00fc\u00e7l\u00fc g\u00f6r\u00fcnm\u00fcyor; ancak \u00f6nemli bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in d\u00fc\u015f\u00fc\u015f ivmesi s\u0131n\u0131rl\u0131 olabilir.",
-    "new": 3,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794876062978,
     "score": -0.6,
@@ -29854,13 +29845,24 @@
     "new": 6,
     "gpt_score": -0.62,
     "gpt_confidence": 0.71
+   },
+   {
+    "ts": 1795146470721,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar nedeniyle sert d\u00fc\u015f\u00fc\u015f trendinde; haftal\u0131k kay\u0131p 8 ay\u0131n en k\u00f6t\u00fcs\u00fc ve fiyat 3.600 dolar\u0131n alt\u0131nda, bu da k\u0131sa vadede bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve DXY'nin 104 alt\u0131na inmesi gibi s\u0131n\u0131rl\u0131 kar\u015f\u0131 sinyaller var, bu y\u00fczden g\u00fcveni orta-y\u00fcksek tutuyorum.",
+    "new": 2,
+    "gpt_score": -0.68,
+    "gpt_confidence": 0.69
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 32
+   "n": 33
   },
   "news_seen": [
+   "Gold (XAU/USD) Price Forecast: Deeper Decline Targets $3,500 Support Zone - FXEmpire",
+   "US Dollar Index Spot (DXY) trades below April 2025 highs and 104.00 as bullish bias stays - FXStreet",
    "\u2018War\u2019 Stars Sienna Miller and Dominic West Tussle Over Who Won the Divorce Drama: \u2018Gwyneth Paltrow Ran So That the Rest of Us Could Walk\u2019 - IMDb",
    "Gold set for worst week in eight months as firm dollar, Fed hike bets weigh - Reuters",
    "Pentagon official says US war on Iran cost $48.3B - Middle East Eye",
@@ -29882,16 +29884,15 @@
    "'War' Finale: Sienna Miller, Dominic West on Final Scene, Who Won the Divorce - Variety",
    "Dominic West and Sienna Miller break down \u2018War\u2019 Season 1 finale - Decider",
    "Archie Renaux hints at what\u2019s next for Johnny after War\u2019s open-ended season finale - Entertainment Weekly",
-   "Gold Rate Today in Delhi, 20 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "War Finale Recap: Did Carla Or Morgan Come Out On Top In Court? Plus, Grade The Season! - TVLine",
    "GTA 6 breaks records as sales top $2bn - industry estimate",
+   "War Season-Finale Recap: No Hard Feelings - Vulture",
    "Kushner says he believes Russia is \u2018comfortable\u2019 with NATO-like security guarantees for Ukraine - AP News",
    "The Gulf\u2019s Two-Track Strategy: Global Investor And Geopolitical Power \u2013 Analysis - Eurasia Review",
    "Our Federal Reserve is misguided - Cape Coral Breeze",
    "RSF drone strikes in Sudan must be investigated as war crimes, rights group says - Jurist.org",
    "World gold prices have fallen sharply, dropping below $3,600 per ounce. - Vietnam.vn",
    "Forecast of when gold prices will rise above 5,600 USD/ounce - Laodong.vn",
-   "Gold (XAU/USD) Price Forecast: Deeper Decline Targets $3,500 Support Zone - FXEmpire",
    "Opinion | In Ukraine, the drones are flying faster than the diplomacy - The Washington Post",
    "From anti-war physicist to AI power broker, Amodei takes his safety approach public - The Japan Times",
    "Gold Prices Today In Hyderabad: 22K, 24K Rates - INDToday",
@@ -29904,13 +29905,10 @@
    "U.S. dollar up in Taipei trading - Focus Taiwan",
    "Global gold prices fell by more than 1% due to pressure from the US dollar and interest rates. - Vietnam.vn",
    "Senate Republicans block bid to rein in Trump on Iran war - The Seattle Times",
-   "Gold Plunges More Than 7% in a Week, Spot Price Falls Below $3,600 as Silver Tumbles 13% - BigGo Finance",
-   "Australian Dollar remains subdued due to steady China rates, stable US Dollar - FXStreet"
+   "Gold Plunges More Than 7% in a Week, Spot Price Falls Below $3,600 as Silver Tumbles 13% - BigGo Finance"
   ]
  },
  "log": [
-  "19.11 13:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC6qy9wCayZC1eMfPcYe'}",
-  "19.11 13:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC75Lviz1MG51Ka7Rcsr'}",
   "19.11 13:13 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7JaDJSfsro5NRtwud5'}",
   "19.11 13:16 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7XnV6s4FxmtCokqC9N'}",
   "19.11 13:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChC7m55Lvb1pQ1svpR9sU'}",
@@ -30208,7 +30206,9 @@
   "20.11 06:35 N  NEWS (6 new) score -0.60 conf 0.70: Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle sert d\u00fc\u015f\u00fc\u015fte ve haftal\u0131k bazda en k\u00f6t\u00fc performansa do\u011fru gidiyor; \u0130ran sava\u015f\u0131na dair haberler jeopolitik risk primini destekleyebilir ancak bu etki \u015fu an bask\u0131n de\u011fil. Fiyatlarda zaten b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131\u011f\u0131 i\u00e7in k\u0131sa vadede tepki al\u0131m\u0131 riski de var, bu nedenle g\u00fcven orta seviyede tutuldu.",
   "20.11 06:35 N  GPT  score -0.62 conf 0.71: Dolar\u0131n g\u00fc\u00e7lenmesi ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentilerinin alt\u0131n\u0131 bask\u0131lamas\u0131, yeni Reuters ba\u015fl\u0131\u011f\u0131yla da teyit ediliyor; sert d\u00fc\u015f\u00fc\u015f e\u011filimi k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc risk yarat\u0131yor. \u0130ran\u2019a ili\u015fkin gerilim g\u00fcvenli liman talebini destekleyebilir, ancak \u015fu an faiz ve dolar bask\u0131s\u0131 a\u011f\u0131r bas\u0131yor; haberl",
   "20.11 06:38 B5  CLOSE short stop: -56.07 USD",
-  "20.11 06:44 B5  SHORT gold 25000 USD x10 @ 3549.98 (TP 3539.33, SL 3557.08; news -0.61)"
+  "20.11 06:44 B5  SHORT gold 25000 USD x10 @ 3549.98 (TP 3539.33, SL 3557.08; news -0.61)",
+  "20.11 06:47 N  NEWS (2 new) score -0.60 conf 0.70: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar nedeniyle sert d\u00fc\u015f\u00fc\u015f trendinde; haftal\u0131k kay\u0131p 8 ay\u0131n en k\u00f6t\u00fcs\u00fc ve fiyat 3.600 dolar\u0131n alt\u0131nda, bu da k\u0131sa vadede bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve DXY'nin 104 alt\u0131na inmesi gibi s\u0131n\u0131rl\u0131 kar\u015f\u0131 sinyaller var, bu y\u00fczden g\u00fcveni orta-y\u00fcksek tutuyorum.",
+  "20.11 06:47 N  GPT  score -0.68 conf 0.69: Dolar\u0131n g\u00fc\u00e7l\u00fc kalmas\u0131 ve Fed faiz art\u0131\u015f\u0131 beklentileri alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor; yeni fiyat tahmini de d\u00fc\u015f\u00fc\u015f riskine i\u015faret ediyor. Ancak sert haftal\u0131k sat\u0131\u015flar\u0131n b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olmas\u0131 ve jeopolitik riskler ek d\u00fc\u015f\u00fc\u015f beklentisine temkin getiriyor."
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    4963.78
-   ],
-   [
     1794558579,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795146280,
+    4963.78
+   ],
+   [
+    1795146470,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    4975.18
-   ],
-   [
     1794558579,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795146280,
+    4975.18
+   ],
+   [
+    1795146470,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    4993.28
-   ],
-   [
     1794558579,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795146280,
+    4993.28
+   ],
+   [
+    1795146470,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794558398,
-    4969.22
-   ],
-   [
     1794558579,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795146280,
+    4969.22
+   ],
+   [
+    1795146470,
     4969.22
    ]
   ],
@@ -82508,10 +82508,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794558398,
-    4659.13
-   ],
    [
     1794558579,
     4668.06
@@ -94507,6 +94503,10 @@
    [
     1795146280,
     5306.46
+   ],
+   [
+    1795146470,
+    5294.35
    ]
   ],
   "news_calls": {
@@ -95989,10 +95989,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794558398,
-    113936.01
-   ],
    [
     1794558579,
     113936.01
@@ -107988,6 +107984,10 @@
    [
     1795146280,
     120564.69
+   ],
+   [
+    1795146470,
+    120564.69
    ]
   ],
   "open": {},
@@ -108170,10 +108170,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794558398,
-    4876.96
-   ],
    [
     1794558579,
     4876.96
@@ -120168,6 +120164,10 @@
    ],
    [
     1795146280,
+    4876.96
+   ],
+   [
+    1795146470,
     4876.96
    ]
   ],
