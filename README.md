@@ -1,16 +1,16 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 23:59 (İstanbul)
+> Son güncelleme: 21.11.2026 00:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +37.10 $ | +104.97 $ |
-| İşlem sayısı | 1 | 2 |
-| Kazanma oranı | %100.0 | %100.0 |
-| Ödenen komisyon/spread | 1.63 $ | 3.25 $ |
+| Net kâr/zarar | +0.00 $ | +104.97 $ |
+| İşlem sayısı | 0 | 2 |
+| Kazanma oranı | %0.0 | %100.0 |
+| Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
 **Hesap değeri: 5,104.97 $** (başlangıç 5,000 $, +104.97 $ / %+2.10)
 
@@ -25,10 +25,10 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +244.97 $ | +297.35 $ |
-| İşlem sayısı | 40 | 193 |
-| Kazanma oranı | %50.0 | %46.1 |
-| Ödenen komisyon/spread | 484.23 $ | 2307.16 $ |
+| Net kâr/zarar | +0.00 $ | +297.35 $ |
+| İşlem sayısı | 0 | 193 |
+| Kazanma oranı | %0.0 | %46.1 |
+| Ödenen komisyon/spread | 0.00 $ | 2307.16 $ |
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
@@ -74,9 +74,9 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +6889.02 $ | +25414.95 $ |
-| İşlem sayısı | 9 | 79 |
-| Kazanma oranı | %66.7 | %53.2 |
+| Net kâr/zarar | +0.00 $ | +25414.95 $ |
+| İşlem sayısı | 0 | 79 |
+| Kazanma oranı | %0.0 | %53.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
 **Hesap değeri: 128,205.61 $** (başlangıç 100,000 $, +28205.61 $ / %+28.21)
