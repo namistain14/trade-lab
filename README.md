@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:02 (İstanbul)
+> Son güncelleme: 20.11.2026 19:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,736.50 $** (başlangıç 100,000 $, +20736.50 $ / %+20.74)
+**Hesap değeri: 120,971.34 $** (başlangıç 100,000 $, +20971.34 $ / %+20.97)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:28 B6  AÇIĞA SATIŞ QQQ 189 adet ≈ 119,272 $ (1:4) @ 631.07 (TP 621.6, SL 637.38; ikisi de hemfikir, güven 0.55)
-20.11 18:28 B6  AÇIĞA SATIŞ TSLA 330 adet ≈ 119,592 $ (1:4) @ 362.4 (TP 356.96, SL 366.02; ikisi de hemfikir, güven 0.50)
 20.11 18:34 N  NEWS (15 new) score -0.50 conf 0.60: Haberlerin çoğu altın için olumsuz: Fed'de sıkılaşma (faiz artırımı) tartışması, doların 19 ayın zirvesine yakın seyretmesi ve altının 14 aylık dip seviyelere inmesi baskı oluşturuyor. Ukrayna/Polonya'daki füze saldırıları ve İran'a yeni saldırı ihtimali gibi jeopolitik riskler güvenli liman talebi yaratabilir, ancak piyasada bu riskler henüz altını yukarı taşımıyor; bu nedenle etkisi sınırlı kalıyor.
 20.11 18:34 N  GPT  score -0.35 conf 0.58: Fed’in daha şahin faiz beklentileri ve 19 ayın zirvesine yakın dolar, önümüzdeki saatlerde altın üzerinde baskın ve net bir aşağı yönlü etken. Rusya-Ukrayna gerilimi güvenli liman talebini destekleyebilir; ancak altındaki sert düşüş bu desteğin şimdilik zayıf kaldığını düşündürüyor.
 20.11 18:34 B5  SHORT gold 25000 USD x10 @ 3543.51 (TP 3532.88, SL 3550.60; news -0.42)
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
 20.11 19:02 B5  CLOSE short take profit: +68.96 USD
 20.11 19:02 B6  CLOSE long AAPL stop: -1217.52 USD
+20.11 19:05 B6  karar turu: Claude «Teknoloji ağırlıklı risk iştahsızlığı derinleşiyor ve endeksler gün içi diplerini test ediyor; aşağı yönlü eğilim baskın.» / GPT «Endekslerde aşağı yönlü momentum baskın; dört kat kaldıraçta mevcut QQQ ve TSLA pozisyonlarıyla toplam yönsel riski sınırlamak önemli.»
+20.11 19:05 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"85960.72","code":40310000,"cost_basis":"100924.84","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
