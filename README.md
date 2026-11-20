@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 05:06 (İstanbul)
+> Son güncelleme: 20.11.2026 05:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,13 +30,13 @@ Son işlemler:
 | Kazanma oranı | %56.2 | %46.2 |
 | Ödenen komisyon/spread | 193.37 $ | 2016.29 $ |
 
-**Hesap değeri: 5,267.80 $** (başlangıç 5,000 $, +267.80 $ / %+5.36)
+**Hesap değeri: 5,290.58 $** (başlangıç 5,000 $, +290.58 $ / %+5.81)
 
 Açık pozisyonlar: PAXGUSDT short @ 3544.93 (TP 3534.30 / SL 3552.02)
 
-Son haber analizi (20.11 04:57): Claude puan **-0.60**, güven 0.70 — Yeni başlıklar altın için net olarak negatif: dolar 19 aylık zirveye yakın, Fed faiz artırımı beklentileri güçleniyor ve JPMorgan üç artırım öngörüyor; bu reel faiz ve tahvil getirisi baskısını artırıyor. Jeopolitik risk (İran savaşı, Ukrayna) güvenli liman talebi yaratabilse de altın bu haberlere rağmen sert düşüyor, bu da satış baskısının baskın olduğunu gösteriyor. Güven, haberlerin kısmen fiyatlanmış olması ve güvenli liman tepkisi ihtimali nedeniyle sınırlı.
+Son haber analizi (20.11 05:10): Claude puan **-0.45**, güven 0.55 — Dolar 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor (JPMorgan üç artırım öngörüsü, Fed Başkan Yardımcısı Jefferson'un enflasyon uyarısı); bu tablo reel faizleri ve doları yukarı iten, altın için net olumsuz bir ortam. İran, Ukrayna ve Husi saldırılarına ilişkin jeopolitik haberler güvenli liman talebini artırabilir, ancak bunların çoğu zaten fiyatlanmış ve dolar/faiz etkisini dengeleyemiyor; Asya hisselerindeki risk-off hareketi de altına sınırlı destek veriyor.
 
-GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Fed faiz artışı beklentilerinin güçlenmesi ve doların 19 ayın zirvesine yakın seyretmesi, önümüzdeki saatlerde altın üzerinde baskın biçimde negatif. Savaş haberleri güvenli liman talebini desteklese de altındaki sert düşüş ve bazı risklerin önceden fiyatlanmış olması bu desteği sınırlıyor.
+GPT (gpt-6-luna): puan **-0.35**, güven 0.58 — Doların 19 ayın zirvesine yaklaşması ve Fed faiz artırımı beklentileri altın üzerinde baskı kuruyor. Riskten kaçış ve Riyad’a yönelik saldırı güvenli liman talebini desteklese de kısa vadede dolar etkisi ağır basabilir.
 
 Son işlemler:
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 04:21 B5  SHORT gold 25000 USD x10 @ 3583.15 (TP 3572.40, SL 3590.32; news -0.64)
-20.11 04:27 B5  CLOSE short take profit: +68.97 USD
 20.11 04:30 B5  SHORT gold 25000 USD x10 @ 3573.12 (TP 3562.40, SL 3580.26; news -0.64)
 20.11 04:33 B5  CLOSE short stop (gap): -62.98 USD
 20.11 04:33 N  NEWS (6 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentilerinin güçlenmesi ve doların dört haftalık yükselişi nedeniyle baskı altında; haftalık yaklaşık %7 düşüş ve 14 aylık dipler fiyatlanmış durumda. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyecek bir etki yaratmıyor, bu yüzden genel görünüm aşağı yönlü, ancak düşüş zaten kısmen fiyatlandığı için güven orta seviyede.
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 04:57 N  GPT  score -0.68 conf 0.72: Fed faiz artışı beklentilerinin güçlenmesi ve doların 19 ayın zirvesine yakın seyretmesi, önümüzdeki saatlerde altın üzerinde baskın biçimde negatif. Savaş haberleri güvenli liman talebini desteklese de altındaki sert düşüş ve bazı risklerin önceden fiyatlanmış olması bu desteği sınırlıyor.
 20.11 05:00 B5  CLOSE short take profit: +68.96 USD
 20.11 05:06 B5  SHORT gold 25000 USD x10 @ 3544.93 (TP 3534.30, SL 3552.02; news -0.64)
+20.11 05:10 N  NEWS (10 new) score -0.45 conf 0.55: Dolar 19 ayın zirvesine yakın ve Fed faiz artırımı beklentileri güçleniyor (JPMorgan üç artırım öngörüsü, Fed Başkan Yardımcısı Jefferson'un enflasyon uyarısı); bu tablo reel faizleri ve doları yukarı iten, altın için net olumsuz bir ortam. İran, Ukrayna ve Husi saldırılarına ilişkin jeopolitik haberler güvenli liman talebini artırabilir, ancak bunların çoğu zaten fiyatlanmış ve dolar/faiz etkisini dengeleyemiyor; Asya hisselerindeki risk-off hareketi de altına sınırlı destek veriyor.
+20.11 05:10 N  GPT  score -0.35 conf 0.58: Doların 19 ayın zirvesine yaklaşması ve Fed faiz artırımı beklentileri altın üzerinde baskı kuruyor. Riskten kaçış ve Riyad’a yönelik saldırı güvenli liman talebini desteklese de kısa vadede dolar etkisi ağır basabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
