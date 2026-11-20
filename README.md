@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 08:16 (İstanbul)
+> Son güncelleme: 20.11.2026 08:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +341.98 $ | +394.36 $ |
-| İşlem sayısı | 25 | 178 |
-| Kazanma oranı | %56.0 | %46.6 |
-| Ödenen komisyon/spread | 302.47 $ | 2125.39 $ |
+| Net kâr/zarar | +410.93 $ | +463.31 $ |
+| İşlem sayısı | 26 | 179 |
+| Kazanma oranı | %57.7 | %46.9 |
+| Ödenen komisyon/spread | 314.60 $ | 2137.52 $ |
 
-**Hesap değeri: 5,467.79 $** (başlangıç 5,000 $, +467.79 $ / %+9.36)
-
-Açık pozisyonlar: PAXGUSDT short @ 3525.48 (TP 3514.91 / SL 3532.54)
+**Hesap değeri: 5,463.31 $** (başlangıç 5,000 $, +463.31 $ / %+9.27)
 
 Son haber analizi (20.11 08:12): Claude puan **-0.50**, güven 0.55 — Altın yakın vadede sert düşüş ve negatif momentum altında; Comex 3.550 doların altına indi, ETF'ler %5 geriledi ve dolar endeksi güçleniyor. İran savaşı yetkisi oylamasının Senato'da reddedilmesi jeopolitik risk primini sınırlı destekliyor ama bu gelişme büyük ölçüde fiyatlanmış durumda, bu nedenle baskı sürmesi daha olası.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 08:17 | PAXGUSDT | short | +68.95 $ | take profit |
 | 20.11 07:56 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 07:27 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 07:09 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 06:37 | PAXGUSDT | short | -56.07 $ | stop |
-| 20.11 06:25 | PAXGUSDT | short | +68.95 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -96,7 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 07:33 B5  SHORT gold 25000 USD x10 @ 3525.82 (TP 3515.25, SL 3532.88; news -0.62)
 20.11 07:36 N  NEWS (10 new) score -0.60 conf 0.65: Altın, Fed faiz artırımı beklentileri ve güçlü doları nedeniyle haftalık bazda en kötü performansa doğru gidiyor ve 14 aylık dibe yakın seviyelerde işlem görüyor; İran savaşının sürmesine rağmen güvenli liman talebi altını desteklemiyor. Savaş haberleri ve Senato'nun savaş yetkisi kararı kısa vadede jeopolitik riski artırsa da, mevcut trend ve faiz beklentileri baskın olduğu için fiyat üzerindeki etki negatif kalıyor. Bazı haberlerin tekrar niteliğinde olması ve fiyat hareketlerinin zaten yansımış olması güveni biraz sınırlıyor.
 20.11 07:36 N  GPT  score -0.65 conf 0.72: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altındaki sert düşüşü destekliyor; fiyatın 3.550 doların altına inmesi kısa vadeli aşağı yönlü momentuma işaret ediyor. Suudi Arabistan’a yönelik füze saldırısı güvenli liman talebini bir miktar artırabilir, ancak şu anki baskıyı dengelemesi olası
 20.11 07:48 N  NEWS (9 new) score -0.60 conf 0.65: Altın, güçlü dolar ve artan Fed faiz artırımı beklentileri nedeniyle 14 aylık dibe yakın seviyelerde ve haftalık düşüşte; bu baskı kısa vadede altın için olumsuz. Iran savaşının sürmesi ve Senato'nun savaş yetkisi kararını reddetmesi güvenli liman talebini destekleyebilir, ancak bu etki mevcut faiz/dolar baskısının gerisinde kalıyor.
@@ -111,6 +108,7 @@ Son işlemler:
 20.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:12 N  NEWS (11 new) score -0.50 conf 0.55: Altın yakın vadede sert düşüş ve negatif momentum altında; Comex 3.550 doların altına indi, ETF'ler %5 geriledi ve dolar endeksi güçleniyor. İran savaşı yetkisi oylamasının Senato'da reddedilmesi jeopolitik risk primini sınırlı destekliyor ama bu gelişme büyük ölçüde fiyatlanmış durumda, bu nedenle baskı sürmesi daha olası.
 20.11 08:12 N  GPT  score -0.50 conf 0.62: Altın fiyatındaki sert düşüşün ve doların güçlendiğine ilişkin haberlerin yoğunluğu, önümüzdeki birkaç saat için aşağı yönlü momentuma işaret ediyor. İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak haberlerin çoğu mevcut fiyat hareketini tekrarlıyor ve yeni bir kataliz
+20.11 08:19 B5  CLOSE short take profit: +68.95 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
