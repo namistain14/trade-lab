@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    5000.0
-   ],
-   [
     1794601084,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795189052,
     5104.97
+   ],
+   [
+    1795189252,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    4868.5
-   ],
-   [
     1794601084,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795189052,
+    4868.5
+   ],
+   [
+    1795189252,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "19.11 22:49 N  NEWS (8 new) score -0.60 conf 0.70: Alt\u0131n 14 ayl\u0131k dibe geriledi; g\u00fc\u00e7l\u00fc dolar, Fed faiz art\u0131r\u0131m\u0131 beklentileri ve JPMorgan'\u0131n ard\u0131\u015f\u0131k \u00fc\u00e7 toplant\u0131da faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6r\u00fcs\u00fc reel faiz taraf\u0131nda bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor olsa da bu etki mevcut hawkish fiyatlaman\u0131n gerisinde kal\u0131yor; bu nedenle 1-4 saatlik g\u00f6r\u00fcn\u00fcmde negatif e\u011filim bask\u0131n.",
   "19.11 22:49 N  GPT  score -0.58 conf 0.68: Fed\u2019in \u00f6n\u00fcm\u00fczdeki \u00fc\u00e7 toplant\u0131da faiz art\u0131rabilece\u011fi beklentisi ve g\u00fc\u00e7l\u00fc dolar, k\u0131sa vadede alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor; fiyat\u0131n 14 ay\u0131n dibine gerilemesi de bu g\u00f6r\u00fcn\u00fcmle uyumlu. Kyiv\u2019deki sald\u0131r\u0131lar g\u00fcvenli liman talebini destekleyebilir, ancak \u015fu an faiz ve dolar etkisi daha a\u011f\u0131r bas\u0131yo",
   "19.11 22:49 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc yakla\u015f\u0131k %1,4 d\u00fc\u015f\u00fc\u015fle kapatmaya haz\u0131rlan\u0131yor, son saatte ise yatay bir konsolidasyon var; kapan\u0131\u015fa dakikalar kala yeni pozisyon a\u00e7mak i\u00e7in uygun bir ortam de\u011fil.\u00bb / GPT \u00abEndeksler yatayla\u015f\u0131rken NVDA negatif ayr\u0131\u015f\u0131yor; kapan\u0131\u015fa 11 dakika kalmas\u0131 nedeniyle 1\u20133 saatlik i\u015flemlerde seans sonras\u0131 likidite ve bracket emirlerinin ge\u00e7erlili\u011fi kritik.\u00bb",
   "19.11 23:01 N  NEWS (17 new) score -0.35 conf 0.50: Yeni haberlerin a\u011f\u0131rl\u0131\u011f\u0131 bask\u0131 y\u00f6n\u00fcnde: Fed'in Barr'\u0131n y\u00fcksek enflasyon nedeniyle ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 sinyali vermesi ve Goolsbee'nin a\u015f\u0131r\u0131l\u0131\u011f\u0131 \u00f6nleme vurgusu faiz art\u0131r\u0131m\u0131 beklentilerini besliyor, bu da alt\u0131n\u0131 bask\u0131l\u0131yor. Senato'nun \u0130ran sava\u015f yetkisi karar\u0131 ise g\u00fcvenli liman talebini dolayl\u0131 olarak destekleyebilir ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f bir siyasi sonu\u00e7 oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131; g\u00fc\u00e7l\u00fc dolar ve alt\u0131n\u0131n 14 ayl\u0131k dibi de olumsuz teknik tabloyu g\u00f6steriyor.",
@@ -30208,7 +30207,8 @@
   "20.11 18:34 N  NEWS (15 new) score -0.50 conf 0.60: Haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in olumsuz: Fed'de s\u0131k\u0131la\u015fma (faiz art\u0131r\u0131m\u0131) tart\u0131\u015fmas\u0131, dolar\u0131n 19 ay\u0131n zirvesine yak\u0131n seyretmesi ve alt\u0131n\u0131n 14 ayl\u0131k dip seviyelere inmesi bask\u0131 olu\u015fturuyor. Ukrayna/Polonya'daki f\u00fcze sald\u0131r\u0131lar\u0131 ve \u0130ran'a yeni sald\u0131r\u0131 ihtimali gibi jeopolitik riskler g\u00fcvenli liman talebi yaratabilir, ancak piyasada bu riskler hen\u00fcz alt\u0131n\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor; bu nedenle etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "20.11 18:34 N  GPT  score -0.35 conf 0.58: Fed\u2019in daha \u015fahin faiz beklentileri ve 19 ay\u0131n zirvesine yak\u0131n dolar, \u00f6n\u00fcm\u00fczdeki saatlerde alt\u0131n \u00fczerinde bask\u0131n ve net bir a\u015fa\u011f\u0131 y\u00f6nl\u00fc etken. Rusya-Ukrayna gerilimi g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f bu deste\u011fin \u015fimdilik zay\u0131f kald\u0131\u011f\u0131n\u0131 d\u00fc\u015f\u00fcnd\u00fcr\u00fcyor.",
   "20.11 18:34 B5  SHORT gold 25000 USD x10 @ 3543.51 (TP 3532.88, SL 3550.60; news -0.42)",
-  "20.11 18:37 B5  CLOSE short stop: -56.07 USD"
+  "20.11 18:37 B5  CLOSE short stop: -56.07 USD",
+  "20.11 18:40 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor ve piyasa negatif momentumla \u00f6\u011fleye giriyor.\u00bb / GPT \u00abPiyasa g\u00f6r\u00fcn\u00fcm\u00fc a\u015fa\u011f\u0131 y\u00f6nl\u00fc; ancak sert d\u00fc\u015fm\u00fc\u015f hisselerde tepki y\u00fckseli\u015fi riski nedeniyle se\u00e7ici k\u0131sa pozisyonlar\u0131 tercih ediyorum.\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    4963.78
-   ],
-   [
     1794601084,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795189052,
+    4963.78
+   ],
+   [
+    1795189252,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    4975.18
-   ],
-   [
     1794601084,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795189052,
+    4975.18
+   ],
+   [
+    1795189252,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    4993.28
-   ],
-   [
     1794601084,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795189052,
+    4993.28
+   ],
+   [
+    1795189252,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794600903,
-    4969.22
-   ],
-   [
     1794601084,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795189052,
+    4969.22
+   ],
+   [
+    1795189252,
     4969.22
    ]
   ],
@@ -82828,10 +82828,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794600903,
-    4545.26
-   ],
    [
     1794601084,
     4545.26
@@ -94827,6 +94823,10 @@
    [
     1795189052,
     5284.46
+   ],
+   [
+    1795189252,
+    5284.46
    ]
   ],
   "news_calls": {
@@ -95034,7 +95034,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 120505.55655999998,
+   "balance": 120512.87975999998,
    "start": 100000.0,
    "positions": [
     {
@@ -95049,7 +95049,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Otonom AI ajan haberiyle zay\u0131f piyasada g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor ve 350 \u00fczerinde tutunuyor. | GPT 0.62: Otonom yapay zek\u00e2 ajan\u0131 haberi ve zay\u0131f teknoloji piyasas\u0131na kar\u015f\u0131 pozitif ayr\u0131\u015fma, s\u0131n\u0131rl\u0131 y\u00fckseli\u015f sonras\u0131 al\u0131m\u0131 destekliyor.",
-     "cur": 349.3396
+     "cur": 349.04
     },
     {
      "id": "3e316100-ba5c-4530-934b-ae3b6b305951",
@@ -95063,7 +95063,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Teknoloji sat\u0131\u015f\u0131 s\u00fcr\u00fcyor; fiyat 641 zirvesinden reddedilip son 30 dakikada yeni dip yapt\u0131. | GPT 0.64: SPY'a g\u00f6re belirgin zay\u0131fl\u0131k ve son kapan\u0131\u015flardaki d\u00fc\u015f\u00fc\u015f dizisi sat\u0131\u015flar\u0131n devam\u0131n\u0131 destekliyor.",
-     "cur": 629.95
+     "cur": 630.33
     },
     {
      "id": "da08ac4b-17cf-4034-b95a-1c02504c9426",
@@ -95077,7 +95077,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: 373 zirvesinden sert reddedildi ve 367 deste\u011fini k\u0131rd\u0131; \u0130talya onay\u0131na ra\u011fmen sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor. | GPT 0.58: \u0130talya onay\u0131na ra\u011fmen belirginle\u015fen sat\u0131\u015f bask\u0131s\u0131, s\u0131n\u0131rl\u0131 tepki y\u00fckseli\u015fine kar\u015f\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc avantaj sa\u011fl\u0131yor.",
-     "cur": 363.967
+     "cur": 364.675
     }
    ],
    "trades": [
@@ -96398,18 +96398,14 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl": -608.19,
+    "pnl": -1008.79,
     "trades": 13,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 119930.53
+   "equity": 119529.93
   },
   "equity_curve": [
-   [
-    1794600903,
-    114368.74
-   ],
    [
     1794601084,
     114365.54
@@ -108405,6 +108401,10 @@
    [
     1795189052,
     119930.53
+   ],
+   [
+    1795189252,
+    119529.93
    ]
   ],
   "open": {
@@ -108444,42 +108444,42 @@
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795188512983,
+  "last_decision_ms": 1795189232043,
   "view": {
-   "ts": 1795188512983,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda ve k\u0131sa vadeli momentum a\u015fa\u011f\u0131 y\u00f6nl\u00fc; zaten sert d\u00fc\u015fm\u00fc\u015f hisselerde kovalamaktan ka\u00e7\u0131n\u0131yorum.",
-   "gpt": "K\u0131sa vadeli g\u00f6r\u00fcn\u00fcm sat\u0131c\u0131l\u0131; ancak diplerden tepki ve ayn\u0131 y\u00f6ne a\u00e7\u0131lan pozisyonlar\u0131n korelasyonu nedeniyle 1:4 kald\u0131ra\u00e7ta toplam risk s\u0131n\u0131rl\u0131 tutulmal\u0131.",
+   "ts": 1795189232043,
+   "claude": "Teknoloji a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor ve piyasa negatif momentumla \u00f6\u011fleye giriyor.",
+   "gpt": "Piyasa g\u00f6r\u00fcn\u00fcm\u00fc a\u015fa\u011f\u0131 y\u00f6nl\u00fc; ancak sert d\u00fc\u015fm\u00fc\u015f hisselerde tepki y\u00fckseli\u015fi riski nedeniyle se\u00e7ici k\u0131sa pozisyonlar\u0131 tercih ediyorum.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "none",
+      "short",
       0.4
-     ],
-     "gpt": [
-      "short",
-      0.61
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      "short",
-      0.55
      ],
      "gpt": [
       "short",
       0.64
      ]
     },
+    "QQQ": {
+     "claude": [
+      null,
+      null
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
     "NVDA": {
      "claude": [
       "none",
-      0.45
+      0.35
      ],
      "gpt": [
       "none",
-      0.69
+      0.7
      ]
     },
     "AAPL": {
@@ -108494,12 +108494,12 @@
     },
     "TSLA": {
      "claude": [
-      "short",
-      0.5
+      null,
+      null
      ],
      "gpt": [
-      "short",
-      0.58
+      null,
+      null
      ]
     }
    }
@@ -108621,10 +108621,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794600903,
-    4876.96
-   ],
    [
     1794601084,
     4876.96
@@ -120619,6 +120615,10 @@
    ],
    [
     1795189052,
+    4876.96
+   ],
+   [
+    1795189252,
     4876.96
    ]
   ],
