@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 22:28 (İstanbul)
+> Son güncelleme: 20.11.2026 22:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 126,650.67 $** (başlangıç 100,000 $, +26650.67 $ / %+26.65)
+**Hesap değeri: 127,650.20 $** (başlangıç 100,000 $, +27650.20 $ / %+27.65)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 20:54 B6  karar turu: Claude «Teknoloji ağırlıklı sert satış sürüyor ve endeksler gün dibine yakın, öğleden sonra da riskten kaçış hakim görünüyor.» / GPT «-»
-20.11 21:06 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:06 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış sonrası son bir saatte yatay konsolide oluyor, kapanışa doğru yön belirsiz.» / GPT «-»
 20.11 21:19 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:19 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert satışın ardından son bir saattir dar bantta konsolide oluyor; kapanışa doğru yön belirsiz ama tepki alımı ihtimali var.» / GPT «-»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 22:08 B6  karar turu: Claude «Piyasa sert düşüşün ardından gün içi yatay konsolidasyonda; teknoloji ağırlıklı satış baskısı sürüyor, kapanışa doğru oynaklık artabilir.» / GPT «-»
 20.11 22:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:20 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert satış baskısı altında ve QQQ -%4,3 ile zayıf; kapanışa doğru riskten kaçış sürebilir, en net fırsat taze negatif haberli NVDA'da.» / GPT «-»
+20.11 22:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+20.11 22:32 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış baskısı altında ve kapanışa doğru zayıflığın sürme ihtimali yüksek.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
