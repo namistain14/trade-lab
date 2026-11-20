@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794601623,
-    5000.0
-   ],
-   [
     1794601804,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795189641,
     5104.97
+   ],
+   [
+    1795189821,
+    5104.97
    ]
   ],
   "archive": [
@@ -15127,10 +15127,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794601623,
-    4868.5
-   ],
    [
     1794601804,
     4868.5
@@ -27125,6 +27121,10 @@
    ],
    [
     1795189641,
+    4868.5
+   ],
+   [
+    1795189821,
     4868.5
    ]
   ],
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794601623,
-    4963.78
-   ],
-   [
     1794601804,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795189641,
+    4963.78
+   ],
+   [
+    1795189821,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794601623,
-    4975.18
-   ],
-   [
     1794601804,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795189641,
+    4975.18
+   ],
+   [
+    1795189821,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794601623,
-    4993.28
-   ],
-   [
     1794601804,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795189641,
+    4993.28
+   ],
+   [
+    1795189821,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794601623,
-    4969.22
-   ],
-   [
     1794601804,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795189641,
+    4969.22
+   ],
+   [
+    1795189821,
     4969.22
    ]
   ],
@@ -82844,10 +82844,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794601623,
-    4545.26
-   ],
    [
     1794601804,
     4545.26
@@ -94843,6 +94839,10 @@
    [
     1795189641,
     5298.55
+   ],
+   [
+    1795189821,
+    5270.51
    ]
   ],
   "news_calls": {
@@ -95050,7 +95050,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 120511.23425999998,
+   "balance": 120511.22976,
    "start": 100000.0,
    "positions": [
     {
@@ -95065,7 +95065,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Otonom AI ajan haberiyle zay\u0131f piyasada g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor ve 350 \u00fczerinde tutunuyor. | GPT 0.62: Otonom yapay zek\u00e2 ajan\u0131 haberi ve zay\u0131f teknoloji piyasas\u0131na kar\u015f\u0131 pozitif ayr\u0131\u015fma, s\u0131n\u0131rl\u0131 y\u00fckseli\u015f sonras\u0131 al\u0131m\u0131 destekliyor.",
-     "cur": 348.6244
+     "cur": 349.09
     },
     {
      "id": "3e316100-ba5c-4530-934b-ae3b6b305951",
@@ -95079,7 +95079,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Teknoloji sat\u0131\u015f\u0131 s\u00fcr\u00fcyor; fiyat 641 zirvesinden reddedilip son 30 dakikada yeni dip yapt\u0131. | GPT 0.64: SPY'a g\u00f6re belirgin zay\u0131fl\u0131k ve son kapan\u0131\u015flardaki d\u00fc\u015f\u00fc\u015f dizisi sat\u0131\u015flar\u0131n devam\u0131n\u0131 destekliyor.",
-     "cur": 626.6537
+     "cur": 630.19
     },
     {
      "id": "da08ac4b-17cf-4034-b95a-1c02504c9426",
@@ -95093,7 +95093,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: 373 zirvesinden sert reddedildi ve 367 deste\u011fini k\u0131rd\u0131; \u0130talya onay\u0131na ra\u011fmen sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor. | GPT 0.58: \u0130talya onay\u0131na ra\u011fmen belirginle\u015fen sat\u0131\u015f bask\u0131s\u0131, s\u0131n\u0131rl\u0131 tepki y\u00fckseli\u015fine kar\u015f\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc avantaj sa\u011fl\u0131yor.",
-     "cur": 362.233
+     "cur": 364.55
     }
    ],
    "trades": [
@@ -96414,18 +96414,14 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl": 348.11,
+    "pnl": -925.63,
     "trades": 13,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 120886.83
+   "equity": 119613.09
   },
   "equity_curve": [
-   [
-    1794601623,
-    114306.34
-   ],
    [
     1794601804,
     114275.94
@@ -108421,6 +108417,10 @@
    [
     1795189641,
     120886.83
+   ],
+   [
+    1795189821,
+    119613.09
    ]
   ],
   "open": {
@@ -108637,10 +108637,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794601623,
-    4876.96
-   ],
    [
     1794601804,
     4876.96
@@ -120635,6 +120631,10 @@
    ],
    [
     1795189641,
+    4876.96
+   ],
+   [
+    1795189821,
     4876.96
    ]
   ],
