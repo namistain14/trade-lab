@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    5000.0
-   ],
-   [
     1794599070,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795186893,
     5104.97
+   ],
+   [
+    1795187100,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    4868.5
-   ],
-   [
     1794599070,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795186893,
+    4868.5
+   ],
+   [
+    1795187100,
     4868.5
    ]
   ],
@@ -29909,8 +29909,6 @@
   ]
  },
  "log": [
-  "19.11 22:03 N  GPT  score +0.12 conf 0.34: \u0130ran \u00e7at\u0131\u015fmas\u0131n\u0131n geni\u015flemesi ve Suudi Arabistan\u2019daki sald\u0131r\u0131 haberleri k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak \u015fahin Fed beklentileri, g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131 ve alt\u0131ndaki s\u00fcregelen sat\u0131\u015f bu etkiyi s\u0131n\u0131rl\u0131yor; haber ak\u0131\u015f\u0131 da \u00e7eli\u015fkili.",
-  "19.11 22:03 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 zay\u0131fl\u0131kla g\u00fcn\u00fc ekside ge\u00e7iriyor; kapan\u0131\u015fa do\u011fru bask\u0131 s\u00fcrebilir, ancak taze olumlu haberi olan TSLA ayr\u0131\u015fabilir.\u00bb / GPT \u00abEndekslerde zay\u0131fl\u0131k s\u00fcrerken kapan\u0131\u015fa yaln\u0131zca 57 dakika kalmas\u0131 ve 1:4 kald\u0131ra\u00e7, haber odakl\u0131 i\u015flemlerde bile s\u0131k\u0131 risk disiplini gerektiriyor.\u00bb",
   "19.11 22:03 B6  ALI\u015e TSLA 155 adet \u2248 58,475 $ (1:4) @ 377.26 (TP 382.92, SL 373.49; ikisi de hemfikir, g\u00fcven 0.55)",
   "19.11 22:09 B6  CLOSE short NVDA take profit: +1780.94 USD",
   "19.11 22:12 B5  CLOSE short take profit: +69.00 USD",
@@ -30208,7 +30206,9 @@
   "20.11 17:54 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"81076.96\",\"code\":40310000,\"cost_basis\":\"95449.96\",\"message\":\"insufficient buying power\"}",
   "20.11 17:57 N  NEWS (14 new) score -0.60 conf 0.70: Alt\u0131n 14 ayl\u0131k dibe geriledi ve sat\u0131\u015f bask\u0131s\u0131 art\u0131yor; Fed'in \u015fahin tutumu, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 fiyatlamas\u0131 ve g\u00fc\u00e7lenen dolar alt\u0131n\u0131 bask\u0131l\u0131yor. Polonya'ya d\u00fc\u015fen Rus f\u00fczesi gibi jeopolitik geli\u015fmeler g\u00fcvenli liman talebini art\u0131rmad\u0131\u011f\u0131 i\u00e7in bu bask\u0131y\u0131 dengeleyemiyor; yine de piyasa sert d\u00fc\u015f\u00fc\u015f sonras\u0131 k\u0131sa vadeli tepki al\u0131m\u0131 riski nedeniyle g\u00fcven orta seviyede.",
   "20.11 17:57 N  GPT  score -0.65 conf 0.76: Alt\u0131n ve g\u00fcm\u00fc\u015fte 14 ay\u0131n dipleri ve dolar\u0131n g\u00fc\u00e7lenmesi k\u0131sa vadeli sat\u0131\u015f bask\u0131s\u0131n\u0131n s\u00fcrd\u00fc\u011f\u00fcne i\u015faret ediyor; Fed\u2019in daha \u015fahin olabilece\u011fi beklentisi de alt\u0131n i\u00e7in olumsuz. Polonya\u2019ya d\u00fc\u015fen Rus f\u00fczesi g\u00fcvenli liman talebini art\u0131rabilir, ancak \u015fu an i\u00e7in bu risk fiyat d\u00fc\u015f\u00fc\u015f\u00fcn\u00fc dengeleyecek \u00f6l\u00e7\u00fcde g\u00f6r",
-  "20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD"
+  "20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD",
+  "20.11 18:05 B6  karar turu: Claude \u00abEndeksler sabahki sat\u0131\u015f\u0131 telafi ederek g\u00fc\u00e7l\u00fc bir toparlanma g\u00f6steriyor, ancak son mumlardaki hafif geri \u00e7ekilme kovalamaya kar\u015f\u0131 temkinli olmay\u0131 gerektiriyor.\u00bb / GPT \u00abEndekslerde toparlanma e\u011filimi s\u00fcrerken 1:4 kald\u0131ra\u00e7 alt\u0131nda se\u00e7ici kal\u0131p SPY g\u00fcc\u00fcn\u00fc almak ve NVDA zay\u0131fl\u0131\u011f\u0131n\u0131 satmak daha uygun g\u00f6r\u00fcn\u00fcyor.\u00bb",
+  "20.11 18:05 B6  ALI\u015e SPY 169 adet \u2248 121,033 $ (1:4) @ 716.17 (TP 726.91, SL 709.01; ikisi de hemfikir, g\u00fcven 0.50)"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    4963.78
-   ],
-   [
     1794599070,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795186893,
+    4963.78
+   ],
+   [
+    1795187100,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    4975.18
-   ],
-   [
     1794599070,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795186893,
+    4975.18
+   ],
+   [
+    1795187100,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    4993.28
-   ],
-   [
     1794599070,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795186893,
+    4993.28
+   ],
+   [
+    1795187100,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794598889,
-    4969.22
-   ],
-   [
     1794599070,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795186893,
+    4969.22
+   ],
+   [
+    1795187100,
     4969.22
    ]
   ],
@@ -82786,10 +82786,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794598889,
-    4545.26
-   ],
    [
     1794599070,
     4545.26
@@ -94785,6 +94781,10 @@
    [
     1795186893,
     5271.57
+   ],
+   [
+    1795187100,
+    5271.57
    ]
   ],
   "news_calls": {
@@ -94992,7 +94992,7 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 121814.08726199997,
+   "balance": 121820.079862,
    "start": 100000.0,
    "positions": [
     {
@@ -95007,7 +95007,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Otonom AI ajan haberiyle zay\u0131f piyasada g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor ve 350 \u00fczerinde tutunuyor. | GPT 0.62: Otonom yapay zek\u00e2 ajan\u0131 haberi ve zay\u0131f teknoloji piyasas\u0131na kar\u015f\u0131 pozitif ayr\u0131\u015fma, s\u0131n\u0131rl\u0131 y\u00fckseli\u015f sonras\u0131 al\u0131m\u0131 destekliyor.",
-     "cur": 350.3903
+     "cur": 349.325
     }
    ],
    "trades": [
@@ -96310,18 +96310,14 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl": 1196.96,
+    "pnl": 838.62,
     "trades": 14,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 121735.68
+   "equity": 121377.34
   },
   "equity_curve": [
-   [
-    1794598889,
-    114679.14
-   ],
    [
     1794599070,
     114602.34
@@ -108317,6 +108313,10 @@
    [
     1795186893,
     121735.68
+   ],
+   [
+    1795187100,
+    121377.34
    ]
   ],
   "open": {
@@ -108330,46 +108330,57 @@
     "sl": 347.3,
     "opened_ms": 1795185748934,
     "note": "Claude 0.55: Otonom AI ajan haberiyle zay\u0131f piyasada g\u00f6receli g\u00fc\u00e7 g\u00f6steriyor ve 350 \u00fczerinde tutunuyor. | GPT 0.62: Otonom yapay zek\u00e2 ajan\u0131 haberi ve zay\u0131f teknoloji piyasas\u0131na kar\u015f\u0131 pozitif ayr\u0131\u015fma, s\u0131n\u0131rl\u0131 y\u00fckseli\u015f sonras\u0131 al\u0131m\u0131 destekliyor."
+   },
+   "SPY": {
+    "order_id": "b77bd107-1339-4a36-87e8-079bf2ef18f6",
+    "symbol": "SPY",
+    "side": "long",
+    "qty": 169,
+    "entry": 716.17,
+    "tp": 726.91,
+    "sl": 709.01,
+    "opened_ms": 1795187072588,
+    "note": "Claude 0.5: Sabah d\u00fc\u015f\u00fc\u015f\u00fcnden g\u00fc\u00e7l\u00fc toparlanma s\u00fcr\u00fcyor, ancak son bir saatteki y\u00fckseli\u015f kovalamay\u0131 riskli k\u0131l\u0131yor. | GPT 0.61: Son saatteki y\u00fckselen dipler ve zirveden s\u0131n\u0131rl\u0131 geri \u00e7ekilme, toparlanman\u0131n devam\u0131 lehine \u0131l\u0131ml\u0131 avantaj sa\u011fl\u0131yor."
    }
   },
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795186469059,
+  "last_decision_ms": 1795187072588,
   "view": {
-   "ts": 1795186469059,
-   "claude": "Endeksler sabahki d\u00fc\u015f\u00fc\u015f\u00fc telafi ediyor, ancak NVDA \u015firkete \u00f6zel olumsuz haberle ayr\u0131\u015farak zay\u0131f kal\u0131yor.",
-   "gpt": "Endekslerde k\u0131sa vadeli toparlanma bask\u0131n olsa da NVDA'n\u0131n ayr\u0131\u015fan zay\u0131fl\u0131\u011f\u0131 ve d\u00f6rt kat kald\u0131ra\u00e7, toplam pozisyon riskinin s\u0131n\u0131rlanmas\u0131n\u0131 gerektiriyor.",
+   "ts": 1795187072588,
+   "claude": "Endeksler sabahki sat\u0131\u015f\u0131 telafi ederek g\u00fc\u00e7l\u00fc bir toparlanma g\u00f6steriyor, ancak son mumlardaki hafif geri \u00e7ekilme kovalamaya kar\u015f\u0131 temkinli olmay\u0131 gerektiriyor.",
+   "gpt": "Endekslerde toparlanma e\u011filimi s\u00fcrerken 1:4 kald\u0131ra\u00e7 alt\u0131nda se\u00e7ici kal\u0131p SPY g\u00fcc\u00fcn\u00fc almak ve NVDA zay\u0131fl\u0131\u011f\u0131n\u0131 satmak daha uygun g\u00f6r\u00fcn\u00fcyor.",
    "gpt_model": "gpt-6.1-sol",
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "none",
-      0.4
+      "long",
+      0.5
      ],
      "gpt": [
       "long",
-      0.64
+      0.61
      ]
     },
     "QQQ": {
      "claude": [
-      "none",
-      0.4
+      "long",
+      0.55
      ],
      "gpt": [
-      "long",
-      0.66
+      "none",
+      0.57
      ]
     },
     "NVDA": {
      "claude": [
-      "short",
-      0.55
+      "none",
+      0.4
      ],
      "gpt": [
       "short",
-      0.6
+      0.64
      ]
     },
     "AAPL": {
@@ -108384,12 +108395,12 @@
     },
     "TSLA": {
      "claude": [
-      null,
-      null
+      "long",
+      0.5
      ],
      "gpt": [
-      null,
-      null
+      "none",
+      0.6
      ]
     }
    }
@@ -108399,7 +108410,7 @@
   "premarket_day": "2026-11-20",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "343142.55",
+   "buying_power": "342139.18",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -108511,10 +108522,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794598889,
-    4876.96
-   ],
    [
     1794599070,
     4876.96
@@ -120509,6 +120516,10 @@
    ],
    [
     1795186893,
+    4876.96
+   ],
+   [
+    1795187100,
     4876.96
    ]
   ],

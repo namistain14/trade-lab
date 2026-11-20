@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:01 (İstanbul)
+> Son güncelleme: 20.11.2026 18:05 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,735.68 $** (başlangıç 100,000 $, +21735.68 $ / %+21.74)
+**Hesap değeri: 121,377.34 $** (başlangıç 100,000 $, +21377.34 $ / %+21.38)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:33 N  GPT  score -0.35 conf 0.58: Fed’in daha büyük faiz artışı ihtimalini açık tutması ve Aralık artışı fiyatlaması, yükselen faiz beklentileri ve dolar üzerinden altını kısa vadede baskılıyor. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu etki mevcut düşüş baskısını kısmen deng
-20.11 17:36 B6  CLOSE long AAPL stop: -1208.18 USD
 20.11 17:39 B5  SHORT gold 25000 USD x10 @ 3574.24 (TP 3563.52, SL 3581.39; news -0.42)
 20.11 17:42 B5  CLOSE short take profit: +68.97 USD
 20.11 17:42 B6  karar turu: Claude «Piyasa sabahki düşüşten toparlanmaya çalışıyor ancak teknoloji tarafında NVDA kaynaklı zayıflık sürüyor, hisse bazlı haber akışı öne çıkıyor.» / GPT «SPY toparlanırken teknoloji hisselerinde ayrışma belirgin; dört kat kaldıraç altında sert düşüşleri kovalamadan seçici long işlemler daha uygun görünüyor.»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 17:57 N  NEWS (14 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi ve satış baskısı artıyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı fiyatlaması ve güçlenen dolar altını baskılıyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebini artırmadığı için bu baskıyı dengeleyemiyor; yine de piyasa sert düşüş sonrası kısa vadeli tepki alımı riski nedeniyle güven orta seviyede.
 20.11 17:57 N  GPT  score -0.65 conf 0.76: Altın ve gümüşte 14 ayın dipleri ve doların güçlenmesi kısa vadeli satış baskısının sürdüğüne işaret ediyor; Fed’in daha şahin olabileceği beklentisi de altın için olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, ancak şu an için bu risk fiyat düşüşünü dengeleyecek ölçüde gör
 20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD
+20.11 18:05 B6  karar turu: Claude «Endeksler sabahki satışı telafi ederek güçlü bir toparlanma gösteriyor, ancak son mumlardaki hafif geri çekilme kovalamaya karşı temkinli olmayı gerektiriyor.» / GPT «Endekslerde toparlanma eğilimi sürerken 1:4 kaldıraç altında seçici kalıp SPY gücünü almak ve NVDA zayıflığını satmak daha uygun görünüyor.»
+20.11 18:05 B6  ALIŞ SPY 169 adet ≈ 121,033 $ (1:4) @ 716.17 (TP 726.91, SL 709.01; ikisi de hemfikir, güven 0.50)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
