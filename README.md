@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:28 (İstanbul)
+> Son güncelleme: 20.11.2026 18:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,9 +79,9 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,796.60 $** (başlangıç 100,000 $, +19796.60 $ / %+19.80)
+**Hesap değeri: 120,254.96 $** (başlangıç 100,000 $, +20254.96 $ / %+20.25)
 
-Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30)
+Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
 Son işlemler:
 
