@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:56 (İstanbul)
+> Son güncelleme: 20.11.2026 18:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,13 +30,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.1 |
 | Ödenen komisyon/spread | 460.00 $ | 2282.92 $ |
 
-**Hesap değeri: 5,301.93 $** (başlangıç 5,000 $, +301.93 $ / %+6.04)
+**Hesap değeri: 5,307.29 $** (başlangıç 5,000 $, +307.29 $ / %+6.15)
 
 Açık pozisyonlar: PAXGUSDT short @ 3548.22 (TP 3537.58 / SL 3555.32)
 
-Son haber analizi (20.11 18:46): Claude puan **-0.70**, güven 0.70 — Faiz artırımı beklentilerinin yeniden yükselmesi, doların 19 aylık zirvelere yakın seyretmesi ve altının yaklaşık %4 düşüşü altın için baskılayıcı bir tablo çiziyor. Polonya'ya yönelik Rus füze ihlalleri gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki şimdiye kadar fiyatlanmış faiz/dolar baskısının gerisinde kalıyor.
+Son haber analizi (20.11 18:59): Claude puan **-0.60**, güven 0.65 — Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
 
-GPT (gpt-6-luna): puan **-0.30**, güven 0.48 — Fed faiz artırımı beklentileri ve doların güvenli liman talebi altın üzerinde baskı yaratıyor; ancak bu görünümün önemli kısmı fiyatlanmış olabilir. Polonya’ya yönelik füze haberleri güvenli liman talebini desteklerken, Fed’in daha büyük artışlarına yönelik itirazlar düşüşü sınırlayabilir.
+GPT (gpt-6-luna): puan **-0.20**, güven 0.57 — Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
 
 Son işlemler:
 
@@ -81,7 +81,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,060.90 $** (başlangıç 100,000 $, +20060.90 $ / %+20.06)
+**Hesap değeri: 120,170.82 $** (başlangıç 100,000 $, +20170.82 $ / %+20.17)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -98,8 +98,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:22 B5  SHORT gold 25000 USD x10 @ 3535.27 (TP 3524.67, SL 3542.34; news -0.57)
-20.11 18:28 B5  CLOSE short take profit: +68.95 USD
 20.11 18:28 B6  CLOSE long SPY stop: -1223.81 USD
 20.11 18:28 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde satış baskısı altında ve kısa vadeli momentum aşağı yönlü; zaten sert düşmüş hisselerde kovalamaktan kaçınıyorum.» / GPT «Kısa vadeli görünüm satıcılı; ancak diplerden tepki ve aynı yöne açılan pozisyonların korelasyonu nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
 20.11 18:28 B6  AÇIĞA SATIŞ QQQ 189 adet ≈ 119,272 $ (1:4) @ 631.07 (TP 621.6, SL 637.38; ikisi de hemfikir, güven 0.55)
@@ -113,6 +111,8 @@ Son işlemler:
 20.11 18:46 N  NEWS (16 new) score -0.70 conf 0.70: Faiz artırımı beklentilerinin yeniden yükselmesi, doların 19 aylık zirvelere yakın seyretmesi ve altının yaklaşık %4 düşüşü altın için baskılayıcı bir tablo çiziyor. Polonya'ya yönelik Rus füze ihlalleri gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki şimdiye kadar fiyatlanmış faiz/dolar baskısının gerisinde kalıyor.
 20.11 18:46 N  GPT  score -0.30 conf 0.48: Fed faiz artırımı beklentileri ve doların güvenli liman talebi altın üzerinde baskı yaratıyor; ancak bu görünümün önemli kısmı fiyatlanmış olabilir. Polonya’ya yönelik füze haberleri güvenli liman talebini desteklerken, Fed’in daha büyük artışlarına yönelik itirazlar düşüşü sınırlayabilir.
 20.11 18:53 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla gün içi düşüş trendinde ve kısa vadede zayıflığın sürmesi bekleniyor.» / GPT «Endekslerde aşağı yönlü ivme baskın, ancak uzayan düşüşler ve dört kat kaldıraç ani tepki yükselişlerinin zararını büyütebilir.»
+20.11 18:59 N  NEWS (12 new) score -0.60 conf 0.65: Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
+20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
