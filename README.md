@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 08:03 (İstanbul)
+> Son güncelleme: 20.11.2026 08:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,7 @@ Son işlemler:
 | Kazanma oranı | %56.0 | %46.6 |
 | Ödenen komisyon/spread | 302.47 $ | 2125.39 $ |
 
-**Hesap değeri: 5,388.29 $** (başlangıç 5,000 $, +388.29 $ / %+7.77)
+**Hesap değeri: 5,400.07 $** (başlangıç 5,000 $, +400.07 $ / %+8.00)
 
 Açık pozisyonlar: PAXGUSDT short @ 3525.48 (TP 3514.91 / SL 3532.54)
 
@@ -96,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 07:14 B5  SHORT gold 25000 USD x10 @ 3541.28 (TP 3530.66, SL 3548.36; news -0.64)
 20.11 07:23 N  NEWS (19 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentilerinin güçlenmesi ve güçlü dolar nedeniyle sert düşüyor; haberlerde yıllık dip seviyeler ve haftalık kayıplar öne çıkıyor. İran savaşıyla ilgili jeopolitik gerilim güvenli liman talebini destekleyici olsa da, piyasada bu etkinin fiyatı baskılayan faiz ve dolar faktörlerinin gerisinde kaldığı görülüyor.
 20.11 07:23 N  GPT  score -0.65 conf 0.66: Fed faiz artırımı beklentileri ve güçlü doların baskısı, altındaki sert düşüş ve 3.550 doların altına inişle kısa vadede baskın görünüyor. İran ve bölgedeki gerilim güvenli liman talebini destekleyebilir; ancak bu haberlerin fiyatlara ne ölçüde yansıdığı ve altın fiyatı başlıklarındaki tutarsızlık g
 20.11 07:27 B5  CLOSE short take profit: +68.96 USD
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:03 B5  SHORT gold 25000 USD x10 @ 3525.48 (TP 3514.91, SL 3532.54; news -0.64)
 20.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+20.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
