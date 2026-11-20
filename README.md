@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 20:14 (İstanbul)
+> Son güncelleme: 20.11.2026 20:18 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 123,527.41 $** (başlangıç 100,000 $, +23527.41 $ / %+23.53)
+**Hesap değeri: 123,791.94 $** (başlangıç 100,000 $, +23791.94 $ / %+23.79)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 19:35 N  NEWS (14 new) score -0.55 conf 0.60: Baskın etki faiz artırımı beklentileri ve güçlü dolardan geliyor: piyasalar Aralık ve Ocak'ta Fed faiz artırımını fiyatlıyor, dolar endeksi 19 aylık zirveye yakın ve altın 3.600 doların altına inmiş durumda. Polonya'ya Rus füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor; birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta düzeyde tutuldu.
 20.11 19:35 N  GPT  score -0.35 conf 0.62: Fed faiz artırımı beklentileri ve güçlü dolar altını baskılıyor; altının 3.600 doların altına inmesi ve sert düşüş de kısa vadeli momentumu olumsuz gösteriyor. Rusya’nın Polonya’ya uzanan saldırı haberleri güvenli liman talebini artırabilir, bu nedenle düşüş yönündeki görüşün güveni sınırlı.
 20.11 19:42 B6  karar turu: Claude «Teknoloji ağırlıklı geniş bir satış baskısı var ve endeksler gün diplerine yakın düşük tepelerle aşağı yönlü seyrediyor.» / GPT «Endekslerde aşağı yönlü akış short tarafını destekliyor ancak 1:4 kaldıraçta sert düşmüş hisseleri kovalamak ani tepki riskini büyütüyor.»
 20.11 19:42 B6  AÇIĞA SATIŞ AAPL 353 adet ≈ 122,385 $ (1:4) @ 346.7 (TP 341.5, SL 350.17; ikisi de hemfikir, güven 0.55)
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 20:06 B6  AÇIĞA SATIŞ QQQ 198 adet ≈ 122,992 $ (1:4) @ 621.17 (TP 611.85, SL 627.38; ikisi de hemfikir, güven 0.55)
 20.11 20:12 N  NEWS (7 new) score -0.50 conf 0.60: 
 20.11 20:12 N  GPT  score +0.12 conf 0.48: Polonya’ya Rus füze düşmesi ve Riyad’daki Husi saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in enflasyon uyarısı ve faiz artışı/dolar endişeleri altın üzerindeki baskıyı sürdürüyor; etkiler çelişkili olduğu için net yön zayıf.
+20.11 20:18 B6  karar turu: Claude «Teknoloji ağırlıklı geniş bir satış baskısı sürüyor ve QQQ sert düşüyor; ancak hareketler büyük ölçüde gerçekleştiği için yalnızca seçici short pozisyonlar mantıklı.» / GPT «Endekslerde süren satış baskısı kısa pozisyonları destekliyor ancak sert günlük kayıplar ve dört kat kaldıraç nedeniyle pozisyon büyüklüğü sınırlı tutulmalı.»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
