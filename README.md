@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 20:00 (İstanbul)
+> Son güncelleme: 20.11.2026 20:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -74,29 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -4.37 $ | +18521.56 $ |
-| İşlem sayısı | 5 | 75 |
-| Kazanma oranı | %40.0 | %50.7 |
+| Net kâr/zarar | +1788.71 $ | +20314.64 $ |
+| İşlem sayısı | 6 | 76 |
+| Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 122,433.92 $** (başlangıç 100,000 $, +22433.92 $ / %+22.43)
+**Hesap değeri: 123,199.03 $** (başlangıç 100,000 $, +23199.03 $ / %+23.20)
 
-Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 631.49 (TP 621.60 / SL 637.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
+Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 20:02 | QQQ | short | +1793.08 $ | take profit |
 | 20.11 19:32 | TSLA | short | +1798.50 $ | take profit |
 | 20.11 19:02 | AAPL | long | -1217.52 $ | stop |
 | 20.11 18:28 | SPY | long | -1223.81 $ | stop |
 | 20.11 17:57 | TSLA | long | +1846.64 $ | take profit |
-| 20.11 17:36 | AAPL | long | -1208.18 $ | stop |
 
 ## Son olaylar
 
 ```
-20.11 19:23 N  NEWS (6 new) score -0.55 conf 0.65: Altın, Fed'in faiz artırımı beklentilerinin yeniden canlanması ve doların 19 aylık zirvelere yakın seyretmesi nedeniyle baskı altında; 14 aylık dip ve yaklaşık %4'lük düşüş bu tabloyu yansıtıyor. İran savaşı ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etki mevcut sert satışı dengelemekte yetersiz kalıyor; yine de bazı haberlerin fiyatlamaya yansımış olması güveni sınırlıyor.
 20.11 19:23 N  GPT  score -0.60 conf 0.72: Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
 20.11 19:29 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı öğleden sonra da sürüyor ve piyasa zayıf seyrediyor.» / GPT «Endekslerde gün içi satış baskısı sürerken kısa yön öne çıkıyor; 1:4 kaldıraçta açık pozisyonlarla ortak piyasa riski sınırlanmalı.»
 20.11 19:29 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"91188.34","code":40310000,"cost_basis":"106076.56","message":"insufficient buying power"}
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 19:54 B6  AÇIĞA SATIŞ SPY 175 adet ≈ 122,974 $ (1:4) @ 702.71 (TP 692.17, SL 709.74; ikisi de hemfikir, güven 0.55)
 20.11 20:00 N  NEWS (7 new) score +0.30 conf 0.50: Polonya'ya Rus füzesi isabeti, ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı ve yeni İran saldırılarının değerlendirilmesi güvenli liman talebini artırarak altı destekliyor. Buna karşılık piyasada Aralık ve Ocak faiz artırımları fiyatlanmış durumda ve dolar endeksi 104'ün altında, bu da etkiyi sınırlıyor; ayrıca bazı haberler eski veya birbiriyle çelişkili olduğu için güven orta düzeyde.
 20.11 20:00 N  GPT  score +0.62 conf 0.68: Polonya’ya Rus füze isabeti ve NATO’nun ihlal açıklaması, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Doların gerilemesi ek destek sağlarken, Fed’in faiz artırımı beklentileri yükselişi sınırlayabilir.
+20.11 20:02 B6  CLOSE short QQQ take profit: +1793.08 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
