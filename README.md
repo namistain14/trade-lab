@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:56 (İstanbul)
+> Son güncelleme: 20.11.2026 20:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,9 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (20.11 19:48): Claude puan **+0.10**, güven 0.35 — ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı haberi jeopolitik risk ve güvenli liman talebini artırarak altı hafif destekliyor. Ancak Fed'de faiz artırımı beklentileri, güçlü dolar ve altının 14 aylık dip seviyesine yakın işlem görmesi baskıyı sürdürüyor; Bessent'in daha büyük Fed artırımına itirazı ise sınırlı bir destek sağlıyor. Sinyaller karışık ve büyük ölçüde fiyatlanmış olduğu için güven düşük.
+Son haber analizi (20.11 20:00): Claude puan **+0.30**, güven 0.50 — Polonya'ya Rus füzesi isabeti, ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı ve yeni İran saldırılarının değerlendirilmesi güvenli liman talebini artırarak altı destekliyor. Buna karşılık piyasada Aralık ve Ocak faiz artırımları fiyatlanmış durumda ve dolar endeksi 104'ün altında, bu da etkiyi sınırlıyor; ayrıca bazı haberler eski veya birbiriyle çelişkili olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.55**, güven 0.58 — İran’daki yeni ABD saldırısı ve Rus füzelerinin Polonya’ya isabet ettiği haberleri kısa vadede güvenli liman talebini artırabilir. Ancak bu gelişmelerin bir kısmı zaten fiyatlanmış olabilir; altındaki zayıf seyir ve Fed’in sıkılaşma beklentileri yükselişi sınırlıyor.
+GPT (gpt-6-luna): puan **+0.62**, güven 0.68 — Polonya’ya Rus füze isabeti ve NATO’nun ihlal açıklaması, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Doların gerilemesi ek destek sağlarken, Fed’in faiz artırımı beklentileri yükselişi sınırlayabilir.
 
 Son işlemler:
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 123,132.66 $** (başlangıç 100,000 $, +23132.66 $ / %+23.13)
+**Hesap değeri: 122,433.92 $** (başlangıç 100,000 $, +22433.92 $ / %+22.43)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 631.49 (TP 621.60 / SL 637.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 19:17 B6  karar turu: Claude «Teknoloji liderliğinde risk iştahı zayıf; Nasdaq sert düşüşte ve öğleden sonra baskının sürmesi olası.» / GPT «Teknoloji öncülüğündeki zayıflık satış yönünü destekliyor ancak kaldıraç ve öğle saatlerindeki dalgalanma nedeniyle sert düşmüş hisseleri kovalamak yerine seçici davranıyorum.»
-20.11 19:17 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"83565.73","code":40310000,"cost_basis":"97595.33","message":"insufficient buying power"}
 20.11 19:23 N  NEWS (6 new) score -0.55 conf 0.65: Altın, Fed'in faiz artırımı beklentilerinin yeniden canlanması ve doların 19 aylık zirvelere yakın seyretmesi nedeniyle baskı altında; 14 aylık dip ve yaklaşık %4'lük düşüş bu tabloyu yansıtıyor. İran savaşı ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etki mevcut sert satışı dengelemekte yetersiz kalıyor; yine de bazı haberlerin fiyatlamaya yansımış olması güveni sınırlıyor.
 20.11 19:23 N  GPT  score -0.60 conf 0.72: Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
 20.11 19:29 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı öğleden sonra da sürüyor ve piyasa zayıf seyrediyor.» / GPT «Endekslerde gün içi satış baskısı sürerken kısa yön öne çıkıyor; 1:4 kaldıraçta açık pozisyonlarla ortak piyasa riski sınırlanmalı.»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 19:48 N  GPT  score +0.55 conf 0.58: İran’daki yeni ABD saldırısı ve Rus füzelerinin Polonya’ya isabet ettiği haberleri kısa vadede güvenli liman talebini artırabilir. Ancak bu gelişmelerin bir kısmı zaten fiyatlanmış olabilir; altındaki zayıf seyir ve Fed’in sıkılaşma beklentileri yükselişi sınırlıyor.
 20.11 19:54 B6  karar turu: Claude «Teknoloji ağırlıklı sert satış baskısı sürüyor ve endeksler gün diplerine yakın; belirgin bir dönüş sinyali olmadıkça trend aşağı yönlü.» / GPT «Endekslerde aşağı yönlü momentum baskın; 1:4 kaldıraç altında sert düşmüş hisseleri kovalamadan SPY üzerinden sınırlı kısa yönlü risk tercih ediyorum.»
 20.11 19:54 B6  AÇIĞA SATIŞ SPY 175 adet ≈ 122,974 $ (1:4) @ 702.71 (TP 692.17, SL 709.74; ikisi de hemfikir, güven 0.55)
+20.11 20:00 N  NEWS (7 new) score +0.30 conf 0.50: Polonya'ya Rus füzesi isabeti, ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı ve yeni İran saldırılarının değerlendirilmesi güvenli liman talebini artırarak altı destekliyor. Buna karşılık piyasada Aralık ve Ocak faiz artırımları fiyatlanmış durumda ve dolar endeksi 104'ün altında, bu da etkiyi sınırlıyor; ayrıca bazı haberler eski veya birbiriyle çelişkili olduğu için güven orta düzeyde.
+20.11 20:00 N  GPT  score +0.62 conf 0.68: Polonya’ya Rus füze isabeti ve NATO’nun ihlal açıklaması, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Doların gerilemesi ek destek sağlarken, Fed’in faiz artırımı beklentileri yükselişi sınırlayabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
