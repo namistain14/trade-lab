@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:20 (İstanbul)
+> Son güncelleme: 20.11.2026 19:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,9 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (20.11 19:11): Claude puan **-0.50**, güven 0.60 — Faiz artırımı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirvesinde ve altın 14 aylık dibe yakın seviyede; bu baskı 1-4 saatlik görünümde altını aşağı çekebilir. Polonya'daki füze olayı ve İran savaşı güvenli liman talebini destekliyor ancak bu etki şimdiye kadar faiz baskısının gerisinde kaldı; eski haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
+Son haber analizi (20.11 19:23): Claude puan **-0.55**, güven 0.65 — Altın, Fed'in faiz artırımı beklentilerinin yeniden canlanması ve doların 19 aylık zirvelere yakın seyretmesi nedeniyle baskı altında; 14 aylık dip ve yaklaşık %4'lük düşüş bu tabloyu yansıtıyor. İran savaşı ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etki mevcut sert satışı dengelemekte yetersiz kalıyor; yine de bazı haberlerin fiyatlamaya yansımış olması güveni sınırlıyor.
 
-GPT (gpt-6-luna): puan **+0.20**, güven 0.48 — Polonya’da Rus füzesinin can kaybına yol açması ve bunun kasıtlı provokasyon olarak nitelenmesi kısa vadeli güvenli liman talebini artırabilir. Ancak güçlü dolar ve faiz artırımı beklentileri altın üzerindeki baskıyı sürdürüyor; bu nedenle olası yükseliş sınırlı ve belirsiz.
+GPT (gpt-6-luna): puan **-0.60**, güven 0.72 — Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
 
 Son işlemler:
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,872.13 $** (başlangıç 100,000 $, +20872.13 $ / %+20.87)
+**Hesap değeri: 121,022.22 $** (başlangıç 100,000 $, +21022.22 $ / %+21.02)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:46 N  NEWS (16 new) score -0.70 conf 0.70: Faiz artırımı beklentilerinin yeniden yükselmesi, doların 19 aylık zirvelere yakın seyretmesi ve altının yaklaşık %4 düşüşü altın için baskılayıcı bir tablo çiziyor. Polonya'ya yönelik Rus füze ihlalleri gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki şimdiye kadar fiyatlanmış faiz/dolar baskısının gerisinde kalıyor.
-20.11 18:46 N  GPT  score -0.30 conf 0.48: Fed faiz artırımı beklentileri ve doların güvenli liman talebi altın üzerinde baskı yaratıyor; ancak bu görünümün önemli kısmı fiyatlanmış olabilir. Polonya’ya yönelik füze haberleri güvenli liman talebini desteklerken, Fed’in daha büyük artışlarına yönelik itirazlar düşüşü sınırlayabilir.
 20.11 18:53 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla gün içi düşüş trendinde ve kısa vadede zayıflığın sürmesi bekleniyor.» / GPT «Endekslerde aşağı yönlü ivme baskın, ancak uzayan düşüşler ve dört kat kaldıraç ani tepki yükselişlerinin zararını büyütebilir.»
 20.11 18:59 N  NEWS (12 new) score -0.60 conf 0.65: Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
 20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 19:14 B5  CLOSE short stop: -56.07 USD
 20.11 19:17 B6  karar turu: Claude «Teknoloji liderliğinde risk iştahı zayıf; Nasdaq sert düşüşte ve öğleden sonra baskının sürmesi olası.» / GPT «Teknoloji öncülüğündeki zayıflık satış yönünü destekliyor ancak kaldıraç ve öğle saatlerindeki dalgalanma nedeniyle sert düşmüş hisseleri kovalamak yerine seçici davranıyorum.»
 20.11 19:17 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"83565.73","code":40310000,"cost_basis":"97595.33","message":"insufficient buying power"}
+20.11 19:23 N  NEWS (6 new) score -0.55 conf 0.65: Altın, Fed'in faiz artırımı beklentilerinin yeniden canlanması ve doların 19 aylık zirvelere yakın seyretmesi nedeniyle baskı altında; 14 aylık dip ve yaklaşık %4'lük düşüş bu tabloyu yansıtıyor. İran savaşı ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etki mevcut sert satışı dengelemekte yetersiz kalıyor; yine de bazı haberlerin fiyatlamaya yansımış olması güveni sınırlıyor.
+20.11 19:23 N  GPT  score -0.60 conf 0.72: Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
