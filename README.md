@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:07 (İstanbul)
+> Son güncelleme: 20.11.2026 18:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,9 @@ Son işlemler:
 
 **Hesap değeri: 5,271.57 $** (başlangıç 5,000 $, +271.57 $ / %+5.43)
 
-Son haber analizi (20.11 17:57): Claude puan **-0.60**, güven 0.70 — Altın 14 aylık dibe geriledi ve satış baskısı artıyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı fiyatlaması ve güçlenen dolar altını baskılıyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebini artırmadığı için bu baskıyı dengeleyemiyor; yine de piyasa sert düşüş sonrası kısa vadeli tepki alımı riski nedeniyle güven orta seviyede.
+Son haber analizi (20.11 18:10): Claude puan **-0.20**, güven 0.40 — Altın 14 aylık dibe yakın ve satış baskısı altında; Fed'in sert (hawkish) söylemleri ve güçlü doların (tek kazanan olarak öne çıkması) kısa vadede altını aşağı çekiyor. İran'a yeni saldırı ihtimali ve Polonya'ya füze isabeti gibi jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar altında belirgin bir yükseliş vermedi; bu nedenle etki sınırlı ve karışık.
 
-GPT (gpt-6-luna): puan **-0.65**, güven 0.76 — Altın ve gümüşte 14 ayın dipleri ve doların güçlenmesi kısa vadeli satış baskısının sürdüğüne işaret ediyor; Fed’in daha şahin olabileceği beklentisi de altın için olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, ancak şu an için bu risk fiyat düşüşünü dengeleyecek ölçüde gör
+GPT (gpt-6-luna): puan **+0.18**, güven 0.43 — İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
 
 Son işlemler:
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,568.76 $** (başlangıç 100,000 $, +21568.76 $ / %+21.57)
+**Hesap değeri: 121,185.51 $** (başlangıç 100,000 $, +21185.51 $ / %+21.19)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); SPY long @ 716.64 (TP 726.91 / SL 709.01)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:39 B5  SHORT gold 25000 USD x10 @ 3574.24 (TP 3563.52, SL 3581.39; news -0.42)
-20.11 17:42 B5  CLOSE short take profit: +68.97 USD
 20.11 17:42 B6  karar turu: Claude «Piyasa sabahki düşüşten toparlanmaya çalışıyor ancak teknoloji tarafında NVDA kaynaklı zayıflık sürüyor, hisse bazlı haber akışı öne çıkıyor.» / GPT «SPY toparlanırken teknoloji hisselerinde ayrışma belirgin; dört kat kaldıraç altında sert düşüşleri kovalamadan seçici long işlemler daha uygun görünüyor.»
 20.11 17:42 B6  ALIŞ AAPL 342 adet ≈ 119,977 $ (1:4) @ 350.81 (TP 356.07, SL 347.3; ikisi de hemfikir, güven 0.55)
 20.11 17:45 N  NEWS (9 new) score -0.60 conf 0.70: Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD
 20.11 18:05 B6  karar turu: Claude «Endeksler sabahki satışı telafi ederek güçlü bir toparlanma gösteriyor, ancak son mumlardaki hafif geri çekilme kovalamaya karşı temkinli olmayı gerektiriyor.» / GPT «Endekslerde toparlanma eğilimi sürerken 1:4 kaldıraç altında seçici kalıp SPY gücünü almak ve NVDA zayıflığını satmak daha uygun görünüyor.»
 20.11 18:05 B6  ALIŞ SPY 169 adet ≈ 121,033 $ (1:4) @ 716.17 (TP 726.91, SL 709.01; ikisi de hemfikir, güven 0.50)
+20.11 18:10 N  NEWS (12 new) score -0.20 conf 0.40: Altın 14 aylık dibe yakın ve satış baskısı altında; Fed'in sert (hawkish) söylemleri ve güçlü doların (tek kazanan olarak öne çıkması) kısa vadede altını aşağı çekiyor. İran'a yeni saldırı ihtimali ve Polonya'ya füze isabeti gibi jeopolitik gerilimler güvenli liman talebi yaratabilir, ancak piyasa bu haberlere şimdiye kadar altında belirgin bir yükseliş vermedi; bu nedenle etki sınırlı ve karışık.
+20.11 18:10 N  GPT  score +0.18 conf 0.43: İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
