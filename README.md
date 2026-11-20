@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:29 (İstanbul)
+> Son güncelleme: 20.11.2026 03:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,105.82 $** (başlangıç 5,000 $, +105.82 $ / %+2.12)
+**Hesap değeri: 5,108.69 $** (başlangıç 5,000 $, +108.69 $ / %+2.17)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -33,9 +33,9 @@ Son işlemler:
 
 **Hesap değeri: 5,173.08 $** (başlangıç 5,000 $, +173.08 $ / %+3.46)
 
-Son haber analizi (20.11 03:20): Claude puan **-0.50**, güven 0.60 — Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
+Son haber analizi (20.11 03:32): Claude puan **-0.55**, güven 0.65 — Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
 
-GPT (gpt-6-luna): puan **-0.18**, güven 0.34 — Altın, yükselen tahvil getirileri ve şahin Fed beklentileriyle zaten baskı altında; manşetlerde bu görünümü değiştirecek yeni bir Fed veya enflasyon sinyali yok. Yemen’deki çatışma güvenli liman talebini bir miktar destekleyebilir, ancak etkisi sınırlı ve haberler büyük ölçüde mevcut riskleri yansıt
+GPT (gpt-6-luna): puan **-0.38**, güven 0.62 — Doların üst üste dördüncü haftalık yükselişe yönelmesi ve önceki haberlerde öne çıkan şahin Fed beklentileri, kısa vadede altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de altının sert düşüşü bu etkinin şimdilik sınırlı kaldığını gösteriyor.
 
 Son işlemler:
 
@@ -95,8 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:41 B5  CLOSE short take profit: +68.97 USD
-20.11 02:44 N  NEWS (6 new) score -0.60 conf 0.70: Altın, Fed'in şahin sinyalleri, yükselen ABD tahvil getirileri, ETF çıkışları ve güçlenen dolar nedeniyle 14 aylık dibe geriledi; jeopolitik risk (İran savaşı) güvenli liman talebini destekleyemiyor. Dolar yeni zirvelere yakınken ve ardışık Fed artışı beklentisi sürerken kısa vadede baskı sürmesi olası, ancak fiyat zaten düşmüş olduğu için güven orta seviyede.
 20.11 02:44 N  GPT  score -0.35 conf 0.58: Chicago Fed başkanının enflasyonun rahatsız edici ölçüde yüksek olduğu uyarısı, faizlerin yüksek kalacağı beklentisini ve dolar/tahvil getirileri baskısını güçlendirerek altın için kısa vadede negatif. İran savaşını sınırlama girişiminin reddi güvenli liman talebini destekleyebilir; ancak altındaki 
 20.11 02:47 B5  SHORT gold 25000 USD x10 @ 3596.97 (TP 3586.18, SL 3604.16; news -0.47)
 20.11 02:56 N  NEWS (26 new) score -0.70 conf 0.70: Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
@@ -110,6 +108,8 @@ Son işlemler:
 20.11 03:20 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
 20.11 03:20 N  GPT  score -0.18 conf 0.34: Altın, yükselen tahvil getirileri ve şahin Fed beklentileriyle zaten baskı altında; manşetlerde bu görünümü değiştirecek yeni bir Fed veya enflasyon sinyali yok. Yemen’deki çatışma güvenli liman talebini bir miktar destekleyebilir, ancak etkisi sınırlı ve haberler büyük ölçüde mevcut riskleri yansıt
 20.11 03:29 B5  CLOSE short take profit: +68.98 USD
+20.11 03:32 N  NEWS (8 new) score -0.55 conf 0.65: 
+20.11 03:32 N  GPT  score -0.38 conf 0.62: Doların üst üste dördüncü haftalık yükselişe yönelmesi ve önceki haberlerde öne çıkan şahin Fed beklentileri, kısa vadede altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de altının sert düşüşü bu etkinin şimdilik sınırlı kaldığını gösteriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
