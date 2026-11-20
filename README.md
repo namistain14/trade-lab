@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 16:41 (İstanbul)
+> Son güncelleme: 20.11.2026 16:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,11 +30,13 @@ Son işlemler:
 | Kazanma oranı | %51.6 | %46.2 |
 | Ödenen komisyon/spread | 375.23 $ | 2198.15 $ |
 
-**Hesap değeri: 5,307.98 $** (başlangıç 5,000 $, +307.98 $ / %+6.16)
+**Hesap değeri: 5,301.92 $** (başlangıç 5,000 $, +301.92 $ / %+6.04)
 
-Son haber analizi (20.11 16:32): Claude puan **-0.60**, güven 0.70 — Piyasa, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolardaki yükselişin etkisiyle altını 14 aylık dibe itiyor; bu baskın hawkish-dolar etkisi, Polonya'ya düşen Rus füzesi gibi jeopolitik gerilimlerin sınırlı güvenli liman talebinden daha ağır basıyor. Bu haberlerin çoğu zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
+Açık pozisyonlar: PAXGUSDT short @ 3553.49 (TP 3542.83 / SL 3560.60)
 
-GPT (gpt-6-luna): puan **+0.18**, güven 0.48 — Polonya’ya Rus füzesinin isabet ettiği haberinin tırmanma riski kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artıracağı beklentileri baskı yaratıyor; olayın ayrıntıları netleşmediği için etki sınırlı ve belirsiz.
+Son haber analizi (20.11 16:44): Claude puan **-0.60**, güven 0.70 — Fed'in Aralık'ta faiz artırımı ihtimali artıyor (Goolsbee, Rabobank), bu da reel faiz beklentilerini yükselterek altı baskılıyor. Altın 3.550$ altına inerken güvenli liman talebi de çözülüyor; Polonya'ya füze düşmesi gibi jeopolitik haberler bu baskıyı dengeleyemiyor.
+
+GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
 
 Son işlemler:
 
@@ -94,9 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 15:19 N  GPT  score -0.45 conf 0.68: Fed’in sıkılaşma beklentileri ve güçlenen dolar, kısa vadede altın üzerinde belirgin baskı yaratıyor; altındaki süregelen düşüş de bu görünümü destekliyor. Ukrayna’daki yoğun saldırılar ve Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, bu nedenle düşüş beklentisi sınırlı güven taşıy
-20.11 15:31 N  NEWS (8 new) score -0.70 conf 0.72: Piyasa Aralık ve Ocak'ta Fed faiz artırımı fiyatlıyor, dolar 19 aylık zirveye yakın ve dördüncü haftalık kazancına gidiyor; bu, reel faiz beklentilerini yükselterek altın için güçlü bir baskı oluşturuyor. Altın 9 gündür düşüşte ve haftalık bazda sekiz ayın en sert düşüşüne yaklaşıyor. İran savaşı ve Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebi yaratıyor, ancak bu talep dolara yöneliyor, altına değil; bu nedenle jeopolitik etki altını destekleyemiyor.
-20.11 15:31 N  GPT  score -0.55 conf 0.68: Doların 19 ayın zirvesine yaklaşması ve Fed faiz artırımı beklentileri altın üzerinde belirgin baskı yaratıyor; süregelen sert düşüş de kısa vadeli momentumu aşağı yönlü kılıyor. Ukrayna’ya yönelik yoğun saldırılar ve Polonya’daki füze olayına ilişkin provokasyon iddiası güvenli liman talebiyle düşü
 20.11 15:44 N  NEWS (12 new) score -0.60 conf 0.70: Piyasada faiz artırımı beklentileri güçleniyor ve dolar 19 aylık zirveye yakın seyrediyor; bu da altın üzerinde net baskı yaratıyor. Polonya'daki füze olayı jeopolitik risk üretse de altın bu haberlere güçlü bir yukarı tepki vermiyor, bu nedenle kısa vadeli görünüm negatif.
 20.11 15:44 N  GPT  score -0.30 conf 0.66: Polonya’ya düşen Rus füzesi ve Ukrayna’daki tırmanma altına güvenli liman talebi sağlayabilir. Ancak güçlü dolar, faiz artırımı beklentileri ve altındaki sert düşüş baskısı kısa vadede ağır basıyor; jeopolitik gelişme bu görünümü sınırlıyor.
 20.11 15:56 N  NEWS (11 new) score -0.60 conf 0.65: Altın üzerindeki baskı ağırlıkta: Fed yetkililerinin faiz artırımı yönünde ısrarı, piyasanın Aralık ve Ocak'ta artırım fiyatlaması ve güçlü dolar (19 ay zirvesine yakın) altını düşürüyor. Rusya'nın Polonya'ya füze düşürmesi ve ABD-İsrail'in İran'a yeni saldırı değerlendirmesi güvenli liman talebini artırabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor ve kısa vadede sınırlı etki yaratabilir.
@@ -109,6 +108,9 @@ Son işlemler:
 20.11 16:33 N  NEWS (11 new) score -0.60 conf 0.70: Piyasa, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolardaki yükselişin etkisiyle altını 14 aylık dibe itiyor; bu baskın hawkish-dolar etkisi, Polonya'ya düşen Rus füzesi gibi jeopolitik gerilimlerin sınırlı güvenli liman talebinden daha ağır basıyor. Bu haberlerin çoğu zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
 20.11 16:33 N  GPT  score +0.18 conf 0.48: Polonya’ya Rus füzesinin isabet ettiği haberinin tırmanma riski kısa vadede güvenli liman talebini ve altını destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artıracağı beklentileri baskı yaratıyor; olayın ayrıntıları netleşmediği için etki sınırlı ve belirsiz.
 20.11 16:33 B6  seans öncesi görüş: Teknoloji ağırlıklı sert bir risk-off gap-down var; büyük hareket zaten gerçekleştiği için açılıştan önce kovalamak yerine yön teyidini beklemek daha mantıklı.
+20.11 16:44 N  NEWS (6 new) score -0.60 conf 0.70: Fed'in Aralık'ta faiz artırımı ihtimali artıyor (Goolsbee, Rabobank), bu da reel faiz beklentilerini yükselterek altı baskılıyor. Altın 3.550$ altına inerken güvenli liman talebi de çözülüyor; Polonya'ya füze düşmesi gibi jeopolitik haberler bu baskıyı dengeleyemiyor.
+20.11 16:44 N  GPT  score -0.55 conf 0.68: Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
+20.11 16:44 B5  SHORT gold 25000 USD x10 @ 3553.49 (TP 3542.83, SL 3560.60; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

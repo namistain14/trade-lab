@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    5000.0
-   ],
-   [
     1794594181,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795182106,
     5104.97
+   ],
+   [
+    1795182297,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    4868.5
-   ],
-   [
     1794594181,
     4868.5
    ],
@@ -27126,28 +27122,32 @@
    [
     1795182106,
     4868.5
+   ],
+   [
+    1795182297,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
    "confidence": 0.7,
-   "reason": "Piyasa, Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolardaki y\u00fckseli\u015fin etkisiyle alt\u0131n\u0131 14 ayl\u0131k dibe itiyor; bu bask\u0131n hawkish-dolar etkisi, Polonya'ya d\u00fc\u015fen Rus f\u00fczesi gibi jeopolitik gerilimlerin s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebinden daha a\u011f\u0131r bas\u0131yor. Bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta-y\u00fcksek seviyede tutuldu.",
+   "reason": "Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali art\u0131yor (Goolsbee, Rabobank), bu da reel faiz beklentilerini y\u00fckselterek alt\u0131 bask\u0131l\u0131yor. Alt\u0131n 3.550$ alt\u0131na inerken g\u00fcvenli liman talebi de \u00e7\u00f6z\u00fcl\u00fcyor; Polonya'ya f\u00fcze d\u00fc\u015fmesi gibi jeopolitik haberler bu bask\u0131y\u0131 dengeleyemiyor.",
    "n": 45,
-   "ts": 1795181577786,
-   "new_headlines": 11,
+   "ts": 1795182296268,
+   "new_headlines": 6,
    "key_events": [
-    "Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor; Rabobank Aral\u0131k ve Ocak art\u0131\u015flar\u0131n\u0131 fiyatl\u0131yor",
-    "Dolar g\u00fc\u00e7l\u00fc seyrediyor, alt\u0131n 14 ayl\u0131k dibe yakla\u015ft\u0131",
-    "Rus f\u00fczesi Polonya'ya isabet etti; NATO tepki g\u00f6sterdi (s\u0131n\u0131rl\u0131 g\u00fcvenli liman etkisi)"
+    "Goolsbee Aral\u0131k'ta daha b\u00fcy\u00fck faiz art\u0131r\u0131m\u0131n\u0131 d\u0131\u015flam\u0131yor; Rabobank Aral\u0131k ve Ocak art\u0131r\u0131mlar\u0131n\u0131 fiyatl\u0131yor",
+    "Alt\u0131n 3.550$ alt\u0131na d\u00fc\u015ft\u00fc; g\u00fcvenli liman talebi \u00e7\u00f6z\u00fcl\u00fcyor",
+    "Polonya'ya Rus f\u00fczesi d\u00fc\u015fmesine ra\u011fmen alt\u0131n bask\u0131 alt\u0131nda kal\u0131yor"
    ],
    "gpt": {
-    "score": 0.18,
-    "confidence": 0.48,
-    "reason": "Polonya\u2019ya Rus f\u00fczesinin isabet etti\u011fi haberinin t\u0131rmanma riski k\u0131sa vadede g\u00fcvenli liman talebini ve alt\u0131n\u0131 destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentileri bask\u0131 yarat\u0131yor; olay\u0131n ayr\u0131nt\u0131lar\u0131 netle\u015fmedi\u011fi i\u00e7in etki s\u0131n\u0131rl\u0131 ve belirsiz.",
+    "score": -0.55,
+    "confidence": 0.68,
+    "reason": "Aral\u0131k ay\u0131nda daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimalinin g\u00fcndeme gelmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede reel faiz ve dolar kanal\u0131 \u00fczerinden bask\u0131n bi\u00e7imde olumsuz. Polonya\u2019ya d\u00fc\u015fen Rus f\u00fczesi g\u00fcvenli liman talebini art\u0131rabilir; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki de\u011ferlendirmede belirsizlik var.",
     "key_events": [
-     "Polonya\u2019da Rus f\u00fczesi bildirimi",
-     "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
-     "G\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in olumsuz"
+     "Goolsbee daha b\u00fcy\u00fck Aral\u0131k faiz art\u0131\u015f\u0131n\u0131 d\u0131\u015flamad\u0131",
+     "Alt\u0131n sert d\u00fc\u015ferek g\u00fcvenli liman talebinin zay\u0131flad\u0131\u011f\u0131na i\u015faret etti",
+     "Polonya\u2019daki Rus f\u00fczesi olay\u0131 jeopolitik riskleri art\u0131rd\u0131"
     ],
     "model": "gpt-6-luna"
    },
@@ -27155,15 +27155,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794912392954,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "Dolar 19 ayl\u0131k zirvesine \u00e7\u0131k\u0131yor ve piyasalar Fed'in s\u0131k\u0131 duru\u015funa dair bahisler yap\u0131yor; bu, reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. K\u0131r\u0131m K\u00f6pr\u00fcs\u00fc'ndeki sald\u0131r\u0131 ve \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 ve Alman yat\u0131r\u0131mc\u0131 g\u00fcveninin y\u00fckselmesi risk i\u015ftah\u0131n\u0131 art\u0131r\u0131yor. Genel tablo alt\u0131n i\u00e7in olumsuz, ancak haber ak\u0131\u015f\u0131nda \u00e7eli\u015fkili unsurlar oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
-    "new": 9,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794913112010,
     "score": -0.35,
@@ -29854,16 +29845,30 @@
     "new": 11,
     "gpt_score": 0.18,
     "gpt_confidence": 0.48
+   },
+   {
+    "ts": 1795182296268,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali art\u0131yor (Goolsbee, Rabobank), bu da reel faiz beklentilerini y\u00fckselterek alt\u0131 bask\u0131l\u0131yor. Alt\u0131n 3.550$ alt\u0131na inerken g\u00fcvenli liman talebi de \u00e7\u00f6z\u00fcl\u00fcyor; Polonya'ya f\u00fcze d\u00fc\u015fmesi gibi jeopolitik haberler bu bask\u0131y\u0131 dengeleyemiyor.",
+    "new": 6,
+    "gpt_score": -0.55,
+    "gpt_confidence": 0.68
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 81
+   "n": 82
   },
   "news_seen": [
+   "Rabobank Flags December Fed Hike Pricing | 20 Nov 2026 - www.tmgm.com",
+   "Chicago Fed's Goolsbee won't rule out larger December rate hike - Quartz",
+   "Gold Breaks Down but is This a Sign of What\u2019s to Come? - StoneX",
+   "The War Is Ravaging Ukraine\u2019s Wildlife, Too - The New York Times",
+   "Middle East latest: Saudi coalition and Houthis threaten strikes on ports - The National",
+   "Why Is Gold Crashing Today? Gold Falls Below $3,550 as Safe-Haven Trade Unwinds - Coinpaper",
    "Poland hit by at least one Russian missile, says Polish govt - Al Jazeera",
    "White House removes cyber-security chief after series of tech outages",
-   "Middle East latest: Saudi coalition and Houthis threaten strikes on ports - The National",
    "The Iran War Won\u2019t Change World Energy - Forbes",
    "US Monetary Tightening Bets Send Gold Toward 14-Month Low - \u062a\u0633\u0646\u06cc\u0645",
    "What's inside the missiles hitting Ukraine's cities? Kyiv's count shows how sanctions still leak - Euromaidan Press",
@@ -29896,22 +29901,14 @@
    "Russia launches massive missile and drone attack on Ukraine, killing at least 8 - Scripps News",
    "ICC Prosecutor Challenges Closure of Afghanistan War Crimes Investigation - Davis Vanguard",
    "Sudan war fuels an invisible economy of survival - Middle East Eye",
+   "Oil and stocks drive rates lower, and take some shine off the US Dollar - FXStreet",
    "Federal Reserve: Market prices in December and January hikes \u2013 Rabobank - FXStreet",
    "Russian missile\u2019s crash in Poland was likely an intentional provocation, Polish prime minister says - The Washington Post",
    "Russian missile attacks kill six, damage three bridges in Kiev - Yahoo",
-   "Trump DOJ Lawyers Fight Sanctions Bid Over Alaska Senate Lawsuit - Newsweek",
-   "What Gold\u2019s Price Collapse Means For Millions of Americans - Newsweek",
-   "NATO fully recognizes new war domains: Cyber and electromagnetic \u2013 NSATU Commander - Ukrinform",
-   "Thai gold prices fall THB2,300 while a firm dollar weighs on spot gold - Nation Thailand",
-   "Rich Lowry: Trump\u2019s Ukraine-war realpolitik isn\u2019t realistic - Maui News",
-   "Gold price today, Friday, November 20, 2026: Gold prices continue to fall as rate hike expectations crystallize - Yahoo Finance",
-   "Gold Plunges to 14-Month Low as Four Banks Warn on Precious Metals Risk on Same Day - BigGo Finance"
+   "Trump DOJ Lawyers Fight Sanctions Bid Over Alaska Senate Lawsuit - Newsweek"
   ]
  },
  "log": [
-  "19.11 20:25 N  GPT  score -0.68 conf 0.73: Fed\u2019de faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n di\u011fer para birimleri kar\u015f\u0131s\u0131nda de\u011fer kazanmas\u0131, k\u0131sa vadede alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f\u00fc bildiren ba\u015fl\u0131klar da bu e\u011filimi do\u011fruluyor. Jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir, ancak mevcut haber ak\u0131\u015f\u0131nda bu etki",
-  "19.11 20:25 B5  SHORT gold 25000 USD x10 @ 3681.45 (TP 3670.41, SL 3688.82; news -0.69)",
-  "19.11 20:25 B6  karar turu: Claude \u00abPiyasa \u00f6\u011fleden sonraki sert sat\u0131\u015f\u0131n ard\u0131ndan ani bir tepki al\u0131m\u0131yla toparlan\u0131yor, ancak NVDA kaynakl\u0131 risk i\u015ftahs\u0131zl\u0131\u011f\u0131 s\u00fcr\u00fcyor ve y\u00f6n hen\u00fcz netle\u015fmedi.\u00bb / GPT \u00abEndekslerde sert d\u00fc\u015f\u00fc\u015f sonras\u0131 tepki var, ancak saatlik zay\u0131fl\u0131k s\u00fcrd\u00fc\u011f\u00fcnden kald\u0131ra\u00e7l\u0131 i\u015flemlerde temkinli bi\u00e7imde k\u0131sa y\u00f6n\u00fc tercih ediyorum.\u00bb",
   "19.11 20:27 B6  CLOSE short NVDA stop: -1316.47 USD",
   "19.11 20:37 N  NEWS (11 new) score -0.60 conf 0.70: Dolar 19 ayl\u0131k zirveye yak\u0131n seyrediyor, Fed'de faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor ve alt\u0131n 14 ayl\u0131k dibe geriledi; bu tablo alt\u0131n i\u00e7in net olarak bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 ve enerji \u015foku g\u00fcvenli liman talebini destekliyor olsa da piyasa bu jeopolitik riski \u015fu an fiyatlam\u0131yor gibi g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "19.11 20:37 N  GPT  score -0.68 conf 0.72: Dolar\u0131n 19 ay\u0131n zirvesine \u00e7\u0131kmas\u0131, diren\u00e7li i\u015fg\u00fcc\u00fc piyasas\u0131 ve g\u00fc\u00e7lenen Fed faiz art\u0131r\u0131m\u0131 beklentileri k\u0131sa vadede alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor. \u0130ran kaynakl\u0131 enerji \u015foku g\u00fcvenli liman talebini destekleyebilir; ancak ba\u015fl\u0131klar bunun yeni bir t\u0131rman\u0131\u015f\u0131ndan \u00e7ok mevcut riskin devam\u0131na i\u015faret",
@@ -30208,7 +30205,10 @@
   "20.11 16:23 B5  CLOSE short take profit: +68.96 USD",
   "20.11 16:33 N  NEWS (11 new) score -0.60 conf 0.70: Piyasa, Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolardaki y\u00fckseli\u015fin etkisiyle alt\u0131n\u0131 14 ayl\u0131k dibe itiyor; bu bask\u0131n hawkish-dolar etkisi, Polonya'ya d\u00fc\u015fen Rus f\u00fczesi gibi jeopolitik gerilimlerin s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebinden daha a\u011f\u0131r bas\u0131yor. Bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven orta-y\u00fcksek seviyede tutuldu.",
   "20.11 16:33 N  GPT  score +0.18 conf 0.48: Polonya\u2019ya Rus f\u00fczesinin isabet etti\u011fi haberinin t\u0131rmanma riski k\u0131sa vadede g\u00fcvenli liman talebini ve alt\u0131n\u0131 destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131raca\u011f\u0131 beklentileri bask\u0131 yarat\u0131yor; olay\u0131n ayr\u0131nt\u0131lar\u0131 netle\u015fmedi\u011fi i\u00e7in etki s\u0131n\u0131rl\u0131 ve belirsiz.",
-  "20.11 16:33 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off gap-down var; b\u00fcy\u00fck hareket zaten ger\u00e7ekle\u015fti\u011fi i\u00e7in a\u00e7\u0131l\u0131\u015ftan \u00f6nce kovalamak yerine y\u00f6n teyidini beklemek daha mant\u0131kl\u0131."
+  "20.11 16:33 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off gap-down var; b\u00fcy\u00fck hareket zaten ger\u00e7ekle\u015fti\u011fi i\u00e7in a\u00e7\u0131l\u0131\u015ftan \u00f6nce kovalamak yerine y\u00f6n teyidini beklemek daha mant\u0131kl\u0131.",
+  "20.11 16:44 N  NEWS (6 new) score -0.60 conf 0.70: Fed'in Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimali art\u0131yor (Goolsbee, Rabobank), bu da reel faiz beklentilerini y\u00fckselterek alt\u0131 bask\u0131l\u0131yor. Alt\u0131n 3.550$ alt\u0131na inerken g\u00fcvenli liman talebi de \u00e7\u00f6z\u00fcl\u00fcyor; Polonya'ya f\u00fcze d\u00fc\u015fmesi gibi jeopolitik haberler bu bask\u0131y\u0131 dengeleyemiyor.",
+  "20.11 16:44 N  GPT  score -0.55 conf 0.68: Aral\u0131k ay\u0131nda daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimalinin g\u00fcndeme gelmesi ve alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f, k\u0131sa vadede reel faiz ve dolar kanal\u0131 \u00fczerinden bask\u0131n bi\u00e7imde olumsuz. Polonya\u2019ya d\u00fc\u015fen Rus f\u00fczesi g\u00fcvenli liman talebini art\u0131rabilir; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcndeki de\u011ferlendirmede belirsizlik var.",
+  "20.11 16:44 B5  SHORT gold 25000 USD x10 @ 3553.49 (TP 3542.83, SL 3560.60; news -0.57)"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    4963.78
-   ],
-   [
     1794594181,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795182106,
+    4963.78
+   ],
+   [
+    1795182297,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    4975.18
-   ],
-   [
     1794594181,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795182106,
+    4975.18
+   ],
+   [
+    1795182297,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    4993.28
-   ],
-   [
     1794594181,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795182106,
+    4993.28
+   ],
+   [
+    1795182297,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794594001,
-    4969.22
-   ],
-   [
     1794594181,
     4969.22
    ],
@@ -78794,6 +78790,10 @@
    [
     1795182106,
     4969.22
+   ],
+   [
+    1795182297,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78805,7 +78805,23 @@
   "account": {
    "balance": 5307.976523338935,
    "start": 5000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "0b96e58e",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 7.035338813601492,
+     "entry": 3553.48913,
+     "tp": 3542.82866261,
+     "sl": 3560.5961082599997,
+     "opened_ms": 1795182296690,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.57/0.68",
+     "friction": 12.113
+    }
+   ],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82674,17 +82690,13 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "trades": 31,
+    "trades": 32,
     "pnl": 255.59592876713833,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794594001,
-    4545.26
-   ],
    [
     1794594181,
     4545.26
@@ -94680,6 +94692,10 @@
    [
     1795182106,
     5307.98
+   ],
+   [
+    1795182297,
+    5301.92
    ]
   ],
   "news_calls": {
@@ -96162,10 +96178,6 @@
    "equity": 120538.72
   },
   "equity_curve": [
-   [
-    1794594001,
-    114739.94
-   ],
    [
     1794594181,
     114717.54
@@ -108161,6 +108173,10 @@
    [
     1795182106,
     120538.72
+   ],
+   [
+    1795182297,
+    120538.72
    ]
   ],
   "open": {},
@@ -108291,10 +108307,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794594001,
-    4876.96
-   ],
    [
     1794594181,
     4876.96
@@ -120289,6 +120301,10 @@
    ],
    [
     1795182106,
+    4876.96
+   ],
+   [
+    1795182297,
     4876.96
    ]
   ],
