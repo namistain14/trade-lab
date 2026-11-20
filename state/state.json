@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    5000.0
-   ],
-   [
     1794545509,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795133297,
     5102.95
+   ],
+   [
+    1795133465,
+    5100.53
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    4868.5
-   ],
-   [
     1794545509,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795133297,
+    4868.5
+   ],
+   [
+    1795133465,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "19.11 10:02 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBriNdxaQjf6w9NDGeaG'}",
   "19.11 10:05 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBrwicrfCR6ACfb7jjTg'}",
   "19.11 10:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsAx4b8CJQqkTx8NYw3'}",
   "19.11 10:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsQ9rNqLEniGzV9XwfL'}",
@@ -30203,7 +30202,8 @@
   "20.11 03:02 B5  CLOSE short stop: -56.05 USD",
   "20.11 03:08 N  NEWS (26 new) score -0.50 conf 0.60: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Chicago Fed Ba\u015fkan\u0131 ekonominin a\u015f\u0131r\u0131 \u0131s\u0131nmas\u0131ndan ve y\u00fcksek enflasyondan endi\u015fe duyuyor (\u015fahin), dolar yeni zirvelere yak\u0131n ve tahvil faizleri y\u00fckseliyor, alt\u0131n 14 ay\u0131n dibine indi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve sava\u015f yetkisi oylamas\u0131n\u0131n reddi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
   "20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131n\u0131 vurgulamas\u0131, faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131na ili\u015fkin yetkilerin k\u0131s\u0131tlanmamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir; bu kar\u015f\u0131t etkiler nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif.",
-  "20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)"
+  "20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)",
+  "20.11 03:11 B5  CLOSE short stop: -56.05 USD"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    4963.78
-   ],
-   [
     1794545509,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795133297,
+    4963.78
+   ],
+   [
+    1795133465,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    4975.18
-   ],
-   [
     1794545509,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795133297,
+    4975.18
+   ],
+   [
+    1795133465,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    4993.28
-   ],
-   [
     1794545509,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795133297,
+    4993.28
+   ],
+   [
+    1795133465,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794545330,
-    4969.22
-   ],
-   [
     1794545509,
     4969.22
    ],
@@ -78789,6 +78785,10 @@
    [
     1795133297,
     4969.22
+   ],
+   [
+    1795133465,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78798,25 +78798,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 5160.155822241959,
+   "balance": 5104.106265979615,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "7fa9cff7",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.930375082289473,
-     "entry": 3607.3083639999995,
-     "tp": 3596.4864389079994,
-     "sl": 3614.5229807279993,
-     "opened_ms": 1795133296887,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.36/0.43",
-     "friction": 12.0815
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82177,21 +82161,38 @@
      "gross": -56.0525,
      "costs": 0.0,
      "pnl": -56.0525
+    },
+    {
+     "id": "7fa9cff7",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.930375082289473,
+     "entry": 3607.3083639999995,
+     "tp": 3596.4864389079994,
+     "sl": 3614.5229807279993,
+     "opened_ms": 1795133296887,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.36/0.43",
+     "friction": 12.0815,
+     "exit": 3615.395885324145,
+     "closed_ms": 1795133460000,
+     "reason": "stop",
+     "gross": -56.0496,
+     "costs": 0.0,
+     "pnl": -56.0496
     }
    ],
    "day": {
     "date": "2026-11-20",
     "trades": 8,
-    "pnl": 107.77522767016373,
+    "pnl": 51.725671407819924,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545330,
-    4657.38
-   ],
    [
     1794545509,
     4663.59
@@ -94187,6 +94188,10 @@
    [
     1795133297,
     5154.12
+   ],
+   [
+    1795133465,
+    5104.11
    ]
   ],
   "news_calls": {
@@ -95669,10 +95674,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794545330,
-    113945.8
-   ],
    [
     1794545509,
     113945.8
@@ -107668,6 +107669,10 @@
    [
     1795133297,
     120564.69
+   ],
+   [
+    1795133465,
+    120564.69
    ]
   ],
   "open": {},
@@ -107850,10 +107855,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545330,
-    4876.96
-   ],
    [
     1794545509,
     4876.96
@@ -119848,6 +119849,10 @@
    ],
    [
     1795133297,
+    4876.96
+   ],
+   [
+    1795133465,
     4876.96
    ]
   ],

@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:08 (İstanbul)
+> Son güncelleme: 20.11.2026 03:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,102.95 $** (başlangıç 5,000 $, +102.95 $ / %+2.06)
+**Hesap değeri: 5,100.53 $** (başlangıç 5,000 $, +100.53 $ / %+2.01)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +107.78 $ | +160.16 $ |
-| İşlem sayısı | 7 | 160 |
-| Kazanma oranı | %57.1 | %45.6 |
-| Ödenen komisyon/spread | 84.53 $ | 1907.45 $ |
+| Net kâr/zarar | +51.73 $ | +104.11 $ |
+| İşlem sayısı | 8 | 161 |
+| Kazanma oranı | %50.0 | %45.3 |
+| Ödenen komisyon/spread | 96.61 $ | 1919.54 $ |
 
-**Hesap değeri: 5,154.12 $** (başlangıç 5,000 $, +154.12 $ / %+3.08)
-
-Açık pozisyonlar: PAXGUSDT short @ 3607.31 (TP 3596.49 / SL 3614.52)
+**Hesap değeri: 5,104.11 $** (başlangıç 5,000 $, +104.11 $ / %+2.08)
 
 Son haber analizi (20.11 03:08): Claude puan **-0.50**, güven 0.60 — Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 03:11 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 03:02 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 02:40 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 02:33 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 02:13 | PAXGUSDT | short | +68.98 $ | take profit |
-| 20.11 01:21 | PAXGUSDT | short | -56.05 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:19 B5  SHORT gold 25000 USD x10 @ 3624.51 (TP 3613.64, SL 3631.76; news -0.57)
 20.11 02:31 N  NEWS (6 new) score -0.60 conf 0.70: Altın, sert Fed'e bağlı şahin sinyaller, güçlenen dolar ve yükselen tahvil getirileri nedeniyle 14 aylık dibe ($3.650 altı) geriledi; ETF çıkışları da baskı yaratıyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyecek nitelikte olsa da, piyasada bu jeopolitik etki fiyatlamaya yansımıyor, bu yüzden kısa vadede ağırlık düşüş yönünde.
 20.11 02:31 N  GPT  score -0.58 conf 0.72: Hawkish Fed beklentileri, yükselen tahvil getirileri ve güçlü dolar altını kısa vadede baskılıyor; 14 ayın dibine gerileme satış momentumunu destekliyor. İran savaşı ve Suudi Arabistan’daki saldırı güvenli liman talebini artırabilir, ancak şu an bu etki faiz ve dolar baskısını dengeleyemiyor.
 20.11 02:35 B5  CLOSE short take profit: +68.98 USD
@@ -112,6 +109,7 @@ Son işlemler:
 20.11 03:08 N  NEWS (26 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
 20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide aşırı ısınma kaygısını vurgulaması, faizlerin yüksek kalacağı beklentisini ve altın üzerindeki baskıyı destekliyor. İran savaşına ilişkin yetkilerin kısıtlanmaması güvenli liman talebini artırabilir; bu karşıt etkiler nedeniyle görünüm hafif negatif.
 20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)
+20.11 03:11 B5  CLOSE short stop: -56.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
