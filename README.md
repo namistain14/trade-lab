@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 04:27 (İstanbul)
+> Son güncelleme: 20.11.2026 04:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %53.8 | %45.8 |
 | Ödenen komisyon/spread | 157.05 $ | 1979.98 $ |
 
-**Hesap değeri: 5,198.91 $** (başlangıç 5,000 $, +198.91 $ / %+3.98)
+**Hesap değeri: 5,192.86 $** (başlangıç 5,000 $, +192.86 $ / %+3.86)
+
+Açık pozisyonlar: PAXGUSDT short @ 3573.12 (TP 3562.40 / SL 3580.26)
 
 Son haber analizi (20.11 04:21): Claude puan **-0.60**, güven 0.60 — Fed faiz artırımı beklentilerinin güçlenmesi ve doların dördüncü haftalık yükselişi altın için baskı yaratıyor; altın 14 aylık dibe geriledi ve satış sürüyor. Orta Doğu'daki Houthi tırmanışı ve İran savaşı güvenli liman talebini destekleyebilse de piyasanın bu jeopolitik riske tepki vermemesi bu etkiyi zayıflatıyor.
 
@@ -94,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 03:44 N  NEWS (17 new) score -0.35 conf 0.50: Fed faiz artırımı beklentileri ve doların dördüncü haftalık yükselişi altın için baskı oluşturuyor; Chicago Fed başkanının enflasyon konusundaki endişeleri de sıkı para politikası yönünde. Houthi saldırıları ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak bu haberlerin büyük bölümü zaten fiyatlanmış durumda ve altın, sert Fed sinyalleri nedeniyle 14 aylık dibe inmiş durumda.
 20.11 03:44 N  GPT  score -0.25 conf 0.48: Riyad’a füze isabet ettiği haberi güvenli liman talebini ve altını destekleyebilir; ancak doların yükselişi ve Fed faiz artırımı beklentileri kısa vadede daha belirgin bir baskı oluşturuyor. Askerî haberin doğrulanma ve piyasa etkisi belirsiz olduğundan görünüm temkinli.
 20.11 03:50 B5  SHORT gold 25000 USD x10 @ 3580.35 (TP 3569.61, SL 3587.51; news -0.30)
 20.11 03:53 B5  CLOSE short stop: -56.06 USD
@@ -109,6 +110,7 @@ Son işlemler:
 20.11 04:21 N  GPT  score -0.67 conf 0.76: Fed faiz artırımı beklentilerinin doları desteklemesi ve Jefferson’ın enflasyonun şimdilik güçlü kaldığına işaret etmesi, kısa vadede reel faizler üzerinden altın için baskı oluşturuyor. Jeopolitik riskler güvenli liman talebini destekleyebilir; ancak altındaki sert düşüş ve yıllık dip seviyeleri bu
 20.11 04:21 B5  SHORT gold 25000 USD x10 @ 3583.15 (TP 3572.40, SL 3590.32; news -0.64)
 20.11 04:27 B5  CLOSE short take profit: +68.97 USD
+20.11 04:30 B5  SHORT gold 25000 USD x10 @ 3573.12 (TP 3562.40, SL 3580.26; news -0.64)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
