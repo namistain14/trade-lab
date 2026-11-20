@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:26 (İstanbul)
+> Son güncelleme: 20.11.2026 19:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,707.27 $** (başlangıç 100,000 $, +21707.27 $ / %+21.71)
+**Hesap değeri: 121,856.63 $** (başlangıç 100,000 $, +21856.63 $ / %+21.86)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:53 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı satışla gün içi düşüş trendinde ve kısa vadede zayıflığın sürmesi bekleniyor.» / GPT «Endekslerde aşağı yönlü ivme baskın, ancak uzayan düşüşler ve dört kat kaldıraç ani tepki yükselişlerinin zararını büyütebilir.»
-20.11 18:59 N  NEWS (12 new) score -0.60 conf 0.65: Faiz artışı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirveye yakın ve altın yaklaşık %4 düşerek 14 aylık dibe indi; bu da gerçek faiz ve dolar kanalının jeopolitik güvenli liman talebinin önüne geçtiğini gösteriyor. Polonya'ya Rus füzesi düşmesi ve İran savaşı gibi risk haberleri kısa vadede yukarı yönlü destek sağlayabilir, ancak mevcut fiyat hareketi bunu bastırıyor; haberler karışık olduğu için güveni orta seviyede tutuyorum.
 20.11 18:59 N  GPT  score -0.20 conf 0.57: Polonya’daki Rus füze olayı ve Yemen’deki saldırılar güvenli liman talebini destekleyebilir; ancak yakın dönemdeki sert altın düşüşü, faiz artışı beklentileri ve güçlü dolar kısa vadede daha ağır basıyor. Haber akışı çelişkili olduğundan yön konusunda güven sınırlı.
 20.11 19:02 B5  CLOSE short take profit: +68.96 USD
 20.11 19:02 B6  CLOSE long AAPL stop: -1217.52 USD
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 19:17 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"83565.73","code":40310000,"cost_basis":"97595.33","message":"insufficient buying power"}
 20.11 19:23 N  NEWS (6 new) score -0.55 conf 0.65: Altın, Fed'in faiz artırımı beklentilerinin yeniden canlanması ve doların 19 aylık zirvelere yakın seyretmesi nedeniyle baskı altında; 14 aylık dip ve yaklaşık %4'lük düşüş bu tabloyu yansıtıyor. İran savaşı ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etki mevcut sert satışı dengelemekte yetersiz kalıyor; yine de bazı haberlerin fiyatlamaya yansımış olması güveni sınırlıyor.
 20.11 19:23 N  GPT  score -0.60 conf 0.72: Yakın vadede doların güçlenmesi ve Fed faiz artırımı beklentilerinin altın üzerindeki baskısı, İran savaşıyla ilgili güvenli liman talebini muhtemelen aşıyor. Altındaki sert düşüş de aşağı yönlü momentumu destekliyor; jeopolitik riskler bu görünümü kısmen dengeliyor.
+20.11 19:29 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı öğleden sonra da sürüyor ve piyasa zayıf seyrediyor.» / GPT «Endekslerde gün içi satış baskısı sürerken kısa yön öne çıkıyor; 1:4 kaldıraçta açık pozisyonlarla ortak piyasa riski sınırlanmalı.»
+20.11 19:29 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"91188.34","code":40310000,"cost_basis":"106076.56","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
