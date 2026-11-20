@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 08:09 (İstanbul)
+> Son güncelleme: 20.11.2026 08:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,13 +30,13 @@ Son işlemler:
 | Kazanma oranı | %56.0 | %46.6 |
 | Ödenen komisyon/spread | 302.47 $ | 2125.39 $ |
 
-**Hesap değeri: 5,413.75 $** (başlangıç 5,000 $, +413.75 $ / %+8.28)
+**Hesap değeri: 5,411.34 $** (başlangıç 5,000 $, +411.34 $ / %+8.23)
 
 Açık pozisyonlar: PAXGUSDT short @ 3525.48 (TP 3514.91 / SL 3532.54)
 
-Son haber analizi (20.11 08:00): Claude puan **-0.55**, güven 0.60 — Altın yaklaşık %3,7 düşüşle 3.530 dolara geriledi, ETF'ler sert satış yaşıyor ve dolar güçleniyor; bu kısa vadeli momentum ve dolar etkisi altın için baskılayıcı. İran savaşı ve Senato'nun savaş yetkisi oylamasında yaşanan gelişmeler jeopolitik risk primi yaratması gereken haberler olsa da piyasada güvenli liman talebine dönüşmüyor, bu nedenle yukarı yönlü destek zayıf görünüyor.
+Son haber analizi (20.11 08:12): Claude puan **-0.50**, güven 0.55 — Altın yakın vadede sert düşüş ve negatif momentum altında; Comex 3.550 doların altına indi, ETF'ler %5 geriledi ve dolar endeksi güçleniyor. İran savaşı yetkisi oylamasının Senato'da reddedilmesi jeopolitik risk primini sınırlı destekliyor ama bu gelişme büyük ölçüde fiyatlanmış durumda, bu nedenle baskı sürmesi daha olası.
 
-GPT (gpt-6-luna): puan **-0.72**, güven 0.78 — Altın fiyatındaki sert düşüş ve geniş çaplı değerli metal satışları, kısa vadeli aşağı yönlü momentumu güçlendiriyor; doların güçlenmesi de baskıyı artırıyor. İran ve Ukrayna kaynaklı riskler güvenli liman talebini destekleyebilir, ancak şu an fiyat hareketine baskın görünmüyor.
+GPT (gpt-6-luna): puan **-0.50**, güven 0.62 — Altın fiyatındaki sert düşüşün ve doların güçlendiğine ilişkin haberlerin yoğunluğu, önümüzdeki birkaç saat için aşağı yönlü momentuma işaret ediyor. İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak haberlerin çoğu mevcut fiyat hareketini tekrarlıyor ve yeni bir kataliz
 
 Son işlemler:
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 07:23 N  GPT  score -0.65 conf 0.66: Fed faiz artırımı beklentileri ve güçlü doların baskısı, altındaki sert düşüş ve 3.550 doların altına inişle kısa vadede baskın görünüyor. İran ve bölgedeki gerilim güvenli liman talebini destekleyebilir; ancak bu haberlerin fiyatlara ne ölçüde yansıdığı ve altın fiyatı başlıklarındaki tutarsızlık g
-20.11 07:27 B5  CLOSE short take profit: +68.96 USD
 20.11 07:33 B5  SHORT gold 25000 USD x10 @ 3525.82 (TP 3515.25, SL 3532.88; news -0.62)
 20.11 07:36 N  NEWS (10 new) score -0.60 conf 0.65: Altın, Fed faiz artırımı beklentileri ve güçlü doları nedeniyle haftalık bazda en kötü performansa doğru gidiyor ve 14 aylık dibe yakın seviyelerde işlem görüyor; İran savaşının sürmesine rağmen güvenli liman talebi altını desteklemiyor. Savaş haberleri ve Senato'nun savaş yetkisi kararı kısa vadede jeopolitik riski artırsa da, mevcut trend ve faiz beklentileri baskın olduğu için fiyat üzerindeki etki negatif kalıyor. Bazı haberlerin tekrar niteliğinde olması ve fiyat hareketlerinin zaten yansımış olması güveni biraz sınırlıyor.
 20.11 07:36 N  GPT  score -0.65 conf 0.72: Güçlü dolar ve Fed’in faiz artırabileceği beklentisi altındaki sert düşüşü destekliyor; fiyatın 3.550 doların altına inmesi kısa vadeli aşağı yönlü momentuma işaret ediyor. Suudi Arabistan’a yönelik füze saldırısı güvenli liman talebini bir miktar artırabilir, ancak şu anki baskıyı dengelemesi olası
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 20.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+20.11 08:12 N  NEWS (11 new) score -0.50 conf 0.55: Altın yakın vadede sert düşüş ve negatif momentum altında; Comex 3.550 doların altına indi, ETF'ler %5 geriledi ve dolar endeksi güçleniyor. İran savaşı yetkisi oylamasının Senato'da reddedilmesi jeopolitik risk primini sınırlı destekliyor ama bu gelişme büyük ölçüde fiyatlanmış durumda, bu nedenle baskı sürmesi daha olası.
+20.11 08:12 N  GPT  score -0.50 conf 0.62: Altın fiyatındaki sert düşüşün ve doların güçlendiğine ilişkin haberlerin yoğunluğu, önümüzdeki birkaç saat için aşağı yönlü momentuma işaret ediyor. İran kaynaklı jeopolitik riskler güvenli liman talebini destekleyebilir; ancak haberlerin çoğu mevcut fiyat hareketini tekrarlıyor ve yeni bir kataliz
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
