@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    5000.0
-   ],
-   [
     1794550423,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795138221,
     5104.97
+   ],
+   [
+    1795138411,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    4868.5
-   ],
-   [
     1794550423,
     4868.5
    ],
@@ -27126,28 +27122,32 @@
    [
     1795138221,
     4868.5
+   ],
+   [
+    1795138411,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.6,
-   "confidence": 0.6,
-   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n d\u00f6rd\u00fcnc\u00fc haftal\u0131k y\u00fckseli\u015fi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; alt\u0131n 14 ayl\u0131k dibe geriledi ve sat\u0131\u015f s\u00fcr\u00fcyor. Orta Do\u011fu'daki Houthi t\u0131rman\u0131\u015f\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekleyebilse de piyasan\u0131n bu jeopolitik riske tepki vermemesi bu etkiyi zay\u0131flat\u0131yor.",
+   "confidence": 0.7,
+   "reason": "Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n d\u00f6rt haftal\u0131k y\u00fckseli\u015fi nedeniyle bask\u0131 alt\u0131nda; haftal\u0131k yakla\u015f\u0131k %7 d\u00fc\u015f\u00fc\u015f ve 14 ayl\u0131k dipler fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyecek bir etki yaratm\u0131yor, bu y\u00fczden genel g\u00f6r\u00fcn\u00fcm a\u015fa\u011f\u0131 y\u00f6nl\u00fc, ancak d\u00fc\u015f\u00fc\u015f zaten k\u0131smen fiyatland\u0131\u011f\u0131 i\u00e7in g\u00fcven orta seviyede.",
    "n": 45,
-   "ts": 1795137690453,
-   "new_headlines": 10,
+   "ts": 1795138410923,
+   "new_headlines": 6,
    "key_events": [
     "Dolar d\u00f6rt haftal\u0131k y\u00fckseli\u015fte; Fed faiz art\u0131r\u0131m\u0131 bahisleri g\u00fc\u00e7leniyor",
     "Chicago Fed ba\u015fkan\u0131: AI kaynakl\u0131 enflasyon 'endi\u015fe verici derecede y\u00fcksek'",
     "Orta Do\u011fu'da Houthi sald\u0131r\u0131lar\u0131 t\u0131rman\u0131yor; alt\u0131n y\u0131ll\u0131k dip testi yap\u0131yor"
    ],
    "gpt": {
-    "score": -0.67,
-    "confidence": 0.76,
-    "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin dolar\u0131 desteklemesi ve Jefferson\u2019\u0131n enflasyonun \u015fimdilik g\u00fc\u00e7l\u00fc kald\u0131\u011f\u0131na i\u015faret etmesi, k\u0131sa vadede reel faizler \u00fczerinden alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip seviyeleri bu",
+    "score": -0.62,
+    "confidence": 0.72,
+    "reason": "Fed\u2019in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n g\u00fc\u00e7lenmesi ve dolar\u0131n y\u00fckseli\u015fi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip haberleri yak\u0131n vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. Suudi Arabistan\u2019a y\u00f6nelik sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki g\u00fc\u00e7l\u00fc dolar ve jeopolitik risk prim",
     "key_events": [
      "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar",
-     "Jefferson: yapay zek\u00e2 yat\u0131r\u0131mlar\u0131 enflasyonu \u015fimdilik destekliyor",
-     "Alt\u0131nda sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip seviyeler"
+     "Alt\u0131nda haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip",
+     "Suudi Arabistan\u2019a sald\u0131r\u0131; g\u00fcvenli liman talebi riski"
     ],
     "model": "gpt-6-luna"
    },
@@ -27155,15 +27155,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794867301804,
-    "score": -0.3,
-    "confidence": 0.5,
-    "reason": "S\u0131cak ABD enflasyonu, faiz art\u0131r\u0131m\u0131 beklentilerini ve g\u00fc\u00e7lenen dolar\u0131 \u00f6ne \u00e7\u0131kar\u0131yor; Fed yetkililerinin (Hammack, Cleveland) k\u00fc\u00e7\u00fck faiz art\u0131r\u0131mlar\u0131n\u0131 tercih etmesi alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k H\u00fcrm\u00fcz/Bab el-Mendeb'de Husi ilerleyi\u015fi ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor, ancak alt\u0131n\u0131n bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine gerilemesi bu haberlerin b\u00fcy\u00fck b\u00f6l\u00fcm\u00fcn\u00fcn zaten fiyatland\u0131\u011f\u0131n\u0131 g\u00f6steriyor.",
-    "new": 10,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794868021921,
     "score": -0.1,
@@ -29854,17 +29845,31 @@
     "new": 10,
     "gpt_score": -0.67,
     "gpt_confidence": 0.76
+   },
+   {
+    "ts": 1795138410923,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n d\u00f6rt haftal\u0131k y\u00fckseli\u015fi nedeniyle bask\u0131 alt\u0131nda; haftal\u0131k yakla\u015f\u0131k %7 d\u00fc\u015f\u00fc\u015f ve 14 ayl\u0131k dipler fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyecek bir etki yaratm\u0131yor, bu y\u00fczden genel g\u00f6r\u00fcn\u00fcm a\u015fa\u011f\u0131 y\u00f6nl\u00fc, ancak d\u00fc\u015f\u00fc\u015f zaten k\u0131smen fiyatland\u0131\u011f\u0131 i\u00e7in g\u00fcven orta seviyede.",
+    "new": 6,
+    "gpt_score": -0.62,
+    "gpt_confidence": 0.72
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 21
+   "n": 22
   },
   "news_seen": [
+   "Canada Auto Plant The 'Front Line' In Trump's Trade War - Barron's",
    "Euro faces pressure as Fed rate hike bets strengthen US Dollar - FXStreet",
+   "VLCC Freight Rates Plunge 64% from October Peak as Geopolitical Risk Premium Unwinds - iMarine",
+   "Will the US and Israel restart the war on Iran? - Middle East Eye",
+   "India to let Japan use firing ranges for missile tests - The Japan Times",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Tests Yearly Lows As Sell-Off Continues - FXEmpire",
    "US to boost missile defense, new sensor to modernize seeker tech to intercept incoming threats - Interesting Engineering",
    "Fed Vice Chair Jefferson: AI Infrastructure Boom Is Propping Up Inflation for Now, Productivity Dividend Will Have to Wait - BigGo Finance",
+   "Gold prices plunge over 7% this week, set for worst fall since March as Fed rate hike fears, AI selloff... - Moneycontrol.com",
    "Gold prices fall sharply, sliding to a 14-month low - Laodong.vn",
    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
    "Opinion | In Ukraine, the drones are flying faster than the diplomacy - The Washington Post",
@@ -29880,7 +29885,6 @@
    "US, China and Russia issue joint declaration, but Ukraine war remains unaddressed - Asia Pacific Security Magazine",
    "Fed's Paulson: Communications need to be clear on perspectives - FXStreet",
    "St. Louis Fed representative says near-term economic outlook is positive - KFVS12",
-   "Dollar-yen stalls just short of 160 barrier as Anthropic IPO fails to lift U.S. stocks, fueling yen buying - BigGo Finance",
    "South Korea\u2019s Coal Use Is Surging \u2013 and Not Just Because of the Iran War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
    "Bidding War Expected For No. 1 Overall Pick In 2027 NFL Draft - Yahoo Sports",
    "At summit, Trump, Putin, Xi agreed on one goal \u2014 removing limits on themselves - The Washington Post",
@@ -29892,26 +29896,19 @@
    "Abd Alkader Habak and Janay Boulos on a Love That Goes the Distance in \u201cBirds of War\u201d - The Moveable Fest",
    "Airbnb's divisive new house rules come into force",
    "\u2018Economy still growing\u2019 - Marshall Independent",
+   "What Data Moves the Australian Dollar After a Weak Jobs Report - StoneX",
    "Fish and eggs al desko? The dos and don'ts of the lunch break",
    "Gettysburg Address reenactment connects Civil War legacy to America's 250th Anniversary - FOX43",
    "Iran war could cut global oil demand by over 4% by 2035 - IEA - Iran International",
    "Opinion | Anthropic\u2019s IPO is worth celebrating. So is the Fed\u2019s caution. - The Washington Post",
    "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-   "Gold Rate Today in North Delhi (20 Nov 2026) - Kotak Neo",
    "Settler leader says municipality\u2019s foreign currency accounts frozen due to UK sanctions - The Times of Israel",
    "Gold Rate Today in Pune (20 Nov 2026) - Kotak Neo",
    "How did Anthropic's stock market debut unfold?",
-   "Trump posthumously pardons US baseball legend Pete Rose",
-   "Chicago Fed president says overheating economy worries him more than gas prices - WRTV",
-   "Gold Rate Today in Ahmedabad (20 Nov 2026) - Kotak Neo",
-   "Gold Price Forecasts For 2027: UBS At $5,000, Goldman Sachs At $4,650 - Exchange Rates UK",
-   "Gold Rate Today in Gwalior (20 Nov 2026) - Kotak Neo"
+   "Trump posthumously pardons US baseball legend Pete Rose"
   ]
  },
  "log": [
-  "19.11 11:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBx4aBNWQKoWZyiZsAKj'}",
-  "19.11 11:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBxHpJ4NrZdvmeqYJnoR'}",
-  "19.11 11:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBxWzHBY3h88f2Fe9Ga7'}",
   "19.11 11:21 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBxkH6auS8oa5CE7w3CK'}",
   "19.11 11:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBxyYpzA8VYuYqZ4CSZm'}",
   "19.11 11:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChByCrHqa6TP4pxjdAFoi'}",
@@ -30208,7 +30205,10 @@
   "20.11 04:21 N  GPT  score -0.67 conf 0.76: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin dolar\u0131 desteklemesi ve Jefferson\u2019\u0131n enflasyonun \u015fimdilik g\u00fc\u00e7l\u00fc kald\u0131\u011f\u0131na i\u015faret etmesi, k\u0131sa vadede reel faizler \u00fczerinden alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik riskler g\u00fcvenli liman talebini destekleyebilir; ancak alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip seviyeleri bu",
   "20.11 04:21 B5  SHORT gold 25000 USD x10 @ 3583.15 (TP 3572.40, SL 3590.32; news -0.64)",
   "20.11 04:27 B5  CLOSE short take profit: +68.97 USD",
-  "20.11 04:30 B5  SHORT gold 25000 USD x10 @ 3573.12 (TP 3562.40, SL 3580.26; news -0.64)"
+  "20.11 04:30 B5  SHORT gold 25000 USD x10 @ 3573.12 (TP 3562.40, SL 3580.26; news -0.64)",
+  "20.11 04:33 B5  CLOSE short stop (gap): -62.98 USD",
+  "20.11 04:33 N  NEWS (6 new) score -0.60 conf 0.70: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n d\u00f6rt haftal\u0131k y\u00fckseli\u015fi nedeniyle bask\u0131 alt\u0131nda; haftal\u0131k yakla\u015f\u0131k %7 d\u00fc\u015f\u00fc\u015f ve 14 ayl\u0131k dipler fiyatlanm\u0131\u015f durumda. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyecek bir etki yaratm\u0131yor, bu y\u00fczden genel g\u00f6r\u00fcn\u00fcm a\u015fa\u011f\u0131 y\u00f6nl\u00fc, ancak d\u00fc\u015f\u00fc\u015f zaten k\u0131smen fiyatland\u0131\u011f\u0131 i\u00e7in g\u00fcven orta seviyede.",
+  "20.11 04:33 N  GPT  score -0.62 conf 0.72: Fed\u2019in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n g\u00fc\u00e7lenmesi ve dolar\u0131n y\u00fckseli\u015fi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; sert d\u00fc\u015f\u00fc\u015f ve y\u0131ll\u0131k dip haberleri yak\u0131n vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. Suudi Arabistan\u2019a y\u00f6nelik sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir, ancak bu etki g\u00fc\u00e7l\u00fc dolar ve jeopolitik risk prim"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    4963.78
-   ],
-   [
     1794550423,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795138221,
+    4963.78
+   ],
+   [
+    1795138411,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    4975.18
-   ],
-   [
     1794550423,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795138221,
+    4975.18
+   ],
+   [
+    1795138411,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    4993.28
-   ],
-   [
     1794550423,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795138221,
+    4993.28
+   ],
+   [
+    1795138411,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794550244,
-    4969.22
-   ],
-   [
     1794550423,
     4969.22
    ],
@@ -78794,6 +78790,10 @@
    [
     1795138221,
     4969.22
+   ],
+   [
+    1795138411,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78803,25 +78803,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 5198.914225069215,
+   "balance": 5135.936644679952,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "adc677b8",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 6.996695760610578,
-     "entry": 3573.1152039999997,
-     "tp": 3562.395858388,
-     "sl": 3580.261434408,
-     "opened_ms": 1795138221212,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.64/0.60",
-     "friction": 12.1014
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82308,21 +82292,38 @@
      "gross": 68.9684,
      "costs": 0.0,
      "pnl": 68.9684
+    },
+    {
+     "id": "adc677b8",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.996695760610578,
+     "entry": 3573.1152039999997,
+     "tp": 3562.395858388,
+     "sl": 3580.261434408,
+     "opened_ms": 1795138221212,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.64/0.60",
+     "friction": 12.1014,
+     "exit": 3582.11625,
+     "closed_ms": 1795138320000,
+     "reason": "stop (gap)",
+     "gross": -62.9776,
+     "costs": 0.0,
+     "pnl": -62.9776
     }
    ],
    "day": {
     "date": "2026-11-20",
     "trades": 14,
-    "pnl": 146.53363049741853,
+    "pnl": 83.55605010815552,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794550244,
-    4632.91
-   ],
    [
     1794550423,
     4632.98
@@ -94318,6 +94319,10 @@
    [
     1795138221,
     5192.86
+   ],
+   [
+    1795138411,
+    5135.94
    ]
   ],
   "news_calls": {
@@ -95800,10 +95805,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794550244,
-    113945.8
-   ],
    [
     1794550423,
     113945.8
@@ -107799,6 +107800,10 @@
    [
     1795138221,
     120564.69
+   ],
+   [
+    1795138411,
+    120564.69
    ]
   ],
   "open": {},
@@ -107981,10 +107986,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794550244,
-    4876.96
-   ],
    [
     1794550423,
     4876.96
@@ -119979,6 +119980,10 @@
    ],
    [
     1795138221,
+    4876.96
+   ],
+   [
+    1795138411,
     4876.96
    ]
   ],
