@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:40 (İstanbul)
+> Son güncelleme: 20.11.2026 18:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %46.1 |
 | Ödenen komisyon/spread | 460.00 $ | 2282.92 $ |
 
-**Hesap değeri: 5,284.46 $** (başlangıç 5,000 $, +284.46 $ / %+5.69)
+**Hesap değeri: 5,278.40 $** (başlangıç 5,000 $, +278.40 $ / %+5.57)
+
+Açık pozisyonlar: PAXGUSDT short @ 3548.22 (TP 3537.58 / SL 3555.32)
 
 Son haber analizi (20.11 18:34): Claude puan **-0.50**, güven 0.60 — Haberlerin çoğu altın için olumsuz: Fed'de sıkılaşma (faiz artırımı) tartışması, doların 19 ayın zirvesine yakın seyretmesi ve altının 14 aylık dip seviyelere inmesi baskı oluşturuyor. Ukrayna/Polonya'daki füze saldırıları ve İran'a yeni saldırı ihtimali gibi jeopolitik riskler güvenli liman talebi yaratabilir, ancak piyasada bu riskler henüz altını yukarı taşımıyor; bu nedenle etkisi sınırlı kalıyor.
 
@@ -79,7 +81,7 @@ Son işlemler:
 | Kazanma oranı | %33.3 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,529.93 $** (başlangıç 100,000 $, +19529.93 $ / %+19.53)
+**Hesap değeri: 119,822.97 $** (başlangıç 100,000 $, +19822.97 $ / %+19.82)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -96,7 +98,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:10 N  GPT  score +0.18 conf 0.43: İran’a yönelik yeni saldırı olasılığı ve Rus füzesinin Polonya’ya düşmesi kısa vadede güvenli liman talebini artırabilir. Ancak altındaki sert satış baskısı ve şahin Fed beklentileri yükselişi sınırlıyor; haberlerin fiilî tırmanışa dönüşüp dönüşmeyeceği belirsiz.
 20.11 18:16 B6  karar turu: Claude «Teknoloji, NVDA öncülüğünde baskı altında; SPY ise daha dirençli ve piyasa genelinde karışık, hafif negatif bir seyir var.» / GPT «Teknoloji hisselerindeki göreli zayıflık ve başarısız tepki yükselişleri önümüzdeki 1–3 saat için aşağı yönlü işlemlere sınırlı avantaj sağlıyor.»
 20.11 18:22 N  NEWS (10 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için olumsuz: Fed faiz artırımı beklentileri ve güçlenen dolar (dolar 4 haftalık yükseliş serisinde), altının haftalık en kötü performansa yönelmesi ve zorunlu satışlar baskı yaratıyor. ABD/İsrail'in İran'a yeni saldırı planladığı haberi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etkiler jeopolitik riskin zaten kısmen fiyatlanmış olması ve Fed/dolar etkisinin daha baskın görünmesi nedeniyle sınırlı kalıyor.
 20.11 18:22 N  GPT  score -0.65 conf 0.72: Önümüzdeki saatlerde altın için baskın etkenler, Fed’in daha şahin olabileceği beklentisi ve doların üst üste dördüncü haftalık yükselişe yönelmesi; bunlar altını aşağı çekiyor. İran’a ilişkin yaptırım ve olası çatışma haberleri güvenli liman talebi yaratabilir, ancak yeni bir tırmanış teyit edilmed
@@ -111,6 +112,7 @@ Son işlemler:
 20.11 18:34 B5  SHORT gold 25000 USD x10 @ 3543.51 (TP 3532.88, SL 3550.60; news -0.42)
 20.11 18:37 B5  CLOSE short stop: -56.07 USD
 20.11 18:40 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı sürüyor ve piyasa negatif momentumla öğleye giriyor.» / GPT «Piyasa görünümü aşağı yönlü; ancak sert düşmüş hisselerde tepki yükselişi riski nedeniyle seçici kısa pozisyonları tercih ediyorum.»
+20.11 18:43 B5  SHORT gold 25000 USD x10 @ 3548.22 (TP 3537.58, SL 3555.32; news -0.42)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
