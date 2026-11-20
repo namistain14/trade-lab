@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:59 (İstanbul)
+> Son güncelleme: 20.11.2026 04:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,106.48 $** (başlangıç 5,000 $, +106.48 $ / %+2.13)
+**Hesap değeri: 5,103.84 $** (başlangıç 5,000 $, +103.84 $ / %+2.08)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +133.62 $ | +186.00 $ |
-| İşlem sayısı | 11 | 164 |
-| Kazanma oranı | %54.5 | %45.7 |
-| Ödenen komisyon/spread | 132.87 $ | 1955.79 $ |
+| Net kâr/zarar | +77.57 $ | +129.95 $ |
+| İşlem sayısı | 12 | 165 |
+| Kazanma oranı | %50.0 | %45.5 |
+| Ödenen komisyon/spread | 144.96 $ | 1967.89 $ |
 
-**Hesap değeri: 5,179.95 $** (başlangıç 5,000 $, +179.95 $ / %+3.60)
-
-Açık pozisyonlar: PAXGUSDT short @ 3589.27 (TP 3578.50 / SL 3596.45)
+**Hesap değeri: 5,129.95 $** (başlangıç 5,000 $, +129.95 $ / %+2.60)
 
 Son haber analizi (20.11 03:56): Claude puan **-0.40**, güven 0.60 — Fed faiz artırımı beklentileri ve dolardaki dördüncü haftalık yükseliş altın için baskı oluşturuyor; FXEmpire başlığı da altının yıllık dibe yakın sert satış altında olduğunu gösteriyor. Ukrayna ve Orta Doğu'daki gerilim artışı güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 04:01 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 03:53 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 03:44 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 03:29 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 03:11 | PAXGUSDT | short | -56.05 $ | stop |
-| 20.11 03:02 | PAXGUSDT | short | -56.05 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 03:17 B5  SHORT gold 25000 USD x10 @ 3617.98 (TP 3607.12, SL 3625.21; news -0.36)
 20.11 03:20 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
 20.11 03:20 N  GPT  score -0.18 conf 0.34: Altın, yükselen tahvil getirileri ve şahin Fed beklentileriyle zaten baskı altında; manşetlerde bu görünümü değiştirecek yeni bir Fed veya enflasyon sinyali yok. Yemen’deki çatışma güvenli liman talebini bir miktar destekleyebilir, ancak etkisi sınırlı ve haberler büyük ölçüde mevcut riskleri yansıt
 20.11 03:29 B5  CLOSE short take profit: +68.98 USD
@@ -112,6 +109,7 @@ Son işlemler:
 20.11 03:56 N  NEWS (6 new) score -0.40 conf 0.60: Fed faiz artırımı beklentileri ve dolardaki dördüncü haftalık yükseliş altın için baskı oluşturuyor; FXEmpire başlığı da altının yıllık dibe yakın sert satış altında olduğunu gösteriyor. Ukrayna ve Orta Doğu'daki gerilim artışı güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
 20.11 03:56 N  GPT  score -0.35 conf 0.56: Güçlü dolar, Fed’in faiz artırımı beklentileri ve altının yıllık dipleri test ettiğine ilişkin haberler kısa vadede baskın biçimde negatif. Rusya’nın saldırıları güvenli liman talebini destekleyebilir; ancak barış görüşmesi sinyalleri ve çelişkili haberler etkiyi sınırlıyor.
 20.11 03:59 B5  SHORT gold 25000 USD x10 @ 3589.27 (TP 3578.50, SL 3596.45; news -0.38)
+20.11 04:02 B5  CLOSE short stop: -56.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
