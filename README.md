@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 123,648.46 $** (başlangıç 100,000 $, +23648.46 $ / %+23.65)
+**Hesap değeri: 123,761.80 $** (başlangıç 100,000 $, +23761.80 $ / %+23.76)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
