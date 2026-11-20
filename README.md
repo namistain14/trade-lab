@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 23:41 (İstanbul)
+> Son güncelleme: 20.11.2026 23:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -74,12 +74,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +5480.55 $ | +24006.48 $ |
-| İşlem sayısı | 8 | 78 |
-| Kazanma oranı | %62.5 | %52.6 |
+| Net kâr/zarar | +6889.02 $ | +25414.95 $ |
+| İşlem sayısı | 9 | 79 |
+| Kazanma oranı | %66.7 | %53.2 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 128,140.31 $** (başlangıç 100,000 $, +28140.31 $ / %+28.14)
+**Hesap değeri: 128,195.02 $** (başlangıç 100,000 $, +28195.02 $ / %+28.20)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17)
 
@@ -87,17 +87,15 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 23:45 | AAPL | short | +1408.47 $ | seans sonu |
 | 20.11 23:32 | SPY | short | +1844.50 $ | take profit |
 | 20.11 23:26 | QQQ | short | +1847.34 $ | take profit |
 | 20.11 20:02 | QQQ | short | +1793.08 $ | take profit |
 | 20.11 19:32 | TSLA | short | +1798.50 $ | take profit |
-| 20.11 19:02 | AAPL | long | -1217.52 $ | stop |
 
 ## Son olaylar
 
 ```
-20.11 21:55 B6  karar turu: Claude «Teknoloji ağırlıklı sert satıştan sonra endeksler son saatte dip yapıp toparlanma sinyali veriyor, ancak seansın kapanmasına yaklaşık bir saat kaldığı için hareket alanı sınırlı ve risk yüksek.» / GPT «-»
-20.11 22:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:08 B6  karar turu: Claude «Piyasa sert düşüşün ardından gün içi yatay konsolidasyonda; teknoloji ağırlıklı satış baskısı sürüyor, kapanışa doğru oynaklık artabilir.» / GPT «-»
 20.11 22:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:20 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert satış baskısı altında ve QQQ -%4,3 ile zayıf; kapanışa doğru riskten kaçış sürebilir, en net fırsat taze negatif haberli NVDA'da.» / GPT «-»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 23:08 B6  karar turu: Claude «Saat 16:08 itibarıyla normal seans kapandı; NVDA öncülüğünde sert teknoloji satışı yaşandı, ancak seans sonrası ince likidite ve geniş spread'ler nedeniyle yeni kaldıraçlı pozisyon açmak için uygun bir ortam yok.» / GPT «-»
 20.11 23:26 B6  CLOSE short QQQ take profit: +1847.34 USD
 20.11 23:32 B6  CLOSE short SPY take profit: +1844.50 USD
+20.11 23:45 B6  CLOSE short AAPL seans sonu: +1408.47 USD
+20.11 23:45 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
