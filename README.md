@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:45 (İstanbul)
+> Son güncelleme: 20.11.2026 17:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %48.6 | %45.7 |
 | Ödenen komisyon/spread | 423.65 $ | 2246.58 $ |
 
-**Hesap değeri: 5,202.60 $** (başlangıç 5,000 $, +202.60 $ / %+4.05)
+**Hesap değeri: 5,196.55 $** (başlangıç 5,000 $, +196.55 $ / %+3.93)
+
+Açık pozisyonlar: PAXGUSDT short @ 3574.33 (TP 3563.61 / SL 3581.48)
 
 Son haber analizi (20.11 17:45): Claude puan **-0.60**, güven 0.70 — Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
 
@@ -79,7 +81,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,497.28 $** (başlangıç 100,000 $, +20497.28 $ / %+20.50)
+**Hesap değeri: 120,766.14 $** (başlangıç 100,000 $, +20766.14 $ / %+20.77)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); TSLA long @ 367.53 (TP 372.55 / SL 363.37)
 
@@ -96,7 +98,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:21 N  GPT  score -0.35 conf 0.58: Hawkish Fed beklentileri ve altındaki sert düşüş kısa vadede baskının sürdüğüne işaret ediyor. Polonya’ya yönelik Rus füze saldırısı güvenli liman talebini destekleyebilir; bu nedenle düşüş eğilimine ilişkin güven sınırlı.
 20.11 17:30 B5  SHORT gold 25000 USD x10 @ 3565.76 (TP 3555.06, SL 3572.89; news -0.47)
 20.11 17:30 B6  karar turu: Claude «Piyasa sert satıştan sonra açılışın ardından tepki yükselişinde; göreli güçlü ve haber desteği olan hisselerde seçici alım tercih ediliyor.» / GPT «Sert günlük kayıplara rağmen endekslerde kısa vadeli toparlanma baskın, ancak yüksek kaldıraç ve aynı yöndeki pozisyonların korelasyonu riski büyütüyor.»
 20.11 17:30 B6  ALIŞ AAPL 341 adet ≈ 120,513 $ (1:4) @ 353.41 (TP 358.71, SL 349.88; ikisi de hemfikir, güven 0.55)
@@ -111,6 +112,7 @@ Son işlemler:
 20.11 17:42 B6  ALIŞ AAPL 342 adet ≈ 119,977 $ (1:4) @ 350.81 (TP 356.07, SL 347.3; ikisi de hemfikir, güven 0.55)
 20.11 17:45 N  NEWS (9 new) score -0.60 conf 0.70: Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
 20.11 17:45 N  GPT  score -0.55 conf 0.68: Önümüzdeki saatlerde altın üzerinde baskın etki, Fed’in daha şahin olabileceği beklentisi ve süregelen satış/deleveraging görünümü nedeniyle aşağı yönlü. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu risk, faiz baskısını kısmen dengeliyor.
+20.11 17:48 B5  SHORT gold 25000 USD x10 @ 3574.33 (TP 3563.61, SL 3581.48; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
