@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 16:53 (İstanbul)
+> Son güncelleme: 20.11.2026 16:56 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,11 +30,13 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %45.9 |
 | Ödenen komisyon/spread | 387.34 $ | 2210.27 $ |
 
-**Hesap değeri: 5,245.76 $** (başlangıç 5,000 $, +245.76 $ / %+4.92)
+**Hesap değeri: 5,239.71 $** (başlangıç 5,000 $, +239.71 $ / %+4.79)
 
-Son haber analizi (20.11 16:44): Claude puan **-0.60**, güven 0.70 — Fed'in Aralık'ta faiz artırımı ihtimali artıyor (Goolsbee, Rabobank), bu da reel faiz beklentilerini yükselterek altı baskılıyor. Altın 3.550$ altına inerken güvenli liman talebi de çözülüyor; Polonya'ya füze düşmesi gibi jeopolitik haberler bu baskıyı dengeleyemiyor.
+Açık pozisyonlar: PAXGUSDT short @ 3566.13 (TP 3555.43 / SL 3573.26)
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
+Son haber analizi (20.11 16:56): Claude puan **-0.50**, güven 0.60 — Altın için baskın etki, Fed'in aralık ayında faiz artırımı olasılığına dair şahin beklentiler ve güçlü doların neden olduğu düşüş yönlü. Polonya'ya Rus füzesi isabeti gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak altın bu haberlere rağmen düşüşte ve güvenli liman alımları henüz fiyatlanmış görünmüyor, bu yüzden etkisi sınırlı kalabilir.
+
+GPT (gpt-6-luna): puan **-0.25**, güven 0.62 — Polonya’ya Rus füzesinin düşmesi ve bunun kasıtlı provokasyon olabileceği iddiası güvenli liman talebini destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artırımı beklentileri altın üzerindeki baskıyı artırıyor; sert düşüş haberleriyle birlikte kısa vadeli etki hafif negatif görünüyor.
 
 Son işlemler:
 
@@ -94,9 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 15:44 N  GPT  score -0.30 conf 0.66: Polonya’ya düşen Rus füzesi ve Ukrayna’daki tırmanma altına güvenli liman talebi sağlayabilir. Ancak güçlü dolar, faiz artırımı beklentileri ve altındaki sert düşüş baskısı kısa vadede ağır basıyor; jeopolitik gelişme bu görünümü sınırlıyor.
-20.11 15:56 N  NEWS (11 new) score -0.60 conf 0.65: Altın üzerindeki baskı ağırlıkta: Fed yetkililerinin faiz artırımı yönünde ısrarı, piyasanın Aralık ve Ocak'ta artırım fiyatlaması ve güçlü dolar (19 ay zirvesine yakın) altını düşürüyor. Rusya'nın Polonya'ya füze düşürmesi ve ABD-İsrail'in İran'a yeni saldırı değerlendirmesi güvenli liman talebini artırabilir, ancak bu haberler büyük ölçüde fiyatlanmış görünüyor ve kısa vadede sınırlı etki yaratabilir.
-20.11 15:56 N  GPT  score -0.30 conf 0.58: Fed’in daha yüksek faiz beklentileri, güçlü dolar ve altındaki süregelen sert düşüş kısa vadede baskın biçimde bearish. İran’a yeni saldırı ihtimali ve Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle aşağı yönlü görünümün güveni sınırlı.
 20.11 16:08 N  NEWS (14 new) score -0.60 conf 0.70: Altın üzerindeki baskın etkenler faiz artırımı beklentileri ve güçlü dolar; Fed'in sıkılaşma yanlısı açıklamaları ve doların 19 aylık zirveye yakın seyri altını aşağı çekiyor. Polonya'ya düşen Rus füzesi ve İran savaşı gibi jeopolitik gelişmeler sınırlı bir güvenli liman talebi yaratabilse de, bu etkiyi dominant hawkish/dolar faktörü büyük ölçüde bastırıyor.
 20.11 16:08 N  GPT  score +0.18 conf 0.55: Polonya’ya düşen Rus füzesinin kasıtlı provokasyon olabileceği haberi kısa vadede güvenli liman talebini artırabilir. Ancak güçlü dolar, Fed faiz artışı beklentileri ve altındaki sert düşüş bu desteği sınırlıyor; haber akışı çelişkili.
 20.11 16:20 N  NEWS (5 new) score -0.50 conf 0.60: Altın üzerindeki baskı ağırlıklı olarak Fed'in faiz artırımı beklentileri ve güçlenen doların kaynaklandığı için negatif. Ukrayna'da Polonya'ya füze isabeti ve ABD/İsrail'in İran'a yeni saldırı ihtimali jeopolitik risk primi yaratıp altı destekleyebilir, ancak bu etki haberlerde zaten büyük ölçüde fiyatlanmış görünüyor ve kısa vadede baskın etki olmayacak.
@@ -109,6 +108,9 @@ Son işlemler:
 20.11 16:44 N  GPT  score -0.55 conf 0.68: Aralık ayında daha büyük faiz artışı ihtimalinin gündeme gelmesi ve altındaki sert düşüş, kısa vadede reel faiz ve dolar kanalı üzerinden baskın biçimde olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; bu nedenle düşüş yönündeki değerlendirmede belirsizlik var.
 20.11 16:44 B5  SHORT gold 25000 USD x10 @ 3553.49 (TP 3542.83, SL 3560.60; news -0.57)
 20.11 16:50 B5  CLOSE short stop (gap): -62.21 USD
+20.11 16:56 N  NEWS (10 new) score -0.50 conf 0.60: Altın için baskın etki, Fed'in aralık ayında faiz artırımı olasılığına dair şahin beklentiler ve güçlü doların neden olduğu düşüş yönlü. Polonya'ya Rus füzesi isabeti gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak altın bu haberlere rağmen düşüşte ve güvenli liman alımları henüz fiyatlanmış görünmüyor, bu yüzden etkisi sınırlı kalabilir.
+20.11 16:56 N  GPT  score -0.25 conf 0.62: Polonya’ya Rus füzesinin düşmesi ve bunun kasıtlı provokasyon olabileceği iddiası güvenli liman talebini destekleyebilir. Ancak güçlü dolar ve Fed’in faiz artırımı beklentileri altın üzerindeki baskıyı artırıyor; sert düşüş haberleriyle birlikte kısa vadeli etki hafif negatif görünüyor.
+20.11 16:56 B5  SHORT gold 25000 USD x10 @ 3566.13 (TP 3555.43, SL 3573.26; news -0.38)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
