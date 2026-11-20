@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 10:39 (İstanbul)
+> Son güncelleme: 20.11.2026 10:42 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +242.70 $ | +295.08 $ |
-| İşlem sayısı | 29 | 182 |
-| Kazanma oranı | %51.7 | %46.2 |
-| Ödenen komisyon/spread | 351.00 $ | 2173.93 $ |
+| Net kâr/zarar | +186.63 $ | +239.01 $ |
+| İşlem sayısı | 30 | 183 |
+| Kazanma oranı | %50.0 | %45.9 |
+| Ödenen komisyon/spread | 363.12 $ | 2186.05 $ |
 
-**Hesap değeri: 5,295.52 $** (başlangıç 5,000 $, +295.52 $ / %+5.91)
-
-Açık pozisyonlar: PAXGUSDT short @ 3539.82 (TP 3529.20 / SL 3546.90)
+**Hesap değeri: 5,239.01 $** (başlangıç 5,000 $, +239.01 $ / %+4.78)
 
 Son haber analizi (20.11 10:38): Claude puan **-0.35**, güven 0.40 — Ana akış altın için baskılayıcı: Fed faiz artırımı beklentileri yükseliyor, dolar haftalık yükselişte ve altın haftanın en kötü performansına doğru gidiyor. Yeni jeopolitik gerilimler (Orta Doğu saldırıları, Polonya'ya İHA/füze iddiası, Kiev'e füze saldırıları) güvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor. Başlıklardaki fiyat seviyeleri ve tarihler çelişkili olduğundan güveni düşük tutuyorum.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 10:41 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 08:46 | PAXGUSDT | short | -56.08 $ | stop |
 | 20.11 08:37 | PAXGUSDT | short | -56.08 $ | stop |
 | 20.11 08:26 | PAXGUSDT | short | -56.08 $ | stop |
 | 20.11 08:17 | PAXGUSDT | short | +68.95 $ | take profit |
-| 20.11 07:56 | PAXGUSDT | short | -56.07 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -96,7 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 09:26 N  NEWS (10 new) score -0.60 conf 0.70: Altın, güçlü dolar (19 aylık zirveye yakın), yükselen ABD tahvil getirileri ve Fed'in sert duruşu nedeniyle sert düşüşte; jeopolitik risk (İran savaşı) güvenli liman talebine dönüşmüyor. Bu baskı kısa vadede (1-4 saat) altın için negatif, ancak fiyatlar zaten düştüğü için tepki sıçraması riski ve yorum çeşitliliği güveni sınırlıyor.
 20.11 09:26 N  GPT  score -0.58 conf 0.72: Güçlü dolar, yükselen tahvil getirileri ve şahin Fed beklentileri altındaki sert düşüşü kısa vadede destekliyor. İran çevresindeki çatışma riskleri güvenli liman talebi yaratabilir; bu karşıt etki düşüş beklentisinin güvenini sınırlıyor.
 20.11 09:38 N  NEWS (16 new) score -0.30 conf 0.50: Dolar endeksi 19 aylık zirveye yakın ve Fed'in sert duruşu fiyatlanıyor; bu, altın için baskı oluşturuyor. İran savaşıyla ilgili haberler (Senato'nun savaş yetkisi kararını reddetmesi) jeopolitik risk yaratsa da büyük ölçüde fiyatlanmış durumda ve güvenli liman talebi altından çok dolar ve yene akıyor.
 20.11 09:38 N  GPT  score +0.18 conf 0.44: İran savaşına ilişkin yeni saldırı haberleri ve Senato’nun Trump’ın savaş yetkilerini sınırlamayı reddetmesi güvenli liman talebini destekleyebilir; Kyiv’deki füze saldırısı da bu riski artırıyor. Ancak doların 19 ayın zirvesine yakın seyretmesi altını baskılıyor ve etkiler çelişkili olduğundan kısa
@@ -111,6 +108,7 @@ Son işlemler:
 20.11 10:35 B5  SHORT gold 25000 USD x10 @ 3539.82 (TP 3529.20, SL 3546.90; news -0.57)
 20.11 10:38 N  NEWS (10 new) score -0.35 conf 0.40: Ana akış altın için baskılayıcı: Fed faiz artırımı beklentileri yükseliyor, dolar haftalık yükselişte ve altın haftanın en kötü performansına doğru gidiyor. Yeni jeopolitik gerilimler (Orta Doğu saldırıları, Polonya'ya İHA/füze iddiası, Kiev'e füze saldırıları) güvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor. Başlıklardaki fiyat seviyeleri ve tarihler çelişkili olduğundan güveni düşük tutuyorum.
 20.11 10:38 N  GPT  score -0.55 conf 0.68: Altın sert düşüşünü sürdürürken Fed faiz artırımı beklentileri ve güçlü dolar kısa vadede baskın biçimde olumsuz. Suudi Arabistan’daki saldırı ve İran gerilimi güvenli liman talebini destekleyebilir; bu nedenle düşüş yönündeki güven sınırlı.
+20.11 10:42 B5  CLOSE short stop: -56.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
