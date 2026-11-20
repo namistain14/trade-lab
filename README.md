@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:54 (İstanbul)
+> Son güncelleme: 20.11.2026 17:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,9 @@ Son işlemler:
 
 **Hesap değeri: 5,271.57 $** (başlangıç 5,000 $, +271.57 $ / %+5.43)
 
-Son haber analizi (20.11 17:45): Claude puan **-0.60**, güven 0.70 — Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
+Son haber analizi (20.11 17:57): Claude puan **-0.60**, güven 0.70 — Altın 14 aylık dibe geriledi ve satış baskısı artıyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı fiyatlaması ve güçlenen dolar altını baskılıyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebini artırmadığı için bu baskıyı dengeleyemiyor; yine de piyasa sert düşüş sonrası kısa vadeli tepki alımı riski nedeniyle güven orta seviyede.
 
-GPT (gpt-6-luna): puan **-0.55**, güven 0.68 — Önümüzdeki saatlerde altın üzerinde baskın etki, Fed’in daha şahin olabileceği beklentisi ve süregelen satış/deleveraging görünümü nedeniyle aşağı yönlü. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu risk, faiz baskısını kısmen dengeliyor.
+GPT (gpt-6-luna): puan **-0.65**, güven 0.76 — Altın ve gümüşte 14 ayın dipleri ve doların güçlenmesi kısa vadeli satış baskısının sürdüğüne işaret ediyor; Fed’in daha şahin olabileceği beklentisi de altın için olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, ancak şu an için bu risk fiyat düşüşünü dengeleyecek ölçüde gör
 
 Son işlemler:
 
@@ -74,31 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | -1208.18 $ | +17317.75 $ |
-| İşlem sayısı | 1 | 71 |
-| Kazanma oranı | %0.0 | %50.7 |
+| Net kâr/zarar | +638.46 $ | +19164.39 $ |
+| İşlem sayısı | 2 | 72 |
+| Kazanma oranı | %50.0 | %51.4 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 121,190.23 $** (başlangıç 100,000 $, +21190.23 $ / %+21.19)
+**Hesap değeri: 121,817.66 $** (başlangıç 100,000 $, +21817.66 $ / %+21.82)
 
-Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); TSLA long @ 367.53 (TP 372.55 / SL 363.37)
+Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 17:57 | TSLA | long | +1846.64 $ | take profit |
 | 20.11 17:36 | AAPL | long | -1208.18 $ | stop |
 | 19.11 23:46 | TSLA | long | -282.10 $ | seans sonu |
 | 19.11 23:46 | AAPL | short | +524.76 $ | seans sonu |
 | 19.11 23:04 | QQQ | short | +1753.30 $ | take profit |
-| 19.11 22:09 | NVDA | short | +1780.94 $ | take profit |
 
 ## Son olaylar
 
 ```
-20.11 17:30 B6  ALIŞ TSLA 328 adet ≈ 120,389 $ (1:4) @ 367.04 (TP 372.55, SL 363.37; ikisi de hemfikir, güven 0.45)
-20.11 17:33 B5  CLOSE short stop: -56.06 USD
-20.11 17:33 N  NEWS (12 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (Chicago Fed başkanının Aralık'ta daha büyük artırımı dışlamaması, Rabobank'ın Aralık artırım fiyatlamasını işaret etmesi) reel faiz ve dolar tarafında altı baskılıyor; haberler de altın için haftanın en kötü performansına ve "safe-haven" talebinin çözülmesine işaret ediyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratıyor ama bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
 20.11 17:33 N  GPT  score -0.35 conf 0.58: Fed’in daha büyük faiz artışı ihtimalini açık tutması ve Aralık artışı fiyatlaması, yükselen faiz beklentileri ve dolar üzerinden altını kısa vadede baskılıyor. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu etki mevcut düşüş baskısını kısmen deng
 20.11 17:36 B6  CLOSE long AAPL stop: -1208.18 USD
 20.11 17:39 B5  SHORT gold 25000 USD x10 @ 3574.24 (TP 3563.52, SL 3581.39; news -0.42)
@@ -111,6 +108,9 @@ Son işlemler:
 20.11 17:54 B5  CLOSE short take profit: +68.97 USD
 20.11 17:54 B6  karar turu: Claude «Endeksler sabahki düşüşü telafi ediyor, ancak NVDA şirkete özel olumsuz haberle ayrışarak zayıf kalıyor.» / GPT «Endekslerde kısa vadeli toparlanma baskın olsa da NVDA'nın ayrışan zayıflığı ve dört kat kaldıraç, toplam pozisyon riskinin sınırlanmasını gerektiriyor.»
 20.11 17:54 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"81076.96","code":40310000,"cost_basis":"95449.96","message":"insufficient buying power"}
+20.11 17:57 N  NEWS (14 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi ve satış baskısı artıyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı fiyatlaması ve güçlenen dolar altını baskılıyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebini artırmadığı için bu baskıyı dengeleyemiyor; yine de piyasa sert düşüş sonrası kısa vadeli tepki alımı riski nedeniyle güven orta seviyede.
+20.11 17:57 N  GPT  score -0.65 conf 0.76: Altın ve gümüşte 14 ayın dipleri ve doların güçlenmesi kısa vadeli satış baskısının sürdüğüne işaret ediyor; Fed’in daha şahin olabileceği beklentisi de altın için olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, ancak şu an için bu risk fiyat düşüşünü dengeleyecek ölçüde gör
+20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
