@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:41 (İstanbul)
+> Son güncelleme: 20.11.2026 03:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,109.35 $** (başlangıç 5,000 $, +109.35 $ / %+2.19)
+**Hesap değeri: 5,106.70 $** (başlangıç 5,000 $, +106.70 $ / %+2.13)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,28 +26,26 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +120.70 $ | +173.08 $ |
-| İşlem sayısı | 9 | 162 |
-| Kazanma oranı | %55.6 | %45.7 |
-| Ödenen komisyon/spread | 108.68 $ | 1931.61 $ |
+| Net kâr/zarar | +189.68 $ | +242.06 $ |
+| İşlem sayısı | 10 | 163 |
+| Kazanma oranı | %60.0 | %46.0 |
+| Ödenen komisyon/spread | 120.77 $ | 1943.70 $ |
 
-**Hesap değeri: 5,213.30 $** (başlangıç 5,000 $, +213.30 $ / %+4.27)
+**Hesap değeri: 5,242.06 $** (başlangıç 5,000 $, +242.06 $ / %+4.84)
 
-Açık pozisyonlar: PAXGUSDT short @ 3599.46 (TP 3588.66 / SL 3606.66)
+Son haber analizi (20.11 03:44): Claude puan **-0.35**, güven 0.50 — Fed faiz artırımı beklentileri ve doların dördüncü haftalık yükselişi altın için baskı oluşturuyor; Chicago Fed başkanının enflasyon konusundaki endişeleri de sıkı para politikası yönünde. Houthi saldırıları ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak bu haberlerin büyük bölümü zaten fiyatlanmış durumda ve altın, sert Fed sinyalleri nedeniyle 14 aylık dibe inmiş durumda.
 
-Son haber analizi (20.11 03:32): Claude puan **-0.55**, güven 0.65 — Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
-
-GPT (gpt-6-luna): puan **-0.38**, güven 0.62 — Doların üst üste dördüncü haftalık yükselişe yönelmesi ve önceki haberlerde öne çıkan şahin Fed beklentileri, kısa vadede altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de altının sert düşüşü bu etkinin şimdilik sınırlı kaldığını gösteriyor.
+GPT (gpt-6-luna): puan **-0.25**, güven 0.48 — Riyad’a füze isabet ettiği haberi güvenli liman talebini ve altını destekleyebilir; ancak doların yükselişi ve Fed faiz artırımı beklentileri kısa vadede daha belirgin bir baskı oluşturuyor. Askerî haberin doğrulanma ve piyasa etkisi belirsiz olduğundan görünüm temkinli.
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 03:44 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 03:29 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 03:11 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 03:02 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 02:40 | PAXGUSDT | short | +68.97 $ | take profit |
-| 20.11 02:33 | PAXGUSDT | short | +68.98 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,9 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:47 B5  SHORT gold 25000 USD x10 @ 3596.97 (TP 3586.18, SL 3604.16; news -0.47)
-20.11 02:56 N  NEWS (26 new) score -0.70 conf 0.70: Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
-20.11 02:56 N  GPT  score -0.70 conf 0.78: Fed yetkililerinin enflasyon ve olası daha büyük faiz artışlarına ilişkin şahin mesajları dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı yaratıyor; altının yeni dipleri test etmesi bu eğilimi doğruluyor. 2027’ye yönelik olumlu fiyat tahminleri kısa vadede sınırlı etki taşırken, Rus
 20.11 03:02 B5  CLOSE short stop: -56.05 USD
 20.11 03:08 N  NEWS (26 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
 20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide aşırı ısınma kaygısını vurgulaması, faizlerin yüksek kalacağı beklentisini ve altın üzerindeki baskıyı destekliyor. İran savaşına ilişkin yetkilerin kısıtlanmaması güvenli liman talebini artırabilir; bu karşıt etkiler nedeniyle görünüm hafif negatif.
@@ -112,6 +107,9 @@ Son işlemler:
 20.11 03:32 N  NEWS (8 new) score -0.55 conf 0.65: 
 20.11 03:32 N  GPT  score -0.38 conf 0.62: Doların üst üste dördüncü haftalık yükselişe yönelmesi ve önceki haberlerde öne çıkan şahin Fed beklentileri, kısa vadede altın üzerinde baskı yaratıyor. Jeopolitik riskler güvenli liman talebini desteklese de altının sert düşüşü bu etkinin şimdilik sınırlı kaldığını gösteriyor.
 20.11 03:35 B5  SHORT gold 25000 USD x10 @ 3599.46 (TP 3588.66, SL 3606.66; news -0.47)
+20.11 03:44 B5  CLOSE short take profit: +68.97 USD
+20.11 03:44 N  NEWS (17 new) score -0.35 conf 0.50: Fed faiz artırımı beklentileri ve doların dördüncü haftalık yükselişi altın için baskı oluşturuyor; Chicago Fed başkanının enflasyon konusundaki endişeleri de sıkı para politikası yönünde. Houthi saldırıları ve İran savaşının sürmesi güvenli liman talebini destekliyor, ancak bu haberlerin büyük bölümü zaten fiyatlanmış durumda ve altın, sert Fed sinyalleri nedeniyle 14 aylık dibe inmiş durumda.
+20.11 03:44 N  GPT  score -0.25 conf 0.48: Riyad’a füze isabet ettiği haberi güvenli liman talebini ve altını destekleyebilir; ancak doların yükselişi ve Fed faiz artırımı beklentileri kısa vadede daha belirgin bir baskı oluşturuyor. Askerî haberin doğrulanma ve piyasa etkisi belirsiz olduğundan görünüm temkinli.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
