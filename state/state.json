@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    5000.0
-   ],
-   [
     1794597269,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795185219,
     5104.97
+   ],
+   [
+    1795185388,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    4868.5
-   ],
-   [
     1794597269,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795185219,
+    4868.5
+   ],
+   [
+    1795185388,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "19.11 21:16 B5  CLOSE short take profit: +69.00 USD",
   "19.11 21:19 B5  SHORT gold 25000 USD x10 @ 3671.09 (TP 3660.07, SL 3678.43; news -0.55)",
   "19.11 21:26 N  NEWS (6 new) score -0.60 conf 0.70: Alt\u0131n y\u0131ll\u0131k dip seviyelerini test ediyor; Fed'in \u015fahin tutumu, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve dolar\u0131n 19 ayl\u0131k zirvesi alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran sava\u015f\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebi yaratmas\u0131 gerekirken fiyat\u0131 yukar\u0131 ta\u015f\u0131m\u0131yor, bu y\u00fczden bask\u0131 daha g\u00fc\u00e7l\u00fc g\u00f6r\u00fcn\u00fcyor.",
   "19.11 21:26 N  GPT  score -0.55 conf 0.68: G\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri, alt\u0131ndaki devam eden sat\u0131\u015flarla birlikte k\u0131sa vadede bask\u0131n ve a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor. Suudi Arabistan\u2019daki sald\u0131r\u0131 g\u00fcvenli liman talebini art\u0131rabilir; ancak bar\u0131\u015f deklarasyonu ve \u00e7eli\u015fkili jeopolitik haberler bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
@@ -30208,7 +30207,8 @@
   "20.11 17:30 B6  ALI\u015e TSLA 328 adet \u2248 120,389 $ (1:4) @ 367.04 (TP 372.55, SL 363.37; ikisi de hemfikir, g\u00fcven 0.45)",
   "20.11 17:33 B5  CLOSE short stop: -56.06 USD",
   "20.11 17:33 N  NEWS (12 new) score -0.50 conf 0.60: Faiz art\u0131r\u0131m\u0131 beklentileri (Chicago Fed ba\u015fkan\u0131n\u0131n Aral\u0131k'ta daha b\u00fcy\u00fck art\u0131r\u0131m\u0131 d\u0131\u015flamamas\u0131, Rabobank'\u0131n Aral\u0131k art\u0131r\u0131m fiyatlamas\u0131n\u0131 i\u015faret etmesi) reel faiz ve dolar taraf\u0131nda alt\u0131 bask\u0131l\u0131yor; haberler de alt\u0131n i\u00e7in haftan\u0131n en k\u00f6t\u00fc performans\u0131na ve \"safe-haven\" talebinin \u00e7\u00f6z\u00fclmesine i\u015faret ediyor. Polonya'ya d\u00fc\u015fen Rus f\u00fczesi jeopolitik risk yarat\u0131yor ama bu etki s\u0131n\u0131rl\u0131 kal\u0131yor ve haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f durumda.",
-  "20.11 17:33 N  GPT  score -0.35 conf 0.58: Fed\u2019in daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimalini a\u00e7\u0131k tutmas\u0131 ve Aral\u0131k art\u0131\u015f\u0131 fiyatlamas\u0131, y\u00fckselen faiz beklentileri ve dolar \u00fczerinden alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. Polonya\u2019ya d\u00fc\u015fen Rus f\u00fczesi g\u00fcvenli liman talebini art\u0131rabilir; ancak haberin etkisi belirsiz ve bu etki mevcut d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131n\u0131 k\u0131smen deng"
+  "20.11 17:33 N  GPT  score -0.35 conf 0.58: Fed\u2019in daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimalini a\u00e7\u0131k tutmas\u0131 ve Aral\u0131k art\u0131\u015f\u0131 fiyatlamas\u0131, y\u00fckselen faiz beklentileri ve dolar \u00fczerinden alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. Polonya\u2019ya d\u00fc\u015fen Rus f\u00fczesi g\u00fcvenli liman talebini art\u0131rabilir; ancak haberin etkisi belirsiz ve bu etki mevcut d\u00fc\u015f\u00fc\u015f bask\u0131s\u0131n\u0131 k\u0131smen deng",
+  "20.11 17:36 B6  CLOSE long AAPL stop: -1208.18 USD"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    4963.78
-   ],
-   [
     1794597269,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795185219,
+    4963.78
+   ],
+   [
+    1795185388,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    4975.18
-   ],
-   [
     1794597269,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795185219,
+    4975.18
+   ],
+   [
+    1795185388,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    4993.28
-   ],
-   [
     1794597269,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795185219,
+    4993.28
+   ],
+   [
+    1795185388,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794597094,
-    4969.22
-   ],
-   [
     1794597269,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795185219,
+    4969.22
+   ],
+   [
+    1795185388,
     4969.22
    ]
   ],
@@ -82744,10 +82744,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794597094,
-    4545.26
-   ],
    [
     1794597269,
     4545.26
@@ -94743,6 +94739,10 @@
    [
     1795185219,
     5133.64
+   ],
+   [
+    1795185388,
+    5133.64
    ]
   ],
   "news_calls": {
@@ -94950,23 +94950,9 @@
  },
  "stocks_ai": {
   "account": {
-   "balance": 120515.30012,
+   "balance": 120128.17,
    "start": 100000.0,
    "positions": [
-    {
-     "id": "d7b7d773-7a17-45d0-a62c-057eaaa30d81",
-     "symbol": "AAPL",
-     "side": "long",
-     "qty": 335.0,
-     "entry": 351.083672,
-     "tp": 358.71,
-     "sl": 349.88,
-     "opened_ms": 1795185030607,
-     "entry_cost": 0.0,
-     "friction": 0.0,
-     "note": "Claude 0.55: Piyasa d\u00fc\u015ferken art\u0131da kalmas\u0131 g\u00fc\u00e7l\u00fc g\u00f6reli performans g\u00f6steriyor ve yapay zeka ajan\u0131 haberi destek veriyor. | GPT 0.64: AI ajan\u0131 geli\u015ftirme haberi ve endekslere belirgin g\u00f6reli g\u00fc\u00e7, yukar\u0131 y\u00f6nl\u00fc hareketin devam\u0131n\u0131 destekliyor.",
-     "cur": 351.27
-    },
     {
      "id": "5c83e7c9-f741-4336-8b20-b007fd4ebe89",
      "symbol": "TSLA",
@@ -94979,7 +94965,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.45: \u0130talya'daki s\u00fcr\u00fc\u015f deste\u011fi onay\u0131 taze ve olumlu bir kataliz\u00f6r; d\u00fc\u015f\u00fc\u015f sonras\u0131 toparlanma s\u00fcr\u00fcyor. | GPT 0.55: \u0130talya'daki s\u00fcr\u00fc\u015f deste\u011fi onay\u0131 \u015firkete \u00f6zg\u00fc olumlu kataliz\u00f6r sa\u011flarken son s\u0131\u00e7ramadan geri \u00e7ekilme giri\u015f f\u0131rsat\u0131 sunuyor.",
-     "cur": 366.89
+     "cur": 369.08
     }
    ],
    "trades": [
@@ -96242,22 +96228,36 @@
      "costs": 0.0,
      "pnl": -282.1,
      "entry_cost": 0.0
+    },
+    {
+     "id": "d7b7d773-7a17-45d0-a62c-057eaaa30d81",
+     "symbol": "AAPL",
+     "side": "long",
+     "qty": 341,
+     "entry": 353.41,
+     "tp": 358.71,
+     "sl": 349.88,
+     "opened_ms": 1795185030607,
+     "note": "Claude 0.55: Piyasa d\u00fc\u015ferken art\u0131da kalmas\u0131 g\u00fc\u00e7l\u00fc g\u00f6reli performans g\u00f6steriyor ve yapay zeka ajan\u0131 haberi destek veriyor. | GPT 0.64: AI ajan\u0131 geli\u015ftirme haberi ve endekslere belirgin g\u00f6reli g\u00fc\u00e7, yukar\u0131 y\u00f6nl\u00fc hareketin devam\u0131n\u0131 destekliyor.",
+     "exit": 349.86695,
+     "closed_ms": 1795185388582,
+     "reason": "stop",
+     "gross": -1208.18,
+     "costs": 0.0,
+     "pnl": -1208.18,
+     "entry_cost": 0.0
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl": -170.92,
-    "trades": 12,
+    "pnl": 97.85,
+    "trades": 13,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 120367.8
+   "equity": 120636.57
   },
   "equity_curve": [
-   [
-    1794597094,
-    114823.14
-   ],
    [
     1794597269,
     114771.94
@@ -108253,20 +108253,13 @@
    [
     1795185219,
     120367.8
+   ],
+   [
+    1795185388,
+    120636.57
    ]
   ],
   "open": {
-   "AAPL": {
-    "order_id": "d7b7d773-7a17-45d0-a62c-057eaaa30d81",
-    "symbol": "AAPL",
-    "side": "long",
-    "qty": 341,
-    "entry": 353.41,
-    "tp": 358.71,
-    "sl": 349.88,
-    "opened_ms": 1795185030607,
-    "note": "Claude 0.55: Piyasa d\u00fc\u015ferken art\u0131da kalmas\u0131 g\u00fc\u00e7l\u00fc g\u00f6reli performans g\u00f6steriyor ve yapay zeka ajan\u0131 haberi destek veriyor. | GPT 0.64: AI ajan\u0131 geli\u015ftirme haberi ve endekslere belirgin g\u00f6reli g\u00fc\u00e7, yukar\u0131 y\u00f6nl\u00fc hareketin devam\u0131n\u0131 destekliyor."
-   },
    "TSLA": {
     "order_id": "5c83e7c9-f741-4336-8b20-b007fd4ebe89",
     "symbol": "TSLA",
@@ -108346,7 +108339,7 @@
   "premarket_day": "2026-11-20",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "97502.42",
+   "buying_power": "240429.8",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -108458,10 +108451,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794597094,
-    4876.96
-   ],
    [
     1794597269,
     4876.96
@@ -120456,6 +120445,10 @@
    ],
    [
     1795185219,
+    4876.96
+   ],
+   [
+    1795185388,
     4876.96
    ]
   ],
