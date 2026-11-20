@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 10:32 (İstanbul)
+> Son güncelleme: 20.11.2026 10:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %51.7 | %46.2 |
 | Ödenen komisyon/spread | 351.00 $ | 2173.93 $ |
 
-**Hesap değeri: 5,295.08 $** (başlangıç 5,000 $, +295.08 $ / %+5.90)
+**Hesap değeri: 5,289.02 $** (başlangıç 5,000 $, +289.02 $ / %+5.78)
+
+Açık pozisyonlar: PAXGUSDT short @ 3539.82 (TP 3529.20 / SL 3546.90)
 
 Son haber analizi (20.11 10:26): Claude puan **-0.60**, güven 0.60 — Ana itici güç, Fed faiz artırımı beklentilerinin yükselmesi ve doların 19 aylık zirve yakınlarında güçlenmesi; bu koşullar altyapısıyla altın 3.500 dolar civarına, Eylül 2025'ten bu yana en düşük seviyesine geriliyor. Polonya'daki yeni patlama gibi jeopolitik haberler sınırlı bir güvenli liman talebi yaratabilir, ancak mevcut satış baskısını dengeleyecek kadar güçlü değil; ayrıca bazı haberlerin eski olması ve dolardaki geri çekilme sinyalleri nedeniyle kısa vadeli toparlanma ihtimali güven düzeyini sınırlıyor.
 
@@ -94,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 09:01 N  GPT  score -0.58 conf 0.68: Güçlü dolar, yükselen tahvil getirileri ve Fed’in faiz artırabileceği beklentileri altın üzerindeki kısa vadeli baskıyı artırıyor; fiyatın sert düşüşü de aşağı yönlü momentumu destekliyor. İran savaşının sürmesine yönelik Senato desteği güvenli liman talebini artırabilir, ancak şu an bu etki baskın 
 20.11 09:14 N  NEWS (23 new) score -0.60 conf 0.60: Dolar güçlenmesi, ABD tahvil faizlerinin yükselmesi ve altında %3,71'lik sert düşüş (yaklaşık 3.530 dolar) altın için baskılayıcı; Fed'in temkinli tutumu ve reel faiz beklentileri de negatif. İran savaşı ve Husi saldırıları güvenli liman talebini destekleyebilir, ancak bu etki mevcut satış baskısını dengelemeye yetmiyor. Haberlerin birçoğu zaten fiyatlanmış düşüşü yansıttığı için güven orta seviyede.
 20.11 09:14 N  GPT  score -0.50 conf 0.68: Güçlü dolar ve yükselen ABD tahvil faizleri eşliğindeki sert altın satışları kısa vadede aşağı yönlü momentumu destekliyor. İran çevresindeki askeri gerilim güvenli liman talebi yaratabilir, ancak şu anki fiyat tepkisi bu desteğin baskın olmadığını gösteriyor.
 20.11 09:26 N  NEWS (10 new) score -0.60 conf 0.70: Altın, güçlü dolar (19 aylık zirveye yakın), yükselen ABD tahvil getirileri ve Fed'in sert duruşu nedeniyle sert düşüşte; jeopolitik risk (İran savaşı) güvenli liman talebine dönüşmüyor. Bu baskı kısa vadede (1-4 saat) altın için negatif, ancak fiyatlar zaten düştüğü için tepki sıçraması riski ve yorum çeşitliliği güveni sınırlıyor.
@@ -109,6 +110,7 @@ Son işlemler:
 20.11 10:14 N  GPT  score -0.75 conf 0.76: Altın üzerindeki güçlü dolar, Fed’in faiz artırımı beklentileri ve likidite baskısı, kısa vadede güvenli liman talebini aşarak sert satışları destekliyor. İran’a yönelik olası saldırı haberleri düşüşü sınırlayabilir; ancak mevcut fiyat hareketi net biçimde aşağı yönlü.
 20.11 10:27 N  NEWS (7 new) score -0.60 conf 0.60: Ana itici güç, Fed faiz artırımı beklentilerinin yükselmesi ve doların 19 aylık zirve yakınlarında güçlenmesi; bu koşullar altyapısıyla altın 3.500 dolar civarına, Eylül 2025'ten bu yana en düşük seviyesine geriliyor. Polonya'daki yeni patlama gibi jeopolitik haberler sınırlı bir güvenli liman talebi yaratabilir, ancak mevcut satış baskısını dengeleyecek kadar güçlü değil; ayrıca bazı haberlerin eski olması ve dolardaki geri çekilme sinyalleri nedeniyle kısa vadeli toparlanma ihtimali güven düzeyini sınırlıyor.
 20.11 10:27 N  GPT  score -0.55 conf 0.72: Altın, Fed faiz artırımı beklentileri ve güçlü doların baskısıyla sert düşüşünü sürdürüyor; bu kısa vadede aşağı yönlü momentumu destekliyor. Polonya-Ukrayna sınırındaki olası saldırı güvenli liman talebini artırabilir, ancak haber belirsiz ve şimdilik satış baskısını dengeleyecek güçte görünmüyor.
+20.11 10:35 B5  SHORT gold 25000 USD x10 @ 3539.82 (TP 3529.20, SL 3546.90; news -0.57)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
