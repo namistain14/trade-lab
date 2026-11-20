@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 21:52 (İstanbul)
+> Son güncelleme: 20.11.2026 21:55 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 123,910.80 $** (başlangıç 100,000 $, +23910.80 $ / %+23.91)
+**Hesap değeri: 122,910.81 $** (başlangıç 100,000 $, +22910.81 $ / %+22.91)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 20:24 N  NEWS (12 new) score -0.60 conf 0.65: Fed'in faiz artırımı beklentileri (Cook: artırım gerekli), güçlü dolar ve AI kaynaklı satış baskısı altın fiyatlarını sert düşürüyor; altın haftalık bazda yaklaşık %9 kayıpta. Rusya'nın Polonya'ya füze isabeti ve İran savaşı jeopolitik risk yaratıyor ancak güvenli liman talebi bu baskıyı şu an dengeleyemiyor; yine de aşırı satış sonrası kısa vadeli tepki alımı riski nedeniyle güven sınırlı.
-20.11 20:24 N  GPT  score -0.68 conf 0.72: Fed’den Cook’un yüksek enflasyonu düşürmek için faiz artırımı gerektiği yönündeki açıklaması, faiz beklentileri ve reel getiriler üzerinden altını baskılıyor; haftalık sert düşüş de negatif momentumu gösteriyor. Rus füzesinin Polonya’ya düşmesi ve diğer çatışma haberleri güvenli liman talebini deste
 20.11 20:31 B6  karar turu: Claude «Teknoloji ağırlıklı sert satış günü sürüyor; QQQ zayıf, toparlanma işareti yok ve yön aşağı.» / GPT «Endekslerdeki zayıflık satış yönünü desteklese de büyük günlük kayıplar tepki yükselişi ve kaldıraçlı zarar riskini artırıyor.»
 20.11 20:42 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 20:42 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir risk-off günü yaşanıyor; endeksler diplere yakın yatay konsolide oluyor ve kapanışa doğru zayıflığın sürme ihtimali biraz daha yüksek.» / GPT «-»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 21:31 B6  karar turu: Claude «Endeksler sert düşüş sonrası konsolide oluyor; teknoloji ağırlıklı satış baskısı sürüyor ama kapanışa doğru tepki alımı riski de var.» / GPT «-»
 20.11 21:43 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:43 B6  karar turu: Claude «Teknoloji ağırlıklı sert satış sonrası endeksler dar bantta yatay; gün sonuna doğru zayıflığın sürme riski yüksek, toparlanma sinyali henüz yok.» / GPT «-»
+20.11 21:55 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+20.11 21:55 B6  karar turu: Claude «Teknoloji ağırlıklı sert satıştan sonra endeksler son saatte dip yapıp toparlanma sinyali veriyor, ancak seansın kapanmasına yaklaşık bir saat kaldığı için hareket alanı sınırlı ve risk yüksek.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
