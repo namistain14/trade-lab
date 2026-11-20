@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 23:29 (İstanbul)
+> Son güncelleme: 20.11.2026 23:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -74,29 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +3636.05 $ | +22161.98 $ |
-| İşlem sayısı | 7 | 77 |
-| Kazanma oranı | %57.1 | %51.9 |
+| Net kâr/zarar | +5480.55 $ | +24006.48 $ |
+| İşlem sayısı | 8 | 78 |
+| Kazanma oranı | %62.5 | %52.6 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 127,941.64 $** (başlangıç 100,000 $, +27941.64 $ / %+27.94)
+**Hesap değeri: 128,131.48 $** (başlangıç 100,000 $, +28131.48 $ / %+28.13)
 
-Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); SPY short @ 702.58 (TP 692.17 / SL 709.74)
+Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 23:32 | SPY | short | +1844.50 $ | take profit |
 | 20.11 23:26 | QQQ | short | +1847.34 $ | take profit |
 | 20.11 20:02 | QQQ | short | +1793.08 $ | take profit |
 | 20.11 19:32 | TSLA | short | +1798.50 $ | take profit |
 | 20.11 19:02 | AAPL | long | -1217.52 $ | stop |
-| 20.11 18:28 | SPY | long | -1223.81 $ | stop |
 
 ## Son olaylar
 
 ```
-20.11 21:55 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:55 B6  karar turu: Claude «Teknoloji ağırlıklı sert satıştan sonra endeksler son saatte dip yapıp toparlanma sinyali veriyor, ancak seansın kapanmasına yaklaşık bir saat kaldığı için hareket alanı sınırlı ve risk yüksek.» / GPT «-»
 20.11 22:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:08 B6  karar turu: Claude «Piyasa sert düşüşün ardından gün içi yatay konsolidasyonda; teknoloji ağırlıklı satış baskısı sürüyor, kapanışa doğru oynaklık artabilir.» / GPT «-»
@@ -111,6 +110,7 @@ Son işlemler:
 20.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 23:08 B6  karar turu: Claude «Saat 16:08 itibarıyla normal seans kapandı; NVDA öncülüğünde sert teknoloji satışı yaşandı, ancak seans sonrası ince likidite ve geniş spread'ler nedeniyle yeni kaldıraçlı pozisyon açmak için uygun bir ortam yok.» / GPT «-»
 20.11 23:26 B6  CLOSE short QQQ take profit: +1847.34 USD
+20.11 23:32 B6  CLOSE short SPY take profit: +1844.50 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
