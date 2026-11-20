@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:51 (İstanbul)
+> Son güncelleme: 20.11.2026 17:54 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +150.22 $ | +202.60 $ |
-| İşlem sayısı | 35 | 188 |
-| Kazanma oranı | %48.6 | %45.7 |
-| Ödenen komisyon/spread | 423.65 $ | 2246.58 $ |
+| Net kâr/zarar | +219.19 $ | +271.57 $ |
+| İşlem sayısı | 36 | 189 |
+| Kazanma oranı | %50.0 | %46.0 |
+| Ödenen komisyon/spread | 435.75 $ | 2258.68 $ |
 
-**Hesap değeri: 5,242.37 $** (başlangıç 5,000 $, +242.37 $ / %+4.85)
-
-Açık pozisyonlar: PAXGUSDT short @ 3574.33 (TP 3563.61 / SL 3581.48)
+**Hesap değeri: 5,271.57 $** (başlangıç 5,000 $, +271.57 $ / %+5.43)
 
 Son haber analizi (20.11 17:45): Claude puan **-0.60**, güven 0.70 — Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 17:53 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 17:42 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 17:32 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 17:12 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 16:50 | PAXGUSDT | short | -62.21 $ | stop (gap) |
-| 20.11 16:23 | PAXGUSDT | short | +68.96 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -81,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %0.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,104.66 $** (başlangıç 100,000 $, +20104.66 $ / %+20.10)
+**Hesap değeri: 121,190.23 $** (başlangıç 100,000 $, +21190.23 $ / %+21.19)
 
 Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); TSLA long @ 367.53 (TP 372.55 / SL 363.37)
 
@@ -98,9 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 17:30 B5  SHORT gold 25000 USD x10 @ 3565.76 (TP 3555.06, SL 3572.89; news -0.47)
-20.11 17:30 B6  karar turu: Claude «Piyasa sert satıştan sonra açılışın ardından tepki yükselişinde; göreli güçlü ve haber desteği olan hisselerde seçici alım tercih ediliyor.» / GPT «Sert günlük kayıplara rağmen endekslerde kısa vadeli toparlanma baskın, ancak yüksek kaldıraç ve aynı yöndeki pozisyonların korelasyonu riski büyütüyor.»
-20.11 17:30 B6  ALIŞ AAPL 341 adet ≈ 120,513 $ (1:4) @ 353.41 (TP 358.71, SL 349.88; ikisi de hemfikir, güven 0.55)
 20.11 17:30 B6  ALIŞ TSLA 328 adet ≈ 120,389 $ (1:4) @ 367.04 (TP 372.55, SL 363.37; ikisi de hemfikir, güven 0.45)
 20.11 17:33 B5  CLOSE short stop: -56.06 USD
 20.11 17:33 N  NEWS (12 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (Chicago Fed başkanının Aralık'ta daha büyük artırımı dışlamaması, Rabobank'ın Aralık artırım fiyatlamasını işaret etmesi) reel faiz ve dolar tarafında altı baskılıyor; haberler de altın için haftanın en kötü performansına ve "safe-haven" talebinin çözülmesine işaret ediyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratıyor ama bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış durumda.
@@ -113,6 +108,9 @@ Son işlemler:
 20.11 17:45 N  NEWS (9 new) score -0.60 conf 0.70: Haberlerin ağırlığı altın için negatif: Fed'de sıkılaştırma beklentileri (Aralık'ta faiz artırımı fiyatlaması, Chicago Fed başkanının daha büyük artırımı dışlamaması) ve güçlenen dolar/reel faiz baskısı altını zayıflatıyor. Polonya'ya düşen Rus füzesi jeopolitik risk yaratsa da güvenli liman talebi şimdiye kadar altı yukarı taşımadı; piyasa güvenli liman alımlarının çözüldüğünü bildiriyor.
 20.11 17:45 N  GPT  score -0.55 conf 0.68: Önümüzdeki saatlerde altın üzerinde baskın etki, Fed’in daha şahin olabileceği beklentisi ve süregelen satış/deleveraging görünümü nedeniyle aşağı yönlü. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir; ancak haberin etkisi belirsiz ve bu risk, faiz baskısını kısmen dengeliyor.
 20.11 17:48 B5  SHORT gold 25000 USD x10 @ 3574.33 (TP 3563.61, SL 3581.48; news -0.57)
+20.11 17:54 B5  CLOSE short take profit: +68.97 USD
+20.11 17:54 B6  karar turu: Claude «Endeksler sabahki düşüşü telafi ediyor, ancak NVDA şirkete özel olumsuz haberle ayrışarak zayıf kalıyor.» / GPT «Endekslerde kısa vadeli toparlanma baskın olsa da NVDA'nın ayrışan zayıflığı ve dört kat kaldıraç, toplam pozisyon riskinin sınırlanmasını gerektiriyor.»
+20.11 17:54 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"81076.96","code":40310000,"cost_basis":"95449.96","message":"insufficient buying power"}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
