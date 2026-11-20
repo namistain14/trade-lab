@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 02:59 (İstanbul)
+> Son güncelleme: 20.11.2026 03:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,103.40 $** (başlangıç 5,000 $, +103.40 $ / %+2.07)
+**Hesap değeri: 5,099.87 $** (başlangıç 5,000 $, +99.87 $ / %+2.00)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +163.83 $ | +216.21 $ |
-| İşlem sayısı | 6 | 159 |
-| Kazanma oranı | %66.7 | %45.9 |
-| Ödenen komisyon/spread | 72.44 $ | 1895.37 $ |
+| Net kâr/zarar | +107.78 $ | +160.16 $ |
+| İşlem sayısı | 7 | 160 |
+| Kazanma oranı | %57.1 | %45.6 |
+| Ödenen komisyon/spread | 84.53 $ | 1907.45 $ |
 
-**Hesap değeri: 5,207.73 $** (başlangıç 5,000 $, +207.73 $ / %+4.15)
-
-Açık pozisyonlar: PAXGUSDT short @ 3596.97 (TP 3586.18 / SL 3604.16)
+**Hesap değeri: 5,160.16 $** (başlangıç 5,000 $, +160.16 $ / %+3.20)
 
 Son haber analizi (20.11 02:56): Claude puan **-0.70**, güven 0.70 — Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 03:02 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 02:40 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 02:33 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 02:13 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 01:21 | PAXGUSDT | short | -56.05 $ | stop |
-| 20.11 00:41 | PAXGUSDT | short | -56.05 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:07 N  GPT  score -0.78 conf 0.79: Altın sert düşüşte ve 14 ayın diplerine yaklaşırken güçlü dolar ile Fed’in daha sıkı faiz beklentileri kısa vadede baskıyı artırıyor. İran savaşı kaynaklı güvenli liman talebi bu görünümü kısmen dengeleyebilir; ancak Trump’ın kararı ertelemesi ve haber akışındaki çelişkiler güveni sınırlıyor.
 20.11 02:13 B5  CLOSE short take profit: +68.98 USD
 20.11 02:19 N  NEWS (11 new) score -0.60 conf 0.60: Altın 14 aylık dibe yakın seyrediyor; güçlü dolar ve Fed'in art arda faiz artırımı beklentisi (Barclays) reel faiz baskısını artırıyor. Iran ve Ukrayna savaşı haberleri jeopolitik güvenli liman talebi yaratması gerekirken altını yukarı taşımıyor, bu yüzden baskın etki hawkish Fed ve dolar tarafında görünüyor.
 20.11 02:19 N  GPT  score -0.55 conf 0.68: Güçlü dolar ve faiz artışı beklentileri altın üzerinde baskı kuruyor; fiyatın yılın/14 ayın diplerine gerilemesi kısa vadeli satış eğilimini destekliyor. İran ve Ukrayna kaynaklı jeopolitik riskler güvenli liman talebi yaratabilir, ancak yeni başlıklar bu baskıyı şimdilik dengeleyecek kadar belirgin
@@ -112,6 +109,7 @@ Son işlemler:
 20.11 02:47 B5  SHORT gold 25000 USD x10 @ 3596.97 (TP 3586.18, SL 3604.16; news -0.47)
 20.11 02:56 N  NEWS (26 new) score -0.70 conf 0.70: Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
 20.11 02:56 N  GPT  score -0.70 conf 0.78: Fed yetkililerinin enflasyon ve olası daha büyük faiz artışlarına ilişkin şahin mesajları dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı yaratıyor; altının yeni dipleri test etmesi bu eğilimi doğruluyor. 2027’ye yönelik olumlu fiyat tahminleri kısa vadede sınırlı etki taşırken, Rus
+20.11 03:02 B5  CLOSE short stop: -56.05 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
