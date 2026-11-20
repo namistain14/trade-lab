@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 20:08 (İstanbul)
+> Son güncelleme: 20.11.2026 20:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,9 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (20.11 20:00): Claude puan **+0.30**, güven 0.50 — Polonya'ya Rus füzesi isabeti, ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı ve yeni İran saldırılarının değerlendirilmesi güvenli liman talebini artırarak altı destekliyor. Buna karşılık piyasada Aralık ve Ocak faiz artırımları fiyatlanmış durumda ve dolar endeksi 104'ün altında, bu da etkiyi sınırlıyor; ayrıca bazı haberler eski veya birbiriyle çelişkili olduğu için güven orta düzeyde.
+Son haber analizi (20.11 20:12): Claude puan **-0.50**, güven 0.60 — Polonya'ya Rus füzesi isabeti, ABD'nin İran'daki Qeshm Adası yakınlarına füze saldırısı ve yeni İran saldırılarının değerlendirilmesi güvenli liman talebini artırarak altı destekliyor. Buna karşılık piyasada Aralık ve Ocak faiz artırımları fiyatlanmış durumda ve dolar endeksi 104'ün altında, bu da etkiyi sınırlıyor; ayrıca bazı haberler eski veya birbiriyle çelişkili olduğu için güven orta düzeyde.
 
-GPT (gpt-6-luna): puan **+0.62**, güven 0.68 — Polonya’ya Rus füze isabeti ve NATO’nun ihlal açıklaması, kısa vadede güvenli liman talebini artırarak altını destekleyebilir. Doların gerilemesi ek destek sağlarken, Fed’in faiz artırımı beklentileri yükselişi sınırlayabilir.
+GPT (gpt-6-luna): puan **+0.12**, güven 0.48 — Polonya’ya Rus füze düşmesi ve Riyad’daki Husi saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in enflasyon uyarısı ve faiz artışı/dolar endişeleri altın üzerindeki baskıyı sürdürüyor; etkiler çelişkili olduğu için net yön zayıf.
 
 Son işlemler:
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 122,422.06 $** (başlangıç 100,000 $, +22422.06 $ / %+22.42)
+**Hesap değeri: 122,759.80 $** (başlangıç 100,000 $, +22759.80 $ / %+22.76)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 19:29 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"91188.34","code":40310000,"cost_basis":"106076.56","message":"insufficient buying power"}
-20.11 19:32 B6  CLOSE short TSLA take profit: +1798.50 USD
 20.11 19:35 N  NEWS (14 new) score -0.55 conf 0.60: Baskın etki faiz artırımı beklentileri ve güçlü dolardan geliyor: piyasalar Aralık ve Ocak'ta Fed faiz artırımını fiyatlıyor, dolar endeksi 19 aylık zirveye yakın ve altın 3.600 doların altına inmiş durumda. Polonya'ya Rus füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor; birçok başlık eski veya zaten fiyatlanmış olduğundan güven orta düzeyde tutuldu.
 20.11 19:35 N  GPT  score -0.35 conf 0.62: Fed faiz artırımı beklentileri ve güçlü dolar altını baskılıyor; altının 3.600 doların altına inmesi ve sert düşüş de kısa vadeli momentumu olumsuz gösteriyor. Rusya’nın Polonya’ya uzanan saldırı haberleri güvenli liman talebini artırabilir, bu nedenle düşüş yönündeki görüşün güveni sınırlı.
 20.11 19:42 B6  karar turu: Claude «Teknoloji ağırlıklı geniş bir satış baskısı var ve endeksler gün diplerine yakın düşük tepelerle aşağı yönlü seyrediyor.» / GPT «Endekslerde aşağı yönlü akış short tarafını destekliyor ancak 1:4 kaldıraçta sert düşmüş hisseleri kovalamak ani tepki riskini büyütüyor.»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 20:02 B6  CLOSE short QQQ take profit: +1793.08 USD
 20.11 20:06 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir risk iştahsızlığı yaşanıyor ve endeksler gün dibini test ediyor; trend aşağı yönlü, ancak aşırı düşen hisselerde tepki riski var.» / GPT «Piyasa genelinde aşağı yönlü momentum baskın; kaldıraç altında ilişkili kısa pozisyonların toplam riskini sınırlamak gerekiyor.»
 20.11 20:06 B6  AÇIĞA SATIŞ QQQ 198 adet ≈ 122,992 $ (1:4) @ 621.17 (TP 611.85, SL 627.38; ikisi de hemfikir, güven 0.55)
+20.11 20:12 N  NEWS (7 new) score -0.50 conf 0.60: 
+20.11 20:12 N  GPT  score +0.12 conf 0.48: Polonya’ya Rus füze düşmesi ve Riyad’daki Husi saldırısı kısa vadede güvenli liman talebini destekleyebilir. Ancak Fed’in enflasyon uyarısı ve faiz artışı/dolar endişeleri altın üzerindeki baskıyı sürdürüyor; etkiler çelişkili olduğu için net yön zayıf.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
