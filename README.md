@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 23:05 (İstanbul)
+> Son güncelleme: 20.11.2026 23:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %51.3 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 126,926.38 $** (başlangıç 100,000 $, +26926.38 $ / %+26.93)
+**Hesap değeri: 127,195.88 $** (başlangıç 100,000 $, +27195.88 $ / %+27.20)
 
 Açık pozisyonlar: AAPL short @ 346.42 (TP 341.50 / SL 350.17); QQQ short @ 621.66 (TP 611.85 / SL 627.38); SPY short @ 702.58 (TP 692.17 / SL 709.74)
 
@@ -96,8 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 21:31 B6  karar turu: Claude «Endeksler sert düşüş sonrası konsolide oluyor; teknoloji ağırlıklı satış baskısı sürüyor ama kapanışa doğru tepki alımı riski de var.» / GPT «-»
-20.11 21:43 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:43 B6  karar turu: Claude «Teknoloji ağırlıklı sert satış sonrası endeksler dar bantta yatay; gün sonuna doğru zayıflığın sürme riski yüksek, toparlanma sinyali henüz yok.» / GPT «-»
 20.11 21:55 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 21:55 B6  karar turu: Claude «Teknoloji ağırlıklı sert satıştan sonra endeksler son saatte dip yapıp toparlanma sinyali veriyor, ancak seansın kapanmasına yaklaşık bir saat kaldığı için hareket alanı sınırlı ve risk yüksek.» / GPT «-»
@@ -111,6 +109,8 @@ Son işlemler:
 20.11 22:44 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış gününü kapatıyor ve son barlarda hafif bir tepki alımı görülüyor; kapanışa 16 dakika kala 1-3 saatlik yeni pozisyon için yeterli süre yok.» / GPT «-»
 20.11 22:56 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:56 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert düştü ve kapanış öncesi dengelenmeye çalışıyor; seansın bitmesine 4 dakika kaldığı için 1-3 saatlik yeni pozisyon açmak mantıklı değil.» / GPT «-»
+20.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
+20.11 23:08 B6  karar turu: Claude «Saat 16:08 itibarıyla normal seans kapandı; NVDA öncülüğünde sert teknoloji satışı yaşandı, ancak seans sonrası ince likidite ve geniş spread'ler nedeniyle yeni kaldıraçlı pozisyon açmak için uygun bir ortam yok.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
