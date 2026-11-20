@@ -79,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %40.0 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 122,593.68 $** (başlangıç 100,000 $, +22593.68 $ / %+22.59)
+**Hesap değeri: 122,663.61 $** (başlangıç 100,000 $, +22663.61 $ / %+22.66)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38)
 
