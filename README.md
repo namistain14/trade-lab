@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:14 (İstanbul)
+> Son güncelleme: 20.11.2026 03:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,102.51 $** (başlangıç 5,000 $, +102.51 $ / %+2.05)
+**Hesap değeri: 5,100.75 $** (başlangıç 5,000 $, +100.75 $ / %+2.01)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,7 +31,9 @@ Son işlemler:
 | Kazanma oranı | %50.0 | %45.3 |
 | Ödenen komisyon/spread | 96.61 $ | 1919.54 $ |
 
-**Hesap değeri: 5,104.11 $** (başlangıç 5,000 $, +104.11 $ / %+2.08)
+**Hesap değeri: 5,098.07 $** (başlangıç 5,000 $, +98.07 $ / %+1.96)
+
+Açık pozisyonlar: PAXGUSDT short @ 3617.98 (TP 3607.12 / SL 3625.21)
 
 Son haber analizi (20.11 03:08): Claude puan **-0.50**, güven 0.60 — Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
 
@@ -95,7 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:31 N  NEWS (6 new) score -0.60 conf 0.70: Altın, sert Fed'e bağlı şahin sinyaller, güçlenen dolar ve yükselen tahvil getirileri nedeniyle 14 aylık dibe ($3.650 altı) geriledi; ETF çıkışları da baskı yaratıyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyecek nitelikte olsa da, piyasada bu jeopolitik etki fiyatlamaya yansımıyor, bu yüzden kısa vadede ağırlık düşüş yönünde.
 20.11 02:31 N  GPT  score -0.58 conf 0.72: Hawkish Fed beklentileri, yükselen tahvil getirileri ve güçlü dolar altını kısa vadede baskılıyor; 14 ayın dibine gerileme satış momentumunu destekliyor. İran savaşı ve Suudi Arabistan’daki saldırı güvenli liman talebini artırabilir, ancak şu an bu etki faiz ve dolar baskısını dengeleyemiyor.
 20.11 02:35 B5  CLOSE short take profit: +68.98 USD
 20.11 02:38 B5  SHORT gold 25000 USD x10 @ 3596.03 (TP 3585.24, SL 3603.22; news -0.59)
@@ -110,6 +111,7 @@ Son işlemler:
 20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide aşırı ısınma kaygısını vurgulaması, faizlerin yüksek kalacağı beklentisini ve altın üzerindeki baskıyı destekliyor. İran savaşına ilişkin yetkilerin kısıtlanmaması güvenli liman talebini artırabilir; bu karşıt etkiler nedeniyle görünüm hafif negatif.
 20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)
 20.11 03:11 B5  CLOSE short stop: -56.05 USD
+20.11 03:17 B5  SHORT gold 25000 USD x10 @ 3617.98 (TP 3607.12, SL 3625.21; news -0.36)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
