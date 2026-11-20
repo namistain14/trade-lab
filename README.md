@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 19:11 (İstanbul)
+> Son güncelleme: 20.11.2026 19:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +301.03 $ | +353.41 $ |
-| İşlem sayısı | 39 | 192 |
-| Kazanma oranı | %51.3 | %46.4 |
-| Ödenen komisyon/spread | 472.11 $ | 2295.04 $ |
+| Net kâr/zarar | +244.97 $ | +297.35 $ |
+| İşlem sayısı | 40 | 193 |
+| Kazanma oranı | %50.0 | %46.1 |
+| Ödenen komisyon/spread | 484.23 $ | 2307.16 $ |
 
-**Hesap değeri: 5,344.88 $** (başlangıç 5,000 $, +344.88 $ / %+6.90)
-
-Açık pozisyonlar: PAXGUSDT short @ 3542.80 (TP 3532.17 / SL 3549.89)
+**Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
 Son haber analizi (20.11 19:11): Claude puan **-0.50**, güven 0.60 — Faiz artırımı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirvesinde ve altın 14 aylık dibe yakın seviyede; bu baskı 1-4 saatlik görünümde altını aşağı çekebilir. Polonya'daki füze olayı ve İran savaşı güvenli liman talebini destekliyor ancak bu etki şimdiye kadar faiz baskısının gerisinde kaldı; eski haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 19:13 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 19:02 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 18:37 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 18:28 | PAXGUSDT | short | +68.95 $ | take profit |
 | 20.11 17:53 | PAXGUSDT | short | +68.97 $ | take profit |
-| 20.11 17:42 | PAXGUSDT | short | +68.97 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -81,7 +79,7 @@ Son işlemler:
 | Kazanma oranı | %25.0 | %50.0 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 120,334.38 $** (başlangıç 100,000 $, +20334.38 $ / %+20.33)
+**Hesap değeri: 119,510.37 $** (başlangıç 100,000 $, +19510.37 $ / %+19.51)
 
 Açık pozisyonlar: QQQ short @ 631.49 (TP 621.60 / SL 637.38); TSLA short @ 362.67 (TP 356.96 / SL 366.02)
 
@@ -98,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 18:37 B5  CLOSE short stop: -56.07 USD
 20.11 18:40 B6  karar turu: Claude «Teknoloji ağırlıklı satış baskısı sürüyor ve piyasa negatif momentumla öğleye giriyor.» / GPT «Piyasa görünümü aşağı yönlü; ancak sert düşmüş hisselerde tepki yükselişi riski nedeniyle seçici kısa pozisyonları tercih ediyorum.»
 20.11 18:43 B5  SHORT gold 25000 USD x10 @ 3548.22 (TP 3537.58, SL 3555.32; news -0.42)
 20.11 18:46 N  NEWS (16 new) score -0.70 conf 0.70: Faiz artırımı beklentilerinin yeniden yükselmesi, doların 19 aylık zirvelere yakın seyretmesi ve altının yaklaşık %4 düşüşü altın için baskılayıcı bir tablo çiziyor. Polonya'ya yönelik Rus füze ihlalleri gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki şimdiye kadar fiyatlanmış faiz/dolar baskısının gerisinde kalıyor.
@@ -113,6 +110,7 @@ Son işlemler:
 20.11 19:08 B5  SHORT gold 25000 USD x10 @ 3542.80 (TP 3532.17, SL 3549.89; news -0.40)
 20.11 19:11 N  NEWS (6 new) score -0.50 conf 0.60: Faiz artırımı beklentileri yeniden fiyatlanıyor, dolar 19 aylık zirvesinde ve altın 14 aylık dibe yakın seviyede; bu baskı 1-4 saatlik görünümde altını aşağı çekebilir. Polonya'daki füze olayı ve İran savaşı güvenli liman talebini destekliyor ancak bu etki şimdiye kadar faiz baskısının gerisinde kaldı; eski haberlerin bir kısmı zaten fiyatlanmış olduğu için güven orta düzeyde.
 20.11 19:11 N  GPT  score +0.20 conf 0.48: Polonya’da Rus füzesinin can kaybına yol açması ve bunun kasıtlı provokasyon olarak nitelenmesi kısa vadeli güvenli liman talebini artırabilir. Ancak güçlü dolar ve faiz artırımı beklentileri altın üzerindeki baskıyı sürdürüyor; bu nedenle olası yükseliş sınırlı ve belirsiz.
+20.11 19:14 B5  CLOSE short stop: -56.07 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

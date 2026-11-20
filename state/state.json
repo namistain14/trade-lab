@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    5000.0
-   ],
-   [
     1794603098,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795191091,
     5104.97
+   ],
+   [
+    1795191260,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    4868.5
-   ],
-   [
     1794603098,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795191091,
+    4868.5
+   ],
+   [
+    1795191260,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "19.11 23:46 B6  CLOSE short AAPL seans sonu: +524.76 USD",
   "19.11 23:46 B6  CLOSE long TSLA seans sonu: -282.10 USD",
   "19.11 23:46 B6  seans kapan\u0131\u015f\u0131: t\u00fcm pozisyonlar kapat\u0131ld\u0131",
   "19.11 23:50 N  NEWS (10 new) score -0.30 conf 0.50: Fed yetkililerinin (Goolsbee: \"s\u0131cak enflasyon\", FOMC'de t\u00fcm se\u00e7eneklerin masada oldu\u011fu; Barr: enflasyon ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 gerektiriyor) \u015fahin mesajlar\u0131 reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili Senato'daki sava\u015f yetkisi oylamas\u0131 ve Trump'\u0131n Xi/Putin'in sava\u015f\u0131n bitmesini istedi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ise jeopolitik korku primini s\u0131n\u0131rl\u0131yor; bu nedenle g\u00fcvenli liman talebi destekleyici olsa da ana etki s\u0131n\u0131rl\u0131 kal\u0131yor.",
@@ -30208,7 +30207,8 @@
   "20.11 19:05 B6  SPY emir reddedildi: Alpaca POST /v2/orders: 403 {\"buying_power\":\"85960.72\",\"code\":40310000,\"cost_basis\":\"100924.84\",\"message\":\"insufficient buying power\"}",
   "20.11 19:08 B5  SHORT gold 25000 USD x10 @ 3542.80 (TP 3532.17, SL 3549.89; news -0.40)",
   "20.11 19:11 N  NEWS (6 new) score -0.50 conf 0.60: Faiz art\u0131r\u0131m\u0131 beklentileri yeniden fiyatlan\u0131yor, dolar 19 ayl\u0131k zirvesinde ve alt\u0131n 14 ayl\u0131k dibe yak\u0131n seviyede; bu bask\u0131 1-4 saatlik g\u00f6r\u00fcn\u00fcmde alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekebilir. Polonya'daki f\u00fcze olay\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor ancak bu etki \u015fimdiye kadar faiz bask\u0131s\u0131n\u0131n gerisinde kald\u0131; eski haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
-  "20.11 19:11 N  GPT  score +0.20 conf 0.48: Polonya\u2019da Rus f\u00fczesinin can kayb\u0131na yol a\u00e7mas\u0131 ve bunun kas\u0131tl\u0131 provokasyon olarak nitelenmesi k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir. Ancak g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor; bu nedenle olas\u0131 y\u00fckseli\u015f s\u0131n\u0131rl\u0131 ve belirsiz."
+  "20.11 19:11 N  GPT  score +0.20 conf 0.48: Polonya\u2019da Rus f\u00fczesinin can kayb\u0131na yol a\u00e7mas\u0131 ve bunun kas\u0131tl\u0131 provokasyon olarak nitelenmesi k\u0131sa vadeli g\u00fcvenli liman talebini art\u0131rabilir. Ancak g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor; bu nedenle olas\u0131 y\u00fckseli\u015f s\u0131n\u0131rl\u0131 ve belirsiz.",
+  "20.11 19:14 B5  CLOSE short stop: -56.07 USD"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    4963.78
-   ],
-   [
     1794603098,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795191091,
+    4963.78
+   ],
+   [
+    1795191260,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    4975.18
-   ],
-   [
     1794603098,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795191091,
+    4975.18
+   ],
+   [
+    1795191260,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    4993.28
-   ],
-   [
     1794603098,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795191091,
+    4993.28
+   ],
+   [
+    1795191260,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794602918,
-    4969.22
-   ],
-   [
     1794603098,
     4969.22
    ],
@@ -78794,6 +78790,10 @@
    [
     1795191091,
     4969.22
+   ],
+   [
+    1795191260,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78803,25 +78803,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 5353.414439476595,
+   "balance": 5297.345955041167,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "c69e7c88",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 7.056562902867292,
-     "entry": 3542.8012679999997,
-     "tp": 3532.172864196,
-     "sl": 3549.8868705359996,
-     "opened_ms": 1795190901021,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.40/0.57",
-     "friction": 12.1194
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82854,21 +82838,38 @@
      "gross": 68.9581,
      "costs": 0.0,
      "pnl": 68.9581
+    },
+    {
+     "id": "c69e7c88",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 7.056562902867292,
+     "entry": 3542.8012679999997,
+     "tp": 3532.172864196,
+     "sl": 3549.8868705359996,
+     "opened_ms": 1795190901021,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.40/0.57",
+     "friction": 12.1194,
+     "exit": 3550.7468479101067,
+     "closed_ms": 1795191180000,
+     "reason": "stop",
+     "gross": -56.0685,
+     "costs": 0.0,
+     "pnl": -56.0685
     }
    ],
    "day": {
     "date": "2026-11-20",
     "trades": 40,
-    "pnl": 301.0338449047981,
+    "pnl": 244.9653604693696,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794602918,
-    4545.26
-   ],
    [
     1794603098,
     4545.26
@@ -94864,6 +94865,10 @@
    [
     1795191091,
     5344.88
+   ],
+   [
+    1795191260,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -95086,7 +95091,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.55: Teknoloji sat\u0131\u015f\u0131 s\u00fcr\u00fcyor; fiyat 641 zirvesinden reddedilip son 30 dakikada yeni dip yapt\u0131. | GPT 0.64: SPY'a g\u00f6re belirgin zay\u0131fl\u0131k ve son kapan\u0131\u015flardaki d\u00fc\u015f\u00fc\u015f dizisi sat\u0131\u015flar\u0131n devam\u0131n\u0131 destekliyor.",
-     "cur": 628.16
+     "cur": 630.25
     },
     {
      "id": "da08ac4b-17cf-4034-b95a-1c02504c9426",
@@ -95100,7 +95105,7 @@
      "entry_cost": 0.0,
      "friction": 0.0,
      "note": "Claude 0.5: 373 zirvesinden sert reddedildi ve 367 deste\u011fini k\u0131rd\u0131; \u0130talya onay\u0131na ra\u011fmen sat\u0131\u015f bask\u0131s\u0131 s\u00fcr\u00fcyor. | GPT 0.58: \u0130talya onay\u0131na ra\u011fmen belirginle\u015fen sat\u0131\u015f bask\u0131s\u0131, s\u0131n\u0131rl\u0131 tepki y\u00fckseli\u015fine kar\u015f\u0131 a\u015fa\u011f\u0131 y\u00f6nl\u00fc avantaj sa\u011fl\u0131yor.",
-     "cur": 361.62
+     "cur": 362.92
     }
    ],
    "trades": [
@@ -96439,18 +96444,14 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl": -204.34,
+    "pnl": -1028.35,
     "trades": 13,
     "stopped": false
    },
    "last_check_ms": 0,
-   "equity": 120334.38
+   "equity": 119510.37
   },
   "equity_curve": [
-   [
-    1794602918,
-    114154.56
-   ],
    [
     1794603098,
     114154.56
@@ -108446,6 +108447,10 @@
    [
     1795191091,
     120334.38
+   ],
+   [
+    1795191260,
+    119510.37
    ]
   ],
   "open": {
@@ -108539,7 +108544,7 @@
   "premarket_day": "2026-11-20",
   "alpaca": {
    "multiplier": "4",
-   "buying_power": "100201.63",
+   "buying_power": "95573.58",
    "daytrading_buying_power": null
   },
   "rebuilt": "v2"
@@ -108651,10 +108656,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794602918,
-    4876.96
-   ],
    [
     1794603098,
     4876.96
@@ -120649,6 +120650,10 @@
    ],
    [
     1795191091,
+    4876.96
+   ],
+   [
+    1795191260,
     4876.96
    ]
   ],
