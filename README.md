@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 06:28 (İstanbul)
+> Son güncelleme: 20.11.2026 06:31 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -30,7 +30,9 @@ Son işlemler:
 | Kazanma oranı | %57.1 | %46.6 |
 | Ödenen komisyon/spread | 253.97 $ | 2076.90 $ |
 
-**Hesap değeri: 5,368.59 $** (başlangıç 5,000 $, +368.59 $ / %+7.37)
+**Hesap değeri: 5,362.53 $** (başlangıç 5,000 $, +362.53 $ / %+7.25)
+
+Açık pozisyonlar: PAXGUSDT short @ 3527.72 (TP 3517.14 / SL 3534.78)
 
 Son haber analizi (20.11 06:23): Claude puan **-0.60**, güven 0.70 — Altın, Fed faiz artırımı beklentileri, yükselen 5% tahvil getirileri ve 19 aylık zirveye yakın doları nedeniyle sert düşüşte ve yıllık dip seviyelerinde (3.700 doların altı). Iran savaşı jeopolitik talebi destekliyor olsa da, ABD doları ve reel faiz baskısı bunu baskılıyor; bu nedenle kısa vadede ayı eğilimi baskın. Haberlerde bazı çelişkili ve gürültülü başlıklar olduğu için güven orta-yüksek.
 
@@ -94,7 +96,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 05:34 N  GPT  score -0.68 conf 0.80: Fed’in faiz artırımı beklentileri, yaklaşık %5’lik getiriler ve güçlü dolar altını baskılıyor; yeni dipler ve sert satışlar kısa vadede aşağı yönlü momentuma işaret ediyor. İran ve Ukrayna’daki tırmanış güvenli liman talebini destekleyebilir, ancak şu an faiz ve dolar etkisi ağır basıyor.
 20.11 05:36 B5  SHORT gold 25000 USD x10 @ 3542.97 (TP 3532.34, SL 3550.06; news -0.64)
 20.11 05:46 B5  CLOSE short stop: -56.07 USD
 20.11 05:46 N  NEWS (6 new) score -0.70 conf 0.70: Yeni haberlerin ağırlıklı etkisi altın için belirgin biçimde negatif: Fed faiz artırımı beklentileri güçleniyor, dolar 19 aylık zirveye yakın ve tahvil getirileri (%5 civarı) altını cazibesiz kılıyor. Altın 3.550$ civarına, Eylül 2025'ten bu yana en düşük seviyeye geriledi. İran ve Ukrayna'daki savaş haberleri güvenli liman talebini destekleyebilir, ancak bu etki Fed ve dolar baskısının gerisinde kalıyor. Fiyatlanmış bir düşüş olabileceği ve güvenli liman talebinin ani toparlanma yaratma ihtimali nedeniyle güven orta seviyede.
@@ -109,6 +110,7 @@ Son işlemler:
 20.11 06:23 N  NEWS (9 new) score -0.60 conf 0.70: Altın, Fed faiz artırımı beklentileri, yükselen 5% tahvil getirileri ve 19 aylık zirveye yakın doları nedeniyle sert düşüşte ve yıllık dip seviyelerinde (3.700 doların altı). Iran savaşı jeopolitik talebi destekliyor olsa da, ABD doları ve reel faiz baskısı bunu baskılıyor; bu nedenle kısa vadede ayı eğilimi baskın. Haberlerde bazı çelişkili ve gürültülü başlıklar olduğu için güven orta-yüksek.
 20.11 06:23 N  GPT  score -0.65 conf 0.68: Altının sert düşüşü, doların güçlenmesi ve yüksek tahvil getirileri/Fed’in daha sıkı kalacağı beklentisi kısa vadede baskıyı sürdürüyor. İran kaynaklı riskler bir miktar güvenli liman talebi yaratabilir; ancak manşetler büyük ölçüde mevcut düşüşü yansıtıyor ve bu destek şu an zayıf görünüyor.
 20.11 06:25 B5  CLOSE short take profit: +68.95 USD
+20.11 06:31 B5  SHORT gold 25000 USD x10 @ 3527.72 (TP 3517.14, SL 3534.78; news -0.62)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
