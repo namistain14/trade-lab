@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 18:25 (İstanbul)
+> Son güncelleme: 20.11.2026 18:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +219.19 $ | +271.57 $ |
-| İşlem sayısı | 36 | 189 |
-| Kazanma oranı | %50.0 | %46.0 |
-| Ödenen komisyon/spread | 435.75 $ | 2258.68 $ |
+| Net kâr/zarar | +288.14 $ | +340.52 $ |
+| İşlem sayısı | 37 | 190 |
+| Kazanma oranı | %51.4 | %46.3 |
+| Ödenen komisyon/spread | 447.88 $ | 2270.80 $ |
 
-**Hesap değeri: 5,307.30 $** (başlangıç 5,000 $, +307.30 $ / %+6.15)
-
-Açık pozisyonlar: PAXGUSDT short @ 3535.27 (TP 3524.67 / SL 3542.34)
+**Hesap değeri: 5,340.52 $** (başlangıç 5,000 $, +340.52 $ / %+6.81)
 
 Son haber analizi (20.11 18:22): Claude puan **-0.50**, güven 0.60 — Yeni başlıklar ağırlıklı olarak altın için olumsuz: Fed faiz artırımı beklentileri ve güçlenen dolar (dolar 4 haftalık yükseliş serisinde), altının haftalık en kötü performansa yönelmesi ve zorunlu satışlar baskı yaratıyor. ABD/İsrail'in İran'a yeni saldırı planladığı haberi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etkiler jeopolitik riskin zaten kısmen fiyatlanmış olması ve Fed/dolar etkisinin daha baskın görünmesi nedeniyle sınırlı kalıyor.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 18:28 | PAXGUSDT | short | +68.95 $ | take profit |
 | 20.11 17:53 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 17:42 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 17:32 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 17:12 | PAXGUSDT | short | -56.06 $ | stop |
-| 20.11 16:50 | PAXGUSDT | short | -62.21 $ | stop (gap) |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -76,33 +74,28 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +638.46 $ | +19164.39 $ |
-| İşlem sayısı | 2 | 72 |
-| Kazanma oranı | %50.0 | %51.4 |
+| Net kâr/zarar | -585.35 $ | +17940.58 $ |
+| İşlem sayısı | 3 | 73 |
+| Kazanma oranı | %33.3 | %50.7 |
 | Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
 
-**Hesap değeri: 119,934.26 $** (başlangıç 100,000 $, +19934.26 $ / %+19.93)
+**Hesap değeri: 119,796.60 $** (başlangıç 100,000 $, +19796.60 $ / %+19.80)
 
-Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30); SPY long @ 716.64 (TP 726.91 / SL 709.01)
+Açık pozisyonlar: AAPL long @ 350.62 (TP 356.07 / SL 347.30)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 18:28 | SPY | long | -1223.81 $ | stop |
 | 20.11 17:57 | TSLA | long | +1846.64 $ | take profit |
 | 20.11 17:36 | AAPL | long | -1208.18 $ | stop |
 | 19.11 23:46 | TSLA | long | -282.10 $ | seans sonu |
 | 19.11 23:46 | AAPL | short | +524.76 $ | seans sonu |
-| 19.11 23:04 | QQQ | short | +1753.30 $ | take profit |
 
 ## Son olaylar
 
 ```
-20.11 17:48 B5  SHORT gold 25000 USD x10 @ 3574.33 (TP 3563.61, SL 3581.48; news -0.57)
-20.11 17:54 B5  CLOSE short take profit: +68.97 USD
-20.11 17:54 B6  karar turu: Claude «Endeksler sabahki düşüşü telafi ediyor, ancak NVDA şirkete özel olumsuz haberle ayrışarak zayıf kalıyor.» / GPT «Endekslerde kısa vadeli toparlanma baskın olsa da NVDA'nın ayrışan zayıflığı ve dört kat kaldıraç, toplam pozisyon riskinin sınırlanmasını gerektiriyor.»
-20.11 17:54 B6  NVDA emir reddedildi: Alpaca POST /v2/orders: 403 {"buying_power":"81076.96","code":40310000,"cost_basis":"95449.96","message":"insufficient buying power"}
-20.11 17:57 N  NEWS (14 new) score -0.60 conf 0.70: Altın 14 aylık dibe geriledi ve satış baskısı artıyor; Fed'in şahin tutumu, Aralık'ta faiz artırımı fiyatlaması ve güçlenen dolar altını baskılıyor. Polonya'ya düşen Rus füzesi gibi jeopolitik gelişmeler güvenli liman talebini artırmadığı için bu baskıyı dengeleyemiyor; yine de piyasa sert düşüş sonrası kısa vadeli tepki alımı riski nedeniyle güven orta seviyede.
 20.11 17:57 N  GPT  score -0.65 conf 0.76: Altın ve gümüşte 14 ayın dipleri ve doların güçlenmesi kısa vadeli satış baskısının sürdüğüne işaret ediyor; Fed’in daha şahin olabileceği beklentisi de altın için olumsuz. Polonya’ya düşen Rus füzesi güvenli liman talebini artırabilir, ancak şu an için bu risk fiyat düşüşünü dengeleyecek ölçüde gör
 20.11 17:57 B6  CLOSE long TSLA take profit: +1846.64 USD
 20.11 18:05 B6  karar turu: Claude «Endeksler sabahki satışı telafi ederek güçlü bir toparlanma gösteriyor, ancak son mumlardaki hafif geri çekilme kovalamaya karşı temkinli olmayı gerektiriyor.» / GPT «Endekslerde toparlanma eğilimi sürerken 1:4 kaldıraç altında seçici kalıp SPY gücünü almak ve NVDA zayıflığını satmak daha uygun görünüyor.»
@@ -113,6 +106,11 @@ Son işlemler:
 20.11 18:22 N  NEWS (10 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak altın için olumsuz: Fed faiz artırımı beklentileri ve güçlenen dolar (dolar 4 haftalık yükseliş serisinde), altının haftalık en kötü performansa yönelmesi ve zorunlu satışlar baskı yaratıyor. ABD/İsrail'in İran'a yeni saldırı planladığı haberi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu etkiler jeopolitik riskin zaten kısmen fiyatlanmış olması ve Fed/dolar etkisinin daha baskın görünmesi nedeniyle sınırlı kalıyor.
 20.11 18:22 N  GPT  score -0.65 conf 0.72: Önümüzdeki saatlerde altın için baskın etkenler, Fed’in daha şahin olabileceği beklentisi ve doların üst üste dördüncü haftalık yükselişe yönelmesi; bunlar altını aşağı çekiyor. İran’a ilişkin yaptırım ve olası çatışma haberleri güvenli liman talebi yaratabilir, ancak yeni bir tırmanış teyit edilmed
 20.11 18:22 B5  SHORT gold 25000 USD x10 @ 3535.27 (TP 3524.67, SL 3542.34; news -0.57)
+20.11 18:28 B5  CLOSE short take profit: +68.95 USD
+20.11 18:28 B6  CLOSE long SPY stop: -1223.81 USD
+20.11 18:28 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde satış baskısı altında ve kısa vadeli momentum aşağı yönlü; zaten sert düşmüş hisselerde kovalamaktan kaçınıyorum.» / GPT «Kısa vadeli görünüm satıcılı; ancak diplerden tepki ve aynı yöne açılan pozisyonların korelasyonu nedeniyle 1:4 kaldıraçta toplam risk sınırlı tutulmalı.»
+20.11 18:28 B6  AÇIĞA SATIŞ QQQ 189 adet ≈ 119,272 $ (1:4) @ 631.07 (TP 621.6, SL 637.38; ikisi de hemfikir, güven 0.55)
+20.11 18:28 B6  AÇIĞA SATIŞ TSLA 330 adet ≈ 119,592 $ (1:4) @ 362.4 (TP 356.96, SL 366.02; ikisi de hemfikir, güven 0.50)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
