@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    5000.0
-   ],
-   [
     1794595979,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795183771,
     5104.97
+   ],
+   [
+    1795183948,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    4868.5
-   ],
-   [
     1794595979,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795183771,
+    4868.5
+   ],
+   [
+    1795183948,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "19.11 20:49 N  GPT  score -0.58 conf 0.68: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131rken, Trump-Putin-Xi bar\u0131\u015f bildirisi g\u00fcvenli liman talebini de azaltabilir. \u0130\u015fsizlik yard\u0131m ba\u015fvurular\u0131ndaki hafif art\u0131\u015f bu g\u00f6r\u00fcn\u00fcm\u00fc k\u0131smen dengelese de k\u0131sa vadeli etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor.",
   "19.11 20:49 B6  karar turu: Claude \u00abPiyasa yakla\u015f\u0131k %1 ekside ve dalgal\u0131. NVIDIA CEO istifas\u0131 ve not indirimleri teknoloji taraf\u0131nda riskten ka\u00e7\u0131nmay\u0131 art\u0131r\u0131yor, bu y\u00fczden hafif negatif e\u011filim korunuyor.\u00bb / GPT \u00abPiyasa dalgal\u0131 ve a\u015fa\u011f\u0131 e\u011filimli; yeni \u015firket haberi bulunmayan uygun sembollerde endeks zay\u0131fl\u0131\u011f\u0131 ile g\u00f6reli g\u00fc\u00e7 ayr\u0131\u015fmas\u0131n\u0131 i\u015flemeyi tercih ediyorum.\u00bb",
   "19.11 21:02 N  NEWS (9 new) score -0.60 conf 0.70: S\u0131cak enflasyon ve Fed'in faiz art\u0131r\u0131m\u0131 ihtimalinin y\u00fckselmesi, dolar\u0131n 19 ayl\u0131k zirvesi ve reel getiri bask\u0131s\u0131 alt\u0131n i\u00e7in net olumsuz. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ancak fiyat hareketinde bask\u0131n de\u011fil; alt\u0131n\u0131n d\u00fc\u015f\u00fc\u015f trendi ve g\u00fcm\u00fc\u015f/alt\u0131n sat\u0131\u015flar\u0131 bunu teyit ediyor.",
   "19.11 21:02 N  GPT  score -0.68 conf 0.72: S\u0131cak enflasyon ve Fed\u2019in daha \u015fahin kalabilece\u011fi beklentisi, y\u00fckselen dolar ve faizler \u00fczerinden alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor. \u0130ran kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebini desteklese de bar\u0131\u015f a\u00e7\u0131klamas\u0131 ve \u00e7eli\u015fkili haber ak\u0131\u015f\u0131 bu deste\u011fi s\u0131n\u0131rl\u0131yor.",
@@ -30208,7 +30207,8 @@
   "20.11 16:56 N  GPT  score -0.25 conf 0.62: Polonya\u2019ya Rus f\u00fczesinin d\u00fc\u015fmesi ve bunun kas\u0131tl\u0131 provokasyon olabilece\u011fi iddias\u0131 g\u00fcvenli liman talebini destekleyebilir. Ancak g\u00fc\u00e7l\u00fc dolar ve Fed\u2019in faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerindeki bask\u0131y\u0131 art\u0131r\u0131yor; sert d\u00fc\u015f\u00fc\u015f haberleriyle birlikte k\u0131sa vadeli etki hafif negatif g\u00f6r\u00fcn\u00fcyor.",
   "20.11 16:56 B5  SHORT gold 25000 USD x10 @ 3566.13 (TP 3555.43, SL 3573.26; news -0.38)",
   "20.11 17:08 N  NEWS (11 new) score -0.50 conf 0.60: Alt\u0131n \u00fczerindeki bask\u0131, Fed'in aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve g\u00fc\u00e7lenen dolar\u0131 yans\u0131tan haberlerden kaynaklan\u0131yor; alt\u0131n 14 ayl\u0131k dibe yakla\u015f\u0131yor ve haftal\u0131k bazda son sekiz ay\u0131n en k\u00f6t\u00fc performans\u0131na gidiyor. Polonya'ya Rus f\u00fczesi d\u00fc\u015fmesi gibi jeopolitik geli\u015fmeler g\u00fcvenli liman talebi yaratabilir, ancak piyasa bu sava\u015f haberlerine ra\u011fmen alt\u0131n\u0131 satmaya devam ediyor, bu nedenle etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
-  "20.11 17:08 N  GPT  score +0.15 conf 0.53: Polonya\u2019ya Rus f\u00fczesinin isabet etmesi ve Ukrayna\u2019ya y\u00f6nelik b\u00fcy\u00fck sald\u0131r\u0131, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak g\u00fc\u00e7l\u00fc dolar ve Fed\u2019in daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimali alt\u0131n \u00fczerinde bask\u0131 kuruyor; etkiler bu nedenle dengeli ve belirsiz."
+  "20.11 17:08 N  GPT  score +0.15 conf 0.53: Polonya\u2019ya Rus f\u00fczesinin isabet etmesi ve Ukrayna\u2019ya y\u00f6nelik b\u00fcy\u00fck sald\u0131r\u0131, k\u0131sa vadede g\u00fcvenli liman talebini art\u0131rabilir. Ancak g\u00fc\u00e7l\u00fc dolar ve Fed\u2019in daha b\u00fcy\u00fck faiz art\u0131\u015f\u0131 ihtimali alt\u0131n \u00fczerinde bask\u0131 kuruyor; etkiler bu nedenle dengeli ve belirsiz.",
+  "20.11 17:12 B5  CLOSE short stop: -56.06 USD"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    4963.78
-   ],
-   [
     1794595979,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795183771,
+    4963.78
+   ],
+   [
+    1795183948,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    4975.18
-   ],
-   [
     1794595979,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795183771,
+    4975.18
+   ],
+   [
+    1795183948,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    4993.28
-   ],
-   [
     1794595979,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795183771,
+    4993.28
+   ],
+   [
+    1795183948,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794595799,
-    4969.22
-   ],
-   [
     1794595979,
     4969.22
    ],
@@ -78794,6 +78790,10 @@
    [
     1795183771,
     4969.22
+   ],
+   [
+    1795183948,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78803,25 +78803,9 @@
  },
  "gold_consensus": {
   "account": {
-   "balance": 5245.761868414693,
+   "balance": 5189.700307318153,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "0dbe7838",
-     "symbol": "PAXGUSDT",
-     "side": "short",
-     "qty": 7.0104073102674445,
-     "entry": 3566.126602,
-     "tp": 3555.4282221939998,
-     "sl": 3573.2588552039997,
-     "opened_ms": 1795183018066,
-     "entry_cost": 0.0,
-     "max_hold_min": 360,
-     "margin": 2500.0,
-     "note": "news -0.38/0.60",
-     "friction": 12.1055
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82707,21 +82691,38 @@
      "gross": -62.2147,
      "costs": 0.0,
      "pnl": -62.2147
+    },
+    {
+     "id": "0dbe7838",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 7.0104073102674445,
+     "entry": 3566.126602,
+     "tp": 3555.4282221939998,
+     "sl": 3573.2588552039997,
+     "opened_ms": 1795183018066,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.38/0.60",
+     "friction": 12.1055,
+     "exit": 3574.1235069750405,
+     "closed_ms": 1795183920000,
+     "reason": "stop",
+     "gross": -56.0616,
+     "costs": 0.0,
+     "pnl": -56.0616
     }
    ],
    "day": {
     "date": "2026-11-20",
     "trades": 33,
-    "pnl": 193.3812738428957,
+    "pnl": 137.31971274635623,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794595799,
-    4545.26
-   ],
    [
     1794595979,
     4545.26
@@ -94717,6 +94718,10 @@
    [
     1795183771,
     5246.65
+   ],
+   [
+    1795183948,
+    5189.7
    ]
   ],
   "news_calls": {
@@ -96199,10 +96204,6 @@
    "equity": 120538.72
   },
   "equity_curve": [
-   [
-    1794595799,
-    114813.54
-   ],
    [
     1794595979,
     114847.14
@@ -108198,6 +108199,10 @@
    [
     1795183771,
     120538.72
+   ],
+   [
+    1795183948,
+    120538.72
    ]
   ],
   "open": {},
@@ -108328,10 +108333,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794595799,
-    4876.96
-   ],
    [
     1794595979,
     4876.96
@@ -120326,6 +120327,10 @@
    ],
    [
     1795183771,
+    4876.96
+   ],
+   [
+    1795183948,
     4876.96
    ]
   ],

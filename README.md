@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 17:09 (İstanbul)
+> Son güncelleme: 20.11.2026 17:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -25,14 +25,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +193.38 $ | +245.76 $ |
-| İşlem sayısı | 32 | 185 |
-| Kazanma oranı | %50.0 | %45.9 |
-| Ödenen komisyon/spread | 387.34 $ | 2210.27 $ |
+| Net kâr/zarar | +137.32 $ | +189.70 $ |
+| İşlem sayısı | 33 | 186 |
+| Kazanma oranı | %48.5 | %45.7 |
+| Ödenen komisyon/spread | 399.45 $ | 2222.37 $ |
 
-**Hesap değeri: 5,246.65 $** (başlangıç 5,000 $, +246.65 $ / %+4.93)
-
-Açık pozisyonlar: PAXGUSDT short @ 3566.13 (TP 3555.43 / SL 3573.26)
+**Hesap değeri: 5,189.70 $** (başlangıç 5,000 $, +189.70 $ / %+3.79)
 
 Son haber analizi (20.11 17:08): Claude puan **-0.50**, güven 0.60 — Altın üzerindeki baskı, Fed'in aralık ayında faiz artırımı ihtimallerinin yükselmesi ve güçlenen doları yansıtan haberlerden kaynaklanıyor; altın 14 aylık dibe yaklaşıyor ve haftalık bazda son sekiz ayın en kötü performansına gidiyor. Polonya'ya Rus füzesi düşmesi gibi jeopolitik gelişmeler güvenli liman talebi yaratabilir, ancak piyasa bu savaş haberlerine rağmen altını satmaya devam ediyor, bu nedenle etkisi sınırlı kalıyor.
 
@@ -42,11 +40,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 17:12 | PAXGUSDT | short | -56.06 $ | stop |
 | 20.11 16:50 | PAXGUSDT | short | -62.21 $ | stop (gap) |
 | 20.11 16:23 | PAXGUSDT | short | +68.96 $ | take profit |
 | 20.11 10:41 | PAXGUSDT | short | -56.07 $ | stop |
 | 20.11 08:46 | PAXGUSDT | short | -56.08 $ | stop |
-| 20.11 08:37 | PAXGUSDT | short | -56.08 $ | stop |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -96,7 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 16:20 N  NEWS (5 new) score -0.50 conf 0.60: Altın üzerindeki baskı ağırlıklı olarak Fed'in faiz artırımı beklentileri ve güçlenen doların kaynaklandığı için negatif. Ukrayna'da Polonya'ya füze isabeti ve ABD/İsrail'in İran'a yeni saldırı ihtimali jeopolitik risk primi yaratıp altı destekleyebilir, ancak bu etki haberlerde zaten büyük ölçüde fiyatlanmış görünüyor ve kısa vadede baskın etki olmayacak.
 20.11 16:20 N  GPT  score +0.20 conf 0.42: Ukrayna’ya yönelik yoğun saldırılar ve Polonya’ya füze düşmesi, kısa vadede güvenli liman talebini artırabilir. Ancak güçlü dolar ve Fed’in faiz artırımı beklentileri altındaki yükselişi sınırlıyor; etkiler çelişkili.
 20.11 16:23 B5  CLOSE short take profit: +68.96 USD
 20.11 16:33 N  NEWS (11 new) score -0.60 conf 0.70: Piyasa, Fed'in faiz artırımı beklentilerinin güçlenmesi ve dolardaki yükselişin etkisiyle altını 14 aylık dibe itiyor; bu baskın hawkish-dolar etkisi, Polonya'ya düşen Rus füzesi gibi jeopolitik gerilimlerin sınırlı güvenli liman talebinden daha ağır basıyor. Bu haberlerin çoğu zaten fiyatlanmış olduğundan güven orta-yüksek seviyede tutuldu.
@@ -111,6 +108,7 @@ Son işlemler:
 20.11 16:56 B5  SHORT gold 25000 USD x10 @ 3566.13 (TP 3555.43, SL 3573.26; news -0.38)
 20.11 17:08 N  NEWS (11 new) score -0.50 conf 0.60: Altın üzerindeki baskı, Fed'in aralık ayında faiz artırımı ihtimallerinin yükselmesi ve güçlenen doları yansıtan haberlerden kaynaklanıyor; altın 14 aylık dibe yaklaşıyor ve haftalık bazda son sekiz ayın en kötü performansına gidiyor. Polonya'ya Rus füzesi düşmesi gibi jeopolitik gelişmeler güvenli liman talebi yaratabilir, ancak piyasa bu savaş haberlerine rağmen altını satmaya devam ediyor, bu nedenle etkisi sınırlı kalıyor.
 20.11 17:08 N  GPT  score +0.15 conf 0.53: Polonya’ya Rus füzesinin isabet etmesi ve Ukrayna’ya yönelik büyük saldırı, kısa vadede güvenli liman talebini artırabilir. Ancak güçlü dolar ve Fed’in daha büyük faiz artışı ihtimali altın üzerinde baskı kuruyor; etkiler bu nedenle dengeli ve belirsiz.
+20.11 17:12 B5  CLOSE short stop: -56.06 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
