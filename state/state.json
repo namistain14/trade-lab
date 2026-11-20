@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    5000.0
-   ],
-   [
     1794547141,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795134775,
     5108.69
+   ],
+   [
+    1795134943,
+    5108.47
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    4868.5
-   ],
-   [
     1794547141,
     4868.5
    ],
@@ -27120,6 +27116,10 @@
    ],
    [
     1795134775,
+    4868.5
+   ],
+   [
+    1795134943,
     4868.5
    ]
   ],
@@ -29904,7 +29904,6 @@
   ]
  },
  "log": [
-  "19.11 10:20 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBt8kCHLUgnWEsF3LmbJ'}",
   "19.11 10:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBtMyx84XjNJNNzKBbsC'}",
   "19.11 10:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBtbGuTBjeXyjNxdFwdG'}",
   "19.11 10:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBtpZxFAnHdXAMuQM9jU'}",
@@ -30203,7 +30202,8 @@
   "20.11 03:20 N  GPT  score -0.18 conf 0.34: Alt\u0131n, y\u00fckselen tahvil getirileri ve \u015fahin Fed beklentileriyle zaten bask\u0131 alt\u0131nda; man\u015fetlerde bu g\u00f6r\u00fcn\u00fcm\u00fc de\u011fi\u015ftirecek yeni bir Fed veya enflasyon sinyali yok. Yemen\u2019deki \u00e7at\u0131\u015fma g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak etkisi s\u0131n\u0131rl\u0131 ve haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut riskleri yans\u0131t",
   "20.11 03:29 B5  CLOSE short take profit: +68.98 USD",
   "20.11 03:32 N  NEWS (8 new) score -0.55 conf 0.65: ",
-  "20.11 03:32 N  GPT  score -0.38 conf 0.62: Dolar\u0131n \u00fcst \u00fcste d\u00f6rd\u00fcnc\u00fc haftal\u0131k y\u00fckseli\u015fe y\u00f6nelmesi ve \u00f6nceki haberlerde \u00f6ne \u00e7\u0131kan \u015fahin Fed beklentileri, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Jeopolitik riskler g\u00fcvenli liman talebini desteklese de alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc bu etkinin \u015fimdilik s\u0131n\u0131rl\u0131 kald\u0131\u011f\u0131n\u0131 g\u00f6steriyor."
+  "20.11 03:32 N  GPT  score -0.38 conf 0.62: Dolar\u0131n \u00fcst \u00fcste d\u00f6rd\u00fcnc\u00fc haftal\u0131k y\u00fckseli\u015fe y\u00f6nelmesi ve \u00f6nceki haberlerde \u00f6ne \u00e7\u0131kan \u015fahin Fed beklentileri, k\u0131sa vadede alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Jeopolitik riskler g\u00fcvenli liman talebini desteklese de alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc bu etkinin \u015fimdilik s\u0131n\u0131rl\u0131 kald\u0131\u011f\u0131n\u0131 g\u00f6steriyor.",
+  "20.11 03:35 B5  SHORT gold 25000 USD x10 @ 3599.46 (TP 3588.66, SL 3606.66; news -0.47)"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    4963.78
-   ],
-   [
     1794547141,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795134775,
+    4963.78
+   ],
+   [
+    1795134943,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    4975.18
-   ],
-   [
     1794547141,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795134775,
+    4975.18
+   ],
+   [
+    1795134943,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    4993.28
-   ],
-   [
     1794547141,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795134775,
+    4993.28
+   ],
+   [
+    1795134943,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794546950,
-    4969.22
-   ],
-   [
     1794547141,
     4969.22
    ],
@@ -78789,6 +78785,10 @@
    [
     1795134775,
     4969.22
+   ],
+   [
+    1795134943,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78800,7 +78800,23 @@
   "account": {
    "balance": 5173.084774924504,
    "start": 5000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "9353e71c",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.945486394737572,
+     "entry": 3599.459934,
+     "tp": 3588.661554198,
+     "sl": 3606.658853868,
+     "opened_ms": 1795134942872,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.47/0.62",
+     "friction": 12.0861
+    }
+   ],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82207,17 +82223,13 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "trades": 9,
+    "trades": 10,
     "pnl": 120.7041803527085,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794546950,
-    4633.8
-   ],
    [
     1794547141,
     4612.37
@@ -94213,6 +94225,10 @@
    [
     1795134775,
     5173.08
+   ],
+   [
+    1795134943,
+    5167.04
    ]
   ],
   "news_calls": {
@@ -95695,10 +95711,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794546950,
-    113945.8
-   ],
    [
     1794547141,
     113945.8
@@ -107694,6 +107706,10 @@
    [
     1795134775,
     120564.69
+   ],
+   [
+    1795134943,
+    120564.69
    ]
   ],
   "open": {},
@@ -107876,10 +107892,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794546950,
-    4876.96
-   ],
    [
     1794547141,
     4876.96
@@ -119874,6 +119886,10 @@
    ],
    [
     1795134775,
+    4876.96
+   ],
+   [
+    1795134943,
     4876.96
    ]
   ],
