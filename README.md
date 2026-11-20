@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:05 (İstanbul)
+> Son güncelleme: 20.11.2026 03:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,100.75 $** (başlangıç 5,000 $, +100.75 $ / %+2.01)
+**Hesap değeri: 5,102.95 $** (başlangıç 5,000 $, +102.95 $ / %+2.06)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -31,11 +31,13 @@ Son işlemler:
 | Kazanma oranı | %57.1 | %45.6 |
 | Ödenen komisyon/spread | 84.53 $ | 1907.45 $ |
 
-**Hesap değeri: 5,160.16 $** (başlangıç 5,000 $, +160.16 $ / %+3.20)
+**Hesap değeri: 5,154.12 $** (başlangıç 5,000 $, +154.12 $ / %+3.08)
 
-Son haber analizi (20.11 02:56): Claude puan **-0.70**, güven 0.70 — Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
+Açık pozisyonlar: PAXGUSDT short @ 3607.31 (TP 3596.49 / SL 3614.52)
 
-GPT (gpt-6-luna): puan **-0.70**, güven 0.78 — Fed yetkililerinin enflasyon ve olası daha büyük faiz artışlarına ilişkin şahin mesajları dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı yaratıyor; altının yeni dipleri test etmesi bu eğilimi doğruluyor. 2027’ye yönelik olumlu fiyat tahminleri kısa vadede sınırlı etki taşırken, Rus
+Son haber analizi (20.11 03:08): Claude puan **-0.50**, güven 0.60 — Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
+
+GPT (gpt-6-luna): puan **-0.22**, güven 0.43 — Chicago Fed yetkilisinin ekonomide aşırı ısınma kaygısını vurgulaması, faizlerin yüksek kalacağı beklentisini ve altın üzerindeki baskıyı destekliyor. İran savaşına ilişkin yetkilerin kısıtlanmaması güvenli liman talebini artırabilir; bu karşıt etkiler nedeniyle görünüm hafif negatif.
 
 Son işlemler:
 
@@ -95,9 +97,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:13 B5  CLOSE short take profit: +68.98 USD
-20.11 02:19 N  NEWS (11 new) score -0.60 conf 0.60: Altın 14 aylık dibe yakın seyrediyor; güçlü dolar ve Fed'in art arda faiz artırımı beklentisi (Barclays) reel faiz baskısını artırıyor. Iran ve Ukrayna savaşı haberleri jeopolitik güvenli liman talebi yaratması gerekirken altını yukarı taşımıyor, bu yüzden baskın etki hawkish Fed ve dolar tarafında görünüyor.
-20.11 02:19 N  GPT  score -0.55 conf 0.68: Güçlü dolar ve faiz artışı beklentileri altın üzerinde baskı kuruyor; fiyatın yılın/14 ayın diplerine gerilemesi kısa vadeli satış eğilimini destekliyor. İran ve Ukrayna kaynaklı jeopolitik riskler güvenli liman talebi yaratabilir, ancak yeni başlıklar bu baskıyı şimdilik dengeleyecek kadar belirgin
 20.11 02:19 B5  SHORT gold 25000 USD x10 @ 3624.51 (TP 3613.64, SL 3631.76; news -0.57)
 20.11 02:31 N  NEWS (6 new) score -0.60 conf 0.70: Altın, sert Fed'e bağlı şahin sinyaller, güçlenen dolar ve yükselen tahvil getirileri nedeniyle 14 aylık dibe ($3.650 altı) geriledi; ETF çıkışları da baskı yaratıyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyecek nitelikte olsa da, piyasada bu jeopolitik etki fiyatlamaya yansımıyor, bu yüzden kısa vadede ağırlık düşüş yönünde.
 20.11 02:31 N  GPT  score -0.58 conf 0.72: Hawkish Fed beklentileri, yükselen tahvil getirileri ve güçlü dolar altını kısa vadede baskılıyor; 14 ayın dibine gerileme satış momentumunu destekliyor. İran savaşı ve Suudi Arabistan’daki saldırı güvenli liman talebini artırabilir, ancak şu an bu etki faiz ve dolar baskısını dengeleyemiyor.
@@ -110,6 +109,9 @@ Son işlemler:
 20.11 02:56 N  NEWS (26 new) score -0.70 conf 0.70: Fed'in sıkılaştırma yönündeki açıklamaları (Goolsbee'nin büyük faiz artırımlarını dışlamaması, Barr'ın ek politika ayarı çağrısı, Barclays'in art arda faiz artırımı beklentisi), güçlü doların ve yükselen tahvil getirilerinin altını 14 aylık dibe ve 3600 dolar seviyesine itmesi nedeniyle kısa vadede ciddi bir baskı var. Bu haberlerin büyük kısmı zaten fiyatlandığı için düşüşün devam etme olasılığı yüksek olsa da, aşırı satım sonrası kısa süreli tepki alımları riski nedeniyle güven orta seviyede tutuldu.
 20.11 02:56 N  GPT  score -0.70 conf 0.78: Fed yetkililerinin enflasyon ve olası daha büyük faiz artışlarına ilişkin şahin mesajları dolar ile tahvil getirilerini destekleyerek altın üzerinde baskı yaratıyor; altının yeni dipleri test etmesi bu eğilimi doğruluyor. 2027’ye yönelik olumlu fiyat tahminleri kısa vadede sınırlı etki taşırken, Rus
 20.11 03:02 B5  CLOSE short stop: -56.05 USD
+20.11 03:08 N  NEWS (26 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Chicago Fed Başkanı ekonominin aşırı ısınmasından ve yüksek enflasyondan endişe duyuyor (şahin), dolar yeni zirvelere yakın ve tahvil faizleri yükseliyor, altın 14 ayın dibine indi. İran savaşının sürmesi ve savaş yetkisi oylamasının reddi sınırlı güvenli liman talebi yaratabilir, ancak bu etki büyük ölçüde fiyatlanmış durumda.
+20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide aşırı ısınma kaygısını vurgulaması, faizlerin yüksek kalacağı beklentisini ve altın üzerindeki baskıyı destekliyor. İran savaşına ilişkin yetkilerin kısıtlanmaması güvenli liman talebini artırabilir; bu karşıt etkiler nedeniyle görünüm hafif negatif.
+20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    5000.0
-   ],
-   [
     1794545330,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795133107,
     5100.75
+   ],
+   [
+    1795133297,
+    5102.95
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    4868.5
-   ],
-   [
     1794545330,
     4868.5
    ],
@@ -27121,14 +27117,18 @@
    [
     1795133107,
     4868.5
+   ],
+   [
+    1795133297,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.7,
-   "confidence": 0.7,
-   "reason": "Fed'in s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 (Goolsbee'nin b\u00fcy\u00fck faiz art\u0131r\u0131mlar\u0131n\u0131 d\u0131\u015flamamas\u0131, Barr'\u0131n ek politika ayar\u0131 \u00e7a\u011fr\u0131s\u0131, Barclays'in art arda faiz art\u0131r\u0131m\u0131 beklentisi), g\u00fc\u00e7l\u00fc dolar\u0131n ve y\u00fckselen tahvil getirilerinin alt\u0131n\u0131 14 ayl\u0131k dibe ve 3600 dolar seviyesine itmesi nedeniyle k\u0131sa vadede ciddi bir bask\u0131 var. Bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131\u011f\u0131 i\u00e7in d\u00fc\u015f\u00fc\u015f\u00fcn devam etme olas\u0131l\u0131\u011f\u0131 y\u00fcksek olsa da, a\u015f\u0131r\u0131 sat\u0131m sonras\u0131 k\u0131sa s\u00fcreli tepki al\u0131mlar\u0131 riski nedeniyle g\u00fcven orta seviyede tutuldu.",
+   "score": -0.5,
+   "confidence": 0.6,
+   "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Chicago Fed Ba\u015fkan\u0131 ekonominin a\u015f\u0131r\u0131 \u0131s\u0131nmas\u0131ndan ve y\u00fcksek enflasyondan endi\u015fe duyuyor (\u015fahin), dolar yeni zirvelere yak\u0131n ve tahvil faizleri y\u00fckseliyor, alt\u0131n 14 ay\u0131n dibine indi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve sava\u015f yetkisi oylamas\u0131n\u0131n reddi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
    "n": 45,
-   "ts": 1795132574040,
+   "ts": 1795133296467,
    "new_headlines": 26,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe (3.650$ alt\u0131) \u015fahin Fed sinyalleriyle geriledi",
@@ -27136,13 +27136,13 @@
     "Barclays: ard\u0131\u015f\u0131k Fed art\u0131\u015flar\u0131 dolar\u0131 destekliyor; dolar yeni zirveye yak\u0131n"
    ],
    "gpt": {
-    "score": -0.7,
-    "confidence": 0.78,
-    "reason": "Fed yetkililerinin enflasyon ve olas\u0131 daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131na ili\u015fkin \u015fahin mesajlar\u0131 dolar ile tahvil getirilerini destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n\u0131n yeni dipleri test etmesi bu e\u011filimi do\u011fruluyor. 2027\u2019ye y\u00f6nelik olumlu fiyat tahminleri k\u0131sa vadede s\u0131n\u0131rl\u0131 etki ta\u015f\u0131rken, Rus",
+    "score": -0.22,
+    "confidence": 0.43,
+    "reason": "Chicago Fed yetkilisinin ekonomide a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131n\u0131 vurgulamas\u0131, faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131na ili\u015fkin yetkilerin k\u0131s\u0131tlanmamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir; bu kar\u015f\u0131t etkiler nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif.",
     "key_events": [
-     "Fed\u2019den \u015fahin faiz ve enflasyon mesajlar\u0131",
-     "Alt\u0131n 14 ay\u0131n diplerine geriledi",
-     "Dolar ve tahvil getirileri g\u00fc\u00e7l\u00fc"
+     "Chicago Fed\u2019den enflasyon ve a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131",
+     "\u0130ran\u2019a y\u00f6nelik asker\u00ee eylemi engelleme giri\u015fimi reddedildi",
+     "Jeopolitik risk alt\u0131n\u0131 destekleyebilir"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794862168338,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Alt\u0131n 13 ayl\u0131k/bir y\u0131ll\u0131k dip seviyelerine geriledi; g\u00fc\u00e7l\u00fc dolar, artan Fed faiz art\u0131r\u0131m\u0131 beklentileri ve \"hawkish Fed\" g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n\u0131 bask\u0131l\u0131yor. Merkez bankas\u0131 al\u0131mlar\u0131 ve d\u00fc\u015f\u00fck fiyat kaynakl\u0131 al\u0131m ilgisi k\u0131smen destek olsa da k\u0131sa vadede bask\u0131 a\u011f\u0131r bas\u0131yor; sava\u015f/jeopolitik haberler (K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc sald\u0131r\u0131s\u0131) ise s\u0131n\u0131rl\u0131 g\u00fcvenli liman etkisi yarat\u0131yor.",
-    "new": 36,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794862933638,
     "score": -0.6,
@@ -29849,64 +29840,70 @@
     "new": 26,
     "gpt_score": -0.7,
     "gpt_confidence": 0.78
+   },
+   {
+    "ts": 1795133296467,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Chicago Fed Ba\u015fkan\u0131 ekonominin a\u015f\u0131r\u0131 \u0131s\u0131nmas\u0131ndan ve y\u00fcksek enflasyondan endi\u015fe duyuyor (\u015fahin), dolar yeni zirvelere yak\u0131n ve tahvil faizleri y\u00fckseliyor, alt\u0131n 14 ay\u0131n dibine indi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve sava\u015f yetkisi oylamas\u0131n\u0131n reddi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+    "new": 26,
+    "gpt_score": -0.22,
+    "gpt_confidence": 0.43
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 14
+   "n": 15
   },
   "news_seen": [
+   "Opinion | Anthropic\u2019s IPO is worth celebrating. So is the Fed\u2019s caution. - The Washington Post",
+   "Settler leader says municipality\u2019s foreign currency accounts frozen due to UK sanctions - The Times of Israel",
    "How did Anthropic's stock market debut unfold?",
    "Trump posthumously pardons US baseball legend Pete Rose",
+   "Beijing builds another South China Sea war base as Washington looks the other way - Yahoo",
+   "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios",
+   "Chicago Fed President says overheating economy worries him more than gas prices - WRTV",
    "Gold Price Forecasts For 2027: UBS At $5,000, Goldman Sachs At $4,650 - Exchange Rates UK",
+   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
+   "Kushner Exposed Over Secret War Windfall - The Daily Beast",
    "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027 - Bloomberg.com",
+   "Fed's Paulson says understanding, not guidance, drives effective communication - Hilton Head Island Packet",
    "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "Soldiers Test New Medical Training Program - U.S. Department of War (.gov)",
    "AI is fueling \"disturbingly high\" inflation, Chicago Fed president says - CBS News",
    "Gold Prices Today In Hyderabad: 22K, 24K Rates - INDToday",
-   "Gold Tests 3600 Level Amid Dollar Strength and Fed Hike Expectations - KuCoin",
    "Anthropic becomes one of world's most valuable public companies in stock market debut",
+   "Tom McClellan: New article explores Doctor Copper and Federal Reserve surprise - Traders Union",
+   "Opinion | In Ukraine, the drones are flying faster than the diplomacy - The Washington Post",
    "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+   "US: Cost of war in Iran passes $48 billion not including damage to infrastructure - DW.com",
+   "Senate Republicans Reject War Powers Resolution Requiring Trump to End Iran War: 11 outlets compared - NewsCord",
    "Gold falls to 14-month low below $3,650 on hawkish Fed signals - FXStreet",
+   "Iran resolution blocked in first war powers vote since midterms - Roll Call",
+   "Trump says Putin wants peace in Ukraine even as Putin vows to fight - The Washington Post",
+   "\u201cI\u2019m in Preparation for the End of Our World\u201d: Golshifteh Farahani on Art, War and Her Tallinn Premiere - The Hollywood Reporter",
    "Gold and Bitcoin Prices Drop Amid Rising US Bond Yields and ETF Outflows - KuCoin",
+   "Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - video - The Guardian",
+   "Contracts for Nov. 19, 2026 - U.S. Department of War (.gov)",
    "Antam Gold Price Today November 20, 2026: Up or Down? Check the Latest 1 Gram and Buyback Prices - Aktualita.co",
+   "Reframe the War on PRRS: \u201cIt Won\u2019t Happen Solely Through Biosecurity, But It Won\u2019t Happen Without It\u201d - Pork Business",
    "California targets Nvidia in China AI chip probe",
-   "SGX gold-linked counters lose their shine as the precious metal hits one-year low - The Business Times",
+   "Israel's settlement expansion backfires as UK, Australia impose sanctions, winning backing from 5 African nations and 11 other countries - Business Insider Africa",
+   "At China summit, Trump calls Putin 'my friend' amid Ukraine war - ABC News - Breaking News, Latest News and Videos",
    "Gold price update morning of November 20th: Price decreases, approaching the lowest level in the session - Laodong.vn",
+   "SGX gold-linked counters lose their shine as the precious metal hits one-year low - The Business Times",
+   "FILM SCENE | OPINION: Gaza war documentary \u2018NAZA\u2019 shows toll on Palestinians from Israeli soldiers\u2019 perspective - The Arkansas Democrat-Gazette",
+   "Thursday, November 19. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes",
    "From premature baby to social media star - Famed hippo Fiona dies",
    "U.S. Dollar Tested New Highs: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
+   "War Child Australia\u2019s Star-Studded \u2018Forever Young\u2019 Charity Album Is Out Now - Rolling Stone Australia",
+   "Indigent defenders: Crumbley attorney sanctions chill advocacy in court - The Detroit News",
+   "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
    "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
-   "Gold prices fall sharply - Apa.az",
-   "Opinion | Anthropic\u2019s IPO is worth celebrating. So is the Fed\u2019s caution. - The Washington Post",
-   "Barclays: Back-to-back Fed hikes give the dollar staying power that a jumbo 50bp move wouldn\u2019t - investingLive",
-   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Tests Yearly Lows As Sell-Off Continues - FXEmpire",
-   "Gold prices today, November 20, 2026: Price list for SJC gold bars, 9999 gold rings, and international gold prices. - Vietnam.vn",
-   "Canadian dollar steadies near 19-month low as stocks slide - Kitco",
-   "Fed\u2019s Jefferson says AI build-out \u2018exerting upward pressure\u2019 on inflation - The Hill",
-   "Gold falls below $3,650, silver tumbles as Fed rate concerns pressure metals - Kitco PM Report - Kitco",
-   "Mexican Peso Hits 17-Month Low as Fed Outlook Rattles Markets - Bloomberg.com",
-   "Fed\u2019s Goolsbee Won\u2019t Rule Out Larger Rate Increases as Inflation Risks Mount - Barron's",
-   "Gold-silver prices could see reversal rally after steep decline, Peter Spina warns - Traders Union",
-   "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says - Reuters",
-   "Gold Plunges More Than 30% This Year as UBS Cuts End-2026 Target to $4,500 - BigGo Finance",
-   "NEAR slips as US inflation surprise and Fed policy add risk for crypto via higher Treasury yields - Traders Union",
-   "Gold the top commodity pick for 2027 even as broader commodities likely to underperform \u2013 Morgan Stanley - Kitco",
-   "African Currencies Mixed As US Dollar Surge Hits Rand, Naira - MarketForces Africa",
-   "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-   "Barr says Fed downsizing could hamper response to future crises - American Banker",
-   "Fed's Barr worried regulatory changes may increase financial sector risks - Reuters",
-   "Fed\u2019s Goolsbee Says All Options on FOMC Table Amid Hot Inflation - Bloomberg.com",
-   "Federal Reserve Bank of Chicago President Austan Goolsbee is interviewed on the sidelines of the Kansas City Fed's annual economic symposium, in Jackson Hole - The Lufkin Daily News",
-   "Gold Price Hits 14-Month Low as Fed Rate Hike Fears Strengthen US Dollar - Investing News Network",
-   "Dollar Slips From 19-Month Peak as Anthropic Debut Lifts Risk Appetite; Yen Eases - BigGo Finance",
-   "Fed's Goolsbee says AI surge could strain US capacity, overheat economy - Yahoo",
-   "Fed's Barr Says Inflation Calls for Further Policy Adjustment - marketscreener.com",
-   "Dollar Firms on Weak Stocks and Hawkish Fed - Barchart.com"
+   "Ending the Iran War Is Donald Trump\u2019s Least Worst Option. Here\u2019s Why. - The National Interest"
   ]
  },
  "log": [
-  "19.11 09:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBr2Y8qftn5U9QNTg9xm'}",
-  "19.11 09:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBrFtPc56tzNudYrFueR'}",
-  "19.11 09:59 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBrV7iujdKKerf4SkBFn'}",
   "19.11 10:02 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBriNdxaQjf6w9NDGeaG'}",
   "19.11 10:05 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBrwicrfCR6ACfb7jjTg'}",
   "19.11 10:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsAx4b8CJQqkTx8NYw3'}",
@@ -30203,7 +30200,10 @@
   "20.11 02:47 B5  SHORT gold 25000 USD x10 @ 3596.97 (TP 3586.18, SL 3604.16; news -0.47)",
   "20.11 02:56 N  NEWS (26 new) score -0.70 conf 0.70: Fed'in s\u0131k\u0131la\u015ft\u0131rma y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 (Goolsbee'nin b\u00fcy\u00fck faiz art\u0131r\u0131mlar\u0131n\u0131 d\u0131\u015flamamas\u0131, Barr'\u0131n ek politika ayar\u0131 \u00e7a\u011fr\u0131s\u0131, Barclays'in art arda faiz art\u0131r\u0131m\u0131 beklentisi), g\u00fc\u00e7l\u00fc dolar\u0131n ve y\u00fckselen tahvil getirilerinin alt\u0131n\u0131 14 ayl\u0131k dibe ve 3600 dolar seviyesine itmesi nedeniyle k\u0131sa vadede ciddi bir bask\u0131 var. Bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatland\u0131\u011f\u0131 i\u00e7in d\u00fc\u015f\u00fc\u015f\u00fcn devam etme olas\u0131l\u0131\u011f\u0131 y\u00fcksek olsa da, a\u015f\u0131r\u0131 sat\u0131m sonras\u0131 k\u0131sa s\u00fcreli tepki al\u0131mlar\u0131 riski nedeniyle g\u00fcven orta seviyede tutuldu.",
   "20.11 02:56 N  GPT  score -0.70 conf 0.78: Fed yetkililerinin enflasyon ve olas\u0131 daha b\u00fcy\u00fck faiz art\u0131\u015flar\u0131na ili\u015fkin \u015fahin mesajlar\u0131 dolar ile tahvil getirilerini destekleyerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n\u0131n yeni dipleri test etmesi bu e\u011filimi do\u011fruluyor. 2027\u2019ye y\u00f6nelik olumlu fiyat tahminleri k\u0131sa vadede s\u0131n\u0131rl\u0131 etki ta\u015f\u0131rken, Rus",
-  "20.11 03:02 B5  CLOSE short stop: -56.05 USD"
+  "20.11 03:02 B5  CLOSE short stop: -56.05 USD",
+  "20.11 03:08 N  NEWS (26 new) score -0.50 conf 0.60: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Chicago Fed Ba\u015fkan\u0131 ekonominin a\u015f\u0131r\u0131 \u0131s\u0131nmas\u0131ndan ve y\u00fcksek enflasyondan endi\u015fe duyuyor (\u015fahin), dolar yeni zirvelere yak\u0131n ve tahvil faizleri y\u00fckseliyor, alt\u0131n 14 ay\u0131n dibine indi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve sava\u015f yetkisi oylamas\u0131n\u0131n reddi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+  "20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131n\u0131 vurgulamas\u0131, faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131na ili\u015fkin yetkilerin k\u0131s\u0131tlanmamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir; bu kar\u015f\u0131t etkiler nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif.",
+  "20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    4963.78
-   ],
-   [
     1794545330,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795133107,
+    4963.78
+   ],
+   [
+    1795133297,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    4975.18
-   ],
-   [
     1794545330,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795133107,
+    4975.18
+   ],
+   [
+    1795133297,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    4993.28
-   ],
-   [
     1794545330,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795133107,
+    4993.28
+   ],
+   [
+    1795133297,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794545150,
-    4969.22
-   ],
-   [
     1794545330,
     4969.22
    ],
@@ -78789,6 +78785,10 @@
    [
     1795133107,
     4969.22
+   ],
+   [
+    1795133297,
+    4969.22
    ]
   ],
   "news_calls": {
@@ -78800,7 +78800,23 @@
   "account": {
    "balance": 5160.155822241959,
    "start": 5000.0,
-   "positions": [],
+   "positions": [
+    {
+     "id": "7fa9cff7",
+     "symbol": "PAXGUSDT",
+     "side": "short",
+     "qty": 6.930375082289473,
+     "entry": 3607.3083639999995,
+     "tp": 3596.4864389079994,
+     "sl": 3614.5229807279993,
+     "opened_ms": 1795133296887,
+     "entry_cost": 0.0,
+     "max_hold_min": 360,
+     "margin": 2500.0,
+     "note": "news -0.36/0.43",
+     "friction": 12.0815
+    }
+   ],
    "trades": [
     {
      "id": "f6f333ef",
@@ -82165,17 +82181,13 @@
    ],
    "day": {
     "date": "2026-11-20",
-    "trades": 7,
+    "trades": 8,
     "pnl": 107.77522767016373,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545150,
-    4664.36
-   ],
    [
     1794545330,
     4657.38
@@ -94171,6 +94183,10 @@
    [
     1795133107,
     5160.16
+   ],
+   [
+    1795133297,
+    5154.12
    ]
   ],
   "news_calls": {
@@ -95653,10 +95669,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794545150,
-    113945.8
-   ],
    [
     1794545330,
     113945.8
@@ -107652,6 +107664,10 @@
    [
     1795133107,
     120564.69
+   ],
+   [
+    1795133297,
+    120564.69
    ]
   ],
   "open": {},
@@ -107834,10 +107850,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545150,
-    4876.96
-   ],
    [
     1794545330,
     4876.96
@@ -119832,6 +119844,10 @@
    ],
    [
     1795133107,
+    4876.96
+   ],
+   [
+    1795133297,
     4876.96
    ]
   ],
