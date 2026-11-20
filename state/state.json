@@ -51,10 +51,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    5000.0
-   ],
-   [
     1794546054,
     5000.0
    ],
@@ -12049,6 +12045,10 @@
    [
     1795133825,
     5100.75
+   ],
+   [
+    1795134015,
+    5099.87
    ]
   ],
   "archive": [
@@ -15123,10 +15123,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    4868.5
-   ],
-   [
     1794546054,
     4868.5
    ],
@@ -27121,28 +27117,32 @@
    [
     1795133825,
     4868.5
+   ],
+   [
+    1795134015,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.5,
    "confidence": 0.6,
-   "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Chicago Fed Ba\u015fkan\u0131 ekonominin a\u015f\u0131r\u0131 \u0131s\u0131nmas\u0131ndan ve y\u00fcksek enflasyondan endi\u015fe duyuyor (\u015fahin), dolar yeni zirvelere yak\u0131n ve tahvil faizleri y\u00fckseliyor, alt\u0131n 14 ay\u0131n dibine indi. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve sava\u015f yetkisi oylamas\u0131n\u0131n reddi s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir, ancak bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin bir Fed tonuna i\u015faret ediyor: Chicago Fed Ba\u015fkan\u0131 a\u015f\u0131r\u0131 \u0131s\u0131nma ve \"bozucu derecede y\u00fcksek\" enflasyon konusunda endi\u015feli, Endonezya faizi Fed s\u0131k\u0131la\u015fmas\u0131na kar\u015f\u0131 art\u0131rd\u0131. Bu, ABD tahvil getirilerinin y\u00fckseldi\u011fi ve ETF \u00e7\u0131k\u0131\u015flar\u0131n\u0131n oldu\u011fu bir ortamla birle\u015fince alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; jeopolitik (\u0130ran sava\u015f\u0131, maliyet 48,3 milyar dolar) ise g\u00fcvenli liman talebini yeterince desteklemiyor.",
    "n": 45,
-   "ts": 1795133296467,
-   "new_headlines": 26,
+   "ts": 1795134014992,
+   "new_headlines": 9,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibe (3.650$ alt\u0131) \u015fahin Fed sinyalleriyle geriledi",
     "ABD tahvil getirileri y\u00fckseldi, ETF \u00e7\u0131k\u0131\u015flar\u0131 s\u00fcr\u00fcyor",
     "Barclays: ard\u0131\u015f\u0131k Fed art\u0131\u015flar\u0131 dolar\u0131 destekliyor; dolar yeni zirveye yak\u0131n"
    ],
    "gpt": {
-    "score": -0.22,
-    "confidence": 0.43,
-    "reason": "Chicago Fed yetkilisinin ekonomide a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131n\u0131 vurgulamas\u0131, faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131na ili\u015fkin yetkilerin k\u0131s\u0131tlanmamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir; bu kar\u015f\u0131t etkiler nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif.",
+    "score": -0.18,
+    "confidence": 0.34,
+    "reason": "Alt\u0131n, y\u00fckselen tahvil getirileri ve \u015fahin Fed beklentileriyle zaten bask\u0131 alt\u0131nda; man\u015fetlerde bu g\u00f6r\u00fcn\u00fcm\u00fc de\u011fi\u015ftirecek yeni bir Fed veya enflasyon sinyali yok. Yemen\u2019deki \u00e7at\u0131\u015fma g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak etkisi s\u0131n\u0131rl\u0131 ve haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut riskleri yans\u0131t",
     "key_events": [
-     "Chicago Fed\u2019den enflasyon ve a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131",
-     "\u0130ran\u2019a y\u00f6nelik asker\u00ee eylemi engelleme giri\u015fimi reddedildi",
-     "Jeopolitik risk alt\u0131n\u0131 destekleyebilir"
+     "Y\u00fckselen getiriler ve \u015fahin Fed sinyalleri alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor",
+     "Yemen\u2019de ku\u015fatma haberleri s\u0131n\u0131rl\u0131 g\u00fcvenli liman talebi yaratabilir",
+     "Endonezya merkez bankas\u0131 Fed s\u0131k\u0131la\u015fmas\u0131na kar\u015f\u0131 faiz art\u0131rd\u0131"
     ],
     "model": "gpt-6-luna"
    },
@@ -27150,15 +27150,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794862933638,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "S\u0131cak ABD enflasyonu faiz art\u0131r\u0131m\u0131 beklentilerini ve dolar\u0131 g\u00fc\u00e7lendiriyor; Fed'in Hammack'in \u015fahin a\u00e7\u0131klamalar\u0131 da alt\u0131n i\u00e7in olumsuz. \u0130ran sava\u015f\u0131na dair jeopolitik risk alt\u0131n\u0131 destekleyebilir ancak haberler alt\u0131n\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeye geriledi\u011fini g\u00f6steriyor, bu da g\u00fcvenli liman talebinin \u015fu an bask\u0131lanabildi\u011fini g\u00f6steriyor.",
-    "new": 38,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794863653657,
     "score": -0.6,
@@ -29849,14 +29840,32 @@
     "new": 26,
     "gpt_score": -0.22,
     "gpt_confidence": 0.43
+   },
+   {
+    "ts": 1795134014992,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin bir Fed tonuna i\u015faret ediyor: Chicago Fed Ba\u015fkan\u0131 a\u015f\u0131r\u0131 \u0131s\u0131nma ve \"bozucu derecede y\u00fcksek\" enflasyon konusunda endi\u015feli, Endonezya faizi Fed s\u0131k\u0131la\u015fmas\u0131na kar\u015f\u0131 art\u0131rd\u0131. Bu, ABD tahvil getirilerinin y\u00fckseldi\u011fi ve ETF \u00e7\u0131k\u0131\u015flar\u0131n\u0131n oldu\u011fu bir ortamla birle\u015fince alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; jeopolitik (\u0130ran sava\u015f\u0131, maliyet 48,3 milyar dolar) ise g\u00fcvenli liman talebini yeterince desteklemiyor.",
+    "new": 9,
+    "gpt_score": -0.18,
+    "gpt_confidence": 0.34
    }
   ],
   "news_calls": {
    "date": "2026-11-20",
-   "n": 15
+   "n": 16
   },
   "news_seen": [
+   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
+   "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
+   "Why Canada is embracing AI data centres while the US pushes back",
+   "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+   "\u2018Economy still growing\u2019 - Marshall Independent",
+   "IP26125 | Geopolitical Divisions and the Future of the ADMM-Plus - S. Rajaratnam School of International Studies (RSIS)",
+   "Gettysburg Address reenactment connects Civil War legacy to America's 250th Anniversary - FOX43",
    "Opinion | Anthropic\u2019s IPO is worth celebrating. So is the Fed\u2019s caution. - The Washington Post",
+   "Pentagon puts Iran war cost at $48.3 billion, excluding base damage - WABI",
+   "Indonesia's Central Bank Raises Key Rate to 6% to Head Off Fed Tightening - BigGo Finance",
    "Settler leader says municipality\u2019s foreign currency accounts frozen due to UK sanctions - The Times of Israel",
    "How did Anthropic's stock market debut unfold?",
    "Trump posthumously pardons US baseball legend Pete Rose",
@@ -29864,9 +29873,9 @@
    "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios",
    "Chicago Fed President says overheating economy worries him more than gas prices - WRTV",
    "Gold Price Forecasts For 2027: UBS At $5,000, Goldman Sachs At $4,650 - Exchange Rates UK",
-   "Senate rejects resolution to block Trump from striking Iran - The Washington Post",
    "Kushner Exposed Over Secret War Windfall - The Daily Beast",
-   "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027 - Bloomberg.com",
+   "Fed Tells Regional Staff to Expect Lower Pay Increases in 2027 - Bloomberg.com",
+   "Fed's Paulson says understanding, not guidance, drives effective communication - The Lufkin Daily News",
    "Fed's Paulson says understanding, not guidance, drives effective communication - Hilton Head Island Packet",
    "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
    "Soldiers Test New Medical Training Program - U.S. Department of War (.gov)",
@@ -29891,21 +29900,10 @@
    "Israel's settlement expansion backfires as UK, Australia impose sanctions, winning backing from 5 African nations and 11 other countries - Business Insider Africa",
    "At China summit, Trump calls Putin 'my friend' amid Ukraine war - ABC News - Breaking News, Latest News and Videos",
    "Gold price update morning of November 20th: Price decreases, approaching the lowest level in the session - Laodong.vn",
-   "SGX gold-linked counters lose their shine as the precious metal hits one-year low - The Business Times",
-   "FILM SCENE | OPINION: Gaza war documentary \u2018NAZA\u2019 shows toll on Palestinians from Israeli soldiers\u2019 perspective - The Arkansas Democrat-Gazette",
-   "Thursday, November 19. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes",
-   "From premature baby to social media star - Famed hippo Fiona dies",
-   "U.S. Dollar Tested New Highs: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-   "War Child Australia\u2019s Star-Studded \u2018Forever Young\u2019 Charity Album Is Out Now - Rolling Stone Australia",
-   "Indigent defenders: Crumbley attorney sanctions chill advocacy in court - The Detroit News",
-   "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
-   "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
-   "Ending the Iran War Is Donald Trump\u2019s Least Worst Option. Here\u2019s Why. - The National Interest"
+   "SGX gold-linked counters lose their shine as the precious metal hits one-year low - The Business Times"
   ]
  },
  "log": [
-  "19.11 10:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsAx4b8CJQqkTx8NYw3'}",
-  "19.11 10:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsQ9rNqLEniGzV9XwfL'}",
   "19.11 10:14 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsdXB8w8gBoDu7pib3e'}",
   "19.11 10:14 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsgEdoFruA5rWyhK5rB'}",
   "19.11 10:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChBsuSqduDbUSomXX7DV4'}",
@@ -30203,7 +30201,9 @@
   "20.11 03:08 N  GPT  score -0.22 conf 0.43: Chicago Fed yetkilisinin ekonomide a\u015f\u0131r\u0131 \u0131s\u0131nma kayg\u0131s\u0131n\u0131 vurgulamas\u0131, faizlerin y\u00fcksek kalaca\u011f\u0131 beklentisini ve alt\u0131n \u00fczerindeki bask\u0131y\u0131 destekliyor. \u0130ran sava\u015f\u0131na ili\u015fkin yetkilerin k\u0131s\u0131tlanmamas\u0131 g\u00fcvenli liman talebini art\u0131rabilir; bu kar\u015f\u0131t etkiler nedeniyle g\u00f6r\u00fcn\u00fcm hafif negatif.",
   "20.11 03:08 B5  SHORT gold 25000 USD x10 @ 3607.31 (TP 3596.49, SL 3614.52; news -0.36)",
   "20.11 03:11 B5  CLOSE short stop: -56.05 USD",
-  "20.11 03:17 B5  SHORT gold 25000 USD x10 @ 3617.98 (TP 3607.12, SL 3625.21; news -0.36)"
+  "20.11 03:17 B5  SHORT gold 25000 USD x10 @ 3617.98 (TP 3607.12, SL 3625.21; news -0.36)",
+  "20.11 03:20 N  NEWS (9 new) score -0.50 conf 0.60: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin bir Fed tonuna i\u015faret ediyor: Chicago Fed Ba\u015fkan\u0131 a\u015f\u0131r\u0131 \u0131s\u0131nma ve \"bozucu derecede y\u00fcksek\" enflasyon konusunda endi\u015feli, Endonezya faizi Fed s\u0131k\u0131la\u015fmas\u0131na kar\u015f\u0131 art\u0131rd\u0131. Bu, ABD tahvil getirilerinin y\u00fckseldi\u011fi ve ETF \u00e7\u0131k\u0131\u015flar\u0131n\u0131n oldu\u011fu bir ortamla birle\u015fince alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; jeopolitik (\u0130ran sava\u015f\u0131, maliyet 48,3 milyar dolar) ise g\u00fcvenli liman talebini yeterince desteklemiyor.",
+  "20.11 03:20 N  GPT  score -0.18 conf 0.34: Alt\u0131n, y\u00fckselen tahvil getirileri ve \u015fahin Fed beklentileriyle zaten bask\u0131 alt\u0131nda; man\u015fetlerde bu g\u00f6r\u00fcn\u00fcm\u00fc de\u011fi\u015ftirecek yeni bir Fed veya enflasyon sinyali yok. Yemen\u2019deki \u00e7at\u0131\u015fma g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak etkisi s\u0131n\u0131rl\u0131 ve haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut riskleri yans\u0131t"
  ],
  "gold_big": {
   "account": {
@@ -30390,10 +30390,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    4963.78
-   ],
-   [
     1794546054,
     4963.78
    ],
@@ -42387,6 +42383,10 @@
    ],
    [
     1795133825,
+    4963.78
+   ],
+   [
+    1795134015,
     4963.78
    ]
   ],
@@ -42502,10 +42502,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    4975.18
-   ],
-   [
     1794546054,
     4975.18
    ],
@@ -54499,6 +54495,10 @@
    ],
    [
     1795133825,
+    4975.18
+   ],
+   [
+    1795134015,
     4975.18
    ]
   ],
@@ -54584,10 +54584,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    4993.28
-   ],
-   [
     1794546054,
     4993.28
    ],
@@ -66581,6 +66577,10 @@
    ],
    [
     1795133825,
+    4993.28
+   ],
+   [
+    1795134015,
     4993.28
    ]
   ]
@@ -66791,10 +66791,6 @@
   },
   "equity_curve": [
    [
-    1794545870,
-    4969.22
-   ],
-   [
     1794546054,
     4969.22
    ],
@@ -78788,6 +78784,10 @@
    ],
    [
     1795133825,
+    4969.22
+   ],
+   [
+    1795134015,
     4969.22
    ]
   ],
@@ -82209,10 +82209,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545870,
-    4652.25
-   ],
    [
     1794546054,
     4650.84
@@ -94208,6 +94204,10 @@
    [
     1795133825,
     5098.07
+   ],
+   [
+    1795134015,
+    5117.97
    ]
   ],
   "news_calls": {
@@ -95690,10 +95690,6 @@
    "equity": 120564.69
   },
   "equity_curve": [
-   [
-    1794545870,
-    113945.8
-   ],
    [
     1794546054,
     113945.8
@@ -107689,6 +107685,10 @@
    [
     1795133825,
     120564.69
+   ],
+   [
+    1795134015,
+    120564.69
    ]
   ],
   "open": {},
@@ -107871,10 +107871,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794545870,
-    4876.96
-   ],
    [
     1794546054,
     4876.96
@@ -119869,6 +119865,10 @@
    ],
    [
     1795133825,
+    4876.96
+   ],
+   [
+    1795134015,
     4876.96
    ]
   ],
