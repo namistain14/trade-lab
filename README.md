@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 20.11.2026 03:26 (İstanbul)
+> Son güncelleme: 20.11.2026 03:29 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 1.62 $ |
 
-**Hesap değeri: 5,104.50 $** (başlangıç 5,000 $, +104.50 $ / %+2.09)
+**Hesap değeri: 5,105.82 $** (başlangıç 5,000 $, +105.82 $ / %+2.12)
 
 Açık pozisyonlar: SOLUSDT short @ 74.79 (TP 70.82 / SL 76.77)
 
@@ -26,14 +26,12 @@ Son işlemler:
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +51.73 $ | +104.11 $ |
-| İşlem sayısı | 8 | 161 |
-| Kazanma oranı | %50.0 | %45.3 |
-| Ödenen komisyon/spread | 96.61 $ | 1919.54 $ |
+| Net kâr/zarar | +120.70 $ | +173.08 $ |
+| İşlem sayısı | 9 | 162 |
+| Kazanma oranı | %55.6 | %45.7 |
+| Ödenen komisyon/spread | 108.68 $ | 1931.61 $ |
 
-**Hesap değeri: 5,148.10 $** (başlangıç 5,000 $, +148.10 $ / %+2.96)
-
-Açık pozisyonlar: PAXGUSDT short @ 3617.98 (TP 3607.12 / SL 3625.21)
+**Hesap değeri: 5,173.08 $** (başlangıç 5,000 $, +173.08 $ / %+3.46)
 
 Son haber analizi (20.11 03:20): Claude puan **-0.50**, güven 0.60 — Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
 
@@ -43,11 +41,11 @@ Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 20.11 03:29 | PAXGUSDT | short | +68.98 $ | take profit |
 | 20.11 03:11 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 03:02 | PAXGUSDT | short | -56.05 $ | stop |
 | 20.11 02:40 | PAXGUSDT | short | +68.97 $ | take profit |
 | 20.11 02:33 | PAXGUSDT | short | +68.98 $ | take profit |
-| 20.11 02:13 | PAXGUSDT | short | +68.98 $ | take profit |
 
 ## Bot B5P — Brent petrol: Claude + GPT hemfikir (x10, 25.000 $ pozisyon)
 
@@ -97,7 +95,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 02:38 B5  SHORT gold 25000 USD x10 @ 3596.03 (TP 3585.24, SL 3603.22; news -0.59)
 20.11 02:41 B5  CLOSE short take profit: +68.97 USD
 20.11 02:44 N  NEWS (6 new) score -0.60 conf 0.70: Altın, Fed'in şahin sinyalleri, yükselen ABD tahvil getirileri, ETF çıkışları ve güçlenen dolar nedeniyle 14 aylık dibe geriledi; jeopolitik risk (İran savaşı) güvenli liman talebini destekleyemiyor. Dolar yeni zirvelere yakınken ve ardışık Fed artışı beklentisi sürerken kısa vadede baskı sürmesi olası, ancak fiyat zaten düşmüş olduğu için güven orta seviyede.
 20.11 02:44 N  GPT  score -0.35 conf 0.58: Chicago Fed başkanının enflasyonun rahatsız edici ölçüde yüksek olduğu uyarısı, faizlerin yüksek kalacağı beklentisini ve dolar/tahvil getirileri baskısını güçlendirerek altın için kısa vadede negatif. İran savaşını sınırlama girişiminin reddi güvenli liman talebini destekleyebilir; ancak altındaki 
@@ -112,6 +109,7 @@ Son işlemler:
 20.11 03:17 B5  SHORT gold 25000 USD x10 @ 3617.98 (TP 3607.12, SL 3625.21; news -0.36)
 20.11 03:20 N  NEWS (9 new) score -0.50 conf 0.60: Yeni başlıklar ağırlıklı olarak şahin bir Fed tonuna işaret ediyor: Chicago Fed Başkanı aşırı ısınma ve "bozucu derecede yüksek" enflasyon konusunda endişeli, Endonezya faizi Fed sıkılaşmasına karşı artırdı. Bu, ABD tahvil getirilerinin yükseldiği ve ETF çıkışlarının olduğu bir ortamla birleşince altın için baskı yaratıyor; jeopolitik (İran savaşı, maliyet 48,3 milyar dolar) ise güvenli liman talebini yeterince desteklemiyor.
 20.11 03:20 N  GPT  score -0.18 conf 0.34: Altın, yükselen tahvil getirileri ve şahin Fed beklentileriyle zaten baskı altında; manşetlerde bu görünümü değiştirecek yeni bir Fed veya enflasyon sinyali yok. Yemen’deki çatışma güvenli liman talebini bir miktar destekleyebilir, ancak etkisi sınırlı ve haberler büyük ölçüde mevcut riskleri yansıt
+20.11 03:29 B5  CLOSE short take profit: +68.98 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
