@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    5000.0
-   ],
-   [
     1794759566,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795347572,
     5104.97
+   ],
+   [
+    1795347752,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    4868.5
-   ],
-   [
     1794759566,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795347572,
+    4868.5
+   ],
+   [
+    1795347752,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "20.11 13:05 N  GPT  score -0.40 conf 0.66: Kyiv\u2019ye y\u00f6nelik yeni Rus sald\u0131r\u0131s\u0131 g\u00fcvenli liman talebini desteklese de alt\u0131ndaki sert d\u00fc\u015f\u00fc\u015f ve g\u00fc\u00e7l\u00fc dolar e\u011filimi k\u0131sa vadede daha bask\u0131n g\u00f6r\u00fcn\u00fcyor. Fed\u2019in \u015fahin kalabilece\u011fi beklentisi de alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; \u00e7eli\u015fkili g\u00fcvenli liman etkisi d\u00fc\u015f\u00fc\u015f tahmininin g\u00fcvenini s\u0131n\u0131rl\u0131yor.",
   "20.11 13:18 N  NEWS (8 new) score -0.30 conf 0.50: Alt\u0131n 2026 dip seviyelerine yak\u0131n ve teknik olarak a\u015f\u0131r\u0131 sat\u0131m b\u00f6lgesinde; haberlerde Fed'in s\u0131k\u0131 (hawkish) beklentileri ve g\u00fc\u00e7l\u00fc dolar\u0131n g\u00fcvenli liman talebi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Ukrayna'daki gerilim jeopolitik destek sa\u011flasa da, bu risk primi fiyatlara yans\u0131m\u0131yor. ECB'nin dolar ba\u011f\u0131ml\u0131l\u0131\u011f\u0131n\u0131 azaltma ad\u0131m\u0131 ve merkez bankas\u0131 \u00e7e\u015fitlendirmesi uzun vadede alt\u0131n lehine olsa da k\u0131sa vadede etkisi s\u0131n\u0131rl\u0131 kal\u0131r. Haberler \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "20.11 13:18 N  GPT  score -0.25 conf 0.56: Ortado\u011fu\u2019daki sald\u0131r\u0131lar\u0131n ve \u0130ran sava\u015f\u0131n\u0131n uzayabilece\u011fine dair haberler g\u00fcvenli liman talebini destekleyebilir. Ancak alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc ve dolar/Fed kaynakl\u0131 bask\u0131, \u00f6n\u00fcm\u00fczdeki saatlerde a\u015fa\u011f\u0131 y\u00f6nl\u00fc etkinin a\u011f\u0131r basabilece\u011fine i\u015faret ediyor.",
   "20.11 13:30 N  NEWS (7 new) score -0.45 conf 0.60: Alt\u0131n 14 ayl\u0131k dibe geriledi ve teknik k\u0131r\u0131l\u0131mlar s\u00fcr\u00fcyor; Fed'in s\u0131k\u0131 duru\u015f risklerine ve g\u00fc\u00e7l\u00fc dolara (g\u00fcvenli liman talebi dahil) ba\u011fl\u0131 bask\u0131 g\u00f6r\u00fcl\u00fcyor. Polonya'da f\u00fcze patlamas\u0131 gibi jeopolitik haberler s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sa\u011flasa da, mevcut d\u00fc\u015f\u00fc\u015f momentumunu tersine \u00e7evirecek yeterli bir etken g\u00f6r\u00fcnm\u00fcyor.",
@@ -30208,7 +30207,8 @@
   "22.11 14:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 14:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 14:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 14:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "22.11 14:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "22.11 14:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    4963.78
-   ],
-   [
     1794759566,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795347572,
+    4963.78
+   ],
+   [
+    1795347752,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    4975.18
-   ],
-   [
     1794759566,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795347572,
+    4975.18
+   ],
+   [
+    1795347752,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    4993.28
-   ],
-   [
     1794759566,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795347572,
+    4993.28
+   ],
+   [
+    1795347752,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794759385,
-    4969.22
-   ],
-   [
     1794759566,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795347572,
+    4969.22
+   ],
+   [
+    1795347752,
     4969.22
    ]
   ],
@@ -82870,10 +82870,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794759385,
-    4545.26
-   ],
    [
     1794759566,
     4545.26
@@ -94869,6 +94865,10 @@
    [
     1795347572,
     5297.35
+   ],
+   [
+    1795347752,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96513,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794759385,
-    114145.15
-   ],
    [
     1794759566,
     114145.15
@@ -108512,6 +108508,10 @@
    [
     1795347572,
     128183.18
+   ],
+   [
+    1795347752,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794759385,
-    4876.96
-   ],
    [
     1794759566,
     4876.96
@@ -120692,6 +120688,10 @@
    ],
    [
     1795347572,
+    4876.96
+   ],
+   [
+    1795347752,
     4876.96
    ]
   ],
