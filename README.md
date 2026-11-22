@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 22.11.2026 08:00 (İstanbul)
+> Son güncelleme: 22.11.2026 08:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -94,7 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 22:20 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:20 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert satış baskısı altında ve QQQ -%4,3 ile zayıf; kapanışa doğru riskten kaçış sürebilir, en net fırsat taze negatif haberli NVDA'da.» / GPT «-»
 20.11 22:32 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:32 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış baskısı altında ve kapanışa doğru zayıflığın sürme ihtimali yüksek.» / GPT «-»
@@ -109,6 +108,7 @@ Son işlemler:
 20.11 23:45 B6  CLOSE short AAPL seans sonu: +1408.47 USD
 20.11 23:45 B6  seans kapanışı: tüm pozisyonlar kapatıldı
 22.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+22.11 08:01 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
