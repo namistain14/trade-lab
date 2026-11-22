@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    5000.0
-   ],
-   [
     1794752116,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795340268,
     5104.97
+   ],
+   [
+    1795340448,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    4868.5
-   ],
-   [
     1794752116,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795340268,
+    4868.5
+   ],
+   [
+    1795340448,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "20.11 09:01 N  NEWS (12 new) score -0.60 conf 0.60: Alt\u0131n, g\u00fc\u00e7lenen dolar, y\u00fckselen ABD tahvil getirileri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle sert d\u00fc\u015f\u00fc\u015fte; haftal\u0131k kay\u0131p yakla\u015f\u0131k %7. \u0130ran sava\u015f\u0131 ve Husi f\u00fczeleri jeopolitik risk \u00fcretse de bu g\u00fcvenli liman talebini \u015fimdilik bast\u0131rm\u0131\u015f g\u00f6r\u00fcn\u00fcyor, bu y\u00fczden 1-4 saatlik g\u00f6r\u00fcn\u00fcm negatif.",
   "20.11 09:01 N  GPT  score -0.58 conf 0.68: G\u00fc\u00e7l\u00fc dolar, y\u00fckselen tahvil getirileri ve Fed\u2019in faiz art\u0131rabilece\u011fi beklentileri alt\u0131n \u00fczerindeki k\u0131sa vadeli bask\u0131y\u0131 art\u0131r\u0131yor; fiyat\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesine y\u00f6nelik Senato deste\u011fi g\u00fcvenli liman talebini art\u0131rabilir, ancak \u015fu an bu etki bask\u0131n ",
   "20.11 09:14 N  NEWS (23 new) score -0.60 conf 0.60: Dolar g\u00fc\u00e7lenmesi, ABD tahvil faizlerinin y\u00fckselmesi ve alt\u0131nda %3,71'lik sert d\u00fc\u015f\u00fc\u015f (yakla\u015f\u0131k 3.530 dolar) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; Fed'in temkinli tutumu ve reel faiz beklentileri de negatif. \u0130ran sava\u015f\u0131 ve Husi sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut sat\u0131\u015f bask\u0131s\u0131n\u0131 dengelemeye yetmiyor. Haberlerin bir\u00e7o\u011fu zaten fiyatlanm\u0131\u015f d\u00fc\u015f\u00fc\u015f\u00fc yans\u0131tt\u0131\u011f\u0131 i\u00e7in g\u00fcven orta seviyede.",
   "20.11 09:14 N  GPT  score -0.50 conf 0.68: G\u00fc\u00e7l\u00fc dolar ve y\u00fckselen ABD tahvil faizleri e\u015fli\u011findeki sert alt\u0131n sat\u0131\u015flar\u0131 k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu destekliyor. \u0130ran \u00e7evresindeki askeri gerilim g\u00fcvenli liman talebi yaratabilir, ancak \u015fu anki fiyat tepkisi bu deste\u011fin bask\u0131n olmad\u0131\u011f\u0131n\u0131 g\u00f6steriyor.",
@@ -30208,7 +30207,8 @@
   "22.11 12:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:31 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:34 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 12:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "22.11 12:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "22.11 12:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    4963.78
-   ],
-   [
     1794752116,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795340268,
+    4963.78
+   ],
+   [
+    1795340448,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    4975.18
-   ],
-   [
     1794752116,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795340268,
+    4975.18
+   ],
+   [
+    1795340448,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    4993.28
-   ],
-   [
     1794752116,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795340268,
+    4993.28
+   ],
+   [
+    1795340448,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794751935,
-    4969.22
-   ],
-   [
     1794752116,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795340268,
+    4969.22
+   ],
+   [
+    1795340448,
     4969.22
    ]
   ],
@@ -82870,10 +82870,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794751935,
-    4545.26
-   ],
    [
     1794752116,
     4545.26
@@ -94869,6 +94865,10 @@
    [
     1795340268,
     5297.35
+   ],
+   [
+    1795340448,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96513,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794751935,
-    114145.15
-   ],
    [
     1794752116,
     114145.15
@@ -108512,6 +108508,10 @@
    [
     1795340268,
     128183.18
+   ],
+   [
+    1795340448,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794751935,
-    4876.96
-   ],
    [
     1794752116,
     4876.96
@@ -120692,6 +120688,10 @@
    ],
    [
     1795340268,
+    4876.96
+   ],
+   [
+    1795340448,
     4876.96
    ]
   ],
