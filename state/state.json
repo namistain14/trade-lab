@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    5000.0
-   ],
-   [
     1794780322,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795368350,
     5104.97
+   ],
+   [
+    1795368530,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    4868.5
-   ],
-   [
     1794780322,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795368350,
+    4868.5
+   ],
+   [
+    1795368530,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "20.11 20:06 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk i\u015ftahs\u0131zl\u0131\u011f\u0131 ya\u015fan\u0131yor ve endeksler g\u00fcn dibini test ediyor; trend a\u015fa\u011f\u0131 y\u00f6nl\u00fc, ancak a\u015f\u0131r\u0131 d\u00fc\u015fen hisselerde tepki riski var.\u00bb / GPT \u00abPiyasa genelinde a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentum bask\u0131n; kald\u0131ra\u00e7 alt\u0131nda ili\u015fkili k\u0131sa pozisyonlar\u0131n toplam riskini s\u0131n\u0131rlamak gerekiyor.\u00bb",
   "20.11 20:06 B6  A\u00c7I\u011eA SATI\u015e QQQ 198 adet \u2248 122,992 $ (1:4) @ 621.17 (TP 611.85, SL 627.38; ikisi de hemfikir, g\u00fcven 0.55)",
   "20.11 20:12 N  NEWS (7 new) score -0.50 conf 0.60: ",
   "20.11 20:12 N  GPT  score +0.12 conf 0.48: Polonya\u2019ya Rus f\u00fcze d\u00fc\u015fmesi ve Riyad\u2019daki Husi sald\u0131r\u0131s\u0131 k\u0131sa vadede g\u00fcvenli liman talebini destekleyebilir. Ancak Fed\u2019in enflasyon uyar\u0131s\u0131 ve faiz art\u0131\u015f\u0131/dolar endi\u015feleri alt\u0131n \u00fczerindeki bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor; etkiler \u00e7eli\u015fkili oldu\u011fu i\u00e7in net y\u00f6n zay\u0131f.",
@@ -30208,7 +30207,8 @@
   "22.11 20:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 20:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 20:22 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 20:25 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "22.11 20:25 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "22.11 20:28 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    4963.78
-   ],
-   [
     1794780322,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795368350,
+    4963.78
+   ],
+   [
+    1795368530,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    4975.18
-   ],
-   [
     1794780322,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795368350,
+    4975.18
+   ],
+   [
+    1795368530,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    4993.28
-   ],
-   [
     1794780322,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795368350,
+    4993.28
+   ],
+   [
+    1795368530,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794780143,
-    4969.22
-   ],
-   [
     1794780322,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795368350,
+    4969.22
+   ],
+   [
+    1795368530,
     4969.22
    ]
   ],
@@ -82870,10 +82870,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794780143,
-    4545.26
-   ],
    [
     1794780322,
     4545.26
@@ -94869,6 +94865,10 @@
    [
     1795368350,
     5297.35
+   ],
+   [
+    1795368530,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96513,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794780143,
-    114145.15
-   ],
    [
     1794780322,
     114145.15
@@ -108512,6 +108508,10 @@
    [
     1795368350,
     128183.18
+   ],
+   [
+    1795368530,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794780143,
-    4876.96
-   ],
    [
     1794780322,
     4876.96
@@ -120692,6 +120688,10 @@
    ],
    [
     1795368350,
+    4876.96
+   ],
+   [
+    1795368530,
     4876.96
    ]
   ],
