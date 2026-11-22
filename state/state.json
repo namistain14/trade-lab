@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    5000.0
-   ],
-   [
     1794755927,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795344085,
     5104.97
+   ],
+   [
+    1795344115,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    4868.5
-   ],
-   [
     1794755927,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795344085,
+    4868.5
+   ],
+   [
+    1795344115,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "20.11 11:03 N  NEWS (22 new) score -0.70 conf 0.72: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 net bi\u00e7imde bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor, dolar g\u00fc\u00e7leniyor ve alt\u0131n haftal\u0131k bazda en k\u00f6t\u00fc performans\u0131na yakla\u015f\u0131yor (yakla\u015f\u0131k 3.500-3.600 dolar, 14 ay\u0131n en d\u00fc\u015f\u00fc\u011f\u00fc). Ukrayna/Polonya'daki f\u00fcze sald\u0131r\u0131lar\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekleyebilir, ancak bu haberler fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 g\u00f6r\u00fcn\u00fcyor; bu nedenle g\u00fcvenli liman etkisi faiz ve dolar bask\u0131s\u0131n\u0131 dengelemiyor.",
   "20.11 11:03 N  GPT  score -0.55 conf 0.67: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar\u0131n de\u011fer kazanmas\u0131, k\u0131sa vadede alt\u0131n \u00fczerindeki sat\u0131\u015f bask\u0131s\u0131n\u0131 destekliyor; d\u00fc\u015f\u00fc\u015fe ili\u015fkin \u00e7ok say\u0131daki ba\u015fl\u0131k b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ayn\u0131 hareketi yans\u0131t\u0131yor. Polonya s\u0131n\u0131r\u0131na yak\u0131n Rus sald\u0131r\u0131s\u0131 ve Orta Do\u011fu\u2019daki gerilim g\u00fcvenli liman talebini art\u0131rabil",
   "20.11 11:15 N  NEWS (8 new) score -0.60 conf 0.60: Yeni haberler (g\u00fc\u00e7l\u00fc dolar, Fed'in \u015fahin sinyalleri ve faiz art\u0131r\u0131m\u0131 beklentileri) alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran ve Rusya-Polonya kaynakl\u0131 jeopolitik gerilim g\u00fcvenli liman talebi getirebilir, ancak bu etki faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; bir\u00e7ok ba\u015fl\u0131k zaten fiyatlanm\u0131\u015f d\u00fc\u015f\u00fc\u015f\u00fc anlatt\u0131\u011f\u0131 i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
   "20.11 11:15 N  GPT  score -0.55 conf 0.66: G\u00fc\u00e7l\u00fc dolar ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentileri alt\u0131ndaki d\u00fc\u015f\u00fc\u015f\u00fc k\u0131sa vadede destekliyor; yeni ba\u015fl\u0131klarda eurodaki s\u0131n\u0131rl\u0131 y\u00fckseli\u015f bu bask\u0131y\u0131 ancak k\u0131smen dengeliyor. Polonya ve Orta Do\u011fu kaynakl\u0131 jeopolitik riskler g\u00fcvenli liman talebi yaratabilir, ancak haberlerin \u00e7o\u011fu eski oldu\u011fundan etki",
@@ -30208,6 +30207,7 @@
   "22.11 13:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "22.11 13:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    4963.78
-   ],
-   [
     1794755927,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795344085,
+    4963.78
+   ],
+   [
+    1795344115,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    4975.18
-   ],
-   [
     1794755927,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795344085,
+    4975.18
+   ],
+   [
+    1795344115,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    4993.28
-   ],
-   [
     1794755927,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795344085,
+    4993.28
+   ],
+   [
+    1795344115,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794755747,
-    4969.22
-   ],
-   [
     1794755927,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795344085,
+    4969.22
+   ],
+   [
+    1795344115,
     4969.22
    ]
   ],
@@ -82870,10 +82870,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794755747,
-    4545.26
-   ],
    [
     1794755927,
     4545.26
@@ -94869,6 +94865,10 @@
    [
     1795344085,
     5297.35
+   ],
+   [
+    1795344115,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96513,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794755747,
-    114145.15
-   ],
    [
     1794755927,
     114145.15
@@ -108512,6 +108508,10 @@
    [
     1795344085,
     128183.18
+   ],
+   [
+    1795344115,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794755747,
-    4876.96
-   ],
    [
     1794755927,
     4876.96
@@ -120692,6 +120688,10 @@
    ],
    [
     1795344085,
+    4876.96
+   ],
+   [
+    1795344115,
     4876.96
    ]
   ],
