@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 22.11.2026 08:16 (İstanbul)
+> Son güncelleme: 22.11.2026 08:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -94,7 +94,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-20.11 22:56 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 22:56 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert düştü ve kapanış öncesi dengelenmeye çalışıyor; seansın bitmesine 4 dakika kaldığı için 1-3 saatlik yeni pozisyon açmak mantıklı değil.» / GPT «-»
 20.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 429 credit_balance_exhausted: You have no credits remaining. Add credits to continue using the A
 20.11 23:08 B6  karar turu: Claude «Saat 16:08 itibarıyla normal seans kapandı; NVDA öncülüğünde sert teknoloji satışı yaşandı, ancak seans sonrası ince likidite ve geniş spread'ler nedeniyle yeni kaldıraçlı pozisyon açmak için uygun bir ortam yok.» / GPT «-»
@@ -109,6 +108,7 @@ Son işlemler:
 22.11 08:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 22.11 08:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 22.11 08:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+22.11 08:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
