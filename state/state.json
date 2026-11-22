@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    5000.0
-   ],
-   [
     1794743732,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795331871,
     5104.97
+   ],
+   [
+    1795332051,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    4868.5
-   ],
-   [
     1794743732,
     4868.5
    ],
@@ -27125,6 +27121,10 @@
    ],
    [
     1795331871,
+    4868.5
+   ],
+   [
+    1795332051,
     4868.5
    ]
   ],
@@ -29909,7 +29909,6 @@
   ]
  },
  "log": [
-  "20.11 06:11 N  NEWS (9 new) score -0.60 conf 0.65: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7l\u00fc dolar (19 ayl\u0131k zirveye yak\u0131n) ve y\u00fckselen tahvil getirileri nedeniyle sert d\u00fc\u015f\u00fc\u015fte ve 3.550 dolar\u0131n alt\u0131na inmi\u015f durumda. \u0130ran ve Ukrayna kaynakl\u0131 jeopolitik gerilim g\u00fcvenli liman talebini destekliyor olsa da, bu etki reel faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. D\u00fc\u015f\u00fc\u015f\u00fcn b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f olabilece\u011fi ve teknik dip al\u0131m\u0131 gelebilece\u011fi i\u00e7in g\u00fcven seviyesi orta d\u00fczeyde tutuldu.",
   "20.11 06:11 N  GPT  score -0.60 conf 0.72: G\u00fc\u00e7lenen dolar, yakla\u015f\u0131k %5\u2019lik getiriler ve Fed\u2019in daha \u015fahin olaca\u011f\u0131 beklentisi alt\u0131n\u0131 k\u0131sa vadede bask\u0131l\u0131yor; sert d\u00fc\u015f\u00fc\u015f de a\u015fa\u011f\u0131 y\u00f6nl\u00fc momentumu g\u00f6steriyor. \u0130ran ve Orta Do\u011fu kaynakl\u0131 gerilim g\u00fcvenli liman talebi yaratabilir, ancak \u015fu an faiz ve dolar etkisi daha bask\u0131n g\u00f6r\u00fcn\u00fcyor.",
   "20.11 06:23 N  NEWS (9 new) score -0.60 conf 0.70: Alt\u0131n, Fed faiz art\u0131r\u0131m\u0131 beklentileri, y\u00fckselen 5% tahvil getirileri ve 19 ayl\u0131k zirveye yak\u0131n dolar\u0131 nedeniyle sert d\u00fc\u015f\u00fc\u015fte ve y\u0131ll\u0131k dip seviyelerinde (3.700 dolar\u0131n alt\u0131). Iran sava\u015f\u0131 jeopolitik talebi destekliyor olsa da, ABD dolar\u0131 ve reel faiz bask\u0131s\u0131 bunu bask\u0131l\u0131yor; bu nedenle k\u0131sa vadede ay\u0131 e\u011filimi bask\u0131n. Haberlerde baz\u0131 \u00e7eli\u015fkili ve g\u00fcr\u00fclt\u00fcl\u00fc ba\u015fl\u0131klar oldu\u011fu i\u00e7in g\u00fcven orta-y\u00fcksek.",
   "20.11 06:23 N  GPT  score -0.65 conf 0.68: Alt\u0131n\u0131n sert d\u00fc\u015f\u00fc\u015f\u00fc, dolar\u0131n g\u00fc\u00e7lenmesi ve y\u00fcksek tahvil getirileri/Fed\u2019in daha s\u0131k\u0131 kalaca\u011f\u0131 beklentisi k\u0131sa vadede bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. \u0130ran kaynakl\u0131 riskler bir miktar g\u00fcvenli liman talebi yaratabilir; ancak man\u015fetler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde mevcut d\u00fc\u015f\u00fc\u015f\u00fc yans\u0131t\u0131yor ve bu destek \u015fu an zay\u0131f g\u00f6r\u00fcn\u00fcyor.",
@@ -30208,7 +30207,8 @@
   "22.11 10:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 10:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 10:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 10:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "22.11 10:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "22.11 10:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30395,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    4963.78
-   ],
-   [
     1794743732,
     4963.78
    ],
@@ -42392,6 +42388,10 @@
    ],
    [
     1795331871,
+    4963.78
+   ],
+   [
+    1795332051,
     4963.78
    ]
   ],
@@ -42507,10 +42507,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    4975.18
-   ],
-   [
     1794743732,
     4975.18
    ],
@@ -54504,6 +54500,10 @@
    ],
    [
     1795331871,
+    4975.18
+   ],
+   [
+    1795332051,
     4975.18
    ]
   ],
@@ -54589,10 +54589,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    4993.28
-   ],
-   [
     1794743732,
     4993.28
    ],
@@ -66586,6 +66582,10 @@
    ],
    [
     1795331871,
+    4993.28
+   ],
+   [
+    1795332051,
     4993.28
    ]
   ]
@@ -66796,10 +66796,6 @@
   },
   "equity_curve": [
    [
-    1794743551,
-    4969.22
-   ],
-   [
     1794743732,
     4969.22
    ],
@@ -78793,6 +78789,10 @@
    ],
    [
     1795331871,
+    4969.22
+   ],
+   [
+    1795332051,
     4969.22
    ]
   ],
@@ -82870,10 +82870,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794743551,
-    4545.26
-   ],
    [
     1794743732,
     4545.26
@@ -94869,6 +94865,10 @@
    [
     1795331871,
     5297.35
+   ],
+   [
+    1795332051,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96513,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794743551,
-    114145.15
-   ],
    [
     1794743732,
     114145.15
@@ -108512,6 +108508,10 @@
    [
     1795331871,
     128183.18
+   ],
+   [
+    1795332051,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108694,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794743551,
-    4876.96
-   ],
    [
     1794743732,
     4876.96
@@ -120692,6 +120688,10 @@
    ],
    [
     1795331871,
+    4876.96
+   ],
+   [
+    1795332051,
     4876.96
    ]
   ],
