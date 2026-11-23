@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 15:35 (İstanbul)
+> Son güncelleme: 23.11.2026 15:38 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,103.86 $** (başlangıç 5,000 $, +103.86 $ / %+2.08)
+**Hesap değeri: 5,104.79 $** (başlangıç 5,000 $, +104.79 $ / %+2.10)
 
 Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 15:26): Claude puan **-0.15**, güven 0.35 — Dolar 19 aylık zirvesine yakın seyrediyor ve Aralık ayında Fed faiz artırımı ihtimali gündeme geliyor; bu, altın için kısa vadede baskı yaratıyor. Savaş haberleri (İran, Ukrayna, Libya) güvenli liman talebini destekleyebilir, ancak çoğu eski ve büyük ölçüde fiyatlanmış olduğundan etkisi sınırlı kalıyor. PCE enflasyon verisi beklenirken olası bir sürpriz, ana belirleyici olacak.
+Son haber analizi (23.11 15:38): Claude puan **-0.10**, güven 0.35 — Haberler karışık: Aralık'ta Fed faiz artırımı ihtimali ve doların 19 aylık zirveye yakın seyri altın için baskı yaratıyor, altın da 9/2/25'ten bu yana en düşük seviyeden açıldı. Buna karşılık Ukrayna savaşının genişlemesi, İran savaş fonlaması tartışması ve borsa satışlarından doğan güvenli liman talebi destek sağlayabilir; bu nedenle etki hafif negatif kabul edildi ve güven düşük tutuldu.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 14:01 N  NEWS (13 new) score -0.10 conf 0.40: Faiz artırımı ve sıkı Fed beklentileri ile güçlü dolar altını baskılıyor; buna karşın İran ve Ukrayna savaşlarındaki tırmanış güvenli liman talebini destekliyor. Düşen Treasury getirileri ve haftalık düşüşten toparlanma kısa vadeli alımı desteklese de, net etki hafif negatif ve belirsiz görünüyor.
-23.11 14:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:14 N  NEWS (12 new) score -0.10 conf 0.35: Başlıklar karışık: güçlü dolar ve şahin Fed beklentileri (faiz artışı uyarıları) altına baskı yaparken, İran ve Ukrayna savaşlarındaki gerilim güvenli liman talebini destekliyor. Haftalık düşüşün ardından gelen toparlanma ve ABD enflasyon (PCE) verisi öncesi belirsizlik nedeniyle yön net değil, bu yüzden skor hafif negatif ve güven düşük.
 23.11 14:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:26 N  NEWS (10 new) score -0.20 conf 0.40: Haberlerin ağırlığı hafif negatif: Fed'in sert duruşu ve faiz artırımı beklentileri ile güçlenen dolar altın için baskı oluşturuyor. Jeopolitik gelişmeler (Ukrayna-Rusya, İran tehditleri) güvenli liman talebini destekliyor ancak etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda; ayrıca ABD enflasyon verisi (PCE) öncesi belirsizlik var.
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 aylık zirvesinden hafif geri çekilse de güçlü kalması ve HSBC'nin 2027'ye dair güçlü dolar görünümü altın için baskı yaratıyor. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış durumda; PCE enflasyon verisi ve Warsh Fed'i yönündeki belirsizlik ise net bir yön vermiyor.
 23.11 15:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:26 N  NEWS (11 new) score -0.15 conf 0.35: Dolar 19 aylık zirvesine yakın seyrediyor ve Aralık ayında Fed faiz artırımı ihtimali gündeme geliyor; bu, altın için kısa vadede baskı yaratıyor. Savaş haberleri (İran, Ukrayna, Libya) güvenli liman talebini destekleyebilir, ancak çoğu eski ve büyük ölçüde fiyatlanmış olduğundan etkisi sınırlı kalıyor. PCE enflasyon verisi beklenirken olası bir sürpriz, ana belirleyici olacak.
+23.11 15:38 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 15:38 N  NEWS (18 new) score -0.10 conf 0.35: Haberler karışık: Aralık'ta Fed faiz artırımı ihtimali ve doların 19 aylık zirveye yakın seyri altın için baskı yaratıyor, altın da 9/2/25'ten bu yana en düşük seviyeden açıldı. Buna karşılık Ukrayna savaşının genişlemesi, İran savaş fonlaması tartışması ve borsa satışlarından doğan güvenli liman talebi destek sağlayabilir; bu nedenle etki hafif negatif kabul edildi ve güven düşük tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
