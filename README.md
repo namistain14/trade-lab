@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 14:59 (İstanbul)
+> Son güncelleme: 23.11.2026 15:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,098.27 $** (başlangıç 5,000 $, +98.27 $ / %+1.97)
+**Hesap değeri: 5,099.20 $** (başlangıç 5,000 $, +99.20 $ / %+1.98)
 
 Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 14:50): Claude puan **+0.05**, güven 0.30 — Başlıklar birbiriyle çelişiyor: FOMC tutanakları doları güçlendirdiği için altında sert satış ve güçlü dolar baskısı var, ancak yüzde 2'den fazla yükselişi tetikleyen Fed faiz artırımı beklentilerinin azalması ve PCE verisi öne çıkıyor. Jeopolitik risk (İran savaşı) ise güvenli liman talebini destekleyici olsa da fonlamanın kesilmesi yönündeki haberler bu etkiyi sınırlıyor. Net etki hafif negatif, düşük güvenle değerlendirilmeli.
+Son haber analizi (23.11 15:02): Claude puan **+0.05**, güven 0.30 — Haberler karışık: Warsh yönetiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi altın için destekleyici olabilir, ancak DXY'nin yükselişi, zayıf Avro bölgesi/İngiltere PMI verileri ve 14 aylık en düşük seviyeden gelen zayıf trend altını baskılıyor. İran ve Ukrayna çatışmaları güvenli liman talebini artırsa da bunlar büyük ölçüde fiyatlanmış durumda; net etki sınırlı ve yön belirsiz.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 13:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 13:37 N  NEWS (14 new) score -0.15 conf 0.40: Faiz artırımı beklentileri, güçlü dolar ve "3 ardışık faiz artırımı" yorumları altın için baskılayıcı. Buna karşılık teknoloji satışı ve İran savaşı güvenli liman talebini destekliyor, altın da 3.600$ üzerinde toparlanıyor; sinyaller çelişkili olduğu için etki hafif negatif ve düşük güvenle değerlendirildi.
 23.11 13:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 13:49 N  NEWS (8 new) score -0.15 conf 0.40: Haberler karışık: Fed'in sıkılaşma beklentileri ve güçlü dolar altın üzerinde baskı yaratırken, Orta Doğu ve Ukrayna'daki savaş gelişmeleri ile teknoloji satışının güvenli liman talebini destekleyebilir. Altının haftalık sert düşüşün ardından toparlanması ve yakın vadede beklenen PCE verisi belirsizliği artırdığı için etki sınırlı ve zayıf negatif görünüyor.
 23.11 14:01 A  SHORT SOLUSDT 1685 USD @ 72.3 (1s RSI 68, TP 69.79, SL 73.55)
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 14:38 N  NEWS (18 new) score -0.10 conf 0.30: Başlıklar birbiriyle çelişiyor: FOMC tutanakları doları güçlendirdiği için altında sert satış ve güçlü dolar baskısı var, ancak yüzde 2'den fazla yükselişi tetikleyen Fed faiz artırımı beklentilerinin azalması ve PCE verisi öne çıkıyor. Jeopolitik risk (İran savaşı) ise güvenli liman talebini destekleyici olsa da fonlamanın kesilmesi yönündeki haberler bu etkiyi sınırlıyor. Net etki hafif negatif, düşük güvenle değerlendirilmeli.
 23.11 14:50 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:50 N  NEWS (7 new) score +0.05 conf 0.30: 
+23.11 15:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler karışık: Warsh yönetiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi altın için destekleyici olabilir, ancak DXY'nin yükselişi, zayıf Avro bölgesi/İngiltere PMI verileri ve 14 aylık en düşük seviyeden gelen zayıf trend altını baskılıyor. İran ve Ukrayna çatışmaları güvenli liman talebini artırsa da bunlar büyük ölçüde fiyatlanmış durumda; net etki sınırlı ve yön belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
