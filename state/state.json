@@ -71,10 +71,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    5000.0
-   ],
-   [
     1794917859,
     5000.0
    ],
@@ -12069,6 +12065,10 @@
    [
     1795432987,
     5100.6
+   ],
+   [
+    1795433174,
+    5101.76
    ]
   ],
   "archive": [
@@ -15143,10 +15143,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    4868.5
-   ],
-   [
     1794917859,
     4868.5
    ],
@@ -27141,15 +27137,19 @@
    [
     1795432987,
     4868.5
+   ],
+   [
+    1795433174,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.35,
-   "reason": "Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: g\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri (faiz art\u0131\u015f\u0131 uyar\u0131lar\u0131) alt\u0131na bask\u0131 yaparken, \u0130ran ve Ukrayna sava\u015flar\u0131ndaki gerilim g\u00fcvenli liman talebini destekliyor. Haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan gelen toparlanma ve ABD enflasyon (PCE) verisi \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil, bu y\u00fczden skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.2,
+   "confidence": 0.4,
+   "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hafif negatif: Fed'in sert duru\u015fu ve faiz art\u0131r\u0131m\u0131 beklentileri ile g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik geli\u015fmeler (Ukrayna-Rusya, \u0130ran tehditleri) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; ayr\u0131ca ABD enflasyon verisi (PCE) \u00f6ncesi belirsizlik var.",
    "n": 45,
-   "ts": 1795432453375,
-   "new_headlines": 12,
+   "ts": 1795433174475,
+   "new_headlines": 10,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (EUR/USD 2025 Nisan dibi) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
     "Alt\u0131n 3.600$ \u00fczerine toparland\u0131; teknoloji sat\u0131\u015f\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor",
@@ -27160,15 +27160,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794963856469,
-    "score": -0.1,
-    "confidence": 0.35,
-    "reason": "\u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131s\u0131 jeopolitik risk prim deste\u011fi sa\u011fl\u0131yor, ancak \"alt\u0131n ve g\u00fcm\u00fc\u015f dolar g\u00fc\u00e7lenmesiyle sert d\u00fc\u015ft\u00fc\" ve \"faiz art\u0131r\u0131m\u0131 bahisleri\" ba\u015fl\u0131klar\u0131 bask\u0131 yarat\u0131yor. Dolar bir miktar geri \u00e7ekilse de alt\u0131n yakla\u015f\u0131k 3.850 dolarda s\u0131n\u0131rl\u0131 kal\u0131yor; net etki hafif negatif ve sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 5,
-    "gpt_score": 0.25,
-    "gpt_confidence": 0.56
-   },
    {
     "ts": 1794964609896,
     "score": 0.15,
@@ -29859,35 +29850,50 @@
     "new": 12,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795433174475,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hafif negatif: Fed'in sert duru\u015fu ve faiz art\u0131r\u0131m\u0131 beklentileri ile g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik geli\u015fmeler (Ukrayna-Rusya, \u0130ran tehditleri) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; ayr\u0131ca ABD enflasyon verisi (PCE) \u00f6ncesi belirsizlik var.",
+    "new": 10,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 35
+   "n": 36
   },
   "news_seen": [
+   "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "Capita shares plunge 70% as boss quits after civil service pensions failure",
+   "Safe Haven Assets in a Crash: Gold, Bonds, Franc (Nov 2026) - Admirals",
+   "Rupee tumbles 30 paise to settle at 92.92 against US dollar - Deccan Herald",
+   "IG Defence tests \u2018micro\u2019 C-UAS missile at Indian Army range - Unmanned airspace",
+   "Ringgit closes slightly lower against US dollar as investors eye Fed's hawkish stance - The Star",
    "Gold Price Today on November 23, 2026 - USA Today",
    "Senate GOP leaders signal openness to cutting off Iran war funding - The Washington Post",
+   "Iran Braces For Winter Gas Shortages As War Damage Deepens Energy Crisis - Radio Free Europe/Radio Liberty",
    "Kalshi traders see Bitcoin\u2019s chance of outperforming gold at 19% - Crypto Briefing",
    "Duty Calls: Seabee vet of World War II honored at 100th birthday celebration - Times Union",
    "AI Impact On Economy, Russia-Ukraine War Spills Into Poland, No Deal At COP31 - NPR",
+   "Column: Washington wages war on Jell-O - The Morning Sun",
    "The Hegseth Grenade: A Sea Change at Newport - Center for International Maritime Security",
    "Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
    "In life, Lukas Dhont often feared emotional truth. On film, it\u2019s his \u2018superpower\u2019 - Los Angeles Times",
    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
    "Exchange Rates: US Dollar, Euro And British Pound Today On 19 November 2026 - NileFM",
    "Gold prices rally as investors await key U.S. inflation data - Traders Union",
-   "Capita shares plunge and boss steps down as civil service pensions saga drags on",
    "Nvidia's Slide, Bitcoin's Sell-Off, Oil's Fed Impact: 3 Charts To Watch This Week - TradingView",
    "Gold prices in Thailand jump THB1,200 by the close of trading - Nation Thailand",
    "Indian rupee reverses gains, settles at 92.92 against US dollar - Telangana Today",
+   "Ukraine sinks Russian warship off Libya in latest expansion of the war - NBC News",
    "Ringgit eases against US dollar as investors weigh Fed stance - Free Malaysia Today",
    "Lewis Pugh Swims Strait of Hormuz for War-Hit Wildlife - Nature World News",
    "Ukraine Farm Failures Loom as War Drains Financial Buffers, Top Trader Says - Bloomberg.com",
-   "Rupee Tumbles 30 Paise to 92.92 Against US Dollar, Ends Rally - Rediff MoneyWiz",
-   "Ukraine sinks Russian warship off Libya in latest expansion of the war - NBC News",
    "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya - Al Jazeera",
-   "News by CNBC TV18 on TradingView, 2026-11-23 \u2014 cnbctv:885535c25094b:0 - TradingView",
+   "Iran threatens European bases with missiles it says can reach 4,500 km - Iran International",
    "Hedge funds cut European diesel bets to pre-war low - Hedgeweek",
    "Societe Generale maps out its 2027 investment strategy - TradingView",
    "Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
@@ -29901,21 +29907,13 @@
    "Iran vows to use all capabilities to defy US naval blockade, sanctions - Anadolu Ajans\u0131",
    "Risk aversion and hawkish Fed bets underpin dollar as traders hedge tech and rates - VT Markets",
    "Russia Ukraine War - WV News",
+   "EU Prepares New Russia Sanctions Targeting Former Combatants, Banks and Cryptocurrency Networks - EU Today",
    "The lame duck and the Iran war - Middle East Monitor",
    "Carlin Gold Corporation (TSXV:CGD) Firms as Electrum Strategic Investment and Royalty Spin-Out Reshape Nevada Story - kalkine.ca",
-   "Cerrado Gold Inc. (TSXV:CERT) Edges Up as Argentine Gold Output and Quebec Iron Project Support Growth Narrative - kalkine.ca",
-   "Navy Awards Lockheed Martin Up to $1.5B for Trident II D5 Missile Production, Fleet Support - GovCon Wire",
-   "Federal Reserve: Consecutive hikes and sticky inflation \u2013 TD Securities - FXStreet",
-   "Silver price today: Silver rises, according to FXStreet data - www.tmgm.com",
-   "Poundland is facing collapse - what's gone wrong?",
-   "Fact check: Is more oil going through Hormuz than before the Iran war? - Houston Chronicle",
-   "Gold futures bounce back after biggest weekly fall in 8 months; silver also gains | Falling US Treasury yields supported gold prices | Inshorts - Inshorts",
-   "Colombia Marks 10 Years Since FARC Peace Deal: In Photos - The New York Times"
+   "Cerrado Gold Inc. (TSXV:CERT) Edges Up as Argentine Gold Output and Quebec Iron Project Support Growth Narrative - kalkine.ca"
   ]
  },
  "log": [
-  "22.11 15:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 15:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30213,7 +30211,9 @@
   "23.11 14:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 14:01 N  NEWS (13 new) score -0.10 conf 0.40: Faiz art\u0131r\u0131m\u0131 ve s\u0131k\u0131 Fed beklentileri ile g\u00fc\u00e7l\u00fc dolar alt\u0131n\u0131 bask\u0131l\u0131yor; buna kar\u015f\u0131n \u0130ran ve Ukrayna sava\u015flar\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini destekliyor. D\u00fc\u015fen Treasury getirileri ve haftal\u0131k d\u00fc\u015f\u00fc\u015ften toparlanma k\u0131sa vadeli al\u0131m\u0131 desteklese de, net etki hafif negatif ve belirsiz g\u00f6r\u00fcn\u00fcyor.",
   "23.11 14:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 14:14 N  NEWS (12 new) score -0.10 conf 0.35: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: g\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri (faiz art\u0131\u015f\u0131 uyar\u0131lar\u0131) alt\u0131na bask\u0131 yaparken, \u0130ran ve Ukrayna sava\u015flar\u0131ndaki gerilim g\u00fcvenli liman talebini destekliyor. Haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan gelen toparlanma ve ABD enflasyon (PCE) verisi \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil, bu y\u00fczden skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck."
+  "23.11 14:14 N  NEWS (12 new) score -0.10 conf 0.35: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: g\u00fc\u00e7l\u00fc dolar ve \u015fahin Fed beklentileri (faiz art\u0131\u015f\u0131 uyar\u0131lar\u0131) alt\u0131na bask\u0131 yaparken, \u0130ran ve Ukrayna sava\u015flar\u0131ndaki gerilim g\u00fcvenli liman talebini destekliyor. Haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan gelen toparlanma ve ABD enflasyon (PCE) verisi \u00f6ncesi belirsizlik nedeniyle y\u00f6n net de\u011fil, bu y\u00fczden skor hafif negatif ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.11 14:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 14:26 N  NEWS (10 new) score -0.20 conf 0.40: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hafif negatif: Fed'in sert duru\u015fu ve faiz art\u0131r\u0131m\u0131 beklentileri ile g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik geli\u015fmeler (Ukrayna-Rusya, \u0130ran tehditleri) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; ayr\u0131ca ABD enflasyon verisi (PCE) \u00f6ncesi belirsizlik var."
  ],
  "gold_big": {
   "account": {
@@ -30400,10 +30400,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    4963.78
-   ],
-   [
     1794917859,
     4963.78
    ],
@@ -42397,6 +42393,10 @@
    ],
    [
     1795432987,
+    4963.78
+   ],
+   [
+    1795433174,
     4963.78
    ]
   ],
@@ -42512,10 +42512,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    4975.18
-   ],
-   [
     1794917859,
     4975.18
    ],
@@ -54509,6 +54505,10 @@
    ],
    [
     1795432987,
+    4975.18
+   ],
+   [
+    1795433174,
     4975.18
    ]
   ],
@@ -54594,10 +54594,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    4993.28
-   ],
-   [
     1794917859,
     4993.28
    ],
@@ -66591,6 +66587,10 @@
    ],
    [
     1795432987,
+    4993.28
+   ],
+   [
+    1795433174,
     4993.28
    ]
   ]
@@ -66801,10 +66801,6 @@
   },
   "equity_curve": [
    [
-    1794917677,
-    4969.22
-   ],
-   [
     1794917859,
     4969.22
    ],
@@ -78798,6 +78794,10 @@
    ],
    [
     1795432987,
+    4969.22
+   ],
+   [
+    1795433174,
     4969.22
    ]
   ],
@@ -82875,10 +82875,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794917677,
-    4545.26
-   ],
    [
     1794917859,
     4545.26
@@ -94874,6 +94870,10 @@
    [
     1795432987,
     5297.35
+   ],
+   [
+    1795433174,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96518,10 +96518,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794917677,
-    114145.15
-   ],
    [
     1794917859,
     114145.15
@@ -108517,6 +108513,10 @@
    [
     1795432987,
     128183.18
+   ],
+   [
+    1795433174,
+    128183.18
    ]
   ],
   "open": {},
@@ -108699,10 +108699,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794917677,
-    4876.96
-   ],
    [
     1794917859,
     4876.96
@@ -120697,6 +120693,10 @@
    ],
    [
     1795432987,
+    4876.96
+   ],
+   [
+    1795433174,
     4876.96
    ]
   ],

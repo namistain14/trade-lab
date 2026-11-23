@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 14:23 (İstanbul)
+> Son güncelleme: 23.11.2026 14:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,100.60 $** (başlangıç 5,000 $, +100.60 $ / %+2.01)
+**Hesap değeri: 5,101.76 $** (başlangıç 5,000 $, +101.76 $ / %+2.04)
 
 Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 14:14): Claude puan **-0.10**, güven 0.35 — Başlıklar karışık: güçlü dolar ve şahin Fed beklentileri (faiz artışı uyarıları) altına baskı yaparken, İran ve Ukrayna savaşlarındaki gerilim güvenli liman talebini destekliyor. Haftalık düşüşün ardından gelen toparlanma ve ABD enflasyon (PCE) verisi öncesi belirsizlik nedeniyle yön net değil, bu yüzden skor hafif negatif ve güven düşük.
+Son haber analizi (23.11 14:26): Claude puan **-0.20**, güven 0.40 — Haberlerin ağırlığı hafif negatif: Fed'in sert duruşu ve faiz artırımı beklentileri ile güçlenen dolar altın için baskı oluşturuyor. Jeopolitik gelişmeler (Ukrayna-Rusya, İran tehditleri) güvenli liman talebini destekliyor ancak etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda; ayrıca ABD enflasyon verisi (PCE) öncesi belirsizlik var.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 13:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 13:00 N  NEWS (17 new) score +0.10 conf 0.35: Altın 14 aylık dipten toparlanıyor ve Fed faiz artırımı beklentileri biraz geriliyor, bu kısa vadede hafif destekleyici. Ancak ABD doları ve Fed'in şahin tonu (ING, Core PCE tartışması) altını baskılıyor ve ABD enflasyon verisi öncesinde yönü belirsiz; sinyaller çelişkili olduğu için güven düşük.
 23.11 13:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 13:12 N  NEWS (27 new) score +0.10 conf 0.35: Altın, 14 aylık düşük seviyeden ve son haftanın en sert satışından toparlanıyor; ABD tahvil getirilerindeki düşüş ve teknoloji satışının güvenli liman talebini artırması kısa vadede destek sağlıyor. Ancak Fed'in şahin tonu, güçlü doların ve çekirdek PCE enflasyonu üzerindeki faiz artırımı tartışmaları altın için olumsuz; sinyaller karışık olduğundan etki sınırlı kalabilir.
 23.11 13:25 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 14:01 N  NEWS (13 new) score -0.10 conf 0.40: Faiz artırımı ve sıkı Fed beklentileri ile güçlü dolar altını baskılıyor; buna karşın İran ve Ukrayna savaşlarındaki tırmanış güvenli liman talebini destekliyor. Düşen Treasury getirileri ve haftalık düşüşten toparlanma kısa vadeli alımı desteklese de, net etki hafif negatif ve belirsiz görünüyor.
 23.11 14:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:14 N  NEWS (12 new) score -0.10 conf 0.35: Başlıklar karışık: güçlü dolar ve şahin Fed beklentileri (faiz artışı uyarıları) altına baskı yaparken, İran ve Ukrayna savaşlarındaki gerilim güvenli liman talebini destekliyor. Haftalık düşüşün ardından gelen toparlanma ve ABD enflasyon (PCE) verisi öncesi belirsizlik nedeniyle yön net değil, bu yüzden skor hafif negatif ve güven düşük.
+23.11 14:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 14:26 N  NEWS (10 new) score -0.20 conf 0.40: Haberlerin ağırlığı hafif negatif: Fed'in sert duruşu ve faiz artırımı beklentileri ile güçlenen dolar altın için baskı oluşturuyor. Jeopolitik gelişmeler (Ukrayna-Rusya, İran tehditleri) güvenli liman talebini destekliyor ancak etkisi sınırlı ve büyük ölçüde fiyatlanmış durumda; ayrıca ABD enflasyon verisi (PCE) öncesi belirsizlik var.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
