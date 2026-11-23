@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    5000.0
-   ],
-   [
     1794938331,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795453494,
     5096.46
+   ],
+   [
+    1795453692,
+    5101.34
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    4868.5
-   ],
-   [
     1794938331,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795453494,
     4868.5
+   ],
+   [
+    1795453692,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.3,
-   "reason": "Dolar endeksindeki g\u00fc\u00e7lenme (EUR, NZD'nin 2009 seviyelerine inmesi) ve g\u00fc\u00e7l\u00fc enflasyon okumalar\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; Fed'in Aral\u0131k toplant\u0131s\u0131 \u00f6ncesi faiz beklentileri de temkinli. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 ve jeopolitik riskler ile alt\u0131ndaki son toparlanma k\u0131sa vadede destek sa\u011fl\u0131yor, bu y\u00fczden sinyal zay\u0131f ve \u00e7eli\u015fkili.",
+   "score": 0.1,
+   "confidence": 0.35,
+   "reason": "Haberler kar\u0131\u015f\u0131k: alt\u0131ndaki toparlanma al\u0131c\u0131 talebine i\u015faret ediyor, Fed'in \"put\" beklentisi ve Rusya'n\u0131n Polonya'daki f\u00fcze ihlali gibi jeopolitik gerilim gold lehine; ancak USD'nin yeni zirveleri ve Warsh y\u00f6netimindeki faiz beklentileri alt\u0131 bask\u0131layabilir. Net etki hafif pozitif, sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1795452960965,
-   "new_headlines": 7,
+   "ts": 1795453680331,
+   "new_headlines": 16,
    "key_events": [
     "ABD imalat ve hizmet verilerinin yava\u015flamas\u0131 alt\u0131n\u0131 destekliyor",
     "Yakla\u015fan ABD enflasyon verisi k\u0131sa vadede y\u00f6n belirsizli\u011fi yarat\u0131yor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794985635557,
-    "score": -0.6,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n bir y\u0131ll\u0131k dibe yak\u0131n (3.800 dolar\u0131n alt\u0131) geriliyor; g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131/Fed s\u0131k\u0131la\u015ft\u0131rma beklentileri bask\u0131 yarat\u0131yor. \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Orta Do\u011fu gerilimi g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut d\u00fc\u015f\u00fc\u015f\u00fc \u015fimdiye kadar dengelemedi; net etki 1-4 saat i\u00e7in a\u015fa\u011f\u0131 y\u00f6nl\u00fc.",
-    "new": 8,
-    "gpt_score": -0.68,
-    "gpt_confidence": 0.76
-   },
    {
     "ts": 1794986354003,
     "score": -0.7,
@@ -29879,65 +29870,70 @@
     "new": 7,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795453680331,
+    "score": 0.1,
+    "confidence": 0.35,
+    "reason": "Haberler kar\u0131\u015f\u0131k: alt\u0131ndaki toparlanma al\u0131c\u0131 talebine i\u015faret ediyor, Fed'in \"put\" beklentisi ve Rusya'n\u0131n Polonya'daki f\u00fcze ihlali gibi jeopolitik gerilim gold lehine; ancak USD'nin yeni zirveleri ve Warsh y\u00f6netimindeki faiz beklentileri alt\u0131 bask\u0131layabilir. Net etki hafif pozitif, sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 16,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 62
+   "n": 63
   },
   "news_seen": [
+   "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+   "EU adds founder of neo-Nazi group 'The Base' to terrorism sanctions list - Anadolu Ajans\u0131",
+   "Gold price recovers as dip buyers step in - Mining.com.au",
+   "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
+   "Deborah Ann Woll to Reprise \u2018God of War\u2019 Role in Prime Video Series - The Hollywood Reporter",
+   "\u2018God Of War\u2019: Deborah Ann Woll to Reprise Faye Role From Game In Amazon Series - Deadline",
+   "\u2018God of War\u2019 Series Casts Video Game Star Deborah Ann Woll as Kratos\u2019 Wife - TheWrap",
+   "Iranian regime collapse unlikely during war even amid food shortage, expert says - The Jerusalem Post",
+   "Harmony Gold Mining Company, Materion, Freeport-McMoRan, Southern Copper, and Nexa Resources stocks trade up, what you need to know - StockStory",
    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
    "VDL presents proposed 22nd package of sanctions on Russia - The Sofia Globe",
    "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
    "Gold and Silver Jumped, but the Dollar Barely Moved. Here's Why - GoldSilver",
    "UK sanctions 5 people under Myanmar, human rights sanctions regimes - Arab News",
    "Real-Time Payments Are Changing the Economics of Corporate Liquidity - PYMNTS.com",
-   "New Zealand Dollar slides to 2009 lows as US Dollar index surges - FXStreet",
+   "Technology, China and Sanctions Evasion Lead Talks at WorldECR London Forum - WSJ",
+   "New Zealand Dollar tumbles to 17-year lows as US Dollar hits fresh highs - FXStreet",
    "Who pays for the war on Iran? The Gulf states had an answer in 1991 - thecradle.co",
    "How International Law Views The Congressional Vote On The Iran War \u2013 OpEd - Eurasia Review",
    "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
    "Putin is reportedly open to Article 5-style security guarantees for Ukraine. But what does Article 5 actually say? Would the guarantees require NATO members to go to war if Russia attacks again? - Meduza",
+   "NATO Early-Warning Aircraft Reinforce Poland After Russian Missile Incursion - UNITED24 Media",
    "New Zealand dollar to US dollar rate underperforms after retail sales beat: NZD/USD faces mixed signals - Traders Union",
    "European Commission presents 22nd package of sanctions against Russia - Ukrinform",
    "Eisenkot pushes back against Netanyahu over Iran war threats - The New Arab",
-   "The Fed Gets One Last Big Inflation Report Before Its December Rate Vote - Stock Titan",
+   "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package - Reuters",
+   "Leaked data shows more than 1,000 Russian military suicides during Ukraine war - The Guardian",
    "Banks, ships and athletes: Brussels unveils fresh sanctions against Moscow - EU Perspectives",
    "\u2018Arrest Dedi Barnea\u2019: German group files war crimes complaint over Hezbollah pager attack - Ynetnews",
-   "5 Things Gold Investors Should Watch This Thanksgiving Week - U.S. Gold Bureau",
+   "TMC, Hycroft Mining Holding, USA Rare Earth, Agnico Eagle Mines, and McEwen shares are soaring, what you need to know - TradingView",
    "The war on the ICC - The Week",
-   "Ackman says a December Fed rate hike could tip the US into recession and calls for a 3% inflation target - MLQ.ai",
    "Moscow Warns Estonia\u2019s Actions Risk Pushing Relations to the Brink of Open War - Modern Diplomacy",
    "Nvidia-led equity rally boosts sentiment as euro falls to lowest level since April 2025 - www.tmgm.com",
+   "Over 100 writers to open new U.S. PEN chapter over Israel-Gaza war disagreement - Haaretz",
    "Gold price today: why is gold up more than 3% after its worst week since March? - Nacionale",
    "EU to target Russian ex-soldiers, banks and sports in new sanctions push - POLITICO.eu",
    "Euro slides to lowest level since April 2025 as Nvidia-led stock rally lifts sentiment - www.tmgm.com",
    "US, UK Firms Cut FX Hedges to Lowest Since 2024 as Losses Jump - Bloomberg.com",
    "Ukraine takes the war against Russia far from its borders - POLITICO.eu",
    "How important are Nvidia and Jensen Huang to the US economy?",
+   "Gold Rate Today in Jaipur, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Wisconsin diesel prices drop below pre-war record - WKOW",
    "Middle East Backs Sanctions on Israeli Settlements - The Geopolitics",
-   "Ukraine\u2019s Attack Off Coast of Libya Shows Reach of Its Naval Drones - The New York Times",
-   "Far From Home for the Holidays: Tacoma Celebrates Christmas During World War Two - SouthSoundTalk",
-   "Gold's Role in an AI-Driven Economy: Direct and Indirect Effects | Post by Joseph Cavatoni | Insights - World Gold Council",
-   "Oil falls on fading geopolitical premium as stocks, gold and copper rebound - Investing.com",
-   "Cyclops Finally Delivers His Legendary War Cry in Avengers: Doomsday 2 Years Later - IMDb",
-   "Strong inflation reading keeps Shell facing steeper borrowing challenges amid dollar strength - Traders Union",
-   "Man\u2019s Hope Is a Masterful Tableau of Spain\u2019s Civil War - Jacobin",
-   "Drone-Hit Russian Cargo Ship Leaves Finnish Waters Despite Sanctions Hold - gCaptain",
-   "Gold Prices Rebound as Safe-Haven Demand Returns to Global Commodity Markets - kalkine.ca",
-   "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian",
-   "Nvidia rally strengthens US Dollar, putting Canadian Dollar under pressure - www.tmgm.com",
-   "Private investors jump on gold\u2019s worst price crash in 13 years - IFA Magazine",
-   "Leaked data shows more than 1,000 Russian military suicides during Ukraine war - The Guardian",
-   "Gustavo de Ar\u00edstegui: Geopolitical analysis of 23 November - Atalayar",
-   "Gold Rate Today in India, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo"
+   "Gold Rate Today in India, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
+   "Ukraine\u2019s Attack Off Coast of Libya Shows Reach of Its Naval Drones - The New York Times"
   ]
  },
  "log": [
-  "22.11 19:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 19:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 19:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 19:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 19:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 19:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 19:58 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30229,11 @@
   "23.11 19:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 19:56 N  NEWS (7 new) score -0.10 conf 0.30: ",
   "23.11 19:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 19:56 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 b\u00fcy\u00fck bir rallinin ard\u0131ndan \u00f6\u011fle saatlerinde y\u00fcksek seviyelerde konsolide oluyor; kovalamadan sadece se\u00e7ici trend takibi yap\u0131lmal\u0131.\u00bb / GPT \u00ab-\u00bb"
+  "23.11 19:56 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 b\u00fcy\u00fck bir rallinin ard\u0131ndan \u00f6\u011fle saatlerinde y\u00fcksek seviyelerde konsolide oluyor; kovalamadan sadece se\u00e7ici trend takibi yap\u0131lmal\u0131.\u00bb / GPT \u00ab-\u00bb",
+  "23.11 20:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 20:08 N  NEWS (16 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: alt\u0131ndaki toparlanma al\u0131c\u0131 talebine i\u015faret ediyor, Fed'in \"put\" beklentisi ve Rusya'n\u0131n Polonya'daki f\u00fcze ihlali gibi jeopolitik gerilim gold lehine; ancak USD'nin yeni zirveleri ve Warsh y\u00f6netimindeki faiz beklentileri alt\u0131 bask\u0131layabilir. Net etki hafif pozitif, sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 20:08 B6  karar turu: Claude \u00abPiyasa NVDA liderli\u011finde \u00e7ok g\u00fc\u00e7l\u00fc bir ralli ya\u015f\u0131yor ve \u00f6\u011fleden sonra konsolidasyonda; se\u00e7ici, endeks a\u011f\u0131rl\u0131kl\u0131 bir long tercih ediliyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    4963.78
-   ],
-   [
     1794938331,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795453494,
+    4963.78
+   ],
+   [
+    1795453692,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    4975.18
-   ],
-   [
     1794938331,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795453494,
+    4975.18
+   ],
+   [
+    1795453692,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    4993.28
-   ],
-   [
     1794938331,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795453494,
+    4993.28
+   ],
+   [
+    1795453692,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794938160,
-    4969.22
-   ],
-   [
     1794938331,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795453494,
+    4969.22
+   ],
+   [
+    1795453692,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794938160,
-    4527.05
-   ],
    [
     1794938331,
     4520.82
@@ -94894,6 +94890,10 @@
    [
     1795453494,
     5297.35
+   ],
+   [
+    1795453692,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794938160,
-    113178.71
-   ],
    [
     1794938331,
     113254.44
@@ -108537,15 +108533,19 @@
    [
     1795453494,
     128183.18
+   ],
+   [
+    1795453692,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795452961607,
+  "last_decision_ms": 1795453681029,
   "view": {
-   "ts": 1795452961607,
-   "claude": "Piyasa NVDA kaynakl\u0131 b\u00fcy\u00fck bir rallinin ard\u0131ndan \u00f6\u011fle saatlerinde y\u00fcksek seviyelerde konsolide oluyor; kovalamadan sadece se\u00e7ici trend takibi yap\u0131lmal\u0131.",
+   "ts": 1795453681029,
+   "claude": "Piyasa NVDA liderli\u011finde \u00e7ok g\u00fc\u00e7l\u00fc bir ralli ya\u015f\u0131yor ve \u00f6\u011fleden sonra konsolidasyonda; se\u00e7ici, endeks a\u011f\u0131rl\u0131kl\u0131 bir long tercih ediliyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108583,7 +108583,7 @@
     "AAPL": {
      "claude": [
       "none",
-      0.4
+      0.3
      ],
      "gpt": [
       null,
@@ -108593,7 +108593,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.4
+      0.35
      ],
      "gpt": [
       null,
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794938160,
-    4876.96
-   ],
    [
     1794938331,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795453494,
+    4876.96
+   ],
+   [
+    1795453692,
     4876.96
    ]
   ],
