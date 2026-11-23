@@ -71,10 +71,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    5000.0
-   ],
-   [
     1794921496,
     5000.0
    ],
@@ -12069,6 +12065,10 @@
    [
     1795436628,
     5102.0
+   ],
+   [
+    1795436814,
+    5103.39
    ]
   ],
   "archive": [
@@ -15143,10 +15143,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    4868.5
-   ],
-   [
     1794921496,
     4868.5
    ],
@@ -27141,15 +27137,19 @@
    [
     1795436628,
     4868.5
+   ],
+   [
+    1795436814,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.2,
-   "confidence": 0.4,
-   "reason": "Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor.",
+   "score": -0.15,
+   "confidence": 0.35,
+   "reason": "Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndeme geliyor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna, Libya) g\u00fcvenli liman talebini destekleyebilir, ancak \u00e7o\u011fu eski ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. PCE enflasyon verisi beklenirken olas\u0131 bir s\u00fcrpriz, ana belirleyici olacak.",
    "n": 45,
-   "ts": 1795436094120,
-   "new_headlines": 20,
+   "ts": 1795436814143,
+   "new_headlines": 11,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (EUR/USD 2025 Nisan dibi) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
     "Alt\u0131n 3.600$ \u00fczerine toparland\u0131; teknoloji sat\u0131\u015f\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor",
@@ -27160,15 +27160,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794967514858,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "\u015eahin Fed s\u00f6ylemleri, g\u00fc\u00e7l\u00fc perakende sat\u0131\u015flar ve dolar\u0131n 19 ayl\u0131k zirveye yak\u0131n seyretmesi alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n zaten y\u0131ll\u0131k dibe yak\u0131n ve 3.850$ civar\u0131nda zay\u0131f. \u0130ran'a y\u00f6nelik ABD sald\u0131r\u0131lar\u0131 ve Ukrayna sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor olsa da bu etki haberlerde s\u0131n\u0131rl\u0131 kal\u0131yor, bu nedenle net g\u00f6r\u00fcn\u00fcm hafif-orta d\u00fczeyde negatif.",
-    "new": 9,
-    "gpt_score": -0.35,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1794968234690,
     "score": -0.5,
@@ -29859,24 +29850,40 @@
     "new": 20,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795436814143,
+    "score": -0.15,
+    "confidence": 0.35,
+    "reason": "Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndeme geliyor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna, Libya) g\u00fcvenli liman talebini destekleyebilir, ancak \u00e7o\u011fu eski ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. PCE enflasyon verisi beklenirken olas\u0131 bir s\u00fcrpriz, ana belirleyici olacak.",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 40
+   "n": 41
   },
   "news_seen": [
-   "US Dollar: Strong outlook into 2027 \u2013 HSBC - Mitrade",
-   "US dollar edges off 19-month high after stocks rout; yen softens - The Business Times",
+   "Australian Dollar: Weakness seen overstretched against US Dollar \u2013 UOB - www.tmgm.com",
+   "Closing the Missile (Defense) Gap - RealClearDefense",
+   "With strikes in Benghazi, Ukraine\u2019s naval war comes to North Africa - The Arab Weekly",
+   "Bill Ackman warned a December Fed rate hike could cause recession - Quartz",
    "Opinion | Can people take the reins from tech? Look to this brush with Armageddon. - The Washington Post",
+   "Former Pete Hegseth chief of staff calls on war secretary to resign: \u2018Not just burned bridges, he\u2019s napalmed them\u2019 - New York Post",
+   "US dollar edges off 19-month high after stocks rout; yen softens - The Business Times",
    "Australian Dollar pares early gains as US Dollar stages a recovery - www.tmgm.com",
    "Why Is HSBC\u2019s US Dollar Outlook Strong Into 2027? - www.tmgm.com",
    "Australian Dollar: UOB Sees Decline Against US Dollar as Overextended - www.tmgm.com",
    "Ex-Mossad chief calls for war on Iran, reveals agency's role in foiling Taylor Swift concert plot - Ynetnews",
    "Newmont: Fine Fundamentals, But Momentum Loss Can Continue (Rating Downgrade) (NYSE:NEM) - Seeking Alpha",
    "Ukraine Exposes 69 Companies Behind Russia\u2019s Rostec Defense Empire, Including Global Titanium Supplier - UNITED24 Media",
-   "Morning Bid: Wall Street reprieve or recovery? - KELO-AM",
+   "Morning Bid: Wall Street reprieve or recovery? - WKZO",
+   "New resource: Where Peace Meets Climate Justice - War Resisters' International",
+   "Russia\u2019s War in Ukraine Is Exposing the Limits of International Law - International Policy Digest",
    "Destiny, hard work has Suns' Khaman Maluach living NBA dream | Exclusive - azcentral.com and The Arizona Republic",
+   "US Dollar: Strong outlook into 2027 \u2013 HSBC - FXStreet",
    "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
    "US, UK Firms Cut FX Hedges to Lowest Since 2024 as Losses Jump - Bloomberg.com",
    "Stronger dollar pressures capital flows into emerging markets, commodities - Anadolu Ajans\u0131",
@@ -29891,31 +29898,22 @@
    "Gulf states face $475bn deficit as Iran war hits economies - The New Arab",
    "Geran-5: How Russia\u2019s Shaheds Became Cruise Missiles - UNITED24 Media",
    "War and US absence weigh on failed COP31 climate talks - Prospect Magazine",
+   "Gold Rate Today in India, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "Integra Resources Corp. (TSXV:ITR) Dips as Lower Florida Canyon Gold Guidance Tempers Enthusiasm Around the DeLamar Permitting Timeline - kalkine.ca",
    "Gold Weekly Price Forecast: PCE Inflation Tests Rebound After 9% Drop - FXEmpire",
    "Otzma Yehudit\u2019s Gotliv: Jeffries-backed sanctions bill \u2018source of shame\u2019 - JNS",
    "Closing the Back Door: America Targets Iran\u2019s Sanctions-Evasion Network - Jerusalem Center for Security and Foreign Affairs",
    "U.S. Futures Rally as Tech Stocks Bounce After Brutal Selloff; PCE Inflation Data Awaited - Barchart.com",
+   "Le Pen names three possible scenarios for the war in Ukraine, including World War III - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
    "Gold Forecast \u2013 23/11: Sharp Selloff Tests Support (Video) - Daily Forex",
    "Qatar PM to meet Rubio in Washington for talks on US-Iran war - The New Arab",
    "Kyiv Confirms Strike on Russian Ship in Libya as Targets Grow - Bloomberg.com",
    "War is getting closer: but so is a mass movement against it \u2013 weekly briefing - Counterfire",
-   "Australian Dollar gives back some early gains as US Dollar bounces back - FXStreet",
-   "Flights grounded in Belgium due to strike against austerity measures",
-   "Roger Wicker Says Democrats Can Press Iran War Funding Limits Without Tying Commanders: how 7 outlets framed it - NewsCord",
-   "Gold, FTSE 100 Forecast: Two trades to watch - FOREX.com",
-   "Capita shares plunge 70% as boss quits after civil service pensions failure",
-   "Safe Haven Assets in a Crash: Gold, Bonds, Franc (Nov 2026) - Admirals",
-   "BTC price gains 12% from $55K: Three things to know in Bitcoin this week - TradingView",
-   "Senate GOP leaders signal openness to cutting off Iran war funding - The Washington Post",
-   "Presidential villa also hit by water and power cuts, Nigerian leader says",
-   "Is Mexico Stepping Up in the War on Drugs? - The New York Times"
+   "Australian Dollar gives back some early gains as US Dollar bounces back - FXStreet"
   ]
  },
  "log": [
-  "22.11 16:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 16:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:22 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30213,7 +30211,9 @@
   "23.11 15:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler kar\u0131\u015f\u0131k: Warsh y\u00f6netiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi alt\u0131n i\u00e7in destekleyici olabilir, ancak DXY'nin y\u00fckseli\u015fi, zay\u0131f Avro b\u00f6lgesi/\u0130ngiltere PMI verileri ve 14 ayl\u0131k en d\u00fc\u015f\u00fck seviyeden gelen zay\u0131f trend alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini art\u0131rsa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; net etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
   "23.11 15:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor."
+  "23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor.",
+  "23.11 15:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 15:26 N  NEWS (11 new) score -0.15 conf 0.35: Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndeme geliyor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna, Libya) g\u00fcvenli liman talebini destekleyebilir, ancak \u00e7o\u011fu eski ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. PCE enflasyon verisi beklenirken olas\u0131 bir s\u00fcrpriz, ana belirleyici olacak."
  ],
  "gold_big": {
   "account": {
@@ -30400,10 +30400,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    4963.78
-   ],
-   [
     1794921496,
     4963.78
    ],
@@ -42397,6 +42393,10 @@
    ],
    [
     1795436628,
+    4963.78
+   ],
+   [
+    1795436814,
     4963.78
    ]
   ],
@@ -42512,10 +42512,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    4975.18
-   ],
-   [
     1794921496,
     4975.18
    ],
@@ -54509,6 +54505,10 @@
    ],
    [
     1795436628,
+    4975.18
+   ],
+   [
+    1795436814,
     4975.18
    ]
   ],
@@ -54594,10 +54594,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    4993.28
-   ],
-   [
     1794921496,
     4993.28
    ],
@@ -66591,6 +66587,10 @@
    ],
    [
     1795436628,
+    4993.28
+   ],
+   [
+    1795436814,
     4993.28
    ]
   ]
@@ -66801,10 +66801,6 @@
   },
   "equity_curve": [
    [
-    1794921317,
-    4969.22
-   ],
-   [
     1794921496,
     4969.22
    ],
@@ -78798,6 +78794,10 @@
    ],
    [
     1795436628,
+    4969.22
+   ],
+   [
+    1795436814,
     4969.22
    ]
   ],
@@ -82875,10 +82875,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794921317,
-    4545.26
-   ],
    [
     1794921496,
     4545.26
@@ -94874,6 +94870,10 @@
    [
     1795436628,
     5297.35
+   ],
+   [
+    1795436814,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96518,10 +96518,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794921317,
-    114145.15
-   ],
    [
     1794921496,
     114145.15
@@ -108517,6 +108513,10 @@
    [
     1795436628,
     128183.18
+   ],
+   [
+    1795436814,
+    128183.18
    ]
   ],
   "open": {},
@@ -108699,10 +108699,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794921317,
-    4876.96
-   ],
    [
     1794921496,
     4876.96
@@ -120697,6 +120693,10 @@
    ],
    [
     1795436628,
+    4876.96
+   ],
+   [
+    1795436814,
     4876.96
    ]
   ],
