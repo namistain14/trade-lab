@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 17:59 (İstanbul)
+> Son güncelleme: 23.11.2026 18:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,073.50 $** (başlangıç 5,000 $, +73.50 $ / %+1.47)
+**Hesap değeri: 5,072.16 $** (başlangıç 5,000 $, +72.16 $ / %+1.44)
+
+Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
 Son işlemler:
 
@@ -91,7 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD
 23.11 17:04 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 17:04 N  NEWS (12 new) score +0.10 conf 0.35: Haberler karışık: Kitco'nun "dolar yükselişi duraklarken altın %2'den fazla yükseldi" başlığı kısa vadede olumlu momentum gösteriyor, ancak BBH'nin Fed faiz artırımı beklentilerinin doları desteklediği ve TD'nin sağlam verilerle doları desteklediği yorumları altın için baskı oluşturuyor. İran savaşı ve ABD'deki bütçe/finansman tartışmaları ile Ukrayna'daki çatışmaların genişlemesi güvenli liman talebini sınırlı biçimde artırabilir; fakat bu riskler yeni değil ve fiyatlanmış durumda olabilir. Net etki hafif pozitif, güven düşük.
 23.11 17:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -106,6 +107,7 @@ Son işlemler:
 23.11 17:53 N  NEWS (1 new) score +0.05 conf 0.30: Başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia, İngiltere refah ve Pip, Belçika grevi, Gazze insani durumu). Ukrayna'nın Libya açıklarında Rus savaş gemisini vurduğu haberi küçük bir jeopolitik gerilim yaratabilir, ancak etkisi sınırlı ve kısa vadede fiyatlanmış olabilir. Merkez bankası, enflasyon veya dolar tarafında önemli yeni bir veri yok.
 23.11 17:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 17:56 B6  karar turu: Claude «Piyasa çok güçlü bir yükseliş gününde ve oynaklık aşırı; büyük hareketleri kovalamak yerine istikrarlı trendlerde seçici uzun pozisyonlar tercih ediliyor.» / GPT «-»
+23.11 18:02 A  SHORT BNBUSDT 1674 USD @ 573.2 (1s RSI 65, TP 547.7, SL 586)
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
