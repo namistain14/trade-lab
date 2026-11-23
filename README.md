@@ -1,25 +1,24 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 16:55 (İstanbul)
+> Son güncelleme: 23.11.2026 16:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
 | | Bugün | Toplam |
 |---|---|---|
-| Net kâr/zarar | +0.00 $ | +104.97 $ |
-| İşlem sayısı | 0 | 2 |
-| Kazanma oranı | %0.0 | %100.0 |
-| Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
+| Net kâr/zarar | -31.47 $ | +73.50 $ |
+| İşlem sayısı | 1 | 3 |
+| Kazanma oranı | %0.0 | %66.7 |
+| Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,100.13 $** (başlangıç 5,000 $, +100.13 $ / %+2.00)
-
-Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
+**Hesap değeri: 5,073.50 $** (başlangıç 5,000 $, +73.50 $ / %+1.47)
 
 Son işlemler:
 
 | Kapanış | Parite | Yön | Sonuç | Neden |
 |---|---|---|---|---|
+| 23.11 16:57 | SOLUSDT | short | -31.47 $ | stop |
 | 20.11 04:03 | SOLUSDT | short | +37.10 $ | time limit |
 | 19.11 01:49 | XRPUSDT | short | +67.87 $ | take profit |
 
@@ -92,7 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 15:38 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:38 N  NEWS (18 new) score -0.10 conf 0.35: Haberler karışık: Aralık'ta Fed faiz artırımı ihtimali ve doların 19 aylık zirveye yakın seyri altın için baskı yaratıyor, altın da 9/2/25'ten bu yana en düşük seviyeden açıldı. Buna karşılık Ukrayna savaşının genişlemesi, İran savaş fonlaması tartışması ve borsa satışlarından doğan güvenli liman talebi destek sağlayabilir; bu nedenle etki hafif negatif kabul edildi ve güven düşük tutuldu.
 23.11 15:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:51 N  NEWS (12 new) score +0.45 conf 0.55: Dolar yükselişinin duraklaması ve haftalık zayıflama, altını yaklaşık %2 yükseltti; AI hisse satışının ardından şahin Fed beklentileri de geri çekiliyor. Ukrayna'da genişleyen savaş ve Polonya'ya füze girişi güvenli liman talebini destekliyor, ancak Aralık'ta Fed faiz artırımı uyarısı ve eski, kısmen fiyatlanmış haberler güveni sınırlıyor.
@@ -107,6 +105,7 @@ Son işlemler:
 23.11 16:40 N  NEWS (10 new) score +0.10 conf 0.35: Altın, haftalık düşüşün ardından toparlanma eğiliminde ve dolar yükselişi duraklamış görünüyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımı beklentileri ve güçlü dolar tarafındaki haberler altın üzerinde baskı yaratabilir, güvenli liman talebini artıran jeopolitik gelişmeler ise etkisi sınırlı kalıyor; sinyaller karışık olduğu için güven düşük.
 23.11 16:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: 
+23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

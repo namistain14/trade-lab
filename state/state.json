@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 5104.974732369517,
+   "balance": 5073.501015632307,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "0a57f932",
-     "symbol": "SOLUSDT",
-     "side": "short",
-     "qty": 23.301261142750192,
-     "entry": 72.298304,
-     "tp": 69.78685045261179,
-     "sl": 73.55403077369411,
-     "opened_ms": 1795431690329,
-     "entry_cost": 0.8423208308409704,
-     "max_hold_min": 2880,
-     "margin": 1684.6416616819408,
-     "note": "1 saatlik d\u00fc\u015f\u00fc\u015f trendi, tepki bitti (RSI 68); hedef 4xATR, stop 2xATR"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "e757136b",
@@ -59,21 +44,37 @@
      "gross": 38.7341,
      "costs": 1.6306,
      "pnl": 37.1035
+    },
+    {
+     "id": "0a57f932",
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "qty": 23.301261142750192,
+     "entry": 72.298304,
+     "tp": 69.78685045261179,
+     "sl": 73.55403077369411,
+     "opened_ms": 1795431690329,
+     "entry_cost": 0.8423208308409704,
+     "max_hold_min": 2880,
+     "margin": 1684.6416616819408,
+     "note": "1 saatlik d\u00fc\u015f\u00fc\u015f trendi, tepki bitti (RSI 68); hedef 4xATR, stop 2xATR",
+     "exit": 73.57609698292622,
+     "closed_ms": 1795442220000,
+     "reason": "stop",
+     "gross": -29.7742,
+     "costs": 1.6995,
+     "pnl": -31.4737
     }
    ],
    "day": {
     "date": "2026-11-23",
     "trades": 1,
-    "pnl": 0.0,
+    "pnl": -31.473716737210186,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794926785,
-    5000.0
-   ],
    [
     1794926971,
     5000.0
@@ -12069,6 +12070,10 @@
    [
     1795442114,
     5100.13
+   ],
+   [
+    1795442294,
+    5073.5
    ]
   ],
   "archive": [
@@ -13923,7 +13928,7 @@
   "trend_seen": {
    "BTCUSDT": 1795435200000,
    "ETHUSDT": 1795435200000,
-   "SOLUSDT": 1795428000000,
+   "SOLUSDT": 1795435200000,
    "BNBUSDT": 1795435200000,
    "XRPUSDT": 1795435200000,
    "DOGEUSDT": 1795435200000
@@ -15142,10 +15147,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794926785,
-    4868.5
-   ],
    [
     1794926971,
     4868.5
@@ -27140,6 +27141,10 @@
    ],
    [
     1795442114,
+    4868.5
+   ],
+   [
+    1795442294,
     4868.5
    ]
   ],
@@ -29914,7 +29919,6 @@
   ]
  },
  "log": [
-  "22.11 16:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30213,7 +30217,8 @@
   "23.11 16:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 16:40 N  NEWS (10 new) score +0.10 conf 0.35: Alt\u0131n, haftal\u0131k d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlanma e\u011filiminde ve dolar y\u00fckseli\u015fi duraklam\u0131\u015f g\u00f6r\u00fcn\u00fcyor; bu k\u0131sa vadede alt\u0131n\u0131 destekliyor. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar taraf\u0131ndaki haberler alt\u0131n \u00fczerinde bask\u0131 yaratabilir, g\u00fcvenli liman talebini art\u0131ran jeopolitik geli\u015fmeler ise etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "23.11 16:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: "
+  "23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: ",
+  "23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD"
  ],
  "gold_big": {
   "account": {
@@ -30400,10 +30405,6 @@
   },
   "equity_curve": [
    [
-    1794926785,
-    4963.78
-   ],
-   [
     1794926971,
     4963.78
    ],
@@ -42397,6 +42398,10 @@
    ],
    [
     1795442114,
+    4963.78
+   ],
+   [
+    1795442294,
     4963.78
    ]
   ],
@@ -42512,10 +42517,6 @@
   },
   "equity_curve": [
    [
-    1794926785,
-    4975.18
-   ],
-   [
     1794926971,
     4975.18
    ],
@@ -54509,6 +54510,10 @@
    ],
    [
     1795442114,
+    4975.18
+   ],
+   [
+    1795442294,
     4975.18
    ]
   ],
@@ -54594,10 +54599,6 @@
   },
   "equity_curve": [
    [
-    1794926785,
-    4993.28
-   ],
-   [
     1794926971,
     4993.28
    ],
@@ -66591,6 +66592,10 @@
    ],
    [
     1795442114,
+    4993.28
+   ],
+   [
+    1795442294,
     4993.28
    ]
   ]
@@ -66801,10 +66806,6 @@
   },
   "equity_curve": [
    [
-    1794926785,
-    4969.22
-   ],
-   [
     1794926971,
     4969.22
    ],
@@ -78798,6 +78799,10 @@
    ],
    [
     1795442114,
+    4969.22
+   ],
+   [
+    1795442294,
     4969.22
    ]
   ],
@@ -82875,10 +82880,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794926785,
-    4545.26
-   ],
    [
     1794926971,
     4545.26
@@ -94874,6 +94875,10 @@
    [
     1795442114,
     5297.35
+   ],
+   [
+    1795442294,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96518,10 +96523,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794926785,
-    114145.15
-   ],
    [
     1794926971,
     114145.15
@@ -108517,6 +108518,10 @@
    [
     1795442114,
     128183.18
+   ],
+   [
+    1795442294,
+    128183.18
    ]
   ],
   "open": {},
@@ -108647,10 +108652,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794926785,
-    4876.96
-   ],
    [
     1794926971,
     4876.96
@@ -120645,6 +120646,10 @@
    ],
    [
     1795442114,
+    4876.96
+   ],
+   [
+    1795442294,
     4876.96
    ]
   ],
