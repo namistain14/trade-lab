@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    5000.0
-   ],
-   [
     1794952201,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795467249,
     5120.65
+   ],
+   [
+    1795467435,
+    5119.27
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    4868.5
-   ],
-   [
     1794952201,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795467249,
     4868.5
+   ],
+   [
+    1795467435,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.4,
-   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu \"war\" kelimesini mizahi veya g\u00fcnl\u00fck anlamda kullanan g\u00fcr\u00fclt\u00fc; ger\u00e7ek jeopolitik etki s\u0131n\u0131rl\u0131. Alt\u0131n son saatlerde toparlanma g\u00f6steriyor, ancak Fed'in faiz art\u0131r\u0131m\u0131na y\u00f6nelmesi, dolar\u0131n d\u00f6rt haftal\u0131k y\u00fckseli\u015f serisi ve Bessent'in Fed'e uyar\u0131s\u0131 k\u0131sa vadede bask\u0131 yaratabilir; \u0130ran \"ne sava\u015f ne bar\u0131\u015f\" gerilimi ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sunuyor.",
+   "score": -0.1,
+   "confidence": 0.35,
+   "reason": "Haberler kar\u0131\u015f\u0131k: Goldman'\u0131n dolar\u0131n y\u00fckseli\u015finin devam edebilece\u011fi yorumu ve Fed'in faiz art\u0131r\u0131m\u0131na y\u00f6nelik beklentiler alt\u0131n\u0131 bask\u0131l\u0131yor, ancak Warsh y\u00f6netiminde Fed \"put\" beklentisi ve \u0130ran'\u0131n ABD \u00fcslerine sald\u0131r\u0131 iddialar\u0131 jeopolitik ve gev\u015feme y\u00f6n\u00fcnde destek sa\u011flayabilir. Genel tablo hafif negatif, fakat sinyaller birbiriyle \u00e7eli\u015fti\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1795466683948,
-   "new_headlines": 10,
+   "ts": 1795467434772,
+   "new_headlines": 11,
    "key_events": [
     "ABD imalat ve hizmet verilerinin yava\u015flamas\u0131 alt\u0131n\u0131 destekliyor",
     "Yakla\u015fan ABD enflasyon verisi k\u0131sa vadede y\u00f6n belirsizli\u011fi yarat\u0131yor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794999507143,
-    "score": -0.6,
-    "confidence": 0.62,
-    "reason": "Alt\u0131n, Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve dolar g\u00fcc\u00fc nedeniyle 3.800 dolar\u0131n alt\u0131na inerek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyesine geriledi; bu bask\u0131 ABD'nin \u0130ran'a y\u00f6nelik sald\u0131r\u0131lar\u0131ndaki jeopolitik risk primini a\u011f\u0131r bas\u0131yor. Sava\u015f haberlerinin g\u00fcvenli liman talebi yaratma potansiyeli olsa da piyasa tepkisi \u015fu an faiz ve dolar kanal\u0131na odakl\u0131, bu y\u00fczden 1-4 saatlik g\u00f6r\u00fcn\u00fcmde negatif e\u011filim tercih ediliyor; ancak fiyat\u0131n zaten b\u00fcy\u00fck \u00f6l\u00e7\u00fcde d\u00fc\u015fm\u00fc\u015f olmas\u0131 ve \u00e7eli\u015fkili sinyaller g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-    "new": 3,
-    "gpt_score": -0.72,
-    "gpt_confidence": 0.76
-   },
    {
     "ts": 1795000268564,
     "score": -0.6,
@@ -29879,16 +29870,32 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795467434772,
+    "score": -0.1,
+    "confidence": 0.35,
+    "reason": "Haberler kar\u0131\u015f\u0131k: Goldman'\u0131n dolar\u0131n y\u00fckseli\u015finin devam edebilece\u011fi yorumu ve Fed'in faiz art\u0131r\u0131m\u0131na y\u00f6nelik beklentiler alt\u0131n\u0131 bask\u0131l\u0131yor, ancak Warsh y\u00f6netiminde Fed \"put\" beklentisi ve \u0130ran'\u0131n ABD \u00fcslerine sald\u0131r\u0131 iddialar\u0131 jeopolitik ve gev\u015feme y\u00f6n\u00fcnde destek sa\u011flayabilir. Genel tablo hafif negatif, fakat sinyaller birbiriyle \u00e7eli\u015fti\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 81
+   "n": 82
   },
   "news_seen": [
+   "Investigating Russian Financial Networks Behind War and Sanctions Evasion - Pulitzer Center",
+   "New EU sanctions proposal threatens Russia\u2019s return to international sport - Sports Business Journal",
+   "U.S. Supreme Court denies review of Tenth Circuit ruling on Fed master account discretion - JD Supra",
+   "What strike on Russian ship in Libya says about spread of Ukraine war",
    "There\u2019s Still a War Against Boys | Opinion - Institute for Family Studies",
    "Dollar Rally Has Room to Run, Goldman Says, But Charts Flash Overbought Warning - BigGo Finance",
+   "How mass defections tipped the balance in Sudan\u2019s brutal civil war - The Times",
    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
+   "Russia has lost astonishing 700K soldiers since start of Ukraine war \u2014 1 in every 200 citizens killed, study finds - New York Post",
+   "Goldman\u2019s Trivedi Says Dollar \u2018Has Some Fight\u2019 Left on Rate Path - Bloomberg.com",
    "Federal Reserve warnings rattle Wall Street - Fox Business",
    "UK sanctions Myanmar president, military figures after genocide ruling - South China Morning Post",
    "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action - The National",
@@ -29897,6 +29904,7 @@
    "US targets Iran\u2019s shadow banking \u2018lifeline\u2019 with new sanctions - Iran International",
    "We have to keep humanity 'above war,' Melania Trump advisor stresses - Fox Business",
    "Iran claims missile and drone attack on U.S. bases - 11Alive.com",
+   "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
    "Missile maker building Sandoval County campus lands two Air Force contracts - nm.news",
    "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian",
    "Profit From Higher Federal Reserve Rates With These 6 CLO ETFs - Seeking Alpha",
@@ -29904,12 +29912,15 @@
    "Gold Futures Rebound as Nvidia News Lifts Markets - WSJ",
    "The Iran war drained U.S. missile stocks needed to deter China. The Pentagon has no plan to restock - Fortune",
    "Qalibaf Says Iran Will Not Accept \u2018No War, No Peace\u2019 Stalemate with US - Kurdistan24",
+   "Navy keeps Black war hero's name on carrier after weighing renaming it for Trump - Yahoo",
    "49ers release Brandon Aiyuk after months-long feud and social media war - Fox News",
    "Bougainville independence from PNG could change geopolitical landscape: experts - Radio Free Asia",
    "Will Congress End the Iran War? - The American Prospect",
+   "Trump impersonator joins Canadian PM. Here's the latest on the trade war - USA Today",
    "Every 17th Death in Russia Since 2022 Linked to War, Leaked Rosstat Records Show - UNITED24 Media",
    "Dollar Breaches 6.00 Per Real Intraday Before Retreating; Brazil Stocks Fall Further on Petrobras Drag - BigGo Finance",
    "Iran says 'no-war, no-peace' situation cannot continue - Middle East Eye",
+   "EU Unveils 22nd Sanctions Package Against Russia, Moves to Ban Russian Flag at Sporting Events - BigGo Finance",
    "Silver Price Forecast: Bullish harami faces $43.95 breakout test - www.tmgm.com",
    "Angela Easterling explores family\u2019s Civil War tale on brilliant new album: Upstate Beat - Greenville Journal",
    "Why has gold fallen a third since its January record? The war, inflation and a Fed that turned to hikes - Nacionale",
@@ -29919,23 +29930,10 @@
    "Revolutionary War patriot honored on Veterans Day - The LaFayette Sun",
    "Mexico\u2019s bishops call for honoring Cristero War martyrs by building peace - EWTN News",
    "The Debate - How far will Ukraine war spread? Kyiv targets Russian vessels in Libya - France 24",
-   "US imposes sanctions on dozens linked to Iran's shadow banking networks - Reuters",
-   "Terrion Arnold\u2019s lawyer seeks sanctions for discovery violation - NBC Sports",
-   "Gold Prices Rebound. What the Charts Say About a Nasdaq Bottom. - Barron's",
-   "Official exchange rates on selected date | Bank of Russia - \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0411\u0430\u043d\u043a \u0420\u043e\u0441\u0441\u0438\u0438",
-   "Congress Faces Review of Trump's Expanding Economic Sanctions - Legis1",
-   "Jeffries-backed Judea and Samaria sanctions a \u2018welcome step,\u2019 but Dems should go further, Mamdani says - JNS",
-   "Brazil\u2019s Real Hits 19-Month Low as Post-Election Selloff Deepens - Bloomberg.com",
-   "More than 700,000 Russian troops died in the war in Ukraine by late September 2026, Meduza and Mediazona estimate - Meduza",
-   "Russia threatens \u2018hostile\u2019 Estonia with \u2018open war\u2019 - Al Jazeera",
-   "The US Dollar's four-week winning streak meets Bessent's warning to the Fed - FXStreet",
-   "Fact-check: Is more oil going through the Strait of Hormuz than before the Iran war? - WRAL",
-   "Gold Rate Today in Bangalore, 24 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo"
+   "US imposes sanctions on dozens linked to Iran's shadow banking networks - Reuters"
   ]
  },
  "log": [
-  "22.11 23:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 23:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:12 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30231,9 @@
   "23.11 23:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 23:32 N  NEWS (6 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu \"war\" kelimesini mizahi veya g\u00fcnl\u00fck anlamda kullanan g\u00fcr\u00fclt\u00fc; ger\u00e7ek jeopolitik etki s\u0131n\u0131rl\u0131. Alt\u0131n son saatlerde toparlanma g\u00f6steriyor, ancak Fed'in faiz art\u0131r\u0131m\u0131na y\u00f6nelmesi, dolar\u0131n d\u00f6rt haftal\u0131k y\u00fckseli\u015f serisi ve Bessent'in Fed'e uyar\u0131s\u0131 k\u0131sa vadede bask\u0131 yaratabilir; \u0130ran \"ne sava\u015f ne bar\u0131\u015f\" gerilimi ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman deste\u011fi sunuyor.",
   "23.11 23:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 23:44 N  NEWS (10 new) score +0.05 conf 0.40: "
+  "23.11 23:44 N  NEWS (10 new) score +0.05 conf 0.40: ",
+  "23.11 23:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 23:57 N  NEWS (11 new) score -0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: Goldman'\u0131n dolar\u0131n y\u00fckseli\u015finin devam edebilece\u011fi yorumu ve Fed'in faiz art\u0131r\u0131m\u0131na y\u00f6nelik beklentiler alt\u0131n\u0131 bask\u0131l\u0131yor, ancak Warsh y\u00f6netiminde Fed \"put\" beklentisi ve \u0130ran'\u0131n ABD \u00fcslerine sald\u0131r\u0131 iddialar\u0131 jeopolitik ve gev\u015feme y\u00f6n\u00fcnde destek sa\u011flayabilir. Genel tablo hafif negatif, fakat sinyaller birbiriyle \u00e7eli\u015fti\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    4963.78
-   ],
-   [
     1794952201,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795467249,
+    4963.78
+   ],
+   [
+    1795467435,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    4975.18
-   ],
-   [
     1794952201,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795467249,
+    4975.18
+   ],
+   [
+    1795467435,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    4993.28
-   ],
-   [
     1794952201,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795467249,
+    4993.28
+   ],
+   [
+    1795467435,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794952011,
-    4969.22
-   ],
-   [
     1794952201,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795467249,
+    4969.22
+   ],
+   [
+    1795467435,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794952011,
-    4507.38
-   ],
    [
     1794952201,
     4507.57
@@ -94894,6 +94890,10 @@
    [
     1795467249,
     5297.35
+   ],
+   [
+    1795467435,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794952011,
-    112393.69
-   ],
    [
     1794952201,
     112393.69
@@ -108537,6 +108533,10 @@
    [
     1795467249,
     128183.18
+   ],
+   [
+    1795467435,
+    128183.18
    ]
   ],
   "open": {},
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794952011,
-    4876.96
-   ],
    [
     1794952201,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795467249,
+    4876.96
+   ],
+   [
+    1795467435,
     4876.96
    ]
   ],
