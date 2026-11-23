@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 07:57 (İstanbul)
+> Son güncelleme: 23.11.2026 08:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -55,9 +55,7 @@ Son işlemler:
 
 **Hesap değeri: 4,876.96 $** (başlangıç 5,000 $, -123.04 $ / %-2.46)
 
-Son haber analizi (18.11 11:41): Claude puan **+0.30**, güven 0.40 — Hürmüz Boğazı'nda ADNOC gemisinin vurulması ve gaz tankerine isabet gibi yeni saldırılar, ayrıca ABD'nin İran adasını vurması ve Bahreyn/Kuwait'e dronlar, arz riski primini yukarı çekebilir. Buna karşılık Brent'in 100 doların altına inmesi, fazla arz ve bozulan fiyat yapısı (backwardation, zayıf motorin) gibi baskılayıcı haberler piyasada zaten fiyatlanmış görünüyor; bu nedenle net etki hafif yukarı yönlü ama belirsiz.
-
-GPT (gpt-6-luna): puan **+0.58**, güven 0.68 — Hürmüz Boğazı’nda ADNOC bağlantılı gemiye saldırı, can kaybı ve başka bir tanker hasarı haberleri yakın vadeli arz kesintisi risk primini artırıyor. Ancak arz fazlası endişeleri ve petrolün 100 doların altına indiğine dair haberler yükselişi sınırlayabilir.
+Son haber analizi (23.11 08:00): Claude puan **+0.05**, güven 0.40 — Husi saldırıları Suudi rafineri ve tesislerini hedef alarak arz riskini artırıyor ve Hürmüz'deki tanker saldırıları jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlanıyor: küresel hisse senedi satışı, güçlü Orta Doğu ihracatı ve son bir ayda %21'lik düşüş Brent'i aşağı çekiyor, bu nedenle net etki hafif pozitif ama belirsiz.
 
 Son işlemler:
 
@@ -92,8 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-23.11 02:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -107,6 +103,8 @@ Son işlemler:
 23.11 07:45 N  NEWS (12 new) score +0.10 conf 0.40: Altın, teknoloji satışıyla artan güvenli liman talebi ve doların 19 aylık zirvesten geri çekilmesiyle 3600 doların üzerine toparlandı; bu kısa vadede pozitif. Ancak Fed'in Aralık'ta faiz artırma olasılığının %90'ın üzerine çıkması ve ABD PCE enflasyon verisinin yaklaşması gerçek faizleri yükselterek altına baskı yapabilir. Haberler çelişkili ve bir kısmı zaten fiyatlanmış olduğu için güveni düşük tutuyorum.
 23.11 07:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 07:57 N  NEWS (10 new) score +0.05 conf 0.40: Sinyaller karışık: Aralık ayında Fed faiz artırımı olasılığının %90'ın üzerine çıkması ve Bessent/Ackman uyarıları altın için baskılayıcı, ancak teknoloji satışı kaynaklı güvenli liman talebi ile doların 19 aylık zirveden gerilemesi altını 3600$ üzerine taşıdı. PCE enflasyon verisi öncesinde bu çelişkili etkiler büyük olasılıkla birbirini nötrleyecek; güven düşük tutuldu.
+23.11 08:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 08:00 B5P  NEWS (45 new) score +0.05 conf 0.40: Husi saldırıları Suudi rafineri ve tesislerini hedef alarak arz riskini artırıyor ve Hürmüz'deki tanker saldırıları jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlanıyor: küresel hisse senedi satışı, güçlü Orta Doğu ihracatı ve son bir ayda %21'lik düşüş Brent'i aşağı çekiyor, bu nedenle net etki hafif pozitif ama belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
