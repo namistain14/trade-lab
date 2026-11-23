@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    5000.0
-   ],
-   [
     1794944920,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795460079,
     5110.51
+   ],
+   [
+    1795460277,
+    5109.81
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    4868.5
-   ],
-   [
     1794944920,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795460079,
     4868.5
+   ],
+   [
+    1795460277,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
+   "score": -0.25,
    "confidence": 0.4,
-   "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in hafif negatif: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi, dolar y\u0131ll\u0131k zirveye yakla\u015f\u0131yor ve hisse senetleri toparlan\u0131nca g\u00fcvenli liman talebi zay\u0131flad\u0131; petrol primi de s\u00f6n\u00fcmleniyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 finansman\u0131 ve yeni yapt\u0131r\u0131mlar gibi jeopolitik gerilimler ile 3600 dolar \u00fczerindeki k\u0131sa vadeli toparlanma bu bask\u0131y\u0131 s\u0131n\u0131rl\u0131yor, bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
+   "reason": "Yeni haberlerin en \u00f6nemlisi dolar\u0131n 19 ayl\u0131k zirveye \u00e7\u0131kmas\u0131, bu da alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Iran ve Rusya ile ilgili jeopolitik geli\u015fmeler g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f. Alt\u0131ndaki %3'l\u00fck y\u00fckseli\u015f ise Nvidia haberiyle ili\u015fkisiz g\u00f6r\u00fcn\u00fcyor ve \u00e7eli\u015fkili sinyaller g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
    "n": 45,
-   "ts": 1795459544543,
-   "new_headlines": 10,
+   "ts": 1795460264771,
+   "new_headlines": 6,
    "key_events": [
     "ABD imalat ve hizmet verilerinin yava\u015flamas\u0131 alt\u0131n\u0131 destekliyor",
     "Yakla\u015fan ABD enflasyon verisi k\u0131sa vadede y\u00f6n belirsizli\u011fi yarat\u0131yor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794992205277,
-    "score": -0.7,
-    "confidence": 0.7,
-    "reason": "Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor; bu, reel faizleri y\u00fckselterek alt\u0131n\u0131 bask\u0131l\u0131yor. Alt\u0131n y\u0131ll\u0131k/YTD dip seviyelerine geriledi ve FOMC tutanaklar\u0131 \u00f6ncesinde sat\u0131\u015f s\u00fcr\u00fcyor. Jeopolitik haberler (\u0130ran, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak mevcut haber ak\u0131\u015f\u0131nda bu etki dolar ve faiz kaynakl\u0131 bask\u0131n\u0131n gerisinde kal\u0131yor.",
-    "new": 12,
-    "gpt_score": -0.58,
-    "gpt_confidence": 0.69
-   },
    {
     "ts": 1794992923232,
     "score": -0.6,
@@ -29879,17 +29870,29 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795460264771,
+    "score": -0.25,
+    "confidence": 0.4,
+    "reason": "Yeni haberlerin en \u00f6nemlisi dolar\u0131n 19 ayl\u0131k zirveye \u00e7\u0131kmas\u0131, bu da alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Iran ve Rusya ile ilgili jeopolitik geli\u015fmeler g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f. Alt\u0131ndaki %3'l\u00fck y\u00fckseli\u015f ise Nvidia haberiyle ili\u015fkisiz g\u00f6r\u00fcn\u00fcyor ve \u00e7eli\u015fkili sinyaller g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
+    "new": 6,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 71
+   "n": 72
   },
   "news_seen": [
+   "Dollar surges to 19-month high - The San Joaquin Valley Sun",
+   "Ontario approves Springpole gold project assessment - Mining.com",
+   "'God of War' TV Series: Deborah Ann Woll to Reprise Game Role - Gizmodo",
+   "Russian missile incursion \u2018exposes NATO\u2019s air defense gaps\u2019 - TVP World",
    "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? - Cryptonews.net",
-   "AngloGold to pay 40% premium for Sitka Gold stake - Mining.com",
    "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
-   "El Paso Korean War veteran William Slobojan seeks 100th birthday cards from Texans - KFOX",
+   "AngloGold to pay 40% premium for Sitka Gold stake - Mining.com",
    "Deborah Ann Woll Will Reprise Her Role As Laufey In Amazon's God Of War Series - Game Informer",
    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
    "Gold prices today, November 24th: Soaring dramatically by over $100/ounce. - Vietnam.vn",
@@ -29899,18 +29902,18 @@
    "What Russian warship did Ukraine just sink? - Al Jazeera",
    "Canadian dollar falls for 10th straight session as oil slides - Reuters",
    "Weekly Geopolitical Report Issue No. 47| 2026 - horn review",
-   "What Does the EU\u2019s Proposed 22nd Sanctions Package Against Russia Cover? - Caspian Post",
+   "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates - The New York Times",
    "McDonald County High School students use creativity to help war memorabilia project - KOAM News Now",
-   "Prime Video's God Of War Series Is Bringing One Video Game Cast Member Into Live-Action - IMDb",
+   "Memory of Revolutionary War soldiers honored with plaque - Herald-Citizen.com",
    "NATO fails Russia\u2019s missile test. The next test may involve dead Europeans - Washington Examiner",
    "Incoming! IW celebrates finished Nike missile exhibit at nam... - Smithfield Times",
    "Gold, Silver, Platinum Forecasts \u2013 Gold Soars 3% As Jensen Huang Is Reinstated As Nvidia CEO - FXEmpire",
+   "Prime Video's God Of War Series Is Bringing One Video Game Cast Member Into Live-Action - IMDb",
    "US Sanctions Iranian Exchange Houses, Dubai Firms - Kurdistan24",
    "Tucker Carlson: Gold is at its lowest price in over a year, features discussion on price outlook - Traders Union",
    "Singapore Dollar: Consolidation bias within tight band against US Dollar \u2013 UOB - FXStreet",
    "Goldman Sachs sees US dollar rally continuing before a pullback in 2027 - Investing.com",
    "Iranian authorities flog singer who performed without hijab, lawyers say",
-   "Gold Rate Today in India, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "EU to ban Russian flags and teams at European sports events in new sanctions round - EUobserver",
    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
    "Russia produces one ballistic missile every five hours, according to the Ministry of Defence - UkrMedia News",
@@ -29919,6 +29922,7 @@
    "Euro vs Dollar stays under pressure as sellers dominate below key technical levels - Traders Union",
    "Russian war death toll likely near 700,000, media reports after studying leaked government data - The Kyiv Independent",
    "Australian Dollar Price Forecast: Oversold\u2026 and still under pressure - FXStreet",
+   "Gold Rate Today in India, 23 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Rare ocean visitors with 100-foot tentacles are turning up near San Diego - AccuWeather",
    "Gold's recovery may be short-lived as Natixis warns of drop to $3,340 - Kitco",
    "US issues new Iran-related sanctions, Treasury website shows - The Times of Israel",
@@ -29926,18 +29930,10 @@
    "Gold is having a rough year. Does it still belong in your portfolio? - Yahoo Finance",
    "God of War TV Series Officially Casts the Perfect Faye - Polygon.com",
    "The tame lawyer in the geopolitical wilds - eKathimerini.com",
-   "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
-   "Oil falls on fading geopolitical premium as stocks, gold and copper rebound - Investing.com",
-   "Fed Rate-Hike Odds Jump As Nvidia, 'Central Bank Of AI,' Saves The Day - Investor's Business Daily",
-   "Goldman\u2019s Trivedi Says Dollar \u2018Has Some Fight\u2019 Left on Rate Path - Bloomberg.com",
-   "U.S. Dollar Tests Yearly Highs As Stocks Rally: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire"
+   "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns"
   ]
  },
  "log": [
-  "22.11 21:23 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 21:26 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 21:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 21:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 21:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 21:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 21:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30229,11 @@
   "23.11 21:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 21:45 N  NEWS (10 new) score -0.30 conf 0.40: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in hafif negatif: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi, dolar y\u0131ll\u0131k zirveye yakla\u015f\u0131yor ve hisse senetleri toparlan\u0131nca g\u00fcvenli liman talebi zay\u0131flad\u0131; petrol primi de s\u00f6n\u00fcmleniyor. Buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131 finansman\u0131 ve yeni yapt\u0131r\u0131mlar gibi jeopolitik gerilimler ile 3600 dolar \u00fczerindeki k\u0131sa vadeli toparlanma bu bask\u0131y\u0131 s\u0131n\u0131rl\u0131yor, bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
   "23.11 21:45 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 21:45 B6  karar turu: Claude \u00abOla\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor ancak hareket b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, son barlarda zirveden geri \u00e7ekilme var ve kapan\u0131\u015fa yakla\u015f\u0131k 75 dakika kald\u0131; ayr\u0131ca verilerdeki a\u015f\u0131r\u0131 u\u00e7 de\u011ferler temkinli olmay\u0131 gerektiriyor, bu y\u00fczden yeni pozisyon a\u00e7m\u0131yorum.\u00bb / GPT \u00ab-\u00bb"
+  "23.11 21:45 B6  karar turu: Claude \u00abOla\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor ancak hareket b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, son barlarda zirveden geri \u00e7ekilme var ve kapan\u0131\u015fa yakla\u015f\u0131k 75 dakika kald\u0131; ayr\u0131ca verilerdeki a\u015f\u0131r\u0131 u\u00e7 de\u011ferler temkinli olmay\u0131 gerektiriyor, bu y\u00fczden yeni pozisyon a\u00e7m\u0131yorum.\u00bb / GPT \u00ab-\u00bb",
+  "23.11 21:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 21:57 N  NEWS (6 new) score -0.25 conf 0.40: Yeni haberlerin en \u00f6nemlisi dolar\u0131n 19 ayl\u0131k zirveye \u00e7\u0131kmas\u0131, bu da alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Iran ve Rusya ile ilgili jeopolitik geli\u015fmeler g\u00fcvenli liman talebini hafif\u00e7e destekliyor, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f. Alt\u0131ndaki %3'l\u00fck y\u00fckseli\u015f ise Nvidia haberiyle ili\u015fkisiz g\u00f6r\u00fcn\u00fcyor ve \u00e7eli\u015fkili sinyaller g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
+  "23.11 21:57 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 21:57 B6  karar turu: Claude \u00abPiyasa tarihi bir ralli g\u00fcn\u00fcn\u00fc kapan\u0131\u015fa yak\u0131n yatay-hafif zay\u0131f konsolidasyonla tamaml\u0131yor; kalan bir saatte y\u00f6n belirsiz oldu\u011fundan yeni pozisyon a\u00e7mamak daha mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    4963.78
-   ],
-   [
     1794944920,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795460079,
+    4963.78
+   ],
+   [
+    1795460277,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    4975.18
-   ],
-   [
     1794944920,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795460079,
+    4975.18
+   ],
+   [
+    1795460277,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    4993.28
-   ],
-   [
     1794944920,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795460079,
+    4993.28
+   ],
+   [
+    1795460277,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794944761,
-    4969.22
-   ],
-   [
     1794944920,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795460079,
+    4969.22
+   ],
+   [
+    1795460277,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794944761,
-    4517.65
-   ],
    [
     1794944920,
     4523.11
@@ -94894,6 +94890,10 @@
    [
     1795460079,
     5297.35
+   ],
+   [
+    1795460277,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794944761,
-    113047.99
-   ],
    [
     1794944920,
     112614.18
@@ -108537,40 +108533,24 @@
    [
     1795460079,
     128183.18
+   ],
+   [
+    1795460277,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795459545272,
+  "last_decision_ms": 1795460265506,
   "view": {
-   "ts": 1795459545272,
-   "claude": "Ola\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor ancak hareket b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f, son barlarda zirveden geri \u00e7ekilme var ve kapan\u0131\u015fa yakla\u015f\u0131k 75 dakika kald\u0131; ayr\u0131ca verilerdeki a\u015f\u0131r\u0131 u\u00e7 de\u011ferler temkinli olmay\u0131 gerektiriyor, bu y\u00fczden yeni pozisyon a\u00e7m\u0131yorum.",
+   "ts": 1795460265506,
+   "claude": "Piyasa tarihi bir ralli g\u00fcn\u00fcn\u00fc kapan\u0131\u015fa yak\u0131n yatay-hafif zay\u0131f konsolidasyonla tamaml\u0131yor; kalan bir saatte y\u00f6n belirsiz oldu\u011fundan yeni pozisyon a\u00e7mamak daha mant\u0131kl\u0131.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
-     "claude": [
-      "none",
-      0.25
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      "none",
-      0.25
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "NVDA": {
      "claude": [
       "none",
       0.3
@@ -108580,10 +108560,30 @@
       null
      ]
     },
+    "QQQ": {
+     "claude": [
+      "none",
+      0.3
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.35
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
     "AAPL": {
      "claude": [
       "none",
-      0.2
+      0.25
      ],
      "gpt": [
       null,
@@ -108593,7 +108593,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.2
+      0.3
      ],
      "gpt": [
       null,
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794944761,
-    4876.96
-   ],
    [
     1794944920,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795460079,
+    4876.96
+   ],
+   [
+    1795460277,
     4876.96
    ]
   ],
