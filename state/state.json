@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    5000.0
-   ],
-   [
     1794957126,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795472326,
     5120.41
+   ],
+   [
+    1795472512,
+    5117.84
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    4868.5
-   ],
-   [
     1794957126,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795472326,
     4868.5
+   ],
+   [
+    1795472512,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.35,
-   "confidence": 0.55,
-   "reason": "Fed Ba\u015fkan\u0131 Williams'\u0131n art arda s\u0131k\u0131la\u015ft\u0131rma gerekti\u011fini ve enflasyonla m\u00fccadele i\u00e7in \"harekete ge\u00e7ilmesi\" gerekti\u011fini s\u00f6ylemesi, faiz beklentilerini sertle\u015ftirip alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir fakt\u00f6r. \u0130ran'a y\u00f6nelik yeni yapt\u0131r\u0131mlar ve Katar'\u0131n sava\u015f\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair a\u00e7\u0131klamas\u0131 ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi destekliyor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f durumda.",
+   "score": -0.25,
+   "confidence": 0.4,
+   "reason": "Fed Ba\u015fkan\u0131 Williams'\u0131n \"daha fazla s\u0131k\u0131la\u015ft\u0131rma gerekiyor\" ve enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in \"harekete ge\u00e7mek laz\u0131m\" y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 ile Fed'in daha y\u00fcksek faizlere i\u015faret etmesi, reel faiz beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve yeni ABD yapt\u0131r\u0131mlar\u0131 gibi jeopolitik haberler alt\u0131na destek verse de, bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir; sinyal kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif e\u011filimli.",
    "n": 45,
-   "ts": 1795471792437,
-   "new_headlines": 9,
+   "ts": 1795472512167,
+   "new_headlines": 8,
    "key_events": [
     "Fed Williams: enflasyon i\u00e7in 'daha \u00e7ok i\u015f var', faiz art\u0131\u015flar\u0131 'zamanla' gerekebilir (\u015fahin)",
     "Goldman: dolar y\u00fckseli\u015finin devam edebilece\u011fi, dolar g\u00fc\u00e7leniyor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795004627957,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n y\u0131ll\u0131k zirveye yak\u0131n d\u00fc\u015f\u00fck seviyelerde ve %2 civar\u0131nda sert d\u00fc\u015f\u00fcyor; Fed'in faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131, g\u00fc\u00e7l\u00fc dolar ve bak\u0131r/kripto gibi varl\u0131klardaki sat\u0131\u015f bask\u0131s\u0131 k\u0131sa vadede alt\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor. \u0130ran sava\u015f\u0131n\u0131n geni\u015flemesi ve K\u00f6rfez sald\u0131r\u0131lar\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu jeopolitik risk \u015fimdiye kadar fiyat\u0131 yukar\u0131 ta\u015f\u0131mad\u0131\u011f\u0131 i\u00e7in etkisi s\u0131n\u0131rl\u0131 kal\u0131yor; UBS'nin 5.000 dolar hedefi uzun vadeli oldu\u011fundan k\u0131sa vadeli etkisi zay\u0131f.",
-    "new": 6,
-    "gpt_score": -0.45,
-    "gpt_confidence": 0.62
-   },
    {
     "ts": 1795005346651,
     "score": -0.55,
@@ -29879,21 +29870,35 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795472512167,
+    "score": -0.25,
+    "confidence": 0.4,
+    "reason": "Fed Ba\u015fkan\u0131 Williams'\u0131n \"daha fazla s\u0131k\u0131la\u015ft\u0131rma gerekiyor\" ve enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in \"harekete ge\u00e7mek laz\u0131m\" y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 ile Fed'in daha y\u00fcksek faizlere i\u015faret etmesi, reel faiz beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve yeni ABD yapt\u0131r\u0131mlar\u0131 gibi jeopolitik haberler alt\u0131na destek verse de, bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir; sinyal kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif e\u011filimli.",
+    "new": 8,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 6
+   "n": 7
   },
   "news_seen": [
+   "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal - The New York Times",
+   "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+   "Rutte: NATO Must Prepare Civilians, Not Just Armies, for Possible War With Russia - UNITED24 Media",
+   "PolitiFact: The impact of the Iran war on oil exports - WRAL",
+   "Contracts for Nov. 23, 2026 - U.S. Department of War (.gov)",
+   "God of War game cast member Deborah Ann Woll will reprise her role as Faye in Prime Video\u2019s upcoming TV series adaptation headlined by Dave Batusta. Read more below. - Facebook",
+   "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
    "Trial date set for woman accused of defacing DC World War II Memorial - WJLA",
    "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits - The Washington Post",
    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
    "Emerging Growth Research Initiates Coverage of Granada Gold Mine Inc. - StreetInsider",
-   "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
    "US business activity growth slows in November amid inflation pressures - ColoradoBiz",
    "Fed's Williams: Essential to reduce inflation to 2% - Breakingthenews.net",
-   "Texas Korean War veteran asks for 100 birthday cards as he turns 100 - KXXV",
    "The 10 Best War Books of All Time, Ranked - Collider",
    "Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
    "New York Fed\u2019s Williams Says More Tightening Needed as Inflation Remains High - bloomingbit",
@@ -29905,7 +29910,6 @@
    "Ethiopia: Lethal artillery strikes on civilian neighbourhoods in Tigray\u2019s Alamata city must be investigated as war crimes - Amnesty International",
    "Fed\u2019s Williams: \"Must act\" on inflation, sees 2% target only in 2028 - FXStreet",
    "US escalates sanctions on Iran, targets \u2018shadow banking\u2019 networks - Al Jazeera",
-   "In Harlem, The Trade War Reaches The Dance Floor - Harlem World Magazine",
    "Russo-Ukrainian war, day 1734: Merz says Ukraine in NATO in 2008 could have stopped war - Euromaidan Press",
    "US Markets Face Key Inflation and GDP Tests Ahead of Thanksgiving - Cryptonews.net",
    "How Fed Monetary Policy Shapes the Housing Market Today - Darden Report",
@@ -29913,9 +29917,11 @@
    "Introducing Dispatches from the Next War - Atlantic Council",
    "Alasdair Macleod warns of deeper market turmoil despite gold and silver rebound - Mining.com",
    "Even Sienna Miller Was Surprised by That \u2018War\u2019 Ending - The Hollywood Reporter",
+   "Fed's Williams: We've been working very hard to get inflation down, and have made progress - Forex Factory",
    "DC: Dakota Gold Corp. filed SEC Form 8-K: Regulation FD Disclosure, Other Events, Financial Statements and Exhibits - Quantisnow",
    "Federal Reserve signals higher rates over time as inflation stays above target - Traders Union",
    "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+   "Official exchange rates on selected date | Bank of Russia - \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0411\u0430\u043d\u043a \u0420\u043e\u0441\u0441\u0438\u0438",
    "Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
    "Attorney General Ra\u00fal Torrez joins federal lawsuit accusing Dollar General overcharging customers - KRQE",
    "Ukraine in NATO could probably have stopped Russia\u2019s war, German Chancellor Merz says, 18 years after Berlin helped shut the door - Euromaidan Press",
@@ -29924,18 +29930,10 @@
    "EU moves to ban Russian flags at sports events under new sanctions - South China Morning Post",
    "Markets & Stocks - FinancialContent",
    "\u2018Not a coincidence\u2019: Ex-US envoy backs Poland\u2019s assessment of Russian missile incursion - TVP World",
-   "Bessent gave Iran weeks before it had \u2018nothing left to trade.\u2019 New sanctions expose what survived - Fox News",
-   "DOW Launches Automated SI Solution for Classification Management - U.S. Department of War (.gov)",
-   "US government sanctions more than two dozen people, entities aiding Iran\u2019s \u2018shadow banks\u2019 - JNS",
-   "US sanctions dozens of alleged Iranian \u2018shadow banking\u2019 networks - The Times of Israel",
-   "Gold Rate Today in Bokaro (23 Nov 2026) - Kotak Neo",
-   "Fed has 'work to do' to lower inflation, Williams says - Reuters",
-   "Gold Price Today on November 23, 2026 - USA Today"
+   "Bessent gave Iran weeks before it had \u2018nothing left to trade.\u2019 New sanctions expose what survived - Fox News"
   ]
  },
  "log": [
-  "22.11 23:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 23:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 23:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30231,9 @@
   "24.11 00:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 00:57 N  NEWS (8 new) score -0.40 conf 0.50: New York Fed Ba\u015fkan\u0131 Williams'\u0131n \"daha fazla s\u0131k\u0131la\u015ft\u0131rma gerekli\" ve faizlerin \"zamanla\" y\u00fckseltilebilece\u011fi y\u00f6n\u00fcndeki sert a\u00e7\u0131klamalar\u0131, reel faiz ve Fed beklentileri \u00fczerinden alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran'a y\u00f6nelik yeni yapt\u0131r\u0131mlar ve Katar'\u0131n sava\u015f\u0131n sonlanmas\u0131 i\u00e7in m\u00fczakere \u00e7a\u011fr\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi destekleyebilir, ancak bu etki Fed'in \u015fahin mesaj\u0131n\u0131n gerisinde kal\u0131yor.",
   "24.11 01:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 01:09 N  NEWS (9 new) score -0.35 conf 0.55: Fed Ba\u015fkan\u0131 Williams'\u0131n art arda s\u0131k\u0131la\u015ft\u0131rma gerekti\u011fini ve enflasyonla m\u00fccadele i\u00e7in \"harekete ge\u00e7ilmesi\" gerekti\u011fini s\u00f6ylemesi, faiz beklentilerini sertle\u015ftirip alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir fakt\u00f6r. \u0130ran'a y\u00f6nelik yeni yapt\u0131r\u0131mlar ve Katar'\u0131n sava\u015f\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair a\u00e7\u0131klamas\u0131 ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi destekliyor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f durumda."
+  "24.11 01:09 N  NEWS (9 new) score -0.35 conf 0.55: Fed Ba\u015fkan\u0131 Williams'\u0131n art arda s\u0131k\u0131la\u015ft\u0131rma gerekti\u011fini ve enflasyonla m\u00fccadele i\u00e7in \"harekete ge\u00e7ilmesi\" gerekti\u011fini s\u00f6ylemesi, faiz beklentilerini sertle\u015ftirip alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir fakt\u00f6r. \u0130ran'a y\u00f6nelik yeni yapt\u0131r\u0131mlar ve Katar'\u0131n sava\u015f\u0131n s\u00fcrd\u00fc\u011f\u00fcne dair a\u00e7\u0131klamas\u0131 ise s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi destekliyor; ancak bu haberler k\u0131smen fiyatlanm\u0131\u015f durumda.",
+  "24.11 01:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 01:21 N  NEWS (8 new) score -0.25 conf 0.40: Fed Ba\u015fkan\u0131 Williams'\u0131n \"daha fazla s\u0131k\u0131la\u015ft\u0131rma gerekiyor\" ve enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in \"harekete ge\u00e7mek laz\u0131m\" y\u00f6n\u00fcndeki a\u00e7\u0131klamalar\u0131 ile Fed'in daha y\u00fcksek faizlere i\u015faret etmesi, reel faiz beklentilerini yukar\u0131 \u00e7ekerek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve yeni ABD yapt\u0131r\u0131mlar\u0131 gibi jeopolitik haberler alt\u0131na destek verse de, bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir; sinyal kar\u0131\u015f\u0131k ve orta d\u00fczeyde g\u00fcvenle negatif e\u011filimli."
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    4963.78
-   ],
-   [
     1794957126,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795472326,
+    4963.78
+   ],
+   [
+    1795472512,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    4975.18
-   ],
-   [
     1794957126,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795472326,
+    4975.18
+   ],
+   [
+    1795472512,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    4993.28
-   ],
-   [
     1794957126,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795472326,
+    4993.28
+   ],
+   [
+    1795472512,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794956947,
-    4969.22
-   ],
-   [
     1794957126,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795472326,
+    4969.22
+   ],
+   [
+    1795472512,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794956947,
-    4493.73
-   ],
    [
     1794957126,
     4496.46
@@ -94894,6 +94890,10 @@
    [
     1795472326,
     5297.35
+   ],
+   [
+    1795472512,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794956947,
-    112393.69
-   ],
    [
     1794957126,
     112393.69
@@ -108537,6 +108533,10 @@
    [
     1795472326,
     128183.18
+   ],
+   [
+    1795472512,
+    128183.18
    ]
   ],
   "open": {},
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794956947,
-    4876.96
-   ],
    [
     1794957126,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795472326,
+    4876.96
+   ],
+   [
+    1795472512,
     4876.96
    ]
   ],
