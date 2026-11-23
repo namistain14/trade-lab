@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 16:12 (İstanbul)
+> Son güncelleme: 23.11.2026 16:15 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,100.13 $** (başlangıç 5,000 $, +100.13 $ / %+2.00)
+**Hesap değeri: 5,101.53 $** (başlangıç 5,000 $, +101.53 $ / %+2.03)
 
 Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 16:03): Claude puan **+0.15**, güven 0.35 — Haberler karışık: dolar rallisinin duraklaması ve altındaki %2'ye yakın toparlanma kısa vadede destekleyici, Polonya'ya füze girişi ve İran savaşı fonlaması tartışması jeopolitik risk primini hafifçe artırıyor. Buna karşılık Ackman'ın Aralık'ta faiz artırımı uyarısı ve beklenen PCE enflasyon verisi baskı yaratabilir; sinyaller birbiriyle çeliştiği için güven düşük.
+Son haber analizi (23.11 16:15): Claude puan **+0.30**, güven 0.50 — Altın, haftalık en sert düşüşün ardından toparlanıyor ve dolar güçlü yükselişinin duraklamasıyla birlikte kısa vadede yukarı yönlü bir tepki görüyor. Ancak Aralık'ta Fed faiz artırımı tartışmaları ve yaklaşan PCE enflasyon verisi, baskıyı yeniden artırabileceğinden güven sınırlı kalıyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 14:38 N  NEWS (18 new) score -0.10 conf 0.30: Başlıklar birbiriyle çelişiyor: FOMC tutanakları doları güçlendirdiği için altında sert satış ve güçlü dolar baskısı var, ancak yüzde 2'den fazla yükselişi tetikleyen Fed faiz artırımı beklentilerinin azalması ve PCE verisi öne çıkıyor. Jeopolitik risk (İran savaşı) ise güvenli liman talebini destekleyici olsa da fonlamanın kesilmesi yönündeki haberler bu etkiyi sınırlıyor. Net etki hafif negatif, düşük güvenle değerlendirilmeli.
-23.11 14:50 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:50 N  NEWS (7 new) score +0.05 conf 0.30: 
 23.11 15:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler karışık: Warsh yönetiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi altın için destekleyici olabilir, ancak DXY'nin yükselişi, zayıf Avro bölgesi/İngiltere PMI verileri ve 14 aylık en düşük seviyeden gelen zayıf trend altını baskılıyor. İran ve Ukrayna çatışmaları güvenli liman talebini artırsa da bunlar büyük ölçüde fiyatlanmış durumda; net etki sınırlı ve yön belirsiz.
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 15:51 N  NEWS (12 new) score +0.45 conf 0.55: Dolar yükselişinin duraklaması ve haftalık zayıflama, altını yaklaşık %2 yükseltti; AI hisse satışının ardından şahin Fed beklentileri de geri çekiliyor. Ukrayna'da genişleyen savaş ve Polonya'ya füze girişi güvenli liman talebini destekliyor, ancak Aralık'ta Fed faiz artırımı uyarısı ve eski, kısmen fiyatlanmış haberler güveni sınırlıyor.
 23.11 16:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:03 N  NEWS (7 new) score +0.15 conf 0.35: Haberler karışık: dolar rallisinin duraklaması ve altındaki %2'ye yakın toparlanma kısa vadede destekleyici, Polonya'ya füze girişi ve İran savaşı fonlaması tartışması jeopolitik risk primini hafifçe artırıyor. Buna karşılık Ackman'ın Aralık'ta faiz artırımı uyarısı ve beklenen PCE enflasyon verisi baskı yaratabilir; sinyaller birbiriyle çeliştiği için güven düşük.
+23.11 16:15 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 16:15 N  NEWS (8 new) score +0.30 conf 0.50: Altın, haftalık en sert düşüşün ardından toparlanıyor ve dolar güçlü yükselişinin duraklamasıyla birlikte kısa vadede yukarı yönlü bir tepki görüyor. Ancak Aralık'ta Fed faiz artırımı tartışmaları ve yaklaşan PCE enflasyon verisi, baskıyı yeniden artırabileceğinden güven sınırlı kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
