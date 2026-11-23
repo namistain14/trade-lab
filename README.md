@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 23:17 (İstanbul)
+> Son güncelleme: 23.11.2026 23:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,109.20 $** (başlangıç 5,000 $, +109.20 $ / %+2.18)
+**Hesap değeri: 5,112.35 $** (başlangıç 5,000 $, +112.35 $ / %+2.25)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 23:08): Claude puan **-0.15**, güven 0.35 — Haberler karışık: Dolar 19 ay zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'e uyarısı altın için baskılayıcı. Buna karşın İran sanksiyonları ve jeopolitik gerilim güvenli liman talebini destekliyor, altın ise PCE öncesi toparlanıyor; net etki hafif negatif ve düşük güvenle değerlendirilmeli.
+Son haber analizi (23.11 23:20): Claude puan **-0.15**, güven 0.35 — Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 22:34 N  NEWS (9 new) score -0.20 conf 0.40: Dolar 19 aylık zirvesine çıkıyor ve Fed'in faiz artırımı sinyali vermesi altın için baskı yaratıyor; bu nedenle kısa vadede hafif negatif bir görünüm var. Buna karşılık İran savaşı, Rusya-NATO gerilimi ve yeni yaptırımlar güvenli liman talebini destekliyor, ayrıca altın PCE verisi öncesinde toparlanma gösterdi. Haberler çelişkili olduğu ve bir kısmı zaten fiyatlanmış olduğu için güven düşük tutuldu.
-23.11 22:34 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:34 B6  karar turu: Claude «Piyasa çok güçlü bir ralli gününü yatay konsolidasyonla bitiriyor; kapanışa 26 dakika kaldığı için %1.5 hedefine ulaşma ihtimali düşük, bu yüzden sadece seçici ve küçük pozisyonlar mantıklı.» / GPT «-»
 23.11 22:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:46 N  NEWS (6 new) score +0.05 conf 0.30: Jeopolitik gerilim (Ukrayna, Rusya-Estonya, İran yaptırımları) altın için hafif güvenli liman desteği sağlıyor, ancak doların yıllık zirvelere yaklaşması ve Bessent'in Fed'e uyarısı altın üzerinde baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski; PCE verisi öncesi belirsizlik yüksek olduğu için net yön zayıf.
@@ -108,6 +106,8 @@ Son işlemler:
 23.11 23:08 N  NEWS (5 new) score -0.15 conf 0.35: Haberler karışık: Dolar 19 ay zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'e uyarısı altın için baskılayıcı. Buna karşın İran sanksiyonları ve jeopolitik gerilim güvenli liman talebini destekliyor, altın ise PCE öncesi toparlanıyor; net etki hafif negatif ve düşük güvenle değerlendirilmeli.
 23.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:08 B6  karar turu: Claude «Normal seans kapandı ve olağanüstü büyük günlük hareketler zaten fiyatlandı; seans sonrası düşük likiditede yeni pozisyon açmak yerine beklemek daha disiplinli bir tercih.» / GPT «-»
+23.11 23:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 23:20 N  NEWS (9 new) score -0.15 conf 0.35: Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
