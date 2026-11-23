@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    5000.0
-   ],
-   [
     1794933898,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795449066,
     5085.28
+   ],
+   [
+    1795449263,
+    5086.27
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    4868.5
-   ],
-   [
     1794933898,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795449066,
     4868.5
+   ],
+   [
+    1795449263,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
+   "score": 0.1,
    "confidence": 0.4,
-   "reason": "Alt\u0131n son saatlerde de\u011fer kazan\u0131yor; ABD imalat ve hizmet verilerinin zay\u0131flamas\u0131 ile AI sat\u0131\u015f\u0131n\u0131n Fed beklentilerini yumu\u015fatmas\u0131 fiyat\u0131 destekliyor. Ancak bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f durumda ve yak\u0131ndaki ABD enflasyon verisi y\u00f6n\u00fc tersine \u00e7evirebilece\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
+   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve artan piyasa korkusu (ABD korku endeksi 19 ayl\u0131k zirvede) alt\u0131na g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak alt\u0131n zaten yakla\u015f\u0131k %3-4 y\u00fckseldi, Fed faiz endi\u015feleri ve Nvidia rallisiyle g\u00fc\u00e7lenen dolar bask\u0131 yaratabilir. Yakla\u015fan ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fundan net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor.",
    "n": 45,
-   "ts": 1795448532078,
-   "new_headlines": 10,
+   "ts": 1795449251651,
+   "new_headlines": 15,
    "key_events": [
     "ABD imalat ve hizmet verilerinin yava\u015flamas\u0131 alt\u0131n\u0131 destekliyor",
     "Yakla\u015fan ABD enflasyon verisi k\u0131sa vadede y\u00f6n belirsizli\u011fi yarat\u0131yor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794980499544,
-    "score": 0.02,
-    "confidence": 0.7,
-    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil (Java g\u00fcvenlik a\u00e7\u0131\u011f\u0131, Bezos/007, Waymo, Nvidia, Avrupa \u00e7ip plan\u0131, Thomas Markle). Trump-Xi g\u00f6r\u00fc\u015fmesi ve bir ABD askerinin casusluk g\u00f6zalt\u0131s\u0131 gibi jeopolitik haberler var, ancak bunlar\u0131n g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rd\u0131\u011f\u0131na dair bir i\u015faret yok; Fed, reel faiz, dolar veya enflasyonla ilgili yeni bir veri de yok. Bu nedenle beklenen etki ihmal edilebilir d\u00fczeyde.",
-    "new": 1,
-    "gpt_score": 0.0,
-    "gpt_confidence": 0.08
-   },
    {
     "ts": 1794981984668,
     "score": -0.5,
@@ -29879,28 +29870,47 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795449251651,
+    "score": 0.1,
+    "confidence": 0.4,
+    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve artan piyasa korkusu (ABD korku endeksi 19 ayl\u0131k zirvede) alt\u0131na g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak alt\u0131n zaten yakla\u015f\u0131k %3-4 y\u00fckseldi, Fed faiz endi\u015feleri ve Nvidia rallisiyle g\u00fc\u00e7lenen dolar bask\u0131 yaratabilir. Yakla\u015fan ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fundan net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor.",
+    "new": 15,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 56
+   "n": 57
   },
   "news_seen": [
+   "The rise and fall and rise again of Jensen Huang",
+   "Yemen\u2019s army claims 647 strikes on Houthis, says militia missile attack killed 2 in Taiz - Arab News",
+   "US Army and Korean War veteran asks for 100 cards for his 100th birthday - Odessa American",
    "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "The EUR/USD tests critical support ahead of US inflation data - CMC Markets",
    "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
    "European Commission presents latest sanctions package against Russia - Anadolu Ajans\u0131",
    "Cluster munition kills child in Daraa as war remnants continue to claim lives - Arab News",
    "The European Commission has presented the 22nd package of sanctions against Russia \u2014 what Moscow should prepare for - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+   "Unit Surpasses $3 Billion in Customer Deposits, Built on Direct Connections to the Federal Reserve And Payment Networks - The Tennessean",
    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
+   "Fed President pitches FedNow - Payments Dive",
+   "The New Zealand Dollar is now weaker than at any point since the 2009 crisis - FXStreet",
    "El Paso Korean War veteran William Slobojan seeks 100th birthday cards from Texans - KFOX",
+   "Canadian Dollar weakens as Nvidia rally lifts the US Dollar - FXStreet",
    "Gold Price Today Surges Over 4% as Investors Buy the Dip Ahead of Key US Inflation Data - Aktualita.co",
    "EU unveils 22nd Russia sanctions package - TVP World",
    "Gulf airports face soaring war premiums, shrinking cover - Business Insurance",
+   "AI profitability, Fed rate concerns push US fear index to 19-month high - Anadolu Ajans\u0131",
    "Trump maintains pressure on Iran as Democrats eye war funding - Al-Monitor",
+   "Ukrainian Drone Commander Warns NATO Is Training For 'The Wrong War' - Kurdistan24",
    "After license revocation and prison, Iowa attorney faces more sanctions - KCRG",
+   "EU Targets Ex-Russian Fighters in New Sanctions Package - Bloomberg.com",
    "Gold: Can structural support offset fragile flows? \u2013 TD Securities - www.tmgm.com",
    "EU Commission proposes 22nd sanctions package on Russia - Reuters",
-   "Oath Keepers founder is \u2018absolutely done\u2019 with Trump, citing pardons and Iran war - MS NOW",
    "How important are Nvidia and Jensen Huang to the US economy?",
    "Russia makes a new ballistic missile every 5 hours and is picking up the pace, Ukraine warns - Business Insider",
    "Ontario approves Springpole gold project assessment - The Northern Miner",
@@ -29912,32 +29922,18 @@
    "Opinion | Can people take the reins from tech? Look to this brush with Armageddon. - The Washington Post",
    "Gold prices jump 3% as bargain hunting overshadows slowing U.S. manufacturing and services activity - Kitco",
    "Ex-Mossad chief: Israel must go to war against Iran \u2018as soon as all conditions allow\u2019 - The Times of Israel",
+   "State and metro employment: Third quarter 2026 - Federal Reserve Bank of St. Louis",
    "Mexican soldiers attacked in wake of drug lord's arrest",
+   "Eisenkot Refutes Netanyahu's Threats for Urgent Iran War as Unity Talks Continue - Haaretz",
    "Gold, Silver Prices Rebound with US Stocks from Markets-Wide 'Washout' - BullionVault",
-   "US government reassured Nvidia board over Huang",
+   "Nvidia reinstates CEO after affair with alleged spy",
+   "Iran: Former Mossad Chief Calls For Overthrowing The Regime, \u201ceven At The Cost Of War\u201d - i24NEWS",
    "EU adds Rinaldo Nazzaro founder of \u201cThe Base\u201d to its terrorist sanctions list - WKZO",
    "Gold SWOT: UBS and Goldman Sachs see gold recovering by late 2027 - Kitco",
-   "EU expands its sanctions framework: New enforcement structures and Russia-related designations - Global Sanctions and Export Controls Blog",
-   "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
-   "Gold rebounds ahead of US inflation data: WSJ - New Age BD",
-   "Sitka Gold Announces Strategic Investment of $72.7 Million from AngloGold Ashanti - TradingView",
-   "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action - The National",
-   "Presidential villa suffers water and power cuts, Nigerian leader says",
-   "EU adds Rinaldo Nazzaro founder of \"The Base\" to its terrorist sanctions list - Reuters",
-   "Russia Produces a New Ballistic Missile Every Five Hours\u2014and Is Still Accelerating, Ukraine Warns - UNITED24 Media",
-   "Israeli report raises concerns over proposed US sanctions on West Bank settlers and businesses - Middle East Monitor",
-   "Gold price rallies above $3,600 as AI selloff reshapes Fed outlook - Kitco AM Report - Kitco",
-   "Is It Time for Kyiv to Compromise With Russia Over the War in Ukraine? - Foreign Policy",
-   "Turkey May Use Gold to Bolster FX Position, Governor Says - Bloomberg.com",
-   "Gold Price Today: Gold Rises 1.98% on November 23, 2026 - USA Today",
-   "Who is fueling the religious war narrative in Palestine? - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
+   "EU expands its sanctions framework: New enforcement structures and Russia-related designations - Global Sanctions and Export Controls Blog"
   ]
  },
  "log": [
-  "22.11 18:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 18:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 18:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 18:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:42 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:45 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:48 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30229,11 @@
   "23.11 18:42 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 18:42 N  NEWS (10 new) score +0.20 conf 0.40: Alt\u0131n son saatlerde de\u011fer kazan\u0131yor; ABD imalat ve hizmet verilerinin zay\u0131flamas\u0131 ile AI sat\u0131\u015f\u0131n\u0131n Fed beklentilerini yumu\u015fatmas\u0131 fiyat\u0131 destekliyor. Ancak bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f durumda ve yak\u0131ndaki ABD enflasyon verisi y\u00f6n\u00fc tersine \u00e7evirebilece\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "23.11 18:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 18:42 B6  karar turu: Claude \u00abPiyasa son derece g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 hareket nedeniyle ge\u00e7 giri\u015flerde se\u00e7ici ve temkinli olmak gerekiyor.\u00bb / GPT \u00ab-\u00bb"
+  "23.11 18:42 B6  karar turu: Claude \u00abPiyasa son derece g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 hareket nedeniyle ge\u00e7 giri\u015flerde se\u00e7ici ve temkinli olmak gerekiyor.\u00bb / GPT \u00ab-\u00bb",
+  "23.11 18:54 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 18:54 N  NEWS (15 new) score +0.10 conf 0.40: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve artan piyasa korkusu (ABD korku endeksi 19 ayl\u0131k zirvede) alt\u0131na g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan hafif destekleyici, ancak alt\u0131n zaten yakla\u015f\u0131k %3-4 y\u00fckseldi, Fed faiz endi\u015feleri ve Nvidia rallisiyle g\u00fc\u00e7lenen dolar bask\u0131 yaratabilir. Yakla\u015fan ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fundan net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor.",
+  "23.11 18:54 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 18:54 B6  karar turu: Claude \u00abNVDA liderli\u011finde ola\u011fan\u00fcst\u00fc bir ralli ya\u015fan\u0131yor ancak hareketin b\u00fcy\u00fck k\u0131sm\u0131 ger\u00e7ekle\u015fti. Endeksler zirveden hafif geri \u00e7ekilirken se\u00e7ici olmak ve kovalamamak gerekiyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    4963.78
-   ],
-   [
     1794933898,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795449066,
+    4963.78
+   ],
+   [
+    1795449263,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    4975.18
-   ],
-   [
     1794933898,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795449066,
+    4975.18
+   ],
+   [
+    1795449263,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    4993.28
-   ],
-   [
     1794933898,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795449066,
+    4993.28
+   ],
+   [
+    1795449263,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794933705,
-    4969.22
-   ],
-   [
     1794933898,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795449066,
+    4969.22
+   ],
+   [
+    1795449263,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794933705,
-    4545.26
-   ],
    [
     1794933898,
     4545.26
@@ -94894,6 +94890,10 @@
    [
     1795449066,
     5297.35
+   ],
+   [
+    1795449263,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794933705,
-    114145.15
-   ],
    [
     1794933898,
     114145.15
@@ -108537,23 +108533,27 @@
    [
     1795449066,
     128183.18
+   ],
+   [
+    1795449263,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795448532734,
+  "last_decision_ms": 1795449252296,
   "view": {
-   "ts": 1795448532734,
-   "claude": "Piyasa son derece g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 hareket nedeniyle ge\u00e7 giri\u015flerde se\u00e7ici ve temkinli olmak gerekiyor.",
+   "ts": 1795449252296,
+   "claude": "NVDA liderli\u011finde ola\u011fan\u00fcst\u00fc bir ralli ya\u015fan\u0131yor ancak hareketin b\u00fcy\u00fck k\u0131sm\u0131 ger\u00e7ekle\u015fti. Endeksler zirveden hafif geri \u00e7ekilirken se\u00e7ici olmak ve kovalamamak gerekiyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "long",
-      0.5
+      "none",
+      0.35
      ],
      "gpt": [
       null,
@@ -108563,7 +108563,7 @@
     "QQQ": {
      "claude": [
       "none",
-      0.4
+      0.35
      ],
      "gpt": [
       null,
@@ -108583,7 +108583,7 @@
     "AAPL": {
      "claude": [
       "long",
-      0.55
+      0.5
      ],
      "gpt": [
       null,
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794933705,
-    4876.96
-   ],
    [
     1794933898,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795449066,
+    4876.96
+   ],
+   [
+    1795449263,
     4876.96
    ]
   ],
