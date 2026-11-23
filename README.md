@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 00:30 (İstanbul)
+> Son güncelleme: 24.11.2026 00:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,113.46 $** (başlangıç 5,000 $, +113.46 $ / %+2.27)
+**Hesap değeri: 5,114.54 $** (başlangıç 5,000 $, +114.54 $ / %+2.29)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 00:21): Claude puan **-0.35**, güven 0.50 — Yeni gelen en önemli haber, NY Fed Başkanı Williams'ın enflasyonu düşürmek için "zaman içinde" daha yüksek faiz gerekebileceği yönündeki şahin açıklamaları; bu, reel faiz ve dolar beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar güçlenmesi ve Goldman'ın dolar yükselişi yorumları da kısa vadede negatif. İran'ın ABD üslerine saldırı iddiası jeopolitik risk yaratıp altını destekleyebilir, ancak bu haber yeni değil ve fiyatlanmış olabilir.
+Son haber analizi (24.11 00:33): Claude puan **-0.35**, güven 0.50 — Fed'in Williams'ın enflasyon nedeniyle faiz artışlarını "zamanla" gerekebileceği yönündeki şahin açıklamaları ve güçlü dolar beklentisi (Goldman) altın için baskılayıcı. Jeopolitik başlıklar (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak yeni bir tırmanış göstermiyor ve eski/fiyatlanmış haberler olduğundan etkisi sınırlı.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 23:08 N  NEWS (5 new) score -0.15 conf 0.35: Haberler karışık: Dolar 19 ay zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'e uyarısı altın için baskılayıcı. Buna karşın İran sanksiyonları ve jeopolitik gerilim güvenli liman talebini destekliyor, altın ise PCE öncesi toparlanıyor; net etki hafif negatif ve düşük güvenle değerlendirilmeli.
-23.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:08 B6  karar turu: Claude «Normal seans kapandı ve olağanüstü büyük günlük hareketler zaten fiyatlandı; seans sonrası düşük likiditede yeni pozisyon açmak yerine beklemek daha disiplinli bir tercih.» / GPT «-»
 23.11 23:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:20 N  NEWS (9 new) score -0.15 conf 0.35: Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 00:09 N  NEWS (10 new) score -0.15 conf 0.40: Haberler karışık ama net etki hafif negatif: Fed yetkililerinin (Williams) enflasyon için "daha çok iş var" mesajı, çekirdek PCE üzerinden faiz artırımı tartışması ve Goldman'ın doların yükselişinin sürebileceği yorumu altın için baskı yaratıyor. İran'ın ABD üslerine füze/İHA saldırısı iddiası güvenli liman talebini artırabilir, ancak bu haber büyük ölçüde fiyatlanmış ve savaş/Fed etkisi daha ağır basıyor; borsa düşüşünün "Warsh put" beklentisi ise sınırlı bir destek sağlıyor.
 24.11 00:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:21 N  NEWS (6 new) score -0.35 conf 0.50: Yeni gelen en önemli haber, NY Fed Başkanı Williams'ın enflasyonu düşürmek için "zaman içinde" daha yüksek faiz gerekebileceği yönündeki şahin açıklamaları; bu, reel faiz ve dolar beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar güçlenmesi ve Goldman'ın dolar yükselişi yorumları da kısa vadede negatif. İran'ın ABD üslerine saldırı iddiası jeopolitik risk yaratıp altını destekleyebilir, ancak bu haber yeni değil ve fiyatlanmış olabilir.
+24.11 00:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 00:33 N  NEWS (20 new) score -0.35 conf 0.50: Fed'in Williams'ın enflasyon nedeniyle faiz artışlarını "zamanla" gerekebileceği yönündeki şahin açıklamaları ve güçlü dolar beklentisi (Goldman) altın için baskılayıcı. Jeopolitik başlıklar (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak yeni bir tırmanış göstermiyor ve eski/fiyatlanmış haberler olduğundan etkisi sınırlı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
