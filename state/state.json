@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    5000.0
-   ],
-   [
     1794931863,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795446909,
     5073.04
+   ],
+   [
+    1795447103,
+    5074.5
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    4868.5
-   ],
-   [
     1794931863,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795446909,
     4868.5
+   ],
+   [
+    1795447103,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.3,
-   "confidence": 0.4,
-   "reason": "Alt\u0131n, teknoloji hisselerindeki AI kaynakl\u0131 sat\u0131\u015f sonras\u0131 toparlan\u0131yor; zay\u0131f Chicago Fed verisi ve dolardaki sat\u0131\u015f bask\u0131s\u0131 Fed'in gev\u015feme beklentilerini destekleyerek alt\u0131n\u0131 hafif\u00e7e yukar\u0131 \u00e7ekebilir. Ancak ABD enflasyon verisi \u00f6ncesi belirsizlik y\u00fcksek, haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131\u011f\u0131 i\u00e7in olumlu etki s\u0131n\u0131rl\u0131 ve geri d\u00f6n\u00fc\u015f riski ta\u015f\u0131yor.",
+   "score": 0.2,
+   "confidence": 0.35,
+   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD i\u015f faaliyetindeki yava\u015flama ile Chicago Fed endeksinin negatife d\u00f6nmesi ve dolar\u0131n g\u00fc\u00e7 kaybetmesi de alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi \u00f6ncesi bekleyi\u015f, Fed'in s\u0131k\u0131 duru\u015fu ihtimali ve fiyat seviyelerine dair \u00e7eli\u015fkili ba\u015fl\u0131klar g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
    "n": 45,
-   "ts": 1795446373058,
-   "new_headlines": 40,
+   "ts": 1795447091967,
+   "new_headlines": 12,
    "key_events": [
     "Ukrayna'n\u0131n Libya a\u00e7\u0131klar\u0131nda Rus sava\u015f gemisine dronlarla sald\u0131r\u0131 iddias\u0131 (s\u0131n\u0131rl\u0131 g\u00fcvenli liman etkisi)",
     "Gazze'de insani durum haberleri (\u00f6nceden bilinen geli\u015fme)",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794978275567,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Alt\u0131n, g\u00fc\u00e7l\u00fc dolar\u0131n ve Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin bask\u0131s\u0131yla bir y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyesine geriledi ve 3.800 dolar\u0131n alt\u0131na indi. \u0130ran sava\u015f\u0131 gibi jeopolitik riskler g\u00fcvenli liman talebini bir miktar destekleyebilse de, bu haberler y\u00fckseli\u015f etkisini s\u0131n\u0131rlamakta; k\u0131sa vadede fiyat \u00fczerindeki a\u011f\u0131rl\u0131k a\u015fa\u011f\u0131 y\u00f6nl\u00fc g\u00f6r\u00fcn\u00fcyor. Fed tutanaklar\u0131 \u00f6ncesi belirsizlik ve Williams'\u0131n Aral\u0131k'ta \"b\u00fcy\u00fck ad\u0131m\" gerekmedi\u011fi y\u00f6n\u00fcndeki yorumu k\u0131smen olumlu bir sinyal oldu\u011fu i\u00e7in g\u00fcven orta-y\u00fcksek seviyede tutuldu.",
-    "new": 6,
-    "gpt_score": -0.68,
-    "gpt_confidence": 0.78
-   },
    {
     "ts": 1794978995320,
     "score": -0.55,
@@ -29879,18 +29870,35 @@
     "new": 40,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795447091967,
+    "score": 0.2,
+    "confidence": 0.35,
+    "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD i\u015f faaliyetindeki yava\u015flama ile Chicago Fed endeksinin negatife d\u00f6nmesi ve dolar\u0131n g\u00fc\u00e7 kaybetmesi de alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi \u00f6ncesi bekleyi\u015f, Fed'in s\u0131k\u0131 duru\u015fu ihtimali ve fiyat seviyelerine dair \u00e7eli\u015fkili ba\u015fl\u0131klar g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 53
+   "n": 54
   },
   "news_seen": [
+   "How important are Nvidia and Jensen Huang to the US economy?",
+   "Hong Kong firm became majority owner of a Russian titanium maker's UK arm in October, yet neither is on US Treasury, EU, UK, or Ukrainian sanctions lists - Euromaidan Press",
+   "OFAC sanctions Iran-linked money services businesses - JD Supra",
+   "EU proposes package of Russian sports sanctions, visa bans, and a Krygyzstan crypto blockade - The Kyiv Independent",
+   "Iran War Day 269: Tehran Says Will Use \u2018All Available Means\u2019 to Break Blockade - The American Conservative",
+   "US business activity growth eases further in November, survey shows - KFGO",
    "Opinion | Can people take the reins from tech? Look to this brush with Armageddon. - The Washington Post",
+   "Ex-Mossad chief: Israel must go to war against Iran \u2018as soon as all conditions allow\u2019 - The Times of Israel",
    "State and metro employment: Third quarter 2026 - Federal Reserve Bank of St. Louis",
    "Mexican soldiers attacked in wake of drug lord's arrest",
    "Gold, Silver Prices Rebound with US Stocks from Markets-Wide 'Washout' - BullionVault",
    "US government reassured Nvidia board over Huang",
+   "Gold SWOT: UBS and Goldman Sachs see gold recovering by late 2027 - Kitco",
    "Unit Surpasses $3 Billion in Customer Deposits, Built on Direct Connections to the Federal Reserve And Payment Networks - EIN Presswire",
    "EU expands its sanctions framework: New enforcement structures and Russia-related designations - Global Sanctions and Export Controls Blog",
    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
@@ -29898,6 +29906,7 @@
    "FCE Adds US Dollar and Euro IBANs for Individuals and Companies - HackerNoon",
    "Gold rebounds ahead of US inflation data: WSJ - New Age BD",
    "US Stock Futures Bounce After AI-Driven Correction: Markets Wrap - Bloomberg.com",
+   "Ukraine war: How drone attacks on Russian ships in Libya unfolded - BBC",
    "Sitka Gold Announces Strategic Investment of $72.7 Million from AngloGold Ashanti - TradingView",
    "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action - The National",
    "Presidential villa suffers water and power cuts, Nigerian leader says",
@@ -29909,7 +29918,8 @@
    "Israeli report raises concerns over proposed US sanctions on West Bank settlers and businesses - Middle East Monitor",
    "Gold price rallies above $3,600 as AI selloff reshapes Fed outlook - Kitco AM Report - Kitco",
    "Is It Time for Kyiv to Compromise With Russia Over the War in Ukraine? - Foreign Policy",
-   "Turkey May Use Gold Tools to Improve FX Position, Governor Says - Bloomberg.com",
+   "Turkey May Use Gold to Bolster FX Position, Governor Says - Bloomberg.com",
+   "Who is fueling the religious war narrative in Palestine? - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
    "Torrance to break ground on World War II Japanese American Incarceration Monument - Urbanize LA",
    "Russian Rouble: Will It Weaken Gradually Against the US Dollar Into 2028? \u2013 Commerzbank - www.tmgm.com",
    "Gold Price Forecast: Can Gold Reclaim $4,000 After Its Worst Weekly Crash? - Coinpaper",
@@ -29920,24 +29930,10 @@
    "Vanguard and BNY spark active bond ETF price war with fees as low as 0.07% - QuotedData",
    "Welfare cuts: What's been happening with Pip and universal credit?",
    "This is when you should start buying gold again: BCA - StreetInsider",
-   "Russian Ruble: Gradual depreciation path against US Dollar into 2028 \u2013 Commerzbank - FXStreet",
-   "Gold climbs more than 2% as dollar rally pauses - Kitco",
-   "Former Pete Hegseth chief of staff calls on war secretary to resign: \u2018Not just burned bridges, he\u2019s napalmed them\u2019 - New York Post",
-   "War-related pollution: who pays? - Gard.no",
-   "First Mining Secures Provincial Environmental Assessment Approval for Springpole Gold Project, Marking Landmark Milestone Toward Development - Investing News Network",
-   "Flights and train services cancelled in Belgium due to strike",
-   "Ukraine sinking Russian warship off Libya raises risk of wider war | Daily Sabah - Daily Sabah",
-   "Gaza a \u2018toxic wasteland\u2019 after Israel\u2019s war: Oxfam - Arab News",
-   "Ukraine claims drone strikes on Russian ships off Libya: What do we know? - Al Jazeera",
-   "Ukraine Brings the Story of War and Climate to the World - Ukrinform",
-   "Gold rebounds after steepest weekly decline in eight months - PRESS Insider"
+   "Federal Reserve Chairman Kevin Warsh during a conference on the economic impacts of new technologies - The Daily News | Texas' Oldest Newspaper"
   ]
  },
  "log": [
-  "22.11 17:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 17:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 18:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 18:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 18:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30229,11 @@
   "23.11 18:06 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 18:06 N  NEWS (40 new) score +0.30 conf 0.40: Alt\u0131n, teknoloji hisselerindeki AI kaynakl\u0131 sat\u0131\u015f sonras\u0131 toparlan\u0131yor; zay\u0131f Chicago Fed verisi ve dolardaki sat\u0131\u015f bask\u0131s\u0131 Fed'in gev\u015feme beklentilerini destekleyerek alt\u0131n\u0131 hafif\u00e7e yukar\u0131 \u00e7ekebilir. Ancak ABD enflasyon verisi \u00f6ncesi belirsizlik y\u00fcksek, haftal\u0131k sert d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131\u011f\u0131 i\u00e7in olumlu etki s\u0131n\u0131rl\u0131 ve geri d\u00f6n\u00fc\u015f riski ta\u015f\u0131yor.",
   "23.11 18:06 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 18:06 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 uzam\u0131\u015f hareketleri kovalamak yerine istikrarl\u0131 trendler tercih edilmeli.\u00bb / GPT \u00ab-\u00bb"
+  "23.11 18:06 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 uzam\u0131\u015f hareketleri kovalamak yerine istikrarl\u0131 trendler tercih edilmeli.\u00bb / GPT \u00ab-\u00bb",
+  "23.11 18:18 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 18:18 N  NEWS (12 new) score +0.20 conf 0.35: Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD i\u015f faaliyetindeki yava\u015flama ile Chicago Fed endeksinin negatife d\u00f6nmesi ve dolar\u0131n g\u00fc\u00e7 kaybetmesi de alt\u0131n i\u00e7in olumlu. Buna kar\u015f\u0131l\u0131k ABD enflasyon verisi \u00f6ncesi bekleyi\u015f, Fed'in s\u0131k\u0131 duru\u015fu ihtimali ve fiyat seviyelerine dair \u00e7eli\u015fkili ba\u015fl\u0131klar g\u00fcveni d\u00fc\u015f\u00fcr\u00fcyor.",
+  "23.11 18:18 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 18:18 B6  karar turu: Claude \u00abNVDA'daki CEO haberiyle piyasa \u00e7ok g\u00fc\u00e7l\u00fc bir risk-on g\u00fcn\u00fcnde; ancak a\u015f\u0131r\u0131 oynakl\u0131k nedeniyle yaln\u0131zca daha sakin trendlerde se\u00e7ici long pozisyonlar mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    4963.78
-   ],
-   [
     1794931863,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795446909,
+    4963.78
+   ],
+   [
+    1795447103,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    4975.18
-   ],
-   [
     1794931863,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795446909,
+    4975.18
+   ],
+   [
+    1795447103,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    4993.28
-   ],
-   [
     1794931863,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795446909,
+    4993.28
+   ],
+   [
+    1795447103,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794931693,
-    4969.22
-   ],
-   [
     1794931863,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795446909,
+    4969.22
+   ],
+   [
+    1795447103,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794931693,
-    4545.26
-   ],
    [
     1794931863,
     4545.26
@@ -94894,6 +94890,10 @@
    [
     1795446909,
     5297.35
+   ],
+   [
+    1795447103,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794931693,
-    114145.15
-   ],
    [
     1794931863,
     114145.15
@@ -108537,15 +108533,19 @@
    [
     1795446909,
     128183.18
+   ],
+   [
+    1795447103,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795446373704,
+  "last_decision_ms": 1795447092607,
   "view": {
-   "ts": 1795446373704,
-   "claude": "Piyasa NVDA kaynakl\u0131 g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; ancak a\u015f\u0131r\u0131 uzam\u0131\u015f hareketleri kovalamak yerine istikrarl\u0131 trendler tercih edilmeli.",
+   "ts": 1795447092607,
+   "claude": "NVDA'daki CEO haberiyle piyasa \u00e7ok g\u00fc\u00e7l\u00fc bir risk-on g\u00fcn\u00fcnde; ancak a\u015f\u0131r\u0131 oynakl\u0131k nedeniyle yaln\u0131zca daha sakin trendlerde se\u00e7ici long pozisyonlar mant\u0131kl\u0131.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108573,7 +108573,7 @@
     "NVDA": {
      "claude": [
       "none",
-      0.35
+      0.3
      ],
      "gpt": [
       null,
@@ -108583,7 +108583,7 @@
     "AAPL": {
      "claude": [
       "long",
-      0.4
+      0.55
      ],
      "gpt": [
       null,
@@ -108592,8 +108592,8 @@
     },
     "TSLA": {
      "claude": [
-      "long",
-      0.5
+      "none",
+      0.35
      ],
      "gpt": [
       null,
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794931693,
-    4876.96
-   ],
    [
     1794931863,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795446909,
+    4876.96
+   ],
+   [
+    1795447103,
     4876.96
    ]
   ],
