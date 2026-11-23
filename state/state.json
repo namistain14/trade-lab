@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    5000.0
-   ],
-   [
     1794941980,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795457142,
     5105.93
+   ],
+   [
+    1795457341,
+    5104.26
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    4868.5
-   ],
-   [
     1794941980,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795457142,
     4868.5
+   ],
+   [
+    1795457341,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.3,
    "confidence": 0.5,
-   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi ve dolar y\u0131ll\u0131k zirvelere yakla\u015f\u0131yor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. \u0130ran ve Rusya yapt\u0131r\u0131mlar\u0131 ile sava\u015f haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak \u00e7o\u011fu haber zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
+   "reason": "Faiz art\u0131\u015f\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n y\u0131ll\u0131k zirvelere yakla\u015fmas\u0131 alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Goldman'\u0131n dolar y\u00fckseli\u015finin s\u00fcrmesi \u00f6ng\u00f6r\u00fcs\u00fc de bu y\u00f6n\u00fc destekliyor. Iran sava\u015f\u0131 ve Rusya yapt\u0131r\u0131mlar\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan bir miktar destek sa\u011flasa da, alt\u0131n\u0131n bu y\u0131l zay\u0131f performans\u0131 ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olmas\u0131 etkiyi s\u0131n\u0131rl\u0131yor.",
    "n": 45,
-   "ts": 1795456609616,
-   "new_headlines": 8,
+   "ts": 1795457329520,
+   "new_headlines": 12,
    "key_events": [
     "ABD imalat ve hizmet verilerinin yava\u015flamas\u0131 alt\u0131n\u0131 destekliyor",
     "Yakla\u015fan ABD enflasyon verisi k\u0131sa vadede y\u00f6n belirsizli\u011fi yarat\u0131yor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794989274089,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Alt\u0131n 3.800 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc ve y\u0131ll\u0131k dip seviyesine geriledi; DXY 19 ayl\u0131k zirveye yak\u0131n seyrediyor ve veriler Fed'in faiz art\u0131r\u0131m\u0131 ihtimalini g\u00fc\u00e7lendiriyor. Yeni \u0130ran sava\u015f\u0131 geli\u015fmeleri (ABD sald\u0131r\u0131lar\u0131, Bahreyn ve Kuveyt'te \u0130HA sald\u0131r\u0131lar\u0131) jeopolitik risk primi sa\u011flasa da, g\u00fc\u00e7l\u00fc dolar ve artan faiz beklentileri bu g\u00fcvenli liman etkisini bask\u0131l\u0131yor.",
-    "new": 7,
-    "gpt_score": -0.68,
-    "gpt_confidence": 0.78
-   },
    {
     "ts": 1794989994191,
     "score": -0.7,
@@ -29879,38 +29870,55 @@
     "new": 8,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795457329520,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Faiz art\u0131\u015f\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n y\u0131ll\u0131k zirvelere yakla\u015fmas\u0131 alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Goldman'\u0131n dolar y\u00fckseli\u015finin s\u00fcrmesi \u00f6ng\u00f6r\u00fcs\u00fc de bu y\u00f6n\u00fc destekliyor. Iran sava\u015f\u0131 ve Rusya yapt\u0131r\u0131mlar\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan bir miktar destek sa\u011flasa da, alt\u0131n\u0131n bu y\u0131l zay\u0131f performans\u0131 ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olmas\u0131 etkiyi s\u0131n\u0131rl\u0131yor.",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 67
+   "n": 68
   },
   "news_seen": [
+   "Goldman Sachs sees US dollar rally continuing before a pullback in 2027 - Investing.com",
+   "Iranian authorities flog singer who performed without hijab, lawyers say",
+   "EU to ban Russian flags and teams at European sports events in new sanctions round - EUobserver",
+   "Russia produces one ballistic missile every five hours, according to the Ministry of Defence - UkrMedia News",
+   "Pip assessments need 'fundamental overhaul', report to say",
+   "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates - The New York Times",
+   "Euro vs Dollar stays under pressure as sellers dominate below key technical levels - Traders Union",
+   "Australian Dollar Price Forecast: Oversold\u2026 and still under pressure - FXStreet",
    "US issues new Iran-related sanctions, Treasury website shows - The Times of Israel",
-   "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events - ABC News - Breaking News, Latest News and Videos",
    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
    "Gold is having a rough year. Does it still belong in your portfolio? - Yahoo Finance",
    "God of War TV Series Officially Casts the Perfect Faye - Polygon.com",
+   "The tame lawyer in the geopolitical wilds - eKathimerini.com",
    "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
    "Fed Rate-Hike Odds Jump As Nvidia, 'Central Bank Of AI,' Saves The Day - Investor's Business Daily",
    "Goldman\u2019s Trivedi Says Dollar \u2018Has Some Fight\u2019 Left on Rate Path - Bloomberg.com",
    "U.S. Dollar Tests Yearly Highs As Stocks Rally: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
    "The unlikely winner from war in the Gulf - The Economist",
+   "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events - The Seattle Times",
    "Sibanye Stillwater, AngloGold Ashanti, Gold Fields, Newmont, and Cleveland-Cliffs shares skyrocket, what you need to know - StockStory",
-   "Why a Swedish Gripen Pilot Held Fire on a Suspected Russian Missile Over Poland - Aerospace Global News",
-   "\u2018God of War\u2019 Live-Action Series: Deborah Ann Woll to Reprise Faye Role From Video Games - IMDb",
+   "Swedish Gripen pilot authorized to shoot down Russian missile over Poland: Here\u2019s why he didn\u2019t - Aerospace Global News",
    "Deborah Ann Woll to Reprise \u2018God of War\u2019 Role in Prime Video Series - IMDb",
+   "\u2018God of War\u2019 Live-Action Series: Deborah Ann Woll to Reprise Faye Role From Video Games - IMDb",
    "Korean War veteran in Texas asks for 100 cards ahead of 100th birthday - FOX 7 Austin",
    "EU Targets 60 Russian Banks, Shadow Fleet and Ex-Combatants in New Sanctions Package - UNITED24 Media",
    "What failure of COP31 reveals about a divided world",
    "\u2018Daredevil\u2019 Star Deborah Ann Woll Officially Joins Prime Video\u2019s \u2018God of War\u2019 - Collider",
-   "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
    "Deborah Ann Woll To Reprise Her \u2018God of War\u2019 Role For Prime Video\u2019s Live-Action Series - Bloody Disgusting",
    "Will gold go back up? What Goldman Sachs, Morgan Stanley and UBS now forecast after the sell-off - Nacionale",
    "God Of War Laufey Actress To Reprise Her Role As Faye In Live Action God Of War Series - Kotaku",
    "Paper Money Market: Bank Notes Prove Healthy at Auction - Numismatic News",
-   "Iranian spokesman admits country has been 'wounded' in war with US - Washington Examiner",
+   "Iran has \u2018certainly been wounded\u2019 in war with US: Foreign ministry - Washington Examiner",
    "Ukraine Sinks Russian Warship off Libyan Coast as War Widens - Bloomberg.com",
    "Amazon's 'God of War' Officially Bringing Back Original Actor From Video Game Franchise - MovieWeb",
    "Speech: What Literature Can Do in a Time of War - Index on Censorship",
@@ -29922,22 +29930,10 @@
    "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
    "How the Fed will react to wobbling markets - Axios",
    "US Tech \"Magnificent Seven\" Rise Across the Board in Pre-Market Trading; Nvidia Surges Over 8% to Lead - BigGo Finance",
-   "Gold price recovers as dip buyers step in - Mining.com.au",
-   "Deborah Ann Woll to Reprise \u2018God of War\u2019 Role in Prime Video Series - The Hollywood Reporter",
-   "\u2018God Of War\u2019: Deborah Ann Woll to Reprise Faye Role From Game In Amazon Series - Deadline",
-   "\u2018God of War\u2019 Series Casts Video Game Star Deborah Ann Woll as Kratos\u2019 Wife - TheWrap",
-   "Iranian regime collapse unlikely during war even amid food shortage, expert says - The Jerusalem Post",
-   "Harmony Gold Mining Company, Materion, Freeport-McMoRan, Southern Copper, and Nexa Resources stocks trade up, what you need to know - StockStory",
-   "Brazil\u2019s Real Weakens Past 6 Per Dollar as Selloff Extends - Bloomberg.com",
-   "Why Gold Rebounded After Its Worst Week in Eight Months: Fed Rate Bets Shift - Around Prague",
-   "VDL presents proposed 22nd package of sanctions on Russia - The Sofia Globe"
+   "Gold price recovers as dip buyers step in - Mining.com.au"
   ]
  },
  "log": [
-  "22.11 20:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 20:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 20:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 20:46 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 20:49 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 20:52 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 20:55 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30229,11 @@
   "23.11 20:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 20:57 N  NEWS (8 new) score -0.30 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi ve dolar y\u0131ll\u0131k zirvelere yakla\u015f\u0131yor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. \u0130ran ve Rusya yapt\u0131r\u0131mlar\u0131 ile sava\u015f haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak \u00e7o\u011fu haber zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "23.11 20:57 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 20:57 B6  karar turu: Claude \u00abPiyasa NVDA haberiyle g\u00fc\u00e7l\u00fc bir ralli yapt\u0131 ve \u015fimdi y\u00fcksek seviyede yatay konsolide oluyor; b\u00fcy\u00fck hareketleri kovalamak yerine se\u00e7ici olmak gerekiyor.\u00bb / GPT \u00ab-\u00bb"
+  "23.11 20:57 B6  karar turu: Claude \u00abPiyasa NVDA haberiyle g\u00fc\u00e7l\u00fc bir ralli yapt\u0131 ve \u015fimdi y\u00fcksek seviyede yatay konsolide oluyor; b\u00fcy\u00fck hareketleri kovalamak yerine se\u00e7ici olmak gerekiyor.\u00bb / GPT \u00ab-\u00bb",
+  "23.11 21:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 21:09 N  NEWS (12 new) score -0.30 conf 0.50: Faiz art\u0131\u015f\u0131 beklentilerinin y\u00fckselmesi ve dolar\u0131n y\u0131ll\u0131k zirvelere yakla\u015fmas\u0131 alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Goldman'\u0131n dolar y\u00fckseli\u015finin s\u00fcrmesi \u00f6ng\u00f6r\u00fcs\u00fc de bu y\u00f6n\u00fc destekliyor. Iran sava\u015f\u0131 ve Rusya yapt\u0131r\u0131mlar\u0131 g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan bir miktar destek sa\u011flasa da, alt\u0131n\u0131n bu y\u0131l zay\u0131f performans\u0131 ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olmas\u0131 etkiyi s\u0131n\u0131rl\u0131yor.",
+  "23.11 21:09 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 21:09 B6  karar turu: Claude \u00abOla\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor ve hareketin b\u00fcy\u00fck k\u0131sm\u0131 fiyatland\u0131; \u00f6\u011fleden sonra konsolidasyon olas\u0131 oldu\u011fundan yaln\u0131zca se\u00e7ici, d\u00fc\u015f\u00fck riskli pozisyonlar tercih edilmeli.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    4963.78
-   ],
-   [
     1794941980,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795457142,
+    4963.78
+   ],
+   [
+    1795457341,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    4975.18
-   ],
-   [
     1794941980,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795457142,
+    4975.18
+   ],
+   [
+    1795457341,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    4993.28
-   ],
-   [
     1794941980,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795457142,
+    4993.28
+   ],
+   [
+    1795457341,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794941817,
-    4969.22
-   ],
-   [
     1794941980,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795457142,
+    4969.22
+   ],
+   [
+    1795457341,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794941817,
-    4484.5
-   ],
    [
     1794941980,
     4481.31
@@ -94894,6 +94890,10 @@
    [
     1795457142,
     5297.35
+   ],
+   [
+    1795457341,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794941817,
-    112291.43
-   ],
    [
     1794941980,
     112531.57
@@ -108537,15 +108533,19 @@
    [
     1795457142,
     128183.18
+   ],
+   [
+    1795457341,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795456610429,
+  "last_decision_ms": 1795457330394,
   "view": {
-   "ts": 1795456610429,
-   "claude": "Piyasa NVDA haberiyle g\u00fc\u00e7l\u00fc bir ralli yapt\u0131 ve \u015fimdi y\u00fcksek seviyede yatay konsolide oluyor; b\u00fcy\u00fck hareketleri kovalamak yerine se\u00e7ici olmak gerekiyor.",
+   "ts": 1795457330394,
+   "claude": "Ola\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor ve hareketin b\u00fcy\u00fck k\u0131sm\u0131 fiyatland\u0131; \u00f6\u011fleden sonra konsolidasyon olas\u0131 oldu\u011fundan yaln\u0131zca se\u00e7ici, d\u00fc\u015f\u00fck riskli pozisyonlar tercih edilmeli.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108583,7 +108583,7 @@
     "AAPL": {
      "claude": [
       "long",
-      0.45
+      0.4
      ],
      "gpt": [
       null,
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794941817,
-    4876.96
-   ],
    [
     1794941980,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795457142,
+    4876.96
+   ],
+   [
+    1795457341,
     4876.96
    ]
   ],
