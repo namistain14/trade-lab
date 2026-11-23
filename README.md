@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 02:17 (İstanbul)
+> Son güncelleme: 24.11.2026 02:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,119.45 $** (başlangıç 5,000 $, +119.45 $ / %+2.39)
+**Hesap değeri: 5,116.88 $** (başlangıç 5,000 $, +116.88 $ / %+2.34)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
