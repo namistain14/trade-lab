@@ -76,10 +76,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    5000.0
-   ],
-   [
     1794928056,
     5000.0
    ],
@@ -12074,6 +12070,10 @@
    [
     1795443195,
     5073.5
+   ],
+   [
+    1795443380,
+    5073.5
    ]
   ],
   "archive": [
@@ -15148,10 +15148,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    4868.5
-   ],
-   [
     1794928056,
     4868.5
    ],
@@ -27146,34 +27142,29 @@
    [
     1795443195,
     4868.5
+   ],
+   [
+    1795443380,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.35,
-   "reason": "Haberler kar\u0131\u015f\u0131k: Kitco'nun \"dolar y\u00fckseli\u015fi duraklarken alt\u0131n %2'den fazla y\u00fckseldi\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadede olumlu momentum g\u00f6steriyor, ancak BBH'nin Fed faiz art\u0131r\u0131m\u0131 beklentilerinin dolar\u0131 destekledi\u011fi ve TD'nin sa\u011flam verilerle dolar\u0131 destekledi\u011fi yorumlar\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve ABD'deki b\u00fct\u00e7e/finansman tart\u0131\u015fmalar\u0131 ile Ukrayna'daki \u00e7at\u0131\u015fmalar\u0131n geni\u015flemesi g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 bi\u00e7imde art\u0131rabilir; fakat bu riskler yeni de\u011fil ve fiyatlanm\u0131\u015f durumda olabilir. Net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": 0.15,
+   "confidence": 0.4,
+   "reason": "Alt\u0131n haftal\u0131k sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor ve dolar y\u00fckseli\u015fi durakl\u0131yor; bu k\u0131sa vadede alt\u0131n lehine. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc ABD verileri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor, \u0130ran sava\u015f\u0131 ve ABD bloke etkisi ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor. Sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in temkinli bir pozitif e\u011filim.",
    "n": 45,
-   "ts": 1795442660350,
-   "new_headlines": 12,
+   "ts": 1795443380288,
+   "new_headlines": 7,
    "key_events": [
-    "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (EUR/USD 2025 Nisan dibi) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
-    "Alt\u0131n 3.600$ \u00fczerine toparland\u0131; teknoloji sat\u0131\u015f\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor",
-    "ABD tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f alt\u0131n\u0131 k\u0131smen destekliyor"
+    "Alt\u0131n haftal\u0131k sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan %2'ye yak\u0131n toparland\u0131; dolar y\u00fckseli\u015fi duraklad\u0131 (Kitco)",
+    "Fed faiz art\u0131r\u0131m\u0131 beklentileri dolara destek veriyor (BBH, TD Securities)",
+    "ABD Senatosu'nda \u0130ran sava\u015f\u0131 finansman\u0131 ve kapanma riski; \u0130ran'\u0131n ABD ablukas\u0131na kar\u015f\u0131 tehditleri"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794975346479,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "\u015eahin Fed beklentileri (Aral\u0131k faiz art\u0131r\u0131m\u0131 neredeyse kesin, Williams'\u0131n hamle beklentisi), 19 ayl\u0131k zirveye yak\u0131n g\u00fc\u00e7l\u00fc dolar ve reel faiz bask\u0131s\u0131 alt\u0131n fiyatlar\u0131n\u0131 14 ayl\u0131k dip seviyesine ve 3.800 dolar\u0131n alt\u0131na itti. \u0130ran sava\u015f\u0131 ve H\u00fcrm\u00fcz'\u00fcn kapal\u0131 kalmas\u0131 jeopolitik risk primi sa\u011flasa da, bu g\u00fcvenli liman talebi \u015fimdiye kadar hawkish Fed ve dolar etkisini dengeleyemiyor; FOMC tutanaklar\u0131 \u00f6ncesi k\u0131sa vadede sat\u0131\u015f bask\u0131s\u0131 s\u00fcrebilir.",
-    "new": 12,
-    "gpt_score": -0.55,
-    "gpt_confidence": 0.67
-   },
    {
     "ts": 1794976065689,
     "score": -0.6,
@@ -29864,19 +29855,32 @@
     "new": 12,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795443380288,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n haftal\u0131k sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor ve dolar y\u00fckseli\u015fi durakl\u0131yor; bu k\u0131sa vadede alt\u0131n lehine. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc ABD verileri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor, \u0130ran sava\u015f\u0131 ve ABD bloke etkisi ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor. Sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in temkinli bir pozitif e\u011filim.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 49
+   "n": 50
   },
   "news_seen": [
-   "US Dollar: Macro support from firm data and Fed path \u2013 TD Securities - www.tmgm.com",
+   "Who is fueling the religious war narrative in Palestine? - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+   "Torrance to break ground on World War II Japanese American Incarceration Monument - Urbanize LA",
+   "Gold Price Forecast: Can Gold Reclaim $4,000 After Its Worst Weekly Crash? - Coinpaper",
    "Russian Rouble: Will It Weaken Gradually Against the US Dollar Into 2028? \u2013 Commerzbank - www.tmgm.com",
    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
+   "Russian Drone Attack Hits Kyiv, With Fires and Injuries Reported in City Center - UNITED24 Media",
+   "US Dollar: Macro support from firm data and Fed path \u2013 TD Securities - FXStreet",
+   "EU sanctions against terrorism: Council lists the founder of 'The Base' - Council, European Union",
    "Shafaq News..US dollar rises in Baghdad and Erbil - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
    "Vanguard and BNY spark active bond ETF price war with fees as low as 0.07% - QuotedData",
-   "EU sanctions against terrorism: Council lists the founder of 'The Base' - Council, European Union",
    "Welfare cuts: What's been happening with Pip and universal credit?",
    "Iran Advances Satellite Technology Amid Restrictions on War Imagery - WANA News Agency",
    "This is when you should start buying gold again: BCA - StreetInsider",
@@ -29896,12 +29900,13 @@
    "Ukraine Brings the Story of War and Climate to the World - Ukrinform",
    "Mexican soldiers attacked in wake of drug lord's arrest",
    "Gold rebounds after steepest weekly decline in eight months - PRESS Insider",
+   "Gold prices this afternoon (November 23): Soaring globally. - Vietnam.vn",
    "Ukraine war taking place on increasing number of fronts - CNN",
    "Pip assessments need 'fundamental overhaul', report to say",
-   "Dashcam video captures missile strike in Lviv - NBC News",
    "Iran says it will use \u2018all available means\u2019 to counter US blockade - Al Jazeera",
    "Gold Price Forecast: $3,500 Bounce May Face Selling Pressure - FXEmpire",
    "US Dollar: Fed rate hike bets support Dollar outlook - BBH - FXStreet",
+   "Gold price per tola rises Rs7,800 in Pakistan - Investify",
    "BofA maintains $80 Brent view for 2027, cites ongoing geopolitical risks - TradingView",
    "Ex-Russian Politician Appeals UK Sanctions After Conviction - Law360",
    "Brazil\u2019s Real Weakens Past 6 Per Dollar as Lula Selloff Extends - Bloomberg.com",
@@ -29910,17 +29915,10 @@
    "Gold Rebounds After Sharpest Weekly Decline Since March - WSJ",
    "Ex-Mossad head: Israel must defeat Iran, helped foil Taylor Swift bomb threat - The Jerusalem Post",
    "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-   "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
-   "\ud83d\udea8 GENDER ALERT\u2014The War in Blue Nile, Sudan - sihanet.org",
-   "Crypto News | Crypto Week Ahead: October PCE Inflation Tests Bitcoin's Rebound in Thanksgiving-Shortened Week - Binance",
-   "Canadian Dollar languishes at 19-month lows as the US Dollar erases losses - FXStreet",
-   "Syrian gold prices rise by 200 pounds per gram - \u0633\u0627\u0646\u0627",
-   "Hedge Fund Billionaire Bill Ackman Says the Fed\u2019s 2 Percent Inflation Target Is Misguided - CEOWORLD magazine"
+   "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National"
   ]
  },
  "log": [
-  "22.11 17:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 17:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30218,7 +30216,9 @@
   "23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: ",
   "23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD",
   "23.11 17:04 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 17:04 N  NEWS (12 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: Kitco'nun \"dolar y\u00fckseli\u015fi duraklarken alt\u0131n %2'den fazla y\u00fckseldi\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadede olumlu momentum g\u00f6steriyor, ancak BBH'nin Fed faiz art\u0131r\u0131m\u0131 beklentilerinin dolar\u0131 destekledi\u011fi ve TD'nin sa\u011flam verilerle dolar\u0131 destekledi\u011fi yorumlar\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve ABD'deki b\u00fct\u00e7e/finansman tart\u0131\u015fmalar\u0131 ile Ukrayna'daki \u00e7at\u0131\u015fmalar\u0131n geni\u015flemesi g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 bi\u00e7imde art\u0131rabilir; fakat bu riskler yeni de\u011fil ve fiyatlanm\u0131\u015f durumda olabilir. Net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck."
+  "23.11 17:04 N  NEWS (12 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: Kitco'nun \"dolar y\u00fckseli\u015fi duraklarken alt\u0131n %2'den fazla y\u00fckseldi\" ba\u015fl\u0131\u011f\u0131 k\u0131sa vadede olumlu momentum g\u00f6steriyor, ancak BBH'nin Fed faiz art\u0131r\u0131m\u0131 beklentilerinin dolar\u0131 destekledi\u011fi ve TD'nin sa\u011flam verilerle dolar\u0131 destekledi\u011fi yorumlar\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131 ve ABD'deki b\u00fct\u00e7e/finansman tart\u0131\u015fmalar\u0131 ile Ukrayna'daki \u00e7at\u0131\u015fmalar\u0131n geni\u015flemesi g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 bi\u00e7imde art\u0131rabilir; fakat bu riskler yeni de\u011fil ve fiyatlanm\u0131\u015f durumda olabilir. Net etki hafif pozitif, g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.11 17:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 17:16 N  NEWS (7 new) score +0.15 conf 0.40: Alt\u0131n haftal\u0131k sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor ve dolar y\u00fckseli\u015fi durakl\u0131yor; bu k\u0131sa vadede alt\u0131n lehine. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc ABD verileri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor, \u0130ran sava\u015f\u0131 ve ABD bloke etkisi ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor. Sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in temkinli bir pozitif e\u011filim."
  ],
  "gold_big": {
   "account": {
@@ -30405,10 +30405,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    4963.78
-   ],
-   [
     1794928056,
     4963.78
    ],
@@ -42402,6 +42398,10 @@
    ],
    [
     1795443195,
+    4963.78
+   ],
+   [
+    1795443380,
     4963.78
    ]
   ],
@@ -42517,10 +42517,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    4975.18
-   ],
-   [
     1794928056,
     4975.18
    ],
@@ -54514,6 +54510,10 @@
    ],
    [
     1795443195,
+    4975.18
+   ],
+   [
+    1795443380,
     4975.18
    ]
   ],
@@ -54599,10 +54599,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    4993.28
-   ],
-   [
     1794928056,
     4993.28
    ],
@@ -66596,6 +66592,10 @@
    ],
    [
     1795443195,
+    4993.28
+   ],
+   [
+    1795443380,
     4993.28
    ]
   ]
@@ -66806,10 +66806,6 @@
   },
   "equity_curve": [
    [
-    1794927865,
-    4969.22
-   ],
-   [
     1794928056,
     4969.22
    ],
@@ -78803,6 +78799,10 @@
    ],
    [
     1795443195,
+    4969.22
+   ],
+   [
+    1795443380,
     4969.22
    ]
   ],
@@ -82880,10 +82880,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794927865,
-    4545.26
-   ],
    [
     1794928056,
     4545.26
@@ -94879,6 +94875,10 @@
    [
     1795443195,
     5297.35
+   ],
+   [
+    1795443380,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96523,10 +96523,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794927865,
-    114145.15
-   ],
    [
     1794928056,
     114145.15
@@ -108522,6 +108518,10 @@
    [
     1795443195,
     128183.18
+   ],
+   [
+    1795443380,
+    128183.18
    ]
   ],
   "open": {},
@@ -108652,10 +108652,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794927865,
-    4876.96
-   ],
    [
     1794928056,
     4876.96
@@ -120650,6 +120646,10 @@
    ],
    [
     1795443195,
+    4876.96
+   ],
+   [
+    1795443380,
     4876.96
    ]
   ],
