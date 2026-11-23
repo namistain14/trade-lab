@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 09:19 (İstanbul)
+> Son güncelleme: 23.11.2026 09:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,7 +32,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 09:09): Claude puan **+0.15**, güven 0.35 — Altın, haftalık sert düşüşün ardından 3,600 doların üzerinde toparlanıyor ve getirilerin düşmesi kısa vadede hafif destekleyici. Ancak ABD enflasyon ve PCE verileri yaklaşırken Fed beklentileri belirsiz, dolar tarafı net değil ve İran savaşıyla ilgili güvenli liman talebi sinyalleri çelişkili olduğu için yönsel güven düşük.
+Son haber analizi (23.11 09:22): Claude puan **-0.05**, güven 0.35 — Altın 14 aylık dipten toparlanıyor, ancak Aralık ayında Fed faiz artırımı beklentileri doları destekliyor ve PCE enflasyon verisi öncesinde faiz tarafı baskı yaratabilir. Hormuz'daki İran saldırılarının artması güvenli liman talebini desteklese de, bu etki büyük ölçüde fiyatlanmış görünüyor; sinyaller karışık olduğu için güven düşük tutuldu.
 
 Son işlemler:
 
@@ -90,8 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-23.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 08:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 08:09 N  NEWS (18 new) score +0.15 conf 0.30: Haberler karışık: teknoloji satışı ve jeopolitik gerilim güvenli liman talebini destekliyor, doların zayıflaması da altı destekliyor; ancak güçlü dolar ve yaklaşan PCE verisi, Fed Başkanı Warsh'ın sıkı duruşu riski ve altındaki yeni yükselişin kısmen fiyatlanmış olması yukarı yönlü potansiyeli sınırlıyor. Sinyal zayıf olduğu için düşük güven ve hafif pozitif skor veriyorum.
 23.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -105,6 +103,8 @@ Son işlemler:
 23.11 08:57 N  NEWS (5 new) score +0.30 conf 0.40: Altın, haftalık en sert düşüşün ardından toparlanıyor; Treasury getirilerinin düşmesi ve doların 19 aylık zirvesinden geri çekilmesi kısa vadede altın lehine. Ancak ABD enflasyon verisi (PCE/GDP) beklenirken yön belirsiz ve haberlerin büyük kısmı yerel fiyat güncellemesi niteliğinde, bu yüzden güven düşük.
 23.11 09:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 09:09 N  NEWS (13 new) score +0.15 conf 0.35: Altın, haftalık sert düşüşün ardından 3,600 doların üzerinde toparlanıyor ve getirilerin düşmesi kısa vadede hafif destekleyici. Ancak ABD enflasyon ve PCE verileri yaklaşırken Fed beklentileri belirsiz, dolar tarafı net değil ve İran savaşıyla ilgili güvenli liman talebi sinyalleri çelişkili olduğu için yönsel güven düşük.
+23.11 09:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 09:22 N  NEWS (11 new) score -0.05 conf 0.35: Altın 14 aylık dipten toparlanıyor, ancak Aralık ayında Fed faiz artırımı beklentileri doları destekliyor ve PCE enflasyon verisi öncesinde faiz tarafı baskı yaratabilir. Hormuz'daki İran saldırılarının artması güvenli liman talebini desteklese de, bu etki büyük ölçüde fiyatlanmış görünüyor; sinyaller karışık olduğu için güven düşük tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
