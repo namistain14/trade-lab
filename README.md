@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 10:43 (İstanbul)
+> Son güncelleme: 23.11.2026 10:46 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,7 +32,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 10:34): Claude puan **+0.15**, güven 0.35 — Haber akışı karışık: DXY'nin Fed sıkılaştırma bahislerinin solmasıyla düşmesi ve jeopolitik risklerin (Karadeniz dışına yayılan deniz savaşı, İran-Hürmüz gerilimi) altın için hafif destekleyici olabilir. Ancak altın 14 aylık dibinden toparlanıyor, ABD enflasyon verisi yakında geldiği için bu veri kısa vadede sert bir hareket yaratabilir ve bazı başlıklar eski ya da çelişkili olduğundan güven düşük.
+Son haber analizi (23.11 10:46): Claude puan **+0.40**, güven 0.50 — Dolar 19 aylık zirvesinden geri çekildi ve Fed faiz artırımı beklentileri gevşedi; bu, altın için kısa vadede destekleyici. Altın yaklaşık 3.600 dolar üzerinde toparlandı, ancak Ackman'ın faiz artırımı riski ve Ukrayna/İran savaşlarındaki sürekli gerilim karışık sinyaller veriyor; jeopolitik risk primi yeni bir tırmanış olmadıkça belirgin değil.
 
 Son işlemler:
 
@@ -90,8 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 09:09 N  NEWS (13 new) score +0.15 conf 0.35: Altın, haftalık sert düşüşün ardından 3,600 doların üzerinde toparlanıyor ve getirilerin düşmesi kısa vadede hafif destekleyici. Ancak ABD enflasyon ve PCE verileri yaklaşırken Fed beklentileri belirsiz, dolar tarafı net değil ve İran savaşıyla ilgili güvenli liman talebi sinyalleri çelişkili olduğu için yönsel güven düşük.
-23.11 09:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 09:22 N  NEWS (11 new) score -0.05 conf 0.35: Altın 14 aylık dipten toparlanıyor, ancak Aralık ayında Fed faiz artırımı beklentileri doları destekliyor ve PCE enflasyon verisi öncesinde faiz tarafı baskı yaratabilir. Hormuz'daki İran saldırılarının artması güvenli liman talebini desteklese de, bu etki büyük ölçüde fiyatlanmış görünüyor; sinyaller karışık olduğu için güven düşük tutuldu.
 23.11 09:34 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 09:34 N  NEWS (12 new) score +0.05 conf 0.35: Altın 14 aylık dibinden toparlanıyor, ancak Aralık'ta Fed faiz artırımı beklentileri doları destekleyip altı baskılıyor. İran çatışmalarının Hürmüz'de tırmanması jeopolitik talebi destekliyor; PCE enflasyonu ve GDP verileri de kısa vadede oynaklık yaratabilir. Haberler birbiriyle çelişkili olduğu için yön belirsiz ve sinyal zayıf.
@@ -105,6 +103,8 @@ Son işlemler:
 23.11 10:22 N  NEWS (9 new) score +0.10 conf 0.30: 
 23.11 10:34 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 10:34 N  NEWS (9 new) score +0.15 conf 0.35: Haber akışı karışık: DXY'nin Fed sıkılaştırma bahislerinin solmasıyla düşmesi ve jeopolitik risklerin (Karadeniz dışına yayılan deniz savaşı, İran-Hürmüz gerilimi) altın için hafif destekleyici olabilir. Ancak altın 14 aylık dibinden toparlanıyor, ABD enflasyon verisi yakında geldiği için bu veri kısa vadede sert bir hareket yaratabilir ve bazı başlıklar eski ya da çelişkili olduğundan güven düşük.
+23.11 10:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 10:46 N  NEWS (16 new) score +0.40 conf 0.50: Dolar 19 aylık zirvesinden geri çekildi ve Fed faiz artırımı beklentileri gevşedi; bu, altın için kısa vadede destekleyici. Altın yaklaşık 3.600 dolar üzerinde toparlandı, ancak Ackman'ın faiz artırımı riski ve Ukrayna/İran savaşlarındaki sürekli gerilim karışık sinyaller veriyor; jeopolitik risk primi yeni bir tırmanış olmadıkça belirgin değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
