@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 00:54 (İstanbul)
+> Son güncelleme: 24.11.2026 00:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,116.68 $** (başlangıç 5,000 $, +116.68 $ / %+2.33)
+**Hesap değeri: 5,118.40 $** (başlangıç 5,000 $, +118.40 $ / %+2.37)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 00:45): Claude puan **-0.30**, güven 0.50 — Fed Başkanı Williams'ın enflasyon konusunda "harekete geçmeliyiz" ve faiz artırımlarının "zamanla" gerekebileceği yönündeki sert mesajları, reel faiz ve Fed beklentileri üzerinden altın için baskılayıcı. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sürdüğü yönündeki açıklamaları jeopolitik risk primini kısmen destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda.
+Son haber analizi (24.11 00:57): Claude puan **-0.40**, güven 0.50 — New York Fed Başkanı Williams'ın "daha fazla sıkılaştırma gerekli" ve faizlerin "zamanla" yükseltilebileceği yönündeki sert açıklamaları, reel faiz ve Fed beklentileri üzerinden altın için baskı oluşturuyor. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sonlanması için müzakere çağrısı ise sınırlı bir güvenli liman talebi destekleyebilir, ancak bu etki Fed'in şahin mesajının gerisinde kalıyor.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 23:20 N  NEWS (9 new) score -0.15 conf 0.35: Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
-23.11 23:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:32 N  NEWS (6 new) score -0.10 conf 0.30: Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
 23.11 23:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:44 N  NEWS (10 new) score +0.05 conf 0.40: 
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 00:33 N  NEWS (20 new) score -0.35 conf 0.50: Fed'in Williams'ın enflasyon nedeniyle faiz artışlarını "zamanla" gerekebileceği yönündeki şahin açıklamaları ve güçlü dolar beklentisi (Goldman) altın için baskılayıcı. Jeopolitik başlıklar (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak yeni bir tırmanış göstermiyor ve eski/fiyatlanmış haberler olduğundan etkisi sınırlı.
 24.11 00:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:45 N  NEWS (15 new) score -0.30 conf 0.50: Fed Başkanı Williams'ın enflasyon konusunda "harekete geçmeliyiz" ve faiz artırımlarının "zamanla" gerekebileceği yönündeki sert mesajları, reel faiz ve Fed beklentileri üzerinden altın için baskılayıcı. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sürdüğü yönündeki açıklamaları jeopolitik risk primini kısmen destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda.
+24.11 00:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 00:57 N  NEWS (8 new) score -0.40 conf 0.50: New York Fed Başkanı Williams'ın "daha fazla sıkılaştırma gerekli" ve faizlerin "zamanla" yükseltilebileceği yönündeki sert açıklamaları, reel faiz ve Fed beklentileri üzerinden altın için baskı oluşturuyor. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sonlanması için müzakere çağrısı ise sınırlı bir güvenli liman talebi destekleyebilir, ancak bu etki Fed'in şahin mesajının gerisinde kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
