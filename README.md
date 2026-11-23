@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 19:16 (İstanbul)
+> Son güncelleme: 23.11.2026 19:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,088.69 $** (başlangıç 5,000 $, +88.69 $ / %+1.77)
+**Hesap değeri: 5,087.73 $** (başlangıç 5,000 $, +87.73 $ / %+1.75)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 19:07): Claude puan **+0.05**, güven 0.30 — Altın kısa vadede karışık sinyaller veriyor: son saatlerde yaşanan sert yükseliş (yaklaşık %3-4) alım fırsatı kaynaklı ve ABD enflasyon verisi öncesi belirsizlik var. Jeopolitik primin gerilemesi ve Nvidia kaynaklı dolar güçlenmesi altın için baskı yaratırken, Warsh yönetiminde Fed 'put' tartışması ve artan ABD korku endeksi gevşek para politikası beklentisini destekleyerek altını hafifçe destekliyor.
+Son haber analizi (23.11 19:19): Claude puan **-0.15**, güven 0.35 — Yeni başlıkların çoğu jeopolitik gürültü ya da eski/fiyatlanmış haberler. Nvidia kaynaklı risk iştahı ve dolar güçlenmesi (euro ve CAD zayıflaması), güçlü enflasyon okuması ve İsrail-İran tarafında "acil tehdit yok" mesajı altın için hafif negatif; buna karşılık Warsh'ın Fed "put" tartışması, ABD hisse satışı ve İran savaş finansmanına itiraz gibi unsurlar kısmen destekleyici. Sonuç olarak net etki hafif ayı yönlü ve düşük güvenli.
 
 Son işlemler:
 
@@ -93,10 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 18:30 N  NEWS (12 new) score +0.30 conf 0.50: 
-23.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 18:30 B6  karar turu: Claude «Piyasa olağanüstü güçlü bir risk iştahıyla yükseliyor; trend yönünde endekslerde long tercih edilirken aşırı uzamış hisselerden kaçınılıyor.» / GPT «-»
-23.11 18:42 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 18:42 N  NEWS (10 new) score +0.20 conf 0.40: Altın son saatlerde değer kazanıyor; ABD imalat ve hizmet verilerinin zayıflaması ile AI satışının Fed beklentilerini yumuşatması fiyatı destekliyor. Ancak bu haberlerin çoğu zaten fiyatlanmış durumda ve yakındaki ABD enflasyon verisi yönü tersine çevirebileceği için güven sınırlı.
 23.11 18:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 18:42 B6  karar turu: Claude «Piyasa son derece güçlü bir risk iştahıyla yükseliyor; ancak aşırı hareket nedeniyle geç girişlerde seçici ve temkinli olmak gerekiyor.» / GPT «-»
@@ -108,6 +104,10 @@ Son işlemler:
 23.11 19:07 N  NEWS (13 new) score +0.05 conf 0.30: Altın kısa vadede karışık sinyaller veriyor: son saatlerde yaşanan sert yükseliş (yaklaşık %3-4) alım fırsatı kaynaklı ve ABD enflasyon verisi öncesi belirsizlik var. Jeopolitik primin gerilemesi ve Nvidia kaynaklı dolar güçlenmesi altın için baskı yaratırken, Warsh yönetiminde Fed 'put' tartışması ve artan ABD korku endeksi gevşek para politikası beklentisini destekleyerek altını hafifçe destekliyor.
 23.11 19:07 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 19:07 B6  karar turu: Claude «Piyasa olağanüstü güçlü bir yükselişin ardından yüksek seviyelerde konsolide oluyor; seçici ve temkinli kalmak gerekiyor.» / GPT «-»
+23.11 19:19 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 19:19 N  NEWS (20 new) score -0.15 conf 0.35: Yeni başlıkların çoğu jeopolitik gürültü ya da eski/fiyatlanmış haberler. Nvidia kaynaklı risk iştahı ve dolar güçlenmesi (euro ve CAD zayıflaması), güçlü enflasyon okuması ve İsrail-İran tarafında "acil tehdit yok" mesajı altın için hafif negatif; buna karşılık Warsh'ın Fed "put" tartışması, ABD hisse satışı ve İran savaş finansmanına itiraz gibi unsurlar kısmen destekleyici. Sonuç olarak net etki hafif ayı yönlü ve düşük güvenli.
+23.11 19:19 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 19:19 B6  karar turu: Claude «Piyasa çok güçlü bir rallinin ardından öğle saatlerinde soluklanıyor; en büyük kazananlarda kâr satışı riski öne çıkıyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
