@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794894689,
-    5000.0
-   ],
-   [
     1794894876,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795410002,
     5104.97
+   ],
+   [
+    1795410180,
+    5104.97
    ]
   ],
   "archive": [
@@ -13906,12 +13906,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795402800000,
-   "ETHUSDT": 1795402800000,
-   "SOLUSDT": 1795402800000,
-   "BNBUSDT": 1795402800000,
-   "XRPUSDT": 1795402800000,
-   "DOGEUSDT": 1795402800000
+   "BTCUSDT": 1795406400000,
+   "ETHUSDT": 1795406400000,
+   "SOLUSDT": 1795406400000,
+   "BNBUSDT": 1795406400000,
+   "XRPUSDT": 1795406400000,
+   "DOGEUSDT": 1795406400000
   }
  },
  "gold_news": {
@@ -15127,10 +15127,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794894689,
-    4868.5
-   ],
    [
     1794894876,
     4868.5
@@ -27125,6 +27121,10 @@
    ],
    [
     1795410002,
+    4868.5
+   ],
+   [
+    1795410180,
     4868.5
    ]
   ],
@@ -29899,7 +29899,6 @@
   ]
  },
  "log": [
-  "22.11 12:34 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:37 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:40 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:43 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30198,7 +30197,8 @@
   "23.11 07:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 07:57 N  NEWS (10 new) score +0.05 conf 0.40: Sinyaller kar\u0131\u015f\u0131k: Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131n\u0131n %90'\u0131n \u00fczerine \u00e7\u0131kmas\u0131 ve Bessent/Ackman uyar\u0131lar\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131, ancak teknoloji sat\u0131\u015f\u0131 kaynakl\u0131 g\u00fcvenli liman talebi ile dolar\u0131n 19 ayl\u0131k zirveden gerilemesi alt\u0131n\u0131 3600$ \u00fczerine ta\u015f\u0131d\u0131. PCE enflasyon verisi \u00f6ncesinde bu \u00e7eli\u015fkili etkiler b\u00fcy\u00fck olas\u0131l\u0131kla birbirini n\u00f6trleyecek; g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
   "23.11 08:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 08:00 B5P  NEWS (45 new) score +0.05 conf 0.40: Husi sald\u0131r\u0131lar\u0131 Suudi rafineri ve tesislerini hedef alarak arz riskini art\u0131r\u0131yor ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlan\u0131yor: k\u00fcresel hisse senedi sat\u0131\u015f\u0131, g\u00fc\u00e7l\u00fc Orta Do\u011fu ihracat\u0131 ve son bir ayda %21'lik d\u00fc\u015f\u00fc\u015f Brent'i a\u015fa\u011f\u0131 \u00e7ekiyor, bu nedenle net etki hafif pozitif ama belirsiz."
+  "23.11 08:00 B5P  NEWS (45 new) score +0.05 conf 0.40: Husi sald\u0131r\u0131lar\u0131 Suudi rafineri ve tesislerini hedef alarak arz riskini art\u0131r\u0131yor ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlan\u0131yor: k\u00fcresel hisse senedi sat\u0131\u015f\u0131, g\u00fc\u00e7l\u00fc Orta Do\u011fu ihracat\u0131 ve son bir ayda %21'lik d\u00fc\u015f\u00fc\u015f Brent'i a\u015fa\u011f\u0131 \u00e7ekiyor, bu nedenle net etki hafif pozitif ama belirsiz.",
+  "23.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30385,10 +30385,6 @@
   },
   "equity_curve": [
    [
-    1794894689,
-    4963.78
-   ],
-   [
     1794894876,
     4963.78
    ],
@@ -42382,6 +42378,10 @@
    ],
    [
     1795410002,
+    4963.78
+   ],
+   [
+    1795410180,
     4963.78
    ]
   ],
@@ -42497,10 +42497,6 @@
   },
   "equity_curve": [
    [
-    1794894689,
-    4975.18
-   ],
-   [
     1794894876,
     4975.18
    ],
@@ -54494,6 +54490,10 @@
    ],
    [
     1795410002,
+    4975.18
+   ],
+   [
+    1795410180,
     4975.18
    ]
   ],
@@ -54579,10 +54579,6 @@
   },
   "equity_curve": [
    [
-    1794894689,
-    4993.28
-   ],
-   [
     1794894876,
     4993.28
    ],
@@ -66576,6 +66572,10 @@
    ],
    [
     1795410002,
+    4993.28
+   ],
+   [
+    1795410180,
     4993.28
    ]
   ]
@@ -66786,10 +66786,6 @@
   },
   "equity_curve": [
    [
-    1794894689,
-    4969.22
-   ],
-   [
     1794894876,
     4969.22
    ],
@@ -78783,6 +78779,10 @@
    ],
    [
     1795410002,
+    4969.22
+   ],
+   [
+    1795410180,
     4969.22
    ]
   ],
@@ -82860,10 +82860,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794894689,
-    4545.26
-   ],
    [
     1794894876,
     4545.26
@@ -94859,6 +94855,10 @@
    [
     1795410002,
     5297.35
+   ],
+   [
+    1795410180,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96503,10 +96503,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794894689,
-    114145.15
-   ],
    [
     1794894876,
     114145.15
@@ -108502,6 +108498,10 @@
    [
     1795410002,
     128183.18
+   ],
+   [
+    1795410180,
+    128183.18
    ]
   ],
   "open": {},
@@ -108684,10 +108684,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794894689,
-    4876.96
-   ],
    [
     1794894876,
     4876.96
@@ -120682,6 +120678,10 @@
    ],
    [
     1795410002,
+    4876.96
+   ],
+   [
+    1795410180,
     4876.96
    ]
   ],
