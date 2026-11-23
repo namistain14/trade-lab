@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 17:01 (İstanbul)
+> Son güncelleme: 23.11.2026 17:04 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -33,7 +33,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 16:52): Claude puan **-0.10**, güven 0.35 — Altın, haftalık düşüşün ardından toparlanma eğiliminde ve dolar yükselişi duraklamış görünüyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımı beklentileri ve güçlü dolar tarafındaki haberler altın üzerinde baskı yaratabilir, güvenli liman talebini artıran jeopolitik gelişmeler ise etkisi sınırlı kalıyor; sinyaller karışık olduğu için güven düşük.
+Son haber analizi (23.11 17:04): Claude puan **+0.10**, güven 0.35 — Haberler karışık: Kitco'nun "dolar yükselişi duraklarken altın %2'den fazla yükseldi" başlığı kısa vadede olumlu momentum gösteriyor, ancak BBH'nin Fed faiz artırımı beklentilerinin doları desteklediği ve TD'nin sağlam verilerle doları desteklediği yorumları altın için baskı oluşturuyor. İran savaşı ve ABD'deki bütçe/finansman tartışmaları ile Ukrayna'daki çatışmaların genişlemesi güvenli liman talebini sınırlı biçimde artırabilir; fakat bu riskler yeni değil ve fiyatlanmış durumda olabilir. Net etki hafif pozitif, güven düşük.
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 15:38 N  NEWS (18 new) score -0.10 conf 0.35: Haberler karışık: Aralık'ta Fed faiz artırımı ihtimali ve doların 19 aylık zirveye yakın seyri altın için baskı yaratıyor, altın da 9/2/25'ten bu yana en düşük seviyeden açıldı. Buna karşılık Ukrayna savaşının genişlemesi, İran savaş fonlaması tartışması ve borsa satışlarından doğan güvenli liman talebi destek sağlayabilir; bu nedenle etki hafif negatif kabul edildi ve güven düşük tutuldu.
-23.11 15:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:51 N  NEWS (12 new) score +0.45 conf 0.55: Dolar yükselişinin duraklaması ve haftalık zayıflama, altını yaklaşık %2 yükseltti; AI hisse satışının ardından şahin Fed beklentileri de geri çekiliyor. Ukrayna'da genişleyen savaş ve Polonya'ya füze girişi güvenli liman talebini destekliyor, ancak Aralık'ta Fed faiz artırımı uyarısı ve eski, kısmen fiyatlanmış haberler güveni sınırlıyor.
 23.11 16:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:03 N  NEWS (7 new) score +0.15 conf 0.35: Haberler karışık: dolar rallisinin duraklaması ve altındaki %2'ye yakın toparlanma kısa vadede destekleyici, Polonya'ya füze girişi ve İran savaşı fonlaması tartışması jeopolitik risk primini hafifçe artırıyor. Buna karşılık Ackman'ın Aralık'ta faiz artırımı uyarısı ve beklenen PCE enflasyon verisi baskı yaratabilir; sinyaller birbiriyle çeliştiği için güven düşük.
@@ -106,6 +104,8 @@ Son işlemler:
 23.11 16:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: 
 23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD
+23.11 17:04 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 17:04 N  NEWS (12 new) score +0.10 conf 0.35: Haberler karışık: Kitco'nun "dolar yükselişi duraklarken altın %2'den fazla yükseldi" başlığı kısa vadede olumlu momentum gösteriyor, ancak BBH'nin Fed faiz artırımı beklentilerinin doları desteklediği ve TD'nin sağlam verilerle doları desteklediği yorumları altın için baskı oluşturuyor. İran savaşı ve ABD'deki bütçe/finansman tartışmaları ile Ukrayna'daki çatışmaların genişlemesi güvenli liman talebini sınırlı biçimde artırabilir; fakat bu riskler yeni değil ve fiyatlanmış durumda olabilir. Net etki hafif pozitif, güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
