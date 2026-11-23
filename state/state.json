@@ -76,10 +76,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    5000.0
-   ],
-   [
     1794930422,
     5000.0
    ],
@@ -12074,6 +12070,10 @@
    [
     1795445609,
     5073.5
+   ],
+   [
+    1795445773,
+    5073.5
    ]
   ],
   "archive": [
@@ -15148,10 +15148,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    4868.5
-   ],
-   [
     1794930422,
     4868.5
    ],
@@ -27145,6 +27141,10 @@
    ],
    [
     1795445609,
+    4868.5
+   ],
+   [
+    1795445773,
     4868.5
    ]
   ],
@@ -29892,8 +29892,6 @@
   ]
  },
  "log": [
-  "22.11 17:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 17:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 17:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30191,7 +30189,9 @@
   "23.11 17:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 17:44 B6  karar turu: Claude \u00abPiyasa \u00e7ok g\u00fc\u00e7l\u00fc ama a\u015f\u0131r\u0131 oynak bir risk i\u015ftah\u0131 rallisinde; s\u0131k\u0131 stoplarla en mant\u0131kl\u0131 yol, b\u00fcy\u00fck hareketleri kovalamak yerine geride kalan d\u00fc\u015f\u00fck oynakl\u0131kl\u0131 hisselere se\u00e7ici girmek.\u00bb / GPT \u00ab-\u00bb",
   "23.11 17:53 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 17:53 N  NEWS (1 new) score +0.05 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil (Nvidia, \u0130ngiltere refah ve Pip, Bel\u00e7ika grevi, Gazze insani durumu). Ukrayna'n\u0131n Libya a\u00e7\u0131klar\u0131nda Rus sava\u015f gemisini vurdu\u011fu haberi k\u00fc\u00e7\u00fck bir jeopolitik gerilim yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 ve k\u0131sa vadede fiyatlanm\u0131\u015f olabilir. Merkez bankas\u0131, enflasyon veya dolar taraf\u0131nda \u00f6nemli yeni bir veri yok."
+  "23.11 17:53 N  NEWS (1 new) score +0.05 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil (Nvidia, \u0130ngiltere refah ve Pip, Bel\u00e7ika grevi, Gazze insani durumu). Ukrayna'n\u0131n Libya a\u00e7\u0131klar\u0131nda Rus sava\u015f gemisini vurdu\u011fu haberi k\u00fc\u00e7\u00fck bir jeopolitik gerilim yaratabilir, ancak etkisi s\u0131n\u0131rl\u0131 ve k\u0131sa vadede fiyatlanm\u0131\u015f olabilir. Merkez bankas\u0131, enflasyon veya dolar taraf\u0131nda \u00f6nemli yeni bir veri yok.",
+  "23.11 17:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 17:56 B6  karar turu: Claude \u00abPiyasa \u00e7ok g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve oynakl\u0131k a\u015f\u0131r\u0131; b\u00fcy\u00fck hareketleri kovalamak yerine istikrarl\u0131 trendlerde se\u00e7ici uzun pozisyonlar tercih ediliyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30378,10 +30378,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    4963.78
-   ],
-   [
     1794930422,
     4963.78
    ],
@@ -42375,6 +42371,10 @@
    ],
    [
     1795445609,
+    4963.78
+   ],
+   [
+    1795445773,
     4963.78
    ]
   ],
@@ -42490,10 +42490,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    4975.18
-   ],
-   [
     1794930422,
     4975.18
    ],
@@ -54487,6 +54483,10 @@
    ],
    [
     1795445609,
+    4975.18
+   ],
+   [
+    1795445773,
     4975.18
    ]
   ],
@@ -54572,10 +54572,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    4993.28
-   ],
-   [
     1794930422,
     4993.28
    ],
@@ -66569,6 +66565,10 @@
    ],
    [
     1795445609,
+    4993.28
+   ],
+   [
+    1795445773,
     4993.28
    ]
   ]
@@ -66779,10 +66779,6 @@
   },
   "equity_curve": [
    [
-    1794930254,
-    4969.22
-   ],
-   [
     1794930422,
     4969.22
    ],
@@ -78776,6 +78772,10 @@
    ],
    [
     1795445609,
+    4969.22
+   ],
+   [
+    1795445773,
     4969.22
    ]
   ],
@@ -82853,10 +82853,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794930254,
-    4545.26
-   ],
    [
     1794930422,
     4545.26
@@ -94852,6 +94848,10 @@
    [
     1795445609,
     5297.35
+   ],
+   [
+    1795445773,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96496,10 +96496,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794930254,
-    114145.15
-   ],
    [
     1794930422,
     114145.15
@@ -108495,15 +108491,19 @@
    [
     1795445609,
     128183.18
+   ],
+   [
+    1795445773,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795445063389,
+  "last_decision_ms": 1795445761191,
   "view": {
-   "ts": 1795445063389,
-   "claude": "Piyasa \u00e7ok g\u00fc\u00e7l\u00fc ama a\u015f\u0131r\u0131 oynak bir risk i\u015ftah\u0131 rallisinde; s\u0131k\u0131 stoplarla en mant\u0131kl\u0131 yol, b\u00fcy\u00fck hareketleri kovalamak yerine geride kalan d\u00fc\u015f\u00fck oynakl\u0131kl\u0131 hisselere se\u00e7ici girmek.",
+   "ts": 1795445761191,
+   "claude": "Piyasa \u00e7ok g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve oynakl\u0131k a\u015f\u0131r\u0131; b\u00fcy\u00fck hareketleri kovalamak yerine istikrarl\u0131 trendlerde se\u00e7ici uzun pozisyonlar tercih ediliyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108511,7 +108511,7 @@
     "SPY": {
      "claude": [
       "none",
-      0.3
+      0.35
      ],
      "gpt": [
       null,
@@ -108531,7 +108531,7 @@
     "NVDA": {
      "claude": [
       "none",
-      0.35
+      0.4
      ],
      "gpt": [
       null,
@@ -108541,7 +108541,7 @@
     "AAPL": {
      "claude": [
       "long",
-      0.4
+      0.55
      ],
      "gpt": [
       null,
@@ -108550,8 +108550,8 @@
     },
     "TSLA": {
      "claude": [
-      "none",
-      0.3
+      "long",
+      0.45
      ],
      "gpt": [
       null,
@@ -108677,10 +108677,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794930254,
-    4876.96
-   ],
    [
     1794930422,
     4876.96
@@ -120675,6 +120671,10 @@
    ],
    [
     1795445609,
+    4876.96
+   ],
+   [
+    1795445773,
     4876.96
    ]
   ],
