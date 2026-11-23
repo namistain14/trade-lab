@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 18:27 (İstanbul)
+> Son güncelleme: 23.11.2026 18:30 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,063.78 $** (başlangıç 5,000 $, +63.78 $ / %+1.28)
+**Hesap değeri: 5,068.39 $** (başlangıç 5,000 $, +68.39 $ / %+1.37)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 18:18): Claude puan **+0.20**, güven 0.35 — Haberler karışık: İran savaşının sürmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD iş faaliyetindeki yavaşlama ile Chicago Fed endeksinin negatife dönmesi ve doların güç kaybetmesi de altın için olumlu. Buna karşılık ABD enflasyon verisi öncesi bekleyiş, Fed'in sıkı duruşu ihtimali ve fiyat seviyelerine dair çelişkili başlıklar güveni düşürüyor.
+Son haber analizi (23.11 18:30): Claude puan **+0.30**, güven 0.50 — Haberler karışık: İran savaşının sürmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD iş faaliyetindeki yavaşlama ile Chicago Fed endeksinin negatife dönmesi ve doların güç kaybetmesi de altın için olumlu. Buna karşılık ABD enflasyon verisi öncesi bekleyiş, Fed'in sıkı duruşu ihtimali ve fiyat seviyelerine dair çelişkili başlıklar güveni düşürüyor.
 
 Son işlemler:
 
@@ -93,10 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 17:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 17:44 B6  karar turu: Claude «Piyasa çok güçlü ama aşırı oynak bir risk iştahı rallisinde; sıkı stoplarla en mantıklı yol, büyük hareketleri kovalamak yerine geride kalan düşük oynaklıklı hisselere seçici girmek.» / GPT «-»
-23.11 17:53 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 17:53 N  NEWS (1 new) score +0.05 conf 0.30: Başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia, İngiltere refah ve Pip, Belçika grevi, Gazze insani durumu). Ukrayna'nın Libya açıklarında Rus savaş gemisini vurduğu haberi küçük bir jeopolitik gerilim yaratabilir, ancak etkisi sınırlı ve kısa vadede fiyatlanmış olabilir. Merkez bankası, enflasyon veya dolar tarafında önemli yeni bir veri yok.
 23.11 17:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 17:56 B6  karar turu: Claude «Piyasa çok güçlü bir yükseliş gününde ve oynaklık aşırı; büyük hareketleri kovalamak yerine istikrarlı trendlerde seçici uzun pozisyonlar tercih ediliyor.» / GPT «-»
 23.11 18:02 A  SHORT BNBUSDT 1674 USD @ 573.2 (1s RSI 65, TP 547.7, SL 586)
@@ -108,6 +104,10 @@ Son işlemler:
 23.11 18:18 N  NEWS (12 new) score +0.20 conf 0.35: Haberler karışık: İran savaşının sürmesi ve blokaj gerilimi jeopolitik talebi destekliyor, ABD iş faaliyetindeki yavaşlama ile Chicago Fed endeksinin negatife dönmesi ve doların güç kaybetmesi de altın için olumlu. Buna karşılık ABD enflasyon verisi öncesi bekleyiş, Fed'in sıkı duruşu ihtimali ve fiyat seviyelerine dair çelişkili başlıklar güveni düşürüyor.
 23.11 18:18 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 18:18 B6  karar turu: Claude «NVDA'daki CEO haberiyle piyasa çok güçlü bir risk-on gününde; ancak aşırı oynaklık nedeniyle yalnızca daha sakin trendlerde seçici long pozisyonlar mantıklı.» / GPT «-»
+23.11 18:30 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 18:30 N  NEWS (12 new) score +0.30 conf 0.50: 
+23.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 18:30 B6  karar turu: Claude «Piyasa olağanüstü güçlü bir risk iştahıyla yükseliyor; trend yönünde endekslerde long tercih edilirken aşırı uzamış hisselerden kaçınılıyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
