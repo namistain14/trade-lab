@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 17:41 (İstanbul)
+> Son güncelleme: 23.11.2026 17:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 16:27 N  NEWS (11 new) score +0.12 conf 0.40: Altın yakın vadede hafif pozitif görünüyor: Fed faiz artırımı beklentilerinin gerilemesi ve doların yükselişinin duraksaması altını destekliyor, ayrıca İran ablukası ve Ukrayna-Rusya gerginliği güvenli liman talebini artırabilir. Ancak Fed artırım bahisleri ve güçlü dolar hâlâ riskli olduğu için sinyaller çelişkili, PCE enflasyon verisi öncesinde yön belirsiz ve güven düşük.
-23.11 16:31 B6  seans öncesi görüş: Teknoloji ağırlıklı riskten kaçış var ve veriler (QQQ, eksik fiyat geçmişi) tutarsız olduğundan pozisyonlar küçük ve seçici tutulmalı.
 23.11 16:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:40 N  NEWS (10 new) score +0.10 conf 0.35: Altın, haftalık düşüşün ardından toparlanma eğiliminde ve dolar yükselişi duraklamış görünüyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımı beklentileri ve güçlü dolar tarafındaki haberler altın üzerinde baskı yaratabilir, güvenli liman talebini artıran jeopolitik gelişmeler ise etkisi sınırlı kalıyor; sinyaller karışık olduğu için güven düşük.
 23.11 16:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -106,6 +104,8 @@ Son işlemler:
 23.11 17:29 N  NEWS (13 new) score +0.05 conf 0.20: Yeni başlıkların çoğu altını doğrudan etkilemeyen iç politika, şirket ve yerel olaylar. Ukrayna'nın Libya açıklarındaki Rus savaş gemisine saldırısı ve Gazze'ye ilişkin haberler hafif bir jeopolitik risk iştahı yaratabilir, ancak etkisi sınırlı ve büyük ölçüde fiyatlanmış. Fed, reel faiz, dolar veya enflasyonla ilgili yeni bir haber yok.
 23.11 17:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 17:32 B6  karar turu: Claude «Piyasa son derece güçlü ve aşırı uzamış; olağandışı büyük hareketler nedeniyle kovalamaktan kaçınıp yalnızca seçici fırsatlara giriyorum.» / GPT «-»
+23.11 17:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 17:44 B6  karar turu: Claude «Piyasa çok güçlü ama aşırı oynak bir risk iştahı rallisinde; sıkı stoplarla en mantıklı yol, büyük hareketleri kovalamak yerine geride kalan düşük oynaklıklı hisselere seçici girmek.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
