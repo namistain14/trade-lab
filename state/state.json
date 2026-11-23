@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    5000.0
-   ],
-   [
     1794898152,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795413273,
     5104.97
+   ],
+   [
+    1795413459,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    4868.5
-   ],
-   [
     1794898152,
     4868.5
    ],
@@ -27126,15 +27122,19 @@
    [
     1795413273,
     4868.5
+   ],
+   [
+    1795413459,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.15,
-   "confidence": 0.3,
-   "reason": "Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: teknoloji sat\u0131\u015f\u0131 ve s\u0131\u011f\u0131nak talebi alt\u0131n\u0131 hafif\u00e7e destekliyor, dolar ise 19 ayl\u0131k zirveden geri \u00e7ekildi; ancak \u00e7o\u011fu ba\u015fl\u0131k yerel fiyat raporu olup zaten fiyatlanm\u0131\u015f hareketi tekrarl\u0131yor ve Fed/PCE beklentilerinde net bir y\u00f6n yok. Bu nedenle sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": 0.3,
+   "confidence": 0.4,
+   "reason": "Alt\u0131n, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor; Treasury getirilerinin d\u00fc\u015fmesi ve dolar\u0131n 19 ayl\u0131k zirvesinden geri \u00e7ekilmesi k\u0131sa vadede alt\u0131n lehine. Ancak ABD enflasyon verisi (PCE/GDP) beklenirken y\u00f6n belirsiz ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 yerel fiyat g\u00fcncellemesi niteli\u011finde, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1795412738109,
-   "new_headlines": 8,
+   "ts": 1795413459031,
+   "new_headlines": 5,
    "key_events": [
     "Libya liman\u0131nda Rus gemisinde drone sald\u0131r\u0131s\u0131 kaynakl\u0131 patlama (s\u0131n\u0131rl\u0131 jeopolitik risk)",
     "Ukrayna'ya Rus sald\u0131r\u0131lar\u0131 devam ediyor (b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f)",
@@ -27145,15 +27145,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794932050517,
-    "score": -0.3,
-    "confidence": 0.4,
-    "reason": "Alt\u0131n, dolar ve tahvil getirilerinin y\u00fckseli\u015fi nedeniyle y\u0131l\u0131n en d\u00fc\u015f\u00fck seviyelerinden toparlanmakta zorlan\u0131yor; \"Fed faiz art\u0131r\u0131m\u0131 beklentisi dolar\u0131 yukar\u0131 ta\u015f\u0131yor\" ba\u015fl\u0131\u011f\u0131 ve 10 y\u0131ll\u0131k getirinin %5'e yakla\u015fmas\u0131 k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131ndaki \u00e7\u0131kmaz g\u00fcvenli liman talebini destekliyor olsa da bu etki bask\u0131n de\u011fil; Fed Governor Cook'un Beyaz Saray duru\u015fmas\u0131na kat\u0131lmay\u0131 reddetmesi gibi Fed ba\u011f\u0131ms\u0131zl\u0131\u011f\u0131 haberleri uzun vadede alt\u0131n lehine olabilir ama 1-4 saatlik ufukta etkisi s\u0131n\u0131rl\u0131. Bir\u00e7ok ba\u015fl\u0131k eski veya zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
-    "new": 11,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794932811090,
     "score": -0.3,
@@ -29844,13 +29835,25 @@
     "new": 8,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795413459031,
+    "score": 0.3,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor; Treasury getirilerinin d\u00fc\u015fmesi ve dolar\u0131n 19 ayl\u0131k zirvesinden geri \u00e7ekilmesi k\u0131sa vadede alt\u0131n lehine. Ancak ABD enflasyon verisi (PCE/GDP) beklenirken y\u00f6n belirsiz ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 yerel fiyat g\u00fcncellemesi niteli\u011finde, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 5,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 8
+   "n": 9
   },
   "news_seen": [
+   "Crypto news: Gold price jumps 3% to $3,625 as bitcoin climbs back above $61,000 - CryptoTicker.io",
+   "Gold price rebounds after biggest weekly crash in eight months: What triggered the recovery? - Livemint",
+   "Gold rises from 14-month low as markets await U.S. inflation data - CNBC",
    "Democrats back off demand to bar Iran war funding in spending bill, offer to work with Trump - World Socialist Web Site",
    "Gold Price Forecast: GDP and PCE Inflation Could Determine Next Move for XAU/USD - FXLeaders",
    "What's next after no deal at COP31 climate talks?",
@@ -29863,22 +29866,20 @@
    "Dubai gold prices recover; 24K jumps over Dh8 per gram - Khaleej Times",
    "New Zealand Dollar hangs near multi-year low as bulls shrug off upbeat data, softer USD - FXStreet",
    "Rupee declines 23 paise to 92.85 against US dollar in early trade - Deccan Herald",
+   "Why Are ASX Gold Miners Back in Focus Today? - Kalkine Media",
    "Bank Alfalah credits third interim cash dividend of Rs. 1.5 per share - Investify",
    "Gold price rises by Rs 4,800 per tola - OnlineKhabar English News",
    "Gold price rises by Rs 4,800 per tola - Hamro Patro",
    "Longest-ever UN climate talks end with no deal as deep divisions exposed",
    "Gold And Silver Rates Today: Check 24K, 22K Gold Prices In Mumbai, Delhi, Chennai, Kolkata, Bengaluru On November 23 - NDTV Profit",
-   "Rupiah Falls to Rp18,280 per USD as AI Stocks Extend Sell-Off - Tempo.co English",
    "Gold Rate Today: 24K Gold Rises Rs 990 to Rs 1,26,560 - HDFC Sky",
    "Kim Jong-un's luxury fleet appears to grow despite sanctions - The Korea Herald",
+   "Treasury Yields Fall, German Bunds\u2019 Tick Higher - WSJ",
    "Why the Houthis are always winning - Responsible Statecraft",
-   "China is winning the car war - Financial Times",
-   "Can Bitcoin (BTC) Sustain Recovery as US Inflation Data Looms? - Kalkine Media",
    "Iran Unveils Missile Launcher Amid U.S. Tensions - \uc870\uc120\uc77c\ubcf4",
    "The War on Terror Under International Law: War or Law Enforcement? - Diplomacy and Law",
-   "Dollar rate in Pakistan today, Monday 23 November: Rs276.40 (NBP) - Investify",
+   "China is winning the car war - Financial Times",
    "Gold, Copper, Zinc, Aluminium: Morgan Stanley's outlook on key metals - Business Standard",
-   "A British couple bought a 72-foot World War II boat on eBay for \u00a36,500 and spent years restoring it; the - The Times of India",
    "Dollar hits 4-week peak against dong - VnExpress International",
    "Federal Reserve Chairman Kevin Warsh during a conference on the economic impacts of new technologies - The Daily News | Texas' Oldest Newspaper",
    "Gold prices plummet after 4 months, buyers lose up to 13.5 million VND/tael - Laodong.vn",
@@ -29894,13 +29895,10 @@
    "Gold Rebounds Above $3,600 an Ounce as Tech Rout Spurs Haven Demand - bloomingbit",
    "Asia FX mixed as dollar retreats from 19-month high; yen, won weaken - Investing.com",
    "Bitcoin drops below $56,000: Why a stronger U.S. dollar matters to Somalia - Hiiraan Online",
-   "Gold price in India: Rates on November 23 - FXStreet",
-   "Gold Rate Today (November 23, 2026): Gold Prices Stage A Sharp Comeback, Surge Over 2%; Check 24K, 22K And 18K - Times Now"
+   "Gold price in India: Rates on November 23 - FXStreet"
   ]
  },
  "log": [
-  "22.11 13:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 13:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 13:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30198,7 +30196,9 @@
   "23.11 08:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 08:33 N  NEWS (12 new) score +0.30 conf 0.45: Alt\u0131n dokuz ard\u0131\u015f\u0131k d\u00fc\u015f\u00fc\u015ften sonra toparlan\u0131yor; teknoloji sat\u0131\u015f\u0131n\u0131n yaratt\u0131\u011f\u0131 risk ka\u00e7\u0131\u015f\u0131 ve ABD dolar\u0131n\u0131n 19 ayl\u0131k zirveden geri \u00e7ekilmesi k\u0131sa vadede alt\u0131n\u0131 destekliyor. Ancak Fed faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmalar\u0131 ve y\u00fckselen dolar riski gibi bbearish unsurlar sinyali s\u0131n\u0131rl\u0131yor, ayr\u0131ca \u00e7ok say\u0131da haber ayn\u0131 toparlanmay\u0131 tekrarlad\u0131\u011f\u0131 i\u00e7in b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f olabilir.",
   "23.11 08:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 08:45 N  NEWS (8 new) score +0.15 conf 0.30: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: teknoloji sat\u0131\u015f\u0131 ve s\u0131\u011f\u0131nak talebi alt\u0131n\u0131 hafif\u00e7e destekliyor, dolar ise 19 ayl\u0131k zirveden geri \u00e7ekildi; ancak \u00e7o\u011fu ba\u015fl\u0131k yerel fiyat raporu olup zaten fiyatlanm\u0131\u015f hareketi tekrarl\u0131yor ve Fed/PCE beklentilerinde net bir y\u00f6n yok. Bu nedenle sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck."
+  "23.11 08:45 N  NEWS (8 new) score +0.15 conf 0.30: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: teknoloji sat\u0131\u015f\u0131 ve s\u0131\u011f\u0131nak talebi alt\u0131n\u0131 hafif\u00e7e destekliyor, dolar ise 19 ayl\u0131k zirveden geri \u00e7ekildi; ancak \u00e7o\u011fu ba\u015fl\u0131k yerel fiyat raporu olup zaten fiyatlanm\u0131\u015f hareketi tekrarl\u0131yor ve Fed/PCE beklentilerinde net bir y\u00f6n yok. Bu nedenle sinyal zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+  "23.11 08:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 08:57 N  NEWS (5 new) score +0.30 conf 0.40: Alt\u0131n, haftal\u0131k en sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan toparlan\u0131yor; Treasury getirilerinin d\u00fc\u015fmesi ve dolar\u0131n 19 ayl\u0131k zirvesinden geri \u00e7ekilmesi k\u0131sa vadede alt\u0131n lehine. Ancak ABD enflasyon verisi (PCE/GDP) beklenirken y\u00f6n belirsiz ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131 yerel fiyat g\u00fcncellemesi niteli\u011finde, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck."
  ],
  "gold_big": {
   "account": {
@@ -30385,10 +30385,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    4963.78
-   ],
-   [
     1794898152,
     4963.78
    ],
@@ -42382,6 +42378,10 @@
    ],
    [
     1795413273,
+    4963.78
+   ],
+   [
+    1795413459,
     4963.78
    ]
   ],
@@ -42497,10 +42497,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    4975.18
-   ],
-   [
     1794898152,
     4975.18
    ],
@@ -54494,6 +54490,10 @@
    ],
    [
     1795413273,
+    4975.18
+   ],
+   [
+    1795413459,
     4975.18
    ]
   ],
@@ -54579,10 +54579,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    4993.28
-   ],
-   [
     1794898152,
     4993.28
    ],
@@ -66576,6 +66572,10 @@
    ],
    [
     1795413273,
+    4993.28
+   ],
+   [
+    1795413459,
     4993.28
    ]
   ]
@@ -66786,10 +66786,6 @@
   },
   "equity_curve": [
    [
-    1794897972,
-    4969.22
-   ],
-   [
     1794898152,
     4969.22
    ],
@@ -78783,6 +78779,10 @@
    ],
    [
     1795413273,
+    4969.22
+   ],
+   [
+    1795413459,
     4969.22
    ]
   ],
@@ -82860,10 +82860,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794897972,
-    4545.26
-   ],
    [
     1794898152,
     4545.26
@@ -94859,6 +94855,10 @@
    [
     1795413273,
     5297.35
+   ],
+   [
+    1795413459,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96503,10 +96503,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794897972,
-    114145.15
-   ],
    [
     1794898152,
     114145.15
@@ -108502,6 +108498,10 @@
    [
     1795413273,
     128183.18
+   ],
+   [
+    1795413459,
+    128183.18
    ]
   ],
   "open": {},
@@ -108684,10 +108684,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794897972,
-    4876.96
-   ],
    [
     1794898152,
     4876.96
@@ -120682,6 +120678,10 @@
    ],
    [
     1795413273,
+    4876.96
+   ],
+   [
+    1795413459,
     4876.96
    ]
   ],
