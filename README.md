@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 13:58 (İstanbul)
+> Son güncelleme: 23.11.2026 14:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,9 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,104.97 $** (başlangıç 5,000 $, +104.97 $ / %+2.10)
+**Hesap değeri: 5,103.63 $** (başlangıç 5,000 $, +103.63 $ / %+2.07)
+
+Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
 Son işlemler:
 
@@ -32,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 13:49): Claude puan **-0.15**, güven 0.40 — Haberler karışık: Fed'in sıkılaşma beklentileri ve güçlü dolar altın üzerinde baskı yaratırken, Orta Doğu ve Ukrayna'daki savaş gelişmeleri ile teknoloji satışının güvenli liman talebini destekleyebilir. Altının haftalık sert düşüşün ardından toparlanması ve yakın vadede beklenen PCE verisi belirsizliği artırdığı için etki sınırlı ve zayıf negatif görünüyor.
+Son haber analizi (23.11 14:01): Claude puan **-0.10**, güven 0.40 — Faiz artırımı ve sıkı Fed beklentileri ile güçlü dolar altını baskılıyor; buna karşın İran ve Ukrayna savaşlarındaki tırmanış güvenli liman talebini destekliyor. Düşen Treasury getirileri ve haftalık düşüşten toparlanma kısa vadeli alımı desteklese de, net etki hafif negatif ve belirsiz görünüyor.
 
 Son işlemler:
 
@@ -90,9 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 12:24 N  NEWS (22 new) score +0.20 conf 0.35: 
-23.11 12:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 12:36 N  NEWS (9 new) score +0.05 conf 0.30: Altın 14 aylık dibinden toparlanıyor ve 3.600 doları geri aldı, ancak Fed faiz artırımı beklentileri hâlâ baskı yaratıyor. Doların 19 aylık zirveden geri çekilmesi ve faiz artırım bahislerinin kısmen fiyatlanmaktan çıkması kısa vadede destekleyici, fakat yakında açıklanacak ABD enflasyon verisinin yönü belirsiz olduğu için net bir yön öngörülemiyor.
 23.11 12:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 12:48 N  NEWS (11 new) score +0.20 conf 0.40: 
 23.11 13:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -105,6 +104,9 @@ Son işlemler:
 23.11 13:37 N  NEWS (14 new) score -0.15 conf 0.40: Faiz artırımı beklentileri, güçlü dolar ve "3 ardışık faiz artırımı" yorumları altın için baskılayıcı. Buna karşılık teknoloji satışı ve İran savaşı güvenli liman talebini destekliyor, altın da 3.600$ üzerinde toparlanıyor; sinyaller çelişkili olduğu için etki hafif negatif ve düşük güvenle değerlendirildi.
 23.11 13:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 13:49 N  NEWS (8 new) score -0.15 conf 0.40: Haberler karışık: Fed'in sıkılaşma beklentileri ve güçlü dolar altın üzerinde baskı yaratırken, Orta Doğu ve Ukrayna'daki savaş gelişmeleri ile teknoloji satışının güvenli liman talebini destekleyebilir. Altının haftalık sert düşüşün ardından toparlanması ve yakın vadede beklenen PCE verisi belirsizliği artırdığı için etki sınırlı ve zayıf negatif görünüyor.
+23.11 14:01 A  SHORT SOLUSDT 1685 USD @ 72.3 (1s RSI 68, TP 69.79, SL 73.55)
+23.11 14:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 14:01 N  NEWS (13 new) score -0.10 conf 0.40: Faiz artırımı ve sıkı Fed beklentileri ile güçlü dolar altını baskılıyor; buna karşın İran ve Ukrayna savaşlarındaki tırmanış güvenli liman talebini destekliyor. Düşen Treasury getirileri ve haftalık düşüşten toparlanma kısa vadeli alımı desteklese de, net etki hafif negatif ve belirsiz görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
