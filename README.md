@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 08:42 (İstanbul)
+> Son güncelleme: 23.11.2026 08:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,7 +32,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 08:33): Claude puan **+0.30**, güven 0.45 — Altın dokuz ardışık düşüşten sonra toparlanıyor; teknoloji satışının yarattığı risk kaçışı ve ABD dolarının 19 aylık zirveden geri çekilmesi kısa vadede altını destekliyor. Ancak Fed faiz artırımı tartışmaları ve yükselen dolar riski gibi bbearish unsurlar sinyali sınırlıyor, ayrıca çok sayıda haber aynı toparlanmayı tekrarladığı için büyük ölçüde fiyatlanmış olabilir.
+Son haber analizi (23.11 08:45): Claude puan **+0.15**, güven 0.30 — Yeni başlıklar karışık: teknoloji satışı ve sığınak talebi altını hafifçe destekliyor, dolar ise 19 aylık zirveden geri çekildi; ancak çoğu başlık yerel fiyat raporu olup zaten fiyatlanmış hareketi tekrarlıyor ve Fed/PCE beklentilerinde net bir yön yok. Bu nedenle sinyal zayıf ve güven düşük.
 
 Son işlemler:
 
@@ -90,8 +90,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 07:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 07:45 N  NEWS (12 new) score +0.10 conf 0.40: Altın, teknoloji satışıyla artan güvenli liman talebi ve doların 19 aylık zirvesten geri çekilmesiyle 3600 doların üzerine toparlandı; bu kısa vadede pozitif. Ancak Fed'in Aralık'ta faiz artırma olasılığının %90'ın üzerine çıkması ve ABD PCE enflasyon verisinin yaklaşması gerçek faizleri yükselterek altına baskı yapabilir. Haberler çelişkili ve bir kısmı zaten fiyatlanmış olduğu için güveni düşük tutuyorum.
 23.11 07:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 07:57 N  NEWS (10 new) score +0.05 conf 0.40: Sinyaller karışık: Aralık ayında Fed faiz artırımı olasılığının %90'ın üzerine çıkması ve Bessent/Ackman uyarıları altın için baskılayıcı, ancak teknoloji satışı kaynaklı güvenli liman talebi ile doların 19 aylık zirveden gerilemesi altını 3600$ üzerine taşıdı. PCE enflasyon verisi öncesinde bu çelişkili etkiler büyük olasılıkla birbirini nötrleyecek; güven düşük tutuldu.
 23.11 08:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -105,6 +103,8 @@ Son işlemler:
 23.11 08:21 N  NEWS (6 new) score +0.20 conf 0.40: Yeni başlıklar hafif yükseliş eğiliminde: altın 3.600 doların üzerine toparlandı, teknoloji satışı güvenli liman talebini artırdı ve dolar zayıflarken altın yükseldi. Ancak dolar bir önceki 19 aylık zirvesinden geri çekildiğine rağmen güçlü kalıyor ve PCE verisi öncesinde Fed sıkılaştırma endişesi fiyatları baskılayabilir; bu nedenle sinyal karışık ve güven sınırlı.
 23.11 08:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 08:33 N  NEWS (12 new) score +0.30 conf 0.45: Altın dokuz ardışık düşüşten sonra toparlanıyor; teknoloji satışının yarattığı risk kaçışı ve ABD dolarının 19 aylık zirveden geri çekilmesi kısa vadede altını destekliyor. Ancak Fed faiz artırımı tartışmaları ve yükselen dolar riski gibi bbearish unsurlar sinyali sınırlıyor, ayrıca çok sayıda haber aynı toparlanmayı tekrarladığı için büyük ölçüde fiyatlanmış olabilir.
+23.11 08:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 08:45 N  NEWS (8 new) score +0.15 conf 0.30: Yeni başlıklar karışık: teknoloji satışı ve sığınak talebi altını hafifçe destekliyor, dolar ise 19 aylık zirveden geri çekildi; ancak çoğu başlık yerel fiyat raporu olup zaten fiyatlanmış hareketi tekrarlıyor ve Fed/PCE beklentilerinde net bir yön yok. Bu nedenle sinyal zayıf ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
