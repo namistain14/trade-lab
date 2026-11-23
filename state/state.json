@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    5000.0
-   ],
-   [
     1794961509,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795476720,
     5115.92
+   ],
+   [
+    1795476908,
+    5119.33
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    4868.5
-   ],
-   [
     1794961509,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795476720,
     4868.5
+   ],
+   [
+    1795476908,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.25,
-   "confidence": 0.4,
-   "reason": "Fed yetkililerinin (Williams, \u00fc\u00e7\u00fcnc\u00fc isim) daha s\u0131k\u0131 ve kademeli olmayan enflasyon m\u00fccadelesi mesajlar\u0131 ile Goldman'\u0131n g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentisi, alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jensen Huang'\u0131n Nvidia'ya d\u00f6n\u00fc\u015f\u00fc risk i\u015ftah\u0131n\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in g\u00fcvenli liman talebi zay\u0131f; jeopolitik haberler (\u0130ran yapt\u0131r\u0131mlar\u0131, Ukrayna) ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
+   "confidence": 0.5,
+   "reason": "Fed yetkililerinin (Williams) ard\u0131\u015f\u0131k faiz art\u0131r\u0131m\u0131 sinyali ve Fed'in enflasyon konusundaki sert tonu, dolar g\u00fc\u00e7l\u00fcl\u00fc\u011f\u00fc beklentisi (Goldman) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k Ukrayna/\u0130ran jeopolitik gerilimleri g\u00fcvenli liman talebini destekliyor ve alt\u0131n 3.600 dolar\u0131n \u00fczerine toparland\u0131; haberler birbiriyle \u00e7eli\u015fkili oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
    "n": 45,
-   "ts": 1795476186159,
-   "new_headlines": 9,
+   "ts": 1795476907332,
+   "new_headlines": 11,
    "key_events": [
     "Fed Williams: enflasyon i\u00e7in 'daha \u00e7ok i\u015f var', faiz art\u0131\u015flar\u0131 'zamanla' gerekebilir (\u015fahin)",
     "Goldman: dolar y\u00fckseli\u015finin devam edebilece\u011fi, dolar g\u00fc\u00e7leniyor",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795009039786,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Fed Governor Waller'\u0131n yar\u0131m puanl\u0131k \"\u015fok\" faiz art\u0131\u015f\u0131n\u0131 savunmas\u0131 ve g\u00fc\u00e7l\u00fc dolar\u0131n birlikte ele al\u0131nmas\u0131, alt\u0131n \u00fczerinde belirgin bask\u0131 yarat\u0131yor; alt\u0131n zaten y\u0131ll\u0131k dip seviyelerine inmi\u015f durumda. \u0130ran'a y\u00f6nelik yeni ABD sald\u0131r\u0131lar\u0131 jeopolitik risk primi do\u011furabilse de, bu etki faiz beklentilerinin gerisinde kal\u0131yor.",
-    "new": 11,
-    "gpt_score": -0.65,
-    "gpt_confidence": 0.76
-   },
    {
     "ts": 1795009791329,
     "score": -0.7,
@@ -29879,17 +29870,37 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795476907332,
+    "score": -0.25,
+    "confidence": 0.5,
+    "reason": "Fed yetkililerinin (Williams) ard\u0131\u015f\u0131k faiz art\u0131r\u0131m\u0131 sinyali ve Fed'in enflasyon konusundaki sert tonu, dolar g\u00fc\u00e7l\u00fcl\u00fc\u011f\u00fc beklentisi (Goldman) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k Ukrayna/\u0130ran jeopolitik gerilimleri g\u00fcvenli liman talebini destekliyor ve alt\u0131n 3.600 dolar\u0131n \u00fczerine toparland\u0131; haberler birbiriyle \u00e7eli\u015fkili oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 12
+   "n": 13
   },
   "news_seen": [
+   "Fed\u2019s Williams signals potential consecutive rate hikes if inflation persists - Crypto Briefing",
+   "EU plans sports ban in sweeping new Russia sanctions proposal - Al Jazeera",
+   "Australian Dollar rebounds as risk rally meets twin inflation tests - FXStreet",
+   "U.S. Sanctions Dozens Tied to Iran\u2019s Shadow Banking Networks Under Operation Economic Outcast - NewsCord",
+   "Gold rebounds above $3,600 as CEO Nvidia returns, markets trim Fed hike - FXStreet",
+   "Nvidia Shares Surge 36%, Dollar-yen Climbs to 159 Level; Will Tokyo Market Test 160 After Holiday? - BigGo Finance",
+   "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
+   "More than 700,000 Russian soldiers estimated killed in war on Ukraine - upi",
+   "Gold prices today, November 24, 2026: Price list for SJC gold bars, 9999 gold rings, and international gold prices. - Vietnam.vn",
    "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
    "Federal judge says he can't stop Trump's ICC judge sanctions - Courthouse News",
    "Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Anadolu Ajans\u0131",
    "Credit card debt hits record high in the U.S. - WSMV",
+   "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian",
+   "Gold price update morning of November 24th: Significant recovery appears - Laodong.vn",
    "Mexican Peso steadies as Banxico rate cut erodes carry trade appeal - www.tmgm.com",
    "EU sanctions neo-Nazi terror group leader of 'The Base' - The Jerusalem Post",
    "What does Putin really mean by dangling a \u201ccompromise\u201d over Ukraine? - Lowy Institute",
@@ -29901,12 +29912,10 @@
    "Inside the \u2018war room\u2019 that lobbied Donald Trump to bring back Nvidia\u2019s Jensen Huang - Financial Times",
    "Fed\u2019s Number Three: Inflation Still Off Target, Gradual Action Needed - \u5bcc\u9014\u725b\u725b",
    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
-   "2008. 2020. Now 2026. Why the Gold & Silver Club Sees a Third Great Wealth Transfer in Commodities - FXEmpire",
    "Gold, Silver, Platinum Forecasts \u2013 Gold Soars 3% As Jensen Huang Is Reinstated As Nvidia CEO - FXEmpire",
    "Emerging Growth Research Initiates Coverage of Granada Gold Mine Inc. - The Courier-Journal",
    "Copper price roars back from bear market as Nvidia\u2019s Huang U-turn revives AI trade - Mining.com",
    "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Yahoo Finance",
-   "EUR/USD Outlook: Dollar Bulls Feast on AI Revival - FOREX.com",
    "EU unveils new sanctions against Russia focusing on banks, cryptocurrency, and sports events - European Interest",
    "Copper rout threatens Chile\u2019s budget recovery hopes - Mining.com",
    "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal - The New York Times",
@@ -29921,21 +29930,10 @@
    "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits - The Washington Post",
    "U.S. Sanctions 30 Targets In Iran\u2019s Shadow Banking Network - Dallas Express",
    "Fed Chair Kevin Warsh Just Laid Out 3 Scenarios for \"Super Intelligence.\" 2 of Them Are \"Less Positive,\" Including 1 Scenario That Outright Disappoints - The Motley Fool",
-   "US business activity growth slows in November amid inflation pressures - ColoradoBiz",
-   "Fed's Williams: Essential to reduce inflation to 2% - Breakingthenews.net",
-   "'A war of unmanned machines, AI and total transparency of the battlefield' - France 24",
-   "The 10 Best War Books of All Time, Ranked - Collider",
-   "Bill Ackman says Federal Reserve is 'about to make another mistake' - Fox Business",
-   "ICE Cancels Deportation Flights for Afghan War Refugees But Continues to Jail Them - The Appeal",
-   "U.S. sanctions hit Iran\u2019s corrupt oil insiders and shadow banks: \u2018The ship is sinking\u2019 - Florida\u2019s Voice",
-   "Gingerbread, Magic and a Civil War Santa: Historic Alexandria's 2026 Holiday Lineup - Alexandria Living Magazine",
-   "A comeback for the ages: Trump's influence on Huang's return to Nvidia",
-   "Gold price today: XAU/USD rebounds as banks assess 2027 outlook - Beinsure"
+   "US business activity growth slows in November amid inflation pressures - ColoradoBiz"
   ]
  },
  "log": [
-  "23.11 00:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "23.11 00:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 00:19 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 00:22 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 00:25 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30231,9 @@
   "24.11 02:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 02:10 N  NEWS (5 new) score -0.25 conf 0.40: Fed yetkililerinin (Williams, \u00fc\u00e7\u00fcnc\u00fc isim) daha s\u0131k\u0131 ve kademeli olmayan enflasyon m\u00fccadelesi mesajlar\u0131 ile Goldman'\u0131n g\u00fc\u00e7l\u00fc dolar ve faiz art\u0131r\u0131m\u0131 beklentisi, alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jensen Huang'\u0131n Nvidia'ya d\u00f6n\u00fc\u015f\u00fc risk i\u015ftah\u0131n\u0131 art\u0131rd\u0131\u011f\u0131 i\u00e7in g\u00fcvenli liman talebi zay\u0131f; jeopolitik haberler (\u0130ran yapt\u0131r\u0131mlar\u0131, Ukrayna) ise b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
   "24.11 02:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 02:23 N  NEWS (9 new) score -0.25 conf 0.40: "
+  "24.11 02:23 N  NEWS (9 new) score -0.25 conf 0.40: ",
+  "24.11 02:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 02:35 N  NEWS (11 new) score -0.25 conf 0.50: Fed yetkililerinin (Williams) ard\u0131\u015f\u0131k faiz art\u0131r\u0131m\u0131 sinyali ve Fed'in enflasyon konusundaki sert tonu, dolar g\u00fc\u00e7l\u00fcl\u00fc\u011f\u00fc beklentisi (Goldman) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k Ukrayna/\u0130ran jeopolitik gerilimleri g\u00fcvenli liman talebini destekliyor ve alt\u0131n 3.600 dolar\u0131n \u00fczerine toparland\u0131; haberler birbiriyle \u00e7eli\u015fkili oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 ve g\u00fcven d\u00fc\u015f\u00fck."
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    4963.78
-   ],
-   [
     1794961509,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795476720,
+    4963.78
+   ],
+   [
+    1795476908,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    4975.18
-   ],
-   [
     1794961509,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795476720,
+    4975.18
+   ],
+   [
+    1795476908,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    4993.28
-   ],
-   [
     1794961509,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795476720,
+    4993.28
+   ],
+   [
+    1795476908,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794961477,
-    4969.22
-   ],
-   [
     1794961509,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795476720,
+    4969.22
+   ],
+   [
+    1795476908,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794961477,
-    4558.34
-   ],
    [
     1794961509,
     4558.34
@@ -94894,6 +94890,10 @@
    [
     1795476720,
     5297.35
+   ],
+   [
+    1795476908,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794961477,
-    112393.69
-   ],
    [
     1794961509,
     112393.69
@@ -108537,6 +108533,10 @@
    [
     1795476720,
     128183.18
+   ],
+   [
+    1795476908,
+    128183.18
    ]
   ],
   "open": {},
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794961477,
-    4876.96
-   ],
    [
     1794961509,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795476720,
+    4876.96
+   ],
+   [
+    1795476908,
     4876.96
    ]
   ],
