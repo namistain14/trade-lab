@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 23:41 (İstanbul)
+> Son güncelleme: 23.11.2026 23:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,117.03 $** (başlangıç 5,000 $, +117.03 $ / %+2.34)
+**Hesap değeri: 5,116.38 $** (başlangıç 5,000 $, +116.38 $ / %+2.33)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 23:32): Claude puan **-0.10**, güven 0.30 — Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
+Son haber analizi (23.11 23:44): Claude puan **+0.05**, güven 0.40 — Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 22:46 N  NEWS (6 new) score +0.05 conf 0.30: Jeopolitik gerilim (Ukrayna, Rusya-Estonya, İran yaptırımları) altın için hafif güvenli liman desteği sağlıyor, ancak doların yıllık zirvelere yaklaşması ve Bessent'in Fed'e uyarısı altın üzerinde baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski; PCE verisi öncesi belirsizlik yüksek olduğu için net yön zayıf.
-23.11 22:46 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:46 B6  karar turu: Claude «Çok güçlü bir ralli gününün son dakikalarında kâr realizasyonu belirtileri var; kapanışa yaklaşık 14 dakika kaldığı için yeni pozisyon açmak yerine kenarda kalmak daha doğru.» / GPT «-»
 23.11 22:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:58 N  NEWS (12 new) score -0.15 conf 0.40: Dolar yılın zirvelerine yakın seyrediyor ve Bessent'in Fed'e uyarısı ile "Fed faiz artırımına yöneldi" başlığı, kısa vadede altı baskılayan sert politika beklentilerini destekliyor. Buna karşılık İran yaptırımları ve jeopolitik gerilim güvenli liman talebini sınırlı da olsa destekliyor; altının son saatlerdeki toparlanması ve yaklaşan PCE verisi belirsizliği artırıyor, bu yüzden sinyal zayıf ve karışık.
@@ -108,6 +106,8 @@ Son işlemler:
 23.11 23:20 N  NEWS (9 new) score -0.15 conf 0.35: Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
 23.11 23:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:32 N  NEWS (6 new) score -0.10 conf 0.30: Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
+23.11 23:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 23:44 N  NEWS (10 new) score +0.05 conf 0.40: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
