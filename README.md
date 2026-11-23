@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 01:55 (İstanbul)
+> Son güncelleme: 24.11.2026 01:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,122.37 $** (başlangıç 5,000 $, +122.37 $ / %+2.45)
+**Hesap değeri: 5,122.78 $** (başlangıç 5,000 $, +122.78 $ / %+2.46)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 01:46): Claude puan **-0.20**, güven 0.40 — Yeni gelen haberlerin ağırlıklı etkisi şahin: New York Fed Başkanı Williams ve başka bir Fed yetkilisi daha fazla sıkılaştırma ve hatta faiz artırımı ihtiyacını dile getirdi, ABD'de enflasyon baskısı iş aktivitesinde de görülüyor. Bu, reel faiz ve Fed beklentilerini yükselterek altın için olumsuz. Buna karşılık İran savaşı, yeni AB/ABD yaptırımları ve jeopolitik gerilim sınırlı bir güvenli liman desteği sağlıyor; ancak bu unsurlar büyük ölçüde fiyatlanmış görünüyor.
+Son haber analizi (24.11 01:58): Claude puan **-0.30**, güven 0.45 — Yeni gelen haberlerin ağırlıklı etkisi şahin: New York Fed Başkanı Williams ve başka bir Fed yetkilisi daha fazla sıkılaştırma ve hatta faiz artırımı ihtiyacını dile getirdi, ABD'de enflasyon baskısı iş aktivitesinde de görülüyor. Bu, reel faiz ve Fed beklentilerini yükselterek altın için olumsuz. Buna karşılık İran savaşı, yeni AB/ABD yaptırımları ve jeopolitik gerilim sınırlı bir güvenli liman desteği sağlıyor; ancak bu unsurlar büyük ölçüde fiyatlanmış görünüyor.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 00:21 N  NEWS (6 new) score -0.35 conf 0.50: Yeni gelen en önemli haber, NY Fed Başkanı Williams'ın enflasyonu düşürmek için "zaman içinde" daha yüksek faiz gerekebileceği yönündeki şahin açıklamaları; bu, reel faiz ve dolar beklentilerini yukarı çekerek altın için baskı oluşturuyor. Dolar güçlenmesi ve Goldman'ın dolar yükselişi yorumları da kısa vadede negatif. İran'ın ABD üslerine saldırı iddiası jeopolitik risk yaratıp altını destekleyebilir, ancak bu haber yeni değil ve fiyatlanmış olabilir.
-24.11 00:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:33 N  NEWS (20 new) score -0.35 conf 0.50: Fed'in Williams'ın enflasyon nedeniyle faiz artışlarını "zamanla" gerekebileceği yönündeki şahin açıklamaları ve güçlü dolar beklentisi (Goldman) altın için baskılayıcı. Jeopolitik başlıklar (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak yeni bir tırmanış göstermiyor ve eski/fiyatlanmış haberler olduğundan etkisi sınırlı.
 24.11 00:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:45 N  NEWS (15 new) score -0.30 conf 0.50: Fed Başkanı Williams'ın enflasyon konusunda "harekete geçmeliyiz" ve faiz artırımlarının "zamanla" gerekebileceği yönündeki sert mesajları, reel faiz ve Fed beklentileri üzerinden altın için baskılayıcı. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sürdüğü yönündeki açıklamaları jeopolitik risk primini kısmen destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 01:34 N  NEWS (11 new) score -0.35 conf 0.50: Yeni gelen haberlerin ağırlıklı etkisi şahin: New York Fed Başkanı Williams ve başka bir Fed yetkilisi daha fazla sıkılaştırma ve hatta faiz artırımı ihtiyacını dile getirdi, ABD'de enflasyon baskısı iş aktivitesinde de görülüyor. Bu, reel faiz ve Fed beklentilerini yükselterek altın için olumsuz. Buna karşılık İran savaşı, yeni AB/ABD yaptırımları ve jeopolitik gerilim sınırlı bir güvenli liman desteği sağlıyor; ancak bu unsurlar büyük ölçüde fiyatlanmış görünüyor.
 24.11 01:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 01:46 N  NEWS (9 new) score -0.20 conf 0.40: 
+24.11 01:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 01:58 N  NEWS (7 new) score -0.30 conf 0.45: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
