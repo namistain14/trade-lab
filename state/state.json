@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    5000.0
-   ],
-   [
     1794912026,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795427151,
     5104.97
+   ],
+   [
+    1795427336,
+    5104.97
    ]
   ],
   "archive": [
@@ -15128,10 +15128,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    4868.5
-   ],
-   [
     1794912026,
     4868.5
    ],
@@ -27126,15 +27122,19 @@
    [
     1795427151,
     4868.5
+   ],
+   [
+    1795427336,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.3,
+   "score": 0.2,
+   "confidence": 0.4,
    "reason": "Alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor ve 3.600 dolar\u0131 geri ald\u0131, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri h\u00e2l\u00e2 bask\u0131 yarat\u0131yor. Dolar\u0131n 19 ayl\u0131k zirveden geri \u00e7ekilmesi ve faiz art\u0131r\u0131m bahislerinin k\u0131smen fiyatlanmaktan \u00e7\u0131kmas\u0131 k\u0131sa vadede destekleyici, fakat yak\u0131nda a\u00e7\u0131klanacak ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor.",
    "n": 45,
-   "ts": 1795426616373,
-   "new_headlines": 9,
+   "ts": 1795427336039,
+   "new_headlines": 11,
    "key_events": [
     "Alt\u0131n 14 ayl\u0131k dibinden toparland\u0131; ABD enflasyon verisi bekleniyor",
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (19 ayl\u0131k zirveden hafif geri \u00e7ekilme)",
@@ -27145,15 +27145,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794958036268,
-    "score": -0.15,
-    "confidence": 0.3,
-    "reason": "Yeni haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in n\u00f6tr: alt\u0131n 3.850 dolar civar\u0131nda sabit ve FOMC tutanaklar\u0131 \u00f6ncesinde bekliyor. G\u00fc\u00e7l\u00fc dolar, s\u0131k\u0131la\u015fma (faiz art\u0131r\u0131m\u0131) beklentileri ve s\u0131cak CPI verisi bask\u0131 yarat\u0131yor; \u0130ran sava\u015f\u0131 ise g\u00fcvenli liman talebini destekliyor ama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Net g\u00f6r\u00fcn\u00fcm hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 6,
-    "gpt_score": 0.08,
-    "gpt_confidence": 0.32
-   },
    {
     "ts": 1794958788791,
     "score": -0.15,
@@ -29844,19 +29835,35 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795427336039,
+    "score": 0.2,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 27
+   "n": 28
   },
   "news_seen": [
+   "Hezbollah Precision Guided Missile Manufacturing Site on Syrian Border - Alma Research and Education Center",
+   "U.S. inflation, Thanksgiving trading: Crypto Week Ahead - CoinDesk",
+   "Core PCE Inflation vs. Softer Data in the Debate Over Fed Rate Hikes - StoneX",
+   "Technical analysis of the FTSE 100, GBP/USD and gold price as they stem their sharp declines - IG",
+   "Pip assessments need 'fundamental overhaul', report to say",
+   "Gold Price Returns Above $3,600 as U.S. Debt Ceiling Could Become a $5 Trillion Catalyst - BigGo Finance",
    "Silver price today: Silver rises, according to FXStreet data - www.tmgm.com",
+   "Gaza turned into \u2018toxic wasteland\u2019 by Israel\u2019s war, says new report - Al Jazeera",
    "In Kyiv, restaurants are closing as Ukraine war pressures mount - Reuters",
    "Gold Rebounds From 14-Month Low Ahead Of Key US Inflation Data - Forbes Middle East",
+   "Gold price forecast: Goldman Sachs sees $4,650 by 2027 despite US rate pressures \u2014 what investors should do - Livemint",
    "Why the Australian Dollar Is Falling and What Comes Next - FXEmpire",
    "Japanese Yen: Upside risk builds against US Dollar \u2013 UOB - FXStreet",
-   "Federal Reserve flags AI as top financial stability risk - Cryptonews.net",
    "Who is behind the recent street protests in France?",
    "Sanctions and double standards in Judea and Samaria - JNS",
    "Ukraine takes its naval war against Russia into the Mediterranean - The Arab Weekly",
@@ -29866,12 +29873,13 @@
    "Gold Price Today: XAU/USD Reclaims $3,600 - Mitrade",
    "Wildberries owner steps down after EU sanctions target Russian oligarchs - The Kyiv Independent",
    "Why does the New Zealand Dollar remain so weak after strong Retail Sales data? - FXStreet",
-   "Pip assessments need 'fundamental overhaul', report to say",
    "Silver Price Forecast: XAG/USD recovers strongly as traders price out Fed bigger rate hike bets - www.tmgm.com",
    "Euro: Danske Bank sees gradual weakness against US Dollar over 6\u201312M - www.tmgm.com",
    "Kevin Warsh and His Critics Mistake Rising Prices for Inflation - RealClearMarkets",
+   "Gold Rebounds to US$3,600 After Sharp Weekly Sell-Off - VT Markets",
+   "Federal Reserve flags AI as top financial stability risk - Crypto Briefing",
+   "Ukraine Attacks Russian Ships Far From Warzone - WSJ",
    "Ukraine to Unleash Hundreds of Neptune Missiles and Over 1,000 Palyanytsia Drones By End of 2026 - UNITED24 Media",
-   "Holy See to UN weapons conference: Autonomous weapons lead to \u2018even more inhumane conduct\u2019 in war - EWTN Vatican",
    "Fed Chair Kevin Warsh and the FOMC Have a New Concern, and It Has Nothing to Do With Trumpflation - The Motley Fool",
    "'The 2% inflation ambition is misguided': Bill Ackman urges Fed to rethink policy - Seeking Alpha",
    "Gold Falls Below 760 Yuan a Gram as Bars Sell Out, With Fed Rate-Hike Bets Squaring Off Against Retail Bargain Hunters - BigGo Finance",
@@ -29887,20 +29895,10 @@
    "Asia FX broadly firmer as dollar retreats from 19-month high; yuan, won gain - Investing.com",
    "Gold Rate Today, 23 November 2026: Gold prices spike to Rs 1,24,677 per 10 grams after hitting 14-month low - The Indian Express",
    "Gold price dip brings shoppers back to Beijing jewelry counters - \u5df4\u58eb\u7684\u5831",
-   "Historic marker dedication honors Revolutionary War legacy of White House Tavern - New Jersey Hills Media Group",
-   "Euro: Seen drifting lower against US Dollar on 6\u201312M view \u2013 Danske Bank - FXStreet",
-   "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
-   "PESO ENDS AT \u20b163.845 AGAINST US DOLLAR The Philippine peso stood at \u20b163.845 against the US dollar on Monday, Movember 23, 2026, based on data from the Bankers Association of the Philippines. The rate means one US dollar is equivalent to \u20b163. - Facebook",
-   "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
-   "Classic strategy games Warlords IV: Heroes of Etheria, Soldiers at War, and Theocracy get re-released - GamingOnLinux",
-   "Gold prices recover after a week of sharp decline, market awaits US inflation data - Laodong.vn",
-   "Exclusive: Munich Re Syndicate launches affirmative cyber war cover from 1.1 - The Insurer",
-   "Gold Rate Today, November 23, 2026: Gold Prices Rebound After Hitting 14-Month Low; How US Inflation Data Affects Rates, Check City-Wise Prices - Jagran Josh"
+   "World gold price today, November 23: Green color returns to the market - Laodong.vn"
   ]
  },
  "log": [
-  "22.11 14:54 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 14:57 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 15:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30198,7 +30196,9 @@
   "23.11 12:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 12:24 N  NEWS (22 new) score +0.20 conf 0.35: ",
   "23.11 12:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 12:36 N  NEWS (9 new) score +0.05 conf 0.30: Alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor ve 3.600 dolar\u0131 geri ald\u0131, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri h\u00e2l\u00e2 bask\u0131 yarat\u0131yor. Dolar\u0131n 19 ayl\u0131k zirveden geri \u00e7ekilmesi ve faiz art\u0131r\u0131m bahislerinin k\u0131smen fiyatlanmaktan \u00e7\u0131kmas\u0131 k\u0131sa vadede destekleyici, fakat yak\u0131nda a\u00e7\u0131klanacak ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor."
+  "23.11 12:36 N  NEWS (9 new) score +0.05 conf 0.30: Alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor ve 3.600 dolar\u0131 geri ald\u0131, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri h\u00e2l\u00e2 bask\u0131 yarat\u0131yor. Dolar\u0131n 19 ayl\u0131k zirveden geri \u00e7ekilmesi ve faiz art\u0131r\u0131m bahislerinin k\u0131smen fiyatlanmaktan \u00e7\u0131kmas\u0131 k\u0131sa vadede destekleyici, fakat yak\u0131nda a\u00e7\u0131klanacak ABD enflasyon verisinin y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in net bir y\u00f6n \u00f6ng\u00f6r\u00fclemiyor.",
+  "23.11 12:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 12:48 N  NEWS (11 new) score +0.20 conf 0.40: "
  ],
  "gold_big": {
   "account": {
@@ -30385,10 +30385,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    4963.78
-   ],
-   [
     1794912026,
     4963.78
    ],
@@ -42382,6 +42378,10 @@
    ],
    [
     1795427151,
+    4963.78
+   ],
+   [
+    1795427336,
     4963.78
    ]
   ],
@@ -42497,10 +42497,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    4975.18
-   ],
-   [
     1794912026,
     4975.18
    ],
@@ -54494,6 +54490,10 @@
    ],
    [
     1795427151,
+    4975.18
+   ],
+   [
+    1795427336,
     4975.18
    ]
   ],
@@ -54579,10 +54579,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    4993.28
-   ],
-   [
     1794912026,
     4993.28
    ],
@@ -66576,6 +66572,10 @@
    ],
    [
     1795427151,
+    4993.28
+   ],
+   [
+    1795427336,
     4993.28
    ]
   ]
@@ -66786,10 +66786,6 @@
   },
   "equity_curve": [
    [
-    1794911846,
-    4969.22
-   ],
-   [
     1794912026,
     4969.22
    ],
@@ -78783,6 +78779,10 @@
    ],
    [
     1795427151,
+    4969.22
+   ],
+   [
+    1795427336,
     4969.22
    ]
   ],
@@ -82860,10 +82860,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794911846,
-    4545.26
-   ],
    [
     1794912026,
     4545.26
@@ -94859,6 +94855,10 @@
    [
     1795427151,
     5297.35
+   ],
+   [
+    1795427336,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96503,10 +96503,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794911846,
-    114145.15
-   ],
    [
     1794912026,
     114145.15
@@ -108502,6 +108498,10 @@
    [
     1795427151,
     128183.18
+   ],
+   [
+    1795427336,
+    128183.18
    ]
   ],
   "open": {},
@@ -108684,10 +108684,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794911846,
-    4876.96
-   ],
    [
     1794912026,
     4876.96
@@ -120682,6 +120678,10 @@
    ],
    [
     1795427151,
+    4876.96
+   ],
+   [
+    1795427336,
     4876.96
    ]
   ],
