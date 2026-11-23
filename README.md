@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 17:50 (İstanbul)
+> Son güncelleme: 23.11.2026 17:53 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -33,7 +33,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 17:29): Claude puan **+0.05**, güven 0.20 — Yeni başlıkların çoğu altını doğrudan etkilemeyen iç politika, şirket ve yerel olaylar. Ukrayna'nın Libya açıklarındaki Rus savaş gemisine saldırısı ve Gazze'ye ilişkin haberler hafif bir jeopolitik risk iştahı yaratabilir, ancak etkisi sınırlı ve büyük ölçüde fiyatlanmış. Fed, reel faiz, dolar veya enflasyonla ilgili yeni bir haber yok.
+Son haber analizi (23.11 17:53): Claude puan **+0.05**, güven 0.30 — Başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia, İngiltere refah ve Pip, Belçika grevi, Gazze insani durumu). Ukrayna'nın Libya açıklarında Rus savaş gemisini vurduğu haberi küçük bir jeopolitik gerilim yaratabilir, ancak etkisi sınırlı ve kısa vadede fiyatlanmış olabilir. Merkez bankası, enflasyon veya dolar tarafında önemli yeni bir veri yok.
 
 Son işlemler:
 
@@ -91,8 +91,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 16:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 16:40 N  NEWS (10 new) score +0.10 conf 0.35: Altın, haftalık düşüşün ardından toparlanma eğiliminde ve dolar yükselişi duraklamış görünüyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımı beklentileri ve güçlü dolar tarafındaki haberler altın üzerinde baskı yaratabilir, güvenli liman talebini artıran jeopolitik gelişmeler ise etkisi sınırlı kalıyor; sinyaller karışık olduğu için güven düşük.
 23.11 16:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 16:52 N  NEWS (14 new) score -0.10 conf 0.35: 
 23.11 16:58 A  CLOSE SOLUSDT short stop: -31.47 USD
@@ -106,6 +104,8 @@ Son işlemler:
 23.11 17:32 B6  karar turu: Claude «Piyasa son derece güçlü ve aşırı uzamış; olağandışı büyük hareketler nedeniyle kovalamaktan kaçınıp yalnızca seçici fırsatlara giriyorum.» / GPT «-»
 23.11 17:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 17:44 B6  karar turu: Claude «Piyasa çok güçlü ama aşırı oynak bir risk iştahı rallisinde; sıkı stoplarla en mantıklı yol, büyük hareketleri kovalamak yerine geride kalan düşük oynaklıklı hisselere seçici girmek.» / GPT «-»
+23.11 17:53 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 17:53 N  NEWS (1 new) score +0.05 conf 0.30: Başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia, İngiltere refah ve Pip, Belçika grevi, Gazze insani durumu). Ukrayna'nın Libya açıklarında Rus savaş gemisini vurduğu haberi küçük bir jeopolitik gerilim yaratabilir, ancak etkisi sınırlı ve kısa vadede fiyatlanmış olabilir. Merkez bankası, enflasyon veya dolar tarafında önemli yeni bir veri yok.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
