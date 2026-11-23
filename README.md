@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 02:07 (İstanbul)
+> Son güncelleme: 24.11.2026 02:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,119.16 $** (başlangıç 5,000 $, +119.16 $ / %+2.38)
+**Hesap değeri: 5,119.83 $** (başlangıç 5,000 $, +119.83 $ / %+2.40)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 01:58): Claude puan **-0.30**, güven 0.45 — Yeni gelen haberlerin ağırlıklı etkisi şahin: New York Fed Başkanı Williams ve başka bir Fed yetkilisi daha fazla sıkılaştırma ve hatta faiz artırımı ihtiyacını dile getirdi, ABD'de enflasyon baskısı iş aktivitesinde de görülüyor. Bu, reel faiz ve Fed beklentilerini yükselterek altın için olumsuz. Buna karşılık İran savaşı, yeni AB/ABD yaptırımları ve jeopolitik gerilim sınırlı bir güvenli liman desteği sağlıyor; ancak bu unsurlar büyük ölçüde fiyatlanmış görünüyor.
+Son haber analizi (24.11 02:10): Claude puan **-0.25**, güven 0.40 — Fed yetkililerinin (Williams, üçüncü isim) daha sıkı ve kademeli olmayan enflasyon mücadelesi mesajları ile Goldman'ın güçlü dolar ve faiz artırımı beklentisi, altın için baskı oluşturuyor. Jensen Huang'ın Nvidia'ya dönüşü risk iştahını artırdığı için güvenli liman talebi zayıf; jeopolitik haberler (İran yaptırımları, Ukrayna) ise büyük ölçüde fiyatlanmış durumda.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 00:33 N  NEWS (20 new) score -0.35 conf 0.50: Fed'in Williams'ın enflasyon nedeniyle faiz artışlarını "zamanla" gerekebileceği yönündeki şahin açıklamaları ve güçlü dolar beklentisi (Goldman) altın için baskılayıcı. Jeopolitik başlıklar (İran, Ukrayna) güvenli liman talebini destekleyebilir, ancak yeni bir tırmanış göstermiyor ve eski/fiyatlanmış haberler olduğundan etkisi sınırlı.
-24.11 00:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:45 N  NEWS (15 new) score -0.30 conf 0.50: Fed Başkanı Williams'ın enflasyon konusunda "harekete geçmeliyiz" ve faiz artırımlarının "zamanla" gerekebileceği yönündeki sert mesajları, reel faiz ve Fed beklentileri üzerinden altın için baskılayıcı. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sürdüğü yönündeki açıklamaları jeopolitik risk primini kısmen destekliyor, ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda.
 24.11 00:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 00:57 N  NEWS (8 new) score -0.40 conf 0.50: New York Fed Başkanı Williams'ın "daha fazla sıkılaştırma gerekli" ve faizlerin "zamanla" yükseltilebileceği yönündeki sert açıklamaları, reel faiz ve Fed beklentileri üzerinden altın için baskı oluşturuyor. İran'a yönelik yeni yaptırımlar ve Katar'ın savaşın sonlanması için müzakere çağrısı ise sınırlı bir güvenli liman talebi destekleyebilir, ancak bu etki Fed'in şahin mesajının gerisinde kalıyor.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 01:46 N  NEWS (9 new) score -0.20 conf 0.40: 
 24.11 01:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 01:58 N  NEWS (7 new) score -0.30 conf 0.45: 
+24.11 02:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 02:10 N  NEWS (5 new) score -0.25 conf 0.40: Fed yetkililerinin (Williams, üçüncü isim) daha sıkı ve kademeli olmayan enflasyon mücadelesi mesajları ile Goldman'ın güçlü dolar ve faiz artırımı beklentisi, altın için baskı oluşturuyor. Jensen Huang'ın Nvidia'ya dönüşü risk iştahını artırdığı için güvenli liman talebi zayıf; jeopolitik haberler (İran yaptırımları, Ukrayna) ise büyük ölçüde fiyatlanmış durumda.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
