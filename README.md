@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 15:11 (İstanbul)
+> Son güncelleme: 23.11.2026 15:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %100.0 |
 | Ödenen komisyon/spread | 0.00 $ | 3.25 $ |
 
-**Hesap değeri: 5,098.27 $** (başlangıç 5,000 $, +98.27 $ / %+1.97)
+**Hesap değeri: 5,100.83 $** (başlangıç 5,000 $, +100.83 $ / %+2.02)
 
 Açık pozisyonlar: SOLUSDT short @ 72.30 (TP 69.79 / SL 73.55)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 15:02): Claude puan **+0.05**, güven 0.30 — Haberler karışık: Warsh yönetiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi altın için destekleyici olabilir, ancak DXY'nin yükselişi, zayıf Avro bölgesi/İngiltere PMI verileri ve 14 aylık en düşük seviyeden gelen zayıf trend altını baskılıyor. İran ve Ukrayna çatışmaları güvenli liman talebini artırsa da bunlar büyük ölçüde fiyatlanmış durumda; net etki sınırlı ve yön belirsiz.
+Son haber analizi (23.11 15:14): Claude puan **-0.20**, güven 0.40 — Dolar 19 aylık zirvesinden hafif geri çekilse de güçlü kalması ve HSBC'nin 2027'ye dair güçlü dolar görünümü altın için baskı yaratıyor. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış durumda; PCE enflasyon verisi ve Warsh Fed'i yönündeki belirsizlik ise net bir yön vermiyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 13:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 13:49 N  NEWS (8 new) score -0.15 conf 0.40: Haberler karışık: Fed'in sıkılaşma beklentileri ve güçlü dolar altın üzerinde baskı yaratırken, Orta Doğu ve Ukrayna'daki savaş gelişmeleri ile teknoloji satışının güvenli liman talebini destekleyebilir. Altının haftalık sert düşüşün ardından toparlanması ve yakın vadede beklenen PCE verisi belirsizliği artırdığı için etki sınırlı ve zayıf negatif görünüyor.
 23.11 14:01 A  SHORT SOLUSDT 1685 USD @ 72.3 (1s RSI 68, TP 69.79, SL 73.55)
 23.11 14:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 14:01 N  NEWS (13 new) score -0.10 conf 0.40: Faiz artırımı ve sıkı Fed beklentileri ile güçlü dolar altını baskılıyor; buna karşın İran ve Ukrayna savaşlarındaki tırmanış güvenli liman talebini destekliyor. Düşen Treasury getirileri ve haftalık düşüşten toparlanma kısa vadeli alımı desteklese de, net etki hafif negatif ve belirsiz görünüyor.
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 14:50 N  NEWS (7 new) score +0.05 conf 0.30: 
 23.11 15:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler karışık: Warsh yönetiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi altın için destekleyici olabilir, ancak DXY'nin yükselişi, zayıf Avro bölgesi/İngiltere PMI verileri ve 14 aylık en düşük seviyeden gelen zayıf trend altını baskılıyor. İran ve Ukrayna çatışmaları güvenli liman talebini artırsa da bunlar büyük ölçüde fiyatlanmış durumda; net etki sınırlı ve yön belirsiz.
+23.11 15:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 aylık zirvesinden hafif geri çekilse de güçlü kalması ve HSBC'nin 2027'ye dair güçlü dolar görünümü altın için baskı yaratıyor. Savaş haberleri (İran, Ukrayna) güvenli liman talebini destekliyor ancak büyük ölçüde fiyatlanmış durumda; PCE enflasyon verisi ve Warsh Fed'i yönündeki belirsizlik ise net bir yön vermiyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

@@ -71,10 +71,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    5000.0
-   ],
-   [
     1794920776,
     5000.0
    ],
@@ -12069,6 +12065,10 @@
    [
     1795435908,
     5098.27
+   ],
+   [
+    1795436094,
+    5100.83
    ]
   ],
   "archive": [
@@ -15143,10 +15143,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    4868.5
-   ],
-   [
     1794920776,
     4868.5
    ],
@@ -27141,15 +27137,19 @@
    [
     1795435908,
     4868.5
+   ],
+   [
+    1795436094,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.05,
-   "confidence": 0.3,
-   "reason": "Haberler kar\u0131\u015f\u0131k: Warsh y\u00f6netiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi alt\u0131n i\u00e7in destekleyici olabilir, ancak DXY'nin y\u00fckseli\u015fi, zay\u0131f Avro b\u00f6lgesi/\u0130ngiltere PMI verileri ve 14 ayl\u0131k en d\u00fc\u015f\u00fck seviyeden gelen zay\u0131f trend alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini art\u0131rsa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; net etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
+   "score": -0.2,
+   "confidence": 0.4,
+   "reason": "Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor.",
    "n": 45,
-   "ts": 1795435374356,
-   "new_headlines": 10,
+   "ts": 1795436094120,
+   "new_headlines": 20,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar (EUR/USD 2025 Nisan dibi) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
     "Alt\u0131n 3.600$ \u00fczerine toparland\u0131; teknoloji sat\u0131\u015f\u0131 ve \u0130ran sava\u015f\u0131 g\u00fcvenli liman talebini destekliyor",
@@ -27160,15 +27160,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794966768233,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "\u015eahinle\u015fen Fed tonu, g\u00fc\u00e7l\u00fc perakende sat\u0131\u015flar ve 19 ayl\u0131k zirvesine yak\u0131n seyreden dolar\u0131n alt\u0131n \u00fczerindeki bask\u0131s\u0131, \u0130ran'daki ABD sald\u0131r\u0131lar\u0131n\u0131n yaratt\u0131\u011f\u0131 g\u00fcvenli liman talebinden daha belirleyici g\u00f6r\u00fcn\u00fcyor. Alt\u0131n bir y\u0131ll\u0131k dip yak\u0131n\u0131nda yatay seyrediyor, bu nedenle k\u0131sa vadede d\u00fc\u015f\u00fc\u015f e\u011filimi daha olas\u0131, ancak jeopolitik gerilimler ve haberlerin b\u00fcy\u00fck k\u0131sm\u0131n\u0131n zaten fiyatlanm\u0131\u015f olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-    "new": 8,
-    "gpt_score": -0.38,
-    "gpt_confidence": 0.57
-   },
    {
     "ts": 1794967514858,
     "score": -0.4,
@@ -29859,18 +29850,43 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795436094120,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor.",
+    "new": 20,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 39
+   "n": 40
   },
   "news_seen": [
+   "US Dollar: Strong outlook into 2027 \u2013 HSBC - Mitrade",
+   "US dollar edges off 19-month high after stocks rout; yen softens - The Business Times",
+   "Opinion | Can people take the reins from tech? Look to this brush with Armageddon. - The Washington Post",
+   "Australian Dollar pares early gains as US Dollar stages a recovery - www.tmgm.com",
+   "Why Is HSBC\u2019s US Dollar Outlook Strong Into 2027? - www.tmgm.com",
+   "Australian Dollar: UOB Sees Decline Against US Dollar as Overextended - www.tmgm.com",
+   "Ex-Mossad chief calls for war on Iran, reveals agency's role in foiling Taylor Swift concert plot - Ynetnews",
+   "Newmont: Fine Fundamentals, But Momentum Loss Can Continue (Rating Downgrade) (NYSE:NEM) - Seeking Alpha",
+   "Ukraine Exposes 69 Companies Behind Russia\u2019s Rostec Defense Empire, Including Global Titanium Supplier - UNITED24 Media",
+   "Morning Bid: Wall Street reprieve or recovery? - KELO-AM",
+   "Destiny, hard work has Suns' Khaman Maluach living NBA dream | Exclusive - azcentral.com and The Arizona Republic",
    "US Stock Selloff Revives Question of a Fed \u2018Put,\u2019 This Time Under Warsh - Bloomberg.com",
+   "US, UK Firms Cut FX Hedges to Lowest Since 2024 as Losses Jump - Bloomberg.com",
    "Stronger dollar pressures capital flows into emerging markets, commodities - Anadolu Ajans\u0131",
+   "Premium Comment OceanX radar: Zim outperforms; west coast strike averted; war at sea - The Loadstar",
    "US Dollar Index (DXY) bounces up as Eurozone, UK business activity data disappoints - FXStreet",
+   "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+   "Amex Gold Mining Inc. (TSXV:AMX) Shares Slide 5.26% as Bearish Momentum, Development Risks and Gold Market Uncertainty Weigh on Sentiment - kalkine.ca",
    "Ukraine Strikes Russian Warship in Libya as War Expands Into Mediterranean and Baltic Waters - Modern Diplomacy",
-   "Israel must go to war against Iran \u2018as soon as all conditions allow,\u2019 says ex-Mossad chief - The Times of Israel",
+   "Ex-Mossad chief: Israel must go to war against Iran \u2018as soon as all conditions allow\u2019 - The Times of Israel",
+   "International Tower Hill Mines: May Be A Relative Value Case, Though Unsure About Gold - Seeking Alpha",
    "Gold price at the close of the session on November 23: Rising from the lowest level in 14 months - Laodong.vn",
    "Gulf states face $475bn deficit as Iran war hits economies - The New Arab",
    "Geran-5: How Russia\u2019s Shaheds Became Cruise Missiles - UNITED24 Media",
@@ -29882,9 +29898,10 @@
    "Closing the Back Door: America Targets Iran\u2019s Sanctions-Evasion Network - Jerusalem Center for Security and Foreign Affairs",
    "U.S. Futures Rally as Tech Stocks Bounce After Brutal Selloff; PCE Inflation Data Awaited - Barchart.com",
    "Gold Forecast \u2013 23/11: Sharp Selloff Tests Support (Video) - Daily Forex",
+   "Qatar PM to meet Rubio in Washington for talks on US-Iran war - The New Arab",
+   "Kyiv Confirms Strike on Russian Ship in Libya as Targets Grow - Bloomberg.com",
    "War is getting closer: but so is a mass movement against it \u2013 weekly briefing - Counterfire",
    "Australian Dollar gives back some early gains as US Dollar bounces back - FXStreet",
-   "Gold jumps over 2% as half-point Fed hike bets fade, US PCE in focus - www.tmgm.com",
    "Flights grounded in Belgium due to strike against austerity measures",
    "Roger Wicker Says Democrats Can Press Iran War Funding Limits Without Tying Commanders: how 7 outlets framed it - NewsCord",
    "Gold, FTSE 100 Forecast: Two trades to watch - FOREX.com",
@@ -29892,30 +29909,11 @@
    "Safe Haven Assets in a Crash: Gold, Bonds, Franc (Nov 2026) - Admirals",
    "BTC price gains 12% from $55K: Three things to know in Bitcoin this week - TradingView",
    "Senate GOP leaders signal openness to cutting off Iran war funding - The Washington Post",
-   "Is Mexico Stepping Up in the War on Drugs? - The New York Times",
-   "IG Defence tests \u2018micro\u2019 C-UAS missile at Indian Army range - Unmanned airspace",
-   "Gold Price Today on November 23, 2026 - USA Today",
-   "Russia Ukraine War - WV News",
-   "Ukraine Sinks Russian Warship, Hits Cargo Vessels Far From Warzone - WSJ",
-   "Iran Braces For Winter Gas Shortages As War Damage Deepens Energy Crisis - Radio Free Europe/Radio Liberty",
-   "Kalshi traders see Bitcoin's chance of outperforming gold at 19% - TradingView",
-   "Duty Calls: Seabee vet of World War II honored at 100th birthday celebration - Times Union",
-   "Column: Washington wages war on Jell-O - The Morning Sun",
-   "COMMENTARY: Oil's Iran war recovery masks a stubborn diesel shortage - Reuters",
-   "The Hegseth Grenade: A Sea Change at Newport - Center for International Maritime Security",
-   "Market Minute: RSM\u2019s U.S. rates outlook for 2027 - The Real Economy Blog",
-   "Why a surging U.S. dollar could be the biggest overlooked risk to global markets - Yahoo! Finance Canada",
-   "In life, Lukas Dhont often feared emotional truth. On film, it\u2019s his \u2018superpower\u2019 - Los Angeles Times",
-   "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
-   "Gold price rises by Rs7,800 per tola in Pakistan - Investify",
-   "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says - MarketWatch",
-   "Gold prices rally as investors await key U.S. inflation data - Traders Union",
-   "Nvidia's Slide, Bitcoin's Sell-Off, Oil's Fed Impact: 3 Charts To Watch This Week - TradingView"
+   "Presidential villa also hit by water and power cuts, Nigerian leader says",
+   "Is Mexico Stepping Up in the War on Drugs? - The New York Times"
   ]
  },
  "log": [
-  "22.11 16:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 16:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 16:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30213,7 +30211,9 @@
   "23.11 14:50 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 14:50 N  NEWS (7 new) score +0.05 conf 0.30: ",
   "23.11 15:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler kar\u0131\u015f\u0131k: Warsh y\u00f6netiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi alt\u0131n i\u00e7in destekleyici olabilir, ancak DXY'nin y\u00fckseli\u015fi, zay\u0131f Avro b\u00f6lgesi/\u0130ngiltere PMI verileri ve 14 ayl\u0131k en d\u00fc\u015f\u00fck seviyeden gelen zay\u0131f trend alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini art\u0131rsa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; net etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz."
+  "23.11 15:02 N  NEWS (10 new) score +0.05 conf 0.30: Haberler kar\u0131\u015f\u0131k: Warsh y\u00f6netiminde Fed 'put' beklentisi ve ABD PCE enflasyon verisi alt\u0131n i\u00e7in destekleyici olabilir, ancak DXY'nin y\u00fckseli\u015fi, zay\u0131f Avro b\u00f6lgesi/\u0130ngiltere PMI verileri ve 14 ayl\u0131k en d\u00fc\u015f\u00fck seviyeden gelen zay\u0131f trend alt\u0131n\u0131 bask\u0131l\u0131yor. \u0130ran ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 g\u00fcvenli liman talebini art\u0131rsa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; net etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
+  "23.11 15:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor."
  ],
  "gold_big": {
   "account": {
@@ -30400,10 +30400,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    4963.78
-   ],
-   [
     1794920776,
     4963.78
    ],
@@ -42397,6 +42393,10 @@
    ],
    [
     1795435908,
+    4963.78
+   ],
+   [
+    1795436094,
     4963.78
    ]
   ],
@@ -42512,10 +42512,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    4975.18
-   ],
-   [
     1794920776,
     4975.18
    ],
@@ -54509,6 +54505,10 @@
    ],
    [
     1795435908,
+    4975.18
+   ],
+   [
+    1795436094,
     4975.18
    ]
   ],
@@ -54594,10 +54594,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    4993.28
-   ],
-   [
     1794920776,
     4993.28
    ],
@@ -66591,6 +66587,10 @@
    ],
    [
     1795435908,
+    4993.28
+   ],
+   [
+    1795436094,
     4993.28
    ]
   ]
@@ -66801,10 +66801,6 @@
   },
   "equity_curve": [
    [
-    1794920596,
-    4969.22
-   ],
-   [
     1794920776,
     4969.22
    ],
@@ -78798,6 +78794,10 @@
    ],
    [
     1795435908,
+    4969.22
+   ],
+   [
+    1795436094,
     4969.22
    ]
   ],
@@ -82875,10 +82875,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794920596,
-    4545.26
-   ],
    [
     1794920776,
     4545.26
@@ -94874,6 +94870,10 @@
    [
     1795435908,
     5297.35
+   ],
+   [
+    1795436094,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96518,10 +96518,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794920596,
-    114145.15
-   ],
    [
     1794920776,
     114145.15
@@ -108517,6 +108513,10 @@
    [
     1795435908,
     128183.18
+   ],
+   [
+    1795436094,
+    128183.18
    ]
   ],
   "open": {},
@@ -108699,10 +108699,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794920596,
-    4876.96
-   ],
    [
     1794920776,
     4876.96
@@ -120697,6 +120693,10 @@
    ],
    [
     1795435908,
+    4876.96
+   ],
+   [
+    1795436094,
     4876.96
    ]
   ],
