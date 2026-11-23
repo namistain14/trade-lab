@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 23:05 (İstanbul)
+> Son güncelleme: 23.11.2026 23:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,113.93 $** (başlangıç 5,000 $, +113.93 $ / %+2.28)
+**Hesap değeri: 5,116.18 $** (başlangıç 5,000 $, +116.18 $ / %+2.32)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 22:58): Claude puan **-0.15**, güven 0.40 — Dolar yılın zirvelerine yakın seyrediyor ve Bessent'in Fed'e uyarısı ile "Fed faiz artırımına yöneldi" başlığı, kısa vadede altı baskılayan sert politika beklentilerini destekliyor. Buna karşılık İran yaptırımları ve jeopolitik gerilim güvenli liman talebini sınırlı da olsa destekliyor; altının son saatlerdeki toparlanması ve yaklaşan PCE verisi belirsizliği artırıyor, bu yüzden sinyal zayıf ve karışık.
+Son haber analizi (23.11 23:08): Claude puan **-0.15**, güven 0.35 — Haberler karışık: Dolar 19 ay zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'e uyarısı altın için baskılayıcı. Buna karşın İran sanksiyonları ve jeopolitik gerilim güvenli liman talebini destekliyor, altın ise PCE öncesi toparlanıyor; net etki hafif negatif ve düşük güvenle değerlendirilmeli.
 
 Son işlemler:
 
@@ -93,10 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 22:22 N  NEWS (11 new) score -0.10 conf 0.35: Dolar 19 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı sinyali vermesi altın için baskılayıcı; buna karşın İran savaşı ve yeni yaptırımlar sınırlı bir güvenli liman talebi destekliyor. Altının son saatte yükselişi Nvidia haberinden kaynaklandığı için kısa vadeli etkisi zayıf, ayrıca PCE verisi yönü belirleyebileceğinden sinyaller çelişkili ve güven düşük.
-23.11 22:22 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 22:22 B6  karar turu: Claude «Piyasa son derece güçlü bir günün ardından zirveye yakın yatay konsolide oluyor; kapanışa az süre kaldığı için yalnızca taze haberi olan TSLA'da sınırlı ve düşük güvenli bir pozisyon alınıyor.» / GPT «-»
-23.11 22:34 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:34 N  NEWS (9 new) score -0.20 conf 0.40: Dolar 19 aylık zirvesine çıkıyor ve Fed'in faiz artırımı sinyali vermesi altın için baskı yaratıyor; bu nedenle kısa vadede hafif negatif bir görünüm var. Buna karşılık İran savaşı, Rusya-NATO gerilimi ve yeni yaptırımlar güvenli liman talebini destekliyor, ayrıca altın PCE verisi öncesinde toparlanma gösterdi. Haberler çelişkili olduğu ve bir kısmı zaten fiyatlanmış olduğu için güven düşük tutuldu.
 23.11 22:34 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:34 B6  karar turu: Claude «Piyasa çok güçlü bir ralli gününü yatay konsolidasyonla bitiriyor; kapanışa 26 dakika kaldığı için %1.5 hedefine ulaşma ihtimali düşük, bu yüzden sadece seçici ve küçük pozisyonlar mantıklı.» / GPT «-»
@@ -108,6 +104,10 @@ Son işlemler:
 23.11 22:58 N  NEWS (12 new) score -0.15 conf 0.40: Dolar yılın zirvelerine yakın seyrediyor ve Bessent'in Fed'e uyarısı ile "Fed faiz artırımına yöneldi" başlığı, kısa vadede altı baskılayan sert politika beklentilerini destekliyor. Buna karşılık İran yaptırımları ve jeopolitik gerilim güvenli liman talebini sınırlı da olsa destekliyor; altının son saatlerdeki toparlanması ve yaklaşan PCE verisi belirsizliği artırıyor, bu yüzden sinyal zayıf ve karışık.
 23.11 22:58 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:58 B6  karar turu: Claude «Piyasa çok güçlü bir ralli yaşadı ancak kapanışa 2 dakika kala, mesai sonrası düşük likidite ve gece riski nedeniyle yeni pozisyon açmamak en disiplinli tercih.» / GPT «-»
+23.11 23:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 23:08 N  NEWS (5 new) score -0.15 conf 0.35: Haberler karışık: Dolar 19 ay zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'e uyarısı altın için baskılayıcı. Buna karşın İran sanksiyonları ve jeopolitik gerilim güvenli liman talebini destekliyor, altın ise PCE öncesi toparlanıyor; net etki hafif negatif ve düşük güvenle değerlendirilmeli.
+23.11 23:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 23:08 B6  karar turu: Claude «Normal seans kapandı ve olağanüstü büyük günlük hareketler zaten fiyatlandı; seans sonrası düşük likiditede yeni pozisyon açmak yerine beklemek daha disiplinli bir tercih.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
