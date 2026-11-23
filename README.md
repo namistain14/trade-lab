@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 23:29 (İstanbul)
+> Son güncelleme: 23.11.2026 23:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,115.30 $** (başlangıç 5,000 $, +115.30 $ / %+2.31)
+**Hesap değeri: 5,115.24 $** (başlangıç 5,000 $, +115.24 $ / %+2.30)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 23:20): Claude puan **-0.15**, güven 0.35 — Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
+Son haber analizi (23.11 23:32): Claude puan **-0.10**, güven 0.30 — Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 22:34 B6  karar turu: Claude «Piyasa çok güçlü bir ralli gününü yatay konsolidasyonla bitiriyor; kapanışa 26 dakika kaldığı için %1.5 hedefine ulaşma ihtimali düşük, bu yüzden sadece seçici ve küçük pozisyonlar mantıklı.» / GPT «-»
-23.11 22:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:46 N  NEWS (6 new) score +0.05 conf 0.30: Jeopolitik gerilim (Ukrayna, Rusya-Estonya, İran yaptırımları) altın için hafif güvenli liman desteği sağlıyor, ancak doların yıllık zirvelere yaklaşması ve Bessent'in Fed'e uyarısı altın üzerinde baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski; PCE verisi öncesi belirsizlik yüksek olduğu için net yön zayıf.
 23.11 22:46 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:46 B6  karar turu: Claude «Çok güçlü bir ralli gününün son dakikalarında kâr realizasyonu belirtileri var; kapanışa yaklaşık 14 dakika kaldığı için yeni pozisyon açmak yerine kenarda kalmak daha doğru.» / GPT «-»
@@ -108,6 +106,8 @@ Son işlemler:
 23.11 23:08 B6  karar turu: Claude «Normal seans kapandı ve olağanüstü büyük günlük hareketler zaten fiyatlandı; seans sonrası düşük likiditede yeni pozisyon açmak yerine beklemek daha disiplinli bir tercih.» / GPT «-»
 23.11 23:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 23:20 N  NEWS (9 new) score -0.15 conf 0.35: Dolar 19 ayın zirvesine yakın ve dört haftalık yükseliş serisinde, Fed'in faiz artırımına yöneldiği ve Bessent'in Fed'i uyardığı haberleri altın için baskı yaratıyor. İran savaşındaki "ne savaş ne barış" çıkmazı ve yaptırım haberleri güvenli liman talebini destekliyor ancak bu gelişmeler büyük ölçüde fiyatlanmış durumda; kısa vadeli etki sınırlı ve karışık.
+23.11 23:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 23:32 N  NEWS (6 new) score -0.10 conf 0.30: Başlıkların çoğu "war" kelimesini mizahi veya günlük anlamda kullanan gürültü; gerçek jeopolitik etki sınırlı. Altın son saatlerde toparlanma gösteriyor, ancak Fed'in faiz artırımına yönelmesi, doların dört haftalık yükseliş serisi ve Bessent'in Fed'e uyarısı kısa vadede baskı yaratabilir; İran "ne savaş ne barış" gerilimi ise sınırlı bir güvenli liman desteği sunuyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
