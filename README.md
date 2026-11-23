@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,112.41 $** (başlangıç 5,000 $, +112.41 $ / %+2.25)
+**Hesap değeri: 5,113.20 $** (başlangıç 5,000 $, +113.20 $ / %+2.26)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
