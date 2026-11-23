@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 07:53 (İstanbul)
+> Son güncelleme: 23.11.2026 07:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,7 +32,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 07:45): Claude puan **+0.10**, güven 0.40 — Altın, teknoloji satışıyla artan güvenli liman talebi ve doların 19 aylık zirvesten geri çekilmesiyle 3600 doların üzerine toparlandı; bu kısa vadede pozitif. Ancak Fed'in Aralık'ta faiz artırma olasılığının %90'ın üzerine çıkması ve ABD PCE enflasyon verisinin yaklaşması gerçek faizleri yükselterek altına baskı yapabilir. Haberler çelişkili ve bir kısmı zaten fiyatlanmış olduğu için güveni düşük tutuyorum.
+Son haber analizi (23.11 07:57): Claude puan **+0.05**, güven 0.40 — Sinyaller karışık: Aralık ayında Fed faiz artırımı olasılığının %90'ın üzerine çıkması ve Bessent/Ackman uyarıları altın için baskılayıcı, ancak teknoloji satışı kaynaklı güvenli liman talebi ile doların 19 aylık zirveden gerilemesi altını 3600$ üzerine taşıdı. PCE enflasyon verisi öncesinde bu çelişkili etkiler büyük olasılıkla birbirini nötrleyecek; güven düşük tutuldu.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 01:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-23.11 01:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:08 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -107,6 +105,8 @@ Son işlemler:
 23.11 07:33 N  NEWS (44 new) score -0.10 conf 0.40: Fed Aralık ayında faiz artırımı olasılığının %90'ın üzerine çıkması ve dolar endeksinin 19 aylık zirveye yakın seyretmesi altın için baskı yaratıyor. Buna karşılık dolardaki gevşeme, 14 aylık dibinden toparlanma ve İran kaynaklı jeopolitik risklerin sürmesi kısa vadede destek sağlıyor; başlıklar çelişkili olduğu için sinyal zayıf ve güven düşük.
 23.11 07:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 07:45 N  NEWS (12 new) score +0.10 conf 0.40: Altın, teknoloji satışıyla artan güvenli liman talebi ve doların 19 aylık zirvesten geri çekilmesiyle 3600 doların üzerine toparlandı; bu kısa vadede pozitif. Ancak Fed'in Aralık'ta faiz artırma olasılığının %90'ın üzerine çıkması ve ABD PCE enflasyon verisinin yaklaşması gerçek faizleri yükselterek altına baskı yapabilir. Haberler çelişkili ve bir kısmı zaten fiyatlanmış olduğu için güveni düşük tutuyorum.
+23.11 07:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 07:57 N  NEWS (10 new) score +0.05 conf 0.40: Sinyaller karışık: Aralık ayında Fed faiz artırımı olasılığının %90'ın üzerine çıkması ve Bessent/Ackman uyarıları altın için baskılayıcı, ancak teknoloji satışı kaynaklı güvenli liman talebi ile doların 19 aylık zirveden gerilemesi altını 3600$ üzerine taşıdı. PCE enflasyon verisi öncesinde bu çelişkili etkiler büyük olasılıkla birbirini nötrleyecek; güven düşük tutuldu.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
