@@ -56,10 +56,6 @@
   },
   "equity_curve": [
    [
-    1794891208,
-    5000.0
-   ],
-   [
     1794891381,
     5000.0
    ],
@@ -12054,6 +12050,10 @@
    [
     1795406340,
     5104.97
+   ],
+   [
+    1795406550,
+    5104.97
    ]
   ],
   "archive": [
@@ -13906,12 +13906,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795399200000,
-   "ETHUSDT": 1795399200000,
-   "SOLUSDT": 1795399200000,
-   "BNBUSDT": 1795399200000,
-   "XRPUSDT": 1795399200000,
-   "DOGEUSDT": 1795399200000
+   "BTCUSDT": 1795402800000,
+   "ETHUSDT": 1795402800000,
+   "SOLUSDT": 1795402800000,
+   "BNBUSDT": 1795402800000,
+   "XRPUSDT": 1795402800000,
+   "DOGEUSDT": 1795402800000
   }
  },
  "gold_news": {
@@ -15127,10 +15127,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794891208,
-    4868.5
-   ],
    [
     1794891381,
     4868.5
@@ -27126,44 +27122,29 @@
    [
     1795406340,
     4868.5
+   ],
+   [
+    1795406550,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.6,
-   "confidence": 0.65,
-   "reason": "Fed'in faiz art\u0131r\u0131m\u0131 beklentileri (Cook: art\u0131r\u0131m gerekli), g\u00fc\u00e7l\u00fc dolar ve AI kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131 alt\u0131n fiyatlar\u0131n\u0131 sert d\u00fc\u015f\u00fcr\u00fcyor; alt\u0131n haftal\u0131k bazda yakla\u015f\u0131k %9 kay\u0131pta. Rusya'n\u0131n Polonya'ya f\u00fcze isabeti ve \u0130ran sava\u015f\u0131 jeopolitik risk yarat\u0131yor ancak g\u00fcvenli liman talebi bu bask\u0131y\u0131 \u015fu an dengeleyemiyor; yine de a\u015f\u0131r\u0131 sat\u0131\u015f sonras\u0131 k\u0131sa vadeli tepki al\u0131m\u0131 riski nedeniyle g\u00fcven s\u0131n\u0131rl\u0131.",
-   "n": 45,
-   "ts": 1795195448764,
-   "new_headlines": 12,
+   "score": 0.05,
+   "confidence": 0.3,
+   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil. Rusya-Ukrayna sald\u0131r\u0131lar\u0131 ve Libya'daki Rus gemisi patlamas\u0131 s\u00fcrmekte olan, b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f jeopolitik gerilimler; Fed, reel faiz veya dolar\u0131n hareketine dair yeni bir bilgi yok. Bu nedenle etki hafif pozitif (g\u00fcvenli liman) y\u00f6nl\u00fc ama \u00e7ok zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+   "n": 11,
+   "ts": 1795406549974,
+   "new_headlines": 11,
    "key_events": [
-    "Fed'de Aral\u0131k ve Ocak faiz art\u0131r\u0131m\u0131 fiyatlan\u0131yor; alt\u0131n yakla\u015f\u0131k %4 d\u00fc\u015ft\u00fc",
-    "Dolar endeksi 19 ayl\u0131k zirvelere yak\u0131n, g\u00fc\u00e7l\u00fc dolar alt\u0131n\u0131 bask\u0131l\u0131yor",
-    "Rus f\u00fczelerinin Polonya'ya d\u00fc\u015fmesi: s\u0131n\u0131rl\u0131 g\u00fcvenli liman deste\u011fi"
+    "Libya liman\u0131nda Rus gemisinde drone sald\u0131r\u0131s\u0131 kaynakl\u0131 patlama (s\u0131n\u0131rl\u0131 jeopolitik risk)",
+    "Ukrayna'ya Rus sald\u0131r\u0131lar\u0131 devam ediyor (b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f)",
+    "ABD Demokratlar Temsilciler Meclisi'nde \u00e7o\u011funlu\u011fu geni\u015fletti (do\u011frudan alt\u0131n etkisi yok)"
    ],
-   "gpt": {
-    "score": -0.68,
-    "confidence": 0.72,
-    "reason": "Fed\u2019den Cook\u2019un y\u00fcksek enflasyonu d\u00fc\u015f\u00fcrmek i\u00e7in faiz art\u0131r\u0131m\u0131 gerekti\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131, faiz beklentileri ve reel getiriler \u00fczerinden alt\u0131n\u0131 bask\u0131l\u0131yor; haftal\u0131k sert d\u00fc\u015f\u00fc\u015f de negatif momentumu g\u00f6steriyor. Rus f\u00fczesinin Polonya\u2019ya d\u00fc\u015fmesi ve di\u011fer \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini deste",
-    "key_events": [
-     "Cook\u2019tan faiz art\u0131r\u0131m\u0131 gerekti\u011fi mesaj\u0131",
-     "Alt\u0131nda haftal\u0131k yakla\u015f\u0131k %9 d\u00fc\u015f\u00fc\u015f",
-     "Polonya\u2019ya Rus f\u00fczesi d\u00fc\u015fmesi"
-    ],
-    "model": "gpt-6-luna"
-   },
+   "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1794926212075,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Alt\u0131n, s\u0131k\u0131la\u015fma beklentilerinin g\u00fc\u00e7lenmesi ve reel faizlerin y\u00fckselmesi nedeniyle bir y\u0131ll\u0131k dibe yak\u0131n i\u015flem g\u00f6r\u00fcyor; Fed yetkilisi Musalem'in faizin 1 puan artabilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve ABD ithalat fiyatlar\u0131ndaki beklentinin \u00fczerindeki art\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. K\u0131r\u0131m k\u00f6pr\u00fcs\u00fc, \u0130ran-\u0130srail/ABD \u00e7at\u0131\u015fmalar\u0131 gibi jeopolitik haberler g\u00fcvenli liman talebi yaratabilir, ancak bunlar\u0131n etkisi s\u0131n\u0131rl\u0131 ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda.",
-    "new": 10,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1794926971807,
     "score": -0.45,
@@ -29854,63 +29835,36 @@
     "new": 12,
     "gpt_score": -0.68,
     "gpt_confidence": 0.72
+   },
+   {
+    "ts": 1795406549974,
+    "score": 0.05,
+    "confidence": 0.3,
+    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil. Rusya-Ukrayna sald\u0131r\u0131lar\u0131 ve Libya'daki Rus gemisi patlamas\u0131 s\u00fcrmekte olan, b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f jeopolitik gerilimler; Fed, reel faiz veya dolar\u0131n hareketine dair yeni bir bilgi yok. Bu nedenle etki hafif pozitif (g\u00fcvenli liman) y\u00f6nl\u00fc ama \u00e7ok zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck.",
+    "new": 11,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-23",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "Gold Plunges Nearly 9% In Worst Week Since March. Fed Rate Fears And AI Selloff Deepen Losses. - International Business Times",
-   "Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-   "Word on Wall Street: Healthy Economic Readings and Profits Should Ultimately Provide Support for Stocks | Wyncote Wealth Management Group - MoreThanTheCurve",
-   "Opinion | Ukraine\u2019s Long Russian War - WSJ",
-   "Indonesian Rupiah: BI measures cushion losses against US Dollar - OCBC - FXStreet",
-   "Polish anti-war protesters demand spending on hospitals, not weapons, dismiss concerns over Russia - Anadolu Ajans\u0131",
-   "Fed officials sound alarm over AI boom's growing inflation risks - WTOV",
-   "Gold Price Today: Gold Falls 1.68% on November 20, 2026 - USA Today",
-   "Holy See to UN weapons conference: Autonomous weapons lead to \u2018even more inhumane conduct\u2019 in war - EWTN News",
-   "War Within - Style Weekly",
-   "Houthi missile strike damages Riyadh's PIF Tower as attacks target Saudi financial district - Latin Times",
-   "INTERVIEW - Food systems dependent on fossil fuels \u2018really exposed\u2019 after Iran war: COP31 youth champion - Anadolu Ajans\u0131",
-   "What's wrong with Manchester City? Boss won't blame looming sanctions - Yahoo Sports",
-   "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-   "Silver price tumbles over 6% as US Dollar strength and Fed hike fears drive selloff - Traders Union",
-   "U.S. Dollar Moves Lower Amid Profit-Taking: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY - FXEmpire",
-   "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation - AP News",
-   "Cost of living protests sweep across Europe",
-   "US-launched missile strikes outskirts of Qeshm Island in southern Iran: Iranian media - Anadolu Ajans\u0131",
-   "Rising Factory Costs: Why Gold and Silver Still Matter - GoldSilver",
-   "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-   "Gold is falling to lows not seen in more than a year: 3 reasons why the precious metal is getting crushed - Fast Company",
-   "Gold Breaks Down but is This a Sign of What\u2019s to Come? - StoneX",
-   "At least 1,144 children killed or injured in Ukraine during Russia's war this year, UNICEF says - The Kyiv Independent",
-   "Weekly Graphic: Territorial Control in Yemen - Geopolitical Futures",
-   "Iran war funding fight raises threat of December government shutdown - Scripps News",
-   "Middle East latest: Saudi-led coalition targets Houthi weapons smuggling at Hodeidah port - The National",
-   "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-   "Anthropic shares fall a day after blockbuster opening",
-   "U.S. Treasury Secretary Pushes Back on Bigger Fed Hike - Bitcoin Magazine",
-   "Video: The War in Ukraine Is Killing Wildlife - The New York Times",
-   "Senate rejects war powers resolution against - KXLY.com",
-   "Putin Tells Ukrainians to \u2018Come Over to Our Side\u2019 Despite War - The Moscow Times",
-   "Ukraine Reports Russian Missile Blitz After Putin Met With Trump - Military.com",
-   "Senate GOP tanks new resolution blocking Trump\u2019s war in Iran - Missoula Current",
-   "Israel, US weigh renewed Iran strikes as Democrats seek to block war funding - report - The Jerusalem Post",
-   "Gold under a hiking Fed: central-bank demand versus real rates - Kitco",
-   "Russian missile incursion into Poland raises NATO air defence concerns - National Security News",
-   "Gold price drops by 11,000 taka per bhori in a single day - The Business Standard",
-   "D.C. Memo: A shutdown over the Iran war? - MinnPost",
-   "The War Is Ravaging Ukraine\u2019s Wildlife, Too - The New York Times",
-   "When Nazis were held responsible for war crimes - The Washington Post",
-   "\u201cThe Cornerstone Of Robert E. Lee\u2019s Army\u201d Now Under Contract With UNC Press - Civil War Memory",
-   "Pentagon\u2019s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members - Drop Site News",
-   "All\u2019s Fair in Love and \u2018War\u2019: Creator George Kay Explains His Ruling on Morgan and Carla\u2019s Divorce - The Hollywood Reporter"
+   "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+   "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+   "Energy bills will soar - here's how you can ease the pain",
+   "COP31 fails to reach major climate deal as talks expose deep divisions",
+   "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+   "What is going on with Poundland?",
+   "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+   "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+   "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "Miley Cyrus marries Maxx Morando in California ceremony"
   ]
  },
  "log": [
-  "22.11 12:04 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "22.11 12:07 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:10 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:13 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "22.11 12:16 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30208,7 +30162,9 @@
   "23.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "23.11 02:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "23.11 02:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "23.11 07:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "23.11 07:02 N  NEWS (11 new) score +0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil. Rusya-Ukrayna sald\u0131r\u0131lar\u0131 ve Libya'daki Rus gemisi patlamas\u0131 s\u00fcrmekte olan, b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f jeopolitik gerilimler; Fed, reel faiz veya dolar\u0131n hareketine dair yeni bir bilgi yok. Bu nedenle etki hafif pozitif (g\u00fcvenli liman) y\u00f6nl\u00fc ama \u00e7ok zay\u0131f ve g\u00fcven d\u00fc\u015f\u00fck."
  ],
  "gold_big": {
   "account": {
@@ -30395,10 +30351,6 @@
   },
   "equity_curve": [
    [
-    1794891208,
-    4963.78
-   ],
-   [
     1794891381,
     4963.78
    ],
@@ -42392,6 +42344,10 @@
    ],
    [
     1795406340,
+    4963.78
+   ],
+   [
+    1795406550,
     4963.78
    ]
   ],
@@ -42507,10 +42463,6 @@
   },
   "equity_curve": [
    [
-    1794891208,
-    4975.18
-   ],
-   [
     1794891381,
     4975.18
    ],
@@ -54504,6 +54456,10 @@
    ],
    [
     1795406340,
+    4975.18
+   ],
+   [
+    1795406550,
     4975.18
    ]
   ],
@@ -54589,10 +54545,6 @@
   },
   "equity_curve": [
    [
-    1794891208,
-    4993.28
-   ],
-   [
     1794891381,
     4993.28
    ],
@@ -66586,6 +66538,10 @@
    ],
    [
     1795406340,
+    4993.28
+   ],
+   [
+    1795406550,
     4993.28
    ]
   ]
@@ -66796,10 +66752,6 @@
   },
   "equity_curve": [
    [
-    1794891208,
-    4969.22
-   ],
-   [
     1794891381,
     4969.22
    ],
@@ -78793,6 +78745,10 @@
    ],
    [
     1795406340,
+    4969.22
+   ],
+   [
+    1795406550,
     4969.22
    ]
   ],
@@ -82870,10 +82826,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794891208,
-    4545.26
-   ],
    [
     1794891381,
     4545.26
@@ -94869,6 +94821,10 @@
    [
     1795406340,
     5297.35
+   ],
+   [
+    1795406550,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96513,10 +96469,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794891208,
-    114145.15
-   ],
    [
     1794891381,
     114145.15
@@ -108512,6 +108464,10 @@
    [
     1795406340,
     128183.18
+   ],
+   [
+    1795406550,
+    128183.18
    ]
   ],
   "open": {},
@@ -108694,10 +108650,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794891208,
-    4876.96
-   ],
    [
     1794891381,
     4876.96
@@ -120692,6 +120644,10 @@
    ],
    [
     1795406340,
+    4876.96
+   ],
+   [
+    1795406550,
     4876.96
    ]
   ],

@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 06:59 (İstanbul)
+> Son güncelleme: 23.11.2026 07:02 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -32,9 +32,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (20.11 20:24): Claude puan **-0.60**, güven 0.65 — Fed'in faiz artırımı beklentileri (Cook: artırım gerekli), güçlü dolar ve AI kaynaklı satış baskısı altın fiyatlarını sert düşürüyor; altın haftalık bazda yaklaşık %9 kayıpta. Rusya'nın Polonya'ya füze isabeti ve İran savaşı jeopolitik risk yaratıyor ancak güvenli liman talebi bu baskıyı şu an dengeleyemiyor; yine de aşırı satış sonrası kısa vadeli tepki alımı riski nedeniyle güven sınırlı.
-
-GPT (gpt-6-luna): puan **-0.68**, güven 0.72 — Fed’den Cook’un yüksek enflasyonu düşürmek için faiz artırımı gerektiği yönündeki açıklaması, faiz beklentileri ve reel getiriler üzerinden altını baskılıyor; haftalık sert düşüş de negatif momentumu gösteriyor. Rus füzesinin Polonya’ya düşmesi ve diğer çatışma haberleri güvenli liman talebini deste
+Son haber analizi (23.11 07:02): Claude puan **+0.05**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil. Rusya-Ukrayna saldırıları ve Libya'daki Rus gemisi patlaması sürmekte olan, büyük ölçüde fiyatlanmış jeopolitik gerilimler; Fed, reel faiz veya doların hareketine dair yeni bir bilgi yok. Bu nedenle etki hafif pozitif (güvenli liman) yönlü ama çok zayıf ve güven düşük.
 
 Son işlemler:
 
@@ -94,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 01:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-23.11 01:44 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 01:47 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 01:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 01:50 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -109,6 +105,8 @@ Son işlemler:
 23.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 23.11 02:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+23.11 07:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 07:02 N  NEWS (11 new) score +0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil. Rusya-Ukrayna saldırıları ve Libya'daki Rus gemisi patlaması sürmekte olan, büyük ölçüde fiyatlanmış jeopolitik gerilimler; Fed, reel faiz veya doların hareketine dair yeni bir bilgi yok. Bu nedenle etki hafif pozitif (güvenli liman) yönlü ama çok zayıf ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
