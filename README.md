@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 20:41 (İstanbul)
+> Son güncelleme: 23.11.2026 20:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 1.70 $ | 4.95 $ |
 
-**Hesap değeri: 5,110.57 $** (başlangıç 5,000 $, +110.57 $ / %+2.21)
+**Hesap değeri: 5,108.64 $** (başlangıç 5,000 $, +108.64 $ / %+2.17)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 20:32): Claude puan **+0.15**, güven 0.30 — Haberlerin çoğu (God of War dizisi, kişisel finans içerikleri) altınla ilgisiz. Hafif pozitif eğilim; İran savaşı ve AB'nin Rusya'ya yeni yaptırım paketi jeopolitik risk talebini destekliyor, ayrıca ABD hisse satışı Warsh altındaki Fed "put" beklentisini canlandırıyor. Buna karşılık güçlü dolar (USD yeni zirveler, NZD 17 yılın dibinde) ve Fed faiz beklentilerinin kayması altını baskılayabilir; altın zaten sert düşüşün ardından dip alıcılarıyla toparlanıyor, bu da fiyatlanmış bir hareket olabileceğini gösteriyor.
+Son haber analizi (23.11 20:44): Claude puan **-0.40**, güven 0.55 — Fed faiz artırımı beklentilerinin yükselmesi ve doların yıllık zirveleri test etmesi altın için baskılayıcı; hisse senetlerindeki risk iştahı da güvenli liman talebini azaltıyor. İran savaşı ve Rusya yaptırımları gibi jeopolitik haberler destekleyici olsa da çoğu zaten fiyatlanmış durumda.
 
 Son işlemler:
 
@@ -93,10 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 19:56 N  NEWS (7 new) score -0.10 conf 0.30: 
-23.11 19:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 19:56 B6  karar turu: Claude «Piyasa NVDA kaynaklı büyük bir rallinin ardından öğle saatlerinde yüksek seviyelerde konsolide oluyor; kovalamadan sadece seçici trend takibi yapılmalı.» / GPT «-»
-23.11 20:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 20:08 N  NEWS (16 new) score +0.10 conf 0.35: Haberler karışık: altındaki toparlanma alıcı talebine işaret ediyor, Fed'in "put" beklentisi ve Rusya'nın Polonya'daki füze ihlali gibi jeopolitik gerilim gold lehine; ancak USD'nin yeni zirveleri ve Warsh yönetimindeki faiz beklentileri altı baskılayabilir. Net etki hafif pozitif, sinyal zayıf olduğu için güven düşük.
 23.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 20:08 B6  karar turu: Claude «Piyasa NVDA liderliğinde çok güçlü bir ralli yaşıyor ve öğleden sonra konsolidasyonda; seçici, endeks ağırlıklı bir long tercih ediliyor.» / GPT «-»
@@ -108,6 +104,10 @@ Son işlemler:
 23.11 20:32 N  NEWS (10 new) score +0.15 conf 0.30: Haberlerin çoğu (God of War dizisi, kişisel finans içerikleri) altınla ilgisiz. Hafif pozitif eğilim; İran savaşı ve AB'nin Rusya'ya yeni yaptırım paketi jeopolitik risk talebini destekliyor, ayrıca ABD hisse satışı Warsh altındaki Fed "put" beklentisini canlandırıyor. Buna karşılık güçlü dolar (USD yeni zirveler, NZD 17 yılın dibinde) ve Fed faiz beklentilerinin kayması altını baskılayabilir; altın zaten sert düşüşün ardından dip alıcılarıyla toparlanıyor, bu da fiyatlanmış bir hareket olabileceğini gösteriyor.
 23.11 20:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 20:32 B6  karar turu: Claude «Piyasa son derece güçlü bir yükseliş gününde zirve yakınında konsolide oluyor; tekil hisseleri kovalamak yerine endekslerde ölçülü long tercih ediliyor.» / GPT «-»
+23.11 20:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 20:45 N  NEWS (12 new) score -0.40 conf 0.55: Fed faiz artırımı beklentilerinin yükselmesi ve doların yıllık zirveleri test etmesi altın için baskılayıcı; hisse senetlerindeki risk iştahı da güvenli liman talebini azaltıyor. İran savaşı ve Rusya yaptırımları gibi jeopolitik haberler destekleyici olsa da çoğu zaten fiyatlanmış durumda.
+23.11 20:45 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 20:45 B6  karar turu: Claude «NVDA öncülüğünde son derece güçlü bir ralli günü yaşanıyor; hareketin büyük kısmı zaten gerçekleşmiş durumda ve öğleden sonraki konsolidasyonda yeni pozisyon için net bir avantaj bulunmuyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
