@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 23.11.2026 22:55 (İstanbul)
+> Son güncelleme: 23.11.2026 22:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (23.11 22:46): Claude puan **+0.05**, güven 0.30 — Jeopolitik gerilim (Ukrayna, Rusya-Estonya, İran yaptırımları) altın için hafif güvenli liman desteği sağlıyor, ancak doların yıllık zirvelere yaklaşması ve Bessent'in Fed'e uyarısı altın üzerinde baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski; PCE verisi öncesi belirsizlik yüksek olduğu için net yön zayıf.
+Son haber analizi (23.11 22:58): Claude puan **-0.15**, güven 0.40 — Dolar yılın zirvelerine yakın seyrediyor ve Bessent'in Fed'e uyarısı ile "Fed faiz artırımına yöneldi" başlığı, kısa vadede altı baskılayan sert politika beklentilerini destekliyor. Buna karşılık İran yaptırımları ve jeopolitik gerilim güvenli liman talebini sınırlı da olsa destekliyor; altının son saatlerdeki toparlanması ve yaklaşan PCE verisi belirsizliği artırıyor, bu yüzden sinyal zayıf ve karışık.
 
 Son işlemler:
 
@@ -93,10 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-23.11 22:09 N  NEWS (7 new) score -0.20 conf 0.40: Dolar 19 ayın zirvesine çıkıp yıllık zirveleri test ederken altın için baskı var; güçlü dolar altını kısa vadede aşağı çeker. Iran'a yönelik yeni yaptırımlar ve Senato'daki savaş finansmanı tartışması jeopolitik risk primini sınırlı da olsa destekliyor, ancak "altın %3 yükseldi" gibi başlıklar alakasız ve çelişkili olduğu için güven düşük.
-23.11 22:09 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-23.11 22:09 B6  karar turu: Claude «Piyasa çok güçlü bir ralli sonrası son saatte yatay konsolide oluyor; yalnızca taze şirket haberi olan TSLA'da sınırlı bir long fırsatı görülüyor.» / GPT «-»
-23.11 22:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:22 N  NEWS (11 new) score -0.10 conf 0.35: Dolar 19 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı sinyali vermesi altın için baskılayıcı; buna karşın İran savaşı ve yeni yaptırımlar sınırlı bir güvenli liman talebi destekliyor. Altının son saatte yükselişi Nvidia haberinden kaynaklandığı için kısa vadeli etkisi zayıf, ayrıca PCE verisi yönü belirleyebileceğinden sinyaller çelişkili ve güven düşük.
 23.11 22:22 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:22 B6  karar turu: Claude «Piyasa son derece güçlü bir günün ardından zirveye yakın yatay konsolide oluyor; kapanışa az süre kaldığı için yalnızca taze haberi olan TSLA'da sınırlı ve düşük güvenli bir pozisyon alınıyor.» / GPT «-»
@@ -108,6 +104,10 @@ Son işlemler:
 23.11 22:46 N  NEWS (6 new) score +0.05 conf 0.30: Jeopolitik gerilim (Ukrayna, Rusya-Estonya, İran yaptırımları) altın için hafif güvenli liman desteği sağlıyor, ancak doların yıllık zirvelere yaklaşması ve Bessent'in Fed'e uyarısı altın üzerinde baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski; PCE verisi öncesi belirsizlik yüksek olduğu için net yön zayıf.
 23.11 22:46 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 23.11 22:46 B6  karar turu: Claude «Çok güçlü bir ralli gününün son dakikalarında kâr realizasyonu belirtileri var; kapanışa yaklaşık 14 dakika kaldığı için yeni pozisyon açmak yerine kenarda kalmak daha doğru.» / GPT «-»
+23.11 22:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 22:58 N  NEWS (12 new) score -0.15 conf 0.40: Dolar yılın zirvelerine yakın seyrediyor ve Bessent'in Fed'e uyarısı ile "Fed faiz artırımına yöneldi" başlığı, kısa vadede altı baskılayan sert politika beklentilerini destekliyor. Buna karşılık İran yaptırımları ve jeopolitik gerilim güvenli liman talebini sınırlı da olsa destekliyor; altının son saatlerdeki toparlanması ve yaklaşan PCE verisi belirsizliği artırıyor, bu yüzden sinyal zayıf ve karışık.
+23.11 22:58 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+23.11 22:58 B6  karar turu: Claude «Piyasa çok güçlü bir ralli yaşadı ancak kapanışa 2 dakika kala, mesai sonrası düşük likidite ve gece riski nedeniyle yeni pozisyon açmamak en disiplinli tercih.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
