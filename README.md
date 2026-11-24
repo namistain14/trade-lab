@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 06:56 (İstanbul)
+> Son güncelleme: 24.11.2026 06:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 06:26): Claude puan **-0.05**, güven 0.30 — Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil; Fed beklentileri, reel faiz, dolar veya merkez bankası alımlarına dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki yükseliş risk iştahını artırarak altın için hafif olumsuz, ancak çok zayıf bir etki yaratıyor; Libya'daki Rus gemisi saldırısı ise sınırlı bir jeopolitik risk olarak kalıyor.
+Son haber analizi (24.11 06:59): Claude puan **+0.03**, güven 0.25 — Yeni başlıkların çoğu (Nvidia'da Jensen Huang'ın dönüşü, Myanmar yaptırımları, magazin ve yerel haberler) altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi saldırısı ve Ukrayna savaşının yayılması gibi jeopolitik bir unsur var, ancak etkisi sınırlı ve güvenli liman talebini belirgin biçimde artırmıyor. Bu nedenle sinyal çok zayıf, skor sıfıra yakın.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 05:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-24.11 05:12 N  NEWS (5 new) score -0.30 conf 0.40: Dolar 20 aylık zirvesinde ve Fed faiz artırımı beklentileri yükselirken (Williams Aralık artırımına işaret etti), reel faiz ve dolar baskısı altın için olumsuz. Buna karşılık NATO'nun acil toplantısı, Rusya-Estonya ve Polonya hava sahası gerilimleri güvenli liman talebini destekleyebilir; ayrıca ABD PCE verisi bekleniyor. Bu çelişkili sinyaller ve veri öncesi belirsizlik güveni sınırlıyor.
 24.11 05:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 05:24 N  NEWS (7 new) score -0.35 conf 0.50: Dolar 20 aylık zirvelere yakın seyrediyor ve Fed'in faiz artırımı beklentileri yükseliyor (Williams Aralık artırımına işaret etti); bu, altın için net olarak baskılayıcı. Rusya-NATO gerilimi ve Ukrayna'nın savaşı genişlemesi güvenli liman talebini destekliyor olsa da bu etki bilinen gelişmeler olduğu için sınırlı kalıyor; ayrıca PCE verisi öncesi belirsizlik ve hisse satışının "Fed put" tartışması kısa vadeli yön konusunda karışıklık yaratıyor.
 24.11 05:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 06:13 N  NEWS (12 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve AI yükselişi Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için hem güçlü dolar hem de sert para politikası nedeniyle baskı oluşturuyor. Rusya-NATO ve Ukrayna'daki gerilim haberleri güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD enflasyon verisi beklentisi belirsizlik yaratıyor.
 24.11 06:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 06:26 N  NEWS (10 new) score -0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil; Fed beklentileri, reel faiz, dolar veya merkez bankası alımlarına dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki yükseliş risk iştahını artırarak altın için hafif olumsuz, ancak çok zayıf bir etki yaratıyor; Libya'daki Rus gemisi saldırısı ise sınırlı bir jeopolitik risk olarak kalıyor.
+24.11 06:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 06:59 N  NEWS (0 new) score +0.03 conf 0.25: Yeni başlıkların çoğu (Nvidia'da Jensen Huang'ın dönüşü, Myanmar yaptırımları, magazin ve yerel haberler) altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi saldırısı ve Ukrayna savaşının yayılması gibi jeopolitik bir unsur var, ancak etkisi sınırlı ve güvenli liman talebini belirgin biçimde artırmıyor. Bu nedenle sinyal çok zayıf, skor sıfıra yakın.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

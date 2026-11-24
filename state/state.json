@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4997.14
-   ],
-   [
     1794977365,
     4994.71
    ],
@@ -12094,6 +12090,10 @@
    [
     1795492586,
     5145.97
+   ],
+   [
+    1795492768,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4868.5
-   ],
-   [
     1794977365,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795492586,
     4868.5
+   ],
+   [
+    1795492768,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.05,
-   "confidence": 0.3,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil; Fed beklentileri, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki y\u00fckseli\u015f risk i\u015ftah\u0131n\u0131 art\u0131rarak alt\u0131n i\u00e7in hafif olumsuz, ancak \u00e7ok zay\u0131f bir etki yarat\u0131yor; Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir jeopolitik risk olarak kal\u0131yor.",
+   "score": 0.03,
+   "confidence": 0.25,
+   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu (Nvidia'da Jensen Huang'\u0131n d\u00f6n\u00fc\u015f\u00fc, Myanmar yapt\u0131r\u0131mlar\u0131, magazin ve yerel haberler) alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ve Ukrayna sava\u015f\u0131n\u0131n yay\u0131lmas\u0131 gibi jeopolitik bir unsur var, ancak etkisi s\u0131n\u0131rl\u0131 ve g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor. Bu nedenle sinyal \u00e7ok zay\u0131f, skor s\u0131f\u0131ra yak\u0131n.",
    "n": 12,
-   "ts": 1795490784319,
-   "new_headlines": 10,
+   "ts": 1795492768294,
+   "new_headlines": 0,
    "key_events": [
     "Fed'in Williams'\u0131 Aral\u0131k'ta olas\u0131 faiz art\u0131r\u0131m\u0131na i\u015faret etti",
     "Dolar 19 ayl\u0131k zirveye \u00e7\u0131kt\u0131 (alt\u0131n i\u00e7in negatif)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795023672783,
-    "score": -0.7,
-    "confidence": 0.72,
-    "reason": "Haberlerin \u00e7o\u011fu Fed'in s\u0131k\u0131la\u015fma beklentisini art\u0131r\u0131yor: Waller 50bp faiz art\u0131r\u0131m\u0131 \u00e7a\u011fr\u0131s\u0131 yapt\u0131, Fed'den y\u00fckseli\u015f sinyalleri geliyor ve dolar y\u0131ll\u0131k zirvelere yak\u0131n seyrediyor. Bu tablo reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor; jeopolitik gerilim (\u0130ran, Ukrayna) ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor. Haberlerin bir k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f oldu\u011fundan etkinin k\u0131sa vadede k\u0131smen s\u0131n\u0131rl\u0131 kalabilece\u011fini not ediyorum.",
-    "new": 12,
-    "gpt_score": -0.68,
-    "gpt_confidence": 0.72
-   },
    {
     "ts": 1795035694321,
     "score": -0.45,
@@ -29884,11 +29875,20 @@
     "new": 10,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795492768294,
+    "score": 0.03,
+    "confidence": 0.25,
+    "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu (Nvidia'da Jensen Huang'\u0131n d\u00f6n\u00fc\u015f\u00fc, Myanmar yapt\u0131r\u0131mlar\u0131, magazin ve yerel haberler) alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ve Ukrayna sava\u015f\u0131n\u0131n yay\u0131lmas\u0131 gibi jeopolitik bir unsur var, ancak etkisi s\u0131n\u0131rl\u0131 ve g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor. Bu nedenle sinyal \u00e7ok zay\u0131f, skor s\u0131f\u0131ra yak\u0131n.",
+    "new": 0,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 32
+   "n": 33
   },
   "news_seen": [
    "How Nvidia is reacting to Jensen Huang's return as CEO",
@@ -29906,8 +29906,6 @@
   ]
  },
  "log": [
-  "23.11 02:11 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "23.11 02:14 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:17 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:20 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 07:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30205,7 +30203,9 @@
   "24.11 06:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 06:13 N  NEWS (12 new) score -0.35 conf 0.50: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve AI y\u00fckseli\u015fi Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu, alt\u0131n i\u00e7in hem g\u00fc\u00e7l\u00fc dolar hem de sert para politikas\u0131 nedeniyle bask\u0131 olu\u015fturuyor. Rusya-NATO ve Ukrayna'daki gerilim haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu geli\u015fmelerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve ABD enflasyon verisi beklentisi belirsizlik yarat\u0131yor.",
   "24.11 06:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 06:26 N  NEWS (10 new) score -0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil; Fed beklentileri, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki y\u00fckseli\u015f risk i\u015ftah\u0131n\u0131 art\u0131rarak alt\u0131n i\u00e7in hafif olumsuz, ancak \u00e7ok zay\u0131f bir etki yarat\u0131yor; Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir jeopolitik risk olarak kal\u0131yor."
+  "24.11 06:26 N  NEWS (10 new) score -0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil; Fed beklentileri, reel faiz, dolar veya merkez bankas\u0131 al\u0131mlar\u0131na dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki y\u00fckseli\u015f risk i\u015ftah\u0131n\u0131 art\u0131rarak alt\u0131n i\u00e7in hafif olumsuz, ancak \u00e7ok zay\u0131f bir etki yarat\u0131yor; Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ise s\u0131n\u0131rl\u0131 bir jeopolitik risk olarak kal\u0131yor.",
+  "24.11 06:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 06:59 N  NEWS (0 new) score +0.03 conf 0.25: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu (Nvidia'da Jensen Huang'\u0131n d\u00f6n\u00fc\u015f\u00fc, Myanmar yapt\u0131r\u0131mlar\u0131, magazin ve yerel haberler) alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi sald\u0131r\u0131s\u0131 ve Ukrayna sava\u015f\u0131n\u0131n yay\u0131lmas\u0131 gibi jeopolitik bir unsur var, ancak etkisi s\u0131n\u0131rl\u0131 ve g\u00fcvenli liman talebini belirgin bi\u00e7imde art\u0131rm\u0131yor. Bu nedenle sinyal \u00e7ok zay\u0131f, skor s\u0131f\u0131ra yak\u0131n."
  ],
  "gold_big": {
   "account": {
@@ -30392,10 +30392,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4963.78
-   ],
-   [
     1794977365,
     4963.78
    ],
@@ -42389,6 +42385,10 @@
    ],
    [
     1795492586,
+    4963.78
+   ],
+   [
+    1795492768,
     4963.78
    ]
   ],
@@ -42504,10 +42504,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4975.18
-   ],
-   [
     1794977365,
     4975.18
    ],
@@ -54501,6 +54497,10 @@
    ],
    [
     1795492586,
+    4975.18
+   ],
+   [
+    1795492768,
     4975.18
    ]
   ],
@@ -54586,10 +54586,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4993.28
-   ],
-   [
     1794977365,
     4993.28
    ],
@@ -66583,6 +66579,10 @@
    ],
    [
     1795492586,
+    4993.28
+   ],
+   [
+    1795492768,
     4993.28
    ]
   ]
@@ -66793,10 +66793,6 @@
   },
   "equity_curve": [
    [
-    1794977185,
-    4969.22
-   ],
-   [
     1794977365,
     4969.22
    ],
@@ -78790,6 +78786,10 @@
    ],
    [
     1795492586,
+    4969.22
+   ],
+   [
+    1795492768,
     4969.22
    ]
   ],
@@ -82867,10 +82867,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794977185,
-    4814.54
-   ],
    [
     1794977365,
     4807.67
@@ -94866,6 +94862,10 @@
    [
     1795492586,
     5297.35
+   ],
+   [
+    1795492768,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96510,10 +96510,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794977185,
-    112393.69
-   ],
    [
     1794977365,
     112393.69
@@ -108509,6 +108505,10 @@
    [
     1795492586,
     128183.18
+   ],
+   [
+    1795492768,
+    128183.18
    ]
   ],
   "open": {},
@@ -108691,10 +108691,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794977185,
-    4876.96
-   ],
    [
     1794977365,
     4876.96
@@ -120689,6 +120685,10 @@
    ],
    [
     1795492586,
+    4876.96
+   ],
+   [
+    1795492768,
     4876.96
    ]
   ],
