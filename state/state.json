@@ -91,10 +91,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    5004.64
-   ],
-   [
     1794970962,
     5000.0
    ],
@@ -12089,6 +12085,10 @@
    [
     1795486194,
     5117.0
+   ],
+   [
+    1795486379,
+    5120.94
    ]
   ],
   "archive": [
@@ -15163,10 +15163,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    4868.5
-   ],
-   [
     1794970962,
     4868.5
    ],
@@ -27161,15 +27157,19 @@
    [
     1795486194,
     4868.5
+   ],
+   [
+    1795486379,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.4,
-   "confidence": 0.5,
-   "reason": "Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti); bu, alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor. Sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve alt\u0131n son haftada %9 d\u00fc\u015f\u00fc\u015ften sonra sadece %3,5 toparland\u0131; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
+   "score": -0.3,
+   "confidence": 0.4,
+   "reason": "Dolar 20 ayl\u0131k zirvesinde ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckselirken (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti), reel faiz ve dolar bask\u0131s\u0131 alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k NATO'nun acil toplant\u0131s\u0131, Rusya-Estonya ve Polonya hava sahas\u0131 gerilimleri g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca ABD PCE verisi bekleniyor. Bu \u00e7eli\u015fkili sinyaller ve veri \u00f6ncesi belirsizlik g\u00fcveni s\u0131n\u0131rl\u0131yor.",
    "n": 45,
-   "ts": 1795485659486,
-   "new_headlines": 7,
+   "ts": 1795486379082,
+   "new_headlines": 5,
    "key_events": [
     "Fed'in Williams'\u0131 Aral\u0131k'ta olas\u0131 faiz art\u0131r\u0131m\u0131na i\u015faret etti",
     "Dolar 19 ayl\u0131k zirveye \u00e7\u0131kt\u0131 (alt\u0131n i\u00e7in negatif)",
@@ -27180,15 +27180,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795018529874,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Fed Governor Waller'\u0131n agresif faiz art\u0131r\u0131m\u0131 (50 baz puan) \u00e7a\u011fr\u0131s\u0131 ve g\u00fc\u00e7lenen dolar\u0131, gger\u00e7ek faiz beklentilerini y\u00fckselterek alt\u0131n \u00fczerinde k\u0131sa vadeli bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131n\u0131n geni\u015flemesi ve K\u00f6rfez'e sald\u0131r\u0131lar g\u00fcvenli liman talebini destekliyor olsa da, bu etki \u015fu an hawkish Fed ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca alt\u0131n zaten 14 ayl\u0131k dibe inmi\u015f oldu\u011fu i\u00e7in baz\u0131 etkiler fiyatlanm\u0131\u015f olabilir.",
-    "new": 15,
-    "gpt_score": -0.7,
-    "gpt_confidence": 0.72
-   },
    {
     "ts": 1795019250909,
     "score": -0.6,
@@ -29879,16 +29870,28 @@
     "new": 7,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795486379082,
+    "score": -0.3,
+    "confidence": 0.4,
+    "reason": "Dolar 20 ayl\u0131k zirvesinde ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckselirken (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti), reel faiz ve dolar bask\u0131s\u0131 alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k NATO'nun acil toplant\u0131s\u0131, Rusya-Estonya ve Polonya hava sahas\u0131 gerilimleri g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca ABD PCE verisi bekleniyor. Bu \u00e7eli\u015fkili sinyaller ve veri \u00f6ncesi belirsizlik g\u00fcveni s\u0131n\u0131rl\u0131yor.",
+    "new": 5,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 25
+   "n": 26
   },
   "news_seen": [
+   "Canadian Dollar trades weakly against US Dollar, US PCE in focus - FXStreet",
+   "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
    "SEC escalates war with LSU, threatens expulsion after RJ Luis game appearance - Crescent City Sports",
    "Dollar holds near 20-month high as AI rally lifts Fed hike bets - Mezha.net",
    "Asian stocks rally as Huang\u2019s Nvidia return revives AI trade - KFGO",
+   "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - Anadolu Ajans\u0131",
    "Dollar climbs as renewed AI euphoria fuels Fed hike bets - 93.3 The Drive",
    "Bitcoin Bottom Signal? BTC Prints 4th Straight Higher Low Against Gold - Coinpedia",
    "Japanese Yen strengthens amid intervention fears, traders await US PCE inflation data - FXStreet",
@@ -29897,6 +29900,7 @@
    "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
    "Moscow accuses Estonia of hostile actions on \u2018verge of triggering open war\u2019 - The Japan Times",
    "Vote now for Vandenberg Space and Missile Technology Center! - USA TODAY 10BEST",
+   "Dollar climbs as renewed AI euphoria fuels Fed hike bets - The Lufkin Daily News",
    "Dollar climbs as renewed AI euphoria fuels Fed hike bets - Reuters",
    "Killin backs ending war in Iran, reopening fight over Space Command - Colorado Springs Gazette",
    "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
@@ -29912,30 +29916,24 @@
    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
    "Ukraine sinks Russian warship off Libyan coast as war widens - The Japan Times",
    "Russian unmanned aerial vehicle violates Polish airspace days after missile incursion - The Kyiv Independent",
-   "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
-   "Weekly market commentary - BlackRock",
    "Federal Reserve official faces probe over blackout period compliance - Traders Union",
    "The show goes on! Jensen Huang\u2019s return helps push the U.S. dollar to new highs - \u5bcc\u9014\u725b\u725b",
    "Namib Minerals pours first gold at historic Redwing gold mine - Mining.com",
-   "Gold spot/US Dollar sliding between 0.382 and 0.236 arcs. Downside target at 3,590 - FXStreet",
-   "Paws of War reunites a soldier and his rescued puppy - Cape Coral Breeze",
-   "From Alaska's Wilderness to War Zones: Inside the Air Force's Elite Rescue Unit - CBN.com",
+   "The White House vs. Congress War Is On. And It\u2019s Ugly. - WSJ",
    "Iran War Funding in Dispute as Congress Races to Avoid Shutdown - The Fiscal Times",
    "Gold, Silver, Platinum Forecasts \u2013 Gold Soars 3% As Jensen Huang Is Reinstated As Nvidia CEO - FXEmpire",
    "Seasonal Dynamics of the U.S. Dollar at Year-End - CME Group",
-   "The Mexican Peso: A Historical Tour of Mexico\u2019s Currency Value - Mexperience",
    "Fed's John Williams signals December rate hike as US inflation stays high - BusinessLine",
    "I pay \u00a3250 a month for someone else to do my life admin - it's worth it",
    "Food war: Charles Oliveira, Diego Lopes launch rival pizzas ahead of UFC 335 - Yahoo Sports",
    "Congress is going to war with Nvidia - Politico",
    "Gold Rate Today in Bangalore, 24 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Gold Rebounds 3.5% in a Single Day After 9% Plunge Last Week; Market Fixates on PCE Data to Gauge Rate Path - BigGo Finance",
-   "Gold Rate Today in Anantnag (23 Nov 2026) - Kotak Neo"
+   "Gold Rate Today in Anantnag (23 Nov 2026) - Kotak Neo",
+   "Gold Rate Today in Gurgaon, 24 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo"
   ]
  },
  "log": [
-  "23.11 01:29 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
-  "23.11 01:32 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 01:35 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 01:38 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 01:41 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30231,9 @@
   "24.11 04:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 04:49 N  NEWS (5 new) score -0.45 conf 0.50: Dolar 19-20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed'in faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor (Fed'den Williams'\u0131n Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 sinyali vermesi), bu da alt\u0131n i\u00e7in net olarak bask\u0131lay\u0131c\u0131. Rusya-NATO ve Ukrayna \u00e7at\u0131\u015fmalar\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebini destekliyor, ancak etkisi dolar ve faiz kanal\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca ba\u015fl\u0131klardaki fiyat seviyeleri \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "24.11 05:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 05:01 N  NEWS (7 new) score -0.40 conf 0.50: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti); bu, alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor. Sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve alt\u0131n son haftada %9 d\u00fc\u015f\u00fc\u015ften sonra sadece %3,5 toparland\u0131; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu."
+  "24.11 05:01 N  NEWS (7 new) score -0.40 conf 0.50: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti); bu, alt\u0131n i\u00e7in net bask\u0131 yarat\u0131yor. Sava\u015f haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve alt\u0131n son haftada %9 d\u00fc\u015f\u00fc\u015ften sonra sadece %3,5 toparland\u0131; bu nedenle g\u00fcven orta d\u00fczeyde tutuldu.",
+  "24.11 05:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 05:12 N  NEWS (5 new) score -0.30 conf 0.40: Dolar 20 ayl\u0131k zirvesinde ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckselirken (Williams Aral\u0131k art\u0131r\u0131m\u0131na i\u015faret etti), reel faiz ve dolar bask\u0131s\u0131 alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k NATO'nun acil toplant\u0131s\u0131, Rusya-Estonya ve Polonya hava sahas\u0131 gerilimleri g\u00fcvenli liman talebini destekleyebilir; ayr\u0131ca ABD PCE verisi bekleniyor. Bu \u00e7eli\u015fkili sinyaller ve veri \u00f6ncesi belirsizlik g\u00fcveni s\u0131n\u0131rl\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30420,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    4963.78
-   ],
-   [
     1794970962,
     4963.78
    ],
@@ -42417,6 +42413,10 @@
    ],
    [
     1795486194,
+    4963.78
+   ],
+   [
+    1795486379,
     4963.78
    ]
   ],
@@ -42532,10 +42532,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    4975.18
-   ],
-   [
     1794970962,
     4975.18
    ],
@@ -54529,6 +54525,10 @@
    ],
    [
     1795486194,
+    4975.18
+   ],
+   [
+    1795486379,
     4975.18
    ]
   ],
@@ -54614,10 +54614,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    4993.28
-   ],
-   [
     1794970962,
     4993.28
    ],
@@ -66611,6 +66607,10 @@
    ],
    [
     1795486194,
+    4993.28
+   ],
+   [
+    1795486379,
     4993.28
    ]
   ]
@@ -66821,10 +66821,6 @@
   },
   "equity_curve": [
    [
-    1794970782,
-    4969.22
-   ],
-   [
     1794970962,
     4969.22
    ],
@@ -78818,6 +78814,10 @@
    ],
    [
     1795486194,
+    4969.22
+   ],
+   [
+    1795486379,
     4969.22
    ]
   ],
@@ -82895,10 +82895,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794970782,
-    4765.43
-   ],
    [
     1794970962,
     4765.43
@@ -94894,6 +94890,10 @@
    [
     1795486194,
     5297.35
+   ],
+   [
+    1795486379,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96538,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794970782,
-    112393.69
-   ],
    [
     1794970962,
     112393.69
@@ -108537,6 +108533,10 @@
    [
     1795486194,
     128183.18
+   ],
+   [
+    1795486379,
+    128183.18
    ]
   ],
   "open": {},
@@ -108719,10 +108719,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794970782,
-    4876.96
-   ],
    [
     1794970962,
     4876.96
@@ -120717,6 +120713,10 @@
    ],
    [
     1795486194,
+    4876.96
+   ],
+   [
+    1795486379,
     4876.96
    ]
   ],
