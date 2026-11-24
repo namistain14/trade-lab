@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 12:54 (İstanbul)
+> Son güncelleme: 24.11.2026 12:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 12:44): Claude puan **-0.15**, güven 0.40 — Hürmüz Boğazı'nda üç tankerin yanması jeopolitik risk primi yaratarak altı destekliyor; ancak Fed faiz artırımı riski, güçlenen dolar ve ABD enflasyon verisi öncesindeki baskı altın üzerinde daha belirleyici görünüyor. Sinyaller karışık ve birbiriyle çelişiyor, bu nedenle hafif negatif bir eğilim ve düşük-orta güven uygun.
+Son haber analizi (24.11 12:57): Claude puan **-0.30**, güven 0.50 — Yeni başlıklardaki ana etki dolar güçlenmesi ve AI kaynaklı yükselişin Fed faiz artırımı beklentilerini canlandırması yönünde; bu altın için baskılayıcı. Hormuz'da tanker yangınları gibi jeopolitik risk jeton olarak altını destekleyebilir, ancak bu haber daha eski olduğu ve yeni gelişmeler faiz/dolar kanalında ağırlık taşıdığı için net etki hafif negatif.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 11:20 N  NEWS (9 new) score -0.45 conf 0.55: Dolar 20 aylık zirvesinde ve Fed faiz artırımı beklentileri yeniden canlanmış durumda; bu, altın için net olarak baskı yaratıyor. Ukrayna-Rusya gerilimi ve Polonya'daki füze olayı güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış görünüyor; PCE enflasyon verisi öncesinde altın zayıf seyrediyor.
-24.11 11:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 11:32 N  NEWS (10 new) score -0.40 conf 0.50: Dolar 20 aylık zirveye yakın seyrediyor ve Fed faiz artırımı beklentileri yeniden canlanıyor; bu, altın için baskılayıcı bir faktör. Ukrayna-Rusya savaşının tırmanması ve Polonya'daki füze olayı jeopolitik talebi destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış görünüyor. PCE enflasyon verisi öncesi belirsizlik yüksek olduğu için güven orta düzeyde.
 24.11 11:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 11:44 N  NEWS (18 new) score -0.30 conf 0.50: Dolar endeksi 20 aylık zirvelere yakın ve Fed faiz artırımı beklentileri öne çıkıyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir etken. Ukrayna ve İran'daki jeopolitik gerilimin güvenli liman talebini artırması ise sınırlı bir destek sağlıyor, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve PCE enflasyon verisi öncesi altın $3.651 civarında direnç gösterdi.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 12:32 N  NEWS (5 new) score -0.30 conf 0.45: Dolar endeksindeki yükseliş (104.60 civarı), AI kaynaklı dolar talebi ve Fed'in faiz beklentilerine ilişkin şahin sinyaller altın için baskı oluşturuyor; ABD enflasyon verisi (PCE) öncesi altın zayıf seyrediyor. Öte yandan İran savaşı ve Ukrayna'daki çatışmalar güvenli liman talebini destekleyebilir, ancak bu haberlerin çoğu zaten fiyatlanmış ve etkisi sınırlı görünüyor; bu nedenle sinyal karışık ve güven düşük.
 24.11 12:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 12:44 N  NEWS (10 new) score -0.15 conf 0.40: Hürmüz Boğazı'nda üç tankerin yanması jeopolitik risk primi yaratarak altı destekliyor; ancak Fed faiz artırımı riski, güçlenen dolar ve ABD enflasyon verisi öncesindeki baskı altın üzerinde daha belirleyici görünüyor. Sinyaller karışık ve birbiriyle çelişiyor, bu nedenle hafif negatif bir eğilim ve düşük-orta güven uygun.
+24.11 12:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 12:57 N  NEWS (10 new) score -0.30 conf 0.50: Yeni başlıklardaki ana etki dolar güçlenmesi ve AI kaynaklı yükselişin Fed faiz artırımı beklentilerini canlandırması yönünde; bu altın için baskılayıcı. Hormuz'da tanker yangınları gibi jeopolitik risk jeton olarak altını destekleyebilir, ancak bu haber daha eski olduğu ve yeni gelişmeler faiz/dolar kanalında ağırlık taşıdığı için net etki hafif negatif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
