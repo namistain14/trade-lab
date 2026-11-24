@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 09:09 (İstanbul)
+> Son güncelleme: 24.11.2026 09:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 09:00): Claude puan **+0.10**, güven 0.35 — Jeopolitik riskler (Hürmüz'de mayın, İran savaşı riski, Ukrayna'ya Patriot gecikmesi) altın için güvenli liman desteği sağlıyor, ancak Fed'in faiz artırımı beklentileri ve ABD doları endeksinin 104,50 civarında dirençli seyretmesi bunu dengeliyor. Altın yeniden toparlanıyor, fakat bu toparlanma hisse senedi piyasasındaki iyileşmeyle ilişkili görünüyor; sinyaller karışık olduğu için yön belirsiz ve güven düşük.
+Son haber analizi (24.11 09:12): Claude puan **-0.25**, güven 0.40 — Fed faiz artırımı beklentilerinin yükselmesi ve güçlü dolar altın için baskı yaratıyor; AI kaynaklı risk iştahı da güvenli liman talebini azaltıyor. İran ve Hürmüz gerilimi gibi jeopolitik riskler ise altını destekleyebilecek olsa da piyasa bu riskleri büyük ölçüde fiyatlamış görünüyor, bu nedenle sinyal karışık ve orta düzeyde negatif.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 08:00 N  NEWS (7 new) score -0.30 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed'in faiz artırma beklentileri yükseliyor; bu, altın için baskılayıcı bir etki yaratıyor. Hormuz'da tanker yangınları ve İran savaşı gibi jeopolitik riskler ise sınırlı bir güvenli liman desteği sağlıyor, ancak bu risk zaten fiyatlanmış görünüyor. Yaklaşan ABD enflasyon verisi (PCE) belirsizliği artırdığı için güven düşük tutuldu.
-24.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 08:48 N  NEWS (14 new) score -0.05 conf 0.30: Hormuz'daki mayın olayları ve Pentagon'un Patriot sevkiyatlarını geciktirmesi jeopolitik risk primini destekliyor, ancak Fed faiz artırımı beklentileri ve riskli varlık iştahını artıran AI rallisi altın için baskılayıcı. Gelecek PCE enflasyon verisi belirsizliği artırdığından yön net değil; haberler çelişkili olduğu ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 24.11 09:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 09:00 N  NEWS (15 new) score +0.10 conf 0.35: Jeopolitik riskler (Hürmüz'de mayın, İran savaşı riski, Ukrayna'ya Patriot gecikmesi) altın için güvenli liman desteği sağlıyor, ancak Fed'in faiz artırımı beklentileri ve ABD doları endeksinin 104,50 civarında dirençli seyretmesi bunu dengeliyor. Altın yeniden toparlanıyor, fakat bu toparlanma hisse senedi piyasasındaki iyileşmeyle ilişkili görünüyor; sinyaller karışık olduğu için yön belirsiz ve güven düşük.
+24.11 09:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 09:12 N  NEWS (16 new) score -0.25 conf 0.40: Fed faiz artırımı beklentilerinin yükselmesi ve güçlü dolar altın için baskı yaratıyor; AI kaynaklı risk iştahı da güvenli liman talebini azaltıyor. İran ve Hürmüz gerilimi gibi jeopolitik riskler ise altını destekleyebilecek olsa da piyasa bu riskleri büyük ölçüde fiyatlamış görünüyor, bu nedenle sinyal karışık ve orta düzeyde negatif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
