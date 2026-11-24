@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    5002.1
-   ],
-   [
     1794999716,
     5004.74
    ],
@@ -12094,6 +12090,10 @@
    [
     1795517715,
     5145.97
+   ],
+   [
+    1795517919,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    4868.5
-   ],
-   [
     1794999716,
     4868.5
    ],
@@ -27166,34 +27162,29 @@
    [
     1795517715,
     4868.5
+   ],
+   [
+    1795517919,
+    4868.5
    ]
   ],
   "news": {
    "score": 0.05,
    "confidence": 0.2,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil (Nvidia/Jensen Huang, Meksika uyu\u015fturucu baronu operasyonu, Hasina'n\u0131n d\u00f6n\u00fc\u015f plan\u0131, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131m\u0131na dair yeni bir haber yok; DR Kongo'da u\u00e7ak d\u00fc\u015f\u00fcrme iddias\u0131 k\u00fc\u00e7\u00fck bir g\u00fcvenli liman etkisi yaratabilir ama s\u0131n\u0131rl\u0131. Bu nedenle etki hafif pozitif ile s\u0131n\u0131rl\u0131, g\u00fcven d\u00fc\u015f\u00fck.",
+   "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi ta\u015f\u0131m\u0131yor. DR Kongo'daki askeri u\u00e7ak kayb\u0131 ve isyanc\u0131lar\u0131n d\u00fc\u015f\u00fcrme iddias\u0131 s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak k\u00fcresel \u00f6l\u00e7ekte \u00f6nemli bir geli\u015fme de\u011fil. Fed, enflasyon, dolar veya merkez bankas\u0131 al\u0131mlar\u0131yla ilgili yeni bir haber yok, bu y\u00fczden etki \u00e7ok zay\u0131f ve belirsiz.",
    "n": 6,
-   "ts": 1795517186087,
-   "new_headlines": 5,
+   "ts": 1795517919731,
+   "new_headlines": 1,
    "key_events": [
-    "DR Kongo'da kay\u0131p u\u00e7ak ve isyanc\u0131lar\u0131n d\u00fc\u015f\u00fcrme iddias\u0131 (s\u0131n\u0131rl\u0131 jeopolitik etki)",
-    "Trump-Nvidia/Jensen Huang haberleri (alt\u0131nla ilgisiz)",
-    "Fed, enflasyon, dolar veya merkez bankas\u0131 haberi yok"
+    "DR Kongo'da askeri u\u00e7ak kay\u0131p, isyanc\u0131lar d\u00fc\u015f\u00fcrme iddias\u0131 (s\u0131n\u0131rl\u0131 jeopolitik etki)",
+    "Nvidia/Jensen Huang haberi alt\u0131n i\u00e7in alakas\u0131z",
+    "Fed, enflasyon ve dolar ile ilgili yeni haber yok"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795057523458,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "Dolar 19 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed yetkilileri daha fazla s\u0131k\u0131la\u015ft\u0131rma sinyali veriyor; bu, reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 ve Etiyopya-Eritre gerilimi gibi jeopolitik riskler alt\u0131n\u0131 destekleyebilir, ancak alt\u0131n zaten bir y\u0131ll\u0131k dibe yak\u0131n fiyatlanm\u0131\u015f ve haberlerin a\u011f\u0131rl\u0131\u011f\u0131 hawkish Fed/g\u00fc\u00e7l\u00fc dolar taraf\u0131nda oldu\u011fu i\u00e7in net etki hafif-orta d\u00fczeyde negatif.",
-    "new": 4,
-    "gpt_score": -0.3,
-    "gpt_confidence": 0.55
-   },
    {
     "ts": 1795058287349,
     "score": -0.45,
@@ -29884,24 +29875,31 @@
     "new": 5,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795517919731,
+    "score": 0.05,
+    "confidence": 0.2,
+    "reason": "Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi ta\u015f\u0131m\u0131yor. DR Kongo'daki askeri u\u00e7ak kayb\u0131 ve isyanc\u0131lar\u0131n d\u00fc\u015f\u00fcrme iddias\u0131 s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak k\u00fcresel \u00f6l\u00e7ekte \u00f6nemli bir geli\u015fme de\u011fil. Fed, enflasyon, dolar veya merkez bankas\u0131 al\u0131mlar\u0131yla ilgili yeni bir haber yok, bu y\u00fczden etki \u00e7ok zay\u0131f ve belirsiz.",
+    "new": 1,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 63
+   "n": 64
   },
   "news_seen": [
    "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+   "DR Congo says military aircraft missing as rebels claim to shoot down plane",
    "Watch: Moment troops raid home and capture Mexican drug lord",
-   "DR Congo says aircraft missing as rebels claim to shoot down plane",
    "What Jensen Huang's return teaches China's Xi about Trump",
    "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
    "India's 'cockroach' party leader says he was stopped from flying to UK"
   ]
  },
  "log": [
-  "23.11 13:00 N  NEWS (17 new) score +0.10 conf 0.35: Alt\u0131n 14 ayl\u0131k dipten toparlan\u0131yor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri biraz geriliyor, bu k\u0131sa vadede hafif destekleyici. Ancak ABD dolar\u0131 ve Fed'in \u015fahin tonu (ING, Core PCE tart\u0131\u015fmas\u0131) alt\u0131n\u0131 bask\u0131l\u0131yor ve ABD enflasyon verisi \u00f6ncesinde y\u00f6n\u00fc belirsiz; sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
-  "23.11 13:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 13:12 N  NEWS (27 new) score +0.10 conf 0.35: Alt\u0131n, 14 ayl\u0131k d\u00fc\u015f\u00fck seviyeden ve son haftan\u0131n en sert sat\u0131\u015f\u0131ndan toparlan\u0131yor; ABD tahvil getirilerindeki d\u00fc\u015f\u00fc\u015f ve teknoloji sat\u0131\u015f\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rmas\u0131 k\u0131sa vadede destek sa\u011fl\u0131yor. Ancak Fed'in \u015fahin tonu, g\u00fc\u00e7l\u00fc dolar\u0131n ve \u00e7ekirdek PCE enflasyonu \u00fczerindeki faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmalar\u0131 alt\u0131n i\u00e7in olumsuz; sinyaller kar\u0131\u015f\u0131k oldu\u011fundan etki s\u0131n\u0131rl\u0131 kalabilir.",
   "23.11 13:25 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 13:25 N  NEWS (13 new) score -0.20 conf 0.40: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar\u0131n (EUR/USD 2025 Nisan dibi) alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; ancak \u0130ran'daki gerilim ve ABD donanma ablukas\u0131 jeopolitik talebi destekliyor ve d\u00fc\u015fen Treasury getirileri alt\u0131n\u0131 yukar\u0131 ta\u015f\u0131yor. Net etki hafif negatif, sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
@@ -30199,7 +30197,9 @@
   "24.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 13:33 N  NEWS (18 new) score -0.10 conf 0.40: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar (AI kaynakl\u0131 risk i\u015ftah\u0131, Williams ve ba\u015fka bir Fed yetkilisinin enflasyon uyar\u0131lar\u0131) alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. H\u00fcrm\u00fcz'de tanker sald\u0131r\u0131lar\u0131, \u0130ran yapt\u0131r\u0131mlar\u0131 ve Rusya-Estonya gerilimi ise g\u00fcvenli liman talebini destekliyor; bu nedenle etki kar\u0131\u015f\u0131k ve hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendirildi.",
   "24.11 13:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 13:46 N  NEWS (5 new) score +0.05 conf 0.20: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil (Nvidia/Jensen Huang, Meksika uyu\u015fturucu baronu operasyonu, Hasina'n\u0131n d\u00f6n\u00fc\u015f plan\u0131, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131m\u0131na dair yeni bir haber yok; DR Kongo'da u\u00e7ak d\u00fc\u015f\u00fcrme iddias\u0131 k\u00fc\u00e7\u00fck bir g\u00fcvenli liman etkisi yaratabilir ama s\u0131n\u0131rl\u0131. Bu nedenle etki hafif pozitif ile s\u0131n\u0131rl\u0131, g\u00fcven d\u00fc\u015f\u00fck."
+  "24.11 13:46 N  NEWS (5 new) score +0.05 conf 0.20: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131yla do\u011frudan ilgili de\u011fil (Nvidia/Jensen Huang, Meksika uyu\u015fturucu baronu operasyonu, Hasina'n\u0131n d\u00f6n\u00fc\u015f plan\u0131, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankas\u0131 alt\u0131n al\u0131m\u0131na dair yeni bir haber yok; DR Kongo'da u\u00e7ak d\u00fc\u015f\u00fcrme iddias\u0131 k\u00fc\u00e7\u00fck bir g\u00fcvenli liman etkisi yaratabilir ama s\u0131n\u0131rl\u0131. Bu nedenle etki hafif pozitif ile s\u0131n\u0131rl\u0131, g\u00fcven d\u00fc\u015f\u00fck.",
+  "24.11 13:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 13:58 N  NEWS (1 new) score +0.05 conf 0.20: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi ta\u015f\u0131m\u0131yor. DR Kongo'daki askeri u\u00e7ak kayb\u0131 ve isyanc\u0131lar\u0131n d\u00fc\u015f\u00fcrme iddias\u0131 s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak k\u00fcresel \u00f6l\u00e7ekte \u00f6nemli bir geli\u015fme de\u011fil. Fed, enflasyon, dolar veya merkez bankas\u0131 al\u0131mlar\u0131yla ilgili yeni bir haber yok, bu y\u00fczden etki \u00e7ok zay\u0131f ve belirsiz."
  ],
  "gold_big": {
   "account": {
@@ -30386,10 +30386,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    4963.78
-   ],
-   [
     1794999716,
     4963.78
    ],
@@ -42383,6 +42379,10 @@
    ],
    [
     1795517715,
+    4963.78
+   ],
+   [
+    1795517919,
     4963.78
    ]
   ],
@@ -42498,10 +42498,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    4975.18
-   ],
-   [
     1794999716,
     4975.18
    ],
@@ -54495,6 +54491,10 @@
    ],
    [
     1795517715,
+    4975.18
+   ],
+   [
+    1795517919,
     4975.18
    ]
   ],
@@ -54580,10 +54580,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    4993.28
-   ],
-   [
     1794999716,
     4993.28
    ],
@@ -66577,6 +66573,10 @@
    ],
    [
     1795517715,
+    4993.28
+   ],
+   [
+    1795517919,
     4993.28
    ]
   ]
@@ -66787,10 +66787,6 @@
   },
   "equity_curve": [
    [
-    1794999536,
-    4969.22
-   ],
-   [
     1794999716,
     4969.22
    ],
@@ -78784,6 +78780,10 @@
    ],
    [
     1795517715,
+    4969.22
+   ],
+   [
+    1795517919,
     4969.22
    ]
   ],
@@ -82861,10 +82861,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794999536,
-    4707.23
-   ],
    [
     1794999716,
     4711.34
@@ -94860,6 +94856,10 @@
    [
     1795517715,
     5297.35
+   ],
+   [
+    1795517919,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96504,10 +96504,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794999536,
-    112386.68
-   ],
    [
     1794999716,
     112386.68
@@ -108503,6 +108499,10 @@
    [
     1795517715,
     128183.18
+   ],
+   [
+    1795517919,
+    128183.18
    ]
   ],
   "open": {},
@@ -108685,10 +108685,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794999536,
-    4876.96
-   ],
    [
     1794999716,
     4876.96
@@ -120683,6 +120679,10 @@
    ],
    [
     1795517715,
+    4876.96
+   ],
+   [
+    1795517919,
     4876.96
    ]
   ],
