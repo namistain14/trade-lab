@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 07:57 (İstanbul)
+> Son güncelleme: 24.11.2026 08:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 07:47): Claude puan **-0.30**, güven 0.50 — Dolar 20 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı beklentileri yükseliyor; Williams ile Emons'un sıkı duruşu altın için baskı oluşturuyor. Buna karşın İran savaşı ve kapanma riski gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlayabilir, ayrıca ABD enflasyon verisi (PCE) yakın vadede volatilite yaratabilir.
+Son haber analizi (24.11 08:00): Claude puan **-0.30**, güven 0.50 — Dolar 20 aylık zirvesine yakın seyrediyor ve Fed'in faiz artırma beklentileri yükseliyor; bu, altın için baskılayıcı bir etki yaratıyor. Hormuz'da tanker yangınları ve İran savaşı gibi jeopolitik riskler ise sınırlı bir güvenli liman desteği sağlıyor, ancak bu risk zaten fiyatlanmış görünüyor. Yaklaşan ABD enflasyon verisi (PCE) belirsizliği artırdığı için güven düşük tutuldu.
 
 Son işlemler:
 
@@ -92,9 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 06:07 A  CLOSE BNBUSDT short take profit: +72.47 USD
-24.11 06:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-24.11 06:13 N  NEWS (12 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve AI yükselişi Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için hem güçlü dolar hem de sert para politikası nedeniyle baskı oluşturuyor. Rusya-NATO ve Ukrayna'daki gerilim haberleri güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD enflasyon verisi beklentisi belirsizlik yaratıyor.
 24.11 06:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 06:26 N  NEWS (10 new) score -0.05 conf 0.30: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil; Fed beklentileri, reel faiz, dolar veya merkez bankası alımlarına dair yeni bir veri yok. Nvidia ve teknoloji hisselerindeki yükseliş risk iştahını artırarak altın için hafif olumsuz, ancak çok zayıf bir etki yaratıyor; Libya'daki Rus gemisi saldırısı ise sınırlı bir jeopolitik risk olarak kalıyor.
 24.11 06:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +104,9 @@ Son işlemler:
 24.11 07:35 N  NEWS (9 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor (Williams "harekete geçmeli", Emons Aralık'ta artırım öngörüyor); bu, altın için baskı yaratan bir unsur. Savaş/NATO gerilimi güvenli liman talebini destekliyor olsa da etkisi sınırlı kalıyor; altın 3.666 civarında toparlanıyor ve ABD PCE enflasyon verisi öncesinde belirsizlik yüksek.
 24.11 07:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:47 N  NEWS (17 new) score -0.30 conf 0.50: Dolar 20 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı beklentileri yükseliyor; Williams ile Emons'un sıkı duruşu altın için baskı oluşturuyor. Buna karşın İran savaşı ve kapanma riski gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlayabilir, ayrıca ABD enflasyon verisi (PCE) yakın vadede volatilite yaratabilir.
+24.11 08:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 08:00 N  NEWS (7 new) score -0.30 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed'in faiz artırma beklentileri yükseliyor; bu, altın için baskılayıcı bir etki yaratıyor. Hormuz'da tanker yangınları ve İran savaşı gibi jeopolitik riskler ise sınırlı bir güvenli liman desteği sağlıyor, ancak bu risk zaten fiyatlanmış görünüyor. Yaklaşan ABD enflasyon verisi (PCE) belirsizliği artırdığı için güven düşük tutuldu.
+24.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
