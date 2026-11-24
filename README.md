@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 03:20 (İstanbul)
+> Son güncelleme: 24.11.2026 03:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,119.10 $** (başlangıç 5,000 $, +119.10 $ / %+2.38)
+**Hesap değeri: 5,116.94 $** (başlangıç 5,000 $, +116.94 $ / %+2.34)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 03:11): Claude puan **-0.20**, güven 0.35 — Fed yetkililerinin (Williams) ek faiz artırımı sinyali ve yükselen Treasury getirileri ile güçlü dolar eğilimi altın için baskılayıcı; ancak bu haberler kısmen fiyatlanmış durumda ve altın yeniden toparlanıyor. Savaş kaynaklı güvenli liman talebi zayıf ve karışık, Nvidia haberleri altınla doğrudan ilgili değil, bu nedenle güven düşük.
+Son haber analizi (24.11 03:23): Claude puan **-0.40**, güven 0.55 — Yeni gelen haberlerde New York Fed Başkanı Williams'ın enflasyonun hâlâ yüksek olduğunu ve Aralık'ta faiz artırımına işaret ettiğini söylemesi altın için baskılayıcı (şahin). Ayrıca Treasury getirilerinin yükselmesi ve dolar/yen'in 159 seviyesine çıkması da kısa vadede altı olumsuz etkileyebilir; jeopolitik (İran savaşı durgunluğu) riski ise sınırlı kalıyor ve güvenli liman talebini belirgin biçimde artırmıyor.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 01:46 N  NEWS (9 new) score -0.20 conf 0.40: 
-24.11 01:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 01:58 N  NEWS (7 new) score -0.30 conf 0.45: 
 24.11 02:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 02:10 N  NEWS (5 new) score -0.25 conf 0.40: Fed yetkililerinin (Williams, üçüncü isim) daha sıkı ve kademeli olmayan enflasyon mücadelesi mesajları ile Goldman'ın güçlü dolar ve faiz artırımı beklentisi, altın için baskı oluşturuyor. Jensen Huang'ın Nvidia'ya dönüşü risk iştahını artırdığı için güvenli liman talebi zayıf; jeopolitik haberler (İran yaptırımları, Ukrayna) ise büyük ölçüde fiyatlanmış durumda.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 02:59 N  NEWS (8 new) score -0.30 conf 0.50: Fed'in Williams'ın yeni sert açıklamaları (enflasyon hâlâ yüksek, ardışık faiz artırımı olasılığı) reel faizleri ve doları destekleyerek altı baskılıyor. Nvidia/risk iştahı kaynaklı yükselen Treasury getirileri ve güçlü dolar da olumsuz; savaş haberleri ise çoğunlukla eski ve fiyatlanmış olduğu için güvenli liman etkisi sınırlı.
 24.11 03:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 03:11 N  NEWS (8 new) score -0.20 conf 0.35: Fed yetkililerinin (Williams) ek faiz artırımı sinyali ve yükselen Treasury getirileri ile güçlü dolar eğilimi altın için baskılayıcı; ancak bu haberler kısmen fiyatlanmış durumda ve altın yeniden toparlanıyor. Savaş kaynaklı güvenli liman talebi zayıf ve karışık, Nvidia haberleri altınla doğrudan ilgili değil, bu nedenle güven düşük.
+24.11 03:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 03:23 N  NEWS (9 new) score -0.40 conf 0.55: Yeni gelen haberlerde New York Fed Başkanı Williams'ın enflasyonun hâlâ yüksek olduğunu ve Aralık'ta faiz artırımına işaret ettiğini söylemesi altın için baskılayıcı (şahin). Ayrıca Treasury getirilerinin yükselmesi ve dolar/yen'in 159 seviyesine çıkması da kısa vadede altı olumsuz etkileyebilir; jeopolitik (İran savaşı durgunluğu) riski ise sınırlı kalıyor ve güvenli liman talebini belirgin biçimde artırmıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
