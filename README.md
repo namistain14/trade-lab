@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 15:20 (İstanbul)
+> Son güncelleme: 24.11.2026 15:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 15:11): Claude puan **-0.15**, güven 0.40 — Faiz artırımı beklentileri ve enflasyon endişeleri altın üzerinde baskı yaratıyor; ayrıca dolar bir miktar toparlanmış durumda. Buna karşılık İran savaşı, Rusya yaptırımları ve Ukrayna-Libya gerilimi gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, bu yüzden etki sınırlı ve karışık görünüyor.
+Son haber analizi (24.11 15:24): Claude puan **-0.40**, güven 0.50 — Dolar 20 ayın zirvesinde ve JPMorgan 2027'de Hazine getirilerinin %5 üstünde olabileceğini öngörüyor; Warsh yönetimindeki Fed'e ilişkin enflasyon endişeleri de sıkılaşma beklentisini destekliyor. Bu gelişmeler altın için kısa vadede baskı yaratıyor. Savaş ve yaptırım haberlerinin çoğu eski veya fiyatlanmış olduğundan güvenli liman talebine dair güçlü bir destek sağlamıyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 13:46 N  NEWS (5 new) score +0.05 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia/Jensen Huang, Meksika uyuşturucu baronu operasyonu, Hasina'nın dönüş planı, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankası altın alımına dair yeni bir haber yok; DR Kongo'da uçak düşürme iddiası küçük bir güvenli liman etkisi yaratabilir ama sınırlı. Bu nedenle etki hafif pozitif ile sınırlı, güven düşük.
-24.11 13:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:58 N  NEWS (1 new) score +0.05 conf 0.20: Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi taşımıyor. DR Kongo'daki askeri uçak kaybı ve isyancıların düşürme iddiası sınırlı bir güvenli liman talebi yaratabilir, ancak küresel ölçekte önemli bir gelişme değil. Fed, enflasyon, dolar veya merkez bankası alımlarıyla ilgili yeni bir haber yok, bu yüzden etki çok zayıf ve belirsiz.
 24.11 14:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:10 N  NEWS (1 new) score +0.08 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyon ile ilgili bir haber yok. Rusya'nın nükleer uydu iddiaları ve NATO'nun uzay tehdidi açıklaması hafif bir jeopolitik risk primi yaratabilir, ancak etkisi sınırlı ve büyük olasılıkla kısa vadede fiyatlanmış durumda.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 14:59 N  NEWS (8 new) score -0.20 conf 0.40: Haberlerin ağırlığı hafif baskılayıcı: Fed'in faiz artırma beklentileri ve enflasyon endişeleri altın üzerinde baskı yaratıyor, dolar da güçlü kalmaya devam ediyor. Buna karşılık Hürmüz'deki tanker saldırıları ve İran savaşı gibi jeopolitik riskler güvenli liman talebini destekliyor; ancak bu riskler büyük ölçüde fiyatlanmış görünüyor, bu nedenle güven düşük.
 24.11 15:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 15:11 N  NEWS (19 new) score -0.15 conf 0.40: Faiz artırımı beklentileri ve enflasyon endişeleri altın üzerinde baskı yaratıyor; ayrıca dolar bir miktar toparlanmış durumda. Buna karşılık İran savaşı, Rusya yaptırımları ve Ukrayna-Libya gerilimi gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, bu yüzden etki sınırlı ve karışık görünüyor.
+24.11 15:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 15:24 N  NEWS (23 new) score -0.40 conf 0.50: Dolar 20 ayın zirvesinde ve JPMorgan 2027'de Hazine getirilerinin %5 üstünde olabileceğini öngörüyor; Warsh yönetimindeki Fed'e ilişkin enflasyon endişeleri de sıkılaşma beklentisini destekliyor. Bu gelişmeler altın için kısa vadede baskı yaratıyor. Savaş ve yaptırım haberlerinin çoğu eski veya fiyatlanmış olduğundan güvenli liman talebine dair güçlü bir destek sağlamıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
