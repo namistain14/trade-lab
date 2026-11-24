@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 07:32 (İstanbul)
+> Son güncelleme: 24.11.2026 07:35 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 07:23): Claude puan **-0.30**, güven 0.50 — Fed'in faiz artırımı beklentileri yükselirken dolar endeksi 20 aylık zirvesine yakın seyrediyor; bu, altın için kısa vadede baskı oluşturuyor. Jeopolitik başlıklar (NATO toplantısı, Rusya-Ukrayna) güvenli liman talebini destekleyebilir, ancak bunların çoğu eski veya fiyatlanmış haberler olduğundan etkisi sınırlı kalıyor.
+Son haber analizi (24.11 07:35): Claude puan **-0.35**, güven 0.50 — Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor (Williams "harekete geçmeli", Emons Aralık'ta artırım öngörüyor); bu, altın için baskı yaratan bir unsur. Savaş/NATO gerilimi güvenli liman talebini destekliyor olsa da etkisi sınırlı kalıyor; altın 3.666 civarında toparlanıyor ve ABD PCE enflasyon verisi öncesinde belirsizlik yüksek.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 05:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-24.11 05:49 N  NEWS (11 new) score -0.30 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve AI rallisi Fed faiz artırımı beklentilerini yükseltiyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. Buna karşılık NATO-Rusya gerilimi ve Fed 'put' tartışması gibi güvenli liman ve gevşeme yönlü unsurlar kısmen dengeliyor, bu yüzden etki orta düzeyde negatif kalıyor.
 24.11 06:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 06:01 N  NEWS (3 new) score -0.25 conf 0.45: Dolar 20 aylık zirveye yakın seyrediyor ve Fed faiz artırımı beklentileri yükseliyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir faktördür. Buna karşılık NATO-Rusya gerginliği ve Estonya/Polonya'daki olaylar güvenli liman talebini destekleyebilir, altın da dip alımlarıyla toparlanıyor; ayrıca ABD PCE enflasyon verisi bekleniyor. Sinyaller karışık ve kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 24.11 06:07 A  CLOSE BNBUSDT short take profit: +72.47 USD
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 07:11 N  NEWS (45 new) score -0.20 conf 0.40: Dolar 20 aylık zirvesine yakın ve piyasalar Fed'in aralık ayında faiz artırabileceğini fiyatlıyor; Williams'ın "enflasyona karşı harekete geçmeliyiz" açıklaması da sıkı para politikası beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık ABD enflasyon ve PCE verisi öncesi alıcıların geri dönmesi ve Rusya-NATO gerilimi gibi jeopolitik haberler kısa vadede bir destek sağlayabilir; bu nedenle sinyal zayıf-negatif ve güven düşük.
 24.11 07:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:23 N  NEWS (10 new) score -0.30 conf 0.50: Fed'in faiz artırımı beklentileri yükselirken dolar endeksi 20 aylık zirvesine yakın seyrediyor; bu, altın için kısa vadede baskı oluşturuyor. Jeopolitik başlıklar (NATO toplantısı, Rusya-Ukrayna) güvenli liman talebini destekleyebilir, ancak bunların çoğu eski veya fiyatlanmış haberler olduğundan etkisi sınırlı kalıyor.
+24.11 07:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 07:35 N  NEWS (9 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor (Williams "harekete geçmeli", Emons Aralık'ta artırım öngörüyor); bu, altın için baskı yaratan bir unsur. Savaş/NATO gerilimi güvenli liman talebini destekliyor olsa da etkisi sınırlı kalıyor; altın 3.666 civarında toparlanıyor ve ABD PCE enflasyon verisi öncesinde belirsizlik yüksek.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
