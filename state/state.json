@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    5072.98
-   ],
-   [
     1795018531,
     5076.01
    ],
@@ -12094,6 +12090,10 @@
    [
     1795536499,
     5145.97
+   ],
+   [
+    1795536678,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    4868.5
-   ],
-   [
     1795018531,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795536499,
+    4868.5
+   ],
+   [
+    1795536678,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 20:45 B6  karar turu: Claude \u00abNVDA \u00f6nc\u00fcl\u00fc\u011f\u00fcnde son derece g\u00fc\u00e7l\u00fc bir ralli g\u00fcn\u00fc ya\u015fan\u0131yor; hareketin b\u00fcy\u00fck k\u0131sm\u0131 zaten ger\u00e7ekle\u015fmi\u015f durumda ve \u00f6\u011fleden sonraki konsolidasyonda yeni pozisyon i\u00e7in net bir avantaj bulunmuyor.\u00bb / GPT \u00ab-\u00bb",
   "23.11 20:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 20:57 N  NEWS (8 new) score -0.30 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseldi ve dolar y\u0131ll\u0131k zirvelere yakla\u015f\u0131yor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131r. \u0130ran ve Rusya yapt\u0131r\u0131mlar\u0131 ile sava\u015f haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak \u00e7o\u011fu haber zaten fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "23.11 20:57 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30237,8 @@
   "24.11 19:08 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN3QBz4Kp8P6meKNZNbz'}",
   "24.11 19:08 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "24.11 19:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 19:08 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
+  "24.11 19:08 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
+  "24.11 19:11 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN3dUsvMGpeMLVmcc6mX'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    4963.78
-   ],
-   [
     1795018531,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795536499,
+    4963.78
+   ],
+   [
+    1795536678,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    4975.18
-   ],
-   [
     1795018531,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795536499,
+    4975.18
+   ],
+   [
+    1795536678,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    4993.28
-   ],
-   [
     1795018531,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795536499,
+    4993.28
+   ],
+   [
+    1795536678,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795018341,
-    4969.22
-   ],
-   [
     1795018531,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795536499,
+    4969.22
+   ],
+   [
+    1795536678,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795018341,
-    4800.52
-   ],
    [
     1795018531,
     4794.52
@@ -94899,6 +94895,10 @@
    [
     1795536499,
     5297.35
+   ],
+   [
+    1795536678,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795018341,
-    115761.55
-   ],
    [
     1795018531,
     115769.24
@@ -108542,6 +108538,10 @@
    [
     1795536499,
     128183.18
+   ],
+   [
+    1795536678,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795018341,
-    4876.96
-   ],
    [
     1795018531,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795536499,
+    4876.96
+   ],
+   [
+    1795536678,
     4876.96
    ]
   ],
