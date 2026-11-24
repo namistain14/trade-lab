@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 15:56 (İstanbul)
+> Son güncelleme: 24.11.2026 16:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 15:48): Claude puan **-0.10**, güven 0.30 — Altın, 14 aylık dip seviyelerinden toparlanıyor ve dolar 20 aylık zirvede olsa da Salı günü dolarda geçici duraklama görülüyor. Yeni haberlerdeki savaş ve Rusya-NATO gerilimi güvenli liman talebini destekliyor, ancak bunların çoğu zaten fiyatlanmış ve yükselen tahvil getirisi beklentileri (JPMorgan %5 tahmini) altın için baskılayıcı; net etki hafif negatif.
+Son haber analizi (24.11 16:00): Claude puan **-0.10**, güven 0.30 — Dolar 20 aylık zirvesine yakın seyrediyor ve JPMorgan yüksek tahvil getirisi öngörüyor; bu altın için baskılayıcı. Buna karşılık altın 14 aylık dibinden toparlanıyor, dolar ise yeni alımlarda duraksıyor ve Ukrayna/İran savaşı haberleri jeopolitik risk talebini sınırlı da olsa destekliyor. Sinyaller karışık ve büyük bölümü zaten fiyatlanmış olduğundan güven düşük.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 14:23 N  NEWS (42 new) score -0.40 conf 0.60: Altın üzerindeki ana baskı, Fed faiz artırımı beklentilerinin güçlenmesi ve dolar güçlenmesinden geliyor; bu, reel faiz ve dolar kanalıyla altı aşağı çekiyor. Hormuz'daki tanker saldırısı ve İran savaşı gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor.
-24.11 14:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:35 N  NEWS (11 new) score -0.30 conf 0.60: Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
 24.11 14:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:47 N  NEWS (14 new) score -0.10 conf 0.30: 
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 15:36 N  NEWS (15 new) score -0.25 conf 0.40: Dolar 20 aylık zirvede ve Warsh yönetimindeki Fed'de enflasyon endişeleri ile yüksek tahvil getirisi beklentileri var; bu, reel faiz ve dolar kanalıyla altı baskılıyor. Jeopolitik haberler (İran savaşı, Husiler'e yaptırımlar) güvenli liman talebini destekliyor olsa da bunların çoğu zaten fiyatlanmış ve etkisi sınırlı; altın ise 14 aylık dip seviyelerinden toparlanma sinyali veriyor.
 24.11 15:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 15:48 N  NEWS (18 new) score -0.10 conf 0.30: Altın, 14 aylık dip seviyelerinden toparlanıyor ve dolar 20 aylık zirvede olsa da Salı günü dolarda geçici duraklama görülüyor. Yeni haberlerdeki savaş ve Rusya-NATO gerilimi güvenli liman talebini destekliyor, ancak bunların çoğu zaten fiyatlanmış ve yükselen tahvil getirisi beklentileri (JPMorgan %5 tahmini) altın için baskılayıcı; net etki hafif negatif.
+24.11 16:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 16:00 N  NEWS (14 new) score -0.10 conf 0.30: Dolar 20 aylık zirvesine yakın seyrediyor ve JPMorgan yüksek tahvil getirisi öngörüyor; bu altın için baskılayıcı. Buna karşılık altın 14 aylık dibinden toparlanıyor, dolar ise yeni alımlarda duraksıyor ve Ukrayna/İran savaşı haberleri jeopolitik risk talebini sınırlı da olsa destekliyor. Sinyaller karışık ve büyük bölümü zaten fiyatlanmış olduğundan güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
