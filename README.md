@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 04:33 (İstanbul)
+> Son güncelleme: 24.11.2026 04:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,107.91 $** (başlangıç 5,000 $, +107.91 $ / %+2.16)
+**Hesap değeri: 5,107.18 $** (başlangıç 5,000 $, +107.18 $ / %+2.14)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 04:24): Claude puan **-0.35**, güven 0.50 — Yeni başlıklar ağırlıklı olarak altın için olumsuz: dolar 20 aylık zirvesine yakın seyrediyor ve Fed Başkanı Williams'ın Aralık'ta faiz artırımına işaret etmesi faiz artırımı beklentilerini güçlendiriyor. Ukrayna savaşının genişlemesi ve NATO'nun acil toplantısı sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki dolar ve faiz baskısının gerisinde kalıyor. Altındaki toparlanma büyük ölçüde alıcı kaynaklı olduğu için kısa vadeli geri dönüş riski de var.
+Son haber analizi (24.11 04:36): Claude puan **-0.30**, güven 0.50 — Dolar 19-20 aylık zirveye yakın seyrediyor ve Fed'in Aralık'ta faiz artırabileceğine dair beklentiler güçleniyor; bu, altın için faiz ve dolar kanalından baskı oluşturuyor. Rusya-NATO gerilimi ve savaş haberleri jeopolitik talebi destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış durumda; altındaki kısa vadeli toparlanma ise ucuzluktan alımla sınırlı.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 02:59 N  NEWS (8 new) score -0.30 conf 0.50: Fed'in Williams'ın yeni sert açıklamaları (enflasyon hâlâ yüksek, ardışık faiz artırımı olasılığı) reel faizleri ve doları destekleyerek altı baskılıyor. Nvidia/risk iştahı kaynaklı yükselen Treasury getirileri ve güçlü dolar da olumsuz; savaş haberleri ise çoğunlukla eski ve fiyatlanmış olduğu için güvenli liman etkisi sınırlı.
-24.11 03:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 03:11 N  NEWS (8 new) score -0.20 conf 0.35: Fed yetkililerinin (Williams) ek faiz artırımı sinyali ve yükselen Treasury getirileri ile güçlü dolar eğilimi altın için baskılayıcı; ancak bu haberler kısmen fiyatlanmış durumda ve altın yeniden toparlanıyor. Savaş kaynaklı güvenli liman talebi zayıf ve karışık, Nvidia haberleri altınla doğrudan ilgili değil, bu nedenle güven düşük.
 24.11 03:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 03:23 N  NEWS (9 new) score -0.40 conf 0.55: Yeni gelen haberlerde New York Fed Başkanı Williams'ın enflasyonun hâlâ yüksek olduğunu ve Aralık'ta faiz artırımına işaret ettiğini söylemesi altın için baskılayıcı (şahin). Ayrıca Treasury getirilerinin yükselmesi ve dolar/yen'in 159 seviyesine çıkması da kısa vadede altı olumsuz etkileyebilir; jeopolitik (İran savaşı durgunluğu) riski ise sınırlı kalıyor ve güvenli liman talebini belirgin biçimde artırmıyor.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 04:12 N  NEWS (19 new) score -0.20 conf 0.45: Fed'in Williams'ın enflasyon nedeniyle ardışık faiz artırımlarının mümkün olduğunu söylemesi ve doların 19 aylık zirveye çıkması altın için baskı oluşturuyor; buna karşılık NATO'nun acil toplantısı ve Rusya'nın hava sahası ihlalleri sınırlı bir güvenli liman talebi destekliyor. Haberlerin birçoğu çelişkili ve tekrarlı olduğu için (ör. aynı gün hem %3 yükseliş hem de toparlanma) güven düşük tutuldu; yakında açıklanacak PCE/enflasyon verisi yönü belirleyecek.
 24.11 04:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 04:24 N  NEWS (6 new) score -0.35 conf 0.50: Yeni başlıklar ağırlıklı olarak altın için olumsuz: dolar 20 aylık zirvesine yakın seyrediyor ve Fed Başkanı Williams'ın Aralık'ta faiz artırımına işaret etmesi faiz artırımı beklentilerini güçlendiriyor. Ukrayna savaşının genişlemesi ve NATO'nun acil toplantısı sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki dolar ve faiz baskısının gerisinde kalıyor. Altındaki toparlanma büyük ölçüde alıcı kaynaklı olduğu için kısa vadeli geri dönüş riski de var.
+24.11 04:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 04:36 N  NEWS (10 new) score -0.30 conf 0.50: Dolar 19-20 aylık zirveye yakın seyrediyor ve Fed'in Aralık'ta faiz artırabileceğine dair beklentiler güçleniyor; bu, altın için faiz ve dolar kanalından baskı oluşturuyor. Rusya-NATO gerilimi ve savaş haberleri jeopolitik talebi destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış durumda; altındaki kısa vadeli toparlanma ise ucuzluktan alımla sınırlı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
