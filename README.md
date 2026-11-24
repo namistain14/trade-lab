@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 13:18 (İstanbul)
+> Son güncelleme: 24.11.2026 13:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 13:09): Claude puan **-0.30**, güven 0.45 — Dolar, AI kaynaklı yükselişle birlikte Fed faiz artırımı beklentilerini güçlendiriyor ve bu altın için baskı yaratıyor; ABD enflasyon verisi de altını aşağı çekmiş görünüyor. Hürmüz'de tankerlerin yanması gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış veya gürültü niteliğinde.
+Son haber analizi (24.11 13:21): Claude puan **-0.30**, güven 0.50 — Fed faiz artırımı beklentileri yükseliyor, dolar AI kaynaklı yükselişle güçleniyor ve Fed yetkilisi enflasyonla mücadelede "yapılacak iş olduğunu" söylüyor; bu tablo altın için baskılayıcı. Hormuz'da tankerlerin yanması gibi jeopolitik gerilim güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca altındaki toparlanma marjin satışından sonra geldiği için yönü belirsiz.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 11:44 N  NEWS (18 new) score -0.30 conf 0.50: Dolar endeksi 20 aylık zirvelere yakın ve Fed faiz artırımı beklentileri öne çıkıyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir etken. Ukrayna ve İran'daki jeopolitik gerilimin güvenli liman talebini artırması ise sınırlı bir destek sağlıyor, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve PCE enflasyon verisi öncesi altın $3.651 civarında direnç gösterdi.
-24.11 11:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 11:56 N  NEWS (16 new) score -0.30 conf 0.40: Dolar 20 aylık zirveye yakın seyrediyor ve Fed faiz artırımı beklentileri yeniden canlanıyor; bu, altın için net negatif bir ortam. Jeopolitik gerilim (Ukrayna, DR Kongo, NATO'nun Polonya'ya AWACS gönderimi) güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor. Altının 14 aylık dipten toparlanması ve PCE enflasyon verisi öncesindeki kararsızlık nedeniyle güven düşük tutuldu.
 24.11 12:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 12:08 N  NEWS (22 new) score -0.40 conf 0.60: Dolar endeksi 20 aylık zirvede ve ABD enflasyon verisi öncesi güçleniyor; Fed'in faiz duraklatma beklentileri zayıflıyor, bu da altın için negatif. Jeopolitik gerilimler (Ukrayna, İran) güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış durumda.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 12:57 N  NEWS (10 new) score -0.30 conf 0.50: Yeni başlıklardaki ana etki dolar güçlenmesi ve AI kaynaklı yükselişin Fed faiz artırımı beklentilerini canlandırması yönünde; bu altın için baskılayıcı. Hormuz'da tanker yangınları gibi jeopolitik risk jeton olarak altını destekleyebilir, ancak bu haber daha eski olduğu ve yeni gelişmeler faiz/dolar kanalında ağırlık taşıdığı için net etki hafif negatif.
 24.11 13:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:09 N  NEWS (12 new) score -0.30 conf 0.45: Dolar, AI kaynaklı yükselişle birlikte Fed faiz artırımı beklentilerini güçlendiriyor ve bu altın için baskı yaratıyor; ABD enflasyon verisi de altını aşağı çekmiş görünüyor. Hürmüz'de tankerlerin yanması gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış veya gürültü niteliğinde.
+24.11 13:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 13:21 N  NEWS (12 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri yükseliyor, dolar AI kaynaklı yükselişle güçleniyor ve Fed yetkilisi enflasyonla mücadelede "yapılacak iş olduğunu" söylüyor; bu tablo altın için baskılayıcı. Hormuz'da tankerlerin yanması gibi jeopolitik gerilim güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca altındaki toparlanma marjin satışından sonra geldiği için yönü belirsiz.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
