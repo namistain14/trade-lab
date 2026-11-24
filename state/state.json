@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    5001.99
-   ],
-   [
     1794992375,
     4999.12
    ],
@@ -12094,6 +12090,10 @@
    [
     1795510393,
     5145.97
+   ],
+   [
+    1795510579,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    4868.5
-   ],
-   [
     1794992375,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795510393,
     4868.5
+   ],
+   [
+    1795510579,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Dolar endeksi 20 ayl\u0131k zirvelere yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri \u00f6ne \u00e7\u0131k\u0131yor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etken. Ukrayna ve \u0130ran'daki jeopolitik gerilimin g\u00fcvenli liman talebini art\u0131rmas\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor, ancak bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve PCE enflasyon verisi \u00f6ncesi alt\u0131n $3.651 civar\u0131nda diren\u00e7 g\u00f6sterdi.",
+   "confidence": 0.4,
+   "reason": "Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canlan\u0131yor; bu, alt\u0131n i\u00e7in net negatif bir ortam. Jeopolitik gerilim (Ukrayna, DR Kongo, NATO'nun Polonya'ya AWACS g\u00f6nderimi) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. Alt\u0131n\u0131n 14 ayl\u0131k dipten toparlanmas\u0131 ve PCE enflasyon verisi \u00f6ncesindeki karars\u0131zl\u0131k nedeniyle g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
    "n": 45,
-   "ts": 1795509859056,
-   "new_headlines": 18,
+   "ts": 1795510578828,
+   "new_headlines": 16,
    "key_events": [
     "Dolar 20 ayl\u0131k zirvede; Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canland\u0131 (bearish)",
     "Alt\u0131n y\u00fckseli\u015f trendini k\u0131rd\u0131, son d\u00f6nemin en k\u00f6t\u00fc haftas\u0131; PCE enflasyon verisi bekleniyor",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795050256469,
-    "score": -0.7,
-    "confidence": 0.75,
-    "reason": "Fed'in Aral\u0131k'ta yeni faiz art\u0131r\u0131m\u0131na i\u015faret etmesi, Kashkari'nin piyasan\u0131n bekledi\u011finden fazla s\u0131k\u0131la\u015fma \u00f6ng\u00f6rd\u00fc\u011f\u00fcn\u00fc s\u00f6ylemesi ve dolar\u0131n y\u0131ll\u0131k zirvelere yak\u0131n g\u00fc\u00e7lenmesi alt\u0131n\u0131 14 ayl\u0131k dibe itti; reel faiz ve dolar kanal\u0131 alt\u0131n i\u00e7in net olumsuz. \u0130ran sava\u015f\u0131 ve jeopolitik gerilim g\u00fcvenli liman talebi yaratabilir ancak bu etki mevcut s\u0131k\u0131la\u015ft\u0131rma bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Fiyat\u0131n zaten d\u00fc\u015fm\u00fc\u015f olmas\u0131 k\u0131sa vadeli tepki riskini art\u0131rd\u0131\u011f\u0131 i\u00e7in g\u00fcveni biraz s\u0131n\u0131rl\u0131yorum.",
-    "new": 3,
-    "gpt_score": -0.58,
-    "gpt_confidence": 0.72
-   },
    {
     "ts": 1795050977401,
     "score": -0.55,
@@ -29884,63 +29875,70 @@
     "new": 18,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795510578828,
+    "score": -0.3,
+    "confidence": 0.4,
+    "reason": "Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canlan\u0131yor; bu, alt\u0131n i\u00e7in net negatif bir ortam. Jeopolitik gerilim (Ukrayna, DR Kongo, NATO'nun Polonya'ya AWACS g\u00f6nderimi) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. Alt\u0131n\u0131n 14 ayl\u0131k dipten toparlanmas\u0131 ve PCE enflasyon verisi \u00f6ncesindeki karars\u0131zl\u0131k nedeniyle g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+    "new": 16,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 53
+   "n": 54
   },
   "news_seen": [
+   "Commission adopts guidelines implementing the visa ban on combatants in Russia\u2019s war of aggression against Ukraine - The European Sting",
+   "Gold price up for second straight day, nudging Tk 2 lakh per bhori again - Just News BD",
+   "North Korea threatens to shut Swiss office over Russian youth camp sanctions - South China Morning Post",
+   "Euro Edges Higher, But Dollar, Fed Weigh on EUR/USD - TradingPedia",
+   "Pentagon delays approval for Patriot missile shipments to Ukraine: Report - A News",
    "DR Congo says aircraft missing as rebels claim to shoot down plane",
-   "Jet Drones Push the War Deep Into Western Ukraine - El Mundo America",
    "Gold Climbs To Rs 1.28 Lakh Per 10 Grams, Silver Recovers - Deccan Chronicle",
-   "Global Landmine Casualties Hit a 5-Year High, Driven by Myanmar\u2019s Brutal Civil War and Syria - ASHARQ AL-AWSAT English",
-   "Gaza war has undone 77 years of human development, UN warns - The European Sting",
    "US Dollar Index Price Forecast: Experts flag rally near 104.60 as overdone - FXStreet",
-   "U.S. imposes new sanctions targeting Iran\u2019s shadow banking networks - \u0633\u0627\u0646\u0627",
-   "US senators move to halt funding for a war against Iran - Egypt Independent",
    "War Reveals a Global Food System Dependent on Fossil Fuels - Yale E360",
-   "UKRAINE: Youth and families impacted by war receive clothing thanks to World Vision partnership with Salesian Missions - missionnewswire.org",
-   "EC proposes 22nd package of sanctions against Russia - VOV World",
+   "World gold price today 24.11: Unexpected reversal sinks recovery momentum - Laodong.vn",
    "Japan accelerates ICC funding as US sanctions threaten court - Reuters",
    "China says cooperation with Pacific Island nations \u2018not for geopolitical contest\u2019 - Anadolu Ajans\u0131",
-   "Indonesia Arrests Alleged Recruiter of 17 for Russia's War - Stop Russian Recruiters",
-   "The European Commission Has Presented Its 22nd Sanctions Package Against Russia, Including Restrictions on Crypto Platforms and Banks - Incrypted",
    "LME should intervene in historic aluminum squeeze, trader says - Mining.com",
    "Kiwi Dollar Slides Near Multi-Year Lows on AI Rally - TradingPedia",
-   "Rutte has called on the people of all NATO countries to prepare for a possible war - UkrMedia News",
    "AUD Holds Steady as Traders Eye Inflation, Dollar - TradingPedia",
    "The Ukraine-Russia war is escalating \u2013 and it will go global unless Europe speaks with one voice | Simon Tisdall - The Guardian",
    "Former Army Futures Command Chief Says the US May Be Learning the Wrong Lessons From Ukraine's Drone War - Military.com",
    "Swiss Franc: Range trading expected against US Dollar - UOB - FXStreet",
-   "Danske Bank: Renewed Tech Confidence Supports Dollar Strength - Binance",
    "US Sanctions 29 individuals and Entities Linked to the Islamic Republic - IranWire",
+   "Gold Prices Surge in Hyderabad on 24 November 2026 - India News Network",
    "Dollar Rises Above 1.4359 Against the Canadian Dollar Amid Expectations of Fed Rate Hike - KuCoin",
    "Russia Ukraine War - Daily News-Record",
-   "Russia Ukraine War - WV News",
-   "Gold Price Analysis Today | Forex Gold Analysis | XAU/USD Analysis - November 24, 2026 - Mitrade",
+   "World gold prices suddenly lose momentum, pressure from the Fed has not cooled down - Laodong.vn",
    "Silver Price Forecast: XAG/USD turns upside down as global AI stocks make strong comeback - www.tmgm.com",
-   "Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Muslim Network TV",
    "Ukraine government welcomes newly proposed EU sanctions package - The Kyiv Independent",
    "North Korea Reviews Switzerland Relations After Sanctions on Youth Camp Linked to Russia-Ukraine War - U.S. News & World Report",
    "EU unveils new sanctions package against Russia, including visa ban for participants in the war and restrictions on Russian athletes - https://theins.press/en",
-   "Deborah Ann Woll will play Faye in the God of War TV series - Instant Gaming News",
    "What China's Xi could take away from Jensen Huang's return to Nvidia",
    "Forex Today: Global stocks rally led by tech shares, US Dollar stabilizes at 20-month highs - FXStreet",
    "Euro languishes at 19-month lows amid reviving hopes of aggressive Fed hikes - FXStreet",
    "Gold Price Forecast: XAU/USD Rejected at $3,651 Ahead of PCE Inflation - FXLeaders",
    "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits - The Washington Post",
    "Currencies, Commodities, and Indices Test Key Confluence Zones - FOREX.com",
-   "Gold Rate Today in Giridih (24 Nov 2026) - Kotak Neo",
    "NATO Sends AWACS Aircraft to Poland After 3 Russian Missiles Detonate on Its Territory - Kyiv Post",
    "Europe Today: EU Commission proposes new round of sanctions against Russia - Euronews.com",
    "Citi Cuts Laopu Gold Price Target to HK$310 as Weaker Gold Prices Weigh on Q4 Sales - BigGo Finance",
-   "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall - FXEmpire"
+   "Deceived Into the War? - V\u00f6lkerrechtsblog",
+   "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall - FXEmpire",
+   "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data - FXStreet",
+   "Gold Silver Price Today: Prices Rise Sharply - jeevanutsahnews.in",
+   "GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - Red Lake Nation News",
+   "Gold edges lower as markets await US inflation data - TradingView",
+   "Shafaq News..Gold rebounds from 14-month low on bargain buying - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "Ukraine War, Day 1,734: More Than 460,000 Invasion-Linked Russian Deaths Identified - EA WorldView",
+   "Gold price update, morning of November 24, 2026: SJC, 9999 DOJI rings, BTMC PNJ, Phu Quy, Tuesday. - Vietnam.vn"
   ]
  },
  "log": [
-  "23.11 10:59 N  NEWS (10 new) score +0.40 conf 0.50: Yeni haberlerde Fed'in s\u0131k\u0131la\u015fma beklentilerinin geri \u00e7ekilmesi ve dolar\u0131n 19 ayl\u0131k zirvesinden gerilemesi alt\u0131n i\u00e7in olumlu bir tablo \u00e7iziyor; alt\u0131n 3.600 dolar\u0131n \u00fczerinde toparlan\u0131yor. Ancak 'alt\u0131n \u00e7\u00f6k\u00fc\u015f\u00fc' gibi baz\u0131 ba\u015fl\u0131klar eski ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcveni s\u0131n\u0131rl\u0131 tutuyorum.",
-  "23.11 11:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 11:11 N  NEWS (10 new) score +0.20 conf 0.40: ",
   "23.11 11:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 11:23 N  NEWS (13 new) score +0.10 conf 0.35: Alt\u0131n 14 ayl\u0131k dipten toparlan\u0131p 3.600 dolar\u0131n \u00fczerinde tutunuyor; \u0130ran sava\u015f\u0131 ve K\u00f6rfez sald\u0131r\u0131lar\u0131 jeopolitik risk primini destekliyor, zay\u0131flayan dolar da lehe. Ancak ABD enflasyon verisi bekleniyor, Fed'de faiz art\u0131r\u0131m\u0131 tart\u0131\u015fmalar\u0131 ve y\u00fcksek faiz beklentisi alt\u0131n i\u00e7in bask\u0131 yaratabilir; bu nedenle sinyaller kar\u0131\u015f\u0131k ve g\u00fcven d\u00fc\u015f\u00fck.",
@@ -30238,7 +30236,9 @@
   "24.11 11:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 11:32 N  NEWS (10 new) score -0.40 conf 0.50: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canlan\u0131yor; bu, alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131 bir fakt\u00f6r. Ukrayna-Rusya sava\u015f\u0131n\u0131n t\u0131rmanmas\u0131 ve Polonya'daki f\u00fcze olay\u0131 jeopolitik talebi destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. PCE enflasyon verisi \u00f6ncesi belirsizlik y\u00fcksek oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "24.11 11:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 11:44 N  NEWS (18 new) score -0.30 conf 0.50: Dolar endeksi 20 ayl\u0131k zirvelere yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri \u00f6ne \u00e7\u0131k\u0131yor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etken. Ukrayna ve \u0130ran'daki jeopolitik gerilimin g\u00fcvenli liman talebini art\u0131rmas\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor, ancak bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve PCE enflasyon verisi \u00f6ncesi alt\u0131n $3.651 civar\u0131nda diren\u00e7 g\u00f6sterdi."
+  "24.11 11:44 N  NEWS (18 new) score -0.30 conf 0.50: Dolar endeksi 20 ayl\u0131k zirvelere yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri \u00f6ne \u00e7\u0131k\u0131yor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etken. Ukrayna ve \u0130ran'daki jeopolitik gerilimin g\u00fcvenli liman talebini art\u0131rmas\u0131 ise s\u0131n\u0131rl\u0131 bir destek sa\u011fl\u0131yor, ancak bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f ve PCE enflasyon verisi \u00f6ncesi alt\u0131n $3.651 civar\u0131nda diren\u00e7 g\u00f6sterdi.",
+  "24.11 11:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 11:56 N  NEWS (16 new) score -0.30 conf 0.40: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canlan\u0131yor; bu, alt\u0131n i\u00e7in net negatif bir ortam. Jeopolitik gerilim (Ukrayna, DR Kongo, NATO'nun Polonya'ya AWACS g\u00f6nderimi) g\u00fcvenli liman talebini destekliyor ancak etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. Alt\u0131n\u0131n 14 ayl\u0131k dipten toparlanmas\u0131 ve PCE enflasyon verisi \u00f6ncesindeki karars\u0131zl\u0131k nedeniyle g\u00fcven d\u00fc\u015f\u00fck tutuldu."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    4963.78
-   ],
-   [
     1794992375,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795510393,
+    4963.78
+   ],
+   [
+    1795510579,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    4975.18
-   ],
-   [
     1794992375,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795510393,
+    4975.18
+   ],
+   [
+    1795510579,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    4993.28
-   ],
-   [
     1794992375,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795510393,
+    4993.28
+   ],
+   [
+    1795510579,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1794992206,
-    4969.22
-   ],
-   [
     1794992375,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795510393,
+    4969.22
+   ],
+   [
+    1795510579,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794992206,
-    4737.7
-   ],
    [
     1794992375,
     4740.36
@@ -94899,6 +94895,10 @@
    [
     1795510393,
     5297.35
+   ],
+   [
+    1795510579,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794992206,
-    112386.68
-   ],
    [
     1794992375,
     112386.68
@@ -108542,6 +108538,10 @@
    [
     1795510393,
     128183.18
+   ],
+   [
+    1795510579,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794992206,
-    4876.96
-   ],
    [
     1794992375,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795510393,
+    4876.96
+   ],
+   [
+    1795510579,
     4876.96
    ]
   ],
