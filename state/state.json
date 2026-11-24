@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    5034.97
-   ],
-   [
     1795014116,
     5029.57
    ],
@@ -12094,6 +12090,10 @@
    [
     1795531964,
     5145.97
+   ],
+   [
+    1795532145,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    4868.5
-   ],
-   [
     1795014116,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795531964,
+    4868.5
+   ],
+   [
+    1795532145,
     4868.5
    ]
   ],
@@ -29939,10 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 18:30 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 18:30 N  NEWS (12 new) score +0.30 conf 0.50: ",
-  "23.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 18:30 B6  karar turu: Claude \u00abPiyasa ola\u011fan\u00fcst\u00fc g\u00fc\u00e7l\u00fc bir risk i\u015ftah\u0131yla y\u00fckseliyor; trend y\u00f6n\u00fcnde endekslerde long tercih edilirken a\u015f\u0131r\u0131 uzam\u0131\u015f hisselerden ka\u00e7\u0131n\u0131l\u0131yor.\u00bb / GPT \u00ab-\u00bb",
   "23.11 18:42 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 18:42 N  NEWS (10 new) score +0.20 conf 0.40: Alt\u0131n son saatlerde de\u011fer kazan\u0131yor; ABD imalat ve hizmet verilerinin zay\u0131flamas\u0131 ile AI sat\u0131\u015f\u0131n\u0131n Fed beklentilerini yumu\u015fatmas\u0131 fiyat\u0131 destekliyor. Ancak bu haberlerin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f durumda ve yak\u0131ndaki ABD enflasyon verisi y\u00f6n\u00fc tersine \u00e7evirebilece\u011fi i\u00e7in g\u00fcven s\u0131n\u0131rl\u0131.",
   "23.11 18:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30234,11 @@
   "24.11 17:43 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "24.11 17:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwBXCes8wtrtkz2mvJx'}",
   "24.11 17:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwQizBrkoyen15tBgve'}",
-  "24.11 17:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwe28RSe99YaUETKn4Y'}"
+  "24.11 17:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwe28RSe99YaUETKn4Y'}",
+  "24.11 17:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwsGWUrkrs5jBKzqdBF'}",
+  "24.11 17:55 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "24.11 17:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 17:55 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    4963.78
-   ],
-   [
     1795014116,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795531964,
+    4963.78
+   ],
+   [
+    1795532145,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    4975.18
-   ],
-   [
     1795014116,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795531964,
+    4975.18
+   ],
+   [
+    1795532145,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    4993.28
-   ],
-   [
     1795014116,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795531964,
+    4993.28
+   ],
+   [
+    1795532145,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795013925,
-    4969.22
-   ],
-   [
     1795014116,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795531964,
+    4969.22
+   ],
+   [
+    1795532145,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795013925,
-    4678.94
-   ],
    [
     1795014116,
     4677.21
@@ -94899,6 +94895,10 @@
    [
     1795531964,
     5297.35
+   ],
+   [
+    1795532145,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795013925,
-    113978.73
-   ],
    [
     1795014116,
     113978.73
@@ -108542,14 +108538,18 @@
    [
     1795531964,
     128183.18
+   ],
+   [
+    1795532145,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795531426015,
+  "last_decision_ms": 1795532144567,
   "view": {
-   "ts": 1795531426015,
+   "ts": 1795532144567,
    "claude": "",
    "gpt": "",
    "gpt_model": null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795013925,
-    4876.96
-   ],
    [
     1795014116,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795531964,
+    4876.96
+   ],
+   [
+    1795532145,
     4876.96
    ]
   ],
