@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 09:21 (İstanbul)
+> Son güncelleme: 24.11.2026 09:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 09:12): Claude puan **-0.25**, güven 0.40 — Fed faiz artırımı beklentilerinin yükselmesi ve güçlü dolar altın için baskı yaratıyor; AI kaynaklı risk iştahı da güvenli liman talebini azaltıyor. İran ve Hürmüz gerilimi gibi jeopolitik riskler ise altını destekleyebilecek olsa da piyasa bu riskleri büyük ölçüde fiyatlamış görünüyor, bu nedenle sinyal karışık ve orta düzeyde negatif.
+Son haber analizi (24.11 09:24): Claude puan **+0.10**, güven 0.35 — Jeopolitik risk (Hürmüz'de mayın olayları, İran savaşı riski, yaptırımlar) ve borsa satışının Fed 'put' beklentisini canlandırması altın için hafif destekleyici; ancak AI kaynaklı yükseliş Fed faiz artırımı beklentilerini ve doları güçlendirerek altı baskılıyor, ABD enflasyon verisi öncesi belirsizlik yüksek. Karışık sinyaller nedeniyle yön net değil, güven düşük.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-24.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 08:12 N  NEWS (13 new) score -0.10 conf 0.40: Jeopolitik tarafta Hürmüz Boğazı'nda tankerlerin yanması ve İran riskine dair haberler altın için güvenli liman desteği sağlıyor. Ancak Fed'in faiz artırımı beklentileri, Williams'ın sert enflasyon söylemi ve dolar endeksinin 20 aylık zirvesine yakın seyri daha baskın olduğu için kısa vadede hafif negatif bir görünüm var; ABD PCE enflasyon verisi bekleniyor, sonuç yönü belirsiz.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 09:00 N  NEWS (15 new) score +0.10 conf 0.35: Jeopolitik riskler (Hürmüz'de mayın, İran savaşı riski, Ukrayna'ya Patriot gecikmesi) altın için güvenli liman desteği sağlıyor, ancak Fed'in faiz artırımı beklentileri ve ABD doları endeksinin 104,50 civarında dirençli seyretmesi bunu dengeliyor. Altın yeniden toparlanıyor, fakat bu toparlanma hisse senedi piyasasındaki iyileşmeyle ilişkili görünüyor; sinyaller karışık olduğu için yön belirsiz ve güven düşük.
 24.11 09:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 09:12 N  NEWS (16 new) score -0.25 conf 0.40: Fed faiz artırımı beklentilerinin yükselmesi ve güçlü dolar altın için baskı yaratıyor; AI kaynaklı risk iştahı da güvenli liman talebini azaltıyor. İran ve Hürmüz gerilimi gibi jeopolitik riskler ise altını destekleyebilecek olsa da piyasa bu riskleri büyük ölçüde fiyatlamış görünüyor, bu nedenle sinyal karışık ve orta düzeyde negatif.
+24.11 09:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 09:24 N  NEWS (14 new) score +0.10 conf 0.35: Jeopolitik risk (Hürmüz'de mayın olayları, İran savaşı riski, yaptırımlar) ve borsa satışının Fed 'put' beklentisini canlandırması altın için hafif destekleyici; ancak AI kaynaklı yükseliş Fed faiz artırımı beklentilerini ve doları güçlendirerek altı baskılıyor, ABD enflasyon verisi öncesi belirsizlik yüksek. Karışık sinyaller nedeniyle yön net değil, güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
