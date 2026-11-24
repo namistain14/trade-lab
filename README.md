@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 14:22 (İstanbul)
+> Son güncelleme: 24.11.2026 14:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 14:10): Claude puan **+0.08**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyon ile ilgili bir haber yok. Rusya'nın nükleer uydu iddiaları ve NATO'nun uzay tehdidi açıklaması hafif bir jeopolitik risk primi yaratabilir, ancak etkisi sınırlı ve büyük olasılıkla kısa vadede fiyatlanmış durumda.
+Son haber analizi (24.11 14:23): Claude puan **-0.40**, güven 0.60 — Altın üzerindeki ana baskı, Fed faiz artırımı beklentilerinin güçlenmesi ve dolar güçlenmesinden geliyor; bu, reel faiz ve dolar kanalıyla altı aşağı çekiyor. Hormuz'daki tanker saldırısı ve İran savaşı gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 12:44 N  NEWS (10 new) score -0.15 conf 0.40: Hürmüz Boğazı'nda üç tankerin yanması jeopolitik risk primi yaratarak altı destekliyor; ancak Fed faiz artırımı riski, güçlenen dolar ve ABD enflasyon verisi öncesindeki baskı altın üzerinde daha belirleyici görünüyor. Sinyaller karışık ve birbiriyle çelişiyor, bu nedenle hafif negatif bir eğilim ve düşük-orta güven uygun.
-24.11 12:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 12:57 N  NEWS (10 new) score -0.30 conf 0.50: Yeni başlıklardaki ana etki dolar güçlenmesi ve AI kaynaklı yükselişin Fed faiz artırımı beklentilerini canlandırması yönünde; bu altın için baskılayıcı. Hormuz'da tanker yangınları gibi jeopolitik risk jeton olarak altını destekleyebilir, ancak bu haber daha eski olduğu ve yeni gelişmeler faiz/dolar kanalında ağırlık taşıdığı için net etki hafif negatif.
 24.11 13:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:09 N  NEWS (12 new) score -0.30 conf 0.45: Dolar, AI kaynaklı yükselişle birlikte Fed faiz artırımı beklentilerini güçlendiriyor ve bu altın için baskı yaratıyor; ABD enflasyon verisi de altını aşağı çekmiş görünüyor. Hürmüz'de tankerlerin yanması gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış veya gürültü niteliğinde.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 13:58 N  NEWS (1 new) score +0.05 conf 0.20: Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi taşımıyor. DR Kongo'daki askeri uçak kaybı ve isyancıların düşürme iddiası sınırlı bir güvenli liman talebi yaratabilir, ancak küresel ölçekte önemli bir gelişme değil. Fed, enflasyon, dolar veya merkez bankası alımlarıyla ilgili yeni bir haber yok, bu yüzden etki çok zayıf ve belirsiz.
 24.11 14:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:10 N  NEWS (1 new) score +0.08 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyon ile ilgili bir haber yok. Rusya'nın nükleer uydu iddiaları ve NATO'nun uzay tehdidi açıklaması hafif bir jeopolitik risk primi yaratabilir, ancak etkisi sınırlı ve büyük olasılıkla kısa vadede fiyatlanmış durumda.
+24.11 14:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 14:23 N  NEWS (42 new) score -0.40 conf 0.60: Altın üzerindeki ana baskı, Fed faiz artırımı beklentilerinin güçlenmesi ve dolar güçlenmesinden geliyor; bu, reel faiz ve dolar kanalıyla altı aşağı çekiyor. Hormuz'daki tanker saldırısı ve İran savaşı gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
