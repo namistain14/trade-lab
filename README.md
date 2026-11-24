@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 08:45 (İstanbul)
+> Son güncelleme: 24.11.2026 08:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 08:36): Claude puan **-0.10**, güven 0.40 — Hormuz'daki mayın ve tanker saldırıları jeopolitik risk primini destekliyor, ancak dolar 20 aylık zirvesine yakın, Fed'in faiz artırımı beklentileri güçleniyor ve AI hisselerindeki yükseliş güvenli liman talebini zayıflatıyor. Bu nedenle kısa vadede hafif negatif, düşük güvenli bir görünüm var.
+Son haber analizi (24.11 08:48): Claude puan **-0.05**, güven 0.30 — Hormuz'daki mayın olayları ve Pentagon'un Patriot sevkiyatlarını geciktirmesi jeopolitik risk primini destekliyor, ancak Fed faiz artırımı beklentileri ve riskli varlık iştahını artıran AI rallisi altın için baskılayıcı. Gelecek PCE enflasyon verisi belirsizliği artırdığından yön net değil; haberler çelişkili olduğu ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 07:35 N  NEWS (9 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor (Williams "harekete geçmeli", Emons Aralık'ta artırım öngörüyor); bu, altın için baskı yaratan bir unsur. Savaş/NATO gerilimi güvenli liman talebini destekliyor olsa da etkisi sınırlı kalıyor; altın 3.666 civarında toparlanıyor ve ABD PCE enflasyon verisi öncesinde belirsizlik yüksek.
-24.11 07:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:47 N  NEWS (17 new) score -0.30 conf 0.50: Dolar 20 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı beklentileri yükseliyor; Williams ile Emons'un sıkı duruşu altın için baskı oluşturuyor. Buna karşın İran savaşı ve kapanma riski gibi jeopolitik gelişmeler sınırlı bir güvenli liman desteği sağlayabilir, ayrıca ABD enflasyon verisi (PCE) yakın vadede volatilite yaratabilir.
 24.11 08:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 08:00 N  NEWS (7 new) score -0.30 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed'in faiz artırma beklentileri yükseliyor; bu, altın için baskılayıcı bir etki yaratıyor. Hormuz'da tanker yangınları ve İran savaşı gibi jeopolitik riskler ise sınırlı bir güvenli liman desteği sağlıyor, ancak bu risk zaten fiyatlanmış görünüyor. Yaklaşan ABD enflasyon verisi (PCE) belirsizliği artırdığı için güven düşük tutuldu.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 08:24 N  NEWS (12 new) score -0.10 conf 0.40: Altın 14 aylık dipten toparlanıyor, ancak doların 20 aylık zirveye yakın seyretmesi ve Fed'de faiz artırımı beklentilerinin güçlenmesi altın için baskı yaratıyor. Hürmüz'deki tanker saldırıları ve İran savaşının genişleme riski güvenli liman talebini destekliyor, bu da sinyalleri karışık hale getiriyor; bu nedenle hafif negatif, düşük-orta güvenli bir görüş.
 24.11 08:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 08:36 N  NEWS (3 new) score -0.10 conf 0.40: Hormuz'daki mayın ve tanker saldırıları jeopolitik risk primini destekliyor, ancak dolar 20 aylık zirvesine yakın, Fed'in faiz artırımı beklentileri güçleniyor ve AI hisselerindeki yükseliş güvenli liman talebini zayıflatıyor. Bu nedenle kısa vadede hafif negatif, düşük güvenli bir görünüm var.
+24.11 08:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 08:48 N  NEWS (14 new) score -0.05 conf 0.30: Hormuz'daki mayın olayları ve Pentagon'un Patriot sevkiyatlarını geciktirmesi jeopolitik risk primini destekliyor, ancak Fed faiz artırımı beklentileri ve riskli varlık iştahını artıran AI rallisi altın için baskılayıcı. Gelecek PCE enflasyon verisi belirsizliği artırdığından yön net değil; haberler çelişkili olduğu ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
