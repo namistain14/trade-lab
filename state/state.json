@@ -1,24 +1,9 @@
 {
  "crypto_rules": {
   "account": {
-   "balance": 5073.501015632307,
+   "balance": 5145.966764227174,
    "start": 5000.0,
-   "positions": [
-    {
-     "id": "548e5872",
-     "symbol": "BNBUSDT",
-     "side": "short",
-     "qty": 2.920851376900847,
-     "entry": 573.207986,
-     "tp": 547.6733577104831,
-     "sl": 585.9753001447584,
-     "opened_ms": 1795446119232,
-     "entry_cost": 0.8371276675793308,
-     "max_hold_min": 2880,
-     "margin": 1674.2553351586614,
-     "note": "1 saatlik d\u00fc\u015f\u00fc\u015f trendi, tepki bitti (RSI 65); hedef 4xATR, stop 2xATR"
-    }
-   ],
+   "positions": [],
    "trades": [
     {
      "id": "e757136b",
@@ -79,21 +64,37 @@
      "gross": -29.7742,
      "costs": 1.6995,
      "pnl": -31.4737
+    },
+    {
+     "id": "548e5872",
+     "symbol": "BNBUSDT",
+     "side": "short",
+     "qty": 2.920851376900847,
+     "entry": 573.207986,
+     "tp": 547.6733577104831,
+     "sl": 585.9753001447584,
+     "opened_ms": 1795446119232,
+     "entry_cost": 0.8371276675793308,
+     "max_hold_min": 2880,
+     "margin": 1674.2553351586614,
+     "note": "1 saatlik d\u00fc\u015f\u00fc\u015f trendi, tepki bitti (RSI 65); hedef 4xATR, stop 2xATR",
+     "exit": 547.8376597177962,
+     "closed_ms": 1795489560000,
+     "reason": "take profit",
+     "gross": 74.103,
+     "costs": 1.6372,
+     "pnl": 72.4657
     }
    ],
    "day": {
     "date": "2026-11-24",
     "trades": 0,
-    "pnl": 0.0,
+    "pnl": 72.46574859486694,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794974075,
-    4995.37
-   ],
    [
     1794974255,
     4996.47
@@ -12089,6 +12090,10 @@
    [
     1795489463,
     5139.78
+   ],
+   [
+    1795489644,
+    5145.97
    ]
   ],
   "archive": [
@@ -13944,7 +13949,7 @@
    "BTCUSDT": 1795485600000,
    "ETHUSDT": 1795485600000,
    "SOLUSDT": 1795485600000,
-   "BNBUSDT": 1795442400000,
+   "BNBUSDT": 1795485600000,
    "XRPUSDT": 1795485600000,
    "DOGEUSDT": 1795485600000
   }
@@ -15162,10 +15167,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794974075,
-    4868.5
-   ],
    [
     1794974255,
     4868.5
@@ -27160,6 +27161,10 @@
    ],
    [
     1795489463,
+    4868.5
+   ],
+   [
+    1795489644,
     4868.5
    ]
   ],
@@ -29934,7 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 01:56 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 01:59 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:02 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "23.11 02:05 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
@@ -30233,7 +30237,8 @@
   "24.11 05:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 05:49 N  NEWS (11 new) score -0.30 conf 0.50: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini y\u00fckseltiyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir etki. Buna kar\u015f\u0131l\u0131k NATO-Rusya gerilimi ve Fed 'put' tart\u0131\u015fmas\u0131 gibi g\u00fcvenli liman ve gev\u015feme y\u00f6nl\u00fc unsurlar k\u0131smen dengeliyor, bu y\u00fczden etki orta d\u00fczeyde negatif kal\u0131yor.",
   "24.11 06:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 06:01 N  NEWS (3 new) score -0.25 conf 0.45: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir fakt\u00f6rd\u00fcr. Buna kar\u015f\u0131l\u0131k NATO-Rusya gerginli\u011fi ve Estonya/Polonya'daki olaylar g\u00fcvenli liman talebini destekleyebilir, alt\u0131n da dip al\u0131mlar\u0131yla toparlan\u0131yor; ayr\u0131ca ABD PCE enflasyon verisi bekleniyor. Sinyaller kar\u0131\u015f\u0131k ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu."
+  "24.11 06:01 N  NEWS (3 new) score -0.25 conf 0.45: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor; bu, alt\u0131n i\u00e7in 1-4 saatlik vadede bask\u0131lay\u0131c\u0131 bir fakt\u00f6rd\u00fcr. Buna kar\u015f\u0131l\u0131k NATO-Rusya gerginli\u011fi ve Estonya/Polonya'daki olaylar g\u00fcvenli liman talebini destekleyebilir, alt\u0131n da dip al\u0131mlar\u0131yla toparlan\u0131yor; ayr\u0131ca ABD PCE enflasyon verisi bekleniyor. Sinyaller kar\u0131\u015f\u0131k ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
+  "24.11 06:07 A  CLOSE BNBUSDT short take profit: +72.47 USD"
  ],
  "gold_big": {
   "account": {
@@ -30420,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1794974075,
-    4963.78
-   ],
-   [
     1794974255,
     4963.78
    ],
@@ -42417,6 +42418,10 @@
    ],
    [
     1795489463,
+    4963.78
+   ],
+   [
+    1795489644,
     4963.78
    ]
   ],
@@ -42532,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1794974075,
-    4975.18
-   ],
-   [
     1794974255,
     4975.18
    ],
@@ -54529,6 +54530,10 @@
    ],
    [
     1795489463,
+    4975.18
+   ],
+   [
+    1795489644,
     4975.18
    ]
   ],
@@ -54614,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1794974075,
-    4993.28
-   ],
-   [
     1794974255,
     4993.28
    ],
@@ -66611,6 +66612,10 @@
    ],
    [
     1795489463,
+    4993.28
+   ],
+   [
+    1795489644,
     4993.28
    ]
   ]
@@ -66821,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1794974075,
-    4969.22
-   ],
-   [
     1794974255,
     4969.22
    ],
@@ -78818,6 +78819,10 @@
    ],
    [
     1795489463,
+    4969.22
+   ],
+   [
+    1795489644,
     4969.22
    ]
   ],
@@ -82895,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794974075,
-    4791.35
-   ],
    [
     1794974255,
     4817.07
@@ -94894,6 +94895,10 @@
    [
     1795489463,
     5297.35
+   ],
+   [
+    1795489644,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96538,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794974075,
-    112393.69
-   ],
    [
     1794974255,
     112393.69
@@ -108537,6 +108538,10 @@
    [
     1795489463,
     128183.18
+   ],
+   [
+    1795489644,
+    128183.18
    ]
   ],
   "open": {},
@@ -108719,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794974075,
-    4876.96
-   ],
    [
     1794974255,
     4876.96
@@ -120717,6 +120718,10 @@
    ],
    [
     1795489463,
+    4876.96
+   ],
+   [
+    1795489644,
     4876.96
    ]
   ],
