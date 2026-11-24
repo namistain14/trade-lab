@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 14:56 (İstanbul)
+> Son güncelleme: 24.11.2026 14:59 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 14:47): Claude puan **-0.10**, güven 0.30 — Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
+Son haber analizi (24.11 14:59): Claude puan **-0.20**, güven 0.40 — Haberlerin ağırlığı hafif baskılayıcı: Fed'in faiz artırma beklentileri ve enflasyon endişeleri altın üzerinde baskı yaratıyor, dolar da güçlü kalmaya devam ediyor. Buna karşılık Hürmüz'deki tanker saldırıları ve İran savaşı gibi jeopolitik riskler güvenli liman talebini destekliyor; ancak bu riskler büyük ölçüde fiyatlanmış görünüyor, bu nedenle güven düşük.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 13:21 N  NEWS (12 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri yükseliyor, dolar AI kaynaklı yükselişle güçleniyor ve Fed yetkilisi enflasyonla mücadelede "yapılacak iş olduğunu" söylüyor; bu tablo altın için baskılayıcı. Hormuz'da tankerlerin yanması gibi jeopolitik gerilim güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca altındaki toparlanma marjin satışından sonra geldiği için yönü belirsiz.
-24.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:33 N  NEWS (18 new) score -0.10 conf 0.40: Fed faiz artırımı beklentileri ve güçlenen dolar (AI kaynaklı risk iştahı, Williams ve başka bir Fed yetkilisinin enflasyon uyarıları) altın için kısa vadede baskı yaratıyor. Hürmüz'de tanker saldırıları, İran yaptırımları ve Rusya-Estonya gerilimi ise güvenli liman talebini destekliyor; bu nedenle etki karışık ve hafif negatif, düşük güvenle değerlendirildi.
 24.11 13:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:46 N  NEWS (5 new) score +0.05 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia/Jensen Huang, Meksika uyuşturucu baronu operasyonu, Hasina'nın dönüş planı, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankası altın alımına dair yeni bir haber yok; DR Kongo'da uçak düşürme iddiası küçük bir güvenli liman etkisi yaratabilir ama sınırlı. Bu nedenle etki hafif pozitif ile sınırlı, güven düşük.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 14:35 N  NEWS (11 new) score -0.30 conf 0.60: Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
 24.11 14:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:47 N  NEWS (14 new) score -0.10 conf 0.30: 
+24.11 14:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 14:59 N  NEWS (8 new) score -0.20 conf 0.40: Haberlerin ağırlığı hafif baskılayıcı: Fed'in faiz artırma beklentileri ve enflasyon endişeleri altın üzerinde baskı yaratıyor, dolar da güçlü kalmaya devam ediyor. Buna karşılık Hürmüz'deki tanker saldırıları ve İran savaşı gibi jeopolitik riskler güvenli liman talebini destekliyor; ancak bu riskler büyük ölçüde fiyatlanmış görünüyor, bu nedenle güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
