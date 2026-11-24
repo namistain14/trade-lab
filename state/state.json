@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    5072.16
-   ],
-   [
     1795017046,
     5066.81
    ],
@@ -12094,6 +12090,10 @@
    [
     1795534878,
     5145.97
+   ],
+   [
+    1795535059,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    4868.5
-   ],
-   [
     1795017046,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795534878,
+    4868.5
+   ],
+   [
+    1795535059,
     4868.5
    ]
   ],
@@ -29939,10 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 19:56 N  NEWS (7 new) score -0.10 conf 0.30: ",
-  "23.11 19:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "23.11 19:56 B6  karar turu: Claude \u00abPiyasa NVDA kaynakl\u0131 b\u00fcy\u00fck bir rallinin ard\u0131ndan \u00f6\u011fle saatlerinde y\u00fcksek seviyelerde konsolide oluyor; kovalamadan sadece se\u00e7ici trend takibi yap\u0131lmal\u0131.\u00bb / GPT \u00ab-\u00bb",
-  "23.11 20:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 20:08 N  NEWS (16 new) score +0.10 conf 0.35: Haberler kar\u0131\u015f\u0131k: alt\u0131ndaki toparlanma al\u0131c\u0131 talebine i\u015faret ediyor, Fed'in \"put\" beklentisi ve Rusya'n\u0131n Polonya'daki f\u00fcze ihlali gibi jeopolitik gerilim gold lehine; ancak USD'nin yeni zirveleri ve Warsh y\u00f6netimindeki faiz beklentileri alt\u0131 bask\u0131layabilir. Net etki hafif pozitif, sinyal zay\u0131f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
   "23.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 20:08 B6  karar turu: Claude \u00abPiyasa NVDA liderli\u011finde \u00e7ok g\u00fc\u00e7l\u00fc bir ralli ya\u015f\u0131yor ve \u00f6\u011fleden sonra konsolidasyonda; se\u00e7ici, endeks a\u011f\u0131rl\u0131kl\u0131 bir long tercih ediliyor.\u00bb / GPT \u00ab-\u00bb",
@@ -30238,7 +30234,11 @@
   "24.11 18:32 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "24.11 18:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMztBK4gLwacZZn8XNoV'}",
   "24.11 18:38 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN17WQdHq11fXkJe8FUV'}",
-  "24.11 18:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN1LnrwvQ2pdiRBrrJbG'}"
+  "24.11 18:41 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN1LnrwvQ2pdiRBrrJbG'}",
+  "24.11 18:44 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN1a2fnFxF928bAvemRt'}",
+  "24.11 18:44 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
+  "24.11 18:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 18:44 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    4963.78
-   ],
-   [
     1795017046,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795534878,
+    4963.78
+   ],
+   [
+    1795535059,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    4975.18
-   ],
-   [
     1795017046,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795534878,
+    4975.18
+   ],
+   [
+    1795535059,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    4993.28
-   ],
-   [
     1795017046,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795534878,
+    4993.28
+   ],
+   [
+    1795535059,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795016856,
-    4969.22
-   ],
-   [
     1795017046,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795534878,
+    4969.22
+   ],
+   [
+    1795535059,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795016856,
-    4766.41
-   ],
    [
     1795017046,
     4765.68
@@ -94899,6 +94895,10 @@
    [
     1795534878,
     5297.35
+   ],
+   [
+    1795535059,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795016856,
-    115982.71
-   ],
    [
     1795017046,
     115318.41
@@ -108542,14 +108538,18 @@
    [
     1795534878,
     128183.18
+   ],
+   [
+    1795535059,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795534338521,
+  "last_decision_ms": 1795535058250,
   "view": {
-   "ts": 1795534338521,
+   "ts": 1795535058250,
    "claude": "",
    "gpt": "",
    "gpt_model": null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795016856,
-    4876.96
-   ],
    [
     1795017046,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795534878,
+    4876.96
+   ],
+   [
+    1795535059,
     4876.96
    ]
   ],
