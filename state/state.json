@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4991.4
-   ],
-   [
     1794989083,
     4992.72
    ],
@@ -12094,6 +12090,10 @@
    [
     1795504208,
     5145.97
+   ],
+   [
+    1795504393,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4868.5
-   ],
-   [
     1794989083,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795504208,
     4868.5
+   ],
+   [
+    1795504393,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.5,
-   "reason": "Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu, reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in olumsuz. Ancak alt\u0131n son g\u00fcnlerde toparlanma sinyali veriyor ve PCE enflasyon verisi \u00f6ncesi piyasa karars\u0131z, bu y\u00fczden sinyal orta d\u00fczeyde ve g\u00fcven s\u0131n\u0131rl\u0131.",
+   "score": 0.05,
+   "confidence": 0.4,
+   "reason": "Jeopolitik risk (Polonya'ya f\u00fcze d\u00fc\u015fmesi, NATO AWACS sevkiyat\u0131, Hormuz'da may\u0131n ve \u0130ran sava\u015f\u0131) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor. Ancak dolar\u0131n 19-20 ayl\u0131k zirvesi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve yakla\u015fan ABD PCE verisi alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif pozitif ile n\u00f6tr aras\u0131nda kal\u0131yor.",
    "n": 45,
-   "ts": 1795503674382,
-   "new_headlines": 23,
+   "ts": 1795504392467,
+   "new_headlines": 34,
    "key_events": [
     "Dolar endeksi 20 ayl\u0131k zirveye yak\u0131n; AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini art\u0131r\u0131yor",
     "ABD PCE enflasyon verisi bekleniyor; s\u00fcrpriz y\u00fcksek gelirse alt\u0131n \u00fczerinde bask\u0131",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795046626344,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Fed tutanaklar\u0131 ve Fed yetkililerinin sert (\u015fahin) a\u00e7\u0131klamalar\u0131, Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 ihtimalini \u00f6ne \u00e7\u0131kar\u0131yor; bu, reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Dolar y\u0131ll\u0131k zirvelerine yakla\u015f\u0131rken alt\u0131n 14 ayl\u0131k dibe ve 3.750 dolar\u0131n alt\u0131na geriledi; \u0130ran sava\u015f\u0131na ili\u015fkin g\u00fcvenli liman talebi destekleyici olsa da bu etkiyi \u015fimdilik bast\u0131r\u0131yor. Ba\u015fl\u0131klar\u0131n baz\u0131lar\u0131 tarih ve ba\u011flam a\u00e7\u0131s\u0131ndan tutars\u0131z oldu\u011fu i\u00e7in g\u00fcveni biraz d\u00fc\u015f\u00fcrd\u00fcm.",
-    "new": 5,
-    "gpt_score": -0.55,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1795047344780,
     "score": -0.5,
@@ -29884,63 +29875,70 @@
     "new": 23,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795504392467,
+    "score": 0.05,
+    "confidence": 0.4,
+    "reason": "Jeopolitik risk (Polonya'ya f\u00fcze d\u00fc\u015fmesi, NATO AWACS sevkiyat\u0131, Hormuz'da may\u0131n ve \u0130ran sava\u015f\u0131) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor. Ancak dolar\u0131n 19-20 ayl\u0131k zirvesi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve yakla\u015fan ABD PCE verisi alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif pozitif ile n\u00f6tr aras\u0131nda kal\u0131yor.",
+    "new": 34,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-24",
-   "n": 48
+   "n": 49
   },
   "news_seen": [
+   "NATO Sends AWACS Aircraft to Poland After 3 Russian Missiles Detonate on Its Territory - Kyiv Post",
+   "Europe Today: EU Commission proposes new round of sanctions against Russia - Euronews.com",
+   "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits - The Washington Post",
+   "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall - FXEmpire",
    "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data - FXStreet",
-   "Gold edges lower as markets await US inflation data - TradingView",
+   "Bessent: New sanctions target Iran\u2019s last financial lifeline - JNS",
+   "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
+   "GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - Red Lake Nation News",
+   "Indian Rupee: RBI hikes to support gains against US Dollar - Commerzbank - FXStreet",
+   "Ukraine War, Day 1,734: More Than 460,000 Invasion-Linked Russian Deaths Identified - EA WorldView",
    "USD/CAD Price Forecast: Weakens to near 1.4350, while sustaining overbought bullish bias - www.tmgm.com",
-   "Gold Rate Today Maharashtra 24 Nov 22K, 24K Prices: Mumbai, Thane, Pune, Nagpur, Nashik, Aurangabad, Kolhapur, Solapur - Livemint",
+   "Euro: Downward pressure against US Dollar continues amid oversold risks \u2013 UOB - www.tmgm.com",
+   "Gold's Rebound Above $3,600 May Not Signal Stability as Natixis Warns of Drop to $3,340 by January - BigGo Finance",
+   "Nebraska U's enduring tradition of military service started with Pershing - Nebraska Today",
+   "10 Nebraska graduates who served their country and shaped America's story - Nebraska Today",
+   "EU Targets Russia\u2019s Energy Services and Shadow Fleet in 22nd Sanctions Proposal - EU Today",
+   "British investigation featuring IDF soldiers\u2019 Gaza war testimonies wins International Emmy - Ynetnews",
    "Euro: Weakness persists with oversold risks against US Dollar \u2013 UOB - FXStreet",
    "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
-   "Dollar perky as renewed AI euphoria fuels Fed hike bets By Reuters - Investing.com",
-   "Gold price rises by Tk1,575 per bhori - www.daily-sun.com",
+   "Geopolitics \u2013 Escalation Is the Base Case Now for Russia and the Gulf - Kyiv Post",
+   "AI Cold War Intensifies Between NVIDIA's Huang and Anthropic's Amodei - \uc870\uc120\uc77c\ubcf4",
    "Gold Rises as Bargain Hunting Returns Ahead of US Inflation Data - Jordan News",
    "Dollar holds near 20-month high as AI rally boosts Fed bets - \u0633\u0627\u0646\u0627",
-   "Gold Rate Today in Goalpara (24 Nov 2026) - Kotak Neo",
-   "Gold price up for second straight day, nudging Tk 2 lakh per bhori again - The Financial Express",
-   "Gold holds steady above $3,600 as tech rally eases selling pressure - Anadolu Ajans\u0131",
-   "Gold Rate Today in Bangalore, 24 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
+   "Sudan war: El Obeid becomes launchpad for SAF\u2019s westward offensive - The Africa Report",
+   "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
    "US dollar refuses to budge despite the risk-on bounce, so what's keeping it so strong? - investingLive",
+   "Scott Bessent Unleashes Fresh Iran Sanctions as Tehran Warns Tankers Against Using Strait of Hormuz: Crud - Benzinga",
+   "Israeli Defense Ministry treating 92,300 wounded, including over 31,500 since the war began - i24NEWS",
    "Dollar surges to 19-month high - The San Joaquin Valley Sun",
-   "Gold price rises for second consecutive day, nearing Tk2 lakh per bhori again - The Business Standard",
-   "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March - StoneX",
-   "Why are gold price rising today? Gold Prices Rebound After 9% Weekly Fall; 3 Key Dates to Watch Before Buying Gold - Kotak Neo",
+   "EU unveils 22nd Russia sanctions package as war nears sixth year - UPI.com",
+   "Oil prices fall as Qatar backs diplomacy to end Iran war - Arabian Gulf Business Insight | AGBI",
+   "Korean War memorabilia on display at DMZ Museum - The Korea Herald",
+   "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal - The New York Times",
+   "A Dog Park Shooting in Ohio Reveals America\u2019s Cold Civil War - The Fulcrum",
    "Swiss Franc trades calm against US Dollar, PCE data in focus - FXStreet",
    "India's 'cockroach' party leader says he was stopped from flying to UK",
+   "Hegseth stalls delivery of 60 Patriot interceptors bought by Ukraine's allies as Russian strikes intensify - report - i24NEWS",
+   "UK Announces Fresh Myanmar Sanctions Following ICJ Genocide Ruling - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+   "God of War TV Series Casts Deborah Ann Woll as Faye - GamingBolt",
    "Jensen Huang's Return Ignites 3,300-Point Taiwan Stock Surge, but Taiwan Dollar Reverses to Close at NT$32.97 - BigGo Finance",
-   "Gold Rate Today in Trivandrum (24 Nov 2026) - Kotak Neo",
-   "Gold Rebounds to $3,600 Level: Why Are Exchanges Still Issuing Critical Risk Warnings? - 36Kr",
-   "Gold Rate Today in Kerala, 24 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
-   "India Gold price today: FXStreet data shows a decline in Gold prices - www.tmgm.com",
-   "British Pound trades vulnerably against US Dollar on revival of US AI stocks - FXStreet",
-   "Gold price in Bangalore today, 24 November Tuesday: Check latest 24K, 22K and 20K gold rates in Silicon Valley of India - Livemint",
-   "Gold Rate Today, November 24: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities - The Indian Express",
-   "Gold price in India: Rates on November 24 - FXStreet",
-   "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-   "Gold price rises by Tk 1,574 per bhari - New Age BD",
-   "Gold Price on 23 November 2026 - Gold Price",
-   "Gold Rate Today in Cooch Behar (24 Nov 2026) - Kotak Neo",
-   "Gold (XAU/USD) Price Forecast: Bullish Reversal Targets $3,900 Resistance - FXEmpire",
-   "United States Dollar Index softens below 104.50, renewed AI euphoria underpins Fed hike bets - FXStreet",
-   "Emons: Markets Have Done Part of Fed\u2019s Job, Will Hike Rate in December, Pause in January - Kathleen Hays Presents: Central Bank Central",
-   "Gold, silver prices today 24 Nov, Tuesday: Check 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others - Livemint",
-   "Gold gives back early gains as global AI stocks regain traction - FXStreet",
-   "Gold Price Analysis Today | Forex Gold Analysis | XAU/USD Analysis - November 24, 2026 - Mitrade",
-   "$3,700 checks Gold\u2019s recovery as US inflation test looms - FXStreet",
-   "Australian Dollar holds ground against US Dollar, Aussie/US inflation data eyed - www.tmgm.com",
-   "Gold Rate Today in Gwalior (24 Nov 2026) - Kotak Neo",
-   "Canadian Dollar under pressure against US Dollar as US PCE takes centre stage - www.tmgm.com",
-   "Asia FX subdued as dollar holds near 20-mth high on AI rally - Investing.com"
+   "Official exchange rates on selected date | Bank of Russia - \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0411\u0430\u043d\u043a \u0420\u043e\u0441\u0441\u0438\u0438",
+   "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions - CNBC",
+   "Pentagon delays Patriot missile shipments to Ukraine - Financial Times",
+   "Army auditors fear key units are unprepared to deploy in Pacific war scenario - CNN",
+   "The World Is Underpricing the Risk of More War in Iran - Bloomberg.com"
   ]
  },
  "log": [
-  "23.11 09:58 N  NEWS (9 new) score +0.10 conf 0.35: Alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor ve dolar 19 ayl\u0131k zirvesinden geri \u00e7ekildi, bu k\u0131sa vadede hafif destekleyici. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, y\u00fcksek getiriler ve PCE enflasyon verisinin beklenmesi bask\u0131 yaratabilir; \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebi yaratsa da piyasada bu etkinin \u015fimdiye kadar s\u0131n\u0131rl\u0131 kald\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
-  "23.11 10:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 10:10 N  NEWS (11 new) score +0.30 conf 0.40: ",
   "23.11 10:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 10:22 N  NEWS (9 new) score +0.10 conf 0.30: ",
@@ -30238,7 +30236,9 @@
   "24.11 09:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 09:49 N  NEWS (14 new) score -0.10 conf 0.40: Jeopardi tarafta \u0130ran/H\u00fcrm\u00fcz gerilimi ve yeni yapt\u0131r\u0131mlar jeopolitik talebi destekliyor, ancak dolar 20 ayl\u0131k zirveye yak\u0131n ve AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirdi\u011fi i\u00e7in reel faiz ve dolar bask\u0131s\u0131 alt\u0131n \u00fczerinde a\u011f\u0131r bas\u0131yor. Net etki hafif negatif; ayr\u0131ca haberlerin \u00e7o\u011fu tekrar niteli\u011finde oldu\u011fundan g\u00fcven s\u0131n\u0131rl\u0131.",
   "24.11 10:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 10:01 N  NEWS (23 new) score -0.30 conf 0.50: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu, reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in olumsuz. Ancak alt\u0131n son g\u00fcnlerde toparlanma sinyali veriyor ve PCE enflasyon verisi \u00f6ncesi piyasa karars\u0131z, bu y\u00fczden sinyal orta d\u00fczeyde ve g\u00fcven s\u0131n\u0131rl\u0131."
+  "24.11 10:01 N  NEWS (23 new) score -0.30 conf 0.50: Dolar 20 ayl\u0131k zirveye yak\u0131n seyrediyor ve AI rallisi Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor; bu, reel faizleri ve dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in olumsuz. Ancak alt\u0131n son g\u00fcnlerde toparlanma sinyali veriyor ve PCE enflasyon verisi \u00f6ncesi piyasa karars\u0131z, bu y\u00fczden sinyal orta d\u00fczeyde ve g\u00fcven s\u0131n\u0131rl\u0131.",
+  "24.11 10:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "24.11 10:13 N  NEWS (34 new) score +0.05 conf 0.40: Jeopolitik risk (Polonya'ya f\u00fcze d\u00fc\u015fmesi, NATO AWACS sevkiyat\u0131, Hormuz'da may\u0131n ve \u0130ran sava\u015f\u0131) alt\u0131n i\u00e7in g\u00fcvenli liman talebini destekliyor. Ancak dolar\u0131n 19-20 ayl\u0131k zirvesi, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin g\u00fc\u00e7lenmesi ve yakla\u015fan ABD PCE verisi alt\u0131n \u00fczerinde bask\u0131 yaratabilir; bu nedenle net etki hafif pozitif ile n\u00f6tr aras\u0131nda kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4963.78
-   ],
-   [
     1794989083,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795504208,
+    4963.78
+   ],
+   [
+    1795504393,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4975.18
-   ],
-   [
     1794989083,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795504208,
+    4975.18
+   ],
+   [
+    1795504393,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4993.28
-   ],
-   [
     1794989083,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795504208,
+    4993.28
+   ],
+   [
+    1795504393,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1794988903,
-    4969.22
-   ],
-   [
     1794989083,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795504208,
+    4969.22
+   ],
+   [
+    1795504393,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794988903,
-    4780.11
-   ],
    [
     1794989083,
     4803.34
@@ -94899,6 +94895,10 @@
    [
     1795504208,
     5297.35
+   ],
+   [
+    1795504393,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1794988903,
-    112393.69
-   ],
    [
     1794989083,
     112393.69
@@ -108542,6 +108538,10 @@
    [
     1795504208,
     128183.18
+   ],
+   [
+    1795504393,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1794988903,
-    4876.96
-   ],
    [
     1794989083,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795504208,
+    4876.96
+   ],
+   [
+    1795504393,
     4876.96
    ]
   ],
