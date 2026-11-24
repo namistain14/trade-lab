@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    5049.35
-   ],
-   [
     1795016496,
     5066.64
    ],
@@ -12094,6 +12090,10 @@
    [
     1795534340,
     5145.97
+   ],
+   [
+    1795534517,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    4868.5
-   ],
-   [
     1795016496,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795534340,
+    4868.5
+   ],
+   [
+    1795534517,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 19:43 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 19:43 B6  karar turu: Claude \u00ab\u00c7ok g\u00fc\u00e7l\u00fc y\u00fckseli\u015f g\u00fcn\u00fcn\u00fcn ard\u0131ndan \u00f6\u011fleden sonra k\u00e2r sat\u0131\u015flar\u0131 ba\u015fl\u0131yor, k\u0131sa vadede a\u015fa\u011f\u0131 y\u00f6nl\u00fc d\u00fczeltme riski a\u011f\u0131r bas\u0131yor.\u00bb / GPT \u00ab-\u00bb",
   "23.11 19:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 19:56 N  NEWS (7 new) score -0.10 conf 0.30: ",
@@ -30238,7 +30237,8 @@
   "24.11 18:32 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMzeyEg7s6i5V9rYyt9Z'}",
   "24.11 18:32 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "24.11 18:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "24.11 18:32 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb"
+  "24.11 18:32 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
+  "24.11 18:35 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMztBK4gLwacZZn8XNoV'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    4963.78
-   ],
-   [
     1795016496,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795534340,
+    4963.78
+   ],
+   [
+    1795534517,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    4975.18
-   ],
-   [
     1795016496,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795534340,
+    4975.18
+   ],
+   [
+    1795534517,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    4993.28
-   ],
-   [
     1795016496,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795534340,
+    4993.28
+   ],
+   [
+    1795534517,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795016326,
-    4969.22
-   ],
-   [
     1795016496,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795534340,
+    4969.22
+   ],
+   [
+    1795534517,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795016326,
-    4746.76
-   ],
    [
     1795016496,
     4757.02
@@ -94899,6 +94895,10 @@
    [
     1795534340,
     5297.35
+   ],
+   [
+    1795534517,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795016326,
-    115683.42
-   ],
    [
     1795016496,
     115900.35
@@ -108542,6 +108538,10 @@
    [
     1795534340,
     128183.18
+   ],
+   [
+    1795534517,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795016326,
-    4876.96
-   ],
    [
     1795016496,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795534340,
+    4876.96
+   ],
+   [
+    1795534517,
     4876.96
    ]
   ],
