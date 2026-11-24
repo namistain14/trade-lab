@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 07:20 (İstanbul)
+> Son güncelleme: 24.11.2026 07:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 07:11): Claude puan **-0.20**, güven 0.40 — Dolar 20 aylık zirvesine yakın ve piyasalar Fed'in aralık ayında faiz artırabileceğini fiyatlıyor; Williams'ın "enflasyona karşı harekete geçmeliyiz" açıklaması da sıkı para politikası beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık ABD enflasyon ve PCE verisi öncesi alıcıların geri dönmesi ve Rusya-NATO gerilimi gibi jeopolitik haberler kısa vadede bir destek sağlayabilir; bu nedenle sinyal zayıf-negatif ve güven düşük.
+Son haber analizi (24.11 07:23): Claude puan **-0.30**, güven 0.50 — Fed'in faiz artırımı beklentileri yükselirken dolar endeksi 20 aylık zirvesine yakın seyrediyor; bu, altın için kısa vadede baskı oluşturuyor. Jeopolitik başlıklar (NATO toplantısı, Rusya-Ukrayna) güvenli liman talebini destekleyebilir, ancak bunların çoğu eski veya fiyatlanmış haberler olduğundan etkisi sınırlı kalıyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 05:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-24.11 05:37 N  NEWS (5 new) score -0.30 conf 0.50: Dolar 20 aylık zirveye yakın seyrediyor ve Fed'in faiz artırımı beklentileri yükseliyor (Williams Aralık artırımına işaret etti); bu, altın için baskılayıcı bir faktör. Ukrayna/NATO gerilimi gibi jeopolitik haberler güvenli liman talebini bir miktar destekleyebilir, ancak etkisi sınırlı ve belirsiz; ayrıca altındaki yükseliş haberleri (Jensen Huang, 3% sıçrama) eski ve kısmen fiyatlanmış.
 24.11 05:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 05:49 N  NEWS (11 new) score -0.30 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve AI rallisi Fed faiz artırımı beklentilerini yükseltiyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir etki. Buna karşılık NATO-Rusya gerilimi ve Fed 'put' tartışması gibi güvenli liman ve gevşeme yönlü unsurlar kısmen dengeliyor, bu yüzden etki orta düzeyde negatif kalıyor.
 24.11 06:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 06:59 N  NEWS (0 new) score +0.03 conf 0.25: Yeni başlıkların çoğu (Nvidia'da Jensen Huang'ın dönüşü, Myanmar yaptırımları, magazin ve yerel haberler) altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi saldırısı ve Ukrayna savaşının yayılması gibi jeopolitik bir unsur var, ancak etkisi sınırlı ve güvenli liman talebini belirgin biçimde artırmıyor. Bu nedenle sinyal çok zayıf, skor sıfıra yakın.
 24.11 07:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:11 N  NEWS (45 new) score -0.20 conf 0.40: Dolar 20 aylık zirvesine yakın ve piyasalar Fed'in aralık ayında faiz artırabileceğini fiyatlıyor; Williams'ın "enflasyona karşı harekete geçmeliyiz" açıklaması da sıkı para politikası beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık ABD enflasyon ve PCE verisi öncesi alıcıların geri dönmesi ve Rusya-NATO gerilimi gibi jeopolitik haberler kısa vadede bir destek sağlayabilir; bu nedenle sinyal zayıf-negatif ve güven düşük.
+24.11 07:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 07:23 N  NEWS (10 new) score -0.30 conf 0.50: Fed'in faiz artırımı beklentileri yükselirken dolar endeksi 20 aylık zirvesine yakın seyrediyor; bu, altın için kısa vadede baskı oluşturuyor. Jeopolitik başlıklar (NATO toplantısı, Rusya-Ukrayna) güvenli liman talebini destekleyebilir, ancak bunların çoğu eski veya fiyatlanmış haberler olduğundan etkisi sınırlı kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
