@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 03:57 (İstanbul)
+> Son güncelleme: 24.11.2026 04:00 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -12,7 +12,7 @@
 | Kazanma oranı | %0.0 | %66.7 |
 | Ödenen komisyon/spread | 0.00 $ | 4.95 $ |
 
-**Hesap değeri: 5,115.68 $** (başlangıç 5,000 $, +115.68 $ / %+2.31)
+**Hesap değeri: 5,116.30 $** (başlangıç 5,000 $, +116.30 $ / %+2.33)
 
 Açık pozisyonlar: BNBUSDT short @ 573.21 (TP 547.67 / SL 585.98)
 
@@ -35,7 +35,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 03:47): Claude puan **-0.30**, güven 0.40 — Fed yetkililerinin (Williams, Fed'in üçüncü ismi) sıkılaşma sinyalleri ve doların yeni zirveleri altın için baskı yaratıyor; Aralık faiz artırımı beklentisi reel faizleri yükselterek altı olumsuz etkiliyor. Öte yandan altının son saatlerde %3,5 toparlanması ve İran savaşı/jeopolitik gerilim gibi güvenli liman talebini destekleyen unsurlar kısmen dengeliyor; çelişkili haberler nedeniyle güven orta düzeyde.
+Son haber analizi (24.11 04:00): Claude puan **-0.40**, güven 0.60 — Fed yetkilisi Williams'ın Aralık'ta faiz artırımı sinyali vermesi ve doların 19 aylık zirvesine çıkması altın için baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna'nın yayılması) ise sınırlı bir güvenli liman desteği sağlıyor. Altının kısa vadeli toparlanması ağırlıklı olarak dip alımına dayandığı için sinyal karışık ama net olarak negatif.
 
 Son işlemler:
 
@@ -93,8 +93,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 02:23 N  NEWS (9 new) score -0.25 conf 0.40: 
-24.11 02:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 02:35 N  NEWS (11 new) score -0.25 conf 0.50: Fed yetkililerinin (Williams) ardışık faiz artırımı sinyali ve Fed'in enflasyon konusundaki sert tonu, dolar güçlülüğü beklentisi (Goldman) altın için baskılayıcı. Buna karşılık Ukrayna/İran jeopolitik gerilimleri güvenli liman talebini destekliyor ve altın 3.600 doların üzerine toparlandı; haberler birbiriyle çelişkili olduğu için etki sınırlı ve güven düşük.
 24.11 02:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 02:47 N  NEWS (6 new) score -0.15 conf 0.40: Fed'in sertleşme sinyalleri (Williams'ın art arda faiz artırımı ihtimali, Fed yetkilisinin enflasyonun hedefin üzerinde olduğu uyarısı), güçlü dolar beklentisi ve yükselen Treasury getirileri altın için baskılayıcı. Buna karşılık altındaki kısa vadeli toparlanma ve jeopolitik gerilim haberleri bu baskıyı kısmen dengeliyor, bu nedenle sinyal zayıf ve çelişkili.
@@ -108,6 +106,8 @@ Son işlemler:
 24.11 03:35 N  NEWS (10 new) score -0.30 conf 0.50: Fed yetkililerinin (Williams, Fed'in üçüncü ismi) sıkılaşma sinyalleri ve doların yeni zirveleri altın için baskı yaratıyor; Aralık faiz artırımı beklentisi reel faizleri yükselterek altı olumsuz etkiliyor. Öte yandan altının son saatlerde %3,5 toparlanması ve İran savaşı/jeopolitik gerilim gibi güvenli liman talebini destekleyen unsurlar kısmen dengeliyor; çelişkili haberler nedeniyle güven orta düzeyde.
 24.11 03:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 03:47 N  NEWS (7 new) score -0.30 conf 0.40: 
+24.11 04:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 04:00 N  NEWS (8 new) score -0.40 conf 0.60: Fed yetkilisi Williams'ın Aralık'ta faiz artırımı sinyali vermesi ve doların 19 aylık zirvesine çıkması altın için baskı oluşturuyor; jeopolitik gerilim (İran, Ukrayna'nın yayılması) ise sınırlı bir güvenli liman desteği sağlıyor. Altının kısa vadeli toparlanması ağırlıklı olarak dip alımına dayandığı için sinyal karışık ama net olarak negatif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
