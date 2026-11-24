@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    5041.64
-   ],
-   [
     1795013772,
     5045.44
    ],
@@ -12094,6 +12090,10 @@
    [
     1795531605,
     5145.97
+   ],
+   [
+    1795531784,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    4868.5
-   ],
-   [
     1795013772,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795531605,
+    4868.5
+   ],
+   [
+    1795531784,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 18:18 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 18:18 B6  karar turu: Claude \u00abNVDA'daki CEO haberiyle piyasa \u00e7ok g\u00fc\u00e7l\u00fc bir risk-on g\u00fcn\u00fcnde; ancak a\u015f\u0131r\u0131 oynakl\u0131k nedeniyle yaln\u0131zca daha sakin trendlerde se\u00e7ici long pozisyonlar mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb",
   "23.11 18:30 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 18:30 N  NEWS (12 new) score +0.30 conf 0.50: ",
@@ -30238,7 +30237,8 @@
   "24.11 17:43 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
   "24.11 17:43 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 17:43 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
-  "24.11 17:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwBXCes8wtrtkz2mvJx'}"
+  "24.11 17:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwBXCes8wtrtkz2mvJx'}",
+  "24.11 17:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMwQizBrkoyen15tBgve'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    4963.78
-   ],
-   [
     1795013772,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795531605,
+    4963.78
+   ],
+   [
+    1795531784,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    4975.18
-   ],
-   [
     1795013772,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795531605,
+    4975.18
+   ],
+   [
+    1795531784,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    4993.28
-   ],
-   [
     1795013772,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795531605,
+    4993.28
+   ],
+   [
+    1795531784,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795013565,
-    4969.22
-   ],
-   [
     1795013772,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795531605,
+    4969.22
+   ],
+   [
+    1795531784,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795013565,
-    4661.34
-   ],
    [
     1795013772,
     4690.63
@@ -94899,6 +94895,10 @@
    [
     1795531605,
     5297.35
+   ],
+   [
+    1795531784,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795013565,
-    113978.73
-   ],
    [
     1795013772,
     113978.73
@@ -108542,6 +108538,10 @@
    [
     1795531605,
     128183.18
+   ],
+   [
+    1795531784,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795013565,
-    4876.96
-   ],
    [
     1795013772,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795531605,
+    4876.96
+   ],
+   [
+    1795531784,
     4876.96
    ]
   ],
