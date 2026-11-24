@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 14:44 (İstanbul)
+> Son güncelleme: 24.11.2026 14:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 14:35): Claude puan **-0.30**, güven 0.60 — Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
+Son haber analizi (24.11 14:47): Claude puan **-0.10**, güven 0.30 — Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 13:09 N  NEWS (12 new) score -0.30 conf 0.45: Dolar, AI kaynaklı yükselişle birlikte Fed faiz artırımı beklentilerini güçlendiriyor ve bu altın için baskı yaratıyor; ABD enflasyon verisi de altını aşağı çekmiş görünüyor. Hürmüz'de tankerlerin yanması gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki sınırlı kalıyor ve haberlerin çoğu zaten fiyatlanmış veya gürültü niteliğinde.
-24.11 13:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:21 N  NEWS (12 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri yükseliyor, dolar AI kaynaklı yükselişle güçleniyor ve Fed yetkilisi enflasyonla mücadelede "yapılacak iş olduğunu" söylüyor; bu tablo altın için baskılayıcı. Hormuz'da tankerlerin yanması gibi jeopolitik gerilim güvenli liman talebini destekliyor ancak etkisi sınırlı kalıyor; ayrıca altındaki toparlanma marjin satışından sonra geldiği için yönü belirsiz.
 24.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:33 N  NEWS (18 new) score -0.10 conf 0.40: Fed faiz artırımı beklentileri ve güçlenen dolar (AI kaynaklı risk iştahı, Williams ve başka bir Fed yetkilisinin enflasyon uyarıları) altın için kısa vadede baskı yaratıyor. Hürmüz'de tanker saldırıları, İran yaptırımları ve Rusya-Estonya gerilimi ise güvenli liman talebini destekliyor; bu nedenle etki karışık ve hafif negatif, düşük güvenle değerlendirildi.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 14:23 N  NEWS (42 new) score -0.40 conf 0.60: Altın üzerindeki ana baskı, Fed faiz artırımı beklentilerinin güçlenmesi ve dolar güçlenmesinden geliyor; bu, reel faiz ve dolar kanalıyla altı aşağı çekiyor. Hormuz'daki tanker saldırısı ve İran savaşı gibi jeopolitik risk haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor.
 24.11 14:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:35 N  NEWS (11 new) score -0.30 conf 0.60: Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
+24.11 14:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 14:47 N  NEWS (14 new) score -0.10 conf 0.30: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
