@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 06:10 (İstanbul)
+> Son güncelleme: 24.11.2026 06:13 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 06:01): Claude puan **-0.25**, güven 0.45 — Dolar 20 aylık zirveye yakın seyrediyor ve Fed faiz artırımı beklentileri yükseliyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir faktördür. Buna karşılık NATO-Rusya gerginliği ve Estonya/Polonya'daki olaylar güvenli liman talebini destekleyebilir, altın da dip alımlarıyla toparlanıyor; ayrıca ABD PCE enflasyon verisi bekleniyor. Sinyaller karışık ve kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (24.11 06:13): Claude puan **-0.35**, güven 0.50 — Dolar 20 aylık zirvesine yakın seyrediyor ve AI yükselişi Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için hem güçlü dolar hem de sert para politikası nedeniyle baskı oluşturuyor. Rusya-NATO ve Ukrayna'daki gerilim haberleri güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD enflasyon verisi beklentisi belirsizlik yaratıyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 04:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-24.11 04:49 N  NEWS (5 new) score -0.45 conf 0.50: Dolar 19-20 aylık zirvesine yakın seyrediyor ve Fed'in faiz artırımı beklentileri güçleniyor (Fed'den Williams'ın Aralık'ta faiz artırımı sinyali vermesi), bu da altın için net olarak baskılayıcı. Rusya-NATO ve Ukrayna çatışmalarındaki tırmanış güvenli liman talebini destekliyor, ancak etkisi dolar ve faiz kanalının gerisinde kalıyor; ayrıca başlıklardaki fiyat seviyeleri çelişkili olduğu için güven sınırlı.
 24.11 05:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 05:01 N  NEWS (7 new) score -0.40 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri yükseldi (Williams Aralık artırımına işaret etti); bu, altın için net baskı yaratıyor. Savaş haberleri güvenli liman talebini destekleyebilir, ancak bunlar büyük ölçüde fiyatlanmış durumda ve altın son haftada %9 düşüşten sonra sadece %3,5 toparlandı; bu nedenle güven orta düzeyde tutuldu.
 24.11 05:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 06:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 06:01 N  NEWS (3 new) score -0.25 conf 0.45: Dolar 20 aylık zirveye yakın seyrediyor ve Fed faiz artırımı beklentileri yükseliyor; bu, altın için 1-4 saatlik vadede baskılayıcı bir faktördür. Buna karşılık NATO-Rusya gerginliği ve Estonya/Polonya'daki olaylar güvenli liman talebini destekleyebilir, altın da dip alımlarıyla toparlanıyor; ayrıca ABD PCE enflasyon verisi bekleniyor. Sinyaller karışık ve kısmen fiyatlanmış olduğu için güven orta düzeyde tutuldu.
 24.11 06:07 A  CLOSE BNBUSDT short take profit: +72.47 USD
+24.11 06:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 06:13 N  NEWS (12 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve AI yükselişi Fed faiz artırımı beklentilerini güçlendiriyor; bu, altın için hem güçlü dolar hem de sert para politikası nedeniyle baskı oluşturuyor. Rusya-NATO ve Ukrayna'daki gerilim haberleri güvenli liman talebini bir miktar destekleyebilir, ancak bu gelişmelerin büyük kısmı zaten fiyatlanmış görünüyor ve ABD enflasyon verisi beklentisi belirsizlik yaratıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
