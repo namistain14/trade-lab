@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 16:09 (İstanbul)
+> Son güncelleme: 24.11.2026 16:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -92,7 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 14:35 N  NEWS (11 new) score -0.30 conf 0.60: Altın üzerindeki baskın etki, Fed faiz artırımı beklentileri ve güçlü doların yarattığı baskıdan geliyor; altın toparlanması bu nedenle zayıflıyor. İran–Hürmüz gerilimi ve Rusya–Ukrayna/Baltık tırmanışı güvenli liman talebini destekliyor, ancak bu etki haberlerde zaten fiyatlanmış görünüyor ve faiz/dolar kanalı daha ağır basıyor.
 24.11 14:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 14:47 N  NEWS (14 new) score -0.10 conf 0.30: 
 24.11 14:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -107,6 +106,7 @@ Son işlemler:
 24.11 15:48 N  NEWS (18 new) score -0.10 conf 0.30: Altın, 14 aylık dip seviyelerinden toparlanıyor ve dolar 20 aylık zirvede olsa da Salı günü dolarda geçici duraklama görülüyor. Yeni haberlerdeki savaş ve Rusya-NATO gerilimi güvenli liman talebini destekliyor, ancak bunların çoğu zaten fiyatlanmış ve yükselen tahvil getirisi beklentileri (JPMorgan %5 tahmini) altın için baskılayıcı; net etki hafif negatif.
 24.11 16:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 16:00 N  NEWS (14 new) score -0.10 conf 0.30: Dolar 20 aylık zirvesine yakın seyrediyor ve JPMorgan yüksek tahvil getirisi öngörüyor; bu altın için baskılayıcı. Buna karşılık altın 14 aylık dibinden toparlanıyor, dolar ise yeni alımlarda duraksıyor ve Ukrayna/İran savaşı haberleri jeopolitik risk talebini sınırlı da olsa destekliyor. Sinyaller karışık ve büyük bölümü zaten fiyatlanmış olduğundan güven düşük.
+24.11 16:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMp1EUjYdPBAzy83Z62f'}
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
