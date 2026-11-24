@@ -87,18 +87,14 @@
     }
    ],
    "day": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "trades": 0,
-    "pnl": 72.46574859486694,
+    "pnl": 0.0,
     "stopped": false
    },
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795035695,
-    5086.47
-   ],
    [
     1795035863,
     5083.39
@@ -12094,6 +12090,10 @@
    [
     1795553877,
     5145.97
+   ],
+   [
+    1795554057,
+    5145.97
    ]
   ],
   "archive": [
@@ -13946,12 +13946,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795546800000,
-   "ETHUSDT": 1795546800000,
-   "SOLUSDT": 1795546800000,
-   "BNBUSDT": 1795546800000,
-   "XRPUSDT": 1795546800000,
-   "DOGEUSDT": 1795546800000
+   "BTCUSDT": 1795550400000,
+   "ETHUSDT": 1795550400000,
+   "SOLUSDT": 1795550400000,
+   "BNBUSDT": 1795550400000,
+   "XRPUSDT": 1795550400000,
+   "DOGEUSDT": 1795550400000
   }
  },
  "gold_news": {
@@ -15167,10 +15167,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795035695,
-    4868.5
-   ],
    [
     1795035863,
     4868.5
@@ -27165,6 +27161,10 @@
    ],
    [
     1795553877,
+    4868.5
+   ],
+   [
+    1795554057,
     4868.5
    ]
   ],
@@ -29887,8 +29887,8 @@
    }
   ],
   "news_calls": {
-   "date": "2026-11-24",
-   "n": 74
+   "date": "2026-11-25",
+   "n": 0
   },
   "news_seen": [
    "US Dollar Hits 20-Month High as JPMorgan Sees Treasury Yields Above 5% in 2027 - CryptoRank",
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "24.11 11:08 N  NEWS (29 new) score -0.50 conf 0.60: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed faiz art\u0131r\u0131m\u0131 beklentileri geri d\u00f6nd\u00fc; bu, reel faiz ve dolar kanal\u0131yla alt\u0131 bask\u0131l\u0131yor. Alt\u0131n $3.651 civar\u0131nda reddedildi ve \"\u00e7ok y\u0131ll\u0131k y\u00fckseli\u015f trendini k\u0131rd\u0131\" ba\u015fl\u0131\u011f\u0131yla haftal\u0131k bazda en k\u00f6t\u00fc performans\u0131n\u0131 ya\u015fad\u0131. Ukrayna-Rusya gerilimi ve NATO'nun Polonya'ya AWACS g\u00f6ndermesi g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 fiyatlanm\u0131\u015f durumda. Yak\u0131n vadede as\u0131l belirleyici, PCE enflasyon verisi; s\u00fcrpriz bir y\u00fcksek veri alt\u0131n \u00fczerinde daha fazla bask\u0131 yaratabilir, d\u00fc\u015f\u00fck veri ise tepkiyi tersine \u00e7evirebilir.",
   "24.11 11:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 11:20 N  NEWS (9 new) score -0.45 conf 0.55: Dolar 20 ayl\u0131k zirvesinde ve Fed faiz art\u0131r\u0131m\u0131 beklentileri yeniden canlanm\u0131\u015f durumda; bu, alt\u0131n i\u00e7in net olarak bask\u0131 yarat\u0131yor. Ukrayna-Rusya gerilimi ve Polonya'daki f\u00fcze olay\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin b\u00fcy\u00fck k\u0131sm\u0131 zaten fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; PCE enflasyon verisi \u00f6ncesinde alt\u0131n zay\u0131f seyrediyor.",
   "24.11 11:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30237,8 @@
   "24.11 23:48 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNQoYfcCJRTuR1ecGWQv'}",
   "24.11 23:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNR2mHFKRarPaLMTmo7c'}",
   "24.11 23:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNRG1AHPxmQvT5ooR6Zp'}",
-  "24.11 23:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNRVGiGsgV1yR7ATKahj'}"
+  "24.11 23:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNRVGiGsgV1yR7ATKahj'}",
+  "25.11 00:00 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNRiY5chpUxqR5iDRBh8'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795035695,
-    4963.78
-   ],
-   [
     1795035863,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795553877,
+    4963.78
+   ],
+   [
+    1795554057,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795035695,
-    4975.18
-   ],
-   [
     1795035863,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795553877,
+    4975.18
+   ],
+   [
+    1795554057,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795035695,
-    4993.28
-   ],
-   [
     1795035863,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795553877,
+    4993.28
+   ],
+   [
+    1795554057,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795035695,
-    4969.22
-   ],
-   [
     1795035863,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795553877,
+    4969.22
+   ],
+   [
+    1795554057,
     4969.22
    ]
   ],
@@ -82892,7 +82892,7 @@
     }
    ],
    "day": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795035695,
-    4876.52
-   ],
    [
     1795035863,
     4878.34
@@ -94899,6 +94895,10 @@
    [
     1795553877,
     5297.35
+   ],
+   [
+    1795554057,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795035695,
-    115334.94
-   ],
    [
     1795035863,
     115334.94
@@ -108542,11 +108538,15 @@
    [
     1795553877,
     128183.18
+   ],
+   [
+    1795554057,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": true,
+  "market_open": false,
   "last_decision_ms": 1795550960719,
   "view": {
    "ts": 1795550960719,
@@ -108607,8 +108607,8 @@
     }
    }
   },
-  "next_open": "2026-11-24T09:30:00-05:00",
-  "state": "aktif (seans a\u00e7\u0131k)",
+  "next_open": "2026-11-25T09:30:00-05:00",
+  "state": "uyku (piyasa kapal\u0131)",
   "premarket_day": "2026-11-24",
   "alpaca": {
    "multiplier": "4",
@@ -108716,7 +108716,7 @@
     }
    ],
    "day": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "trades": 0,
     "pnl": 0.0,
     "stopped": false
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795035695,
-    4876.96
-   ],
    [
     1795035863,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795553877,
     4876.96
+   ],
+   [
+    1795554057,
+    4876.96
    ]
   ],
   "news": {
@@ -120735,7 +120735,7 @@
    "new_headlines": 45
   },
   "news_calls": {
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "n": 0
   },
   "news_seen": [
