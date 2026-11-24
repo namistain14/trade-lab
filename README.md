@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 14:07 (İstanbul)
+> Son güncelleme: 24.11.2026 14:10 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 13:58): Claude puan **+0.05**, güven 0.20 — Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi taşımıyor. DR Kongo'daki askeri uçak kaybı ve isyancıların düşürme iddiası sınırlı bir güvenli liman talebi yaratabilir, ancak küresel ölçekte önemli bir gelişme değil. Fed, enflasyon, dolar veya merkez bankası alımlarıyla ilgili yeni bir haber yok, bu yüzden etki çok zayıf ve belirsiz.
+Son haber analizi (24.11 14:10): Claude puan **+0.08**, güven 0.30 — Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyon ile ilgili bir haber yok. Rusya'nın nükleer uydu iddiaları ve NATO'nun uzay tehdidi açıklaması hafif bir jeopolitik risk primi yaratabilir, ancak etkisi sınırlı ve büyük olasılıkla kısa vadede fiyatlanmış durumda.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 12:32 N  NEWS (5 new) score -0.30 conf 0.45: Dolar endeksindeki yükseliş (104.60 civarı), AI kaynaklı dolar talebi ve Fed'in faiz beklentilerine ilişkin şahin sinyaller altın için baskı oluşturuyor; ABD enflasyon verisi (PCE) öncesi altın zayıf seyrediyor. Öte yandan İran savaşı ve Ukrayna'daki çatışmalar güvenli liman talebini destekleyebilir, ancak bu haberlerin çoğu zaten fiyatlanmış ve etkisi sınırlı görünüyor; bu nedenle sinyal karışık ve güven düşük.
-24.11 12:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 12:44 N  NEWS (10 new) score -0.15 conf 0.40: Hürmüz Boğazı'nda üç tankerin yanması jeopolitik risk primi yaratarak altı destekliyor; ancak Fed faiz artırımı riski, güçlenen dolar ve ABD enflasyon verisi öncesindeki baskı altın üzerinde daha belirleyici görünüyor. Sinyaller karışık ve birbiriyle çelişiyor, bu nedenle hafif negatif bir eğilim ve düşük-orta güven uygun.
 24.11 12:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 12:57 N  NEWS (10 new) score -0.30 conf 0.50: Yeni başlıklardaki ana etki dolar güçlenmesi ve AI kaynaklı yükselişin Fed faiz artırımı beklentilerini canlandırması yönünde; bu altın için baskılayıcı. Hormuz'da tanker yangınları gibi jeopolitik risk jeton olarak altını destekleyebilir, ancak bu haber daha eski olduğu ve yeni gelişmeler faiz/dolar kanalında ağırlık taşıdığı için net etki hafif negatif.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 13:46 N  NEWS (5 new) score +0.05 conf 0.20: Yeni başlıkların çoğu altın fiyatıyla doğrudan ilgili değil (Nvidia/Jensen Huang, Meksika uyuşturucu baronu operasyonu, Hasina'nın dönüş planı, Hindistan siyasi lideri). Fed beklentisi, reel faiz, dolar, enflasyon veya merkez bankası altın alımına dair yeni bir haber yok; DR Kongo'da uçak düşürme iddiası küçük bir güvenli liman etkisi yaratabilir ama sınırlı. Bu nedenle etki hafif pozitif ile sınırlı, güven düşük.
 24.11 13:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 13:58 N  NEWS (1 new) score +0.05 conf 0.20: Başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Nvidia CEO'su ve Asya siyaseti haberleri piyasa etkisi taşımıyor. DR Kongo'daki askeri uçak kaybı ve isyancıların düşürme iddiası sınırlı bir güvenli liman talebi yaratabilir, ancak küresel ölçekte önemli bir gelişme değil. Fed, enflasyon, dolar veya merkez bankası alımlarıyla ilgili yeni bir haber yok, bu yüzden etki çok zayıf ve belirsiz.
+24.11 14:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 14:10 N  NEWS (1 new) score +0.08 conf 0.30: Yeni başlıkların çoğu altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyon ile ilgili bir haber yok. Rusya'nın nükleer uydu iddiaları ve NATO'nun uzay tehdidi açıklaması hafif bir jeopolitik risk primi yaratabilir, ancak etkisi sınırlı ve büyük olasılıkla kısa vadede fiyatlanmış durumda.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
