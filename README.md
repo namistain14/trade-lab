@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 08:06 (İstanbul)
+> Son güncelleme: 24.11.2026 08:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -92,7 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 06:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 06:59 N  NEWS (0 new) score +0.03 conf 0.25: Yeni başlıkların çoğu (Nvidia'da Jensen Huang'ın dönüşü, Myanmar yaptırımları, magazin ve yerel haberler) altın fiyatını doğrudan etkileyecek nitelikte değil; Fed, reel faiz, dolar veya enflasyonla ilgili bir veri yok. Libya'daki Rus gemisi saldırısı ve Ukrayna savaşının yayılması gibi jeopolitik bir unsur var, ancak etkisi sınırlı ve güvenli liman talebini belirgin biçimde artırmıyor. Bu nedenle sinyal çok zayıf, skor sıfıra yakın.
 24.11 07:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:11 N  NEWS (45 new) score -0.20 conf 0.40: Dolar 20 aylık zirvesine yakın ve piyasalar Fed'in aralık ayında faiz artırabileceğini fiyatlıyor; Williams'ın "enflasyona karşı harekete geçmeliyiz" açıklaması da sıkı para politikası beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık ABD enflasyon ve PCE verisi öncesi alıcıların geri dönmesi ve Rusya-NATO gerilimi gibi jeopolitik haberler kısa vadede bir destek sağlayabilir; bu nedenle sinyal zayıf-negatif ve güven düşük.
@@ -107,6 +106,7 @@ Son işlemler:
 24.11 08:00 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:03 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:06 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+24.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
