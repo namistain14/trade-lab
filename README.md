@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 24.11.2026 08:21 (İstanbul)
+> Son güncelleme: 24.11.2026 08:24 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 08:12): Claude puan **-0.10**, güven 0.40 — Jeopolitik tarafta Hürmüz Boğazı'nda tankerlerin yanması ve İran riskine dair haberler altın için güvenli liman desteği sağlıyor. Ancak Fed'in faiz artırımı beklentileri, Williams'ın sert enflasyon söylemi ve dolar endeksinin 20 aylık zirvesine yakın seyri daha baskın olduğu için kısa vadede hafif negatif bir görünüm var; ABD PCE enflasyon verisi bekleniyor, sonuç yönü belirsiz.
+Son haber analizi (24.11 08:24): Claude puan **-0.10**, güven 0.40 — Altın 14 aylık dipten toparlanıyor, ancak doların 20 aylık zirveye yakın seyretmesi ve Fed'de faiz artırımı beklentilerinin güçlenmesi altın için baskı yaratıyor. Hürmüz'deki tanker saldırıları ve İran savaşının genişleme riski güvenli liman talebini destekliyor, bu da sinyalleri karışık hale getiriyor; bu nedenle hafif negatif, düşük-orta güvenli bir görüş.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-24.11 07:11 N  NEWS (45 new) score -0.20 conf 0.40: Dolar 20 aylık zirvesine yakın ve piyasalar Fed'in aralık ayında faiz artırabileceğini fiyatlıyor; Williams'ın "enflasyona karşı harekete geçmeliyiz" açıklaması da sıkı para politikası beklentisini destekliyor, bu da altın için olumsuz. Buna karşılık ABD enflasyon ve PCE verisi öncesi alıcıların geri dönmesi ve Rusya-NATO gerilimi gibi jeopolitik haberler kısa vadede bir destek sağlayabilir; bu nedenle sinyal zayıf-negatif ve güven düşük.
-24.11 07:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:23 N  NEWS (10 new) score -0.30 conf 0.50: Fed'in faiz artırımı beklentileri yükselirken dolar endeksi 20 aylık zirvesine yakın seyrediyor; bu, altın için kısa vadede baskı oluşturuyor. Jeopolitik başlıklar (NATO toplantısı, Rusya-Ukrayna) güvenli liman talebini destekleyebilir, ancak bunların çoğu eski veya fiyatlanmış haberler olduğundan etkisi sınırlı kalıyor.
 24.11 07:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 07:35 N  NEWS (9 new) score -0.35 conf 0.50: Dolar 20 aylık zirvesine yakın seyrediyor ve Fed faiz artırımı beklentileri güçleniyor (Williams "harekete geçmeli", Emons Aralık'ta artırım öngörüyor); bu, altın için baskı yaratan bir unsur. Savaş/NATO gerilimi güvenli liman talebini destekliyor olsa da etkisi sınırlı kalıyor; altın 3.666 civarında toparlanıyor ve ABD PCE enflasyon verisi öncesinde belirsizlik yüksek.
@@ -107,6 +105,8 @@ Son işlemler:
 24.11 08:09 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 24.11 08:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 24.11 08:12 N  NEWS (13 new) score -0.10 conf 0.40: Jeopolitik tarafta Hürmüz Boğazı'nda tankerlerin yanması ve İran riskine dair haberler altın için güvenli liman desteği sağlıyor. Ancak Fed'in faiz artırımı beklentileri, Williams'ın sert enflasyon söylemi ve dolar endeksinin 20 aylık zirvesine yakın seyri daha baskın olduğu için kısa vadede hafif negatif bir görünüm var; ABD PCE enflasyon verisi bekleniyor, sonuç yönü belirsiz.
+24.11 08:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+24.11 08:24 N  NEWS (12 new) score -0.10 conf 0.40: Altın 14 aylık dipten toparlanıyor, ancak doların 20 aylık zirveye yakın seyretmesi ve Fed'de faiz artırımı beklentilerinin güçlenmesi altın için baskı yaratıyor. Hürmüz'deki tanker saldırıları ve İran savaşının genişleme riski güvenli liman talebini destekliyor, bu da sinyalleri karışık hale getiriyor; bu nedenle hafif negatif, düşük-orta güvenli bir görüş.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
