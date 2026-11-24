@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    5049.57
-   ],
-   [
     1795028559,
     5067.03
    ],
@@ -12094,6 +12090,10 @@
    [
     1795546396,
     5145.97
+   ],
+   [
+    1795546574,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    4868.5
-   ],
-   [
     1795028559,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795546396,
+    4868.5
+   ],
+   [
+    1795546574,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "24.11 04:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 04:12 N  NEWS (19 new) score -0.20 conf 0.45: Fed'in Williams'\u0131n enflasyon nedeniyle ard\u0131\u015f\u0131k faiz art\u0131r\u0131mlar\u0131n\u0131n m\u00fcmk\u00fcn oldu\u011funu s\u00f6ylemesi ve dolar\u0131n 19 ayl\u0131k zirveye \u00e7\u0131kmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor; buna kar\u015f\u0131l\u0131k NATO'nun acil toplant\u0131s\u0131 ve Rusya'n\u0131n hava sahas\u0131 ihlalleri s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi destekliyor. Haberlerin bir\u00e7o\u011fu \u00e7eli\u015fkili ve tekrarl\u0131 oldu\u011fu i\u00e7in (\u00f6r. ayn\u0131 g\u00fcn hem %3 y\u00fckseli\u015f hem de toparlanma) g\u00fcven d\u00fc\u015f\u00fck tutuldu; yak\u0131nda a\u00e7\u0131klanacak PCE/enflasyon verisi y\u00f6n\u00fc belirleyecek.",
   "24.11 04:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 04:24 N  NEWS (6 new) score -0.35 conf 0.50: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in olumsuz: dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Fed Ba\u015fkan\u0131 Williams'\u0131n Aral\u0131k'ta faiz art\u0131r\u0131m\u0131na i\u015faret etmesi faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendiriyor. Ukrayna sava\u015f\u0131n\u0131n geni\u015flemesi ve NATO'nun acil toplant\u0131s\u0131 s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir, ancak bu etki dolar ve faiz bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Alt\u0131ndaki toparlanma b\u00fcy\u00fck \u00f6l\u00e7\u00fcde al\u0131c\u0131 kaynakl\u0131 oldu\u011fu i\u00e7in k\u0131sa vadeli geri d\u00f6n\u00fc\u015f riski de var.",
@@ -30238,7 +30237,8 @@
   "24.11 21:47 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 21:47 B6  karar turu: Claude \u00ab-\u00bb / GPT \u00ab-\u00bb",
   "24.11 21:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNFkRUt45wkzskdzY3av'}",
-  "24.11 21:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNFyjgs5hBkpMmdY5jGT'}"
+  "24.11 21:53 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNFyjgs5hBkpMmdY5jGT'}",
+  "24.11 21:56 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNGCyPjyHyjsoBu6pANr'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    4963.78
-   ],
-   [
     1795028559,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795546396,
+    4963.78
+   ],
+   [
+    1795546574,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    4975.18
-   ],
-   [
     1795028559,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795546396,
+    4975.18
+   ],
+   [
+    1795546574,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    4993.28
-   ],
-   [
     1795028559,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795546396,
+    4993.28
+   ],
+   [
+    1795546574,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795028397,
-    4969.22
-   ],
-   [
     1795028559,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795546396,
+    4969.22
+   ],
+   [
+    1795546574,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795028397,
-    4828.33
-   ],
    [
     1795028559,
     4847.26
@@ -94899,6 +94895,10 @@
    [
     1795546396,
     5297.35
+   ],
+   [
+    1795546574,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795028397,
-    114597.75
-   ],
    [
     1795028559,
     114738.02
@@ -108542,6 +108538,10 @@
    [
     1795546396,
     128183.18
+   ],
+   [
+    1795546574,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795028397,
-    4876.96
-   ],
    [
     1795028559,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795546396,
+    4876.96
+   ],
+   [
+    1795546574,
     4876.96
    ]
   ],
