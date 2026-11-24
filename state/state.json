@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    5030.07
-   ],
-   [
     1795008085,
     5030.95
    ],
@@ -12094,6 +12090,10 @@
    [
     1795525958,
     5145.97
+   ],
+   [
+    1795526136,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    4868.5
-   ],
-   [
     1795008085,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795525958,
+    4868.5
+   ],
+   [
+    1795526136,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "23.11 15:14 N  NEWS (20 new) score -0.20 conf 0.40: Dolar 19 ayl\u0131k zirvesinden hafif geri \u00e7ekilse de g\u00fc\u00e7l\u00fc kalmas\u0131 ve HSBC'nin 2027'ye dair g\u00fc\u00e7l\u00fc dolar g\u00f6r\u00fcn\u00fcm\u00fc alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna) g\u00fcvenli liman talebini destekliyor ancak b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; PCE enflasyon verisi ve Warsh Fed'i y\u00f6n\u00fcndeki belirsizlik ise net bir y\u00f6n vermiyor.",
   "23.11 15:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "23.11 15:26 N  NEWS (11 new) score -0.15 conf 0.35: Dolar 19 ayl\u0131k zirvesine yak\u0131n seyrediyor ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 ihtimali g\u00fcndeme geliyor; bu, alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Sava\u015f haberleri (\u0130ran, Ukrayna, Libya) g\u00fcvenli liman talebini destekleyebilir, ancak \u00e7o\u011fu eski ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan etkisi s\u0131n\u0131rl\u0131 kal\u0131yor. PCE enflasyon verisi beklenirken olas\u0131 bir s\u00fcrpriz, ana belirleyici olacak.",
   "23.11 15:38 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30237,8 @@
   "24.11 15:48 N  NEWS (18 new) score -0.10 conf 0.30: Alt\u0131n, 14 ayl\u0131k dip seviyelerinden toparlan\u0131yor ve dolar 20 ayl\u0131k zirvede olsa da Sal\u0131 g\u00fcn\u00fc dolarda ge\u00e7ici duraklama g\u00f6r\u00fcl\u00fcyor. Yeni haberlerdeki sava\u015f ve Rusya-NATO gerilimi g\u00fcvenli liman talebini destekliyor, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve y\u00fckselen tahvil getirisi beklentileri (JPMorgan %5 tahmini) alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; net etki hafif negatif.",
   "24.11 16:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "24.11 16:00 N  NEWS (14 new) score -0.10 conf 0.30: Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve JPMorgan y\u00fcksek tahvil getirisi \u00f6ng\u00f6r\u00fcyor; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor, dolar ise yeni al\u0131mlarda duraks\u0131yor ve Ukrayna/\u0130ran sava\u015f\u0131 haberleri jeopolitik risk talebini s\u0131n\u0131rl\u0131 da olsa destekliyor. Sinyaller kar\u0131\u015f\u0131k ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
-  "24.11 16:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMp1EUjYdPBAzy83Z62f'}"
+  "24.11 16:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMp1EUjYdPBAzy83Z62f'}",
+  "24.11 16:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChMpEPekFFbkSvQK1vqaK'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    4963.78
-   ],
-   [
     1795008085,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795525958,
+    4963.78
+   ],
+   [
+    1795526136,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    4975.18
-   ],
-   [
     1795008085,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795525958,
+    4975.18
+   ],
+   [
+    1795526136,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    4993.28
-   ],
-   [
     1795008085,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795525958,
+    4993.28
+   ],
+   [
+    1795526136,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795007905,
-    4969.22
-   ],
-   [
     1795008085,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795525958,
+    4969.22
+   ],
+   [
+    1795526136,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795007905,
-    4718.5
-   ],
    [
     1795008085,
     4718.5
@@ -94899,6 +94895,10 @@
    [
     1795525958,
     5297.35
+   ],
+   [
+    1795526136,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795007905,
-    112386.68
-   ],
    [
     1795008085,
     112386.68
@@ -108542,6 +108538,10 @@
    [
     1795525958,
     128183.18
+   ],
+   [
+    1795526136,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795007905,
-    4876.96
-   ],
    [
     1795008085,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795525958,
+    4876.96
+   ],
+   [
+    1795526136,
     4876.96
    ]
   ],
