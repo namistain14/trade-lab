@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 20:20 (İstanbul)
+> Son güncelleme: 25.11.2026 20:23 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 20:11): Claude puan **-0.50**, güven 0.60 — PCE enflasyonunun 3,8%'e yükselmesi ve Fed faiz artırımı beklentisi, reel faizleri ve doları destekleyerek altın için baskılayıcı. Dolar güçlenmesi ve Warsh Fed'inin sıkı duruşu da negatif; İran savaşı ve Nasdaq'taki sert düşüş kısmen güvenli liman talebi yaratabilir ancak bu etki sınırlı kalır.
+Son haber analizi (25.11 20:23): Claude puan **-0.65**, güven 0.65 — Güçlü ABD büyüme verisi, yükselen çekirdek PCE/enflasyon ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altını baskılıyor; altın zaten %2,44 düşüp 3500 doların altına indi. İran savaşı gibi jeopolitik riskler olmasına rağmen güvenli liman talebi bu baskıyı dengelemiyor, bu nedenle kısa vadeli görünüm negatif; ancak düşüş kısmen fiyatlanmış olabileceğinden güven orta düzeyde.
 
 Son işlemler:
 
@@ -92,10 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 19:35 N  NEWS (34 new) score -0.45 conf 0.60: 
-25.11 19:35 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-25.11 19:35 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert düşüşün ardından öğle saatlerinde dengelenme arıyor; seçici olmak ve göreceli güce odaklanmak mantıklı.» / GPT «-»
-25.11 19:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:47 N  NEWS (15 new) score -0.30 conf 0.50: Sıcak enflasyon verileri (PCE %3.8, çekirdek %3.3) ve Fed'in faiz artırımı beklentisi ile güçlenen dolar, altın üzerinde kısa vadede baskı yaratıyor. İran savaşı ve Polonya'ya füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bunların çoğu zaten fiyatlanmış olduğu için etkisi sınırlı kalır.
 25.11 19:47 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:47 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satışın ardından öğle saatlerinde yatay konsolidasyonda; seçici olmak ve göreceli güçlü hisseleri tercih etmek mantıklı.» / GPT «-»
@@ -107,6 +103,10 @@ Son işlemler:
 25.11 20:11 N  NEWS (11 new) score -0.50 conf 0.60: PCE enflasyonunun 3,8%'e yükselmesi ve Fed faiz artırımı beklentisi, reel faizleri ve doları destekleyerek altın için baskılayıcı. Dolar güçlenmesi ve Warsh Fed'inin sıkı duruşu da negatif; İran savaşı ve Nasdaq'taki sert düşüş kısmen güvenli liman talebi yaratabilir ancak bu etki sınırlı kalır.
 25.11 20:11 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 20:11 B6  karar turu: Claude «Piyasa sert düşüş gününün ardından güçlü bir toparlanma yaşıyor; momentum kısa vadede yukarı yönlü ancak dalgalı.» / GPT «-»
+25.11 20:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 20:23 N  NEWS (17 new) score -0.65 conf 0.65: Güçlü ABD büyüme verisi, yükselen çekirdek PCE/enflasyon ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altını baskılıyor; altın zaten %2,44 düşüp 3500 doların altına indi. İran savaşı gibi jeopolitik riskler olmasına rağmen güvenli liman talebi bu baskıyı dengelemiyor, bu nedenle kısa vadeli görünüm negatif; ancak düşüş kısmen fiyatlanmış olabileceğinden güven orta düzeyde.
+25.11 20:23 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 20:23 B6  karar turu: Claude «Piyasa günü sert düşüşle geçirse de son bir saatte teknoloji öncülüğünde güçlü bir tepki yükselişi yaşanıyor; bu toparlanmanın sınırlı ve temkinli bir devamı bekleniyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
