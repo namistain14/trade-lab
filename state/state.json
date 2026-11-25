@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    5073.39
-   ],
-   [
     1795062461,
     5074.27
    ],
@@ -12094,6 +12090,10 @@
    [
     1795580499,
     5145.97
+   ],
+   [
+    1795580679,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    4868.5
-   ],
-   [
     1795062461,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795580499,
+    4868.5
+   ],
+   [
+    1795580679,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "24.11 19:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN5kC1M9azNJkwLRDjMq'}",
   "24.11 19:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN5yVbsGZELnoQaRUcUb'}",
   "24.11 19:45 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChN6CfTKYadc6aK8JiQMo'}",
   "24.11 19:45 B6  Claude cevap vermedi: no Claude model available: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Yo",
@@ -30238,7 +30237,8 @@
   "25.11 07:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNzdsYqVx73TBKyRDvFV'}",
   "25.11 07:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNzsAAq6g7Rg51osUWJA'}",
   "25.11 07:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP16RG3KE9FxNUixZSB6'}",
-  "25.11 07:21 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP1KjHsCVogow2oUsDnx'}"
+  "25.11 07:21 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP1KjHsCVogow2oUsDnx'}",
+  "25.11 07:24 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP1YzDuYaRZDgnH3FpD7'}"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    4963.78
-   ],
-   [
     1795062461,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795580499,
+    4963.78
+   ],
+   [
+    1795580679,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    4975.18
-   ],
-   [
     1795062461,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795580499,
+    4975.18
+   ],
+   [
+    1795580679,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    4993.28
-   ],
-   [
     1795062461,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795580499,
+    4993.28
+   ],
+   [
+    1795580679,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795062281,
-    4969.22
-   ],
-   [
     1795062461,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795580499,
+    4969.22
+   ],
+   [
+    1795580679,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795062281,
-    4841.53
-   ],
    [
     1795062461,
     4840.59
@@ -94899,6 +94895,10 @@
    [
     1795580499,
     5297.35
+   ],
+   [
+    1795580679,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795062281,
-    115334.94
-   ],
    [
     1795062461,
     115334.94
@@ -108542,6 +108538,10 @@
    [
     1795580499,
     128183.18
+   ],
+   [
+    1795580679,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795062281,
-    4876.96
-   ],
    [
     1795062461,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795580499,
+    4876.96
+   ],
+   [
+    1795580679,
     4876.96
    ]
   ],
