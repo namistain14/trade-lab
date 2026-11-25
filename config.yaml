@@ -207,6 +207,88 @@ bots:
     claude_models: ["claude-opus-5-5", "claude-sonnet-5-5"]
     gpt_models: ["gpt-6.1-sol", "gpt-6-luna"]
 
+  survivor:                # Bot S3 "Hayatta Kalan" (Erdem 26.11): three models vote, a trade needs all three. See lab/council.py
+    type: council
+    label: "Bot S3 — Hayatta Kalan: Fable 5.2 + GPT-6 Astra + DeepSeek oybirliği (sinyal)"
+    tag: "S3"
+    enabled: true
+    start_usd: 100             # shadow account; the prime directive: never let this run out
+    models:
+      fable: ["claude-fable-5-2", "claude-opus-5-5"]
+      gpt: ["gpt-6-astra", "gpt-6.1-sol"]
+      deepseek: ["deepseek-v4-pro", "deepseek-flash"]
+    fable_effort: medium
+    max_councils_per_day: 6    # cost cap: one meeting is about 0.15-0.30 USD of AI calls
+    min_gap_minutes: 20
+    symbol_cooldown_minutes: 90
+    min_confidence: 0.6        # the LOWEST of the three confidences must reach this
+    min_reward_risk: 1.5
+    min_stop_pct: 0.35
+    max_stop_pct: 3.0
+    max_hold_hours: 24
+    signal_valid_minutes: 15
+    # survival rules (the PC bridge enforces the same ones on the real balance)
+    risk_pct: 1.0              # ~1 USD per trade on 100 USD
+    max_risk_pct: 1.5          # hard ceiling when the smallest tradable size is a bit bigger
+    death_line_pct: 70         # equity at 70% of the start -> the agent stops for good
+    daily_loss_pct: 3
+    weekly_loss_pct: 6
+    symbols:                   # the instruments whose smallest size fits a 100 USD account (MT5 report 26.11)
+      - id: BRENT
+        name: "Brent crude oil"
+        mt5: "BRENTCash"
+        ticker: "BZ=F"
+        min_qty: 1             # barrels (0.01 lot x 100)
+        qty_step: 1
+        spread_pct: 0.06
+        session_utc: ["01:15", "20:45"]
+        feeds: &oil_feeds
+          - "https://news.google.com/rss/search?q=brent+OR+%22crude+oil%22+OR+OPEC+when:1d&hl=en-US&gl=US&ceid=US:en"
+          - "https://news.google.com/rss/search?q=oil+tanker+OR+Hormuz+OR+%22Red+Sea%22+OR+pipeline+OR+refinery+when:1d&hl=en-US&gl=US&ceid=US:en"
+          - "https://feeds.bbci.co.uk/news/business/rss.xml"
+      - id: WTI
+        name: "WTI crude oil"
+        mt5: "OILCash"
+        ticker: "CL=F"
+        min_qty: 1
+        qty_step: 1
+        spread_pct: 0.06
+        session_utc: ["01:15", "20:45"]
+        feeds: *oil_feeds
+      - id: NVDA
+        name: "Nvidia shares"
+        mt5: "Nvidia"
+        ticker: "NVDA"
+        min_qty: 0.5           # shares (0.05 lot x 10)
+        qty_step: 0.1
+        spread_pct: 0.08
+        session_utc: ["14:45", "20:40"]   # US regular session (winter time); nothing is held overnight
+        feeds:
+          - "https://news.google.com/rss/search?q=Nvidia+stock+when:1d&hl=en-US&gl=US&ceid=US:en"
+          - "https://news.google.com/rss/search?q=%22stock+market%22+OR+Nasdaq+OR+Fed+when:1d&hl=en-US&gl=US&ceid=US:en"
+      - id: AAPL
+        name: "Apple shares"
+        mt5: "Apple"
+        ticker: "AAPL"
+        min_qty: 0.2
+        qty_step: 0.1
+        spread_pct: 0.08
+        session_utc: ["14:45", "20:40"]
+        feeds:
+          - "https://news.google.com/rss/search?q=Apple+stock+AAPL+when:1d&hl=en-US&gl=US&ceid=US:en"
+          - "https://news.google.com/rss/search?q=%22stock+market%22+OR+Nasdaq+OR+Fed+when:1d&hl=en-US&gl=US&ceid=US:en"
+      - id: TSLA
+        name: "Tesla shares"
+        mt5: "Tesla"
+        ticker: "TSLA"
+        min_qty: 0.2
+        qty_step: 0.1
+        spread_pct: 0.08
+        session_utc: ["14:45", "20:40"]
+        feeds:
+          - "https://news.google.com/rss/search?q=Tesla+stock+TSLA+when:1d&hl=en-US&gl=US&ceid=US:en"
+          - "https://news.google.com/rss/search?q=%22stock+market%22+OR+Nasdaq+OR+Fed+when:1d&hl=en-US&gl=US&ceid=US:en"
+
 # Erdem's one-off balance resets: the bot starts again from a clean account (old trades are kept in state as "archive")
 resets:
   - id: "b5-5000-2910"

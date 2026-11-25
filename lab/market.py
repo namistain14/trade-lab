@@ -9,14 +9,15 @@ HOSTS = ["https://data-api.binance.vision", "https://api.binance.com", "https://
 
 def yahoo_klines(symbol: str, interval: str, limit: int = 300) -> list[dict]:
     """Futures such as Brent oil (BZ=F) from Yahoo Finance's public chart API. Same shape as klines()."""
-    rng = {"1m": "1d", "5m": "5d", "15m": "5d"}.get(interval, "5d")
-    step = {"1m": 60_000, "5m": 300_000, "15m": 900_000}.get(interval, 300_000)
+    rng = {"1m": "1d", "5m": "5d", "15m": "1mo", "1h": "3mo"}.get(interval, "5d")
+    step = {"1m": 60_000, "5m": 300_000, "15m": 900_000, "1h": 3_600_000}.get(interval, 300_000)
+    yint = {"1h": "60m"}.get(interval, interval)
     last = None
     for host in ("https://query1.finance.yahoo.com", "https://query2.finance.yahoo.com"):
         for _ in range(2):
             try:
                 r = requests.get(f"{host}/v8/finance/chart/{symbol}", timeout=20,
-                                 params={"interval": interval, "range": rng, "includePrePost": "true"},
+                                 params={"interval": yint, "range": rng, "includePrePost": "true"},
                                  headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) trade-lab"})
                 if r.status_code == 200:
                     res = r.json()["chart"]["result"][0]

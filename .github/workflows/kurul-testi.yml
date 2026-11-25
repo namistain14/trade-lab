@@ -1,0 +1,27 @@
+# jarvis: ad=S3 kurul testi | bolum=Nam Trade | gorev=Üç modelin (Fable, GPT, DeepSeek) cevap verdiğini elle kontrol eder | tip=arac
+name: Kurul testi
+
+on: workflow_dispatch
+
+permissions:
+  contents: read
+
+env:
+  PYTHONPATH: ${{ github.workspace }}/usage   # Jarvis usage meter (usage/sitecustomize.py)
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -q -r requirements.txt
+      - run: python lab/council_test.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}

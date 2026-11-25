@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import bots  # noqa: E402
+import council  # noqa: E402
 import market  # noqa: E402
 import paper  # noqa: E402
 import stocks  # noqa: E402
@@ -27,7 +28,8 @@ def load() -> tuple[dict, dict]:
     except (FileNotFoundError, ValueError):
         st = {}
     for name in cfg["bots"]:
-        start = 100000 if cfg["bots"][name].get("type") == "stocks_alpaca" else cfg["start_equity_usd"]
+        start = cfg["bots"][name].get("start_usd") or (
+            100000 if cfg["bots"][name].get("type") == "stocks_alpaca" else cfg["start_equity_usd"])
         st.setdefault(name, {"account": paper.new_account(start), "equity_curve": []})
     st.setdefault("log", [])
     return cfg, st
@@ -189,6 +191,8 @@ def main() -> None:
                                              shared_news=shared, tag=tag))
             elif kind == "stocks_alpaca":
                 prices.update(stocks.stocks_tick(st[name], bc, cfg["news"], log, key, tag=tag))
+            elif kind == "council":
+                prices.update(council.tick(st[name], bc, cfg, log, tag=tag))
         except Exception as e:  # noqa: BLE001
             errors.append(f"{tag}: {e}")
 
