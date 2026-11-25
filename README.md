@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 16:19 (İstanbul)
+> Son güncelleme: 25.11.2026 16:20 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (24.11 16:00): Claude puan **-0.10**, güven 0.30 — Dolar 20 aylık zirvesine yakın seyrediyor ve JPMorgan yüksek tahvil getirisi öngörüyor; bu altın için baskılayıcı. Buna karşılık altın 14 aylık dibinden toparlanıyor, dolar ise yeni alımlarda duraksıyor ve Ukrayna/İran savaşı haberleri jeopolitik risk talebini sınırlı da olsa destekliyor. Sinyaller karışık ve büyük bölümü zaten fiyatlanmış olduğundan güven düşük.
+Son haber analizi (25.11 16:20): Claude puan **-0.60**, güven 0.70 — Altın 3.500 doların altına düşerek Eylül 2025'ten bu yana en düşük seviyeye indi; güçlü dolar, Fed sıkılaşma endişeleri ve altın ETF'lerinden 2,15 milyar dolarlık çıkış baskıyı sürdürüyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz baskısının altında kalıyor; PCE enflasyon verisi ve yeni tarifeler kısa vadede yüksek oynaklık getirebilir.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 15:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPf9xUm93t58B86f6ix7'}
-25.11 15:40 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPfPL88MmKGExANK2Vvn'}
 25.11 15:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPfcYMwJde7KCRrqWRfE'}
 25.11 15:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPfqoFzmb72vVnj6Lorr'}
 25.11 15:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPg51SLgApby45EBbpqN'}
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 16:13 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPhuC6FLqRtoYGaqdjku'}
 25.11 16:16 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPi8TucdXAvGNuSsYqLU'}
 25.11 16:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPiMikDBiwsFCtkd4LBU'}
+25.11 16:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 16:20 N  NEWS (45 new) score -0.60 conf 0.70: Altın 3.500 doların altına düşerek Eylül 2025'ten bu yana en düşük seviyeye indi; güçlü dolar, Fed sıkılaşma endişeleri ve altın ETF'lerinden 2,15 milyar dolarlık çıkış baskıyı sürdürüyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz baskısının altında kalıyor; PCE enflasyon verisi ve yeni tarifeler kısa vadede yüksek oynaklık getirebilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

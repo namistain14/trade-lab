@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    5067.65
-   ],
-   [
     1795094724,
     5068.1
    ],
@@ -12094,6 +12090,10 @@
    [
     1795612786,
     5145.97
+   ],
+   [
+    1795612821,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    4868.5
-   ],
-   [
     1795094724,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795612786,
     4868.5
+   ],
+   [
+    1795612821,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.1,
-   "confidence": 0.3,
-   "reason": "Dolar 20 ayl\u0131k zirvesine yak\u0131n seyrediyor ve JPMorgan y\u00fcksek tahvil getirisi \u00f6ng\u00f6r\u00fcyor; bu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Buna kar\u015f\u0131l\u0131k alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor, dolar ise yeni al\u0131mlarda duraks\u0131yor ve Ukrayna/\u0130ran sava\u015f\u0131 haberleri jeopolitik risk talebini s\u0131n\u0131rl\u0131 da olsa destekliyor. Sinyaller kar\u0131\u015f\u0131k ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f oldu\u011fundan g\u00fcven d\u00fc\u015f\u00fck.",
+   "score": -0.6,
+   "confidence": 0.7,
+   "reason": "Alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ferek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye indi; g\u00fc\u00e7l\u00fc dolar, Fed s\u0131k\u0131la\u015fma endi\u015feleri ve alt\u0131n ETF'lerinden 2,15 milyar dolarl\u0131k \u00e7\u0131k\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor; PCE enflasyon verisi ve yeni tarifeler k\u0131sa vadede y\u00fcksek oynakl\u0131k getirebilir.",
    "n": 45,
-   "ts": 1795525204942,
-   "new_headlines": 14,
+   "ts": 1795612820704,
+   "new_headlines": 45,
    "key_events": [
     "ABD dolar\u0131 20 ay\u0131n zirvesinde; JPMorgan 2027'de Hazine getirilerinin %5 \u00fcst\u00fc g\u00f6r\u00fc\u015f\u00fc",
     "Warsh'un Fed'i \u00fczerinde enflasyon endi\u015feleri (s\u0131k\u0131la\u015fma riski)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795089970162,
-    "score": -0.45,
-    "confidence": 0.6,
-    "reason": "Ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: JPMorgan'\u0131n Fed'in y\u0131l sonuna kadar \u00fc\u00e7 faiz art\u0131r\u0131m\u0131 \u00f6ng\u00f6rmesi ve Danske'nin \"\u015fahin Fed\" vurgusu reel faiz ve dolar beklentilerini yukar\u0131 \u00e7ekiyor. Alt\u0131n 14 ayl\u0131k dibe gerilemi\u015f ve \u0130ran sava\u015f\u0131na ra\u011fmen g\u00fcvenli liman talebi zay\u0131f g\u00f6r\u00fcn\u00fcyor. \u00d6te yandan Hormuz sald\u0131r\u0131lar\u0131 ve Riyad'a f\u00fcze sald\u0131r\u0131s\u0131 gibi jeopolitik riskler k\u0131sa vadeli yukar\u0131 y\u00f6nl\u00fc bir destek sa\u011flayabilir; ayr\u0131ca ABD dolar\u0131n\u0131n yedi g\u00fcnl\u00fck y\u00fckseli\u015finden sonra gev\u015femesi s\u0131n\u0131rl\u0131 bir rahatlama sunuyor.",
-    "new": 8,
-    "gpt_score": 0.1,
-    "gpt_confidence": 0.3
-   },
    {
     "ts": 1795090728578,
     "score": -0.3,
@@ -29884,63 +29875,70 @@
     "new": 14,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795612820704,
+    "score": -0.6,
+    "confidence": 0.7,
+    "reason": "Alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ferek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye indi; g\u00fc\u00e7l\u00fc dolar, Fed s\u0131k\u0131la\u015fma endi\u015feleri ve alt\u0131n ETF'lerinden 2,15 milyar dolarl\u0131k \u00e7\u0131k\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor; PCE enflasyon verisi ve yeni tarifeler k\u0131sa vadede y\u00fcksek oynakl\u0131k getirebilir.",
+    "new": 45,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-25",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "US Dollar Hits 20-Month High as JPMorgan Sees Treasury Yields Above 5% in 2027 - CryptoRank",
-   "Mexican Man Lured to Russia Sent to War, Mother Pleads - Stop Russian Recruiters",
-   "2026 Man o\u2019 War Stakes at a Glance - America's Best Racing",
-   "Gold price at the close of the session on November 24: Conflicting developments - Laodong.vn",
-   "Russian governor detained in rare criminal case against regional leader",
-   "Church growth in the midst of war (2) - Evangelical Focus",
-   "Russia Wants Europe to Split Politically. Will It Manage? - UNITED24 Media",
-   "EU's 22nd sanctions proposal targets former soldiers, banks and sports - Defence24.com",
-   "Canadian Dollar accelerates its recovery as US Dollar bulls take a breather - FXStreet",
-   "Zelensky to reach out to new US Congress if Trump fails to reach deal with Putin to end war - Ukrinform",
-   "Euro: Fiscal rule could limit downside against US Dollar \u2013 MUFG - FXStreet",
-   "Russia accuses NATO member Estonia of hostile actions \u2018on the verge of unleashing open war\u2019 - CNBC",
-   "The $48.3 Billion Iran War Faces a New Battle on Capitol Hill - Clearance Jobs",
-   "US Dollar Falls Early Tuesday Before Philadelphia Fed Nonmanufacturing Index, Redbook - marketscreener.com",
-   "Russian data reveals hundreds of military suicides since Ukraine war began - The Jerusalem Post",
-   "Why Russia\u2019s war on Ukraine may reach a \u2018tipping point\u2019 next year - The Independent",
-   "Joy Crookes on Speaking Out & Taking to the Stage for War Child: \u2018I Felt I Had to Do Something\u2019 - Yahoo",
-   "'One death every five minutes': Leaked data exposes staggering Russian war toll - TVP World",
-   "Polish FM concerned over Patriot missile delay - AzerNews",
-   "First Thing Today | Corn, soybeans tick higher overnight as dollar rally pauses - Pro Farmer",
-   "Saudi Arabia asks allies from America to Asia for help restocking missile defenses - Semafor",
-   "Rand Rebounds From 2026 Low To Lead Emerging-Market Currencies - MarketForces Africa",
-   "Gold price today, Tuesday, November 24, 2026: Gold prices improve, lift from 14-month lows - Yahoo Finance",
-   "Remains of missing World War II soldier to be returned to Texas - FOX 4 News Dallas-Fort Worth",
-   "US Dollar: Further gains may prove unsustainable - ING - FXStreet",
-   "Cold War Concepts Are So Hot Right Now - Bloomberg.com",
-   "Another match halted by war: Israelis' Ukrainian club suffers third disruption - The Jerusalem Post",
-   "Israeli air strike kills Hamas internal security chief in Gaza",
-   "Mexico\u2019s Headline Inflation Ticks Up After Surprise Rate Cut - Bloomberg.com",
-   "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct - NPR",
-   "Documentaries on Gaza war, Israeli settlers win Int'l Emmys - The New Arab",
-   "PODCAST: Huang's return, Ukraine war spreads to Libya and Iowa detonation - Reuters",
-   "Op-ed | Free Palestine, Free All of US, American Taxpayers Take War Crime Accountability to The Hague (Part 2) - Davis Vanguard",
-   "Pound claws above 19-month low, as dollar pauses after Nvidia-driven rally - Reuters",
-   "PM Takaichi Meets with ICC Head Akane amid U.S. Sanctions - Nippon.com",
-   "ICC president thanks Japan for early 2027 payment as US sanctions squeeze the court - WLWT",
-   "Inflation May Eat Your Income Spike from High Bond Yields - Morningstar",
-   "Historic England objects to missile motor factory - Yahoo",
-   "Gold prices extend rebound after hitting 14-month low - Sharjah24",
-   "UK targets Houthis with new sanctions - Reuters",
-   "UK sanctions Houthis, 4 officials over 'renewed aggression' - Anadolu Ajans\u0131",
-   "5 Air Force Bases Spending Hundreds Of Millions To Rebuild Cold War-Era Runways - Simple Flying",
-   "Gold price in Pakistan rises Rs1,300 per tola - Mettis Global",
-   "Book Review: 'The First War A Thousand Li 3' by Tao Wong - - Movies We Texted About",
-   "Texas sent Trump a clear message: End the Iran war. | Editorial - Houston Chronicle"
+   "US announces new tariffs on host of countries including China",
+   "How good is Ukraine's Flamingo missile? Only 12 of 53 known launches strike their targets, OSINT count shows - Euromaidan Press",
+   "My husband lives off sandwiches due to energy costs",
+   "Your Thanksgiving Meal Costs More as US Food Inflation Returns - Bloomberg",
+   "Gold ETFs Bleed $2.15 Billion in a Week, the Biggest Exit Since June - BigGo Finance",
+   "Salon owner's chore woes prompt idea for new app",
+   "Two Supreme Court Decisions Offer Clues About Financial Regulation's Future - CUTimes",
+   "US Dollar: Upside hinges on PCE and consumer spending - BBH - FXStreet",
+   "Congress should not shut down government to stop Iran war | Guest Editorial - Santa Maria Times",
+   "Iran War Is Pushing Record Numbers of Fuel Tankers Into Crude Trade - Crude Oil Prices Today | OilPrice.com",
+   "Pope Leo XIV urges world to break \u2018ideological and economic chains\u2019 fueling war - Anadolu Ajans\u0131",
+   "Nasdaq futures slide over 2% as AI losses deepen; inflation data in focus - Reuters",
+   "Silver price sinks to 14-month low on firm US Dollar ahead of PCE inflation data - FXStreet",
+   "It\u2019s time for reign of US dollar to end, but is de-dollarisation possible? - The Federal",
+   "EUR/USD, Gold Forecast: Two trades to Watch - FOREX.com",
+   "Kilmar \u00c1brego Garc\u00eda arrives in Spain, ending Trump deportation battle",
+   "US dollar outlook: DXY finds fresh support as risk aversion deepens - FOREX.com",
+   "Gold, Silver Extend Losses on Stronger Dollar and Fed Tightening Fears - bloomingbit",
+   "Why Is Gold Falling Today? Gold Drops Below $3,500 as Dollar Strengthens - Coinpaper",
+   "Gold drops below $3,500/oz to lowest since Sept 2025 - scanx.trade",
+   "Silver Plunges Rs 7,000, Gold Drops Amid Rupee & Global Weakness - Rediff MoneyWiz",
+   "Navy selects Raytheon for development of next-generation nuclear-armed sea cruise missile - The Business Journals",
+   "The rising cost of Thanksgiving - Al Jazeera",
+   "Final Inflation Test Before Fed Meeting - Seeking Alpha",
+   "Lincoln\u2019s Thanksgiving, the Iran war and a president\u2019s duty - Alabama Political Reporter",
+   "Ukraine War, Day 1,735: Kyiv Strikes 2 Russian Refineries as Putin Fumes - EA WorldView",
+   "US Dollar: Final rally stage seen before weakness \u2013 Societe Generale - FXStreet",
+   "Artemis Gold Inc. (TSXV:ARTG) Dips Modestly After a Quarter of Solid Earnings Scale and a Heavy Expansion Spending Calendar - kalkine.ca",
+   "Banyan Gold Corp. (TSXV:BYN) Dips Modestly as Investors Weigh Fresh Financing Runway Against a Pending Economic Study at AurMac - kalkine.ca",
+   "Liesman: Nvidia whiplash tests Kevin Warsh\u2019s push to read market signals - CNBC",
+   "Fed\u2019s Bowman says decisive action key to supervision modernization - American Banker",
+   "US defense spend falls to 13% of federal budget, lowest since World War II - Fortune",
+   "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+   "Ukraine Hits Three Kinzhal Missile Carriers and Two Su-34s in Single Overnight Strike - UNITED24 Media",
+   "Russia's own figures show it has lost nearly 500,000 people in Ukraine war - BBC",
+   "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+   "US Dollar Steady Ahead of U.S. Inflation Data - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+   "South Africa's Ramaphosa wins court battle over impeachment threat",
+   "West Red Lake Gold Targets 47,000 Ounces in 2027, Rowan Builds to Lift Production - Crux Investor",
+   "Huawei found guilty of sanctions violations and stealing US trade secrets - Data Center Dynamics",
+   "World gold prices fluctuate, pressure surrounds before the risk of Fed interest rate hikes - Laodong.vn",
+   "Gold price today, Wednesday, November 25, 2026: Gold prices fall as inflation data and potential new tariffs loom - Yahoo Finance",
+   "Metals Rout Deepens as AI, Fed Worries Fuel Bearish Sentiment - Bloomberg",
+   "First Thing Today | Grain markets see pre-holiday pullback overnight with key inflation reading ahead - Pro Farmer",
+   "Britain\u2019s Energy Strategy Is Hoping the War Ends Soon - Bloomberg"
   ]
  },
  "log": [
-  "25.11 02:17 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNc9x2P1QJ62Fp5mkF4a'}",
-  "25.11 02:20 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNcPAKRTiXZqs58HycW8'}",
   "25.11 02:23 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNccTJV75s4iQaw2DpcR'}",
   "25.11 02:26 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNcqjdsTfdHAw4H37Jke'}",
   "25.11 02:29 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNd4xQgTDqhm5Yx9nQLi'}",
@@ -30238,7 +30236,9 @@
   "25.11 16:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPhfujdexJKHf2h56Shi'}",
   "25.11 16:13 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPhuC6FLqRtoYGaqdjku'}",
   "25.11 16:16 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPi8TucdXAvGNuSsYqLU'}",
-  "25.11 16:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPiMikDBiwsFCtkd4LBU'}"
+  "25.11 16:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPiMikDBiwsFCtkd4LBU'}",
+  "25.11 16:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "25.11 16:20 N  NEWS (45 new) score -0.60 conf 0.70: Alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ferek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye indi; g\u00fc\u00e7l\u00fc dolar, Fed s\u0131k\u0131la\u015fma endi\u015feleri ve alt\u0131n ETF'lerinden 2,15 milyar dolarl\u0131k \u00e7\u0131k\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor; PCE enflasyon verisi ve yeni tarifeler k\u0131sa vadede y\u00fcksek oynakl\u0131k getirebilir."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    4963.78
-   ],
-   [
     1795094724,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795612786,
+    4963.78
+   ],
+   [
+    1795612821,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    4975.18
-   ],
-   [
     1795094724,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795612786,
+    4975.18
+   ],
+   [
+    1795612821,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    4993.28
-   ],
-   [
     1795094724,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795612786,
+    4993.28
+   ],
+   [
+    1795612821,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795094545,
-    4969.22
-   ],
-   [
     1795094724,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795612786,
+    4969.22
+   ],
+   [
+    1795612821,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795094545,
-    4876.67
-   ],
    [
     1795094724,
     4876.67
@@ -94899,6 +94895,10 @@
    [
     1795612786,
     5297.35
+   ],
+   [
+    1795612821,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795094545,
-    115319.91
-   ],
    [
     1795094724,
     115319.91
@@ -108542,6 +108538,10 @@
    [
     1795612786,
     128183.18
+   ],
+   [
+    1795612821,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795094545,
-    4876.96
-   ],
    [
     1795094724,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795612786,
+    4876.96
+   ],
+   [
+    1795612821,
     4876.96
    ]
   ],
