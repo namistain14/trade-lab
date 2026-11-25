@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 19:44 (İstanbul)
+> Son güncelleme: 25.11.2026 19:47 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 19:35): Claude puan **-0.45**, güven 0.60 — PCE enflasyonunun %3,8'e çıkması ve güçlü GSYİH'nin Fed'in daha fazla faiz artırımı olasılığını artırması, reel faizleri ve doları yukarı iterek altın için baskılayıcı bir ortam yaratıyor; altın zaten 15 aylık dip olan 3.500 doların altına indi. İran savaşı ve jeopolitik gerilim güvenli liman talebi getirse de bu etki hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor; ayrıca bazı haberler zaten fiyatlanmış durumda, bu yüzden güven orta düzeyde.
+Son haber analizi (25.11 19:47): Claude puan **-0.30**, güven 0.50 — Sıcak enflasyon verileri (PCE %3.8, çekirdek %3.3) ve Fed'in faiz artırımı beklentisi ile güçlenen dolar, altın üzerinde kısa vadede baskı yaratıyor. İran savaşı ve Polonya'ya füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bunların çoğu zaten fiyatlanmış olduğu için etkisi sınırlı kalır.
 
 Son işlemler:
 
@@ -92,10 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 18:18 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış baskısında; öğle saatlerindeki tepki yükselişi zayıf kaldı ve aşağı yönlü devam olasılığı biraz daha yüksek.» / GPT «-»
-25.11 18:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-25.11 18:21 N  NEWS (16 new) score -0.55 conf 0.60: Sıcak PCE enflasyonu (başlık 3.8%, çekirdek 3.3%) Aralık ayında Fed faiz artırımı beklentilerini güçlendirerek altın üzerinde baskı yaratıyor; altın 3.500 doların altına indi. Ancak düşüş büyük ölçüde fiyatlanmış durumda ve İran/Ukrayna savaş haberleri güvenli liman talebi için destek sağlayabilir, bu yüzden güven orta düzeyde.
-25.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 18:30 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir risk-off günü yaşanıyor ve öğle saatlerindeki tepki yükselişi sönümlendi; bu nedenle zayıf hisselerde kısa yönlü işlemler daha mantıklı, ancak 1:4 kaldıraçta %1'lik stop sermayenin %4'üne denk geldiği için pozisyon boyutu dikkatli tutulmalı.» / GPT «-»
 25.11 18:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 18:33 N  NEWS (12 new) score -0.70 conf 0.80: Sıcak PCE enflasyonu (%3.8) ve güçlü GDP, Fed'in daha fazla sıkılaştırma (Aralık faiz artışı) beklentisini güçlendirdi; dolar endeksi 104'e doğru yükseliyor ve altın 3.500 doların altına, 15 aylık dip seviyesine geriledi. Savaş kaynaklı güvenli liman talebi var ama baskın etki reel faiz ve dolar kanalından geliyor; kısa vadede baskı sürmesi bekleniyor, bu nedenle güçlü negatif görüş.
@@ -107,6 +103,10 @@ Son işlemler:
 25.11 19:35 N  NEWS (34 new) score -0.45 conf 0.60: 
 25.11 19:35 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:35 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert düşüşün ardından öğle saatlerinde dengelenme arıyor; seçici olmak ve göreceli güce odaklanmak mantıklı.» / GPT «-»
+25.11 19:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 19:47 N  NEWS (15 new) score -0.30 conf 0.50: Sıcak enflasyon verileri (PCE %3.8, çekirdek %3.3) ve Fed'in faiz artırımı beklentisi ile güçlenen dolar, altın üzerinde kısa vadede baskı yaratıyor. İran savaşı ve Polonya'ya füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bunların çoğu zaten fiyatlanmış olduğu için etkisi sınırlı kalır.
+25.11 19:47 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 19:47 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satışın ardından öğle saatlerinde yatay konsolidasyonda; seçici olmak ve göreceli güçlü hisseleri tercih etmek mantıklı.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
