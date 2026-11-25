@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 18:42 (İstanbul)
+> Son güncelleme: 25.11.2026 18:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 18:33): Claude puan **-0.70**, güven 0.80 — Sıcak PCE enflasyonu (%3.8) ve güçlü GDP, Fed'in daha fazla sıkılaştırma (Aralık faiz artışı) beklentisini güçlendirdi; dolar endeksi 104'e doğru yükseliyor ve altın 3.500 doların altına, 15 aylık dip seviyesine geriledi. Savaş kaynaklı güvenli liman talebi var ama baskın etki reel faiz ve dolar kanalından geliyor; kısa vadede baskı sürmesi bekleniyor, bu nedenle güçlü negatif görüş.
+Son haber analizi (25.11 18:45): Claude puan **-0.60**, güven 0.60 — PCE enflasyonunun %3,8'e çıkması ve güçlü GSYİH'nin Fed'in daha fazla faiz artırımı olasılığını artırması, reel faizleri ve doları yukarı iterek altın için baskılayıcı bir ortam yaratıyor; altın zaten 15 aylık dip olan 3.500 doların altına indi. İran savaşı ve jeopolitik gerilim güvenli liman talebi getirse de bu etki hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor; ayrıca bazı haberler zaten fiyatlanmış durumda, bu yüzden güven orta düzeyde.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 17:57 N  NEWS (28 new) score -0.50 conf 0.55: PCE enflasyonu ve güçlü Q3 GDP revizyonu, Fed'in sıkı kalacağı beklentisini güçlendirerek altın üzerinde baskı yaratıyor; altın 15 aylık dibe ($3,500) geriledi. Ancak haberlerde PCE'nin hem "3.8%'e yükseldi" hem de "kontrollü" olarak tanımlanması çelişkili, ayrıca yeni tarife haberleri ve savaş riskleri kısa vadede güvenli liman talebi yaratabilir, bu yüzden güven orta düzeyde.
-25.11 18:06 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 18:06 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert satıldı ve dipten kısmen toparlandı; seçici işlemlerle göreceli güç ve zayıflık takip edilmeli.» / GPT «-»
 25.11 18:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 18:09 N  NEWS (34 new) score -0.75 conf 0.70: Haberlerin büyük çoğunluğu sıcak PCE enflasyonu, güçlü GDP ve Aralık ayında Fed faiz artırımı beklentisini vurguluyor; bu hem reel faizleri hem doları yukarı iterek altın için güçlü bir baskı oluşturuyor. İran savaşıyla ilgili jeopolitik başlıklar var ancak altın bunlara rağmen düşüyor, yani güvenli liman talebi şu an baskın değil; bazı başlıklar tekrar ve eski haber niteliğinde olduğu için güveni biraz sınırladım.
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 18:33 N  NEWS (12 new) score -0.70 conf 0.80: Sıcak PCE enflasyonu (%3.8) ve güçlü GDP, Fed'in daha fazla sıkılaştırma (Aralık faiz artışı) beklentisini güçlendirdi; dolar endeksi 104'e doğru yükseliyor ve altın 3.500 doların altına, 15 aylık dip seviyesine geriledi. Savaş kaynaklı güvenli liman talebi var ama baskın etki reel faiz ve dolar kanalından geliyor; kısa vadede baskı sürmesi bekleniyor, bu nedenle güçlü negatif görüş.
 25.11 18:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 18:42 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satış gününde öğle konsolidasyonunda; toparlanma denemeleri zayıf kaldığı için hafif aşağı yönlü eğilim korunuyor.» / GPT «-»
+25.11 18:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 18:45 N  NEWS (9 new) score -0.60 conf 0.60: PCE enflasyonunun %3,8'e çıkması ve güçlü GSYİH'nin Fed'in daha fazla faiz artırımı olasılığını artırması, reel faizleri ve doları yukarı iterek altın için baskılayıcı bir ortam yaratıyor; altın zaten 15 aylık dip olan 3.500 doların altına indi. İran savaşı ve jeopolitik gerilim güvenli liman talebi getirse de bu etki hawkish Fed ve güçlü dolar baskısının gerisinde kalıyor; ayrıca bazı haberler zaten fiyatlanmış durumda, bu yüzden güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
