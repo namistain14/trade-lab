@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 18:03 (İstanbul)
+> Son güncelleme: 25.11.2026 18:06 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 17:08 N  NEWS (18 new) score -0.60 conf 0.70: Ekim PCE enflasyonu %3,8 ve çekirdek enflasyon beklentinin üzerinde geldi; Polymarket Aralık faiz artırımı olasılığını %94'e çıkardı. Bu sıkılaştırıcı Fed beklentisi ve güçlenen dolar baskısı altın için olumsuz, İran savaşı ve Ukrayna haberleri ise zaten fiyatlanmış olduğundan güvenli liman desteği sınırlı kalıyor.
-25.11 17:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:21 N  NEWS (23 new) score -0.75 conf 0.78: Ekim PCE enflasyonu %3,8'e ve çekirdek enflasyon beklentilerin üzerine çıktı; piyasa Aralık faiz artırımını büyük ölçüde fiyatladı (Polymarket ~%94). Bu, reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. Altın zaten 15 aylık dibe (~3.500 $) yakın düştüğü için bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tutuyorum.
 25.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:30 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir satış dalgası var; düşüşü kovalamadan yalnızca göreceli güç ve zayıflık ile taze haberlere dayalı seçici işlemler tercih ediliyor.» / GPT «-»
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 17:54 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir satış var, son mumlarda hafif tepki görülüyor; volatilite yüksek olduğu için seçici davranmak gerekiyor.» / GPT «-»
 25.11 17:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:57 N  NEWS (28 new) score -0.50 conf 0.55: PCE enflasyonu ve güçlü Q3 GDP revizyonu, Fed'in sıkı kalacağı beklentisini güçlendirerek altın üzerinde baskı yaratıyor; altın 15 aylık dibe ($3,500) geriledi. Ancak haberlerde PCE'nin hem "3.8%'e yükseldi" hem de "kontrollü" olarak tanımlanması çelişkili, ayrıca yeni tarife haberleri ve savaş riskleri kısa vadede güvenli liman talebi yaratabilir, bu yüzden güven orta düzeyde.
+25.11 18:06 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 18:06 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde sert satıldı ve dipten kısmen toparlandı; seçici işlemlerle göreceli güç ve zayıflık takip edilmeli.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
