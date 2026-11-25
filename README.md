@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 16:41 (İstanbul)
+> Son güncelleme: 25.11.2026 16:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 16:32): Claude puan **-0.60**, güven 0.65 — Altın için baskı ağırlıklı olarak Fed'in faiz artırma beklentileri, güçlenen dolar ve yeni ABD tarifeleri kaynaklı; ETF'lerden 2,15 milyar dolarlık çıkış da negatif. Savaş haberleri (İran, Ukrayna) eski ve büyük ölçüde fiyatlanmış olduğu için güvenli liman talebini destekleyici bir etki sınırlı kalıyor; PCE enflasyon verisi kısa vadede oynaklık yaratabilir.
+Son haber analizi (25.11 16:44): Claude puan **-0.60**, güven 0.70 — Ekim PCE enflasyonu %3.8 ile beklentilere uygun geldi, ancak çekirdek PCE'nin üst üste üçüncü ay 0,3% artması Fed'in faiz artırım beklentilerini pekiştiriyor; güçlü dolar ve ETF çıkışları (haftalık 2,15 milyar dolar) altını 3.500 doların altına ve bir yılın en düşük seviyesine itti. İran savaşı gibi jeopolitik riskler kısa vadeli güvenli liman talebi sağlayabilir, ancak bu etki hawkish Fed ve dolar baskısının gerisinde kalıyor; beklentilerin kısmen fiyatlanmış olması güveni biraz düşürüyor.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 15:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgJHLBLZ6t2JTCoDaDA'}
-25.11 15:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgXXoBqppFJapDki51q'}
 25.11 15:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgkw24MGqXYAPdPAUao'}
 25.11 16:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgz7ziHGVG5UBhe4i3z'}
 25.11 16:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPhDR4z4fvTGZP2rVMBW'}
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 16:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 16:32 N  NEWS (7 new) score -0.60 conf 0.65: Altın için baskı ağırlıklı olarak Fed'in faiz artırma beklentileri, güçlenen dolar ve yeni ABD tarifeleri kaynaklı; ETF'lerden 2,15 milyar dolarlık çıkış da negatif. Savaş haberleri (İran, Ukrayna) eski ve büyük ölçüde fiyatlanmış olduğu için güvenli liman talebini destekleyici bir etki sınırlı kalıyor; PCE enflasyon verisi kısa vadede oynaklık yaratabilir.
 25.11 16:32 B6  seans öncesi görüş: Piyasa, özellikle teknoloji tarafında, açılış öncesi sert satış baskısı altında; büyük hareketler zaten gerçekleştiği için yalnızca taze haber içeren seçici işlemler mantıklı.
+25.11 16:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 16:44 N  NEWS (21 new) score -0.60 conf 0.70: Ekim PCE enflasyonu %3.8 ile beklentilere uygun geldi, ancak çekirdek PCE'nin üst üste üçüncü ay 0,3% artması Fed'in faiz artırım beklentilerini pekiştiriyor; güçlü dolar ve ETF çıkışları (haftalık 2,15 milyar dolar) altını 3.500 doların altına ve bir yılın en düşük seviyesine itti. İran savaşı gibi jeopolitik riskler kısa vadeli güvenli liman talebi sağlayabilir, ancak bu etki hawkish Fed ve dolar baskısının gerisinde kalıyor; beklentilerin kısmen fiyatlanmış olması güveni biraz düşürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
