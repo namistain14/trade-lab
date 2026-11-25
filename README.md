@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 16:29 (İstanbul)
+> Son güncelleme: 25.11.2026 16:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 16:20): Claude puan **-0.60**, güven 0.70 — Altın 3.500 doların altına düşerek Eylül 2025'ten bu yana en düşük seviyeye indi; güçlü dolar, Fed sıkılaşma endişeleri ve altın ETF'lerinden 2,15 milyar dolarlık çıkış baskıyı sürdürüyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz baskısının altında kalıyor; PCE enflasyon verisi ve yeni tarifeler kısa vadede yüksek oynaklık getirebilir.
+Son haber analizi (25.11 16:32): Claude puan **-0.60**, güven 0.65 — Altın için baskı ağırlıklı olarak Fed'in faiz artırma beklentileri, güçlenen dolar ve yeni ABD tarifeleri kaynaklı; ETF'lerden 2,15 milyar dolarlık çıkış da negatif. Savaş haberleri (İran, Ukrayna) eski ve büyük ölçüde fiyatlanmış olduğu için güvenli liman talebini destekleyici bir etki sınırlı kalıyor; PCE enflasyon verisi kısa vadede oynaklık yaratabilir.
 
 Son işlemler:
 
@@ -92,9 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 15:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPfcYMwJde7KCRrqWRfE'}
-25.11 15:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPfqoFzmb72vVnj6Lorr'}
-25.11 15:49 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPg51SLgApby45EBbpqN'}
 25.11 15:52 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgJHLBLZ6t2JTCoDaDA'}
 25.11 15:55 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgXXoBqppFJapDki51q'}
 25.11 15:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPgkw24MGqXYAPdPAUao'}
@@ -107,6 +104,9 @@ Son işlemler:
 25.11 16:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPiMikDBiwsFCtkd4LBU'}
 25.11 16:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 16:20 N  NEWS (45 new) score -0.60 conf 0.70: Altın 3.500 doların altına düşerek Eylül 2025'ten bu yana en düşük seviyeye indi; güçlü dolar, Fed sıkılaşma endişeleri ve altın ETF'lerinden 2,15 milyar dolarlık çıkış baskıyı sürdürüyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz baskısının altında kalıyor; PCE enflasyon verisi ve yeni tarifeler kısa vadede yüksek oynaklık getirebilir.
+25.11 16:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 16:32 N  NEWS (7 new) score -0.60 conf 0.65: Altın için baskı ağırlıklı olarak Fed'in faiz artırma beklentileri, güçlenen dolar ve yeni ABD tarifeleri kaynaklı; ETF'lerden 2,15 milyar dolarlık çıkış da negatif. Savaş haberleri (İran, Ukrayna) eski ve büyük ölçüde fiyatlanmış olduğu için güvenli liman talebini destekleyici bir etki sınırlı kalıyor; PCE enflasyon verisi kısa vadede oynaklık yaratabilir.
+25.11 16:32 B6  seans öncesi görüş: Piyasa, özellikle teknoloji tarafında, açılış öncesi sert satış baskısı altında; büyük hareketler zaten gerçekleştiği için yalnızca taze haber içeren seçici işlemler mantıklı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
