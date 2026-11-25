@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 17:54 (İstanbul)
+> Son güncelleme: 25.11.2026 17:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 17:45): Claude puan **-0.75**, güven 0.80 — Sıcak PCE enflasyonu (çekirdek %3.3) ve güçlü GSYH, Aralık faiz artırımı beklentilerini (%94 olasılık) güçlendirdi; dolar yükseldi ve altın 15 aylık dibi olan 3.500 dolar civarına geriledi. Jeopolitik haberler güvenli liman talebini artırmıyor, bu nedenle baskı 1-4 saat içinde sürmesi muhtemel.
+Son haber analizi (25.11 17:57): Claude puan **-0.50**, güven 0.55 — PCE enflasyonu ve güçlü Q3 GDP revizyonu, Fed'in sıkı kalacağı beklentisini güçlendirerek altın üzerinde baskı yaratıyor; altın 15 aylık dibe ($3,500) geriledi. Ancak haberlerde PCE'nin hem "3.8%'e yükseldi" hem de "kontrollü" olarak tanımlanması çelişkili, ayrıca yeni tarife haberleri ve savaş riskleri kısa vadede güvenli liman talebi yaratabilir, bu yüzden güven orta düzeyde.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 16:56 N  NEWS (23 new) score -0.70 conf 0.70: PCE enflasyonu Ekim'de yıllık %3,8'e çıktı ve çekirdek enflasyon beklentilerin üzerinde geldi; piyasalar Fed'in Aralık'ta faiz artırabileceğini fiyatlıyor. Bu, reel faiz ve dolar beklentilerini yukarı iterek altın için güçlü bir baskı oluşturuyor; altın 3.500 doların altına inip 15 aylık dibe yaklaştı ve ETF'lerden haftalık 2,15 milyar dolarlık çıkış var. Jeopolitik risk (İran savaşı finansmanı) güvenli liman talebi yaratabilir, ancak bu etki enflasyon şokunun gerisinde kalıyor.
-25.11 17:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:08 N  NEWS (18 new) score -0.60 conf 0.70: Ekim PCE enflasyonu %3,8 ve çekirdek enflasyon beklentinin üzerinde geldi; Polymarket Aralık faiz artırımı olasılığını %94'e çıkardı. Bu sıkılaştırıcı Fed beklentisi ve güçlenen dolar baskısı altın için olumsuz, İran savaşı ve Ukrayna haberleri ise zaten fiyatlanmış olduğundan güvenli liman desteği sınırlı kalıyor.
 25.11 17:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:21 N  NEWS (23 new) score -0.75 conf 0.78: Ekim PCE enflasyonu %3,8'e ve çekirdek enflasyon beklentilerin üzerine çıktı; piyasa Aralık faiz artırımını büyük ölçüde fiyatladı (Polymarket ~%94). Bu, reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. Altın zaten 15 aylık dibe (~3.500 $) yakın düştüğü için bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tutuyorum.
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 17:45 N  NEWS (7 new) score -0.75 conf 0.80: Sıcak PCE enflasyonu (çekirdek %3.3) ve güçlü GSYH, Aralık faiz artırımı beklentilerini (%94 olasılık) güçlendirdi; dolar yükseldi ve altın 15 aylık dibi olan 3.500 dolar civarına geriledi. Jeopolitik haberler güvenli liman talebini artırmıyor, bu nedenle baskı 1-4 saat içinde sürmesi muhtemel.
 25.11 17:54 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:54 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir satış var, son mumlarda hafif tepki görülüyor; volatilite yüksek olduğu için seçici davranmak gerekiyor.» / GPT «-»
+25.11 17:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 17:57 N  NEWS (28 new) score -0.50 conf 0.55: PCE enflasyonu ve güçlü Q3 GDP revizyonu, Fed'in sıkı kalacağı beklentisini güçlendirerek altın üzerinde baskı yaratıyor; altın 15 aylık dibe ($3,500) geriledi. Ancak haberlerde PCE'nin hem "3.8%'e yükseldi" hem de "kontrollü" olarak tanımlanması çelişkili, ayrıca yeni tarife haberleri ve savaş riskleri kısa vadede güvenli liman talebi yaratabilir, bu yüzden güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
