@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    5054.42
-   ],
-   [
     1795099553,
     5053.53
    ],
@@ -12094,6 +12090,10 @@
    [
     1795617540,
     5145.97
+   ],
+   [
+    1795617731,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    4868.5
-   ],
-   [
     1795099553,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795617540,
+    4868.5
+   ],
+   [
+    1795617731,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 03:06 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNfroEHVrdhq2uiDpvHC'}",
-  "25.11 03:09 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNg63ripYjuH8D1hp9SG'}",
   "25.11 03:12 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNgKGoxPk5htzXYmAgrd'}",
   "25.11 03:15 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNgYaRUaQSGcwAV1wx7x'}",
   "25.11 03:18 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNgmqmZcFzeNJgzAWLHH'}",
@@ -30238,7 +30236,9 @@
   "25.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 17:30 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f dalgas\u0131 var; d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan yaln\u0131zca g\u00f6receli g\u00fc\u00e7 ve zay\u0131fl\u0131k ile taze haberlere dayal\u0131 se\u00e7ici i\u015flemler tercih ediliyor.\u00bb / GPT \u00ab-\u00bb",
   "25.11 17:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "25.11 17:33 N  NEWS (13 new) score -0.70 conf 0.75: \u00c7ekirdek PCE'nin %3,3'e y\u00fckselmesi ve g\u00fc\u00e7l\u00fc GSYH verisi, Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 beklentisini kuvvetlendirdi; dolar y\u00fckseldi ve reel faiz beklentileri artt\u0131. Bu, alt\u0131n i\u00e7in 1-4 saatlik vadede net bir bask\u0131 yarat\u0131yor. Haberlerdeki baz\u0131 fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve baz\u0131 tekrarlanan ba\u015fl\u0131klar \u00e7eli\u015fkili oldu\u011fundan g\u00fcveni biraz s\u0131n\u0131rlad\u0131m."
+  "25.11 17:33 N  NEWS (13 new) score -0.70 conf 0.75: \u00c7ekirdek PCE'nin %3,3'e y\u00fckselmesi ve g\u00fc\u00e7l\u00fc GSYH verisi, Aral\u0131k'ta Fed faiz art\u0131r\u0131m\u0131 beklentisini kuvvetlendirdi; dolar y\u00fckseldi ve reel faiz beklentileri artt\u0131. Bu, alt\u0131n i\u00e7in 1-4 saatlik vadede net bir bask\u0131 yarat\u0131yor. Haberlerdeki baz\u0131 fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve baz\u0131 tekrarlanan ba\u015fl\u0131klar \u00e7eli\u015fkili oldu\u011fundan g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
+  "25.11 17:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "25.11 17:42 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off sat\u0131\u015f\u0131 var; b\u00fcy\u00fck hareketler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ger\u00e7ekle\u015fti\u011fi i\u00e7in yaln\u0131zca geride kalan isimlerde se\u00e7ici short pozisyon mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    4963.78
-   ],
-   [
     1795099553,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795617540,
+    4963.78
+   ],
+   [
+    1795617731,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    4975.18
-   ],
-   [
     1795099553,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795617540,
+    4975.18
+   ],
+   [
+    1795617731,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    4993.28
-   ],
-   [
     1795099553,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795617540,
+    4993.28
+   ],
+   [
+    1795617731,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795099337,
-    4969.22
-   ],
-   [
     1795099553,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795617540,
+    4969.22
+   ],
+   [
+    1795617731,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795099337,
-    4874.16
-   ],
    [
     1795099553,
     4878.08
@@ -94899,6 +94895,10 @@
    [
     1795617540,
     5297.35
+   ],
+   [
+    1795617731,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795099337,
-    115319.91
-   ],
    [
     1795099553,
     115319.91
@@ -108542,40 +108538,24 @@
    [
     1795617540,
     128183.18
+   ],
+   [
+    1795617731,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795617001813,
+  "last_decision_ms": 1795617720305,
   "view": {
-   "ts": 1795617001813,
-   "claude": "Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f dalgas\u0131 var; d\u00fc\u015f\u00fc\u015f\u00fc kovalamadan yaln\u0131zca g\u00f6receli g\u00fc\u00e7 ve zay\u0131fl\u0131k ile taze haberlere dayal\u0131 se\u00e7ici i\u015flemler tercih ediliyor.",
+   "ts": 1795617720305,
+   "claude": "Teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off sat\u0131\u015f\u0131 var; b\u00fcy\u00fck hareketler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde ger\u00e7ekle\u015fti\u011fi i\u00e7in yaln\u0131zca geride kalan isimlerde se\u00e7ici short pozisyon mant\u0131kl\u0131.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
-     "claude": [
-      null,
-      null
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "NVDA": {
      "claude": [
       "none",
       0.35
@@ -108585,10 +108565,30 @@
       null
      ]
     },
+    "QQQ": {
+     "claude": [
+      "none",
+      0.35
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "none",
+      0.4
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
     "AAPL": {
      "claude": [
-      "long",
-      0.5
+      "short",
+      0.45
      ],
      "gpt": [
       null,
@@ -108597,8 +108597,8 @@
     },
     "TSLA": {
      "claude": [
-      "short",
-      0.55
+      "none",
+      0.4
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795099337,
-    4876.96
-   ],
    [
     1795099553,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795617540,
+    4876.96
+   ],
+   [
+    1795617731,
     4876.96
    ]
   ],
