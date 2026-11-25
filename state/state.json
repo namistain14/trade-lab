@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    5076.92
-   ],
-   [
     1795102647,
     5081.77
    ],
@@ -12094,6 +12090,10 @@
    [
     1795620655,
     5145.97
+   ],
+   [
+    1795620829,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    4868.5
-   ],
-   [
     1795102647,
     4868.5
    ],
@@ -27166,34 +27162,29 @@
    [
     1795620655,
     4868.5
+   ],
+   [
+    1795620829,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.55,
-   "confidence": 0.6,
-   "reason": "S\u0131cak PCE enflasyonu (ba\u015fl\u0131k 3.8%, \u00e7ekirdek 3.3%) Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3.500 dolar\u0131n alt\u0131na indi. Ancak d\u00fc\u015f\u00fc\u015f b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve \u0130ran/Ukrayna sava\u015f haberleri g\u00fcvenli liman talebi i\u00e7in destek sa\u011flayabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
+   "score": -0.7,
+   "confidence": 0.8,
+   "reason": "S\u0131cak PCE enflasyonu (%3.8) ve g\u00fc\u00e7l\u00fc GDP, Fed'in daha fazla s\u0131k\u0131la\u015ft\u0131rma (Aral\u0131k faiz art\u0131\u015f\u0131) beklentisini g\u00fc\u00e7lendirdi; dolar endeksi 104'e do\u011fru y\u00fckseliyor ve alt\u0131n 3.500 dolar\u0131n alt\u0131na, 15 ayl\u0131k dip seviyesine geriledi. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ama bask\u0131n etki reel faiz ve dolar kanal\u0131ndan geliyor; k\u0131sa vadede bask\u0131 s\u00fcrmesi bekleniyor, bu nedenle g\u00fc\u00e7l\u00fc negatif g\u00f6r\u00fc\u015f.",
    "n": 45,
-   "ts": 1795620108692,
-   "new_headlines": 16,
+   "ts": 1795620829099,
+   "new_headlines": 12,
    "key_events": [
-    "Ekim PCE enflasyonu %3.8, \u00e7ekirdek %3.3: Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentisi y\u00fckseldi",
-    "Alt\u0131n 3.500 dolar e\u015fi\u011finin alt\u0131na d\u00fc\u015ft\u00fc; GLD 52 haftal\u0131k dibe yakla\u015ft\u0131",
-    "G\u00fc\u00e7l\u00fc ABD GSYH ve dolar y\u00fckseli\u015fi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor"
+    "S\u0131cak PCE enflasyonu (%3.8) ve Fed'de faiz art\u0131\u015f\u0131 beklentisi",
+    "Dolar endeksi 104'e y\u00fckseliyor; alt\u0131n 3.500 dolar\u0131n alt\u0131nda, 15 ayl\u0131k dip",
+    "Yeni tarifeler ve hisse sat\u0131\u015flar\u0131; g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kal\u0131yor"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795098018764,
-    "score": -0.4,
-    "confidence": 0.6,
-    "reason": "Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in olumsuz: Fed'in \u015fahin tutumu, JP Morgan'\u0131n \u00fc\u00e7 toplant\u0131da faiz art\u0131\u015f\u0131 beklentisi, g\u00fc\u00e7l\u00fc dolar ve reel faizlerin deste\u011fi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 8 seans \u00fcst \u00fcste d\u00fc\u015f\u00fc\u015f ya\u015f\u0131yor. H\u00fcrm\u00fcz gerilimi ve Philly Fed'in zay\u0131f verisi s\u0131n\u0131rl\u0131 bir jeopolitik destek sa\u011flasa da fiyat yine de 3.700 civar\u0131nda zay\u0131f seyrediyor. Yat\u0131r\u0131mc\u0131 sat\u0131\u015f\u0131 ve kald\u0131ra\u00e7 \u00e7\u00f6z\u00fclmesi de k\u0131sa vadeli d\u00fc\u015f\u00fc\u015f\u00fc destekliyor.",
-    "new": 11,
-    "gpt_score": -0.58,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1795098737401,
     "score": -0.5,
@@ -29884,63 +29875,70 @@
     "new": 16,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795620829099,
+    "score": -0.7,
+    "confidence": 0.8,
+    "reason": "S\u0131cak PCE enflasyonu (%3.8) ve g\u00fc\u00e7l\u00fc GDP, Fed'in daha fazla s\u0131k\u0131la\u015ft\u0131rma (Aral\u0131k faiz art\u0131\u015f\u0131) beklentisini g\u00fc\u00e7lendirdi; dolar endeksi 104'e do\u011fru y\u00fckseliyor ve alt\u0131n 3.500 dolar\u0131n alt\u0131na, 15 ayl\u0131k dip seviyesine geriledi. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ama bask\u0131n etki reel faiz ve dolar kanal\u0131ndan geliyor; k\u0131sa vadede bask\u0131 s\u00fcrmesi bekleniyor, bu nedenle g\u00fc\u00e7l\u00fc negatif g\u00f6r\u00fc\u015f.",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-25",
-   "n": 11
+   "n": 12
   },
   "news_seen": [
+   "Democrats Press Navy Nominee Over Iran War's Toll on Sailors - Legis1",
+   "Bitcoin Price Falls Below $60,000 Again \u2013 Will US Inflation Data Trigger Another Sell-off? - Cryptonews.net",
+   "America\u2019s rifle: Weapon of war or self-defense? - Missoula Current",
+   "US stocks fall further as fears over AI intensify",
+   "Uzair Paracha: A Crucible of the War on Terror - The New Arab",
+   "Inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed - The Seattle Times",
+   "Gold price falls to session lows as U.S. New Home Sales rise 14.2% in October - Kitco",
+   "Gold Falls Below $3,500 to Hit Nearly 15-Month Low: What Is Causing Gold Prices to Fall Again? - TradingKey",
    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - Arab News",
+   "Haven Buying, Fresh Tariffs and Sticky Inflation Push the US Dollar Index Back Toward 104 as Equities Slide - Kalkine",
    "Bitcoin vs Good Outlook: BTC and XAU falter after hotter-than-expected US PCE inflation - www.tmgm.com",
    "VOTE: Do you think President Trump should end the war in Iran? - 13WHAM-TV",
    "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war - France 24",
    "VOTE: Do you think President Trump should end the war in Iran? - KATU",
-   "VOTE: Do you think President Trump should end the war in Iran? - KTXS",
-   "Huawei convicted of Iran sanctions violations, bank fraud and trade secret theft - Beinsure",
+   "US PCE inflation keeps Fed on course for more tightening - Financial Times",
    "PCE Inflation Hits 3.8%. Strong GDP Growth Raises Odds of More Fed Hikes. - Barron's",
    "Gold Sinks Below $3500 as Silver Crashes Thru' $40 - BullionVault",
-   "Detroit\u2019s Thanksgiving parade has survived war, financial trouble and a pandemic on its way to a milestone: its 100th procession. The parade debuted in 1924 and has grown into the nation\u2019s third largest, behind the Macy\u2019s Thanksgiving Day Parade in New Y - Instagram",
-   "US stocks fall further as fears over AI intensify",
    "VOTE: Do you think President Trump should end the war in Iran? - National News Desk",
+   "Current price of gold as of November 25, 2026 - Fortune",
    "Caught Between War and Crime, Who Will Protect Women on Day To Eliminate Violence? - The Media Line",
    "Your Thanksgiving Meal Costs More as US Food Inflation Returns - Bloomberg",
    "EU targets Russian tanker insurance and energy infrastructure in new sanctions - Beinsure",
    "Gold drops below $3,500; prediction markets price moderate year-end targets (XAUUSD:CUR:Commodity) - Seeking Alpha",
    "Can Euro find traction as upbeat US economic data bolster hawkish Fed expectations? - www.tmgm.com",
-   "NATO Secretary General Mark Rutte warns on Ukraine war risks ahead of Trump meeting - Fox News",
    "Stocks Tumble at Open as Inflation Rises, New Tariffs Weigh - La Voce di New York",
    "Nine dead, 18 trapped after illegal gold mine floods in Indonesia - Mining.com",
    "Libya Rages at Ukraine Over Ship Strike: \u2018Tantamount to Declaration of War\u2019 - Newsweek",
    "Japan to use Indian ranges for long-range missile training under new pact - Defense News",
    "US announces new tariffs on host of countries including China",
    "Frazier: Acts of kindness in new book about Revolutionary War - Charleston City Paper",
+   "Yemeni military official brands Iran Houthis\u2019 \u2018godfather,\u2019 says Tehran is directing war - Fox News",
    "Gold Price Prediction as XAU/USD Hits a 15-Month Low of $3,500 After US PCE Inflation Data - Cryptonews.net",
    "Jim Bianco Calls Nvidia \"the Federal Reserve of AI.\" Here's What That Means for Your Portfolio - 24/7 Wall St.",
    "Five Russian military jets hit in airfield strike, says Ukraine",
    "Canadian Dollar: BoC signals support CAD against US Dollar \u2013 Scotiabank - FXStreet",
    "Rising Inflation, Hot Economy Portend Another Fed Rate Hike - Newser",
-   "Google Is Turning AI Performance Into a Price War Anthropic Can\u2019t Ignore - Benzinga",
+   "Stocks tumble as AI sell-off deepens, Fed's preferred inflation gauge rises - Fox Business",
    "Fuel price hike will make life 'almost impossible'",
-   "Russia \u2018has lost more than 700,000 soldiers in Ukraine war\u2019 - The Times",
    "Sanctions with a way out. Brussels rewards firms that drop Moscow - EU Perspectives",
    "Gold Falls Below $3,500 Threshold as U.S. PCE Data Reinforces Rate-Hike Expectations, Tech Selloff Triggers Liquidity Squeeze - finance.biggo.com",
    "PCE inflation gauge still running hot, as December rate hike looms - InvestmentNews",
    "Huawei Guilty of Theft, Fraud, and Sanctions Violations - The American Conservative",
    "US Consumers Press Pause After Strong Spending Last Quarter - Bloomberg",
    "The Parade Company's America\u2019s Thanksgiving Parade in Detroit has survived war, financial trouble and a pandemic on its way to a milestone: its 100th procession. Here's a look back through photos. \ud83d\udcf8 from Detroit Free Press archives - Facebook",
-   "Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report",
-   "Wall Street set for lower open as AI losses deepen; inflation, tariffs weigh - The Detroit News",
-   "Core PCE Hits 3.3% in October, Cementing Bets on a December Fed Hike - BigGo Finance",
-   "Missile Transfers Raise Fears of New Russian Strike on Ukraine - Caspian Post",
-   "Chinese tech giant Huawei convicted in US over Iran sanctions, espionage, fraud - The Jerusalem Post",
-   "European Stocks Trade Mixed as Oil Prices Decline and Investors Await US Inflation Data: DAX, CAC, FTSE100 - Yahoo Finance UK",
-   "Fed's preferred gauge of inflation climbs ahead of possible rate hike - ABC News - Breaking News, Latest News and Videos"
+   "Inflation Continues to Climb, Fed Poised to Raise Interest Rates | National News | U.S. News - U.S. News & World Report"
   ]
  },
  "log": [
-  "25.11 03:58 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNjoXyeh4LWiG3yFWrYx'}",
-  "25.11 04:01 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNk2nwfdvQHEJ4BWiHHW'}",
   "25.11 04:04 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNkG6N2fSUvzzXm3dz5u'}",
   "25.11 04:07 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNkVKJGe1pvQSWHFgVzR'}",
   "25.11 04:10 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNkiiztukZo4nE4zc66y'}",
@@ -30238,7 +30236,9 @@
   "25.11 18:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 18:21 N  NEWS (16 new) score -0.55 conf 0.60: S\u0131cak PCE enflasyonu (ba\u015fl\u0131k 3.8%, \u00e7ekirdek 3.3%) Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3.500 dolar\u0131n alt\u0131na indi. Ancak d\u00fc\u015f\u00fc\u015f b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve \u0130ran/Ukrayna sava\u015f haberleri g\u00fcvenli liman talebi i\u00e7in destek sa\u011flayabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "25.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "25.11 18:30 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off g\u00fcn\u00fc ya\u015fan\u0131yor ve \u00f6\u011fle saatlerindeki tepki y\u00fckseli\u015fi s\u00f6n\u00fcmlendi; bu nedenle zay\u0131f hisselerde k\u0131sa y\u00f6nl\u00fc i\u015flemler daha mant\u0131kl\u0131, ancak 1:4 kald\u0131ra\u00e7ta %1'lik stop sermayenin %4'\u00fcne denk geldi\u011fi i\u00e7in pozisyon boyutu dikkatli tutulmal\u0131.\u00bb / GPT \u00ab-\u00bb"
+  "25.11 18:30 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off g\u00fcn\u00fc ya\u015fan\u0131yor ve \u00f6\u011fle saatlerindeki tepki y\u00fckseli\u015fi s\u00f6n\u00fcmlendi; bu nedenle zay\u0131f hisselerde k\u0131sa y\u00f6nl\u00fc i\u015flemler daha mant\u0131kl\u0131, ancak 1:4 kald\u0131ra\u00e7ta %1'lik stop sermayenin %4'\u00fcne denk geldi\u011fi i\u00e7in pozisyon boyutu dikkatli tutulmal\u0131.\u00bb / GPT \u00ab-\u00bb",
+  "25.11 18:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "25.11 18:33 N  NEWS (12 new) score -0.70 conf 0.80: S\u0131cak PCE enflasyonu (%3.8) ve g\u00fc\u00e7l\u00fc GDP, Fed'in daha fazla s\u0131k\u0131la\u015ft\u0131rma (Aral\u0131k faiz art\u0131\u015f\u0131) beklentisini g\u00fc\u00e7lendirdi; dolar endeksi 104'e do\u011fru y\u00fckseliyor ve alt\u0131n 3.500 dolar\u0131n alt\u0131na, 15 ayl\u0131k dip seviyesine geriledi. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ama bask\u0131n etki reel faiz ve dolar kanal\u0131ndan geliyor; k\u0131sa vadede bask\u0131 s\u00fcrmesi bekleniyor, bu nedenle g\u00fc\u00e7l\u00fc negatif g\u00f6r\u00fc\u015f."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    4963.78
-   ],
-   [
     1795102647,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795620655,
+    4963.78
+   ],
+   [
+    1795620829,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    4975.18
-   ],
-   [
     1795102647,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795620655,
+    4975.18
+   ],
+   [
+    1795620829,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    4993.28
-   ],
-   [
     1795102647,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795620655,
+    4993.28
+   ],
+   [
+    1795620829,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795102498,
-    4969.22
-   ],
-   [
     1795102647,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795620655,
+    4969.22
+   ],
+   [
+    1795620829,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795102498,
-    4945.67
-   ],
    [
     1795102647,
     4945.67
@@ -94899,6 +94895,10 @@
    [
     1795620655,
     5297.35
+   ],
+   [
+    1795620829,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795102498,
-    116030.08
-   ],
    [
     1795102647,
     116380.82
@@ -108542,6 +108538,10 @@
    [
     1795620655,
     128183.18
+   ],
+   [
+    1795620829,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795102498,
-    4876.96
-   ],
    [
     1795102647,
     4876.96
@@ -120722,6 +120718,10 @@
    ],
    [
     1795620655,
+    4876.96
+   ],
+   [
+    1795620829,
     4876.96
    ]
   ],
