@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 17:42 (İstanbul)
+> Son güncelleme: 25.11.2026 17:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 17:33): Claude puan **-0.70**, güven 0.75 — Çekirdek PCE'nin %3,3'e yükselmesi ve güçlü GSYH verisi, Aralık'ta Fed faiz artırımı beklentisini kuvvetlendirdi; dolar yükseldi ve reel faiz beklentileri arttı. Bu, altın için 1-4 saatlik vadede net bir baskı yaratıyor. Haberlerdeki bazı fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve bazı tekrarlanan başlıklar çelişkili olduğundan güveni biraz sınırladım.
+Son haber analizi (25.11 17:45): Claude puan **-0.75**, güven 0.80 — Sıcak PCE enflasyonu (çekirdek %3.3) ve güçlü GSYH, Aralık faiz artırımı beklentilerini (%94 olasılık) güçlendirdi; dolar yükseldi ve altın 15 aylık dibi olan 3.500 dolar civarına geriledi. Jeopolitik haberler güvenli liman talebini artırmıyor, bu nedenle baskı 1-4 saat içinde sürmesi muhtemel.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 16:32 B6  seans öncesi görüş: Piyasa, özellikle teknoloji tarafında, açılış öncesi sert satış baskısı altında; büyük hareketler zaten gerçekleştiği için yalnızca taze haber içeren seçici işlemler mantıklı.
-25.11 16:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 16:44 N  NEWS (21 new) score -0.60 conf 0.70: Ekim PCE enflasyonu %3.8 ile beklentilere uygun geldi, ancak çekirdek PCE'nin üst üste üçüncü ay 0,3% artması Fed'in faiz artırım beklentilerini pekiştiriyor; güçlü dolar ve ETF çıkışları (haftalık 2,15 milyar dolar) altını 3.500 doların altına ve bir yılın en düşük seviyesine itti. İran savaşı gibi jeopolitik riskler kısa vadeli güvenli liman talebi sağlayabilir, ancak bu etki hawkish Fed ve dolar baskısının gerisinde kalıyor; beklentilerin kısmen fiyatlanmış olması güveni biraz düşürüyor.
 25.11 16:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 16:56 N  NEWS (23 new) score -0.70 conf 0.70: PCE enflasyonu Ekim'de yıllık %3,8'e çıktı ve çekirdek enflasyon beklentilerin üzerinde geldi; piyasalar Fed'in Aralık'ta faiz artırabileceğini fiyatlıyor. Bu, reel faiz ve dolar beklentilerini yukarı iterek altın için güçlü bir baskı oluşturuyor; altın 3.500 doların altına inip 15 aylık dibe yaklaştı ve ETF'lerden haftalık 2,15 milyar dolarlık çıkış var. Jeopolitik risk (İran savaşı finansmanı) güvenli liman talebi yaratabilir, ancak bu etki enflasyon şokunun gerisinde kalıyor.
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 17:33 N  NEWS (13 new) score -0.70 conf 0.75: Çekirdek PCE'nin %3,3'e yükselmesi ve güçlü GSYH verisi, Aralık'ta Fed faiz artırımı beklentisini kuvvetlendirdi; dolar yükseldi ve reel faiz beklentileri arttı. Bu, altın için 1-4 saatlik vadede net bir baskı yaratıyor. Haberlerdeki bazı fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve bazı tekrarlanan başlıklar çelişkili olduğundan güveni biraz sınırladım.
 25.11 17:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:42 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir risk-off satışı var; büyük hareketler büyük ölçüde gerçekleştiği için yalnızca geride kalan isimlerde seçici short pozisyon mantıklı.» / GPT «-»
+25.11 17:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 17:45 N  NEWS (7 new) score -0.75 conf 0.80: Sıcak PCE enflasyonu (çekirdek %3.3) ve güçlü GSYH, Aralık faiz artırımı beklentilerini (%94 olasılık) güçlendirdi; dolar yükseldi ve altın 15 aylık dibi olan 3.500 dolar civarına geriledi. Jeopolitik haberler güvenli liman talebini artırmıyor, bu nedenle baskı 1-4 saat içinde sürmesi muhtemel.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
