@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 17:30 (İstanbul)
+> Son güncelleme: 25.11.2026 17:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 17:21): Claude puan **-0.75**, güven 0.78 — Ekim PCE enflasyonu %3,8'e ve çekirdek enflasyon beklentilerin üzerine çıktı; piyasa Aralık faiz artırımını büyük ölçüde fiyatladı (Polymarket ~%94). Bu, reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. Altın zaten 15 aylık dibe (~3.500 $) yakın düştüğü için bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tutuyorum.
+Son haber analizi (25.11 17:33): Claude puan **-0.70**, güven 0.75 — Çekirdek PCE'nin %3,3'e yükselmesi ve güçlü GSYH verisi, Aralık'ta Fed faiz artırımı beklentisini kuvvetlendirdi; dolar yükseldi ve reel faiz beklentileri arttı. Bu, altın için 1-4 saatlik vadede net bir baskı yaratıyor. Haberlerdeki bazı fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve bazı tekrarlanan başlıklar çelişkili olduğundan güveni biraz sınırladım.
 
 Son işlemler:
 
@@ -92,8 +92,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 16:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-25.11 16:20 N  NEWS (45 new) score -0.60 conf 0.70: Altın 3.500 doların altına düşerek Eylül 2025'ten bu yana en düşük seviyeye indi; güçlü dolar, Fed sıkılaşma endişeleri ve altın ETF'lerinden 2,15 milyar dolarlık çıkış baskıyı sürdürüyor. Jeopolitik riskler (İran savaşı, Ukrayna) güvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz baskısının altında kalıyor; PCE enflasyon verisi ve yeni tarifeler kısa vadede yüksek oynaklık getirebilir.
 25.11 16:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 16:32 N  NEWS (7 new) score -0.60 conf 0.65: Altın için baskı ağırlıklı olarak Fed'in faiz artırma beklentileri, güçlenen dolar ve yeni ABD tarifeleri kaynaklı; ETF'lerden 2,15 milyar dolarlık çıkış da negatif. Savaş haberleri (İran, Ukrayna) eski ve büyük ölçüde fiyatlanmış olduğu için güvenli liman talebini destekleyici bir etki sınırlı kalıyor; PCE enflasyon verisi kısa vadede oynaklık yaratabilir.
 25.11 16:32 B6  seans öncesi görüş: Piyasa, özellikle teknoloji tarafında, açılış öncesi sert satış baskısı altında; büyük hareketler zaten gerçekleştiği için yalnızca taze haber içeren seçici işlemler mantıklı.
@@ -107,6 +105,8 @@ Son işlemler:
 25.11 17:21 N  NEWS (23 new) score -0.75 conf 0.78: Ekim PCE enflasyonu %3,8'e ve çekirdek enflasyon beklentilerin üzerine çıktı; piyasa Aralık faiz artırımını büyük ölçüde fiyatladı (Polymarket ~%94). Bu, reel faizleri ve doları yukarı iterek altın için güçlü bir baskı oluşturuyor. Altın zaten 15 aylık dibe (~3.500 $) yakın düştüğü için bir kısmı fiyatlanmış olabilir, bu nedenle güveni sınırlı tutuyorum.
 25.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 17:30 B6  karar turu: Claude «Teknoloji ağırlıklı sert bir satış dalgası var; düşüşü kovalamadan yalnızca göreceli güç ve zayıflık ile taze haberlere dayalı seçici işlemler tercih ediliyor.» / GPT «-»
+25.11 17:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+25.11 17:33 N  NEWS (13 new) score -0.70 conf 0.75: Çekirdek PCE'nin %3,3'e yükselmesi ve güçlü GSYH verisi, Aralık'ta Fed faiz artırımı beklentisini kuvvetlendirdi; dolar yükseldi ve reel faiz beklentileri arttı. Bu, altın için 1-4 saatlik vadede net bir baskı yaratıyor. Haberlerdeki bazı fiyat seviyeleri (3.500 dolar, 3.550 dolar) ve bazı tekrarlanan başlıklar çelişkili olduğundan güveni biraz sınırladım.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
