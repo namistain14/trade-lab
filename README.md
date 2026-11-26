@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 17:49 (İstanbul)
+> Son güncelleme: 26.11.2026 17:52 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 17:40): Claude puan **-0.30**, güven 0.40 — Savaş haberlerinin çoğu zaten fiyatlanmış ve altı doğrudan etkilemiyor. Asıl etki, Fed faiz artırımı beklentilerinin sürmesi ile DXY'deki güçlenen momentumdan geliyor; bu da altı kısa vadede baskılıyor. Yerel para birimi kaynaklı Hindistan ve Pakistan altın fiyat haberleri ise küresel yönü belirlemiyor.
+Son haber analizi (26.11 17:52): Claude puan **-0.40**, güven 0.50 — Fed faiz artırımı beklentilerinin sürmesi ve DXY'nin 2026 zirvesine yükselmesi altın için baskı yaratıyor. Savaş haberleri (Ukrayna, İran) güvenli liman talebi açısından destek sağlasa da bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor, bu yüzden etkisi sınırlı kalıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 16:15 N  NEWS (27 new) score -0.60 conf 0.60: Enflasyon verileri (Ekim CPI, Core PCE %3.3) ve neredeyse %100 olarak fiyatlanan faiz artırımı beklentisi, dolar ve reel getirilerdeki yükselişle birlikte altın üzerinde baskı oluşturuyor; altın 3.500$ altına düştü. Bazı haberlerde düşük getirilerin toparlanmayı desteklediği ve merkez bankası alımları gibi destekleyici unsurlar bulunsa da, bu etkiler Fed kaynaklı satış baskısının gerisinde kalıyor. Birçok başlık tekrar eden veya düşük kaliteli içerik olduğu için güven orta düzeyde tutuldu.
-26.11 16:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:27 N  NEWS (32 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Fed'in sıkılaştırma yönlü beklentileri (faiz artırımı olasılığı çok yüksek), ABD enflasyonunun yukarı yönlü sürpriz yapması, güçlü dolar ve yüksek ABD tahvil getirileri altın üzerinde baskı yaratıyor. Jeopolitik gerilimler (İran savaşı, Ukrayna) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bazı başlıklar da eski veya zaten fiyatlanmış.
 26.11 16:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:39 N  NEWS (8 new) score -0.50 conf 0.60: Baskın etki şahin Fed beklentilerinden kaynaklanıyor: çekirdek PCE %3,3'e yükseldi, faiz artırımı oranları çok yüksek ve altın 3.500 doların altına düştü. Güçlü dolar ve reel faiz baskısı altını aşağı çekiyor; Ukrayna ve Hürmüz'deki jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki sınırlı kalıyor. Bazı başlıklar eski veya fiyatlanmış haberler olduğu için güven orta düzeyde tutuldu.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 17:28 N  NEWS (7 new) score -0.50 conf 0.60: Fed faiz artırımı beklentileri yaklaşık %99.8 olasılıkla fiyatlanmış görünüyor ve DXY 2026 zirvesine ulaştı; bu iki unsur altın için kısa vadede baskı yaratıyor. Iran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi sınırlı kalıyor ve güç dengesi dolar/faiz tarafında.
 26.11 17:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 17:40 N  NEWS (11 new) score -0.30 conf 0.40: Savaş haberlerinin çoğu zaten fiyatlanmış ve altı doğrudan etkilemiyor. Asıl etki, Fed faiz artırımı beklentilerinin sürmesi ile DXY'deki güçlenen momentumdan geliyor; bu da altı kısa vadede baskılıyor. Yerel para birimi kaynaklı Hindistan ve Pakistan altın fiyat haberleri ise küresel yönü belirlemiyor.
+26.11 17:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 17:52 N  NEWS (3 new) score -0.40 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi ve DXY'nin 2026 zirvesine yükselmesi altın için baskı yaratıyor. Savaş haberleri (Ukrayna, İran) güvenli liman talebi açısından destek sağlasa da bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor, bu yüzden etkisi sınırlı kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
