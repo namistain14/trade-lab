@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 23:06 (İstanbul)
+> Son güncelleme: 26.11.2026 23:09 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 22:57): Claude puan **-0.05**, güven 0.40 — Yeni haberler karışık: Hindistan merkez bankasının 60 ton altın geri alımı ve Fed'in enflasyon hedefinden ödün verebileceği yorumu altını destekler, ancak doların güçlenmesi, Fed faiz artırımı beklentileri ve ince işlem hacmi (Şükran günü tatili) baskı yaratıyor. Kuveyt'teki saldırı ve Ukrayna-Rusya gerilimi ise sınırlı bir güvenli liman talebi yaratıyor; genel etki hafif negatif, düşük güvenle.
+Son haber analizi (26.11 23:09): Claude puan **-0.30**, güven 0.45 — Yeni gelen en önemli haber, güçlü GDP'nin Fed faiz artırımı beklentilerini artırması, bu da altın için bbir baskı yaratıyor. Rusya'ya yönelik Trump/NATO uyarıları sınırlı bir güvenli liman talebi destekleyebilir, ancak bu gelişme büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor; başlıklar ayrıca birbiriyle çelişen fiyat hareketleri (3600 üzeri toparlanma ve 3570 civarında durgunluk) bildiriyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 21:32 N  NEWS (10 new) score -0.30 conf 0.50: Fed faiz artırımı beklentileri ve güçlenen dolar altın üzerinde baskı oluşturuyor; altın 3.570$ civarında yatay seyrediyor. Jeopolitik haberler (Kuveyt'teki saldırı, Ukrayna, İran-İsrail) büyük ölçüde eski ve fiyatlanmış olduğu için güvenli liman talebini belirgin biçimde artırmıyor, bu yüzden sınırlı bir negatif görünüm hakim.
-26.11 21:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 21:44 N  NEWS (10 new) score -0.35 conf 0.50: Faiz artırımı beklentileri ve enflasyon verisinin ardından gelen güçlenen dolar altın için baskılayıcı; jeopolitik haberler (Ukrayna'da eskalasyon uyarıları, İran bağlantılı saldırı iddiaları) güvenli liman talebini destekliyor ancak çoğu haber eski veya fiyatlanmış. İnce işlem hacmi (Şükran Günü) hareketi sınırlayabilir.
 26.11 21:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 21:56 N  NEWS (12 new) score -0.30 conf 0.50: Enflasyon verisi (PCE) ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altın üzerinde baskı oluşturuyor; altın $3,570-3,600 civarında duraksıyor. Ukrayna'da Rusya'nın enerji altyapısına yönelik saldırı uyarısı ve Kuwait'teki saldırı gibi jeopolitik gelişmeler güvenli liman talebini sınırlı artırabilir, ancak bunların çoğu zaten fiyatlanmış ve ince işlem hacmi nedeniyle etkisi zayıf kalabilir.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 22:44 N  NEWS (4 new) score -0.10 conf 0.35: Yeni haberler karışık: Hindistan merkez bankasının 60 ton altın geri alımı ve Fed'in enflasyon hedefinden ödün verebileceği yorumu altını destekler, ancak doların güçlenmesi, Fed faiz artırımı beklentileri ve ince işlem hacmi (Şükran günü tatili) baskı yaratıyor. Kuveyt'teki saldırı ve Ukrayna-Rusya gerilimi ise sınırlı bir güvenli liman talebi yaratıyor; genel etki hafif negatif, düşük güvenle.
 26.11 22:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:57 N  NEWS (8 new) score -0.05 conf 0.40: 
+26.11 23:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 23:09 N  NEWS (4 new) score -0.30 conf 0.45: Yeni gelen en önemli haber, güçlü GDP'nin Fed faiz artırımı beklentilerini artırması, bu da altın için bbir baskı yaratıyor. Rusya'ya yönelik Trump/NATO uyarıları sınırlı bir güvenli liman talebi destekleyebilir, ancak bu gelişme büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor; başlıklar ayrıca birbiriyle çelişen fiyat hareketleri (3600 üzeri toparlanma ve 3570 civarında durgunluk) bildiriyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
