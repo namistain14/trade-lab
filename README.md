@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 23:55 (İstanbul)
+> Son güncelleme: 26.11.2026 23:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 23:46): Claude puan **-0.55**, güven 0.60 — Faiz artırımı beklentileri neredeyse %100 seviyesine çıktı, güçlü GDP ve enflasyon verisi doların toparlanmasını destekliyor ve altın 3.570 dolar civarında kâr satışlarıyla zayıf seyrediyor; bu tablo kısa vadede altın için olumsuz. Kuveyt'teki saldırı gibi jeopolitik haberler güvenli liman talebini sınırlı artırabilir, ancak etkisi faiz ve dolar baskısının gerisinde kalıyor. Bazı başlıkların çelişkili olması ve ABD'de hafta sonu öncesi ince işlem hacmi güveni biraz düşürüyor.
+Son haber analizi (26.11 23:58): Claude puan **-0.40**, güven 0.55 — Güçlü GDP verisinin Fed faiz artırımı beklentilerini körüklemesi ve altının yıllık yükseliş trendini kırıp haftanın en kötü performansını sergilemesi altın için baskılayıcı. Ukrayna'da Trump ve NATO'nun Rusya'yı savaşı genişletmemesi konusunda uyarması jeopolitik güvenli liman talebini biraz azaltıyor; ancak bazı haberler (ticaret savaşı, Ukrayna savaşı) hâlâ risk primini destekliyor, bu yüzden etki tam olarak tek yönlü değil.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 22:20 N  NEWS (11 new) score -0.20 conf 0.40: Faiz artırımı beklentileri ve ABD dolarındaki güç altın için baskı oluşturuyor; ayrıca yüksek PCE enflasyonu Fed'in sıkı duruşunu destekliyor. Buna karşın Ukrayna'daki tırmanma uyarıları güvenli liman talebini bir miktar destekliyor, ancak bu haberlerin büyük kısmı tekrar ve fiyatlanmış niteliğinde; ince işlem hacmi de hareketi sınırlıyor.
-26.11 22:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:32 N  NEWS (5 new) score +0.10 conf 0.35: Yeni haberlerin etkisi karışık: Hindistan Merkez Bankası'nın 60 ton altın alımı ve doların zayıflama beklentisi altını destekliyor, ancak Fed faiz artırımı beklentilerine dair haberler ve "sert Fed" uyarısı baskı yaratıyor. Ukrayna'daki tırmanış uyarıları jeopolitik talebi hafifçe artırabilir, fakat bunlar büyük ölçüde fiyatlanmış ve yeni bir kriz içermiyor; bu nedenle etki sınırlı ve güven düşük.
 26.11 22:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:44 N  NEWS (4 new) score -0.10 conf 0.35: Yeni haberler karışık: Hindistan merkez bankasının 60 ton altın geri alımı ve Fed'in enflasyon hedefinden ödün verebileceği yorumu altını destekler, ancak doların güçlenmesi, Fed faiz artırımı beklentileri ve ince işlem hacmi (Şükran günü tatili) baskı yaratıyor. Kuveyt'teki saldırı ve Ukrayna-Rusya gerilimi ise sınırlı bir güvenli liman talebi yaratıyor; genel etki hafif negatif, düşük güvenle.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 23:33 N  NEWS (6 new) score -0.30 conf 0.50: Güçlü ABD GDP verisi sonrası Fed faiz artırımı beklentilerinin neredeyse %100'e çıkması, reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor; altın yaklaşık 3.570$ civarında yatay seyrediyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gelişmeler güvenli liman talebini bir miktar destekliyor olsa da bunların çoğu zaten fiyatlanmış ve etkisi sınırlı kalabilir; Hindistan'ın altın transferi ise satış değil, rezerv yer değiştirmesi olarak değerlendirilmeli.
 26.11 23:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 23:46 N  NEWS (27 new) score -0.55 conf 0.60: Faiz artırımı beklentileri neredeyse %100 seviyesine çıktı, güçlü GDP ve enflasyon verisi doların toparlanmasını destekliyor ve altın 3.570 dolar civarında kâr satışlarıyla zayıf seyrediyor; bu tablo kısa vadede altın için olumsuz. Kuveyt'teki saldırı gibi jeopolitik haberler güvenli liman talebini sınırlı artırabilir, ancak etkisi faiz ve dolar baskısının gerisinde kalıyor. Bazı başlıkların çelişkili olması ve ABD'de hafta sonu öncesi ince işlem hacmi güveni biraz düşürüyor.
+26.11 23:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 23:58 N  NEWS (27 new) score -0.40 conf 0.55: Güçlü GDP verisinin Fed faiz artırımı beklentilerini körüklemesi ve altının yıllık yükseliş trendini kırıp haftanın en kötü performansını sergilemesi altın için baskılayıcı. Ukrayna'da Trump ve NATO'nun Rusya'yı savaşı genişletmemesi konusunda uyarması jeopolitik güvenli liman talebini biraz azaltıyor; ancak bazı haberler (ticaret savaşı, Ukrayna savaşı) hâlâ risk primini destekliyor, bu yüzden etki tam olarak tek yönlü değil.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
