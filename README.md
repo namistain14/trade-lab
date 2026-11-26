@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 17:13 (İstanbul)
+> Son güncelleme: 26.11.2026 17:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 17:03): Claude puan **-0.50**, güven 0.60 — Enflasyon verileri (Core PCE %3.3, Ekim CPI yükselişi) ve Fed faiz artırımı beklentileri (oran artırma olasılığı ~%99.8) altını baskılıyor; gold ~3.425-3.500 dolar civarında satış baskısı altında. Jeopolitik riskler (Ukrayna, İran savaşı, Karadeniz) güvenli liman talebi yaratabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış; merkez bankası alımları destek sağlıyor ama kısa vadede etkisi sınırlı.
+Son haber analizi (26.11 17:16): Claude puan **-0.50**, güven 0.60 — Haberlerin ağırlığı Fed faiz artırımı beklentilerine ve enflasyon sürprizine dayanıyor: ABD Ekim enflasyonu yükseldi, faiz artırım olasılığı çok yüksek ve altın bu nedenle baskı altında. Jeopolitik haberler (Ukrayna, Akdeniz gerginliği) güvenli liman talebini destekliyor olsa da bu etkisi Fed kaynaklı baskıyı dengelemeye yetmiyor; ayrıca bazı haberler eski veya fiyatlanmış olduğu için güven orta düzeyde.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 15:39 N  NEWS (7 new) score -0.40 conf 0.60: Başlıkların çoğu altın için baskılayıcı: güçlü dolar, yüksek ABD tahvil getirileri ve Fed faiz artırımı beklentileri (hawkish dönüş) ön planda. Iran savaşı ve Houthi saldırıları gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; ayrıca bazı haberler çelişkili ve kısmen fiyatlanmış.
-26.11 15:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 15:51 N  NEWS (13 new) score -0.45 conf 0.60: Başlıkların çoğu altın için baskı yaratıyor: Fed'in sert duruşu ve faiz artırımı beklentileri, güçlenen dolar ve yüksek ABD tahvil getirileri altını aşağı çekiyor; yeni haberlerde de "gold spot slips as dollar firms" var. Jeopolitik haberler (Ukrayna, Husiler, İran kaynaklı yakıt şoku) güvenli liman talebi yaratabilir, ancak bunlar büyük ölçüde fiyatlanmış ve eski, bu yüzden etkisi sınırlı kalıyor.
 26.11 16:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:03 N  NEWS (7 new) score -0.55 conf 0.60: 
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 16:51 N  NEWS (9 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (oran artışı olasılığı yaklaşık %99,8), yüksek çekirdek PCE (%3,3) ve 2026 zirvesindeki dolar endeksi altını baskılıyor; altın 3.500 doların altına düştü. Kyiv'e füze saldırıları ve Orta Doğu gerginliği gibi güvenli liman talebini artırabilecek haberler var, ancak bunlar zaten fiyatlanmış ve sınırlı etki yaratıyor.
 26.11 17:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 17:03 N  NEWS (11 new) score -0.50 conf 0.60: Enflasyon verileri (Core PCE %3.3, Ekim CPI yükselişi) ve Fed faiz artırımı beklentileri (oran artırma olasılığı ~%99.8) altını baskılıyor; gold ~3.425-3.500 dolar civarında satış baskısı altında. Jeopolitik riskler (Ukrayna, İran savaşı, Karadeniz) güvenli liman talebi yaratabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış; merkez bankası alımları destek sağlıyor ama kısa vadede etkisi sınırlı.
+26.11 17:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 17:16 N  NEWS (10 new) score -0.50 conf 0.60: Haberlerin ağırlığı Fed faiz artırımı beklentilerine ve enflasyon sürprizine dayanıyor: ABD Ekim enflasyonu yükseldi, faiz artırım olasılığı çok yüksek ve altın bu nedenle baskı altında. Jeopolitik haberler (Ukrayna, Akdeniz gerginliği) güvenli liman talebini destekliyor olsa da bu etkisi Fed kaynaklı baskıyı dengelemeye yetmiyor; ayrıca bazı haberler eski veya fiyatlanmış olduğu için güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
