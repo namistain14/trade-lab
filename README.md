@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 02:08 (İstanbul)
+> Son güncelleme: 27.11.2026 02:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 01:59): Claude puan **-0.30**, güven 0.45 — Fed faiz artırımı beklentilerinin sürmesi ve ABD enflasyonunun %3,8'e yükselmesi, doların tatil döneminde toparlanmasıyla birlikte altın üzerinde baskı yaratıyor. İran savaşı ve Ukrayna'daki gelişmeler güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve ince piyasa koşullarında etkisi sınırlı kalabilir.
+Son haber analizi (27.11 02:12): Claude puan **-0.30**, güven 0.50 — Fed faiz artırımı beklentilerinin sürmesi, ABD enflasyonunun %3,8'e çıkması ve doların güçlenmesi altın için baskı yaratıyor; Kitco da altının düştüğünü bildiriyor. Jeopolitik gerilim (İran savaşı, Ukrayna füzeleri) güvenli liman talebini destekliyor olsa da bu haberler büyük ölçüde fiyatlanmış ve tatil nedeniyle işlem hacmi düşük, bu yüzden güven sınırlı.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 00:34 N  NEWS (9 new) score -0.20 conf 0.35: Başlıklar karışık: PCE enflasyonunun güçlü çıkması ve Fed faiz artırma beklentileri altın için baskılayıcı, buna karşın Ukrayna/İran kaynaklı jeopolitik gerilim hafif destek veriyor. Altın kâr realizasyonuyla geriliyor; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
-27.11 00:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 00:46 N  NEWS (10 new) score -0.25 conf 0.50: Fed sıkılaştırma beklentileri (ABD enflasyonu %3,8, güçlü GSYH ile faiz artırımı bahisleri) ve altının haftalık düşüşü ile kâr realizasyonu altın üzerinde baskı oluşturuyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve etkisi sınırlı kalabilir.
 27.11 00:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 00:58 N  NEWS (8 new) score -0.40 conf 0.50: 
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 01:47 N  NEWS (13 new) score -0.35 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi, ABD enflasyonunun %3,8'e yükselmesi ve doların tatil sezonunda toparlanması altın için baskı oluşturuyor. Kitco'nun 'altın düşerken gümüş yükseliyor' notu ve FXEmpire'ın kâr realizasyonu yorumu da zayıf eğilimi destekliyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini sınırlı da olsa destekleyebilir, ancak bu haberler yeni ve belirgin bir tırmanış içermiyor; düşük hacimli tatil piyasası da sinyali zayıflatıyor.
 27.11 01:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 01:59 N  NEWS (3 new) score -0.30 conf 0.45: Fed faiz artırımı beklentilerinin sürmesi ve ABD enflasyonunun %3,8'e yükselmesi, doların tatil döneminde toparlanmasıyla birlikte altın üzerinde baskı yaratıyor. İran savaşı ve Ukrayna'daki gelişmeler güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve ince piyasa koşullarında etkisi sınırlı kalabilir.
+27.11 02:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 02:12 N  NEWS (18 new) score -0.30 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi, ABD enflasyonunun %3,8'e çıkması ve doların güçlenmesi altın için baskı yaratıyor; Kitco da altının düştüğünü bildiriyor. Jeopolitik gerilim (İran savaşı, Ukrayna füzeleri) güvenli liman talebini destekliyor olsa da bu haberler büyük ölçüde fiyatlanmış ve tatil nedeniyle işlem hacmi düşük, bu yüzden güven sınırlı.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
