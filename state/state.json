@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    5104.97
-   ],
-   [
     1795142989,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795732338,
     5145.97
+   ],
+   [
+    1795732523,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    4868.5
-   ],
-   [
     1795142989,
     4868.5
    ],
@@ -27166,34 +27162,29 @@
    [
     1795732338,
     4868.5
+   ],
+   [
+    1795732523,
+    4868.5
    ]
   ],
   "news": {
    "score": -0.35,
    "confidence": 0.5,
-   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve ABD enflasyonunun %3,8'e \u00e7\u0131kt\u0131\u011f\u0131 haberleri alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n bu nedenle hafif geriliyor. Ukrayna ve \u0130ran'daki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir.",
+   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve %3.8 ABD enflasyon haberleri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Kitco ve FXEmpire de alt\u0131n\u0131n d\u00fc\u015ft\u00fc\u011f\u00fcn\u00fc ve k\u00e2r realizasyonu ya\u015fand\u0131\u011f\u0131n\u0131 bildiriyor. Ukrayna ve \u0130ran sava\u015f\u0131na ili\u015fkin haberler jeopolitik risk primi sa\u011flasa da, bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f, bu y\u00fczden g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
    "n": 45,
-   "ts": 1795731802721,
-   "new_headlines": 12,
+   "ts": 1795732521932,
+   "new_headlines": 16,
    "key_events": [
-    "Alt\u0131n 3.570 dolar civar\u0131nda durgun; Fed faiz art\u0131r\u0131m\u0131 beklentileri bo\u011falar\u0131 frenliyor",
-    "Dolar g\u00fc\u00e7leniyor, alt\u0131n \u00fczerinde bask\u0131; ince i\u015flem hacmi",
-    "Kushner/Putin: Ukrayna sava\u015f\u0131 'ciddi bi\u00e7imde t\u0131rmanabilir' uyar\u0131s\u0131 (s\u0131n\u0131rl\u0131 g\u00fcvenli liman etkisi)"
+    "Fed faiz art\u0131r\u0131m\u0131 beklentileri s\u00fcr\u00fcyor; alt\u0131n d\u00fc\u015f\u00fc\u015fte (Kitco)",
+    "ABD enflasyonu %3.8'e y\u00fckseldi; Aral\u0131k'ta faiz art\u0131r\u0131m\u0131 tart\u0131\u015f\u0131l\u0131yor",
+    "Jeopolitik haberler (\u0130ran sava\u015f\u0131 finansman\u0131, Ukrayna f\u00fcze sald\u0131r\u0131lar\u0131) b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795140608723,
-    "score": -0.45,
-    "confidence": 0.55,
-    "reason": "Dolar 19 ay\u0131n zirvesine yak\u0131n ve Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor (JPMorgan \u00fc\u00e7 art\u0131r\u0131m \u00f6ng\u00f6r\u00fcs\u00fc, Fed Ba\u015fkan Yard\u0131mc\u0131s\u0131 Jefferson'un enflasyon uyar\u0131s\u0131); bu tablo reel faizleri ve dolar\u0131 yukar\u0131 iten, alt\u0131n i\u00e7in net olumsuz bir ortam. \u0130ran, Ukrayna ve Husi sald\u0131r\u0131lar\u0131na ili\u015fkin jeopolitik haberler g\u00fcvenli liman talebini art\u0131rabilir, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve dolar/faiz etkisini dengeleyemiyor; Asya hisselerindeki risk-off hareketi de alt\u0131na s\u0131n\u0131rl\u0131 destek veriyor.",
-    "new": 10,
-    "gpt_score": -0.35,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1795141327571,
     "score": -0.7,
@@ -29884,63 +29875,70 @@
     "new": 12,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795732521932,
+    "score": -0.35,
+    "confidence": 0.5,
+    "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentileri ve %3.8 ABD enflasyon haberleri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Kitco ve FXEmpire de alt\u0131n\u0131n d\u00fc\u015ft\u00fc\u011f\u00fcn\u00fc ve k\u00e2r realizasyonu ya\u015fand\u0131\u011f\u0131n\u0131 bildiriyor. Ukrayna ve \u0130ran sava\u015f\u0131na ili\u015fkin haberler jeopolitik risk primi sa\u011flasa da, bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f, bu y\u00fczden g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
+    "new": 16,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 7
+   "n": 8
   },
   "news_seen": [
+   "Maritime trade stagnates amid geopolitical uncertainty - Global Issues.org",
+   "Inflation Persists Despite Strong Spending - InkFreeNews.com",
+   "Ukraine flew a Flamingo cruise missile into the Kerch Bridge like an FPV drone, watching through its camera to the last seconds - Euromaidan Press",
+   "Why Trump\u2019s Trade War May Benefit Canada in the Long Run - Bloomberg",
+   "Australian Dollar edges up but Fed hike bets cap 0.6700 breakout - FXStreet",
    "White House: Missing Missile Funding could Cost $10B+ - Briefs Finance",
    "Russo-Ukrainian war, day 1737: Russian ballistic missiles hit a Kyiv shopping center and injure seven people in the city - Euromaidan Press",
    "Gold slips, silver gains as Fed rate hike expectations persist in holiday trading - Kitco PM Report - Kitco",
    "Gold (XAU/USD) Price Forecast: Failed Breakout Leaves Bullish Reversal Unconfirmed - FXEmpire",
    "Watch How Canada May Be Winning Trump\u2019s Trade War - Bloomberg",
    "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+   "Democrats\u2019 plan to end funding for Iran war leaves open what comes next - The Hill",
    "Diplomacy, grievances dominate Trump's 2026 Thanksgiving in Palm Beach - The Palm Beach Post",
-   "Ukraine has \u2018no intention\u2019 of spreading war to Libya: minister - Arab News",
    "Department of War Adopts AI-Aided System for Classification and Declassification Management - CDO Magazine",
    "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Gold Rate Today in Aligarh (26 Nov 2026) - Kotak Neo",
    "Gold Traders Monitor 5 Historic Signals Amid 37% Price Drop in 2026 - KuCoin",
    "\u201cFlowers of Dutch Diplomacy\u201d: Missile Mural Appears Near Dutch Embassy in Moscow - UNITED24 Media",
-   "Ukrainian minister says Kiev has 'no intention' of spreading war to Libya - TRT World",
    "EUR/USD, Gold Forecast: Two trades to Watch - FOREX.com",
    "Dark Eagle, America\u2019s first operational long-range hypersonic missile battery, is \u2018ready to go,\u2019 Army honcho claims - New York Post",
    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: Minister - Al Arabiya English",
+   "Gold Rate Today in India, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen - FXStreet",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Retreats As Traders Rush To Take Profits After Rebound - FXEmpire",
    "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
    "UK shields fighter jets, contacts reservists in Cold War-scale push amid Russia threat - Fox News",
-   "Gold Rate Today in Aligarh (27 Nov 2026) - Kotak Neo",
+   "Gold Rate Today in Greater Mumbai (26 Nov 2026) - Kotak Neo",
+   "Gold Rate Today in Gwalior, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "US Inflation Hits 3.8%: Will the Fed Raise Interest Rates Again in December? - CryptoRank",
    "Bitcoin\u2019s recovery hinges on a US economic slowdown without a recession - Cryptonews.net",
    "Letters for Nov. 27: US only fighting Iran war to achieve a tie - The Virginian-Pilot",
    "Israel \u2018officially sanctions\u2019 torture of Palestinian prisoners to extract confessions, report concludes - The Guardian",
    "New trade war could be brewing following tariff proposal - WBFF",
    "New trade war could be brewing following tariff proposal - KOKH",
-   "New trade war could be brewing following tariff proposal - 13wham.com",
    "New trade war could be brewing following tariff proposal - WSYX",
+   "New trade war could be brewing following tariff proposal - KFOX",
+   "New trade war could be brewing following tariff proposal - NBC Montana",
    "New trade war could be brewing following tariff proposal - KEYE",
+   "New trade war could be brewing following tariff proposal - WJLA",
+   "New trade war could be brewing following tariff proposal - WSET",
+   "New trade war could be brewing following tariff proposal - WGME",
    "New trade war could be brewing following tariff proposal - KRXI2",
    "New trade war could be brewing following tariff proposal - WTVC",
    "\ud83c\uddfa\ud83c\uddf8 Wall Street may fundamentally misunderstand what drives inflation Economist Jeffrey Currie argues that financial markets underestimate the influence of lower-income households on commodity prices. Give a wealthy individual $1 million and they might bu - X",
-   "Iron ore price gains on expectations of winter restocking at Chinese mills - Mining.com",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
-   "Trump diverges from NATO statement, emphasizing Ukraine mustn\u2019t expand war - POLITICO.eu",
-   "\ud83c\uddfa\ud83c\uddf8 The Fed may be forced to sacrifice its inflation target to save the AI bubble Trump's intervention to rescue Nvidia may have revived the stock market, but economist Jeffrey Currie argues it did absolutely nothing to address the underlying credit crisis threateni - X",
-   "The Guardian view on Russia\u2019s war dead: the toll won\u2019t stop Putin. Resolve in backing Ukraine remains essential - The Guardian",
-   "Kushner Says Putin Shows No Interest in a Ceasefire, Calls Ukraine War a Proxy War - Around Prague",
-   "Iran\u2019s \u2018self-sanctions\u2019 compound pressure from US blockade, critics say - Iran International",
-   "Gold Rate Today in Pune (26 Nov 2026) - Kotak Neo",
-   "Ukraine Urges Canada to Join Industrial Ramstein and Contribute to War Risk Insurance Fund - UNITED24 Media",
-   "Gold Rate Today in Punjab, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
-   "Documentary about Ukraine wins International Emmy; producer cites \u2018unvarnished\u2019 look at war - VOA - Voice of America English News",
-   "Bitcoin Recovery at Risk as Strong GDP Fuels Fed Rate Hike Bets - Cryptonews.net"
+   "Gold Rate Today in Karnataka, 26 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo"
   ]
  },
  "log": [
-  "25.11 09:47 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPCSm22EpSrcv9G24h2C'}",
-  "25.11 09:50 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPCfzbTgBN4iFd51EpZz'}",
   "25.11 09:51 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPCj75xyLjRDRfm8g2LW'}",
   "25.11 09:54 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPCxLSVzdCpqkTXMhS8G'}",
   "25.11 09:57 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPDBdPqEbBiu5AQXG6zr'}",
@@ -30238,7 +30236,9 @@
   "27.11 01:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 01:10 N  NEWS (15 new) score -0.20 conf 0.35: Yeni haberlerin \u00e7o\u011fu jeopolitik g\u00fcr\u00fclt\u00fc niteli\u011finde ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f; Kyiv'e f\u00fcze sald\u0131r\u0131s\u0131 s\u0131n\u0131rl\u0131 bir g\u00fcvenli liman talebi yaratabilir. Ancak ABD enflasyonunun %3,8'e \u00e7\u0131kmas\u0131 ve Fed faiz art\u0131r\u0131m\u0131 beklentileri, g\u00fc\u00e7lenen dolar ve Japonya CPI'\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n\u0131n 2026'da sert d\u00fc\u015f\u00fc\u015f\u00fc ve \"y\u00fckseli\u015f trendinin k\u0131r\u0131lmas\u0131\" ba\u015fl\u0131klar\u0131 da olumsuz momentumu destekliyor. Net etki hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
   "27.11 01:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 01:23 N  NEWS (12 new) score -0.35 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve ABD enflasyonunun %3,8'e \u00e7\u0131kt\u0131\u011f\u0131 haberleri alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n bu nedenle hafif geriliyor. Ukrayna ve \u0130ran'daki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir."
+  "27.11 01:23 N  NEWS (12 new) score -0.35 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve ABD enflasyonunun %3,8'e \u00e7\u0131kt\u0131\u011f\u0131 haberleri alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; alt\u0131n bu nedenle hafif geriliyor. Ukrayna ve \u0130ran'daki \u00e7at\u0131\u015fma haberleri g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve etkisi s\u0131n\u0131rl\u0131 kalabilir.",
+  "27.11 01:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 01:35 N  NEWS (16 new) score -0.35 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentileri ve %3.8 ABD enflasyon haberleri alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor; Kitco ve FXEmpire de alt\u0131n\u0131n d\u00fc\u015ft\u00fc\u011f\u00fcn\u00fc ve k\u00e2r realizasyonu ya\u015fand\u0131\u011f\u0131n\u0131 bildiriyor. Ukrayna ve \u0130ran sava\u015f\u0131na ili\u015fkin haberler jeopolitik risk primi sa\u011flasa da, bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali zay\u0131f, bu y\u00fczden g\u00fcvenli liman etkisi s\u0131n\u0131rl\u0131 kal\u0131yor."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    4963.78
-   ],
-   [
     1795142989,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795732338,
+    4963.78
+   ],
+   [
+    1795732523,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    4975.18
-   ],
-   [
     1795142989,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795732338,
+    4975.18
+   ],
+   [
+    1795732523,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    4993.28
-   ],
-   [
     1795142989,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795732338,
+    4993.28
+   ],
+   [
+    1795732523,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795142810,
-    4969.22
-   ],
-   [
     1795142989,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795732338,
+    4969.22
+   ],
+   [
+    1795732523,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795142810,
-    5355.71
-   ],
    [
     1795142989,
     5355.71
@@ -94899,6 +94895,10 @@
    [
     1795732338,
     5297.35
+   ],
+   [
+    1795732523,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795142810,
-    120564.69
-   ],
    [
     1795142989,
     120564.69
@@ -108542,6 +108538,10 @@
    [
     1795732338,
     128183.18
+   ],
+   [
+    1795732523,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795142810,
-    4876.96
-   ],
    [
     1795142989,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795732338,
     4876.96
+   ],
+   [
+    1795732523,
+    4876.96
    ]
   ],
   "news": {
@@ -121784,6 +121784,10 @@
    ],
    [
     1795732338,
+    100
+   ],
+   [
+    1795732523,
     100
    ]
   ],
