@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 23:18 (İstanbul)
+> Son güncelleme: 26.11.2026 23:21 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 23:09): Claude puan **-0.30**, güven 0.45 — Yeni gelen en önemli haber, güçlü GDP'nin Fed faiz artırımı beklentilerini artırması, bu da altın için bbir baskı yaratıyor. Rusya'ya yönelik Trump/NATO uyarıları sınırlı bir güvenli liman talebi destekleyebilir, ancak bu gelişme büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor; başlıklar ayrıca birbiriyle çelişen fiyat hareketleri (3600 üzeri toparlanma ve 3570 civarında durgunluk) bildiriyor.
+Son haber analizi (26.11 23:21): Claude puan **-0.30**, güven 0.50 — Yeni haberlerde Fed faiz artırımı beklentilerinin neredeyse %100'e yükselmesi ve güçlü GDP verisi altın için baskılayıcı; jeopolitik gerilim (Ukrayna/Rusya tırmanış uyarıları) ise sınırlı bir güvenli liman desteği sağlıyor. Altın zaten güçlü PCE'ye rağmen 3600 üzerinde toparlanmış olduğundan, etkiler karışık ve güven orta düzeyde.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 21:44 N  NEWS (10 new) score -0.35 conf 0.50: Faiz artırımı beklentileri ve enflasyon verisinin ardından gelen güçlenen dolar altın için baskılayıcı; jeopolitik haberler (Ukrayna'da eskalasyon uyarıları, İran bağlantılı saldırı iddiaları) güvenli liman talebini destekliyor ancak çoğu haber eski veya fiyatlanmış. İnce işlem hacmi (Şükran Günü) hareketi sınırlayabilir.
-26.11 21:56 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 21:56 N  NEWS (12 new) score -0.30 conf 0.50: Enflasyon verisi (PCE) ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altın üzerinde baskı oluşturuyor; altın $3,570-3,600 civarında duraksıyor. Ukrayna'da Rusya'nın enerji altyapısına yönelik saldırı uyarısı ve Kuwait'teki saldırı gibi jeopolitik gelişmeler güvenli liman talebini sınırlı artırabilir, ancak bunların çoğu zaten fiyatlanmış ve ince işlem hacmi nedeniyle etkisi zayıf kalabilir.
 26.11 22:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:08 N  NEWS (14 new) score -0.25 conf 0.45: Altın, Fed faiz artırımı beklentileri ve güçlenen doları nedeniyle baskı altında; ince işlem hacmi (Şükran günü) de düşüşü destekliyor. Ukrayna'daki yeni "savaşın tırmanabileceği" uyarısı jeopolitik talebi hafifçe artırsa da bu haberler büyük ölçüde fiyatlanmış ve etkisi sınırlı kalabilir.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 22:57 N  NEWS (8 new) score -0.05 conf 0.40: 
 26.11 23:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 23:09 N  NEWS (4 new) score -0.30 conf 0.45: Yeni gelen en önemli haber, güçlü GDP'nin Fed faiz artırımı beklentilerini artırması, bu da altın için bbir baskı yaratıyor. Rusya'ya yönelik Trump/NATO uyarıları sınırlı bir güvenli liman talebi destekleyebilir, ancak bu gelişme büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor; başlıklar ayrıca birbiriyle çelişen fiyat hareketleri (3600 üzeri toparlanma ve 3570 civarında durgunluk) bildiriyor.
+26.11 23:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 23:21 N  NEWS (7 new) score -0.30 conf 0.50: Yeni haberlerde Fed faiz artırımı beklentilerinin neredeyse %100'e yükselmesi ve güçlü GDP verisi altın için baskılayıcı; jeopolitik gerilim (Ukrayna/Rusya tırmanış uyarıları) ise sınırlı bir güvenli liman desteği sağlıyor. Altın zaten güçlü PCE'ye rağmen 3600 üzerinde toparlanmış olduğundan, etkiler karışık ve güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
