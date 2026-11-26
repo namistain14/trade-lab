@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 02:32 (İstanbul)
+> Son güncelleme: 27.11.2026 02:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 02:24): Claude puan **-0.50**, güven 0.60 — ABD enflasyonunun %3,8 ile 3 yılın zirvesine çıkması ve Fed'in faiz artırımı beklentilerinin güçlenmesi, reel faiz ve dolar tarafında altı baskılıyor; haberlerde altın "faiz korkuları" nedeniyle geri çekiliyor. İran savaşı ve Kuveyt'teki saldırı gibi jeopolitik gelişmeler güvenli liman talebi yaratabilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış görünüyor ve altını yukarı itmiyor.
+Son haber analizi (27.11 02:36): Claude puan **-0.35**, güven 0.50 — Haberlerin ağırlığı altın için baskılayıcı: Fed faiz artırımı beklentileri güçleniyor, dolar tatil seyrek işlemlerinde toparlanıyor ve altın kâr realizasyonu nedeniyle geri çekiliyor. İran savaşı finansmanı ve Ukrayna'daki füze saldırıları gibi jeopolitik haberler güvenli liman talebini artırabilir, ancak bunların çoğu eski veya fiyatlanmış ve yeni bir tırmanış sinyali görünmüyor; bu nedenle etkileri sınırlı kalıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 00:58 N  NEWS (8 new) score -0.40 conf 0.50: 
-27.11 01:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 01:10 N  NEWS (15 new) score -0.20 conf 0.35: Yeni haberlerin çoğu jeopolitik gürültü niteliğinde ve büyük ölçüde fiyatlanmış; Kyiv'e füze saldırısı sınırlı bir güvenli liman talebi yaratabilir. Ancak ABD enflasyonunun %3,8'e çıkması ve Fed faiz artırımı beklentileri, güçlenen dolar ve Japonya CPI'ı altın için baskılayıcı; altının 2026'da sert düşüşü ve "yükseliş trendinin kırılması" başlıkları da olumsuz momentumu destekliyor. Net etki hafif negatif, güven düşük.
 27.11 01:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 01:23 N  NEWS (12 new) score -0.35 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi ve ABD enflasyonunun %3,8'e çıktığı haberleri altın için baskılayıcı; altın bu nedenle hafif geriliyor. Ukrayna ve İran'daki çatışma haberleri güvenli liman talebini bir miktar destekleyebilir, ancak bunlar büyük ölçüde fiyatlanmış ve etkisi sınırlı kalabilir.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 02:12 N  NEWS (18 new) score -0.30 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi, ABD enflasyonunun %3,8'e çıkması ve doların güçlenmesi altın için baskı yaratıyor; Kitco da altının düştüğünü bildiriyor. Jeopolitik gerilim (İran savaşı, Ukrayna füzeleri) güvenli liman talebini destekliyor olsa da bu haberler büyük ölçüde fiyatlanmış ve tatil nedeniyle işlem hacmi düşük, bu yüzden güven sınırlı.
 27.11 02:24 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 02:24 N  NEWS (15 new) score -0.50 conf 0.60: ABD enflasyonunun %3,8 ile 3 yılın zirvesine çıkması ve Fed'in faiz artırımı beklentilerinin güçlenmesi, reel faiz ve dolar tarafında altı baskılıyor; haberlerde altın "faiz korkuları" nedeniyle geri çekiliyor. İran savaşı ve Kuveyt'teki saldırı gibi jeopolitik gelişmeler güvenli liman talebi yaratabilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış görünüyor ve altını yukarı itmiyor.
+27.11 02:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 02:36 N  NEWS (11 new) score -0.35 conf 0.50: Haberlerin ağırlığı altın için baskılayıcı: Fed faiz artırımı beklentileri güçleniyor, dolar tatil seyrek işlemlerinde toparlanıyor ve altın kâr realizasyonu nedeniyle geri çekiliyor. İran savaşı finansmanı ve Ukrayna'daki füze saldırıları gibi jeopolitik haberler güvenli liman talebini artırabilir, ancak bunların çoğu eski veya fiyatlanmış ve yeni bir tırmanış sinyali görünmüyor; bu nedenle etkileri sınırlı kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
