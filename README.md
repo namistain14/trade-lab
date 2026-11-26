@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 18:51 (İstanbul)
+> Son güncelleme: 26.11.2026 18:54 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 18:41): Claude puan **-0.30**, güven 0.45 — Altın 3.550 dolar civarında satış baskısı altında ve 'satış devam edebilir mi' türünden teknik yorumlar öne çıkıyor. Yeni gelen enflasyon haberi (ABD enflasyonunun yükselmesi) ve Fed'in kademeli faiz artırımının fiyatlandığına dair Commerzbank yorumu, reel faiz beklentilerini sıkılaştırarak altın için olumsuz. Savaş haberlerinin çoğu eski ve fiyatlanmış; güvenli liman talebini belirgin biçimde artıracak yeni bir tırmanış yok. Dolar endeksinin direnç yakınında durması ise sınırlı bir destek sağlıyor, bu yüzden etki orta düzeyde negatif.
+Son haber analizi (26.11 18:54): Claude puan **-0.10**, güven 0.35 — Yeni haberlerin çoğu Ukrayna savaşı ve sektörel konulara ait olup altın fiyatı üzerinde doğrudan etkisi zayıf. Fed'in kademeli faiz artırımının fiyatlandığı ve ABD enflasyonunun yükseldiğine dair haberler sıkı para politikası beklentisini destekleyerek altına hafif baskı yapıyor; ayrıca altın fiyatındaki düşüş sürüyor. İran kaynaklı çatışma haberleri (Kuveyt'te İtalyan ölümleri) ise sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki zayıf kalıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 17:16 N  NEWS (10 new) score -0.50 conf 0.60: Haberlerin ağırlığı Fed faiz artırımı beklentilerine ve enflasyon sürprizine dayanıyor: ABD Ekim enflasyonu yükseldi, faiz artırım olasılığı çok yüksek ve altın bu nedenle baskı altında. Jeopolitik haberler (Ukrayna, Akdeniz gerginliği) güvenli liman talebini destekliyor olsa da bu etkisi Fed kaynaklı baskıyı dengelemeye yetmiyor; ayrıca bazı haberler eski veya fiyatlanmış olduğu için güven orta düzeyde.
-26.11 17:28 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 17:28 N  NEWS (7 new) score -0.50 conf 0.60: Fed faiz artırımı beklentileri yaklaşık %99.8 olasılıkla fiyatlanmış görünüyor ve DXY 2026 zirvesine ulaştı; bu iki unsur altın için kısa vadede baskı yaratıyor. Iran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi sınırlı kalıyor ve güç dengesi dolar/faiz tarafında.
 26.11 17:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 17:40 N  NEWS (11 new) score -0.30 conf 0.40: Savaş haberlerinin çoğu zaten fiyatlanmış ve altı doğrudan etkilemiyor. Asıl etki, Fed faiz artırımı beklentilerinin sürmesi ile DXY'deki güçlenen momentumdan geliyor; bu da altı kısa vadede baskılıyor. Yerel para birimi kaynaklı Hindistan ve Pakistan altın fiyat haberleri ise küresel yönü belirlemiyor.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 18:29 N  NEWS (12 new) score -0.10 conf 0.30: Yeni gelen başlıkların çoğu eski ve zaten fiyatlanmış savaş haberleri; altın için yeni bir jeopolitik şok ya da merkez bankası sürprizi görünmüyor. Arka planda "Fed'in kademeli faiz artırımı fiyatlanıyor" yorumu ve güçlenen dolar (DXY) altın için hafif baskı yaratıyor, bu nedenle sinyal hafif negatif ancak güven düşük.
 26.11 18:41 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 18:41 N  NEWS (8 new) score -0.30 conf 0.45: Altın 3.550 dolar civarında satış baskısı altında ve 'satış devam edebilir mi' türünden teknik yorumlar öne çıkıyor. Yeni gelen enflasyon haberi (ABD enflasyonunun yükselmesi) ve Fed'in kademeli faiz artırımının fiyatlandığına dair Commerzbank yorumu, reel faiz beklentilerini sıkılaştırarak altın için olumsuz. Savaş haberlerinin çoğu eski ve fiyatlanmış; güvenli liman talebini belirgin biçimde artıracak yeni bir tırmanış yok. Dolar endeksinin direnç yakınında durması ise sınırlı bir destek sağlıyor, bu yüzden etki orta düzeyde negatif.
+26.11 18:54 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 18:54 N  NEWS (8 new) score -0.10 conf 0.35: Yeni haberlerin çoğu Ukrayna savaşı ve sektörel konulara ait olup altın fiyatı üzerinde doğrudan etkisi zayıf. Fed'in kademeli faiz artırımının fiyatlandığı ve ABD enflasyonunun yükseldiğine dair haberler sıkı para politikası beklentisini destekleyerek altına hafif baskı yapıyor; ayrıca altın fiyatındaki düşüş sürüyor. İran kaynaklı çatışma haberleri (Kuveyt'te İtalyan ölümleri) ise sınırlı bir güvenli liman talebi yaratabilir, ancak bu etki zayıf kalıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
