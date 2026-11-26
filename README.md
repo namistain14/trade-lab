@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 22:29 (İstanbul)
+> Son güncelleme: 26.11.2026 22:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 22:20): Claude puan **-0.20**, güven 0.40 — Faiz artırımı beklentileri ve ABD dolarındaki güç altın için baskı oluşturuyor; ayrıca yüksek PCE enflasyonu Fed'in sıkı duruşunu destekliyor. Buna karşın Ukrayna'daki tırmanma uyarıları güvenli liman talebini bir miktar destekliyor, ancak bu haberlerin büyük kısmı tekrar ve fiyatlanmış niteliğinde; ince işlem hacmi de hareketi sınırlıyor.
+Son haber analizi (26.11 22:32): Claude puan **+0.10**, güven 0.35 — Yeni haberlerin etkisi karışık: Hindistan Merkez Bankası'nın 60 ton altın alımı ve doların zayıflama beklentisi altını destekliyor, ancak Fed faiz artırımı beklentilerine dair haberler ve "sert Fed" uyarısı baskı yaratıyor. Ukrayna'daki tırmanış uyarıları jeopolitik talebi hafifçe artırabilir, fakat bunlar büyük ölçüde fiyatlanmış ve yeni bir kriz içermiyor; bu nedenle etki sınırlı ve güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 20:55 N  NEWS (6 new) score -0.15 conf 0.35: Jeopolitik risk (Kuveyt'te saldırı, İran savaşı, Ukrayna'da genişleme endişesi) altın için hafif destekleyici, ancak Fed ve BoC faiz artırımı beklentileri, güçlenen dolar ve ince Şükran Günü işlemleri kâr realizasyonu ve düşüş baskısı yaratıyor. Sinyaller karışık ve piyasa hacmi düşük olduğu için güven sınırlı.
-26.11 21:07 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 21:07 N  NEWS (10 new) score -0.20 conf 0.40: Fed faiz artırımı beklentileri ve dolardaki güç altın üzerinde baskı yaratıyor; ancak PCE enflasyonunun yüksek çıkması ve 3.600 desteğinde alıcıların savunması karışık bir tablo oluşturuyor. Şükran Günü nedeniyle düşük likidite ve jeopolitik haberlerin (Kuveyt saldırısı, Rusya-Ukrayna) etkisinin sınırlı kalması güveni düşürüyor.
 26.11 21:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 21:20 N  NEWS (8 new) score -0.35 conf 0.50: ABD enflasyon verisi faiz artırımı beklentilerini güçlendirdiği ve dolar güçlendiği için altın üzerinde baskı var; Fed sıkılaşma bahisleri altın yükselişlerini sınırlıyor. Jeopolitik gelişmeler (Kuwait'te saldırı, Husi saldırısı, Ukrayna) güvenli liman talebi yaratabilir, ancak haberlerin çoğu eski veya fiyatlanmış nitelikte ve ince işlem hacmi (Şükran Günü) sinyali zayıflatıyor.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 22:08 N  NEWS (14 new) score -0.25 conf 0.45: Altın, Fed faiz artırımı beklentileri ve güçlenen doları nedeniyle baskı altında; ince işlem hacmi (Şükran günü) de düşüşü destekliyor. Ukrayna'daki yeni "savaşın tırmanabileceği" uyarısı jeopolitik talebi hafifçe artırsa da bu haberler büyük ölçüde fiyatlanmış ve etkisi sınırlı kalabilir.
 26.11 22:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:20 N  NEWS (11 new) score -0.20 conf 0.40: Faiz artırımı beklentileri ve ABD dolarındaki güç altın için baskı oluşturuyor; ayrıca yüksek PCE enflasyonu Fed'in sıkı duruşunu destekliyor. Buna karşın Ukrayna'daki tırmanma uyarıları güvenli liman talebini bir miktar destekliyor, ancak bu haberlerin büyük kısmı tekrar ve fiyatlanmış niteliğinde; ince işlem hacmi de hareketi sınırlıyor.
+26.11 22:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 22:32 N  NEWS (5 new) score +0.10 conf 0.35: Yeni haberlerin etkisi karışık: Hindistan Merkez Bankası'nın 60 ton altın alımı ve doların zayıflama beklentisi altını destekliyor, ancak Fed faiz artırımı beklentilerine dair haberler ve "sert Fed" uyarısı baskı yaratıyor. Ukrayna'daki tırmanış uyarıları jeopolitik talebi hafifçe artırabilir, fakat bunlar büyük ölçüde fiyatlanmış ve yeni bir kriz içermiyor; bu nedenle etki sınırlı ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
