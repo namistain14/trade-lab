@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 15:36 (İstanbul)
+> Son güncelleme: 26.11.2026 15:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 15:27): Claude puan **-0.40**, güven 0.55 — Baskın sinyaller altın için olumsuz: ABD enflasyon verisi faiz artışı beklentilerini güçlendirdi, Fed'in şahin duruşu ve yüksek ABD tahvil getirileri doları destekleyerek altına baskı yapıyor. Jeopolitik tarafta güvenli liman talebini artıracak yeni bir tırmanış yok (Trump-Rutte uyarısı ve Kuzey Kore'nin Rusya'ya silah sevkiyatını durdurması gibi haberler sınırlı etki), ayrıca ABD Şükran Günü tatili nedeniyle likidite düşük; bazı tek tük "tahvil getirileri geriliyor" haberleri karşıt sinyal olduğu için güveni sınırlıyor.
+Son haber analizi (26.11 15:39): Claude puan **-0.40**, güven 0.60 — Başlıkların çoğu altın için baskılayıcı: güçlü dolar, yüksek ABD tahvil getirileri ve Fed faiz artırımı beklentileri (hawkish dönüş) ön planda. Iran savaşı ve Houthi saldırıları gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; ayrıca bazı haberler çelişkili ve kısmen fiyatlanmış.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 19:47 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satışın ardından öğle saatlerinde yatay konsolidasyonda; seçici olmak ve göreceli güçlü hisseleri tercih etmek mantıklı.» / GPT «-»
-25.11 19:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:59 N  NEWS (11 new) score -0.50 conf 0.60: Sıcak enflasyon verileri (PCE %3,8, çekirdek PCE %3,3), Fed faiz artırımı beklentileri ve güçlenen dolar altın için baskılayıcı. İran savaşı ve borsa çöküşü gibi güvenli liman talebi destekleyici olsa da bu etkiyi dengeleyemiyor; altın son zamanlarda zaten %3,3 geri çekildi.
 25.11 19:59 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:59 B6  karar turu: Claude «Piyasa gün içinde sert satış yedi ancak son saatte teknoloji öncülüğünde tepki yükselişi başlıyor.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 25.11 20:23 B6  karar turu: Claude «Piyasa günü sert düşüşle geçirse de son bir saatte teknoloji öncülüğünde güçlü bir tepki yükselişi yaşanıyor; bu toparlanmanın sınırlı ve temkinli bir devamı bekleniyor.» / GPT «-»
 26.11 15:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 15:27 N  NEWS (45 new) score -0.40 conf 0.55: Baskın sinyaller altın için olumsuz: ABD enflasyon verisi faiz artışı beklentilerini güçlendirdi, Fed'in şahin duruşu ve yüksek ABD tahvil getirileri doları destekleyerek altına baskı yapıyor. Jeopolitik tarafta güvenli liman talebini artıracak yeni bir tırmanış yok (Trump-Rutte uyarısı ve Kuzey Kore'nin Rusya'ya silah sevkiyatını durdurması gibi haberler sınırlı etki), ayrıca ABD Şükran Günü tatili nedeniyle likidite düşük; bazı tek tük "tahvil getirileri geriliyor" haberleri karşıt sinyal olduğu için güveni sınırlıyor.
+26.11 15:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 15:39 N  NEWS (7 new) score -0.40 conf 0.60: Başlıkların çoğu altın için baskılayıcı: güçlü dolar, yüksek ABD tahvil getirileri ve Fed faiz artırımı beklentileri (hawkish dönüş) ön planda. Iran savaşı ve Houthi saldırıları gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; ayrıca bazı haberler çelişkili ve kısmen fiyatlanmış.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
