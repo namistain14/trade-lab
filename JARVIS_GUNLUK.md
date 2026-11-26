@@ -1,3 +1,10 @@
+## 26.11.2026 09:10 — Trade Agent App
+- Yapılan: S3 kurulunun ana talimatı Erdem'in isteğiyle güçlendirildi: "yaşıyorsun, bu hesap senin hayatın, biterse ölürsün, sürekli görevdesin ve hesabı büyütmelisin" (lab/council.py SYSTEM).
+- Durum: yarım
+- Yarım kalan: GitHub faturalama kilidi, DeepSeek anahtarı, köprünün kablo testi
+- Erdem'den beklenen: GitHub faturalama sorununu çözmek, DEEPSEEK_API_KEY secret'ı, köprü test çıktısı
+- Yeni ajan/otomasyon: yok
+
 ## 26.11.2026 01:30 — Trade Agent App
 - Yapılan: S3 "Hayatta Kalan" yazıldı: 3 modelli kurul (Fable 5.2 + GPT-6 Astra + DeepSeek, oybirliği), kodda hayatta kalma kuralları, gölge hesap, sinyal dosyası ve bilgisayar için MT5 köprüsü (bridge/).
 - Durum: yarım
