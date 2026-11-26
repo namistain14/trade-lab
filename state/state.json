@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    5121.49
-   ],
-   [
     1795124860,
     5123.91
    ],
@@ -12094,6 +12090,10 @@
    [
     1795714104,
     5145.97
+   ],
+   [
+    1795714292,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    4868.5
-   ],
-   [
     1795124860,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795714104,
     4868.5
+   ],
+   [
+    1795714292,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.35,
+   "score": -0.3,
+   "confidence": 0.4,
    "reason": "\u0130ran/Kuvbesi ve Husi sald\u0131r\u0131lar\u0131 ile Rusya-Ukrayna gerilimi jeopolitik risk primi yaratarak alt\u0131n\u0131 hafif destekleyebilir. Ancak s\u0131k\u0131la\u015fma beklentileri (faiz art\u0131\u015f\u0131 bahisleri), ABD enflasyonunun %3,8 seviyesinde olmas\u0131 ve dolar\u0131n tatil ortam\u0131nda g\u00fc\u00e7lenmesi bask\u0131 olu\u015fturuyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya zaten fiyatlanm\u0131\u015f haber niteli\u011finde.",
    "n": 45,
-   "ts": 1795713528142,
-   "new_headlines": 6,
+   "ts": 1795714291014,
+   "new_headlines": 4,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri s\u00fcr\u00fcyor, alt\u0131n d\u00fc\u015ft\u00fc (Kitco)",
     "DXY 2026 zirvesine ula\u015ft\u0131, dolar g\u00fc\u00e7leniyor (StoneX)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795121409035,
-    "score": -0.3,
-    "confidence": 0.5,
-    "reason": "Fed yetkililerinin (Goolsbee: \"s\u0131cak enflasyon\", FOMC'de t\u00fcm se\u00e7eneklerin masada oldu\u011fu; Barr: enflasyon ek politika s\u0131k\u0131la\u015ft\u0131rmas\u0131 gerektiriyor) \u015fahin mesajlar\u0131 reel faiz beklentilerini y\u00fckselterek alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131yla ilgili Senato'daki sava\u015f yetkisi oylamas\u0131 ve Trump'\u0131n Xi/Putin'in sava\u015f\u0131n bitmesini istedi\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ise jeopolitik korku primini s\u0131n\u0131rl\u0131yor; bu nedenle g\u00fcvenli liman talebi destekleyici olsa da ana etki s\u0131n\u0131rl\u0131 kal\u0131yor.",
-    "new": 10,
-    "gpt_score": 0.15,
-    "gpt_confidence": 0.42
-   },
    {
     "ts": 1795122129176,
     "score": -0.5,
@@ -29884,16 +29875,27 @@
     "new": 6,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795714291014,
+    "score": -0.3,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 4,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-26",
-   "n": 25
+   "n": 26
   },
   "news_seen": [
+   "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Retreats As Traders Rush To Take Profits After Rebound - FXEmpire",
+   "Stellar moves higher while high rate hike odds and persistent inflation fuel caution for crypto demand - Traders Union",
+   "When will Poundland shops close? Five key questions answered",
    "Australian Dollar caught between hawkish Fed and RBA expectations | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "VIDEO: American Infantry Veteran Reacts to Ukraine\u2019s Tunnel War - Eyes Only with Wes O'Donnell",
-   "Iran imposes sweeping austerity measures as U.S. economic pressure mounts - The Washington Post",
    "Geopolitical instability, AI risks and economic volatility could reshape \u201827 insurance outlook: LIIBA\u2019s Croft - Reinsurance News",
    "Happy Thanksgiving From Civil War Memory - Civil War Memory",
    "Corker, former Chattanooga mayor, role-played U.S. president in mock China war exercise - Chattanooga Times Free Press",
@@ -29904,6 +29906,7 @@
    "Australian Dollar caught between hawkish Fed and RBA expectations - FXStreet",
    "Tomahawk\u2019s Successor: Raytheon to Develop SLCM-N Nuclear-Powered Cruise Missile for U.S. Navy Submarines - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
    "Italy says two citizens killed in Iranian strike in Kuwait",
+   "Trump's version of joint statement with Rutte also calls on Ukraine to avoid actions that could expand war - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
    "Trump And Mark Rutte Urge Russia To Avoid Worsening Ukraine War In Joint Statement: 14 outlets compared - NewsCord",
    "Mural near Dutch embassy in Moscow depicts missile supplies for Ukraine - Reuters",
    "Saudi coalition says Houthis attacked Aramco Jazan refinery - The Jerusalem Post",
@@ -29930,17 +29933,12 @@
    "Gold price rises by Tk 1,049 a bhari - New Age BD",
    "Gold Makes 17% Loss from Last Thanksgiving, Worst Since 2013 - BullionVault",
    "Hundreds of flights cancelled as severe weather disrupts Thanksgiving travel in US",
-   "Gold Rate Today in Nagaland, 26 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
-   "When will Poundland shops close? Five key questions answered",
    "FSMA Sanctions Committee Belgium: Cost and Plan - Global Advisory Experts",
-   "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-   "Gold Rate Today in Muktsar, 26 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
-   "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - WTOP News"
+   "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - WTOP News",
+   "Late Knight Warriors Says Gala Raised $20,760 for Paws of War - The South Shore Press"
   ]
  },
  "log": [
-  "25.11 07:34 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP2Hkikfk1zNd6DGtVvn'}",
-  "25.11 07:37 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP2X2ac1HZ3SkD3J6J9G'}",
   "25.11 07:40 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP2kEW5KchDbeuxKo6Gz'}",
   "25.11 07:43 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP2yXKxPcc3p7tGSUAq6'}",
   "25.11 07:46 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChP3Cp8s43ohGqvm5m6Yf'}",
@@ -30238,7 +30236,9 @@
   "26.11 20:06 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 20:06 N  NEWS (10 new) score +0.10 conf 0.35: \u0130ran/Kuvbesi ve Husi sald\u0131r\u0131lar\u0131 ile Rusya-Ukrayna gerilimi jeopolitik risk primi yaratarak alt\u0131n\u0131 hafif destekleyebilir. Ancak s\u0131k\u0131la\u015fma beklentileri (faiz art\u0131\u015f\u0131 bahisleri), ABD enflasyonunun %3,8 seviyesinde olmas\u0131 ve dolar\u0131n tatil ortam\u0131nda g\u00fc\u00e7lenmesi bask\u0131 olu\u015fturuyor; ayr\u0131ca bir\u00e7ok ba\u015fl\u0131k eski veya zaten fiyatlanm\u0131\u015f haber niteli\u011finde.",
   "26.11 20:18 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "26.11 20:18 N  NEWS (6 new) score -0.15 conf 0.35: "
+  "26.11 20:18 N  NEWS (6 new) score -0.15 conf 0.35: ",
+  "26.11 20:31 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "26.11 20:31 N  NEWS (4 new) score -0.30 conf 0.40: "
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    4963.78
-   ],
-   [
     1795124860,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795714104,
+    4963.78
+   ],
+   [
+    1795714292,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    4975.18
-   ],
-   [
     1795124860,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795714104,
+    4975.18
+   ],
+   [
+    1795714292,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    4993.28
-   ],
-   [
     1795124860,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795714104,
+    4993.28
+   ],
+   [
+    1795714292,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795124679,
-    4969.22
-   ],
-   [
     1795124860,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795714104,
+    4969.22
+   ],
+   [
+    1795714292,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795124679,
-    5065.32
-   ],
    [
     1795124860,
     5059.28
@@ -94899,6 +94895,10 @@
    [
     1795714104,
     5297.35
+   ],
+   [
+    1795714292,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795124679,
-    120564.69
-   ],
    [
     1795124860,
     120564.69
@@ -108542,6 +108538,10 @@
    [
     1795714104,
     128183.18
+   ],
+   [
+    1795714292,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795124679,
-    4876.96
-   ],
    [
     1795124860,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795714104,
     4876.96
+   ],
+   [
+    1795714292,
+    4876.96
    ]
   ],
   "news": {
@@ -121360,6 +121360,10 @@
    ],
    [
     1795714104,
+    100
+   ],
+   [
+    1795714292,
     100
    ]
   ],
