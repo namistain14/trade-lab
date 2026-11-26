@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 25.11.2026 20:23 (İstanbul)
+> Son güncelleme: 26.11.2026 15:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (25.11 20:23): Claude puan **-0.65**, güven 0.65 — Güçlü ABD büyüme verisi, yükselen çekirdek PCE/enflasyon ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altını baskılıyor; altın zaten %2,44 düşüp 3500 doların altına indi. İran savaşı gibi jeopolitik riskler olmasına rağmen güvenli liman talebi bu baskıyı dengelemiyor, bu nedenle kısa vadeli görünüm negatif; ancak düşüş kısmen fiyatlanmış olabileceğinden güven orta düzeyde.
+Son haber analizi (26.11 15:27): Claude puan **-0.40**, güven 0.55 — Baskın sinyaller altın için olumsuz: ABD enflasyon verisi faiz artışı beklentilerini güçlendirdi, Fed'in şahin duruşu ve yüksek ABD tahvil getirileri doları destekleyerek altına baskı yapıyor. Jeopolitik tarafta güvenli liman talebini artıracak yeni bir tırmanış yok (Trump-Rutte uyarısı ve Kuzey Kore'nin Rusya'ya silah sevkiyatını durdurması gibi haberler sınırlı etki), ayrıca ABD Şükran Günü tatili nedeniyle likidite düşük; bazı tek tük "tahvil getirileri geriliyor" haberleri karşıt sinyal olduğu için güveni sınırlıyor.
 
 Son işlemler:
 
@@ -89,11 +89,20 @@ Son işlemler:
 | 20.11 20:02 | QQQ | short | +1793.08 $ | take profit |
 | 20.11 19:32 | TSLA | short | +1798.50 $ | take profit |
 
+## Bot S3 — Hayatta Kalan: Fable 5.2 + GPT-6 Astra + DeepSeek oybirliği (sinyal)
+
+| | Bugün | Toplam |
+|---|---|---|
+| Net kâr/zarar | +0.00 $ | +0.00 $ |
+| İşlem sayısı | 0 | 0 |
+| Kazanma oranı | %0.0 | %0.0 |
+| Ödenen komisyon/spread | 0.00 $ | 0.00 $ |
+
+**Hesap değeri: 100.00 $** (başlangıç 100 $, +0.00 $ / %+0.00)
+
 ## Son olaylar
 
 ```
-25.11 19:47 N  NEWS (15 new) score -0.30 conf 0.50: Sıcak enflasyon verileri (PCE %3.8, çekirdek %3.3) ve Fed'in faiz artırımı beklentisi ile güçlenen dolar, altın üzerinde kısa vadede baskı yaratıyor. İran savaşı ve Polonya'ya füze düşmesi gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bunların çoğu zaten fiyatlanmış olduğu için etkisi sınırlı kalır.
-25.11 19:47 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:47 B6  karar turu: Claude «Piyasa teknoloji ağırlıklı sert bir satışın ardından öğle saatlerinde yatay konsolidasyonda; seçici olmak ve göreceli güçlü hisseleri tercih etmek mantıklı.» / GPT «-»
 25.11 19:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 19:59 N  NEWS (11 new) score -0.50 conf 0.60: Sıcak enflasyon verileri (PCE %3,8, çekirdek PCE %3,3), Fed faiz artırımı beklentileri ve güçlenen dolar altın için baskılayıcı. İran savaşı ve borsa çöküşü gibi güvenli liman talebi destekleyici olsa da bu etkiyi dengeleyemiyor; altın son zamanlarda zaten %3,3 geri çekildi.
@@ -107,6 +116,8 @@ Son işlemler:
 25.11 20:23 N  NEWS (17 new) score -0.65 conf 0.65: Güçlü ABD büyüme verisi, yükselen çekirdek PCE/enflasyon ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altını baskılıyor; altın zaten %2,44 düşüp 3500 doların altına indi. İran savaşı gibi jeopolitik riskler olmasına rağmen güvenli liman talebi bu baskıyı dengelemiyor, bu nedenle kısa vadeli görünüm negatif; ancak düşüş kısmen fiyatlanmış olabileceğinden güven orta düzeyde.
 25.11 20:23 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 20:23 B6  karar turu: Claude «Piyasa günü sert düşüşle geçirse de son bir saatte teknoloji öncülüğünde güçlü bir tepki yükselişi yaşanıyor; bu toparlanmanın sınırlı ve temkinli bir devamı bekleniyor.» / GPT «-»
+26.11 15:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 15:27 N  NEWS (45 new) score -0.40 conf 0.55: Baskın sinyaller altın için olumsuz: ABD enflasyon verisi faiz artışı beklentilerini güçlendirdi, Fed'in şahin duruşu ve yüksek ABD tahvil getirileri doları destekleyerek altına baskı yapıyor. Jeopolitik tarafta güvenli liman talebini artıracak yeni bir tırmanış yok (Trump-Rutte uyarısı ve Kuzey Kore'nin Rusya'ya silah sevkiyatını durdurması gibi haberler sınırlı etki), ayrıca ABD Şükran Günü tatili nedeniyle likidite düşük; bazı tek tük "tahvil getirileri geriliyor" haberleri karşıt sinyal olduğu için güveni sınırlıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
