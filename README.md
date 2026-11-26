@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 00:55 (İstanbul)
+> Son güncelleme: 27.11.2026 00:58 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 00:46): Claude puan **-0.25**, güven 0.50 — Fed sıkılaştırma beklentileri (ABD enflasyonu %3,8, güçlü GSYH ile faiz artırımı bahisleri) ve altının haftalık düşüşü ile kâr realizasyonu altın üzerinde baskı oluşturuyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve etkisi sınırlı kalabilir.
+Son haber analizi (27.11 00:58): Claude puan **-0.40**, güven 0.50 — Fed sıkılaştırma beklentileri (ABD enflasyonu %3,8, güçlü GSYH ile faiz artırımı bahisleri) ve altının haftalık düşüşü ile kâr realizasyonu altın üzerinde baskı oluşturuyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve etkisi sınırlı kalabilir.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 23:21 N  NEWS (7 new) score -0.30 conf 0.50: Yeni haberlerde Fed faiz artırımı beklentilerinin neredeyse %100'e yükselmesi ve güçlü GDP verisi altın için baskılayıcı; jeopolitik gerilim (Ukrayna/Rusya tırmanış uyarıları) ise sınırlı bir güvenli liman desteği sağlıyor. Altın zaten güçlü PCE'ye rağmen 3600 üzerinde toparlanmış olduğundan, etkiler karışık ve güven orta düzeyde.
-26.11 23:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 23:33 N  NEWS (6 new) score -0.30 conf 0.50: Güçlü ABD GDP verisi sonrası Fed faiz artırımı beklentilerinin neredeyse %100'e çıkması, reel faizleri ve doları destekleyerek altın üzerinde baskı yaratıyor; altın yaklaşık 3.570$ civarında yatay seyrediyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gelişmeler güvenli liman talebini bir miktar destekliyor olsa da bunların çoğu zaten fiyatlanmış ve etkisi sınırlı kalabilir; Hindistan'ın altın transferi ise satış değil, rezerv yer değiştirmesi olarak değerlendirilmeli.
 26.11 23:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 23:46 N  NEWS (27 new) score -0.55 conf 0.60: Faiz artırımı beklentileri neredeyse %100 seviyesine çıktı, güçlü GDP ve enflasyon verisi doların toparlanmasını destekliyor ve altın 3.570 dolar civarında kâr satışlarıyla zayıf seyrediyor; bu tablo kısa vadede altın için olumsuz. Kuveyt'teki saldırı gibi jeopolitik haberler güvenli liman talebini sınırlı artırabilir, ancak etkisi faiz ve dolar baskısının gerisinde kalıyor. Bazı başlıkların çelişkili olması ve ABD'de hafta sonu öncesi ince işlem hacmi güveni biraz düşürüyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 00:34 N  NEWS (9 new) score -0.20 conf 0.35: Başlıklar karışık: PCE enflasyonunun güçlü çıkması ve Fed faiz artırma beklentileri altın için baskılayıcı, buna karşın Ukrayna/İran kaynaklı jeopolitik gerilim hafif destek veriyor. Altın kâr realizasyonuyla geriliyor; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
 27.11 00:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 00:46 N  NEWS (10 new) score -0.25 conf 0.50: Fed sıkılaştırma beklentileri (ABD enflasyonu %3,8, güçlü GSYH ile faiz artırımı bahisleri) ve altının haftalık düşüşü ile kâr realizasyonu altın üzerinde baskı oluşturuyor. Ukrayna, İran ve Kuveyt'teki jeopolitik gerilimler güvenli liman talebini destekleyebilir, ancak bu haberlerin büyük kısmı zaten fiyatlanmış ve etkisi sınırlı kalabilir.
+27.11 00:58 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 00:58 N  NEWS (8 new) score -0.40 conf 0.50: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
