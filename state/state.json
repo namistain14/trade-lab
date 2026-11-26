@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    5084.42
-   ],
-   [
     1795116679,
     5087.29
    ],
@@ -12094,6 +12090,10 @@
    [
     1795706063,
     5145.97
+   ],
+   [
+    1795706248,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    4868.5
-   ],
-   [
     1795116679,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795706063,
     4868.5
+   ],
+   [
+    1795706248,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
+   "score": -0.4,
    "confidence": 0.5,
-   "reason": "Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu Rusya-Ukrayna sava\u015f\u0131na ili\u015fkin ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kal\u0131yor. Buna kar\u015f\u0131n Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, ABD dolar\u0131n\u0131n g\u00fc\u00e7lenme e\u011filimi ve XAU/USD'deki destek k\u0131r\u0131l\u0131m\u0131na dair teknik sat\u0131\u015f sinyalleri alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor.",
+   "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar\u0131n g\u00fc\u00e7 kazanma momentumu ve XAU/USD'deki destek k\u0131r\u0131lmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik haberlerin \u00e7o\u011fu (Ukrayna, Orta Do\u011fu) zaten fiyatlanm\u0131\u015f ve g\u00fcvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ama orta g\u00fcvenilirlikte bir g\u00f6r\u00fcn\u00fcm.",
    "n": 45,
-   "ts": 1795705527333,
-   "new_headlines": 12,
+   "ts": 1795706247508,
+   "new_headlines": 7,
    "key_events": [
     "Fed faiz art\u0131r\u0131m\u0131 beklentileri s\u00fcr\u00fcyor, alt\u0131n d\u00fc\u015ft\u00fc (Kitco)",
     "DXY 2026 zirvesine ula\u015ft\u0131, dolar g\u00fc\u00e7leniyor (StoneX)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795113487347,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Faiz art\u0131r\u0131m\u0131 beklentileri (Aral\u0131k'ta olas\u0131 Fed hamlesi), g\u00fc\u00e7l\u00fc dolar (19 ayl\u0131k zirve) ve g\u00f6sterilen mortgage faiz art\u0131\u015flar\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Gold y\u0131ll\u0131k dipleri test ediyor; \u0130ran sava\u015f\u0131 ve Netanyahu'nun sava\u015f\u0131n ka\u00e7\u0131n\u0131lmaz oldu\u011fu y\u00f6n\u00fcndeki haberleri g\u00fcvenli liman talebi yaratabilir ancak bu etki \u015fimdiye kadar sat\u0131\u015f bask\u0131s\u0131n\u0131 dengelemedi.",
-    "new": 10,
-    "gpt_score": -0.25,
-    "gpt_confidence": 0.58
-   },
    {
     "ts": 1795114278043,
     "score": -0.5,
@@ -29884,14 +29875,28 @@
     "new": 12,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795706247508,
+    "score": -0.4,
+    "confidence": 0.5,
+    "reason": "Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar\u0131n g\u00fc\u00e7 kazanma momentumu ve XAU/USD'deki destek k\u0131r\u0131lmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik haberlerin \u00e7o\u011fu (Ukrayna, Orta Do\u011fu) zaten fiyatlanm\u0131\u015f ve g\u00fcvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ama orta g\u00fcvenilirlikte bir g\u00f6r\u00fcn\u00fcm.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-26",
-   "n": 14
+   "n": 15
   },
   "news_seen": [
+   "ECB turns to crisis veteran De Cos as new strains loom - The Mighty 790 KFGO",
+   "Gold loan growth slows as falling gold prices push lenders into collection mode - BusinessLine",
+   "Why is Italy angry with Ukraine for striking Russian ships off Libya? - Al Jazeera",
    "Russia Has Spent $226 Billion on Weapons for Its War in Ukraine\u2014Even Undestroyed Tanks Count - UNITED24 Media",
+   "South Africa\u2019s Rand Hurtles Toward Worst November Against Dollar in 25 Years - Bloomberg",
+   "Putin\u2019s war in Ukraine has killed nearly 500,000 Russian troops \u2013 leaked data - Al Arabiya English",
    "Tech billionaire takes his case against red tape to the Federal Reserve - The Washington Post",
    "G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
    "Russia, Ukraine exchange drone and missile strikes, leaving dead and wounded - \u0633\u0627\u0646\u0627",
@@ -29899,20 +29904,18 @@
    "Mass-produced, small, and cheap Russian missiles could shape the war in 2027, making Ukrainian cities into constant targets (Ukraine Battlefield update, Day 1,736) - EUobserver",
    "EU funds for Ukraine will finance war rather than peace: Russia - TRT World",
    "Pregnant US inmate escapes in prison vehicle after medical appointment",
-   "German minister warns Ukraine against expanding war 'geographically' - Yahoo",
    "Gold rebounds Rs 1,500 to Rs 1.27 lakh per 10 gm amid rupee depreciation, bargain buying - Deccan Herald",
    "The Red Sea\u2019s Next War Starts in Tigray - Geopolitical Monitor",
    "Infographic: SJC gold prices remain unchanged on November 26 - Nhan Dan Online",
    "Israel has found a weapon more useful than war: The ceasefire - Middle East Monitor",
-   "Falklands War veteran say UK government ministers are hiding behind GDPR on Sir Galahad bombing files - BBC",
    "Norse Atlantic suspends all flights as it faces potential collapse",
+   "Mexican Peso: Recovery against US Dollar expected by end-2028 - Commerzbank - Mitrade",
    "Mexican Peso: Will it recover against the US Dollar by end-2028 as Commerzbank expects? - www.tmgm.com",
    "US Dollar: How is strengthening cyclical momentum providing support? - MUFG - www.tmgm.com",
    "US Dollar: Is DXY set for a 103.50-104.50 trading range? \u2013 ING - www.tmgm.com",
    "Can Trump continue with Iran war despite funding restrictions? - Al Jazeera",
    "XAU/USD Forecast \u2013 26/11: Support Breakdown Fuels Selloff - Daily Forex",
    "US Dollar: Improving cyclical momentum offers support - MUFG - FXStreet",
-   "Surveillance Data Document Rising Carbapenem Resistance in Ukraine During Full-Scale War - Bioengineer.org",
    "Russia\u2019s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios - The International Institute for Strategic Studies",
    "Minotaur: devastating betrayal in the Ukraine war - New Statesman",
    "Inside the Trump Administration\u2019s War on the International Criminal Court - Foreign Policy in Focus",
@@ -29924,23 +29927,18 @@
    "At least three killed in Russia's missile and drone barrage on Ukraine - Euronews.com",
    "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
    "Millions of people to see average monthly mortgage payments rise by \u00a3100",
-   "Woman in Europe finds photo, info on Merced man who died during World War II - Merced Sun-Star",
    "Gold slips, silver steadies as Fed rate hike expectations persist in holiday trading - Kitco AM Report - Kitco",
    "Mexican Peso: Recovery against US Dollar expected by end-2028 - Commerzbank - FXStreet",
+   "Ukraine War, Day 1,736: Trump Mega-Donor Acquires Overseas Assets of Russia's Largest Private Oil Company - EA WorldView",
    "Our people, their war - The Jakarta Post",
    "i-80 Gold: Trading At Just 0.35x NAV At $3,000/Oz Gold (NYSE:IAUX) - Seeking Alpha",
    "Gold Rate Today in Pune (26 Nov 2026) - Kotak Neo",
-   "Photos: Macy\u2019s Thanksgiving Day Parade History and Wacky Moments - The New York Times",
    "After a kingpin\u2019s arrest, Sinaloa\u2019s drug war could get worse - The Economist",
    "Gold Magnifies Every U.S. Dollar Move When Its Negative Beta Holds - StoneX",
-   "Simon Jack: Is Poundland's US owner to blame for its collapse?",
-   "Gold price per tola increases Rs4,700 in Pakistan - Investify",
-   "Russian ballistic missile strikes hit Kyiv, hurting 7 - WPLG Local 10"
+   "Simon Jack: Is Poundland's US owner to blame for its collapse?"
   ]
  },
  "log": [
-  "25.11 06:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNwdKRTMt81VXUqW728z'}",
-  "25.11 06:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNwratzSy5kVn7SkVK1K'}",
   "25.11 06:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNwthMVowgU7DjLQNpUu'}",
   "25.11 06:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNx7vGjFVa5PQKsfCRxo'}",
   "25.11 06:42 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChNxMD2R2PaEeGu1dJMuZ'}",
@@ -30238,7 +30236,9 @@
   "26.11 17:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:52 N  NEWS (3 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve DXY'nin 2026 zirvesine y\u00fckselmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (Ukrayna, \u0130ran) g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destek sa\u011flasa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "26.11 18:05 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "26.11 18:05 N  NEWS (12 new) score -0.30 conf 0.50: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu Rusya-Ukrayna sava\u015f\u0131na ili\u015fkin ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kal\u0131yor. Buna kar\u015f\u0131n Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, ABD dolar\u0131n\u0131n g\u00fc\u00e7lenme e\u011filimi ve XAU/USD'deki destek k\u0131r\u0131l\u0131m\u0131na dair teknik sat\u0131\u015f sinyalleri alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor."
+  "26.11 18:05 N  NEWS (12 new) score -0.30 conf 0.50: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu Rusya-Ukrayna sava\u015f\u0131na ili\u015fkin ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kal\u0131yor. Buna kar\u015f\u0131n Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, ABD dolar\u0131n\u0131n g\u00fc\u00e7lenme e\u011filimi ve XAU/USD'deki destek k\u0131r\u0131l\u0131m\u0131na dair teknik sat\u0131\u015f sinyalleri alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor.",
+  "26.11 18:17 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "26.11 18:17 N  NEWS (7 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar\u0131n g\u00fc\u00e7 kazanma momentumu ve XAU/USD'deki destek k\u0131r\u0131lmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik haberlerin \u00e7o\u011fu (Ukrayna, Orta Do\u011fu) zaten fiyatlanm\u0131\u015f ve g\u00fcvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ama orta g\u00fcvenilirlikte bir g\u00f6r\u00fcn\u00fcm."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    4963.78
-   ],
-   [
     1795116679,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795706063,
+    4963.78
+   ],
+   [
+    1795706248,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    4975.18
-   ],
-   [
     1795116679,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795706063,
+    4975.18
+   ],
+   [
+    1795706248,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    4993.28
-   ],
-   [
     1795116679,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795706063,
+    4993.28
+   ],
+   [
+    1795706248,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795116500,
-    4969.22
-   ],
-   [
     1795116679,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795706063,
+    4969.22
+   ],
+   [
+    1795706248,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795116500,
-    4935.09
-   ],
    [
     1795116679,
     4960.32
@@ -94899,6 +94895,10 @@
    [
     1795706063,
     5297.35
+   ],
+   [
+    1795706248,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795116500,
-    119143.89
-   ],
    [
     1795116679,
     119476.94
@@ -108542,6 +108538,10 @@
    [
     1795706063,
     128183.18
+   ],
+   [
+    1795706248,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795116500,
-    4876.96
-   ],
    [
     1795116679,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795706063,
     4876.96
+   ],
+   [
+    1795706248,
+    4876.96
    ]
   ],
   "news": {
@@ -121172,6 +121172,10 @@
    ],
    [
     1795706063,
+    100
+   ],
+   [
+    1795706248,
     100
    ]
   ],

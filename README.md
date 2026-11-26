@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 18:14 (İstanbul)
+> Son güncelleme: 26.11.2026 18:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 18:05): Claude puan **-0.30**, güven 0.50 — Yeni başlıkların çoğu Rusya-Ukrayna savaşına ilişkin ve büyük bölümü zaten fiyatlanmış; jeopolitik risk kaynaklı güvenli liman talebi sınırlı kalıyor. Buna karşın Fed'de faiz artırımı beklentilerinin sürmesi, ABD dolarının güçlenme eğilimi ve XAU/USD'deki destek kırılımına dair teknik satış sinyalleri altın için kısa vadede baskı oluşturuyor.
+Son haber analizi (26.11 18:17): Claude puan **-0.40**, güven 0.50 — Fed faiz artırımı beklentilerinin sürmesi, doların güç kazanma momentumu ve XAU/USD'deki destek kırılması altın için baskı oluşturuyor. Jeopolitik haberlerin çoğu (Ukrayna, Orta Doğu) zaten fiyatlanmış ve güvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle düşüş yönlü ama orta güvenilirlikte bir görünüm.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 16:39 N  NEWS (8 new) score -0.50 conf 0.60: Baskın etki şahin Fed beklentilerinden kaynaklanıyor: çekirdek PCE %3,3'e yükseldi, faiz artırımı oranları çok yüksek ve altın 3.500 doların altına düştü. Güçlü dolar ve reel faiz baskısı altını aşağı çekiyor; Ukrayna ve Hürmüz'deki jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki sınırlı kalıyor. Bazı başlıklar eski veya fiyatlanmış haberler olduğu için güven orta düzeyde tutuldu.
-26.11 16:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:51 N  NEWS (9 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (oran artışı olasılığı yaklaşık %99,8), yüksek çekirdek PCE (%3,3) ve 2026 zirvesindeki dolar endeksi altını baskılıyor; altın 3.500 doların altına düştü. Kyiv'e füze saldırıları ve Orta Doğu gerginliği gibi güvenli liman talebini artırabilecek haberler var, ancak bunlar zaten fiyatlanmış ve sınırlı etki yaratıyor.
 26.11 17:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 17:03 N  NEWS (11 new) score -0.50 conf 0.60: Enflasyon verileri (Core PCE %3.3, Ekim CPI yükselişi) ve Fed faiz artırımı beklentileri (oran artırma olasılığı ~%99.8) altını baskılıyor; gold ~3.425-3.500 dolar civarında satış baskısı altında. Jeopolitik riskler (Ukrayna, İran savaşı, Karadeniz) güvenli liman talebi yaratabilir, ancak bu haberlerin çoğu eski ve fiyatlanmış; merkez bankası alımları destek sağlıyor ama kısa vadede etkisi sınırlı.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 17:52 N  NEWS (3 new) score -0.40 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi ve DXY'nin 2026 zirvesine yükselmesi altın için baskı yaratıyor. Savaş haberleri (Ukrayna, İran) güvenli liman talebi açısından destek sağlasa da bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor, bu yüzden etkisi sınırlı kalıyor.
 26.11 18:05 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 18:05 N  NEWS (12 new) score -0.30 conf 0.50: Yeni başlıkların çoğu Rusya-Ukrayna savaşına ilişkin ve büyük bölümü zaten fiyatlanmış; jeopolitik risk kaynaklı güvenli liman talebi sınırlı kalıyor. Buna karşın Fed'de faiz artırımı beklentilerinin sürmesi, ABD dolarının güçlenme eğilimi ve XAU/USD'deki destek kırılımına dair teknik satış sinyalleri altın için kısa vadede baskı oluşturuyor.
+26.11 18:17 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 18:17 N  NEWS (7 new) score -0.40 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi, doların güç kazanma momentumu ve XAU/USD'deki destek kırılması altın için baskı oluşturuyor. Jeopolitik haberlerin çoğu (Ukrayna, Orta Doğu) zaten fiyatlanmış ve güvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle düşüş yönlü ama orta güvenilirlikte bir görünüm.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
