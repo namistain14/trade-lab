@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 16:48 (İstanbul)
+> Son güncelleme: 26.11.2026 16:51 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 16:39): Claude puan **-0.50**, güven 0.60 — Baskın etki şahin Fed beklentilerinden kaynaklanıyor: çekirdek PCE %3,3'e yükseldi, faiz artırımı oranları çok yüksek ve altın 3.500 doların altına düştü. Güçlü dolar ve reel faiz baskısı altını aşağı çekiyor; Ukrayna ve Hürmüz'deki jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki sınırlı kalıyor. Bazı başlıklar eski veya fiyatlanmış haberler olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (26.11 16:51): Claude puan **-0.50**, güven 0.60 — Faiz artırımı beklentileri (oran artışı olasılığı yaklaşık %99,8), yüksek çekirdek PCE (%3,3) ve 2026 zirvesindeki dolar endeksi altını baskılıyor; altın 3.500 doların altına düştü. Kyiv'e füze saldırıları ve Orta Doğu gerginliği gibi güvenli liman talebini artırabilecek haberler var, ancak bunlar zaten fiyatlanmış ve sınırlı etki yaratıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 20:23 B6  karar turu: Claude «Piyasa günü sert düşüşle geçirse de son bir saatte teknoloji öncülüğünde güçlü bir tepki yükselişi yaşanıyor; bu toparlanmanın sınırlı ve temkinli bir devamı bekleniyor.» / GPT «-»
-26.11 15:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 15:27 N  NEWS (45 new) score -0.40 conf 0.55: Baskın sinyaller altın için olumsuz: ABD enflasyon verisi faiz artışı beklentilerini güçlendirdi, Fed'in şahin duruşu ve yüksek ABD tahvil getirileri doları destekleyerek altına baskı yapıyor. Jeopolitik tarafta güvenli liman talebini artıracak yeni bir tırmanış yok (Trump-Rutte uyarısı ve Kuzey Kore'nin Rusya'ya silah sevkiyatını durdurması gibi haberler sınırlı etki), ayrıca ABD Şükran Günü tatili nedeniyle likidite düşük; bazı tek tük "tahvil getirileri geriliyor" haberleri karşıt sinyal olduğu için güveni sınırlıyor.
 26.11 15:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 15:39 N  NEWS (7 new) score -0.40 conf 0.60: Başlıkların çoğu altın için baskılayıcı: güçlü dolar, yüksek ABD tahvil getirileri ve Fed faiz artırımı beklentileri (hawkish dönüş) ön planda. Iran savaşı ve Houthi saldırıları gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; ayrıca bazı haberler çelişkili ve kısmen fiyatlanmış.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 16:27 N  NEWS (32 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Fed'in sıkılaştırma yönlü beklentileri (faiz artırımı olasılığı çok yüksek), ABD enflasyonunun yukarı yönlü sürpriz yapması, güçlü dolar ve yüksek ABD tahvil getirileri altın üzerinde baskı yaratıyor. Jeopolitik gerilimler (İran savaşı, Ukrayna) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bazı başlıklar da eski veya zaten fiyatlanmış.
 26.11 16:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:39 N  NEWS (8 new) score -0.50 conf 0.60: Baskın etki şahin Fed beklentilerinden kaynaklanıyor: çekirdek PCE %3,3'e yükseldi, faiz artırımı oranları çok yüksek ve altın 3.500 doların altına düştü. Güçlü dolar ve reel faiz baskısı altını aşağı çekiyor; Ukrayna ve Hürmüz'deki jeopolitik gerilim ise güvenli liman talebi yaratsa da bu etki sınırlı kalıyor. Bazı başlıklar eski veya fiyatlanmış haberler olduğu için güven orta düzeyde tutuldu.
+26.11 16:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 16:51 N  NEWS (9 new) score -0.50 conf 0.60: Faiz artırımı beklentileri (oran artışı olasılığı yaklaşık %99,8), yüksek çekirdek PCE (%3,3) ve 2026 zirvesindeki dolar endeksi altını baskılıyor; altın 3.500 doların altına düştü. Kyiv'e füze saldırıları ve Orta Doğu gerginliği gibi güvenli liman talebini artırabilecek haberler var, ancak bunlar zaten fiyatlanmış ve sınırlı etki yaratıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
