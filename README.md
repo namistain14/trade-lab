@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 26.11.2026 16:24 (İstanbul)
+> Son güncelleme: 26.11.2026 16:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (26.11 16:15): Claude puan **-0.60**, güven 0.60 — Enflasyon verileri (Ekim CPI, Core PCE %3.3) ve neredeyse %100 olarak fiyatlanan faiz artırımı beklentisi, dolar ve reel getirilerdeki yükselişle birlikte altın üzerinde baskı oluşturuyor; altın 3.500$ altına düştü. Bazı haberlerde düşük getirilerin toparlanmayı desteklediği ve merkez bankası alımları gibi destekleyici unsurlar bulunsa da, bu etkiler Fed kaynaklı satış baskısının gerisinde kalıyor. Birçok başlık tekrar eden veya düşük kaliteli içerik olduğu için güven orta düzeyde tutuldu.
+Son haber analizi (26.11 16:27): Claude puan **-0.50**, güven 0.60 — Haberlerin ağırlığı altın için negatif: Fed'in sıkılaştırma yönlü beklentileri (faiz artırımı olasılığı çok yüksek), ABD enflasyonunun yukarı yönlü sürpriz yapması, güçlü dolar ve yüksek ABD tahvil getirileri altın üzerinde baskı yaratıyor. Jeopolitik gerilimler (İran savaşı, Ukrayna) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bazı başlıklar da eski veya zaten fiyatlanmış.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-25.11 20:11 B6  karar turu: Claude «Piyasa sert düşüş gününün ardından güçlü bir toparlanma yaşıyor; momentum kısa vadede yukarı yönlü ancak dalgalı.» / GPT «-»
-25.11 20:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 20:23 N  NEWS (17 new) score -0.65 conf 0.65: Güçlü ABD büyüme verisi, yükselen çekirdek PCE/enflasyon ve Fed faiz artırımı beklentileri dolar ve reel faizleri destekleyerek altını baskılıyor; altın zaten %2,44 düşüp 3500 doların altına indi. İran savaşı gibi jeopolitik riskler olmasına rağmen güvenli liman talebi bu baskıyı dengelemiyor, bu nedenle kısa vadeli görünüm negatif; ancak düşüş kısmen fiyatlanmış olabileceğinden güven orta düzeyde.
 25.11 20:23 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 25.11 20:23 B6  karar turu: Claude «Piyasa günü sert düşüşle geçirse de son bir saatte teknoloji öncülüğünde güçlü bir tepki yükselişi yaşanıyor; bu toparlanmanın sınırlı ve temkinli bir devamı bekleniyor.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 16:03 N  NEWS (7 new) score -0.55 conf 0.60: 
 26.11 16:15 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 16:15 N  NEWS (27 new) score -0.60 conf 0.60: Enflasyon verileri (Ekim CPI, Core PCE %3.3) ve neredeyse %100 olarak fiyatlanan faiz artırımı beklentisi, dolar ve reel getirilerdeki yükselişle birlikte altın üzerinde baskı oluşturuyor; altın 3.500$ altına düştü. Bazı haberlerde düşük getirilerin toparlanmayı desteklediği ve merkez bankası alımları gibi destekleyici unsurlar bulunsa da, bu etkiler Fed kaynaklı satış baskısının gerisinde kalıyor. Birçok başlık tekrar eden veya düşük kaliteli içerik olduğu için güven orta düzeyde tutuldu.
+26.11 16:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+26.11 16:27 N  NEWS (32 new) score -0.50 conf 0.60: Haberlerin ağırlığı altın için negatif: Fed'in sıkılaştırma yönlü beklentileri (faiz artırımı olasılığı çok yüksek), ABD enflasyonunun yukarı yönlü sürpriz yapması, güçlü dolar ve yüksek ABD tahvil getirileri altın üzerinde baskı yaratıyor. Jeopolitik gerilimler (İran savaşı, Ukrayna) güvenli liman talebini bir miktar destekleyebilir, ancak bu etki faiz ve dolar baskısının gerisinde kalıyor; bazı başlıklar da eski veya zaten fiyatlanmış.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
