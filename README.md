@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 00:19 (İstanbul)
+> Son güncelleme: 27.11.2026 00:22 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 00:10): Claude puan **-0.30**, güven 0.40 — Güçlü GSYİH ve daha sert PCE enflasyonu Fed faiz artırımı beklentilerini güçlendirerek altı baskılıyor; ayrıca ABD doları toparlanma sinyali veriyor. Ukrayna ve İran kaynaklı jeopolitik gerilim altın için destekleyici olsa da bu risk primi büyük ölçüde fiyatlanmış görünüyor, bu nedenle hafif negatif bir görünüm uygun.
+Son haber analizi (27.11 00:22): Claude puan **-0.50**, güven 0.60 — Yeni haberlerde ABD enflasyonunun %3,8'e çıkması ve Fed'in Aralık'ta faiz artırma ihtimalinin konuşulması, reel faiz ve dolar beklentilerini yukarı çekerek altın için baskılayıcı. Altının haftalık düşüşü ve kâr satışları teknik olarak da negatif; Orta Doğu çatışmaları ise güvenli liman talebi yaratsa da zaten fiyatlanmış görünüyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-26.11 22:44 N  NEWS (4 new) score -0.10 conf 0.35: Yeni haberler karışık: Hindistan merkez bankasının 60 ton altın geri alımı ve Fed'in enflasyon hedefinden ödün verebileceği yorumu altını destekler, ancak doların güçlenmesi, Fed faiz artırımı beklentileri ve ince işlem hacmi (Şükran günü tatili) baskı yaratıyor. Kuveyt'teki saldırı ve Ukrayna-Rusya gerilimi ise sınırlı bir güvenli liman talebi yaratıyor; genel etki hafif negatif, düşük güvenle.
-26.11 22:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 22:57 N  NEWS (8 new) score -0.05 conf 0.40: 
 26.11 23:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 26.11 23:09 N  NEWS (4 new) score -0.30 conf 0.45: Yeni gelen en önemli haber, güçlü GDP'nin Fed faiz artırımı beklentilerini artırması, bu da altın için bbir baskı yaratıyor. Rusya'ya yönelik Trump/NATO uyarıları sınırlı bir güvenli liman talebi destekleyebilir, ancak bu gelişme büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermiyor; başlıklar ayrıca birbiriyle çelişen fiyat hareketleri (3600 üzeri toparlanma ve 3570 civarında durgunluk) bildiriyor.
@@ -118,6 +116,8 @@ Son işlemler:
 26.11 23:58 N  NEWS (27 new) score -0.40 conf 0.55: Güçlü GDP verisinin Fed faiz artırımı beklentilerini körüklemesi ve altının yıllık yükseliş trendini kırıp haftanın en kötü performansını sergilemesi altın için baskılayıcı. Ukrayna'da Trump ve NATO'nun Rusya'yı savaşı genişletmemesi konusunda uyarması jeopolitik güvenli liman talebini biraz azaltıyor; ancak bazı haberler (ticaret savaşı, Ukrayna savaşı) hâlâ risk primini destekliyor, bu yüzden etki tam olarak tek yönlü değil.
 27.11 00:10 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 00:10 N  NEWS (8 new) score -0.30 conf 0.40: Güçlü GSYİH ve daha sert PCE enflasyonu Fed faiz artırımı beklentilerini güçlendirerek altı baskılıyor; ayrıca ABD doları toparlanma sinyali veriyor. Ukrayna ve İran kaynaklı jeopolitik gerilim altın için destekleyici olsa da bu risk primi büyük ölçüde fiyatlanmış görünüyor, bu nedenle hafif negatif bir görünüm uygun.
+27.11 00:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 00:22 N  NEWS (11 new) score -0.50 conf 0.60: Yeni haberlerde ABD enflasyonunun %3,8'e çıkması ve Fed'in Aralık'ta faiz artırma ihtimalinin konuşulması, reel faiz ve dolar beklentilerini yukarı çekerek altın için baskılayıcı. Altının haftalık düşüşü ve kâr satışları teknik olarak da negatif; Orta Doğu çatışmaları ise güvenli liman talebi yaratsa da zaten fiyatlanmış görünüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
