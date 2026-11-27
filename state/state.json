@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    5104.97
-   ],
-   [
     1795162892,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795752040,
     5145.97
+   ],
+   [
+    1795752226,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    4868.5
-   ],
-   [
     1795162892,
     4868.5
    ],
@@ -27166,34 +27162,29 @@
    [
     1795752040,
     4868.5
+   ],
+   [
+    1795752226,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.3,
-   "reason": "\u0130ran sava\u015f\u0131 (272. g\u00fcn) ve Kuveyt'teki \u0130talyan \u00f6l\u00fcml\u00fc sald\u0131r\u0131 k\u00fc\u00e7\u00fck bir jeopolitik risk primi destekleyebilir, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f eski geli\u015fmeler. Trump'\u0131n sava\u015f\u0131n \"istedi\u011finde\" bitebilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve Fed, dolar veya enflasyonla ilgili yeni bir haber olmamas\u0131 nedeniyle net etki s\u0131n\u0131rl\u0131 ve belirsiz kal\u0131yor.",
+   "score": -0.15,
+   "confidence": 0.4,
+   "reason": "Alt\u0131n 15 ayl\u0131k dipten toparlan\u0131yor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolardaki g\u00fc\u00e7l\u00fc y\u00fckseli\u015f alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f ve Kuveyt'teki sald\u0131r\u0131 g\u00fcvenli liman talebini destekliyor, ama bu etki fiyatlarda \u015fimdiden k\u0131smen yer etmi\u015f g\u00f6r\u00fcn\u00fcyor; net g\u00f6r\u00fcn\u00fcm hafif negatif.",
    "n": 45,
-   "ts": 1795751466475,
-   "new_headlines": 32,
+   "ts": 1795752224904,
+   "new_headlines": 33,
    "key_events": [
-    "Dolar 22 ayl\u0131k zirveye yak\u0131n, \u00fcst \u00fcste kazan\u00e7 serisi s\u00fcr\u00fcyor",
-    "Fed faiz art\u0131r\u0131m\u0131 beklentisi (Gregory Daco ve EUR/USD yorumlar\u0131)",
-    "Kuveyt'te \u0130ran destekli drone sald\u0131r\u0131s\u0131, \u0130talyan \u00f6l\u00fcmleri; alt\u0131n g\u00fcvenli liman deste\u011fi s\u0131n\u0131rl\u0131"
+    "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor",
+    "Dolar g\u00fc\u00e7l\u00fc y\u00fckseli\u015f serisini s\u00fcrd\u00fcr\u00fcyor (alt\u0131n i\u00e7in negatif)",
+    "\u0130ran ba\u011flant\u0131l\u0131 Kuveyt sald\u0131r\u0131s\u0131 ve Orta Do\u011fu gerilimi (g\u00fcvenli liman deste\u011fi)"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795160338838,
-    "score": -0.35,
-    "confidence": 0.4,
-    "reason": "Ana ak\u0131\u015f alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri y\u00fckseliyor, dolar haftal\u0131k y\u00fckseli\u015fte ve alt\u0131n haftan\u0131n en k\u00f6t\u00fc performans\u0131na do\u011fru gidiyor. Yeni jeopolitik gerilimler (Orta Do\u011fu sald\u0131r\u0131lar\u0131, Polonya'ya \u0130HA/f\u00fcze iddias\u0131, Kiev'e f\u00fcze sald\u0131r\u0131lar\u0131) g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi hawkish Fed ve g\u00fc\u00e7l\u00fc dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Ba\u015fl\u0131klardaki fiyat seviyeleri ve tarihler \u00e7eli\u015fkili oldu\u011fundan g\u00fcveni d\u00fc\u015f\u00fck tutuyorum.",
-    "new": 10,
-    "gpt_score": -0.55,
-    "gpt_confidence": 0.68
-   },
    {
     "ts": 1795161102892,
     "score": -0.5,
@@ -29884,63 +29875,70 @@
     "new": 32,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795752224904,
+    "score": -0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n 15 ayl\u0131k dipten toparlan\u0131yor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolardaki g\u00fc\u00e7l\u00fc y\u00fckseli\u015f alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f ve Kuveyt'teki sald\u0131r\u0131 g\u00fcvenli liman talebini destekliyor, ama bu etki fiyatlarda \u015fimdiden k\u0131smen yer etmi\u015f g\u00f6r\u00fcn\u00fcyor; net g\u00f6r\u00fcn\u00fcm hafif negatif.",
+    "new": 33,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 34
+   "n": 35
   },
   "news_seen": [
+   "Elon Musk\u2019s rockets fall in Mexico: Sanctions WARNING\u2026 - TodayPress.tv",
+   "Australia sanctions alleged IRGC proxies over Melbourne synagogue, Sydney arson - The Jerusalem Post",
+   "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehensive Collapse - Moomoo",
+   "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
+   "Nearly 200 Portuguese man-of-war wash ashore in Chile, prompting Playa Cucao closure - Latin Times",
+   "Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
+   "Gold Price Forecast: XAU/USD eyes weekly gain after hitting 15-month lows - FXStreet",
+   "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
+   "Gold steadies as investors return to precious metals despite mounting US rate hike fears - Proactive financial news",
+   "Gold and Silver Price Forecast: Silver Leads Rebound as Ratio Falls - FXEmpire",
    "Two Italians killed in Kuwait drone attack; Trump says Iran war ends \u2018whenever I want it\u2019 - CNBC",
    "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-   "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-   "Australia sanctions two people over antisemitic attacks that it blames on Iran - Reuters",
+   "Gold rebounds from one-year low as AI jitters ease - Reuters",
+   "Silver Price Forecast: XAG/USD surges to near $43.75 as US Dollar remains in corrective phase - FXStreet",
+   "Gold Rate Today in Dibrugarh (27 Nov 2026) - Kotak Neo",
+   "Australia sanctions two people over antisemitic attacks that it blames on Iran - StreetInsider",
    "Hawaii veteran of WWII, Korean War presented belated medals for service - Stars and Stripes",
    "Trump urges Putin to end 'military aggression' in Europe - France 24",
    "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows - The Guardian",
+   "Global Tech Markets Remain Volatile as US Dollar Extends Strong Winning Streak - NAI500",
+   "US dollar ticks up - \u5df4\u58eb\u7684\u5831",
+   "ABC in war of words with The Australian over Gaza freelancer, but Hugh Marks says it\u2019s \u2018fair scrutiny\u2019 | Weekly Beast - The Guardian",
+   "How FX Majors Stack Up Against US Dollar Weakness in December - FOREX.com",
    "\u2018Precooked Recipe for War\u2019: Iran\u2019s Abbas Araghchi Questions Kuwait Attack That Killed 2 Italians as EU Se - Benzinga",
+   "Gold stabilizes at $3,567 per ounce after falling to a 15-month low - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+   "Indonesian Rupiah Hits Record 18,400 per US Dollar as Bank Indonesia Governor Cites Three Drivers - BigGo Finance",
+   "Dollar-Yen to Battle in 158-161 Range as U.S. Jobs Report and BOJ Governor Ueda's Remarks Take Center Stage; Euro Wary of Spanish General Election - BigGo Finance",
+   "New Zealand Dollar advances vs USD, retakes 0.5500 on hung parliament | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "Trump adds Ukraine to warning against expanding war, diverging from joint NATO statement - The Kyiv Independent",
-   "Clint Eastwood's R-Rated War Thriller Is Officially Being Cut From Streaming - Polygon.com",
-   "New trade war could be brewing following tariff proposal - WCYB",
+   "Gregory Daco: Federal Reserve expected to raise interest rates next month - Traders Union",
+   "New Zealand Dollar advances vs USD, retakes 0.5500 after NZ election results - FXStreet",
+   "U.S. dollar up in Taipei trading - Focus Taiwan",
+   "News by CNBC TV18 on TradingView, 2026-11-27 \u2014 cnbctv:24a89b338094b:0 - TradingView",
+   "Thai baht/US dollar steady on Friday - TradingView",
+   "Gold (XAU/USD) Price Forecast: Failed Breakout Leaves Bullish Reversal Unconfirmed - FXEmpire",
+   "Texas jobs up 1.1% in 2026, says Federal Reserve Bank of Dallas - Denton Record-Chronicle",
    "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019 - Al Jazeera",
-   "Indonesia bourse sanctions five companies over shareholder data - Reuters",
-   "New trade war could be brewing following tariff proposal - WJLA",
+   "Indonesia bourse sanctions five companies over free-float share data discrepancies - Reuters",
+   "Shares find footing after bruising month, dollar set for third monthly gain - SRN News",
+   "Australian Dollar edges higher to near 0.6650 amid upside CPI surprise, hawkish Fed backdrop - FXStreet",
+   "Indonesia bourse sanctions five companies over shareholder data - TradingView",
+   "FLASHBACK: Two presidents pulled off secret Thanksgiving surprises for US troops \u2014 see the moments - Fox News",
+   "Our perception of World War I is too simplistic - The Critic",
    "George Russell not interested in war of words with Max Verstappen after \u2018amusing\u2019 spat - The Japan Times",
-   "'Proof it happened': Photographers reflect on Duterte's drug war - RFI",
-   "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
-   "'Proof It Happened': Photographers Reflect On Duterte's Drug War - Barron's",
-   "Trump: Iran war will be over \u2018sort of whenever I want it to be\u2019 - The Hill",
-   "RTX (RTX) Lands Next Generation Nuclear Cruise Missile Work For The Navy - Yahoo Finance",
-   "Russia wants to build a new security framework to end the war. This is why it won\u2019t work - The Conversation",
-   "Tracking U.S., state and county gas prices, in maps and charts. Updated daily. - NBC News",
-   "I spend \u00a3200 a month on fancy meals by myself - would you dine solo?",
-   "Ukraine says North Korea temporarily halted missile shipments to ally Russia - The Japan Times",
-   "Major Thanksgiving storm brings flooding, flight delays across US",
-   "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
-   "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
-   "Inside Ukraine\u2019s power crisis amid its war with Russia - Al Jazeera",
-   "CA announce sandpaper forum will be 'confidential' with 'no sanctions' - Cricinfo",
-   "No sanctions in Cricket Australia sandpapergate probe - Yahoo",
-   "Why is there a shortage of 'wizard' elevator mechanics?",
-   "Russian Diplomat Warns Nuclear War \u2018Inching Closer\u2019 With NATO - Newsweek",
-   "Ukraine, Russia could hold largest prisoner exchange of war before winter holidays, Kushner says - Euromaidan Press",
-   "Iran War Day 272: Tehran Denies Committing Deadly Kuwait Attack - The American Conservative",
-   "Democrats Push To Cut Iran War Funding Before December 11 Deadline: 6 outlets compared - NewsCord",
-   "UK to pay 'participation' fee to deliver EU deals",
-   "New trade war could be brewing following tariff proposal - WCIV",
-   "Kushner: Blame for Ukraine War Falls on 'Many' - Newser",
-   "Asia made a big AI bet on Nvidia. What happens now?",
-   "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-   "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte",
-   "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-   "The Shift: Progressive Dems target Iran War funding deadline - Mondoweiss",
-   "New trade war could be brewing following tariff proposal - KABB",
-   "Maritime trade stagnates amid geopolitical uncertainty - Global Issues.org"
+   "'Proof it happened': Photographers reflect on Duterte's drug war - RFI"
   ]
  },
  "log": [
-  "25.11 12:19 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPQ51wFanu2N9tocZNmc'}",
-  "25.11 12:22 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPQJE9KeL1njFLSJZqzg'}",
   "25.11 12:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPQXZbDn8Z9wefB6XSGa'}",
   "25.11 12:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPQknuH2bUAh8QbXURfJ'}",
   "25.11 12:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPQz8phmPdUknLqTVCBZ'}",
@@ -30238,7 +30236,9 @@
   "27.11 06:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 06:39 N  NEWS (12 new) score -0.25 conf 0.40: Fed'in faiz art\u0131r\u0131m\u0131 beklentisi ve dolar\u0131n 22 ayl\u0131k zirveye yak\u0131n seyri alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131; buna kar\u015f\u0131l\u0131k \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f (Kuveyt'te \u0130talyan \u00f6l\u00fcmleri) g\u00fcvenli liman talebini bir miktar destekliyor. Haberler \u00e7eli\u015fkili oldu\u011fu ve alt\u0131n zaten yakla\u015f\u0131k 15 ayl\u0131k dibe gerilemi\u015f oldu\u011fu i\u00e7in etki s\u0131n\u0131rl\u0131 ve belirsiz.",
   "27.11 06:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 06:51 N  NEWS (32 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131 (272. g\u00fcn) ve Kuveyt'teki \u0130talyan \u00f6l\u00fcml\u00fc sald\u0131r\u0131 k\u00fc\u00e7\u00fck bir jeopolitik risk primi destekleyebilir, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f eski geli\u015fmeler. Trump'\u0131n sava\u015f\u0131n \"istedi\u011finde\" bitebilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve Fed, dolar veya enflasyonla ilgili yeni bir haber olmamas\u0131 nedeniyle net etki s\u0131n\u0131rl\u0131 ve belirsiz kal\u0131yor."
+  "27.11 06:51 N  NEWS (32 new) score +0.10 conf 0.30: \u0130ran sava\u015f\u0131 (272. g\u00fcn) ve Kuveyt'teki \u0130talyan \u00f6l\u00fcml\u00fc sald\u0131r\u0131 k\u00fc\u00e7\u00fck bir jeopolitik risk primi destekleyebilir, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f eski geli\u015fmeler. Trump'\u0131n sava\u015f\u0131n \"istedi\u011finde\" bitebilece\u011fi y\u00f6n\u00fcndeki a\u00e7\u0131klamas\u0131 ve Fed, dolar veya enflasyonla ilgili yeni bir haber olmamas\u0131 nedeniyle net etki s\u0131n\u0131rl\u0131 ve belirsiz kal\u0131yor.",
+  "27.11 07:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 07:03 N  NEWS (33 new) score -0.15 conf 0.40: Alt\u0131n 15 ayl\u0131k dipten toparlan\u0131yor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve dolardaki g\u00fc\u00e7l\u00fc y\u00fckseli\u015f alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f ve Kuveyt'teki sald\u0131r\u0131 g\u00fcvenli liman talebini destekliyor, ama bu etki fiyatlarda \u015fimdiden k\u0131smen yer etmi\u015f g\u00f6r\u00fcn\u00fcyor; net g\u00f6r\u00fcn\u00fcm hafif negatif."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    4963.78
-   ],
-   [
     1795162892,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795752040,
+    4963.78
+   ],
+   [
+    1795752226,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    4975.18
-   ],
-   [
     1795162892,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795752040,
+    4975.18
+   ],
+   [
+    1795752226,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    4993.28
-   ],
-   [
     1795162892,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795752040,
+    4993.28
+   ],
+   [
+    1795752226,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795162711,
-    4969.22
-   ],
-   [
     1795162892,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795752040,
+    4969.22
+   ],
+   [
+    1795752226,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795162711,
-    5239.01
-   ],
    [
     1795162892,
     5239.01
@@ -94899,6 +94895,10 @@
    [
     1795752040,
     5297.35
+   ],
+   [
+    1795752226,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795162711,
-    120564.69
-   ],
    [
     1795162892,
     120564.69
@@ -108542,6 +108538,10 @@
    [
     1795752040,
     128183.18
+   ],
+   [
+    1795752226,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795162711,
-    4876.96
-   ],
    [
     1795162892,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795752040,
     4876.96
+   ],
+   [
+    1795752226,
+    4876.96
    ]
   ],
   "news": {
@@ -122244,6 +122244,10 @@
    ],
    [
     1795752040,
+    100
+   ],
+   [
+    1795752226,
     100
    ]
   ],
