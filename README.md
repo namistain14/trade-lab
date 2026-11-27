@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 12:16 (İstanbul)
+> Son güncelleme: 27.11.2026 12:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 12:07): Claude puan **+0.15**, güven 0.35 — Altın, doların zayıflamasıyla ve bir haftalık zirveye yakın işlem görmesiyle hafif yükseliş eğiliminde; Rusya'daki saldırı haberleri de sınırlı bir güvenli liman talebi sağlıyor. Ancak Fed faiz artırımı beklentileri ve sert politika riski altın için sınırlayıcı, ayrıca birçok haber zaten fiyatlanmış olduğu için güven düşük.
+Son haber analizi (27.11 12:19): Claude puan **+0.05**, güven 0.35 — Haberler karışık: dolar 22 aylık zirveye yakın ve Fed faiz artırımı beklentisi fiyatlanmış, bu altın için baskılayıcı. Buna karşılık altın kısa vadeli yükselişte (haftalık yüksek), Rusya-Ukrayna gerilimi ve jeopolitik riskler güvenli liman talebini destekliyor. Net etki sınırlı; güven düşük çünkü sinyaller birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 10:42 N  NEWS (6 new) score +0.10 conf 0.35: Yeni haberlerde altın toparlanması ve doların Şükran sonrası zayıf seyri kısa vadede hafif yükseliş lehine. Ancak Fed faiz artırımı beklentilerinin doları desteklemesi, doların 2024'ten beri en uzun yükseliş serisine yaklaşması ve altının düşüş trendinde kalması bu etkiyi sınırlıyor; jeopolitik haberler (İran savaşı, Kiev saldırısı) ise büyük ölçüde fiyatlanmış durumda.
-27.11 10:54 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 10:54 N  NEWS (10 new) score +0.15 conf 0.40: Altın yeni haberlerde 3.600 doları yeniden aştı ve dolar, Şükran Günü sonrası sessiz işlemlerde talep bulamıyor; bu kısa vadede altına hafif destek sağlıyor. Ancak Fed faiz artırımı beklentilerinin dolara destek vermesi, doların uzun süreli kazanma serisi ve altının hâlâ düşüş trendinde olması nedeniyle sinyal zayıf ve çelişkili; Rusya-Ukrayna gerilimi ise büyük ölçüde fiyatlanmış durumda.
 27.11 11:07 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 11:07 N  NEWS (13 new) score +0.20 conf 0.40: Altın, yıllık en düşük seviyeden toparlanıyor ve dolar endeksi 103,86'nın altına geriliyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımının büyük ölçüde fiyatlanmış olması ve altındaki düşüş trendinin sürmesi toparlanmanın kalıcılığını sınırlıyor; jeopolitik haberler ise yeni bir güvenli liman talebi yaratmıyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 11:55 N  NEWS (10 new) score +0.10 conf 0.35: Sinyaller karışık: dolar zayıflaması, jeopolitik gerilim (Rusya-Ukrayna tırmanışı) ve fiyat düşüşünde gelen alım altını destekliyor; ancak Fed faiz artışının büyük ölçüde fiyatlandığı ve Warsh'ın sert faiz artışı riski, altın üzerinde baskı yaratıyor. Haberlerin çoğu eski veya zaten fiyatlanmış olduğu için sinyal zayıf.
 27.11 12:07 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 12:07 N  NEWS (8 new) score +0.15 conf 0.35: Altın, doların zayıflamasıyla ve bir haftalık zirveye yakın işlem görmesiyle hafif yükseliş eğiliminde; Rusya'daki saldırı haberleri de sınırlı bir güvenli liman talebi sağlıyor. Ancak Fed faiz artırımı beklentileri ve sert politika riski altın için sınırlayıcı, ayrıca birçok haber zaten fiyatlanmış olduğu için güven düşük.
+27.11 12:19 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 12:19 N  NEWS (13 new) score +0.05 conf 0.35: Haberler karışık: dolar 22 aylık zirveye yakın ve Fed faiz artırımı beklentisi fiyatlanmış, bu altın için baskılayıcı. Buna karşılık altın kısa vadeli yükselişte (haftalık yüksek), Rusya-Ukrayna gerilimi ve jeopolitik riskler güvenli liman talebini destekliyor. Net etki sınırlı; güven düşük çünkü sinyaller birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
