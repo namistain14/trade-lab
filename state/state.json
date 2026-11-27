@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    5104.97
-   ],
-   [
     1795194178,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795783399,
     5145.97
+   ],
+   [
+    1795783585,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    4868.5
-   ],
-   [
     1795194178,
     4868.5
    ],
@@ -27166,34 +27162,30 @@
    [
     1795783399,
     4868.5
+   ],
+   [
+    1795783585,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.15,
-   "confidence": 0.4,
-   "reason": "Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Fed'in \u015fahin riski ve y\u00fcksek enflasyon alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor, alt\u0131n 15 ayl\u0131k dipten toparlansa da. \u0130ran ve Ukrayna sava\u015flar\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rmas\u0131 olas\u0131 ama bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki hafif negatif.",
+   "score": -0.3,
+   "confidence": 0.5,
+   "reason": "Alt\u0131n 15 ayl\u0131k dibinden toparlansa da ana s\u00fcr\u00fcc\u00fcler h\u00e2l\u00e2 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: Commerzbank Fed'in iki kez faiz art\u0131rabilece\u011fini, dolar ise 22 ayl\u0131k zirveye yak\u0131n seyrediyor. Sava\u015fa ba\u011fl\u0131 g\u00fcvenli liman talebi var ama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; k\u0131sa vadede reel faiz ve dolar bask\u0131s\u0131 daha belirleyici g\u00f6r\u00fcn\u00fcyor.",
    "n": 45,
-   "ts": 1795782864347,
-   "new_headlines": 13,
+   "ts": 1795783584429,
+   "new_headlines": 20,
    "key_events": [
-    "Alt\u0131n 15 ayl\u0131k dipten toparland\u0131 ama Fed riskleri s\u00fcr\u00fcyor",
-    "Y\u00fcksek enflasyon Fed'in itibar\u0131n\u0131 sorgulat\u0131yor, \u015fahin Fed beklentisi",
-    "\u0130ran sava\u015f\u0131 ve Ukrayna \u00e7at\u0131\u015fmalar\u0131 s\u00fcr\u00fcyor (g\u00fcvenli liman deste\u011fi, b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f)"
+    "Fed'in iki kez faiz art\u0131rabilece\u011fi beklentisi (Commerzbank)",
+    "Dolar endeksi 22 ayl\u0131k zirveye yak\u0131n, g\u00fc\u00e7l\u00fc dolar alt\u0131n i\u00e7in bask\u0131",
+    "Enerji \u015foku nedeniyle merkez bankalar\u0131n\u0131n yeniden faiz art\u0131r\u0131m d\u00f6ng\u00fcs\u00fcne d\u00f6nmesi",
+    "Alt\u0131n 15 ayl\u0131k dipten toparland\u0131 ancak Fed riski s\u00fcr\u00fcyor"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795191811234,
-    "score": -0.55,
-    "confidence": 0.65,
-    "reason": "Alt\u0131n, Fed'in faiz art\u0131r\u0131m\u0131 beklentilerinin yeniden canlanmas\u0131 ve dolar\u0131n 19 ayl\u0131k zirvelere yak\u0131n seyretmesi nedeniyle bask\u0131 alt\u0131nda; 14 ayl\u0131k dip ve yakla\u015f\u0131k %4'l\u00fck d\u00fc\u015f\u00fc\u015f bu tabloyu yans\u0131t\u0131yor. \u0130ran sava\u015f\u0131 ve Polonya'daki f\u00fcze olay\u0131 g\u00fcvenli liman talebini destekleyebilir, ancak bu etki mevcut sert sat\u0131\u015f\u0131 dengelemekte yetersiz kal\u0131yor; yine de baz\u0131 haberlerin fiyatlamaya yans\u0131m\u0131\u015f olmas\u0131 g\u00fcveni s\u0131n\u0131rl\u0131yor.",
-    "new": 6,
-    "gpt_score": -0.6,
-    "gpt_confidence": 0.72
-   },
    {
     "ts": 1795192529670,
     "score": -0.55,
@@ -29884,23 +29876,44 @@
     "new": 13,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795783584429,
+    "score": -0.3,
+    "confidence": 0.5,
+    "reason": "Alt\u0131n 15 ayl\u0131k dibinden toparlansa da ana s\u00fcr\u00fcc\u00fcler h\u00e2l\u00e2 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: Commerzbank Fed'in iki kez faiz art\u0131rabilece\u011fini, dolar ise 22 ayl\u0131k zirveye yak\u0131n seyrediyor. Sava\u015fa ba\u011fl\u0131 g\u00fcvenli liman talebi var ama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; k\u0131sa vadede reel faiz ve dolar bask\u0131s\u0131 daha belirleyici g\u00f6r\u00fcn\u00fcyor.",
+    "new": 20,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 77
+   "n": 78
   },
   "news_seen": [
+   "Gold rebounds from 15-month low but Fed risks linger - www.tmgm.com",
+   "Dollar set for flat week, still close to 22-month peak - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "US Dollar: Fed seen hiking twice as labor market holds \u2013 Commerzbank - FXStreet",
+   "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
+   "Warning sign: The US Dollar may not be ready for an AI bubble burst - FXStreet",
+   "Forget 'Saving Private Ryan,' Netflix's New Near-Perfect War Epic Is an Instant Streaming Hit - MovieWeb",
    "Russia Orders Schools to Include Ukraine War Veterans in 2027 Graduation Ceremonies - UNITED24 Media",
    "The Pentagon Taps Ford and GM for WWII-Style Weapons Push as Iran War Drains Stockpiles - Latin Times",
+   "XAU/USD: Elliott Wave Analysis and Forecast for 27.11.26\u201304.12.26 - LiteFinance",
    "Russia has bombed Ukraine church 3 times. Congress must act | Opinion - The Oklahoman",
    "Why isn\u2019t European TV drama responding to the threat of war? - EUobserver",
    "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin - TODAY.com",
+   "Russian $15 Million Air Defense System Fails to Defend Itself Against Ukrainian Drones - UNITED24 Media",
    "Euro: Seen range-bound against US Dollar into December \u2013 ING - FXStreet",
    "U.S. Jury Convicts Huawei on Counts Including Iran Sanctions Violations and Conspiring to Steal Trade Secrets - Latin Times",
    "Ukraine Struck Targets in 11 Russian Regions in Just One Week\u2014Here\u2019s What Was Hit - UNITED24 Media",
    "From weapons of war to a symbol of light: the Israeli menorah searching for a home in America - Ynetnews",
-   "Gold rebounds from 15-month low but Fed risks linger - www.tmgm.com",
+   "U.S. Army says first Dark Eagle hypersonic missile battery is ready for combat - Defence Industry Europe",
+   "Thai gold rises THB1,400 as renewed buying lifts global bullion prices - Nation Thailand",
+   "Asante Gold Corporation Gains Upside Momentum as Production Opportunities Strengthen Investor Optimism - kalkine.ca",
+   "Naomi Osaka in her custom Who Decides War look ahead of her first round match for the 2026 US Open on Aug. 31. - The Lufkin Daily News",
+   "Gold price rebounds above $3,660 as tech stocks recover despite Fed rate hike fears - Equiti Global",
    "ECB eyes tokenized collateral amid stricter Russia sanctions - CoinGeek",
    "Italians killed in Kuwait: Why is Iran denying responsibility? - Al Jazeera",
    "Indonesian Rupiah Closes at IDR 18,330; Economists Say Bank Indonesia Can't Rely on Intervention Alone - BigGo Finance",
@@ -29908,39 +29921,25 @@
    "Japanese Yen: Upside momentum fades against US Dollar - UOB - FXStreet",
    "Russia\u2019s hybrid war on Europe evolving, but failing: IISS - Al Jazeera",
    "Goldman Sachs sees US GDP at 2.4% in 2027 with lower inflation - StreetInsider",
+   "Has Gold found a bottom, or is this a short-term bounce? - FXStreet",
+   "Gold prices: Is the correction over? HSBC warns bullion could test $3,400 as global equity markets remain under pressure - Livemint",
+   "Examining Oxfam's claims: Did Israel really turn Gaza into a 'toxic wasteland'? - The Jerusalem Post",
    "US Dollar vs Mexican Peso stays under pressure as technicals show overbought levels and carry trades unwind - Traders Union",
    "New Zealand Dollar gains against US Dollar as NZ election outcome eases political uncertainty - FXStreet",
    "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
    "Federal Reserve Closes Thanksgiving Day \u2014 Are Banks Open Today - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "In Peru's Callao, Fujimori's war on crime meets a gritty reality - Bellingham Herald",
    "Donald Trump\u2019s \u2018Despicable\u2019 Iran War Remark To U.S. Service Member Sparks Backlash - Yahoo News Singapore",
+   "U.N. warns hunger will deepen in Middle East as war, fuel costs and aid cuts collide - The Tribune-Democrat",
    "In Peru\u2019s Callao, Fujimori\u2019s war on crime meets a gritty reality - SRN News",
    "Brazilian Real: Gains eyed against US Dollar \u2013 Societe Generale - FXStreet",
-   "Electronics Makers Set Up Memory War Rooms as DRAM Prices Soar - Technology Org",
-   "Iran\u2019s Sayyari Says New Air Defense Systems Will Be Deployed If War With US Resumes: 6 outlets compared - NewsCord",
-   "Zelenskyy urges the US to pressure Putin, calling Trump\u2019s 'my friend' remark strange - Audacy",
-   "Rupee nosedives 60 paise to settle at 92.98 against U.S. dollar - The Hindu",
-   "Libya and Italy Warn Ukraine Against Expanding War After Benghazi Corvette Strike: 14 outlets compared - NewsCord",
-   "LeoLabs buys FishEye to deliver missile tracking radars - Electronics Weekly",
-   "Ringgit ends lower against US dollar on cautious sentiment, geopolitical risks - The Star",
-   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 - Cryptonews.net",
-   "Why India and Pakistan Are Heading Toward a Major War - Middle East Forum",
-   "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
-   "Ringgit slips against US dollar as West Asia conflict fuels caution - Malay Mail",
-   "High Inflation Puts Fed\u2019s Credibility On the Line - Bloomberg.com",
-   "A Democratic war over healthcare shows signs of an emerging ceasefire - NBC News",
-   "Putin\u2019s War Machine Is Starting to Eat Itself - Newsweek",
-   "Iran War: Task Force Iron Gate Targets Tehran\u2019s Remaining Trade Routes - National Review",
-   "Houthis warn Britain against backing Saudi Arabia in Yemen war - The Arab Weekly",
-   "Rupee nosedives 60 paise to settle at 92.98 against US dollar - BusinessLine",
-   "Russia Moved Fuel by Train to a Secret Forest Depot\u2014Ukraine Found and Destroyed the Supply Hub - UNITED24 Media",
-   "Firmer Stocks and Oil Leave the US Dollar Mixed - Forex Factory",
-   "Australia sanctions suspects in Iran-linked anti-Semitic attacks - Al Jazeera"
+   "Iran Exports 180,000 Tons of Fisheries Products Despite Sanctions - WANA News Agency",
+   "Cult-classic tactical RPG Symphony of War is getting a sequel - Symphony of War II: Dominion - GamingOnLinux",
+   "World gold prices increase by nearly 3%, strongly recovering after hitting a more than 1-year low - Laodong.vn",
+   "Gold price in Pakistan jumps Rs11,500 per tola - Investify",
+   "Middle East energy shock pushes global central banks back into rate-hike cycle - Anadolu Ajans\u0131"
   ]
  },
  "log": [
-  "25.11 16:20 N  NEWS (45 new) score -0.60 conf 0.70: Alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ferek Eyl\u00fcl 2025'ten bu yana en d\u00fc\u015f\u00fck seviyeye indi; g\u00fc\u00e7l\u00fc dolar, Fed s\u0131k\u0131la\u015fma endi\u015feleri ve alt\u0131n ETF'lerinden 2,15 milyar dolarl\u0131k \u00e7\u0131k\u0131\u015f bask\u0131y\u0131 s\u00fcrd\u00fcr\u00fcyor. Jeopolitik riskler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebi yaratabilir, ancak bu etki mevcut dolar ve faiz bask\u0131s\u0131n\u0131n alt\u0131nda kal\u0131yor; PCE enflasyon verisi ve yeni tarifeler k\u0131sa vadede y\u00fcksek oynakl\u0131k getirebilir.",
-  "25.11 16:32 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 16:32 N  NEWS (7 new) score -0.60 conf 0.65: Alt\u0131n i\u00e7in bask\u0131 a\u011f\u0131rl\u0131kl\u0131 olarak Fed'in faiz art\u0131rma beklentileri, g\u00fc\u00e7lenen dolar ve yeni ABD tarifeleri kaynakl\u0131; ETF'lerden 2,15 milyar dolarl\u0131k \u00e7\u0131k\u0131\u015f da negatif. Sava\u015f haberleri (\u0130ran, Ukrayna) eski ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcvenli liman talebini destekleyici bir etki s\u0131n\u0131rl\u0131 kal\u0131yor; PCE enflasyon verisi k\u0131sa vadede oynakl\u0131k yaratabilir.",
   "25.11 16:32 B6  seans \u00f6ncesi g\u00f6r\u00fc\u015f: Piyasa, \u00f6zellikle teknoloji taraf\u0131nda, a\u00e7\u0131l\u0131\u015f \u00f6ncesi sert sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda; b\u00fcy\u00fck hareketler zaten ger\u00e7ekle\u015fti\u011fi i\u00e7in yaln\u0131zca taze haber i\u00e7eren se\u00e7ici i\u015flemler mant\u0131kl\u0131.",
   "25.11 16:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30237,9 @@
   "27.11 15:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 15:22 N  NEWS (10 new) score +0.05 conf 0.30: Alt\u0131n\u0131n 15 ayl\u0131k dibinden toparlanmas\u0131 ve jeopolitik gerilimlerin (\u0130ran, Ukrayna) s\u00fcrmesi k\u0131sa vadede hafif destekleyici; ancak Fed faiz art\u0131r\u0131m\u0131 endi\u015feleri, y\u00fcksek enflasyon ve g\u00fc\u00e7l\u00fc dolar riski bunu dengeliyor. Haberler kar\u0131\u015f\u0131k ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f oldu\u011fundan etki s\u0131n\u0131rl\u0131 ve y\u00f6n belirsiz.",
   "27.11 15:34 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 15:34 N  NEWS (13 new) score -0.15 conf 0.40: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Fed'in \u015fahin riski ve y\u00fcksek enflasyon alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor, alt\u0131n 15 ayl\u0131k dipten toparlansa da. \u0130ran ve Ukrayna sava\u015flar\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rmas\u0131 olas\u0131 ama bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki hafif negatif."
+  "27.11 15:34 N  NEWS (13 new) score -0.15 conf 0.40: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Fed'in \u015fahin riski ve y\u00fcksek enflasyon alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor, alt\u0131n 15 ayl\u0131k dipten toparlansa da. \u0130ran ve Ukrayna sava\u015flar\u0131n\u0131n g\u00fcvenli liman talebini art\u0131rmas\u0131 olas\u0131 ama bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Net etki hafif negatif.",
+  "27.11 15:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 15:46 N  NEWS (20 new) score -0.30 conf 0.50: Alt\u0131n 15 ayl\u0131k dibinden toparlansa da ana s\u00fcr\u00fcc\u00fcler h\u00e2l\u00e2 s\u0131k\u0131la\u015fma y\u00f6n\u00fcnde: Commerzbank Fed'in iki kez faiz art\u0131rabilece\u011fini, dolar ise 22 ayl\u0131k zirveye yak\u0131n seyrediyor. Sava\u015fa ba\u011fl\u0131 g\u00fcvenli liman talebi var ama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda; k\u0131sa vadede reel faiz ve dolar bask\u0131s\u0131 daha belirleyici g\u00f6r\u00fcn\u00fcyor."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30426,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    4963.78
-   ],
-   [
     1795194178,
     4963.78
    ],
@@ -42422,6 +42419,10 @@
    ],
    [
     1795783399,
+    4963.78
+   ],
+   [
+    1795783585,
     4963.78
    ]
   ],
@@ -42537,10 +42538,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    4975.18
-   ],
-   [
     1795194178,
     4975.18
    ],
@@ -54534,6 +54531,10 @@
    ],
    [
     1795783399,
+    4975.18
+   ],
+   [
+    1795783585,
     4975.18
    ]
   ],
@@ -54619,10 +54620,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    4993.28
-   ],
-   [
     1795194178,
     4993.28
    ],
@@ -66616,6 +66613,10 @@
    ],
    [
     1795783399,
+    4993.28
+   ],
+   [
+    1795783585,
     4993.28
    ]
   ]
@@ -66826,10 +66827,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    4969.22
-   ],
-   [
     1795194178,
     4969.22
    ],
@@ -78823,6 +78820,10 @@
    ],
    [
     1795783399,
+    4969.22
+   ],
+   [
+    1795783585,
     4969.22
    ]
   ],
@@ -82901,10 +82902,6 @@
   },
   "equity_curve": [
    [
-    1795194008,
-    5297.35
-   ],
-   [
     1795194178,
     5297.35
    ],
@@ -94899,6 +94896,10 @@
    [
     1795783399,
     5297.35
+   ],
+   [
+    1795783585,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96544,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795194008,
-    122433.92
-   ],
    [
     1795194178,
     123199.03
@@ -108542,6 +108539,10 @@
    [
     1795783399,
     128183.18
+   ],
+   [
+    1795783585,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108725,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795194008,
-    4876.96
-   ],
    [
     1795194178,
     4876.96
@@ -120723,6 +120720,10 @@
    [
     1795783399,
     4876.96
+   ],
+   [
+    1795783585,
+    4876.96
    ]
   ],
   "news": {
@@ -122972,6 +122973,10 @@
    ],
    [
     1795783399,
+    100
+   ],
+   [
+    1795783585,
     100
    ]
   ],
