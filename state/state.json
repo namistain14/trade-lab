@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795148080,
-    5104.97
-   ],
-   [
     1795148259,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795737456,
     5145.97
+   ],
+   [
+    1795737641,
+    5145.97
    ]
   ],
   "archive": [
@@ -13946,12 +13946,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795730400000,
-   "ETHUSDT": 1795730400000,
-   "SOLUSDT": 1795730400000,
-   "BNBUSDT": 1795730400000,
-   "XRPUSDT": 1795730400000,
-   "DOGEUSDT": 1795730400000
+   "BTCUSDT": 1795734000000,
+   "ETHUSDT": 1795734000000,
+   "SOLUSDT": 1795734000000,
+   "BNBUSDT": 1795734000000,
+   "XRPUSDT": 1795734000000,
+   "DOGEUSDT": 1795734000000
   }
  },
  "gold_news": {
@@ -15167,10 +15167,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795148080,
-    4868.5
-   ],
    [
     1795148259,
     4868.5
@@ -27166,34 +27162,29 @@
    [
     1795737456,
     4868.5
+   ],
+   [
+    1795737641,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.45,
+   "score": -0.5,
    "confidence": 0.6,
-   "reason": "Yeni haberler alt\u0131n i\u00e7in net bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi ve ABD dolar\u0131 holiday ortam\u0131nda toparlan\u0131yor. Enflasyonun 3 y\u0131l\u0131n zirvesine \u00e7\u0131kmas\u0131 da faiz art\u0131r\u0131m\u0131 ihtimalini canl\u0131 tutuyor; jeopolitik geli\u015fmeler (\u0130ran/Ukrayna) ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, bu y\u00fczden etki a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde.",
+   "reason": "Son haberler alt\u0131n \u00fczerinde bask\u0131y\u0131 g\u00f6steriyor: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, dolar tatil seyrinde de olsa y\u00fckseliyor ve alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve yeni bir t\u0131rmanma sinyali yok.",
    "n": 45,
-   "ts": 1795736882581,
-   "new_headlines": 3,
+   "ts": 1795737639603,
+   "new_headlines": 6,
    "key_events": [
-    "Fed faiz art\u0131r\u0131m\u0131 beklentileri alt\u0131n\u0131 3.550 dolara \u00e7ekti",
-    "ABD enflasyonu 3 y\u0131l\u0131n zirvesinde; yeni tarife \u00f6nerileri",
-    "Dolar tatil ortam\u0131nda toparlan\u0131yor; jeopolitik risk etkisi s\u0131n\u0131rl\u0131"
+    "Alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi; Fed s\u0131k\u0131la\u015ft\u0131rma (faiz art\u0131r\u0131m\u0131) beklentileri alt\u0131n\u0131 bask\u0131l\u0131yor",
+    "ABD dolar\u0131 tatil seyrinde y\u00fckseli\u015fte; Japonya enflasyonu (CPI) yen ve dolar hareketlerini etkileyebilir",
+    "\u0130ran sava\u015f\u0131na ili\u015fkin fon kesintisi tart\u0131\u015fmas\u0131 ve sava\u015f haberleri b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda"
    ],
    "gpt": null,
    "score_placeholder": "none",
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795145699971,
-    "score": -0.6,
-    "confidence": 0.7,
-    "reason": "Alt\u0131n, g\u00fc\u00e7l\u00fc dolar ve Fed faiz art\u0131r\u0131m\u0131 beklentileri nedeniyle sert d\u00fc\u015f\u00fc\u015fte ve haftal\u0131k bazda en k\u00f6t\u00fc performansa do\u011fru gidiyor; \u0130ran sava\u015f\u0131na dair haberler jeopolitik risk primini destekleyebilir ancak bu etki \u015fu an bask\u0131n de\u011fil. Fiyatlarda zaten b\u00fcy\u00fck d\u00fc\u015f\u00fc\u015f ya\u015fand\u0131\u011f\u0131 i\u00e7in k\u0131sa vadede tepki al\u0131m\u0131 riski de var, bu nedenle g\u00fcven orta seviyede tutuldu.",
-    "new": 6,
-    "gpt_score": -0.62,
-    "gpt_confidence": 0.71
-   },
    {
     "ts": 1795146470721,
     "score": -0.6,
@@ -29884,20 +29875,34 @@
     "new": 3,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795737639603,
+    "score": -0.5,
+    "confidence": 0.6,
+    "reason": "Son haberler alt\u0131n \u00fczerinde bask\u0131y\u0131 g\u00f6steriyor: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, dolar tatil seyrinde de olsa y\u00fckseliyor ve alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve yeni bir t\u0131rmanma sinyali yok.",
+    "new": 6,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 14
+   "n": 15
   },
   "news_seen": [
+   "Gold declines to near $3,550 amid hawkish Fed expectations - www.tmgm.com",
+   "Iran War Day 272: Tehran Denies Committing Deadly Kuwait Attack - The American Conservative",
+   "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy",
    "Gold declines to near $3,550 amid hawkish Fed expectations - FXStreet",
    "Gold (XAUUSD), Silver, Platinum Forecasts \u2013 Gold Retreats As Traders Rush To Take Profits After Rebound - FXEmpire",
    "Democrats Push To Cut Iran War Funding Before December 11 Deadline: 6 outlets compared - NewsCord",
+   "UK to pay 'participation' fee to deliver EU deals",
    "Gold price update morning of November 27: Sideways fluctuation, mixed ups and downs - Laodong.vn",
    "Kushner: Blame for Ukraine War Falls on 'Many' - Newser",
    "Gold remains under pressure as US interest rate fears intensify - www.proactiveinvestors.com.au",
    "Asia made a big AI bet on Nvidia. What happens now?",
+   "Gold Rate Today in Bangalore, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
    "SOMA GOLD REPORTS FINANCIAL RESULTS FOR THE THIRD QUARTER OF 2026 - TradingView",
    "New trade war could be brewing following tariff proposal - KSNV",
@@ -29925,22 +29930,15 @@
    "German Panzerfaust component found at Second World War military site in Poland - HeritageDaily",
    "Exclusive | Laila Khawaja on how the Jensen Huang saga resets the US-China tech rivalry - South China Morning Post",
    "Democrats\u2019 plan to end funding for Iran war leaves open what comes next - The Hill",
+   "Why Jeff Wayne\u2019s War Of The Worlds has endured - Louder",
    "Diplomacy, grievances dominate Trump's 2026 Thanksgiving in Palm Beach - The Palm Beach Post",
    "What Is Driving DRDGOLD (NYSE:DRD) Higher Gold Production? - Kalkine Media",
    "Department of War Adopts AI-Aided System for Classification and Declassification Management - CDO Magazine",
    "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "The Kushner Doctrine: How Washington Is Turning Russia\u2019s War into a Negotiating Advantage for Putin - EU Today",
-   "All of the 2026-2027 free agents, position by position - MLB.com",
-   "Trump pushes new tariffs as inflation hits 3-year high; US media call it 'economic self-harm' - \ud5e4\ub7f4\ub4dc\uacbd\uc81c",
-   "\u201cFlowers of Dutch Diplomacy\u201d: Missile Mural Appears Near Dutch Embassy in Moscow - UNITED24 Media",
-   "Ukrainian minister says Kiev has 'no intention' of spreading war to Libya - TRT World",
-   "Dark Eagle, America\u2019s first operational long-range hypersonic missile battery, is \u2018ready to go,\u2019 Army honcho claims - New York Post",
-   "Ukraine has \u2018no intention\u2019 of spreading war to Libya: Minister - Al Arabiya English"
+   "The Kushner Doctrine: How Washington Is Turning Russia\u2019s War into a Negotiating Advantage for Putin - EU Today"
   ]
  },
  "log": [
-  "25.11 10:27 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPFUJWEvsZCJcVmSgq3m'}",
-  "25.11 10:30 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPFhdtv3nBTVpk6RTfHk'}",
   "25.11 10:33 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPFvsFT43jbxktQTMT9j'}",
   "25.11 10:36 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPGA73n8wn3kTSBMLVjZ'}",
   "25.11 10:39 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPGPRUfv2aPnirj2ZJKA'}",
@@ -30238,7 +30236,9 @@
   "27.11 02:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 02:36 N  NEWS (11 new) score -0.35 conf 0.50: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, dolar tatil seyrek i\u015flemlerinde toparlan\u0131yor ve alt\u0131n k\u00e2r realizasyonu nedeniyle geri \u00e7ekiliyor. \u0130ran sava\u015f\u0131 finansman\u0131 ve Ukrayna'daki f\u00fcze sald\u0131r\u0131lar\u0131 gibi jeopolitik haberler g\u00fcvenli liman talebini art\u0131rabilir, ancak bunlar\u0131n \u00e7o\u011fu eski veya fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f sinyali g\u00f6r\u00fcnm\u00fcyor; bu nedenle etkileri s\u0131n\u0131rl\u0131 kal\u0131yor.",
   "27.11 02:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 02:48 N  NEWS (3 new) score -0.45 conf 0.60: Yeni haberler alt\u0131n i\u00e7in net bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi ve ABD dolar\u0131 holiday ortam\u0131nda toparlan\u0131yor. Enflasyonun 3 y\u0131l\u0131n zirvesine \u00e7\u0131kmas\u0131 da faiz art\u0131r\u0131m\u0131 ihtimalini canl\u0131 tutuyor; jeopolitik geli\u015fmeler (\u0130ran/Ukrayna) ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, bu y\u00fczden etki a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde."
+  "27.11 02:48 N  NEWS (3 new) score -0.45 conf 0.60: Yeni haberler alt\u0131n i\u00e7in net bask\u0131lay\u0131c\u0131: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi ve ABD dolar\u0131 holiday ortam\u0131nda toparlan\u0131yor. Enflasyonun 3 y\u0131l\u0131n zirvesine \u00e7\u0131kmas\u0131 da faiz art\u0131r\u0131m\u0131 ihtimalini canl\u0131 tutuyor; jeopolitik geli\u015fmeler (\u0130ran/Ukrayna) ise g\u00fcvenli liman talebini s\u0131n\u0131rl\u0131 destekliyor, bu y\u00fczden etki a\u011f\u0131rl\u0131kl\u0131 olarak d\u00fc\u015f\u00fc\u015f y\u00f6n\u00fcnde.",
+  "27.11 03:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 03:00 N  NEWS (6 new) score -0.50 conf 0.60: Son haberler alt\u0131n \u00fczerinde bask\u0131y\u0131 g\u00f6steriyor: Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, dolar tatil seyrinde de olsa y\u00fckseliyor ve alt\u0131n yakla\u015f\u0131k 3.550 dolara geriledi. \u0130ran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu geli\u015fmeler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve yeni bir t\u0131rmanma sinyali yok."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795148080,
-    4963.78
-   ],
-   [
     1795148259,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795737456,
+    4963.78
+   ],
+   [
+    1795737641,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795148080,
-    4975.18
-   ],
-   [
     1795148259,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795737456,
+    4975.18
+   ],
+   [
+    1795737641,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795148080,
-    4993.28
-   ],
-   [
     1795148259,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795737456,
+    4993.28
+   ],
+   [
+    1795737641,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795148080,
-    4969.22
-   ],
-   [
     1795148259,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795737456,
+    4969.22
+   ],
+   [
+    1795737641,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795148080,
-    5375.42
-   ],
    [
     1795148259,
     5397.8
@@ -94899,6 +94895,10 @@
    [
     1795737456,
     5297.35
+   ],
+   [
+    1795737641,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96534,7 +96534,7 @@
     }
    ],
    "day": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "pnl": 0.0,
     "trades": 0,
     "stopped": false
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795148080,
-    120564.69
-   ],
    [
     1795148259,
     120564.69
@@ -108542,6 +108538,10 @@
    [
     1795737456,
     128183.18
+   ],
+   [
+    1795737641,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795148080,
-    4876.96
-   ],
    [
     1795148259,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795737456,
     4876.96
+   ],
+   [
+    1795737641,
+    4876.96
    ]
   ],
   "news": {
@@ -121904,6 +121904,10 @@
    ],
    [
     1795737456,
+    100
+   ],
+   [
+    1795737641,
     100
    ]
   ],
