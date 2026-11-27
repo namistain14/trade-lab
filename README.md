@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 08:25 (İstanbul)
+> Son güncelleme: 27.11.2026 08:28 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 08:16): Claude puan **-0.10**, güven 0.35 — Faiz artırımı beklentileri ve Rusya'nın altın satışları altın için baskı oluşturuyor; buna karşılık zayıflayan dolar endeksi ve ETF girişlerinden kaynaklanan alım desteği fiyatı destekliyor. Başlıkların birbiriyle çelişen fiyat seviyeleri ve İran savaşı haberlerinin büyük ölçüde fiyatlanmış olması nedeniyle yön net değil, bu yüzden hafif negatif ve düşük güvenli bir skor veriyorum.
+Son haber analizi (27.11 08:28): Claude puan **+0.10**, güven 0.30 — Dolar endeksinin 104'ün altına gerilemesi ve altın fiyatının 3.600 doların üzerine toparlanması kısa vadede hafif destekleyici. Ancak ABD ekonomisinin beklentileri aşması, Fed faiz artırımı beklentileri ve Trump/NATO'nun Rusya'ya savaşı genişletmeme çağrısı (jeopolitik risk primini azaltıyor) altını aşağı çekebilir; sinyaller çelişkili ve bir kısmı eski haber olduğu için güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 06:51 N  NEWS (32 new) score +0.10 conf 0.30: İran savaşı (272. gün) ve Kuveyt'teki İtalyan ölümlü saldırı küçük bir jeopolitik risk primi destekleyebilir, ancak bunların çoğu zaten fiyatlanmış eski gelişmeler. Trump'ın savaşın "istediğinde" bitebileceği yönündeki açıklaması ve Fed, dolar veya enflasyonla ilgili yeni bir haber olmaması nedeniyle net etki sınırlı ve belirsiz kalıyor.
-27.11 07:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 07:03 N  NEWS (33 new) score -0.15 conf 0.40: Altın 15 aylık dipten toparlanıyor, ancak Fed faiz artırımı beklentileri ve dolardaki güçlü yükseliş altın için baskı oluşturuyor. İran savaşındaki tırmanış ve Kuveyt'teki saldırı güvenli liman talebini destekliyor, ama bu etki fiyatlarda şimdiden kısmen yer etmiş görünüyor; net görünüm hafif negatif.
 27.11 07:15 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 07:15 N  NEWS (14 new) score -0.15 conf 0.40: Fed faiz artırımı beklentileri ve HSBC'nin 3.400 dolar uyarısı altın için baskı oluşturuyor; buna karşılık dolar endeksinin 104'ün altına gerilemesi ve İran savaşının sürmesi kısmen destekleyici. Haberler birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 08:04 N  NEWS (12 new) score +0.15 conf 0.35: En yeni haberler altının 3.600 doların üzerine toparlandığını ve zayıf dolar endeksinin (104'ün altı) desteklediğini gösteriyor; bu kısa vadede hafif pozitif. Ancak Fed faiz artırımı beklentileri, Warsh'un enflasyon endişeleri ve Rusya'nın altın satışları gibi baskılayıcı haberler çelişkili; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
 27.11 08:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 08:16 N  NEWS (13 new) score -0.10 conf 0.35: Faiz artırımı beklentileri ve Rusya'nın altın satışları altın için baskı oluşturuyor; buna karşılık zayıflayan dolar endeksi ve ETF girişlerinden kaynaklanan alım desteği fiyatı destekliyor. Başlıkların birbiriyle çelişen fiyat seviyeleri ve İran savaşı haberlerinin büyük ölçüde fiyatlanmış olması nedeniyle yön net değil, bu yüzden hafif negatif ve düşük güvenli bir skor veriyorum.
+27.11 08:28 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 08:28 N  NEWS (14 new) score +0.10 conf 0.30: Dolar endeksinin 104'ün altına gerilemesi ve altın fiyatının 3.600 doların üzerine toparlanması kısa vadede hafif destekleyici. Ancak ABD ekonomisinin beklentileri aşması, Fed faiz artırımı beklentileri ve Trump/NATO'nun Rusya'ya savaşı genişletmeme çağrısı (jeopolitik risk primini azaltıyor) altını aşağı çekebilir; sinyaller çelişkili ve bir kısmı eski haber olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
