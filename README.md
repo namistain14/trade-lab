@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 14:42 (İstanbul)
+> Son güncelleme: 27.11.2026 14:45 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 14:33): Claude puan **-0.20**, güven 0.40 — Enerji şokunun merkez bankalarını faiz artırımına yöneltmesi ve Fed artırım beklentilerinin doları güçlendirmesi altın için baskılayıcı; İran savaşının yeniden başlama riski ise güvenli liman talebiyle kısmen dengeliyor. Başlıklar çelişkili ve bazıları eski olduğundan güven düşük.
+Son haber analizi (27.11 14:45): Claude puan **-0.15**, güven 0.40 — Haberler karışık: Orta Doğu enerji şoku ve jeopolitik riskler güvenli liman talebini destekliyor, ancak "hawkish Fed" riski, merkez bankalarının faiz artırım döngüsüne dönme beklentisi ve DXY'deki güçlenme altın için baskılayıcı. Altına olan net etki hafif negatif, düşük güvenle değerlendirildi; "Gold rises 3.13%" gibi başlıklar eski veya fiyatta zaten yansımış olabilir.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 13:08 N  NEWS (17 new) score -0.10 conf 0.35: Başlıklar karışık: güçlü ABD verisi, dolara yakın zirve ve yüksek çekirdek enflasyon (Fed'i sıkı tutma ihtimali) altın için baskı yaratıyor. Buna karşın altın 3.700 doların üzerine çıkıp toparlandı, Orta Doğu savaşı ve Ukrayna haberleri güvenli liman talebini destekliyor. Net etki hafif negatif ve düşük güvenle değerlendirildi.
-27.11 13:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 13:20 N  NEWS (13 new) score -0.30 conf 0.45: Yeni gelen başlıklar ağırlıklı olarak şahin Fed beklentilerine işaret ediyor: PCE'nin %3,8'e çıkması ve piyasanın Fed faiz artırımlarını fazla fiyatladığına dair yorumlar reel faizleri ve doların gücünü destekleyerek altın için olumsuz. Buna karşılık Rusya'daki patlamalar ve Orta Doğu gerilimi gibi sınırlı jeopolitik risk ile altındaki toparlanma kısmen dengeleyici; sinyaller çelişkili olduğu için güven orta-düşük.
 27.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 13:33 N  NEWS (10 new) score -0.10 conf 0.40: Savaş kaynaklı güvenli liman talebi ve altının 3.700 doların üzerine çıkması destekleyici olsa da, Fed'in faiz artırımı beklentileri ve yüksek PCE enflasyonu (%3,8) altın için baskı yaratıyor. Yapay zeka korkularının azalması risk iştahını artırarak güvenli liman talebini zayıflatabilir; sinyaller karışık olduğu için hafif negatif, düşük güvenle değerlendiriliyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 14:21 N  NEWS (9 new) score -0.10 conf 0.35: Haberler karışık: Orta Doğu ve Ukrayna çatışmaları güvenli liman talebini destekliyor, ancak PCE'nin %3,8'e çıkması ve Fed'in faiz artırımı beklentisi, dolardaki güç (DXY'nin desteği, rupi ve ringgit'teki sert değer kaybı) altın için baskılayıcı. Ayrıca 'altın %3,13 yükseldi' başlığı zaten fiyatlanmış bir hareketi gösterebilir, bu yüzden güven düşük.
 27.11 14:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 14:33 N  NEWS (12 new) score -0.20 conf 0.40: Enerji şokunun merkez bankalarını faiz artırımına yöneltmesi ve Fed artırım beklentilerinin doları güçlendirmesi altın için baskılayıcı; İran savaşının yeniden başlama riski ise güvenli liman talebiyle kısmen dengeliyor. Başlıklar çelişkili ve bazıları eski olduğundan güven düşük.
+27.11 14:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 14:45 N  NEWS (16 new) score -0.15 conf 0.40: Haberler karışık: Orta Doğu enerji şoku ve jeopolitik riskler güvenli liman talebini destekliyor, ancak "hawkish Fed" riski, merkez bankalarının faiz artırım döngüsüne dönme beklentisi ve DXY'deki güçlenme altın için baskılayıcı. Altına olan net etki hafif negatif, düşük güvenle değerlendirildi; "Gold rises 3.13%" gibi başlıklar eski veya fiyatta zaten yansımış olabilir.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
