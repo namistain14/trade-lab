@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    5104.97
-   ],
-   [
     1795203476,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795792603,
     5145.97
+   ],
+   [
+    1795792757,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    4868.5
-   ],
-   [
     1795203476,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795792603,
+    4868.5
+   ],
+   [
+    1795792757,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 19:35 N  NEWS (34 new) score -0.45 conf 0.60: ",
-  "25.11 19:35 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 19:35 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sert d\u00fc\u015f\u00fc\u015f\u00fcn ard\u0131ndan \u00f6\u011fle saatlerinde dengelenme ar\u0131yor; se\u00e7ici olmak ve g\u00f6receli g\u00fcce odaklanmak mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb",
   "25.11 19:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 19:47 N  NEWS (15 new) score -0.30 conf 0.50: S\u0131cak enflasyon verileri (PCE %3.8, \u00e7ekirdek %3.3) ve Fed'in faiz art\u0131r\u0131m\u0131 beklentisi ile g\u00fc\u00e7lenen dolar, alt\u0131n \u00fczerinde k\u0131sa vadede bask\u0131 yarat\u0131yor. \u0130ran sava\u015f\u0131 ve Polonya'ya f\u00fcze d\u00fc\u015fmesi gibi jeopolitik geli\u015fmeler g\u00fcvenli liman talebini destekleyebilir, ancak bunlar\u0131n \u00e7o\u011fu zaten fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131 kal\u0131r.",
@@ -30238,7 +30236,9 @@
   "27.11 18:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:12 N  NEWS (12 new) score -0.30 conf 0.50: Yeni ba\u015fl\u0131klar a\u011f\u0131rl\u0131kla bir Fed s\u0131k\u0131la\u015ft\u0131rma riskine ve g\u00fc\u00e7lenen dolara i\u015faret ediyor; alt\u0131n kazan\u00e7lar\u0131n\u0131 s\u0131n\u0131rl\u0131yor ve haftal\u0131k y\u00fckseli\u015f aray\u0131\u015f\u0131nda. Hindistan ve \u00c7in'deki al\u0131m talebi ile ETF giri\u015fleri bir miktar destek sa\u011flasa da jeopolitik risk haberleri net bir g\u00fcvenli liman talebi yaratm\u0131yor, bu y\u00fczden hafif negatif bir g\u00f6r\u00fcn\u00fcm uygun.",
   "27.11 18:16 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 18:16 S3  KURUL AAPL: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi"
+  "27.11 18:16 S3  KURUL AAPL: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi",
+  "27.11 18:19 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 18:19 B6  karar turu: Claude \u00abEndeksler sabahki sat\u0131\u015ftan toparlan\u0131yor; NVDA'daki ihracat k\u0131s\u0131tlamas\u0131 haberi teknoloji taraf\u0131nda bask\u0131 unsuru olmaya devam ediyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    4963.78
-   ],
-   [
     1795203476,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795792603,
+    4963.78
+   ],
+   [
+    1795792757,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    4975.18
-   ],
-   [
     1795203476,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795792603,
+    4975.18
+   ],
+   [
+    1795792757,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    4993.28
-   ],
-   [
     1795203476,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795792603,
+    4993.28
+   ],
+   [
+    1795792757,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    4969.22
-   ],
-   [
     1795203476,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795792603,
+    4969.22
+   ],
+   [
+    1795792757,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795203297,
-    5297.35
-   ],
-   [
     1795203476,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795792603,
     5297.35
+   ],
+   [
+    1795792757,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795203297,
-    127478.75
-   ],
    [
     1795203476,
     126682.45
@@ -108542,30 +108538,24 @@
    [
     1795792603,
     128183.18
+   ],
+   [
+    1795792757,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795791980896,
+  "last_decision_ms": 1795792745372,
   "view": {
-   "ts": 1795791980896,
-   "claude": "Endeksler son bir saatte teknoloji, \u00f6zellikle NVDA \u00f6nc\u00fcl\u00fc\u011f\u00fcnde sert geri \u00e7ekildi ancak g\u00fcnl\u00fck bazda h\u00e2l\u00e2 pozitif, bu y\u00fczden se\u00e7ici olmak gerekiyor.",
+   "ts": 1795792745372,
+   "claude": "Endeksler sabahki sat\u0131\u015ftan toparlan\u0131yor; NVDA'daki ihracat k\u0131s\u0131tlamas\u0131 haberi teknoloji taraf\u0131nda bask\u0131 unsuru olmaya devam ediyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
-     "claude": [
-      "none",
-      0.3
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
      "claude": [
       "none",
       0.35
@@ -108575,10 +108565,20 @@
       null
      ]
     },
+    "QQQ": {
+     "claude": [
+      "long",
+      0.45
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
     "NVDA": {
      "claude": [
-      "none",
-      0.4
+      "short",
+      0.45
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795203297,
-    4876.96
-   ],
    [
     1795203476,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795792603,
     4876.96
+   ],
+   [
+    1795792757,
+    4876.96
    ]
   ],
   "news": {
@@ -123188,6 +123188,10 @@
    ],
    [
     1795792603,
+    100
+   ],
+   [
+    1795792757,
     100
    ]
   ],

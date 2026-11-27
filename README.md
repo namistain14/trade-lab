@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 18:16 (İstanbul)
+> Son güncelleme: 27.11.2026 18:19 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 17:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
-27.11 17:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:42 B6  karar turu: Claude «Endeksler NVDA'daki ihracat kontrolü haberiyle son bir saatte sert geri çekildi; seçici olup yalnızca göreli güç gösteren hisselerde pozisyon almak mantıklı.» / GPT «-»
 27.11 17:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:48 N  NEWS (10 new) score -0.20 conf 0.30: Başlıklar karışık ve çelişkili: Fed'in şahin beklentileri ve dolardaki toparlanma ile risk iştahının artması altın için hafif negatif, buna karşılık ETF girişleri ve alım fırsatı haberleri destekleyici. Savaş kaynaklı güvenli liman talebi yeni bir sert tırmanışa işaret etmiyor; bazı başlıklar eski veya fiyatlanmış olduğu için güven düşük.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 18:12 N  NEWS (12 new) score -0.30 conf 0.50: Yeni başlıklar ağırlıkla bir Fed sıkılaştırma riskine ve güçlenen dolara işaret ediyor; altın kazançlarını sınırlıyor ve haftalık yükseliş arayışında. Hindistan ve Çin'deki alım talebi ile ETF girişleri bir miktar destek sağlasa da jeopolitik risk haberleri net bir güvenli liman talebi yaratmıyor, bu yüzden hafif negatif bir görünüm uygun.
 27.11 18:16 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:16 S3  KURUL AAPL: işlem yok, üç üyeden biri cevap vermedi
+27.11 18:19 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 18:19 B6  karar turu: Claude «Endeksler sabahki satıştan toparlanıyor; NVDA'daki ihracat kısıtlaması haberi teknoloji tarafında baskı unsuru olmaya devam ediyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
