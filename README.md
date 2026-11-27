@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 13:30 (İstanbul)
+> Son güncelleme: 27.11.2026 13:33 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 13:20): Claude puan **-0.30**, güven 0.45 — Yeni gelen başlıklar ağırlıklı olarak şahin Fed beklentilerine işaret ediyor: PCE'nin %3,8'e çıkması ve piyasanın Fed faiz artırımlarını fazla fiyatladığına dair yorumlar reel faizleri ve doların gücünü destekleyerek altın için olumsuz. Buna karşılık Rusya'daki patlamalar ve Orta Doğu gerilimi gibi sınırlı jeopolitik risk ile altındaki toparlanma kısmen dengeleyici; sinyaller çelişkili olduğu için güven orta-düşük.
+Son haber analizi (27.11 13:33): Claude puan **-0.10**, güven 0.40 — Savaş kaynaklı güvenli liman talebi ve altının 3.700 doların üzerine çıkması destekleyici olsa da, Fed'in faiz artırımı beklentileri ve yüksek PCE enflasyonu (%3,8) altın için baskı yaratıyor. Yapay zeka korkularının azalması risk iştahını artırarak güvenli liman talebini zayıflatabilir; sinyaller karışık olduğu için hafif negatif, düşük güvenle değerlendiriliyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 11:55 N  NEWS (10 new) score +0.10 conf 0.35: Sinyaller karışık: dolar zayıflaması, jeopolitik gerilim (Rusya-Ukrayna tırmanışı) ve fiyat düşüşünde gelen alım altını destekliyor; ancak Fed faiz artışının büyük ölçüde fiyatlandığı ve Warsh'ın sert faiz artışı riski, altın üzerinde baskı yaratıyor. Haberlerin çoğu eski veya zaten fiyatlanmış olduğu için sinyal zayıf.
-27.11 12:07 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 12:07 N  NEWS (8 new) score +0.15 conf 0.35: Altın, doların zayıflamasıyla ve bir haftalık zirveye yakın işlem görmesiyle hafif yükseliş eğiliminde; Rusya'daki saldırı haberleri de sınırlı bir güvenli liman talebi sağlıyor. Ancak Fed faiz artırımı beklentileri ve sert politika riski altın için sınırlayıcı, ayrıca birçok haber zaten fiyatlanmış olduğu için güven düşük.
 27.11 12:19 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 12:19 N  NEWS (13 new) score +0.05 conf 0.35: Haberler karışık: dolar 22 aylık zirveye yakın ve Fed faiz artırımı beklentisi fiyatlanmış, bu altın için baskılayıcı. Buna karşılık altın kısa vadeli yükselişte (haftalık yüksek), Rusya-Ukrayna gerilimi ve jeopolitik riskler güvenli liman talebini destekliyor. Net etki sınırlı; güven düşük çünkü sinyaller birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 13:08 N  NEWS (17 new) score -0.10 conf 0.35: Başlıklar karışık: güçlü ABD verisi, dolara yakın zirve ve yüksek çekirdek enflasyon (Fed'i sıkı tutma ihtimali) altın için baskı yaratıyor. Buna karşın altın 3.700 doların üzerine çıkıp toparlandı, Orta Doğu savaşı ve Ukrayna haberleri güvenli liman talebini destekliyor. Net etki hafif negatif ve düşük güvenle değerlendirildi.
 27.11 13:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 13:20 N  NEWS (13 new) score -0.30 conf 0.45: Yeni gelen başlıklar ağırlıklı olarak şahin Fed beklentilerine işaret ediyor: PCE'nin %3,8'e çıkması ve piyasanın Fed faiz artırımlarını fazla fiyatladığına dair yorumlar reel faizleri ve doların gücünü destekleyerek altın için olumsuz. Buna karşılık Rusya'daki patlamalar ve Orta Doğu gerilimi gibi sınırlı jeopolitik risk ile altındaki toparlanma kısmen dengeleyici; sinyaller çelişkili olduğu için güven orta-düşük.
+27.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 13:33 N  NEWS (10 new) score -0.10 conf 0.40: Savaş kaynaklı güvenli liman talebi ve altının 3.700 doların üzerine çıkması destekleyici olsa da, Fed'in faiz artırımı beklentileri ve yüksek PCE enflasyonu (%3,8) altın için baskı yaratıyor. Yapay zeka korkularının azalması risk iştahını artırarak güvenli liman talebini zayıflatabilir; sinyaller karışık olduğu için hafif negatif, düşük güvenle değerlendiriliyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

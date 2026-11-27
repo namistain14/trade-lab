@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    5104.97
-   ],
-   [
     1795186288,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795775401,
     5145.97
+   ],
+   [
+    1795775587,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    4868.5
-   ],
-   [
     1795186288,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795775401,
     4868.5
+   ],
+   [
+    1795775587,
+    4868.5
    ]
   ],
   "news": {
-   "score": -0.3,
-   "confidence": 0.45,
-   "reason": "Yeni gelen ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin Fed beklentilerine i\u015faret ediyor: PCE'nin %3,8'e \u00e7\u0131kmas\u0131 ve piyasan\u0131n Fed faiz art\u0131r\u0131mlar\u0131n\u0131 fazla fiyatlad\u0131\u011f\u0131na dair yorumlar reel faizleri ve dolar\u0131n g\u00fcc\u00fcn\u00fc destekleyerek alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k Rusya'daki patlamalar ve Orta Do\u011fu gerilimi gibi s\u0131n\u0131rl\u0131 jeopolitik risk ile alt\u0131ndaki toparlanma k\u0131smen dengeleyici; sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta-d\u00fc\u015f\u00fck.",
+   "score": -0.1,
+   "confidence": 0.4,
+   "reason": "Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve alt\u0131n\u0131n 3.700 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri ve y\u00fcksek PCE enflasyonu (%3,8) alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Yapay zeka korkular\u0131n\u0131n azalmas\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rarak g\u00fcvenli liman talebini zay\u0131flatabilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendiriliyor.",
    "n": 45,
-   "ts": 1795774825034,
-   "new_headlines": 13,
+   "ts": 1795775586152,
+   "new_headlines": 10,
    "key_events": [
     "Alt\u0131n y\u0131ll\u0131k en d\u00fc\u015f\u00fck seviyeden toparland\u0131 (Reuters), fiyat 3.600 dolar\u0131n \u00fczerinde",
     "DXY 103,86'n\u0131n alt\u0131na geriledi; Fed faiz art\u0131r\u0131m\u0131 b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795183737746,
-    "score": -0.5,
-    "confidence": 0.6,
-    "reason": "Alt\u0131n \u00fczerindeki bask\u0131, Fed'in aral\u0131k ay\u0131nda faiz art\u0131r\u0131m\u0131 ihtimallerinin y\u00fckselmesi ve g\u00fc\u00e7lenen dolar\u0131 yans\u0131tan haberlerden kaynaklan\u0131yor; alt\u0131n 14 ayl\u0131k dibe yakla\u015f\u0131yor ve haftal\u0131k bazda son sekiz ay\u0131n en k\u00f6t\u00fc performans\u0131na gidiyor. Polonya'ya Rus f\u00fczesi d\u00fc\u015fmesi gibi jeopolitik geli\u015fmeler g\u00fcvenli liman talebi yaratabilir, ancak piyasa bu sava\u015f haberlerine ra\u011fmen alt\u0131n\u0131 satmaya devam ediyor, bu nedenle etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
-    "new": 11,
-    "gpt_score": 0.15,
-    "gpt_confidence": 0.53
-   },
    {
     "ts": 1795184500205,
     "score": -0.6,
@@ -29884,16 +29875,32 @@
     "new": 13,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795775586152,
+    "score": -0.1,
+    "confidence": 0.4,
+    "reason": "Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve alt\u0131n\u0131n 3.700 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri ve y\u00fcksek PCE enflasyonu (%3,8) alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Yapay zeka korkular\u0131n\u0131n azalmas\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rarak g\u00fcvenli liman talebini zay\u0131flatabilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendiriliyor.",
+    "new": 10,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 66
+   "n": 67
   },
   "news_seen": [
+   "Gold Price Today: XAU/USD Nears $3,700 as AI Fears Ease - Mitrade",
+   "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+   "New God Of War Game Starring Kratos & Atreus Officially Releasing In 2027 - ScreenRant",
+   "Russia-Ukraine war increasingly expanding out to sea - www.thenationalnews.com",
+   "Formula 1 News: F1 arrives in Qatar amid war fears and absences - AutoRacing1.com",
+   "\u2018I cannot go to work\u2019: Iranians contend with pollution as well as US war - Al Jazeera",
    "Dubai\u2019s Benchmark Stock Index Erases Wartime Losses as Banks, Property Shares Rise - WSJ",
    "Convergence Without Synchronization? The Army and the Marine Corps in a Pacific War - Modern War Institute -",
    "My self-care ritual is a meal at a fancy restaurant - on my own",
+   "\u2018Captain Molly\u2019 took her husband\u2019s place at a Revolutionary War cannon - Mezha.net",
    "Even when the Fed gets it right, it gets it wrong | Opinion - Knoxville News Sentinel",
    "Roll Tide or War Eagle: The State Divided by Football (VOTE) - OBA News",
    "First Trust Sees Market Overpricing Fed Hikes Through 2027 as PCE Runs at 3.8% - BigGo Finance",
@@ -29902,45 +29909,36 @@
    "Australia sanctions Iranian agents over attacks on Jewish sites - The Arab Weekly",
    "Swiss Franc: Further gains likely against US Dollar \u2013 UOB - FXStreet",
    "Gold Seeks Support from the Stock Market. Forecast as of 27.11.2026 - LiteFinance",
-   "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - Your Valley",
+   "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - Audacy",
    "Dollar set for flat week as haven bids counter yields - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-   "Gold rate today: Check 24K, 22K, 20K, 18K gold prices in Chennai, Delhi, Mumbai, Hyderabad & other cities - The Economic Times",
    "Two Indian state-run financiers eye debut dollar debt before RBI window shuts, bankers say - Reuters",
    "US Dollar: Strong data support higher pricing \u2013 Nordea - www.tmgm.com",
    "Silver price today: Silver rises, according to FXStreet data - www.tmgm.com",
    "Why is the US Dollar flat if US data keeps showing strong economic growth? - FXStreet",
    "Explosions rock Russian plant producing components for Iskander missile fuel - Ukrinform",
-   "Gold prices rebound after a series of days of decline, Fed suddenly becomes the focus - Laodong.vn",
    "Gold and Silver Price Forecast: Silver Leads Rebound as Ratio Falls - FXEmpire",
-   "Mayfair Gold Corp. (TSXV:MFG) Climbs Higher on Thursday as Fenn-Gib Pre-Feasibility Economics and Macquarie Funding Terms Stay in View - kalkine.ca",
-   "World gold price today, November 27: Unexpected acceleration, overwhelming green color - Laodong.vn",
    "Dawn of War IV army painter demo released - TheSixthAxis",
    "Czech PM Babi\u0161 courts missile defences after secret talks with Israeli intelligence chiefs - EUobserver",
+   "Sharp surge in gold: Global and Egyptian prices rise - Egypt Independent",
    "US Dollar: Strong data support higher pricing \u2013 Nordea - FXStreet",
    "Is the U.S. stock market crash the Federal Reserve\u2019s fault? Former Goldman Sachs strategist urges prompt dovish signals - \u5bcc\u9014\u725b\u725b",
    "Gold drops by 2,000 since January, Robin Brooks notes - Traders Union",
    "Aviation Insurance Explained: Hull, War Risk and the Russia Jets - MiGFlug",
-   "Gold Rate Today in Chennai (27 Nov 2026) - Kotak Neo",
    "Russia intensifies \u2018hybrid war\u2019 but fails to deter Ukraine support, report finds - TVP World",
    "Atlas Impala: South Africa\u2019s MB-326 and Its Border War Record - MiGFlug",
+   "Iron ore price gains on expectations of winter restocking at Chinese mills - Mining.com",
    "Zambia\u2019s Central Bank Holds Key Rate as Inflation Risk Grows - Bloomberg.com",
    "The Fed\u2019s Preferred Inflation Gauge Just Hit a Level Not Seen Since 2023, and It\u2019s Bad News for Wall Street - Yahoo Finance",
    "Australia Sanctions Two Men over Antisemitic Attacks It Says Were Organised on Behalf of the IRGC - IranWire",
    "SpaceX Mexico Sanctions Warning: 456 Launches a Year - shattered.io",
    "Alamos Gold (NYSE:AGI): A Growth-at-a-Reasonable-Price Candidate - ChartMill",
-   "Gold, equity ETFs or debt mutual funds: How should investors balance their portfolios in 2027? Expert shares allocation - Livemint",
    "Russia Needs More Money for Putin\u2019s War\u2014and Citizens\u2019 Retirement Savings Could Be the Next Source - UNITED24 Media",
    "Meituan Posts Earnings Beat as Price War Cools - WSJ",
    "Ukraine reportedly strikes Russian plant linked to missile production - TVP World",
-   "Gold price exceeds $3,700 per troy ounce for first time since November 19 - NEWS.am",
-   "Russia\u2019s FSB expands list of sensitive information to include military and defense industry salaries and data on prisoners recruited for war - Meduza",
-   "Ukraine War, Day 1,737: Zelensky \u2014 Trump Camp Still Restricting Starshield - EA WorldView",
-   "USD/CAD Price Forecast: Retains bullish bias while above 200-EMA support near 1.4180 - www.tmgm.com"
+   "Gold price exceeds $3,700 per troy ounce for first time since November 19 - NEWS.am"
   ]
  },
  "log": [
-  "25.11 15:25 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPeCvKkou4UpnzwwQf5F'}",
-  "25.11 15:28 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPeRzxBKCDQo2vLns9Mt'}",
   "25.11 15:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPefCXJZysXS9GwEvqGk'}",
   "25.11 15:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPehUoQ5jh2mBrEN4mFp'}",
   "25.11 15:31 B  NEWS failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChPehc2jd2cH3RJErHuDu'}",
@@ -30238,7 +30236,9 @@
   "27.11 13:08 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 13:08 N  NEWS (17 new) score -0.10 conf 0.35: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k: g\u00fc\u00e7l\u00fc ABD verisi, dolara yak\u0131n zirve ve y\u00fcksek \u00e7ekirdek enflasyon (Fed'i s\u0131k\u0131 tutma ihtimali) alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Buna kar\u015f\u0131n alt\u0131n 3.700 dolar\u0131n \u00fczerine \u00e7\u0131k\u0131p toparland\u0131, Orta Do\u011fu sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekliyor. Net etki hafif negatif ve d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendirildi.",
   "27.11 13:20 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 13:20 N  NEWS (13 new) score -0.30 conf 0.45: Yeni gelen ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin Fed beklentilerine i\u015faret ediyor: PCE'nin %3,8'e \u00e7\u0131kmas\u0131 ve piyasan\u0131n Fed faiz art\u0131r\u0131mlar\u0131n\u0131 fazla fiyatlad\u0131\u011f\u0131na dair yorumlar reel faizleri ve dolar\u0131n g\u00fcc\u00fcn\u00fc destekleyerek alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k Rusya'daki patlamalar ve Orta Do\u011fu gerilimi gibi s\u0131n\u0131rl\u0131 jeopolitik risk ile alt\u0131ndaki toparlanma k\u0131smen dengeleyici; sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta-d\u00fc\u015f\u00fck."
+  "27.11 13:20 N  NEWS (13 new) score -0.30 conf 0.45: Yeni gelen ba\u015fl\u0131klar a\u011f\u0131rl\u0131kl\u0131 olarak \u015fahin Fed beklentilerine i\u015faret ediyor: PCE'nin %3,8'e \u00e7\u0131kmas\u0131 ve piyasan\u0131n Fed faiz art\u0131r\u0131mlar\u0131n\u0131 fazla fiyatlad\u0131\u011f\u0131na dair yorumlar reel faizleri ve dolar\u0131n g\u00fcc\u00fcn\u00fc destekleyerek alt\u0131n i\u00e7in olumsuz. Buna kar\u015f\u0131l\u0131k Rusya'daki patlamalar ve Orta Do\u011fu gerilimi gibi s\u0131n\u0131rl\u0131 jeopolitik risk ile alt\u0131ndaki toparlanma k\u0131smen dengeleyici; sinyaller \u00e7eli\u015fkili oldu\u011fu i\u00e7in g\u00fcven orta-d\u00fc\u015f\u00fck.",
+  "27.11 13:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 13:33 N  NEWS (10 new) score -0.10 conf 0.40: Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi ve alt\u0131n\u0131n 3.700 dolar\u0131n \u00fczerine \u00e7\u0131kmas\u0131 destekleyici olsa da, Fed'in faiz art\u0131r\u0131m\u0131 beklentileri ve y\u00fcksek PCE enflasyonu (%3,8) alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Yapay zeka korkular\u0131n\u0131n azalmas\u0131 risk i\u015ftah\u0131n\u0131 art\u0131rarak g\u00fcvenli liman talebini zay\u0131flatabilir; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in hafif negatif, d\u00fc\u015f\u00fck g\u00fcvenle de\u011ferlendiriliyor."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    4963.78
-   ],
-   [
     1795186288,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795775401,
+    4963.78
+   ],
+   [
+    1795775587,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    4975.18
-   ],
-   [
     1795186288,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795775401,
+    4975.18
+   ],
+   [
+    1795775587,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    4993.28
-   ],
-   [
     1795186288,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795775401,
+    4993.28
+   ],
+   [
+    1795775587,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795186109,
-    4969.22
-   ],
-   [
     1795186288,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795775401,
+    4969.22
+   ],
+   [
+    1795775587,
     4969.22
    ]
   ],
@@ -82900,10 +82900,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795186109,
-    5196.55
-   ],
    [
     1795186288,
     5242.37
@@ -94899,6 +94895,10 @@
    [
     1795775401,
     5297.35
+   ],
+   [
+    1795775587,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795186109,
-    120766.14
-   ],
    [
     1795186288,
     120104.66
@@ -108542,6 +108538,10 @@
    [
     1795775401,
     128183.18
+   ],
+   [
+    1795775587,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795186109,
-    4876.96
-   ],
    [
     1795186288,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795775401,
     4876.96
+   ],
+   [
+    1795775587,
+    4876.96
    ]
   ],
   "news": {
@@ -122788,6 +122788,10 @@
    ],
    [
     1795775401,
+    100
+   ],
+   [
+    1795775587,
     100
    ]
   ],
