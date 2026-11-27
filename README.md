@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 13:54 (İstanbul)
+> Son güncelleme: 27.11.2026 13:57 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 13:45): Claude puan **-0.20**, güven 0.40 — PCE enflasyonunun %3,8'e çıkması ve Fed faiz artırımı beklentileri altın için baskılayıcı; güçlü ABD verileri doları destekliyor ve AI kaygılarının azalması risk iştahını artırarak güvenli liman talebini zayıflatıyor. Savaş haberleri (Ukrayna, Orta Doğu) ise uzun süredir fiyatlanmış olduğundan yukarı yönlü etkisi sınırlı; sinyaller karışık olduğu için güven düşük.
+Son haber analizi (27.11 13:57): Claude puan **-0.25**, güven 0.40 — Başlıkların çoğu faiz artışı beklentilerini ve güçlü ABD verilerini öne çıkarıyor; PCE'nin %3,8 olması ve Fed'in yıl sonuna kadar artırım beklentisi altın için baskılayıcı. Petrol fiyatlarındaki yükseliş ve dolar/rupi hareketleri de sınırlı bir negatif etki yaratıyor. Buna karşılık Ukrayna-Rusya ve İran savaşına ilişkin jeopolitik gerilim ile merkez bankalarının altın alımları destekleyici, bu nedenle etki hafif negatif kalıyor ve güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 12:19 N  NEWS (13 new) score +0.05 conf 0.35: Haberler karışık: dolar 22 aylık zirveye yakın ve Fed faiz artırımı beklentisi fiyatlanmış, bu altın için baskılayıcı. Buna karşılık altın kısa vadeli yükselişte (haftalık yüksek), Rusya-Ukrayna gerilimi ve jeopolitik riskler güvenli liman talebini destekliyor. Net etki sınırlı; güven düşük çünkü sinyaller birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış.
-27.11 12:31 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 12:31 N  NEWS (8 new) score +0.20 conf 0.40: En yeni haber, dolar yükselişinin durması ve altının yaklaşık %3 yükselmesi nedeniyle kısa vadede altın için olumlu bir momentum sinyali veriyor. Ancak PCE enflasyonunun 2023'ten beri görülmeyen seviyeye çıkması, Fed'in Aralık'ta faiz artırabileceği beklentileri ve Warsh'a ilişkin sıkılaşma yorumları altın için baskılayıcı; ayrıca yükselişin bir kısmı zaten fiyatlanmış olabilir.
 27.11 12:44 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 12:44 N  NEWS (13 new) score -0.25 conf 0.40: 
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 13:33 N  NEWS (10 new) score -0.10 conf 0.40: Savaş kaynaklı güvenli liman talebi ve altının 3.700 doların üzerine çıkması destekleyici olsa da, Fed'in faiz artırımı beklentileri ve yüksek PCE enflasyonu (%3,8) altın için baskı yaratıyor. Yapay zeka korkularının azalması risk iştahını artırarak güvenli liman talebini zayıflatabilir; sinyaller karışık olduğu için hafif negatif, düşük güvenle değerlendiriliyor.
 27.11 13:45 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 13:45 N  NEWS (14 new) score -0.20 conf 0.40: PCE enflasyonunun %3,8'e çıkması ve Fed faiz artırımı beklentileri altın için baskılayıcı; güçlü ABD verileri doları destekliyor ve AI kaygılarının azalması risk iştahını artırarak güvenli liman talebini zayıflatıyor. Savaş haberleri (Ukrayna, Orta Doğu) ise uzun süredir fiyatlanmış olduğundan yukarı yönlü etkisi sınırlı; sinyaller karışık olduğu için güven düşük.
+27.11 13:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 13:57 N  NEWS (8 new) score -0.25 conf 0.40: Başlıkların çoğu faiz artışı beklentilerini ve güçlü ABD verilerini öne çıkarıyor; PCE'nin %3,8 olması ve Fed'in yıl sonuna kadar artırım beklentisi altın için baskılayıcı. Petrol fiyatlarındaki yükseliş ve dolar/rupi hareketleri de sınırlı bir negatif etki yaratıyor. Buna karşılık Ukrayna-Rusya ve İran savaşına ilişkin jeopolitik gerilim ile merkez bankalarının altın alımları destekleyici, bu nedenle etki hafif negatif kalıyor ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
