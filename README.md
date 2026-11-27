@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 20:11 (İstanbul)
+> Son güncelleme: 27.11.2026 20:14 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 20:02): Claude puan **-0.10**, güven 0.30 — Başlıkların çoğu gürültü niteliğinde. İran savaşının sürmesi ve Rusya-Ukrayna gerilimi güvenli liman talebini destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış durumda. Piyasadaki Fed faiz artırımı beklentileri ve güçlü dolar ihtimali altın için hafif baskı oluşturuyor. Ayrıca 15:33'teki %3,4'lük sıçrama ve Çin borsasını destekleme haberi eski kaldığı için güven düşük.
+Son haber analizi (27.11 20:14): Claude puan **-0.45**, güven 0.50 — Yeni başlıkların çoğu altın için baskılayıcı: ABD doları ve Treasury getirileri yükseliyor, Fed faiz artırımı beklentileri güçleniyor, çekirdek enflasyon sıcak kalıyor ve altın yakın dönemde sert kayıp yaşadı. Bunlara karşın jeopolitik risk (İran savaşı) ve Pekin'in destek vaadi gibi destekleyici unsurlar eski ve kısmen fiyatlanmış olduğu için etkisi sınırlı; bu nedenle güven orta düzeyde.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 19:32 B6  karar turu: Claude «Piyasa gün içinde güçlü yükseldi ve öğle saatlerinde yatay konsolidasyona geçti; seçici alım fırsatları geride kalan isimlerde aranmalı.» / GPT «-»
-27.11 19:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:37 N  NEWS (7 new) score +0.15 conf 0.40: Altın için karışık ama hafif pozitif bir tablo var: Çin'in borsayı destekleme vaadi, kısa pozisyonların kapanması ve Hindistan/Çin'de alım talebinin canlanması fiyatı destekliyor. Buna karşılık dolar haftalık kazanç yolunda ve ABD tahvil getirileri yükseliyor, Fed baskısı ile İran savaşının güvenli liman etkisi ise net bir yön vermiyor; ayrıca 3,4'lük sıçrama büyük ölçüde zaten fiyatlanmış durumda.
 27.11 19:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:44 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü pozitif seyrediyor ve öğle saatlerinde zirveye yakın konsolide oluyor.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 20:02 N  NEWS (6 new) score -0.10 conf 0.30: Başlıkların çoğu gürültü niteliğinde. İran savaşının sürmesi ve Rusya-Ukrayna gerilimi güvenli liman talebini destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış durumda. Piyasadaki Fed faiz artırımı beklentileri ve güçlü dolar ihtimali altın için hafif baskı oluşturuyor. Ayrıca 15:33'teki %3,4'lük sıçrama ve Çin borsasını destekleme haberi eski kaldığı için güven düşük.
 27.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 20:08 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü bir yükseliş gününde; geri çekilmeler alım fırsatı olarak görülüyor.» / GPT «-»
+27.11 20:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 20:14 N  NEWS (16 new) score -0.45 conf 0.50: Yeni başlıkların çoğu altın için baskılayıcı: ABD doları ve Treasury getirileri yükseliyor, Fed faiz artırımı beklentileri güçleniyor, çekirdek enflasyon sıcak kalıyor ve altın yakın dönemde sert kayıp yaşadı. Bunlara karşın jeopolitik risk (İran savaşı) ve Pekin'in destek vaadi gibi destekleyici unsurlar eski ve kısmen fiyatlanmış olduğu için etkisi sınırlı; bu nedenle güven orta düzeyde.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
