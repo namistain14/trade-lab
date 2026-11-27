@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    5104.97
-   ],
-   [
     1795209299,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795798410,
     5145.97
+   ],
+   [
+    1795798601,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4868.5
-   ],
-   [
     1795209299,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795798410,
+    4868.5
+   ],
+   [
+    1795798601,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "26.11 17:03 N  NEWS (11 new) score -0.50 conf 0.60: Enflasyon verileri (Core PCE %3.3, Ekim CPI y\u00fckseli\u015fi) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri (oran art\u0131rma olas\u0131l\u0131\u011f\u0131 ~%99.8) alt\u0131n\u0131 bask\u0131l\u0131yor; gold ~3.425-3.500 dolar civar\u0131nda sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda. Jeopolitik riskler (Ukrayna, \u0130ran sava\u015f\u0131, Karadeniz) g\u00fcvenli liman talebi yaratabilir, ancak bu haberlerin \u00e7o\u011fu eski ve fiyatlanm\u0131\u015f; merkez bankas\u0131 al\u0131mlar\u0131 destek sa\u011fl\u0131yor ama k\u0131sa vadede etkisi s\u0131n\u0131rl\u0131.",
-  "26.11 17:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:16 N  NEWS (10 new) score -0.50 conf 0.60: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 Fed faiz art\u0131r\u0131m\u0131 beklentilerine ve enflasyon s\u00fcrprizine dayan\u0131yor: ABD Ekim enflasyonu y\u00fckseldi, faiz art\u0131r\u0131m olas\u0131l\u0131\u011f\u0131 \u00e7ok y\u00fcksek ve alt\u0131n bu nedenle bask\u0131 alt\u0131nda. Jeopolitik haberler (Ukrayna, Akdeniz gerginli\u011fi) g\u00fcvenli liman talebini destekliyor olsa da bu etkisi Fed kaynakl\u0131 bask\u0131y\u0131 dengelemeye yetmiyor; ayr\u0131ca baz\u0131 haberler eski veya fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde.",
   "26.11 17:28 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:28 N  NEWS (7 new) score -0.50 conf 0.60: Fed faiz art\u0131r\u0131m\u0131 beklentileri yakla\u015f\u0131k %99.8 olas\u0131l\u0131kla fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve DXY 2026 zirvesine ula\u015ft\u0131; bu iki unsur alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Iran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 kal\u0131yor ve g\u00fc\u00e7 dengesi dolar/faiz taraf\u0131nda.",
@@ -30238,7 +30236,9 @@
   "27.11 19:47 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 19:47 S3  KURUL WTI: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi",
   "27.11 19:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 19:49 N  NEWS (7 new) score +0.10 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Pekin'in borsay\u0131 desteklemesi g\u00fcvenli liman talebini destekliyor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve AUD'deki bask\u0131 dolar taraf\u0131nda yukar\u0131 y\u00f6nl\u00fc risk yarat\u0131yor. Ayr\u0131ca ABD istihdam verisi yakla\u015f\u0131rken 3.500 dolar deste\u011fi test edilebilir; k\u0131sa vadeli y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcven ve hafif pozitif skor veriyorum."
+  "27.11 19:49 N  NEWS (7 new) score +0.10 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k tablo var: \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Pekin'in borsay\u0131 desteklemesi g\u00fcvenli liman talebini destekliyor, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve AUD'deki bask\u0131 dolar taraf\u0131nda yukar\u0131 y\u00f6nl\u00fc risk yarat\u0131yor. Ayr\u0131ca ABD istihdam verisi yakla\u015f\u0131rken 3.500 dolar deste\u011fi test edilebilir; k\u0131sa vadeli y\u00f6n\u00fc belirsiz oldu\u011fu i\u00e7in d\u00fc\u015f\u00fck g\u00fcven ve hafif pozitif skor veriyorum.",
+  "27.11 19:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 19:56 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve \u00f6\u011fleden sonra trendin s\u00fcrmesi olas\u0131 g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4963.78
-   ],
-   [
     1795209299,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795798410,
+    4963.78
+   ],
+   [
+    1795798601,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4975.18
-   ],
-   [
     1795209299,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795798410,
+    4975.18
+   ],
+   [
+    1795798601,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4993.28
-   ],
-   [
     1795209299,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795798410,
+    4993.28
+   ],
+   [
+    1795798601,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4969.22
-   ],
-   [
     1795209299,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795798410,
+    4969.22
+   ],
+   [
+    1795798601,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    5297.35
-   ],
-   [
     1795209299,
     5297.35
    ],
@@ -94898,6 +94894,10 @@
    ],
    [
     1795798410,
+    5297.35
+   ],
+   [
+    1795798601,
     5297.35
    ]
   ],
@@ -96544,10 +96544,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    128205.61
-   ],
-   [
     1795209299,
     128205.61
    ],
@@ -108542,15 +108538,19 @@
    [
     1795798410,
     128183.18
+   ],
+   [
+    1795798601,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795797831051,
+  "last_decision_ms": 1795798589409,
   "view": {
-   "ts": 1795797831051,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc pozitif seyrediyor ve \u00f6\u011fle saatlerinde zirveye yak\u0131n konsolide oluyor.",
+   "ts": 1795798589409,
+   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve \u00f6\u011fleden sonra trendin s\u00fcrmesi olas\u0131 g\u00f6r\u00fcn\u00fcyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108558,7 +108558,7 @@
     "SPY": {
      "claude": [
       "none",
-      0.3
+      0.4
      ],
      "gpt": [
       null,
@@ -108568,7 +108568,7 @@
     "QQQ": {
      "claude": [
       "long",
-      0.45
+      0.55
      ],
      "gpt": [
       null,
@@ -108576,6 +108576,16 @@
      ]
     },
     "NVDA": {
+     "claude": [
+      "long",
+      0.5
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "AAPL": {
      "claude": [
       "none",
       0.35
@@ -108585,20 +108595,10 @@
       null
      ]
     },
-    "AAPL": {
-     "claude": [
-      "short",
-      0.4
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
     "TSLA": {
      "claude": [
       "none",
-      0.3
+      0.4
      ],
      "gpt": [
       null,
@@ -108725,10 +108725,6 @@
   },
   "equity_curve": [
    [
-    1795209120,
-    4876.96
-   ],
-   [
     1795209299,
     4876.96
    ],
@@ -120722,6 +120718,10 @@
    ],
    [
     1795798410,
+    4876.96
+   ],
+   [
+    1795798601,
     4876.96
    ]
   ],
@@ -123324,6 +123324,10 @@
    ],
    [
     1795798410,
+    100
+   ],
+   [
+    1795798601,
     100
    ]
   ],
