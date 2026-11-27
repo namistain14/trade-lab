@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    5104.97
-   ],
-   [
     1795204771,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795794007,
     5145.97
+   ],
+   [
+    1795794194,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    4868.5
-   ],
-   [
     1795204771,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795794007,
+    4868.5
+   ],
+   [
+    1795794194,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 19:59 N  NEWS (11 new) score -0.50 conf 0.60: S\u0131cak enflasyon verileri (PCE %3,8, \u00e7ekirdek PCE %3,3), Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7lenen dolar alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. \u0130ran sava\u015f\u0131 ve borsa \u00e7\u00f6k\u00fc\u015f\u00fc gibi g\u00fcvenli liman talebi destekleyici olsa da bu etkiyi dengeleyemiyor; alt\u0131n son zamanlarda zaten %3,3 geri \u00e7ekildi.",
-  "25.11 19:59 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 19:59 B6  karar turu: Claude \u00abPiyasa g\u00fcn i\u00e7inde sert sat\u0131\u015f yedi ancak son saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde tepki y\u00fckseli\u015fi ba\u015fl\u0131yor.\u00bb / GPT \u00ab-\u00bb",
   "25.11 20:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:11 N  NEWS (11 new) score -0.50 conf 0.60: PCE enflasyonunun 3,8%'e y\u00fckselmesi ve Fed faiz art\u0131r\u0131m\u0131 beklentisi, reel faizleri ve dolar\u0131 destekleyerek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Dolar g\u00fc\u00e7lenmesi ve Warsh Fed'inin s\u0131k\u0131 duru\u015fu da negatif; \u0130ran sava\u015f\u0131 ve Nasdaq'taki sert d\u00fc\u015f\u00fc\u015f k\u0131smen g\u00fcvenli liman talebi yaratabilir ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131r.",
@@ -30238,7 +30236,9 @@
   "27.11 18:31 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:31 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif seyrediyor, ancak NVDA ihracat k\u0131s\u0131tlamas\u0131 haberiyle ayr\u0131\u015f\u0131yor.\u00bb / GPT \u00ab-\u00bb",
   "27.11 18:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 18:37 N  NEWS (13 new) score -0.40 conf 0.60: "
+  "27.11 18:37 N  NEWS (13 new) score -0.40 conf 0.60: ",
+  "27.11 18:43 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 18:43 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde, geri \u00e7ekilmeler s\u0131\u011f kal\u0131yor ve al\u0131\u015f y\u00f6nl\u00fc i\u015flemler avantajl\u0131 g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    4963.78
-   ],
-   [
     1795204771,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795794007,
+    4963.78
+   ],
+   [
+    1795794194,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    4975.18
-   ],
-   [
     1795204771,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795794007,
+    4975.18
+   ],
+   [
+    1795794194,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    4993.28
-   ],
-   [
     1795204771,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795794007,
+    4993.28
+   ],
+   [
+    1795794194,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    4969.22
-   ],
-   [
     1795204771,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795794007,
+    4969.22
+   ],
+   [
+    1795794194,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795204599,
-    5297.35
-   ],
-   [
     1795204771,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795794007,
     5297.35
+   ],
+   [
+    1795794194,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795204599,
-    125551.07
-   ],
    [
     1795204771,
     126191.25
@@ -108542,30 +108538,24 @@
    [
     1795794007,
     128183.18
+   ],
+   [
+    1795794194,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795793465511,
+  "last_decision_ms": 1795794184896,
   "view": {
-   "ts": 1795793465511,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde pozitif seyrediyor, ancak NVDA ihracat k\u0131s\u0131tlamas\u0131 haberiyle ayr\u0131\u015f\u0131yor.",
+   "ts": 1795794184896,
+   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde, geri \u00e7ekilmeler s\u0131\u011f kal\u0131yor ve al\u0131\u015f y\u00f6nl\u00fc i\u015flemler avantajl\u0131 g\u00f6r\u00fcn\u00fcyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
-     "claude": [
-      "none",
-      0.4
-     ],
-     "gpt": [
-      null,
-      null
-     ]
-    },
-    "QQQ": {
      "claude": [
       "long",
       0.55
@@ -108575,10 +108565,20 @@
       null
      ]
     },
+    "QQQ": {
+     "claude": [
+      "long",
+      0.58
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
     "NVDA": {
      "claude": [
-      "short",
-      0.5
+      "none",
+      0.4
      ],
      "gpt": [
       null,
@@ -108598,7 +108598,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.4
+      0.45
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795204599,
-    4876.96
-   ],
    [
     1795204771,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795794007,
     4876.96
+   ],
+   [
+    1795794194,
+    4876.96
    ]
   ],
   "news": {
@@ -123220,6 +123220,10 @@
    ],
    [
     1795794007,
+    100
+   ],
+   [
+    1795794194,
     100
    ]
   ],
