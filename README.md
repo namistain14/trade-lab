@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 20:05 (İstanbul)
+> Son güncelleme: 27.11.2026 20:08 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 19:25 N  NEWS (3 new) score +0.10 conf 0.35: 
-27.11 19:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:32 B6  karar turu: Claude «Piyasa gün içinde güçlü yükseldi ve öğle saatlerinde yatay konsolidasyona geçti; seçici alım fırsatları geride kalan isimlerde aranmalı.» / GPT «-»
 27.11 19:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:37 N  NEWS (7 new) score +0.15 conf 0.40: Altın için karışık ama hafif pozitif bir tablo var: Çin'in borsayı destekleme vaadi, kısa pozisyonların kapanması ve Hindistan/Çin'de alım talebinin canlanması fiyatı destekliyor. Buna karşılık dolar haftalık kazanç yolunda ve ABD tahvil getirileri yükseliyor, Fed baskısı ile İran savaşının güvenli liman etkisi ise net bir yön vermiyor; ayrıca 3,4'lük sıçrama büyük ölçüde zaten fiyatlanmış durumda.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 19:56 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü bir yükseliş gününde ve öğleden sonra trendin sürmesi olası görünüyor.» / GPT «-»
 27.11 20:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 20:02 N  NEWS (6 new) score -0.10 conf 0.30: Başlıkların çoğu gürültü niteliğinde. İran savaşının sürmesi ve Rusya-Ukrayna gerilimi güvenli liman talebini destekliyor, ancak bu haberler büyük ölçüde fiyatlanmış durumda. Piyasadaki Fed faiz artırımı beklentileri ve güçlü dolar ihtimali altın için hafif baskı oluşturuyor. Ayrıca 15:33'teki %3,4'lük sıçrama ve Çin borsasını destekleme haberi eski kaldığı için güven düşük.
+27.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 20:08 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü bir yükseliş gününde; geri çekilmeler alım fırsatı olarak görülüyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

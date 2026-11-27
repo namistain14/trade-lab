@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    5104.97
-   ],
-   [
     1795210020,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795799131,
     5145.97
+   ],
+   [
+    1795799321,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4868.5
-   ],
-   [
     1795210020,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795799131,
+    4868.5
+   ],
+   [
+    1795799321,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "26.11 17:28 N  NEWS (7 new) score -0.50 conf 0.60: Fed faiz art\u0131r\u0131m\u0131 beklentileri yakla\u015f\u0131k %99.8 olas\u0131l\u0131kla fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor ve DXY 2026 zirvesine ula\u015ft\u0131; bu iki unsur alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 yarat\u0131yor. Iran sava\u015f\u0131 ve Ukrayna haberleri g\u00fcvenli liman talebini destekleyebilir, ancak bu haberlerin etkisi s\u0131n\u0131rl\u0131 kal\u0131yor ve g\u00fc\u00e7 dengesi dolar/faiz taraf\u0131nda.",
-  "26.11 17:40 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:40 N  NEWS (11 new) score -0.30 conf 0.40: Sava\u015f haberlerinin \u00e7o\u011fu zaten fiyatlanm\u0131\u015f ve alt\u0131 do\u011frudan etkilemiyor. As\u0131l etki, Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ile DXY'deki g\u00fc\u00e7lenen momentumdan geliyor; bu da alt\u0131 k\u0131sa vadede bask\u0131l\u0131yor. Yerel para birimi kaynakl\u0131 Hindistan ve Pakistan alt\u0131n fiyat haberleri ise k\u00fcresel y\u00f6n\u00fc belirlemiyor.",
   "26.11 17:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:52 N  NEWS (3 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve DXY'nin 2026 zirvesine y\u00fckselmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (Ukrayna, \u0130ran) g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destek sa\u011flasa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
@@ -30238,7 +30236,9 @@
   "27.11 19:56 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 19:56 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve \u00f6\u011fleden sonra trendin s\u00fcrmesi olas\u0131 g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab-\u00bb",
   "27.11 20:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 20:02 N  NEWS (6 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Rusya-Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Piyasadaki Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar ihtimali alt\u0131n i\u00e7in hafif bask\u0131 olu\u015fturuyor. Ayr\u0131ca 15:33'teki %3,4'l\u00fck s\u0131\u00e7rama ve \u00c7in borsas\u0131n\u0131 destekleme haberi eski kald\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
+  "27.11 20:02 N  NEWS (6 new) score -0.10 conf 0.30: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu g\u00fcr\u00fclt\u00fc niteli\u011finde. \u0130ran sava\u015f\u0131n\u0131n s\u00fcrmesi ve Rusya-Ukrayna gerilimi g\u00fcvenli liman talebini destekliyor, ancak bu haberler b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda. Piyasadaki Fed faiz art\u0131r\u0131m\u0131 beklentileri ve g\u00fc\u00e7l\u00fc dolar ihtimali alt\u0131n i\u00e7in hafif bask\u0131 olu\u015fturuyor. Ayr\u0131ca 15:33'teki %3,4'l\u00fck s\u0131\u00e7rama ve \u00c7in borsas\u0131n\u0131 destekleme haberi eski kald\u0131\u011f\u0131 i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "27.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 20:08 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde; geri \u00e7ekilmeler al\u0131m f\u0131rsat\u0131 olarak g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4963.78
-   ],
-   [
     1795210020,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795799131,
+    4963.78
+   ],
+   [
+    1795799321,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4975.18
-   ],
-   [
     1795210020,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795799131,
+    4975.18
+   ],
+   [
+    1795799321,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4993.28
-   ],
-   [
     1795210020,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795799131,
+    4993.28
+   ],
+   [
+    1795799321,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4969.22
-   ],
-   [
     1795210020,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795799131,
+    4969.22
+   ],
+   [
+    1795799321,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    5297.35
-   ],
-   [
     1795210020,
     5297.35
    ],
@@ -94898,6 +94894,10 @@
    ],
    [
     1795799131,
+    5297.35
+   ],
+   [
+    1795799321,
     5297.35
    ]
   ],
@@ -96544,10 +96544,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    128205.61
-   ],
-   [
     1795210020,
     128205.61
    ],
@@ -108542,15 +108538,19 @@
    [
     1795799131,
     128183.18
+   ],
+   [
+    1795799321,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795798589409,
+  "last_decision_ms": 1795799309089,
   "view": {
-   "ts": 1795798589409,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde ve \u00f6\u011fleden sonra trendin s\u00fcrmesi olas\u0131 g\u00f6r\u00fcn\u00fcyor.",
+   "ts": 1795799309089,
+   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde; geri \u00e7ekilmeler al\u0131m f\u0131rsat\u0131 olarak g\u00f6r\u00fcl\u00fcyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108577,8 +108577,8 @@
     },
     "NVDA": {
      "claude": [
-      "long",
-      0.5
+      "none",
+      0.4
      ],
      "gpt": [
       null,
@@ -108588,7 +108588,7 @@
     "AAPL": {
      "claude": [
       "none",
-      0.35
+      0.3
      ],
      "gpt": [
       null,
@@ -108725,10 +108725,6 @@
   },
   "equity_curve": [
    [
-    1795209839,
-    4876.96
-   ],
-   [
     1795210020,
     4876.96
    ],
@@ -120722,6 +120718,10 @@
    ],
    [
     1795799131,
+    4876.96
+   ],
+   [
+    1795799321,
     4876.96
    ]
   ],
@@ -123340,6 +123340,10 @@
    ],
    [
     1795799131,
+    100
+   ],
+   [
+    1795799321,
     100
    ]
   ],
