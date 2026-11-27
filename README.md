@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 19:28 (İstanbul)
+> Son güncelleme: 27.11.2026 19:32 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 18:46 S3  KURUL TSLA: işlem yok, üç üyeden biri cevap vermedi
-27.11 18:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:49 N  NEWS (9 new) score +0.20 conf 0.40: 
 27.11 18:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:55 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde risk iştahıyla yükseliyor, son mumlarda hafif bir soluklanma görülüyor.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 19:20 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü pozitif seyrediyor; öğle saatlerinde hafif konsolidasyon var.» / GPT «-»
 27.11 19:25 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:25 N  NEWS (3 new) score +0.10 conf 0.35: 
+27.11 19:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 19:32 B6  karar turu: Claude «Piyasa gün içinde güçlü yükseldi ve öğle saatlerinde yatay konsolidasyona geçti; seçici alım fırsatları geride kalan isimlerde aranmalı.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
