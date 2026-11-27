@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    5104.97
-   ],
-   [
     1795201106,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795790190,
     5145.97
+   ],
+   [
+    1795790365,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    4868.5
-   ],
-   [
     1795201106,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795790190,
+    4868.5
+   ],
+   [
+    1795790365,
     4868.5
    ]
   ],
@@ -29939,7 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 18:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 18:09 N  NEWS (34 new) score -0.75 conf 0.70: Haberlerin b\u00fcy\u00fck \u00e7o\u011funlu\u011fu s\u0131cak PCE enflasyonu, g\u00fc\u00e7l\u00fc GDP ve Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentisini vurguluyor; bu hem reel faizleri hem dolar\u0131 yukar\u0131 iterek alt\u0131n i\u00e7in g\u00fc\u00e7l\u00fc bir bask\u0131 olu\u015fturuyor. \u0130ran sava\u015f\u0131yla ilgili jeopolitik ba\u015fl\u0131klar var ancak alt\u0131n bunlara ra\u011fmen d\u00fc\u015f\u00fcyor, yani g\u00fcvenli liman talebi \u015fu an bask\u0131n de\u011fil; baz\u0131 ba\u015fl\u0131klar tekrar ve eski haber niteli\u011finde oldu\u011fu i\u00e7in g\u00fcveni biraz s\u0131n\u0131rlad\u0131m.",
   "25.11 18:18 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 18:18 B6  karar turu: Claude \u00abPiyasa teknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f bask\u0131s\u0131nda; \u00f6\u011fle saatlerindeki tepki y\u00fckseli\u015fi zay\u0131f kald\u0131 ve a\u015fa\u011f\u0131 y\u00f6nl\u00fc devam olas\u0131l\u0131\u011f\u0131 biraz daha y\u00fcksek.\u00bb / GPT \u00ab-\u00bb",
@@ -30238,7 +30237,8 @@
   "27.11 17:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
   "27.11 17:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 17:36 N  NEWS (11 new) score -0.05 conf 0.30: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu jeopolitik arka plan haberi olup alt\u0131n fiyat\u0131n\u0131 do\u011frudan etkileyecek nitelikte de\u011fil; \u0130ran sava\u015f\u0131yla ilgili yeni haberler ise belirsiz ve fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor. Fed s\u0131k\u0131la\u015ft\u0131rma beklentileri ve dolardaki toparlanma alt\u0131n i\u00e7in hafif bask\u0131lay\u0131c\u0131, buna kar\u015f\u0131l\u0131k \u00f6nceki dolar zay\u0131fl\u0131\u011f\u0131 kaynakl\u0131 y\u00fckseli\u015f ve g\u00fcvenli liman talebi ise destekleyici; sinyaller \u00e7eli\u015fkili oldu\u011fundan skor s\u0131f\u0131ra yak\u0131n ve g\u00fcven d\u00fc\u015f\u00fck.",
-  "27.11 17:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
+  "27.11 17:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i",
+  "27.11 17:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    4963.78
-   ],
-   [
     1795201106,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795790190,
+    4963.78
+   ],
+   [
+    1795790365,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    4975.18
-   ],
-   [
     1795201106,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795790190,
+    4975.18
+   ],
+   [
+    1795790365,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    4993.28
-   ],
-   [
     1795201106,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795790190,
+    4993.28
+   ],
+   [
+    1795790365,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    4969.22
-   ],
-   [
     1795201106,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795790190,
+    4969.22
+   ],
+   [
+    1795790365,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795200937,
-    5297.35
-   ],
-   [
     1795201106,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795790190,
     5297.35
+   ],
+   [
+    1795790365,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795200937,
-    122910.81
-   ],
    [
     1795201106,
     122851.62
@@ -108542,6 +108538,10 @@
    [
     1795790190,
     128183.18
+   ],
+   [
+    1795790365,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795200937,
-    4876.96
-   ],
    [
     1795201106,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795790190,
     4876.96
+   ],
+   [
+    1795790365,
+    4876.96
    ]
   ],
   "news": {
@@ -123132,6 +123132,10 @@
    ],
    [
     1795790190,
+    100
+   ],
+   [
+    1795790365,
     100
    ]
   ],

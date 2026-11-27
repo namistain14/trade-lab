@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 17:36 (İstanbul)
+> Son güncelleme: 27.11.2026 17:39 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,7 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 16:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 16:47 N  NEWS (10 new) score -0.15 conf 0.40: Fed sıkılaştırma beklentileri ve dolar endeksinin 22 ayın zirvesine yakın seyretmesi altın için baskı oluşturuyor; buna karşın İran savaşı, Kuveyt'teki İtalyan ölümleri ve Ukrayna'daki tırmanış jeopolitik talebi destekliyor. Altın 15 aylık dip sonrası toparlanıyor ancak toparlanma hisse senedi iyileşmesine bağlı olduğu için güvenli liman etkisi zayıf; sinyaller karışık olduğundan görece hafif negatif bir görünüm.
 27.11 16:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 16:59 N  NEWS (11 new) score -0.05 conf 0.35: 
@@ -118,6 +117,7 @@ Son işlemler:
 27.11 17:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:36 N  NEWS (11 new) score -0.05 conf 0.30: Yeni başlıkların çoğu jeopolitik arka plan haberi olup altın fiyatını doğrudan etkileyecek nitelikte değil; İran savaşıyla ilgili yeni haberler ise belirsiz ve fiyatlanmış görünüyor. Fed sıkılaştırma beklentileri ve dolardaki toparlanma altın için hafif baskılayıcı, buna karşılık önceki dolar zayıflığı kaynaklı yükseliş ve güvenli liman talebi ise destekleyici; sinyaller çelişkili olduğundan skor sıfıra yakın ve güven düşük.
 27.11 17:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+27.11 17:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
