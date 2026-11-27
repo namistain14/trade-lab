@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 11:39 (İstanbul)
+> Son güncelleme: 27.11.2026 11:43 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 11:31): Claude puan **+0.05**, güven 0.35 — Haberler karışık: Fed faiz artışının büyük ölçüde fiyatlanmış olması ve gösterge tahvil/dolar tarafındaki hafif zayıflama altına hafif destek verirken, jeopolitik riskler (Rusya-Ukrayna genişlemesi, petrol >85$) güvenli liman talebini artırıyor. Altın kısa vadede toparlanmış ancak düşüş trendi yorumları sürüyor; birçok başlık eski, tekrar eden veya doğrudan fiyatlamayla ilgisiz olduğundan güven düşük.
+Son haber analizi (27.11 11:43): Claude puan **+0.15**, güven 0.35 — Altın son saatlerde toparlanma sinyali veriyor: dolar zayıflıyor, jeopolitik gerilim (Rusya-Ukrayna, Dark Eagle füzesi haberi, petrol >85$) güvenli liman talebini destekliyor. Ancak Fed faiz artırımının fiyatlanmış olması ve altın için hâlâ düşüş trendinin sürmesi bu yükselişi sınırlıyor; sinyaller karışık olduğu için güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 10:05 N  NEWS (20 new) score +0.30 conf 0.40: Altın yeniden toparlanıyor (yaklaşık %3 yükseliş bildirildi) ve İran'daki ABD savaşı ile Ukrayna'daki gerilim güvenli liman talebini destekliyor. Ancak Fed faiz beklentileri ve dolar hakkındaki haberler net bir yön vermiyor, bazı başlıklar eski veya tekrar eden nitelikte; bu nedenlerle güven düşük tutuldu.
-27.11 10:18 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 10:18 N  NEWS (12 new) score +0.40 conf 0.50: 
 27.11 10:30 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 10:30 N  NEWS (10 new) score +0.35 conf 0.40: Dolar zayıflığı (DXY 103.86 altına indi) ve jeopolitik gerilimler (İran savaşı, Kiev'e füze saldırısı) altın için destekleyici; yeni haberlerde altının %2'ye yakın toparlandığı görülüyor. Buna karşılık RHB'nin daha fazla düşüş beklentisi, Japonya'da enflasyon kaynaklı BoJ sıkılaştırma beklentisi ve ABD enflasyonuna ilişkin arz şokları gibi bazı zıt sinyaller güveni sınırlıyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 11:19 N  NEWS (19 new) score +0.05 conf 0.30: Altın son saatlerde tatil sonrası düşük hacimli işlemlerde yaklaşık %2 toparlandı ve dolar zayıflığı destek veriyor; ancak Fed faiz artırımının büyük ölçüde fiyatlanmış olması ve altının düşüş trendinde kalması bu yükselişi sınırlıyor. Jeopolitik haberler (Husi saldırıları) sınırlı kalıyor, bu nedenle net etki hafif pozitif ama belirsiz.
 27.11 11:31 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 11:31 N  NEWS (23 new) score +0.05 conf 0.35: Haberler karışık: Fed faiz artışının büyük ölçüde fiyatlanmış olması ve gösterge tahvil/dolar tarafındaki hafif zayıflama altına hafif destek verirken, jeopolitik riskler (Rusya-Ukrayna genişlemesi, petrol >85$) güvenli liman talebini artırıyor. Altın kısa vadede toparlanmış ancak düşüş trendi yorumları sürüyor; birçok başlık eski, tekrar eden veya doğrudan fiyatlamayla ilgisiz olduğundan güven düşük.
+27.11 11:43 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 11:43 N  NEWS (9 new) score +0.15 conf 0.35: Altın son saatlerde toparlanma sinyali veriyor: dolar zayıflıyor, jeopolitik gerilim (Rusya-Ukrayna, Dark Eagle füzesi haberi, petrol >85$) güvenli liman talebini destekliyor. Ancak Fed faiz artırımının fiyatlanmış olması ve altın için hâlâ düşüş trendinin sürmesi bu yükselişi sınırlıyor; sinyaller karışık olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
