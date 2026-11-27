@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    5104.97
-   ],
-   [
     1795212964,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795802229,
     5145.97
+   ],
+   [
+    1795802417,
+    5145.97
    ]
   ],
   "archive": [
@@ -13946,12 +13946,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795795200000,
-   "ETHUSDT": 1795795200000,
-   "SOLUSDT": 1795795200000,
-   "BNBUSDT": 1795795200000,
-   "XRPUSDT": 1795795200000,
-   "DOGEUSDT": 1795795200000
+   "BTCUSDT": 1795798800000,
+   "ETHUSDT": 1795798800000,
+   "SOLUSDT": 1795798800000,
+   "BNBUSDT": 1795798800000,
+   "XRPUSDT": 1795798800000,
+   "DOGEUSDT": 1795798800000
   }
  },
  "gold_news": {
@@ -15167,10 +15167,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795212927,
-    4868.5
-   ],
    [
     1795212964,
     4868.5
@@ -27165,6 +27161,10 @@
    ],
    [
     1795802229,
+    4868.5
+   ],
+   [
+    1795802417,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "26.11 17:52 N  NEWS (3 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi ve DXY'nin 2026 zirvesine y\u00fckselmesi alt\u0131n i\u00e7in bask\u0131 yarat\u0131yor. Sava\u015f haberleri (Ukrayna, \u0130ran) g\u00fcvenli liman talebi a\u00e7\u0131s\u0131ndan destek sa\u011flasa da bunlar b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f ve yeni bir t\u0131rman\u0131\u015f i\u00e7ermiyor, bu y\u00fczden etkisi s\u0131n\u0131rl\u0131 kal\u0131yor.",
-  "26.11 18:05 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 18:05 N  NEWS (12 new) score -0.30 conf 0.50: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu Rusya-Ukrayna sava\u015f\u0131na ili\u015fkin ve b\u00fcy\u00fck b\u00f6l\u00fcm\u00fc zaten fiyatlanm\u0131\u015f; jeopolitik risk kaynakl\u0131 g\u00fcvenli liman talebi s\u0131n\u0131rl\u0131 kal\u0131yor. Buna kar\u015f\u0131n Fed'de faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, ABD dolar\u0131n\u0131n g\u00fc\u00e7lenme e\u011filimi ve XAU/USD'deki destek k\u0131r\u0131l\u0131m\u0131na dair teknik sat\u0131\u015f sinyalleri alt\u0131n i\u00e7in k\u0131sa vadede bask\u0131 olu\u015fturuyor.",
   "26.11 18:17 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 18:17 N  NEWS (7 new) score -0.40 conf 0.50: Fed faiz art\u0131r\u0131m\u0131 beklentilerinin s\u00fcrmesi, dolar\u0131n g\u00fc\u00e7 kazanma momentumu ve XAU/USD'deki destek k\u0131r\u0131lmas\u0131 alt\u0131n i\u00e7in bask\u0131 olu\u015fturuyor. Jeopolitik haberlerin \u00e7o\u011fu (Ukrayna, Orta Do\u011fu) zaten fiyatlanm\u0131\u015f ve g\u00fcvenli liman talebi yaratacak yeni bir kriz sinyali vermiyor; bu nedenle d\u00fc\u015f\u00fc\u015f y\u00f6nl\u00fc ama orta g\u00fcvenilirlikte bir g\u00f6r\u00fcn\u00fcm.",
@@ -30238,7 +30236,9 @@
   "27.11 20:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 20:08 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde; geri \u00e7ekilmeler al\u0131m f\u0131rsat\u0131 olarak g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb",
   "27.11 20:14 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 20:14 N  NEWS (16 new) score -0.45 conf 0.50: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: ABD dolar\u0131 ve Treasury getirileri y\u00fckseliyor, Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, \u00e7ekirdek enflasyon s\u0131cak kal\u0131yor ve alt\u0131n yak\u0131n d\u00f6nemde sert kay\u0131p ya\u015fad\u0131. Bunlara kar\u015f\u0131n jeopolitik risk (\u0130ran sava\u015f\u0131) ve Pekin'in destek vaadi gibi destekleyici unsurlar eski ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131; bu nedenle g\u00fcven orta d\u00fczeyde."
+  "27.11 20:14 N  NEWS (16 new) score -0.45 conf 0.50: Yeni ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: ABD dolar\u0131 ve Treasury getirileri y\u00fckseliyor, Fed faiz art\u0131r\u0131m\u0131 beklentileri g\u00fc\u00e7leniyor, \u00e7ekirdek enflasyon s\u0131cak kal\u0131yor ve alt\u0131n yak\u0131n d\u00f6nemde sert kay\u0131p ya\u015fad\u0131. Bunlara kar\u015f\u0131n jeopolitik risk (\u0130ran sava\u015f\u0131) ve Pekin'in destek vaadi gibi destekleyici unsurlar eski ve k\u0131smen fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in etkisi s\u0131n\u0131rl\u0131; bu nedenle g\u00fcven orta d\u00fczeyde.",
+  "27.11 21:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 21:00 B5P  NEWS (45 new) score +0.15 conf 0.40: "
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    4963.78
-   ],
-   [
     1795212964,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795802229,
+    4963.78
+   ],
+   [
+    1795802417,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    4975.18
-   ],
-   [
     1795212964,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795802229,
+    4975.18
+   ],
+   [
+    1795802417,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    4993.28
-   ],
-   [
     1795212964,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795802229,
+    4993.28
+   ],
+   [
+    1795802417,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    4969.22
-   ],
-   [
     1795212964,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795802229,
+    4969.22
+   ],
+   [
+    1795802417,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    5297.35
-   ],
-   [
     1795212964,
     5297.35
    ],
@@ -94898,6 +94894,10 @@
    ],
    [
     1795802229,
+    5297.35
+   ],
+   [
+    1795802417,
     5297.35
    ]
   ],
@@ -96544,10 +96544,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    128205.61
-   ],
-   [
     1795212964,
     128205.61
    ],
@@ -108542,11 +108538,15 @@
    [
     1795802229,
     128183.18
+   ],
+   [
+    1795802417,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": true,
+  "market_open": false,
   "last_decision_ms": 1795799309089,
   "view": {
    "ts": 1795799309089,
@@ -108607,8 +108607,8 @@
     }
    }
   },
-  "next_open": "2026-11-27T09:30:00-05:00",
-  "state": "aktif (seans a\u00e7\u0131k)",
+  "next_open": "2026-11-30T09:30:00-05:00",
+  "state": "uyku (piyasa kapal\u0131)",
   "premarket_day": "2026-11-27",
   "alpaca": {
    "multiplier": "4",
@@ -108725,10 +108725,6 @@
   },
   "equity_curve": [
    [
-    1795212927,
-    4876.96
-   ],
-   [
     1795212964,
     4876.96
    ],
@@ -120723,67 +120719,71 @@
    [
     1795802229,
     4876.96
+   ],
+   [
+    1795802417,
+    4876.96
    ]
   ],
   "news": {
-   "score": 0.05,
+   "score": 0.15,
    "confidence": 0.4,
    "reason": "Husi sald\u0131r\u0131lar\u0131 Suudi rafineri ve tesislerini hedef alarak arz riskini art\u0131r\u0131yor ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlan\u0131yor: k\u00fcresel hisse senedi sat\u0131\u015f\u0131, g\u00fc\u00e7l\u00fc Orta Do\u011fu ihracat\u0131 ve son bir ayda %21'lik d\u00fc\u015f\u00fc\u015f Brent'i a\u015fa\u011f\u0131 \u00e7ekiyor, bu nedenle net etki hafif pozitif ama belirsiz.",
    "n": 45,
    "gpt": null,
-   "ts": 1795410001880,
+   "ts": 1795802416019,
    "new_headlines": 45
   },
   "news_calls": {
    "date": "2026-11-27",
-   "n": 0
+   "n": 1
   },
   "news_seen": [
-   "Houthis claim strikes on Saudi oil facility and port - Arabian Gulf Business Insight | AGBI",
-   "Crude Oil Falls on Strong Middle East Exports Despite Houthi Attacks on Riyadh By Kedia Advisory - Investing.com India",
-   "Rappler. . Truth Commission findings on Duterte drug war available to public WATCH: Truth Commission chairperson Raul Pangalangan says their initial report on the killings during former president Rodrigo Duterte\u2019s drug war is available for anyone who may - Facebook",
-   "Russian Double-Tap Strike on Zelensky\u2019s Hometown Kills 7-Year-Old Boy and Paramedic - The SOFX Report",
-   "America cannot destroy Iran\u2019s missiles. China\u2019s will be a far greater challenge - The Strategist | ASPI's analysis and commentary site",
-   "Crude oil cools 21% in a month: What Ajay Bagga views as key risk now - Zee Business",
-   "Crude oil futures trade lower despite tensions in West Asia - BusinessLine",
-   "Crude oil rises marginally as AI selloff weighs on markets, Gulf attacks support prices; Brent at $90, WTI... - Moneycontrol.com",
-   "\u2018Difficult geopolitical times\u2019: Albanese defends Bowen after Cop31 deal failure - The Guardian",
-   "DEATH BETS Act Passes Senate With War and Death Betting Ban - Bitcoin Foundation",
-   "Petrol, Diesel Prices Steady as Crude Oil Extends Decline - HDFC Sky",
-   "GAS Arabian signs three-year unit-rate pipeline installation contract with Saudi Aramco - Oil & Gas Middle East",
-   "Study warns of widespread toxic contamination in Gaza as war unleashes environmental catastrophe - AP News",
-   "Houthis target Saudi Rabigh oil refinery amid r... - Pluang",
-   "The most important trade war is on prescription drugs - chronicleonline.com",
-   "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-   "Gasoline and oil prices today, November 23: Simultaneously decrease - Laodong.vn",
-   "Yemen's Houthis claim strikes on Saudi oil refinery, radar facility - chinadailyhk",
-   "Indian Navy to upgrade Barak 1 point defence missile systems - Asian Military Review",
-   "Iranian drone and missile attacks reached yearlong high last week, Trump says - Washington Examiner",
-   "Briton swims Hormuz strait to highlight environmental cost of Iran war | The Guardian - newspaper - Magzter",
-   "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year - CNBC",
-   "Next-door neighbors declare a Vikings-Packers yard war - kare11.com",
-   "Crude Oil Futures Extend Losses as AI Selloff Spills Over; Ship Attacks Near Hormuz Provide Support - BigGo Finance",
-   "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
-   "Why has Iran suddenly intensified military pressure and increased its challenge to the US in the Strait of Hormuz? - Vietnam.vn",
-   "Oil Prices Extend Losses As Equity Sell-Off Offsets Gulf Supply Risks - BusinessToday Malaysia",
-   "RFI: \"US scraps Trump waiver for sanctions against Israeli mining mogul Gertler\" - https://thesentry.org/",
-   "Oil, natural gas slip as gold jumps over 1.5% in Monday trade - Gulf News",
-   "Live - Trump considers Iran strikes after new year, Israel pushes for earlier action - Iran International",
-   "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7\ud83c\uddf7\ud83c\uddfa Trump wants to AVOID ANOTHER WAR with Iran. But the next escalation could happen WITHOUT anyone ordering it. Brandon Weichert spoke with retired Lt. Col. Anthony Aguilar about a dangerous new phase of the Iran conflict and growing tensio - X",
-   "'BURN TO ASHES': Iran's Chilling Underwater Attack On Supertankers In Hormuz Mine Trap | Watch - The Times of India",
-   "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news - Chattanooga Times Free Press",
-   "Week in Photos - U.S. Department of War (.gov)",
-   "Oil prices fall amid equity selloff though Iran war attacks limit losses, Money News - AsiaOne.com",
-   "Brent Crude Oil Poised to Break Below a Key Support Level \u2013 Analysis \u201323-11-2026 - Economies.com",
-   "Natural gas pipeline explodes in Alabama - KYMA",
-   "Oil prices fall amid equity selloff though Iran war attacks limit losses - Business Standard",
-   "Report: IDF warns Netanyahu strike on Iran could trigger wider regional war - chinadailyhk",
-   "Trump Sets New Year Deadline For Iran, Warns Of Military Strikes - NDTV",
-   "Tucker Carlson Says Hakeem Jeffries Will \u2018Hurt His Own Party\u2019 Over Iran - Newsweek",
-   "Yemen\u2019s Houthis claim strikes on Saudi oil refinery - The Avenue Mail",
-   "Gas pipeline fire shoots flames into the air in Alabama - NBC News",
-   "Oil Falls Despite Escalating Middle East Fighting: Brent Crude Breaks Below $92 as Oversupply Overshadows Geopolitical Risk - BigGo Finance",
-   "Crude Oil Declines Under the Pressure of Its Current Resistance \u2013 Analysis \u201323-11-2026 - Economies.com"
+   "Photos: Macy\u2019s Thanksgiving Day Parade History and Wacky Moments - The New York Times",
+   "Kyiv offers Black Sea ceasefire, as Putin expands Russia\u2019s navy - Al Jazeera",
+   "Video New questions over Trump-Putin ties amid Ukraine war - ABC News - Breaking News, Latest News and Videos",
+   "Novak: Not heard Iraq, Venezuela could quit OPEC - AzerNews",
+   "Shafaq News..Iraq seizes 36K liters of crude oil in Kirkuk - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+   "Iraq foils attempt to smuggle 36,000 liters of crude oil in Kirkuk, authorities say - Anadolu Ajans\u0131",
+   "Brent crude falls to $94.15 ahead of OPEC+ meeting \u2014 Anadolu Agency - UA.NEWS",
+   "New UN Report Investigates Attacks on Aid Workers During Sri Lanka\u2019s Civil War - Genocide Watch",
+   "US readies Cold War-era nuclear plant to unlock 22.8 tons of advanced reactor fuel - Interesting Engineering",
+   "Oil, gas prices fall as Brent trims weekly gains ahead of OPEC+ meeting - Anadolu Ajans\u0131",
+   "Norse Atlantic\u2019s Norwegian unit files for bankruptcy as Iran war jolts airlines - Arab News",
+   "Venezuela Moves to Repeal Law That Allowed Decades-Long Prison Terms and 60-Year Political Bans - Latin Times",
+   "3 zombie movies that deserve sequels more than World War Z - Undead Walking",
+   "Iran\u2019s Revolutionary Guards Say Tanker Exploded After Hitting Mine Near Strait of Hormuz: 16 outlets compared - NewsCord",
+   "To be an energy superpower, Ottawa must clear the way for third BC pipeline - Northern Beat News",
+   "The Snoqualmie Falls Lumber Company Newsletters: A Portrait of a Community\u2019s Response to World War II - Living Snoqualmie",
+   "\u201cWar Criminals Not Welcome\u201d: add your signature to stop war criminals - Pressenza - International Press Agency",
+   "War, fuel costs and aid cuts raise famine risk across 16 hotspots, UN agencies warn - CBC",
+   "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
+   "US lobbied Iraq and Venezuela to exit Opec, sparking Saudi intervention - Middle East Eye",
+   "Death By Audio finally shrinks down its mega Fuzz War Pedal - now in Mighty Mini Edition just one quarter the size of the original! - Guitar Pedal X",
+   "Brent falls 2.8% with all eyes on OPEC+ meeting - Breakingthenews.net",
+   "Iran ramps up Hormuz attacks, testing White House patience - Al-Monitor",
+   "Hackers Breach US Air Force\u2019s Flagship Cloud One Platform, Putting Sensitive Military Data at Risk - UNITED24 Media",
+   "Putin has sunk trillions of roubles into the war. The scale of the losses revealed - Defence24.com",
+   "Trump says Iran war will end whenever he wants - CBS News",
+   "Russia\u2019s War Dead Are Far More Numerous Than We Thought. Will That Change Anything? - The Moscow Times",
+   "How Russian soldiers are escaping Putin\u2019s war. Five deserters recount their journeys across borders, through forests with bears, and over the English Channel. - Meduza",
+   "Australia Sanctions Alleged Iranian Agents Suspected of Directing Antisemitic Attacks - Algemeiner.com",
+   "City of Thayer City Administrator Brent Collins talks about things going on around Thayer - E Communications",
+   "Vietnam War veterans group ditches Trump in legal battle over triumphal DC arch - The Independent",
+   "Hung Cao says U.S. ready to win war against China - Washington Times",
+   "Middle East Tensions Drive Crude Oil Prices Upward - Ratopati",
+   "Brent Falls Amid Middle East Attacks, on Course for First Weekly Advance in 5 Weeks - marketscreener.com",
+   "White House pressured Iraq, Venezuela to leave OPEC in bid to curb world oil prices: Report - thecradle.co",
+   "Brent crude climbs as Middle East tensions flare - WJRT ABC12",
+   "Iraq in talks with OPEC for higher oil quota, minister says before OPEC+ meeting - Reuters",
+   "OPEC+ expected to hold Q1 2027 output steady amid disputes - Al-Monitor",
+   "56 Years Ago, Harrison's \u2018War and Peace of Rock and Roll\u2019 Topped the US Chart for 7 Weeks - Men's Journal",
+   "A smaller, weaker OPEC could reduce global oil prices, Bob McNally argues - Traders Union",
+   "Trump, NATO chief urge Russia, Ukraine to avoid expanding war after Mar-a-Lago meeting - Florida\u2019s Voice",
+   "Warhammer 40,000: Dawn of War 4 gets a model painter demo, so you can make a mess of your Orks, Necrons, Space Marines and AdMech before they even hit the battlefield - Rock Paper Shotgun",
+   "After the war, prisoner-of-war camps in Ukraine will be converted into prisons \u2014 a decision by the Cabinet of Ministers - UkrMedia News",
+   "Crude Prices Erase Early Gains as Iraq Pushes OPEC for Higher Output - Barchart.com",
+   "Bulgaria holding EU's 22nd Russia sanctions package hostage in bid to extract concessions - The Kyiv Independent"
   ],
   "news_history": [
    {
@@ -120917,6 +120917,15 @@
     "score": 0.05,
     "confidence": 0.4,
     "reason": "Husi sald\u0131r\u0131lar\u0131 Suudi rafineri ve tesislerini hedef alarak arz riskini art\u0131r\u0131yor ve H\u00fcrm\u00fcz'deki tanker sald\u0131r\u0131lar\u0131 jeopolitik primi destekliyor. Ancak piyasa bu riskleri fiyatlamakta zorlan\u0131yor: k\u00fcresel hisse senedi sat\u0131\u015f\u0131, g\u00fc\u00e7l\u00fc Orta Do\u011fu ihracat\u0131 ve son bir ayda %21'lik d\u00fc\u015f\u00fc\u015f Brent'i a\u015fa\u011f\u0131 \u00e7ekiyor, bu nedenle net etki hafif pozitif ama belirsiz.",
+    "new": 45,
+    "gpt_score": null,
+    "gpt_confidence": null
+   },
+   {
+    "ts": 1795802416019,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "",
     "new": 45,
     "gpt_score": null,
     "gpt_confidence": null
@@ -123413,6 +123422,10 @@
    [
     1795802229,
     100
+   ],
+   [
+    1795802417,
+    100
    ]
   ],
   "score": {},
@@ -123451,11 +123464,11 @@
    "councils": 3
   },
   "seen": {
-   "NVDA": 1795800600000,
-   "AAPL": 1795800600000,
-   "TSLA": 1795800600000,
-   "BRENT": 1795800600000,
-   "WTI": 1795800600000
+   "NVDA": 1795801500000,
+   "AAPL": 1795801500000,
+   "TSLA": 1795801500000,
+   "BRENT": 1795801500000,
+   "WTI": 1795801500000
   },
   "cal": {
    "ts": 1795792566531,
