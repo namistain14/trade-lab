@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    5104.97
-   ],
-   [
     1795205851,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795795086,
     5145.97
+   ],
+   [
+    1795795271,
+    5145.97
    ]
   ],
   "archive": [
@@ -13946,12 +13946,12 @@
    }
   ],
   "trend_seen": {
-   "BTCUSDT": 1795788000000,
-   "ETHUSDT": 1795788000000,
-   "SOLUSDT": 1795788000000,
-   "BNBUSDT": 1795788000000,
-   "XRPUSDT": 1795788000000,
-   "DOGEUSDT": 1795788000000
+   "BTCUSDT": 1795791600000,
+   "ETHUSDT": 1795791600000,
+   "SOLUSDT": 1795791600000,
+   "BNBUSDT": 1795791600000,
+   "XRPUSDT": 1795791600000,
+   "DOGEUSDT": 1795791600000
   }
  },
  "gold_news": {
@@ -15167,10 +15167,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795205671,
-    4868.5
-   ],
    [
     1795205851,
     4868.5
@@ -27166,15 +27162,19 @@
    [
     1795795086,
     4868.5
+   ],
+   [
+    1795795271,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.2,
+   "score": -0.2,
    "confidence": 0.4,
    "reason": "Haberlerin \u00e7o\u011fu g\u00fcr\u00fclt\u00fc; alt\u0131n i\u00e7in somut sinyaller kar\u0131\u015f\u0131k. Dolar momentumunun zay\u0131flamas\u0131 ve fiyat d\u00fc\u015f\u00fc\u015f\u00fcnde Hindistan/\u00c7in'de al\u0131m ve ETF giri\u015fleri destekleyici, ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri ve daha \u00f6nce fiyatlanm\u0131\u015f toparlanma haberleri bask\u0131lay\u0131c\u0131; \u0130ran sava\u015f\u0131/ticaret gerilimi g\u00fcvenli liman talebi yaratabilir ama yeni bir t\u0131rman\u0131\u015f g\u00f6r\u00fclm\u00fcyor.",
    "n": 45,
-   "ts": 1795794550093,
-   "new_headlines": 9,
+   "ts": 1795795269651,
+   "new_headlines": 12,
    "key_events": [
     "Fed faiz art\u0131r\u0131m riskleri alt\u0131n kazan\u00e7lar\u0131n\u0131 s\u0131n\u0131rl\u0131yor (Kitco, FXEmpire)",
     "'Dollar Storm': dolar 2024'ten bu yana en uzun y\u00fckseli\u015f serisinde (Bloomberg)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795414938197,
-    "score": -0.05,
-    "confidence": 0.35,
-    "reason": "Alt\u0131n 14 ayl\u0131k dipten toparlan\u0131yor, ancak Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar\u0131 destekliyor ve PCE enflasyon verisi \u00f6ncesinde faiz taraf\u0131 bask\u0131 yaratabilir. Hormuz'daki \u0130ran sald\u0131r\u0131lar\u0131n\u0131n artmas\u0131 g\u00fcvenli liman talebini desteklese de, bu etki b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f g\u00f6r\u00fcn\u00fcyor; sinyaller kar\u0131\u015f\u0131k oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
-    "new": 11,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1795415655497,
     "score": 0.05,
@@ -29884,22 +29875,38 @@
     "new": 9,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795795269651,
+    "score": -0.2,
+    "confidence": 0.4,
+    "reason": "",
+    "new": 12,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 93
+   "n": 94
   },
   "news_seen": [
+   "In Iran, child marriage risks complicated by war - DW.com",
+   "Japanese Yen slips as calmer equity markets lifts US Treasury yields - www.tmgm.com",
+   "Gold and Silver Jump as Beijing Vows to Support China's Stock Market - BullionVault",
+   "The Big Pressures Facing the Fed - Bloomberg.com",
+   "Risk-sensitive currencies rise on tech rebound, dollar set for weekly gain - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "War or peace \u2013 not dodging the question - Counterfire",
+   "Japanese Yen slips as calmer equity markets lifts US Treasury yields | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "DRAM shortage pushes electronics makers to set up 'war rooms' and buy as few as five chips at a time - TweakTown",
    "Euro: Rebound eyes 1.11 retest against US Dollar \u2013 Scotiabank - FXStreet",
    "EU Prepares Billions to Replace US Air Defense, Intelligence and Military Support - UNITED24 Media",
-   "Huawei Builds Semiconductor Ecosystem Under U.S. Sanctions - \uc870\uc120\uc77c\ubcf4",
    "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "\u2018No reports, no strikes\u2019: Russia\u2019s pro-war bloggers slam proposed prison sentences for sharing photos and videos of Ukrainian attacks - Meduza",
    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
    "Why Is Gold Up Today? Futures Jump 3.4% to $3,655.70 as Tech Selloff Cools and Shorts Cover - Around Prague",
    "Zelenskyy likens Trump calling Putin \"my friend\" to Hitler being viewed as friend during World War II - CBS News",
-   "Zelenskyy urges the U.S. to pressure Putin, calling Trump's 'my friend' remark strange - PBS",
+   "Zelenskyy urges the U.S. to pressure Putin, calling Trump\u2019s 'my friend' remark strange - PBS",
    "Iran War Day 273: Trump Says Victory Will Come \u2018Whenever I Want It\u2019 - The American Conservative",
    "Week in Photos - U.S. Department of War (.gov)",
    "Pakistan gold prices rise with global bullion market gains - Traders Union",
@@ -29908,39 +29915,30 @@
    "John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
    "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
    "War, Sanctions Leave 53,000 Iranian Applicants Out of This Year's Hajj - IranWire",
-   "Personal Stigma and Knowledge Shape Help-Seeking Intentions Among War-Affected Adults - Bioengineer.org",
    "Gold demand revives in India, China as price slide sparks bargain buying - Mining.com",
-   "If sport is war minus the shooting, Marc M\u00e1rquez is the master of the art of war - Motor Sport Magazine",
    "Equity, gold or debt funds: Where should investors put their money in 2027? - Livemint",
+   "BC-US Dollar - The Register-Herald",
    "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies",
    "The price of gold today, Nov. 27, 2026 \u2014 and the best places to buy - CNBC",
-   "Russia Ukraine War Children - chronicleonline.com",
-   "Russia Ukraine War Children - WV News",
    "New trade war could be brewing after Trump announces proposed tariff hikes - Baltimore Sun",
-   "Photos: Macy\u2019s Thanksgiving Day Parade History and Wacky Moments - The New York Times",
-   "Ukraine strike plant critical to Russia's Iskander missile programme - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430",
    "Gold Price Forecast: Fed Rate Hike Bets Threaten the Latest Rebound - FXEmpire",
    "Constantly following war-related news can cause worry and anxiety - Phys.org",
    "Costa Rica denies entry to UN\u2019s Albanese over \u2018links to terrorist acts\u2019 - Al Jazeera",
    "Russia\u2019s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios - Small Wars Journal",
-   "War, fear drive Sudanese writer Baraka Sakin's fiction - RFI",
+   "Gold Prices Rebound as Dollar Momentum Cools: What the Latest Commodity Rally Means - kalkine.ca",
    "Burbank Sanctions 30 Advertising Kiosks - Outlook Newspapers",
    "War, fear drive Sudanese writer Baraka Sakin's fiction - Al-Monitor",
-   "Euro loses ground as improving risk sentiment lifts US yields | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "British Swimmer Braves Strait Of Hormuz To Warn Of Iran War's Environmental Toll - Radio Free Europe/Radio Liberty",
+   "Gold Rate Today in Bangalore, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Ukraine plans $4B war risk insurance fund - Business Insurance",
    "Gold Price Today: Gold Rises 2.18% on November 27, 2026 - USA Today",
    "Canadian Dollar: Holds steady against US Dollar \u2013 Scotiabank - FXStreet",
-   "Gold Rate Today in Gwalior, 27 Nov 2026 - Live 18K, 22K & 24K Gold Prices - Kotak Neo",
    "Geopolitical uncertainty delaying investments despite demand, Arcadis says - BNamericas",
    "Golden Dome Technologies Could Reshape US Missile Defense, Retired General Says - MeriTalk",
-   "US inflation has shoppers hunting for value. That bodes well for Black Friday - Forex Factory",
-   "Trump weighs in on veto power, Iran war and Putin - NBC News"
+   "US inflation has shoppers hunting for value. That bodes well for Black Friday - Forex Factory"
   ]
  },
  "log": [
-  "25.11 20:23 N  NEWS (17 new) score -0.65 conf 0.65: G\u00fc\u00e7l\u00fc ABD b\u00fcy\u00fcme verisi, y\u00fckselen \u00e7ekirdek PCE/enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar ve reel faizleri destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n zaten %2,44 d\u00fc\u015f\u00fcp 3500 dolar\u0131n alt\u0131na indi. \u0130ran sava\u015f\u0131 gibi jeopolitik riskler olmas\u0131na ra\u011fmen g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor, bu nedenle k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif; ancak d\u00fc\u015f\u00fc\u015f k\u0131smen fiyatlanm\u0131\u015f olabilece\u011finden g\u00fcven orta d\u00fczeyde.",
-  "25.11 20:23 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:23 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc sert d\u00fc\u015f\u00fc\u015fle ge\u00e7irse de son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir tepki y\u00fckseli\u015fi ya\u015fan\u0131yor; bu toparlanman\u0131n s\u0131n\u0131rl\u0131 ve temkinli bir devam\u0131 bekleniyor.\u00bb / GPT \u00ab-\u00bb",
   "26.11 15:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 15:27 N  NEWS (45 new) score -0.40 conf 0.55: Bask\u0131n sinyaller alt\u0131n i\u00e7in olumsuz: ABD enflasyon verisi faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirdi, Fed'in \u015fahin duru\u015fu ve y\u00fcksek ABD tahvil getirileri dolar\u0131 destekleyerek alt\u0131na bask\u0131 yap\u0131yor. Jeopolitik tarafta g\u00fcvenli liman talebini art\u0131racak yeni bir t\u0131rman\u0131\u015f yok (Trump-Rutte uyar\u0131s\u0131 ve Kuzey Kore'nin Rusya'ya silah sevkiyat\u0131n\u0131 durdurmas\u0131 gibi haberler s\u0131n\u0131rl\u0131 etki), ayr\u0131ca ABD \u015e\u00fckran G\u00fcn\u00fc tatili nedeniyle likidite d\u00fc\u015f\u00fck; baz\u0131 tek t\u00fck \"tahvil getirileri geriliyor\" haberleri kar\u015f\u0131t sinyal oldu\u011fu i\u00e7in g\u00fcveni s\u0131n\u0131rl\u0131yor.",
@@ -30238,7 +30236,9 @@
   "27.11 18:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:49 N  NEWS (9 new) score +0.20 conf 0.40: ",
   "27.11 18:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 18:55 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
+  "27.11 18:55 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb",
+  "27.11 19:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 19:01 N  NEWS (12 new) score -0.20 conf 0.40: "
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    4963.78
-   ],
-   [
     1795205851,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795795086,
+    4963.78
+   ],
+   [
+    1795795271,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    4975.18
-   ],
-   [
     1795205851,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795795086,
+    4975.18
+   ],
+   [
+    1795795271,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    4993.28
-   ],
-   [
     1795205851,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795795086,
+    4993.28
+   ],
+   [
+    1795795271,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    4969.22
-   ],
-   [
     1795205851,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795795086,
+    4969.22
+   ],
+   [
+    1795795271,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795205671,
-    5297.35
-   ],
-   [
     1795205851,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795795086,
     5297.35
+   ],
+   [
+    1795795271,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795205671,
-    126926.78
-   ],
    [
     1795205851,
     126852.45
@@ -108542,6 +108538,10 @@
    [
     1795795086,
     128183.18
+   ],
+   [
+    1795795271,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795205671,
-    4876.96
-   ],
    [
     1795205851,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795795086,
     4876.96
+   ],
+   [
+    1795795271,
+    4876.96
    ]
   ],
   "news": {
@@ -123245,6 +123245,10 @@
    [
     1795795086,
     100
+   ],
+   [
+    1795795271,
+    100
    ]
   ],
   "score": {},
@@ -123274,11 +123278,11 @@
    "councils": 2
   },
   "seen": {
-   "NVDA": 1795793400000,
-   "AAPL": 1795793400000,
-   "TSLA": 1795793400000,
-   "BRENT": 1795793400000,
-   "WTI": 1795793400000
+   "NVDA": 1795794300000,
+   "AAPL": 1795794300000,
+   "TSLA": 1795794300000,
+   "BRENT": 1795794300000,
+   "WTI": 1795794300000
   },
   "cal": {
    "ts": 1795792566531,

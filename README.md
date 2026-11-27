@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 18:58 (İstanbul)
+> Son güncelleme: 27.11.2026 19:01 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 18:49): Claude puan **+0.20**, güven 0.40 — Haberlerin çoğu gürültü; altın için somut sinyaller karışık. Dolar momentumunun zayıflaması ve fiyat düşüşünde Hindistan/Çin'de alım ve ETF girişleri destekleyici, ancak Fed faiz artırımı beklentileri ve daha önce fiyatlanmış toparlanma haberleri baskılayıcı; İran savaşı/ticaret gerilimi güvenli liman talebi yaratabilir ama yeni bir tırmanış görülmüyor.
+Son haber analizi (27.11 19:01): Claude puan **-0.20**, güven 0.40 — Haberlerin çoğu gürültü; altın için somut sinyaller karışık. Dolar momentumunun zayıflaması ve fiyat düşüşünde Hindistan/Çin'de alım ve ETF girişleri destekleyici, ancak Fed faiz artırımı beklentileri ve daha önce fiyatlanmış toparlanma haberleri baskılayıcı; İran savaşı/ticaret gerilimi güvenli liman talebi yaratabilir ama yeni bir tırmanış görülmüyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 18:19 B6  karar turu: Claude «Endeksler sabahki satıştan toparlanıyor; NVDA'daki ihracat kısıtlaması haberi teknoloji tarafında baskı unsuru olmaya devam ediyor.» / GPT «-»
-27.11 18:25 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:25 N  NEWS (15 new) score +0.10 conf 0.30: Haberlerin çoğu gürültü; altın için somut sinyaller karışık. Dolar momentumunun zayıflaması ve fiyat düşüşünde Hindistan/Çin'de alım ve ETF girişleri destekleyici, ancak Fed faiz artırımı beklentileri ve daha önce fiyatlanmış toparlanma haberleri baskılayıcı; İran savaşı/ticaret gerilimi güvenli liman talebi yaratabilir ama yeni bir tırmanış görülmüyor.
 27.11 18:31 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:31 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde pozitif seyrediyor, ancak NVDA ihracat kısıtlaması haberiyle ayrışıyor.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 18:49 N  NEWS (9 new) score +0.20 conf 0.40: 
 27.11 18:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 18:55 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde risk iştahıyla yükseliyor, son mumlarda hafif bir soluklanma görülüyor.» / GPT «-»
+27.11 19:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 19:01 N  NEWS (12 new) score -0.20 conf 0.40: 
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
