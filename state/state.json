@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    5104.97
-   ],
-   [
     1795208579,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795797842,
     5145.97
+   ],
+   [
+    1795798041,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4868.5
-   ],
-   [
     1795208579,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795797842,
+    4868.5
+   ],
+   [
+    1795798041,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "26.11 16:39 N  NEWS (8 new) score -0.50 conf 0.60: Bask\u0131n etki \u015fahin Fed beklentilerinden kaynaklan\u0131yor: \u00e7ekirdek PCE %3,3'e y\u00fckseldi, faiz art\u0131r\u0131m\u0131 oranlar\u0131 \u00e7ok y\u00fcksek ve alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc. G\u00fc\u00e7l\u00fc dolar ve reel faiz bask\u0131s\u0131 alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; Ukrayna ve H\u00fcrm\u00fcz'deki jeopolitik gerilim ise g\u00fcvenli liman talebi yaratsa da bu etki s\u0131n\u0131rl\u0131 kal\u0131yor. Baz\u0131 ba\u015fl\u0131klar eski veya fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
-  "26.11 16:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 16:51 N  NEWS (9 new) score -0.50 conf 0.60: Faiz art\u0131r\u0131m\u0131 beklentileri (oran art\u0131\u015f\u0131 olas\u0131l\u0131\u011f\u0131 yakla\u015f\u0131k %99,8), y\u00fcksek \u00e7ekirdek PCE (%3,3) ve 2026 zirvesindeki dolar endeksi alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc. Kyiv'e f\u00fcze sald\u0131r\u0131lar\u0131 ve Orta Do\u011fu gerginli\u011fi gibi g\u00fcvenli liman talebini art\u0131rabilecek haberler var, ancak bunlar zaten fiyatlanm\u0131\u015f ve s\u0131n\u0131rl\u0131 etki yarat\u0131yor.",
   "26.11 17:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 17:03 N  NEWS (11 new) score -0.50 conf 0.60: Enflasyon verileri (Core PCE %3.3, Ekim CPI y\u00fckseli\u015fi) ve Fed faiz art\u0131r\u0131m\u0131 beklentileri (oran art\u0131rma olas\u0131l\u0131\u011f\u0131 ~%99.8) alt\u0131n\u0131 bask\u0131l\u0131yor; gold ~3.425-3.500 dolar civar\u0131nda sat\u0131\u015f bask\u0131s\u0131 alt\u0131nda. Jeopolitik riskler (Ukrayna, \u0130ran sava\u015f\u0131, Karadeniz) g\u00fcvenli liman talebi yaratabilir, ancak bu haberlerin \u00e7o\u011fu eski ve fiyatlanm\u0131\u015f; merkez bankas\u0131 al\u0131mlar\u0131 destek sa\u011fl\u0131yor ama k\u0131sa vadede etkisi s\u0131n\u0131rl\u0131.",
@@ -30238,7 +30236,9 @@
   "27.11 19:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 19:37 N  NEWS (7 new) score +0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k ama hafif pozitif bir tablo var: \u00c7in'in borsay\u0131 destekleme vaadi, k\u0131sa pozisyonlar\u0131n kapanmas\u0131 ve Hindistan/\u00c7in'de al\u0131m talebinin canlanmas\u0131 fiyat\u0131 destekliyor. Buna kar\u015f\u0131l\u0131k dolar haftal\u0131k kazan\u00e7 yolunda ve ABD tahvil getirileri y\u00fckseliyor, Fed bask\u0131s\u0131 ile \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman etkisi ise net bir y\u00f6n vermiyor; ayr\u0131ca 3,4'l\u00fck s\u0131\u00e7rama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda.",
   "27.11 19:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 19:44 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc pozitif seyrediyor ve \u00f6\u011fle saatlerinde zirveye yak\u0131n konsolide oluyor.\u00bb / GPT \u00ab-\u00bb"
+  "27.11 19:44 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc pozitif seyrediyor ve \u00f6\u011fle saatlerinde zirveye yak\u0131n konsolide oluyor.\u00bb / GPT \u00ab-\u00bb",
+  "27.11 19:47 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 19:47 S3  KURUL WTI: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4963.78
-   ],
-   [
     1795208579,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795797842,
+    4963.78
+   ],
+   [
+    1795798041,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4975.18
-   ],
-   [
     1795208579,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795797842,
+    4975.18
+   ],
+   [
+    1795798041,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4993.28
-   ],
-   [
     1795208579,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795797842,
+    4993.28
+   ],
+   [
+    1795798041,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4969.22
-   ],
-   [
     1795208579,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795797842,
+    4969.22
+   ],
+   [
+    1795798041,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    5297.35
-   ],
-   [
     1795208579,
     5297.35
    ],
@@ -94898,6 +94894,10 @@
    ],
    [
     1795797842,
+    5297.35
+   ],
+   [
+    1795798041,
     5297.35
    ]
   ],
@@ -96544,10 +96544,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    128205.61
-   ],
-   [
     1795208579,
     128205.61
    ],
@@ -108541,6 +108537,10 @@
    ],
    [
     1795797842,
+    128183.18
+   ],
+   [
+    1795798041,
     128183.18
    ]
   ],
@@ -108725,10 +108725,6 @@
   },
   "equity_curve": [
    [
-    1795208399,
-    4876.96
-   ],
-   [
     1795208579,
     4876.96
    ],
@@ -120722,6 +120718,10 @@
    ],
    [
     1795797842,
+    4876.96
+   ],
+   [
+    1795798041,
     4876.96
    ]
   ],
@@ -123309,6 +123309,10 @@
    [
     1795797842,
     100
+   ],
+   [
+    1795798041,
+    100
    ]
   ],
   "score": {},
@@ -123330,19 +123334,28 @@
      "fable": "wait",
      "deepseek": "wait"
     }
+   },
+   {
+    "t": 1795798041744,
+    "sym": "WTI",
+    "ref": 83.0199966430664,
+    "votes": {
+     "fable": "wait",
+     "deepseek": "wait"
+    }
    }
   ],
   "block_note": null,
   "day": {
    "date": "2026-11-27",
-   "councils": 2
+   "councils": 3
   },
   "seen": {
-   "NVDA": 1795796100000,
-   "AAPL": 1795796100000,
-   "TSLA": 1795796100000,
-   "BRENT": 1795796100000,
-   "WTI": 1795796100000
+   "NVDA": 1795797000000,
+   "AAPL": 1795797000000,
+   "TSLA": 1795797000000,
+   "BRENT": 1795797000000,
+   "WTI": 1795797000000
   },
   "cal": {
    "ts": 1795792566531,
@@ -123358,15 +123371,16 @@
    ],
    "ok": true
   },
-  "last_council": 1795794367066,
+  "last_council": 1795798013413,
   "last_sym": {
    "AAPL": 1795792567363,
-   "TSLA": 1795794367066
+   "TSLA": 1795794367066,
+   "WTI": 1795798013413
   },
   "view": {
-   "ts": 1795794415111,
-   "claude": "Tesla shares \u2014 wait (0.70): Trend yukar\u0131 ve haberler destekleyici, ancak 15 dakikal\u0131k RSI 86 ile fiyat a\u015f\u0131r\u0131 uzam\u0131\u015f ve 400 yuvarlak direncinde kovalamak olur. Black Friday yar\u0131m seans\u0131n\u0131n kapan\u0131\u015f\u0131na yakla\u015f\u0131k 2 saat kald\u0131; hedefe ula\u015fmak i\u00e7in s\u00fcre az, hafta sonu bo\u015fluk",
-   "gpt": "DeepSeek: wait (0.20) 15 dakikal\u0131k RSI 86 a\u015f\u0131r\u0131 al\u0131m b\u00f6lgesinde ve fiyat 12 saatlik dirence \u00e7ok yak\u0131n; 4 saatlik trend belirsiz. Teyit i\u00e7in geri \u00e7ekilme veya k\u0131r\u0131l\u0131m sonras\u0131 onay beklemek daha g\u00fcvenli."
+   "ts": 1795798041744,
+   "claude": "WTI crude oil \u2014 wait (0.72): Sinyaller \u00e7eli\u015fiyor: 24 saatte +%3 y\u00fckseli\u015f ve Orta Do\u011fu sald\u0131r\u0131lar\u0131 yukar\u0131 y\u00f6nl\u00fc risk primi yarat\u0131rken Irak kota haberi d\u00fc\u015f\u00fcr\u00fcyor; 4s trend belirsiz, fiyat 82.92 deste\u011finin hemen \u00fcst\u00fcnde ve 15dk RSI a\u015f\u0131r\u0131 sat\u0131mda. Cuma kapan\u0131\u015f\u0131 \u00f6ncesi habe",
+   "gpt": "DeepSeek: wait (0.80) 4 saatlik trend belirsiz, haber ak\u0131\u015f\u0131 kar\u0131\u015f\u0131k (jeopolitik risk ve Irak'\u0131n kota art\u0131r\u0131m\u0131 \u00e7eli\u015fkili) ve 15 dakikal\u0131k RSI a\u015f\u0131r\u0131 sat\u0131mda; k\u0131r\u0131l\u0131m hen\u00fcz teyit etmedi\u011fi i\u00e7in beklemek do\u011fru."
   }
  }
 }
