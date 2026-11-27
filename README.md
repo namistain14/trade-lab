@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 17:33 (İstanbul)
+> Son güncelleme: 27.11.2026 17:36 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 17:23): Claude puan **-0.10**, güven 0.35 — Yeni başlıklar karışık: Fed'in Aralık'ta faiz artırabileceğine dair bahisler ve risk iştahının toparlanmasıyla ABD tahvil getirilerinin yükselmesi altını baskılıyor. Buna karşılık zayıf dolar ve 3.600 dolar üzerindeki toparlanma destek sağlıyor, jeopolitik risk ise sınırlı kalıyor. Başlıklar çelişkili ve bir kısmı eski olduğu için güven düşük.
+Son haber analizi (27.11 17:36): Claude puan **-0.05**, güven 0.30 — Yeni başlıkların çoğu jeopolitik arka plan haberi olup altın fiyatını doğrudan etkileyecek nitelikte değil; İran savaşıyla ilgili yeni haberler ise belirsiz ve fiyatlanmış görünüyor. Fed sıkılaştırma beklentileri ve dolardaki toparlanma altın için hafif baskılayıcı, buna karşılık önceki dolar zayıflığı kaynaklı yükseliş ve güvenli liman talebi ise destekleyici; sinyaller çelişkili olduğundan skor sıfıra yakın ve güven düşük.
 
 Son işlemler:
 
@@ -103,9 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 16:32 B6  seans öncesi görüş: Geniş piyasa açılış öncesi pozitif görünse de teknoloji tarafı zayıf; en net fırsat ihracat kısıtlamaları baskısındaki NVDA'da kısa pozisyon.
-27.11 16:35 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-27.11 16:35 N  NEWS (22 new) score -0.15 conf 0.40: Haberler karışık: Fed'in faiz artırımı beklentileri ve dolar endeksinin 22 aylık zirveye yakın seyretmesi altın için baskı yaratıyor, Rusya'nın rezerv satışı da olumsuz. Buna karşılık jeopolitik gerilim (Ukrayna, İran savaşı) güvenli liman talebini destekleyebilir ve altın yeni bir tepkiyle toparlanıyor. Net etki hafif negatif, ancak sinyaller çelişkili olduğu için güven düşük.
 27.11 16:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 16:47 N  NEWS (10 new) score -0.15 conf 0.40: Fed sıkılaştırma beklentileri ve dolar endeksinin 22 ayın zirvesine yakın seyretmesi altın için baskı oluşturuyor; buna karşın İran savaşı, Kuveyt'teki İtalyan ölümleri ve Ukrayna'daki tırmanış jeopolitik talebi destekliyor. Altın 15 aylık dip sonrası toparlanıyor ancak toparlanma hisse senedi iyileşmesine bağlı olduğu için güvenli liman etkisi zayıf; sinyaller karışık olduğundan görece hafif negatif bir görünüm.
 27.11 16:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -118,6 +115,9 @@ Son işlemler:
 27.11 17:30 B6  karar turu: Claude «Endeksler günü artıda tutsa da son bir saatte kâr satışıyla geri çekiliyor, bu yüzden şirkete özel haber ve göreli güç belirleyici olacak.» / GPT «-»
 27.11 17:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 27.11 17:33 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
+27.11 17:36 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 17:36 N  NEWS (11 new) score -0.05 conf 0.30: Yeni başlıkların çoğu jeopolitik arka plan haberi olup altın fiyatını doğrudan etkileyecek nitelikte değil; İran savaşıyla ilgili yeni haberler ise belirsiz ve fiyatlanmış görünüyor. Fed sıkılaştırma beklentileri ve dolardaki toparlanma altın için hafif baskılayıcı, buna karşılık önceki dolar zayıflığı kaynaklı yükseliş ve güvenli liman talebi ise destekleyici; sinyaller çelişkili olduğundan skor sıfıra yakın ve güven düşük.
+27.11 17:36 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
