@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 19:40 (İstanbul)
+> Son güncelleme: 27.11.2026 19:44 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 18:55 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde risk iştahıyla yükseliyor, son mumlarda hafif bir soluklanma görülüyor.» / GPT «-»
-27.11 19:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:01 N  NEWS (12 new) score -0.20 conf 0.40: 
 27.11 19:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:08 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde risk iştahlı ve yukarı ivme öğleden sonra da sürebilir.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 19:32 B6  karar turu: Claude «Piyasa gün içinde güçlü yükseldi ve öğle saatlerinde yatay konsolidasyona geçti; seçici alım fırsatları geride kalan isimlerde aranmalı.» / GPT «-»
 27.11 19:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 19:37 N  NEWS (7 new) score +0.15 conf 0.40: Altın için karışık ama hafif pozitif bir tablo var: Çin'in borsayı destekleme vaadi, kısa pozisyonların kapanması ve Hindistan/Çin'de alım talebinin canlanması fiyatı destekliyor. Buna karşılık dolar haftalık kazanç yolunda ve ABD tahvil getirileri yükseliyor, Fed baskısı ile İran savaşının güvenli liman etkisi ise net bir yön vermiyor; ayrıca 3,4'lük sıçrama büyük ölçüde zaten fiyatlanmış durumda.
+27.11 19:44 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 19:44 B6  karar turu: Claude «Piyasa teknoloji öncülüğünde güçlü pozitif seyrediyor ve öğle saatlerinde zirveye yakın konsolide oluyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
