@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 08:13 (İstanbul)
+> Son güncelleme: 27.11.2026 08:16 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 08:04): Claude puan **+0.15**, güven 0.35 — En yeni haberler altının 3.600 doların üzerine toparlandığını ve zayıf dolar endeksinin (104'ün altı) desteklediğini gösteriyor; bu kısa vadede hafif pozitif. Ancak Fed faiz artırımı beklentileri, Warsh'un enflasyon endişeleri ve Rusya'nın altın satışları gibi baskılayıcı haberler çelişkili; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
+Son haber analizi (27.11 08:16): Claude puan **-0.10**, güven 0.35 — Faiz artırımı beklentileri ve Rusya'nın altın satışları altın için baskı oluşturuyor; buna karşılık zayıflayan dolar endeksi ve ETF girişlerinden kaynaklanan alım desteği fiyatı destekliyor. Başlıkların birbiriyle çelişen fiyat seviyeleri ve İran savaşı haberlerinin büyük ölçüde fiyatlanmış olması nedeniyle yön net değil, bu yüzden hafif negatif ve düşük güvenli bir skor veriyorum.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 06:39 N  NEWS (12 new) score -0.25 conf 0.40: Fed'in faiz artırımı beklentisi ve doların 22 aylık zirveye yakın seyri altın için baskılayıcı; buna karşılık İran savaşındaki tırmanış (Kuveyt'te İtalyan ölümleri) güvenli liman talebini bir miktar destekliyor. Haberler çelişkili olduğu ve altın zaten yaklaşık 15 aylık dibe gerilemiş olduğu için etki sınırlı ve belirsiz.
-27.11 06:51 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 06:51 N  NEWS (32 new) score +0.10 conf 0.30: İran savaşı (272. gün) ve Kuveyt'teki İtalyan ölümlü saldırı küçük bir jeopolitik risk primi destekleyebilir, ancak bunların çoğu zaten fiyatlanmış eski gelişmeler. Trump'ın savaşın "istediğinde" bitebileceği yönündeki açıklaması ve Fed, dolar veya enflasyonla ilgili yeni bir haber olmaması nedeniyle net etki sınırlı ve belirsiz kalıyor.
 27.11 07:03 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 07:03 N  NEWS (33 new) score -0.15 conf 0.40: Altın 15 aylık dipten toparlanıyor, ancak Fed faiz artırımı beklentileri ve dolardaki güçlü yükseliş altın için baskı oluşturuyor. İran savaşındaki tırmanış ve Kuveyt'teki saldırı güvenli liman talebini destekliyor, ama bu etki fiyatlarda şimdiden kısmen yer etmiş görünüyor; net görünüm hafif negatif.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 07:52 N  NEWS (14 new) score -0.20 conf 0.40: Altın, yıllık dip seviyesinden toparlanma sinyali verse de Fed faiz artırımı beklentileri, güçlü ABD doları ihtimali ve Rusya'nın altın satışı baskıyı sürdürüyor; İran savaşı gibi güvenli liman talebini artıran unsurlar ise zayıf kalıyor. Başlıkların bir kısmı eski, çelişkili veya tekrar niteliğinde olduğu için güven düşük tutuldu.
 27.11 08:04 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 08:04 N  NEWS (12 new) score +0.15 conf 0.35: En yeni haberler altının 3.600 doların üzerine toparlandığını ve zayıf dolar endeksinin (104'ün altı) desteklediğini gösteriyor; bu kısa vadede hafif pozitif. Ancak Fed faiz artırımı beklentileri, Warsh'un enflasyon endişeleri ve Rusya'nın altın satışları gibi baskılayıcı haberler çelişkili; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
+27.11 08:16 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 08:16 N  NEWS (13 new) score -0.10 conf 0.35: Faiz artırımı beklentileri ve Rusya'nın altın satışları altın için baskı oluşturuyor; buna karşılık zayıflayan dolar endeksi ve ETF girişlerinden kaynaklanan alım desteği fiyatı destekliyor. Başlıkların birbiriyle çelişen fiyat seviyeleri ve İran savaşı haberlerinin büyük ölçüde fiyatlanmış olması nedeniyle yön net değil, bu yüzden hafif negatif ve düşük güvenli bir skor veriyorum.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
