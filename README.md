@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 09:14 (İstanbul)
+> Son güncelleme: 27.11.2026 09:17 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 09:05): Claude puan **-0.10**, güven 0.30 — Yeni başlıklar karışık: Fed'de faiz artırımı ihtimali ve güçlü ABD büyümesi altın için baskılayıcı, İran savaşı ve Kuwait dron olayı ise güvenli liman talebini destekliyor. ETF girişleri ve bir yıllık dipten toparlanma kısa vadeli alıcı ilgisine işaret ederken, birçok başlık eski veya çelişkili olduğundan (farklı fiyat seviyeleri, tekrarlayan yerel fiyat haberleri) güven düşük.
+Son haber analizi (27.11 09:17): Claude puan **-0.20**, güven 0.35 — Dolar endeksi 22 ayın zirvesine yakın ve Fed'de faiz artırımı tartışmaları var; bu, altın için 1-4 saatlik görünümde baskı oluşturuyor. Ukrayna'da gerilimi azaltma çağrıları ve İran kaynaklı riskin sınırlı kalması da güvenli liman talebini zayıflatıyor. Öte yandan enflasyon baskısı ve altının yakın zamanda bir yıllık dibinden toparlanması destekleyici, bu yüzden sinyal karışık ve güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 07:39 N  NEWS (15 new) score -0.20 conf 0.40: Altın 15 aylık dibe yakın seyrediyor; Fed'in faiz artırma ihtimali ve güçlü enflasyon/büyüme verileri reel faizleri yukarı iten, altın için baskılayıcı bir ortam yaratıyor. İran savaşı ve Kuveyt saldırısı gibi jeopolitik gelişmeler güvenli liman talebini destekleyebilir, ancak piyasa bu riske şimdiye kadar zayıf tepki verdi ve dolar endeksinin 104'ün altına inmesi kısa vadeli bir destek sağlıyor; bu nedenle net etki hafif negatif, düşük güvenle değerlendiriliyor.
-27.11 07:52 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 07:52 N  NEWS (14 new) score -0.20 conf 0.40: Altın, yıllık dip seviyesinden toparlanma sinyali verse de Fed faiz artırımı beklentileri, güçlü ABD doları ihtimali ve Rusya'nın altın satışı baskıyı sürdürüyor; İran savaşı gibi güvenli liman talebini artıran unsurlar ise zayıf kalıyor. Başlıkların bir kısmı eski, çelişkili veya tekrar niteliğinde olduğu için güven düşük tutuldu.
 27.11 08:04 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 08:04 N  NEWS (12 new) score +0.15 conf 0.35: En yeni haberler altının 3.600 doların üzerine toparlandığını ve zayıf dolar endeksinin (104'ün altı) desteklediğini gösteriyor; bu kısa vadede hafif pozitif. Ancak Fed faiz artırımı beklentileri, Warsh'un enflasyon endişeleri ve Rusya'nın altın satışları gibi baskılayıcı haberler çelişkili; ayrıca birçok başlık eski veya zaten fiyatlanmış olduğundan güven düşük.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 08:53 N  NEWS (13 new) score -0.05 conf 0.30: Yeni başlıklar karışık: Fed'in faiz artırımı ihtimali ve ABD büyümesinin beklentileri aşması altını baskılıyor, ancak dolardaki zayıflık ve İran/Kuveyt kaynaklı jeopolitik gerilim altını destekliyor. Birçok başlık tekrar eden, eski veya fiyatlanmış nitelikte olduğu için net bir yön sinyali zayıf; hafif negatif, düşük güvenli bir görünüm.
 27.11 09:05 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 09:05 N  NEWS (6 new) score -0.10 conf 0.30: Yeni başlıklar karışık: Fed'de faiz artırımı ihtimali ve güçlü ABD büyümesi altın için baskılayıcı, İran savaşı ve Kuwait dron olayı ise güvenli liman talebini destekliyor. ETF girişleri ve bir yıllık dipten toparlanma kısa vadeli alıcı ilgisine işaret ederken, birçok başlık eski veya çelişkili olduğundan (farklı fiyat seviyeleri, tekrarlayan yerel fiyat haberleri) güven düşük.
+27.11 09:17 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 09:17 N  NEWS (11 new) score -0.20 conf 0.35: Dolar endeksi 22 ayın zirvesine yakın ve Fed'de faiz artırımı tartışmaları var; bu, altın için 1-4 saatlik görünümde baskı oluşturuyor. Ukrayna'da gerilimi azaltma çağrıları ve İran kaynaklı riskin sınırlı kalması da güvenli liman talebini zayıflatıyor. Öte yandan enflasyon baskısı ve altının yakın zamanda bir yıllık dibinden toparlanması destekleyici, bu yüzden sinyal karışık ve güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
