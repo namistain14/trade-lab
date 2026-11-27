@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    5104.97
-   ],
-   [
     1795204951,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795794194,
     5145.97
+   ],
+   [
+    1795794415,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    4868.5
-   ],
-   [
     1795204951,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795794194,
+    4868.5
+   ],
+   [
+    1795794415,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 19:59 B6  karar turu: Claude \u00abPiyasa g\u00fcn i\u00e7inde sert sat\u0131\u015f yedi ancak son saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde tepki y\u00fckseli\u015fi ba\u015fl\u0131yor.\u00bb / GPT \u00ab-\u00bb",
-  "25.11 20:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:11 N  NEWS (11 new) score -0.50 conf 0.60: PCE enflasyonunun 3,8%'e y\u00fckselmesi ve Fed faiz art\u0131r\u0131m\u0131 beklentisi, reel faizleri ve dolar\u0131 destekleyerek alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131. Dolar g\u00fc\u00e7lenmesi ve Warsh Fed'inin s\u0131k\u0131 duru\u015fu da negatif; \u0130ran sava\u015f\u0131 ve Nasdaq'taki sert d\u00fc\u015f\u00fc\u015f k\u0131smen g\u00fcvenli liman talebi yaratabilir ancak bu etki s\u0131n\u0131rl\u0131 kal\u0131r.",
   "25.11 20:11 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:11 B6  karar turu: Claude \u00abPiyasa sert d\u00fc\u015f\u00fc\u015f g\u00fcn\u00fcn\u00fcn ard\u0131ndan g\u00fc\u00e7l\u00fc bir toparlanma ya\u015f\u0131yor; momentum k\u0131sa vadede yukar\u0131 y\u00f6nl\u00fc ancak dalgal\u0131.\u00bb / GPT \u00ab-\u00bb",
@@ -30238,7 +30236,9 @@
   "27.11 18:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:37 N  NEWS (13 new) score -0.40 conf 0.60: ",
   "27.11 18:43 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 18:43 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde, geri \u00e7ekilmeler s\u0131\u011f kal\u0131yor ve al\u0131\u015f y\u00f6nl\u00fc i\u015flemler avantajl\u0131 g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
+  "27.11 18:43 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde, geri \u00e7ekilmeler s\u0131\u011f kal\u0131yor ve al\u0131\u015f y\u00f6nl\u00fc i\u015flemler avantajl\u0131 g\u00f6r\u00fcn\u00fcyor.\u00bb / GPT \u00ab-\u00bb",
+  "27.11 18:46 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 18:46 S3  KURUL TSLA: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    4963.78
-   ],
-   [
     1795204951,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795794194,
+    4963.78
+   ],
+   [
+    1795794415,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    4975.18
-   ],
-   [
     1795204951,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795794194,
+    4975.18
+   ],
+   [
+    1795794415,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    4993.28
-   ],
-   [
     1795204951,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795794194,
+    4993.28
+   ],
+   [
+    1795794415,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    4969.22
-   ],
-   [
     1795204951,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795794194,
+    4969.22
+   ],
+   [
+    1795794415,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795204771,
-    5297.35
-   ],
-   [
     1795204951,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795794194,
     5297.35
+   ],
+   [
+    1795794415,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795204771,
-    126191.25
-   ],
    [
     1795204951,
     126386.22
@@ -108542,6 +108538,10 @@
    [
     1795794194,
     128183.18
+   ],
+   [
+    1795794415,
+    128183.18
    ]
   ],
   "open": {},
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795204771,
-    4876.96
-   ],
    [
     1795204951,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795794194,
     4876.96
+   ],
+   [
+    1795794415,
+    4876.96
    ]
   ],
   "news": {
@@ -123225,6 +123225,10 @@
    [
     1795794194,
     100
+   ],
+   [
+    1795794415,
+    100
    ]
   ],
   "score": {},
@@ -123237,19 +123241,28 @@
      "fable": "wait",
      "deepseek": "wait"
     }
+   },
+   {
+    "t": 1795794415111,
+    "sym": "TSLA",
+    "ref": 400.14019775390625,
+    "votes": {
+     "fable": "wait",
+     "deepseek": "wait"
+    }
    }
   ],
   "block_note": null,
   "day": {
    "date": "2026-11-27",
-   "councils": 1
+   "councils": 2
   },
   "seen": {
-   "NVDA": 1795792500000,
-   "AAPL": 1795792500000,
-   "TSLA": 1795792500000,
-   "BRENT": 1795792500000,
-   "WTI": 1795792500000
+   "NVDA": 1795793400000,
+   "AAPL": 1795793400000,
+   "TSLA": 1795793400000,
+   "BRENT": 1795793400000,
+   "WTI": 1795793400000
   },
   "cal": {
    "ts": 1795792566531,
@@ -123265,14 +123278,15 @@
    ],
    "ok": true
   },
-  "last_council": 1795792567363,
+  "last_council": 1795794367066,
   "last_sym": {
-   "AAPL": 1795792567363
+   "AAPL": 1795792567363,
+   "TSLA": 1795794367066
   },
   "view": {
-   "ts": 1795792603705,
-   "claude": "Apple shares \u2014 wait (0.62): Fiyat 5 g\u00fcnl\u00fck zirvenin (359.42) hemen alt\u0131nda ve hedef i\u00e7in yeterli alan yok; Kara Cuma yar\u0131m seans\u0131 d\u00fc\u015f\u00fck likiditeyle kapan\u0131\u015fa yakla\u015f\u0131rken 4 saatlik trend belirsiz, bu y\u00fczden beklemek daha g\u00fcvenli.",
-   "gpt": "DeepSeek: wait (0.80) 4 saatlik trend belirsiz ve k\u0131sa vadeli toparlanma sinyali tek ba\u015f\u0131na yeterli de\u011fil; daha net bir uyum beklemek do\u011fru olur."
+   "ts": 1795794415111,
+   "claude": "Tesla shares \u2014 wait (0.70): Trend yukar\u0131 ve haberler destekleyici, ancak 15 dakikal\u0131k RSI 86 ile fiyat a\u015f\u0131r\u0131 uzam\u0131\u015f ve 400 yuvarlak direncinde kovalamak olur. Black Friday yar\u0131m seans\u0131n\u0131n kapan\u0131\u015f\u0131na yakla\u015f\u0131k 2 saat kald\u0131; hedefe ula\u015fmak i\u00e7in s\u00fcre az, hafta sonu bo\u015fluk",
+   "gpt": "DeepSeek: wait (0.20) 15 dakikal\u0131k RSI 86 a\u015f\u0131r\u0131 al\u0131m b\u00f6lgesinde ve fiyat 12 saatlik dirence \u00e7ok yak\u0131n; 4 saatlik trend belirsiz. Teyit i\u00e7in geri \u00e7ekilme veya k\u0131r\u0131l\u0131m sonras\u0131 onay beklemek daha g\u00fcvenli."
   }
  }
 }
