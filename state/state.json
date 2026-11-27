@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    5104.97
-   ],
-   [
     1795200566,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795789640,
     5145.97
+   ],
+   [
+    1795789834,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    4868.5
-   ],
-   [
     1795200566,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795789640,
+    4868.5
+   ],
+   [
+    1795789834,
     4868.5
    ]
   ],
@@ -29939,9 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 17:45 N  NEWS (7 new) score -0.75 conf 0.80: S\u0131cak PCE enflasyonu (\u00e7ekirdek %3.3) ve g\u00fc\u00e7l\u00fc GSYH, Aral\u0131k faiz art\u0131r\u0131m\u0131 beklentilerini (%94 olas\u0131l\u0131k) g\u00fc\u00e7lendirdi; dolar y\u00fckseldi ve alt\u0131n 15 ayl\u0131k dibi olan 3.500 dolar civar\u0131na geriledi. Jeopolitik haberler g\u00fcvenli liman talebini art\u0131rm\u0131yor, bu nedenle bask\u0131 1-4 saat i\u00e7inde s\u00fcrmesi muhtemel.",
-  "25.11 17:54 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "25.11 17:54 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir sat\u0131\u015f var, son mumlarda hafif tepki g\u00f6r\u00fcl\u00fcyor; volatilite y\u00fcksek oldu\u011fu i\u00e7in se\u00e7ici davranmak gerekiyor.\u00bb / GPT \u00ab-\u00bb",
   "25.11 17:57 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 17:57 N  NEWS (28 new) score -0.50 conf 0.55: PCE enflasyonu ve g\u00fc\u00e7l\u00fc Q3 GDP revizyonu, Fed'in s\u0131k\u0131 kalaca\u011f\u0131 beklentisini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 15 ayl\u0131k dibe ($3,500) geriledi. Ancak haberlerde PCE'nin hem \"3.8%'e y\u00fckseldi\" hem de \"kontroll\u00fc\" olarak tan\u0131mlanmas\u0131 \u00e7eli\u015fkili, ayr\u0131ca yeni tarife haberleri ve sava\u015f riskleri k\u0131sa vadede g\u00fcvenli liman talebi yaratabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
   "25.11 18:06 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
@@ -30238,7 +30235,10 @@
   "27.11 17:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 17:11 N  NEWS (10 new) score -0.10 conf 0.30: Yeni haberlerin \u00e7o\u011fu alt\u0131n i\u00e7in do\u011frudan etkisiz (sava\u015f/Golden Dome/spor/moda i\u00e7erikli). Fed'in s\u0131k\u0131la\u015ft\u0131rma beklentileri ve risk i\u015ftah\u0131n\u0131n toparlanmas\u0131 ABD tahvil getirilerini yukar\u0131 \u00e7ekip alt\u0131n\u0131 bask\u0131l\u0131yor; \u00f6te yandan dolar zay\u0131fl\u0131\u011f\u0131 ve ETF giri\u015fleri bir destek sa\u011fl\u0131yor. \u00c7eli\u015fkili ve b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f sinyaller nedeniyle y\u00f6n hafif negatif, g\u00fcven d\u00fc\u015f\u00fck.",
   "27.11 17:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 17:23 N  NEWS (6 new) score -0.10 conf 0.35: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Fed'in Aral\u0131k'ta faiz art\u0131rabilece\u011fine dair bahisler ve risk i\u015ftah\u0131n\u0131n toparlanmas\u0131yla ABD tahvil getirilerinin y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k zay\u0131f dolar ve 3.600 dolar \u00fczerindeki toparlanma destek sa\u011fl\u0131yor, jeopolitik risk ise s\u0131n\u0131rl\u0131 kal\u0131yor. Ba\u015fl\u0131klar \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
+  "27.11 17:23 N  NEWS (6 new) score -0.10 conf 0.35: Yeni ba\u015fl\u0131klar kar\u0131\u015f\u0131k: Fed'in Aral\u0131k'ta faiz art\u0131rabilece\u011fine dair bahisler ve risk i\u015ftah\u0131n\u0131n toparlanmas\u0131yla ABD tahvil getirilerinin y\u00fckselmesi alt\u0131n\u0131 bask\u0131l\u0131yor. Buna kar\u015f\u0131l\u0131k zay\u0131f dolar ve 3.600 dolar \u00fczerindeki toparlanma destek sa\u011fl\u0131yor, jeopolitik risk ise s\u0131n\u0131rl\u0131 kal\u0131yor. Ba\u015fl\u0131klar \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "27.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 17:30 B6  karar turu: Claude \u00abEndeksler g\u00fcn\u00fc art\u0131da tutsa da son bir saatte k\u00e2r sat\u0131\u015f\u0131yla geri \u00e7ekiliyor, bu y\u00fczden \u015firkete \u00f6zel haber ve g\u00f6reli g\u00fc\u00e7 belirleyici olacak.\u00bb / GPT \u00ab-\u00bb",
+  "27.11 17:30 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"BZ=F\",\"exchangeName\":\"NYM\",\"fullExchangeName\":\"NY Mercantile\",\"i"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    4963.78
-   ],
-   [
     1795200566,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795789640,
+    4963.78
+   ],
+   [
+    1795789834,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    4975.18
-   ],
-   [
     1795200566,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795789640,
+    4975.18
+   ],
+   [
+    1795789834,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    4993.28
-   ],
-   [
     1795200566,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795789640,
+    4993.28
+   ],
+   [
+    1795789834,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    4969.22
-   ],
-   [
     1795200566,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795789640,
+    4969.22
+   ],
+   [
+    1795789834,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795200386,
-    5297.35
-   ],
-   [
     1795200566,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795789640,
     5297.35
+   ],
+   [
+    1795789834,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795200386,
-    124569.15
-   ],
    [
     1795200566,
     124513.69
@@ -108542,21 +108538,77 @@
    [
     1795789640,
     128183.18
+   ],
+   [
+    1795789834,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
-  "market_open": false,
-  "last_decision_ms": 1795627413432,
+  "market_open": true,
+  "last_decision_ms": 1795789825072,
   "view": {
-   "ts": 1795786328279,
-   "claude": "Geni\u015f piyasa a\u00e7\u0131l\u0131\u015f \u00f6ncesi pozitif g\u00f6r\u00fcnse de teknoloji taraf\u0131 zay\u0131f; en net f\u0131rsat ihracat k\u0131s\u0131tlamalar\u0131 bask\u0131s\u0131ndaki NVDA'da k\u0131sa pozisyon.",
-   "claude_model": "claude-opus-5-5",
+   "ts": 1795789825072,
+   "claude": "Endeksler g\u00fcn\u00fc art\u0131da tutsa da son bir saatte k\u00e2r sat\u0131\u015f\u0131yla geri \u00e7ekiliyor, bu y\u00fczden \u015firkete \u00f6zel haber ve g\u00f6reli g\u00fc\u00e7 belirleyici olacak.",
    "gpt": "",
-   "premarket": true
+   "gpt_model": null,
+   "claude_model": "claude-opus-5-5",
+   "picks": {
+    "SPY": {
+     "claude": [
+      null,
+      null
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "QQQ": {
+     "claude": [
+      null,
+      null
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "NVDA": {
+     "claude": [
+      "short",
+      0.5
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "AAPL": {
+     "claude": [
+      "none",
+      0.3
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    },
+    "TSLA": {
+     "claude": [
+      "long",
+      0.55
+     ],
+     "gpt": [
+      null,
+      null
+     ]
+    }
+   }
   },
   "next_open": "2026-11-27T09:30:00-05:00",
-  "state": "haz\u0131rl\u0131k (seans \u00f6ncesi)",
+  "state": "aktif (seans a\u00e7\u0131k)",
   "premarket_day": "2026-11-27",
   "alpaca": {
    "multiplier": "4",
@@ -108672,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795200386,
-    4876.96
-   ],
    [
     1795200566,
     4876.96
@@ -120671,6 +120719,10 @@
    [
     1795789640,
     4876.96
+   ],
+   [
+    1795789834,
+    4876.96
    ]
   ],
   "news": {
@@ -123069,6 +123121,10 @@
    [
     1795789640,
     100
+   ],
+   [
+    1795789834,
+    100
    ]
   ],
   "score": {},
@@ -123078,6 +123134,10 @@
    "date": "2026-11-27",
    "councils": 0
   },
-  "seen": {}
+  "seen": {
+   "NVDA": 1795788900000,
+   "AAPL": 1795788900000,
+   "TSLA": 1795788900000
+  }
  }
 }
