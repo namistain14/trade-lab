@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 07:24 (İstanbul)
+> Son güncelleme: 27.11.2026 07:27 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 07:15): Claude puan **-0.15**, güven 0.40 — Fed faiz artırımı beklentileri ve HSBC'nin 3.400 dolar uyarısı altın için baskı oluşturuyor; buna karşılık dolar endeksinin 104'ün altına gerilemesi ve İran savaşının sürmesi kısmen destekleyici. Haberler birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
+Son haber analizi (27.11 07:27): Claude puan **-0.15**, güven 0.40 — Altın 15 aylık dip seviyelerinde ve Fed faiz artırımı beklentileri (şahin) baskı oluşturuyor; bu, kısa vadede altın için olumsuz. Buna karşılık dolar endeksinin 104'ün altına gerilemesi ve güvenli liman talebini artıran İran savaşı/Kuveyt saldırısı haberleri kısmen dengeleyici; bu çelişkili sinyaller ve kısa vadeli toparlanma güveni düşürüyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 05:50 N  NEWS (9 new) score -0.50 conf 0.60: Fed faiz artırımı beklentileri, doların 22 aylık zirveye yakın seyretmesi ve güçlü ABD büyümesi altın için baskılayıcı. Türkiye Merkez Bankası'nın yerli altın alımlarını askıya alması da merkez bankası talebini zayıflatıyor. İran savaşı ve Ukrayna'daki gerilim güvenli liman talebini destekliyor olsa da bu etki sınırlı kalıyor; eski haberler ve "altındaki düşüş sınırlı olabilir" yorumları belirsizliği artırdığı için güven orta düzeyde.
-27.11 06:02 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 06:02 N  NEWS (7 new) score -0.60 conf 0.60: Fed faiz artırımı beklentileri ve doların 22 aylık zirveye yakın seyretmesi altın için baskılayıcı; altın 15 aylık dibe geriledikten sonra 3.567$ civarında tutunmaya çalışıyor. İran ve Ukrayna'daki savaş haberleri güvenli liman talebi yaratmadığı için jeopolitik destek zayıf, ancak altının düşüşünün kısmen fiyatlandığına dair görüşler ve kısa vadeli stabilizasyon sinyalleri güveni sınırlıyor.
 27.11 06:15 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 06:15 N  NEWS (14 new) score -0.50 conf 0.60: Dolar 22 aylık zirveye yakın ve art arda yükselişle güçleniyor, Fed'in faiz artırma beklentileri güçleniyor; bu da altın için baskılayıcı. Altın 15 aylık dibe inip yatay seyrediyor ve bazı haberler toparlanma sinyali veriyor, İran ve Ukrayna kaynaklı jeopolitik gerilim ise güvenli liman talebini destekliyor ancak bu etki dolar ve faiz kaynaklı baskıyı dengeleyemiyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 07:03 N  NEWS (33 new) score -0.15 conf 0.40: Altın 15 aylık dipten toparlanıyor, ancak Fed faiz artırımı beklentileri ve dolardaki güçlü yükseliş altın için baskı oluşturuyor. İran savaşındaki tırmanış ve Kuveyt'teki saldırı güvenli liman talebini destekliyor, ama bu etki fiyatlarda şimdiden kısmen yer etmiş görünüyor; net görünüm hafif negatif.
 27.11 07:15 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 07:15 N  NEWS (14 new) score -0.15 conf 0.40: Fed faiz artırımı beklentileri ve HSBC'nin 3.400 dolar uyarısı altın için baskı oluşturuyor; buna karşılık dolar endeksinin 104'ün altına gerilemesi ve İran savaşının sürmesi kısmen destekleyici. Haberler birbiriyle çelişiyor ve bir kısmı zaten fiyatlanmış olduğu için güven düşük.
+27.11 07:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 07:27 N  NEWS (13 new) score -0.15 conf 0.40: Altın 15 aylık dip seviyelerinde ve Fed faiz artırımı beklentileri (şahin) baskı oluşturuyor; bu, kısa vadede altın için olumsuz. Buna karşılık dolar endeksinin 104'ün altına gerilemesi ve güvenli liman talebini artıran İran savaşı/Kuveyt saldırısı haberleri kısmen dengeleyici; bu çelişkili sinyaller ve kısa vadeli toparlanma güveni düşürüyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
