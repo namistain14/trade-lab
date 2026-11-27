@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 17:51 (İstanbul)
+> Son güncelleme: 27.11.2026 17:54 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 17:11 N  NEWS (10 new) score -0.10 conf 0.30: Yeni haberlerin çoğu altın için doğrudan etkisiz (savaş/Golden Dome/spor/moda içerikli). Fed'in sıkılaştırma beklentileri ve risk iştahının toparlanması ABD tahvil getirilerini yukarı çekip altını baskılıyor; öte yandan dolar zayıflığı ve ETF girişleri bir destek sağlıyor. Çelişkili ve büyük ölçüde fiyatlanmış sinyaller nedeniyle yön hafif negatif, güven düşük.
-27.11 17:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:23 N  NEWS (6 new) score -0.10 conf 0.35: Yeni başlıklar karışık: Fed'in Aralık'ta faiz artırabileceğine dair bahisler ve risk iştahının toparlanmasıyla ABD tahvil getirilerinin yükselmesi altını baskılıyor. Buna karşılık zayıf dolar ve 3.600 dolar üzerindeki toparlanma destek sağlıyor, jeopolitik risk ise sınırlı kalıyor. Başlıklar çelişkili ve bir kısmı eski olduğu için güven düşük.
 27.11 17:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:30 B6  karar turu: Claude «Endeksler günü artıda tutsa da son bir saatte kâr satışıyla geri çekiliyor, bu yüzden şirkete özel haber ve göreli güç belirleyici olacak.» / GPT «-»
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 17:42 B6  karar turu: Claude «Endeksler NVDA'daki ihracat kontrolü haberiyle son bir saatte sert geri çekildi; seçici olup yalnızca göreli güç gösteren hisselerde pozisyon almak mantıklı.» / GPT «-»
 27.11 17:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:48 N  NEWS (10 new) score -0.20 conf 0.30: Başlıklar karışık ve çelişkili: Fed'in şahin beklentileri ve dolardaki toparlanma ile risk iştahının artması altın için hafif negatif, buna karşılık ETF girişleri ve alım fırsatı haberleri destekleyici. Savaş kaynaklı güvenli liman talebi yeni bir sert tırmanışa işaret etmiyor; bazı başlıklar eski veya fiyatlanmış olduğu için güven düşük.
+27.11 17:54 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 17:54 B6  karar turu: Claude «Endeksler son bir saatte çip ağırlıklı satışla geri çekildi; göreceli güçlü TSLA alımı tercih edilirken düşüşü kovalamaktan kaçınılıyor.» / GPT «-»
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.

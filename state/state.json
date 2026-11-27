@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    5104.97
-   ],
-   [
     1795201857,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795791081,
     5145.97
+   ],
+   [
+    1795791270,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    4868.5
-   ],
-   [
     1795201857,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795791081,
+    4868.5
+   ],
+   [
+    1795791270,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 18:21 N  NEWS (16 new) score -0.55 conf 0.60: S\u0131cak PCE enflasyonu (ba\u015fl\u0131k 3.8%, \u00e7ekirdek 3.3%) Aral\u0131k ay\u0131nda Fed faiz art\u0131r\u0131m\u0131 beklentilerini g\u00fc\u00e7lendirerek alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor; alt\u0131n 3.500 dolar\u0131n alt\u0131na indi. Ancak d\u00fc\u015f\u00fc\u015f b\u00fcy\u00fck \u00f6l\u00e7\u00fcde fiyatlanm\u0131\u015f durumda ve \u0130ran/Ukrayna sava\u015f haberleri g\u00fcvenli liman talebi i\u00e7in destek sa\u011flayabilir, bu y\u00fczden g\u00fcven orta d\u00fczeyde.",
-  "25.11 18:30 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 18:30 B6  karar turu: Claude \u00abTeknoloji a\u011f\u0131rl\u0131kl\u0131 sert bir risk-off g\u00fcn\u00fc ya\u015fan\u0131yor ve \u00f6\u011fle saatlerindeki tepki y\u00fckseli\u015fi s\u00f6n\u00fcmlendi; bu nedenle zay\u0131f hisselerde k\u0131sa y\u00f6nl\u00fc i\u015flemler daha mant\u0131kl\u0131, ancak 1:4 kald\u0131ra\u00e7ta %1'lik stop sermayenin %4'\u00fcne denk geldi\u011fi i\u00e7in pozisyon boyutu dikkatli tutulmal\u0131.\u00bb / GPT \u00ab-\u00bb",
   "25.11 18:33 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 18:33 N  NEWS (12 new) score -0.70 conf 0.80: S\u0131cak PCE enflasyonu (%3.8) ve g\u00fc\u00e7l\u00fc GDP, Fed'in daha fazla s\u0131k\u0131la\u015ft\u0131rma (Aral\u0131k faiz art\u0131\u015f\u0131) beklentisini g\u00fc\u00e7lendirdi; dolar endeksi 104'e do\u011fru y\u00fckseliyor ve alt\u0131n 3.500 dolar\u0131n alt\u0131na, 15 ayl\u0131k dip seviyesine geriledi. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi var ama bask\u0131n etki reel faiz ve dolar kanal\u0131ndan geliyor; k\u0131sa vadede bask\u0131 s\u00fcrmesi bekleniyor, bu nedenle g\u00fc\u00e7l\u00fc negatif g\u00f6r\u00fc\u015f.",
@@ -30238,7 +30236,9 @@
   "27.11 17:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 17:42 B6  karar turu: Claude \u00abEndeksler NVDA'daki ihracat kontrol\u00fc haberiyle son bir saatte sert geri \u00e7ekildi; se\u00e7ici olup yaln\u0131zca g\u00f6reli g\u00fc\u00e7 g\u00f6steren hisselerde pozisyon almak mant\u0131kl\u0131.\u00bb / GPT \u00ab-\u00bb",
   "27.11 17:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 17:48 N  NEWS (10 new) score -0.20 conf 0.30: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k ve \u00e7eli\u015fkili: Fed'in \u015fahin beklentileri ve dolardaki toparlanma ile risk i\u015ftah\u0131n\u0131n artmas\u0131 alt\u0131n i\u00e7in hafif negatif, buna kar\u015f\u0131l\u0131k ETF giri\u015fleri ve al\u0131m f\u0131rsat\u0131 haberleri destekleyici. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi yeni bir sert t\u0131rman\u0131\u015fa i\u015faret etmiyor; baz\u0131 ba\u015fl\u0131klar eski veya fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck."
+  "27.11 17:48 N  NEWS (10 new) score -0.20 conf 0.30: Ba\u015fl\u0131klar kar\u0131\u015f\u0131k ve \u00e7eli\u015fkili: Fed'in \u015fahin beklentileri ve dolardaki toparlanma ile risk i\u015ftah\u0131n\u0131n artmas\u0131 alt\u0131n i\u00e7in hafif negatif, buna kar\u015f\u0131l\u0131k ETF giri\u015fleri ve al\u0131m f\u0131rsat\u0131 haberleri destekleyici. Sava\u015f kaynakl\u0131 g\u00fcvenli liman talebi yeni bir sert t\u0131rman\u0131\u015fa i\u015faret etmiyor; baz\u0131 ba\u015fl\u0131klar eski veya fiyatlanm\u0131\u015f oldu\u011fu i\u00e7in g\u00fcven d\u00fc\u015f\u00fck.",
+  "27.11 17:54 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 17:54 B6  karar turu: Claude \u00abEndeksler son bir saatte \u00e7ip a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015fla geri \u00e7ekildi; g\u00f6receli g\u00fc\u00e7l\u00fc TSLA al\u0131m\u0131 tercih edilirken d\u00fc\u015f\u00fc\u015f\u00fc kovalamaktan ka\u00e7\u0131n\u0131l\u0131yor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    4963.78
-   ],
-   [
     1795201857,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795791081,
+    4963.78
+   ],
+   [
+    1795791270,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    4975.18
-   ],
-   [
     1795201857,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795791081,
+    4975.18
+   ],
+   [
+    1795791270,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    4993.28
-   ],
-   [
     1795201857,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795791081,
+    4993.28
+   ],
+   [
+    1795791270,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    4969.22
-   ],
-   [
     1795201857,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795791081,
+    4969.22
+   ],
+   [
+    1795791270,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795201687,
-    5297.35
-   ],
-   [
     1795201857,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795791081,
     5297.35
+   ],
+   [
+    1795791270,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795201687,
-    123970.73
-   ],
    [
     1795201857,
     124419.69
@@ -108542,15 +108538,19 @@
    [
     1795791081,
     128183.18
+   ],
+   [
+    1795791270,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795790540440,
+  "last_decision_ms": 1795791259926,
   "view": {
-   "ts": 1795790540440,
-   "claude": "Endeksler NVDA'daki ihracat kontrol\u00fc haberiyle son bir saatte sert geri \u00e7ekildi; se\u00e7ici olup yaln\u0131zca g\u00f6reli g\u00fc\u00e7 g\u00f6steren hisselerde pozisyon almak mant\u0131kl\u0131.",
+   "ts": 1795791259926,
+   "claude": "Endeksler son bir saatte \u00e7ip a\u011f\u0131rl\u0131kl\u0131 sat\u0131\u015fla geri \u00e7ekildi; g\u00f6receli g\u00fc\u00e7l\u00fc TSLA al\u0131m\u0131 tercih edilirken d\u00fc\u015f\u00fc\u015f\u00fc kovalamaktan ka\u00e7\u0131n\u0131l\u0131yor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108558,7 +108558,7 @@
     "SPY": {
      "claude": [
       "none",
-      0.3
+      0.4
      ],
      "gpt": [
       null,
@@ -108568,7 +108568,7 @@
     "QQQ": {
      "claude": [
       "none",
-      0.3
+      0.4
      ],
      "gpt": [
       null,
@@ -108578,7 +108578,7 @@
     "NVDA": {
      "claude": [
       "none",
-      0.35
+      0.45
      ],
      "gpt": [
       null,
@@ -108587,8 +108587,8 @@
     },
     "AAPL": {
      "claude": [
-      "none",
-      0.3
+      "short",
+      0.4
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795201687,
-    4876.96
-   ],
    [
     1795201857,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795791081,
     4876.96
+   ],
+   [
+    1795791270,
+    4876.96
    ]
   ],
   "news": {
@@ -123152,6 +123152,10 @@
    ],
    [
     1795791081,
+    100
+   ],
+   [
+    1795791270,
     100
    ]
   ],
