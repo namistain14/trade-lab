@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 17:45 (İstanbul)
+> Son güncelleme: 27.11.2026 17:48 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 17:36): Claude puan **-0.05**, güven 0.30 — Yeni başlıkların çoğu jeopolitik arka plan haberi olup altın fiyatını doğrudan etkileyecek nitelikte değil; İran savaşıyla ilgili yeni haberler ise belirsiz ve fiyatlanmış görünüyor. Fed sıkılaştırma beklentileri ve dolardaki toparlanma altın için hafif baskılayıcı, buna karşılık önceki dolar zayıflığı kaynaklı yükseliş ve güvenli liman talebi ise destekleyici; sinyaller çelişkili olduğundan skor sıfıra yakın ve güven düşük.
+Son haber analizi (27.11 17:48): Claude puan **-0.20**, güven 0.30 — Başlıklar karışık ve çelişkili: Fed'in şahin beklentileri ve dolardaki toparlanma ile risk iştahının artması altın için hafif negatif, buna karşılık ETF girişleri ve alım fırsatı haberleri destekleyici. Savaş kaynaklı güvenli liman talebi yeni bir sert tırmanışa işaret etmiyor; bazı başlıklar eski veya fiyatlanmış olduğu için güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 16:59 N  NEWS (11 new) score -0.05 conf 0.35: 
-27.11 17:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:11 N  NEWS (10 new) score -0.10 conf 0.30: Yeni haberlerin çoğu altın için doğrudan etkisiz (savaş/Golden Dome/spor/moda içerikli). Fed'in sıkılaştırma beklentileri ve risk iştahının toparlanması ABD tahvil getirilerini yukarı çekip altını baskılıyor; öte yandan dolar zayıflığı ve ETF girişleri bir destek sağlıyor. Çelişkili ve büyük ölçüde fiyatlanmış sinyaller nedeniyle yön hafif negatif, güven düşük.
 27.11 17:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:23 N  NEWS (6 new) score -0.10 conf 0.35: Yeni başlıklar karışık: Fed'in Aralık'ta faiz artırabileceğine dair bahisler ve risk iştahının toparlanmasıyla ABD tahvil getirilerinin yükselmesi altını baskılıyor. Buna karşılık zayıf dolar ve 3.600 dolar üzerindeki toparlanma destek sağlıyor, jeopolitik risk ise sınırlı kalıyor. Başlıklar çelişkili ve bir kısmı eski olduğu için güven düşük.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 17:39 ERROR B5P: No market data for BZ=F: https://query2.finance.yahoo.com: HTTP 200 {"chart":{"result":[{"meta":{"currency":"USD","symbol":"BZ=F","exchangeName":"NYM","fullExchangeName":"NY Mercantile","i
 27.11 17:42 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 17:42 B6  karar turu: Claude «Endeksler NVDA'daki ihracat kontrolü haberiyle son bir saatte sert geri çekildi; seçici olup yalnızca göreli güç gösteren hisselerde pozisyon almak mantıklı.» / GPT «-»
+27.11 17:48 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 17:48 N  NEWS (10 new) score -0.20 conf 0.30: Başlıklar karışık ve çelişkili: Fed'in şahin beklentileri ve dolardaki toparlanma ile risk iştahının artması altın için hafif negatif, buna karşılık ETF girişleri ve alım fırsatı haberleri destekleyici. Savaş kaynaklı güvenli liman talebi yeni bir sert tırmanışa işaret etmiyor; bazı başlıklar eski veya fiyatlanmış olduğu için güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
