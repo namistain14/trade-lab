@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 17:08 (İstanbul)
+> Son güncelleme: 27.11.2026 17:11 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 16:59): Claude puan **-0.05**, güven 0.35 — Fed sıkılaştırma beklentileri ve dolar endeksinin 22 ayın zirvesine yakın seyretmesi altın için baskı oluşturuyor; buna karşın İran savaşı, Kuveyt'teki İtalyan ölümleri ve Ukrayna'daki tırmanış jeopolitik talebi destekliyor. Altın 15 aylık dip sonrası toparlanıyor ancak toparlanma hisse senedi iyileşmesine bağlı olduğu için güvenli liman etkisi zayıf; sinyaller karışık olduğundan görece hafif negatif bir görünüm.
+Son haber analizi (27.11 17:11): Claude puan **-0.10**, güven 0.30 — Yeni haberlerin çoğu altın için doğrudan etkisiz (savaş/Golden Dome/spor/moda içerikli). Fed'in sıkılaştırma beklentileri ve risk iştahının toparlanması ABD tahvil getirilerini yukarı çekip altını baskılıyor; öte yandan dolar zayıflığı ve ETF girişleri bir destek sağlıyor. Çelişkili ve büyük ölçüde fiyatlanmış sinyaller nedeniyle yön hafif negatif, güven düşük.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 15:46 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
-27.11 15:46 N  NEWS (20 new) score -0.30 conf 0.50: Altın 15 aylık dibinden toparlansa da ana sürücüler hâlâ sıkılaşma yönünde: Commerzbank Fed'in iki kez faiz artırabileceğini, dolar ise 22 aylık zirveye yakın seyrediyor. Savaşa bağlı güvenli liman talebi var ama büyük ölçüde fiyatlanmış durumda; kısa vadede reel faiz ve dolar baskısı daha belirleyici görünüyor.
 27.11 15:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 15:59 N  NEWS (7 new) score -0.30 conf 0.50: Fed'in faiz artırımı beklentileri (Commerzbank: iki artırım) ve dolar endeksinin 22 aylık zirveye yakın seyretmesi altın için baskı oluşturuyor. Rusya'nın 10 ayda 72 ton rezerv satması da merkez bankası alım desteğini zayıflatan bir negatif sinyal. Buna karşılık İran savaşı ve jeopolitik gerilim güvenli liman talebini destekliyor, ancak bu etki büyük ölçüde fiyatlanmış durumda; altın 15 aylık dibinden toparlanmaya çalışıyor.
 27.11 16:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 16:47 N  NEWS (10 new) score -0.15 conf 0.40: Fed sıkılaştırma beklentileri ve dolar endeksinin 22 ayın zirvesine yakın seyretmesi altın için baskı oluşturuyor; buna karşın İran savaşı, Kuveyt'teki İtalyan ölümleri ve Ukrayna'daki tırmanış jeopolitik talebi destekliyor. Altın 15 aylık dip sonrası toparlanıyor ancak toparlanma hisse senedi iyileşmesine bağlı olduğu için güvenli liman etkisi zayıf; sinyaller karışık olduğundan görece hafif negatif bir görünüm.
 27.11 16:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 16:59 N  NEWS (11 new) score -0.05 conf 0.35: 
+27.11 17:11 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 17:11 N  NEWS (10 new) score -0.10 conf 0.30: Yeni haberlerin çoğu altın için doğrudan etkisiz (savaş/Golden Dome/spor/moda içerikli). Fed'in sıkılaştırma beklentileri ve risk iştahının toparlanması ABD tahvil getirilerini yukarı çekip altını baskılıyor; öte yandan dolar zayıflığı ve ETF girişleri bir destek sağlıyor. Çelişkili ve büyük ölçüde fiyatlanmış sinyaller nedeniyle yön hafif negatif, güven düşük.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
