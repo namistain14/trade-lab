@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 15:31 (İstanbul)
+> Son güncelleme: 27.11.2026 15:34 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 15:22): Claude puan **+0.05**, güven 0.30 — Altının 15 aylık dibinden toparlanması ve jeopolitik gerilimlerin (İran, Ukrayna) sürmesi kısa vadede hafif destekleyici; ancak Fed faiz artırımı endişeleri, yüksek enflasyon ve güçlü dolar riski bunu dengeliyor. Haberler karışık ve büyük ölçüde fiyatlanmış olduğundan etki sınırlı ve yön belirsiz.
+Son haber analizi (27.11 15:34): Claude puan **-0.15**, güven 0.40 — Başlıklar karışık: Fed'in şahin riski ve yüksek enflasyon altın için baskı oluşturuyor, altın 15 aylık dipten toparlansa da. İran ve Ukrayna savaşlarının güvenli liman talebini artırması olası ama bu etki büyük ölçüde fiyatlanmış görünüyor. Net etki hafif negatif.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 13:57 N  NEWS (8 new) score -0.25 conf 0.40: Başlıkların çoğu faiz artışı beklentilerini ve güçlü ABD verilerini öne çıkarıyor; PCE'nin %3,8 olması ve Fed'in yıl sonuna kadar artırım beklentisi altın için baskılayıcı. Petrol fiyatlarındaki yükseliş ve dolar/rupi hareketleri de sınırlı bir negatif etki yaratıyor. Buna karşılık Ukrayna-Rusya ve İran savaşına ilişkin jeopolitik gerilim ile merkez bankalarının altın alımları destekleyici, bu nedenle etki hafif negatif kalıyor ve güven düşük.
-27.11 14:09 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 14:09 N  NEWS (19 new) score -0.20 conf 0.40: Haberlerde jeopolitik risk (İran, Rusya-Ukrayna, Hindistan-Pakistan) altın için güvenli liman talebi yaratıyor, ancak PCE'nin %3,8'e çıkması ve Fed'in yılsonuna kadar faiz artırabileceği beklentileri ile DXY'deki güçlenme altın açısından baskılayıcı. Bu nedenle kısa vadede hafif negatif bir görünüm var; haberlerin çoğu eski veya zaten fiyatlanmış olduğu için güven düşük.
 27.11 14:21 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 14:21 N  NEWS (9 new) score -0.10 conf 0.35: Haberler karışık: Orta Doğu ve Ukrayna çatışmaları güvenli liman talebini destekliyor, ancak PCE'nin %3,8'e çıkması ve Fed'in faiz artırımı beklentisi, dolardaki güç (DXY'nin desteği, rupi ve ringgit'teki sert değer kaybı) altın için baskılayıcı. Ayrıca 'altın %3,13 yükseldi' başlığı zaten fiyatlanmış bir hareketi gösterebilir, bu yüzden güven düşük.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 15:10 N  NEWS (17 new) score +0.10 conf 0.35: Altın yakın vadede 3.660 doların üzerinde toparlanma gösteriyor, ancak Fed faiz artırımı beklentileri ve yüksek enflasyon baskısı altın için olumsuz. Jeopolitik haberler (İran savaşı, Ukrayna, Air Force siber saldırısı) güvenli liman talebini destekleyebilir, fakat bunların çoğu zaten fiyatlanmış ve yönlendirici etkisi sınırlı; bu nedenle sinyal zayıf ve karışık.
 27.11 15:22 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 15:22 N  NEWS (10 new) score +0.05 conf 0.30: Altının 15 aylık dibinden toparlanması ve jeopolitik gerilimlerin (İran, Ukrayna) sürmesi kısa vadede hafif destekleyici; ancak Fed faiz artırımı endişeleri, yüksek enflasyon ve güçlü dolar riski bunu dengeliyor. Haberler karışık ve büyük ölçüde fiyatlanmış olduğundan etki sınırlı ve yön belirsiz.
+27.11 15:34 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 15:34 N  NEWS (13 new) score -0.15 conf 0.40: Başlıklar karışık: Fed'in şahin riski ve yüksek enflasyon altın için baskı oluşturuyor, altın 15 aylık dipten toparlansa da. İran ve Ukrayna savaşlarının güvenli liman talebini artırması olası ama bu etki büyük ölçüde fiyatlanmış görünüyor. Net etki hafif negatif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
