@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    5104.97
-   ],
-   [
     1795208040,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795797292,
     5145.97
+   ],
+   [
+    1795797477,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4868.5
-   ],
-   [
     1795208040,
     4868.5
    ],
@@ -27166,15 +27162,19 @@
    [
     1795797292,
     4868.5
+   ],
+   [
+    1795797477,
+    4868.5
    ]
   ],
   "news": {
-   "score": 0.1,
-   "confidence": 0.35,
-   "reason": "Haberler kar\u0131\u015f\u0131k: \u0130ran sava\u015f\u0131 ve jeopolitik gerilim alt\u0131n i\u00e7in hafif destekleyici olsa da, Fed faiz art\u0131r\u0131m\u0131 beklentileri, dolar\u0131n haftal\u0131k kazan\u00e7 yolunda olmas\u0131 ve Treasury getirilerinin y\u00fckselmesi alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Fiyattaki yak\u0131n d\u00f6nem s\u0131\u00e7ramas\u0131n\u0131n b\u00fcy\u00fck k\u0131sm\u0131 short pozisyon kapatmas\u0131yla geldi\u011fi i\u00e7in g\u00fcven d\u00fc\u015f\u00fck tutuldu.",
+   "score": 0.15,
+   "confidence": 0.4,
+   "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k ama hafif pozitif bir tablo var: \u00c7in'in borsay\u0131 destekleme vaadi, k\u0131sa pozisyonlar\u0131n kapanmas\u0131 ve Hindistan/\u00c7in'de al\u0131m talebinin canlanmas\u0131 fiyat\u0131 destekliyor. Buna kar\u015f\u0131l\u0131k dolar haftal\u0131k kazan\u00e7 yolunda ve ABD tahvil getirileri y\u00fckseliyor, Fed bask\u0131s\u0131 ile \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman etkisi ise net bir y\u00f6n vermiyor; ayr\u0131ca 3,4'l\u00fck s\u0131\u00e7rama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda.",
    "n": 45,
-   "ts": 1795796756266,
-   "new_headlines": 3,
+   "ts": 1795797476187,
+   "new_headlines": 7,
    "key_events": [
     "Fed faiz art\u0131r\u0131m riskleri alt\u0131n kazan\u00e7lar\u0131n\u0131 s\u0131n\u0131rl\u0131yor (Kitco, FXEmpire)",
     "'Dollar Storm': dolar 2024'ten bu yana en uzun y\u00fckseli\u015f serisinde (Bloomberg)",
@@ -27185,15 +27185,6 @@
    "score_note": "none"
   },
   "news_history": [
-   {
-    "ts": 1795417096928,
-    "score": 0.1,
-    "confidence": 0.35,
-    "reason": "Alt\u0131n 14 ayl\u0131k dibinden toparlan\u0131yor ve dolar 19 ayl\u0131k zirvesinden geri \u00e7ekildi, bu k\u0131sa vadede hafif destekleyici. Ancak Fed faiz art\u0131r\u0131m\u0131 beklentileri, y\u00fcksek getiriler ve PCE enflasyon verisinin beklenmesi bask\u0131 yaratabilir; \u0130ran sava\u015f\u0131ndaki t\u0131rman\u0131\u015f g\u00fcvenli liman talebi yaratsa da piyasada bu etkinin \u015fimdiye kadar s\u0131n\u0131rl\u0131 kald\u0131\u011f\u0131 g\u00f6r\u00fcl\u00fcyor. Haberler \u00e7eli\u015fkili ve bir k\u0131sm\u0131 eski, bu y\u00fczden g\u00fcven d\u00fc\u015f\u00fck.",
-    "new": 9,
-    "gpt_score": null,
-    "gpt_confidence": null
-   },
    {
     "ts": 1795417853855,
     "score": 0.3,
@@ -29884,27 +29875,43 @@
     "new": 3,
     "gpt_score": null,
     "gpt_confidence": null
+   },
+   {
+    "ts": 1795797476187,
+    "score": 0.15,
+    "confidence": 0.4,
+    "reason": "Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k ama hafif pozitif bir tablo var: \u00c7in'in borsay\u0131 destekleme vaadi, k\u0131sa pozisyonlar\u0131n kapanmas\u0131 ve Hindistan/\u00c7in'de al\u0131m talebinin canlanmas\u0131 fiyat\u0131 destekliyor. Buna kar\u015f\u0131l\u0131k dolar haftal\u0131k kazan\u00e7 yolunda ve ABD tahvil getirileri y\u00fckseliyor, Fed bask\u0131s\u0131 ile \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman etkisi ise net bir y\u00f6n vermiyor; ayr\u0131ca 3,4'l\u00fck s\u0131\u00e7rama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda.",
+    "new": 7,
+    "gpt_score": null,
+    "gpt_confidence": null
    }
   ],
   "news_calls": {
    "date": "2026-11-27",
-   "n": 96
+   "n": 97
   },
   "news_seen": [
+   "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs - The Mighty 790 KFGO",
+   "Trump, NATO chief urge Russia, Ukraine to avoid expanding war after Mar-a-Lago meeting - Florida\u2019s Voice",
+   "Warhammer 40,000: Dawn of War 4 gets a model painter demo, so you can make a mess of your Orks, Necrons, Space Marines and AdMech before they even hit the battlefield - Rock Paper Shotgun",
+   "After the war, prisoner-of-war camps in Ukraine will be converted into prisons \u2014 a decision by the Cabinet of Ministers - UkrMedia News",
+   "Bulgaria holding EU's 22nd Russia sanctions package hostage in bid to extract concessions - The Kyiv Independent",
+   "Russia Ukraine War Children - chronicleonline.com",
    "Two December Events Could Determine Whether the US Stock Market Ends 2026 in Recovery - Coinpaper",
    "Australian Dollar: Further losses against US Dollar likely \u2013 Rabobank - FXStreet",
    "READER POLL: Do you think President Trump should end the war in Iran? - Baltimore Sun",
    "War, Sanctions Leave 53,000 Iranian Applicants Out of This Year's Hajj - IranWire",
    "Kenyan doomsday cult leader convicted over further 123 deaths",
    "Will new energy fixes cost more in January?",
-   "Russia Ukraine War Children - WV News",
-   "NY Mets trade retrospective: A future GM to the Rockies for a 3.4 WAR pitcher - Rising Apple",
-   "Belmont Park Picks Saturday, Nov. 28, 2026: Man o' War, Long Island and Jockey Club Stakes - US Racing",
    "In Iran, child marriage risks complicated by war - DW.com",
+   "NY Mets trade retrospective: A future GM to the Rockies for a 3.4 WAR pitcher - Rising Apple",
+   "Russia Ukraine War Children - WV News",
+   "Protecting the wounded, sick and dead: why the rules of war must translate into action - ICRC",
    "Gold and Silver Jump as Beijing Vows to Support China's Stock Market - BullionVault",
    "Brazil pushes back on Macron calling its meat 'doped'",
    "The Big Pressures Facing the Fed - Bloomberg.com",
    "Risk-sensitive currencies rise on tech rebound, dollar set for weekly gain - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+   "Gold prices recovered strongly today, November 28, 2026, with buyers appearing just in time, pushing domestic gold prices to their highest level in a week. - Vietnam.vn",
    "War or peace \u2013 not dodging the question - Counterfire",
    "Japanese Yen slips as calmer equity markets lifts US Treasury yields | FXStreet - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
    "DRAM shortage pushes electronics makers to set up 'war rooms' and buy as few as five chips at a time - TweakTown",
@@ -29912,8 +29919,6 @@
    "Euro: Rebound eyes 1.11 retest against US Dollar \u2013 Scotiabank - FXStreet",
    "Trump: Iran war will be over \u2018sort of whenever I want it to be\u2019 - Yahoo",
    "EU Prepares Billions to Replace US Air Defense, Intelligence and Military Support - UNITED24 Media",
-   "Russia Ukraine War Children - chronicleonline.com",
-   "Huawei Builds Semiconductor Ecosystem Under U.S. Sanctions - \uc870\uc120\uc77c\ubcf4",
    "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
    "\u2018No reports, no strikes\u2019: Russia\u2019s pro-war bloggers slam proposed prison sentences for sharing photos and videos of Ukrainian attacks - Meduza",
    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
@@ -29927,20 +29932,13 @@
    "Why Trump\u2019s trade war may benefit Canada in the long run - TheDailyNewsOnline.com",
    "John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
    "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
-   "Personal Stigma and Knowledge Shape Help-Seeking Intentions Among War-Affected Adults - Bioengineer.org",
    "Gold demand revives in India, China as price slide sparks bargain buying - Mining.com",
    "If sport is war minus the shooting, Marc M\u00e1rquez is the master of the art of war - Motor Sport Magazine",
    "Equity, gold or debt funds: Where should investors put their money in 2027? - Livemint",
-   "BC-US Dollar - The Register-Herald",
-   "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies",
-   "The price of gold today, Nov. 27, 2026 \u2014 and the best places to buy - CNBC",
-   "New trade war could be brewing after Trump announces proposed tariff hikes - Baltimore Sun",
-   "Ukraine strike plant critical to Russia's Iskander missile programme - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430"
+   "The price of gold today, Nov. 27, 2026 \u2014 and the best places to buy - CNBC"
   ]
  },
  "log": [
-  "26.11 16:15 N  NEWS (27 new) score -0.60 conf 0.60: Enflasyon verileri (Ekim CPI, Core PCE %3.3) ve neredeyse %100 olarak fiyatlanan faiz art\u0131r\u0131m\u0131 beklentisi, dolar ve reel getirilerdeki y\u00fckseli\u015fle birlikte alt\u0131n \u00fczerinde bask\u0131 olu\u015fturuyor; alt\u0131n 3.500$ alt\u0131na d\u00fc\u015ft\u00fc. Baz\u0131 haberlerde d\u00fc\u015f\u00fck getirilerin toparlanmay\u0131 destekledi\u011fi ve merkez bankas\u0131 al\u0131mlar\u0131 gibi destekleyici unsurlar bulunsa da, bu etkiler Fed kaynakl\u0131 sat\u0131\u015f bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor. Bir\u00e7ok ba\u015fl\u0131k tekrar eden veya d\u00fc\u015f\u00fck kaliteli i\u00e7erik oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
-  "26.11 16:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 16:27 N  NEWS (32 new) score -0.50 conf 0.60: Haberlerin a\u011f\u0131rl\u0131\u011f\u0131 alt\u0131n i\u00e7in negatif: Fed'in s\u0131k\u0131la\u015ft\u0131rma y\u00f6nl\u00fc beklentileri (faiz art\u0131r\u0131m\u0131 olas\u0131l\u0131\u011f\u0131 \u00e7ok y\u00fcksek), ABD enflasyonunun yukar\u0131 y\u00f6nl\u00fc s\u00fcrpriz yapmas\u0131, g\u00fc\u00e7l\u00fc dolar ve y\u00fcksek ABD tahvil getirileri alt\u0131n \u00fczerinde bask\u0131 yarat\u0131yor. Jeopolitik gerilimler (\u0130ran sava\u015f\u0131, Ukrayna) g\u00fcvenli liman talebini bir miktar destekleyebilir, ancak bu etki faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; baz\u0131 ba\u015fl\u0131klar da eski veya zaten fiyatlanm\u0131\u015f.",
   "26.11 16:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 16:39 N  NEWS (8 new) score -0.50 conf 0.60: Bask\u0131n etki \u015fahin Fed beklentilerinden kaynaklan\u0131yor: \u00e7ekirdek PCE %3,3'e y\u00fckseldi, faiz art\u0131r\u0131m\u0131 oranlar\u0131 \u00e7ok y\u00fcksek ve alt\u0131n 3.500 dolar\u0131n alt\u0131na d\u00fc\u015ft\u00fc. G\u00fc\u00e7l\u00fc dolar ve reel faiz bask\u0131s\u0131 alt\u0131n\u0131 a\u015fa\u011f\u0131 \u00e7ekiyor; Ukrayna ve H\u00fcrm\u00fcz'deki jeopolitik gerilim ise g\u00fcvenli liman talebi yaratsa da bu etki s\u0131n\u0131rl\u0131 kal\u0131yor. Baz\u0131 ba\u015fl\u0131klar eski veya fiyatlanm\u0131\u015f haberler oldu\u011fu i\u00e7in g\u00fcven orta d\u00fczeyde tutuldu.",
@@ -30238,7 +30236,9 @@
   "27.11 19:25 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 19:25 N  NEWS (3 new) score +0.10 conf 0.35: ",
   "27.11 19:32 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 19:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc y\u00fckseldi ve \u00f6\u011fle saatlerinde yatay konsolidasyona ge\u00e7ti; se\u00e7ici al\u0131m f\u0131rsatlar\u0131 geride kalan isimlerde aranmal\u0131.\u00bb / GPT \u00ab-\u00bb"
+  "27.11 19:32 B6  karar turu: Claude \u00abPiyasa g\u00fcn i\u00e7inde g\u00fc\u00e7l\u00fc y\u00fckseldi ve \u00f6\u011fle saatlerinde yatay konsolidasyona ge\u00e7ti; se\u00e7ici al\u0131m f\u0131rsatlar\u0131 geride kalan isimlerde aranmal\u0131.\u00bb / GPT \u00ab-\u00bb",
+  "27.11 19:37 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 19:37 N  NEWS (7 new) score +0.15 conf 0.40: Alt\u0131n i\u00e7in kar\u0131\u015f\u0131k ama hafif pozitif bir tablo var: \u00c7in'in borsay\u0131 destekleme vaadi, k\u0131sa pozisyonlar\u0131n kapanmas\u0131 ve Hindistan/\u00c7in'de al\u0131m talebinin canlanmas\u0131 fiyat\u0131 destekliyor. Buna kar\u015f\u0131l\u0131k dolar haftal\u0131k kazan\u00e7 yolunda ve ABD tahvil getirileri y\u00fckseliyor, Fed bask\u0131s\u0131 ile \u0130ran sava\u015f\u0131n\u0131n g\u00fcvenli liman etkisi ise net bir y\u00f6n vermiyor; ayr\u0131ca 3,4'l\u00fck s\u0131\u00e7rama b\u00fcy\u00fck \u00f6l\u00e7\u00fcde zaten fiyatlanm\u0131\u015f durumda."
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4963.78
-   ],
-   [
     1795208040,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795797292,
+    4963.78
+   ],
+   [
+    1795797477,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4975.18
-   ],
-   [
     1795208040,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795797292,
+    4975.18
+   ],
+   [
+    1795797477,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4993.28
-   ],
-   [
     1795208040,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795797292,
+    4993.28
+   ],
+   [
+    1795797477,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4969.22
-   ],
-   [
     1795208040,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795797292,
+    4969.22
+   ],
+   [
+    1795797477,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    5297.35
-   ],
-   [
     1795208040,
     5297.35
    ],
@@ -94898,6 +94894,10 @@
    ],
    [
     1795797292,
+    5297.35
+   ],
+   [
+    1795797477,
     5297.35
    ]
   ],
@@ -96544,10 +96544,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    128205.61
-   ],
-   [
     1795208040,
     128205.61
    ],
@@ -108541,6 +108537,10 @@
    ],
    [
     1795797292,
+    128183.18
+   ],
+   [
+    1795797477,
     128183.18
    ]
   ],
@@ -108725,10 +108725,6 @@
   },
   "equity_curve": [
    [
-    1795207859,
-    4876.96
-   ],
-   [
     1795208040,
     4876.96
    ],
@@ -120722,6 +120718,10 @@
    ],
    [
     1795797292,
+    4876.96
+   ],
+   [
+    1795797477,
     4876.96
    ]
   ],
@@ -123296,6 +123296,10 @@
    ],
    [
     1795797292,
+    100
+   ],
+   [
+    1795797477,
     100
    ]
   ],
