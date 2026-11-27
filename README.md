@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 05:23 (İstanbul)
+> Son güncelleme: 27.11.2026 05:26 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 05:13): Claude puan **-0.50**, güven 0.60 — Fed faiz artırımı beklentileri ve doların 22 aylık zirveye yakın seyretmesi altın için baskılayıcı; altın 3.550 dolar civarına gerilemiş durumda. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak haberlerde bu etki belirgin değil; bu nedenle düşüş eğilimi orta-güçlü ama belirsizlik yüksek.
+Son haber analizi (27.11 05:26): Claude puan **-0.50**, güven 0.60 — Dolar 22 aylık zirve yakınında ve üst üste yükseliş serisi uzuyor; güçlü ABD GSYİH verisi Fed faiz artırımı beklentilerini destekliyor. Bu tablo reel faizleri ve doları yukarı çekerek altın için baskı oluşturuyor. Yapay zeka kaynaklı güvenli liman talebi ve Ukrayna/İran jeopolitik riskleri altını destekleyebilir, ancak haberlerde altın kâr satışları ve "gold plunge" ifadeleri öne çıkıyor; bu nedenle net etki orta-yüksek düzeyde negatif.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 03:49 N  NEWS (9 new) score -0.60 conf 0.60: Fed faiz artırımı beklentilerinin güçlenmesi, doların 2024'ten bu yana en uzun yükseliş serisine girmesi ve likidite sıkılaşması sinyalleri altın için baskı yaratıyor. Türkiye Merkez Bankası'nın yerli altın alımlarını durdurması da resmi talebi zayıflatıyor; jeopolitik gerilim haberleri ise zaten fiyatlanmış olduğu için bu baskıyı dengeleyecek ölçüde değil.
-27.11 04:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 04:01 N  NEWS (6 new) score -0.50 conf 0.60: Haberlerin çoğu altın için olumsuz: Fed faiz artırımı beklentileri güçleniyor, dolar üst üste yükseliş serisini sürdürüyor ve altın 3.550 dolar civarına geriledi. Türkiye Merkez Bankası'nın altın alımlarını askıya alması da talebi zayıflatıyor. Savaş ve nükleer gerilim haberleri güvenli liman talebini destekleyebilir, ancak bunlar büyük ölçüde eski ve fiyatlanmış haberler.
 27.11 04:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 04:13 N  NEWS (14 new) score -0.50 conf 0.60: Dolar 22 aylık zirveye yakın seyrediyor ve Fed'in sıkı duruş beklentisi altın üzerinde baskı yaratıyor; Türkiye Merkez Bankası'nın yerli altın alımlarını askıya alması da talebi zayıflatıyor. Savaş ve nükleer tırmanış haberleri güvenli liman talebini destekliyor olsa da bunlar büyük ölçüde fiyatlanmış durumda, bu nedenle etkisi sınırlı kalıyor.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 05:01 N  NEWS (2 new) score -0.50 conf 0.60: Fed faiz artırımı beklentileri ve doların 22 aylık zirveye yakın seyri altın için baskılayıcı; altın yaklaşık 3.550$ seviyesine geriledi ve kâr realizasyonu görülüyor. Jeopolitik haberler (İran savaşı, Ukrayna, nükleer söylemler) güvenli liman talebini destekleyebilir, ancak bu etki haberlerde belirgin bir fiyat tepkisi yaratmadığı için sınırlı kalıyor.
 27.11 05:13 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 05:13 N  NEWS (13 new) score -0.50 conf 0.60: Fed faiz artırımı beklentileri ve doların 22 aylık zirveye yakın seyretmesi altın için baskılayıcı; altın 3.550 dolar civarına gerilemiş durumda. İran savaşı ve jeopolitik gerilim güvenli liman talebini destekleyebilir, ancak haberlerde bu etki belirgin değil; bu nedenle düşüş eğilimi orta-güçlü ama belirsizlik yüksek.
+27.11 05:26 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 05:26 N  NEWS (16 new) score -0.50 conf 0.60: Dolar 22 aylık zirve yakınında ve üst üste yükseliş serisi uzuyor; güçlü ABD GSYİH verisi Fed faiz artırımı beklentilerini destekliyor. Bu tablo reel faizleri ve doları yukarı çekerek altın için baskı oluşturuyor. Yapay zeka kaynaklı güvenli liman talebi ve Ukrayna/İran jeopolitik riskleri altını destekleyebilir, ancak haberlerde altın kâr satışları ve "gold plunge" ifadeleri öne çıkıyor; bu nedenle net etki orta-yüksek düzeyde negatif.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
