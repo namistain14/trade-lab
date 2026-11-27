@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    5104.97
-   ],
-   [
     1795205491,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795794726,
     5145.97
+   ],
+   [
+    1795794917,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    4868.5
-   ],
-   [
     1795205491,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795794726,
+    4868.5
+   ],
+   [
+    1795794917,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 20:11 B6  karar turu: Claude \u00abPiyasa sert d\u00fc\u015f\u00fc\u015f g\u00fcn\u00fcn\u00fcn ard\u0131ndan g\u00fc\u00e7l\u00fc bir toparlanma ya\u015f\u0131yor; momentum k\u0131sa vadede yukar\u0131 y\u00f6nl\u00fc ancak dalgal\u0131.\u00bb / GPT \u00ab-\u00bb",
-  "25.11 20:23 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:23 N  NEWS (17 new) score -0.65 conf 0.65: G\u00fc\u00e7l\u00fc ABD b\u00fcy\u00fcme verisi, y\u00fckselen \u00e7ekirdek PCE/enflasyon ve Fed faiz art\u0131r\u0131m\u0131 beklentileri dolar ve reel faizleri destekleyerek alt\u0131n\u0131 bask\u0131l\u0131yor; alt\u0131n zaten %2,44 d\u00fc\u015f\u00fcp 3500 dolar\u0131n alt\u0131na indi. \u0130ran sava\u015f\u0131 gibi jeopolitik riskler olmas\u0131na ra\u011fmen g\u00fcvenli liman talebi bu bask\u0131y\u0131 dengelemiyor, bu nedenle k\u0131sa vadeli g\u00f6r\u00fcn\u00fcm negatif; ancak d\u00fc\u015f\u00fc\u015f k\u0131smen fiyatlanm\u0131\u015f olabilece\u011finden g\u00fcven orta d\u00fczeyde.",
   "25.11 20:23 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "25.11 20:23 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc sert d\u00fc\u015f\u00fc\u015fle ge\u00e7irse de son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir tepki y\u00fckseli\u015fi ya\u015fan\u0131yor; bu toparlanman\u0131n s\u0131n\u0131rl\u0131 ve temkinli bir devam\u0131 bekleniyor.\u00bb / GPT \u00ab-\u00bb",
@@ -30238,7 +30236,9 @@
   "27.11 18:46 S3  GPT: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:46 S3  KURUL TSLA: i\u015flem yok, \u00fc\u00e7 \u00fcyeden biri cevap vermedi",
   "27.11 18:49 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 18:49 N  NEWS (9 new) score +0.20 conf 0.40: "
+  "27.11 18:49 N  NEWS (9 new) score +0.20 conf 0.40: ",
+  "27.11 18:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 18:55 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    4963.78
-   ],
-   [
     1795205491,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795794726,
+    4963.78
+   ],
+   [
+    1795794917,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    4975.18
-   ],
-   [
     1795205491,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795794726,
+    4975.18
+   ],
+   [
+    1795794917,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    4993.28
-   ],
-   [
     1795205491,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795794726,
+    4993.28
+   ],
+   [
+    1795794917,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    4969.22
-   ],
-   [
     1795205491,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795794726,
+    4969.22
+   ],
+   [
+    1795794917,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795205320,
-    5297.35
-   ],
-   [
     1795205491,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795794726,
     5297.35
+   ],
+   [
+    1795794917,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795205320,
-    127195.88
-   ],
    [
     1795205491,
     126989.31
@@ -108542,23 +108538,27 @@
    [
     1795794726,
     128183.18
+   ],
+   [
+    1795794917,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795794184896,
+  "last_decision_ms": 1795794906333,
   "view": {
-   "ts": 1795794184896,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir y\u00fckseli\u015f g\u00fcn\u00fcnde, geri \u00e7ekilmeler s\u0131\u011f kal\u0131yor ve al\u0131\u015f y\u00f6nl\u00fc i\u015flemler avantajl\u0131 g\u00f6r\u00fcn\u00fcyor.",
+   "ts": 1795794906333,
+   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
    "picks": {
     "SPY": {
      "claude": [
-      "long",
-      0.55
+      "none",
+      0.4
      ],
      "gpt": [
       null,
@@ -108568,7 +108568,7 @@
     "QQQ": {
      "claude": [
       "long",
-      0.58
+      0.5
      ],
      "gpt": [
       null,
@@ -108577,8 +108577,8 @@
     },
     "NVDA": {
      "claude": [
-      "none",
-      0.4
+      "short",
+      0.45
      ],
      "gpt": [
       null,
@@ -108598,7 +108598,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.45
+      0.4
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795205320,
-    4876.96
-   ],
    [
     1795205491,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795794726,
     4876.96
+   ],
+   [
+    1795794917,
+    4876.96
    ]
   ],
   "news": {
@@ -123236,6 +123236,10 @@
    ],
    [
     1795794726,
+    100
+   ],
+   [
+    1795794917,
     100
    ]
   ],
