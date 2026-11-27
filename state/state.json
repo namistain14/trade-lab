@@ -96,10 +96,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    5104.97
-   ],
-   [
     1795206392,
     5104.97
    ],
@@ -12094,6 +12090,10 @@
    [
     1795795492,
     5145.97
+   ],
+   [
+    1795795682,
+    5145.97
    ]
   ],
   "archive": [
@@ -15168,10 +15168,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    4868.5
-   ],
-   [
     1795206392,
     4868.5
    ],
@@ -27165,6 +27161,10 @@
    ],
    [
     1795795492,
+    4868.5
+   ],
+   [
+    1795795682,
     4868.5
    ]
   ],
@@ -29939,8 +29939,6 @@
   ]
  },
  "log": [
-  "25.11 20:23 B6  karar turu: Claude \u00abPiyasa g\u00fcn\u00fc sert d\u00fc\u015f\u00fc\u015fle ge\u00e7irse de son bir saatte teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde g\u00fc\u00e7l\u00fc bir tepki y\u00fckseli\u015fi ya\u015fan\u0131yor; bu toparlanman\u0131n s\u0131n\u0131rl\u0131 ve temkinli bir devam\u0131 bekleniyor.\u00bb / GPT \u00ab-\u00bb",
-  "26.11 15:27 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 15:27 N  NEWS (45 new) score -0.40 conf 0.55: Bask\u0131n sinyaller alt\u0131n i\u00e7in olumsuz: ABD enflasyon verisi faiz art\u0131\u015f\u0131 beklentilerini g\u00fc\u00e7lendirdi, Fed'in \u015fahin duru\u015fu ve y\u00fcksek ABD tahvil getirileri dolar\u0131 destekleyerek alt\u0131na bask\u0131 yap\u0131yor. Jeopolitik tarafta g\u00fcvenli liman talebini art\u0131racak yeni bir t\u0131rman\u0131\u015f yok (Trump-Rutte uyar\u0131s\u0131 ve Kuzey Kore'nin Rusya'ya silah sevkiyat\u0131n\u0131 durdurmas\u0131 gibi haberler s\u0131n\u0131rl\u0131 etki), ayr\u0131ca ABD \u015e\u00fckran G\u00fcn\u00fc tatili nedeniyle likidite d\u00fc\u015f\u00fck; baz\u0131 tek t\u00fck \"tahvil getirileri geriliyor\" haberleri kar\u015f\u0131t sinyal oldu\u011fu i\u00e7in g\u00fcveni s\u0131n\u0131rl\u0131yor.",
   "26.11 15:39 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "26.11 15:39 N  NEWS (7 new) score -0.40 conf 0.60: Ba\u015fl\u0131klar\u0131n \u00e7o\u011fu alt\u0131n i\u00e7in bask\u0131lay\u0131c\u0131: g\u00fc\u00e7l\u00fc dolar, y\u00fcksek ABD tahvil getirileri ve Fed faiz art\u0131r\u0131m\u0131 beklentileri (hawkish d\u00f6n\u00fc\u015f) \u00f6n planda. Iran sava\u015f\u0131 ve Houthi sald\u0131r\u0131lar\u0131 gibi jeopolitik geli\u015fmeler g\u00fcvenli liman talebini destekleyebilir, ancak bu etki faiz ve dolar bask\u0131s\u0131n\u0131n gerisinde kal\u0131yor; ayr\u0131ca baz\u0131 haberler \u00e7eli\u015fkili ve k\u0131smen fiyatlanm\u0131\u015f.",
@@ -30238,7 +30236,9 @@
   "27.11 18:55 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
   "27.11 18:55 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.\u00bb / GPT \u00ab-\u00bb",
   "27.11 19:01 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
-  "27.11 19:01 N  NEWS (12 new) score -0.20 conf 0.40: "
+  "27.11 19:01 N  NEWS (12 new) score -0.20 conf 0.40: ",
+  "27.11 19:08 B6  GPT cevap vermedi: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.",
+  "27.11 19:08 B6  karar turu: Claude \u00abPiyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftahl\u0131 ve yukar\u0131 ivme \u00f6\u011fleden sonra da s\u00fcrebilir.\u00bb / GPT \u00ab-\u00bb"
  ],
  "gold_big": {
   "account": {
@@ -30425,10 +30425,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    4963.78
-   ],
-   [
     1795206392,
     4963.78
    ],
@@ -42422,6 +42418,10 @@
    ],
    [
     1795795492,
+    4963.78
+   ],
+   [
+    1795795682,
     4963.78
    ]
   ],
@@ -42537,10 +42537,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    4975.18
-   ],
-   [
     1795206392,
     4975.18
    ],
@@ -54534,6 +54530,10 @@
    ],
    [
     1795795492,
+    4975.18
+   ],
+   [
+    1795795682,
     4975.18
    ]
   ],
@@ -54619,10 +54619,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    4993.28
-   ],
-   [
     1795206392,
     4993.28
    ],
@@ -66616,6 +66612,10 @@
    ],
    [
     1795795492,
+    4993.28
+   ],
+   [
+    1795795682,
     4993.28
    ]
   ]
@@ -66826,10 +66826,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    4969.22
-   ],
-   [
     1795206392,
     4969.22
    ],
@@ -78823,6 +78819,10 @@
    ],
    [
     1795795492,
+    4969.22
+   ],
+   [
+    1795795682,
     4969.22
    ]
   ],
@@ -82901,10 +82901,6 @@
   },
   "equity_curve": [
    [
-    1795206212,
-    5297.35
-   ],
-   [
     1795206392,
     5297.35
    ],
@@ -94899,6 +94895,10 @@
    [
     1795795492,
     5297.35
+   ],
+   [
+    1795795682,
+    5297.35
    ]
   ],
   "news_calls": {
@@ -96543,10 +96543,6 @@
    "equity": 128183.18
   },
   "equity_curve": [
-   [
-    1795206212,
-    127254.46
-   ],
    [
     1795206392,
     127784.75
@@ -108542,15 +108538,19 @@
    [
     1795795492,
     128183.18
+   ],
+   [
+    1795795682,
+    128183.18
    ]
   ],
   "open": {},
   "started": "2026-10-23T14:50:15+00:00",
   "market_open": true,
-  "last_decision_ms": 1795794906333,
+  "last_decision_ms": 1795795671239,
   "view": {
-   "ts": 1795794906333,
-   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftah\u0131yla y\u00fckseliyor, son mumlarda hafif bir soluklanma g\u00f6r\u00fcl\u00fcyor.",
+   "ts": 1795795671239,
+   "claude": "Piyasa teknoloji \u00f6nc\u00fcl\u00fc\u011f\u00fcnde risk i\u015ftahl\u0131 ve yukar\u0131 ivme \u00f6\u011fleden sonra da s\u00fcrebilir.",
    "gpt": "",
    "gpt_model": null,
    "claude_model": "claude-opus-5-5",
@@ -108558,7 +108558,7 @@
     "SPY": {
      "claude": [
       "none",
-      0.4
+      0.45
      ],
      "gpt": [
       null,
@@ -108568,7 +108568,7 @@
     "QQQ": {
      "claude": [
       "long",
-      0.5
+      0.6
      ],
      "gpt": [
       null,
@@ -108577,8 +108577,8 @@
     },
     "NVDA": {
      "claude": [
-      "short",
-      0.45
+      "long",
+      0.52
      ],
      "gpt": [
       null,
@@ -108588,7 +108588,7 @@
     "AAPL": {
      "claude": [
       "long",
-      0.55
+      0.5
      ],
      "gpt": [
       null,
@@ -108598,7 +108598,7 @@
     "TSLA": {
      "claude": [
       "none",
-      0.4
+      0.5
      ],
      "gpt": [
       null,
@@ -108724,10 +108724,6 @@
    "last_check_ms": 0
   },
   "equity_curve": [
-   [
-    1795206212,
-    4876.96
-   ],
    [
     1795206392,
     4876.96
@@ -120723,6 +120719,10 @@
    [
     1795795492,
     4876.96
+   ],
+   [
+    1795795682,
+    4876.96
    ]
   ],
   "news": {
@@ -123256,6 +123256,10 @@
    ],
    [
     1795795492,
+    100
+   ],
+   [
+    1795795682,
     100
    ]
   ],
