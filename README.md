@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 11:03 (İstanbul)
+> Son güncelleme: 27.11.2026 11:07 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 10:54): Claude puan **+0.15**, güven 0.40 — Altın yeni haberlerde 3.600 doları yeniden aştı ve dolar, Şükran Günü sonrası sessiz işlemlerde talep bulamıyor; bu kısa vadede altına hafif destek sağlıyor. Ancak Fed faiz artırımı beklentilerinin dolara destek vermesi, doların uzun süreli kazanma serisi ve altının hâlâ düşüş trendinde olması nedeniyle sinyal zayıf ve çelişkili; Rusya-Ukrayna gerilimi ise büyük ölçüde fiyatlanmış durumda.
+Son haber analizi (27.11 11:07): Claude puan **+0.20**, güven 0.40 — Altın, yıllık en düşük seviyeden toparlanıyor ve dolar endeksi 103,86'nın altına geriliyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımının büyük ölçüde fiyatlanmış olması ve altındaki düşüş trendinin sürmesi toparlanmanın kalıcılığını sınırlıyor; jeopolitik haberler ise yeni bir güvenli liman talebi yaratmıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 09:29 N  NEWS (15 new) score +0.10 conf 0.35: İran savaşındaki tırmanış ve Kuveyt'teki saldırı jeopolitik güvenli liman talebini destekleyerek altın için hafif olumlu. Ancak dolar 22 aylık zirveye yakın, Fed'de faiz artırımı tartışılıyor ve altın son dönemde bir yıllık dibi gördü; bu unsurlar baskı yaratıyor. Haberler birbiriyle çelişiyor ve bir kısmı eski olduğundan güven düşük.
-27.11 09:41 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 09:41 N  NEWS (13 new) score -0.12 conf 0.40: Haberler karışık: ABD doları 22 aylık zirveye yakın ve Fed'in faiz artırımı ihtimali konuşuluyor, bu altın için baskılayıcı. İran savaşındaki tırmanış ise güvenli liman talebini destekliyor ancak bu etki büyük ölçüde fiyatlanmış durumda. Altının 3.600 doların üzerine toparlanması sakinleşen piyasa endişeleriyle ilişkili, bu nedenle kısa vadede net yön belirsiz kalıyor.
 27.11 09:53 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 09:53 N  NEWS (14 new) score -0.05 conf 0.30: Sinyaller karışık: İran savaşı ve Ukrayna gerilimi güvenli liman talebini destekliyor, ancak Fed faiz artırımı beklentileri ve güçlü dolar/yen baskısı altın için olumsuz. Altının 1 yıllık dibinden toparlanması ve "ucuz seviyelerden güçlü alım" haberleri kısa vadede sınırlı bir destek sağlıyor; genel etki hafif negatif-nötr olarak değerlendirildi.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 10:42 N  NEWS (6 new) score +0.10 conf 0.35: Yeni haberlerde altın toparlanması ve doların Şükran sonrası zayıf seyri kısa vadede hafif yükseliş lehine. Ancak Fed faiz artırımı beklentilerinin doları desteklemesi, doların 2024'ten beri en uzun yükseliş serisine yaklaşması ve altının düşüş trendinde kalması bu etkiyi sınırlıyor; jeopolitik haberler (İran savaşı, Kiev saldırısı) ise büyük ölçüde fiyatlanmış durumda.
 27.11 10:54 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 10:54 N  NEWS (10 new) score +0.15 conf 0.40: Altın yeni haberlerde 3.600 doları yeniden aştı ve dolar, Şükran Günü sonrası sessiz işlemlerde talep bulamıyor; bu kısa vadede altına hafif destek sağlıyor. Ancak Fed faiz artırımı beklentilerinin dolara destek vermesi, doların uzun süreli kazanma serisi ve altının hâlâ düşüş trendinde olması nedeniyle sinyal zayıf ve çelişkili; Rusya-Ukrayna gerilimi ise büyük ölçüde fiyatlanmış durumda.
+27.11 11:07 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 11:07 N  NEWS (13 new) score +0.20 conf 0.40: Altın, yıllık en düşük seviyeden toparlanıyor ve dolar endeksi 103,86'nın altına geriliyor; bu kısa vadede altını destekliyor. Ancak Fed faiz artırımının büyük ölçüde fiyatlanmış olması ve altındaki düşüş trendinin sürmesi toparlanmanın kalıcılığını sınırlıyor; jeopolitik haberler ise yeni bir güvenli liman talebi yaratmıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
