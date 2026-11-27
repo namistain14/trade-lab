@@ -1,7 +1,7 @@
 # trade-lab — SANAL işlem denemesi
 
 > ⚠️ Bu tamamen **sanal (paper) trading**. Hiçbir borsaya emir gitmez, gerçek para yoktur.
-> Son güncelleme: 27.11.2026 03:09 (İstanbul)
+> Son güncelleme: 27.11.2026 03:12 (İstanbul)
 
 ## Bot A — Kripto 1 saatlik trend (x1)
 
@@ -34,7 +34,7 @@ Son işlemler:
 
 **Hesap değeri: 5,297.35 $** (başlangıç 5,000 $, +297.35 $ / %+5.95)
 
-Son haber analizi (27.11 03:00): Claude puan **-0.50**, güven 0.60 — Son haberler altın üzerinde baskıyı gösteriyor: Fed faiz artırımı beklentileri güçleniyor, dolar tatil seyrinde de olsa yükseliyor ve altın yaklaşık 3.550 dolara geriledi. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış görünüyor ve yeni bir tırmanma sinyali yok.
+Son haber analizi (27.11 03:12): Claude puan **-0.40**, güven 0.60 — Altın, Fed'in sıkılaşma (faiz artırımı) beklentileri ve güçlenen doların etkisiyle near $3,550 seviyesine geriledi; bu baskı ana itici güç olarak görünüyor. Rusya'nın nükleer savaş uyarısı ve İran savaşıyla ilgili haberler jeopolitik risk primi sağlasa da, bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermediği için güvenli liman talebini belirgin biçimde artırmıyor.
 
 Son işlemler:
 
@@ -103,8 +103,6 @@ Son işlemler:
 ## Son olaylar
 
 ```
-27.11 01:35 N  NEWS (16 new) score -0.35 conf 0.50: Fed faiz artırımı beklentileri ve %3.8 ABD enflasyon haberleri altın için baskı yaratıyor; Kitco ve FXEmpire de altının düştüğünü ve kâr realizasyonu yaşandığını bildiriyor. Ukrayna ve İran savaşına ilişkin haberler jeopolitik risk primi sağlasa da, bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış sinyali zayıf, bu yüzden güvenli liman etkisi sınırlı kalıyor.
-27.11 01:47 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 01:47 N  NEWS (13 new) score -0.35 conf 0.50: Fed faiz artırımı beklentilerinin sürmesi, ABD enflasyonunun %3,8'e yükselmesi ve doların tatil sezonunda toparlanması altın için baskı oluşturuyor. Kitco'nun 'altın düşerken gümüş yükseliyor' notu ve FXEmpire'ın kâr realizasyonu yorumu da zayıf eğilimi destekliyor. İran savaşı ve Ukrayna haberleri güvenli liman talebini sınırlı da olsa destekleyebilir, ancak bu haberler yeni ve belirgin bir tırmanış içermiyor; düşük hacimli tatil piyasası da sinyali zayıflatıyor.
 27.11 01:59 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 01:59 N  NEWS (3 new) score -0.30 conf 0.45: Fed faiz artırımı beklentilerinin sürmesi ve ABD enflasyonunun %3,8'e yükselmesi, doların tatil döneminde toparlanmasıyla birlikte altın üzerinde baskı yaratıyor. İran savaşı ve Ukrayna'daki gelişmeler güvenli liman talebini destekleyebilir, ancak bu haberler büyük ölçüde fiyatlanmış ve ince piyasa koşullarında etkisi sınırlı kalabilir.
@@ -118,6 +116,8 @@ Son işlemler:
 27.11 02:48 N  NEWS (3 new) score -0.45 conf 0.60: Yeni haberler altın için net baskılayıcı: Fed faiz artırımı beklentileri güçleniyor, altın yaklaşık 3.550 dolara geriledi ve ABD doları holiday ortamında toparlanıyor. Enflasyonun 3 yılın zirvesine çıkması da faiz artırımı ihtimalini canlı tutuyor; jeopolitik gelişmeler (İran/Ukrayna) ise güvenli liman talebini sınırlı destekliyor, bu yüzden etki ağırlıklı olarak düşüş yönünde.
 27.11 03:00 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
 27.11 03:00 N  NEWS (6 new) score -0.50 conf 0.60: Son haberler altın üzerinde baskıyı gösteriyor: Fed faiz artırımı beklentileri güçleniyor, dolar tatil seyrinde de olsa yükseliyor ve altın yaklaşık 3.550 dolara geriledi. İran savaşı ve Ukrayna haberleri güvenli liman talebini destekleyebilir, ancak bu gelişmeler büyük ölçüde fiyatlanmış görünüyor ve yeni bir tırmanma sinyali yok.
+27.11 03:12 N  GPT news failed: OpenAI account problem: 401 expired_secret_key: Your API key has expired. Create a new API key to continue.
+27.11 03:12 N  NEWS (9 new) score -0.40 conf 0.60: Altın, Fed'in sıkılaşma (faiz artırımı) beklentileri ve güçlenen doların etkisiyle near $3,550 seviyesine geriledi; bu baskı ana itici güç olarak görünüyor. Rusya'nın nükleer savaş uyarısı ve İran savaşıyla ilgili haberler jeopolitik risk primi sağlasa da, bunlar büyük ölçüde fiyatlanmış ve yeni bir tırmanış içermediği için güvenli liman talebini belirgin biçimde artırmıyor.
 ```
 
 Günlük analiz raporları: `reports/` klasörü. Ayarlar: `config.yaml`.
